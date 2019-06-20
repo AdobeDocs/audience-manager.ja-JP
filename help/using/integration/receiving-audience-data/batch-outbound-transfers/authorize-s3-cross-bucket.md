@@ -1,0 +1,18 @@
+---
+description: Amazon Simple Storage Service （Amazon S3）を使用しているお客様の場合、アウトバウンドのデータ転送プロセスにおいて、バケットを通してアウトバウンドデータファイルを配信するために、Amazon S3 のアクセスキーおよび秘密鍵を提供していただく必要があります。
+seo-description: Amazon Simple Storage Service （Amazon S3）を使用しているお客様の場合、アウトバウンドのデータ転送プロセスにおいて、バケットを通してアウトバウンドデータファイルを配信するために、Amazon S3 のアクセスキーおよび秘密鍵を提供していただく必要があります。
+seo-title: アウトバウンドファイルに Amazon S3 のクロスアカウントのバケットのアクセス許可を使用する
+solution: Audience Manager
+title: アウトバウンドファイルに Amazon S3 のクロスアカウントのバケットのアクセス許可を使用する
+uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
+translation-type: tm+mt
+source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+
+---
+
+
+# アウトバウンドファイルに Amazon S3 のクロスアカウントのバケットのアクセス許可を使用する {#leverage-amazon-s-cross-account-bucket-permissions-for-your-outbound-files}
+
+The [!UICONTROL Outbound Data Transfer] process for customers using [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) requires us to ask for your [!DNL Amazon S3] access key and secret key, in order to deliver the outbound data files to your bucket.
+
+[!DNL Amazon S3] のアクセスキーおよび秘密鍵の提供を希望されない場合、[!DNL Audience Manager] の担当コンサルタントまたはカスタマーケアにお問い合わせください。お客様に代わって [!DNL Cross-Account Bucket Permissions]のセットアップをおこないます。You only need to whitelist our [!DNL Amazon S3] account ID for the [!DNL S3] bucket where you wish to receive the outbound data files, as described in the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). 担当の [!DNL Audience Manager]コンサルタントまたはカスタマーケアがアドビの [!DNL Amazon S3] アカウント ID をお渡しします。
