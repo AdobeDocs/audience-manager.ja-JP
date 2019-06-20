@@ -1,0 +1,188 @@
+---
+description: データ収集と統合に関するよくある質問と問題点の説明です。
+seo-description: データ収集と統合に関するよくある質問と問題点の説明です。
+seo-title: データ収集と製品統合の FAQ
+solution: Audience Manager
+title: データ収集と製品統合の FAQ
+uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+translation-type: tm+mt
+source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+
+---
+
+
+# データ収集と製品統合の FAQ{#data-collection-and-product-integration-faq}
+
+データ収集と統合に関するよくある質問と問題点の説明です。
+
+<br> 
+
+<!-- 
+
+faq_data_collection_integration.xml
+
+ -->
+
+**書き出した[!UICONTROL DCS]ログファイルで受信トラフィックを[!UICONTROL DCS]トラフィックと区別するには、どうすればよいですか？**
+
+Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] the same way they get populated by [!UICONTROL DCS]. There are a few different ways to tell that traffic came from [!UICONTROL Inbound]:
+
+* リモート IP は 68.67.173.18 に設定されます。
+* DomainID は 5325 に設定されます。
+* 地域は 0 に設定されます。
+
+<br> 
+
+**dpm. demdex. netのホワイトリストのリストを提供できますか。**
+
+残念ながら、できません。これらの IP は、[!DNL Amazon Web Services] により地域ごとに動的に割り当てられます。結果的に、[!DNL Audience Manager] では、このアドレスに割り当てることができる IP の範囲を管理していません。
+
+<br> 
+
+**受信および送信FTPサーバーのホワイトリストをホワイトリストに登録できますか。**
+
+はい、以下を参照してください。
+
+| 項目 | Address |
+---------|----------|
+| ftp-in.demdex.com | 54.225.117.163 |
+| ftp-out.demdex.com | 23.23.188.76 |
+
+<br> 
+
+**データ[!UICONTROL DIL]統合のコード配置とページ読み込み要件[!DNL Analytics]は何ですか。**
+
+[!DNL Analytics] データを [!DNL Audience Manager] に取り込むには、[!UICONTROL DIL] モジュールの後、`s_code` 関数より*前*に `s.t()` を読み込みます。例えば、次の順でコードを配置するか、読み込まれるようにします。
+
+1. [!DNL Analytics] `s_code`
+
+2. [!DNL Audience Manager][!UICONTROL DIL] モジュール
+
+3. [!DNL Analytics] `s.t()` 関数
+
+ベストプラクティスは、[!DNL Audience Manager] と [!DNL Analytics] の統合を次の 2 つの方法のどちらかでセットアップすることです。
+
+* Put [!UICONTROL DIL] directly in the `s_code`.
+
+* [!UICONTROL DIL] および `s_code` を [!DNL Adobe Launch] または [!DNL Adobe DTM] を通じて提供する。
+
+詳しくは、[データ統合ライブラリ（DIL）API](../dil/dil-overview.md) を参照してください。
+
+<br> 
+
+**[!DNL Analytics]変数が[!DNL Audience Manager]イベント呼び出しに含まれていないのはなぜですか？**
+
+これが起こるのは通常、次の場合です。
+
+* ページ上の他のコード要素を使用して を非同期的に読み込むタグ管理システムを通じて、[!UICONTROL DIL]DIL を提供している。
+* `s.t()` より先に [!UICONTROL DIL] 関数が読み込まれている。
+
+<br> 
+
+**どのバージョンの[!DNL Analytics]作業[!UICONTROL DIL]がありますか?**
+
+[!DNL Analytics] を操作するには、[!DNL Adobe AppMeasurement AS] バージョン 20.2（またはそれ以降）と [!UICONTROL DIL] ライブラリバージョン 3.5.2（またはそれ以降）を使用する必要があります。使用している [!DNL Analytics] または [!DNL AppMeasurement] のバージョンが不明な場合は、ページからおこなわれる [!DNL Analytics] 呼び出しを確認してください。バージョン情報は次のように表示されます。
+
+この顧客が [!DNL Analytics] バージョン 24.4 を使用している場合：
+
+```
+https://112.2o7.net/b/ss/.../1/H.24.4/...
+```
+
+この顧客が [!DNL AppMeasurement] バージョン 3.5.2 を使用している場合：
+
+```
+https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
+```
+
+<br> 
+
+**[!DNL Analytics]の顧客でなくても、ページデータを収集できますか？**
+
+はい。[!UICONTROL DIL] モジュールを使用すれば、[!DNL Analytics] を利用していない場合でもページデータを収集できます。[!UICONTROL DIL] を適切にセットアップすると、次のデータをキャプチャできます。
+
+* メタタグ
+* URL および URL ヘッダー
+* 検索エンジンタイプ
+* キーワード
+
+さらに、クライアントは簡単なオンサイトオブジェクトをデプロイし、[!UICONTROL DIL] でデータを収集するキー値ペアをそのオブジェクトに設定することもできます。これにより、[!DNL Audience Management] を更新しなくても、サイト上の特定のオーディエンスデータポイントを追加したり削除したりできます。パートナーソリューションの担当者と協力して、これを適切にセットアップし、[!DNL DIL] モジュールがこのページオブジェクトを正しく参照するようにしてください。
+
+<br> 
+
+**データ[!UICONTROL DIL]を収集でき[!DNL Google Analytics]ますか。**
+
+はい。[!UICONTROL DIL] では、一部の [!DNL Google Analytics]（GA）要素を収集し、そのデータを [!DNL Audience Manager] に渡すことができます。以下を参照してください。
+
+* [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics)
+* [GA.init](../dil/dil-modules.md#ga-init)
+
+<br> 
+
+**[!DNL Audience Manager]から生データを取得できますか？ また、その粒度はどの程度ですか？**
+
+はい、[!DNL Audience Manager] では、インベントリに収集した既知のユーザーのデータを取得できます。これには以下が含まれます。
+
+* [!DNL Audience Manager] から割り当てられた一意のユーザー ID（UUID）
+* 特性およびセグメント ID
+* 未使用シグネチャ
+* タイムスタンプ
+* ページの URL
+
+<br> 
+
+**1つのサイトでデータを収集し、別のサイトでDFP経由でユーザーをターゲットにしたい。データを収集しない他の資産にもコードをデプロイする必要がありますか？**
+
+いいえ。2つ目のサイトのデータ収集が必要でない場合は、DILをデプロイする必要はありません。DFP経由で2番目のサイトのインベントリにアクセスできる限り、最初のサイトからのデータ収集と、DFP経由でのターゲット設定を行うことができます。
+
+<br> 
+
+**最良のサードパーティデータプロバイダーは何ですか？**
+
+各プロバイダーはそれぞれ固有の情報を提供するので、何を求めているかによって、答えは変わります。重複レポート（コストなしで）有効にできるので、どのプロバイダーが自分に最適かを判断するのに役に立ちます。
+
+<br> 
+
+**[!DNL Audience Manager]はどのように Cookie を設定し変数を DFP に渡しますか？**
+
+[!DNL Audience Manager] では 2 つの Cookie を設定します。一方はセグメント変数を DFP 広告タグに送信し、もう一方は一意のユーザー ID（UUID）を設定します。この ID は DFP にも読み取られます。UUID を広告タグに追加することで、ユーザーレベルのレポートとオーディエンス検出を実行できます。
+
+<br> 
+
+**ユーザーが到達したコンバージョンファンネルのポイントに関する DSP 情報を送信できますか？**
+
+はい。ファンネルデータを送信できますが、DSP にはそれを使用する技術的能力が必要です。DSP は複数のセグメントを確実に処理できる必要があります。それができない場合、特定のセグメントを作成して、コンバージョンの進行状況（例：手順 1 と 2 は完了したが手順 3 は未完）に基づいて、他のセグメントからユーザーを取り出す必要があります。ユーザーをリターゲティングしたり、特定のランディングページに移動させたり、特定のクリエイティブを表示したりできるように、この情報を DSP に送信できます。
+
+<br> 
+
+**FTP で送信したデータが で取得されたことを確認するには、どうすればよいですか？[!DNL Audience Manager]?**
+
+ファイルの拡張子が `.sync` から `.processed` に変わったら、ファイルが取得されたことになります。これが起こったとき、ファイルは取り込みキューに入っています。また、ファイルがアップロードされたとき、アカウントマネージャーがそれを確認できます。
+
+<br> 
+
+**[DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)の機能をテストしたいと思っています。次のように、イベント呼び出しを送信します。呼び出しには[宣言済み ID](../features/declared-ids.md)とシグナルが含まれており、それによって、セットアップ済みの特性とセグメントが認識されます。Can I use the[!UICONTROL General Reports]and[!UICONTROL Trend Reports]to verify if the trait and segment populations are increasing?**
+
+```
+https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
+```
+
+No, do not rely on the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] in this case.
+
+これらのレポートは、レポートの生成時にバックエンドで確認される認証されていないプロファイルレコード（UUID）に基づいてユーザー数を計算します。
+
+On a first call to the [!UICONTROL DCS], the declared IDs are *not* linked to any UUID (i.e. no [demdex cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) is present on the client side). [!UICONTROL DCS] は UUID をランダムに生成し、[!DNL demdex] Cookie を設定して応答呼び出しに含めて渡しますが、この場合、UUID はバックエンドに送信されません。
+
+>[!NOTE]
+>
+>生成された UUID は、Cookie が設定されているデバイスでさらにアクティビティがトリガーされたときにのみ、バックエンドのデータストレージで実体化されます。
+
+このため、これらのレポートは、呼び出しの宣言済み ID でトリガーされたイベントを反映していません。[!UICONTROL DCS] へのイベントテスト呼び出しでは、UUID、ECID（旧 MID）、モバイルデバイス ID のいずれかを使用することをお勧めします。Then, you can verify the trait and segment realizations in the [!UICONTROL General Reports] and in the [!UICONTROL Trend Reports].
+
+詳しくは、[Audience Manager で使用される ID の一覧](../reference/ids-in-aam.md)を参照してください。
+
+<br> 
+
+**ユーザープロファイルがすべての[地域](../api/dcs-intro/dcs-api-reference/dcs-regions.md)に同期されるまで、どれくらいかかりますか？**
+
+ユーザープロファイルがすべての地域にわたって同期するまでに、通常は 24 時間かかります。ただし、稀に、48 時間かかることもあります。
