@@ -1,0 +1,36 @@
+---
+description: Audience Manager におけるサードパーティベンダーとの非同期のバッチデータ交換に関する全般的な概要です。
+seo-description: Audience Manager におけるサードパーティベンダーとの非同期のバッチデータ交換に関する全般的な概要です。
+seo-title: バッチデータ転送プロセスの説明
+solution: Audience Manager
+title: バッチデータ転送プロセスの説明
+uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
+translation-type: tm+mt
+source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+
+---
+
+
+# バッチデータ転送プロセスの説明 {#batch-data-transfer-process-described}
+
+Audience Manager におけるサードパーティベンダーとの非同期のバッチデータ交換に関する全般的な概要です。
+
+## バッチデータの統合
+
+<!-- c_async.xml -->
+
+バッチデータの統合プロセスでは、訪問者情報をアドビのサーバーに保存し、プロバイダーから送信されたデータとの同期を定期的におこないます。非同期のデータ転送プロセスは次の場合に便利です。
+
+* すぐにデータ転送する必要がない場合。
+* セグメント化されたユーザーの大規模なプールを作成するためにデータを収集する場合。
+* You want to reduce data discrepancies and `HTTP` calls from the browser.
+
+![](assets/s2s_70.png)
+
+## データ統合手順
+
+1. ユーザーが顧客サイトを訪問します。
+1. Audience Manager およびサードパーティのデータプロバイダーは訪問者に対して一意の ID （通常 Cookie に基づく）を割り当てます。
+1. Audience Manager はサードパーティのデータプロバイダーを呼び出し、訪問者 ID と照合します。
+1. スケジュールされた要求によって、通常 1 日ごとに、Audience Manager とサードパーティのデータプロバイダーとの間で訪問者のセグメントデータが送受信されます。
+1. Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner. 詳しくは、[受信処理後パートナーに送信されるメッセージの例](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)を参照してください。
