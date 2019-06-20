@@ -1,0 +1,50 @@
+---
+description: サーバー間（S2S）API には、DCS ユーザーデータの送受信や独自システムまたはアプリケーションでの操作を可能にするコードおよびメソッドが用意されています。
+seo-description: サーバー間（S2S）API には、DCS ユーザーデータの送受信や独自システムまたはアプリケーションでの操作を可能にするコードおよびメソッドが用意されています。
+seo-title: サーバー間データ転送用の DCS API
+solution: Audience Manager
+title: サーバー間データ転送用の DCS API
+uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
+translation-type: tm+mt
+source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+
+---
+
+
+# サーバー間データ転送用の DCS API{#dcs-apis-for-server-to-server-data-transfers}
+
+Server-to-server ([!UICONTROL S2S]) [!DNL API]s provide code and methods that let you send and receive [!UICONTROL DCS] user data and work with this information in your own systems or applications.
+
+## 一般的なユースケース {#common-use-cases}
+
+[!UICONTROL Server-to-server] 転送は、ランディングページや訪問者の興味に基づくその他のインタラクションをカスタマイズするのに役立ちます。一般的なユースケースには次のものが含まれます。
+
+* オンサイトパーソナライゼーション：訪問者のセグメントに基づいて関連性の高いコンテンツやコールトゥアクションを動的に追加することにより、サイトでの訪問者のエクスペリエンスを調整します。
+* カスタマーサービスの向上：サーバー間データ転送を通じて [!DNL Audience Manager][!DNL CRM] セグメントを などのシステムにインポートします。このデータは、コールサービスやオンラインチャットのオペレーターにとって、関連性の高いパーソナライズされた顧客情報になります。
+
+## 要件：ユーザー ID と地域サーバー名 {#requirements}
+
+[!UICONTROL DCS API] では、データ要求を検証し実行するためにユーザー ID と地域 ID が必要です。
+
+* ユーザー ID が必要なのは、データを特定の訪問者に関連付ける必要があるからです。
+* 地域 ID が必要なのは、呼び出しをサーバー名に結び付けるためと、サイト訪問者に地理的に最も近いデータセンターにユーザーデータが保存されるからです。
+
+## はじめに {#getting-started}
+
+現在、このガイドでは次のタスクの方法を説明しています。
+
+* [!UICONTROL DCS] のお客様として既に受信している [!DNL Audience Manager] ファイルからユーザー ID と地域 ID を取得する。
+
+* [!DNL Visitor ID Service] を使用している場合に、ユーザー ID と地域 ID を取得する。
+* ユーザー ID と地域 ID が用意できたら、[!UICONTROL DCS] への呼び出しをおこなう。
+
+今後、新しい方法が使用可能になったら、その説明も追加していきます。開始するには、以下の節を参照してください。
+
+* [DCS 応答からのユーザー ID と地域 ID の取得](dcs-aam-ids.md)
+* [Experience Cloud ID サービスを通じたユーザー ID と地域 ID の取得](dcs-mcid-ids.md)
+* [サーバー間 DCS API 呼び出しの実行](dcs-s2s-calls.md)
+
+>[!MORE_LIKE_THIS]
+>
+>* [DCS API リファレンス](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+
