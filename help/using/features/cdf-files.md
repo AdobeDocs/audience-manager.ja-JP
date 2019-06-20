@@ -1,0 +1,381 @@
+---
+description: 顧客データフィード（CDF）の基本情報および使用開始方法。CDF ファイルの受信に関心がある場合も、より詳しい情報が知りたいだけの場合も、まずはこちらを参照してください。
+keywords: セカンドパーティデータ;セカンドパーティ;セカンドパーティデータ;セカンドパーティ
+seo-description: 顧客データフィード（CDF）の基本情報および使用開始方法。CDF ファイルの受信に関心がある場合や詳細を知りたい場合は、ここから始めてください。
+seo-title: 顧客データフィード
+solution: Audience Manager
+title: 顧客データフィード
+uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
+translation-type: tm+mt
+source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+
+---
+
+
+# 顧客データフィード {#customer-data-feeds}
+
+[!UICONTROL Customer Data Feed] （[!UICONTROL CDF]）ファイルの基本情報および開始方法に関する説明です。Start here if you&#39;re interested in receiving [!UICONTROL CDF] files or just want more information.
+
+## ファイルの内容と目的 {#file-contents-purpose}
+
+<!-- cdf-intro.xml -->
+
+[!UICONTROL CDF] ファイルには、[!DNL Audience Manager] イベント呼び出し（`/event`）でサーバーに送信されるデータと同じものが含まれています。ユーザー ID、特性 ID、セグメント ID など、イベント呼び出しで表されるあらゆるパラメーターが含まれます。[!DNL Audience Manager] の内部システムがイベントデータを処理して ファイルを生成します。このファイルの内容は、所定の順序で出現するフィールドで構成されます。[!UICONTROL CDF][!DNL Audience Manager][!UICONTROL CDF] は、時間ごとに ファイルの生成を試み、 サーバー上のセキュリティで保護された顧客専用バケットにファイルを保存します。[!DNL Amazon S3]これらのファイルが提供されているのは、ユーザーインターフェイス上の制限を受けずに [!DNL Audience Manager] データを扱えるようにするためです。
+
+>[!NOTE]
+>
+>[!UICONTROL CDF] ページトラフィックを監視したり、レポートの相違を調整したり、課金などのために、プロキシとしてファイルを使用しないでください。
+
+## はじめに {#getting-started}
+
+There is no self-service process to start [!UICONTROL CDF] file delivery. 開始するには、担当の [!DNL Audience Manager] コンサルタントまたはカスタマーケアに問い合わせてください。導入時に [!DNL Audience Manager] 担当者は以下をおこないます。
+
+* [!DNL Amazon S3] ストレージバケットをセットアップします。
+* Provide read-only [!DNL S3] authentication credentials to your file storage bucket. 他の顧客のディレクトリやファイルを参照したりアクセスしたりすることはできません。
+
+File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they&#39;re ready for download. You&#39;re responsible for monitoring and downloading files from your assigned [!DNL S3] directory. [詳しくは、顧客データフィードファイルの処理通知](#cdf-file-processing-notifications)を参照してください。
+
+## 次の手順 {#next-steps}
+
+The sections below and the [Customer Data Feed FAQ](../faq/faq-cdf.md) can help you become more familiar with this service.
+
+## 顧客データフィードコンテンツの定義 {#cdf-defined}
+
+Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file.
+
+## Definitions {#definitions}
+
+<!-- cdf-contents-defined.xml -->
+
+[!UICONTROL CDF] ファイルには、以下に定義されているフィールドの一部またはすべてが含まれています。For information about internal file organization, see [Customer Data Feed File Structure](#cdf-file-structure).
+
+<table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> フィールド </th> 
+   <th colname="col2" class="entry"> データタイプ </th> 
+   <th colname="col3" class="entry"> 説明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p><code> イベント時刻</code> </p> </td> 
+   <td colname="col2"> <p>タイムスタンプ </p> </td> 
+   <td colname="col3"> <p><span class="wintitle">データ収集サーバー</span>（DCS）で CDF ファイルが処理された時刻。タイムスタンプは <i>yyyy-mm-dd hh:mm:ss</i> 形式を使用し、UTC タイムゾーンに設定されます。 </p> <p> <p>注意：イベント時刻は、<i> </i> <p> 
+       <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
+        <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">ページイベントやイベント呼び出しそのものの時刻に近いですが、それらの時刻ではありません。 </li> 
+        <li id="li_271DF14395BC495FBF17186588A554A8">ファイル名の DCS 時刻とは関係ありません。詳しくは、<a href="#different-processing-times">顧客データフィードファイル名の時刻とファイルコンテンツの時刻の違い</a>を参照してください。 </li> 
+       </ul> </p> </p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> デバイス</code> </p> </td> 
+   <td colname="col2"> <p>文字列 </p> </td> 
+   <td colname="col3"> <p>これは<span class="wintitle">一意のユーザー ID</span>（UUID）で、サイト訪問者の 38 桁のデバイス ID です。<a href="../reference/ids-in-aam.md">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> コンテナ ID</code> </p> </td> 
+   <td colname="col2"> <p>数値 </p> </td> 
+   <td colname="col3"> <p>ID の同期を起動するコンテナの ID。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> 認識済みの特性</code> </p> </td> 
+   <td colname="col2"> <p>数値配列 </p> </td> 
+   <td colname="col3"> <p>イベント呼び出しで訪問者が満足した（基準を満たした）特性がすべて含まれている特性 ID 配列。 </p> <p>この配列には、訪問者が以前に絞り込まれた特性と、このイベント呼び出しを通じて再度絞り込まれる特性が含まれる可能性があることに注意してください。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> 認識済みのセグメント</code> </p> </td> 
+   <td colname="col2"> <p>数値配列 </p> </td> 
+   <td colname="col3"> <p>イベント呼び出しで訪問者が満足した（基準を満たした）セグメントがすべて含まれているセグメント ID 配列。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> リクエストパラメーター</code> </p> </td> 
+   <td colname="col2"> <p>文字列 </p> </td> 
+   <td colname="col3"> <p>イベント呼び出しで渡されるすべてのパラメーター（変数、ID、キー値ペアなど）を表現した文字列。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> 参照元データタイプ</code> </p> </td> 
+   <td colname="col2"> <p>文字列 </p> </td> 
+   <td colname="col3"> <p>参照元ページのエンコードされていない URL（参照元ページがある場合）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> IP データタイプ</code> </p> </td> 
+   <td colname="col2"> <p>文字列 </p> </td> 
+   <td colname="col3"> <p>イベント呼び出しで表現された訪問者の IP アドレス。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> MC デバイス </code> </p> </td> 
+   <td colname="col2"> <p>文字列 </p> </td> 
+   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> すべてのセグメント</code> </p> </td> 
+   <td colname="col2"> <p>数値配列 </p> </td> 
+   <td colname="col3"> <p>訪問者が以前に基準を満たしたセグメントと新たに絞り込まれるセグメントを含んだセグメント ID 配列。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><code> すべての特性</code> </p> </td> 
+   <td colname="col2"> <p>数値配列 </p> </td> 
+   <td colname="col3"> <p>以前に認識された特性と、最後のデータフィード生成以降に訪問者が認定された新しい特性を含むファーストパーティおよびサードパーティ特性 ID の配列。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 顧客データフィードファイルの構造 {#cdf-file-structure}
+
+[!UICONTROL CDF] ファイルのデータ構造を一覧表示し、定義します。データ列、フィールド区切り文字、データファイルマップ、サンプルファイルが含まれています。
+
+## データフィールド識別子とデータ列 {#identifiers-and-sequence}
+
+<!-- cdf-file-structure.xml -->
+
+[!UICONTROL CDF] ファイルには、ラベル付きの列やフィールドヘッダーは含まれていません。Instead, a [!UICONTROL CDF] file defines fields and arrays with non-printing [!DNL ASCII] characters. Also, the [!UICONTROL CDF] file lists each field and array in a specific order. フィールドの識別子と順序を理解すると、ファイルを適切に解析するうえで役に立ちます。
+
+<table id="table_D2C8786DF7CE47E5ADB8930EC825F8F6"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> CDF ファイル要素 </th> 
+   <th colname="col2" class="entry"> 説明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>フィールド区切り文字 </p> </td> 
+   <td colname="col2"> <p>次の非印字文字で CDF ファイルの要素と構造が定義されます。 </p> <p> 
+     <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
+      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a（ASCII <code>001</code> または <code>^A</code>）：個々のフィールドを区切ります。 </li> 
+      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b（ASCII <code>002</code> または <code>^B</code>）：配列やリクエストパラメーターのデータを区切ります。 </li> 
+      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c（ASCII <code>003</code> または <code>^C</code>）：キー値ペアを定義します。 </li> 
+     </ul> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>フィールド列 </p> </td> 
+   <td colname="col2"> <p> <p>重要：<span class="keyword">Audience Manager</span> は、今後のリリースで CDF ファイルの末尾に新規フィールドを追加する権利を留保します。つまり、ファイル解析システムの技術設計では、（既存の列については固定した順序を想定してもかまいませんが）固定した列数を前提としないでください。 </p> </p> <p>CDF ファイル内のデータの順序は次のとおりです。 </p> <p> 
+     <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
+      <li id="li_CB97D90B54EB4F95861583D4A5F660C7">イベント時刻 </li> 
+      <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">デバイス </li> 
+      <li id="li_F8AE0D4CA19D411686A240FE06F56147">コンテナ ID </li> 
+      <li id="li_660D17989BE54610A01229C47894E8A9">認識済みの特性 </li> 
+      <li id="li_1591180564374204852785C6FFCA4F74">認識済みのセグメント </li> 
+      <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">リクエストパラメーター </li> 
+      <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">参照元 </li> 
+      <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP アドレス </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </li> 
+      <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
+      <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
+     </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## CDF ファイルマップ {#cdf-file-map}
+
+[!UICONTROL CDF] ファイルデータの出現順序は以下のとおりです。
+
+![](assets/sequence-map.png)
+
+## 配列の識別
+
+[!UICONTROL CDF] ファイルの開始時と終了 `Ctrl + a` 時の配列。これにより、配列の先頭要素は単独のデータフィールドのように見えます。例えば、適合済み特性の配列は `^A1234` で始まります。このエントリの後に、配列の区切り文字と ID `^B5678` が続きます。そのため、（`^B` で始まっているので）適合済み特性の配列の先頭要素が ID 5678 であると考えてしまうかもしれません。しかし、実際にはそうではありません。だからこそ、データファイルのデータ列と構造に熟知する必要があるのです。Even though the first element in the realized trait array (or any of the other arrays in a [!UICONTROL CDF] file) starts with `^A`, the order of appearance or position in the file defines the start of an array. また、配列の先頭要素は必ず `^A` で先行エントリと区切られます。
+
+## サンプル CDF ファイル {#sample-file}
+
+A sample [!UICONTROL CDF] file could look similar to the following. このサンプルには、ページに合わせて改行が挿入されています。
+
+![](assets/CDF-sample.png)
+
+## 顧客データフィードファイルの命名規則 {#cdf-naming-conventions}
+
+The sections below list and define the elements in your [!UICONTROL CDF] file name.
+
+## CDF ファイル名：構文と例 {#cdf-file-name}
+
+<!-- cdf-file-name.xml -->
+
+A typical [!UICONTROL CDF] file name contains the elements listed below. なお、*斜体*の部分には実際の情報が入ります。
+
+* **構文**
+
+<pre><code>s3://aam-cdf/your<i>s3bucket name</i>/day=<i>yyyy- mm- dd</i>/hour=<i>hh</i>/AAM_<i>CAAM_ partner ID_ AAMプロセスID</i>_0.gz</code>
+</pre>
+
+* **例**
+
+```
+s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
+```
+
+[!DNL S3] ストレージバケットでは、ファイルはパートナーID（[!UICONTROL PID]）、日、時間で昇順に並べ替えられます。
+
+## CDF ファイル名要素の定義 {#cdf-file-name-elements}
+
+The following table lists and defines the elements in a [!UICONTROL CDF] file name.
+
+<table id="table_4AC4F90C1C7D43E2A93CB3B6908D7E94"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> ファイル名要素 </th> 
+   <th colname="col2" class="entry"> 説明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <code> s3://aam-cdf/</code> </p> </td> 
+   <td colname="col2"> <p>Amazon S3 サーバーで CDF ファイルに使用されるデフォルトのルートストレージバケット。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> <i>your S3 bucket name</i> </code> </p> </td> 
+   <td colname="col2"> <p>CDF ファイルを格納する読み取り専用の S3 バケットの名前。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>day=<i>yyyy-mm-dd</i></code> </p> </td> 
+   <td colname="col2"> <p>ファイルが処理された日付。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>hour=<i>hh</i></code> </p> </td> 
+   <td colname="col2"> <p>UTC タイムゾーンに設定された 24 時間表記の時刻値。詳しくは、<a href="#different-processing-times">顧客データフィードファイル名の時刻とファイルコンテンツの時刻の違い</a>を参照してください。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>ユーザーのパートナー ID。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> 内部のプロセス ID。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> .gz</code> </p> </td> 
+   <td colname="col2"> <p>gzip ファイルの拡張子。CDF ファイルは gzip で圧縮されています。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 顧客データフィードファイル処理の通知 {#cdf-file-processing-notifications}
+
+[!DNL Audience Manager] ディレクトリに `.info` ファイル [!DNL S3] を書き込み、 [!UICONTROL Customer Data File] （[!UICONTROL CDF]）がダウンロード準備完了となったときに通知します。`.info` ファイルには、ファイルのコンテンツに関する [!DNL JSON] 形式設定されたメタデータも含ま [!UICONTROL CDF] れています。この通知ファイルで使用されている構文やフィールドについては、このセクションで確認してください。
+
+## サンプル .info ファイル {#sample-info-file}
+
+<!-- cdf-notifications.xml -->
+
+各 `.info` ファイルは、`Files` と `Totals` の 2 つのセクションで構成されます。`Files` セクションには、時間ごとのファイルの特定の指標を格納した配列が含まれています。`Totals` セクションには、特定の日のすべての ファイルについて集計した指標が含まれています。[!UICONTROL CDF]`.info` ファイルの内容は、例えば次のようになります。
+
+```js
+{
+    "Files": [
+        {
+            "FileByteSize": 2709730,
+            "FileChecksumMD5": "a9ea418e79511642cff11c2a898037dc-1",
+            "FileName": "AAM_CDF_1109_000000_0.gz",
+            "FileSequenceNumber": 1
+        },
+        {
+            "FileByteSize": 2783351,
+            "FileChecksumMD5": "7b469485d60274b6991acd0817855840-3",
+            "FileName": "AAM_CDF_1109_000001_0.gz",
+            "FileSequenceNumber": 2
+        }
+    ],
+    "Totals": {
+        "Day": "2017-09-26",
+        "Hour": "18",
+        "TotalByteSize": 150092997,
+        "TotalNumberFiles": 2
+    }
+}
+```
+
+## .info ファイルの各フィールドの定義{#info-file-fields-defined}
+
+以下の表に、 [!UICONTROL CDF] ファイルの構成要素の一覧と説明を示します。`.info`
+
+### Files オブジェクト
+
+<table id="table_582101B414864DA991CE813A7937ECC6"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> フィールド </th> 
+   <th colname="col2" class="entry"> 説明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <code> Files</code> </p> </td> 
+   <td colname="col2"> <p>CDF ファイルに関するメタデータを含んだ配列が、この後に始まります。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> FileByteSize</code> </p> </td> 
+   <td colname="col2"> <p>ファイルサイズ（バイト単位）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
+   <td colname="col2"> <p>Amazon S3 の ETag。ハイフンの後の数字は、マルチパートアップロードの際にファイルの作成に使用されたパートの数を示します。<code>ETag</code> はファイルの MD5 チェックサムと同一ではありません。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> FileName</code> </p> </td> 
+   <td colname="col2"> <p>ファイル名。詳しくは、<a href="#cdf-naming-conventions"> 顧客データフィードファイルの命名規則</a>を参照してください。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> FileSequenceNumber</code> </p> </td> 
+   <td colname="col2"> <p>各ファイルのインデックス番号。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Totals オブジェクト
+
+<table id="table_44F0B2D229E84A5DB3041760B1A50858"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> フィールド </th> 
+   <th colname="col2" class="entry"> 説明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <code> Totals</code> </p> </td> 
+   <td colname="col2"> <p>すべての CDF ファイルに関する集計データを含んだオブジェクトが、この後に始まります。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> Day</code> </p> </td> 
+   <td colname="col2"> <p>データが得られた日。<i>yyyy-mm-dd</i> 形式で表されます。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> Hour</code> </p> </td> 
+   <td colname="col2"> <p>データが得られた時刻（時）。UTC タイムゾーンに設定された 24 時間形式で表されます。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 
+   <td colname="col2"> <p>その日時のすべての CDF ファイルの合計サイズ（バイト単位）。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> TotalNumberFiles</code> </p> </td> 
+   <td colname="col2"> <p>S3 ディレクトリにアップロードされたファイルの総数。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 顧客データフィードファイル名の時刻とファイルコンテンツの時刻の違い {#different-processing-times}
+
+[!UICONTROL CDF] ファイルには、ファイル名とファイルコンテンツのタイムスタンプが含まれています。These timestamps record different event processes for the same [!UICONTROL CDF] file. 同じファイルの名前とコンテンツに異なるタイムスタンプが表示されることは稀ではありません。各タイムスタンプを理解すると、このデータを操作したり時刻でソートしようとしたりするときに、犯しがちなミスを避けるうえで役に立ちます。
+
+## CDF ファイルのタイムスタンプの場所 {#locating-timestamps}
+
+<!-- cdf-time-differences.xml -->
+
+[!UICONTROL CDF] ファイルでは、2 つの別個の場所に異なる時刻を記録します。
+
+![](assets/cdf-timestamp.png)
+
+## タイムスタンプの違いについて {#understanding-timestamps}
+
+The following table provides additional details about your [!UICONTROL CDF] file timestamps along with information about how to use them properly.
+
+| タイムスタンプの場所 | 説明 |
+|--- |--- |
+| ファイル名 | CDF ファイル名に含まれているタイムスタンプは、[!DNL Audience Manager] がファイルの配信準備を開始した時刻を示します。このタイムスタンプは UTC タイムゾーンに設定されています。`hour=` このパラメーターは、24時間表記で2桁の時間形式で指定します。この時刻は、ファイルコンテンツに記録されているイベント時刻とは異なることがあります。breakWhen CDFファイルを使用する場合、特定の時間にS3バケットが空であることがわかります。バケットが空になるのは、次のいずれかの場合が考えられます。<ul><li>その特定の時刻にデータがない。 </li><li> サーバーの負荷が大きく、その時刻のファイルを処理できない。サーバーの処理が追いついたら、過去のバケットに含まれていたはずのファイルが、それより後の時刻のバケットに格納されます。例えば、17 時のバケットに含まれていたはずのファイルが 時のバケットに出現する（ファイル名に `hour=18`=18 が含まれている）といった場合です。このような場合、サーバーはおそらく 17 時にファイルの処理を開始したものの、その時間内に処理を完了できなかったと考えられます。その代わり、そのファイルは次の時刻のバケットに入れられます。</li></ul><br>**重要**:イベントのグループ化には、ファイル名のタイムスタンプを使用しないでください。時間別にグループ化する必要がある場合は、ファイルコンテンツの `EventTime` タイムスタンプを使用します。 |
+| ファイルコンテンツ | CDF ファイルコンテンツに含まれているタイムスタンプは、データ収集サーバーがファイルの処理を開始した時刻を示します。このタイムスタンプは UTC タイムゾーンに設定されています。It uses the `EventTime` field, with time formatted as *`yyyy-mm-dd hh:mm:ss`*. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. <br> **ヒント**:ファイル名の `hour=` タイムスタンプとは異なり、時刻ごとにデータをグループ化 `EventTime` することができます。 |
+
+>[!MORE_LIKE_THIS]
+>
+>* [顧客データフィードの FAQ](../faq/faq-cdf.md)
+
