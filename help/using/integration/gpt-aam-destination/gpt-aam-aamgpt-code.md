@@ -1,0 +1,78 @@
+---
+description: AamGpt は、Audience Manager の Cookie データを読み取り、Google サイト運営者タグに情報を送信する JavaScript 関数です。
+seo-description: AamGpt は、Audience Manager の Cookie データを読み取り、Google サイト運営者タグに情報を送信する JavaScript 関数です。
+seo-title: Google サイト運営者タグ用の Audience Manager コード
+solution: Audience Manager
+title: Google サイト運営者タグ用の Audience Manager コード
+uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
+translation-type: tm+mt
+source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+
+---
+
+
+# Google サイト運営者タグ用の Audience Manager コード {#audience-manager-code-for-google-publisher-tags}
+
+`AamGpt` は、Audience Manager の Cookie データを読み取り、[!DNL Google Publisher Tags] に情報を送信する [!DNL JavaScript] 関数です。
+
+>[!NOTE]
+>
+>This function is not required if you have your own code to read Audience Manager cookie data from the [!UICONTROL UUID] and destination cookies.
+
+## サンプルコード
+
+`AamGpt` コードをページの先頭、可能であれば `<head>` コードブロック内に配置します。`AamGpt` コードは以下から利用できます。
+
+```js
+var AamGpt = {  
+ strictEncode: function(str){ 
+  return encodeURIComponent(str).replace(/[!'()]/g, escape).replace(/\*/g, "%2A"); 
+ }, 
+ getCookie: function(c_name) 
+ { 
+  var i,x,y,c=document.cookie.split(";"); 
+  for (i=0;i<c.length;i++) 
+  { 
+   x=c[i].substr(0,c[i].indexOf("=")); 
+   y=c[i].substr(c[i].indexOf("=")+1); 
+   x=x.replace(/^\s+|\s+$/g,""); 
+   if (x==c_name) 
+   { 
+    return unescape(y); 
+   } 
+  } 
+ }, 
+ getKey: function(c_name){ 
+  var c=this.getCookie(c_name); 
+  c=this.strictEncode(c); 
+  if(typeof c != "undefined" && c.match(/\w+%3D/)){ 
+   var cList=c.split("%3D"); 
+   if(typeof cList[0] != "undefined" && cList[0].match(/\w+/)) 
+   { 
+    return cList[0]; 
+   } 
+  }  
+ }, 
+ getValues: function(c_name){ 
+  var c=this.getCookie(c_name); 
+  c=this.strictEncode(c); 
+  if(typeof c != "undefined" && c.match(/\w+%3D\w+/)){ 
+   var cList=c.split("%3D"); 
+   if(typeof cList[1] != "undefined" && cList[1].match(/\w+/)) 
+   { 
+    var vList=cList[1].split("%2C"); 
+    if(typeof vList[0] != "undefined") 
+    { 
+     return vList; 
+    } else { 
+     return null; 
+    }    
+   } else { 
+    return null; 
+   } 
+  } else { 
+   return null; 
+  } 
+ } 
+};
+```
