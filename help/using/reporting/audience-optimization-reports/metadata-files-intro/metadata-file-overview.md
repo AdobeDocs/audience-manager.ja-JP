@@ -1,0 +1,144 @@
+---
+description: メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。オーディエンスの最適化レポートには、各種のレポートオプションメニューで読み取り可能な名前が表示されます。
+seo-description: メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。オーディエンスの最適化レポートには、各種のレポートオプションメニューで読み取り可能な名前が表示されます。
+seo-title: メタデータファイルの概要とマッピング
+solution: Audience Manager
+title: メタデータファイルの概要とマッピング
+uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
+translation-type: tm+mt
+source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+
+---
+
+
+# メタデータファイルの概要とマッピング{#overview-and-mappings-for-metadata-files}
+
+メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。Audience Optimization レポートでは、様々なレポートオプションメニューに理解しやすい名前が表示されます。
+
+## 概要 {#overview}
+
+メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[オーディエンスの最適化レポートのデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+
+### メタデータファイルには他のデータに関するデータが含まれる
+
+メタデータには、他の種類のデータに関する情報が含まれています。この仕組みについて理解するために、[!DNL Audience Manager] でのデータの受け取り方法について説明します。
+
+During an impression or click event, [!DNL Audience Manager] receives data in an URL string known as an *event call*.
+
+イベント呼び出しでは、情報が定義済みのキーと値のペアとして整理されています。キーと値のペアの値は、数値データで構成されています。メタデータファイルでは、名前と、ID に対応する読み取り可能なその他の情報が、キーと値のペアに格納されています。
+
+### メタデータは ID を読み取り可能な名前にリンクする
+
+メタデータファイルは、数値 ID を読み取り可能な名前に関連付ける必要があります。例えば、イベント呼び出しで、クリエイティブ ID が `d_creative:1234` のようなキーと値のペアに格納されているとします。メタデータファイルがない場合、このクリエイティブはオプションメニューで 1234 と表示されます。
+
+一方、適切な形式のメタデータファイルがあれば、このクリエイティブを実際の名前（「Advertiser Creative A」など）に関連付けることができます。この名前は、レポート内で読み取ることができます。
+
+### メタデータファイルはいつ必要になるか
+
+まず、[オーディエンスの最適化レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)を使用する場合、メタデータファイルと以下のすべてのパラメーターがイベント呼び出しに必要です。
+
+次に、データを [!DNL Audience Manager] に送信する場合、または統合されていない他のプロバイダーからのレポートにデータを表示する場合に、メタデータファイルが必要です。例えば、[!DNL Audience Manager] は、Google の [DoubleClick Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)（DCM）と統合されています。この関係により、[!DNL Audience Manager] はレポートオプションで使用されている名前と説明に ID を関連付けることができます。統合がない場合でもデータは取り込めますが、レポートオプションにはわかりやすい名前ではなく数値 ID が表示されます。
+
+![](assets/metadata_menu.png)
+
+## ファイルのマッピング {#file-mappings}
+
+The following table lists the key-value pairs that hold data used by the [!UICONTROL Audience Optimization] reports. メタデータファイルを使用する必要がある場合、このキーと値のペアの値に対応する、わかりやすい情報がメタデータに含まれています。これらのキーの値には整数（データ型 INT）しか使用できません。なお、*斜体*の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
+
+>[!IMPORTANT]
+>
+>[!UICONTROL Audience Optimization] レポートを使用している場合、これら *の* 値はすべてイベント呼び出しで必須となります。
+
+<table id="table_B2C8C493080E449CA71C4EF07D9476BD"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> レポートオプション </th> 
+   <th colname="col2" class="entry"> メタデータのキーと値のペア </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>広告主 </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc =<i> データソース ID または統合コード</i></code> </p> <p>データソースの作成時に指定された、広告主のデータソース ID または統合コードです。詳しくは、<a href="../../../features/manage-datasources.md#create-data-source"> データソースの作成</a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>ビジネスユニット（BU） </p> </td> 
+   <td colname="col2"> <p> <code>d_bu =<i> ビジネスユニット ID</i></code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>キャンペーン </p> </td> 
+   <td colname="col2"> <p> <code>d_campaign =<i> キャンペーン ID</i></code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>クリエイティブ </p> </td> 
+   <td colname="col2"> <p> <code>d_creative =<i> クリエイティブ ID</i></code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>エクスチェンジ </p> </td> 
+   <td colname="col2"> <p>2 つのキーと値のペアを使用できます。 </p> 
+    <ul id="ul_3B3B751A8A134096B0912E81A0983B9D"> 
+     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange =<i> 広告を提供するエクスチェンジの ID</i></code> </li> 
+     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i> 広告が提供されているサイトの ID</i></code> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>広告掲載申込（IO） </p> </td> 
+   <td colname="col2"> <p> <code>d_io =<i> 広告掲載申込 ID</i></code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>プラットフォーム </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i> データソース ID</i></code> </p> <p>これは、メタデータ情報を提供するプラットフォーム（DFA、Atlas、GBM、MediaMath など）のための<a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings">データソース</a> ID です。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>戦術 </p> </td> 
+   <td colname="col2"> <p> <code>d_tactic =<i> 戦術 ID</i></code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>バーティカル </p> </td> 
+   <td colname="col2"> <p> <code>d_vert =<i> バーティカル ID</i></code> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## イベント呼び出し ID によるファイル名、コンテンツ、配信パスの生成方法 {#how-ids-shape-file-names}
+
+キーと値のペアで渡される ID から、メタデータファイルの名前とコンテンツを作成できます。この後の各セクションと図で、その仕組みを説明します。これらの例では、キャンペーンのクリエイティブの名前が含まれるファイルを作成していますが、他の組み合わせも可能です。
+
+### イベント呼び出し
+
+In this example we&#39;ll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. この作業をおこなうには、イベント呼び出しからクリエイティブ、キャンペーン、データソースの ID を抽出する必要があります。
+
+![](assets/metadata_file_event.png)
+
+### ファイル名
+
+ファイル名はクリエイティブ、キャンペーン、データソースの ID に基づいています。イベント呼び出しのキーと値のデータと、ファイル名での使用方法の違いを比較してください。
+
+ファイル名の場合：
+
+* データソースのキーは `dpid` から `d_src` に変わります。
+
+* クリエイティブとキャンペーンの ID は、実際の ID ではなくカテゴリを表しています。
+
+![](assets/metadata_file_name.png)
+
+詳しくは、[メタデータファイルの命名規則](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)を参照してください。
+
+### ファイルコンテンツ
+
+この例では、ファイルコンテンツはイベント呼び出しで渡されたクリエイティブとキャンペーンの ID を表します。ここでの新しい要素は、わかりやすい名前です。Once processed, the name in this file will appear as an option in the Creative menu of an [!UICONTROL Audience Optimization] report.
+
+![](assets/metadata_file_contents.png)
+
+See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
+
+### ファイルの配信
+
+ファイルに名前を設定し、データを追加したら、[!DNL Audience Manager] で指定されている Amazon S3 ストレージディレクトリにファイルを送信します。[メタデータファイルの配信方法](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)および[メタデータファイルのステータスの更新](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)を参照してください。
+
+>[!MORE_LIKE_THIS]
+>
+>* [オーディエンスの最適化レポートのデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ](../../../integration/media-data-integration/click-data-pixels.md)
+>* [ピクセル呼び出しを使用した Campaign のインプレッションデータのキャプチャ](../../../integration/media-data-integration/impression-data-pixels.md)
+
