@@ -57,7 +57,7 @@ source-git-commit: 9801bf6a1a4c2c2e7cc2aa8ab32cb81094368554
 
 1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Groups]**.
 1. Click  ![](assets/icon_add.png) to open the [!UICONTROL Group Settings] page.
-1.  [!UICONTROL Group Details]:
+1. [!UICONTROL Group Details]:
    * グループの名前を指定します。
    * グループについての簡単な説明を入力します。
 1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.

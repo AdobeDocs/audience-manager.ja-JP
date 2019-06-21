@@ -183,7 +183,7 @@ This section contains options that let you set a base [!DNL URL] and data delimi
 1. 「**[!UICONTROL Segment Mappings]**」をクリックして、コントロールを表示します。
 1. **[!UICONTROL Search and Add Segments]** ボックスで、セグメントの名前を入力するか、使用可能なセグメントのリスト **[!UICONTROL Browse All Segments]** を参照します。
 1. Click **[!UICONTROL Add Selected Segments]** when you find the segment you want to use. Adding a segment opens the [!UICONTROL Edit Mapping] window.
-1.  [!UICONTROL Edit Mapping]:
+1. [!UICONTROL Edit Mapping]:
    * **[!UICONTROL Mappings]**：セグメントで使用されるキー値ペアを指定します。
    * **[!UICONTROL Start Date]** および宛先の開始日と終了日を選択します。**[!UICONTROL End Date]** 終了日が未指定の場合、宛先の有効期限は無期限になります。
 1. **[!UICONTROL Done]** をクリックします。
