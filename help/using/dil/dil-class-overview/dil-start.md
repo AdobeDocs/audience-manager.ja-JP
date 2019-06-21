@@ -1,0 +1,33 @@
+---
+description: 認証要件、およびクラスレベルの DIL に関するドキュメントで使用されているテキスト書式について説明します。
+seo-description: 認証要件、およびクラスレベルの DIL に関するドキュメントで使用されているテキスト書式について説明します。
+seo-title: クラスレベルの DIL API の概要
+solution: Audience Manager
+title: クラスレベルの DIL API の概要
+uuid: 00c1136a-5f08-4104-b0ed-3de847cecd16
+translation-type: tm+mt
+source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+
+---
+
+
+# クラスレベルの DIL API の概要{#getting-started-with-class-level-dil-apis}
+
+クラスレベルの DIL API を使用すると、Audience Manager オブジェクトをプログラムで作成し操作することができます。クラスレベルの API は他のインスタンスレベルの関数と連携して、値を設定したりデータを返したりします。
+
+## クラスレベルの DIL API の概要 {#get-started}
+
+認証要件、およびクラスレベルの [!UICONTROL DIL] に関するドキュメントで使用されているテキスト書式について説明します。
+
+<!-- 
+
+c_class_start.xml
+
+ -->
+
+クラスレベルの [!UICONTROL DIL] API を使用する場合：
+
+* アクセスにはパートナー名およびコンテナ名前空間 ID（NSID）が必要になります。担当の Audience Manager アカウントマネージャーにご連絡のうえ、これらの情報を入手してください。
+* サンプルとして提示された API ドキュメント内のすべての*斜体*テキストを、使用するメソッドで必要となる値、ID、または他の変数に置き換えてください。
+* [!UICONTROL DIL] はコード化されたデータを送信先の Cookie に書き込みます。例えば、空白は `%20` としてコード化され、セミコロンは `%3B` としてコード化されます。
+
