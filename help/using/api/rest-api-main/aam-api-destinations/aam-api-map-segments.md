@@ -1,0 +1,586 @@
+---
+description: これらの RESTful API メソッドを使用して、セグメントを送信先にマッピングします。
+seo-description: これらの RESTful API メソッドを使用して、セグメントを送信先にマッピングします。
+seo-title: セグメントの送信先へのマッピング
+solution: Audience Manager
+title: セグメントの送信先へのマッピング
+uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
+translation-type: tm+mt
+source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+
+---
+
+
+# セグメントを宛先にマッピング {#map-segments-to-a-destination}
+
+これらの [!DNL RESTful API] メソッドを使用して、セグメントを送信先にマッピングします。
+
+<!-- c_api_map_seg_dest.xml -->
+
+## サポートされている送信先のタイプ：URL およびCookie のみ
+
+The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. 代わりにユーザーインターフェイスを使用してください。However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
+
+>[!MORE_LIKE_THIS]
+>
+>* [宛先](../../../features/destinations/destinations.md#destination-api-methods)
+>* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
+
+
+## シリアル化されていない URL ベースの送信先へのセグメントのマッピング {#map-segment-non-serial}
+
+非シリアル化 宛先にセグメントをマッピングするための `POST`[!UICONTROL URL] メソッド。
+
+<!-- r_map_noserial_url.xml -->
+
+### リクエスト
+
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
+
+### リクエストのサンプル
+
+特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+{
+   "sid":87723,
+   "traitType":"SEGMENT",
+   "url":"https://adobe.com",
+   "startDate":"2012-07-04"
+}
+```
+
+### 応答
+
+```
+{
+   "mappingId":65334,
+   "traitType":"SEGMENT",
+   "traitValue":0,
+   "destinationId":4033,
+   "elementName":"Sample games",
+   "elementDescription":"Sample games pixel",
+   "elementStatus":"active",
+   "createTime":1338940094000,
+   "updateTime":1338940094000,
+   "crUID":694,
+   "upUID":694,
+   "sid":87723,
+   "startDate":"2012-07-03",
+   "endDate":null,
+   "priority":null,
+   "url":"https://adobe.com",
+   "secureUrl":null,
+   "tagCode":null,
+   "secureTagCode":null,
+   "traitAlias":null
+}
+```
+
+## シリアル化された URL ベースの送信先へのセグメントのマッピング {#map-segment-serial}
+
+シリアル化された 宛先にセグメントをマッピングするための `POST`[!UICONTROL URL] メソッド。
+
+<!-- r_map_serialized_url.xml -->
+
+### リクエスト
+
+`POST https://api.demdex.com/v1/destinations/`*`<dataOrderId>`*`/traits/`
+
+### リクエストのサンプル
+
+このリクエストでは、`traitAlias` はキーと値のペアのキーに対応します。特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+{
+   "sid":87723,
+   "traitType":"SEGMENT",
+   "startDate":"2012-07-04",
+   "traitAlias":"123"
+}
+```
+
+### 応答
+
+```
+{
+   "mappingId":65335,
+   "traitType":"SEGMENT",
+   "traitValue":0,
+   "destinationId":4034,
+   "elementName":"Sample Games",
+   "elementDescription":"Migration of Sample Games Pixel",
+   "elementStatus":"active",
+   "createTime":1338940401000,
+   "updateTime":1338940401000,
+   "crUID":694,
+   "upUID":694,
+   "sid":87723,
+   "startDate":"2012-07-03",
+   "endDate":null,
+   "priority":null,
+   "url":"123",
+   "secureUrl":"123",
+   "tagCode":null,
+   "secureTagCode":null,
+   "traitAlias":"123"
+}
+```
+
+## Cookie ベースの送信先へのセグメントのマッピング：単一キー、非シリアル化 {#map-segment-cookie-noserial}
+
+単一キーでシリアル化されていない `POST` 宛先にセグメントをマッピングするための [!UICONTROL cookie] メソッド。
+
+<!-- r_map_cookie_noserial.xml -->
+
+### リクエスト
+
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
+
+### リクエストのサンプル
+
+このリクエストでは、`valueAlias` はキーと値のペアの値に対応します。特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+{
+   "sid":87723,
+   "traitType":"SEGMENT",
+   "startDate":"2012-07-04",
+   "valueAlias":"123"
+}
+```
+
+### 応答
+
+```
+{
+   "destinationMappingId":65336,
+   "traitType":"SEGMENT",
+   "traitValue":0,
+   "destinationId":4035,
+   "elementName":"Sample Games",
+   "elementDescription":"Migration of Sample Games Pixel",
+   "elementStatus":"active",
+   "createTime":1338940704000,
+   "updateTime":1338940704000,
+   "crUID":694,
+   "upUID":694,
+   "sid":87723,
+   "startDate":"2012-07-03",
+   "endDate":null,
+   "priority":1,
+   "traitAlias":null,
+   "valueAlias":"123"
+}
+```
+
+## Cookie ベースの送信先へのセグメントのマッピング：複数キー、非シリアル化 {#map-segment-cookie-multi-noserial}
+
+`POST` メソッドを使用して、複数キーのシリアル化されていない [!UICONTROL cookie] の宛先にセグメントをマッピングします。
+
+<!-- r_map_cookie_multikey_noserial.xml -->
+
+### リクエスト
+
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
+
+### リクエストのサンプル
+
+このリクエストでは、`traitAlias` と `valueAlias` はキーと値のペアのキーと値をそれぞれ設定します。特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+{
+   "sid":87723,
+   "traitType":"SEGMENT",
+   "startDate":"2012-07-04",
+   "traitAlias":"type",
+   "valueAlias":"123"
+}
+```
+
+### 応答
+
+```
+{
+   "mappingId":65338,
+   "traitType":"SEGMENT",
+   "traitValue":0,
+   "destinationId":4037,
+   "elementName":"Sample Games",
+   "elementDescription":"Migration of Sample Games Pixel",
+   "elementStatus":"active",
+   "createTime":1338941092000,
+   "updateTime":1338941092000,
+   "crUID":694,
+   "upUID":694,
+   "sid":87723,
+   "startDate":"2012-07-03",
+   "endDate":null,
+   "priority":1,
+   "traitAlias":"type",
+   "valueAlias":"123"
+}
+```
+
+## Cookie ベースの送信先へのセグメントのマッピング：複数キー、シリアル化 {#map-segment-cookie-multi-serial}
+
+`POST` セグメントをマルチキーでシリアライズ [!UICONTROL cookie destination]するためのメソッド。
+
+<!-- r_map_cookie_multikey_serialized.xml -->
+
+### リクエスト
+
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
+
+### リクエストのサンプル
+
+このリクエストでは、`traitAlias` と `valueAlias` はキーと値のペアのキーと値を設定します。特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+{
+   "sid":87723,
+   "traitType":"SEGMENT",
+   "startDate":"2012-07-04",
+   "traitAlias":"type",
+   "valueAlias":"123"
+}
+```
+
+### 応答
+
+```
+{
+   "destinationMappingId":65340,
+   "traitType":"SEGMENT",
+   "traitValue":0,
+   "destinationId":4038,
+   "elementName":"Sample Games",
+   "elementDescription":"Migration of Sample Games Pixel",
+   "elementStatus":"active",
+   "createTime":1338941273000,
+   "updateTime":1338941273000,
+   "crUID":694,
+   "upUID":694,
+   "sid":87723,
+   "startDate":"2012-07-03",
+   "endDate":null,
+   "priority":2,
+   "traitAlias":"type",
+   "valueAlias":"123"
+}
+```
+
+## サーバー間宛先へのセグメントのマッピング {#map-segment-s2s}
+
+`POST` セグメントを既存 [!UICONTROL server-to-server] の宛先にマップできるメソッド。Note, however, that you cannot create [!UICONTROL server-to-server] destinations with these currently available [!DNL API] methods.
+
+<!-- r_map_segment_s2s.xml -->
+
+### リクエスト
+
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/mappings/`
+
+### リクエストのサンプル
+
+このリクエストでは、`traitAlias` はキーと値のペアのキーに対応します。特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+{
+   "sid":87723,
+   "traitType":"SEGMENT",
+   "startDate":"2012-07-04",
+   "traitAlias":"123"
+}
+```
+
+### 応答
+
+```
+{
+   "destinationMappingId":65341,
+   "traitType":"SEGMENT",
+   "traitValue":0,
+   "destinationId":566,
+   "elementName":"Sample",
+   "elementDescription":"",
+   "elementStatus":"active",
+   "createTime":1338942118000,
+   "updateTime":1338942118000,
+   "crUID":308,
+   "upUID":308,
+   "sid":84326,
+   "startDate":"2012-07-03",
+   "endDate":null,
+   "priority":null,
+   "traitAlias":"123"
+}
+```
+
+## 宛先マッピングの一括作成 {#bulk-create}
+
+ または 宛先マッピングの配列を渡す `POST`[!UICONTROL cookie] メソッド[!UICONTROL URL]
+
+<!-- r_bulk_create.xml -->
+
+### リクエスト
+
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/bulk-create`
+
+### リクエストのサンプル
+
+特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+[
+{
+   "sid": 105123,
+   "traitType":"SEGMENT",
+   "url":"https://adobe.com",
+   "startDate":"2012-11-20"
+},
+{
+   "sid": 121070,
+   "traitType":"SEGMENT",
+   "url":"https://my.adobeconnect.com",
+   "startDate":"2012-11-21"
+}
+]
+```
+
+### 応答
+
+レスポンスが正常に処理されると、作成されたマッピングの配列が返されます。
+
+```
+[
+    {
+        "mappingId": 103454,
+        "traitType": "SEGMENT",
+        "traitValue": 0,
+        "destinationId": 780,
+        "elementName": "Case of the Mondays",
+        "elementDescription": "test",
+        "elementStatus": "active",
+        "createTime": 1353373234000,
+        "updateTime": 1353373234000,
+        "crUID": 1065,
+        "upUID": 1065,
+        "sid": 105123,
+        "startDate": "2012-11-19",
+        "endDate": null,
+        "priority": null,
+        "url": "https://adobe.com",
+        "secureUrl": null,
+        "tagCode": null,
+        "secureTagCode": null,
+        "traitAlias": null
+    },
+    {
+        "mappingId": 103455,
+        "traitType": "SEGMENT",
+        "traitValue": 0,
+        "orderId": 780,
+        "elementName": "Test Trait",
+        "elementDescription": "This trait",
+        "elementStatus": 1,
+        "createTime": 1353373234000,
+        "updateTime": 1353373234000,
+        "crUID": 1065,
+        "upUID": 1065,
+        "sid": 121070,
+        "startDate": "2012-11-20",
+        "endDate": null,
+        "priority": null,
+        "url": "https://my.adobeconnect.com",
+        "secureUrl": null,
+        "tagCode": null,
+        "secureTagCode": null,
+        "traitAlias": null
+    }
+]
+```
+
+## 宛先への複数のセグメントの追加 {#add-segments-dest}
+
+宛先に複数のセグメントをマッピングできる `POST` メソッド。
+
+<!-- r_add_segments_to_destination.xml -->
+
+### リクエスト
+
+`POST https://api.demdex.com/v1/destinations/`*`<destinationId>`*`bulk-create`
+
+### リクエストのサンプル
+
+複数の宛先マッピングを配列で作成します。特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+[
+{
+   "sid": 105123,
+   "traitType":"SEGMENT",
+   "url":"https://adobe.com",
+   "startDate":"2012-11-20"
+},
+{
+   "sid": 121070,
+   "traitType":"SEGMENT",
+   "url":"https://my.adobeconnect.com",
+   "startDate":"2012-11-21"
+}
+]
+```
+
+### 応答
+
+作成されたマッピングの配列を返します。
+
+```
+[
+    {
+        "destinationMappingId": 103454,
+        "traitType": "SEGMENT",
+        "traitValue": 0,
+        "destinationId": 780,
+        "elementName": "Case of the Mondays",
+        "elementDescription": "test",
+        "elementStatus": "active",
+        "createTime": 1353373234000,
+        "updateTime": 1353373234000,
+        "crUID": 1065,
+        "upUID": 1065,
+        "sid": 105123,
+        "startDate": "2012-11-19",
+        "endDate": null,
+        "priority": null,
+        "url": "https://adobe.com",
+        "secureUrl": null,
+        "tagCode": null,
+        "secureTagCode": null,
+        "traitAlias": null
+    },
+    {
+        "traitToDataOrderId": 103455,
+        "traitType": "SEGMENT",
+        "traitValue": 0,
+        "destinationId": 780,
+        "elementName": "Test Trait",
+        "elementDescription": "This trait",
+        "elementStatus": 1,
+        "createTime": 1353373234000,
+        "updateTime": 1353373234000,
+        "crUID": 1065,
+        "upUID": 1065,
+        "sid": 121070,
+        "startDate": "2012-11-20",
+        "endDate": null,
+        "priority": null,
+        "url": "https://my.adobeconnect.com",
+        "secureUrl": null,
+        "tagCode": null,
+        "secureTagCode": null,
+        "traitAlias": null
+    }
+]
+```
+
+## 宛先 ID による宛先の更新 {#update-dest-data-order}
+
+`PUT` で既存の宛先を更新できる `destinationId` メソッド。
+
+<!-- r_update_destination_data_order_id.xml -->
+
+### リクエスト
+
+`PUT https://api.demdex.com/v1/destinations/`*`<destinationId>`*
+
+### リクエストのサンプル
+
+特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+{
+   "name":"Updated URL Destination (not serialized)",
+   "description":"new description",
+   "destinationType":"PUSH",
+   "serializationEnabled":false
+}
+```
+
+### 応答
+
+```
+{
+    "destinationType": "PUSH",
+    "destinationId": 780,
+    "dataSourceId": null,
+    "pid": 1099,
+    "name": "Updated URL Destination (not serialized)",
+    "description": "new description",
+    "startDate": null,
+    "endDate": null,
+    "status": 1,
+    "createTime": 1348851790000,
+    "updateTime": 1353372029000,
+    "crUID": 884,
+    "upUID": 1065,
+    "domainRestrictions":"all_domains",
+    "tagType": 0,
+    "serializationEnabled": false,
+    "urlFormatString": null,
+    "secureUrlFormatString": null,
+    "delimiter": null,
+    "mappings": null
+}
+```
+
+## マッピング ID による宛先へのマッピングの更新 {#update-mapping-dest-id}
+
+指定した `PUT` で宛先へのマッピングを更新できる `mappingId` メソッド。
+
+<!-- r_update_destination_trait_data_order_id.xml -->
+
+### リクエスト
+
+`PUT https://api.demdex.com/v1/destinations/mappings/`*`<mappingId>`*
+
+### リクエストのサンプル
+
+特に指示のない限り、すべてのリクエスト値が必須です。
+
+```
+{
+   "sid": 105123,
+   "traitType":"SEGMENT",
+   "url":"https://adobe.com",
+   "startDate":"2012-11-20"
+}
+```
+
+### 応答
+
+```
+{
+    "mappingId": 103453,
+    "traitType": "SEGMENT",
+    "traitValue": 0,
+    "destinationId": 780,
+    "elementName": "sample",
+    "elementDescription": "test",
+    "elementStatus": "active",
+    "createTime": 1353373005000,
+    "updateTime": 1353373005000,
+    "crUID": 1065,
+    "upUID": 1065,
+    "sid": 105123,
+    "startDate": "2012-11-19",
+    "endDate": null,
+    "priority": null,
+    "url": "https://www.adobe.com/send?%ALIAS%",
+    "secureUrl": null,
+    "tagCode": null,
+    "secureTagCode": null,
+    "traitAlias": null
+}
+```
