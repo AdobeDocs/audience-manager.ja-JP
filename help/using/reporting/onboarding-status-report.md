@@ -6,7 +6,7 @@ solution: Audience Manager
 title: オンボーディングステータスレポート：概要
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 translation-type: tm+mt
-source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -121,7 +121,6 @@ create-onboarding-status-report.xml
    <td colname="col2"> <p>選択した受信データソースから <span class="keyword">Audience Manager</span> が受け取って処理したファイルのリストが表示されます。 </p> <p>ファイル名の形式が適切でない場合、ファイルの処理は失敗します。ファイル名の要件は、このデータを <span class="keyword">Audience Manager</span> に送信する方式によって異なります。配信方法には <span class="keyword">Amazon S3</span> と FTP があります。ファイルに名前を設定する方法については、以下を参照してください。 </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> 受信データファイルの Amazon S3 の名前に関する要件 </a> </li> 
-      <li id="li_9590241AEC0C482D91C64DB760B32B0D"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md"> 受信データファイルの FTP の名前に関する要件 </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
