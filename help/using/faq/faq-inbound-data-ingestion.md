@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 受信顧客データ取り込みの FAQ
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -194,7 +194,6 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 完全および増分ファイルタイプについて詳しくは、以下を参照してください。
 
 * [Amazon S3 での受信データファイルの名前とファイルサイズの要件](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [FTP での受信データファイルの名前とサイズの要件...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
 <br> 
 
@@ -209,7 +208,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 タイムスタンプは、ログおよび記録の保持のために使用されます。適切な形式の受信ファイル名に使用される構文で必要になります。以下を参照してください。
 
 * [受信データファイルの Amazon S3 の名前に関する要件](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [FTP での受信データファイルの名前とサイズの要件...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
@@ -231,7 +230,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 * [受信データ転送ファイルのファイル圧縮](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
 * [受信データファイルの Amazon S3 の名前に関する要件](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [受信データファイルの FTP の名前に関する要件](../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
 
 <br> 
 
