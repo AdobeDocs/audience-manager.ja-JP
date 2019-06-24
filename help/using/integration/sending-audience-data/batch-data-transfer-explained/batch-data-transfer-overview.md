@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Manager へのバッチデータ送信の概要
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
@@ -52,7 +52,6 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 ファイル名およびコンテンツは、厳密なガイドラインに従います。このガイドのこれらの仕様に従って、データファイルの命名や編成をおこなう必要があります。**以下を参照してください。
 
 * [受信データファイルの Amazon S3 の名前に関する要件](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [受信データファイルの FTP の名前に関する要件](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 * [ 受信データファイルコンテンツ：構文、変数、例](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## オフラインマーケティング活動に使用可能なオンラインデータ
