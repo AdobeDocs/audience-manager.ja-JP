@@ -6,7 +6,7 @@ solution: Audience Manager
 title: セグメントの目的、構成およびルール
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
 
@@ -26,6 +26,10 @@ Describes segments, their constituent parts, and rule creation with [!UICONTROL 
 ## セグメントの構成
 
 Audience Manager セグメントは、個々の特性または特性のグループで構成されるサーバー側ルールです。特性は、キー値ペアと呼ばれるデータ要素で構成されます。これらのキー値ペアには、セグメントレベルで設定したルールと共に、訪問者を特性およびセグメントのメンバーシップの対象に認定するための条件が含まれています。
+
+## Adobe Analyticsセグメントマッピングに関する考慮事項
+
+Adobe AnalyticsセグメントまたはレポートスイートをExperience Cloud組織にマッピングする場合、Audience Managerは、対応する新しい、対応する、読み取り専用のセグメントおよび特性を自動的に作成します。Audience Managerからこれらのセグメントの記憶場所を編集または変更することはできません。ただし、マッピングされたAdobe Analyticsセグメントまたはレポートスイートで実行する変更は、Audience Managerに反映されます。
 
 >[!TIP]
 >
