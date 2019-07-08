@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 宛先の GDPR に関する考慮事項
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 translation-type: tm+mt
-source-git-commit: 0ddc86391cbc751dfd4d46946222d555cefbfe38
+source-git-commit: 69be038d0f2d31b6b5eda20041082c1890abc38f
 
 ---
 
@@ -68,4 +68,4 @@ source-git-commit: 0ddc86391cbc751dfd4d46946222d555cefbfe38
 1. アドビからのセグメント解除の要求をサポートしていない。
 1. 30 日に 1 回より高い頻度でアドビからの更新を受け取ることができない。
 
-このような場合、お客様はアクティベーションパートナーに対して、Audience Manager から自動で削除要求を送信することはできません。Audience Manager のアクティベーションパートナーの中でどれがセグメント解除をサポートしているかを確認するには、[パートナーに関する Excel シート](/help/using/overview/aam-gdpr/assets/AAM-Partners-March2019.xlsx)をダウンロードしてください。
+このような場合、お客様はアクティベーションパートナーに対して、Audience Manager から自動で削除要求を送信することはできません。Audience Manager のアクティベーションパートナーの中でどれがセグメント解除をサポートしているかを確認するには、[パートナーに関する Excel シート](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx)をダウンロードしてください。
