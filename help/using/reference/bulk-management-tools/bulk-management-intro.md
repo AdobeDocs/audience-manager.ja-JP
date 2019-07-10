@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 349cc962c993b361e2dea00ba693337391b87e5e
+source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
 
 ---
 
@@ -36,7 +36,7 @@ c_bulk_start.xml
 
 * [!DNL Audience Manager] のユーザー名およびパスワード。お客様が既にお持ちの資格情報です。
 * API クライアント ID および秘密鍵。担当のアカウントマネージャーを通して入手できます。
-* [!UICONTROL Bulk Management Tools] ワークシート。**[最新版を入手するには、ワークシートをダウンロードしてください](assets/BAAAM_August_2018.xlsm)**。
+* [!UICONTROL Bulk Management Tools] ワークシート。**[ワークシート](assets/BAAAM_August_2018.xlsm)** をダウンロードして最新バージョンを入手してください。
 
 * [!DNL Windows] 上で動作する Excel、または [!DNL macOS X] 上で動作する [!DNL Microsoft Windows] 仮想マシン。You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 
