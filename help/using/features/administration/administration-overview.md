@@ -8,7 +8,7 @@ title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 9801bf6a1a4c2c2e7cc2aa8ab32cb81094368554
+source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 9801bf6a1a4c2c2e7cc2aa8ab32cb81094368554
 
 1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Groups]**.
 1. Click  ![](assets/icon_add.png) to open the [!UICONTROL Group Settings] page.
-1. [!UICONTROL Group Details]:
+1.  [!UICONTROL Group Details]:
    * グループの名前を指定します。
    * グループについての簡単な説明を入力します。
 1. In [!UICONTROL Group Members], click a user from **[!UICONTROL Add Users]** options to add them to the group.
@@ -83,11 +83,11 @@ Simplify group rights management with [!UICONTROL Wild Card Permissions].
 
 **特性**
 
-* `MAP_ALL_TRAITS_TO_MODELS` - を明確にする必要があるか。
-* `EDIT_ALL_TRAITS` - ユーザは、会社に属するすべての特性を編集できます（PID）。
-* `VIEW_ALL_TRAITS` - ユーザは、会社に属するすべての特性を表示できます。（PID）
+* `MAP_ALL_TRAITS_TO_MODELS` - ユーザーは、モデルのベースラインとして特性を選択できます。
+* `EDIT_ALL_TRAITS` - ユーザは、会社（PID）に属するすべての特性を編集できます。
+* `VIEW_ALL_TRAITS` - ユーザーは、会社（PID）に属するすべての特性を表示できます。
 * `DELETE_ALL_TRAITS` - ユーザは、会社（PID）に属するすべての特性を削除できます。
-* `CREATE_ALL_ALGO_TRAITS` - 明確化する必要がある
+* `CREATE_ALL_ALGO_TRAITS` - ユーザーはアルゴリズムの特性を作成できます。
 * `MAP_ALL_TO_SEGMENTS` - ユーザーは、会社に属する特性のいずれかをセグメントに追加できます。
 * `CREATE_ALL_TRAITS` - ユーザーは特性を作成できます。
 
@@ -127,7 +127,7 @@ Simplify group rights management with [!UICONTROL Wild Card Permissions].
 * `DELETE_ALL_SEGMENTS` - ユーザーは、会社アカウント内で設定されているすべてのセグメントを削除できます。
 * `MAP_ALL_TO_DESTINATIONS` - ユーザーは、会社に属する任意のセグメントを宛先にマップできます。
 * `EDIT_ALL_SEGMENTS` - ユーザーは、会社アカウント内で設定されているすべてのセグメントを編集できます。
-* `MAP_ALL_SEGMENTS_TO_MODELS` - を明確にする必要があるか。
+* `MAP_ALL_SEGMENTS_TO_MODELS` - ユーザーは、モデルのベースラインとしてセグメントを選択できます。
 * `VIEW_ALL_SEGMENTS` - ユーザーは、会社アカウント内で設定されているすべてのセグメントを表示できます。
 
 **シグナル**
