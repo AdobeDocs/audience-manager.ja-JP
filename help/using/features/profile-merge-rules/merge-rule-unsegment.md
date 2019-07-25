@@ -44,7 +44,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
 ## 「No Device Profile」オプションとデバイスのセグメント化解除{#no-device-option}
 
-[!DNL Audience Manager][!UICONTROL Profile Merge Rule]**[!UICONTROL No Device Profile]** &quot;+ **[!UICONTROL Current Authenticated]** 」オプションを使用すると、セグメントからデバイス間のIDを削除できます。これらの条件の下で、クロスデバイスプロファイルの更新や変更によってクロスデバイス ID がセグメントの対象として認定されなくなったときに、セグメント化解除がおこなわれます。これは、セグメント認定条件が変更された場合、[!UICONTROL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../../features/segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) のドキュメントを参照してください。
+[!DNL Audience Manager][!UICONTROL Profile Merge Rule]**[!UICONTROL No Device Profile]** "+ **[!UICONTROL Current Authenticated]** 」オプションを使用すると、セグメントからデバイス間のIDを削除できます。これらの条件の下で、クロスデバイスプロファイルの更新や変更によってクロスデバイス ID がセグメントの対象として認定されなくなったときに、セグメント化解除がおこなわれます。これは、セグメント認定条件が変更された場合、[!UICONTROL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../../features/segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) のドキュメントを参照してください。
 
 ![](assets/no_device_use_case.png)
 
@@ -54,7 +54,7 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
 >[!NOTE]
 >
->**セグメントの評価と非選定**[!DNL Audience Manager] の4デバイスの制限は、デバイスグラフを使用するセグメントを評価する際に、4つのデバイス [!UICONTROL Profile Merge Rule] に結合されます。[!DNL Audience Manager] では、*現在のデバイスと、最後にリアルタイムで認識された 3 つの追加デバイス*を評価します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された 3 つの追加デバイスが宛先のセグメントから削除されます。例えば、6 つのデバイスから成るクラスターでは、最大 4 つのデバイスが結合され、評価されて、セグメントの対象として認定されます。同様に、最大 4 つのデバイスが結合され、評価されて、セグメント化解除されます。
+>**セグメントの評価と非選定**[!DNL Audience Manager] の4デバイスの制限は、デバイスグラフを使用するセグメントを評価する際に、4つのデバイス [!UICONTROL Profile Merge Rule] に結合されます。[!DNL Audience Manager] では、*現在のデバイスと、最後にリアルタイムで認識された 3 つの追加デバイス*&#x200B;を評価します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された 3 つの追加デバイスが宛先のセグメントから削除されます。例えば、6 つのデバイスから成るクラスターでは、最大 4 つのデバイスが結合され、評価されて、セグメントの対象として認定されます。同様に、最大 4 つのデバイスが結合され、評価されて、セグメント化解除されます。
 
 ![](assets/cross_device_workflow.png)
 
