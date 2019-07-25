@@ -32,9 +32,9 @@ To create a cross-device data source, go to **[!UICONTROL Audience Data > Data S
 To complete the [!UICONTROL Data Source Details] section:
 
 1. データソースの名前を入力します。
-1. *（オプション）*データソースの説明を入力します。データソースの役割や目的を定義するのに、簡潔な説明が役に立ちます。
+1. *（オプション）*&#x200B;データソースの説明を入力します。データソースの役割や目的を定義するのに、簡潔な説明が役に立ちます。
 1. 統合コードを指定します。統合コードは、このデータソース専用の一意の ID です。
-1. **[!UICONTROL ID Type]** リストで、を選択 **[!UICONTROL Cross Device]** します。
+1. **[!UICONTROL ID Type]** リストで、を選択 **[!UICONTROL Cross Device]**&#x200B;します。
 1. 「**[!UICONTROL ID Definition]**」リストで、データソースタイプを定義するオプションを選択します。オプションは以下のとおりです。
    * **[!UICONTROL Person]**：個人を定義する ID。この ID は複数の [!DNL Audience Manager] ID にマッピングできます。
    * **[!UICONTROL Household]**：人々のグループを定義する ID。この ID は複数の [!DNL Audience Manager] ID にマッピングできます。
@@ -98,7 +98,7 @@ To complete the [!UICONTROL Proflie Merge Rule Setup] section:
    * **[!UICONTROL Current Device Profile]**
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
-4. **[!UICONTROL Save]** をクリックします。
+4. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## 結合ルールコードの設定 {#configure-merge-rule-code}
 
@@ -108,11 +108,11 @@ Follow these instructions to set up the [!UICONTROL Experience Cloud ID Service]
 
 ### 前提条件
 
-これらの手順を完了する*前*に、[クロスデバイス対応データソース](#create-data-source)および[プロファイル結合ルール](#create-profile-merge-rule)を設定する必要があります。
+これらの手順を完了する&#x200B;*前*&#x200B;に、[クロスデバイス対応データソース](#create-data-source)および[プロファイル結合ルール](#create-profile-merge-rule)を設定する必要があります。
 
 ## Experience Cloud ID サービスのお客様向け {#id-service-customers}
 
-The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don&#39;t have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. [!UICONTROL DIL] のみを使用する場合は、下記の[レガシー DIL](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) の節を参照してください。
+The [!UICONTROL Experience Cloud ID Service] and the latest version of [DIL](../../dil/dil-overview.md) are recommended when working with [!UICONTROL Profile Merge Rules]. However, you don't have to use the [!UICONTROL Experience Cloud ID Service] to work with this feature. [!UICONTROL DIL] のみを使用する場合は、下記の[レガシー DIL](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) の節を参照してください。
 
 ### 顧客 ID 設定関数の設定
 
