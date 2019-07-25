@@ -49,7 +49,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 |--- |--- |
 | `c` | [URL の宛先](../../../features/destinations/manage-destinations.md#configure-url-destination)として設定された URL です。 |
 | `cn` | [Cookie の宛先](../../../features/destinations/manage-destinations.md#create-cookie-destination)の Cookie 名フィールドに設定された名前または ID です。 |
-| `cv` | &quot;cn&quot;:&quot;destinaton name&quot; パラメーターで定義された宛先に送信された値です。 |
+| `cv` | "cn":"destinaton name" パラメーターで定義された宛先に送信された値です。 |
 | `dcs_region` | [サーバー間DCSの呼び出し](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)。 |
 | `dests` | このオブジェクトには、UI で設定されるすべての URL 宛先の情報が含まれています。このオブジェクトの値（リスト）は、ユーザーのアクションに応じて動的に変わります。 |
 | `dmn` | Cookie の宛先の「Cookie Domain」フィールドに指定されたドメインです。[Cookie の宛先のオプション設定](../../../features/destinations/manage-destinations.md#optional-settings-cookies)を参照してください。サーバー間統合の場合は、`aam-api.com` などのドメインを使用することをお勧めします。 |
