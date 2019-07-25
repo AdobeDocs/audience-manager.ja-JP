@@ -57,7 +57,7 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 
 ## オプトアウト呼び出し {#opt-out-calls}
 
-[!UICONTROL declared ID] このプロセスは、WebサイトによるAudience Managerのターゲット設定をオプトアウトするためのサイト訪問者の環境設定に適しています。When Audience Manager receives an opt-out request, the [!DNL JSON] returned by the [!UICONTROL DCS] contains the error code 171, with the message &quot;Encountered opt out tag&quot;, instead of the Audience Manager user ID.
+[!UICONTROL declared ID] このプロセスは、WebサイトによるAudience Managerのターゲット設定をオプトアウトするためのサイト訪問者の環境設定に適しています。When Audience Manager receives an opt-out request, the [!DNL JSON] returned by the [!UICONTROL DCS] contains the error code 171, with the message "Encountered opt out tag", instead of the Audience Manager user ID.
 
 * Audience Manager can pass in a [!UICONTROL declared ID] opt-out alongside an Audience Manager [!UICONTROL UUID] in the [!DNL URL].
 * [!UICONTROL declared ID] オプトアウトは[!パートナーごとのUACROLプロファイルキャッシュサーブレット（[!UICONTROL PCS]）。There is no platform-level opt-out using [!UICONTROL declared IDs]. Additionally, Audience Manager opts the user out from that particular region on the edge (the opt-out does not cross [!UICONTROL DCS] regions).
@@ -66,7 +66,7 @@ See [Data Privacy](../overview/data-security-and-privacy/data-privacy.md) for mo
 
 ## 宣言済み ID のオプトアウトの例 {#opt-out-examples}
 
-You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. `d_dpid` や `d_dpuuid` などの従来のパラメーターはまだ機能しますが、既に廃止されています。詳しくは、 [従来の DPID と DPUUID に代わる CID](../reference/cid.md) を参照してください。以下の例で、*斜体*の部分には実際の情報が入ります。
+You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. `d_dpid` や `d_dpuuid` などの従来のパラメーターはまだ機能しますが、既に廃止されています。詳しくは、 [従来の DPID と DPUUID に代わる CID](../reference/cid.md) を参照してください。以下の例で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
 ### CID および CID_IC を使用したオプトアウト
 
@@ -126,7 +126,7 @@ You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d
 
 <!-- c_declared_id_var_syntax.xml -->
 
-以下の表に、[!DNL Audience Manager] でデータプロバイダー ID およびユーザー ID または統合コード（使用する場合）を渡すキーと値のペアを示します。なお、*斜体*の部分には実際の情報が入ります。読みやすくするために、スペースが追加されています。
+以下の表に、[!DNL Audience Manager] でデータプロバイダー ID およびユーザー ID または統合コード（使用する場合）を渡すキーと値のペアを示します。なお、*斜体*&#x200B;の部分には実際の情報が入ります。読みやすくするために、スペースが追加されています。
 
 それぞれのキー値ペアでは、以下がおこなわれます。
 
@@ -207,7 +207,7 @@ var vDil = DIL.create({
 
 ## 非推奨の関数 {#deprecated-functions}
 
-With the latest versions of [!UICONTROL DIL] (6.2+), you don&#39;t need to use these key-value pairs to pass in [!UICONTROL declared IDs]. That&#39;s because [!UICONTROL DIL] now relies on the `visitorService` function shown in the code sample above. This function gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service]. ここでは、これらの変数を、履歴やレガシーを示す目的で参照しています。See the code below for an example of how to configure `DIL.create` to get a [!UICONTROL declared ID] from the [!UICONTROL Visitor ID Service].
+With the latest versions of [!UICONTROL DIL] (6.2+), you don't need to use these key-value pairs to pass in [!UICONTROL declared IDs]. That's because [!UICONTROL DIL] now relies on the `visitorService` function shown in the code sample above. This function gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service]. ここでは、これらの変数を、履歴やレガシーを示す目的で参照しています。See the code below for an example of how to configure `DIL.create` to get a [!UICONTROL declared ID] from the [!UICONTROL Visitor ID Service].
 次の表は、`declaredId` オブジェクトで使用されるレガシー変数の一覧です。
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
@@ -236,7 +236,7 @@ With the latest versions of [!UICONTROL DIL] (6.2+), you don&#39;t need to use t
 
 Audience Manager は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。存在しない ID がある場合、Audience Manager は新しいユーザー ID を作成し、`DPID/DPUUID` の組み合わせと同期します。Audience Manager がユーザー ID（`UUID`）を照合または作成すると、その ID が レスポンスでクライアントのドメインの Cookie（ファーストパーティの Cookie）またはその他のローカルストレージの Cookie に返されます。[!DNL JSON]
 
-Call this function when you&#39;re using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service].
+Call this function when you're using [!UICONTROL DIL] v6.1 or earlier. However, this function has been deprecated in favor of the new version that gets [!UICONTROL declared IDs] from the [!UICONTROL Experience Cloud ID Service].
 
 <pre class="js"><code>DIL. create（{
 パートナー:「パートナー名」、
