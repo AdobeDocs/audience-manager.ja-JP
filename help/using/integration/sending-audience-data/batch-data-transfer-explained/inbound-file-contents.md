@@ -40,7 +40,7 @@ For other accepted file content formats, see [Custom Partner Integrations](/help
 
 ## 定義済みのファイル変数 {#file-variables-defined}
 
-次の表は、形式が適切に設定された受信データファイルで使用される変数の一覧と定義です。*斜体*の部分には実際の情報が入ります。
+次の表は、形式が適切に設定された受信データファイルで使用される変数の一覧と定義です。*斜体*&#x200B;の部分には実際の情報が入ります。
 
 <table id="table_FE043CE392B34D5194111188E5C39671"> 
  <thead> 
@@ -122,7 +122,7 @@ For other accepted file content formats, see [Custom Partner Integrations](/help
 
 ### 特性 ID
 
-特性 ID は数値型の文字のみで構成されます。受信データファイルには*転送された特性のみ*を入れるようにしてください。受信データ転送では、他の特性タイプは処理されません。
+特性 ID は数値型の文字のみで構成されます。受信データファイルには&#x200B;*転送された特性のみ*&#x200B;を入れるようにしてください。受信データ転送では、他の特性タイプは処理されません。
 
 ### ユーザー ID
 
