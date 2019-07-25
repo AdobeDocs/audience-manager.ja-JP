@@ -41,7 +41,7 @@ IPアドレスの不明化を設定するには、次の手順に従います。
 1. Log in to Audience Manager with an administrator account and go to **Administration &gt; Privacy**.
 2. 使用するIPの不明化のタイプを選択します。
    1. **すべてのIPアドレスを不明化:** 訪問者が元の地域に関係なく、すべての訪問者IPアドレスの最後のオクテットを不明化するには、このオプションを選択します。
-   2. **特定の国のIPアドレスの不明化:** このオプションを選択すると、特定の国の訪問者IPアドレスの最終オクテットをAudience Managerが不明化します。Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you&#39;ve added all the required countries to the **Selected for Obfuscation** list, click **Save**.
+   2. **特定の国のIPアドレスの不明化:** このオプションを選択すると、特定の国の訪問者IPアドレスの最終オクテットをAudience Managerが不明化します。Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you've added all the required countries to the **Selected for Obfuscation** list, click **Save**.
 
 ![](assets/ip-obfuscation.png)
 
@@ -49,7 +49,7 @@ IPアドレスの不明化を設定するには、次の手順に従います。
 
 To disable IP address obfuscation globally, go to **Administration &gt; Privacy**, select **Do not obfuscate IP addresses**, and click **Save**.
 
-To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you&#39;re done.
+To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you're done.
 
 ## 関連する概念 {#related-concepts}
 
