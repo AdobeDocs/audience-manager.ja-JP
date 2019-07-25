@@ -45,7 +45,7 @@ With the option to duplicate allocation templates, you can increase your product
    ![](assets/duplicate-allocation-template.png)
 
 2. [!UICONTROL Create Test Group] ウィザードでベースセグメントを指定し、必要に応じてテストセグメントの名前を変更します。
-3. 以下は変更*できません*。
+3. 以下は変更&#x200B;*できません*。
 
    * テストセグメント間でのデバイスの分布。
    * コンバージョン特性。
