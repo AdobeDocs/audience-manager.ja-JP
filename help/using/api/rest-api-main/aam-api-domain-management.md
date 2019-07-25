@@ -95,7 +95,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ### オプションのクエリパラメーター
 
-オブジェクトの[!DNL API]すべて*のプロパティを返す *   メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。[オプションのパラメーター](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
+オブジェクトの[!DNL API]すべて&#x200B;*のプロパティを返す*   メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。[オプションのパラメーター](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
