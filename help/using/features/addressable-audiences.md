@@ -77,7 +77,7 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
 
 [!UICONTROL Addressable Audience] この抽象概念は、この抽象概念を定量化データに変換します。[!DNL Audience Manager] は、一目でわかる視覚化された情報と表形式の数値データによってオーディエンスの重複を表示します。
 
-[!UICONTROL Addressable Audiences]**[!UICONTROL Audience Data > Destinations]** が配置されていることを確認します。Select **[!UICONTROL Integrated Platforms > Device-Based]** to see addressable audiences metrics.
+[!UICONTROL Addressable Audiences]**[!UICONTROL Audience Data > Destinations]**&#x200B;が配置されていることを確認します。Select **[!UICONTROL Integrated Platforms > Device-Based]** to see addressable audiences metrics.
 
 ![](assets/addressable-audiences-landing.png)
 
@@ -131,10 +131,10 @@ All dates and date ranges are set in the [!DNL UTC] time zone. See [Time Zones i
 
 [!UICONTROL Addressable Audience] および [!UICONTROL Destination] 指標は、選択した時間間隔の個別ユーザーの数を返します。例えば、1 人の訪問者は複数回サイトに訪れた場合でも、1 回のみカウントされます。初回の訪問が一意の訪問となり、これが記録されます。それ以降の訪問は再訪問となり、一意ではないためカウントされません。
 
-選択した時間間隔内かそれより古いデータが日付範囲に含まれ、時間の経過に伴い、それぞれのレポート期間から外れていきます。For example, let&#39;s assume you see 2 visitors after choosing the [!UICONTROL Last 30 Days] option. レポートで、これらの訪問者は：
+選択した時間間隔内かそれより古いデータが日付範囲に含まれ、時間の経過に伴い、それぞれのレポート期間から外れていきます。For example, let's assume you see 2 visitors after choosing the [!UICONTROL Last 30 Days] option. レポートで、これらの訪問者は：
 
 * *より長い時間間隔（60日、90日間、全期間）によって返される結果に* 含まれます。
-* *オプション* （ [!UICONTROL Last 30 Day] 「現在」、&quot;7日間」および&quot;14日間」）の前の短い間隔には含められません。
+* *オプション* （ [!UICONTROL Last 30 Day] 「現在」、"7日間」および"14日間」）の前の短い間隔には含められません。
 
 And, on day 31, these visitors only show up in the 60 day, 90 day, and [!UICONTROL Lifetime] results. 30日の間隔が古くなっています。Visitors do not age out of the [!UICONTROL Lifetime] interval.
 
@@ -236,9 +236,9 @@ This section describes the types of metrics provided by [!UICONTROL Addressable 
 
 [!UICONTROL Customer Addressable Audience] 他の指標と比較して、 [!UICONTROL Segment Addressable Audience] 指標と指標を比較しないでください。これらは個々に異なる独立した指標です。上記の説明のとおり、これらはそれぞれ異なるデータセットから引き出されるものです。そのため、一方の指標がもう一方の指標より大きくても、何も結論付けるべきではありません。これらの比較を通して言えるのは以下のことのみとなります。
 
-* [!UICONTROL Customer Addressable Audiences] は、独自のファーストパーティデータ *の特性再導入に基づいてい*ます。この指標からは、データパートナーとの統合に関して幅広い包括的な情報が得られます。
+* [!UICONTROL Customer Addressable Audiences] は、独自のファーストパーティデータ *の特性再導入に基づいてい*&#x200B;ます。この指標からは、データパートナーとの統合に関して幅広い包括的な情報が得られます。
 
-* [!UICONTROL Segment Addressable Audiences] は、独自のファーストパーティデータ、 *および2つ目およびサードパーティのデータ*のセグメント資格に基づいています。この指標からは、ターゲットプラットフォームのアドレス可能なオーディエンスに関してより詳細で正確な情報が得られます。
+* [!UICONTROL Segment Addressable Audiences] は、独自のファーストパーティデータ、 *および2つ目およびサードパーティのデータ*&#x200B;のセグメント資格に基づいています。この指標からは、ターゲットプラットフォームのアドレス可能なオーディエンスに関してより詳細で正確な情報が得られます。
 
 ## アドレス可能なオーディエンスのマッチ率の低下の原因 {#low-match-rates}
 
