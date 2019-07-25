@@ -17,9 +17,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 <!-- c_tb_about.xml -->
 
-Compared to pixels, which fire in response to simple &quot;yes&quot; or &quot;true&quot; conditions, [!UICONTROL Trait Builder] lets you:
+Compared to pixels, which fire in response to simple "yes" or "true" conditions, [!UICONTROL Trait Builder] lets you:
 
-* *すべて*のページデータを収集するので、データを後で使用して関連性の高い有用な特性を作成できる。
+* *すべて*&#x200B;のページデータを収集するので、データを後で使用して関連性の高い有用な特性を作成できる。
 * データ収集中に渡された[キー値ペア](../../reference/key-value-pairs-explained.md)に基づいて特性を作成する。
 * [ブール式](../../reference/boolean-expressions-tsb.md)と[比較演算子](../../features/traits/trait-comparison-operators.md)を使用したサーバー側ルールで複雑なデータ条件を評価する。
 
