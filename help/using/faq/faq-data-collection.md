@@ -52,7 +52,7 @@ Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] 
 
 **データ[!UICONTROL DIL]統合のコード配置とページ読み込み要件[!DNL Analytics]は何ですか。**
 
-[!DNL Analytics] データを [!DNL Audience Manager] に取り込むには、[!UICONTROL DIL] モジュールの後、`s_code` 関数より*前*に `s.t()` を読み込みます。例えば、次の順でコードを配置するか、読み込まれるようにします。
+[!DNL Analytics] データを [!DNL Audience Manager] に取り込むには、[!UICONTROL DIL] モジュールの後、`s_code` 関数より&#x200B;*前*&#x200B;に `s.t()` を読み込みます。例えば、次の順でコードを配置するか、読み込まれるようにします。
 
 1. [!DNL Analytics] `s_code`
 
