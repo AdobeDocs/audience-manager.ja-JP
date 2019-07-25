@@ -19,7 +19,7 @@ Send data to the [!UICONTROL DCS] [!DNL API] using `GET` or `POST` methods.
 
 >[!NOTE]
 >
->コードと例の*斜体*の部分は変数のプレースホルダーです。この方法で [!UICONTROL DCS] にデータを送信する際には、プレースホルダーを実際の値に置き換えてください。
+>コードと例の&#x200B;*斜体*&#x200B;の部分は変数のプレースホルダーです。この方法で [!UICONTROL DCS] にデータを送信する際には、プレースホルダーを実際の値に置き換えてください。
 
 ## GET でのデータ送信 {#send-data-via-get}
 
