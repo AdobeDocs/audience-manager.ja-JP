@@ -58,7 +58,7 @@ A [!UICONTROL folder trait] is created automatically when you create a new folde
 
 <!-- delete-folder-trait.xml -->
 
-1. **Audience Data／Traits** を選択して、**特性** ダッシュボードに移動します。
+1. **Audience Data／Traits** を選択して、**特性**&#x200B;ダッシュボードに移動します。
 1. [!UICONTROL Trait Storage] ウィンドウで、フォルダーの上にマウスポインターを置いて「X」アイコンをクリックすると、そのフォルダーが削除されます。
 
    ![手順の結果](assets/folder_traits_create.PNG)
