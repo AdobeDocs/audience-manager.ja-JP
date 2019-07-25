@@ -27,9 +27,9 @@ source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 The middle column contains a list of traits, identified by [!UICONTROL Trait ID] and [!UICONTROL Trait Name]. 任意の特性をクリックすると、ポップアップダイアログボックスが表示され、以下のオプションから選択できます。
 
-* **Keep Only：** レポートから他のすべての特性を削除し、この特性のデータのみを表示します。
-* **Exclude：** レポートからこの特性を削除し、他のすべての特性のデータを表示します。複数の特性を除外できます。
-* **View Data：** その表示のデータを表示できます。また、すべての行をテキストファイルとしてダウンロードできます。
+* **Keep Only：**&#x200B;レポートから他のすべての特性を削除し、この特性のデータのみを表示します。
+* **Exclude：**&#x200B;レポートからこの特性を削除し、他のすべての特性のデータを表示します。複数の特性を除外できます。
+* **View Data：**&#x200B;その表示のデータを表示できます。また、すべての行をテキストファイルとしてダウンロードできます。
 
 [!UICONTROL Standard Deviation] 列には、選択した期間における各特性の標準偏差を示す、色分けされた棒グラフが表示されます。赤い棒は、負の標準偏差の特性を示します（データポイントが平均を下回る傾向がある）。緑の棒は、正の標準偏差の特性を示します（データポイントが平均を上回る傾向がある）。任意の棒にマウスポインターを置くと、詳細情報と、その特性を維持または除外して詳細を表示するオプションを含むポップアップダイアログボックスが表示されます。
 
@@ -52,8 +52,8 @@ The middle column contains a list of traits, identified by [!UICONTROL Trait ID]
 
 1 ヶ月後、[!UICONTROL Daily Trait Variation] レポートを実行し、サイト分析によれば訪問者数が増加しているにもかかわらず、`productPage == "smartphones"` 特性に関して大きい負の偏差があることに気がつきます。この情報に基づいて、新しい製品ページに対応するように [!DNL Audience Manager] 内の特性を更新していないことに気がつきます。そこで、次の特性を作成する必要があることがわかります。
 
-* productPage == &quot;samsung&quot;
-* productPage == &quot;apple&quot;
-* productPage == &quot;huawei&quot;
+* productPage == "samsung"
+* productPage == "apple"
+* productPage == "huawei"
 
 これをおこなえば、オーディエンスが、新しく作成した特性の対象に認定されるようになります。
