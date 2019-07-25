@@ -17,7 +17,7 @@ Audience Manager がパブリッシャー向けオーディエンスの最適化
 
 ## DFP ログの取り込みの前提条件 {#prereqs-dfp-ingestion}
 
-この節で説明している処理は、ログの取り込みを許可するための前提条件に進む*前*におこなってください。
+この節で説明している処理は、ログの取り込みを許可するための前提条件に進む&#x200B;*前*&#x200B;におこなってください。
 
 [!DNL Audience Manager] の DFP（[!DNL DoubleClick For Publishers]）ログファイルを使用するには、まず広告タグ呼び出しで [Audience Manager の一意のユーザー ID（UUID）](../../../reference/ids-in-aam.md)を設定する必要があります。これにより、ID が DFP ログに含まれ、DFP と [!DNL Audience Manager] との間で ID を照合できるようになります。[!DNL Audience Manager][!UICONTROL DIL] コードを使用して [!UICONTROL Audience Management Module] 、ファーストパーティcookieの [!DNL Audience Manager] UUIDを設定します。
 
