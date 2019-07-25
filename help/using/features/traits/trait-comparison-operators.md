@@ -44,11 +44,11 @@ This article describes the comparison operators used by [!UICONTROL Trait Builde
 
 | 演算子 | Evaluates to [!DNL True] When |
 |---|---|
-| **[!UICONTROL Contains]** | キー値ペアの値が、この演算子で指定された文字を*含む*。 |
-| **[!UICONTROL Matcheswords]** | キー値ペアの値が、この演算子で指定されたパターンに*合致する*。 |
-| **[!UICONTROL Startswith]** | キー値ペアの値が、この演算子で指定された文字*で始まる*。 |
-| **[!UICONTROL Endswith]** | キー値ペアの値が、この演算子で指定された文字*で終わる*。 |
-| **[!UICONTROL Matchesregex]** | キー値ペアの値が、正規表現で指定されたパターンに*合致する*。[正規表現の使用につい](../../features/traits/trait-builder-regex.md) て [!UICONTROL Trait Builder]詳しくは、を参照してください。 |
+| **[!UICONTROL Contains]** | キー値ペアの値が、この演算子で指定された文字を&#x200B;*含む*。 |
+| **[!UICONTROL Matcheswords]** | キー値ペアの値が、この演算子で指定されたパターンに&#x200B;*合致する*。 |
+| **[!UICONTROL Startswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で始まる*。 |
+| **[!UICONTROL Endswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で終わる*。 |
+| **[!UICONTROL Matchesregex]** | キー値ペアの値が、正規表現で指定されたパターンに&#x200B;*合致する*。[正規表現の使用につい](../../features/traits/trait-builder-regex.md) て [!UICONTROL Trait Builder]詳しくは、を参照してください。 |
 
 >[!MORE_LIKE_THIS]
 >
