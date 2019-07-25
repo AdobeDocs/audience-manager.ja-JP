@@ -72,7 +72,7 @@ Run and check the [!UICONTROL Unused Signals] report:
 * T(v=1 [!UICONTROL AND NOT] (a=23))
 * T(v=1 [!UICONTROL AND] (a!=23))
 * Both examples show a trait which contains two key-value pairs v and a. The first expression translates into: the trait contains key v with the value 1 [!UICONTROL AND NOT] the key a with the value 23. The second expression contains key v with the value 1 [!UICONTROL AND] the key a with the value [!UICONTROL NOT EQUAL] 23.
-* Considering the two different expressions above, let&#39;s say you search in the [!UICONTROL Unused Signals Report] for the values that get passed on key a with any value different than 23, you&#39;ll only obtain results in the first case because values for key were not sent AT ALL. 2 番目の場合は、23 以外の値が送信されたので、キー a は未使用ではありません。
+* Considering the two different expressions above, let's say you search in the [!UICONTROL Unused Signals Report] for the values that get passed on key a with any value different than 23, you'll only obtain results in the first case because values for key were not sent AT ALL. 2 番目の場合は、23 以外の値が送信されたので、キー a は未使用ではありません。
 
 ## 特性の一括作成
 
