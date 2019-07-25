@@ -52,7 +52,7 @@ To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] URL
     value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. **[!UICONTROL Save]** をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
    >[!NOTE]
    >
