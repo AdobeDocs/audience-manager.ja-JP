@@ -33,23 +33,23 @@ source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
 1. Click ![](assets/icon_add.png) to display the [!UICONTROL Create New User] page.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
    * **Username：** Audience Manager での一意のユーザー名を指定します。
-   * **First Name：** ユーザーの名を指定します。
-   * **Last Name：** ユーザーの姓を指定します。
-   * **電子メールアドレス：** ユーザーの電子メールアドレスを指定します。[!DNL Audience Manager] は標準の通知をユーザーに送信しません。[!DNL Audience Manager] 管理者はユーザーの電子メールアドレスにアクセスできるので、必要に応じて手動でユーザーに電子メールを送信できます。例えば、ユーザーが自分のパスワードを忘れてしまった場合、このフィールドで指定された電子メールアドレスに、臨時のパスワードと、パスワードをリセットするための手順が送信されます。
-   * **Phone Number：** ユーザーの電話番号を指定します。
+   * **First Name：**&#x200B;ユーザーの名を指定します。
+   * **Last Name：**&#x200B;ユーザーの姓を指定します。
+   * **電子メールアドレス：**&#x200B;ユーザーの電子メールアドレスを指定します。[!DNL Audience Manager] は標準の通知をユーザーに送信しません。[!DNL Audience Manager] 管理者はユーザーの電子メールアドレスにアクセスできるので、必要に応じて手動でユーザーに電子メールを送信できます。例えば、ユーザーが自分のパスワードを忘れてしまった場合、このフィールドで指定された電子メールアドレスに、臨時のパスワードと、パスワードをリセットするための手順が送信されます。
+   * **Phone Number：**&#x200B;ユーザーの電話番号を指定します。
    * **Is Admin：**[!DNL Audience Manager]このユーザーが 管理者であるかどうかを指定します。管理ユーザーはユーザーの管理（作成や編集など）とグループの管理（作成、権限の割り当てなど）ができます。管理者でないユーザーは、自分の電子メールアドレスの編集やパスワードのリセットなど、自分のユーザープロファイルのみ制御できます。詳しくは、[アカウント設定の編集](../../features/administration/edit-account-settings.md)を参照してください。
 1. 「**[!UICONTROL Login]**」の下で、目的のステータスを選択します。
    * **Active：**[!DNL Audience Manager]アクティブなユーザーは にアクセスでき、グループメンバーシップによる権限が付与されます。
    * **Deactivated：**[!DNL Audience Manager]非アクティブなユーザーは にアクセスできず、権限もありません。ユーザーを非アクティブ化しても、ユーザー情報は [!DNL Audience Manager] に残るので、必要があれば再アクティブ化できます。ユーザーを削除すると、そのユーザーが将来 [!DNL Audience Manager] を使用する必要が出た場合は、ユーザーを作成し直さなければなりません。
-   * **Expired：** ユーザーのパスワードが作成から 90 日を超えています。
-   * **Pending：** パスワードのリセット後、またはアカウントの新規作成時の臨時パスワードがユーザーに対して発行されており、まだ正式なパスワードが設定されていません。
-   * **Locked Out：** ログインの試行に 5 回失敗したので、ユーザーがロックアウトされています。
+   * **Expired：**&#x200B;ユーザーのパスワードが作成から 90 日を超えています。
+   * **Pending：**&#x200B;パスワードのリセット後、またはアカウントの新規作成時の臨時パスワードがユーザーに対して発行されており、まだ正式なパスワードが設定されていません。
+   * **Locked Out：**&#x200B;ログインの試行に 5 回失敗したので、ユーザーがロックアウトされています。
 1. 「**[!UICONTROL Assigned Groups]**」の下のドロップダウンリストから、このユーザーを割り当てるグループを選択します。グループと権限について詳しくは、[グループの作成](../../features/administration/administration-overview.md#create-group)を参照してください。
-1. **[!UICONTROL Save]** をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## グループの作成 {#create-group}
 
-*グループ*とは、送信先、セグメントおよび特性の各オブジェクトに対するアクセス権を共有するユーザーの集まりです。グループのアクセス権を 1 つのオブジェクトのみに制限することも、様々なオブジェクトの組み合わせに対して幅広く付与することもできます。
+*グループ*&#x200B;とは、送信先、セグメントおよび特性の各オブジェクトに対するアクセス権を共有するユーザーの集まりです。グループのアクセス権を 1 つのオブジェクトのみに制限することも、様々なオブジェクトの組み合わせに対して幅広く付与することもできます。
 
 <!-- t_create_groups.xml -->
 
@@ -64,8 +64,8 @@ source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
 1. In [!UICONTROL Group Permissions], select a [trait](../../features/traits/trait-details-page.md), [segment](../../features/segments/segments-purpose.md), or [destination](../../features/destinations/destinations.md) from **[!UICONTROL Add Object]**.
 選択したオブジェクトの権限ウィンドウが開きます。
 1. グループメンバーに付与する権限のチェックボックスをオンにします。
-1. * （オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。
-1. **[!UICONTROL Save Group]** をクリックします。
+1. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。
+1. **[!UICONTROL Save Group]**&#x200B;をクリックします。
 
 ## ワイルドカード権限{#wild-card-permissions}について 
 
