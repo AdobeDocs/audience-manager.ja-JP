@@ -13,7 +13,7 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 # 派生シグナル {#derived-signals}
 
-A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they&#39;ve already seen. つまり、追加の特性認定は、現在認定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
+A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. つまり、追加の特性認定は、現在認定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
 
 <!-- c_tb_derived_signal.xml -->
 
@@ -40,7 +40,7 @@ To create a [!UICONTROL derived signal]:
    * [!UICONTROL Source Value]
    * [!UICONTROL Target Key]
    * [!UICONTROL Target Value]
-1. **[!UICONTROL Add Signal]** をクリックします。
+1. **[!UICONTROL Add Signal]**&#x200B;をクリックします。
 
 >[!NOTE]
 >
