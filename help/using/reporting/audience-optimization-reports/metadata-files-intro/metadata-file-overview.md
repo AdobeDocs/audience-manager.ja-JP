@@ -43,7 +43,7 @@ During an impression or click event, [!DNL Audience Manager] receives data in an
 
 ## ファイルのマッピング {#file-mappings}
 
-The following table lists the key-value pairs that hold data used by the [!UICONTROL Audience Optimization] reports. メタデータファイルを使用する必要がある場合、このキーと値のペアの値に対応する、わかりやすい情報がメタデータに含まれています。これらのキーの値には整数（データ型 INT）しか使用できません。なお、*斜体*の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
+The following table lists the key-value pairs that hold data used by the [!UICONTROL Audience Optimization] reports. メタデータファイルを使用する必要がある場合、このキーと値のペアの値に対応する、わかりやすい情報がメタデータに含まれています。これらのキーの値には整数（データ型 INT）しか使用できません。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
 
 >[!IMPORTANT]
 >
@@ -106,7 +106,7 @@ The following table lists the key-value pairs that hold data used by the [!UICON
 
 ### イベント呼び出し
 
-In this example we&#39;ll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. この作業をおこなうには、イベント呼び出しからクリエイティブ、キャンペーン、データソースの ID を抽出する必要があります。
+In this example we'll create a metadata file that brings creative names in to an [!UICONTROL Audience Optimization] report. この作業をおこなうには、イベント呼び出しからクリエイティブ、キャンペーン、データソースの ID を抽出する必要があります。
 
 ![](assets/metadata_file_event.png)
 
