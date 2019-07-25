@@ -30,7 +30,7 @@ c_dashboard.xml
 **ダッシュボードにアクセスするには：**
 
 1. 上部のナビゲーションメニューで、「**[!UICONTROL Dashboard]**」をクリックします。
-2. *（オプション* ）ドロップダウンリストからの目的の期間（&quot;7日間」、&quot;14日間（デフォルト）」、&quot;30日間」または&quot;60日間」）から目的の期間を選択します。
+2. *（オプション* ）ドロップダウンリストからの目的の期間（"7日間」、"14日間（デフォルト）」、"30日間」または"60日間」）から目的の期間を選択します。
 
    Depending on the period selected, the delta change in the [!UICONTROL Largest Traits] &gt; [!UICONTROL Most Changed Traits] and [!UICONTROL Largest Segments] &gt; [!UICONTROL Most Changed Segments] panels displays the change in unique visitors in the audience over the period ending today vs. the prior period of the same length. 例えば、7 日を選択すると、差分は、今日までの 7 日間の個別訪問者と 7 日前までの 7 日間の個別訪問者を比較します。
 
