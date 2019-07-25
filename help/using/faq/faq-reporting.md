@@ -25,9 +25,9 @@ faq_reports.xml
 
 **新しいオンボーブの特徴については、[!UICONTROL Trait Graph]予想される数値や0よりも小さいのはなぜですか。**
 
-Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn&#39;t show any results or shows lower than expected numbers. この状況は、受け取るデータの量が大きすぎて、受信処理ジョブで当日のレポート期限までにこの情報の収集を完了できない場合に発生します。
+Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. この状況は、受け取るデータの量が大きすぎて、受信処理ジョブで当日のレポート期限までにこの情報の収集を完了できない場合に発生します。
 
-As a result, this data is sent to the reporting system late and won&#39;t show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
+As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
 
 <br> 
 
@@ -48,9 +48,9 @@ As a result, this data is sent to the reporting system late and won&#39;t show u
 
 **リアルタイムカウントと合計セグメント母集団カウントにはどのような違いがありますか？**
 
-* **リアルタイム：** セグメントの一部であり、設定された期間にプロパティでアクティブである個別ユーザーの数（[!DNL Audience Manager] はそのユーザーについて特定の期間アクティビティを記録している必要があります）。
+* **リアルタイム：**&#x200B;セグメントの一部であり、設定された期間にプロパティでアクティブである個別ユーザーの数（[!DNL Audience Manager] はそのユーザーについて特定の期間アクティビティを記録している必要があります）。
 
-* **合計セグメント母集団：** 現在当該のセグメントに分類されているすべてのユーザーの合計。
+* **合計セグメント母集団：**&#x200B;現在当該のセグメントに分類されているすべてのユーザーの合計。
 
 <!-- 
 
