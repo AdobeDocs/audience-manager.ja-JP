@@ -60,7 +60,7 @@ s.AudienceManagement.setup({
 | `partner` | 必須。これは、アドビによって割り当てられたパートナー名です。「パートナー ID」や「パートナーサブドメイン」と呼ばれることもあります。パートナー名が不明な場合は、アドビのコンサルタントまたは[カスタマーケア](https://helpx.adobe.com/marketing-cloud/contact-support.html)にお問い合わせください。 |
 | `containerNSID` | 必須。ほとんどの場合は、`"containerNSID":0` に設定できます。ただし、会社が異なるコンテナを使用して ID 同期をカスタマイズする必要がある場合、ここでそのコンテナ ID を指定できます。 |
 | `uuidCookie` | オプションです。この設定を使用すると、ファーストパーティドメインに Adobe Cookie を設定できます。この Cookie には、[UUID](../../reference/ids-in-aam.md) が含まれます。 |
-| `visitorService` - `namespace` | 必須。`namespace` パラメーターは、 バージョン 2.10 以降にバンドルされている AudienceManagement モジュールを使用する場合に必要です。[!UICONTROL AppMeasurement][!UICONTROL AudienceManagement] このモジュールでは3.3以降を使用 [!UICONTROL Experience Cloud ID Service] する必要があります。<br>は [!UICONTROL Experience Cloud Organization ID] 、サインアップ時に会社が提供するID [!UICONTROL Experience Cloud]です。Find out your company&#39;s Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
+| `visitorService` - `namespace` | 必須。`namespace` パラメーターは、 バージョン 2.10 以降にバンドルされている AudienceManagement モジュールを使用する場合に必要です。[!UICONTROL AppMeasurement][!UICONTROL AudienceManagement] このモジュールでは3.3以降を使用 [!UICONTROL Experience Cloud ID Service] する必要があります。<br>は [!UICONTROL Experience Cloud Organization ID] 、サインアップ時に会社が提供するID [!UICONTROL Experience Cloud]です。Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
 
 ## 結果：Audience Manager へのデータ転送 {#results-data-forwarding}
 
