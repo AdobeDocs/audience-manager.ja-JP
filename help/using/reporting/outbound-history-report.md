@@ -26,7 +26,7 @@ t_reports_outbound_history.xml
    ![手順の結果](assets/outbound_history.png)
 
 1. **[!UICONTROL Search for a Destination]** ボックスで、入力を開始して目的の宛先を選択します。
-1. **[!UICONTROL Select a Date Range]** ボックスで、レポートの開始日と終了日を指定して、をクリック **[!UICONTROL Apply Date Filter]** します。
+1. **[!UICONTROL Select a Date Range]** ボックスで、レポートの開始日と終了日を指定して、をクリック **[!UICONTROL Apply Date Filter]**&#x200B;します。
 
    ![手順の結果](assets/outbound_history_stats.png)
 
