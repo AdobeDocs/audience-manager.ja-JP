@@ -40,9 +40,9 @@ The following illustration provides a high-level overview of key elements in the
 
 1. 次のオプションを設定します。
 
-   * **Report Type：** 目的のレポートタイプ（Trait、Segment、Destination のいずれか）を選択します。
+   * **Report Type：**&#x200B;目的のレポートタイプ（Trait、Segment、Destination のいずれか）を選択します。
 
-   * **For Dates Through：** レポートの日付範囲を指定します。
+   * **For Dates Through：**&#x200B;レポートの日付範囲を指定します。
 
 2. 名前または ID で、特性、セグメントまたは宛先を検索します。
 3. フォルダーのリストで、レポートの対象となる特性、セグメントまたは宛先をドラッグし、右側の「[!UICONTROL Selections]」パネルにドロップします。
@@ -58,12 +58,12 @@ t_run_general_report.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** ダッシュボードで、をクリック **[!UICONTROL General Reports]** します。
+1. **[!UICONTROL Analytics]** ダッシュボードで、をクリック **[!UICONTROL General Reports]**&#x200B;します。
 1. 「**[!UICONTROL Report Type]**」ドロップダウンリストで、目的のタイプ（Trait、Segment または Destination）を選択します。
 1. *条件付き* クリック:日付ボックスをクリックしてカレンダーを表示し、今日以外の日付を指定する場合はレポートの終了日を選択します。
 1. 名前または ID で、特性、セグメントまたは宛先を検索します。
 1. フォルダーのリストで、レポートの対象となる特性、セグメントまたは宛先をドラッグし、右側の「[!UICONTROL Selections]」パネルにドロップします。
-1. **[!UICONTROL Run Report]** をクリックします。
+1. **[!UICONTROL Run Report]**&#x200B;をクリックします。
 
    結果が書き出し可能な表形式で表示されます。列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
 1. Select the desired option button at the top of the report to filter data by performance ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], or [!UICONTROL Total Trait Population]) or by time (1, 7, 14, 30, 60, 90-day range or lifetime).
