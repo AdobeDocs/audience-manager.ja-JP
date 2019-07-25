@@ -56,7 +56,7 @@ The technical details of the real-time unsegmentation are described in length in
 * リアルタイムのセグメント化解除機能が働くためには、目的のセグメントをリアルタイムのサーバー間宛先にマッピングする必要があります。
 * 複数のデバイスが[デバイスグラフ](../../features/profile-merge-rules/profile-link-use-case.md#recommendations)で接続されている場合は、評価とセグメント化解除に関して、4 デバイスまでの制限が適用されます。この制限については、[デバイスグラフオプションとデバイスのセグメント化解除](../../features/profile-merge-rules/merge-rule-unsegment.md#device-graph-options-unsegmentation)を参照してください。
 * 複数のデバイスがデバイスグラフで接続されている場合、セグメント化解除コマンドは、24 時間ごとに宛先に送信されるバッチファイルに含まれています。
-* セグメント評価を促すために、デバイスは（[エッジ](../../reference/system-components/components-edge.md)で）リアルタイムに認識される必要があります。For traits that have a [!UICONTROL time-to-live (TTL)] value, even if a trait [!DNL TTL] is met, the device will *not* automatically be unsegmented until the device is next seen in real-time.​ 詳しい方法については、[特性の有効期限間隔の設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)を参照してください。
+* セグメント評価を促すために、デバイスは（[エッジ](../../reference/system-components/components-edge.md)で）リアルタイムに認識される必要があります。For traits that have a [!UICONTROL time-to-live (TTL)] value, even if a trait [!DNL TTL] is met, the device will *not* automatically be unsegmented until the device is next seen in real-time.&#x200B; 詳しい方法については、[特性の有効期限間隔の設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)を参照してください。
 * [!UICONTROL DCS API] を使用してルールベースの特性をリアルタイムにオンボードする場合は、[!UICONTROL AND NOT] ロジックを使用してセグメント化解除を起動することができます。詳しくは、[DCS API へのデータ送信](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)を参照してください。
 
 ## 留意すべき重要な側面 - 時間設定 {#timing-notes}
