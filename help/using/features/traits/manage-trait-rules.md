@@ -40,17 +40,17 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Expression Builder] lets you crea
 
 <!-- t_tb_create_rules.xml -->
 
-「**[!UICONTROL Basic Information]**」セクションの必須フィールドは、特性ルールを作成する*前*に入力します。
+「**[!UICONTROL Basic Information]**」セクションの必須フィールドは、特性ルールを作成する&#x200B;*前*&#x200B;に入力します。
 
 1. 「**[!UICONTROL Trait Expression]**」セクションを展開して、キーと値の名前を入力します。これにより *`signal`*.
    >[!NOTE]
    >
    >イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、キー変数でプレフィックス `c_`（またはその他の命名規則）を使用します。
-1. 「[](../../features/traits/trait-comparison-operators.md)**」ドロップダウンから[!UICONTROL Operator]比較演算子** を選択します。比較演算子はシグナルの要素間の関係を比較します。
+1. 「[](../../features/traits/trait-comparison-operators.md)**」ドロップダウンから[!UICONTROL Operator]比較演算子**&#x200B;を選択します。比較演算子はシグナルの要素間の関係を比較します。
    >[!NOTE]
    >
-   >[!DNL Boolean] 演算子 [!UICONTROL OR] はグループ*内*の複数のシグナル間の関係を確立します。これを変更することはできません。
-1. **[!UICONTROL Add Rule]** をクリックします。保存されたルールは、データ入力フィールドの上にある特性ワークスペースに表示されます。
+   >[!DNL Boolean] 演算子 [!UICONTROL OR] はグループ&#x200B;*内*&#x200B;の複数のシグナル間の関係を確立します。これを変更することはできません。
+1. **[!UICONTROL Add Rule]**&#x200B;をクリックします。保存されたルールは、データ入力フィールドの上にある特性ワークスペースに表示されます。
 
 ### 例 {#example-trait-rule}
 
