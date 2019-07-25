@@ -16,9 +16,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 テストグループのレポートセクションには、テストグループのコンバージョンに関する情報が返されます。これにより、テストセグメントの効果を簡単に比較できます。いくつものフィルターやディメンションを使用してデータを視覚化できます。
 
-[!UICONTROL Audience Lab] では、作成したテストセグメントの詳細なレポート情報を返し、レポートデータをファイルとし [!DNL CSV] て保存できます。**[!UICONTROL Aggregate Reporting]** 次 **[!UICONTROL Trend Reporting]** のいずれかを選択できます。
+[!UICONTROL Audience Lab] では、作成したテストセグメントの詳細なレポート情報を返し、レポートデータをファイルとし [!DNL CSV] て保存できます。**[!UICONTROL Aggregate Reporting]** 次 **[!UICONTROL Trend Reporting]**&#x200B;のいずれかを選択できます。
 
-**[!UICONTROL Aggregate Reporting]** は、テストセグメントの絶対数を返します。**[!UICONTROL Trend Reporting]** は、特定の期間におけるトレンド *のグラフを返し*ます。4 つのタブを使用してレポートをカスタマイズできます。
+**[!UICONTROL Aggregate Reporting]** は、テストセグメントの絶対数を返します。**[!UICONTROL Trend Reporting]** は、特定の期間におけるトレンド *のグラフを返し*&#x200B;ます。4 つのタブを使用してレポートをカスタマイズできます。
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
