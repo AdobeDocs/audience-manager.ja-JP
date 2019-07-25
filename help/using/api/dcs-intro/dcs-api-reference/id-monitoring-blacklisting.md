@@ -44,7 +44,7 @@ When a multiple ID call also includes a blacklisted ID, the [!UICONTROL DCS] dis
 
 ## ID のブラックリスト登録の原因と修正点
 
-ID がブラックリストに登録される最もよくある原因は、顧客インフラストラクチャと Audience Manager 間の不適切な統合です。ID がブラックリストに登録された場合は、Audience Manager の統合を十分に確認してください。Audience Manager を Experience Cloud の他のソリューションまたは外部システムと連携するように設定する方法について詳しくは、**実装および統合ガイド** を参照してください。
+ID がブラックリストに登録される最もよくある原因は、顧客インフラストラクチャと Audience Manager 間の不適切な統合です。ID がブラックリストに登録された場合は、Audience Manager の統合を十分に確認してください。Audience Manager を Experience Cloud の他のソリューションまたは外部システムと連携するように設定する方法について詳しくは、**実装および統合ガイド**&#x200B;を参照してください。
 
 Another frequent cause of blacklisted IDs are indexing bots (web crawlers), which generally cause increases in traffic, leading to the same IDs being sent to the [!UICONTROL DCS] multiple times. ID がブラックリストに登録された原因が、ボットのインデックス作成であると特定された場合は、ボットのアクセスを Web サイトに制限する必要があります。
 
