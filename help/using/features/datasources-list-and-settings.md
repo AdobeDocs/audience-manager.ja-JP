@@ -27,7 +27,7 @@ You can also manage data sources using [!DNL API] methods. For more information,
 
 [!UICONTROL Data Sources] ダッシュボード（**[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**）には、次の機能を備えた機能とツールが含まれています。
 
-* See all your existing data sources, including each data source&#39;s description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
+* See all your existing data sources, including each data source's description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
 * データソースを名前で検索する。
 * データソースを作成、編集および削除する。
 
