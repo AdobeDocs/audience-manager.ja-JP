@@ -17,7 +17,7 @@ source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`斜体 * *、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`斜体 **、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## ファイル名構文および例 {#file-name-syntax}
 
@@ -110,7 +110,7 @@ ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../.
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 with the [!DNL Audience Manager] [!DNL UUID]s in the left column. Note that the [!DNL DPID] &quot;0&quot; in the file name represents [!DNL Audience Manager] [!DNL UUID]s.
+Step 1: the ID sync process will sync the [!DNL DPUUID]s from [!DNL DPID] 12345 with the [!DNL Audience Manager] [!DNL UUID]s in the left column. Note that the [!DNL DPID] "0" in the file name represents [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
 **ファイル 2**（[サンプルファイルをダウンロード](assets/adobe_id_12345_67890_1477846458.sync)）
