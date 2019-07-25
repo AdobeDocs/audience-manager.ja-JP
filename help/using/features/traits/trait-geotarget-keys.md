@@ -35,7 +35,7 @@ Audience Manager アカウントのすべてのプロパティにわたって地
 
 ## IP アドレスで定義されたプラットフォームレベルキー {#keys-ip-address}
 
-We work with [Digital Envoy](https://www.digitalenvoy.com/) to obtain and update the demographic and geographic data for the keys below. これらのキーの値は、[!DNL IP] アドレスを対応する地理データおよび人口統計データと照合することで、決定されます。However, you&#39;ll still have to enter the value parameter when creating the key-value pair in [!UICONTROL Trait Builder].
+We work with [Digital Envoy](https://www.digitalenvoy.com/) to obtain and update the demographic and geographic data for the keys below. これらのキーの値は、[!DNL IP] アドレスを対応する地理データおよび人口統計データと照合することで、決定されます。However, you'll still have to enter the value parameter when creating the key-value pair in [!UICONTROL Trait Builder].
 
 | キー | ターゲット設定の場合 |
 |--- |--- |
@@ -46,7 +46,7 @@ We work with [Digital Envoy](https://www.digitalenvoy.com/) to obtain and update
 | d_lat | 緯度（例：d_lat=40.75）。[緯度リスト](assets/d_lat.txt)をダウンロードします。 |
 | d_long | 経度（例：d_long=73.98）。[経度リスト](assets/d_long.txt)をダウンロードします。 |
 | d_postal_code | 郵便番号（拡張 +4 コードを除く）。[郵便番号リスト](assets/d_postal_code.txt)をダウンロードします。次に例を示します。 <ul><li>特性：d_postal_code=84004 </li><li>特性名：Alpine</li></ul> |
-| d_state | 米国の州の 2 文字の略称。[州コードリスト](assets/d_state.txt)をダウンロードします。次に例を示します。 <ul><li>特性：d_state=NY </li><li>特性名： New York</li></ul>d_state には、様々な国の異なる州の重複する値が含まれています。例えば、d_state == &quot;on&quot; は、Ontario（カナダ）、Ondo（ナイジェリア）、Oshana（ナミビア）といった複数の州に一致します。地域ターゲット設定をより詳細におこなうために、このシグナルを d_country などの他のシグナルと組み合わせて使用することをお勧めします。 |
+| d_state | 米国の州の 2 文字の略称。[州コードリスト](assets/d_state.txt)をダウンロードします。次に例を示します。 <ul><li>特性：d_state=NY </li><li>特性名： New York</li></ul>d_state には、様々な国の異なる州の重複する値が含まれています。例えば、d_state == "on" は、Ontario（カナダ）、Ondo（ナイジェリア）、Oshana（ナミビア）といった複数の州に一致します。地域ターゲット設定をより詳細におこなうために、このシグナルを d_country などの他のシグナルと組み合わせて使用することをお勧めします。 |
 | d_region | 地域の英数字 ID。[地域リスト](assets/Country_RegionCodes_City.csv)をダウンロードします。次に、このリストを使用して、地域 ID を地域名と照合します。 |
 | d_isp | ISP／組織。[ISP リスト](assets/d_isp.txt)をダウンロードします。 |
 
