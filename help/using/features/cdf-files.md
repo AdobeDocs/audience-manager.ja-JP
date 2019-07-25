@@ -14,7 +14,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 顧客データフィード {#customer-data-feeds}
 
-[!UICONTROL Customer Data Feed] （[!UICONTROL CDF]）ファイルの基本情報および開始方法に関する説明です。Start here if you&#39;re interested in receiving [!UICONTROL CDF] files or just want more information.
+[!UICONTROL Customer Data Feed] （[!UICONTROL CDF]）ファイルの基本情報および開始方法に関する説明です。Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.
 
 ## ファイルの内容と目的 {#file-contents-purpose}
 
@@ -33,7 +33,7 @@ There is no self-service process to start [!UICONTROL CDF] file delivery. 開始
 * [!DNL Amazon S3] ストレージバケットをセットアップします。
 * Provide read-only [!DNL S3] authentication credentials to your file storage bucket. 他の顧客のディレクトリやファイルを参照したりアクセスしたりすることはできません。
 
-File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they&#39;re ready for download. You&#39;re responsible for monitoring and downloading files from your assigned [!DNL S3] directory. [詳しくは、顧客データフィードファイルの処理通知](#cdf-file-processing-notifications)を参照してください。
+File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned [!DNL S3] directory. [詳しくは、顧客データフィードファイルの処理通知](#cdf-file-processing-notifications)を参照してください。
 
 ## 次の手順 {#next-steps}
 
@@ -191,7 +191,7 @@ The sections below list and define the elements in your [!UICONTROL CDF] file na
 
 <!-- cdf-file-name.xml -->
 
-A typical [!UICONTROL CDF] file name contains the elements listed below. なお、*斜体*の部分には実際の情報が入ります。
+A typical [!UICONTROL CDF] file name contains the elements listed below. なお、*斜体*&#x200B;の部分には実際の情報が入ります。
 
 * **構文**
 
