@@ -29,7 +29,7 @@ Describes the required and optional steps that let you create an algorithmic mod
 >
 >* モデルの作成時に、そのモデルの特性を作成しなかった場合、モデリング処理は 1 回しか実行されません。
 >* 有意な量の情報があるデータソースからモデルを作成します。データが不十分なモデルも実行はできますが、結果は返されません。
->* 他のアルゴリズム特性やセグメントを使用してモデルを*作成しない*でください。
+>* 他のアルゴリズム特性やセグメントを使用してモデルを&#x200B;*作成しない*&#x200B;でください。
 >* 自動電子メール通知は 1 回しか送信されません（最初のデータ実行の後）。
 
 
@@ -39,7 +39,7 @@ Describes the required and optional steps that let you create an algorithmic mod
 
 1. 「[Basic Information](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
    * モデルの名前を指定します。
-   * *（オプション）*モデルについての簡単な説明を入力します。
+   * *（オプション）*&#x200B;モデルについての簡単な説明を入力します。
    * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. 非アクティブなモデルは実行されず、データの生成もおこないません。
 1. 「[Configuration](../../features/algorithmic-models/create-model.md#configuration)」セクションで次の操作をおこないます。
    * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. オンボードの特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。
