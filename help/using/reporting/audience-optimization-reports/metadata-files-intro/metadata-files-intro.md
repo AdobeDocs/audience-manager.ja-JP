@@ -17,7 +17,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!IMPORTANT]
 >
->メタデータファイルを使用するには、[概要とマッピング](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)節にリストされている*すべて*のパラメーターがイベント呼び出しに含まれている必要があります。
+>メタデータファイルを使用するには、[概要とマッピング](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)節にリストされている&#x200B;*すべて*&#x200B;のパラメーターがイベント呼び出しに含まれている必要があります。
 
 * [オーディエンスの最適化レポートのデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 * [メタデータファイルの概要とマッピング](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
