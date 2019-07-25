@@ -19,4 +19,4 @@ This project adheres to the Adobe [code of conduct](https://git.corp.adobe.com/O
 
 ## コードレビュー
 
-提出はすべて、プル要求の形でおこなわれ、プロジェクトコミッタ-によってレビューされる必要があります。Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+提出はすべて、プル要求の形でおこなわれ、プロジェクトコミッタ-によってレビューされる必要があります。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
