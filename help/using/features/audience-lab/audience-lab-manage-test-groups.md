@@ -21,13 +21,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 <!-- create-test-group.xml -->
 
-* **コンバージョン特性** を少なくとも 1 つセットアップしておく必要があります。コンバージョン特性は、[特性ビルダー](../../features/traits/create-onboarded-rule-based-traits.md)で、Event Type に **conversion** を選択することでセットアップできます。For more information on what conversion traits are and how to set them up, we prepared a [video](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html) for you.
+* **コンバージョン特性**&#x200B;を少なくとも 1 つセットアップしておく必要があります。コンバージョン特性は、[特性ビルダー](../../features/traits/create-onboarded-rule-based-traits.md)で、Event Type に **conversion** を選択することでセットアップできます。For more information on what conversion traits are and how to set them up, we prepared a [video](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html) for you.
 
    >[!IMPORTANT]
    >
    >[フォルダー特性](../../features/traits/about-folder-traits.md) は **サポート** されていません [!UICONTROL Audience Lab]。フォルダー特性の [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) を **conversion** に設定すると、その特定のフォルダー特性については [!UICONTROL Audience Lab] にデータが生成されません。
 
-* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. この権限をユーザーに付与すると、テスト結果の作成や表示をおこなえます。ユーザーは、**読み取り** 権限および **宛先へのマッピング** 権限を持っているデータソースのセグメントのみ使用できます。また、ユーザーは、**読み取り** 権限を持っているデータソースのコンバージョン特性のみ使用できます。さらに、ユーザーは、アクセスできる宛先のみ表示できます。そのため、[!DNL Audience Lab] のワイルドカード権限をグループに追加する前に、グループが以下の権限を持っていることを確認します。
+* For companies using [Role-Based Access Control](../../features/administration/administration-overview.md): Assign the [!UICONTROL Audience Lab] [wildcard permission](../../features/administration/administration-overview.md#wild-card-permissions) to **[!UICONTROL User Groups]** to provide access. この権限をユーザーに付与すると、テスト結果の作成や表示をおこなえます。ユーザーは、**読み取り**&#x200B;権限および&#x200B;**宛先へのマッピング**&#x200B;権限を持っているデータソースのセグメントのみ使用できます。また、ユーザーは、**読み取り**&#x200B;権限を持っているデータソースのコンバージョン特性のみ使用できます。さらに、ユーザーは、アクセスできる宛先のみ表示できます。そのため、[!DNL Audience Lab] のワイルドカード権限をグループに追加する前に、グループが以下の権限を持っていることを確認します。
    * 関係のあるコンバージョン特性の読み取り
    * テストに関係のあるセグメントの読み取りとマッピング
    * 関係のある宛先へのアクセス
@@ -37,14 +37,14 @@ To create a new [!UICONTROL Segment Test Group]:
 1. Select **[!UICONTROL Create New Test Group]** in the [!UICONTROL Audience Lab] dashboard to start the wizard.
 1. **[!UICONTROL Basic Info & Choose Segment]**
 
-   * **[!UICONTROL Test Group Name]** aおよびaに入力 **[!UICONTROL Description]** します。
+   * **[!UICONTROL Test Group Name]** aおよびaに入力 **[!UICONTROL Description]**&#x200B;します。
    * Choose the **[!UICONTROL Base Segment]** either by navigating in the file browser or by typing in the search bar, confirm by pressing **[!UICONTROL Choose Segment.]**
    * テストグループをドラフトとして保存し、後で作業を再開することができます。
    * 選択したベースセグメントが他のテストグループで既に使用されている場合は、警告が表示されます。ベースセグメントを 2 回使用すると、どちらのテストのコンバージョン結果も誤ったものになる可能性があります。
 
 1. **[!UICONTROL Allocate Test Segments]**
 
-   * **最大 15 個のテストセグメント** を作成し、デバイスの割合を任意に配分することができます。
+   * **最大 15 個のテストセグメント**&#x200B;を作成し、デバイスの割合を任意に配分することができます。
    * テストセグメントの名前をクリックすると、編集することができます。
    * 新規のテストセグメントが割り当てられると、全体が 100% になるように、自動的に割合が均等に配分されます。その後、割合を手動で編集できます。割合を編集した後でチェックボックスをクリックし、割合が合計 100% になることを確認します。そうでない場合は、次の手順に進めません。
 
@@ -56,7 +56,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
 1. **[!UICONTROL Select Conversion Traits]**
 
-   * コンバージョン特性ウィンドウで入力して、コンバージョン特性を追加します。これは **必須** 手順であり、少なくとも 1 つのコンバージョン特性を追加しない限り、次の手順には進めません。
+   * コンバージョン特性ウィンドウで入力して、コンバージョン特性を追加します。これは&#x200B;**必須**&#x200B;手順であり、少なくとも 1 つのコンバージョン特性を追加しない限り、次の手順には進めません。
    * 最大 5 つのコンバージョン特性を任意に追加できます。
    * 他のテストグループに既に使用されているコンバージョン特性を選択した場合は、警告が表示されます。
 
