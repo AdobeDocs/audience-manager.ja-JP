@@ -31,7 +31,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## ルールビルダーの例 {#rule-builder-example}
 
-Let&#39;s take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. ただし、ここではこれらのツールの一連の操作手順については触れず、単純なルールが既に作成済みであることを前提とします。ルールビルダーの使用方法については、[セグメントビルダー](../../features/segments/segment-builder.md)および[特性ビルダー](../../features/traits/about-trait-builder.md)を参照してください。
+Let's take a look at an example that demonstrates how to use [!UICONTROL Segment Builder] to create a rule you can to the bulk worksheet. ただし、ここではこれらのツールの一連の操作手順については触れず、単純なルールが既に作成済みであることを前提とします。ルールビルダーの使用方法については、[セグメントビルダー](../../features/segments/segment-builder.md)および[特性ビルダー](../../features/traits/about-trait-builder.md)を参照してください。
 
 ルールビルダーのビジュアルな画面を使用して、3 つの特性および Boolean 演算子 [!UICONTROL AND] で構成されるセグメントが既に作成されています。
 
