@@ -25,7 +25,7 @@ Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to c
 * **[テストグループの情報](../../features/audience-lab/audience-lab-information-view.md)**
 * **[テストグループのレポート](../../features/audience-lab/audience-lab-reporting-view.md)**
 
-それぞれ **最大 15 個のテストセグメント** を持つ、**最大 10 個のテストグループ** を作成できます。
+それぞれ&#x200B;**最大 15 個のテストセグメント**&#x200B;を持つ、**最大 10 個のテストグループ**&#x200B;を作成できます。
 
 ![](assets/test-groups-view.PNG)
 
