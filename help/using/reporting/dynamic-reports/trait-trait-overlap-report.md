@@ -57,7 +57,7 @@ r_t2t_data_pop.xml
 
  -->
 
-以下の指標が[!UICONTROL Trait-to-Trait Overlap] レポートには以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*を表していることに注意してください。
+以下の指標が[!UICONTROL Trait-to-Trait Overlap] レポートには以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
