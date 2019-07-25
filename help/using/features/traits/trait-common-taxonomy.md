@@ -28,11 +28,11 @@ source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 
 ## カテゴリには業界標準の分類を使用
 
-この一般的なカテゴリは、[!DNL Interactive Advertising Bureau (IAB)] によって作成された分類に基づいています。Refer to the [!DNL IAB]&#39;s [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
+この一般的なカテゴリは、[!DNL Interactive Advertising Bureau (IAB)] によって作成された分類に基づいています。Refer to the [!DNL IAB]'s [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
 
 ## 分類の構成
 
-[!DNL Audience Manager] の分類では、データをネストされたカテゴリに編成します。これらは層と呼ばれます。各カテゴリは、データ分類のための個別の層を最大 3 つまで持つことができます。最上位レベルである第 1 層のカテゴリは、データを最も一般的な形式（地域など）でグループ化します。これに続く層では、上位レベルの一般的なカテゴリよりも詳細になります（*地理 --&gt; 米国 --&gt; ニューヨーク*など）。ただし、どのカテゴリも必ず 3 層であるとは限らず、2 層のみのものもあります。
+[!DNL Audience Manager] の分類では、データをネストされたカテゴリに編成します。これらは層と呼ばれます。各カテゴリは、データ分類のための個別の層を最大 3 つまで持つことができます。最上位レベルである第 1 層のカテゴリは、データを最も一般的な形式（地域など）でグループ化します。これに続く層では、上位レベルの一般的なカテゴリよりも詳細になります（*地理 --&gt; 米国 --&gt; ニューヨーク*&#x200B;など）。ただし、どのカテゴリも必ず 3 層であるとは限らず、2 層のみのものもあります。
 
 ## データカテゴリによる特性の分類
 
@@ -42,6 +42,6 @@ source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 
 アドビの一般的なカテゴリで特性の分類をおこなう場合、次のことを念頭に置いてください。
 
-* 分類は*オプション*です。
-* デフォルトでは、特性はカテゴリに割り当てられ*ません*（例えば、特性は「不明」または「分類なし」などに分類されません）。
-* 特性は *1 つの*カテゴリにのみ分類されます（複数のカテゴリにまたがった分類はできません）。
+* 分類は&#x200B;*オプション*&#x200B;です。
+* デフォルトでは、特性はカテゴリに割り当てられ&#x200B;*ません*（例えば、特性は「不明」または「分類なし」などに分類されません）。
+* 特性は *1 つの*&#x200B;カテゴリにのみ分類されます（複数のカテゴリにまたがった分類はできません）。
