@@ -21,7 +21,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`斜体 * *、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`斜体 **、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## ファイル名の構文 {#file-name-syntax}
 
@@ -31,7 +31,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 For other accepted file name formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
->[!NOTE] {importance=&quot;high&quot;}
+>[!NOTE] {importance="high"}
 >
 >[!DNL Audience Manager] プロセス [!DNL ASCII] および [!DNL UTF-8] エンコードされたファイルのみを使用できます。
 
