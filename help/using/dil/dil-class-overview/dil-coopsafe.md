@@ -57,9 +57,9 @@ DIL から Adobe Experience Cloud Device Co-op にデータを送信するかど
 
 Device Co-op で顧客データを利用するか利用しないかをブール型オプションで指定します。
 
-* `isCoopSafe: true`：モバイル SDK または Web サイトが収集した訪問者データをデバイスグラフの作成に利用*できます*。
+* `isCoopSafe: true`：モバイル SDK または Web サイトが収集した訪問者データをデバイスグラフの作成に利用&#x200B;*できます*。
 
-* `isCoopSafe: false`：モバイル SDK または Web サイトが収集した訪問者データをデバイスグラフの作成に利用*できません*。
+* `isCoopSafe: false`：モバイル SDK または Web サイトが収集した訪問者データをデバイスグラフの作成に利用&#x200B;*できません*。
 
 **コードサンプル**
 
