@@ -53,9 +53,9 @@ Select the option **This destination may enable a combination with personally id
 
 **設定**
 
-* **URLタイプ**:ソーシャルプラットフォーム用 **のWebサイトオーディエンスを選択** します。このURLタイプオプションを選択すると、Audience ManagerはFacebook WCAピクセルを発生させたときにリファラーURL情報を隠しません。
+* **URLタイプ**:ソーシャルプラットフォーム用 **のWebサイトオーディエンスを選択**&#x200B;します。このURLタイプオプションを選択すると、Audience ManagerはFacebook WCAピクセルを発生させたときにリファラーURL情報を隠しません。
 * **シリアライズ**:「 **有効**」を選択します。
-* **「ベースURL** 」フィールドと「 **セキュアURL&quot;** フィールドに、Facebook WCAピクセルを入力します。
+* **「ベースURL** 」フィールドと「 **セキュアURL"** フィールドに、Facebook WCAピクセルを入力します。
 * **区切り**: ,
 
 Base URL example: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
@@ -92,7 +92,7 @@ See [Create a Website Custom Audience](https://www.facebook.com/business/help/66
 | 項目 | 説明 |
 ---------|----------|
 | Webサイトトラフィック | カスタムの組み合わせ |
-| 以下を含む | <ul><li>**イベント** / **Adobe- Audience- Manager- Segment** を選択します。手順1のpixelパラメーターのevパラメーターの値でした。Note that if the pixel is yet to fire, the **Event** option or **Adobe-Audience-Manager-Segment** may not appear in the Facebook UI.</li><li>Add a parameter: Select `segID`.</li><li><p>**contains** 演算子を選択します。</p><p>これは、訪問者が複数のセグメントに振り分けられることを前提としており、ピクセルパラメーターに複数のセグメントIDがあることを前提としています。等号（=）演算子を使用すると、オーディエンスに対する訪問者の資格がないことがあり、より少ないボリュームになります。</p></li><li>次の値を追加します。Audience ManagerセグメントIDを入力します。</li></ul> |
+| 以下を含む | <ul><li>**イベント** / **Adobe- Audience- Manager- Segment**&#x200B;を選択します。手順1のpixelパラメーターのevパラメーターの値でした。Note that if the pixel is yet to fire, the **Event** option or **Adobe-Audience-Manager-Segment** may not appear in the Facebook UI.</li><li>Add a parameter: Select `segID`.</li><li><p>**contains** 演算子を選択します。</p><p>これは、訪問者が複数のセグメントに振り分けられることを前提としており、ピクセルパラメーターに複数のセグメントIDがあることを前提としています。等号（=）演算子を使用すると、オーディエンスに対する訪問者の資格がないことがあり、より少ないボリュームになります。</p></li><li>次の値を追加します。Audience ManagerセグメントIDを入力します。</li></ul> |
 | 新しい条件を追加 | オプションの設定。 |
 | 「最後」 | オプションの設定。 |
 | オーディエンス名 | このオーディエンスに条件を追加する場合を除き、同じAudience Managerセグメント名を一貫性のために使用することをお勧めします。 |
