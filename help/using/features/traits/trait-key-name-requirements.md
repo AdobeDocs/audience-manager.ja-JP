@@ -27,4 +27,4 @@ In [!UICONTROL Expression Builder], the name of a key variable in a key-value pa
 
 ## キー変数の _ プレフィックス`c_`
 
-`c_` プレフィックスは、イベント呼び出し URL でデータを送信するパラメーターがその構文を使用している場合は、*常に*必要です。
+`c_` プレフィックスは、イベント呼び出し URL でデータを送信するパラメーターがその構文を使用している場合は、*常に*&#x200B;必要です。
