@@ -31,7 +31,7 @@ You can send qualified segments to [!DNL DFP] either through a client-side or th
    >
    >独自のコードを使用して Audience Manager の Cookie データを読み取る場合、`AamGpt` 関数は必要ありません。
 
-* **Audience Manager に配信ログを送信：** セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
+* **Audience Manager に配信ログを送信：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
 ### GPT に送信されるのは認定されたセグメントのみ
 
