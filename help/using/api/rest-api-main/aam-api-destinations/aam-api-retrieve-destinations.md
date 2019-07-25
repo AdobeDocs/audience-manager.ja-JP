@@ -73,7 +73,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ### オプションのクエリパラメーター
 
-オブジェクトの*すべて*のプロパティを返す API  メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。[オプションのパラメーター](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
+オブジェクトの&#x200B;*すべて*&#x200B;のプロパティを返す API  メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。[オプションのパラメーター](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
