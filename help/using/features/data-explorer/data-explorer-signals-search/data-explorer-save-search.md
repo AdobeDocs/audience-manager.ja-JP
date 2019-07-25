@@ -26,6 +26,6 @@ Optimize signal search efforts by saving up to 10 sets of search criteria to use
 1. **[!UICONTROL Default Sorting]** モードを選択します。
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. **[!UICONTROL Save]** をクリックします。保存した検索条件が「[!UICONTROL Saved Search]」セクションに表示され、必要なときに使用できるようになります。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。保存した検索条件が「[!UICONTROL Saved Search]」セクションに表示され、必要なときに使用できるようになります。
 
 ![保存済みの検索](assets/saved-search.png)
