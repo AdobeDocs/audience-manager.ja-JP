@@ -43,8 +43,8 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
 
 `getSearchReferrer` では次のパラメーターを使用します。
 
-* *`{string}`*：*（オプション）*検索 URL を含む文字列（定義されていない場合は `document.referrer` が使用されます）。
-* *`{object}`*: *（オプション）* 「 `hostPattern`」 `queryParam`、 `queryPattern`または&quot;.&quot;の設定を含むオブジェクト。
+* *`{string}`*：*（オプション）*&#x200B;検索 URL を含む文字列（定義されていない場合は `document.referrer` が使用されます）。
+* *`{object}`*: *（オプション）* 「 `hostPattern`」 `queryParam`、 `queryPattern`または"."の設定を含むオブジェクト。
 
 また、次のものを返します。
 
@@ -124,7 +124,7 @@ r_dil_decompose.xml
 
 `decomposeURI` では次のパラメーターを使用します。
 
-* *`uri {string}`*：*（オプション）*URI を含む文字列。指定されていない場合は、デフォルトで `document.location.href` が適用されます。
+* *`uri {string}`*：*（オプション）* URI を含む文字列。指定されていない場合は、デフォルトで `document.location.href` が適用されます。
 
 また、次のものを返します。
 
