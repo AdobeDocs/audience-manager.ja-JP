@@ -21,7 +21,7 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`斜体 * *、括弧 `[ ]` `( )`、その他）コード要素とオプションを示します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`斜体 **、括弧 `[ ]` `( )`、その他）コード要素とオプションを示します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
 
 イベント呼び出しはインプレッションデータとコンバージョンデータを収集し、[!DNL Audience Manager] [データ収集サーバー](/help/using/reference/system-components/components-data-collection.md)（[!UICONTROL DCS]）に送信します。この処理では、呼び出しをクリエイティブに配置するサードパーティの広告サーバーを使用して、コードに挿入される内容が制御されます。このサードパーティの広告サーバー（[!DNL DFA] など）は、このコードを各広告インプレッション内に配置できます。さらに、広告呼び出しでは、広告タブの外部にある公開者データへのアクセスに、[!DNL JavaScript] やフレームバスティング技法は使用していません。
 
