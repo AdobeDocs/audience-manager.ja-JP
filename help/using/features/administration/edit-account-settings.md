@@ -24,4 +24,4 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 1. Click **[!UICONTROL Account Settings]**, then click **[!UICONTROL Edit]** to display the [!UICONTROL My Account] page.
 1. 必要があれば、「**[!UICONTROL Email Address]**」フィールドで、新しい電子メールアドレスを指定します。Audience Manager は標準の通知をユーザーに送信しません。Audience Manager 管理者はユーザーの電子メールアドレスにアクセスできるので、必要に応じて手動でユーザーに電子メールを送信できます。例えば、ユーザーが自分のパスワードを忘れてしまった場合、このフィールドで指定された電子メールアドレスに、臨時のパスワードと、パスワードをリセットするための手順が送信されます。
 1. パスワードをリセットするには、現在のパスワードを指定し、新しいパスワードを指定してから、新しいパスワードを確認します。[パスワードの要件、ロックされたアカウント、パスワードを忘れた場合](../../reference/password-requirements.md)も参照してください。
-1. **[!UICONTROL Save]** をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
