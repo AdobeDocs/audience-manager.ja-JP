@@ -119,7 +119,7 @@ r_s2t_data_pop.xml
 
  -->
 
-以下の指標が[!UICONTROL Segment-to-Trait Overlap] レポートには以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*を表していることに注意してください。
+以下の指標が[!UICONTROL Segment-to-Trait Overlap] レポートには以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
