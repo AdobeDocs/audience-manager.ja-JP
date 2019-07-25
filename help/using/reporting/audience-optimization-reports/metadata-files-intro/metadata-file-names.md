@@ -17,13 +17,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## 構文と ID カテゴリ {#syntax}
 
-次の構文は、適正なメタデータファイル名の構造を示しています。なお、*斜体*の部分には実際の情報が入ります。その他の要素は定数で、変動しません。
+次の構文は、適正なメタデータファイル名の構造を示しています。なお、*斜体*&#x200B;の部分には実際の情報が入ります。その他の要素は定数で、変動しません。
 
 **構文：** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->メタデータファイルにファイル拡張子を*使用しない*でください（.txt など）。
+>メタデータファイルにファイル拡張子を&#x200B;*使用しない*&#x200B;でください（.txt など）。
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
