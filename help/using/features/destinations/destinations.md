@@ -22,8 +22,8 @@ In Audience Manager, a destination is any third-party system (ad server, [!DNL D
 
 [!UICONTROL Destinations] また [!UICONTROL Destination Builder] 、宛先を作成し、セグメント化されたユーザーに関する情報をデータパートナーに送信できます。これは以下に役立ちます。
 
-* **データ値の保護：** すべてのユーザーデータを宛先に送信するのではなく、[!UICONTROL Destination Builder] を使用して対象ユーザーのみに関する特定の情報を共有できます。
-* **データに対するアクション：** 宛先パートナーへのデータの送信により、対象オーディエンスセグメントをすばやく作成およびターゲット設定できます。
+* **データ値の保護：**&#x200B;すべてのユーザーデータを宛先に送信するのではなく、[!UICONTROL Destination Builder] を使用して対象ユーザーのみに関する特定の情報を共有できます。
+* **データに対するアクション：**&#x200B;宛先パートナーへのデータの送信により、対象オーディエンスセグメントをすばやく作成およびターゲット設定できます。
 * **技術的なオーバーヘッドの削減：**[!UICONTROL Destination Builder]ビジネスユーザーは、 インターフェイスで宛先を安全にセットアップできます。これにより、デプロイメント前のテストに必要な時間を節約できます。[!UICONTROL Destination Builder] を使用すると、長い開発サイクルを経ずに、ビジネスニーズの変更に合わせて宛先を作成、管理および削除できます。
 
 ## 技術上の考慮事項 {#technical-considerations}
