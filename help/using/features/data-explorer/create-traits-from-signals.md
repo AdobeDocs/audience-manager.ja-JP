@@ -30,7 +30,7 @@ To create new traits from the **[!UICONTROL Signal Dashboard]**, identify the si
 
 ![](assets/signals-create-trait.png)
 
-**[特性ビルダー](../../features/traits/about-trait-builder.md)** が表示され、新規特性を作成できます。
+**[特性ビルダー](../../features/traits/about-trait-builder.md)**&#x200B;が表示され、新規特性を作成できます。
 
 ## シグナル検索での特性の作成 {#create-traits-from-signal-search}
 
@@ -50,4 +50,4 @@ Create traits based on used or unused signals that are not shown in the [!UICONT
    >
    >![](assets/signals-used-traits.png)
 
-3. **[特性ビルダー](../../features/traits/about-trait-builder.md)** を使用して、新しい特性を作成します。
+3. **[特性ビルダー](../../features/traits/about-trait-builder.md)**&#x200B;を使用して、新しい特性を作成します。
