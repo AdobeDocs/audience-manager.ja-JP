@@ -19,8 +19,8 @@ source-git-commit: 302670f294574c3b56ccd16aeca8ebab8f4e8ce9
 
 [!UICONTROL Data Export Controls] では、 [データソース](../features/datasources-list-and-settings.md#data-sources-list-and-settings) と [リンク先を分類](../features/destinations/destinations.md)できます。適用する分類によって、データを宛先に書き出せる場合または書き出せない場合が決まります。この機能は、以下で構成されます。
 
-* **[!UICONTROL Data Export Controls]**:データソースに *データエクスポートコントロールを設定*できます。データソースに設定する場合、これらのコントロールはデータソースとその特性の使用方法を制限します。
-* **[!UICONTROL Data Export Labels]**:宛先に *データエクスポートラベルを設定*できます。宛先に設定すると、これらのラベルは宛先によるデータの使用方法を識別します。See [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) to learn how to add export labels to a destination.
+* **[!UICONTROL Data Export Controls]**:データソースに *データエクスポートコントロールを設定*&#x200B;できます。データソースに設定する場合、これらのコントロールはデータソースとその特性の使用方法を制限します。
+* **[!UICONTROL Data Export Labels]**:宛先に *データエクスポートラベルを設定*&#x200B;できます。宛先に設定すると、これらのラベルは宛先によるデータの使用方法を識別します。See [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) to learn how to add export labels to a destination.
 
 データソースおよび宛先に適用した分類に基づいて、書き出しコントロールは以下の操作を防止します。
 
