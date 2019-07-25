@@ -18,7 +18,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`斜体 * *、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`斜体 **、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
 
 ## 目的 {#purpose}
 
@@ -26,11 +26,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## はじめに {#getting-started}
 
-[!UICONTROL Actionable Log Files][オーディエンスの最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)を使用するには、DCMログデータをインポートする必要 [!DNL Audience Manager]があります。[DCM データファイルを Audience Manager にインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した*うえで*、担当の[!DNL Audience Manager] コンサルタントにお問い合わせください。
+[!UICONTROL Actionable Log Files][オーディエンスの最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)を使用するには、DCMログデータをインポートする必要 [!DNL Audience Manager]があります。[DCM データファイルを Audience Manager にインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の[!DNL Audience Manager] コンサルタントにお問い合わせください。
 
 If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
 
->[!NOTE] {importance=&quot;high&quot;}
+>[!NOTE] {importance="high"}
 >
 >[!UICONTROL Actionable Log Files] はログファイルで [!DNL Google DCM] のみ使用できます。
 
@@ -42,7 +42,7 @@ With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is 
 
 平均的サイズである 2,000,000 行の [!DNL DCM] ログでは、実用的なシグナルから作成されたすべての特性は、ログの処理後 1 時間以内に適合されます。
 
->[!IMPORTANT] {importance=&quot;high&quot;}
+>[!IMPORTANT] {importance="high"}
 >
 >We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). 両方のオプションを使用することは、特性の頻度が多くカウントされるため推奨されません。
 
@@ -114,17 +114,17 @@ With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is 
  </tbody>
 </table>
 
-この表で説明されているシグナルは、[!DNL Audience Manager]`HTTP` において、リアルタイムの 呼び出しと同じように取得されます。次の呼び出しの例には、[!DNL DCM] のコンバージョンイベントについての情報が含まれています。必ずしも呼び出しの例にある*すべての*シグナルを呼び出しに含める必要はありません。
+この表で説明されているシグナルは、[!DNL Audience Manager]`HTTP` において、リアルタイムの 呼び出しと同じように取得されます。次の呼び出しの例には、[!DNL DCM] のコンバージョンイベントについての情報が含まれています。必ずしも呼び出しの例にある&#x200B;*すべての*&#x200B;シグナルを呼び出しに含める必要はありません。
 
 ```
 https://sample.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
->[!NOTE] {importance=&quot;high&quot;}
+>[!NOTE] {importance="high"}
 >
 >[!DNL DCM] ログに指定されているイベントタイムスタンプが使用され [!UICONTROL Data Collection Servers]、渡されます。
 >
->* If a timestamp isn&#39;t available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
+>* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
 >* [!DNL DCM] ログファイルのデータ行のタイムスタンプの形式が正しくない場合、その行全体が無視されます。
 
 
@@ -136,7 +136,7 @@ One benefit of implementing [!UICONTROL Actionable Log Files] is the option to a
 
 クリエイティブ 123 が表示されたもののクリックまたはコンバージョンが発生しなかったユーザーを再ターゲットし、クリエイティブ 456 を表示するには、以下の手順に従います。
 
-1. クリエイティブが表示されたユーザーを取得する特性を作成します。Let&#39;s say you name the trait [!DNL Creative Trait 123]. 次の特性ルールを使用します。
+1. クリエイティブが表示されたユーザーを取得する特性を作成します。Let's say you name the trait [!DNL Creative Trait 123]. 次の特性ルールを使用します。
 
    `d_creative == 123 AND d_event == imp`
 
