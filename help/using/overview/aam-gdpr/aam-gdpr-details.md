@@ -35,7 +35,7 @@ As an Audience Manager customer, you can submit individual GDPR requests to acce
 
 **リクエスト**
 
-**[DGPRクライアントサービスUIを経由](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** するか **[、GGPR APIを呼び出してデータアクセスリクエストをログに記録できます](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** （アクションを参照 `access` ）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。**[Experience Cloud GDPRドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** で、整形式のJSONがどのように表示されるかを確認する（特に、&quot;POSTリクエスト形式」のページを検索する）。または、**[JSON のサンプルをダウンロード](assets/access_request.json)** することもできます。
+**[DGPRクライアントサービスUIを経由](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** するか **[、GGPR APIを呼び出してデータアクセスリクエストをログに記録できます](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** （アクションを参照 `access` ）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。**[Experience Cloud GDPRドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** で、整形式のJSONがどのように表示されるかを確認する（特に、"POSTリクエスト形式」のページを検索する）。または、**[JSON のサンプルをダウンロード](assets/access_request.json)**&#x200B;することもできます。
 
 **応答**
 
@@ -307,7 +307,7 @@ Audience Manager からの応答でエラーが発生した場合、それらは
 
 **リクエスト**
 
-**[DGPRクライアントサービスUI経由でデータ削除リクエストをログに記録する](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** か **[、GGPR APIを呼び出すことができます](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** （アクションを参照 `delete` ）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。[Experience Cloud GDPRドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) で、整形式のJSONがどのように表示されるかを確認する（特に、&quot;POSTリクエスト形式」のページを検索する）。または、**[JSON のサンプルをダウンロード](assets/delete_request.json)** することもできます。
+**[DGPRクライアントサービスUI経由でデータ削除リクエストをログに記録する](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** か **[、GGPR APIを呼び出すことができます](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** （アクションを参照 `delete` ）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。[Experience Cloud GDPRドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) で、整形式のJSONがどのように表示されるかを確認する（特に、"POSTリクエスト形式」のページを検索する）。または、**[JSON のサンプルをダウンロード](assets/delete_request.json)**&#x200B;することもできます。
 
 **応答**
 
