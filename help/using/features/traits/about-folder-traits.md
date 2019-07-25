@@ -64,4 +64,4 @@ For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]),
 | 特性タイプ | [!UICONTROL Onboarded traits] また、最大1回 [!UICONTROL algorithmic traits] の実現により、最大1回の実現 [!UICONTROL folder trait]に貢献しています。 |
 | フォルダー間での特性の移動 | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. つまり、フォルダーから特性を削除または移動した場合、その特性の母集団のユーザーは、セグメントの式でそのフォルダー特性を使用しているセグメントから解除されます。<br> Adobe AnalyticsセグメントまたはレポートスイートをExperience Cloud組織にマッピングする場合、Audience Managerは、対応する新しい、対応する、読み取り専用のセグメントおよび特性を自動的に作成します。Audience Managerからこれらの特性の記憶場所を編集または変更することはできません。ただし、マッピングされたAdobe Analyticsセグメントまたはレポートスイートで実行する変更は、Audience Managerに反映されます。 |
 | システム変数 | [!UICONTROL Folder traits]`d_sid` パラメーターを使用したイベント呼び出しでは実現できません。 |
-| レポート | [!UICONTROL Folder traits] は自動計算された特性であり、表示 **[!UICONTROL Overlap Reports]** されません。 |
+| レポート | [!UICONTROL Folder traits] は自動計算された特性であり、表示 **[!UICONTROL Overlap Reports]**&#x200B;されません。 |
