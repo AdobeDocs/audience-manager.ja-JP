@@ -41,11 +41,11 @@ The following illustration provides a high-level overview of key elements in the
 
 1. 次のオプションを設定します。
 
-   **Report Type：** 目的のレポートタイプ（特性またはセグメント）を選択します。
+   **Report Type：**&#x200B;目的のレポートタイプ（特性またはセグメント）を選択します。
 
-   **Date Range：** レポートの日付範囲（開始日と終了日）を指定します。
+   **Date Range：**&#x200B;レポートの日付範囲（開始日と終了日）を指定します。
 
-   **Display Interval：** 表示間隔（1 日、7 日、14 日、30 日、60 日、90 日のいずれか）を指定します。
+   **Display Interval：**&#x200B;表示間隔（1 日、7 日、14 日、30 日、60 日、90 日のいずれか）を指定します。
 
 2. 特性またはセグメントを名前または ID で検索します。
 3. フォルダーのリストで、レポートの対象となる特性またはセグメントをドラッグし、右側の「[!UICONTROL Selections]」パネルにドロップします。
@@ -61,8 +61,8 @@ t_working_with_trend_reports.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** ダッシュボードで、をクリック **[!UICONTROL Trend Reports]** します。
-1. **[!UICONTROL Report Type]** ドロップダウンリストから、目的のタイプを選択します。 **[!UICONTROL Trait]****[!UICONTROL Segment]** または
+1. **[!UICONTROL Analytics]** ダッシュボードで、をクリック **[!UICONTROL Trend Reports]**&#x200B;します。
+1. **[!UICONTROL Report Type]** ドロップダウンリストから、目的のタイプを選択します。 **[!UICONTROL Trait]****[!UICONTROL Segment]**&#x200B;または
 1. 日付ボックスをクリックしてカレンダーを表示し、レポートの開始日と終了日を選択します。
 1. 表示間隔として 1 日、7 日、14 日、30 日、60 日、90 日のいずれかを指定します。
 1. 特性またはセグメントを名前または ID で検索します。
