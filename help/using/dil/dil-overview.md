@@ -35,7 +35,7 @@ Audience Manager DIL コードライブラリの概要、導入方法、使用�
 
 ## DIL コードの取得と実装 {#get-implement-dil-code}
 
-[!UICONTROL DIL] コードは **[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)** からダウンロードできます。Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. ID サービスを利用して、ID 同期や URL 宛先を有効にします。ID サービスが見つからない、古い、または設定されていない場合は、エラーが発生しまます。
+[!UICONTROL DIL] コードは **[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;からダウンロードできます。Please note that starting with version 8.0 (released August 2018), [!UICONTROL DIL] has a hard dependency on the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), version 3.3 or higher. ID サービスを利用して、ID 同期や URL 宛先を有効にします。ID サービスが見つからない、古い、または設定されていない場合は、エラーが発生しまます。
 
 [!UICONTROL DIL] を操作して [!DNL Audience Manager] を手動でセットアップするのではなく、[Adobe Launch](https://docs.adobelaunch.com/) を使用することをお勧めします。[!DNL Adobe Launch] でコードのデプロイメント、配置、バージョン管理が簡単になるので、実装ツールとしてお勧めします。[Audience Manager 拡張機能](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension)について詳しくは、Adobe Launch を参照してください。
 
