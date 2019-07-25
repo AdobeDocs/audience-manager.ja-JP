@@ -29,7 +29,7 @@ To create a new data source, go to **[!UICONTROL Audience Data > Data Sources > 
 To complete the [!UICONTROL Data Source Details] section:
 
 1. データソースの名前を入力します。
-1. *（オプション）*データソースの説明を入力します。データソースの役割や目的を定義するのに、簡潔な説明が役に立ちます。
+1. *（オプション）*&#x200B;データソースの説明を入力します。データソースの役割や目的を定義するのに、簡潔な説明が役に立ちます。
 1. 統合コードを指定します。一般に、統合コードはオプションです。統合コードが必要になるのは、次のいずれかの場合です。
 
    * [クロスデバイス対応データソースを作成](../features/profile-merge-rules/merge-rules-start.md#create-data-source)する。
@@ -56,7 +56,7 @@ To complete the [!UICONTROL Data Source Details] section:
 これらの設定で、データソースの識別、使用、共有の方法が決まります。また、受信データファイルのエラーレポートを有効にすることもできます。To complete the [!UICONTROL Data Source Settings] section:
 
 1. [!UICONTROL Data Source Setting] チェックボックスを選択して、データソースにオプションを適用します。
-2. **[!UICONTROL Save]** をクリックします。
+2. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 >[!MORE_LIKE_THIS]
 >
@@ -73,7 +73,7 @@ To complete the [!UICONTROL Data Source Details] section:
 >
 >次の制限事項に注意してください。
 >
->* &quot;[アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
+>* "[アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
 >* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your [!DNL Analytics] report suites. これらのデータソースのマッピングを解除するには、[コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/)を使用します。
 
 
