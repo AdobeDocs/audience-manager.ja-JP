@@ -88,7 +88,7 @@ When qualifying a device for a segment using a [!UICONTROL Profile Merge Rule], 
 
 <br> 
 
-**デバイスグラフを含むセグメントを使用すると、どのデバイス**[!UICONTROL Profile Merge Rule]がセグメントに適合できるか。**
+**デバイスグラフを含むセグメントを使用すると、どのデバイス&#x200B;**[!UICONTROL Profile Merge Rule]がセグメントに適合できるか。**
 
 デバイスがセグメント認定されるには、当該セグメントの作成後に[エッジデータサーバー](../reference/system-components/components-edge.md)上にある Audience Manager がそのデバイスを認識する必要があります。さらに、エッジサーバーは次の処理をおこないます。
 
@@ -192,7 +192,7 @@ Audience Manager merges up to four devices when evaluating segments with a [!UIC
 
 <br> 
 
-**デバイスグラフを使用して、特定のセグメントのデバイス数を*リアルタイム*[!UICONTROL Profile Merge Rules]で確認できますか。**
+**デバイスグラフを使用して、特定のセグメントのデバイス数を&#x200B;*リアルタイム*[!UICONTROL Profile Merge Rules]で確認できますか。**
 
 はい。リアルタイム母集団指標により、現在のデバイス（リアルタイムで認識されているデバイス）のセグメント認定が、デバイスグラフでリンクされているすべてのデバイスからのプロファイルを使用してキャプチャされます。
 
