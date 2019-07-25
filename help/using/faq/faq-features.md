@@ -26,11 +26,11 @@ faq_features_functions.xml
 
 **組織 ID はどのようなもので、どうすれば見つかりますか？**
 
-&quot;*`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。It consists of a case-sensitive, 24-character alphanumeric string followed by [!UICONTROL @AdobeOrg].
+"*`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。It consists of a case-sensitive, 24-character alphanumeric string followed by [!UICONTROL @AdobeOrg].
 
 つまり、*`Organization ID`* は `1FD6776A524453CC0A490D44@AdobeOrg` のようになります。
 
-The *`Organization ID`* is used by Audience Manager&#39;s [DIL](../dil/dil-overview.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. *`Organization ID`* は、管理者権限を持つユーザーが [!DNL Adobe Admin Console] で確認できます。詳しくは、[管理 - ユーザー管理の FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)を参照してください。
+The *`Organization ID`* is used by Audience Manager's [DIL](../dil/dil-overview.md) API, the [Experience Cloud ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/), and other [!DNL Experience Cloud] solutions. *`Organization ID`* は、管理者権限を持つユーザーが [!DNL Adobe Admin Console] で確認できます。詳しくは、[管理 - ユーザー管理の FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)を参照してください。
 
 <br> 
 
