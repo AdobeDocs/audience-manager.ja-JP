@@ -34,7 +34,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 1. 購読テーブルからユースケースを選択し、以下の操作をおこないます。
    * Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL On]**.
-   * **[!UICONTROL Review & Subscribe]** をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
+   * **[!UICONTROL Review & Subscribe]**&#x200B;をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
    ![](assets/subscribe3.png)
 
 1. [!UICONTROL Terms and Conditions] ウィンドウ内:
@@ -71,7 +71,7 @@ Buyers subscribe to private data feeds and plans in **[!UICONTROL Audience Marke
 非公開データフィードのサブスクリプションを購入するには：
 
 1. [!UICONTROL Marketplace] でデータフィード名をクリックします。
-1. **[!UICONTROL Request Access]** をクリックします。リクエストダイアログボックスが開きます。
+1. **[!UICONTROL Request Access]**&#x200B;をクリックします。リクエストダイアログボックスが開きます。
 1. リクエストダイアログボックスで、プロバイダー向けに、データフィードに興味があることを記したメモを記入し、「**[!UICONTROL Send]**」をクリックします。セラーはメッセージを確認し、リクエストを承認または拒否します。承認されるまでの間、「[!UICONTROL Marketplace]」リストではそのリクエストについて「Requested」と表示されます。
 
    * **[!UICONTROL Request approved]**：「[!UICONTROL Marketplace]」リストのステータスが「Access Granted」になり、自動通知が送信されます。この時点で、フィードを購読することができます。詳しくは、[公開データフィードのサブスクリプションの購入](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)を参照してください。
@@ -166,7 +166,7 @@ Data buyers unsubscribe from data feeds and plans in **[!UICONTROL Audience Mark
 データフィードを購読解除するには：
 
 1. [!UICONTROL Marketplace] でデータフィード名をクリックします。
-1. [!UICONTROL Use Case] セクションで使用するプランを見つけ、スライダーを **[!UICONTROL Subscription]** 移動 **[!UICONTROL Off]** します。
+1. [!UICONTROL Use Case] セクションで使用するプランを見つけ、スライダーを **[!UICONTROL Subscription]** 移動 **[!UICONTROL Off]**&#x200B;します。
 
 ## データフィードの非アクティブ化：発生の理由と対応 {#data-feed-deactivation-reasons}
 
@@ -178,9 +178,9 @@ Data buyers unsubscribe from data feeds and plans in **[!UICONTROL Audience Mark
 
 購読したフィードが停止されることは購読者にとってあまりよいことではありません。しかし、データプロバイダーはいくつかの理由でデータフィードを非アクティブ化することがあります。よくある理由として以下のようなものがあります。
 
-* **課金：** 料金の支払いが常に遅れている場合や、料金の支払いがない場合、データプロバイダーはフィードを非アクティブ化します。
-* **フィードの更新：** フィードの分類やコスト構造を更新した場合、データプロバイダーはフィードを非アクティブ化する必要があります。
-* **非アクティブなバイヤー：** 購読者が長期間にわたり購入をおこなわない場合に、データプロバイダーはフィードを非アクティブ化する権利を保有します。
+* **課金：**&#x200B;料金の支払いが常に遅れている場合や、料金の支払いがない場合、データプロバイダーはフィードを非アクティブ化します。
+* **フィードの更新：**&#x200B;フィードの分類やコスト構造を更新した場合、データプロバイダーはフィードを非アクティブ化する必要があります。
+* **非アクティブなバイヤー：**&#x200B;購読者が長期間にわたり購入をおこなわない場合に、データプロバイダーはフィードを非アクティブ化する権利を保有します。
 * **非アクティブなセラー：**[!UICONTROL Audience Marketplace] の利用を終了するデータプロバイダーは、自分のデータフィードをすべて非アクティブ化して削除します。
 
 >[!TIP]
@@ -191,11 +191,11 @@ Data buyers unsubscribe from data feeds and plans in **[!UICONTROL Audience Mark
 
 When a data provider deactivates one of your data feeds, [!DNL Audience Manager] sends an email to the users in your company who have [!UICONTROL Administrator] permissions. 場合によっては、電子メールフィルターがこのメッセージをスパムとして分類することがあります。その結果、この重要な通知が見逃されることがあります。非アクティブ化メッセージを識別できるように、この電子メールには次の要素が含まれています。
 
-* **送信者：** この非アクティブ化電子メールは `aam-noreply@adobe.com` から送信されます。ヒント：この電子メールには返信しないでください。
+* **送信者：**&#x200B;この非アクティブ化電子メールは `aam-noreply@adobe.com` から送信されます。ヒント：この電子メールには返信しないでください。
 
 * **件名：** Subscription to *（データフィード名）* is Cancelled.
 
-* **添付ファイル** この電子メールには、`list-of-affected-entities-by-feed-revocation.csv` という名前の添付ファイルがあります。これは、キャンセルされたフィードに含まれているすべての特性が添付ファイルに記載されていることを暗示しています。データバイヤーは、この添付ファイルを確認する必要があります。このファイルにより、非アクティブ化された特性を検索して、セグメントや[アルゴリズムモデル](../../../features/algorithmic-models/understanding-models.md)から削除することができます。
+* **添付ファイル**&#x200B;この電子メールには、`list-of-affected-entities-by-feed-revocation.csv` という名前の添付ファイルがあります。これは、キャンセルされたフィードに含まれているすべての特性が添付ファイルに記載されていることを暗示しています。データバイヤーは、この添付ファイルを確認する必要があります。このファイルにより、非アクティブ化された特性を検索して、セグメントや[アルゴリズムモデル](../../../features/algorithmic-models/understanding-models.md)から削除することができます。
 
 ## 非アクティブ化された特性のリスト {#deactivation-trait-list}
 
@@ -307,8 +307,8 @@ When you click the name of a data plan in the [!UICONTROL Marketplace], [!DNL Au
 
 このユースケースでは、[特性間重複レポート](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)でご使用の特性とプロバイダー特性を比較できます。また、[セグメント - 特性間](../../../reporting/dynamic-reports/segment-trait-overlap-report.md)レポートおよび[セグメント間](../../../reporting/dynamic-reports/segment-segment-overlap-report.md)レポートで、プロバイダー特性を作成またはセグメントに追加してさらに比較をおこなうこともできます。重複比較は以下に役立ちます。
 
-* **オーディエンスリーチの拡大：** 重複が少ない場合は、お使いの特性にこれまでにないユーザーが含まれていることを示唆しています。これらの特性を試して新規ユーザーにリーチするとよいでしょう。
-* **既存オーディエンスの強化：** 重複が多い場合は、お使いの特性がデータプロバイダー所有の特性と類似していることを示唆しています。既に開拓したオーディエンスをさらに絞り込んでいくのに、これらの特性が役に立ちます。
+* **オーディエンスリーチの拡大：**&#x200B;重複が少ない場合は、お使いの特性にこれまでにないユーザーが含まれていることを示唆しています。これらの特性を試して新規ユーザーにリーチするとよいでしょう。
+* **既存オーディエンスの強化：**&#x200B;重複が多い場合は、お使いの特性がデータプロバイダー所有の特性と類似していることを示唆しています。既に開拓したオーディエンスをさらに絞り込んでいくのに、これらの特性が役に立ちます。
 
 ### アルゴリズムモデル
 
