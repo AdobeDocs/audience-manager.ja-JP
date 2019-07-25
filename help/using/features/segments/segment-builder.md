@@ -131,7 +131,7 @@ Complete the required fields in the [!UICONTROL Basic Information] and [!UICONTR
 | 検索タイプ | 説明 |
 |---|---|
 | **Search by Destination Name** | 特定の宛先を名前で検索できます。検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。Click **[!UICONTROL Add Destination]** when done. |
-| **Browse All Destinations** | 使用可能な*すべての*宛先を参照します。ポップアップリストから宛先を選択し、セグメントに追加します。 |
+| **Browse All Destinations** | 使用可能な&#x200B;*すべての*&#x200B;宛先を参照します。ポップアップリストから宛先を選択し、セグメントに追加します。 |
 
 ## Destination Mappings ポップアップウィンドウのフィールド {#fields-in-dest-mappings}
 
