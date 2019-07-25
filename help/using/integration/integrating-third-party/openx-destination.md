@@ -29,7 +29,7 @@ Audience Manager の送信先として [!DNL OpenX] を設定する前に、以�
 
 * **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library] コードをサイトに導入する必要があります。[!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
 * **`get_aamCookie`Function：** Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または `<head>` コードブロック内に配置します。
-* **Audience Manager に配信ログを送信：** セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
+* **Audience Manager に配信ログを送信：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
 ### キーと値のデータ：形式の要件
 
@@ -50,7 +50,7 @@ Create a cookie destination for [!DNL OpenX] in Audience Management.
 
 <!-- aam-openx-destination.xml -->
 
-Audience Manager では、データを共有したい他のあらゆるシステム（広告サーバー、広告ネットワークなど）を*送信先*にできます[!DNL DSP]宛先になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
+Audience Manager では、データを共有したい他のあらゆるシステム（広告サーバー、広告ネットワークなど）を&#x200B;*送信先*&#x200B;にできます[!DNL DSP]宛先になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
 
 ### 手順 1：基本情報
 
@@ -65,7 +65,7 @@ To complete the [!UICONTROL Basic Information] section:
 To complete the [!UICONTROL Configuration] section:
 
 1. **Cookie Name：** Cookie の短くてわかりやすい名前を指定します。
-1. **Cookie Domain：** ユーザーが現在見ているページのドメインの Cookie を設定する場合は空のままとします。ドメインを指定する場合は、`.mydomain.com` のように、ピリオドを使用して名前にプレフィックスを付けます。
+1. **Cookie Domain：**&#x200B;ユーザーが現在見ているページのドメインの Cookie を設定する場合は空のままとします。ドメインを指定する場合は、`.mydomain.com` のように、ピリオドを使用して名前にプレフィックスを付けます。
 1. [!UICONTROL Data Format] セクションでキーオプションを選択します。
 1. シリアル化された値のデータを使用するキーの場合、**[!UICONTROL Serialize]** コントロールを選択し、シリアル値の区切り文字（シリアル化された値を区切るための文字）を指定します。
 1. Click **[!UICONTROL Save]** and expand the [!UICONTROL Segment Mappings] section.
@@ -77,8 +77,8 @@ To complete the [!UICONTROL Configuration] section:
 1. **Find segments：**「[!UICONTROL Segment Mappings]」セクションには、セグメントを検索するための 2 つの検索ツールが用意されています。セグメントを検索するには、
    * オプション 1：検索フィールドにセグメント名を入力します。その文字列に基づきフィールドが自動で更新されます。使用するセグメントが見つかったら、「**[!UICONTROL Add]**」をクリックします。
    * オプション 2：「**[!UICONTROL Browse All Segments]**」をクリックし、名前または保存場所に基づきセグメントを参照できるウィンドウを開きます。Click **[!UICONTROL Add Selected Segments]** when done.
-1. **Add Mappings：** マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、「**[!UICONTROL Save]**」をクリックします。
-1. **[!UICONTROL Done]** をクリックします。
+1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、「**[!UICONTROL Save]**」をクリックします。
+1. **[!UICONTROL Done]**&#x200B;をクリックします。
 
 ## OpenX の設定 {#openx-code-setup}
 
