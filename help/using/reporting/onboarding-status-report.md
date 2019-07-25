@@ -102,7 +102,7 @@ create-onboarding-status-report.xml
    * 一連の固定レポート期間
    * カスタムの日付範囲を作成できるカレンダーウィジェット
 
-3. **[!UICONTROL OK]** をクリックします。
+3. **[!UICONTROL OK]**&#x200B;をクリックします。
 
 ## オンボーディングステータスレポートの用語と定義 {#report-terms-conditions}
 
