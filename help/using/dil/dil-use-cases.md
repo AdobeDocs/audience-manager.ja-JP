@@ -232,7 +232,7 @@ GTM で `dil.js` ファイルを配信するには：
    * タグの名前を設定します。
    * Select **[!UICONTROL Custom HTML Tag]** from the **[!UICONTROL Tag Type]** drop-down list.
    * HTML フィールドで、[!UICONTROL DIL] コード（ライブラリとカスタムコード）を script タグの内側に配置します（`<script>DIL code</script>`）。
-   * **[!UICONTROL Save]** をクリックします。
+   * **[!UICONTROL Save]**&#x200B;をクリックします。
 
 1. コンテナを公開します。
 1. コンテナタグコードを生成し、自分のインベントリに配置します。
