@@ -17,7 +17,7 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ## 宛先
 
-Audience Manager での *`destination`* とは、他のシステム（広告サーバー、広告ネットワークなど）の[!DNL DSP]宛先になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager destination features are located in *[!UICONTROL Audience Data] &gt; [!UICONTROL Destinations]*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
+Audience Manager での *`destination`* とは、他のシステム（広告サーバー、広告ネットワークなど）の[!DNL DSP]宛先になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager destination features are located in *[!UICONTROL Audience Data]&gt;[!UICONTROL Destinations]*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
 
 ## 基本情報
 
@@ -46,6 +46,6 @@ To complete the [!UICONTROL Basic Information] section:
    * オプション 1：検索フィールドにセグメント名を入力します。入力されたテキストに基づいて、フィールドが自動的に更新されます。使用するセグメントが見つかったら、「**[!UICONTROL Add]**」をクリックします。
    * オプション 2：「**[!UICONTROL Browse All Segments]**」をクリックし、名前または保存場所に基づきセグメントを参照できるウィンドウを開きます。Click **[!UICONTROL Add Selected Segments]** when done.
 
-1. **Add Mappings：** マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、「**[!UICONTROL Save]**」をクリックします。
+1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、「**[!UICONTROL Save]**」をクリックします。
 
-1. **[!UICONTROL Done]** をクリックします。
+1. **[!UICONTROL Done]**&#x200B;をクリックします。
