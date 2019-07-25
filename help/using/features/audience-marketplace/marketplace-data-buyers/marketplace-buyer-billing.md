@@ -38,11 +38,11 @@ To report [!DNL CPM] usage at segment level:
 1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
 2. **[!UICONTROL Segment Usage]** タブを選択します。
 3. セグメントの使用量を入力します。使用状況をレポートする必要があるセグメントが一部に限られている場合は、「[!UICONTROL Search]」ボックスを使用して、セグメントをフィルタリングできます。
-4. **[!UICONTROL Edit Segments Usage]** をクリックします。
+4. **[!UICONTROL Edit Segments Usage]**&#x200B;をクリックします。
 5. Enter the [!DNL CPM] usage amount in the [!UICONTROL Usage] column.
 6. 入力が完了したら「**[!UICONTROL Save]**」をクリックして、確認ダイアログで内容を確認します。
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
-7. **[!UICONTROL Confirm]** をクリックします。
+7. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 
 ## データフィードレベルでの CPM 使用状況のレポート {#feed-level-report}
 
@@ -53,13 +53,13 @@ To report [!DNL CPM] usage at segment level:
 1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
 2. **[!UICONTROL Feed Usage]** タブを選択します。
 3. 「[!UICONTROL Search]」ボックスを使用してデータフィードをフィルタリングし、使用量をレポートするデータフィードを見つけます。
-4. **[!UICONTROL Edit Feeds Usage]** をクリックします。
+4. **[!UICONTROL Edit Feeds Usage]**&#x200B;をクリックします。
 5. Calculate the [!DNL CPM] usage for each data feed based on the [Cost Attribution for CPM Data Feeds](#cost-attribution), and enter it in the [!UICONTROL Usage] column.
 6. 入力が完了したら「**[!UICONTROL Save]**」をクリックして、確認ダイアログで内容を確認します。
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-7. **[!UICONTROL Confirm]** をクリックします。
+7. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 
 ## 一括レポート
 
