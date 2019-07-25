@@ -19,7 +19,7 @@ source-git-commit: d5a8b763d2d0d1ceebe2252ebd283943dcbc1754
 
 **アルゴリズムモデリング**
 
-Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the core of users you&#39;ve identified. 自動化されたデータ分析を通して、固有のオーディエンスを新しく発見できます。[!UICONTROL Algorithmic Models] で管理 **[!UICONTROL Audience Data > Models]** します。
+Use [!UICONTROL Algorithmic Modeling] as a means of extending reach beyond the core of users you've identified. 自動化されたデータ分析を通して、固有のオーディエンスを新しく発見できます。[!UICONTROL Algorithmic Models] で管理 **[!UICONTROL Audience Data > Models]**&#x200B;します。
 
 詳細については、[アルゴリズムモデルについて](../features/algorithmic-models/understanding-models.md#understanding-models)を参照してください。
 
@@ -94,7 +94,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 **送信先**
 
-[!DNL Audience Manager] では、データを共有したい他のあらゆるシステム（広告サーバー、DSP、広告ネットワークなど）を送信先にできます宛先になります。UI 内の [!UICONTROL Destination Builder] はこれらのデータ配信プロセスを作成および管理するためのツールです。[!DNL Audience Manager] 宛先機能は、に **[!UICONTROL Audience Data > Destinations]** あります。
+[!DNL Audience Manager] では、データを共有したい他のあらゆるシステム（広告サーバー、DSP、広告ネットワークなど）を送信先にできます宛先になります。UI 内の [!UICONTROL Destination Builder] はこれらのデータ配信プロセスを作成および管理するためのツールです。[!DNL Audience Manager] 宛先機能は、に **[!UICONTROL Audience Data > Destinations]**&#x200B;あります。
 
 <br> 
 
