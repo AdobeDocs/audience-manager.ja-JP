@@ -16,7 +16,7 @@ Audience Manager で過去 7 日以内に受信した未使用シグナルの概
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Top Unused Signals]****[!UICONTROL New Unused Signals]** セクションには **、100回以上の繰り返し/時間を含むレコードのみが表示** されます。Signals below that threshold are included in [!UICONTROL Signals Search].
+>**[!UICONTROL Top Unused Signals]****[!UICONTROL New Unused Signals]** セクションには **、100回以上の繰り返し/時間を含むレコードのみが表示**&#x200B;されます。Signals below that threshold are included in [!UICONTROL Signals Search].
 
 ## Top Unused Signals {#top-unused-signals}
 
