@@ -29,8 +29,8 @@ source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 この手順に関する重要な考慮事項：
 
 * **クライアント ID の配置：** Audience Manager は、クライアント ID が Web サイトのどこに表示されるかを把握する必要があります（例：Cookie、Analytics 変数、ページコードなどに格納されるか）。
-* **の除外：[!DNL PII]** ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
-* **大文字と小文字およびコンテンツの区別：** リアルタイムデータ同期の間、Audience Manager によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. 結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
+* **の除外：[!DNL PII]**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
+* **大文字と小文字およびコンテンツの区別：**&#x200B;リアルタイムデータ同期の間、Audience Manager によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. 結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
 
 詳しくは、[受信データ転送のための ID 同期](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
@@ -49,7 +49,7 @@ source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ## 手順 2：データファイル形式
 
-ファイル名およびコンテンツは、厳密なガイドラインに従います。このガイドのこれらの仕様に従って、データファイルの命名や編成をおこなう必要があります。**以下を参照してください。
+ファイル名およびコンテンツは、厳密なガイドラインに従います。このガイドのこれらの仕様に従って、データファイルの命名や編成をおこなう必要があります。**&#x200B;以下を参照してください。
 
 * [受信データファイルの Amazon S3 の名前に関する要件](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * [ 受信データファイルコンテンツ：構文、変数、例](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
