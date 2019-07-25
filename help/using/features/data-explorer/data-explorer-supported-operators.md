@@ -32,9 +32,9 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 | 演算子 | Evaluates to [!DNL True] When |
 |---|---|
-| **[!UICONTROL Contains]** | キー値ペアの値が、この演算子で指定された文字を*含む*。 |
-| **[!UICONTROL Startswith]** | キー値ペアの値が、この演算子で指定された文字*で始まる*。 |
-| **[!UICONTROL Endswith]** | キー値ペアの値が、この演算子で指定された文字*で終わる*。 |
+| **[!UICONTROL Contains]** | キー値ペアの値が、この演算子で指定された文字を&#x200B;*含む*。 |
+| **[!UICONTROL Startswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で始まる*。 |
+| **[!UICONTROL Endswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で終わる*。 |
 
 ## 特性のバックフィルおよび推定でサポートされる演算子 {#supported-operators-backfilling}
 
