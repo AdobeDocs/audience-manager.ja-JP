@@ -12,5 +12,5 @@ source-git-commit: 0672a1567cdda3f2af665b6d0355b05f635a1928
 
 # DILリリースノート
 
-最新のDILリリースについて詳しくは、このページを参照してください。DIL is available as a direct download, with release notes, on Adobe&#39;s [Github page](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+最新のDILリリースについて詳しくは、このページを参照してください。DIL is available as a direct download, with release notes, on Adobe's [Github page](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
