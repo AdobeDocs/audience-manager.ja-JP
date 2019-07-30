@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
+source-git-commit: 215054718e9248bd44ba99baeb2a10236701d98e
 
 ---
 
@@ -30,13 +30,17 @@ c_bulk_start.xml
 
 この機能では、Microsoft Excel スプレッドシートのマクロを使用して、[!DNL Audience Manager] API の認証済みの安全な呼び出しをおこないます。API には、一括変更をおこなうためのメソッドおよびサービスが用意されています。これを使用するにあたって、コーディングや API の使用方法についての知識は必要ありません。ワークシートには特定の一括変更関数を実行するための列見出しとタブがあります。一括変更を実行するには単に、事前定義済みのヘッダーを特定のワークシートに追加し、一括変更する情報を指定し、実行ボタンをクリックします。後はワークシートと API が処理してくれます。
 
+## ダウンロード {#download}
+
+Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**.
+
 ## 前提条件 {#prereqs}
 
 [!DNL Bulk Management Tools] を使用するには、以下が必要です。
 
 * [!DNL Audience Manager] のユーザー名およびパスワード。お客様が既にお持ちの資格情報です。
 * API クライアント ID および秘密鍵。担当のアカウントマネージャーを通して入手できます。
-* [!UICONTROL Bulk Management Tools] ワークシート。**[ワークシート](assets/BAAAM_August_2018.xlsm)** をダウンロードして最新バージョンを入手してください。
+* [!UICONTROL Bulk Management Tools] ワークシート。[ワークシート](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) をダウンロードして最新バージョンを入手してください。
 
 * [!DNL Windows] 上で動作する Excel、または [!DNL macOS X] 上で動作する [!DNL Microsoft Windows] 仮想マシン。You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 
