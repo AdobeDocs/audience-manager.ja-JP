@@ -7,7 +7,7 @@ title: データフィードのサブスクリプションの管理
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 ---
 
@@ -280,7 +280,7 @@ When you click the name of a data plan in the [!UICONTROL Marketplace], [!DNL Au
    * 「**[!UICONTROL Request More Details]**」をクリックすると、データプロバイダーに選択したデータフィードについて質問したり、割引をリクエストしたりすることができます。この機能では、コメントや質問を直接データプロバイダーに送信することができます。
 
 1. データフィードレポート指標 の呼び出しの後におこなわれる場合です。ベン図（および関連指標）は、過去30日間の特性の重複データを示します。See [The Marketplace: About](marketplace-data-buyers.md#about-marketplace) for details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**:プロバイダーのアカウント内のユーザーと重複するアカウント内の個別ユーザーの数。
+   * **[!UICONTROL 30 Day Overlapped Uniques]**:プロバイダーのアカウント内のユーザーと重複するアカウント内の個別ユーザーの数。For a definition of unique users, see AAM UUID in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**:プロバイダーのアカウントからアクセスした個別ユーザーの数。
    * **[!UICONTROL Your Unique Users]**:アカウントからの個別ユーザー数。
 
