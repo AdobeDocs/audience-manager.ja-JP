@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Manager の ID のインデックス
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: cf0cec2fdf1272f075a825b09cf2fa11a3815432
 
 ---
 
@@ -25,6 +25,26 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <p>AAM UUID </p> </td> 
+   <td colname="col2"> <p> <b><span class="keyword"></span>Audience Manager の一意のユーザー ID</b> </p> <p> 数値型で 38 桁のデバイス ID。<span class="keyword">Audience Manager</span> はこの値を、操作するデバイスのそれぞれに関連付けます。Audience Manager UIで一意のユーザーのメンションが表示される場合は、このIDを考慮してください。<p><span class="keyword">Audience Manager</span> はこの ID を、「demdex.net」サードパーティドメインの Cookie として保存します。</p> </p> <p>Audience Manager UUID は、イベント呼び出しで d_uuid シグナルとして送信されます。 </p> </td> 
+   <td colname="col3"> <p><code> demdex = 07955261652886032950143702505894272138</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>ImsOrgId </p> </td> 
+   <td colname="col2"> <p> <b>組織 ID</b> </p> <p>会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織 ID を検索する方法については、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> 組織とアカウントのリンク</a>を確認し、組織 ID の検索までスクロールしてください。</p> </td> 
+   <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>PID </p> </td> 
+   <td colname="col2"> <p> <b>パートナー ID</b> </p> <p> PID は、<span class="keyword">Audience Manager</span> での会社の ID です。<span class="keyword">Audience Manager</span> は imsOrgId を PID に関連付けます。 </p> </td> 
+   <td colname="col3"> <p><code> 1352</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>ECID、MID </p> </td> 
+   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>Experience Cloud ID（ECID、レガシー略称 MID または MCID）は、組織 ID と <span class="keyword"> Audience Manager</span> の一意のユーザー ID から数学的に生成されます。これらの ID が変わらない限り、特定のユーザーに関する正しい ECID を生成できるかどうかは、単純に計算上の問題になります。同じ組織 ID と Audience Manager UUID があれば、いつでも同じ ECID 値が得られます。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies と Experience Cloud ID</a> のドキュメントを参照してください。 </p> </td> 
+   <td colname="col3"> <p><code> mid=08382830887934830189014177072406221371 </code> </p> </td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <p>SID </p> </td> 
    <td colname="col2"> <p> <b>Trait ID</b> </p> <p>特性 ID は、<span class="keyword"> Audience Manager</span> 環境内の特性を一意に識別します。ユーザーインターフェイス（UI）の各特性に特性 ID が割り当てられます。 </p> </td> 
@@ -64,26 +84,6 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
    <td colname="col1"> <p>CID、CID_IC </p> </td>
    <td colname="col2"> <p> <b>顧客 ID、顧客 ID 統合コード</b> </p> <p> <b>CID と CID_IC のキーと値のペアは<a href="../reference/cid.md">DPID と DPUUID</a> の代わりに使用されます。</b>これは DPID と DPUUID と同じ機能ですが、1 つのキーと値のペアにデータプロバイダー ID とユーザー ID（または統合コード）が含まれるので、より効率的です。 </p> </td> 
    <td colname="col3"> <p><code> 81841%013ad2948b1570a7e408a7cfb7ff4879e4 </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AAM UUID </p> </td> 
-   <td colname="col2"> <p> <b><span class="keyword"></span>Audience Manager の一意のユーザー ID</b> </p> <p> 数値型で 38 桁のデバイス ID。<span class="keyword">Audience Manager</span> はこの値を、操作するデバイスのそれぞれに関連付けます。<span class="keyword">Audience Manager</span> はこの ID を、「demdex.net」サードパーティドメインの Cookie として保存します。 </p> <p>Audience Manager UUID は、イベント呼び出しで d_uuid シグナルとして送信されます。 </p> </td> 
-   <td colname="col3"> <p><code> demdex = 07955261652886032950143702505894272138</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ImsOrgId </p> </td> 
-   <td colname="col2"> <p> <b>組織 ID</b> </p> <p>会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織 ID を検索する方法については、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> 組織とアカウントのリンク</a>を確認し、組織 ID の検索までスクロールしてください。</p> </td> 
-   <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>PID </p> </td> 
-   <td colname="col2"> <p> <b>パートナー ID</b> </p> <p> PID は、<span class="keyword">Audience Manager</span> での会社の ID です。<span class="keyword">Audience Manager</span> は imsOrgId を PID に関連付けます。 </p> </td> 
-   <td colname="col3"> <p><code> 1352</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ECID、MID </p> </td> 
-   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>Experience Cloud ID（ECID、レガシー略称 MID または MCID）は、組織 ID と <span class="keyword"> Audience Manager</span> の一意のユーザー ID から数学的に生成されます。これらの ID が変わらない限り、特定のユーザーに関する正しい ECID を生成できるかどうかは、単純に計算上の問題になります。同じ組織 ID と Audience Manager UUID があれば、いつでも同じ ECID 値が得られます。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies と Experience Cloud ID</a> のドキュメントを参照してください。 </p> </td> 
-   <td colname="col3"> <p><code> mid=08382830887934830189014177072406221371 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="2"> <p>DAID </p> <p> 
