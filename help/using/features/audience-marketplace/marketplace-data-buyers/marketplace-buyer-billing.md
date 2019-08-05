@@ -7,7 +7,7 @@ title: データフィードバイヤーに対する請求
 keywords: セグメントレベルのレポート、セグメントレベル、セグメントレベル
 uuid: d7236667-282b-4160-9909-579721af4016
 translation-type: tm+mt
-source-git-commit: a02ef4cfa987c05e3db173f8e6e9a635d1ecd1fd
+source-git-commit: fde8dd10e2693427c4330739fa013deb48be35be
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: a02ef4cfa987c05e3db173f8e6e9a635d1ecd1fd
 # データフィードバイヤーに対する請求 {#billing-for-data-feed-buyers}
 
 Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions ([!DNL CPM]) basis. [!DNL CPM] 使用は、毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
+
+<br> 
 
 ## CPM の使用状況の報告方法 {#report-cpm-usage}
 
@@ -27,6 +29,8 @@ Audience Marketplace data buyers agree to report all ad impressions served using
 * **セグメントレベルのレポート**[!DNL CPM]：こちらが推奨される の使用状況のレポート方法です。When you report [!DNL CPM] usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts, based on the algorithms described in [Cost Attribution for CPM Data Feeds](#cost-attribution).
 * **データフィードレベルのレポート**[!DNL CPM]：この方法では、[ データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、データフィードごとに CPM 使用状況を個別にレポートする必要があります。ただし、この方法はセグメントレベルのレポートに比べて煩雑であり、エラーが生じやすくなります。
 
+<br> 
+
 ## セグメントレベルでの CPM 使用状況のレポート {#segment-level-report}
 
 「[!UICONTROL Segment Usage]」タブには、セグメントがマッピング先の宛先ごとにグループ化されて表示され、セグメントレベルでの使用状況をレポートすることができます。
@@ -35,7 +39,7 @@ After reporting [!DNL CPM] usage at segment level, [!UICONTROL Audience Marketpl
 
 To report [!DNL CPM] usage at segment level:
 
-1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
+1. 移動 **[!UICONTROL Audience Marketplace > Payables]**&#x200B;先
 2. **[!UICONTROL Segment Usage]** タブを選択します。
 3. セグメントの使用量を入力します。使用状況をレポートする必要があるセグメントが一部に限られている場合は、「[!UICONTROL Search]」ボックスを使用して、セグメントをフィルタリングできます。
 4. **[!UICONTROL Edit Segments Usage]**&#x200B;をクリックします。
@@ -50,7 +54,7 @@ Data feed-level reporting is a more tedious and prone to error process, since yo
 
 To report [!DNL CPM] usage at segment level:
 
-1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
+1. 移動 **[!UICONTROL Audience Marketplace > Payables]**&#x200B;先
 2. **[!UICONTROL Feed Usage]** タブを選択します。
 3. 「[!UICONTROL Search]」ボックスを使用してデータフィードをフィルタリングし、使用量をレポートするデータフィードを見つけます。
 4. **[!UICONTROL Edit Feeds Usage]**&#x200B;をクリックします。
@@ -61,15 +65,17 @@ To report [!DNL CPM] usage at segment level:
 
 7. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 
+<br> 
+
 ## 一括レポート
 
 [!DNL CPM] レポートの使用中にエラーとオーバーヘッドを軽減するには、バルクレポートオプションを使用して、データフィードおよびセグメントを含む [!DNL CSV] ファイルをダウンロードし、使用状況に記入してアップロードします [!DNL Audience Manager]。一括レポートは、フィードの使用量およびセグメントの使用量の両方に使用できます。
 
 To update [!DNL CPM] usage in bulk:
 
-1. Go to **[!UICONTROL Audience Marketplace > Payables]**.
+1. 移動 **[!UICONTROL Audience Marketplace > Payables]**&#x200B;先
 1. Select the **[!UICONTROL Feed Usage]** or **[!UICONTROL Segment Usage]** tab, depending on the type of reporting that you want to update.
-1. Click **[!UICONTROL Edit Feeds Usage]** or **[!UICONTROL Edit Segments Usage]**.
+1. また **[!UICONTROL Edit Feeds Usage]****[!UICONTROL Edit Segments Usage]**&#x200B;はをクリックします。
 1. Click **[!UICONTROL download the current usage]** to make sure you use a valid CSV file.
 1. ダウンロードしたファイルをコンピューター上で開き、使用状況レポートに入力します。
 1. Click **[!UICONTROL Choose a CSV file]** to upload the updated usage report.
@@ -78,18 +84,22 @@ To update [!DNL CPM] usage in bulk:
 
 1. ファイルはアップロード後すぐに [!DNL Audience Manager] により検証され、エラーが検出された場合はメッセージが表示されます。
 
+<br> 
+
 ### 一括レポートの検証エラー
 
 | エラーメッセージ | 説明 | 対策 |
 | ------------- | -------------| -----|
 | Invalid Input | [!DNL Audience Manager][!DNL CSV] で、列の不足や列タイトルの変更など、 ファイルスキーマの変更が検出されました。 | テーブルの構造は変更しないでください。 |
-| Not Found | For [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] could not identify the [!UICONTROL Segment ID] and [!UICONTROL Destination ID] combination. For [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] could not identify the [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], and [!UICONTROL Use Case] combination. | For [!UICONTROL Segment Level Reporting], check the validity of the [!UICONTROL Segment ID] and [!UICONTROL Destination ID] combination. For [!UICONTROL Feed Level Reporting], check the validity of the [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], and [!UICONTROL Use Case] combination. |
+| Not Found | のため [!UICONTROL Segment Level Reporting][!DNL Audience Manager] 、 [!UICONTROL Segment ID][!UICONTROL Destination ID] および組み合わせを識別できませんでした。のため [!UICONTROL Feed Level Reporting][!DNL Audience Manager] に、および [!UICONTROL Data Provider Name][!UICONTROL Feed Name][!UICONTROL Use Case] と組み合わせを識別できませんでした。 | の場合 [!UICONTROL Segment Level Reporting]は、および組み合わせの有効性を [!UICONTROL Segment ID] 確認 [!UICONTROL Destination ID] してください。の場合 [!UICONTROL Feed Level Reporting]は、その [!UICONTROL Data Provider Name]有効 [!UICONTROL Feed Name]性および [!UICONTROL Use Case] 組み合わせの有効性を確認してください。 |
 | Duplicate Records Found | [!DNL Audience Manager] で、インプレッションの値が異なる重複したレコードが検出されました。 | レポートをチェックして、同じデータフィードまたはセグメントについて複数の使用量の値をレポートしていないか確認してください。 |
 | Values Not Supported | [!DNL Audience Manager] で、[!DNL Audience Manager] 列に数字以外の値が検出されました。 | レポートをチェックして、[!DNL Audience Manager] 列に数値のみを入力していることを確認してください。 |
-| Headers for Mandatory Fields Missing | [!DNL Audience Manager] で、必須フィールドのテーブルヘッダーが不足していることが検出されました。For [!UICONTROL Segment Level Reporting], the mandatory fields are: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. For [!UICONTROL Feed Level Reporting], the mandatory fields are: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | レポートをチェックして、テーブルヘッダーが変更されていないことを確認してください。 |
+| Headers for Mandatory Fields Missing | [!DNL Audience Manager] で、必須フィールドのテーブルヘッダーが不足していることが検出されました。ここ [!UICONTROL Segment Level Reporting]では、必須フィールドは次のとおりです。 [!UICONTROL Segment ID]， [!UICONTROL Destination ID].ここ [!UICONTROL Feed Level Reporting]では、必須フィールドは次のとおりです。 [!UICONTROL Data Provider Name]， [!UICONTROL Data Feed Name]，， [!UICONTROL Use Case] | レポートをチェックして、テーブルヘッダーが変更されていないことを確認してください。 |
 
 >[!NOTE]
 >[!DNL CSV] 使用状況レポートから行を削除しても、既存の使用状況レポートには影響しません。[!DNL Audience Manager] では、レポートに含まれているフィールドのみが処理されます。
+
+<br> 
 
 ## [!DNL CPM] レポートのベストプラクティス
 
@@ -112,6 +122,8 @@ To update [!DNL CPM] usage in bulk:
   </tr> 
  </tbody> 
 </table>
+
+<br> 
 
 ## CPM データフィードのコスト配分 {#cost-attribution}
 
@@ -136,6 +148,8 @@ After you report [!DNL CPM] number for the previous calendar month, [!DNL Adobe]
 >[!IMPORTANT]
 >
 >バイヤーとして報告するインプレッションの合計は、真実かつ正確でなければなりません。インプレッションの合計を毎月 5 日までに報告しない場合、報告されていない分の月の合計は翌月に報告しなければなりません。
+
+<br> 
 
 ## 特性認定ルールに基づくフィードレベルでのインプレッションの配分 {#assign-impressions}
 
@@ -173,16 +187,20 @@ After you report [!DNL CPM] number for the previous calendar month, [!DNL Adobe]
  </tbody>
 </table>
 
+<br> 
+
 ## 請求の例 {#billing-examples}
 
 The examples below are meant to illustrate how [!DNL CPM] usage allocation is done at data feed level.
 
->[!MPORTANT]
+>[!IMPORTANT]
 >この方法の代わりに、処理が自動でおこなわれる[セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)をお勧めします。
 
 次のシナリオを考えてみましょう。
 
 ![請求例](assets/billing-examples.png)
+
+<br> 
 
 ### ケース 1：AND 認定ルールを使用するセグメント
 
@@ -194,6 +212,8 @@ The examples below are meant to illustrate how [!DNL CPM] usage allocation is do
 
 この例は、[!DNL Boolean][!UICONTROL NOT] 演算子を使用するセグメント、またはアルゴリズム特性を含むセグメントに該当します。
 
+<br> 
+
 ### ケース 2：OR 認定ルールを使用するセグメント
 
 このセグメントには、別々のデータプロバイダーからの特性が 3 件あります。セグメント認定は [!UICONTROL OR] 条件に基づいているので、訪問者がセグメントの対象として認定されるには、3 つのフィードのうち少なくとも 1 つからの特性を適合する必要があります。
@@ -202,10 +222,34 @@ The examples below are meant to illustrate how [!DNL CPM] usage allocation is do
 
 ![billing-segment-or](assets/billing-segment-or.png)
 
->[!MORE_LIKE_THIS]
->
->* [定額データフィードに関する請求およびインプレッションの割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+### ケース3:モデリングとアクティベーションの使用例
 
+この例では、2つのデータフィードの使用例（モデリングとアクティブ化）に基づいてアトリビューションを説明しています。この例では、次の情報を使用して2つのデータプロバイダーを調べています。
+
+![data- feed](assets/feed-use-cases.png)
+
+次の表では、セグメントXにはT1とT2の2つの特徴があり、T1OR T2はセグメントルールT1OR T2を持ちます。
+
+* T1は、データフィードAの特性です。
+* T2は、データフィードAとデータフィードBのサードパーティの特性の後にモデル化されたアルゴリズム特徴の特徴です。
+
+セグメントが宛先にマッピングされ、セグメントレベルのレポートを使用し [て、1か月にこのセグメントの1,000,000インプレッションが入力](#segment-level-report)されます。
+
+これらの1,000,000件のインプレッション:
+
+* T1は、セグメント母集団の40%を占め、フィードAの400,000インプレッションに変換します。
+* T2はセグメント母集団の60%を占め、フィードAおよびフィードBの600,000インプレッションに変換します。
+
+データフィードレベルでは、インプレッションの配分方法は次のとおりです。
+
+* データフィードAは、特性T2から600,000インプレッション（データフィードAとデータフィードBの特性をモデル化したもの）、特性T1から400,000インプレッション（データフィードAからの特性）および1,000,000件のインプレッションを集計したインプレッション数を受け取ります。
+* データフィードBは、特性T2から600,000インプレッション（上述の説明を参照）および特性T1からの0インプレッションを受け取ります。
+
+データフィードによる一目での分類と使用例は次のとおりです。
+
+![フィード分類](assets/feed-breakdown.png)
+
+<br> 
 
 ## 定額データフィードに関する請求およびインプレッションの割り当て {#billing-flat-fee}
 
