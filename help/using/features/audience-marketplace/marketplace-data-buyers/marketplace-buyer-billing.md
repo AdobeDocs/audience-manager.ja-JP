@@ -7,7 +7,7 @@ title: データフィードバイヤーに対する請求
 keywords: セグメントレベルのレポート、セグメントレベル、セグメントレベル
 uuid: d7236667-282b-4160-9909-579721af4016
 translation-type: tm+mt
-source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
+source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
 
 ---
 
@@ -251,7 +251,7 @@ The examples below are meant to illustrate how [!DNL CPM] usage allocation is do
 
 データフィードによる一目での分類と使用例は次のとおりです。
 
-![フィード分類](assets/feed-breakdown.png)
+![フィード分類](assets/feed-breakdown-alt.png)
 
 <br> 
 
