@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 'SDK コード '
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 translation-type: tm+mt
-source-git-commit: 9e407a14f6c466ae826f2b13013a997e762a160e
+source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
 
 ---
 
@@ -21,11 +21,11 @@ Audience Manager では、[!DNL Android] および [!DNL iOS] 向けのソフト
 
 * 利用を開始するには、[Launch](https://launch.adobe.com/) にアクセスしてください。
 * Experience Platform SDK リポジトリの内容については、[Github：Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks) を参照してください。
-* To implement Audience Manager in your app, using the new SDK v.5, read the [Adobe Audience Manager documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) on the new SDK page.
+* アプリにAudience Managerを実装するには、新しいSDK v.5を使用して、新しいSDKページで [Adobe Audience Managerのドキュメント](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) を読みます。
 
 <br> 
 
 AndroidおよびiOS4. x SDKは引き続きサポートされています。これらのSDKコードライブラリについては、以下を参照してください。
 
-* [Android SDK](https://experiencecloud.adobe.com/resources/help/en_US/mobile/android/?f=audience_manager.html)
-* [iOS SDK](https://experiencecloud.adobe.com/resources/help/en_US/mobile/ios/?f=amm.html)
+* [Android SDK](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [iOS SDK](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
