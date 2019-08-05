@@ -7,7 +7,7 @@ title: データフィードバイヤーに対する請求
 keywords: セグメントレベルのレポート、セグメントレベル、セグメントレベル
 uuid: d7236667-282b-4160-9909-579721af4016
 translation-type: tm+mt
-source-git-commit: fde8dd10e2693427c4330739fa013deb48be35be
+source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
 
 ---
 
@@ -47,6 +47,8 @@ To report [!DNL CPM] usage at segment level:
 6. 入力が完了したら「**[!UICONTROL Save]**」をクリックして、確認ダイアログで内容を確認します。
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
 7. **[!UICONTROL Confirm]**&#x200B;をクリックします。
+
+<br> 
 
 ## データフィードレベルでの CPM 使用状況のレポート {#feed-level-report}
 
@@ -221,6 +223,8 @@ The examples below are meant to illustrate how [!DNL CPM] usage allocation is do
 認定は [!UICONTROL OR] 条件に基づいているので、どちらの特性がインプレッションに対応しているかは判別できません。As a result, in the [!UICONTROL Audience Marketplace > Payables] section you credit each provider with a weighted allocation of the total impressions, based on trait population.
 
 ![billing-segment-or](assets/billing-segment-or.png)
+
+<br> 
 
 ### ケース3:モデリングとアクティベーションの使用例
 
