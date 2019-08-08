@@ -7,12 +7,12 @@ solution: Audience Manager
 title: 宛先
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 translation-type: tm+mt
-source-git-commit: 157e70906b80bd0a23ba6e7721d2c456d378ffb5
+source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
 
 ---
 
 
-# 宛先 {#destinations}
+# 宛先の概要 {#destinations}
 
 In Audience Manager, a destination is any third-party system (ad server, [!DNL DSP], ad network, etc.) 宛先になります。[!UICONTROL Destination Builder] は、Cookie、サーバー間の宛先の作成と管理に使用するツールです。[!DNL URL]
 
@@ -45,5 +45,5 @@ In Audience Manager, a destination is any third-party system (ad server, [!DNL D
 
 | 宛先のタイプ | 使用に適した状況 | 例 | 注意点 |
 |--- |--- |--- |--- |
-| **URL** or **Cookie** | 絞り込まれたユーザーに宛先が直ちに対応できるように、データをすぐに転送する必要がある場合。 | チケット購入サイトからのデータの送信。URL または Cookie の宛先を使用してユーザーを絞り込み、直ちにリターゲティングする。 | <ul><li>新規訪問者に関するデータのみ転送します。 </li><li>訪問者を再度確認して、セグメントに絞り込む必要があります。</li></ul> |
+| **URL**&#x200B;また **はCookie** | 絞り込まれたユーザーに宛先が直ちに対応できるように、データをすぐに転送する必要がある場合。 | チケット購入サイトからのデータの送信。URL または Cookie の宛先を使用してユーザーを絞り込み、直ちにリターゲティングする。 | <ul><li>新規訪問者に関するデータのみ転送します。 </li><li>訪問者を再度確認して、セグメントに絞り込む必要があります。</li></ul> |
 | **サーバー間** | <ul><li>すぐにデータを転送する必要がない場合。</li><li>絞り込まれたユーザーで構成される大規模なオーディエンスプールを構築するためのデータを収集している場合。</li></ul> | 後日実施する予定のキャンペーンで使用するデータを徐々に（数時間または数日間で）収集する。 | <ul><li>新規および以前のサイト訪問者に関するデータを転送します。 </li><li>訪問者を再度確認して、他のセグメントに絞り込む必要はありません。</li></ul> |
