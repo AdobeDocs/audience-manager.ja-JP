@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
+source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
 
 ---
 
@@ -77,13 +77,24 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
    + [宣言済み ID](features/declared-ids.md)
    + [派生シグナル](features/derived-signals.md)
    + 宛先{#destinations}
-      + [宛先](features/destinations/destinations.md)
+      + [宛先の概要](features/destinations/destinations.md)
+      + [宛先ホームページ](/help/using/features/destinations/destinations-home.md)
+      + Adobe Experience Cloudの宛先{#experience-cloud-destinations}
+         + [Analytics の宛先の設定](/help/using/features/destinations/create-analytics-destination.md)
+      + 人ベースの宛先 {#pbd}
+      + デバイスベースの宛先（サーバーからサーバー） {#device-based}
+         + [サーバー間宛先のセグメントの追加または編集](/help/using/features/destinations/add-edit-segments.md)
+      + カスタム宛先 {#custom-destinations}
+         + [URL の宛先の設定](/help/using/features/destinations/create-url-destination.md)
+         + [Cookie の宛先の設定](/help/using/features/destinations/create-cookie-destination.md)
+         + [Cookie の宛先のオプション設定](/help/using/features/destinations/cookie-destination-options.md)
+      + 宛先リファレンス {#destinations-reference}
+         + [Destination Builder](/help/using/features/destinations/destination-builder.md)
+         + [get_aamCookie コード](features/destinations/get-aam-cookie-code.md)
+         + [宛先マクロの定義](features/destinations/destination-macros.md)
+         + [標準およびシリアル化されたキー値ペア](features/destinations/key-value-pairs.md)
+         + [宛先へのデータエクスポートコントロールの追加](/help/using/features/destinations/add-data-export-labels.md)
       + [宛先の管理](features/destinations/manage-destinations.md)
-      + [宛先マクロの定義](features/destinations/destination-macros.md)
-      + [標準およびシリアル化されたキー値ペア](features/destinations/key-value-pairs.md)
-      + [get_aamCookie コード](features/destinations/get-aam-cookie-code.md)
-      + [Analytics の宛先の設定](/help/using/features/destinations/create-analytics-destination.md)
-      + [Audience Managerテクノロジーパートナー](/help/using/features/destinations/audience-manager-technology-partners.md)
    + プロファイル結合ルール{#profile-merge-rules}
       + [プロファイル結合ルールの概要](features/profile-merge-rules/merge-rules-overview.md)
       + [プロファイル結合ルールの導入](features/profile-merge-rules/merge-rules-start.md)
@@ -256,6 +267,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
       + [GPT setTargeting API 呼び出しの変更](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Google サイト運営者タグ用の Audience Manager コード](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + サードパーティの宛先との統合 {#integrating-third-party}
+      + [Audience Managerテクノロジーパートナー](/help/using/integration/integrating-third-party/audience-manager-technology-partners.md)
       + [Facebook WCAの統合](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [Audience Manager の宛先としての OAS](integration/integrating-third-party/open-ad-server-destination.md)
       + [Audience Manager の宛先としての OpenX](integration/integrating-third-party/openx-destination.md)
@@ -299,7 +311,7 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
          + [受信データ転送ファイルのファイル圧縮](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [受信処理後パートナーに送信されるメッセージの例](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [カスタムパートナー統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
-   + Integration with Other Experience Cloud Solutions {#integration-other-solutions}
+   + 他のExperience Cloudソリューションとの統合 {#integration-other-solutions}
       + [Audience ManagerとAdobe Targetの統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Audience Management モジュールの実装](integration/integration-other-solutions/audience-management-module.md)
       + [サーバー側転送（管理ガイド）](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
