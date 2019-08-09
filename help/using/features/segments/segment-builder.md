@@ -6,7 +6,7 @@ solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: b346dbe500f1e662c7b121a18c6cc0704ef3cfac
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -44,7 +44,7 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
 
 ## セグメントビルダーのコントロール：「Basic Information」セクション {#segment-builder-controls-basics}
 
-In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] settings let you create new, or edit existing traits. 新しいセグメントを作成するには、名前およびデータソースを指定して、保存フォルダーを選択します。その他のすべてのフィールドはオプションです。完了したら、「[!UICONTROL Traits]」セクションに移動します。
+で [!UICONTROL Segment Builder]は、 [!UICONTROL the Basic Information] 既存の特性を新規作成または編集できます。新しいセグメントを作成するには、名前およびデータソースを指定して、保存フォルダーを選択します。その他のすべてのフィールドはオプションです。完了したら、「[!UICONTROL Traits]」セクションに移動します。
 
 <!-- r_segment_basic_info_section.xml -->
 
@@ -163,6 +163,6 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] dialog appears
 
 >[!MORE_LIKE_THIS]
 >
->* [Cookie の宛先の作成](../../features/destinations/manage-destinations.md#create-cookie-destination)
->* [URL 宛先の作成](../../features/destinations/manage-destinations.md#configure-url-destination)
+>* [Cookie の宛先の作成](../../features/destinations/create-cookie-destination.md)
+>* [URL 宛先の作成](../../features/destinations/create-url-destination.md)
 
