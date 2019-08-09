@@ -5,7 +5,7 @@ seo-title: Analytics の宛先の設定
 solution: Audience Manager
 title: Analytics の宛先の設定
 translation-type: tm+mt
-source-git-commit: 3179b9007e102f7031cc4cc9e0da64f77cfa3eeb
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 3179b9007e102f7031cc4cc9e0da64f77cfa3eeb
 このセクションには、[データ書き出しコントロール](/help/using/features/data-export-controls.md)を Analytics の宛先に適用するオプションが含まれています。データ書き出しコントロールを使用しない場合は、この手順を省略してください。このセクションを完了するには：
 
 1. 「**Data Export Controls**」をクリックして、コントロールを表示します。
-2. 宛先に適用するデータ書き出しコントロールに対応するラベルを選択します（詳しくは [宛先へのデータ書き出しラベルの追加](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) ). Analytics の宛先の場合は、PII のチェックボックスがデフォルトで選択されています。
+2. 宛先に適用するデータ書き出しコントロールに対応するラベルを選択します（詳しくは [宛先へのデータ書き出しラベルの追加](/help/using/features/destinations/add-data-export-labels.md) ). Analytics の宛先の場合は、PII のチェックボックスがデフォルトで選択されています。
 3. 「**Save**」をクリックします。
 
 ![exportcontrols](assets/exportControls.png)
