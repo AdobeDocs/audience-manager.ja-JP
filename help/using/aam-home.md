@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: d8a7f4125bc5dbf8b6eeb5b64efec7462da4c4e9
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -20,13 +20,13 @@ Audience Manager は、オンラインでのオーディエンスデータ管理
   <tr> 
    <td colname="col1"> <p> <b>新しいトピックおよび注目すべきトピック</b> </p> <p>Audience Managerの最新機能については、以下を参照してください。</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="features/destinations/manage-destinations.md#default-landing-page">宛先ホームページ</a> </li>
+     <li><a href="features/destinations/destinations-home.md">宛先ホームページ</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">IPアドレスの難読化</a> </li>
      <li><a href="overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用 Audience Manager プラグイン</a> </li>
      <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID マッピングの上限</a> </li>
      <li><a href="features/global-data-sources.md">グローバルデータソース</a> </li> 
      </ul> </p> <p><a href="docs-updates/docs-2019.md">ドキュメントの更新（2019 年）</a>も参照してください。 </p> 
-     <p>If you are new to Audience Manager, see our <a href="reference/aam-glossary.md"> Glossary</a> and <a href= "reference/ids-in-aam.md">Index of IDs.</a></p></td>
+     <p>Audience Managerを初めて使用する場合は、アドビの用語集 <a href="reference/aam-glossary.md"></a> とID <a href= "reference/ids-in-aam.md">のインデックスを参照してください。</a></p></td>
    <td colname="col2"> <p> <b>リリースノート</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">新機能と修正点については、最新の <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。 </li> 
