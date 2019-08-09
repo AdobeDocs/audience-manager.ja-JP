@@ -5,12 +5,12 @@ seo-title: Facebook WCAの統合
 solution: Audience Manager
 title: Facebook WCAの統合
 translation-type: tm+mt
-source-git-commit: 56999c1968a486bed0e2e672a4de1774d049e09d
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Facebook WCA Integration {#facebook-wca-integration}
+# Facebook WCAの統合 {#facebook-wca-integration}
 
 このページでは、WebベースのAudience ManagerオーディエンスセグメントをFacebookに送信するための手順（WebベースのAudience ManagerオーディエンスセグメントをFacebookに送信する手順）を紹介します。これには、透明度の向上によるオンライン広告ターゲット設定が含まれます。
 
@@ -22,26 +22,26 @@ source-git-commit: 56999c1968a486bed0e2e672a4de1774d049e09d
 
 >[!IMPORTANT]
 >
-> This capability requires that you select the Website audience for social platforms option in [URL destinations](/help/using/features/destinations/manage-destinations.md#configure-url-destination). ソーシャルプラットフォームでは、プラットフォームに送信するときにリファラー情報をマスク解除する必要があります。つまり、宛先プラットフォーム/パートナーは、リファラーURLの情報を表示できることに注意してください。
+> この機能を使用するには、URL宛先の [ソーシャルプラットフォームオプションのWebサイトオーディエンスを選択する必要](/help/using/features/destinations/create-url-destination.md)があります。ソーシャルプラットフォームでは、プラットフォームに送信するときにリファラー情報をマスク解除する必要があります。つまり、宛先プラットフォーム/パートナーは、リファラーURLの情報を表示できることに注意してください。
 
 ## 前提条件 {#prerequisites}
 
 1. Facebook広告アカウント
-2. Audience Managerセグメントで、新しいFacebook宛先に割り当てる準備ができました。Here is [how to create a segment](/help/using/features/segments/segment-builder.md) in the Audience Manager UI.
-3. Adobe Experience Cloud IDサービス（ECID）バージョン4.1.0以降。Download the latest version **[here](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Alternatively, if you use [Server-Side Forwarding (SSF)](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) to import data into Audience Manager, you must use AppMeasurement version 2.12 or newer. [Analyticsコードマネージャーを使用してAppMeasurementをダウンロード](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)します。
+2. Audience Managerセグメントで、新しいFacebook宛先に割り当てる準備ができました。Audience [Manager UIでセグメント](/help/using/features/segments/segment-builder.md) を作成する方法を次に示します。
+3. Adobe Experience Cloud IDサービス（ECID）バージョン4.1.0以降。最新バージョン **[をダウンロード](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**&#x200B;してください。
+4. Audience Manager Data Integration Library（DIL）バージョン9.0以降、ダウンロード可能 **[](https://github.com/Adobe-Marketing-Cloud/dil/releases)**。または [、サーバー側転送（SSF）](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) を使用してAudience Managerにデータをインポートする場合は、AppMeasurementバージョン2.12以降を使用する必要があります。[Analyticsコードマネージャーを使用してAppMeasurementをダウンロード](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)します。
 
 [Adobe Launch](https://docs.adobelaunch.com/) または [Adobe Dynamic Tag Managementを使用して、手順3および4のライブラリをインストールまたはアップグレードすることをお勧め](https://marketing.adobe.com/resources/help/en_US/dtm/)します。
 
-## Step 1 - Create a Facebook Destination in Audience Manager {#step-1-create-facebook-destination}
+## 手順1- Audience ManagerでのFacebook宛先の作成 {#step-1-create-facebook-destination}
 
-Audience Managerで新しいURL宛先を作成し、Facebook Webサイトカスタムオーディエンスという名前を付けます。宛先を作成する際には、以下の設定を使用してください。You can also refer to the [Configure a URL Destination](/help/using/features/destinations/manage-destinations.md#configure-url-destination) page.
+Audience Managerで新しいURL宛先を作成し、Facebook Webサイトカスタムオーディエンスという名前を付けます。宛先を作成する際には、以下の設定を使用してください。"URLの保存先を [設定](/help/using/features/destinations/create-url-destination.md) 」ページを参照することもできます。
 
 **Basic Information**
 
 * **カテゴリ**:カスタム
 * **タイプ**:URL
-* Select the **Auto-fill Destination Mapping** check box, then select **Segment ID**.
+* 「自動入力先 **のマッピング»?チェックボックスを選択し、?«セグメントID?******
 
 **Data Export Labels**
 
@@ -58,7 +58,7 @@ Select the option **This destination may enable a combination with personally id
 * **「ベースURL** 」フィールドと「 **セキュアURL"** フィールドに、Facebook WCAピクセルを入力します。
 * **区切り**: ,
 
-Base URL example: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
+ベースURLの例: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
 
 ページから呼び出されたピクセルの例。次の例は、ID3401321、2993399、3263410の3つのAudience Managerセグメントの資格を持つユーザーを示しています。
 
@@ -68,7 +68,7 @@ Base URL example: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-M
 | パラメーター | 説明 |
 ---------|----------|
 | `id` | FacebookのピクセルID。オーディエンスピクセルを作成する際に、Facebook広告マネージャーUIで検索できます。 |
-| `ev` | イベント. これは任意の値で、サイトでピクセルが起動し始めると、Facebook広告マネージャーUIに表示されます。See the Include item in [Step 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), for more information. |
+| `ev` | イベント. これは任意の値で、サイトでピクセルが起動し始めると、Facebook広告マネージャーUIに表示されます。詳細については [、「手順3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience)の追加」を参照してください。 |
 | `cd[segID]` | サイトでピクセルが起動し始めると、Facebook広告マネージャーUI内に入力される追加パラメーター。`segID` は任意です。 |
 | `%ALIAS%` | Audience Managerマクロ。これらのマクロは、サイト訪問者が対象とするAudience ManagerセグメントIDに、コンマで区切られて動的に置き換えられます。 |
 
@@ -76,28 +76,28 @@ URLの宛先設定は、以下の画像のようになります。
 
 ![傾向設定](/help/using/integration/assets/facebook-wca.png)
 
-宛先を保存します。Then, you can proceed to the **Segment Mappings** step.
+宛先を保存します。次に **、セグメントマッピング** 手順に進みます。
 
-## Step 2 - Segment Mappings - Map Segment to Destination {#step-2-segment-mappings}
+## ステップ2-セグメントマッピング-セグメントを宛先にマップ {#step-2-segment-mappings}
 
-In the [Configure URL destination](/help/using/features/destinations/manage-destinations.md#configure-url-destination) workflow, map the applicable segment to your newly created destination. マッピング値にAudience ManagerセグメントIDが自動入力されます。
+URL [の設定先](/help/using/features/destinations/create-url-destination.md#) ワークフローで、適切なセグメントを新しく作成した宛先にマッピングします。マッピング値にAudience ManagerセグメントIDが自動入力されます。
 
 該当する場合は終了日を入力してください。終了日がない場合は空白のままにしてください。
 
-## Step 3 - Create an Audience within Facebook Ads Manager {#step-3-create-audience}
+## 手順3- Facebook広告マネージャー内でオーディエンスを作成する {#step-3-create-audience}
 
-See [Create a Website Custom Audience](https://www.facebook.com/business/help/666509013483225) in the Facebook help documentation. 以下の表の「オーディエンスを作成」オプションを選択します。
+Facebookヘルプドキュメントで、"Webサイトのカスタムオーディエンス [](https://www.facebook.com/business/help/666509013483225) の作成」を参照してください。以下の表の「オーディエンスを作成」オプションを選択します。
 
 
 | 項目 | 説明 |
 ---------|----------|
 | Webサイトトラフィック | カスタムの組み合わせ |
-| 以下を含む | <ul><li>**イベント** / **Adobe- Audience- Manager- Segment**&#x200B;を選択します。手順1のpixelパラメーターのevパラメーターの値でした。Note that if the pixel is yet to fire, the **Event** option or **Adobe-Audience-Manager-Segment** may not appear in the Facebook UI.</li><li>Add a parameter: Select `segID`.</li><li><p>**contains** 演算子を選択します。</p><p>これは、訪問者が複数のセグメントに振り分けられることを前提としており、ピクセルパラメーターに複数のセグメントIDがあることを前提としています。等号（=）演算子を使用すると、オーディエンスに対する訪問者の資格がないことがあり、より少ないボリュームになります。</p></li><li>次の値を追加します。Audience ManagerセグメントIDを入力します。</li></ul> |
+| 以下を含む | <ul><li>**イベント** / **Adobe- Audience- Manager- Segment**&#x200B;を選択します。手順1のpixelパラメーターのevパラメーターの値でした。ピクセルがまだ起動していない場合、 **「イベント** 」オプションまたは **Adobe- Audience- Manager-セグメント** がFacebook UIに表示されないことがあります。</li><li>パラメーターの追加:選択 `segID`します。</li><li><p>**contains** 演算子を選択します。</p><p>これは、訪問者が複数のセグメントに振り分けられることを前提としており、ピクセルパラメーターに複数のセグメントIDがあることを前提としています。等号（=）演算子を使用すると、オーディエンスに対する訪問者の資格がないことがあり、より少ないボリュームになります。</p></li><li>次の値を追加します。Audience ManagerセグメントIDを入力します。</li></ul> |
 | 新しい条件を追加 | オプションの設定。 |
 | 「最後」 | オプションの設定。 |
 | オーディエンス名 | このオーディエンスに条件を追加する場合を除き、同じAudience Managerセグメント名を一貫性のために使用することをお勧めします。 |
 
-## Step 4 - Assign the Audience to a Campaign in Facebook Ads Manager {#step-4-assign-audience-to-campaign}
+## 手順4- Facebook広告マネージャーのキャンペーンにオーディエンスを割り当てる {#step-4-assign-audience-to-campaign}
 
 カスタムオーディエンスを作成したら、広告キャンペーンに割り当てます。新しいキャンペーンを作成するか、既存のキャンペーンを編集すると、新しく作成したオーディエンスがFacebook UIに表示されます。Audience Managerがセグメントに含まれている場合、貴社のサイトの訪問時に、そのピクセルを閲覧したユーザを広告キャンペーンにターゲット設定します。
 
