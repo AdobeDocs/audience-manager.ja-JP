@@ -6,14 +6,14 @@ keywords: アクティブ化;アクティベートパートナー，宛先，宛
 solution: Audience Manager
 title: Adobe Audience Managerテクノロジーパートナー
 translation-type: tm+mt
-source-git-commit: ffdf5404235734adb77e93a3d231a65b2444cc1f
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
 # Audience Manager Activation Partner
 
-このページには、現在のAudience Manager [サーバー間統合](/help/using/features/destinations/manage-destinations.md#add-edit-segments) のみが含まれています。統合について詳しくは、Adobe [Exchange](https://www.adobeexchange.com/experiencecloud.html) のリスト（利用可能な場所）を参照するか、アドビコンサルタントまたはカスタマーケアにお問い合わせください。
+このページには、現在のAudience Manager [サーバー間統合](/help/using/features/destinations/add-edit-segments.md) のみが含まれています。統合について詳しくは、Adobe [Exchange](https://www.adobeexchange.com/experiencecloud.html) のリスト（利用可能な場所）を参照するか、アドビコンサルタントまたはカスタマーケアにお問い合わせください。
 
 <br> 
 
