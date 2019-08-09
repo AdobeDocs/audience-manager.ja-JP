@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS からのデータ受信
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -47,12 +47,12 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 | パラメーター | 説明 |
 |--- |--- |
-| `c` | [URL の宛先](../../../features/destinations/manage-destinations.md#configure-url-destination)として設定された URL です。 |
-| `cn` | [Cookie の宛先](../../../features/destinations/manage-destinations.md#create-cookie-destination)の Cookie 名フィールドに設定された名前または ID です。 |
+| `c` | [URL の宛先](../../../features/destinations/create-url-destination.md)として設定された URL です。 |
+| `cn` | [Cookie の宛先](../../../features/destinations/create-cookie-destination.md)の Cookie 名フィールドに設定された名前または ID です。 |
 | `cv` | "cn":"destinaton name" パラメーターで定義された宛先に送信された値です。 |
 | `dcs_region` | [サーバー間DCSの呼び出し](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)。 |
 | `dests` | このオブジェクトには、UI で設定されるすべての URL 宛先の情報が含まれています。このオブジェクトの値（リスト）は、ユーザーのアクションに応じて動的に変わります。 |
-| `dmn` | Cookie の宛先の「Cookie Domain」フィールドに指定されたドメインです。[Cookie の宛先のオプション設定](../../../features/destinations/manage-destinations.md#optional-settings-cookies)を参照してください。サーバー間統合の場合は、`aam-api.com` などのドメインを使用することをお勧めします。 |
+| `dmn` | Cookie の宛先の「Cookie Domain」フィールドに指定されたドメインです。[Cookie の宛先のオプション設定](../../../features/destinations/cookie-destination-options.md)を参照してください。サーバー間統合の場合は、`aam-api.com` などのドメインを使用することをお勧めします。 |
 | `e` | URL の宛先に設定されたセキュア URL です。 |
 | `stuff` | このオブジェクトには、すべての Cookie の宛先の情報が含まれています。このオブジェクトの値（リスト）は、ユーザーのアクションに応じて動的に変わります。 |
 | `tid` | トランザクション ID（デバッグ目的で使用される 12 文字の一意の ID）です。DCS への各 /event 呼び出しでは、応答の改善および高速化に関するサポートへの問い合わせで参照できる tid を受け取ります。 |
