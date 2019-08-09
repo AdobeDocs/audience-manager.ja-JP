@@ -5,7 +5,7 @@ seo-title: Instant Cross-Device Suppression
 title: Instant Cross-Device Suppression
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ---
 
@@ -21,14 +21,14 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 * **ユーザーエクスペリエンスの向上**：製品やサービスを既に購入したユーザーには、購入前と同じクリエイティブは表示されません。代わりに、ユーザーがまだ購入していないことがわかっている製品やサービスのアップ販売メッセージまたはクロス販売メッセージを表示できます。
 * **メディアの効率**:すべてのsにグローバルな頻度キャップを適用して、キャンペーン投資を最適化 [!DNL DSP]します。頻度キャップは、ユーザーに属する複数のデバイスに対してリアルタイムで設定できます。
 
-The technical details of the real-time unsegmentation are described in length in [Profile Merge Rules and Device Un-Segmentation Processes](../../features/profile-merge-rules/merge-rule-unsegment.md). 上記ユースケースの実用的な実装についても説明しています。
+リアルタイムセグメント化の詳細については、プロファイル結合ルールとデバイスの非セグメント化プロセスの [長さで説明](../../features/profile-merge-rules/merge-rule-unsegment.md)しています。上記ユースケースの実用的な実装についても説明しています。
 
 ## コンバージョン後はターゲット設定しない {#do-not-target-once}
 
 コンバージョンに達した（製品を購入した、サブスクリプションを取得したなど）ユーザーには、コンバージョン前と同じメッセージは表示されしません。次のように、[!UICONTROL AND NOT] ロジックを使用してこれを実現できます。
 
 1. 次の図に示すように、2 つの特性を使用するセグメントを作成し、[!UICONTROL AND NOT] ロジックを使用します。ルールベースの特性を使用して、セグメント化解除がリアルタイムに起動されるようにコンバージョンイベントを定義する必要があります。詳しくは、[ルールベースの特性の作成](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)方法を参照してください。
-1. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。詳しくは、[サーバー間宛先](../../features/destinations/manage-destinations.md#add-edit-segments)へのセグメントの追加方法を参照してください。
+1. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。詳しくは、[サーバー間宛先](../../features/destinations/add-edit-segments.md)へのセグメントの追加方法を参照してください。
 
 訪問者は、コンバージョンに達していない限り、セグメントの対象として認定されます。コンバージョン特性の対象として認定されしだい、訪問者はセグメントルールに従わなくなり、セグメントから即座に削除されます。
 
@@ -41,9 +41,9 @@ The technical details of the real-time unsegmentation are described in length in
 1. 次の図に示すように、2 つの特性を使用するセグメントを作成し、[!UICONTROL AND] ロジックを使用します。ルールベースの特性を使用して、セグメント化解除がリアルタイムに起動されるようにインプレッションイベントを定義する必要があります。詳しくは、[ルールベースの特性の作成](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)方法を参照してください。
    >[!NOTE]
    >
-   >You can use [!UICONTROL Actionable Log Files] or [!UICONTROL Pixel Calls] to create traits based on user impressions. 詳しくは、[実行可能なログファイル](../../integration/media-data-integration/actionable-log-files.md)および[ピクセル呼び出し](../../integration/media-data-integration/impression-data-pixels.md)を参照してください。
+   >ユーザーインプレッションに基づいて特性を使用 [!UICONTROL Actionable Log Files][!UICONTROL Pixel Calls] したり、特性を作成したりできます。詳しくは、[実行可能なログファイル](../../integration/media-data-integration/actionable-log-files.md)および[ピクセル呼び出し](../../integration/media-data-integration/impression-data-pixels.md)を参照してください。
 1. 2 番目の特性に頻度コントロールを適用します。必要に応じて、最新性コントロールも追加することができます。詳しくは、[最新性および頻度コントロールの適用方法](../../features/segments/recency-and-frequency.md)を参照してください。
-1. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。詳しくは、[サーバー間宛先](../../features/destinations/manage-destinations.md#add-edit-segments)へのセグメントの追加方法を参照してください。
+1. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。詳しくは、[サーバー間宛先](../../features/destinations/add-edit-segments.md)へのセグメントの追加方法を参照してください。
 
 このシナリオでは、蓄積したユーザーのインプレッションが 3 個を超えたら、ユーザーはこのセグメントから削除され、この特定のクリエイティブはユーザーに表示されなくなります。
 
