@@ -5,7 +5,7 @@ seo-title: 宛先へのデータエクスポートコントロールの追加
 solution: Audience Manager
 title: 宛先へのデータエクスポートコントロールの追加
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 書き出しラベルを宛先に追加するには：
 
 1. **[!UICONTROL Audience Data]**&#x200B;クリックします。
-   * For new destinations: Click **[!UICONTROL Create New Destination]**. データ書き出しラベルを選択する前に、「[!UICONTROL Basic Information]」セクションに入力します。See [Create a Cookie Destination](../../features/destinations/manage-destinations.md#create-cookie-destination) or [Create a URL Destination](../../features/destinations/manage-destinations.md#configure-url-destination) for information.
+   * For new destinations: Click **[!UICONTROL Create New Destination]**. データ書き出しラベルを選択する前に、「[!UICONTROL Basic Information]」セクションに入力します。See [Create a Cookie Destination](../../features/destinations/create-cookie-destination.md) or [Create a URL Destination](../../features/destinations/create-url-destination.md) for information.
    * 既存の宛先の場合：「[!DNL Search]」ボックスを使用して宛先を検索するか、リストをスクロールし、宛先名をクリックして開きます。
 1. [!DNL Data Export Label] を選択します。書き出し制限を設定しない場合は、チェックボックスをオフにします。書き出しラベルには次のようなオプションがあります。
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
