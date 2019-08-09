@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ---
 
@@ -94,7 +94,6 @@ source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
          + [宛先マクロの定義](features/destinations/destination-macros.md)
          + [標準およびシリアル化されたキー値ペア](features/destinations/key-value-pairs.md)
          + [宛先へのデータエクスポートコントロールの追加](/help/using/features/destinations/add-data-export-labels.md)
-      + [宛先の管理](features/destinations/manage-destinations.md)
    + プロファイル結合ルール{#profile-merge-rules}
       + [プロファイル結合ルールの概要](features/profile-merge-rules/merge-rules-overview.md)
       + [プロファイル結合ルールの導入](features/profile-merge-rules/merge-rules-start.md)
