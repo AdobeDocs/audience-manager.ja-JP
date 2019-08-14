@@ -2,11 +2,12 @@
 description: DIL とその動作の概要です。
 seo-description: DIL とその動作の概要です。
 seo-title: データ統合ライブラリ（DIL）について
+keywords: 'dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， dil， didil， dil， dil， dil， '
 solution: Audience Manager
 title: データ統合ライブラリ（DIL）について
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 translation-type: tm+mt
-source-git-commit: 8f2cbf8a31335762f03cad278114d9ab7c520763
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
