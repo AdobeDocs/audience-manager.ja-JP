@@ -2,11 +2,12 @@
 description: Audience Manager とのプログラムによる連携をおこなうための API およびツールキット。
 seo-description: Audience Manager とのプログラムによる連携をおこなうための API およびツールキット。
 seo-title: API および SDK コード
+keywords: 'api， api， api， api， api， api， api， api， api， api '
 solution: Audience Manager
 title: API および SDK コード
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 translation-type: tm+mt
-source-git-commit: 9e407a14f6c466ae826f2b13013a997e762a160e
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
