@@ -8,18 +8,18 @@ title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
 
-# Administration (RBAC Controls) {#administration}
+# 管理（RBACコントロール） {#administration}
 
 ![](assets/rbac-controls.png)
 
 [!UICONTROL Administration] メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先およびモデル）も表示できます。
 
-[!DNL Audience Manager] をご使用のエンタープライズのお客様が必要としているのは、すべてのデータを 1 つのデータ管理プラットフォームで管理しながら、ビジネスユニットに応じて異なるデータ要素を表示できる機能です。You can accomplish this using group permissions, also referred to as [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
+[!DNL Audience Manager] をご使用のエンタープライズのお客様が必要としているのは、すべてのデータを 1 つのデータ管理プラットフォームで管理しながら、ビジネスユニットに応じて異なるデータ要素を表示できる機能です。これを行うには、グループ権限（ [!UICONTROL Role-Based Access Control] （[!UICONTROL RBAC]）とも呼ばれます）を使用します。
 
 [!DNL Audience Manager] は権限の割り当てにグループを使用します。権限はユーザー単位では割り当てられません。グループ権限はオブジェクト（特性やセグメントなど）、また、これらのオブジェクトに対して実行するアクション（編集や表示など）に関連付けられます。これらのコントロールは、Audience Manager REST APIからも利用できます。[User Management](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)、 [Group Management](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)および [Permissions Management](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) APIメソッドを参照してください。
 
@@ -69,7 +69,7 @@ source-git-commit: 5d66c44a9072129de9da69918e9eeda2e18ccb22
 
 ## ワイルドカード権限{#wild-card-permissions}について 
 
-Simplify group rights management with [!UICONTROL Wild Card Permissions].
+グループ権限管理を簡略化 [!UICONTROL Wild Card Permissions]します。
 
 <!-- c_wildcard_permissions.xml -->
 
@@ -84,9 +84,9 @@ Simplify group rights management with [!UICONTROL Wild Card Permissions].
 **特性**
 
 * `MAP_ALL_TRAITS_TO_MODELS` - ユーザーは、モデルのベースラインとして特性を選択できます。
-* `EDIT_ALL_TRAITS` - ユーザは、会社（PID）に属するすべての特性を編集できます。
-* `VIEW_ALL_TRAITS` - ユーザーは、会社（PID）に属するすべての特性を表示できます。
-* `DELETE_ALL_TRAITS` - ユーザは、会社（PID）に属するすべての特性を削除できます。
+* `EDIT_ALL_TRAITS` - ユーザーは、会社アカウント内で設定されているすべての特性を編集できます。
+* `VIEW_ALL_TRAITS` - ユーザーは、会社アカウント内で設定されているすべての特性を表示できます。
+* `DELETE_ALL_TRAITS` - ユーザーは、会社アカウント内で設定されているすべての特性を削除できます。
 * `CREATE_ALL_ALGO_TRAITS` - ユーザーはアルゴリズムの特性を作成できます。
 * `MAP_ALL_TO_SEGMENTS` - ユーザーは、会社に属する特性のいずれかをセグメントに追加できます。
 * `CREATE_ALL_TRAITS` - ユーザーは特性を作成できます。
