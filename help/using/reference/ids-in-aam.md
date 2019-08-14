@@ -1,13 +1,13 @@
 ---
 description: Adobe Audience Manager の ID の詳細なリストについては、このドキュメントを参照してください。
-keywords: DPID;DPUUID;CID;UUID;;uuid;uuid
+keywords: DPID;DPUUID;CID;UUID;uuid;uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid
 seo-description: Adobe Audience Manager の ID の詳細なリストについては、このドキュメントを参照してください。
 seo-title: Audience Manager の ID のインデックス
 solution: Audience Manager
 title: Audience Manager の ID のインデックス
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 translation-type: tm+mt
-source-git-commit: cf0cec2fdf1272f075a825b09cf2fa11a3815432
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
