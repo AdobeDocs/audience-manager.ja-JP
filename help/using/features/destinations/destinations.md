@@ -1,13 +1,13 @@
 ---
 description: Audience Manager で、宛先とは、サードパーティシステム（広告サーバー、DSP、広告ネットワークなど）の宛先になります。Destination Builder とは、Cookie、URL、またはサーバー間通信ベースの送信先の作成および管理をおこなうために使用するツールです。
-keywords: 統合コード，宛先，宛先の概要
+keywords: 統合コード，宛先，宛先の概要，宛先，宛先，宛先，宛先，宛先，宛先，宛先，宛先，宛先，宛先，宛先
 seo-description: Audience Manager で、宛先とは、サードパーティシステム（広告サーバー、DSP、広告ネットワークなど）の宛先になります。Destination Builder とは、Cookie、URL、またはサーバー間通信ベースの送信先の作成および管理をおこなうために使用するツールです。
 seo-title: 宛先
 solution: Audience Manager
 title: 宛先
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
