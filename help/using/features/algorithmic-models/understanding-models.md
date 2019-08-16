@@ -1,6 +1,6 @@
 ---
 description: アルゴリズムモデル（類似モデリング）で使用する特性やセグメントを作成し管理します。モデルの機能には、Audience Data／Models でアクセスできます。
-keywords: 相対的な重み付け
+keywords: 相対的な太さ、外観
 seo-description: アルゴリズムモデル（類似モデリング）で使用する特性やセグメントを作成し管理します。モデルの機能には、Audience Data／Models でアクセスできます。
 seo-title: アルゴリズムモデルについて
 solution: Audience Manager
@@ -8,20 +8,20 @@ title: アルゴリズムモデルについて
 topic: DIL API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: 157e70906b80bd0a23ba6e7721d2c456d378ffb5
+source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
 
 ---
 
 
 # アルゴリズムモデルについて {#about-algorithmic-models}
 
-アルゴリズムモデル（類似モデリング）で使用する特性やセグメントを作成し管理します。Model features are located in **[!UICONTROL Audience Data > Models]**.
+アルゴリズムモデル（類似モデリング）で使用する特性やセグメントを作成し管理します。モデル機能はにあり **[!UICONTROL Audience Data > Models]**&#x200B;ます。
 
 <!-- c_models.xml -->
 
 ## アルゴリズムモデルについて {#understanding-models}
 
-The sections below represent a review of algorithmic modeling in [!DNL Audience Manager]. モデリングの仕組み、メリット、ワークフローなどについて説明します。
+以下の節は、でのアルゴリズムによるモデリングのレビューを表し [!DNL Audience Manager]ています。モデリングの仕組み、メリット、ワークフローなどについて説明します。
 
 <!-- understanding-models.xml -->
 
@@ -40,12 +40,12 @@ The sections below represent a review of algorithmic modeling in [!DNL Audience 
 
 ## ワークフロー {#workflow}
 
-You manage models in **[!UICONTROL Audience Data > Models]**. 全体的なワークフローとして、以下の処理をおこないます。
+モデルを管理 **[!UICONTROL Audience Data > Models]**&#x200B;します。全体的なワークフローとして、以下の処理をおこないます。
 
 * アルゴリズムにより評価するベースラインデータを選択する。これには特性またはセグメント、時間範囲、データソース（自分のデータや、[!DNL Audience Manager] からアクセス可能なサードパーティデータ）が含まれます。モデルの作成ワークフローでは、モデルの邪魔になる特性を除外できます。
 * モデルを保存する。保存したアルゴリズム評価プロセスは、自動的に実行されます。この処理が完了するまで最大 7 日かかります。アルゴリズムが完了し、結果を使用して特性を作成できるようになると、[!DNL Audience Manager] から電子メールが送信されます。
-* Build algorithmic traits in [!UICONTROL Trait Builder].
-* Combine traits into segments in [!UICONTROL Segment Builder].
+* でアルゴリズムの特性を作成 [!UICONTROL Trait Builder]します。
+* 特性をセグメントに組み合わせ [!UICONTROL Segment Builder]ます。
 * セグメントデータを作成し、宛先に送信する。
 
 ## トラブルシューティング {#troubleshooting}
