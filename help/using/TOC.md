@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
+source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
 
 ---
 
@@ -83,7 +83,9 @@ source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
          + [Analytics の宛先の設定](/help/using/features/destinations/create-analytics-destination.md)
       + 人ベースの宛先 {#pbd}
       + デバイスベースの宛先（サーバーからサーバー） {#device-based}
+         + [新しいデバイスベースの宛先の追加](/help/using/features/destinations/add-device-based-destinations.md)
          + [サーバー間宛先のセグメントの追加または編集](/help/using/features/destinations/add-edit-segments.md)
+         + [Twitterにカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する](/help/using/features/destinations/twitter-tailored-audiences.md)
       + カスタム宛先 {#custom-destinations}
          + [URL の宛先の設定](/help/using/features/destinations/create-url-destination.md)
          + [Cookie の宛先の設定](/help/using/features/destinations/create-cookie-destination.md)
