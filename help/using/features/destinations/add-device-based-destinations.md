@@ -5,7 +5,7 @@ seo-title: 新しいデバイスベースの宛先の追加
 solution: Audience Manager
 title: 新しいデバイスベースの宛先の追加
 translation-type: tm+mt
-source-git-commit: b492065756d45ee6dfb185cc387409dea72a9923
+source-git-commit: d185a1d418e99abb99c36b28dfb419a1fb3b60f5
 
 ---
 
@@ -41,13 +41,13 @@ source-git-commit: b492065756d45ee6dfb185cc387409dea72a9923
 
 1. Audience Managerアカウントにログインし、アクセスして **[!DNL Audience Data > Destinations]**&#x200B;クリック **[!DNL Create Destination]**&#x200B;します。
 2. **[!DNL Basic Information]** セクションで **[!DNL Name]** 、および **[!DNL Description]** 新しい宛先を入力し、以下のリストの設定を使用します。 ![セットアップ](assets/dbd-new-basic.png)
+   * **[!DNL Category]**: [!DNL Integrated Platforms];
+   * **[!DNL Type]**: [!DNL Device-Based];
+   * **[!DNL Platform]**:オーディエンスセグメントを送信する宛先プラットフォームを選択します。
+   * **[!DNL Account]**:選択したプラットフォームに関連付けられている広告主アカウントを選択します。
 3. **[!DNL Next]**&#x200B;をクリックします。
 4. この宛先に設定する [データのエクスポートラベル](/help/using/features/data-export-controls.md#controls-labels) を選択します。
 5. **[!DNL Save]**&#x200B;をクリックします。
 6. **[!DNL Segment Mappings]** セクションで、この宛先に送信するオーディエンスセグメントを選択します。
 7. 宛先を保存します。
 
-* **[!DNL Category]**: [!DNL Integrated Platforms];
-* **[!DNL Type]**: [!DNL Device-Based];
-* **[!DNL Platform]**:オーディエンスセグメントを送信する宛先プラットフォームを選択します。
-* **[!DNL Account]**:選択したプラットフォームに関連付けられている広告主アカウントを選択します。
