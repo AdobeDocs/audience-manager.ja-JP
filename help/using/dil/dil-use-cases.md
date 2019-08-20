@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL のユースケースとコードサンプル
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8763bff3960e2033951cf68e65f5ad44377b2917
 
 ---
 
@@ -60,8 +60,8 @@ price:"900"};
 
 var sample_ dil= DIL. create（{パートナー:「<i>パートナー名</i>」}）;
 //Loadthe object and append"c_" to the key- valueペアのすべてのキーに"c_"を追加し、AudienceManagerにデータを送信します。 
-sample_dil.api.signals(my_object,"c_").submit();
-</code></pre>
+sample_ dil. api. signatures（my_ object，"c_"）. submit（）;</code>
+</pre>
 
 **例 3：配列でのデータの送信**
 
@@ -76,11 +76,11 @@ type:"acura"，
 var sample_ dil= DIL. create（{パートナー:「<i>パートナー名</i>」}）;
 
 for（var i=0;i&lt; my_ objects. length;i++）オブジェクトを//Loadに追加し、キーと値のペアのすべてのキーに"c_"を追加します。 
-{ 
-    sample_dil.api.signals(my_objects[i], "c_"); 
+{
+sample_ dil. api. signatures（my_ objects[i]，"c_"）;
 } 
-sample_dil.api.submit();
-</code></pre>
+sample_ dil. api. submit（）;</code>
+</pre>
 
 >[!MORE_LIKE_THIS]
 >
@@ -113,11 +113,9 @@ adobe_ dil. api. signatures（{d_ referer:document. referrer}）. submit（）;<
 
 検索エンジンのタイプおよびキーワード検索に関する情報を Audience Manager に送信します。
 
-<!-- 
-
-c_dil_search_engine_valid.xml
-
- -->
+>[!IMPORTANT]
+>
+>ここでは、最新バージョンのDILでサポートされていない従来の機能について説明します。
 
 **サポートされている検索エンジン**
 
@@ -162,17 +160,16 @@ c_ st:se. keywords
 
 <pre class="java"><code>var adobe_ dil= DIL. create（{パートナー:「<i>パートナー名</i>」}）;
 var search_ referrer= DIL. tools. getSearchReferrer（document. referrer，{
-hostPattern:/dogpile\./, 
-    queryParam:"q" 
-}); 
- 
-if (search_referrer &amp;&amp; search_referrer.valid) { 
-  adobe_dil.api.signals({ 
-    c_se : se.name, 
-    c_st : se.keywords 
-  }).submit(); 
-}
-</code></pre>
+hostPattern:/dogpile\./，
+queryParam:"q"}）;
+
+if（search_ referrer&amp;&amp; search_ referrer. valid）{
+adobe_ dil. api. signatures（{
+c_ se:se. name，
+c_ st:se. keywords
+}）. submit（）;
+}</code>
+</pre>
 
 ## キー値の他のキーへのマッピング {#map-key-values}
 
