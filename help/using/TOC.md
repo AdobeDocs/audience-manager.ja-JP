@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
+source-git-commit: 97e8e4282fdb729a367cdfbfce0a9af10651edfd
 
 ---
 
@@ -78,20 +78,29 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [派生シグナル](features/derived-signals.md)
    + 宛先{#destinations}
       + [宛先の概要](features/destinations/destinations.md)
-      + [宛先ホームページ](/help/using/features/destinations/destinations-home.md)
+      + [宛先ホームページ](features/destinations/destinations-home.md)
       + Adobe Experience Cloudの宛先{#experience-cloud-destinations}
-         + [Analytics の宛先の設定](/help/using/features/destinations/create-analytics-destination.md)
-      + 人ベースの宛先 {#pbd}
+         + [Analytics の宛先の設定](features/destinations/create-analytics-destination.md)
+      + 人ベースの宛先 {#people-based-destinations}
+         + [概要と使用例](features/destinations/people-based-destinations-overview.md)
+         + [前提条件と考慮事項](features/destinations/people-based-destinations-prerequisites.md)
+         +  導入ガイド{#pbd-implementation}
+            + [導入の概要](features/destinations/people-based-destinations-workflow.md)
+            + [ワークフローA-オフラインデータと組み合わされたすべてのオンラインアクティビティに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-combined.md)
+            + [ワークフローB-オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
+            + [ワークフローC-オフラインデータと組み合わされた認証済みアクティビティに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-authenticated.md)
+         + [人ベースのプラットフォームとの認証](features/destinations/people-based-destinations-authentication.md)
+         + [共有可能なオーディエンス](/help/using/features/destinations/people-based-destinations-reporting.md)
       + デバイスベースの宛先（サーバーからサーバー） {#device-based}
-         + [新しいデバイスベースの宛先の追加](/help/using/features/destinations/add-device-based-destinations.md)
-         + [サーバー間宛先のセグメントの追加または編集](/help/using/features/destinations/add-edit-segments.md)
-         + [Twitterにカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する](/help/using/features/destinations/twitter-tailored-audiences.md)
+         + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
+         + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
+         + [Twitterにカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
       + カスタム宛先 {#custom-destinations}
-         + [URL の宛先の設定](/help/using/features/destinations/create-url-destination.md)
-         + [Cookie の宛先の設定](/help/using/features/destinations/create-cookie-destination.md)
-         + [Cookie の宛先のオプション設定](/help/using/features/destinations/cookie-destination-options.md)
+         + [URL の宛先の設定](features/destinations/create-url-destination.md)
+         + [Cookie の宛先の設定](features/destinations/create-cookie-destination.md)
+         + [Cookie の宛先のオプション設定](features/destinations/cookie-destination-options.md)
       + 宛先リファレンス {#destinations-reference}
-         + [Destination Builder](/help/using/features/destinations/destination-builder.md)
+         + [Destination Builder](features/destinations/destination-builder.md)
          + [get_aamCookie コード](features/destinations/get-aam-cookie-code.md)
          + [宛先マクロの定義](features/destinations/destination-macros.md)
          + [標準およびシリアル化されたキー値ペア](features/destinations/key-value-pairs.md)
@@ -362,6 +371,7 @@ source-git-commit: 96717384ebb82056f330312b0f99fb97086a2e05
    + [データ収集と製品統合の FAQ](faq/faq-data-collection.md)
    + [受信顧客データ取り込みの FAQ](faq/faq-inbound-data-ingestion.md)
    + [プライバシーとデータ保持の FAQ](faq/faq-privacy.md)
+   + [人物ベースの宛先FAQ](faq/faq-people-based-destinations.md)
    + [製品の特長と機能の FAQ](faq/faq-features.md)
    + [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq/faq-profile-merge.md)
    + [ターゲティングに関するよくある質問](faq/faq-targeting.md)
