@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5bd7acbdaa90d33eb5f806dbe072acfb013d8f0b
+source-git-commit: a51d569c04d1232d0fe9258199bd4ca0e5fcd987
 
 ---
 
@@ -277,7 +277,6 @@ source-git-commit: 5bd7acbdaa90d33eb5f806dbe072acfb013d8f0b
       + [GPT setTargeting API 呼び出しの変更](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Google サイト運営者タグ用の Audience Manager コード](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + サードパーティの宛先との統合 {#integrating-third-party}
-      + [Audience Managerテクノロジーパートナー](/help/using/integration/integrating-third-party/audience-manager-technology-partners.md)
       + [Facebook WCAの統合](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [Audience Manager の宛先としての OAS](integration/integrating-third-party/open-ad-server-destination.md)
       + [Audience Manager の宛先としての OpenX](integration/integrating-third-party/openx-destination.md)
