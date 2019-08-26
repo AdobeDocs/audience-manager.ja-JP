@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: aa58d1aa69a7d5e112d6b24fa8250bf56ccb370a
 
 ---
 
@@ -20,11 +20,10 @@ Audience Manager は、オンラインでのオーディエンスデータ管理
   <tr> 
    <td colname="col1"> <p> <b>新しいトピックおよび注目すべきトピック</b> </p> <p>Audience Managerの最新機能については、以下を参照してください。</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/destinations/people-based-destinations-overview.md">人ベースの宛先</a> </li>
+     <li><a href="features/destinations/twitter-tailored-audiences.md">Twitterにカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する</a> </li>
      <li><a href="features/destinations/destinations-home.md">宛先ホームページ</a> </li>
      <li><a href="features/administration/ip-obfuscation.md">IPアドレスの難読化</a> </li>
-     <li><a href="overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用 Audience Manager プラグイン</a> </li>
-     <li><a href="features/administration/usage-limits.md#id-mapping-limits">ID マッピングの上限</a> </li>
-     <li><a href="features/global-data-sources.md">グローバルデータソース</a> </li> 
      </ul> </p> <p><a href="docs-updates/docs-2019.md">ドキュメントの更新（2019 年）</a>も参照してください。 </p> 
      <p>Audience Managerを初めて使用する場合は、アドビの用語集 <a href="reference/aam-glossary.md"></a> とID <a href= "reference/ids-in-aam.md">のインデックスを参照してください。</a></p></td>
    <td colname="col2"> <p> <b>リリースノート</b> </p> <p> 
@@ -38,7 +37,7 @@ Audience Manager は、オンラインでのオーディエンスデータ管理
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> アドビトレーニングおよびチュートリアル</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://marketing.adobe.com/resources/help/en_US/home/index.html" scope="external" format="https"> 製品ドキュメントのホーム</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager のラーニングとサポート</a> </li> 
-     </ul> </p> </td> 
+     </ul> </p> </td>
   </tr> 
  </tbody> 
 </table>
