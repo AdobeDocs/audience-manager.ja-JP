@@ -5,7 +5,7 @@ seo-title: ユーザー管理 API メソッド
 solution: Audience Manager
 title: ユーザー管理 API メソッド
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # ユーザー管理 API メソッド {#user-management-api-methods}
 
-Rest [!DNL API] methods to manage users, including creating, updating, listing, deleting, and returning user objects.
+ユーザーを管理する（ユーザーオブジェクトの作成、更新、リスト、削除および返却を含む）ための Rest [!DNL API] メソッド。
 
 <!-- c_rest_api_user_man_user.xml -->
 
@@ -176,7 +176,7 @@ Rest [!DNL API] methods to manage users, including creating, updating, listing, 
 
 ## ログインしているユーザーのパスワードのリセット {#reset-logged-in-user-pw}
 
-現在ログインしているユーザーをリセットするための `PUT` メソッド。[!UICONTROL Audience Management] ユーザーによってシステム生成パスワードが送信されます。
+現在ログインしているユーザーをリセットするための `PUT` メソッド。[!UICONTROL Audience Management] では、システムで生成したパスワードをユーザーに送信します。
 
 <!-- r_rest_api_user_password_reset.xml -->
 
