@@ -5,7 +5,7 @@ seo-title: メタデータファイルの命名規則
 solution: Audience Manager
 title: メタデータファイルの命名規則
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -35,13 +35,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 メタデータファイル名において、子 ID は、ファイル内のデータのタイプを分類しデータを階層に配置する識別子になります。ファイル名の子 ID には、次のカテゴリ ID でタグ付けできます。
 
 1. Campaign
-1. クリエイティブ
-1. プレースメント
-1. エクスチェンジ
-1. サイト
-1. Advertiser (if using integration codes in a [data source](../../../features/manage-datasources.md#details))
+1. Creative
+1. Placement
+1. Exchange
+1. Site
+1. 広告主（[データソース](../../../features/manage-datasources.md#details)で統合コードを使用する場合）
 1. 広告掲載申込（IO）
-1. 垂直方向（例えば、「コンピュータ」、「自動車」、「携帯電話会社」などの特定の業種またはビジネスカテゴリ）
+1. バーティカル（「コンピューター」、「自動車」、「不動産」などの業界カテゴリや事業カテゴリ）
 1. 戦術
 1. ビジネスユニットまたはブランド
 
