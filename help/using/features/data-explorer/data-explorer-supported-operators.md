@@ -4,7 +4,7 @@ seo-description: 論理演算子を使用して、キー値ペアのグループ
 seo-title: サポートされる論理演算子
 title: サポートされる論理演算子
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ### 名前付き演算子
 
-| 演算子 | Evaluates to [!DNL True] When |
+| 演算子 | [!DNL True] の評価の条件 |
 |---|---|
 | **[!UICONTROL Contains]** | キー値ペアの値が、この演算子で指定された文字を&#x200B;*含む*。 |
 | **[!UICONTROL Startswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で始まる*。 |
@@ -38,4 +38,4 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ## 特性のバックフィルおよび推定でサポートされる演算子 {#supported-operators-backfilling}
 
-You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.
+[!UICONTROL Signal Search]でサポートされている演算子を使用した式を含む特性をバックフィルできます。特性のバックフィルおよび推定では、これらの演算子に加えて [!UICONTROL OR]、[!UICONTROL AND]、および [!UICONTROL AND NOT] 論理演算子もサポートされており、バックフィル対象の特性の式でキー値ペアと組み合わせることができます。
