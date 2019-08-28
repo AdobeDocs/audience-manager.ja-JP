@@ -5,27 +5,27 @@ seo-title: プロファイル結合ルールとデバイスのセグメント化
 solution: Audience Manager
 title: プロファイル結合ルールとデバイスのセグメント化解除プロセス
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# プロファイル結合ルールとデバイスセグメント化解除プロセス {#profile-merge-rules-and-device-un-segmentation-processes}
+# プロファイル結合ルールとデバイスのセグメント化解除プロセス {#profile-merge-rules-and-device-un-segmentation-processes}
 
-セグメント化解除とは、デバイスプロファイルを不適格としてセグメントから削除するプロセスのことです。Your ability to remove a device profile from a segment depends on the device option used to create a [!UICONTROL Profile Merge Rule].
+セグメント化解除とは、デバイスプロファイルを不適格としてセグメントから削除するプロセスのことです。デバイスプロファイルをセグメントから削除できるかどうかは、[!UICONTROL Profile Merge Rule]の作成時に使用したデバイスオプションによって異なります。
 
 ## 使用可能なデバイスオプション {#device-options}
 
-As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL Profile Merge Rules Setup] section when you create or edit a [!UICONTROL Profile Merge Rule].
+[!UICONTROL Device Options] は、[!UICONTROL Profile Merge Rule] を作成または編集するときに、[!UICONTROL Profile Merge Rules Setup] で利用できます。
 
 ![](assets/merge-rules-options.png)
 
 ## 「Current Device Profile」オプションとデバイスのセグメント化解除{#current-device-profile-options}
 
-**[!UICONTROL Current Device Profile]** は、a [!UICONTROL Profile Merge Rule]のデフォルトのデバイスプロファイルオプションです。[!DNL Audience Manager] オプション [!UICONTROL Profile Merge Rule] を使用すると、セグメントからデバイスプロファイルを削除 **[!UICONTROL Current Device Profile]** できます。この条件では、次の場合にセグメント化解除が発生します。
+**[!UICONTROL Current Device Profile]**&#x200B;は、[!UICONTROL Profile Merge Rule]のデフォルトのデバイスプロファイルオプションです。[!DNL Audience Manager] は、[!UICONTROL Profile Merge Rule] が **[!UICONTROL Current Device Profile]** オプションを使用する際にデバイスプロファイルをセグメントから削除できます。この条件では、次の場合にセグメント化解除が発生します。
 
-* デバイスプロファイルは120日間非アクティブになりました。週ごとのデータクリーンアップ処理により、非アクティブなデバイスプロファイルがセグメントから削除されます。
+* デバイスプロファイルが 120 日間非アクティブである場合。週ごとのデータクリーンアップ処理により、非アクティブなデバイスプロファイルがセグメントから削除されます。
 * デバイスプロファイルに対する更新または変更が原因でデバイスが不承認とされるので、このデバイスがセグメントに認定されることはありません。これは、セグメント認定条件が変更された場合、[!DNL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../../features/segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) のドキュメントを参照してください。
 
 ![](assets/single_device_use_case.png)
@@ -44,17 +44,17 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
 ## 「No Device Profile」オプションとデバイスのセグメント化解除{#no-device-option}
 
-[!DNL Audience Manager][!UICONTROL Profile Merge Rule]**[!UICONTROL No Device Profile]** "+ **[!UICONTROL Current Authenticated]** 」オプションを使用すると、セグメントからデバイス間のIDを削除できます。これらの条件の下で、クロスデバイスプロファイルの更新や変更によってクロスデバイス ID がセグメントの対象として認定されなくなったときに、セグメント化解除がおこなわれます。これは、セグメント認定条件が変更された場合、[!UICONTROL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../../features/segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) のドキュメントを参照してください。
+[!DNL Audience Manager] は、[!UICONTROL Profile Merge Rule] が **[!UICONTROL No Device Profile]** + **[!UICONTROL Current Authenticated]** オプションを使用すると、セグメントからクロスデバイス ID を削除できます。これらの条件の下で、クロスデバイスプロファイルの更新や変更によってクロスデバイス ID がセグメントの対象として認定されなくなったときに、セグメント化解除がおこなわれます。これは、セグメント認定条件が変更された場合、[!UICONTROL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../../features/segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) のドキュメントを参照してください。
 
 ![](assets/no_device_use_case.png)
 
 ## デバイスグラフオプションとデバイスのセグメント化解除 {#device-graph-options-unsegmentation}
 
-[!DNL Audience Manager] デバイスグラフオプション [!UICONTROL Profile Merge Rule] を使用する場合、セグメントから複数のデバイスプロファイルを削除できます。デバイスグラフ内のデバイスの結合済みプロファイルが更新や変更によってセグメントの対象として認定されなくなったら、セグメント化解除がおこなわれます。これは、セグメント認定条件が変更された場合、[!UICONTROL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../../features/segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) のドキュメントを参照してください。
+[!DNL Audience Manager] では、[!UICONTROL Profile Merge Rule]でデバイスグラフオプションが使用されている場合に、複数のデバイスプロファイルをセグメントから削除できます。デバイスグラフ内のデバイスの結合済みプロファイルが更新や変更によってセグメントの対象として認定されなくなったら、セグメント化解除がおこなわれます。これは、セグメント認定条件が変更された場合、[!UICONTROL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../../features/segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) のドキュメントを参照してください。
 
 >[!NOTE]
 >
->**セグメントの評価と非選定**[!DNL Audience Manager] の4デバイスの制限は、デバイスグラフを使用するセグメントを評価する際に、4つのデバイス [!UICONTROL Profile Merge Rule] に結合されます。[!DNL Audience Manager] では、*現在のデバイスと、最後にリアルタイムで認識された 3 つの追加デバイス*&#x200B;を評価します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された 3 つの追加デバイスが宛先のセグメントから削除されます。例えば、6 つのデバイスから成るクラスターでは、最大 4 つのデバイスが結合され、評価されて、セグメントの対象として認定されます。同様に、最大 4 つのデバイスが結合され、評価されて、セグメント化解除されます。
+>**セグメント評価と認定解除に関する 4 デバイスまでの制限**&#x200B;により、[!DNL Audience Manager] は、デバイスグラフを使用する[!UICONTROL Profile Merge Rule]でセグメントを評価する場合、最大 4 台のデバイスを結合します。[!DNL Audience Manager] では、*現在のデバイスと、最後にリアルタイムで認識された 3 台の追加デバイス*&#x200B;を評価します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された 3 台の追加デバイスが宛先のセグメントから削除されます。例えば、6 台のデバイスから成るクラスターでは、最大 4 台のデバイスが結合され、評価されて、セグメントの対象として認定されます。同様に、最大 4 台のデバイスが結合され、評価されて、セグメント化解除されます。
 
 ![](assets/cross_device_workflow.png)
 
