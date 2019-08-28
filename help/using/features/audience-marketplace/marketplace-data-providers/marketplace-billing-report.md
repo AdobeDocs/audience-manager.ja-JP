@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データフィードプロバイダーに対する請求
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -14,14 +14,14 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # データフィードプロバイダーに対する請求 {#billing-for-data-feed-providers}
 
-[!DNL Audience Marketplace] 請求レポートを生成すると、サブスクリプション購入者ごとに前月のデータフィードの使用状況を確認できます。いつでも前月のレポートを作成できます。ただし、当月の 10 日以降にレポートを生成したほうがレポートが正確になります。
+[!DNL Audience Marketplace] 請求レポートを生成すると、サブスクリプション購入者ごとに前月のデータフィードの使用状況を確認できます。前月のレポートはいつでも作成できます。ただし、当月の 10 日以降にレポートを生成したほうがレポートが正確になります。
 
-## 請求レポートのダウンロード {#download-billing-report}
+## 請求レポートのダウンロード{#download-billing-report}
 
 レポートをダウンロードするには、次の手順を実行します。
 
-1. Go to **[!UICONTROL Audience Marketplace > Receivables]**.
-1. **[!UICONTROL Generate Billing Report]**&#x200B;をクリックします。
+1. **[!UICONTROL Audience Marketplace > Receivables]** へ移動します。
+1. 「**[!UICONTROL Generate Billing Report]**」をクリックします。
 
 ## 定義されているレポートのフィールド {#report-fields-defined}
 
@@ -45,11 +45,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Buyer PID</span></b> </p> </td> 
-   <td colname="col2"> <p>バイヤー（購読者）ID。 </p> </td> 
+   <td colname="col2"> <p>購入者（購読者）ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Buyer Name</span></b> </p> </td> 
-   <td colname="col2"> <p>バイヤーの会社名または組織名。 </p> </td> 
+   <td colname="col2"> <p>購入者の会社名または組織名。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Feed ID</span></b> </p> </td> 
@@ -61,23 +61,23 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Plan Use Cases</span></b> </p> </td> 
-   <td colname="col2"> <p>セラーは、バイヤーがどのようにデータを使用できるかをユースケースにより制御できます。オプションは以下のとおりです。 </p> 
+   <td colname="col2"> <p>販売者は、購入者がどのようにデータを使用できるかをユースケースにより制御できます。オプションは以下のとおりです。 </p> 
     <ul id="ul_8230A93B5DCE4C10B025D3C761F72CEF"> 
-     <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segments and overlap </li> 
-     <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">Modeling </li> 
-     <li id="li_B84935B93ADE4D299732CE7E099DF7B3">Activation </li> 
-    </ul> <p>See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Plan Types for Data Feeds</a>. </p> </td> 
+     <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">セグメントと重複 </li> 
+     <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">モデリング </li> 
+     <li id="li_B84935B93ADE4D299732CE7E099DF7B3">アクティベーション </li> 
+    </ul> <p><a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types">データフィードのプランタイプ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Unit of Measure</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">単位</span></b> </p> </td> 
    <td colname="col2"> <p>CPM 請求か定額請求かを表します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> List Price</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">定価</span></b> </p> </td> 
    <td colname="col2"> <p>各データフィードの購読料金。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Discounted Price</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">割引価格</span></b> </p> </td> 
    <td colname="col2"> <p>割引データフィードの購読料金。詳しくは、<a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> データプロバイダーにとっての割引</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -89,27 +89,27 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Total Cost</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager</span> がバイヤーに請求する金額。 </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">コスト総額</span></b> </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> が購入者に請求する金額。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Billing Period</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">請求期間</span></b> </p> </td> 
    <td colname="col2"> <p> このレポートでは、前月の末日です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Entry Date</span></b> </p> </td> 
-   <td colname="col2"> <p>バイヤーが購読／使用状況情報を入力した日付。 </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">入力日</span></b> </p> </td> 
+   <td colname="col2"> <p>購入者がサブスクリプション／使用状況情報を入力した日付。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Subscription Start Date</span></b> </p> </td> 
-   <td colname="col2"> <p>バイヤーがデータフィードの購読を開始した日付。 </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">サブスクリプション開始日</span></b> </p> </td> 
+   <td colname="col2"> <p>購入者がデータフィードのサブスクリプションを開始した日付。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Subscription End Date</span></b> </p> </td> 
-   <td colname="col2"> <p>バイヤーがデータフィードの購読を終了した日付。 </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">サブスクリプション終了日</span></b> </p> </td> 
+   <td colname="col2"> <p>購入者がデータフィードのサブスクリプションを終了した日付。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Flag</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">フラグ</span></b> </p> </td> 
    <td colname="col2"> <p> <i>CPM フィードの場合のみ</i>。「Flag」のオプションは次のとおりです。 </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
      <li id="li_AB35E33B68EC49A187495DF6B9D86563">0：購読者が <span class="keyword">Audience Manager</span> に使用状況情報を報告したことを表します。 </li> 
@@ -123,5 +123,5 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >
 >* [CPM データフィードの請求とインプレッション割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [定額データフィードに関する請求およびインプレッションの割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [CPM 使用状況のレポート方法](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [CPM の使用状況の報告方法](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 
