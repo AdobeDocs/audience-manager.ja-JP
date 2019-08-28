@@ -1,11 +1,11 @@
 ---
-description: アドビでは、オプトアウト管理に関して業界全体のあらゆる標準に従っています。Audience Manager でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
+description: アドビは、オプトアウト管理に関する業界全体のすべての標準に準拠しています。Audience Manager でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
 seo-description: アドビは、オプトアウト管理に関する業界全体のすべての標準に準拠しています。Audience Manager でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
 seo-title: オプトアウト管理
 solution: Audience Manager
 title: オプトアウト管理
 uuid: 61b43e0e-bfe3-497e-ade2-6a942a98407e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 
 # オプトアウト管理{#opt-out-management}
 
-アドビでは、オプトアウト管理に関して業界全体のあらゆる標準に従っています。Audience Manager でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
+アドビは、オプトアウト管理に関する業界全体のすべての標準に準拠しています。Audience Manager でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
 
 ## グローバルオプトアウト {#global-opt-out}
 
@@ -29,18 +29,18 @@ source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p><a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audience Manager に対する直接 API 呼び出し </p> </td> 
-   <td colname="col2"> <p>すべての Audience Manager ブランドによるデータ収集からオプトアウトするには、以下のように DCS API を呼び出し、<a href="../../reference/ids-in-aam.md">Audience Manager ユーザー ID</a> を指定します。 </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
+   <td colname="col2"> <p>すべての Audience Manager ブランドによるデータ収集からオプトアウトするには、以下のように DCS API を呼び出し、<a href="../../reference/ids-in-aam.md">Audience Manager ユーザー ID</a> を指定します。 </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" --cookie "demdex=12345678901234567890123456789012345678;dextp=12;DST=12" </code> </p> <p>その結果、送信された Audience Manager ユーザー ID に対して <code>demdex=NOTARGET</code> および <code>dextp=NOTARGET Cookie</code> が設定されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルデバイス </p> </td> 
    <td colname="col2"> <p>以下のデバイスに対するオプトアウト設定とプライバシー設定を確認します。 </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mobile/android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -48,21 +48,21 @@ source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 
 エンドユーザーは、アドビの業界標準パートナーの Web サイトを訪問してグローバルデータ収集からオプトアウトすることもできます。
 
-* [Digital Advertising Alliance（DAA）](https://optout.aboutads.info/?c=2#!/)
-* [Network Advertising Initiative（NAI）](https://optout.networkadvertising.org/?c=1#!/)
+* [Digital Advertising Alliance（DAA）](https://optout.aboutads.info/?c=2#!/);
+* [Network Advertising Initiative（NAI）](https://optout.networkadvertising.org/?c=1#!/).
 
 上記のオプトアウトリクエストをおこなうと、次の処理がおこなわれます。
 
 * Audience Manager は進行中のすべてのデータ収集、セグメント化、アクティブ化を停止します。
 * 120 日後にユーザープロファイルから履歴データが削除されます。
 
-## パートナーレベルのオプトアウト {#partner-opt-out}
+## パートナーレベルのオプトアウト{#partner-opt-out}
 
-パートナーレベルのオプトアウトでは、特定の Audience Manager パートナーによるデータ収集からオプトアウトすることができます。パートナーレベルのオプトアウトでは、後述のとおり[宣言済みID](../../features/declared-ids.md) 呼び出しおよびデバイスID呼び出し（下記の節で説明）。
+パートナーレベルのオプトアウトでは、特定の Audience Manager パートナーによるデータ収集からオプトアウトすることができます。パートナーレベルのオプトアウトでは、後述のとおり[宣言済みID](../../features/declared-ids.md) 呼び出しおよびデバイス ID 呼び出し（下記の節で説明）。
 
-### 宣言されたID呼び出しを使用したパートナーレベルのオプトアウト
+### 宣言された ID 呼び出しを使用するパートナーレベルのオプトアウト
 
-ID呼び出しを宣言したパートナーレベルのオプトアウトの後:
+宣言された ID 呼び出しを使用するパートナーレベルのオプトアウトの後：
 
 * [CRM ID](../../reference/ids-in-aam.md) にリンクされている最後のデバイス ID（[Audience Manager の一意のユーザー ID](../../reference/ids-in-aam.md)）は、データ収集からオプトアウトされます。
 * Audience Manager は、CRM ID にリンクされている最後のデバイス ID について、進行中のすべてのデータ収集、セグメント化、アクティブ化を停止します。
@@ -72,7 +72,7 @@ ID呼び出しを宣言したパートナーレベルのオプトアウトの後
 
 **オプトアウト呼び出し**
 
-When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
+Audience Manager がパートナーレベルのオプトアウトリクエストを受信すると、DCS により返される JSON には[エラーコード 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes) が含まれます。ここには、Audience Manager ユーザー ID ではなく、[!UICONTROL "Encountered opt out tag"] というメッセージが表示されます。
 
 <!-- 
 
@@ -106,19 +106,19 @@ When Audience Manager receives a partner-level opt-out request, the JSON returne
 | 統合コードおよびユーザー ID | `https://domain name/demoptout?d_cid_ic=456%01321...` |
 | 複数の d_cid および d_cid_ic キー値ペア | `https://domain name/demoptout?d_cid=123%01987&d_cid_ic=456%01321...` |
 
-### デバイスIDのコールアウトによるパートナーレベルのオプトアウト
+### デバイス ID 呼び出しを使用するパートナーレベルのオプトアウト
 
-[DCS APIに対して次の呼び出しを行うことにより、特定のデバイスIDで特定のデバイスIDのデータ収集をオプトアウト](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)できます。
+[DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) に対して次の呼び出しを行うことにより、ブランドの指定デバイス ID でのデータ収集からオプトアウトできます。
 
 | オプトアウト方法 | コードサンプル |
 |--- |--- |
-| An Audience Manager Unique User ID (`uuid`). | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
-| An Experience Cloud ID (`mid`) | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
+| Audience Manager の一意のユーザー ID（`uuid`） | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
+| Experience Cloud ID（`mid`） | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
 
-Read more about `uuid`, `mid` and `imsOrgId` in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
+詳しくは、[Audience Manager で使用される ID の一覧](/help/using/reference/ids-in-aam.md)の `uuid`、`mid`、および `imsOrgId` を参照してください。
 
-デバイスID呼び出しを使用したパートナーレベルのオプトアウト後:
+デバイス ID 呼び出しを使用するパートナーレベルのオプトアウトの後：
 
-* デバイスIDはデータ収集をオプトアウトします。
-* Audience Managerは、パートナーのすべてのデータ収集、セグメント化またはアクティブ化を、デバイスIDに対して将来停止します。
+* デバイス ID がデータ収集からオプトアウトされます。
+* Audience Manager は、そのデバイス ID に転送される、パートナーのすべてのデータ収集、セグメント化またはアクティブ化を停止します。
 * 履歴データは削除されません。
