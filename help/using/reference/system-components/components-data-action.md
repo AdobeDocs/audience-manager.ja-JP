@@ -5,7 +5,7 @@ seo-title: データアクションのコンポーネント
 solution: Audience Manager
 title: データアクションのコンポーネント
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -25,7 +25,7 @@ c_compact.xml
 
 ## 顧客データフィード（CDF）{#cdf}
 
-[!UICONTROL CDF] は、1 時間ごとにお客様に送信されるファイルです。これらのファイルには、ユーザー ID、関連付けられたセグメント ID、特性 ID などのデータが含まれます。詳細については、[顧客データフィードの概要](../../features/cdf-files.md)を参照してください。
+[!UICONTROL CDF] は、1 時間ごとにお客様に送信されるファイルです。これらのファイルには、ユーザー ID、関連付けられたセグメント ID、特性 ID などのデータが含まれます。詳しくは、[顧客データフィードの概要](../../features/cdf-files.md)を参照してください。
 
 ## データ収集サーバー（DCS）{#dcs}
 
@@ -33,26 +33,26 @@ c_compact.xml
 
 ## SFTP／S3 {#sftp-s3}
 
-[!UICONTROL SFTP/S3] 発行者は、同期されたIDデータを受信 [!UICONTROL Outbound Feed Converter]します。When these files are ready, the [!UICONTROL SFTP/S3 publishers] send this data to a destination specified by the client. これらのファイルには、[!DNL Audience Manager] ユーザー ID （UUID）が下記の項目と 1 対多でマッピングされた、同期された ID データが含まれます。
+[!UICONTROL SFTP/S3] パブリッシャーは [!UICONTROL Outbound Feed Converter] から同期済み ID データを取得します。これらのファイルが準備できたら、[!UICONTROL SFTP/S3 publishers]はこれらのデータをクライアントによって指定された宛先に送信します。これらのファイルには、[!DNL Audience Manager] ユーザー ID （UUID）が下記の項目と 1 対多でマッピングされた、同期された ID データが含まれます。
 
 * デバイス ID／データプロバイダー ID（DPUUID）
 * 適合したセグメント ID
 * 特性 ID
 
-[!DNL Audience Manager] ユーザーは、直接制御する機能にはアクセスできません [!UICONTROL SFPT/S3 publishers]。お客様はデータを作成して送信先に送信する際に、このサービスを間接的に使用します。[!UICONTROL SFTP/S3] システムとは基本的に、スケジュールされた間隔で自動実行されるジョブプロセスです。
+[!DNL Audience Manager] をご利用のお客様は、[!UICONTROL SFPT/S3 publishers]を直接制御する機能にアクセスできません。お客様はデータを作成して宛先に送信する際に、このサービスを間接的に使用します。[!UICONTROL SFTP/S3] システムとは基本的に、スケジュールされた間隔で自動実行されるジョブプロセスです。
 
 ## IRIS {#iris}
 
-[!UICONTROL Iris]イリス（）とは、瞬く間に移動して神託を伝えるギリシャ神話の登場人物です。[!UICONTROL IRIS] システムも、古代神話のこの登場人物と同じ特性を備えています。現代用語における [!UICONTROL IRIS] とは、低遅延で高頻度の Cookie による同期およびデータ転送サービスを指します。
+[!UICONTROL Iris]とは、瞬く間に移動して神託を伝えるギリシャ神話の登場人物です。[!UICONTROL IRIS] システムも、古代神話のこの登場人物と同じ特性を備えています。現代用語における [!UICONTROL IRIS] とは、低遅延で高頻度の Cookie による同期およびデータ転送サービスを指します。
 
-[!UICONTROL IRIS] は [!UICONTROL SFTP/S3] 、システムと同じタイプのデータで動作します。ただ、[!UICONTROL IRIS] では送信先へのデータ送信が設定された間隔でではなく、リアルタイムでおこなわれるという点が異なります。[!UICONTROL SFTP/S3] ベースのパブリッシャーは HTTP ベースの送信先にデータを送信できず、またリアルタイムのデータ転送向けに設計されていないことから、これらは異なるシステムです。
+[!UICONTROL IRIS] では [!UICONTROL SFTP/S3] と同じタイプのデータが処理されます。ただ、[!UICONTROL IRIS] では宛先へのデータ送信が設定された間隔でではなく、リアルタイムでおこなわれるという点が異なります。[!UICONTROL SFTP/S3] ベースのパブリッシャーは HTTP ベースの宛先にデータを送信できず、またリアルタイムのデータ転送向けに設計されていないことから、これらは異なるシステムです。
 
-お客様が直接 [!UICONTROL IRIS] を操作するための UI コントロールは用意されていません。お客様は、データを作成して送信先に送信するとき、および高速データ転送が必要な他のプロセスにおいて間接的に [!UICONTROL IRIS] を操作します。
+お客様が直接 [!UICONTROL IRIS] を操作するための UI コントロールは用意されていません。お客様は、データを作成して宛先に送信するとき、および高速データ転送が必要な他のプロセスにおいて間接的に [!UICONTROL IRIS] を操作します。
 
 [!UICONTROL IRIS] のサービスおよび機能の使用例には次のようなものがあります。
 
 * Cookie およびセグメントを高速（30 秒以内）に同期する。[!DNL Audience Manager] の Cookie、パートナーの Cookie およびその両方を同期できます。
-* リアルタイムのデータ転送。[!UICONTROL IRIS] は、パートナーまたは他の送信先にセグメントの適合イベントをリアルタイムで送信します。データは JSON 形式で、HTTP `POST` リクエストによって送信されます。
+* リアルタイムのデータ転送。[!UICONTROL IRIS] は、パートナーまたは他の宛先にセグメントの適合イベントをリアルタイムで送信します。データは JSON 形式で、HTTP `POST` リクエストによって送信されます。
 
 * サーバー間の一括データ転送：[!DNL Audience Manager] で大量のデータを送受信する場合、サーバーがデータ転送でやり取りするシステムは [!UICONTROL IRIS] となります。
 
@@ -62,17 +62,17 @@ c_compact.xml
 
 [!UICONTROL IRIS] とセグメント宛先間のトラフィックを最適化するため、[!UICONTROL IRIS] はセグメントをルールセットに基づいて宛先に送信します。
 
-1. **新しいセグメント承認**：デバイスが新しいセグメントを承認すると、 [!UICONTROL IRIS] はそのデバイスに関連するすべてのセグメントをこれらのセグメントにマッピングされたすべての宛先に送信します。
+1. **新しいセグメント承認**：デバイスが新しいセグメントを承認すると、[!UICONTROL IRIS] は、そのデバイスに関連するすべてのセグメントを、これらのセグメントにマッピングされたすべての宛先へと送信します。
 
-1. **新しいセグメント不承認**：デバイスがセグメントを承認しない場合、[!UICONTROL IRIS] はそのデバイスに関連するすべてのセグメント承認と不承認をこれらのセグメントにマッピングされたすべての宛先に送信します。
+1. **新しいセグメント不承認**：デバイスがセグメントを承認しない場合、[!UICONTROL IRIS] はそのデバイスに関連するすべてのセグメントの認定と不認定を、これらのセグメントにマッピングされたすべての宛先に送信します。
 
-1. **宛先マッピング更新**：宛先マッピングが更新されると、[!UICONTROL IRIS] は次回 Audience Manager でデバイスが確認される際にデバイスに関連するすべてのセグメントをこれらのセグメントにマッピングされたすべての宛先に送信します。
+1. **宛先マッピング更新**：宛先マッピングが更新されると、[!UICONTROL IRIS] は次回 Audience Manager でデバイスが確認される際に、デバイスに関連するすべてのセグメントを、これらのセグメントにマッピングされたすべての宛先へと送信します。
 
-1. **デバイスグラフの更新**：デバイス ID がセグメントの評価に使用されるデバイスグラフで追加または削除されると、[!UICONTROL IRIS] は次回 Audience Manager でデバイスが確認される際にデバイスに関連するすべてのセグメントをこれらのセグメントにマッピングされたすべての宛先に送信します。
+1. **デバイスグラフの更新**：デバイス ID がセグメントの評価に使用されるデバイスグラフで追加または削除されると、[!UICONTROL IRIS] は次回 Audience Manager でデバイスが確認される際に、デバイスに関連するすべてのセグメントを、これらのセグメントにマッピングされたすべての宛先へと送信します。
 
 >[!IMPORTANT]
 >
->Audience Manager で上記の更新が 3 日間連続して検出されない場合、[!UICONTROL IRIS] は次回 Audience Manager でデバイスが確認される際にデバイスに関連するすべてのセグメントをこれらのセグメントにマッピングされたすべての宛先に送信します。
+>Audience Manager で上記の更新が 3 日間連続して検出されない場合、[!UICONTROL IRIS] は次回 Audience Manager でデバイスが確認される際にデバイスに関連するすべてのセグメントを、これらのセグメントにマッピングされたすべての宛先へと送信します。
 
 **データファイルの例**
 
@@ -144,6 +144,6 @@ c_compact.xml
 }
 ```
 
-## プロファイルキャッシュサーバー（PCS） {#pcs}
+## プロファイルキャッシュサーバー（PCS）{#pcs}
 
 [データ収集コンポーネント](../../reference/system-components/components-data-collection.md)を参照してください。
