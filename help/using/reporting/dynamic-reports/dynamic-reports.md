@@ -5,7 +5,7 @@ seo-title: インタラクティブな重複レポート
 solution: Audience Manager
 title: インタラクティブな重複レポート
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 + [特性間重複レポート](trait-trait-overlap-report.md)
 + [セグメント／特性間重複レポート](segment-trait-overlap-report.md)
 + [セグメント間重複レポート](segment-segment-overlap-report.md)
-+ [未使用シグナルレポート](unused-signals.md)
++ [Unused Signals レポート](unused-signals.md)
 + [ルックアップテーブルによるログファイル処理時間の改善](lookup-tables.md)
 + [データスライダーを使用したレポート結果のフィルタリング](data-sliders.md)
 + [重複レポート：更新スケジュールと最小セグメントサイズ](overlap-minimum-segment-size.md)
