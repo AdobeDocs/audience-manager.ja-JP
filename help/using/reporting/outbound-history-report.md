@@ -5,7 +5,7 @@ seo-title: 送信ファイル履歴
 solution: Audience Manager
 title: 送信ファイル履歴
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
@@ -21,12 +21,12 @@ t_reports_outbound_history.xml
 
  -->
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outbound File History]**.
+1. **[!UICONTROL Analytics]**／**[!UICONTROL Outbound File History]** をクリックします。
 
    ![手順の結果](assets/outbound_history.png)
 
-1. **[!UICONTROL Search for a Destination]** ボックスで、入力を開始して目的の宛先を選択します。
-1. **[!UICONTROL Select a Date Range]** ボックスで、レポートの開始日と終了日を指定して、をクリック **[!UICONTROL Apply Date Filter]**&#x200B;します。
+1. 「**[!UICONTROL Search for a Destination]**」ボックスで、入力を開始し、目的の宛先を選択します。
+1. 「**[!UICONTROL Select a Date Range]**」ボックスで、レポートの開始日と終了日を指定し、「**[!UICONTROL Apply Date Filter]**」をクリックします。
 
    ![手順の結果](assets/outbound_history_stats.png)
 
