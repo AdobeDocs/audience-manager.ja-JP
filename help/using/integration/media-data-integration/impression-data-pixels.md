@@ -5,7 +5,7 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのインプ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`斜体 **、括弧 `[ ]` `( )`、その他）コード要素とオプションを示します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、その他）コード要素とオプションを示します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
 
 イベント呼び出しはインプレッションデータとコンバージョンデータを収集し、[!DNL Audience Manager] [データ収集サーバー](/help/using/reference/system-components/components-data-collection.md)（[!UICONTROL DCS]）に送信します。この処理では、呼び出しをクリエイティブに配置するサードパーティの広告サーバーを使用して、コードに挿入される内容が制御されます。このサードパーティの広告サーバー（[!DNL DFA] など）は、このコードを各広告インプレッション内に配置できます。さらに、広告呼び出しでは、広告タブの外部にある公開者データへのアクセスに、[!DNL JavaScript] やフレームバスティング技法は使用していません。
 
@@ -35,9 +35,9 @@ d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i
 
 このキーと値のペアでは、値変数は広告サーバーにより挿入された ID またはマクロです。広告タグが読み込まれると、`%macro%` は対応する必須の値に置き換えられます。この呼び出しでは、応答は返されません。
 
-## サポートされているキーと値のペア {#supported-key-value-pairs}
+## サポートされているキーと値のペア{#supported-key-value-pairs}
 
-インプレッションイベント呼び出しでは、キーと値のペアとして構成されているデータを受け付けます。次の表は、これらの変数を格納するキーの一覧と説明です。これらのうち多くは、[オーディエンス最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータのキャプチャと分析をおこなう場合に必要になります。
+インプレッションイベント呼び出しでは、キーと値のペアとして構成されているデータを受け付けます。次の表は、これらの変数を格納するキーの一覧と説明です。これらのうち多くは、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータのキャプチャと分析をおこなう場合に必要になります。
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -53,11 +53,11 @@ d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>広告主のデータソース ID または統合コード。 </p> <p><span class="wintitle">オーディエンスの最適化</span>レポートに必須。 </p> </td> 
+   <td colname="col2"> <p>広告主のデータソース ID または統合コード。 </p> <p><span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
-   <td colname="col2"> <p>ビジネスユニットのデータソース ID または統合コード。 </p> <p><span class="wintitle">オーディエンスの最適化</span>レポートに必須。 </p> </td> 
+   <td colname="col2"> <p>ビジネスユニットのデータソース ID または統合コード。 </p> <p><span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
@@ -65,11 +65,11 @@ d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
-   <td colname="col2"> <p>広告サーバーから割り当てられたキャンペーン ID（数値）。 </p> <p><span class="wintitle">オーディエンスの最適化</span>レポートに必須。 </p> </td> 
+   <td colname="col2"> <p>広告サーバーから割り当てられたキャンペーン ID（数値）。 </p> <p><span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>このコンテキストでは、<code>d_cid</code> は、キーと値のペアをインスタンス化し、モバイルデバイスタイプを個人ユーザー ID に関連付けられるようにします。固定 ID により、モバイルデバイスタイプが決定されます。値（ユーザー ID）は変わることがあります。キーと値のペアを <code>%01</code>（非印刷の制御文字）で区切ります。このパラメーターでは、次のキーを指定できます。 </p> 
+   <td colname="col2"> <p>このコンテキストでは、<code>d_cid</code> は、キーと値のペアをインスタンス化し、モバイルデバイスタイプを個人ユーザー ID に関連付けられるようにします。固定 ID により、モバイルデバイスタイプが決定されます。値（ユーザー ID）は変わることがあります。キーと値のペアを <code>%01</code>（非表示の制御文字）で区切ります。このパラメーターでは、次のキーを指定できます。 </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
      <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Android（GAID）デバイスを表します。例えば、<code>d_cid = 20914 %01 1234</code> は、ユーザー 1234 が Android デバイスに関連付けられていることを表します。 </li> 
      <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: iOS（IDFA）デバイスを表します。例えば、<code>d_cid = 20915 %01 5678</code> は、ユーザー 5678 が iOS デバイスに関連付けられていることを表します。 </li> 
@@ -77,7 +77,7 @@ d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_creative </code> </td> 
-   <td colname="col2"> <p>広告サーバーから割り当てられたクリエイティブ ID（数値）。 </p> <p><span class="wintitle">オーディエンスの最適化</span>レポートに必須。 </p> </td> 
+   <td colname="col2"> <p>広告サーバーから割り当てられたクリエイティブ ID（数値）。 </p> <p><span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_event=imp </code> </td> 
@@ -89,18 +89,18 @@ d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_site </code> </td> 
-   <td colname="col2"> <p>広告サーバーから割り当てられたサイト ID（数値）。 </p> <p><span class="wintitle">オーディエンスの最適化</span>レポートに必須。 </p> </td> 
+   <td colname="col2"> <p>広告サーバーから割り当てられたサイト ID（数値）。 </p> <p><span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_src </code> </td> 
-   <td colname="col2"> <p>メタデータの提供元となるプラットフォームのデータソース ID または統合コード（DFA、Atlas、GBM、Media Math など）。 </p> <p><span class="wintitle">オーディエンスの最適化</span>レポートに必須。 </p> </td> 
+   <td colname="col2"> <p>メタデータの提供元となるプラットフォームのデータソース ID または統合コード（DFA、Atlas、GBM、Media Math など）。 </p> <p><span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <code><i>dgpr</i></code>  </td> 
-   <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p> <p><code>dgpr</code> は、0（GGPRが適用されません）または1（GGPR適用）です。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p> </td> 
+   <td colname="col1"> <code><i>gdpr</i></code>  </td> 
+   <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p> <p><code> gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p> </td> 
   </tr>
    <tr> 
-   <td colname="col1"> <code>dgpr_ accept</code> </td> 
+   <td colname="col1"> <code>gdpr_consent</code> </td> 
    <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> <code>gdpr=1</code> の場合、<code>%gdpr_consent%</code> は <code>gdpr_consent</code> 文字列に置き換えられます（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">IAB 仕様</a>を参照）。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p> </td> 
   </tr> 
  </tbody> 
