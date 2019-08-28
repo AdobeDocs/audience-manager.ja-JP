@@ -1,6 +1,6 @@
 ---
 title: Apache License
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 375dff525598ef392f9eecd0f22ee9dc097df4bd
 
 ---
