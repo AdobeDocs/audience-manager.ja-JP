@@ -5,7 +5,7 @@ seo-title: セグメントの目的、構成およびルール
 solution: Audience Manager
 title: セグメントの目的、構成およびルール
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
@@ -13,27 +13,27 @@ source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 # セグメント：目的、構成、ルール {#segments-purpose-composition-and-rules}
 
-Describes segments, their constituent parts, and rule creation with [!UICONTROL Segment Builder].
+セグメント、セグメントの構成要素、[!UICONTROL Segment Builder]を使用したルール作成について説明します。
 
 ## セグメントの目的
 
 *`segment`*（または *`audience`*）は、共通の属性を共有する一連のユーザーです。Audience Manager では、サーバー側ルールを使用してセグメントを作成します。これらのルールを使用すると、次のようなサイト訪問者属性に基づいて、オーディエンスグループを作成できます。
 
-* 動作;
-* 人口統計（年齢、性別、収入など）;
+* 動作、
+* 人口統計（年齢、性別、収入など）、
 * ユーザーインターフェイスで定義できるその他の特徴
 
 ## セグメントの構成
 
 Audience Manager セグメントは、個々の特性または特性のグループで構成されるサーバー側ルールです。特性は、キー値ペアと呼ばれるデータ要素で構成されます。これらのキー値ペアには、セグメントレベルで設定したルールと共に、訪問者を特性およびセグメントのメンバーシップの対象に認定するための条件が含まれています。
 
-## Adobe Analyticsセグメントマッピングに関する考慮事項
+## Adobe Analytics のセグメントマッピングに関する考慮事項
 
-Adobe AnalyticsセグメントまたはレポートスイートをExperience Cloud組織にマッピングする場合、Audience Managerは、対応する新しい、対応する、読み取り専用のセグメントおよび特性を自動的に作成します。Audience Managerからこれらのセグメントの記憶場所を編集または変更することはできません。ただし、マッピングされたAdobe Analyticsセグメントまたはレポートスイートで実行する変更は、Audience Managerに反映されます。
+Adobe Analytics セグメントまたはレポートスイートをExperience Cloud 組織にマッピングする場合、Audience Manager は、対応する新しい、読み取り専用のセグメントおよび特性を自動的に作成します。Audience Manager からこれらのセグメントの保管場所を編集または変更することはできません。ただし、マッピングされた Adobe Analytics セグメントまたはレポートスイートに対する変更は、Audience Manager に反映されます。
 
 >[!TIP]
 >
->Audience Manager セグメントは [!DNL Adobe Analytics] セグメントとは異なります。両者の違いについて詳しくは、[Analytics と Audience Manager について](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html)を参照してください。
+>Audience Manager セグメントは [!DNL Adobe Analytics] セグメントとは異なります。違いについて詳しくは、[Analytics と Audience Manager について](https://marketing.adobe.com/resources/help/ja_JP/analytics/audiences/aam-analytics-segments.html)を参照してください。
 
 ## セグメントビルダーを使用したルールベースセグメントの作成
 
