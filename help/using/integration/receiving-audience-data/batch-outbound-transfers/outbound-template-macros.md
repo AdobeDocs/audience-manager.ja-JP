@@ -1,11 +1,11 @@
 ---
 description: 送信テンプレートの作成に使用できるマクロの一覧を示します。ファイル名マクロ、ヘッダーマクロ、コンテンツマクロなどがあります。
-seo-description: アウトバウンドテンプレートの作成に使用できるマクロの一覧を示します。ファイル名マクロ、ヘッダーマクロ、コンテンツマクロなどがあります。
-seo-title: アウトバウンドテンプレートマクロ
+seo-description: 送信テンプレートの作成に使用できるマクロの一覧を示します。ファイル名マクロ、ヘッダーマクロ、コンテンツマクロなどがあります。
+seo-title: 送信テンプレートマクロ
 solution: Audience Manager
-title: アウトバウンドテンプレートマクロ
+title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ## ファイル名およびファイルヘッダーマクロ {#file-name-header-macros}
 
-次の表は、ファイル名で使用できるマクロと、ヘッダーのフィールドを定義するためのマクロの一覧と説明です。コードのサンプルについては、[アウトバウンドマクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
+次の表は、ファイル名で使用できるマクロと、ヘッダーのフィールドを定義するためのマクロの一覧と説明です。コードのサンプルについては、[送信マクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -29,7 +29,7 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ASCII_SOH </code> </p> </td> 
-   <td colname="col2"> <p>非印刷の ASCII 文字。コンテンツの行またはセクションの開始を表します。ファイル内のデータ列を区切る場合にも使用できます。 </p> </td> 
+   <td colname="col2"> <p>非表示の ASCII 文字。コンテンツの行またはセクションの開始を表します。ファイル内のデータ列を区切る場合にも使用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -77,7 +77,7 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ## コンテンツマクロ {#content-macros}
 
-データファイルのコンテンツの書式設定に使用するマクロ。コードのサンプルについては、[アウトバウンドマクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
+データファイルのコンテンツの書式設定に使用するマクロ。コードのサンプルについては、[送信マクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -93,7 +93,7 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> データプロバイダー個別ユーザー識別子 </span>。 </p> <p>これはアウトバウンドファイルでのデータの宛先となるデータパートナーの ID です。 </p> </td> 
+   <td colname="col2"> <p> <span class="term"> データプロバイダー個別ユーザー識別子 </span>。 </p> <p>これは送信ファイルでのデータの宛先となるデータパートナーの ID です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
@@ -206,5 +206,5 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 >[!MORE_LIKE_THIS]
 >
->* [アウトバウンドマクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
+>* [送信マクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
 
