@@ -1,25 +1,25 @@
 ---
-description: これらの RESTful API メソッドを使用して、セグメントを送信先にマッピングします。
-seo-description: これらの RESTful API メソッドを使用して、セグメントを送信先にマッピングします。
-seo-title: セグメントの送信先へのマッピング
+description: これらの RESTful API メソッドを使用して、セグメントを宛先にマッピングします。
+seo-description: これらの RESTful API メソッドを使用して、セグメントを宛先にマッピングします。
+seo-title: セグメントの宛先へのマッピング
 solution: Audience Manager
-title: セグメントの送信先へのマッピング
+title: セグメントの宛先へのマッピング
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# セグメントを宛先にマッピング {#map-segments-to-a-destination}
+# セグメントの宛先へのマッピング {#map-segments-to-a-destination}
 
-これらの [!DNL RESTful API] メソッドを使用して、セグメントを送信先にマッピングします。
+これらの [!DNL RESTful API] メソッドを使用して、セグメントを宛先にマッピングします。
 
 <!-- c_api_map_seg_dest.xml -->
 
-## サポートされている送信先のタイプ：URL およびCookie のみ
+## サポートされている宛先のタイプ：URL および Cookie のみ
 
-The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot map segments to [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. 代わりにユーザーインターフェイスを使用してください。However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
+利用可能な `POST` メソッドは、[!UICONTROL URL] および [!UICONTROL cookie destinations]にのみセグメントをマッピングできます。現在、これらの [!DNL REST API] メソッドを使用して、[!UICONTROL server-to-server destinations]にセグメントをマッピングすることはできません。代わりにユーザーインターフェイスを使用してください。ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
 
 >[!MORE_LIKE_THIS]
 >
@@ -28,9 +28,9 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 >* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
 
 
-## シリアル化されていない URL ベースの送信先へのセグメントのマッピング {#map-segment-non-serial}
+## シリアル化されていない URL ベースの宛先へのセグメントのマッピング {#map-segment-non-serial}
 
-非シリアル化 宛先にセグメントをマッピングするための `POST`[!UICONTROL URL] メソッド。
+シリアル化されていない [!UICONTROL URL] 宛先にセグメントをマッピングするための `POST` メソッド。
 
 <!-- r_map_noserial_url.xml -->
 
@@ -78,9 +78,9 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 }
 ```
 
-## シリアル化された URL ベースの送信先へのセグメントのマッピング {#map-segment-serial}
+## シリアル化された URL ベースの宛先へのセグメントのマッピング {#map-segment-serial}
 
-シリアル化された 宛先にセグメントをマッピングするための `POST`[!UICONTROL URL] メソッド。
+シリアル化された `POST` 宛先にセグメントをマッピングするための [!UICONTROL URL] メソッド。
 
 <!-- r_map_serialized_url.xml -->
 
@@ -128,9 +128,9 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 }
 ```
 
-## Cookie ベースの送信先へのセグメントのマッピング：単一キー、非シリアル化 {#map-segment-cookie-noserial}
+## Cookie ベースの宛先へのセグメントのマッピング：単一キー、非シリアル化 {#map-segment-cookie-noserial}
 
-単一キーでシリアル化されていない `POST` 宛先にセグメントをマッピングするための [!UICONTROL cookie] メソッド。
+単一キーでシリアル化されていない [!UICONTROL cookie] 宛先にセグメントをマッピングするための `POST` メソッド。
 
 <!-- r_map_cookie_noserial.xml -->
 
@@ -175,9 +175,9 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 }
 ```
 
-## Cookie ベースの送信先へのセグメントのマッピング：複数キー、非シリアル化 {#map-segment-cookie-multi-noserial}
+## Cookie ベースの宛先へのセグメントのマッピング：複数キー、非シリアル化 {#map-segment-cookie-multi-noserial}
 
-`POST` メソッドを使用して、複数キーのシリアル化されていない [!UICONTROL cookie] の宛先にセグメントをマッピングします。
+複数キーのシリアル化されていない [!UICONTROL cookie] の宛先にセグメントをマッピングするための `POST` メソッドをを使用します。
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
@@ -223,9 +223,9 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 }
 ```
 
-## Cookie ベースの送信先へのセグメントのマッピング：複数キー、シリアル化 {#map-segment-cookie-multi-serial}
+## Cookie ベースの宛先へのセグメントのマッピング：複数キー、シリアル化 {#map-segment-cookie-multi-serial}
 
-`POST` セグメントをマルチキーでシリアライズ [!UICONTROL cookie destination]するためのメソッド。
+複数キーのシリアル化された [!UICONTROL cookie destination]にセグメントをマッピングするための `POST` メソッド。
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -273,7 +273,7 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 
 ## サーバー間宛先へのセグメントのマッピング {#map-segment-s2s}
 
-`POST` セグメントを既存 [!UICONTROL server-to-server] の宛先にマップできるメソッド。Note, however, that you cannot create [!UICONTROL server-to-server] destinations with these currently available [!DNL API] methods.
+既存の[!UICONTROL server-to-server]宛先にセグメントをマッピングするための `POST` メソッド。現在利用可能なこれらの [!DNL API] メソッドを使用して [!UICONTROL server-to-server] を作成することはできません。
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -319,7 +319,7 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 
 ## 宛先マッピングの一括作成 {#bulk-create}
 
- または 宛先マッピングの配列を渡す `POST`[!UICONTROL cookie] メソッド[!UICONTROL URL]
+ [!UICONTROL cookie] または [!UICONTROL URL] 宛先マッピングの配列を渡す `POST` メソッド
 
 <!-- r_bulk_create.xml -->
 
@@ -487,7 +487,7 @@ The available `POST` methods let you map segments to [!UICONTROL URL] and [!UICO
 
 ## 宛先 ID による宛先の更新 {#update-dest-data-order}
 
-`PUT` で既存の宛先を更新できる `destinationId` メソッド。
+`destinationId` で既存の宛先を更新できる `PUT` メソッド。
 
 <!-- r_update_destination_data_order_id.xml -->
 
