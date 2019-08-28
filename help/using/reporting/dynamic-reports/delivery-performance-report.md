@@ -5,7 +5,7 @@ seo-title: 配信およびパフォーマンスレポート
 solution: Audience Manager
 title: 配信およびパフォーマンスレポート
 uuid: c8daa6bc-50d6-4c2c-a45a-5b7065fd88f9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -21,7 +21,7 @@ c_delivery_reports.xml
 
  -->
 
-[!UICONTROL Delivery and Performance] このレポートでは、様々な広告主サイトでのセグメントのパフォーマンスを評価できます。最適化ツールとして、このレポートは以下に役立ちます。
+[!UICONTROL Delivery and Performance]レポートを使用すると、様々な広告主サイトでのセグメントのパフォーマンスを評価できます。最適化ツールとして、このレポートは以下に役立ちます。
 
 * 他のキャンペーンまたは他のサイトで再利用するためにパフォーマンスの高いセグメントを特定する。
 * パフォーマンスの低いサイトのセグメントを検索および削除する。
