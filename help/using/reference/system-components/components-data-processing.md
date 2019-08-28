@@ -5,7 +5,7 @@ seo-title: データ処理のコンポーネント
 solution: Audience Manager
 title: データ処理のコンポーネント
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -23,7 +23,7 @@ c_comproc.xml
 
 Audience Manager は、データ処理に以下のコンポーネントを使用します。
 
-## Hadoop {#hadoop}
+## Hadoop{#hadoop}
 
 [!DNL Audience Manager] において、Hadoop は [!DNL Audience Manager] がユーザーに関して把握しているすべての情報が格納されるマスターデータベースとなります。例えば、[プロファイルキャッシュサーバー](../../reference/system-components/components-data-collection.md)がユーザーに関するデータが書き込まれたログファイルを作成した場合、そのデータは Hadoop に送信され、そこに保存されます。これ以外の重要な Hadoop の構成要素として、次のようなものがあります。
 
@@ -33,7 +33,7 @@ Audience Manager は、データ処理に以下のコンポーネントを使用
 
 お客様はこれらのシステムに直接アクセスすることはありませんが、これらのコンポーネントはサイト訪問者に関する重要なデータを保存しているので、お客様はこれらのシステムに間接的に関与しています。
 
-## Snowflake {#snowflake}
+## Snowflake{#snowflake}
 
 [Snowflake](https://www.snowflake.net/) は巨大なクラウドデータベースです。多くのダッシュボードグラフと、それに関連するグラフ内の各項目の変更率を表示するテキストボックスにデータを提供します。[!DNL Audience Manager] でダッシュボードレポートを参照する場合、[!UICONTROL Snowflake] によって提供されたデータを操作していることになります。
 
@@ -43,10 +43,10 @@ Audience Manager は、データ処理に以下のコンポーネントを使用
 
 [!UICONTROL Snowflake] によって提供される一般的なダッシュボードレポートには以下のようなものがあります（すべてが網羅されているわけではありません）。
 
-* [日単位の特性変動レポート](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [Daily Trait Variation レポート](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * [配信およびパフォーマンスレポート](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
 * すべての重複レポート（各重複レポートの情報については、[インタラクティブなレポート](/help/using/reporting/dynamic-reports/dynamic-reports.md)の節を参照してください）
-* [未使用シグナルレポート](/help/using/reporting/dynamic-reports/unused-signals.md)
+* [Unused Signals レポート](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
@@ -58,7 +58,7 @@ SOLR は、Apache が提供するオープンソースのデータベースお�
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] は [、Tableau](https://www.tableausoftware.com/) を使用して [、インタラクティブレポート](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) および [オーディエンスの最適化レポートにデータを表示](../../reporting/audience-optimization-reports/audience-optimization-reports.md)します。インタラクティブレポートには特性およびセグメントのパフォーマンスと重複のデータが表示されます。これらのレポートでは、列と行に数値を配置する代わりに、各種の形状、色およびサイズを使用してデータを返します。さらに、データポイントで個人またはグループを選択し、ドリルダウンしてより詳細なレポート結果を表示できます。これらのインタラクティブな視覚化手法およびレポートで、大量の数値データをわかりやすく提示することができます。
+[!DNL Audience Manager] は、[Tableau](https://www.tableausoftware.com/) を使用して[インタラクティブレポート](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)と[オーディエンスの最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)のデータを表示します。インタラクティブレポートには特性およびセグメントのパフォーマンスと重複のデータが表示されます。これらのレポートでは、列と行に数値を配置する代わりに、各種の形状、色およびサイズを使用してデータを返します。さらに、個々のデータポイントまたはデータポイントグループを選択して、レポート結果の詳細を調べることもできます。これらのインタラクティブな視覚化手法およびレポートで、大量の数値データをわかりやすく提示することができます。
 
 
 
