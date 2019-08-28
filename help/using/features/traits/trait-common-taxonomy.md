@@ -6,7 +6,7 @@ seo-title: 一般的なカテゴリへの特性の分類
 solution: Audience Manager
 title: 一般的なカテゴリへの特性の分類
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 
 ## カテゴリには業界標準の分類を使用
 
-この一般的なカテゴリは、[!DNL Interactive Advertising Bureau (IAB)] によって作成された分類に基づいています。Refer to the [!DNL IAB]'s [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
+この一般的なカテゴリは、[!DNL Interactive Advertising Bureau (IAB)] によって作成された分類に基づいています。ネットワークとエクスチェンジの品質保証ガイドラインについて詳しくは、[!DNL IAB] の [Web サイト](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines)を参照してください。
 
 ## 分類の構成
 
@@ -36,7 +36,7 @@ source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 
 ## データカテゴリによる特性の分類
 
-[!UICONTROL Add New Trait Wizard] （* **[!UICONTROL Audience Data > Traits]***にある）特性を作成または編集する際に、分類の分類を割り当てます。詳しくは、[特性の作成に関するドキュメント](../../features/traits/create-onboarded-rule-based-traits.md)を参照してください。
+[!UICONTROL Add New Trait Wizard]（* **[!UICONTROL Audience Data > Traits]*** にあります）の特性を作成または編集する際に、分類を割り当てることができます。詳しくは、[特性の作成に関するドキュメント](../../features/traits/create-onboarded-rule-based-traits.md)を参照してください。
 
 ## 分類の使用：その他の考慮事項
 
