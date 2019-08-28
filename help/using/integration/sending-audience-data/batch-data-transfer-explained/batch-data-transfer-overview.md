@@ -1,12 +1,12 @@
 ---
 description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。
-keywords: inbound
+keywords: インバウンド
 seo-description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。
 seo-title: Audience Manager へのバッチデータ送信の概要
 solution: Audience Manager
 title: Audience Manager へのバッチデータ送信の概要
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
@@ -24,15 +24,15 @@ source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ## 手順 1：ユーザー ID の同期
 
-同期の際に、Audience Manager は一意の ID をクライアントおよびそのユーザーに割り当てます。These IDs are known as the [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) and [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectively. Audience Manager uses the [!UICONTROL DPID] and [!UICONTROL UUID] to identify users and qualify them for traits, segments, audience groups, and for reporting. Additionally, our data collection code ([!UICONTROL DIL]) looks for these IDs to capture visitor data from your website. この手順が完了したら、Audience Manager およびオフラインリポジトリは、各ユーザーレコードに対応する ID を含める必要があります。
+同期の際に、Audience Manager は一意の ID をクライアントおよびそのユーザーに割り当てます。これらの ID はそれぞれ、[!UICONTROL Data Provider ID]（[!UICONTROL DPID]）および [!UICONTROL Unique User ID]（[!UICONTROL UUID]）と呼ばれます。Audience Manager は、[!UICONTROL DPID] および [!UICONTROL UUID] を使用して、ユーザーを特定し、特性、セグメント、オーディエンスグループおよびレポートの対象として認定します。また、アドビのデータ収集コード（[!UICONTROL DIL]）は、Web サイトからの訪問者データをキャプチャするために、これらの ID を探します。この手順が完了したら、Audience Manager およびオフラインリポジトリは、各ユーザーレコードに対応する ID を含める必要があります。
 
 この手順に関する重要な考慮事項：
 
 * **クライアント ID の配置：** Audience Manager は、クライアント ID が Web サイトのどこに表示されるかを把握する必要があります（例：Cookie、Analytics 変数、ページコードなどに格納されるか）。
-* **の除外：[!DNL PII]**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
-* **大文字と小文字およびコンテンツの区別：**&#x200B;リアルタイムデータ同期の間、Audience Manager によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. 結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
+* **の除外[!DNL PII]：**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
+* **大文字と小文字およびコンテンツの区別：**&#x200B;リアルタイムデータ同期の間、Audience Manager によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。例えば、オフラインレコードが [!DNL User123] に関する情報を保持するが、サイトがこの ID を [!DNL USER123] としてレンダリングする場合、Audience Manager は、これらを異なる訪問者と見なします。結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
 
-詳しくは、[受信データ転送のための ID 同期](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
+詳しくは、[受信データ転送のための ID 同期](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)を参照してください。
 
 <!-- 
 
@@ -94,4 +94,4 @@ Audience Manager は、ファイルのドロップオフ用に以下の環境を
 
 ## その他の技術情報
 
-Systems engineers, developers, or technical/implementation teams should review [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process) and the other articles in this section. これらの記事には、転送プロトコル、ファイルコンテンツおよびファイル名の要件に関する詳細が記載されています。
+システムエンジニア、開発者、技術／実装チームは、[バッチデータ転送プロセスの説明](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process)と、この節の他の記事を確認してください。これらの記事には、転送プロトコル、ファイルコンテンツおよびファイル名の要件に関する詳細が記載されています。
