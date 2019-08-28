@@ -4,13 +4,13 @@ seo-description: Data Explorer を使用して、使用済みおよび未使用�
 seo-title: 概要、メリットおよび使用例
 title: 概要、メリットおよび使用例
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 
 ---
 
 
-# Data Explorer - Overview, Benefits, and Use Cases {#overview-benefits-and-use-cases}
+# データエクスプローラー - 概要、メリット、ユースケース{#overview-benefits-and-use-cases}
 
 [!UICONTROL Data Explorer] を使用して、使用済みおよび未使用のシグナルに基づいて特性を作成し、シグナルに履歴データをバックフィルすることで目的のオーディエンスを逃す可能性を防ぎ、過去のオーディエンスを活かします。
 
@@ -18,9 +18,9 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 
 目的のオーディエンスの詳細が既知であれば、オーディエンスに関する既存のインサイトに基づいて容易に特性を作成できます。しかし、このような状況はあまりありません。
 
-[!UICONTROL Data Explorer] を活用すれば、分類のキュレーションの柔軟性を高めながら、特性の管理プロセスを簡略化することができます。[!UICONTROL Data Explorer] これを達成するには、2つのコンポーネントが役立ちます。
+[!UICONTROL Data Explorer] を活用すれば、分類のキュレーションの柔軟性を高めながら、特性の管理プロセスを簡略化することができます。[!UICONTROL Data Explorer] には、この目的のために以下の 2 つのコンポーネントが用意されています。
 
-* [シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)[!UICONTROL Signals Search] を使用して、受信したシグナルを追跡したり、 [!DNL Audience Manager] 新しい特性を作成したり、既存の特性に追加したりできます。
+* [シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)および[!UICONTROL Signals Search]では、[!DNL Audience Manager] で受信したシグナルを記録し、新規特性を作成したり、既存の特性に追加したりできます。
 
 * [特性適合のバックフィル](../../features/data-explorer/data-explorer-trait-backfill.md)では、過去のオーディエンスを新規作成した特性の対象として認定し、将来のターゲットに含めることができます。
 
