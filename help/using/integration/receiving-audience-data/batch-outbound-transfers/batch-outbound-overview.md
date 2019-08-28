@@ -1,9 +1,9 @@
 ---
 description: Audience Manager では、これらの仕様に従って、バッチデータをサードパーティコンテンツプロバイダーに送信します。
-seo-description: Adobe Audience Manager（AAM）は、これらの仕様に従って、バッチデータをサードパーティのコンテンツプロバイダーに送信します。
-seo-title: Adobe Audience Manager（AAM）でのバッチアウトバウンドデータ転送
+seo-description: Adobe Audience Manager（AAM）では、これらの仕様に従って、バッチデータをサードパーティコンテンツプロバイダーに送信します。
+seo-title: Adobe Audience Manager（AAM）でのバッチ送信データ転送
 title: バッチ送信データ転送
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 ---
@@ -21,14 +21,14 @@ Audience Manager では、これらの仕様に従って、バッチデータを
 
    転送制御（.info）ファイルは、ファイル転送に関するメタデータ情報を提供するので、パートナーは、Audience Manager がファイル転送を正しく処理したことを検証できます。
 
-* [アウトバウンドテンプレートマクロ](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
+* [送信テンプレートマクロ](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 
    送信テンプレートの作成に使用できるマクロの一覧を示します。ファイル名マクロ、ヘッダーマクロ、コンテンツマクロなどがあります。
 
-* [アウトバウンドマクロの例](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
+* [送信マクロの例](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
 
    送信ファイルテンプレートの作成に、一部の一般的なマクロがどのように使用されるかを示す例です。
 
-* [アウトバウンドファイルに Amazon S3 のクロスアカウントのバケットのアクセス許可を使用する](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
+* [送信ファイルに Amazon S3 のクロスアカウントのバケットのアクセス許可を使用する](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   お客様が Amazon Simple Storage Service（Amazon S3）を使用して送信データ転送プロセスを実行する場合、送信データファイルをお客様のバケットに配信するために、お客様に Amazon S3 アクセスキーおよびシークレットキーを提供していただく必要があります。
+   Amazon Simple Storage Service （Amazon S3）を使用しているお客様の場合、アウトバウンドのデータ転送プロセスにおいて、バケットを通してアウトバウンドデータファイルを配信するために、Amazon S3 のアクセスキーおよび秘密鍵を提供していただく必要があります。
