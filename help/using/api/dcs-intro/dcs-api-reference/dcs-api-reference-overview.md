@@ -1,15 +1,15 @@
 ---
 description: DCS API のコード、メソッド、プロセスの概念的情報、説明、定義です。
-seo-description: Adobe Audience Manager（AAM）のDCS APIコード、メソッドおよびプロセスの概念情報、説明および定義です。
-seo-title: Adobe Audience Manager（AAM）のDCS APIリファレンスの概要
-title: DCS APIリファレンスの概要
-translation-type: tm+mt
+seo-description: Adobe Audience Manager（AAM）の DCS API のコード、メソッド、プロセスの概念的情報、説明、定義です。
+seo-title: Adobe Audience Manager（AAM）の DCS API リファレンスの概要
+title: DCS API リファレンスの概要
+translation-type: ht
 source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 ---
 
 
-# DCS APIリファレンスの概要
+# DCS API リファレンスの概要
 
 DCS API のコード、メソッド、プロセスの概念的情報、説明、定義です。
 
@@ -17,7 +17,7 @@ DCS API のコード、メソッド、プロセスの概念的情報、説明、
 
    GET または POST メソッドを使用して DCS API にデータを送信します。
 
-* [DCS エラー コード、メッセージ、例](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
+* [DCS エラーコード、メッセージ、例](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
    データ収集サーバー（DCS）で生成されるエラーコードおよびメッセージをコード ID の順に説明します。
 
