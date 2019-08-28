@@ -5,7 +5,7 @@ seo-title: Daily Trait Variation レポート
 solution: Audience Manager
 title: Daily Trait Variation レポート
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 >[!NOTE]
 >
->Audience Managerの毎日の特徴のバリエーションレポートは、RBACの原則に従います。You can only see traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Audience Manager の Daily Trait Variation レポートは、RBAC の原則に従います。自分が属している [RBAC ユーザーグループ](/help/using/features/administration/administration-overview.md) に基づき、自分がアクセスできるデータソースからの特性のみを確認できます。
 
 標準偏差は、平均からの変動または分散の量（または平均／期待値）を測定します。低い標準偏差は、データポイントが平均に非常に近くなる傾向があることを示します。高い標準偏差は、データポイントが幅広い値に分散していることを示します。
 
@@ -25,7 +25,7 @@ source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 [!UICONTROL Date] リストを使用して、レポート用の 1 つ以上の日付を選択します。選択したすべての日付にわたるすべての特性の標準偏差の範囲を視覚的に表す、色分けされた棒グラフがリストの下部に表示されます。黒い縦の線は平均を示します。
 
-The middle column contains a list of traits, identified by [!UICONTROL Trait ID] and [!UICONTROL Trait Name]. 任意の特性をクリックすると、ポップアップダイアログボックスが表示され、以下のオプションから選択できます。
+中央の列には、[!UICONTROL Trait ID] と [!UICONTROL Trait Name] で識別される、特性のリストが含まれます。任意の特性をクリックすると、ポップアップダイアログボックスが表示され、以下のオプションから選択できます。
 
 * **Keep Only：**&#x200B;レポートから他のすべての特性を削除し、この特性のデータのみを表示します。
 * **Exclude：**&#x200B;レポートからこの特性を削除し、他のすべての特性のデータを表示します。複数の特性を除外できます。
@@ -33,7 +33,7 @@ The middle column contains a list of traits, identified by [!UICONTROL Trait ID]
 
 [!UICONTROL Standard Deviation] 列には、選択した期間における各特性の標準偏差を示す、色分けされた棒グラフが表示されます。赤い棒は、負の標準偏差の特性を示します（データポイントが平均を下回る傾向がある）。緑の棒は、正の標準偏差の特性を示します（データポイントが平均を上回る傾向がある）。任意の棒にマウスポインターを置くと、詳細情報と、その特性を維持または除外して詳細を表示するオプションを含むポップアップダイアログボックスが表示されます。
 
-アイコンがレポートの下に表示され、様々な形式でデータを書き出したり、レポートに対しておこなった変更（特性の除外など）を元に戻したり、自動更新を有効または無効にしたり、レポートのデータを更新したりできます。詳しくは、[レポートのアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
+アイコンがレポートの下に表示され、様々な形式でデータを書き出したり、レポートに対しておこなった変更（特性の除外など）を元に戻したり、自動更新を有効または無効にしたり、レポートのデータを更新したりできます。詳しくは、[レポートのアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)を参照してください。
 
 ## ユースケース {#use-cases}
 
