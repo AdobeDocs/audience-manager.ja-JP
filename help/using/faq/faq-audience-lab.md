@@ -1,18 +1,18 @@
 ---
 description: Audience Lab 機能に関するよくある質問です。
 seo-description: Audience Lab 機能に関するよくある質問です。
-seo-title: オーディエンスラボに関するよくある質問
+seo-title: Audience Lab に関するよくある質問
 solution: Audience Manager
-title: オーディエンスラボに関するよくある質問
+title: Audience Lab に関するよくある質問
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Audience Lab の FAQ{#audience-lab-faq}
+# Audience Lab に関するよくある質問{#audience-lab-faq}
 
 Audience Lab 機能に関するよくある質問です。
 
@@ -24,34 +24,34 @@ audience-lab-faq.xml
 
 <br> 
 
-**テストグループに作成されたテストセグメントにはそれぞれ異なるセグメント ID が割り当てられますか？様々な送信先に ID をマッピングするにはどうすればよいですか？**
+**テストグループに作成されたテストセグメントにはそれぞれ異なるセグメント ID が割り当てられますか？様々な宛先に ID をマッピングするにはどうすればよいですか？**
 
-はい。テストセグメントにはそれぞれ異なるセグメント ID が割り当てられます。For destinations with [!UICONTROL Auto-fill Destination Mapping] or segments sent to [!DNL Google], [!UICONTROL Audience Lab] will handle the mapping values just like the destinations normally would.
+はい。テストセグメントにはそれぞれ異なるセグメント ID が割り当てられます。[!UICONTROL Auto-fill Destination Mapping]を使用する宛先、またはセグメントの宛先が [!DNL Google] である場合、[!UICONTROL Audience Lab]は通常の宛先の場合と同様にマッピング値を処理します。
 
-<br> 
+<br>
 
 **同じコンバージョン特性を複数のテストグループに関連付けることはできますか？**
 
 はい。できます。一方のテストでコンバージョン X に関連付けられた男性セグメントを使用し、他方のテストでコンバージョン X に関連付けられた女性セグメントを使用しているとします。これらは 2 つの異なるオーディエンスをテストしているので、両方のテストでコンバージョンが発生していても問題ありません。
 
-<br> 
+<br>
 
-**あるテストグループは、テストセグメントの分割に認証済みプロファイルを使用しているとします。認証済みプロファイルは 4 つの[Audience Manager UUID](../reference/ids-in-aam.md)に関連付けられています。When the visitor exhibits a conversion trait from one of the four UUIDs, does[!UICONTROL Audience Lab]count this as one or four conversions?**
+**あるテストグループは、テストセグメントの分割に認証済みプロファイルを使用しているとします。認証済みプロファイルは 4 つの[Audience Manager UUID](../reference/ids-in-aam.md)に関連付けられています。訪問者が 4 つの UUID の中の 1 つのコンバージョン特性を示した場合、[!UICONTROL Audience Lab]はこれを 1 つのコンバージョンまたは 4 つのコンバージョンどちらのコンバージョンとしてカウントしますか？**
 
-In this case, [!UICONTROL Audience Lab] only counts one conversion.
+この場合、[!UICONTROL Audience Lab]は 1 回のコンバージョンとしてのみカウントします。
 
-<br> 
+<br>
 
 **上記のケースで、訪問者は始めに認証済みプロファイルに関連付けられた 4 つの UUID の中の 1 つのコンバージョン特性を示し、次に他の 2 つの UUID のコンバージョン特性を示したとします。この場合、コンバージョンは 1 回または 3 回のどちらとしてカウントされますか？**
 
-In this case, [!UICONTROL Audience Lab] counts three conversions, one for each device that has exhibited the authentication trait.
+この場合、[!UICONTROL Audience Lab]は 3 回のコンバージョンとしてカウントします。認証済み特性を示した各デバイスについて 1 回となります。
 
-<br> 
+<br>
 
-**ユーザーはアクセス権を持つ[!UICONTROL Segment: Read-Only]ことができますが、セグメント作成アクセス[!UICONTROL Audience Lab]もテストできますか?**
+**ユーザーは[!UICONTROL Segment: Read-Only]アクセス権を持つ事ができますが、[!UICONTROL Audience Lab]テストセグメント作成権限も持つことはできますか？**
 
-See [Create Segment Test Group](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) for information on how to use [!UICONTROL Audience Lab] with [!UICONTROL RBAC] privileges.
+[!UICONTROL Audience Lab]での [!UICONTROL RBAC] 権限の使用方法に関する情報については、[セグメントのテストグループの作成](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)を参照してください。
 
-**[!UICONTROL Audience Lab][!UICONTROL Profile Link Device Graph]外部デバイスグラフ（[Adobe Experience Cloud Device Co- op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html)、Tapad Device Graph、Liveramp Device Graph）と組み合わせて使用できますか。**
+**[!UICONTROL Audience Lab]を[!UICONTROL Profile Link Device Graph]および外部のデバイスグラフ（[Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-overview.html)、Tapad デバイスグラフ、Liveramp デバイスグラフ）と共に使用することはできますか？**
 
-For now, [!UICONTROL Audience Lab] can only split out segment populations by the devices connected to a qualifying device, when using the [!UICONTROL Profile Link Device Graph]. We are working on adding support in [!UICONTROL Audience Lab] for the other device graphs and will let you know when we do so.
+[!UICONTROL Profile Link Device Graph]を使用する場合、[!UICONTROL Audience Lab]では今のところ、条件を満たすデバイスと関連付けられたデバイスによってのみセグメント母集団を分割できます。[!UICONTROL Audience Lab]で他のデバイスグラフもサポート対象とするよう作業を進めています。サポートの追加が完了し次第お知らせいたします。
