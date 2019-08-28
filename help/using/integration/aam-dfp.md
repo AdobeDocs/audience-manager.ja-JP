@@ -1,17 +1,17 @@
 ---
-description: DFP を送信先に設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
-seo-description: DFP を送信先に設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
-seo-title: Audience Manager の送信先として DFP を設定
+description: DFP を宛先に設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
+seo-description: DFP を宛先に設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
+seo-title: Audience Manager の宛先としての DFP
 solution: Audience Manager
-title: Audience Manager の送信先として DFP を設定
+title: Audience Manager の宛先としての DFP
 uuid: 12d6c2ce-f0fa-4a2c-8b88-fdad634df435
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ---
 
 
-# Audience Manager の送信先として DFP を設定 {#dfp-as-an-audience-manager-destination}
+# Audience Manager の宛先としての DFP {#dfp-as-an-audience-manager-destination}
 
 [!DNL DFP] を宛先として設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
 
