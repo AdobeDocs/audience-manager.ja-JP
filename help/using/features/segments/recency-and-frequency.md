@@ -5,7 +5,7 @@ seo-title: 最新性と頻度
 solution: Audience Manager
 title: 最新性と頻度
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,26 +13,26 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 最新性と頻度 {#recency-and-frequency}
 
-In [!UICONTROL Segment Builder], recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
+[!UICONTROL Segment Builder]では、最新性と頻度を使用すると、設定された日数ごとに繰り返されるアクションに基づいて訪問者をセグメント化することができます。
 
 Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように定義されています。
 
-* **[!UICONTROL Recency]:** ユーザーが1つまたは複数の特性に対して表示または資格を設定した日数。
-* **[!UICONTROL Frequency]:** ユーザーが1つまたは複数の特性に対して表示または修飾するレート。
+* **[!UICONTROL Recency]：**&#x200B;ユーザーが 1 つ以上の特性を確認した、または特性の対象として認定された日数。
+* **[!UICONTROL Frequency]：**&#x200B;ユーザーが 1 つ以上の特定を確認した、または特性の対象として認定された割合。
 
 [!UICONTROL Recency] と [!UICONTROL Frequency] の設定は、サイト、セクションまたは特定のクリエイティブに対する実際の（または認識された）関心レベルに基づいて訪問者をセグメント化するのに役立ちます。例えば、高い最新性／頻度要件でセグメントの対象として認定されるユーザーは、それほど頻繁に訪問していないユーザーよりも、サイトまたは製品に関心がある可能性があります。
 
-## Recency および Frequency 設定の場所 {#location}
+## 最新性および頻度設定の場所 {#location}
 
-In [!UICONTROL Segment Builder], [!UICONTROL Recency] and [!UICONTROL Frequency] settings are located in the [!UICONTROL Basic View] section of the [!UICONTROL Traits] panel. 時計アイコンをクリックして、これらのコントロールを表示します。
+[!UICONTROL Segment Builder]では、[!UICONTROL Recency]設定と[!UICONTROL Frequency]設定は、[!UICONTROL Traits]パネルの[!UICONTROL Basic View]セクションにあります。時計アイコンをクリックして、これらのコントロールを表示します。
 
 ![](assets/recency_frequency.png)
 
-## 制限とルール {#limitations-rules}
+## 制限とルール{#limitations-rules}
 
 最新性と頻度をセグメントの特性に適用する場合は、以下の制限およびルールを確認および理解してください。
 
-### リーセンシー
+### 最新性
 
 <table id="table_026064124C694D75B7A960457D50170B"> 
  <thead> 
