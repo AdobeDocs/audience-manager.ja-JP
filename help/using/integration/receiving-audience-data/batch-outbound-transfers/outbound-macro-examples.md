@@ -1,11 +1,11 @@
 ---
 description: 送信ファイルテンプレートの作成に、一部の一般的なマクロがどのように使用されるかを示す例です。
 seo-description: 送信ファイルテンプレートの作成に、一部の一般的なマクロがどのように使用されるかを示す例です。
-seo-title: アウトバウンドマクロの例
+seo-title: 送信マクロの例
 solution: Audience Manager
-title: アウトバウンドマクロの例
+title: 送信マクロの例
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## ファイル名マクロ {#file-name-macros}
 
-使用可能なマクロと定義の一覧については、[アウトバウンドテンプレートマクロ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)を参照してください。
+使用可能なマクロと定義の一覧については、[送信テンプレートマクロ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)を参照してください。
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -69,7 +69,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## ヘッダー行マクロ {#header-macros}
 
-使用可能なマクロと定義の一覧については、[アウトバウンドテンプレートマクロ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)を参照してください。
+使用可能なマクロと定義の一覧については、[送信テンプレートマクロ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)を参照してください。
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -81,14 +81,14 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>形式：<code>&lt;ORDER_ID&gt;&lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>出力：<code>888 full.sync </code> </p> <p>この出力では、各要素は非印刷のタブ文字で区切られています。 </p> </td>
+   <td colname="col2"> <p>形式：<code>&lt;ORDER_ID&gt;&lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>出力：<code>888 full.sync </code> </p> <p>この出力では、各要素は非表示のタブ文字で区切られています。 </p> </td>
   </tr>
  </tbody>
 </table>
 
-## ファイルコンテンツマクロ {#file-content-macros}
+## ファイルコンテンツマクロ{#file-content-macros}
 
-使用可能なマクロと定義の一覧については、[アウトバウンドテンプレートマクロ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)を参照してください。
+使用可能なマクロと定義の一覧については、[送信テンプレートマクロ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)を参照してください。
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -122,7 +122,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
    <td colname="col2"> <p><b>形式：</b> </p> <p> 
      <code>
-       {"AdvertiserId":"&lt;PIDALIAS&gt;", "DataCenterId": 2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;]}
+       {"AdvertiserId":"&lt;PIDALIAS&gt;", "DataCenterId": 2,"TDID":"&lt;DP_UUID&gt;","Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;]}
      </code></p><p><b>出力：</b></p> <p>
      <code>//First example 
 {"AdvertiserId":"12345", "DataCenterId": 2, 
@@ -139,7 +139,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>形式：<code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>出力：<code>123456 UUID1 UUID2 UUID3 </code> </p> <p>この出力では、各要素は非印刷のタブ文字で区切られています。 </p> </td> 
+   <td colname="col2"> <p>形式：<code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>出力：<code>123456 UUID1 UUID2 UUID3 </code> </p> <p>この出力では、各要素は非表示のタブ文字で区切られています。 </p> </td> 
   </tr>
   <tr>
    <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
@@ -150,7 +150,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ### `DPUUID` 例
 
-To help you understand how the `DPUUID` macro outputs data, lets assume we have 2 `DPID`s mapped to `DPUUID`s as shown below:
+`DPUUID` マクロによるデータの出力形式を理解できるように、次のように `DPUUID` に 2 つの`DPID` がマッピングされているとします。
 
 * DPID `1111` は DPUUID `AAAA`（timestamp = 1）および `BBBB`（timestamp = 2）にマッピングされています。
 * DPID `2222` は DPUUID `CCCC` にマッピングされています。
@@ -184,4 +184,4 @@ To help you understand how the `DPUUID` macro outputs data, lets assume we have 
  </tbody> 
 </table>
 
-[アウトバウンドテンプレートマクロ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
+[送信テンプレートマクロ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
