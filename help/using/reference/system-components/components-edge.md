@@ -5,7 +5,7 @@ seo-title: エッジデータセンターについて
 solution: Audience Manager
 title: エッジデータセンターについて
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 Audience Manager はエッジコンピューティングという分散型トポロジを採用することで、外部ソースによって課される要求を満たします。
 
-## エッジデータセンターの概要 {#edge-data-center-basics}
+## エッジデータセンターの概要{#edge-data-center-basics}
 
 <!-- 
 
@@ -29,7 +29,7 @@ c_compedge.xml
 
 * **コアサーバー：**&#x200B;これらは [!DNL Audience Manager] のメインシステムです。データを更新し、エッジサーバーに提供します。
 
-* **エッジサーバー：**&#x200B;多くの場合、これらはアプリケーションサーバーや Web サーバーです。[!DNL Audience Manager] とインターネットとの間の境界に位置します。[!UICONTROL DCS] や Akamai システムなどのエッジサーバーは通常、 [!DNL Audience Manager] で出し入れされるデータおよび要求を処理します。
+* **エッジサーバー：**&#x200B;多くの場合、これらはアプリケーションサーバーや Web サーバーです。[!DNL Audience Manager] とインターネットとの間の境界に位置します。[!UICONTROL DCS] や Akamai システムなどのエッジサーバーは通常、[!DNL Audience Manager] で出し入れされるデータおよび要求を処理します。
 
 * **ロードバランサー：**&#x200B;インターネットアプリケーションにつきものの不均等な計算／処理要求を管理します。これらのバランサーは、クラスター化されたサーバーにおいて、あるサーバーがオーバーロードで他のサーバーがアイドル状態となることを回避します。
 
@@ -37,6 +37,6 @@ c_compedge.xml
 
 ![](assets/edge_data_center.png)
 
-## 地理的な分布およびロードバランシング {#geo-dist-balance}
+## 地理的な分布およびロードバランシング{#geo-dist-balance}
 
-詳しくは、[!UICONTROL DCS]データ収集コンポーネント[の ](../../reference/system-components/components-data-collection.md) セクションを参照してください。
+詳しくは、[データ収集コンポーネント](../../reference/system-components/components-data-collection.md)の [!UICONTROL DCS] セクションを参照してください。
