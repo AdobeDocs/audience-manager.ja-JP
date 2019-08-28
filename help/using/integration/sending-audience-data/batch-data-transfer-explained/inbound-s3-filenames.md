@@ -5,7 +5,7 @@ seo-title: 受信データファイルの Amazon S3 名とファイルサイズ�
 solution: Audience Manager
 title: 受信データファイルの Amazon S3 名とファイルサイズの要件
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ec2d05290874a95e9cc9b8318fcc5e1e1986f5b9
 
 ---
@@ -17,25 +17,25 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`斜体 **、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## ファイル名の構文 {#file-name-syntax}
 
 [!DNL S3] ファイル名は、次の必須要素とオプション要素で構成されています。
 
-* **[!DNL S3]prefix:**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+* **[!DNL S3]プレフィックス：**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
-* **ファイル名要素：** `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
+* **ファイル名要素：**`ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-For other accepted file name formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
+使用可能なその他のファイル名の形式については、[カスタムパートナー統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)を参照してください。
 
 >[!NOTE] {importance="high"}
 >
->[!DNL Audience Manager] プロセス [!DNL ASCII] および [!DNL UTF-8] エンコードされたファイルのみを使用できます。
+>[!DNL Audience Manager] は、[!DNL ASCII] と [!DNL UTF-8] でエンコードされたファイルのみを処理します。
 
 ### 名前の要素
 
-The table defines the elements in an [!DNL S3] file name.
+次の表は、[!DNL S3] ファイル名の要素の定義を示しています。
 
 <table id="table_455D174BAB9B494D973DA1023F22B962"> 
  <thead> 
@@ -60,7 +60,7 @@ The table defines the elements in an [!DNL S3] file name.
      <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
       <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データパートナー ID：</b>Audience Manager が会社や組織に割り当てる一意の ID です。ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。例えば、「<code>...ftp_dpm_21_123456789.sync</code>」は、ID が 21 であるパートナーがファイルの送信者で、このファイルにはそのパートナーが割り当てたユーザー ID が含まれていることを <span class="keyword">Audience Manager</span> に通知します。 </li> 
       <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID（GAID）：</b>データファイルに Android の ID が含まれている場合、ファイル名に ID 20914 を使用します。例えば、「<code>...ftp_dpm_20914_21_123456789.sync</code>」は、データファイルに Android の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。注意：ID が 21 である </li> 
-      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名で ID 20915 を使用します。例えば、「<code>...ftp_dpm_20915_123456789.sync</code>」は、データファイルに iOS の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
+      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。例えば、「<code>...ftp_dpm_20915_123456789.sync</code>」は、データファイルに iOS の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
      </ul> 
     </draft-comment> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p> <p>下記の <code><i> _DPID_TARGET_DATA_OWNER</i></code> エントリも参照してください。 </p> </td> 
   </tr> 
@@ -121,7 +121,7 @@ The table defines the elements in an [!DNL S3] file name.
 
 追加の例が必要であれば、サンプルを[ダウンロード](assets/ftp_dpm_1234_1445374061.overwrite)することもできます。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 許容されるファイルサイズ {#accepted-file-sizes}
+## 許容されるファイルサイズ{#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL Amazon S3] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
