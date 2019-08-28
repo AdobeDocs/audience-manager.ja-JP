@@ -1,12 +1,12 @@
 ---
 description: Audience Management モジュールを Adobe Analytics AppMeasurement に追加すると、Audience Manager データ統合ライブラリ（DIL）コードでページからピクセルを送信するのではなく、Analytics データを Audience Manager に転送することができます。
-keywords: オーディエンス分析;analytics;ssf;サーバー側転送
+keywords: audience analytics; analytics; ssf; サーバー側転送
 seo-description: Audience Management モジュールを Adobe Analytics AppMeasurement に追加すると、Audience Manager データ統合ライブラリ（DIL）コードでページからピクセルを送信するのではなく、Analytics データを Audience Manager に転送することができます。
 seo-title: Audience Management モジュールの実装
 solution: Audience Manager
 title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 
 ---
@@ -14,24 +14,24 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 
 # Audience Management モジュールの実装 {#implement-the-audience-management-module}
 
-Add the [!UICONTROL Audience Management Module] to [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] to forward [!DNL Analytics] data to Audience Manager instead of having the Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) code send a pixel from the page.
+[!UICONTROL Audience Management Module] を [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] に追加すると、 Audience Manager [!UICONTROL Data Integration Library] （[!UICONTROL DIL]）コードでページからピクセルを送信する代わりに、[!DNL Analytics] データを Audience Manager に転送することができます。
 
 ## 前提条件 {#prereqs}
 
 このドキュメントで説明したコードの実装に加えて、以下をおこなう必要があります。
 
-* [Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/en_US/mcvid/)を実装する。
-* Enable [!UICONTROL Server-Side Forwarding] for report suites in the [!UICONTROL Adobe Analytics Admin Console].
+* [Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を実装する。
+* [!UICONTROL Adobe Analytics Admin Console] でレポートスイートの[!UICONTROL Server-Side Forwarding]を有効にします。
 
 ## 実装 {#implementation}
 
-To implement the [!UICONTROL Audience Management Module]:
+[!UICONTROL Audience Management Module] を実装するには：
 
-1. Download [!UICONTROL AppMeasurement] using the [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html) (requires version 1.5 or later).
+1. [Analytics Code Manager](https://marketing.adobe.com/resources/help/ja_JP/reference/code_manager_admin.html)（バージョン 1.5 以降が必要）を使用して、[!UICONTROL AppMeasurement] をダウンロードします。
 1. ダウンロードした zip ファイルに含まれていたバージョンに [!UICONTROL AppMeasurement] コードを更新します。
 1. zip ファイルの `AppMeasurement_Module_AudienceManagement.js` からすべてのコードをコピーします。`appMeasurement.js` ファイルの「`"DO NOT ALTER ANYTHING BELOW THIS LINE."`」というテキストのすぐ上に貼り付けます。
 1. 前の手順で追加した `AppMeasurement_Module_AudienceManagement.js` コードのすぐ上に、コード `s.loadModule("AudienceManagement");` を追加します。
-1. 以下のコードを更新およびコピーして、`doPlugins` ファイルの `AppMeasurement.js` 関数に追加します。
+1. 以下のコードを更新およびコピーして、`AppMeasurement.js` ファイルの `doPlugins` 関数に追加します。
 
 ```js
 s.AudienceManagement.setup({ 
@@ -57,18 +57,18 @@ s.AudienceManagement.setup({
 
 | パラメーター | 説明 |
 |--- |--- |
-| `partner` | 必須。これは、アドビによって割り当てられたパートナー名です。「パートナー ID」や「パートナーサブドメイン」と呼ばれることもあります。パートナー名が不明な場合は、アドビのコンサルタントまたは[カスタマーケア](https://helpx.adobe.com/marketing-cloud/contact-support.html)にお問い合わせください。 |
+| `partner` | 必須。これは、アドビによって割り当てられたパートナー名です。「パートナー ID」や「パートナーサブドメイン」と呼ばれることもあります。パートナー名が不明な場合は、アドビのコンサルタントまたは[カスタマーケア](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)にお問い合わせください。 |
 | `containerNSID` | 必須。ほとんどの場合は、`"containerNSID":0` に設定できます。ただし、会社が異なるコンテナを使用して ID 同期をカスタマイズする必要がある場合、ここでそのコンテナ ID を指定できます。 |
 | `uuidCookie` | オプションです。この設定を使用すると、ファーストパーティドメインに Adobe Cookie を設定できます。この Cookie には、[UUID](../../reference/ids-in-aam.md) が含まれます。 |
-| `visitorService` - `namespace` | 必須。`namespace` パラメーターは、 バージョン 2.10 以降にバンドルされている AudienceManagement モジュールを使用する場合に必要です。[!UICONTROL AppMeasurement][!UICONTROL AudienceManagement] このモジュールでは3.3以降を使用 [!UICONTROL Experience Cloud ID Service] する必要があります。<br>は [!UICONTROL Experience Cloud Organization ID] 、サインアップ時に会社が提供するID [!UICONTROL Experience Cloud]です。Find out your company's Organization ID in [Organizations and Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html). |
+| `visitorService` - `namespace` | 必須。`namespace` パラメーターは、[!UICONTROL AppMeasurement] バージョン 2.10 以降にバンドルされている AudienceManagement モジュールを使用する場合に必要です。この [!UICONTROL AudienceManagement] モジュールでは、[!UICONTROL Experience Cloud ID Service] 3.3 以降を使用する必要があります。<br>[!UICONTROL Experience Cloud Organization ID]は会社が [!UICONTROL Experience Cloud] に新規登録したときに生成される ID です。組織 ID を見つけるには、[組織とアカウントのリンク](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)を参照してください。 |
 
 ## 結果：Audience Manager へのデータ転送 {#results-data-forwarding}
 
-Your [!DNL Analytics] implementation sends data to Audience Manager after you have:
+以下の手順をおこなった後、[!DNL Analytics] 実装は Audience Manager にデータを送信します。
 
-* Enabled [!UICONTROL Server-Side Forwarding] (talk to your consultant about this feature);
+* [!UICONTROL Server-Side Forwarding]を有効にする（この機能については、コンサルタントにお問い合わせください）。
 * ID サービスを実装する。
-* Installed the [!UICONTROL Audience Management Module].
+* [!UICONTROL Audience Management Module] をインストールする。
 
 このプロセスは、以下の場合に [!DNL Audience Manager] にデータを送信します。
 
