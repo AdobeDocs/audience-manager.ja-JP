@@ -1,17 +1,17 @@
 ---
 description: レポートに関するよくある質問および問題点。
 seo-description: レポートに関するよくある質問および問題点。
-seo-title: レポートの FAQ
+seo-title: レポートに関するよくある質問
 solution: Audience Manager
-title: レポートの FAQ
+title: レポートに関するよくある質問
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# レポートの FAQ{#reporting-faq}
+# レポートに関するよくある質問{#reporting-faq}
 
 レポートに関するよくある質問および問題点。
 
@@ -23,28 +23,28 @@ faq_reports.xml
 
  -->
 
-**新しいオンボーブの特徴については、[!UICONTROL Trait Graph]予想される数値や0よりも小さいのはなぜですか。**
+**新しく転送された特性について、[!UICONTROL Trait Graph]に想定より小さい値や 0 が表示されることがあるのはなぜですか？**
 
-Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. この状況は、受け取るデータの量が大きすぎて、受信処理ジョブで当日のレポート期限までにこの情報の収集を完了できない場合に発生します。
+場合によっては、特性をアップロードした後、[!UICONTROL Trait Graph]に結果が表示されなかったり、想定より小さい数字が表示されることがあります。この状況は、受け取るデータの量が大きすぎて、受信処理ジョブで当日のレポート期限までにこの情報の収集を完了できない場合に発生します。
 
-As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
+その結果、このデータがレポートシステムに送信されるのが遅れ、1 日（[!UICONTROL Trait Graph]のプロットに使用するレポート間隔）の間表示されなくなります。ただし、次の日の[トレンド](../reporting/trend-reports.md#trend-report-overview)レポートまたは[一般レポート](../reporting/general-reports.md#general-reports-overview)では、このデータを 7 日、14 日、30 日および 60 日のレポート間隔で表示できます。
 
-<br> 
+<br>
 
-**一部のセグメントはレポートに[!UICONTROL Overlap]ありません。どこにありますか？**
+**[!UICONTROL Overlap]レポートで一部のセグメントが欠落しています。どこにありますか？**
 
 必要な計算量を少なくするために、これらのレポートでは統計的な重要性が低いデータを結果から省略しています。セグメントは欠落しているのではなく、有意義な結果や、ターゲットにできるユーザーの便利なプールが得られないため省略されています。以下のページも参照してください。
 
 * [レポートおよびデータのサンプリング方法](../reporting/report-sampling.md)
 * [重複レポートと汎用レポートでの個別ユーザーのカウント](../reporting/unique-user-counts.md)
 
-<br> 
+<br>
 
 **電子メールマーケティングキャンペーンを実行する場合に、リダイレクトされたユーザーがそのキャンペーンから来ているか、他のソースから来ているかをどのように判別すればよいですか？**
 
 キャンペーン固有のクエリ文字列を、監視対象のサイトセクションの URL に追加します。次に、この変数をキャプチャするための特性ルールを設定します。例えば、URL が `www.test123.com/electronics?campaign=123` のような形でキャンペーン ID を渡す場合、`h_referer = 'campaign=123'` のような形式のヘッダーを検索する特性ルールを使用して、`h_referer` 変数からデータをキャプチャするための特性ルールを作成します。
 
-<br> 
+<br>
 
 **リアルタイムカウントと合計セグメント母集団カウントにはどのような違いがありますか？**
 
@@ -59,13 +59,13 @@ As a result, this data is sent to the reporting system late and won't show up in
 
  -->
 
-<br> 
+<br>
 
 **1 つの特性だけで構成されているセグメントがあります。レポート指標を見ると、カウントが一致しません。これはなぜですか？**
 
 [セグメントビルダーにおける特性およびセグメント母集団データ](../features/segments/segment-builder-data.md)を参照してください。
 
-<br> 
+<br>
 
 <!-- 
 
@@ -80,9 +80,9 @@ As a result, this data is sent to the reporting system late and won't show up in
 
 **ファイルを受信し、受信レシートには正常に処理されたレコードの数が多いことが示されていますが、レポートでは少ない数が示されています。なぜでしょうか？**
 
-バックエンドで、転送されたデータは AAM でアクティブなユーザー（ユーザーは過去 120 日以内に [!UICONTROL DCS] アクティビティをおこなっている）に対してのみ添付されます。Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
+バックエンドで、転送されたデータは AAM でアクティブなユーザー（ユーザーは過去 120 日以内に [!UICONTROL DCS] アクティビティをおこなっている）に対してのみ添付されます。そのため、[!DNL Audience Manager] で期限切れになっているユーザーのデータを転送すると、[!UICONTROL Inbound]レシートから一定数のユーザーレコードが転送されたことが通知される場合がありますが、これらのユーザーに最近のアクティビティがない場合、このデータは[!UICONTROL User Profile Store]に到達した時点で破棄されます。
 
-<br> 
+<br>
 
 **デバイス間で転送された特性の特性ユニーク数が、転送されたレコード数より多いのはなぜですか？**
 
@@ -95,14 +95,14 @@ As a result, this data is sent to the reporting system late and won't show up in
 * ユーザーが複数のコンピューターやブラウザーから同じデバイス間アカウントにログインしている。
 * ユーザーが Cookie を消去している。注意：ユーザーが「破棄」して 120 日間使用されなかった Cookie は削除されます。
 
-<br> 
+<br>
 
-**onbotedの特徴[!UICONTROL Total Trait Realizations]が常に0であるのはなぜですか?**
+**オンボードされた特性の[!UICONTROL Total Trait Realizations]が常に「0」となるのはなぜですか？**
 
-[!UICONTROL Total Trait Realizations] ページの読み込みに対応します。[!UICONTROL Total Trait Realizations] 特定の特性がリアルタイムで実行された回数を指定します。この数字は、ルールベースの特性についてのみ計算されます。Onboarded traits always show [!UICONTROL Total Trait Realizations] as 0.
+[!UICONTROL Total Trait Realizations] はページの読み込みに対応します。[!UICONTROL Total Trait Realizations]は、特定の特性がリアルタイムで実行された回数を提供します。この数字は、ルールベースの特性についてのみ計算されます。オンボードされた特性には、常に [!UICONTROL Total Trait Realizations] は「0」として表示されます。
 
-<br> 
+<br>
 
-**特性を作成し、より[!UICONTROL Trait Graph]大きな数を表示[!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Population]しました。これは正常でしょうか？**
+**特性を作成したところ、[!UICONTROL Trait Graph]に表示された[!UICONTROL Unique Trait Realizations]の数が[!UICONTROL Total Trait Population]よりも大きくなりました。これは正常でしょうか？**
 
-You are seeing this because the [!UICONTROL Unique Trait Realizations] are real-time metrics, but the reporting jobs we do to calculate the [!UICONTROL Total Trait Population] are not real-time. [!UICONTROL Total Trait Population] この値は、数日 [!UICONTROL Unique Trait Realizations] 以内にする必要があります。
+このような状況が発生するのは、[!UICONTROL Unique Trait Realizations] がリアルタイム指標であるのに対し、[!UICONTROL Total Trait Population] を計算するためのレポートジョブはリアルタイムではないからです。[!UICONTROL Total Trait Population] は、数日間は [!UICONTROL Unique Trait Realizations] よりも大きくなります。
