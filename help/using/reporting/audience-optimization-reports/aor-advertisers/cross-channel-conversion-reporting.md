@@ -1,11 +1,11 @@
 ---
-description: Audience Optimization レポートの「Cross Channel Conversion」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
-seo-description: Audience Optimization レポートの「Cross Channel Conversion」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
-seo-title: Cross Channel Conversion
+description: Audience Optimization レポートの「クロスチャネルコンバージョン」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
+seo-description: Audience Optimization レポートの「クロスチャネルコンバージョン」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
+seo-title: クロスチャネルコンバージョン
 solution: Audience Manager
-title: Cross Channel Conversion
+title: クロスチャネルコンバージョン
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,15 +13,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # クロスチャネルコンバージョン{#cross-channel-conversion}
 
-Audience Optimization レポートの「Cross Channel Conversion」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
+Audience Optimization レポートの「クロスチャネルコンバージョン」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
 
-[!UICONTROL Cross Channel Conversion] レポートでは、 [!DNL DoubleClick Campaign Manager] （DCM）プラットフォームの結果をコンバージョン特性と [!DNL Audience Manager] 組み合わせています。これにより、オフラインのコンバージョンをオンラインのインプレッションやクリックに関連付けることができます。
+[!UICONTROL Cross Channel Conversion]レポートは、[!DNL DoubleClick Campaign Manager]（DCM）プラットフォームから得られた結果と [!DNL Audience Manager] のコンバージョン特性を組み合わせたものです。これにより、オフラインのコンバージョンをオンラインのインプレッションやクリックに関連付けることができます。
 
-[!UICONTROL Cross Channel Conversion][セグメントのパフォーマンスレポート](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) と [最適な頻度](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) レポートで使用できます。
+[!UICONTROL Cross Channel Conversion]は、[セグメントパフォーマンス](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) レポートと[最適な頻度](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)レポートに使用できます。
 
-To view the [!UICONTROL Cross Channel Conversion] reports, select the **[!UICONTROL AAM+DCM]** item in the **[!UICONTROL Platform]** drop-down list.
+[!UICONTROL Cross Channel Conversion]レポートを表示するには、**[!UICONTROL Platform]**&#x200B;ドロップダウンリストで **[!UICONTROL AAM+DCM]** アイテムを選択します。
 
-The following table lists important considerations when setting up [!UICONTROL Cross Channel Conversion]:
+[!UICONTROL Cross Channel Conversion]をセットアップする際に考慮すべき重要な事項を次の表に示します。
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
