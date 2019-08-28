@@ -5,7 +5,7 @@ seo-title: シグナル、特性、セグメント
 solution: Audience Manager
 title: シグナル、特性、セグメント
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -36,7 +36,7 @@ c_signal_trait_segment.xml
  <tbody> 
   <tr> 
    <td colname="col1"><b>シグナル</b> </td> 
-   <td colname="col2"> <p>シグナルは <span class="keyword"> Audience Manager</span> で最小のデータ単位で、<a href="../reference/key-value-pairs-explained.md"> キーと値のペア</a>として表現されます。 </p> 
+   <td colname="col2"> <p>シグナルは <span class="keyword">Audience Manager</span> で最小のデータ単位で、<a href="../reference/key-value-pairs-explained.md"> キーと値のペア</a>として表現されます。 </p> 
     <ul id="ul_728347E325284B9FA0B4E05DE8CF4570"> 
      <li id="li_89574A3B4A734726AD43405AE6D85FF5">キーは、データセットを定義する定数です（例：gender、color、price）。 </li> 
      <li id="li_D35601B33EE24EC5857F45D9577254D4">値は、定数に関連する変数です（例：male/female、green、100）。 </li> 
