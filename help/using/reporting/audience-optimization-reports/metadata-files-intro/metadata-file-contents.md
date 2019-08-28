@@ -5,7 +5,7 @@ seo-title: メタデータファイルのコンテンツの形式
 solution: Audience Manager
 title: メタデータファイルのコンテンツの形式
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -31,9 +31,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 **ファイルエントリを ^a（Ctrl + A または ASCII 001）で区切る**
 
-Use `^a` (control-A or ASCII 001) to separate content in your metadata files. これらは非印字文字なので、上記の構文例では、表示のためだけにパイプ「|」を使用しています。
+`^a`（Ctrl + A または ASCII 001）を使用して、メタデータファイルのコンテンツを区切ります。これらは非印字文字なので、上記の構文例では、表示のためだけにパイプ「|」を使用しています。
 
-If needed, you may download the example file - [20181105_0_1](assets/20181105_0_1.zip). 必要な区切り文字が既に含まれているため、選択したエディターでそれを解凍して編集し、実際のメタデータコンテンツに従って調整します。
+必要に応じて、サンプルファイル [20181105_0_1](assets/20181105_0_1.zip) をダウンロードできます。必要な区切り文字が既に含まれているため、ダウンロードしたファイルを展開してお好きなエディターで編集し、実際のメタデータコンテンツに従って調整してください。
 
 >[!IMPORTANT]
 >
@@ -58,7 +58,7 @@ If needed, you may download the example file - [20181105_0_1](assets/20181105_0_
 333 Campaign C -1
 ```
 
-**クリエイティブ**
+**Creative**
 
 この例では、ファイルタイトルは 20180827_0_2 で、ファイルの 3 つの列はクリエイティブ ID、名前、親 ID です。
 
@@ -71,7 +71,7 @@ If needed, you may download the example file - [20181105_0_1](assets/20181105_0_
 333 Creative C -1
 ```
 
-**サイト**
+**Site**
 
 この例では、ファイルタイトルは 20180921_0_5 で、ファイルの 3 つの列はサイト ID、名前、親 ID です。
 
