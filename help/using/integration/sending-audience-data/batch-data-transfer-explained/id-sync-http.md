@@ -5,7 +5,7 @@ seo-title: 受信データ転送のための ID 同期
 solution: Audience Manager
 title: 受信データ転送のための ID 同期
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0fac081c93be36d2aa40023c7323ef1886b3860a
 
 ---
@@ -27,13 +27,13 @@ ID 同期は、受信の非同期データ転送プロセスの最初のステ�
 
 ## ID 同期 `HTTP` リクエスト {#id-sync-http}
 
-In an ID exchange, a properly formatted [!DNL URL] string should look like this:
+ID 交換では、適切な形式の [!DNL URL] 文字列は次のようになります。
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
-The [!DNL URL] for your inbound ID synchronization call should contain variables described in the table below.
+受信 ID 同期呼び出しの [!DNL URL] には、以下の表で説明する変数が含まれている必要があります。
 
 >[!NOTE]
 >
@@ -60,12 +60,12 @@ The [!DNL URL] for your inbound ID synchronization call should contain variables
    <td colname="col2"> <p>エンコードされた URL は、マクロ <code>${DD_UUID}</code> が埋め込まれてリダイレクトされます。 </p> <p>注意：コンテンツプロバイダーが呼び出しを開始した場合にのみ追加されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code><i>dgpr=&lt;0|1&gt;</i></code> </td> 
-   <td colname="col2"> <p>オプションです。Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code> dgpr</code> は、0（GGPRが適用されません）または1（GGPR適用）です。 </p> <p> <b>注意:</b> このパラメーターはgdpr_ acceptと <code>一緒にのみ使用</code>できます。</p></td> 
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
+   <td colname="col2"> <p>オプションです。<a href="../../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code> gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr_consent</code> と一緒に使用する必要があります。</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code><i>dgpr_ accept=&lt;エンコードされたSTRING&gt;</i></code> </td> 
-   <td colname="col2"> <p>オプションです。Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>ddpr_ accept</code> は、URLセーフベースの64エンコードGGPRの同意文字列です（ <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB仕様</a>を参照）。 </p> <p> <b>注意:</b> このパラメーターは <code>gdpr</code>と一緒にのみ使用できます。</p> </td> 
+   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
+   <td colname="col2"> <p>オプションです。<a href="../../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code>gdpr_consent</code> は、URL で使用できる base64 でエンコードされた GDPR コンセントストリングです（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB の仕様</a>を参照）。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr</code> と一緒に使用する必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
