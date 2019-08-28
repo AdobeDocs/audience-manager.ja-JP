@@ -5,7 +5,7 @@ seo-title: データソースリストと設定
 solution: Audience Manager
 title: データソースリストと設定
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
 
 <!-- c_datasources.xml -->
 
-You can also manage data sources using [!DNL API] methods. For more information, see [Data Source API Methods](../api/rest-api-main/aam-api-data-sources.md).
+また、[!DNL API] メソッドを使用してデータソースを管理することもできます。詳しくは、[データソース API メソッド](../api/rest-api-main/aam-api-data-sources.md)を参照してください。
 
 ## データソースのリスト表示 {#list-view}
 
@@ -25,21 +25,21 @@ You can also manage data sources using [!DNL API] methods. For more information,
 
 <!-- c_datasources_list.xml -->
 
-[!UICONTROL Data Sources] ダッシュボード（**[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**）には、次の機能を備えた機能とツールが含まれています。
+[!UICONTROL Data Sources]ダッシュボード（**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]**）には、以下の操作に役立つ機能およびツールが含まれています。
 
-* See all your existing data sources, including each data source's description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
+* 各データソースの説明やステータス、[!UICONTROL Inbound]、[!UICONTROL Outbound]、両方、または [!UICONTROL Shared Provider]の別なども含めて、既存のすべてのデータソースを表示する。
 * データソースを名前で検索する。
 * データソースを作成、編集および削除する。
 
 ## データソース設定とメニューオプション{#settings-menu-options}
 
-[!UICONTROL Data Source] 管理インターフェイスの様々なセクションの設定によって、データソースを識別し、使用または共有する方法を決定し、エラーレポートを有効 [!UICONTROL Onboarding Status Report]にすることができます。
+[!UICONTROL Data Source]管理インターフェイスの様々なセクションの設定によって、データソースが特定され、データソースの使用および共有方法が決まり、[!UICONTROL Onboarding Status Report]でのエラー報告を有効にすることができます。
 
 ## Data Source Details {#details}
 
 <!-- datasource-settings-definitions.xml -->
 
-テキストフィールドだけでなく、「[!UICONTROL Data Source Details]」セクションには、以下のコントロールとオプションも含まれています。
+テキストフィールドに加え、「[!UICONTROL Data Source Details]」セクションには、以下のコントロールとオプションも含まれています。
 
 <table id="table_BF73919473D74444B38939A36C2F7CDA"> 
  <thead> 
@@ -58,7 +58,7 @@ You can also manage data sources using [!DNL API] methods. For more information,
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol">Cross Device</span></b>：顧客が指定する認証済み ID。このオプションを選択するのは、次のものを作成する場合です。 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">クロスデバイス対応データソースと<span class="wintitle">プロファイル結合ルール</span>の構築 </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B"><a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external">Adobe Experience Cloud Device Co-op</a>、または <span class="keyword">Audience Manager</span> と統合されている別のサードパーティデバイスグラフで提供されるリンクを使用するデータソース。 </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B"><a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/" format="https" scope="external">Adobe Experience Cloud Device Co-op</a>、または <span class="keyword">Audience Manager</span> と統合されている別のサードパーティデバイスグラフで提供されるリンクを使用するデータソース。 </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -66,8 +66,8 @@ You can also manage data sources using [!DNL API] methods. For more information,
    <td colname="col1"> <p> <b><span class="uicontrol"> ID Definition</span></b> </p> </td> 
    <td colname="col2"> <p>「<b><span class="uicontrol">ID Definition</span></b>」のオプションは、<span class="keyword">Audience Manager</span> のユーザー ID（UUID）や、<span class="keyword">Adobe Experience Cloud Device Co-op</span>（または <span class="keyword">Audience Manager</span> と統合されている別のサードパーティデバイスグラフ）でリンクされる関連デバイスとデータソースとの関係を定義します。オプションは以下のとおりです。 </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
-      <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol">Person</span></b>： 1 人の個人を定義するのに使用される ID。この ID は複数の <span class="keyword">Audience Manager</span> ID にマッピングできます。 </li> 
-      <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol">Household</span></b>：人々のグループを定義するのに使用される ID。この ID は複数の Audience Manager ID にマッピングできます。 </li> 
+      <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol">Person</span></b>：個人を定義するのに使用される ID。この ID は複数の <span class="keyword">Audience Manager</span> ID にマッピングできます。 </li> 
+      <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol">Household</span></b>：ユーザーのグループを定義するのに使用される ID。この ID は複数の Audience Manager ID にマッピングできます。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -75,7 +75,7 @@ You can also manage data sources using [!DNL API] methods. For more information,
 
 ## データ書き出しコントロール {#export-controls}
 
-[データ書き出しコントロール](../features/data-export-controls.md)は、データソースおよび宛先に適用できるオプションの分類ルールです。宛先へのデータ送信がデータのプライバシーや使用契約に違反する場合、データ送信を防止します。Skip this section if you do not use [!UICONTROL Data Export Controls].
+[データ書き出しコントロール](../features/data-export-controls.md)は、データソースおよび宛先に適用できるオプションの分類ルールです。宛先へのデータ送信がデータのプライバシーや使用契約に違反する場合、データ送信を防止します。データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
 
 >[!IMPORTANT]
 >
@@ -91,7 +91,7 @@ You can also manage data sources using [!DNL API] methods. For more information,
 
 ## Data Source Settings {#data-source-settings}
 
-The [!UICONTROL Data Source Settings] contains the controls and options listed below. これらの設定の中には、データソースを変更するためのサブオプションやメニュー項目が追加されているものがあります。
+「[!UICONTROL Data Source Settings]」セクションには、以下のコントロールとオプションが含まれています。これらの設定の中には、データソースを変更するためのサブオプションやメニュー項目が追加されているものがあります。
 
 ### 受信データソース設定
 
@@ -107,16 +107,16 @@ The [!UICONTROL Data Source Settings] contains the controls and options listed b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> ID Type</span></b> </p> </td> 
-   <td colname="col2"> <p>「<b><span class="uicontrol">Inbound</span>」オプションには ID タイプが必要です。</b>オプションは以下のとおりです。 </p> <p> 
+   <td colname="col2"> <p>「<b><span class="uicontrol">Inbound</span></b>」オプションには ID タイプが必要です。オプションは以下のとおりです。 </p> <p> 
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol">Customer ID</span></b>：受信データを顧客 ID で識別します。 </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol">Audience Manager ID</span></b>：受信データを <span class="keyword">Audience Manager</span> ID で識別します。 </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol">Experience Cloud ID</span></b><span class="keyword">：受信データを Experience Cloud ID で識別します。</span>詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a>を参照してください。 </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol">Experience Cloud ID</span></b>：受信データを <span class="keyword">Experience Cloud ID</span> で識別します。詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a>を参照してください。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> File Format Troubleshooting</span></b> </p> </td> 
-   <td colname="col2"> <p>受信ファイル処理の問題をトラブルシューティングする必要がある場合は、「<b><span class="uicontrol">Enable file error sampling</span>」を選択します。</b>ファイル形式および構文に関するエラーが表示されるエラーサンプルレポートが生成されるようになります。 </p> <p>詳しくは、<a href="../reporting/onboarding-status-report.md#onboarding-status-about">オンボーディングステータスレポート：概要</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>受信ファイル処理の問題をトラブルシューティングする必要がある場合は、「<b><span class="uicontrol">Enable file error sampling</span></b>」を選択します。ファイル形式および構文に関するエラーが表示されるエラーサンプルレポートが生成されるようになります。 </p> <p>詳しくは、<a href="../reporting/onboarding-status-report.md#onboarding-status-about">オンボーディングステータスレポート：概要</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,8 +156,8 @@ The [!UICONTROL Data Source Settings] contains the controls and options listed b
    <td colname="col2"> <p>他の <span class="keyword">Experience Cloud</span> ソリューションと共有できる訪問者 ID やデバイス ID がデータソースに含まれている場合。 </p> </td> 
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> 非アクティブな顧客IDのデータ保持</span></b> </p> </td> 
-   <td colname="col2"> <p>非アクティブな顧客IDのデータ保持期間を設定できます。Audience ManagerがAudience Managerプラットフォームで最後に確認された後、Audience Managerがデータベースに顧客IDを保持する方法を決定します。</p> <p>デフォルト値は24ヶ月（720日）です。設定できる最小値は1か月、最大値は5年です。すべての月は30日としてカウントされます。</p> <p>Audience Managerは、非アクティブな顧客IDに設定したデータ保持に従って、非アクティブな顧客IDを週1度削除するプロセスを実行します。</p> <p>Audience Managerは、非アクティブな顧客IDに設定したデータ保持に従って、非アクティブな顧客IDを週1度削除するプロセスを実行します。</p> <p><b>注意</b>:このコントロールは、デバイス間のデータソースでのみ使用できます。See also, <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Create a Cross-Device Data Source </a>.</p></td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> 非アクティブな顧客 ID のデータ保持</span></b> </p> </td> 
+   <td colname="col2"> <p>非アクティブな顧客 ID のデータ保持期間を設定できます。これにより、Audience Manager プラットフォームに Audience Manager が最後に表示された後、Audience Manager がデータベースに顧客 ID を保持する期間を決定します。</p> <p>デフォルト値は 24 か月（720 日）です。設定できる最小値は 1 か月、最大値は 5 年です。すべての月は 30 日としてカウントされます。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p><b>注意</b>：このコントロールは、クロスデバイス対応データソースでのみ使用できます。<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応データソースの作成</a>も参照してください。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Unique Trait Integration Codes</span></b> </p> </td> 
