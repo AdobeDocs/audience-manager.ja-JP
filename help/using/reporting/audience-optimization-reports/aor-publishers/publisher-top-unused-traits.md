@@ -5,7 +5,7 @@ seo-title: 上位の未使用特性
 solution: Audience Manager
 title: 上位の未使用特性
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -17,15 +17,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## ユースケース {#use-cases}
 
-[!UICONTROL Top Unused Traits] レポートを使用すると、現在セグメントにマッピングされていないファーストパーティおよびサードパーティの特性のパフォーマンスを分析および比較できます。このビューから、キャンペーン最適化またはまったく新しいビジネスチャンスのためにオーディエンスセグメントで使用するのに最適な特性を指摘することができます。
+[!UICONTROL Top Unused Traits]レポートを使用すると、現在セグメントにマッピングされていないファーストパーティ特性とサードパーティ特性のパフォーマンスを分析および比較することができます。このビューから、キャンペーン最適化またはまったく新しいビジネスチャンスのためにオーディエンスセグメントで使用するのに最適な特性を指摘することができます。
 
-## 上位の未使用特性レポートの使用 {#using-the-report}
+## 上位の未使用特性レポートの使用{#using-the-report}
 
-Use the **[!UICONTROL Data Provider Type]** controls to toggle between first party and third party traits. 「**[!UICONTROL All]**」を選択すると、ファーストパーティ特性とサードパーティ特性がレポートに表示されます。
+「**[!UICONTROL Data Provider Type]**」コントロールを使用して、ファーストパーティ特性とサードパーティ特性を切り替えます。「**[!UICONTROL All]**」を選択すると、ファーストパーティ特性とサードパーティ特性がレポートに表示されます。
 
 **[!UICONTROL Impressions]** スライダーでは、返されるインプレッション数の最小値と最大値を選択できます。設定した限度を下回るまたは上回る原因となっている特性は、レポートに表示されません。
 
-Use the **[!UICONTROL Day Range]** and **[!UICONTROL Date Through]** controls to adjust your look-back range. このレポートには 30 日間のルックバック期間のみ使用できることに注意してください。
+**[!UICONTROL Day Range]** コントロールと **[!UICONTROL Date Through]** コントロールを使用して、ルックバック範囲を調整します。このレポートには 30 日間のルックバック期間のみ使用できることに注意してください。
 
 「**[!UICONTROL Order]**」ドロップダウンボックスを使用して、情報を求めている、ポートフォリオ内の Web プロパティを選択します。
 
@@ -35,13 +35,13 @@ Use the **[!UICONTROL Day Range]** and **[!UICONTROL Date Through]** controls to
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
+>[!UICONTROL Audience Optimization for Publishers]を有効にする場合、[DFP データファイルを Audience Manager にインポート](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Order IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Order ID]ではなく[!UICONTROL Order]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
 **レポートのサンプル**
 
-[!UICONTROL Top Unused Traits] レポートは以下のようになります。レポート内でバブルをクリックすると、基になっているデータが表示されます。
+[!UICONTROL Top Unused Traits]レポートは次のようになります。レポート内でバブルをクリックすると、基になっているデータが表示されます。
 
 追加情報については、サンプルレポートの下の表を参照してください。
 
@@ -100,7 +100,7 @@ Impressions 軸に関して高い位置にある特性は、キャンペーン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>左上</b> </p> </td> 
-   <td colname="col2"> <p>インプレッション数が多く、特性適合回数が少ない。 </p> <p>これは、まだセグメントのメンバーでない非常に正確なオーディエンスです。ターゲット設定の対象として検討してください。 </p> </td> 
+   <td colname="col2"> <p>インプレッション数が多く、特性適合回数が少ない。 </p> <p>これは、まだセグメントのメンバーでない非常に正確なオーディエンスです。ターゲティングの対象として検討してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>左下</b> </p> </td> 
@@ -108,7 +108,7 @@ Impressions 軸に関して高い位置にある特性は、キャンペーン�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>右上</b> </p> </td> 
-   <td colname="col2"> <p>インプレッション数が多く、特性適合回数が多い。 </p> <p>まだセグメントに表されていないオーディエンスに対するリーチが高くなります。このオーディエンスは、インプレッション数が多くスケールが大きいので、ターゲット設定の第一の候補になります。 </p> </td> 
+   <td colname="col2"> <p>インプレッション数が多く、特性適合回数が多い。 </p> <p>まだセグメントに表されていないオーディエンスに対するリーチが高くなります。このオーディエンスは、インプレッション数が多くスケールが大きいので、ターゲティングの第一の候補になります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>右下</b> </p> </td> 
