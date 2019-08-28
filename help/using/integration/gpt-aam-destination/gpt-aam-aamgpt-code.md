@@ -5,7 +5,7 @@ seo-title: Google サイト運営者タグ用の Audience Manager コード
 solution: Audience Manager
 title: Google サイト運営者タグ用の Audience Manager コード
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 >[!NOTE]
 >
->This function is not required if you have your own code to read Audience Manager cookie data from the [!UICONTROL UUID] and destination cookies.
+>Audience Manager の Cookie データを [!UICONTROL UUID] および宛先の Cookie から読み取るための独自のコードがある場合、この関数は不要です。
 
 ## サンプルコード
 
