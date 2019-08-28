@@ -4,7 +4,7 @@ seo-description: カスタマーケアは、どのような問題でも解決を
 seo-title: 問題がある場合
 solution: Audience Manager
 title: 問題がある場合
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
 
 ---
@@ -22,11 +22,11 @@ r_problem.xml
 
  -->
 
-技術的な問題やバグ報告については、[カスタマーケア](https://helpx.adobe.com/marketing-cloud/contact-support.html)までご連絡ください。
+技術的な問題やバグの報告については、[カスタマーケア](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)にお問い合わせください。
 
 * **電話：** 1-800-497-0335
 
-   米国外からの無料電話番号については、[各地域のカスタマーケアのお問い合わせ先番号](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)のサイトを参照してください。製品選択メニューで 4 を押すと、[!DNL Audience Manager] チームの担当者につながります。
+   米国外からの無料電話番号については、[各地域のカスタマーケアのお問い合わせ先番号](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)サイトを参照してください。製品選択メニューで 4 を押すと、[!DNL Audience Manager] チームの担当者につながります。
 
 * **電子メール**：amsupport@adobe.com
 
@@ -71,7 +71,7 @@ r_problem.xml
  </tbody> 
 </table>
 
-## 機能停止の場合 {#outage}
+## 機能停止の場合{#outage}
 
 機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com)（[!DNL https://status.adobe.com]）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新情報も含まれています。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
 
