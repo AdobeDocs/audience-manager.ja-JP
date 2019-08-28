@@ -5,7 +5,7 @@ seo-title: 一括管理ツールのトラブルシューティングのヒント
 solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[UIで割り当てられたRBACグループ権限](../../features/administration/administration-overview.md)[!DNL Audience Manager] は、で使用さ [!UICONTROL Bulk Management Tools]れます。
+>[!UICONTROL Bulk Management Tools] は、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 大量のネットワークトラフィック、サーバーの使用状況、大規模なデータセットなどの要因により、一括リクエストが失敗したりタイムアウトすることがあります。問題がある場合、ワークシートはデータの書き込みを停止し、エラーメッセージを表示します。このような状況が発生した場合は、以下の手順に従います。
 
@@ -34,7 +34,7 @@ source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 * 更新済みの行をすべて削除する。
 * 再度一括リクエストを試行する。
 
-## 遅延が長い、または応答がない {#delays-behavior}
+## 遅延が長い、または応答がない{#delays-behavior}
 
 次の表は、ワークシートで一括リクエストをおこなう場合に発生する可能性がある一般的な問題のリストです。推奨される解決策により問題の解決を試してください。推奨される解決策で問題が解決しない場合、作業内容を保存し、コンピューターを再起動して、他のアプリケーションの起動や操作をおこなわずにリクエストを再度試行してください。
 
