@@ -5,7 +5,7 @@ seo-title: 重複レポート：更新スケジュールと最小セグメント
 solution: Audience Manager
 title: 重複レポート：更新スケジュールと最小セグメントサイズ
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -15,9 +15,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 重複レポートの更新プロセスで必要なセグメントサイズと作成時間の要件について説明します。
 
-## 更新スケジュールと要件 {#update-schedule}
+## 更新スケジュールと要件{#update-schedule}
 
-[!UICONTROL Overlap] レポートは日曜日に毎週更新されます。レポートの事前処理は土曜日に始まります。これにより、月曜日に新規や既存のセグメントが重複レポートにどのように表示されるかが変わります。重複レポートに記載されるには、次の条件を満たす必要があります。
+[!UICONTROL Overlap]レポートは毎週日曜日に更新されます。レポートの事前処理は土曜日に始まります。これにより、月曜日に新規や既存のセグメントが重複レポートにどのように表示されるかが変わります。重複レポートに記載されるには、次の条件を満たす必要があります。
 
 * 直近 14 日間で、セグメントのリアルタイムユーザー数の合計数が 70,000 人以上でなければなりません。詳しくは、[特性とセグメントの個別訪問者の最小要件](../../reporting/report-sampling.md#data-sampling-ratio)を参照してください。
 * UTC で木曜日の午後 12 時（毎週の重複レポート更新処理が開始される 2 日前）までにセグメントが作成されていなければなりません。
@@ -25,7 +25,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## セグメントのサイズや作成時間によるレポートへの影響 {#segment-size}
 
-If you do not see a segment in one of the [!UICONTROL Overlap] reports, it may be because the segment does not meet these minimum requirements.
+どの[!UICONTROL Overlap]レポートにもセグメントが表示されない場合、そのセグメントが最小要件を満たしていない可能性があります。
 
 <table id="table_BE2937C1FA314BBDBD1D026321D6E6B1"> 
  <thead> 
