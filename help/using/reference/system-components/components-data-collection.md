@@ -5,7 +5,7 @@ seo-title: データ収集コンポーネント
 solution: Audience Manager
 title: データ収集コンポーネント
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0b9da38fd8b999637bdf6c3fe6af8aa2426eb6ae
 
 ---
@@ -28,7 +28,7 @@ Audience Manager には次のデータ収集コンポーネントがあります
 * [インバウンドのサーバー間通信](../../reference/system-components/components-data-collection.md#inbound-outbound-server)
 * [ログファイル](../../reference/system-components/components-data-collection.md#log-files)
 
-## データ収集サーバー（DCS）およびプロファイルキャッシュサーバー（PCS） {#dcs-pcs}
+## データ収集サーバー（DCS）およびプロファイルキャッシュサーバー（PCS）{#dcs-pcs}
 
 DCS と PCS は連携して動作することで、それぞれが特性の適合、オーディエンスのセグメント化、およびデータストレージに関連するサービスを提供します。
 
@@ -37,12 +37,12 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 [!DNL Audience Manager] で、DCS は以下をおこないます。
 
 * イベント呼び出しから特性データを受け取り、評価します。これには、リアルタイムのセグメント化で使用される情報と、スケジュールされた間隔でサーバー間転送によって渡されるデータが含まれます。
-* 適合する特性および[セグメントビルダー](../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74).
+* 適合する特性および[セグメントビルダー](../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74)で作成した認定ルールに基づいて、ユーザーをセグメント化します。
 * デバイス ID および認証済みのプロファイル ID を作成および管理します。これには、データプロバイダー ID、ユーザー ID、宣言済み ID、統合コードなどがあります。
 * リアルタイムのイベント呼び出しの前に、ユーザーが既に適合している特性が他にないかを PCS で確認します。これにより、リアルタイムのデータと過去のデータに基づきユーザーを適合させることができます。
 * ログファイルへの書き込みをおこない、それらを保存および処理する分析システムに送信します。
 
-**[!UICONTROL DCS]需要を管理[!UICONTROL Global Server Load Balancing (GSLB)]**
+**[!UICONTROL DCS]による[!UICONTROL Global Server Load Balancing (GSLB)]を通じた需要の管理**
 
 [!UICONTROL DCS] は地理的に分散された負荷分散型システムです。つまり、[!DNL Audience Manager] はサイト訪問者の地理的な位置に基づき、地域のデータセンターとの間で要求のやり取りをおこなうことができます。この方式では、[!UICONTROL DCS] の応答がその訪問者の情報を保持するデータセンターに直接送信されるので、応答時間の短縮に役立ちます。[!UICONTROL GSLB] では、関連データがユーザーに最も近いサーバーにキャッシュされるので、システムの効率が高まります。
 
@@ -77,9 +77,9 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 [!UICONTROL PCS] では、17 日間非アクティブであった特性はフラッシュされます。ただし、これらの特性は消失するわけではなく、Hadoop に保存されます。その後再度そのユーザーが確認された場合、Hadoop はそれらのすべての特性を [!UICONTROL PCS] に差し戻します。これは通常 24 時間以内におこなわれます。
 
-**その他[!UICONTROL DCS/PCS]のプロセス:プライバシーオプトアウト**
+**その他の[!UICONTROL DCS/PCS]プロセス：プライバシーのオプトアウト**
 
-これらのサーバーシステムは、プライバシーに基づくユーザーのオプトアウト要求を処理します。データ収集をオプトアウトしたユーザーの Cookie 情報は、ログファイルで収集されません。アドビのプライバシーポリシーの詳細については、[アドビプライバシーセンター](https://www.adobe.com/privacy/advertising-services.html)を参照してください。
+これらのサーバーシステムは、プライバシーに基づくユーザーのオプトアウト要求を処理します。データ収集をオプトアウトしたユーザーの Cookie 情報は、ログファイルで収集されません。アドビのプライバシーポリシーについて詳しくは、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/advertising-services.html)を参照してください。
 
 ## データ統合ライブラリ（DIL）{#dil}
 
@@ -95,5 +95,5 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 >[!MORE_LIKE_THIS]
 >
->* [アドビプライバシーセンター](https://www.adobe.com/privacy.html)
+>* [アドビプライバシーセンター](https://www.adobe.com/jp/privacy.html)
 
