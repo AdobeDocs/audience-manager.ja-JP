@@ -5,7 +5,7 @@ seo-title: GPT 宛先の作成
 solution: Audience Manager
 title: GPT 宛先の作成
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
@@ -17,35 +17,35 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ## 宛先
 
-Audience Manager での *`destination`* とは、他のシステム（広告サーバー、広告ネットワークなど）の[!DNL DSP]宛先になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager destination features are located in *[!UICONTROL Audience Data]&gt;[!UICONTROL Destinations]*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
+Audience Manager において、*`destination`* とは、データを共有する他のシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*[!UICONTROL Audience Data]／[!UICONTROL Destinations]* からアクセスできます。まず、「**[!UICONTROL Add New Destination]**」をクリックし、以下の手順に従います。
 
-## 基本情報
+## Basic Information
 
-To complete the [!UICONTROL Basic Information] section:
+「[!UICONTROL Basic Information]」セクションを完了するには：
 
 1. 宛先の名前を入力します。
-1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list.
-1. Click **[!UICONTROL Next]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
+1. [!UICONTROL Type] ドロップダウンリストから「**[!UICONTROL "Cookie"]**」を選択します。
+1. 「**[!UICONTROL Next]**」をクリックし、「[!UICONTROL Configuration]」および「[!UICONTROL Segment Mappings]」セクションを開きます。
 
 ## Cookie の設定
 
 以下の項目を指定して、「[!UICONTROL Configuration]」セクションでの設定を完了します（その他のフィールドはオプションです）。
 
 1. **Cookie Name：** Cookie の短くてわかりやすい名前を指定します。
-1. **データ形式:****[!UICONTROL "Single Key"]** このオプションを選択します。
+1. **Data Format**：「**[!UICONTROL "Single Key"]**」オプションを選択します。
 1. **Key**：キー名を指定します。
 1. **Serialize**：「**[!UICONTROL Enable]**」チェックボックスをオンにします。
 1. **Serial Delimiter**：コンマのみを使用します。
 
 ## Segment Mappings
 
-以下の手順で Cookie の宛先にセグメントを追加します。 
+以下の手順で Cookie の宛先にセグメントを追加します。
 
-1. セグメントを検索：「[!UICONTROL Segment Mappings]」セクションでは、2 通りの方法でツールの検索とセグメントの検索ができます。セグメントを検索するには、
+1. Find segments：「[!UICONTROL Segment Mappings]」セクションには、セグメントを検索するための 2 つの検索ツールが用意されています。セグメントを検索するには、
 
    * オプション 1：検索フィールドにセグメント名を入力します。入力されたテキストに基づいて、フィールドが自動的に更新されます。使用するセグメントが見つかったら、「**[!UICONTROL Add]**」をクリックします。
-   * オプション 2：「**[!UICONTROL Browse All Segments]**」をクリックし、名前または保存場所に基づきセグメントを参照できるウィンドウを開きます。Click **[!UICONTROL Add Selected Segments]** when done.
+   * オプション 2：「**[!UICONTROL Browse All Segments]**」をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。終了したら、「**[!UICONTROL Add Selected Segments]**」をクリックします。
 
 1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、「**[!UICONTROL Save]**」をクリックします。
 
-1. **[!UICONTROL Done]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
