@@ -7,7 +7,7 @@ solution: Audience Manager
 title: アルゴリズムモデルの作成
 topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # アルゴリズムモデルの作成 {#create-an-algorithmic-model}
 
-Describes the required and optional steps that let you create an algorithmic model in [!UICONTROL Model Builder].
+[!UICONTROL Model Builder]でアルゴリズムモデルを作成するための必須およびオプションの手順について説明します。
 
 ## モデルの作成 {#build-model}
 
@@ -23,7 +23,7 @@ Describes the required and optional steps that let you create an algorithmic mod
 
 ### モデルビルダーのセクション
 
-[!UICONTROL Model Builder][!UICONTROL Basic Information][!UICONTROL Configuration] で構成されます。モデルを作成するには、この 2 つのセクションの必須フィールドに入力します。モデルを保存して、アルゴリズムを開始します。[!DNL Audience Manager] は、最初のデータ実行が完了した後に自動通知を送信します。この通知の受信後、[特性ビルダー](../../features/traits/about-trait-builder.md)を開いてアルゴリズム特性を作成できるようになります。
+[!UICONTROL Model Builder]は、「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Configuration]」セクションで構成されます。モデルを作成するには、この 2 つのセクションの必須フィールドに入力します。モデルを保存して、アルゴリズムを開始します。[!DNL Audience Manager] は、最初のデータ実行が完了した後に自動通知を送信します。この通知の受信後、[特性ビルダー](../../features/traits/about-trait-builder.md)を開いてアルゴリズム特性を作成できるようになります。
 
 >[!NOTE]
 >
@@ -40,19 +40,19 @@ Describes the required and optional steps that let you create an algorithmic mod
 1. 「[Basic Information](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
    * モデルの名前を指定します。
    * *（オプション）*&#x200B;モデルについての簡単な説明を入力します。
-   * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. 非アクティブなモデルは実行されず、データの生成もおこないません。
+   * モデルのステータスを「**[!UICONTROL Active]**」または「**[!UICONTROL Inactive]**」に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
 1. 「[Configuration](../../features/algorithmic-models/create-model.md#configuration)」セクションで次の操作をおこないます。
-   * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. オンボードの特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。
-   * 30日、60日または90日のルックバック期間を選択します。これにより、モデルの時間範囲が設定されます。
+   * 「**[!UICONTROL Browse All Traits]**」または「**[!UICONTROL Browse All Segments]**」をクリックして、モデルの作成対象となる特性またはセグメントを選択します。オンボードの特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。
+   * 30 日、60 日または 90 日のルックバック期間を選択します。これにより、モデルの時間範囲が設定されます。
    * デフォルトでは [!UICONTROL TraitWeight] アルゴリズムが選択されています。
-   * Select a data source from the [!UICONTROL Available Data] list.
-   * Click **[!UICONTROL Save]** when done.
+   * 「[!UICONTROL Available Data]」リストからデータソースを選択します。
+   * 終了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## アルゴリズムの基本情報 {#basic-information}
 
 <!-- r_model_basic.xml -->
 
-In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let you create new or edit existing models. 新しいモデルを作成するには、名前を指定し、[!UICONTROL Configuration] 設定に移動します。説明フィールドはオプションです。
+[!UICONTROL Model Builder]では、[!UICONTROL Basic Information]設定を使用して、新しいモデルを作成したり、既存のモデルを編集したりできます。新しいモデルを作成するには、名前を指定し、[!UICONTROL Configuration] 設定に移動します。説明フィールドはオプションです。
 
 | フィールド | 説明 |
 |---|---|
@@ -62,13 +62,13 @@ In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let y
 
 ## 設定 {#configuration}
 
-In [!UICONTROL Model Builder], the [!UICONTROL Configuration] section lets you add traits or segments to the model. ここでは、基準となる特性またはセグメント、ルックバック期間およびファーストパーティおよびサードパーティデータソースからのデータを選択します。
+[!UICONTROL Model Builder] では、[!UICONTROL Configuration]セクションを使用して、特性やセグメントをモデルに追加できます。ここでは、基準となる特性またはセグメント、ルックバック期間およびファーストパーティおよびサードパーティデータソースからのデータを選択します。
 
 <!-- r_model_configuration.xml -->
 
 ### 前提条件
 
-Complete the required fields in the [!UICONTROL Basic Information] section first.
+最初に「[!UICONTROL Basic Information]」セクションの必須フィールドに入力します。
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -81,24 +81,24 @@ Complete the required fields in the [!UICONTROL Basic Information] section first
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>ベースライン特性またはセグメントの選択（1）</b> </p> </td> 
-   <td colname="col2"> <p>特性またはセグメントのボタンをクリックすると、すべての特性またはセグメントのリストが表示されます。選択したセグメントと特性は、システムアルゴリズムがモデリングに使用するシステムのベースラインとなります。 </p> <p> <p><b>注意</b>:オンボーブ特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。 </p> </p> </td> 
+   <td colname="col1"> <p><b>ベースラインとなる特性またはセグメント（1）を選択する</b> </p> </td> 
+   <td colname="col2"> <p>特性またはセグメントのボタンをクリックすると、すべての特性またはセグメントのリストが表示されます。選択したセグメントと特性は、システムアルゴリズムがモデリングに使用するシステムのベースラインとなります。 </p> <p> <p><b>注意：</b>オンボードの特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Select Look Back Period（2）</b> </p> </td> 
+   <td colname="col1"> <p><b>ルックバック期間を選択する（2）</b> </p> </td> 
    <td colname="col2"> <p>モデルの時間範囲を設定します。アルゴリズムではこの選択に基づいて、過去 30 日、60 日または 90 日のデータを対象とし、評価をおこないます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Select Algorithm（3）</b> </p> </td> 
-   <td colname="col2"> <p>現在、モデルビルダーでは <span class="keyword">Trait Weight</span> アルゴリズムしか使用できません。<span class="keyword">Audience Manager</span> の今後のリリースでは他のアルゴリズム機能が追加される可能性があります。 </p> </td>
+   <td colname="col1"> <p><b>アルゴリズムを選択する（3）</b> </p> </td> 
+   <td colname="col2"> <p>現在、モデルビルダーでは<span class="keyword">特性の重み付け</span>アルゴリズムしか使用できません。<span class="keyword">Audience Manager</span> の今後のリリースでは他のアルゴリズム機能が追加される可能性があります。 </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p><b>Select Model Data from Data Source（4）</b> </p> </td> 
+   <td colname="col1"> <p><b>データソースからモデルデータを選択する（4）</b> </p> </td> 
    <td colname="col2"> <p>モデルで使用するファーストパーティおよびサードパーティのデータソースを選択できます。 </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Exclusions（5）</b> </p> </td> 
-   <td colname="col2"> <p>モデリングで選択したデータソースから特性を除外できます。除外する特性の指定には <span class="wintitle">Exclusions</span> リストを使用します。詳しくは、<a href="../../features/algorithmic-models/trait-exclusion-algo-models.md">アルゴリズムモデル：特性の除外</a>を参照してください。 </p> </td>
+   <td colname="col1"> <p><b>除外（5）</b> </p> </td> 
+   <td colname="col2"> <p>モデリングで選択したデータソースから特性を除外できます。除外する特性の指定には<span class="wintitle">除外</span>リストを使用します。詳しくは、<a href="../../features/algorithmic-models/trait-exclusion-algo-models.md">アルゴリズムモデル：特性の除外</a>を参照してください。 </p> </td>
   </tr> 
  </tbody>
 </table>
