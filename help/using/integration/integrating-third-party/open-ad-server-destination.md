@@ -1,11 +1,11 @@
 ---
-description: Open Ad サーバーを送信先に設定し、Audience Manager のデータをこのプラットフォームに送信します。
-seo-description: Open Ad サーバーを送信先に設定し、Audience Manager のデータをこのプラットフォームに送信します。
-seo-title: Audience Manager の送信先として OAS を設定
+description: Open Ad サーバーを宛先に設定し、Audience Manager のデータをこのプラットフォームに送信します。
+seo-description: Open Ad サーバーを宛先に設定し、Audience Manager のデータをこのプラットフォームに送信します。
+seo-title: Audience Manager の宛先としての OAS
 solution: Audience Manager
-title: Audience Manager の送信先として OAS を設定
+title: Audience Manager の宛先としての OAS
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,19 +13,19 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Audience Manager の宛先としての OAS {#oas-as-an-audience-manager-destination}
 
-[!DNL Open Ad Server] を送信先に設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
+[!DNL Open Ad Server] を宛先に設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
 
-## OAS の送信先に関する要件 {#oas-requirements}
+## OAS の宛先に関する要件 {#oas-requirements}
 
 コードの配置、サポートされるキー値の形式、レポート、および [!DNL OAS] に送信されるセグメントデータのタイプに関する要件。
 
 <!-- aam-oas-requirements.xml -->
 
-この送信先タイプには次の項目が必要となります。
+この宛先タイプには次の項目が必要となります。
 
-* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library] コードを在庫に展開する必要があります。[!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
-* **`get_aamCookie`Function：** Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または `<head>` コードブロック内に配置します。
-* **Audience Manager に配信ログを送信：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。The data can be in a raw format, but each record must contain the Audience Manager [!UICONTROL UUID]. Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
+* **[!UICONTROL DIL]：** [!UICONTROL Data Integration Library] コードはインベントリ上にデプロイする必要があります。[!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
+* **`get_aamCookie`関数：** Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または `<head>` コードブロック内に配置します。
+* **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。データは raw 形式でもかまいませんが、各レコードには Audience Manager [!UICONTROL UUID] が含まれている必要があります。Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
 ### Cookie 形式およびキー値データ
 
@@ -46,41 +46,41 @@ Audience Manager はブラウザー Cookie に対してセグメントデータ�
 >* [キー値ペアの解説](../../reference/key-value-pairs-explained.md)
 
 
-## OAS の送信先の作成 {#oas-dest-setup}
+## OAS の宛先の作成 {#oas-dest-setup}
 
-Audience Manager で、[!DNL OAS] の Cookie ベースの送信先を作成します。
+Audience Manager で、[!DNL OAS] に Cookie ベースの宛先を作成します。
 
 <!-- aam-oas-destination-setup.xml -->
 
-Audience Manager では、データを共有したい他のあらゆるシステム（広告サーバー、広告ネットワークなど）を&#x200B;*送信先*&#x200B;にできます[!DNL DSP]宛先になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
+Audience Manager において、*宛先*&#x200B;とは、データを共有したい他システム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。まず、「**[!UICONTROL Add New Destination]**」をクリックし、以下の手順に従います。
 
 ### 手順 1：基本情報
 
-To complete the [!UICONTROL Basic Information] section:
+「[!UICONTROL Basic Information]」セクションを完了するには：
 
 1. 宛先の名前を入力します。
-1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list.
-1. Click **[!UICONTROL Save]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
+1. [!UICONTROL Type] ドロップダウンリストから「**[!UICONTROL "Cookie"]**」を選択します。
+1. 「**[!UICONTROL Save]**」をクリックし、「[!UICONTROL Configuration]」および「[!UICONTROL Segment Mappings]」セクションを開きます。
 
 ### 手順 2：設定情報
 
-To complete the [!UICONTROL Configuration] section:
+「[!UICONTROL Configuration]」セクションを完了するには：
 
 1. **Cookie Name：** Cookie の短くてわかりやすい名前を指定します。
-1. **Cookie Domain：**&#x200B;ユーザーが現在見ているページのドメインの Cookie を設定する場合は空のままとします。ドメインを指定する場合は、`.mydomain.com` のように、ピリオドを使用して名前にプレフィックスを付けます。
-1. [!UICONTROL Data Format] セクションでキーオプションを選択します。
+1. **Cookie Domain：**&#x200B;ユーザーが現在表示しているページのドメインで Cookie を設定する場合は空のままとします。ドメインを指定する場合は、`.mydomain.com` のように、ピリオドを使用して名前にプレフィックスを付けます。
+1. 「[!UICONTROL Data Format]」セクションでキーオプションを選択します。
 1. シリアル化された値のデータを使用するキーの場合、**[!UICONTROL Serialize]** コントロールを選択し、シリアル値の区切り文字（シリアル化された値を区切るための文字）を指定します。
-1. Click **[!UICONTROL Save]** and expand the [!UICONTROL Segment Mappings] section.
+1. 「**[!UICONTROL Save]**」をクリックし、「[!UICONTROL Segment Mappings]」セクションを展開します。
 
 ### 手順 3：セグメントマッピング
 
-以下の手順で Cookie の宛先にセグメントを追加します。 
+以下の手順で Cookie の宛先にセグメントを追加します。
 
 1. **Find segments：**「[!UICONTROL Segment Mappings]」セクションには、セグメントを検索するための 2 つの検索ツールが用意されています。セグメントを検索するには、
    * オプション 1：検索フィールドにセグメント名を入力します。その文字列に基づきフィールドが自動で更新されます。使用するセグメントが見つかったら、「**[!UICONTROL Add]**」をクリックします。
-   * オプション 2：「**[!UICONTROL Browse All Segments]**」をクリックし、名前または保存場所に基づきセグメントを参照できるウィンドウを開きます。Click **[!UICONTROL Add Selected Segments]** when done.
+   * オプション 2：「**[!UICONTROL Browse All Segments]**」をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。終了したら、「**[!UICONTROL Add Selected Segments]**」をクリックします。
 1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、「**[!UICONTROL Save]**」をクリックします。
-1. **[!UICONTROL Done]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 ## OAS 設定 {#oas-code-setup}
 
@@ -91,9 +91,9 @@ Audience Manager のセグメントデータを処理するよう [!DNL OAS] 設
 次の手順で [!DNL OAS] を設定します。
 
 * サイト全体にわたり、[!UICONTROL DIL] コードをインストールします。
-* Audience Manager で Cookie の送信先として OAS を作成します。
-* `get_aamCookie` 関数をページの先頭、可能であれば `<head>` コードブロック内に配置します。`get_aamCookie` コード [は以下から入手できます。](../../features/destinations/get-aam-cookie-code.md)
-* `get_aamCookie`[!DNL OAS] 関数を呼び出すよう広告タグを変更し、 の送信先を設定した際に指定した Cookie 名を含めます。例えば、Cookie の名前を `test_cookie` とした場合、広告タグは `get_aamCookie` を呼び出し、この Cookie 名を参照する必要があります。
+* Audience Manager で Cookie の宛先として OAS を作成します。
+* `get_aamCookie` 関数をページの先頭、可能であれば `<head>` コードブロック内に配置します。`get_aamCookie` コード は[こちら](../../features/destinations/get-aam-cookie-code.md)から入手できます。
+* `get_aamCookie` 関数を呼び出すよう広告タグを変更し、[!DNL OAS] の宛先を設定した際に指定した Cookie 名を含めます。例えば、Cookie の名前を `test_cookie` とした場合、広告タグは `get_aamCookie` を呼び出し、この Cookie 名を参照する必要があります。
 * 広告タグは次に示す例のような形式になります。
 
    ```js
@@ -101,4 +101,4 @@ Audience Manager のセグメントデータを処理するよう [!DNL OAS] 設
     "&etc&u=" + get_aamCookie('aam_uuid')
    ```
 
-必ず `u=` 変数を含めてください。It holds the actual unique user ID ([!UICONTROL UUID]) passed in during an ad call.
+必ず `u=` 変数を含めてください。この変数は、広告呼び出しの際に実際に渡された一意のユーザー ID （[!UICONTROL UUID]）を保持します。
