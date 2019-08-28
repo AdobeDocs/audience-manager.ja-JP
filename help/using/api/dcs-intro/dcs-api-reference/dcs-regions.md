@@ -5,7 +5,7 @@ seo-title: DCS の地域 ID、場所、ホスト名
 solution: Audience Manager
 title: DCS の地域 ID、場所、ホスト名
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
 
 ---
@@ -62,9 +62,9 @@ source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
   <tr> 
    <td colname="col1"> <p>ID 12 </p> </td> 
    <td colname="col2"> <p>インド </p> </td> 
-   <td colname="col3"> <p> <code> ind1. demdex. net</code> </p> </td> 
+   <td colname="col3"> <p> <code> ind1.demdex.net</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-[!DNL API] また、使用可能 [!UICONTROL DCS] な領域のリストを取得する方法もあります。[DCS 地域 API メソッド](../../../api/rest-api-main/aam-api-dcs-regions.md)を参照してください。
+[!DNL API] メソッドを使用して、利用可能な [!UICONTROL DCS] 地域のリストを取得することもできます。[DCS 地域 API メソッド](../../../api/rest-api-main/aam-api-dcs-regions.md)を参照してください。
