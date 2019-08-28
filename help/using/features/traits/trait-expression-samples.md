@@ -5,21 +5,21 @@ seo-title: ブール演算子と比較演算子を使用した式のサンプル
 solution: Audience Manager
 title: ブール演算子と比較演算子を使用した式のサンプル
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
 
 ---
 
 
-# ブール値および比較演算子を使用した式の例 {#sample-expressions-with-boolean-and-comparison-operators}
+# ブール演算子と比較演算子を使用した式のサンプル {#sample-expressions-with-boolean-and-comparison-operators}
 
-[!UICONTROL Expression Builder] コードエディターで式を作成する際の例を示します。
+[!UICONTROL Expression Builder]のコードエディターで式を作成する場合に参考になる例です。
 
 ## コードサンプルの概要 {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-[!UICONTROL Expression Builder] コードエディターで独自の特性ルールを作成します。次の例を参照してください。一部の例では、*`key`* 変数の先頭が `c_` になっていますが、これはユーザー定義変数を表します。イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、*`key`* 変数でプレフィックス `c_`（またはその他の命名規則）を使用します。
+[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。一部の例では、*`key`* 変数の先頭が `c_` になっていますが、これはユーザー定義変数を表します。イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、*`key`* 変数でプレフィックス `c_`（またはその他の命名規則）を使用します。
 
 ## ブール式 {#boolean-expressions}
 
@@ -36,7 +36,7 @@ source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>（c_ make=="A"） AND（c_ model=="B"） AND（c_ search=="1"）</code> </td> 
+   <td colname="col1"><code>(c_make=="A") AND (c_model=="B") AND (c_search=="1")</code> </td> 
    <td colname="col2"> 
     <ul id="ul_F1BB5084FB794BE7A3569F9C106FC481"> 
      <li id="li_56E8C3BACF1C4B33A46CF92C51FF2286">特定の製造元とモデルを検索します。 </li> 
@@ -48,7 +48,7 @@ source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
 
 ### OR の例
 
-This rule establishes trait qualification requirements using [!DNL Boolean] [!UICONTROL OR] and [!UICONTROL AND] operators.
+このルールでは、[!DNL Boolean] 演算子 [!UICONTROL OR] と [!UICONTROL AND] を使用して特性認定要件を指定しています。
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
@@ -59,8 +59,8 @@ This rule establishes trait qualification requirements using [!DNL Boolean] [!UI
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>（a=="1" OR b=="1"） AND（c=="new"）</code> </td> 
-   <td colname="col2"> Meet the conditions set by variables <code><i>a </i></code> or <code><i>b </i></code> and <code><i>c </i></code>. </td> 
+   <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
+   <td colname="col2"> 変数 <code><i>a</i></code> または <code><i>b</i></code> および <code><i>c</i></code> によって設定された条件を満たしている。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ This rule establishes trait qualification requirements using [!DNL Boolean] [!UI
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>（価格&gt;=1.00AND price&lt;=100.00）</code> </td> 
+   <td colname="col1"><code>(price &gt;= 1.00 AND price &lt;= 100.00)</code> </td> 
    <td colname="col2"> 1.00 と 100.00 の範囲の価格条件を満たしている。 </td> 
   </tr> 
  </tbody> 
