@@ -1,9 +1,9 @@
 ---
 description: Analytics メニュー内のオプションを使用すると、ダッシュボードや様々なレポートを表示できます。
-seo-description: Analyticsメニューのオプションを使用して、Adobe Audience Manager（AAM）のダッシュボードと様々なレポートを表示します。
+seo-description: Analytics メニューのオプションを使用して、Adobe Audience Manager（AAM）のダッシュボードとさまざまなレポートを表示します。
 seo-title: Adobe Audience Manager（AAM）のレポートの概要
 title: レポートの概要
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 687aaea0f62f90ab947be8aa7d93050c5562c307
 
 ---
@@ -13,15 +13,15 @@ source-git-commit: 687aaea0f62f90ab947be8aa7d93050c5562c307
 
 各節で、利用可能なレポート、その目的および一般的な使用例を説明します。すべてのレポートは Analytics ダッシュボードからアクセスできます。
 
-For information describing the time frames when Audience Manager receives information to populate reports, see [How Data Delivery and File Processing Times Affect Reports](/help/using/reference/reporting-file-transfer-timeframe.md).
+Audience Manager がレポートに入力する情報を受信する際の時間枠について詳しくは、[データ配信やファイル処理の時間がレポートに及ぼす影響](/help/using/reference/reporting-file-transfer-timeframe.md)を参照してください。
 
-* [オーディエンスの最適化レポート](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Audience Optimization レポート](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-   オーディエンスの最適化レポートでは、データ視覚化手法を使用して、Audience Manager アカウントにおける宛先の情報を返します。各レポートでは、ほとんどどのようなデータポイントをクリックしても、その項目の詳細な情報が返されます。オーディエンスの最適化に関するこれらのインサイトは、広告および出版チャネルにわたる複数のユースケースに適用できますが、デフォルトでは使用可能になっていません。導入するには、担当の Audience Manager コンサルタントにお問い合わせください。
+   Audience Optimization レポートでは、データ視覚化手法を使用して、Audience Manager アカウントにおける宛先の情報を返します。各レポートに表示されたほとんどのデータポイントは、クリックすることでその項目の詳細情報を確認できます。オーディエンスの最適化に関するこれらのインサイトは、広告および出版チャネルにわたる複数のユースケースに適用できますが、デフォルトでは使用可能になっていません。導入するには、担当の Audience Manager コンサルタントにお問い合わせください。
 
 * [一般レポート](/help/using/reporting/general-reports.md)
 
-   汎用レポートは、特性、セグメントおよび送信先に関するパフォーマンスデータを返します。
+   一般レポートは、特性、セグメントおよび宛先に関するパフォーマンスデータを返します。
 
 * [インタラクティブな重複レポート](/help/using/reporting/dynamic-reports/dynamic-reports.md)
 
