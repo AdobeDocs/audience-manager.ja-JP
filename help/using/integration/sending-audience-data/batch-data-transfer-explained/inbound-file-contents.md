@@ -5,25 +5,25 @@ seo-title: 受信データファイルコンテンツ：構文、無効な文字
 solution: Audience Manager
 title: 受信データファイルコンテンツ：構文、無効な文字、変数、例
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
 
 ---
 
 
-# 受信データファイルコンテンツ：構文、無効な文字、変数および例{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# 受信データファイルコンテンツ：構文、無効な文字、変数、例{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
-受信した特性のデータファイルを書式設定する際に従う必要がある必須のフィールド、構文およびルール。
+受信する特性データファイルの形式を整える際に従うべき必須フィールド、構文、ルールについて説明します。
 
 ## ファイルコンテンツの構文 {#file-content-syntax}
 
-受信データファイルのフィールドは、以下の順序でなければなりません。この例では `<``>` 、各要素を視覚的に区切るために記号が追加されています。実際のデータファイルでこれを使用する必要はありません。
+受信データファイルのフィールドは、以下の順序でなければなりません。この例では、各要素を視覚的に区切るために`<``>`記号が追加されています。実際のデータファイルでこれを使用する必要はありません。
 
 ```
 <user ID><TAB><trait ID>,<trait ID>,<trait ID>,...
 ```
 
-For other accepted file content formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
+使用可能なその他のファイルコンテンツ形式については、[カスタムパートナー統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)を参照してください。
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ For other accepted file content formats, see [Custom Partner Integrations](/help
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>ユーザー ID </i> </code> </p> </td> 
    <td colname="col2"> <p>ユーザー ID は次のいずれかに該当します。 </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
       <li id="li_23829FE2F6464E33859B3E388FCD106B"><span class="keyword">Audience Manager</span> により割り当てられた一意のユーザー ID（<a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>）。 </li> 
@@ -102,11 +102,13 @@ For other accepted file content formats, see [Custom Partner Integrations](/help
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
      </ul> </p> <p>これらの特性は <code>ic</code> キーに関連付けられます。これにより、データファイルでより簡単な特性リストを作成できます。また、<code>ic</code> というプレフィックスを使用する必要はありません。その結果、データファイルの内容は次のようになります。 </p> <p>
-     <code><i>user ID</i>&lt; TAB&gt;123,456,789 </code>
-  </p> </td> 
+     <code> 
+                       
+      <i>user ID</i> &lt;TAB&gt; 123,456,789 
+     </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>キーと値のペア </p> </td> 
+   <td colname="col1"> <p>キー値ペア </p> </td> 
    <td colname="col2"> <p>特性データは英数字の文字列を使用するキーと値のペアとして書式設定できます。キーと値のペアの書式設定には次のように複数の方法があります。 </p> <p> 
      <ul id="ul_D4F5A97FE0444AC6B7D8D4DAEDD3EAF2"> 
       <li id="li_07B893AA8EB24F34B70F8DA06E87EAB3"> <code> key = value </code> </li> 
@@ -197,20 +199,25 @@ For other accepted file content formats, see [Custom Partner Integrations](/help
   <tr> 
    <td colname="col1"> <p><code>d_sid</code> または <code>d_unsid</code> を使用  </p> </td> 
    <td colname="col2"> <p>このデータファイルは、特性 24、26、27 について認定され、特性 28、29 から削除されたユーザーを示しています。 </p> <p> 
-     <code>59767559181262060060278870901087098252&amp; amp;nbsp;&amp; amp;nbsp;d_ sid=24， d_ sid=26， d_ sid=27， d_ unsid=28， d_ unsid=29 </code>
-  </p> <p>注釈:  <p>d_unsid を使用する代わりに、次の構文を使用してユーザープロファイルから特性を削除することもできます。 </p> <p> 
-      <code>59767559181262060060278870901087098252&amp; amp;nbsp;28:0，&amp; amp;nbsp;29:0 </code>
-  </p> <p> 
-      <code>59767559181262060060278870901087098252&amp; amp;nbsp;28:-1，&amp; amp;nbsp;29:-1 </code>
-  </p> </p> </td> 
+     <code>
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+     </code> </p> <p>注意：  <p>d_unsid を使用する代わりに、次の構文を使用してユーザープロファイルから特性を削除することもできます。 </p> <p> 
+      <code>
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
+      </code> </p> <p> 
+      <code>
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
+      </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>ic==</code> を使用 </p> </td> 
    <td colname="col2"> <p>これらの特性は、<code>ic</code> というプレフィックスにより特性ルールに追加されています。そのため、次のように、コンマ区切りのデータファイルに追加することができます。タブは UUID と特性 ID を区切ります。<code>ic</code> というプレフィックスはファイルでは必要ありません。 </p> <p><b>数値 ID</b> </p> <p> 
-     <code>DBWFOC3DHFNCFBA2M4F9ZkjexmnRNR2pXVni1&amp; amp;nbsp;&amp; amp;nbsp;30608,50354,50338,50352,30626 </code>
-  </p> <p><b>文字列 ID</b> </p> <p> 
-     <code>DBWFOC3DHFNCFBA2M4F9ZkjexmnRNR2pXVni1&amp; amp;nbsp;&amp; amp;nbsp;ic=52， ic=55 </code>
-  </p> </td> 
+     <code>
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
+     </code> </p> <p><b>文字列 ID</b> </p> <p> 
+     <code>
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>キーと値のペアを使用 </p> </td> 
