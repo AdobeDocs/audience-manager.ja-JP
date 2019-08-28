@@ -1,31 +1,31 @@
 ---
 description: プライバシーやデータに関してよくある質問や問題に対する回答。
 seo-description: プライバシーやデータに関してよくある質問や問題に対する回答。
-seo-title: プライバシーとデータ保持の FAQ
+seo-title: プライバシーとデータ保持に関するよくある質問
 solution: Audience Manager
-title: プライバシーとデータ保持の FAQ
+title: プライバシーとデータ保持に関するよくある質問
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
 
 ---
 
 
-# プライバシーとデータ保持の FAQ{#privacy-and-data-retention-faq}
+# プライバシーとデータ保持に関するよくある質問{#privacy-and-data-retention-faq}
 
 プライバシーやデータに関してよくある質問や問題に対する回答。
 
 <!-- faq_privacy.xml -->
 
-## プライバシーの FAQ {#privacy-faq}
+## プライバシーに関するよくある質問{#privacy-faq}
 
 >[!TIP]
 >
->Visit the [Adobe Privacy Center](https://www.adobe.com/privacy.html) for more information.
+>詳しくは、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy.html)を参照してください。
 
 **Audience Manager では Cookie をどのように使用し、どのような Cookie を設定しますか？**
 
-詳しくは、[Audience Manager の Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) を参照してください。
+[Audience Manager の Cookie](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/cookies/cookies_am.html) を参照してください。
 
 **米国の Audience Manager クライアントは EU 資産のユーザーをターゲットにすることができますか？**
 
@@ -68,7 +68,7 @@ source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
   </tr> 
   <tr> 
    <td colname="col1"> <p>CRM レベルのプロファイル（認証済みプロファイル） </p> </td> 
-   <td colname="col2"> <p>非アクティブなCRMレベルのプロファイル（顧客ID）のデフォルトの有効期間（TTL）間隔は24ヶ月です。ただし、Audience Manager UIを使用して、1か月から5年間の非アクティブなCRMレベルのプロファイルのTTL間隔を増減できます。これは、クロスデバイスデータソースを作成または編集するときに実行できます。</p> <p>For more information, see Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Create a Cross-Device Data Source </a>.</p> </td> 
+   <td colname="col2"> <p>非アクティブな CRM レベルのプロファイル（顧客 ID）のデフォルトの有効期間（TTL）間隔は 24 か月です。ただし、Audience Manager UIを使用して、1 か月から 5 年間の非アクティブな CRM レベルのプロファイルの TTL 間隔を増減できます。これは、クロスデバイス対応データソースを作成または編集するときに実行できます。</p> <p>詳しくは、<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応のデータソースの作成</a>のデータソース設定を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルデバイス ID </p> </td> 
@@ -80,11 +80,11 @@ source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
   </tr> 
   <tr> 
    <td colname="col1"> <p>同期済み ID 間のマッピング </p> </td> 
-   <td colname="col2"> <p>Mappings between synchronized IDs may be kept for the life of the associated <a href="../reference/ids-in-aam.md"> Audience Manager Unique User ID (AAM UUID)</a>. </p> </td> 
+   <td colname="col2"> <p>同期された ID 間のマッピングは、関連する <a href="../reference/ids-in-aam.md"> Audience Manager のユニークユーザー ID（AAM UUID）</a>の存続期間中保持されることがあります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>インバウンドデータ </p> </td> 
-   <td colname="col2"> <p>これは、FTP で <span class="keyword">Audience Manager</span> に送信される受信データ、または Amazon S3 ディレクトリに直接送信される受信データです。<span class="keyword"></span>詳しくは、<a href="../faq/faq-inbound-data-ingestion.md">受信顧客データ取り込みの FAQ</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>これは、FTP で <span class="keyword">Audience Manager</span> に送信される受信データ、または <span class="keyword">Amazon S3</span> ディレクトリに直接送信される受信データです。詳しくは、<a href="../faq/faq-inbound-data-ingestion.md">受信顧客データ取り込みの FAQ</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アウトバウンドデータ </p> </td> 
@@ -93,9 +93,9 @@ source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
  </tbody> 
 </table>
 
-## 特性絞り込みデータ保持 {#trait-qual}
+## 特性認定データ保持 {#trait-qual}
 
-特性絞り込みのデータ保持オプションを次の表にまとめます。
+特性認定のデータ保持オプションを次の表にまとめます。
 
 <table id="table_7FB42BEF138540AAB6869995C1AB8D3F"> 
  <thead> 
@@ -107,7 +107,7 @@ source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
  <tbody> 
   <tr> 
    <td colname="col1"> <p>特性を削除 </p> </td> 
-   <td colname="col2"> <p>特性を削除すると、過去にその特性に絞り込まれたすべてのユーザープロファイルから特性絞り込みデータが削除されます。 </p> </td> 
+   <td colname="col2"> <p>特性を削除すると、過去にその特性に絞り込まれたすべてのユーザープロファイルから特性認定データが削除されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>特性上限に到達 </p> </td> 
