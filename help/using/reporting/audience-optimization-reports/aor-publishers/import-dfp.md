@@ -1,11 +1,11 @@
 ---
-description: Audience Manager がパブリッシャー向けオーディエンスの最適化を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
-seo-description: Audience Manager がパブリッシャー向けオーディエンスの最適化を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
+description: Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
+seo-description: Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
 seo-title: DFP データファイルを Audience Manager にインポート
 solution: Audience Manager
 title: DFP データファイルを Audience Manager にインポート
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # DFP データファイルを Audience Manager にインポート{#import-dfp-data-files-into-audience-manager}
 
-Audience Manager がパブリッシャー向けオーディエンスの最適化を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
+Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
 
 ## DFP ログの取り込みの前提条件 {#prereqs-dfp-ingestion}
 
 この節で説明している処理は、ログの取り込みを許可するための前提条件に進む&#x200B;*前*&#x200B;におこなってください。
 
-[!DNL Audience Manager] の DFP（[!DNL DoubleClick For Publishers]）ログファイルを使用するには、まず広告タグ呼び出しで [Audience Manager の一意のユーザー ID（UUID）](../../../reference/ids-in-aam.md)を設定する必要があります。これにより、ID が DFP ログに含まれ、DFP と [!DNL Audience Manager] との間で ID を照合できるようになります。[!DNL Audience Manager][!UICONTROL DIL] コードを使用して [!UICONTROL Audience Management Module] 、ファーストパーティcookieの [!DNL Audience Manager] UUIDを設定します。
+[!DNL Audience Manager] の DFP（[!DNL DoubleClick For Publishers]）ログファイルを使用するには、まず広告タグ呼び出しで [Audience Manager の一意のユーザー ID（UUID）](../../../reference/ids-in-aam.md)を設定する必要があります。これにより、ID が DFP ログに含まれ、DFP と [!DNL Audience Manager] との間で ID を照合できるようになります。[!DNL Audience Manager] の [!UICONTROL DIL] コードまたは [!UICONTROL Audience Management Module] を使用して、[!DNL Audience Manager] UUID をファーストパーティの Cookie で設定します。
 
 広告タグ呼び出しでの [!DNL Audience Manager] ID の設定方法は以下のとおりです（ドキュメントにも説明があります）。
 
