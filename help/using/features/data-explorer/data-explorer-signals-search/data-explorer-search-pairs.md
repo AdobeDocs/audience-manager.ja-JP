@@ -4,7 +4,7 @@ seo-description: キー値ペアに基づいて 1 つまたは複数のシグナ
 seo-title: キー値ペアによるシグナルの検索
 title: キー値ペアによるシグナルの検索
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 >[!IMPORTANT]
 >
->処理時間を短縮するため、キー値ペアによる検索では、データサンプリングに基づいて結果が取得されます。See [Data Sampling and Error Rates](/help/using/reporting/report-sampling.md) for details on how [!DNL Audience Manager] uses data sampling and why slight result variations may appear when comparing key-value search to general searches.
+>処理時間を短縮するため、キー値ペアによる検索では、データサンプリングに基づいて結果が取得されます。[!DNL Audience Manager] でのデータサンプリングの利用方法、キー値検索と一般的な検索を比較した場合に検索結果の差異が生じる可能性がある理由については、[データサンプリングおよびエラー率](/help/using/reporting/report-sampling.md)を参照してください。
 
 複数のキー値ペアを使用してシグナルを検索する場合、[!DNL Audience Manager] は論理 **AND** 演算子で各ペアを結合します。例として、以下のキー値ペアを指定して検索をおこなうとします。
 
@@ -47,5 +47,5 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 キー検索フィールドに `product` と入力すると、自動入力候補として `productCategory`、`newProduct`、`PRODUCT` および `product` が表示されます。
 
-同様に、`product == phone` と指定して検索した場合、[!UICONTROL Data Explorer] では `PRODUCT == phone` と `product == PHONE` の両方の結果が返されます。
+同様に、`product == phone` を検索すると、[!UICONTROL Data Explorer] では `PRODUCT == phone` と `product == PHONE` の両方の結果が返されます。
 バックフィルをおこなった特性適合でも、大文字と小文字は区別されません。キー値ペアが `PRODUCT == SMARTPHONE` のシグナルを含む特性は、キー値ペアが `product == smartphone` のシグナルとしても認定されます。
