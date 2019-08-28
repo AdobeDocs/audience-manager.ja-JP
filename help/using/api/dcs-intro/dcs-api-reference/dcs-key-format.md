@@ -5,7 +5,7 @@ seo-title: DCS 呼び出しでのキー値ペアの形式
 solution: Audience Manager
 title: DCS 呼び出しでのキー値ペアの形式
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
