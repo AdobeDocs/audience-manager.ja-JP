@@ -5,7 +5,7 @@ seo-title: DCS API メソッド
 solution: Audience Manager
 title: DCS API メソッド
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 # DCS API メソッド {#dcs-api-methods}
 
-Send data to the [!UICONTROL DCS] [!DNL API] using `GET` or `POST` methods.
+`GET` または `POST` メソッドを使用して [!UICONTROL DCS] [!DNL API] にデータを送信します。
 
-[!UICONTROL DCS] メソッドか `GET` メソッドのどちらかを使用して、`POST` にデータを送信できます。[curl](https://curl.haxx.se/) / を使用した以下のサンプル呼び出しを見てみましょう。これら 3 つのサンプル呼び出しでは、シグナル `c_likes = famous popstar` および `c_loves = famous actress` をデバイスプロファイル `12345678901234567890123456789012345678` に追加しています。
+`GET` メソッドまたは `POST` メソッドのどちらかを使用して、[!UICONTROL DCS] にデータを送信できます。[curl](https://curl.haxx.se/) を使用した以下のサンプル呼び出しを見てみましょう。これら 3 つのサンプル呼び出しでは、シグナル `c_likes = famous popstar` および `c_loves = famous actress` をデバイスプロファイル `12345678901234567890123456789012345678` に追加しています。
 
 >[!NOTE]
 >
@@ -25,7 +25,8 @@ Send data to the [!UICONTROL DCS] [!DNL API] using `GET` or `POST` methods.
 
 `GET` 呼び出しのサイズの上限は 8K であることに注意してください。
 
-<pre><code>curl- i"<i>yourcompany.demdex.net/event</i>?
+<pre><code>
+curl -i "<i>yourcompany</i>.demdex.net/event?
 d_uuid=<i>12345678901234567890123456789012345678</i>&amp;d_rtbd=json&amp;<i>c_likes=famous%20popstar</i>&amp;<i>c_loves=famous%20actress</i>"
 </code></pre>
 
