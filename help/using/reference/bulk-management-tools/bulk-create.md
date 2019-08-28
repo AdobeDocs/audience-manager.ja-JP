@@ -1,11 +1,11 @@
 ---
-description: 一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。一括作成のリクエストをおこなうには、以下の手順に従ってください。
-seo-description: 一括作成により、複数のデータソース、派生シグナル、セグメント、特性、その他の項目を 1 回の操作で作成できます。一括作成のリクエストをおこなうには、以下の手順に従ってください。
+description: 一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。一括作成の要求をおこなうには、以下の手順に従ってください。
+seo-description: 一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。一括作成の要求をおこなうには、以下の手順に従ってください。
 seo-title: 一括作成
 solution: Audience Manager
 title: 一括作成
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -23,23 +23,23 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[UIで割り当てられたRBACグループ権限](../../features/administration/administration-overview.md)[!DNL Audience Manager] は、で使用さ [!UICONTROL Bulk Management Tools]れます。
+>[!UICONTROL Bulk Management Tools] は、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 >[!CAUTION]
 >
 >一括作成リクエストではオブジェクトタイプが混在しないようにしてください。各オブジェクトのヘッダーは一意で、結合できません。ワークシートをクリアして、項目ごとに別のリクエストを作成します。
 
-To create objects in bulk, open the [!UICONTROL Bulk Management Tools] worksheet and:
+オブジェクトを一括作成するには、「[!UICONTROL Bulk Management Tools]」ワークシートを開いてから、以下の手順に従ってください。
 
 1. 「**[!UICONTROL Headers]**」タブをクリックして、追加する項目の作成ヘッダーをコピーします。
-1. Click the **[!UICONTROL Create]** tab.
+1. 「**[!UICONTROL Create]**」タブをクリックします。
 1. 作成ヘッダーを、更新ワークシートの 1 行目に貼り付けます。
 1. ヘッダーラベルに基づいて、変更するデータを対応する列に貼り付けるか入力します。
-1. ワークシートのツールバーで、更新する項目の作成ボタンをクリックします。This action opens the [!UICONTROL Account Information] dialog box.
+1. ワークシートのツールバーで、更新する項目の作成ボタンをクリックします。これにより、[!UICONTROL Account Information] ダイアログボックスが開きます。
 
 1. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、「**[!UICONTROL Submit]**」をクリックします。
 
-ワークシートに「[!UICONTROL Results]」列が作成されます。「[!UICONTROL Results]」列には、成功した操作の JSON レスポンスが返されます。See the [REST APIs](../../api/rest-api-main/rest-api-main.md) for examples. データを入力する前の一括作成ワークシートは、次の例のようになります。ただし、作成オプションのすべてがここに表示されているわけではありません。この例は、完成したワークシートの概要を把握するためのものです。
+ワークシートに「[!UICONTROL Results]」列が作成されます。「[!UICONTROL Results]」列には、成功した操作の JSON レスポンスが返されます。例については[ REST API](../../api/rest-api-main/rest-api-main.md) を参照してください。データを入力する前の一括作成ワークシートは、次の例のようになります。ただし、作成オプションのすべてがここに表示されているわけではありません。この例は、完成したワークシートの概要を把握するためのものです。
 
 ![](assets/cretetraits.png)
 
