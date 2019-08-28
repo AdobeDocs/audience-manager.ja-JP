@@ -1,11 +1,11 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: ピクセル呼び出しを使用したキャンペーンクリックデータのキャプチャ
+seo-title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 solution: Audience Manager
-title: ピクセル呼び出しを使用したキャンペーンクリックデータのキャプチャ
+title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 ---
@@ -19,10 +19,10 @@ source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
 
 クリック追跡呼び出しには次のパラメーターが必要です。
 
-* `d_event=click`：イベント呼び出しをクリックイベントとして識別するキー値ペア。
-* `d_rd=redirect URL`:エンコードされたリダイレクトを含むキー値のペア [!DNL URL]です。
+* `d_event=click`：イベント呼び出しをクリックイベントとして識別するキーと値のペア。
+* `d_rd=redirect URL`：エンコードされたリダイレクト [!DNL URL] が含まれているキーと値のペア。
 
-さらに、呼び出しには、特性の絞り込みや他のレポートへのデータやメタデータの提供に使用できるキー値ペアを含めることもできます｡
+さらに、呼び出しには、特性認定や他のレポートへのデータやメタデータの提供に使用できるキーと値のペアを含めることもできます｡
 
 ## 要求のサンプル
 
@@ -32,15 +32,15 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## 応答
 
-The response redirects the browser to the [!DNL URL] specified in the `d_rd` parameter. 応答文字列には、サポートされている下記マクロのいずれかで生成された値を含めることができます。
+応答は、`d_rd` パラメーターで指定された [!DNL URL] にブラウザーをリダイレクトします。応答文字列には、サポートされている下記マクロのいずれかで生成された値を含めることができます。
 
-Based on the above example, the browser is redirected to the following [!DNL URL]:
+上記の例に従うと、ブラウザーは次の [!DNL URL] にリダイレクトされます。
 
 [!DNL `https://adobe.com/callback?creative=123`]
 
 ## サポートされているマクロ
 
-クリックイベントでは、次の表に示したマクロをサポートしています。マクロは、キャンペーンやユーザー追跡用の広告タグが読み込まれるときに起動される小さい自己完結型コード単位です。The macros will be passed along with the destination [!DNL URL], as long as they are marked with the following format: `%macro%`. 一部のキーにはマクロがなく、代わりに、ハードコードされた ID 値を受け取ります。[オーディエンスの最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータを分析する場合はハードコードされた値を受け取るキーが必要になります。
+クリックイベントでは、次の表に示したマクロをサポートしています。マクロは、キャンペーンやユーザー追跡用の広告タグが読み込まれるときに起動される小さい自己完結型コード単位です。マクロは、`%macro%` の形式でマークされている限り、宛先 [!DNL URL] と一緒に渡されます。一部のキーにはマクロがなく、代わりに、ハードコードされた ID 値を受け取ります。[オーディエンスの最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータを分析する場合はハードコードされた値を受け取るキーが必要になります。
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -59,17 +59,17 @@ Based on the above example, the browser is redirected to the following [!DNL URL
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>マクロなし。 </p> <p>ハードコードされた ID 値を受け取ります。 </p> </td> 
-   <td colname="col2"> <p> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings">広告主のデータソース ID または統合コード。</a> </p> <p> <span class="wintitle">オーディエンスの最適化</span>レポートに必須。 </p> </td> 
+   <td colname="col2"> <p> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings">広告主のデータソース</a> ID または統合コード。 </p> <p> <span class="wintitle">Audience Optimization </span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>事業部門の ID（数値）。 </p> <p> <span class="wintitle">オーディエンスの最適化</span>レポートに必須。 </p> </td> 
+   <td colname="col2"> <p>事業部門の ID（数値）。 </p> <p> <span class="wintitle">Audience Optimization </span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>広告サーバーから割り当てられたキャンペーン ID（数値）。 </p> <p> <span class="wintitle">オーディエンスの最適化</span>レポートに必須。 </p> </td> 
+   <td colname="col2"> <p>広告サーバーから割り当てられたキャンペーン ID（数値）。 </p> <p> <span class="wintitle">Audience Optimization </span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -89,7 +89,7 @@ Based on the above example, the browser is redirected to the following [!DNL URL
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span>ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -122,13 +122,13 @@ Based on the above example, the browser is redirected to the following [!DNL URL
    <td colname="col2"> <p>Demdex Cookie に頼らずに、訪問者の ID を URL で直接指定します。 </p> <p>オプションです。 </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <p> <code>dgpr</code> </p> </td> 
-   <td colname="col02"> <p> <code>% ddpr_ apply%</code> </p> </td> 
-   <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。 </p><p><code>dgpr</code> は、0（GGPRが適用されません）または1（GGPR適用）です。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
+   <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
+   <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。 </p><p><code> gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <p> <code>dgpr_ accept</code> </p> </td> 
-   <td colname="col02"> <p> <code>% ddpr_ accept%</code> </p> </td> 
+   <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_consent%</code> </p> </td> 
    <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> <code>gdpr=1</code> の場合、<code>%gdpr_consent%</code> は <code>gdpr_consent</code> 文字列に置き換えられます（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">IAB 仕様</a>を参照）。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
   </tr> 
  </tbody> 
@@ -156,7 +156,7 @@ d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
 
 ## 応答
 
-Based on the above example, the browser is redirected to the following [!DNL URL]:
+上記の例に従うと、ブラウザーは次の [!DNL URL] にリダイレクトされます。
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 
