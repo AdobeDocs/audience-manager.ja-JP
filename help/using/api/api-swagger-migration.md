@@ -5,7 +5,7 @@ seo-title: Audience Manager の API コードの移行
 solution: Audience Manager
 title: Audience Manager の API コードの移行
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d368699d0de9a43cb7cf2c1af64da941a811db71
 
 ---
@@ -19,7 +19,7 @@ Audience Manager チームのメンバーもまたエンジニア、開発者ま
 
 <!-- api-swagger-migration.xml -->
 
-改訂された コンテンツは今後 [Adobe Audience Manager API に関するドキュメント](https://bank.demdex.com/portal/swagger/index.html)のサイトから提供されます。[!DNL API]これからも、リリースごとに [!DNL API] メソッドの書き直しを少しずつ進めていきたいと思います。このため、利用可能なメソッドの一覧を確認するには、新しい場所と [REST API](../api/rest-api-main/rest-api-main.md) ドキュメントの両方を参照していただく必要があります。最終的には、すべての公開 [!DNL API] が [!DNL Audience Manager] の [!DNL API] ドキュメントサイトから提供されるようになります。次の表に、改訂および移行済みの [!DNL API] を示します。
+改訂された [ コンテンツは、今後、](Adobe Audience Manager API に関するドキュメント)https://bank.demdex.com/portal/swagger/index.html[!DNL API]サイトから提供されます。これからも、リリースごとに [!DNL API] メソッドの書き直しを少しずつ進めていきたいと思います。このため、利用可能なメソッドの一覧を確認するには、新しい場所と [REST API](../api/rest-api-main/rest-api-main.md) ドキュメントの両方を参照していただく必要があります。最終的には、すべての公開 [!DNL API] が [!DNL Audience Manager] の [!DNL API] ドキュメントサイトから提供されるようになります。次の表に、改訂および移行済みの [!DNL API] を示します。
 
 <table id="table_CD3C244CB02C48C898745FB982EC828C"> 
  <thead> 
@@ -37,16 +37,16 @@ Audience Manager チームのメンバーもまたエンジニア、開発者ま
    <td colname="col1"> <p> <b>Audience Marketplace</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_4CFB3FAAC0B04E5AADD80E7D7FAF2722"> 
-      <li id="li_50EE5F6B2278480E9FEA04AD51664F9D"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_API" format="https" scope="external"> データフィード</a> </li> 
-      <li id="li_5D372E3819014AB78C12048A9A2DC89F"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Feed_Request_API/" format="https" scope="external"> データフィード（要求）</a> </li> 
-      <li id="li_0582688D08C346C68B81D86A5C46E053"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Finance_API" format="https" scope="external"> データフィード（ファイナンス）</a> </li> 
-      <li id="li_C1C1CB42D6A74803B4672F6EE2D2D08C"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/?f=Data_Feed_Plans_API" format="https" scope="external"> データフィード（計画）</a> </li> 
-      <li id="li_D8F9D791D0824287B9D0B0585E3106AB"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Feed_Subscription_API" format="https" scope="external"> データフィード（サブスクリプション）</a> </li> 
+      <li id="li_50EE5F6B2278480E9FEA04AD51664F9D"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /?f=Data_Feed_API" format="https" scope="external"> データフィード</a> </li> 
+      <li id="li_5D372E3819014AB78C12048A9A2DC89F"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Data_Feed_Request_API/" format="https" scope="external"> データフィード（要求）</a> </li> 
+      <li id="li_0582688D08C346C68B81D86A5C46E053"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /?f=Data_Feed_Finance_API" format="https" scope="external"> データフィード（ファイナンス）</a> </li> 
+      <li id="li_C1C1CB42D6A74803B4672F6EE2D2D08C"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /?f=Data_Feed_Plans_API" format="https" scope="external"> データフィード（計画）</a> </li> 
+      <li id="li_D8F9D791D0824287B9D0B0585E3106AB"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Data_Feed_Subscription_API" format="https" scope="external"> データフィード（サブスクリプション）</a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Data Source</b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Data_Source_API" format="https" scope="external"> データソース</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Data_Source_API" format="https" scope="external"> データソース</a> </p> </td> 
   </tr> 
    <td colname="col1"> <p> <b>派生シグナル</b> </p> </td> 
    <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#/Derived_Signals_API" format="https" scope="external"> 派生シグナル</a> </p> </td> 
@@ -55,26 +55,26 @@ Audience Manager チームのメンバーもまたエンジニア、開発者ま
    <td colname="col1"> <p> <b>フォルダー</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_FD05673B372141F3B0EF2C79A338F744"> 
-      <li id="li_5D16FCAF6F0E411694A1CFBE9571BDAC"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segment_Folder_API" format="https" scope="external"> セグメントフォルダー</a> </li> 
-      <li id="li_5DC088C0F8CA4FC193248366C8400030"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Trait_Folder_API" scope="external" format="https"> 特性フォルダー</a> </li> 
+      <li id="li_5D16FCAF6F0E411694A1CFBE9571BDAC"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Segment_Folder_API" format="https" scope="external"> セグメントフォルダー</a> </li> 
+      <li id="li_5DC088C0F8CA4FC193248366C8400030"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Trait_Folder_API" scope="external" format="https"> 特性フォルダー</a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>レポート</b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Reporting_API" format="https" scope="external"> レポート</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Reporting_API" format="https" scope="external"> レポート</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>セグメント</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_098B0655653D4846B70349A35A055C19"> 
-      <li id="li_41A3003BF41147969BC88D4F12A5C1BB"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segments_API" format="https" scope="external"> セグメント</a> </li> 
-      <li id="li_22A858D377634D88AE58BE2CE924169C"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segment_Test_Group_API/" format="https" scope="external"> セグメントのテストグループ</a> </li> 
-      <li id="li_2B505A1B43CF4B29A0336106C321E7FD"> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Segment_Test_Group_Draft_API/" format="https" scope="external"> セグメントのテストグループのドラフト版 API</a> </li> 
+      <li id="li_41A3003BF41147969BC88D4F12A5C1BB"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Segments_API" format="https" scope="external"> セグメント</a> </li> 
+      <li id="li_22A858D377634D88AE58BE2CE924169C"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Segment_Test_Group_API/" format="https" scope="external"> セグメントのテストグループ</a> </li> 
+      <li id="li_2B505A1B43CF4B29A0336106C321E7FD"> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Segment_Test_Group_Draft_API/" format="https" scope="external"> セグメントのテストグループのドラフト版 API</a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>特性</b> </p> </td> 
-   <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#!/Traits_API" format="https" scope="external"> 特性</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://bank.demdex.com/portal/swagger/index.html#! /Traits_API" format="https" scope="external"> 特性</a> </p> </td> 
   </tr>
  </tbody>
 </table>
