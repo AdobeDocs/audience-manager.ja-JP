@@ -5,7 +5,7 @@ seo-title: データ統合ライブラリ API メソッド
 solution: Audience Manager
 title: データ統合ライブラリ API メソッド
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 
 # データ統合ライブラリ API メソッド {#data-integration-library-api-methods}
 
-Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+[!UICONTROL Data Integration Library]（[!UICONTROL DIL]をプログラムで操作するためのメソッド。
 
 >[!IMPORTANT]
 >
->Data Integration Library APIは非推奨となりました。This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>Data Integration Library API は廃止されました。DIL の生成に使用されているこの API は、[DIL ダウンロード](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロードできるようになりました。
 
 <!-- c_data_integr_library_api.xml -->
 
@@ -41,7 +41,7 @@ Methods that let you work programmatically with the [!UICONTROL Data Integration
 
 ## バージョンの JSON スキーマを返す {#return-json-schema-version}
 
-`GET` バージョンの [!DNL JSON] スキーマを返す [!UICONTROL DIL] メソッド。Supports using alias [!UICONTROL LATEST] for version to get the latest version of [!UICONTROL DIL].
+[!UICONTROL DIL] バージョンの [!DNL JSON] スキーマを返す `GET` メソッド。バージョンのエイリアス [!UICONTROL LATEST] を使用して [!UICONTROL DIL] の最新バージョンを取得することができます。
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -377,7 +377,7 @@ Methods that let you work programmatically with the [!UICONTROL Data Integration
 
 ## DIL{#generate-dil} を生成する 
 
-`GET` の指定バージョンを使用して要求本文で渡された内容に基づいて [!UICONTROL DIL] を生成する [!UICONTROL DIL] メソッド。URL でバージョンにエイリアス `LATEST` が使用されている場合、[!UICONTROL DIL] の最新バージョンが生成されます。
+[!UICONTROL DIL] の指定バージョンを使用して要求本文で渡された内容に基づいて [!UICONTROL DIL] を生成する `GET` メソッド。URL でバージョンにエイリアス `LATEST` が使用されている場合、[!UICONTROL DIL] の最新バージョンが生成されます。
 
 <!-- r_api_generate_dil.xml -->
 
@@ -461,4 +461,4 @@ Methods that let you work programmatically with the [!UICONTROL Data Integration
 
 ### 応答
 
-更新が成功すると、レスポンスコード `201 created` と [!UICONTROL DIL][!DNL JavaScript]  コードが返されます。
+更新が成功すると、レスポンスコード `201 created` と [!UICONTROL DIL][!DNL JavaScript] コードが返されます。
