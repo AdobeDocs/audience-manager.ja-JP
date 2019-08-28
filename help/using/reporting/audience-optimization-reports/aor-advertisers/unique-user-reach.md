@@ -5,13 +5,13 @@ seo-title: 個別ユーザーのリーチ
 solution: Audience Manager
 title: 個別ユーザーのリーチ
 uuid: 897245ab-af6e-42a0-b653-96703b65c764
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
 
 
-# 個別ユーザーリーチ{#unique-user-reach}
+# 個別ユーザーのリーチ{#unique-user-reach}
 
 個別ユーザーのリーチレポートでは、データはバブルチャートで返されます。それぞれのバブルは、選択したディメンションの個別ユーザー数に正比例したサイズになっています。バブルが大きいほど、リーチが大きくなります。
 
@@ -21,7 +21,7 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 >
 >次の点に注意してください。
 >
->* [!UICONTROL Unique User Reach] このレポートには、権限レベルを持つ [!UICONTROL Admin] ユーザーに関する情報のみが表示されます。[!DNL Audience Manager] コンサルタントまたはカスタマーケアが、権限を持つ [!UICONTROL Admin] アカウントをプロビジョニングできます。
+>* [!UICONTROL Unique User Reach] レポートには、[!UICONTROL Admin]権限レベルのユーザーの情報のみが表示されます。[!DNL Audience Manager] の担当のコンサルタントまたはカスタマーケアが、アカウントに [!UICONTROL Admin]権限を付与できます。
    >
    >
 * 7 日と 30 日のルックバック期間は日曜日の場合のみ使用できます。
@@ -29,6 +29,6 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ## レポートのサンプル
 
-[!UICONTROL Unique User Reach] レポートは以下のようになります。レポート内でバブルをクリックすると、基になっているデータが表示されます。
+[!UICONTROL Unique User Reach]レポートは次のようになります。レポート内でバブルをクリックすると、基になっているデータが表示されます。
 
 ![](assets/unique-user-reach.png)
