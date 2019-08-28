@@ -5,7 +5,7 @@ seo-title: 競合状態とエラー処理
 solution: Audience Manager
 title: 競合状態とエラー処理
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 * 同じユーザーから [!UICONTROL DCS] への複数の呼び出しを同時にまたは矢継ぎ早におこなわない。
 * 応答が戻ってくるのを待ってから、次の呼び出しをおこなう。
 
-## エラー処理 {#error-handling}
+## エラー処理{#error-handling}
 
 無効なクエリや不完全な形式のクエリの場合は、エラー処理が限られます。無効な要求の場合は、`HTTP 200 OK` 応答が返されるだけで、データは返されません。また、ユーザーが以下のいずれかに該当する場合、[!UICONTROL DCS] は要求の処理を停止し、特性データを破棄し、`HTTP 200 OK` 応答を返します。
 
