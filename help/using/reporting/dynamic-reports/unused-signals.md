@@ -1,19 +1,19 @@
 ---
-description: このレポートでは、在庫で収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。
-seo-description: このレポートでは、在庫で収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。
-seo-title: 未使用シグナルレポート
+description: このレポートでは、インベントリで収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。
+seo-description: このレポートでは、インベントリで収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。
+seo-title: Unused Signals レポート
 solution: Audience Manager
-title: 未使用シグナルレポート
+title: Unused Signals レポート
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# 未使用シグナルレポート{#unused-signals-report}
+# Unused Signals レポート{#unused-signals-report}
 
-このレポートでは、在庫で収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。
+このレポートでは、インベントリで収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。
 
 <!-- 
 
@@ -21,11 +21,11 @@ c_unused_signals.xml
 
  -->
 
-## 未使用シグナルレポート
+## Unused Signals レポート
 
 シグナルは、Web サイトからの情報で、[キーと値のペア](../../reference/key-value-pairs-explained.md)の形式（`color=blue, price>100, gender=female` など）で [!DNL Audience Manager] に渡されます。
 
-未使用シグナルは、収集したものの、特性にマッピングされていないデータで構成されます。[!UICONTROL Unused Signals] レポートには、日付、キー、値および頻度のカウント別に表のデータが表示されます。Any unmapped signal passed in to [!DNL Audience Manager] at least 100 times in a day qualifies for the [!UICONTROL Unused Signals] report.
+未使用シグナルは、収集したものの、特性にマッピングされていないデータで構成されます。[!UICONTROL Unused Signals] レポートには、データが日付、キー、値、頻度カウント別に表形式で表示されます。1 日に 100 回以上 [!DNL Audience Manager] に渡されたマッピングされていないシグナルが、[!UICONTROL Unused Signals] レポートの対象になります。
 
 このレポートをレビューすると、新規または既存の特性にマッピングできる孤立したシグナルの特定に役に立ちます。
 
@@ -60,7 +60,7 @@ c_unused_signals.xml
 
 ## ベストプラクティス
 
-Run and check the [!UICONTROL Unused Signals] report:
+[!UICONTROL Unused Signals] レポートを実行してチェックします。
 
 * 特性を作成または特性ルールを更新した後。これにより、特性とルールが適切にセットアップされていることを確認できます。結果に数値 1 が含まれている場合は、新しい特性が正しく設定されていない可能性があります。
 * 隔週または毎月。スケジュール設定されたレビューは、特性マッピングが最新かどうかを確認するのに役に立ちます。
@@ -70,10 +70,10 @@ Run and check the [!UICONTROL Unused Signals] report:
 >レポートで未使用値を検索する際は、以下の点を考慮してください。例えば、以下の 2 つの式には違いがあります。
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
-* T(v=1 [!UICONTROL AND] (a!=23))
-* Both examples show a trait which contains two key-value pairs v and a. The first expression translates into: the trait contains key v with the value 1 [!UICONTROL AND NOT] the key a with the value 23. The second expression contains key v with the value 1 [!UICONTROL AND] the key a with the value [!UICONTROL NOT EQUAL] 23.
-* Considering the two different expressions above, let's say you search in the [!UICONTROL Unused Signals Report] for the values that get passed on key a with any value different than 23, you'll only obtain results in the first case because values for key were not sent AT ALL. 2 番目の場合は、23 以外の値が送信されたので、キー a は未使用ではありません。
+* T(v=1 [!UICONTROL AND] (a! =23))
+* どちらの例も、キー値ペアを 2 つ（v および a）を含む特性を示しています。最初の式は、「特性には、値が 1 のキー v を含み、値が 23 のキー a は含まない（the trait contains key v with the value 1 [!UICONTROL AND NOT] the key a with the value 23）」となり、2 番目の式は、「値が 1 のキー v、および値が 23 以外のキー a を含む（contains key v with the value 1 [!UICONTROL AND] the key a with the value [!UICONTROL NOT EQUAL] 23）」となります。
+* 上記 2 つの異なる式の場合、例えば値が 23 以外のキー a に渡された値を [!UICONTROL Unused Signals Report] レポートで検索すると、最初の式でのみ結果が得られます。キーの値がまったく送信されなかったからです。2 番目の場合は、23 以外の値が送信されたので、キー a は未使用ではありません。
 
 ## 特性の一括作成
 
-Contact your Partner Solutions representative if you need to bulk create a lot of traits based on data obtained from the [!UICONTROL Unused Signals] report.
+[!UICONTROL Unused Signals] レポートから得られたデータに基づいて多数の特性を一括作成する必要がある場合は、パートナーソリューション担当者に問い合わせてください。
