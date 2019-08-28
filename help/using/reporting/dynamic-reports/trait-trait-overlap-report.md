@@ -5,7 +5,7 @@ seo-title: 特性間重複レポート
 solution: Audience Manager
 title: 特性間重複レポート
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
 
 >[!NOTE]
 >
->Audience Managerの重複レポートは、RBACの原則に従います。You can only see traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Audience Manager の重複レポートは、RBAC の原則に従います。自分が属している [RBAC ユーザーグループ](/help/using/features/administration/administration-overview.md) に基づき、自分がアクセスできるデータソースからの特性のみを確認できます。
 
 <!-- 
 
@@ -27,7 +27,7 @@ c_overlap_reports.xml
 
 ## 概要
 
-[!UICONTROL Trait-to-Trait Overlap] このレポートは、すべての特性とサードパーティの特性の間で共有される個別ユーザーの%に対してデータを返します。最適化ツールとして、このレポートは以下に役立ちます。
+[!UICONTROL Trait-to-Trait Overlap]レポートは、すべての独自特性とサードパーティ特性の間で共有される個別ユーザーの割合に関するデータを返します。最適化ツールとして、このレポートは以下に役立ちます。
 
 * ニーズに応じて、重複の多いまたは少ないセグメントを作成する。重複の多い特性は、ターゲット設定されたオーディエンスを提供しますが、個別訪問者は少なくなります。重複の少ない特性は、より多数の個別訪問者にリーチするうえで役に立つ可能性があります。
 * サードパーティ特性データを検証する。類似するファーストパーティ特性とサードパーティ特性の間の重複が非常に多い場合は、データパートナーからの特性が正確で信頼できるものであることを示します。反対に、重複が少ない場合は、サードパーティ特性が、類似するファーストパーティ特性と同じ情報を実際には含んでいない可能性があることを示唆します。
@@ -35,11 +35,11 @@ c_overlap_reports.xml
 
 ## レポートのサンプル
 
-The following illustration provides a high-level overview of elements in the [!UICONTROL Trait-to-Trait Overlap] report.
+次の図は、[!UICONTROL Trait-to-Trait Overlap]レポートの要素の概要を示しています。
 
 >[!NOTE]
 >
->[!UICONTROL Trait-to-Trait Overlap] このレポートでは、同じ特性をその特性自体と比較すると、空のフィールドが返されます。
+>[!UICONTROL Trait-to-Trait Overlap]レポートは、同じ特性同士を比較すると、空のフィールドを返します。
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -93,7 +93,7 @@ r_t2t_data_pop.xml
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Overlap Uniques</span></b> </td> 
-   <td colname="col2"> <p>重複率を取得するために、Audience Managerは次の数式を使用します。</p> <p>重複する個別/（ベースセグメント個別、重なっているセグメント個別、重複する個別のセグメント）</p> </td> 
+   <td colname="col2"> <p>重複率を取得するために、Audience Manager は次の数式を使用します。</p> <p>Overlapping Uniques / (Base Segment Uniques + Overlapping Segment Uniques – Overlapping Uniques)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Trait Uniques</span></b> </td> 
