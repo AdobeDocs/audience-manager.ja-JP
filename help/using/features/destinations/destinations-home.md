@@ -5,7 +5,7 @@ seo-title: 宛先の管理
 solution: Audience Manager
 title: 宛先の管理
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 
 ---
 
@@ -13,26 +13,26 @@ source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
 
 # 宛先ホームページ {#destinations-home}
 
-[!UICONTROL Destination] ランディングページには、すべて [!DNL URL]のCookie、cookieおよびサーバー間宛先が一覧表示されます。ここでは、宛先の作成、編集、検索、レポート作成をおこなえます。ランディングページがあり **[!UICONTROL Audience Data > Destinations]**&#x200B;ます。
+[!DNL URL]の [!UICONTROL Destination] ランディングページには、Cookie、サーバー間の各種宛先がすべて一覧表示されます。ここでは、宛先の作成、編集、検索、レポート作成をおこなえます。ランディングページは、**[!UICONTROL Audience Data > Destinations]**&#x200B;にあります。
 
 ## デフォルトのランディングページ {#default-landing-page}
 
 <!-- destinations-home.xml -->
 
-デフォルトのランディングページには、タイプに基づいて宛先が表示されます。次の4つのタブを使用して、宛先をフィルターできます。
+デフォルトのランディングページには、タイプに基づいて宛先が表示されます。次の 4 つのタブを使用して、宛先を絞り込むことができます。
 
-* **すべて**:に、すべてのタイプの宛先を表示します。
-* **Adobe Experience Cloud**:により、他のAdobe Experience Cloudソリューションにデータを送信する宛先が表示されます。現在、サポートされているオプションはAdobe Analyticsのみです。See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
-* **統合プラットフォーム**:に、ユーザーベースの宛先とデバイスベースの宛先（別名サーバー間宛先）を示します。現在、ユーザーベースの宛先は、選択した顧客のみが利用できる機能です。
-* **カスタム**:cookieおよびURLの宛先を表示します。
+* **すべて**：すべてのタイプの宛先を表示します。
+* **Adobe Experience Cloud**：他の Adobe Experience Cloud ソリューションにデータを送信する宛先を表示します。現在、サポートされているオプションは Adobe Analytics のみです。[Analytics の宛先の設定](/help/using/features/destinations/create-analytics-destination.md)を参照してください。
+* **統合プラットフォーム**：ユーザーベースの宛先とデバイスベースの宛先（サーバー間宛先）を表示します。
+* **カスタム**：cookie および URL の宛先を表示します。
 
 
 ![](assets/destinations-landing.png)
 
 ## アドレス可能なオーディエンスのランディングページ {#audiences-landing-page}
 
-サーバー間宛先のオーディエンスデータと一致率を確認するには、を選択 **[!UICONTROL Integrated Platforms > Device-Based]**&#x200B;します。
+サーバー間宛先のオーディエンスデータとマッチ率を確認するには、**[!UICONTROL Integrated Platforms > Device-Based]** を選択します。
 
-表示される情報について詳しくは [、アドレス可能なオーディエンスインターフェイス](/help/using/features/addressable-audiences.md#addressable-audience-interface)を参照してください。
+表示される情報について詳しくは、[アドレス可能なオーディエンスインターフェイス](/help/using/features/addressable-audiences.md#addressable-audience-interface)を参照してください。
 
 ![](/help/using/features/assets/addressable-audiences-landing.png)
