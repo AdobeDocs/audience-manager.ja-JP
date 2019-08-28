@@ -1,20 +1,20 @@
 ---
-description: Audience Manager では、特性の絞り込み（特性の満足）の処理方法は特性のタイプによって異なります。特性の絞り込みについて詳しくは、以下の表を参照してください。
-keywords: 特性認定;特性適合;一意の特性適合;UTR;合計特性母集団;TTP
-seo-description: Audience Manager では、特性の絞り込み（特性の満足）の処理方法は特性のタイプによって異なります。特性の絞り込みについて詳しくは、以下の表を参照してください。
+description: Audience Manager では、特性認定（特性の満足）の処理方法は特性のタイプによって異なります。特性認定について詳しくは、以下の表を参照してください。
+keywords: trait qualification;特性適合;個別の特性適合;UTR;Total Trait Population;TTP
+seo-description: Audience Manager では、特性認定（特性の満足）の処理方法は特性のタイプによって異なります。特性認定について詳しくは、以下の表を参照してください。
 seo-title: 特性認定に関するリファレンス
 solution: Audience Manager
 title: 特性認定に関するリファレンス
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
 
 ---
 
 
-# 特性の絞り込みに関するリファレンス {#trait-qualification-reference}
+# 特性認定に関するリファレンス {#trait-qualification-reference}
 
-Audience Manager では、特性の絞り込み（特性の満足）の処理方法は特性のタイプによって異なります。特性の絞り込みについて詳しくは、以下の表を参照してください。
+Audience Manager では、特性認定（特性の満足）の処理方法は特性のタイプによって異なります。特性認定について詳しくは、以下の表を参照してください。
 
 ## 特性タイプ別の特性認定 {#trait-type}
 
@@ -28,7 +28,7 @@ Audience Manager では、特性の絞り込み（特性の満足）の処理方
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ルールベースの特性 </p> </td> 
-   <td colname="col2"> <p>特性認定は、ユーザーがブラウザーで特性について認定されるとリアルタイムで発生します。お客様のユーザーのルールベースの特性認定は、お客様が UI で<a href="../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits">その特性を作成してから</a>約 4 時間後に始まります。 </p> <p>ルールベースの特性では、広告頻度キャップやその他のユースケース向けに<a href="../../features/segments/recency-and-frequency.md">最新性と頻度</a>のコントロールを使用できます。 </p> </td> 
+   <td colname="col2"> <p>特性認定は、ユーザーがブラウザーで特性について認定されるとリアルタイムで発生します。ユーザーのルールベースの特性認定は、お客様が UI で<a href="../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits">その特性を作成してから</a>約 4 時間後に始まります。 </p> <p>ルールベースの特性では、広告頻度キャップやその他のユースケース向けに<a href="../../features/segments/recency-and-frequency.md">最新性と頻度</a>のコントロールを使用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>オンボードの特性 </p> </td> 
@@ -49,20 +49,20 @@ Audience Manager では、特性の絞り込み（特性の満足）の処理方
  </tbody>
 </table>
 
-## 個別の特性満足数と特性ユーザー総数 {#unique-trait-realizations}
+## Unique Trait Realizations と Total Trait Population {#unique-trait-realizations}
 
 ![](assets/utr-ttp1.png)
 
-The **[!UICONTROL Unique Trait Realizations]** count the number of your visitors that have added the trait to their profile, within different time ranges.
+**[!UICONTROL Unique Trait Realizations]**&#x200B;は、様々な期間において、特性を自分のプロファイルに追加した訪問者の数を表します。
 
-The **[!UICONTROL Total Trait Population]** represents the number of your visitors that have this trait on their profile.
+**[!UICONTROL Total Trait Population]**&#x200B;は、プロファイルにこの特性がある訪問者の数を表します。
 
-これらの数字については次のように考えます。上の図で、「[Trait Details](../../features/traits/trait-details-page.md)」ビューの「181」は、前日にプロパティを訪問したアクティブなデバイスの数を表します。The [!UICONTROL Total Trait Population] of 1,595 represents the amount of users currently qualified for this trait. [!UICONTROL Total Trait Population] の数は、セグメント化／ターゲティングに使用できるユーザーの合計数を表しています。通常、ユーザーが特性の一部となっている期間は 120 日間です。
+これらの数字については次のように考えます。上の図で、[特性の詳細](../../features/traits/trait-details-page.md)ビューの「181」は、前日にプロパティを訪問したアクティブなデバイスの数を表します。[!UICONTROL Total Trait Population] は 1,595 ですが、これは現在この特性の対象として認定されているユーザーの数を表します。[!UICONTROL Total Trait Population] の数は、セグメント化／ターゲティングに使用できるユーザーの合計数を表しています。通常、ユーザーが特性の一部となっている期間は 120 日間です。
 
-Because we run two different computational jobs to calculate the two populations, the [!UICONTROL Total Trait Population] always lags behind the [!UICONTROL Unique Trait Realizations] by 24 hours. In the graph above, you can see 175 [!UICONTROL Unique Trait Realizations] and a [!UICONTROL Total Trait Population] of 6 for February 11. The 175 profiles are added to the [!UICONTROL Total Trait Population] on the following day.
+2 つの母集団の計算にはそれぞれ異なる 2 つの演算ジョブを実行しているので、[!UICONTROL Total Trait Population] は常に [!UICONTROL Unique Trait Realizations] より 24 時間遅れることになります。上のグラフでは、2 月 11 日時点での [!UICONTROL Unique Trait Realizations] は 175、[!UICONTROL Total Trait Population] は 6 となっています。次の日に、175 件のプロファイルが [!UICONTROL Total Trait Population] に加算されます。
 
 つまり、現時点で 10,000 人の訪問者があった場合、この訪問者数は翌日の [!UICONTROL Unique Trait Realizations] に反映されますが、[!UICONTROL Total Trait Population] に反映されるのはその 24 時間後になります。
 
 ## 特性認定の上限 {#trait-qualification-limit}
 
-各ユーザープロファイルには、それが認証済みプロファイル（[DPUUID](../../reference/ids-in-aam.md)）とデバイス ID（[UUID](../../reference/ids-in-aam.md)）のどちらであっても、150,000 の特性認定制限が適用されます。DPUUID は [!DNL Audience Manager] の特定のインスタンスに固有のものですが、UUID は [!DNL Audience Manager] プラットフォーム全体で共有されます。[!UICONTROL UUID]ここでは、特徴的条件を保存する際に公平性ポリシーを適用します。An algorithm ensures that an equal share of the [!UICONTROL UUID] profile is made available for every instance of [!DNL Audience Manager].
+各ユーザープロファイルには、それが認証済みプロファイル（[DPUUID](../../reference/ids-in-aam.md)）とデバイス ID（[UUID](../../reference/ids-in-aam.md)）のどちらであっても、150,000 の特性認定制限が適用されます。DPUUID は [!DNL Audience Manager] の特定のインスタンスに固有のものですが、UUID は [!DNL Audience Manager] プラットフォーム全体で共有されます。[!UICONTROL UUID] の場合、特性認定の保存時には公平性ポリシーが適用されます。所定のアルゴリズムにより、[!DNL Audience Manager] のすべてのインスタンスで、[!UICONTROL UUID] プロファイルの均等配分ができます。
