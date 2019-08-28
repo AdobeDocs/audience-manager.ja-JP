@@ -1,17 +1,17 @@
 ---
 description: コンバージョン特性レポートでは、特定の日付において、コンバージョングループのコンバージョン特性としてラベル付けされたすべての特性が表示されます。コンバージョングループのコンバージョン特性は、レポートの実行ごとに変わる可能性があります。このレポートには、選択されたレポート日付のコンバージョン特性がコンバージョングループ別に表示されます。
 seo-description: コンバージョン特性レポートでは、特定の日付において、コンバージョングループのコンバージョン特性としてラベル付けされたすべての特性が表示されます。コンバージョングループのコンバージョン特性は、レポートの実行ごとに変わる可能性があります。このレポートには、選択されたレポート日付のコンバージョン特性がコンバージョングループ別に表示されます。
-seo-title: レポートされたコンバージョン特性
+seo-title: 報告されたコンバージョン特性
 solution: Audience Manager
-title: レポートされたコンバージョン特性
+title: 報告されたコンバージョン特性
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
 
 
-# レポートされたコンバージョン特性{#reported-conversion-traits}
+# 報告されたコンバージョン特性{#reported-conversion-traits}
 
 コンバージョン特性レポートでは、特定の日付において、コンバージョングループのコンバージョン特性としてラベル付けされたすべての特性が表示されます。
 
@@ -19,6 +19,6 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ## レポートのサンプル
 
-[!UICONTROL Reported Conversion Traits] レポートは以下のようになります。
+[!UICONTROL Reported Conversion Traits]レポートは次のようになります。
 
 ![](assets/reported-conversion-traits.png)
