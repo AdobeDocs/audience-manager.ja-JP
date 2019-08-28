@@ -5,7 +5,7 @@ seo-title: REST API の概要
 solution: Audience Manager
 title: REST API の概要
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27800ce003a62733eece0d5de3b94737ed61133a
 
 ---
@@ -17,22 +17,22 @@ source-git-commit: 27800ce003a62733eece0d5de3b94737ed61133a
 
 <!-- c_rest_api_overview.xml -->
 
-## API 要件と推奨事項 {#api-requirements-recommendations}
+## API の要件と推奨事項 {#api-requirements-recommendations}
 
 Audience Manager [!DNL API] を使用する際に留意すべき事項の説明です。
 
 <!-- aam-api-requirements.xml -->
 
-[](https://bank.demdex.com/portal/swagger/index.html#/)Audience Manager API コードを操作する場合は、以下の点に注意してください。
+[Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) コードを使用する際は、次の点に注意してください。
 
 * **リクエストパラメーター：**&#x200B;特に指定のない限り、すべてのリクエストパラメーターが必要となります。
 * **[!DNL JSON]コンテンツタイプ：**&#x200B;コード内で、`content-type: application/json` *および* `accept: application/json` を指定してください。
 
-* **要求と応答：**[!DNL JSON]適切な形式の オブジェクトとして要求を送信してください。[!DNL Audience Manager] は [!DNL JSON] 形式のデータで応答します。サーバーの応答には要求されたデータもしくはステータスコード、またはその両方を含めることができます。
+* **要求と応答：**&#x200B;適切な形式の [!DNL JSON] オブジェクトとして要求を送信してください。[!DNL Audience Manager] は [!DNL JSON] 形式のデータで応答します。サーバーの応答には要求されたデータもしくはステータスコード、またはその両方を含めることができます。
 
-* **アクセス：担当の**[!DNL Audience Manager][!DNL API] コンサルタントによって、 要求をおこなうために必要なクライアント ID およびキーが提供されます。
+* **アクセス：**&#x200B;担当の[!DNL Audience Manager] コンサルタントによって、[!DNL API] 要求をおこなうために必要なクライアント ID およびキーが提供されます。
 
-* **ドキュメントおよびコードサンプル：***イタリック*[!DNL API]のテキストは、 データを作成または受け取る際に指定または渡される変数を示します。*イタリック*&#x200B;のテキストを独自のコード、パラメーターまたは他の必要な情報に置き換えてください。
+* **ドキュメントおよびコードサンプル：***斜体*&#x200B;のテキストは、[!DNL API] データを作成または受け取る際に指定または渡される変数を示します。*斜体*&#x200B;のテキストを独自のコード、パラメーターまたは他の必要な情報に置き換えてください。
 
 ## 推奨事項：汎用の API ユーザーを作成する {#requirements}
 
@@ -53,7 +53,7 @@ Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従っ
 
 <!-- oath-authentication.xml -->
 
-パスワード認証により、 [!DNL REST API] へのアクセスが保護されます。The steps below outline the workflow for password authentication from a [!DNL JSON] client in your browser.
+パスワード認証により、 [!DNL REST API] へのアクセスが保護されます。以下の手順は、ブラウザーで [!DNL JSON] クライアントからパスワードを認証する際のワークフローの概要を示しています。
 
 >[!TIP]
 >
@@ -77,7 +77,7 @@ Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従っ
 
 ### ステップ 3：トークンの受け取り
 
-[!DNL JSON] 応答にはアクセストークンが含まれます。応答は次のようになっています。
+[!DNL JSON]応答にはアクセストークンが含まれています。応答は次のようになっています。
 
 ```json
 {
@@ -89,11 +89,11 @@ Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従っ
 }
 ```
 
-The `expires_in` key represents the number of seconds until the access token expires. トークンが公開される場合、ベストプラクティスとして、有効期間を短く設定し、公開時間を制限します。
+`expires_in` キーは、アクセストークンの有効期間を秒単位で表しています。トークンが公開される場合、ベストプラクティスとして、有効期間を短く設定し、公開時間を制限します。
 
-## 更新トークン {#refresh-token}
+## 更新トークン{#refresh-token}
 
-Refresh tokens renew [!DNL API] access after the original token expires. リクエストがあれば、パスワードワークフローの応答 [!DNL JSON] に更新トークンが含まれます。更新トークンを受け取らない場合、パスワード認証プロセスにより新しいトークンを作成します。
+更新トークンは、元のトークンの有効期間が終了した後、[!DNL API] アクセスを更新します。リクエストがあれば、パスワードワークフローの応答 [!DNL JSON] に更新トークンが含まれます。更新トークンを受け取らない場合、パスワード認証プロセスにより新しいトークンを作成します。
 
 また、更新トークンを使用して、既存のアクセストークンの有効期間が終了する前に新しいトークンを作成することもできます。
 
@@ -126,7 +126,7 @@ Refresh tokens renew [!DNL API] access after the original token expires. リク�
 }
 ```
 
-## 認証コードと暗黙的な認証 {#authentication-code-implicit}
+## 認証コードと暗黙的な認証{#authentication-code-implicit}
 
 Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認証をサポートしています。これらのアクセス方法を利用するには、ユーザーが `https://api.demdex.com/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
 
@@ -145,7 +145,7 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 使用可能な [!DNL API] メソッドに対する呼び出しをおこなうには：
 
 * `HTTP` ヘッダーで `Authorization: Bearer <token>` を設定します。
-* Call the required [!DNL API] method.
+* 必要な [!DNL API] メソッドを呼び出します。
 
 >[!MORE_LIKE_THIS]
 >
@@ -158,7 +158,7 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 
 <!-- c_rest_api_optional.xml -->
 
-オブジェクトの[!DNL API]すべて&#x200B;*のプロパティを返す*   メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。
+オブジェクトの[!DNL API]すべて&#x200B;*のプロパティを返す* メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。
 
 | パラメーター | 説明 |
 |--- |--- |
@@ -166,14 +166,14 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 | pageSize | リクエストによって返された応答結果の番号を設定します（10 がデフォルト）。 |
 | sortBy | 指定された [!DNL JSON] プロパティに従って、結果を並べ替えて返します。 |
 | descending | 結果を降順で並べ替えて返します。昇順がデフォルトです。 |
-| search | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。      `GET https://api.demdex.com/v1/models/?search=Test`.  「get all」メソッドで返されるすべての値を検索できます。 |
+| search | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。   `GET https://api.demdex.com/v1/models/?search=Test`。「get all」メソッドで返されるすべての値を検索できます。 |
 | folderId | 指定されたフォルダー内の特性のすべての ID を返します。すべてのメソッドに対して使用できるわけではありません。 |
-| permissions | 指定された権限に基づいて、セグメントのリストを返します。READ がデフォルトです。権限には以下のものがあります。<ul><li>`READ`：セグメントに関する情報を返して表示します。</li><li>`WRITE`：`PUT`  を使用してセグメントを更新します。</li><li>`CREATE`：`POST` を使用してセグメントを作成します。</li><li>`DELETE` : セグメントの削除.基になる特性がある場合、その特性へのアクセス権が必要です。例えば、特性を削除する場合、セグメントに属する特性を削除する権限が必要です。</li></ul><br>複数の権限を個別のキー値ペアで指定します。例えば、`READ` および  `WRITE` 権限のみを持つセグメントのリストを返すには、 `"permissions":"READ"`、`"permissions":"WRITE"` を渡します。 |
+| permissions | 指定された権限に基づいて、セグメントのリストを返します。READ がデフォルトです。権限には以下のものがあります。<ul><li>`READ`：セグメントに関する情報を返して表示します。</li><li>`WRITE`：`PUT` を使用してセグメントを更新します。</li><li>`CREATE`：`POST` を使用してセグメントを作成します。</li><li>`DELETE`：セグメントの削除。基になる特性がある場合、その特性へのアクセス権が必要です。例えば、特性を削除する場合、セグメントに属する特性を削除する権限が必要です。</li></ul><br>複数の権限を個別のキー値ペアで指定します。例えば、`READ` および `WRITE` 権限だけを持っているセグメントのリストを返すには、`"permissions":"READ"`、`"permissions":"WRITE"` を渡します。 |
 | includePermissions | （ブール値）true に設定して、セグメントの権限を返します。デフォルトは false です。 |
 
 ### ページオプションに関する注意
 
-ページ情報が指定されていない場合、リクエストは、プレーンな 結果を配列で返します。**[!DNL JSON]ページ情報が指定されている場合、返されるリストは、合計結果と現在のページに関する情報を含んだ オブジェクトにラッピングされます。**[!DNL JSON]ページオプションを使用したサンプルリクエストは次のようになります。
+ページ情報が指定&#x200B;*されていない*&#x200B;場合、リクエストは、プレーンな [!DNL JSON] 結果を配列で返します。ページ情報が指定&#x200B;*されている*&#x200B;場合、返されるリストは、合計結果と現在のページに関する情報を含んだ [!DNL JSON] オブジェクトにラッピングされます。ページオプションを使用したサンプルリクエストは次のようになります。
 
 ```
 GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
@@ -181,11 +181,11 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 
 ## API URL {#api-urls}
 
-[!DNL URLs] を参照してください。
+リクエストの [!DNL URLs]、ステージング環境および実稼動環境、バージョンの説明です。
 
 <!-- r_rest_urls.xml -->
 
-## Request URLs {#request-urls}
+## URLのリクエスト{#request-urls}
 
 次の表は、[!DNL API] リクエストを渡すためのリクエスト URL のリストを、メソッド別に示しています。
 
@@ -216,7 +216,7 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 >
 >Audience Manager ベータ環境は、実稼動環境の小規模なスタンドアロンバージョンです。テストするデータはすべてこの環境で入力および収集する必要があります。
 
-## バージョン {#versions}
+## バージョン{#versions}
 
 これらの [!DNL API] では、新しいバージョンが定期的にリリースされています。新しいリリースでは、[!DNL API] バージョン番号が増加しています。リクエスト URL では、バージョン番号は次の例のように `v<version number>` として参照されます。
 
