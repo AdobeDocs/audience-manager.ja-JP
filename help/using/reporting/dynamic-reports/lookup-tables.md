@@ -5,7 +5,7 @@ seo-title: ルックアップテーブルによるログファイル処理時間
 solution: Audience Manager
 title: ルックアップテーブルによるログファイル処理時間の改善
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -23,11 +23,11 @@ c_lookup_tables.xml
 
 ## ログファイルメタデータによるファイルサイズおよび処理時間の増加
 
-A typical log file used by the [!UICONTROL Delivery Performance] report usually contains thousands of rows and dozens of columns. 数値 ID および人間が判読できる情報（クリエイティブの名前、広告主、広告掲載の申し込みなど）で構成されます。
+[!UICONTROL Delivery Performance]レポートで使用される典型的なログファイルには、通常、何万もの行と数十の列が含まれています。数値 ID および人間が判読できる情報（クリエイティブの名前、広告主、広告掲載の申し込みなど）で構成されます。
 
-This non-ID information is referred to as *`metadata`* (i.e., information about other information) and gets written in each row of the log file.
+このID以外の情報は、*`metadata`* （例：他の情報に関する情報）と呼ばれ、ログファイルの各行に書き込まれます。
 
-However, the [!UICONTROL Delivery Performance] report mainly works with the IDs in the log file. メタデータは有用ですが、同じ情報を繰り返します。また、ファイルサイズおよびデータの取り込み時間が増えます。
+ただし、[!UICONTROL Delivery Performance]配レポートでは、主にログファイルの ID を使用します。メタデータは有用ですが、同じ情報を繰り返します。また、ファイルサイズおよびデータの取り込み時間が増えます。
 
 ## インデックステーブルを使用したファイルサイズの削減と処理時間の短縮
 
@@ -37,7 +37,7 @@ However, the [!UICONTROL Delivery Performance] report mainly works with the IDs 
 
 以下に示すようなデータファイルがあるとします。
 
-| User ID | 広告 ID | 広告名 | 注文 ID | 注文名 | 広告主 ID | 広告主の名前 |
+| ユーザー ID | 広告 ID | 広告名 | 注文 ID | 注文名 | 広告主 ID | 広告主の名前 |
 |---|---|---|---|---|---|---|
 | 1 | 111 | 靴 A | 456 | スニーカー | 27 | 会社 A |
 | 2 | 111 | 靴 A | 456 | スニーカー | 27 | 会社 A |
@@ -49,7 +49,7 @@ However, the [!UICONTROL Delivery Performance] report mainly works with the IDs 
 
 次に、メタデータが削除された同じログファイルを示します。ID のみで構成されると、ファイルは小さくなり、処理しやすくなります。
 
-| User ID | 広告 ID | 注文 ID | 広告主 ID |
+| ユーザー ID | 広告 ID | 注文 ID | 広告主 ID |
 |---|---|---|---|
 | 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
@@ -57,7 +57,7 @@ However, the [!UICONTROL Delivery Performance] report mainly works with the IDs 
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
-<br> 
+<br>
 
 以下のルックアップファイルにはメタデータが含まれており、広告 ID でメインファイルにリンクし直すことができます。サイズにも注意してください。各広告主を複数回繰り返す代わりに、それぞれに 1 つの参照のみが必要です。
 
