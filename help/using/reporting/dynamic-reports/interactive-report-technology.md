@@ -5,7 +5,7 @@ seo-title: レポート技術
 solution: Audience Manager
 title: レポート技術
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
 
 ---
@@ -23,7 +23,7 @@ c_report_technology.xml
 
 ## Tableau 技術を使用するインタラクティブレポート
 
-[!DNL Audience Manager] は、[Tableau](https://www.tableausoftware.com/) ソフトウェアを使用してインタラクティブレポートにデータを表示します。With [!DNL Tableau], the [!UICONTROL Delivery and Overlap] reports use visual cues and symbols that help you:
+[!DNL Audience Manager] は、[Tableau](https://www.tableausoftware.com/) ソフトウェアを使用してインタラクティブレポートにデータを表示します。[!DNL Tableau] により、以下に役立つ視覚的なキューおよびシンボルを[!UICONTROL Delivery and Overlap]レポートで使用できます。
 
 * パフォーマンスが高いまたは低い特性を見つける。
 * 個別訪問者の重複が多いまたは少ない特性およびセグメントを見分ける。
@@ -112,19 +112,19 @@ r_icons.xml
 
 ### 自動更新
 
-[!UICONTROL Delivery-Performance] および [!UICONTROL Trait-to-Trait Overlap] レポートは、ユーザーのクリックアクションに基づいて応答し、変更する動的レポートです。
+[!UICONTROL Delivery-Performance]レポートと[!UICONTROL Trait-to-Trait Overlap]レポートは、ユーザーのクリックアクションに基づいて応答および変動する動的なレポートです。
 
-For example, say you want to select several advertisers in the [!UICONTROL Overlap] report. 自動更新を有効にすると、チェックボックスをオンにした時点でデータが返されるようになります。この動的動作により、レポートの処理が完了するまで他の広告主を選択できないので、ワークフローが中断される場合があります。このツールを使用して、必要に応じてこの機能を無効化（および再度有効化）します。
+例えば、[!UICONTROL Overlap]レポートで複数の広告主を選択するとします。自動更新を有効にすると、チェックボックスをオンにした時点でデータが返されるようになります。この動的動作により、レポートの処理が完了するまで他の広告主を選択できないので、ワークフローが中断される場合があります。このツールを使用して、必要に応じてこの機能を無効化（および再度有効化）します。
 
 ### データを更新
 
 更新アイコンをクリックすると、レポートの実行や、データセットのリロードがおこなわれます。自動更新が無効な場合、「Refresh」をクリックするとレポートの実行や更新がおこなわれます。
 
-### 検索 ツール
+### 検索ツール
 
 検索は汎用の虫眼鏡アイコンによって表されます（表示されません）。検索フィールドは、画面左側の選択ラベルをクリックするまで非表示となります。次の表は、各レポートの検索ツールの場所を示しています。
 
-| レポート | 検索ツールを表示するためのマウスの移動先 |
+| レポート | 検索ツールを表示するには、以下にカーソルを重ねます |
 |---|---|
-| [!UICONTROL Delivery and Performance]  | 「Advertiser Name」ラベル |
+| [!UICONTROL Delivery and Performance] レポート | 「Advertiser Name」ラベル |
 | [!UICONTROL Overlap] レポート | 「SID Name」ラベル |
