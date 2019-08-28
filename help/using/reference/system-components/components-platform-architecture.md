@@ -5,7 +5,7 @@ seo-title: プラットフォームアーキテクチャ データフローマ�
 solution: Audience Manager
 title: プラットフォームアーキテクチャ データフローマップ
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
