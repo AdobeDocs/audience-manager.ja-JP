@@ -5,7 +5,7 @@ seo-title: Audience Manager の導入
 solution: Audience Manager
 title: Audience Manager の導入
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 # Audience Manager の導入 {#implementing-audience-manager}
 
-This section outlines and explains the processes related to getting started with the Audience Manager data management platform ([!DNL DMP]). この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager 導入プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 ヶ月間かかる可能性があります。
+ここでは、Audience Manager データ管理プラットフォーム（[!DNL DMP]）の導入に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager 導入プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 ヶ月間かかる可能性があります。
 
 アドビの導入手法は、新しいクライアントとのコンサルティングパートナーシップの構築に役立ちます。このプロセスの目的を以下に示します。
 
@@ -83,7 +83,7 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 <!-- c_discovery.xml -->
 
-このフェーズでおこなわれる主要なアクティビティを次の表に示します。
+次の表は、このフェーズでおこなわれる主要なアクティビティを示したものです。
 
 <table id="table_89E7CD7832E142519EDC1F285A5BBE79"> 
  <thead> 
@@ -132,11 +132,11 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 このフェーズの成果物には次のものが含まれます。
 
-* 完成したファーストパーティ、セカンドパーティおよびサードパーティデータ収集戦略;
-* A completed [!DNL CRM] or data warehouse ingestion plan;
-* 定義されたオーディエンスセグメント化要件;
-* 完成したデータ分類;
-* 作成されたサードパーティデータ取り込みプラン.
+* 完成したファーストパーティ、セカンドパーティおよびサードパーティデータ収集戦略、
+* 完成した [!DNL CRM] またはデータウェアハウス取り込みプラン、
+* 定義されたオーディエンスセグメント化要件、
+* 完成したデータ分類、
+* 作成されたサードパーティデータ取り込みプラン。
 
 ## 構築、テストおよびトレーニングフェーズ {#build-test-train-phase}
 
@@ -144,9 +144,9 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 <!-- c_build_test_train.xml -->
 
-Your data collection strategy will undergo end-to-end [!DNL QA] testing. パートナーソリューションは検出されたバグを追跡し、弊社のシステムエンジニアと協力して問題の解決を図ります。トレーニングはこれらの他の作業と平行して開始できます。
+データ収集戦略に対してエンドツーエンドの [!DNL QA] テストが実施されます。パートナーソリューションは検出されたバグを追跡し、弊社のシステムエンジニアと協力して問題の解決を図ります。トレーニングはこれらの他の作業と平行して開始できます。
 
-次の表は、このフェーズで発生する主要なアクティビティを示したものです。
+次の表は、このフェーズでおこなわれる主要なアクティビティを示したものです。
 
 | アクティビティ | 目的／説明 | 関連するチーム |
 |---|---|---|
@@ -155,16 +155,16 @@ Your data collection strategy will undergo end-to-end [!DNL QA] testing. パー�
 | 機能検証およびバグ解決 | 結果についての調査および連絡、バグ解決、再テスト | 技術チーム |
 | ユーザーのトレーニング | Audience Manager の機能、ツールおよびレポートについての教育および理解 | ビジネスチーム |
 
-このフェーズでは以下の項目を完了する必要があります。
+このフェーズの成果物には次のものが含まれます。
 
-* データ収集プランの完成および承認;
-* End-to-end [!DNL QA] testing;
-* Audience Manager ユーザーインターフェイス機能についての基本的な説明;
-* 終了の承認.
+* データ収集プランの完成および承認、
+* エンドツーエンドの [!DNL QA]テスト、
+* Audience Manager ユーザーインターフェイス機能についての基本的な説明、
+* 終了の承認。
 
 ## 立ち上げ、サポートおよび最適化フェーズ {#launch-support-optimize-phase}
 
-立ち上げ、サポートおよび最適化フェーズ中は、データ収集およびプロトタイプ実装が、開発からライブの実稼動環境に移行します。We’ll continue training on product familiarization and strategies that can help increase your [!DNL ROI] through data-driven optimization.
+立ち上げ、サポートおよび最適化フェーズ中は、データ収集およびプロトタイプ実装が、開発からライブの実稼動環境に移行します。アドビでは、引き続き製品習熟および戦略に関するトレーニングをおこない、データ駆動型の最適化による [!DNL ROI] の向上に役立てます。
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -209,11 +209,11 @@ Your data collection strategy will undergo end-to-end [!DNL QA] testing. パー�
 
 このフェーズの作業には以下が含まれます。
 
-* レポートデータの生成および解釈;
-* カスタムレポートの理解;
+* レポートデータの生成および解釈、
+* カスタムレポートの理解、
 * 製品サポートの受け方
-* 機能リクエスト、バグおよびユーザーフィードバックへの対処または請願;
-* Audience Manager 機能およびレポートへのさらなる習熟.
+* 機能リクエスト、バグおよびユーザーフィードバックへの対処または請願、
+* Audience Manager 機能およびレポートへのさらなる習熟。
 
 ## コードの実装 {#code-implementation}
 
@@ -237,4 +237,4 @@ Audience Manager は、コードスニペットから [!DNL Akamai] を呼び出
 
 アカウントマネージャーは、製品実装プロセスが完了した後も、引き続きサポートおよびコンサルティングサービスを提供します。アカウントマネージャーとの定期的なミーティングの開催を期待できます。これらのミーティングでは、Audience Manager を最大限に活用し、価値を引き出すようにします。
 
-Audience Manager の詳細情報および開始方法については、[こちら](https://www.adobe.com/products/audiencemanager.html)からお問い合わせください。
+Audience Manager の詳細情報および開始方法については、[こちら](https://www.adobe.com/jp/products/audiencemanager.html)からお問い合わせください。
