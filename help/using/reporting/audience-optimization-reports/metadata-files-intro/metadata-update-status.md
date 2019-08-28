@@ -5,7 +5,7 @@ seo-title: メタデータファイルのステータスの更新
 solution: Audience Manager
 title: メタデータファイルのステータスの更新
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # メタデータファイルのステータスの更新{#status-updates-for-metadata-files}
 
-The S3 status directory holds a `.info` file with success and failure information about your uploaded files. ファイルには JSON 形式のデータがあり、ステータスの結果が配列に格納されています。
+S3 status ディレクトリには `.info` ファイルがあり、アップロードされたファイルの成功と失敗に関する情報が格納されています。ファイルには JSON 形式のデータがあり、ステータスの結果が配列に格納されています。
 
 `.info` ファイルのコンテンツは、以下の例のようになります。
 
