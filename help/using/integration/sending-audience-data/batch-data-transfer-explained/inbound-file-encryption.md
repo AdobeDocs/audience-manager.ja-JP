@@ -5,7 +5,7 @@ seo-title: 受信データタイプのファイル PGP 暗号化
 solution: Audience Manager
 title: 受信データタイプのファイル PGP 暗号化
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -19,14 +19,14 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!IMPORTANT]
 >
->現在、同じ受信データファイルに対する暗号化と圧縮はサポートされていません。受信ファイルの暗号化または[圧縮](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)のどちらかを選択できます。
+>現在、同じ受信データファイルに対する暗号化と圧縮はサポートされていません。受信ファイルの暗号化または[圧縮](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)のいずれかを選択できます。
 
 受信データファイルを暗号化するには、以下の手順に従います。
 
 1. [Audience Manager 公開鍵](./assets/adobe_pgp.pub)をダウンロードします。
 1. 信頼されているストアに公開鍵を読み込みます。
 
-   For example, if you use [!DNL GPG], the command could be similar to the following:
+   例えば、[!DNL GPG] を使用している場合、コマンドは次のようになります。
 
    `gpg --import adobe_pgp.pub`
 
@@ -46,7 +46,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   暗号化されたすべてのデータは、`.pgp`. または `.gpg`. をファイル拡張子として使用する必要があります（例：`ftp_dpm_100_123456789.sync.pgp` または `ftp_dpm_100_123456789.overwrite.gpg`）。
+   暗号化されたすべてのデータは、`.pgp` または `.gpg` をファイル拡張子として使用する必要があります（例：`ftp_dpm_100_123456789.sync.pgp` または `ftp_dpm_100_123456789.overwrite.gpg`）。
 
    >[!NOTE]
    >
