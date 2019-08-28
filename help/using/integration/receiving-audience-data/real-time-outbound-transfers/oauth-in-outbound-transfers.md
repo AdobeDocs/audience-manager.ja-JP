@@ -1,11 +1,11 @@
 ---
-description: リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に OAuth2.0 を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
-seo-description: リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に OAuth2.0 を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
+description: リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に OAuth 2.0 を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
+seo-description: リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に OAuth 2.0 を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
 seo-title: リアルタイムのアウトバウンド転送での OAuth 2.0 統合
 solution: Audience Manager
 title: リアルタイムのアウトバウンド転送での OAuth 2.0 統合
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
 
 ## 認証フロー {#auth-flow}
 
-[!DNL Adobe Audience Manager][ の OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) 認証実装は、クライアント資格情報許可フローに基づいていて、次の手順に従っています。
+[!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) 認証の実装は、クライアント資格情報の付与フローに基づいており、次の手順に従います。
 
 1. 次の情報を指定する必要があります。
    * 認証トークンを生成する [!DNL OAuth 2.0] エンドポイント。
@@ -37,8 +37,8 @@ source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
 このエンドポイントは手順 1 で指定された資格情報を受け取り、以降のリクエストで使用する bearer トークンを生成します。
 
 * このエンドポイントは `HTTP POST` リクエストを受け入れる必要があります。
-* The endpoint must accept and look at the [!DNL Authorization] header. このヘッダーの値は `Basic <credentials_provided_by_partner>` となります。
-* The endpoint must look at the [!DNL Content-type] header and validate that its value is `application/x-www-form-urlencoded ; charset=UTF-8`.
+* このエンドポイントは [!DNL Authorization] ヘッダーを受け入れ、参照する必要があります。このヘッダーの値は `Basic <credentials_provided_by_partner>` となります。
+* このエンドポイントは [!DNL Content-type] ヘッダーを参照し、値が「`application/x-www-form-urlencoded ; charset=UTF-8`」であることを検証する必要があります。
 * リクエストの本文は `grant_type=client_credentials` となります。
 
 ### Audience Manager により bearer トークンの取得のためパートナーエンドポイントに対して作成されたリクエストの例
@@ -55,7 +55,7 @@ Accept-Encoding: gzip
 grant_type=client_credentials
 ```
 
-### パートナーエンドポイントからの応答例
+### パートナーエンドポイントからの応答の例
 
 ```
 HTTP/1.1 200 OK
@@ -72,9 +72,9 @@ Content-Length: 121
 
 [!DNL Audience Manager] は、ユーザーがセグメントで認定されるとほぼリアルタイムでこのエンドポイントにデータを送信します。さらに、この方法では 24 時間ごとにオフラインまたは転送済みのデータのバッチを送信できます。
 
-エンドポイント 1 で生成された bearer トークンは、このエンドポイントへのリクエストの発行に使用されます。[!DNL Audience Manager] のリアルタイムデータ転送システム（[IRIS](../../../reference/system-components/components-data-action.md#iris)）は、通常の HTTPS リクエストを作成し、Authorization ヘッダーを挿入します。The value for this header will be: Bearer `<bearer token from step 1>`.
+エンドポイント 1 で生成された bearer トークンは、このエンドポイントへのリクエストの発行に使用されます。[!DNL Audience Manager] のリアルタイムデータ転送システム（[IRIS](../../../reference/system-components/components-data-action.md#iris)）は、通常の HTTPS リクエストを作成し、Authorization ヘッダーを挿入します。このヘッダーの値は Bearer `<bearer token from step 1>` となります。
 
-### パートナーエンドポイントからの応答例
+### パートナーエンドポイントからの応答の例
 
 ```
 GET /segments/aam HTTP/1.1
@@ -113,6 +113,6 @@ Accept-Encoding: gzip
 
 パートナーから提供される資格情報や、[!DNL OAuth 2.0] フローによる認証時に [!DNL Audience Manager] が取得するトークンは機密情報です。サードパーティとは共有しないでください。
 
-### [!DNL SSL] が必要な
+### [!DNL SSL] が必須
 
 [!DNL SSL]認証プロセスを保護するために、 を使用する必要があります。トークンの取得や使用のためのリクエストを含め、すべてのリクエストが `HTTPS` エンドポイントを使用する必要があります。
