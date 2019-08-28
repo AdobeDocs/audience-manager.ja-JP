@@ -5,7 +5,7 @@ seo-title: リアルタイム送信データ転送
 solution: Audience Manager
 title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # リアルタイム送信データ転送 {#real-time-outbound-data-transfers}
 
-The outbound real-time data transfer process returns user data as a series of [!DNL JSON] objects passed in with a `POST` method.
+リアルタイムの送信データ転送プロセスでは、`POST` メソッドで渡された一連の [!DNL JSON] オブジェクトとしてユーザーデータを返します。
 
 <!-- c_outbound_json.xml -->
 
@@ -48,7 +48,7 @@ The outbound real-time data transfer process returns user data as a series of [!
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>ProcessTime</i></code> </td> 
-   <td colname="col2"> <p>日時 </p> </td> 
+   <td colname="col2"> <p>DateTime </p> </td> 
    <td colname="col3"> <p>リクエストが実行された時間。 </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -106,7 +106,7 @@ The outbound real-time data transfer process returns user data as a series of [!
    <td colname="col3"> <p>セグメント ID 宛先マッピング。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>ステータス</i></code> </td> 
+   <td colname="col1"><code><i>Status</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
    <td colname="col3"> <p>セグメント内のユーザーのステータスを定義します。指定可能な値は次のとおりです。 </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
@@ -121,7 +121,7 @@ The outbound real-time data transfer process returns user data as a series of [!
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>DateTime</i></code> </td> 
-   <td colname="col2"> <p>日時 </p> </td> 
+   <td colname="col2"> <p>DateTime </p> </td> 
    <td colname="col3"> <p>サイト訪問者が特性の対象として認定された日時。 </p> </td> 
   </tr> 
  </tbody> 
@@ -129,7 +129,7 @@ The outbound real-time data transfer process returns user data as a series of [!
 
 ## セキュリティ
 
-You can secure your real-time outbound data transfer process by [signing HTTP requests](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) using private keys or by having [!DNL Audience Manager] authenticate through the [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) protocol.
+秘密鍵で [HTTP 要求に署名](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)するか、[!DNL Audience Manager] で [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) プロトコルを使用して認証することで、リアルタイム送信データ転送プロセスを保護できます。
 
 ## コードサンプル
 
