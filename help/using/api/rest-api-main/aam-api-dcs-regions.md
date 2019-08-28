@@ -5,7 +5,7 @@ seo-title: DCS 地域 API メソッド
 solution: Audience Manager
 title: DCS 地域 API メソッド
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -21,7 +21,7 @@ Audience Manager の [!UICONTROL DCS] 地域のリストをブログラムで取
 
 ## 特定の DCS 地域のリスト {#list-specific-dcs-region}
 
-特定の `GET` 地域のリストを返す [!UICONTROL DCS] メソッド。
+特定の [!UICONTROL DCS] 地域のリストを返す `GET` メソッド。
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -51,7 +51,7 @@ Audience Manager の [!UICONTROL DCS] 地域のリストをブログラムで取
 
 ## DCS 地域のリスト {#list-dcs-regions}
 
-`GET` 地域のリストを返す [!UICONTROL DCS] メソッド。
+[!UICONTROL DCS] 地域のリストを返す `GET` メソッド。
 
 <!-- r_rest_api_regions_list.xml -->
 
