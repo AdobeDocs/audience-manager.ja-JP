@@ -1,41 +1,41 @@
 ---
-description: Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。使用制限は、アドビの API やユーザーインターフェイへの不正アクセスを試みる可能性がある自動プロセスから Audience Manager を守るのに役立ちます。
-seo-description: Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。上限を設けることで、API またはユーザーインターフェイスが自動プロセスによって不正利用されることを防ぐことができます。
+description: 'Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。使用制限は、アドビの API やユーザーインターフェイへの不正アクセスを試みる可能性がある自動プロセスから Audience Manager を守るのに役立ちます。  '
+seo-description: 'Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。使用制限は、アドビの API やユーザーインターフェイへの不正アクセスを試みる可能性がある自動プロセスから Audience Manager を守るのに役立ちます。  '
 seo-title: 使用の制限
 solution: Audience Manager
 title: 使用の制限
 topic: DIL API
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9550d71bbc6adf939539df05cd38a9d22ef261b
 
 ---
 
 
-# 使用制限 {#usage-limits}
+# 使用の制限 {#usage-limits}
 
-Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。Limits apply to these items whether created in the user interface or programmatically through [!DNL API] methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our [!DNL API]s or user interface.
+Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または [!DNL API] メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。上限を設けることで、[!DNL API] またはユーザーインターフェイスが自動プロセスによって不正利用されることを防ぐことができます。
 
 ## ID マッピングの上限 {#id-mapping-limits}
 
-次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adds the new one. Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
+次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。ID が以下のいずれかの上限に達すると、Audience Manager は、保存時期が最も古い ID マッピングを削除し新しい ID マッピングを追加する先入れ先出し（[!DNL FIFO]）方式で、新規 ID マッピングを追加します。Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
 
 | ID マッピング | 上限 |
 |-----------|-------------- |
-| デバイス広告ID（DID）へのデバイス広告ID（CRM ID） | 100デバイス広告ID（大文字）から1クロスデバイスID（CRM ID） |
-| デバイスID（CRM ID）からデバイス広告ID（DID）への変換 | 10デバイスID（CRM ID）から1デバイス広告ID（DID）への変換 |
-| Cookie/ブラウザーIDへのcookie/ブラウザーID | 1000Cookie/ブラウザーID1cookie/ブラウザーID |
+| デバイス広告 ID（DAID）に対してクロスデバイス ID（CRM ID） | 100 デバイス広告 ID（DAID）に対して 1 クロスデバイス ID（CRM ID） |
+| クロスデバイス ID（CRM ID）からデバイス広告 ID（DAID） | 10 クロスデバイス ID（CRM ID）に対して 1 デバイス広告 ID（DAID） |
+| cookie／ブラウザー ID に対して cookie／ブラウザー ID | 1000 cookie／ブラウザー ID に対して 1  cookie／ブラウザー ID |
 
 ## 項目の限度 {#item-limits}
 
-以下の表は、各項目タイプの現時点での限度のリストです。You cannot create new traits, segments, destinations, or [!UICONTROL Algorithmic Models] if you reach a specific limit for one of these items. 限度に達した場合、古い項目を削除しないと、新しい項目の作成はできません。
+以下の表は、各項目タイプの現時点での限度のリストです。いずれかの項目が所定の限度に達すると、新しい特性、セグメント、宛先、[!UICONTROL Algorithmic Models]は作成できなくなります。限度に達した場合、古い項目を削除しないと、新しい項目の作成はできません。
 
 ### 特性の限度
 
 | 特性タイプ | 上限 |
 | -------------------------- | ------------------------------------- |
 | 合計特性 | 100,000 |
-| 合計特性認定 | 150,000. For more information on trait qualification, see Trait Qualification Limit in [Trait Qualifications Reference](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
+| 特性認定の合計数 | 150,000特性認定について詳しくは、[特性認定に関するリファレンス](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit)を参照してください。 |
 | アルゴリズム | 50 |
 | ルールベース | 100,000 |
 | オンボード | 100,000 |
@@ -61,9 +61,9 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 
 | 項目 | 上限 |
 | -------- | ----- |
-| アクティブなアルゴリズムモデル | 20. Audience Manager only counts *active* algorithmic models against the limit. |
-| アルゴリズムモデルの最大オーディエンスサイズ | 25,000,000.この制限は増やすことはできません。オーディエンスのサイズを小さくするには、モデルに対して少ないデータソースを選択するか、短いルックバック期間を選択します。 |
-| モデルの最大除外特性数 | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| アクティブなアルゴリズムモデル | 20. Audience Manager は&#x200B;*アクティブ*&#x200B;なアルゴリズムモデルのみを制限としてカウントするようになりました。 |
+| アルゴリズムモデルの最大オーディエンスサイズ | 25,000,000  の限度を引き上げることはできません。オーディエンスのサイズを小さくするには、モデルに対して少ないデータソースを選択するか、短いルックバック期間を選択します。 |
+| モデルの最大除外特性数 | 500[アルゴリズムモデリングにおける特性の除外](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)を参照してください。 |
 
 ### フォルダーの限度
 
@@ -83,11 +83,11 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | ----------- | ------------- |
 | 会社のユーザーアカウントの最大数 | 1,000。 |
 
-## 使用状況の監視 {#monitor-usage}
+## 使用状況の監視{#monitor-usage}
 
-You can see usage and limits for your account by going to **[!UICONTROL Administration > Limits]**. アクセスには管理者権限が必要です。
+アカウントの使用状況と限度は、**[!UICONTROL Administration > Limits]** で確認できます。アクセスには管理者権限が必要です。
 
-![使用制限画像](assets/usage-limits.png)
+![使用限度の画像](assets/usage-limits.png)
 
 ## 項目の限度の引き上げ {#increase-item-limits}
 
