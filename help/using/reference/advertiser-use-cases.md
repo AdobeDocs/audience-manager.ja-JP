@@ -5,7 +5,7 @@ seo-title: 広告主のユースケース
 solution: Audience Manager
 title: 広告主のユースケース
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -42,7 +42,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
 
 ## 高価値のセグメントを創出し、類似モデリングを使用してリーチを拡大する
 
-[モデル](../features/algorithmic-models/understanding-models.md)に関するドキュメントにおいて、[!DNL Audience Manager] のアルゴリズムモデリングプロセスの詳細が記述されています。
+[モデル](../features/algorithmic-models/understanding-models.md)に関するドキュメントには、[!DNL Audience Manager] のアルゴリズムモデリングプロセスの詳細が記述されています。
 
 <table id="table_47456520CA99459B92DACD2047951D2D"> 
  <thead> 
@@ -68,8 +68,8 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
     <ul id="ul_EB3707C4449E44F195EE5655B724A9B4"> 
      <li id="li_268E6A408C634E5EAF2D536930EE77C7">高額購入をおこなう顧客を特定します。 </li> 
      <li id="li_217F8D97449D40E798601C904D66FE5A"><span class="keyword">Audience Manager</span> の類似モデルを実行して、そのセグメント内で最も影響度の高かったオーディエンスメンバーを特定します。 </li> 
-     <li id="li_FC9CF9B3FE554032AF66E1C3721C83C9">これらのセグメントをターゲットにすることで、現在のディスプレイ広告を改善したり、Adobe Targetを使用してオンサイトでのパーソナライゼーションを行うことができます。 </li> 
-     <li id="li_14F94E368C5142718BF6707622D3D8DE">将来の表示キャンペーンにAdobe Targetを通して新しいデータを含めます。 </li> 
+     <li id="li_FC9CF9B3FE554032AF66E1C3721C83C9">既存のディスプレイ広告を強化することで、または Adobe Target によるオンサイトでのパーソナライゼーションを通して、これらのセグメントをターゲット化します。 </li> 
+     <li id="li_14F94E368C5142718BF6707622D3D8DE">Adobe Target を通して新しいデータを今後のディスプレイキャンペーンに取り込みます。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
      <li id="li_40B53340C38743A785159D886392EFD6">「休止中 - コンバージョン未達成の検索者」セグメントを作成します。 </li> 
      <li id="li_10366F799CDC483BA9B6AAD9CAD68EA2">最近コンバージョンがあった顧客を除外するルールを追加します。 </li> 
      <li id="li_65B5C367AFBB4C3394AFBB07138320A8">DSP を通して、スペシャルオファーの提示および続けてオンサイトでのパーソナライゼーションをおこなうことで、再ターゲット化を図ります。 </li> 
-     <li id="li_C88D7C3D72504BBBAA24B09CB805A38F">Adobe Targetで必要なコンテンツを引き続き表示します。 </li> 
+     <li id="li_C88D7C3D72504BBBAA24B09CB805A38F">Adobe Target を通して必要なコンテンツを引き続き表示します。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -128,7 +128,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
     </ul> </td> 
    <td colname="col3"> 
     <ul id="ul_12770CC183E5433999ED8C055E91DC78"> 
-     <li id="li_4CAFD2A7F0F54225ADDCD3C94E8CCEF7">パートナーデータセグメントをインポートして、自分と組み合わせて、Adobe Targetで関連するエクスペリエンスを提供します。 </li> 
+     <li id="li_4CAFD2A7F0F54225ADDCD3C94E8CCEF7">インポートしたパートナーのデータセグメントを自社のデータセグメントと組み合わせ、Adobe Target を使用して顧客の関心に合ったエクスペリエンスを提供します。 </li> 
      <li id="li_65F1C7812FC24D44BB41DE6B7276F6AF">電子メールによるマーケティングイニシアチブまたは DSP キャンペーンの展開規模を拡大できます。 </li> 
     </ul> </td> 
   </tr> 
@@ -156,7 +156,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
    <td colname="col3"> 
     <ul id="ul_739F56A9703F418BBD6F391C2A8A25CA"> 
      <li id="li_24C0DF2B23284764B48B0B4FC2808248"><span class="keyword">Audience Manager</span> で、秋の連休の旅行者のセグメントを作成します。 </li> 
-     <li id="li_C8FE060793AA400CBDF33251B21B79C7">Adobe Targetで、季節的な購入用の航空便ポイントを提供するキャンペーンを作成します。 </li> 
+     <li id="li_C8FE060793AA400CBDF33251B21B79C7">Adobe Target で、シーズン時の購入に対してマイレージを提供するキャンペーンを作成します。 </li> 
      <li id="li_84D729B9AA2E40F8B3EFF6E53C8AA39A">Analytics のコンバージョンファネルを通して顧客のアクティビティを追跡します。コンバージョンに至らなかった顧客については、電子メールマーケティングで再ターゲット化します。 </li> 
     </ul> </td> 
   </tr> 
@@ -186,7 +186,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
     <ul id="ul_018543C7DACD47849F303BC8C26A0A08"> 
      <li id="li_37AB19716B3D4C7BA4106C007A534689">「購入を検討中 - コンバージョン未達成」セグメントを作成します。 </li> 
      <li id="li_DA5EA7CC922C47788D4D0AED5FEC5164">このセグメントを関連する電子メールでターゲット化します。 </li> 
-     <li id="li_40085E5A5E2744EEBC38CD19F0F77076">Adobe Targetを通じてコンテンツの提供を継続します。 </li> 
+     <li id="li_40085E5A5E2744EEBC38CD19F0F77076">Adobe Target を通じてサイト上で引き続きコンテンツを提供します。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -209,7 +209,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
    <td colname="col3"> 
     <ul id="ul_837B290D45DB412CA0CA3457EDCC4125"> 
      <li id="li_CA85D32FD7F54490859B92B1E4A2DACB"><span class="keyword">Audience Manager</span> で、小規模ビジネスのオーナーをターゲット化したサードパーティのセグメントデータを取り込みます。 </li> 
-     <li id="li_E8FDBD2D67724FE497A496E907EDC45A">Adobe Targetで、メッセージやオファーをターゲットにした、オンサイトキャンペーンを作成します。 </li> 
+     <li id="li_E8FDBD2D67724FE497A496E907EDC45A">Adobe Target で、小規模ビジネスのオーナーに向けてターゲット化されたメッセージとオファーを提供するオンサイトキャンペーンを作成します。 </li> 
      <li id="li_B303975755D44E03A8C22832D8198564"><span class="keyword">Audience Manager</span> レポートを使用してパフォーマンスを追跡します。 </li> 
     </ul> </td> 
   </tr> 
