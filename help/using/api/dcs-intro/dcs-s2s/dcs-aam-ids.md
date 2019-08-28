@@ -5,7 +5,7 @@ seo-title: DCS 応答からのユーザー ID と地域 ID の取得
 solution: Audience Manager
 title: DCS 応答からのユーザー ID と地域 ID の取得
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
