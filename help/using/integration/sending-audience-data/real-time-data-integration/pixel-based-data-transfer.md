@@ -5,7 +5,7 @@ seo-title: ピクセルベースのデータ転送
 solution: Audience Manager
 title: ピクセルベースのデータ転送
 uuid: 8773bfc0-6b8d-4a6a-a8b7-e043744486ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 
 ---
@@ -20,8 +20,8 @@ source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 受信データ転送を有効にするには、ベンダーおよびクライアントは以下をおこないます。
 
 1. ベンダーまたはパートナーが発動する特性を決定します。
-1. 特性のピクセルを取得します。特性リスト画面で、**[!UICONTROL Actions]** 列の上にマウスポインターを置いて、目的の特性の **[!UICONTROL Get trait URL]記号をクリックします。**
-1. Provide the [!DNL URL] to the vendor or partner.
+1. 特性のピクセルを取得します。特性リスト画面で、**[!UICONTROL Actions]** 列の上にマウスポインターを置いて、目的の特性の **[!UICONTROL Get trait URL]** 記号をクリックします。
+1. [!DNL URL] をベンダーまたはパートナーに提供します。
 
 ## 例
 
