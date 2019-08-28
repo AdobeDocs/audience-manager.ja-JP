@@ -5,7 +5,7 @@ seo-title: 特性ルールの管理
 solution: Audience Manager
 title: 特性ルールの管理
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 特性ルールの管理 {#managing-trait-rules}
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Expression Builder] lets you create and test rules that establish audience qualification requirements. ルールは、`color == blue` や `price > 100` などのキー値ペアで構成されます。比較演算子は、キーと値の間の関係を確立します。[!DNL Boolean] 式は、ルールグループ間の関係を決定します。
+[!UICONTROL Trait Builder] では、[!UICONTROL Expression Builder] を使用すると、オーディエンス資格要件を確立するルールを作成およびテストできます。ルールは、`color == blue` や `price > 100` などのキー値ペアで構成されます。比較演算子は、キーと値の間の関係を確立します。[!DNL Boolean] 式は、ルールグループ間の関係を判別します。
 
 <!-- c_tb_rules.xml -->
 
@@ -21,17 +21,17 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Expression Builder] lets you crea
 
 ![](assets/manage-trait-rules.png)
 
-1. The **[!UICONTROL Expression Builder]** or **[!UICONTROL Code View]** tabs provide an overview of the rules in your trait. 「**[!UICONTROL Expression Builder]**」を使用すると、フィールドおよびドロップダウンメニューを使用して、ルールを作成できます。「**[!UICONTROL Code View]**」を使用すると、手動でこれらの式をコードとして記述することで、ルールを作成できます。上の図に示したのは、製品キーが特定の値に等しいという認定条件（この場合、`color == "blue"`）でデータを評価するシグナルで構成されるシンプルな特性です。
+1. 「**[!UICONTROL Expression Builder]**」または「**[!UICONTROL Code View]**」タブには、特性のルールの概要が表示されます。「**[!UICONTROL Expression Builder]**」を使用すると、フィールドおよびドロップダウンメニューを使用して、ルールを作成できます。「**[!UICONTROL Code View]**」を使用すると、手動でこれらの式をコードとして記述することで、ルールを作成できます。上の図に示したのは、製品キーが特定の値に等しいという認定条件（この場合、`color == "blue"`）でデータを評価するシグナルで構成されるシンプルな特性です。
 
 1. このセクションのフィールドおよびコントロールを使用すると、キー値ペアからシグナルを作成して、比較演算子でそれらの間の関係を設定できます。キー、演算子および値が必要です。
-1. [!UICONTROL Data Explorer Options] これにより、特性の特性再適合をバックフィルできます。
+1. 「[!UICONTROL Data Explorer Options]」を使用すると、シグナルに対する特性適合をバックフィルできます。
    >[!NOTE]
    >
-   >This option is only available for [!UICONTROL Data Explorer] customers. 詳しくは、アドビのコンサルタントにお問い合わせください。
-1. This section shows you an estimation of trait realizations for the past 7 days, for the signals defined in the [!UICONTROL Expression Builder], for backfilled and non-backfilled traits.
+   >このオプションを利用できるのは、[!UICONTROL Data Explorer] のお客様のみです。詳しくは、アドビのコンサルタントにお問い合わせください。
+1. このセクションには、バックフィルの対象の特性と対象外の特性について、[!UICONTROL Expression Builder]で定義されたシグナルの過去 7 日間にわたる特性適合の推定値が表示されます。
    >[!NOTE]
    >
-   >This option is only available for [!UICONTROL Data Explorer] customers. 詳しくは、アドビのコンサルタントにお問い合わせください。
+   >このオプションを利用できるのは、[!UICONTROL Data Explorer] のお客様のみです。詳しくは、アドビのコンサルタントにお問い合わせください。
 1. テストフィールドを使用すると、Audience Manager にデータを送信する際に使用するシグナルルールまたは [!DNL URL] の組み合わせを検証できます。
 
 ## 特性ルールの作成 {#create-trait-rule}
@@ -42,22 +42,22 @@ In [!UICONTROL Trait Builder], the [!UICONTROL Expression Builder] lets you crea
 
 「**[!UICONTROL Basic Information]**」セクションの必須フィールドは、特性ルールを作成する&#x200B;*前*&#x200B;に入力します。
 
-1. 「**[!UICONTROL Trait Expression]**」セクションを展開して、キーと値の名前を入力します。これにより *`signal`*.
+1. 「**[!UICONTROL Trait Expression]**」セクションを展開して、キーと値の名前を入力します。これにより、*`signal`* が作成されます。
    >[!NOTE]
    >
    >イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、キー変数でプレフィックス `c_`（またはその他の命名規則）を使用します。
-1. 「[](../../features/traits/trait-comparison-operators.md)**」ドロップダウンから[!UICONTROL Operator]比較演算子**&#x200B;を選択します。比較演算子はシグナルの要素間の関係を比較します。
+1. 「**[!UICONTROL Operator]**」ドロップダウンから[比較演算子](../../features/traits/trait-comparison-operators.md)を選択します。比較演算子はシグナルの要素間の関係を比較します。
    >[!NOTE]
    >
    >[!DNL Boolean] 演算子 [!UICONTROL OR] はグループ&#x200B;*内*&#x200B;の複数のシグナル間の関係を確立します。これを変更することはできません。
-1. **[!UICONTROL Add Rule]**&#x200B;をクリックします。保存されたルールは、データ入力フィールドの上にある特性ワークスペースに表示されます。
+1. 「**[!UICONTROL Add Rule]**」をクリックします。保存されたルールは、データ入力フィールドの上にある特性ワークスペースに表示されます。
 
 ### 例 {#example-trait-rule}
 
 以下の例では、ユーザーが製品 ID に基づいて新しい特性ルールを作成します。このルールを作成するために、ユーザーはキー `productkey` を「次と等しい」演算子（`==`）により値 `2093` にリンクしています。
 ![](assets/tb_sample_rule1.png)
 
-Clicking **[!UICONTROL Add Rule]** saves and moves the trait into the [!UICONTROL Expression Builder] workspace.
+「**[!UICONTROL Add Rule]**」をクリックすると特性が保存され、[!UICONTROL Expression Builder]ワークスペースに移動します。
 
 ![](assets/tb_sample_rule2.png)
 
@@ -81,7 +81,7 @@ Clicking **[!UICONTROL Add Rule]** saves and moves the trait into the [!UICONTRO
    >[!NOTE]
    >
    >誤ってルールを移動してしまった場合は、ルールをドラッグして元のグループに戻します。
-1. Select a [!DNL Boolean] operator ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) from the drop-down menu to set the relationship between the rule groups.
+1. ドロップダウンメニューから [!DNL Boolean] 演算子（[!UICONTROL AND NOT]、[!UICONTROL AND]、[!UICONTROL OR]）を選択し、ルールグループ間の関係を設定します。
 
 >[!MORE_LIKE_THIS]
 >
@@ -119,5 +119,5 @@ Clicking **[!UICONTROL Add Rule]** saves and moves the trait into the [!UICONTRO
 <!-- t_tb_delete_rule.xml -->
 
 1. [!UICONTROL Traits] ダッシュボードで、編集する特性の [!UICONTROL Actions] 列にカーソルを移動し、鉛筆アイコンをクリックします。特性管理アイコンが表示されます。
-1. [!UICONTROL Trait Expression] セクションを展開します。
+1. 「[!UICONTROL Trait Expression]」セクションを展開します。
 1. 削除するルールにカーソルを移動し、「X」アイコンをクリックします。ルールが直ちに削除されます。
