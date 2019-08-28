@@ -5,7 +5,7 @@ seo-title: パブリッシャーのユースケース
 solution: Audience Manager
 title: パブリッシャーのユースケース
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -90,7 +90,7 @@ c_pub_use_case.xml
      <ul id="ul_EEED2DAD504C486F8C00992219C893F7"> 
       <li id="li_E536F7C79824484DA3DC895809B849F4">Analytics は、トラベルコンテンツでのオーディエンスの興味に関するファーストパーティデータを提供します。この情報に基づいて、「Travel Enthusiasts」と呼ばれるセグメントを作成します。 </li> 
       <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3"><span class="keyword">Audience Manager</span> を Adobe CQ などのシステムと統合して、コンテンツのパーソナライゼーションキャンペーンを管理します。 </li> 
-      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">航空会社、ホテルまたは接客業の広告主に対してトラベルセグメントをターゲット設定して、インベントリによって生成される広告収入の向上に役立てます。 </li> 
+      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">航空会社、ホテルまたは接客業の広告主に対してトラベルセグメントをターゲティングして、インベントリによって生成される広告収入の向上に役立てます。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -123,7 +123,7 @@ c_pub_use_case.xml
 
 **高価値のセグメントを創出し、類似モデリングを使用してリーチを拡大する**
 
-[](../features/algorithmic-models/understanding-models.md)モデルに関するドキュメントにおいて、[!DNL Audience Manager] のアルゴリズムモデリングプロセスの詳細が記述されています。
+[モデルに関するドキュメント](../features/algorithmic-models/understanding-models.md)には、[!DNL Audience Manager] のアルゴリズムモデリングプロセスの詳細が記述されています。
 
 <table id="table_A10E4656E2A74EF5BCCA42A7AAA94416"> 
  <thead> 
@@ -149,7 +149,7 @@ c_pub_use_case.xml
      <ul id="ul_51091241D6B94A849A383538045D797C"> 
       <li id="li_88798E58BA574FA196CFC02C9C55A293">顧客データベースの「Xbox gamers」を特定します。 </li> 
       <li id="li_1136BBC68C8242CE9F116F2C70A4C164">類似モデルを実行して、そのセグメントで最も効果的なユーザーを見つけて特定します。 </li> 
-      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">これらのセグメントをターゲット設定して、オンサイト表示広告を Test&amp;Target で最適化します。 </li> 
+      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">これらのセグメントをターゲティングして、オンサイト表示広告を Test&amp;Target で最適化します。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -180,7 +180,7 @@ c_pub_use_case.xml
      </ul> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_E59B88951B454AEA8E898A64C07F0F49"> 
-      <li id="li_A856501CD9AB4ABFA4A440D2F451DFD2">ファーストパーティデータと連係した既製品のサードパーティオーディエンスセグメントを使用して、デモターゲット設定された RFP に応じます。 </li> 
+      <li id="li_A856501CD9AB4ABFA4A440D2F451DFD2">ファーストパーティデータと連係した既製品のサードパーティオーディエンスセグメントを使用して、デモにターゲットを絞った RFP に応じます。 </li> 
       <li id="li_32C82F83D0D440C0B86C527FD4BAF118">過去のセグメントのパフォーマンスに基づいて、広告主にレコメンデーションを提供します。 </li> 
      </ul> </p> </td> 
   </tr> 
