@@ -5,7 +5,7 @@ seo-title: get_aamCookie コード
 solution: Audience Manager
 title: get_aamCookie コード
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abb66d75a0d47f5257ea8c63bdb59e604db801d3
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: abb66d75a0d47f5257ea8c63bdb59e604db801d3
 
 # `get_aamCookie` コード {#get-aamcookie-code}
 
-Audience Manager の一意のユーザー ID（）値を取得するために [!DNL DART Enterprise]（および他の宛先タイプ）で必要になるコードです。[!DNL UUID]
+Audience Manager の一意のユーザー ID（[!DNL UUID]）値を取得するために [!DNL DART Enterprise]（および他の宛先タイプ）で必要になるコードです。
 
 この関数はページの上部（理想的には `<head>` コードブロック内）で定義します。
 
