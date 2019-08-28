@@ -5,7 +5,7 @@ seo-title: データのプライバシー
 solution: Audience Manager
 title: データのプライバシー
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
 ## データのプライバシー {#data-privacy-center}
 
-[アドビプライバシーセンター](https://www.adobe.com/privacy/opt-out.html)を参照してください。
+[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)を参照してください。
 
 ## 消費者のプライバシー保護 {#consumer-privacy-protection}
 
@@ -28,9 +28,9 @@ Audience Manager では、利用するオンラインブランドとの間で消
 
 このモデルの継続的なサポートの一環として、Audience Manager では、消費者への透明性と管理を提供し、オンライン行動ターゲティング広告（OBA）に関する自主的行動規範を遵守および強化することに引き続き全力で取り組んでいます。
 
-## オプトアウト管理 {#opt-out-management}
+## オプトアウト管理{#opt-out-management}
 
-オプトアウトに関するドキュメントは拡充され、別個のドキュメントに移動しました。詳しくは、[オプトアウト管理](../../overview/data-security-and-privacy/opt-out-management.md).
+オプトアウトに関するドキュメントは拡充され、別個のドキュメントに移動しました。詳しくは、[オプトアウト管理](../../overview/data-security-and-privacy/opt-out-management.md)を参照してください。
 
 <!-- 
 
@@ -68,7 +68,7 @@ Audience Manager では、利用するオンラインブランドとの間で消
 
  -->
 
-## Collecting IP Addresses and IP Address Obfuscation {#collecting-ip-addresses}
+## IP アドレスの収集と IP アドレスの難読化 {#collecting-ip-addresses}
 
 <!-- 
 
@@ -76,20 +76,20 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 -->
 
-顧客の Web サイトにアクセスする訪問者の IP アドレスは Adobe Data Processing Center（DPC）に転送され、同センターで保存される場合があります。訪問者のネットワーク設定によっては、IPアドレスが訪問者のコンピューターのIPアドレスを表しているとは限りません。例えば、この IP アドレスは、Network Address Translation（NAT）ファイアウォール、HTTP プロキシ、またはインターネットゲートウェイの外部 IP アドレスである可能性があります。
+顧客の Web サイトにアクセスする訪問者の IP アドレスは Adobe Data Processing Center（DPC）に転送され、同センターで保存される場合があります。訪問者のネットワーク設定によっては、この IP アドレスが訪問者のコンピューターの IP アドレスと一致しないことがあります。例えば、この IP アドレスは、Network Address Translation（NAT）ファイアウォール、HTTP プロキシ、またはインターネットゲートウェイの外部 IP アドレスである可能性があります。
 
-**IPの不明化方法:** Adobe Audience Managerでは、「プライバシーによるプライバシー」の原則に従って、すべての地理的地域または特定の国に対してグローバルにUIからのIPの不明化を有効にできます。この設定を有効にすると、IPアドレスの最後のオクテット（最後の部分）がAudience Managerに取り込まれたときに即座に破棄されます。Audience Managerは、処理前（オプションの地理的ルックアップまたはIPアドレスのログを含む）の前に、この部分のIPアドレスを破棄します。次に例を示します。
+**IP 難読化方法：**「プライバシーバイデザイン」の原則に従い、Adobe Audience Manager では、すべての地域に対してグローバルに、または特定の国に対して、UI からの IP 難読化を有効にすることができます。この設定を有効にすると、IP アドレスが Audience Manager に取り込まれると、IP アドレスの最後のオクテット（最後の部分）は即座に破棄されます。Audience Manager は、処理（オプションの IP アドレスの地域の参照またはログ作成を含む）に先立って、IP アドレスのこの部分を破棄します。次に例を示します。
 
 * マスク前： `255.255.255.255`
 * マスク後： `255.255.255.0`
 
 >[!NOTE]
 >
->See [IP Address Obfuscation](/help/using/features/administration/ip-obfuscation.md) to learn how to enable IP address obfuscation in the Audience Manager UI.
+>Audience Manager UI で IP アドレスを難読化する方法については、[IP アドレスの難読化](/help/using/features/administration/ip-obfuscation.md)をお読みください。
 
-**地理的分類:** IPアドレスの不明化を有効にすると、そのIPアドレスの残りのオクテットは引き続き、Audience Managerの地域特性およびレポートに使用できます。IPアドレスの不明化を有効にしない場合、Audience Managerは完全なIPアドレスを使用します。地理的分類機能を使用すると、いずれかのケースで地域別にIPの場所を識別できますが、IPの不明化が使用されているときに若干正確な精度を保つことができます。IP アドレスの不明化をおこなうと、市レベルの情報の取得が著しく困難になる場合があります。地域および国レベルの情報の取得には、わずかな影響があります。地理的分類データは、市レベルまたは郵便番号レベルにのみ細分化され、個々のレベルには適用されません。[地域ターゲティング](/help/using/features/traits/trait-geotarget-keys.md) の詳細と、地理的な変数による特性の設定方法について説明します。
+**地理的分類：** IP アドレスの難読化を有効にした場合、その IP アドレスの残りのオクテットは引き続き、Audience Manager の地域特性およびレポートに使用できます。IP アドレスの難読化を有効にしない場合、Audience Manager は完全な IP アドレスを使用します。どちらの場合でも、IP の場所を地理的地域によって特定できる地理的セグメンテーション機能を使用できますが、IP の難読化を使用している場合は、精度が少し落ちます。IP アドレスの不明化をおこなうと、市レベルの情報の取得が著しく困難になる場合があります。地域レベルおよび国レベルの情報の取得に関しては、それほど大きな影響はありません。地理的セグメンテーションデータの精度は市区町村レベルまたは郵便番号レベルにとどまり、個人レベルにまでは及びません。[地域に基づくターゲティング](/help/using/features/traits/trait-geotarget-keys.md)と、地理的変数を使用した特性の設定方法についてお読みください。
 
 ## 関連する概念 {#related-concepts}
 
 * [オプトアウト管理](/help/using/overview/data-security-and-privacy/opt-out-management.md)
-* [プライバシーとデータ保持の FAQ](/help/using/faq/faq-privacy.md)
+* [プライバシーとデータ保持に関するよくある質問](/help/using/faq/faq-privacy.md)
