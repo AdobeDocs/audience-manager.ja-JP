@@ -1,11 +1,11 @@
 ---
-description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP サーバー間リクエストが必要です。このドキュメントでは、秘密鍵を使用してHTTPリクエストに署名する方法について説明します。
-seo-description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP サーバー間リクエストが必要です。このドキュメントでは、秘密鍵を使用してHTTPリクエストに署名する方法について説明します。
+description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP サーバー間リクエストが必要です。ここでは、HTTP 要求に秘密鍵で署名する方法について説明します。
+seo-description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP サーバー間リクエストが必要です。ここでは、HTTP 要求に秘密鍵で署名する方法について説明します。
 seo-title: デジタル署名された HTTP 要求
 solution: Audience Manager
 title: デジタル署名された HTTP 要求
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
 
 # デジタル署名された `HTTP`要求 {#digitally-signed-http-requests}
 
-Audience Manager では、`HTTP` サーバー間要求をデジタル署名して有効性を確保する必要があります。This document describes how you can sign `HTTP` requests with private keys.
+Audience Manager では、`HTTP` サーバー間要求をデジタル署名して有効性を確保する必要があります。ここでは、`HTTP` 要求に秘密鍵で署名する方法について説明します。
 
 ## 概要 {#overview}
 
@@ -24,7 +24,7 @@ Audience Manager では、`HTTP` サーバー間要求をデジタル署名し�
 * **信頼性**：秘密鍵を持っている送信側（[!UICONTROL IRIS]）だけが、有効な `HTTP(S)` メッセージをパートナーに送信できます。
 * **メッセージの整合性**：このアプローチにより、`HTTP` の場合でも、中間者攻撃でメッセージが改変されるのを防ぐことができます。
 
-[!UICONTROL IRIS][秘密鍵のローテーション](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key)の節で示すように、 には、ダウンタイムなしで鍵をローテーションする機能が組み込まれています。
+[秘密鍵のローテーション](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key)の節で示すように、[!UICONTROL IRIS] には、ダウンタイムなしで鍵をローテーションする機能が組み込まれています。
 
 ## 提供する必要がある情報 {#info-to-provide}
 
@@ -45,10 +45,10 @@ Audience Manager では、`HTTP` サーバー間要求をデジタル署名し�
 POST message content
 ```
 
-## 動作の仕組み {#how-it-works}
+## 仕組み{#how-it-works}
 
-1. パートナーに送信する メッセージを [!UICONTROL IRIS] が作成します。`HTTP`
-1. パートナーから連絡された メッセージと秘密鍵に基づいて、[!UICONTROL IRIS] が署名を作成します。`HTTP`
+1. パートナーに送信する `HTTP` メッセージを [!UICONTROL IRIS] が作成します。
+1. パートナーから連絡された `HTTP` メッセージと秘密鍵に基づいて、[!UICONTROL IRIS] が署名を作成します。
 1. [!UICONTROL IRIS] が `HTTP(S)` 要求をパートナーに送信します。このメッセージには、上記の例に示すように、署名と実際のメッセージが含まれています。
 1. パートナーサーバーが `HTTP(S)` 要求を受信します。[!UICONTROL IRIS] から受信したメッセージ本文と署名を読み取ります。
 1. 秘密鍵と受信したメッセージ本文に基づいて、パートナーサーバーが署名を再計算します。この方法については、すぐ後の[署名の計算方法](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature)の節を参照してください。
@@ -57,9 +57,9 @@ POST message content
 
 ![](assets/iris-digitally-sign-http-request.png)
 
-## 署名の計算方法 {#calculate-signature}
+## 署名の計算方法{#calculate-signature}
 
-[!DNL HMAC] でメッセージ署名に使用されている方法は、[!UICONTROL IRIS]（ハッシュベースのメッセージ認証コード）です。実装とライブラリは、基本的にどのようなプログラミング言語でも入手可能です。[!DNL HMAC] に対する既知の長さ拡張攻撃はありません。次の [!DNL Java] コードの例を参照してください。
+[!UICONTROL IRIS] でメッセージ署名に使用されている方法は、[!DNL HMAC]（ハッシュベースのメッセージ認証コード）です。実装とライブラリは、基本的にどのようなプログラミング言語でも入手可能です。[!DNL HMAC] に対する既知の長さ拡張攻撃はありません。次の [!DNL Java] コードの例を参照してください。
 
 ```
 // Message to be signed.
@@ -82,7 +82,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-[!DNL HMAC] ハッシュ実装のRFCは [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt)です。A test site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (note that you have to [convert](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) the hex encoding to base64).
+[!DNL HMAC]ハッシュ実装の RFC は [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt) です。テストサイトは [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) です（Hex エンコーディングを Base64 に[変換](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)する必要があることに注意してください）。
 
 ## 秘密鍵のローテーション {#rotate-private-key}
 
@@ -93,7 +93,7 @@ String signature = Base64.encodeBase64String(result).trim();
 1. 両方のヘッダーの受信を開始したら、古い鍵を破棄して新しい署名のみ調べることができます。
 1. 古い鍵は [!DNL Audience Manager] から削除され、[!UICONTROL IRIS] は新しい署名ヘッダーのみ送信します。これで鍵がローテーションされました。
 
-## 署名に使用するデータ {#data-signing}
+## 署名に使用するデータ{#data-signing}
 
 `GET` タイプの宛先の場合、署名に使用するメッセージは *REQUEST_PATH + QUERY STRING*（例：*/from-aam-s2s？=1,2,3*）になります。IRIS ではホスト名や `HTTP` ヘッダーを考慮しません。これらは、経路の途中で改変されたり誤って設定されたりするおそれがあります。また、間違って通知される可能性もあります。
 
