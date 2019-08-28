@@ -5,19 +5,19 @@ seo-title: GPT setTargeting API 呼び出しの変更
 solution: Audience Manager
 title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
+# GPT `setTargeting` API 呼び出しの変更{#modify-the-gpt-settargeting-api-call}
 
 [!DNL Google Publisher Tag] `.setTargeting` メソッドを呼び出す前に、Audience Manager の Cookie を確認するための if 文を追加します。
 
 ## `IF` 文で Audience Manager の Cookie を確認
 
-`.setTargeting` メソッドは、データを Audience Manager の宛先 Cookie と一意のユーザー ID Cookie（`aam_uuid`）から取得します。しかし、`.setTargeting` によりこれらの Cookie が書き込まれるより前に [!UICONTROL DIL] が呼び出された場合、またはこれらの Cookie が空の場合、ページを読み込むとエラーが発生することがあります。このような状況が発生しないようにするには、これらの Cookie を確認する `if` 文で. `.setTargeting` メソッドを囲みます。これらの Cookie が設定されていない場合、この文は `.setTargeting` が `AamGpt` 関数を呼び出さないようにします。
+`.setTargeting` メソッドは、データを Audience Manager の宛先 Cookie と一意のユーザー ID Cookie（`aam_uuid`）から取得します。しかし、[!UICONTROL DIL] によりこれらの Cookie が書き込まれるより前に `.setTargeting` が呼び出された場合、またはこれらの Cookie が空の場合、ページを読み込むとエラーが発生することがあります。このような状況が発生しないようにするには、これらの Cookie を確認する `if` 文で `.setTargeting` メソッドを囲みます。これらの Cookie が設定されていない場合、この文は `.setTargeting` が `AamGpt` 関数を呼び出さないようにします。
 
 ### `IF` 文コードの例
 
