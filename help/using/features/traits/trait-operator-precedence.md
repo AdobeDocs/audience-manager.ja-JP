@@ -5,7 +5,7 @@ seo-title: 特性ビルダーでの演算順序
 solution: Audience Manager
 title: 特性ビルダーでの演算順序
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 特性ビルダーでの演算順序 {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] は、以下に一覧表示されている操作の順序（高い順から低い順）に従って式を評価します。優先順位が高い演算子で定義された特性要素は、他の優先順位の演算子より先に評価されます。ここでは、優先順位に従って、高い順に各演算子をランク付けしています。
+[!UICONTROL Trait Builder]では、以下に示す演算順序（優先順位の高い順）に従って、式を評価します。優先順位が高い演算子で定義された特性要素は、他の優先順位の演算子より先に評価されます。ここでは、優先順位に従って、高い順に各演算子をランク付けしています。
 
 <!-- c_tb_operator_precedence.xml -->
 
@@ -57,5 +57,5 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >[!MORE_LIKE_THIS]
 >
 >* [特性ビルダーでのブール式の使用（AND、OR、NOT）](../../reference/boolean-expressions-tsb.md)
->* [特性ビルダーでの比較演算子の使](../../features/traits/trait-comparison-operators.md)
+>* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
 
