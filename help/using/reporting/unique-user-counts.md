@@ -1,11 +1,11 @@
 ---
 description: 特性および期間が同じレポートにおける、個別ユーザーの合計数の変動について説明します。
-seo-description: Adobe Audience Managerでの同じ特性および期間における、同じ特性と期間における個別ユーザー合計の変動について説明します
-seo-title: AAMの重複および一般レポートでの個別ユーザーのカウント
+seo-description: Adobe Audience Manager の特性および期間が同じレポートにおける、個別ユーザーの合計数の変動について説明します
+seo-title: AAM での重複レポートと一般レポートでの個別ユーザーのカウント
 solution: Audience Manager
 title: 重複レポートと一般レポートでの個別ユーザーのカウント
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
