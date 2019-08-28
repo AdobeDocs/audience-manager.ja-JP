@@ -4,7 +4,7 @@ seo-description: シグナルタイプに基づいてシグナル検索の結果
 seo-title: 検索結果のフィルタリング
 title: 検索結果のフィルタリング
 uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 ---
@@ -14,12 +14,12 @@ source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 シグナルタイプに基づいてシグナル検索の結果をフィルタリングします。
 
-1. Go to [!UICONTROL Audience Data > Signals > Search] and run a [!UICONTROL Signals Search] with the desired key-value pairs, or a broader search, using the filters.
-1. Use the **[!UICONTROL Filter by Signal Type]** section to filter your results based on the following categories:
+1. [!UICONTROL Audience Data > Signals > Search]へ移動し、目的のキーと値のペアを使用して [!UICONTROL Signals Search] を実行するか、フィルターを使用して検索範囲を広げます。
+1. 「**[!UICONTROL Filter by Signal Type]**」セクションで、以下のカテゴリに基づいて検索結果をフィルタリングします。
 
-   * **[!UICONTROL Actionable log files]**:シグナルが [!DNL Google][!DNL DCM] 記録されます。
-   * **[!DNL Adobe Analytics]**:アカウントから受信 [!DNL Adobe Analytics] します。Use the **[!UICONTROL Filter by report suites]** drop-down menu to select the report suite to show signals from.
-   * **[!UICONTROL General online data]**：訪問者によって生成され、実用的なログファイルおよび [!DNL Adobe Analytics] には含まれていないリアルタイムデータ。
-   * **[!UICONTROL Onboarded records]**:データをバッチ送信します。Use the **[!UICONTROL Filter by data source]** drop-down menu to select the data source to show signals from.
+   * **[!UICONTROL Actionable log files]**：[!DNL Google] [!DNL DCM] ログファイル経由で受信したシグナル。
+   * **[!DNL Adobe Analytics]**：ご使用の [!DNL Adobe Analytics] アカウントから受信したシグナル。シグナルを表示するレポートスイートを選択するには、「**[!UICONTROL Filter by report suites]**」ドロップダウンメニューを使用します。
+   * **[!UICONTROL General online data]**：訪問者別に生成され、実用的なログファイルと [!DNL Adobe Analytics] には含まれていないリアルタイムデータ。
+   * **[!UICONTROL Onboarded records]**：バッチデータ転送で受信したデータ。シグナルを表示するデータソースを選択するには、「**[!UICONTROL Filter by data source]**」ドロップダウンメニューを使用します。
 
-1. オプションとして、今後使用するために[検索条件を保存](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)することができます。
+1. オプションとして、後で使用するために[検索条件を保存](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)することができます。
