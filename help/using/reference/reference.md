@@ -4,7 +4,7 @@ seo-description: システム機能、データ統合、ヘルプファイルに
 seo-title: リファレンス
 solution: Audience Manager
 title: リファレンス
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 # リファレンス
 
-ここでは、システム機能、データ統合およびヘルプファイルに関する技術ドキュメントについて説明します。この節では、以下のページについて説明します。
+この節には、システムの機能、データ統合およびヘルプファイルに関する技術ドキュメントが含まれています。この節のページには、次のようなものがあります。
 
 * [一括管理ツール](/help/using/reference/bulk-management-tools/bulk-management-intro.md)
 * [システムコンポーネント](/help/using/reference/system-components/components-overview.md)
