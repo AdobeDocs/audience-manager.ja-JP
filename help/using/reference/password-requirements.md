@@ -5,7 +5,7 @@ seo-title: パスワードの要件、ロックされたアカウント、パス
 solution: Audience Manager
 title: パスワードの要件、ロックされたアカウント、パスワードを忘れた場合
 uuid: bca892eb-3577-4382-8110-131f78d23069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 ---
