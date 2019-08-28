@@ -1,31 +1,31 @@
 ---
-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。適切な形式であれば、このデータを Audience Manager にインポートし、オーディエンスの最適レポートに表示することができます。データファイルの形式を、この節で説明した仕様に合わせてください。
-seo-description: データファイルには、インプレッション、クリック、コンバージョンのいずれかのデータが格納されています。適切な形式であれば、このデータを Audience Manager にインポートし、オーディエンスの最適レポートに表示することができます。データファイルの形式を、この節で説明した仕様に合わせてください。
+description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。適切な形式であれば、このデータを Audience Manager にインポートし、Audience Optimization レポートに表示することができます。データファイルの形式を、この節で説明した仕様に合わせてください。
+seo-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。適切な形式であれば、このデータを Audience Manager にインポートし、Audience Optimization レポートに表示することができます。データファイルの形式を、この節で説明した仕様に合わせてください。
 seo-title: Audience Optimization レポートのデータファイル
 solution: Audience Manager
 title: Audience Optimization レポートのデータファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# オーディエンスの最適化レポートのデータファイル{#data-files-for-audience-optimization-reports}
+# Audience Optimization レポートのデータファイル{#data-files-for-audience-optimization-reports}
 
-データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。適切な形式であれば、このデータを Audience Manager にインポートし、オーディエンスの最適レポートに表示することができます。この節に記載されたこれらの仕様に従ってデータファイルをフォーマットしてください。
+データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。適切な形式であれば、このデータを Audience Manager にインポートし、Audience Optimization レポートに表示することができます。データファイルの形式を、この節で説明した仕様に合わせてください。
 
 ## 概要 {#overview}
 
-適切な名前と形式のデータファイルを使用すると、インプレッション、クリック、コンバージョンのいずれかのデータを[オーディエンスの最適化レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)にインポートできます。これは、[!DNL Audience Manager] と統合されていないパートナーのデータを同レポートスイートで扱う場合に役に立ちます。このプロセスには、インプレッション、クリック、コンバージョンのデータごとに別個のファイルが必要です。これらのイベントを単一のファイルに混在させないでください。
+適切な名前と形式のデータファイルを使用すると、インプレッション、クリック、コンバージョンのいずれかのデータを [Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)にインポートできます。これは、[!DNL Audience Manager] と統合されていないパートナーのデータを同レポートスイートで扱う場合に役に立ちます。このプロセスには、インプレッション、クリック、コンバージョンのデータごとに別個のファイルが必要です。これらのイベントを単一のファイルに混在させないでください。
 
-データファイルには、メタデータファイルが付いている必要があります。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[メタデータファイルの概要とマッピング](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+データファイルには、メタデータファイルが付いている必要があります。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[メタデータファイルの概要とマッピング](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
 
 ## データファイルの命名規則 {#naming-conventions}
 
 適格なデータファイル名の構造を次の構文で定義します。なお、*斜体*&#x200B;の部分にはファイルコンテンツの実際の情報が入ります。
 
-**構文：** <pre><code><i>イベントタイプ</i>_<i>yyyymmdd</i></code></pre>
+**構文：** <pre><code><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
 ファイル名の場合：
 
@@ -35,15 +35,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 これらの要件を前提として、コンテンツに応じてデータファイルに次のように名前を付けます。
 
-* インプレッションデータ: <pre><code>impressions_<i>yyyymmdd<i>.gz</code></pre>
-* クリックデータ: <pre><code>click_<i>yyyymmdd</i>.gz</code></pre>
-* コンバージョンデータ: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* インプレッションデータ： <pre><code>impressions_<i>yyyymmdd<i>.gz</code></pre>
+* クリックデータ： <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
+* コンバージョンデータ： <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## データファイルのコンテンツ形式 {#content-format}
 
 適格なデータファイルのコンテンツ構造を次の構文で定義します。なお、*斜体*&#x200B;の部分には実際のデータファイル内のラベルが入ります。
 
-**構文：** <pre><code><i>header label1</i> | <i>header label2</i> … <i>headerラベルn</i> | <i>バージョン</i></code></pre>
+**構文：** <pre><code><i>header label 1</i> | <i>header label 2</i> ... <i>header label n</i> | <i>version</i></code></pre>
 
 ファイルコンテンツの場合：
 
@@ -51,7 +51,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 * 特定の列のデータがない場合は、そのフィールドに `NULL` オブジェクトまたは `-1` を入力します。
 
 * ファイルの末尾はバージョン番号である&#x200B;*必要があり*&#x200B;ます。現在のバージョンは 1.1 です。
-* ファイルヘッダーとコンテンツを非印字 ASCII 文字 001 で区切ります。ASCII 001 を使用できない場合は、ヘッダーとデータをタブ文字で区切ります。As these are non-printing characters, the syntax example above shows a pipe `"|"` for display purposes only.
+* ファイルヘッダーとコンテンツを非印字 ASCII 文字 001 で区切ります。ASCII 001 を使用できない場合は、ヘッダーとデータをタブ文字で区切ります。これらは非印字文字なので、上記の構文例では、表示のためだけにパイプ「`"|"`」を使用しています。
 
 **フィールドラベル**
 
@@ -131,13 +131,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
     </ul> <p> <i>コンバージョンデータファイルの場合のみ。</i> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Version </p> </td> 
+   <td colname="col1"> <p>バージョン </p> </td> 
    <td colname="col2"> <p>インプレッション、クリック、コンバージョンのデータファイルの行ごとに末尾に出現する必須のバージョン番号。現在のバージョンは 1.1 です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## データファイルの配信方法 {#delivery-methods}
+## データファイルの配信方法{#delivery-methods}
 
 インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
@@ -145,7 +145,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 データは、Amazon S3 ディレクトリにおいて顧客ごとに別個の名前空間に保存されます。ファイルパスは以下の構文に従います。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
 
-**構文：** <pre><code>…/log_ instore/pid= <i>AAM ID<i>/dpid= <i>d_ src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
+**構文：** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
 ファイル配信パスのこれらの各要素を次の表で定義します。
 
@@ -194,4 +194,4 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## 次の手順 {#next-steps}
 
-メタデータファイルの命名と作成の要件を確認します。作業を開始するには、[メタデータファイルの概要とマッピング](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+メタデータファイルの命名と作成の要件を確認します。作業を開始するには、[メタデータファイルの概要とマッピング](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
