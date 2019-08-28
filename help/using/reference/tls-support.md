@@ -5,7 +5,7 @@ seo-title: TLS 1.0 のサポート終了
 solution: Audience Manager
 title: TLS 1.0 のサポート終了
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
 
 Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されます。
 
-In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. Adobe Audience Manager functionality does not work for your end users that use browsers which only support [!DNL TLS 1.0]. In fact, we recommend the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. All modern browsers use [!DNL TLS 1.2]. We have collected for you a list of browsers,versions, and their [!DNL TLS] support. 詳しくは、[ウィキペディア](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)を参照してください。
+2019 年 3 月、[!DNL Adobe] は [!DNL TLS 1.0] プロトコルのサポートを終了しました。[!DNL TLS 1.0] のみをサポートするブラウザーを使用するエンドユーザーには、Adobe Audience Manager 機能を使用できません。実際には、記述時に、プロトコルの最新バージョンである [!DNL TLS 1.2] を使用することをお勧めします。すべてのモダンブラウザーが [!DNL TLS 1.2] を使用しています。ブラウザー、バージョンおよびそれらの [!DNL TLS] サポートの一覧を収集しました。詳しくは、[この Wikipedia リンク](https://jp.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)にアクセスしてください。
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
@@ -74,7 +74,7 @@ In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. A
   <tr> 
    <td colname="col1" morerows="2"> <p>Google Android OS ブラウザー </p> </td> 
    <td colname="col2"> <p>Android 1.0～4.0.4 </p> </td> 
-   <td colname="col3" morerows="2"> 該当なし </td> 
+   <td colname="col3" morerows="2"> なし </td> 
    <td colname="col4"> <p>○ </p> </td> 
    <td colname="col5"> <p>× </p> </td> 
    <td colname="col6"> <p>× </p> </td> 
