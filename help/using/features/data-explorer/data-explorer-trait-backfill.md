@@ -4,7 +4,7 @@ seo-description: 特性適合のバックフィルにより、過去のオーデ
 seo-title: 特性適合のバックフィル
 title: 特性適合のバックフィル
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 特性適合のバックフィルにより、過去のオーディエンスを収集して、特性作成日前の関連データを逃してしまうことを防ぎます。
 
-[!UICONTROL Data Explorer Trait Backfill] は、追加の使用例をロック解除することで、Audience Managerエクスペリエンスを強化するプレミアム機能です。バックフィルを使用するには追加の処理能力がかかりますが、追加料金をお支払いいただければ Audience Manager のすべてのお客様がご利用になれます。詳しくは、アドビのセールス担当者にお問い合わせください。
+[!UICONTROL Data Explorer Trait Backfill]は、追加のユースケースをロック解除して Audience Manager を強化できるプレミアム機能です。バックフィルを使用するには追加の処理能力がかかりますが、追加料金をお支払いいただければ Audience Manager のすべてのお客様がご利用になれます。詳しくは、アドビのセールス担当者にお問い合わせください。
 
-未使用シグナルから特性を作成するときに、指定期間における特性適合をバックフィルすることができます。[!DNL Audience Manager] は、新しく作成した特性の対象として認定されるオーディエンスの過去データを収集し、対応するプロファイルに保管します。You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the **[Trait Builder](../../features/traits/about-trait-builder.md)**.
+未使用シグナルから特性を作成するときに、指定期間における特性適合をバックフィルすることができます。[!DNL Audience Manager] は、新しく作成した特性の対象として認定されるオーディエンスの過去データを収集し、対応するプロファイルに保管します。**[!UICONTROL Backfill Options]** は、**[特性ビルダー](../../features/traits/about-trait-builder.md)**&#x200B;の「[!UICONTROL Trait Expression]」セクションに表示されます。
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 特性適合のバックフィルの手順は次のとおりです。
 
-1. [!UICONTROL Audience Data > Signals > Search] 「シグナル検索»を実行するか?、«シグナルダッシュボード?[](../../features/data-explorer/data-explorer-signals-dashboard.md)
+1. [!UICONTROL Audience Data > Signals > Search] を開き、シグナル検索を実行するか[シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)を使用して、新しい特性で使用するシグナルを特定します。
 1. 目的のシグナルに基づいて新しい特性を作成します。
-1. Use the **[!UICONTROL Backfill Options]** in the **[!UICONTROL Trait Expression]** section to select the time interval for which you want to backfill trait realizations. 事前定義されているバックフィル期間は、1 日、7 日、14 日および 30 日です。30 日までの範囲でカスタムの期間を指定することもできます。
+1. **[!UICONTROL Trait Expression]** セクションの **[!UICONTROL Backfill Options]**を使用して、特性適合のバックフィルをおこなう期間を選択します。事前定義されているバックフィル期間は、1 日、7 日、14 日および 30 日です。30 日までの範囲でカスタムの期間を指定することもできます。
    ![](assets/signals-trait-backfill.png)
-1. (Optional) Click **[!UICONTROL Estimate Realizations]** in the **[!UICONTROL Estimated Trait Realizations]** section to see the estimated [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] values for the backfilled trait over the last 7 days.
+1. （オプション）**[!UICONTROL Estimate Realizations]** セクションの「**[!UICONTROL Estimated Trait Realizations]**」をクリックして、過去 7 日間にバックフィルされた特性の推定 [!UICONTROL Unique Trait Realizations] および [!UICONTROL Total Trait Population] の値を表示します。
    ![](assets/estimate-trait-realizations.png)
    >[!IMPORTANT]
    >
@@ -43,7 +43,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## 特性バックフィルの待ち時間 {#trait-backfilling-latency}
 
-新しく作成した特性では、作成から 2～3 時間後にオーディエンスの収集が開始されます。However, due to the large volume of data that [!DNL Audience Manager] performs on a daily basis, the backfilled population is not immediately reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] graphs.
+新しく作成した特性では、作成から 2～3 時間後にオーディエンスの収集が開始されます。ただし、[!DNL Audience Manager] で 1 日あたりに処理されるデータ量は多いので、バックフィルした母集団が [!UICONTROL Unique Trait Realizations] グラフおよび [!UICONTROL Total Trait Population] グラフに反映されるまでには時間がかかります。
 
 Audience Manager の [!UICONTROL Trait Graph] は、特性の作成時点から 48 時間以内にバックフィルした母集団で更新されます。
 
@@ -57,6 +57,6 @@ Audience Manager の [!UICONTROL Trait Graph] は、特性の作成時点から 
 
 ## レポートに対する影響 {#reporting-impact}
 
-Backfilled trait realizations are reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] metrics, as [!DNL Audience Manager] turns historical signals into trait realizations.
+[!DNL Audience Manager] により過去のシグナルが特性適合に変換されるので、バックフィルした特性適合は、[!UICONTROL Unique Trait Realizations] 指標および [!UICONTROL Total Trait Population] 指標に反映されます。
 
-However, the [!UICONTROL Trait Graph], [!UICONTROL General Reports], and [!UICONTROL Trend Reports] are not updated retroactively with historical metrics backfilled before the trait creation date.
+ただし、[!UICONTROL General Reports]、[!UICONTROL Trait Graph]、[!UICONTROL Trend Reports]に、バックフィルで得られた特性作成日前の指標が遡って反映されることはありません。
