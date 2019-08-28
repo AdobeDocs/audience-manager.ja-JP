@@ -5,7 +5,7 @@ seo-title: Audience Manager の GDPR 対応
 solution: Audience Manager
 title: Audience Manager の GDPR 対応
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b791e22e9c8c848a8fc14c6d6494f77c9e7335dc
 
 ---
@@ -19,27 +19,27 @@ source-git-commit: b791e22e9c8c848a8fc14c6d6494f77c9e7335dc
 
 Audience Manager の詳細を読む前に、次のリンクから、欧州における一般データ保護規則（GDPR）に関連する Experience Cloud の資料に目を通すことをお勧めします。
 
-* [GDPR がビジネスに与える影響](https://www.adobe.com/privacy/general-data-protection-regulation.html)
+* [GDPR がビジネスに与える影響](https://www.adobe.com/jp/privacy/general-data-protection-regulation.html)
 * [GDPR に関するホワイトペーパー](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-whitepaper.md)
-* [GDPR 関連の用語](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-terminology.md)
+* [GDPR の用語集](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-terminology.md)
 
 以下の節では、Audience Manager に対する GDPR の影響、および Audience Manager に GDPR 要求を送信する方法について説明します。
 
 ## GDPR 要求のタイプと GDPR 要求の方法 {#types-of-gdpr-requests}
 
-As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **[GDPR Client Services UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** or by calling the **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)**. You can submit any Audience Manager identifiers (IDs), as described in the section **[Audience Manager Identifiers](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**, in the requests along with their respective namespace IDs (data source IDs). ご質問がある場合は、カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。
+Audience Manager をご利用のお客様は、**[GDPR クライアントサービスの UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** または **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** の呼び出しを通じて、個々の GDPR 要求を送信して顧客データへのアクセスや顧客データの削除をおこなうことができます。**[Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**&#x200B;セクションの説明に沿って、要求時に Audience Manager 識別子（ID）と対応する名前空間 ID（データソース ID）を送信できます。ご質問がある場合は、カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。
 
-## データへのアクセス {#access-data}
+## データへのアクセス{#access-data}
 
 顧客の GDPR 要求は、受領後 30 日以内に処理することが掲げられていることを踏まえ、アドビでは、お客様からのデータアクセス要求をできるだけ早急に処理するよう努めています。
 
 **リクエスト**
 
-**[DGPRクライアントサービスUIを経由](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** するか **[、GGPR APIを呼び出してデータアクセスリクエストをログに記録できます](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** （アクションを参照 `access` ）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。**[Experience Cloud GDPRドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** で、整形式のJSONがどのように表示されるかを確認する（特に、"POSTリクエスト形式」のページを検索する）。または、**[JSON のサンプルをダウンロード](assets/access_request.json)**&#x200B;することもできます。
+**[GDPR クライアントサービスの UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** または **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)**&#x200B;の呼び出しを通じて、データアクセス要求をログに記録できます（`access` アクションを参照）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。**[Experience Cloud の GDPR 対応に関するドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)**&#x200B;で適切な形式の JSON を確認できます（具体的には、「POST 要求の形式」のページを検索してください）。または、**[JSON のサンプルをダウンロード](assets/access_request.json)**&#x200B;することもできます。
 
 **応答**
 
-データアクセス要求への応答には、特性とセグメントの合計数に関するサマリ、特性の種類、特性とセグメントの説明、およびそれぞれデータソース名が含まれます。アクセス応答には、ファーストパーティデータと共に、データ管理者がアクセスできるセカンドパーティおよびサードパーティのデータも含まれます。When [!UICONTROL declared IDs] such as cross device CRM IDs or customer cookie IDs are sent in GDPR requests, Audience Manager will include the Access response from all the linked devices (up to 100 devices per declared ID).
+データアクセス要求への応答には、特性とセグメントの合計数に関するサマリ、特性の種類、特性とセグメントの説明、およびそれぞれデータソース名が含まれます。アクセス応答には、ファーストパーティデータと共に、データ管理者がアクセスできるセカンドパーティおよびサードパーティのデータも含まれます。複数のデバイスにまたがる CRM ID や顧客の Cookie ID などの[!UICONTROL declared IDs] が GDPR 要求で送信された場合、関連付けられたすべてのデバイス（1 つの宣言済み ID につき最大 100 個のデバイス）からのアクセス応答も含まれます。
 
 **応答ステータス**
 
@@ -262,18 +262,18 @@ Audience Manager からの応答でエラーが発生した場合、それらは
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> active</code> </p> </td> 
-   <td colname="col2"> <p>データ主体が現在このセグメントと適合するかを示します。戻り値<code><i>true</i></code> または <code><i>false</i></code>。 </p> </td> 
+   <td colname="col2"> <p>データ主体が現在このセグメントと適合するかを示します。戻り値：<code><i>true</i></code> または <code><i>false</i></code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>リンク</code> </p> </td> 
    <td colname="col2"> <p>この ID が関連付けられている他の ID。次のフィールドについて情報が返されます。 </p> <p> 
      <ul id="ul_679F372A83164CC8B6BFE5A833347B9E"> 
       <li id="li_BCBF4F4C6C4049519BDE9186EE84868A">ID </li> 
-      <li id="li_46AC081C993041E6BCE70119FE04BE7F">名前空間（データソース） </li> 
-      <li id="li_E9B906C8947E484B94FBCAEB03BDF4E2">名前空間 ID </li> 
+      <li id="li_46AC081C993041E6BCE70119FE04BE7F">namespace (data source) </li> 
+      <li id="li_E9B906C8947E484B94FBCAEB03BDF4E2">namespace ID </li> 
       <li id="li_FB2A2F28290B4BA7844A558C01F8D9D4">integration code </li> 
       <li id="li_2569982810B64F8AABD78F5AC3717971">data provider name </li> 
-      <li id="li_2A3C282279064373BF7E4619A63454CF">ID のタイプ </li> 
+      <li id="li_2A3C282279064373BF7E4619A63454CF">ID type </li> 
      </ul> </p> <p>これらのフィールドについてはすべて、この表の 1 行目で説明されています。 </p> </td> 
   </tr> 
   <tr> 
@@ -301,19 +301,19 @@ Audience Manager からの応答でエラーが発生した場合、それらは
  </tbody> 
 </table>
 
-## データの削除 {#delete-data}
+## データの削除{#delete-data}
 
 顧客の GDPR 要求は、受領後 30 日以内に処理することが掲げられていることを踏まえ、アドビでは、お客様からのデータ削除要求をできるだけ早急に処理するよう努めています。
 
 **リクエスト**
 
-**[DGPRクライアントサービスUI経由でデータ削除リクエストをログに記録する](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** か **[、GGPR APIを呼び出すことができます](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)** （アクションを参照 `delete` ）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。[Experience Cloud GDPRドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) で、整形式のJSONがどのように表示されるかを確認する（特に、"POSTリクエスト形式」のページを検索する）。または、**[JSON のサンプルをダウンロード](assets/delete_request.json)**&#x200B;することもできます。
+**[GDPR クライアントサービスの UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md)** または **[GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)**&#x200B;の呼び出しを通じて、データ削除要求をログに記録できます（`delete` アクションを参照）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。[Experience Cloud の GDPR 対応に関するドキュメント](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)で適切な形式の JSON を確認できます（具体的には、「POST 要求の形式」のページを検索してください）。または、**[JSON のサンプルをダウンロード](assets/delete_request.json)**&#x200B;することもできます。
 
 **応答**
 
 データ削除要求への応答として、個々の Audience Manager 識別子に関連付けられた特性およびセグメントが削除されます。さらに、データ主体の個々の Audience Manager 識別子は以降のデータ収集から完全にオプトアウトされ、それぞれの ID マッピングは削除されます。複数のデバイスにまたがる CRM ID や顧客の Cookie ID などの宣言済み ID が GDPR 要求で送信された場合、関連付けられたすべてのデバイス（1 つの宣言済み ID につき最大 100 個のデバイス）に対して必要な削除アクションをおこないます。
 
-## オプトアウト要求 {#opt-out-request}
+## オプトアウト要求{#opt-out-request}
 
 オプトアウト要求については、[オプトアウト管理](../../overview/data-security-and-privacy/opt-out-management.md)に関するドキュメントを参照してください。
 
@@ -323,17 +323,17 @@ Adobe Audience Manager に対して GDPR 要求を送信する際、以下のい
 
 ### Adobe Audience Manager の一意のユーザー ID
 
-**ユーザーID**:aam_ uuid
+**ユーザー ID**：aam_uuid
 
-**定義**:Adobe Audience Manager一意ユーザーID
+**Adobe Audience Manager の一意のユーザー ID**
 
-**名前空間ID**:0
+**名前空間 ID**：0
 
 >[!NOTE]
 >
->Core名前空間を使用することもできます。2 つ目の JSON の記述例を参照してください。
+>名前空間として CORE を使用することもできます。2 つ目の JSON の記述例を参照してください。
 
-**JSON の記述例**:
+**JSON の記述例**：
 
 ```
  "users": [
@@ -383,17 +383,17 @@ Adobe Audience Manager に対して GDPR 要求を送信する際、以下のい
 
 ### Adobe Experience Cloud ID
 
-**ユーザーID**:mid
+**ユーザー ID**：mid
 
-**定義**:Adobe Experience Cloud ID（以前訪問者IDまたはMarketing Cloud ID）
+**定義**：Adobe Experience Cloud ID（旧名では訪問者 ID または Marketing Cloud ID）
 
-**名前空間ID**:4
+**名前空間 ID**：4
 
 >[!NOTE]
 >
->EID名前空間を使用することもできます。2 つ目の JSON の記述例を参照してください。
+>名前空間として ECID を使用することもできます。2 つ目の JSON の記述例を参照してください。
 
-**JSON の記述例**:
+**JSON の記述例**：
 
 ```
  "users": [
@@ -443,13 +443,13 @@ Adobe Audience Manager に対して GDPR 要求を送信する際、以下のい
 
 ### 顧客 ID
 
-**ユーザーID**:cid
+**ユーザー ID**：cid
 
-**定義**:匿名サイト訪問者またはオフラインシステムからのCRM IDまたはハッシュ名に設定したcookieなどの顧客ID
+**定義**：匿名のサイト訪問者に設定する Cookie やオフラインシステムからの CRM ID やハッシュ化されたユーザー名などの顧客 ID。
 
-**名前空間ID**:顧客固有。Audience Manager インスタンスから検索します。
+**名前空間 ID**：顧客固有。Audience Manager インスタンスから検索します。
 
-**JSON の記述例**:
+**JSON の記述例**：
 
 ```
 "users": [
@@ -479,21 +479,21 @@ Adobe Audience Manager に対して GDPR 要求を送信する際、以下のい
   }
 ```
 
-### モバイル広告ID
+### モバイル広告 ID
 
-**ユーザーID**:d_ cid
+**ユーザー ID**：d_cid
 
-**定義**:モバイル広告ID。
+**定義**：モバイル広告 ID。
 >[!IMPORTANT]
 >
-> モバイルSDKを使用している場合は、DGPRへの完全なアクセスおよび削除のために、Experience Cloud ID（MID）もモバイル広告IDと共に送信する必要があります。
+> モバイル SDK をご利用の場合、GDPR のアクセスおよび削除に関して完全な応答を得るには、モバイル広告 ID と合わせて Experience Cloud ID （MID）を送信する必要があります。
 
-**名前空間 ID**:
+**名前空間 ID**：
 
 * IDFA：20915
 * GAID：20914
 
-**JSON の記述例**:
+**JSON の記述例**：
 
 ```
 "users": [
@@ -518,15 +518,15 @@ Adobe Audience Manager に対して GDPR 要求を送信する際、以下のい
 ]
 ```
 
-### 統合コード
+### Integration code
 
-**ユーザーID**:d_ cid_ ic
+**ユーザー ID**：d_cid_ic
 
-**定義**:データソースの統合コード。これは、Adobe Experience Cloud の Privacy コアサービスへの API リクエストで、データソース ID／名前空間 ID の代わりに使用できます。
+**定義**：データソースの統合コード。これは、Adobe Experience Cloud の Privacy コアサービスへの API リクエストで、データソース ID／名前空間 ID の代わりに使用できます。
 
-**名前空間ID**:適用できない
+**名前空間 ID**：非該当
 
-JSON の記述例:
+JSON の記述例：
 
 ```
 "users": [
