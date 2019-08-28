@@ -5,7 +5,7 @@ seo-title: 宛先 API メソッド
 solution: Audience Manager
 title: 宛先 API メソッド
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -17,11 +17,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 <!-- c_destinations_api.xml -->
 
-Audience Manager では、データの共有相手となる他の任意のシステム（広告サーバー、[!DNL DSP]、広告ネットワーク、エクスチェンジ、独自のファーストパーティ Cookie など）が宛先になります。
+Audience Manager において、宛先とは、データの共有相手となる他のシステム（広告サーバー、[!DNL DSP]、広告ネットワーク、エクスチェンジ、独自のファーストパーティ Cookie など）になります。
 
 ## 宛先タイプ：URL および Cookie {#destination-types}
 
-`destinationType` パラメーターで使用される変数の一覧を示します。Specify `push` or `ADS` to work with a [!UICONTROL URL] or [!UICONTROL cookie destination]. You cannot create [!UICONTROL server-to-server destinations] with the available destination [!DNL API] methods.
+`destinationType` パラメーターで使用される変数の一覧を示します。[!UICONTROL URL] または [!UICONTROL cookie destination] を操作する場合は、`push` または `ADS` を指定します。使用可能な宛先 [!DNL API] メソッドで[!UICONTROL server-to-server destinations]の宛先を作成することはできません。
 
 <!-- r_destination_types.xml -->
 
