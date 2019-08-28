@@ -5,7 +5,7 @@ seo-title: ログファイル転送のための転送制御ファイル
 solution: Audience Manager
 title: ログファイル転送のための転送制御ファイル
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ## ファイル命名規則 {#file-naming-conventions}
 
-The transfer-control file has the same name as the root of the batch/sequence with a [!DNL .info] file extension.s
+転送制御ファイルには、バッチ／シーケンスのルートと同じ名前で、[!DNL .info] ファイル拡張子が付きます。
 
 例えば、シーケンスの最初のファイルの名前が [!DNL ftp_12345_67890_full_1500727351632-1.sync] の場合、制御ファイルの名前は [!DNL ftp_12345_67890_iter_1500727351632.info] になります。
 
