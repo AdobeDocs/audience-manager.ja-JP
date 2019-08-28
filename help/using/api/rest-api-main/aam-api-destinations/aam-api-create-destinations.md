@@ -5,7 +5,7 @@ seo-title: 宛先の作成
 solution: Audience Manager
 title: 宛先の作成
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 宛先の作成 {#create-destinations}
 
-Create destinations with these [!UICONTROL RESTful API] methods.
+これらの [!UICONTROL RESTful API] メソッドで宛先を作成します。
 
 <!-- c_create_destinations.xml -->
 
-## サポートされている送信先のタイプ：URL およびCookie のみ
+## サポートされている宛先のタイプ：URL および Cookie のみ
 
-The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL cookie destinations] only. Currently, you cannot create [!UICONTROL server-to-server destinations] with these [!DNL REST API] methods. However, the related destination `GET` methods let you retrieve information about [!UICONTROL server-to-server destinations] created in the user interface.
+使用可能な `POST` メソッドでは、[!UICONTROL URL] および [!UICONTROL cookie destinations]のみを作成できます。現在は、[!DNL REST API] メソッドで [!UICONTROL server-to-server destinations] を使用できます。ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
 
 >[!MORE_LIKE_THIS]
 >
@@ -98,7 +98,7 @@ The available `POST` methods let you create [!UICONTROL URL] and [!UICONTROL coo
 
 ### リクエストのサンプル
 
-Specify the secure [!DNL URL] and delimiter for the key-value pair passed in to the destination. 特に指示のない限り、すべてのリクエスト値が必須です。
+宛先に渡すキーと値のペアのセキュリティで保護された [!DNL URL] と区切り文字を指定します。特に指示のない限り、すべてのリクエスト値が必須です。
 
 ```
 { 
@@ -149,7 +149,7 @@ Specify the secure [!DNL URL] and delimiter for the key-value pair passed in to 
 
 ## Cookie 宛先の作成：単一のキー、非シリアル化 {#create-cookie-dest-single}
 
-`POST` 単一のキーと値のペアから [!UICONTROL cookie destination] 構成されるセグメント（ `gender=male` また `gender=female`はなど）を提供するメソッド。
+単一のキーと値のペア（例：`gender=male` や `gender=female`）で構成されるセグメントを受け入れる[!UICONTROL cookie destination]を作成できる `POST` メソッド。
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
