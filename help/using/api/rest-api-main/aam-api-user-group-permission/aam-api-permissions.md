@@ -5,7 +5,7 @@ seo-title: 権限管理 API メソッド
 solution: Audience Manager
 title: 権限管理 API メソッド
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 # 権限管理 API メソッド {#permissions-management-api-methods}
 
-Rest [!DNL API] methods to manage permissions for objects and groups.
+オブジェクトおよびグループの権限を管理するための Rest [!DNL API] メソッド。
 
 <!-- c_rest_api_perm_man.xml -->
 
