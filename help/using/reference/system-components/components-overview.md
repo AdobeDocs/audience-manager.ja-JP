@@ -4,7 +4,7 @@ seo-description: Audience Manager システムにおける主要なコンポー�
 seo-title: システムコンポーネントの概要
 title: システムコンポーネントの概要
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 ---
@@ -28,11 +28,11 @@ c_compintro.xml
 
 このガイドでは、一般的すぎず、かつ詳細すぎることもない説明を心がけています。ただし、特定な内容についてはここでは除外されています。ここで扱われているのは一般的な内容のみで、それ以外の特定な情報には触れられていません。これまでと同様、ご質問がある場合は担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
 
-* [Audience Managerシステムの主要コンポーネント](/help/using/reference/system-components/components-stack.md)
+* [Audience Manager システムの主要なコンポーネント](/help/using/reference/system-components/components-stack.md)
 * [データアクションのコンポーネント](/help/using/reference/system-components/components-data-action.md)
 * [データ収集コンポーネント](/help/using/reference/system-components/components-data-collection.md)
 * [データ処理のコンポーネント](/help/using/reference/system-components/components-data-processing.md)
-* [タグ管理コンポーネント](/help/using/reference/system-components/components-tag-management.md)
+* [Tag Management コンポーネント](/help/using/reference/system-components/components-tag-management.md)
 * [プラットフォームアーキテクチャ：データフローマップ](/help/using/reference/system-components/components-platform-architecture.md)
 * [エッジデータセンターについて](/help/using/reference/system-components/components-edge.md)
 
