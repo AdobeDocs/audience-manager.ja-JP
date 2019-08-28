@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールの概要
 solution: Audience Manager
 title: プロファイル結合ルールの概要
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 ---
@@ -13,15 +13,15 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 # プロファイル結合ルールの概要 {#profile-merge-rules-overview}
 
-With [!UICONTROL Profile Merge Rules] you get control over the data sets used for segmentation and can target a person accurately across multiple devices.
+[!UICONTROL Profile Merge Rules]を使用すれば、セグメントに使用されるデータセットを制御して、複数のデバイスにまたがるユーザーを正確にターゲティングできます。
 
-## 匿名プロファイルと認証済みプロファイルによるデータ収集とターゲット設定 {#data-collection-targeting}
+## 匿名プロファイルと認証済みプロファイルによるデータ収集とターゲティング {#data-collection-targeting}
 
-通常、オーディエンスのセグメント化とターゲット設定は、デバイス上のすべてのユーザーから収集されたデータに基づいておこないます。デバイスレベルのデータに基づくデータ収集とターゲット設定には、いくつかのデメリットがあります。例えば、デバイスを共有する複数のユーザーを区別したり、複数のデバイスにまたがるユーザーを正確にターゲット化することができません。デバイスに基づくデータ収集は、デジタルマーケティングキャンペーンやクロスデバイスターゲティングには十分ではありません。
+通常、オーディエンスのセグメント化とターゲティングは、デバイス上のすべてのユーザーから収集されたデータに基づいておこないます。デバイスレベルのデータに基づくデータ収集とターゲティングには、いくつかのデメリットがあります。例えば、デバイスを共有する複数のユーザーを区別したり、複数のデバイスにまたがるユーザーを正確にターゲット化することができません。デバイスに基づくデータ収集は、デジタルマーケティングキャンペーンやクロスデバイスターゲティングには十分ではありません。
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] を根本的に変更することで、データ [!DNL Audience Manager] を収集し、ターゲット設定するユーザーをセグメント化できます。これにより、デバイスプロファイルと認証済みプロファイルの 2 種類のプロファイルを操作できるようになります。
+[!UICONTROL Profile Merge Rules]プロを使用すれば、[!DNL Audience Manager] がデータを収集してユーザーをターゲット化のためにセグメント化する方法が根本的に変わります。これにより、デバイスプロファイルと認証済みプロファイルの 2 種類のプロファイルを操作できるようになります。
 
 <table id="table_CE98C0E32A964B27804736A896233869"> 
  <thead> 
@@ -50,13 +50,13 @@ With [!UICONTROL Profile Merge Rules] you get control over the data sets used fo
  </tbody>
 </table>
 
-これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。例えば、認証済みプロファイルを使用すると、複数のデバイスから収集した 1 人のユーザーに関するデータに基づいて正確なセグメントを生成できます。これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。さらに、クロスデバイス認証により、[!DNL Audience Manager] はユーザーがオンラインアクティビティで使用する各種のプラットフォームをマッピングできます。[!UICONTROL Profile Link Device Graph]これを呼び出します。
+これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。例えば、認証済みプロファイルを使用すると、複数のデバイスから収集した 1 人のユーザーに関するデータに基づいて正確なセグメントを生成できます。これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。さらに、クロスデバイス認証により、[!DNL Audience Manager] はユーザーがオンラインアクティビティで使用する各種のプラットフォームをマッピングできます。これは、[!UICONTROL Profile Link Device Graph] と呼ばれるものです。
 
 ![](assets/authenticated2.png)
 
 ## メリット {#advantages}
 
-With [!UICONTROL Profile Merge Rules] you can:
+[!UICONTROL Profile Merge Rules] では、以下のことが可能です。
 
 * 認証済みプロファイル、匿名プロファイル、またはその両方の組み合わせに基づいて、ユーザーをターゲット化する。
 * デバイス間で特定の顧客をターゲット化する。
@@ -64,9 +64,9 @@ With [!UICONTROL Profile Merge Rules] you can:
 * 各種のプロファイルに基づいてセグメントのデータを微調整する。
 * オーディエンスに関する詳細なインサイトを得る。
 
-## はじめに {#getting-started}
+## はじめに{#getting-started}
 
-See the following sections and the [FAQ](../../faq/faq-profile-merge.md) for more information about [!UICONTROL Profile Merge Rules].
+[!UICONTROL Profile Merge Rules]プロファイル結合ルールについて詳しくは、次のセクションと [FAQ](../../faq/faq-profile-merge.md) を参照してください。
 
 * [プロファイル結合ルールの導入](/help/using/features/profile-merge-rules/merge-rules-start.md)
 * [プロファイル結合ルールダッシュボード](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
@@ -75,6 +75,6 @@ See the following sections and the [FAQ](../../faq/faq-profile-merge.md) for mor
 * [プロファイルリンクデバイスグラフのユースケース](/help/using/features/profile-merge-rules/profile-link-use-case.md)
 * [ 外部デバイスグラフのユースケース](/help/using/features/profile-merge-rules/external-graph-use-cases.md)
 * [プロファイル結合ルールのレポート指標](/help/using/features/profile-merge-rules/profile-link-metrics.md)
-* [プロファイル結合ルールとデバイスセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
+* [プロファイル結合ルールとデバイスのセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
 * [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)
 * [デバイスグラフを伴うプロファイル結合ルールの重要な考慮事項](/help/using/features/profile-merge-rules/considerations-pmr-device-graph.md)
