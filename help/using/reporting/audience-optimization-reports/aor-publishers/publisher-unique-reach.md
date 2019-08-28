@@ -5,31 +5,31 @@ seo-title: 個別ユーザーのリーチ
 solution: Audience Manager
 title: 個別ユーザーのリーチ
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a02c2e109f6ae4565cf9d86bb8828ab49bb01f0
 
 ---
 
 
-# 個別ユーザーリーチ{#unique-user-reach}
+# 個別ユーザーのリーチ{#unique-user-reach}
 
 個別ユーザーのリーチレポートでは、データはバブルチャートで返されます。各バブルのサイズは、選択した広告ユニットの個別ユーザー数と直接比例します。バブルが大きいほど、リーチが大きくなります。個別ユーザーのリーチレポートは、ターゲットユーザーに対して最も広いリーチをもたらす広告ユニットを見つけるのに有効です。
 
 ## ユースケース {#use-cases}
 
-[!UICONTROL Unique User Reach] レポートを使用すると、大量の個別ユーザーを惹きつけるポートフォリオ内のプロパティを特定できます。
+[!UICONTROL Unique User Reach]レポートを使用すると、多数の個別ユーザーを引き付けるプロパティをポートフォリオ内で特定できます。
 
 ## 個別ユーザーのリーチレポートの使用 {#using-the-report}
 
 「**[!UICONTROL Dimension Value]**」ボックスを使用して、レポートに表示する広告ユニットを選択します。「**[!UICONTROL All]**」をクリックすると、すべてのプロパティがバブルチャートに表示されます。
 
-**Day Range** コントロールと **Date Through コントロールを使用して、ルックバック範囲を調整します。**
+**Day Range** コントロールと **Date Through** コントロールを使用して、ルックバック範囲を調整します。
 
 ## 結果の解釈 {#interpreting-results}
 
 **レポートのサンプル**
 
-[!UICONTROL Unique User Reach] レポートは以下のようになります。レポート内でバブルをクリックすると、基になっているデータが表示されます。追加情報については、以下の表を参照してください。
+[!UICONTROL Unique User Reach]レポートは次のようになります。レポート内でバブルをクリックすると、基になっているデータが表示されます。追加情報については、以下の表を参照してください。
 
 ![](assets/publisher_unique_user_reach.png)
 
