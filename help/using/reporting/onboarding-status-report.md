@@ -5,27 +5,27 @@ seo-title: オンボーディングステータスレポート：概要
 solution: Audience Manager
 title: オンボーディングステータスレポート：概要
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 ---
 
 
-# Onboarding Status Report{#onboarding-status-report-about}
+# オンボーディングステータスレポート{#onboarding-status-report-about}
 
 オンボーディングステータスレポートは、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、Analytics／Onboarding Status Report からアクセスできます。また、受信データソースの作成時にも、このレポートが使用可能です。
 
 >[!NOTE]
 >
->管理者権限を持つユーザーのみが、Audience Managerユーザーインターフェイスでこのレポートを表示できます。管理者以外のユーザーに、受信した受信ファイルのステータスをレポートに追加して、受信者以外のユーザーに通知することができます。See [Receive E-mail Notifications](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
+>Audience Manager ユーザーインターフェイスでこのレポートを表示できるのは、管理者権限を持つユーザーのみです。管理者以外のユーザーの電子メールをレポートに追加すれば、アップロードした受信ファイルのステータスを受信者以外のユーザーに通知することができます。[電子メール通知の受信](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)を参照してください。
 
-## オンボーディングステータスレポート：概要 {#onboarding-status-about}
+## オンボーディングステータスレポート：概要{#onboarding-status-about}
 
-The [!UICONTROL Onboarding Status Report] checks success and failure rates for processing records in your inbound data source files. このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。You can find this report in **[!UICONTROL Analytics > Onboarding Status Report]**. また、受信データソースの作成時にも、このレポートが使用可能です。
+[!UICONTROL Onboarding Status Report]は、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、**[!UICONTROL Analytics > Onboarding Status Report]**&#x200B;で確認できます。また、受信データソースの作成時にも、このレポートが使用可能です。
 
 ## エラーレポートとエラーサンプリング {#error-reporting-sampling}
 
-Error reporting and error sampling are 2 separate features of the [!UICONTROL Onboarding Status] report.
+エラーレポートとエラーサンプリングは、[!UICONTROL Onboarding Status]レポートにある 2 つの独立した機能です。
 
 <table id="table_4706D891D4C545E8BF9D8A0CC052CC48"> 
  <thead> 
@@ -41,7 +41,7 @@ Error reporting and error sampling are 2 separate features of the [!UICONTROL On
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>エラーサンプリング</b> </p> </td>
-   <td colname="col2"> <p>エラーサンプリングでは、データファイルのコンテンツが解析され、エラータイプごとに最も多いエラーの上位 10 件が返されます。受信データファイルでエラーが発生すると、個別のレコードが処理されなくなります。このレポートをトラブルシューティングツールとして活用すると、ファイルエラーを減らし、処理率を向上させることができます。 </p> <p>エラーサンプリングは手動でアクティブ化する必要があります。この機能はアクティブ化から 14 日間実行され、自動的に終了します。エラーサンプリングは、14 日間の有効期間が終了した後で、再度アクティブ化することができます。エラーサンプリングをアクティブ化するには、<a href="../features/manage-datasources.md#create-data-source">受信データソースの作成</a>時にアクティブ化するか、既存の受信データソースの「<b><span class="uicontrol">Data Source Settings</span></b>」セクションで「<span class="wintitle">Error Sampling</span>」チェックボックスをオンにします。 </p> <p>エラーサンプリングは計算負荷の高い処理です。そのため、エラーカテゴリごとに最初の 10 件のエラーのみが返されます。受信データソースに含まれるすべてのエラーが返されるようには設計されていません。これらのエラーは、同様のエラーの大きなグループの代表例です。ファイル全体を確認して、このレポートでフラグが設定されているエラーの種類を調べ、ファイルの形式を変更してから、もう一度送信します。 </p> <p>詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルのコンテンツ：構文、変数、例</a>を参照し、受信データソースのデータファイルの形式を適切に設定する方法について確認してください。 </p> </td> 
+   <td colname="col2"> <p>エラーサンプリングでは、データファイルのコンテンツが解析され、エラータイプごとに最も多いエラーの上位 10 件が返されます。受信データファイルでエラーが発生すると、個別のレコードが処理されなくなります。このレポートをトラブルシューティングツールとして活用すると、ファイルエラーを減らし、処理率を向上させることができます。 </p> <p>エラーサンプリングは手動でアクティブ化する必要があります。この機能はアクティブ化から 14 日間実行され、自動的に終了します。エラーサンプリングは、14 日間の有効期間が終了した後で、再度アクティブ化することができます。エラーサンプリングは、<a href="../features/manage-datasources.md#create-data-source">受信データの作成</a>時、または存の受信データソースの「<span class="wintitle"> Data Source Settings</span>」セクションでで「<b><span class="uicontrol"> Error Sampling</span></b>」チェックボックスをオンにしてアクティブ化します。 </p> <p>エラーサンプリングは計算負荷の高い処理です。そのため、エラーカテゴリごとに最初の 10 件のエラーのみが返されます。受信データソースに含まれるすべてのエラーが返されるようには設計されていません。これらのエラーは、同様のエラーの大きなグループの代表例です。ファイル全体を確認して、このレポートでフラグが設定されているエラーの種類を調べ、ファイルの形式を変更してから、もう一度送信します。 </p> <p>詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルのコンテンツ：構文、変数、例</a>を参照し、受信データソースのデータファイルの形式を適切に設定する方法について確認してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +52,7 @@ Error reporting and error sampling are 2 separate features of the [!UICONTROL On
 
 ![](assets/stacked-graph.png)
 
-## エラーレポートの表 {#error-report-tables}
+## エラーレポートの表{#error-report-tables}
 
 エラーレポートでは、棒グラフの下に表形式のデータが表示されます。この表は、成功率と失敗率に加えて、合計と割合が表示されます。
 
@@ -86,7 +86,7 @@ Error reporting and error sampling are 2 separate features of the [!UICONTROL On
 
 ## オンボーディングステータスレポートの作成 {#create-onboard-status-report}
 
-A [!UICONTROL Sample Error Report] returns the number records in a data source were processed successfully and how many failed. Follow these steps to generate a [!UICONTROL Sample Error Report].
+[!UICONTROL Sample Error Report]は、データソースのレコードのうち、正常に処理されたものと失敗したものの数を返します。次の手順に従って、[!UICONTROL Sample Error Report]を生成します。
 
 <!-- 
 
@@ -95,14 +95,14 @@ create-onboarding-status-report.xml
  -->
 
 
-1. Go to **[!UICONTROL Analytics > Onboarding Status Report]**. データソースを検索するか、リストから選択します。
+1. **[!UICONTROL Analytics > Onboarding Status Report]** へ移動します。データソースを検索するか、リストから選択します。
 
 2. 日付範囲を選択します。オプションは以下のとおりです。
 
    * 一連の固定レポート期間
    * カスタムの日付範囲を作成できるカレンダーウィジェット
 
-3. **[!UICONTROL OK]**&#x200B;をクリックします。
+3. 「**[!UICONTROL OK]**」をクリックします。
 
 ## オンボーディングステータスレポートの用語と定義 {#report-terms-conditions}
 
@@ -125,7 +125,7 @@ create-onboarding-status-report.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Format Errors</b> </p> </td> 
-   <td colname="col2"> <p>構文や書式設定の要件を満たさなかったために処理が失敗したレコードの数のリストが表示されます。詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルのコンテンツ：構文、変数、例</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>構文や書式設定の要件を満たさなかったために処理が失敗したレコードの数のリストが表示されます。詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルのコンテンツ：構文、変数、例</a>をでデータのフォーマット方法を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Invalid AAM ID</b> </p> </td> 
