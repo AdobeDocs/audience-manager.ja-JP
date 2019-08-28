@@ -5,7 +5,7 @@ seo-title: 一括予測
 solution: Audience Manager
 title: 一括予測
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 一括予測{#bulk-estimates}
 
-一括予測では、セグメントルールに基づきセグメントサイズデータが返されます。一括予測の要求をおこなうには、以下の手順に従ってください。
+一括予測では、セグメントルールに基づきセグメントサイズデータが返されます。一括予測リクエストをおこなうには、以下の手順に従ってください。
 
 <!-- 
 
@@ -23,15 +23,15 @@ t_bulk_estimates.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[UIで割り当てられたRBACグループ権限](../../features/administration/administration-overview.md)[!DNL Audience Manager] は、で使用さ [!UICONTROL Bulk Management Tools]れます。
+>[!UICONTROL Bulk Management Tools] は、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
-To make bulk updates, open the [!UICONTROL Bulk Management Tools] worksheet and:
+一括更新をおこなうには、[!UICONTROL Bulk Management Tools] ワークシートを開き、以下の手順に従ってください。
 
-1. **[!UICONTROL Headers]** タブをクリックし、ヘッダーを [!UICONTROL Estimate Segment Size] コピーします。
-1. Click the **[!UICONTROL Estimate]** tab.
+1. 「**[!UICONTROL Headers]**」タブをクリックし、「[!UICONTROL Estimate Segment Size]」ヘッダーをコピーします。
+1. 「**[!UICONTROL Estimate]**」タブをクリックします。
 1. 予測ヘッダーを、予測ワークシートの 1 行目に貼り付けます。
 1. ヘッダーラベルに基づいて、変更するデータを対応する列に貼り付けるか入力します。
-1. ワークシートのツールバーで、更新する項目の作成ボタンをクリックします。This action opens the [!UICONTROL Account Information] dialog box.
+1. ワークシートのツールバーで、更新する項目の作成ボタンをクリックします。これにより、[!UICONTROL Account Information] ダイアログボックスが開きます。
 
 1. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、「**[!UICONTROL Submit]**」をクリックします。
 
