@@ -5,7 +5,7 @@ seo-title: DIL モジュール
 solution: Audience Manager
 title: DIL モジュール
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
@@ -314,7 +314,7 @@ Audience Manager の URL イベント呼び出しは次のようになります�
 
 >[!MORE_LIKE_THIS]
 >
->* [Google アナリティクストラッキングコード](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [Web アップグレードの完了：ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
->* [サイトへの analytics.js の追加](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [Google Analyticsのトラッキングコード](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
+>* [Web のフルアップグレード：ga.js または dc.js から analytics.js へのアップグレード](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
+>* [ サイトに analytics.js を追加する ](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 
