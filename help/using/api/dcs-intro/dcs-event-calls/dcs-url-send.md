@@ -5,7 +5,7 @@ seo-title: DCS へのデータ送信
 solution: Audience Manager
 title: DCS へのデータ送信
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # DCS へのデータ送信 {#send-data-to-the-dcs}
 
-`/event` への [!UICONTROL DCS] 呼び出しの実行については、ここから始めてください。この節では、呼び出しの構文、パラメーター、形式、要求例について説明します。
+[!UICONTROL DCS] への `/event` 呼び出しの実行については、ここから始めてください。この節では、呼び出しの構文、パラメーター、形式、要求例について説明します。
 
 >[!NOTE]
 >
@@ -23,8 +23,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 `URL` にデータを送信する基本的な [!UICONTROL DCS] 文字列の構文は次のとおりです。
 
-<pre><code>https://domainalias.demdex.net/event<i></i>?<i>key1</i>=<i>val1</i>，&amp;<i>key2</i>=<i>val2</i>&amp; d_ dst=1&amp; d_ rdbd= json&amp; d_ cb=<i>callback</i></code>
-</pre>
+<pre><code>
+https://<i>domain alias</i>.demdex.net/event? <i>key1</i>=<i>val1</i>,&amp;<i>key2</i>=<i>val2</i>&amp;d_dst=1&amp;d_rtbd=json&amp;d_cb=<i>callback</i>
+</code></pre>
 
 >[!NOTE]
 >
@@ -46,7 +47,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col1"> <p> <code> domain alias.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>この部分には次の情報が含まれています。 </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9"><span class="keyword">Audience Manager</span> から割り当てられたドメインエイリアス（例えば <code>my_domain.demdex.net</code> など）。 </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9"><span class="keyword"> Audience Manager</span> から割り当てられたドメインエイリアス（例：<code> my_domain.demdex.net</code>）。 </li> 
       <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">宛先のドメイン（常に <code>demdex.net</code>）。<a href="../../../reference/demdex-calls.md">Demdex ドメインの呼び出しについて</a>を参照してください。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -67,7 +68,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col2"> <p>キー値ペアのキーで定義されるセットに属する変数値。 </p> <p>値を扱う際は次の点に留意してください。 </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
       <li id="li_091E5B4820EC4A93B775433E428E74AB">文字列データを二重引用符で囲みます（例：<code>age="41 to 55"</code>）。 </li> 
-      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">You can pass multiple keys in on a single value (e.g., <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </i></li> 
+      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">1 つの値で複数のキーを渡すことができます（例：<i><code>key</i>=<i>val1,val2,val3</i></code></i>）。 </i></li> 
      </ul> </p> <p><a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md">DCS 呼び出しでのキー値ペアの形式</a>を参照してください。 </p> </td>
   </tr> 
   <tr> 
