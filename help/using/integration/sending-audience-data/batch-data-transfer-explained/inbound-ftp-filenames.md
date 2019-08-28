@@ -5,23 +5,23 @@ seo-title: 受信データファイルの FTP 名とファイルサイズの要�
 solution: Audience Manager
 title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ec2d05290874a95e9cc9b8318fcc5e1e1986f5b9
 
 ---
 
 
-# FTP での受信データファイルの名前とサイズの要件{#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# 受信データファイルの FTP 名とファイルサイズの要件{#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Audience Manager にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager[!DNL FTP]／ ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
+Audience Manager にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager[!DNL FTP] ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
 
 >[!WARNING]
 >
->受信データファイル用のFTP転送は、現在サポートされていません。Amazon S3をオフラインデータに使用してください。See [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for details.
+>受信データファイル用の FTP 転送は、現在サポートされていません。Amazon S3 をオフラインデータのオンボーディングに使用してください。詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`斜体 **、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## ファイル名の構文 {#file-name-syntax}
 
@@ -29,15 +29,15 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-For other accepted file name formats, see [Custom Partner Integrations](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
+使用可能なその他のファイル名の形式については、[カスタムパートナー統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)を参照してください。
 
 >[!NOTE] {importance="high"}
 >
->[!DNL Audience Manager] プロセス [!DNL ASCII] および [!DNL UTF-8] エンコードされたファイルのみを使用できます。
+>[!DNL Audience Manager] は、[!DNL ASCII] と [!DNL UTF-8] でエンコードされたファイルのみを処理します。
 
 ### 名前の要素
 
-The table defines the elements in an [!DNL FTP] file name.
+次の表は、[!DNL FTP] ファイル名の要素の定義を示しています。
 
 <table id="table_1EA97D75004148CE85F702427DB7E97A"> 
  <thead> 
@@ -111,7 +111,7 @@ The table defines the elements in an [!DNL FTP] file name.
 
 他の例が必要な場合は、サンプルファイルを[ダウンロードします](assets/ftp_dpm_1234_1445374061.overwrite)。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 許容されるファイルサイズ {#accepted-file-sizes}
+## 許容されるファイルサイズ{#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL FTP] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
