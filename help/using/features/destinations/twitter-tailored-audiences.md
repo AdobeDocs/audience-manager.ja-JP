@@ -5,7 +5,7 @@ seo-title: Twitterにカスタマイズされたオーディエンスをセル�
 solution: Audience Manager
 title: Twitterにカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 translation-type: tm+mt
-source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
+source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
 デバイスベースの宛先を追加するには、Audience Managerと [!DNL Twitter Tailored Audiences] アカウントをリンクする必要があります。手順は次のとおりです。
 
 1. Audience Managerアカウントにログインして、に移動 **[!DNL Administration > Integrated Accounts]**&#x200B;します。以前に設定したプラットフォームとの統合が設定されている場合は、このページに表示されていることを確認してください。それ以外の場合、ページは空です。
-2. **[!DNL Add Account]**&#x200B;をクリックします。
+2. 「**[!DNL Add Account]**」をクリックします。
 3. 認証ページにリダイレクトするには、選択 [!DNL Twitter Tailored Audiences] してクリック **[!DNL Confirm]** します。![統合プラットフォーム](assets/dbd-integrated-platforms.png)
 4. 認証が完了すると、関連する広告主アカウントを表示するAudience Managerにリダイレクトされます。使用する広告主アカウントを選択し、をクリック **[!DNL Confirm]**&#x200B;します。
 
@@ -45,9 +45,9 @@ Audience Managerとユーザーが [!DNL Twitter Tailored Audiences]リンクさ
 
 1. Audience Managerアカウントにログインし、アクセスして **[!DNL Audience Data > Destinations]**&#x200B;クリック **[!DNL Create Destination]**&#x200B;します。
 2. **[!DNL Basic Information]** セクションで **[!DNL Name]** 、および **[!DNL Description]** 新しい宛先を入力し、次の設定を使用します。 ![セットアップ](assets/dbd-new-basic.png)
-3. **[!DNL Next]**&#x200B;をクリックします。
+3. 「**[!DNL Next]**」をクリックします。
 4. この宛先に設定する [データのエクスポートラベル](/help/using/features/data-export-controls.md#controls-labels) を選択します。
-5. **[!DNL Save]**&#x200B;をクリックします。
+5. 「**[!DNL Save]**」をクリックします。
 6. **[!DNL Segment Mappings]** セクションで、この宛先に送信するオーディエンスセグメントを選択します。
 7. 宛先を保存します。
 
@@ -63,18 +63,18 @@ Audience Managerとユーザーが [!DNL Twitter Tailored Audiences]リンクさ
 次の手順に従って、既存 [!DNL Twitter Tailored Audiences] の宛先をセルフサービスモデルに移行します。
 
 1. Audience Managerアカウントにログインして、に移動 **[!DNL Administration > Integrated Accounts]**&#x200B;します。
-1. **[!DNL Add Account]**&#x200B;をクリックします。
+1. 「**[!DNL Add Account]**」をクリックします。
 1. 認証ページにリダイレクトするには、選択 [!DNL Twitter Tailored Audiences] してクリック **[!DNL Confirm]** します。![統合プラットフォーム](assets/dbd-integrated-platforms.png)
 1. [!DNL Twitter] アカウントで認証されると、関連する広告主アカウントを表示するAudience Managerにリダイレクトされます。使用する広告主アカウントを選択し、をクリック **[!DNL Confirm]**&#x200B;します。
 1. 「 **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** 」に移動し、設定する必要のあるTwitterの宛先をクリックします。
-1. **[!UICONTROL Edit]**&#x200B;をクリックします。**[!UICONTROL Basic Information]** セクションで **[!UICONTROL Integrated Account]** 、ドロップダウンメニューをクリックし、手順4で認証した [!DNL Twitter] アカウントを選択します。
+1. 「**[!UICONTROL Edit]**」をクリックします。**[!UICONTROL Basic Information]** セクションで **[!UICONTROL Integrated Account]** 、ドロップダウンメニューをクリックし、手順4で認証した [!DNL Twitter] アカウントを選択します。
 1. **[!UICONTROL Save]** 宛先です。
 
 ## セルフサービス管理への移行の検証 {#migration-validation}
 
 既存の統合に対する既存 [!DNL Twitter] の統合の完全な移行には、最大7日間かかることがあります。移行が完了すると、UIの通知がAudience Managerに表示されます。
 
-[!DNL Twitter] また、アカウントに新しいオーディエンスのセットが表示されます。その名前は[!DNL [Adobe DMPオーディエンス]」を参照してください。オーディエンス母集団が完全にバックフィルされるまで最大7日間許可してください。移行が完了したら、古いオーディエンスの代わりにこれらの新しいオーディエンスを使用する必要があります。
+[!DNL Twitter] また、アカウントに新しいオーディエンスのセットが表示され、その名前が[[!DNL Adobe DMP Audience]]のプレフィックスが付けられます。オーディエンス母集団が完全にバックフィルされるまで最大7日間許可してください。移行が完了したら、古いオーディエンスの代わりにこれらの新しいオーディエンスを使用する必要があります。
 
 ## セグメントマッピングの考慮事項 {#segment-mapping-considerations}
 
