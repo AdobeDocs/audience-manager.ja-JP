@@ -1,12 +1,12 @@
 ---
 description: セグメントテストグループに重複のないテストセグメントを作成すると、様々な宛先の有効性を測定し比較することができます。有効性をテストするために、対照グループを残しておき、セグメントを全体のうちの一部に割り振ることができます。
 seo-description: セグメントテストグループに重複のないテストセグメントを作成すると、様々な宛先の有効性を測定し比較することができます。有効性をテストするために、対照グループを残しておき、セグメントを全体のうちの一部に割り振ることができます。
-seo-title: オーディエンスラボ
+seo-title: Audience Lab
 solution: Audience Manager
-title: オーディエンスラボ
+title: Audience Lab
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -14,13 +14,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Audience Lab {#audience-lab}
 
-Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to compare and measure effectiveness of different destinations. 有効性をテストするために、対照グループを残しておき、セグメントを全体のうちの一部に割り振ることができます。
+[!UICONTROL Segment Test Groups] で重複のないテストセグメントを作成すると、様々な宛先の有効性を測定し比較することができます。有効性をテストするために、対照グループを残しておき、セグメントを全体のうちの一部に割り振ることができます。
 
 ## 概要 {#audience-lab-overview}
 
-[!UICONTROL Audience Lab][プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md) を使用してデバイス間のテストを行います。これにより、ユーザーはすべてのデバイスにわたって同じテストセグメントに適合し、同じ処理がおこなわれるようになります。テストグループ内のテストセグメントは、ベースセグメントに割り当てられた[プロファイル結合ルール](../../features/profile-merge-rules/merge-rules-dashboard.md)を継承します。
+[!UICONTROL Audience Lab] では、[プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md)を使用することで、複数のデバイスにまたがってテストを実行できます。これにより、ユーザーはすべてのデバイスにわたって同じテストセグメントに適合し、同じ処理がおこなわれるようになります。テストグループ内のテストセグメントは、ベースセグメントに割り当てられた[プロファイル結合ルール](../../features/profile-merge-rules/merge-rules-dashboard.md)を継承します。
 
-[!UICONTROL Audience Lab] デフォルトのビューでは、各テストグループのカードが表示されます。Click a card to access the **[!UICONTROL Test Group]** view. このビューには、以下の情報が含まれています。
+[!UICONTROL Audience Lab] のデフォルトビューには、各テストグループのカードが表示されます。カードをクリックして、**[!UICONTROL Test Group]** ビューにアクセスします。このビューには、以下の情報が含まれています。
 
 * **[テストグループの情報](../../features/audience-lab/audience-lab-information-view.md)**
 * **[テストグループのレポート](../../features/audience-lab/audience-lab-reporting-view.md)**
@@ -55,23 +55,23 @@ Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to c
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Active </span></b> </p> </td> 
-   <td colname="col2"> <p><i>アクティブ</i>のテストグループは、現在送信先にデータを送信しています。<b><span class="uicontrol">テストグループ</span>カードの </b><b>Pause Test<span class="uicontrol"> を押すと、送信先へのデータ送信が停止します。</span></b> </p> </td> 
+   <td colname="col2"> <p><i>Active</i> のテストグループは、現在、宛先にデータを送信しています。<b><span class="uicontrol">Test Group</span></b> の「<b><span class="uicontrol">Pause Test</span></b>」を押すと、宛先へのデータ送信が停止します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Scheduled </span></b> </p> </td> 
-   <td colname="col2"> <p><i>予定</i>のテストグループは、まだアクティブではないものの、もう編集はできない状態です。<b>Create Test Groups</b> ウィザードで選択した開始日にアクティブになります。 </p> </td> 
+   <td colname="col2"> <p><i>scheduled</i> のテストグループは、まだアクティブではないものの、もう編集はできない状態です。<b>Create Test Groups</b> ウィザードで選択した開始日にアクティブになります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">Paused </span></b> </p> </td> 
-   <td colname="col2"> <p><i>一時停止</i>のテストグループは、現在送信先にデータを送信していません。<b><span class="uicontrol">テストグループ</span>カードの </b><b>Make Active<span class="uicontrol"> を押すと、特性の送信が再開されます。</span></b> </p> </td> 
+   <td colname="col2"> <p><i>paused</i> のテストグループは、現在宛先にデータを送信していません。<b><span class="uicontrol">Test Group</span></b> カードの「<b><span class="uicontrol">Make Active</span></b>」を押すと、特性の送信が再開されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Draft </span></b> </p> </td> 
-   <td colname="col2"> <p><i>ドラフト</i>のテストグループは、まだアクティブではなく、編集できる状態です。マッピングされた送信先へのデータ送信はまだおこないません。 </p> </td> 
+   <td colname="col2"> <p><i>draft</i> のテストグループは、まだアクティブではなく、編集できる状態です。マッピングされた宛先へのデータ送信はまだおこないません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Completed </span></b> </p> </td> 
-   <td colname="col2"> <p><i>完了</i>のテストグループは、<b><span class="uicontrol">Create Test Groups</span> ウィザードで選択した終了日に達し、レポートデータの送信を終了しました。</b> </p> </td>
+   <td colname="col2"> <p><i>completed</i> テストグループは、<b><span class="uicontrol"> Create Test Groups</span></b> ウィザードで選択した終了日に達し、レポートデータの送信を終了しました。 </p> </td>
   </tr>
  </tbody>
 </table>
@@ -88,15 +88,15 @@ Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to c
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Edit </span></b> </p> </td>
-   <td colname="col2"> <p>ドラフトのテストグループに対して<b>のみ</b>使用できます。<b><span class="uicontrol">Create New Test Group</span> ウィザードを再開できます。</b> </p> </td>
+   <td colname="col2"> <p>draft テストグループに対して<b>のみ</b>使用できます。<b><span class="uicontrol">Create New Test Group</span></b> ウィザードを再開できます。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pause </span></b> </p> </td>
-   <td colname="col2"> <p>アクティブのテストグループに対して使用できます。テストセグメントの送信先への送信を一時停止できます。 </p> </td>
+   <td colname="col2"> <p>active テストグループに対して使用できます。テストセグメントの宛先への送信を一時停止できます。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">Make Active</span></b> </p> </td>
-   <td colname="col2"> <p>一時停止のテストグループに対して使用できます。テストセグメントの送信先への送信を再開できます。 </p> </td>
+   <td colname="col2"> <p>paused テストグループに対して使用できます。テストセグメントの宛先への送信を再開できます。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">View</span></b> </p> </td>
@@ -108,7 +108,7 @@ Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to c
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Delete </span></b> </p> </td>
-   <td colname="col2"> <p>テストグループを削除できます。テストセグメントは送信先とのマッピングが解除され、テストグループに関連付けられていたベースラインセグメントおよびコンバージョン特性は完全に編集可能になります。テストグループを削除する際、必要に応じてレポートを保存するために、CSV ファイルのダウンロードを促すアラートがプロンプト表示されます。 </p> </td>
+   <td colname="col2"> <p>テストグループを削除できます。テストセグメントは宛先とのマッピングが解除され、テストグループに関連付けられていたベースラインセグメントおよびコンバージョン特性は完全に編集可能になります。テストグループを削除する際、必要に応じてレポートを保存するために、CSV ファイルのダウンロードを促すアラートがプロンプト表示されます。 </p> </td>
   </tr>
  </tbody>
 </table>
