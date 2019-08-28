@@ -5,7 +5,7 @@ seo-title: ドメイン管理 API メソッド
 solution: Audience Manager
 title: ドメイン管理 API メソッド
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -95,7 +95,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ### オプションのクエリパラメーター
 
-オブジェクトの[!DNL API]すべて&#x200B;*のプロパティを返す*   メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。[オプションのパラメーター](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
+オブジェクトの&#x200B;*すべて*&#x200B;のプロパティを返す [!DNL API] メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。[オプションのパラメーター](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -123,7 +123,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr>
   <tr valign="top">
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。       <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
+   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。 <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code> </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
   </tr> 
  </tbody> 
 </table>
