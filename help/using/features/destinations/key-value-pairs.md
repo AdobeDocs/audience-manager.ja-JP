@@ -5,15 +5,15 @@ seo-title: 標準型およびシリアル型のキーと値のペア
 solution: Audience Manager
 title: 標準型およびシリアル型のキーと値のペア
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 ---
 
 
-# 標準およびシリアル化されたキー値ペア {#standard-and-serial-key-value-pairs}
+# 標準型およびシリアル型のキーと値のペア {#standard-and-serial-key-value-pairs}
 
-キー値ペアは関連する要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。[!UICONTROL Destination Builder] は、キーと値のペアとして形式設定されたデータを送信します。
+キー値ペアは関連する要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。[!UICONTROL Destination Builder] では、キー値ペアの形式でデータを送信します。
 
 ## 基本的なキーと値のペア {#basic-key-value-pairs}
 
@@ -23,14 +23,14 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 * `color = green`
 * `price > 100`
 
-## 標準およびシリアル化されたキー値ペア {#standard-serial-key-value-pairs}
+## 標準型およびシリアル型のキーと値のペア {#standard-serial-key-value-pairs}
 
-宛先には、*`standard`* または *`serialized`* 形式のキー値のデータを使用できます。
+宛先はキーと値のデータを *`standard`* または *`serialized`* 形式で受け取ります。
 
-* **標準型のキーと値のペア：**&#x200B;宛先データをそれぞれ別個のキーと値のペアとして設定します。各キーは、明示的に示されます（異なる値を定義するために再利用される場合も同様）。
+* **標準型のキーと値のペア：**&#x200B;宛先データをそれぞれ別個のキーと値のペアとして設定します。各キーは、明示的に指定されます（異なる値を定義するために再利用される場合でも）。
 * **シリアル型の値のペア：**&#x200B;複数の値が 1 つのキーと値のペアにまとめられます。シリアル型のキーと値のペアでは、特殊なインジケーターにより、このキーと値のセットの中にある値が区切られます。
 
-標準型とシリアル型のどちらのキーと値のペアでも、1 つ以上の値を受け入れることができます。以下の表に、標準およびシリアル化されたキーと値の形式の例を示します。
+標準型とシリアル型のどちらのキーと値のペアでも、1 つ以上の値を受け入れることができます。標準およびシリアル化されたキー値形式の例を次の表に示します。
 
 <table id="table_7895B1E800934117A19A96380F0CF91B"> 
  <thead> 
@@ -42,14 +42,14 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>標準型</b> </p> </td>
-   <td colname="col2"> <p> <code> x=1&amp;x=2 </code> </p> </td>
-   <td colname="col3"> <p> <code> x=1&amp;x=2&amp;y=3&amp;y=4 </code> </p> </td>
+   <td colname="col1"> <p> <b>標準</b> </p> </td>
+   <td colname="col2"> <p> <code> x = 1 &amp; x = 2 </code> </p> </td>
+   <td colname="col3"> <p> <code> x = 1 &amp; x = 2 &amp; y = 3 &amp; y = 4 </code> </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b>シリアル型</b> </p> </td> 
    <td colname="col2"> <p> <code> x = 1 ; 2 </code> </p> </td> 
-   <td colname="col3"> <p> <code> x=1;2&amp;y=3;4 </code> </p> </td>
+   <td colname="col3"> <p> <code> x = 1 ; 2 &amp; y = 3 ; 4 </code> </p> </td>
   </tr>
  </tbody>
 </table>
@@ -64,7 +64,7 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 ## 例 {#examples}
 
-With [!UICONTROL Destination Builder] you can format key-value data in several different ways. 各タイプの例を紹介します。
+[!UICONTROL Destination Builder]では、キーと値のデータを複数の形式で設定できます。各タイプの例を紹介します。
 
 <table id="table_C2FBDC887C8C4CC88B1B2A7CF8E2795F"> 
  <thead> 
@@ -116,7 +116,7 @@ With [!UICONTROL Destination Builder] you can format key-value data in several d
      <li id="li_FD3D7ECC2BF046E99B1ED0B73EFE341F">キー：X、Y </li> 
      <li id="li_2BADC98C4CE74BBBBA1DC446D24615AC">値：1、2、3、4 </li> 
      <li id="li_4125435175AD4A43A44B980B28F32364">セパレーター：= </li> 
-     <li id="li_48CFC279B2514F4FB2935B05FC7F287A">区切り: &amp; </li> 
+     <li id="li_48CFC279B2514F4FB2935B05FC7F287A">区切り：&amp; </li> 
      <li id="li_576C731F2FAF47FD92F55345CD6D36A0">シリアル区切り文字：セミコロン </li> 
     </ul> </td> 
   </tr> 
