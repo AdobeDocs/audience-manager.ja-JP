@@ -1,11 +1,11 @@
 ---
-description: この記事では、オーディエンスラボの高度な機能である、割り当てテンプレートの複製とセグメント除外の 2 つの機能について説明します。
-seo-description: この記事では、オーディエンスラボの高度な機能である、割り当てテンプレートの複製とセグメント除外の 2 つの機能について説明します。
-seo-title: オーディエンスラボの高度な機能
+description: この記事では、Audience Lab の高度な機能である、割り当てテンプレートの複製とセグメント除外の 2 つの機能について説明します。
+seo-description: この記事では、Audience Lab の高度な機能である、割り当てテンプレートの複製とセグメント除外の 2 つの機能について説明します。
+seo-title: Audience Lab の高度な機能
 solution: Audience Manager
-title: オーディエンスラボの高度な機能
+title: Audience Lab の高度な機能
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 * テストグループで使用するコンバージョン特性。
 * 選択した宛先へテストグループを公開する日付範囲。
 
-割り当てテンプレートを複製すると、テストセグメントと宛先の分布を、新しいテストグループで別のベースセグメントに再利用できます。割り当てテンプレートの例を下図に示します。The image is taken from the [!UICONTROL Summary & Finalize] step in the **Create Test Group** workflow.
+割り当てテンプレートを複製すると、テストセグメントと宛先の分布を、新しいテストグループで別のベースセグメントに再利用できます。割り当てテンプレートの例を下図に示します。この画像は、**テストグループの作成**&#x200B;ワークフローの[!UICONTROL Summary & Finalize]手順のものです。
 
 ![](assets/allocation_template_3.png)
 
@@ -40,7 +40,7 @@ With the option to duplicate allocation templates, you can increase your product
 
 複数のテストグループで同じ設定を再利用するには、複製元のテストグループを作成してから、「**[!UICONTROL Duplicate Allocation Template]**」を選択します。例えば、この機能を使用すると、複数のセグメントについていくつかの宛先をテストして有効性を判断することができます。
 
-1. オーディエンスラボのメイン表示で、新しいテストグループで再利用する割り当てテンプレートがあるテストグループを検索します。In the drop-down box, select **[!UICONTROL Duplicate Allocation Template]**.
+1. Audience Lab のメイン表示で、新しいテストグループで再利用する割り当てテンプレートがあるテストグループを検索します。ドロップダウンボックスで「**[!UICONTROL Duplicate Allocation Template]**」を選択します。
 
    ![](assets/duplicate-allocation-template.png)
 
@@ -58,7 +58,7 @@ With the option to duplicate allocation templates, you can increase your product
 
 >[!NOTE]
 >
->[!UICONTROL Test Segment Holdout] は、顧客リクエストでアクティブ化される高度な機能です。この機能を有効化するには、[!DNL Customer Care] または [!DNL Adobe Consulting] にお問い合わせください。
+>[!UICONTROL Test Segment Holdout]は、顧客リクエストアクティブ化される高度な機能です。この機能を有効化するには、[!DNL Customer Care] または [!DNL Adobe Consulting] にお問い合わせください。
 
 この機能を使用すると、オーディエンスの一部をテスト対象から除外することができます。選択した割合がテストから除外されます。これにより、ターゲットにした（宛先でアクティブにした）オーディエンスとターゲット外のオーディエンス（除外グループ）のそれぞれでコンバージョン数を測定し、比較することができます。
 
@@ -68,8 +68,8 @@ With the option to duplicate allocation templates, you can increase your product
 
 ### テストセグメントの除外の使用方法
 
-1. Create a new test group by using the [!UICONTROL Create Test Group] wizard.
-1. **[!UICONTROL Allocate Test Segment]** この手順では、テストから保留するオーディエンスの一部を選択できます。
+1. [!UICONTROL Create Test Group] ウィザードを使用して新しいテストグループを作成します。
+1. **[!UICONTROL Allocate Test Segment]**&#x200B;手順で、テストから除外するオーディエンスの割合を選択します。
 
    ![リスト項目](assets/test-segment-holdout.png)
 
@@ -77,4 +77,4 @@ With the option to duplicate allocation templates, you can increase your product
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. **[!UICONTROL Create Test Group]** ワークフローの残りの手順を実行し、選択内容に満足する **[!UICONTROL Finalize Group]** タイミングを選択します。これで、指定したオーディエンスの一部がテスト対象から除外されたテストグループが作成されます。
+1. **[!UICONTROL Create Test Group]**&#x200B;ワークフローの残りの手順を完了し、選択内容に問題がなければ、「**[!UICONTROL Finalize Group]**」を選択します。これで、指定したオーディエンスの一部がテスト対象から除外されたテストグループが作成されます。
