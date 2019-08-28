@@ -6,7 +6,7 @@ seo-title: getDil
 solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
 
 ---
@@ -29,10 +29,11 @@ source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
 
 ## 応答
 
-パートナーとコンテナの NSID が正しく一致すると、パートナー専用の [!UICONTROL DIL] インスタンスが返されます。一致する NSID がない場合は、「`The DIL instance with partner <name> and containerNSID <ID> was not found.`」というメッセージでエラーが（スローではなく）返されます。
+パートナーとコンテナの NSID が正しく一致すると、パートナー専用の [!UICONTROL DIL] インスタンスが返されます。一致する API がない場合は、「`The DIL instance with partner <name> and containerNSID <ID> was not found.`」というメッセージでエラーが（スローではなく）返されます。
 
 ## サンプルコード
 
-<pre class="java"><code>DIL. getDIL（'<i>partner</i>'， <i>containerNSID</i>）;
-DIL. getDIL（'<i>partner</i>'）;</code>
-</pre>
+<pre class="java"><code>
+DIL.getDil('<i>partner</i>', <i>containerNSID</i>); 
+DIL.getDil('<i>partner</i>');
+</code></pre>
