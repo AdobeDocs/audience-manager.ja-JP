@@ -5,7 +5,7 @@ seo-title: 特性レコメンデーション
 solution: Audience Manager
 title: 特性レコメンデーション
 uuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e369038fbc83e28d10da24060699488faf783511
 
 ---
@@ -17,45 +17,44 @@ source-git-commit: e369038fbc83e28d10da24060699488faf783511
 
 ## 概要
 
-[!UICONTROL Trait Recommendations]がpowered by [!DNL Adobe Sensei]， powered by， data perience into your Audience Manager Day- to- day workflow.
-With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule. 推奨特性をセグメントに追加すると、ターゲットオーディエンスを増やすことができます。
+[!DNL Adobe Sensei] を活用した [!UICONTROL Trait Recommendations] により、データサイエンスを Audience Manager の毎日のワークフローに適用します。[セグメントビルダー](segment-builder.md)でセグメントをビルドまたは編集する際に [!UICONTROL Trait Recommendations]を使用すると、セグメントルールの Trait に似た、追加が可能な特性に関するレコメンデーションが表示されます。推奨特性をセグメントに追加すると、ターゲットオーディエンスを増やすことができます。
 
 ![特性レコメンデーションの概要](assets/trait-recommendations-overview.png)
 
 **要約すると、以下のような機能です。**
 
 * Audience Manager では、現在購読しているデータフィードのファーストパーティ特性とサードパーティ特性が、推奨特性として表示されます。
-* Audience Managerでは、セグメントルール内の最大50個の特徴が表示されています。
+* Audience Manager には、セグメントルール内の特性に類似した特性が最大で 50 表示されます。
 * レコメンデーションを表示する必要のないデータソースは除外できます。
 * 類似性を計算する際、Audience Manager は過去 30 日間の特性の対象として認定できる [UUID](../../reference/ids-in-aam.md) を考慮に入れます。
 * 「No similar traits found.Trait(s) may be too new」というエラーメッセージが表示された場合は、過去 30 日間にその特性に関するアクティビティが発生していないか、Audience Manager がその特性のレコメンデーションをまだ更新していません。24 時間後にもう一度試してみてください。
 
 ## ユースケース
 
-With [!UICONTROL Trait Recommendations], you can improve your workflows, depending on how you use Audience Manager:
+[!UICONTROL Trait Recommendations] では、Audience Manager の使用状況に応じて、ワークフローを改善できます。
 
-* マーケティング担当者は、類似した特性のヘルプを使用して、補完的な製品に関心のあるオーディエンスをすばやく見つけることができ、リーチを増やすことができます。
-* If you use Audience Manager as a publisher, with [!UICONTROL Trait Recommendations], you can understand audience behavior and build better segments for ad sales or user acquisition.
+* マーケティング担当者は、類似した特性を活用して補完的な製品に関心のあるオーディエンスをすばやく見つけ、リーチを増やすことができます。
+* Audience Manager をパブリッシャー（広告配信元）として使用した場合、[!UICONTROL Trait Recommendations]では、オーディエンスの行動を把握し、広告販売やユーザー獲得のためのより優れたセグメントを構築できます。
 
 ## 特性レコメンデーションとアルゴリズムモデルの違い
 
 ### アルゴリズムモデル
 
-[!UICONTROL Algorithmic Models] では、影響力のある特性だけでなく、それらの特性に基づいてユーザーをスコアし、各ユーザーに個々のスコアを割り当てます。次に、アルゴリズムの特性を作成してユーザーをターゲットにします。With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
+[!UICONTROL Algorithmic Models]は、最も影響力のある特性を見つけ、それらの特性に基づいてユーザーを評価し、各ユーザーに個別のスコアを割り当てます。次に、ユーザーをターゲットにするアルゴリズムの特性を作成します。[!UICONTROL Trait Builder]の精度コントロールとリーチコントロールを使用すれば、ターゲットに設定したい影響力のある特性を持つすべてのユーザーを指定できます。
 
-[!UICONTROL Algorithmic Models] を使用すると、様々な精度レベルでユーザーを選択し、ユーザーのグループ [!UICONTROL Audience Lab] のコンバージョン率をテストできます。See the detailed use case in [Compare Models in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
+[!UICONTROL Algorithmic Models]を使用すれば、様々な精度レベルでユーザーを選択したり、[!UICONTROL Audience Lab]でテストしたりでき、ユーザーのグループのコンバージョン率が向上します。[Audience Lab でのモデルの比較](../../features/audience-lab/audience-lab-use-cases.md#compare-models)の詳細なユースケースを参照してください。
 
-In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
+[!UICONTROL Algorithmic Models] では、モデルは 8 日ごとに実行され、アルゴリズム特性の対象となるユーザーが更新されます。
 
 ### 特性レコメンデーション
 
-[!UICONTROL Trait Recommendations] を使用すると、セグメントで使用している他の特性に類似したインサイトを得ることができます。
+[!UICONTROL Trait Recommendations]を使用すれば、セグメントの場合と同様、他の特性に関するインサイトを簡単に得ることができます。
 
-You should use [!UICONTROL Trait Recommendations] when:
+[!UICONTROL Trait Recommendations] は次の場合に使用できます。
 
-* セグメントの作成中に、すばやくインサイトを設定する必要があります。
-* 短時間キャンペーンでセグメントを使用しているか、コンバージョンしたオーディエンスをすばやく抑制したい場合、
-* リーチを最大化しようとしています。
+* セグメントの作成中に、すばやくインサイトを得る必要がある場合。
+* 短時間のキャンペーンでセグメントを使用している場合、またはコンバージョンしたオーディエンスをすばやく抑制したい場合。
+* リーチを最大化したい場合。
 
 ## ワークフロー
 
@@ -74,8 +73,8 @@ You should use [!UICONTROL Trait Recommendations] when:
 
 ### 既存セグメント
 
-1. Go to **[!UICONTROL Audience Data]&gt;[!UICONTROL Segments]**, select the segment you want to edit and press ![Edit](assets/edit-button.png).
-1. Scroll down to the [!UICONTROL Traits] drop-down box.
+1. **[!UICONTROL Audience Data]／[!UICONTROL Segments]**&#x200B;へ移動し、編集したいセグメントを選択して、「![Edit](assets/edit-button.png)」をクリックします。
+1. 下にスクロールして[!UICONTROL Traits]ドロップダウンボックスを表示します。
 1. セグメントルールに既に含まれている特性に類似した推奨特性が表示されています。下にスクロールして、推奨されるすべての特性を表示します。
 1. （オプション）特定のデータソースの推奨特性を除外するには、除外するデータソースの **X** 記号をクリックします。
    > [!NOTE]
@@ -83,7 +82,7 @@ You should use [!UICONTROL Trait Recommendations] when:
    >除外したデータソースは、推奨特性のリストのすぐ上に表示されます。灰色のボックスの **X** を押すと、除外したデータソースが削除され、各データソースの結果が再度表示されます。
 1. セグメントルールに推奨特性を追加するには、**+** 記号をクリックします。
 
-セグメントを作成または編集し、セグメントルールに特性を追加する場合、追加したものと同様に、最大50個の推奨特性が表示されます。セグメントルールに複数の特徴が含まれている場合、Audience Managerではラウンドロビン方式を使用して、セグメントルール内の母集団ごとの最大50の特性について、各特性に最適な一致を示すラウンドロビン方式を使用します。
+セグメントを作成または編集し、セグメントルールに特性を追加すると、追加した特性に類似した特性が最大で 50 表示されます。セグメントルールに複数の特性が含まれている場合、Audience Manager はラウンドロビン方式により、各特性に最も一致する特性、2 番目に一致する特性という順に、セグメントルール内の、母集団が大きい方から順に 50 の特性が表示されます。
 
 ![3 つのベース特性](assets/three-base-traits.png)
 
@@ -93,7 +92,7 @@ You should use [!UICONTROL Trait Recommendations] when:
 2. 特性 1 に最も一致する特性
 3. 特性 2 に最も一致する特性
 4. 特性 3 に 2 番目に一致する特性
-5. 特徴1には第2の一致があり、特徴が50までになるまで続きます。
+5. 特性 1 には 2 番目に一致する特性など、特性が 50 までになるまで続きます。
 
 特定の特性に対するレコメンデーションを取得するには、セグメントルール内（1）または特性レコメンデーションビュー内（2）の特性をクリックします。
 
@@ -113,11 +112,11 @@ You should use [!UICONTROL Trait Recommendations] when:
 
 ## 仕組み
 
-To produce trait recommendations, Audience Manager computes the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) between the target trait and every other trait that your account has access to, including third-party data. Audience Managerには、類似性が最も高い50個までの特性が表示されます。
+特性レコメンデーションを生成するために、Audience Manager では、ターゲット特性と、アカウントからアクセスできる他のすべての特性（サードパーティデータを含む）の [Jaccard 類似性](https://en.wikipedia.org/wiki/Jaccard_index)を計算します。Audience Managerには、類似性が最も高い 50 個までの特性が表示されます。
 
 ## 特性類似性スコア
 
-Audience Manager calculate the [!UICONTROL Trait Similarity Score] between two traits by computing the intersection and union in terms of the number of [!UICONTROL UUID]s and then divide the two. 2 つの特性、A と B の計算は次のようになります。
+Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合を計算し、その 2 つを除算することにより、2 つの特性間の[!UICONTROL Trait Similarity Score]を算出します。2 つの特性、A と B の計算は次のようになります。
 
 ![](assets/jaccard_similarity.png)
 
@@ -125,21 +124,21 @@ Audience Manager calculate the [!UICONTROL Trait Similarity Score] between two t
 
 ### 例 1 - 低い特性類似性スコア
 
-Given two traits A and B, let's say each of the traits has a population of 1,000,000 [!UICONTROL UUID]s, 25,000 [!UICONTROL UUID]s of which qualify for both traits.
-Using the formula above, this will result in: 25,000 / 1,975,000 = 0.012. This is a low [!UICONTROL Trait Similarity Score], the two traits are very dissimilar.
+2 つの特性 A、B があると仮定して、それぞれの特性に 1,000,000 個の [!UICONTROL UUID] の母集団があり、そのうち 25,000 個の [!UICONTROL UUID] が両方の特性の対象として認定できるとします。
+上記の数式を使用すると、この結果は 25,000/1,975,000=0.012 になります。この[!UICONTROL Trait Similarity Score]は低いため、2 つの特性の類似性は非常に低くなります。
 
 ![](assets/Trait-Recommendations-Low-overlap.png)
 
-### 例2-特徴の類似性スコア
+### 例 2 - 特性類似性スコア
 
-If the same traits A and B had 400,000 [!UICONTRL UUID]s that qualify for both traits, the [!UICONTROL Trait Similarity Score] is much higher:
+同じ特性 A と B で、400,000 個の [!UICONTRL UUID] が両方の特性の対象として認定できる場合、[!UICONTROL Trait Similarity Score]は、次のようにはるかに高くなります。
 400,000 / 1,600,000 = 0.25
 
 ![](assets/Trait-Recommendations-High-overlap.png)
 
 ### 特性類似性スコアの解釈の方法
 
-以下の表を、特性類似性についての大まかなガイドとして使用してください。このガイドは、ほとんどの特性にわたって観察される類似性スコアに基づいています。
+以下の表を、特性類似性についての大まかなガイドとして使用してください。このガイドは、大部分の特性で確認された類似性スコアに基づいています。
 
 | [!UICONTROL Trait Similarity Score] | 有意性 |
 ---------|----------|
@@ -150,9 +149,9 @@ If the same traits A and B had 400,000 [!UICONTRL UUID]s that qualify for both t
 
 ## ロールベースのアクセス制御（RBAC）
 
-For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), you need to have permission to create and edit segments in order to see recommended traits. And, the recommended traits you see are only the ones from data sources that you have access to via [!UICONTROL RBAC]. [!UICONTROL RBAC] コントロール [について](../administration/administration-overview.md)詳しくは、こちらを参照してください。
+[!UICONTROL Role-Based Access Controls]（[!UICONTROL RBAC]）を使用する企業では、推奨特性を表示するために、セグメントを作成および編集する権限が必要です。また、表示される推奨特性は、[!UICONTROL RBAC] を介してアクセスできるデータソースの特性に限られます。[!UICONTROL RBAC] 制御について詳しくは、[こちら](../administration/administration-overview.md)を参照してください。
 
 ## 制限事項
 
 * 現在、Audience Manager では、推奨特性としてフォルダー特性は表示されません。フォルダー特性について詳しくは、[こちら](../traits/manage-folder-traits.md)を参照してください。
-* When displaying Trait Recommendations, Audience Manager does not take into account [!DNL Boolean] operators ([!DNL AND], [!DNL OR], [!DNL NOT]) in segment rules.
+* Audience Manager は、特性レコメンデーションを表示するときにセグメントルール内の [!DNL Boolean] 演算子（[!DNL AND]、[!DNL OR]、[!DNL NOT]）を考慮に入れません。
