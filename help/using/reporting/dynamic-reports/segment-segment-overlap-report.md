@@ -1,11 +1,11 @@
 ---
-description: セグメント間で共有される個別ユーザーの数に関するデータを返します。
-seo-description: セグメント間で共有される個別ユーザーの数に関するデータを返します。
+description: セグメント間で共有される個別ユーザー数に関するデータを返します。
+seo-description: セグメント間で共有される個別ユーザー数に関するデータを返します。
 seo-title: セグメント間重複レポート
 solution: Audience Manager
 title: セグメント間重複レポート
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 339d5550b22949862415d2abc812217e5479c993
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 339d5550b22949862415d2abc812217e5479c993
 
 # セグメント間重複レポート{#segment-to-segment-overlap-report}
 
-セグメント間で共有される個別ユーザーの数に関するデータを返します。
+セグメント間で共有される個別ユーザー数に関するデータを返します。
 
 >[!NOTE]
 >
->Audience Managerの重複レポートは、RBACの原則に従います。You can only see segments from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Audience Manager の重複レポートは、RBAC の原則に従います。自分が属している [RBAC ユーザーグループ](/help/using/features/administration/administration-overview.md) に基づき、自分がアクセスできるデータソースのセグメントのみを確認できます。
 
 <!-- 
 
@@ -27,18 +27,18 @@ c_segment_segment_overlap.xml
 
 ## 概要
 
-[!UICONTROL Segment-to-Segment Overlap] このレポートは、次の場合に役立ちます。
+[!UICONTROL Segment-to-Segment Overlap] レポートは、次の場合に役立ちます。
 
 * ニーズに応じて、重複の多いまたは少ないセグメントを特定する。重複の多い特性は、ターゲット設定されたオーディエンスを提供しますが、個別訪問者は少なくなります。重複の少ない特性は、より多数の個別訪問者にリーチするうえで役に立つ可能性があります。
 * 予期しない重複を検出し、その情報を使用してパフォーマンスの高いセグメントを新しく作成する。
 
 ## レポートのサンプル
 
-The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Segment Overlap] report.
+次の図は、[!UICONTROL Segment-to-Segment Overlap]レポートの概要を示しています。
 
 >[!NOTE]
 >
->[!UICONTROL Segment-to-Segment Overlap] このレポートでは、同じセグメントをそのセグメント自体と比較すると、空のフィールドが返されます。
+>[!UICONTROL Segment-to-Segment Overlap]レポートは、同じセグメント同士を比較すると、空のフィールドを返します。
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -54,7 +54,7 @@ r_s2s_data_pop.xml
 
  -->
 
-[!UICONTROL Segment-to-Segment Overlap] レポートのポップアップには以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
+[!UICONTROL Segment-to-Segment Overlap]レポートのポップアップには、以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
 
 | 指標 | 説明 |
 |---|---|
@@ -62,7 +62,7 @@ r_s2s_data_pop.xml
 | **[!UICONTROL Segment ID2]** | レポートの実行時に選択したセグメントの、一意の数値 ID。セグメントの列 ID として表示されます。 |
 | **[!UICONTROL Segment Name1]** | レポート結果行に表示されるセグメントの名前。 |
 | **[!UICONTROL Segment Name2]** | レポートの実行時に選択したセグメントの名前。レポート結果列に表示されます。 |
-| **[!UICONTROL Overlap %]** | 重複率を取得するために、Audience Managerは次の数式を使用します。重複する個別/（ベースセグメント個別、重なっているセグメント個別、重複する個別のセグメント） |
+| **[!UICONTROL Overlap %]** | 重複率（％）を取得するために、Audience Manager は次の数式を使用します：重複している個別訪問者数 別 / (ベースとなるセグメントの個別訪問者数 + 重複セグメントの個別訪問者数 - 重複している個別訪問者数) |
 | **[!UICONTROL Overlap Uniques]** | 比較対象のセグメント間で共有されている個別訪問者の数。 |
 | **[!UICONTROL Segment Uniques1]** | セグメント 1 の個別訪問者の数。 |
 | **[!UICONTROL Segment Uniques2]** | セグメント 2 の個別訪問者の数。 |
