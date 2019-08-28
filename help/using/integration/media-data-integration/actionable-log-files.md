@@ -6,7 +6,7 @@ seo-title: 実用的なログファイル
 solution: Audience Manager
 title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -14,29 +14,29 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 実用的なログファイル {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] では、ログファイルから [!DNL Google DCM] メディアデータをキャプチャし、データを使用してAudience Managerで特性を作成できます。ピクセル呼び出しを使用することなく、インプレッション、クリック数およびコンバージョンを特徴として広告サーバーから取得できるようになります。
+[!UICONTROL Actionable Log Files]を使用すると、[!DNL Google DCM] ログファイルからメディアデータをキャプチャし、Audience Manager でそのデータを使用して特性を作成することができます。ピクセル呼び出しを使用することなく、インプレッション、クリック数およびコンバージョンを特徴として広告サーバーから取得できるようになります。
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`斜体 **、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
 
 ## 目的 {#purpose}
 
-[!UICONTROL Actionable Log Files] 広告サーバーからのインプレッション、クリック、コンバージョンのキャプチャを合理化できます。[!DNL Audience Manager] にキャンペーン属性を送信するために手動でメディアピクセルを埋め込むことなく、この情報をユーザーのセグメント化に使用できます。
+[!UICONTROL Actionable Log Files]により、インプレッション数、クリック数およびコンバージョン数を広告サーバーから効率的に取得できます。[!DNL Audience Manager] にキャンペーン属性を送信するために手動でメディアピクセルを埋め込むことなく、この情報をユーザーのセグメント化に使用できます。
 
 ## はじめに {#getting-started}
 
-[!UICONTROL Actionable Log Files][オーディエンスの最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)を使用するには、DCMログデータをインポートする必要 [!DNL Audience Manager]があります。[DCM データファイルを Audience Manager にインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の[!DNL Audience Manager] コンサルタントにお問い合わせください。
+[!UICONTROL Actionable Log Files]および [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)の使用を開始するには、DCM ログデータを [!DNL Audience Manager] に読み込む必要があります。[DCM データファイルを Audience Manager にインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
 
-If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
+既に [!UICONTROL DCM] ログデータを [!DNL Audience Manager] に読み込んでいる場合、ログデータをインポートしている場合は、担当の [!DNL Audience Manager] コンサルタントにお問い合わせいただくか、[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)に連絡し、[!UICONTROL Actionable Log Files]を有効化してもらってください。
 
 >[!NOTE] {importance="high"}
 >
->[!UICONTROL Actionable Log Files] はログファイルで [!DNL Google DCM] のみ使用できます。
+>[!UICONTROL Actionable Log Files] は、[!DNL Google DCM] ログファイルでのみ使用できます。
 
 ## 実用的なログファイルの使用 {#working-with-actionable-log-files}
 
-With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager][!DNL Google Cloud][!DNL DCM] と ストレージを接続して ログの情報を解析し、ログデータを実用的なシグナルとしてアドビの[データ収集サーバー](../../reference/system-components/components-data-collection.md#dcs-pcs)に送信します。
+[!UICONTROL Actionable Log Files]を使用すると、Web サイトでのリアルタイムなインタラクションの場合と同じ方法で [!DNL DCM] ログの情報を [!DNL Audience Manager] に取り込むことができます。[!DNL Audience Manager]は、[!DNL Google Cloud] ストレージと接続し、[!DNL DCM] ログの情報を解析し、ログデータを実用的なシグナルとしてアドビの[データ収集サーバー](../../reference/system-components/components-data-collection.md#dcs-pcs)に送信します。
 
 実用的なシグナルを取得するためには、ルールベースの特性を設定する必要があります。[Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) または[一括管理ツール](../../reference/bulk-management-tools/bulk-create.md)のいずれかを使用して、ルールベースの特性を設定する方法を参照してください。ルールベースの特性で使用できるすべてのキーのリストを参照するには、[実用的なシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
 
@@ -44,11 +44,11 @@ With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is 
 
 >[!IMPORTANT] {importance="high"}
 >
->We recommend implementing [!UICONTROL Actionable Log Files] *instead of*  [Pixel Calls](../../integration/media-data-integration/impression-data-pixels.md). 両方のオプションを使用することは、特性の頻度が多くカウントされるため推奨されません。
+>[ピクセル呼び出し](../../integration/media-data-integration/impression-data-pixels.md)の&#x200B;*代わりに* [!UICONTROL Actionable Log Files] を実装することを強くお勧めします。両方のオプションを使用することは、特性の頻度が多くカウントされるため推奨されません。
 
 ## 実用的なシグナル {#actionable-signals}
 
-シグナルは、[!DNL Audience Manager] の[最小データ単位](../../reference/signal-trait-segment.md)です。[!UICONTROL Actionable Log Files] インプレッションイベント、クリックイベント、インプレッションイベントの広告主、ビジネスユニット、クリエイティブおよびキャンペーンの各値を、ログから [!DNL DCM] のシグナルとして取り込むことができます。
+シグナルは、[!DNL Audience Manager] の[最小データ単位](../../reference/signal-trait-segment.md)です。[!UICONTROL Actionable Log Files]を使用することで、[!DNL DCM] ログのシグナルとして、インプレッションイベント、クリックイベント、およびコンバージョンイベントにおける広告主、ビジネスユニット、クリエイティブ、およびキャンペーン値を取得できます。
 
 この情報をオーディエンスの作成およびセグメント化に使用する場合、自分でルールベースの特性を設定する必要があることに注意してください。この表は、[!DNL DCM] ログファイルから取得される実用的なシグナルの一覧です。
 
@@ -93,7 +93,7 @@ With [!UICONTROL Actionable Log Files], the information from [!DNL DCM] logs is 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
-   <td colname="col2"> <p>ビジネスユニット ID。このフィールドは、DCM の広告主 ID にマッピングされます。 </p> </td> 
+   <td colname="col2"> <p>事業部門 ID。このフィールドは、DCM の広告主 ID にマッピングされます。 </p> </td> 
    <td colname="col3"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
@@ -122,48 +122,48 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 
 >[!NOTE] {importance="high"}
 >
->[!DNL DCM] ログに指定されているイベントタイムスタンプが使用され [!UICONTROL Data Collection Servers]、渡されます。
+>[!DNL DCM] ログによって提供されるイベントタイムスタンプは保持され、[!UICONTROL Data Collection Servers]に渡されます。
 >
->* If a timestamp isn't available for a data row in the [!DNL DCM] log file, we use the time of the `HTTP` call as the event timestamp.
+>* [!DNL DCM] ログファイルのデータ行からタイムスタンプが取得できなかった場合、イベントタイムスタンプとして `HTTP` 呼び出しの時刻を使用します。
 >* [!DNL DCM] ログファイルのデータ行のタイムスタンプの形式が正しくない場合、その行全体が無視されます。
 
 
 ## ユースケース {#use-cases}
 
-One benefit of implementing [!UICONTROL Actionable Log Files] is the option to apply [recency and frequency](../../features/segments/recency-and-frequency.md) controls to any [rule-based traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) that contain actionable signals. これによって、例えば、メディアキャンペーン内で特定のクリエイティブがあるユーザーに対して表示される回数を制限するフリークエンシーキャップを有効にできます。他にも以下のようなユースケースがあります。
+[!UICONTROL Actionable Log Files]を実装するメリットの 1 つは、実用的なシグナルを含んだあらゆる[ルールベースの特性](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)に[最新性と頻度](../../features/segments/recency-and-frequency.md)の制御を適用できることです。これによって、例えば、メディアキャンペーン内で特定のクリエイティブがあるユーザーに対して表示される回数を制限するフリークエンシーキャップを有効にできます。他にも以下のようなユースケースがあります。
 
 ### ユーザーの再ターゲット化
 
 クリエイティブ 123 が表示されたもののクリックまたはコンバージョンが発生しなかったユーザーを再ターゲットし、クリエイティブ 456 を表示するには、以下の手順に従います。
 
-1. クリエイティブが表示されたユーザーを取得する特性を作成します。Let's say you name the trait [!DNL Creative Trait 123]. 次の特性ルールを使用します。
+1. クリエイティブが表示されたユーザーを取得する特性を作成します。例えば、特性の名前を [!DNL Creative Trait 123] としたとします。次の特性ルールを使用します。
 
    `d_creative == 123 AND d_event == imp`
 
-1. クリックまたはコンバージョンをおこなうユーザーを取得する特性を作成します。[!DNL Click and Converter]ここに名前を付けるとします。次の特性ルールを使用します。
+1. クリックまたはコンバージョンをおこなうユーザーを取得する特性を作成します。例えば、この特性の名前を [!DNL Click and Converter] としたとします。次の特性ルールを使用します。
 
    `d_event == click OR d_event=conv`
 
-1. クリエイティブ 123 が表示されたものの、クリックまたはコンバージョンが発生しなかったユーザーを割り当てるセグメントを作成します。Name it [!DNL Retarget Users] and use the segment rule:
+1. クリエイティブ 123 が表示されたものの、クリックまたはコンバージョンが発生しなかったユーザーを割り当てるセグメントを作成します。そのセグメントの名前を [!DNL Retarget Users] とし、次のセグメントルールを使用します。
 
    `Creative Trait 123 AND NOT Click and Converter`
 
-1. Map the segment [!DNL Retarget Users] to a destination and target users in the destination with creative 456.
+1. セグメント [!DNL Retarget Users] を宛先にマッピングし、クリエイティブ 456 を使用して宛先のユーザーをターゲット化します。
 
-### オーディエンスの最適化レポートまたはオーディエンスラボで DCM フラッドライトアクティビティを使用
+### Audience Optimization レポートまたは Audience Lab で DCM フラッドライトアクティビティを使用
 
-[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=en)を使用することで、広告主はユーザーのコンバージョンを追跡できます。With [!UICONTROL Actionable Log Files], you can track the [!DNL DCM] conversions in the [Audience Optimization Reports](../../reporting/audience-optimization-reports/audience-optimization-reports.md) or in [Audience Lab](../../features/audience-lab/audience-lab.md):
+[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=jp)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[!DNL DCM]Audience Optimization レポート[または](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audience Lab[ で ](../../features/audience-lab/audience-lab.md) コンバージョンを追跡できます。
 
 1. 特性を作成し、広告サーバーログからコンバージョンを取得する次の特性ルールを使用します。
 
    `d_event == conv AND d_conversion == 123`
 
-   When creating the trait in the Audience Manager [!UICONTROL UI], select [!UICONTROL Conversion] as the [!UICONTROL Event Type].
+   Audience Manager [!UICONTROL UI]で特性を作成する場合は、[!UICONTROL Event Type]として[!UICONTROL Conversion]を選択します。
 
-2. Once you have created the trait, the conversion will begin to be reported against in the [!UICONTROL Audience Optimization Reports] and in [!UICONTROL Audience Lab].
+2. 特性の作成後、[!UICONTROL Audience Optimization Reports]および[!UICONTROL Audience Lab]でコンバージョンのレポートが開始されます。
 
 >[!MORE_LIKE_THIS]
 >
 >* [DCM データファイルを Audience Manager にインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [オーディエンスの最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+>* [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
