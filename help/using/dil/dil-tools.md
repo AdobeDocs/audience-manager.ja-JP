@@ -1,11 +1,11 @@
 ---
-description: DIL.tools 名前空間のメソッドについて説明します。これらのユーティリティ関数は、特定のタスクを実行するのに役立ちます。
-seo-description: DIL.tools 名前空間のメソッドについて説明します。これらのユーティリティ関数は、特定のタスクを実行するのに役立ちます。
+description: DIL ツール名前空間のメソッドについて説明します。これらのユーティリティ関数は、特定のタスクを実行するのに役立ちます。
+seo-description: DIL ツール名前空間のメソッドについて説明します。これらのユーティリティ関数は、特定のタスクを実行するのに役立ちます。
 seo-title: DIL ツール
 solution: Audience Manager
 title: DIL ツール
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
 
 ---
@@ -44,7 +44,7 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
 `getSearchReferrer` では次のパラメーターを使用します。
 
 * *`{string}`*：*（オプション）*&#x200B;検索 URL を含む文字列（定義されていない場合は `document.referrer` が使用されます）。
-* *`{object}`*: *（オプション）* 「 `hostPattern`」 `queryParam`、 `queryPattern`または"."の設定を含むオブジェクト。
+* *`{object}`*：*（オプション）*`hostPattern`、`queryParam` または `queryPattern` の設定が格納されたオブジェクト。
 
 また、次のものを返します。
 
@@ -65,7 +65,7 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
    <td> デフォルトの検索</td> 
    <td> AOL、Ask、Bing、Google および Yahoo の各検索エンジンが使用する検索語句を返します。 </td> 
    <td>
-      <code>var&amp; amp;nbsp;results&amp; amp;nbsp;= amp;nbsp;DIL. tools. getSearchReferrer（）;</code> 
+      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -97,8 +97,7 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
    <td> 
     <code>
       var results = 
-      DIL.tools.getSearchReferrer("https://www.ehow.com/
-search.aspx?q=adobe+rules,{ 
+      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,{ 
    hostPattern:/ehow\./, 
            search_pattern:/[&amp;\?]p=([^&amp;]+/ 
       });
@@ -170,11 +169,14 @@ r_dil_get_metatags.xml
 
 ### サンプルコード
 
-<pre class="&ldquo;javascript&rdquo;"><code>var dataB= DIL. create（{
-パートナー:<i>'PartnerName'</i>、
-containerNSID: <i>containerNSID</i> }）;
-DataB. api. notifications（DIL. tools. getMetaTags（'<i>application</i>'，'<i>keywords</i>'，'<i>description</i>'），'c_'）. submit（）;</code>
-</pre>
+<pre class="&ldquo;javascript&rdquo;"><code>
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName'</i>, 
+     containerNSID: <i>containerNSID</i> 
+}); 
+
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
+</code></pre>
 
 <pre><code>
 var dataLib = DIL.create({ 
