@@ -5,15 +5,15 @@ seo-title: アクティブオーディエンス特性とデータソース同期
 solution: Audience Manager
 title: アクティブオーディエンス特性とデータソース同期特性
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Active Audience 特性と Data Source Synced 特性 {#active-audience-traits-and-data-source-synced-traits}
+# アクティブオーディエンス特性とデータソース同期特性 {#active-audience-traits-and-data-source-synced-traits}
 
-These are special traits used by [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience][!UICONTROL Data Source Synced Traits][!UICONTROL Audience Data > Traits > Audience Traits]に配置されています。
+これらは、[!UICONTROL Addressable Audiences]で使用される特別な特性です。[!UICONTROL Active Audience] と [!UICONTROL Data Source Synced Traits] は [!UICONTROL Audience Data > Traits > Audience Traits] にあります。
 
 >[!NOTE]
 >
@@ -21,15 +21,15 @@ These are special traits used by [!UICONTROL Addressable Audiences]. [!UICONTROL
 
 ## アクティブオーディエンス特性 {#active-audience-traits}
 
-[!UICONTROL Active Audience] 特性には [!DNL Audience Manager] 、アカウント内の管理下のすべてのデバイスが含まれています。You can use an [!UICONTROL Active Audience Trait] like other traits when you build or edit segments. [また、アドレス可能なオーディエンス](../../features/addressable-audiences.md) では、この特性によって重複データが生成されます。All accounts have an [!UICONTROL Active Audience] trait by default. この特性は削除できません。
+[!UICONTROL Active Audience]特性には、[!DNL Audience Manager] アカウントで管理下にあるすべてのデバイスが含まれています。セグメントの作成または編集時に、[!UICONTROL Active Audience Trait]特性を他の特性と同じように使用できます。また、[アドレス可能なオーディエンス](../../features/addressable-audiences.md)では、重複データの生成にこの特性が必要です。すべてのアカウントには、デフォルトで[!UICONTROL Active Audience]特性があります。この特性は削除できません。
 
 ## データソース同期特性 {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] データソースを [!UICONTROL Audience Traits][作成または編集し、次のいずれかの設定を適用](../../features/manage-datasources.md#create-data-source) すると、フォルダーに表示されます。
+[!UICONTROL Data Source Synced Traits]は、[データソースを作成または編集](../../features/manage-datasources.md#create-data-source)し、以下のいずれかの設定を適用すると、[!UICONTROL Audience Traits] フォルダー内に表示されます。
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] データソースに関連付けられているすべてのユーザーを追跡します。You can use a [!UICONTROL Data Source Synched Trait] like other traits when you build or edit segments. When you create a [!UICONTROL Data Source Synced Trait], the trait name matches the name used by your data source. データソースを編集すると、特性名が変更されます。この特性は削除できません。
+[!UICONTROL Data Source Synced Traits] は、データソースと関連付けられているすべてのユーザーを追跡します。セグメントの作成または編集時に、[!UICONTROL Data Source Synched Trait]を他の特性と同じように使用できます。[!UICONTROL Data Source Synced Trait]を作成すると、その特性名は、データソースで使用されている名前に一致します。データソースを編集すると、特性名が変更されます。この特性は削除できません。
 
 >[!TIP]
 >
