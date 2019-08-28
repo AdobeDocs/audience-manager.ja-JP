@@ -1,11 +1,11 @@
 ---
 description: インバウンドのサーバー間ファイルが処理されるたびに、パートナーソリューションに対してレシートが電子メールで送信されます。また、設定によってはパートナーにも送信されます。
 seo-description: インバウンドのサーバー間ファイルが処理されるたびに、パートナーソリューションに対してレシートが電子メールで送信されます。また、設定によってはパートナーにも送信されます。
-seo-title: 受信処理後のパートナー向けメッセージのサンプル
+seo-title: 受信処理後パートナーに送信されるメッセージの例
 solution: Audience Manager
-title: 受信処理後のパートナー向けメッセージのサンプル
+title: 受信処理後パートナーに送信されるメッセージの例
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 
 # 受信処理後パートナーに送信されるメッセージの例{#sample-message-to-partners-after-inbound-processing}
 
-Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner.
+インバウンドの [!UICONTROL Server-to-Server] ファイルが処理されるたびに、パートナーソリューションに対してレシートが電子メールで送信されます。また、設定によってはパートナーにも送信されます。
 
 <!-- r_inbound_message.xml -->
 
