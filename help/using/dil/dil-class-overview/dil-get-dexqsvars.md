@@ -5,7 +5,7 @@ seo-title: dexGetQSVars
 solution: Audience Manager
 title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
 
 ---
@@ -37,5 +37,6 @@ r_dil_get_dexqsvars.xml
 
 **サンプルコード**
 
-<pre class="java"><code>var value= DIL. dextGetQSVs（'<i>variableName</i>'，'<i>PartnerName</i>'，<i>containerNSID</i>）;</code>
-</pre>
+<pre class="java"><code>
+var value = DIL.dexGetQSVars('<i>variableName</i>','<i>partnerName</i>',<i>containerNSID</i>);
+</code></pre>
