@@ -5,15 +5,15 @@ seo-title: セグメント式エディターで使用するコード構文
 solution: Audience Manager
 title: セグメント式エディターで使用するコード構文
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Segment Expression Editor で使用されるコード構文 {#code-syntax-used-in-the-segment-expression-editor}
+# セグメント式エディターで使用するコード構文 {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] では、コードエディターを使用してセグメントの特性ルールを作成できます。Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.
+[!UICONTROL Segment Builder] では、コードエディターを使用して、セグメント用の特性ルールを作成できます。[!UICONTROL Traits] パネルの「**[!UICONTROL Segment Expressions (Code View)]**」タブをクリックすると、この機能にアクセスできます。
 
 ## 式ビルダーのコード構文
 
@@ -30,7 +30,7 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 ### ブール演算子でセグメントを結合
 
-To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a [!DNL Boolean] operator ([!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
+セグメントのグループを作成するには、FREQUENCY 関数を括弧で囲み、各式の&#x200B;*間*&#x200B;の関係を [!DNL Boolean] 演算子（[!UICONTROL OR]、[!UICONTROL AND]、[!UICONTROL NOT]）で設定します。
 
 ### パラメーター
 
@@ -47,7 +47,7 @@ To build groups of segments, wrap the frequency function in parenthesis and set 
 
 ### 使用可能な最新性演算子と頻度演算子
 
-[最新性と頻度](../../features/segments/recency-and-frequency.md)の間隔を、比較演算子と整数で設定します。[!UICONTROL Segment Builder] は、&lt;（より小さい）、&gt;（より大きい）、==（等しい）などの標準式を使用します。ただし、設定時に使用できる演算子の種類は最新性と頻度で異なります。次の表は、使用可能な最新性演算子と頻度演算子です。
+[最新性と頻度](../../features/segments/recency-and-frequency.md)の間隔を、比較演算子と整数で設定します。[!UICONTROL Segment Builder] では、&lt;（次より小さい）、&gt;（次より大きい）、==（次と等しい）などの標準的な式が使用されます。ただし、設定時に使用できる演算子の種類は最新性と頻度で異なります。次の表は、使用可能な最新性演算子と頻度演算子です。
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
@@ -77,6 +77,6 @@ To build groups of segments, wrap the frequency function in parenthesis and set 
 >
 >* [最新性と頻度](../../features/segments/recency-and-frequency.md)
 >* [特性およびセグメントビルダーのブール式](../../reference/boolean-expressions-tsb.md)
->* [特性ビルダーでの比較演算子の使](../../features/traits/trait-comparison-operators.md)
+>* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
 >* [特性ビルダーでの演算順序](../../features/traits/trait-operator-precedence.md)
 
