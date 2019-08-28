@@ -5,7 +5,7 @@ seo-title: データソース API メソッド
 solution: Audience Manager
 title: データソース API メソッド
 uuid: 92ab725d-6f0a-497b-8302-39a34dc58636
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # データソース API メソッド {#data-source-api-methods}
 
-[!DNL API]アカウントに関連付けられたデータソースを管理するための メソッド。
+アカウントに関連付けられたデータソースを管理するための [!DNL API] メソッド。
 
 <!-- c_rest_data_sources.xml -->
 
