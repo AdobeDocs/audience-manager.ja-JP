@@ -5,7 +5,7 @@ seo-title: 一時停止および削除されたセグメント
 solution: Audience Manager
 title: 一時停止および削除されたセグメント
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 一時停止および削除されたセグメント {#paused-and-deleted-segments}
 
-Describes the effects on segmented users, data, and destinations when you pause or delete an active segment using [!UICONTROL Segment Builder].
+[!UICONTROL Segment Builder] を使用してアクティブなセグメントを一時停止または削除した場合の、セグメント化されたユーザー、データおよび宛先に対する影響について説明します。
 
 ## 一時停止および削除コントロールへのアクセス
 
-Hover over a segment name in the segments list to expose the **[!UICONTROL pause]** and **[!UICONTROL delete]** icons (in the [!UICONTROL Actions] column). これらの機能は、前述のように、セグメントに影響します。
+セグメントリストでセグメント名の上にマウスポインターを置くと、**[!UICONTROL pause]** および **[!UICONTROL delete]** アイコンが（[!UICONTROL Actions] 列に）表示されます。これらの機能は、前述のように、セグメントに影響します。
 
 ## 一時停止されたセグメントの機能
 
