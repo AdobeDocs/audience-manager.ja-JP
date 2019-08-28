@@ -1,6 +1,6 @@
 ---
 source-git-commit: 95f5059793809255a33e588237cf09fbed85e619
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # 貢献
@@ -11,7 +11,7 @@ translation-type: tm+mt
 
 ## 行動規範
 
-This project adheres to the Adobe [code of conduct](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md). プロジェクトに参加すると、この行動規範を順守することになります。容認できない行動については、SOMEEMAIL に報告してください。
+このプロジェクトは、アドビ[行動規範](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md)に従っています。プロジェクトに参加すると、この行動規範を順守することになります。容認できない行動については、SOMEEMAIL に報告してください。
 
 ## 貢献者使用許諾契約
 
@@ -19,4 +19,4 @@ This project adheres to the Adobe [code of conduct](https://git.corp.adobe.com/O
 
 ## コードレビュー
 
-提出はすべて、プル要求の形でおこなわれ、プロジェクトコミッタ-によってレビューされる必要があります。Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+提出はすべて、プル要求の形でおこなわれ、プロジェクトコミッタ-によってレビューされる必要があります。プル要求の送信について詳しくは、[GitHub のプル要求に関するドキュメント](https://help.github.com/articles/about-pull-requests/) を参照してください。
