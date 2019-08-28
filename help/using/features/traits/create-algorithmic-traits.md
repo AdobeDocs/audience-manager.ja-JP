@@ -5,7 +5,7 @@ seo-title: アルゴリズム特性の作成
 solution: Audience Manager
 title: アルゴリズム特性の作成
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -17,16 +17,14 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 アルゴリズム特性を作成するには、「[!UICONTROL Traits]」に移動して、以下の手順に従ってください。
 
-1. Click **[!UICONTROL Create New Trait]** and select **[!UICONTROL Algorithmic]** from the drop down menu.
+1. 「**[!UICONTROL Create New Trait]**」をクリックして、ドロップダウンメニューから「**[!UICONTROL Algorithmic]**」を選択します。
 1. 「[Basic Information](../../features/traits/create-onboarded-rule-based-traits.md)」セクションで、以下の操作をおこないます。
    * 特性の名前を設定します。
    * データソースを選択します。
    * 保存フォルダーを選択します。
-1. [!UICONTROL Configuration] ペインを展開して、をクリック **[!UICONTROL Browse All Models]**します。
-新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
-1. Select a model and click **[!UICONTROL Add Selected Model to Trait]**.
-モデルを追加すると、リーチと精度の設定が表示されます。
-1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。Click **[!UICONTROL Save]** when done.
+1. 「[!UICONTROL Configuration]」パネルを展開し、「**[!UICONTROL Browse All Models]**」をクリックします。新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
+1. モデルを選択して、「**[!UICONTROL Add Selected Model to Trait]**」をクリックします。モデルを追加すると、リーチと精度の設定が表示されます。
+1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。終了したら、「**[!UICONTROL Save]**」をクリックします。
 
 >[!MORE_LIKE_THIS]
 >
@@ -35,7 +33,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## アルゴリズム特性{#configure-settings}の設定 
 
-In [!UICONTROL Trait Builder], the [!UICONTROL Configuration] section lets you associate an algorithmic model to a trait. アルゴリズム特性の作成プロセスを完了するには、モデルを選択し、リーチまたは精度の目標を選びます。
+[!UICONTROL Trait Builder]の「[!UICONTROL Configuration]」セクションを使用すると、アルゴリズムモデルを特性に関連付けることができます。アルゴリズム特性の作成プロセスを完了するには、モデルを選択し、リーチまたは精度の目標を選びます。
 
 ### 前提条件
 
