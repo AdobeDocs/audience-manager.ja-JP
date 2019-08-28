@@ -5,7 +5,7 @@ seo-title: クラスレベルの DIL メソッド
 solution: Audience Manager
 title: クラスレベルの DIL メソッド
 uuid: 903a661f-8871-4402-b9d6-acae920276cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 ---
