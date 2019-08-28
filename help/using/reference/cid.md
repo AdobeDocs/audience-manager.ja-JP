@@ -1,11 +1,11 @@
 ---
 description: d_dpid および d_dpuuid の代わりに d_cid または d_cid_ic を使用するようにコードを更新します。DPID および DPUUID 変数は引き続き機能しますが、これらは既に廃止されています。DPID や DPUUID の、d_ プレフィックスが付かないバージョンも同様です。
 seo-description: d_dpid および d_dpuuid の代わりに d_cid または d_cid_ic を使用するようにコードを更新します。DPID および DPUUID 変数は引き続き機能しますが、これらは既に廃止されています。DPID や DPUUID の、d_ プレフィックスが付かないバージョンも同様です。
-seo-title: DPID と DPUUID に取って代わる CID
+seo-title: DPID と DPUUID に代わる CID
 solution: Audience Manager
-title: DPID と DPUUID に取って代わる CID
+title: DPID と DPUUID に代わる CID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 
 # DPID と DPUUID に代わる CID{#cid-replaces-dpid-and-dpuuid}
 
-Update your code to use `d_cid` or `d_cid_ic` instead of `d_dpid` and `d_dpuuid`. DPID および DPUUID 変数は引き続き機能しますが、これらは既に廃止されています。This includes DPID and DPUUID variants without the `d_ prefix`.
+`d_dpid` や `d_dpuuid` の代わりに `d_cid` または `d_cid_ic` を使用するようにコードを更新してください。DPID および DPUUID 変数は引き続き機能しますが、これらは既に廃止されています。DPID や DPUUID の、`d_ prefix`が付かないバージョンも同様です。
 
 ## DPID と DPUUID：復習 {#dpid-dpuuid-review}
 
-DPID と DPUUID は、データプロバイダー ID とユーザー ID で構成されるキー値ペアです。これらのキー値ペアは、プロバイダー ID をユーザー ID にリンクするためのものです。これらはイベント呼び出し、受信同期イベント、ID 呼び出しの場合にデータの一部として送信されます。これらがなければ、[!DNL Audience Manager] などのサービスや機能は、ID を照合し同期させる方法がありません。これらの変数には、以下のように、`d_` 接頭辞が付く場合も付かない場合もあります。なお、コードの&#x200B;*斜体*&#x200B;の部分には実際の情報が入ります。
+DPID と DPUUID は、データプロバイダー ID とユーザー ID で構成されるキー値ペアです。これらのキー値ペアは、プロバイダー ID をユーザー ID にリンクするためのものです。これらはイベント呼び出し、受信同期イベント、ID 呼び出しの場合にデータの一部として送信されます。これらがなければ、[!DNL Audience Manager] などのサービスや機能は、ID を照合し同期させる方法がありません。これらの変数には、以下のように、`d_` プレフィックスが付く場合も付かない場合もあります。なお、コードの&#x200B;*斜体*&#x200B;の部分には実際の情報が入ります。
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -48,7 +48,7 @@ DPID と DPUUID は、データプロバイダー ID とユーザー ID で構�
 
 これらのキー値ペアはまだ機能しますが、廃止されています。代わりに CID または CID_IC を使用するようにコードを更新してください。
 
-## CID と CID_IC：概要 {#cid-cidic-about}
+## CID と CID_IC：概要{#cid-cidic-about}
 
 CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるものです。これらは DPID や DPUUID と同じ機能を提供しますが、データプロバイダー ID（または統合コード）とユーザー ID が 1 つのキー値ペアに含まれているので、より効率的です。それぞれのキー値ペアでは、以下がおこなわれます。
 
@@ -67,11 +67,11 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
  <tbody> 
   <tr> 
    <td colname="col1"> <p>顧客 ID（CID） </p> </td> 
-   <td colname="col2"> <p> <code>d_cid = <i> data provider ID </i> %01 <i> user ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_cid =<i> data provider ID</i>%01<i> user ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客 ID 統合コード（CID_IC） </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic = <i> integration code </i> %01 <i> user ID</i></code> </p> <p> <span class="term"> integration code</span> は、データソース ID の代わりに使用できる代替 ID で、<span class="keyword">Audience Manager</span> によって割り当てられます。統合コードを設定する必要がある場合は、<a href="../features/manage-datasources.md#create-data-source">データソースの作成</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> <span class="term"> integration code</span> は、データソース ID の代わりに使用できる代替 ID で、<span class="keyword">Audience Manager</span> によって割り当てられます。統合コードを設定する必要がある場合は、<a href="../features/manage-datasources.md#create-data-source">データソースの作成</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
