@@ -1,11 +1,11 @@
 ---
 description: データファイルを Audience Manager に送信する際に、オプションとして、データファイルを圧縮することができます。
 seo-description: データファイルを Audience Manager に送信する際に、オプションとして、データファイルを圧縮することができます。
-seo-title: インバウンドのデータ転送ファイルにおけるファイルの圧縮
+seo-title: 受信データ転送ファイルのファイル圧縮
 solution: Audience Manager
-title: インバウンドのデータ転送ファイルにおけるファイルの圧縮
+title: 受信データ転送ファイルのファイル圧縮
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -23,7 +23,7 @@ Audience Manager では、インバウンドの非同期データ転送に対し
 
 >[!IMPORTANT]
 >
->現在、同じインバウンドのデータファイルに対する暗号化および圧縮はサポートされていません。インバウンドファイルに対して、[暗号化](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)または圧縮のいずれかを選択できます。
+>現在、同じ受信データファイルに対する暗号化と圧縮はサポートされていません。受信ファイルの[暗号化](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)または圧縮のいずれかを選択できます。
 
 ## Amazon S3 における圧縮
 
@@ -31,11 +31,11 @@ Audience Manager では、インバウンドの非同期データ転送に対し
 
 >[!IMPORTANT]
 >
->圧縮ファイルまたは暗号化ファイルを転送する場合、[!DNL FTP] クライアントではバイナリモードを使用する必要があります。Compressed or encrypted files sent in [!DNL ASCII] mode will corrupt the data transfer file.
+>圧縮ファイルまたは暗号化ファイルを転送する場合、[!DNL FTP] クライアントではバイナリモードを使用する必要があります。圧縮ファイルまたは暗号化ファイルを [!DNL ASCII] モードで送信した場合、データ転送ファイルが破損します。
 
 ## ベストプラクティス
 
-* Files should be [!DNL .gzip] compressed (and have a [!DNL .gz] file extension.)
+* ファイルは [!DNL .gzip] 形式で圧縮します（また、ファイルの拡張子を [!DNL .gz] とします）。
 * `.gz` 形式の圧縮ファイルの最大サイズは 1 GB です。
 * ファイルを最速で処理するために最適な分割サイズは、非圧縮の場合はおよそ 1 GB、圧縮の場合は 200～300 MB です。
 * [!DNL Amazon S3] では、アップロードファイルに対して独自に 5 GB のサイズ制限が課されています。
