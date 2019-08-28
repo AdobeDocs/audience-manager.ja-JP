@@ -5,13 +5,13 @@ seo-title: 送信データファイル名：構文と例
 solution: Audience Manager
 title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# アウトバウンドデータファイル名：構文と例{#outbound-data-file-name-syntax-and-examples}
+# 送信データファイル名：構文と例{#outbound-data-file-name-syntax-and-examples}
 
 送信データファイルの名前に使用される必須フィールド、構文および規則について説明します。
 
@@ -19,7 +19,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!NOTE]
 >
->このドキュメントでは、`monospaced text`、*イタリック*、かっこ（`[ ]` `( )`, etc.) コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>このドキュメントでは、`monospaced text`、*斜体*、括弧（`[ ]``( )`など）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## 構文およびファイル名要素 {#syntax-file-name}
 
@@ -46,7 +46,7 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
    <td colname="col2"> <p>データ転送方法を参照します。転送方法には以下が含まれます。 </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - SFTP を使用した転送 </li> 
-     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"></span> Amazon S3 - Amazon AWS への転送 <span class="keyword"></span> </li> 
+     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3</span> - <span class="keyword">Amazon AWS</span> への転送 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -57,8 +57,8 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
    <td colname="col1"> <p> <code><i>MASTER-DPID </i></code> </p> </td> 
    <td colname="col2"> <p>データプロバイダーまたはデータソース ID。この ID は、ファイルコンテンツに存在するユーザー ID のタイプを識別します。最も一般的なユーザー ID キーを次に示します。 </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
-      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword">Google 広告主 ID</span>（生、非ハッシュ化） </li> 
-      <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword">広告主用 Apple ID</span>（生、非ハッシュ化） </li> 
+      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword">Google 広告主 ID</span>（raw、ハッシュ化されていない） </li> 
+      <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword">広告主用 Apple ID</span>（raw、ハッシュ化されていない） </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ベンダー ID - サードパーティユーザー ID（Web／Cookie） </li> 
      </ul> </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
 
 ### シナリオ 2
 
-[!DNL FTP] ファイルコンテンツの有無 *`PID-ALIAS`* にかかわらず、場所に対して [!DNL Apple Advertiser IDs] 送信されるファイル:
+[!DNL FTP] の場所に送信されたファイルで、*`PID-ALIAS`* がなく、ファイルコンテンツに [!DNL Apple Advertiser IDs] をふくむもの：
 
 例：増分ファイル：
 
@@ -128,7 +128,7 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
  <li> <code> ftp_1234_20915_full_1486140843000-1.sync.gz </code> </li> 
 </ul>
 
-**シナリオ 3**：[!DNL FTP] ファイルcontent（ *`PID-ALIAS="XYZCustomer"`**`Vendor ID=45454`*）内のサードパーティユーザーIDと共に、次の場所に送信されるファイル。
+**シナリオ 3**：[!DNL FTP] の場所に送信されたファイルで、*`PID-ALIAS="XYZCustomer"`* であり、かつファイルコンテンツにサードパーーティユーザー ID（*`Vendor ID=45454`*）を含むもの。
 
 例：増分ファイル：
 
@@ -145,7 +145,7 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200-1.sync.gz </code> </li> 
 </ul>
 
-## アウトバウンドデータファイルコンテンツ：構文とパラメーター {#outbound-contents-syntax}
+## 送信データファイルコンテンツ：構文とパラメーター {#outbound-contents-syntax}
 
 送信データファイルの情報を編成するのに使用する必須フィールド、構文、規則について説明します。これらの仕様に従って、データの形式を設定します。
 
@@ -153,7 +153,7 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
 
 >[!NOTE]
 >
->The style elements (`monospaced text`, *italics*, brackets `[ ]` `( )`, etc.) コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>スタイル要件（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、など）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ### 構文
 
@@ -187,14 +187,14 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>ユーザーが対象外だったセグメントの ID。複数のセグメントをコンマで区切ります。完全同期を使用すると、データファイルにはユーザーの現在のセグメントの完全なリストが含まれるので、削除されたセグメントを無視できます。通常、ユーザーが削除されたセグメントではなく、ユーザーが属するセグメントを知る必要があります。詳しくは、<a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> 送信データファイル名：構文と例 </a>. </p> </td> 
+   <td colname="col2"> <p>ユーザーが対象外だったセグメントの ID。複数のセグメントをコンマで区切ります。完全同期を使用すると、データファイルにはユーザーの現在のセグメントの完全なリストが含まれるので、削除されたセグメントを無視できます。通常、ユーザーが削除されたセグメントではなく、ユーザーが属するセグメントを知る必要があります。詳しくは、<a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples">送信データファイル名：構文と例 </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 例：基本的なファイル形式
 
-適切な形式のデータファイルは次のサンプルのようになります。このファイルエントリは、セグメント 24、26 および 27 の対象となるユーザーを示します。As required, a space separates the `UUID` and segment IDs. もう 1 つのスペースで、セグメント ID のセットを区切ります。この例では、ユーザーは、セグメント 24、26 および 27 に属します。セグメント 25 および 28 からは削除されています。
+適切な形式のデータファイルは次のサンプルのようになります。このファイルエントリは、セグメント 24、26 および 27 の対象となるユーザーを示します。必要に応じて、スペースで `UUID` とセグメント ID を区切ります。もう 1 つのスペースで、セグメント ID のセットを区切ります。この例では、ユーザーは、セグメント 24、26 および 27 に属します。セグメント 25 および 28 からは削除されています。
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28
