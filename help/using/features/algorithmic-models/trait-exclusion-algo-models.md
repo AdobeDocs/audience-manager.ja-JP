@@ -4,27 +4,27 @@ seo-description: 特性の除外を使用すると、モデリングワークフ
 seo-title: アルゴリズムモデル  特性の除外
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 ---
 
 
-# アルゴリズムモデル：特性の除外 {#algorithmic-models-trait-exclusion}
+# アルゴリズムモデル：特性の除外{#algorithmic-models-trait-exclusion}
 
-[!UICONTROL Trait Exclusion] には、モデリングワークフローに追加のコントロールが用意されており、ドメインの専門家や規制要件に基づいて、必要な防御レールをモデルに追加できます。Use the [!UICONTROL Exclusions] option to select which traits to ignore when creating models from one or more data sources.
+[!UICONTROL Trait Exclusion]を使用すると、モデリングワークフローをさらに細かく制御し、ドメインに関する知識および規制要件に応じてモデルに含める特性を限定できます。1 つまたは複数のデータソースからモデルを作成するときに、「[!UICONTROL Exclusions]」オプションを使用して、除外する特性を指定します。
 
 ## ユースケース {#use-cases}
 
-Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
+[!UICONTROL Trait Exclusion]が役立つユースケースの例を以下に示します。
 
-* [!UICONTROL Trait Exclusion] では、サイト訪問者の特性など特定の包括的特性を除外することができるので、モデルをバイアスして、フラットな結果を導くことはできません。
+* [!UICONTROL Trait Exclusion]を使用すると、サイト訪問者特性などの汎用特性を除外して、結果を均一化するモデルのバイアスをなくすことができます。
 * 未知の特性や信頼性の低い特性をデータソースから除外することで、影響力の強い特性についてより深く理解できます。
 * 人口統計的な特性などの特性を除外することで、コンプライアンス義務に対応することができます。
 
 >[!IMPORTANT]
 >
->3 番目のユースケースに関する注意事項を次に示します。If the third-party data provider adds a new demographic trait to the data feed *after you created the model*, the trait is automatically picked up by the model. モデルの作成後に、モデリングから特性を除外することはできません。詳しくは、[重要な点および制限事項](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations)を参照してください。この機能を使用する場合は細心の注意を払うとともに、データプロバイダーにフィード構造を変更した場合は通知するように依頼してください。
+>3 番目のユースケースに関する注意事項を次に示します。*モデルの作成後*&#x200B;にサードパーティデータプロバイダーがデータフィードに新しい人口統計的特性を追加した場合、モデルはこの特性を自動的に取得します。モデルの作成後に、モデリングから特性を除外することはできません。詳しくは、[重要な点および制限事項](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations)を参照してください。この機能を使用する場合は細心の注意を払うとともに、データプロバイダーにフィード構造を変更した場合は通知するように依頼してください。
 
 ![](assets/lam_exclude_traits.png)
 
@@ -33,22 +33,22 @@ Here are some use cases you can address with [!UICONTROL Trait Exclusion]:
 [モデルの作成](../../features/algorithmic-models/create-model.md#build-model)ワークフローに従って、新しいアルゴリズムモデルを作成します。
 
 1. 「[!UICONTROL Exclusions]」セクションは、モデリング用のデータソースを 1 つ以上選択するまでグレー表示になります。
-2. After selecting one or more data sources for modeling, press **[!UICONTROL Browse All Traits]**.
-3. **[!UICONTROL Select Traits to Exclude]** ウィンドウでは、以前選択したデータソースに関連付けられているすべての特性を表示できます。除外する特性を選択します。
+2. モデリング用のデータソースを 1 つまたは複数選択したら、「**[!UICONTROL Browse All Traits]**」をクリックします。
+3. **[!UICONTROL Select Traits to Exclude]** ウィンドウに、選択済みのデータソースに関連付けられている特性がすべて表示されます。除外する特性を選択します。
 4. 特性タイプで特性をフィルタリングしたり、特性フォルダーを参照したりできます。特性フォルダーには、選択したデータソースに関連付けられている特性のみが表示されます。
-5. Press **[!UICONTROL Exclude Selected Traits]**.
+5. **[!UICONTROL Exclude Selected Traits]** を押します。
 
 >[!TIP]
 >
 >特性フォルダー内の特性を 1 つ 1 つ除外するのではなく、フォルダー特性を除外することでフォルダー全体を除外対象にすることもできます。例えば、フォルダーに特性が 20 個含まれている場合、特性を 1 つ 1 つ除外するのではなく、フォルダー特性を除外することをお勧めします。
 
-ビデオチュートリアルを希望する場合は、Trait Excludeのビデオデモをご覧ください。
+ビデオチュートリアルを希望する場合は、特性の除外のビデオデモをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=jpn)
 
 ## 重要な点と制限事項 {#important-aspects-and-limitations}
 
-Please take note of the following aspects and limitations related to [!UICONTROL Trait Exclusion]:
+[!UICONTROL Trait Exclusion]については、以下の点と制限事項に注意してください。
 
 <table id="table_BA5C3545BC9E4717BD567B00C803AA53"> 
  <thead> 
@@ -60,7 +60,7 @@ Please take note of the following aspects and limitations related to [!UICONTROL
  <tbody> 
   <tr> 
    <td colname="col1"> <p>モデル概要表示での特性の除外 </p> </td>
-   <td colname="col2"> <p>除外した特性は、モデル概要には<i>表示されません</i>。除外した特性は、<b><span class="uicontrol">モデルの編集</span>ワークフローにのみ表示されます。</b> </p> </td>
+   <td colname="col2"> <p>除外した特性は、モデル概要には<i>表示されません</i>。除外した特性は、<b><span class="uicontrol">モデルの編集</span></b>ワークフローにのみ表示されます。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>ロールベースのアクセス制御（RBAC） </p> </td>
@@ -80,7 +80,7 @@ Please take note of the following aspects and limitations related to [!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p>ベースライン特性の除外 </p> </td>
-   <td colname="col2"> <p>ベースライン特性はデフォルトで除外されるので、モデルの作成時に <b><span class="uicontrol">Exclusions</span> リストには表示されません。</b> </p> </td>
+   <td colname="col2"> <p>ベースライン特性はデフォルトで除外されるので、モデルの作成時に <b><span class="uicontrol">Exclusions</span></b> リストには表示されません。 </p> </td>
   </tr>
  </tbody>
 </table>
@@ -88,4 +88,4 @@ Please take note of the following aspects and limitations related to [!UICONTROL
 ## 関連リンク
 
 * [アルゴリズムの特性について](/help/using/features/algorithmic-models/understanding-models.md)
-* [特性除外-チュートリアル](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
+* [特性の除外 - チュートリアル](https://helpx.adobe.com/jp/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
