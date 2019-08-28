@@ -5,7 +5,7 @@ seo-title: DCS API 呼び出しでサポートされている属性
 solution: Audience Manager
 title: DCS API 呼び出しでサポートされている属性
 uuid: 0b98ed11-314b-4500-afde-45a041112150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,16 +13,16 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # DCS API 呼び出しでサポートされている属性 {#supported-attributes-for-dcs-api-calls}
 
-Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). この情報は、[!UICONTROL DCS] 要求の形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
+[!UICONTROL Data Collection Servers]（[!UICONTROL DCS]）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、[!UICONTROL DCS] 要求の形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
 
-## 属性接頭辞 {#attribute-prefixes}
+## 属性プレフィックス{#attribute-prefixes}
 
-[!UICONTROL DCS] では、キー値ペアのキーに付加されている特定の接頭辞に基づいて、渡すデータのタイプを分類します。
+[!UICONTROL DCS] では、キー値ペアのキーに付加されている特定のプレフィックスに基づいて、渡すデータのタイプを分類します。
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> キー接頭辞 </th> 
+   <th colname="col1" class="entry"> キープレフィックス </th> 
    <th colname="col2" class="entry"> 対応するデータの種類 </th> 
   </tr>
  </thead>
@@ -41,7 +41,7 @@ Lists and describes the syntax and supported attributes (or key-value pairs) you
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>非公開の顧客定義属性。 </p> <p> DCS では、キーに <code>p_</code> 接頭辞が含まれていれば、お客様独自の非公開データを受信します。非公開データは特性評価に使用されますが、アドビのシステムにはログとして記録されず、保存もされません。例えば、<code>customers = p_age&lt;25</code> として定義されている特性があり、イベント呼び出しで <code>p_age=23</code> を渡すとしましょう。これらの条件を仮定すると、年齢に基づき絞り込まれたユーザーはこの特性に絞り込まれますが、このキー値ペアは、<span class="keyword">Audience Manager</span> に要求が受信された後で削除され、ログには記録されません。 </p> </td>
+   <td colname="col2"> <p>非公開の顧客定義属性。 </p> <p> DCS では、キーに <code>p_</code> プレフィックスが含まれていれば、お客様独自の非公開データを受信します。非公開データは特性評価に使用されますが、アドビのシステムにはログとして記録されず、保存もされません。例えば、<code>customers = p_age&lt;25</code> として定義されている特性があり、イベント呼び出しで <code>p_age=23</code> を渡すとしましょう。これらの条件を仮定すると、年齢に基づき絞り込まれたユーザーはこの特性に絞り込まれますが、このキー値ペアは、<span class="keyword">Audience Manager</span> に要求が受信された後で削除され、ログには記録されません。 </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ Lists and describes the syntax and supported attributes (or key-value pairs) you
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>児童保護法に従うために、サードパーティ Cookie の使用を無効にします。このパラメーターは Adobe Experience Cloud ID サービスにより動的に設定されるもので、<code>idSyncDisable3rdPartySyncing</code> 設定に依存します。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external">Experience Cloud ID サービスでの COPPA のサポート</a>を参照してください。 </p> </td>
+   <td colname="col2"> <p>児童保護法に従うために、サードパーティ Cookie の使用を無効にします。このパラメーターは Adobe Experience Cloud ID サービスにより動的に設定されるもので、<code>idSyncDisable3rdPartySyncing</code> 設定に依存します。<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_coppa.html" format="https" scope="external">Experience Cloud ID サービスでの COPPA のサポート</a>を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -85,8 +85,16 @@ Lists and describes the syntax and supported attributes (or key-value pairs) you
       <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code>d_cts=1</code> の場合は、セグメントの<a href="../../../reference/ids-in-aam.md">レガシーセグメント ID</a> を返します。 </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code>d_cts=2</code> の場合は、セグメントのセグメント ID を返します。 </p> </li>
      </ul> </p> <p>サンプル応答は次のようになります。 </p> <p>
-     <code class="syntax javascript">{"uff":[]，"uuid":"0795526165288603295014370250589472138"，"DCS_ region":7，"seatures":[420020，5421506]，"segments":[984263，985264]，"tid":"ss3oqPiqP0="} </code>
-  </p> </td> 
+     <code class="syntax javascript">
+      {
+          "stuff": [],
+          "uuid": "07955261652886032950143702505894272138",
+          "dcs_region": 7,
+          "traits": [420020, 5421506],
+          "segments": [984263, 985264],
+          "tid": "ss3OTqPiQp0="
+      }
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dpid</code> </p> </td> 
@@ -110,7 +118,7 @@ Lists and describes the syntax and supported attributes (or key-value pairs) you
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Experience Cloud</span> ID サービスで設定および使用される Experience Cloud ID を指定します。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Experience Cloud</span> ID サービスで設定および使用される Experience Cloud ID を指定します。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -137,8 +145,14 @@ Lists and describes the syntax and supported attributes (or key-value pairs) you
       <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">これを省略すると、<span class="wintitle">DCS</span> はヘッダーでピクセルを返します。 </li> 
       <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">これを含めると、<span class="wintitle">DCS</span> は応答の本文で <code>JSON</code> オブジェクトを返します。次の例を参照してください。実際の応答はもっと複雑になります。 </li> 
      </ul> </p> <p> 
-     <code class="syntax javascript">{"uff":[]，"uuid":"22920112968019678612904394744954398990"，"DCS_ region":7，"tid":"ss3oqPiqP0="} </code>
-  </p> </td> 
+     <code class="syntax javascript">
+      {
+          "stuff": [],
+          "uuid": "22920112968019678612904394744954398990",
+          "dcs_region": 7,
+          "tid": "ss3OTqPiQp0="
+      }
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_sid</code> </p> </td> 
