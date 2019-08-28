@@ -5,19 +5,19 @@ seo-title: セグメント／特性間重複レポート
 solution: Audience Manager
 title: セグメント／特性間重複レポート
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 ---
 
 
-# セグメント - 特性間重複レポート{#segment-to-trait-overlap-report}
+# セグメント／特性間重複レポート{#segment-to-trait-overlap-report}
 
 特定の特性とセグメント全体とで共有される個別ユーザーの数に関するデータを返します。
 
 >[!NOTE]
 >
->Audience Managerの重複レポートは、RBACの原則に従います。You can only see segments and traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Audience Manager の重複レポートは、RBAC の原則に従います。自分が属している [RBAC ユーザーグループ](/help/using/features/administration/administration-overview.md) に基づき、自分がアクセスできるデータソースからのセグメントおよび特性のみを確認できます。
 
 <!-- 
 
@@ -27,11 +27,11 @@ c_segment_trait_overlap.xml
 
 ## 概要
 
-As an optimization tool, the [!UICONTROL Segment to Trait Overlap] reports helps you build highly focused segments or expand segment reach. 例えば、重複の多い、焦点を絞ったセグメントと特性を作成して、特定のオーディエンスにリーチすることができます。ただし、重複が多い場合は、個別ユーザーが減る（リーチが縮小する）可能性があります。セグメントとの重複が多い特性を削除して重複の少ない特性に置き換えることでリーチを拡大しようとする場合に、このレポートの実行が役に立ちます。
+[!UICONTROL Segment to Trait Overlap]レポートは、最適化ツールとして、非常に焦点を絞ったセグメントを作成したり、セグメントリーチを拡大したりするのに役立ちます。例えば、重複の多い、焦点を絞ったセグメントと特性を作成して、特定のオーディエンスにリーチすることができます。ただし、重複が多い場合は、個別ユーザーが減る（リーチが縮小する）可能性があります。セグメントとの重複が多い特性を削除して重複の少ない特性に置き換えることでリーチを拡大しようとする場合に、このレポートの実行が役に立ちます。
 
 ### レポートのサンプル
 
-The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Trait Overlap] report.
+次の図は、[!UICONTROL Segment-to-Trait Overlap]レポートの概要を示しています。
 
 ![](assets/segment-to-trait-overlap.png)
 
@@ -95,16 +95,16 @@ r_s2t_sliders.xml
 
  -->
 
-[!UICONTROL Segment-to-Trait overlap] このレポートでは、2つのスライダを使用して、特性またはセグメントによって重複率のデータをフィルターできます。
+[!UICONTROL Segment-to-Trait overlap]レポートでは、2 つのスライダーを使用して、特性またはセグメントごとの重複率を基準にデータをフィルタリングできます。
 
-* **[!UICONTROL Filter Trait Uniques %:]** 特性とセグメント間で共有される個別訪問者の%によってデータをフィルターします。
-* **[!UICONTROL Filter Segment Uniques Overlap %:]** 個別訪問者の%によってデータがセグメントと特性の間で共有されます。
+* **[!UICONTROL Filter Trait Uniques %:]**&#x200B;特性とセグメントの間で共有されている個別訪問者の割合を基準にデータをフィルタリングします。
+* **[!UICONTROL Filter Segment Uniques Overlap %:]**&#x200B;セグメントと特性の間で共有されている個別訪問者の割合を基準にデータをフィルタリングします。
 
 ### 例
 
 次の図は、特性個別訪問者の割合とセグメント個別訪問者の割合の違いを示しています。この例では、特性とセグメントが 3 人の個別訪問者を共有しています。比率は次のようになります。
 
-* 特性は個別訪問者の 30% をセグメントと共有する（3/10 = 0.30）。
+* 特性は個別訪問者の 30％ をセグメントと共有する（3/10 = 0.30）。
 * セグメントは個別訪問者の 0.3% を特性と共有する（3/1,000 = 0.003）。
 
 ![](assets/s2t.png)
@@ -150,7 +150,7 @@ r_s2t_data_pop.xml
    <td colname="col2"> セグメントの一意な数値 ID。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID Name</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> SID 名</span></b> </td> 
    <td colname="col2"> セグメント名。 </td> 
   </tr> 
   <tr> 
