@@ -5,7 +5,7 @@ seo-title: グループ管理 API メソッド
 solution: Audience Manager
 title: グループ管理 API メソッド
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 # グループ管理 API メソッド {#group-management-api-methods}
 
-Rest [!DNL API] methods to manage groups, including creating, updating, listing, deleting groups.
+グループの管理（グループの作成、更新、リスト、削除など）をおこなうための Rest [!DNL API] メソッド。
 
 <!-- c_rest_api_user_man_group.xml -->
 
