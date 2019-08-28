@@ -5,7 +5,7 @@ seo-title: セグメント - 広告ユニット間重複
 solution: Audience Manager
 title: セグメント - 広告ユニット間重複
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -17,23 +17,23 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## ユースケース {#use-cases}
 
-[!UICONTROL Segment to Ad Unit Overlap] レポートでは、どのオーディエンスがWebプロパティを訪問したかを把握できます。このレポートには、[!DNL Audience Manager] セグメントのメンバーと Web プロパティの訪問者数の間の重複が表示されます。重複が多い場合は、セグメントの多数のメンバーが Web プロパティを訪問していることになります。
+[!UICONTROL Segment to Ad Unit Overlap] レポートを使用すれば、どのオーディエンスが Web プロパティを訪問したかを把握できます。このレポートには、[!DNL Audience Manager] セグメントのメンバーと Web プロパティの訪問者数の間の重複が表示されます。重複が多い場合は、セグメントの多数のメンバーが Web プロパティを訪問していることになります。
 
-## セグメント - 広告ユニット間重複レポートの使用 {#using-the-report}
+## セグメント - 広告ユニット間重複レポートの使用{#using-the-report}
 
-Use the **[!UICONTROL Top N Ad Units]** and **[!UICONTROL Top N Segments]** controls to select your desired number of ad units and segments for the overlap. それぞれ、最大 100 個の項目を選択できます。
+「**[!UICONTROL Top N Ad Units]**」コントロールと「**[!UICONTROL Top N Segments]**」コントロールを使用して、重複の広告ユニット数とセグメント数を選択します。それぞれ、最大 100 個の項目を選択できます。
 
-**Day Range** コントロールと **Date Through コントロールを使用して、ルックバック範囲を調整します。** 7 日と 30 日のルックバック期間は、日付が日曜日の場合にのみ有効であることに注意してください。
+**Day Range** コントロールと **Date Through** コントロールを使用して、ルックバック範囲を調整します。7 日と 30 日のルックバック期間は、日付が日曜日の場合にのみ有効であることに注意してください。
 
-**[!UICONTROL Segment Name]****[!UICONTROL Ad Unit]** このボックスを使用して、セグメントと広告ユニットのいずれかをフィルタリングします。
+「**[!UICONTROL Segment Name]**」および「**[!UICONTROL Ad Unit]**」ボックスを使用すると、任意のセグメントおよび広告ユニットをフィルタリングできます。
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
+>[!UICONTROL Audience Optimization for Publishers]を有効にする場合、[DFP データファイルを Audience Manager にインポート](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Ad Unit IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Ad Unit ID] ではなく[!UICONTROL Ad Unit]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
-[!UICONTROL Segment to Ad Unit Overlap] レポートは以下のようになります。任意のセルの上にマウスポインターを置くと、その特定の重複に関する詳細が表示されます。追加情報については、サンプルレポートの下の表を参照してください。
+[!UICONTROL Segment to Ad Unit Overlap]レポートは次のようになります。任意のセルの上にマウスポインターを置くと、その特定の重複に関する詳細が表示されます。追加情報については、サンプルレポートの下の表を参照してください。
 
 ![](assets/publisher_segment_ad_unit_overlap.png)
 
