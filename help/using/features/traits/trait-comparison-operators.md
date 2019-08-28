@@ -5,7 +5,7 @@ seo-title: 特性ビルダーでの比較演算子の使用
 solution: Audience Manager
 title: 特性ビルダーでの比較演算子の使用
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # 特性ビルダーでの比較演算子の使用 {#working-with-comparison-operators-in-trait-builder}
 
-This article describes the comparison operators used by [!UICONTROL Trait Builder].
+ここでは、[!UICONTROL Trait Builder] で使用される比較演算子について説明します。
 
 ## 比較演算子の目的
 
 <!-- c_tb_comparison_operators.xml -->
 
-比較演算子（または関係演算子）は、異なる値の間の関係を比較、テストまたは評価するために使用されます。In [!UICONTROL Trait Builder], when building signal rules, comparison operators let you test the relationship between different key-value pairs. 例えば、シグナルルールを作成して、高級カメラ購買者のオーディエンスを定義できます。この場合、カメラ／価格のキー値ペアを作成して、設定した額以上の価格のカメラを探しているかどうかでユーザーを評価できます。
+比較演算子（または関係演算子）は、異なる値の間の関係を比較、テストまたは評価するために使用されます。[!UICONTROL Trait Builder]では、シグナルルールを作成する際に、比較演算子を使用すると、異なるキー値ペア間の関係をテストできます。例えば、シグナルルールを作成して、高級カメラ購買者のオーディエンスを定義できます。この場合、カメラ／価格のキー値ペアを作成して、設定した額以上の価格のカメラを探しているかどうかでユーザーを評価できます。
 
 ## 比較演算子のメリット
 
@@ -42,18 +42,18 @@ This article describes the comparison operators used by [!UICONTROL Trait Builde
 
 以下の名前付き演算子を使用してルールを作成できます。
 
-| 演算子 | Evaluates to [!DNL True] When |
+| 演算子 | [!DNL True] の評価の条件 |
 |---|---|
 | **[!UICONTROL Contains]** | キー値ペアの値が、この演算子で指定された文字を&#x200B;*含む*。 |
 | **[!UICONTROL Matcheswords]** | キー値ペアの値が、この演算子で指定されたパターンに&#x200B;*合致する*。 |
 | **[!UICONTROL Startswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で始まる*。 |
 | **[!UICONTROL Endswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で終わる*。 |
-| **[!UICONTROL Matchesregex]** | キー値ペアの値が、正規表現で指定されたパターンに&#x200B;*合致する*。[正規表現の使用につい](../../features/traits/trait-builder-regex.md) て [!UICONTROL Trait Builder]詳しくは、を参照してください。 |
+| **[!UICONTROL Matchesregex]** | キー値ペアの値が、正規表現で指定されたパターンに&#x200B;*合致する*。[こちら](../../features/traits/trait-builder-regex.md)を参照して、[!UICONTROL Trait Builder]での正規表現の使用について確認してください。 |
 
 >[!MORE_LIKE_THIS]
 >
 >* [特性およびセグメントビルダーのブール式](../../reference/boolean-expressions-tsb.md)
 >* [特性ビルダーのブール式について](../../reference/boolean-expressions-tsb.md)
 >* [特性ビルダーでの演算順序](../../features/traits/trait-operator-precedence.md)
->* [ブール値および比較演算子を使用した式の例](../../features/traits/trait-expression-samples.md)
+>* [ブール演算子と比較演算子を使用した式のサンプル](../../features/traits/trait-expression-samples.md)
 
