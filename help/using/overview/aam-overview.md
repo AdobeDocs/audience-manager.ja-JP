@@ -5,7 +5,7 @@ seo-title: Audience Manager の概要
 solution: Audience Manager
 title: Audience Manager の概要
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
 
 ---
@@ -27,7 +27,7 @@ c_history_and_background.xml
 
  -->
 
-## 歴史 {#history}
+## 歴史{#history}
 
 2008 年以降、Audience Manager（以前の [!UICONTROL Demdex]）は、オンラインオーディエンス管理市場のパイオニアであり続けています。Audience Manager サービスは、動的なマルチチャネルのオンラインデータ戦略を強化します。アドビのプラットフォームおよびサービスは、自動車（AutoTrader）から航空会社（American Airlines）や金融サービス企業（American Express）まで、数多くの多様な産業で利用されています。Audience Manager は、企業レベルのテクノロジーを使用し、オンラインビジネスを成功に導くための尺度、信頼性、分析、パフォーマンスを提供します。Audience Manager は Adobe Experience Cloud に統合され、より多くのデジタルアドレス可能なチャネルからデータ資産を一元管理し、対策を講じることができます。
 
