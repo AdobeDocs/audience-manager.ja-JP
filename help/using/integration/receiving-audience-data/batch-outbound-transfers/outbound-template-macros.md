@@ -5,8 +5,8 @@ seo-title: 送信テンプレートマクロ
 solution: Audience Manager
 title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
-translation-type: ht
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+translation-type: tm+mt
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -44,8 +44,17 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
    <td colname="col2"> <p>オーダー／宛先 ID。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> PIDALIAS </code> </p> </td> 
+   <td colname="col1"> <p> <code> PID_ALIAS </code> </p> </td> 
    <td colname="col2"> <p>オーダー／宛先 ID のエイリアス。 </p> <p>このエイリアスは管理 UI で設定します。 </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <code> SplitNum </code> </p> </td> 
+   <td colname="col2"> <p>アウトバウンドファイルを複数の部分に分割することを示します。ファイル名のSPIRNNUMセクションをゼロの前にあるパーツ番号に置き換え、最低3文字をSplitNumセクションに含めます。</p>
+   <p>PRIRNNUMマクロは、&lt;&gt;文字で囲む必要はありません。</p><p>Example: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;SPLITNUM.csv</code>
+<p>s3_123456_9999_ full_1566906141001. csv</p> 
+<p>s3_123456_9999_ full_1566906141002. csv</p> 
+<p>s3_123456_9999_ full_1566906141003. csv</p> 
+<p>上記の例の最後の3桁（001,002,003）は、SplitNUM識別子です。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
@@ -71,8 +80,9 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
    <td colname="col2"> <p>10 桁の UTC を示す Unix タイムスタンプ。 </p> <p>Java の日付／タイムスタンプ形式ルールに従って <code>&lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt;</code> という形式にすることもできます。 </p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+</tbody> 
 </table>
 
 ## コンテンツマクロ {#content-macros}
