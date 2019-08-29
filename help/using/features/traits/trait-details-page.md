@@ -5,8 +5,8 @@ seo-title: 特性の詳細ページ
 solution: Audience Manager
 title: 特性の詳細ページ
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-translation-type: ht
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+translation-type: tm+mt
+source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
 
 ---
 
@@ -29,10 +29,16 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 * ルールベースの特性の場合、特性認定は、ユーザーがブラウザーで特性に絞り込まれるときにリアルタイムにおこなわれます。
 * オンボードの特性の場合、特性認定は、受信ファイルが処理された後でおこなわれます。つまり、受信ファイルが[Audience Manager に入力されたとき](../../faq/faq-inbound-data-ingestion.md)に、特性認定がおこなわれます。
-* **Unique Trait Realizations**：特定の期間にこの特性をプロファイルに追加した個別ユーザーの数。
-* **Total Trait Population**：現在この特性で絞り込まれている個別ユーザーの数。
+* **[!UICONTROL Unique Trait Realizations]**：特定の期間にこの特性をプロファイルに追加した個別ユーザーの数。
+* **[!UICONTROL Total Trait Population]**:この特性に対して現在選定されている個別ユーザーの数。
 
-![](assets/traitGraph.png)
+   ![特性グラフ](assets/trait-summary.png)
+
+* **[!UICONTROL Identity Type Breakdown]**:最初の3つのエントリには、上位3つのデバイスのデータソースが表示されます。このデータソースは、特性の資格を持つ上位の3つのデバイスのデータソースを表示します。4番目のエントリには、上位3つにないクロスデバイスデータソースから、特性に修飾されるその他 [!DNL DPUUIDs] のすべての[!DNL CRM IDs]（）の合計が表示されます。このレポートは、ページの右上にあるドロップダウンメニューで [!UICONTROL Show Results By] クロスデバイスIDを選択した場合にのみ表示されます。デフォルトのドロップダウンオプションは、 [!UICONTROL Device ID]このレポートは表示されません。
+
+   ![特性グラフ](assets/trait-identity.png)
+   > [!NOTE]
+   > Audience Managerでは、特性に対応するクロスデバイスIDがある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
 
 ## 特性式 {#trait-expression}
 
@@ -46,7 +52,7 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 ![](assets/traitSegments.png)
 
-## 特性監査／履歴ログ{#trait-audit-history}
+## 特性監査／履歴ログ {#trait-audit-history}
 
 「[!UICONTROL Trait Expression Change History]」には、ルールベースの特性とオンボードの特性について、特性の式ルールに対する直近 10 件の変更と、その変更をおこなったユーザーが表示されます。特性に対する変更が 10 件を超える場合、「**[!UICONTROL Export to CSV]**」をクリックすると監査ログ全体をダウンロードできます。フォルダー特性やアルゴリズム特性では、監査ログは使用できません。
 
