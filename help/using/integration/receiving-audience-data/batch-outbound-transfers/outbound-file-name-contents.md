@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 ---
 
@@ -93,7 +93,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ### シナリオ 1
 
-[!DNL Amazon S3] の場所に送信されたファイルで、*`PID-ALIAS="XYZCustomer"`* を満たし、かつファイルコンテンツに [!DNL Google Advertiser IDs] を含むもの。
+[!DNL Amazon S3] の場所に送信されたファイルで、*`PID_ALIAS="XYZCustomer"`* を満たし、かつファイルコンテンツに [!DNL Google Advertiser IDs] を含むもの。
 
 例：増分ファイル：
 
@@ -112,7 +112,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ### シナリオ 2
 
-[!DNL FTP] の場所に送信されたファイルで、*`PID-ALIAS`* がなく、ファイルコンテンツに [!DNL Apple Advertiser IDs] をふくむもの：
+[!DNL FTP] の場所に送信されたファイルで、*`PID_ALIAS`* がなく、ファイルコンテンツに [!DNL Apple Advertiser IDs] をふくむもの：
 
 例：増分ファイル：
 
@@ -128,7 +128,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**シナリオ3**: [!DNL FTP] ファイルcontent（ *`PID-ALIAS="XYZCustomer"`**`Vendor ID=45454`*）内のサードパーティユーザーIDと共に、次の場所に送信されるファイル。
+**シナリオ3**: [!DNL FTP] ファイルcontent（ *`PID_ALIAS="XYZCustomer"`**`Vendor ID=45454`*）内のサードパーティユーザーIDと共に、次の場所に送信されるファイル。
 
 例：増分ファイル：
 
