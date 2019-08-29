@@ -5,8 +5,8 @@ seo-title: 送信データファイル名：構文と例
 solution: Audience Manager
 title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -19,14 +19,14 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!NOTE]
 >
->このドキュメントでは、`monospaced text`、*斜体*、括弧（`[ ]``( )`など）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>スタイル要件（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、など）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## 構文およびファイル名要素 {#syntax-file-name}
 
-送信ファイル名には、以下の必須およびオプション要素が含まれます。
+アウトバウンドファイル名には、次の要素が含まれています。以下の要素はすべてオプションです。
 
 ```
-SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].sync[.gz]
+[SYNC_TYPE][_DID][_MASTER_DPID][_PID_ALIAS][_SYNC-MODE][_TIMESTAMP]SPLITNUM.sync[.gz]
 ```
 
 ### パラメーター
@@ -42,7 +42,7 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code><i>SYNC-TYPE </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>SYNC_TYPE </i></code> </p> </td> 
    <td colname="col2"> <p>データ転送方法を参照します。転送方法には以下が含まれます。 </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - SFTP を使用した転送 </li> 
@@ -54,7 +54,7 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
    <td colname="col2"> <p>宛先 ID。 </p> <p><span class="keyword">Audience Manager</span> では、宛先は、ターゲット設定可能なセグメントをマッピングできる統合のインスタンスです。顧客は、ビジネス要件に応じて、複数の宛先を持つことができます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>MASTER-DPID </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
    <td colname="col2"> <p>データプロバイダーまたはデータソース ID。この ID は、ファイルコンテンツに存在するユーザー ID のタイプを識別します。最も一般的なユーザー ID キーを次に示します。 </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword">Google 広告主 ID</span>（raw、ハッシュ化されていない） </li> 
@@ -63,11 +63,11 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>PID-ALIAS </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
    <td colname="col2"> サードパーティプラットフォームからの顧客識別子。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>SYNC-MODE </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
    <td colname="col2"> <p>同期モードは、同期タイプに基づいてファイル名にラベルを追加するマクロプレースホルダーです。同期タイプには、完全および増分があります。ファイル名に <code>iter</code> または <code>full</code> として表示されます。 </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
      <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code>iter</code>：「iterative」または増分同期を示します。増分ファイルには、最後の同期以降に収集された新しいデータのみが含まれます。 </li> 
@@ -79,8 +79,8 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
    <td colname="col2"> <p>UTC タイムゾーンの 13 桁の UNIX タイムスタンプ（ミリ秒）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> [<code><i>-SPLIT_NUMBER </i></code>] </p> </td> 
-   <td colname="col2"> <p>整数。処理時間を向上するために複数の部分に分割されたファイルの部分を特定します。番号は、データが属する元のファイルのどの部分かを示します。 </p> <p>元のファイルには、分割番号はありません。最初の分割ファイルは、1 から始まります。後述の例を参照してください。 </p> </td> 
+   <td colname="col1"> <p><code><i>SplitNum</i></code></p> </td> 
+   <td colname="col2"> <p>整数。処理時間を向上するために複数の部分に分割されたファイルの部分を特定します。番号は、データが属する元のファイルのどの部分かを示します。</p>  <p>分割サイズが100を超える場合は、整数が3桁以上で、前にゼロを指定する必要があります。</p>  <p>元のファイルには、分割番号はありません。最初の分割ファイルは001で終了します。後述の例を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>.gz（オプション）</i></code> </p> </td> 
@@ -99,15 +99,15 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000-1.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000-10.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000001.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000002.sync.gz </code> </li> 
 </ul>
 
 例：完全ファイル：
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000-1.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000001.sync.gz </code> </li> 
 </ul>
 
 ### シナリオ 2
@@ -118,31 +118,31 @@ SYNC-TYPE_ DID_ MASTER-DPID_ [PID-ALIAS]_ SYNC-MODE_ TIMESTAMP[- SPLIT_NUMBER].s
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_iter_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_20915_iter_1486140843000-1.sync.gz </code> </li> 
+ <li> <code> ftp_1234_20915_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
 例：完全ファイル：
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_full_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_20915_full_1486140843000-1.sync.gz </code> </li> 
+ <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**シナリオ 3**：[!DNL FTP] の場所に送信されたファイルで、*`PID-ALIAS="XYZCustomer"`* であり、かつファイルコンテンツにサードパーーティユーザー ID（*`Vendor ID=45454`*）を含むもの。
+**シナリオ3**: [!DNL FTP] ファイルcontent（ *`PID-ALIAS="XYZCustomer"`**`Vendor ID=45454`*）内のサードパーティユーザーIDと共に、次の場所に送信されるファイル。
 
 例：増分ファイル：
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000-1.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000-10.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
 例：完全ファイル：
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200-1.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200001.sync.gz </code> </li> 
 </ul>
 
 ## 送信データファイルコンテンツ：構文とパラメーター {#outbound-contents-syntax}
