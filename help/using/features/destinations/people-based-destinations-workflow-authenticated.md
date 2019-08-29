@@ -5,7 +5,7 @@ seo-title: ワークフローC-オフラインデータと組み合わされた�
 solution: Audience Manager
 title: ワークフローC-オフラインデータと組み合わされた認証済みアクティビティに基づくパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -49,16 +49,16 @@ source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 
 次の2つのデータソースを作成したとします。
 
-|データsource ID|データソースコンテンツ|
-|--|--|
-|999999|既存DPUUID（CRM ID）|
-|987654|ハッシュ電子メールアドレス|
+| データソースID | データソースの内容 |
+|---|---|
+| 999999 | 既存のDPUUID（CRM ID） |
+| 987654 | ハッシュ化された電子メールアドレス |
 
 次に、テーブルの特性について以下のCRM IDを指定します。
 
-| DPUUID（CRM ID）|電子メールaddress|ハッシュされた電子メールアドレス|特性|
-|--|--|--|--|
-|680799827656731985040526560744546039|`johndoe@example.com`|55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149| location= US|
+| DPUUID（CRM ID） | 電子メールアドレス | ハッシュ化された電子メールアドレス | 特性 |
+|---|---|---|---|
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location= US |
 
 宣言されたIDは次の構文に従う必要があります。
 
