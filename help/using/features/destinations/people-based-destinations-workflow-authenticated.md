@@ -5,7 +5,7 @@ seo-title: ワークフローC-オフラインデータと組み合わされた�
 solution: Audience Manager
 title: ワークフローC-オフラインデータと組み合わされた認証済みアクティビティに基づくパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,9 +18,13 @@ source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 [DPUUID](../../reference/ids-in-aam.md) が小文字で、ハッシュ化された電子メールアドレスかどうかに応じて、ハッシュされた電子メールアドレスを保存するデータソースを設定する必要があります。
 
+ 
+
 **シナリオ1:[DPUUID](../../reference/ids-in-aam.md)は、既に小文字の電子メールアドレスです。**
 
 この場合、 [手順5-人ベースのプラットフォーム認証を設定](#configure-authentication)します。
+
+ 
 
 **シナリオ2:[DpuUID](../../reference/ids-in-aam.md)は、小文字の電子メールアドレスではありません。**
 
@@ -54,15 +58,21 @@ source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 | 999999 | 既存のDPUUID（CRM ID） |
 | 987654 | ハッシュ化された電子メールアドレス |
 
+ 
+
 次に、テーブルの特性について以下のCRM IDを指定します。
 
 | DPUUID（CRM ID） | 電子メールアドレス | ハッシュ化された電子メールアドレス | 特性 |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location= US |
 
+ 
+
 宣言されたIDは次の構文に従う必要があります。
 
 `https://yourDomain.demdex.net/event?d_cid_ic=myHashedEmailDataSourceID%01myHashedEmail&d_cid_ic=myCrmDataSourceID%01myCRMID&key=value`
+
+ 
 
 上記の例では、宣言されたID呼び出しは次のようになります。
 
