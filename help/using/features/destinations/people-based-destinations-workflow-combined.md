@@ -5,7 +5,7 @@ seo-title: ワークフローA-オフラインデータと組み合わされた�
 solution: Audience Manager
 title: ワークフローA-オフラインデータと組み合わされたすべてのオンラインアクティビティに基づくパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,6 +18,8 @@ source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
 
 [DPUUID](../../reference/ids-in-aam.md) が小文字で、ハッシュ化された電子メールアドレスかどうかに応じて、ハッシュされた電子メールアドレスを保存するデータソースを設定する必要があります。
 
+ 
+
 **シナリオ1:[DPUUID](../../reference/ids-in-aam.md)は、既に小文字の電子メールアドレスです。**
 
 この場合、対応するデータソースにラベルを付ける必要があります。
@@ -26,6 +28,8 @@ source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
 1. [DPUUID](../../reference/ids-in-aam.md)を含むデータソースを探してクリックします。
 1. オプション [!UICONTROL Cannot be tied to personally identifiable information] が選択解除されていることを確認します。
 1. データソースの設定を保存します。
+
+ 
 
 **シナリオ2:[DpuUID](../../reference/ids-in-aam.md)は、小文字の電子メールアドレスではありません。**
 
@@ -55,19 +59,23 @@ source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
 既存の [DPUUIDを下の表からハッシュ化された電子メールアドレス](../../reference/ids-in-aam.md) に一致させ、手順1-データソース設定の設定で [作成した新しいデータソースにハッシュ化された電子メールアドレスを保存するとし](people-based-destinations-workflow-combined.md#configure-data-source-settings)ます。
 
 | DPUUID（CRM ID） | 電子メールアドレス | ハッシュ化された電子メールアドレス |
-| --- | --- | --- |
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
+
+ 
 
 10のハッシュ化された電子メールアドレスを単一 [のDPUUIDにリンク](../../reference/ids-in-aam.md)できます。これを行うには、同期ファイル内でハッシュ化された電子メールアドレスをコンマで区切ります。
 
 この例では、データソースが2つあります。
 
 | データソースID | データソースの内容 |
-| --- | --- |
+| -------------- | -------------------------- |
 | 999999 | 既存のDPUUID（CRM ID） |
 | 987654 | ハッシュ化された電子メールアドレス |
+
+ 
 
 [ID同期ファイル](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) には次の内容が含まれています。
 
@@ -77,9 +85,13 @@ source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+ 
+
 [ID同期ファイル](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) は、次の命名構造に従う必要があります。
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+ 
 
 上記の例では、ファイル名は次のようになります。`c2c_id_999999_987654_1560431657.sync`
 
