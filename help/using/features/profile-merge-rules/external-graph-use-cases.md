@@ -5,13 +5,13 @@ seo-title: 外部デバイスグラフのユースケース
 solution: Audience Manager
 title: 外部デバイスグラフのユースケース
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-#  外部デバイスグラフのユースケース{#external-device-graph-use-cases}
+# 外部デバイスグラフのユースケース {#external-device-graph-use-cases}
 
 外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、[!DNL Adobe Experience Cloud Device Co-op] や、Audience Manager と統合されている他の決定論的または確率的サードパーティデバイスグラフプロバイダーなどが含まれます。
 
@@ -25,9 +25,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ![](assets/merge-rule-triangle1.png)
 
-## プロスペクティング／ブランディングのユースケース {#prospecting-branding-use-cases}
+## プロスペクティング／ブランディングのユースケース{#prospecting-branding-use-cases}
 
-ブランディングキャンペーンは、できるだけ多くの人々にリーチすることを目的としています。セグメント絞り込みにほとんど制限はありません。しかし、これらのキャンペーンは、コンテンツを何度見てもコンバージョンに至らない人々を絶えずターゲットにしているので、予算とインプレッションを浪費するおそれがあります。[!UICONTROL Profile Merge] また、サードパーティ [!DNL Device Co-op] オプションを使用するルールは、効率的なブランディングキャンペーンを作成するのに役立ちます。例えば、これらの不明なユーザーを設定済みの頻度キャップの複数のデバイスで確認した後で、「マーケット外」セグメントに追加できます。
+ブランディングキャンペーンは、できるだけ多くの人々にリーチすることを目的としています。セグメント絞り込みにほとんど制限はありません。しかし、これらのキャンペーンは、コンテンツを何度見てもコンバージョンに至らない人々を絶えずターゲットにしているので、予算とインプレッションを浪費するおそれがあります。[!UICONTROL Profile Merge] やサードパーティオプションを使用する[!DNL Device Co-op]ルールが、効率的なブランディングキャンペーンの作成に役に立ちます。例えば、これらの不明なユーザーを設定済みの頻度キャップの複数のデバイスで確認した後で、「マーケット外」セグメントに追加できます。
 
 <table id="table_00F6EED172574E80A38CADA8A92A23B1"> 
  <thead> 
@@ -59,7 +59,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody> 
 </table>
 
-## リターゲティングまたはサイトパーソナライゼーションのユースケース {#retargeting-use-case}
+## リターゲティングまたはサイトパーソナライゼーションのユースケース{#retargeting-use-case}
 
 この戦略は、認証されていないまたは不明なユーザーをサイトに呼び戻したり、それらのユーザーがサイトにいる間に閲覧エクスペリエンスをパーソナライズしたりすることを目的としています。
 
@@ -95,11 +95,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## 外部デバイスグラフユースケースのプロファイル結合ルールオプション {#profile-merge}
 
-これらのユースケースの結合ルールオプションは、次に示す使用可能なオプションのようになります。[!UICONTROL Authenticated Profile] これらの設定は選択 **[!UICONTROL Current Authenticated Profile]** 時にのみ利用可能なので、オプションは非アクティブ化されます **[!UICONTROL Last Authenticated Profile]**。「[!UICONTROL Device Options]」は、使用するまたは使用できるデバイスグラフ設定のタイプに応じて変わります。
+これらのユースケースの結合ルールオプションは、次に示す使用可能なオプションのようになります。[!UICONTROL Authenticated Profile] オプションは、「**[!UICONTROL Current Authenticated Profile]**」または「**[!UICONTROL Last Authenticated Profile]**」を選択した場合にのみ使用可能なので、非アクティブになっています。[!UICONTROL Device Options]は、使用するまたは使用できるデバイスグラフ設定のタイプに応じて変わります。
 
 ![](assets/merge-rules-external.png)
 
-これらのデバイスグラフ処理の動作について詳しくは、[Audience Manager と外部デバイスグラフ](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf)（PDF）をダウンロードしてください。
+これらのデバイスグラフの処理方法について詳しくは、[Audience Manager と外部デバイスグラフ](https://marketing.adobe.com/resources/help/ja_JP/aam/downloads/AAM_Device_Graphs.pdf)の PDF をダウンロードしてください。
 
 >[!MORE_LIKE_THIS]
 >
