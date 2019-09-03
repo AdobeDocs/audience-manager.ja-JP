@@ -5,8 +5,8 @@ seo-title: リアルタイム送信データ転送
 solution: Audience Manager
 title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
 
 ---
 
@@ -122,7 +122,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   <tr valign="top"> 
    <td colname="col1"><code><i>DateTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
-   <td colname="col3"> <p>サイト訪問者が特性の対象として認定された日時。 </p> </td> 
+   <td colname="col3"> <p>最新のセグメントの選定時間。</p> </td> 
   </tr> 
  </tbody> 
 </table>
