@@ -5,8 +5,8 @@ seo-title: GDPR に関するよくある質問
 solution: Audience Manager
 title: GDPR に関するよくある質問
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: 98914987331ce31bc8d3e67647d5b8273b287d4c
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 この資料では、欧州連合の一般データ保護規則（GDPR）に関連してお客様やパートナーから最もよく出される質問の一部と、Adobe Audience Manager がデータプロセッサーとして様々な GDPR 要件にどのように対処しているかを説明しています。
 
-この記事では、Audience Manager の GDPR 対応に関する質問を取り扱います。[Experience Cloud の GDPR 対応に関する Q&amp;A 集](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md)についても必ずお読みください。
+この記事では、Audience Manager の GDPR 対応に関する質問を取り扱います。[Experience Cloud の GDPR に関する Q&amp;A 集](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md)についても必ずお読みください。
 
 GDPR は 2018 年 5 月 25 日に施行された法律で、その第一の目的は、EU 内の個人（データ主体）が個人データをコントロールする権利を取り戻すこと、および EU 域内の規則を統合することで、国際的なビジネスのための規制環境を簡潔にすることです。GDPR への対応の一環として Adobe Audience Manager では、消費者であるデータ主体からのアクセス要求や削除要求をサポートするために、必要なサービスおよびプロセスの機能拡張をおこないました。
 
@@ -27,43 +27,43 @@ GDPR に関連して使用されるキーワードを確認しましょう。よ
 
 **データ管理者：** GDPR では「管理者」を「単独でまたは他と共同して、個人データの処理の目的および手段を決定する…法人…。」と定義しています。Audience Manager をご利用のお客様はデータ管理者となります。お客様は Audience Manager でのデータの管理方法を制御します。
 
-<br>
+<br> 
 
 **データ処理者：**「処理者」とは、「管理者のために個人データを処理する…法人…」です。Audience Manager （アドビが提供するデータ管理プラットフォーム、DMP）においてアドビは、DMP を介して処理、保存および提供されるあらゆる個人データの「データ処理者」となります。アドビは、データ管理者からの許可および指示（例えば、お客様と交わされる契約において提示されます）にのみ従って個人データを処理します。
 
-<br>
+<br> 
 
 **データ主体：**&#x200B;個人データが関連付けられる個人。Audience Manager では、データ主体とは Audience Manager をご利用のお客様に対する消費者またはエンドユーザーとなります。データ主体から Audience Manager に対して直接要求が送られた場合、これらの要求はそれぞれお客様に転送されます。
 
-<br>
+<br> 
 
 **同意：**&#x200B;同意とは、「声明または明らかに積極的な行為により、その者が同人に関する個人データの処理への同意を表明することによって、データ主体の自由になされた特定の十分に情報を知らされたうえでの明確な意思表示」を意味します。同意を得ることはデータ管理者の責務となります。アドビが Audience Manager を通して同意を得ることはありません。
 
-<br>
+<br> 
 
 **アクセス：**&#x200B;データ主体はデータ管理者に対して、自身の個人データを処理しているかを確認できる権利があります。データ管理者がデータ主体の個人データを処理していた場合、データ管理者はデータ主体に対し、個人データへのアクセスを許可し、コピーを提供する義務があります。データ主体からのアクセス要求に関し、データ管理者はアドビのサポートを得ることができます。
 
-<br>
+<br> 
 
 **削除：** GDPR では「忘れられる権利」すなわち「消去権」が明文化されています。データ主体はデータ管理者に対して、自身の個人データの消去を要求できます。データ管理者はアドビなどの処理者と連携して、データ主体からの削除要求に対応します。
 
-<br>
+<br> 
 
 **修正：**&#x200B;データ主体はデータ管理者に対して、不正確な個人データの訂正を要求できます。データ管理者はアドビなどの処理者と連携して、データ主体からの修正要求に対応します。
 
-<br>
+<br> 
 
 **Audience Manager 識別子（ID）：** Adobe Audience Manager は様々な種類の ID を保存します。[Audience Manager の GDPR 対応](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)ページには、これらの ID の概要、対応するデータソースおよび簡単な説明が記載されています。アドビに要求を送信する際は、これらの ID を参照して、データ主体からの削除要求またはアクセス要求を作成してください。
 
-<br>
+<br> 
 
 **個人データ：** GDPR では、個人データの定義が拡大されています。GDPR では、お客様の使用目的によっては Audience Manager が扱うすべてのデータが個人データとして分類されます。
 
-<br>
+<br> 
 
 **禁止データ：** Audience Manager では、個人が直接特定できる情報をお客様が取り込むことを禁止しています。これには姓名、電子メール ID、CRM ID など、個人を直接特定するために使用できる情報が含まれます。Adobe Experience Cloud ソリューションでは、機密情報の取り扱いも禁止されています。これらの要件の詳細については、アドビと交わされた契約書を参照してください。このような種類のデータポイントを Audience Manager に取り込む必要がある場合は、事前にアドビのコンサルタントチームにお問い合わせのうえ、これらの ID のハッシュ化についてご相談ください。
 
-<br>
+<br> 
 
 ## 個人の GDPR に関する権利の管理 {#manage-ind-gdpr-rights}
 
@@ -71,71 +71,71 @@ GDPR に関連して使用されるキーワードを確認しましょう。よ
 
 GDPR において、データ管理者が同意の取得をおこなうタイミングについての変更点はありませんが、その方法について変更されました。特定のマーケティング活動において消費者の同意が必要となった場合、同意は主体的に（事前にチェックが付けられたチェックボックスや暗黙の同意は認められません）、独立しておこなわれる必要があります。また、データ主体の同意を条件にサービスを提供することは禁じられています。データを使用し続けるにあたって、特定の同意を更新する必要が生じる可能性もあります。
 
-アドビはデータ処理者であるので、同意の取得に関する法的なアドバイスはできません。御社内の法務チームにアドバイスを求めてください。より的確なアドバイスを受けるために、[Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) や [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/) など、同意管理ソリューションプロバイダーのサポートを得ることをお勧めします。アドビは、この統合をサポートするために、このようなプロバイダーの何社かと Adobe Launch を通してパートナー提携しています。
+アドビはデータ処理者であるので、同意の取得に関する法的なアドバイスはできません。御社内の法務チームにアドバイスを求めてください。より的確なアドバイスを受けるために、[Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) や [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/) など、同意管理ソリューションのプロバイダーのサポートを得ることをお勧めします。アドビは、この統合をサポートするために、このようなプロバイダーの何社かと Adobe Launch を通してパートナー提携しています。
 
 Audience Manager をご利用のお客様は、広告やパーソナライゼーションなど、様々な用途に使用されるユーザーの同意を、特性として Audience Manager に保存できます。これらの特性を使用してセグメントを作成すれば、各用途に対してそれぞれ同意したユーザーのみが含まれるセグメントとすることができます。この方法によってデータ収集が妨げられることはなく、有効化するセグメントを送信する際に使用するデータに対してのみ影響があることに注意してください。ユーザーが同意を撤回した場合、Audience Manager の[インバウンドのバッチ処理](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)または以下に詳述される Audience Manager のオプトアウト処理を使用して、ユーザープロファイルからこれらの特性を削除できます。
 
-<br>
+<br> 
 
 **オプトアウトの管理／同意の撤回**
 
-Adobe Experience Cloud のオプトアウトは、[プライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html)ページで管理できます。お客様のエンドユーザーは 1 回のクリックで、Adobe Experience Cloud の広告ソリューション（Audience Manager を含む）によるデータ収集をオプトアウトできます。特に、プライバシーの選択肢ページの[企業顧客の節](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)を参照してください。サードパーティ Cookie をサポートしていないブラウザーについては、[宣言済み ID のターゲティング](../../features/declared-ids.md#declared-id-targeting)を参照してください。モバイルデバイスの場合、[宣言済み ID のオプトアウトの例](../../features/declared-ids.md#opt-out-examples)に従って、Audience Manager 識別子を取得し、Audience Manager オプトアウト API を呼び出してください。これに従えば、モバイル SDK のオプトアウト API を使用して、これらのユーザーを対象とするすべてのデータ収集をやめることができます。詳細については、[Android デバイス](https://marketing.adobe.com/resources/help/ja_JP/mobile/android/privacy.html)および [iOS デバイス](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/privacy.html)を参照してください。オプトアウトについて詳しくは、 [Audience Manager におけるオプトアウトに関するドキュメント](../../overview/data-security-and-privacy/opt-out-management.md)を参照してください。
+Adobe Experience Cloud のオプトアウトは、[プライバシーの選択肢](https://www.adobe.com/privacy/opt-out.html#customeruse)ページで管理できます。お客様のエンドユーザーは 1 回のクリックで、Adobe Experience Cloud の広告ソリューション（Audience Manager を含む）によるデータ収集をオプトアウトできます。特に、プライバシーの選択肢ページの[ビジネス関連の顧客のセクション](https://www.adobe.com/privacy/opt-out.html#customeruse)を参照してください。サードパーティ Cookie をサポートしていないブラウザーについては、[宣言済み ID のターゲティング](../../features/declared-ids.md#declared-id-targeting)を参照してください。モバイルデバイスの場合、[宣言済み ID のオプトアウトの例](../../features/declared-ids.md#opt-out-examples)に従って、Audience Manager 識別子を取得し、Audience Manager オプトアウト API を呼び出してください。これに従えば、モバイル SDK でオプトアウト API を使用することで、これらのユーザーのすべてのデータ収集を止めることができます。[Android デバイス](https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html)および [iOS デバイス](https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html)を参照してください。オプトアウトについて詳しくは、 [Audience Manager におけるオプトアウトに関するドキュメント](../../overview/data-security-and-privacy/opt-out-management.md)を参照してください。
 
-<br>
+<br> 
 
 **Audience Manager の GDPR に関連するアクセス要求および削除要求をアドビに送信**
 
-[GDPR クライアントサービスの UI](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/using-gdpr-ui.md) または [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md) の呼び出しを通じて、アクセスおよび削除のための個々の GDPR 要求を送信できます。要求を送信する際は、あらゆる [Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)と、それぞれの名前空間 ID （データソース ID）を含めることができます。CRM ID など、複数のデバイスにまたがる ID を送信した場合、Audience Manager は認証済みのプロファイルとそれに関連付けられたデバイス ID に基づき処理をおこないます。可能な限り、Audience Manager の一意のユーザー ID （AAM UUID）を使用することをお勧めします。
+[GDPR クライアントサービスの UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) を通して、または [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md) を呼び出すことで、アクセスおよび削除のための個々の GDPR 要求を送信できます。要求を送信する際は、あらゆる [Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)と、それぞれの名前空間 ID （データソース ID）を含めることができます。CRM ID など、複数のデバイスにまたがる ID を送信した場合、Audience Manager は認証済みのプロファイルとそれに関連付けられたデバイス ID に基づき処理をおこないます。可能な限り、Audience Manager の一意のユーザー ID （AAM UUID）を使用することをお勧めします。
 
-<br>
+<br> 
 
 **アクセス要求の管理**
 
 2018 年 5 月 25 日より前は、一意の ID に関連付けられた特性、顧客 ID およびセグメントに Audience Manager において手動でアクセスすることが可能でした。2018 年 5 月 25 日以降は、これらの要求は、様々な製品および機能強化されたサービスにおいて、上記のような方法でおこなわれます。データアクセス要求への応答には、特性、顧客 ID、セグメントに加え、特性とセグメントの合計数に関するサマリ、特性の種類、特性とセグメントの説明、およびそれぞれデータソース名が含まれます。アクセス要求への応答には、ファーストパーティのデータと共に、データ管理者がアクセスできるセカンドパーティおよびサードパーティのデータも含まれます。詳細については、[データアクセス要求](../../overview/aam-gdpr/aam-gdpr-details.md#access-data)を参照してください。
 
-<br>
+<br> 
 
 **削除要求の管理**
 
 2018 年 5 月 25 日より前は、一意の ID に関連付けられた特性、顧客 ID およびセグメントを Audience Manager において手動で削除することが可能でした。GDPR の施行を受けて、これらの要求は、様々な製品および機能強化されたサービスにおいて、上記のような方法でおこなわれます。削除処理に加えて、データ主体の個々の Audience Manager 識別子は以降のデータ収集からオプトアウトされ、それぞれの ID マッピングは削除されます。詳細については、[データの削除要求](../../overview/aam-gdpr/aam-gdpr-details.md#delete-data)を参照してください。
 
-<br>
+<br> 
 
 **セカンドパーティのデータプロバイダーとその同意の管理**
 
 セカンドパーティのデータプロバイダーはデータ管理者でもあることが多く、セカンドパーティのデータパートナーとデータを共有するために必要な同意をデータ主体から取得するための独自のプロセスがあります。セカンドパーティのデータプロバイダーが所定の用途に必要な同意を取得したかどうかを確認するのは、Audience Manager をご利用のお客様の責務となります。同意の取得に関する詳細については、上述したとおりです。
 
-<br>
+<br> 
 
 **サードパーティのデータプロバイダーとその同意の管理**
 
 データプロバイダーはデータ管理者でもあり、同意を取得し、アクセス／削除／修正の各要求を管理するための独自のプロセスがあります。アドビはデータプロバイダーに対し、[Adobe Audience Finder](https://www.adobe-audience-finder.com/) 内の企業のプロファイル情報を更新し、ユーザーデータの収集に関する情報を追加するよう積極的に呼びかけています。データプロバイダーから情報を取得し、2018 年第 2 四半期までにはツールを更新することを目標としています。ただし、サードパーティのデータプロバイダーが所定の用途に必要な合意を取得したかどうかを確認するのは、Audience Manager をご利用のそれぞれのお客様の責務となります。所定の用途のためにサードパーティのデータプロバイダーによって取得または報告された合意の範囲または妥当性について、アドビが意見を述べることはありません。
 
-<br>
+<br> 
 
 **Activation パートナーに対する削除要求の影響**
 
 特定のデータの削除を要求しているデータ主体のセグメント解除の情報を送信することで、Audience Manager からアクティベーションパートナーに対して削除要求が通知されます。ただし、一部のアクティベーションパートナーは、1）アドビからのセグメント解除（またはセグメント削除）要求をサポートしていない、2）30 日に 1 回より高い頻度でアドビからの更新を受け取ることができない、という状態のいずれかまたは両方である場合があります。このような場合、Audience Manager をご利用のお客様は、アクティベーションパートナーに対して Audience Manager から自動で削除要求を送信することはできません。「[GDPR 関連のセグメント解除のパートナーへの通知」ドキュメント](../../overview/aam-gdpr/aam-gdpr-partners.md)では、あらゆるアクティベーションパートナーについて、セグメント解除機能およびデータ交換の頻度に関する情報を提供します。
 
-<br>
+<br> 
 
 **Audience Manager におけるデータ保持**
 
 データに対して安全で適切なデータ保持ポリシーをタイムリーに適用することは、GDPR への準拠の重要な部分となります。Audience Manager をご利用のお客様は、所定の TTL （有効期間）を定義することで、特性およびセグメントの保持期間をカスタマイズ設定できます。[!UICONTROL Customer Data Feeds]（[!UICONTROL CDF]）および [!UICONTROL Batch Outbound] の要求の保持期間を 8 日間に削減しました。また、非アクティブな CRM のプロファイルと ID のマッピングに対しても保持期間が適用されます。保持期間の詳細については、[データ保持に関するよくある質問](../../faq/faq-privacy.md)を参照してください。
 
-<br>
+<br> 
 
 **データ修正要求の管理**
 
 Audience Manager はデータソースではないので、データ修正に対して Audience Manager でできることは限られています。修正においては、データ主体が不正確な特性／セグメントからの解除を求める場合、または正しい特性／セグメントへの適合を求める場合のいずれかとなります。Audience Manager をご利用のお客様は、ユーザープロファイルに合致する信号／特性／セグメントを取得し、オフラインのデータ収集を通してこの情報を Audience Manager に送信できます。ユーザーの動作が変わらない限り、元の特性およびセグメントに適合したままとなることにご注意ください。
 
-<br>
+<br> 
 
 **欧州圏域を超えたデータ転送**
 
-GDPR では、欧州圏外へのデータ転送を禁じていませんが、データ転送の際は、欧州におけるデータのプライバシー保護がそのまま適用されることが求められます。詳細については、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/eudatatransfers.html)にアクセスしてください。
+GDPR では、欧州圏外へのデータ転送を禁じていませんが、データ転送の際は、欧州におけるデータのプライバシー保護がそのまま適用されることが求められます。詳細については、[アドビプライバシーセンター](https://www.adobe.com/privacy/eudatatransfers.html)にアクセスしてください。
 
-<br>
+<br> 
 
 ## Audience Manager をご利用のお客様（データ管理者）向けの GDPR 対応ガイダンス{#gdpr-readiness-guidance}
 
@@ -143,7 +143,7 @@ GDPR では、欧州圏外へのデータ転送を禁じていませんが、デ
 
 アドビはデータ処理者であるので、GDPR 要求、およびデータ主体からの合意の取得のプロセスに関して、法的なアドバイスを提供することはできないことにご注意ください。御社の GDPR への準拠に関しては、御社の顧問弁護士にアドバイスを求めてください。
 
-<br>
+<br> 
 
 **データガバナンス：Audience Manager インスタンスにおける消費者データの管理方法について検討を始めてください**
 
@@ -156,7 +156,7 @@ GDPR では、欧州圏外へのデータ転送を禁じていませんが、デ
 * 適切なデータの[保持期間](../../faq/faq-privacy.md#data-retention-faq)を検討してください。
 * 一連の ID をいつどこでまとめるべきかを検討するために、また、Audience Manager の[プロファイル結合ルール](../../features/profile-merge-rules/merge-rules-overview.md)。
 
-<br>
+<br> 
 
 **組織的準備：ビジネスプロセスの構築**
 
