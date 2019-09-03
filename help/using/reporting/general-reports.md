@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 translation-type: tm+mt
-source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
+source-git-commit: 1c626c770208150d209d93f666b581113ada8de9
 
 ---
 
@@ -66,13 +66,13 @@ t_run_general_report.xml
 1. 「**[!UICONTROL Run Report]**」をクリックします。
 
    結果が書き出し可能な表形式で表示されます。列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
-2. Select the desired option button at the top of the report to filter data by performance ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], or [!UICONTROL Total Trait Population]) or by time (1, 7, 14, 30, 60, or 90 day range).
+1. Select the desired option button at the top of the report to filter data by performance ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], or [!UICONTROL Total Trait Population]) or by time (1, 7, 14, 30, 60, or 90 day range).
 
    >[!NOTE]
    >
    >[!UICONTROL Total Trait Realizations]は[!UICONTROL Rule-based Traits]に対してのみ計算されます。
 
-3. *（オプション）*「**[!UICONTROL Export to CSV]**」をクリックします。これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
+1. *（オプション）*「**[!UICONTROL Export to CSV]**」をクリックします。これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
 
 ## 一般レポートの結果の説明 {#general-reports-explained}
 
