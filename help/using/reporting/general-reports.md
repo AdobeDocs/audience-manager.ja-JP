@@ -5,8 +5,8 @@ seo-title: Audience Manager の一般的なレポート
 solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-translation-type: ht
-source-git-commit: 18bb00d494d44d7028dcc51dcb2fc57b23420142
+translation-type: tm+mt
+source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
 
 ---
 
@@ -28,7 +28,7 @@ c_general_reports.xml
 以下が必要な場合、[!UICONTROL General]レポートを実行します。
 
 * 特性、セグメントまたは出力先でパフォーマンスを確認する。
-* 1、7、14、30、60、90 日間およびライフタイム期間でインプレッション数（合計および個別）を追跡する。
+* 1、7、14、30、60および90日間隔で、インプレッション数（合計および個別）を追跡できます。
 * 合計および個別の読み込み数を確認する。
 * 特性とセグメントのパフォーマンスを比較する。
 * 強いまたは弱いパフォーマンス特性およびセグメントを特定したり、需要を分析したり、サードパーティレポートでデータの読み込み／実行を比較したりする。
@@ -66,13 +66,13 @@ t_run_general_report.xml
 1. 「**[!UICONTROL Run Report]**」をクリックします。
 
    結果が書き出し可能な表形式で表示されます。列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
-1. レポートの上部にある目的のオプションボタンを選択して、データをパフォーマンス（[!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、または [!UICONTROL Total Trait Population]）または時間（1 日、7 日、14 日、30 日、60 日、90 日の範囲、または無期限）を基準にフィルタリングできます。
+2. Select the desired option button at the top of the report to filter data by performance ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], or [!UICONTROL Total Trait Population]) or by time (1, 7, 14, 30, 60, or 90 day range).
 
    >[!NOTE]
    >
    >[!UICONTROL Total Trait Realizations]は[!UICONTROL Rule-based Traits]に対してのみ計算されます。
 
-1. *（オプション）*「**[!UICONTROL Export to CSV]**」をクリックします。これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
+3. *（オプション）*「**[!UICONTROL Export to CSV]**」をクリックします。これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
 
 ## 一般レポートの結果の説明 {#general-reports-explained}
 
