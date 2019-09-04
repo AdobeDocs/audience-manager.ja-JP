@@ -6,8 +6,8 @@ seo-title: 実用的なログファイル
 solution: Audience Manager
 title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: dbc96973ed2214d171fe32b7e1314d40c22c2d79
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 [!UICONTROL Actionable Log Files]および [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)の使用を開始するには、DCM ログデータを [!DNL Audience Manager] に読み込む必要があります。[DCM データファイルを Audience Manager にインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
 
-既に [!UICONTROL DCM] ログデータを [!DNL Audience Manager] に読み込んでいる場合、ログデータをインポートしている場合は、担当の [!DNL Audience Manager] コンサルタントにお問い合わせいただくか、[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)に連絡し、[!UICONTROL Actionable Log Files]を有効化してもらってください。
+If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
 
 >[!NOTE] {importance="high"}
 >
@@ -57,7 +57,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   <tr> 
    <th colname="col1" class="entry"> シグナル </th> 
    <th colname="col2" class="entry"> 説明 </th> 
-   <th colname="col3" class="entry"> 値の例 </th> 
+   <th colname="col3" class="entry"> 例 Value </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -88,7 +88,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col2"> <p>広告主 ID。このフィールドは、DCM の広告主グループ ID にマッピングされます。 </p> </td> 
+   <td colname="col2"> <p>広告主 ID。</p> <p>広告主のデータソースの統合コード。これはAudience Managerデータソースとは関係ありません。</p> <p>このフィールドは、DCM の広告主グループ ID にマッピングされます。 </p> </td> 
    <td colname="col3"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -152,7 +152,7 @@ https://sample.demdex.net?d_src=743&d_uuid=0795526165288603295014370250589427213
 
 ### Audience Optimization レポートまたは Audience Lab で DCM フラッドライトアクティビティを使用
 
-[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=jp)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[!DNL DCM]Audience Optimization レポート[または](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audience Lab[ で ](../../features/audience-lab/audience-lab.md) コンバージョンを追跡できます。
+[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=en)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[!DNL DCM]Audience Optimization レポート[または](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audience Lab[ で ](../../features/audience-lab/audience-lab.md) コンバージョンを追跡できます。
 
 1. 特性を作成し、広告サーバーログからコンバージョンを取得する次の特性ルールを使用します。
 
