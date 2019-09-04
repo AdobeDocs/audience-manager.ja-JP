@@ -3,8 +3,8 @@ seo-title: サーバー間 DCS API 呼び出しの実行
 solution: Audience Manager
 title: サーバー間 DCS API 呼び出しの実行
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -21,9 +21,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 [!UICONTROL DCS] にデータを送信する基本的なサーバー間要求の構文は次のとおりです。
 
-<pre><code>
-"Host:<i>domain alias</i>.demdex.net" "https://<i>DCS host name</i>.demdex.net/event?d_rtbd=json&amp;d_jsonv=1&amp;d_uuid=<i>user ID</i>.
-</code></pre>
+<pre><code>"Host:<i>domain alias</i>.demdex.net" "https://<i>DCS host name</i>.demdex.net/event?d_rtbd=json&amp;d_jsonv=1&amp;d_uuid=<i>user ID</i>.</code></pre>
 
 呼び出しのサンプルは次の例のようになります。
 
