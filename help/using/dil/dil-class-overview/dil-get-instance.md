@@ -6,8 +6,8 @@ seo-title: getDil
 solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
-translation-type: ht
-source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
+translation-type: tm+mt
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -33,7 +33,5 @@ source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
 
 ## サンプルコード
 
-<pre class="java"><code>
-DIL.getDil('<i>partner</i>', <i>containerNSID</i>); 
-DIL.getDil('<i>partner</i>');
-</code></pre>
+<pre class="java"><code>DIL.getDil('<i>partner</i>', <i>containerNSID</i>); 
+DIL.getDil('<i>partner</i>');</code></pre>
