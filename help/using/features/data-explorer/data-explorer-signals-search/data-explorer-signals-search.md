@@ -3,8 +3,8 @@ description: 特定の期間に受信した使用済みおよび未使用のシ�
 seo-description: 特定の期間に受信した使用済みおよび未使用のシグナルを検索します。シグナルを検索するには、Audience Data／Signals／Search に移動します。
 seo-title: シグナル検索
 title: シグナル検索
-translation-type: ht
-source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
+translation-type: tm+mt
+source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
 
 ---
 
