@@ -1,20 +1,20 @@
 ---
 description: Audience Marketplace データ購入者は、広告インプレッション数 1,000 回あたりのコスト（CPM）単位の価格で、データフィードに含まれる特性を使用して提供されたすべての広告インプレッション数をレポートすることに同意します。CPM 使用は、毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
 seo-description: Audience Marketplace データ購入者は、広告インプレッション数 1,000 回あたりのコスト（CPM）単位の価格で、データフィードに含まれる特性を使用して提供されたすべての広告インプレッション数をレポートすることに同意します。CPM 使用は、毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
-seo-title: データフィードバイヤーに対する請求
+seo-title: データフィード購入者に対する請求
 solution: Audience Manager
-title: データフィードバイヤーに対する請求
+title: データフィード購入者に対する請求
 keywords: セグメントレベルのレポート、セグメントレベル、セグメントレベル
 uuid: d7236667-282b-4160-9909-579721af4016
 translation-type: tm+mt
-source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
 
-# データフィードバイヤーに対する請求 {#billing-for-data-feed-buyers}
+# データフィード購入者に対する請求{#billing-for-data-feed-buyers}
 
-Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions ([!DNL CPM]) basis. [!DNL CPM] 使用は、毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
+Audience Marketplace データ購入者は、広告インプレッション数 1,000 回あたりのコスト（[!DNL CPM]）単位の価格で、データフィードに含まれる特性を使用して提供されたすべての広告インプレッション数をレポートすることに同意します。[!DNL CPM] 使用は、毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
 
 <br> 
 
@@ -22,12 +22,12 @@ Audience Marketplace data buyers agree to report all ad impressions served using
 
 <!-- t_marketplace_report_cpm_usage.xml -->
 
-[!UICONTROL Audience Marketplace] データ購入者は、広告インプレッション数 1,000 回あたりのコスト（）単位の価格で、データフィードに含まれる特性を使用して提供されたすべての広告インプレッション数をレポートすることに同意します。[!DNL CPM][!DNL CPM] の使用状況は毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
+[!UICONTROL Audience Marketplace] データ購入者は、広告インプレッション数 1,000 回あたりのコスト（[!DNL CPM]）単位の価格で、データフィードに含まれる特性を使用して提供されたすべての広告インプレッション数をレポートすることに同意します。[!DNL CPM] の使用状況は毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
 
-[!UICONTROL Audience Marketplace] には、使用状況をレポート [!DNL CPM] する2つの方法があります。
+[!UICONTROL Audience Marketplace] では、次の 2 種類の方法で [!DNL CPM] の使用状況をレポートできます。
 
-* **セグメントレベルのレポート**[!DNL CPM]：こちらが推奨される の使用状況のレポート方法です。When you report [!DNL CPM] usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts, based on the algorithms described in [Cost Attribution for CPM Data Feeds](#cost-attribution).
-* **データフィードレベルのレポート**[!DNL CPM]：この方法では、[ データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、データフィードごとに CPM 使用状況を個別にレポートする必要があります。ただし、この方法はセグメントレベルのレポートに比べて煩雑であり、エラーが生じやすくなります。
+* **セグメントレベルのレポート**：こちらが推奨される [!DNL CPM]の使用状況のレポート方法です。セグメントレベルで [!DNL CPM] の使用状況をレポートする場合、データフィードレベルのレポートセクションには、[CPM データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、対応する使用量が自動で入力されます。
+* **データフィードレベルのレポート**：この方法では、[ データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、データフィードごとに [!DNL CPM] 使用状況を個別にレポートする必要があります。ただし、この方法はセグメントレベルのレポートに比べて煩雑であり、エラーが生じやすくなります。
 
 <br> 
 
@@ -35,52 +35,54 @@ Audience Marketplace data buyers agree to report all ad impressions served using
 
 「[!UICONTROL Segment Usage]」タブには、セグメントがマッピング先の宛先ごとにグループ化されて表示され、セグメントレベルでの使用状況をレポートすることができます。
 
-After reporting [!DNL CPM] usage at segment level, [!UICONTROL Audience Marketplace] automatically assigns the corresponding data feeds the correct usage, based on the [Cost Attribution for CPM Data Feeds](#cost-attribution).
+セグメントレベルで [!DNL CPM] の使用状況を報告すると、[!UICONTROL Audience Marketplace] により、[CPM データフィードのコスト配分](#cost-attribution)に基づいて、対応するデータフィードに正確な使用状況が自動的に割り当てられます。
 
-To report [!DNL CPM] usage at segment level:
+セグメントレベルで [!DNL CPM] 使用状況をレポートするには：
 
-1. 移動 **[!UICONTROL Audience Marketplace > Payables]**&#x200B;先
-2. **[!UICONTROL Segment Usage]** タブを選択します。
-3. セグメントの使用量を入力します。使用状況をレポートする必要があるセグメントが一部に限られている場合は、「[!UICONTROL Search]」ボックスを使用して、セグメントをフィルタリングできます。
-4. **[!UICONTROL Edit Segments Usage]**&#x200B;をクリックします。
-5. Enter the [!DNL CPM] usage amount in the [!UICONTROL Usage] column.
-6. 入力が完了したら「**[!UICONTROL Save]**」をクリックして、確認ダイアログで内容を確認します。
+1. **[!UICONTROL Audience Marketplace > Payables]** へ移動します。
+1. 「**[!UICONTROL Segment Usage]**」タブを選択します。
+1. セグメントの使用状況を入力します。使用状況をレポートする必要があるセグメントが一部に限られている場合は、「[!UICONTROL Search]」ボックスを使用して、セグメントをフィルタリングできます。
+1. 「**[!UICONTROL Edit Segments Usage]**」をクリックします。
+1. [!UICONTROL Usage] 列に [!DNL CPM] の使用量を入力します。
+1. 入力が完了したら「**[!UICONTROL Save]**」をクリックして、確認ダイアログで内容を確認します。
+
    ![confirm-segment-usage](assets/confirm-segment-usage.png)
-7. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 
-<br> 
+1. 「**[!UICONTROL Confirm]**」をクリックします。
+
+ 
 
 ## データフィードレベルでの CPM 使用状況のレポート {#feed-level-report}
 
-Data feed-level reporting is a more tedious and prone to error process, since you must individually calculate [!DNL CPM] usage for each data feed. 代わりに、[セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)をお勧めします。
+データフィードレベルのレポートは、データフィードごとに [!DNL CPM] の使用量を個別に計算する必要があるので、煩雑でありエラーが発生しやすくなります。代わりに、[セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)をお勧めします。
 
-To report [!DNL CPM] usage at segment level:
+セグメントレベルで [!DNL CPM] 使用状況をレポートするには：
 
-1. 移動 **[!UICONTROL Audience Marketplace > Payables]**&#x200B;先
-2. **[!UICONTROL Feed Usage]** タブを選択します。
-3. 「[!UICONTROL Search]」ボックスを使用してデータフィードをフィルタリングし、使用量をレポートするデータフィードを見つけます。
-4. **[!UICONTROL Edit Feeds Usage]**&#x200B;をクリックします。
-5. Calculate the [!DNL CPM] usage for each data feed based on the [Cost Attribution for CPM Data Feeds](#cost-attribution), and enter it in the [!UICONTROL Usage] column.
-6. 入力が完了したら「**[!UICONTROL Save]**」をクリックして、確認ダイアログで内容を確認します。
+1. **[!UICONTROL Audience Marketplace > Payables]** へ移動します。
+1. 「**[!UICONTROL Feed Usage]**」タブを選択します。
+1. 「[!UICONTROL Search]」ボックスを使用してデータフィードをフィルタリングし、使用状況をレポートするデータフィードを見つけます。
+1. 「**[!UICONTROL Edit Feeds Usage]**」をクリックします。
+1. [データフィードのコスト配分](#cost-attribution)に基づいて各データフィードの [!DNL CPM] 使用量を計算し、計算結果を [!UICONTROL Usage] 列に入力します。
+1. 入力が完了したら「**[!UICONTROL Save]**」をクリックして、確認ダイアログで内容を確認します。
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-7. **[!UICONTROL Confirm]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Confirm]**」をクリックします。
 
 <br> 
 
 ## 一括レポート
 
-[!DNL CPM] レポートの使用中にエラーとオーバーヘッドを軽減するには、バルクレポートオプションを使用して、データフィードおよびセグメントを含む [!DNL CSV] ファイルをダウンロードし、使用状況に記入してアップロードします [!DNL Audience Manager]。一括レポートは、フィードの使用量およびセグメントの使用量の両方に使用できます。
+一括レポートオプションを使用すると、データフィードとセグメントが含まれる [!DNL CSV] ファイルをダウンロードし、このファイルに使用量を記入して [!DNL Audience Manager] にアップロードすることで、[!DNL CPM] 使用状況をレポートする際のエラーとオーバーヘッドを抑えることができます。一括レポートは、フィードの使用量およびセグメントの使用量の両方に使用できます。
 
-To update [!DNL CPM] usage in bulk:
+[!DNL CPM] の使用状況を一括で更新するには：
 
-1. 移動 **[!UICONTROL Audience Marketplace > Payables]**&#x200B;先
-1. Select the **[!UICONTROL Feed Usage]** or **[!UICONTROL Segment Usage]** tab, depending on the type of reporting that you want to update.
-1. また **[!UICONTROL Edit Feeds Usage]****[!UICONTROL Edit Segments Usage]**&#x200B;はをクリックします。
-1. Click **[!UICONTROL download the current usage]** to make sure you use a valid CSV file.
+1. **[!UICONTROL Audience Marketplace > Payables]** へ移動します。
+1. 更新するレポートの種類に応じて、「**[!UICONTROL Feed Usage]**」タブまたは「**[!UICONTROL Segment Usage]**」タブを選択します。
+1. 「**[!UICONTROL Edit Feeds Usage]**」または「**[!UICONTROL Edit Segments Usage]**」をクリックします。
+1. 「**[!UICONTROL download the current usage]**」をクリックして、有効な CSV ファイルを取得します。
 1. ダウンロードしたファイルをコンピューター上で開き、使用状況レポートに入力します。
-1. Click **[!UICONTROL Choose a CSV file]** to upload the updated usage report.
+1. 「**[!UICONTROL Choose a CSV file]**」をクリックして、更新した使用状況レポートをアップロードします。
 
    ![usage-report-csv](assets/usage-report-csv.png)
 
@@ -92,14 +94,14 @@ To update [!DNL CPM] usage in bulk:
 
 | エラーメッセージ | 説明 | 対策 |
 | ------------- | -------------| -----|
-| Invalid Input | [!DNL Audience Manager][!DNL CSV] で、列の不足や列タイトルの変更など、 ファイルスキーマの変更が検出されました。 | テーブルの構造は変更しないでください。 |
-| Not Found | のため [!UICONTROL Segment Level Reporting][!DNL Audience Manager] 、 [!UICONTROL Segment ID][!UICONTROL Destination ID] および組み合わせを識別できませんでした。のため [!UICONTROL Feed Level Reporting][!DNL Audience Manager] に、および [!UICONTROL Data Provider Name][!UICONTROL Feed Name][!UICONTROL Use Case] と組み合わせを識別できませんでした。 | の場合 [!UICONTROL Segment Level Reporting]は、および組み合わせの有効性を [!UICONTROL Segment ID] 確認 [!UICONTROL Destination ID] してください。の場合 [!UICONTROL Feed Level Reporting]は、その [!UICONTROL Data Provider Name]有効 [!UICONTROL Feed Name]性および [!UICONTROL Use Case] 組み合わせの有効性を確認してください。 |
+| Invalid Input | [!DNL Audience Manager] で、列の不足や列タイトルの変更など、[!DNL CSV] ファイルスキーマの変更が検出されました。 | テーブルの構造は変更しないでください。 |
+| Not Found | [!UICONTROL Segment Level Reporting] の場合、[!DNL Audience Manager] は [!UICONTROL Segment ID] と [!UICONTROL Destination ID] の組み合わせを特定できませんでした。[!UICONTROL Feed Level Reporting] の場合、[!DNL Audience Manager] は [!UICONTROL Data Provider Name] と、[!UICONTROL Feed Name]、[!UICONTROL Use Case] の組み合わせを特定できませんでした。 | [!UICONTROL Segment Level Reporting] の場合は、[!UICONTROL Segment ID] と [!UICONTROL Destination ID] の組み合わせの有効性を確認してください。[!UICONTROL Feed Level Reporting] の場合は、[!UICONTROL Data Provider Name] と [!UICONTROL Feed Name]、[!UICONTROL Use Case] の組み合わせの有効性を確認してください。 |
 | Duplicate Records Found | [!DNL Audience Manager] で、インプレッションの値が異なる重複したレコードが検出されました。 | レポートをチェックして、同じデータフィードまたはセグメントについて複数の使用量の値をレポートしていないか確認してください。 |
 | Values Not Supported | [!DNL Audience Manager] で、[!DNL Audience Manager] 列に数字以外の値が検出されました。 | レポートをチェックして、[!DNL Audience Manager] 列に数値のみを入力していることを確認してください。 |
-| Headers for Mandatory Fields Missing | [!DNL Audience Manager] で、必須フィールドのテーブルヘッダーが不足していることが検出されました。ここ [!UICONTROL Segment Level Reporting]では、必須フィールドは次のとおりです。 [!UICONTROL Segment ID]， [!UICONTROL Destination ID].ここ [!UICONTROL Feed Level Reporting]では、必須フィールドは次のとおりです。 [!UICONTROL Data Provider Name]， [!UICONTROL Data Feed Name]，， [!UICONTROL Use Case] | レポートをチェックして、テーブルヘッダーが変更されていないことを確認してください。 |
+| Headers for Mandatory Fields Missing | [!DNL Audience Manager] で、必須フィールドのテーブルヘッダーが不足していることが検出されました。[!UICONTROL Segment Level Reporting] の場合、必須フィールドは [!UICONTROL Segment ID] と [!UICONTROL Destination ID] です。[!UICONTROL Feed Level Reporting] の場合、必須フィールドは [!UICONTROL Data Provider Name]、[!UICONTROL Data Feed Name]、[!UICONTROL Use Case] です。 | レポートをチェックして、テーブルヘッダーが変更されていないことを確認してください。 |
 
 >[!NOTE]
->[!DNL CSV] 使用状況レポートから行を削除しても、既存の使用状況レポートには影響しません。[!DNL Audience Manager] では、レポートに含まれているフィールドのみが処理されます。
+>[!DNL CSV] 使用状況レポートの行を削除しても、既存の使用状況レポートには影響しません。[!DNL Audience Manager] では、レポートに含まれているフィールドのみが処理されます。
 
 <br> 
 
@@ -108,7 +110,7 @@ To update [!DNL CPM] usage in bulk:
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Recommendations </th> 
+   <th colname="col1" class="entry"> 推奨事項 </th> 
    <th colname="col2" class="entry"> 説明 </th> 
   </tr>
  </thead>
@@ -116,11 +118,11 @@ To update [!DNL CPM] usage in bulk:
   <tr> 
    <td colname="col1"> <p><b>常にインプレッションの合計数をレポートする</b> </p> </td> 
    <td colname="col2"> <p>CPM インプレッションの合計数の場合： </p>
-   <p> 小数を使用せずに、インプレッションの合計数をレポートします。Audience Managerは、レポートの合計数に基づいてCPMを自動的に計算します。</p><p>1,234,567 個のインプレッションをレポートする場合は、この数字をそのままレポートしてください。インプレッションの合計数を 1,000 で割って、CPM を算出する必要はありません。</p><p>Adobe TargetやAnalyticsの宛先などのツールを使用してWebまたはアプリコンテンツ（コンテンツの最適化）を最適化するために使用される特性は、CPMプランの使用の合計には貢献しません。データプロバイダーは通常、定額プランを使用してコンテンツ最適化による報酬を得ています。</p><p>詳しくは、<a href="#cost-attribution">CPM データフィードのコスト配分</a>を参照してください。 </p> </td>
+   <p> 小数を使用せずに、インプレッションの合計数をレポートします。Audience Managerは、レポートした合計数に基づいて CPM が自動で計算されます。</p><p>1,234,567 個のインプレッションをレポートする場合は、この数字をそのままレポートしてください。インプレッションの合計数を 1,000 で割って、CPM を算出する必要はありません。</p><p>Adobe Target や Analytics の宛先などのツールで、Web またはアプリのコンテンツを最適化するための特性（コンテンツ最適化）は、CPM プランの使用量の合計には影響しません。データプロバイダーは通常、定額プランを使用してコンテンツ最適化による報酬を得ています。</p><p>詳しくは、<a href="#cost-attribution">CPM データフィードのコスト配分</a>を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>毎月の報告期限を順守する</b> </p> </td> 
-   <td colname="col2"> <p>レポートシステムは、毎月 5 日にクローズします。この日までに CPM の使用状況を報告できなかった場合、その分を翌月のレポートに追加しなければなりません。例えば、10 月に 1000 件のインプレッションを使用して、10 月分の締切までに報告できず、11 月には 1000 件のインプレッションを使用したとします。この場合、10 月と 11 月の合計（2000）を、12 月 1 日から 5 日までの間に報告します。</p><p><b>ヒント</b>:今月の最初の月と5日目の間のCPM使用量は、常に報告してください。</p><p>CPM の使用状況の報告締切日は翌月 5 日ですが、推奨はされていません。各月5日より前にCPMの使用を報告すると、Audience Managerの時間がデータのチェックおよび処理に費やされます。</p> </td>
+   <td colname="col2"> <p>レポートシステムは、毎月 5 日にクローズします。この日までに CPM の使用状況を報告できなかった場合、その分を翌月のレポートに追加しなければなりません。例えば、10 月に 1000 件のインプレッションを使用して、10 月分の締切までに報告できず、11 月には 1000 件のインプレッションを使用したとします。この場合、10 月と 11 月の合計（2000）を、12 月 1 日から 5 日までの間に報告します。</p><p><b>ヒント</b>：前月分の CPM の使用状況は、翌月の 1 日から 5 日までの間に報告するようにしてください。</p><p>CPM の使用状況の報告締切日は翌月 5 日ですが、推奨はされていません。毎月 5 日までに CPM の使用状況を報告すると、Audience Manager でデータの確認と処理をおこなう時間ができます。</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -129,33 +131,33 @@ To update [!DNL CPM] usage in bulk:
 
 ## CPM データフィードのコスト配分 {#cost-attribution}
 
-[!UICONTROL Audience Marketplace] では、ユーザーがセグメントごとに各月のインプレッションの量を自己申告する必要があります。We recommend reporting [!DNL CPM] usage at segment level, so that cost attribution is done automatically.
+[!UICONTROL Audience Marketplace] では、ユーザーがセグメントごとに各月のインプレッションの量を自己申告する必要があります。コスト配分が自動的におこなわれる、セグメントレベルでの [!DNL CPM] 使用状況のレポートをお勧めします。
 
 <!-- marketplace_cpm_billing.xml -->
 
 ### 請求の概要 {#billing-summary}
 
-You must submit [!DNL CPM] data feed impression amounts between the 1st and the 5th days of each calendar month. これを適切におこなうために、[セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)をお勧めします。
+各月の 1 日から 5 日までに、[!DNL CPM] データフィードのインプレッションの量を報告する必要があります。これを適切におこなうために、[セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)をお勧めします。
 
 >[!TIP]
->When you report [!DNL CPM] usage at segment level, the data feed-level reporting section is automatically filled in with the corresponding usage amounts.
+>セグメントレベルで [!DNL CPM] の使用状況をレポートする場合、データフィードレベルのレポートセクションには、対応する使用量が自動で入力されます。
 
-Should you need to [!UICONTROL Report CPM Usage at Data Feed Level], you must individually compile all impressions delivered for each feed in the previous calendar month, and report them according to the billing allocation described in this article.
+[!UICONTROL Report CPM Usage at Data Feed Level] が必要な場合は、前月に各フィードで配信されたすべてのインプレッション数をそれぞれ合計し、この記事で説明する請求配分に応じてレポートする必要があります。
 
-After you report [!DNL CPM] number for the previous calendar month, [!DNL Adobe] will do the following:
+前月の [!DNL CPM] 数の報告を受けた後、[!DNL Adobe] は次の作業をおこないます。
 
-* Create an invoice and bill you based on the [!DNL CPM] rate for each subscribed data feed.
-* Pay data providers (sellers) fees owed based on your reported [!DNL CPM] use.
+* 請求書を作成し、購読されているデータフィードごとの [!DNL CPM] 価格に基づいて請求します。
+* 報告された [!DNL CPM] の使用状況に基づいて、データプロバイダー（販売者）に料金を支払います。
 
 >[!IMPORTANT]
 >
->バイヤーとして報告するインプレッションの合計は、真実かつ正確でなければなりません。インプレッションの合計を毎月 5 日までに報告しない場合、報告されていない分の月の合計は翌月に報告しなければなりません。
+>購入者として報告するインプレッションの合計は、真実かつ正確でなければなりません。インプレッションの合計を毎月 5 日までに報告しない場合、報告されていない分の月の合計は翌月に報告しなければなりません。
 
 <br> 
 
 ## 特性認定ルールに基づくフィードレベルでのインプレッションの配分 {#assign-impressions}
 
-[!UICONTROL Activation] ユースケースでは、[セグメントビルダー](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74)で対応するデータフィードの特性を使用してセグメントを作成し、宛先にマッピングすることができます。The Boolean operators [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT] let you set the conditions for trait and segment qualification.
+[!UICONTROL Activation] ユースケースでは、[セグメントビルダー](../../../features/segments/segment-builder.md)で対応するデータフィードの特性を使用してセグメントを作成し、宛先にマッピングすることができます。ブール演算子 [!UICONTROL AND]、[!UICONTROL OR]、および [!UICONTROL NOT] を使用すると、特性とセグメントの認定の条件を設定できます。
 
 [データフィードレベルで CPM 使用状況をレポートする](#feed-level-report)場合は、特性の認定ルールで使用する [!DNL Boolean] 演算子に従い、各データフィードにインプレッションを比例配分する必要があります。次の表は、ブール演算ルールまたは特性タイプによりインプレッションを適切に配分する方法を示しています。
 
@@ -176,7 +178,7 @@ After you report [!DNL CPM] number for the previous calendar month, [!DNL Adobe]
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OR</span> </p> </td> 
-   <td colname="col2"> <p>ブールOR条件を使用するルールベースのセグメントのすべてのプロバイダー特性に、配信されたインプレッションの合計の重み付き割り当てを適用します。重み付け配分は次の数式で計算します。</p><p><code>(特性の母性集団 / セグメント母集団) * インプレッション数 * CPM のコスト</code></p> </td> 
+   <td colname="col2"> <p>配信されたインプレッション合計の重み付け配分を、ブール演算子 OR 条件を使用するルールベースのセグメントのすべてのプロバイダー特性に適用します。重み付け配分は次の数式で計算します。</p><p><code>(Trait Population / Segment Population) * インプレッションの数 * CPM のコスト</code></p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle">NOT</span> </p> </td> 
@@ -191,14 +193,14 @@ After you report [!DNL CPM] number for the previous calendar month, [!DNL Adobe]
 
 <br> 
 
-## 請求の例 {#billing-examples}
+## 請求例 {#billing-examples}
 
-The examples below are meant to illustrate how [!DNL CPM] usage allocation is done at data feed level.
+以下の例で、データフィードレベルでの [!DNL CPM] の使用量の配分方法について説明します。
 
 >[!IMPORTANT]
 >この方法の代わりに、処理が自動でおこなわれる[セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)をお勧めします。
 
-次のシナリオを考えてみましょう。
+次のシナリオについて考えます。
 
 ![請求例](assets/billing-examples.png)
 
@@ -210,7 +212,7 @@ The examples below are meant to illustrate how [!DNL CPM] usage allocation is do
 
 ![](assets/billing-segment-and.png)
 
-[!UICONTROL AND] 条件を使用する場合、月内に受け取ったインプレッションの 100％を、3 つすべてのデータプロバイダーに割り当てる必要があります。[!UICONTROL Audience Marketplace > Payables] このセクションでは、1,000,000インプレッションの各プロバイダーにクレジットを与えます。
+[!UICONTROL AND] 条件を使用する場合、月内に受け取ったインプレッションの 100％を、3 つすべてのデータプロバイダーに割り当てる必要があります。[!UICONTROL Audience Marketplace > Payables]セクションで、各プロバイダーに 1,000,000 件のインプレッションを計上します。
 
 この例は、[!DNL Boolean][!UICONTROL NOT] 演算子を使用するセグメント、またはアルゴリズム特性を含むセグメントに該当します。
 
@@ -220,7 +222,7 @@ The examples below are meant to illustrate how [!DNL CPM] usage allocation is do
 
 このセグメントには、別々のデータプロバイダーからの特性が 3 件あります。セグメント認定は [!UICONTROL OR] 条件に基づいているので、訪問者がセグメントの対象として認定されるには、3 つのフィードのうち少なくとも 1 つからの特性を適合する必要があります。
 
-認定は [!UICONTROL OR] 条件に基づいているので、どちらの特性がインプレッションに対応しているかは判別できません。As a result, in the [!UICONTROL Audience Marketplace > Payables] section you credit each provider with a weighted allocation of the total impressions, based on trait population.
+認定は [!UICONTROL OR] 条件に基づいているので、どちらの特性がインプレッションに対応しているかは判別できません。このため、[!UICONTROL Audience Marketplace > Payables] セクションで、特性の母集団に基づいて、インプレッションの合計数を各プロバイダーに重み付け配分し、計上します。
 
 ![billing-segment-or](assets/billing-segment-or.png)
 
