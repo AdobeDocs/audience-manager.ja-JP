@@ -5,8 +5,8 @@ seo-title: DCS へのデータ送信
 solution: Audience Manager
 title: DCS へのデータ送信
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -24,8 +24,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 `URL` にデータを送信する基本的な [!UICONTROL DCS] 文字列の構文は次のとおりです。
 
 <pre><code>
-https://<i>domain alias</i>.demdex.net/event? <i>key1</i>=<i>val1</i>,&amp;<i>key2</i>=<i>val2</i>&amp;d_dst=1&amp;d_rtbd=json&amp;d_cb=<i>callback</i>
-</code></pre>
+https://<i>domain alias</i>.demdex.net/event? <i>key1</i>= <i>val1</i>,&amp;<i>key2</i>= <i>val2</i>&amp;d_dst=1&amp;d_rtbd=json&amp;d_cb=<i>callback</i></code></pre>
 
 >[!NOTE]
 >
@@ -85,7 +84,7 @@ https://<i>domain alias</i>.demdex.net/event? <i>key1</i>=<i>val1</i>,&amp;<i>ke
 
 ## サンプル呼び出し {#dcs-sample-call}
 
-この例では架空の企業 [!DNL Acme, Inc.] 社が HTTP 呼び出しを通じて [!UICONTROL DCS] にデータを送信しています。この呼び出しにはオプションパラメーター `d_dst=1`、`d_rtbd=json`、`d_cb=callback` が含まれています。これらのパラメーターは、[!DNL Acme] 社がコールバック関数で [!DNL JSON] から [!UICONTROL DCS] 応答を受信しようとしていることを示しています。なお、これは例にすぎません。このコードを他の用途にそのまま使用しないでください。
+この例では架空の企業 [!DNL Acme, Inc.] 社が 呼び出しを通じて [!UICONTROL DCS] にデータを送信しています。[!DNL HTTP]この呼び出しにはオプションパラメーター `d_dst=1`、`d_rtbd=json`、`d_cb=callback` が含まれています。これらのパラメーターは、[!DNL Acme] 社がコールバック関数で [!DNL JSON] から [!UICONTROL DCS] 応答を受信しようとしていることを示しています。なお、これは例にすぎません。このコードを他の用途にそのまま使用しないでください。
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
