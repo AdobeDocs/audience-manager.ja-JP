@@ -5,7 +5,7 @@ seo-title: Twitterにカスタマイズされたオーディエンスをセル�
 solution: Audience Manager
 title: Twitterにカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 translation-type: tm+mt
-source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
+source-git-commit: a16734f652f3c398f12660671103f5478cfdd89e
 
 ---
 
@@ -19,8 +19,9 @@ source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
 送信先を [!DNL Twitter Tailored Audiences] 設定する前に、以下のTwitterの前提条件を確認してください。
 
 1. [!DNL Twitter Ads] アカウントは広告の資格がある必要があります。新規 [!DNL Twitter Ads] アカウントは、作成後の最初の2週間で広告の資格がありません。
-2. Audience Managerでアクセス権限を付与したTwitterユーザーアカウントに [は、パートナーAudience Manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 権限が有効になっている必要があります。
-3. 既存のTwitter統合をセルフサービス管理に [更新する場合、Twitterユーザーアカウント](#update-existing-twitter-integrations)に [は広告マネージャー](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) の権限が有効になっている必要があります。
+1. Audience Managerでアクセス権限を付与したTwitterユーザーアカウントに [は、パートナーAudience Manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 権限が有効になっている必要があります。
+1. 既存のTwitter統合をセルフサービス管理に [更新する場合、Twitterユーザーアカウント](#update-existing-twitter-integrations)に [は広告マネージャー](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) の権限が有効になっている必要があります。
+2. Audience Managerインスタンスで最初 [!DNL Twitter Tailored Audiences] の宛先を作成する場合、アカウントにID同期（データソースID=1123）を [!DNL Twitter] 有効にするには、アドビコンサルティングまたはカスタマーケアにお問い合わせください。Audience Managerとの間の正しい同期に必要 [!DNL Twitter]です。
 
 ## [!DNL Twitter Tailored Audiences] 新しい宛先の追加 {#add-new-twitter-destination}
 
