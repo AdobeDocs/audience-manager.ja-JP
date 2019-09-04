@@ -6,8 +6,8 @@ seo-title: 宣言済み ID
 solution: Audience Manager
 title: 宣言済み ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-translation-type: ht
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+translation-type: tm+mt
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
  <tbody> 
   <tr> 
    <td colname="col1"> <b>イベント呼び出し</b> </td> 
-   <td colname="col2"> <p>機能するには、ページに <span class="wintitle">DIL</span> と <a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/" format="https" scope="external">Experience Cloud ID サービス</a>コードが必要です。<span class="wintitle"></span><span class="wintitle"></span>DIL では、<code>setVisitorID</code> 関数で宣言された ID を Experience Cloud ID サービスから取得して <span class="keyword">Audience Manager</span> に渡します。<span class="keyword"></span> </p> </td> 
+   <td colname="col2"> <p>機能するには、ページに <span class="wintitle">DIL</span> と <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">Experience Cloud ID サービス</a>コードが必要です。<span class="wintitle"></span><span class="wintitle"></span>DIL では、<code>setVisitorID</code> 関数で宣言された ID を Experience Cloud ID サービスから取得して <span class="keyword">Audience Manager</span> に渡します。<span class="keyword"></span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID のマッチング</b> </td> 
@@ -60,7 +60,7 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 [!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、Audience Manager によるターゲティングを Web サイトでオプトアウトすることができます。Audience Manager がオプトアウト要求を受信した場合、[!UICONTROL DCS] から返される [!DNL JSON] には、Audience Manager ユーザー ID ではなく、エラーコード 171 と「Encountered opt out tag」というメッセージが含まれています。
 
 * Audience Manager では、[!DNL URL] で Audience Manager [!UICONTROL UUID] と一緒に [!UICONTROL declared ID] のオプトアウトを渡すことができます。
-* [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
+* [!UICONTROL declared ID] オプトアウトは[!パートナーごとのUACROLプロファイルキャッシュサーバ（[!UICONTROL PCS]）。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
 
 データ収集のオプトアウトについて詳しくは、[データのプライバシー](../overview/data-security-and-privacy/data-privacy.md)を参照してください。
 
@@ -192,7 +192,7 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 
 <!-- r_dil_declared_id_vars.xml -->
 
-[Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)で使用すると、廃止された `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要がなくなります。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Experience Cloud ID Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
+[Experience Cloud IDサービス](https://marketing.adobe.com/resources/help/en_US/mcvid/)で使用する場合、廃止 [!UICONTROL declared IDs]`dpid``dpuuid` および変数で渡す必要はなくなりました。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Experience Cloud ID Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証の状態](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
 
 ```js
 var vDil = DIL.create({
@@ -203,7 +203,7 @@ var vDil = DIL.create({
 });
 ```
 
-キーと値のペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/admin_getting_started.html)を参照してください。
+キーと値のペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html)も参照してください。
 
 ## 非推奨の関数 {#deprecated-functions}
 
@@ -237,15 +237,15 @@ Audience Manager は結合された `DPID` と `DPUUID` を、システム内の
 
 [!UICONTROL DIL] v6.1 以前を使用している場合には、この関数を呼び出します。新しいバージョンでは[!UICONTROL Experience Cloud ID Service]から[!UICONTROL declared IDs] を取得するので、この関数は廃止されています。
 
-<pre class="js"><code>
-DIL.create({ 
-    partner : "partner name", 
-    declaredId : { 
-       dpuuid : <i>dpuuid</i>, 
-       DPID : <i>dpid</i> 
-    } 
+```js
+DIL.create({
+    partner : "partner name",
+    declaredId : {
+       dpuuid : dpuuid,
+       DPID : dpid
+    }
  });
-</code></pre>
+```
 
 >[!NOTE]
 >
@@ -257,12 +257,12 @@ DIL.create({
 >
 >異なる `declaredID` の組み合わせで [!DNL API] 呼び出しをおこなう場合、この新しい組み合わせはその呼び出しでしか使用されません。その後の通常のイベント呼び出しでは、元の `DIL.create` `declaredID` の組み合わせが使用されます。
 
-<pre class="js"><code>
-DIL.getDil('partner name').api.signals({...}).declaredId({ 
-  dpuuid :<i>dpuuid</i> 
-  dpid :<i>dpid</i> 
+```js
+DIL.getDil('partner name').api.signals({...}).declaredId({
+  dpuuid : dpuuid
+  dpid : dpid
 }).submit();
-</code></pre>
+```
 
 ## リクエストとレスポンスの例 {#request-response-examples}
 
