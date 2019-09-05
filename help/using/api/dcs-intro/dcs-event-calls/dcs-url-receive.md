@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS からのデータ受信
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -21,8 +21,9 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 [!UICONTROL DCS] からの応答を受信する場合は、`d_rtbd=json` 要求に [!UICONTROL DCS] を含める必要があります。このパラメーターを省略した場合、[!UICONTROL DCS] はデータを返しません。データを要求する場合の [!UICONTROL DCS] への基本的な呼び出しでは、次の構文を使用します。
 
-<pre><code>https://domainalias.demdex.net/event<i></i>?<i>key1</i>= <i>val1</i>，&amp;<i>key2</i>= <i>val2</i>&amp; d_ dst=1&amp; d_ rdbd= json&amp; d_ cb=<i>callback</i></code>
-</pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 ## レスポンスのサンプル {#sample-response}
 
@@ -50,15 +51,15 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 | `c` | [URL の宛先](../../../features/destinations/create-url-destination.md)として設定された URL です。 |
 | `cn` | [Cookie の宛先](../../../features/destinations/create-cookie-destination.md)の Cookie 名フィールドに設定された名前または ID です。 |
 | `cv` | "cn":"destinaton name" パラメーターで定義された宛先に送信された値です。 |
-| `dcs_region` | [サーバー間DCSの呼び出し](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)。 |
+| `dcs_region` | [サーバー間 DCS 呼び出し](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)。 |
 | `dests` | このオブジェクトには、UI で設定されるすべての URL 宛先の情報が含まれています。このオブジェクトの値（リスト）は、ユーザーのアクションに応じて動的に変わります。 |
 | `dmn` | Cookie の宛先の「Cookie Domain」フィールドに指定されたドメインです。[Cookie の宛先のオプション設定](../../../features/destinations/cookie-destination-options.md)を参照してください。サーバー間統合の場合は、`aam-api.com` などのドメインを使用することをお勧めします。 |
 | `e` | URL の宛先に設定されたセキュア URL です。 |
 | `stuff` | このオブジェクトには、すべての Cookie の宛先の情報が含まれています。このオブジェクトの値（リスト）は、ユーザーのアクションに応じて動的に変わります。 |
 | `tid` | トランザクション ID（デバッグ目的で使用される 12 文字の一意の ID）です。DCS への各 /event 呼び出しでは、応答の改善および高速化に関するサポートへの問い合わせで参照できる tid を受け取ります。 |
 | `ttl` | Cookie の有効期間（日単位）です。 |
-| `u` および `uuid` | Audience Managerこれが必要になるのは、[サーバー間 DCS 呼び出し](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)をおこなう場合です。 |
-| `y` | Destination type,  iFrame (`iframe`) or image (`img`). |
+| `u` および `uuid` | Audience Manager によって割り当てられユニークユーザー ID。これが必要になるのは、[サーバー間 DCS 呼び出し](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)をおこなう場合です。 |
+| `y` | 宛先のタイプ。iFrame（`iframe`）または画像（`img`）。 |
 
 >[!MORE_LIKE_THIS]
 >
