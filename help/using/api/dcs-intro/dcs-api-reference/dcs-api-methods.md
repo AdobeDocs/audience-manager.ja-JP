@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS API メソッド
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 `GET` 呼び出しのサイズの上限は 8K であることに注意してください。
 
-<pre><code>curl- i「<i>yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&amp;d_rtbd=jsonc_likes=famous%20popstar&amp;c_loves=famous%20actress</i><i></i><i></i><i></i>」</code></pre>
+```
+curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&d_rtbd=json&c_likes=famous%20popstar&c_loves=famous%20actress"
+```
 
 ## POST でのデータ送信 {#send-data-via-post}
 
