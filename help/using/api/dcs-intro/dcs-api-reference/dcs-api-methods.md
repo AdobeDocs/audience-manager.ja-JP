@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS API メソッド
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: bdea2609b84d7f80d67452b4c43e11cbef01a368
 
 ---
 
@@ -17,9 +17,6 @@ source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 `GET` メソッドまたは `POST` メソッドのどちらかを使用して、[!UICONTROL DCS] にデータを送信できます。[curl](https://curl.haxx.se/) / を使用した以下のサンプル呼び出しを見てみましょう。これら 3 つのサンプル呼び出しでは、シグナル `c_likes = famous popstar` および `c_loves = famous actress` をデバイスプロファイル `12345678901234567890123456789012345678` に追加しています。
 
->[!NOTE]
->
->コードと例の&#x200B;*斜体*&#x200B;の部分は変数のプレースホルダーです。この方法で [!UICONTROL DCS] にデータを送信する際には、プレースホルダーを実際の値に置き換えてください。
 
 ## GET でのデータ送信 {#send-data-via-get}
 
