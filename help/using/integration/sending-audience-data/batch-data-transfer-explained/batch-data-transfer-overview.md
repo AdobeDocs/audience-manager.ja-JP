@@ -1,13 +1,13 @@
 ---
 description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。
-keywords: インバウンド
-seo-description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。
+keywords: インバウンド，バッチ，バッチアップロード，バッチデータ
+seo-description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。そのためには、Audience Managerのバッチアップロードオプションを使用します。
 seo-title: Audience Manager へのバッチデータ送信の概要
 solution: Audience Manager
 title: Audience Manager へのバッチデータ送信の概要
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
-translation-type: ht
-source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
+translation-type: tm+mt
+source-git-commit: 2e3adc8f0b2fe6efd9ca57f1d763ee4476d2edee
 
 ---
 
@@ -94,4 +94,4 @@ Audience Manager は、ファイルのドロップオフ用に以下の環境を
 
 ## その他の技術情報
 
-システムエンジニア、開発者、技術／実装チームは、[バッチデータ転送プロセスの説明](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md#batch-data-transfer-process)と、この節の他の記事を確認してください。これらの記事には、転送プロトコル、ファイルコンテンツおよびファイル名の要件に関する詳細が記載されています。
+システムエンジニア、開発者、技術／実装チームは、[バッチデータ転送プロセスの説明](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)と、この節の他の記事を確認してください。これらの記事には、転送プロトコル、ファイルコンテンツおよびファイル名の要件に関する詳細が記載されています。
