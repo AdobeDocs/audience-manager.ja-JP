@@ -6,14 +6,18 @@ solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: 0d0806ef2c84b4770adc29d668351ac3f2d8cc5f
 
 ---
 
 
 # セグメントビルダー {#segment-builder}
 
-Describes the required and optional steps that create a segment in [!UICONTROL Segment Builder].
+[!UICONTROL Segment Builder]でセグメントを作成する必須手順とオプション手順について説明します。
+
+## ビデオデモ
+
+まず、Audience Managerのビデオでセグメント [を作成](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)します。このビデオでは、セグメント作成プロセスについて説明します。詳しくは、以下の節を参照してください。
 
 ## セグメントの作成 {#create-segment}
 
@@ -21,7 +25,7 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
 
 <!-- t_create_segment.xml -->
 
-[!UICONTROL Segment Builder] は3つのセクションで構成されています。 [!UICONTROL Basic Information]、 [!UICONTROL Traits]および [!UICONTROL Destinations Mapping]、To create a segment, complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. [!UICONTROL Destinations Mapping] 設定はオプションです。詳しいヘルプについては、後述の説明を参照してください。
+[!UICONTROL Segment Builder] は、[!UICONTROL Basic Information]、[!UICONTROL Traits]、[!UICONTROL Destinations Mapping] の 3 つのセクションで構成されます。セグメントを作成するには、「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Traits]」セクションの必須フィールドに入力します。「[!UICONTROL Destinations Mapping]」の設定はオプションです。詳しいヘルプについては、後述の説明を参照してください。
 
 1. 「[Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics)」セクションで、以下の操作をおこないます。
    * セグメントの名前を設定します。セグメント名の最大長は 255 文字です。
@@ -31,20 +35,20 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
    * セグメントを保存フォルダーに割り当てます。
 1. 「[Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits)」セクションで、以下の操作をおこないます。
    * セグメントに追加する特性を検索して「**[!UICONTROL Add Trait]**」をクリックします。他の特性を追加し、特性グループを作成します。
-   * Bring up the Advanced Search modal by clicking **[!UICONTROL Browse All Traits]**. 名前、ID、説明またはデータソースによる特性の検索。検索結果を特定のフォルダーやサブフォルダーに絞るには、検索中にフォルダーをクリックします。また、特性タイプを基準に特性をフィルタリングすることもできます。
-   * Get live [trait recommendations](trait-recommendations.md) as you build your segment.
+   * 「**[!UICONTROL Browse All Traits]**」をクリックして詳細検索モーダルを表示します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。また、特性タイプを基準に特性をフィルタリングすることもできます。
+   * セグメントの作成時に有効な[特性レコメンデーション](trait-recommendations.md)を取得します。
    * 特性をクリックしてドラッグし、個別のグループを作成します。
-   * Hover between groups to set relationships with Boolean [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT] values.
+   * グループ間にマウスポインターを当て、ブール演算子 [!UICONTROL AND]、[!UICONTROL OR]、[!UICONTROL AND NOT] を使用して関係を設定します。
    * 時計アイコンの上にマウスポインターを置き、[最新性と頻度](../../features/segments/recency-and-frequency.md)のルールを特性に追加します。
    * 特性を追加または削除して、セグメント母集団データを表示します。「**[!UICONTROL Calculate Estimates]**」をクリックすると、推定された母集団の数値が表示（または更新）されます。詳しくは、セグメントビルダーの[セグメント母集団データ](../../features/segments/segment-builder-data.md#segment-populations)を参照してください。
-   * Click **[!UICONTROL Save]** when done.
-1. *（オプション）*「[Destination Mapping](../../features/segments/segment-builder.md#segment-builder-controls-destinations)」セクションでセグメントを宛先にマッピングします。
-   * Search for the destination and click **[!UICONTROL Add Destination]**. 宛先をセグメントに追加するには、その宛先が既に存在していなければなりません。
-   * Click **[!UICONTROL Save]** when done.
+   * 終了したら、「**[!UICONTROL Save]**」をクリックします。
+1. *（オプション）*「[宛先マッピング](../../features/segments/segment-builder.md#segment-builder-controls-destinations)」セクションでセグメントを宛先にマッピングします。
+   * 宛先を検索し、「**[!UICONTROL Add Destination]**」をクリックします。宛先をセグメントに追加するには、その宛先が既に存在していなければなりません。
+   * 終了したら、「**[!UICONTROL Save]**」をクリックします。
 
-## セグメントビルダーのコントロール：「Basic Information」セクション {#segment-builder-controls-basics}
+## セグメントビルダーのコントロール：「Basic Information」セクション{#segment-builder-controls-basics}
 
-で [!UICONTROL Segment Builder]は、 [!UICONTROL the Basic Information] 既存の特性を新規作成または編集できます。新しいセグメントを作成するには、名前およびデータソースを指定して、保存フォルダーを選択します。その他のすべてのフィールドはオプションです。完了したら、「[!UICONTROL Traits]」セクションに移動します。
+[!UICONTROL Segment Builder]では、[!UICONTROL the Basic Information]設定を使用して、新しい特性を作成したり、既存の特性を編集したりできます。新しいセグメントを作成するには、名前およびデータソースを指定して、保存フォルダーを選択します。その他のすべてのフィールドはオプションです。完了したら、「[!UICONTROL Traits]」セクションに移動します。
 
 <!-- r_segment_basic_info_section.xml -->
 
@@ -89,19 +93,19 @@ Describes the required and optional steps that create a segment in [!UICONTROL S
 
 ## セグメントビルダーのコントロール：「Traits」セクション {#segment-builder-controls-traits}
 
-In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage traits in a segment, create trait groups, and set qualification criteria. セグメントに特性を追加するには、検索フィールドに特性名を入力して、「[!UICONTROL Add Trait]」をクリックします。特性を保存する（完了した場合）か、[!UICONTROL Destinations Mapping] に移動します。
+[!UICONTROL Segment Builder]の [!UICONTROL Traits] セクションを使用すると、セグメントの特性を管理したり、特性グループを作成したり、認定条件を設定したりできます。セグメントに特性を追加するには、検索フィールドに特性名を入力して、「[!UICONTROL Add Trait]」をクリックします。特性を保存する（完了した場合）か、[!UICONTROL Destinations Mapping] に移動します。
 
 <!-- r_segment_traits_section.xml -->
 
-**前提条件：**[!UICONTROL Basic Information]「」セクションの必須フィールドに入力します。
+**前提条件：**「[!UICONTROL Basic Information]」セクションの必須フィールドに入力します。
 
 | フィールド | 説明 |
 |--- |--- |
-| Basic View | このセクションには、次の操作をおこなうための視覚的なコントロールがあります。 <ul><li>新しいセグメントを作成し、既存のセグメントを管理する。</li><li>セグメントから特性を削除する。</li><li>セグメントに最大 50 個の特性を追加する。</li><li>特性をドラッグアンドドロップして新しいグループを作成する。</li><li>セグメントの特性と特性グループを表示する。</li><li>ブール式、比較演算子、最新性／頻度の設定により認定条件を設定する。</li></ul> |
-| Code View | 開発環境を開きます。この環境では、視覚的なインターフェイスの代わりにコードを使用して特性、グループ、認定要件の作成と管理ができます。このコードビューは、セグメントが次の条件に該当する場合に便利です。 <ul><li>個別のセグメントに 50 個を超える特性がある。注意：セグメント内の特性数の上限は 5000 個です。</li><li>多数の特性グループがある。</li><li>複雑な認定要件がある。</li></ul> |
+| 基本ビュー | このセクションには、次の操作をおこなうための視覚的なコントロールがあります。 <ul><li>新しいセグメントを作成し、既存のセグメントを管理する。</li><li>セグメントから特性を削除する。</li><li>セグメントに最大 50 個の特性を追加する。</li><li>特性をドラッグアンドドロップして新しいグループを作成する。</li><li>セグメントの特性と特性グループを表示する。</li><li>ブール式、比較演算子、最新性／頻度の設定により認定条件を設定する。</li></ul> |
+| コードビュー | 開発環境を開きます。この環境では、視覚的なインターフェイスの代わりにコードを使用して特性、グループ、認定要件の作成と管理ができます。このコードビューは、セグメントが次の条件に該当する場合に便利です。 <ul><li>個別のセグメントに 50 個を超える特性がある。注意：セグメント内の特性数の上限は 5000 個です。</li><li>多数の特性グループがある。</li><li>複雑な認定要件がある。</li></ul> |
 | 検索 | セグメントに追加する特性を検索できます。 |
-| Recommendations | セグメントルールに追加する類似特性についての有効なレコメンデーションを取得します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
-| Real and Estimated Segment Size Data | [セグメントビルダーにおける特性およびセグメント母集団データ](segment-builder-data.md)を参照してください。 |
+| 推奨事項 | セグメントルールに追加する類似特性についての有効なレコメンデーションを取得します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
+| 実際のセグメントサイズデータと推定セグメントサイズデータ | [セグメントビルダーにおける特性およびセグメント母集団データ](segment-builder-data.md)を参照してください。 |
 
 ## セグメントからの特性の削除 {#remove-traits}
 
@@ -112,17 +116,17 @@ In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage
 1. **Audience Data／Segments** に移動します。リストでスクロールするか、検索機能を使用して、目的のセグメントを特定します。
 2. セグメント名をクリックして、セグメント詳細画面を開きます。
 3. 「**Edit**」をクリックしてセグメントビルダーを開き、その後「**Traits**」をクリックして特性パネルを開きます。
-4. 削除する特性の上にマウスポインターを置いて、Xキーをクリックします。この操作により、セグメントから特性が直ちに削除されます。
+4. 削除する特性の上にマウスポインターを置いて、X キーをクリックします。この操作により、セグメントから特性がただちに削除されます。
 
-## セグメントビルダーのコントロール：「Destinations Mappings」セクション {#segment-builder-controls-destinations}
+## セグメントビルダーのコントロール：「Destination Mappings」セクション {#segment-builder-controls-destinations}
 
-In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send segment data to a third-party [!DNL cookie], [!DNL URL], or server-to-server destination. 宛先を追加するには、宛先を検索（または参照）し、宛先固有の情報を入力して、「**[!UICONTROL Add Destination]**」をクリックします。
+[!UICONTROL Segment Builder]の[!UICONTROL Destinations Mapping]セクション（オプション）では、サードパーティ [!DNL cookie]、[!DNL URL]、またはサーバー間の宛先にセグメントデータを送信できます。宛先を追加するには、宛先を検索（または参照）し、宛先固有の情報を入力して、「**[!UICONTROL Add Destination]**」をクリックします。
 
 <!-- r_segment_destinations_map.xml -->
 
 ### 前提条件
 
-Complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. また、宛先が存在している必要があります。
+「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Traits]」セクションの必須フィールドに入力します。また、宛先が存在している必要があります。
 
 ### 宛先マッピング検索ツール
 
@@ -130,12 +134,12 @@ Complete the required fields in the [!UICONTROL Basic Information] and [!UICONTR
 
 | 検索タイプ | 説明 |
 |---|---|
-| **Search by Destination Name** | 特定の宛先を名前で検索できます。検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。Click **[!UICONTROL Add Destination]** when done. |
-| **Browse All Destinations** | 使用可能な&#x200B;*すべての*&#x200B;宛先を参照します。ポップアップリストから宛先を選択し、セグメントに追加します。 |
+| **宛先名別に検索** | 特定の宛先を名前で検索できます。検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。終了したら、「**[!UICONTROL Add Destination]**」をクリックします。 |
+| **すべての宛先を参照** | 使用可能な&#x200B;*すべての*&#x200B;宛先を参照します。ポップアップリストから宛先を選択し、セグメントに追加します。 |
 
-## Destination Mappings ポップアップウィンドウのフィールド {#fields-in-dest-mappings}
+## 宛先マッピングポップアップウィンドウのフィールド {#fields-in-dest-mappings}
 
-In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] dialog appears after you select a destination. このウィンドウには宛先とフィールドに関する静的情報が表示されます。フィールドは宛先タイプによって異なります。空のフィールドに必須の情報を入力し、宛先マッピングを設定します。
+[!UICONTROL Segment Builder]で宛先を選択すると、[!UICONTROL Add Destination] ダイアログが表示されます。このウィンドウには宛先とフィールドに関する静的情報が表示されます。フィールドは宛先タイプによって異なります。空のフィールドに必須の情報を入力し、宛先マッピングを設定します。
 
 >[!NOTE]
 >
