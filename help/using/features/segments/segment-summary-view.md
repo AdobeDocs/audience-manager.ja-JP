@@ -6,7 +6,7 @@ solution: Audience Manager
 title: セグメント概要表示
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 translation-type: tm+mt
-source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
 メインダッシュボードのセグメント名をクリックすると、その概要ページにアクセスできます。「Summary」セクションには、以下が含まれます。
 
 1. **[!UICONTROL Basic Information]：**&#x200B;セグメントが作成された際に指定された必須およびオプションの詳細を表示します。
-2. **[!UICONTROL Segment Graph]:** パフォーマンスデータをグラフィカルに表示し、固定1、7、14、30、60および90日間隔で表示します。セグメント母集団の数については、[別のドキュメント](../../features/segments/segment-builder-data.md)で説明します。
+2. **[!UICONTROL Segment Graph]:** パフォーマンスデータをグラフィカルに表示し、固定1、7、14、30、60および90日間隔で表示します。[別の記事でセグメント母集団の数字を説明](../../features/segments/segment-builder-data.md)します。
 
    ![セグメントグラフ](assets/segment-graph.png)
 
@@ -29,6 +29,8 @@ source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
    >[!NOTE]
    >
    >Audience Managerでは、セグメントに対応するクロスデバイスIDがある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
+
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=jpn)
 
 4. **[!UICONTROL Segment Rules]：**&#x200B;セグメントの特性を認定ルールと共にリストします。
 5. **[!UICONTROL Destination Mappings]：**&#x200B;セグメントの宛先マッピングをリストします。
