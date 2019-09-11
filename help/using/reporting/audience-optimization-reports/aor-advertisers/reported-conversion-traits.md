@@ -5,8 +5,8 @@ seo-title: 報告されたコンバージョン特性
 solution: Audience Manager
 title: 報告されたコンバージョン特性
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
-translation-type: ht
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+translation-type: tm+mt
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -16,6 +16,10 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 コンバージョン特性レポートでは、特定の日付において、コンバージョングループのコンバージョン特性としてラベル付けされたすべての特性が表示されます。
 
 コンバージョングループのコンバージョン特性は、レポートの実行ごとに変わる可能性があります。このレポートには、選択されたレポート日付のコンバージョン特性がコンバージョングループ別に表示されます。
+
+Audience Managerでコンバージョン特性を作成する方法については、以下のビデオを参照してください。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23431/?captions=jpn)
 
 ## レポートのサンプル
 
