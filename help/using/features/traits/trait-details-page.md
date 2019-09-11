@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性の詳細ページ
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 translation-type: tm+mt
-source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -39,6 +39,8 @@ source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
    ![特性グラフ](assets/trait-identity.png)
    > [!NOTE]
    > Audience Managerでは、特性に対応するクロスデバイスIDがある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
+
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=jpn)
 
 ## 特性式 {#trait-expression}
 
