@@ -6,8 +6,8 @@ seo-title: ルールベースまたはオンボードの特性の作成
 solution: Audience Manager
 title: ルールベースまたはオンボードの特性の作成
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
-   <td colname="col2"> 通常、関数（例：コンバージョン、サイト訪問者、パートナー、ページビューなど）に従って、特性をタイプまたはカテゴリに割り当てます。オプションです。 </td> 
+   <td colname="col2"> 通常、関数（例：コンバージョン、サイト訪問者、パートナー、ページビューなど）に従って、特性をタイプまたはカテゴリに割り当てます。オプションです。 <p> コンバージョン特性の作成方法について詳しくは、Audience Managerのビデオでのコンバージョン特性 <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">の作成を</a>参照してください。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
@@ -85,7 +85,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ### 特性の TTL を設定する
 
 1. 「[!UICONTROL Advanced Options]」セクションを展開して、数値を入力し、特性の [!DNL TTL] 値を設定します。
-1. 「**[!UICONTROL Save]**」をクリックします。
+2. 「**[!UICONTROL Save]**」をクリックします。
    ![](assets/TTL.png)
 
 >[!MORE_LIKE_THIS]
