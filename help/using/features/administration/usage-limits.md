@@ -4,10 +4,10 @@ seo-description: 'Audience Manager では、アカウントに作成できる特
 seo-title: 使用の制限
 solution: Audience Manager
 title: 使用の制限
-topic: DIL API
+keywords: IDマッピング、IDマッピング、cookieマッピング
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-translation-type: ht
-source-git-commit: a9550d71bbc6adf939539df05cd38a9d22ef261b
+translation-type: tm+mt
+source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
 
 ---
 
@@ -83,7 +83,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | ----------- | ------------- |
 | 会社のユーザーアカウントの最大数 | 1,000。 |
 
-## 使用状況の監視{#monitor-usage}
+## 使用状況の監視 {#monitor-usage}
 
 アカウントの使用状況と限度は、**[!UICONTROL Administration > Limits]** で確認できます。アクセスには管理者権限が必要です。
 
