@@ -19,7 +19,7 @@ Audience Manager チームのメンバーもまたエンジニア、開発者ま
 
 <!-- api-swagger-migration.xml -->
 
-改訂された [ コンテンツは、今後、] (Adobe Audience Manager API に関するドキュメント)https://bank.demdex.com/portal/swagger/index.html[!DNL API]サイトから提供されます。これからも、リリースごとに [!DNL API] メソッドの書き直しを少しずつ進めていきたいと思います。このため、利用可能なメソッドの一覧を確認するには、新しい場所と [REST API](../api/rest-api-main/rest-api-main.md) ドキュメントの両方を参照していただく必要があります。最終的には、すべての公開 [!DNL API] が [!DNL Audience Manager] の [!DNL API] ドキュメントサイトから提供されるようになります。次の表に、改訂および移行済みの [!DNL API] を示します。
+改訂された  コンテンツは、今後、[Adobe Audience Manager API に関するドキュメント](https://bank.demdex.com/portal/swagger/index.html) [!DNL API]サイトから提供されます。これからも、リリースごとに [!DNL API] メソッドの書き直しを少しずつ進めていきたいと思います。このため、利用可能なメソッドの一覧を確認するには、新しい場所と [REST API](../api/rest-api-main/rest-api-main.md) ドキュメントの両方を参照していただく必要があります。最終的には、すべての公開 [!DNL API] が [!DNL Audience Manager] の [!DNL API] ドキュメントサイトから提供されるようになります。次の表に、改訂および移行済みの [!DNL API] を示します。
 
 <table id="table_CD3C244CB02C48C898745FB982EC828C"> 
  <thead> 
