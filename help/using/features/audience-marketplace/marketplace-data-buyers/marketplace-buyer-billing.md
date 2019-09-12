@@ -7,7 +7,7 @@ title: データフィード購入者に対する請求
 keywords: セグメントレベルのレポート、セグメントレベル、セグメントレベル
 uuid: d7236667-282b-4160-9909-579721af4016
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
 
 ---
 
@@ -50,6 +50,10 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
+セグメントレベルの使用方法については、ビデオのデモもご覧ください。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=jpn)
+
  
 
 ## データフィードレベルでの CPM 使用状況のレポート {#feed-level-report}
@@ -59,15 +63,15 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 セグメントレベルで [!DNL CPM] 使用状況をレポートするには：
 
 1. **[!UICONTROL Audience Marketplace > Payables]** へ移動します。
-1. 「**[!UICONTROL Feed Usage]**」タブを選択します。
-1. 「[!UICONTROL Search]」ボックスを使用してデータフィードをフィルタリングし、使用状況をレポートするデータフィードを見つけます。
-1. 「**[!UICONTROL Edit Feeds Usage]**」をクリックします。
-1. [データフィードのコスト配分](#cost-attribution)に基づいて各データフィードの [!DNL CPM] 使用量を計算し、計算結果を [!UICONTROL Usage] 列に入力します。
-1. 入力が完了したら「**[!UICONTROL Save]**」をクリックして、確認ダイアログで内容を確認します。
+2. 「**[!UICONTROL Feed Usage]**」タブを選択します。
+3. 「[!UICONTROL Search]」ボックスを使用してデータフィードをフィルタリングし、使用状況をレポートするデータフィードを見つけます。
+4. 「**[!UICONTROL Edit Feeds Usage]**」をクリックします。
+5. [データフィードのコスト配分](#cost-attribution)に基づいて各データフィードの [!DNL CPM] 使用量を計算し、計算結果を [!UICONTROL Usage] 列に入力します。
+6. 入力が完了したら「**[!UICONTROL Save]**」をクリックして、確認ダイアログで内容を確認します。
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-1. 「**[!UICONTROL Confirm]**」をクリックします。
+7. 「**[!UICONTROL Confirm]**」をクリックします。
 
 <br> 
 
