@@ -6,8 +6,8 @@ seo-title: 顧客データフィード
 solution: Audience Manager
 title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
 
 ---
 
@@ -90,7 +90,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   <tr> 
    <td colname="col1"> <p><code> リクエストパラメーター</code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>イベント呼び出しで渡されるすべてのパラメーター（変数、ID、キー値ペアなど）を表現した文字列。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>すべてのパラメーター（変数、ID、キーと値のペア、デバイス広告IDなど）を取り込む文字列。に渡されます。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> 参照元データタイプ</code> </p> </td> 
@@ -105,7 +105,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   <tr> 
    <td colname="col1"> <p><code> MC デバイス </code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> すべてのセグメント</code> </p> </td> 
@@ -159,7 +159,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">リクエストパラメーター </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">参照元 </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP アドレス </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
      </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
@@ -193,13 +193,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 典型的な [!UICONTROL CDF] ファイル名は以下の要素で構成されています。なお、*斜体*&#x200B;の部分には実際の情報が入ります。
 
-* **構文**
+### 構文
 
-<pre><code>
-s3://aam-cdf/<i>your s3 bucket name</i>/day=<i>yyyy-mm-dd</i>/hour=<i>hh</i>/<i>AAM_CDF_partner ID_AAM process ID</i>_0.gz
-</code></pre>
+```
+s3://aam-cdf/YOUR-S3-BUCKET-NAME/day=yyyy-mm-dd/hour=hh/AAM-CDF-PARTNER-ID-AAM PROCESS-ID_0.gz
+```
 
-* **例**
+### 例
 
 ```
 s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
@@ -254,7 +254,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 [!DNL Audience Manager] は、ファイルのダウンロード準備が完了したことを知らせるために、[!UICONTROL Customer Data File]（[!UICONTROL CDF]）のダウンロード準備ができたことを知らせるために、[!DNL S3] ディレクトリに `.info` ファイルを書き込みます。`.info` ファイルには、[!UICONTROL CDF] ファイルの内容に関する [!DNL JSON] 形式のメタデータも含まれています。この通知ファイルで使用されている構文やフィールドについては、このセクションで確認してください。
 
-## サンプル .info ファイル{#sample-info-file}
+## サンプル .info ファイル {#sample-info-file}
 
 <!-- cdf-notifications.xml -->
 
@@ -359,7 +359,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 [!UICONTROL CDF] ファイルでは、ファイル名とファイルコンテンツにタイムスタンプが含まれています。これらのタイムスタンプは、同じ [!UICONTROL CDF] ファイルに対する異なるイベントプロセスを記録します。同じファイルの名前とコンテンツに異なるタイムスタンプが表示されることは珍しくありません。各タイムスタンプを理解すると、このデータを操作したり時刻でソートしようとしたりするときに、犯しがちなミスを避けるうえで役に立ちます。
 
-## CDF ファイルのタイムスタンプの場所{#locating-timestamps}
+## CDF ファイルのタイムスタンプの場所 {#locating-timestamps}
 
 <!-- cdf-time-differences.xml -->
 
