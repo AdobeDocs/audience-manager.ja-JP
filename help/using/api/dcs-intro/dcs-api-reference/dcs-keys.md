@@ -4,9 +4,10 @@ seo-description: データ収集サーバー（DCS）に渡すことができる
 seo-title: DCS API 呼び出しでサポートされている属性
 solution: Audience Manager
 title: DCS API 呼び出しでサポートされている属性
+keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=1, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: 6e2cb69cd2f65851b82ed9a28f4a108562ce6ab8
 
 ---
 
@@ -76,7 +77,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>児童保護法に従うために、サードパーティ Cookie の使用を無効にします。このパラメーターは Adobe Experience Cloud ID サービスにより動的に設定されるもので、<code>idSyncDisable3rdPartySyncing</code> 設定に依存します。<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_coppa.html" format="https" scope="external">Experience Cloud ID サービスでの COPPA のサポート</a>を参照してください。 </p> </td>
+   <td colname="col2"> <p>児童保護法に従うために、サードパーティ Cookie の使用を無効にします。このパラメーターは Adobe Experience Cloud ID サービスにより動的に設定されるもので、<code>idSyncDisable3rdPartySyncing</code> 設定に依存します。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external">Experience Cloud ID サービスでの COPPA のサポート</a>を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -118,7 +119,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Experience Cloud</span> ID サービスで設定および使用される Experience Cloud ID を指定します。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Experience Cloud</span> ID サービスで設定および使用される Experience Cloud ID を指定します。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
