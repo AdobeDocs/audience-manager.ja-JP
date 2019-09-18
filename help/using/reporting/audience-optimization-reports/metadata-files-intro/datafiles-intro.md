@@ -5,8 +5,8 @@ seo-title: Audience Optimization レポートのデータファイル
 solution: Audience Manager
 title: Audience Optimization レポートのデータファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ファイルコンテンツの場合：
 
 * ヘッダーラベルは、以下の表に示す順序で出現する必要があります。インプレッションとクリックは、同じラベルを使用します。コンバージョンファイルには追加のヘッダーが含まれています。
-* 特定の列のデータがない場合は、そのフィールドに `NULL` オブジェクトまたは `-1` を入力します。
+* If you don't have data for a particular column, populate that field with a `-1`.
 
 * ファイルの末尾はバージョン番号である&#x200B;*必要があり*&#x200B;ます。現在のバージョンは 1.1 です。
 * ファイルヘッダーとコンテンツを非印字 ASCII 文字 001 で区切ります。ASCII 001 を使用できない場合は、ヘッダーとデータをタブ文字で区切ります。これらは非印字文字なので、上記の構文例では、表示のためだけにパイプ「`"|"`」を使用しています。
@@ -137,7 +137,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody> 
 </table>
 
-## データファイルの配信方法{#delivery-methods}
+## データファイルの配信方法 {#delivery-methods}
 
 インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
