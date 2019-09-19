@@ -6,7 +6,7 @@ seo-title: フォルダー特性について
 solution: Audience Manager
 title: フォルダー特性について
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
 
 ---
@@ -46,7 +46,7 @@ source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
 
 ## フォルダー特性のレポート {#folder-traits-reporting}
 
-[!UICONTROL Folder traits]では、配下のフォルダー構造内の特性のすべてのユーザーが対象となります。あるフォルダーから別のフォルダーに特性を移動すると、その変更は、特性ルールの変更と同様に、[データ収集サーバー](../../reference/system-components/components-data-collection.md)に反映されます。レポートの更新は、レポートの日付範囲（1、7、14、30、60、90）にわたるこの変更を反映するために実行されます。これより前にレポートされた数値は変更されません。
+[!UICONTROL Folder traits]では、配下のフォルダー構造内の特性のすべてのユーザーが対象となります。あるフォルダーから別のフォルダーに特性を移動すると、その変更は、特性ルールの変更と同様に、[データ収集サーバー](../../reference/system-components/components-data-collection.md)に反映されます。次のレポート実行のタイミングで、すべての日付範囲（1、7、14、30、60、90）にわたってこの変更が反映されるようレポートが更新されます。これより前にレポートされた数値は変更されません。
 
 ## ロールベースのアクセス制御（RBAC）権限 {#role-based-access-controls}
 
