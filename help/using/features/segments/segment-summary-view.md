@@ -18,17 +18,17 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 メインダッシュボードのセグメント名をクリックすると、その概要ページにアクセスできます。「Summary」セクションには、以下が含まれます。
 
 1. **[!UICONTROL Basic Information]：**&#x200B;セグメントが作成された際に指定された必須およびオプションの詳細を表示します。
-2. **[!UICONTROL Segment Graph]:** パフォーマンスデータをグラフィカルに表示し、固定1、7、14、30、60および90日間隔で表示します。[別の記事でセグメント母集団の数字を説明](../../features/segments/segment-builder-data.md)します。
+2. **[!UICONTROL Segment Graph]：**&#x200B;固定の 1、7、14、30、60、90 日間隔のグラフでパフォーマンスデータを表示します。We explain segment population numbers in a [separate article](../../features/segments/segment-builder-data.md).
 
    ![セグメントグラフ](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown ]:** このレポートには、セグメントの資格を持つ人または世帯の数が表示されます。この訪問者数は、セグメントの資格を持つデバイスにリンクされているデバイスIDまたは外部デバイスグラフIDの数をカウントして表示されます（ [!UICONTROL Total Segment Population]表示される）。このレポートに示すクロスデバイスIDと外部デバイスグラフIDは、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。このレポートは、セグメントの結合ルールでクロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
+3. **[!UICONTROL Identity Type Breakdown ]：**&#x200B;このレポートには、クロスデバイス ID の数と外部デバイスグラフ ID の数をカウントした、セグメントに適合するユーザーまたは世帯の数が表示されます。外部デバイスグラフ ID は、セグメントに適合するデバイスにリンクされています（[!UICONTROL Total Segment Population] で表示）。このレポートに示すクロスデバイス ID と外部デバイスグラフ ID は、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。このレポートは、セグメントが使用しているプロファイル結合ルールで、クロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
 
    ![セグメントグラフ](assets/segment-type.png)
 
    >[!NOTE]
    >
-   >Audience Managerでは、セグメントに対応するクロスデバイスIDがある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
+   >Audience Manager では、セグメントに適合するクロスデバイス ID がある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
 
    >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=jpn)
 
