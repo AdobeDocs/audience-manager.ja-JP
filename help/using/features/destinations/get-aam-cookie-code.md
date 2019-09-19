@@ -5,7 +5,7 @@ seo-title: get_aamCookie コード
 solution: Audience Manager
 title: get_aamCookie コード
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: abb66d75a0d47f5257ea8c63bdb59e604db801d3
 
 ---
