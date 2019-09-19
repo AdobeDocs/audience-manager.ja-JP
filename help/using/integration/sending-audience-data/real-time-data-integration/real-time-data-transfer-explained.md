@@ -5,7 +5,7 @@ seo-title: リアルタイムデータ転送プロセスの説明
 solution: Audience Manager
 title: リアルタイムデータ転送プロセスの説明
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ea95df8531c00c183f22b09a4a78fc6b35ee279d
 
 ---
