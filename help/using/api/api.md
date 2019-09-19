@@ -6,7 +6,7 @@ keywords: 'api, api, api, api, api, api, api, api, api, api '
 solution: Audience Manager
 title: API と SDK コード
 uuid: bf801e84-f914-4efd-8807-c4972474894a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
