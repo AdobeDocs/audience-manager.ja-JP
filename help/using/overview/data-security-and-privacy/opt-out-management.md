@@ -5,7 +5,7 @@ seo-title: オプトアウト管理
 solution: Audience Manager
 title: オプトアウト管理
 uuid: 61b43e0e-bfe3-497e-ade2-6a942a98407e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 
 ---
@@ -29,7 +29,7 @@ source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p><a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audience Manager に対する直接 API 呼び出し </p> </td> 
@@ -39,8 +39,8 @@ source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
    <td colname="col1"> <p>モバイルデバイス </p> </td> 
    <td colname="col2"> <p>以下のデバイスに対するオプトアウト設定とプライバシー設定を確認します。 </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mobile/android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -48,15 +48,15 @@ source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 
 エンドユーザーは、アドビの業界標準パートナーの Web サイトを訪問してグローバルデータ収集からオプトアウトすることもできます。
 
-* [Digital Advertising Alliance（DAA）](https://optout.aboutads.info/?c=2#!/);
-* [Network Advertising Initiative（NAI）](https://optout.networkadvertising.org/?c=1#!/).
+* [Digital Advertising Alliance（DAA）](https://optout.aboutads.info/?c=2#!/)
+* [Network Advertising Initiative（NAI）](https://optout.networkadvertising.org/?c=1#!/)
 
 上記のオプトアウトリクエストをおこなうと、次の処理がおこなわれます。
 
 * Audience Manager は進行中のすべてのデータ収集、セグメント化、アクティブ化を停止します。
 * 120 日後にユーザープロファイルから履歴データが削除されます。
 
-## パートナーレベルのオプトアウト{#partner-opt-out}
+## パートナーレベルのオプトアウト {#partner-opt-out}
 
 パートナーレベルのオプトアウトでは、特定の Audience Manager パートナーによるデータ収集からオプトアウトすることができます。パートナーレベルのオプトアウトでは、後述のとおり[宣言済みID](../../features/declared-ids.md) 呼び出しおよびデバイス ID 呼び出し（下記の節で説明）。
 
