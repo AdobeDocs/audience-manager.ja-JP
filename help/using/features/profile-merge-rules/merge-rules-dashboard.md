@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールダッシュボード
 solution: Audience Manager
 title: プロファイル結合ルールダッシュボード
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 * デフォルトの結合ルールを指定する。[セグメントビルダー](../../features/segments/segment-builder.md)により、作成されるすべての新規セグメントにデフォルトのルールが自動的に適用されます。
 * [データエクスポートコントロール](../../features/data-export-controls.md)を結合ルールに適用する。[!UICONTROL Data Export Controls]を使用すると、データの送信がデータのプライバシーや使用契約に違反する場合に、データを宛先に送信できないようになります。
 * ユーザーごとのデバイスの平均数を追跡する。
-* ルールの作成、編集、削除に使用する基本コントロールを操作する。ルールを管理できるのは管理者のみですが、他のユーザーでもルールを表示したり、セグメントに適用したりできます。詳しくは、[定義済みのプロファイルの結合ルールオプション](../../features/profile-merge-rules/merge-rule-definitions.md)および[結合ルールのユースケース](../../features/profile-merge-rules/merge-rule-targeting-options.md)を参照してください。
+* ルールの作成、編集、削除に使用する基本コントロールを操作する。ルールを管理できるのは管理者のみですが、他のユーザーでもルールを表示したり、セグメントに適用したりできます。See [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md) and [Use Cases for Merge Rules](../../features/profile-merge-rules/merge-rule-targeting-options.md).
 
 >[!MORE_LIKE_THIS]
 >
