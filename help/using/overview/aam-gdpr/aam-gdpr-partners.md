@@ -5,7 +5,7 @@ seo-title: 宛先の GDPR に関する考慮事項
 solution: Audience Manager
 title: 宛先の GDPR に関する考慮事項
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69be038d0f2d31b6b5eda20041082c1890abc38f
 
 ---
