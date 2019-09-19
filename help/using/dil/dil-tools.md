@@ -5,7 +5,7 @@ seo-title: DIL ツール
 solution: Audience Manager
 title: DIL ツール
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
 
 ---
