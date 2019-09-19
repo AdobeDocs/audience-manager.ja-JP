@@ -5,7 +5,7 @@ seo-title: 送信データファイル名：構文と例
 solution: Audience Manager
 title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 ---
