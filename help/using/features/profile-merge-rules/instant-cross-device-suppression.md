@@ -4,7 +4,7 @@ seo-description: Instant Cross-Device Suppression は、接続した複数のデ
 seo-title: Instant Cross-Device Suppression
 title: Instant Cross-Device Suppression
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ---
@@ -49,7 +49,7 @@ source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ![](assets/impressions_use_case.png)
 
-## 留意すべき重要な側面 - 処理{#processing-notes}
+## 留意すべき重要な側面 - 処理 {#processing-notes}
 
 処理に関しては、次の側面に留意してください。
 
