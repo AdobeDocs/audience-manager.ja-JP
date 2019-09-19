@@ -5,7 +5,7 @@ seo-title: セグメントの宛先へのマッピング
 solution: Audience Manager
 title: セグメントの宛先へのマッピング
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 
 ---
