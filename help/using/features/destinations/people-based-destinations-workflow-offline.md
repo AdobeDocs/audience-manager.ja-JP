@@ -4,7 +4,7 @@ seo-description: 'このページでは、オフラインのみの顧客デー�
 seo-title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
@@ -74,7 +74,7 @@ source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 1. ドロップダウンメニューを使用して、このデータソースの **[!UICONTROL Emails(SHA256, lowercased)]** ラベルを選択します。
    >[!IMPORTANT]
    >
-   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。そうでない場合、[!DNL People-Based Destinations] で使用することはできません。
+   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。それ以外の場合は、[!DNL People-Based Destinations] では使用できません 。
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
@@ -123,7 +123,8 @@ source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 上記の例では、ファイル名は `c2c_id_999999_987654_1560431657.sync` となります。
 
-[こちらでサンプルファイルをダウンロード](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)します。
+
+[サンプルファイルをここにダウンロードします](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)。
 
 ## 手順 4 - セグメントのプロファイル結合ルールを作成する {#create-profile-merge-rule}
 
