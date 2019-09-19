@@ -5,7 +5,7 @@ seo-title: 派生シグナル
 solution: Audience Manager
 title: 派生シグナル
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 ---
