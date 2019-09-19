@@ -6,7 +6,7 @@ seo-title: アルゴリズム API メソッド
 solution: Audience Manager
 title: アルゴリズム API メソッド
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
 
 ---
