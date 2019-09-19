@@ -6,7 +6,7 @@ seo-title: 顧客データのインバウンドの取得に関するよくある
 solution: Audience Manager
 title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 ---
@@ -146,7 +146,7 @@ Removed the Data Translation File bullet from the list above.
 
 **Audience Manager は、どれくらいの間ファイルをサーバーに保持しますか？**
 
-FTP ファイルは、処理された後で削除されます。[!DNL S3] ファイルは、30 日後に削除されます。形式、構文または他のエラーによって処理できなかったファイルは、削除されます。 [プライバシーとデータ保持についてよくある質問](../faq/faq-privacy.md)も参照してください。
+FTP ファイルは、処理された後で削除されます。[!DNL S3] ファイルは、30 日後に削除されます。形式、構文または他のエラーによって処理できなかったファイルは、削除されます。また、[プライバシーとデータ保持についてよくある質問](../faq/faq-privacy.md)も参照してください。
 
 <br> 
 
