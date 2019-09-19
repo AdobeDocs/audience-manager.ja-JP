@@ -5,7 +5,7 @@ seo-title: メタデータファイルの概要とマッピング
 solution: Audience Manager
 title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -41,7 +41,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ![](assets/metadata_menu.png)
 
-## ファイルのマッピング{#file-mappings}
+## ファイルのマッピング {#file-mappings}
 
 次の表は、[!UICONTROL Audience Optimization]レポートで使用するデータが格納されるキーと値のペアの一覧です。メタデータファイルを使用する必要がある場合、このキーと値のペアの値に対応する、わかりやすい情報がメタデータに含まれています。これらのキーの値には整数（データ型 INT）しか使用できません。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
 
@@ -59,18 +59,18 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p>広告主 </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc =<i> データソース ID または統合コード</i></code> </p> <p>データソースの作成時に指定された、広告主のデータソース ID または統合コードです。詳しくは、<a href="../../../features/manage-datasources.md#create-data-source">データソースの作成</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc =<i> データソース ID または統合コード</i></code> </p> <p>データソースの作成時に指定された、広告主のデータソース ID または統合コードです。<a href="../../../features/manage-datasources.md#create-data-source">データソースの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ビジネスユニット（BU） </p> </td> 
    <td colname="col2"> <p> <code>d_bu =<i> ビジネスユニット ID</i></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Campaign </p> </td> 
+   <td colname="col1"> <p>キャンペーン </p> </td> 
    <td colname="col2"> <p> <code>d_campaign =<i> キャンペーン ID</i></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Creative </p> </td> 
+   <td colname="col1"> <p>クリエイティブ </p> </td> 
    <td colname="col2"> <p> <code>d_creative =<i> クリエイティブ ID</i></code> </p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p>広告掲載申込（IO） </p> </td> 
-   <td colname="col2"> <p> <code>d_io =<i> 広告掲載申込 ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_io =挿 <i>入順序ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>プラットフォーム </p> </td> 
