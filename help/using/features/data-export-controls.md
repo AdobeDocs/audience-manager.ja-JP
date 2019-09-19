@@ -5,7 +5,7 @@ seo-title: データ書き出しコントロール
 solution: Audience Manager
 title: データ書き出しコントロール
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 データソースおよび宛先に適用した分類に基づいて、書き出しコントロールは以下の操作を防止します。
 
 * セグメントがマッピングされている 1 つ以上の宛先で、データ書き出しラベルと互換性がないデータ書き出しコントロールを使用するデータソースに特性が属している場合、特性をセグメントに追加します。
-For example, say a segment is mapped to a destination with the export label **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. Export controls stop you from adding a trait to that segment if the data source that the trait belongs to has a data export control that says **[!DNL Cannot be tied to personally identifiable information (PII)]**.
+例えば、あるセグメントが、書き出しラベル「**[!DNL This destination may enable a combination with personally identifiable information (PII)]**」を使用して宛先にマッピングされるとします。特性が属するデータソースが「**[!DNL Cannot be tied to personally identifiable information (PII)]**」というラベルの付いたデータ書き出しコントロールを使用している場合、書き出しコントロールは、そのセグメントに特性を追加するのを中止します。
 * 次のいずれかに対して、データ書き出しコントロールでブロックされているデータ書き出しラベルが付いた宛先にデータを送信する場合：
    * 含まれる特性のデータソース。
    * 含まれるセグメントで使用される特性のデータソース。
@@ -44,13 +44,13 @@ For example, say a segment is mapped to a destination with the export label **[!
 
 >[!IMPORTANT]
 >
->セグメントのデータソースにデータエクスポートコントロールを配置してセグメントのエクスポートをブロックすることはできません。次のいずれかの制御を設定する必要があります。
+>セグメントのデータソースに対してデータ書き出しコントロールを設定し、セグメントのエクスポートをブロックすることはできません。次のいずれかのコントロールを設定する必要があります。
 > * セグメントで使用される特性のデータソース。
 > * セグメントで使用されるプロファイル結合ルール。
 > * セグメントのプロファイル結合ルールで使用されるデータソース。
 
 
-<br> 
+ <br>
 
 <table id="table_7D1F0270B5604A82B96A13CC49C937C0"> 
  <thead> 
