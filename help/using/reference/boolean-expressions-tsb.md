@@ -5,7 +5,7 @@ seo-title: 特性およびセグメントビルダーのブール式
 solution: Audience Manager
 title: 特性およびセグメントビルダーのブール式
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
