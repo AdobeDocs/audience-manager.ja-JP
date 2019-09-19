@@ -3,7 +3,7 @@ description: グローバルプライバシー規制により、多くの国で 
 seo-description: グローバルプライバシー規制により、多くの国で IP アドレスの難読化が求められる場合があります。Audience Manager を使用すると、訪問者の IP アドレス全体または国ごとに難読化できます。
 solution: Audience Manager
 title: IP アドレスの難読化
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7206fda4b16a22c8a8bfcf97529cdaea24b0898
 
 ---
