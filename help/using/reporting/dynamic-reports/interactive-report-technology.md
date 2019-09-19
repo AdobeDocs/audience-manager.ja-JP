@@ -5,7 +5,7 @@ seo-title: レポート技術
 solution: Audience Manager
 title: レポート技術
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
 
 ---
