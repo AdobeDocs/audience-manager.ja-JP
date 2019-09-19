@@ -5,7 +5,7 @@ seo-title: 重複レポートの CSV ファイル
 solution: Audience Manager
 title: 重複レポートの CSV ファイル
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
 
 ---
@@ -79,7 +79,7 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## セグメント間レポートのレコード{#segment-segment-records}
+## セグメント間レポートのレコード {#segment-segment-records}
 
 [セグメント間重複レポート](segment-segment-overlap-report.md)のデータファイルには、次のレコードが含まれています。
 
@@ -138,7 +138,7 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
  </tbody> 
 </table>
 
-## セグメント - 特性間レポートのレコード{#segment-trait-records}
+## セグメント - 特性間レポートのレコード {#segment-trait-records}
 
 [セグメント - 特性間重複レポート](segment-trait-overlap-report.md)のデータファイルには、次のレコードがあります。
 
@@ -205,7 +205,7 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
  </tbody> 
 </table>
 
-## 特性間レポートのレコード{#trait-trait-records}
+## 特性間レポートのレコード {#trait-trait-records}
 
 [特性間重複レポート](trait-trait-overlap-report.md)には、次のレコードがあります。
 
