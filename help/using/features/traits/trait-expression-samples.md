@@ -5,7 +5,7 @@ seo-title: ブール演算子と比較演算子を使用した式のサンプル
 solution: Audience Manager
 title: ブール演算子と比較演算子を使用した式のサンプル
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
 
 ---
