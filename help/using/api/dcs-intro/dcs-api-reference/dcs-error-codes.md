@@ -5,7 +5,7 @@ seo-title: DCS エラーコード、メッセージ、例
 solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 以下の表で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
-## システムエラーコード{#system-error-codes}
+## システムエラーコード {#system-error-codes}
 
 <table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
  <thead> 
@@ -41,7 +41,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>Invalid <code> d_orgid</code> value (could not find a config for this org id): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>組織 ID が正しくありません。 </p> <p>ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=admin_getting_started.html" format="https" scope="external">Experience Cloud ユーザーおよび製品の管理</a>の「組織とアカウントのリンク」節を参照して、組織 ID の見つけ方を確認してください。 </p> </td> 
+   <td colname="col3"> <p>組織 ID が正しくありません。 </p> <p>ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external">Experience Cloud ユーザーおよび製品の管理</a>の「組織とアカウントのリンク」節を参照して、組織 ID の見つけ方を確認してください。 </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -85,7 +85,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody>
 </table>
 
-## オプトアウトエラーコード{#opt-out-error-codes}
+## オプトアウトエラーコード {#opt-out-error-codes}
 
 <table id="table_A50C284AB84F48A79B01223D991884A2"> 
  <thead> 
@@ -131,7 +131,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody> 
 </table>
 
-## プロファイル取得エラーコード{#profile-retrieval-error-codes}
+## プロファイル取得エラーコード {#profile-retrieval-error-codes}
 
 <table id="table_CFF2252A3CC54960802905454A867D7A"> 
  <thead> 
@@ -175,7 +175,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody> 
 </table>
 
-## 統合警告コード{#integration-warning-codes}
+## 統合警告コード {#integration-warning-codes}
 
 <table id="table_31F1593C46804DDBA2E9BEDE83F2417F"> 
  <thead> 
@@ -199,7 +199,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>Unauthorized customer id<code><i> ID</i></code> </p> </td> 
-   <td colname="col3"> <p>顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「組織 ID を見つける」を参照してください。 </p> </td> 
+   <td colname="col3"> <p>顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「組織 ID を見つける」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
