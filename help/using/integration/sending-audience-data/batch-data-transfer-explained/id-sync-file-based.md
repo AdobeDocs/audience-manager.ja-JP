@@ -5,7 +5,7 @@ seo-title: ID 同期ファイルの名前およびコンテンツの要件
 solution: Audience Manager
 title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5624eac36a7f2b8892136688f89fc22af241fc3a
 
 ---
@@ -96,7 +96,7 @@ ID ファイルのコンテンツには、以下の要素が含まれます。
 abc123 def456 ghi789 xyz987
 ```
 
-## 同期による DPUUID の UUID との一致{#sync-matches-dpuuids-uuids}
+## 同期による DPUUID の UUID との一致 {#sync-matches-dpuuids-uuids}
 
 ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../../../reference/ids-in-aam.md) を [!DNL Audience Manager] UUID と同期することです。同期では、[!DNL DPID] および関連する [!DNL DPID] から[!DNL Audience Manager] [!DNL UUID] へ [!DNL DPUUID] をマッピングします。ファイル名と本文のどこに ID を配置するかで、これらの識別子を互いにどのようにマッピングするかが決定します。例えば、以下に 2 つのサンプルファイルを示します。
 
