@@ -5,7 +5,7 @@ seo-title: ルックアップテーブルによるログファイル処理時間
 solution: Audience Manager
 title: ルックアップテーブルによるログファイル処理時間の改善
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -57,7 +57,7 @@ c_lookup_tables.xml
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
-<br>
+<br> 
 
 以下のルックアップファイルにはメタデータが含まれており、広告 ID でメインファイルにリンクし直すことができます。サイズにも注意してください。各広告主を複数回繰り返す代わりに、それぞれに 1 つの参照のみが必要です。
 
