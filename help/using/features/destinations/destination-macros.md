@@ -5,7 +5,7 @@ seo-title: 宛先マクロの定義
 solution: Audience Manager
 title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
