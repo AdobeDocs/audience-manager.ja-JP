@@ -5,7 +5,7 @@ seo-title: Amazon S3：概要
 solution: Audience Manager
 title: Amazon S3：概要
 uuid: 8197ecdf-df8f-488d-bbc0-d8d4205b42b4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 ---
@@ -36,4 +36,4 @@ Amazon S3 の詳細については、以下のリソースを参照してくだ�
 
 [Amazon Simple Storage Service（Amazon S3）](https://aws.amazon.com/s3/)（アマゾンウェブサービスの Web サイト）
 
-[Amazon Simple Storage Service の使用開始](https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/gsg/GetStartedWithS3.html)（AWS ドキュメントの Web サイト）
+[Amazon Simple Storage Service の使用開始](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html)（AWS ドキュメントの Web サイト）
