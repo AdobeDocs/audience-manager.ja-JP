@@ -6,7 +6,7 @@ solution: Audience Manager
 title: テストグループのレポート
 topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -34,7 +34,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Converters</span></b> </p> </td> 
-   <td colname="col2"> <p>テストグループにおいて選択したコンバージョン特性を示したデバイス数を返します。コンバージョン特性の作成方法については、<a href="https://helpx.adobe.com/jp/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external">こちらのビデオをご覧ください</a>。 </p> </td> 
+   <td colname="col2"> <p>テストグループにおいて選択したコンバージョン特性を示したデバイス数を返します。コンバージョン特性の作成方法については、<a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external">こちらのビデオをご覧ください</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">Total Conversions</span></b> </p> </td> 
