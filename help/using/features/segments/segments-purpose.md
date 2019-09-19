@@ -5,7 +5,7 @@ seo-title: セグメントの目的、構成およびルール
 solution: Audience Manager
 title: セグメントの目的、構成およびルール
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 ---
@@ -33,7 +33,7 @@ Adobe Analytics セグメントまたはレポートスイートをExperience Cl
 
 >[!TIP]
 >
->Audience Manager セグメントは [!DNL Adobe Analytics] セグメントとは異なります。違いについて詳しくは、[Analytics と Audience Manager について](https://marketing.adobe.com/resources/help/ja_JP/analytics/audiences/aam-analytics-segments.html)を参照してください。
+>Audience Manager セグメントは [!DNL Adobe Analytics] セグメントとは異なります。両者の違いについて詳しくは、[Analytics と Audience Manager について](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html)を参照してください。
 
 ## セグメントビルダーを使用したルールベースセグメントの作成
 
