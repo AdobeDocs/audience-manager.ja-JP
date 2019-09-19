@@ -4,7 +4,7 @@ seo-description: 'Audience Manager では、アカウントに作成できる特
 seo-title: 使用の制限
 solution: Audience Manager
 title: 使用の制限
-keywords: IDマッピング、IDマッピング、cookieマッピング
+keywords: IDマッピング， IDマッピング， cookieマッピング
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
 source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
