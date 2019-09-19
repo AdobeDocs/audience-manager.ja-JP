@@ -6,7 +6,7 @@ seo-title: インスタンスレベルの DIL メソッド
 solution: Audience Manager
 title: インスタンスレベルの DIL メソッド
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -599,7 +599,7 @@ dilInstance.api.aamIdSync({
 
 >[!MORE_LIKE_THIS]
 >
->* [Experience Cloud ID サービスの同期機能](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-idsync.html)
+>* [Experience Cloud ID サービスの同期関数](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 
 
 ## result {#result}
@@ -707,8 +707,8 @@ var dilInstance = DIL.create({
 >[!MORE_LIKE_THIS]
 >
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID サービス：UseCORSOnly](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-use-cors-only.html)
->* [Experience Cloud ID サービスでの CORS のサポート](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-cors.html)
+>* [Experience Cloud ID サービス：UseCORSOnly](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-use-cors-only.html)
+>* [Experience Cloud ID サービスでの CORS のサポート](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-cors.html)
 
 
 ## useImageRequest {#useimagerequest}
