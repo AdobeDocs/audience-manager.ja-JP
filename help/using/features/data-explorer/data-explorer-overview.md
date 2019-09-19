@@ -4,7 +4,7 @@ seo-description: Data Explorer を使用して、使用済みおよび未使用�
 seo-title: 概要、メリットおよび使用例
 title: 概要、メリットおよび使用例
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 
 ---
