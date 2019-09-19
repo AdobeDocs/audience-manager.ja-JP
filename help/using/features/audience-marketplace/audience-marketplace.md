@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Marketplace
 topic: DIL API
 uuid: a94d2ee7-d854-4e68-bd6b-42827ca72f67
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: db98258a1f88867af4cd1369d35fa243a89f3f65
 
 ---
