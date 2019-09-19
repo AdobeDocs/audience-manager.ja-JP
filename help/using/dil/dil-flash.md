@@ -5,7 +5,7 @@ seo-title: Flash DIL
 solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 49fff90fa1330c59360e16f2a56e8fba7d4c43dc
 
 ---
@@ -45,7 +45,7 @@ c_flash_dil_intro.xml
 
 **AllowScriptAccess を`Always`または`sameDomain`に設定**
 
-SWF ファイルを読み込む HTML コードの `AllowScriptAccess` は、SWF ファイル内からの送信 URL アクセスを実行する機能を制御します。[!UICONTROL Flash DIL] データ統合を設定する場合、Flash `AllowScriptAccess` パラメーターが `always` または `sameDomain` に設定されていることを確認してください。[!UICONTROL Flash DIL] データ収集は、`AllowScriptAccess` が `never` に設定されている場合、機能しません。詳しくは、[スクリプトまたはホスト Web ページへのアクセスの制御](https://helpx.adobe.com/jp/flash/kb/control-access-scripts-host-web.html)を参照してください。
+SWF ファイルを読み込む HTML コードの `AllowScriptAccess` は、SWF ファイル内からの送信 URL アクセスを実行する機能を制御します。[!UICONTROL Flash DIL] データ統合を設定する場合、Flash `AllowScriptAccess` パラメーターが `always` または `sameDomain` に設定されていることを確認してください。[!UICONTROL Flash DIL] データ収集は、`AllowScriptAccess` が `never` に設定されている場合、機能しません。[スクリプトまたはホスト Web ページへのアクセスの制御](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html)を参照してください。
 
 **JS[!UICONTROL DIL]コードの配置**
 
@@ -97,10 +97,10 @@ r_flash_dil_data_collected.xml
 
 >[!MORE_LIKE_THIS]
 >
->* [AppMeasurement Flash、Flex、OSMF 導入ガイド](https://marketing.adobe.com/resources/help/ja_JP/sc/appmeasurement/flash/)
+>* [AppMeasurement Flash、Flex、OSMF 導入ガイド](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
 
 
-## Audience Manager におけるFlash DIL データ {#flash-dil-data}
+## Audience Manager の Flash DIL データ {#flash-dil-data}
 
 [!UICONTROL Flash DIL] モジュールは、Adobe AppMeasurement データを Audience Manager の特性および未使用シグナルに変換します。
 
