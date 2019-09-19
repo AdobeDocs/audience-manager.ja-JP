@@ -4,7 +4,7 @@ seo-description: Destination Builder を使用すると、Cookie ベースの宛
 seo-title: 宛先ビルダー
 solution: Audience Manager
 title: 宛先ビルダー
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6f13bc32f00c81a67026bcedd72badbf536311e1
 
 ---
