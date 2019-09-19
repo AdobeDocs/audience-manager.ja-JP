@@ -5,7 +5,7 @@ seo-title: データアクションのコンポーネント
 solution: Audience Manager
 title: データアクションのコンポーネント
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -25,7 +25,7 @@ c_compact.xml
 
 ## 顧客データフィード（CDF）{#cdf}
 
-[!UICONTROL CDF] は、1 時間ごとにお客様に送信されるファイルです。これらのファイルには、ユーザー ID、関連付けられたセグメント ID、特性 ID などのデータが含まれます。詳しくは、[顧客データフィードの概要](../../features/cdf-files.md)を参照してください。
+[!UICONTROL CDF] は、1 時間ごとにお客様に送信されるファイルです。これらのファイルには、ユーザー ID、関連付けられたセグメント ID、特性 ID などのデータが含まれます。詳細については、[顧客データフィードの概要](../../features/cdf-files.md)を参照してください。
 
 ## データ収集サーバー（DCS）{#dcs}
 
@@ -144,6 +144,6 @@ c_compact.xml
 }
 ```
 
-## プロファイルキャッシュサーバー（PCS）{#pcs}
+## プロファイルキャッシュサーバー（PCS） {#pcs}
 
 [データ収集コンポーネント](../../reference/system-components/components-data-collection.md)を参照してください。
