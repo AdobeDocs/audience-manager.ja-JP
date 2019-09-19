@@ -5,7 +5,7 @@ seo-title: 送信ファイル履歴
 solution: Audience Manager
 title: 送信ファイル履歴
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
