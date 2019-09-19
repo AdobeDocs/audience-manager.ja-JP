@@ -5,7 +5,7 @@ seo-title: 受信データファイルの FTP 名とファイルサイズの要�
 solution: Audience Manager
 title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ec2d05290874a95e9cc9b8318fcc5e1e1986f5b9
 
 ---
@@ -111,7 +111,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 他の例が必要な場合は、サンプルファイルを[ダウンロードします](assets/ftp_dpm_1234_1445374061.overwrite)。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 許容されるファイルサイズ{#accepted-file-sizes}
+## 許容されるファイルサイズ {#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL FTP] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
