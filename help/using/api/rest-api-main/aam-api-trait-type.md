@@ -5,7 +5,7 @@ seo-title: 特性タイプメソッド
 solution: Audience Manager
 title: 特性タイプメソッド
 uuid: 082931d5-457b-4622-817b-86303f38c26a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
