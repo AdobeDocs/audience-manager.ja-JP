@@ -6,7 +6,7 @@ seo-title: ベータ環境
 solution: Audience Manager
 title: ベータ環境
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 ---
@@ -47,7 +47,7 @@ Added re: AAM-30826.
 
 ## ベータ環境で DCS にアクセスする方法 {#access-dcs-beta-environment}
 
-1. curl [コマンド](https://curl.haxx.se/docs/manpage.html)を使用して DCS 呼び出しをおこないます。curl は、サポートされている様々なプロトコルの中から 1 つを使用して、サーバー間データ転送をおこなうためのツールです。
+1. curl[ コマンド](https://curl.haxx.se/docs/manpage.html)を使用して DCS 呼び出しをおこないます。curl は、サポートされている様々なプロトコルの中から 1 つを使用して、サーバー間データ転送をおこなうためのツールです。
 
    次に例を示します。
 
