@@ -79,32 +79,32 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
    + 宛先{#destinations}
       + [宛先の概要](features/destinations/destinations.md)
       + [宛先ホームページ](features/destinations/destinations-home.md)
-      + Adobe Experience Cloudの宛先{#experience-cloud-destinations}
+      + Adobe Experience Cloud の宛先{#experience-cloud-destinations}
          + [Analytics の宛先の設定](features/destinations/create-analytics-destination.md)
-      + 人ベースの宛先 {#people-based}
-         + [Overview and Use Cases](features/destinations/people-based-destinations-overview.md)
+      + People-Based Destinations {#people-based}
+         + [概要とユースケース](features/destinations/people-based-destinations-overview.md)
          + [前提条件と考慮事項](features/destinations/people-based-destinations-prerequisites.md)
          +  導入ガイド{#implementation-guide}
             + [導入の概要](features/destinations/people-based-destinations-workflow.md)
-            + [ワークフローA-オフラインデータと組み合わされたすべてのオンラインアクティビティに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-combined.md)
-            + [ワークフローB-オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
-            + [ワークフローC-オフラインデータと組み合わされた認証済みアクティビティに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-authenticated.md)
-         + [人ベースのプラットフォームとの認証](features/destinations/people-based-destinations-authentication.md)
-         + [共有可能なオーディエンス](/help/using/features/destinations/people-based-destinations-reporting.md)
-      + デバイスベースの宛先（サーバーからサーバー） {#device-based}
+            + [ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-combined.md)
+            + [ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
+            + [ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-authenticated.md)
+         + [ユーザーベースのプラットフォームを使用した認証](features/destinations/people-based-destinations-authentication.md)
+         + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
+      + デバイスベースの宛先（サーバー間）{#device-based}
          + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
-         + [Twitterにカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
-      + カスタム宛先 {#custom-destinations}
+         + [Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
+      + カスタムの宛先 {#custom-destinations}
          + [URL の宛先の設定](features/destinations/create-url-destination.md)
          + [Cookie の宛先の設定](features/destinations/create-cookie-destination.md)
          + [Cookie の宛先のオプション設定](features/destinations/cookie-destination-options.md)
-      + 宛先リファレンス {#destinations-reference}
+      + 宛先のリファレンス {#destinations-reference}
          + [宛先ビルダー](features/destinations/destination-builder.md)
          + [get_aamCookie コード](features/destinations/get-aam-cookie-code.md)
          + [宛先マクロの定義](features/destinations/destination-macros.md)
          + [標準型およびシリアル型のキーと値のペア](features/destinations/key-value-pairs.md)
-         + [宛先へのデータエクスポートコントロールの追加](/help/using/features/destinations/add-data-export-labels.md)
+         + [宛先へのデータ書き出しコントロールの追加](/help/using/features/destinations/add-data-export-labels.md)
    + プロファイル結合ルール{#profile-merge-rules}
       + [プロファイル結合ルールの概要](features/profile-merge-rules/merge-rules-overview.md)
       + [プロファイル結合ルールの導入](features/profile-merge-rules/merge-rules-start.md)
@@ -370,7 +370,7 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
    + [データ収集および製品統合に関するよくある質問](faq/faq-data-collection.md)
    + [顧客データのインバウンドの取得に関するよくある質問](faq/faq-inbound-data-ingestion.md)
    + [プライバシーとデータ保持に関するよくある質問](faq/faq-privacy.md)
-   + [人物ベースの宛先FAQ](faq/faq-people-based-destinations.md)
+   + [People-Based Destinations に関する FAQ](faq/faq-people-based-destinations.md)
    + [製品の機能に関するよくある質問](faq/faq-features.md)
    + [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq/faq-profile-merge.md)
    + [ターゲティングに関するよくある質問](faq/faq-targeting.md)
