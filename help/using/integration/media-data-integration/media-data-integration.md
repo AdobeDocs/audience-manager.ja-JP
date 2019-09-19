@@ -5,7 +5,7 @@ seo-title: メディアデータの統合
 solution: Audience Manager
 title: メディアデータの統合
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 ---
