@@ -4,7 +4,7 @@ seo-description: シグナルタイプに基づいてシグナル検索の結果
 seo-title: 検索結果のフィルタリング
 title: 検索結果のフィルタリング
 uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 ---
