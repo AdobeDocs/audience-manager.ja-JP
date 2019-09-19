@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データフィードプロバイダーに対する請求
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 [!DNL Audience Marketplace] 請求レポートを生成すると、サブスクリプション購入者ごとに前月のデータフィードの使用状況を確認できます。前月のレポートはいつでも作成できます。ただし、当月の 10 日以降にレポートを生成したほうがレポートが正確になります。
 
-## 請求レポートのダウンロード{#download-billing-report}
+## 請求レポートのダウンロード {#download-billing-report}
 
 レポートをダウンロードするには、次の手順を実行します。
 
