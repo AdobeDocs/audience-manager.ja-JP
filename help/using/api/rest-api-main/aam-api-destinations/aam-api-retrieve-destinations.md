@@ -5,7 +5,7 @@ seo-title: 宛先 ID を基準に宛先を返す
 solution: Audience Manager
 title: 宛先 ID を基準に宛先を返す
 uuid: abce7426-55a5-4045-93a7-0487652a7189
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
