@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールの導入
 solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 ---
@@ -136,7 +136,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)および[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-authenticated-state.html)を参照してください。
+詳しくは、「デバイス間のデ [ータソースの作成](#create-data-source) 」と「顧客IDと認 [証状態」を参照してください](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html)。
 
 ### `DIL.create` 関数の設定
 
@@ -151,7 +151,7 @@ var vDil = DIL.create({
 });
 </code></pre>
 
-namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/admin_getting_started.html)を参照してください。
+namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html)も参照してください。
 
 ### SDK の設定
 
@@ -209,4 +209,4 @@ DIL.create({
  </tbody>
 </table>
 
-[Android 用 Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/android/c_audience_manager_methods.html)および [iOS 用 Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/aam_methods.html)も参照してください。
+[Android 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html)と[ iOS 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html)も参照してください。
