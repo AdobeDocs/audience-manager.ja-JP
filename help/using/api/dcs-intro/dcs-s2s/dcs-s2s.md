@@ -5,7 +5,7 @@ seo-title: サーバー間データ転送用の DCS API
 solution: Audience Manager
 title: サーバー間データ転送用の DCS API
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 * オンサイトパーソナライゼーション：訪問者のセグメントに基づいて関連性の高いコンテンツやコールトゥアクションを動的に追加することにより、サイトでの訪問者のエクスペリエンスを調整します。
 * カスタマーサービスの向上：サーバー間データ転送を通じて [!DNL Audience Manager] セグメントを [!DNL CRM] などのシステムにインポートします。このデータは、コールサービスやオンラインチャットのオペレーターにとって、関連性の高いパーソナライズされた顧客情報になります。
 
-## 要件：ユーザー ID と地域サーバー名{#requirements}
+## 要件：ユーザー ID と地域サーバー名 {#requirements}
 
 [!UICONTROL DCS API] では、データ要求を検証し実行するためにユーザー ID と地域 ID が必要です。
 
