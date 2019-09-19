@@ -5,7 +5,7 @@ seo-title: 一括作成
 solution: Audience Manager
 title: 一括作成
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
