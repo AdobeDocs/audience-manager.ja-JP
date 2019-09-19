@@ -5,7 +5,7 @@ seo-title: 宛先の削除
 solution: Audience Manager
 title: 宛先の削除
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 
 ---
