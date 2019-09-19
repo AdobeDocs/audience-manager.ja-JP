@@ -5,7 +5,7 @@ seo-title: セグメント式エディターで使用するコード構文
 solution: Audience Manager
 title: セグメント式エディターで使用するコード構文
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
