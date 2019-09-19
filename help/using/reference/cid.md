@@ -5,7 +5,7 @@ seo-title: DPID と DPUUID に代わる CID
 solution: Audience Manager
 title: DPID と DPUUID に代わる CID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 
 ---
@@ -48,7 +48,7 @@ DPID と DPUUID は、データプロバイダー ID とユーザー ID で構�
 
 これらのキー値ペアはまだ機能しますが、廃止されています。代わりに CID または CID_IC を使用するようにコードを更新してください。
 
-## CID と CID_IC：概要{#cid-cidic-about}
+## CID と CID_IC：概要 {#cid-cidic-about}
 
 CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるものです。これらは DPID や DPUUID と同じ機能を提供しますが、データプロバイダー ID（または統合コード）とユーザー ID が 1 つのキー値ペアに含まれているので、より効率的です。それぞれのキー値ペアでは、以下がおこなわれます。
 
@@ -141,7 +141,7 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>URL エンコーディング </p> </td> 
+   <td colname="col1"> <p>URL エンコード </p> </td> 
    <td colname="col2"> <p>開発チームは、CID キー値ペアの次の変数に URL エンコーディングを適用する<i>必要</i>があります。 </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
       <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code>user ID</code> <code>（dpuuid）</code> </li> 
