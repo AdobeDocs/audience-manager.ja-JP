@@ -5,7 +5,7 @@ keywords: 特性;特性;特性の概要
 seo-title: 特性の概要
 solution: Audience Manager
 title: 特性の概要
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 
 ---
