@@ -1,9 +1,9 @@
 ---
 title: データ収集サーバー（DCS）API メソッドおよびコード
-seo-title: データ収集サーバー（DCS）API メソッドおよびコードfor Adobe Audience Manager（AAM）
+seo-title: Adobe Audience Manager(AAM)のデータ収集サーバー(DCS)APIメソッドおよびコード
 description: Audience Manager のデータ収集サーバー（DCS）をプログラムで操作するためのコード、メソッド、手法の説明です。
 seo-description: Audience Manager のデータ収集サーバー（DCS）をプログラムで操作するためのコード、メソッド、手法の説明です。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bbb28802ae70d5e547bd87b1be9ae3149671f5d5
 
 ---
