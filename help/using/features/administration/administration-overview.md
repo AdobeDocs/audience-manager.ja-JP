@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
