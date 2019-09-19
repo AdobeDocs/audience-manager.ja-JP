@@ -5,7 +5,7 @@ seo-title: Audience Manager の一般的なレポート
 solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c626c770208150d209d93f666b581113ada8de9
 
 ---
@@ -28,7 +28,7 @@ c_general_reports.xml
 以下が必要な場合、[!UICONTROL General]レポートを実行します。
 
 * 特性、セグメントまたは出力先でパフォーマンスを確認する。
-* 1、7、14、30、60および90日間隔で、インプレッション数（合計および個別）を追跡できます。
+* 1、7、14、30、60、90 日間隔でインプレッション数（合計および個別）を追跡する。
 * 合計および個別の読み込み数を確認する。
 * 特性とセグメントのパフォーマンスを比較する。
 * 強いまたは弱いパフォーマンス特性およびセグメントを特定したり、需要を分析したり、サードパーティレポートでデータの読み込み／実行を比較したりする。
@@ -66,7 +66,7 @@ t_run_general_report.xml
 1. 「**[!UICONTROL Run Report]**」をクリックします。
 
    結果が書き出し可能な表形式で表示されます。列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
-1. Select the desired option button at the top of the report to filter data by performance ( [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], or [!UICONTROL Total Trait Population]) or by time (1, 7, 14, 30, 60, or 90 day range).
+1. レポートの上部にある目的のオプションボタンを選択して、データをパフォーマンス（[!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、または [!UICONTROL Total Trait Population]）または時間（1 日、7 日、14 日、30 日、60 日、90 日の範囲）を基準にフィルタリングできます。
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ t_run_general_report.xml
 [!UICONTROL General Reports]の数字は、[!UICONTROL User Profile Store]から直接生成されます。結果には、これらのレポートの数値が生成されたときに [!DNL Audience Manager] のバックエンドに含まれていたユーザー数が反映されています。
 
 * これらの数値には、過度のトラフィックの訪問者 ID は含まれません。ボットからのトラフィックは、アドビのバックエイドシステムに到達する前にフィルタリングされます。また、一部のボットトラフィックは、バックエンドで毎週実行されるクリーンアップジョブの間に破棄されます。
-* [!DNL Audience Manager] UUID で識別されるデータを受信処理を通じてオンボーディングする場合、アドビのシステムでアクティブでなくなったユーザーがこれらの ID に含まれていれば、これらの非アクティブな [!DNL Audience Manager] UUID は、[!UICONTROL User Profile Store]に到達せず、報告もされません。
+* [!DNL Audience Manager] UUID で識別されるデータを受信処理を介してオンボーディングする場合、アドビのシステムでアクティブでなくなったユーザーがこれらの ID に含まれていれば、これらの非アクティブな [!DNL Audience Manager] UUID は、[!UICONTROL User Profile Store]に到達せず、報告もされません。
 * [!UICONTROL Total Trait Realizations]は[!UICONTROL Rule-based Traits]に対してのみ計算されます。
 
 ## 特性に関する一般レポートの結果 {#general-report-results-traits}
@@ -108,7 +108,7 @@ t_run_general_report.xml
 
 **Real-time Segment Population**
 
-この指標は、指定した時間範囲内でリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定された個別訪問者の実際の数を表します。
+この指標は、指定した時間範囲内にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定された個別訪問者の実際の数を表します。
 
 **Total Segment Population**
 
@@ -128,7 +128,7 @@ t_run_general_report.xml
 
 **Real-time Segment Population**
 
-この指標は、指定した時間範囲内でリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定された個別訪問者の実際の数を表します。
+この指標は、指定した時間範囲内にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定された個別訪問者の実際の数を表します。
 
 **Total Segment Population**
 
