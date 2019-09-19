@@ -6,7 +6,7 @@ solution: Audience Manager
 title: プロファイル結合ルールダッシュボード
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 ---
 
@@ -21,11 +21,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 [!UICONTROL Profile Merge Rules] を操作すると、次のことが可能になります。
 
-* クロスデバイス対応データソースから最大 3 つのルールを作成する。詳しくは、[クロスデバイス対応データソースの作成](../../features/profile-merge-rules/merge-rules-start.md#create-data-source)を参照してください。
+* クロスデバイス対応データソースから最大 3 つのルールを作成する。「[クロスデバイス対応データソースの作成](../../features/profile-merge-rules/merge-rules-start.md#create-data-source)」を参照してください。
 * デフォルトの結合ルールを指定する。[セグメントビルダー](../../features/segments/segment-builder.md)により、作成されるすべての新規セグメントにデフォルトのルールが自動的に適用されます。
-* [データエクスポートコントロール](../../features/data-export-controls.md#)を結合ルールに適用する。[!UICONTROL Data Export Controls]を使用すると、データの送信がデータのプライバシーや使用契約に違反する場合に、データを宛先に送信できないようになります。
+* [データエクスポートコントロール](../../features/data-export-controls.md)を結合ルールに適用する。[!UICONTROL Data Export Controls]を使用すると、データの送信がデータのプライバシーや使用契約に違反する場合に、データを宛先に送信できないようになります。
 * ユーザーごとのデバイスの平均数を追跡する。
-* ルールの作成、編集、削除に使用する基本コントロールを操作する。ルールを管理できるのは管理者のみですが、他のユーザーでもルールを表示したり、セグメントに適用することはできます。詳しくは、[定義済みのプロファイルの結合ルールオプション](../../features/profile-merge-rules/merge-rule-definitions.md)および[結合ルールのユースケース](../../features/profile-merge-rules/merge-rule-targeting-options.md)を参照してください。
+* ルールの作成、編集、削除に使用する基本コントロールを操作する。ルールを管理できるのは管理者のみですが、他のユーザーでもルールを表示したり、セグメントに適用したりできます。詳しくは、[定義済みのプロファイルの結合ルールオプション](../../features/profile-merge-rules/merge-rule-definitions.md)および[結合ルールのユースケース](../../features/profile-merge-rules/merge-rule-targeting-options.md)を参照してください。
 
 >[!MORE_LIKE_THIS]
 >
