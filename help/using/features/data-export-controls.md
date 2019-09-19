@@ -5,7 +5,7 @@ seo-title: データ書き出しコントロール
 solution: Audience Manager
 title: データ書き出しコントロール
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 
 ---
