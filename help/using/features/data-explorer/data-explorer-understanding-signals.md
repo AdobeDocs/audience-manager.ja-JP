@@ -4,7 +4,7 @@ seo-description: シグナルは、Audience Manager における情報の最小�
 seo-title: シグナルについて
 title: シグナルについて
 uuid: 04a0554e-954e-484a-8838-9161ef416872
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
