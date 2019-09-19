@@ -5,7 +5,7 @@ seo-title: 上位の未使用特性
 solution: Audience Manager
 title: 上位の未使用特性
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 [!UICONTROL Top Unused Traits]レポートを使用すると、現在セグメントにマッピングされていないファーストパーティ特性とサードパーティ特性のパフォーマンスを分析および比較することができます。このビューから、キャンペーン最適化またはまったく新しいビジネスチャンスのためにオーディエンスセグメントで使用するのに最適な特性を指摘することができます。
 
-## 上位の未使用特性レポートの使用{#using-the-report}
+## 上位の未使用特性レポートの使用 {#using-the-report}
 
 「**[!UICONTROL Data Provider Type]**」コントロールを使用して、ファーストパーティ特性とサードパーティ特性を切り替えます。「**[!UICONTROL All]**」を選択すると、ファーストパーティ特性とサードパーティ特性がレポートに表示されます。
 
@@ -35,7 +35,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers]を有効にする場合、[DFP データファイルを Audience Manager にインポート](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Order IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Order ID]ではなく[!UICONTROL Order]として表示されるようになります。
+>[!UICONTROL Audience Optimization for Publishers]を有効にする場合、[DFP データファイルを Audience Manager にインポート](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Order IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Order ID] ではなく[!UICONTROL Order]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
