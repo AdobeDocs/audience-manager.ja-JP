@@ -5,7 +5,7 @@ seo-title: 最適頻度レポート
 solution: Audience Manager
 title: 最適頻度レポート
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
