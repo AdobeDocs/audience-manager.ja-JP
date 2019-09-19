@@ -5,7 +5,7 @@ seo-title: データ収集コンポーネント
 solution: Audience Manager
 title: データ収集コンポーネント
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5730b94d7f72cdc406c2be6c063edf65886044e3
 
 ---
@@ -28,7 +28,7 @@ Audience Manager には次のデータ収集コンポーネントがあります
 * [インバウンドのサーバー間通信](../../reference/system-components/components-data-collection.md#inbound-outbound-server)
 * [ログファイル](../../reference/system-components/components-data-collection.md#log-files)
 
-## データ収集サーバー（DCS）およびプロファイルキャッシュサーバー（PCS）{#dcs-pcs}
+## データ収集サーバー（DCS）およびプロファイルキャッシュサーバー（PCS） {#dcs-pcs}
 
 DCS と PCS は連携して動作することで、それぞれが特性の適合、オーディエンスのセグメント化、およびデータストレージに関連するサービスを提供します。
 
@@ -79,7 +79,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 **その他の[!UICONTROL DCS/PCS]プロセス：プライバシーのオプトアウト**
 
-これらのサーバーシステムは、プライバシーに基づくユーザーのオプトアウト要求を処理します。データ収集をオプトアウトしたユーザーの Cookie 情報は、ログファイルで収集されません。アドビのプライバシーポリシーについて詳しくは、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/advertising-services.html)を参照してください。
+これらのサーバーシステムは、プライバシーに基づくユーザーのオプトアウト要求を処理します。データ収集をオプトアウトしたユーザーの Cookie 情報は、ログファイルで収集されません。アドビのプライバシーポリシーの詳細については、[アドビプライバシーセンター](https://www.adobe.com/privacy/advertising-services.html)を参照してください。
 
 ## データ統合ライブラリ（DIL）{#dil}
 
@@ -95,5 +95,5 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 >[!MORE_LIKE_THIS]
 >
->* [アドビプライバシーセンター](https://www.adobe.com/jp/privacy.html)
+>* [アドビプライバシーセンター](https://www.adobe.com/privacy.html)
 
