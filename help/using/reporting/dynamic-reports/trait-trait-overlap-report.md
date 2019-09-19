@@ -5,7 +5,7 @@ seo-title: 特性間重複レポート
 solution: Audience Manager
 title: 特性間重複レポート
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
 
 ---
@@ -57,7 +57,7 @@ r_t2t_data_pop.xml
 
  -->
 
-以下の指標が[!UICONTROL Trait-to-Trait Overlap] レポートには以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
+[!UICONTROL Trait-to-Trait Overlap]レポートのポップアップには、以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
