@@ -5,7 +5,7 @@ seo-title: DFP データファイルを Audience Manager にインポート
 solution: Audience Manager
 title: DFP データファイルを Audience Manager にインポート
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -37,7 +37,7 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
 <table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 手順 </th> 
+   <th colname="col1" class="entry"> 手順 ： </th> 
    <th colname="col2" class="entry"> 詳細 </th> 
    <th colname="col3" class="entry"> 所有者 </th> 
   </tr> 
