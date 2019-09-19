@@ -1,7 +1,7 @@
 ---
 description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。
 keywords: インバウンド，バッチ，バッチアップロード，バッチデータ
-seo-description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。そのためには、Audience Managerのバッチアップロードオプションを使用します。
+seo-description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。これを行うには、Audience Managerのバッチアップロードオプションを使用します。
 seo-title: Audience Manager へのバッチデータ送信の概要
 solution: Audience Manager
 title: Audience Manager へのバッチデータ送信の概要
