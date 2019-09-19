@@ -5,7 +5,7 @@ seo-title: 特性ビルダーの概要
 solution: Audience Manager
 title: 特性ビルダーの概要
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
