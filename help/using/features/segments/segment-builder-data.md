@@ -5,7 +5,7 @@ seo-title: セグメントビルダーにおける特性とセグメントのユ
 solution: Audience Manager
 title: セグメントビルダーにおける特性とセグメントのユーザー数データ
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -38,7 +38,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody> 
 </table>
 
-## 実際のセグメント母集団と推定セグメント母集団の計算{#calculating-real-estimated-populations}
+## 実際のセグメント母集団と推定セグメント母集団の計算 {#calculating-real-estimated-populations}
 
 新しいセグメントの作成時、または既存のセグメントの変更時は、Audience Manager で実際のリアルタイムセグメント母集団と合計セグメント母集団が表示されるまでに最大 24 時間かかります。
 
@@ -48,7 +48,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 [!UICONTROL Segment Builder]では、推定母集団グラフの青色の棒はセグメントのサイズの範囲の上限と下限を表します。過去のパフォーマンスから将来の結果が保証されているわけではありませんが、推定データを使用すると新しいセグメントや編集したセグメントのサイズがどの程度になる可能性があるか把握できます。
 
-## セグメント母集団データの概要{#segment-populations}
+## セグメント母集団データの概要 {#segment-populations}
 
 [!UICONTROL Segment Builder]では、セグメントの作成時や編集時にセグメント母集団データが表示されます。
 
@@ -60,7 +60,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 以下の表で、推定されたセグメント母集団データと実際のセグメント母集団データの詳細を確認してください。
 
-## 推定セグメント母集団データの定義{#estimated-segment-population}
+## 推定セグメント母集団データの定義 {#estimated-segment-population}
 
 次の表は、推定母集団の指標です。
 
