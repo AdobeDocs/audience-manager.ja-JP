@@ -5,7 +5,7 @@ seo-title: Audience Lab の高度な機能
 solution: Audience Manager
 title: Audience Lab の高度な機能
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
