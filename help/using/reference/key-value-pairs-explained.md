@@ -6,7 +6,7 @@ seo-title: キー値ペアの解説
 solution: Audience Manager
 title: キー値ペアの解説
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 
 ---
@@ -48,7 +48,7 @@ c_key_value_explained.xml
 * **キー値セパレーター：**&#x200B;キー値ペア内のキーと値を区切ります。
 * **シリアルセパレーター：**&#x200B;シリアル化されたキー値ペア内の個々の値を区切ります。
 
-## 標準およびシリアル化されたキー値要素{#standard-serialized-key-value-elements}
+## 標準およびシリアル化されたキー値要素 {#standard-serialized-key-value-elements}
 
 <table id="table_62B0498441034A719C9DB57276777D40"> 
  <thead> 
