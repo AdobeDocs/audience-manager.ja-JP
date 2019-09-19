@@ -5,7 +5,7 @@ seo-title: Audience Manager の製品マニュアル
 solution: Audience Manager
 title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1713cc966ef77c2ad80ddbe47f59521f1331a881
 
 ---
