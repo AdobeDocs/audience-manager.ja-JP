@@ -5,7 +5,7 @@ seo-title: 一括削除
 solution: Audience Manager
 title: 一括削除
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
