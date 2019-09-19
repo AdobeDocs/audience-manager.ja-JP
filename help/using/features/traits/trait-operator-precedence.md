@@ -5,7 +5,7 @@ seo-title: 特性ビルダーでの演算順序
 solution: Audience Manager
 title: 特性ビルダーでの演算順序
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
