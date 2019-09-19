@@ -4,7 +4,7 @@ seo-description: 'People-Based Destinations は、共有可能なオーディエ
 seo-title: Shareable Audiences
 solution: Audience Manager
 title: Shareable Audiences
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 
 ---
