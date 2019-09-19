@@ -5,7 +5,7 @@ seo-title: DIL のユースケースとコードサンプル
 solution: Audience Manager
 title: DIL のユースケースとコードサンプル
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8763bff3960e2033951cf68e65f5ad44377b2917
 
 ---
@@ -31,7 +31,7 @@ c_dil_send_page_objects.xml
 
  -->
 
-**Description**
+**説明**
 
 [!UICONTROL DIL] を使用してページデータを収集し、Audience Manager に送信する方法の例を以下のコードで示します。これらの例では、フラットリストまたは配列にデータ要素を保持する変数を使用します。変数を[キー値ペア](../reference/key-value-pairs-explained.md)として渡すことに注意してください。また、キー値ペアのキーの前に付いている `c_` プレフィックスにも注意してください。これは[必須のプレフィックス](../features/traits/trait-variable-prefixes.md)であり、情報がユーザー定義データであることを明示します。最初の例では、`c_` を手動でキーに付加する必要があります。2 番目の例では、[!UICONTROL DIL] がこれを自動的におこないます。
 
@@ -43,44 +43,52 @@ c_dil_send_page_objects.xml
 
 この基本的な例では、色と価格のデータをキー値ペアの形式で Audience Manager に送信しています。次のようなコードになります。
 
-<pre class="&ldquo;java&rdquo;"><code>var sample_ dil= DIL. create（{パートナー:「<i>パートナー名</i>」}）;
-sample_ dil. api. signatures（{
-c_ color:"blue"，
-c_ price:"900"}）;
-sample_ dil. api. submit（）;</code>
-</pre>
+<pre class="&ldquo;java&rdquo;"><code>
+var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
+sample_dil.api.signals({ 
+   c_color:"blue", 
+   c_price:"900" 
+}); 
+sample_dil.api.submit();
+</code></pre>
 
 **例 2：データをオブジェクトで送信**
 
 この高度な例では、データをオブジェクトで Audience Manager に送信する方法を示します。このメソッドを扱う場合は、[!UICONTROL DIL] を使用すると、オブジェクトを関数パラメーターとして [!DNL signals()] メソッドに渡すことができます。[!UICONTROL DIL]次のようなコードになります。
 
-<pre class="java"><code>var my_ object={
-color:"blue"，
-price:"900"};
-
-var sample_ dil= DIL. create（{パートナー:「<i>パートナー名</i>」}）;
-//Loadthe object and append"c_" to the key- valueペアのすべてのキーに"c_"を追加し、AudienceManagerにデータを送信します。 
-sample_ dil. api. signatures（my_ object，"c_"）. submit（）;</code>
-</pre>
+<pre class="java"><code>
+var my_object = { 
+   color : "blue", 
+   price : "900" 
+}; 
+ 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+//Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
+sample_dil.api.signals(my_object,"c_").submit();
+</code></pre>
 
 **例 3：配列でのデータの送信**
 
 この場合、変数 `my_object` は、配列を使用してデータを保持します。この例は、前述の推奨メソッドで渡された情報に基づいて構築されていますが、製品タイプおよびモデルに適応させるためにレイヤーを追加しています。次のようなコードになります。
 
-<pre class="java"><code>var my_ objects=[{
-color:"blue"，
-price:"900"}，{
-type:"acura"，
-モデル:"tl"}];
-
-var sample_ dil= DIL. create（{パートナー:「<i>パートナー名</i>」}）;
-
-for（var i=0;i&lt; my_ objects. length;i++）オブジェクトを//Loadに追加し、キーと値のペアのすべてのキーに"c_"を追加します。 
-{
-sample_ dil. api. signatures（my_ objects[i]，"c_"）;
+<pre class="java"><code>
+var my_objects = [{ 
+   color : "blue", 
+   price : "900" 
+}, { 
+   type : "acura", 
+   model : "tl" 
+}]; 
+ 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+ 
+for (var i = 0; i &lt; my_objects.length; i++) 
+//Load the object and append "c_" to all the keys in the key-value pairs.  
+{ 
+    sample_dil.api.signals(my_objects[i], "c_"); 
 } 
-sample_ dil. api. submit（）;</code>
-</pre>
+sample_dil.api.submit();
+</code></pre>
 
 >[!MORE_LIKE_THIS]
 >
@@ -105,9 +113,10 @@ c_dil_hrefer_over_https.xml
 
 次のようなコードになります。
 
-<pre class="java"><code>var adobe_ dil= DIL. create（{パートナー:「<i>パートナー名</i>」}）;
-adobe_ dil. api. signatures（{d_ referer:document. referrer}）. submit（）;</code>
-</pre>
+<pre class="java"><code>
+var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+adobe_dil.api.signals({ d_referer : document.referrer }).submit();
+</code></pre>
 
 ## 検索エンジンのタイプおよびキーワード検索語句のキャプチャ {#capture-search-engine-types}
 
@@ -115,7 +124,7 @@ adobe_ dil. api. signatures（{d_ referer:document. referrer}）. submit（）;<
 
 >[!IMPORTANT]
 >
->ここでは、最新バージョンのDILでサポートされていない従来の機能について説明します。
+>ここでは、最新バージョンの DIL でサポートされていない従来の機能について説明します。
 
 **サポートされている検索エンジン**
 
@@ -127,7 +136,7 @@ adobe_ dil. api. signatures（{d_ referer:document. referrer}）. submit（）;<
 * [!DNL Google]
 * [!DNL Yahoo!]
 
-**Description**
+**説明**
 
 サポートされている任意の検索エンジンの検索リファラーを取得する方法の例を以下のコードで示します。ここでは、ユーザーが「homes」という語句を [!DNL Google] Canada（`www.google.ca`）で検索したとしましょう。このコードでは、これらの検索語句をキャプチャして Audience Manager に送信することができます。
 
@@ -143,33 +152,36 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 ここでは、ユーザーが「homes」という語句を [!DNL Google] Canada（`www.google.ca`）で検索したとしましょう。コードで、検索エンジン（`c_se`）および検索語句（`c_st`）に、必須の `c_` プレフィックスが付加されていることに注意してください。`c_` は[必須のプレフィックス](../features/traits/trait-variable-prefixes.md)であり、これらが Audience Manager に対する顧客定義変数であることを明示するためのものです。
 
-<pre class="java"><code>var adobe_ dil= DIL. create（{パートナー:「<i>パートナー名</i>」}）;
-var search_ referrer= DIL. tools. getSearchReferrer（）;
-
-if（search_ referrer&amp;&amp; search_ referrer. valid）{
-adobe_ dil. api. signatures（{
-c_ se:se. name，
-c_ st:se. keywords
-}）. submit（）;
-}</code>
-</pre>
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
+var search_referrer = DIL.tools.getSearchReferrer(); 
+ 
+if (search_referrer &amp;&amp; search_referrer.valid) { 
+  adobe_dil.api.signals({ 
+    c_se : se.name, 
+    c_st : se.keywords 
+  }).submit(); 
+}
+</code></pre>
 
 **未登録検索エンジンのコードサンプル**
 
 ここでは、ユーザーが「homes」という語句を `dogpile.com` から検索したとしましょう。[!DNL Dogpile] はデフォルトではサポートされていないので、この検索エンジンを認識し検索語句を Audience Manager に返すように DIL を設定します。次のようなコードになります。
 
-<pre class="java"><code>var adobe_ dil= DIL. create（{パートナー:「<i>パートナー名</i>」}）;
-var search_ referrer= DIL. tools. getSearchReferrer（document. referrer，{
-hostPattern:/dogpile\./，
-queryParam:"q"}）;
-
-if（search_ referrer&amp;&amp; search_ referrer. valid）{
-adobe_ dil. api. signatures（{
-c_ se:se. name，
-c_ st:se. keywords
-}）. submit（）;
-}</code>
-</pre>
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
+    hostPattern:/dogpile\./, 
+    queryParam:"q" 
+}); 
+ 
+if (search_referrer &amp;&amp; search_referrer.valid) { 
+  adobe_dil.api.signals({ 
+    c_se : se.name, 
+    c_st : se.keywords 
+  }).submit(); 
+}
+</code></pre>
 
 ## キー値の他のキーへのマッピング {#map-key-values}
 
@@ -181,9 +193,9 @@ c_dil_map_keys.xml
 
  -->
 
-**Description**
+**説明**
 
-キー値ペアでは、キーに付加された `c_` プレフィックスで、シグナルが顧客定義データとして識別されます。顧客定義データは、イベント呼び出し時のデータで渡された特定のサイト上のターゲット設定に使用されます。ただし、この情報を Audience Manager アカウントのすべてのプロパティで使用可能にしたい場合があります。これをおこなうには、`c_` キー値ペアの値をプラットフォームレベルのキーにマッピングします。プラットフォームレベルのキーには `d_` プレフィックスが付加されており、そのシグナルがアカウントのすべてのプロパティでターゲット設定に使用できるようになります。
+キー値ペアでは、キーに付加された `c_` プレフィックスで、シグナルが顧客定義データとして識別されます。顧客定義データは、イベント呼び出し時のデータで渡された特定のサイト上のターゲティングに使用されます。ただし、この情報を Audience Manager アカウントのすべてのプロパティで使用可能にしたい場合があります。これをおこなうには、`c_` キー値ペアの値をプラットフォームレベルのキーにマッピングします。プラットフォームレベルのキーには `d_` プレフィックスが付加されており、そのシグナルがアカウントのすべてのプロパティでターゲティングに使用できるようになります。
 
 例として、特定のサイトから郵便番号データを収集し、それをすべての Audience Manager プロパティに対してターゲット設定するとします。郵便番号をプラットフォームレベルで使用できるようにするには、以下に示すように、顧客定義郵便番号キー（例：`c_zip`）をプラットフォーム定義キーにマッピングします。
 
@@ -205,7 +217,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 
 >[!MORE_LIKE_THIS]
 >
->* [キー変数のプレフィックスに関する要件](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
+>* [キー変数のプレフィックスの要件](https://marketing.adobe.com/resources/help/ja_JP/aam/r_tb_variable_prefixes.html)
 
 
 ## Google Tag Manager（GTM）での DIL とのやり取り{#traffic-dil-gtm}
@@ -227,9 +239,9 @@ GTM で `dil.js` ファイルを配信するには：
 1. タグを開いて編集し、次の作業をおこないます。
 
    * タグの名前を設定します。
-   * Select **[!UICONTROL Custom HTML Tag]** from the **[!UICONTROL Tag Type]** drop-down list.
-   * HTML フィールドで、[!UICONTROL DIL] コード（ライブラリとカスタムコード）を script タグの内側に配置します（`<script>DIL code</script>`）。
-   * **[!UICONTROL Save]**&#x200B;をクリックします。
+   * **[!UICONTROL Tag Type]** ドロップダウンリストから「**[!UICONTROL Custom HTML Tag]**」を選択します。
+   * HTML フィールドで、[!UICONTROL DIL] コード（ライブラリとカスタムコード）をスクリプトタグ `<script>DIL code</script>` の内側に配置します。
+   * 「**[!UICONTROL Save]**」をクリックします。
 
 1. コンテナを公開します。
 1. コンテナタグコードを生成し、自分のインベントリに配置します。
