@@ -1,12 +1,12 @@
 ---
 description: Audience Manager とのプログラムによる連携をおこなうための API およびツールキット。
 seo-description: Audience Manager とのプログラムによる連携をおこなうための API およびツールキット。
-seo-title: API および SDK コード
-keywords: 'api， api， api， api， api， api， api， api， api， api '
+seo-title: API と SDK コード
+keywords: 'api, api, api, api, api, api, api, api, api, api '
 solution: Audience Manager
-title: API および SDK コード
+title: API と SDK コード
 uuid: bf801e84-f914-4efd-8807-c4972474894a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
@@ -20,11 +20,11 @@ Audience Manager をプログラムで操作するための [!DNL API] および
 >
 >以下の機能は、アドビの [!DNL API] ではサポートされません。
 >
->* [!UICONTROL General]、 [!UICONTROL Trend]および [!UICONTROL Interactive] レポート。
+>* [!UICONTROL General]、[!UICONTROL Trend]、および [!UICONTROL Interactive] レポート。
 >* 廃止済みの Tag Insertion Manager（[!DNL TIM]）機能。
 
 
-詳細:
+詳細：
 
 * [Audience Manager の API コードの移行](api-swagger-migration.md)
 * [DCS イベント呼び出し API](dcs-intro/dcs-event-calls/dcs-event-calls.md)
