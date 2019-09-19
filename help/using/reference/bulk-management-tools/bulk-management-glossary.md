@@ -5,7 +5,7 @@ seo-title: 一括管理ツールの用語集
 solution: Audience Manager
 title: 一括管理ツールの用語集
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
