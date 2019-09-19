@@ -6,7 +6,7 @@ seo-title: フォルダー特性について
 solution: Audience Manager
 title: フォルダー特性について
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
 
 ---
