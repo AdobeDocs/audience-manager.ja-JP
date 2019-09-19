@@ -5,7 +5,7 @@ seo-title: ログファイル転送のための転送制御ファイル
 solution: Audience Manager
 title: ログファイル転送のための転送制御ファイル
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ---
