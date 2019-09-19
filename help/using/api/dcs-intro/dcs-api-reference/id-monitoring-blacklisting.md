@@ -6,7 +6,7 @@ seo-title: ID の監視とブラックリスト登録
 solution: Audience Manager
 title: ID の監視とブラックリスト登録
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 
 ---
