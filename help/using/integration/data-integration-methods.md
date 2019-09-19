@@ -5,7 +5,7 @@ seo-title: データ統合方法
 solution: Audience Manager
 title: データ統合方法
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 Audience Manager が他のデータプロバイダーおよびシステムと情報を交換する方法の概要です。
 
-## サポートされるデータ統合方法：リアルタイムおよびサーバー間{#supported-methods}
+## サポートされるデータ統合方法：リアルタイムおよびサーバー間 {#supported-methods}
 
 適切な統合方法の選択は、ビジネス要件とデータパートナーの技術力の組み合わせによって決まります。Audience Manager では、以下のどちらかの方法で他のデータプロバイダーと訪問者情報を交換します。
 
