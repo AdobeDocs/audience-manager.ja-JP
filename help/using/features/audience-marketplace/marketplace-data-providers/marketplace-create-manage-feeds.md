@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データフィードの作成、価格設定および管理
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -165,7 +165,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody> 
 </table>
 
-## プランメモ{#plan-notes}
+## プランメモ {#plan-notes}
 
 「**[!UICONTROL Additional Notes]**」フィールドには、フィードの各データプランの説明を入力します。簡潔で優れた説明は、購入者がデータフィードの各プランの内容や目的を理解するのに役立ちます。購入者は、新しいデータソースを検索したり評価したりする際に、データフィードおよびプランの説明を読むことができます。
 
@@ -191,7 +191,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 [!UICONTROL Audience Marketplace] では、割引によって、個別の加入者に対するデータフィードの公表価格を下げることができます。サブスクリプション購入要求を送信した加入者またはデータフィードの詳細情報を要求した加入者に対して、割引を提案できます。割引は [!DNL CPM] および定額料金のフィードに適用されます。新規顧客のサブスクリプション購入意欲を高める場合や顧客の忠誠度に報いる場合に、割引は役に立ちます。
 
-## 割引をデータフィードに適用{#apply-discounts}
+## 割引をデータフィードに適用 {#apply-discounts}
 
 <!-- marketplace-seller-discounts.xml -->
 
