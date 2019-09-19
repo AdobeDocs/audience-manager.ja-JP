@@ -1,12 +1,12 @@
 ---
 description: Adobe Audience Manager の ID の詳細なリストについては、このドキュメントを参照してください。
-keywords: DPID;DPUUID;CID;UUID;uuid;uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid， uuid
+keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
 seo-description: Adobe Audience Manager の ID の詳細なリストについては、このドキュメントを参照してください。
-seo-title: Audience Manager の ID のインデックス
+seo-title: Audience Manager で使用される ID の一覧
 solution: Audience Manager
-title: Audience Manager の ID のインデックス
+title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
@@ -27,12 +27,12 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>AAM UUID </p> </td> 
-   <td colname="col2"> <p> <b><span class="keyword"></span>Audience Manager の一意のユーザー ID</b> </p> <p> 数値型で 38 桁のデバイス ID。<span class="keyword">Audience Manager</span> はこの値を、操作するデバイスのそれぞれに関連付けます。Audience Manager UIで一意のユーザーのメンションが表示される場合は、このIDを考慮してください。<p><span class="keyword">Audience Manager</span> はこの ID を、「demdex.net」サードパーティドメインの Cookie として保存します。</p> </p> <p>Audience Manager UUID は、イベント呼び出しで d_uuid シグナルとして送信されます。 </p> </td> 
+   <td colname="col2"> <p> <b><span class="keyword">Audience Manager</span> の一意のユーザー ID</b> </p> <p> 数値型で 38 桁のデバイス ID。<span class="keyword">Audience Manager</span> はこの値を、操作するデバイスのそれぞれに関連付けます。Audience Manager UIで一意のユーザーのメンションが表示される場合は常に、この ID を考慮してください。<p><span class="keyword">Audience Manager</span> はこの ID を、「demdex.net」サードパーティドメインの Cookie として保存します。</p> </p> <p>Audience Manager UUID は、イベント呼び出しで d_uuid シグナルとして送信されます。 </p> </td> 
    <td colname="col3"> <p><code> demdex = 07955261652886032950143702505894272138</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ImsOrgId </p> </td> 
-   <td colname="col2"> <p> <b>組織 ID</b> </p> <p>会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織 ID を検索する方法については、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> 組織とアカウントのリンク</a>を確認し、組織 ID の検索までスクロールしてください。</p> </td> 
+   <td colname="col2"> <p> <b>組織 ID</b> </p> <p>会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織 ID を検索する方法については、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html"> 組織とアカウントのリンク</a>を確認し、組織 ID の検索までスクロールしてください。</p> </td> 
    <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
   </tr> 
   <tr> 
@@ -42,17 +42,17 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
   </tr> 
   <tr> 
    <td colname="col1"> <p>ECID、MID </p> </td> 
-   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>Experience Cloud ID（ECID、レガシー略称 MID または MCID）は、組織 ID と <span class="keyword"> Audience Manager</span> の一意のユーザー ID から数学的に生成されます。これらの ID が変わらない限り、特定のユーザーに関する正しい ECID を生成できるかどうかは、単純に計算上の問題になります。同じ組織 ID と Audience Manager UUID があれば、いつでも同じ ECID 値が得られます。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies と Experience Cloud ID</a> のドキュメントを参照してください。 </p> </td> 
+   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>Experience Cloud ID（ECID、レガシー略称 MID または MCID）は、組織 ID と <span class="keyword"> Audience Manager</span> の一意のユーザー ID から数学的に生成されます。これらの ID が変わらない限り、特定のユーザーに関する正しい ECID を生成できるかどうかは、単純に計算上の問題になります。同じ組織 ID と Audience Manager UUID があれば、いつでも同じ ECID 値が得られます。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies と Experience Cloud ID</a> のドキュメントを参照してください。 </p> </td> 
    <td colname="col3"> <p><code> mid=08382830887934830189014177072406221371 </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SID </p> </td> 
-   <td colname="col2"> <p> <b>Trait ID</b> </p> <p>特性 ID は、<span class="keyword"> Audience Manager</span> 環境内の特性を一意に識別します。ユーザーインターフェイス（UI）の各特性に特性 ID が割り当てられます。 </p> </td> 
+   <td colname="col2"> <p> <b>特性 ID</b> </p> <p>特性 ID は、<span class="keyword"> Audience Manager</span> 環境内の特性を一意に識別します。ユーザーインターフェイス（UI）の各特性に特性 ID が割り当てられます。 </p> </td> 
    <td colname="col3"> <p><code> 289983</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>SID </p> </td> 
-   <td colname="col2"> <p> <b>Segment ID </b> </p> <p>セグメント ID は、<span class="keyword"> Audience Manager</span> 環境内のセグメントを一意に識別します。UI の各セグメントにセグメント ID が割り当てられます。 </p> </td> 
+   <td colname="col2"> <p> <b>セグメント ID </b> </p> <p>セグメント ID は、<span class="keyword"> Audience Manager</span> 環境内のセグメントを一意に識別します。UI の各セグメントにセグメント ID が割り当てられます。 </p> </td> 
    <td colname="col3"> <p><code> 4798574</code> </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
   </tr> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p> <b>データプロバイダー個別ユーザー ID</b><b>（CRM ID）</b> </p> <p>サードパーティ ID。CRM システムのエンドユーザーを識別するための ID です。DPUUID を <span class="keyword"> Audience Manager</span> の UUID と同期したり、別の<span class="wintitle">データソース</span>（DPID）からの DPUUID を <a href="../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md">ID 同期プロセス</a>で同期したりできます。 </p> </td> 
+   <td colname="col2"> <p> <b>データプロバイダー個別ユーザー ID</b><b>（CRM ID）</b> </p> <p>サードパーティ ID。CRM システムのエンドユーザーを識別するための ID です。DPUUID を <span class="keyword">Audience Manager</span> の UUID と同期したり、別の<span class="wintitle">データソース</span>（DPID）からの DPUUID を <a href="../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md">ID 同期プロセス</a>で同期したりできます。 </p> </td> 
    <td colname="col3"> <p><code> 2132-3423vn-343fds-3432r</code> </p> </td> 
   </tr> 
   <tr> 
