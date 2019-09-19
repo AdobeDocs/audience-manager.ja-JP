@@ -5,7 +5,7 @@ seo-title: Audience Manager の導入
 solution: Audience Manager
 title: Audience Manager の導入
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ---
@@ -132,7 +132,7 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 このフェーズの成果物には次のものが含まれます。
 
-* 完成したファーストパーティ、セカンドパーティおよびサードパーティデータ収集戦略、
+* 完成したファーストパーティ、セカンドパーティおよびサードパーティデータ収集戦略;
 * 完成した [!DNL CRM] またはデータウェアハウス取り込みプラン、
 * 定義されたオーディエンスセグメント化要件、
 * 完成したデータ分類、
@@ -157,7 +157,7 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 このフェーズの成果物には次のものが含まれます。
 
-* データ収集プランの完成および承認、
+* データ収集プランの完成および承認;
 * エンドツーエンドの [!DNL QA]テスト、
 * Audience Manager ユーザーインターフェイス機能についての基本的な説明、
 * 終了の承認。
@@ -237,4 +237,4 @@ Audience Manager は、コードスニペットから [!DNL Akamai] を呼び出
 
 アカウントマネージャーは、製品実装プロセスが完了した後も、引き続きサポートおよびコンサルティングサービスを提供します。アカウントマネージャーとの定期的なミーティングの開催を期待できます。これらのミーティングでは、Audience Manager を最大限に活用し、価値を引き出すようにします。
 
-Audience Manager の詳細情報および開始方法については、[こちら](https://www.adobe.com/jp/products/audiencemanager.html)からお問い合わせください。
+Audience Manager の詳細情報および開始方法については、[こちら](https://www.adobe.com/products/audiencemanager.html)からお問い合わせください。
