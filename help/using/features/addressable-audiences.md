@@ -7,7 +7,7 @@ solution: Audience Manager
 title: アドレス可能なオーディエンス
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
 
 ---
@@ -64,7 +64,7 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Segment Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>レポートのルックバック期間中にセグメントに属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。セグメントには、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含むことができます（<a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md">Audience Marketplace</a> で取得した特性を通じて）。 </p> <p> <p>ヒント：ルックバック期間を 1 日にした場合、この指標はセグメントの現在の状態を把握するのに役立ちます。それは、<span class="wintitle">セグメントのアドレス可能なオーディエンス</span>の指標が、前日の 1 日を通してセグメントに適合したユーザー数を示すからです。このことと、<span class="keyword">Audience Manager</span> では <span class="wintitle">アドレス可能なオーディエンス</span>が毎日更新されることを踏まえて、この指標とルックバック期間を組み合わせれば、セグメントに関する最新のスナップショットを得ることができます。 </p> </p> </td> 
+   <td colname="col2"> <p>レポートのルックバック期間中にセグメントに属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。セグメントには、<a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md">Audience Marketplace</a> で取得した経由で、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含むことができます。 </p> <p> <p>ヒント：ルックバック期間を 1 日にした場合、この指標はセグメントの現在の状態を把握するのに役立ちます。それは、<span class="wintitle">セグメントのアドレス可能なオーディエンス</span>の指標が、前日の 1 日を通してセグメントに適合したユーザー数を示すからです。このことと、<span class="keyword">Audience Manager</span> では <span class="wintitle">アドレス可能なオーディエンス</span>が毎日更新されることを踏まえて、この指標とルックバック期間を組み合わせれば、セグメントに関する最新のスナップショットを得ることができます。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Segment Match Rate</b> </p> </td> 
@@ -178,7 +178,7 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
  </tbody> 
 </table>
 
-### セグメントレベルのマッチ率の指標{#segment-level-metrics}
+### セグメントレベルのマッチ率の指標 {#segment-level-metrics}
 
 これらの指標はセグメントのメンバーシップについてのデータを返します。これらは各セグメントについて、オーディエンスサイズに関するより詳細で正確な情報を提供します。
 
@@ -196,7 +196,7 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Segment Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>レポートのルックバック期間中にセグメントに属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。セグメントには、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含むことができます（<a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md">Audience Marketplace</a> で取得した特性を通じて）。 </p> <p> <p>ヒント：ルックバック期間を 1 日にした場合、この指標はセグメントの現在の状態を把握するのに役立ちます。それは、<span class="wintitle">セグメントのアドレス可能なオーディエンス</span>の指標が、前日の 1 日を通してセグメントに適合したユーザー数を示すからです。このことと、<span class="keyword">Audience Manager</span> では <span class="wintitle">アドレス可能なオーディエンス</span>が毎日更新されることを踏まえて、この指標とルックバック期間を組み合わせれば、セグメントに関する最新のスナップショットを得ることができます。 </p> </p> </td> 
+   <td colname="col2"> <p>レポートのルックバック期間中にセグメントに属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。セグメントには、<a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md">Audience Marketplace</a> で取得した経由で、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含むことができます。 </p> <p> <p>ヒント：ルックバック期間を 1 日にした場合、この指標はセグメントの現在の状態を把握するのに役立ちます。それは、<span class="wintitle">セグメントのアドレス可能なオーディエンス</span>の指標が、前日の 1 日を通してセグメントに適合したユーザー数を示すからです。このことと、<span class="keyword">Audience Manager</span> では <span class="wintitle">アドレス可能なオーディエンス</span>が毎日更新されることを踏まえて、この指標とルックバック期間を組み合わせれば、セグメントに関する最新のスナップショットを得ることができます。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total Segment Population</b> </p> </td> 
@@ -204,12 +204,12 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Segment Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>Segment Addressable Audience ÷ Total Segment Population の総数を％で表現したもの。 </p> </td> 
+   <td colname="col2"> <p>セグメントのアドレス可能なオーディエンス ÷ セグメント母集団の総数を % で表現したもの。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### プラットフォームレベルの指標{#platform-level-metrics}
+### プラットフォームレベルの指標 {#platform-level-metrics}
 
 この指標は、Audience Manager のすべてのお客様から収集したアクティビティについてのデータを返します。Audience Manager のお客様全体と比較することで、オーディエンスに関するより広い視野が得られます。
 
