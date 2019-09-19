@@ -5,7 +5,7 @@ seo-title: Google AdWords リマーケティングリストへのセグメント
 solution: Audience Manager
 title: Google AdWords リマーケティングリストへのセグメントの送信
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 [!DNL Google Ads] リマーケティングリストを [!DNL Audience Manager] の URL 宛先として設定するには：
 
-1. [!DNL Google Ads] アカウントで、[web サイトのリマーケティングリストを作成](https://support.google.com/adwords/answer/2454064?hl=ja)し、コンバージョン ID を書き出します。
+1. In your [!DNL Google Ads] account, [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en) and write down your conversion ID.
 1. ベース URL およびセキュア URL のテンプレートとして、次の URL を使用します。xxxxxxxx セクションをコンバージョン ID に置き換えます。
 
    ```
