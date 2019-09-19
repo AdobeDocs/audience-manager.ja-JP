@@ -5,7 +5,7 @@ seo-title: Audience Manager システムの主要なコンポーネント
 solution: Audience Manager
 title: Audience Manager システムの主要なコンポーネント
 uuid: dedb15e6-b8dd-4eea-ab84-d99f160e4d34
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b8b195f51186151fa7a8658451d1ee9aa7010a75
 
 ---
