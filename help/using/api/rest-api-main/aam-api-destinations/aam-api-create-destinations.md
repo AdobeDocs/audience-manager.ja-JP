@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 宛先の作成
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 >[!MORE_LIKE_THIS]
 >
->* [宛先](../../../features/destinations/destinations.md#destination-api-methods)
+>* [宛先](../../../features/destinations/destinations.md)
 >* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
 
