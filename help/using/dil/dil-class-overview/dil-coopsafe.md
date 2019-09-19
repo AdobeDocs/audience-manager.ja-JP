@@ -5,7 +5,7 @@ seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
@@ -20,7 +20,7 @@ DIL から Adobe Experience Cloud Device Co-op にデータを送信するかど
 `isCoopSafe` を使用するには、以下の要件を満たす必要があります。
 
 * [!UICONTROL DIL] v6.11 以降を使用する。
-* [Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/ja_JP/mcdc/) に参加する。Co-op への参加を検討している場合は、このドキュメントをよく読み、デバイスグラフの作成にデータがどのように使用されるかに関する懸念に `isCoopSafe` で対処できるかどうかを確認する必要があります。
+* [Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/) に参加する。Co-op への参加を検討している場合は、このドキュメントをよく読み、デバイスグラフの作成にデータがどのように使用されるかに関する懸念に `isCoopSafe` で対処できるかどうかを確認する必要があります。
 
 * [!DNL Adobe] コンサルタントに依頼して、Device Co-op アカウントにホワイトリストまたはブラックリストのフラグを設定する。これらのフラグをセルフサービスで有効にする方法はありません。
 
