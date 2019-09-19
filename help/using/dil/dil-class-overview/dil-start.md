@@ -5,7 +5,7 @@ seo-title: クラスレベルの DIL API の概要
 solution: Audience Manager
 title: クラスレベルの DIL API の概要
 uuid: 00c1136a-5f08-4104-b0ed-3de847cecd16
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
