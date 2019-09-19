@@ -4,7 +4,7 @@ seo-description: Adobe Analytics も使用している Audience Manager ユー�
 seo-title: Advanced Search for Adobe Analytics
 title: Advanced Search for Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
