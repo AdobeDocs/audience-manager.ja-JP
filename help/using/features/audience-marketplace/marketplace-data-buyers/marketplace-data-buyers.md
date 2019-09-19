@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データ購入者向けの Audience Marketplace
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12cc02103902a77b8b5967c319f4ac18746a700e
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 12cc02103902a77b8b5967c319f4ac18746a700e
 
 >[!TIP]
 > 
->**[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** を使用して、高品質のデータフィードを見つけ、サブスクリプションを購入できます。次に、Audience Manager UI へ戻るか[Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) を使用して、見つけたフィードを購読します。
+>Use the **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** to find high quality data feeds that you can subscribe to. Then, go back into the Audience Manager UI or use the [Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) to subscribe to the feeds you found.
 
 ![](assets/buyer_marketplace.png)
 
@@ -50,7 +50,7 @@ source-git-commit: 12cc02103902a77b8b5967c319f4ac18746a700e
 
 ## 非公開データフィード {#private-data-feeds}
 
-[!UICONTROL Marketplace] リストには、プロバイダーの名前および特性データが非公開として掲載されることがあります。これは、[非公開データフィード](../../../features/audience-marketplace/marketplace-private-feeds.md)であることを示しています。非公開データフィードを使用すると、販売者はデータへの購入者のアクセスを制限できます。販売者は、特別サービスや割引を提供したり、プライバシーおよびアクセス制御が重要な場合に、フィードを非公開にできます。購入者は、非公開フィードにアクセスしたい場合、サブスクリプション要求を販売者に送信する必要があります。詳しくは、[非公開データフィードのサブスクリプション購入](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed)を参照してください。
+[!UICONTROL Marketplace] リストには、プロバイダーの名前および特性データが非公開として掲載されることがあります。これは、[非公開データフィード](../../../features/audience-marketplace/marketplace-private-feeds.md)であることを示しています。非公開データフィードを使用すると、販売者はデータへの購入者のアクセスを制限できます。販売者は、特別サービスや割引を提供したり、プライバシーおよびアクセス制御が重要な場合に、フィードを非公開にできます。購入者は、非公開フィードにアクセスしたい場合、サブスクリプション要求を販売者に送信する必要があります。See [Subscribe to a Private Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) for details.
 
 >[!MORE_LIKE_THIS]
 >
