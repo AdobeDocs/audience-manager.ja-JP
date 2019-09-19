@@ -4,7 +4,7 @@ seo-description: 検索条件を最大で 10 セット保存し、必要に応�
 seo-title: 検索条件の保存
 title: 検索条件の保存
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3d8f16725053ae29bdba8e4fcd144ff0b9b67880
 
 ---
