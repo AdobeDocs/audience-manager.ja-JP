@@ -5,7 +5,7 @@ seo-title: 宛先の作成
 solution: Audience Manager
 title: 宛先の作成
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 
 ---
