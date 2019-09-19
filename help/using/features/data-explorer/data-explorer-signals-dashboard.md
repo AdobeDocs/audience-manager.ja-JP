@@ -4,7 +4,7 @@ seo-description: Audience Manager で過去 7 日以内に受信した未使用�
 seo-title: シグナルダッシュボード
 title: シグナルダッシュボード
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 ---
