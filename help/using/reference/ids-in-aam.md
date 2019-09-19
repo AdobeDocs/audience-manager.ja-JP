@@ -6,7 +6,7 @@ seo-title: Audience Manager で使用される ID の一覧
 solution: Audience Manager
 title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
@@ -32,7 +32,7 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
   </tr> 
   <tr> 
    <td colname="col1"> <p>ImsOrgId </p> </td> 
-   <td colname="col2"> <p> <b>組織 ID</b> </p> <p>会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織 ID を検索する方法については、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html"> 組織とアカウントのリンク</a>を確認し、組織 ID の検索までスクロールしてください。</p> </td> 
+   <td colname="col2"> <p> <b>組織 ID</b> </p> <p>会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織 ID を検索する方法については、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html"> 組織とアカウントのリンク</a>を確認し、組織 ID の検索までスクロールしてください。</p> </td> 
    <td colname="col3"> <p><code> 5DC5123F5245B1D20A490D46@AdobeOrg</code> </p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +42,7 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
   </tr> 
   <tr> 
    <td colname="col1"> <p>ECID、MID </p> </td> 
-   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>Experience Cloud ID（ECID、レガシー略称 MID または MCID）は、組織 ID と <span class="keyword"> Audience Manager</span> の一意のユーザー ID から数学的に生成されます。これらの ID が変わらない限り、特定のユーザーに関する正しい ECID を生成できるかどうかは、単純に計算上の問題になります。同じ組織 ID と Audience Manager UUID があれば、いつでも同じ ECID 値が得られます。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies と Experience Cloud ID</a> のドキュメントを参照してください。 </p> </td> 
+   <td colname="col2"> <p> <b>Experience Cloud ID</b> </p> <p>Experience Cloud ID（ECID、レガシー略称 MID または MCID）は、組織 ID と <span class="keyword"> Audience Manager</span> の一意のユーザー ID から数学的に生成されます。これらの ID が変わらない限り、特定のユーザーに関する正しい ECID を生成できるかどうかは、単純に計算上の問題になります。同じ組織 ID と Audience Manager UUID があれば、いつでも同じ ECID 値が得られます。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies と Experience Cloud ID</a> のドキュメントを参照してください。 </p> </td> 
    <td colname="col3"> <p><code> mid=08382830887934830189014177072406221371 </code> </p> </td> 
   </tr> 
   <tr> 
