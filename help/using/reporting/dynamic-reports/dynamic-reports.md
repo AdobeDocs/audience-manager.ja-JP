@@ -5,7 +5,7 @@ seo-title: インタラクティブな重複レポート
 solution: Audience Manager
 title: インタラクティブな重複レポート
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 
 ---
