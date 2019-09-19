@@ -21,7 +21,7 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ![](assets/basicInfo.png)
 
-## 特性グラフ {#trait-graph}
+## Trait Graph {#trait-graph}
 
 [!UICONTROL Trait Graph]は、選択した特性のパフォーマンス指標をわかりやすく示しています。トレンドラインにカーソルを移動すると、選択した特性の追加データが表示されます。
 
@@ -30,19 +30,19 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 * ルールベースの特性の場合、特性認定は、ユーザーがブラウザーで特性に絞り込まれるときにリアルタイムにおこなわれます。
 * オンボードの特性の場合、特性認定は、受信ファイルが処理された後でおこなわれます。つまり、受信ファイルが[Audience Manager に入力されたとき](../../faq/faq-inbound-data-ingestion.md)に、特性認定がおこなわれます。
 * **[!UICONTROL Unique Trait Realizations]**：特定の期間にこの特性をプロファイルに追加した個別ユーザーの数。
-* **[!UICONTROL Total Trait Population]**:この特性に対して現在選定されている個別ユーザーの数。
+* **[!UICONTROL Total Trait Population]**：現在この特性で絞り込まれている個別ユーザーの数。
 
-   ![特性グラフ](assets/trait-summary.png)
+   ![trait-graph](assets/trait-summary.png)
 
-* **[!UICONTROL Identity Type Breakdown]**:最初の3つのエントリには、上位3つのデバイスのデータソースが表示されます。このデータソースは、特性の資格を持つ上位の3つのデバイスのデータソースを表示します。4番目のエントリには、上位3つにないクロスデバイスデータソースから、特性に修飾されるその他 [!DNL DPUUIDs] のすべての[!DNL CRM IDs]（）の合計が表示されます。このレポートは、ページの右上にあるドロップダウンメニューで [!UICONTROL Show Results By] クロスデバイスIDを選択した場合にのみ表示されます。デフォルトのドロップダウンオプションは、 [!UICONTROL Device ID]このレポートは表示されません。
+* **[!UICONTROL Identity Type Breakdown]**：最初の 3 つのエントリには、特性に適合する母集団が最も大きい、上位 3 つのクロスデバイスデータソースが降順に表示されます。4 番目のエントリには、上位 3 つにないクロスデバイスデータソースから、特性に適合するその他すべての [!DNL DPUUIDs] （[!DNL CRM IDs]）の合計が表示されます。このレポートは、ページの右上にある [!UICONTROL Show Results By] ドロップダウンメニューでクロスデバイスIDを選択した場合にのみ表示されます。デフォルトのドロップダウンオプションは [!UICONTROL Device ID] で、このレポートは表示されません。
 
-   ![特性グラフ](assets/trait-identity.png)
+   ![trait-graph](assets/trait-identity.png)
    > [!NOTE]
-   > Audience Managerでは、特性に対応するクロスデバイスIDがある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
+   > Audience Manager では、特性に適合するクロスデバイス ID がある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
 
    >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=jpn)
 
-## 特性式 {#trait-expression}
+## Trait Expression {#trait-expression}
 
 「[!UICONTROL Trait Expression]」セクションには、ユーザーが特性について認定されるために満たさなければならない条件が表示されます。これらのルールは、[特性を作成または編集](../../features/traits/about-trait-builder.md)するときに設定されます。
 
