@@ -5,7 +5,7 @@ seo-title: セグメント／特性間重複レポート
 solution: Audience Manager
 title: セグメント／特性間重複レポート
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 ---
@@ -119,7 +119,7 @@ r_s2t_data_pop.xml
 
  -->
 
-以下の指標が[!UICONTROL Segment-to-Trait Overlap] レポートには以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
+[!UICONTROL Segment-to-Trait Overlap]レポートのポップアップには、以下の指標が含まれています。この表の個別訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
