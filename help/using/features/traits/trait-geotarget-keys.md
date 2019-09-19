@@ -5,7 +5,7 @@ seo-title: プラットフォームレベルのキーによる GeoTargeting（�
 solution: Audience Manager
 title: プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c5c57423bcba8d4b3974a04c46dc7c7afc7484a0
 
 ---
@@ -35,13 +35,13 @@ Audience Manager アカウントのすべてのプロパティにわたって地
 
 ## IP アドレスで定義されたプラットフォームレベルキー {#keys-ip-address}
 
-アドビでは、[Digital Envoy](https://www.digitalenvoy.com/)と連携し、以下に示す人口統計データと地理的データを取得して更新します。これらのキーの値は、[!DNL IP] アドレスを対応する地理データおよび人口統計データと照合することで、決定されます。それでも、[!UICONTROL Trait Builder]でキー値ペアを作成する際には、値パラメーターを入力する必要があります。
+We work with [Digital Envoy](https://www.digitalenvoy.com/) to obtain and update the demographic and geographic data for the keys below. これらのキーの値は、[!DNL IP] アドレスを対応する地理データおよび人口統計データと照合することで、決定されます。それでも、[!UICONTROL Trait Builder]でキー値ペアを作成する際には、値パラメーターを入力する必要があります。
 
 | キー | ターゲティングの場合 |
 |--- |--- |
 | d_area_code | [北米地域コード](https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes)。次に例を示します。 <ul><li>**特性**：d_area_code=801</li><li>**特性名**：Utah</li></ul> |
 | d_city | 都市。[都市リスト](assets/d_city.txt)をダウンロードします。次に例を示します。 <ul><li>特性：d_city=bonn</li><li>特性名：Bonn</li></ul> **ヒント**：`d_city` と `d_country` を組み合わせて使用すれば、異なる国にある同じ名前の都市をターゲットにすることができます。`d_postal_code` を使用すると、さらに具体的にターゲットを絞り込むことができます。 |
-| d_country | ISO 国コードに対応する値。各種コードの検索可能なリストについては、[ISO Online Browsing Platform](https://www.iso.org/obp/ui/#home) を参照してください。<br>英国のターゲティングは、ISO 3166 に従わない特例です。英国では、ターゲティングに「GB」ではなく「UK」を使用する必要があります。オランダ領アンティルをターゲティングするためのコード「AN」は、2010 年から廃止されました。この地域は、5 つの個別の領土単位に分割されました。オランダ領アンティルをターゲティングする場合、「AN」は使用せず、「CW」、「SX」および「BQ」の国コードの組み合わせを使用するのがよいようです。例：<br>特性：d_country=CZ <br>特性名：Czech Republic<br>特性：d_country=UK<br>特性名：United Kingdom<br>特性：d_country=CW OR d_country=SX OR d_country=BQ<br>特性名：Netherlands Antilles |
+| d_country | ISO 国コードに対応する値。For a searchable list of codes, see the [ISO Online Browsing Platform](https://www.iso.org/obp/ui/#home). <br>英国のターゲティングは、ISO 3166 に従わない特例です。英国では、ターゲティングに「GB」ではなく「UK」を使用する必要があります。オランダ領アンティルをターゲティングするためのコード「AN」は、2010 年から廃止されました。この地域は、5 つの個別の領土単位に分割されました。オランダ領アンティルをターゲティングする場合、「AN」は使用せず、「CW」、「SX」および「BQ」の国コードの組み合わせを使用するのがよいようです。例：<br>特性：d_country=CZ <br>特性名：Czech Republic<br>特性：d_country=UK<br>特性名：United Kingdom<br>特性：d_country=CW OR d_country=SX OR d_country=BQ<br>特性名：Netherlands Antilles |
 | d_dma_code | 大都市圏 DMA コード。[DMA 地域リスト](assets/DMAregions.csv)（.csv 形式）をダウンロードします。次に例を示します。 <ul><li>特性：d_dma_code=807</li><li>特性名：San Francisco</li></ul> |
 | d_lat | 緯度（例：d_lat=40.75）。[緯度リスト](assets/d_lat.txt)をダウンロードします。 |
 | d_long | 経度（例：d_long=73.98）。[経度リスト](assets/d_long.txt)をダウンロードします。 |
