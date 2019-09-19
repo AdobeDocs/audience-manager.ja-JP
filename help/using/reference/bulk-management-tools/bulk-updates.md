@@ -6,7 +6,7 @@ seo-title: 一括更新
 solution: Audience Manager
 title: 一括更新
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
