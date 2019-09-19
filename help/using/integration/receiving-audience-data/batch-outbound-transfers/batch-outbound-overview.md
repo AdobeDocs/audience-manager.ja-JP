@@ -3,7 +3,7 @@ description: Audience Manager では、これらの仕様に従って、バッ�
 seo-description: Adobe Audience Manager（AAM）では、これらの仕様に従って、バッチデータをサードパーティコンテンツプロバイダーに送信します。
 seo-title: Adobe Audience Manager（AAM）でのバッチ送信データ転送
 title: バッチ送信データ転送
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 ---
