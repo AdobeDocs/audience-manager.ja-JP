@@ -4,7 +4,7 @@ seo-description: 宛先のランディングページには、URL、Cookie、サ
 seo-title: 宛先の管理
 solution: Audience Manager
 title: 宛先の管理
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
 
 ---
