@@ -5,7 +5,7 @@ seo-title: 'SDK コード '
 solution: Audience Manager
 title: 'SDK コード '
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
 
 ---
@@ -27,5 +27,5 @@ Audience Manager では、[!DNL Android] および [!DNL iOS] 向けのソフト
 
 Android および iOS4. x SDK は引き続きサポートされています。SDK コードライブラリについては、以下を参照してください。
 
-* [Android SDK](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/overview.html)
-* [iOS SDK](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html)
+* [Android SDK](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [iOS SDK](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
