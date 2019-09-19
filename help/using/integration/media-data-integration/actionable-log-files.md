@@ -88,7 +88,7 @@ If you are already importing [!UICONTROL DCM] log data into [!DNL Audience Manag
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col2"> <p>広告主 ID。</p> <p>広告主のデータソースの統合コード。これはAudience Managerデータソースとは関係ありません。</p> <p>このフィールドは、DCM の広告主グループ ID にマッピングされます。 </p> </td> 
+   <td colname="col2"> <p>広告主 ID。</p> <p>広告主のデータソースの統合コード。 これは、Audience Managerのデータソースとは関係ありません。</p> <p>このフィールドは、DCM の広告主グループ ID にマッピングされます。 </p> </td> 
    <td colname="col3"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
