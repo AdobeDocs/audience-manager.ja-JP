@@ -5,7 +5,7 @@ seo-title: DIL のユースケースとコードサンプル
 solution: Audience Manager
 title: DIL のユースケースとコードサンプル
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8763bff3960e2033951cf68e65f5ad44377b2917
 
 ---
@@ -217,7 +217,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 
 >[!MORE_LIKE_THIS]
 >
->* [キー変数のプレフィックスの要件](https://marketing.adobe.com/resources/help/ja_JP/aam/r_tb_variable_prefixes.html)
+>* [キー変数のプレフィックスに関する要件](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
 
 
 ## Google Tag Manager（GTM）での DIL とのやり取り{#traffic-dil-gtm}
