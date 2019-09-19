@@ -4,7 +4,7 @@ seo-description: URL の宛先は、ページから宛先へのピクセル呼�
 seo-title: URL の宛先の設定
 solution: Audience Manager
 title: URL の宛先の設定
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6f13bc32f00c81a67026bcedd72badbf536311e1
 
 ---
