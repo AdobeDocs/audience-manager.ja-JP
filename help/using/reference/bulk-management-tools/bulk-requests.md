@@ -5,7 +5,7 @@ seo-title: 一括要求
 solution: Audience Manager
 title: 一括要求
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
