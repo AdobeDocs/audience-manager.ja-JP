@@ -4,7 +4,7 @@ seo-description: このページには、Audience Manager とデータパート�
 seo-title: カスタムパートナーの統合
 solution: Audience Manager
 title: カスタムパートナーの統合
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3e7c993b1ddd2829e382de56ea246a667ff3ce0c
 
 ---
@@ -28,7 +28,7 @@ Oracle Data Cloudから受信した受信データファイルは、[受信デ�
 
 受信データファイルの標準実装フィールドに加えて、以下に示す要素が必須です。他のすべての標準フィールドおよびファイル名要素の説明については、上記にリンクされている 2 つのページの「ファイル名構文」と「ファイルコンテンツ構文」を参照してください。
 
-<br>
+<br> 
 
 **ファイルの命名**
 
@@ -38,7 +38,7 @@ ODC ファイル名の構造は次のようになります。
 
 `odc`file name 要素は、ファイルが Oracle Data Cloud から読み込まれたことを識別し、Audience Manager の受信ファイルバリデーターに対してそのように処理するように指示します。
 
-<br>
+<br> 
 
 **ファイルコンテンツ**
 
@@ -55,7 +55,7 @@ ODC ファイル名の構造は次のようになります。
 >
 >同じ受信データファイルで IDFA と Android デバイス ID を送信しないでください。
 
-<br>
+<br> 
 
 **ODC 受信ファイルのサンプル**
 
