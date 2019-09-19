@@ -4,7 +4,7 @@ seo-description: Cookie の宛先は、ユーザーのブラウザーの Cookie 
 seo-title: Cookie の宛先の設定
 solution: Audience Manager
 title: Cookie の宛先の設定
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 
 ---
