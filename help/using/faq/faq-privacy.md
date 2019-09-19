@@ -5,7 +5,7 @@ seo-title: プライバシーとデータ保持に関するよくある質問
 solution: Audience Manager
 title: プライバシーとデータ保持に関するよくある質問
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
 
 >[!TIP]
 >
->詳しくは、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy.html)を参照してください。
+>Visit the [Adobe Privacy Center](https://www.adobe.com/privacy.html) for more information.
 
 **Audience Manager では Cookie をどのように使用し、どのような Cookie を設定しますか？**
 
-[Audience Manager の Cookie](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/cookies/cookies_am.html) を参照してください。
+詳しくは、[Audience Manager の Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) を参照してください。
 
 **米国の Audience Manager クライアントは EU 資産のユーザーをターゲットにすることができますか？**
 
