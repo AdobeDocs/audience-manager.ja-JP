@@ -5,7 +5,7 @@ seo-title: 非公開データフィード
 solution: Audience Manager
 title: 非公開データフィード
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 21b2505ac6cdf97b401bf0b0ac80bf1964f084b8
 
 ---
