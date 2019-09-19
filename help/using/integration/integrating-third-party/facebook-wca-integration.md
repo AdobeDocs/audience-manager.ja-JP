@@ -4,7 +4,7 @@ seo-description: このページでは、オンライン広告ターゲティン
 seo-title: Facebook WCA の統合
 solution: Audience Manager
 title: Facebook WCA の統合
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 ---
@@ -28,10 +28,10 @@ source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 1. Facebook 広告アカウント
 2. Audience Managerセグメントで、新しい Facebook 宛先に割り当てる準備を整えます。Audience Manager UI での[セグメントの作成方法](/help/using/features/segments/segment-builder.md)をご確認ください。
-3. Adobe Experience Cloud ID サービス（ECID）バージョン 4.1.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**&#x200B;から最新バージョンをダウンロードします。
-4. Audience Manager Data Integration Library（DIL）バージョン 9.0 以降は、**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;からダウンロードできます。[サーバー側転送（SSF）](https://marketing.adobe.com/resources/help/ja_JP/reference/ssf.html)を使用して Audience Manager にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[Analytics Code Manager](https://marketing.adobe.com/resources/help/ja_JP/reference/code_manager_admin.html) を使用して、AppMeasurement をダウンロードします。
+3. Adobe Experience Cloud ID サービス（ECID）バージョン 4.1.0 以降。Download the latest version **[here](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
+4. Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from **[here](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. または、サーバー側転送( [SSF)を使用してAudience Managerにデータを読み込む場合は](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html) 、AppMeasurementバージョン2.12以降を使用する必要があります。 Analyticsコードマネージャーを使用してAppMeasurement [をダウンロードします](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)。
 
-[Adobe Launch](https://docs.adobelaunch.com/) または [Adobe Dynamic Tag Management](https://marketing.adobe.com/resources/help/ja_JP/dtm/) を使用して、手順 3 および 4 でライブラリをインストールまたはアップグレードすることをお勧めします。
+手順3と4で、 [Adobe Launchまたは](https://docs.adobelaunch.com/) Adobe Dynamic Tag Managementを使用してライブラリをインストールまたはアップグレードすることをお勧めします [](https://marketing.adobe.com/resources/help/en_US/dtm/)。
 
 ## 手順 1：Audience Manager で Facebook の宛先を作成する{#step-1-create-facebook-destination}
 
@@ -86,7 +86,7 @@ URL の宛先設定は、以下の画像のようになります。
 
 ## 手順 3：Facebook Ad Manager 内でオーディエンスを作成する {#step-3-create-audience}
 
-Facebook ドキュメントの[Web サイトカスタムオーディエンスの作成](https://www.facebook.com/business/help/666509013483225)を参照してください。以下の表の「Create Audience」オプションを選択します。
+See [Create a Website Custom Audience](https://www.facebook.com/business/help/666509013483225) in the Facebook help documentation. 以下の表の「Create Audience」オプションを選択します。
 
 
 | 項目 | 説明 |
