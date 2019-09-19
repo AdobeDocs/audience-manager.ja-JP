@@ -1,7 +1,7 @@
 ---
-description: '人ベースの宛先に登録する前に満たす必要がある顧客要件の概要を以下に示します。  '
-seo-description: '人ベースの宛先に登録する前に満たす必要がある顧客要件の概要を以下に示します。  '
-seo-title: 人ベースの宛先の前提条件と考慮事項
+description: 'People-Based Destinations に新規登録する前に満たす必要のある顧客要件の概要については、以下をお読みください。  '
+seo-description: 'People-Based Destinations に新規登録する前に満たす必要のある顧客要件の概要については、以下をお読みください。  '
+seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
 translation-type: tm+mt
@@ -12,14 +12,14 @@ source-git-commit: f3fe6abe913d98549ae6c090a2d5f721485308c2
 
 # 前提条件と考慮事項 {#prerequisites-considerations}
 
-新規登録する前に満たす必要がある顧客の要件の概要を以下に示します [!DNL People-Based Destinations]。
+[!DNL People-Based Destinations] に新規登録する前に満たす必要のある顧客要件の概要については、以下をお読みください。
 
 >[!IMPORTANT]
-> 実装段階に進む前に、この記事をよく読んでください。
+> 実装段階に進む前に、この記事をよくお読みください。
 
-## ユーザーベースの宛先へのサインアップ {#signing-up}
+## People-Based Destinations への新規登録 {#signing-up}
 
-[!DNL People-Based Destinations] は、ソーシャルネットワーク上のカスタマイズされたオファーや電子メールマーケティングを使用してオーディエンスをターゲット化することで、人ベースの環境でファーストパーティのオーディエンスセグメントをアクティブ化でき、Audience Managerのエクスペリエンスを強化するプレミアム機能です。
+[!DNL People-Based Destinations] は、ソーシャルネットワーク上または電子メールマーケティングで、カスタマイズされたオファーを用いてオーディエンスのターゲティングをおこない、ユーザーベースの環境でファーストパーティのオーディエンスセグメントをアクティブ化することで、Audience Manager のエクスペリエンスを強化するプレミアム機能です。
 
 このプレミアム機能を利用するには、アドビの担当者にお問い合わせください。
 
@@ -27,55 +27,55 @@ source-git-commit: f3fe6abe913d98549ae6c090a2d5f721485308c2
 
 ### [!DNL Facebook]
 
-を使用してオーディエン [!DNL People-Based Destinations] スセグメントをに送信する前に、 [!DNL Facebook]次の要件を満たしていることを確認します。
+[!DNL People-Based Destinations] を使用してオーディエンスセグメントを [!DNL Facebook] に送信する前に、次の要件を満たしていることを確認してください。
 
-1. 使用す [!DNL Facebook] る広告アカウントに対し **て** 、「キャンペーンを管理」権限を有効にする必要があります。
-1. Adobe Experience cloudビジネス **アカウントを** 、広告パートナーとして貴社に追加しま [!DNL Facebook Ad Account]す。  `business ID=206617933627973`. 詳しくは [、「Add Partners to Your Business Manager](https://www.facebook.com/business/help/708679622611131) 」を参照してください。
+1. お使いの [!DNL Facebook] ユーザーアカウントで、使用するプランの広告アカウントに対する&#x200B;**キャンペーンの管理**&#x200B;権限が有効になっている必要があります。
+1. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/708679622611131) for details.
    >[!IMPORTANT]
-   > Adobe Experience cloudの権限を設定する場合は、「キャンペーンを管理」権限を有効にする **必要があります** 。 これは統合に必要で [!DNL People-Based Destinations] す。
-1. サービス規約を読んで [!DNL Facebook Custom Audiences] 署名します。 これを行うには、に進み、 `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`どこに `accountID` いる [!DNL Facebook Ad Account ID]。
+   > Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!DNL People-Based Destinations] 統合に必要です。
+1. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
 
 ## データオンボーディング {#data-onboarding}
 
-のデータインジェストで [!DNL People-Based Destinations] は、現在、1回のバッチ転送で、1つの顧客ID()にリンクされた最大10個のハッシュ化された電子メ[!DNL CRM ID]ールアドレスをサポートしています。 1つの顧客IDにリンクされた10個を超えるハッシュ化された電子メールアドレスをアップロードすると、Audience Managerでそのうち10個が特定の順序で取り込まれなくなります。
+[!DNL People-Based Destinations] のデータ取り込みでは現在、バッチ転送 1 回あたり、1 つの顧客 ID（[!DNL CRM ID]）とリンクされている最大 10 個のハッシュ化された電子メールアドレスをサポートしています。1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスをアップロードすると、Audience Manager が、それらのうち 10 個の電子メールアドレスを取り込みます（特定の順序はありません）。
 
-1つの顧客IDにリンクされた、10を超えるハッシュ化された電子メールアドレスを複数のバッチ転送でアップロードすると、Audience Managerで、追加された最新の10個の電子メールアドレスが保持されます。
+1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスを、複数の一括転送でアップロードすると、Audience Manager は最近追加された 10 個の電子メールアドレスを保持します。
 
 ## データのプライバシー {#data-privacy}
 
-電子メー [!DNL People-Based Destinations] ルアドレスに基づいてオーディエンスをターゲット設定できますが、直接識別可能な訪問者情報がAudience Managerに到達することはありません。 データのオンボーディングフェーズでは、使用する予定の電子メールアドレスがアルゴリズムとハッシュ化されていることを確認する必要が [!DNL SHA256] あります。 そうしないと、で使用できなくなります [!DNL People-Based Destinations]。
+[!DNL People-Based Destinations] では、電子メールアドレスに基づいてオーディエンスのターゲットを設定することができますが、Audience Manager では、訪問者情報を直接特定することはできません。オンボーディング段階で、使用する予定の電子メールアドレスが [!DNL SHA256] アルゴリズムでハッシュ化されていることを確認する必要があります。そうでない場合、[!DNL People-Based Destinations] で使用することはできません 。
 
 ## データのハッシュと暗号化 {#data-hashing-encryption}
 
-暗号化は双方向関数です。 また、暗号化された情報は、正しい復号鍵を用いて復号化することもできる。 Audience Managerのコンテキストでデータを暗号化すると、個人を特定できる情報の暗号化された形式も復号化され、機密性の高い顧客データが表示されるので、プライバシーに関する深刻なリスクが生じます。 暗号化とは異なり、ハッシュ化さ [!DNL People-Based Destinations] れたデータを使用するように設計されており、ターゲット設定に使用する顧客データを保護します。
+暗号化は双方向関数です。暗号化された情報は、復号化キーを使用して復号化することもできます。暗号化された形式の個人を識別できる情報は、復号化され、機密顧客データが表示される可能性があります。そのため、Audience Manager のコンテキストでデータを暗号化すると、深刻なプライバシーリスクが生じます。暗号化とは異なり、[!DNL People-Based Destinations] は、ハッシュ化されたデータを使用し、ターゲティングに使用する顧客データを保護するように設計されています。
 
-ハッシュは、入力をスクランブルして一意の結果を生成する一方向の関数です。 例えば、適切なハッシュアルゴリズムを使用す [!DNL SHA256]ることで、ハッシュ関数を逆にして、スクランブルされていない情報を表示する方法はありません。 Audience Managerにオンボードする電子メールアドレスは、アルゴリズムでハッシュ化する必要があ [!DNL SHA256] ります。 この方法では、個人を特定できる情報がAudience Managerに届かず、顧客データを安全に保つことができます。
+ハッシュは、入力をスクランブル処理して一意の結果を生成する一方向関数です。[!DNL SHA256] などの適切なハッシュアルゴリズムを使用した場合、ハッシュ関数を反転させてスクランブルされていない情報を表示する方法はありません。Audience Manager にオンボーディングする電子メールアドレスは、[!DNL SHA256] アルゴリズムでハッシュ化する必要があります。この方法では、個人を特定できる情報は Audience Manager に提供されないので、顧客データの安全性を維持します。
 
 ## ハッシュ要件 {#hashing-requirements}
 
-電子メールアドレスをハッシュする場合は、次の要件を満たしていることを確認します。
+電子メールアドレスをハッシュ化する場合は、以下の要件に従ってください。
 
-* 電子メール文字列の先頭と末尾のスペースをすべて削除します。例： `johndoe@example.com`違う `<space>johndoe@example.com<space>`。
-* ハッシュ化された文字列がすべて小文字であることを確認します。例： `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`違う `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`。
-* 文字列を塩漬けにしないでください。
+* 電子メール文字列から先頭および末尾の空白文字をすべてトリミングします。例：`johndoe@example.com`（`<space>johndoe@example.com<space>` ではない）
+* ハッシュ化された文字列がすべて小文字であることを確認します。例：`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`（`55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149` ではない）
+* 文字列にソルトを使用しないでください。
 
-Adobe Experience cloudでは、Experience Cloud IDサービスを使用して顧客IDをハッシュ化するオプションが提供されます。 ECIDを使用して顧客IDをハッシュ化する方法について詳しくは、 [SHA256 「setCustomerIDsのハッシュのサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 」を参照してください。
+Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECIDを使用して顧客IDをハッシュ化する方法について詳しくは、 [SHA256 「setCustomerIDsのハッシュのサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 」を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
-ユーザ [!DNL People-Based Destinations] ーベースのチャネルでファーストパーティのオーディエンスデータをアクティブにするのに役立つので、広告用にデータをどのように使用するかを顧客に知らせるのは責任があります。
+[!DNL People-Based Destinations] は、ユーザーベースのチャネルでファーストパーティのオーディエンスデータをアクティブ化するのに役立つので、お客様は、広告目的でデータをどのように使用するかを顧客に通知する必要があります。
 
-新規登録する前に、顧 [!DNL People-Based Destinations]客の情報を広告用に使用する前に、顧客の同意を必ず取得してください。
+[!DNL People-Based Destinations] に新規登録する前に必ず、顧客の同意を得てから広告目的で顧客の情報を使用するようにしてください。
 
-顧客が広告キャンペーンのオプトアウトを希望する場合は、Audience Managerがこれ以上データを収集できないようにする方法について [](../../overview/data-security-and-privacy/opt-out-management.md) 、「オプトアウトの管理」を参照してください。
+広告キャンペーンのオプトアウトを行う場合は、Audience Manager を停止してそれ以降のデータを収集する停止方法について詳しくは、「[オプトアウト管理](../../overview/data-security-and-privacy/opt-out-management.md)」を参照してください。
 
-## ファーストパーティデータのアクティブ化の強制 {#enforcing-first-party-activation}
+## ファーストパーティデータのアクティブ化を強制する{#enforcing-first-party-activation}
 
-を使用する場合、フ [!DNL People-Based Destinations]ァーストパーティデータを使用して、ユーザーベースのチャネルのオーディエンスセグメントをアクティブ化することのみできます。 ユーザーベースのチャネルでのオーディエンスのアクティブ化には、サードパーティまたはサードパーティのデータを使用できません。
+[!DNL People-Based Destinations] を使用する際は、ファーストパーティデータを使用して、ユーザーベースのチャネルでオーディエンスセグメントをアクティブ化できます。ユーザーベースのチャネルでオーディエンスのアクティブ化にセカンドパーティデータやサードパーティデータを使用することはできません。
 
-## 宣言済みIDターゲティングを使用したオンボード認証済みハッシュID {#onboard-authenticated-declared-id}
+## 宣言済み ID のターゲティングを介して認証済みの ID のオンボーディングをおこなう{#onboard-authenticated-declared-id}
 
-Audience Managerにオフラインデータを取り込むには、次の2つの方法がありま [!DNL People-Based Destinations]す。
+オフラインデータを [!DNL People-Based Destinations] 用に Audience Manager に取り込む方法は次の 2 つです。
 
-* [バッチデータを](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) Audience Managerに送信して、ハッシュ化された電子メールアドレスを取り込みます。 この方法を使用すると、でデータベースのハッシュ化された電子メールアドレスをすべて使 [!DNL CRM] 用できま [!DNL People-Based Destinations]す。 また、この方法を使用する場合は、ハッシュ化された電子メールアドレスをオンボード特性に対して修飾す [ることもできま](../traits/trait-qualification-reference.md)す。
-* 認証済み [顧客IDを渡す際に](../declared-ids.md) 、ハッシュ化された電子メールアドレスを宣言するには、宣言済みIDを使用します。 この方法を使用する場合、Audience Managerは、オンラインで認証されたユ [!DNL People-Based Destinations] ーザーからハッシュ化された電子メールアドレスにのみ送信します。 Facebookを通じてアクティブ化された電子メールアドレスは、宣言されたIDイベント呼び出しの中のアドレスのみです。 顧客IDに関連付けられた他の電子メールアドレスは、リアルタイムで送信されません。
+* Audience Manager に[バッチデータを送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)して、ハッシュ化された電子メールアドレスを取り込みます。この方法では、[!DNL People-Based Destinations] の [!DNL CRM] データベースからすべてのハッシュ化された電子メールアドレスを使用できます。さらに、この方法を使用する場合、[オンボード特性](../traits/trait-qualification-reference.md)のハッシュ化された電子メールアドレスも絞り込みます。
+* [宣言済み ID を使用](../declared-ids.md)して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。この方法を使用すると、Audience Manager はオンラインで認証されたユーザーの、ハッシュされた電子メールアドレスのみを [!DNL People-Based Destinations] に送信できます。Facebook でアクティブ化される電子メールアドレスは、宣言されている ID イベント呼び出しの電子メールアドレスのみです。顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムでは送信されません。
