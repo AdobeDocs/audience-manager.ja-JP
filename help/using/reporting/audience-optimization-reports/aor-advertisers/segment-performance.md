@@ -5,7 +5,7 @@ seo-title: セグメントパフォーマンスレポート
 solution: Audience Manager
 title: セグメントパフォーマンスレポート
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
 
 ---
