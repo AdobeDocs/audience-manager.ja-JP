@@ -4,7 +4,7 @@ seo-description: 特性の除外を使用すると、モデリングワークフ
 seo-title: アルゴリズムモデル  特性の除外
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 ---
@@ -88,4 +88,4 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 ## 関連リンク
 
 * [アルゴリズムの特性について](/help/using/features/algorithmic-models/understanding-models.md)
-* [特性の除外 - チュートリアル](https://helpx.adobe.com/jp/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
+* [特性の除外 — チュートリアル](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
