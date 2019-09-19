@@ -5,8 +5,8 @@ seo-title: Audience Manager の宛先としての OpenX
 solution: Audience Manager
 title: Audience Manager の宛先としての OpenX
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
-translation-type: ht
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+translation-type: tm+mt
+source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
 
 ---
 
@@ -42,11 +42,11 @@ Audience Manager はデータをキーと値のペアとして送信します。
 
 ### 適合するセグメントのみ OpenX に送信
 
-[!DNL OpenX] に渡されるデータの量は、特定のユーザーが適合するセグメントの数によって異なります。例えば、Audience Management のセグメントを 100 件設定したとします。サイト訪問者がそのうち 5 件を認定した場合、その 5 件のセグメントだけが [!DNL OpenX] に送信されます（100 件全部ではありません）。
+[!DNL OpenX] に渡されるデータの量は、特定のユーザーが適合するセグメントの数によって異なります。例えば、100 件の Audience Manager セグメントを設定したとします。サイト訪問者がそのうち 5 件を認定した場合、その 5 件のセグメントだけが [!DNL OpenX] に送信されます（100 件全部ではありません）。
 
 ## OpenX の宛先の作成 {#openx-destination}
 
-Audience Management で、[!DNL OpenX] の Cookie の宛先を作成します。
+Create a cookie destination for [!DNL OpenX] in Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
