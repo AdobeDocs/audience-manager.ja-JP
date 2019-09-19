@@ -5,7 +5,7 @@ seo-title: パブリッシャーのユースケース
 solution: Audience Manager
 title: パブリッシャーのユースケース
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
