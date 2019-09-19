@@ -5,7 +5,7 @@ seo-title: 宛先 API メソッド
 solution: Audience Manager
 title: 宛先 API メソッド
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
