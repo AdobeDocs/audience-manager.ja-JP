@@ -5,7 +5,7 @@ seo-title: GDPR に関するよくある質問
 solution: Audience Manager
 title: GDPR に関するよくある質問
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 98914987331ce31bc8d3e67647d5b8273b287d4c
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 98914987331ce31bc8d3e67647d5b8273b287d4c
 
 この資料では、欧州連合の一般データ保護規則（GDPR）に関連してお客様やパートナーから最もよく出される質問の一部と、Adobe Audience Manager がデータプロセッサーとして様々な GDPR 要件にどのように対処しているかを説明しています。
 
-この記事では、Audience Manager の GDPR 対応に関する質問を取り扱います。[Experience Cloud の GDPR 対応に関する Q&amp;A 集](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md)についても必ずお読みください。
+この記事では、Audience Manager の GDPR 対応に関する質問を取り扱います。[Experience Cloud の GDPR に関する Q&amp;A 集](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md)についても必ずお読みください。
 
 GDPR は 2018 年 5 月 25 日に施行された法律で、その第一の目的は、EU 内の個人（データ主体）が個人データをコントロールする権利を取り戻すこと、および EU 域内の規則を統合することで、国際的なビジネスのための規制環境を簡潔にすることです。GDPR への対応の一環として Adobe Audience Manager では、消費者であるデータ主体からのアクセス要求や削除要求をサポートするために、必要なサービスおよびプロセスの機能拡張をおこないました。
 
@@ -71,7 +71,7 @@ GDPR に関連して使用されるキーワードを確認しましょう。よ
 
 GDPR において、データ管理者が同意の取得をおこなうタイミングについての変更点はありませんが、その方法について変更されました。特定のマーケティング活動において消費者の同意が必要となった場合、同意は主体的に（事前にチェックが付けられたチェックボックスや暗黙の同意は認められません）、独立しておこなわれる必要があります。また、データ主体の同意を条件にサービスを提供することは禁じられています。データを使用し続けるにあたって、特定の同意を更新する必要が生じる可能性もあります。
 
-アドビはデータ処理者であるので、同意の取得に関する法的なアドバイスはできません。御社内の法務チームにアドバイスを求めてください。より的確なアドバイスを受けるために、[Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) や [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/) など、同意管理ソリューションプロバイダーのサポートを得ることをお勧めします。アドビは、この統合をサポートするために、このようなプロバイダーの何社かと Adobe Launch を通してパートナー提携しています。
+アドビはデータ処理者であるので、同意の取得に関する法的なアドバイスはできません。御社内の法務チームにアドバイスを求めてください。より的確なアドバイスを受けるために、[Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) や [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/) など、同意管理ソリューションのプロバイダーのサポートを得ることをお勧めします。アドビは、この統合をサポートするために、このようなプロバイダーの何社かと Adobe Launch を通してパートナー提携しています。
 
 Audience Manager をご利用のお客様は、広告やパーソナライゼーションなど、様々な用途に使用されるユーザーの同意を、特性として Audience Manager に保存できます。これらの特性を使用してセグメントを作成すれば、各用途に対してそれぞれ同意したユーザーのみが含まれるセグメントとすることができます。この方法によってデータ収集が妨げられることはなく、有効化するセグメントを送信する際に使用するデータに対してのみ影響があることに注意してください。ユーザーが同意を撤回した場合、Audience Manager の[インバウンドのバッチ処理](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)または以下に詳述される Audience Manager のオプトアウト処理を使用して、ユーザープロファイルからこれらの特性を削除できます。
 
@@ -79,13 +79,13 @@ Audience Manager をご利用のお客様は、広告やパーソナライゼー
 
 **オプトアウトの管理／同意の撤回**
 
-Adobe Experience Cloud のオプトアウトは、[プライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html)ページで管理できます。お客様のエンドユーザーは 1 回のクリックで、Adobe Experience Cloud の広告ソリューション（Audience Manager を含む）によるデータ収集をオプトアウトできます。特に、プライバシーの選択肢ページの[企業顧客の節](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)を参照してください。サードパーティ Cookie をサポートしていないブラウザーについては、[宣言済み ID のターゲティング](../../features/declared-ids.md#declared-id-targeting)を参照してください。モバイルデバイスの場合、[宣言済み ID のオプトアウトの例](../../features/declared-ids.md#opt-out-examples)に従って、Audience Manager 識別子を取得し、Audience Manager オプトアウト API を呼び出してください。これに従えば、モバイル SDK のオプトアウト API を使用して、これらのユーザーを対象とするすべてのデータ収集をやめることができます。詳細については、[Android デバイス](https://marketing.adobe.com/resources/help/ja_JP/mobile/android/privacy.html)および [iOS デバイス](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/privacy.html)を参照してください。オプトアウトについて詳しくは、 [Audience Manager におけるオプトアウトに関するドキュメント](../../overview/data-security-and-privacy/opt-out-management.md)を参照してください。
+Adobe Experience Cloud のオプトアウトは、[プライバシーの選択肢](https://www.adobe.com/privacy/opt-out.html#customeruse)ページで管理できます。お客様のエンドユーザーは 1 回のクリックで、Adobe Experience Cloud の広告ソリューション（Audience Manager を含む）によるデータ収集をオプトアウトできます。特に、プライバシーの選択肢ページの[ビジネス関連の顧客のセクション](https://www.adobe.com/privacy/opt-out.html#customeruse)を参照してください。サードパーティ Cookie をサポートしていないブラウザーについては、[宣言済み ID のターゲティング](../../features/declared-ids.md#declared-id-targeting)を参照してください。モバイルデバイスの場合、[宣言済み ID のオプトアウトの例](../../features/declared-ids.md#opt-out-examples)に従って、Audience Manager 識別子を取得し、Audience Manager オプトアウト API を呼び出してください。これに従えば、モバイル SDK でオプトアウト API を使用することで、これらのユーザーのすべてのデータ収集を止めることができます。[Android デバイス](https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html)および [iOS デバイス](https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html)を参照してください。オプトアウトについて詳しくは、 [Audience Manager におけるオプトアウトに関するドキュメント](../../overview/data-security-and-privacy/opt-out-management.md)を参照してください。
 
 <br> 
 
 **Audience Manager の GDPR に関連するアクセス要求および削除要求をアドビに送信**
 
-[GDPR クライアントサービスの UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) または [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md) の呼び出しを通じて、アクセスおよび削除に対する個別の GDPR 要求を送信できます。要求を送信する際は、あらゆる [Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)と、それぞれの名前空間 ID （データソース ID）を含めることができます。CRM ID など、複数のデバイスにまたがる ID を送信した場合、Audience Manager は認証済みのプロファイルとそれに関連付けられたデバイス ID に基づき処理をおこないます。可能な限り、Audience Manager の一意のユーザー ID （AAM UUID）を使用することをお勧めします。
+[GDPR クライアントサービスの UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) を通して、または [GDPR API](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-id-onboarding.md) を呼び出すことで、アクセスおよび削除のための個々の GDPR 要求を送信できます。要求を送信する際は、あらゆる [Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)と、それぞれの名前空間 ID （データソース ID）を含めることができます。CRM ID など、複数のデバイスにまたがる ID を送信した場合、Audience Manager は認証済みのプロファイルとそれに関連付けられたデバイス ID に基づき処理をおこないます。可能な限り、Audience Manager の一意のユーザー ID （AAM UUID）を使用することをお勧めします。
 
 <br> 
 
@@ -133,7 +133,7 @@ Audience Manager はデータソースではないので、データ修正に対
 
 **欧州圏域を超えたデータ転送**
 
-GDPR では、欧州圏外へのデータ転送を禁じていませんが、データ転送の際は、欧州におけるデータのプライバシー保護がそのまま適用されることが求められます。詳細については、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/eudatatransfers.html)にアクセスしてください。
+GDPR では、欧州圏外へのデータ転送を禁じていませんが、データ転送の際は、欧州におけるデータのプライバシー保護がそのまま適用されることが求められます。詳細については、[アドビプライバシーセンター](https://www.adobe.com/privacy/eudatatransfers.html)にアクセスしてください。
 
 <br> 
 
@@ -143,7 +143,7 @@ GDPR では、欧州圏外へのデータ転送を禁じていませんが、デ
 
 アドビはデータ処理者であるので、GDPR 要求、およびデータ主体からの合意の取得のプロセスに関して、法的なアドバイスを提供することはできないことにご注意ください。御社の GDPR への準拠に関しては、御社の顧問弁護士にアドバイスを求めてください。
 
-<br>
+<br> 
 
 **データガバナンス：Audience Manager インスタンスにおける消費者データの管理方法について検討を始めてください**
 
@@ -156,7 +156,7 @@ GDPR では、欧州圏外へのデータ転送を禁じていませんが、デ
 * 適切なデータの[保持期間](../../faq/faq-privacy.md#data-retention-faq)を検討してください。
 * 一連の ID をいつどこでまとめるべきかを検討するために、また、Audience Manager の[プロファイル結合ルール](../../features/profile-merge-rules/merge-rules-overview.md)。
 
-<br>
+<br> 
 
 **組織的準備：ビジネスプロセスの構築**
 
