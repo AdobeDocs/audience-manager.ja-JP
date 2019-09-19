@@ -5,7 +5,7 @@ seo-title: 重複レポート：更新スケジュールと最小セグメント
 solution: Audience Manager
 title: 重複レポート：更新スケジュールと最小セグメントサイズ
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 重複レポートの更新プロセスで必要なセグメントサイズと作成時間の要件について説明します。
 
-## 更新スケジュールと要件{#update-schedule}
+## 更新スケジュールと要件 {#update-schedule}
 
 [!UICONTROL Overlap]レポートは毎週日曜日に更新されます。レポートの事前処理は土曜日に始まります。これにより、月曜日に新規や既存のセグメントが重複レポートにどのように表示されるかが変わります。重複レポートに記載されるには、次の条件を満たす必要があります。
 
