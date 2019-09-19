@@ -5,7 +5,7 @@ seo-title: 送信マクロの例
 solution: Audience Manager
 title: 送信マクロの例
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -81,12 +81,12 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>形式：<code>&lt;ORDER_ID&gt;&lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>出力：<code>888 full.sync </code> </p> <p>この出力では、各要素は非表示のタブ文字で区切られています。 </p> </td>
+   <td colname="col2"> <p>形式：<code>&lt;ORDER_ID&gt;&lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>出力：<code>888 full.sync </code> </p> <p>この出力では、各要素は非印刷のタブ文字で区切られています。 </p> </td>
   </tr>
  </tbody>
 </table>
 
-## ファイルコンテンツマクロ{#file-content-macros}
+## ファイルコンテンツマクロ {#file-content-macros}
 
 使用可能なマクロと定義の一覧については、[送信テンプレートマクロ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)を参照してください。
 
