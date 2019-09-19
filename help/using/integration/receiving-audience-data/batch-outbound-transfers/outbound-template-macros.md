@@ -5,7 +5,7 @@ seo-title: 送信テンプレートマクロ
 solution: Audience Manager
 title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
@@ -48,13 +48,13 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
    <td colname="col2"> <p>オーダー／宛先 ID のエイリアス。 </p> <p>このエイリアスは管理 UI で設定します。 </p> </td> 
   </tr>
   <tr> 
-   <td colname="col1"> <p> <code> SplitNum </code> </p> </td> 
-   <td colname="col2"> <p>アウトバウンドファイルを複数の部分に分割することを示します。ファイル名のSPIRNNUMセクションをゼロの前にあるパーツ番号に置き換え、最低3文字をSplitNumセクションに含めます。</p>
-   <p>PRIRNNUMマクロは、&lt;&gt;文字で囲む必要はありません。</p><p>Example: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;SPLITNUM.csv</code>
-<p>s3_123456_9999_ full_1566906141001. csv</p> 
-<p>s3_123456_9999_ full_1566906141002. csv</p> 
-<p>s3_123456_9999_ full_1566906141003. csv</p> 
-<p>上記の例の最後の3桁（001,002,003）は、SplitNUM識別子です。</p> </td> 
+   <td colname="col1"> <p> <code> SPLITNUM </code> </p> </td> 
+   <td colname="col2"> <p>送信ファイルを複数の部分に分割することを示します。ファイル名の SPLITNUM セクションに部品番号に置き換え、先頭にゼロを付けて SPLITNUM セクションの文字が 3 文字以上になるようにします。</p>
+   <p>SPLITNUM マクロは、&lt;&gt; 文字で囲む必要はありません。</p><p>例：<code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;SPLITNUM.csv</code>
+<p>s3_123456_9999_full_1566906141001.csv</p> 
+<p>s3_123456_9999_full_1566906141002.csv</p> 
+<p>s3_123456_9999_full_1566906141003.csv</p> 
+<p>上記の例の最後の 3 桁（001、002、003）は、SPLITNUM 識別子です。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
@@ -167,7 +167,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>：<code>5</code> を静的なハードコーディングされた値として返します。これはデータをセグメントデータとして識別する値です。 </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>：廃止されました。使用しないでください。 </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>：セグメントが最後に認識された時点を示す Unix タイムスタンプ。 </li> 
-    </ul> <p>この変数は、マクロの後で波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
+    </ul> <p>この変数は、マクロの後に波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -205,7 +205,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
       </ul> </li> 
      <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code>traitId</code>：特性 ID。 </li> 
      <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code>lastRealized</code>：特性が最後に認識された時点。Unix タイムスタンプです。 </li> 
-    </ul> <p>この変数は、マクロの後で波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>&lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
+    </ul> <p>この変数は、マクロの後に波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>&lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
