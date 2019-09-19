@@ -6,7 +6,7 @@ solution: Audience Manager
 title: テストグループの情報
 topic: DIL API
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 668b8ddded63acfa3479860f878cbf84b4f74218
 
 ---
