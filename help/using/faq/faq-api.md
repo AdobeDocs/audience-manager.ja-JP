@@ -5,7 +5,7 @@ seo-title: API に関するよくある質問
 solution: Audience Manager
 title: API に関するよくある質問
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -35,13 +35,13 @@ faq_api.xml
 
 メソッドごとにデータの渡し方は異なりますが、機能には影響はありません。例えば、どちらのメソッドでも [!DNL Audience Manager] がデータを宛先に送信し、ID 同期が正常に機能し、データシグナルから特性を作成できます。
 
-<br>
+<br> 
 
 **[!UICONTROL REST API]を使用すると何ができますか？**
 
 [!UICONTROL REST API] を使用すると、ユーザーインターフェイスで使用可能な [!DNL Audience Manager] のほとんどの機能と関数をプログラムで操作できます。
 
-<br>
+<br> 
 
 **[!UICONTROL REST API]クライアント ID およびシークレット**&#x200B;を取得するには、どうすればよいですか？
 
