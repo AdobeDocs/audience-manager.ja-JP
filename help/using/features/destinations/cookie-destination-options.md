@@ -4,7 +4,7 @@ seo-description: Destination Builder の「Configuration」セクションには
 seo-title: Cookie の宛先のオプション設定
 solution: Audience Manager
 title: Cookie の宛先のオプション設定
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 
 # Cookie の宛先のオプション設定 {#optional-settings-cookies}
 
-で [!UICONTROL Destination Builder]は、フィールド [!UICONTROL Configuration section] には「 [!UICONTROL Cookie Domain] および [!UICONTROL Publish Data To] 」フィールドが含まれています。これらを使用して、宛先が Cookie を設定しているかどうか、または Cookie を返すかどうかを判定するルールを作成できます。[!UICONTROL Cookie Domain] また、互いに独立して [!UICONTROL Publish Data To] 動作し、オプションです。これらのどちらも使用せずに Cookie の宛先を作成することができます。
+[!UICONTROL Destination Builder]では、[!UICONTROL Configuration section]には [!UICONTROL Cookie Domain] フィールドと [!UICONTROL Publish Data To] フィールドが含まれます。これらを使用して、宛先が Cookie を設定しているかどうか、または Cookie を返すかどうかを判定するルールを作成できます。「[!UICONTROL Cookie Domain]」と「[!UICONTROL Publish Data To]」はオプションで、互いに独立して機能します。これらのどちらも使用せずに Cookie の宛先を作成することができます。
 
-## Cookie ドメイン：構文と例 {#cookie-domain-syntax}
+## Cookie ドメイン：構文と例{#cookie-domain-syntax}
 
 <!-- cookie-destination-options.xml -->
 
@@ -41,7 +41,7 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>例</b> </p> </td> 
-   <td colname="col2"> <p>簡単な例として、sports.com という架空のサイトがあるとしましょう。sports.com には、ゴルフ、野球、サッカー用のドメインがあります。すべてのスポーツドメインで Cookie を設定するには、「<span class="wintitle">Cookie Domain</span>」ボックスに次のように入力します。 </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>This tells <span class="keyword"> Audience Manager</span> to set a cookie in any domain that contains the pattern <code><i>something</i></code>.sports.com. もっと複雑な例については、以下を参照してください。 </p> </td> 
+   <td colname="col2"> <p>簡単な例として、sports.com という架空のサイトがあるとしましょう。sports.com には、ゴルフ、野球、サッカー用のドメインがあります。すべてのスポーツドメインで Cookie を設定するには、「<span class="wintitle">Cookie Domain</span>」ボックスに次のように入力します。 </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>この結果、<span class="keyword"> Audience Manager</span> は、「<code><i>something</i></code>.sports.com」のパターンを含むすべてのドメインに対して Cookie を設定します。もっと複雑な例については、以下を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,13 +87,13 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
  </tbody> 
 </table>
 
-## Publish Data To {#publish-data-to}
+## Publish Data To{#publish-data-to}
 
 「[!UICONTROL Publish Data To]」設定では、選択したオプションで設定した条件にドメインが一致する場合、Cookie を返します。オプションは以下のとおりです。
 
-* **[!UICONTROL All of our domains]**:（デフォルト）任意のドメイン [!DNL cookie] に対して、aを返します。
-* **[!UICONTROL Only the selected domains]**:ドメインリストで選択したドメインのCookieのみを返します。
-* **[!UICONTROL All of our domains except the selected domains]**:選択したドメインが受信しないよう [!DNL cookie]にします。All other domains can receive a [!DNL cookie].
+* **[!UICONTROL All of our domains]**：（デフォルト）すべてのドメインに対して [!DNL cookie] を返します。
+* **[!UICONTROL Only the selected domains]**：ドメインリストで選択したドメインの場合のみ、Cookie を返します。
+* **[!UICONTROL All of our domains except the selected domains]**：選択したドメインが [!DNL cookie] を受信しないよう設定します。それ以外のすべてのドメインは [!DNL cookie] を受信できます。
 
 >[!MORE_LIKE_THIS]
 >
