@@ -5,7 +5,7 @@ seo-title: 個別ユーザーのリーチ
 solution: Audience Manager
 title: 個別ユーザーのリーチ
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3a02c2e109f6ae4565cf9d86bb8828ab49bb01f0
 
 ---
