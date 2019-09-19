@@ -6,7 +6,7 @@ solution: Audience Manager
 title: アカウント設定の編集
 topic: DIL API
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
