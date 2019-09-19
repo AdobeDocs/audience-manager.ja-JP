@@ -6,7 +6,7 @@ seo-title: 宛先
 solution: Audience Manager
 title: 宛先
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
