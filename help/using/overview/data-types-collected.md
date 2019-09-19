@@ -5,7 +5,7 @@ seo-title: 収集されるデータのタイプ
 solution: Audience Manager
 title: 収集されるデータのタイプ
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
 
 ---
@@ -71,11 +71,11 @@ c_3rd_party_data.xml
 
 >[!NOTE]
 >
->[!DNL Audience Manager] でサポートされるサードパーティデータプロバイダーの完全なリストについては、[Adobe Audience Finder](https://www.adobe-audience-finder.com/)を参照してください。
+>[!DNL Audience Manager] でサポートされるサードパーティデータプロバイダーの完全なリストについては、[Adobe Audience Finder](https://www.adobe-audience-finder.com/)/を参照してください。
 
 Audience Manager は、利用可能な API およびデータセットによっては、他のデータプロバイダーとも連携します。データ収集は、ユーザーがサイトを表示したときにリアルタイムでおこなわれるか、またはユーザーがサイトを退出後、パートナー間で ID 同期がおこなわれ、サーバー間データ転送がおこなわれるアウトオブバウンド方式でおこなわれます。どちらの場合でも、サードパーティデータは弊社のプラットフォーム上で同期されるので、個々のクライアントまたはドメイン上で独自に同期をおこなう必要がなくなります。これにより、ページからのサーバー呼び出しを減らしながら、リーチを拡大することができます。
 
-## マッチングパートナー{#match-partners}
+## マッチングパートナー {#match-partners}
 
 クライアントの多くは、サードパーティのデータマッチング企業とパートナー連携しています。これらの企業は登録を伴う各種サイトとつながっており、企業が持つ登録ネットワークに基づき、リアルタイムで顧客データファイルのマッチングをおこないます。
 
