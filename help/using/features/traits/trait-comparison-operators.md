@@ -5,7 +5,7 @@ seo-title: 特性ビルダーでの比較演算子の使用
 solution: Audience Manager
 title: 特性ビルダーでの比較演算子の使用
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
