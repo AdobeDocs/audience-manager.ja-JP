@@ -5,7 +5,7 @@ seo-title: 送信データファイル名：構文と例
 solution: Audience Manager
 title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 ## 構文およびファイル名要素 {#syntax-file-name}
 
-アウトバウンドファイル名には、次の要素が含まれています。以下の要素はすべてオプションです。
+送信ファイル名には、次の要素が含まれています。以下の要素はすべてオプションです。
 
 ```
 [SYNC_TYPE][_DID][_MASTER_DPID][_PID_ALIAS][_SYNC-MODE][_TIMESTAMP]SPLITNUM.sync[.gz]
@@ -79,8 +79,8 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
    <td colname="col2"> <p>UTC タイムゾーンの 13 桁の UNIX タイムスタンプ（ミリ秒）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code><i>SplitNum</i></code></p> </td> 
-   <td colname="col2"> <p>整数。処理時間を向上するために複数の部分に分割されたファイルの部分を特定します。番号は、データが属する元のファイルのどの部分かを示します。</p>  <p>分割サイズが100を超える場合は、整数が3桁以上で、前にゼロを指定する必要があります。</p>  <p>元のファイルには、分割番号はありません。最初の分割ファイルは001で終了します。後述の例を参照してください。 </p> </td> 
+   <td colname="col1"> <p><code><i>SPLITNUM</i></code></p> </td> 
+   <td colname="col2"> <p>整数。処理時間を向上するために複数の部分に分割されたファイルの部分を特定します。番号は、データが属する元のファイルのどの部分かを示します。</p>  <p>3 桁以上の整数にする必要があり、分割サイズが 100 よりも小さいは、前にゼロを付ける必要があります。</p>  <p>元のファイルには、分割番号はありません。最初の分割ファイルは、001 で終わります。後述の例を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>.gz（オプション）</i></code> </p> </td> 
@@ -128,7 +128,7 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**シナリオ3**: [!DNL FTP] ファイルcontent（ *`PID_ALIAS="XYZCustomer"`**`Vendor ID=45454`*）内のサードパーティユーザーIDと共に、次の場所に送信されるファイル。
+**シナリオ 3**：*`PID_ALIAS="XYZCustomer"`*&#x200B;で [!DNL FTP] の場所に送信されたファイルで、ファイルコンテンツにサードパーティユーザー ID （*`Vendor ID=45454`*）を含む。
 
 例：増分ファイル：
 
