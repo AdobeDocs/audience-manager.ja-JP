@@ -5,7 +5,7 @@ seo-title: セグメントトレンドレポート
 solution: Audience Manager
 title: セグメントトレンドレポート
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
