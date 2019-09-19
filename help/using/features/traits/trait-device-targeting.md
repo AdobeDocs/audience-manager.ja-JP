@@ -5,7 +5,7 @@ seo-title: プラットフォームレベルのキーによるデバイスター
 solution: Audience Manager
 title: プラットフォームレベルのキーによるデバイスターゲティング
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -23,7 +23,7 @@ Audience Manager アカウントのすべてのプロパティにわたってデ
 
 ## ユーザーエージェントによって定義されたプラットフォームレベルのキー {#keys-user-agent}
 
-[!UICONTROL Data Collection Servers]は、これらのキーの値を `HTTP` の [ユーザーエージェントヘッダー](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43)から抽出します。値は、[!UICONTROL Device Atlas] データベースからのデバイスレベルの情報を表します。以下の表に示すシグナルが使用可能です。これらは、ユーザーエージェントの例から抜き出したものです。[!UICONTROL Device Atlas] の測定に従って、[最も一般的なキーのリストをダウンロード](assets/device_keys.csv)します。
+The [!UICONTROL Data Collection Servers] extract the values for these keys from the [user agent header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` requests. 値は、[!UICONTROL Device Atlas] データベースからのデバイスレベルの情報を表します。以下の表に示すシグナルが使用可能です。これらは、ユーザーエージェントの例から抜き出したものです。[!UICONTROL Device Atlas] の測定に従って、[最も一般的なキーのリストをダウンロード](assets/device_keys.csv)します。
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
