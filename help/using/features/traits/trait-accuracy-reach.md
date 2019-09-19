@@ -5,7 +5,7 @@ seo-title: 精度とリーチ
 solution: Audience Manager
 title: 精度とリーチ
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 
 ---
