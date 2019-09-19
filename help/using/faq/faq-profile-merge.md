@@ -6,7 +6,7 @@ seo-title: プロファイル結合ルールおよびデバイスグラフに関
 solution: Audience Manager
 title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -34,25 +34,25 @@ profile-merge-faq.xml
 
 外部デバイスグラフは、[!DNL Audience Manager] のデバイスグラフのうち、クロスデバイスデータソースのみから作成されたものでないものを指します。例えば、[プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を作成し、[!UICONTROL Co-op Device Graph] またはサードパーティのデバイスグラフオプションを選択した場合、外部デバイスグラフを使用していることになります。[デバイスオプション](../features/profile-merge-rules/merge-rule-definitions.md#device-options)を参照してください。
 
-<br>
+<br> 
 
 **外部デバイスグラフを[!UICONTROL Profile Merge Rule]で使用する一般的な例にはどのようなものがありますか？**
 
 [!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体にも様々な用途があります。例えば、DSP が提供する広告により見込み客のオーディエンスをターゲット化したり、サイト上のパーソナライゼーションプラットフォームから顧客のオンサイトエクスペリエンスをパーソナライズ化することが挙げられます。詳しくは、[外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
 
-<br>
+<br> 
 
 **Audience Manager は世界中どこででも外部デバイスグラフをサポートしていますか？**
 
 いいえ。外部デバイスグラフは米国とカナダでのみ使用可能です。
 
-<br>
+<br> 
 
 **[!DNL Audience Manager]はどのくらいの頻度で外部デバイスグラフのデータを更新しますか？**
 
 週に 1 回です。
 
-<br>
+<br> 
 
 ## デバイスグラフとプロファイル結合ルール {#device-graph-profile-merge-rules}
 
@@ -64,19 +64,19 @@ profile-merge-faq.xml
 * この特性のスーパーセットをセグメント認定のために評価する（デバイスプロファイルの個別の評価はしません）。
 * 認定されたデバイスを、使用可能なセグメントに追加する。
 
-<br>
+<br> 
 
 **[!UICONTROL Profile Merge Rules]はいくつ作成することができますか？**
 
 現在、[!UICONTROL Profile Merge Rules] は最大 3 つまで作成できます。
 
-<br>
+<br> 
 
 **デバイスグラフを[!UICONTROL Profile Merge Rule]で使用する場合、[!DNL Audience Manager]は何件のデバイスプロファイルを結合して読み取りますか？**
 
 [!UICONTROL Profile Merge Rule]を使用してデバイスのセグメント認定をおこなう場合、Audience Manager は現在のデバイスプロファイルと、選択したデバイスグラフオプションでリンクされた最大 3 件のデバイスプロファイルを結合して読み取ります。
 
-<br>
+<br> 
 
 **[!UICONTROL Profile Merge Rule]で使用する場合、どのデバイスがセグメント認定されますか？**
 
@@ -86,7 +86,7 @@ profile-merge-faq.xml
 >
 >外部デバイスグラフについて、[!DNL Audience Manager] はデバイス間のマッピングをプラットフォームレベルで保存し、3 台のデバイスを選択します。このとき、[!DNL Audience Manager] のインスタンスにあるデバイスとの関係は評価されません。
 
-<br>
+<br> 
 
 **デバイスグラフが含まれる[!UICONTROL Profile Merge Rule]を使用してセグメント認定が&#x200B;*可能*なデバイスはどれですか？**
 
@@ -98,13 +98,13 @@ profile-merge-faq.xml
 
 [データ収集コンポーネント](../reference/system-components/components-data-collection.md)も参照してください。
 
-<br>
+<br> 
 
 **デバイスグラフを使用する[!UICONTROL Profile Merge Rule]により認定されたセグメントを、[!DNL Audience Manager]はどこに送信できますか？**
 
 [!DNL Audience Manager] はセグメントをバッチファイルまたはリアルタイムで宛先に送信できます。上記の FAQ の項目でも述べたように、デバイスがセグメント認定されるには、当該セグメントの作成後に[エッジデータサーバー](../reference/system-components/components-edge.md)上にある [!DNL Audience Manager] でそのデバイスが認識される必要があります。
 
-<br>
+<br> 
 
 ## セグメント、デバイスグラフ、プロファイル結合ルール {#segments-device-graphs-rules}
 
@@ -112,37 +112,37 @@ profile-merge-faq.xml
 
 Audience Manager は、デバイスグラフを使用する[!UICONTROL Profile Merge Rule]を持つセグメントを評価する場合、最大 4 台のデバイスを結合します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された 3 台の追加デバイスが宛先のセグメントから削除されます。例えば、6 台のデバイスから成るクラスターでは、最大 4 台のデバイスが結合され、評価されて、セグメントの対象として認定されます。同様に、最大 4 台のデバイスが結合され、評価されて、セグメント化解除されます。
 
-<br>
+<br> 
 
 **宛先でデバイスのセグメント化解除が可能な場合、デバイスグラフを使用する[!UICONTROL Profile Merge Rules]によりデバイスがセグメントから削除されますか？**
 
 はい。上記の説明を参照してください。
 
-<br>
+<br> 
 
 **デバイスグラフを使用する[!UICONTROL Profile Merge Rule]でセグメントを作成し、そのセグメントがリアルタイムのデータとオンボードのデータの両方を使用している場合、オンボードのデータが変更するとそのセグメントは更新されますか？**
 
 いいえ。現在、[!DNL Audience Manager] はデバイスグラフをリアルタイムで使用する[!UICONTROL Profile Merge Rule]が設定されたセグメントのみを評価します。セグメントが評価された後にオンボードの特性に対しておこなわれた更新は、デバイスが次に[エッジデータサーバー](../reference/system-components/components-edge.md)で認識されるときにセグメント認定に使用されます。この場合、デバイスプロファイルがエッジサーバーでまだアクティブであり、オンボードのデータがそのシステムで使用可能になっていることが前提となります。詳しくは、[プライバシーとデータ保持についてよくある質問](../faq/faq-privacy.md)も参照してください。
 
-<br>
+<br> 
 
 **セグメントサイズの予測には、デバイスグラフオプションを使用する[!UICONTROL Profile Merge Rule]で設定される結合に基づいてセグメント認定されるデバイスは含まれますか？**
 
 いいえ。[!UICONTROL Estimated Real-Time Population]セグメントビルダーの特性およびセグメント母集団データ[!UICONTROL Estimated Total Population]で、[ および ](../features/segments/segment-builder-data.md) の定義を参照してください。
 
-<br>
+<br> 
 
 **[!UICONTROL Addressable Audiences]には、デバイスグラフオプションを使用する[!UICONTROL Profile Merge Rule]で設定される結合に基づいてセグメント認定されるデバイスは含まれますか？**
 
 はい。
 
-<br>
+<br> 
 
 **セグメントが使用している[!UICONTROL Profile Merge Rule]の設定が「[!UICONTROL No Authenticated Profile]」で、デバイスをセグメント認定する特性が認証済みプロファイルのみについて保存される場合、セグメントの合計母集団は 0 になりますか？**
 
 いいえ。現在、Audience Manager は認証済みプロファイルにマッピングされているデバイスをセグメント認定で計上します。
 
-<br>
+<br> 
 
 ## 特性頻度、デバイスグラフ、プロファイル結合ルール {#trait-freq-device-rules}
 
@@ -182,7 +182,7 @@ Audience Manager は、デバイスグラフを使用する[!UICONTROL Profile M
  </tbody> 
 </table>
 
-<br>
+<br> 
 
 ## レポート、デバイスグラフ、プロファイル結合ルール {#reports-device-graphs-rules}
 
@@ -190,7 +190,7 @@ Audience Manager は、デバイスグラフを使用する[!UICONTROL Profile M
 
 はい。レポートは [!UICONTROL Profile Merge Rule] レベルでデータを返します。レポートのデータは毎日更新されます。データはデバイスグラフでリンクされているデバイスではなく、アカウントで認識されるデバイスに基づいています。詳しくは、[プロファイル結合ルールのレポート指標](../features/profile-merge-rules/profile-link-metrics.md)を参照してください。
 
-<br>
+<br> 
 
 **デバイスグラフを使用する[!UICONTROL Profile Merge Rules]により特定のセグメントで&#x200B;*リアルタイム*で認定されているデバイスの数を確認することはできますか？**
 
@@ -232,7 +232,7 @@ Audience Manager は、デバイスグラフを使用する[!UICONTROL Profile M
  </tbody> 
 </table>
 
-<br>
+<br> 
 
 **デバイスグラフを使用する[!UICONTROL Profile Merge Rule]による特定のセグメントで認定されているデバイスの総数は確認できますか？**
 
@@ -270,7 +270,7 @@ Audience Manager は、デバイスグラフを使用する[!UICONTROL Profile M
  </tbody> 
 </table>
 
-<br>
+<br> 
 
 **デバイスグラフを使用する[!UICONTROL Profile Merge Rule]を用いてセグメントに認定されているデバイスは、[!UICONTROL Interactive]レポート、[!UICONTROL Overlap]レポート、および[!UICONTROL Audience Optimization]レポートに含まれますか？**
 
