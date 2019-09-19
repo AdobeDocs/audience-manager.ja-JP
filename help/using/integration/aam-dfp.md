@@ -5,7 +5,7 @@ seo-title: Audience Manager の宛先としての DFP
 solution: Audience Manager
 title: Audience Manager の宛先としての DFP
 uuid: 12d6c2ce-f0fa-4a2c-8b88-fdad634df435
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 
 ---
