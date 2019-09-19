@@ -5,7 +5,7 @@ seo-title: 派生シグナル API メソッド
 solution: Audience Manager
 title: 派生シグナル API メソッド
 uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
 
 ---
