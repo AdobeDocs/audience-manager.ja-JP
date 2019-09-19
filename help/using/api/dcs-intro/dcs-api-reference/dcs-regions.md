@@ -5,7 +5,7 @@ seo-title: DCS の地域 ID、場所、ホスト名
 solution: Audience Manager
 title: DCS の地域 ID、場所、ホスト名
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
 
 ---
