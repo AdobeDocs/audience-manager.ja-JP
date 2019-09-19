@@ -5,7 +5,7 @@ seo-title: セグメントと特性の有効期間についての説明
 solution: Audience Manager
 title: セグメント有効期間の説明
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7e9aada98fe9c18c6fc484255b3c9ff33dc59324
 
 ---
