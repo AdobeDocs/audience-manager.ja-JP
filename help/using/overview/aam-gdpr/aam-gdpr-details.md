@@ -5,7 +5,7 @@ seo-title: Audience Manager の GDPR 対応
 solution: Audience Manager
 title: Audience Manager の GDPR 対応
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 98914987331ce31bc8d3e67647d5b8273b287d4c
 
 ---
@@ -19,15 +19,15 @@ source-git-commit: 98914987331ce31bc8d3e67647d5b8273b287d4c
 
 Audience Manager の詳細を読む前に、次のリンクから、欧州における一般データ保護規則（GDPR）に関連する Experience Cloud の資料に目を通すことをお勧めします。
 
-* [GDPR がビジネスに与える影響](https://www.adobe.com/jp/privacy/general-data-protection-regulation.html)
+* [GDPR がビジネスに与える影響](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 * [GDPR に関するホワイトペーパー](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-whitepaper.md)
-* [GDPR の用語集](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-terminology.md)
+* [GDPR 関連の用語](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-terminology.md)
 
 以下の節では、Audience Manager に対する GDPR の影響、および Audience Manager に GDPR 要求を送信する方法について説明します。
 
 ## GDPR 要求のタイプと GDPR 要求の方法 {#types-of-gdpr-requests}
 
-Audience Manager をご利用のお客様は、**[GDPR クライアントサービスの UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** を通して、あるいは **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** を呼び出すことで、顧客データへのアクセスおよび削除のための個々の GDPR 要求を送信できます。**[Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**&#x200B;セクションの説明に沿って、要求時に Audience Manager 識別子（ID）と対応する名前空間 ID（データソース ID）を送信できます。ご質問がある場合は、カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。
+As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **[GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** or by calling the **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)**. **[Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**&#x200B;セクションの説明に沿って、要求時に Audience Manager 識別子（ID）と対応する名前空間 ID（データソース ID）を送信できます。ご質問がある場合は、カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。
 
 ## データへのアクセス {#access-data}
 
@@ -35,7 +35,7 @@ Audience Manager をご利用のお客様は、**[GDPR クライアントサー�
 
 **リクエスト**
 
-**[GDPR クライアントサービスの UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** を通して、あるいは **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** を呼び出すことで、データアクセス要求をログに記録できます（`access` アクションを参照）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。**[Experience Cloud GDPR ドキュメント](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)**&#x200B;で適切な形式の JSON を確認できます（特に、ページで「POST request format」を検索してください）。または、**[JSON のサンプルをダウンロード](assets/access_request.json)**&#x200B;することもできます。
+You can log data access requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** or by calling the **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** (see `access` action). いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。See what a well-formed JSON looks like in the **[Experience Cloud GDPR documentation](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** (specifically, search in page for "POST request format"). または、**[JSON のサンプルをダウンロード](assets/access_request.json)**&#x200B;することもできます。
 
 **応答**
 
@@ -262,7 +262,7 @@ Audience Manager からの応答でエラーが発生した場合、それらは
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>active</code> </p> </td> 
-   <td colname="col2"> <p>データ主体が現在このセグメントと適合するかを示します。戻り値：<code><i>true</i></code> または <code><i>false</i></code>。 </p> </td> 
+   <td colname="col2"> <p>データ主体が現在このセグメントと適合するかを示します。戻り値<code><i>true</i></code> または <code><i>false</i></code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>リンク</code> </p> </td> 
@@ -307,7 +307,7 @@ Audience Manager からの応答でエラーが発生した場合、それらは
 
 **リクエスト**
 
-**[GDPR クライアントサービスの UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** を通して、あるいは **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** を呼び出すことで、データ削除要求をログに記録できます（`delete` アクションを参照）。いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。[Experience Cloud GDPR ドキュメント](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)で適切な形式の JSON を確認できます（特に、ページで「POST request format」を検索してください）。または、**[JSON のサンプルをダウンロード](assets/delete_request.json)**&#x200B;することもできます。
+You can log data deletion requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** or by calling the **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** (see `delete` action). いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。See what a well-formed JSON looks like in the [Experience Cloud GDPR documentation](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) (specifically, search in page for "POST request format"). または、**[JSON のサンプルをダウンロード](assets/delete_request.json)**&#x200B;することもできます。
 
 **応答**
 
