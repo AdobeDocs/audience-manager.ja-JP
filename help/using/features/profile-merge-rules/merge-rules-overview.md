@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールの概要
 solution: Audience Manager
 title: プロファイル結合ルールの概要
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 ---
@@ -64,7 +64,7 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 * 各種のプロファイルに基づいてセグメントのデータを微調整する。
 * オーディエンスに関する詳細なインサイトを得る。
 
-## はじめに{#getting-started}
+## はじめに {#getting-started}
 
 [!UICONTROL Profile Merge Rules]プロファイル結合ルールについて詳しくは、次のセクションと [FAQ](../../faq/faq-profile-merge.md) を参照してください。
 
