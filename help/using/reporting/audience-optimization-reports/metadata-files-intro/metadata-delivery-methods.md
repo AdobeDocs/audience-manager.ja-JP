@@ -5,7 +5,7 @@ seo-title: メタデータファイルの配信方法
 solution: Audience Manager
 title: メタデータファイルの配信方法
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 メタデータファイルを送信または更新するには、メタデータファイルを Audience Manager アカウント用の特別な Amazon S3 ディレクトリに送信します。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
-## 配信パスの構文と例{#syntax}
+## 配信パスの構文と例 {#syntax}
 
 データはユーザーごとに Amazon S3 ディレクトリ内の個別の名前空間に保存されます。ファイルパスは以下の構文に従います。なお、*斜体*&#x200B;の部分には実際の情報が入ります。角括弧 `[ ]` はオプションのパラメーターを表します。その他の要素は定数で、変動しません。
 
