@@ -5,7 +5,7 @@ seo-title: 選択した Audience Manager レポートでのデータサンプリ
 solution: Audience Manager
 title: 選択した Audience Manager レポートでのデータサンプリングとエラー率
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
 * 特性：14 日にわたる [ユニーク特性の適合](/help/using/features/traits/trait-qualification-reference.md#unique-trait-realizations) は 28,000 個です。
 * セグメント：14 日間で 70,000 人のリアルタイムユーザー。
 
-## エラー率{#error-rates}
+## エラー率 {#error-rates}
 
 重複データを生成するレポートでは、エラーが発生する場合があります。エラーは、以下に該当するレコードの割合として表されます。
 
@@ -44,7 +44,7 @@ source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
 | 100,000 | 95% がエラー率 4% 未満である。 |
 | 500,000 以上 | 95% がエラー率 2% 未満である。 |
 
-## サンプリングデータを使用するレポート{#reports-using-sampled-data}
+## サンプリングデータを使用するレポート {#reports-using-sampled-data}
 
 サンプリングデータを使用する [!DNL Audience Manager] レポートには、次の内容が含まれます。
 
