@@ -5,7 +5,7 @@ seo-title: パスワードの要件、ロックされたアカウント、パス
 solution: Audience Manager
 title: パスワードの要件、ロックされたアカウント、パスワードを忘れた場合
 uuid: bca892eb-3577-4382-8110-131f78d23069
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 ---
@@ -57,7 +57,7 @@ c_password_requirements.xml
    <td colname="col2"> <p> パスワードに以下を含まないようにする必要があります。 </p> <p> 
      <ul id="ul_08DE186AF56E401B933256E69279847A"> 
       <li id="li_CC854F7F86484774A76CCF927E1400B4">姓または名。 </li> 
-      <li id="li_74ACCF3DE717473B8AB9B1720DD891E7">電子メールアドレス。 </li> 
+      <li id="li_74ACCF3DE717473B8AB9B1720DD891E7">電子メールアドレス. </li> 
       <li id="li_09C1F699BF6843ACAB4E68D2F57461AB"><span class="keyword">Adobe</span> ユーザー ID。 </li> 
      </ul> </p> </td> 
   </tr> 
