@@ -5,7 +5,7 @@ seo-title: Daily Trait Variation レポート
 solution: Audience Manager
 title: Daily Trait Variation レポート
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 ---
