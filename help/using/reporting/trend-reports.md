@@ -5,7 +5,7 @@ seo-title: トレンドレポート
 solution: Audience Manager
 title: トレンドレポート
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 18bb00d494d44d7028dcc51dcb2fc57b23420142
 
 ---
