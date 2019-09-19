@@ -51,7 +51,7 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
-   <td colname="col2"> 通常、関数（例：コンバージョン、サイト訪問者、パートナー、ページビューなど）に従って、特性をタイプまたはカテゴリに割り当てます。オプションです。 <p> コンバージョン特性の作成方法について詳しくは、Audience Managerのビデオでのコンバージョン特性 <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">の作成を</a>参照してください。 </p></td> 
+   <td colname="col2"> 通常、関数（例：コンバージョン、サイト訪問者、パートナー、ページビューなど）に従って、特性をタイプまたはカテゴリに割り当てます。オプションです。 <p> コンバージョン特性の作成方法について詳しくは、Audience Managerでのコンバ <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">ージョン特性の作成のビデオを参照してください</a>。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
