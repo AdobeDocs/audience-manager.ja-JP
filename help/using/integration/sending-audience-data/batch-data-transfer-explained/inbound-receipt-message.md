@@ -5,7 +5,7 @@ seo-title: 受信処理後パートナーに送信されるメッセージの例
 solution: Audience Manager
 title: 受信処理後パートナーに送信されるメッセージの例
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 
 ---
