@@ -4,7 +4,7 @@ seo-description: データ書き出しラベルは、データソースに設定
 seo-title: 宛先へのデータ書き出しコントロールの追加
 solution: Audience Manager
 title: 宛先へのデータ書き出しコントロールの追加
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
