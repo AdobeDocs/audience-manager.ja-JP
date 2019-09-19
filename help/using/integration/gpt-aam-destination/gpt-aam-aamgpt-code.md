@@ -5,7 +5,7 @@ seo-title: Google サイト運営者タグ用の Audience Manager コード
 solution: Audience Manager
 title: Google サイト運営者タグ用の Audience Manager コード
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
