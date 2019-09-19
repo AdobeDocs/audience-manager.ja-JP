@@ -4,7 +4,7 @@ seo-description: リアルタイムのセグメント母集団がほとんどあ
 seo-title: デバイスグラフを伴うプロファイル結合ルールの重要な考慮事項
 title: デバイスグラフを伴うプロファイル結合ルールの重要な考慮事項
 uuid: 93cd8861-210d-4c52-9cb7-6f2dd7dc018a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
