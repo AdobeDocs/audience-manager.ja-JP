@@ -5,7 +5,7 @@ seo-title: デジタル署名された HTTP 要求
 solution: Audience Manager
 title: デジタル署名された HTTP 要求
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
 
 ---
@@ -45,7 +45,7 @@ Audience Manager では、`HTTP` サーバー間要求をデジタル署名し�
 POST message content
 ```
 
-## 仕組み{#how-it-works}
+## 仕組み {#how-it-works}
 
 1. パートナーに送信する `HTTP` メッセージを [!UICONTROL IRIS] が作成します。
 1. パートナーから連絡された `HTTP` メッセージと秘密鍵に基づいて、[!UICONTROL IRIS] が署名を作成します。
@@ -57,7 +57,7 @@ POST message content
 
 ![](assets/iris-digitally-sign-http-request.png)
 
-## 署名の計算方法{#calculate-signature}
+## 署名の計算方法 {#calculate-signature}
 
 [!UICONTROL IRIS] でメッセージ署名に使用されている方法は、[!DNL HMAC]（ハッシュベースのメッセージ認証コード）です。実装とライブラリは、基本的にどのようなプログラミング言語でも入手可能です。[!DNL HMAC] に対する既知の長さ拡張攻撃はありません。次の [!DNL Java] コードの例を参照してください。
 
@@ -82,7 +82,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-[!DNL HMAC]ハッシュ実装の RFC は [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt) です。テストサイトは [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) です（Hex エンコーディングを Base64 に[変換](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)する必要があることに注意してください）。
+The RFC for the [!DNL HMAC] hash implementation is [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). A test site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (note that you have to [convert](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) the hex encoding to base64).
 
 ## 秘密鍵のローテーション {#rotate-private-key}
 
@@ -93,7 +93,7 @@ String signature = Base64.encodeBase64String(result).trim();
 1. 両方のヘッダーの受信を開始したら、古い鍵を破棄して新しい署名のみ調べることができます。
 1. 古い鍵は [!DNL Audience Manager] から削除され、[!UICONTROL IRIS] は新しい署名ヘッダーのみ送信します。これで鍵がローテーションされました。
 
-## 署名に使用するデータ{#data-signing}
+## 署名に使用するデータ {#data-signing}
 
 `GET` タイプの宛先の場合、署名に使用するメッセージは *REQUEST_PATH + QUERY STRING*（例：*/from-aam-s2s？=1,2,3*）になります。IRIS ではホスト名や `HTTP` ヘッダーを考慮しません。これらは、経路の途中で改変されたり誤って設定されたりするおそれがあります。また、間違って通知される可能性もあります。
 
