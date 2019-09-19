@@ -60,7 +60,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 [!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、Audience Manager によるターゲティングを Web サイトでオプトアウトすることができます。Audience Manager がオプトアウト要求を受信した場合、[!UICONTROL DCS] から返される [!DNL JSON] には、Audience Manager ユーザー ID ではなく、エラーコード 171 と「Encountered opt out tag」というメッセージが含まれています。
 
 * Audience Manager では、[!DNL URL] で Audience Manager [!UICONTROL UUID] と一緒に [!UICONTROL declared ID] のオプトアウトを渡すことができます。
-* [!UICONTROL declared ID] オプトアウトは[!パートナーごとのUACROLプロファイルキャッシュサーバ（[!UICONTROL PCS]）。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
+* The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Server ([!UICONTROL PCS]) on a per-partner basis. [!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
 
 データ収集のオプトアウトについて詳しくは、[データのプライバシー](../overview/data-security-and-privacy/data-privacy.md)を参照してください。
 
@@ -192,7 +192,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 <!-- r_dil_declared_id_vars.xml -->
 
-[Experience Cloud IDサービス](https://marketing.adobe.com/resources/help/en_US/mcvid/)で使用する場合、廃止 [!UICONTROL declared IDs]`dpid``dpuuid` および変数で渡す必要はなくなりました。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Experience Cloud ID Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証の状態](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
+When used with the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. 代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Experience Cloud ID Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証の状態](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
 
 ```js
 var vDil = DIL.create({
