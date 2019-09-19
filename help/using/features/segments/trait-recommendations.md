@@ -17,7 +17,7 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ## ビデオデモ
 
-まず、Trait Recommendationsビデオを視聴して、詳しく説明します。
+まず、特性レコメンデーションのビデオを見てから、詳細をお読みください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=jpn)
 
