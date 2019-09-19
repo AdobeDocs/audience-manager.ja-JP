@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データフィードのサブスクリプションの管理
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 ---
