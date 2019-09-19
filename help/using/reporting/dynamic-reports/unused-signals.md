@@ -5,7 +5,7 @@ seo-title: Unused Signals レポート
 solution: Audience Manager
 title: Unused Signals レポート
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
