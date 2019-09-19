@@ -5,7 +5,7 @@ seo-title: クロスチャネルコンバージョン
 solution: Audience Manager
 title: クロスチャネルコンバージョン
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
