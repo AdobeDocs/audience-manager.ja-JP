@@ -5,7 +5,7 @@ seo-title: 特性ルールの管理
 solution: Audience Manager
 title: 特性ルールの管理
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
