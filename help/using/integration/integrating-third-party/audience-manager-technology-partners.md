@@ -1,171 +1,171 @@
 ---
-description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchangeのリスト（利用可能な場所）を参照するか、アドビコンサルタントまたはカスタマーケアにお問い合わせください。
-seo-description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchangeのリスト（利用可能な場所）を参照するか、アドビコンサルタントまたはカスタマーケアにお問い合わせください。
-seo-title: Adobe Audience Managerテクノロジーパートナー
-keywords: アクティブ化;アクティベートパートナー，宛先，宛先
+description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
+seo-description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
+seo-title: Adobe Audience Manager テクノロジーパートナー
+keywords: アクティブ化、アクティベートパートナー、宛先、宛先
 solution: Audience Manager
-title: Adobe Audience Managerテクノロジーパートナー
-translation-type: tm+mt
+title: Adobe Audience Manager テクノロジーパートナー
+translation-type: ht
 source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Audience Manager Activation Partner
+# Audience Manager アクティベーションパートナー
 
-このページには、現在のAudience Manager [サーバー間統合](/help/using/features/destinations/add-edit-segments.md) のみが含まれています。統合について詳しくは、Adobe [Exchange](https://www.adobeexchange.com/experiencecloud.html) のリスト（利用可能な場所）を参照するか、アドビコンサルタントまたはカスタマーケアにお問い合わせください。
-
-<br> 
-
-* **更新** 済み=このアクティベートパートナーの更新があった最終日が表示されます。
-* **セグメント化解除** =セグメント化では、セグメントからデバイスプロファイルを却下および削除するプロセスについて説明します。デバイスプロファイルをセグメントから削除できるかどうかは、プロファイル結合ルールの作成時に使用したデバイスオプションによって異なります。GDPRの削除リクエストは、DGPRの削除リクエストのコンテキストでも、 [プロファイル結合ルールと、セグメントの結合解除機能](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) と [、セグメント化解除機能を使用してい](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation)ます。Audience Managerは、下の「はい」とマークされている宛先にセグメント情報を送信します。
-* **IAB TCFの同意シグナルの受信** = IAB TCFのAudience Managerプラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TCFの同意文字列をアクティブ化パートナーに転送できます。Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners).
-* **ICDS** =この列には、インスタントデバイスの抑制をサポートするパートナーが一覧表示されます。[インスタントデバイスの抑制を読み取り](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)ます。
-* **モバイルデバイスID** =この列には、Audience ManagerからモバイルデバイスIDを受け取ることができるパートナーが一覧表示されます。
+このページには、現在の Audience Manager [サーバー間統合](/help/using/features/destinations/add-edit-segments.md)のみが含まれています。統合について詳しくは、[Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
 
 <br> 
 
-| 統合 | 更新された | セグメント解除 | IAB TCFの同意シグナルの受信 | ICDS | モバイルデバイス ID |
+* **更新日** = このアクティベートパートナーの更新があった最近の日付が表示されます。
+* **セグメント解除** = セグメント化解除とは、デバイスプロファイルを不適格としてセグメントから削除するプロセスのことです。デバイスプロファイルをセグメントから削除できるかどうかは、プロファイル結合ルールの作成時に使用したデバイスオプションによって異なります。セグメント化解除は、GDPR の削除リクエストでも使用されます。[プロファイル結合ルールとデバイスセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)および[セグメント解除に対応している Audience Manager パートナー](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation).をお読みください。Audience Manager は、以下の「はい」とマークされている宛先にセグメント情報を送信します。
+* **IAB TCF 同意シグナルの受信** = IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TCF のコンセントストリングをアクティベーションパートナーに転送できます。[IAB TCF 用 Audience Manager プラグイン](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners)をお読みください。
+* **ICDS** = この列には、Instant Cross-Device Suppression をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
+* **モバイルデバイス ID** = この列には、Audience Manager からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
+
+<br>
+
+| 統合 | 更新日 | セグメント解除 | IAB TCF の同意シグナルの受信 | ICDS | モバイルデバイス ID |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
-| 4Cインサイト | 26/09/2018 | ○ | × | × | ○ |
-| 4info | 09/02/2017 | × | × | × | ○ |
-| usityAds | 09/02/2017 | ○ | × | ○ | × |
-| Adara | 17/02/2017 | ○ | × | × | × |
-| 追加のモビリティ | 22/02/2017 | ○ | × | ○ | ○ |
-| アデフィック | 22/02/2017 | × | × | × | ○ |
-| AdForm | 22/02/2017 | ○ | × | ○ | ○ |
-| adGear | 22/02/2017 | ○ | × | ○ | × |
-| アディケエv | 26/01/2018 | ○ | × | × | ○ |
-| Adswzz | 09/10/2017 | ○ | × | × | ○ |
-| Addiumerent | 22/02/2017 | ○ | × | × | ○ |
-| アフィリオ | 03/04/2018 | ○ | × | × | ○ |
-| アキ | 21/06/2018 | × | × | × | ○ |
-| Amazon Advertising | 15/06/2017 | ○ | × | × | × |
-| AOL AdLearn | 02/03/2017 | × | × | × | ○ |
-| AOL ONE | 02/03/2017 | ○ | × | × | ○ |
-| appNexus | 02/03/2017 | ○ | × | ○ | × |
-| AppNexus Ieldex | 10/08/2017 | ○ | × | × | × |
-| atedra/AdPosition | 02/03/2017 | ○ | × | ○ | × |
-| Oocet | 06/12/2017 | × | × | × | × |
-| BidtotRect | 03/03/2017 | ○ | × | × | × |
-| Beesワックス | 25/05/2018 | × | × | × | ○ |
-| Brandscreen | 03/03/2017 | × | × | × | × |
-| Brightroll | 03/03/2017 | × | ○ | × | × |
-| ボタン | 18/12/2017 | ○ | × | × | ○ |
-| C1Exchange | 27/02/2017 | ○ | × | × | × |
-| Celtra | 27/02/2017 | ○ | × | × | ○ |
-| Centro | 27/02/2017 | × | × | × | ○ |
-| choiceStream | 27/02/2017 | × | × | × | × |
-| Clearstream. tv | 27/02/2017 | ○ | × | × | × |
-| Collective AMP Platform | 27/02/2017 | × | × | × | × |
-| Crito | 27/02/2017 | × | ○ | × | ○ |
-| Crosswise | 27/02/2017 | ○ | × | × | × |
-| D.A.C. audienceOne | 27/02/2017 | ○ | × | × | × |
-| DataXU | 11/20/2017 | × | × | × | ○ |
-| Digiant | 02/03/2017 |  | × | × | × |
-| distrTM | 02/03/2017 | ○ | × | × | × |
-| doubleVerify | 06/09/2017 | ○ | × | × | × |
-| drawbridge | 02/03/2017 | × | × | × | ○ |
-| Destery（FKA Media6） | 02/03/2017 | ○ | × | × | ○ |
-| Epsilon Dialogant | 03/03/2017 | × | × | × | × |
-| 指数指数型 | 27/02/2017 | ○ | × | ○ | × |
-| Eyereturn Marketing | 11/04/2017 | ○ | × | × | × |
-| EyeView Digital | 14/06/2018 | ○ | × | × | ○ |
-| フィクス | 03/03/2017 | ○ | × | × | ○ |
-| Flashting | 02/03/2017 | × | × | × | × |
-| FreeAOut | 03/03/2017 | ○ | × | × | × |
-| フリーホイール | 27/02/2017 | ○ | ○ | × | ○ |
-| 色域メディア | 03/03/2017 |  | × | × |  |
-| GoogleAdソードの表示 | 02/08/2018 | ○ | ○ | × | ○ |
-| Google DoubleClick入札マネージャ（DB） | 24/04/2017 | ○ | ○ | ○ | ○ |
-| Google DoubleClickキャンペーンマネージャ（DCM fka DFA） | 24/04/2017 | ○ | ○ | ○ | ○ |
-| Google DoubleClick for Publisher（DFP、DFPP） | 24/04/2017 | ○ | ○ | ○ | ○ |
-| GGMX | 02/06/2017 | ○ | × | × | × |
-| Index Exchange（以前のCasale Media） | 03/03/2017 | ○ | × | × | × |
-| 伝染メディア | 03/03/2017 | ○ | × | ○ | × |
-| inMobi | 30/03/2017 | ○ | × | × | ○ |
-| Innovid | 02/03/2017 | ○ | × | × | × |
-| iInyou | 11/07/2017 | × | × | × | × |
-| Jampp | 11/05/2017 | ○ | × | × | ○ |
-| Jivox | 30/08/2017 | × | × | × | × |
-| ジュースモバイル | 03/03/2017 | ○ | × | × | ○ |
-| Krx | 30/06/2017 | × | × | × | ○ |
-| Lifoff. io | 09/11/2017 | ○ | × | × | ○ |
-| LiveIntent | 17/07/2017 | ○ | × | × | × |
-| libail | 20/01/2017 |  | × | × |  |
-| Logicad | 22/06/2017 | × | × | × | × |
-| Lotame | 30/06/2017 | ○ | × | × | ○ |
-| MaxPoint Interactive | 27/02/2017 | × | × | × | × |
-| MediaMath | 27/02/2017 | ○ | × | × | ○ |
-| Microsoft Bing広告 | 30/05/2017 | ○ | ○ | ○ | × |
-| Milerian Media | 27/02/2017 | × | × | × | ○ |
-| MPlatform China | 06/08/2018 | ○ | × | × | ○ |
-| 備考I/O | 12/01/2018 | ○ | × | × | ○ |
-| ネイティブタッチ | 02/03/2017 | ○ | × | × | ○ |
-| Novo | 27/02/2017 | ○ | × | × | × |
-| Mail. ru | 29/04/2019 | ○ | × | × | ○ |
-| モバイルプロフェッショナル | 25/05/2018 | ○ | × | × | ○ |
-| Netマイニング | 02/03/2017 | × | × | × | × |
-| Numar | 28/03/2017 | ○ | × | × | × |
-| onAd | 13/02/2017 | ○ | × | ○ | × |
-| onePOPot | 19/06/2017 | ○ | × | × | ○ |
-| openX | 26/07/2018 | ○ | × | × | ○ |
-| Opera Mediaworks | 13/02/2017 | ○ | × | × | ○ |
-| Outbrain | 03/04/2017 | ○ | × | × | × |
-| OwnerIQ | 13/02/2017 | ○ | × | ○ | × |
-| プラットフォーム161 | 28/11/2018 | ○ | × | × | ○ |
-| pocketMath | 22/02/2017 | ○ | × | × | ○ |
-| Powerlinks | 17/05/2017 | ○ | × | × | × |
-| Pubtic | 13/02/2017 | ○ | × | × | × |
-| パルスポイント | 13/02/2017 | ○ | × | × | × |
-| pushSpring | 28/08/2017 | ○ | × | × | ○ |
-| Quantcast | 13/02/2017 | ○ | × | × | × |
-| optimmone/radiumOne | 13/02/2017 | ○ | × | × | ○ |
-| 再結合 | 31/05/2017 | ○ | × | ○ | ○ |
-| レゾレーション | 17/02/2017 | ○ | × | × | × |
-| revジェット | 17/02/2017 | × | × | × | × |
-| RocketPower | 17/02/2017 | ○ | × | ○ | ○ |
+| 4C インサイト | 2018/09/26 | ○ | × | × | ○ |
+| 4info | 2017/02/09 | × | × | × | ○ |
+| AcuityAds | 2017/02/09 | ○ | × | ○ | × |
+| Adara | 2017/02/17 | ○ | × | × | × |
+| Addictive Mobility | 2017/02/22 | ○ | × | ○ | ○ |
+| Adelphic | 2017/02/22 | × | × | × | ○ |
+| AdForm | 2017/02/22 | ○ | × | ○ | ○ |
+| AdGear | 2017/02/22 | ○ | × | ○ | × |
+| Adikteev | 2018/01/26 | ○ | × | × | ○ |
+| Adswizz | 2017/10/09 | ○ | × | × | ○ |
+| Adtheorent | 2017/02/22 | ○ | × | × | ○ |
+| Affinio | 2018/04/03 | ○ | × | × | ○ |
+| Aki | 2018/06/21 | × | × | × | ○ |
+| Amazon Advertising | 2017/06/15 | ○ | × | × | × |
+| AOL AdLearn | 2017/03/02 | × | × | × | ○ |
+| AOL ONE | 2017/03/02 | ○ | × | × | ○ |
+| AppNexus | 2017/03/02 | ○ | × | ○ | × |
+| AppNexus Yieldex | 2017/08/10 | ○ | × | × | × |
+| Atedra/AdStanding | 2017/03/02 | ○ | × | ○ | × |
+| Avocet | 2017/12/06 | × | × | × | × |
+| Bidtellect | 2017/03/03 | ○ | × | × | × |
+| Beeswax | 2018/05/25 | × | × | × | ○ |
+| Brandscreen | 2017/03/03 | × | × | × | × |
+| Brightroll | 2017/03/03 | × | ○ | × | × |
+| Button | 2017/12/18 | ○ | × | × | ○ |
+| C1 Exchange | 2017/02/27 | ○ | × | × | × |
+| Celtra | 2017/02/27 | ○ | × | × | ○ |
+| Centro | 2017/02/27 | × | × | × | ○ |
+| ChoiceStream | 2017/02/27 | × | × | × | × |
+| Clearstream.tv | 2017/02/27 | ○ | × | × | × |
+| Collective AMP Platform | 2017/02/27 | × | × | × | × |
+| Criteo | 2017/02/27 | × | ○ | × | ○ |
+| Crosswise | 2017/02/27 | ○ | × | × | × |
+| D.A.C. AudienceOne | 2017/02/27 | ○ | × | × | × |
+| DataXu | 2017/11/20 | × | × | × | ○ |
+| Digilant | 2017/03/02 |  | × | × | × |
+| DistrictM | 2017/03/02 | ○ | × | × | × |
+| DoubleVerify | 2017/09/06 | ○ | × | × | × |
+| Drawbridge | 2017/03/02 | × | × | × | ○ |
+| Dstillery（FKA Media6） | 2017/03/02 | ○ | × | × | ○ |
+| Epsilon Conversant | 2017/03/03 | × | × | × | × |
+| Exponential | 2017/02/27 | ○ | × | ○ | × |
+| Eyereturn Marketing | 2017/04/11 | ○ | × | × | × |
+| EyeView Digital | 2018/06/14 | ○ | × | × | ○ |
+| Fiksu | 2017/03/03 | ○ | × | × | ○ |
+| Flashtalking | 2017/03/02 | × | × | × | × |
+| FreakOut | 2017/03/03 | ○ | × | × | × |
+| Freewheel | 2017/02/27 | ○ | ○ | × | ○ |
+| Gamut Media | 2017/03/03 |  | × | × |  |
+| Google AdsWords Display | 2018/08/02 | ○ | ○ | × | ○ |
+| Google DoubleClick Bid Manager（DBM） | 2017/04/24 | ○ | ○ | ○ | ○ |
+| Google DoubleClick Campaign Manager（DCM fka DFA） | 2017/04/24 | ○ | ○ | ○ | ○ |
+| Google DoubleClick for Publishers（DFP、DFPP） | 2017/04/24 | ○ | ○ | ○ | ○ |
+| GumGum | 2017/06/02 | ○ | × | × | × |
+| Index Exchange（旧 Casale Media） | 2017/03/03 | ○ | × | × | × |
+| Infectious Media | 2017/03/03 | ○ | × | ○ | × |
+| inMobi | 2017/03/30 | ○ | × | × | ○ |
+| Innovid | 2017/03/02 | ○ | × | × | × |
+| iPinYou | 2017/07/11 | × | × | × | × |
+| Jampp | 2017/05/11 | ○ | × | × | ○ |
+| Jivox | 2017/08/30 | × | × | × | × |
+| Juice Mobile | 2017/03/03 | ○ | × | × | ○ |
+| Krux | 2017/06/30 | × | × | × | ○ |
+| Liftoff.io | 2017/11/09 | ○ | × | × | ○ |
+| LiveIntent | 2017/07/17 | ○ | × | × | × |
+| LiveRail | 2017/01/20 |  | × | × |  |
+| Logicad | 2017/06/22 | × | × | × | × |
+| Lotame | 2017/06/30 | ○ | × | × | ○ |
+| MaxPoint Interactive | 2017/02/27 | × | × | × | × |
+| MediaMath | 2017/02/27 | ○ | × | × | ○ |
+| Microsoft Bing Ads | 2017/05/30 | ○ | ○ | ○ | × |
+| Millennial Media | 2017/02/27 | × | × | × | ○ |
+| mPlatform China | 2018/08/06 | ○ | × | × | ○ |
+| Narrative I/O | 2018/01/12 | ○ | × | × | ○ |
+| Native Touch | 2017/03/02 | ○ | × | × | ○ |
+| Nativo | 2017/02/27 | ○ | × | × | × |
+| Mail.ru | 2019/04/29 | ○ | × | × | ○ |
+| Mobile Professionals | 2018/05/25 | ○ | × | × | ○ |
+| Netmining | 2017/03/02 | × | × | × | × |
+| Neustar | 2017/03/28 | ○ | × | × | × |
+| OnAd | 2017/02/13 | ○ | × | ○ | × |
+| OneSpot | 2017/06/19 | ○ | × | × | ○ |
+| OpenX | 2018/07/26 | ○ | × | × | ○ |
+| Opera Mediaworks | 2017/02/13 | ○ | × | × | ○ |
+| Outbrain | 2017/04/03 | ○ | × | × | × |
+| OwnerIQ | 2017/02/13 | ○ | × | ○ | × |
+| Platform 161 | 2018/11/28 | ○ | × | × | ○ |
+| PocketMath | 2017/02/22 | ○ | × | × | ○ |
+| Powerlinks | 2017/05/17 | ○ | × | × | × |
+| Pubmatic | 2017/02/13 | ○ | × | × | × |
+| Pulsepoint | 2017/02/13 | ○ | × | × | × |
+| PushSpring | 2017/08/28 | ○ | × | × | ○ |
+| Quantcast | 2017/02/13 | ○ | × | × | × |
+| RhythmOne / RadiumOne | 2017/02/13 | ○ | × | × | ○ |
+| Remerge | 2017/05/31 | ○ | × | ○ | ○ |
+| Resonate | 2017/02/17 | ○ | × | × | × |
+| RevJet | 2017/02/17 | × | × | × | × |
+| RocketFuel | 2017/02/17 | ○ | × | ○ | ○ |
 | Rubicon |  | ○ | ○ | × |  |
-| RUN | 17/02/2017 | ○ | × | × | × |
-| Sabio Mobile | 17/02/2017 | × | × | × | ○ |
-| Simi. fi | 17/02/2017 | × | × | × | ○ |
-| Sizmek Audience Hub | 17/02/2017 | ○ | × | × |  |
-| スリコイツ | 04/09/2018 | ○ | × | × | ○ |
-| スマートAdServer | 31/07/2017 | ○ | × | ○ | ○ |
-| So- net Media Networks Logicad |  | ○ | × | × |  |
-| Sonovi | 28/03/2017 | ○ | × | ○ | × |
-| speciceMedia | 03/03/2017 | × | × | × | × |
-| spongCell | 03/03/2017 | ○ | × | ○ | ○ |
-| spotX | 16/03/2018 | × | ○ | × | ○ |
-| ストローク | 03/03/2017 | ○ | × | × | × |
-| Sundaysky | 03/03/2017 | ○ | × | ○ | × |
-| startApp | 25/05/2018 | ○ | × | × | ○ |
-| Supership/scaleOut | 03/03/2017 | ○ | × | × | × |
-| スリバタ | 09/08/2017 | ○ | × | × | ○ |
-| Taboola | 03/08/2017 | × | ○ | × | × |
-| Tapad | 03/03/2017 | × | × | × | ○ |
-| Telaria | 25/04/2019 | ○ | × | × | ○ |
-| Telogical Systems | 03/03/2017 | ○ | × | × | × |
-| トレードデスク | 03/03/2017 | ○ | ○ | ○ | ○ |
-| Thisk Realtime | 05/02/2016 |  | × | × |  |
-| 振戦ビデオ | 03/03/2017 | ○ | × | × | × |
-| トリプルリフト | 03/03/2017 | × | ○ | × | × |
-| TrueEX | 11/01/2018 | ○ | × | × | ○ |
-| tabMovul | 03/03/2017 | ○ | × | ○ | × |
-| Omniture | 03/03/2027 | × | × | × | ○ |
-| Twitga | 29/10/2018 | ○ | × | × | × |
-| Twitterにカスタマイズされたオーディエンス | 27/03/2017 | ○ | × | ○ | × |
-| アンダートーン | 11/07/2017 | × | × | × | × |
-| Verve | 15/06/2017 | ○ | × | × | ○ |
-| VideoAMP | 03/03/2017 | × | × | × | × |
-| Videoology | 03/03/2017 | × | × | × | × |
-| Visualq | 24/03/2017 | ○ | × | × | × |
-| Wikopy | 04/08/2018 | ○ | × | × | ○ |
-| X+1 | 05/02/2016 |  | × | × |  |
-| Xaxis | 03/03/2017 | ○ | × | × | × |
-| Yahoo DataMax | 03/03/2017 | ○ | ○ | ○ | ○ |
-| Yahoo! 日本 | 03/03/2017 | × | × | × | × |
-| Yandex | 28/11/2018 | ○ | × | × | ○ |
-| Ieldex | 21/08/2017 | ○ | × | × | × |
-| ieldMo | 03/03/2017 | × | × | × | × |
-| Yume | 31/05/2017 | × | × | × | × |
+| RUN | 2017/02/17 | ○ | × | × | × |
+| Sabio Mobile | 2017/02/17 | × | × | × | ○ |
+| Simpli.fi | 2017/02/17 | × | × | × | ○ |
+| Sizmek Audience Hub | 2017/02/17 | ○ | × | × |  |
+| Slickdeals | 2018/09/04 | ○ | × | × | ○ |
+| Smart Adserver | 2017/07/31 | ○ | × | ○ | ○ |
+| So-net Media Networks Logicad |  | ○ | × | × |  |
+| Sonobi | 2017/03/28 | ○ | × | ○ | × |
+| SpecificMedia | 2017/03/03 | × | × | × | × |
+| SpongeCell | 2017/03/03 | ○ | × | ○ | ○ |
+| SpotX | 2018/03/16 | × | ○ | × | ○ |
+| Stroer | 2017/03/03 | ○ | × | × | × |
+| SundaySky | 2017/03/03 | ○ | × | ○ | × |
+| StartApp | 2018/05/25 | ○ | × | × | ○ |
+| Supership／ScaleOut | 2017/03/03 | ○ | × | × | × |
+| Survata | 2017/08/09 | ○ | × | × | ○ |
+| Taboola | 2017/08/03 | × | ○ | × | × |
+| Tapad | 2017/03/03 | × | × | × | ○ |
+| Telaria | 2019/04/25 | ○ | × | × | ○ |
+| Telogical Systems | 2017/03/03 | ○ | × | × | × |
+| The Trade Desk | 2017/03/03 | ○ | ○ | ○ | ○ |
+| Thnk Realtime | 2016/02/05 |  | × | × |  |
+| Tremor Video | 2017/03/03 | ○ | × | × | × |
+| Triple Lift | 2017/03/03 | × | ○ | × | × |
+| TrueX | 2018/01/11 | ○ | × | × | ○ |
+| TubeMogul | 2017/03/03 | ○ | × | ○ | × |
+| Turn / Amobee | 2027/03/03 | × | × | × | ○ |
+| Twenga | 2018/10/29 | ○ | × | × | × |
+| Twitter Tailored Audiences | 2017/03/27 | ○ | × | ○ | × |
+| Undertone | 2017/07/11 | × | × | × | × |
+| Verve | 2017/06/15 | ○ | × | × | ○ |
+| VideoAmp | 2017/03/03 | × | × | × | × |
+| Videology | 2017/03/03 | × | × | × | × |
+| VisualIQ | 2017/03/24 | ○ | × | × | × |
+| Wikibuy | 2018/08/04 | ○ | × | × | ○ |
+| X+1 | 2016/02/05 |  | × | × |  |
+| Xaxis | 2017/03/03 | ○ | × | × | × |
+| Yahoo DataX | 2017/03/03 | ○ | ○ | ○ | ○ |
+| Yahoo! 日本 | 2017/03/03 | × | × | × | × |
+| Yandex | 2018/11/28 | ○ | × | × | ○ |
+| Yieldex | 2017/08/21 | ○ | × | × | × |
+| YieldMo | 2017/03/03 | × | × | × | × |
+| Yume | 2017/05/31 | × | × | × | × |
