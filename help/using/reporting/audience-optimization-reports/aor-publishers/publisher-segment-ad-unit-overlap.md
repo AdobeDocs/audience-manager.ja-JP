@@ -5,7 +5,7 @@ seo-title: セグメント - 広告ユニット間重複
 solution: Audience Manager
 title: セグメント - 広告ユニット間重複
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 [!UICONTROL Segment to Ad Unit Overlap] レポートを使用すれば、どのオーディエンスが Web プロパティを訪問したかを把握できます。このレポートには、[!DNL Audience Manager] セグメントのメンバーと Web プロパティの訪問者数の間の重複が表示されます。重複が多い場合は、セグメントの多数のメンバーが Web プロパティを訪問していることになります。
 
-## セグメント - 広告ユニット間重複レポートの使用{#using-the-report}
+## セグメント - 広告ユニット間重複レポートの使用 {#using-the-report}
 
 「**[!UICONTROL Top N Ad Units]**」コントロールと「**[!UICONTROL Top N Segments]**」コントロールを使用して、重複の広告ユニット数とセグメント数を選択します。それぞれ、最大 100 個の項目を選択できます。
 
