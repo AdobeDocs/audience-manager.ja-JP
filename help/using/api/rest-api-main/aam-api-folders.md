@@ -5,7 +5,7 @@ seo-title: フォルダー API メソッド
 solution: Audience Manager
 title: フォルダー API メソッド
 uuid: ebb6290e-98c0-472e-ba04-eb5dac036425
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
