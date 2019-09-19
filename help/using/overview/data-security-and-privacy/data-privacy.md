@@ -5,7 +5,7 @@ seo-title: データのプライバシー
 solution: Audience Manager
 title: データのプライバシー
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
 ## データのプライバシー {#data-privacy-center}
 
-[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)を参照してください。
+[アドビプライバシーセンター](https://www.adobe.com/privacy/opt-out.html)を参照してください。
 
 ## 消費者のプライバシー保護 {#consumer-privacy-protection}
 
@@ -28,7 +28,7 @@ Audience Manager では、利用するオンラインブランドとの間で消
 
 このモデルの継続的なサポートの一環として、Audience Manager では、消費者への透明性と管理を提供し、オンライン行動ターゲティング広告（OBA）に関する自主的行動規範を遵守および強化することに引き続き全力で取り組んでいます。
 
-## オプトアウト管理{#opt-out-management}
+## オプトアウト管理 {#opt-out-management}
 
 オプトアウトに関するドキュメントは拡充され、別個のドキュメントに移動しました。詳しくは、[オプトアウト管理](../../overview/data-security-and-privacy/opt-out-management.md)を参照してください。
 
