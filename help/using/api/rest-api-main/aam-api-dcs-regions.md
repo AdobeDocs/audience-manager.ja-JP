@@ -5,7 +5,7 @@ seo-title: DCS 地域 API メソッド
 solution: Audience Manager
 title: DCS 地域 API メソッド
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
