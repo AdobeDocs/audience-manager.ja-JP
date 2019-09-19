@@ -5,7 +5,7 @@ seo-title: ID 同期ファイルの名前およびコンテンツの要件
 solution: Audience Manager
 title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5624eac36a7f2b8892136688f89fc22af241fc3a
 
 ---
@@ -37,11 +37,11 @@ ID ファイル名には、以下の必須およびオプション要素が含�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> adobe_id</code> </p> </td> 
-   <td colname="col2"> <p>ID同期ファイルとしてファイルを識別する静的プレフィックス。デバイスIDを他のデバイスIDまたは顧客ID（DPUUID）に一致させる場合は、このプレフィックスを使用します。  </p> </td> 
+   <td colname="col2"> <p>ファイルを ID 同期ファイルとして識別する静的なプレフィックス。デバイス ID を他のデバイス ID または顧客 ID（DPUUID）と照合する際は、このプレフィックスを使用します。  </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> c2c_ id</code> </p> </td> 
-   <td colname="col2"> <p>ユーザーベースの宛先のID同期ファイルとしてファイルを識別する静的プレフィックス。顧客ID（DPUUID）に対して、ユーザーベースの宛先のハッシュ化された電子メールアドレスをハッシュ化する場合に使用します。  </p> </td> 
+   <td colname="col1"> <p> <code> c2c_id</code> </p> </td> 
+   <td colname="col2"> <p>People-Based Destinations の ID 同期ファイルとしてファイルを識別する静的なプレフィックス。顧客ID（DPUUID）を People-Based Destinations.のハッシュ化された電子メールアドレスと照合する際は、このプレフィックスを使用します。  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
@@ -82,7 +82,7 @@ ID ファイル名には、以下の必須およびオプション要素が含�
 </ul>
 
 >[!NOTE]
-> ユーザーベースの宛先に対するID同期ファイルの命名（c2cプレフィックス）については、 [«ワークフローA-オフラインデータと組み合わされたすべてのオンラインアクティビティ](../../../features/destinations/people-based-destinations-workflow-combined.md) »または« [ワークフローB-オフラインのみのデータに基づくパーソナライゼーション»を参照](../../../features/destinations/people-based-destinations-workflow-offline.md)してください。
+> People-Based Destinations に対する ID 同期ファイルの命名（c2c プレフィックス）については、「[ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](../../../features/destinations/people-based-destinations-workflow-combined.md)」または「[ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](../../../features/destinations/people-based-destinations-workflow-offline.md)」を参照してください。
 
 ## ファイルコンテンツ構文および例 {#file-content-syntax}
 
@@ -96,7 +96,7 @@ ID ファイルのコンテンツには、以下の要素が含まれます。
 abc123 def456 ghi789 xyz987
 ```
 
-## 同期による DPUUID の UUID との一致 {#sync-matches-dpuuids-uuids}
+## 同期による DPUUID の UUID との一致{#sync-matches-dpuuids-uuids}
 
 ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../../../reference/ids-in-aam.md) を [!DNL Audience Manager] UUID と同期することです。同期では、[!DNL DPID] および関連する [!DNL DPID] から[!DNL Audience Manager] [!DNL UUID] へ [!DNL DPUUID] をマッピングします。ファイル名と本文のどこに ID を配置するかで、これらの識別子を互いにどのようにマッピングするかが決定します。例えば、以下に 2 つのサンプルファイルを示します。
 
