@@ -5,7 +5,7 @@ seo-title: メタデータファイルのステータスの更新
 solution: Audience Manager
 title: メタデータファイルのステータスの更新
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
