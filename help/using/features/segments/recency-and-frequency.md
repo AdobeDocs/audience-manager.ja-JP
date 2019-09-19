@@ -5,7 +5,7 @@ seo-title: 最新性と頻度
 solution: Audience Manager
 title: 最新性と頻度
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -28,7 +28,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 ![](assets/recency_frequency.png)
 
-## 制限とルール{#limitations-rules}
+## 制限とルール {#limitations-rules}
 
 最新性と頻度をセグメントの特性に適用する場合は、以下の制限およびルールを確認および理解してください。
 
