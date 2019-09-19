@@ -5,7 +5,7 @@ seo-title: 分類 API メソッド
 solution: Audience Manager
 title: 分類 API メソッド
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
