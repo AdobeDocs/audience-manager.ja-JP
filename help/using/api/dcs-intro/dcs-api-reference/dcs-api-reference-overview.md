@@ -3,7 +3,7 @@ description: DCS API のコード、メソッド、プロセスの概念的情�
 seo-description: Adobe Audience Manager（AAM）の DCS API のコード、メソッド、プロセスの概念的情報、説明、定義です。
 seo-title: Adobe Audience Manager（AAM）の DCS API リファレンスの概要
 title: DCS API リファレンスの概要
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 ---
