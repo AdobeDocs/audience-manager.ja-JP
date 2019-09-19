@@ -4,7 +4,7 @@ seo-description: Destination Builder の「Configuration」セクションには
 seo-title: Cookie の宛先のオプション設定
 solution: Audience Manager
 title: Cookie の宛先のオプション設定
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 
 [!UICONTROL Destination Builder]では、[!UICONTROL Configuration section]には [!UICONTROL Cookie Domain] フィールドと [!UICONTROL Publish Data To] フィールドが含まれます。これらを使用して、宛先が Cookie を設定しているかどうか、または Cookie を返すかどうかを判定するルールを作成できます。「[!UICONTROL Cookie Domain]」と「[!UICONTROL Publish Data To]」はオプションで、互いに独立して機能します。これらのどちらも使用せずに Cookie の宛先を作成することができます。
 
-## Cookie ドメイン：構文と例{#cookie-domain-syntax}
+## Cookie ドメイン：構文と例 {#cookie-domain-syntax}
 
 <!-- cookie-destination-options.xml -->
 
@@ -87,7 +87,7 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
  </tbody> 
 </table>
 
-## Publish Data To{#publish-data-to}
+## Publish Data To {#publish-data-to}
 
 「[!UICONTROL Publish Data To]」設定では、選択したオプションで設定した条件にドメインが一致する場合、Cookie を返します。オプションは以下のとおりです。
 
