@@ -5,7 +5,7 @@ seo-title: リアルタイム受信データ取り込み
 solution: Audience Manager
 title: リアルタイム受信データ取り込み
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
