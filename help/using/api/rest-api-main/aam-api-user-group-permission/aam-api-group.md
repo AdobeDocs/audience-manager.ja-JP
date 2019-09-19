@@ -5,7 +5,7 @@ seo-title: グループ管理 API メソッド
 solution: Audience Manager
 title: グループ管理 API メソッド
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
