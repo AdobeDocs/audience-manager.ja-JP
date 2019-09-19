@@ -4,7 +4,7 @@ seo-description: Instant Cross-Device Suppression は、接続した複数のデ
 seo-title: Instant Cross-Device Suppression
 title: Instant Cross-Device Suppression
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ---
@@ -16,14 +16,14 @@ source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ## 概要 {#overview}
 
-[!UICONTROL Instant Cross-Device Suppression] 次の2つの鍵用途を提供します。ユーザーエクスペリエンスとメディアの効率性が向上しました。
+[!UICONTROL Instant Cross-Device Suppression] では、ユーザーエクスペリエンスの向上とメディア効率という 2 つの重要なユースケースを実現します。
 
 * **ユーザーエクスペリエンスの向上**：製品やサービスを既に購入したユーザーには、購入前と同じクリエイティブは表示されません。代わりに、ユーザーがまだ購入していないことがわかっている製品やサービスのアップ販売メッセージまたはクロス販売メッセージを表示できます。
-* **メディアの効率**:すべてのsにグローバルな頻度キャップを適用して、キャンペーン投資を最適化 [!DNL DSP]します。頻度キャップは、ユーザーに属する複数のデバイスに対してリアルタイムで設定できます。
+* **メディア効率**：すべての [!DNL DSP] にグローバルな頻度キャップを適用して、キャンペーン投資を最適化します。頻度キャップは、ユーザーに属する複数のデバイスに対してリアルタイムで実行できます。
 
-リアルタイムセグメント化の詳細については、プロファイル結合ルールとデバイスの非セグメント化プロセスの [長さで説明](../../features/profile-merge-rules/merge-rule-unsegment.md)しています。上記ユースケースの実用的な実装についても説明しています。
+リアルタイムのセグメント化解除の技術的な詳細については、[プロファイル結合ルールとデバイスセグメント化解除プロセス](../../features/profile-merge-rules/merge-rule-unsegment.md)で説明しています。上記ユースケースの実用的な実装についても説明しています。
 
-## コンバージョン後はターゲット設定しない {#do-not-target-once}
+## コンバージョン後はターゲティングしない {#do-not-target-once}
 
 コンバージョンに達した（製品を購入した、サブスクリプションを取得したなど）ユーザーには、コンバージョン前と同じメッセージは表示されしません。次のように、[!UICONTROL AND NOT] ロジックを使用してこれを実現できます。
 
@@ -34,14 +34,14 @@ source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ![](assets/and_not_use_case.png)
 
-## インプレッション発生後はターゲット設定しない {#do-not-target-after-x}
+## インプレッション発生後はターゲティングしない {#do-not-target-after-x}
 
 最新性と頻度のコントロールを設定することで、ユーザーに同じクリエイティブが大量に表示されるのを避けることができます。このシナリオでは、2 つの特性を使用するセグメントを作成します。その概要を次の手順で説明します。
 
 1. 次の図に示すように、2 つの特性を使用するセグメントを作成し、[!UICONTROL AND] ロジックを使用します。ルールベースの特性を使用して、セグメント化解除がリアルタイムに起動されるようにインプレッションイベントを定義する必要があります。詳しくは、[ルールベースの特性の作成](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)方法を参照してください。
    >[!NOTE]
    >
-   >ユーザーインプレッションに基づいて特性を使用 [!UICONTROL Actionable Log Files][!UICONTROL Pixel Calls] したり、特性を作成したりできます。詳しくは、[実行可能なログファイル](../../integration/media-data-integration/actionable-log-files.md)および[ピクセル呼び出し](../../integration/media-data-integration/impression-data-pixels.md)を参照してください。
+   >[!UICONTROL Actionable Log Files] または [!UICONTROL Pixel Calls] を使用して、ユーザーインプレッションに基づいて特性を作成できます。詳しくは、[実行可能なログファイル](../../integration/media-data-integration/actionable-log-files.md)および[ピクセル呼び出し](../../integration/media-data-integration/impression-data-pixels.md)を参照してください。
 1. 2 番目の特性に頻度コントロールを適用します。必要に応じて、最新性コントロールも追加することができます。詳しくは、[最新性および頻度コントロールの適用方法](../../features/segments/recency-and-frequency.md)を参照してください。
 1. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。詳しくは、[サーバー間宛先](../../features/destinations/add-edit-segments.md)へのセグメントの追加方法を参照してください。
 
@@ -49,19 +49,19 @@ source-git-commit: 86b23cc4097057fceadd4d0f7c5fad0db4f4232b
 
 ![](assets/impressions_use_case.png)
 
-## 留意すべき重要な側面 - 処理 {#processing-notes}
+## 留意すべき重要な側面 - 処理{#processing-notes}
 
 処理に関しては、次の側面に留意してください。
 
 * リアルタイムのセグメント化解除機能が働くためには、目的のセグメントをリアルタイムのサーバー間宛先にマッピングする必要があります。
 * 複数のデバイスが[デバイスグラフ](../../features/profile-merge-rules/profile-link-use-case.md#recommendations)で接続されている場合は、評価とセグメント化解除に関して、4 デバイスまでの制限が適用されます。この制限については、[デバイスグラフオプションとデバイスのセグメント化解除](../../features/profile-merge-rules/merge-rule-unsegment.md#device-graph-options-unsegmentation)を参照してください。
 * 複数のデバイスがデバイスグラフで接続されている場合、セグメント化解除コマンドは、24 時間ごとに宛先に送信されるバッチファイルに含まれています。
-* セグメント評価を促すために、デバイスは（[エッジ](../../reference/system-components/components-edge.md)で）リアルタイムに認識される必要があります。For traits that have a [!UICONTROL time-to-live (TTL)] value, even if a trait [!DNL TTL] is met, the device will *not* automatically be unsegmented until the device is next seen in real-time.&#x200B; 詳しい方法については、[特性の有効期限間隔の設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)を参照してください。
+* セグメント評価を促すために、デバイスは（[エッジ](../../reference/system-components/components-edge.md)で）リアルタイムに認識される必要があります。[!UICONTROL time-to-live (TTL)] 値が設定されている特性の場合は、特性の [!DNL TTL] に達しても、デバイスは次にリアルタイムで認識されるまでは、自動的にはセグメント化解除され&#x200B;*ません*。詳しい方法については、[特性の有効期限間隔の設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)を参照してください。
 * [!UICONTROL DCS API] を使用してルールベースの特性をリアルタイムにオンボードする場合は、[!UICONTROL AND NOT] ロジックを使用してセグメント化解除を起動することができます。詳しくは、[DCS API へのデータ送信](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)を参照してください。
 
 ## 留意すべき重要な側面 - 時間設定 {#timing-notes}
 
 時間設定に関しては、次の側面に留意してください。
 
-* セグメントは[デバイスプロファイルと同じ期間](../../reference/system-components/components-edge.md) のEdgeが保存されます [!UICONTROL Edge]。つまり、最終リアルタイムインタラクションから14日になります。データ保持について詳しくは、[データ保持に関する FAQ](../../faq/faq-privacy.md#data-retention-faq) を参照してください。
+* セグメントは[エッジ](../../reference/system-components/components-edge.md)に格納されます。その期間は、デバイスプロファイルが[!UICONTROL Edge]に格納されるのと同じ期間、つまり、リアルタイムのインタラクションが最後に発生してから 14 日間です。データ保持について詳しくは、[データ保持に関する FAQ](../../faq/faq-privacy.md#data-retention-faq) を参照してください。
 * セグメント化解除操作が [!UICONTROL DCS] 地域全体に伝達されるまでに、およそ 24 時間かかります。[!UICONTROL DCS] 地域の詳細については、[こちら](../../reference/system-components/components-data-collection.md)と[こちら](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
