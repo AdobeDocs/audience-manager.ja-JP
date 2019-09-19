@@ -5,7 +5,7 @@ seo-title: グローバルデータソース
 solution: Audience Manager
 title: グローバルデータソース
 uuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
 
 ---
@@ -56,4 +56,4 @@ Audience Manager では、[AAM UUID](../faq/faq-privacy.md) と同様に、120 �
 
 * リクエストするプラットフォームの名前（例：[!UICONTROL Apple IDFA]）
 * プラットフォームを管理する会社または組織の名前（例：[!UICONTROL Apple Inc.]）
-* デバイス広告 ID の名前空間の技術仕様へのリンク（例：[AdSupport Documentation](https://developer.apple.com/documentation/adsupport)）
+* Links to the technical specifications for the device advertising ID namespace (e.g., [AdSupport Documentation](https://developer.apple.com/documentation/adsupport)).
