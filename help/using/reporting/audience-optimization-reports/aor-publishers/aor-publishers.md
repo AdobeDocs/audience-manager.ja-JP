@@ -5,7 +5,7 @@ seo-title: Audience Optimization for Publishers
 solution: Audience Manager
 title: Audience Optimization for Publishers
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
