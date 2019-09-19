@@ -4,7 +4,7 @@ seo-description: 論理演算子を使用して、キー値ペアのグループ
 seo-title: サポートされる論理演算子
 title: サポートされる論理演算子
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
