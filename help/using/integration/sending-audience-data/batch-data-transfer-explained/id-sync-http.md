@@ -5,7 +5,7 @@ seo-title: 受信データ転送のための ID 同期
 solution: Audience Manager
 title: 受信データ転送のための ID 同期
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0fac081c93be36d2aa40023c7323ef1886b3860a
 
 ---
