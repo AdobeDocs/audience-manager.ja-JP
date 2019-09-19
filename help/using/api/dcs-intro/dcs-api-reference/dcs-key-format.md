@@ -5,7 +5,7 @@ seo-title: DCS 呼び出しでのキー値ペアの形式
 solution: Audience Manager
 title: DCS 呼び出しでのキー値ペアの形式
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -55,7 +55,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   <tr> 
    <td colname="col1"><b>ペア区切り</b> </td> 
    <td colname="col2"> アンパサンド &amp; </td> 
-   <td colname="col3"> <p>個々のキー値ペア： </p> <p><code> key1=val1&amp;key2=val2,val3</code> </p> </td> 
+   <td colname="col3"> <p>キー値ペア: </p> <p><code> key1=val1&amp;key2=val2,val3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>値区切り</b> </td> 
