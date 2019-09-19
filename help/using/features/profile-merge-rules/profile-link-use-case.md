@@ -5,7 +5,7 @@ seo-title: プロファイルリンクデバイスグラフのユースケース
 solution: Audience Manager
 title: プロファイルリンクデバイスグラフのユースケース
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
@@ -136,7 +136,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ![](assets/merge-rules-internal4.png)
 
-これらのデバイスグラフの処理方法について詳しくは、[Audience Manager と外部デバイスグラフ](https://marketing.adobe.com/resources/help/ja_JP/aam/downloads/AAM_Device_Graphs.pdf)の PDF をダウンロードしてください。
+これらのデバイスグラフ処理の動作について詳しくは、[Audience Manager と外部デバイスグラフ](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf)（PDF）をダウンロードしてください。
 
 >[!MORE_LIKE_THIS]
 >
