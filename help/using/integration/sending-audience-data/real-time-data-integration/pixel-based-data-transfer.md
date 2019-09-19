@@ -5,7 +5,7 @@ seo-title: ピクセルベースのデータ転送
 solution: Audience Manager
 title: ピクセルベースのデータ転送
 uuid: 8773bfc0-6b8d-4a6a-a8b7-e043744486ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 
 ---
