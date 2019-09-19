@@ -5,7 +5,7 @@ seo-title: 一時停止および削除されたセグメント
 solution: Audience Manager
 title: 一時停止および削除されたセグメント
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
