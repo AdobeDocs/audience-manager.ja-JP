@@ -5,7 +5,7 @@ seo-title: セグメントリスト表示
 solution: Audience Manager
 title: セグメントリスト表示
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
