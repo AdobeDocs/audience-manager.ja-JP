@@ -6,13 +6,13 @@ seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215054718e9248bd44ba99baeb2a10236701d98e
 
 ---
 
 
-# 一括管理の使用の手引き{#getting-started-with-bulk-management}
+# 一括管理の概要{#getting-started-with-bulk-management}
 
 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
 
@@ -24,7 +24,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[UIで割り当てられたRBACグループ権限](../../features/administration/administration-overview.md)[!DNL Audience Manager] は、で使用さ [!UICONTROL Bulk Management Tools]れます。
+>[!UICONTROL Bulk Management Tools] は、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 ## 概要 {#overview}
 
@@ -32,7 +32,7 @@ c_bulk_start.xml
 
 ## ダウンロード {#download}
 
-Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**.
+**[こちら](assets/BAAAM_August_2018.xlsm)**&#x200B;で最新のワークシートをダウンロードします。
 
 ## 前提条件 {#prereqs}
 
@@ -40,19 +40,19 @@ Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**.
 
 * [!DNL Audience Manager] のユーザー名およびパスワード。お客様が既にお持ちの資格情報です。
 * API クライアント ID および秘密鍵。担当のアカウントマネージャーを通して入手できます。
-* [!UICONTROL Bulk Management Tools] ワークシート。[ワークシート](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) をダウンロードして最新バージョンを入手してください。
+* [!UICONTROL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download)してください。
 
-* [!DNL Windows] 上で動作する Excel、または [!DNL macOS X] 上で動作する [!DNL Microsoft Windows] 仮想マシン。You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
+* [!DNL Windows] 上で動作する Excel、または [!DNL macOS X] 上で動作する [!DNL Microsoft Windows] 仮想マシン。[!UICONTROL Bulk Management Tools] が機能するには、32 ビット Excel を使用する必要があります。
 
 ## アクションおよび操作 {#actions-ops}
 
-[!UICONTROL Bulk Management Tools] ワークシートは、アクションタブ、アクションボタンおよび **[!UICONTROL Headers]** タブで構成されます。「**[!UICONTROL Headers]**」タブには、アクションタブで使用される書式化済みの列ヘッダーがあります。アクションタブには選択した一括操作を実行するためのマクロが用意されています。一括操作を実行するには、該当するアクションタブにヘッダーをまとめてコピーし、ヘッダーデータを入力し、アクションボタンをクリックします。
+[!UICONTROL Bulk Management Tools]ワークシートは、アクションタブ、アクションボタンおよび「**[!UICONTROL Headers]**」タブで構成されています。「**[!UICONTROL Headers]**」タブには、アクションタブで使用される書式化済みの列ヘッダーがあります。アクションタブには選択した一括操作を実行するためのマクロが用意されています。一括操作を実行するには、該当するアクションタブにヘッダーをまとめてコピーし、ヘッダーデータを入力し、アクションボタンをクリックします。
 
 まずはスプレッドシートを開き、アクションボタンをクリックしてみてください。
 
 ![](assets/bamwrkbk.png)
 
-The table below lists the operations you can perform and items you can manipulate with the [!UICONTROL Bulk Management Tools] worksheets.
+次の表は、実行できる操作、および[!UICONTROL Bulk Management Tools]ワークシートを使用して操作できる項目を示したものです。
 
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
@@ -65,13 +65,13 @@ The table below lists the operations you can perform and items you can manipulat
   <tr> 
    <td colname="col1"> <p>一括アクションはワークシートの一番下のタブに表示され、次の項目などがあります。 </p> <p> 
      <ul id="ul_49F46B9E00C045D29E40258EB7BDCFBB"> 
-      <li id="li_193C41EA19EF4D738FBA037D2BF9B05C">要求 </li> 
-      <li id="li_5BE2E13D839F4958AAA5C01B7EFC5096">更新 </li> 
-      <li id="li_4CCCC739795945DF8C89787F9A67EB88">作成 </li> 
-      <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">推定 </li> 
+      <li id="li_193C41EA19EF4D738FBA037D2BF9B05C">Requests </li> 
+      <li id="li_5BE2E13D839F4958AAA5C01B7EFC5096">Update </li> 
+      <li id="li_4CCCC739795945DF8C89787F9A67EB88">Create </li> 
+      <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Estimate </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Delete </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>一括変更できるオブジェクトは、「<b><span class="uicontrol">Headers</span>」タブに配置されており、次の項目などがあります。</b> </p> <p> 
+   <td colname="col2"> <p>一括変更できるオブジェクトは、「<b><span class="uicontrol">Headers</span></b>」タブに配置されており、次の項目などがあります。 </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> データソース</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> 派生シグナル</a> </li> 
@@ -88,7 +88,7 @@ The table below lists the operations you can perform and items you can manipulat
 
 例えば、複数の特性を一度に作成する方法を見てみましょう。一括操作で複数の特性を作成するには、次の手順に従います。
 
-1. Click the **[!UICONTROL Headers]** tab and copy all the labels under the [!UICONTROL Create a Trait] option.
+1. 「**[!UICONTROL Headers]**」タブをクリックし、「[!UICONTROL Create a Trait]」オプション配下のすべてのラベルをコピーします。
 
 2. 「**[!UICONTROL Create]**」タブをクリックし、1 行目の列 A を先頭にラベルをペーストします。
 3. 各列ヘッダーに関する情報を入力し、「**[!UICONTROL Create Traits]**」をクリックします。このアクションによって、ログオンするよう指示されます。正常に認証が済むと（後述の[認証要件](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を参照してください）、ジョブが一括実行されます。ワークシートの左下隅に表示されるジョブステータス通知を確認してください。
@@ -117,8 +117,8 @@ API 認証を設定するには、以下のことをおこなう必要があり�
 
 ドメイン認証では、一括要求をテストすることも、直接本稼動アカウントに適用することもできます。テスト環境で一括変更をおこなっても、本稼動アカウントには反映されません。本稼動アカウントへの変更は即座に反映されます。「**[!UICONTROL Domain]**」フィールドでは、作業環境に応じて次のアドレスを使用できます。
 
-* テスト: `api-beta.demdex.com`
-* 実稼動: `api.demdex.com`
+* テスト：`api-beta.demdex.com`
+* 実稼動：`api.demdex.com`
 
 >[!MORE_LIKE_THIS]
 >
