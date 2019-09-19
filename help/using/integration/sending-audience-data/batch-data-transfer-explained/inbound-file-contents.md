@@ -5,7 +5,7 @@ seo-title: 受信データファイルコンテンツ：構文、無効な文字
 solution: Audience Manager
 title: 受信データファイルコンテンツ：構文、無効な文字、変数、例
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
 
 ---
