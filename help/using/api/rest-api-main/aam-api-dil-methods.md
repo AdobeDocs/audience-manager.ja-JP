@@ -5,7 +5,7 @@ seo-title: データ統合ライブラリ API メソッド
 solution: Audience Manager
 title: データ統合ライブラリ API メソッド
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 
 >[!IMPORTANT]
 >
->Data Integration Library API は廃止されました。DIL の生成に使用されているこの API は、[DIL ダウンロード](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロードできるようになりました。
+>Data Integration Library API は廃止されました。This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
