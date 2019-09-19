@@ -28,11 +28,11 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 1. 目的のシグナルに基づいて新しい特性を作成します。
 1. **[!UICONTROL Trait Expression]** セクションの **[!UICONTROL Backfill Options]**&#x200B;を使用して、特性適合のバックフィルをおこなう期間を選択します。事前定義されているバックフィル期間は、1 日、7 日、14 日および 30 日です。30 日までの範囲でカスタムの期間を指定することもできます。
 
-   ![特性-バックフィル](assets/signals-trait-backfill.png)
+   ![特性バックフィル](assets/signals-trait-backfill.png)
 
 1. （オプション）**[!UICONTROL Estimate Realizations]** セクションの「**[!UICONTROL Estimated Trait Realizations]**」をクリックして、過去 7 日間にバックフィルされた特性の推定 [!UICONTROL Unique Trait Realizations] および [!UICONTROL Total Trait Population] の値を表示します。
 
-   ![推定特性再説明](assets/estimate-trait-realizations.png)
+   ![見積特性実現](assets/estimate-trait-realizations.png)
 
    >[!IMPORTANT]
    >
