@@ -5,7 +5,7 @@ seo-title: リアルタイム送信データ転送
 solution: Audience Manager
 title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
 
 ---
