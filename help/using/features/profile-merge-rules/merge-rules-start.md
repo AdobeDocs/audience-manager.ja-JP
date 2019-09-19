@@ -6,7 +6,7 @@ solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: ht
-source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
+source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
 
 ### 顧客 ID 設定関数の設定
 
-[!UICONTROL Experience Cloud ID Service] を操作する差異、`setCustomerIDs` 関数は宣言済み ID を [!DNL Audience Manager] に渡します。プロファイル結合ルールを使用する場合、`setCustomerIDs` を変更して、デバイス間データソースの作成時に指定した統合コードを使用するよう設定します。例えば、統合コード `my_datasource_ic` でデバイス間データソースを作成したとします。宣言済み ID を渡すには、以下の変更後のコードのサンプルに示すように、統合コードを訪問者 ID 関数に追加します。
+[!UICONTROL Experience Cloud ID Service] を操作する差異、`setCustomerIDs` 関数は宣言済み ID を [!DNL Audience Manager] に渡します。プロファイル結合ルールを使用する場合、`setCustomerIDs` を変更して、クロスデバイス対応データソースの作成時に指定した統合コードを使用するよう設定します。例えば、統合コード `my_datasource_ic` でクロスデバイス対応データソースを作成したとします。宣言済み ID を渡すには、以下の変更後のコードのサンプルに示すように、統合コードを訪問者 ID 関数に追加します。
 
 #### 汎用コードのサンプル
 
@@ -136,7 +136,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-詳しくは、[デバイス間データソースの作成](#create-data-source)および[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-authenticated-state.html)を参照してください。
+詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)および[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-authenticated-state.html)を参照してください。
 
 ### `DIL.create` 関数の設定
 
@@ -155,7 +155,7 @@ namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の�
 
 ### SDK の設定
 
-下記の[SDK の設定](../../features/profile-merge-rules/merge-rules-start.md#configure-sdks)セクションも参照してください。
+下記の[SDK の設定](#configure-sdks-legacy-dil)セクションも参照してください。
 
 ## レガシー DIL {#legacy-dil}
 
@@ -177,7 +177,7 @@ DIL.create({
 
 [!UICONTROL declared IDs] を [!DNL Android] および [!DNL iOS] モバイルデバイスから渡す方法を [!DNL SDK] コードで確認します。[!DNL Android] と [!DNL iOS] のコードライブラリで、変数名は同じです。
 
-* `dpid`：デバイス間データソース ID。
+* `dpid`：クロスデバイス対応データソース ID。
 * `dpuuid`：[!UICONTROL declared ID]（例：ユーザー ID）。
 
 <table id="table_2ACA3E5F316D4413B10A4403B786CC23"> 
