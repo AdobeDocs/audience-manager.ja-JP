@@ -5,7 +5,7 @@ seo-title: Audience Optimization レポート
 solution: Audience Manager
 title: Audience Optimization レポート
 uuid: b06efa28-f56a-4b72-978e-e0c067f54798
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1e38d1bc12eb19e33ba02fc2560eaf989f420168
 
 ---
