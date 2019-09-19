@@ -4,7 +4,7 @@ seo-description: Experience Cloud ソリューションや他の外部システ�
 seo-title: Experience Cloud ソリューションや他の外部システムのデータを Audience Manager で操作します。
 solution: Audience Manager
 title: 導入および統合ガイド
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 92b47cb110a6d48c4e491e6aabeada61a9ac958b
 
 ---
