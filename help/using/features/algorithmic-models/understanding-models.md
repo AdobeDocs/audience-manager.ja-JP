@@ -7,7 +7,7 @@ solution: Audience Manager
 title: アルゴリズムモデルについて
 topic: DIL API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
 
 ---
