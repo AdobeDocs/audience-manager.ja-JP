@@ -5,7 +5,7 @@ seo-title: メタデータファイルの命名規則
 solution: Audience Manager
 title: メタデータファイルの命名規則
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
