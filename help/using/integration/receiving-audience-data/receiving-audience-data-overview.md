@@ -4,7 +4,7 @@ seo-description: Adobe Audience Manager（AAM）からオーディエンスデ�
 seo-title: Adobe Audience Manager（AAM）でのオーディエンスデータの受信
 title: オーディエンスデータの受信
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: f287244b2198eb72287359e2105d9014dd960cfb
 
 ---
 
@@ -13,14 +13,14 @@ source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 Audience Manager からオーディエンスデータを受信します。
 
-* [送信データ転送のための ID 同期](/help/using/integration/receiving-audience-data/id-sync-outbound.md)
+* [送信データ転送のための ID 同期](id-sync-outbound.md)
 
    Audience Manager とサードパーティデータプロバイダーの間でユーザー ID を同期するために、最初の HTTP 呼び出しで使用される構文およびパラメーターについて説明します。最初の ID 同期を試す前に、担当の Adobe Audience Manager コンサルタントにお問い合わせください。
 
-* [リアルタイム送信データ転送](/help/using/integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
+* [リアルタイム送信データ転送](real-time-outbound-transfers/real-time-outbound-transfers.md)
 
    リアルタイムの送信データ転送プロセスでは、POST メソッドで渡された一連の JSON オブジェクトとしてユーザーデータを返します。
 
-* [バッチ送信データ転送](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+* [バッチ送信データ転送](batch-outbound-transfers/batch-outbound-overview.md)
 
    Audience Manager では、これらの仕様に従って、バッチデータをサードパーティコンテンツプロバイダーに送信します。
