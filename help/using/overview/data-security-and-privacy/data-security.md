@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データのセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 91444ad943fcd020c83e522922d67ef400bf8824
 
 ---
 
@@ -77,3 +77,15 @@ PGP 暗号化をデータファイルに追加するには、[受信データタ
 ## エスケープによるデータの保護 {#escaping-data}
 
 [!DNL Audience Manager] では、危険性があるクロスサイトスクリプティング（XSS）などから保護するために送信データをエスケープすることはないので、注意してください。受信データをエスケープすることは、クライアントの責任です。
+
+## HTTP Strict-Transport-Security (#hsts)
+
+[!DNL HTTP Strict-Transport-Security (HSTS)] は、Webセキュリティポリシーのメカニズムで、トラフィックを許可せず、すべてのトラフィックを透過的にアップグレードすることで、cookieのハイジャックやプロトコルダウン [!DNL HTTP] グレード攻撃から保護するのに役 [!DNL HTTP] 立ちま [!DNL HTTPS]す。
+
+このポリシーにより、クライアントとAdobe Edgeサーバー間のデータセキュリティが向上します。
+
+### 例 {#hsts-example}
+
+アクセスを試みると、ブ `http://bank.demdex.com`ラウザーがド [!DNL HSTS] メインを自動的に要求しな `https://bank.demdex.com`い場合に備えて、要求が自動的にににアップグレードされ [!DNL HTTPS] ます。
+
+HSTSの詳細については [、「HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) 」を参照してください。
