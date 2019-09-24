@@ -1,13 +1,13 @@
 ---
 description: 新規データソースを作成するには、Audience Data／Data Sources／Add New を選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
-keywords: cdf;カスタムデータフィード
+keywords: データソース；データソースの管理；Audience Managerデータソース
 seo-description: 新規データソースを作成するには、Audience Data／Data Sources／Add New を選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
 seo-title: データソースの作成
 solution: Audience Manager
-title: データソースの作成
+title: データソースの管理
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 
 ---
 
