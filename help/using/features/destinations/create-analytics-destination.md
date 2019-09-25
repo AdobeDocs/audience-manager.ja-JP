@@ -5,7 +5,7 @@ seo-title: Analytics の宛先の設定
 solution: Audience Manager
 title: Analytics の宛先の設定
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: fa39d070be9ec9f07e9da31de3efd151dd2c6cf1
 
 ---
 
@@ -14,7 +14,8 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ## 要件 {#requirements}
 
-[オーディエンス分析](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/)を参照してください。
+To configure an Analytics destination, your Audience Manager user must have Admin permissions. See [Create Users](/help/using/features/administration/administration-overview.md#create-users) in the Administration Guide. Note that having the `CREATE_DESTINATIONS` [wildcard permission](/help/using/features/administration/administration-overview.md#wild-card-permissions) is not sufficient to create Analytics destinations.
+For further requirements, see Prerequisites in [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/).
 
 ## Analytics のデフォルトの宛先と新規の宛先
 
@@ -28,12 +29,12 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 このセクションには、Analytics の宛先の作成プロセスを開始するフィールドとオプションが含まれています。このセクションを完了するには：
 
 1. 「**Basic Information**」をクリックして、コントロールを表示します。
-1. 宛先の名前を入力します。略語や特殊文字は使用しないでください。
-1. *（オプション）*&#x200B;宛先の説明を入力します。簡潔な説明が、宛先を定義するのに効果的です。
-1. *（オプション）*「**Platform**」リストをデフォルトの「**All**」のままにしておきます。現時点では、このオプションは機能しません。今後追加される可能性のある機能をサポートするために設計されています。
-1. 「**Category**」リストで「**Adobe Experience Cloud**」を選択します。
-1. 「**Type**」リストで「**Adobe Analytics**」を選択します。
-1. 「**Save**」をクリックして「Configuration」セクションに移動するか、「**Data Export Controls**」をクリックして書き出しコントロールを宛先に適用します。
+2. 宛先の名前を入力します。略語や特殊文字は使用しないでください。
+3. *（オプション）*&#x200B;宛先の説明を入力します。簡潔な説明が、宛先を定義するのに効果的です。
+4. *（オプション）*「**Platform**」リストをデフォルトの「**All**」のままにしておきます。現時点では、このオプションは機能しません。今後追加される可能性のある機能をサポートするために設計されています。
+5. 「**Category**」リストで「**Adobe Experience Cloud**」を選択します。
+6. 「**Type**」リストで「**Adobe Analytics**」を選択します。
+7. 「**Save**」をクリックして「Configuration」セクションに移動するか、「**Data Export Controls**」をクリックして書き出しコントロールを宛先に適用します。
 
 >[!NOTE]
 >
