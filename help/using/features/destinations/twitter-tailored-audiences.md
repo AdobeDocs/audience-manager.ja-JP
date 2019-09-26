@@ -5,7 +5,7 @@ seo-title: Twitter 用にカスタマイズされたオーディエンスをセ�
 solution: Audience Manager
 title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 translation-type: tm+mt
-source-git-commit: cd770afc39221687f4eb47cc358d8d57a51b9fb5
+source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
 
 ---
 
@@ -21,7 +21,7 @@ This article explains how to configure [Twitter Tailored Audiences](https://busi
 1. [!DNL Twitter Ads] アカウントは広告を利用する資格を持っている必要があります。新規 [!DNL Twitter Ads] アカウントは、最初に作成してから 2 習慣の間は、広告を利用する資格がありません。
 1. Audience Managerで承認したTwitterユーザーアカウントで、パートナーのAudience Manager権限を有効にし [ている](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 必要があります。
 1. If you are [updating your existing Twitter integration to self-service administration](#update-existing-twitter-integrations), your Twitter user account must have the [Ad manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
-1. Audience Managerインスタンスで最初の [!DNL Twitter Tailored Audiences] 宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、お使いのアカウントの [!DNL Twitter] ID同期（データソースID = 1123）を有効にしてください。 これは、Audience Managerとの間で正しい同期を行うために必要で [!DNL Twitter]す。
+1. Audience Manager インスタンスで最初の [!DNL Twitter Tailored Audiences] の宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、お使いのアカウントの [!DNL Twitter] ID 同期（データソース ID = 1123）を有効にしてください。これは、Audience Manager と [!DNL Twitter] の間で正しい同期を行うために必要です。
 
 ## 新しい [!DNL Twitter Tailored Audiences] の宛先の追加{#add-new-twitter-destination}
 
@@ -88,6 +88,10 @@ Audience Manager と [!DNL Twitter Tailored Audiences] をリンクさせたら�
 
 * 正しいセグメントまたはマッピング名："US and European Shoppers"
 * 誤ったセグメントまたはマッピング名："US, European 5h0pP3rs"
+
+## 一致率の考慮事項 {#match-rates-considerations}
+
+を使用する場 [!UICONTROL Twitter Tailored Audiences]合、宛先 [!UICONTROL Segment Addressable Audience] ページ [!UICONTROL Segment Match Rate] の指標と指標に値が表示されません。 この宛先の一致率と一致するオーディエンスは、アドビではなく、アドビで処理およびホストされるので、これは [!UICONTROL Twitter]通常の動作です。
 
 >[!IMPORTANT]
 >
