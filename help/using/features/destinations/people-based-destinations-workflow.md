@@ -5,7 +5,7 @@ seo-title: People-Based Destinations の実装ガイダンス
 solution: Audience Manager
 title: 実装ガイダンス
 translation-type: tm+mt
-source-git-commit: a3380b9019cfc22b020aacc313eafc409486b0c5
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
@@ -27,25 +27,25 @@ source-git-commit: a3380b9019cfc22b020aacc313eafc409486b0c5
 
 ## 1. 使用例 {#defining-your-use-case}
 
-[!DNL People-Based Destinations] の実装を始める前に、この機能を使用する使用例を明確に定義する必要があります。[!DNL People-Based Destinations] を使用し、オーディエンスアクティビティに基づいて、2 つの方法でオーディエンスのターゲット設定をおこなうことができます。
+Before you begin implementing [!DNL People-Based Destinations], you need to clearly define the use case that you will be using this feature for. [!DNL People-Based Destinations] を使用し、オーディエンスアクティビティに基づいて、2 つの方法でオーディエンスのターゲット設定をおこなうことができます。
 
-**A）オンラインとオフラインのユーザーアクティビティを組み合わせ、それに基づいてオーディエンスのターゲティングをおこなう**。このシナリオでは、Audience Manager の既存のオーディエンスデータを内部 [!DNL CRM] システムのデータと組み合わせ、結果として得られたオーディエンスセグメントを [!DNL People-Based Destinations] に送信します。以下に、このシナリオの例を示します。
+**A) Audience targeting based on your combined online and offline user activity**. このシナリオでは、Audience Manager の既存のオーディエンスデータを内部 [!DNL CRM] システムのデータと組み合わせ、結果として得られたオーディエンスセグメントを [!DNL People-Based Destinations] に送信します。以下に、このシナリオの例を示します。
 
-あなたが勤める航空会社には、異なる顧客階層（ブロンズ、シルバー、ゴールド）があり、ソーシャルプラットフォームを通じてパーソナライズされたオファーを各層に提供したいと考えています。Audience Manager を使用して、Web サイトの顧客アクティビティを分析します。ただし、すべての顧客が航空会社のモバイルアプリを使用するわけではなく、会社の Web サイトにログインすらしていない顧客もいます。顧客データは、主にメンバーシップ ID と電子メールアドレスに限定されています。
+あなたが勤める航空会社には、異なる顧客階層（ブロンズ、シルバー、ゴールド）があり、ソーシャルプラットフォームを通じてパーソナライズされたオファーを各層に提供したいと考えています。Audience Manager を使用して、Web サイトの顧客アクティビティを分析します。ただし、航空会社のモバイルアプリを使用していない顧客や、会社のWebサイトにログインしていない顧客もいます。 顧客データは、主にメンバーシップ ID と電子メールアドレスに限定されています。
 
-ソーシャルメディアや類似のユーザーベースのチャネルをまたいでターゲットを絞るには、[ハッシュ化された電子メールアドレス](people-based-destinations-prerequisites.md)を Audience Manager に取り込んで、それらを既存のオンラインアクティビティの特性と組み合わせ、新しいオーディエンスセグメントを構築できます。次に、これらのセグメントを使用、[!DNL People-Based Destinations] を通じてオーディエンスをターゲティングできます。
+To target them across social media and similar people-based channels, you can bring your [hashed email addresses](people-based-destinations-prerequisites.md) into Audience Manager and combine them with your existing online activity traits, to build new audience segments. 次に、これらのセグメントを使用、[!DNL People-Based Destinations] を通じてオーディエンスをターゲティングできます。
 
-**B）オフラインユーザーアクティビティのみに基づいてオーディエンスのターゲティングをおこなう**。このシナリオでは、[!DNL CRM] システムには顧客の電子メールアドレスやその他の顧客属性が含まれていますが、顧客はお客様の Web サイトでインタラクションをおこなわないので、Audience Manager には顧客アクティビティはありません。以下に、このシナリオの例を示します。
+**B)オフラインユーザーアクティビティに基づくオーディエンスのターゲット設定**。 In this scenario, your [!DNL CRM] system contains your customer email addresses and other customer attributes, but customers have not interacted with your website at all, so you don't have any customer activity in Audience Manager. 以下に、このシナリオの例を示します。
 
-あなたが勤める通信サービスプロバイダーは、社内 [!DNL CRM] に、電子メールアドレスや購入した通信プランなどの顧客データを保持します。ソーシャルプラットフォーム内の既存の顧客をターゲットにして、既存のサブスクリプションに基づいてアップグレードパッケージを提供する場合があります。これをおこなうには、ハッシュ化された顧客電子メールアドレスを Audience Manager に取り込み、既存の顧客サブスクリプションに基づいてセグメントを作成します。その後、これらのセグメントを [!DNL People-Based Destinations] に送信して、パーソナライズされたオファーを用いて顧客のターゲット設定をおこなうことができます。
+あなたが勤める通信サービスプロバイダーは、社内 [!DNL CRM] に、電子メールアドレスや購入した通信プランなどの顧客データを保持します。ソーシャルプラットフォーム内の既存の顧客をターゲットにして、既存のサブスクリプションに基づいてアップグレードパッケージを提供する場合があります。To do this, you can ingest your hashed customer email addresses into Audience Manager, and create segments based on the existing customer subscriptions. その後、これらのセグメントを [!DNL People-Based Destinations] に送信して、パーソナライズされたオファーを用いて顧客のターゲット設定をおこなうことができます。
 
 ## 2. ターゲット設定された電子メールアドレスのタイプを定義する {#define-target-email}
 
 実装戦略を定義する 2 つ目の手順では、対象とする顧客電子メールアドレスの種類を決定します。
 
-**A）認証済みの電子メールアドレスに基づいてオーディエンスのターゲティングをおこなう**。このシナリオでは、ユーザーは複数の電子メールアドレスに関連付けられた複数のアカウントを持ち、Web サイト上で認証される電子メールアドレスのみに基づいて、パーソナライズされたオファーを用いて、リアルタイムでターゲット設定をおこなうことができます。
+**A) Audience targeting based on your authenticated email addresses**. このシナリオでは、ユーザーは複数の電子メールアドレスに関連付けられた複数のアカウントを持ち、Web サイト上で認証される電子メールアドレスのみに基づいて、パーソナライズされたオファーを用いて、リアルタイムでターゲット設定をおこなうことができます。
 
-**B）関連付けられたすべての電子メールアドレスに基づいてオーディエンスのターゲティングをおこなう**。このシナリオでは、ユーザーは複数の電子メールアドレスと関連付けられた複数のアカウントを持っており、お客様は、認証されたアクティビティに関係なく、関連するすべての電子メールアドレスをまたいでユーザーをターゲットに設定しようとしています。
+**B) Audience targeting based on all of your associated email addresses**. このシナリオでは、ユーザーは複数の電子メールアドレスと関連付けられた複数のアカウントを持っており、お客様は、認証されたアクティビティに関係なく、関連するすべての電子メールアドレスをまたいでユーザーをターゲットに設定しようとしています。
 
 ## 3. 保有している顧客 ID（CRM ID）のタイプを特定する{#identify-customer-id}
 
@@ -59,25 +59,25 @@ source-git-commit: a3380b9019cfc22b020aacc313eafc409486b0c5
 
 [!DNL People-Based Destinations] で正確にオーディエンスのターゲットを絞るには、実行するオーディエンスのターゲット設定のタイプに応じて、ルールベースの特性またはオンボード特性のいずれかに適合している必要があります。
 
-**A）ルールベースの特性に対し、リアルタイムで顧客 ID とデバイス ID の適合をおこなう**。このオプションは、「[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)」のユースケース Bに適用されます。オンラインとオフラインのアクティビティに基づいてオーディエンスをターゲット設定する予定がある場合は、[ルールベースの特性](../traits/trait-qualification-reference.md)について、既にオーディエンスを絞り込んでいる可能性が高くなります。
+**A) Qualify your customer IDs and device IDs in real time for rule-based traits**. このオプションは、「[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)」のユースケース Bに適用されます。オンラインとオフラインのアクティビティに基づいてオーディエンスをターゲット設定する予定がある場合は、[ルールベースの特性](../traits/trait-qualification-reference.md)について、既にオーディエンスを絞り込んでいる可能性が高くなります。
 
-**B）受信データファイルを介して、顧客 ID に対するインサイトのオンボーディングをおこなう**。このオプションは、[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)」のユースケース Bに適用されます。純粋なオフラインアクティビティに基づいてオーディエンスをターゲット設定する場合、[受信データファイル](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)を通じてオンボードされた特性の顧客 ID を認定する必要があります。
+**B)受信データファイルを介した顧客IDに対するオンボード特性**。 このオプションは、[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)」のユースケース Bに適用されます。純粋なオフラインアクティビティに基づいてオーディエンスをターゲット設定する場合、[受信データファイル](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)を通じてオンボードされた特性の顧客 ID を認定する必要があります。
 
 ## 5. データソースを作成およびラベル付けし、ハッシュ化された電子メールアドレスのオンボーディングをおこなう {#create-label-data-sources}
 
 Audience Manager にある顧客 ID のタイプに応じて（「[3.保有している顧客 ID（CRM ID）のタイプを特定する](people-based-destinations-workflow.md#identify-customer-id)」を参照）、次のいずれかのシナリオから、適したものを選択します。
 
-**A）既存のデータソースにラベルを付ける**。このオプションは、Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)）がハッシュ化された小文字の電子メールアドレスの場合に適用されます。この場合は、[!DNL PII] データソースとして ID を保存するデータソースにラベルを付ける必要があります。データソースの設定について詳しくは、「[データソースの設定](../datasources-list-and-settings.md)」を参照してください。「Cannot be tied to personally identifiable information」オプションのチェックがオフになっていることを確認する必要があります。
+**A）既存のデータソースにラベルを付ける**。このオプションは、Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)）がハッシュ化された小文字の電子メールアドレスの場合に適用されます。In this situation, what you need to do is label your data source that you store the IDs in as a [!DNL PII] data source. データソースの設定について詳しくは、「[データソースの設定](../datasources-list-and-settings.md)」を参照してください。「Cannot be tied to personally identifiable information」オプションのチェックがオフになっていることを確認する必要があります。
 
-**B）新しいデータソースを作成する**。このオプションは、Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)）がハッシュ化された小文字の電子メールアドレスでない場合に適用されます。この場合、新しいクロスデバイスデータソースを作成し、ハッシュ化された電子メールアドレスをそのデータに対してオンボーディングする必要があります。これには次の 2 つの方法を使用できます。
+**B）新しいデータソースを作成する**。このオプションは、Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)）がハッシュ化された小文字の電子メールアドレスでない場合に適用されます。この場合、新しいクロスデバイスデータソースを作成し、それに対してハッシュ化された電子メールアドレスをオンボードする必要があります。 これには次の 2 つの方法を使用できます。
 
-* ファイルベースの ID 同期を使用する。ID 同期ファイルの表示形式について詳しくは、「[ID 同期ファイル の名前とコンテンツ要件](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)」を参照してください。この方法を使用すると、[!DNL CRM] データベースから、すべてのハッシュ化された電子メールアドレスをターゲットにすることができます。
-* [宣言済み ID を使用](../declared-ids.md)して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。この方法を使用すると、Audience Manager はオンラインで認証されたユーザーの、ハッシュされた電子メールアドレスのみをターゲットに設定します。Facebook でターゲット設定される電子メールアドレスは、宣言されている ID イベント呼び出しの電子メールアドレスのみです。顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムではアクティブ化されません。
+* ファイルベースの ID 同期を使用する。ID 同期ファイルの表示形式について詳しくは、「[ID 同期ファイル の名前とコンテンツ要件](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)」を参照してください。When using this method, you can target all of your hashed email addresses from your [!DNL CRM] database.
+* Use [declared IDs](../declared-ids.md) to declare your hashed email addresses when passing in authenticated customer IDs. この方法を使用する場合、Audience Managerは、オンラインで認証されたユーザーからのハッシュ化された電子メールアドレスのみをターゲットにします。 人ベースのチャネルでターゲット設定された電子メールアドレスは、宣言されたIDイベント呼び出しの電子メールアドレスのみです。 顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムではアクティブ化されません。
 
 ## 6 - セグメント化のプロファイル結合ルールを作成する {#use-profile-merge-rules}
 
 ユースケースに応じて（[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)を参照）、2 つの方法でセグメント化に [!DNL Profile Merge Rules] を使用できます。
 
-**A）既存の[!DNL Profile Merge Rules]を使用する**。このオプションは、最初のユースケース（オンラインとオフラインのユーザーアクティビティの組み合わせに基づいてオーディエンスのターゲティングをおこなう）に適用されます。このシナリオでは、Audience Manager に既存の顧客アクティビティがあり、セグメント化で使用したプロファイル結合ルールの 1 つ以上を定義済みです。この場合、新しく [!DNL Profile Merge Rules] を作成する必要はありません。
+**A）既存の[!DNL Profile Merge Rules]を使用する**。このオプションは、最初のユースケース（オンラインとオフラインのユーザーアクティビティの組み合わせに基づいてオーディエンスのターゲティングをおこなう）に適用されます。このシナリオでは、Audience Managerに既に顧客アクティビティが存在し、セグメント化で使用した少なくとも1つのプロファイル結合ルールが既に定義されています。 この場合、新しく [!DNL Profile Merge Rules] を作成する必要はありません。
 
-**B）新しい[!DNL All Cross-Device Profiles]結合ルールを作成する**。このオプションは、2 番目のユースケース（オフラインのユーザーアクティビティのみに基づいてオーディエンスのターゲティングをおこなう）に適用されます。このシナリオでは、オフラインの顧客データを [!DNL CRM] から Audience Manager に取り込み、そのデータからセグメントを作成します。これをおこなうため、[!DNL People-Based Destinations] では、4 つめのプロファイル結合ルールとなる **[!DNL All Cross-Device Profiles]** を導入します。このルールは、純粋なオフラインデータをセグメント化するときに使用する必要があります。
+**B）新しい[!DNL All Cross-Device Profiles]結合ルールを作成する**。このオプションは、2 番目のユースケース（オフラインのユーザーアクティビティのみに基づいてオーディエンスのターゲティングをおこなう）に適用されます。In this scenario you are bringing your offline customer data from your [!DNL CRM] into Audience Manager, and want to create segments from that data. これをおこなうため、[!DNL People-Based Destinations] では、4 つめのプロファイル結合ルールとなる **[!DNL All Cross-Device Profiles]** を導入します。このルールは、純粋なオフラインデータをセグメント化するときに使用する必要があります。
