@@ -5,12 +5,15 @@ seo-title: ワークフロー B - オフラインのみのデータに基づく�
 solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション{#workflow-b}
+
+>[!IMPORTANT]
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法律上の助言は何も含まれません。 法律上の手引きについては、自分の弁護士にお問い合わせください。
 
 このページでは、オフラインのみの顧客データからオーディエンスセグメントを構築し、それらを People-Based Destinations に送信する方法について、順を追って説明します。
 
