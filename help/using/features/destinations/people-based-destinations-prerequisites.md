@@ -5,12 +5,15 @@ seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # 前提条件と考慮事項 {#prerequisites-considerations}
+
+>[!IMPORTANT]
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法律上の助言は何も含まれません。 法律上の手引きについては、自分の弁護士にお問い合わせください。
 
 [!DNL People-Based Destinations] に新規登録する前に満たす必要のある顧客要件の概要については、以下をお読みください。
 
@@ -19,7 +22,7 @@ source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ## People-Based Destinations への新規登録 {#signing-up}
 
-[!DNL People-Based Destinations] is a premium capability that enhances your Audience Manager experience by allowing you to activate your first-party audience segments in people-based environments, by targeting your audience with customized offers on social networks or through email marketing.
+[!DNL People-Based Destinations] は、ソーシャルネットワーク上のカスタマイズされたオファーや電子メールマーケティングを使用してオーディエンスをターゲット化することで、Audience Managerのエクスペリエンスを強化するプレミアム機能です。
 
 このプレミアム機能を活用するには、アドビの担当者にお問い合わせください。
 
@@ -43,11 +46,11 @@ Before you can use [!DNL People-Based Destinations] to send your first-party aud
 
 ## データのプライバシー {#data-privacy}
 
-Although  allow you to target audiences based on hashed email addresses uploaded by you, you remain prohibited from uploading any directly identifiable visitor information into Audience Manager. [!DNL People-Based Destinations]オンボーディング段階で、使用する予定の電子メールアドレスが [!DNL SHA256] アルゴリズムでハッシュ化されていることを確認する必要があります。そうでない場合、[!DNL People-Based Destinations] で使用することはできません 。
+自分が [!DNL People-Based Destinations] アップロードしたハッシュ化された電子メールアドレスに基づいてオーディエンスをターゲット設定できますが、直接識別可能な訪問者情報をAudience Managerにアップロードすることは禁止されたままです。 オンボーディング段階で、使用する予定の電子メールアドレスが [!DNL SHA256] アルゴリズムでハッシュ化されていることを確認する必要があります。そうでない場合、[!DNL People-Based Destinations] で使用することはできません 。
 
 ## データのハッシュと暗号化 {#data-hashing-encryption}
 
-暗号化は双方向関数です。暗号化された情報は、復号化キーを使用して復号化することもできます。Audience Managerのコンテキストでデータを暗号化すると、個人を特定できる情報の暗号化も復号化できるので、深刻なリスクを伴います。 As opposed to encryption, [!DNL People-Based Destinations] are designed to work with hashed data instead.
+暗号化は双方向関数です。暗号化された情報は、復号化キーを使用して復号化することもできます。Audience Managerのコンテキストでデータを暗号化すると、個人を特定できる情報の暗号化も復号化できるので、深刻なリスクを伴います。 As opposed to encryption,  are designed to work with hashed data instead.[!DNL People-Based Destinations]
 
 ハッシュは、入力をスクランブル処理して一意の結果を生成する一方向関数です。[!DNL SHA256] などの適切なハッシュアルゴリズムを使用した場合、ハッシュ関数を反転させてスクランブルされていない情報を表示する方法はありません。Audience Manager にオンボーディングする電子メールアドレスは、[!DNL SHA256] アルゴリズムでハッシュ化する必要があります。This way, you can ensure that no unhashed email addresses reach Audience Manager.
 
@@ -78,4 +81,4 @@ Since [!DNL People-Based Destinations] helps you activate first-party audience d
 オフラインデータを [!DNL People-Based Destinations] 用に Audience Manager に取り込む方法は次の 2 つです。
 
 * Audience Manager に[バッチデータを送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)して、ハッシュ化された電子メールアドレスを取り込みます。With this method, you can choose to use the hashed email addresses from your [!DNL CRM] database in [!DNL People-Based Destinations]. さらに、この方法を使用する場合、[オンボード特性](../traits/trait-qualification-reference.md)のハッシュ化された電子メールアドレスも絞り込みます。
-* [宣言済み ID を使用](../declared-ids.md)して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。When using this method, Audience Manager, on your behalf, only sends to [!DNL People-Based Destinations] the hashed email addresses from users who have authenticated online. The email addresses activated through people-based channels are only the ones in the declared ID event calls. 顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムでは送信されません。
+* [宣言済み ID を使用](../declared-ids.md)して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。When using this method, Audience Manager, on your behalf, only sends to [!DNL People-Based Destinations] the hashed email addresses from users who have authenticated online. ユーザーベースのチャネルを通じてアクティブ化された電子メールアドレスは、宣言されたIDイベント呼び出しの中のアドレスのみです。 顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムでは送信されません。
