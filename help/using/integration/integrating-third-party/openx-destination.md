@@ -5,7 +5,7 @@ seo-title: Audience Manager の宛先としての OpenX
 solution: Audience Manager
 title: Audience Manager の宛先としての OpenX
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
 
 ---
@@ -46,7 +46,7 @@ Audience Manager はデータをキーと値のペアとして送信します。
 
 ## OpenX の宛先の作成 {#openx-destination}
 
-Create a cookie destination for [!DNL OpenX] in Audience Manager.
+Audience Manager で、[!DNL OpenX] の cookieookie の宛先を作成します。
 
 <!-- aam-openx-destination.xml -->
 
