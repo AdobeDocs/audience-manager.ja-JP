@@ -5,7 +5,7 @@ seo-title: Audience Manager の宛先としての OAS
 solution: Audience Manager
 title: Audience Manager の宛先としての OAS
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
 
 ---
