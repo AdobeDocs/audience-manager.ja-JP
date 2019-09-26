@@ -5,7 +5,7 @@ seo-title: データのセキュリティ
 solution: Audience Manager
 title: データのセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 
 ---
@@ -48,7 +48,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 ## プライバシーおよび個人を特定できる情報（PII）{#pii}
 
-個人情報の安全を維持するのに役立つプロセスです。その他のプライバシー情報については、[アドビプライバシーセンター](https://www.adobe.com/privacy/advertising-services.html)を参照してください。
+個人情報の安全を維持するのに役立つプロセスです。その他のプライバシー情報については、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/advertising-services.html)を参照してください。
 
 **PII データ：** Audience Manager では、契約により、お客様およびデータパートナーが PII 情報をアドビのシステムに送信することを禁止しています。また、一意のユーザー ID（UUID）には、ID 生成アルゴリズムの一部として PII データを含んだり使用したりしません。
 
@@ -80,12 +80,12 @@ PGP 暗号化をデータファイルに追加するには、[受信データタ
 
 ## HTTP Strict-Transport-Security {#hsts}
 
-[!DNL HTTP Strict-Transport-Security (HSTS)] is a web security policy mechanism that helps protect against cookie hijacking and protocol downgrade attacks by not permitting [!DNL HTTP] traffic and transparently upgrading all [!DNL HTTP] traffic to [!DNL HTTPS].
+[!DNL HTTP Strict-Transport-Security (HSTS)] は、[!DNL HTTP] トラフィックの実行を許可せず、[!DNL HTTPS] へのすべての [!DNL HTTP] トラフィックを透過的にアップグレードすることで、cookie のハイジャックやプロトコルのダウングレードを防止する Web セキュリティポリシーメカニズムです。
 
-This policy improves data security between clients and Adobe Edge servers.
+このポリシーにより、クライアントと Adobe Edge サーバー間のデータセキュリティが向上します。
 
 ### 例 {#hsts-example}
 
-アクセスを試みると、ブ `http://bank.demdex.com`ラウザーがド [!DNL HSTS] メインを自動的に要求しな `https://bank.demdex.com`い場合に備えて、要求が自動的にににアップグレードされ [!DNL HTTPS] ます。
+`http://bank.demdex.com` へのアクセスを試みると、ブラウザーが自動的に [!DNL HTTPS] ドメインを要求しない場合に備え、[!DNL HSTS] が自動的にリクエストを `https://bank.demdex.com` にアップグレードします。
 
-See [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) for more information about HSTS.
+HSTS について詳しくは、「[HTTP Strict Transport Security - Wikipedia](https://ja.wikipedia.org/wiki/HTTP_Strict_Transport_Security)」を参照してください。
