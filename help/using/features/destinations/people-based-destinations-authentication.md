@@ -5,12 +5,15 @@ seo-title: ユーザーベースのプラットフォームを使用した認証
 solution: Audience Manager
 title: ユーザーベースのプラットフォームを使用した認証
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # ユーザーベースのプラットフォームを使用した認証{#authentication-with-people-based-platforms}
+
+>[!IMPORTANT]
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法律上の助言は何も含まれません。 法律上の手引きについては、自分の弁護士にお問い合わせください。
 
 このページでは、Audience Managerとユーザーベースのプラットフォームの統合を設定および管理する方法に関するガイダンスを提供します。
 
@@ -21,12 +24,12 @@ source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
-1. 「**[!UICONTROL Add Account]**」をクリックします。
-1. **[!UICONTROL People-Based Platform]** ドロップダウンメニューを使用して、統合を設定するプラットフォームを選択します。
+2. 「**[!UICONTROL Add Account]**」をクリックします。
+3. **[!UICONTROL People-Based Platform]** ドロップダウンメニューを使用して、統合を設定するプラットフォームを選択します。
    ![ユーザーベースのプラットフォーム](assets/pbd-add.png)
-1. 「**[!UICONTROL Confirm]**」をクリックすると、選択したプラットフォームの認証ページにリダイレクトされます。
-1. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、「**[!UICONTROL Confirm]**」をクリックします。
-1. Audience Manager のページ上部に通知が表示され、アカウントが正常に追加されたかどうかがわかります。また、この通知を使用して、ソーシャルプラットフォーム認証の期限が間もなく切れるときにアドビから通知を受信する連絡先の電子メールアドレスを追加することもできます。
+4. 「**[!UICONTROL Confirm]**」をクリックすると、選択したプラットフォームの認証ページにリダイレクトされます。
+5. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、「**[!UICONTROL Confirm]**」をクリックします。
+6. Audience Manager のページ上部に通知が表示され、アカウントが正常に追加されたかどうかがわかります。また、この通知を使用して、ソーシャルプラットフォーム認証の期限が間もなく切れるときにアドビから通知を受信する連絡先の電子メールアドレスを追加することもできます。
 
 ## 認証トークンの有効期限と通知管理 {#token-expiration-notification}
 
