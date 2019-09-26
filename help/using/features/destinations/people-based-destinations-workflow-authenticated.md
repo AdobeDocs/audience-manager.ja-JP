@@ -5,12 +5,15 @@ seo-title: ワークフロー C - 認証済みアクティビティとオフラ�
 solution: Audience Manager
 title: ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション{#workflow-c}
+
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
 
 このページでは、オフラインの [!DNL CRM] データと、認証済みユーザーのリアルタイムの行動データを組み合わせてオーディエンスセグメントを作成し、そのオーディエンスセグメントを [!DNL People-Based Destinations] に送信する方法について、順を追って説明します。
 
@@ -89,7 +92,7 @@ source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
 1. Audience Manager アカウントにログインして、**[!UICONTROL Audience Data]**／**[!UICONTROL Profile Merge Rules]** に移動します。
 2. 「**[!UICONTROL Add New Rule]**」をクリックします。
 3. プロファイル結合ルール **[!UICONTROL Name]** および **[!UICONTROL Description]** を入力します。
-4. **[!UICONTROL Profile Merge Rule Setup]** セクションで、**[!UICONTROL All Cross-Device Profiles]** ルールを **[!UICONTROL Cross-Device Options]** リストから選択します。
+4. In the **[!UICONTROL Profile Merge Rule Setup]** section, select the **[!UICONTROL Current Authenticated Profiles]** or **[!UICONTROL Last Authenticated Profiles]** rule from the **[!UICONTROL Cross-Device Options]** list.
 5. **[!UICONTROL Cross-Device Profile Options]** リストで、セグメントを実行するデータソースを選択します。これらは、既存の DPUUID を含むデータソースです。
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
