@@ -3,7 +3,7 @@ description: Audience Manager からオーディエンスデータを受信し�
 seo-description: Adobe Audience Manager（AAM）からオーディエンスデータの受信
 seo-title: Adobe Audience Manager（AAM）でのオーディエンスデータの受信
 title: オーディエンスデータの受信
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f287244b2198eb72287359e2105d9014dd960cfb
 
 ---
