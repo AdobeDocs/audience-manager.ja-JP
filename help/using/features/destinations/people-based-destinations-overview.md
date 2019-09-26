@@ -5,7 +5,7 @@ seo-title: People-Based Destinations の概要とユースケース
 solution: Audience Manager
 title: 概要とユースケース
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
@@ -14,9 +14,12 @@ source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 [!DNL People-Based Destinations] を使用して、ファーストパーティのオーディエンスセグメントをユーザーベースの環境に送信します。これらの環境は、そこで表示されるコンテンツを制御する 1 つのエンティティに属する、クローズドなシステムです。これには、顧客アカウントに依存して表示するコンテンツをパーソナライズする、[!DNL Facebook] などのソーシャルプラットフォームが含まれます。
 
+>[!IMPORTANT]
+>This article contains product documentation meant to guide you through the setup and usage of this feature. 法律上の助言は何も含まれません。 Please consult your own legal counsel for legal guidance.
+
 ## 概要 {#overview}
 
-[!DNL People-Based Destinations] enable you to apply segmentation on online and offline data to create audience segments based on [hashed identifiers](people-based-destinations-prerequisites.md#hashing-requirements), such as email addresses or phone numbers. Then, you can send these segments to "walled gardens" such as [!DNL Facebook], where you can target your audience on the social platforms. [!DNL People-Based Destinations] は、次の場合に役立ちます。
+[!DNL People-Based Destinations] オンラインおよびオフラインデータにセグメントを適用して、電子メールアドレスや電話番号などのハッシュ化さ [れた識別子に基づいて](people-based-destinations-prerequisites.md#hashing-requirements)、オーディエンスセグメントを作成できます。 Then, you can send these segments to "walled gardens" such as [!DNL Facebook], where you can target your audience on the social platforms. [!DNL People-Based Destinations] は、次の場合に役立ちます。
 
 * ハッシュ化された電子メールアドレスに基づいて、プラットフォーム（[!DNL Facebook] など）でオフラインとオンラインのオーディエンスのターゲット設定をおこなう
 * Audience Manager の既存のデバイスおよび Cookie のターゲティング機能を補完する
@@ -53,7 +56,7 @@ Through [!DNL People-Based Destinations], Audience Manager helps you centralize 
 
 **Audience Manager のデータガバナンスおよびプライバシーコントロールを活用して、顧客データを安全に処理できます。**
 
-[!DNL People-Based Destinations] requires that you only use irreversibly hashed identifiers. This reduces the risk associated with manually uploading customer data into each destination platform.
+[!DNL People-Based Destinations] 不可逆的にハッシュ化された識別子のみを使用する必要があります。 これにより、顧客データを各宛先プラットフォームに手動でアップロードする際のリスクが軽減されます。
 
 ## ユースケース {#use-cases}
 
@@ -65,7 +68,7 @@ Through [!DNL People-Based Destinations], Audience Manager helps you centralize 
 
 ### ユースケース 2 {#use-case-2}
 
-航空会社には異なる顧客階層（ブロンズ、シルバー、ゴールド）があり、ソーシャルプラットフォームを通じてパーソナライズされたオファーを各層に提供したいと考えています。この会社は、Audience Managerを使用してWeb サイトの顧客アクティビティを分析します。ただし、航空会社のモバイルアプリを使用していない顧客や、会社のWebサイトにログインしていない顧客もいます。 会社がこれらの顧客に関して持っている識別子は、メンバーシップ ID と電子メールアドレスのみです。
+航空会社には異なる顧客階層（ブロンズ、シルバー、ゴールド）があり、ソーシャルプラットフォームを通じてパーソナライズされたオファーを各層に提供したいと考えています。この会社は、Audience Managerを使用してWeb サイトの顧客アクティビティを分析します。However, not all customers use the airline's mobile app, and some of them have not logged in to the company's website. 会社がこれらの顧客に関して持っている識別子は、メンバーシップ ID と電子メールアドレスのみです。
 
 To target them across social media and similar people-based channels, they can onboard the customer data from their [!DNL CRM] into Audience Manager, using the hashed email addresses as identifiers.
 
