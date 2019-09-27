@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 最新性と頻度
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 translation-type: tm+mt
-source-git-commit: c7e8b67ccad4479487b471668462937c5be6be34
+source-git-commit: 1cbff10b9e978755e139e7d5b996249de5ebb5bd
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: c7e8b67ccad4479487b471668462937c5be6be34
 
 Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように定義されています。
 
-* **[!UICONTROL Recency]** : How recently a user viewed or qualified for one (or more) traits.
+* **[!UICONTROL Recency]** :ユーザーが1つ以上の特性を表示または資格を得た最近の時間。
 * **[!UICONTROL Frequency]：**&#x200B;ユーザーが 1 つ以上の特定を確認した、または特性の対象として認定された割合。
 
 [!UICONTROL Recency] と [!UICONTROL Frequency] の設定は、サイト、セクションまたは特定のクリエイティブに対する実際の（または認識された）関心レベルに基づいて訪問者をセグメント化するのに役立ちます。例えば、高い最新性／頻度要件でセグメントの対象として認定されるユーザーは、それほど頻繁に訪問していないユーザーよりも、サイトまたは製品に関心がある可能性があります。
@@ -45,6 +45,10 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
   <tr> 
    <td colname="col1"> <p> <b>最小値</b> </p> </td> 
    <td colname="col2"> <p>最新性は 0 より大きい値である必要があります。 </p> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p> <b>特性タイプ</b> </p> </td> 
+   <td colname="col2"> <p>最新性の制御は、ルールベースおよびフォルダーの特性にのみ適用できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>サードパーティ特性</b> </p> </td> 
@@ -68,6 +72,10 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
    <td colname="col2"> <p>個々のサードパーティ特性またはサードパーティ特性の特性グループに対して、頻度ルールを設定することはできません。最新性と頻度は、独自の特性にのみ適用されます。 </p> </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <p> <b>特性タイプ</b> </p> </td> 
+   <td colname="col2"> <p>You can apply frequency controls to rule-based and folder traits only. </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p> <b>最新性の要件</b> </p> </td> 
    <td colname="col2"> <p>最新性の要件を設定せずに、頻度の要件を設定できます。<i></i>頻度の値を設定するだけで、最新性のフィールドは空のままにします。 </p> </td> 
   </tr> 
@@ -78,35 +86,38 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
  </tbody> 
 </table>
 
-## 最新性の例 {#recency-examples}
+## Recency Examples {#recency-examples}
 
-UIでの選択に応じて、最新性がどのように機能するかの例を2つ示します。
+Here are two examples of how recency works, depending on your selection in the UI:
 
 ### Using a less than or equal to operator (&lt;=)
 
-![次よりも小さい](assets/less-than-equal-to.png)
+![Less-than-equal-to](assets/less-than-equal-to.png)
 
-この例では、スクリーンショットに示すように&lt;=演算子を選択します。 これにより、過去5日間に3つ以上の特性のいずれかに該当する場合は、セグメントに対するユーザーの資格が得られます。 次のタイムラインに、セグメントが作成された時点のセグメントクオリフィケーションを10月1日、10日後に示します。
+In this example, you select the &lt;= operator, as shown in the screenshot. これにより、過去5日間に3つ以上の特性のいずれかに該当する場合は、セグメントに対するユーザーの資格が得られます。 The timeline below shows the segment qualification at the time the segment is created, on October 1st, and ten days later.
 
-![過去5日間](assets/last-5-days.png)
+![Last-five-days](assets/last-5-days.png)
 
 ### Using a greater than or equal to operator (=&gt;)
 
-![次よりも大きい — 等しい](assets/greater-than-equal-to.png)
+![Greater-than-equal-to](assets/greater-than-equal-to.png)
 
-この例では、スクリーンショットに示すように=&gt;演算子を選択します。 This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times anytime between their first qualification on the Audience Manager platform and the cut-off time five days ago. 次のタイムラインに、セグメントが作成された時点のセグメントクオリフィケーションを10月1日、10日後に示します。
+In this example, you select the =&gt; operator, as shown in the screenshot. This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times anytime between their first qualification on the Audience Manager platform and the cut-off time five days ago. The timeline below shows the segment qualification at the time the segment is created, on October 1st, and ten days later.
 
-![以前の資格](assets/earlier-qualification.png)
+![Earlier-qualification](assets/earlier-qualification.png)
 
 
 ## 頻度キャップの例 {#frequency-capping}
 
-頻度キャップ式では、特性認識の数が目標値を下回っているすべてのユーザーを含めます。以下に例を示します。
+頻度キャップ式では、特性認識の数が目標値を下回っているすべてのユーザーを含めます。以下に、正しい/間違った例を示します。
 
-* 式 `frequency([1000T]) <= 5` の場合は、ID 「1000」の特性を認識した回数が最大 5 回（認識しなかった場合も含む）のすべてのユーザーが含まれます。
-* 最新性／頻度の要件が特定の回数または日数を下回る必要がある場合は、その特性を `AND` 演算子で別の特性に結合します。前述の例を使用すると、この式は、`frequency([1000T]) <= 5 AND isSiteVisitorTrait` のように、別の特性と結合した場合に有効になります。
+* Wrong - The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID "1000" a maximum of five times but also includes users who have not realized the trait. したがって、Audience Managerは、この式をパフォーマンス上の理由から検証しません。セグメントに対する資格が多すぎるためです。
 
-* 広告頻度キャップのユースケースでは、例えば次のようなセグメントルールを作成できます。`(frequency([1000T] <= 2D) >= 5)`この式では、過去 2 日間に ID 「1000」の特性を 5 回以上認識したすべてのユーザーを含めます。広告サーバーでセグメントに対して `NOT` を設定した広告サーバーにこのセグメントを送信することで、頻度キャップを設定します。この方法は、頻度キャップと同じ目的を提供しますが、[!DNL Audience Manager] でより優れたパフォーマンスを達成します。
+* Right - If you want to include all users that have realized the trait with the ID "1000" a maximum of five times, add another condition to the expression, to make sure the users have qualified for the trait at least once:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
+
+* Right- When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an `AND` operator. Using the example in the first bullet point, this expression becomes valid when joined with another trait as shown here: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+
+* Right - For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. この式では、過去 2 日間に ID 「1000」の特性を 5 回以上認識したすべてのユーザーを含めます。広告サーバーでセグメントに対して `NOT` を設定した広告サーバーにこのセグメントを送信することで、頻度キャップを設定します。この方法は、頻度キャップと同じ目的を提供しますが、[!DNL Audience Manager] でより優れたパフォーマンスを達成します。
 
 >[!MORE_LIKE_THIS]
 >
