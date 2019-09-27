@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 最新性と頻度
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: c7e8b67ccad4479487b471668462937c5be6be34
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように定義されています。
 
-* **[!UICONTROL Recency]：**&#x200B;ユーザーが 1 つ以上の特性を確認した、または特性の対象として認定された日数。
+* **[!UICONTROL Recency]** : How recently a user viewed or qualified for one (or more) traits.
 * **[!UICONTROL Frequency]：**&#x200B;ユーザーが 1 つ以上の特定を確認した、または特性の対象として認定された割合。
 
 [!UICONTROL Recency] と [!UICONTROL Frequency] の設定は、サイト、セクションまたは特定のクリエイティブに対する実際の（または認識された）関心レベルに基づいて訪問者をセグメント化するのに役立ちます。例えば、高い最新性／頻度要件でセグメントの対象として認定されるユーザーは、それほど頻繁に訪問していないユーザーよりも、サイトまたは製品に関心がある可能性があります。
@@ -77,6 +77,27 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
   </tr> 
  </tbody> 
 </table>
+
+## 最新性の例 {#recency-examples}
+
+UIでの選択に応じて、最新性がどのように機能するかの例を2つ示します。
+
+### Using a less than or equal to operator (&lt;=)
+
+![次よりも小さい](assets/less-than-equal-to.png)
+
+この例では、スクリーンショットに示すように&lt;=演算子を選択します。 これにより、過去5日間に3つ以上の特性のいずれかに該当する場合は、セグメントに対するユーザーの資格が得られます。 次のタイムラインに、セグメントが作成された時点のセグメントクオリフィケーションを10月1日、10日後に示します。
+
+![過去5日間](assets/last-5-days.png)
+
+### Using a greater than or equal to operator (=&gt;)
+
+![次よりも大きい — 等しい](assets/greater-than-equal-to.png)
+
+この例では、スクリーンショットに示すように=&gt;演算子を選択します。 This qualifies your user for the segment if they qualify for any of the three traits a minimum of three times anytime between their first qualification on the Audience Manager platform and the cut-off time five days ago. 次のタイムラインに、セグメントが作成された時点のセグメントクオリフィケーションを10月1日、10日後に示します。
+
+![以前の資格](assets/earlier-qualification.png)
+
 
 ## 頻度キャップの例 {#frequency-capping}
 
