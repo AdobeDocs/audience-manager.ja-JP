@@ -7,7 +7,7 @@ solution: Audience Manager
 title: フォルダー特性について
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 translation-type: tm+mt
-source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
+source-git-commit: 9fa5a558c839da89286b1abdf77e835a92747c87
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
 * 特性 B：1
 * 特性 C：1
 
-この場合、[!DNL ]自動車[!UICONTROL Folder Trait]の適合数は 7 となります。
+In this case, the [!DNL Automobile Folder Trait] has 7 realizations.
 
 ![](assets/folder_traits_rollup_border.png)
 
