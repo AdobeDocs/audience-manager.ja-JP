@@ -5,7 +5,7 @@ seo-title: Twitter 用にカスタマイズされたオーディエンスをセ�
 solution: Audience Manager
 title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 translation-type: tm+mt
-source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
+source-git-commit: c6318921b49603015b4670a361ec85ffa29abb30
 
 ---
 
@@ -19,7 +19,7 @@ This article explains how to configure [Twitter Tailored Audiences](https://busi
 [!DNL Twitter Tailored Audiences] の宛先を設定する前に満たす必要がある、以下の Twitter の前提条件を確認してください。
 
 1. [!DNL Twitter Ads] アカウントは広告を利用する資格を持っている必要があります。新規 [!DNL Twitter Ads] アカウントは、最初に作成してから 2 習慣の間は、広告を利用する資格がありません。
-1. Audience Managerで承認したTwitterユーザーアカウントで、パートナーのAudience Manager権限を有効にし [ている](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 必要があります。
+1. Your Twitter user account that you authorized access for in Audience Manager must have the [Partner audience manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
 1. If you are [updating your existing Twitter integration to self-service administration](#update-existing-twitter-integrations), your Twitter user account must have the [Ad manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) permission enabled.
 1. Audience Manager インスタンスで最初の [!DNL Twitter Tailored Audiences] の宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、お使いのアカウントの [!DNL Twitter] ID 同期（データソース ID = 1123）を有効にしてください。これは、Audience Manager と [!DNL Twitter] の間で正しい同期を行うために必要です。
 
@@ -89,10 +89,10 @@ Audience Manager と [!DNL Twitter Tailored Audiences] をリンクさせたら�
 * 正しいセグメントまたはマッピング名："US and European Shoppers"
 * 誤ったセグメントまたはマッピング名："US, European 5h0pP3rs"
 
-## 一致率の考慮事項 {#match-rates-considerations}
-
-を使用する場 [!UICONTROL Twitter Tailored Audiences]合、宛先 [!UICONTROL Segment Addressable Audience] ページ [!UICONTROL Segment Match Rate] の指標と指標に値が表示されません。 この宛先の一致率と一致するオーディエンスは、アドビではなく、アドビで処理およびホストされるので、これは [!UICONTROL Twitter]通常の動作です。
-
 >[!IMPORTANT]
 >
 >既にマッピングされているセグメントの名前を変更することはできません。Audience Manager では、セグメント名を使用して統合のセグメントを正しく識別します。
+
+## Match Rates Considerations {#match-rates-considerations}
+
+When using [!UICONTROL Twitter Tailored Audiences], the [!UICONTROL Segment Addressable Audience] and [!UICONTROL Segment Match Rate] metrics from the destination page will not display any values. This is normal behavior, since audience matching along with the match rates for this destination are handled and hosted by [!UICONTROL Twitter], not Adobe.
