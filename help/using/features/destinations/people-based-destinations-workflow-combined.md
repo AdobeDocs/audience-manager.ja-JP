@@ -5,7 +5,7 @@ seo-title: ワークフロー A - すべてのオンラインアクティビテ�
 solution: Audience Manager
 title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 # ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション{#workflow-a}
 
 >[!IMPORTANT]
->この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法律上の助言は何も含まれません。 法律上の手引きについては、自分の弁護士にお問い合わせください。
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
 このページには、オフラインの [!DNL CRM] データと Audience Manager に既に存在する行動データを組み合わせて新しいオーディエンスセグメントを作成し、そのオーディエンスセグメントを[!DNL People-Based Destinations]に送信する方法に関する詳しい手順が含まれています。
 
@@ -108,7 +108,9 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 上記の例では、ファイル名は `c2c_id_999999_987654_1560431657.sync` となります。
 
 
-[サンプルファイルをここにダウンロードします](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)。
+[Download example file here.](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)
+
+ID同期ファイルを作成したら、そのファイルをバケットにアップロードする必要があ [!DNL Amazon S3] ります。 ID同期ファイルのアップロード方法について詳しくは、「Audience Managerへのバ [ッチデータの送信」を参照してください](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)。
 
 ## 手順 3 - セグメントのプロファイル結合ルールを作成する {#create-merge-rule}
 
