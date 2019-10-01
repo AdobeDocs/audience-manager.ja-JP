@@ -5,7 +5,7 @@ seo-title: プライバシーとデータ保持に関するよくある質問
 solution: Audience Manager
 title: プライバシーとデータ保持に関するよくある質問
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
 
 >[!TIP]
 >
->Visit the [Adobe Privacy Center](https://www.adobe.com/privacy.html) for more information.
+>詳しくは、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy.html)を参照してください。
 
 **Audience Manager では Cookie をどのように使用し、どのような Cookie を設定しますか？**
 
-詳しくは、[Audience Manager の Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) を参照してください。
+[Audience Manager の Cookie](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/cookies/cookies_am.html) を参照してください。
 
 **米国の Audience Manager クライアントは EU 資産のユーザーをターゲットにすることができますか？**
 
@@ -80,7 +80,7 @@ source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
   </tr> 
   <tr> 
    <td colname="col1"> <p>同期済み ID 間のマッピング </p> </td> 
-   <td colname="col2"> <p>The lifespan of the <a href="../features/administration/usage-limits.md#id-mapping-limits"> ID mappings</a> between Audience Manager cookie IDs (<a href="../reference/ids-in-aam.md">Audience Manager Unique User IDs or AAM UUIDs</a>) and 3rd party cookie IDs is limited to 120 days. The lifespan of the ID mapping resets each time the Audience Manager cookie is seen across the Audience Manager network. 関連する <a href="../reference/ids-in-aam.md">Audience Manager固有のユーザーID(AAM UUID)の有効期間、最新のIDマッピングの同期が保持されます</a>。</p></td> 
+   <td colname="col2"> <p>Audience Manager cookie ID（<a href="../reference/ids-in-aam.md">Audience Manager の一意のユーザー ID または AAM UUID</a>）とサードパーティ cookie ID 間の <a href="../features/administration/usage-limits.md#id-mapping-limits">ID マッピング</a>の有効期間は 120 日に制限されます。ID マッピングの有効期限は、Audience Manager ネットワークで Audience Manager cookie が表示されるたびにリセットされます。最新の ID マッピングは、関連付けられている<a href="../reference/ids-in-aam.md"> Audience Manager の一意のユーザー ID（UUID）</a>の有効期間保持されます。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>インバウンドデータ </p> </td> 
