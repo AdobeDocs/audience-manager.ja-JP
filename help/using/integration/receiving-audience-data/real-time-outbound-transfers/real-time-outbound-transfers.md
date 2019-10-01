@@ -6,32 +6,40 @@ solution: Audience Manager
 title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
+source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
 
 ---
 
 
 # リアルタイム送信データ転送 {#real-time-outbound-data-transfers}
 
-リアルタイムの送信データ転送プロセスでは、`POST` メソッドで渡された一連の [!DNL JSON] オブジェクトとしてユーザーデータを返します。
+The outbound real-time data transfer process delivers user data as a series of [!DNL JSON] formatted messages to a destination platform.
 
 <!-- c_outbound_json.xml -->
 
 ## 推奨事項
 
-このメソッドを使用するには、データパートナーが以下をおこなうことをお勧めします。
+この方法を使用するには、宛先プラットフォームが次の要件を満たしている必要があります。
 
-* [!DNL JSON] 形式のデータを受け入れる。
-* データを返すために `POST` 呼び出しで使用できる URL を提供する。
-* セキュリティで保護された `HTTPS` データ転送を受け入れる。[!DNL Audience Manager] は、セキュリティで保護されていない `HTTP` プロトコルでこのファイルを送信しません。
+* Audience Managerから大量のメッセージを受 [!DNL URL] 信するためには、このエンドポイントを拡大・縮小できるようにする必要があります。
+* 形式( [!DNL JSON]`Content-type: application/json`)のデータを受け入れる必要があります。
+* セキュリティで保護されたデータ転送を受け入 `HTTPS` れる必要があります。 [!DNL Audience Manager] は、安全でないプロトコルを通じてメッセージを送信 `HTTP` しません。
 
 ## 頻度
 
-このデータ転送方法は、ユーザーがセグメントの対象となるときにほぼリアルタイムでデータを送信できます。また、この方法は、24 時間ごとの頻度で、オフラインまたはオンボードのデータをまとめて送信できます。
+このデータ転送方法は、ユーザーがセグメントの対象となるときにほぼリアルタイムでデータを送信できます。リアルタイムメッセージは、ユーザーがオンラインで、Audience Manager edgeネットワークにアクティブに表示されている間のみ配信されます。 また、この方法では、オフラインデータやオンボードデータのバッチを24時間ごとに頻繁に送信することもできます。
+
+## バッチ転送
+
+リアルタイム転送とバッチ転送の両方が同じエンドポイントに送信され、同じメッセージ形式を使用します。 バッチ転送が有効な場合、宛先プラットフォームは、バッチメッセージの配信中にメッセージ量にスパイクを確認します。 リアルタイムメッセージを通じて送信されるセグメントの資格の多くは、バッチメッセージで繰り返されます。 バッチ転送には、最後のバッチの配信後に変更されたセグメント資格（または非資格）のみが含まれます。
+
+## レート制限
+
+配信されるメッセージのスループットにレート制限は設定されません。 レート制限を設定すると、データが失われる可能性があります。
 
 ## 必要な応答
 
-デフォルトでは、受信サーバーは、正常な受信を示すために `200 OK` コードを返す必要があります。他のコードは失敗と解釈されます。この応答は、3000 ミリ秒以内に返されることを想定しています。失敗の場合、[!DNL Audience Manager] は、1 回のみ再試行します。
+デフォルトでは、受信サーバーは、正常な受信を示すために `200 OK` コードを返す必要があります。他のコードは失敗と解釈されます。この応答は、3000 ミリ秒以内に返されることを想定しています。In response to a failure, [!DNL Audience Manager] will make one retry attempt only.
 
 ## パラメーター
 
@@ -54,21 +62,22 @@ source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
   <tr valign="top"> 
    <td colname="col1"><code><i>User_DPID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>ファイルに Android または iOS の ID が含まれているかどうかを示す ID。以下の ID 値を使用します。 </p> 
+   <td colname="col3"> <p>User.DataPartner_UUIDプロパティ内の、メッセージに含まれるデバイスIDのタイプを示すID。 </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
      <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID（GAID）：<code>20914</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID（IDFA）：<code>20915</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID（IDFA）：<code>20915</code> </li>
+     <li>Web/Cookie ID:目的地のプラットフォームによって異なる</li>
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>データ送信先のシステムで使用されるクライアント ID。 </p> </td> 
+   <td colname="col3"> <p>宛先プラットフォームのターゲットアカウントを表します。 このIDは、宛先プラットフォームから取得されます。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>宛先パートナーによって割り当てられた ID。 </p> </td> 
+   <td colname="col3"> <p>Audience Managerの「destination」オブジェクトのID。 このIDはAudience Managerから取得されます。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -78,37 +87,37 @@ source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
    <td colname="col2"> <p>配列 </p> </td> 
-   <td colname="col3"> <p>ユーザーオブジェクトの配列。 </p> </td> 
+   <td colname="col3"> <p>ユーザーオブジェクトの配列。デフォルトでは、各メッセージに1 ～ 10人のユーザーが含まれ、最適なメッセージサイズを維持します。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>AAM_UUID</i></code> </td> 
+   <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
    <td colname="col3"> <p><span class="keyword"> Audience Manager</span> UUID。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>DataPartner_UUID</i></code> </td> 
+   <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>データパートナー UUID。データパートナーが UUID を持っていない場合は、空のままにします。 </p> </td> 
+   <td colname="col3"> <p>宛先プラットフォームのUUIDまたはグローバルデバイスID。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>AAM_Regions</i></code> </td> 
+   <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> 配列 </td> 
    <td colname="col3"> このデバイスが確認された<span class="keyword"> Audience Manager</span> 地域 ID。例えば、デバイスがパリ（ヨーロッパ）であるアクティビティをおこなった場合、地域 ID は <code>6</code> になります。<a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 地域 ID、場所、ホスト名</a>を参照してください。 </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
    <td colname="col2"> <p>配列 </p> </td> 
-   <td colname="col3"> <p>セグメントオブジェクトの配列。 </p> </td> 
+   <td colname="col3"> <p>セグメントオブジェクトの配列。リアルタイムメッセージの場合、配列にはユーザーが属するすべてのセグメントが含まれます。 バッチ・メッセージの場合、配列には最後のバッチ以降のセグメント変更のみが含まれます。</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>セグメント ID 宛先マッピング。 </p> </td> 
+   <td colname="col3"> <p>The identifier for the segment. In most cases, this is the segment ID generated by Audience Manager (an integer). In some cases, if the destination platform allows, customers can define the segment identifier in the Audience Manager UI (open text field), which would then reflect in this property. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Status</i></code> </td> 
+   <td colname="col1"><code><i>Segment.Status</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>セグメント内のユーザーのステータスを定義します。指定可能な値は次のとおりです。 </p> 
+   <td colname="col3"> <p>セグメント内のユーザーのステータスを定義します。次の値を受け入れます。 </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
      <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code>1</code>：アクティブ（デフォルト） </li> 
      <li id="li_10952C8DF7AF4593805FA29028257E38"><code>0</code>：非アクティブ、オプトアウト済みまたは非セグメント化。 </li> 
@@ -116,13 +125,14 @@ source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">セグメントから削除される（セグメントルールに基づいて）。 </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">セグメントから削除される（セグメントの<a href="../../../features/traits/segment-ttl-explained.md">有効期間</a>に基づいて）。 </li> 
-     <li id="li_F48D1052BA2B45108225641292CC748D">過去 120 日で確認されなかった場合、非アクティブ状態に移動されます。 </li> 
+     <li id="li_F48D1052BA2B45108225641292CC748D">過去 120 日で確認されなかった場合、非アクティブ状態に移動されます。 </li>
+     <li>プライバシー変更のリクエスト([!DNL GDPR])</li>
     </ul> <p><span class="keyword">Audience Manager</span> ID と同期されたすべてのパートナー ID は、ユーザーが非セグメント化されると、<code>"Status":"0"</code> フラグを受け取ります。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>DateTime</i></code> </td> 
+   <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
    <td colname="col2"> <p>DateTime </p> </td> 
-   <td colname="col3"> <p>最新のセグメントの選定時間。</p> </td> 
+   <td colname="col3"> <p>The time when the user-segment qualification was most recently verified.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,9 +141,9 @@ source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
 
 秘密鍵で [HTTP 要求に署名](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)するか、[!DNL Audience Manager] で [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) プロトコルを使用して認証することで、リアルタイム送信データ転送プロセスを保護できます。
 
-## コードサンプル
+## リクエスト
 
-リアルタイムデータ応答は次のようになります。
+リアルタイムリクエストは次のようになります。
 
 ```js
 {
@@ -145,6 +155,7 @@ source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
 "Users": [{  
    "AAM_UUID": "19393572368547369350319949416899715727",
    "DataPartner_UUID": "4250948725049857",
+   "AAM_Regions": ["9"],
    "Segments": [{
             "Segment_ID": "14356",
             "Status": "1",
@@ -160,6 +171,7 @@ source-git-commit: 425315a0a6aa739a90e34deb270ac21df9b88d31
    {
    "AAM_UUID": "0578240750487542456854736923319946899715232",
    "DataPartner_UUID": "848457757347734",
+   "AAM_Regions": ["9"],
    "Segments": [{
             "Segment_ID": "10329",
             "Status": "1",
