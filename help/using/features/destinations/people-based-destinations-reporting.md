@@ -4,7 +4,7 @@ seo-description: 'People-Based Destinations は、共有可能なオーディエ
 seo-title: Shareable Audiences
 solution: Audience Manager
 title: Shareable Audiences
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 # Shareable Audiences {#shareable-audiences}
 
 >[!IMPORTANT]
->This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
 [!DNL People-Based Destinations] は、Audience Manager に、[!DNL Shareable Audiences] の概念を導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールの数について理解するのに役立ちます。
 
