@@ -5,7 +5,7 @@ seo-title: ワークフロー B - オフラインのみのデータに基づく�
 solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 # ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション{#workflow-b}
 
 >[!IMPORTANT]
->この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法律上の助言は何も含まれません。 法律上の手引きについては、自分の弁護士にお問い合わせください。
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
 このページでは、オフラインのみの顧客データからオーディエンスセグメントを構築し、それらを People-Based Destinations に送信する方法について、順を追って説明します。
 
@@ -108,7 +108,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
  
 
-[ID 同期ファイル](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) には次の内容が含まれています。
+In our example, your [ID synchronization file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) would have the following contents:
 
 ```
 68079982765673198504052656074456196039<TAB>55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149
@@ -127,7 +127,9 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 上記の例では、ファイル名は `c2c_id_999999_987654_1560431657.sync` となります。
 
 
-[サンプルファイルをここにダウンロードします](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)。
+[Download example file here.](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)
+
+Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3]To learn how to upload ID synchronization files, see Send Batch Data to Audience Manager.[](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
 
 ## 手順 4 - セグメントのプロファイル結合ルールを作成する {#create-profile-merge-rule}
 
