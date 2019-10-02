@@ -127,9 +127,9 @@ In our example, your [ID synchronization file](../../integration/sending-audienc
 上記の例では、ファイル名は `c2c_id_999999_987654_1560431657.sync` となります。
 
 
-[Download example file here.](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)
+[サンプルファイルをここにダウンロードします](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)。
 
-Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3]To learn how to upload ID synchronization files, see Send Batch Data to Audience Manager.[](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
+ID同期ファイルを作成したら、そのファイルをバケットにアップロードする必要があ [!DNL Amazon S3] ります。 ID同期ファイルのアップロード方法について詳しくは、「Audience Managerへのバ [ッチデータの送信」を参照してください](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)。
 
 ## 手順 4 - セグメントのプロファイル結合ルールを作成する {#create-profile-merge-rule}
 
