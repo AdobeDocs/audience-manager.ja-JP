@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データのセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
-source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
+source-git-commit: 34884e3212d50237c73fdc6aa163d90c29a642f5
 
 ---
 
@@ -82,12 +82,12 @@ PGP 暗号化をデータファイルに追加するには、[受信データタ
 
 [!DNL HTTP Strict-Transport-Security (HSTS)] は、cookieのハイジャックやプロトコルダウングレード攻撃から保護する、業界全体にわたるWebセキュリティメカニズムです。
 
-このポリシーは、特定のドメインに対してセキュリティで保護された呼び出しが行わ [!DNL HTTPS] れた後、そのドメインに対してそれ以降のセキュリティで保護されていない呼び出し([!DNL HTTP])を許可しないようにWebブラウザーに指示します。 これにより、攻撃者がコールをセキュリティで保護されていないコールにダウングレードしようとする、中 [!DNL HTTPS] 間者攻撃から保護 [!DNL HTTP] されます。」
+The policy instructs the web browser that once a secure [!DNL HTTPS] call was made to a given domain, no subsequent unsecure calls ([!DNL HTTP]) should be allowed to that domain. This protects against man-in-the-middle attacks, where an attacker might try to downgrade [!DNL HTTPS] calls to unsecured [!DNL HTTP] calls.”
 
 This policy improves data security between clients and Adobe [Edge](../../reference/system-components/components-edge.md) servers.
 
 ### 例 {#hsts-example}
 
-`http://bank.demdex.com` へのアクセスを試みると、ブラウザーが自動的に [!DNL HTTPS] ドメインを要求しない場合に備え、[!DNL HSTS] が自動的にリクエストを `https://bank.demdex.com` にアップグレードします。
+Let's say the `yourcompany.demdex.com` domain sends trafic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] upgrades the calls to use [!DNL HTTPS] instead, and all subsequent [!DNL DCS] calls coming from `yourcompany.demdex.com` will use [!DNL HTTPS] instead of [!DNL HTTP].
 
-HSTSの詳細については [、「HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) 」を参照してください。
+See [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) for more information about HSTS.
