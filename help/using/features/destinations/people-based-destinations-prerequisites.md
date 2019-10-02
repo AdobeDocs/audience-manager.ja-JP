@@ -4,8 +4,8 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-translation-type: ht
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+translation-type: tm+mt
+source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 [!DNL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL Facebook] に送信する前に、次の要件を満たしていることを確認してください。
 
 1. お使いの [!DNL Facebook] ユーザーアカウントで、使用するプランの広告アカウントに対する&#x200B;**キャンペーンの管理**&#x200B;権限が有効になっている必要があります。
-1. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。詳しくは、「[ビジネスマネージャにパートナーを追加する](https://www.facebook.com/business/help/708679622611131)」を参照してください。
+1. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/708679622611131) for details.
    >[!IMPORTANT]
    > Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!DNL People-Based Destinations] 統合に必要です。
 1. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
@@ -59,10 +59,13 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 電子メールアドレスをハッシュ化する場合は、以下の要件に従ってください。
 
 * 電子メール文字列から先頭および末尾の空白文字をすべてトリミングします。例：`johndoe@example.com`（`<space>johndoe@example.com<space>` ではない）
-* ハッシュ化された文字列がすべて小文字であることを確認します。例：`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`（`55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149` ではない）
+* 電子メール文字列をハッシュする場合は、小文字の文字列を必ずハッシュ化します。
+   * 例： `example@email.com`違う `EXAMPLE@EMAIL.COM`。
+* ハッシュ化された文字列がすべて小文字であることを確認します。
+   * 例： `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`違う `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`。
 * 文字列にソルトを使用しないでください。
 
-Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[setCustomerIDs の SHA256 ハッシュ化サポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)」を参照してください。
+Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECIDを使用して顧客IDをハッシュ化する方法について詳しくは、 [SHA256 「setCustomerIDsのハッシュのサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 」を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
