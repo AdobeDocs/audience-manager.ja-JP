@@ -6,36 +6,36 @@ solution: Audience Manager
 title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: b76e905ec890dbe8270177d142dddb351438b039
+source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
 
 ---
 
 
 # リアルタイム送信データ転送 {#real-time-outbound-data-transfers}
 
-The outbound real-time data transfer process delivers user data as a series of [!DNL JSON] formatted messages to a destination platform.
+送信リアルタイムデータ転送プロセスは、ユーザーデータを一連のフォーマット済みメッセージとし [!DNL JSON] て宛先プラットフォームに配信します。
 
 <!-- c_outbound_json.xml -->
 
 ## 推奨事項
 
-To use this method, the destination platform must meet the following requirements:
+この方法を使用するには、宛先プラットフォームが次の要件を満たしている必要があります。
 
-* It must provide an endpoint  that can scale to receive a high volume of messages from Audience Manager;[!DNL URL]
-* It must accept data in  format ();[!DNL JSON]`Content-type: application/json`
-* It must accept secure  data transfers. `HTTPS`[!DNL Audience Manager] will not send messages through the unsecure  protocol.`HTTP`
+* Audience Managerから大量のメッセージを受 [!DNL URL] 信するためには、このエンドポイントを拡大・縮小できるようにする必要があります。
+* 形式( [!DNL JSON]`Content-type: application/json`)のデータを受け入れる必要があります。
+* セキュリティで保護されたデータ転送を受け入 `HTTPS` れる必要があります。 [!DNL Audience Manager] は、安全でないプロトコルを通じてメッセージを送信 `HTTP` しません。
 
 ## 頻度
 
-このデータ転送方法は、ユーザーがセグメントの対象となるときにほぼリアルタイムでデータを送信できます。Real-time messages are only delivered while the user is online and actively visible to the Audience Manager Edge network. Optionally, this method can also send batches of offline or onboarded data as frequently as every 24-hours.
+このデータ転送方法は、ユーザーがセグメントの対象となるときにほぼリアルタイムでデータを送信できます。リアルタイムメッセージは、ユーザーがオンラインで、Audience Manager edgeネットワークにアクティブに表示されている間のみ配信されます。 また、この方法では、オフラインデータやオンボードデータのバッチを24時間ごとに頻繁に送信することもできます。
 
 ## Batch Transfers
 
-リアルタイム転送とバッチ転送の両方が同じエンドポイントに送信され、同じメッセージ形式を使用します。 バッチ転送が有効な場合、宛先プラットフォームは、バッチメッセージの配信中にメッセージ量にスパイクを確認します。 リアルタイムメッセージを通じて送信されるセグメントの資格の多くは、バッチメッセージで繰り返されます。 Batch transfers will include only the segment qualifications (or un-qualifications) that have changed since the last batch was delivered.
+Both real-time and batch transfers are sent to the same endpoint and use the same message format. When batch transfers are enabled, the destination platform will see a spike in message volume while the batch messages are delivered. Many of the segment qualifications sent through real-time messages will be repeated in the batch messages. Batch transfers will include only the segment qualifications (or un-qualifications) that have changed since the last batch was delivered.
 
-## レート制限
+## Rate Limits
 
-配信されるメッセージのスループットにレート制限は設定されません。 レート制限を設定すると、データが失われる可能性があります。
+There are no rate limits set on the throughput of delievered messages. Setting rate limits could lead to data loss.
 
 ## 必要な応答
 
@@ -43,7 +43,7 @@ To use this method, the destination platform must meet the following requirement
 
 ## パラメーター
 
-返された [!DNL JSON] データファイルの要素の定義を次の表に示します。
+The following table defines the elements in the [!DNL JSON] data file that you send to the destination.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -66,18 +66,18 @@ To use this method, the destination platform must meet the following requirement
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
      <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID（GAID）：<code>20914</code> </li> 
      <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID（IDFA）：<code>20915</code> </li>
-     <li>Web/Cookie ID:目的地のプラットフォームによって異なる</li>
+     <li>Web/Cookie IDs: varies by destination platform</li>
     </ul> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>宛先プラットフォームのターゲットアカウントを表します。 このIDは、宛先プラットフォームから取得されます。</p> </td> 
+   <td colname="col3"> <p>Represents the target account in the destination platform. このIDは、宛先プラットフォームから取得されます。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>Audience Managerの「destination」オブジェクトのID。 このIDはAudience Managerから取得されます。</p> </td> 
+   <td colname="col3"> <p>The ID of the Audience Manager “destination” object. This ID originates from Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -87,7 +87,7 @@ To use this method, the destination platform must meet the following requirement
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
    <td colname="col2"> <p>配列 </p> </td> 
-   <td colname="col3"> <p>ユーザーオブジェクトの配列。デフォルトでは、各メッセージに1 ～ 10人のユーザーが含まれ、最適なメッセージサイズを維持します。 </p> </td> 
+   <td colname="col3"> <p>ユーザーオブジェクトの配列。By default, each message will contain between 1 and 10 users, to keep the message size optimal. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
