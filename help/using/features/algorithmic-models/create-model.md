@@ -8,7 +8,7 @@ title: アルゴリズムモデルの作成
 topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -103,9 +103,9 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
  </tbody>
 </table>
 
-ファーストパーティのルックアライクモデルを作成し、コンバーターに似た独自の訪問者をより多く見つける方法については、以下のビデオをご覧ください。
+Watch the video below to learn how to create a first party look-alike model, so that you can find more of your own visitors who look like your converters.
 
-[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=jpn)
 
 >[!MORE_LIKE_THIS]
 >
