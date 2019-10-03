@@ -5,7 +5,7 @@ seo-title: アルゴリズムモデル  特性の除外
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -87,7 +87,7 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 以下のビデオでは、特定の特徴をAから除外する方法と理由について説明しま [!UICONTROL Look-Alike Model]す。
 
-[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=jpn)
 
 ## 関連リンク
 
