@@ -5,7 +5,7 @@ seo-title: 検索条件の保存
 title: 検索条件の保存
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
-source-git-commit: 3d8f16725053ae29bdba8e4fcd144ff0b9b67880
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -29,3 +29,7 @@ source-git-commit: 3d8f16725053ae29bdba8e4fcd144ff0b9b67880
 1. 「**[!UICONTROL Save]**」をクリックします。保存した検索条件が「[!UICONTROL Saved Search]」セクションに表示され、必要なときに使用できるようになります。
 
 ![保存済みの検索](assets/saved-search.png)
+
+信号検索を保存する方法については、以下のビデオをご覧ください。
+
+[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=jpn)
