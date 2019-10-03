@@ -4,8 +4,8 @@ seo-description: 'ユーザーベースの宛先を使用して、ファース�
 seo-title: People-Based Destinations の概要とユースケース
 solution: Audience Manager
 title: 概要とユースケース
-translation-type: ht
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+translation-type: tm+mt
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -57,6 +57,10 @@ Audience Manager から、ユーザーベースのチャネルでオーディエ
 **Audience Manager のデータガバナンスおよびプライバシーコントロールを活用して、顧客データを安全に処理できます。**
 
 [!DNL People-Based Destinations] では、不可逆的にハッシュ化された識別子のみを使用する必要があります。これにより、顧客データを各宛先プラットフォームに手動で関連付けることに関連するリスクを低減します。
+
+以下のビデオをご覧ください。を使用する際のデータフローの概要を確認してくださ [!UICONTROL People-Based Destinations]い。
+
+[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=jpn)
 
 ## ユースケース {#use-cases}
 
