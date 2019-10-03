@@ -5,7 +5,7 @@ seo-title: 概要、メリットおよび使用例
 title: 概要、メリットおよび使用例
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -46,4 +46,4 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 Audience Managerの最も強力な機能の1つは、オフラインデータをオンラインデータと結び付ける機能です。 以下のビデオでは、を使用して、このオンボードデ [!UICONTROL Data Explorer] ータを活用するために必要なすべての特性を作成したことを検証する方法を説明します。
 
-[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=jpn)
