@@ -5,7 +5,7 @@ seo-title: ワークフロー A - すべてのオンラインアクティビテ�
 solution: Audience Manager
 title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
 
 1. [!UICONTROL Audience Data]／[!UICONTROL Data Sources] に移動します。
 1. [DPUUID](../../reference/ids-in-aam.md) を含むデータソースを見つけてクリックします。
-1. **[!UICONTROL ID Type]** ドロップダウンメニューで、「**[!UICONTROL Cross Device]**」を選択します。
+1. **[!UICONTROL ID Type]** ドロップダウンメニューで、**[!UICONTROL Cross Device]**&#x200B;を選択します。
 1. オプション [!UICONTROL Cannot be tied to personally identifiable information] が選択解除されていることを確認します。
 1. **[!UICONTROL Data Source Settings]** セクションで、**[!UICONTROL Inbound]** と **[!UICONTROL Outbound]** のオプションを両方選択し、**[!UICONTROL Share associated cross-device IDs in people-based destinations]** オプションを有効にします。
 1. ドロップダウンメニューを使用して、このデータソースの **[!UICONTROL Emails(SHA256, lowercased)]** ラベルを選択します。
@@ -46,9 +46,9 @@ source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
 
 この場合、ハッシュ化された電子メールアドレスを保存する新しいクロスデバイスデータソースを作成する必要があります。手順は次のとおりです。
 
-1. Audience Managerアカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** に移動して、「**[!UICONTROL Add New]**」をクリックします。
+1. Audience Managerアカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** に移動して、**[!UICONTROL Add New]**&#x200B;をクリックします。
 1. 新しいデータソースに、[!UICONTROL Name] と [!UICONTROL Description] を入力します。
-1. **[!UICONTROL ID Type]** ドロップダウンメニューで、「**[!UICONTROL Cross Device]**」を選択します。
+1. **[!UICONTROL ID Type]** ドロップダウンメニューで、**[!UICONTROL Cross Device]**&#x200B;を選択します。
 1. **[!UICONTROL Data Source Settings]** セクションで、**[!UICONTROL Inbound]** と **[!UICONTROL Outbound]** のオプションを両方選択し、**[!UICONTROL Share associated cross-device IDs in people-based destinations]** オプションを有効にします。
 1. ドロップダウンメニューを使用して、このデータソースの **[!UICONTROL Emails(SHA256, lowercased)]** ラベルを選択します。
    >[!IMPORTANT]
@@ -57,6 +57,10 @@ source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. データソースの設定を保存します。
+
+のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧くださ [!UICONTROL People-Based Destinations]い。
+
+[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
 
 >[!NOTE]
 >
@@ -110,7 +114,7 @@ source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
 
 [Download example file here.](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)
 
-ID同期ファイルを作成したら、そのファイルをバケットにアップロードする必要があ [!DNL Amazon S3] ります。 ID同期ファイルのアップロード方法について詳しくは、「Audience Managerへのバ [ッチデータの送信」を参照してください](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)。
+Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3]To learn how to upload ID synchronization files, see Send Batch Data to Audience Manager.[](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
 
 ## 手順 3 - セグメントのプロファイル結合ルールを作成する {#create-merge-rule}
 
@@ -121,7 +125,7 @@ ID同期ファイルを作成したら、そのファイルをバケットにア
 > [!UICONTROL Current Authenticated Profiles] または [!UICONTROL Last Authenticated Profiles] オプションを使用して既にルールを定義している場合は、スキップして「[手順 4 - オーディエンスセグメントの作成](people-based-destinations-workflow-combined.md#create-audience-segments)」に進むことができます。
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Audience Data]**／**[!UICONTROL Profile Merge Rules]** に移動します。
-1. 「**[!UICONTROL Add New Rule]**」をクリックします。
+1. **[!UICONTROL Add New Rule]**&#x200B;をクリックします。
 1. プロファイル結合ルール **[!UICONTROL Name]** および **[!UICONTROL Description]** を入力します。
 1. **[!UICONTROL Profile Merge Rule Setup]** セクションで、**[!UICONTROL Current Authenticated Profiles]** または **[!UICONTROL Last Authenticated Profiles]** オプションを選択します。
 1. **[!UICONTROL Cross-Device Profile Options]** リストで、セグメントを実行するデータソースを選択します。これらは、既存の [DPUUID](../../reference/ids-in-aam.md) を含むデータソースです。
@@ -134,11 +138,11 @@ ID同期ファイルを作成したら、そのファイルをバケットにア
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
-1. 「**[!UICONTROL Add Account]**」をクリックします。
+1. **[!UICONTROL Add Account]**&#x200B;をクリックします。
 1. **[!UICONTROL People-Based Platform]** ドロップダウンメニューを使用して、統合を設定するプラットフォームを選択します。
    ![ユーザーベースのプラットフォーム](assets/pbd-add.png)
-1. 「**[!UICONTROL Confirm]**」をクリックすると、選択したプラットフォームの認証ページにリダイレクトされます。
-1. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、「**[!UICONTROL Confirm]**」をクリックします。
+1. **[!UICONTROL Confirm]**&#x200B;をクリックすると、選択したプラットフォームの認証ページにリダイレクトされます。
+1. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 1. Audience Manager のページ上部に通知が表示され、アカウントが正常に追加されたかどうかがわかります。また、連絡先電子メールアドレスを追加して、ソーシャルプラットフォーム認証の有効期限が近づいたら通知を受け取ることもできます。
 
 >[!IMPORTANT]
@@ -147,14 +151,14 @@ ID同期ファイルを作成したら、そのファイルをバケットにア
 
 ## 手順 6 - People-Based Destinations を作成する {#create-destination}
 
-1. Audience Manager アカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Destinations]** に移動してから、「**[!UICONTROL Create Destination]**」をクリックします。
+1. Audience Manager アカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Destinations]** に移動してから、**[!UICONTROL Create Destination]**&#x200B;をクリックします。
 1. **[!UICONTROL Basic Information]** セクションで、新しいデータソースに **[!UICONTROL Name]** と **[!UICONTROL Description]** を入力し、次の設定を使用します。
    * **[!UICONTROL Category]**：統合プラットフォーム
    * **[!UICONTROL Type]**：ユーザーベース
    * **[!UICONTROL Platform]**：オーディエンスセグメントを送信するユーザーベースのプラットフォームを選択します。
    * **[!UICONTROL Account]**：選択したプラットフォームに関連付けられている広告主アカウントを選択します。
       ![create-destination](assets/pbd-create-destination.png)
-1. 「**[!UICONTROL Next]**」をクリックします。
+1. **[!UICONTROL Next]**&#x200B;をクリックします。
 1. この宛先に設定する **[!UICONTROL Data Export Labels]** を選択します。
 1. **[!UICONTROL Configuration]** セクションで、ハッシュ化されたデータソースを含むデータソースを選択します。
 1. **[!UICONTROL Segment Mappings]** セクションで、この宛先に送信するセグメントを選択します。これは、「[手順 4 - オーディエンスセグメントを作成する](people-based-destinations-workflow-combined.md#create-audience-segments)」で作成したセグメントです。
