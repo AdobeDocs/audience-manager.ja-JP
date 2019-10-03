@@ -4,8 +4,8 @@ seo-description: 'このページでは、オフラインの CRM データと、
 seo-title: ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
-translation-type: ht
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+translation-type: tm+mt
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -47,6 +47,10 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
    >[!NOTE]
    >
    > People-Based Destinations 用にオフラインデータを Audience Manager に取り込む方法については、「[データのオンボーディング](people-based-destinations-prerequisites.md#data-onboarding)」を参照してください。
+
+のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧くださ [!UICONTROL People-Based Destinations]い。
+
+[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
 
 ## 手順 2 - 宣言された ID を使用して DPUUID をハッシュ化された電子メールアドレスと照合する場合と、リアルタイムの HTTP 呼び出しと照合する場合{#match-email-addresses}
 
