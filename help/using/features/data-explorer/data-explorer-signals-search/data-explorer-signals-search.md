@@ -4,7 +4,7 @@ seo-description: 特定の期間に受信した使用済みおよび未使用の
 seo-title: シグナル検索
 title: シグナル検索
 translation-type: tm+mt
-source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -19,5 +19,4 @@ source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
 * [検索結果のフィルタリング](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [検索条件の保存](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
-
-
+[!VIDEO](https://video.tv.adobe.com/v/25148/?captions=jpn)
