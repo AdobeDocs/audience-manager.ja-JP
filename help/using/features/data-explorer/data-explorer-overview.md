@@ -5,7 +5,7 @@ seo-title: 概要、メリットおよび使用例
 title: 概要、メリットおよび使用例
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -41,3 +41,9 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 ### 例 2
 
 ある旅行業者は、予約 Web サイトに新しい旅先を追加してから過去のオーディエンスに宣伝しようとしたのですが、こうしたオーディエンス向けに特性を作成していませんでした。シグナル検索を使用することで、この新しい旅先に関係する未使用シグナルを特定して、新しい特性にこれらのシグナルを含め、過去の適合を[バックフィル](../../features/data-explorer/data-explorer-trait-backfill.md)することができました。その後、新しい特性でセグメントを新規作成し、専用のキャンペーンによりこうしたオーディエンスを即座にターゲットに含めました。
+
+### Data Explorerを使用したオンボードデータの特性作成の検証
+
+Audience Managerの最も強力な機能の1つは、オフラインデータをオンラインデータと結び付ける機能です。 以下のビデオでは、を使用して、このオンボードデ [!UICONTROL Data Explorer] ータを活用するために必要なすべての特性を作成したことを検証する方法を説明します。
+
+[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=jpn)
