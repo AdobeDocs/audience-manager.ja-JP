@@ -5,7 +5,7 @@ seo-title: シグナルダッシュボード
 title: シグナルダッシュボード
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -37,4 +37,4 @@ Audience Manager で過去 7 日以内に受信した未使用シグナルの概
 保存済みの検索結果では、条件に該当する上位 50 件の結果が表示されます。
 
 の使用方法については、以下のビデオをご覧くださ [!UICONTROL Signals Dashboard]い。
-[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=jpn)
