@@ -5,7 +5,7 @@ seo-title: Advanced Search for Adobe Analytics
 title: Advanced Search for Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -25,3 +25,7 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
    ![](assets/signals-search-analytics.png)
 1. これで、検索結果の **[!UICONTROL Key or Key Name]** 列に、入力したキーと値のペア（キーと値のフィールドを空白にした場合は、選択したレポートスイート内にあるすべてのシグナルの）のわかりやすい名前が表示されるようになります。
+
+以下のビデオでは、使用済みおよび未使 [!UICONTROL Data Explorer] 用のシグナルの検索、Analytics特徴の作成、データの理解など、Adobe Analyticsデータを検出して使用する方法を示します。
+
+[!VIDEO](https://video.tv.adobe.com/v/25150?captions=jpn)
