@@ -5,7 +5,7 @@ seo-title: ワークフロー B - オフラインのみのデータに基づく�
 solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -87,7 +87,7 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧くださ [!UICONTROL People-Based Destinations]い。
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
 
 ## 手順 3 -ファイルベースの ID 同期経由で、DPUUID と ハッシュ化した電子メールアドレスを照合する {#match-ids-emails}
 
