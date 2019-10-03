@@ -5,7 +5,7 @@ seo-title: 検索条件の保存
 title: 検索条件の保存
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -30,6 +30,6 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ![保存済みの検索](assets/saved-search.png)
 
-信号検索を保存する方法については、以下のビデオをご覧ください。
+Watch the video below to learn how to save signal searches.
 
-[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=jpn)
