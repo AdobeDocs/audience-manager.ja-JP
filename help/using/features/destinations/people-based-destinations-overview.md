@@ -5,7 +5,7 @@ seo-title: People-Based Destinations の概要とユースケース
 solution: Audience Manager
 title: 概要とユースケース
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -60,7 +60,7 @@ Audience Manager から、ユーザーベースのチャネルでオーディエ
 
 以下のビデオをご覧ください。を使用する際のデータフローの概要を確認してくださ [!UICONTROL People-Based Destinations]い。
 
-[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=jpn)
 
 ## ユースケース {#use-cases}
 
