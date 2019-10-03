@@ -5,7 +5,7 @@ seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -59,15 +59,15 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 電子メールアドレスをハッシュ化する場合は、以下の要件に従ってください。
 
 * 電子メール文字列から先頭および末尾の空白文字をすべてトリミングします。例：`johndoe@example.com`（`<space>johndoe@example.com<space>` ではない）
-* When hashing the email strings, make sure to hash the lowercase string;
-   * Example: `example@email.com`, not `EXAMPLE@EMAIL.COM`;
-* Make sure the hashed string is all lowercase
-   * Example: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, not `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
+* 電子メール文字列をハッシュする場合は、小文字の文字列を必ずハッシュ化します。
+   * 例： , not ;`example@email.com``EXAMPLE@EMAIL.COM`
+* ハッシュ化された文字列がすべて小文字であることを確認します。
+   * 例： , not ;`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149``55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`
 * 文字列にソルトを使用しないでください。
 
 Watch the video below to understand the hashing requirements of [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
 
 Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。See SHA256 Hashing Support for setCustomerIDs for detailed information on how to use ECID to hash customer IDs.[](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html)
 
