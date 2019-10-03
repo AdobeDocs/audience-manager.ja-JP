@@ -8,7 +8,7 @@ title: アルゴリズムモデルの作成
 topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -102,6 +102,10 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
  </tbody>
 </table>
+
+ファーストパーティのルックアライクモデルを作成し、コンバーターに似た独自の訪問者をより多く見つける方法については、以下のビデオをご覧ください。
+
+[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=jpn)
 
 >[!MORE_LIKE_THIS]
 >
