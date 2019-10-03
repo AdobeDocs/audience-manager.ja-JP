@@ -5,7 +5,7 @@ seo-title: ワークフロー A - すべてのオンラインアクティビテ�
 solution: Audience Manager
 title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧くださ [!UICONTROL People-Based Destinations]い。
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 [Download example file here.](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)
 
-Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3]To learn how to upload ID synchronization files, see Send Batch Data to Audience Manager.[](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
+Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3]ID同期ファイルのアップロード方法について詳しくは、「Audience Managerへのバ [ッチデータの送信」を参照してください](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)。
 
 ## 手順 3 - セグメントのプロファイル結合ルールを作成する {#create-merge-rule}
 
