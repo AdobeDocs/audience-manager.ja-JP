@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データのプライバシー
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -89,7 +89,7 @@ The [!DNL IP] address of a visitor to a customer’s website is transmitted to a
 
 以下のビデオで、アドレスの不明化がAudience Managerでどのよ [!DNL IP] うに機能するかを確認してください。
 
-[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=jpn)
 
 **地理的分類：**[!DNL IP] アドレスの難読化を有効にした場合、その アドレスの残りのオクテットは引き続き、Audience Manager の地域特性およびレポートに使用できます。[!DNL IP]If you do not enable [!DNL IP] address obfuscation, Audience Manager uses the full [!DNL IP] address. You can use the Geographic Segmentation feature that allows you to identify an [!DNL IP] location by geographic area in either case, but with some slight loss of precision when [!DNL IP] obfuscation is being used. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. 地域レベルおよび国レベルの情報の取得に関しては、それほど大きな影響はありません。地理的セグメンテーションデータの精度は市区町村レベルまたは郵便番号レベルにとどまり、個人レベルにまでは及びません。[地域に基づくターゲティング](/help/using/features/traits/trait-geotarget-keys.md)と、地理的変数を使用した特性の設定方法についてお読みください。
 
