@@ -3,10 +3,11 @@ description: このドキュメントでは、Audience Manager の一般デー�
 seo-description: このドキュメントでは、Audience Manager の一般データ保護規則（GDPR）に関する細かな規定を扱っており、GDPR 要求を Audience Manager に送信する方法も示しています。
 seo-title: Audience Manager の GDPR 対応
 solution: Audience Manager
+keywords: GDPR UI, GDPR API
 title: Audience Manager の GDPR 対応
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 98914987331ce31bc8d3e67647d5b8273b287d4c
+source-git-commit: 5661bcef9816b6646ee63ebc6c19b730c1ccadc9
 
 ---
 
@@ -27,7 +28,7 @@ Audience Manager の詳細を読む前に、次のリンクから、欧州にお
 
 ## GDPR 要求のタイプと GDPR 要求の方法 {#types-of-gdpr-requests}
 
-As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **[GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** or by calling the **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)**. **[Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**&#x200B;セクションの説明に沿って、要求時に Audience Manager 識別子（ID）と対応する名前空間 ID（データソース ID）を送信できます。ご質問がある場合は、カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。
+As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) and [documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)) or by calling the **Privacy Service API** ([documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and [API reference here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)). **[Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**&#x200B;セクションの説明に沿って、要求時に Audience Manager 識別子（ID）と対応する名前空間 ID（データソース ID）を送信できます。ご質問がある場合は、カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。
 
 ## データへのアクセス {#access-data}
 
@@ -35,7 +36,7 @@ As an Audience Manager customer, you can submit individual GDPR requests to acce
 
 **リクエスト**
 
-You can log data access requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** or by calling the **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** (see `access` action). いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。See what a well-formed JSON looks like in the **[Experience Cloud GDPR documentation](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** (specifically, search in page for "POST request format"). または、**[JSON のサンプルをダウンロード](assets/access_request.json)**&#x200B;することもできます。
+You can log data access requests through the Privacy Service UI (UI link here and documentation here) or by calling the Privacy Service API (documentation here and API reference here). ****[](https://gdprui.cloud.adobe.io/)[](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)****[](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。To see what a well-formed JSON looks like, you can **[download a sample JSON](assets/access_request.json)**.
 
 **応答**
 
@@ -307,7 +308,7 @@ Audience Manager からの応答でエラーが発生した場合、それらは
 
 **リクエスト**
 
-You can log data deletion requests through the **[GDPR Client Services UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** or by calling the **[GDPR API](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)** (see `delete` action). いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。See what a well-formed JSON looks like in the [Experience Cloud GDPR documentation](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) (specifically, search in page for "POST request format"). または、**[JSON のサンプルをダウンロード](assets/delete_request.json)**&#x200B;することもできます。
+データ削除要求は、 **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) [documentation)またはPrivacy Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)**Privacy Service Documentation (** Documentation Api[Reference Api](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)Priference)を呼び出して記録できます。 いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。To see what a well-formed JSON looks like, you can **[download a sample JSON](assets/delete_request.json)**.
 
 **応答**
 
