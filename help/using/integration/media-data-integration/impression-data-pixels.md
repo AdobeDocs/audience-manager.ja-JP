@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: c79c2311c3ea76ce2450dc1b84a7a22b60a6edb7
+source-git-commit: 7f71a099157e81c8d17cf018a4c84a69e2205bb4
 
 ---
 
