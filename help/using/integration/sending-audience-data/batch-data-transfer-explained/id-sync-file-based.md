@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 translation-type: tm+mt
-source-git-commit: 4bc3d7c0a34619e556f58b39b7812a5612050f7f
+source-git-commit: 84c860ca918ae7daf2a5225716fd7db7143089d9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 4bc3d7c0a34619e556f58b39b7812a5612050f7f
 
 ID ファイル名には、以下の必須およびオプション要素が含まれます。
 
-*`[adobe_id_]`* *`[c2c_id_]`*`MASTERDPID_DPID`*[_DPID_DPID]*`_TIMESTAMP.sync`*`[.SPLIT_NUMBER]`*[.gz]
+*`[adobe_id_]`* *`[c2c_id_]`*`MASTERDPID_DPID`*`[_DPID]`*`_TIMESTAMP.sync`*`[.SPLIT_NUMBER]`*`[.gz]`
 
 <table id="table_727A465D7C38419CA0750EF32DEDA2FD"> 
  <thead> 
