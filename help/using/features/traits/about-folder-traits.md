@@ -6,7 +6,7 @@ seo-title: フォルダー特性について
 solution: Audience Manager
 title: フォルダー特性について
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9fa5a558c839da89286b1abdf77e835a92747c87
 
 ---
@@ -34,13 +34,13 @@ source-git-commit: 9fa5a558c839da89286b1abdf77e835a92747c87
 
 ## フォルダー特性の適合 - 最新性と頻度 {#folder-traits-realization}
 
-フォルダー特性の頻度は、そのフォルダーおよびサブフォルダー内の特性が適合した合計数となります。下の図は、自動車フォルダー内の特性 A、B および C を示します。各特性の適合数は以下とおりであるとします。
+フォルダー特性の頻度は、そのフォルダーおよびサブフォルダー内の特性が適合した合計数となります。下の図は、自動車フォルダー内の特性 A、B および C を示します。各特性の適合数は以下のとおりであるとします。
 
 * 特性 A：5
 * 特性 B：1
 * 特性 C：1
 
-In this case, the [!DNL Automobile Folder Trait] has 7 realizations.
+この場合、[!DNL Automobile Folder Trait] の適合数は 7 となります。
 
 ![](assets/folder_traits_rollup_border.png)
 
