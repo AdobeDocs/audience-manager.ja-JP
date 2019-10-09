@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Could not find config for hostname: <code><i> hostname</i></code> </p> </td> 
+   <td colname="col2"> <p>Could not find config for hostname:  <code><i>hostname</i></code> </p> </td> 
    <td colname="col3"> <p>送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。このエラーメッセージが表示された場合は、アドビの担当者にご連絡ください。 </p> </td> 
   </tr> 
   <tr> 
@@ -64,18 +64,23 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>Invalid Experience Cloud ID passed in<code><i> ID</i></code> </p> </td> 
-   <td colname="col3"> <p><span class="wintitle">DCS</span> 呼び出しに無効な <span class="keyword">Experience Cloud</span> ID が含まれています。 </p> <p>ヘッダー文字列の <code>d_mid=</code> キー値ペアを確認してください。正しい <span class="keyword">Experience Cloud</span> ID を渡していることを確認して、要求をもう一度試してください。 </p> </td> 
+   <td colname="col2"> <p>Invalid Experience Cloud ID passed in <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p><span class="wintitle">DCS</span> 呼び出しに無効な <span class="keyword">Experience Cloud</span> ID が含まれています。 </p> <p>Check the <code> d_mid=</code> key-value pair in the header string. 正しい <span class="keyword">Experience Cloud</span> ID を渡していることを確認して、要求をもう一度試してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>Invalid aam id passed in request<code><i> ID</i></code> </p> </td> 
-   <td colname="col3"> <p><span class="wintitle">DCS</span> 呼び出しに無効な <span class="keyword">Audience Manager</span> ID が含まれています。 </p> <p>ヘッダー文字列の <code>d_uuid=</code> キー値ペアを確認してください。正しい <span class="keyword">Audience Manager</span> ID を渡していることを確認して、要求をもう一度試してください。 </p> </td> 
+   <td colname="col2"> <p>Invalid aam id passed in request <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p><span class="wintitle">DCS</span> 呼び出しに無効な <span class="keyword">Audience Manager</span> ID が含まれています。 </p> <p>Check the <code> d_uuid=</code> key-value pair in the header string. 正しい <span class="keyword">Audience Manager</span> ID を渡していることを確認して、要求をもう一度試してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>104 </p> </td> 
    <td colname="col2"> <p>All customer ids are invalid </p> </td> 
    <td colname="col3"> <p>呼び出しに含まれているすべての顧客 ID が無効です。ID を確認して、もう一度試してください。 </p> </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"> <p>109</p> </td> 
+   <td colname="col2"> <p>リファラ <code>HTTP referer</code> ーはパートナーに対して許可されていません <code>Partner ID</code> </p> </td> 
+   <td colname="col3"> <p>呼び出しの[!DNL HTTPリファラー]ヘッダーは、呼び出しのパートナーIDに対して許可されていません。 [!DNL HTTPリファラー]ヘッダーが正しいことを確認します。</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
@@ -98,7 +103,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p>171 </p> </td> 
-   <td colname="col2"> <p>Encountered opt out tag for id<code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Encountered opt out tag for id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>お客様がインタレストベース広告の受信をオプトアウトしました。 </p> </td> 
   </tr> 
   <tr> 
@@ -144,22 +149,22 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p>200 </p> </td> 
-   <td colname="col2"> <p> Cannot read traits from profile cache for id: <code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read traits from profile cache for id:  <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>アドビの社内ストレージからユーザープロファイルを読み取れない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
-   <td colname="col2"> <p> Cannot read device ids from profile cache for customer id: <code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read device ids from profile cache for customer id:  <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p><a href="../../../reference/ids-in-aam.md">デバイス ID</a> をプロファイルリンク結合ルールのために取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
-   <td colname="col2"> <p>Cannot read related customer for device id: <code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Cannot read related customer for device id:  <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>デバイス ID に関連付けられている<a href="../../../reference/ids-in-aam.md">顧客 ID（UUID）</a>を、前回の認証済みプロファイル結合ルールのためにアドビの社内ストレージから取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 
-   <td colname="col2"> <p> Cannot read device cluster for id: <code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read device cluster for id:  <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>このデバイス ID にリンクされているデバイス ID を同じデバイスグラフクラスターから返せません。 </p> </td>
   </tr> 
   <tr> 
@@ -169,7 +174,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
-   <td colname="col2"> <p>Could not perform migration from<code><i> ID</i></code> to <code><i> ID</i></code>, because profile read failed for <code><i> ID</i></code> </p> </td>
+   <td colname="col2"> <p>Could not perform migration from <code><i>ID</i></code> to <code><i>ID</i></code>, because profile read failed for <code><i>ID</i></code> </p> </td>
    <td colname="col3"> <p>このエラーが報告された場合は、アドビのデータストア（<span class="wintitle">PCS</span>）にスケーラビリティの問題が発生している可能性があります。問題が解決しない場合は、アドビの担当者にお問い合わせください。 </p> </td> 
   </tr> 
  </tbody> 
@@ -188,59 +193,59 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>Invalid customer id<code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Invalid customer id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID が無効です（データソースの値がない、統合コードがない、データソースの形式が無効、顧客 ID がブロックされている、顧客 ID が未指定、パートナーの管理下にないデータソースに不正にアクセスしようとしている、など）。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Maximum number of customer ids exceeded.Maximum allowed is<code><i>maximum allowed</i></code>.Found is <code><i>maximum found</i></code>.</p> </td> 
+   <td colname="col2"> <p>Maximum number of customer ids exceeded.Maximum allowed is <code><i>maximum allowed</i></code>. Found is <code><i>maximum found</i></code>.</p> </td> 
    <td colname="col3"> <p>クロスデバイス対応データソースに関連付けられている顧客 ID の数が、要求あたりのクロスデバイス ID 数の上限を超えています。このような ID にはクロスデバイス ID、モバイル ID、Cookie ID などがあります。上限は現在 10 に設定されています。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>Unauthorized customer id<code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Unauthorized customer id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「組織 ID を見つける」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>Blocked customer id<code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked customer id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID が悪意のある ID と見なされてブラックリストに登録されている場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>Blocked datasource id<code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked datasource id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>データソース ID が悪意のある ID と見なされてブラックリストに登録されている場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Blocked declared device id<code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>デバイス ID が悪意のある ID と見なされて、ブラックリストに登録されています。このような状況が発生する可能性があるのは、このデバイス ID を含んだきわめて大量の <span class="wintitle">DCS</span> 要求を短時間に受信する場合です。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Blocked profile operation for<code><i> ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>ID が悪意のある ID と見なされてブラックリストに登録されているので、読み取り／書き込みアクションがブロックされました。エラーコード 306 を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>Customer id<code><i> ID</i></code> was discarded because it exceeded the limit of declared customer ids per request </p> </td> 
+   <td colname="col2"> <p>Customer id<code><i>ID</i></code>   was discarded because it exceeded the limit of declared customer ids per request </p> </td> 
    <td colname="col3"> <p>エラー 301 に関係します。このエラーは、上限を超えたため破棄された顧客 ID を示します。 </p> <p>例えば、12 個の顧客 ID が <span class="wintitle">DCS</span> 呼び出しで宣言された場合は、そのうちの 2 個が破棄されます。どの ID が破棄されたかを伝えるために、このエラーは応答に 2 回表示されます（破棄された顧客 ID ごとに 1 回ずつ）。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace.Namespace id is<code><i>ID</i></code>, customer id is <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>このエラーコードが返されるのは、1 回の <span class="wintitle">DCS</span> 呼び出しで同じ名前空間（<code>DPID</code>）に 4 個以上の顧客 ID が宣言されている場合です。 </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>このサンプル <span class="wintitle">DCS</span> 要求では、同じ名前空間に（統合コード one で）4 個の ID が宣言されています。これらの ID の 1 つが破棄され、エラー 310 が返されます。 </p> </td> 
+   <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace.Namespace id is <code><i>ID</i></code>, customer id is <code><i>ID</i></code>. </p> </td> 
+   <td colname="col3"> <p>このエラーコードが返されるのは、1 回の <code> DPID</code>DCS<span class="wintitle"> 呼び出しで同じ名前空間（</span>）に 4 個以上の顧客 ID が宣言されている場合です。 </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>このサンプル <span class="wintitle">DCS</span> 要求では、同じ名前空間に（統合コード one で）4 個の ID が宣言されています。これらの ID の 1 つが破棄され、エラー 310 が返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
    <td colname="col2"> <p>Request contains invalid parameters </p> </td> 
-   <td colname="col3"> <p><span class="wintitle">DCS</span> がこのエラーコードを返すのは、少なくとも 1 つの URL パラメーターが正しくエンコードされていない場合です。その場合、<span class="wintitle">DCS</span> は要求全体を無視します。 </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid! &amp;d_creative=%ecid! &amp;d_adgroup=%eaid! &amp;d_placement=%epid! &amp;d_campaign=%ebuy! &amp;d_adsrc=48123</code> </p> <p>上記のサンプル要求では、<code>%</code> の列が誤ってエンコードされています。その結果、<span class="wintitle">DCS</span> はこの要求を無視します。 </p> <p>正しくエンコードされたサンプルは次のようになります。 </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid! &amp;d_creative=%25ecid! &amp;d_adgroup=%25eaid! &amp;d_placement=%25epid! &amp;d_campaign=%25ebuy! &amp;d_adsrc=48123</code> </p> </td> 
+   <td colname="col3"> <p><span class="wintitle">DCS</span> がこのエラーコードを返すのは、少なくとも 1 つの URL パラメーターが正しくエンコードされていない場合です。その場合、<span class="wintitle">DCS</span> は要求全体を無視します。 </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>In the sample request above, the <code> %</code> sequence is incorrectly encoded. その結果、<span class="wintitle">DCS</span> はこの要求を無視します。 </p> <p>正しくエンコードされたサンプルは次のようになります。 </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Request contains an invalid Global Device ID </p> </td> 
    <td colname="col3"> <p><span class="wintitle">DCS</span> がこのエラーコードを返すのは、要求に無効なグローバルデバイス ID が含まれている場合です。DCS は無効な ID を無視し、この無効な ID に関するエラーとあわせて 312 エラーをスローします。適切なデバイス広告 ID の形式および対応するグローバルデータソースについて詳しくは、<a href="../../../features/global-data-sources.md" format="dita" scope="local">グローバルデータソース</a>および <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Audience Manager の ID のインデックス</a>を参照してください。</p>
-   <p>不適切な呼び出しの例：<code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>不正な呼び出しの例： <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>説明：<span class="keyword">IDFA（DPID 20915）</span>は大文字の ID である必要がありますが、例の要求では ID を小文字で指定しています。</p>
    </td>
   </tr>
