@@ -6,7 +6,7 @@ solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 1. 「[Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics)」セクションで、以下の操作をおこないます。
    * セグメントの名前を設定します。セグメント名の最大長は 255 文字です。
    * セグメントのステータスを設定します（デフォルトは「active」です）。
-   * データソースを選択します。最初のドロップダウンメニューを使用して、Audience Managerのデータソース、Adobe Analyticsのレポートスイート、またはその両方をフィルターします。 次に、2番目のドロップダウンメニューを使用して、データソースを選択します。 Adobe Analyticsレポートスイートがない場合、データソースタイプセレクターは無効になり、Audience Managerのデータソースのみを表示できます。
+   * データソースを選択します。最初のドロップダウンメニューを使用して、Audience Managerのデータソース、Adobe Analyticsのレポートスイート、またはその両方をフィルターします。 次に、2番目のドロップダウンメニューを使用して、データソースを選択します。 Adobe Analyticsレポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトではAudience Managerデータソースのみに設定されます。
    * セグメント認定に使用するプロファイル結合ルールを選択します。
    * セグメントを保存フォルダーに割り当てます。
 2. 「[Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits)」セクションで、以下の操作をおこないます。
@@ -76,7 +76,7 @@ source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
   </tr> 
   <tr> 
    <td colname="col1"> <b>Data Source</b> </td> 
-   <td colname="col2"> <p>セグメントと特定のデータプロバイダーを関連付けます。 <p>最初のドロップダウンメニューを使用して、Audience Managerのデータソース、Adobe Analyticsのレポートスイート、またはその両方をフィルターします。 次に、2番目のドロップダウンメニューを使用して、データソースを選択します。</p><p> Adobe Analyticsレポートスイートがない場合、データソースタイプセレクターは無効になり、Audience Managerのデータソースのみを表示できます。</p></p> </td> 
+   <td colname="col2"> <p>セグメントと特定のデータプロバイダーを関連付けます。 <p>最初のドロップダウンメニューを使用して、Audience Managerのデータソース、Adobe Analyticsのレポートスイート、またはその両方をフィルターします。 次に、2番目のドロップダウンメニューを使用して、データソースを選択します。</p><p> Adobe Analyticsレポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトではAudience Managerデータソースのみに設定されます。</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Profile Merge Rule</b> </td> 
