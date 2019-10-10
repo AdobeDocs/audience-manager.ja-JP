@@ -7,7 +7,7 @@ solution: Audience Manager
 title: ルールベースまたはオンボードの特性の作成
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
 
 ---
 
@@ -23,6 +23,8 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 [!UICONTROL Trait Builder]では、[!UICONTROL Basic Information]設定を使用して、新しい特性を作成したり、既存の特性を編集したりできます。[!UICONTROL Basic Information]設定は、ルールベース、オンボード、アルゴリズムの特性で共通です。新規の特性を作成するには、名前（特殊文字は使用しない）、データソース、ストレージフォルダーを指定します。それ以外の[!UICONTROL Basic Information]フィールドはオプションです。
 
 <!-- c_tb_basics.xml -->
+
+![create-trait](assets/create-trait.png)
 
 ### 基本情報フィールドの定義
 
@@ -50,12 +52,12 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
    <td colname="col2"> 特性の目的や機能を説明する短い文章。オプションです。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
-   <td colname="col2"> 通常、関数（例：コンバージョン、サイト訪問者、パートナー、ページビューなど）に従って、特性をタイプまたはカテゴリに割り当てます。オプションです。 <p> コンバージョン特性の作成方法について詳しくは、Audience Managerでのコンバ <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">ージョン特性の作成のビデオを参照してください</a>。 </p></td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
-   <td colname="col2"> 特性を特定のデータプロバイダーに関連付けます。必須。 </td> 
+   <td colname="col2"> 特性を特定のデータプロバイダーに関連付けます。必須。 <p>最初のドロップダウンメニューを使用して、Audience Managerのデータソース、Adobe Analyticsのレポートスイート、またはその両方をフィルターします。 次に、2番目のドロップダウンメニューを使用して、データソースを選択します。</p><p> Adobe Analyticsレポートスイートがない場合、データソースタイプセレクターは無効になり、Audience Managerのデータソースのみを表示できます。</p>  </td> 
+  </tr>
+   <tr> 
+   <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
+   <td colname="col2"> 通常、関数（例：コンバージョン、サイト訪問者、パートナー、ページビューなど）に従って、特性をタイプまたはカテゴリに割り当てます。オプションです。 <p> コンバージョン特性の作成方法について詳しくは、<a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Audience Manager でのコンバージョン特性の作成のビデオ</a>を参照してください。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integration Code</span></b> </td> 
@@ -66,7 +68,7 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
    <td colname="col2"> 特性に関する一般的なメモ。オプションです。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Stored In</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> ストアイン</span></b> </td> 
    <td colname="col2"> 特性が属するストレージフォルダーを決定します。必須。 </td> 
   </tr> 
   <tr> 
