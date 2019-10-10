@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
+source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
 
 ---
 
@@ -186,7 +186,6 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
          + [メタデータファイルの命名規則](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [メタデータファイルのコンテンツの形式](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
          + [メタデータファイルの配信方法](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-         + [メタデータファイルのステータスの更新](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
       + [Daily Trait Variation レポート](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + インタラクティブな重複レポート {#interactive-and-overlap-reports}
       + [インタラクティブな重複レポートの概要](reporting/dynamic-reports/dynamic-reports.md)
