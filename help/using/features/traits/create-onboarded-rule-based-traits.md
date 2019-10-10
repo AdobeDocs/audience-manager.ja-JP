@@ -7,7 +7,7 @@ solution: Audience Manager
 title: ルールベースまたはオンボードの特性の作成
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Data Source</span></b> </td> 
-   <td colname="col2"> 特性を特定のデータプロバイダーに関連付けます。必須。 <p>最初のドロップダウンメニューを使用して、Audience Managerのデータソース、Adobe Analyticsのレポートスイート、またはその両方をフィルターします。 次に、2番目のドロップダウンメニューを使用して、データソースを選択します。</p><p> Adobe Analyticsレポートスイートがない場合、データソースタイプセレクターは無効になり、Audience Managerのデータソースのみを表示できます。</p>  </td> 
+   <td colname="col2"> 特性を特定のデータプロバイダーに関連付けます。必須。 <p>最初のドロップダウンメニューを使用して、Audience Managerのデータソース、Adobe Analyticsのレポートスイート、またはその両方をフィルターします。 次に、2番目のドロップダウンメニューを使用して、データソースを選択します。</p><p> Adobe Analyticsレポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトではAudience Managerデータソースのみに設定されます。</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
