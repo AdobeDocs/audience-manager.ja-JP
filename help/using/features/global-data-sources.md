@@ -6,7 +6,7 @@ solution: Audience Manager
 title: グローバルデータソース
 uuid: null
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
 
 ---
 
@@ -21,11 +21,12 @@ source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
 
 | データソース ID | 説明 |
 |---|---|
-| 20914 | **Google 広告 ID** - **GAID** は Android オペレーティングシステムを実行するデバイスを表します。 |
-| 20915 | **広告用 Apple ID** - **IDFA** は iOS オペレーティングシステムを実行するデバイスを表します。 |
-| 121963 | **広告用 Roku ID** - **RIDA** は Roku のストリーミングデバイスを表します。 |
-| 389146 | **Microsoft 広告 ID** - **MAID** は Windows 10 オペレーティングシステムを実行するデバイスを表します。 |
-| 404660 | **Samsung DUID** は Samsung のスマートテレビを表します。 |
+| 20914 | **Google 広告 ID** - **GAID**[!DNL Android] は オペレーティングシステムを実行するデバイスを表します。 |
+| 20915 | **広告用 Apple ID** - **IDFA**[!DNL iOS] は オペレーティングシステムを実行するデバイスを表します。 |
+| 121963 | **広告用 ID** - **RIDA**[!DNL Roku] は Roku のストリーミングデバイスを表します。 |
+| 389146 | **Microsoft 広告 ID** - **MAID**[!DNL Windows 10] は オペレーティングシステムを実行するデバイスを表します。 |
+| 404660 | **DUID**[!DNL Samsung] は Samsung のスマートテレビを表します。 |
+| 488258 | **Amazon Fire TV広告IDは、実**&#x200B;行中のデバイスを表します [!DNL Amazon Fire OS] |
 
 ## グローバルデータソースからのデータのインポート
 
