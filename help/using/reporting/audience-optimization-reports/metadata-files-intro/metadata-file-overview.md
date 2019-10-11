@@ -6,7 +6,7 @@ solution: Audience Manager
 title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -59,43 +59,43 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p>広告主 </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc =<i> データソース ID または統合コード</i></code> </p> <p>データソースの作成時に指定された、広告主のデータソース ID または統合コードです。<a href="../../../features/manage-datasources.md#create-data-source">データソースの作成</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>データソースの作成時に指定された、広告主のデータソース ID または統合コードです。<a href="../../../features/manage-datasources.md#create-data-source">データソースの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ビジネスユニット（BU） </p> </td> 
-   <td colname="col2"> <p> <code>d_bu =<i> ビジネスユニット ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_bu = <i>business unit ID</i></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>キャンペーン </p> </td> 
-   <td colname="col2"> <p> <code>d_campaign =<i> キャンペーン ID</i></code> </p> </td> 
+   <td colname="col1"> <p>Campaign </p> </td> 
+   <td colname="col2"> <p> <code>d_campaign = <i>campaign ID</i></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>クリエイティブ </p> </td> 
-   <td colname="col2"> <p> <code>d_creative =<i> クリエイティブ ID</i></code> </p> </td> 
+   <td colname="col1"> <p>Creative </p> </td> 
+   <td colname="col2"> <p> <code>d_creative = <i>creative ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exchange </p> </td> 
    <td colname="col2"> <p>2 つのキーと値のペアを使用できます。 </p> 
     <ul id="ul_3B3B751A8A134096B0912E81A0983B9D"> 
-     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange =<i> 広告を提供するエクスチェンジの ID</i></code> </li> 
-     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>広告が提供されているサイトの ID</i></code> </li> 
+     <li id="li_57BAC45A7B274AB695945E174A4D8A35"> <code>d_exchange = <i>ID for the exchange that served the ad</i></code> </li> 
+     <li id="li_CCDF00DE59D3451C8EF590DD3E1A806D"> <code>d_site = <i>ID for the site an ad served on</i></code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>広告掲載申込（IO） </p> </td> 
-   <td colname="col2"> <p> <code>d_io =挿 <i>入順序ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_io = <i>insertion order ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>プラットフォーム </p> </td> 
-   <td colname="col2"> <p> <code>d_src = <i>データソース ID</i></code> </p> <p>これは、メタデータ情報を提供するプラットフォーム（DFA、Atlas、GBM、MediaMath など）のための<a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings">データソース</a> ID です。 </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>これは、メタデータ情報を提供するプラットフォーム（DFA、Atlas、GBM、MediaMath など）のための<a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings">データソース</a> ID です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>戦術 </p> </td> 
-   <td colname="col2"> <p> <code>d_tactic =<i> 戦術 ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_tactic = <i>tactic ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>バーティカル </p> </td> 
-   <td colname="col2"> <p> <code>d_vert =<i> バーティカル ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_vert = <i>vertical ID</i></code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ### ファイルの配信
 
-ファイルに名前を設定し、データを追加したら、[!DNL Audience Manager] で指定されている Amazon S3 ストレージディレクトリにファイルを送信します。[メタデータファイルの配信方法](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)および[メタデータファイルのステータスの更新](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)を参照してください。
+ファイルに名前を設定し、データを追加したら、[!DNL Audience Manager] で指定されている Amazon S3 ストレージディレクトリにファイルを送信します。See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORE_LIKE_THIS]
 >
