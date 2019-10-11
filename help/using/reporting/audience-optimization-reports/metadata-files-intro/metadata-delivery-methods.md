@@ -6,7 +6,7 @@ solution: Audience Manager
 title: メタデータファイルの配信方法
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -41,34 +41,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col2"> <p><span class="keyword">Audience Manager</span> の顧客 ID のキー値ペア。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>dpid=<i> d_src</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
    <td colname="col2"> <p>イベント呼び出し時に渡されるデータソース ID のキー値ペア。データソース ID は、ファイル内のすべてのコンテンツを、そのコンテンツが属する実際のデータに関連付ける値です。 </p> <p>例えば、ID が 123 で名前が「Advertiser Creative A」であるクリエイティブがあるとします。イベントの呼び出しでは ID しか渡されないので、メタデータファイルに「Advertiser Creative A」を入れる必要があります。キャンペーンとクリエイティブはデータソースに属しています。データソース ID はこれらをまとめるもので、これによりイベント呼び出しで送信される ID にファイルのコンテンツを正確に関連付けることができます。<a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names">イベント呼び出し ID によるファイル名、コンテンツ、配信パスの決定方法</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 
-    <ul id="ul_8AFA4E7FCE984789AF05EA31718F39CD"> 
-     <li id="li_A493880F6ECB467DBB590226CC7A5847"> <code> meta</code> </li> 
-     <li id="li_2D6DAC956D084A1DB43C9C5B2C821F87"> <code> status</code> </li> 
-    </ul> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_5907ADF5B20C4FEC94EF5A09BE02F2CD"> 
-      <li id="li_AE70B44FEDCF4A05ADAFF4E49296F67D"> <code>meta</code> は、ファイルのアップロード／ストレージディレクトリです。 </li> 
-      <li id="li_2ADEA90E01364E888CAAAB8A65A6383F"> <code>status</code> は、ファイルの処理の成功と失敗に関する情報が格納されるディレクトリのパスです。ファイルが処理されると、<code>yyyymmdd</code> 形式のタイムスタンプのタイトルが付いた <code>.info</code> ファイルが作成されます。ステータスファイルには、JSON オブジェクトのデータが保存されています。詳しくは、<a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md">メタデータファイルのステータスの更新</a>を参照してください。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <code> <i>yyyymmdd</i>_<i> parent ID</i>_<i> child ID</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>yyyymmdd</i>_<i>parent ID</i>_<i>child ID</i></code> </p> </td> 
    <td colname="col2"> <p>ファイル名です。詳しくは、<a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md">メタデータファイルの命名規則</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-**サンプルのアップロードおよびステータスパス**
-
-メタデータファイルをアップロードする場合、または[そのステータスを確認する](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)場合、ファイルのパスは次のようになります。
-
-* アップロードパス：`/log_ingestion/pid=1234/dpid=567/meta/20150827_1_2`
-* 処理状態パス：`/log_ingestion/pid=1234/dpid=567/status/20150827.info`。
 
 ## ファイル処理の回数と更新 {#processing-times}
 
