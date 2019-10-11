@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 translation-type: tm+mt
-source-git-commit: 90aa6d66effb27aa05bcbd52a43a9948d138a650
+source-git-commit: 10f06885a803238bf8f5a6bbc2b864c982a2f909
 
 ---
 
@@ -26,9 +26,11 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
 |[!DNL DPID]|Data Source ID (also referred to as Data Provider ID). データソース ID は ID または特性の名前空間です。UI の各データソース（データプロバイダー）に ID が割り当てられます。| `39217` |
 |[!DNL DPUUID]|Data Provider Unique User ID (also referred to as [!DNL CRM ID]). サードパーティ ID。This is the ID by which you identify end users in your own [!DNL CRM] system. You can sync [!DNL DPUUIDs] with Audience Manager [!DNL UUIDs] and you can sync [!DNL DPUUIDs] from your different Data Sources ([!DNL DPIDs]) in the ID synchronization process. |`2132-3423vn-343fds-3432r`||[!DNL CRM ID]|DPUUIDを参照してください。|`2132-3423vn-343fds-3432r`|
 |[!DNL CID], [!DNL CID_IC]|顧客 ID、顧客 ID 統合コード. とのキ [!DNL CID] ーと値 [!DNL CID_IC] のペアが、とに置き換 [!DNL DPID] わりま [!DNL DPUUID]す。 They provide the same functions as the [!DNL DPID] and [!DNL DPUUID], but are more efficient because they include the data provider ID and user ID (or integration code) in a single key-value pair. ||
-|[!DNL DAID]|Device Advertising ID. 各ハードウェアデバイスに一意の ID で、広告目的で使用されます。通常は、デバイスの製造元またはデバイスのオペレーティングシステムにより設定されます。|グローバル [デバイスIDを参照](#global-device-ids) |
+|[!DNL DAID]|Device Advertising ID. 各ハードウェアデバイスに一意の ID で、広告目的で使用されます。通常は、デバイスの製造元またはデバイスのオペレーティングシステムにより設定されます。|グローバルデ [バイスIDを参照してください](#global-device-ids)。 |
 
 ## グローバルデバイスID {#global-device-ids}
+
+グローバルデバイスIDは、デバイスの製造元またはオペレーティングシステムが提供する、各デバイスに固有のデバイス広告IDです。 次の表に、これらのIDの内容と形式を示します。
 
 | ID | 名前と説明 | 例 |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
