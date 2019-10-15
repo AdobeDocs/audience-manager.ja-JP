@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: f73d4ea5802cec4829f69d495745aeabf1e87c1d
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: f73d4ea5802cec4829f69d495745aeabf1e87c1d
   <tr> 
    <td colname="col1"> <p> <b>新しいトピックおよび注目すべきトピック</b> </p> <p>Audience Manager の最新機能については、以下を参照してください。</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+    <li><a href="reference/bulk-management-tools/bulk-management-intro.md">バルク管理ツールの更新</a></li>
      <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">People-Based Destinations</a> </li>
      <li><a href="features/destinations/twitter-tailored-audiences.md">Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する</a> </li>
