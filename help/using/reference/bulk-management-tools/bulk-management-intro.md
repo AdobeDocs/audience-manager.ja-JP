@@ -7,14 +7,14 @@ solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 215054718e9248bd44ba99baeb2a10236701d98e
+source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
 
 ---
 
 
 # 一括管理の概要{#getting-started-with-bulk-management}
 
-一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
+バルク管理ツールを使用すると、1回の操作で複数のオブジェクトを一度に作成および管理できます。 バルク管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、モデル、セグメントおよび特性を操作できます。
 
 <!-- 
 
@@ -32,25 +32,46 @@ c_bulk_start.xml
 
 ## ダウンロード {#download}
 
-**[こちら](assets/BAAAM_August_2018.xlsm)**&#x200B;で最新のワークシートをダウンロードします。
+**[こちら](assets/BAAAM_V2_20191015.xlsm)**&#x200B;で最新のワークシートをダウンロードします。
 
 ## 前提条件 {#prereqs}
 
 [!DNL Bulk Management Tools] を使用するには、以下が必要です。
 
-* [!DNL Audience Manager] のユーザー名およびパスワード。お客様が既にお持ちの資格情報です。
-* API クライアント ID および秘密鍵。担当のアカウントマネージャーを通して入手できます。
-* [!UICONTROL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download)してください。
+* ログイ [!DNL Experience Cloud] ンします。 お客様が既にお持ちの資格情報です。
+* [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download)してください。
+* Microsoft excelが64ビッ [!DNL macOS] ト版または64ビット版 [!DNL Microsoft Windows]。
+* ワークシートを開く場合は、[マクロを有効に **する** ]を有効にする [!DNL Bulk Management Tools] 必要があります。
 
-* [!DNL Windows] 上で動作する Excel、または [!DNL macOS X] 上で動作する [!DNL Microsoft Windows] 仮想マシン。[!UICONTROL Bulk Management Tools] が機能するには、32 ビット Excel を使用する必要があります。
+## 認証の要件およびオプション {#auth-reqs}
+
+一括変更には認証が必要となります。何らかの操作を行う前に、ログインする必要があります。 ワークシートはAPI呼び出しを行うので、ユーザーアカウントで認証を受けるように設定する必要があります。
+
+**API 認証の要件**
+
+2019年10月にリリースされた2つ目のバージョンのバルク管理ツールは、認証プロセスを簡素化します。 このバージョンの認証手順を以下に示します。
+
+1. スプレッドシートを開き、 **Config** シートに移動します。
+2. シートに示されている手順に従います。
+   ![](assets/baaam-authentication.png)
+3. 手順が完了すると、一括変更を行う権限が与えられます。
+
+一括変更を行う場合、変更を行う権限があることを確認する必要がありますが、API認証は自動的に行われます。
+
+**ドメイン認証のオプション**
+
+ドメイン認証では、一括要求をテストすることも、直接本稼動アカウントに適用することもできます。ベータ版環境を一括変更しても、実稼働版アカウントには影響しません。 本稼動アカウントへの変更は即座に反映されます。バルク管理シートを使用すると、次の環境で作業できます。
+
+* ベータ
+* 実稼動
 
 ## アクションおよび操作 {#actions-ops}
 
-[!UICONTROL Bulk Management Tools]ワークシートは、アクションタブ、アクションボタンおよび「**[!UICONTROL Headers]**」タブで構成されています。「**[!UICONTROL Headers]**」タブには、アクションタブで使用される書式化済みの列ヘッダーがあります。アクションタブには選択した一括操作を実行するためのマクロが用意されています。一括操作を実行するには、該当するアクションタブにヘッダーをまとめてコピーし、ヘッダーデータを入力し、アクションボタンをクリックします。
+The [!UICONTROL Bulk Management Tools] worksheet consists of authentication buttons, action tabs, action buttons, and a **[!UICONTROL Headers]** tab. 「**[!UICONTROL Headers]**」タブには、アクションタブで使用される書式化済みの列ヘッダーがあります。アクションタブには選択した一括操作を実行するためのマクロが用意されています。一括操作を実行するには、該当するアクションタブにヘッダーをまとめてコピーし、ヘッダーデータを入力し、アクションボタンをクリックします。
 
-まずはスプレッドシートを開き、アクションボタンをクリックしてみてください。
+認証 [後](#auth-reqs)、操作ボタンをクリックして開始します。
 
-![](assets/bamwrkbk.png)
+![](assets/baaam-worksheet.png)
 
 次の表は、実行できる操作、および[!UICONTROL Bulk Management Tools]ワークシートを使用して操作できる項目を示したものです。
 
@@ -76,6 +97,7 @@ c_bulk_start.xml
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> データソース</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> 派生シグナル</a> </li> 
       <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> 宛先</a> </li> 
+      <li> <a href="../../features/algorithmic-models/understanding-models.md"> モデル</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> 特性フォルダー</a>およびセグメントフォルダー </li> 
       <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> セグメント</a> </li> 
       <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> 特性</a> </li> 
@@ -91,34 +113,13 @@ c_bulk_start.xml
 1. 「**[!UICONTROL Headers]**」タブをクリックし、「[!UICONTROL Create a Trait]」オプション配下のすべてのラベルをコピーします。
 
 2. 「**[!UICONTROL Create]**」タブをクリックし、1 行目の列 A を先頭にラベルをペーストします。
-3. 各列ヘッダーに関する情報を入力し、「**[!UICONTROL Create Traits]**」をクリックします。このアクションによって、ログオンするよう指示されます。正常に認証が済むと（後述の[認証要件](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を参照してください）、ジョブが一括実行されます。ワークシートの左下隅に表示されるジョブステータス通知を確認してください。
+3. 各列ヘッダーに関する情報を入力し、「**[!UICONTROL Create Traits]**」をクリックします。認証を確認するプロンプトが表示されます。 バルクジョブは、認証を確認した後で実行されます。 ワークシートの左下隅に表示されるジョブステータス通知を確認してください。
 
 >[!NOTE]
 >
 >大量の要求を処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。その場合、そのままにしておきます。一括要求が完了すると、ワークシートは反応するようになります。ワークシートが長時間反応しない場合、[トラブルシューティングのセクション](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。
 
-## 認証の要件およびオプション {#auth-reqs}
 
-一括変更には認証が必要となります。アクションを選択すると、ログオンするように指示されます。ワークシートでは API 呼び出しがおこなわれるので、秘密鍵が読み込まれるよう設定する必要があります。また、「**[!UICONTROL Domain]**」フィールドを使用することで、ステージング環境／テスト環境で、または実稼動アカウントで一括変更をおこなうことができます。
-
-![](assets/bamauth.png)
-
-**API 認証の要件**
-
-API 認証を設定するには、以下のことをおこなう必要があります。
-
-* 秘密鍵をテキスト（.txt）ファイルにコピーし保存する。
-* テキストファイルの名前を API クライアント ID にする。例えば、クライアント ID が「Bulk-User」である場合、「Bulk-User.txt」という名前のファイルに鍵を保存します。
-* 秘密鍵とワークシートをまとめて同じフォルダーに保存する。
-
-一括変更をおこなう場合、ユーザー名、パスワード、クライアント IDおよびドメインを入力する必要があるものの、API 認証は自動でおこなわれます。
-
-**ドメイン認証のオプション**
-
-ドメイン認証では、一括要求をテストすることも、直接本稼動アカウントに適用することもできます。テスト環境で一括変更をおこなっても、本稼動アカウントには反映されません。本稼動アカウントへの変更は即座に反映されます。「**[!UICONTROL Domain]**」フィールドでは、作業環境に応じて次のアドレスを使用できます。
-
-* テスト：`api-beta.demdex.com`
-* 実稼動：`api.demdex.com`
 
 >[!MORE_LIKE_THIS]
 >
