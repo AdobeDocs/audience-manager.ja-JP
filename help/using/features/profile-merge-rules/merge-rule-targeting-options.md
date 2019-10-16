@@ -1,75 +1,79 @@
 ---
-description: プロファイル結合ルールオプションを使用すると、オーディエンスを広げることも、ビジネスのニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。現時点では、プロファイル結合ルールはリアルタイムの宛先でのみ機能します。
-seo-description: プロファイル結合ルールオプションを使用すると、オーディエンスを広げることも、ビジネスのニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。現時点では、プロファイル結合ルールはリアルタイムの宛先でのみ機能します。
+description: プロファイル結合ルールオプションを使用すると、オーディエンスを広げることも、ビジネスのニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。
+seo-description: プロファイル結合ルールオプションを使用すると、オーディエンスを広げることも、ビジネスのニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。
 seo-title: プロファイル結合ルールの一般的なユースケース
 solution: Audience Manager
 title: プロファイル結合ルールの一般的なユースケース
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
 # プロファイル結合ルールの一般的なユースケース {#general-use-cases-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rules]オプションを使用すると、オーディエンスを広げることも、ビジネスのニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。現時点では、[!UICONTROL Profile Merge Rules]はリアルタイムの宛先でのみ機能します。
-
-![](assets/merge-rules-options.png)
+[!UICONTROL Profile Merge Rules]オプションを使用すると、オーディエンスを広げることも、ビジネスのニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。[!UICONTROL Profile Merge Rules] リアルタイム宛先とバッチ宛先を操作します。
 
 >[!TIP]
 >
->これらの[!UICONTROL Merge Rule]設定の定義と説明については、[定義済みのプロファイルの結合ルールオプション](../../features/profile-merge-rules/merge-rule-definitions.md)を参照してください。
+>これらの[!UICONTROL Merge Rule]設定の定義と説明については、[定義済みのプロファイルの結合ルールオプション](merge-rule-definitions.md)を参照してください。
 
-## 対象を限定したターゲティング{#focused-targeting}
+## デバイスのターゲット設定 {#device-personalization}
 
-Web サイトでユーザー認証をおこなうと、[!DNL Audience Manager] に対する宣言済み ID の呼び出しが実行されます。このイベントの後、[!DNL Audience Manager] は認証済みプロファイルで特性データの書き込み（およびデータの読み取り）をおこないます。[!DNL Audience Manager] では、認証済みプロファイルにより次のことができます。
+このシナリオは、ユーザー認証を考慮せずに、デバイスID（DSP、オンサイトパーソナライゼーションプラットフォーム、その他のデバイスベースのターゲティングプラットフォーム）をサポートするターゲットプラットフォームを使用して、Audience Managerで定義したオーディエンスセグメントの単一のデバイスプロファイルを評価する場合に適用されます。
 
-* 特定のユーザーに該当する認証済みプロファイルに特性を書き込む。
-* セグメント化のため複数のデバイスユーザーを識別し、区別する。
+デバイスプロファイルのみをターゲットにするルールを作成する場合は、 **[!UICONTROL No Cross-Device Profile]** +を選択しま **[!UICONTROL Device Profile]**&#x200B;す。
 
-### 認証済みユーザーへのリーチ
+![デバイスのみ](assets/device-only.png)
 
-認証済みプロファイルオプションでは、オフライン属性に基づいて、Web サイトやアプリにログオンしているユーザーをターゲットにするルールを作成できます。例えば、金融機関はこのオプションを使用して、年収やオフラインでの取引に基づき、ターゲットを絞ったクレジットカードのアップグレードや特別サービスのオファーの対象となる認証済みユーザーをターゲティングします。また、航空会社は獲得マイル数に基づいて、オファーの対象となる認証済みフリークエントフライヤーをターゲティングします。
+ジョンがスマートフォンを3つ持っているとします そのうち2つはデータプランAのiPhone 7で、うち1つはSamsung on Data Plan bです。3台のデバイスの認証状態を考慮せず、Johnの携帯電話会社は、データプランAで実行するiPhone 7デバイスに対してのみ、データプランのアップグレードを提供したいと考えています。
 
-認証済みユーザーにのみリーチするルールを作成するには、「**[!UICONTROL Current Authenticated Profile]**」と「**[!UICONTROL No Device Profile]**」を選択します。このオプションは、認証済みプロファイルデータのみを使用してセグメントを評価します。このルールでは、匿名デバイスプロファイルのデータは無視されます。
+「+」ルールを使 **[!UICONTROL No Cross-Device Profile]** 用し、両方 **[!UICONTROL Device Profile]** がセグ [!DNL Device 1][!DNL Device 3] メントに適格ですが、「デバイス2」は無視されます。
 
-匿名デバイスプロファイルにデータも含めるには、「**[!UICONTROL Current Authenticated Profile]**」と「**[!UICONTROL Current Device Profile]**」ルールを使用します。
+![デバイスのみ](assets/device-management.png)
 
-### 以前の認証状態に基づきユーザーにリーチ
+## 共有デバイスのターゲット設定 {#target-shared-devices}
 
-これらのオプションを使用すると、閲覧中ではあってもログオンしていない特定のユーザーにリーチします。この操作は、ユーザーレベルの推定ターゲティングに依存するオプションを使用しておこなうことができます。推定ターゲティングにより、サイトで明確に認証されていなくてもオンラインで閲覧中である人にリーチすることができます。この方式では、最後に認証されたプロファイルでデータの読み取りを実行します（書き込みはおこないません）。また、認証済みプロファイルをクリーンな状態にしておくために、[!DNL Audience Manager] は新しい特性認定を、認証済みプロファイルではなくデバイスプロファイルに書き込みます。例えば、サイトやアプリにログオンしていない既存ユーザーに対して、各種のオファーをテストしようとしているマーケターがいるとします。マーケターはこれらの広告を、現在の未認証顧客に対してテストして、どのオファーで多くの応答を得られるかテストすることができます。
+ジョンと妻のジェーンが同じノートパソコンを使ってオンラインストアに行き、いろいろな商品を注文したとします。
 
-事前認証に基づいてユーザーにリーチするルールの例：
+ジョンは旅行券や特別取引の予約に自分の口座を使うが、ジェーンは音楽や映画の買い物に自分の口座を使う。
 
-* **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Current Device Profile]**
+ストアのマーケティングチームは、 **[!UICONTROL Current Authenticated Profiles]** +ルールを使用して、認証されたアクティビティに基づいて、 **[!UICONTROL No Device Profile]** 特定の掘り出し物を持つJohnとJaneをターゲットに設定できます。
 
-## ターゲティングの拡張 {#expanded-targeting}
+![電流装置なし](assets/current-no-device.png)
 
-特定の顧客にリーチするためのルールに加えて、ターゲティングに使用するデータセットを拡大するためのルールもマーケターには必要です。[!UICONTROL Profile Merge Rules]では、デバイスプロファイルオプションを使用してこれを実行できます。デバイスオプションは、1 台以上のデバイスでユーザーが匿名状態となっている間に認識された特性を利用するので、セグメント化の対象となるデータセットが拡張されます。これは、ユーザーデバイスグラフを使用してすべてのデバイスをまたいだユーザーへ、または世帯デバイスグラフを使用して、世帯内のすべてのデバイスにリーチしようとしている場合に便利です。このオプションのユースケースとして、家族向け休暇のオファーの広告が挙げられます。この場合、任意のデバイスのユーザーがオファーに関心を示している場合、その世帯のすべてのデバイスにリーチし、そのオファーを表示したいとします。
+このルールを使用すると、Audience Managerは、デバイスプロファイルを完全に無視し、セグメントにJohnのCRM IDを修飾し、JaneのCRM IDを修飾しません。
 
-ターゲッティングデータセットを拡張するルールを作成するには、「**[!UICONTROL Last Authenticated Profiles]**」と「**[!UICONTROL Device Graph]**」ルールを選択します。
+![共有デバイスターゲティング](assets/shared-device-targeting.png)
 
-<!-- 
+## オンライン/オフラインのターゲット設定 {#device-household-targeting}
 
-<p>Rules that use the device graph option extend your data set even further. With the device graph option, <span class="keyword"> Audience Manager</span> relies on the device profiles aggregated from the last 3 devices that a visitor used for authentication to your site. The device graph rules include: </p> 
-<p> 
- <ul id="ul_3008B6AF16EC408F98EC4088111281FB"> 
-  <li id="li_FA2087F1ED454CD0B9E09656B79ED23B"> <b><span class="uicontrol"> Current Authenticated Profiles</span></b> + <b><span class="uicontrol"> Profile Merge Device Graph</span></b> or a Co-op device graph option </li> 
-  <li id="li_001A8DB517CB4EE394DBD530F2080FD5"> <b><span class="uicontrol"> Last Authenticated Profiles</span></b> + <b><span class="uicontrol"> Profile Merge Device Graph</span></b> or a Co-op device graph option </li> 
- </ul> </p> 
-<p> 
- <note type="tip">
-  Create a simple rule with 
-  <b><span class="uicontrol"> No Authenticated Profile</span></b> + 
-  <b><span class="uicontrol"> Current Device Profile</span></b> when you're still developing a strategy and are unsure about which options to choose or if your site doesn't use authentication. 
- </note> </p>
+この使用例は、家庭のID管理に関するものです。 会社は、 **[!UICONTROL Last Authenticated Profiles]** +ルールを使用して、1つのデバイスプロファイルを、そのデバイスで最後に認証されたプロファイルと結合で **[!UICONTROL Device Profile]** きます。
 
- -->
+![last-device-profile](assets/last-device-profile.png)
+
+年収が100.000ドルを超える世帯で構成されるセグメントに、オンになるデバイスが少なくとも1つ含まれているとし [!DNL iPhone 7] ます [!DNL Data Plan B]。 2つの家庭プロファイル（デバイス間プロファイル）があり、それぞれが2つの異なるデバイスプロファイルに接続されています。 セグメントに適合するために必要な特性は、デバイスプロファイルとデバイスプロファイルに分散されます。
+
+Audience Managerは、すべてのデバイスとデバイス間のプロファイルのペアを結合して、結合された特徴のセットがセグメントに適しているかどうかを確認します。 Audience Managerは、結合に含まれるすべてのプロファイルを評価するので、デバイスプロファイルと家庭用プロファイルの両方をセグメント化できます。
+
+デバイスと世帯プロファイルの間のリンクにより、Audience Managerはセグメントに適格ですが、 [!DNL Household 2] 適格ではありません [!DNL Household 1]。 から、 [!DNL Household 2]セグメント [!DNL Device 3] にのみ該当します。 これに [!UICONTROL Profile Merge Rule] より、マーケターは個々のデバイス()や広範な家庭([!DNL Device 3][!DNL Household 2])に一貫したマーケティングメッセージを配信できるようになりました。
+
+![家庭経営の](assets/household-management.png)
+
+## 人ベースのターゲティング {#all-cross-device}
+
+このターゲット設定シナリオは、アドオンを購入した顧客のみが使 [!DNL People-Based Destinations] 用できます。 このルールを使用すると、マーケターは、自分の認証済みデータに基づいて顧客に連絡を取ることができます。
+
+例えば、あるオンライン小売業者が、ソーシャルプラットフォームを通じて既存の顧客に連絡し、以前の注文に基づいてパーソナライズされたオファーを表示したいとします。 [!UICONTROL People-Based Destinations] を使用すれば、ハッシュ化された電子メールアドレスを自分の [!DNL CRM] から Audience Manager に取り込み、オフラインデータからセグメントを構築し、これらのセグメントを宣伝したいソーシャルプラットフォームに送信して、広告費用を最適化することができます。
+
+このオプションの詳細については、「人ベースの [宛先」を参照してください](../destinations/people-based-destinations-overview.md)。
+
+![オールクロスデバイス](assets/all-cross-device.png)
 
 ## デバイスグラフオプション {#device-graph-options}
 
-[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、[!DNL Adobe Experience Cloud Device Co-op] メンバーであるか、外部デバイスグラフとの契約関係があることが必要です。以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的なユースケースについては、[プロファイルリンクデバイスグラフのユースケース](../../features/profile-merge-rules/profile-link-use-case.md)および[外部デバイスグラフのユースケース](../../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) メンバーであるか、外部デバイスグラフとの契約関係があることが必要です。以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的なユースケースについては、[プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)および[外部デバイスグラフのユースケース](external-graph-use-cases.md)を参照してください。
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -80,7 +84,7 @@ Web サイトでユーザー認証をおこなうと、[!DNL Audience Manager] �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Profile Link</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Profile Link Device Graph</span> </p> </td> 
    <td colname="col2"> <p><span class="wintitle">プロファイルリンク</span>オプションで作成された<span class="wintitle">プロファイル結合</span>ルールは、次の場合に最適です。 </p> <p> 
      <ul id="ul_FF44FA894BB2448887C8EDA9C8407EF9"> 
       <li id="li_E22505210C664FE6A9AA7C61244B36DA">高レベルなユーザー認証を導入しているデジタルプロパティ。 </li> 
@@ -100,9 +104,13 @@ Web サイトでユーザー認証をおこなうと、[!DNL Audience Manager] �
  </tbody> 
 </table>
 
+の使用例の概要については、以下のビデオをご覧くださ [!UICONTROL Profile Merge Rules]い。
+
+>[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=jpn)
+
 >[!MORE_LIKE_THIS]
 >
->* [プロファイルリンクデバイスグラフのユースケース](../../features/profile-merge-rules/profile-link-use-case.md)
->* [ 外部デバイスグラフのユースケース](../../features/profile-merge-rules/external-graph-use-cases.md)
+>* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
+>* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
 
