@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
@@ -116,7 +116,6 @@ source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
       + [プロファイル結合ルールのレポート指標](features/profile-merge-rules/profile-link-metrics.md)
       + [プロファイル結合ルールとデバイスのセグメント化解除プロセス](features/profile-merge-rules/merge-rule-unsegment.md)
       + [Instant Cross-Device Suppression](features/profile-merge-rules/instant-cross-device-suppression.md)
-      + [デバイスグラフを伴うプロファイル結合ルールの重要な考慮事項](features/profile-merge-rules/considerations-pmr-device-graph.md)
    + セグメント{#segments}
       + [セグメント：目的、構成、ルール](features/segments/segments-purpose.md)
       + [セグメントリスト表示](features/segments/segments-dashboard.md)
