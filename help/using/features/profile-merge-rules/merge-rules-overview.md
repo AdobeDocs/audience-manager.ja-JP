@@ -6,14 +6,16 @@ solution: Audience Manager
 title: プロファイル結合ルールの概要
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
 # プロファイル結合ルールの概要 {#profile-merge-rules-overview}
 
-[!UICONTROL Profile Merge Rules]を使用すれば、セグメントに使用されるデータセットを制御して、複数のデバイスにまたがるユーザーを正確にターゲティングできます。
+セグメ [!UICONTROL Profile Merge Rules] ント化に使用するデータセットを制御し、複数のデバイスにわたって正確にユーザーをターゲット設定できます。
+
+>[!VIDEO](https://video.tv.adobe.com/v/28974?captions=jpn)
 
 ## 匿名プロファイルと認証済みプロファイルによるデータ収集とターゲティング {#data-collection-targeting}
 
@@ -21,7 +23,7 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules]プロを使用すれば、[!DNL Audience Manager] がデータを収集してユーザーをターゲット化のためにセグメント化する方法が根本的に変わります。これにより、デバイスプロファイルと認証済みプロファイルの 2 種類のプロファイルを操作できるようになります。
+[!UICONTROL Profile Merge Rules]プロを使用すれば、[!DNL Audience Manager] がデータを収集してユーザーをターゲット化のためにセグメント化する方法が根本的に変わります。It lets you work with 2 distinct types of profiles, a device profile and an [authenticated profile](../../reference/visitor-authentication-states.md).
 
 <table id="table_CE98C0E32A964B27804736A896233869"> 
  <thead> 
@@ -50,7 +52,7 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
  </tbody>
 </table>
 
-これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。例えば、認証済みプロファイルを使用すると、複数のデバイスから収集した 1 人のユーザーに関するデータに基づいて正確なセグメントを生成できます。これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。さらに、クロスデバイス認証により、[!DNL Audience Manager] はユーザーがオンラインアクティビティで使用する各種のプラットフォームをマッピングできます。これは、[!UICONTROL Profile Link Device Graph] と呼ばれるものです。
+これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。For example, with an [authenticated profile](../../reference/visitor-authentication-states.md), you can build accurate segments based on data from multiple devices for a single user. これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。Audience Managerは、個人がオンラインアクティビティに使用する様々なデバイスのマッピングを認証済みプロファイルに保存することで、これを実 [現します](../../reference/visitor-authentication-states.md)。 これらのマッピングは、と呼ばれま [!UICONTROL Profile Link Device Graph]す。
 
 ![](assets/authenticated2.png)
 
@@ -58,23 +60,8 @@ source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
 
 [!UICONTROL Profile Merge Rules] では、以下のことが可能です。
 
-* 認証済みプロファイル、匿名プロファイル、またはその両方の組み合わせに基づいて、ユーザーをターゲット化する。
+* Target users based on [authenticated profile](../../reference/visitor-authentication-states.md), anonymous profiles, or combinations of both.
 * デバイス間で特定の顧客をターゲット化する。
 * 決定論的データに基づいてデバイスグラフを作成する。
 * 各種のプロファイルに基づいてセグメントのデータを微調整する。
 * オーディエンスに関する詳細なインサイトを得る。
-
-## はじめに {#getting-started}
-
-[!UICONTROL Profile Merge Rules]プロファイル結合ルールについて詳しくは、次のセクションと [FAQ](../../faq/faq-profile-merge.md) を参照してください。
-
-* [プロファイル結合ルールの導入](/help/using/features/profile-merge-rules/merge-rules-start.md)
-* [プロファイル結合ルールダッシュボード](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
-* [定義済みのプロファイルの結合ルールオプション](/help/using/features/profile-merge-rules/merge-rule-definitions.md)
-* [プロファイル結合ルールの一般的なユースケース](/help/using/features/profile-merge-rules/merge-rule-targeting-options.md)
-* [プロファイルリンクデバイスグラフのユースケース](/help/using/features/profile-merge-rules/profile-link-use-case.md)
-* [ 外部デバイスグラフのユースケース](/help/using/features/profile-merge-rules/external-graph-use-cases.md)
-* [プロファイル結合ルールのレポート指標](/help/using/features/profile-merge-rules/profile-link-metrics.md)
-* [プロファイル結合ルールとデバイスのセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
-* [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)
-* [デバイスグラフを伴うプロファイル結合ルールの重要な考慮事項](/help/using/features/profile-merge-rules/considerations-pmr-device-graph.md)
