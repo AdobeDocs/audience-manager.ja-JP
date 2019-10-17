@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 translation-type: tm+mt
-source-git-commit: 10f06885a803238bf8f5a6bbc2b864c982a2f909
+source-git-commit: ee11fe79cd81a17659c371b279536fd156aa360b
 
 ---
 
@@ -16,8 +16,8 @@ source-git-commit: 10f06885a803238bf8f5a6bbc2b864c982a2f909
 
 Adobe Audience Manager の ID の詳細なリストについては、このドキュメントを参照してください。
 
-|ID|名前と説明|例||—|—|—||[!DNL AAM UUID]| Audience Managerの一意のユーザーID。 数値型で 38 桁のデバイス ID。Audience Manager はこの値を、操作するデバイスのそれぞれに関連付けます。Audience Manager UIで一意のユーザーのメンションが表示される場合は常に、この ID を考慮してください。Audience Manager saves this ID as a cookie in the `demdex.net` 3rd party domain. The Audience Manager UUID is sent in event calls as the `d_uuid` signal. |`demdex = 07955261652886032950143702505894272138`|
-|[!DNL ImsOrgId]|組織 ID. 会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織IDを検索する方法については、「組織IDを検索」を [参照してください](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)。 |`5DC5123F5245B1D20A490D46@AdobeOrg`||PID|パートナーID。 PID は、Audience Manager での会社の ID です。Audience Manager associates an [!DNL imsOrgId] to a [!DNL PID]. |`1352`|
+| ID|名前と説明|例||—|—|—|| [!DNL AAM UUID] | Audience Manager固有のユーザーID。 数値型で 38 桁のデバイス ID。Audience Manager はこの値を、操作するデバイスのそれぞれに関連付けます。Audience Manager UIで一意のユーザーのメンションが表示される場合は常に、この ID を考慮してください。Audience Manager saves this ID as a cookie in the `demdex.net` 3rd party domain. The Audience Manager UUID is sent in event calls as the `d_uuid` signal. | `demdex = 07955261652886032950143702505894272138` |
+| [!DNL ImsOrgId]|組織 ID. 会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織IDを検索する方法については、「組織IDを検索」を [参照してください](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)。 |`5DC5123F5245B1D20A490D46@AdobeOrg`||PID|パートナーID。 PID は、Audience Manager での会社の ID です。Audience Manager associates an [!DNL imsOrgId] to a [!DNL PID]. |`1352`|
 |[!DNL ECID], [!DNL MID]|Experience Cloud ID. The Experience Cloud ID ([!DNL ECID], legacy abbreviations [!DNL MID] or [!DNL MCID]) is derived mathematically from your Organization ID and the Audience Manager Unique User ID. As long as these IDs remain constant, generating the right [!DNL ECID] for a specific user is simply a math problem. With the same organization ID and Audience Manager [!DNL UUID] you get the same [!DNL ECID] value every time. You can read more about the ECID in the [Cookies and Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html) documentation. |`mid = 08382830887934830189014177072406221371` |
 |[!DNL SID]|特性 ID. 特性 ID は、 Audience Manager 環境内の特性を一意に識別します。ユーザーインターフェイス（UI）の各特性に特性 ID が割り当てられます。|`289983`|
 |SID|Segment ID. セグメント ID は、 Audience Manager 環境内のセグメントを一意に識別します。UI の各セグメントにセグメント ID が割り当てられます。|`4798574`|
