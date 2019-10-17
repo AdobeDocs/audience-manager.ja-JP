@@ -4,7 +4,7 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 [!DNL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL Facebook] に送信する前に、次の要件を満たしていることを確認してください。
 
 1. お使いの [!DNL Facebook] ユーザーアカウントで、使用するプランの広告アカウントに対する&#x200B;**キャンペーンの管理**&#x200B;権限が有効になっている必要があります。
-1. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/708679622611131) for details.
+1. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。詳しくは、「[ビジネスマネージャにパートナーを追加する](https://www.facebook.com/business/help/708679622611131)」を参照してください。
    >[!IMPORTANT]
    > Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!DNL People-Based Destinations] 統合に必要です。
 1. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
@@ -59,17 +59,17 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 電子メールアドレスをハッシュ化する場合は、以下の要件に従ってください。
 
 * 電子メール文字列から先頭および末尾の空白文字をすべてトリミングします。例：`johndoe@example.com`（`<space>johndoe@example.com<space>` ではない）
-* 電子メール文字列をハッシュする場合は、小文字の文字列を必ずハッシュ化します。
-   * 例： , not ;`example@email.com``EXAMPLE@EMAIL.COM`
+* 電子メール文字列をハッシュする場合は、必ず小文字の文字列をハッシュ化するようにしてください。
+   * 例：`example@email.com`（`EXAMPLE@EMAIL.COM` ではない）
 * ハッシュ化された文字列がすべて小文字であることを確認します。
-   * 例： , not ;`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149``55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`
+   * 例：`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`（`55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149` ではない）
 * 文字列にソルトを使用しないでください。
 
-Watch the video below to understand the hashing requirements of [!UICONTROL People-Based Destinations].
+[!UICONTROL People-Based Destinations] のハッシュ要件については、以下のビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
 
-Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。See SHA256 Hashing Support for setCustomerIDs for detailed information on how to use ECID to hash customer IDs.[](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html)
+Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[setCustomerIDs の SHA256 ハッシュ化サポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)」を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
@@ -79,11 +79,11 @@ Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID を�
 
 広告キャンペーンのオプトアウトをおこなう場合は、Audience Manager を停止してそれ以降のデータを収集する停止方法について詳しくは、「[オプトアウト管理](../../overview/data-security-and-privacy/opt-out-management.md)」を参照してください。
 
-## ファーストパーティデータのアクティブ化を強制する{#enforcing-first-party-activation}
+## ファーストパーティデータのアクティブ化を強制する {#enforcing-first-party-activation}
 
 [!DNL People-Based Destinations] を使用する際は、ファーストパーティデータを使用して、ユーザーベースのチャネルでオーディエンスセグメントをアクティブ化できます。ユーザーベースのチャネルでオーディエンスのアクティブ化にセカンドパーティデータやサードパーティデータを使用することはできません。
 
-## 宣言済み ID のターゲティングを介して認証済みの ID のオンボーディングをおこなう{#onboard-authenticated-declared-id}
+## 宣言済み ID のターゲティングを介して認証済みの ID のオンボーディングをおこなう {#onboard-authenticated-declared-id}
 
 オフラインデータを [!DNL People-Based Destinations] 用に Audience Manager に取り込む方法は次の 2 つです。
 
