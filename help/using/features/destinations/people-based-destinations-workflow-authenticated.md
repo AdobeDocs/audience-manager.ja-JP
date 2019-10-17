@@ -4,13 +4,13 @@ seo-description: 'このページでは、オフラインの CRM データと、
 seo-title: ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
 
-# ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション{#workflow-c}
+# ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション {#workflow-c}
 
 >[!IMPORTANT]
 >この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
@@ -48,11 +48,11 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
    >
    > People-Based Destinations 用にオフラインデータを Audience Manager に取り込む方法については、「[データのオンボーディング](people-based-destinations-prerequisites.md#data-onboarding)」を参照してください。
 
-のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧くださ [!UICONTROL People-Based Destinations]い。
+[!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
 
-## 手順 2 - 宣言された ID を使用して DPUUID をハッシュ化された電子メールアドレスと照合する場合と、リアルタイムの HTTP 呼び出しと照合する場合{#match-email-addresses}
+## 手順 2 - 宣言された ID を使用して DPUUID をハッシュ化された電子メールアドレスと照合する場合と、リアルタイムの HTTP 呼び出しと照合する場合 {#match-email-addresses}
 
 認証されたユーザーをルールベースの特性で絞り込むには、[宣言済み ID](../declared-ids.md) を通して特性認定を送信する必要があります。
 
@@ -104,7 +104,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 新しいセグメントを作成するには、[セグメントビルダー](../segments/segment-builder.md)を使用します。[!DNL People-Based Destinations] に送信する既存のオーディエンスセグメントがある場合は、スキップして「[手順 5 - ユーザーベースのプラットフォーム認証を設定する](#configure-authentication)」に進みます。
 
-## 手順 5 - ユーザーベースのプラットフォーム認証を設定する{#configure-authentication}
+## 手順 5 - ユーザーベースのプラットフォーム認証を設定する {#configure-authentication}
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
