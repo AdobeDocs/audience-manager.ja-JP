@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 translation-type: tm+mt
-source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
+source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword">Google 広告主 ID</span>（raw、ハッシュ化されていない） </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword">広告主用 Apple ID</span>（raw、ハッシュ化されていない） </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ベンダー ID - サードパーティユーザー ID（Web／Cookie） </li> 
-     </ul> </p> </td> 
+     </ul> </p> <p>詳しくは <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">、「グローバルデータソース</a> 」を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -68,10 +68,10 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
-   <td colname="col2"> <p>同期モードは、同期タイプに基づいてファイル名にラベルを追加するマクロプレースホルダーです。同期タイプには、完全および増分があります。ファイル名に <code>iter</code> または <code>full</code> として表示されます。 </p> 
+   <td colname="col2"> <p>同期モードは、同期タイプに基づいてファイル名にラベルを追加するマクロプレースホルダーです。同期タイプには、完全および増分があります。They'll appear in the file name as <code> iter </code> or <code> full </code>. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
-     <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code>iter</code>：「iterative」または増分同期を示します。増分ファイルには、最後の同期以降に収集された新しいデータのみが含まれます。 </li> 
-     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code>full</code>：「完全」同期を示します。完全に同期されたファイルには、古いデータと最後の同期以降に収集された新しいデータが含まれます。 </li> 
+     <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>：「iterative」または増分同期を示します。増分ファイルには、最後の同期以降に収集された新しいデータのみが含まれます。 </li> 
+     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>:「フル」同期を示します。 完全に同期されたファイルには、古いデータと最後の同期以降に収集された新しいデータが含まれます。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
    <td colname="col2"> <p>整数。処理時間を向上するために複数の部分に分割されたファイルの部分を特定します。番号は、データが属する元のファイルのどの部分かを示します。</p>  <p>3 桁以上の整数にする必要があり、分割サイズが 100 よりも小さいは、前にゼロを付ける必要があります。</p>  <p>元のファイルには、分割番号はありません。最初の分割ファイルは、001 で終わります。後述の例を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>.gz（オプション）</i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>.gz (optional) </i></code> </p> </td> 
    <td colname="col2"> <p>GZIP 圧縮。 </p> </td> 
   </tr> 
  </tbody> 
