@@ -1,19 +1,19 @@
 ---
-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。適切な形式であれば、このデータを Audience Manager にインポートし、Audience Optimization レポートに表示することができます。データファイルの形式を、この節で説明した仕様に合わせてください。
-seo-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。適切な形式であれば、このデータを Audience Manager にインポートし、Audience Optimization レポートに表示することができます。データファイルの形式を、この節で説明した仕様に合わせてください。
-seo-title: Audience Optimization レポートのデータファイル
+description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。正しくフォーマットされている場合は、このデータをAudience Managerに読み込み、オーディエンス最適化レポートおよびアクション可能なログファイルで使用できます。 この節の指定に従って、データファイルの形式を設定します。
+seo-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。正しくフォーマットされている場合は、このデータをAudience Managerに読み込み、オーディエンス最適化レポートおよびアクション可能なログファイルで使用できます。 この節の指定に従って、データファイルの形式を設定します。
+seo-title: オーディエンス最適化レポートおよび対応可能なログファイル用のデータファイル
 solution: Audience Manager
-title: Audience Optimization レポートのデータファイル
+title: Audience Optimization レポートのデータファイル および対応可能なログファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
+source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 ---
 
 
-# Audience Optimization レポートのデータファイル{#data-files-for-audience-optimization-reports}
+# オーディエンス最適化レポートおよび対応可能なログファイル用のデータファイル {#data-files-for-audience-optimization-reports}
 
-データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。適切な形式であれば、このデータを Audience Manager にインポートし、Audience Optimization レポートに表示することができます。データファイルの形式を、この節で説明した仕様に合わせてください。
+データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。正しく形式設定されている場合、このデータをAudience Managerに読み込んで [Audience Optimization Reportsに表示し、Actionableログファイルを使用して](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) 、データを使用して特徴を作 [成できます](/help/using/integration/media-data-integration/actionable-log-files.md)。 データファイルの形式を、この節で説明した仕様に合わせてください。
 
 ## 概要 {#overview}
 
@@ -25,7 +25,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 
 適格なデータファイル名の構造を次の構文で定義します。なお、*斜体*&#x200B;の部分にはファイルコンテンツの実際の情報が入ります。
 
-**構文：** <pre><code><i>event type</i>_<i>yyyymmdd</i></code></pre>
+**構文：** <pre><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
 ファイル名の場合：
 
@@ -35,20 +35,20 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 
 これらの要件を前提として、コンテンツに応じてデータファイルに次のように名前を付けます。
 
-* インプレッションデータ： <pre><code>impressions_<i>yyyymmdd<i>.gz</code></pre>
-* クリックデータ： <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
-* コンバージョンデータ： <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* インプレッションデータ： <pre>impressions_<i>yyyymmdd<i>.gz</code></pre>
+* クリックデータ： <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
+* コンバージョンデータ： <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## データファイルのコンテンツ形式 {#content-format}
 
 適格なデータファイルのコンテンツ構造を次の構文で定義します。なお、*斜体*&#x200B;の部分には実際のデータファイル内のラベルが入ります。
 
-**構文：** <pre><code><i>header label 1</i> | <i>header label 2</i> ... <i>header label n</i> | <i>version</i></code></pre>
+**構文：** <pre><i>header label 1</i> | <i>header label 2</i> ... <i>header label n</i> | <i>version</i></code></pre>
 
 ファイルコンテンツの場合：
 
 * ヘッダーラベルは、以下の表に示す順序で出現する必要があります。インプレッションとクリックは、同じラベルを使用します。コンバージョンファイルには追加のヘッダーが含まれています。
-* If you don't have data for a particular column, populate that field with a `-1`.
+* 特定の列のデータがない場合は、そのフィールドに `-1` を入力します。
 
 * ファイルの末尾はバージョン番号である&#x200B;*必要があり*&#x200B;ます。現在のバージョンは 1.1 です。
 * ファイルヘッダーとコンテンツを非印字 ASCII 文字 001 で区切ります。ASCII 001 を使用できない場合は、ヘッダーとデータをタブ文字で区切ります。これらは非印字文字なので、上記の構文例では、表示のためだけにパイプ「`"|"`」を使用しています。
@@ -67,7 +67,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Time-Stamp </p> </td> 
-   <td colname="col2"> <p>インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。<code>yyyy-dd-mm hh:mm:ss</code> 形式を使用します。 </p> </td> 
+   <td colname="col2"> <p>インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。形式を使用 <code> yyyy-dd-mm hh:mm:ss</code> します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -125,9 +125,9 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
    <td colname="col1"> <p>Event-Type </p> </td> 
    <td colname="col2"> <p>コンバージョンタイプ。コンバージョンが対応しているかどうかを示します。オプションは以下のとおりです。 </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
-     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>：インプレッション </li> 
-     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>：クリック </li> 
-     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>：原因不明 </li> 
+     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: インプレッション </li> 
+     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: クリック </li> 
+     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>:属性なしまたは不明 </li> 
     </ul> <p> <i>コンバージョンデータファイルの場合のみ。</i> </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
 
 データは、Amazon S3 ディレクトリにおいて顧客ごとに別個の名前空間に保存されます。ファイルパスは以下の構文に従います。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
 
-**構文：** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
+**構文：** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
 ファイル配信パスのこれらの各要素を次の表で定義します。
 
@@ -166,7 +166,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
    <td colname="col2"> <p><span class="keyword">Audience Manager</span> の顧客 ID のキー値ペア。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>dpid=<i> d_src</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
    <td colname="col2"> <p>イベント呼び出し時に渡されるデータソース ID のキー値ペア。この情報で、データがどこから得られたかが特定され、そのデータが、対応するメタデータファイルに関連付けられます。 </p> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
    <td colname="col2"> <p> データファイルの上位ディレクトリ。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>file type</i>_<i> yyyymmdd</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>file type</i>_<i>yyyymmdd</i></code> </p> </td> 
    <td colname="col2"> <p>格納されているデータの種類を示すファイルタイプ名と配信タイムスタンプ。 </p> </td> 
   </tr> 
  </tbody> 
