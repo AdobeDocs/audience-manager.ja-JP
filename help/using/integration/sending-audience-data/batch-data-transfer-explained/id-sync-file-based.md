@@ -5,7 +5,7 @@ seo-title: ID 同期ファイルの名前およびコンテンツの要件
 solution: Audience Manager
 title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 84c860ca918ae7daf2a5225716fd7db7143089d9
 
 ---
