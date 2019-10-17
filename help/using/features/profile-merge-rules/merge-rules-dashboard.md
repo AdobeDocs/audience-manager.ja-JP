@@ -6,7 +6,7 @@ solution: Audience Manager
 title: プロファイル結合ルールダッシュボード
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 [!UICONTROL Profile Merge Rules] を操作すると、次のことが可能になります。
 
-* クロスデバイス対応データソースから最大 4 つのルールを作成する。「[クロスデバイス対応データソースの作成](merge-rules-start.md#create-data-source)」を参照してください。
+* Create a maximum of 4 [!UICONTROL Profile Merge Rules] from your cross-device data sources. 「[クロスデバイス対応データソースの作成](merge-rules-start.md#create-data-source)」を参照してください。
 * デフォルトの結合ルールを指定する。[セグメントビルダー](../segments/segment-builder.md)により、作成されるすべての新規セグメントにデフォルトのルールが自動的に適用されます。
 * [データエクスポートコントロール](../data-export-controls.md)を結合ルールに適用する。[!UICONTROL Data Export Controls]を使用すると、データの送信がデータのプライバシーや使用契約に違反する場合に、データを宛先に送信できないようになります。
 * ユーザーごとのデバイスの平均数を追跡する。
