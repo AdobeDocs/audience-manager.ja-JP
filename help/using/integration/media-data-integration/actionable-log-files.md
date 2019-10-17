@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: e324a298bf72b223e4ebf5627f3314e1613d3761
+source-git-commit: b258c7dbdcf359394fbdcad6511c4113f8d88d91
 
 ---
 
@@ -244,6 +244,16 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
+
+## Audience Manager UIでのアクション可能なシグナルの操作 {#actionable-signals-in-ui}
+
+受信したアクション可能なシグナルは、「アクション可能なログ [ファイル](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) 」選択を使用して、シグナル検索インターフェ **イスで表示できます** 。
+
+![UIのアクション可能なシグナル](/help/using/integration/assets/alf-in-signals.png)
+
+実行可能なシグナルを使用してルールベースの特性を作成するには、「 **Actionable Log Files**」を選択し、特性ルールとして使用する実行可能なシグナルを選択し、「 **Create Trait from Selected Signals**」を押します。
+
+![シグナルから特性を作成する](/help/using/integration/assets/alf-create-trait.png)
 
 ## ユースケース {#use-cases}
 
