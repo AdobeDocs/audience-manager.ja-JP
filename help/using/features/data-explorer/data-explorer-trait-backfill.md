@@ -4,7 +4,7 @@ seo-description: 特性適合のバックフィルにより、過去のオーデ
 seo-title: 特性適合のバックフィル
 title: 特性適合のバックフィル
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
@@ -45,7 +45,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 特性の作成が完了すると、適合の統計値にバックフィルされた適合数が表示されます。
 
-特徴のバックフィル方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
+特性のバックフィル方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=jpn)
 
