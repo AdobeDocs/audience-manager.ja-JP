@@ -4,7 +4,7 @@ seo-description: Adobe Analytics も使用している Audience Manager ユー�
 seo-title: Advanced Search for Adobe Analytics
 title: Advanced Search for Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
@@ -26,6 +26,6 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
    ![](assets/signals-search-analytics.png)
 1. これで、検索結果の **[!UICONTROL Key or Key Name]** 列に、入力したキーと値のペア（キーと値のフィールドを空白にした場合は、選択したレポートスイート内にあるすべてのシグナルの）のわかりやすい名前が表示されるようになります。
 
-The video below shows how to use  to discover and use your Adobe Analytics data, including searching for used and unused signals, creating Analytics traits, and understanding the data.[!UICONTROL Data Explorer]
+以下のビデオでは、使用済みおよび未使用のシグナルの検索、Analytics の特性の作成、データの理解など、[!UICONTROL Data Explorer] によって Adobe Analytics データを検出および使用する方法を示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25150?captions=jpn)
