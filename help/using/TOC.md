@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: e324a298bf72b223e4ebf5627f3314e1613d3761
 
 ---
 
@@ -178,9 +178,9 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
          + [広告ユニット間重複](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
          + [セグメント - 広告ユニット間重複](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [個別ユーザーのリーチ](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
-      + Audience Optimization レポートのデータおよびメタデータファイル {#data-and-metadata-files}
-         + [Audience Optimization レポートのデータおよびメタデータファイル](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-         + [Audience Optimization レポートのデータファイル](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+      + オーディエンス最適化レポートおよび実行可能なログファイル用のデータおよびメタデータファイル {#data-and-metadata-files}
+         + [ ログデータとメタデータファイル](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+         + [オーディエンス最適化レポートおよび対応可能なログファイル用のデータファイル](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [メタデータファイルの概要とマッピング](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [メタデータファイルの命名規則](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [メタデータファイルのコンテンツの形式](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
@@ -322,6 +322,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Audience Management モジュールの実装](integration/integration-other-solutions/audience-management-module.md)
       + [サーバー側転送（管理ガイド）](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Adobe AnalyticsセグメントのExperience cloudへの公開](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + リファレンス{#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
