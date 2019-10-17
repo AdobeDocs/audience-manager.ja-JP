@@ -5,7 +5,7 @@ seo-title: データのセキュリティ
 solution: Audience Manager
 title: データのセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 34884e3212d50237c73fdc6aa163d90c29a642f5
 
 ---
@@ -46,7 +46,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **安全なアクセス：** Audience Manager では、システムにログインするには、強力なパスワードが必要です。詳しくは、[パスワード要件](../../reference/password-requirements.md)を参照してください。
 
-## プライバシーおよび個人を特定できる情報（PII）{#pii}
+## プライバシーおよび個人を特定できる情報（PII） {#pii}
 
 個人情報の安全を維持するのに役立つプロセスです。その他のプライバシー情報については、[アドビプライバシーセンター](https://www.adobe.com/privacy/advertising-services.html)を参照してください。
 
@@ -80,14 +80,14 @@ PGP 暗号化をデータファイルに追加するには、[受信データタ
 
 ## HTTP Strict-Transport-Security {#hsts}
 
-[!DNL HTTP Strict-Transport-Security (HSTS)] は、cookieのハイジャックやプロトコルダウングレード攻撃から保護する、業界全体にわたるWebセキュリティメカニズムです。
+[!DNL HTTP Strict-Transport-Security (HSTS)] は、cookie ハイジャックおよびプロトコルダウングレード攻撃からの保護に役立つ、業界全体にわたる Web セキュリティメカニズムです。
 
-The policy instructs the web browser that once a secure [!DNL HTTPS] call was made to a given domain, no subsequent unsecure calls ([!DNL HTTP]) should be allowed to that domain. This protects against man-in-the-middle attacks, where an attacker might try to downgrade [!DNL HTTPS] calls to unsecured [!DNL HTTP] calls.”
+このポリシーは、特定のドメインに対して安全な [!DNL HTTPS] 呼び出しがおこなわれたら、そのドメインに対してそれ以降の安全でない呼び出し（[!DNL HTTP]）は許可しないということを Web ブラウザーに指示します。これは、攻撃者が [!DNL HTTPS] 呼び出しを安全でない [!DNL HTTP] 呼び出しにダウングレードしようとする中間者攻撃から保護します。
 
-This policy improves data security between clients and Adobe [Edge](../../reference/system-components/components-edge.md) servers.
+このポリシーにより、クライアントと Adobe [Edge](../../reference/system-components/components-edge.md) サーバー間のデータセキュリティが向上します。
 
 ### 例 {#hsts-example}
 
-Let's say the `yourcompany.demdex.com` domain sends trafic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] upgrades the calls to use [!DNL HTTPS] instead, and all subsequent [!DNL DCS] calls coming from `yourcompany.demdex.com` will use [!DNL HTTPS] instead of [!DNL HTTP].
+`yourcompany.demdex.com` ドメインが [!DNL HTTP] 経由で [!DNL DCS] にトラフィックを送信するとします。[!DNL HSTS] は、代わりに [!DNL HTTPS] を使用するように呼び出しをアップグレードし、以降の `yourcompany.demdex.com` からの [!DNL DCS] 呼び出しではすべて、[!DNL HTTP] の代わりに [!DNL HTTPS] を使用します。
 
-See [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) for more information about HSTS.
+HSTS について詳しくは、「[HTTP Strict Transport Security - Wikipedia](https://ja.wikipedia.org/wiki/HTTP_Strict_Transport_Security)」を参照してください。
