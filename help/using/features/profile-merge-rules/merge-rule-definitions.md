@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 定義済みのプロファイルの結合ルールオプション
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
+source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
 
 ---
 
@@ -84,7 +84,7 @@ The [!UICONTROL Cross-Device Options] let you select authenticated and unauthent
 
 ## デバイスオプション {#device-options}
 
-[!UICONTROL Device Options]では、[!UICONTROL Profile Merge Rule]で使用する *`device profile`* のタイプを選択できます。デバイスプロファイルは、ユーザーが匿名で Web を閲覧している際に収集した特性で構成されます。プロファイル結合ルールには少なくとも、1 つの認証済みオプションと 1 つのデバイスオプションが含まれます。
+[!UICONTROL Device Options]では、[!UICONTROL Profile Merge Rule]で使用する *`device profile`* のタイプを選択できます。デバイスプロファイルは、匿名の閲覧アクティビティから収集された特徴から作成されます。 プロファイル結合ルールには少なくとも、1 つの認証済みオプションと 1 つのデバイスオプションが含まれます。
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
