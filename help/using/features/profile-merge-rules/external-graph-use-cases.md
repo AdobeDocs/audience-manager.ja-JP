@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 外部デバイスグラフのユースケース
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 * 大規模なオーディエンスをターゲットにする。[!DNL Experience Cloud Device Co-op] やサードパーティデバイスグラフには、認証済みデータと未認証データが含まれています。
 * 認証済みまたは未認証の訪問者を個人レベルまたは団体レベルでセグメント化する。
 
-![](../assets/merge-rule-triangle1.png)
+![](assets/merge-rule-triangle1.png)
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -127,5 +127,5 @@ Johnは、Data Plan aのiPhone 7を使用して、Acme Inc.のWebサイトで認
 >
 >* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
 >* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
->* [プロファイル結合ルール FAQ](faq-profile-merge.md)
+>* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
 
