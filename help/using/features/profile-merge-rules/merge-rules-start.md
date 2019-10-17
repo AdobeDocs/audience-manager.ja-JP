@@ -6,7 +6,7 @@ solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -62,7 +62,11 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ## プロファイル結合ルールの作成{#create-profile-merge-rule}
 
-[!UICONTROL Profile Merge Rule]を作成するには、**[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** へ移動し、ここで説明している各セクションの手順を完了します。クロスデバイス対応データソースをセットアップした後、最大 3 個の結合ルールを作成できます。ルールの作成、編集、削除には、管理者権限が必要です。すべてのユーザーが既存の[!UICONTROL Profile Merge Rules]を表示および使用できます。
+[!UICONTROL Profile Merge Rule]を作成するには、**[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** へ移動し、ここで説明している各セクションの手順を完了します。
+
+クロスデバイス対応データソースをセットアップした後、最大 3 個の結合ルールを作成できます。人物ベースの宛先にサインアップすると、4番目のプロファイル結合[!UICONTROL All Cross-Device Profiles]ルール( [)にアク](../destinations/people-based-destinations-overview.md)セスできます。
+
+ルールの作成、編集、削除には、管理者権限が必要です。すべてのユーザーが既存の[!UICONTROL Profile Merge Rules]を表示および使用できます。
 
 <!-- create-profile-merge-rule.xml -->
 
