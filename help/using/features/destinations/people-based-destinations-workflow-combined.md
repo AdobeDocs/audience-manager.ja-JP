@@ -4,13 +4,13 @@ seo-description: 'このページでは、オフラインの CRM データと Au
 seo-title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
 
-# ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション{#workflow-a}
+# ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション {#workflow-a}
 
 >[!IMPORTANT]
 >この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
@@ -58,7 +58,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. データソースの設定を保存します。
 
-のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧くださ [!UICONTROL People-Based Destinations]い。
+[!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
 
@@ -112,9 +112,9 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 上記の例では、ファイル名は `c2c_id_999999_987654_1560431657.sync` となります。
 
 
-[Download example file here.](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)
+[こちらでサンプルファイルをダウンロード](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)します。
 
-Once you've created your ID synchronization file, you need to upload it to an  bucket. [!DNL Amazon S3]ID同期ファイルのアップロード方法について詳しくは、「Audience Managerへのバ [ッチデータの送信」を参照してください](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)。
+ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアップロードする必要があります。ID 同期ファイルのアップロード方法について詳しくは、[Audience Manager へのバッチデータの送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)を参照してください。
 
 ## 手順 3 - セグメントのプロファイル結合ルールを作成する {#create-merge-rule}
 
@@ -134,7 +134,7 @@ Once you've created your ID synchronization file, you need to upload it to an  b
 
 新しいオーディエンスセグメントを作成するには、[セグメントビルダー](../segments/segment-builder.md)を使用します。[!DNL People-Based Destinations] に送信する既存のオーディエンスセグメントがある場合は、スキップして「[手順 5 - ユーザーベースのプラットフォーム認証を設定する](people-based-destinations-workflow-combined.md#configure-authentication)」に進みます。
 
-## 手順 5 - ユーザーベースのプラットフォーム認証を設定する{#configure-authentication}
+## 手順 5 - ユーザーベースのプラットフォーム認証を設定する {#configure-authentication}
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
