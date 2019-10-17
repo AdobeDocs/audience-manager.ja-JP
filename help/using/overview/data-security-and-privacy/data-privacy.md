@@ -5,19 +5,19 @@ seo-title: データのプライバシー
 solution: Audience Manager
 title: データのプライバシー
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
 
-# データのプライバシー{#data-privacy}
+# データのプライバシー {#data-privacy}
 
 消費者のプライバシーおよびオプトアウト手順に関連する一般に認められたベストプラクティスに対する Audience Manager の統合と準拠について説明します。
 
 ## データのプライバシー {#data-privacy-center}
 
-[アドビプライバシーセンター](https://www.adobe.com/privacy/opt-out.html)を参照してください。
+[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)を参照してください。
 
 ## 消費者のプライバシー保護 {#consumer-privacy-protection}
 
@@ -76,9 +76,9 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 -->
 
-The [!DNL IP] address of a visitor to a customer’s website is transmitted to an Adobe [!DNL Data Processing Center] ([!DNL DPC]) where the [!DNL IP] address may be stored. Depending on the network configuration for the visitor, the [!DNL IP] address may not necessarily represent the [!DNL IP] address of the visitor’s computer. For example, the [!DNL IP] address could be the external [!DNL IP] address of a Network Address Translation (NAT) firewall, [!DNL HTTP] proxy, or Internet gateway.
+顧客の Web サイトにアクセスする訪問者の [!DNL IP] アドレスは Adobe [!DNL Data Processing Center]（[!DNL DPC]）に転送され、同センターに [!DNL IP] アドレスが保存される場合があります。訪問者のネットワーク設定によっては、この [!DNL IP] アドレスが訪問者のコンピューターの [!DNL IP] アドレスと一致しないことがあります。例えば、この [!DNL IP] アドレスは、Network Address Translation（NAT）ファイアウォール、[!DNL HTTP] プロキシ、またはインターネットゲートウェイの外部 [!DNL IP] アドレスである可能性があります。
 
-**難読化方法：**[!DNL IP]「プライバシーバイデザイン」の原則に従い、Adobe Audience Manager では、すべての地域に対してグローバルに、または特定の国に対して、UI からの IP 難読化を有効にすることができます。When you enable this setting, the last octet (the last portion) of the [!DNL IP] address is immediately discarded when the [!DNL IP] address is ingested into Audience Manager. Audience Manager discards this part of the [!DNL IP] address prior to processing (including before any optional geographic lookup or logging of the [!DNL IP] address). 次に例を示します。
+**難読化方法：**[!DNL IP]「プライバシーバイデザイン」の原則に従い、Adobe Audience Manager では、すべての地域に対してグローバルに、または特定の国に対して、UI からの IP 難読化を有効にすることができます。この設定を有効にすると、[!DNL IP] アドレスが Audience Manager に取り込まれると、[!DNL IP] アドレスの最後のオクテット（最後の部分）は即座に破棄されます。Audience Manager は、処理（オプションの [!DNL IP] アドレスの地域の参照またはログ作成を含む）に先立って、[!DNL IP] アドレスのこの部分を破棄します。次に例を示します。
 
 * マスク前： `255.255.255.255`
 * マスク後： `255.255.255.0`
@@ -87,11 +87,11 @@ The [!DNL IP] address of a visitor to a customer’s website is transmitted to a
 >
 >Audience Manager UI で アドレスを難読化する方法については、[IP アドレスの難読化](/help/using/features/administration/ip-obfuscation.md)をお読みください。[!DNL IP]
 
-以下のビデオで、アドレスの不明化がAudience Managerでどのよ [!DNL IP] うに機能するかを確認してください。
+Audience Managerでのどのよ [!DNL IP] アドレスの難読かについては、以下のビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=jpn)
 
-**地理的分類：**[!DNL IP] アドレスの難読化を有効にした場合、その アドレスの残りのオクテットは引き続き、Audience Manager の地域特性およびレポートに使用できます。[!DNL IP]If you do not enable [!DNL IP] address obfuscation, Audience Manager uses the full [!DNL IP] address. You can use the Geographic Segmentation feature that allows you to identify an [!DNL IP] location by geographic area in either case, but with some slight loss of precision when [!DNL IP] obfuscation is being used. Obtaining city-level information will likely be significantly impacted by the obfuscation of the [!DNL IP] address. 地域レベルおよび国レベルの情報の取得に関しては、それほど大きな影響はありません。地理的セグメンテーションデータの精度は市区町村レベルまたは郵便番号レベルにとどまり、個人レベルにまでは及びません。[地域に基づくターゲティング](/help/using/features/traits/trait-geotarget-keys.md)と、地理的変数を使用した特性の設定方法についてお読みください。
+**地理的分類：**[!DNL IP] アドレスの難読化を有効にした場合、その アドレスの残りのオクテットは引き続き、Audience Manager の地域特性およびレポートに使用できます。[!DNL IP][!DNL IP]アドレスの難読化を有効にしない場合、Audience Manager は完全な [!DNL IP] アドレスを使用します。どちらの場合でも、[!DNL IP] の場所を地理的地域によって特定できる地理的セグメンテーション機能を使用できますが、[!DNL IP] の難読化を使用している場合は、精度が少し落ちます。[!DNL IP] アドレスの不明化をおこなうと、市レベルの情報の取得が著しく困難になる場合があります。地域レベルおよび国レベルの情報の取得に関しては、それほど大きな影響はありません。地理的セグメンテーションデータの精度は市区町村レベルまたは郵便番号レベルにとどまり、個人レベルにまでは及びません。[地域に基づくターゲティング](/help/using/features/traits/trait-geotarget-keys.md)と、地理的変数を使用した特性の設定方法についてお読みください。
 
 ## 関連する概念 {#related-concepts}
 
