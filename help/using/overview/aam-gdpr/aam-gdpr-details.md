@@ -3,11 +3,11 @@ description: このドキュメントでは、Audience Manager の一般デー�
 seo-description: このドキュメントでは、Audience Manager の一般データ保護規則（GDPR）に関する細かな規定を扱っており、GDPR 要求を Audience Manager に送信する方法も示しています。
 seo-title: Audience Manager の GDPR 対応
 solution: Audience Manager
-keywords: GDPR UI, GDPR API
+keywords: GDPR UI、GDPR API
 title: Audience Manager の GDPR 対応
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 5661bcef9816b6646ee63ebc6c19b730c1ccadc9
+source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
 
 ---
 
@@ -28,7 +28,7 @@ Audience Manager の詳細を読む前に、次のリンクから、欧州にお
 
 ## GDPR 要求のタイプと GDPR 要求の方法 {#types-of-gdpr-requests}
 
-As an Audience Manager customer, you can submit individual GDPR requests to access and delete customer data, either through the **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) and [documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)) or by calling the **Privacy Service API** ([documentation here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and [API reference here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)). **[Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**&#x200B;セクションの説明に沿って、要求時に Audience Manager 識別子（ID）と対応する名前空間 ID（データソース ID）を送信できます。ご質問がある場合は、カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。
+Audience Managerのお客様は、個々のGDPR要求を送信して、 **Privacy Service UI** (ここでは[UIリンク](https://gdprui.cloud.adobe.io/) / [documentation](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html))または ****[](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)Privacy Service API（ここではAPIの説明）を呼び出して、顧客データにアクセスして削除できます。 **[Audience Manager 識別子](../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids)**&#x200B;セクションの説明に沿って、要求時に Audience Manager 識別子（ID）と対応する名前空間 ID（データソース ID）を送信できます。ご質問がある場合は、カスタマーケア（gdprsupport@adobe.com）にお問い合わせください。
 
 ## データへのアクセス {#access-data}
 
@@ -36,7 +36,7 @@ As an Audience Manager customer, you can submit individual GDPR requests to acce
 
 **リクエスト**
 
-You can log data access requests through the Privacy Service UI (UI link here and documentation here) or by calling the Privacy Service API (documentation here and API reference here). ****[](https://gdprui.cloud.adobe.io/)[](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)****[](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。To see what a well-formed JSON looks like, you can **[download a sample JSON](assets/access_request.json)**.
+データアクセス要求は、 **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) [documentation)を通じて、またはPrivacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)Privacy Service **Documentation Privacy Service Reference**[](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)API いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。整形式のJSONがどのように表示されるかを確認するには、サンプルJSON **[をダウンロードします](assets/access_request.json)**。
 
 **応答**
 
@@ -158,7 +158,7 @@ Audience Manager からの応答でエラーが発生した場合、それらは
    <td colname="col2"> <p>統合コードは、データソースのわかりやすい名前で、データソース ID を使用するより簡単にデータソースの追跡をおこなうことができます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>data provider name</code> </p> </td> 
+   <td colname="col1"> <p> <code> data provider name </code> </p> </td> 
    <td colname="col2"> <p>データソースの所有者の名前。 
      <ul id="ul_5CEAF23C28154662AFC443D3494107D3"> 
       <li id="li_EC2DA09F618D4225B655ADF455C0D654">ファーストパーティデータの場合、これは顧客自身の企業名となります。 </li> 
@@ -167,7 +167,7 @@ Audience Manager からの応答でエラーが発生した場合、それらは
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>type</code> </p> </td> 
+   <td colname="col1"> <p> <code> type </code> </p> </td> 
    <td colname="col2"> <p>GDPR データアクセスを要請した ID のタイプ。指定できるタイプについては、<a href="../../overview/aam-gdpr/aam-gdpr-details.md#aam-ids">Audience Manager 識別子</a>セクションで説明しています。 </p> </td> 
   </tr> 
   <tr> 
@@ -183,7 +183,7 @@ Audience Manager からの応答でエラーが発生した場合、それらは
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>description</code> </p> </td> 
+   <td colname="col1"> <p> <code> description </code> </p> </td> 
    <td colname="col2"> <p>受信した警告のより詳細な説明： </p> <p> 
      <ul id="ul_78E03ABA52674E07A48835FDD3431FF8"> 
       <li id="li_6BB6D58660594CA0B1A89804F2FC6274">デバイスデータ - このデバイスのすべてのユーザーのデータが含まれています。 </li> 
@@ -191,11 +191,11 @@ Audience Manager からの応答でエラーが発生した場合、それらは
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>data</code> </p> </td> 
+   <td colname="col1"> <p> <code> data </code> </p> </td> 
    <td colname="col2"> <p>ユーザー ID と関連付けられた特性とセグメント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>traits</code> </p> </td> 
+   <td colname="col1"> <p> <code> traits </code> </p> </td> 
    <td colname="col2"> <p>ユーザー ID と関連付けられた特性。 </p> </td> 
   </tr> 
   <tr> 
@@ -203,7 +203,7 @@ Audience Manager からの応答でエラーが発生した場合、それらは
    <td colname="col2"> <p>特性の名前。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>type</code> </p> </td> 
+   <td colname="col1"> <p> <code> type</code> </p> </td> 
    <td colname="col2"> <p>特性のタイプ。次のいずれかの値となります。 </p> <p> 
      <ul id="ul_DBAC618D9FE94B17B2494B83832A969F"> 
       <li id="li_740F2DCA8F2A4A22A7D9988ECD2FC976"> お客様独自の特性の場合、<i>ファーストパーティ</i>。 </li> 
@@ -212,15 +212,15 @@ Audience Manager からの応答でエラーが発生した場合、それらは
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>description</code> </p> </td> 
+   <td colname="col1"> <p> <code> description</code> </p> </td> 
    <td colname="col2"> <p>特性の目的や機能を説明する短い文章。これはオプションのフィールドです。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>data export controls</code> </p> </td> 
+   <td colname="col1"> <p> <code> data export controls</code> </p> </td> 
    <td colname="col2"> <p>この特性のデータソースに適用される<a href="../../features/data-export-controls.md">データエクスポートコントロール</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>data provider name</code> </p> </td> 
+   <td colname="col1"> <p> <code> data provider name</code> </p> </td> 
    <td colname="col2"> <p>この特性のデータソースの所有者の名前。 
      <ul id="ul_D2D424E903A143779342D35D6F625656"> 
       <li id="li_55B3A40A6CD24A25B5AAFD07AD28F662">ファーストパーティデータの場合、これは顧客自身の企業名となります。 </li> 
@@ -233,23 +233,23 @@ Audience Manager からの応答でエラーが発生した場合、それらは
    <td colname="col2"> <p>データ主体がこの特性に最後に適合した正確な時間。データ形式は YYYY-MM-DD です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>segments </code> </p> </td> 
+   <td colname="col1"> <p> <code> segments </code> </p> </td> 
    <td colname="col2"> <p>このユーザーが属するセグメント。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>name</code> </p> </td> 
+   <td colname="col1"> <p> <code> name</code> </p> </td> 
    <td colname="col2"> <p>セグメントの名前。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>description</code> </p> </td> 
+   <td colname="col1"> <p> <code> description</code> </p> </td> 
    <td colname="col2"> <p>このセグメントを説明する短い文章。これはオプションのフィールドです。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>data export controls</code> </p> </td> 
+   <td colname="col1"> <p> <code> data export controls</code> </p> </td> 
    <td colname="col2"> <p>このセグメントのデータソースに適用される<a href="../../features/data-export-controls.md">データエクスポートコントロール</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>data provider name</code> </p> </td> 
+   <td colname="col1"> <p> <code> data provider name</code> </p> </td> 
    <td colname="col2"> <p>このセグメントのデータソースの所有者の名前。 
      <ul id="ul_D437D149BDBE470489D1DD03CF47841C"> 
       <li id="li_90133644911A49AEB0DB209BCAC8E789">ファーストパーティデータの場合、これは顧客自身の企業名となります。 </li> 
@@ -258,15 +258,15 @@ Audience Manager からの応答でエラーが発生した場合、それらは
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>last realization</code> </p> </td> 
+   <td colname="col1"> <p> <code> last realization</code> </p> </td> 
    <td colname="col2"> <p>データ主体がこのセグメントに最後に適合した正確な時間。データ形式は YYYY-MM-DD です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>active</code> </p> </td> 
-   <td colname="col2"> <p>データ主体が現在このセグメントと適合するかを示します。戻り値<code><i>true</i></code> または <code><i>false</i></code>。 </p> </td> 
+   <td colname="col1"> <p> <code> active</code> </p> </td> 
+   <td colname="col2"> <p>データ主体が現在このセグメントと適合するかを示します。戻り値： <code><i>true</i></code> または <code><i>false</i></code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>リンク</code> </p> </td> 
+   <td colname="col1"> <p> <code> links </code> </p> </td> 
    <td colname="col2"> <p>この ID が関連付けられている他の ID。次のフィールドについて情報が返されます。 </p> <p> 
      <ul id="ul_679F372A83164CC8B6BFE5A833347B9E"> 
       <li id="li_BCBF4F4C6C4049519BDE9186EE84868A">ID </li> 
@@ -308,7 +308,7 @@ Audience Manager からの応答でエラーが発生した場合、それらは
 
 **リクエスト**
 
-データ削除要求は、 **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) [documentation)またはPrivacy Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)**Privacy Service Documentation (** Documentation Api[Reference Api](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)Priference)を呼び出して記録できます。 いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。To see what a well-formed JSON looks like, you can **[download a sample JSON](assets/delete_request.json)**.
+データ削除要求は、 **Privacy Service UI** ([UI link here](https://gdprui.cloud.adobe.io/) [documentation)またはPrivacy Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)**Privacy Service Documentation (** Documentation Api[Reference Api](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)Priference)を呼び出して記録できます。 いずれの場合も、送信するデータアクセス要求の Audience Manager 識別子が記述された JSON をアップロードする必要があります。整形式のJSONがどのように表示されるかを確認するには、サンプルJSON **[をダウンロードします](assets/delete_request.json)**。
 
 **応答**
 
@@ -493,6 +493,8 @@ Adobe Audience Manager に対して GDPR 要求を送信する際、以下のい
 
 * IDFA：20915
 * GAID：20914
+
+詳しくは [、「グローバルデータソース](../../features/global-data-sources.md) 」を参照してください。
 
 **JSON の記述例**：
 
