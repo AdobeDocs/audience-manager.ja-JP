@@ -5,8 +5,9 @@ seo-title: セグメント概要表示
 solution: Audience Manager
 title: セグメント概要表示
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
+keywords: IDタイプの分類， IDの分類，オーディエンスIDレポート
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
 
 ---
 
@@ -18,7 +19,7 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 メインダッシュボードのセグメント名をクリックすると、その概要ページにアクセスできます。「Summary」セクションには、以下が含まれます。
 
 1. **[!UICONTROL Basic Information]：**&#x200B;セグメントが作成された際に指定された必須およびオプションの詳細を表示します。
-2. **[!UICONTROL Segment Graph]：**&#x200B;固定の 1、7、14、30、60、90 日間隔のグラフでパフォーマンスデータを表示します。We explain segment population numbers in a [separate article](../../features/segments/segment-builder-data.md).
+2. **[!UICONTROL Segment Graph]：**&#x200B;固定の 1、7、14、30、60、90 日間隔のグラフでパフォーマンスデータを表示します。セグメント母集団の数については、[別の記事](../../features/segments/segment-builder-data.md)で説明します。
 
    ![セグメントグラフ](assets/segment-graph.png)
 
