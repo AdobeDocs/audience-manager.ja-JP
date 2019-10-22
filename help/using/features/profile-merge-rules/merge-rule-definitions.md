@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 定義済みのプロファイルの結合ルールオプション
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
 | 最後に認証されたプロファイル | デバイスプロファイル | すべての顧客 | リアルタイムとバッチ | ○ | [オンライン/オフラインのターゲット設定](merge-rule-targeting-options.md#device-household-targeting) |
 | 最後に認証されたプロファイル | Profile Link Device Graph | 北米およびカナダのみ | リアルタイムとバッチ | ○ | [デバイス間のターゲット設定](profile-link-use-case.md#cross-device-personalization) |
 | 最後に認証されたプロファイル | 外部デバイスグラフ（Co-opデバイスグラフを含む） | すべての顧客 | リアルタイムとバッチ | × | [高度なデバイス間ターゲット設定](external-graph-use-cases.md#advanced-graph-expansion) |
-| すべてのクロスデバイスプロファイル | なし | 人ベース [の目的地の顧客専用](../destinations/people-based-destinations-overview.md) | バッチのみ | × | [人ベースのターゲティング](merge-rule-targeting-options.md#all-cross-device) |
+| すべてのクロスデバイスプロファイル | なし | 人ベース [の目的地の顧客専用](../destinations/people-based-destinations-overview.md) | バッチのみ | × | [人ベースの宛先のターゲット設定](merge-rule-targeting-options.md#all-cross-device) |
 
 ## プロファイル結合ルールセグメントの評価 {#segment-evaluation}
 
