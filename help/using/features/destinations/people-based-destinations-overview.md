@@ -4,8 +4,8 @@ seo-description: 'ユーザーベースの宛先を使用して、ファース�
 seo-title: People-Based Destinations の概要とユースケース
 solution: Audience Manager
 title: 概要とユースケース
-translation-type: ht
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+translation-type: tm+mt
+source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 * サードパーティ製データオンボードソリューションに関連するコストを排除する
 * カスタムデータオンボーディングワークフローの開発に関連するコストを排除します
 * Cookie がない環境でオーディエンスのターゲット設定をおこなう
-* 顧客 ID と一致する電子メールアドレスの重複を排除してオーディエンスのターゲット設定をおこなう
+* 顧客IDと一致するハッシュ化された電子メールアドレスの重複を除外して、オーディエンスをターゲット設定します。
 
 [!DNL People-Based Destinations] を使用して、Web サイトを訪問したことのない高価値顧客をセグメント化またはターゲット設定をおこなったり、またはオフラインでコンバージョン済みの顧客のターゲティングを停止したりできます。さらに、[!DNL Profile Merge Rules] を活用してオフラインのファーストパーティデータ同士（他の Adobe Experience Cloud ソリューションの顧客データを含む）を組み合わせ、ソーシャルメディアでの広告活動を最適化することもできます。
 
