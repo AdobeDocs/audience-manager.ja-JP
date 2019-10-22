@@ -6,7 +6,7 @@ solution: Audience Manager
 title: プロファイル結合ルールの一般的なユースケース
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -61,11 +61,15 @@ Audience Managerは、すべてのデバイスとデバイス間のプロファ�
 
 ![家庭経営の](assets/household-management.png)
 
-## 人ベースのターゲティング {#all-cross-device}
+## 人ベースの宛先のターゲット設定 {#all-cross-device}
+
+> [!IMPORTANT]
+>
+> この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
 このターゲット設定シナリオは、アドオンを購入した顧客のみが使 [!DNL People-Based Destinations] 用できます。 このルールを使用すると、マーケターは、自分の認証済みデータに基づいて顧客に連絡を取ることができます。
 
-例えば、あるオンライン小売業者が、ソーシャルプラットフォームを通じて既存の顧客に連絡し、以前の注文に基づいてパーソナライズされたオファーを表示したいとします。 [!UICONTROL People-Based Destinations] を使用すれば、ハッシュ化された電子メールアドレスを自分の [!DNL CRM] から Audience Manager に取り込み、オフラインデータからセグメントを構築し、これらのセグメントを宣伝したいソーシャルプラットフォームに送信して、広告費用を最適化することができます。
+例えば、あるオンライン小売業者が、ソーシャルプラットフォームを通じて既存の顧客に連絡し、以前の注文に基づいてパーソナライズされたオファーを表示したいとします。 With [!UICONTROL People-Based Destinations], they can ingest hashed email addresses from their own [!DNL CRM] into Audience Manager, build segments from the offline data, and send these segments to the social platforms they want to advertise on, using that hashed identifier, optimizing their advertising spending.
 
 このオプションの詳細については、「人ベースの [宛先」を参照してください](../destinations/people-based-destinations-overview.md)。
 
