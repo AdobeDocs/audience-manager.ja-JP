@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -88,7 +88,7 @@ Removed the Data Translation File bullet from the list above.
      </ul> </p> <p>この場合、<span class="keyword">Audience Manager</span> では、以下のことがおこなわれます。 </p> <p> 
      <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
       <li id="li_DC4F5E63D8134A29B703BDF264F02F65">格納された ID 同期マッピングから訪問者 ABC を認識します。 </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> 特性 <code>male</code> および <code>luxury_shopper</code> を訪問者 123 プロファイルに関連付けます。 </li> 
+      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associates the traits <code> male</code> and <code> luxury_shopper</code> with the visitor 123 profile. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -102,23 +102,23 @@ Removed the Data Translation File bullet from the list above.
      </ul> </p> <p>この場合、<span class="keyword">Audience Manager</span> では、以下のことがおこなわれます。 </p> 
     <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
      <li id="li_64D64A16E99E492BAAE1080867F854A9">格納された ID 同期マッピングから訪問者 DEF を認識します。 </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">特性 <code>female</code>、<code>paris</code> および <code>wine_enthusiast</code> を訪問者 456 プロファイルに関連付けます。 </li> 
+     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associates the traits <code> female</code>, <code> paris</code>, and <code> wine_enthusiast</code> with the visitor 456 profile. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>例 3</b> </p> </td> 
-   <td colname="col2"> <p>月曜日に、次のレコードを含んだ 2 つのファイルを <span class="keyword">Audience Manager</span> サーバーが受信します。 </p> <p> 次の内容の <code>.sync</code> ファイル： </p> <p> 
+   <td colname="col2"> <p>月曜日に、次のレコードを含んだ 2 つのファイルを <span class="keyword">Audience Manager</span> サーバーが受信します。 </p> <p> <code> .sync</code> 次を含むファイル： </p> <p> 
      <ul class="simplelist"> 
       <li><code> GHI 123456789</code> </li> 
-     </ul> </p> <p> 次の内容の <code>.overwrite</code> ファイル： </p> 
+     </ul> </p> <p> <code> .overwrite</code> 次を含むファイル： </p> 
     <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
      <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
      <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
     </ul> <p><span class="keyword">Audience Manager では、以前の ID 同期から訪問者 JKL のマッピング済みレコードを ID 789 に格納します。</span> </p> <p>この場合、<span class="keyword">Audience Manager</span> では、以下のことがおこなわれます。 </p> 
     <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
      <li id="li_6DABD380311D49738DAD98F5E6DE45B8">格納された ID 同期マッピングから訪問者 JKL を認識します。 </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">特性 <code>female</code> および <code>wine_enthusiast</code> を訪問者 ID 789 のプロファイルに関連付けます。 </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">訪問者 GHI の ID は現在のバッチでのみ同期されたものなので、GHI の特性関連付けは無視されます。特性を訪問者 GHI に関連付けるには、今後の <code>.overwrite</code> ファイルにそれらの特性を含める必要があります。 </li> 
+     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associates the traits <code> female</code> and <code> wine_enthusiast</code> with visitor ID 789's profile. </li> 
+     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">訪問者 GHI の ID は現在のバッチでのみ同期されたものなので、GHI の特性関連付けは無視されます。To associate traits with visitor GHI, you need to include them in future <code> .overwrite</code> files. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -174,18 +174,18 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
    <td colname="col1"> <p><b>増分および完全</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E89301D815174D45B9B238F2CDE6CCC6"> 
-      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">1 日目 <code>.sync</code> ファイルコンテンツ：<code>visitor123 = a,b,c</code> </li> 
-      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">2 日目 <code>.overwrite</code> ファイルコンテンツ：<code>visitor123 = c,d,e</code> </li> 
-      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> 3 日目 訪問者プロファイル ID 123 には <code>c,d,e</code> が含まれている </li> 
+      <li id="li_FA841FEEC0534AD59D1AB61DD5B9DEC4">1日目のファ <code> .sync</code> イルの内容： <code> visitor123 = a,b,c</code> </li> 
+      <li id="li_0E1A57B04D26481C8C41EBA63ACBEFE0">2日目のファ <code> .overwrite</code> イルの内容： <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_497A5604AD9A49A2ADE548C7CE158F0E"> Day 3 visitor profile ID 123 contains <code> c,d,e </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>増分のみ</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_8271C9796BD040E4B8DC64DCE4FE2AD3"> 
-      <li id="li_347959BDE83549F794E6661C95097891">1 日目 <code>.sync</code> ファイルコンテンツ：<code>visitor123 = a,b,c </code> </li> 
-      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">2 日目 <code>.sync</code> ファイルコンテンツ：<code>visitor123 = c,d,e</code> </li> 
-      <li id="li_6E17809D49C74F4991B0B445469055E6">3 日目 訪問者プロファイル ID 123 には <code>a,b,c,d,e</code> が含まれている </li> 
+      <li id="li_347959BDE83549F794E6661C95097891">1日目のファ <code> .sync</code> イルの内容： <code> visitor123 = a,b,c </code> </li> 
+      <li id="li_B25D96526DE94171A3A5DC8DB7A19415">2日目のファ <code> .sync</code> イルの内容： <code> visitor123 = c,d,e</code> </li> 
+      <li id="li_6E17809D49C74F4991B0B445469055E6">Day 3 visitor profile ID 123 contains <code> a,b,c,d,e</code> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -242,7 +242,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 **データファイルコンテンツでは大文字と小文字が区別されますか？ID 同期の場合はどうですか？**
 
-データファイルには、一意のユーザー ID（UUID）とプロファイルデータという 2 つの基本的な構成要素があります。通常は、キー値ペアまたはコードの形式です。UUID は、大文字小文字が区別されます。通常、プロファイルまたはキー値ペアのデータは、大文字と小文字が区別されません。
+There are two basic components of a data file: A User ID (see User ID in [File Variables Defined](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) and profile data, usually in the form of key-value pairs or codes. ユーザーIDでは大文字と小文字が区別されます。 通常、プロファイルまたはキー値ペアのデータは、大文字と小文字が区別されません。
 
 <br> 
 
