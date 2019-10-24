@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience ManagerとAdobe Experience Platform間でのオーディエンスの共有
 keywords: AEPオーディエンス共有， AEPセグメント，プラットフォームセグメント
 translation-type: tm+mt
-source-git-commit: 421f15b79fa647bf4fbf71a425c7f7792fb302e5
+source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 
 ---
 
@@ -36,9 +36,9 @@ Audience Managerでは、Data Management Platformの使用例に対して次の�
 
 オーディエンス共有の使用例の概要については、次の表を参照してください。
 
-| `*` | **Adobe Experience Platform** | **Audience Manager** | **コアサービス** |
+| **ユースケース** | **Adobe Experience Platform** | **Audience Manager** | **コアサービス** |
 ---------|----------|---------|---------
-| **オーディエンス共有の使用例** | <ul><li>Audience Managerデータによる顧客プロファイルの強化</li><li>Experience PlatformセグメントでのAudience Managerデータの使用</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムによるモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Adobe targetやAnalyticsなど、他のExperience cloudソリューションでExperience Platformセグメントを使用します。 |
+| **オーディエンス共有** | <ul><li>Audience Managerデータによる顧客プロファイルの強化</li><li>Experience PlatformセグメントでのAudience Managerデータの使用</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムによるモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Adobe targetやAnalyticsなど、他のExperience cloudソリューションでExperience Platformセグメントを使用します。 |
 
  <br>
 
