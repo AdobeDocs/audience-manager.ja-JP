@@ -1,19 +1,19 @@
 ---
-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。正しくフォーマットされている場合は、このデータをAudience Managerに読み込み、オーディエンス最適化レポートおよびアクション可能なログファイルで使用できます。 この節の指定に従って、データファイルの形式を設定します。
-seo-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。正しくフォーマットされている場合は、このデータをAudience Managerに読み込み、オーディエンス最適化レポートおよびアクション可能なログファイルで使用できます。 この節の指定に従って、データファイルの形式を設定します。
-seo-title: オーディエンス最適化レポートおよび対応可能なログファイル用のデータファイル
+description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、Audience Optimization レポートおよび実用的なログファイルで使用できます。データファイルの形式を、この節で説明した仕様に合わせてください。
+seo-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、Audience Optimization レポートおよび実用的なログファイルで使用できます。データファイルの形式を、この節で説明した仕様に合わせてください。
+seo-title: Audience Optimization レポートおよび実用的なログファイル用のデータファイル
 solution: Audience Manager
-title: Audience Optimization レポートのデータファイル および対応可能なログファイル
+title: Audience Optimization レポートのデータファイルおよび実用的なログファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 ---
 
 
-# オーディエンス最適化レポートおよび対応可能なログファイル用のデータファイル {#data-files-for-audience-optimization-reports}
+# Audience Optimization レポートおよび実用的なログファイル用のデータファイル{#data-files-for-audience-optimization-reports}
 
-データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。正しく形式設定されている場合、このデータをAudience Managerに読み込んで [Audience Optimization Reportsに表示し、Actionableログファイルを使用して](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) 、データを使用して特徴を作 [成できます](/help/using/integration/media-data-integration/actionable-log-files.md)。 データファイルの形式を、この節で説明した仕様に合わせてください。
+データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、[Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)で表示し、[実用的なログファイル](/help/using/integration/media-data-integration/actionable-log-files.md)からデータを使用して特性を作成できます。データファイルの形式を、この節で説明した仕様に合わせてください。
 
 ## 概要 {#overview}
 
@@ -67,7 +67,7 @@ source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Time-Stamp </p> </td> 
-   <td colname="col2"> <p>インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。形式を使用 <code> yyyy-dd-mm hh:mm:ss</code> します。 </p> </td> 
+   <td colname="col2"> <p>インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。<code> yyyy-dd-mm hh:mm:ss</code>形式を使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -125,9 +125,9 @@ source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
    <td colname="col1"> <p>Event-Type </p> </td> 
    <td colname="col2"> <p>コンバージョンタイプ。コンバージョンが対応しているかどうかを示します。オプションは以下のとおりです。 </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
-     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: インプレッション </li> 
-     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: クリック </li> 
-     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>:属性なしまたは不明 </li> 
+     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>：インプレッション </li> 
+     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>：クリック </li> 
+     <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>：原因不明 </li> 
     </ul> <p> <i>コンバージョンデータファイルの場合のみ。</i> </p> </td> 
   </tr> 
   <tr> 
@@ -137,7 +137,7 @@ source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
  </tbody> 
 </table>
 
-## データファイルの配信方法 {#delivery-methods}
+## データファイルの配信方法{#delivery-methods}
 
 インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
