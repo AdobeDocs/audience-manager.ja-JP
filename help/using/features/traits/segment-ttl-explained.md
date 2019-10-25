@@ -5,7 +5,7 @@ seo-title: セグメントと特性の有効期間についての説明
 solution: Audience Manager
 title: セグメント有効期間の説明
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 17906734132813984437216f2a6cbc1c7bf14937
 
 ---
@@ -19,30 +19,30 @@ source-git-commit: 17906734132813984437216f2a6cbc1c7bf14937
 
 ## 有効期間
 
-[!DNL TTL] は、最後の特性資格認定イベントの後、サイト訪問者がセグメントにとどまっている期間を定義します。[!DNL TTL] は、セグメントではなく、特性に対して設定されます。Visitors fall out of a segment if they do not qualify for a trait before the end of the [!DNL TTL] interval. 新しい特性に対するデフォルトの [!DNL TTL] は 120 日です。0 日に設定すると、特性は有効期限なしになります。[TTL 値を設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)します（特性作成インターフェイスの「[!UICONTROL Advanced Options]」セクションで特性を作成または編集する場合）。
+[!DNL TTL] は、最後の特性資格認定イベントの後、サイト訪問者がセグメントにとどまっている期間を定義します。[!DNL TTL] は、セグメントではなく、特性に対して設定されます。訪問者は、[!DNL TTL] 期間が終了するまでに対象となる特性が確認されない場合、セグメントから除外されます。新しい特性に対するデフォルトの [!DNL TTL] は 120 日です。0 日に設定すると、特性は有効期限なしになります。[TTL 値を設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)します（特性作成インターフェイスの「[!UICONTROL Advanced Options]」セクションで特性を作成または編集する場合）。
 
-### 1日のTTLの説明
+### 1 日のTTL（有効期限）の説明
 
-1日に設定す [!DNL TTL] ると、TTLタイマーは、特性実現の翌日から開始し、特性実現の日に残った時間はカウントしません。
+[!DNL TTL] を 1 日に設定した場合、TTL タイマーは、特性認定の翌日から開始し、特性認定当日の残り時間はカウントしません。
 
-Audience Managerは、次の [!DNL TTL] 式に基づいて1日の特性の有効期 [!DNL TTL] 限を計算します。
+Audience Manager は、次の式に基づいて、[!DNL TTL] の有効期限を [!DNL TTL] 1 日で計算します。
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **例1**:特徴1:00で1 [!DNL UTC][!DNL TTL]日で実現。 [!DNL TTL] は24時間+ 24時間 — 1 = 47時間後に期限切れになります。
-* **例2**:特徴は23:00に1 [!DNL UTC]日で実現した [!DNL TTL]。 [!DNL TTL] 24 + 24 - 23 = 25時間後に期限が切れます。
+* **例 1**：1:00 [!DNL UTC] に認定され、[!DNL TTL] が 1 日の場合。[!DNL TTL] は、24 時間 + 24 時間 － 1 = 47 時間後に期限切れとなります。
+* **例 2**：23:00 [!DNL UTC] に認定され、[!DNL TTL] が 1 日の場合。[!DNL TTL] は、24 時間 + 24 時間 － 23 = 25 時間後に期限切れとなります。
 
 ## [!DNL TTL] とセグメントからのドロップアウト
 
-A user falls out of a segment if they do not qualify for any of its traits within the [!DNL TTL] interval. For example, if you have a 1-trait segment with a 30 days [!DNL TTL], the user will drop out of that segment if they do not qualify for the trait again within the next 30 days.
+ユーザーは、[!DNL TTL] 期間内にいずれの特性も確認されない場合、セグメントから除外されます。例えば、[!DNL TTL] が 30 日の 1 つの特性セグメントがある場合、30 日以内に再びその特性が確認されないと、ユーザーはそのセグメントからドロップアウトします。
 
 ![](assets/ttl-explained.png)
 
 ## [!DNL TTL] とセグメントの更新
 
-The [!DNL TTL] resets, and the user remains in a segment, if they qualify for that segment’s trait within the [!DNL TTL] period. Also, because most segments contain multiple traits with their own [!DNL TTL] intervals, a user can remain in a segment, and reset the [!DNL TTL] interval, as long as they keep qualifying for any traits associated with the segment.
+[!DNL TTL] 期間内にそのセグメントの特性が確認されると、[!DNL TTL] がリセットされ、ユーザーはセグメントにとどまります。また、ほとんどのセグメントにはそれぞれ独自の [!DNL TTL] 期間を持つ複数の特性が含まれているので、ユーザーは、セグメントに関連付けられた任意の特性が確認され続けている限り、セグメントにとどまることができます（[!DNL TTL] 期間はリセットされます）。
 
-例えば、特性 A（30 日の [!DNL TTL]）と特性 B（15 日の [!DNL TTL]）で構成されるセグメント 1 があるとします。Assuming a visitor qualifies for each trait only once, the illustration below outlines the [!DNL TTL] renewal process and total in-segment duration.
+例えば、特性 A（30 日の [!DNL TTL]）と特性 B（15 日の [!DNL TTL]）で構成されるセグメント 1 があるとします。訪問者について各特性が 1 回だけ確認されていると仮定した場合の、[!DNL TTL] 更新プロセスおよびセグメントに属している期間の合計を以下の図で説明します。
 
 ![](assets/ttl-renewal.png)
 
