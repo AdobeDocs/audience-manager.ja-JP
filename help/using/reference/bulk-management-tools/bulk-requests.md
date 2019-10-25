@@ -5,7 +5,7 @@ seo-title: 一括要求
 solution: Audience Manager
 title: 一括要求
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb17d417aa6b3cc213e69c5d71051f235d81c2a5
 
 ---
@@ -29,14 +29,14 @@ t_bulk_requests.xml
 
 一括リクエストをおこなうには、[!UICONTROL Bulk Management Tools] ワークシートを開き、以下の手順に従ってください。
 
-1. 「**[!UICONTROL Request]**」タブをクリックします。
+1. **[!UICONTROL Request]**&#x200B;タブをクリックします。
 2. ワークシートの上部にあるツールバーで、目的のデータに対応するリクエストボタンをクリックします。次のものをリクエストできます。
 
    * アルゴリズムモデル
    * データソース
    * 派生シグナル
    * 宛先マッピング
-   * アルゴリズム、ルールベース、およびオンボードの特性
+   * アルゴリズムを使用した、ルールベースの特性とオンボードの特性
    * セグメント
    * 特性フォルダーとセグメントフォルダーの ID
    [!DNL Audience Manager] API は一括データを [!UICONTROL Request] ワークシートに書き込みます。
