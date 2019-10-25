@@ -5,13 +5,13 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのインプ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f072c5328ac75bf3376f80e86418d25d4f10df23
 
 ---
 
 
-# ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ{#capturing-campaign-impression-data-via-pixel-calls}
+# ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ {#capturing-campaign-impression-data-via-pixel-calls}
 
 メディアデータを Audience Manager に送信する方法の 1 つとして、広告サーバーのマクロを使用してキャンペーン属性を Audience Manager に送信できます。
 
@@ -33,7 +33,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 
 このキーと値のペアでは、値変数は広告サーバーにより挿入された ID またはマクロです。広告タグが読み込まれると、`%macro%` は対応する必須の値に置き換えられます。この呼び出しでは、応答は返されません。
 
-## サポートされているキーと値のペア {#supported-key-value-pairs}
+## サポートされているキーと値のペア{#supported-key-value-pairs}
 
 インプレッションイベント呼び出しでは、キーと値のペアとして構成されているデータを受け付けます。次の表は、これらの変数を格納するキーの一覧と説明です。これらのうち多くは、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータのキャプチャと分析をおこなう場合に必要になります。
 
@@ -67,10 +67,10 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>このコンテキストでは、<code>d_cid</code> は、キーと値のペアをインスタンス化し、モバイルデバイスタイプを個人ユーザー ID に関連付けられるようにします。固定 ID により、モバイルデバイスタイプが決定されます。値（ユーザー ID）は変わることがあります。キーと値のペアを <code>%01</code>（非表示の制御文字）で区切ります。このパラメーターでは、次のキーを指定できます。 </p> 
+   <td colname="col2"> <p>このコンテキストでは、<code> d_cid </code> は、キーと値のペアをインスタンス化し、モバイルデバイスタイプを個人ユーザー ID に関連付けられるようにします。固定 ID により、モバイルデバイスタイプが決定されます。値（ユーザー ID）は変わることがあります。キーと値のペアを <code> %01 </code>（非表示の制御文字）で区切ります。このパラメーターでは、次のキーを指定できます。 </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
-     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Android（GAID）デバイスを表します。例えば、<code>d_cid = 20914 %01 1234</code> は、ユーザー 1234 が Android デバイスに関連付けられていることを表します。 </li> 
-     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: iOS（IDFA）デバイスを表します。例えば、<code>d_cid = 20915 %01 5678</code> は、ユーザー 5678 が iOS デバイスに関連付けられていることを表します。 </li> 
+     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Android（GAID）デバイスを表します。例えば、<code> d_cid = 20914 %01 1234 </code> は、ユーザー 1234 が Android デバイスに関連付けられていることを表します。 </li> 
+     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: iOS（IDFA）デバイスを表します。例えば、<code> d_cid = 20915 %01 5678 </code> は、ユーザー 5678 が iOS デバイスに関連付けられていることを表します。 </li> 
     </ul> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
@@ -95,7 +95,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
   </tr> 
    <tr> 
    <td colname="col1"> <code><i>gdpr</i></code>  </td> 
-   <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p> <p><code> gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p> </td> 
+   <td colname="col2"> <p><a href="../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p> <p><code>gdpr</code>   には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
