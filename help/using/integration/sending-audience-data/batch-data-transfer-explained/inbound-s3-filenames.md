@@ -5,7 +5,7 @@ seo-title: 受信データファイルの Amazon S3 名とファイルサイズ�
 solution: Audience Manager
 title: 受信データファイルの Amazon S3 名とファイルサイズの要件
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
 
 ---
@@ -55,22 +55,22 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p><span class="term">データプロバイダー ID</span>（DPID）は、データファイルにご自身のユーザー ID、または Android か iOS の ID が含まれているかどうかを <span class="keyword">Audience Manager</span> に通知するための ID です。次のオプションを使用できます。 </p> <p> <b>データパートナー ID</b> </p> <p>Audience Manager が会社や組織に割り当てる一意の ID です。ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。For example, <code>...ftp_dpm_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that a partner with ID 21 sent the file and it contains user IDs assigned by that partner. </p> <p> <b>Android ID（GAID）</b> </p> <p> ファイルに Android ID が含まれている場合、データファイル名の DPID として ID 20914 を使用します。DPID として ID 20914 を使用する場合、<span class="keyword">Audience Manager</span> で会社を特定する必要があります。This means the file name must use the <code><i>_DPID_TARGET_DATA_OWNER</i></code> parameter to hold your company ID. 例えば、Android ID が含まれるファイルを渡そうとしていて、データプロバイダー ID が 21 であるとします。In this case, the file name would look like <code>...ftp_dpm_20914_21_123456789.sync</code>. これにより、<span class="keyword">Audience Manager</span> は、ファイルに Android ID が含まれていること、およびこのファイルが ID 21 のパートナーからのものであることを認識します。 </p> <p> <b>iOS ID（IDFA）</b> </p> <p> ファイルに iOS ID が含まれている場合、データファイル名の DPID として ID 20915 を使用します。DPID として ID 20915 を使用する場合、<span class="keyword">Audience Manager</span> で会社を特定する必要があります。This means the file name must use the <code><i>_DPID_TARGET_DATA_OWNER</i></code> parameter to hold your company ID. 例えば、Android ID が含まれるファイルを渡そうとしていて、データプロバイダー ID が 21 であるとします。In this case, the file name would look like <code>...ftp_dpm_20915_21_123456789.sync</code>. これにより、<span class="keyword">Audience Manager</span> は、ファイルに iOS ID が含まれていること、およびこのファイルが ID 21 のパートナーからのものであることを認識します。 </p> 
+   <td colname="col2"> <p><span class="term">データプロバイダー ID</span>（DPID）は、データファイルにご自身のユーザー ID、または Android か iOS の ID が含まれているかどうかを <span class="keyword">Audience Manager</span> に通知するための ID です。次のオプションを使用できます。 </p> <p> <b>データパートナー ID</b> </p> <p>Audience Manager が会社や組織に割り当てる一意の ID です。ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。例えば、「<code>...ftp_dpm_21_123456789.sync</code>」は、ID が 21 であるパートナーがファイルの送信者で、このファイルにはそのパートナーが割り当てたユーザー ID が含まれていることを <span class="keyword">Audience Manager</span> に通知します。 </p> <p> <b>Android ID（GAID）</b> </p> <p> ファイルに Android ID が含まれている場合、データファイル名の DPID として ID 20914 を使用します。DPID として ID 20914 を使用する場合、<span class="keyword">Audience Manager</span> で会社を特定する必要があります。つまり、ファイル名で <code><i>_DPID_TARGET_DATA_OWNER</i></code> パラメーターを使用して会社 ID を含める必要があります。例えば、Android ID が含まれるファイルを渡そうとしていて、データプロバイダー ID が 21 であるとします。この場合、ファイル名は <code>...ftp_dpm_20914_21_123456789.sync</code> のようになります。これにより、<span class="keyword">Audience Manager</span> は、ファイルに Android ID が含まれていること、およびこのファイルが ID 21 のパートナーからのものであることを認識します。 </p> <p> <b>iOS ID（IDFA）</b> </p> <p> ファイルに iOS ID が含まれている場合、データファイル名の DPID として ID 20915 を使用します。DPID として ID 20915 を使用する場合、<span class="keyword">Audience Manager</span> で会社を特定する必要があります。つまり、ファイル名で <code><i>_DPID_TARGET_DATA_OWNER</i></code> パラメーターを使用して会社 ID を含める必要があります。例えば、Android ID が含まれるファイルを渡そうとしていて、データプロバイダー ID が 21 であるとします。この場合、ファイル名は <code>...ftp_dpm_20915_21_123456789.sync</code> のようになります。これにより、<span class="keyword">Audience Manager</span> は、ファイルに iOS ID が含まれていること、およびこのファイルが ID 21 のパートナーからのものであることを認識します。 </p> 
     <draft-comment> 
      <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データパートナー ID：</b>Audience Manager が会社や組織に割り当てる一意の ID です。ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。For example, <code>...ftp_dpm_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that a partner with ID 21 sent the file and it contains user IDs assigned by that partner. </li> 
-      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID（GAID）：</b>データファイルに Android の ID が含まれている場合、ファイル名に ID 20914 を使用します。For example, <code>...ftp_dpm_20914_21_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains Android IDs only. 注意：ID が 21 である </li> 
-      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。For example, <code>...ftp_dpm_20915_123456789.sync</code> tells <span class="keyword"> Audience Manager</span> that the data file contains iOS IDs only. </li> 
+      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データパートナー ID：</b>Audience Manager が会社や組織に割り当てる一意の ID です。ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。例えば、「<code>...ftp_dpm_21_123456789.sync</code>」は、ID が 21 であるパートナーがファイルの送信者で、このファイルにはそのパートナーが割り当てたユーザー ID が含まれていることを <span class="keyword">Audience Manager</span> に通知します。 </li> 
+      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID（GAID）：</b>データファイルに Android の ID が含まれている場合、ファイル名に ID 20914 を使用します。例えば、「<code>...ftp_dpm_20914_21_123456789.sync</code>」は、データファイルに Android の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。注意：ID が 21 である </li> 
+      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。例えば、「<code>...ftp_dpm_20915_123456789.sync</code>.」は、データファイルに iOS の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
      </ul> 
-    </draft-comment> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p><p>詳しくは <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">、「グローバルデータソース</a> 」を参照してください。</p> <p>See also the <code><i>_DPID_TARGET_DATA_OWNER</i></code> entry below. </p> </td> 
+    </draft-comment> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p><p>詳しくは、「<a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-sources/global-data-sources.html">グローバルデータソース</a>」を参照してください。</p> <p>下記の <code><i>_DPID_TARGET_DATA_OWNER</i></code> エントリも参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
    <td colname="col2"> <p>ID のプレースホルダー。例えば、DPID をデータソース ID か、Android または iOS の ID に設定した場合、これを <span class="keyword">Audience Manager</span> ID に設定することができます。これにより、<span class="keyword">Audience Manager</span> はファイルデータを組織にリンクすることができます。 </p> <p>次に例を示します。 </p> 
     <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
-     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> に、ID 21のパートナーが、ID 33を使用するデータソースからデータを送信したことを示します。 </li> 
-     <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> に、ID 21のパートナーがAndroid IDを含むデータを送信したことを示します。 </li> 
-     <li id="li_3D73168391D7443BADDF27153090274D"> <code>...ftp_dpm_20915_21_1234567890.sync</code> に、ID 21のパートナーがiOS IDを含むデータで送信したことを示します。 </li> 
+     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> 「<code>...ftp_dpm_33_21_1234567890.sync</code>」は、ID が 21 であるパートナーが、ID が 33 であるデータソースからのデータを送信したことを示しています。 </li> 
+     <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> 「<code>...ftp_dpm_20914_21_1234567890.sync</code>」は、ID が 21 であるパートナーが、Android の ID を含むデータを送信したことを示しています。 </li> 
+     <li id="li_3D73168391D7443BADDF27153090274D"> 「<code>...ftp_dpm_20915_21_1234567890.sync</code>」は、ID が 21 であるパートナーが、iOS の ID を含むデータを送信したことを示しています。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>ファイルを Amazon S3 に送信する場合、gzip 圧縮のみを使用します。When compressed, these files get the <code> .gz</code> extension. .zip 圧縮は使用しないでください。 </p> <p>圧縮ファイルのサイズは 3 GB 以下である必要があります。ファイルがそれより大きい場合は、カスタマーケアにお問い合わせください。Audience Manager で大きなファイルを操作することは可能ですが、ファイルのサイズを小さくして、効率的にデータを転送できるようにすることもできます。詳しくは、<a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">受信データ転送ファイルのファイル圧縮</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ファイルを Amazon S3 に送信する場合、gzip 圧縮のみを使用します。これらのファイルを圧縮すると、拡張子は <code> .gz</code> になります。.zip 圧縮は使用しないでください。 </p> <p>圧縮ファイルのサイズは 3 GB 以下である必要があります。ファイルがそれより大きい場合は、カスタマーケアにお問い合わせください。Audience Manager で大きなファイルを操作することは可能ですが、ファイルのサイズを小さくして、効率的にデータを転送できるようにすることもできます。詳しくは、<a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">受信データ転送ファイルのファイル圧縮</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 追加の例が必要であれば、サンプルを[ダウンロード](assets/ftp_dpm_1234_1445374061.overwrite)することもできます。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 許容されるファイルサイズ {#accepted-file-sizes}
+## 許容されるファイルサイズ{#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL Amazon S3] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
