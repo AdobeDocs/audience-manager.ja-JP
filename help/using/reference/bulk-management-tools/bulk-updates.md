@@ -1,12 +1,12 @@
 ---
-description: 一括更新を使用すると、1回の操作で複数のセグメント、特性、モデル、データソース、セグメントまたは特性フォルダーの要素を編集できます。 一括更新をおこなうには、以下の手順に従ってください。
+description: 一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。一括更新をおこなうには、以下の手順に従ってください。
 keywords: baaam
-seo-description: 一括更新を使用すると、1回の操作で複数のセグメント、特性、モデル、データソース、セグメントまたは特性フォルダーの要素を編集できます。 一括更新をおこなうには、以下の手順に従ってください。
+seo-description: 一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。一括更新をおこなうには、以下の手順に従ってください。
 seo-title: 一括更新
 solution: Audience Manager
 title: 一括更新
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 # 一括更新{#bulk-updates}
 
-一括更新を使用すると、1回の操作で複数のセグメント、特性、モデル、データソース、セグメントまたは特性フォルダーの要素を編集できます。 一括更新をおこなうには、以下の手順に従ってください。
+一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。一括更新をおこなうには、以下の手順に従ってください。
 
 <!-- 
 
@@ -28,8 +28,8 @@ t_bulk_updates.xml
 
 一括更新をおこなうには、[!UICONTROL Bulk Management Tools] ワークシートを開き、以下の手順に従ってください。
 
-1. 「**[!UICONTROL Headers]**」タブをクリックして、編集する項目の更新ヘッダーをコピーします。
-1. 「**[!UICONTROL Update]**」タブをクリックします。
+1. **[!UICONTROL Headers]**&#x200B;タブをクリックして、編集する項目の更新ヘッダーをコピーします。
+1. **[!UICONTROL Update]**&#x200B;タブをクリックします。
 1. 更新ヘッダーを、更新ワークシートの 1 行目に貼り付けます。以下のことに注意してください。
 
    * フォルダーの更新時には、すべてのヘッダーが必須です。
@@ -38,7 +38,7 @@ t_bulk_updates.xml
 1. ヘッダーラベルに基づいて、変更するデータを対応する列に貼り付けるか入力します。
 1. ワークシートのツールバーで、更新する項目に対応する更新ボタンをクリックします。これにより、[!UICONTROL Account Information] ダイアログボックスが開きます。
 
-1. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、「**[!UICONTROL Submit]**」をクリックします。
+1. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
    ワークシートに「[!UICONTROL Results]」列が作成されます。「[!UICONTROL Results]」列には、成功した操作の JSON レスポンスが返されます。例については[ REST API](../../api/rest-api-main/rest-api-main.md) を参照してください。データを入力する前の一括更新ワークシートは、次のようになります。
 
