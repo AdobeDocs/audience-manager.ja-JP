@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールダッシュボード
 solution: Audience Manager
 title: プロファイル結合ルールダッシュボード
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 すべての結合ルールはダッシュボードで作成および管理します。最大4 つの[!UICONTROL Profile Merge Rules]を作成できます。
 
-4つ目のプロファイル結合ルール([!UICONTROL All Cross-Device Profiles])は、アドオンを購入した顧客のみ [!UICONTROL People-Based Destinations] が使用できます。
+4つ目のプロファイル結合ルール（[!UICONTROL All Cross-Device Profiles]）は、[!UICONTROL People-Based Destinations] アドオンを購入したユーザーのみが使用できます。
 
 [!UICONTROL Profile Merge Rules] ダッシュボードには、[!UICONTROL Profile Merge Rules] を管理できる統合ワークスペースが用意されています。ダッシュボードは **[!UICONTROL Audience Data]**／**[!UICONTROL Profile Merge Rules]** にあります。ルールダッシュボードは以下の例のようになっています。
 
@@ -23,11 +23,11 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 [!UICONTROL Profile Merge Rules] を操作すると、次のことが可能になります。
 
-* Create a maximum of 4 [!UICONTROL Profile Merge Rules] from your cross-device data sources. 「[クロスデバイス対応データソースの作成](merge-rules-start.md#create-data-source)」を参照してください。
+* クロスデバイス対応データソースから最大 4 つの[!UICONTROL Profile Merge Rules]を作成する。「[クロスデバイス対応データソースの作成](merge-rules-start.md#create-data-source)」を参照してください。
 * デフォルトの結合ルールを指定する。[セグメントビルダー](../segments/segment-builder.md)により、作成されるすべての新規セグメントにデフォルトのルールが自動的に適用されます。
 * [データエクスポートコントロール](../data-export-controls.md)を結合ルールに適用する。[!UICONTROL Data Export Controls]を使用すると、データの送信がデータのプライバシーや使用契約に違反する場合に、データを宛先に送信できないようになります。
 * ユーザーごとのデバイスの平均数を追跡する。
-* ルールの作成、編集、削除に使用する基本コントロールを操作する。ルールを管理できるのは管理者のみですが、他のユーザーでもルールを表示したり、セグメントに適用したりできます。See [Profile Merge Rule Options Defined](merge-rule-definitions.md) and [Use Cases for Merge Rules](merge-rule-targeting-options.md).
+* ルールの作成、編集、削除に使用する基本コントロールを操作する。ルールを管理できるのは管理者のみですが、他のユーザーでもルールを表示したり、セグメントに適用したりできます。「[定義済みのプロファイルの結合ルールオプション](merge-rule-definitions.md)」および「[結合ルールのユースケース](merge-rule-targeting-options.md)」を参照してください。
 
 >[!MORE_LIKE_THIS]
 >
