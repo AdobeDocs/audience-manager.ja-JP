@@ -5,7 +5,7 @@ seo-title: グローバルデータソース
 solution: Audience Manager
 title: グローバルデータソース
 uuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
 | 121963 | **広告用 ID** - **RIDA**[!DNL Roku] は Roku のストリーミングデバイスを表します。 |
 | 389146 | **Microsoft 広告 ID** - **MAID**[!DNL Windows 10] は オペレーティングシステムを実行するデバイスを表します。 |
 | 404660 | **DUID**[!DNL Samsung] は Samsung のスマートテレビを表します。 |
-| 488258 | **Amazon Fire TV広告IDは、実**&#x200B;行中のデバイスを表します [!DNL Amazon Fire OS] |
+| 488258 | **Amazon Fire TV 広告 ID** は、[!DNL Amazon Fire OS] を実行中のデバイスを表します。 |
 
 ## グローバルデータソースからのデータのインポート
 
@@ -57,4 +57,4 @@ Audience Manager では、[AAM UUID](../faq/faq-privacy.md) と同様に、120 �
 
 * リクエストするプラットフォームの名前（例：[!UICONTROL Apple IDFA]）
 * プラットフォームを管理する会社または組織の名前（例：[!UICONTROL Apple Inc.]）
-* Links to the technical specifications for the device advertising ID namespace (e.g., [AdSupport Documentation](https://developer.apple.com/documentation/adsupport)).
+* デバイス広告 ID の名前空間の技術仕様へのリンク（例：[AdSupport Documentation](https://developer.apple.com/documentation/adsupport)）。
