@@ -6,7 +6,7 @@ seo-title: プロファイル結合ルールおよびデバイスグラフに関
 solution: Audience Manager
 title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddec078f406b5386b10247b42f1b8bde6b0253e4
 
 ---
@@ -34,7 +34,7 @@ source-git-commit: ddec078f406b5386b10247b42f1b8bde6b0253e4
 
 **外部デバイスグラフを[!UICONTROL Profile Merge Rule]で使用する一般的な例にはどのようなものがありますか？**
 
-[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体には、DSPが提供する広告を持つ見込み客をターゲットにしたり、オンサイトパーソナライゼーションプラットフォームを使用して顧客のオンサイトエクスペリエンスをパーソナライズしたりするなど、複数の用途があります。 See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
+[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体にも様々な用途があります。例えば、DSP が提供する広告により見込み客のオーディエンスをターゲット化したり、サイト上のパーソナライゼーションプラットフォームから顧客のオンサイトエクスペリエンスをパーソナライズ化することが挙げられます。[外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
 
  
 
@@ -64,13 +64,13 @@ source-git-commit: ddec078f406b5386b10247b42f1b8bde6b0253e4
 
 **[!UICONTROL Profile Merge Rules]はいくつ作成することができますか？**
 
-現在、[!UICONTROL Profile Merge Rules] は最大 4 つまで作成できます。4つ目のプロファイル結合ルール([!UICONTROL All Cross-Device Profiles])は、アドオンを購入した顧客のみ [!UICONTROL People-Based Destinations] が使用できます。
+現在、[!UICONTROL Profile Merge Rules] は最大 4 つまで作成できます。4つ目のプロファイル結合ルール（[!UICONTROL All Cross-Device Profiles]）は、[!UICONTROL People-Based Destinations] アドオンを購入したユーザーのみが使用できます。
 
  
 
 **デバイスグラフを[!UICONTROL Profile Merge Rule]で使用する場合、[!DNL Audience Manager]は何件のデバイスプロファイルを結合して読み取りますか？**
 
-When qualifying a device for a segment using a [!UICONTROL Profile Merge Rule], Audience Manager merges and reads the current device profile and a maximum of 99 other additional device profiles linked by your selected device graph option.
+[!UICONTROL Profile Merge Rule] を使用してデバイスのセグメント認定をおこなう場合、Audience Manager は現在のデバイスプロファイルと、選択したデバイスグラフオプションでリンクされたその他最大 99 件のデバイスプロファイルを結合して読み取ります。
 
  
 
@@ -90,7 +90,7 @@ When qualifying a device for a segment using a [!UICONTROL Profile Merge Rule], 
 
 **デバイスグラフを使用する[!UICONTROL Profile Merge Rule]でデバイスがセグメント認定されない場合、[!DNL Audience Manager]はどのようにしてデバイスのセグメント化を解除しますか？**
 
-Audience Manager merges up to 100 devices when evaluating segments with a [!UICONTROL Profile Merge Rule] that uses a device graph. セグメント解除信号が発行されると、現在のデバイスと最大99個の追加デバイスが宛先のセグメントから削除されます。 セグメント化の解除について詳しくは、プロファイルの結合ル [ールとデバイスのセグメント化解除プロセスを参照してください](../features/profile-merge-rules/merge-rule-unsegment.md)。
+Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile Merge Rule] でセグメントを評価する場合、最大 4 台のデバイスを結合します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された最大 99 台の追加デバイスが宛先のセグメントから削除されます。セグメント化の解除について詳しくは、[プロファイルの結合ルールとデバイスのセグメント化解除プロセス](../features/profile-merge-rules/merge-rule-unsegment.md)を参照してください。
 
  
 
@@ -108,7 +108,7 @@ Audience Manager merges up to 100 devices when evaluating segments with a [!UICO
 
 **セグメントサイズの予測には、デバイスグラフオプションを使用する[!UICONTROL Profile Merge Rule]で設定される結合に基づいてセグメント認定されるデバイスは含まれますか？**
 
-いいえ。[!UICONTROL Estimated Real-Time Population]セグメントビルダーの特性およびセグメント母集団データ[!UICONTROL Estimated Total Population]で、[ および ](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) の定義を参照してください。
+いいえ。[!UICONTROL Estimated Real-Time Population]セグメントビルダーの特性およびセグメント母集団データ[!UICONTROL Estimated Total Population]で、[ および  の定義を参照してください](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html)。
 
  
 
@@ -118,9 +118,9 @@ Audience Manager merges up to 100 devices when evaluating segments with a [!UICO
 
  
 
-**セグメントで[!UICONTROL Profile Merge Rule][!UICONTROL No Cross-Device Profile]withを使用し、セグメントのデバイスを修飾する特性がクロスデバイスプロファイルにのみ保存されている場合、セグメントの合計母集団は0になりますか。**
+**セグメントで[!UICONTROL No Cross-Device Profile]が設定されている[!UICONTROL Profile Merge Rule]を使用していて、デバイスをセグメント認定する特性が認証済みプロファイルのみについて保存される場合、セグメントの合計母集団は 0 になりますか？**
 
-はい。プロファイル結合ルールがに設定されている場合、Audience Managerは、セグメント評価でデバイス間プロファイルに保存された特徴をカウントしませ [!UICONTROL No Cross-Device Profile]ん。
+はい。プロファイル結合ルールが [!UICONTROL No Cross-Device Profile] に設定されている場合、Audience Manager は、セグメント評価で黒相デバイス対応プロファイルに保存された特性をカウントしませ ん。
 
  
 
