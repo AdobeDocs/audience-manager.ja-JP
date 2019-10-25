@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールの導入
 solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
@@ -34,8 +34,8 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 1. データソースの名前を入力します。
 2. *（オプション）*&#x200B;データソースの説明を入力します。データソースの役割や目的を定義するのに、簡潔な説明が役に立ちます。
 3. 統合コードを指定します。統合コードは、このデータソース専用の一意の ID です。
-4. 「**[!UICONTROL ID Type]**」リストで、「**[!UICONTROL Cross Device]**」を選択します。
-5. 「**[!UICONTROL ID Definition]**」リストで、データソースタイプを定義するオプションを選択します。オプションは以下のとおりです。
+4. **[!UICONTROL ID Type]**&#x200B;リストで、**[!UICONTROL Cross Device]**&#x200B;を選択します。
+5. **[!UICONTROL ID Definition]**&#x200B;リストで、データソースタイプを定義するオプションを選択します。オプションは以下のとおりです。
    * **[!UICONTROL Person]**：個人を定義する ID。この ID は複数の [!DNL Audience Manager] ID にマッピングできます。
    * **[!UICONTROL Household]**：ユーザーのグループを定義する ID。この ID は複数の [!DNL Audience Manager] ID にマッピングできます。
 
@@ -53,7 +53,7 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 * **[!UICONTROL Data retention for inactive Customer IDs]**：非アクティブな顧客 ID のデータ保持期間を設定します。これにより、Audience Manager プラットフォームに Audience Manager が最後に表示された後、Audience Manager がデータベースに顧客 ID を保持する期間を決定します。デフォルト値は 24 か月（720 日）です。設定できる最小値は 1 か月、最大値は 5 年です。すべての月は 30 日としてカウントされます。Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。
 
-これらの設定と関連付けられているテキストフィールドでは、[!UICONTROL Data Source]の名前を[プロファイル統合ルールオプション](merge-rule-definitions.md)に表示されるエイリアスに置き換えることができます。例えば、「**[!UICONTROL Use as Authenticated Profile]**」にエイリアスを追加した場合は、その名前が「[!UICONTROL Authenticated Profile Options]」リストに表示されます。「**[!UICONTROL Use as a Device Graph]**」にエイリアスを追加した場合は、その名前が「[!UICONTROL Device Options]」リストに表示されます。
+これらの設定と関連付けられているテキストフィールドでは、[!UICONTROL Data Source]の名前を[プロファイル統合ルールオプション](merge-rule-definitions.md)に表示されるエイリアスに置き換えることができます。例えば、**[!UICONTROL Use as Authenticated Profile]**&#x200B;にエイリアスを追加した場合は、その名前が「[!UICONTROL Authenticated Profile Options]」リストに表示されます。**[!UICONTROL Use as a Device Graph]**&#x200B;にエイリアスを追加した場合は、その名前が「[!UICONTROL Device Options]」リストに表示されます。
 
 >[!MORE_LIKE_THIS]
 >
@@ -64,7 +64,7 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 [!UICONTROL Profile Merge Rule]を作成するには、**[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** へ移動し、ここで説明している各セクションの手順を完了します。
 
-クロスデバイス対応データソースをセットアップした後、最大 3 個の結合ルールを作成できます。人物ベースの宛先にサインアップすると、4番目のプロファイル結合[!UICONTROL All Cross-Device Profiles]ルール( [)にアク](../destinations/people-based-destinations-overview.md)セスできます。
+クロスデバイス対応データソースをセットアップした後、最大 3 個の結合ルールを作成できます。[People-Based Destinations](../destinations/people-based-destinations-overview.md) に新規登録すると、4 番目のプロファイル結合ルール（[!UICONTROL All Cross-Device Profiles]）にアクセスできるようになります。
 
 ルールの作成、編集、削除には、管理者権限が必要です。すべてのユーザーが既存の[!UICONTROL Profile Merge Rules]を表示および使用できます。
 
@@ -92,17 +92,17 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 「[!UICONTROL Proflie Merge Rule Setup]」セクションを完了するには：
 
-1. 「**[!UICONTROL Authenticated Option]**」を選択します。オプションは以下のとおりです。
+1. **[!UICONTROL Authenticated Option]**&#x200B;を選択します。オプションは以下のとおりです。
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
 2. **[!UICONTROL Authenticated Profile Option]**（最大 3 つ）を選択します。これらは以前作成した[クロスデバイス対応データソース](merge-rules-start.md)です。
-3. 「**[!UICONTROL Device Option]**」を選択します。オプションは以下のとおりです。
+3. **[!UICONTROL Device Option]**&#x200B;を選択します。オプションは以下のとおりです。
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
-4. 「**[!UICONTROL Save]**」をクリックします。
+4. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## 結合ルールコードの設定 {#configure-merge-rule-code}
 
@@ -140,7 +140,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-詳しくは、「デバイス間のデ [ータソースの作成](#create-data-source) 」と「顧客IDと認 [証状態」を参照してください](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html)。
+詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid_customer_ids.html)を参照してください。
 
 ### `DIL.create` 関数の設定
 
@@ -155,7 +155,7 @@ var vDil = DIL.create({
 });
 ```
 
-namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html)も参照してください。
+namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=admin_getting_started.html)も参照してください。
 
 ### SDK の設定
 
@@ -175,7 +175,7 @@ DIL.create({
 });
 ```
 
-詳しくは、[!UICONTROL DIL]宣言済み ID 変数[の ](../declared-ids.md#declared-id-variables) の節を参照してください。
+詳しくは、[宣言済み ID 変数](../declared-ids.md#declared-id-variables)の [!UICONTROL DIL] の節を参照してください。
 
 ### SDK の設定 {#configure-sdks-legacy-dil}
 
@@ -213,4 +213,4 @@ DIL.create({
  </tbody>
 </table>
 
-[Android 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html)と[ iOS 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html)も参照してください。
+[Android 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/android/?f=c_audience_manager_methods.html)と[ iOS 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/?f=aam_methods.html)も参照してください。
