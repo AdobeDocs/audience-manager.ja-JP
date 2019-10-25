@@ -6,7 +6,7 @@ seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
 
 # 一括管理の概要{#getting-started-with-bulk-management}
 
-バルク管理ツールを使用すると、1回の操作で複数のオブジェクトを一度に作成および管理できます。 バルク管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、モデル、セグメントおよび特性を操作できます。
+一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、モデル、セグメントおよび特性を処理できます。
 
 <!-- 
 
@@ -38,38 +38,38 @@ c_bulk_start.xml
 
 [!DNL Bulk Management Tools] を使用するには、以下が必要です。
 
-* ログイ [!DNL Experience Cloud] ンします。 お客様が既にお持ちの資格情報です。
+* [!DNL Experience Cloud] へのログイン。お客様が既にお持ちの資格情報です。
 * [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download)してください。
-* Microsoft excelが64ビッ [!DNL macOS] ト版または64ビット版 [!DNL Microsoft Windows]。
-* ワークシートを開く場合は、[マクロを有効に **する** ]を有効にする [!DNL Bulk Management Tools] 必要があります。
+* [!DNL macOS] または 64 ビット版 [!DNL Microsoft Windows] で実行している Microsoft Excel。
+* ワークシートを開く場合は、[!DNL Bulk Management Tools] で&#x200B;**マクロを有効にする**&#x200B;必要があります。
 
 ## 認証の要件およびオプション {#auth-reqs}
 
-一括変更には認証が必要となります。何らかの操作を行う前に、ログインする必要があります。 ワークシートはAPI呼び出しを行うので、ユーザーアカウントで認証を受けるように設定する必要があります。
+一括変更には認証が必要となります。操作を開始する前に、ログインする必要があります。ワークシートでは API 呼び出しがおこなわれるので、ユーザーアカウントで認証するよう設定する必要はありません。
 
 **API 認証の要件**
 
-2019年10月にリリースされた2つ目のバージョンのバルク管理ツールは、認証プロセスを簡素化します。 このバージョンの認証手順を以下に示します。
+2019 年 10 月にリリースされた一括管理ツールの 2 つ目のバージョンは、認証プロセスを簡素化します。このバージョンの認証手順を以下に示します。
 
-1. スプレッドシートを開き、 **Config** シートに移動します。
+1. スプレッドシートを開き、**Config** シートに移動します。
 2. シートに示されている手順に従います。
    ![](assets/baaam-authentication.png)
 3. 手順が完了すると、一括変更を行う権限が与えられます。
 
-一括変更を行う場合、変更を行う権限があることを確認する必要がありますが、API認証は自動的に行われます。
+一括変更を行う場合、変更をおこなう権限があることを確認する必要がありますが、API 認証は自動的に行われます。
 
 **ドメイン認証のオプション**
 
-ドメイン認証では、一括要求をテストすることも、直接本稼動アカウントに適用することもできます。ベータ版環境を一括変更しても、実稼働版アカウントには影響しません。 本稼動アカウントへの変更は即座に反映されます。バルク管理シートを使用すると、次の環境で作業できます。
+ドメイン認証では、一括要求をテストすることも、直接実稼動アカウントに適用することもできます。テスト環境で一括変更をおこなっても、実稼動アカウントには反映されません。実稼動アカウントへの変更は即座に反映されます。一括管理シートを使用すると、次の環境で作業できます。
 
 * ベータ
 * 実稼動
 
 ## アクションおよび操作 {#actions-ops}
 
-The [!UICONTROL Bulk Management Tools] worksheet consists of authentication buttons, action tabs, action buttons, and a **[!UICONTROL Headers]** tab. 「**[!UICONTROL Headers]**」タブには、アクションタブで使用される書式化済みの列ヘッダーがあります。アクションタブには選択した一括操作を実行するためのマクロが用意されています。一括操作を実行するには、該当するアクションタブにヘッダーをまとめてコピーし、ヘッダーデータを入力し、アクションボタンをクリックします。
+[!UICONTROL Bulk Management Tools]ワークシートは、認証ボタン、アクションタブ、アクションボタンおよび&#x200B;**[!UICONTROL Headers]**&#x200B;タブで構成されています。**[!UICONTROL Headers]**&#x200B;タブには、アクションタブで使用される書式化済みの列ヘッダーがあります。アクションタブには選択した一括操作を実行するためのマクロが用意されています。一括操作を実行するには、該当するアクションタブにヘッダーをまとめてコピーし、ヘッダーデータを入力し、アクションボタンをクリックします。
 
-認証 [後](#auth-reqs)、操作ボタンをクリックして開始します。
+[認証](#auth-reqs)後、アクションボタンをクリックして開始します。
 
 ![](assets/baaam-worksheet.png)
 
@@ -92,7 +92,7 @@ The [!UICONTROL Bulk Management Tools] worksheet consists of authentication butt
       <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Estimate </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Delete </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>一括変更できるオブジェクトは、「<b><span class="uicontrol">Headers</span></b>」タブに配置されており、次の項目などがあります。 </p> <p> 
+   <td colname="col2"> <p>一括変更できるオブジェクトは、<b><span class="uicontrol">Headers</span></b>タブに配置されており、次の項目などがあります。 </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> データソース</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> 派生シグナル</a> </li> 
@@ -110,10 +110,10 @@ The [!UICONTROL Bulk Management Tools] worksheet consists of authentication butt
 
 例えば、複数の特性を一度に作成する方法を見てみましょう。一括操作で複数の特性を作成するには、次の手順に従います。
 
-1. 「**[!UICONTROL Headers]**」タブをクリックし、「[!UICONTROL Create a Trait]」オプション配下のすべてのラベルをコピーします。
+1. **[!UICONTROL Headers]**&#x200B;タブをクリックし、「[!UICONTROL Create a Trait]」オプション配下のすべてのラベルをコピーします。
 
-2. 「**[!UICONTROL Create]**」タブをクリックし、1 行目の列 A を先頭にラベルをペーストします。
-3. 各列ヘッダーに関する情報を入力し、「**[!UICONTROL Create Traits]**」をクリックします。認証を確認するプロンプトが表示されます。 バルクジョブは、認証を確認した後で実行されます。 ワークシートの左下隅に表示されるジョブステータス通知を確認してください。
+2. **[!UICONTROL Create]**&#x200B;タブをクリックし、1 行目の列 A を先頭にラベルをペーストします。
+3. 各列ヘッダーに関する情報を入力し、**[!UICONTROL Create Traits]**&#x200B;をクリックします。このアクションにより、認証を確認するプロンプトが表示されます。一括ジョブは、認証を確認した後で実行されます。ワークシートの左下隅に表示されるジョブステータス通知を確認してください。
 
 >[!NOTE]
 >
