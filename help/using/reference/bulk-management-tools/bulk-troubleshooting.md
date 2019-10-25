@@ -5,7 +5,7 @@ seo-title: 一括管理ツールのトラブルシューティングのヒント
 solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
 
 ---
@@ -34,7 +34,7 @@ source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
 * 更新済みの行をすべて削除する。
 * 再度一括リクエストを試行する。
 
-## 遅延が長い、または応答がない {#delays-behavior}
+## 遅延が長い、または応答がない{#delays-behavior}
 
 次の表は、ワークシートで一括リクエストをおこなう場合に発生する可能性がある一般的な問題のリストです。推奨される解決策により問題の解決を試してください。推奨される解決策で問題が解決しない場合、作業内容を保存し、コンピューターを再起動して、他のアプリケーションの起動や操作をおこなわずにリクエストを再度試行してください。
 
@@ -68,5 +68,5 @@ source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
 
 ## エラーメッセージ
 
-一括変更を行う際にエラーメッセージが表示される場合があります。 エラーメッセージを解釈するには、APIドキュメ [ントの「Response Codes Defined](/help/using/api/rest-api-main/aam-api-getting-started.md) 」を参照してください。
+一括変更をおこなう際にエラーメッセージが表示される場合があります。エラーメッセージを解釈するには、API ドキュメントの「[定義されている応答コード](/help/using/api/rest-api-main/aam-api-getting-started.md)」を参照してください。
 
