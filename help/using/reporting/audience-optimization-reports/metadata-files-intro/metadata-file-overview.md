@@ -5,7 +5,7 @@ seo-title: メタデータファイルの概要とマッピング
 solution: Audience Manager
 title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
@@ -41,7 +41,7 @@ source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ![](assets/metadata_menu.png)
 
-## ファイルのマッピング {#file-mappings}
+## ファイルのマッピング{#file-mappings}
 
 次の表は、[!UICONTROL Audience Optimization]レポートで使用するデータが格納されるキーと値のペアの一覧です。メタデータファイルを使用する必要がある場合、このキーと値のペアの値に対応する、わかりやすい情報がメタデータに含まれています。これらのキーの値には整数（データ型 INT）しか使用できません。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
 
@@ -134,7 +134,7 @@ source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ### ファイルの配信
 
-ファイルに名前を設定し、データを追加したら、[!DNL Audience Manager] で指定されている Amazon S3 ストレージディレクトリにファイルを送信します。See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+ファイルに名前を設定し、データを追加したら、[!DNL Audience Manager] で指定されている Amazon S3 ストレージディレクトリにファイルを送信します。[メタデータファイルの配信方法](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)を参照してください。
 
 >[!MORE_LIKE_THIS]
 >
