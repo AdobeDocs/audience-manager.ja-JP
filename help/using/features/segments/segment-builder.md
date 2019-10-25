@@ -5,7 +5,7 @@ seo-title: セグメントビルダー
 solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ## ビデオデモ
 
-まず、Audience Managerでのセグメ [ントの作成ビデオを見てみましょう](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)。 このビデオでは、セグメントの作成プロセスに関する手順を説明します。詳しくは、以下のセクションを参照してください。
+まず、[Audience Manager でのセグメントの作成ビデオ](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)をご覧ください。このビデオでは、セグメントの作成プロセスに関する手順を説明します。詳しくは、以下のセクションを参照してください。
 
 ## セグメントの作成 {#create-segment}
 
@@ -27,26 +27,26 @@ source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 [!UICONTROL Segment Builder] は、[!UICONTROL Basic Information]、[!UICONTROL Traits]、[!UICONTROL Destinations Mapping] の 3 つのセクションで構成されます。セグメントを作成するには、「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Traits]」セクションの必須フィールドに入力します。「[!UICONTROL Destinations Mapping]」の設定はオプションです。詳しいヘルプについては、後述の説明を参照してください。
 
-![作成セグメント](assets/create-segment.png)
+![create-segment](assets/create-segment.png)
 
 1. 「[Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics)」セクションで、以下の操作をおこないます。
    * セグメントの名前を設定します。セグメント名の最大長は 255 文字です。
    * セグメントのステータスを設定します（デフォルトは「active」です）。
-   * データソースを選択します。最初のドロップダウンメニューを使用して、Audience Managerのデータソース、Adobe Analyticsのレポートスイート、またはその両方をフィルターします。 次に、2番目のドロップダウンメニューを使用して、データソースを選択します。 Adobe Analyticsレポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトではAudience Managerデータソースのみに設定されます。
+   * データソースを選択します。最初のドロップダウンメニューを使用して、Audience Manager のデータソース、Adobe Analytics のレポートスイート、またはその両方をフィルタリングします。次に、2 番目のドロップダウンメニューを使用して、データソースを選択します。Adobe Analytics レポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトで Audience Manager データソースのみに設定されます。
    * セグメント認定に使用するプロファイル結合ルールを選択します。
    * セグメントを保存フォルダーに割り当てます。
 2. 「[Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits)」セクションで、以下の操作をおこないます。
-   * セグメントに追加する特性を検索して「**[!UICONTROL Add Trait]**」をクリックします。他の特性を追加し、特性グループを作成します。
-   * 「**[!UICONTROL Browse All Traits]**」をクリックして詳細検索モーダルを表示します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。また、特性タイプを基準に特性をフィルタリングすることもできます。
+   * セグメントに追加する特性を検索して&#x200B;**[!UICONTROL Add Trait]**&#x200B;をクリックします。他の特性を追加し、特性グループを作成します。
+   * **[!UICONTROL Browse All Traits]**&#x200B;をクリックして詳細検索モーダルを表示します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。また、特性タイプを基準に特性をフィルタリングすることもできます。
    * セグメントの作成時に有効な[特性レコメンデーション](trait-recommendations.md)を取得します。
    * 特性をクリックしてドラッグし、個別のグループを作成します。
    * グループ間にマウスポインターを当て、ブール演算子 [!UICONTROL AND]、[!UICONTROL OR]、[!UICONTROL AND NOT] を使用して関係を設定します。
    * 時計アイコンの上にマウスポインターを置き、[最新性と頻度](../../features/segments/recency-and-frequency.md)のルールを特性に追加します。
-   * 特性を追加または削除して、セグメント母集団データを表示します。「**[!UICONTROL Calculate Estimates]**」をクリックすると、推定された母集団の数値が表示（または更新）されます。詳しくは、セグメントビルダーの[セグメント母集団データ](../../features/segments/segment-builder-data.md#segment-populations)を参照してください。
-   * 終了したら、「**[!UICONTROL Save]**」をクリックします。
+   * 特性を追加または削除して、セグメント母集団データを表示します。**[!UICONTROL Calculate Estimates]**&#x200B;をクリックすると、推定された母集団の数値が表示（または更新）されます。詳しくは、セグメントビルダーの[セグメント母集団データ](../../features/segments/segment-builder-data.md#segment-populations)を参照してください。
+   * 終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 3. *（オプション）*「[宛先マッピング](../../features/segments/segment-builder.md#segment-builder-controls-destinations)」セクションでセグメントを宛先にマッピングします。
-   * 宛先を検索し、「**[!UICONTROL Add Destination]**」をクリックします。宛先をセグメントに追加するには、その宛先が既に存在していなければなりません。
-   * 終了したら、「**[!UICONTROL Save]**」をクリックします。
+   * 宛先を検索し、**[!UICONTROL Add Destination]**&#x200B;をクリックします。宛先をセグメントに追加するには、その宛先が既に存在していなければなりません。
+   * 終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## セグメントビルダーのコントロール：「Basic Information」セクション{#segment-builder-controls-basics}
 
@@ -67,27 +67,27 @@ source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
    <td colname="col2"> <p>セグメントに、機能や目的を表す、短く論理的な名前を設定します。略語や特殊文字は使用しないでください。セグメント名の最大長は 255 文字です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Description</b> </td> 
+   <td colname="col1"> <b>説明</b> </td> 
    <td colname="col2"> <p>セグメントに関する追加の説明情報のフィールド。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Integration Code</b> </td> 
+   <td colname="col1"> <b>統合コード</b> </td> 
    <td colname="col2"> <p>ユーザー定義 ID などの会社特有の情報のフィールド。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Data Source</b> </td> 
-   <td colname="col2"> <p>セグメントと特定のデータプロバイダーを関連付けます。 <p>最初のドロップダウンメニューを使用して、Audience Managerのデータソース、Adobe Analyticsのレポートスイート、またはその両方をフィルターします。 次に、2番目のドロップダウンメニューを使用して、データソースを選択します。</p><p> Adobe Analyticsレポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトではAudience Managerデータソースのみに設定されます。</p></p> </td> 
+   <td colname="col1"> <b>データソース</b> </td> 
+   <td colname="col2"> <p>セグメントと特定のデータプロバイダーを関連付けます。 <p>最初のドロップダウンメニューを使用して、Audience Manager のデータソース、Adobe Analytics のレポートスイート、またはその両方をフィルタリングします。次に、2 番目のドロップダウンメニューを使用して、データソースを選択します。</p><p> Adobe Analytics レポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトで Audience Manager データソースのみに設定されます。</p></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Profile Merge Rule</b> </td> 
+   <td colname="col1"><b>プロファイル結合ルール</b> </td> 
    <td colname="col2"> <p>セグメント認定に使用するプロファイル結合ルールを選択します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Status</b> </td> 
+   <td colname="col1"> <b>ステータス</b> </td> 
    <td colname="col2"> <p>セグメントをアクティブまたは非アクティブにします（デフォルトではアクティブです）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Folder Storage</b> </td> 
+   <td colname="col1"> <b>フォルダーストレージ</b> </td> 
    <td colname="col2"> <p>セグメントが属する保存フォルダーを指定します。 </p> </td> 
   </tr> 
  </tbody> 
@@ -122,7 +122,7 @@ source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ## セグメントビルダーのコントロール：「Destination Mappings」セクション {#segment-builder-controls-destinations}
 
-[!UICONTROL Segment Builder]の[!UICONTROL Destinations Mapping]セクション（オプション）では、サードパーティ [!DNL cookie]、[!DNL URL]、またはサーバー間の宛先にセグメントデータを送信できます。宛先を追加するには、宛先を検索（または参照）し、宛先固有の情報を入力して、「**[!UICONTROL Add Destination]**」をクリックします。
+[!UICONTROL Segment Builder]の[!UICONTROL Destinations Mapping]セクション（オプション）では、サードパーティ [!DNL cookie]、[!DNL URL]、またはサーバー間の宛先にセグメントデータを送信できます。宛先を追加するには、宛先を検索（または参照）し、宛先固有の情報を入力して、**[!UICONTROL Add Destination]**&#x200B;をクリックします。
 
 <!-- r_segment_destinations_map.xml -->
 
@@ -132,11 +132,11 @@ source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ### 宛先マッピング検索ツール
 
-「**[!UICONTROL Destination Mappings]**」パネルには、次の表に示す検索ツールがあります。
+**[!UICONTROL Destination Mappings]**&#x200B;パネルには、次の表に示す検索ツールがあります。
 
 | 検索タイプ | 説明 |
 |---|---|
-| **宛先名別に検索** | 特定の宛先を名前で検索できます。検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。終了したら、「**[!UICONTROL Add Destination]**」をクリックします。 |
+| **宛先名別に検索** | 特定の宛先を名前で検索できます。検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。終了したら、**[!UICONTROL Add Destination]**&#x200B;をクリックします。 |
 | **すべての宛先を参照** | 使用可能な&#x200B;*すべての*&#x200B;宛先を参照します。ポップアップリストから宛先を選択し、セグメントに追加します。 |
 
 ## 宛先マッピングポップアップウィンドウのフィールド {#fields-in-dest-mappings}
