@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールの概要
 solution: Audience Manager
 title: プロファイル結合ルールの概要
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 # プロファイル結合ルールの概要 {#profile-merge-rules-overview}
 
-セグメ [!UICONTROL Profile Merge Rules] ント化に使用するデータセットを制御し、複数のデバイスにわたって正確にユーザーをターゲット設定できます。
+[!UICONTROL Profile Merge Rules] を使用すれば、セグメント化に使用するデータセットを制御し、複数のデバイスにわたって正確にユーザーをターゲット設定できます。
 
 >[!VIDEO](https://video.tv.adobe.com/v/28974?captions=jpn)
 
@@ -23,7 +23,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules]プロを使用すれば、[!DNL Audience Manager] がデータを収集してユーザーをターゲット化のためにセグメント化する方法が根本的に変わります。It lets you work with 2 distinct types of profiles, a device profile and an [authenticated profile](../../reference/visitor-authentication-states.md).
+[!UICONTROL Profile Merge Rules]プロを使用すれば、[!DNL Audience Manager] がデータを収集してユーザーをターゲット化のためにセグメント化する方法が根本的に変わります。これにより、デバイスプロファイルと[認証済みプロファイル](../../reference/visitor-authentication-states.md)の 2 種類のプロファイルを操作できるようになります。
 
 <table id="table_CE98C0E32A964B27804736A896233869"> 
  <thead> 
@@ -52,7 +52,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
  </tbody>
 </table>
 
-これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。For example, with an [authenticated profile](../../reference/visitor-authentication-states.md), you can build accurate segments based on data from multiple devices for a single user. これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。Audience Managerは、個人がオンラインアクティビティに使用する様々なデバイスのマッピングを認証済みプロファイルに保存することで、これを実 [現します](../../reference/visitor-authentication-states.md)。 これらのマッピングは、と呼ばれま [!UICONTROL Profile Link Device Graph]す。
+これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。例えば、[認証済みプロファイル](../../reference/visitor-authentication-states.md)を使用すると、複数のデバイスから収集した 1 人のユーザーに関するデータに基づいて正確なセグメントを生成できます。これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。Audience Manager は、個人がオンラインアクティビティに使用する様々なデバイスのマッピングを[認証済みプロファイル](../../reference/visitor-authentication-states.md)に保存することで、これを実現します。これらのマッピングは、[!UICONTROL Profile Link Device Graph] と呼ばれます。
 
 ![](assets/authenticated2.png)
 
@@ -60,7 +60,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 [!UICONTROL Profile Merge Rules] では、以下のことが可能です。
 
-* Target users based on [authenticated profile](../../reference/visitor-authentication-states.md), anonymous profiles, or combinations of both.
+* [認証済みプロファイル](../../reference/visitor-authentication-states.md)、匿名プロファイル、またはその両方の組み合わせに基づいて、ユーザーをターゲット化する。
 * デバイス間で特定の顧客をターゲット化する。
 * 決定論的データに基づいてデバイスグラフを作成する。
 * 各種のプロファイルに基づいてセグメントのデータを微調整する。
