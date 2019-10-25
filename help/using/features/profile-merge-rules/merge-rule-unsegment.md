@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールとデバイスのセグメント化
 solution: Audience Manager
 title: プロファイル結合ルールとデバイスのセグメント化解除プロセス
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 * デバイスプロファイルが 120 日間非アクティブである場合。週ごとのデータクリーンアップ処理により、非アクティブなデバイスプロファイルがセグメントから削除されます。
 * デバイスプロファイルに対する更新または変更が原因でデバイスが不承認とされるので、このデバイスがセグメントに認定されることはありません。これは、セグメント認定条件が変更された場合、[!DNL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](instant-cross-device-suppression.md) のドキュメントを参照してください。
 
-![デバイスのみ](assets/device-only.png)
+![device-only](assets/device-only.png)
 
 ## 「No Device Profile」オプションとデバイスのセグメント化解除{#no-device-option}
 
@@ -40,8 +40,8 @@ source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 >[!NOTE]
 >
->**セグメント評価と除外のデバイスの制限は100です**。
->Audience Managerは、デバイスグラフを使用するプロファイル結合ルールを使用して、セグメントを評価する際に最大100台のデバイスを結合します。 Audience Managerは、認証済みのプロファイル [（デバイス間ID）によって現在のデバイスと現在のデバイスにリンクされている最大99個のデバ](../../reference/visitor-authentication-states.md) イスを評価します。 セグメント解除信号が発行されると、現在のデバイスと追加のデバイスが宛先のセグメントから削除されます。
+>**セグメント評価と除外のデバイスの上限は 100 です**。
+>Audience Manager は、デバイスグラフを使用するプロファイル結合ルールを持つセグメントを評価する場合、最大 100 のデバイスを結合します。Audience Managerは、[認証済みプロファイル](../../reference/visitor-authentication-states.md)（クロスデバイス ID）を使用して、現在のデバイスと、現在のデバイスにリンクされている最大 99 台のデイスを評価します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された最大 100 台の追加デバイスが宛先のセグメントから削除されます。
 
 ![](assets/last-device-graph.png)
 
