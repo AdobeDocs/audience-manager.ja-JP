@@ -5,7 +5,7 @@ seo-title: プロファイルリンクデバイスグラフのユースケース
 solution: Audience Manager
 title: プロファイルリンクデバイスグラフのユースケース
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 # プロファイルリンクデバイスグラフのユースケース {#profile-link-device-graph-use-cases}
 
-Recommendations and use cases for segment retargeting and personalized segment qualification with the [!UICONTROL Profile Link Device Graph].
+[!UICONTROL Profile Link Device Graph] を使用したセグメントリターゲティングおよびパーソナライズしたセグメント絞り込みの推奨事項とユースケース。
 
 ## 推奨事項 {#recommendations}
 
@@ -25,23 +25,23 @@ Recommendations and use cases for segment retargeting and personalized segment q
 
 ![](assets/merge-rule-triangle2.png)
 
-## デバイス間のターゲット設定 {#cross-device-personalization}
+## クロスデバイスでのターゲティング{#cross-device-personalization}
 
-例えば、ジョンが定期的に使用する3つのデバイスを所有して、休暇中のパッケージの掘り出し物を検索しているとします。パソコン[!DNL Device 1]()、スマートフォン([!DNL Device 2])、タブレット([!DNL Device 3])。 しかし、Johnは自分のデバイスを使ってパッケージの詳細を探します。
+例えば、ジョンという人物が、旅行ツアーの詳細を調べるため、定期的に使用するデバイスとして、パソコン([!DNL Device 1])、スマートフォン([!DNL Device 2])、タブレット([!DNL Device 3]) の 3 台を持っているとします。ただし、ジョンは、デバイスを使用して、ツアーの詳細の異なる項目を調べます。
 
-* 彼はノートパソコンを使って飛行機を探し、
-* 彼はスマートフォンを使ってホテルを探す。
-* 彼はタブレットを使ってガイドツアーを探します。
+* 飛行機の便を検索する際はノートパソコンを使用し、
+* ホテルの場合はスマートフォン、
+* ガイドツアーはタブレットで調べます。
 
-上記の3つのデバイスのすべてでJohnが認証されていない場合でも、 **[!UICONTROL Last Authenticated Profiles]****[!UICONTROL Profile Link Device Graph]** +ルールを使用すると、休日パッケージプロバイダーは、これらのデバイスをJohnの認証済みプロファイルに関連付けることができます（3つのデバイスすべてで最後に認証された人物であると仮定）。
+上記の 3 つのデバイスのすべてでジョンが認証されていない場合でも、**[!UICONTROL Last Authenticated Profiles]** と **[!UICONTROL Profile Link Device Graph]** ルールを使用することで、旅行会社は、これらのデバイスをジョンの認証済みプロファイルに関連付け、3 台のデバイスすべてで最後に認証された人物がジョンであると想定します。
 
-![最終デバイスグラフ](assets/last-device-graph.png)
+![last-device-graph](assets/last-device-graph.png)
 
-Audience Managerは、プロファイルの結合に参加したすべてのデバイスプロファイルをセグメントに対して修飾するので、3つのデバイスプロファイルはすべてセグメント化されます。 これによ [!UICONTROL Profile Link Device Graph] り、Audience Managerは3つすべてのデバイスにわたる行動を調べ、1つのデバイスプロファイルがそれ自体で適用されないセグメントをすべてのデバイスに適用することができます。
+Audience Manager は、1 つのセグメントに対し、プロファイルの結合に参加した各デバイスプロファイルを確認するので、3 つのデバイスプロファイルはすべてセグメント化されます。[!UICONTROL Profile Link Device Graph] を使用すれば、Audience Manager は 3 つのデバイスすべてをまたいだ動作を確認し、1 つのデバイスプロファイルだけでは認定されないセグメントに対して、各デバイスを認定することができます。
 
-これによ [!UICONTROL Profile Merge Rule] り、マーケティング担当者は、個々のデバイスアクティビティではなく、ユーザーアクティビティに基づいて、1人のユーザーが所有するすべてのデバイスに一貫したエクスペリエンスを提供できます。
+この [!UICONTROL Profile Merge Rule] により、マーケターは、個々のデバイスアクティビティではなく、ユーザーアクティビティに基づいて、1 人のユーザーが所有するすべてのデバイスで一貫したエクスペリエンスを提供できます。
 
-![デバイス間パーソナライゼーション](assets/cross-device-personalization.png)
+![cross-device-personalization](assets/cross-device-personalization.png)
 
 >[!MORE_LIKE_THIS]
 >
