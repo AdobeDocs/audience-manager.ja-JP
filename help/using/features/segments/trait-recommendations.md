@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性レコメンデーション
 uuid: null
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: a67998b925002438b20fdde81f1abec4acbd5602
 
 ---
 
@@ -17,19 +17,27 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ## ビデオデモ
 
-まず、特性レコメンデーションのビデオを見てから、詳細をお読みください。
+Start by watching the [!UICONTROL Trait Recommendations] video below, then read on for more information.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=jpn)
 
+次のビデオでは、のデータフィードから、特 [!UICONTROL Marketplace Recommendations]性レコメンデーションをセグメントに追加する方法を示す、のワークフローについて説明しま [!UICONTROL Audience Marketplace]す。
+
+>[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=jpn)
+
 ## 概要
 
-[!DNL Adobe Sensei] を活用した [!UICONTROL Trait Recommendations] により、データサイエンスを Audience Manager の毎日のワークフローに適用します。[セグメントビルダー](segment-builder.md)でセグメントをビルドまたは編集する際に [!UICONTROL Trait Recommendations]を使用すると、セグメントルールの Trait に似た、追加が可能な特性に関するレコメンデーションが表示されます。推奨特性をセグメントに追加すると、ターゲットオーディエンスを増やすことができます。
+[!DNL Adobe Sensei] を活用した [!UICONTROL Trait Recommendations] により、データサイエンスを Audience Manager の毎日のワークフローに適用します。[セグメントビルダー](segment-builder.md)でセグメントをビルドまたは編集する際に [!UICONTROL Trait Recommendations]を使用すると、セグメントルールの Trait に似た、追加が可能な特性に関するレコメンデーションが表示されます。
 
-![特性レコメンデーションの概要](assets/trait-recommendations-overview.png)
+Audience Managerでは、ファーストパーティの特性、セクションおよびセクション内の **[!UICONTROL Recommendations]** 両方の特性レコメンデー **[!UICONTROL Audience Marketplace]**&#x200B;ションが表示さ **[!UICONTROL Recommendations from Marketplace]** れます。
+
+![特性レコメンデーションの概要](assets/trait-recommendations-overview-full.png)
+
+推奨特性をセグメントに追加すると、ターゲットオーディエンスを増やすことができます。
 
 **要約すると、以下のような機能です。**
 
-* Audience Manager では、現在購読しているデータフィードのファーストパーティ特性とサードパーティ特性が、推奨特性として表示されます。
+* Audience Managerでは、セクションにファーストパーティの特性が表示さ [!UICONTROL Recommendations] れます。 購読していない公開フィードおよび非公開フィードからのMarketplaceレコメンデーションが、セクションに表示さ [!UICONTROL Recommendations from Marketplace] れます。
 * Audience Manager には、セグメントルール内の特性に類似した特性が最大で 50 表示されます。
 * レコメンデーションを表示する必要のないデータソースは除外できます。
 * 類似性を計算する際、Audience Manager は過去 30 日間の特性の対象として認定できる [UUID](../../reference/ids-in-aam.md) を考慮に入れます。
@@ -64,28 +72,33 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ## ワークフロー
 
-[セグメントビルダー](segment-builder.md)でセグメントを作成または編集する際に、セグメントルール内の特性に類似した特性を調べることができます。セグメントビルダーのワークフローは、以下に示すように、新規セグメントと既存セグメントで非常によく似ています。
+[セグメントビルダー](segment-builder.md)でセグメントを作成または編集する際に、セグメントルール内の特性に類似した特性を調べることができます。The [Segment Builder](segment-builder.md) workflow is very similar for new and existing segments:
 
 ### 新規セグメント
 
-1. **Audience Data／Segments** で、「**Add New**」を選択します。
+1. オーディエン **スデータ/セグメントに移動し**、「新規追加」を **クリックします**。
 2. 「**Traits**」ドロップダウンボックスで、少なくとも 1 つの特性をセグメントルールに追加します。
-3. これで、セグメントルールに追加した特性に類似した推奨特性が表示されるようになりました。下にスクロールして、推奨されるすべての特性を表示します。
-4. （オプション）特定のデータソースの推奨特性を除外するには、除外するデータソースの **X** 記号をクリックします。
+3. この節では、ファーストパーティ推奨特性を、 **[!UICONTROL Recommendations]** サードパーティ推奨特性を確認でき **[!UICONTROL Recommendations from Marketplace]** ます。 これらのレコメンデーションは、すべてセグメントルールに追加した特徴に似ています。 下にスクロールして、推奨されるすべての特性を表示します。
+4. (Optional) To exclude recommended first-party traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
    > [!NOTE]
-   > 
-   >除外したデータソースは、推奨特性のリストのすぐ上に表示されます。灰色のボックスの **X** を押すと、除外したデータソースが削除され、各データソースの結果が再度表示されます。
+   >
+   > 除外したデータソースは、推奨特性のリストのすぐ上に表示されます。Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 5. セグメントルールに推奨特性を追加するには、**+** 記号をクリックします。
+
+> [!IMPORTANT]
+> セグメントに特 [!UICONTROL Marketplace] 徴を追加する場合、その特徴は、対応するデータフィードを購読するまで、セグメントの推定にのみ使用されます。 購読していないデータフィードからの特性は、特性リストに買い物かごアイコンが表示されます。 特性名をクリックして、データフィードページに移動し、購読します。
+> ![Marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
+> サードパーティの特性を持つセグメントは、対応するデータフィードにサブスクリプションを行った後でのみ保存できます。
 
 ### 既存セグメント
 
-1. **[!UICONTROL Audience Data]／[!UICONTROL Segments]**&#x200B;へ移動し、編集したいセグメントを選択して、「![Edit](assets/edit-button.png)」をクリックします。
+1. Go to **[!UICONTROL Audience Data]&gt;[!UICONTROL Segments]**, select the segment you want to edit and click ![Edit](assets/edit-button.png).
 1. 下にスクロールして[!UICONTROL Traits]ドロップダウンボックスを表示します。
 1. セグメントルールに既に含まれている特性に類似した推奨特性が表示されています。下にスクロールして、推奨されるすべての特性を表示します。
 1. （オプション）特定のデータソースの推奨特性を除外するには、除外するデータソースの **X** 記号をクリックします。
    > [!NOTE]
-   > 
-   >除外したデータソースは、推奨特性のリストのすぐ上に表示されます。灰色のボックスの **X** を押すと、除外したデータソースが削除され、各データソースの結果が再度表示されます。
+   >
+   > 除外したデータソースは、推奨特性のリストのすぐ上に表示されます。Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
 1. セグメントルールに推奨特性を追加するには、**+** 記号をクリックします。
 
 セグメントを作成または編集し、セグメントルールに特性を追加すると、追加した特性に類似した特性が最大で 50 表示されます。セグメントルールに複数の特性が含まれている場合、Audience Manager はラウンドロビン方式により、各特性に最も一致する特性、2 番目に一致する特性という順に、セグメントルール内の、母集団が大きい方から順に 50 の特性が表示されます。
@@ -102,11 +115,11 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 特定の特性に対するレコメンデーションを取得するには、セグメントルール内（1）または特性レコメンデーションビュー内（2）の特性をクリックします。
 
-![](assets/three-base-traits-numbered.png)
+![基本特性の例](assets/three-base-traits-numbered.png)
 
-下の画像に示すように、特性をクリックするとポップアップウィンドウが開きます。推奨特性がセグメントに含まれていない場合は、**+** を押すと、その特性をセグメントに追加できます。
+ファーストパーティの特性をクリックすると、ポップアップウィンドウが開きます（下の画像を参照）。 推奨特性がセグメントに含まれていない場合は、**+** を押すと、その特性をセグメントに追加できます。
 
-![](assets/add_to_segments.png)
+![セグメントに追加](assets/add_to_segments.png)
 
 > [!TIP]
 >
@@ -114,7 +127,7 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 > [!NOTE]
 >
-> 推奨特性は、購読しているフィードのファーストパーティ特性の場合もあれば、サードパーティ特性の場合もあります。
+> Recommended traits can be your first-party traits or third party traits from data feeds that you are subscribed to in [!UICONTROL Audience Marketplace].
 
 ## 仕組み
 
@@ -124,7 +137,7 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合を計算し、その 2 つを除算することにより、2 つの特性間の[!UICONTROL Trait Similarity Score]を算出します。2 つの特性、A と B の計算は次のようになります。
 
-![](assets/jaccard_similarity.png)
+![ジャカード類似性](assets/jaccard_similarity.png)
 
 以下の 2 つの例も確認してください。
 
@@ -133,14 +146,14 @@ Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合
 2 つの特性 A、B があると仮定して、それぞれの特性に 1,000,000 個の [!UICONTROL UUID] の母集団があり、そのうち 25,000 個の [!UICONTROL UUID] が両方の特性の対象として認定できるとします。
 上記の数式を使用すると、この結果は 25,000/1,975,000=0.012 になります。この[!UICONTROL Trait Similarity Score]は低いため、2 つの特性の類似性は非常に低くなります。
 
-![](assets/Trait-Recommendations-Low-overlap.png)
+![特性推奨 — 低重複](assets/Trait-Recommendations-Low-overlap.png)
 
 ### 例 2 - 特性類似性スコア
 
 同じ特性 A と B で、400,000 個の [!UICONTRL UUID] が両方の特性の対象として認定できる場合、[!UICONTROL Trait Similarity Score]は、次のようにはるかに高くなります。
 400,000 / 1,600,000 = 0.25
 
-![](assets/Trait-Recommendations-High-overlap.png)
+![特性推奨 — 高重複](assets/Trait-Recommendations-High-overlap.png)
 
 ### 特性類似性スコアの解釈の方法
 
