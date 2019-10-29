@@ -6,8 +6,8 @@ seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-translation-type: ht
-source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
+translation-type: tm+mt
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
@@ -111,9 +111,9 @@ c_bulk_start.xml
 例えば、複数の特性を一度に作成する方法を見てみましょう。一括操作で複数の特性を作成するには、次の手順に従います。
 
 1. **[!UICONTROL Headers]**&#x200B;タブをクリックし、「[!UICONTROL Create a Trait]」オプション配下のすべてのラベルをコピーします。
-
 2. **[!UICONTROL Create]**&#x200B;タブをクリックし、1 行目の列 A を先頭にラベルをペーストします。
 3. 各列ヘッダーに関する情報を入力し、**[!UICONTROL Create Traits]**&#x200B;をクリックします。このアクションにより、認証を確認するプロンプトが表示されます。一括ジョブは、認証を確認した後で実行されます。ワークシートの左下隅に表示されるジョブステータス通知を確認してください。
+
 
 >[!NOTE]
 >
