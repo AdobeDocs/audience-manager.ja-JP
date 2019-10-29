@@ -1,20 +1,20 @@
 ---
-description: 対応可能なログファイルを使用すると、広告サーバーのログファイルからメディア信号を取り込んで、Audience Managerで特徴を作成できます。 ピクセルを追加する必要なく、広告サーバーから特性としてインプレッション、クリックおよびコンバージョンを取得します。
-keywords: 実行可能なログ， alf, ALF
-seo-description: 対応可能なログファイルを使用すると、広告サーバーのログファイルからメディア信号を取り込んで、Audience Managerで特徴を作成できます。 追加ピクセルを使用する必要なく、広告サーバーから特性としてインプレッション、クリックおよびコンバージョンを取得します。
+description: 実用的なログファイルを使用すると、広告サーバーログファイルからメディアシグナルをキャプチャし、Audience Manager で特性を作成することができます。ピクセルを追加することなく、インプレッション、クリック数およびコンバージョンを特性として広告サーバーから取得できるようになります。
+keywords: 実用的なログ、alf、ALF
+seo-description: 実用的なログファイルを使用すると、広告サーバーログファイルからメディアシグナルをキャプチャし、Audience Manager で特性を作成することができます。ピクセルを使用することなく、インプレッション、クリック数およびコンバージョンを特性として広告サーバーから取得できるようになります。
 seo-title: 実用的なログファイル
 solution: Audience Manager
 title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 5643b1490738aa452e45517610d31e37c361a780
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
 
 # 実用的なログファイル {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] 広告サーバーのログファイルからメディアデータを取り込み、データを使用してAudience Managerで特徴を作成できます。 Capture impressions, clicks, and conversions from ad servers as traits without having to append [pixels](../../integration/media-data-integration/impression-data-pixels.md).
+[!UICONTROL Actionable Log Files] を使用すれば、広告サーバーログファイルからメディアデータをキャプチャし、Audience Manager でそのデータを使用して特性を作成することができます。[ピクセル](../../integration/media-data-integration/impression-data-pixels.md)を追加することなく、インプレッション、クリック数およびコンバージョンを特性として広告サーバーから取得できるようになります。
 
 >[!NOTE]
 >
@@ -26,20 +26,20 @@ source-git-commit: 5643b1490738aa452e45517610d31e37c361a780
 
 ## はじめに {#getting-started}
 
-を開始するには、にロ [!UICONTROL Actionable Log Files]グデータをインポートする必要がありま [!DNL Audience Manager]す。 以下のリンクを参照してください。
+[!UICONTROL Actionable Log Files] を開始するには、[!DNL Audience Manager] にログデータを読み込む必要があります。以下のリンクは、使用を開始するのに役立ちます。
 
-* For [!UICONTROL Google DCM] logs, see [Import DCM Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
-* その他の広告サーバーログについては、「データとメタデ [ータファイル」を参照し](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) 、コン *サルタントに問い*[!DNL Audience Manager] 合わせます。
+* [!UICONTROL Google DCM] ログについては、[DCM データファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
+* その他の広告サーバーログについては、[データとメタデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問合せください。
 
-If you are already importing log data into [!DNL Audience Manager], ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to enable [!UICONTROL Actionable Log Files] for you.
+既にログデータを [!DNL Audience Manager] に読み込んでいる場合は、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/contact/enterprise-support.ec.html)にお問合せいただき、[!UICONTROL Actionable Log Files] を有効化してもらってください。
 
 >[!IMPORTANT]
 >
-> 2019年の終わりに、新しい広告 [!UICONTROL Actionable Log Files] サーバーの可用性が向上し始めます。 Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> 2019 年末に、[!UICONTROL Actionable Log Files] は新しい広告サーバーのアベイラビリティの拡大を開始します。開始するには、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/contact/enterprise-support.ec.html)にお問合せください。
 
 ## 実用的なログファイルの使用 {#working-with-actionable-log-files}
 
-With [!UICONTROL Actionable Log Files], the information from ad server logs is captured in [!DNL Audience Manager] the same way that you would capture data from real-time website interactions. [!DNL Audience Manager] 広告サーバーのログストレージに接続し、ログからの情報を解析し、ログデータを実行可能なシグナルとしてデータ収集サーバーに [送信します](../../reference/system-components/components-data-collection.md#dcs-pcs)。
+[!UICONTROL Actionable Log Files]を使用すると、Web サイトでのリアルタイムなインタラクションの場合と同じ方法でコウコクサーバーログの情報を [!DNL Audience Manager] に取り込むことができます。[!DNL Audience Manager] と広告サーバーログストレージを接続してログの情報を解析し、ログデータを実用的なシグナルとしてアドビの[データ収集サーバー](../../reference/system-components/components-data-collection.md#dcs-pcs)に送信します。
 
 実用的なシグナルを取得するためには、ルールベースの特性を設定する必要があります。[Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) または[一括管理ツール](../../reference/bulk-management-tools/bulk-create.md)のいずれかを使用して、ルールベースの特性を設定する方法を参照してください。ルールベースの特性で使用できるすべてのキーのリストを参照するには、[実用的なシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
 
@@ -49,11 +49,11 @@ With [!UICONTROL Actionable Log Files], the information from ad server logs is c
 
 ## 実用的なシグナル {#actionable-signals}
 
-シグナルは、[!DNL Audience Manager] の[最小データ単位](../../reference/signal-trait-segment.md)です。[!UICONTROL Actionable Log Files] インプレッションイベント、クリックイベント、コンバージョンイベントの広告主、ビジネスユニット、クリエイティブ、キャンペーンの値を広告サーバーログからのシグナルとして取り込むことができます。
+シグナルは、[!DNL Audience Manager] の[最小データ単位](../../reference/signal-trait-segment.md)です。[!UICONTROL Actionable Log Files]を使用することで、広告サーバーログのシグナルとして、インプレッションイベント、クリックイベント、およびコンバージョンイベントにおける広告主、ビジネスユニット、クリエイティブ、およびキャンペーン値を取得できます。
 
 この情報をオーディエンスの作成およびセグメント化に使用する場合、自分でルールベースの特性を設定する必要があることに注意してください。
 
-### Google DCMログからの実行可能なシグナル {#dcm-logs-signals}
+### Google DCM ログからの実用的なシグナル {#dcm-logs-signals}
 
 この表は、[!DNL DCM] ログファイルから取得される実用的なシグナルの一覧です。
 
@@ -70,7 +70,7 @@ With [!UICONTROL Actionable Log Files], the information from ad server logs is c
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>コンバージョンイベントでのみ使用されます。 </p> <p>DCM のコンバージョンアクティビティの数値 ID を表します。このフィールドは、DCM のアクティビティ ID とマッピングされます。 </p> <p> <p>ヒント：DCM の複数または特定のコンバージョンアクティビティを取得できます。Create traits using <code> d_conversion = activity ID</code> for each conversion activity from DCM. </p> </p> </td> 
+   <td colname="col3"> <p>コンバージョンイベントでのみ使用されます。 </p> <p>DCM のコンバージョンアクティビティの数値 ID を表します。このフィールドは、DCM のアクティビティ ID とマッピングされます。 </p> <p> <p>ヒント：DCM の複数または特定のコンバージョンアクティビティを取得できます。DCM の各コンバージョンアクティビティに対し、<code> d_conversion = activity ID</code> を使用して特性を作成します。 </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ With [!UICONTROL Actionable Log Files], the information from ad server logs is c
    <tr> 
    <td colname="col1"> <p> <code>Event Time</code> </p> </td> 
    <td colname="col2"> <p><code>d_time</code> </p> </td> 
-   <td colname="col3">インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。1970-01-01 00:00:00 UTCからのマイクロ秒単位で表されます。</td> 
+   <td colname="col3">インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。1970-01-01 00:00:00 UTC からのマイクロ秒単位で表示されます。</td> 
    <td colname="col4"> <p> <code>1570826763000</code> </p> </td> 
   </tr> 
   <tr> 
@@ -117,17 +117,17 @@ With [!UICONTROL Actionable Log Files], the information from ad server logs is c
   <tr> 
    <td colname="col1"> <p> <code>Revenue</code> </p> </td> 
    <td colname="col2"> <p> <code> d_revenue</code> </p> </td> 
-   <td colname="col3"> 売上金額(USD)。-6の累乗。 1.000.000を掛けると、ドル額として表示されます。</td> 
+   <td colname="col3"> 売上金額（USD）を -6 の累乗で表します。1.000.000 を乗算すると、ドルの金額として表示されます。</td> 
    <td colname="col4"> <p> <code>10</code> </p> </td> 
   </tr>
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>イベントタイプを示します。 Audience Managerは、DCMログファイル名からイベントタイプを読み取り、実行可能な信号に変換します。 </p> <p>使用できる値は次のとおりです。 </p> <p> 
+   <td colname="col3"> <p>イベントタイプを示します。Audience Manager は、DCM ログファイル名からイベントタイプを読み取り、実用的なシグナルに変換します。 </p> <p>使用できる値は次のとおりです。 </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
-      <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> インプレッション数 </li> 
-      <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> をクリックします。 </li> 
-      <li id="li_553B0C0F3D304193929230D54830EBCA"> <code> d_event = conv</code> を設定します。 </li> 
+      <li id="li_71772CC106F74F4788E1784CC3D70BD3"> インプレッション数：<code> d_event = imp</code>。 </li> 
+      <li id="li_33A629A32B87400F93269581154D566F"> クリック数：<code> d_event = click</code>。 </li> 
+      <li id="li_553B0C0F3D304193929230D54830EBCA"> コンバージョン：<code> d_event = conv</code>。 </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> <code> imp, click, conv</code> </p> </td> 
   </tr> 
@@ -158,9 +158,9 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
  <br>
 
-### 汎用広告サーバーログからの対応可能なシグナル {#generic-logs-signals}
+### 汎用広告サーバーログからの実用的なシグナル {#generic-logs-signals}
 
-まず、広告サーバーログをAmazon S3バケットにドロップする必要があります。 これを達成するには、「オーディエンス最適化レ [ポートのデータファイル」と「対応可能なログファイル」を読み](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) 、コン *サルタントに*[!DNL Audience Manager] お問い合わせください。 次の表に、汎用ログファイルから実行可能なシグナルを示します。
+まず、広告サーバーログを Amazon S3 バケットにドロップする必要があります。これを達成するには、[Audience Optimization レポートおよび実用的なログファイル用のデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)を読んだ&#x200B;*うえで*、[!DNL Audience Manager] コンサルタントにお問い合わせください。この表は、汎用ログファイルから取得される実用的なシグナルの一覧です。
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -179,7 +179,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 0</code> インプレッション </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 1</code> クリック </li> 
-      <li id="li_81007A984F554932AC3354E41A42D57B"> <code> -1</code> 属性なしまたは不明 </li> 
+      <li id="li_81007A984F554932AC3354E41A42D57B"> <code> -1</code> 原因不明 </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> <code> 0,1,-1</code> </p> </td> 
   </tr>
@@ -192,7 +192,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>広告主のデータソースの統合コード。Note that this field is not related to <a href="../../features/datasources-list-and-settings.md">Audience Manager data sources.</a></p></td> 
+   <td colname="col3"> <p>広告主のデータソースの統合コード。このフィールドは、<a href="../../features/datasources-list-and-settings.md">Audience Manager のデータソース</a>とは関係ありません。</p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -204,13 +204,13 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
   <tr> 
    <td colname="col1"> <p> <code>Campaign-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col3"> <p>ログファイルのキャンペーンID。</p> </td> 
+   <td colname="col3"> <p>ログファイルのキャンペーン ID。</p> </td> 
    <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Creative-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col3"> <p>ログファイルから取得したクリエイティブID。 </p> </td> 
+   <td colname="col3"> <p>ログファイルのクリエイティブ ID。 </p> </td> 
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr>
     <tr> 
@@ -222,18 +222,18 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>イベントタイプを示します。 Audience Managerは、ログファイル名からイベントタイプを読み取り、アクション可能なシグナルに変換します。 ログファイル <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">の命名規則を参照してください</a>。 </p> <p>使用できる値は次のとおりです。 </p> <p> 
+   <td colname="col3"> <p>イベントタイプを示します。Audience Manager は、ログファイル名からイベントタイプを読み取り、実用的なシグナルに変換します。<a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">ログファイルの命名規則</a>を参照してください。 </p> <p>使用できる値は次のとおりです。 </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
-      <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> インプレッション数 </li> 
-      <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> をクリックします。 </li> 
-      <li id="li_553B0C0F3D304193929230D54830EBCA"> <code> d_event = conv</code> を設定します。 </li> 
+      <li id="li_71772CC106F74F4788E1784CC3D70BD3"> インプレッション数：<code> d_event = imp</code>。 </li> 
+      <li id="li_33A629A32B87400F93269581154D566F"> クリック数：<code> d_event = click</code>。 </li> 
+      <li id="li_553B0C0F3D304193929230D54830EBCA"> コンバージョン：<code> d_event = conv</code>。 </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> <code> imp, click, conv</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>ログデータの取得に使用するデータソースのID。 <a href="../../features/manage-datasources.md#create-data-source">データソースの作成方法</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p>ログデータの取得に使用するデータソースの ID。<a href="../../features/manage-datasources.md#create-data-source">データソースの作成方法</a>を参照してください。 </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
@@ -245,21 +245,9 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
-## Audience Manager UIでのアクション可能なシグナルの操作 {#actionable-signals-in-ui}
-
-着信アクション可能なシグナルは、シグナル検索インターフェ [イスで表示できます](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) 。
-
-オーディエ **ンスデータ** (1)/シグナル **(2)/** Search **(3)に移動し、****** Actionable Log Files(4)フィルターを選択します。
-
-![UIのアクション可能なシグナル](/help/using/integration/assets/alf-in-signals.png)
-
-アクション可能なシグナルを使用してルールベースの特性を作成するには、 **Actionable Log Files** (1)を選択し、特性ルールとして使用するアクション可能なシグナル(2)を選択して、「 **Create Trait from Selected Signals** (3)」を押します。
-
-![シグナルから特性を作成する](/help/using/integration/assets/alf-create-trait.png)
-
 ## ユースケース {#use-cases}
 
-[!UICONTROL Actionable Log Files]を実装するメリットの 1 つは、実用的なシグナルを含んだあらゆる[ルールベースの特性](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)に[最新性と頻度](../../features/segments/recency-and-frequency.md)の制御を適用できることです。これによって、例えば、メディアキャンペーン内で特定のクリエイティブがあるユーザーに対して表示される回数を制限するフリークエンシーキャップを有効にできます。この方 [法については、「インスタントクロスデバイス抑制](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) 」を参照してください。 他にも以下のようなユースケースがあります。
+[!UICONTROL Actionable Log Files]を実装するメリットの 1 つは、実用的なシグナルを含んだあらゆる[ルールベースの特性](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)に[最新性と頻度](../../features/segments/recency-and-frequency.md)の制御を適用できることです。これによって、例えば、メディアキャンペーン内で特定のクリエイティブがあるユーザーに対して表示される回数を制限するフリークエンシーキャップを有効にできます。この方 法については、「[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)」を参照してください。他にも以下のようなユースケースがあります。
 
 ### ユーザーの再ターゲット化
 
@@ -281,7 +269,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ### Audience Optimization レポートまたは Audience Lab で DCM フラッドライトアクティビティを使用
 
-[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=en)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[!DNL DCM]Audience Optimization レポート[または](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Audience Lab[ で ](../../features/audience-lab/audience-lab.md) コンバージョンを追跡できます。
+[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=en)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)または [Audience Lab](../../features/audience-lab/audience-lab.md) で [!DNL DCM] コンバージョンを追跡できます。
 
 1. 特性を作成し、広告サーバーログからコンバージョンを取得する次の特性ルールを使用します。
 
