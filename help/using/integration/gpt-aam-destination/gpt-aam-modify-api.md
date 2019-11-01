@@ -6,7 +6,7 @@ solution: Audience Manager
 title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -57,22 +57,22 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>キーと値のセグメントペアのキーを返します。例えば、キーと値のペアが <code>color=blue</code> である場合、<code>color</code> が返されます。 </p> </td> 
+   <td colname="col3"> <p>キーと値のセグメントペアのキーを返します。For example, if your key-value pair consisted of <code> color=blue </code>, this returns <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
    <td colname="col2"> <p>文字列の配列 </p> </td> 
-   <td colname="col3"> <p>値を配列（<code>["value1","value2"]</code> など）で返します。  </p> </td> 
+   <td colname="col3"> <p>Returns values in an array, e.g., <code> ["value1","value2"] </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>Audience Manager ユーザー ID（<code>12345</code> など）を返します。 </p> </td> 
+   <td colname="col3"> <p>Audience Manager ユーザー ID（<code> 12345 </code> など）を返します。 </p> </td> 
   </tr>
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [GPT 宛先の作成](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 >* [Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
