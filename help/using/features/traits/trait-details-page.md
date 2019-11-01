@@ -7,20 +7,29 @@ title: 特性の詳細ページ
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: IDタイプの分類， IDの分類，オーディエンスIDレポート
 translation-type: tm+mt
-source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
 # 特性の詳細ページ {#trait-details-page}
 
-個々の特性の詳細ページには、特性名、ID、パフォーマンス指標、特性を定義する式、特性が属するセグメント、特性監査ログなどの概要が表示されます。これらの詳細を表示するには、[!UICONTROL Audience Data > Traits]を選択し、対象となる特性の名前をクリックします。
+個々の特性の詳細ページには、特性名、ID、パフォーマンス指標、特性を定義する式、属するセグメント、特性監査ログなど、特性の詳細の概要が表示されます。 To view these details, go to **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Traits]** and click the name of the trait you want to work with.
 
-## Basic Information {#basics}
+## 特性管理ツール {#trait-management-tools}
 
-「[!UICONTROL Basic Information]」セクションには、特性の作成時に入力した必須フィールドとオプションフィールドの詳細が表示されます。特性タイプ、特性 ID、説明、データソース、その他のメタデータなどが該当します。これらの詳細情報は、特性タイプ（フォルダー、オンボード、ルールベース）によって異なります。
+特性の詳細ページの上部には、特性の管理に使用できるツールがホストされます。
 
-![](assets/basicInfo.png)
+1. **[!UICONTROL Add New]**:このオプションを使用して、新しいルールベース、アルゴリズムまたはオンボードの特性を作成します。
+2. **[!UICONTROL Edit]**:このオプションを使用して、現在の特性の設定を変更します。
+3. **[!UICONTROL Delete]**:このオプションを使用して、現在の特性をAudience Managerアカウントから削除します。
+4. **[!UICONTROL Marketplace Recommendations]**:このオプションを使用すると、登録していないデータ料金から、表示してい [!UICONTROL Audience Marketplace] るものと同様の特徴を見つけることができます。 Marketplaceを操作し [て類似の特徴を見つける方法については](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) 、Audience Marketplace for Data Buyersを参照してください。
+
+![基本特性情報](assets/basic-trait-information.png)
+
+## 特性情報 {#basics}
+
+「[!UICONTROL Trait Information]」セクションには、特性の作成時に入力した必須フィールドとオプションフィールドの詳細が表示されます。特性タイプ、特性 ID、説明、データソース、その他のメタデータなどが該当します。これらの詳細情報は、特性タイプ（フォルダー、オンボード、ルールベース）によって異なります。
 
 ## Trait Graph {#trait-graph}
 
