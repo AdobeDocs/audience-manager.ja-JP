@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: b6d5149adf2f939941b4ef659b0ecc80fa0918f4
+source-git-commit: 2d6671406ebf8e1626c0a0b259aad6bb482d7c0e
 
 ---
 
@@ -20,12 +20,11 @@ source-git-commit: b6d5149adf2f939941b4ef659b0ecc80fa0918f4
   <tr> 
    <td colname="col1"> <p> <b>新しいトピックおよび注目すべきトピック</b> </p> <p>Audience Manager の最新機能については、以下を参照してください。</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="features/segments/trait-recommendations.md">Audience Marketplaceデータに関するインテリジェントな推奨、Adobe Sensei</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">プロファイル結合ルールの強化</a></li>
-    <li><a href="reference/bulk-management-tools/bulk-management-intro.md">バルク管理ツールの更新</a></li>
+    <li><a href="reference/bulk-management-tools/bulk-management-intro.md">一括管理ツールのアップデート</a></li>
      <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">People-Based Destinations</a> </li>
-     <li><a href="features/destinations/twitter-tailored-audiences.md">Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する</a> </li>
-     <li><a href="features/destinations/destinations-home.md">宛先ホームページ</a> </li>
      </ul> </p> <p><a href="docs-updates/docs-2019.md">ドキュメントの更新（2019 年）</a>も参照してください。 </p> 
      <p>Audience Manager を初めて使用する場合は、<a href="reference/aam-glossary.md">用語集</a>および<a href= "reference/ids-in-aam.md">ID のインデックス</a>を参照してください。</p>
       <br>
@@ -47,7 +46,6 @@ source-git-commit: b6d5149adf2f939941b4ef659b0ecc80fa0918f4
   </tr> 
  </tbody> 
 </table>
-
 
 <!--
 
