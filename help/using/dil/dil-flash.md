@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 translation-type: tm+mt
-source-git-commit: 49fff90fa1330c59360e16f2a56e8fba7d4c43dc
+source-git-commit: d72460ee33be0bfffe56eff04286284b2e5f3918
 
 ---
 
@@ -95,11 +95,6 @@ r_flash_dil_data_collected.xml
 * `mediaAdParentPod`（広告が再生されるプライマリコンテンツ内のポッドまたは広告ブレーク）
 * `mediaAdParentPodPos`（広告が再生されるポッド内の数値位置。ポッドで複数の広告を再生することもできます）
 
->[!MORE_LIKE_THIS]
->
->* [AppMeasurement Flash、Flex、OSMF 導入ガイド](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
-
-
 ## Audience Manager の Flash DIL データ {#flash-dil-data}
 
 [!UICONTROL Flash DIL] モジュールは、Adobe AppMeasurement データを Audience Manager の特性および未使用シグナルに変換します。
@@ -128,15 +123,7 @@ Analytics [!UICONTROL Props]、[!UICONTROL eVars]、およびイベントは Aud
 
 Audience Manager は、対応する特性がなくても Analytics の [!UICONTROL eVars]、[!UICONTROL Props]、およびイベントを受け入れます。この場合、このデータは、特性の作成には使用できませんが、代わりに[未使用シグナルレポート](../reporting/dynamic-reports/unused-signals.md)に表示されます。この情報を最大限に活用するには、[!UICONTROL Flash DIL] ライブラリによって渡された Analytics データに一致する Audience Manager 特性を作成します。
 
->[!MORE_LIKE_THIS]
->
->* [特性](../features/traits/trait-details-page.md)
->* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
->* [キー値ペアの解説](../reference/key-value-pairs-explained.md)
->* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
-
-
-## Flash DILActionScript ライブラリ {#flash-dil-actionscript}
+## Flash DIL ActionScript ライブラリ {#flash-dil-actionscript}
 
 [!DNL Flash] オブジェクトで Analytics データを Audience Manager に送信するためのコード。
 
@@ -152,8 +139,6 @@ r_flash_dil_actionscript.xml
    >
    >
 * Adobe [!UICONTROL AppMeasurement][!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
->
-
 
 
 ```js
@@ -166,4 +151,12 @@ d.partner = "<partner>";// Partner name
 d.containerNSID = <container NSID>; // Optional, defaults to 0 
 s.loadModule(d);
 ```
+
+>[!MORELIKETHIS]
+>
+>* [特性](../features/traits/trait-details-page.md)
+>* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
+>* [キー値ペアの解説](../reference/key-value-pairs-explained.md)
+>* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
+>* [AppMeasurement Flash、Flex、OSMF 導入ガイド](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
 
