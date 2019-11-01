@@ -6,7 +6,7 @@ solution: Audience Manager
 title: セグメントの宛先へのマッピング
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -20,13 +20,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 ## サポートされている宛先のタイプ：URL および Cookie のみ
 
 利用可能な `POST` メソッドは、[!UICONTROL URL] および [!UICONTROL cookie destinations]にのみセグメントをマッピングできます。現在、これらの [!DNL REST API] メソッドを使用して、[!UICONTROL server-to-server destinations]にセグメントをマッピングすることはできません。代わりにユーザーインターフェイスを使用してください。ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
-
->[!MORE_LIKE_THIS]
->
->* [宛先](../../../features/destinations/destinations.md)
->* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
-
 
 ## シリアル化されていない URL ベースの宛先へのセグメントのマッピング {#map-segment-non-serial}
 
@@ -584,3 +577,10 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
     "traitAlias": null
 }
 ```
+
+>[!MORELIKETHIS]
+>
+>* [宛先](../../../features/destinations/destinations.md)
+>* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
+
