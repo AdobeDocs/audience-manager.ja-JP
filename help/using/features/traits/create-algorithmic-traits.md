@@ -6,7 +6,7 @@ solution: Audience Manager
 title: アルゴリズム特性の作成
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -25,11 +25,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 1. 「[!UICONTROL Configuration]」パネルを展開し、「**[!UICONTROL Browse All Models]**」をクリックします。新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
 1. モデルを選択して、「**[!UICONTROL Add Selected Model to Trait]**」をクリックします。モデルを追加すると、リーチと精度の設定が表示されます。
 1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。終了したら、「**[!UICONTROL Save]**」をクリックします。
-
->[!MORE_LIKE_THIS]
->
->* [精度とリーチ](../../features/traits/trait-accuracy-reach.md)
-
 
 ## アルゴリズム特性{#configure-settings}の設定 
 
@@ -52,6 +47,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 | **[!UICONTROL Reach and Accuracy Data Columns]** | このセクションは右側にあり、モデルの精度とリーチ値を表す数値データを最大 21 行表示します。 |
 | **[!UICONTROL Reach and Accuracy Slider]** | このスライダーはグラフの下にあり、リーチや精度の目標を示す数値を設定できます。スライダーを設定してから、リーチまたは精度目標ボタンを選択し、特性を作成します。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [精度とリーチ](../../features/traits/trait-accuracy-reach.md)
+
