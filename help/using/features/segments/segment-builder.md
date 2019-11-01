@@ -5,8 +5,8 @@ seo-title: セグメントビルダー
 solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-translation-type: ht
-source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -167,7 +167,7 @@ source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ![](assets/s2s_modal.PNG)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Cookie の宛先の作成](../../features/destinations/create-cookie-destination.md)
 >* [URL 宛先の作成](../../features/destinations/create-url-destination.md)
