@@ -6,8 +6,8 @@ seo-title: データソースの作成
 solution: Audience Manager
 title: データソースの管理
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
-translation-type: ht
-source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 1. 統合コードを指定します。一般に、統合コードはオプションです。統合コードが必要になるのは、次のいずれかの場合です。
 
    * [クロスデバイス対応データソースを作成](../features/profile-merge-rules/merge-rules-start.md#create-data-source)する。
-   * [Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を使用する。
+   * [Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/en_US/mcvid/)を使用する。
    * [プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を使用する。
 
 1. 「**[!UICONTROL ID Type]**」を選択します。「ID Type」のオプションは以下のとおりです。
@@ -58,7 +58,7 @@ source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 1. 「[!UICONTROL Data Source Setting]」チェックボックスを選択して、データソースにオプションを適用します。
 2. 「**[!UICONTROL Save]**」をクリックします。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [データソース設定とメニューオプション](../features/datasources-list-and-settings.md#settings-menu-options)
 
@@ -73,8 +73,8 @@ source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 >
 >次の制限事項に注意してください。
 >
->* [アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
->* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/)を使用します。
+>* 削除できない[アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
+>* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/)を使用します。
 
 
 1. **[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** をクリックします。
