@@ -6,7 +6,7 @@ solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 ---
 
@@ -97,7 +97,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 [!UICONTROL Segment Builder]の [!UICONTROL Traits] セクションを使用すると、セグメントの特性を管理したり、特性グループを作成したり、認定条件を設定したりできます。セグメントに特性を追加するには、検索フィールドに特性名を入力して、「[!UICONTROL Add Trait]」をクリックします。特性を保存する（完了した場合）か、[!UICONTROL Destinations Mapping] に移動します。
 
-<!-- r_segment_traits_section.xml -->
+<!-- r_segment_traits_section.xml-->
 
 **前提条件：**「[!UICONTROL Basic Information]」セクションの必須フィールドに入力します。
 
@@ -106,7 +106,8 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 | 基本ビュー | このセクションには、次の操作をおこなうための視覚的なコントロールがあります。 <ul><li>新しいセグメントを作成し、既存のセグメントを管理する。</li><li>セグメントから特性を削除する。</li><li>セグメントに最大 50 個の特性を追加する。</li><li>特性をドラッグアンドドロップして新しいグループを作成する。</li><li>セグメントの特性と特性グループを表示する。</li><li>ブール式、比較演算子、最新性／頻度の設定により認定条件を設定する。</li></ul> |
 | コードビュー | 開発環境を開きます。この環境では、視覚的なインターフェイスの代わりにコードを使用して特性、グループ、認定要件の作成と管理ができます。このコードビューは、セグメントが次の条件に該当する場合に便利です。 <ul><li>個別のセグメントに 50 個を超える特性がある。注意：セグメント内の特性数の上限は 5000 個です。</li><li>多数の特性グループがある。</li><li>複雑な認定要件がある。</li></ul> |
 | 検索 | セグメントに追加する特性を検索できます。 |
-| 推奨事項 | セグメントルールに追加する類似特性についての有効なレコメンデーションを取得します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
+| 推奨事項 | サブスクライブしているファーストパーティの特性とデータフィードから、類似の特性に関する [!UICONTROL Audience Marketplace] ライブレコメンデーションを取得します。 これらのレコメンデーションをセグメントルールに追加して、オーディエンスを拡大します。 詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
+| Marketplaceの推奨事項 | サブスクライブしていないデータフィードから、同 [!UICONTROL Audience Marketplace] 様の特徴のライブレコメンデーションを取得します。 詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
 | 実際のセグメントサイズデータと推定セグメントサイズデータ | [セグメントビルダーにおける特性およびセグメント母集団データ](segment-builder-data.md)を参照してください。 |
 
 ## セグメントからの特性の削除 {#remove-traits}
