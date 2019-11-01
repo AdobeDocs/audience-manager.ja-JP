@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 宣言済み ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
  <tbody> 
   <tr> 
    <td colname="col1"> <b>イベント呼び出し</b> </td> 
-   <td colname="col2"> <p>機能するには、ページに <span class="wintitle">DIL</span> と <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">Experience Cloud ID サービス</a>コードが必要です。<span class="wintitle"></span><span class="wintitle"></span>DIL では、<code>setVisitorID</code> 関数で宣言された ID を Experience Cloud ID サービスから取得して <span class="keyword">Audience Manager</span> に渡します。<span class="keyword"></span> </p> </td> 
+   <td colname="col2"> <p>機能するには、ページに <span class="wintitle">DIL</span> と <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">Experience Cloud ID サービス</a>コードが必要です。<span class="wintitle"></span><span class="wintitle"></span>DIL では、<code> setVisitorID </code> 関数で宣言された ID を Experience Cloud ID サービスから取得して <span class="keyword">Audience Manager</span> に渡します。<span class="keyword"></span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID のマッチング</b> </td> 
@@ -60,7 +60,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 [!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、Audience Manager によるターゲティングを Web サイトでオプトアウトすることができます。Audience Manager がオプトアウト要求を受信した場合、[!UICONTROL DCS] から返される [!DNL JSON] には、Audience Manager ユーザー ID ではなく、エラーコード 171 と「Encountered opt out tag」というメッセージが含まれています。
 
 * Audience Manager では、[!DNL URL] で Audience Manager [!UICONTROL UUID] と一緒に [!UICONTROL declared ID] のオプトアウトを渡すことができます。
-* The [!UICONTROL declared ID] opt-out is stored in the [!UICONTROL Profile Cache Server ([!UICONTROL PCS]) on a per-partner basis. [!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
+* [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
 
 データ収集のオプトアウトについて詳しくは、[データのプライバシー](../overview/data-security-and-privacy/data-privacy.md)を参照してください。
 
@@ -89,7 +89,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>複数の <code>d_cid</code> および <code>d_cid_ic</code> キー値ペア </p> </td> 
+   <td colname="col1"> <p>複数の <code> d_cid </code> キーと <code> d_cid_ic </code> 値のペアを使用します。 </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -108,16 +108,16 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> d_uuid</code> のみ </p> </td> 
+   <td colname="col1"> <p> <code> d_uuid </code> のみ </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid=AAM ID </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>パートナーレベルのオプトアウト </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>パートナーレベルのオプトアウトは、この <code>dpid</code> + <code>dpuuid</code> ペアの AAM UUID への最新マッピングに対して保存されます。既存のマッピングがなければ、Audience Manager は、要求の Cookie に AAM UUID が含まれているかどうかを確認し、含まれていれば、それを使用してオプトアウトを保存します。含まれていなければ、Audience Manager は新規の AAM UUID を生成し、それについてオプトアウトを保存します。 </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>A partner level opt-out gets stored for the latest mapping of this <code> dpid </code> + <code> dpuuid </code> pair to an AAM UUID. 既存のマッピングがなければ、Audience Manager は、要求の Cookie に AAM UUID が含まれているかどうかを確認し、含まれていれば、それを使用してオプトアウトを保存します。含まれていなければ、Audience Manager は新規の AAM UUID を生成し、それについてオプトアウトを保存します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_dpuuid</code> + <code>d_dpid</code> および明示的な <code>d_uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code>d_uuid</code> が常に優先します。<code>dpid</code> + <code>dpuuid</code> の組み合わせが別の AAM UUID にマッピングされていても、オプトアウトは、要求（<code>d_uuid</code>）で渡された AAM UUID に保存されます。 </p> </td> 
+   <td colname="col1"> <p> <code> d_dpuuid </code> +およ <code> d_dpid </code> び明示的 <code> d_uuid </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> は常に優先されます。 If the <code> dpid </code> + <code> dpuuid </code> combination maps to another AAM UUID, the opt-out is stored under the AAM UUID passed in the request ( <code> d_uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,12 +142,12 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> d_cid =<i> data provider ID</i> %01 <i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>データプロバイダー ID とそれに関連する一意のユーザー ID が単一のキー値ペアとして含まれています。<code>d_cid</code> は <code>d_dpid</code> および <code>d_dpuuid</code> に代わるものです。d_dpid と d_dpuuid は廃止済みと見なされますが、まだサポートされています。詳しくは、 <a href="../reference/cid.md">従来の DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td> 
+   <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>データプロバイダー ID とそれに関連する一意のユーザー ID が単一のキー値ペアとして含まれています。<code> d_cid </code> とが置 <code> d_dpid </code> き換えら <code> d_dpuuid </code>れます。これは非推奨と見なされますが、引き続きサポートされます。 詳しくは、 <a href="../reference/cid.md">従来の DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>統合コードとそれに関連する一意のユーザー ID が単一のキー値ペアとして含まれています。<code>d_cid_ic</code> は <code>d_dpid</code> および <code>d_dpuuid</code> に代わるものです。d_dpid と d_dpuuid は既に廃止されていますが、まだサポートされています。詳しくは、 <a href="../reference/cid.md">従来の DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>統合コードとそれに関連する一意のユーザー ID が単一のキー値ペアとして含まれています。<code> d_cid_ic </code> とが置 <code> d_dpid </code> き換え <code> d_dpuuid </code>られます。これは非推奨ですが、引き続きサポートされます。 詳しくは、 <a href="../reference/cid.md">従来の DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -173,16 +173,11 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>複数の <code>d_cid</code> および <code>d_cid_ic</code> キー値ペア </p> </td> 
+   <td colname="col1"> <p>複数の <code> d_cid </code> キーと <code> d_cid_ic </code> 値のペアを使用します。 </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
->[!MORE_LIKE_THIS]
->
->* [DPID と DPUUID に代わる CID](../reference/cid.md)
-
 
 ## 宣言済み ID 変数 {#declared-id-variables}
 
@@ -284,3 +279,8 @@ myCallback({
 ## ターゲティングからの除外 {#do-not-target}
 
 [!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、Audience Manager によるターゲティングを Web サイトでオプトアウトすることができます。Audience Manager がオプトアウトリクエストを受け取ると、[!UICONTROL DCS] は Audience Manager ユーザー ID ではなく空の [!DNL JSON] オブジェクトを返します。
+
+>[!MORELIKETHIS]
+>
+>* [DPID と DPUUID に代わる CID](../reference/cid.md)
+
