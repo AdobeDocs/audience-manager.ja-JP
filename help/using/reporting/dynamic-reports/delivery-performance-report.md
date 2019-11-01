@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 配信およびパフォーマンスレポート
 uuid: c8daa6bc-50d6-4c2c-a45a-5b7065fd88f9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,14 +35,6 @@ c_delivery_reports.xml
 
 個々の点を選択すると、データの詳細がポップアップウィンドウに表示されます。また、点のグループをクリックしてドラッグすると、これらのデータ要素のみに関するデータを返すことができます。これらの操作により、レポート結果が自動的に更新されます。
 
->[!MORE_LIKE_THIS]
->
->* [ルックアップテーブルによるログファイル処理時間の改善](../../reporting/dynamic-reports/lookup-tables.md)
->* [データスライダーを使用したレポート結果のフィルタリング](../../reporting/dynamic-reports/data-sliders.md)
->* [配信およびパフォーマンスデータポップフィールドの定義](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
->* [インタラクティブレポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-
-
 ## 配信およびパフォーマンスデータポップフィールドの定義 {#field-definitions}
 
 個別のデータポイントをクリックしたときにポップアップウィンドウに表示される指標について説明します。
@@ -66,7 +58,10 @@ r_delivery_data_pop.xml
 | **[!UICONTROL Reach]** | 個別訪問者の数。 |
 | **[!UICONTROL Click Through]** | 訪問者が広告をクリックした回数。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [ルックアップテーブルによるログファイル処理時間の改善](../../reporting/dynamic-reports/lookup-tables.md)
+>* [データスライダーを使用したレポート結果のフィルタリング](../../reporting/dynamic-reports/data-sliders.md)
+>* [配信およびパフォーマンスデータポップフィールドの定義](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
+>* [インタラクティブレポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 
