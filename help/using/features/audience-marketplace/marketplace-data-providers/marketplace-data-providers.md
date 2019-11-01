@@ -8,7 +8,7 @@ title: データプロバイダー向けの Audience Marketplace
 topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 [!UICONTROL My Shared Data] では、フィードステータスが非公開とマークされていることがあります。これは、非公開データフィードであることを示しています。非公開データフィードを使用すると、販売者は、データへの購入者のアクセスを制限できます（データフィードの名前を含む）。販売者は、特別サービスや割引を提供したり、プライバシーおよびアクセス制御が重要な場合に、フィードを非公開にできます。非公開データフィードでは、プロバイダーは、すべての購入者のアクセス要求を確認および承認できます。For more information, see [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md). 公開データフィードまたは非公開データフィードの作成方法については、[公開または非公開のデータフィードの作成](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)を参照してください。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [データプロバイダーにとっての割引](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)
 
