@@ -5,8 +5,8 @@ seo-title: プロファイルリンクデバイスグラフのユースケース
 solution: Audience Manager
 title: プロファイルリンクデバイスグラフのユースケース
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-translation-type: ht
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ Audience Manager は、1 つのセグメントに対し、プロファイルの�
 
 ![cross-device-personalization](assets/cross-device-personalization.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
 >* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
