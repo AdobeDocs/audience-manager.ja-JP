@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API の概要
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 27800ce003a62733eece0d5de3b94737ed61133a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -130,12 +130,6 @@ Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従っ
 
 Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認証をサポートしています。これらのアクセス方法を利用するには、ユーザーが `https://api.demdex.com/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
 
->[!MORE_LIKE_THIS]
->
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
-
 ## 認証済み API リクエストの作成{#authenticated-api-requests}
 
 認証トークン受信後の [!DNL API] メソッドの呼び出しの要件。
@@ -146,11 +140,6 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 
 * `HTTP` ヘッダーで `Authorization: Bearer <token>` を設定します。
 * 必要な [!DNL API] メソッドを呼び出します。
-
->[!MORE_LIKE_THIS]
->
->* [OAuth 認証](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-
 
 ## オプションの API クエリパラメーター {#optional-api-query-parameters}
 
@@ -238,3 +227,10 @@ Audience Manager `HTTP` によって返される [!UICONTROL REST API] ステー
 | 404 | Not Found | 指定されたパスでリソースが見つかりません。 |
 | 409 | Conflict | リソースの状態に競合が発生しているので、リクエストを完了できません。 |
 | 500 | Server Error | サーバーで予期しないエラーが発生し、リクエストを完了できません。 |
+
+>[!MORELIKETHIS]
+>
+>* [OAuth 認証](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+
