@@ -5,8 +5,8 @@ seo-title: 最新性と頻度
 solution: Audience Manager
 title: 最新性と頻度
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
-translation-type: ht
-source-git-commit: 1cbff10b9e978755e139e7d5b996249de5ebb5bd
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -119,7 +119,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 * 正しい - 広告頻度キャップの使用例の場合、次のようなセグメントルールを作成できます。`(frequency([1000T] <= 2D) >= 5)`この式では、過去 2 日間に ID 「1000」の特性を 5 回以上認識したすべてのユーザーを含めます。広告サーバーでセグメントに対して `NOT` を設定した広告サーバーにこのセグメントを送信することで、頻度キャップを設定します。この方法は、頻度キャップと同じ目的を提供しますが、[!DNL Audience Manager] でより優れたパフォーマンスを達成します。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [セグメントビルダーのコントロール：「Traits」セクション](../../features/segments/segment-builder.md#segment-builder-controls-traits)
 >* [セグメント式エディターで使用するコード構文](../../features/segments/segment-code-syntax.md)
