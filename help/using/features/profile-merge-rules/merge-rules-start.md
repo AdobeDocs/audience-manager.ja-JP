@@ -5,8 +5,8 @@ seo-title: プロファイル結合ルールの導入
 solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-translation-type: ht
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -54,11 +54,6 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 * **[!UICONTROL Data retention for inactive Customer IDs]**：非アクティブな顧客 ID のデータ保持期間を設定します。これにより、Audience Manager プラットフォームに Audience Manager が最後に表示された後、Audience Manager がデータベースに顧客 ID を保持する期間を決定します。デフォルト値は 24 か月（720 日）です。設定できる最小値は 1 か月、最大値は 5 年です。すべての月は 30 日としてカウントされます。Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。
 
 これらの設定と関連付けられているテキストフィールドでは、[!UICONTROL Data Source]の名前を[プロファイル統合ルールオプション](merge-rule-definitions.md)に表示されるエイリアスに置き換えることができます。例えば、**[!UICONTROL Use as Authenticated Profile]**&#x200B;にエイリアスを追加した場合は、その名前が「[!UICONTROL Authenticated Profile Options]」リストに表示されます。**[!UICONTROL Use as a Device Graph]**&#x200B;にエイリアスを追加した場合は、その名前が「[!UICONTROL Device Options]」リストに表示されます。
-
->[!MORE_LIKE_THIS]
->
->* [データソースの作成](../manage-datasources.md#create-data-source)
-
 
 ## プロファイル結合ルールの作成{#create-profile-merge-rule}
 
@@ -140,7 +135,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid_customer_ids.html)を参照してください。
+詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html)を参照してください。
 
 ### `DIL.create` 関数の設定
 
@@ -155,7 +150,7 @@ var vDil = DIL.create({
 });
 ```
 
-namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=admin_getting_started.html)も参照してください。
+namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html)も参照してください。
 
 ### SDK の設定
 
@@ -213,4 +208,9 @@ DIL.create({
  </tbody>
 </table>
 
-[Android 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/android/?f=c_audience_manager_methods.html)と[ iOS 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/?f=aam_methods.html)も参照してください。
+[Android 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html)と[ iOS 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html)も参照してください。
+
+>[!MORELIKETHIS]
+>
+>* [データソースの作成](../manage-datasources.md#create-data-source)
+
