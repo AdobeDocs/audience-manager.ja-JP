@@ -6,7 +6,7 @@ solution: Audience Manager
 title: プラットフォームレベルのキーによるデバイスターゲティング
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ The [!UICONTROL Data Collection Servers] extract the values for these keys from 
 >
 >1 つ以上のシグナルがユーザーエージェントヘッダーから取得できなくても、他のシグナルが[!UICONTROL Data Collection Servers]に渡されます。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [キー変数のプレフィックスに関する要件](../../features/traits/trait-variable-prefixes.md)
 
