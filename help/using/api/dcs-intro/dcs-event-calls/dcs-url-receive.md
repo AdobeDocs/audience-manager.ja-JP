@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS からのデータ受信
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -61,7 +61,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 | `u` および `uuid` | Audience Manager によって割り当てられユニークユーザー ID。これが必要になるのは、[サーバー間 DCS 呼び出し](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)をおこなう場合です。 |
 | `y` | 宛先のタイプ。iFrame（`iframe`）または画像（`img`）。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DCS でサポートされるキー値のプレフィックスと変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
