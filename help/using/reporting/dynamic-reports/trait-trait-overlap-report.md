@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性間重複レポート
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -102,7 +102,7 @@ r_t2t_data_pop.xml
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [データスライダーを使用したレポート結果のフィルタリング](../../reporting/dynamic-reports/data-sliders.md)
 >* [動的レポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
