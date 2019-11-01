@@ -6,7 +6,7 @@ solution: Audience Manager
 title: キー変数のプレフィックスに関する要件
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,16 +43,16 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html">HTTP ヘッダー</a>の情報が格納されています。<code>referer</code>、<code>IP</code>、<code>accept-language</code> などのヘッダーパラメーターがあります。 </p> <p> <p>注意：9.0 以前のバージョンの DIL を使用しているお客様の場合、Safari ブラウザーでは <code> h_ referer</code> シグナルを使用したデータ収集機能しません。<a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external">ITP 2.0</a> の導入により、Safari ブラウザーでは、demdex.net ドメインをトラッカーとして分類する可能性があり、データ収集要求のリファラーを切り詰めて、完全な URL ではなく要求元のみ含まれるようにします。最新バージョンの DIL については、<a href="../../dil/dil-overview.md#get-implement-dil-code">DIL コードの取得と実装 </a>を参照してください。 </p> </p> </td> 
+   <td colname="col2"> <p><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html">HTTP ヘッダー</a>の情報が格納されています。Includes header parameters such as <code> referer</code>,<code> IP</code>, <code> accept-language</code>, etc. </p> <p> <p>注意：9.0 以前のバージョンの DIL を使用しているお客様の場合、Safari ブラウザーでは <code> h_referer</code>   シグナルを使用したデータ収集機能しません。<a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external">ITP 2.0</a> の導入により、Safari ブラウザーでは、demdex.net ドメインをトラッカーとして分類する可能性があり、データ収集要求のリファラーを切り詰めて、完全な URL ではなく要求元のみ含まれるようにします。最新バージョンの DIL については、<a href="../../dil/dil-overview.md#get-implement-dil-code">DIL コードの取得と実装 </a>を参照してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
-   <td colname="col2"> <p><span class="wintitle">データ収集サーバー</span>ではプライベートパラメーターを渡すことができます。基本的に、<code>p_</code> で始まるパラメーターは特性の評価に使用されますが、下流でログに記録されることはなく、保存もされません。 </p> <p>例：<code>/event?p_age=23</code> であり、特性が <code>YoungPeople = p_age &lt; 25</code> である場合、この特性は認識されますが、キーと値のペア <code>p_age=23</code> はリクエストの後で破棄され、ログには記録されません。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">データ収集サーバー</span>ではプライベートパラメーターを渡すことができます。Basically, any parameter that starts with <code> p_</code> will be used for trait evaluation, but it will not be logged downstream, nor stored. </p> <p>Example: given <code> /event?p_age=23</code> and a trait like <code> YoungPeople = p_age &lt; 25</code>, the trait will be realized, but the <code> p_age=23</code> key-value pair will be dropped after the request and will not be logged. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [基本情報の概要](../../features/traits/create-onboarded-rule-based-traits.md)
 >* [特性ルールの管理](../../features/traits/manage-trait-rules.md#managing-trait-rules)
