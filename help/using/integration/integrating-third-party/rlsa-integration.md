@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Google AdWords リマーケティングリストへのセグメントの送信
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ![](../assets/rlsa_mapping.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [宛先](../../features/destinations/destinations.md)
 >* [URL 宛先の作成](../../features/destinations/create-url-destination.md)
