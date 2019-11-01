@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性ビルダーでの比較演算子の使用
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 | **[!UICONTROL Endswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で終わる*。 |
 | **[!UICONTROL Matchesregex]** | キー値ペアの値が、正規表現で指定されたパターンに&#x200B;*合致する*。[こちら](../../features/traits/trait-builder-regex.md)を参照して、[!UICONTROL Trait Builder]での正規表現の使用について確認してください。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [特性およびセグメントビルダーのブール式](../../reference/boolean-expressions-tsb.md)
 >* [特性ビルダーのブール式について](../../reference/boolean-expressions-tsb.md)
