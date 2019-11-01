@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Manager の訪問者認証ステータス
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -100,7 +100,7 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 >
 >[!DNL Audience Manager] は、[CID と UUID](../reference/ids-in-aam.md) 間の ID 同期を 3 つすべてのケースで実行します。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [顧客 ID と認証状態](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
 
