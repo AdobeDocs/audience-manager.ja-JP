@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -268,7 +268,7 @@ There are two basic components of a data file: A User ID (see User ID in [File V
 
 場合によります。[!DNL Audience Manager] は、[!DNL Amazon SQS] キューから最大 119000 個のエントリを読み取って、最大 3 つのバッチに分割します。同じバッチ内のファイルであれば、同時に処理されます。ただし、毎日大量のデータが [!DNL Audience Manager] に取り込まれるので、ファイルの処理順序は保証できません。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [バッチデータ転送プロセスの説明](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
