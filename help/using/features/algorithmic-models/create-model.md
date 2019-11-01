@@ -7,8 +7,8 @@ solution: Audience Manager
 title: アルゴリズムモデルの作成
 topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
-translation-type: ht
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 >[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=jpn)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [TraitWeight について](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
 
