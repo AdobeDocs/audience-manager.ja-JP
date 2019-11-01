@@ -6,8 +6,8 @@ seo-title: プロファイル結合ルールおよびデバイスグラフに関
 solution: Audience Manager
 title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-translation-type: ht
-source-git-commit: ddec078f406b5386b10247b42f1b8bde6b0253e4
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -108,7 +108,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile 
 
 **セグメントサイズの予測には、デバイスグラフオプションを使用する[!UICONTROL Profile Merge Rule]で設定される結合に基づいてセグメント認定されるデバイスは含まれますか？**
 
-いいえ。[!UICONTROL Estimated Real-Time Population]セグメントビルダーの特性およびセグメント母集団データ[!UICONTROL Estimated Total Population]で、[ および  の定義を参照してください](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html)。
+いいえ。[!UICONTROL Estimated Real-Time Population]セグメントビルダーの特性およびセグメント母集団データ[!UICONTROL Estimated Total Population]で、[ および  の定義を参照してください](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html)。
 
  
 
@@ -256,7 +256,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile 
 
 いいえ。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Profile Link](../features/profile-merge-rules/profile-link-use-case.md)
 
