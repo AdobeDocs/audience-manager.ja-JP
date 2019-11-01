@@ -8,7 +8,7 @@ title: アルゴリズムモデルについて
 topic: DIL API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
 ## トラブルシューティング {#troubleshooting}
 
 データの生成に 3 回連続で失敗したアルゴリズムモデルは、非アクティブ化されます。後でモデルのステータスを「Active」に戻すことはできません。モデルがデータを生成するようにするには、データを蓄積するために十分な量の特性を持つデータソースからモデルを作成することが推奨されます。
-
->[!MORE_LIKE_THIS]
->
->* [宛先](../../features/destinations/destinations.md)
->* [特性](../../features/traits/trait-details-page.md)
->* [セグメント](../../features/segments/segments-purpose.md)
-
 
 ## TraitWeight について {#understanding-traitweight}
 
@@ -210,3 +203,10 @@ Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]�
   </tr>
  </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>* [宛先](../../features/destinations/destinations.md)
+>* [特性](../../features/traits/trait-details-page.md)
+>* [セグメント](../../features/segments/segments-purpose.md)
+
