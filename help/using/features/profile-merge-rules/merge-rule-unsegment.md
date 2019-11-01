@@ -5,8 +5,8 @@ seo-title: プロファイル結合ルールとデバイスのセグメント化
 solution: Audience Manager
 title: プロファイル結合ルールとデバイスのセグメント化解除プロセス
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
-translation-type: ht
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ![](assets/last-device-graph.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](../../faq/faq-profile-merge.md)
 >* [Instant Cross-Device Suppression](instant-cross-device-suppression.md)
