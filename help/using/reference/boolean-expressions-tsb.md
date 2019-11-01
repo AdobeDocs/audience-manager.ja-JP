@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性およびセグメントビルダーのブール式
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -76,7 +76,7 @@ c_tb_boolean.xml
 
 [!UICONTROL AND NOT] 演算子は、*包含*&#x200B;よりも&#x200B;*除外*&#x200B;でオーディエンスを定義するほうが簡単になる場合に役に立ちます。例えば、セールがあり、訪問者から定価の商品のみを調べる顧客にセグメント化したいとします。すべての定価またはセール価格の商品のシグナルのリストを作成するよりも、セール価格の商品を表示&#x200B;*しなかった*&#x200B;かどうかで訪問者を区別するほうが簡単です。これは、管理上、効率的です。通常、定価で提供している商品よりも、セール価格の商品のほうが少ないからです。ブール値 [!UICONTROL NOT] では、セールシグナルを&#x200B;*示さない*&#x200B;訪問者を定価のオーディエンスメンバーシップの対象にします。一方、[!UICONTROL AND NOT] は [!UICONTROL AND] のユースケースとは反対で、これが、オーディエンスメンバーシップが含有で決まることを示しています（つまり、2 つの明示的に示されたシグナルに基づいて訪問者が区別されます）。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [特性ビルダーでの比較演算子の使用](../features/traits/trait-comparison-operators.md)
 >* [特性ビルダーでの演算順序](../features/traits/trait-operator-precedence.md)
