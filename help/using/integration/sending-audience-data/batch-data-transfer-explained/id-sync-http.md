@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 受信データ転送のための ID 同期
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: 0fac081c93be36d2aa40023c7323ef1886b3860a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -57,11 +57,11 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
-   <td colname="col2"> <p>エンコードされた URL は、マクロ <code>${DD_UUID}</code> が埋め込まれてリダイレクトされます。 </p> <p>注意：コンテンツプロバイダーが呼び出しを開始した場合にのみ追加されます。 </p> </td> 
+   <td colname="col2"> <p>An encoded URL redirect with the macro <code> ${DD_UUID}</code> embedded within it. </p> <p>注意：コンテンツプロバイダーが呼び出しを開始した場合にのみ追加されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>オプションです。<a href="../../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code> gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr_consent</code> と一緒に使用する必要があります。</p></td> 
+   <td colname="col2"> <p>オプションです。<a href="../../../overview/aam-gdpr/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code> gdpr</code>   には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr_consent</code> と一緒に使用する必要があります。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
@@ -78,7 +78,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 
 電子メール画像で ID をマッチングさせるための形式は、前述のものと同じです。ただし、電子メールのその画像は、これが機能するように有効になっている必要があります。これは、ほとんどのメールシステムは、デフォルトで画像を無効にしているので、電子メールを使用した ID 同期に影響します。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [データ収集コンポーネント](../../../reference/system-components/components-data-collection.md)
 
