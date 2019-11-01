@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -40,16 +40,16 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col2"> <p>ユーザーの <span class="keyword">Audience Manager</span> ID を宛先 URL に挿入します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>%dpid_<i> data source id</i>%</code> </p> </td> 
+   <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
    <td colname="col2"> <p><i> データソース ID</i> は、マクロに渡されるデータソースの識別子に対応します。 </p> <p>このマクロの動作を簡単な例で見てみましょう。ここでは、次の ID と条件を持つ <span class="keyword">Audience Manager</span> パートナーがいるとします。 </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
-     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">データソース ID：<code>1</code> </li> 
-     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">内部の顧客 ID：<code>CustomerABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">宣言済み ID：パートナーはこれらの値を宣言済み ID <code>1:CustomerABC</code> として渡します。 </li> 
-    </ul> <p>これを <code>%dpid_<i> data source id</i>%</code> でおこなうには、<span class="keyword">Audience Manager</span> パートナーは次のような形式でマクロを設定します。 </p> 
+     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">データソース ID: <code> 1</code> </li> 
+     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">An internal customer ID: <code> CustomerABC</code> </li> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">宣言済み ID：パートナーはこれらの値を宣言済み ID <code> 1:CustomerABC</code> として渡します。 </li> 
+    </ul> <p>To do this with the <code>%dpid_<i>data source id</i>%</code>, the <span class="keyword"> Audience Manager</span> partner would format the macro like this: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>このマクロは <code>1</code> を <code>CustomerABC</code> に置き換えます。 </p> <p> 
+    </ul> <p>The macro will replace <code> 1</code> with <code> CustomerABC</code>. </p> <p> 
      <draft-comment>
        AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 に基づきます 
      </draft-comment> </p> </td> 
@@ -100,6 +100,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 どちらのマクロもキャッシュを防ぎますが、`%rnd%` のほうがより効率的な可能性があります。例えば、`%timestamp%` を使用すると、複数のユーザーがページを同時に表示する場合、同じ日付／時刻値を取得します。結果として、[!DNL URL] は一意でなくなり、複数の呼び出しが 1 回のみカウントされます。しかし、`%rnd%` は、（ユーザーが同じページを同時に表示したとしても）呼び出しごとに一意の数値を生成します。これは、[!DNL URL] 文字列に異なる値が含まれ、個別のものとしてカウントされることを意味します。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [宛先マクロの定義](../../features/destinations/destination-macros.md#destination-macros-defined)
