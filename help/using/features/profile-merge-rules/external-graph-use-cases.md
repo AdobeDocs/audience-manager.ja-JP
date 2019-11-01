@@ -5,8 +5,8 @@ seo-title: 外部デバイスグラフのユースケース
 solution: Audience Manager
 title: 外部デバイスグラフのユースケース
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
-translation-type: ht
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -123,7 +123,7 @@ These strategies are designed to bring an unauthenticated or unknown user back t
 
 ![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
 >* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
