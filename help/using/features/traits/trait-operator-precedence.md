@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性ビルダーでの演算順序
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody>
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [特性ビルダーでのブール式の使用（AND、OR、NOT）](../../reference/boolean-expressions-tsb.md)
 >* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
