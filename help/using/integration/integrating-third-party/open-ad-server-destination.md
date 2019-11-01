@@ -5,8 +5,8 @@ seo-title: Audience Manager の宛先としての OAS
 solution: Audience Manager
 title: Audience Manager の宛先としての OAS
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
-translation-type: ht
-source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -40,7 +40,7 @@ Audience Manager はブラウザー Cookie に対してセグメントデータ�
 
 [!DNL OAS] に渡されるデータの量は、特定のユーザーが適合するセグメントの数によって異なります。例えば、100 件の Audience Manager セグメントを設定したとします。サイト訪問者が適合しているのがその内の 5 件であった場合、100 件すべてではなく、これらの 5 件のセグメントのみが OAS に送信されます。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [get_aamCookie コード](../../features/destinations/get-aam-cookie-code.md)
 >* [キー値ペアの解説](../../reference/key-value-pairs-explained.md)
