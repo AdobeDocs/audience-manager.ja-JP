@@ -7,7 +7,7 @@ title: データ購入者向けの Audience Marketplace
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 
 ---
 
@@ -51,15 +51,15 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 * **[!UICONTROL Private Feeds]**:プライベートデ [ータフィードを参照してください](../../../features/audience-marketplace/marketplace-private-feeds.md)。
 * **[!UICONTROL Currently Subscribed Plan Count]**:データプロバイダーに対する購読の数です。
 
+ 
+
 ニーズに最適なデータフィードを簡単に見つけるには、ページの左側にある次のフィルターを使用し [!UICONTROL Marketplace] ます。
 
 * **[!UICONTROL Similarity To]**:選択した特性またはセグメントとの類似性に基づいて、データフィードをフィルタリングします。 比較する特性またはセグメントを入力する際に、特性またはセグメントID、またはそれぞれの名前を使用できます。
-* **[!UICONTROL Similarity Cutoff]**:スライダをドラッグして、選択した特性またはセグメントに対する特性の類似性に基づいて、データフィードをフィルタリングします。
+* **[!UICONTROL Similarity Cutoff]**:スライダをドラッグして、選択した特性またはセグメントに対する特性の類似性に基づいて、データフィードをフィルタリングします。 特性の類似性スコアについて詳しくは、「特性の類似性スコア」を [参照してください。](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**:購読ステータスに基づいてデータフィードをフィルターします。
 * **[!UICONTROL Plan Use Case]**:サポートされている使用例に基づいて、データフィードをフィルターします。 **[!UICONTROL Activation]**、 **[!UICONTROL Segments and Overlap]**、、 **[!UICONTROL Modelling]**、
 * **[!UICONTROL Plan Unit]**:価格タイプに基づいてデータフィードをフィルターします。
-
-以下のビデオで、これらのフィルターの使用方法の概要をご覧ください。
 
 ## 類似の特徴の検索 {#finding-similar-traits}
 
@@ -81,7 +81,6 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 以下のビデオで、類似の特徴を見つける方法の概要をご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/?captions=jpn)
-
 
 ## 非公開データフィード {#private-data-feeds}
 
