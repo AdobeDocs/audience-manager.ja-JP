@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 重複レポートと一般レポートでの個別ユーザーのカウント
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -33,7 +33,7 @@ c_unique_user_counts.xml
 
 一般レポートでは、選択した期間中に特性で絞り込まれているサイト訪問者を個別ユーザーとしてカウントします。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [インタラクティブレポート](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
 >* [一般レポート](../reporting/general-reports.md#general-reports-overview)
