@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: ec2d05290874a95e9cc9b8318fcc5e1e1986f5b9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -57,7 +57,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データパートナー ID：</b>Audience Manager が会社や組織に割り当てる一意の ID です。ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。例えば、「<code>...ftp_dpm_21_123456789.sync</code>」は、ID が 21 であるパートナーがファイルの送信者で、このファイルにはそのパートナーが割り当てたユーザー ID が含まれていることを <span class="keyword">Audience Manager</span> に通知します。 </li> 
      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID（GAID）：</b>データファイルに Android の ID が含まれている場合、ファイル名に ID 20914 を使用します。例えば、「<code>...ftp_dpm_20914_123456789.sync</code>」は、データファイルに Android の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。例えば、「<code>...ftp_dpm_20915_123456789.sync</code>」は、データファイルに iOS の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。例えば、「<code>...ftp_dpm_20915_123456789.sync</code>.」は、データファイルに iOS の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
     </ul> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p> </td> 
   </tr> 
   <tr> 
@@ -70,11 +70,11 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
+   <td colname="col1"> <p> <code> (.sync |.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>同期オプション。以下のものがあります。 </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
-      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code>sync</code>：通常のシナリオ。サードパーティデータプロバイダーが、Audience Manager システムで追加または削除するユーザー単位の特性を送信します。 </li> 
-      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code>overwrite</code>：顧客とデータプロバイダーはユーザー単位の特性のリストを送信できます。これにより、Audience Manager で特定のデータソースについて当該ユーザーの既存の特性がすべて上書きされます。すべてのユーザーを上書きファイルに入れる必要はありません。変更するユーザーのみを入れるようにしてください。ターゲットデータソースに割り当てられていない特性は消去されません。 </li> 
+      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>：通常のシナリオ。サードパーティデータプロバイダーが、Audience Manager システムで追加または削除するユーザー単位の特性を送信します。 </li> 
+      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>：顧客とデータプロバイダーはユーザー単位の特性のリストを送信できます。これにより、Audience Manager で特定のデータソースについて当該ユーザーの既存の特性がすべて上書きされます。すべてのユーザーを上書きファイルに入れる必要はありません。変更するユーザーのみを入れるようにしてください。ターゲットデータソースに割り当てられていない特性は消去されません。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -137,7 +137,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [受信データファイルの Amazon S3 の名前に関する要件](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
