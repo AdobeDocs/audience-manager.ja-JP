@@ -5,8 +5,8 @@ seo-title: 受信データファイルの Amazon S3 名とファイルサイズ�
 solution: Audience Manager
 title: 受信データファイルの Amazon S3 名とファイルサイズの要件
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-translation-type: ht
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -62,7 +62,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
       <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID（GAID）：</b>データファイルに Android の ID が含まれている場合、ファイル名に ID 20914 を使用します。例えば、「<code>...ftp_dpm_20914_21_123456789.sync</code>」は、データファイルに Android の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。注意：ID が 21 である </li> 
       <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。例えば、「<code>...ftp_dpm_20915_123456789.sync</code>.」は、データファイルに iOS の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
      </ul> 
-    </draft-comment> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p><p>詳しくは、「<a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-sources/global-data-sources.html">グローバルデータソース</a>」を参照してください。</p> <p>下記の <code><i>_DPID_TARGET_DATA_OWNER</i></code> エントリも参照してください。 </p> </td> 
+    </draft-comment> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p><p>詳しくは、「<a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">グローバルデータソース</a>」を参照してください。</p> <p>下記の <code><i>_DPID_TARGET_DATA_OWNER</i></code> エントリも参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
@@ -121,7 +121,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 追加の例が必要であれば、サンプルを[ダウンロード](assets/ftp_dpm_1234_1445374061.overwrite)することもできます。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 許容されるファイルサイズ{#accepted-file-sizes}
+## 許容されるファイルサイズ {#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL Amazon S3] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
@@ -151,7 +151,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 >
 >受信データの検証プロセスでは、空のファイルは無効としてマークされます。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [受信データファイルの FTP の名前に関する要件](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
 
