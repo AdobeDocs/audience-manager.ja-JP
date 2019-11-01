@@ -4,7 +4,7 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 [!DNL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL Facebook] に送信する前に、次の要件を満たしていることを確認してください。
 
 1. お使いの [!DNL Facebook] ユーザーアカウントで、使用するプランの広告アカウントに対する&#x200B;**キャンペーンの管理**&#x200B;権限が有効になっている必要があります。
-1. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/708679622611131) for details.
+1. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。詳しくは、「[ビジネスマネージャにパートナーを追加する](https://www.facebook.com/business/help/708679622611131)」を参照してください。
    >[!IMPORTANT]
    > Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!DNL People-Based Destinations] 統合に必要です。
 1. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
@@ -69,7 +69,7 @@ source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
 
-Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECIDを使用して顧客IDをハッシュ化する方法について詳しくは、 [SHA256 「setCustomerIDsのハッシュのサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) 」を参照してください。
+Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)」を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
@@ -83,7 +83,7 @@ Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID を�
 
 [!DNL People-Based Destinations] を使用する際は、ファーストパーティデータを使用して、ユーザーベースのチャネルでオーディエンスセグメントをアクティブ化できます。ユーザーベースのチャネルでオーディエンスのアクティブ化にセカンドパーティデータやサードパーティデータを使用することはできません。
 
-を使用する場合は、 [!UICONTROL People-Based Destinations]「データエク [スポートコントロール」を使用して](../data-export-controls.md) 、データソースと宛先に対して、宛先プラットフォームおよびデータプロバイダーのガイドラインと要件に従ってラベルを付けます。
+[!UICONTROL People-Based Destinations] を使用している場合は、「[データエクスポートコントロール](../data-export-controls.md)」を使用し、宛先プラットフォームおよびデータプロバイダーのガイドラインと要件に従って、データソースと宛先にラベルを付けます。
 
 ## 宣言済み ID のターゲティングを介して認証済みの ID のオンボーディングをおこなう {#onboard-authenticated-declared-id}
 
