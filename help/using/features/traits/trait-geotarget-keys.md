@@ -6,7 +6,7 @@ solution: Audience Manager
 title: プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 translation-type: tm+mt
-source-git-commit: c5c57423bcba8d4b3974a04c46dc7c7afc7484a0
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -52,7 +52,7 @@ We work with [Digital Envoy](https://www.digitalenvoy.com/) to obtain and update
 
 [すべての位置ベースのシグナル](assets/all.csv)のリストには、前述したすべてのシグナルが含まれ、次の順序で並べられています。`d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [キー変数のプレフィックスに関する要件](../../features/traits/trait-variable-prefixes.md)
 
