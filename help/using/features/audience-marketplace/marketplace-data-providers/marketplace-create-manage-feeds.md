@@ -7,7 +7,7 @@ title: データフィードの作成、価格設定および管理
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -58,11 +58,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 * **[!UICONTROL Private]「**」と「**[!UICONTROL Unbranded]**」：購入者の「[!UICONTROL Marketplace]」リストには、データフィードの名前と説明だけが表示されます。データプロバイダーの名前は、[!UICONTROL Private Seller] と表示されます。
 
 非公開フィードが購入者にどのように表示されるかについては、[非公開データフィード](../../../features/audience-marketplace/marketplace-private-feeds.md)を参照してください。
-
->[!MORE_LIKE_THIS]
->
->* [非公開データフィード](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 
 ## 購読者のデータフィードを非アクティブ化する {#deactivate-data-feed}
 
@@ -182,11 +177,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 3. 各リクエストボックスの「[!UICONTROL Allow Access]」セクションで、チェックマークをクリックしてリクエストを承認するか、X 印をクリックしてアクセスを拒否します。
 4. 確認ポップアップで、選択したアクションを確定またはキャンセルします。
 
->[!MORE_LIKE_THIS]
->
->* [非公開データフィード](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
-
 ## データプロバイダーにとっての割引 {#discounts}
 
 [!UICONTROL Audience Marketplace] では、割引によって、個別の加入者に対するデータフィードの公表価格を下げることができます。サブスクリプション購入要求を送信した加入者またはデータフィードの詳細情報を要求した加入者に対して、割引を提案できます。割引は [!DNL CPM] および定額料金のフィードに適用されます。新規顧客のサブスクリプション購入意欲を高める場合や顧客の忠誠度に報いる場合に、割引は役に立ちます。
@@ -211,3 +201,8 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 データプロバイダーは、**[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]** ですべての登録者と割引されたフィードを表示できます。
 
 ![](assets/subscribers.png)
+
+>[!MORELIKETHIS]
+>
+>* [非公開データフィード](../../../features/audience-marketplace/marketplace-private-feeds.md)
+
