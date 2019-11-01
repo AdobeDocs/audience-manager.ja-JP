@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 受信データファイルコンテンツ：構文、無効な文字、変数、例
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>ユーザー ID </i> </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>ユーザー ID は次のいずれかに該当します。 </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
       <li id="li_23829FE2F6464E33859B3E388FCD106B"><span class="keyword">Audience Manager</span> により割り当てられた一意のユーザー ID（<a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>）。 </li> 
@@ -59,8 +59,8 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">モバイル Android または iOS デバイス ID（モバイルオペレーティングシステムで表示される、元のままの形式）。 </li> 
      </ul> </p> <p>モバイル ID については、以下の点にも注意してください。 </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
-      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA 形式：ID は大文字でなければなりません。また、ハッシュしてはいけません。例えば、<code>6D92078A-8246-4BA4-AE5B-76104861E7DC</code> のようにします。 </li> 
-      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android 形式：ID は小文字でなければなりません。また、ハッシュしてはいけません。例えば、<code>97987bca-ae59-4c7d-94ba-ee4f19ab8c21</code> のようにします。 </li> 
+      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA 形式：ID は大文字でなければなりません。また、ハッシュしてはいけません。For example, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android 形式：ID は小文字でなければなりません。また、ハッシュしてはいけません。For example, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -88,23 +88,23 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p><code>d_sid</code> というプレフィックスは、ID が <span class="keyword">Audience Manager</span> の特性 ID であることを表します。これはユーザーインターフェイスに表示される ID と同じです。特性 ID は API <code>GET</code> メソッドを使用して返すこともできます。詳しくは <a href="../../../api/rest-api-main/api-traits.md"> 特性 API メソッド</a>を参照してください。 </p> </td>
+   <td colname="col2"> <p><code> d_sid </code> というプレフィックスは、ID が <span class="keyword">Audience Manager</span> の特性 ID であることを表します。これはユーザーインターフェイスに表示される ID と同じです。特性 ID は API <code> GET </code> メソッドを使用して返すこともできます。詳しくは <a href="../../../api/rest-api-main/api-traits.md"> 特性 API メソッド</a>を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>データに <code>d_unsid</code> というプレフィックスを付けると、ユーザーがその特性から削除されます。<code>d_unsid</code> というプレフィックスは、<code>overwrite</code> ファイルでは無視されます。 </p> <p><code>d_unsid=</code> というプレフィックスは、ID が <span class="keyword">Audience Manager</span> の特性 ID であることを表します。これはユーザーインターフェイスに表示される ID と同じです。特性 ID は API <code>GET</code> メソッドを使用して返すこともできます。詳しくは <a href="../../../api/rest-api-main/api-traits.md"> 特性 API メソッド</a>を参照してください。 </p> </td>
+   <td colname="col2"> <p>Data prefixed with <code> d_unsid </code> removes users from that trait. The <code> d_unsid </code> prefix is ignored in an <code> overwrite </code> file. </p> <p><code> d_unsid= </code> というプレフィックスは、ID が <span class="keyword">Audience Manager</span> の特性 ID であることを表します。これはユーザーインターフェイスに表示される ID と同じです。特性 ID は API <code> GET </code> メソッドを使用して返すこともできます。詳しくは <a href="../../../api/rest-api-main/api-traits.md"> 特性 API メソッド</a>を参照してください。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules">特性ルール</a>を使用すると、特性認定の条件を設定できます。特性ルールを <code>ic == trait ID</code> と書式設定した場合、特性を簡単なコンマ区切りのリストで送信できます。 </p> <p>例えば、次の 3 つの特性ルールを作成したとします。 </p> <p> 
+   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules">特性ルール</a>を使用すると、特性認定の条件を設定できます。特性ルールを <code> ic == trait ID </code> と書式設定した場合、特性を簡単なコンマ区切りのリストで送信できます。 </p> <p>例えば、次の 3 つの特性ルールを作成したとします。 </p> <p> 
      <ul class="simplelist"> 
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
-     </ul> </p> <p>これらの特性は <code>ic</code> キーに関連付けられます。これにより、データファイルでより簡単な特性リストを作成できます。また、<code>ic</code> というプレフィックスを使用する必要はありません。その結果、データファイルの内容は次のようになります。 </p> <p>
+     </ul> </p> <p>これらの特性は <code> ic </code> キーに関連付けられます。これにより、データファイルでより簡単な特性リストを作成できます。また、<code> ic </code> というプレフィックスを使用する必要はありません。その結果、データファイルの内容は次のようになります。 </p> <p>
      <code> 
-                       
-      <i>user ID</i> &lt;TAB&gt; 123,456,789 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -115,7 +115,7 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
       <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = value </code> </li> 
       <li id="li_8910539EB4F0431E8CF63983D30D9B08"> <code> key = "value" </code> </li> 
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <code> "key" = "value" </code> </li> 
-     </ul><code>"age"="32"</code>、<code>"gender"=m</code>、<code>model = "pickup truck"</code>、<code>product = tablet</code> はいずれも正しく書式設定されたキーと値のペアの例です。 </p> </td> 
+     </ul><code> "age"="32" </code> 、 <code> "gender"=m </code> 、 <code> model = "pickup truck" </code> 、はす <code> product = tablet </code> べて、正しく形式設定されたキーと値のペアの例です。 </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -138,14 +138,14 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p>DPUUID では、エンコードされたコロン（<i>%3A</i>）やエンコードされていないコロン（ : ）を使用<code>しないでください</code>。 </p> </td> 
+   <td colname="col2"> <p><i>エンコードされたコロン</i> ( <code> %3A </code>)やエンコードされていないコロン( :)記号をDPUUIDに含めます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイル iOS（IDFA）または Android デバイス ID </p> </td> 
    <td colname="col2"> <p>モバイルデバイス ID は次の形式を厳密に遵守していなければなりません。 </p> <p> 
      <ul id="ul_6AEFB6CFA54444D9B75F03BCE7916696"> 
-      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA 形式：ID は大文字でなければなりません。また、ハッシュしてはいけません。例えば、<code>6D92078A-8246-4BA4-AE5B-76104861E7DC</code> のようにします。 </li> 
-      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android 形式：ID は小文字でなければなりません。また、ハッシュしてはいけません。例えば、<code>97987bca-ae59-4c7d-94ba-ee4f19ab8c21</code> のようにします。 </li> 
+      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA 形式：ID は大文字でなければなりません。また、ハッシュしてはいけません。For example, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android 形式：ID は小文字でなければなりません。また、ハッシュしてはいけません。For example, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td>
   </tr>
  </tbody>
@@ -173,15 +173,15 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
   </tr> 
   <tr> 
    <td colname="col1"> <p>ダッシュ（-） </p> </td> 
-   <td colname="col2"> <p>キーの先頭にあるダッシュは無視されます。例えば、「<code>-product = camera</code>」は「<code>product = camera</code>」と解釈されます。 </p> </td> 
+   <td colname="col2"> <p>キーの先頭にあるダッシュは無視されます。For example, <code> -product = camera </code> is interpreted as <code> product = camera </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>キーと値のペアでは、空の値の代わりに <i>TAB</i> を使用<code>しないでください</code>。<code>TAB</code> は受信データファイルで変数を区切る場合のみ使用します。 </p> </td> 
+   <td colname="col2"> <p>キーと値のペアでは、空の値の代わりに <i></i> を使用<code> TAB </code>しないでください。<code> TAB </code> は受信データファイルで変数を区切る場合のみ使用します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> \n、\t </code> </p> </td> 
-   <td colname="col2"> <p>キーや値に改行文字やタブ文字（<code>\n、\t</code>）は使用しないでください。 </p> </td> 
+   <td colname="col1"> <p> <code> \n, \t </code> </p> </td> 
+   <td colname="col2"> <p>Do not use the new line or tab characters ( <code> \n, \t </code>) in keys or in values. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -197,7 +197,7 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code>d_sid</code> または <code>d_unsid</code> を使用  </p> </td> 
+   <td colname="col1"> <p>また <code> d_sid </code> は <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>このデータファイルは、特性 24、26、27 について認定され、特性 28、29 から削除されたユーザーを示しています。 </p> <p> 
      <code>
        59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
@@ -210,8 +210,8 @@ source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>ic==</code> を使用 </p> </td> 
-   <td colname="col2"> <p>これらの特性は、<code>ic</code> というプレフィックスにより特性ルールに追加されています。そのため、次のように、コンマ区切りのデータファイルに追加することができます。タブは UUID と特性 ID を区切ります。<code>ic</code> というプレフィックスはファイルでは必要ありません。 </p> <p><b>数値 ID</b> </p> <p> 
+   <td colname="col1"> <p>次を使用 <code> ic== </code> </p> </td> 
+   <td colname="col2"> <p>これらの特性は、<code> ic </code> というプレフィックスにより特性ルールに追加されています。そのため、次のように、コンマ区切りのデータファイルに追加することができます。タブは UUID と特性 ID を区切ります。<code> ic </code> というプレフィックスはファイルでは必要ありません。 </p> <p><b>数値 ID</b> </p> <p> 
      <code>
        DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>文字列 ID</b> </p> <p> 
@@ -501,7 +501,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [特性ビルダー](../../../features/traits/about-trait-builder.md)
 
