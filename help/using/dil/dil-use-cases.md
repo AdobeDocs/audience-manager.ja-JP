@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL のユースケースとコードサンプル
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 translation-type: tm+mt
-source-git-commit: 8763bff3960e2033951cf68e65f5ad44377b2917
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -82,18 +82,13 @@ var my_objects = [{
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
-for (var i = 0; i &lt; my_objects.length; i++) 
+for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
 { 
     sample_dil.api.signals(my_objects[i], "c_"); 
 } 
 sample_dil.api.submit();
 </code></pre>
-
->[!MORE_LIKE_THIS]
->
->* [signals](../dil/dil-instance-methods.md#signals)
-
 
 ## 参照 URL のキャプチャ {#capture-referring-url}
 
@@ -156,7 +151,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer &amp;&amp; search_referrer.valid) { 
+if (search_referrer && search_referrer.valid) { 
   adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
@@ -175,7 +170,7 @@ var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {
     queryParam:"q" 
 }); 
  
-if (search_referrer &amp;&amp; search_referrer.valid) { 
+if (search_referrer && search_referrer.valid) { 
   adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
@@ -215,11 +210,6 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
->[!MORE_LIKE_THIS]
->
->* [キー変数のプレフィックスに関する要件](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
-
-
 ## Google Tag Manager（GTM）での DIL とのやり取り{#traffic-dil-gtm}
 
 GTM タグを使用して DIL を設定および提供します。
@@ -246,7 +236,9 @@ GTM で `dil.js` ファイルを配信するには：
 1. コンテナを公開します。
 1. コンテナタグコードを生成し、自分のインベントリに配置します。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google タグマネージャーヘルプセンター](https://support.google.com/tagmanager#topic=3441530)
+>* [シグナル](../dil/dil-instance-methods.md#signals)
+>* [キー変数のプレフィックスに関する要件](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
 
