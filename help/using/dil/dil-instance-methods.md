@@ -7,7 +7,7 @@ solution: Audience Manager
 title: インスタンスレベルの DIL メソッド
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -92,15 +92,10 @@ dataLib.api.signals(obj, 'c_').submit();
 dataLib.api.signals({c_zdid: 54321}).submit(); 
  
 // Method 3 
-// Will send 'c_key=a&amp;c_key=2&amp;c_key=3' to Audience Manager 
+// Will send 'c_key=a&c_key=2&c_key=3' to Audience Manager 
 var obj = { key : ['a', 'b', 'c'] }; 
 dataLib.api.signals(obj, 'c_').submit(); 
 </code></pre>
-
->[!MORE_LIKE_THIS]
->
->* [キー変数名の要件](../features/traits/trait-key-name-requirements.md)
-
 
 ## traits {#traits}
 
@@ -204,11 +199,6 @@ dataLib.api.traits([
      d_dma: '<i>default</i>' 
 }).submit();
 </code></pre>
-
->[!MORE_LIKE_THIS]
->
->* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
-
 
 ## afterResult {#afterresult}
 
@@ -390,7 +380,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).logs({
  
 //Check log for messages 
 var log = dataLib.api.getEventLog(); 
-if (log &amp;&amp; log.length) { 
+if (log && log.length) { 
      alert(log.join('\n')); 
 }else{ 
      alert('No log messages'); 
@@ -477,14 +467,14 @@ state = {
           THROTTLE_START: 3000, 
           throttleTimerSet: false, 
           id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
-          url: (constants.isHTTPS ? 'https://' : 'https://fast.')+ partner + '.demdex.net/dest3.html?d_nsid=' 
+          url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
           + containerNSID + '#' + encodeURIComponent(document.location.href), 
                iframe: null, 
                iframeHasLoaded: false, 
                sendingMessages: false, 
                messages: [], 
                messageSendingInterval: constants.POST_MESSAGE_ENABLED ? 15: 100, 
-               //Recommend 100ms for IE 6 &amp; 7, 15ms for other browsers 
+               //Recommend 100ms for IE 6 & 7, 15ms for other browsers 
                jsonProcessed: [] 
      } 
 } 
@@ -515,11 +505,11 @@ r_dil_idsync.xml
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>複数のデータパートナーと Audience Manager の間で実行されます。例えば、パートナー x がこれを使用してユーザー ID をパートナー y と同期し、Audience Manager に送信します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Experience Cloud ID サービスインスタンスの <code>idSyncByURL</code> メソッドを使用してください。 </p> </p> </td> 
+   <td colname="col2"> <p>複数のデータパートナーと Audience Manager の間で実行されます。例えば、パートナー x がこれを使用してユーザー ID をパートナー y と同期し、Audience Manager に送信します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Experience Cloud ID サービスインスタンスの <code> idSyncByURL </code> メソッドを使用してください。 </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>ユーザー ID が既に判明していて、それを Audience Manager に送信する場合に使用します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Experience Cloud ID サービスインスタンスの <code>idSyncByDataSource</code> メソッドを使用してください。 </p> </p> </td> 
+   <td colname="col2"> <p>ユーザー ID が既に判明していて、それを Audience Manager に送信する場合に使用します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Experience Cloud ID サービスインスタンスの <code> idSyncByDataSource </code> メソッドを使用してください。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -580,7 +570,7 @@ r_dil_idsync.xml
 // Fires url with macros replaced 
 dilInstance.api.idSync({ 
  dpid: '23', // must be a string 
- url: '//su.addthis.com/red/usync?pid=16&amp;puid=%DID%&amp;url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net 
+ url: '//su.addthis.com/red/usync?pid=16&puid=%DID%&url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net 
 %2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D', 
  minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
 });
@@ -589,18 +579,13 @@ dilInstance.api.idSync({
 `dilInstance.api.aamIdSync(initConfig)`
 
 <pre><code class="js">
-// Fires 'https:/https:' + '//dpm.demdex.net/ibs:dpid=&lt;dpid&gt;&amp;dpuuid=&lt;dpuuid&gt;' 
+// Fires 'https:/https:' + '//dpm.demdex.net/ibs:dpid=&lt;dpid&gt;&dpuuid=&lt;dpuuid&gt;' 
 dilInstance.api.aamIdSync({ 
  dpid: '23', // must be a string 
  dpuuid: '98765', // must be a string 
  minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
 });
 </code></pre>
-
->[!MORE_LIKE_THIS]
->
->* [Experience Cloud ID サービスの同期関数](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
-
 
 ## result {#result}
 
@@ -668,11 +653,6 @@ var dilInstance = DIL.create({
 });
 </code></pre>
 
->[!MORE_LIKE_THIS]
->
->* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
-
-
 ## useCORSOnly {#usecorsonly}
 
 `useCORSOnly` は、ブラウザーから他のドメインのリソースを要求する方法を制御するための true または false のブール型パラメーターです。
@@ -702,13 +682,6 @@ var dilInstance = DIL.create({
 >* `useCORSOnly: true` の場合、[!UICONTROL DIL] は Internet Explorer 9 またはそれ以前のバージョンからは ID 呼び出しをおこないません。
 >
 
-
-
->[!MORE_LIKE_THIS]
->
->* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID サービス：UseCORSOnly](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-use-cors-only.html)
->* [Experience Cloud ID サービスでの CORS のサポート](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-cors.html)
 
 
 ## useImageRequest {#useimagerequest}
@@ -741,4 +714,13 @@ var dataLib = DIL.create({
  
 dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 </code></pre>
+
+>[!MORELIKETHIS]
+>
+>* [キー変数名の要件](../features/traits/trait-key-name-requirements.md)
+>* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
+>* [Experience Cloud ID サービスの同期関数](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Experience Cloud ID サービス：UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Experience Cloud ID サービスでの CORS のサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
