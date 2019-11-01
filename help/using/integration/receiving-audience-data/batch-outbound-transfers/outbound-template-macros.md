@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -60,8 +60,8 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>同期タイプを表し、以下の値を取ります。 </p> 
     <ul id="ul_CA5057DA18144AB8BC17B3EB79891B25"> 
-     <li id="li_6DFEE438860D4DB18EF831E3AF525F1E"> <code>full</code>：完全同期。 </li> 
-     <li id="li_1A7BBBB40AD94FC39B06F4FC49586595"> <code>iter</code>：増分同期。 </li> 
+     <li id="li_6DFEE438860D4DB18EF831E3AF525F1E"> <code> full </code>:完全同期。 </li> 
+     <li id="li_1A7BBBB40AD94FC39B06F4FC49586595"> <code> iter </code>:増分同期。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>10 桁の UTC を示す Unix タイムスタンプ。 </p> <p>Java の日付／タイムスタンプ形式ルールに従って <code>&lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt;</code> という形式にすることもできます。 </p> </td> 
+   <td colname="col2"> <p>10 桁の UTC を示す Unix タイムスタンプ。 </p> <p>Java の日付／タイムスタンプ形式ルールに従って <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> という形式にすることもできます。 </p> </td> 
   </tr>
 
 </tbody> 
@@ -115,7 +115,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>このマクロの出力では、データプロバイダー ID（DPID）が関連する一意のユーザー ID（DPUUID）にマッピングされます。このマクロには、出力を制御するための書式設定文字列が必要です。出力例として次のようなものが挙げられます。 </p> <p> <code> "dpids=dpid1,dpid2,...dpidn|maxMappings=n|format=json" </code> </p> <p><code>maxMappings</code> 設定により、マクロが返すマッピングの数が決定されます。<code>maxMappings=0</code> の場合、このマクロは指定された各 DPID のすべてのマッピングを返します。データはタイムスタンプを基準に並べ替えられ（最新のものが最初となります）、最も値が大きいタイムスタンプの結果が最初に返されます。 </p> </td> 
+   <td colname="col2"> <p>このマクロの出力では、データプロバイダー ID（DPID）が関連する一意のユーザー ID（DPUUID）にマッピングされます。このマクロには、出力を制御するための書式設定文字列が必要です。出力例として次のようなものが挙げられます。 </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p><code> maxMappings </code> 設定により、マクロが返すマッピングの数が決定されます。<code> maxMappings=0 </code> の場合、このマクロは指定された各 DPID のすべてのマッピングを返します。データはタイムスタンプを基準に並べ替えられ（最新のものが最初となります）、最も値が大きいタイムスタンプの結果が最初に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
@@ -143,7 +143,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ATTRIBUTE_VALUE </code> </p> </td> 
-   <td colname="col2"> <p><code>1</code> を静的な、ハードコーディングされた値として返します。 </p> </td> 
+   <td colname="col2"> <p><code> 1 </code> を静的な、ハードコーディングされた値として返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -161,24 +161,24 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>セグメントのリストを返します。次のオプションの引数を使用できます。 </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>：セグメント ID。廃止されました。<code>sid</code> を使用してください。 </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>：顧客セグメント ID。廃止されました。<code>sid</code> を使用してください。 </li> 
-     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>：セグメント ID。 </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>：<code>5</code> を静的なハードコーディングされた値として返します。これはデータをセグメントデータとして識別する値です。 </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>：廃止されました。使用しないでください。 </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>：セグメントが最後に認識された時点を示す Unix タイムスタンプ。 </li> 
-    </ul> <p>この変数は、マクロの後に波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: セグメント ID. 廃止されました。<code> sid </code> を使用します。 </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>:顧客セグメントID。 廃止されました。<code> sid </code> を使用します。 </li> 
+     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: セグメント ID </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>：<code> 5 </code> を静的なハードコーディングされた値として返します。これはデータをセグメントデータとして識別する値です。 </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>:廃止。 使用しないでください。 </li> 
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>：セグメントが最後に認識された時点を示す Unix タイムスタンプ。 </li> 
+    </ul> <p>この変数は、マクロの後に波括弧で囲みます。For example, this code separates results with a pipe "|" character: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p><code>1</code> を静的な、ハードコーディングされた値として返します。 </p> </td> 
+   <td colname="col2"> <p><code> 1 </code> を静的な、ハードコーディングされた値として返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>同期タイプを表し、以下の値を取ります。 </p> 
     <ul id="ul_A3ADC37E66F043DABDA9C4066024B6C1"> 
-     <li id="li_A1859F63ACF24618884C41F2DAB19ABB"> <code>full</code>：完全同期。 </li> 
-     <li id="li_520DDED3662B428DB9DB55D494221D97"> <code>iter</code>：増分同期。 </li> 
+     <li id="li_A1859F63ACF24618884C41F2DAB19ABB"> <code> full </code>:完全同期。 </li> 
+     <li id="li_520DDED3662B428DB9DB55D494221D97"> <code> iter </code>:増分同期。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -198,14 +198,14 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
    <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
    <td colname="col2"> <p>特性のリストを返します。次のオプションの引数を使用できます。 </p> 
     <ul id="ul_E9CDC4DD47B9435086FF42143D9E8177"> 
-     <li id="li_4BBC57F0D7874F8EA8C6D39DB3572257"> <code>type</code>：特性タイプを数値 ID で識別します。戻り値： 
+     <li id="li_4BBC57F0D7874F8EA8C6D39DB3572257"> <code> type </code>：特性タイプを数値 ID で識別します。戻り値： 
       <ul id="ul_D2357E6CF47B4EBC8D3772D17B2EADA3"> 
-       <li id="li_C6C2A019FCD945E085E1ABB564C4EDAD"> <code>10</code>：DPM 特性（オフライン、インバウンドジョブで転送されたジョブ）を表します。 </li> 
-       <li id="li_7AFF8A1D0E1140459CC95CF43A97B9B6"> <code>3</code>：ルールベースの特性（リアルタイム、DCS から転送）を表します。 </li> 
+       <li id="li_C6C2A019FCD945E085E1ABB564C4EDAD"> <code> 10 </code>：DPM 特性（オフライン、インバウンドジョブで転送されたジョブ）を表します。 </li> 
+       <li id="li_7AFF8A1D0E1140459CC95CF43A97B9B6"> <code> 3 </code>：ルールベースの特性（リアルタイム、DCS から転送）を表します。 </li> 
       </ul> </li> 
-     <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code>traitId</code>：特性 ID。 </li> 
-     <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code>lastRealized</code>：特性が最後に認識された時点。Unix タイムスタンプです。 </li> 
-    </ul> <p>この変数は、マクロの後に波括弧で囲みます。例えば、このコードは結果をパイプ（ | ）で区切ります。<code>&lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
+     <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>: trait ID. </li> 
+     <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> lastRealized </code>：特性が最後に認識された時点。Unix タイムスタンプです。 </li> 
+    </ul> <p>この変数は、マクロの後に波括弧で囲みます。For example, this code separates the results with a pipe "|" character: <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
@@ -214,7 +214,7 @@ source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [送信マクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
 
