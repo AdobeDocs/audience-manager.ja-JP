@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL モジュール
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,17 +51,17 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> 文字列 </td> 
-   <td colname="col3"> <p>非列挙型の <span class="keyword">Analytics</span> 変数（<code>pageName</code>、<code>channel</code>、<code>campaign</code>、<code>product</code> など）が格納されている、文字列の配列。 </p> </td> 
+   <td colname="col3"> <p>An array of strings that contains un-enumerated <span class="keyword"> Analytics </span> variables like <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>, etc. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
    <td colname="col2"> オブジェクト </td> 
-   <td colname="col3"> <p>prop や evar のような列挙型の <span class="keyword">Analytics</span> 変数 （<code>prop1</code>、<code>prop2</code>、<code>evar3</code>、<code>evar4</code> など）が格納されている、オブジェクトの配列。 </p> </td> 
+   <td colname="col3"> <p>An array of objects that contains enumerated <span class="keyword"> Analytics </span> variables like props and evars (e.g. <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> maxIndex </code> </td> 
    <td colname="col2"> 整数 </td> 
-   <td colname="col3"> <p>繰り返されている名前を何個返すかを表します。例えば、2 つの prop または evar を返すには、<code>maxIndex:2</code> を設定します。 </p> </td> 
+   <td colname="col3"> <p>繰り返されている名前を何個返すかを表します。例えば、 つの prop または evar を返すには、<code> maxIndex:2 </code>:2 を設定します。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> siteCatalystReportingSuite </code> </td> 
@@ -78,8 +78,8 @@ r_dil_sc_init.xml
    <td colname="col2"> オブジェクト </td> 
    <td colname="col3"> <p>追加のオプション。 </p> 
     <ul id="ul_F4DFA5351BB5427B8CBF600A0A4A21A9"> 
-     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>他に何も指定しない場合、ピリオドはデフォルトのアンダースコア（ _ ）に置き換えられます。 </p> <p>例えば、<code>s.contextData = {abc.def = '123'}</code> はイベント呼び出しクエリ文字列では <code>c_contextData_abc_def=123</code> となります。 </p> <p>このオプションは <span class="wintitle">DIL</span> バージョン 5.0 以降でのみ使用できます。 </p> </li> 
-     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>例えば、<code>filterFromContextVariables: ['email', 'zip', 'accountNumber']</code> を実行すると、この配列の文字列がコンテキストデータのデータ収集から除外されます。このオプションでは、個人識別情報（PII）は対象外となります。 </p> </li> 
+     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>他に何も指定しない場合、ピリオドはデフォルトのアンダースコア（ _ ）に置き換えられます。 </p> <p>For example <code> s.contextData = {abc.def = '123'} </code>would result in <code> c_contextData_abc_def=123 </code> in the event call query string. </p> <p>このオプションは <span class="wintitle">DIL</span> バージョン 5.0 以降でのみ使用できます。 </p> </li> 
+     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>For example, <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> would result in the array of strings being filtered from the data collection of context data. このオプションでは、個人識別情報（PII）は対象外となります。 </p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +173,7 @@ dil-google-universal-analytics.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Google Analytics</span>のインスタンスを表すグローバル変数。Google Analyticsコードをカスタマイズしている場合を除き、これは通常デフォルトで <code>ga</code> になっています。<span class="keyword"></span> </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Google Analytics</span>のインスタンスを表すグローバル変数。Google Analyticsコードをカスタマイズしている場合を除き、これは通常デフォルトで <code> ga </code> になっています。<span class="keyword"></span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
@@ -181,7 +181,7 @@ dil-google-universal-analytics.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
-   <td colname="col2"> <p> <i>（オプション）</i><code>analytics.js</code> ライブラリでは、内部プロパティは短縮された変数 <code>'b'</code> です。この変数には <span class="keyword">Google Analytics</span>データが格納されます。 </p> <p>Google が内部変数の名前を変更しない限り、設定する必要がないので、このプロパティはオプションになっています。例えば、短縮されたこの変数が <code>'a'</code> に変わった場合は、<code>GA.submitUniversalAnalytics();</code> を次のように呼び出します。 </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
+   <td colname="col2"> <p> <i>（オプション）</i> ライブラリで <code> analytics.js </code> は、内部プロパティは縮小変数です <code> 'b' </code>。 この変数には <span class="keyword">Google Analytics</span>データが格納されます。 </p> <p>Google が内部変数の名前を変更しない限り、設定する必要がないので、このプロパティはオプションになっています。For example, if this minified variable changed to <code> 'a' </code>, you would call <code> GA.submitUniversalAnalytics(); </code> like this: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -199,11 +199,6 @@ var dilInstance = DIL.create({
 //Call the DIL Universal Analytics function 
 DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 ```
-
->[!MORE_LIKE_THIS]
->
->* [ga オブジェクトメソッドリファレンス](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-
 
 ## GA.init {#ga-init}
 
@@ -312,9 +307,10 @@ Audience Manager の URL イベント呼び出しは次のようになります�
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Google アナリティクストラッキングコード](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [Web アップグレードの完了：ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
 >* [サイトへの analytics.js の追加](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [ga オブジェクトメソッドリファレンス](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
