@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -121,7 +121,6 @@ c_bulk_start.xml
 
 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
->* [一括管理ワークシートのダウンロード](assets/BAAAM_August_2018.xlsm)
-
+>* [一�
