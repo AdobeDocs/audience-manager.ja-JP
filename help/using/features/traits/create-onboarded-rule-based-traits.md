@@ -6,8 +6,8 @@ seo-title: ルールベースまたはオンボードの特性の作成
 solution: Audience Manager
 title: ルールベースまたはオンボードの特性の作成
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
-translation-type: ht
-source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -87,10 +87,11 @@ source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 ### 特性の TTL を設定する
 
 1. 「[!UICONTROL Advanced Options]」セクションを展開して、数値を入力し、特性の [!DNL TTL] 値を設定します。
-2. **[!UICONTROL Save]**をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
    ![](assets/TTL.png)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [セグメント有効期間の説明](../../features/traits/segment-ttl-explained.md)
 
