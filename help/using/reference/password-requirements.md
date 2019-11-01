@@ -6,7 +6,7 @@ solution: Audience Manager
 title: パスワードの要件、ロックされたアカウント、パスワードを忘れた場合
 uuid: bca892eb-3577-4382-8110-131f78d23069
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -74,7 +74,7 @@ c_password_requirements.xml
 
 ログインページの **[!UICONTROL Forgot password]** リンクをクリックして、パスワードをリセットします。24 時間で期限が切れる一時的なパスワードが記載された自動応答電子メールを受け取ります。電子メールのリンクをクリックして、アカウントにアクセスし、パスワードをリセットします。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [データのセキュリティ](../overview/data-security-and-privacy/data-security.md)
 >* [データのセキュリティ](../overview/data-security-and-privacy/data-privacy.md)
