@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データ収集コンポーネント
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 translation-type: tm+mt
-source-git-commit: 5730b94d7f72cdc406c2be6c063edf65886044e3
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -93,7 +93,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 [!UICONTROL PCS] はデータを作成し、ログファイルに書き込みます。これらは、他のデータベースシステムに送信され、そこで処理、レポート、および保存されます。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [アドビプライバシーセンター](https://www.adobe.com/privacy.html)
 
