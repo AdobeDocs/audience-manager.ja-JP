@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 顧客データフィードに関するよくある質問
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -83,7 +83,7 @@ CDF ファイルは [!DNL Amazon S3] サーバーの `aam-cdf` ルートディ�
 
 過去 8 日間の CDF ファイルのみ生成できます。過去 8 日間より古い期間の CDF ファイルは再生成できません。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [顧客データフィード](../features/cdf-files.md)
 
