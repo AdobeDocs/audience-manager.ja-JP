@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 宛先の作成
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -20,13 +20,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 ## サポートされている宛先のタイプ：URL および Cookie のみ
 
 使用可能な `POST` メソッドでは、[!UICONTROL URL] および [!UICONTROL cookie destinations]のみを作成できます。現在は、[!DNL REST API] メソッドで [!UICONTROL server-to-server destinations] を使用できます。ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
-
->[!MORE_LIKE_THIS]
->
->* [宛先](../../../features/destinations/destinations.md)
->* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
-
 
 ## 非シリアル URL 宛先{#create-nonserial-dest}の作成 
 
@@ -80,11 +73,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
    "mappings":null
 } 
 ```
-
->[!MORE_LIKE_THIS]
->
->* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
 
 ## シリアル化 URL 宛先{#create-serial-url-dest}の作成 
 
@@ -141,11 +129,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
    "mappings":null 
 }
 ```
-
->[!MORE_LIKE_THIS]
->
->* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
 
 ## Cookie 宛先の作成：単一のキー、非シリアル化 {#create-cookie-dest-single}
 
@@ -215,12 +198,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
    "uparamEnabled":false
 } 
 ```
-
->[!MORE_LIKE_THIS]
->
->* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
-
 
 ## Cookie 宛先の作成：単一のキー、シリアル化 {#create-cookie-dest-single-serial}
 
@@ -292,12 +269,6 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
    "uparamEnabled":false
 }
 ```
-
->[!MORE_LIKE_THIS]
->
->* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
-
 
 ## Cookie 宛先の作成：複数キー、非シリアル化 {#create-cookie-dest-multi}
 
@@ -435,8 +406,9 @@ source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
 }
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
+>* [宛先](../../../features/destinations/destinations.md)
 >* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
 
