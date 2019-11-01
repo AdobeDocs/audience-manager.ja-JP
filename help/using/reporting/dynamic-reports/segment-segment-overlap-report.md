@@ -6,7 +6,7 @@ solution: Audience Manager
 title: セグメント間重複レポート
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: 339d5550b22949862415d2abc812217e5479c993
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,7 +67,7 @@ r_s2s_data_pop.xml
 | **[!UICONTROL Segment Uniques1]** | セグメント 1 の個別訪問者の数。 |
 | **[!UICONTROL Segment Uniques2]** | セグメント 2 の個別訪問者の数。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [データスライダーを使用したレポート結果のフィルタリング](../../reporting/dynamic-reports/data-sliders.md)
 >* [インタラクティブレポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
