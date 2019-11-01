@@ -6,7 +6,7 @@ solution: Audience Manager
 title: シグナル、特性、セグメント
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -77,7 +77,7 @@ c_signal_trait_segment.xml
 https://<domain>/event?product=camera&price>100
 ```
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [セグメント：目的、構成、ルール](../features/segments/segments-purpose.md)
 
