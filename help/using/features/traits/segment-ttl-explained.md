@@ -5,8 +5,8 @@ seo-title: セグメントと特性の有効期間についての説明
 solution: Audience Manager
 title: セグメント有効期間の説明
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
-translation-type: ht
-source-git-commit: 17906734132813984437216f2a6cbc1c7bf14937
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ Audience Manager は、次の式に基づいて、[!DNL TTL] の有効期限を 
 
 [!DNL Audience Manager] ピクセルに対して設定された[!DNL TTL] は、サードパーティ（[!DNL DSP]、広告ネットワークなど）によって使用される他のピクセルに設定された [!DNL TTL] とは独立して動作することに注意してください。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [特性の有効期間の設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
 
