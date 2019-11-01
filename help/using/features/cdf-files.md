@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code> イベント時刻</code> </p> </td> 
+   <td colname="col1"> <p><code> Event Time</code> </p> </td> 
    <td colname="col2"> <p>タイムスタンプ </p> </td> 
    <td colname="col3"> <p><span class="wintitle">データ収集サーバー</span>（DCS）で CDF ファイルが処理された時刻。タイムスタンプは <i>yyyy-mm-dd hh:mm:ss</i> 形式を使用し、UTC タイムゾーンに設定されます。 </p> <p> <p>注意：イベント時刻は、<i> </i> <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
@@ -68,52 +68,52 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> デバイス</code> </p> </td> 
+   <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
    <td colname="col3"> <p>これは<span class="wintitle">一意のユーザー ID</span>（UUID）で、サイト訪問者の 38 桁のデバイス ID です。<a href="../reference/ids-in-aam.md">Audience Manager の ID のインデックス</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> コンテナ ID</code> </p> </td> 
+   <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>数値 </p> </td> 
    <td colname="col3"> <p>ID の同期を起動するコンテナの ID。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 認識済みの特性</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
    <td colname="col2"> <p>数値配列 </p> </td> 
    <td colname="col3"> <p>イベント呼び出しで訪問者が満足した（基準を満たした）特性がすべて含まれている特性 ID 配列。 </p> <p>この配列には、訪問者が以前に絞り込まれた特性と、このイベント呼び出しを通じて再度絞り込まれる特性が含まれる可能性があることに注意してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 認識済みのセグメント</code> </p> </td> 
+   <td colname="col1"> <p><code> Realized Segments</code> </p> </td> 
    <td colname="col2"> <p>数値配列 </p> </td> 
    <td colname="col3"> <p>イベント呼び出しで訪問者が満足した（基準を満たした）セグメントがすべて含まれているセグメント ID 配列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> リクエストパラメーター</code> </p> </td> 
+   <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>すべてのパラメーター（変数、ID、キーと値のペア、デバイス広告IDなど）を取り込む文字列。に渡されます。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>イベント呼び出しで渡される、すべてのパラメーター（変数、ID、キーと値のペア、デバイス広告 ID など）を取り込む文字列。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> 参照元データタイプ</code> </p> </td> 
+   <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
    <td colname="col3"> <p>参照元ページのエンコードされていない URL（参照元ページがある場合）。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> IP データタイプ</code> </p> </td> 
+   <td colname="col1"> <p><code> IP Data Type</code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
    <td colname="col3"> <p>イベント呼び出しで表現された訪問者の IP アドレス。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> MC デバイス </code> </p> </td> 
+   <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
    <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> すべてのセグメント</code> </p> </td> 
+   <td colname="col1"> <p><code> All Segments</code> </p> </td> 
    <td colname="col2"> <p>数値配列 </p> </td> 
    <td colname="col3"> <p>訪問者が以前に基準を満たしたセグメントと新たに絞り込まれるセグメントを含んだセグメント ID 配列。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> すべての特性</code> </p> </td> 
+   <td colname="col1"> <p><code> All Traits</code> </p> </td> 
    <td colname="col2"> <p>数値配列 </p> </td> 
    <td colname="col3"> <p>以前に認識された特性と、最後のデータフィード生成以降に訪問者が認定された新しい特性を含むファーストパーティおよびサードパーティ特性 ID の配列。 </p> </td> 
   </tr> 
@@ -142,9 +142,9 @@ source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
    <td colname="col1"> <p>フィールド区切り文字 </p> </td> 
    <td colname="col2"> <p>次の非表示文字で CDF ファイルの要素と構造が定義されます。 </p> <p> 
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
-      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a（ASCII <code>001</code> または <code>^A</code>）：非表示のスペースインジケーターで個々のフィールドを区切ります。 </li> 
-      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b（ASCII <code>002</code> または <code>^B</code>）：配列やリクエストパラメーターのデータを区切ります。 </li> 
-      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c（ASCII <code>003</code> または <code>^C</code>）：キー値ペアを定義します。 </li> 
+      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII <code> 001</code> or <code> ^A</code>) separates data in individual fields with a non-printing space indicator. </li> 
+      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <code> 002</code> or <code> ^B</code>) separates data an array and request parameters. </li> 
+      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII <code> 003</code> or <code> ^C</code>) defines key-value pairs. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Amazon S3 の ETag。ハイフンの後の数字は、マルチパートアップロードの際にファイルの作成に使用されたパートの数を示します。<code>ETag</code> はファイルの MD5 チェックサムと同一ではありません。 </p> </td> 
+   <td colname="col2"> <p>Amazon S3 の ETag。ハイフンの後の数字は、マルチパートアップロードの際にファイルの作成に使用されたパートの数を示します。<code> ETag</code> はファイルの MD5 チェックサムと同一ではありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
@@ -376,7 +376,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 | ファイル名 | CDF ファイル名に含まれているタイムスタンプは、[!DNL Audience Manager] がファイルの配信準備を開始した時刻を示します。このタイムスタンプは UTC タイムゾーンに設定されています。`hour=` パラメーターを使用しており、時刻は 24 時間表記の 2 桁の時で表されています。この時刻は、ファイルコンテンツに記録されているイベント時刻とは異なることがあります。CDF ファイルを処理しているとき、S3 バケットが空になっていることがあります。バケットが空になるのは、次のいずれかの場合が考えられます。<ul><li>その特定の時刻にデータがない。 </li><li> サーバーの負荷が大きく、その時刻のファイルを処理できない。サーバーの処理が追いついたら、過去のバケットに含まれていたはずのファイルが、それより後の時刻のバケットに格納されます。例えば、17 時のバケットに含まれていたはずのファイルが 18 時のバケットに出現する（ファイル名に `hour=18` が含まれている）といった場合です。このような場合、サーバーはおそらく 17 時にファイルの処理を開始したものの、その時間内に処理を完了できなかったと考えられます。その代わり、そのファイルは次の時刻のバケットに入れられます。</li></ul><br>**重要**：ファイル名のタイムスタンプを使用して、イベントを時間別にグループ化しないでください。時間別にグループ化する必要がある場合は、ファイルコンテンツの `EventTime` タイムスタンプを使用します。 |
 | ファイルコンテンツ | CDF ファイルコンテンツに含まれているタイムスタンプは、データ収集サーバーがファイルの処理を開始した時刻を示します。このタイムスタンプは UTC タイムゾーンに設定されています。`EventTime` フィールドを使用し、時刻は *`yyyy-mm-dd hh:mm:ss`* 形式で表されます。この時刻は、ページ上のイベントの実際の時刻に近いものの、ファイル名に示される時刻とは異なることがあります。<br> **ヒント**：ファイル名の `hour=` タイムスタンプとは異なり、`EventTime` を使用してデータを時間別にグループ化することができます。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [顧客データフィードに関するよくある質問](../faq/faq-cdf.md)
 
