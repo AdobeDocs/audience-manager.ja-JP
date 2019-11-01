@@ -7,7 +7,7 @@ title: データフィードのサブスクリプションの管理
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 * 請求と支払いについてのドキュメントを確認します。後述の関連リンクを参照してください。
 
->[!MORE_LIKE_THIS]
->
->* [CPM データフィードの請求とインプレッション割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [定額データフィードに関する請求およびインプレッションの割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [CPM の使用状況の報告方法](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
-
-
 ## 非公開データフィードを購読する {#subscript-private-data-feed}
 
 購入者は、**[!UICONTROL Audience Marketplace > Marketplace]** で、非公開データフィードおよびプランのサブスクリプションを購入します。
@@ -76,12 +69,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
    * **[!UICONTROL Request approved]**：「[!UICONTROL Marketplace]」リストのステータスが「Access Granted」になり、自動通知が送信されます。この時点で、フィードを購読することができます。詳しくは、[公開データフィードのサブスクリプションの購入](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)を参照してください。
    * **[!UICONTROL Request denied]**：「[!UICONTROL Marketplace]」リストでそのフィードについて「Requested」の表示が削除されます。もう一度サブスクリプションの購入を試みるか、別のフィードを選択することができます。
-
->[!MORE_LIKE_THIS]
->
->* [公開データフィードのサブスクリプション購入](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [データ購入者にとっての割引](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
-
 
 ## 購入者向けのデータフィードの割引 {#buyer-discount}
 
@@ -139,11 +126,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 ![](assets/buyer-discount.png)
 
->[!MORE_LIKE_THIS]
->
->* [Marketplace について](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## 購読しているフィードのデータの確認 {#find-subscribed-data-fee}
 
 データフィードのデータ（特性）は、各自の特性ストレージフォルダーに表示されます。**[!UICONTROL Audience Data > Traits]** を開き、**[!UICONTROL 3rd-Party Data]** フォルダーを展開して、購読フィードの特性の表示や操作をおこないます。利用しているデータプロバイダーの名前のサブフォルダーを探します。これらには、個別のデータフィードにちなんだ名前のフォルダーが含まれており、フィードで提供されている特性が一覧表示されます。
@@ -151,11 +133,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 <!-- marketplace-feed-storage.xml -->
 
 ![](assets/subscribe5.png)
-
->[!MORE_LIKE_THIS]
->
->* [公開データフィードのサブスクリプション購入](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
-
 
 ## データフィードの購読解除 {#unsubscribe}
 
@@ -290,11 +267,6 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
    * 「**[!UICONTROL Cancel]**」をクリックすると、変更せずにページを終了します。
    * データフィードのサブスクリプションを購入するには、「**[!UICONTROL Review & Subscribe]**」をクリックします。[!UICONTROL Subscription] トグルボタンを [!UICONTROL On] に切り替えるまで、このボタンは灰色に表示されます。[公開データフィードのサブスクリプションの購入](#subscript-public-data-feed)および[非公開データフィードを購読する](#subscript-private-data-feed)も参照してください。
 
->[!MORE_LIKE_THIS]
->
->* [Marketplace について](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
-
-
 ## データフィードのユースケースについて {#use-cases}
 
 [!UICONTROL Audience Marketplace] のデータ購入者は、重複、モデリングおよびアクティブ化のユースケースに関するデータを購入します。各ユースケースは、特定の購入用に設計され、データを使用してできることを制限します。これらのユースケースの説明は、購入するデータプランのタイプについて適切な判断を下すうえで役に立ちます。
@@ -317,3 +289,13 @@ source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 ### Activation
 
 このユースケースでは、[宛先](../../../features/destinations/destinations.md)にデータを送信できます。[!UICONTROL Audience Manager] において、宛先とは、データを共有したいサードパーティシステム（広告サーバー、[!DNL DSP]、[!DNL DMP]、exchange など）のになります。ただし、[!UICONTROL Activation] ユースケースでは、重複レポートを実行したり、データをアルゴリズムモデルでテストしたりすることはできません。
+
+>[!MORELIKETHIS]
+>
+>* [CPM データフィードの請求とインプレッション割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [定額データフィードに関する請求およびインプレッションの割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [CPM の使用状況の報告方法](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [公開データフィードのサブスクリプション購入](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [データ購入者にとっての割引](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+>* [Marketplace について](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+
