@@ -6,7 +6,7 @@ solution: Audience Manager
 title: アクティブオーディエンス特性とデータソース同期特性
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >
 >[!UICONTROL Data Source Synced Traits] はトラブルシューティングに役立ちます。特性名をクリックして、特性概要ページで指標を確認します。選択した特性がデータを返す場合は、ID 同期プロセスが適切にセットアップされて [!DNL Audience Manager] にデータを送信しています。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [アドレス可能なオーディエンス](../../features/addressable-audiences.md)
 
