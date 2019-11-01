@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Google サイト運営者タグ（GPT）を使用して DFP にセグメントを送信する際の要件と方法
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >
 >If your web pages are running the [Accelerated Media Pages](https://www.ampproject.org/) ([!DNL AMP]) library, you must use the server-side integration with Audience Manager. [!DNL AMP] を使用していて、[!DNL AMP] によるクライアント側の統合がある場合、サーバー側の統合に移行する必要があります。移行については、Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [GPT API リファレンスガイド](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)
 
