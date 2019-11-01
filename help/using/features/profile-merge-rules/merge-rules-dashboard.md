@@ -5,8 +5,8 @@ seo-title: プロファイル結合ルールダッシュボード
 solution: Audience Manager
 title: プロファイル結合ルールダッシュボード
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
-translation-type: ht
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 * ユーザーごとのデバイスの平均数を追跡する。
 * ルールの作成、編集、削除に使用する基本コントロールを操作する。ルールを管理できるのは管理者のみですが、他のユーザーでもルールを表示したり、セグメントに適用したりできます。「[定義済みのプロファイルの結合ルールオプション](merge-rule-definitions.md)」および「[結合ルールのユースケース](merge-rule-targeting-options.md)」を参照してください。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
 
