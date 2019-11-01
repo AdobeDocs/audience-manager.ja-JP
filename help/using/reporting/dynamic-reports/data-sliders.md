@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データスライダーを使用したレポート結果のフィルタリング
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ c_reach_slider.xml
 * レポートで返されるデータの総量を減らす。
 * 特定のサイズの範囲に含まれる特性やセグメントに焦点を合わせる。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [セグメント／特性間重複レポートのデータフィルターについて](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
 
