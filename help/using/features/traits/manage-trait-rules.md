@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性ルールの管理
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -61,13 +61,6 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ![](assets/tb_sample_rule2.png)
 
->[!MORE_LIKE_THIS]
->
->* [新しいルールグループの作成](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [特性ルールの削除](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## 新しいルールグループの作成 {#create-rule-group}
 
 この手順では、新しいルールグループの作成方法を説明します。
@@ -83,23 +76,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    >誤ってルールを移動してしまった場合は、ルールをドラッグして元のグループに戻します。
 1. ドロップダウンメニューから [!DNL Boolean] 演算子（[!UICONTROL AND NOT]、[!UICONTROL AND]、[!UICONTROL OR]）を選択し、ルールグループ間の関係を設定します。
 
->[!MORE_LIKE_THIS]
->
->* [特性ルールの作成](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [特性ルールの削除](../../features/traits/manage-trait-rules.md#delete-trait)
-
-
 ## グループ間でルールを移動 {#move-rules-between-groups}
 
 ルールを移動するには、ルールをクリックして、別のグループにドラッグします。
-
->[!MORE_LIKE_THIS]
->
->* [特性ルールの作成](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [新しいルールグループの作成](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [特性ルールの削除](../../features/traits/manage-trait-rules.md#delete-trait)
-
 
 ## 特性の編集 {#edit-trait}
 
@@ -121,3 +100,12 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 1. [!UICONTROL Traits] ダッシュボードで、編集する特性の [!UICONTROL Actions] 列にカーソルを移動し、鉛筆アイコンをクリックします。特性管理アイコンが表示されます。
 1. 「[!UICONTROL Trait Expression]」セクションを展開します。
 1. 削除するルールにカーソルを移動し、「X」アイコンをクリックします。ルールが直ちに削除されます。
+
+>[!MORELIKETHIS]
+>
+>* [新しいルールグループの作成](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [特性ルールの作成](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [特性ルールの削除](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+
