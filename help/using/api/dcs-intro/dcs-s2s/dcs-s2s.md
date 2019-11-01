@@ -6,7 +6,7 @@ solution: Audience Manager
 title: サーバー間データ転送用の DCS API
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 * [Experience Cloud ID サービスを通じたユーザー ID と地域 ID の取得](dcs-mcid-ids.md)
 * [サーバー間 DCS API 呼び出しの実行](dcs-s2s-calls.md)
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DCS API リファレンス](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
