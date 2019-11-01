@@ -6,7 +6,7 @@ solution: Audience Manager
 title: セグメントの目的、構成およびルール
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 translation-type: tm+mt
-source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Analytics セグメントまたはレポートスイートをExperience Cl
 * セグメントデータを宛先パートナーに送信できる。
 * Audience Manager レポートでパフォーマンスを監視できる。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [シグナル、特性、セグメント](../../reference/signal-trait-segment.md)
 
