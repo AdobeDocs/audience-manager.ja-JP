@@ -5,7 +5,7 @@ seo-title: Cookie の宛先のオプション設定
 solution: Audience Manager
 title: Cookie の宛先のオプション設定
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,8 +35,8 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
      </ul> </p> <p> 「<span class="wintitle">Cookie Domain</span>」フィールドを未指定のままにしておくと、すべてのドメインで Cookie が設定されるようになります。これがデフォルト設定です。 </p> <p>特定のドメインおよびサブドメインで Cookie を設定するには、次の点に注意してください。 </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
       <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">ドメインの名前を「<span class="wintitle">Cookie Domain</span>」フィールドに入力します。 </li> 
-      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">ドメイン名をピリオドで始めます。例えば、<code>.somedomain.com</code> などとします。 </li> 
-      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0"><code>https://www</code> プレフィックスは不要です。 </li> 
+      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">ドメイン名をピリオドで始めます。次に例を示します。<code> .somedomain.com</code> </li> 
+      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <code> https://www</code> prefix is not required. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -95,6 +95,6 @@ source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
 * **[!UICONTROL Only the selected domains]**：ドメインリストで選択したドメインの場合のみ、Cookie を返します。
 * **[!UICONTROL All of our domains except the selected domains]**：選択したドメインが [!DNL cookie] を受信しないよう設定します。それ以外のすべてのドメインは [!DNL cookie] を受信できます。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Cookie の宛先の作成](../../features/destinations/create-cookie-destination.md)
