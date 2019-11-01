@@ -6,7 +6,7 @@ solution: Audience Manager
 title: セグメントビルダーにおける特性とセグメントのユーザー数データ
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -153,7 +153,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 現在、セグメントサイズ見積もりでプロファイル結合ルールが考慮されていないことが原因の既知の制限があります。例えば、**認証プロファイルなし + 現在のデバイスプロファイル** [結合ルール](../../features/profile-merge-rules/merge-rule-definitions.md)を見てみましょう。現在のセグメント推定数の計算方法では、推定された母集団に認証済みプロファイルが含まれます。しかし、既存のセグメント母集団では、認証済みプロファイルが適切に無視されます。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](../../faq/faq-profile-merge.md)
 >* [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md)
