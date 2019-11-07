@@ -5,7 +5,7 @@ seo-title: サーバー間データ転送用の DCS API
 solution: Audience Manager
 title: サーバー間データ転送用の DCS API
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
