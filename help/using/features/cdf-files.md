@@ -6,7 +6,7 @@ seo-title: 顧客データフィード
 solution: Audience Manager
 title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -105,7 +105,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -142,9 +142,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    <td colname="col1"> <p>フィールド区切り文字 </p> </td> 
    <td colname="col2"> <p>次の非表示文字で CDF ファイルの要素と構造が定義されます。 </p> <p> 
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
-      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII <code> 001</code> or <code> ^A</code>) separates data in individual fields with a non-printing space indicator. </li> 
-      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <code> 002</code> or <code> ^B</code>) separates data an array and request parameters. </li> 
-      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII <code> 003</code> or <code> ^C</code>) defines key-value pairs. </li> 
+      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + A（ASCII <code> 001</code> または <code> ^A</code>）：非表示のスペースインジケーターで個々のフィールドを区切ります。 </li> 
+      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + B（ASCII <code> 002</code> または <code> ^B</code>）：配列やリクエストパラメーターのデータを区切ります。 </li> 
+      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + C（ASCII <code> 003</code> または <code> ^C</code>）：キーと値のペアを定義します。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -159,7 +159,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">リクエストパラメーター </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">参照元 </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP アドレス </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID サービス</a>を参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
      </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
@@ -285,7 +285,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 }
 ```
 
-## .info ファイルの各フィールドの定義{#info-file-fields-defined}
+## .info ファイルの各フィールドの定義 {#info-file-fields-defined}
 
 以下の表に、[!UICONTROL CDF] `.info` ファイルの構成要素の一覧と説明を示します。
 
