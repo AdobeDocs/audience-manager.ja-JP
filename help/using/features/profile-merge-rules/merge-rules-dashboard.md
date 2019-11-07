@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールダッシュボード
 solution: Audience Manager
 title: プロファイル結合ルールダッシュボード
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
