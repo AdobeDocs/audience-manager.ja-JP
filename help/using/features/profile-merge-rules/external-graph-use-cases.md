@@ -5,7 +5,7 @@ seo-title: 外部デバイスグラフのユースケース
 solution: Audience Manager
 title: 外部デバイスグラフのユースケース
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -109,7 +109,7 @@ These strategies are designed to bring an unauthenticated or unknown user back t
 
 ![audience-expansion](assets/audience-expansion.png)
 
-## 高度なクロスデバイスターゲティング{#advanced-graph-expansion}
+## 高度なクロスデバイスターゲティング {#advanced-graph-expansion}
 
 このユースケースは、**[!UICONTROL Last Authenticated Profiles]** ルールと **[!UICONTROL Adobe Co-Op Device Graph]** ルールを使用して、外部デバイスグラフまたは [!DNL Adobe Co-Op Device Graph] からのデバイスを使用して、認証済未訪問者のオーディエンスターゲティングを拡張する方法を示しています。
 
