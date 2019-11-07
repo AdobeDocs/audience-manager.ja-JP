@@ -5,7 +5,7 @@ seo-title: データスライダーを使用したレポート結果のフィル
 solution: Audience Manager
 title: データスライダーを使用したレポート結果のフィルタリング
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
