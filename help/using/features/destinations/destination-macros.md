@@ -5,7 +5,7 @@ seo-title: 宛先マクロの定義
 solution: Audience Manager
 title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -43,13 +43,13 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
    <td colname="col2"> <p><i> データソース ID</i> は、マクロに渡されるデータソースの識別子に対応します。 </p> <p>このマクロの動作を簡単な例で見てみましょう。ここでは、次の ID と条件を持つ <span class="keyword">Audience Manager</span> パートナーがいるとします。 </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
-     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">データソース ID: <code> 1</code> </li> 
-     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">An internal customer ID: <code> CustomerABC</code> </li> 
+     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">データソース ID：<code> 1</code> </li> 
+     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">内部の顧客 ID：<code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">宣言済み ID：パートナーはこれらの値を宣言済み ID <code> 1:CustomerABC</code> として渡します。 </li> 
-    </ul> <p>To do this with the <code>%dpid_<i>data source id</i>%</code>, the <span class="keyword"> Audience Manager</span> partner would format the macro like this: </p> 
+    </ul> <p>これを <code>%dpid_<i>data source id</i>%</code> でおこなうには、<span class="keyword">Audience Manager</span> パートナーは、次のような形式でマクロを設定します。 </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>The macro will replace <code> 1</code> with <code> CustomerABC</code>. </p> <p> 
+    </ul> <p>このマクロは <code> 1</code> を <code> CustomerABC</code> に置き換えます。 </p> <p> 
      <draft-comment>
        AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 に基づきます 
      </draft-comment> </p> </td> 
