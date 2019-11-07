@@ -5,7 +5,7 @@ seo-title: DCS からのデータ受信
 solution: Audience Manager
 title: DCS からのデータ受信
 uuid: fbb77197-8530-48a8-b708-d785f7214494
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -63,5 +63,5 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!MORELIKETHIS]
 >
->* [DCS でサポートされるキー値のプレフィックスと変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+>* [DCS でサポートされるキーと値のプレフィックスおよび変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 
