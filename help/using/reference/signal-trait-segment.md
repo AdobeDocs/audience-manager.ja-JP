@@ -5,7 +5,7 @@ seo-title: シグナル、特性、セグメント
 solution: Audience Manager
 title: シグナル、特性、セグメント
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
