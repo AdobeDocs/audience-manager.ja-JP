@@ -5,7 +5,7 @@ seo-title: メタデータファイルの概要とマッピング
 solution: Audience Manager
 title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
