@@ -5,7 +5,7 @@ seo-title: ログデータとメタデータファイル
 solution: Audience Manager
 title: ログデータとメタデータファイル
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
