@@ -7,7 +7,7 @@ solution: Audience Manager
 title: アルゴリズムモデルについて
 topic: DIL API
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -199,7 +199,7 @@ Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Traits Using Model</span> </p> </td>
-   <td colname="col2"> <p>選択したモデルに基づいて、アルゴリズム特性のリストを表示します。特性名または特性 ID をクリックすると、特性に関する詳細情報が表示されます。「<b><span class="uicontrol">Create New Trait with Model</span></b>」を選択すると、アルゴリズム特性作成プロセスに移動します。 </p> <p>セクションラベルは、モデルの名前に基づいて変更されます。例えば、モデルを作成して名前をモデル A にしたとします。概要ページを読み込むと、このセクションの名前が <span class="wintitle">Traits Using Model A</span> に変更されます。 </p> </td>
+   <td colname="col2"> <p>選択したモデルに基づいて、アルゴリズム特性のリストを表示します。特性名または特性 ID をクリックすると、特性に関する詳細情報が表示されます。<b><span class="uicontrol">Create New Trait with Model</span></b>を選択すると、アルゴリズム特性作成プロセスに移動します。 </p> <p>セクションラベルは、モデルの名前に基づいて変更されます。例えば、モデルを作成して名前をモデル A にしたとします。概要ページを読み込むと、このセクションの名前が <span class="wintitle">Traits Using Model A</span> に変更されます。 </p> </td>
   </tr>
  </tbody>
 </table>
