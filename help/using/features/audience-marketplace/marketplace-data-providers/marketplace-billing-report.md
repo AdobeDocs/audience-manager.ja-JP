@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データフィードプロバイダーに対する請求
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 レポートをダウンロードするには、次の手順を実行します。
 
 1. **[!UICONTROL Audience Marketplace > Receivables]** へ移動します。
-1. 「**[!UICONTROL Generate Billing Report]**」をクリックします。
+1. **[!UICONTROL Generate Billing Report]**&#x200B;をクリックします。
 
 ## 定義されているレポートのフィールド {#report-fields-defined}
 
