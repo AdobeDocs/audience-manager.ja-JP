@@ -5,7 +5,7 @@ seo-title: REST API の概要
 solution: Audience Manager
 title: REST API の概要
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -23,7 +23,7 @@ Audience Manager [!DNL API] を使用する際に留意すべき事項の説明�
 
 <!-- aam-api-requirements.xml -->
 
-[](https://bank.demdex.com/portal/swagger/index.html#/)Audience Manager API コードを操作する場合は、以下の点に注意してください。
+[Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) コードを操作する場合は、以下の点に注意してください。
 
 * **リクエストパラメーター：**&#x200B;特に指定のない限り、すべてのリクエストパラメーターが必要となります。
 * **[!DNL JSON]コンテンツタイプ：**&#x200B;コード内で、`content-type: application/json` *および* `accept: application/json` を指定してください。
@@ -130,7 +130,7 @@ Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従っ
 
 Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認証をサポートしています。これらのアクセス方法を利用するには、ユーザーが `https://api.demdex.com/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
 
-## 認証済み API リクエストの作成{#authenticated-api-requests}
+## 認証済み API リクエストの作成 {#authenticated-api-requests}
 
 認証トークン受信後の [!DNL API] メソッドの呼び出しの要件。
 
@@ -155,9 +155,9 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 | pageSize | リクエストによって返された応答結果の番号を設定します（10 がデフォルト）。 |
 | sortBy | 指定された [!DNL JSON] プロパティに従って、結果を並べ替えて返します。 |
 | descending | 結果を降順で並べ替えて返します。昇順がデフォルトです。 |
-| search | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。   `GET https://api.demdex.com/v1/models/?search=Test`。「get all」メソッドで返されるすべての値を検索できます。 |
+| search | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。`GET https://api.demdex.com/v1/models/?search=Test`。「get all」メソッドで返されるすべての値を検索できます。 |
 | folderId | 指定されたフォルダー内の特性のすべての ID を返します。すべてのメソッドに対して使用できるわけではありません。 |
-| permissions | 指定された権限に基づいて、セグメントのリストを返します。READ がデフォルトです。権限には以下のものがあります。<ul><li>`READ`：セグメントに関する情報を返して表示します。</li><li>`WRITE`：`PUT` を使用してセグメントを更新します。</li><li>`CREATE`：`POST` を使用してセグメントを作成します。</li><li>`DELETE`：セグメントの削除。基になる特性がある場合、その特性へのアクセス権が必要です。例えば、特性を削除する場合、セグメントに属する特性を削除する権限が必要です。</li></ul><br>複数の権限を個別のキー値ペアで指定します。例えば、`READ` および `WRITE` 権限だけを持っているセグメントのリストを返すには、`"permissions":"READ"`、`"permissions":"WRITE"` を渡します。 |
+| permissions | 指定された権限に基づいて、セグメントのリストを返します。READ がデフォルトです。権限には以下のものがあります。<ul><li>`READ`：セグメントに関する情報を返して表示します。</li><li>`WRITE`：`PUT` を使用してセグメントを更新します。</li><li>`CREATE`：`POST` を使用してセグメントを作成します。</li><li>`DELETE`：セグメントの削除。基になる特性がある場合、その特性へのアクセス権が必要です。例えば、特性を削除する場合、セグメントに属する特性を削除する権限が必要です。</li></ul><br>複数の権限を個別のキーと値のペアで指定します。例えば、`READ` および `WRITE` 権限だけを持っているセグメントのリストを返すには、`"permissions":"READ"`、`"permissions":"WRITE"` を渡します。 |
 | includePermissions | （ブール値）true に設定して、セグメントの権限を返します。デフォルトは false です。 |
 
 ### ページオプションに関する注意
@@ -174,7 +174,7 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 
 <!-- r_rest_urls.xml -->
 
-## URLのリクエスト{#request-urls}
+## URLのリクエスト {#request-urls}
 
 次の表は、[!DNL API] リクエストを渡すためのリクエスト URL のリストを、メソッド別に示しています。
 
