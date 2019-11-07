@@ -5,13 +5,13 @@ seo-title: セグメントと特性の有効期間についての説明
 solution: Audience Manager
 title: セグメント有効期間の説明
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
 
-# セグメントと特性の有効期間についての説明{#segment-time-to-live-explained}
+# セグメントと特性の有効期間についての説明 {#segment-time-to-live-explained}
 
 特性の [!UICONTROL time-to-live]（[!DNL TTL]）がセグメントのメンバーシップにどのような影響を与えるかを説明します。
 
