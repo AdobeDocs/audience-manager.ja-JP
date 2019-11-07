@@ -5,7 +5,7 @@ seo-title: データ収集コンポーネント
 solution: Audience Manager
 title: データ収集コンポーネント
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -32,7 +32,7 @@ Audience Manager には次のデータ収集コンポーネントがあります
 
 DCS と PCS は連携して動作することで、それぞれが特性の適合、オーディエンスのセグメント化、およびデータストレージに関連するサービスを提供します。
 
-**[!UICONTROL Data Collection Servers (DCS)]関数**
+**[!UICONTROL Data Collection Servers (DCS)] 関数**
 
 [!DNL Audience Manager] で、DCS は以下をおこないます。
 
@@ -50,7 +50,7 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 >
 >IPv4 を使用するデバイスから発生した Web トラフィックを検出するのは [!UICONTROL DCS] だけです。
 
-イベント呼び出しにおいて、地理的な位置は JSON データの一部として返されるキーと値のペアとして取得されます。このキーと値ペアは `"dcs_region": region ID` パラメーターです。
+イベント呼び出しにおいて、地理的な位置は JSON データの一部として返されるキーと値のペアとして取得されます。このキーと値のペアは `"dcs_region": region ID` パラメーターです。
 
 ![](assets/dcs-map.png)
 
@@ -62,7 +62,7 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 
 お客様が直接 [!UICONTROL PCS] を操作するための UI コントロールは用意されていません。お客様は、データストアおよびデータ転送を担当する役割を通して、間接的に [!UICONTROL PCS] にアクセスします。[!UICONTROL PCS] は Apache Cassandra 上で動作します。
 
-**非アクティブな ID を[!UICONTROL PCS]** からパージ
+**非アクティブな ID を[!UICONTROL PCS]からパージ**
 
 前述のとおり、[!UICONTROL PCS] にはアクティブユーザーの特性 ID が保存されます。アクティブユーザーとは、過去14 日間に任意のドメインから[エッジデータサーバー](../../reference/system-components/components-edge.md)で確認されたユーザーです。ユーザーは以下の [!UICONTROL PCS] の呼び出しによってアクティブな状態を保ちます。
 
@@ -79,9 +79,9 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 **その他の[!UICONTROL DCS/PCS]プロセス：プライバシーのオプトアウト**
 
-これらのサーバーシステムは、プライバシーに基づくユーザーのオプトアウト要求を処理します。データ収集をオプトアウトしたユーザーの Cookie 情報は、ログファイルで収集されません。アドビのプライバシーポリシーの詳細については、[アドビプライバシーセンター](https://www.adobe.com/privacy/advertising-services.html)を参照してください。
+これらのサーバーシステムは、プライバシーに基づくユーザーのオプトアウトリクエストを処理します。データ収集をオプトアウトしたユーザーの Cookie 情報は、ログファイルで収集されません。アドビのプライバシーポリシーの詳細については、[アドビプライバシーセンター](https://www.adobe.com/privacy/advertising-services.html)を参照してください。
 
-## データ統合ライブラリ（DIL）{#dil}
+## データ統合ライブラリ（DIL） {#dil}
 
 [!UICONTROL DIL] は、データ収集を目的としてページに配置されるコードです。使用可能なサービスおよびメソッドについて詳しくは、[DIL API](../../dil/dil-overview.md) を参照してください。
 
@@ -91,9 +91,9 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 ## ログファイル {#log-files}
 
-[!UICONTROL PCS] はデータを作成し、ログファイルに書き込みます。これらは、他のデータベースシステムに送信され、そこで処理、レポート、および保存されます。
+[!UICONTROL PCS] はデータを作成し、ログファイルに書き込みます。これらは、他のデータベースシステムに送信され、そこで処理、レポートおよび保存されます。
 
 >[!MORELIKETHIS]
 >
->* [アドビプライバシーセンター](https://www.adobe.com/privacy.html)
+>* [アドビプライバシーセンター](https://www.adobe.com/jp/privacy.html)
 
