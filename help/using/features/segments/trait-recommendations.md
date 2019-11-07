@@ -5,7 +5,7 @@ seo-title: 特性レコメンデーション
 solution: Audience Manager
 title: 特性レコメンデーション
 uuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
@@ -13,23 +13,23 @@ source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 # 特性レコメンデーション
 
-セグメントの構築時に、独自のファーストパーティの特性およびデータフィードから、ライブ特性のレコメンデーションを [!UICONTROL Audience Marketplace] 取得します。
+独自のファーストパーティ特性および [!UICONTROL Audience Marketplace] データフィードから、セグメントの作成時に有効な特性レコメンデーションを取得します。
 
 ## ビデオデモ
 
-Start by watching the [!UICONTROL Trait Recommendations] video below, then read on for more information. このビデオデモでは、独自のファーストパーティ特性からのレコメンデーションの操作方法と、既に登録済みのデータフィードからの特性レコメ [!UICONTROL Audience Marketplace] ンデーシ *ョンの操作方法を示します*。
+まず、以下の [!UICONTROL Trait Recommendations] のビデオを見てから、詳細をお読みください。ビデオデモでは、独自のファーストパーティ特性からのレコメンデーションの使用方法、*および既に購読している* [!UICONTROL Audience Marketplace] データフィードからの特性レコメンデーションの使用方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=jpn)
 
-次のビデオでは、のデータフィードか [!UICONTROL Marketplace Recommendations]らのレコメンデーションに基づいて、セグメントに特徴を追加する方法を示すワークフローについて説明しま [!UICONTROL Audience Marketplace]す。 これらのレコメンデーションは、登録されていな *いデータフィードに基づきます*。
+次のビデオでは、[!UICONTROL Marketplace Recommendations] のワークフローの概要を説明し、[!UICONTROL Audience Marketplace] のデータフィードからのレコメンデーションに基づいて、セグメントに特性を追加する方法を示します。これらのレコメンデーションは、購読していない&#x200B;**&#x200B;データフィードに基づいています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=jpn)
 
 ## 概要
 
-[!DNL Adobe Sensei] を活用した [!UICONTROL Trait Recommendations] により、データサイエンスを Audience Manager の毎日のワークフローに適用します。[セグメントビルダー](segment-builder.md)でセグメントをビルドまたは編集する際に [!UICONTROL Trait Recommendations]を使用すると、セグメントルールの Trait に似た、追加が可能な特性に関するレコメンデーションが表示されます。
+[!DNL Adobe Sensei] を活用した [!UICONTROL Trait Recommendations] により、データサイエンスを Audience Manager の毎日のワークフローに適用します。[セグメントビルダー](segment-builder.md)でセグメントをビルドまたは編集する際に [!UICONTROL Trait Recommendations] を使用すると、セグメントルールの Trait に似た、追加が可能な特性に関するレコメンデーションが表示されます。
 
-Audience Managerでは、ファーストパーティの特性、セクションおよびセクション内の **[!UICONTROL Recommendations]** 両方の特性レコメンデー **[!UICONTROL Audience Marketplace]**&#x200B;ションが表示さ **[!UICONTROL Recommendations from Marketplace]** れます。
+Audience Manager では、ファーストパーティ特性からの特性レコメンデーションが&#x200B;**[!UICONTROL Recommendations]**&#x200B;セクションに、**[!UICONTROL Audience Marketplace]** からの特性レコメンデーションが&#x200B;**[!UICONTROL Recommendations from Marketplace]**&#x200B;セクションに表示されます。
 
 推奨特性をセグメントに追加すると、ターゲットオーディエンスを増やすことができます。
 
@@ -37,7 +37,7 @@ Audience Managerでは、ファーストパーティの特性、セクション�
 
 **要約すると、以下のような機能です。**
 
-* Audience Managerでは、セクションにファーストパーティの特性が表示さ [!UICONTROL Recommendations] れます。 購読していない公開フィードおよび非公開フィードからのMarketplaceレコメンデーションが、セクションに表示さ [!UICONTROL Recommendations from Marketplace] れます。 フィード名をクリックして、に移動し、購読 [!UICONTROL Audience Marketplace] を行います。
+* Audience Manager では、ファーストパーティ特性が「[!UICONTROL Recommendations]」セクションに表示されます。購読していない公開および非公開フィードからの Marketplace レコメンデーションは、「[!UICONTROL Recommendations from Marketplace]」セクションに表示されます。フィード名をクリックして [!UICONTROL Audience Marketplace] に移動し、購読します。
 * Audience Manager には、セグメントルール内の特性に類似した特性が最大で 50 表示されます。
 * レコメンデーションを表示する必要のないデータソースは除外できます。
 * 類似性を計算する際、Audience Manager は過去 30 日間の特性の対象として認定できる [UUID](../../reference/ids-in-aam.md) を考慮に入れます。
@@ -49,8 +49,8 @@ Audience Managerでは、ファーストパーティの特性、セクション�
 
 * マーケティング担当者は、類似した特性を活用して補完的な製品に関心のあるオーディエンスをすばやく見つけ、リーチを増やすことができます。
 * Audience Manager をパブリッシャー（広告配信元）として使用した場合、[!UICONTROL Trait Recommendations]では、オーディエンスの行動を把握し、広告販売やユーザー獲得のためのより優れたセグメントを構築できます。
-* データの購入 [!UICONTROL Audience Marketplace] 者として、大量のフィードを閲覧することなく、関連するサードパーティのデータを見つけたいと考えています。
-* データプロバ [!UICONTROL Audience Marketplace] イダーとして、最適で関連性のある購読からメリットを得るために、購入者に関連するデータを勧めたいと思います。
+* [!UICONTROL Audience Marketplace] データ購入者の場合、大量のフィードを閲覧することなく、関連するサードパーティデータを見つけることができます。
+* [!UICONTROL Audience Marketplace] データプロバイダーの場合、関連するデータを購入者にレコメンデーションできるので、最適な、関連するサブスクリプションから利益を得ることができます。
 
 ## 特性レコメンデーションとアルゴリズムモデルの違い
 
@@ -74,33 +74,33 @@ Audience Managerでは、ファーストパーティの特性、セクション�
 
 ## ワークフロー
 
-[セグメントビルダー](segment-builder.md)でセグメントを作成または編集する際に、セグメントルール内の特性に類似した特性を調べることができます。The [Segment Builder](segment-builder.md) workflow is very similar for new and existing segments:
+[セグメントビルダー](segment-builder.md)でセグメントを作成または編集する際に、セグメントルール内の特性に類似した特性を調べることができます。[セグメントビルダー](segment-builder.md)のワークフローは、以下に示すように、新規セグメントと既存セグメントで非常によく似ています。
 
 ### 新規セグメント
 
-1. オーディエン **スデータ/セグメントに移動し**、「新規追加」を **クリックします**。
-2. 「**Traits**」ドロップダウンボックスで、少なくとも 1 つの特性をセグメントルールに追加します。
-3. サブスクライブされているフィードから、ファーストパーテ [!UICONTROL Audience Marketplace] ィの推奨特性と特性の推奨をセクションで確認で **[!UICONTROL Recommendations]** きます。 このセク **[!UICONTROL Recommendations from Marketplace]** ションには、購読していないフィードからの特性レコメンデーションが表示されます。 これらのレコメンデーションは、すべてセグメントルールに追加した特徴に似ています。 下にスクロールして、推奨されるすべての特性を表示します。
-4. (Optional) To exclude recommended first-party traits from certain data sources, click the **X** symbol for the data sources you want to exclude.
+1. **Audience Data／Segments** に移動し、「**Add New**」をクリックします。
+2. **Traits** ドロップダウンボックスで、少なくとも 1 つの特性をセグメントルールに追加します。
+3. ファーストパーティの推奨特性および購読しているフィードからの [!UICONTROL Audience Marketplace] 特性レコメンデーションが、**[!UICONTROL Recommendations]**&#x200B;セクションに表示されます。**[!UICONTROL Recommendations from Marketplace]**&#x200B;セクションには、購読していないフィードからの特性レコメンデーションが表示されます。これらすべてのレコメンデーションは、セグメントルールに追加した特性に類似しています。下にスクロールして、推奨されるすべての特性を表示します。
+4. （オプション）特定のデータソースのファーストパーティ推奨特性を除外するには、除外するデータソースの **X** 記号をクリックします。
    > [!NOTE]
    >
-   > 除外したデータソースは、推奨特性のリストのすぐ上に表示されます。Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
+   > 除外したデータソースは、推奨特性のリストのすぐ上に表示されます。灰色のボックスの **X** をクリックすると、除外したデータソースが削除され、各データソースの結果が再度表示されます。
 5. セグメントルールに推奨特性を追加するには、**+** 記号をクリックします。
 
 > [!IMPORTANT]
-> セグメントに特 [!UICONTROL Marketplace] 徴を追加する場合、その特徴は、対応するデータフィードを購読するまで、セグメントの推定にのみ使用されます。 購読していないデータフィードからの特性は、特性リストに買い物かごアイコンが表示されます。 特性名をクリックして、データフィードページに移動し、購読します。
-> ![Marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
-> サードパーティの特性を持つセグメントは、対応するデータフィードにサブスクリプションを行った後でのみ保存できます。
+> [!UICONTROL Marketplace] 特性をセグメントに追加する場合、その特性は、対応するデータフィードを購読するまで、セグメント推定にのみ使用されます。購読していないデータフィードからの特性は、特性リストで、買い物かごアイコンでマークされます。特性名をクリックしてデータフィードページに移動し、購読します。
+> ![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
+> 対応するデータフィードを購読した場合のみ、サードパーティ特性と共にセグメントを保存できます。
 
 ### 既存セグメント
 
-1. Go to **[!UICONTROL Audience Data]&gt;[!UICONTROL Segments]**, select the segment you want to edit and click ![Edit](assets/edit-button.png).
+1. **[!UICONTROL Audience Data]／[!UICONTROL Segments]** に移動し、編集したいセグメントを選択して、「![Edit](assets/edit-button.png)」をクリックします。
 1. 下にスクロールして[!UICONTROL Traits]ドロップダウンボックスを表示します。
 1. セグメントルールに既に含まれている特性に類似した推奨特性が表示されています。下にスクロールして、推奨されるすべての特性を表示します。
 1. （オプション）特定のデータソースの推奨特性を除外するには、除外するデータソースの **X** 記号をクリックします。
    > [!NOTE]
    >
-   > 除外したデータソースは、推奨特性のリストのすぐ上に表示されます。Click **X** in the grey box to remove the exclusions and see results from the respective data sources again.
+   > 除外したデータソースは、推奨特性のリストのすぐ上に表示されます。灰色のボックスの **X** をクリックすると、除外したデータソースが削除され、各データソースの結果が再度表示されます。
 1. セグメントルールに推奨特性を追加するには、**+** 記号をクリックします。
 
 セグメントを作成または編集し、セグメントルールに特性を追加すると、追加した特性に類似した特性が最大で 50 表示されます。セグメントルールに複数の特性が含まれている場合、Audience Manager はラウンドロビン方式により、各特性に最も一致する特性、2 番目に一致する特性という順に、セグメントルール内の、母集団が大きい方から順に 50 の特性が表示されます。
@@ -117,11 +117,11 @@ Audience Managerでは、ファーストパーティの特性、セクション�
 
 特定の特性に対するレコメンデーションを取得するには、セグメントルール内（1）または特性レコメンデーションビュー内（2）の特性をクリックします。
 
-![基本特性の例](assets/three-base-traits-numbered.png)
+![base-traits-example](assets/three-base-traits-numbered.png)
 
-ファーストパーティの特性をクリックすると、ポップアップウィンドウが開きます（下の画像を参照）。 推奨特性がセグメントに含まれていない場合は、**+** を押すと、その特性をセグメントに追加できます。
+下の画像に示すように、ファーストパーティ特性をクリックすると、ポップアップウィンドウが開きます。推奨特性がセグメントに含まれていない場合は、**+** を押すと、その特性をセグメントに追加できます。
 
-![セグメントに追加](assets/add_to_segments.png)
+![add-to-segment](assets/add_to_segments.png)
 
 > [!TIP]
 >
@@ -129,7 +129,7 @@ Audience Managerでは、ファーストパーティの特性、セクション�
 
 > [!NOTE]
 >
-> Recommended traits can be your first-party traits or third party traits from data feeds that you are subscribed to in [!UICONTROL Audience Marketplace].
+> 推奨特性は、[!UICONTROL Audience Marketplace] の購読しているデータフィードからのファーストパーティ特性の場合もあれば、サードパーティ特性の場合もあります。
 
 ## 仕組み
 
@@ -137,9 +137,9 @@ Audience Managerでは、ファーストパーティの特性、セクション�
 
 ## 特性類似性スコア {#trait-similarity-score}
 
-Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合を計算し、その 2 つを除算することにより、2 つの特性間の[!UICONTROL Trait Similarity Score]を算出します。2 つの特性、A と B の計算は次のようになります。
+Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合を計算し、その 2 つを除算することにより、2 つの特性間の[!UICONTROL Trait Similarity Score]を算出します。2 つの特性 A と B の計算は次のようになります。
 
-![ジャカード類似性](assets/jaccard_similarity.png)
+![jaccard-similarity](assets/jaccard_similarity.png)
 
 以下の 2 つの例も確認してください。
 
@@ -148,14 +148,14 @@ Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合
 2 つの特性 A、B があると仮定して、それぞれの特性に 1,000,000 個の [!UICONTROL UUID] の母集団があり、そのうち 25,000 個の [!UICONTROL UUID] が両方の特性の対象として認定できるとします。
 上記の数式を使用すると、この結果は 25,000/1,975,000=0.012 になります。この[!UICONTROL Trait Similarity Score]は低いため、2 つの特性の類似性は非常に低くなります。
 
-![特性推奨 — 低重複](assets/Trait-Recommendations-Low-overlap.png)
+![trait-recommendations-low-overlap](assets/Trait-Recommendations-Low-overlap.png)
 
 ### 例 2 - 特性類似性スコア
 
-同じ特性 A と B で、400,000 個の [!UICONTROL UUID] が両方の特性の対象として認定できる場合、[!UICONTROL Trait Similarity Score]は、次のようにはるかに高くなります。
+同じ特性 A と B で、400,000 個の [!UICONTROL UUID] が両方の特性の対象として認定できる場合、[!UICONTROL Trait Similarity Score] は、次のようにはるかに高くなります。
 400,000 / 1,600,000 = 0.25
 
-![特性推奨 — 高重複](assets/Trait-Recommendations-High-overlap.png)
+![trait-recommendations-high-overlap](assets/Trait-Recommendations-High-overlap.png)
 
 ### 特性類似性スコアの解釈の方法
 
@@ -170,11 +170,11 @@ Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合
 
 ## ロールベースのアクセス制御（RBAC）
 
-[!UICONTROL Role-Based Access Controls]（[!UICONTROL RBAC]）を使用する企業では、推奨特性を表示するために、セグメントを作成および編集する権限が必要です。The trait recommendations that you see are only the ones from data sources that you have access to via [!UICONTROL RBAC].
+[!UICONTROL Role-Based Access Controls]（[!UICONTROL RBAC]）を使用する企業では、推奨特性を表示するために、セグメントを作成および編集する権限が必要です。表示される推奨特性は、[!UICONTROL RBAC] を介してアクセスできるデータソースの特性に限られます。
 
 > [!IMPORTANT]
 >
-> セグメントに追 [!UICONTROL Marketplace Recommendations] 加するには、ユーザーはまず対応するデータフィードを購読する必要があります。 データフィードを購読できるのは、管理者権限を持つユー [!UICONTROL Audience Marketplace] ザーのみです。
+> [!UICONTROL Marketplace Recommendations] をセグメントに追加するには、最初に対応するデータフィードを購読する必要があります。管理者権限のあるユーザーのみ、[!UICONTROL Audience Marketplace] データフィードを購読できます。
 
 [!UICONTROL RBAC] 制御について詳しくは、[こちら](../administration/administration-overview.md)を参照してください。
 
