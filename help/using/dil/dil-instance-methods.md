@@ -6,7 +6,7 @@ seo-title: インスタンスレベルの DIL メソッド
 solution: Audience Manager
 title: インスタンスレベルの DIL メソッド
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -719,8 +719,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [キー変数名の要件](../features/traits/trait-key-name-requirements.md)
 >* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
->* [Experience Cloud ID サービスの同期関数](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Experience Cloud ID サービスの同期関数](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-idsync.html)
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID サービス：UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Experience Cloud ID サービスでの CORS のサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Experience Cloud ID サービス：UseCORSOnly](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Experience Cloud ID サービスでの CORS のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/cors.html)
 
