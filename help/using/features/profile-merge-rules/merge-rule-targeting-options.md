@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールの一般的なユースケース
 solution: Audience Manager
 title: プロファイル結合ルールの一般的なユースケース
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >
 >これらの[!UICONTROL Merge Rule]設定の定義と説明については、[定義済みのプロファイルの結合ルールオプション](merge-rule-definitions.md)を参照してください。
 
-## デバイスのターゲティング{#device-personalization}
+## デバイスのターゲティング {#device-personalization}
 
 このシナリオは、ユーザー認証を考慮せずに、デバイス ID（DSP、オンサイトパーソナライゼーションプラットフォーム、その他のデバイスベースのターゲティングプラットフォーム）をサポートするターゲティングプラットフォームを使用して、Audience Manager で定義したオーディエンスセグメントの単一のデバイスプロファイルを評価する場合に適用されます。
 
@@ -47,7 +47,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ![共有デバイスターゲティング](assets/shared-device-targeting.png)
 
-## オンライン／オフラインでのターゲティング{#device-household-targeting}
+## オンライン／オフラインでのターゲティング {#device-household-targeting}
 
 この使用例では、世帯 ID 管理をカバーしています。会社は、**[!UICONTROL Last Authenticated Profiles]** ルール&#x200B;**[!UICONTROL Device Profile]** とルールを使用して、1 つのデバイスプロファイルを、1 つのデバイスプロファイルを、そのデバイスで最後に認証されたプロファイルと結合できます。
 
@@ -61,7 +61,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 ![世帯管理](assets/household-management.png)
 
-## 人ベースの宛先のターゲット設定 {#all-cross-device}
+## People-Based Destinations のターゲティング {#all-cross-device}
 
 > [!IMPORTANT]
 >
@@ -69,7 +69,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 このターゲティングシナリオは、[!DNL People-Based Destinations] アドオンを購入した顧客のみが使用できます。このルールを使用すると、マーケターは、独自の認証済みデータに基づいて顧客にリーチすることができます。
 
-あるオンライン小売業者は、ソーシャルプラットフォームを通じて既存の顧客にリーチし、以前の注文に基づいてパーソナライズされたオファーを表示したいと願っています。With [!UICONTROL People-Based Destinations], they can ingest hashed email addresses from their own [!DNL CRM] into Audience Manager, build segments from the offline data, and send these segments to the social platforms they want to advertise on, using that hashed identifier, optimizing their advertising spending.
+あるオンライン小売業者は、ソーシャルプラットフォームを通じて既存の顧客にリーチし、以前の注文に基づいてパーソナライズされたオファーを表示したいと願っています。[!UICONTROL People-Based Destinations] を使用すれば、ハッシュ化された電子メールアドレスを自分の [!DNL CRM] から Audience Manager に取り込み、オフラインデータからセグメントを構築し、ハッシュ化されている ID を使用して これらのセグメントを宣伝したいソーシャルプラットフォームに送信し、広告費用を最適化することができます。
 
 このオプションの詳細については、「[People-Based Destinations](../destinations/people-based-destinations-overview.md)」を参照してください。
 
@@ -98,7 +98,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
   </tr> 
   <tr> 
    <td colname="col1"> <p>外部デバイスグラフオプション </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external">Experience Cloud Device Co-op</a> や、<span class="keyword">Audience Manager</span> と統合された外部デバイスグラフで作成された<span class="wintitle">プロファイル結合</span>ルールは、次のものに最適です。 </p> <p> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/" format="https" scope="external">Experience Cloud Device Co-op</a> や、<span class="keyword">Audience Manager</span> と統合された外部デバイスグラフで作成された<span class="wintitle">プロファイル結合</span>ルールは、次のものに最適です。 </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">低レベルなユーザー認証を導入しているデジタルプロパティ。 </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">広範囲で高リーチのブランドキャンペーン。 </li> 
