@@ -5,7 +5,7 @@ seo-title: Audience Manager の宛先としての OAS
 solution: Audience Manager
 title: Audience Manager の宛先としての OAS
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## OAS の宛先に関する要件 {#oas-requirements}
 
-コードの配置、サポートされるキー値の形式、レポート、および [!DNL OAS] に送信されるセグメントデータのタイプに関する要件。
+コードの配置、サポートされるキーと値の形式、レポート、および [!DNL OAS] に送信されるセグメントデータのタイプに関する要件。
 
 <!-- aam-oas-requirements.xml -->
 
@@ -27,14 +27,14 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 * **`get_aamCookie`関数：** Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または `<head>` コードブロック内に配置します。
 * **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。データは raw 形式でもかまいませんが、各レコードには Audience Manager [!UICONTROL UUID] が含まれている必要があります。Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
-### Cookie 形式およびキー値データ
+### Cookie 形式およびキーと値のデータ
 
 Audience Manager はブラウザー Cookie に対してセグメントデータを次のように送信できます。 
 
 * 単一のキー（`x=1&x=2`）
 * 複数のキー（`x=1&x=2&y=3&y=4`）
 * シリアル化された値（`x=1,2,3`）
-* 個々のキー値のペアが区切られる標準的な値の区切り文字
+* 個々のキーと値のペアが区切られる標準的な値の区切り文字
 
 ### 適合するセグメントのみ OAS に送信
 
@@ -43,7 +43,7 @@ Audience Manager はブラウザー Cookie に対してセグメントデータ�
 >[!MORELIKETHIS]
 >
 >* [get_aamCookie コード](../../features/destinations/get-aam-cookie-code.md)
->* [キー値ペアの解説](../../reference/key-value-pairs-explained.md)
+>* [キーと値のペアの解説](../../reference/key-value-pairs-explained.md)
 
 
 ## OAS の宛先の作成 {#oas-dest-setup}
@@ -52,15 +52,15 @@ Audience Manager で、[!DNL OAS] に Cookie ベースの宛先を作成しま�
 
 <!-- aam-oas-destination-setup.xml -->
 
-Audience Manager において、*宛先*&#x200B;とは、データを共有したい他システム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。まず、「**[!UICONTROL Add New Destination]**」をクリックし、以下の手順に従います。
+Audience Manager において、*宛先*&#x200B;とは、データを共有したい他システム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
 
 ### 手順 1：基本情報
 
 「[!UICONTROL Basic Information]」セクションを完了するには：
 
 1. 宛先の名前を入力します。
-1. [!UICONTROL Type] ドロップダウンリストから「**[!UICONTROL "Cookie"]**」を選択します。
-1. 「**[!UICONTROL Save]**」をクリックし、「[!UICONTROL Configuration]」および「[!UICONTROL Segment Mappings]」セクションを開きます。
+1. [!UICONTROL Type] ドロップダウンリストから&#x200B;**[!UICONTROL "Cookie"]**&#x200B;を選択します。
+1. **[!UICONTROL Save]**&#x200B;をクリックし、「[!UICONTROL Configuration]」および「[!UICONTROL Segment Mappings]」セクションを開きます。
 
 ### 手順 2：設定情報
 
@@ -70,17 +70,17 @@ Audience Manager において、*宛先*&#x200B;とは、データを共有し�
 1. **Cookie Domain：**&#x200B;ユーザーが現在表示しているページのドメインで Cookie を設定する場合は空のままとします。ドメインを指定する場合は、`.mydomain.com` のように、ピリオドを使用して名前にプレフィックスを付けます。
 1. 「[!UICONTROL Data Format]」セクションでキーオプションを選択します。
 1. シリアル化された値のデータを使用するキーの場合、**[!UICONTROL Serialize]** コントロールを選択し、シリアル値の区切り文字（シリアル化された値を区切るための文字）を指定します。
-1. 「**[!UICONTROL Save]**」をクリックし、「[!UICONTROL Segment Mappings]」セクションを展開します。
+1. **[!UICONTROL Save]**&#x200B;をクリックし、「[!UICONTROL Segment Mappings]」セクションを展開します。
 
 ### 手順 3：セグメントマッピング
 
 以下の手順で Cookie の宛先にセグメントを追加します。
 
 1. **Find segments：**「[!UICONTROL Segment Mappings]」セクションには、セグメントを検索するための 2 つの検索ツールが用意されています。セグメントを検索するには、
-   * オプション 1：検索フィールドにセグメント名を入力します。その文字列に基づきフィールドが自動で更新されます。使用するセグメントが見つかったら、「**[!UICONTROL Add]**」をクリックします。
-   * オプション 2：「**[!UICONTROL Browse All Segments]**」をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。終了したら、「**[!UICONTROL Add Selected Segments]**」をクリックします。
-1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、「**[!UICONTROL Save]**」をクリックします。
-1. 「**[!UICONTROL Done]**」をクリックします。
+   * オプション 1：検索フィールドにセグメント名を入力します。その文字列に基づきフィールドが自動で更新されます。使用するセグメントが見つかったら、**[!UICONTROL Add]**&#x200B;をクリックします。
+   * オプション 2：**[!UICONTROL Browse All Segments]**&#x200B;をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。終了したら、**[!UICONTROL Add Selected Segments]**&#x200B;をクリックします。
+1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
+1. **[!UICONTROL Done]**&#x200B;をクリックします。
 
 ## OAS 設定 {#oas-code-setup}
 
