@@ -5,7 +5,7 @@ seo-title: データ配信やファイル処理の時間がレポートに及ぼ
 solution: Audience Manager
 title: データ配信やファイル処理の時間がレポートに及ぼす影響
 uuid: 4b975512-f67e-4749-a7ef-168415597682
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -39,7 +39,7 @@ c_reporting_file_transfer_timeframe.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>一般レポートデータ</b> </p> </td> 
-   <td colname="col2"> <p>Folio Builder<a href="../reporting/general-reports.md#general-reports-overview">一般レポート</a>のデータは、他のジョブ処理が正常に完了するかどうかや特定の日に受信したデータ量によって異なります。ほとんどの場合、<span class="wintitle">一般レポート</span>データは毎日 18:00 UTC に更新されます。 </p> </td> 
+   <td colname="col2"> <p><a href="../reporting/general-reports.md#general-reports-overview">一般レポート</a>のデータは、他のジョブ処理が正常に完了するかどうかや特定の日に受信したデータ量によって異なります。ほとんどの場合、<span class="wintitle">一般レポート</span>データは毎日 18:00 UTC に更新されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
