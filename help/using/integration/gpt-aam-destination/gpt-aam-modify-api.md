@@ -5,13 +5,13 @@ seo-title: GPT setTargeting API 呼び出しの変更
 solution: Audience Manager
 title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
 
-# GPT `setTargeting` API 呼び出しの変更{#modify-the-gpt-settargeting-api-call}
+# GPT `setTargeting` API 呼び出しの変更 {#modify-the-gpt-settargeting-api-call}
 
 [!DNL Google Publisher Tag] `.setTargeting` メソッドを呼び出す前に、Audience Manager の Cookie を確認するための if 文を追加します。
 
@@ -57,12 +57,12 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>キーと値のセグメントペアのキーを返します。For example, if your key-value pair consisted of <code> color=blue </code>, this returns <code> color </code>. </p> </td> 
+   <td colname="col3"> <p>キーと値のセグメントペアのキーを返します。例えば、キーと値のペアが <code> color=blue </code> である場合、<code> color </code> が返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
    <td colname="col2"> <p>文字列の配列 </p> </td> 
-   <td colname="col3"> <p>Returns values in an array, e.g., <code> ["value1","value2"] </code>. </p> </td> 
+   <td colname="col3"> <p>値を配列（<code> ["value1","value2"] </code> など）で返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
