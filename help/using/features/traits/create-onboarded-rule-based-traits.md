@@ -6,7 +6,7 @@ seo-title: ルールベースまたはオンボードの特性の作成
 solution: Audience Manager
 title: ルールベースまたはオンボードの特性の作成
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
