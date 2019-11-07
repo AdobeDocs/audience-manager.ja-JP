@@ -5,7 +5,7 @@ seo-title: セグメント／特性間重複レポート
 solution: Audience Manager
 title: セグメント／特性間重複レポート
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
