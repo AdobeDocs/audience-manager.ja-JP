@@ -5,7 +5,7 @@ seo-title: DIL のユースケースとコードサンプル
 solution: Audience Manager
 title: DIL のユースケースとコードサンプル
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -33,15 +33,15 @@ c_dil_send_page_objects.xml
 
 **説明**
 
-[!UICONTROL DIL] を使用してページデータを収集し、Audience Manager に送信する方法の例を以下のコードで示します。これらの例では、フラットリストまたは配列にデータ要素を保持する変数を使用します。変数を[キー値ペア](../reference/key-value-pairs-explained.md)として渡すことに注意してください。また、キー値ペアのキーの前に付いている `c_` プレフィックスにも注意してください。これは[必須のプレフィックス](../features/traits/trait-variable-prefixes.md)であり、情報がユーザー定義データであることを明示します。最初の例では、`c_` を手動でキーに付加する必要があります。2 番目の例では、[!UICONTROL DIL] がこれを自動的におこないます。
+[!UICONTROL DIL] を使用してページデータを収集し、Audience Manager に送信する方法の例を以下のコードで示します。これらの例では、フラットリストまたは配列にデータ要素を保持する変数を使用します。変数を[キーと値のペア](../reference/key-value-pairs-explained.md)として渡すことに注意してください。また、キーと値のペアのキーの前に付いている `c_` プレフィックスにも注意してください。これは[必須のプレフィックス](../features/traits/trait-variable-prefixes.md)であり、情報がユーザー定義データであることを明示します。最初の例では、`c_` を手動でキーに付加する必要があります。2 番目の例では、[!UICONTROL DIL] がこれを自動的におこないます。
 
 **値プロパティの一貫性の維持**
 
-データを渡す際には、値プロパティを同じにすることを忘れないでください。例えば、2 つの同一のキーが異なる値を持つ場合、最後のキー値ペアの値が、それより前の値オブジェクトよりも優先されます。例えば、`color:blue` と `color:red` を渡すと、返される値は red に設定されます（blue が上書きされます）。
+データを渡す際には、値プロパティを同じにすることを忘れないでください。例えば、2 つの同一のキーが異なる値を持つ場合、最後のキーと値のペアの値が、それより前の値オブジェクトよりも優先されます。例えば、`color:blue` と `color:red` を渡すと、返される値は red に設定されます（blue が上書きされます）。
 
-**例 1：データをキー値ペアとして送信**
+**例 1：データをキーと値のペアとして送信**
 
-この基本的な例では、色と価格のデータをキー値ペアの形式で Audience Manager に送信しています。次のようなコードになります。
+この基本的な例では、色と価格のデータをキーと値のペアの形式で Audience Manager に送信しています。次のようなコードになります。
 
 <pre class="&ldquo;java&rdquo;"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -54,7 +54,7 @@ sample_dil.api.submit();
 
 **例 2：データをオブジェクトで送信**
 
-この高度な例では、データをオブジェクトで Audience Manager に送信する方法を示します。このメソッドを扱う場合は、[!UICONTROL DIL] を使用すると、オブジェクトを関数パラメーターとして [!DNL signals()] メソッドに渡すことができます。[!UICONTROL DIL]次のようなコードになります。
+この高度な例では、データをオブジェクトで Audience Manager に送信する方法を示します。このメソッドを扱う場合は、[!UICONTROL DIL] を使用すると、オブジェクトを関数パラメーターとして [!DNL signals()] メソッドに渡すことができます。[!UICONTROL DIL] 次のようなコードになります。
 
 <pre class="java"><code>
 var my_object = { 
@@ -178,9 +178,9 @@ if (search_referrer && search_referrer.valid) {
 }
 </code></pre>
 
-## キー値の他のキーへのマッピング {#map-key-values}
+## キーと値の他のキーへのマッピング {#map-key-values}
 
-キー値ペアの値を別のキーに関連付けます。
+キーと値のペアの値を別のキーに関連付けます。
 
 <!-- 
 
@@ -190,7 +190,7 @@ c_dil_map_keys.xml
 
 **説明**
 
-キー値ペアでは、キーに付加された `c_` プレフィックスで、シグナルが顧客定義データとして識別されます。顧客定義データは、イベント呼び出し時のデータで渡された特定のサイト上のターゲティングに使用されます。ただし、この情報を Audience Manager アカウントのすべてのプロパティで使用可能にしたい場合があります。これをおこなうには、`c_` キー値ペアの値をプラットフォームレベルのキーにマッピングします。プラットフォームレベルのキーには `d_` プレフィックスが付加されており、そのシグナルがアカウントのすべてのプロパティでターゲティングに使用できるようになります。
+キーと値のペアでは、キーに付加された `c_` プレフィックスで、シグナルが顧客定義データとして識別されます。顧客定義データは、イベント呼び出し時のデータで渡された特定のサイト上のターゲティングに使用されます。ただし、この情報を Audience Manager アカウントのすべてのプロパティで使用可能にしたい場合があります。これをおこなうには、`c_` キーと値のペアの値をプラットフォームレベルのキーにマッピングします。プラットフォームレベルのキーには `d_` プレフィックスが付加されており、そのシグナルがアカウントのすべてのプロパティでターゲティングに使用できるようになります。
 
 例として、特定のサイトから郵便番号データを収集し、それをすべての Audience Manager プロパティに対してターゲット設定するとします。郵便番号をプラットフォームレベルで使用できるようにするには、以下に示すように、顧客定義郵便番号キー（例：`c_zip`）をプラットフォーム定義キーにマッピングします。
 
@@ -210,7 +210,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
-## Google Tag Manager（GTM）での DIL とのやり取り{#traffic-dil-gtm}
+## Google Tag Manager（GTM）での DIL とのやり取り {#traffic-dil-gtm}
 
 GTM タグを使用して DIL を設定および提供します。
 
@@ -229,9 +229,9 @@ GTM で `dil.js` ファイルを配信するには：
 1. タグを開いて編集し、次の作業をおこないます。
 
    * タグの名前を設定します。
-   * **[!UICONTROL Tag Type]** ドロップダウンリストから「**[!UICONTROL Custom HTML Tag]**」を選択します。
+   * **[!UICONTROL Tag Type]** ドロップダウンリストから&#x200B;**[!UICONTROL Custom HTML Tag]**&#x200B;を選択します。
    * HTML フィールドで、[!UICONTROL DIL] コード（ライブラリとカスタムコード）をスクリプトタグ `<script>DIL code</script>` の内側に配置します。
-   * 「**[!UICONTROL Save]**」をクリックします。
+   * **[!UICONTROL Save]**&#x200B;をクリックします。
 
 1. コンテナを公開します。
 1. コンテナタグコードを生成し、自分のインベントリに配置します。
@@ -240,5 +240,5 @@ GTM で `dil.js` ファイルを配信するには：
 >
 >* [Google タグマネージャーヘルプセンター](https://support.google.com/tagmanager#topic=3441530)
 >* [シグナル](../dil/dil-instance-methods.md#signals)
->* [キー変数のプレフィックスに関する要件](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
+>* [キー変数のプレフィックスに関する要件](https://marketing.adobe.com/resources/help/ja_JP/aam/r_tb_variable_prefixes.html)
 
