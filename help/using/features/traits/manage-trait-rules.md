@@ -1,11 +1,11 @@
 ---
-description: 特性ビルダーの式ビルダーを使用すると、オーディエンス認定要件を確立するルールを作成およびテストできます。ルールは、「color == blue」または「price > 100」などのキー値ペアで構成されます。比較演算子は、キーと値の間の関係を確立します。ブール式は、ルールグループ間の関係を判別します。
-seo-description: 特性ビルダーの式ビルダーを使用すると、オーディエンス認定要件を確立するルールを作成およびテストできます。ルールは、「color == blue」または「price > 100」などのキー値ペアで構成されます。比較演算子は、キーと値の間の関係を確立します。ブール式は、ルールグループ間の関係を判別します。
+description: 特性ビルダーの式ビルダーを使用すると、オーディエンス認定要件を確立するルールを作成およびテストできます。ルールは、「color == blue」または「price > 100」などのキーと値のペアで構成されます。比較演算子は、キーと値の間の関係を確立します。ブール式は、ルールグループ間の関係を判別します。
+seo-description: 特性ビルダーの式ビルダーを使用すると、オーディエンス認定要件を確立するルールを作成およびテストできます。ルールは、「color == blue」または「price > 100」などのキーと値のペアで構成されます。比較演算子は、キーと値の間の関係を確立します。ブール式は、ルールグループ間の関係を判別します。
 seo-title: 特性ルールの管理
 solution: Audience Manager
 title: 特性ルールの管理
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 # 特性ルールの管理 {#managing-trait-rules}
 
-[!UICONTROL Trait Builder] では、[!UICONTROL Expression Builder] を使用すると、オーディエンス資格要件を確立するルールを作成およびテストできます。ルールは、`color == blue` や `price > 100` などのキー値ペアで構成されます。比較演算子は、キーと値の間の関係を確立します。[!DNL Boolean] 式は、ルールグループ間の関係を判別します。
+[!UICONTROL Trait Builder] では、[!UICONTROL Expression Builder] を使用すると、オーディエンス資格要件を確立するルールを作成およびテストできます。ルールは、`color == blue` や `price > 100` などのキーと値のペアで構成されます。比較演算子は、キーと値の間の関係を確立します。[!DNL Boolean] 式は、ルールグループ間の関係を判別します。
 
 <!-- c_tb_rules.xml -->
 
@@ -21,9 +21,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ![](assets/manage-trait-rules.png)
 
-1. 「**[!UICONTROL Expression Builder]**」または「**[!UICONTROL Code View]**」タブには、特性のルールの概要が表示されます。「**[!UICONTROL Expression Builder]**」を使用すると、フィールドおよびドロップダウンメニューを使用して、ルールを作成できます。「**[!UICONTROL Code View]**」を使用すると、手動でこれらの式をコードとして記述することで、ルールを作成できます。上の図に示したのは、製品キーが特定の値に等しいという認定条件（この場合、`color == "blue"`）でデータを評価するシグナルで構成されるシンプルな特性です。
+1. **[!UICONTROL Expression Builder]**&#x200B;または&#x200B;**[!UICONTROL Code View]**&#x200B;タブには、特性のルールの概要が表示されます。**[!UICONTROL Expression Builder]**&#x200B;を使用すると、フィールドおよびドロップダウンメニューを使用して、ルールを作成できます。**[!UICONTROL Code View]**&#x200B;を使用すると、手動でこれらの式をコードとして記述することで、ルールを作成できます。上の図に示したのは、製品キーが特定の値に等しいという認定条件（この場合、`color == "blue"`）でデータを評価するシグナルで構成されるシンプルな特性です。
 
-1. このセクションのフィールドおよびコントロールを使用すると、キー値ペアからシグナルを作成して、比較演算子でそれらの間の関係を設定できます。キー、演算子および値が必要です。
+1. このセクションのフィールドおよびコントロールを使用すると、キーと値のペアからシグナルを作成して、比較演算子でそれらの間の関係を設定できます。キー、演算子および値が必要です。
 1. 「[!UICONTROL Data Explorer Options]」を使用すると、シグナルに対する特性適合をバックフィルできます。
    >[!NOTE]
    >
@@ -36,28 +36,28 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 特性ルールの作成 {#create-trait-rule}
 
-ルール（または式）は、個々のキー値ペアまたはキー値ペアのグループで構成されます。比較演算子は、キー値ペアの間の関係を設定します。ルールを作成するには、キーと値を指定し、演算子を選択して、「**[!UICONTROL Add Rule]**」をクリックします。
+ルール（または式）は、個々のキーと値のペアまたはキーと値のペアのグループで構成されます。比較演算子は、キーと値のペアの間の関係を設定します。ルールを作成するには、キーと値を指定し、演算子を選択して、**[!UICONTROL Add Rule]**&#x200B;をクリックします。
 
 <!-- t_tb_create_rules.xml -->
 
-「**[!UICONTROL Basic Information]**」セクションの必須フィールドは、特性ルールを作成する&#x200B;*前*&#x200B;に入力します。
+**[!UICONTROL Basic Information]**&#x200B;セクションの必須フィールドは、特性ルールを作成する&#x200B;*前*&#x200B;に入力します。
 
-1. 「**[!UICONTROL Trait Expression]**」セクションを展開して、キーと値の名前を入力します。これにより、*`signal`* が作成されます。
+1. **[!UICONTROL Trait Expression]**&#x200B;セクションを展開して、キーと値の名前を入力します。これにより、*`signal`* が作成されます。
    >[!NOTE]
    >
    >イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、キー変数でプレフィックス `c_`（またはその他の命名規則）を使用します。
-1. 「**[!UICONTROL Operator]**」ドロップダウンから[比較演算子](../../features/traits/trait-comparison-operators.md)を選択します。比較演算子はシグナルの要素間の関係を比較します。
+1. **[!UICONTROL Operator]**&#x200B;ドロップダウンから[比較演算子](../../features/traits/trait-comparison-operators.md)を選択します。比較演算子はシグナルの要素間の関係を比較します。
    >[!NOTE]
    >
    >[!DNL Boolean] 演算子 [!UICONTROL OR] はグループ&#x200B;*内*&#x200B;の複数のシグナル間の関係を確立します。これを変更することはできません。
-1. 「**[!UICONTROL Add Rule]**」をクリックします。保存されたルールは、データ入力フィールドの上にある特性ワークスペースに表示されます。
+1. **[!UICONTROL Add Rule]**&#x200B;をクリックします。保存されたルールは、データ入力フィールドの上にある特性ワークスペースに表示されます。
 
 ### 例 {#example-trait-rule}
 
 以下の例では、ユーザーが製品 ID に基づいて新しい特性ルールを作成します。このルールを作成するために、ユーザーはキー `productkey` を「次と等しい」演算子（`==`）により値 `2093` にリンクしています。
 ![](assets/tb_sample_rule1.png)
 
-「**[!UICONTROL Add Rule]**」をクリックすると特性が保存され、[!UICONTROL Expression Builder]ワークスペースに移動します。
+**[!UICONTROL Add Rule]**&#x200B;をクリックすると特性が保存され、[!UICONTROL Expression Builder]ワークスペースに移動します。
 
 ![](assets/tb_sample_rule2.png)
 
