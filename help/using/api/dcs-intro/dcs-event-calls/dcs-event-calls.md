@@ -5,7 +5,7 @@ seo-title: DCS イベント呼び出し API
 solution: Audience Manager
 title: DCS イベント呼び出し API
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
