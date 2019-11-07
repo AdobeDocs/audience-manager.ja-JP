@@ -5,13 +5,13 @@ seo-title: 定義済みのプロファイルの結合ルールオプション
 solution: Audience Manager
 title: 定義済みのプロファイルの結合ルールオプション
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
 
-# 定義済みのプロファイルの結合ルールオプション{#profile-merge-rule-options-defined}
+# 定義済みのプロファイルの結合ルールオプション {#profile-merge-rule-options-defined}
 
 結合ルールオプションを使用すると、Audience Manager がセグメント化に使用するデータのタイプを制御できます。結合ルールには、[!UICONTROL Profile Link] デバイスグラフ、[!UICONTROL Adobe Experience Cloud Device Co-op]、および Audience Manager と統合しているその他のサードパーティデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。最大4 つの[!UICONTROL Profile Merge Rules]を作成できます。4 つ目の [!UICONTROL Profile Merge Rule] は、[!UICONTROL People-Based Destinations] アドオンを購入した顧客のみが利用できます。
 
@@ -19,7 +19,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ![profile-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
-## プロファイルの結合ルールオプションの概要{#overview}
+## プロファイルの結合ルールオプションの概要 {#overview}
 
 プロファイル結合ルールでは、特定の使用例に合わせて様々なルールの組み合わせを使用できます。それぞれのルールの組み合わせを使用するタイミングについて詳しくは、次の表を参照してください。
 
@@ -31,7 +31,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 | 最後に認証されたプロファイル | デバイスプロファイル | すべての顧客 | リアルタイムとバッチ | ○ | [オンライン／オフラインでのターゲティング](merge-rule-targeting-options.md#device-household-targeting) |
 | 最後に認証されたプロファイル | プロファイルリンクデバイスグラフ | すべての顧客 | リアルタイムとバッチ | ○ | [クロスデバイスでのターゲティング](profile-link-use-case.md#cross-device-personalization) |
 | 最後に認証されたプロファイル | 外部デバイスグラフ（Co-op デバイスグラフを含む） | すべての顧客 | リアルタイムとバッチ | × | [高度なクロスデバイスターゲティング](external-graph-use-cases.md#advanced-graph-expansion) |
-| すべてのクロスデバイス対応プロファイル | なし | [People-Based Destinations](../destinations/people-based-destinations-overview.md) のユーザー専用 | バッチのみ | × | [人ベースの宛先のターゲット設定](merge-rule-targeting-options.md#all-cross-device) |
+| すべてのクロスデバイス対応プロファイル | なし | [People-Based Destinations](../destinations/people-based-destinations-overview.md) のユーザー専用 | バッチのみ | × | [People-Based Destinations のターゲティング](merge-rule-targeting-options.md#all-cross-device) |
 
 ## プロファイル結合ルールセグメントの評価 {#segment-evaluation}
 
@@ -108,12 +108,12 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Co-op Device Graph</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager </span>に対し、<a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Experience Cloud Device Co-op</a> が提供するリンクを使用して、現在のデバイスおよび他の 100 台までのデバイスからプロファイルを読み取るように指示します。 </p> <p><span class="keyword">Device Co-op</span> は、参加するお客様がデバイスリンク情報を共有するデジタル協業です。<span class="keyword">Device Co-op</span> はこのデータを<span class="term">デバイスグラフ</span>で処理します。デバイスグラフは、デバイスをリンクし、デバイスクラスターを形成します。このリンクは<a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-links.html" format="https" scope="external">確率論的データと決定論的データ</a>から構築されます。クラスターは、1 人の匿名の人物によって使用されるデバイスのグループを表します。<span class="keyword">Device Co-op</span> は、メンバー間でこれらのクラスターを共有します。これにより、メンバーは、価値のある一貫したクロスデバイスエクスペリエンスをその顧客に提供できます。 </p> <p> <span class="wintitle">Device Co-op</span> について詳しくは、以下を参照してください。 </p> <p> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager </span>に対し、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/" format="https" scope="external"> Experience Cloud Device Co-op</a> が提供するリンクを使用して、現在のデバイスおよび他の 100 台までのデバイスからプロファイルを読み取るように指示します。 </p> <p><span class="keyword">Device Co-op</span> は、参加するお客様がデバイスリンク情報を共有するデジタル協業です。<span class="keyword">Device Co-op</span> はこのデータを<span class="term">デバイスグラフ</span>で処理します。デバイスグラフは、デバイスをリンクし、デバイスクラスターを形成します。このリンクは<a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-links.html" format="https" scope="external">確率論的データと決定論的データ</a>から構築されます。クラスターは、1 人の匿名の人物によって使用されるデバイスのグループを表します。<span class="keyword">Device Co-op</span> は、メンバー間でこれらのクラスターを共有します。これにより、メンバーは、価値のある一貫したクロスデバイスエクスペリエンスをその顧客に提供できます。 </p> <p> <span class="wintitle">Device Co-op</span> について詳しくは、以下を参照してください。 </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
-      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html" format="https" scope="external"> Device Co-op の概要</a> </li> 
-      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-requirements.html" format="https" scope="external"> メンバーシップ要件</a> </li> 
-      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-processes.html" format="https" scope="external"> デバイスグラフ：内部処理と出力</a> </li> 
-      <li id="li_9DF8876BFBC043948D3E82BD081AAF9F"><a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external">Audience Manager と外部デバイスグラフ</a>（PDF ダウンロード） </li>
+      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-overview.html" format="https" scope="external"> Device Co-op の概要</a> </li> 
+      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-requirements.html" format="https" scope="external"> メンバーシップ要件</a> </li> 
+      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-processes.html" format="https" scope="external"> デバイスグラフ：内部処理と出力</a> </li> 
+      <li id="li_9DF8876BFBC043948D3E82BD081AAF9F"><a href="https://marketing.adobe.com/resources/help/ja_JP/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external">Audience Manager と外部デバイスグラフ</a>（PDF ダウンロード） </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
