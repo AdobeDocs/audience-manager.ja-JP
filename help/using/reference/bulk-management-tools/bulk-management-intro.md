@@ -6,7 +6,7 @@ seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -123,4 +123,5 @@ c_bulk_start.xml
 
 >[!MORELIKETHIS]
 >
->* [一�
+>* [一括管理ワークシートのダウンロード](assets/BAAAM_August_2018.xlsm)
+
