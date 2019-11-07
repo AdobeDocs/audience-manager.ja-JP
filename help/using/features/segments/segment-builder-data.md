@@ -5,7 +5,7 @@ seo-title: セグメントビルダーにおける特性とセグメントのユ
 solution: Audience Manager
 title: セグメントビルダーにおける特性とセグメントのユーザー数データ
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -52,7 +52,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 [!UICONTROL Segment Builder]では、セグメントの作成時や編集時にセグメント母集団データが表示されます。
 
-* 推定されたセグメント母集団データ（リアルタイムと合計）について、[!UICONTROL Segment Builder]でセグメントの特性の追加や削除を実行してもグラフは自動的には更新されません。「**[!UICONTROL Calculate Estimates]**」をクリックすると、推定された母集団の数値が表示（または更新）されます。
+* 推定されたセグメント母集団データ（リアルタイムと合計）について、[!UICONTROL Segment Builder]でセグメントの特性の追加や削除を実行してもグラフは自動的には更新されません。**[!UICONTROL Calculate Estimates]**&#x200B;をクリックすると、推定された母集団の数値が表示（または更新）されます。
 
 * 実際のセグメント母集団データ（リアルタイムと合計）について、[!UICONTROL Segment Builder]で既存のセグメントを読み込むと、セグメントのグラフが自動的に更新されます。新しいセグメントを作成した場合、または既存のセグメントに新しい特性を追加した場合、実際の母集団データはセグメントの作成から 24 時間が経過するまで更新されません。
 
@@ -97,7 +97,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### デバイスグラフオプションがない結合ルールのセグメント母集団データ
 
-次の表は、デバイスグラフオプションを使用せずに作成された[!UICONTROL Profile Merge Rule]でセグメントが使用されている場合の、実際のリアルタイム母集団と合計母集団の指標を示しています。これはデバイスオプション設定の「**[!UICONTROL No Device Options]**」および「**[!UICONTROL Current Device Proflie]**」です。
+次の表は、デバイスグラフオプションを使用せずに作成された[!UICONTROL Profile Merge Rule]でセグメントが使用されている場合の、実際のリアルタイム母集団と合計母集団の指標を示しています。これはデバイスオプション設定の&#x200B;**[!UICONTROL No Device Options]**&#x200B;および&#x200B;**[!UICONTROL Current Device Proflie]**&#x200B;です。
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -156,5 +156,5 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >[!MORELIKETHIS]
 >
 >* [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](../../faq/faq-profile-merge.md)
->* [Profile Link](../../features/profile-merge-rules/merge-rules-overview.md)
+>* [プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md)
 
