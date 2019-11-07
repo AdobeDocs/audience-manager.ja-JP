@@ -5,13 +5,13 @@ seo-title: Google サイト運営者タグ（GPT）を使用して DFP にセグ
 solution: Audience Manager
 title: Google サイト運営者タグ（GPT）を使用して DFP にセグメントを送信する際の要件と方法
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
 
-# Google サイト運営者タグ（GPT）を使用して DFP にセグメントを送信する際の要件と方法{#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Google サイト運営者タグ（GPT）を使用して DFP にセグメントを送信する際の要件と方法 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
 クライアント側またはサーバー側の統合を通じて、絞り込んだセグメントを [!DNL DFP] に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
 
@@ -39,7 +39,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 >[!NOTE]
 >
->送信できるキーと値の数に制限はありませんが、[!DNL Google] リクエスト [!DNL URL] で使用できる文字数には制限があります。[GPT でのターゲットとサイズの設定](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712)を参照してください。
+>送信できるキーと値の数に制限はありませんが、[!DNL Google] リクエスト [!DNL URL] で使用できる文字数には制限があります。[GPT でのターゲットとサイズの設定](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&amp;answer=1697712)を参照してください。
 
 ## サーバー側の統合 {#server-side-integration}
 
@@ -47,9 +47,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 >[!IMPORTANT]
 >
->If your web pages are running the [Accelerated Media Pages](https://www.ampproject.org/) ([!DNL AMP]) library, you must use the server-side integration with Audience Manager. [!DNL AMP] を使用していて、[!DNL AMP] によるクライアント側の統合がある場合、サーバー側の統合に移行する必要があります。移行については、Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。
+>Web ページが [Accelerated Media Pages](https://www.ampproject.org/)（[!DNL AMP]）ライブラリを実行している場合、Audience Manager でサーバー側の統合を使用する必要があります。[!DNL AMP] を使用していて、[!DNL AMP] によるクライアント側の統合がある場合、サーバー側の統合に移行する必要があります。移行については、Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。
 
 >[!MORELIKETHIS]
 >
->* [GPT API リファレンスガイド](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)
+>* [GPT API リファレンスガイド](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&amp;answer=1650154)
 
