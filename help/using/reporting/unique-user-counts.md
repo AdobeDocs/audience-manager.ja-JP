@@ -5,7 +5,7 @@ seo-title: AAM での重複レポートと一般レポートでの個別ユー�
 solution: Audience Manager
 title: 重複レポートと一般レポートでの個別ユーザーのカウント
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
