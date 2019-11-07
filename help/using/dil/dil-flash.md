@@ -5,7 +5,7 @@ seo-title: Flash DIL
 solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d72460ee33be0bfffe56eff04286284b2e5f3918
 
 ---
@@ -23,7 +23,7 @@ c_flash_dil_toc.xml
 
 [!UICONTROL Flash DIL] は、Audience Manager でビデオ再生データを操作するための [!DNL ActionScript] コードライブラリです。[!DNL Flash DIL] は、Adobe [!UICONTROL AppMeasurement] ライブラリが Analytics に渡す SWF コンテンツをキャプチャすることにより機能します。[!DNL Flash DIL] はデータを独立した [!UICONTROL DIL] JavaScript データ収集モジュールに送信します。この情報は Audience Manager に渡されます。Analytics データ（[!UICONTROL Props]、[!UICONTROL eVars]、イベントなど）は [!DNL FLA] ファイルからキャプチャした後、Audience Manager で特性や未使用シグナルとして使用できます。
 
-## 区切り文字のタイプFlash DIL データ収集{#requirements}
+## 区切り文字のタイプFlash DIL データ収集 {#requirements}
 
 一般的な実装およびコード関連の要件です。
 
@@ -45,9 +45,9 @@ c_flash_dil_intro.xml
 
 **AllowScriptAccess を`Always`または`sameDomain`に設定**
 
-SWF ファイルを読み込む HTML コードの `AllowScriptAccess` は、SWF ファイル内からの送信 URL アクセスを実行する機能を制御します。[!UICONTROL Flash DIL] データ統合を設定する場合、Flash `AllowScriptAccess` パラメーターが `always` または `sameDomain` に設定されていることを確認してください。[!UICONTROL Flash DIL] データ収集は、`AllowScriptAccess` が `never` に設定されている場合、機能しません。[スクリプトまたはホスト Web ページへのアクセスの制御](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html)を参照してください。
+SWF ファイルを読み込む HTML コードの `AllowScriptAccess` は、SWF ファイル内からの送信 URL アクセスを実行する機能を制御します。[!UICONTROL Flash DIL] データ統合を設定する場合、Flash `AllowScriptAccess` パラメーターが `always` または `sameDomain` に設定されていることを確認してください。[!UICONTROL Flash DIL] データ収集は、`AllowScriptAccess` が `never` に設定されている場合、機能しません。[スクリプトまたはホスト Web ページへのアクセスの制御](https://helpx.adobe.com/jp/flash/kb/control-access-scripts-host-web.html)を参照してください。
 
-**JS[!UICONTROL DIL]コードの配置**
+**JS [!UICONTROL DIL]コードの配置**
 
 [!UICONTROL DIL] ファイルよりも前に読み込めるように、JS [!DNL FLA] データ収集モジュールをページ上に配置するようにします。[!UICONTROL DIL] データ収集の準備ができる前に、[!DNL FLA] ファイルが最初に読み込まれると、[!UICONTROL Flash DIL] がそのモジュールに送信する最初のデータシグナルを見つけられない可能性があります。ただし、インスタンス化されれば、[!UICONTROL DIL] データ収集モジュールは、[!UICONTROL Flash DIL] によって渡される後続のすべての SWF ファイルデータをキャプチャします。
 
@@ -138,7 +138,7 @@ r_flash_dil_actionscript.xml
 >* このコードがサポートするパートナーインスタンス（`d.partner`）は、[!DNL Flash] オブジェクトごとに 1 つだけです。
    >
    >
-* Adobe [!UICONTROL AppMeasurement][!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
+* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
 
 
 ```js
@@ -156,7 +156,7 @@ s.loadModule(d);
 >
 >* [特性](../features/traits/trait-details-page.md)
 >* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
->* [キー値ペアの解説](../reference/key-value-pairs-explained.md)
+>* [キーと値のペアの解説](../reference/key-value-pairs-explained.md)
 >* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
->* [AppMeasurement Flash、Flex、OSMF 導入ガイド](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
+>* [AppMeasurement Flash、Flex、OSMF 導入ガイド](https://marketing.adobe.com/resources/help/ja_JP/sc/appmeasurement/flash/)
 
