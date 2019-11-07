@@ -5,7 +5,7 @@ seo-title: 宛先の作成
 solution: Audience Manager
 title: 宛先の作成
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 非シリアル URL 宛先{#create-nonserial-dest}の作成 
 
-単一のキー値ペア（例：`gender=male` や `gender=female`）で構成されるセグメントを受け入れる宛先を作成できる `POST` メソッド。
+単一のキーと値のペア（例：`gender=male` や `gender=female`）で構成されるセグメントを受け入れる宛先を作成できる `POST` メソッド。
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -410,5 +410,5 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >
 >* [宛先](../../../features/destinations/destinations.md)
 >* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
+>* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
 
