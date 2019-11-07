@@ -5,7 +5,7 @@ seo-title: 配信およびパフォーマンスレポート
 solution: Audience Manager
 title: 配信およびパフォーマンスレポート
 uuid: c8daa6bc-50d6-4c2c-a45a-5b7065fd88f9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
