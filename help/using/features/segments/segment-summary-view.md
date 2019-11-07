@@ -5,8 +5,8 @@ seo-title: セグメントの詳細ページ
 solution: Audience Manager
 title: セグメントの詳細ページ
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
-keywords: IDタイプの分類， IDの分類，オーディエンスIDレポート
-translation-type: tm+mt
+keywords: ID タイプの分類、ID の分類、オーディエンス ID レポート
+translation-type: ht
 source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
@@ -14,25 +14,25 @@ source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 # セグメントの詳細ページ {#segment-summary-view}
 
-個々のセグメントの詳細ページには、セグメント名、ID、パフォーマンス指標、セグメントを定義するルール、宛先マッピングなど、セグメントの詳細の概要が表示されます。 To view these details, go to **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Segments]** and click the name of the segment you want to work with.
+個々のセグメントの詳細ページには、セグメント名、ID、パフォーマンス指標、セグメントを定義するルール、宛先マッピングなど、セグメントの詳細の概要が表示されます。これらの詳細を表示するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Segments]** を選択し、対象となるセグメントの名前をクリックします。
 
 ## セグメント管理ツール {#segment-management-tools}
 
-セグメントの詳細ページの上部には、セグメントの管理に使用できるツールがあります。
+セグメントの詳細ページの上部に、セグメントを管理するために使用できるツールがあります。
 
-1. **[!UICONTROL Add New]**:このオプションを使用して、をアクティブにし、新 [!UICONTROL Segment Builder] しいセグメントを作成します。
-2. **[!UICONTROL Edit]**:このオプションを使用して、現在のセグメントの設定を変更します。
-3. **[!UICONTROL Duplicate]**:このオプションを使用して、現在のセグメントのコピーを作成します。
-4. **[!UICONTROL Delete]**:このオプションを使用して、Audience Managerアカウントから現在のセグメントを削除します。
-5. **[!UICONTROL Marketplace Recommendations]**:このオプションを使用すると、購読していないデータフィードから、表示しているセグ [!UICONTROL Audience Marketplace] メントと類似したセグメントを検索できます。 Marketplace内で [Marketplaceをナビゲートし](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) 、類似のセグメントを見つける方法については、Audience Marketplace for Data Buyersを参照してください。
+1. **[!UICONTROL Add New]**：このオプションを使用して、[!UICONTROL Segment Builder] をアクティブ化し、新規セグメントを作成します。
+2. **[!UICONTROL Edit]**：このオプションを使用して、現在のセグメントの設定を変更します。
+3. **[!UICONTROL Duplicate]**：このオプションを使用して、現在のセグメントのコピーを作成します。
+4. **[!UICONTROL Delete]**：このオプションを使用して、Audience Manager アカウントから現在のセグメントを削除します。
+5. **[!UICONTROL Marketplace Recommendations]**：このオプションを使用して、購読していない [!UICONTROL Audience Marketplace] データフィードから、表示しているセグメントに類似したセグメントを見つけます。Marketplace へのナビゲート方法および類似したセグメントを見つける方法について詳しくは、[データ購入者向けの Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) を参照してください。
 
-![基本セグメント情報](assets/basic-segment-information.png)
+![basic-segment-information](assets/basic-segment-information.png)
 
 ## セグメント情報 {#basics}
 
-セグメント管理ツールの下に、次のセグメント情報が表示されます。
+セグメント管理ツールの下部に、次のセグメント情報が表示されます。
 
-1. **[!UICONTROL Basic Information]：**&#x200B;セグメントが作成された際に指定された必須およびオプションの詳細を表示します。これらのフ [ィールドの意味について詳しくは、「セグメントビルダー](segment-builder.md) 」を参照してください。
+1. **[!UICONTROL Basic Information]：**&#x200B;セグメントが作成された際に指定された必須およびオプションの詳細を表示します。これらのフィールドが意味することの詳細な概要については、[セグメントビルダー](segment-builder.md)を参照してください。
 2. **[!UICONTROL Segment Graph]：**&#x200B;固定の 1、7、14、30、60、90 日間隔のグラフでパフォーマンスデータを表示します。セグメント母集団の数については、[別の記事](../../features/segments/segment-builder-data.md)で説明します。
 
    ![セグメントグラフ](assets/segment-graph.png)
@@ -45,7 +45,7 @@ source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
    >
    >Audience Manager では、セグメントに適合するクロスデバイス ID がある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
 
-   の概要については、以下のビデオをご覧くださ [!UICONTROL Identity Type Breakdown]い。
+   [!UICONTROL Identity Type Breakdown] の概要については、以下のビデオをご覧ください。
    >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=jpn)
 
 4. **[!UICONTROL Segment Rules]：**&#x200B;セグメントの特性を認定ルールと共にリストします。
