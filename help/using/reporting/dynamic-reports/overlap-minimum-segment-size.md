@@ -5,7 +5,7 @@ seo-title: 重複レポート：更新スケジュールと最小セグメント
 solution: Audience Manager
 title: 重複レポート：更新スケジュールと最小セグメントサイズ
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
