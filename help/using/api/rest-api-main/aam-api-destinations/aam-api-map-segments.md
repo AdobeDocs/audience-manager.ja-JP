@@ -5,7 +5,7 @@ seo-title: セグメントの宛先へのマッピング
 solution: Audience Manager
 title: セグメントの宛先へのマッピング
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -582,5 +582,5 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >
 >* [宛先](../../../features/destinations/destinations.md)
 >* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [キー値ペアの解説](../../../reference/key-value-pairs-explained.md)
+>* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
 
