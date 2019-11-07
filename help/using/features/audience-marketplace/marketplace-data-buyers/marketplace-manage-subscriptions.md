@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データフィードのサブスクリプションの管理
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -33,14 +33,14 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    ![](assets/plan-details.png)
 
 1. 購読テーブルからユースケースを選択し、以下の操作をおこないます。
-   * **[!UICONTROL Subscription]** スライダーを「**[!UICONTROL On]**」にします。
-   * 「**[!UICONTROL Review & Subscribe]**」をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
+   * **[!UICONTROL Subscription]** スライダーを&#x200B;**[!UICONTROL On]**&#x200B;にします。
+   * **[!UICONTROL Review & Subscribe]**&#x200B;をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
    ![](assets/subscribe3.png)
 
 1. [!UICONTROL Terms and Conditions] ウィンドウで、以下の手順に従ってください。
 
    * **重要：** チェックボックスはオンのまま&#x200B;**[!UICONTROL ID sync]**&#x200B;にしておきます。この設定により、データプロバイダーとの一致率が高くなります。
-   * 利用条件チェックボックスをオンにしてから「**[!UICONTROL Accept]**」をクリックし、購読手続きを完了します。
+   * 利用条件チェックボックスをオンにしてから&#x200B;**[!UICONTROL Accept]**&#x200B;をクリックし、購読手続きを完了します。
    ![](assets/subscribe4.png)
 
 ### 次の手順
@@ -51,7 +51,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 * 請求と支払いについてのドキュメントを確認します。後述の関連リンクを参照してください。
 
-## 非公開データフィードを購読する {#subscript-private-data-feed}
+## 非公開データフィードのサブスクリプション購入 {#subscript-private-data-feed}
 
 購入者は、**[!UICONTROL Audience Marketplace > Marketplace]** で、非公開データフィードおよびプランのサブスクリプションを購入します。
 
@@ -64,15 +64,15 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 非公開データフィードのサブスクリプションを購入するには：
 
 1. [!UICONTROL Marketplace] でデータフィード名をクリックします。
-1. 「**[!UICONTROL Request Access]**」をクリックします。リクエストダイアログボックスが開きます。
-1. リクエストダイアログボックスで、プロバイダー向けに、データフィードに興味があることを記したメモを記入し、「**[!UICONTROL Send]**」をクリックします。販売者はメッセージを確認し、リクエストを承認または拒否します。承認されるまでの間、「[!UICONTROL Marketplace]」リストではそのリクエストについて「Requested」と表示されます。
+1. **[!UICONTROL Request Access]**&#x200B;をクリックします。リクエストダイアログボックスが開きます。
+1. リクエストダイアログボックスで、プロバイダー向けに、データフィードに興味があることを記したメモを記入し、**[!UICONTROL Send]**&#x200B;をクリックします。販売者はメッセージを確認し、リクエストを承認または拒否します。承認されるまでの間、「[!UICONTROL Marketplace]」リストではそのリクエストについて「Requested」と表示されます。
 
-   * **[!UICONTROL Request approved]**：「[!UICONTROL Marketplace]」リストのステータスが「Access Granted」になり、自動通知が送信されます。この時点で、フィードを購読することができます。詳しくは、[公開データフィードのサブスクリプションの購入](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)を参照してください。
+   * **[!UICONTROL Request approved]**：「[!UICONTROL Marketplace]」リストのステータスが「Access Granted」になり、自動通知が送信されます。この時点で、フィードを購読することができます。詳しくは、[公開データフィードのサブスクリプション購入](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)を参照してください。
    * **[!UICONTROL Request denied]**：「[!UICONTROL Marketplace]」リストでそのフィードについて「Requested」の表示が削除されます。もう一度サブスクリプションの購入を試みるか、別のフィードを選択することができます。
 
 ## 購入者向けのデータフィードの割引 {#buyer-discount}
 
-[!UICONTROL Audience Marketplace] では、プロバイダーは、[!DNL CPM] または定額料金データフィードの公表価格の割引を購入者に提案できます。ただし、[!DNL Marketplace] のフィードリストでは、割引額は購入者に表示されません。しかし、非公開データフィードを購読する際、または特定のフィードに関する詳細情報をリクエストする際に、割引を求めることもできます。
+[!UICONTROL Audience Marketplace] では、プロバイダーは、[!DNL CPM] または定額料金データフィードの公表価格の割引を購入者に提案できます。ただし、[!DNL Marketplace] のフィードリストでは、割引額は購入者に表示されません。しかし、非公開データフィードのサブスクリプションを購読する際、または特定のフィードに関する詳細情報をリクエストする際に、割引を求めることもできます。
 
 ## 割引のリクエスト {#request-discount}
 
@@ -97,7 +97,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>非公開データフィードの新規購読者</b> </p> </td> 
-   <td colname="col2"> <p>購読リクエストで割引を申請します。詳しくは、<a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed">非公開データフィードを購読</a>を参照してください。 </p> </td>
+   <td colname="col2"> <p>購読リクエストで割引を申請します。詳しくは、<a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed">非公開データフィードのサブスクリプション購入</a>を参照してください。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Potential Subscribers</b> </p> </td> 
@@ -105,7 +105,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
      <li id="li_618B64160CF24549AFCA73E006DCA35A"><b><span class="uicontrol">Audience Marketplace／Marketplace</span></b> へ移動します。 </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">承認されているフィードの名前をクリックします。 </li> 
-     <li id="li_763C050AC9464BE380D00F6085B6E540">「<b><span class="uicontrol"> Request More Details</span></b>」をクリックします。販売者への詳細リクエストで割引をリクエストします。 </li> 
+     <li id="li_763C050AC9464BE380D00F6085B6E540"><b><span class="uicontrol"> Request More Details</span></b>をクリックします。販売者への詳細リクエストで割引をリクエストします。 </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -136,14 +136,14 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## データフィードの購読解除 {#unsubscribe}
 
-データ購入者は、**[!UICONTROL Audience Marketplace > Marketplace]Audience Marketplace／Marketplace** で、データフィードおよびプランの購読を解除します。
+データ購入者は、**[!UICONTROL Audience Marketplace > Marketplace]** で、データフィードおよびプランの購読を解除します。
 
 <!-- t_unsubscribe_feed.xml -->
 
 データフィードを購読解除するには：
 
 1. [!UICONTROL Marketplace] でデータフィード名をクリックします。
-1. 「[!UICONTROL Use Case]」セクションで、目的のプランを見つけ、**[!UICONTROL Subscription]** スライダーを「**[!UICONTROL Off]**」にします。
+1. 「[!UICONTROL Use Case]」セクションで、目的のプランを見つけ、**[!UICONTROL Subscription]** スライダーを&#x200B;**[!UICONTROL Off]**&#x200B;にします。
 
 ## データフィードの非アクティブ化：発生の理由と対応 {#data-feed-deactivation-reasons}
 
@@ -253,8 +253,8 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    * フィード内の特性の数
 
 1. プラン情報ボタン
-   * 「**[!UICONTROL Explore All Traits]**」をクリックすると、選択したデータフィード内のすべての特性に関する詳細が表示されます。
-   * 「**[!UICONTROL Request More Details]**」をクリックすると、データプロバイダーに選択したデータフィードについて質問したり、割引をリクエストしたりすることができます。この機能では、コメントや質問を直接データプロバイダーに送信することができます。
+   * **[!UICONTROL Explore All Traits]**&#x200B;をクリックすると、選択したデータフィード内のすべての特性に関する詳細が表示されます。
+   * **[!UICONTROL Request More Details]**&#x200B;をクリックすると、データプロバイダーに選択したデータフィードについて質問したり、割引をリクエストしたりすることができます。この機能では、コメントや質問を直接データプロバイダーに送信することができます。
 
 1. データフィードレポート指標の呼び出しの後におこなわれる場合です。ベン図（および関連指標）から、直近 30 日間の特性重複データがわかります。詳しくは、[Marketplace について](marketplace-data-buyers.md#about-marketplace)を参照してください。
    * **[!UICONTROL 30 Day Overlapped Uniques]**：プロバイダーのアカウントのユーザーと重複するアカウント内の個別ユーザーの数。一意のユーザーの定義については、「[Audience Manager の ID の インデックス](/help/using/reference/ids-in-aam.md)」の「AAM UUID」を参照してください。
@@ -264,8 +264,8 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 1. **[!UICONTROL Plan Details]** 表。次の表に、サブスクリプションを購入できるデータフィードのユースケースとその価格モデルを示します。[データフィードのユースケースについて](#use-cases)を参照してください。
 
 1. プランアクションボタン。
-   * 「**[!UICONTROL Cancel]**」をクリックすると、変更せずにページを終了します。
-   * データフィードのサブスクリプションを購入するには、「**[!UICONTROL Review & Subscribe]**」をクリックします。[!UICONTROL Subscription] トグルボタンを [!UICONTROL On] に切り替えるまで、このボタンは灰色に表示されます。[公開データフィードのサブスクリプションの購入](#subscript-public-data-feed)および[非公開データフィードを購読する](#subscript-private-data-feed)も参照してください。
+   * **[!UICONTROL Cancel]**&#x200B;をクリックすると、変更せずにページを終了します。
+   * データフィードのサブスクリプションを購入するには、**[!UICONTROL Review & Subscribe]**&#x200B;をクリックします。[!UICONTROL Subscription] トグルボタンを [!UICONTROL On] に切り替えるまで、このボタンは灰色に表示されます。[公開データフィードのサブスクリプション購入](#subscript-public-data-feed)および[非公開データフィードのサブスクリプション購入](#subscript-private-data-feed)も参照してください。
 
 ## データフィードのユースケースについて {#use-cases}
 
