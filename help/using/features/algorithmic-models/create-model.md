@@ -7,7 +7,7 @@ solution: Audience Manager
 title: アルゴリズムモデルの作成
 topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -35,18 +35,18 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### モデルの作成
 
-モデルを作成するには、「[!UICONTROL Models]」セクションで「**[!UICONTROL Add New]**」をクリックしてから、以下の手順に従ってください。
+モデルを作成するには、「[!UICONTROL Models]」セクションで&#x200B;**[!UICONTROL Add New]**&#x200B;をクリックしてから、以下の手順に従ってください。
 
 1. 「[Basic Information](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
    * モデルの名前を指定します。
    * *（オプション）*&#x200B;モデルについての簡単な説明を入力します。
-   * モデルのステータスを「**[!UICONTROL Active]**」または「**[!UICONTROL Inactive]**」に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
+   * モデルのステータスを&#x200B;**[!UICONTROL Active]**&#x200B;または&#x200B;**[!UICONTROL Inactive]**&#x200B;に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
 1. 「[Configuration](../../features/algorithmic-models/create-model.md#configuration)」セクションで次の操作をおこないます。
-   * 「**[!UICONTROL Browse All Traits]**」または「**[!UICONTROL Browse All Segments]**」をクリックして、モデルの作成対象となる特性またはセグメントを選択します。オンボードの特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。
+   * **[!UICONTROL Browse All Traits]**&#x200B;または&#x200B;**[!UICONTROL Browse All Segments]**&#x200B;をクリックして、モデルの作成対象となる特性またはセグメントを選択します。オンボードの特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。
    * 30 日、60 日または 90 日のルックバック期間を選択します。これにより、モデルの時間範囲が設定されます。
    * デフォルトでは [!UICONTROL TraitWeight] アルゴリズムが選択されています。
    * 「[!UICONTROL Available Data]」リストからデータソースを選択します。
-   * 終了したら、「**[!UICONTROL Save]**」をクリックします。
+   * 終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## アルゴリズムの基本情報 {#basic-information}
 
