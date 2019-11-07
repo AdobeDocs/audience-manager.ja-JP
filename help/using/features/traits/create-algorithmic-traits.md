@@ -5,7 +5,7 @@ seo-title: アルゴリズム特性の作成
 solution: Audience Manager
 title: アルゴリズム特性の作成
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -17,14 +17,14 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 アルゴリズム特性を作成するには、「[!UICONTROL Traits]」に移動して、以下の手順に従ってください。
 
-1. 「**[!UICONTROL Create New Trait]**」をクリックして、ドロップダウンメニューから「**[!UICONTROL Algorithmic]**」を選択します。
+1. **[!UICONTROL Create New Trait]**&#x200B;をクリックして、ドロップダウンメニューから&#x200B;**[!UICONTROL Algorithmic]**&#x200B;を選択します。
 1. 「[Basic Information](../../features/traits/create-onboarded-rule-based-traits.md)」セクションで、以下の操作をおこないます。
    * 特性の名前を設定します。
    * データソースを選択します。
    * 保存フォルダーを選択します。
-1. 「[!UICONTROL Configuration]」パネルを展開し、「**[!UICONTROL Browse All Models]**」をクリックします。新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
-1. モデルを選択して、「**[!UICONTROL Add Selected Model to Trait]**」をクリックします。モデルを追加すると、リーチと精度の設定が表示されます。
-1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。終了したら、「**[!UICONTROL Save]**」をクリックします。
+1. 「[!UICONTROL Configuration]」パネルを展開し、**[!UICONTROL Browse All Models]**&#x200B;をクリックします。新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
+1. モデルを選択して、**[!UICONTROL Add Selected Model to Trait]**&#x200B;をクリックします。モデルを追加すると、リーチと精度の設定が表示されます。
+1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## アルゴリズム特性{#configure-settings}の設定 
 
@@ -42,7 +42,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 | インターフェイス要素 | 説明 |
 |---|---|
-| **[!UICONTROL Select Model for Algorithmic Trait]** | 「**[!UICONTROL Update]**」ボタンをクリックして、モデルウィンドウを開きます。このウィンドウで、特性の作成に使用するアルゴリズムモデルを選択します。 |
+| **[!UICONTROL Select Model for Algorithmic Trait]** | **[!UICONTROL Update]**&#x200B;ボタンをクリックして、モデルウィンドウを開きます。このウィンドウで、特性の作成に使用するアルゴリズムモデルを選択します。 |
 | **[!UICONTROL Select Goal Accuracy]** | 精度に基づいて特性を作成する場合にこのオプションを選択します。精度は、潜在的なユーザーがベースラインにどれだけ近いかを示すスコア値です。精度の範囲は 0（最も低い精度）から 1（最も高い精度）の間となります。 |
 | **[!UICONTROL Reach and Accuracy Data Columns]** | このセクションは右側にあり、モデルの精度とリーチ値を表す数値データを最大 21 行表示します。 |
 | **[!UICONTROL Reach and Accuracy Slider]** | このスライダーはグラフの下にあり、リーチや精度の目標を示す数値を設定できます。スライダーを設定してから、リーチまたは精度目標ボタンを選択し、特性を作成します。 |
