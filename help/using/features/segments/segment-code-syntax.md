@@ -5,7 +5,7 @@ seo-title: セグメント式エディターで使用するコード構文
 solution: Audience Manager
 title: セグメント式エディターで使用するコード構文
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 # セグメント式エディターで使用するコード構文 {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] では、コードエディターを使用して、セグメント用の特性ルールを作成できます。[!UICONTROL Traits] パネルの「**[!UICONTROL Segment Expressions (Code View)]**」タブをクリックすると、この機能にアクセスできます。
+[!UICONTROL Segment Builder] では、コードエディターを使用して、セグメント用の特性ルールを作成できます。[!UICONTROL Traits] パネルの&#x200B;**[!UICONTROL Segment Expressions (Code View)]**&#x200B;タブをクリックすると、この機能にアクセスできます。
 
 ## 式ビルダーのコード構文
 
