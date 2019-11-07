@@ -4,7 +4,7 @@ seo-description: Destination Builder の「Configuration」セクションには
 seo-title: Cookie の宛先のオプション設定
 solution: Audience Manager
 title: Cookie の宛先のオプション設定
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
@@ -36,12 +36,12 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
       <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">ドメインの名前を「<span class="wintitle">Cookie Domain</span>」フィールドに入力します。 </li> 
       <li id="li_0471C198EE344DE5963A3C2F70B9E78B">ドメイン名をピリオドで始めます。次に例を示します。<code> .somedomain.com</code> </li> 
-      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">The <code> https://www</code> prefix is not required. </li> 
+      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0"><code> https://www</code> プレフィックスは不要です。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>例</b> </p> </td> 
-   <td colname="col2"> <p>簡単な例として、sports.com という架空のサイトがあるとしましょう。sports.com には、ゴルフ、野球、サッカー用のドメインがあります。すべてのスポーツドメインで Cookie を設定するには、「<span class="wintitle">Cookie Domain</span>」ボックスに次のように入力します。 </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>この結果、<span class="keyword"> Audience Manager</span> は、「<code><i>something</i></code>.sports.com」のパターンを含むすべてのドメインに対して Cookie を設定します。もっと複雑な例については、以下を参照してください。 </p> </td> 
+   <td colname="col2"> <p>簡単な例として、sports.com という架空のサイトがあるとしましょう。sports.com には、ゴルフ、野球、サッカー用のドメインがあります。すべてのスポーツドメインで Cookie を設定するには、「<span class="wintitle">Cookie Domain</span>」ボックスに次のように入力します。 </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>この結果、<span class="keyword">Audience Manager</span> は、「<code><i>something</i></code>.sports.com」のパターンを含むすべてのドメインに対して Cookie を設定します。もっと複雑な例については、以下を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
