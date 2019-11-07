@@ -5,7 +5,7 @@ seo-title: アクティブオーディエンス特性とデータソース同期
 solution: Audience Manager
 title: アクティブオーディエンス特性とデータソース同期特性
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
