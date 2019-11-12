@@ -6,7 +6,7 @@ seo-title: Audience Manager で使用される ID の一覧
 solution: Audience Manager
 title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7d168c754a9b99dfd88718a0c27c34f3c1dc61d5
 
 ---
@@ -19,9 +19,9 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
 | ID | 名前と説明 | 例 |
 |---|---|---|
 | [!DNL AAM UUID] | Audience Manager の一意のユーザー ID数値型で 38 桁のデバイス ID。Audience Manager はこの値を、操作するデバイスのそれぞれに関連付けます。Audience Manager UIで一意のユーザーのメンションが表示される場合は常に、この ID を考慮してください。Audience Manager はこの ID を、「`demdex.net`」サードパーティドメインの cookie として保存します。Audience Manager UUID は、イベント呼び出しで `d_uuid` シグナルとして送信されます。 | `demdex = 07955261652886032950143702505894272138` |
-| [!DNL ImsOrgId] | 組織 ID。会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織 IDを 検索する方法については、「[組織 ID の検索](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)」を参照してください。 | `5DC5123F5245B1D20A490D46@AdobeOrg` |
+| [!DNL ImsOrgId] | 組織 ID。会社が Experience Cloud にサインアップする際に生成される ID です。会社の組織 IDを 検索する方法については、「[組織 ID の検索](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)」を参照してください。 | `5DC5123F5245B1D20A490D46@AdobeOrg` |
 | PID | パートナー ID。PID は、Audience Manager での会社の ID です。Audience Manager は [!DNL imsOrgId] を [!DNL PID] に関連付けます。 | `1352` |
-| [!DNL ECID]、[!DNL MID] | Experience Cloud ID。Experience Cloud ID（[!DNL ECID]、以前の略称 [!DNL MID] または [!DNL MCID]）は、組織 ID と  Audience Manager の一意のユーザー ID から数学的に生成されます。これらの ID が変わらない限り、特定のユーザーに関する正しい [!DNL ECID] を生成できるかどうかは、単純に計算上の問題になります。同じ組織 ID と Audience Manager [!DNL UUID] があれば、いつでも同じ [!DNL ECID] 値が得られます。ECID について詳しくは、[Cookies と Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html) のドキュメントを参照してください。 | `mid = 08382830887934830189014177072406221371` |
+| [!DNL ECID]、[!DNL MID] | Experience Cloud ID。Experience Cloud ID（[!DNL ECID]、以前の略称 [!DNL MID] または [!DNL MCID]）は、組織 ID と Audience Manager の一意のユーザー ID から数学的に生成されます。これらの ID が変わらない限り、特定のユーザーに関する正しい [!DNL ECID] を生成できるかどうかは、単純に計算上の問題になります。同じ組織 ID と Audience Manager [!DNL UUID] があれば、いつでも同じ [!DNL ECID] 値が得られます。ECID について詳しくは、[Cookies と Experience Cloud ID](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html) のドキュメントを参照してください。 | `mid = 08382830887934830189014177072406221371` |
 | [!DNL SID] | 特性 ID。特性 ID は、Audience Manager 環境内の特性を一意に識別します。ユーザーインターフェイス（UI）の各特性に特性 ID が割り当てられます。 | `289983` |
 | SID | Segment ID。セグメント ID は、Audience Manager 環境内のセグメントを一意に識別します。UI の各セグメントにセグメント ID が割り当てられます。 | `4798574` |
 | [!DNL csegID] | レガシーセグメント ID。この ID は、Audience Manager 環境内のセグメントを一意に識別します。UI の各セグメントにレガシーセグメント ID が割り当てられます。 | `741232` |
@@ -34,13 +34,13 @@ Adobe Audience Manager の ID の詳細なリストについては、このド�
 
 ## グローバルデバイス ID {#global-device-ids}
 
-グローバルデバイス ID は、デバイスの製造元またはオペレーティングシステムが提供する、各デバイスに固有のデバイス広告 ID です。次の表に、これらの ID の内容と形式を示します。グローバルデバイスIDとAudience Managerでの使用方法について詳しくは、グローバルデータソースを [参照してください](/help/using/features/global-data-sources.md)。
+グローバルデバイス ID は、デバイスの製造元またはオペレーティングシステムが提供する、各デバイスに固有のデバイス広告 ID です。次の表に、これらの ID の内容と形式を示します。グローバルデバイス ID の概要と Audience Manager での使用方法について詳しくは、[グローバルデータソース](/help/using/features/global-data-sources.md)を参照してください。
 
-| ID | グローバルデータソースID | 名前と説明 | 例 |
+| ID | グローバルデータソース ID | 名前と説明 | 例 |
 | --------------------- | ------ | ------------ | ---------------- |
-| [!DNL IDFA] | 20915 | [!DNL Identifier for Advertisers] ID はモバイルデバイス識別子で、デバイスの製造元により設定されます。この ID は iOS オペレーティングシステムを使用するデバイスを表します。 | 形式は厳密に 32 文字の大文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br> 例: `AEBE52E7-03EE-455A-B3C4-E57283966239`。 |
-| [!DNL GAID] | 20914 | [!DNL Google Advertising ID] はモバイルデバイス識別子で、Android デバイスの製造元により設定されます。これらの ID は [!DNL Android] オペレーティングシステムを使用するデバイスを表します。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`。 |
-| [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] は、[!DNL Roku] ストリーミングデバイスを表します。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例: `fcb2a29c-315a-5e6b-bcfd-d889ba19aada`。 |
+| [!DNL IDFA] | 20915 | [!DNL Identifier for Advertisers] ID はモバイルデバイス識別子で、デバイスの製造元により設定されます。この ID は iOS オペレーティングシステムを使用するデバイスを表します。 | 形式は厳密に 32 文字の大文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`AEBE52E7-03EE-455A-B3C4-E57283966239`。 |
+| [!DNL GAID] | 20914 | [!DNL Google Advertising ID] はモバイルデバイス識別子で、Android デバイスの製造元により設定されます。これらの ID は [!DNL Android] オペレーティングシステムを使用するデバイスを表します。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`e4fe9bde-caa0-47b6-908d-ffba3fa184f2`。 |
+| [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] は、[!DNL Roku] ストリーミングデバイスを表します。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`fcb2a29c-315a-5e6b-bcfd-d889ba19aada`。 |
 | [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID] は、デバイスごと、ユーザーごとに [!DNL Windows 10] で生成されるデバイス識別子です。 | [!DNL MAID] は英数字の形式です。 |
 | [!DNL DUID] | 404660 | [!DNL Samsung DUID] は、Samsung Smart TV が提供するデバイス識別子です。 | Samsung [!DNL DUID] は英数字の形式です。 |
-| [!DNL Amazon Fire TV Advertising ID] | 488258 | Device identifiers representing devices running the [!DNL Fire OS] operating system. | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`df07c7dc-cea7-4a89-b328-810ff5acb15d` |
+| [!DNL Amazon Fire TV Advertising ID] | 488258 | [!DNL Fire OS] オペレーティングシステムを実行しているデバイスを表すデバイス識別子。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`df07c7dc-cea7-4a89-b328-810ff5acb15d` |
