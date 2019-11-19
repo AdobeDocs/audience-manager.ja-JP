@@ -5,7 +5,7 @@ seo-title: 送信テンプレートマクロ
 solution: Audience Manager
 title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
 
 ---
@@ -41,7 +41,7 @@ source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NEW_LINE </code> </p> </td> 
-   <td colname="col2"> <p> アウトバウンド注文の複数行ヘッダーの作成を許可します。 </p> </td> 
+   <td colname="col2"> <p> アウトバウンド注文での複数行ヘッダーの作成を許可します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ORDER_ID </code> </p> </td> 
