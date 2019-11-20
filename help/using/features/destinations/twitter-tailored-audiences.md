@@ -4,24 +4,23 @@ seo-description: この記事では、新しい統合と既存の統合の両方
 seo-title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 solution: Audience Manager
 title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
-translation-type: ht
-source-git-commit: 7966cac59b982b5f36af6975607df64545b74058
+translation-type: tm+mt
+source-git-commit: 4af2d7a4e2162f8d69273cf76aecb5f1ff00e7b6
 
 ---
 
 
 # [!DNL Twitter Tailored Audiences] をセルフサービスデバイスベースの宛先として設定する {#configure-twitter}
 
-この記事では、新しい統合と既存の統合の両方について、[Twitter 用にカスタマイズされたオーディエンス](https://business.twitter.com/ja/targeting/tailored-audiences.html)を設定する方法について説明します。
+この記事では、 [Twitter Cloudオーディエンスとの統合を設定する方法を説明します](https://business.twitter.com/en/targeting/tailored-audiences.html)。
 
 ## 前提条件 {#prerequisites}
 
 [!DNL Twitter Tailored Audiences] の宛先を設定する前に満たす必要がある、以下の Twitter の前提条件を確認してください。
 
 1. [!DNL Twitter Ads] アカウントは広告を利用する資格を持っている必要があります。新規 [!DNL Twitter Ads] アカウントは、最初に作成してから 2 習慣の間は、広告を利用する資格がありません。
-1. Audience Manager でアクセス権限を付与した Twitter ユーザーアカウントで、[パートナーオーディエンスマネージャー](https://business.twitter.com/ja/help/troubleshooting/multi-user-login-faq.html#accesslevels)権限を有効化しておく必要があります。
-1. [既存の Twitter 統合をセルフサービス管理にアップデートする](#update-existing-twitter-integrations)場合は、Twitter ユーザーアカウントで[広告マネージャー](https://business.twitter.com/ja/help/troubleshooting/multi-user-login-faq.html#accesslevels)権限を有効にしておく必要があります。
-1. Audience Manager インスタンスで最初の [!DNL Twitter Tailored Audiences] の宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、お使いのアカウントの [!DNL Twitter] ID 同期（データソース ID = 1123）を有効にしてください。これは、Audience Manager と [!DNL Twitter] の間で正しい同期を行うために必要です。
+2. Audience Managerでア [!DNL Twitter] クセスを承認したユーザーアカウントで、パートナーのAudience Manager権限が有効にな [っている](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 必要があります。
+3. Audience Manager インスタンスで最初の [!DNL Twitter Tailored Audiences] の宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、お使いのアカウントの [!DNL Twitter] ID 同期（データソース ID = 1123）を有効にしてください。これは、Audience Manager と [!DNL Twitter] の間で正しい同期を行うために必要です。
 
 ## 新しい [!DNL Twitter Tailored Audiences] の宛先の追加 {#add-new-twitter-destination}
 
@@ -52,26 +51,27 @@ Audience Manager と [!DNL Twitter Tailored Audiences] をリンクさせたら�
 1. **[!DNL Segment Mappings]** セクションで、この宛先に送信するオーディエンスセグメントを選択します。
 1. 宛先を保存します。
 
-## 既存の Twitter 統合をセルフサービス管理にアップデート {#update-existing-twitter-integrations}
+<!--
+## Update Existing Twitter Integrations To Self-Service Administration {#update-existing-twitter-integrations}
 
-ユーザーエクスペリエンスを向上し、設定プロセスを効率化するために、[!DNL Twitter Tailored Audiences] を、Audience Manager UI から自身で設定できるセルフサービスモデルへと独自の設定を行うセルフサービスモデルへとアップグレードします。ここでは、既存の Twitter 統合をアップデートするために必要な手順について説明します。
+To improve the user experience and streamline the configuration process, we are upgrading the [!DNL Twitter Tailored Audiences] integration to a self-service model, where you can perform the configuration yourself, from the Audience Manager UI. This section describes the steps you need to take to update your existing Twitter integration.
 
 >[!IMPORTANT]
 >
->以下の手順は、Audience Manager コンサルタントまたはカスタマーケアによって設定された、[!DNL Twitter Tailored Audiences] との既存の統合がある場合にのみ適用されます。
-> [!DNL Twitter Tailored Audiences] をセルフサービスモデルに移行する前に、[前提条件](#prerequisites)の項目番号 3 を確認してください。
+>The steps described below only apply if you have an existing integration with [!DNL Twitter Tailored Audiences], configured by an Audience Manager consultant or Customer Care.
+> See item number 3 in [Prerequisites](#prerequisites) before migrating your [!DNL Twitter Tailored Audiences] to the self-service model.
 
-次の手順に従って、既存 [!DNL Twitter Tailored Audiences] の宛先をセルフサービスモデルに移行します。
+Follow the steps below to migrate your existing [!DNL Twitter Tailored Audiences] destination to the self-service model.
 
-1. Audience Manager アカウントにログインして、**[!DNL Administration > Integrated Accounts]** に移動します。
-1. **[!DNL Add Account]**&#x200B;をクリックします。
-1. 認証ページにリダイレクトするには、[!DNL Twitter Tailored Audiences]を選択してから&#x200B;**[!DNL Confirm]**&#x200B;をクリックします。![integrated-platforms](assets/dbd-integrated-platforms.png)
-1. [!DNL Twitter] アカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、**[!DNL Confirm]**&#x200B;をクリックします。
-1. **[!UICONTROL Audience Data]**／**[!UICONTROL Destinations]** に移動し、設定する必要のある Twitter の宛先をクリックします。
-1. **[!UICONTROL Edit]**&#x200B;をクリックします。**[!UICONTROL Basic Information]** セクションで **[!UICONTROL Integrated Account]** ドロップダウンメニューをクリックし、手順 4 で認証した [!DNL Twitter] アカウントを選択します。
-1. **[!UICONTROL Save]** 宛先です。
+1. Log in to your Audience Manager account and go to **[!DNL Administration > Integrated Accounts]**.
+2. Click **[!DNL Add Account]**.
+3. Select [!DNL Twitter Tailored Audiences] and click **[!DNL Confirm]** to be redirected to the authentication page. ![integrated-platforms](assets/dbd-integrated-platforms.png)
+4. Once you've authenticated with your [!DNL Twitter] account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!DNL Confirm]**.
+5. Go to **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** and click the Twitter destination that you need to configure.
+6. Click **[!UICONTROL Edit]**. In the **[!UICONTROL Basic Information]** section, click the **[!UICONTROL Integrated Account]** drop-down menu and select the [!DNL Twitter] account that you have authenticated with at Step 4.
+7. **[!UICONTROL Save]** the destination.
 
-<!-- ## Validating the Migration to Self-Service Administration {#migration-validation}
+## Validating the Migration to Self-Service Administration {#migration-validation}
 
 The complete migration of existing [!DNL Twitter] integrations to self-service administration can take up to 7 days. Once the migration is complete, Audience Manager shows you a notification in the UI.
 
@@ -79,10 +79,10 @@ You will also see a new set of audiences in your [!DNL Twitter] account, with th
 
 ## セグメントマッピングに関する考慮事項 {#segment-mapping-considerations}
 
-オーディエンスセグメントを Twitter にマッピングする場合は、以下のセグメント命名要件を満たしていることを確認してください。
+When mapping audience segments to [!UICONTROL Twitter], make sure to meet the following segment naming requirements:
 
 * 人間が読み取り可能なセグメントマッピング名を指定する。Audience Manager セグメントに使用したものと同じ名前を使用することをお勧めします。
-* セグメントおよびセグメントマッピング名ではコンマを使用しない。
+* Do not use special characters (`,` `%` `:` `;` `@` `/` `=` `?` `$`) in segment and segment mapping names. Audience Managerのセグメント名にこれらの文字が含まれている場合は、セグメントを宛先にマッピングする前に、これらの文字を削除してく [!UICONTROL Twitter] ださい。
 
 ### 例
 
@@ -95,4 +95,5 @@ You will also see a new set of audiences in your [!DNL Twitter] account, with th
 
 ## マッチ率に関する考慮事項 {#match-rates-considerations}
 
-[!UICONTROL Twitter Tailored Audiences] を使用する場合、宛先ページの [!UICONTROL Segment Addressable Audience] と [!UICONTROL Segment Match Rate] の指標niha値が表示されません。この宛先のマッチ率で一致するオーディエンスは、アドビではなく、[!UICONTROL Twitter] によって処理およびホストされるので、これは通常の動作です。
+* [!UICONTROL Twitter Tailored Audiences] を使用する場合、宛先ページの [!UICONTROL Segment Addressable Audience] と [!UICONTROL Segment Match Rate] の指標niha値が表示されません。この宛先のマッチ率で一致するオーディエンスは、アドビではなく、[!UICONTROL Twitter] によって処理およびホストされるので、これは通常の動作です。
+* 現在、Audience Managerとの統合では、履歴オーディエンスのバ [!UICONTROL Twitter Tailored Audiences] ックフィルはサポートされていません。 つまり、セグメントがTwitterの宛先にマッピ *ングされた* 後に発生するセグメントの資格のみが、リアルタイムで [!UICONTROL Twitter] 送信されます。
