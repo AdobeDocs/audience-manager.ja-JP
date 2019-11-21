@@ -4,8 +4,8 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-translation-type: ht
-source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
+translation-type: tm+mt
+source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
 
 ---
 
@@ -69,7 +69,7 @@ source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
 
-Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)」を参照してください。
+Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html)」を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
@@ -77,7 +77,7 @@ Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID を�
 
 [!DNL People-Based Destinations] に新規登録する前に必ず、顧客の同意を得てから広告目的で顧客の情報を使用するようにしてください。
 
-広告キャンペーンのオプトアウトをおこなう場合は、Audience Manager を停止してそれ以降のデータを収集する停止方法について詳しくは、「[オプトアウト管理](../../overview/data-security-and-privacy/opt-out-management.md)」を参照してください。
+広告キャンペーンのオプトアウトをおこなう場合は、Audience Manager を停止してそれ以降のデータを収集する停止方法について詳しくは、「[オプトアウト管理](../../overview/data-security-and-privacy/data-privacy-requests.md)」を参照してください。
 
 ## ファーストパーティデータのアクティブ化を強制する {#enforcing-first-party-activation}
 
