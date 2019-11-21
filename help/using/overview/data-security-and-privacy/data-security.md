@@ -1,17 +1,17 @@
 ---
 description: Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
 seo-description: Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
-seo-title: データのセキュリティ
+seo-title: データのセキュリティ （Audience Manager内）
 solution: Audience Manager
-title: データのセキュリティ
+title: Audience Managerのデータセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-translation-type: ht
-source-git-commit: 34884e3212d50237c73fdc6aa163d90c29a642f5
+translation-type: tm+mt
+source-git-commit: 1d606cf8ac8cf7b78a7ddf661e9a6d2ce32df71e
 
 ---
 
 
-# データのセキュリティ {#data-security}
+# Data Security in Audience Manager {#data-security}
 
 Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
 
@@ -90,4 +90,4 @@ PGP 暗号化をデータファイルに追加するには、[受信データタ
 
 `yourcompany.demdex.com` ドメインが [!DNL HTTP] 経由で [!DNL DCS] にトラフィックを送信するとします。[!DNL HSTS] は、代わりに [!DNL HTTPS] を使用するように呼び出しをアップグレードし、以降の `yourcompany.demdex.com` からの [!DNL DCS] 呼び出しではすべて、[!DNL HTTP] の代わりに [!DNL HTTPS] を使用します。
 
-HSTS について詳しくは、「[HTTP Strict Transport Security - Wikipedia](https://ja.wikipedia.org/wiki/HTTP_Strict_Transport_Security)」を参照してください。
+HSTSの詳細については [、「HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) 」を参照してください。
