@@ -2,11 +2,11 @@
 description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
 seo-description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
 seo-title: Adobe Audience Manager テクノロジーパートナー
-keywords: アクティブ化、アクティベートパートナー、宛先、宛先
+keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager テクノロジーパートナー
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 
 ---
 
@@ -18,8 +18,8 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 <br> 
 
 * **更新日** = このアクティベートパートナーの更新があった最近の日付が表示されます。
-* **セグメント解除** = セグメント化解除とは、デバイスプロファイルを不適格としてセグメントから削除するプロセスのことです。デバイスプロファイルをセグメントから削除できるかどうかは、プロファイル結合ルールの作成時に使用したデバイスオプションによって異なります。セグメント化解除は、GDPR の削除リクエストでも使用されます。[プロファイル結合ルールとデバイスセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)および[セグメント解除に対応している Audience Manager パートナー](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation).をお読みください。Audience Manager は、以下の「はい」とマークされている宛先にセグメント情報を送信します。
-* **IAB TCF 同意シグナルの受信** = IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TCF のコンセントストリングをアクティベーションパートナーに転送できます。[IAB TCF 用 Audience Manager プラグイン](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners)をお読みください。
+* **セグメント解除** = セグメント化解除とは、デバイスプロファイルを不適格としてセグメントから削除するプロセスのことです。デバイスプロファイルをセグメントから削除できるかどうかは、プロファイル結合ルールの作成時に使用したデバイスオプションによって異なります。セグメント化解除は、GDPR の削除リクエストでも使用されます。[プロファイル結合ルールとデバイスセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)および[セグメント解除に対応している Audience Manager パートナー](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation).をお読みください。Audience Manager は、以下の「はい」とマークされている宛先にセグメント情報を送信します。
+* **IAB TCF 同意シグナルの受信** = IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TCF のコンセントストリングをアクティベーションパートナーに転送できます。[IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners)をお読みください。
 * **ICDS** = この列には、Instant Cross-Device Suppression をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **モバイルデバイス ID** = この列には、Audience Manager からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 
