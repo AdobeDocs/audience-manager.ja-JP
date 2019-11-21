@@ -1,10 +1,10 @@
 ---
 product: audience-manager
 audience: end-user
-user-guide-title: Audience Manager ユーザーガイド
+user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+translation-type: tm+mt
+source-git-commit: a5411ff8ff852cc02607e4a624075bf0e1828ee9
 
 ---
 
@@ -15,16 +15,20 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
-   + データのセキュリティとプライバシー {#data-security-and-privacy}
-      + [概要](overview/data-security-and-privacy/data-security-privacy-overview.md)
-      + [データのセキュリティ](overview/data-security-and-privacy/data-security.md)
-      + [データのプライバシー](overview/data-security-and-privacy/data-privacy.md)
-      + [オプトアウト管理](overview/data-security-and-privacy/opt-out-management.md)
-   + 一般データ保護規則（GDPR） {#gdpr}
-      + [Audience Manager の GDPR 対応](overview/aam-gdpr/aam-gdpr-details.md)
-      + [宛先の GDPR に関する考慮事項](overview/aam-gdpr/aam-gdpr-partners.md)
-      + [GDPR に関するよくある質問](overview/aam-gdpr/aam-gdpr-faq.md)
-      + [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+   + [データのセキュリティ](overview/data-security-and-privacy/data-security.md)
+   + データのプライバシー {#data-privacy}
+      + [データプライバシーの概要](overview/data-security-and-privacy/data-privacy.md)
+      + [データプライバシーリクエスト](overview/data-security-and-privacy/data-privacy-requests.md)
+      + データプライバシーリファレンス {#data-privacy-reference}
+         + [Audience Manager 識別子](overview/data-security-and-privacy/data-privacy-ids.md)
+         + [CCPA用語集](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+         + [GDPR の用語集](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [宛先の GDPR に関する考慮事項](overview/data-security-and-privacy/aam-gdpr-partners.md)
+         + [Audience Managerのお客様向けGDPR対応ガイダンス](overview/data-security-and-privacy/aam-gdpr-readiness.md)
+      + 同意管理 {#consent-management}
+         + [同意管理](overview/data-security-and-privacy/data-privacy-consent.md)
+         + [IAB TCF 用 Audience Manager プラグイン](overview/data-security-and-privacy/aam-iab-plugin.md)
+   + [データガバナンス](overview/data-security-and-privacy/data-governance.md)
 + 機能 {#features}
    + [アドレス可能なオーディエンス](features/addressable-audiences.md)
    + 管理 {#administration}
@@ -323,8 +327,8 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
    + 他のExperience Cloudソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Audience Management モジュールの実装](integration/integration-other-solutions/audience-management-module.md)
-      + [サーバーサイド転送（管理ガイド）](https://docs.adobe.com/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
-      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [サーバーサイド転送（管理ガイド）](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
