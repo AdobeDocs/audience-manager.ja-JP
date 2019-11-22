@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 9f72ad7132f698458acf8a552d8e74195300b4d9
+source-git-commit: 4cebba536cd44b7ef72f5b16cf5deeeea3445e0b
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 9f72ad7132f698458acf8a552d8e74195300b4d9
   <tr> 
    <td colname="col1"> <p> <b>新しいトピックおよび注目すべきトピック</b> </p> <p>Audience Manager の最新機能については、以下を参照してください。</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="overview/data-security-and-privacy/data-privacy.md">カリフォルニア消費者プライバシー法(CCPA)のサポートとプライバシーの見直し</a></li>
+     <li><a href="overview/data-security-and-privacy/data-privacy.md">カリフォルニア消費者プライバシー法(CCPA)のサポートとプライバシーに関するドキュメントの見直し</a></li>
      <li><a href="features/segments/trait-recommendations.md">Adobe Sensei を駆使した、Audience Marketplace データのインテリジェントなレコメンデーション</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">プロファイル結合ルールの強化</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">一括管理ツールのアップデート</a></li>
