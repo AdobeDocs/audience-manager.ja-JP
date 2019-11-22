@@ -4,7 +4,7 @@ seo-description: この記事では、新しい統合と既存の統合の両方
 seo-title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 solution: Audience Manager
 title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0f1ab99b648dd6e1eda5f2e5b6bd1f620c0331ee
 
 ---
@@ -12,14 +12,14 @@ source-git-commit: 0f1ab99b648dd6e1eda5f2e5b6bd1f620c0331ee
 
 # [!DNL Twitter Tailored Audiences] をセルフサービスデバイスベースの宛先として設定する {#configure-twitter}
 
-この記事では、 [Twitter Cloudオーディエンスとの統合を設定する方法を説明します](https://business.twitter.com/en/targeting/tailored-audiences.html)。
+この記事では、[Twitter Cloud Audiences](https://business.twitter.com/ja/targeting/tailored-audiences.html) との統合を設定する方法を説明します。
 
 ## 前提条件 {#prerequisites}
 
 [!DNL Twitter Tailored Audiences] の宛先を設定する前に満たす必要がある、以下の Twitter の前提条件を確認してください。
 
 1. [!DNL Twitter Ads] アカウントは広告を利用する資格を持っている必要があります。新規 [!DNL Twitter Ads] アカウントは、最初に作成してから 2 習慣の間は、広告を利用する資格がありません。
-2. Audience Managerでア [!DNL Twitter] クセスを承認したユーザーアカウントで、パートナーのAudience Manager権限が有効にな [っている](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) 必要があります。
+2. Audience Manager でアクセスを承認した [!DNL Twitter] ユーザーアカウントで、[パートナーの Audience Manager](https://business.twitter.com/ja/help/troubleshooting/multi-user-login-faq.html#accesslevels) 権限が有効になっている必要があります。
 3. Audience Manager インスタンスで最初の [!DNL Twitter Tailored Audiences] の宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、お使いのアカウントの [!DNL Twitter] ID 同期（データソース ID = 1123）を有効にしてください。これは、Audience Manager と [!DNL Twitter] の間で正しい同期を行うために必要です。
 
 ## 新しい [!DNL Twitter Tailored Audiences] の宛先の追加 {#add-new-twitter-destination}
@@ -79,10 +79,10 @@ You will also see a new set of audiences in your [!DNL Twitter] account, with th
 
 ## セグメントマッピングに関する考慮事項 {#segment-mapping-considerations}
 
-When mapping audience segments to [!UICONTROL Twitter], make sure to meet the following segment naming requirements:
+オーディエンスセグメントを [!UICONTROL Twitter] にマッピングする場合は、以下のセグメント命名要件を満たしていることを確認してください。
 
 * 人間が読み取り可能なセグメントマッピング名を指定する。Audience Manager セグメントに使用したものと同じ名前を使用することをお勧めします。
-* Do not use special characters (`,` `%` `:` `;` `@` `/` `=` `?` `$`) in segment and segment mapping names. Audience Managerのセグメント名にこれらの文字が含まれている場合は、セグメントを宛先にマッピングする前に、これらの文字を削除してく [!UICONTROL Twitter] ださい。
+* セグメントおよびセグメントマッピング名では特殊文字（`,` `%` `:` `;` `@` `/` `=` `?` `$`）を使用しないでください。Audience Manager のセグメント名にこれらの文字が含まれている場合は、セグメントを [!UICONTROL Twitter] 宛先にマッピングする前に、これらの文字を削除してください。
 
 ### 例
 
@@ -95,5 +95,5 @@ When mapping audience segments to [!UICONTROL Twitter], make sure to meet the fo
 
 ## マッチ率に関する考慮事項 {#match-rates-considerations}
 
-* [!UICONTROL Twitter Tailored Audiences] を使用する場合、宛先ページの [!UICONTROL Segment Addressable Audience] と [!UICONTROL Segment Match Rate] の指標niha値が表示されません。この宛先のマッチ率で一致するオーディエンスは、アドビではなく、[!UICONTROL Twitter] によって処理およびホストされるので、これは通常の動作です。
-* 現在、Audience Managerとの統合では、履歴オーディエンスのバ [!UICONTROL Twitter Tailored Audiences] ックフィルはサポートされていません。 つまり、セグメントがTwitterの宛先にマッピ *ングされた* 後に発生するセグメントの資格のみが、リアルタイムで [!UICONTROL Twitter] 送信されます。
+* [!UICONTROL Twitter Tailored Audiences] を使用する場合、宛先ページの [!UICONTROL Segment Addressable Audience] と [!UICONTROL Segment Match Rate] の指標には値が表示されません。この宛先のマッチ率で一致するオーディエンスは、アドビではなく、[!UICONTROL Twitter] によって処理およびホストされるので、これは通常の動作です。
+* 現在、Audience Manager と [!UICONTROL Twitter Tailored Audiences] の統合では、履歴オーディエンスのバックフィルはサポートされていません。つまり、セグメントが [!UICONTROL Twitter] の宛先にマッピングされた&#x200B;*後に*&#x200B;発生するセグメントの資格情報のみが、リアルタイムで送信されます。
