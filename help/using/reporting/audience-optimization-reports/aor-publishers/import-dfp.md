@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DFP データファイルを Audience Manager にインポート
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
 
 ---
 
@@ -23,8 +23,8 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
 
 広告タグ呼び出しでの [!DNL Audience Manager] ID の設定方法は以下のとおりです（ドキュメントにも説明があります）。
 
-* [Google Publisher Tag（GPT）を使用する](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
-* [Cookie 宛先を使用する](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Google Publisher Tag（GPT）を使用する](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Cookie 宛先を使用する](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 [!DNL Audience Manager] ID はご自身で設定する必要があります。また、[!DNL Audience Manager] コンサルタントを使用して、すべて正常であることを確認できます。次のようになっていれば、[!DNL Audience Manager] ID は正しく設定されています。
 
@@ -37,7 +37,7 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
 <table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 手順 ： </th> 
+   <th colname="col1" class="entry"> 手順 </th> 
    <th colname="col2" class="entry"> 詳細 </th> 
    <th colname="col3" class="entry"> 所有者 </th> 
   </tr> 
