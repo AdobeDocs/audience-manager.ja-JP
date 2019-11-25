@@ -5,8 +5,8 @@ seo-title: リアルタイム送信データ転送
 solution: Audience Manager
 title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-translation-type: ht
-source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
+translation-type: tm+mt
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -64,8 +64,8 @@ source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
    <td colname="col2"> <p>整数 </p> </td> 
    <td colname="col3"> <p>デバイス ID のタイプを示す ID は、メッセージ内の、User.DataPartner_UUID プロパティに含まれます。 </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID（GAID）：<code>20914</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID（IDFA）：<code>20915</code> </li>
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">Android ID（GAID）：<code> 20914</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">iOS ID（IDFA）：<code> 20915</code> </li>
      <li>Web／Cookie ID：宛先プラットフォームによって異なる</li>
     </ul> </td> 
   </tr> 
@@ -82,7 +82,7 @@ source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p><code>POST</code> リクエストのユーザーの合計数。 </p> </td> 
+   <td colname="col3"> <p><code> POST</code> リクエストのユーザーの合計数。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -102,7 +102,7 @@ source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> 配列 </td> 
-   <td colname="col3"> このデバイスが確認された<span class="keyword"> Audience Manager</span> 地域 ID。例えば、デバイスがパリ（ヨーロッパ）であるアクティビティをおこなった場合、地域 ID は <code>6</code> になります。<a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 地域 ID、場所、ホスト名</a>を参照してください。 </td> 
+   <td colname="col3"> このデバイスが確認された<span class="keyword"> Audience Manager</span> 地域 ID。例えば、デバイスがパリ（ヨーロッパ）であるアクティビティをおこなった場合、地域 ID は <code> 6</code> になります。<a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 地域 ID、場所、ホスト名</a>を参照してください。 </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -119,15 +119,15 @@ source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
    <td colname="col2"> <p>整数 </p> </td> 
    <td colname="col3"> <p>セグメント内のユーザーのステータスを定義します。以下の値を受け入れます。 </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
-     <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code>1</code>：アクティブ（デフォルト） </li> 
-     <li id="li_10952C8DF7AF4593805FA29028257E38"><code>0</code>：非アクティブ、オプトアウト済みまたは非セグメント化。 </li> 
+     <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>：アクティブ（デフォルト） </li> 
+     <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0</code>：非アクティブ、オプトアウト済みまたは非セグメント化。 </li> 
     </ul> <p>以下の場合、ユーザーはセグメントへの認定を解除されます。 </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">セグメントから削除された（セグメントルールに基づいて）。 </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">セグメントから削除された（セグメントの<a href="../../../features/traits/segment-ttl-explained.md">有効期間</a>に基づいて）。 </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">過去 120 日の間確認されず、非アクティブ状態に移行した。 </li>
-     <li>プライバシー変更リクエスト（例：[!DNL GDPR]）により削除された</li>
-    </ul> <p><span class="keyword">Audience Manager</span> ID と同期されたすべてのパートナー ID は、ユーザーが非セグメント化されると、<code>"Status":"0"</code> フラグを受け取ります。 </p> </td> 
+     <li>Removed due to a privacy change request (i.e. <span class="keyword"> GDPR</span>)</li>
+    </ul> <p>All partner IDs that are synced to an <span class="keyword"> Audience Manager</span> ID will receive the <code> "Status":"0"</code> flag when a user is unsegmented. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
