@@ -5,8 +5,8 @@ seo-title: DCS エラーコード、メッセージ、例
 solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
-translation-type: ht
-source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
+translation-type: tm+mt
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
 
 以下の表で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
-## システムエラーコード{#system-error-codes}
+## システムエラーコード {#system-error-codes}
 
 <table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
  <thead> 
@@ -35,13 +35,13 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
   </tr> 
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Could not find config for hostname:  <code><i>hostname</i></code> </p> </td> 
+   <td colname="col2"> <p>Could not find config for hostname:   <code><i>hostname</i></code> </p> </td> 
    <td colname="col3"> <p>送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。このエラーメッセージが表示された場合は、アドビの担当者にご連絡ください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>Invalid <code> d_orgid</code> value (could not find a config for this org id): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>組織 ID が正しくありません。 </p> <p>ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=admin_getting_started.html" format="https" scope="external">Experience Cloud ユーザーおよび製品の管理</a>の「組織とアカウントのリンク」節を参照して、組織 ID の見つけ方を確認してください。 </p> </td> 
+   <td colname="col3"> <p>組織 ID が正しくありません。 </p> <p>ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external">Experience Cloud ユーザーおよび製品の管理</a>の「組織とアカウントのリンク」節を参照して、組織 ID の見つけ方を確認してください。 </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -64,12 +64,12 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>Invalid Experience Cloud ID passed in<code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Invalid Experience Cloud ID passed in <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p><span class="wintitle">DCS</span> 呼び出しに無効な <span class="keyword">Experience Cloud</span> ID が含まれています。 </p> <p>ヘッダー文字列の <code> d_mid=</code> キー値ペアを確認してください。正しい <span class="keyword">Experience Cloud</span> ID を渡していることを確認して、要求をもう一度試してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>Invalid aam id passed in request<code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Invalid aam id passed in request <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p><span class="wintitle">DCS</span> 呼び出しに無効な <span class="keyword">Audience Manager</span> ID が含まれています。 </p> <p>ヘッダー文字列の <code> d_uuid=</code> キー値ペアを確認してください。正しい <span class="keyword">Audience Manager</span> ID を渡していることを確認して、要求をもう一度試してください。 </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
     <tr> 
    <td colname="col1"> <p>109</p> </td> 
    <td colname="col2"> <p>リファラー <code>HTTP referer</code> はパートナーの <code>Partner ID</code> で使用できます。 </p> </td> 
-   <td colname="col3"> <p>呼び出しの [!DNL HTTP リファラー] ヘッダーは、呼び出しのパートナー ID では使用できません。[!DNL HTTP リファラー] ヘッダーが正しいことを確認します。</p> </td>
+   <td colname="col3"> <p>The <code>HTTP referer</code> header on the call is not allowed for the partner ID on the call. ヘッダーが正しいこ <code>HTTP referer</code> とを確認します。</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
@@ -90,7 +90,7 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
  </tbody>
 </table>
 
-## オプトアウトエラーコード{#opt-out-error-codes}
+## オプトアウトエラーコード {#opt-out-error-codes}
 
 <table id="table_A50C284AB84F48A79B01223D991884A2"> 
  <thead> 
@@ -103,7 +103,7 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
  <tbody> 
   <tr> 
    <td colname="col1"> <p>171 </p> </td> 
-   <td colname="col2"> <p>Encountered opt out tag for id<code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Encountered opt out tag for id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>お客様がインタレストベース広告の受信をオプトアウトしました。 </p> </td> 
   </tr> 
   <tr> 
@@ -136,7 +136,7 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
  </tbody> 
 </table>
 
-## プロファイル取得エラーコード{#profile-retrieval-error-codes}
+## プロファイル取得エラーコード {#profile-retrieval-error-codes}
 
 <table id="table_CFF2252A3CC54960802905454A867D7A"> 
  <thead> 
@@ -149,22 +149,22 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
  <tbody> 
   <tr> 
    <td colname="col1"> <p>200 </p> </td> 
-   <td colname="col2"> <p> Cannot read traits from profile cache for id:  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read traits from profile cache for id:   <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>アドビの社内ストレージからユーザープロファイルを読み取れない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
-   <td colname="col2"> <p> Cannot read device ids from profile cache for customer id:  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read device ids from profile cache for customer id:   <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p><a href="../../../reference/ids-in-aam.md">デバイス ID</a> をプロファイルリンク結合ルールのために取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
-   <td colname="col2"> <p>Cannot read related customer for device id:  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Cannot read related customer for device id:   <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>デバイス ID に関連付けられている<a href="../../../reference/ids-in-aam.md">顧客 ID（UUID）</a>を、前回の認証済みプロファイル結合ルールのためにアドビの社内ストレージから取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 
-   <td colname="col2"> <p> Cannot read device cluster for id:  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read device cluster for id:   <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>このデバイス ID にリンクされているデバイス ID を同じデバイスグラフクラスターから返せません。 </p> </td>
   </tr> 
   <tr> 
@@ -180,7 +180,7 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
  </tbody> 
 </table>
 
-## 統合警告コード{#integration-warning-codes}
+## 統合警告コード {#integration-warning-codes}
 
 <table id="table_31F1593C46804DDBA2E9BEDE83F2417F"> 
  <thead> 
@@ -193,7 +193,7 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
  <tbody> 
   <tr> 
    <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>Invalid customer id<code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Invalid customer id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID が無効です（データソースの値がない、統合コードがない、データソースの形式が無効、顧客 ID がブロックされている、顧客 ID が未指定、パートナーの管理下にないデータソースに不正にアクセスしようとしている、など）。 </p> </td>
   </tr> 
   <tr> 
@@ -203,27 +203,27 @@ source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
   </tr> 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>Unauthorized customer id<code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「組織 ID を見つける」を参照してください。 </p> </td> 
+   <td colname="col2"> <p>Unauthorized customer id <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「組織 ID を見つける」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>Blocked customer id<code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked customer id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID が悪意のある ID と見なされてブラックリストに登録されている場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>Blocked datasource id<code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked datasource id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>データソース ID が悪意のある ID と見なされてブラックリストに登録されている場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Blocked declared device id<code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>デバイス ID が悪意のある ID と見なされて、ブラックリストに登録されています。このような状況が発生する可能性があるのは、このデバイス ID を含んだきわめて大量の <span class="wintitle">DCS</span> 要求を短時間に受信する場合です。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Blocked profile operation for<code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>ID が悪意のある ID と見なされてブラックリストに登録されているので、読み取り／書き込みアクションがブロックされました。エラーコード 306 を参照してください。 </p> </td> 
   </tr> 
   <tr> 
