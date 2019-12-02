@@ -4,7 +4,7 @@ seo-description: アドビでは、オプトイン機能と IAB Transparency and
 seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: IAB TCF 用 Audience Manager プラグイン
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ユーザーのプライバシー保護対策として重要なのは、個人データの活用方法（例：「目的」）および使用者（例：「会社」）に対するユーザーからの同意の取得です。
 
-アドビでは、[オプトイン機能](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)と [IAB Transparency and Consent Framework（TCF）](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)のサポートを通じて、ユーザーのプライバシー選択を管理および伝達する手段を提供しています。
+アドビでは、[オプトイン機能](https://marketing.adobe.com/resources/help/ja_JP/mcvid/overview.html)と [IAB Transparency and Consent Framework（TCF）](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)のサポートを通じて、ユーザーのプライバシー選択を管理および伝達する手段を提供しています。
 
 この記事では、IAB TCF をサポートする Audience Manager の使用事例と、Audience Manager での IAB TCF サポートの実装方法について説明します。Audience Manager は、IAB TCF に登録されています（ベンダー ID 565）。
 
-IAB TCF用Audience Managerプラグインは、 [Opt-in機能を利用します](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)。これは、Adobe [Experience Cloud IDサービス(ECID)ライブラリの一部です](https://marketing.adobe.com/resources/help/en_US/mcvid/) 。
+IAB TCF 用 Audience Manager プラグインは、[オプトイン機能を利用します](https://marketing.adobe.com/resources/help/ja_JP/mcvid/iab.html)。これは、Adobe [Experience Cloud ID サービス（ECID）](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)ライブラリの一部です。
 
 ## 範囲と制限 {#scope-and-limitations}
 
@@ -37,16 +37,16 @@ Audience Manager を使用しているパブリッシャーまたは広告主は
 
 Audience Manager で IAB TCF を使用するには、次の前提条件を満たす必要があります。
 
-1. Experience Cloud ID サービス（ECID）バージョン 4.1 以降を使用している。[最新のECIDリリース](https://github.com/Adobe-Marketing-Cloud/id-service/releases) をダウンロードします。
-1. You must be using Audience Manager Data Integration Library (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). [Audience Manager ドキュメントの DIL](../..//dil/dil-overview.md) をお読みください。
-1. また、サーバー側転送（SSF）を使用して Audience Manager にデータを読み込む場合は、最新バージョンの AppMeasurement を使用する必要があります。Analyticsコードマネージャーを使用してAppMeasurement [をダウンロードします](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)。
-1. IAB をサポートする市販または独自の同意管理プラットフォーム（CMP）を使用し、IAB TCF に登録していること。See the list of [CMPs registered within the IAB framework](https://advertisingconsent.eu/cmp-list/).
+1. Experience Cloud ID サービス（ECID）バージョン 4.1 以降を使用している。アドビの最新 ECID リリースを[ダウンロード](https://github.com/Adobe-Marketing-Cloud/id-service/releases)してください。
+1. [こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロード可能な、Audience Manager Data Integration Library（DIL）バージョン 9.0 以降を使用している。[Audience Manager ドキュメントの DIL](../..//dil/dil-overview.md) をお読みください。
+1. また、サーバー側転送（SSF）を使用して Audience Manager にデータを読み込む場合は、最新バージョンの AppMeasurement を使用する必要があります。[Analytics コードマネージャー](https://marketing.adobe.com/resources/help/ja_JP/reference/code_manager_admin.html)を使用して AppMeasurement をダウンロードしてください。
+1. IAB をサポートする市販または独自の同意管理プラットフォーム（CMP）を使用し、IAB TCF に登録している。[IAB フレームワーク内の登録 CMP](https://advertisingconsent.eu/cmp-list/)のリストを参照してください。
 
 ## レコメンデーションと実装方法 {#recommendations}
 
-Audience ManagerでIAB TCFサポートを有効にするには、IABをオプトインで設定する方法に関す [るドキュメントをお読みください](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)。
+Audience Manager で IAB TCF サポートを有効にするには、[IAB をオプトインで設定する方法](https://marketing.adobe.com/resources/help/ja_JP/mcvid/iab.html)に関するドキュメントをお読みください。
 
-This is easiest done by using [Adobe Launch](https://docs.adobelaunch.com/) to instrument ECID Opt-in on your properties. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
+これを実行するには、[Adobe Launch](https://docs.adobelaunch.com/) を使用してプロパティに ECID オプトインを使用する方法が最も簡単です。Launch 拡張機能のセットアップ方法については、[ECID オプトイン拡張機能](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in)をお読みください。
 
 ## IAB フレームワークを使用する場合のユーザー選択ワークフロー {#user-choice-workflow}
 
@@ -62,11 +62,11 @@ IAB フレームワークの標準的な目的は次のとおりです。
 * コンテンツの選択、配信、およびレポート
 * 測定
 
-5つの標準的な目的の説明は、 [IABフレームワーク仕様のページ](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features) （英語）を参照してください。
+[IAB フレームワーク仕様ページ](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features)で 5 つの標準的な目的の説明を参照してください。
 
 ユーザーは、標準的な目的とベンダーの組み合わせに同意することができます。例えば、ユーザーはストレージ、パーソナライゼーションおよび測定に同意し、CMP によって表示されるすべてのサードパーティベンダーに対して同意できます。また、5 つの標準的な目的に対する同意することも、CMPによって表示される少数のベンダーの数に対してのみ同意することもできます。
 
-ユーザーがプライバシーを選択すると、ユーザーが選択した内容が IAB TCF のコンセントストリングに記録されます。The IAB TCF consent string stores the combination of approved purposes and vendors, along with other metadata information (see the [IAB page](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) for more information). IAB TCF に登録されているすべてのベンダーは、IAB TCF のコンセントストリングを評価し、ユーザーのプライバシー選択に基づいて判断を下します。ユーザーのプライバシー選択は、承認されたすべてのベンダーをまたいで有効であることに注意してください。
+ユーザーがプライバシーを選択すると、ユーザーが選択した内容が IAB TCF のコンセントストリングに記録されます。IAB TCF のコンセントストリングには、承認された目的とベンダーの組み合わせと共に、その他のメタデータ情報（詳しくは [IAB ページ](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format)を参照）も含まれます。IAB TCF に登録されているすべてのベンダーは、IAB TCF のコンセントストリングを評価し、ユーザーのプライバシー選択に基づいて判断を下します。ユーザーのプライバシー選択は、承認されたすべてのベンダーをまたいで有効であることに注意してください。
 
 ## Audience Manager で求められる標準的な目的 {#aam-standard-purposes}
 
@@ -74,7 +74,7 @@ Audience Manager は、IAB TFC コンセントストリングに格納されて�
 
 
 
-* Information storage and access (purpose ID 1 in the [global vendor list](https://vendorlist.consensu.org/vendorlist.json))
+* 情報の保存とアクセス（[グローバルベンダーリスト](https://vendorlist.consensu.org/vendorlist.json)の目的 1）
 * パーソナライゼーション（目的 ID2）
 * 測定（目的 ID5）
 * Audience Manager ベンダーは、パブリッシャーのデータを保存、処理またはアクティブ化することに同意します。
@@ -100,7 +100,7 @@ IAB TCF を実装すれば、アドビまたは他のサードパーティベン
 3. Audience Manager は、GDPR が適用されるか（`gdpr = 1`）、Web プロパティで IAB に CMP が登録されているかどうかを確認します。例えば、これを欧州連合地域からの訪問者に適用されるとします。パブリッシャーは、GDPR フラグを設定する責任を負います。
 4. GDPR が適用される場合、Audience Manager は、必要な権限に対し、パラメーター `gdpr_consent`に渡された IAB TCF コンセントストリングを確認します。Audience Manager でデータを保存、プロセス、またはアクティブ化するには、ストレージ、パーソナライゼーション、測定および Audience Manager ベンダーの同意に関する権限を必要とし、データを保存、処理、アクティブ化することができます。
 5. IAB TCF のコンセントストリングが存在し、必要な権限が含まれている場合、Audience Managerは IAB TCF コンセントストリングをアドビの[データ収集サーバー](../../reference/system-components/components-data-collection.md)（DCS）に渡します。
-6. Audience Managerは、ブラウザーでdemdex cookieを設 [定するこ](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) とで応答します。 また、Audience Manager は、サードパーティ ID 同期を開始して保持します。
+6. Audience Manager は、ブラウザーで [demdex cookie](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/cookies/cookies_am.html) を設定することで応答します。また、Audience Manager は、サードパーティ ID 同期を開始して保持します。
 7. または、手順 5 で渡された IAB TCF のコンセントストリングに必要なすべての権限が含まれていない場合、Audience Manager はデータを収集、処理またはアクティブ化せず、ID 同期を実行または開始しません。
 
 ![パブリッシャーのユースケース](assets/publisher-use-case.png)
@@ -131,17 +131,17 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 
 ## IAB TCF をサポートするアクティベーションパートナー {#aam-activation-partners}
 
-IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TCF のコンセントストリングをアクティベーションパートナーに転送できます。For information on which activation partners support IAB TCF, refer to our **[Partner Excel sheet](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-October2019.xlsx)**.
+IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TCF のコンセントストリングをアクティベーションパートナーに転送できます。IAB TCF をサポートするアクティベーションパートナーに関する情報は、**[パートナー Excel シート](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-October2019.xlsx)**&#x200B;を参照してください。
 
 ## IAB 実装のテスト {#test-iab-implementation}
 
-To test that you have correctly implemented the Audience Manager Plug-in for IAB TCF, read [Use Case 4 in Validation Methods for Opt-in and IAB implementation](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html).
+IAB TCF 用 Audience Manager プラグインを正しく実装できているかをテストするには、[オプトインおよび IAB 実装の検証メソッドのユースケース 4](https://marketing.adobe.com/resources/help/ja_JP/mcvid/testing-optin-and-iab-plugin.html)を参照してください。
 
 ## Audience Manager の IAB およびオプトアウト。優先順位。 {#iab-and-optout}
 
-ユーザーが選択できるもう一つのプライバシーオプションは、すべてのデータ収集をオプトアウトする機能です。Adobe provides users with the means to do so within the [Your Privacy Choices](https://www.adobe.com/privacy/opt-out.html#customeruse) page.
+ユーザーが選択できるもう一つのプライバシーオプションは、すべてのデータ収集をオプトアウトする機能です。アドビはユーザーに対し、[プライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)ページ内でオプトアウトを提供しています。
 
-Audience Manager addresses opt-out requests in a [separate article in our documentation](data-privacy-requests.md).
+Audience Manager は、[ドキュメントの別の記事](data-privacy-requests.md)で、オプトインのリクエストに対処しています。
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Audience Manager addresses opt-out requests in a [separate article in our docume
 
 ## その他のリソース {#additional-resources}
 
-* [Experience Cloud IDサービスのオプトイン](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)
-* [IAB欧州GDPR透明化・同意枠組み](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
-* [IAB Europe GDPR透明性と同意フレームワークの技術仕様](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
-* [IAB TCFプラグイン — ビデオデモ](https://helpx.adobe.com/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)
+* [Experience Cloud ID サービスオプトイン](https://marketing.adobe.com/resources/help/ja_JP/mcvid/overview.html)
+* [IAB Europe GDPR の透明性および同意フレームワーク](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
+* [IAB Europe GDPR の透明性および同意フレームワークの技術仕様](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
+* [IAB TCF プラグイン — ビデオデモ](https://helpx.adobe.com/jp/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)
