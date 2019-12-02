@@ -1,13 +1,13 @@
 ---
 description: 実用的なログファイルを使用すると、広告サーバーログファイルからメディアシグナルをキャプチャし、Audience Manager で特性を作成することができます。ピクセルを追加することなく、インプレッション、クリック数およびコンバージョンを特性として広告サーバーから取得できるようになります。
-keywords: 実用的なログ、alf、ALF
+keywords: actionable logs, alf, ALF
 seo-description: 実用的なログファイルを使用すると、広告サーバーログファイルからメディアシグナルをキャプチャし、Audience Manager で特性を作成することができます。ピクセルを使用することなく、インプレッション、クリック数およびコンバージョンを特性として広告サーバーから取得できるようになります。
 seo-title: 実用的なログファイル
 solution: Audience Manager
 title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
 
 ---
 
@@ -31,11 +31,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 * [!UICONTROL Google DCM] ログについては、[DCM データファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
 * その他の広告サーバーログについては、[データとメタデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問合せください。
 
-既にログデータを [!DNL Audience Manager] に読み込んでいる場合は、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)にお問合せいただき、[!UICONTROL Actionable Log Files] を有効化してもらってください。
+既にログデータを [!DNL Audience Manager] に読み込んでいる場合は、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/contact/enterprise-support.ec.html)にお問合せいただき、[!UICONTROL Actionable Log Files] を有効化してもらってください。
 
 >[!IMPORTANT]
 >
-> 2019 年末に、[!UICONTROL Actionable Log Files] は新しい広告サーバーのアベイラビリティの拡大を開始します。開始するには、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)にお問合せください。
+> 2019 年末に、[!UICONTROL Actionable Log Files] は新しい広告サーバーのアベイラビリティの拡大を開始します。開始するには、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/contact/enterprise-support.ec.html)にお問合せください。
 
 ## 実用的なログファイルの使用 {#working-with-actionable-log-files}
 
@@ -63,7 +63,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    <th colname="col1" class="entry"> ログファイルのヘッダー名 </th> 
    <th colname="col2" class="entry"> シグナル </th> 
    <th colname="col3" class="entry"> 説明 </th> 
-   <th colname="col4" class="entry"> 例Value </th> 
+   <th colname="col4" class="entry"> 値の例 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -160,7 +160,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ### 汎用広告サーバーログからの実用的なシグナル {#generic-logs-signals}
 
-まず、広告サーバーログを Amazon S3 バケットにドロップする必要があります。これを達成するには、[Audience Optimization レポートおよび実用的なログファイル用のデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)を読んだ&#x200B;*うえで*、[!DNL Audience Manager] コンサルタントにお問い合わせください。この表は、汎用ログファイルから取得される実用的なシグナルの一覧です。
+まず、Amazon S3バケットに広告サーバーログをデポジットする必要があります。 これを達成するには、[Audience Optimization レポートおよび実用的なログファイル用のデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)を読んだ&#x200B;*うえで*、[!DNL Audience Manager] コンサルタントにお問い合わせください。この表は、汎用ログファイルから取得される実用的なシグナルの一覧です。
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -168,7 +168,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
    <th colname="col1" class="entry"> ログファイルのヘッダー名 </th> 
    <th colname="col2" class="entry"> シグナル </th> 
    <th colname="col3" class="entry"> 説明 </th> 
-   <th colname="col4" class="entry"> 例Value </th> 
+   <th colname="col4" class="entry"> 値の例 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -186,8 +186,8 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。その場合は、<code>yyyy-dd-mm hh:mm:ss format.</code> </p></td> 
-   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3"> <p> インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。<code>yyyy-MM-dd HH:mm:ss</code>形式を使用します。 </p></td> 
+   <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
@@ -269,7 +269,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ### Audience Optimization レポートまたは Audience Lab で DCM フラッドライトアクティビティを使用
 
-[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=ja)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)または [Audience Lab](../../features/audience-lab/audience-lab.md) で [!DNL DCM] コンバージョンを追跡できます。
+[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=en)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)または [Audience Lab](../../features/audience-lab/audience-lab.md) で [!DNL DCM] コンバージョンを追跡できます。
 
 1. 特性を作成し、広告サーバーログからコンバージョンを取得する次の特性ルールを使用します。
 
