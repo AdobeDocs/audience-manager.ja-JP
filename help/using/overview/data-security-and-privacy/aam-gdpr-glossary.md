@@ -1,11 +1,11 @@
 ---
-description: この記事では、European General Data Protection Regulation(GDPR)で使用される概念と用語、およびAdobe Audience Managerをデータプロセッサーとして使用する場合にGDPRの様々な要件に対処する方法について説明します。
-seo-description: この記事では、European General Data Protection Regulation(GDPR)で使用される概念と用語、およびAdobe Audience Managerをデータプロセッサーとして使用する場合にGDPRの様々な要件に対処する方法について説明します。
+description: この記事では、欧州一般データ保護規則（GDPR）で使用される概念と用語、および Adobe Audience Manager をデータ処理者として使用する場合に GDPR の様々な要件に対処する方法について説明します。
+seo-description: この記事では、欧州一般データ保護規則（GDPR）で使用される概念と用語、および Adobe Audience Manager をデータ処理者として使用する場合に GDPR の様々な要件に対処する方法について説明します。
 seo-title: GDPR の用語集
 solution: Audience Manager
 title: GDPR の用語集
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ## 概要 {#overview}
 
-この記事では、European General Data Protection Regulation(GDPR)で使用される概念と用語、およびAdobe Audience Managerをデータプロセッサーとして使用する場合にGDPRの様々な要件に対処する方法について説明します。
+この記事では、欧州一般データ保護規則（GDPR）で使用される概念と用語、および Adobe Audience Manager をデータ処理者として使用する場合に GDPR の様々な要件に対処する方法について説明します。
 
 GDPR は 2018 年 5 月 25 日に施行された法律で、その第一の目的は、EU 内の個人（データ主体）が個人データをコントロールする権利を取り戻すこと、および EU 域内の規則を統合することで、国際的なビジネスのための規制環境を簡潔にすることです。GDPR への対応の一環として Adobe Audience Manager では、消費者であるデータ主体からのアクセス要求や削除要求をサポートするために、必要なサービスおよびプロセスの機能拡張をおこないました。
 
-[Experience Cloud の GDPR に関する Q&amp;A 集についても必ずお読みください。](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) を参照してください。
+GDPR が Experience Cloud でどのように機能するかをよりよく理解するためには、[Experience Cloud の GDPR に関するFAQ](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) を参照してください。
 
 ## GDPR の用語集 {#gdpr-glossay}
 
@@ -31,7 +31,7 @@ GDPR に関連して使用されるキーワードを確認しましょう。よ
 
  
 
-**データ処理者：**「処理者」とは、「管理者のために個人データを処理する…法人…」です。Audience Managerのコンテキストでは、アドビは、サービスを運用する際に、コントローラーに代わって処理する個人データの「データプロセッサー」として機能します。 アドビは、Data Controllerの指示に従って（お客様との契約書に記載されているとおり、またはAudience Managerで行われたアクションを通じて）個人データのみを処理します。
+**データ処理者：**「処理者」とは、「管理者のために個人データを処理する…法人…」です。Audience Manager のコンテキストでは、アドビは、サービスを運用する際に、コントローラーに代わって処理する個人データの「データ処理者」として機能します。アドビは、データ管理者の指示に従って（お客様との契約書に記載されているとおり、または Audience Manager で行われたアクションを通じて）のみ、個人データを処理します。
 
  
 
@@ -55,7 +55,7 @@ GDPR に関連して使用されるキーワードを確認しましょう。よ
 
  
 
-**Audience Manager 識別子（ID）：** Adobe Audience Manager は様々な種類の ID を保存します。[Audience Manager ID(ID](data-privacy-ids.md) )ページには、これらのIDの概要、対応するデータソース、簡単な説明が表示されます。 Adobe Experience Platformプライバシーサービスにリクエ [ストを送信する場合は](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)、これらのIDを参照して、データサブジェクトの削除やアクセスのリクエストを行います。
+**Audience Manager 識別子（ID）：** Adobe Audience Manager は様々な種類の ID を保存します。[Audience Manager 識別子](data-privacy-ids.md)ページには、これらの ID の概要、対応するデータソースおよび簡単な説明が記載されています。[Adobe Experience Platform プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)にリクエストを送信する場合は、これらの ID を参照して、データ主体の削除やアクセスのリクエストを行います。
 
  
 
