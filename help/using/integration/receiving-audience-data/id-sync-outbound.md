@@ -5,13 +5,13 @@ seo-title: 送信データ転送のための ID 同期
 solution: Audience Manager
 title: 送信データ転送のための ID 同期
 uuid: f3849be8-1094-47db-9296-7482f020af18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
 
-# 送信データ転送のための ID 同期{#id-synchronization-for-outbound-data-transfers}
+# 送信データ転送のための ID 同期 {#id-synchronization-for-outbound-data-transfers}
 
 Audience Manager とサードパーティデータプロバイダーの間でユーザー ID を同期するために、最初の `HTTP` 呼び出しで使用される構文およびパラメーターについて説明します。最初の ID 同期を試す前に、担当の Adobe Audience Manager コンサルタントにお問い合わせください。
 
