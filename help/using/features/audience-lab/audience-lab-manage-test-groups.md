@@ -6,7 +6,7 @@ solution: Audience Manager
 title: テストグループの管理
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
 
 ---
 
@@ -59,6 +59,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    * コンバージョン特性ウィンドウで入力して、コンバージョン特性を追加します。これは&#x200B;**必須**&#x200B;手順であり、少なくとも 1 つのコンバージョン特性を追加しない限り、次の手順には進めません。
    * 最大 5 つのコンバージョン特性を任意に追加できます。
    * 他のテストグループに既に使用されているコンバージョン特性を選択した場合は、警告が表示されます。
+   * Audience Managerでは、フォルダー特性の変換特性としての使用はサ [ポートされ](/help/using/features/traits/about-folder-traits.md) ません。 フォルダー特性をコンバージョン特性として選択すると、0個の集計とトレンドレポートがテスト内に表示されます。
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 
