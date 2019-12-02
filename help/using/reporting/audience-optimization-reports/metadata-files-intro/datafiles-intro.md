@@ -3,10 +3,10 @@ description: データファイルにはインプレッション、クリック�
 seo-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、Audience Optimization レポートおよび実用的なログファイルで使用できます。データファイルの形式を、この節で説明した仕様に合わせてください。
 seo-title: Audience Optimization レポートおよび実用的なログファイル用のデータファイル
 solution: Audience Manager
-title: Audience Optimization レポートのデータファイルおよび実用的なログファイル
+title: Audience Optimization レポートおよび実用的なログファイル用のデータファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-translation-type: ht
-source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
+translation-type: tm+mt
+source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 これらの要件を前提として、コンテンツに応じてデータファイルに次のように名前を付けます。
 
-* インプレッションデータ： <pre>impressions_<i>yyyymmdd<i>.gz</code></pre>
+* インプレッションデータ： <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
 * クリックデータ： <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
 * コンバージョンデータ： <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
@@ -67,7 +67,7 @@ source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Time-Stamp </p> </td> 
-   <td colname="col2"> <p>インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。<code> yyyy-dd-mm hh:mm:ss</code>形式を使用します。 </p> </td> 
+   <td colname="col2"> <p>インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。<code> yyyy-MM-dd HH:mm:ss</code>形式を使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -137,7 +137,7 @@ source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
  </tbody> 
 </table>
 
-## データファイルの配信方法{#delivery-methods}
+## データファイルの配信方法 {#delivery-methods}
 
 インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
