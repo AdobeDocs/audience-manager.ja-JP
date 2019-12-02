@@ -4,7 +4,7 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
 
 ---
@@ -44,7 +44,7 @@ source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
 
 1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスを、複数の一括転送でアップロードすると、Audience Manager は最近追加された 10 個の電子メールアドレスを保持します。
 
-## データのプライバシー {#data-privacy}
+## データプライバシー {#data-privacy}
 
 [!DNL People-Based Destinations] では、お客様自身がアップロードした、ハッシュ化された電子メールアドレスに基づいてオーディエンスをターゲット設定することができますが、識別可能な訪問者情報を直接 Audience Manager にアップロードすることは引き続き禁止されています。オンボーディング段階で、使用する予定の電子メールアドレスが [!DNL SHA256] アルゴリズムでハッシュ化されていることを確認する必要があります。そうでない場合、[!DNL People-Based Destinations] で使用することはできません 。
 
@@ -69,7 +69,7 @@ source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
 
-Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html)」を参照してください。
+Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)」を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
