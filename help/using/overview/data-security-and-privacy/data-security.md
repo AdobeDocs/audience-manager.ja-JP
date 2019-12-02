@@ -1,17 +1,17 @@
 ---
 description: Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
 seo-description: Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
-seo-title: データのセキュリティ （Audience Manager内）
+seo-title: データのセキュリティAudience Manager の 対応
 solution: Audience Manager
-title: Audience Managerのデータセキュリティ
+title: Audience Manager におけるデータセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1d606cf8ac8cf7b78a7ddf661e9a6d2ce32df71e
 
 ---
 
 
-# Data Security in Audience Manager {#data-security}
+# Audience Manager におけるデータセキュリティ {#data-security}
 
 Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
 
@@ -54,7 +54,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **IP アドレス：** Audience Manager は、IP アドレスを収集します。IP アドレスは、データ処理およびログ収集処理に使用されます。また、地域／場所の検索およびターゲティングに必要です。さらに、取得したログファイル内のすべての IP アドレスは、90 日以内に難読化されます。
 
-## データのパーティション分割 {#data-partitioning}
+## データのパーティション分割{#data-partitioning}
 
 個々のクライアントが所有するデータを保護するのに役立つプロセスです。
 
@@ -62,7 +62,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **レポートでのデータのパーティション分割：**&#x200B;クライアント ID は、すべてのレポートテーブルの識別キーの一部で、レポートクエリは、ID でフィルタリングされます。これは、お客様のデータが Audience Manager の別のお客様のレポートに表示されるのを防ぐのに役立ちます。
 
-## 受信サーバー間（S2S）転送 {#inbound-s2s}
+## 受信サーバー間（S2S）転送{#inbound-s2s}
 
 Adobe Audience Manager は、S2S オンボードデータファイルをアドビのシステムに転送する 2 つの主要な方法をサポートします。
 
@@ -90,4 +90,4 @@ PGP 暗号化をデータファイルに追加するには、[受信データタ
 
 `yourcompany.demdex.com` ドメインが [!DNL HTTP] 経由で [!DNL DCS] にトラフィックを送信するとします。[!DNL HSTS] は、代わりに [!DNL HTTPS] を使用するように呼び出しをアップグレードし、以降の `yourcompany.demdex.com` からの [!DNL DCS] 呼び出しではすべて、[!DNL HTTP] の代わりに [!DNL HTTPS] を使用します。
 
-HSTSの詳細については [、「HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) 」を参照してください。
+HSTS の詳細については「[HTTP Strict Transport Security - Wikipedia](https://ja.wikipedia.org/wiki/HTTP_Strict_Transport_Security)」を参照してください。
