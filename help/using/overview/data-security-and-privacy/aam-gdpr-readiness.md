@@ -1,20 +1,20 @@
 ---
-description: Audience Managerのお客様向けGDPR対応ガイダンス
-seo-description: Audience Managerのお客様向けGDPR対応ガイダンス
-seo-title: Audience Managerのお客様向けGDPR対応ガイダンス
+description: Audience Manager をご利用のお客様向けの GDPR 対応ガイダンス
+seo-description: Audience Manager をご利用のお客様向けの GDPR 対応ガイダンス
+seo-title: Audience Manager をご利用のお客様向けの GDPR 対応ガイダンス
 solution: Audience Manager
-title: Audience Managerのお客様向けGDPR対応ガイダンス
-translation-type: tm+mt
+title: Audience Manager をご利用のお客様向けの GDPR 対応ガイダンス
+translation-type: ht
 source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
 
 ---
 
 
-# Audience Manager をご利用のお客様（データ管理者）向けの GDPR 対応ガイダンス{#gdpr-readiness-guidance}
+# Audience Manager をご利用のお客様（データ管理者）向けの GDPR 対応ガイダンス {#gdpr-readiness-guidance}
 
-Audience Managerは、データ管理と組織の準備に関する事前対応型の作業を推奨します。 これにより、顧客データをアクセスまたは削除の要求に関連するプロセスに対して整理し、チームを有効にして、これらの要求を管理し、顧客(Data Subjects)がブランドに対して積極的で差別化されたエクスペリエンスを得ることができます。
+Audience Manager はデータガバナンスと組織的準備の分野に積極的に取り組むことをお勧めします。これにより、消費者データのアクセス要求または削除要求に関連するプロセスが体系化され、チームのメンバーはこれらの要求を容易に管理できるようになるので、自社ブランドに対して好意的な印象を消費者（データ主体）に与えることができ、エクスペリエンスの差別化を図ることができます。
 
-お客様のデータプロセッサとして、アドビは、GDPR要件とお客様のデータサブジェクトから同意を得るためのプロセスに関する法的なアドバイスを提供できません。 貴社のGDPRコンプライアンスに関するガイダンスについては、弁護士にお問い合わせください。
+アドビはデータ処理者であるので、GDPR 要求、およびデータ主体からの合意の取得のプロセスに関して、法的なアドバイスを提供することはできません。御社の GDPR への準拠に関しては、御社の顧問弁護士にアドバイスを求めてください。
 
 ## データガバナンス：Audience Manager インスタンスにおける消費者データの管理方法について検討を始めてください
 
