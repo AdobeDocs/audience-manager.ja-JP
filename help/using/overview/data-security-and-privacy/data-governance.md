@@ -1,11 +1,11 @@
 ---
-description: このドキュメントでは、Audience Managerでの顧客データの管理方法を説明します。
-seo-description: このドキュメントでは、Audience Managerでの顧客データの管理方法を説明します。
+description: このドキュメントでは、Audience Manager での顧客データの管理方法を説明します。
+seo-description: このドキュメントでは、Audience Manager での顧客データの管理方法を説明します。
 seo-title: データガバナンス
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: データガバナンス
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47819d5e6394e78d744ada1bb7090d337938983
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: b47819d5e6394e78d744ada1bb7090d337938983
 
 ## 概要 {#overview}
 
-Audience Managerのデータガバナンスは、Audience Managerでの顧客データのライフサイクルを指し、IPアドレス [、データ保持率](data-governance.md#collecting-ip-addresses)、および国境を越えたデー [タ転送を収](data-governance.md#data-retention)集して不明化します [](data-governance.md#data-transfers)。
+Audience Manager のデータガバナンスは、Audience Manager での顧客データのライフサイクルを指し、[IP アドレスの収集と難読化](data-governance.md#collecting-ip-addresses)、[データ保持](data-governance.md#data-retention)、および[国境を越えたデータ転送](data-governance.md#data-transfers)を包含します。
 
 ## IP アドレスの収集と IP アドレスの難読化 {#collecting-ip-addresses}
 
@@ -38,8 +38,8 @@ Audience Managerでのどのよ [!DNL IP] アドレスの難読かについて�
 
 ## Audience Manager におけるデータ保持 {#data-retention}
 
-適切で安全なタイムリーなデータ保存ポリシーをデータに適用することは、データのプライバシー規制に準拠する上で重要な要素です。 Audience Manager をご利用のお客様は、所定の TTL （有効期間）を定義することで、特性およびセグメントの保持期間をカスタマイズ設定できます。リテンション期 [間の詳細については、](../../faq/faq-privacy.md) 「データリテンションFAQ」を参照してください。
+データに対して安全で適切なデータ保持ポリシーをタイムリーに適用することは、データプライバシー規制への準拠の重要な部分となります。Audience Manager をご利用のお客様は、所定の TTL （有効期間）を定義することで、特性およびセグメントの保持期間をカスタマイズ設定できます。保持期間の詳細については、[データ保持に関するよくある質問](../../faq/faq-privacy.md)を参照してください。
 
 ## 欧州圏域を超えたデータ転送 {#data-transfers}
 
-GDPR では、欧州圏外へのデータ転送を禁じていませんが、データ転送の際は、欧州におけるデータのプライバシー保護がそのまま適用されることが求められます。詳細については、[アドビプライバシーセンター](https://www.adobe.com/privacy/eudatatransfers.html)にアクセスしてください。CCPAには、国境を越えたデータ転送の制限はありません。
+GDPR では、欧州圏外へのデータ転送を禁じていませんが、データ転送の際は、欧州におけるデータのプライバシー保護がそのまま適用されることが求められます。詳細については、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/eudatatransfers.html)にアクセスしてください。CCPA には、国境を越えたデータ転送についての制限はありません。
