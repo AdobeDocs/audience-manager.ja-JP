@@ -5,13 +5,13 @@ seo-title: 受信データ転送のための ID 同期
 solution: Audience Manager
 title: 受信データ転送のための ID 同期
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 ---
 
 
-# 受信データ転送のための ID 同期{#id-synchronization-for-inbound-data-transfers}
+# 受信データ転送のための ID 同期 {#id-synchronization-for-inbound-data-transfers}
 
 ベンダーと Audience Manager の間でユーザー ID を同期するために、最初の `HTTP` 呼び出しで使用される構文およびパラメーターについて説明します。ID 同期は、データ分類を Audience Manager に送信した後で開始できます。
 
