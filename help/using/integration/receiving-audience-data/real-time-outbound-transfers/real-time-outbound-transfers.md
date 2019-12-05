@@ -5,7 +5,7 @@ seo-title: リアルタイム送信データ転送
 solution: Audience Manager
 title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
@@ -126,8 +126,8 @@ source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
      <li id="li_8352B919A87242E68716FB9EC0443407">セグメントから削除された（セグメントルールに基づいて）。 </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">セグメントから削除された（セグメントの<a href="../../../features/traits/segment-ttl-explained.md">有効期間</a>に基づいて）。 </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">過去 120 日の間確認されず、非アクティブ状態に移行した。 </li>
-     <li>Removed due to a privacy change request (i.e. <span class="keyword"> GDPR</span>)</li>
-    </ul> <p>All partner IDs that are synced to an <span class="keyword"> Audience Manager</span> ID will receive the <code> "Status":"0"</code> flag when a user is unsegmented. </p> </td> 
+     <li>プライバシー変更リクエスト（例：<span class="keyword">GDPR</span>）により削除された</li>
+    </ul> <p><span class="keyword">Audience Manager</span> ID と同期されたすべてのパートナー ID は、ユーザーが非セグメント化されると、<code> "Status":"0"</code> フラグを受け取ります。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
