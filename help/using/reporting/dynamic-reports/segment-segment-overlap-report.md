@@ -5,13 +5,13 @@ seo-title: セグメント間重複レポート
 solution: Audience Manager
 title: セグメント間重複レポート
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
 
-# セグメント間重複レポート{#segment-to-segment-overlap-report}
+# セグメント間重複レポート {#segment-to-segment-overlap-report}
 
 セグメント間で共有される個別ユーザー数に関するデータを返します。
 
@@ -62,8 +62,8 @@ r_s2s_data_pop.xml
 | **[!UICONTROL Base Segment Name]** | レポート結果行に表示されるセグメントの名前。 |
 | **[!UICONTROL Overlapping Segment ID]** | レポートの実行時に選択したセグメントの、一意の数値 ID。セグメントの列 ID として表示されます。 |
 | **[!UICONTROL Overlapping Segment Name]** | レポートの実行時に選択したセグメントの名前。レポート結果列に表示されます。 |
-| **[!UICONTROL Base Segment Uniques]** | ベースセグメント内の個別訪問者数。 |
-| **[!UICONTROL Base Segment Uniques]** | 重なり合うセグメント内の個別訪問者数。 |
+| **[!UICONTROL Base Segment Uniques]** | ベースセグメント の個別訪問者の数。 |
+| **[!UICONTROL Base Segment Uniques]** | 重複しているセグメント の個別訪問者の数。 |
 | **[!UICONTROL Overlapping Uniques]** | 比較対象のセグメント間で共有されている個別訪問者の数。 |
 | **[!UICONTROL Overlap %]** | 重複率（％）を取得するために、Audience Manager は次の数式を使用します：重複している個別訪問者数 別 / (ベースとなるセグメントの個別訪問者数 + 重複セグメントの個別訪問者数 - 重複している個別訪問者数) |
 
