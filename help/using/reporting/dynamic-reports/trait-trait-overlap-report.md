@@ -5,13 +5,13 @@ seo-title: 特性間重複レポート
 solution: Audience Manager
 title: 特性間重複レポート
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
 
-# 特性間重複レポート{#trait-to-trait-overlap-report}
+# 特性間重複レポート {#trait-to-trait-overlap-report}
 
 すべてのファーストパーティおよびサードパーティ特性で共有される個別ユーザーの数に関するデータを返します。
 
@@ -72,40 +72,40 @@ r_t2t_data_pop.xml
    <td colname="col2"> 比較対象の特性間での個別重複率（「Overlap Uniques」/「Trait Uniques」）を表します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> データソースタイプ</span></b> </td> 
-   <td colname="col2">特性が属するデータソースのタイプを定義します。 次のいずれかになります。 
+   <td colname="col1"><b><span class="wintitle"> Data Source Type</span></b> </td> 
+   <td colname="col2">特性が属するデータソースのタイプを定義します。次のいずれかになります。 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">First-party（自分の特性）。 </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Third-party（外部のデータパートナー／ベンダー）。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 重複する特性ID</span></b> </td> 
-   <td colname="col2"> 重複する特性の一意の数値ID。 </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlapping Trait ID</span></b> </td> 
+   <td colname="col2"> 重複する特性の一意の数値 ID。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 重複する特性名</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlapping Trait Name</span></b> </td> 
    <td colname="col2"> 重複する特性の名前。 </td> 
   </tr>
     <tr> 
-   <td colname="col1"><b><span class="wintitle"> 特性ID 2</span></b> </td> 
-   <td colname="col2"> ベースデータソース内の特性の一意の数値ID。 </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait ID 2</span></b> </td> 
+   <td colname="col2"> ベースデータソース内の特性の一意の数値 ID。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 特性名2</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait Name 2</span></b> </td> 
    <td colname="col2"> ベースデータソース内の特性の名前。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Overlap Uniques</span></b> </td> 
-   <td colname="col2"> <p>重複率を取得するために、Audience Manager は次の数式を使用します。</p> <p>重複する固有数/（基本特性固有数+重複する特性固有 — 重複する固有数）</p> </td> 
+   <td colname="col2"> <p>重複率を取得するために、Audience Manager は次の数式を使用します。</p> <p>Overlapping Uniques / (Base trait Uniques + Overlapping trait Uniques – Overlapping Uniques)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 重複する特性固有</span></b> </td> 
-   <td colname="col2"> 重なり合う特性からの個別訪問者数。 </td> 
+   <td colname="col1"><b><span class="wintitle"> Overlapping Trait Uniques</span></b> </td> 
+   <td colname="col2"> 重複している特性の個別訪問者の数。 </td> 
   </tr> 
     <tr> 
-   <td colname="col1"><b><span class="wintitle"> 基本特性固有</span></b> </td> 
-   <td colname="col2"> 基本特性からの個別訪問者数。 </td> 
+   <td colname="col1"><b><span class="wintitle"> Base Trait Uniques</span></b> </td> 
+   <td colname="col2"> ベース特性の個別訪問者の数。 </td> 
   </tr> 
  </tbody> 
 </table>
