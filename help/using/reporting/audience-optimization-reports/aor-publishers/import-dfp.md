@@ -5,13 +5,13 @@ seo-title: DFP データファイルを Audience Manager にインポート
 solution: Audience Manager
 title: DFP データファイルを Audience Manager にインポート
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
 
 ---
 
 
-# DFP データファイルを Audience Manager にインポート{#import-dfp-data-files-into-audience-manager}
+# DFP データファイルを Audience Manager にインポート {#import-dfp-data-files-into-audience-manager}
 
 Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
 
