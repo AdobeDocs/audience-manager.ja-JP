@@ -5,13 +5,13 @@ seo-title: Audience Optimization レポートおよび実用的なログファ�
 solution: Audience Manager
 title: Audience Optimization レポートおよび実用的なログファイル用のデータファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 ---
 
 
-# Audience Optimization レポートおよび実用的なログファイル用のデータファイル{#data-files-for-audience-optimization-reports}
+# Audience Optimization レポートおよび実用的なログファイル用のデータファイル {#data-files-for-audience-optimization-reports}
 
 データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、[Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)で表示し、[実用的なログファイル](/help/using/integration/media-data-integration/actionable-log-files.md)からデータを使用して特性を作成できます。データファイルの形式を、この節で説明した仕様に合わせてください。
 
@@ -137,7 +137,7 @@ source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
  </tbody> 
 </table>
 
-## データファイルの配信方法 {#delivery-methods}
+## データファイルの配信方法{#delivery-methods}
 
 インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
