@@ -5,13 +5,13 @@ seo-title: セグメント／特性間重複レポート
 solution: Audience Manager
 title: セグメント／特性間重複レポート
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
 
-# セグメント／特性間重複レポート{#segment-to-trait-overlap-report}
+# セグメント／特性間重複レポート {#segment-to-trait-overlap-report}
 
 特定の特性とセグメント全体とで共有される個別ユーザーの数に関するデータを返します。
 
@@ -134,11 +134,11 @@ r_s2t_data_pop.xml
    <td colname="col2"> セグメントの一意な数値 ID。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> 特性データソース </span></b> </td> 
-   <td colname="col2"> 特性所有者の名前。 </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait Data Source </span></b> </td> 
+   <td colname="col2"> 特性の所有者の名前。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> データソースタイプ</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Data Source Type</span></b> </td> 
    <td colname="col2">特性が属するプロバイダーのタイプを定義します。次のいずれかになります。 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">First-party（自分の特性）。 </li> 
@@ -146,8 +146,8 @@ r_s2t_data_pop.xml
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Trait ID</span></b> </td> 
-   <td colname="col2"> 特性の一意の数値ID。 </td> 
+   <td colname="col1"><b><span class="wintitle">Trait ID</span></b> </td> 
+   <td colname="col2"> セグメントの一意の数値 ID。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Trait Name</span></b> </td> 
