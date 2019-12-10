@@ -5,8 +5,8 @@ seo-title: 一括管理ツールのトラブルシューティングのヒント
 solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
-translation-type: ht
-source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
+translation-type: tm+mt
+source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
 * 更新済みの行をすべて削除する。
 * 再度一括リクエストを試行する。
 
-## 遅延が長い、または応答がない{#delays-behavior}
+## 認証エラー、長時間の遅延、または応答しない動作 {#delays-behavior}
 
 次の表は、ワークシートで一括リクエストをおこなう場合に発生する可能性がある一般的な問題のリストです。推奨される解決策により問題の解決を試してください。推奨される解決策で問題が解決しない場合、作業内容を保存し、コンピューターを再起動して、他のアプリケーションの起動や操作をおこなわずにリクエストを再度試行してください。
 
@@ -46,6 +46,12 @@ source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <b>認証エラー</b> </td> 
+   <td colname="col2"> 
+    <b>Microsoft excelの最新バージョンに更新する</b>:新しいバージョンのMicrosoft excelがリリースされ、古いバージョンを使用している場合、バルク管理ワークシートで認証エラーが発生する可能性があります。 認証エラーを解決するには、最新バージョンのMicrosoft excelに更新してください。
+</td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <b>遅延が長い</b> </td> 
    <td colname="col2"> 
