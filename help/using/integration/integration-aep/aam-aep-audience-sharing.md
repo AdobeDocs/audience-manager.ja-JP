@@ -5,8 +5,8 @@ seo-title: Audience Manager と Adobe Experience Platform の間でのオーデ�
 solution: Audience Manager
 title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
-translation-type: ht
-source-git-commit: b3f7ee5730ed91c656f0dea1bacfabad703755fd
+translation-type: tm+mt
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -30,7 +30,7 @@ Audience Manager では、次のように、Data Management Platform のユー�
 * [アルゴリズムモデリング](/help/using/features/algorithmic-models/understanding-models.md)
 * Experience Platform で現在サポートされていない宛先に対するセグメントをアクティブ化します。
 
-さらに、Experience Platform のセグメントは、[コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/experience-cloud.html)を介して他の Experience Cloud ソリューションと共有されます。
+さらに、Experience Platform のセグメントは、[コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)を介して他の Experience Cloud ソリューションと共有されます。
 
  <br>
 
