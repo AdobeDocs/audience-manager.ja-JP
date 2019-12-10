@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 最適頻度レポート
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -14,6 +14,8 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 # 最適頻度レポート{#optimal-frequency-report}
 
 最適頻度レポートは、提供されるインプレッションとコンバージョンの数の最適なバランスを見つけるのに役に立ちます。これにより、効果が下がり始める前に、表示するインプレッションの数を調整することができます。
+
+レポートには、セレクターで選択した日付から30日間のルックバック間隔があ [!UICONTROL Date Through] ります。
 
 高いインプレッション頻度グループでは、コンバージョン量は通常少なくなります。ユーザーが少ないとインプレッション数は多くなります。つまり、高い頻度グループではコンバージョンが少なくなります。
 
@@ -23,5 +25,4 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ## レポートのサンプル
 
-![](assets/optimal-frequency.png)
-
+![最適周波数](assets/optimal-frequency.png)
