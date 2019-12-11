@@ -5,13 +5,13 @@ seo-title: テストグループの管理
 solution: Audience Manager
 title: テストグループの管理
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
 
 ---
 
 
-# テストグループの管理{#manage-test-groups}
+# テストグループの管理 {#manage-test-groups}
 
 この手順では、[!UICONTROL Audience Lab] でテストグループを作成、編集または削除するための方法について説明します。
 
@@ -21,7 +21,7 @@ source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
 
 <!-- create-test-group.xml -->
 
-* **コンバージョン特性**&#x200B;を少なくとも 1 つセットアップしておく必要があります。コンバージョン特性は、[特性ビルダー](../../features/traits/create-onboarded-rule-based-traits.md)で、Event Type に **conversion** を選択することでセットアップできます。For more information on what conversion traits are and how to set them up, we prepared a [video](https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html) for you.
+* **コンバージョン特性**&#x200B;を少なくとも 1 つセットアップしておく必要があります。コンバージョン特性は、[特性ビルダー](../../features/traits/create-onboarded-rule-based-traits.md)で、Event Type に **conversion** を選択することでセットアップできます。コンバージョン特性の詳細とセットアップ方法については、こちらの[ビデオ](https://helpx.adobe.com/jp/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html)をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -59,7 +59,7 @@ source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
    * コンバージョン特性ウィンドウで入力して、コンバージョン特性を追加します。これは&#x200B;**必須**&#x200B;手順であり、少なくとも 1 つのコンバージョン特性を追加しない限り、次の手順には進めません。
    * 最大 5 つのコンバージョン特性を任意に追加できます。
    * 他のテストグループに既に使用されているコンバージョン特性を選択した場合は、警告が表示されます。
-   * Audience Managerでは、フォルダー特性の変換特性としての使用はサ [ポートされ](/help/using/features/traits/about-folder-traits.md) ません。 フォルダー特性をコンバージョン特性として選択すると、0個の集計とトレンドレポートがテスト内に表示されます。
+   * Audience Manager では、コンバージョン特性としての[フォルダー特性](/help/using/features/traits/about-folder-traits.md)の使用はサポートしていません。コンバージョン特性としてフォルダー特性を選択すると、テスト内に表示される集計およびトレンドレポートが 0 になります。
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 
