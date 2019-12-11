@@ -5,7 +5,7 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのクリッ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 クリック追跡呼び出しには次のパラメーターが必要です。
 
 * `d_event=click`：イベント呼び出しをクリックイベントとして識別するキーと値のペア。
-* `d_rd=redirect URL`:二重エンコードされたリダイレクトが含まれるキーと値のペアで [!DNL URL]す。 オンラインエンコーディングツールを使用している場合は、エンコーダーを使用して文字列を実行し、リダイレクトが機能するように結果を再度エンコードします。
+* `d_rd=redirect URL`：二重エンコードされたリダイレクト [!DNL URL] が含まれているキーと値のペア。オンラインエンコーディングツールを使用している場合、リダイレクトが機能するように、エンコーダーを使用して文字列を実行してから、結果を再びエンコードします。
 
 さらに、呼び出しには、特性認定や他のレポートへのデータやメタデータの提供に使用できるキーと値のペアを含めることもできます｡
 
@@ -89,7 +89,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
