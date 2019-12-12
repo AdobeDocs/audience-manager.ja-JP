@@ -6,8 +6,8 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy
 title: データのプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-translation-type: ht
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+translation-type: tm+mt
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -49,16 +49,16 @@ Audience Manager から消費者データにアクセスして削除する個々
 
 有効な [!DNL JSON] ファイルがどのようなものであるかを確認するには、[JSON のサンプルをダウンロード](../data-security-and-privacy/assets/access_request.json)できます。
 
-顧客のデータプライバシー要求は、受領後 30 日以内に処理することが掲げられていることを踏まえ、アドビでは、お客様からのデータ削除要求をできるだけ早急に処理するよう努めています。
+アドビは、データのプライバシーに関するお客様の要請を受信後30日以内に遵守する取り組みを理解しています。 そのため、アドビはデータ削除リクエストの処理をできるだけ早く行うことに取り組んでいます。
 
-データ削除要求への応答として、要求に含まれている Audience Manager 識別子に関連付けられた特性およびセグメントが削除されます。さらに、データ主体の個々の Audience Manager 識別子は以降のデータ収集から完全にオプトアウトされ、それぞれの ID マッピングは削除されます。
+コンシューマーデータ削除のリクエストに応じて、Audience Managerは、リクエストに含まれるAudience Manager識別子に関連付けられた特徴とセグメントを削除します。 さらに、Audience Managerによる追加のデータ収集からオプトアウトされた個々のAudience Manager識別子に対応するIDマッピングは削除されます。
 
 複数のデバイスにまたがる [!DNL CRM] ID や顧客の Cookie ID などの宣言済み ID がデータプライバシー要求で送信された場合、Audience Manager は関連付けられたすべてのデバイス（1 つの宣言済み ID につき最大 100 個のデバイス）に対して必要な削除をおこないます。
 
-特定のデータの削除を要求しているデータ主体のセグメント解除の情報を送信することで、Audience Manager からアクティベーションパートナーに対して削除要求が通知されます。ただし、一部のアクティベーションパートナーは、
+Audience Managerは、特定のデータの削除を要求するデータサブジェクトのセグメント化解除情報を送信することで、アクティベーションパートナーに削除の要求に関する通知を試行します。 ただし、一部のアクティベーションパートナーは、
 
-1. アドビからのセグメント解除（またはセグメント削除）リクエストをサポートできません、および／または
-2. 30 日未満の頻度で更新を受け取れません。このような場合、Audience Manager をご利用のお客様は、アクティベーションパートナーに対して Audience Manager から自動で削除要求を送信することはできません。
+1. Audience Managerまたは
+2. 30日未満の頻度でAudience Managerから更新を受け取ることはできません。 その場合、Audience Managerのお客様は、Audience Managerを使用して自動化された方法で、アクティベーションパートナーに削除リクエストを送信できません。
 
 このような場合、お客様はアクティベーションパートナーに対して、Audience Manager から自動で削除要求を送信することはできません。
 
@@ -66,7 +66,7 @@ Audience Manager のアクティベーションパートナーの中でどれが
 
 ## オプトアウト要求 {#opt-out-requests}
 
-アドビは、オプトアウト管理に関する業界全体のすべての標準に準拠しています。Audience Manager でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
+Audience Managerは、オプトアウト管理に関する業界全体の標準をサポートしています。 Audience Manager でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
 
 データのアクセスおよび削除要求は[プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)で処理されますが、現在、オプトアウトの要求は DCS API を通じてサポートされています。オプトアウト API 呼び出しの例を以下に示します。
 
@@ -84,7 +84,7 @@ Audience Manager のアクティベーションパートナーの中でどれが
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p><a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audience Manager に対する直接 API 呼び出し </p> </td> 
@@ -94,8 +94,8 @@ Audience Manager のアクティベーションパートナーの中でどれが
    <td colname="col1"> <p>モバイルデバイス </p> </td> 
    <td colname="col2"> <p>以下のデバイスに対するオプトアウト設定とプライバシー設定を確認します。 </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mobile/android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -103,12 +103,12 @@ Audience Manager のアクティベーションパートナーの中でどれが
 
 エンドユーザーは、アドビの業界標準パートナーの Web サイトを訪問してグローバルデータ収集からオプトアウトすることもできます。
 
-* [Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#! /)
-* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#! /)
+* [Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/)
+* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#!/)
 
 上記のオプトアウトリクエストをおこなうと、次の処理がおこなわれます。
 
-* Audience Manager は進行中のすべてのデータ収集、セグメント化、アクティブ化を停止します。
+* ユーザーがブラウザーのCookieをクリアしない限り、Audience Managerは、今後すべてのデータ収集、セグメント化またはアクティブ化を停止します。
 * 120 日後にユーザープロファイルから履歴データが削除されます。
 
 ### 宣言された ID 呼び出しを使用するパートナーレベルのオプトアウト
@@ -161,12 +161,12 @@ Audience Manager がパートナーレベルのオプトアウトリクエスト
 
 ## セグメント化解除に対応している Audience Manager パートナー {#aam-partners-with-unsegmentation}
 
-お客様がデータのプライバシーリクエストを自動化できるよう、Audience Manager からアクティベーションパートナーに対してセグメント解除（またはセグメント削除）の情報が送信され、データ主体からの削除要求が通知されます。
+コンシューマーデータのプライバシーリクエストを自動化するため、Audience Managerは、セグメント解除（またはセグメントの削除）情報を送信して、データサブジェクトからの削除リクエストについてアクティベーションパートナーに通知しようとします。
 
 ただし、一部のアクティベーションパートナーは、以下のいずれかまたは両方の状態である場合があります。
 
-1. アドビからのセグメント解除の要求をサポートしていない。
-1. 30 日に 1 回より高い頻度でアドビからの更新を受け取ることができない。
+1. Audience Managerまたは
+2. 30日間で、Audience Managerからより頻繁に更新を受け取ることはできません。
 
 このような場合、お客様はアクティベーションパートナーに対して、Audience Manager から自動で削除要求を送信することはできません。
 
@@ -174,6 +174,6 @@ Audience Manager のアクティベーションパートナーの中でどれが
 
 ## データ修正要求 {#correction}
 
-Audience Manager はデータソースではないので、データ修正に対して Audience Manager でできることは限られています。修正においては、データ主体が不正確な特性／セグメントからの解除を求める場合、または正しい特性／セグメントへの適合を求める場合のいずれかとなります。
+Audience Manager はデータソースではないので、データ修正に対して Audience Manager でできることは限られています。この修正は、コンシューマーが不正な特性/セグメントから資格を失うか、目的の特性/セグメントに資格を与えるかを要求したことを意味する場合があります。
 
 Audience Manager をご利用のお客様は、ユーザープロファイルに合致する信号／特性／セグメントを取得し、[オフラインのデータ収集](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)を通してこの情報を Audience Manager に送信できます。ユーザーの動作が変わらない限り、元の特性およびセグメントに適合したままとなることにご注意ください。
