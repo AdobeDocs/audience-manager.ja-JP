@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: データのプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
+source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ---
 
@@ -170,7 +170,7 @@ Audience Manager がパートナーレベルのオプトアウトリクエスト
 
 このような場合、お客様はアクティベーションパートナーに対して、Audience Manager から自動で削除要求を送信することはできません。
 
-Audience Manager のアクティベーションパートナーの中でどれがセグメント解除をサポートしているかを確認するには、[パートナーに関する Excel シート](assets/AAM-Partners-October2019.xlsx)をダウンロードしてください。
+Audience Manager のアクティベーションパートナーの中でどれがセグメント解除をサポートしているかを確認するには、[パートナーに関する Excel シート](assets/AAM-Partners-December2019.xlsx)をダウンロードしてください。
 
 ## データ修正要求 {#correction}
 
