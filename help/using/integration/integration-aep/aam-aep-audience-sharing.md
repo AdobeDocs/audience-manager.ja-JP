@@ -5,7 +5,7 @@ seo-title: Audience Manager と Adobe Experience Platform の間でのオーデ�
 solution: Audience Manager
 title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
@@ -30,7 +30,7 @@ Audience Manager では、次のように、Data Management Platform のユー�
 * [アルゴリズムモデリング](/help/using/features/algorithmic-models/understanding-models.md)
 * Experience Platform で現在サポートされていない宛先に対するセグメントをアクティブ化します。
 
-さらに、Experience Platform のセグメントは、[コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)を介して他の Experience Cloud ソリューションと共有されます。
+さらに、Experience Platform のセグメントは、[コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/experience-cloud.html)を介して他の Experience Cloud ソリューションと共有されます。
 
  <br>
 
@@ -75,7 +75,7 @@ Experience Platform セグメントから自動的に作成された特性の例
 | 1 | 特性タイプ | Experience Platform セグメントから作成された特徴は、Audience Manager でオンボードの特性として作成されます。 |
 | 2 | データソース | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**Adobe Experience Platform オーディエンス共有**&#x200B;のデータソースに保存されます。 |
 | 3 | 統合コード | 統合コードは、Experience Platform のセグメント ID に対応します。 |
-| 4 | Trait Expression | 特性の式は `segID = segment ID in Experience Platform` です。 |
+| 4 | 特性の式 | 特性の式は `segID = segment ID in Experience Platform` です。 |
 | 5 | この特性を持つセグメント | この特性を構成として使用する、自動的に作成されたセグメント。 |
 
  <br>
