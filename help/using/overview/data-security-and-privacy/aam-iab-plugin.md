@@ -5,7 +5,7 @@ seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: IAB TCF 用 Audience Manager プラグイン
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ---
 
@@ -131,7 +131,7 @@ http://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstrin
 
 ## IAB TCF をサポートするアクティベーションパートナー {#aam-activation-partners}
 
-IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TCF のコンセントストリングをアクティベーションパートナーに転送できます。IAB TCF をサポートするアクティベーションパートナーに関する情報は、**[パートナー Excel シート](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-October2019.xlsx)**&#x200B;を参照してください。
+IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TCF のコンセントストリングをアクティベーションパートナーに転送できます。IAB TCF をサポートするアクティベーションパートナーに関する情報は、**[パートナー Excel シート](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-December2019.xlsx)**&#x200B;を参照してください。
 
 ## IAB 実装のテスト {#test-iab-implementation}
 
