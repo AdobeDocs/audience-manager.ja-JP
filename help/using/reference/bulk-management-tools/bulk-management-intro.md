@@ -6,13 +6,13 @@ seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
 
 ---
 
 
-# 一括管理の概要{#getting-started-with-bulk-management}
+# 一括管理の概要 {#getting-started-with-bulk-management}
 
 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、モデル、セグメントおよび特性を処理できます。
 
@@ -40,7 +40,7 @@ c_bulk_start.xml
 
 * [!DNL Experience Cloud] へのログイン。お客様が既にお持ちの資格情報です。
 * [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20191205.xlsm)してください。
-* [!DNL macOS] または 64 ビット版 [!DNL Microsoft Windows] で実行している Microsoft Excel。最新バージョンのMicrosoft excelを使用することをお勧めします。
+* [!DNL macOS] または 64 ビット版 [!DNL Microsoft Windows] で実行している Microsoft Excel。最新バージョンの Microsoft Excel を使用することをお勧めします。
 * ワークシートを開く場合は、[!DNL Bulk Management Tools] で&#x200B;**マクロを有効にする**&#x200B;必要があります。
 
 ## 認証の要件およびオプション {#auth-reqs}
