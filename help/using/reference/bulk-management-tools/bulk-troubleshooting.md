@@ -5,13 +5,13 @@ seo-title: 一括管理ツールのトラブルシューティングのヒント
 solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 ---
 
 
-# 一括管理ツールのトラブルシューティングのヒント{#troubleshooting-tips-for-bulk-management-tools}
+# 一括管理ツールのトラブルシューティングのヒント {#troubleshooting-tips-for-bulk-management-tools}
 
 ワークシートでエラーが返された場合や、一括要求が失敗した場合の対処方法。
 
@@ -49,7 +49,7 @@ source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
   <tr> 
    <td colname="col1"> <b>認証エラー</b> </td> 
    <td colname="col2"> 
-    <b>Microsoft excelの最新バージョンに更新する</b>:新しいバージョンのMicrosoft excelがリリースされ、古いバージョンを使用している場合、バルク管理ワークシートで認証エラーが発生する可能性があります。 認証エラーを解決するには、最新バージョンのMicrosoft excelに更新してください。
+    <b>Microsoft Excel の最新バージョンに更新する</b>：新しいバージョンの Microsoft Excel がリリースされ、古いバージョンを使用している場合、一括管理ワークシートで認証エラーが発生する可能性があります。認証エラーを解決するには、最新バージョンの Microsoft Excel に更新してください。
 </td> 
   </tr> 
   <tr> 
