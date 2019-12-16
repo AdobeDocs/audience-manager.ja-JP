@@ -1,11 +1,11 @@
 ---
-description: Audience Managerでは、有効性を確保するために、HTTP(S)のサーバー間リクエストに電子署名が必要です。 ここでは、HTTP 要求に秘密鍵で署名する方法について説明します。
-seo-description: Audience Managerでは、有効性を確保するために、HTTP(S)のサーバー間リクエストに電子署名が必要です。 このドキュメントでは、秘密鍵を使用してHTTP(S)リクエストに署名する方法を説明します。
-seo-title: デジタル署名されたHTTP要求
+description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP(S) サーバー間リクエストが必要です。ここでは、HTTP 要求に秘密鍵で署名する方法について説明します。
+seo-description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP(S) サーバー間リクエストが必要です。ここでは、HTTP(S) 要求に秘密鍵で署名する方法について説明します。
+seo-title: デジタル署名された HTTP(S) 要求
 solution: Audience Manager
-title: デジタル署名されたHTTP要求
+title: デジタル署名された HTTP(S) 要求
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
 
 ---
@@ -19,7 +19,7 @@ Audience Manager では、`HTTP(S)` サーバー間要求をデジタル署名�
 
 <!-- digitally_signed_http_requests.xml -->
 
-Using a private key provided by you and shared with [!DNL Audience Manager], we can digitally sign the `HTTP(S)` requests that are sent between [IRIS](../../../reference/system-components/components-data-action.md#iris) and your HTTP(S) server. これにより、以下が保証されます。
+ユーザーから提供され [!DNL Audience Manager] と共有される秘密鍵を使用して、[IRIS](../../../reference/system-components/components-data-action.md#iris) と HTTP(S) サーバーの間で送信される `HTTP(S)` 要求にデジタル署名することができます。これにより、以下が保証されます。
 
 * **信頼性**：秘密鍵を持っている送信側（[!UICONTROL IRIS]）だけが、有効な `HTTP(S)` メッセージをパートナーに送信できます。
 * **メッセージの整合性**：このアプローチにより、`HTTP` の場合でも、中間者攻撃でメッセージが改変されるのを防ぐことができます。
@@ -82,7 +82,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-The RFC for the [!DNL HMAC] hash implementation is [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). A test site: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (note that you have to [convert](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) the hex encoding to base64).
+[!DNL HMAC]ハッシュ実装の RFC は [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt) です。テストサイトは [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) です（Hex エンコーディングを base64 に[変換](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)する必要があることに注意してください）。
 
 ## 秘密鍵のローテーション {#rotate-private-key}
 
