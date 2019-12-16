@@ -6,7 +6,7 @@ solution: Audience Manager
 title: GDPR の用語集
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -35,7 +35,7 @@ GDPR に関連して使用されるキーワードを確認しましょう。よ
 
  
 
-**データ主体：**&#x200B;個人データが関連付けられる個人。Audience Manager では、データ主体とは Audience Manager をご利用のお客様に対する消費者またはエンドユーザーとなります。データ主体から Audience Manager に対して直接要求が送られた場合、これらの要求はそれぞれお客様に転送されます。
+**データ主体：**&#x200B;個人データが関連付けられる個人。Audience Manager では、データ主体とは Audience Manager をご利用のお客様に対する消費者またはエンドユーザーとなります。アドビがデータサブジェクトから直接要求を受け取る場合、これらの要求は、それぞれのAudience Managerユーザーに転送されます。
 
  
 
