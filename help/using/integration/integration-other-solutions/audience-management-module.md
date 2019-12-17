@@ -1,13 +1,13 @@
 ---
 description: Audience Management モジュールを Adobe Analytics AppMeasurement に追加すると、Audience Manager データ統合ライブラリ（DIL）コードでページからピクセルを送信するのではなく、Analytics データを Audience Manager に転送することができます。
-keywords: audience analytics; analytics; ssf; サーバー側転送
+keywords: audience analytics; analytics; ssf; server side forwarding
 seo-description: Audience Management モジュールを Adobe Analytics AppMeasurement に追加すると、Audience Manager データ統合ライブラリ（DIL）コードでページからピクセルを送信するのではなく、Analytics データを Audience Manager に転送することができます。
 seo-title: Audience Management モジュールの実装
 solution: Audience Manager
 title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: d6bfffa97813eeafd7e478f0520b2a62eb63cb94
 
 ---
 
@@ -15,6 +15,10 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 # Audience Management モジュールの実装 {#implement-the-audience-management-module}
 
 [!UICONTROL Audience Management Module] を [!DNL Adobe Analytics] [!UICONTROL AppMeasurement] に追加すると、 Audience Manager [!UICONTROL Data Integration Library] （[!UICONTROL DIL]）コードでページからピクセルを送信する代わりに、[!DNL Analytics] データを Audience Manager に転送することができます。
+
+>[!NOTE]
+>
+>このページの手順は、 [Adobe Digital Tag Manager(DTM)または](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) Adobe Launchを除く他のタグ管理ソリューションを使用した実 *装を* 指します [](https://docs.adobe.com/content/help/en/launch/using/overview.html)。 Adobe Launchを使用することをお勧めします。 「起動」を使用すると、このページに示すように、コードを手動でコピーする必要がありません。
 
 ## 前提条件 {#prereqs}
 
