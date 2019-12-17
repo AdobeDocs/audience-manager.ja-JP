@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: d6bfffa97813eeafd7e478f0520b2a62eb63cb94
+source-git-commit: 1b7c29c0637432a320b2a7573a3f5a7fb4cdcb81
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: d6bfffa97813eeafd7e478f0520b2a62eb63cb94
 
 >[!NOTE]
 >
->このページの手順は、 [Adobe Digital Tag Manager(DTM)または](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) Adobe Launchを除く他のタグ管理ソリューションを使用した実 *装を* 指します [](https://docs.adobe.com/content/help/en/launch/using/overview.html)。 Adobe Launchを使用することをお勧めします。 「起動」を使用すると、このページに示すように、コードを手動でコピーする必要がありません。
+>このページの手順は、 [Adobe Digital Tag Manager(DTM)または](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) Adobe Launchを除く他のタグ管理ソリューションを使用した実 *装を* 指します [](https://docs.adobe.com/content/help/en/launch/using/overview.html)。 Adobe Launchを使用することをお勧めします。 を使用す [!DNL Launch]ると、に手動でコードをコピーする必要がなくなりま [!UICONTROL AppMeasurement]す（このページを参照）。
 
 ## 前提条件 {#prereqs}
 
