@@ -6,8 +6,8 @@ seo-title: 実用的なログファイル
 solution: Audience Manager
 title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
-translation-type: ht
-source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
+translation-type: tm+mt
+source-git-commit: a96e64d81b6834a308ba40ec3f7fa6ada038f662
 
 ---
 
@@ -31,11 +31,11 @@ source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
 * [!UICONTROL Google DCM] ログについては、[DCM データファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
 * その他の広告サーバーログについては、[データとメタデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問合せください。
 
-既にログデータを [!DNL Audience Manager] に読み込んでいる場合は、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)にお問合せいただき、[!UICONTROL Actionable Log Files] を有効化してもらってください。
+既にログデータを [!DNL Audience Manager] に読み込んでいる場合は、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/contact/enterprise-support.ec.html)にお問合せいただき、[!UICONTROL Actionable Log Files] を有効化してもらってください。
 
 >[!IMPORTANT]
 >
-> 2019 年末に、[!UICONTROL Actionable Log Files] は新しい広告サーバーのアベイラビリティの拡大を開始します。開始するには、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)にお問合せください。
+> 2019 年末に、[!UICONTROL Actionable Log Files] は新しい広告サーバーのアベイラビリティの拡大を開始します。開始するには、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/contact/enterprise-support.ec.html)にお問合せください。
 
 ## 実用的なログファイルの使用 {#working-with-actionable-log-files}
 
@@ -245,6 +245,19 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
+## Audience Manager UI での実用的なシグナルの操作 {#actionable-signals-in-ui}
+
+実用的な着信シグナルは、[シグナル検索](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)インターフェイスで表示できます。
+
+**オーディエンスデータ**（1）／**シグナル**（2）／**検索**（3）に移動し、**実用的なログファイル**（4）フィルターを選択します。
+
+![UI の実用的なシグナル](/help/using/integration/assets/alf-in-signals.png)
+
+実用的なシグナルを使用してルールベースの特性を作成するには、「**実用的なログファイル**」（1）を選択し、特性ルールとして使用する実用的なシグナル（2）を選択して、「**シグナルからの特性の作成**」（3）を押します。
+
+![シグナルからの特性の作成](/help/using/integration/assets/alf-create-trait.png)
+
+
 ## ユースケース {#use-cases}
 
 [!UICONTROL Actionable Log Files]を実装するメリットの 1 つは、実用的なシグナルを含んだあらゆる[ルールベースの特性](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)に[最新性と頻度](../../features/segments/recency-and-frequency.md)の制御を適用できることです。これによって、例えば、メディアキャンペーン内で特定のクリエイティブがあるユーザーに対して表示される回数を制限するフリークエンシーキャップを有効にできます。この方 法については、「[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)」を参照してください。他にも以下のようなユースケースがあります。
@@ -269,7 +282,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ### Audience Optimization レポートまたは Audience Lab で DCM フラッドライトアクティビティを使用
 
-[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=ja)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)または [Audience Lab](../../features/audience-lab/audience-lab.md) で [!DNL DCM] コンバージョンを追跡できます。
+[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=en)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)または [Audience Lab](../../features/audience-lab/audience-lab.md) で [!DNL DCM] コンバージョンを追跡できます。
 
 1. 特性を作成し、広告サーバーログからコンバージョンを取得する次の特性ルールを使用します。
 
