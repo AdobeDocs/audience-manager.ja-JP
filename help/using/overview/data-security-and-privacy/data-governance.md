@@ -5,7 +5,7 @@ seo-title: データガバナンス
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: データガバナンス
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
@@ -42,4 +42,4 @@ Audience Managerでのどのよ [!DNL IP] アドレスの難読かについて�
 
 ## 欧州圏域を超えたデータ転送 {#data-transfers}
 
-Audience Managerが国境を越えて顧客から個人データを転送する場合、Audience Managerは適用法に準拠してデータを転送します。 詳細については、[アドビプライバシーセンター](https://www.adobe.com/privacy/eudatatransfers.html)にアクセスしてください。
+Audience Manager が国境を越えてお客様の個人データを転送する場合、Audience Manager は適用法に準拠してデータを転送します。詳細については、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/eudatatransfers.html)にアクセスしてください。
