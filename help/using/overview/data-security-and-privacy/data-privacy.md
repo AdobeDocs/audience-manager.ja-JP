@@ -5,7 +5,7 @@ seo-title: データのプライバシー概要
 solution: Audience Manager
 title: データプライバシーの概要
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 データプライバシードキュメントでは、消費者のプライバシーおよびオプトアウト手順に関連する一般に認められたベストプラクティスに対する Audience Manager の統合と準拠について説明します。
 
-Audience Manager は、顧客と顧客がやり取りするオンラインブランドとの関係の重要性を認識します。両当事者は偽名のデータ要素を透過的に交換することでメリットを得られます。
+Audience Manager は、顧客と顧客がやり取りするオンラインブランドとの関係の重要性を認識します。両者とも、匿名データ要素の透過的な交換のメリットを得ることができます。
 
 * 消費者は、パーソナライズされたコンテンツ、割引製品オファー、効率化されたユーザーエクスペリエンスを得ることができます。
 * ブランドは、複数のオンラインビジネスモデルをサポートする非常に重要な収入源を得ることができます。
@@ -34,13 +34,13 @@ GDPR に準拠するため、Audience Manager はデータアクセスおよび�
 
 CCPA は、カリフォルニア在住者に対して、自分の個人データにアクセスし削除する権利や、自分の個人データが販売または開示されたか（そして誰に対して）を知る権利など、新しいデータプライバシー権を提供します。CCPA への準備として、Audience Manager ではCCPA のアクセスおよび削除[要求](data-privacy-requests.md)をサポートします。
 
-詳しくは、アドビ[プライバシーセンター](https://www.adobe.com/privacy/opt-out.html)を参照してください。
+詳しくは、アドビ[プライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)を参照してください。
 
 ## 規制コンプライアンス {#compliance}
 
 Audience Manager は、[Adobe Experience Platform プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
 
-このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。Using the [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), you can submit requests to access and delete personal data, based on an individual consumer’s request, helping to automate this portion of your compliance obligations.
+このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
 
 データアクセスおよび削除の要求は[プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)で処理されますが、現在、[オプトアウト要求](data-privacy-requests.md#opt-out-requests)は [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) を通じてサポートされています。詳しくは、[データのプライバシーリクエスト](data-privacy-requests.md)を参照してください。
 
