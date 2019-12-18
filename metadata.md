@@ -10,7 +10,7 @@ tutorials-title: チュートリアル
 tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/audience-manager.en
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
 
 ---
