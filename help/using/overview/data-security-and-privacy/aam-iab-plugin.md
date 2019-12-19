@@ -5,7 +5,7 @@ seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: IAB TCF 用 Audience Manager プラグイン
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
 
 ---
 
@@ -40,11 +40,11 @@ Audience Manager で IAB TCF を使用するには、次の前提条件を満た
 1. Experience Cloud ID サービス（ECID）バージョン 4.1 以降を使用している。アドビの最新 ECID リリースを[ダウンロード](https://github.com/Adobe-Marketing-Cloud/id-service/releases)してください。
 1. [こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロード可能な、Audience Manager Data Integration Library（DIL）バージョン 9.0 以降を使用している。[Audience Manager ドキュメントの DIL](../..//dil/dil-overview.md) をお読みください。
 1. また、サーバー側転送（SSF）を使用して Audience Manager にデータを読み込む場合は、最新バージョンの AppMeasurement を使用する必要があります。[Analytics コードマネージャー](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)を使用して AppMeasurement をダウンロードしてください。
-1. IAB TCFをサポートする、商用または独自の同意管理プラットフォーム(CMP)を使用し、IAB TCFに登録されている必要があります。 [IAB フレームワーク内の登録 CMP](https://advertisingconsent.eu/cmp-list/)のリストを参照してください。
+1. IAB TCF をサポートする市販または独自の同意管理プラットフォーム（CMP）を使用し、IAB TCF に登録している。[IAB フレームワーク内の登録 CMP](https://advertisingconsent.eu/cmp-list/)のリストを参照してください。
 
 ## レコメンデーションと実装方法 {#recommendations}
 
-Audience Manager で IAB TCF サポートを有効にするには、[IAB をオプトインで設定する方法](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)に関するドキュメントをお読みください。
+Audience Manager で IAB TCF サポートを有効にするには、[IAB をオプトインで設定する方法](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html)に関するドキュメントをお読みください。
 
 これを実行するには、[Adobe Launch](https://docs.adobelaunch.com/) を使用してプロパティに ECID オプトインを使用する方法が最も簡単です。Launch 拡張機能のセットアップ方法については、[ECID オプトイン拡張機能](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in)をお読みください。
 
@@ -135,7 +135,7 @@ IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーの
 
 ## IAB 実装のテスト {#test-iab-implementation}
 
-IAB TCF 用 Audience Manager プラグインを正しく実装できているかをテストするには、[オプトインおよび IAB 実装の検証メソッドのユースケース 4](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html)を参照してください。
+IAB TCF 用 Audience Manager プラグインを正しく実装できているかをテストするには、[オプトインおよび IAB 実装の検証メソッドのユースケース 4](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88)を参照してください。
 
 ## Audience Manager の IAB およびオプトアウト。優先順位。 {#iab-and-optout}
 
