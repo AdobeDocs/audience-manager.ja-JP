@@ -1,11 +1,11 @@
 ---
-description: この記事では、カリフォルニア州消費者プライバシー法（CCPA）で使用される概念と用語、および Adobe Audience Manager が様々な CCPA 要件にどのように対処するかについて説明します。
-seo-description: この記事では、カリフォルニア州消費者プライバシー法（CCPA）で使用される概念と用語、および Adobe Audience Manager が様々な CCPA 要件にどのように対処するかについて説明します。
+description: この記事では、カリフォルニア州消費者プライバシー法(CCPA)で使用される概念と用語、およびAdobe Audience Managerが様々なCCPA要件にどのように対処するかについて説明します。
+seo-description: この記事では、カリフォルニア州消費者プライバシー法(CCPA)で使用される概念と用語、およびAdobe Audience Managerが様々なCCPA要件にどのように対処するかについて説明します。
 seo-title: CCPA の用語集
 solution: Audience Manager
 title: CCPA の用語集
-translation-type: ht
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+translation-type: tm+mt
+source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 この記事では、カリフォルニア州消費者プライバシー法（CCPA）で使用される概念と用語、およびサービスプロバイダーとして Adobe Audience Manager が様々な CCPA 要件にどのように対処するかについて説明します。
 
-カリフォルニア州消費者プライバシー法（CCPA）は 2020 年 1 月 1 日に施行され、プライバシーを消費者体験の一部として統合する新たな機会となります。Audience Manager を使用した CCPA に基づく義務の履行を可能にするために、Audience Manager は既存のプライバシーインフラストラクチャを活用しています。CCPA には 2020 年 1 月 1 日の施行前から対応可能となります。
+2020年1月1日に施行されたカリフォルニア消費者プライバシー法(CCPA)は、プライバシーを消費者体験の一部として統合する別の機会です。 Audience Managerは、Audience Managerを使用する際にCCPAに基づく義務を満たすために、既存のプライバシーインフラストラクチャを活用し、CCPAに対応できるようにします。
 
 Audience Manager は、デザイン機能によるデータガバナンスとプライバシーを利用して、お客様が新たな義務に対処する際にお役に立つことを楽しみにしています。
 
-## CCPA の用語集 {#CCPA-glossay}
+## CCPA の用語集 {#CCPA-glossary}
 
 CCPA に関連して使用されるキーワードを確認しましょう。よく使用される用語の一部がここに挙げられています。
 
@@ -45,3 +45,10 @@ CCPA に関連して使用されるキーワードを確認しましょう。よ
  
 
 **一意識別子／一意個人識別子**：経時的にかつ異なるサービスにおいて消費者、家族、又は消費者若しくは家族にリンクされたデバイスを認識するために使用できる一貫した識別子。これには、デバイス識別子、インターネットプロトコルアドレス、Cookie、ビーコン、ピクセルタグ、モバイル広告識別子又は類似の技術、顧客番号、一意の仮名又はユーザーの別名、電話番号、又は特定の消費者又はデバイスを識別するために使用できる持続的又は確率的な識別子を含むがこれらに限られません。
+
+ 
+
+>[!MORELIKETHIS]
+>
+>[データプライバシーの概要](/help/using/overview/data-security-and-privacy/data-privacy.md)
+
