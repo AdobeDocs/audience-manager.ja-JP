@@ -4,8 +4,8 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
-source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
+translation-type: tm+mt
+source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
 
 ---
 
@@ -328,8 +328,8 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + 他のExperience Cloudソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Audience Management モジュールの実装](integration/integration-other-solutions/audience-management-module.md)
-      + [サーバーサイド転送（管理ガイド）](https://docs.adobe.com/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
-      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [サーバーサイド転送（管理ガイド）](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
@@ -348,7 +348,6 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
       + [一括管理ツールのトラブルシューティングのヒント](reference/bulk-management-tools/bulk-troubleshooting.md)
       + [一括管理ツールの用語集](reference/bulk-management-tools/bulk-management-glossary.md)
    + [DPID と DPUUID に代わる CID](reference/cid.md)
-   + [用語集](reference/aam-glossary.md)
    + [データ配信やファイル処理の時間がレポートに及ぼす影響](reference/reporting-file-transfer-timeframe.md)
    + [Audience Manager で使用される ID の一覧](reference/ids-in-aam.md)
    + [キー値ペアの解説](reference/key-value-pairs-explained.md)
@@ -391,3 +390,4 @@ source-git-commit: f5c8d39aaf18fd513d85d17c3aa34c5d57e69885
    + [ドキュメントの更新（2017 年）](docs-updates/docs-2017.md)
    + [ドキュメントの更新（2016 年）](docs-updates/docs-2016.md)
    + [ドキュメントの更新（2015 年）](docs-updates/docs-2015.md)
++ [用語集](reference/aam-glossary.md)
