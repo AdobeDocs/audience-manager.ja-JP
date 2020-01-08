@@ -6,22 +6,22 @@ solution: Audience Manager
 title: Unused Signals レポート
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
 
 ---
 
 
 # Unused Signals レポート{#unused-signals-report}
 
-このレポートでは、インベントリで収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。
+このレポートでは、インベントリで収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。このレポートにアクセスするには、 **Analytics/オーディエンスレポート/その他のレポート/未使用のシグナルに移動します**。
 
-<!-- 
+>[!NOTE]
+>
+>「オーディエンスレポートにアクセスできません」というメッセージが表示された場合は、Audience Managerコンサルタントまたはカスタマーケアに連絡して、レポートをプロビジョニングしてください。
 
-c_unused_signals.xml
+![未使用のシグナルレポートのスクリーンショット](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
- -->
-
-## Unused Signals レポート
+## 概要
 
 シグナルは、Web サイトからの情報で、[キーと値のペア](../../reference/key-value-pairs-explained.md)の形式（`color=blue, price>100, gender=female` など）で [!DNL Audience Manager] に渡されます。
 
@@ -45,7 +45,7 @@ c_unused_signals.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>特性の統一性の確保または単一キーへの関連する値の追加</b> </p> </td> 
-   <td colname="col2"> <p>レポートをレビューして、特定シグナルの値の様々なバリエーションを把握します。 </p> <p>例えば、<code>c_state = North Carolina</code> としてキー値ペアで定義されている「North Carolina」州の特性があるとします。名前のバリエーションを見つけて特性に追加する（例えば、<code>c_state = North Carolina, NC, N.C., NCarolina</code>）のに、レポートが役に立ちます。さらに、レポートで名前のバリエーションを見つけて、すべてのサイトで統一された値に置き換えることもできます｡ </p> <p> </p> </td> 
+   <td colname="col2"> <p>レポートをレビューして、特定シグナルの値の様々なバリエーションを把握します。 </p> <p>例えば、<code> c_state = North Carolina</code> としてキー値ペアで定義されている「North Carolina」州の特性があるとします。The report can help you find name variants and add those to the trait (e.g., <code> c_state = North Carolina, NC, N.C., NCarolina</code>). さらに、レポートで名前のバリエーションを見つけて、すべてのサイトで統一された値に置き換えることもできます｡ </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>新規特性の作成</b> </p> </td> 
