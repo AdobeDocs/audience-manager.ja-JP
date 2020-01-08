@@ -5,8 +5,8 @@ seo-title: Adobe Audience Manager 製品技術ドキュメント
 solution: Audience Manager
 title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-translation-type: ht
-source-git-commit: 4cebba536cd44b7ef72f5b16cf5deeeea3445e0b
+translation-type: tm+mt
+source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
 
 ---
 
@@ -27,23 +27,23 @@ source-git-commit: 4cebba536cd44b7ef72f5b16cf5deeeea3445e0b
      <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">People-Based Destinations</a> </li>
      </ul> </p> <p><a href="docs-updates/docs-2019.md">ドキュメントの更新（2019 年）</a>も参照してください。 </p> 
-     <p>Audience Manager を初めて使用する場合は、<a href="reference/aam-glossary.md">用語集</a>および<a href= "reference/ids-in-aam.md">ID のインデックス</a>を参照してください。</p>
       <br>
      <p> <b>コラボレーションドキュメント</b> </p>
      <p>アドビでは、すべての読者からのドキュメントへの投稿を歓迎しています。投稿の開始方法については、「<a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">コラボレーションガイドの概要</a>」を参照してください。</p>
     </td>
    <td colname="col2"> <p> <b>リリースノート</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
-      <li id="li_09C1CD15823E4AD7856CE40BE848E03F">新機能と修正点については、最新の <a href="https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。 </li> 
+      <li id="li_09C1CD15823E4AD7856CE40BE848E03F">新機能と修正点については、最新の <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。 </li> 
      </ul> </p> <p> <b>Experience Cloud リソース</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external">Audience Manager コミュニティフォーラム</a> </li>
       <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager チュートリアル</a> </li> 
-      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/jp/privacy.html" format="http" scope="external"> アドビプライバシーセンター</a> </li>  
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/jp/learning.html?promoid=KAUDK" scope="external" format="http"> アドビトレーニングおよび証明書</a> </li> 
-      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/jp/support/experience-cloud.html" scope="external" format="https">Experience Cloud 製品ドキュメントのホーム</a> </li> 
-      <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/jp/support/audience-manager.html" format="https" scope="external"> Audience Manager のラーニングとサポート</a> </li> 
-     </ul> </p> </td>
+      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> アドビプライバシーセンター</a> </li>  
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> アドビトレーニングおよび証明書</a> </li> 
+      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Experience Cloud 製品ドキュメントのホーム</a> </li> 
+      <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager のラーニングとサポート</a> </li> 
+     </ul> </p> 
+     <p> <b>IDの用語集とインデックス</b> </p><p>Audience Manager を初めて使用する場合は、<a href="reference/aam-glossary.md">用語集</a>および<a href= "reference/ids-in-aam.md">ID のインデックス</a>を参照してください。</p></td>
   </tr> 
  </tbody> 
 </table>
