@@ -5,8 +5,8 @@ seo-title: Audience Manager の概要
 solution: Audience Manager
 title: Audience Manager概要
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
-translation-type: ht
-source-git-commit: 77b13fc37aa0a61b0740ff8c2694e11e2349ec12
+translation-type: tm+mt
+source-git-commit: aebdeb953153f4d1028871966f8da9ee27f58d35
 
 ---
 
@@ -17,16 +17,41 @@ Audience Manager は、オーディエンスデータアセットを 1 つにま
 
 Audience Manager を利用すると、データ販売者、エクスチェンジ、または需要側プラットフォームに縛られることがありません。また、Audience Manager はお客様の提携先のデータアセットにまったくとらわれません。複数のデータソースにアクセスできるので、デジタルパブリッシャーは、Audience Manager によって幅広い種類のサードパーティデータやアドビのプライベートデータコープを利用できるようになります。ターゲットオーディエンスに関する正確かつ賢明な意思決定をおこなうために、弊社のパートナーソリューションチームの協力を求めてください。
 
-## 歴史と背景 {#history-and-background}
+## DMP（データ管理プラットフォーム）の3つの機能 {#dmp-three-functions}
 
-Audience Manager は 2008 年に Demdex として始まりました。2011 年に Adobe Systems（アドビ システムズ社）に買収された後、Audience Manager というブランドに変更されました。
+DMP（データ管理プラットフォーム）の機能は、次のように3つのカテゴリにまとめることができます。
 
-## 歴史{#history}
+![3つのDMP機能のイメージ：データイン、オーディエンス作成、データアウト](/help/using/overview/assets/dmp-functions.png)
 
-2008 年以降、Audience Manager（以前の [!UICONTROL Demdex]）は、オンラインオーディエンス管理市場のパイオニアであり続けています。Audience Manager サービスは、動的なマルチチャネルのオンラインデータ戦略を強化します。アドビのプラットフォームおよびサービスは、自動車（AutoTrader）から航空会社（American Airlines）や金融サービス企業（American Express）まで、数多くの多様な産業で利用されています。Audience Manager は、企業レベルのテクノロジーを使用し、オンラインビジネスを成功に導くための尺度、信頼性、分析、パフォーマンスを提供します。Audience Manager は Adobe Experience Cloud に統合され、より多くのデジタルアドレス可能なチャネルからデータ資産を一元管理し、対策を講じることができます。
+**Audience Managerのデータは、チャネルとデバイス（Web解析、CRM、デバイスデータ、eコマースなど）からファーストパーティのデータを収集します。**
 
-## Audience Manager とそのデータ管理プラットフォーム（DMP） {#aam-dmp}
+**オーディエンスの作**&#x200B;成データをオーディエンスプロファイルに統合し、デバイスやチャネル全体にわたる完全な顧客表示を提供します。 類似したモデルを作成し、オーディエンスセグメントとプロファイルのグループを作成し、セカンドパーティのデータソースとサードパーティのデータソースを補完します。
 
-Audience Manager はデータパイプラインの管理に役立ちます。アドビのサービスは一般的なユーザーと生データのシグナルを、マルチチャネルマーケティングで使用される実際のオーディエンスのセグメントに変換します。また、Audience Manager はタグ管理とオーディエンスアナリティクスのツールを提供し、同時にクライアントとコンシューマーのプライバシーとデータセキュリティのニーズに応えます。
+**データ出力**：オーディエンスセグメントをデマンドサイドプラットフォーム(DSP)、キャンペーン管理システム、その他のマーケティングプラットフォームに押し出すことでアクティブにします。
+
+## 詳細情報 {#more-information}
+
+詳しくは、次のリソースを参照してください。
+* [Audience Managerの概要](https://www.adobe.com/analytics/audience-manager.html)
+* [Audience Managerのメリット](https://www.adobe.com/analytics/audience-manager/benefits.html)
+* [Audience Managerの機能](https://www.adobe.com/analytics/audience-manager/features.html)
+
+
+<!--
+
+## History and Background {#history-and-background}
+
+Audience Manager started as Demdex in 2008. It was acquired by Adobe Systems in 2011 and subsequently rebranded as Audience Manager.
+
+## History {#history}
+
+Since 2008, Audience Manager (formerly, [!UICONTROL Demdex]) has been a pioneer in the on-line audience management market. Audience Manager services power dynamic, multi-channel online data strategies. Our platform and services are used by an array of diverse industries from automobiles (AutoTrader), to airlines (American Airlines), and financial services companies (American Express). Audience Manager uses enterprise-level technology to provide the scale, reliability, analytics, and performance to help your business succeed online. Audience Manager integrates with the Adobe Experience Cloud to help you centralize, manage, and take action on your data assets across a growing number of digitally addressable channels.
+
+## Audience Manager and its Data Management Platform (DMP) {#aam-dmp}
+
+Audience Manager helps you manage your data pipeline. Our service is a catalyst that transforms generic users and raw data signals into actual audience segments used for multi-channel marketing efforts. Additionally, Audience Manager provides tools for tag management and audience analytics while simultaneously meeting the privacy and data security needs of clients and consumers.
 
 ![](assets/am_overview_80.png)
+
+
+-->
