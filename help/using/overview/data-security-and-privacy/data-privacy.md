@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データプライバシーの概要
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: ht
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ---
 
@@ -30,9 +30,9 @@ Audience Manager は、このモデルの継続的なサポートにおいて、
 
 GDPR に準拠するため、Audience Manager はデータアクセスおよび削除の[要求](data-privacy-requests.md)をサポートします。
 
-2020 年 1 月 1 日に施行される[カリフォルニア州消費者プライバシー法（CCPA）](https://www.caprivacy.org/about)は、カリフォルニア州在住者に対し、個人情報に関する新たな権利を提供し、カリフォルニア州で事業をおこなう特定の事業者に対してデータ保護責任を課します。
+2020 年 1 月 1 日に施行される[カリフォルニア州消費者プライバシー法（CCPA）](https://www.caprivacy.org/about)は、カリフォルニア州在住者に対して個人情報に関する新たな権利を提供し、カリフォルニア州で事業をおこなう特定の事業者に対してデータ保護責任を課します。
 
-CCPA は、カリフォルニア在住者に対して、自分の個人データにアクセスし削除する権利や、自分の個人データが販売または開示されたか（そして誰に対して）を知る権利など、新しいデータプライバシー権を提供します。CCPA への準備として、Audience Manager ではCCPA のアクセスおよび削除[要求](data-privacy-requests.md)をサポートします。
+CCPA は、カリフォルニア在住者に対して、自分の個人データにアクセスし削除する権利や、自分の個人データが販売または開示されたか（そして誰に対して）を知る権利など、新しいデータプライバシー権を提供します。CCPA に準拠するため、Audience Manager は CCPA へのアクセスおよび削除の[リクエスト](data-privacy-requests.md)をサポートします。
 
 詳しくは、アドビ[プライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)を参照してください。
 
