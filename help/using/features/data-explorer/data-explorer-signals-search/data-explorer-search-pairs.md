@@ -5,7 +5,7 @@ seo-title: キー値ペアによるシグナルの検索
 title: キー値ペアによるシグナルの検索
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 translation-type: tm+mt
-source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -31,6 +31,10 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 検索結果では、同じ呼び出しに対して 3 つのフィルターすべて（`c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"`）を満たすシグナルのみが返されます。
 
 ![](assets/signals-search.png)
+
+## シグナルサーチから除外されたシグナル {#excluded-signals}
+
+Audience Managerで使用され、プリフィックスとプリフィックスが付い `d_` た主要変 `h_` 数は、で表されませ [!UICONTROL Signals Search]ん。 詳しくは [、「キー変数のプレフィックス要件](../../traits/trait-variable-prefixes.md) 」を参照してください。
 
 ## 大文字と小文字の無区別および検索条件の自動入力候補 {#case-insensitivity}
 
