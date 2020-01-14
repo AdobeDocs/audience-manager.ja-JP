@@ -5,8 +5,8 @@ seo-title: キー変数のプレフィックスに関する要件
 solution: Audience Manager
 title: キー変数のプレフィックスに関する要件
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -39,11 +39,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p><span class="keyword"> Audience Manager</span> レベル。このデータは <span class="keyword">Audience Manager</span> エコシステム内で共通です。より包括的なリストについては、<a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md">DCS API 呼び出しでサポートされている属性</a>を参照してください。 </p> </td> 
-  </tr> 
+   <td colname="col2"> <p><span class="keyword"> Audience Manager</span> レベル。このデータは <span class="keyword">Audience Manager</span> エコシステム内で共通です。より包括的なリストについては、<a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md">DCS API 呼び出しでサポートされている属性</a>を参照してください。 <p>このプレフィックスを使用するシグナルは、シグナル検索で <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">は表示されませ</a>ん。</p></p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html">HTTP ヘッダー</a>の情報が格納されています。<code> referer</code>、<code> IP</code>、<code> accept-language</code> などのヘッダーパラメーターがあります。 </p> <p> <p>注意：9.0 より前のバージョンの DIL を使用しているお客様の場合、Safari ブラウザーでは <code> h_referer</code> シグナルを使用したデータ収集は機能しません。<a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external">ITP 2.0</a> の導入により、Safari ブラウザーでは、demdex.net ドメインをトラッカーとして分類する可能性があり、データ収集要求のリファラーを切り詰めて、完全な URL ではなく要求元のみ含まれるようにします。最新バージョンの DIL については、<a href="../../dil/dil-overview.md#get-implement-dil-code">DIL コードの取得と実装 </a>を参照してください。 </p> </p> </td> 
+   <td colname="col2"> <p><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html">HTTP ヘッダー</a>の情報が格納されています。<code> referer</code>、<code> IP</code>、<code> accept-language</code> などのヘッダーパラメーターがあります。 </p> <p> <p>注意：9.0 より前のバージョンの DIL を使用しているお客様の場合、Safari ブラウザーでは <code> h_referer</code> シグナルを使用したデータ収集は機能しません。<a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external">ITP 2.0</a> の導入により、Safari ブラウザーでは、demdex.net ドメインをトラッカーとして分類する可能性があり、データ収集要求のリファラーを切り詰めて、完全な URL ではなく要求元のみ含まれるようにします。See <a href="../../dil/dil-overview.md#get-implement-dil-code">Getting and Implementing DIL Code</a> for the latest DIL version.<p>このプレフィックスを使用するシグナルは、シグナル検索で <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">は表示されませ</a>ん。</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
