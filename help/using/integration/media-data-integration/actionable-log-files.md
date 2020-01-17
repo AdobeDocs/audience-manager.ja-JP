@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
+source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: fcdfe3a81cddc3c899453234d349f7a458c2be61
 
 >[!IMPORTANT]
 >
-> 2020年初頭には、新しい [!UICONTROL Actionable Log Files] 広告サーバーの可用性が向上し始めます。 開始するには、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/contact/enterprise-support.ec.html)にお問合せください。
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. 開始するには、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/contact/enterprise-support.ec.html)にお問合せください。
 
 ## 実用的なログファイルの使用 {#working-with-actionable-log-files}
 
