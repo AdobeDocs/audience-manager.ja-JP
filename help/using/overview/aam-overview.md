@@ -5,7 +5,7 @@ seo-title: Audience Manager の概要
 solution: Audience Manager
 title: Audience Manager概要
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a13c64eb45fdbcb311bfecdb39b3203523d6b399
 
 ---
@@ -17,34 +17,34 @@ Audience Manager は、オーディエンスデータアセットを 1 つにま
 
 Audience Manager を利用すると、データ販売者、エクスチェンジ、または需要側プラットフォームに縛られることがありません。また、Audience Manager はお客様の提携先のデータアセットにまったくとらわれません。複数のデータソースにアクセスできるので、デジタルパブリッシャーは、Audience Manager によって幅広い種類のサードパーティデータやアドビのプライベートデータコープを利用できるようになります。ターゲットオーディエンスに関する正確かつ賢明な意思決定をおこなうために、弊社のパートナーソリューションチームの協力を求めてください。
 
-## DMP（データ管理プラットフォーム）の3つの機能 {#dmp-three-functions}
+## DMP（データ管理プラットフォーム）の 3 つの機能 {#dmp-three-functions}
 
-DMP（データ管理プラットフォーム）の機能は、次のように3つのカテゴリにまとめることができます。
+DMP（データ管理プラットフォーム）の機能は、次のように 3 つのカテゴリにまとめることができます。
 
-![3つのDMP機能のイメージ：データイン、オーディエンス作成、データアウト](/help/using/overview/assets/dmp-functions.png)
+![3 つの DMP 機能のイメージ：データ入力、オーディエンス作成、データ出力](/help/using/overview/assets/dmp-functions.png)
 
-**データイン**
+**データ入力**
 
-Audience Managerは、チャネルとデバイス（Web分析、CRM、デバイスデータ、eコマースなど）からファーストパーティのデータを収集します。
+Audience Manager は、チャネルとデバイス（Web 分析、CRM、デバイスデータ、e コマースなど）からファーストパーティデータを収集します。
 
-<br> 
+<br>
 
 **オーディエンスの作成**
 
-データをオーディエンスプロファイルに統合し、デバイスやチャネル全体の完全な顧客表示を提供します。 類似したモデルを作成し、オーディエンスセグメントとプロファイルのグループを作成し、セカンドパーティのデータソースとサードパーティのデータソースを補完します。
+データをオーディエンスプロファイルに統合し、デバイスやチャネルをまたいだ顧客の全体像を提供します。類似モデルを作成、オーディエンスセグメントとプロファイルのグループを構築し、セカンドパーティとサードパーティのデータソースで補完します。
 
-<br> 
+<br>
 
 **データ出力**
 
-オーディエンスセグメントを、デマンド側プラットフォーム(DSP)、キャンペーン管理システム、その他のマーケティングプラットフォームに押し出すことでアクティブにします。
+オーディエンスセグメントを、需要側プラットフォーム（DSP）、キャンペーン管理システム、その他のマーケティングプラットフォームにプッシュして活用します。
 
 ## 詳細情報 {#more-information}
 
 詳しくは、次のリソースを参照してください。
-* [Audience Managerの概要](https://www.adobe.com/analytics/audience-manager.html)
-* [Audience Managerのメリット](https://www.adobe.com/analytics/audience-manager/benefits.html)
-* [Audience Managerの機能](https://www.adobe.com/analytics/audience-manager/features.html)
+* [Audience Manager の概要](https://www.adobe.com/jp/analytics/audience-manager.html)
+* [Audience Manager のメリット](https://www.adobe.com/jp/analytics/audience-manager/benefits.html)
+* [Audience Manager の機能](https://www.adobe.com/jp/analytics/audience-manager/features.html)
 
 
 <!--
