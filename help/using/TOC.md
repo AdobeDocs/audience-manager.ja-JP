@@ -4,7 +4,7 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
 
 ---
@@ -197,7 +197,7 @@ source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
       + [特性間重複レポート](reporting/dynamic-reports/trait-trait-overlap-report.md)
       + [セグメント／特性間重複レポート](reporting/dynamic-reports/segment-trait-overlap-report.md)
       + [セグメント間重複レポート](reporting/dynamic-reports/segment-segment-overlap-report.md)
-      + [Unused Signals レポート](reporting/dynamic-reports/unused-signals.md)
+      + [未使用シグナルレポート](reporting/dynamic-reports/unused-signals.md)
       + [ルックアップテーブルによるログファイル処理時間の改善](reporting/dynamic-reports/lookup-tables.md)
       + [データスライダーを使用したレポート結果のフィルタリング](reporting/dynamic-reports/data-sliders.md)
       + [重複レポート：更新スケジュールと最小セグメントサイズ](reporting/dynamic-reports/overlap-minimum-segment-size.md)
@@ -328,8 +328,8 @@ source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
    + 他のExperience Cloudソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Audience Management モジュールの実装](integration/integration-other-solutions/audience-management-module.md)
-      + [サーバーサイド転送（管理ガイド）](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
-      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [サーバーサイド転送（管理ガイド）](https://docs.adobe.com/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
+      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
