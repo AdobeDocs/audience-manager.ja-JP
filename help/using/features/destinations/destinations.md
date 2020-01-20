@@ -1,13 +1,13 @@
 ---
 description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。Destination Builder とは、Cookie、URL、またはサーバー間通信ベースの宛先の作成および管理をおこなうために使用するツールです。
-keywords: 統合コード、宛先、宛先の概要, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先
+keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。Destination Builder とは、Cookie、URL、またはサーバー間通信ベースの宛先の作成および管理をおこなうために使用するツールです。
 seo-title: 宛先
 solution: Audience Manager
 title: 宛先
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 431a254f1a70958db29621a59acc6239d2a6b005
 
 ---
 
@@ -45,5 +45,8 @@ Audience Manager において、宛先とは、データを共有する任意の
 
 | 宛先のタイプ | 使用に適した状況 | 例 | 注意点 |
 |--- |--- |--- |--- |
-| **URL**&#x200B;または **Cookie** | 絞り込まれたユーザーに宛先が直ちに対応できるように、データをすぐに転送する必要がある場合。 | チケット購入サイトからのデータの送信。URL または Cookie の宛先を使用してユーザーを絞り込み、直ちにリターゲティングする。 | <ul><li>新規訪問者に関するデータのみ転送します。 </li><li>訪問者を再度確認して、セグメントに絞り込む必要があります。</li></ul> |
-| **サーバー間** | <ul><li>すぐにデータを転送する必要がない場合。</li><li>絞り込まれたユーザーで構成される大規模なオーディエンスプールを構築するためのデータを収集している場合。</li></ul> | 後日実施する予定のキャンペーンで使用するデータを徐々に（数時間または数日間で）収集する。 | <ul><li>新規および以前のサイト訪問者に関するデータを転送します。 </li><li>訪問者を再度確認して、他のセグメントに絞り込む必要はありません。</li></ul> |
+| **[!UICONTROL Adobe Experience Cloud Destinations]** | 他のAdobe Experience cloudソリューションにデータを送信する必要があります。 | Adobe Analyticsへのデータの送信を参照してください。 |  |
+| **[!UICONTROL People-Based Destinations]** | Facebookなどの人ベースの環境にオーディエンスセグメントを送信する必要があります。 | 購入履歴に基づいて、既存の顧客に対してパーソナライズされたオファーを提供 | オーディエンスのターゲット設定は、ハッシュ化された識別子を使用して行われます。 「人ベ [ースの宛先」を参照](people-based-destinations-overview.md) |
+| **[!UICONTROL Device-Based Destinations]**(**&#x200B;サーバー間&#x200B;**) | <ul><li>すぐにデータを転送する必要がない場合。</li><li>絞り込まれたユーザーで構成される大規模なオーディエンスプールを構築するためのデータを収集している場合。</li></ul> | 後日実施する予定のキャンペーンで使用するデータを徐々に（数時間または数日間で）収集する。 | <ul><li>新規および以前のサイト訪問者に関するデータを転送します。 </li><li>訪問者を再度確認して、他のセグメントに絞り込む必要はありません。</li></ul> |
+| **[!UICONTROL Custom Destinations]**(** URL **または** Cookie **) | 絞り込まれたユーザーに宛先が直ちに対応できるように、データをすぐに転送する必要がある場合。 | チケット購入サイトからのデータの送信。URL または Cookie の宛先を使用してユーザーを絞り込み、直ちにリターゲティングする。 | <ul><li>新規訪問者に関するデータのみ転送します。 </li><li>訪問者を再度確認して、セグメントに絞り込む必要があります。</li></ul> |
+
