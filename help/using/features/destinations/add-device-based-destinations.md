@@ -4,7 +4,7 @@ seo-description: この記事では、Audience Manager UI から新しいデバ�
 seo-title: 新しいデバイスベースの宛先の追加
 solution: Audience Manager
 title: 新しいデバイスベースの宛先の追加
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cc7077cd5911bc603db254d9b55f129ce8f6cd5
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 4cc7077cd5911bc603db254d9b55f129ce8f6cd5
 
 >[!IMPORTANT]
 >
->現在、ほとんどのデバイスベースの宛先は、セルフサービス設定ワークフローの対象となりません。 追加する必要があるデバイスベースの宛先が宛先リストに表示されない場合は、アドビコンサルタントまたはカスタマーサポートにお問い合わせください。
+>現在、ほとんどのデバイスベースの宛先では、セルフサービス設定ワークフローを利用できません。追加する必要があるデバイスベースの宛先が宛先リストに表示されない場合は、アドビコンサルタントまたはカスタマーサポートにお問い合わせください。
 
 ## 概要 {#overview}
 
@@ -47,8 +47,8 @@ source-git-commit: 4cc7077cd5911bc603db254d9b55f129ce8f6cd5
 
 1. Audience Manager アカウントにログインし、**[!DNL Audience Data > Destinations]**に移動して、**[!DNL Create Destination]**&#x200B;をクリックします。
 1. **[!DNL Basic Information]**セクションで、新しい宛先の**[!DNL Name]** および **[!DNL Description]**を入力し、以下のリストの設定を使用します：![setup](assets/dbd-new-basic.png)
-   * **[!DNL Category]**:[!DNL Integrated Platforms];
-   * **[!DNL Type]**:[!DNL Device-Based];
+   * **[!DNL Category]**：[!DNL Integrated Platforms]、
+   * **[!DNL Type]**：[!DNL Device-Based]、
    * **[!DNL Platform]**：オーディエンスセグメントを送信する宛先プラットフォームを選択します。
    * **[!DNL Account]**：選択したプラットフォームに関連付けられている広告主アカウントを選択します。
 1. **[!DNL Next]**をクリックします。
