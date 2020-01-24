@@ -4,8 +4,8 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
-source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
+translation-type: tm+mt
+source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
 
 ---
 
@@ -327,9 +327,8 @@ source-git-commit: 3c528a39ffb1f6b36838bb6e2e3240957e87eb61
       + [Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](integration/integration-aep/aam-aep-audience-sharing.md)
    + 他のExperience Cloudソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
-      + [Audience Management モジュールの実装](integration/integration-other-solutions/audience-management-module.md)
-      + [サーバーサイド転送（管理ガイド）](https://docs.adobe.com/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)
-      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Adobe AnalyticsからAudience Managerにデータを転送する方法](integration/integration-other-solutions/audience-management-module.md)
+      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
