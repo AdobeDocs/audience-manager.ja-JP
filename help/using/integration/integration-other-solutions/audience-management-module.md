@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
+source-git-commit: 7e8ba292f2f901b1323d30d682066b49df885a0c
 
 ---
 
@@ -19,10 +19,6 @@ Follow the steps in this tutorial to forward [!DNL Analytics] data to Audience M
 >[!TIP]
 >
 >データをAudience Managerに転送す [!UICONTROL Adobe Launch] るためにを使 [!UICONTROL Analytics] 用することをお勧めします。 [!UICONTROL Launch] を使用すると、このページで示すように、[!UICONTROL AppMeasurement] に手動でコードをコピーする必要がなくなります。
-
->[!NOTE]
->
->このページの手順は、[Adobe Digital Tag Manager（DTM）](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)または [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) を&#x200B;*除く*&#x200B;他のタグ管理ソリューションを使用した実装を示します。Adobe Launch を使用することをお勧めします。[!DNL Launch] を使用すると、このページで示すように、[!UICONTROL AppMeasurement] に手動でコードをコピーする必要がなくなります。
 
 ## 前提条件 {#prereqs}
 
