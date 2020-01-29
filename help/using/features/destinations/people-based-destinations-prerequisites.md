@@ -4,7 +4,7 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 301a5c553cfd5658f4d594773ab6248012cc50fa
 
 ---
@@ -67,9 +67,9 @@ source-git-commit: 301a5c553cfd5658f4d594773ab6248012cc50fa
 
 [!UICONTROL People-Based Destinations] のハッシュ要件については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29003/)
+>[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
 
-Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html)」を参照してください。
+Adobe Experience Cloud では、Experience Cloud IDサービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)」を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
