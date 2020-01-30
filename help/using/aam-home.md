@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 1eeab9f3e4d87131323cf5a5a4f4f8702f92c120
+source-git-commit: f2f3e40e7866c7610de520952f5dfd65823554f3
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 1eeab9f3e4d87131323cf5a5a4f4f8702f92c120
      <li><a href="features/segments/trait-recommendations.md">Adobe Sensei を駆使した、Audience Marketplace データのインテリジェントなレコメンデーション</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">プロファイル結合ルールの強化</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">一括管理ツールのアップデート</a></li>
-     <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
-     <li><a href="features/destinations/people-based-destinations-overview.md">People-Based Destinations</a> </li>
-     </ul> </p> <p><a href="docs-updates/docs-2019.md">ドキュメントの更新（2019 年）</a>も参照してください。 </p> 
+     </ul> </p> <p><a href="docs-updates/docs-2020.md">ドキュメントの更新（2020 年）</a>も参照してください。 </p> 
       <br>
      <p> <b>コラボレーションドキュメント</b> </p>
      <p>アドビでは、すべての読者からのドキュメントへの投稿を歓迎しています。投稿の開始方法については、「<a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">コラボレーションガイドの概要</a>」を参照してください。</p>
