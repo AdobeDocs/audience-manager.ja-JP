@@ -6,8 +6,8 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy
 title: データのプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-translation-type: ht
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+translation-type: tm+mt
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ## 概要 {#overview}
 
-このドキュメントでは、個人データのプライバシー管理と、[プライバシーサービスの UI](https://gdprui.cloud.adobe.io/) および **[!DNL Privacy Service API]** を使用して Audience Manager に送信できるオプトアウトリクエストについて説明します。
+このドキュメントでは、個人データのプライバシー管理と、[プライバシーサービスの UI](https://gdprui.cloud.adobe.io/) および **[!DNL Privacy Service API]**を使用して Audience Manager に送信できるオプトアウトリクエストについて説明します。
 
 これらのツールを使用すると、GDPR および CCPA に基づいて行われた消費者データのプライバシーリクエストを送信できます。
 
@@ -25,9 +25,9 @@ source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 Audience Manager から消費者データにアクセスして削除する個々のリクエストを送信するには、次の 2 つの方法があります。
 
 * [プライバシーサービスの UI](https://gdprui.cloud.adobe.io/) を使用する。[こちら](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)のドキュメントを参照してください。
-* **[!DNL Privacy Service API]**&#x200B;を使用する。[こちら](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)のドキュメントおよび[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)の API リファレンスを参照してください。
+* **[!DNL Privacy Service API]**を使用する。[こちら](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)のドキュメントおよび[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)の API リファレンスを参照してください。
 
-個々のデータのプライバシーリクエストを送信する場合、**[Audience Manager 識別子](data-privacy-ids.md)**&#x200B;の節で説明されているように、Audience Manager 識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
+個々のデータのプライバシーリクエストを送信する場合、**[Audience Manager 識別子](data-privacy-ids.md)**の節で説明されているように、Audience Manager 識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
 
 [プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)は、データアクセスおよびデータ削除の 2 種類のリクエストをサポートします。
 
@@ -84,7 +84,7 @@ Audience Manager は、オプトアウト管理に関する業界全体の標準
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p><a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audience Manager に対する直接 API 呼び出し </p> </td> 
@@ -94,8 +94,8 @@ Audience Manager は、オプトアウト管理に関する業界全体の標準
    <td colname="col1"> <p>モバイルデバイス </p> </td> 
    <td colname="col2"> <p>以下のデバイスに対するオプトアウト設定とプライバシー設定を確認します。 </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mobile/android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -103,8 +103,8 @@ Audience Manager は、オプトアウト管理に関する業界全体の標準
 
 エンドユーザーは、アドビの業界標準パートナーの Web サイトを訪問してグローバルデータ収集からオプトアウトすることもできます。
 
-* [Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#! /)
-* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#! /)。
+* [Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/)
+* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#!/)。
 
 上記のオプトアウトリクエストをおこなうと、次の処理がおこなわれます。
 
@@ -165,12 +165,12 @@ Audience Manager がパートナーレベルのオプトアウトリクエスト
 
 ただし、一部のアクティベーションパートナーは、以下のいずれかまたは両方の状態である場合があります。
 
-1. Audience Manager からのセグメント解除の要求をサポートしていない。
+1. Audience Managerまたは
 2. 30 日に 1 回より高い頻度で Audience Manager からの更新を受け取ることができない。
 
 このような場合、お客様はアクティベーションパートナーに対して、Audience Manager から自動で削除要求を送信することはできません。
 
-Audience Manager のアクティベーションパートナーの中でどれがセグメント解除をサポートしているかを確認するには、[パートナーに関する Excel シート](assets/AAM-Partners-December2019.xlsx)をダウンロードしてください。
+デバイスベース [の宛先のリストを参照して](/help/using/features/destinations/device-based-destinations-list.md) 、セグメント解除をサポートするAudience Managerアクティベーションパートナーを確認します。
 
 ## データ修正要求 {#correction}
 
