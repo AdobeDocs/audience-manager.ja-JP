@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
+source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
 
 ---
 
@@ -37,6 +37,7 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
       + [アカウント設定の編集](features/administration/edit-account-settings.md)
       + [IP アドレスの難読化](features/administration/ip-obfuscation.md)
       + [使用の制限](features/administration/usage-limits.md)
+      + [アクティビティ使用状況レポート](features/administration/activity-usage-reporting.md)
    + アルゴリズムモデル {#algorithmic-models}
       + [アルゴリズムモデル](features/algorithmic-models/understanding-models.md)
       + [アルゴリズムモデルの作成](features/algorithmic-models/create-model.md)
@@ -98,6 +99,7 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
          + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
       + デバイスベースの宛先（サーバー間） {#device-based}
          + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
+         + [Audience Managerデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
          + [Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
       + カスタムの宛先 {#custom-destinations}
@@ -371,6 +373,7 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
    + [API に関するよくある質問](faq/faq-api.md)
    + [Audience Lab に関するよくある質問](faq/faq-audience-lab.md)
    + [顧客データフィードに関するよくある質問](faq/faq-cdf.md)
+   + [カスタマーケア — 最も頻繁に報告される問題](/help/using/faq/faq-top-customer-care-issues.md)
    + [データ収集および製品統合に関するよくある質問](faq/faq-data-collection.md)
    + [顧客データのインバウンドの取得に関するよくある質問](faq/faq-inbound-data-ingestion.md)
    + [プライバシーとデータ保持に関するよくある質問](faq/faq-privacy.md)
@@ -383,6 +386,11 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
    + [概要](/help/using/help-legal/help-legal-overview.md)
    + [問題がある場合](/help/using/help-legal/help-problem.md)
    + [連絡先情報および法的事項](/help/using/help-legal/help-legal-contact.md)
++ 最も多くのカスタマーサポートの問題{#top-support-issues}
+   + [概要](/help/using/support-issues/support-issues-overview.md)
+   + [なぜ私のオンボードの特徴は10月15日頃に0人に減ったのでしょう？ ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [重複レポートページに特性やセグメントが表示されないのはなぜですか。](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [読み取り専用ユーザーが特性とセグメントを作成、編集または削除できるのはなぜですか。](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + ドキュメントの更新 {#documentation-updates}
    + [ドキュメントの更新（2020 年）](docs-updates/docs-2020.md)
    + [ドキュメントの更新（2019 年）](docs-updates/docs-2019.md)
