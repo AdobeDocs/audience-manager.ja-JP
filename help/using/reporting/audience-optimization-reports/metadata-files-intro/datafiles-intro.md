@@ -5,8 +5,8 @@ seo-title: Audience Optimization レポートおよび実用的なログファ�
 solution: Audience Manager
 title: Audience Optimization レポートおよび実用的なログファイル用のデータファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-translation-type: ht
-source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
+translation-type: tm+mt
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -137,13 +137,17 @@ source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
  </tbody> 
 </table>
 
-## データファイルの配信方法{#delivery-methods}
+## データファイルの配信方法 {#delivery-methods}
 
 インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
+>[!IMPORTANT]
+>
+> Audience Managerのコンサルタントまたはカスタマーケアに連絡して、データファイルのディレクトリを開始し [!DNL Amazon S3] て設定するように依頼します。
+
 **配信パスの構文と例**
 
-データは、Amazon S3 ディレクトリにおいて顧客ごとに別個の名前空間に保存されます。ファイルパスは以下の構文に従います。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
+Data is stored in a separate namespace for each customer in an [!DNL Amazon S3] directory. ファイルパスは以下の構文に従います。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
 
 **構文：** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
@@ -163,7 +167,7 @@ source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager</span> の顧客 ID のキー値ペア。 </p> </td> 
+   <td colname="col2"> <p>This key-value pair contains your <span class="keyword"> Audience Manager</span> customer ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
