@@ -5,8 +5,8 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのインプ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-translation-type: ht
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+translation-type: tm+mt
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -16,6 +16,10 @@ source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 メディアデータを Audience Manager に送信する方法の 1 つとして、広告サーバーのマクロを使用してキャンペーン属性を Audience Manager に送信できます。
 
 この方法は「クリエイティブのピクセリング」とも呼ばれています。これらのデータポイントは、サードパーティの広告サーバーマクロにより動的に [!DNL Audience Manager] ピクセルコードに挿入されます。これらのマクロは、キャンペーンの主要なレポート属性に基づいてすべてのインプレッションとクリックのマッピングとレポートに使用されます。データの集計により、キャンペーンのパフォーマンスを一元的に把握し、カスタムコンバージョンパスを特定することができます。また、顧客はコンバージョンにつながる広告サーバーイベントの順序を改善することができます。
+
+>[!IMPORTANT]
+>
+>Audience Managerがイベント呼び出しで受け取るフィールドを正しく解釈し、 [Audience Optimizationレポートでキャンペーンデータをレンダリングするには](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)、これらのフィールドを人間が読み取り可能な値にマップするメタデータファイルを送信する必要があります。 メタデ [ータファイルの概要とマッピングを参照し](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 、Audience Managerコンサルタントまたはカスタマーケアに連絡して、メタデータファイルのAmazon S3ディレクトリを設定してください。
 
 ## イベント呼び出しの構文
 
@@ -33,7 +37,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 
 このキーと値のペアでは、値変数は広告サーバーにより挿入された ID またはマクロです。広告タグが読み込まれると、`%macro%` は対応する必須の値に置き換えられます。この呼び出しでは、応答は返されません。
 
-## サポートされているキーと値のペア{#supported-key-value-pairs}
+## サポートされているキーと値のペア {#supported-key-value-pairs}
 
 インプレッションイベント呼び出しでは、キーと値のペアとして構成されているデータを受け付けます。次の表は、これらの変数を格納するキーの一覧と説明です。これらのうち多くは、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータのキャプチャと分析をおこなう場合に必要になります。
 
@@ -51,7 +55,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>広告主のデータソース ID または統合コード。 </p> <p><span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
+   <td colname="col2"> <p>広告主のデータソース ID または統合コード。 </p> <p><span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> <p>オプションです。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
@@ -95,7 +99,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
   </tr> 
    <tr> 
    <td colname="col1"> <code><i>gdpr</i></code>  </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p> <p><code>gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p> </td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p> <p><code>gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
