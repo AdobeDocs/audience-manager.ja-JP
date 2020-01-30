@@ -5,8 +5,8 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのクリッ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-translation-type: ht
-source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
+translation-type: tm+mt
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -14,6 +14,14 @@ source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 # ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ {#capturing-campaign-click-data-via-pixel-calls}
 
 クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。インプレッションの収集と同様に、イベント呼び出しが Audience Manager のデータ収集サーバー（[!UICONTROL DCS]）に送信されて処理されます。訪問者はその後、意図した Web アドレスにリダイレクトされます。
+
+>[!IMPORTANT]
+>
+>Audience Managerがイベント呼び出しで受け取るフィールドを正しく解釈し、 [Audience Optimizationレポートでキャンペーンデータをレンダリングするには](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)、これらのフィールドを人間が読み取り可能な値にマップするメタデータファイルを送信する必要があります。 メタデ [ータファイルの概要とマッピングを参照し](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 、Audience Managerコンサルタントまたはカスタマーケアに連絡して、メタデータファイルのAmazon S3ディレクトリを設定してください。
+
+>[!NOTE]
+>
+>クライアントドメイン専用の正確な URL については、Adobe Audience Manager コンサルタントまたはアカウントリードにお問い合わせください。
 
 ## 要件
 
@@ -36,7 +44,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 上記の例に従うと、ブラウザーは次の [!DNL URL] にリダイレクトされます。
 
-[!DNL `https://adobe.com/callback?creative=123`]
+`https://adobe.com/callback?creative=123`
 
 ## サポートされているマクロ
 
@@ -85,11 +93,11 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
    <td colname="col2"> <p>データプロバイダーから提供される一意のユーザー ID。 </p> <p>ユーザー ID をデータプロバイダー ID にリンクするために <code> d_dpid</code> と一緒に使用することが多い。 </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -124,7 +132,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
    <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。 </p><p><code>gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。 </p><p><code>gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
@@ -157,7 +165,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 上記の例に従うと、ブラウザーは次の [!DNL URL] にリダイレクトされます。
 
-[!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
+`https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
 >[!MORELIKETHIS]
 >
