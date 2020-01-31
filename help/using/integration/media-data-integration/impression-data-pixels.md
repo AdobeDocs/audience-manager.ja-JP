@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
@@ -16,10 +16,6 @@ source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 メディアデータを Audience Manager に送信する方法の 1 つとして、広告サーバーのマクロを使用してキャンペーン属性を Audience Manager に送信できます。
 
 この方法は「クリエイティブのピクセリング」とも呼ばれています。これらのデータポイントは、サードパーティの広告サーバーマクロにより動的に [!DNL Audience Manager] ピクセルコードに挿入されます。これらのマクロは、キャンペーンの主要なレポート属性に基づいてすべてのインプレッションとクリックのマッピングとレポートに使用されます。データの集計により、キャンペーンのパフォーマンスを一元的に把握し、カスタムコンバージョンパスを特定することができます。また、顧客はコンバージョンにつながる広告サーバーイベントの順序を改善することができます。
-
->[!IMPORTANT]
->
->Audience Managerがイベント呼び出しで受け取るフィールドを正しく解釈し、 [Audience Optimizationレポートでキャンペーンデータをレンダリングするには](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)、これらのフィールドを人間が読み取り可能な値にマップするメタデータファイルを送信する必要があります。 メタデ [ータファイルの概要とマッピングを参照し](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 、Audience Managerコンサルタントまたはカスタマーケアに連絡して、メタデータファイルのAmazon S3ディレクトリを設定してください。
 
 ## イベント呼び出しの構文
 
@@ -111,6 +107,10 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 >[!NOTE]
 >
 >クライアントドメイン専用の正確な URL については、Adobe Audience Manager コンサルタントまたはアカウントリードにお問い合わせください。
+
+## 追加機能 — オーディエンス最適化レポート
+
+ピクセル呼び出しを使用して、オーディエンス最適化レ [ポートを強化できま](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)す。 ピクセル [を使用してレポートに出力する場合は](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 、「メタデータファイルの概要とマッピング」を参照してください。
 
 >[!MORELIKETHIS]
 >
