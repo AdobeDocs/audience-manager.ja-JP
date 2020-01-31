@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: f2f3e40e7866c7610de520952f5dfd65823554f3
+source-git-commit: 6b9afa7c53f5bc2738f185440160f62a87e0bda1
 
 ---
 
@@ -66,63 +66,10 @@ Removed the Data Translation File bullet from the list above.
 
 **[!DNL Audience Manager]コードを実稼動環境にデプロイする前に、受信データファイル（[!DNL .sync] または [!DNL .overwrite] ファイル）をアップロードできますか？**
 
-* データプロバイダーがクロスデバイスターゲティングで [プロファイルリンク](../features/profile-merge-rules/merge-rules-overview.md)を使用するように設定されている場合、ID 同期後すぐに、ターゲティングに利用可能なデータと一致する [!DNL Audience Manager] 訪問者 ID が特定されます。
+はい。アップロードするCRMデータをデバイス間のデータソースに保存する限り、Audience Managerは常にデータを保存します。 実際、2019年10月にAudience Managerが開始したプロファイル結合ルールの機能強化に従って、オフラインのみの使用を可能にし、Audience Managerコードを実稼働環境にデプロイせずに、データをアップロードしてアクションを実行できます。 以下を参照してください。
 
-* データプロバイダーが [!UICONTROL Profile Link] 機能を使用するように設定されていない場合、[!DNL Audience Manager] は、以前 [!DNL Audience Manager] 訪問者 ID と同期／マッチングし直した受信データファイルにある訪問者 ID のデータのみを処理します。
-
-データプロバイダーが [!UICONTROL Profile Merge] を使用するように設定されていない場合、以下のユースケースを検討します。
-
-<table id="table_1A367ED6D016428FB21B3F3BC261BA98"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ユースケース </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>例 1</b> </p> </td> 
-   <td colname="col2"> <p>月曜日に、訪問者が CRM データベースで訪問者 ABC ログインとして特定され、これによりクライアント側 ID 同期が開始されます。<span class="keyword">Audience Manager</span> は、訪問者 ABC のマッピングを <span class="keyword">Audience Manager</span> 訪問者 123 に格納します。 </p> <p>火曜日に、CRM データベースはデータファイル（<span class="filepath">.sync</span>）を <span class="keyword">Audience Manager</span> サーバーに以下のレコードと共に転送します。 </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> ABC "gender"="male","luxury_shopper"="yes"</code> </li> 
-     </ul> </p> <p>この場合、<span class="keyword">Audience Manager</span> では、以下のことがおこなわれます。 </p> <p> 
-     <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
-      <li id="li_DC4F5E63D8134A29B703BDF264F02F65">格納された ID 同期マッピングから訪問者 ABC を認識します。 </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> 特性 <code> male</code> および <code> luxury_shopper</code> を訪問者 123 プロファイルに関連付けます。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>例 2</b> </p> </td> 
-   <td colname="col2"> <p>月曜日に、CRM データベースはデータファイル（<span class="filepath">.sync</span>）を <span class="keyword">Audience Manager</span> サーバーに以下のレコードと共にプッシュします。 </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> DEF "gender"="female","wine_enthusiast"="yes"</code> </li> 
-     </ul> </p> <p> <span class="keyword">Audience Manager</span> は、この訪問者（または関連する訪問者 ID）のレコードを持たないので、このレコードは処理されません。 </p> <p>火曜日に、訪問者 DEF がログインします。このアクションにより、この訪問者の最初のクライアント側 ID 同期が開始されます。このアクションにより、訪問者 DEF が <span class="keyword">Audience Manager</span> ID 456 にマッピングされます。ただし、この訪問者は、そのプロファイルに関連付けられた CRM データを持ちません。結果として、<span class="keyword">Audience Manager</span> は、古いファイルに戻って再処理しません。 </p> <p>水曜日に、CRM データベースは別のデータファイルを <span class="keyword">Audience Manager</span> サーバーに以下のレコードと共にプッシュします。 </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</code> </li> 
-     </ul> </p> <p>この場合、<span class="keyword">Audience Manager</span> では、以下のことがおこなわれます。 </p> 
-    <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
-     <li id="li_64D64A16E99E492BAAE1080867F854A9">格納された ID 同期マッピングから訪問者 DEF を認識します。 </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">特性 <code> female</code>、<code> paris</code> および <code> wine_enthusiast</code> を訪問者 456 プロファイルに関連付けます。 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>例 3</b> </p> </td> 
-   <td colname="col2"> <p>月曜日に、次のレコードを含んだ 2 つのファイルを <span class="keyword">Audience Manager</span> サーバーが受信します。 </p> <p> 次を含む <code> .sync</code> ファイル： </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> GHI 123456789</code> </li> 
-     </ul> </p> <p> 次を含む <code> .overwrite</code> ファイル： </p> 
-    <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
-     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
-     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
-    </ul> <p><span class="keyword">Audience Manager では、以前の ID 同期から訪問者 JKL のマッピング済みレコードを ID 789 に格納します。</span> </p> <p>この場合、<span class="keyword">Audience Manager</span> では、以下のことがおこなわれます。 </p> 
-    <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
-     <li id="li_6DABD380311D49738DAD98F5E6DE45B8">格納された ID 同期マッピングから訪問者 JKL を認識します。 </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">特性 <code> female</code> および <code> wine_enthusiast</code> を訪問者 ID 789 のプロファイルに関連付けます。 </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">訪問者 GHI の ID は現在のバッチでのみ同期されたものなので、GHI の特性関連付けは無視されます。特性を訪問者 GHI に関連付けるには、今後の <code> .overwrite</code> ファイルにそれらの特性を含める必要があります。 </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [プロファイル結合ルールの強化の概要](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* ユーザーベースの宛先 — オフライン [のみのデータに基づくパーソナライゼーション](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -186,8 +133,6 @@ Consider the following use cases in which the data provider is not configured to
 </table>
 
 -->
-
-<br> 
 
 **1 日のうちどの時刻にファイルを転送するとよいですか？**
 
