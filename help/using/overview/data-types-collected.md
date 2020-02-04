@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 収集されるデータのタイプ
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
+source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
 
 ---
 
@@ -88,5 +88,4 @@ Audience Manager は、利用可能な API およびデータセットによっ�
 
 クライアントの多くは、サードパーティのデータマッチング企業とパートナー連携しています。これらの企業は登録を伴う各種サイトとつながっており、企業が持つ登録ネットワークに基づき、リアルタイムで顧客データファイルのマッチングをおこないます。
 
-![](assets/data_provider_match_700px.png)
-
+![data-provider-match](assets/data-provider-match.png)
