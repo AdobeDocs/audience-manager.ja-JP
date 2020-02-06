@@ -5,7 +5,7 @@ seo-title: メタデータファイルの概要とマッピング
 solution: Audience Manager
 title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
 
 ## 概要 {#overview}
 
-メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、 [Audience Optimization レポートおよび実用的なログファイル用のデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[Audience Optimization レポートおよび実用的なログファイル用のデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### メタデータファイルには他のデータに関するデータが含まれる
 
@@ -41,7 +41,7 @@ source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
 
 ![](assets/metadata_menu.png)
 
-## ファイルのマッピング {#file-mappings}
+## ファイルのマッピング{#file-mappings}
 
 次の表は、[!UICONTROL Audience Optimization]レポートで使用するデータが格納されるキーと値のペアの一覧です。メタデータファイルを使用する必要がある場合、このキーと値のペアの値に対応する、わかりやすい情報がメタデータに含まれています。これらのキーの値には整数（データ型 INT）しか使用できません。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
 
