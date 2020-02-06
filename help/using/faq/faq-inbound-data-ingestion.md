@@ -6,7 +6,7 @@ seo-title: 顧客データのインバウンドの取得に関するよくある
 solution: Audience Manager
 title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b9afa7c53f5bc2738f185440160f62a87e0bda1
 
 ---
@@ -66,10 +66,10 @@ Removed the Data Translation File bullet from the list above.
 
 **[!DNL Audience Manager]コードを実稼動環境にデプロイする前に、受信データファイル（[!DNL .sync] または [!DNL .overwrite] ファイル）をアップロードできますか？**
 
-はい。アップロードするCRMデータをデバイス間のデータソースに保存する限り、Audience Managerは常にデータを保存します。 実際、2019年10月にAudience Managerが開始したプロファイル結合ルールの機能強化に従って、オフラインのみの使用を可能にし、Audience Managerコードを実稼働環境にデプロイせずに、データをアップロードしてアクションを実行できます。 以下を参照してください。
+はい。アップロードする CRM データを保存するためにクロスデバイスデータソースを使用している限り、Audience Manager では常にデータが保存されます。実際、2019 年 10 月に Audience Manager が開始した、オフラインのみの使用を許可するプロファイル結合ルールの機能強化に従って、Audience Manager コードを実稼働環境にデプロイしなくても、データをアップロードしてアクションを実行できます。以下を参照してください。
 
 * [プロファイル結合ルールの強化の概要](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* ユーザーベースの宛先 — オフライン [のみのデータに基づくパーソナライゼーション](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* ユーザーベースの宛先 — [オフラインのみのデータに基づくパーソナライゼーション](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -154,7 +154,7 @@ Consider the following use cases in which the data provider is not configured to
 
 **Audience Manager は、どれくらいの間ファイルをサーバーに保持しますか？**
 
-FTP ファイルは、処理された後で削除されます。[!DNL S3] ファイルは、30 日後に削除されます。形式、構文または他のエラーによって処理できなかったファイルは、削除されます。また、[プライバシーとデータ保持についてよくある質問](../faq/faq-privacy.md)も参照してください。
+FTP ファイルは、処理された後で削除されます。[!DNL S3] ファイルは、30 日後に削除されます。形式、構文または他のエラーによって処理できなかったファイルは、削除されます。[プライバシーとデータ保持についてよくある質問](../faq/faq-privacy.md)も参照してください。
 
 <br> 
 
