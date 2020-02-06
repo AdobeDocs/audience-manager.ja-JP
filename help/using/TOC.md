@@ -4,7 +4,7 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
 
 ---
@@ -99,7 +99,7 @@ source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
          + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
       + デバイスベースの宛先（サーバー間） {#device-based}
          + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
-         + [Audience Managerデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
+         + [Audience Manager のデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
          + [Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
       + カスタムの宛先 {#custom-destinations}
@@ -234,7 +234,7 @@ source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
          + [DCS API 呼び出しでサポートされている属性](api/dcs-intro/dcs-api-reference/dcs-keys.md)
    + REST API {#rest-apis}
       + [REST API の概要](api/rest-api-main/rest-api-main.md)
-      + [REST API の概要](api/rest-api-main/aam-api-getting-started.md)
+      + [REST API の使用の手引き](api/rest-api-main/aam-api-getting-started.md)
       + [アルゴリズム API メソッド](api/rest-api-main/aam-api-algo-methods.md)
       + [データ統合ライブラリ API メソッド](api/rest-api-main/aam-api-dil-methods.md)
       + [データソース API メソッド](api/rest-api-main/aam-api-data-sources.md)
@@ -329,8 +329,8 @@ source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
       + [Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](integration/integration-aep/aam-aep-audience-sharing.md)
    + 他のExperience Cloudソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
-      + [Adobe AnalyticsからAudience Managerにデータを転送する方法](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
+      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
