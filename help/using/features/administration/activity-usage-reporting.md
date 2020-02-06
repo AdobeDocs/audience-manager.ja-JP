@@ -1,12 +1,12 @@
 ---
-description: アクティビティの使用状況レポートは、Audience Managerインスタンスのアクティビティの使用状況を表示および追跡するのに役立ちます。これにより、実際の使用状況と契約上の取り組みを比較できます。
+description: アクティビティ使用状況レポートは、Audience Manager インスタンスのアクティビティ使用量を表示および追跡するのに役立ち、アクティビティ使用量と契約上のコミットメントを明確に比較できます。
 keywords: activity, usage, reporting, commitment
-seo-description: アクティビティの使用状況レポートは、Audience Managerインスタンスのアクティビティの使用状況を表示および追跡するのに役立ちます。これにより、実際の使用状況と契約上の取り組みを比較できます。
+seo-description: アクティビティ使用状況レポートは、Audience Manager インスタンスのアクティビティ使用量を表示および追跡するのに役立ち、アクティビティ使用量と契約上のコミットメントを明確に比較できます。
 seo-title: アクティビティ使用状況レポート
 solution: Audience Manager
 title: アクティビティ使用状況レポート
 topic: Activity Usage Reporting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7a3914af8fb225508f57724a75fe2547aac3f241
 
 ---
@@ -16,69 +16,69 @@ source-git-commit: 7a3914af8fb225508f57724a75fe2547aac3f241
 
 ## 概要 {#overview}
 
-は、Audience Manager [!UICONTROL Activity Usage Report] インスタンスのアクティビティの使用状況を表示および追跡するのに役立ち、アクティビティの使用状況と契約上のコミットメントとの比較方法を明確に把握できます。
+[!UICONTROL Activity Usage Report] は、Audience Manager インスタンスのアクティビティ使用量を表示および追跡するのに役立ち、アクティビティ使用量と契約上のコミットメントを明確に比較できます。
 
-また、記録管理とカスタム分析のた [!UICONTROL Activity Usage Report] めに、必要に応じていつでもをダウンロードできます。
+また、記録管理とカスタム分析のために、必要に応じていつでも [!UICONTROL Activity Usage Report] をダウンロードできます。
 
 ## 注意点 {#considerations}
 
-この機能 [!UICONTROL Activity Usage Report] は、管理者権限を持つすべてのAudience Managerユーザーが使 [用できます](edit-account-settings.md)。
+[!UICONTROL Activity Usage Report] は、[管理者権限](edit-account-settings.md)を持つすべての Audience Manager ユーザーが使用できます。
 
 > [!IMPORTANT]
 >
-> に、Audience Manager [!UICONTROL Activity Usage Report] インスタンスのアクティビティの使用状況の統計が表示されます。 アクティビティの使用に関する請求に関するお問い合わせは、アドビの担当者にお問い合わせください。
+> [!UICONTROL Activity Usage Report] は、Audience Manager インスタンスのアクティビティ使用量の統計を示します。アクティビティ使用量に関する請求のお問い合わせは、Adobe 担当者にお問い合わせください。
 
 ## ユースケース {#use-cases}
 
-の主な使用例は次の2つです [!UICONTROL Activity Usage Report]。
+[!UICONTROL Activity Usage Report] の主な使用例は次の 2 つです。
 
-* **アクティビティ使用率に対する実際のインスタンスアクティビティ使用量の追跡**:ほとんどのお客様は、Audience Managerインスタンスごとに毎月のアクティビティのコミットメントを見積もっており、その後、すべてのインスタンスで年間のアクティビティのコミットメントに累積されます。 このレポートは請求レポートではありませんが、コミットされたアクティビティの使用を超過しているかどうかに関する有用なガイダンスを提供できます。
-* **実装の変更の検証**:Analyticsサーバー側転送の設定、Targetサーバーコールの設定の変更など、実装を最近更新した場合、このレポートは、新しいアクティビティの量が予想されるアクティビティの量と一致しているかどうかを確認するのに役立ちます。
+* **アクティビティ使用量コミットメントに対する実際のインスタンスアクティビティ使用量の追跡**：ほとんどのお客様は、Audience Manager インスタンスごとに毎月のアクティビティのコミットメントを見積もった後、すべてのインスタンスをまたいだ年間のアクティビティのコミットメントに集計します。このレポートは請求レポートではありませんが、コミットされたアクティビティ使用量を超過しているかどうかを把握するのに役立ちます。
+* **実装の変更の検証**：Analytics サーバーサイド転送の設定や Target サーバーコールの設定変更などの実装を最近更新した場合、このレポートを使用すれば、新しいアクティビティの量が期待したアクティビティ量と一致しているかどうかを確認できます。
 
-## アクティビティの使用状況レポートの使用 {#using}
+## アクティビティ使用状況レポートの使用 {#using}
 
-To see the [!UICONTROL Activity Usage Report], log in to your Audience Manager account, and go to **[!UICONTROL Administration]**>**[!UICONTROL Usage]**.
+[!UICONTROL Activity Usage Report] を表示するには、Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Usage]** に移動します。
 
 ![aur-ui](assets/aur-ui.png)
 
-次に、フィルターを **[!UICONTROL Reporting Interval]**使用して、レポートを生成する時間間隔を選択します。 30日、60日、90日、またはカスタムの日付範囲を選択できます。
+次に、**[!UICONTROL Reporting Interval]** フィルターを使用して、レポートを生成する時間間隔を選択します。30 日、60 日、90 日、またはカスタムの日付範囲を選択できます。
 
-レポートが読み込まれると、選択した期間の内訳を [!UICONTROL Activities] 確認できます。
+レポートが読み込まれると、選択した期間の [!UICONTROL Activities] の内訳を確認できます。
 
-[!UICONTROL Activities] audience Managerとのすべてのオンサイトおよびオフサイトでのインタラクションの集計合計を定義し、次のカテゴリに分けます。
+[!UICONTROL Activities] では、オンサイトとオフサイトにおける Audience Manager との全インタラクションの集計を定義し、次のカテゴリに分けます。
 
-* **[!UICONTROL Server Calls]**:Webサイト、サーバー、電子メール、モバイルアプリケーション、その他のシステムからAudience Managerに送信されるデータ収集または取得イベント。
-* **[!UICONTROL Pixel Calls](旧称[!UICONTROL Impression Server Calls])**:広告から収集されたデータ（ターゲットプラットフォームのインプレッション数など）またはAudience Managerに対する電子メールインプレッション呼び出し。 これらのパラメーターは、クエリ文字列 `d_event` 内にパラメーターが存在する必要があります。
-* **[!UICONTROL On-Boarded Records]**:独自の顧客関係管理システム(CRM)や、コールセンターレコード、デバイスID、外部データプロバイダーからのカスタムデータフィードなど、他のオフラインデータファイルから取り込んだ一意のレコード。
-* **[!UICONTROL Log File Records]**:ターゲットプラットフォームからAudience Managerに取り込まれたログファイルの一意のレコード。
+* **[!UICONTROL Server Calls]**：Web サイト、サーバー、電子メール、モバイルアプリケーション、その他のシステムから Audience Manager に送信されるデータ収集または取得イベント。
+* **[!UICONTROL Pixel Calls]（旧称[!UICONTROL Impression Server Calls]）**：広告から収集されたデータ（ターゲットプラットフォームのインプレッション数など）または Audience Manager に対する電子メールインプレッション呼び出し。クエリ文字列内に`d_event`パラメーターが必要です。
+* **[!UICONTROL On-Boarded Records]**：自社の顧客関係管理システム（CRM）や、その他のオフラインデータファイル（例：コールセンターレコード、デバイス ID、外部データプロバイダーからのカスタムデータフィード）から取り込んだ一意のレコード。
+* **[!UICONTROL Log File Records]**：ターゲットプラットフォームから Audience Manager に取り込まれたログファイルの一意のレコード。
 
 > [!NOTE]
-> 一意のレコードは、Audience Managerの顧客に代わってアドビが保存するファイル内のデータの個々のレコードを定義します。
+> ある一意のレコードは、Audience Manager の顧客に代わってアドビが保存するファイル内のデータの個別レコードを定義します。
 
-また、グラフの種類を使用し [!UICONTROL Activity Usage Trends] て、2種類のグラフを切り替えることもできます。
+また、[!UICONTROL Activity Usage Trends]グラフタイプを使用して、2 種類のグラフを切り替えることもできます。
 
 ![aur-ui-graphs](assets/aur-ui-graphs.png)
 
-また、タイムライン内の特定の日付にカーソルを合わせて、その日付の詳細な使用方法を確認することもできます。
+タイムラインの特定の日付にカーソルを合わせて、その日の詳細な使用状況を確認することもできます。
 
 ![aur-hover](assets/aur-hover.png)
 
-## アクティビティ使用状況レポートのエクスポート {#export}
+## アクティビティ使用状況レポートの書き出し {#export}
 
-Audience Managerのアクティビティの使用レベルをより詳細に把握するために、含めるレコードのタ [!UICONTROL Activity Usage Report] イプに基づいてを書き出すことができます。
+Audience Manager のアクティビティの使用状況レベルをより詳細に把握するために、含めるレコードのタイプに基づいて [!UICONTROL Activity Usage Report] を書き出すことができます。
 
-![aur輸出](assets/aur-export.png)
+![aur-export](assets/aur-export.png)
 
-レポート **[!UICONTROL Onboarded Records Breakdown]**とレポ**[!UICONTROL Onsite Server Calls Breakdown]** ートは、これらのアクティビティで使用できるソースデータの最も詳細なインサイトを提供します。 これらの分類に関連付けられるボリュームは、実装に基づいています。
+**[!UICONTROL Onboarded Records Breakdown]** レポートと **[!UICONTROL Onsite Server Calls Breakdown]** レポートは、これらのアクティビティで使用できるソースデータの最もきめ細かいインサイトを提供します。これらの分類に属するボリュームは、実装に基づきます。
 
 ### オンボードレコードの分類 {#onboarded-breakdown}
 
 このレポートには、データソース別に分類されたオンボードレコードが含まれています。
 
-### Onsiteサーバーコールの分類 {#onsite-breakdown}
+### オンサイトサーバーコールの分類 {#onsite-breakdown}
 
-このレポートには、3つのソースからのサーバーコールの内訳が含まれます。 [!UICONTROL Analytics]、 [!UICONTROL Target]、、 [!UICONTROL Other]、
+このレポートには、3 つのソース（[!UICONTROL Analytics]、[!UICONTROL Target]、[!UICONTROL Other]）からのサーバーコールの分類が含まれます。
 
-* **[!UICONTROL Analytics]**:これらは、すべてのAdobe AnalyticsインスタンスからAudience Managerに渡される課金対象のサーバーコールで、サーバー側転送も含まれます。 セカンダリサーバーコールまたは重複したサーバーコール（複数のレポートスイートからのサーバー側転送の場合など）は課金対象のアクティビティではないので、この分類には含まれません。
-* **[!UICONTROL Target]**:これらは、Adobe targetからAudience Managerへのサーバー側呼び出しで、サーバー間統合の一環としてAudience Managerのセグメントデータを取得します。
-* **[!UICONTROL Other]**:他のWebサイトまたはシステム（パートナーサイト、ダイレクトサーバーコールなど）からの呼び出し、、、、イベント呼び出し、呼び出しを介したモバイ[!DNL SDK]ルブ[!DNL DIL]ラウザー/アプリ呼び出しが含ま[!DNL DCS]れます。 また、cookie統合(サーバ[!DNL Target]ー間ではなく)として設定されている場合の呼び出しも含まれます。
+* **[!UICONTROL Analytics]**：すべての Adobe Analytics インスタンスから Audience Manager に渡される課金対象のサーバーコール。サーバーサイド転送も含まれます。セカンダリサーバーコールまたは重複したサーバーコール（例：複数のレポートスイートからのサーバーサイド転送の場合）は課金対象のアクティビティではないので、この分類には含まれません。
+* **[!UICONTROL Target]**：Adobe Target から Audience Manager へのサーバーサイド呼び出し。サーバー間統合の一環として Audience Manager のセグメントデータを取得します。
+* **[!UICONTROL Other]**：他の Web サイトまたはシステム（パートナーサイト、ダイレクトサーバーコールなど）からの呼び出し、[!DNL SDK]、[!DNL DIL]、イベント呼び出し、[!DNL DCS] 呼び出し経由でのモバイルブラウザー／アプリケーション呼び出しが含まれます。また、cookie 統合（サーバー間ではなく）として設定されている場合は [!DNL Target] 呼び出しも含まれます。
