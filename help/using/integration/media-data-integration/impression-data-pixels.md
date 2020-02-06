@@ -5,7 +5,7 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのインプ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
@@ -33,7 +33,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 
 このキーと値のペアでは、値変数は広告サーバーにより挿入された ID またはマクロです。広告タグが読み込まれると、`%macro%` は対応する必須の値に置き換えられます。この呼び出しでは、応答は返されません。
 
-## サポートされているキーと値のペア {#supported-key-value-pairs}
+## サポートされているキーと値のペア{#supported-key-value-pairs}
 
 インプレッションイベント呼び出しでは、キーと値のペアとして構成されているデータを受け付けます。次の表は、これらの変数を格納するキーの一覧と説明です。これらのうち多くは、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータのキャプチャと分析をおこなう場合に必要になります。
 
@@ -108,9 +108,9 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 >
 >クライアントドメイン専用の正確な URL については、Adobe Audience Manager コンサルタントまたはアカウントリードにお問い合わせください。
 
-## 追加機能 — オーディエンス最適化レポート
+## 追加機能 — Audience Optimization レポート
 
-ピクセル呼び出しを使用して、オーディエンス最適化レ [ポートを強化できま](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)す。 ピクセル [を使用してレポートに出力する場合は](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 、「メタデータファイルの概要とマッピング」を参照してください。
+ピクセル呼び出しを使用して、[Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) レポートを強化できます。ピクセルを使用してレポートに出力する場合は、[メタデータファイルの概要とマッピング](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
 
 >[!MORELIKETHIS]
 >
