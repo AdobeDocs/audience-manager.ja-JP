@@ -5,7 +5,7 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのクリッ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 # ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ {#capturing-campaign-click-data-via-pixel-calls}
 
-クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。Similar to [impressions collection](/help/using/integration/media-data-integration/impression-data-pixels.md), an event call is sent to the Audience Manager data collection servers ([!UICONTROL DCS]) for processing. 訪問者はその後、意図した Web アドレスにリダイレクトされます。
+クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。[インプレッションの収集](/help/using/integration/media-data-integration/impression-data-pixels.md)と同様に、イベント呼び出しを処理するため、Audience Manager のデータ収集サーバー（[!UICONTROL DCS]）に送信されます。訪問者はその後、意図した Web アドレスにリダイレクトされます。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -163,9 +163,9 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## 追加機能 — オーディエンス最適化レポート
+## 追加機能 — Audience Optimization レポート
 
-ピクセル呼び出しを使用して、オーディエンス最適化レ [ポートを強化できま](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)す。 ピクセル [を使用してレポートに出力する場合は](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) 、「メタデータファイルの概要とマッピング」を参照してください。
+ピクセル呼び出しを使用して、[Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) レポートを強化できます。ピクセルを使用してレポートに出力する場合は、[メタデータファイルの概要とマッピング](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
 
 
 >[!MORELIKETHIS]
