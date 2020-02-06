@@ -5,7 +5,7 @@ seo-title: メタデータファイルの配信方法
 solution: Audience Manager
 title: メタデータファイルの配信方法
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 >[!IMPORTANT]
 >
-> Audience Managerのコンサルタントまたはカスタマーケアに連絡して、メタデータファイルの開始とディレ [!DNL Amazon S3] クトリの設定を依頼します。
+> 使い始めるには、Audience Manager のコンサルタントまたはカスタマーケアに連絡して、メタデータファイル用に [!DNL Amazon S3]ディレクトリを設定するよう依頼します。
 
 ## 配信パスの構文と例 {#syntax}
 
@@ -35,7 +35,7 @@ source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 .../log_ingestion/pid=1121/dpid=3342/meta/20200112_0_4
 ```
 
-<br> 
+<br>
 
 ファイル配信パスのこれらの各要素を次の表で定義します。
 
