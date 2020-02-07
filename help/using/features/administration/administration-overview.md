@@ -1,6 +1,6 @@
 ---
 description: Administration メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
-keywords: rbac;RBAC;役割に基づく;ロールベース;ロールベースのアクセス制御
+keywords: rbac;RBAC;role based;role-based;role-based access controls
 seo-description: Administration メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
 seo-title: 管理
 solution: Audience Manager
@@ -8,7 +8,7 @@ title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 [!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
-1. **[!UICONTROL Administration]**／**[!UICONTROL Users]** をクリックします。
+1. クリック **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. ![](assets/icon_add.png) をクリックして、[!UICONTROL Create New User] ページを表示します。
 1. 「**[!UICONTROL User Details]**」で、以下のフィールドに入力します。
    * **Username：** Audience Manager での一意のユーザー名を指定します。
@@ -45,7 +45,7 @@ source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
    * **Pending：**&#x200B;パスワードのリセット後、またはアカウントの新規作成時の臨時パスワードがユーザーに対して発行されており、まだ正式なパスワードが設定されていません。
    * **Locked Out：**&#x200B;ログインの試行に 5 回失敗したので、ユーザーがロックアウトされています。
 1. 「**[!UICONTROL Assigned Groups]**」の下のドロップダウンリストから、このユーザーを割り当てるグループを選択します。グループと権限について詳しくは、[グループの作成](../../features/administration/administration-overview.md#create-group)を参照してください。
-1. 「**[!UICONTROL Save]**」をクリックします。
+1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 ## グループの作成 {#create-group}
 
@@ -55,17 +55,17 @@ source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 グループを作成するには：
 
-1. **[!UICONTROL Administration]**／**[!UICONTROL Groups]** をクリックします。
+1. クリック **[!UICONTROL Administration]** > **[!UICONTROL Groups]**.
 1. ![](assets/icon_add.png) をクリックして、[!UICONTROL Group Settings] ページを開きます。
 1. [!UICONTROL Group Details]：
    * グループの名前を指定します。
    * グループについての簡単な説明を入力します。
 1. 「[!UICONTROL Group Members]」で、「**[!UICONTROL Add Users]**」オプションからユーザーをクリックし、グループに追加します。
-1. [!UICONTROL Group Permissions] で、**[!UICONTROL Add Object]** から[特性](../../features/traits/trait-details-page.md)、[セグメント](../../features/segments/segments-purpose.md)、または[宛先](../../features/destinations/destinations.md)を選択します。
+1. [!UICONTROL Group Permissions] で、[ から](../../features/traits/trait-details-page.md)特性[、](../../features/segments/segments-purpose.md)セグメント[、または](../../features/destinations/destinations.md)宛先&#x200B;**[!UICONTROL Add Object]**を選択します。
 選択したオブジェクトの権限ウィンドウが開きます。
 1. グループメンバーに付与する権限のチェックボックスをオンにします。
 1. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。
-1. 「**[!UICONTROL Save Group]**」をクリックします。
+1. **[!UICONTROL Save Group]**&#x200B;をクリックします。
 
 ## ワイルドカード権限{#wild-card-permissions}について 
 
@@ -133,3 +133,21 @@ source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 **シグナル**
 
 * `VIEW_ALL_SIGNALS`：ユーザーは、[Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md) でキャプチャされたすべてのシグナルを表示できます。
+
+## ユースケース {#use-cases}
+
+### ユーザーアクセスの監視 {#monitoring-user-access}
+
+[!UICONTROL Role-Based Access Control] は、ユーザーのログインステータスを監視する際に役立ち、Audience Managerインスタンスにアクセスできるユーザーを明確に示します。
+
+必要に応じて、ビジネス要件に応じて、ユーザーアカウントを有効または無効にできます。
+
+![monitor-user-access](assets/monitor-user-access.png)
+
+### 機密性の高いデータ・ソースに対するアクセス保護の確保 {#protect-sensitive-data-sources}
+
+特性、セグメン [!UICONTROL Role-Based Access Control] トおよび宛先レベルで、各ユーザーグループを設定できます。
+
+この機能は、特定のデータセットの表示、作成、読み取り、書き込み、編集の方法を管理し、また、使用できないデータセットへのユーザーのアクセスを制限する場合にも役立ちます。
+
+![アクセス保護](assets/access-protection.png)
