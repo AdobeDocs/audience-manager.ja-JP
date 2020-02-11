@@ -5,8 +5,8 @@ seo-title: Audience Manager と Adobe Experience Platform の間でのオーデ�
 solution: Audience Manager
 title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
-translation-type: ht
-source-git-commit: 08e0a97faa74b97bf42d5729b76ea2caa14193da
+translation-type: tm+mt
+source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
 
 ---
 
@@ -23,14 +23,14 @@ source-git-commit: 08e0a97faa74b97bf42d5729b76ea2caa14193da
 
 Audience Manager と Adobe Experience Platform の間でオーディエンス共有機能を使用すると、Audience Manager の特性とセグメントを Adobe Experience Platform と共有できます。また、その逆も可能です。
 
-Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)を活用することができます。
+Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)を活用することができます。
 
 Audience Manager では、次のように、Data Management Platform のユースケースに対して Experience Platform セグメントを使用できます。
 * [サードパーティデータ](/help/using/overview/data-types-collected.md#third-party-data)をセグメントに追加する
 * [アルゴリズムモデリング](/help/using/features/algorithmic-models/understanding-models.md)
 * Experience Platform の[宛先カタログ](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)でまだサポートされていない宛先に対してセグメントをアクティブ化します。
 
-さらに、Experience Platform のセグメントは、[コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/experience-cloud.html)を介して他の Experience Cloud ソリューションと共有されます。
+さらに、Experience Platform のセグメントは、[コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)を介して他の Experience Cloud ソリューションと共有されます。
 
  <br>
 
@@ -46,7 +46,7 @@ Audience Manager では、次のように、Data Management Platform のユー�
 
 Audience Manager の特性とセグメントは、セグメントワークフローの&#x200B;**オーディエンス**&#x200B;として Experience Platform に表示されます。Experience Platform での Audience Manager のセグメントと特性について詳しくは、次を参照してください。
 
-* [セグメント化サービスの概要](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)
+* [セグメント化サービスの概要](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
 * [Experience Platform セグメントビルダーユーザーガイド](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
 
  <br>
