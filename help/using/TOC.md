@@ -4,8 +4,8 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
-source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
+translation-type: tm+mt
+source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
 
 ---
 
@@ -330,7 +330,7 @@ source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
    + 他のExperience Cloudソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
@@ -366,7 +366,7 @@ source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
       + [エッジデータセンターについて](reference/system-components/components-edge.md)
    + [コードおよびテキスト要素のスタイル規則](reference/code-style-elements.md)
    + [Audience Manager のタイムゾーン](reference/aam-time-zones.md)
-   + [TLS 1.0 のサポート終了](reference/tls-support.md)
+   + [TLS 1.0および1.1の廃止](reference/tls-support.md)
    + [demdex ドメインの呼び出しについて](reference/demdex-calls.md)
    + [Audience Manager の訪問者認証ステータス](reference/visitor-authentication-states.md)
 + よくある質問（FAQ） {#faqs}
