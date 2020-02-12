@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 受信データタイプのファイル PGP 暗号化
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
@@ -20,6 +20,8 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 >[!IMPORTANT]
 >
 >現在、同じ受信データファイルに対する暗号化と圧縮はサポートされていません。受信ファイルの暗号化または[圧縮](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)のいずれかを選択できます。
+>
+> ただし、PGP暗号化には組み込み圧縮が含まれることに注意してください。
 
 受信データファイルを暗号化するには、以下の手順に従います。
 
