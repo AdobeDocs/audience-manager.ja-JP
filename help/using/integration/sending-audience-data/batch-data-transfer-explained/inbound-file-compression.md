@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 受信データ転送ファイルのファイル圧縮
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
@@ -23,7 +23,9 @@ Audience Manager では、インバウンドの非同期データ転送に対し
 
 >[!IMPORTANT]
 >
->現在、同じ受信データファイルに対する暗号化と圧縮はサポートされていません。受信ファイルの[暗号化](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)または圧縮のいずれかを選択できます。
+>現在、同じ受信データファイルに対する暗号化と圧縮はサポートされていません。You can choose to either [encrypt](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) or compress your inbound files.
+>
+> ただし、PGP暗号化には組み込み圧縮が含まれることに注意してください。
 
 ## Amazon S3 における圧縮
 
