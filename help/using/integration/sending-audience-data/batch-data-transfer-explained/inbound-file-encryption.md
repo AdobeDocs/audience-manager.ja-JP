@@ -6,33 +6,33 @@ solution: Audience Manager
 title: 受信データタイプのファイル PGP 暗号化
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
+source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
 
 ---
 
 
 # 受信データタイプのファイル PGP 暗号化{#file-pgp-encryption-for-inbound-data-types}
 
-オプションとして、Audience Manager に送信するデータファイルを [!DNL PGP] で暗号化できます。
+You can encrypt data files with [!DNL PGP] encryption when sending them to Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->現在、同じ受信データファイルに対する暗号化と圧縮はサポートされていません。受信ファイルの暗号化または[圧縮](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)のいずれかを選択できます。
+>[!DNL PGP] 暗号化にはファイル圧縮が含まれます。 暗号化された受 [!DNL PGP] 信ファイルを送信する場合は、gzip [(](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)`.gz`)を使って圧縮しないようにします。
 >
-> ただし、PGP暗号化には組み込み圧縮が含まれることに注意してください。
+>[!DNL PGP] 暗号化された受信ファイルも圧縮 [され](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 、Audience Managerでは無効です。
 
 受信データファイルを暗号化するには、以下の手順に従います。
 
 1. [Audience Manager 公開鍵](./assets/adobe_pgp.pub)をダウンロードします。
-1. 信頼されているストアに公開鍵を読み込みます。
+2. 信頼されているストアに公開鍵を読み込みます。
 
    例えば、[!DNL GPG] を使用している場合、コマンドは次のようになります。
 
    `gpg --import adobe_pgp.pub`
 
-1. 次のコマンドを実行して、鍵が正しく読み込まれたことを検証します。
+3. 次のコマンドを実行して、鍵が正しく読み込まれたことを検証します。
 
    `gpg --list-keys`
 
@@ -44,7 +44,7 @@ source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
    sub   4096R/E3F2A363 2013-11-01
    ```
 
-1. 次のコマンドを使用して、受信データを暗号化します。
+4. 次のコマンドを使用して、受信データを暗号化します。
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
