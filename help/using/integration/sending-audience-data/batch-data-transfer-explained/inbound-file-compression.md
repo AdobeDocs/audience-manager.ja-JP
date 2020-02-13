@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 受信データ転送ファイルのファイル圧縮
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 translation-type: tm+mt
-source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
+source-git-commit: 392b17e5a97038169e2cd36f2e71f5b4b997070c
 
 ---
 
@@ -25,7 +25,7 @@ Audience Manager では、インバウンドの非同期データ転送に対し
 >
 >gzip (`.gz`)を使用して圧縮された受信ファイルの暗号化はサポートされません。
 >
-> 受信ファイルを暗号化および圧縮するには、 [PGP暗号化を使用します](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)。 [!DNL PGP] 暗号化にはファイル圧縮が含まれます。
+>受信ファイルを暗号化および圧縮するには、 [PGP暗号化を使用します](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)。 [!DNL PGP] 暗号化にはファイル圧縮が含まれます。
 
 ## Amazon S3 における圧縮
 
@@ -37,7 +37,7 @@ Audience Manager では、インバウンドの非同期データ転送に対し
 
 ## ベストプラクティス
 
-* ファイルは [!DNL .gzip] 形式で圧縮します（また、ファイルの拡張子を [!DNL .gz] とします）。
+* Files should be [!DNL .gzip] compressed (and have a [!DNL .gz] file extension).
 * `.gz` 形式の圧縮ファイルの最大サイズは 1 GB です。
 * ファイルを最速で処理するために最適な分割サイズは、非圧縮の場合はおよそ 1 GB、圧縮の場合は 200～300 MB です。
 * [!DNL Amazon S3] では、アップロードファイルに対して独自に 5 GB のサイズ制限が課されています。
