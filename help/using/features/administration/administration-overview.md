@@ -7,13 +7,13 @@ solution: Audience Manager
 title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ---
 
 
-# 管理（RBACコントロール）{#administration}
+# 管理（RBACコントロール） {#administration}
 
 ![](assets/rbac-controls.png)
 
@@ -67,7 +67,7 @@ source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 1. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。
 1. **[!UICONTROL Save Group]**&#x200B;をクリックします。
 
-## ワイルドカード権限{#wild-card-permissions}について 
+## ワイルドカード権限について {#wild-card-permissions}
 
 [!UICONTROL Wild Card Permissions] でグループ権限を簡略化します。
 
@@ -138,16 +138,16 @@ source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ### ユーザーアクセスの監視 {#monitoring-user-access}
 
-[!UICONTROL Role-Based Access Control] は、ユーザーのログインステータスを監視する際に役立ち、Audience Managerインスタンスにアクセスできるユーザーを明確に示します。
+[!UICONTROL Role-Based Access Control] は、Audience Manager インスタンスにアクセスできるユーザー像を提供し、ユーザーのログインステータスを監視する際に役立ちます。
 
-必要に応じて、ビジネス要件に応じて、ユーザーアカウントを有効または無効にできます。
+ビジネス要件に応じて、必要なときにユーザーアカウントを有効または無効にできます。
 
 ![monitor-user-access](assets/monitor-user-access.png)
 
-### 機密性の高いデータ・ソースに対するアクセス保護の確保 {#protect-sensitive-data-sources}
+### 機密の高いデータソースに対するアクセス保護の確保 {#protect-sensitive-data-sources}
 
-特性、セグメン [!UICONTROL Role-Based Access Control] トおよび宛先レベルで、各ユーザーグループを設定できます。
+各ユーザーグループに対し、特性、セグメントおよび宛先レベルで、[!UICONTROL Role-Based Access Control] を設定できます。
 
-この機能は、特定のデータセットの表示、作成、読み取り、書き込み、編集の方法を管理し、また、使用できないデータセットへのユーザーのアクセスを制限する場合にも役立ちます。
+この機能は、特定のデータセットの表示、作成、読み取り、書き込み、編集の方法を管理する場合や、ユーザーが使用できないデータセットへのアクセスを制限する場合に役立ちます。
 
-![アクセス保護](assets/access-protection.png)
+![access-protection](assets/access-protection.png)
