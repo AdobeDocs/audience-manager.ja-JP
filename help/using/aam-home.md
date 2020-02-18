@@ -5,52 +5,207 @@ seo-title: Adobe Audience Manager 製品技術ドキュメント
 solution: Audience Manager
 title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-translation-type: ht
-source-git-commit: f2f3e40e7866c7610de520952f5dfd65823554f3
+translation-type: tm+mt
+source-git-commit: df33d16269101fd8d9c1dbb791c5a1f5ef647a0b
 
 ---
 
 
+
 # Audience Manager の製品マニュアル {#audience-manager-product-documentation}
 
-このテクニカルドキュメントガイドは、オンラインオーディエンスデータ管理の業界トップのサービスである Audience Manager に対するセルフサポートを提供します。アドビの製品とサービスは、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
+このテクニカルドキュメントガイドは、オンラインオーディエンスデータ管理の業界トップのサービスであるAudience Managerに対するセルフサービスの支援を提供します。 アドビの製品とサービスは、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
 
-<table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
+## この製品ドキュメントガイドの使用
+
+* 左側のナビゲーションで、トピック別およびサブトピック別にコンテ **ンツを参照しま**&#x200B;す。
+* 検索対象 **がわかっている場合は** 、ページ上部の検索フィールドを使用します。
+* ページの右上 **部にある「問題をログに記録** 」ボタンを使用して、誤ったドキュメントや古いドキュメントを伝えます。 See the [Collaboration Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) overview to learn how to start contributing.
+
+## このページの読み方
+
+* まず、Audience Managerが解決に役立つ問題のスナ **ップショットについて** 、Audience Managerの主な機能に関する節をご覧ください。 また、 [Audience Managerの概要も参照して](/help/using/overview/aam-overview.md) 、このページに戻ります。
+* 次に、Audience Managerの概 **念を理解するために** 、「Audience Manager使用の手引き」を参照してください。 ビジネスガイドと技術導入ガイドも必ずご確認ください。
+* 最新のAudience Managerリリースノートを参照し、最新の機能について詳しくは、リリースノートおよび最新の機能 **の節を参照してください**。
+* 最後に、「学習センター — 推奨Audience Manager」と「Experience Cloud Resources」のセクションで、フォーラム、ビデオチュートリアル、インパーソンおよびオンライントレーニングコースなど、より多くのExperience cloudリソースを参照でき **ます**。
+
+<br> 
+
+## Audience Managerの主な機能
+
+<table>
+   <td>
+      <img alt="データ入力" src="/help/using/overview/assets/data-in.png"/>
+      <div>
+         <b>データのインポート</b>
+      </div>
+      <p>
+         <em><ul><li><a href="/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md">データ収集サーバー</a></li><li><a href="/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md">バッチデータ取り込み</a></li><li><a href="/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md">ログインジェスト</a></li><li><a href="/help/using/integration/integration-other-solutions/audience-management-module.md">Adobe AnalyticsデータをAudience Managerに転送する</a></li></ul></em>
+      <p>
+   </td>
+   <td>
+      <img alt="エンリッチとセグメント" src="/help/using/overview/assets/enrich-segment.png"/>
+      <div>
+         <b>エンリッチとセグメント</b>
+      </div>
+      <p>
+       <em><ul><li><a href="/help/using/features/segments/segments-purpose.md">セグメント化</a></li><li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">プロファイル結合ルール </a></li><li><a href="/help/using/features/algorithmic-models/understanding-models.md">アルゴリズムモデリング</a></li><li><a href="/help/using/overview/data-types-collected.md">サードパーティデータ</a></li></ul></em>
+      <p>
+   </td>
+   <td>
+      <img alt="データ出力" src="/help/using/overview/assets/data-out.png"/>
+      </a>
+      <div>
+         <b>Export Data</b>
+      </div>
+      <p>
+      <p>
+         <em><ul><li><a href="/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md">バッチおよびリアルタイムデータのエクスポート</a></li><li><a href="/help/using/features/destinations/destinations.md">宛先の概要</a></li><li><a href="/help/using/features/destinations/device-based-destinations-list.md">デバイスベースの宛先リスト</a></li><li><a href="/help/using/features/destinations/people-based-destinations-overview.md">人ベースの目的地</a></li></ul></em> 
+      <p>
+      <p>
+   </td>
+</table>
+
+
+<br> 
+
+## Audience Managerの概要
+
+<table> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>新しいトピックおよび注目すべきトピック</b> </p> <p>Audience Manager の最新機能については、以下を参照してください。</p> <p> 
+   <td colname="col1"> <p><b>概念に関する重要なドキュメント</b></p>
+   <p>Audience Managerの概念について詳しくは、以下のページを参照してください。 
+   <ul><li><a href="/help/using/overview/aam-overview.md"> Audience Manager の概要</a></li><li><a href="/help/using/reference/signal-trait-segment.md">シグナル、特性、セグメント</a></li><li><a href="/help/using/reference/aam-glossary.md"> 用語集</a> </li><li><a href="/help/using/reference/ids-in-aam.md">IDのインデックス</a></li></ul></p>
+   <br> 
+   <p><b>Audience Managerの実装</b></p>
+   <p> 以下のページを読んで、Audience Managerの実装を開始します。
+     <ul>
+     <li><a href="/help/using/integration/data-integration-methods.md">データ統合方法</a></li>
+     <li><a href="/help/using/integration/implement-audience-manager.md"> 導入ガイド </a></li>
+     </ul> </p>
+     <br> 
+   <p> <b>技術導入ガイド</b> </p> <p>Audience Manager APIを使い始めて、アプリでAudience Managerを設定します。</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
-     <li><a href="overview/data-security-and-privacy/data-privacy.md">カリフォルニア州消費者プライバシー法（CCPA）のサポートとプライバシーに関するドキュメントの調査</a></li>
-     <li><a href="features/segments/trait-recommendations.md">Adobe Sensei を駆使した、Audience Marketplace データのインテリジェントなレコメンデーション</a></li>
-    <li><a href="features/profile-merge-rules/merge-rules-overview.md">プロファイル結合ルールの強化</a></li>
-    <li><a href="reference/bulk-management-tools/bulk-management-intro.md">一括管理ツールのアップデート</a></li>
-     </ul> </p> <p><a href="docs-updates/docs-2020.md">ドキュメントの更新（2020 年）</a>も参照してください。 </p> 
-      <br>
-     <p> <b>コラボレーションドキュメント</b> </p>
-     <p>アドビでは、すべての読者からのドキュメントへの投稿を歓迎しています。投稿の開始方法については、「<a href="https://docs.adobe.com/content/help/ja-JP/contributor/contributor-guide/introduction.html">コラボレーションガイドの概要</a>」を参照してください。</p>
+     <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API の概要</a></li>
+     <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">DCS APIの概要</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Audience Manager拡張機能のAdobe Launchへの追加</a></li>
+    <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">アプリにAudience Managerを追加</a></li>
+     </ul> </p>
     </td>
-   <td colname="col2"> <p> <b>リリースノート</b> </p> <p> 
-     <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
-      <li id="li_09C1CD15823E4AD7856CE40BE848E03F">新機能と修正点については、最新の <a href="https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。 </li> 
-     </ul> </p> <p> <b>Experience Cloud リソース</b> </p> <p> 
+
+</tr> 
+ </tbody> 
+</table>
+
+<!--
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p><b>Important Conceptual Documentation</b></p>
+   <p>Read the pages below for a deeper understanding of Audience Manager concepts: 
+   <ul><li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/aam-overview.html"> Audience Manager Overview</a></li><li><a href="https://docs.adobe.com/help/en/audience-manager/user-guide/reference/aam-glossary.html"> Glossary</a> </li><li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html">Index of IDs</a></li><li><a href="https://docs.adobe.com/help/en/audience-manager/user-guide/reference/signal-trait-segment.html">Signals, Traits, and Segments</a></li></ul></p>
+   <br>&nbsp;
+   <p><b>Implement Audience Manager</b></p>
+   <p> Get started with implementing Audience Manager by reading the pages below:
+     <ul>
+     <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/data-integration-methods.html">Data Integration Methods</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html">Implementation Guide</a></li>
+     </ul> </p>
+     <br>&nbsp;
+   <p> <b>Technical Implementation Guides</b> </p> <p>Get started with Audience Manager APIs and set up Audience Manager in your app:</p> <p> 
+     <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+     <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html">Getting Started with REST APIs</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-event-calls/dcs-event-calls.html">Get started with the DCS API</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Launch</a></li>
+    <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Add Audience Manager to your app</a></li>
+     </ul> </p>
+    </td>
+   <td colname="col2">  <p> <b>Collaborative Documentation</b> </p>
+     <p>We welcome contributions to our documentation from all our readers. See the <a href="https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html">Collaboration Guide Overview</a> to learn how to start contributing.</p>
+   <br>&nbsp;
+   <p> <b>Release Notes</b> </p> <p> 
+     See the latest <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes.</p> <br>&nbsp;
+     <p> <b>Experience Cloud Resources</b> </p> <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
-      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external">Audience Manager コミュニティフォーラム</a> </li>
-      <li><a href="https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager チュートリアル</a> </li> 
-      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/jp/privacy.html" format="http" scope="external"> アドビプライバシーセンター</a> </li>  
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/jp/learning.html?promoid=KAUDK" scope="external" format="http"> アドビトレーニングおよび証明書</a> </li> 
-      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/jp/support/experience-cloud.html" scope="external" format="https">Experience Cloud 製品ドキュメントのホーム</a> </li> 
-      <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/jp/support/audience-manager.html" format="https" scope="external"> Audience Manager のラーニングとサポート</a> </li> 
+      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Audience Manager Community Forums</a> </li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager Tutorials</a> </li> 
+      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Adobe Privacy Center</a> </li>  
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training and Certifications</a> </li> 
+      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Experience Cloud Product Documentation Home</a> </li> 
+      <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager Learn &amp; Support</a> </li> 
      </ul> </p> 
-     <p> <b>ID の用語集とインデックス</b> </p><p>Audience Manager を初めて使用する場合は、<a href="reference/aam-glossary.md">用語集</a>および<a href= "reference/ids-in-aam.md">ID のインデックス</a>を参照してください。</p></td>
+     <br>&nbsp;
+     <p>See also, <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/documentation-updates/docs-2020.html"> 2020 Documentation Updates</a>. </p> </td>
+  </tr> 
+ </tbody> 
+</table>
+
+-->
+
+<br> 
+
+## リリースノートと最新の機能
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <p> <b>リリースノート</b> </p> <p> 
+     新機能と修正点については、最新の <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。</p> 
+     <br> 
+     <p> <b>最新の機能</b> </p> <p> 
+     Audience Manager の最新機能については、以下を参照してください。</p>
+     <p><ul><li><a href="/help/using/features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
+     <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">カリフォルニア州消費者プライバシー法（CCPA）のサポートとプライバシーに関するドキュメントの調査</a></li>
+     <li><a href="/help/using/features/segments/trait-recommendations.md">Adobe Sensei を駆使した、Audience Marketplace データのインテリジェントなレコメンデーション</a></li>
+     <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">プロファイル結合ルールの強化</a></li></ul><p>
+    </td>
   </tr> 
  </tbody> 
 </table>
 
 <!--
 
-| | |
-|-|-|
-|**New and Featured Items** <br>&nbsp; Hover over each title to read a brief description. <br>&nbsp; <ul><li>Instant Cross-Device Suppression</li><li>Audience Optimization for Publishers</li><li>Import DFP Data Files Into Audience Manager</li><li>General Data Protection Regulation (GDPR)</li><li>TLS 1.0 Deprecation</li> <li>DCS API Methods</li></ul> <br>&nbsp;See also, 2019 Documentation Updates.|**Release Notes** <ul><li>See the latest Experience Cloud Release Notes for new features and fixes.</li> <li>See the  previous release notes for older announcements. </li> <br>&nbsp;**Experience Cloud Resources** <ul><li>Audience Manager Community Forums</li> <li>Adobe Privacy Center</li> <li>Adobe Training and Tutorials</li> <li>Product Documentation Home </li> <li>Audience Manager Learn & Support</li></ul>|
+**Release Notes**
+
+See the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) for new features and fixes.
+
+<br>&nbsp;
+
+**Latest features**
+
+Read about the latest Audience Manager features:
+* [Activity Usage Reporting](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/activity-usage-reporting.html)
+* [California Consumer Privacy Act (CCPA) Support and Privacy Documentation Overhaul](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-privacy/data-privacy.html)
+* [Intelligent Recommendations for Audience Marketplace Data, powered by Adobe Sensei](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html)
+* [Profile Merge Rules Enhancements](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)
+* [Bulk Management Tools Update](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html)
 
 -->
+
+<br> 
+
+## 学習センター — 推奨されるAudience ManagerおよびExperience cloudのリソース
+
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td colname="col2"> 
+     <p> <b>Experience Cloud リソース</b> </p>
+     <p>以下のリンクを参照して、コミュニティフォーラムの他のAudience Managerユーザーとの連絡、当社の機能に関するチュートリアルビデオの閲覧、学習とサポートセンターでの問題のトラブルシューティングを行ってください。</p>
+     <p> 
+     <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
+      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external">Audience Manager コミュニティフォーラム</a> </li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager チュートリアル</a> </li> 
+      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> アドビプライバシーセンター</a> </li>  
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> アドビトレーニングおよび証明書</a> </li> 
+      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Experience Cloud 製品ドキュメントのホーム</a> </li> 
+      <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager のラーニングとサポート</a> </li> 
+     </ul> </p> 
+     <br> 
+     <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/documentation-updates/docs-2020.html">ドキュメントの更新（2020 年）</a>も参照してください。 </p> </td>
+  </tr> 
+ </tbody> 
+</table>
