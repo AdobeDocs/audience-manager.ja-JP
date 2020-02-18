@@ -6,15 +6,13 @@ solution: Audience Manager
 title: データフィードの作成、価格設定および管理
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 
 ---
 
 
 # データフィードの作成、価格設定および管理 {#create-price-and-manage-data-feeds}
-
-データフィードには、名前、説明、データソースおよびプランのタイプが必要です。フィードを保存およびアクティブ化するまで、フィードは無効です。[!UICONTROL Audience Marketplace]／[!UICONTROL My Shared Data]で公開または非公開のデータフィードを設定します。データ販売者のみ使用できます。
 
 ## 公開または非公開のデータフィードの作成 {#create-public-private-data-feed}
 
@@ -29,7 +27,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 1. わかりやすい説明を入力します（最大 255 文字）。
 
    説明文はフィードの内容を適切に表すものにすることをお勧めします。例えば、マーケティングカテゴリ、人口統計、地理的範囲（「[!DNL US]」、「北米」など）をテキストに入れることができます。説明文は検索可能なので、これにより購入者はフィードの検索や評価ができるようになります。優れた説明文は、データフィードに購読者を引きつけるために重要です。
-1. **[!UICONTROL Data Source]**&#x200B;オプションからデータソースを選択します。
+1. **[!UICONTROL Data Source]**&#x200B;オプションからデータソースを選択します。データフィードは1つのデータソースに制限されます。 同じデータフィードに複数のデータソースを割り当てることはできません。
 
    >[!IMPORTANT]
    >
@@ -39,7 +37,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
    フィードには複数のプランが含まれる場合があります。プランには複数のユースケースが含まれる場合があります。詳しくは、[データフィードのプランタイプ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)を参照してください。
 
-1. **[!UICONTROL Save]** をクリックすると、データフィードがアクティブ化&#x200B;*されずに*&#x200B;保存されます。
+1. Click **[!UICONTROL Save]** to save your data feed *without* activating it.
 1. データフィードを保存してアクティブ化するには：
    1. **[!UICONTROL Availability]** スライダーを&#x200B;**[!UICONTROL Active]**&#x200B;にします。
    1. **[!UICONTROL Save]**&#x200B;をクリックします。
@@ -142,11 +140,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol">請求サイクル</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol">毎月（後払い）</span></b> が唯一のオプションです。請求サイクルは、毎月 10 日に終了します。 </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Billing Cycle</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol">Monthly in Arrears</span></b> が唯一のオプションです。課金サイクルは、毎月 10 日に終了します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol">単位</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Unit of Measure</span></b> </td> 
    <td colname="col2">データ購入者に CPM 価格または定額料金を請求します。 
     <ul id="ul_D5F125E0F7364C568D9F3107E090059D"> 
      <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> CPM 価格では、データ購入者は使用量を自己申告する必要があります。 </li> 
@@ -154,7 +152,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
     </ul> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol">価格</span></b> </td>
+   <td colname="col1"> <b><span class="uicontrol"> Price</span></b> </td>
    <td colname="col2"> 販売者が購入者に CPM 価格または定額料金で請求する金額（ドル単位）。 </td>
   </tr> 
  </tbody> 
