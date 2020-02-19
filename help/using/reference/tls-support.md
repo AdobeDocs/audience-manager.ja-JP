@@ -1,25 +1,25 @@
 ---
-description: Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018年5月には、TLS 1.0、1.1および1.2を使用するTLSプロトコルの3つのバージョンがありました。
-seo-description: Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018年5月には、TLS 1.0、1.1および1.2を使用するTLSプロトコルの3つのバージョンがありました。
-seo-title: TLS 1.0および1.1の廃止
+description: Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されました。
+seo-description: Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されました。
+seo-title: TLS 1.0 および 1.1 の廃止
 solution: Audience Manager
-title: TLS 1.0および1.1の廃止
+title: TLS 1.0 および 1.1 の廃止
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5f572a414f27bd8eea20a1c0596a02b1250b50fe
 
 ---
 
 
-# TLS 1.0および1.1の廃止{#tls-deprecation}
+# TLS 1.0 および 1.1 の廃止 {#tls-deprecation}
 
-Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018年5月には、TLSプロトコルの3つのバージョンが使用されていました。TLS 1.0、1.1および1.2。
+Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されました。
 
-2019 年 3 月、[!DNL Adobe] は [!DNL TLS 1.0] プロトコルのサポートを終了しました。Adobe Audience Manager functionality does not work for your end users who use browsers which only support [!DNL TLS 1.0].
+2019 年 3 月、[!DNL Adobe] は [!DNL TLS 1.0] プロトコルのサポートを終了しました。[!DNL TLS 1.0] のみをサポートするブラウザーを使用するエンドユーザーには、Adobe Audience Manager 機能を使用できません。
 
-In March 2020, [!DNL Adobe] will end support for the [!DNL TLS 1.1] protocol. Adobe Audience Manager functionality will stop working for your end users who use browsers which only support [!DNL TLS 1.1].
+2020 年 3 月、[!DNL Adobe] は [!DNL TLS 1.1] プロトコルのサポートを終了します。[!DNL TLS 1.1] のみをサポートするブラウザーを使用するエンドユーザーには、Adobe Audience Manager 機能を使用できなくなります。
 
-We highly recommend the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. すべてのモダンブラウザーが [!DNL TLS 1.2] を使用しています。ブラウザー、バージョンおよびそれらの [!DNL TLS] サポートの一覧を収集しました。詳しくは、[ウィキペディア](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)を参照してください。
+記述時に、プロトコルの最新バージョンである [!DNL TLS 1.2] を使用することをお勧めします。すべてのモダンブラウザーが [!DNL TLS 1.2] を使用しています。ブラウザー、バージョンおよびそれらの [!DNL TLS] サポートの一覧を収集しました。詳しくは、[ウィキペディア](https://ja.wikipedia.org/wiki/Transport_Layer_Security)を参照してください。
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
