@@ -5,23 +5,23 @@ seo-title: 受信データタイプのファイル PGP 暗号化
 solution: Audience Manager
 title: 受信データタイプのファイル PGP 暗号化
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
 
 ---
 
 
-# 受信データタイプのファイル PGP 暗号化{#file-pgp-encryption-for-inbound-data-types}
+# 受信データタイプのファイル PGP 暗号化 {#file-pgp-encryption-for-inbound-data-types}
 
-You can encrypt data files with [!DNL PGP] encryption when sending them to Audience Manager.
+Audience Manager に送信するデータファイルを [!DNL PGP] で暗号化できます。
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->[!DNL PGP] 暗号化にはファイル圧縮が含まれます。 暗号化された受 [!DNL PGP] 信ファイルを送信する場合は、gzip [(](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)`.gz`)を使って圧縮しないようにします。
+>[!DNL PGP] 暗号化にはファイル圧縮が含まれます。[!DNL PGP] 暗号化された受信ファイルを送信する場合は、gzip（`.gz`）による[圧縮](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)を使用しないでください。
 >
->[!DNL PGP] 暗号化された受信ファイルも圧縮 [され](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) 、Audience Managerでは無効です。
+>[!DNL PGP] 暗号化され、[圧縮](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)された受信ファイルは、Audience Manager では無効です。
 
 受信データファイルを暗号化するには、以下の手順に従います。
 
