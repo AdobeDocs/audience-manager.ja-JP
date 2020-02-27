@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データフィードの作成、価格設定および管理
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 1. わかりやすい説明を入力します（最大 255 文字）。
 
    説明文はフィードの内容を適切に表すものにすることをお勧めします。例えば、マーケティングカテゴリ、人口統計、地理的範囲（「[!DNL US]」、「北米」など）をテキストに入れることができます。説明文は検索可能なので、これにより購入者はフィードの検索や評価ができるようになります。優れた説明文は、データフィードに購読者を引きつけるために重要です。
-1. **[!UICONTROL Data Source]**&#x200B;オプションからデータソースを選択します。データフィードは1つのデータソースに制限されます。 同じデータフィードに複数のデータソースを割り当てることはできません。
+1. **[!UICONTROL Data Source]**&#x200B;オプションからデータソースを選択します。データフィードは 1 つのデータソースに制限されます。同じデータフィードに複数のデータソースを割り当てることはできません。
 
    >[!IMPORTANT]
    >
@@ -37,7 +37,7 @@ source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 
    フィードには複数のプランが含まれる場合があります。プランには複数のユースケースが含まれる場合があります。詳しくは、[データフィードのプランタイプ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)を参照してください。
 
-1. Click **[!UICONTROL Save]** to save your data feed *without* activating it.
+1. **[!UICONTROL Save]** をクリックすると、データフィードがアクティブ化&#x200B;*されずに*&#x200B;保存されます。
 1. データフィードを保存してアクティブ化するには：
    1. **[!UICONTROL Availability]** スライダーを&#x200B;**[!UICONTROL Active]**&#x200B;にします。
    1. **[!UICONTROL Save]**&#x200B;をクリックします。
@@ -158,7 +158,7 @@ source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
  </tbody> 
 </table>
 
-## プランメモ {#plan-notes}
+## プランメモ{#plan-notes}
 
 **[!UICONTROL Additional Notes]**&#x200B;フィールドには、フィードの各データプランの説明を入力します。簡潔で優れた説明は、購入者がデータフィードの各プランの内容や目的を理解するのに役立ちます。購入者は、新しいデータソースを検索したり評価したりする際に、データフィードおよびプランの説明を読むことができます。
 
@@ -179,7 +179,7 @@ source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
 
 [!UICONTROL Audience Marketplace] では、割引によって、個別の加入者に対するデータフィードの公表価格を下げることができます。サブスクリプション購入要求を送信した加入者またはデータフィードの詳細情報を要求した加入者に対して、割引を提案できます。割引は [!DNL CPM] および定額料金のフィードに適用されます。新規顧客のサブスクリプション購入意欲を高める場合や顧客の忠誠度に報いる場合に、割引は役に立ちます。
 
-## 割引をデータフィードに適用 {#apply-discounts}
+## 割引をデータフィードに適用{#apply-discounts}
 
 <!-- marketplace-seller-discounts.xml -->
 
