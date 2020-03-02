@@ -22,7 +22,7 @@ Audience Managerは、複数のIDを使用して、送信するデータを識�
 
 これらのIDのほとんどはスタンドアロン名で参照できますが、DCS呼び出しを通じてデータを渡す際に、様々な接頭辞と共に使用することが目的です。 これらのIDの一部は、ユーザーに公開されずにAudience Managerで使用され、その他のIDはユーザーインターフェイス(UI)にも表示されます。
 
-以下の例で使用されるプリフィックスについて詳しくは、DCS API呼び出しでサ [ポートされる属性を参照してください。](../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+以下の例で使用されるプリフィックスについて詳しくは、DCS API呼び出しでサ [ポートされる属性を参照してください](../api/dcs-intro/dcs-api-reference/dcs-keys.md)。
 
 ## Audience Manager IDのリスト {#id-list}
 
