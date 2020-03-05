@@ -5,8 +5,8 @@ seo-title: ログデータとメタデータファイル
 solution: Audience Manager
 title: ログデータとメタデータファイル
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
-translation-type: ht
-source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
+translation-type: tm+mt
+source-git-commit: 5838eb61158cce10aa02b9286357a4f4abcbcce8
 
 ---
 
@@ -29,8 +29,3 @@ source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 * [メタデータファイルの命名規則](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [メタデータファイルのコンテンツの形式](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
 * [メタデータファイルの配信方法](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-* [メタデータファイルのステータスの更新](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md) 
-
-
-
-
