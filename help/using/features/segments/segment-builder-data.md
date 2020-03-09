@@ -5,7 +5,7 @@ seo-title: セグメントビルダーにおける特性とセグメントのユ
 solution: Audience Manager
 title: セグメントビルダーにおける特性とセグメントのユーザー数データ
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
 
 ---
@@ -136,11 +136,11 @@ source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Real-Time Population (Existing)</span> </p> </td> 
-   <td colname="col2"> <p>The actual number of devices seen in real-time with current profiles that, when merged with up to 100 other device profiles connected by the device graph, contains the traits to qualify for the segment the moment it was seen by <span class="keyword"> Audience Manager</span>. </p> </td>
+   <td colname="col2"> <p>現在のプロファイルのうち、デバイスグラフで連結された他の最大 100 台のデバイスプロファイルと結合された場合に、<span class="keyword">Audience Manager</span> での認識時にセグメントについて認定する特性を含むプロファイルを使用する、リアルタイムで認識されるデバイスの実際の数。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Total Population (Existing)</span> </p> </td> 
-   <td colname="col2"> <p>デバイスグラフで接続された他の100個までのデバイスプロファイルと結合されたプロファイルを持つデバイスの合計数が、すべてセグメントに適していました。 </p> </td>
+   <td colname="col2"> <p>デバイスグラフで連結された他の最大 100 台のデバイスプロファイルで結合された場合にセグメントについて認定されたプロファイルを使用するデバイスの合計数。 </p> </td>
   </tr>
  </tbody>
 </table>
