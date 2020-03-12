@@ -5,13 +5,13 @@ seo-title: ログデータとメタデータファイル
 solution: Audience Manager
 title: ログデータとメタデータファイル
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5838eb61158cce10aa02b9286357a4f4abcbcce8
 
 ---
 
 
-# ログデータとメタデータファイル{#data-and-metadata-files}
+# ログデータとメタデータファイル {#data-and-metadata-files}
 
 データファイルには、次の目的で使用できるインプレッション、クリックまたはコンバージョンデータが含まれます。
 
