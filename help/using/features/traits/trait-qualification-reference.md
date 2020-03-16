@@ -6,7 +6,7 @@ seo-title: 特性認定に関するリファレンス
 solution: Audience Manager
 title: 特性認定に関するリファレンス
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f8662aba70254e550bc15417463c3c06492a9d5
 
 ---
@@ -32,7 +32,7 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
   </tr> 
   <tr> 
    <td colname="col1"> <p>オンボードの特性 </p> </td> 
-   <td colname="col2"> <p>特性認定は受信ファイルの処理後に発生します。つまり、受信ファイルが<a href="../../faq/faq-inbound-data-ingestion.md">Audience Manager にインポート</a>された後に特性認定が発生します。受信ファイルをアップロードして処理する前に、オンボードの特性を作成してから約4時間待つ必要があります。  </p> <p> オンボードの特性では、ユーザープロファイルごとの最大認定数は 1 件です。 </p> </td> 
+   <td colname="col2"> <p>特性認定は受信ファイルの処理後に発生します。つまり、受信ファイルが<a href="../../faq/faq-inbound-data-ingestion.md">Audience Manager にインポート</a>された後に特性認定が発生します。オンボードの特性を作成してから受信ファイルをアップロードして処理するまでに、約 4 時間待つ必要があります。  </p> <p> オンボードの特性では、ユーザープロファイルごとの最大認定数は 1 件です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アルゴリズム特性 </p> </td> 
