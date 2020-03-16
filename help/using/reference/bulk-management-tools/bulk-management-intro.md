@@ -6,8 +6,8 @@ seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-translation-type: ht
-source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
+translation-type: tm+mt
+source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
 
 ---
 
@@ -32,14 +32,14 @@ c_bulk_start.xml
 
 ## ダウンロード {#download}
 
-**[こちら](assets/BAAAM_V2_20191205.xlsm)**&#x200B;で最新のワークシートをダウンロードします。
+**[こちら](assets/BAAAM_V2_20191205.xlsm)**で最新のワークシートをダウンロードします。
 
 ## 前提条件 {#prereqs}
 
 [!DNL Bulk Management Tools] を使用するには、以下が必要です。
 
 * [!DNL Experience Cloud] へのログイン。お客様が既にお持ちの資格情報です。
-* [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20191205.xlsm)してください。
+* [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20200311.xlsm)してください。
 * [!DNL macOS] または 64 ビット版 [!DNL Microsoft Windows] で実行している Microsoft Excel。最新バージョンの Microsoft Excel を使用することをお勧めします。
 * ワークシートを開く場合は、[!DNL Bulk Management Tools] で&#x200B;**マクロを有効にする**&#x200B;必要があります。
 
@@ -92,7 +92,7 @@ c_bulk_start.xml
       <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Estimate </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Delete </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>一括変更できるオブジェクトは、<b><span class="uicontrol">Headers</span></b>タブに配置されており、次の項目などがあります。 </p> <p> 
+   <td colname="col2"> <p>一括変更できるオブジェクトは、「<b><span class="uicontrol">Headers</span></b>」タブに配置されており、次の項目などがあります。 </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> データソース</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> 派生シグナル</a> </li> 
