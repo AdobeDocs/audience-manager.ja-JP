@@ -4,8 +4,8 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
-source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
+translation-type: tm+mt
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -221,7 +221,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + DCS の API {#dcs-apis}
          + [サーバー間データ転送用の DCS API](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [DCS 応答からのユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-         + [Experience Cloud ID サービスを通じたユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+         + [Adobe Experience Platform Identity Serviceを使用したユーザーIDと地域の取得](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [サーバー間 DCS API 呼び出しの実行](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + DCS API リファレンス {#dcs-api-reference}
          + [DCS API リファレンスの概要](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
@@ -330,7 +330,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
    + 他のExperience Cloudソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
