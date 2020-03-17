@@ -5,8 +5,8 @@ seo-title: 一括削除
 solution: Audience Manager
 title: 一括削除
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
-translation-type: ht
-source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
+translation-type: tm+mt
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 >[!NOTE]
 >
->[!UICONTROL Bulk Management Tools] は、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
+>[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 >[!NOTE]
 >
