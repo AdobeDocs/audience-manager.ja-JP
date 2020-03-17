@@ -4,8 +4,8 @@ seo-description: 特性適合のバックフィルにより、過去のオーデ
 seo-title: 特性適合のバックフィル
 title: 特性適合のバックフィル
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
-translation-type: ht
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+translation-type: tm+mt
+source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 
 ---
 
@@ -14,9 +14,11 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 特性適合のバックフィルにより、過去のオーディエンスを収集して、特性作成日前の関連データを逃してしまうことを防ぎます。
 
-[!UICONTROL Data Explorer Trait Backfill]は、追加のユースケースをロック解除して Audience Manager を強化できるプレミアム機能です。バックフィルを使用するには追加の処理能力がかかりますが、追加料金をお支払いいただければ Audience Manager のすべてのお客様がご利用になれます。詳しくは、アドビのセールス担当者にお問い合わせください。
+>[!IMPORTANT]
+>
+> [!UICONTROL Data Explorer Trait Backfill]は、追加のユースケースをロック解除して Audience Manager を強化できるプレミアム機能です。バックフィルを使用するには追加の処理能力がかかりますが、追加料金をお支払いいただければ Audience Manager のすべてのお客様がご利用になれます。詳しくは、アドビのセールス担当者にお問い合わせください。
 
-未使用シグナルから特性を作成するときに、指定期間における特性適合をバックフィルすることができます。[!DNL Audience Manager] は、新しく作成した特性の対象として認定されるオーディエンスの過去データを収集し、対応するプロファイルに保管します。**[!UICONTROL Backfill Options]** は、**[特性ビルダー](../../features/traits/about-trait-builder.md)**&#x200B;の「[!UICONTROL Trait Expression]」セクションに表示されます。
+未使用シグナルから特性を作成するときに、指定期間における特性適合をバックフィルすることができます。[!DNL Audience Manager] は、新しく作成した特性の対象として認定されるオーディエンスの過去データを収集し、対応するプロファイルに保管します。**[!UICONTROL Backfill Options]** は、[!UICONTROL Trait Expression]特性ビルダー&#x200B;**[の「](../../features/traits/about-trait-builder.md)**」セクションに表示されます。
 
 >[!NOTE]
 >
@@ -26,7 +28,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 1. [!UICONTROL Audience Data > Signals > Search] を開き、シグナル検索を実行するか[シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)を使用して、新しい特性で使用するシグナルを特定します。
 1. 目的のシグナルに基づいて新しい特性を作成します。
-1. **[!UICONTROL Trait Expression]** セクションの **[!UICONTROL Backfill Options]**&#x200B;を使用して、特性適合のバックフィルをおこなう期間を選択します。事前定義されているバックフィル期間は、1 日、7 日、14 日および 30 日です。30 日までの範囲でカスタムの期間を指定することもできます。
+1. **[!UICONTROL Backfill Options]** セクションの **[!UICONTROL Trait Expression]**&#x200B;を使用して、特性適合のバックフィルをおこなう期間を選択します。事前定義されているバックフィル期間は、1 日、7 日、14 日および 30 日です。30 日までの範囲でカスタムの期間を指定することもできます。
 
    ![trait-backfill](assets/signals-trait-backfill.png)
 
@@ -47,7 +49,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 特性のバックフィル方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## 特性バックフィルの待ち時間 {#trait-backfilling-latency}
 
