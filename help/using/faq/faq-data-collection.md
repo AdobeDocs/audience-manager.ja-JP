@@ -6,7 +6,7 @@ solution: Audience Manager
 title: データ収集および製品統合に関するよくある質問
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 translation-type: tm+mt
-source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -64,7 +64,7 @@ faq_data_collection_integration.xml
 
 * [!UICONTROL DIL] を `s_code` に直接組み込む。
 
-* [!UICONTROL DIL] および `s_code` を [!DNL Adobe Launch] または [!DNL Adobe DTM] を通じて提供する。
+* [!UICONTROL DIL] および `s_code` を [!DNL Adobe Experience Platform Launch] または [!DNL Adobe DTM] を通じて提供する。
 
 詳しくは、[データ統合ライブラリ（DIL）API](../dil/dil-overview.md) を参照してください。
 
