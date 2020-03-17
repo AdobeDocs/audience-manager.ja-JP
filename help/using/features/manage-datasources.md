@@ -1,13 +1,13 @@
 ---
 description: 新規データソースを作成するには、Audience Data／Data Sources／Add New を選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
-keywords: データソース; データソースの管理; Audience Manager データソース
+keywords: data sources;manage data source;audience manager data source
 seo-description: 新規データソースを作成するには、Audience Data／Data Sources／Add New を選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
 seo-title: データソースの作成
 solution: Audience Manager
 title: データソースの管理
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 1. 統合コードを指定します。一般に、統合コードはオプションです。統合コードが必要になるのは、次のいずれかの場合です。
 
    * [クロスデバイス対応データソースを作成](../features/profile-merge-rules/merge-rules-start.md#create-data-source)する。
-   * [Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を使用する。
+   * [Adobe Experience Platform Identity Serviceを使用します](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
    * [プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を使用する。
 
 1. **[!UICONTROL ID Type]**&#x200B;を選択します。「ID Type」のオプションは以下のとおりです。
@@ -73,10 +73,10 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >
 >次の制限事項に注意してください。
 >
->* [アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
->* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/)を使用します。
+>* 削除できない[アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
+>* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/)を使用します。
 
 
-1. **[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** をクリックします。
+1. クリック **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. 1 つ以上のデータソースの横のチェックボックスをオンにします。リストが長い場合、「[!UICONTROL Search]」のボックスを使用して、目的のデータソースを特定することができます。
 1. 「![](assets/icon_trash.png)」をクリックして、削除を確定します。
