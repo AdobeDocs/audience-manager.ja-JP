@@ -1,13 +1,13 @@
 ---
 description: インスタンスレベルの DIL API を使用すると、Audience Manager オブジェクトをプログラムで作成し操作することができます。インスタンスレベルのメソッドは、クラスレベルのメソッドで実現している API 機能を強化したものです。
-keywords: 特性の作成;特性の作成
+keywords: create traits;create trait
 seo-description: インスタンスレベルの DIL API を使用すると、Audience Manager オブジェクトをプログラムで作成し操作することができます。インスタンスレベルのメソッドは、クラスレベルのメソッドで実現している API 機能を強化したものです。
 seo-title: インスタンスレベルの DIL メソッド
 solution: Audience Manager
 title: インスタンスレベルの DIL メソッド
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -505,11 +505,11 @@ r_dil_idsync.xml
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>複数のデータパートナーと Audience Manager の間で実行されます。例えば、パートナー x がこれを使用してユーザー ID をパートナー y と同期し、Audience Manager に送信します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Experience Cloud ID サービスインスタンスの <code> idSyncByURL </code> メソッドを使用してください。 </p> </p> </td> 
+   <td colname="col2"> <p>複数のデータパートナーと Audience Manager の間で実行されます。例えば、パートナー x がこれを使用してユーザー ID をパートナー y と同期し、Audience Manager に送信します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Please use the <code> idSyncByURL </code> method of the Adobe Experience Platform Identity Service instance. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>ユーザー ID が既に判明していて、それを Audience Manager に送信する場合に使用します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Experience Cloud ID サービスインスタンスの <code> idSyncByDataSource </code> メソッドを使用してください。 </p> </p> </td> 
+   <td colname="col2"> <p>ユーザー ID が既に判明していて、それを Audience Manager に送信する場合に使用します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Please use the <code> idSyncByDataSource </code> method of the Adobe Experience Platform Identity Service instance. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -554,9 +554,9 @@ r_dil_idsync.xml
 
 `idSync` では次のマクロを使用できます。
 
-* **`%TIMESTAMP%`**：タイムスタンプを生成します（ミリ秒単位）。キャッシュバスティングに使用されます。
-* **`%DID%`**：ユーザーの Audience Manager ID を挿入します。
-* **`%HTTP_PROTO%`**：ページプロトコルを設定します（`http` または `https`）。
+* **`%TIMESTAMP%`:**タイムスタンプを生成します（ミリ秒）。 キャッシュバスティングに使用されます。
+* **`%DID%`:**ユーザーのAudience Manager IDを挿入します。
+* **`%HTTP_PROTO%`:**ページのプロトコル(または`http`)を設`https`定します。
 
 **応答**
 
@@ -719,8 +719,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [キー変数名の要件](../features/traits/trait-key-name-requirements.md)
 >* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
->* [Experience Cloud ID サービスの同期関数](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-idsync.html)
+>* [Adobe Experience Platform Identity Serviceの同期機能](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Experience Cloud ID サービス：UseCORSOnly](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Experience Cloud ID サービスでの CORS のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/cors.html)
+>* [Adobe Experience Platform Identity Service:UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Adobe Experience Platform Identity ServiceでのCORSのサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
