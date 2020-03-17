@@ -1,13 +1,13 @@
 ---
 description: 製品および機能に関するよくある質問と問題点の説明です。
-keywords: Audience Manager の Cookie
+keywords: audience manager cookies
 seo-description: 製品および機能に関するよくある質問と問題点の説明です。
 seo-title: 製品の機能に関するよくある質問
 solution: Audience Manager
 title: 製品の機能に関するよくある質問
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -30,7 +30,7 @@ Folio Builder *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe 
 
 つまり、*`Organization ID`* は `1FD6776A524453CC0A490D44@AdobeOrg` のようになります。
 
-は、Audience Manager *`Organization ID`* の [DIL](../dil/dil-overview.md) API、 [Experience Cloud IDサービスおよびその他のソリューションで使用さ](https://marketing.adobe.com/resources/help/en_US/mcvid/)[!DNL Experience Cloud] れます。 *`Organization ID`* は、管理者権限を持つユーザーが [!DNL Adobe Admin Console] で確認できます。詳しくは、[管理 - ユーザー管理の FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)を参照してください。
+これは *`Organization ID`* 、Audience Managerの [DIL](../dil/dil-overview.md) API、 [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)、その他のソリューションで使用され [!DNL Experience Cloud] ます。 *`Organization ID`* は、管理者権限を持つユーザーが [!DNL Adobe Admin Console] で確認できます。詳しくは、[管理 - ユーザー管理の FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)を参照してください。
 
 <br> 
 
@@ -58,7 +58,7 @@ Folio Builder *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe 
 
 **[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager は [!UICONTROL Tag Insertion Manager]（TIM）を使用して [!UICONTROL data collection code (DIL)] を作成および管理します。この機能は廃止され、[!UICONTROL Dynamic Tag Manager (DTM)] に置き換えられた後、[!DNL Adobe Launch] に置き換えられました。詳しくは、[Adobe Launch](https://docs.adobelaunch.com/) および [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/) を参照してください。
+Audience Manager は [!UICONTROL Tag Insertion Manager]（TIM）を使用して [!UICONTROL data collection code (DIL)] を作成および管理します。この機能は廃止され、[!UICONTROL Dynamic Tag Manager (DTM)] に置き換えられた後、[!DNL Adobe Experience Platform Launch] に置き換えられました。For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
 
 <br> 
 
