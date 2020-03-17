@@ -5,8 +5,8 @@ seo-title: プロファイル結合ルールの導入
 solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 1. [!UICONTROL Profile Merge Rule] に名前を付けます。
 2. *（オプション）*[!UICONTROL Profile Merge Rule] の説明を入力します。ルールの役割や目的を定義するのに、簡潔な説明が役に立ちます。
-3. *（オプション）*&#x200B;これをデフォルトの[!UICONTROL Profile Merge Rule]にしたい場合は、**[!UICONTROL Set as default]** を選択します。新規セグメントはデフォルトルールに自動的に関連付けられます。
+3. *（オプション）*&#x200B;これをデフォルトの&#x200B;**[!UICONTROL Set as default]**&#x200B;にしたい場合は、[!UICONTROL Profile Merge Rule] を選択します。新規セグメントはデフォルトルールに自動的に関連付けられます。
 
 ## データ書き出しコントロール {#data-export-controls}
 
@@ -92,7 +92,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
 2. **[!UICONTROL Authenticated Profile Option]**（最大 3 つ）を選択します。これらは以前作成した[クロスデバイス対応データソース](merge-rules-start.md)です。
-3. **[!UICONTROL Device Option]**&#x200B;を選択します。オプションは以下のとおりです。
+3. 「**[!UICONTROL Device Option]**」を選択します。オプションは以下のとおりです。
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
    * **[!UICONTROL Profile Link Device Graph]**
@@ -101,7 +101,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 結合ルールコードの設定 {#configure-merge-rule-code}
 
-下の説明に従って、結合ルールと連携して動作するための [!UICONTROL Experience Cloud ID Service]、[!UICONTROL DIL]、およびモバイル [!DNL SDK] コードを設定します。
+下の説明に従って、結合ルールと連携して動作するための [!UICONTROL Adobe Experience Platform Identity Service]、[!UICONTROL DIL]、およびモバイル [!DNL SDK] コードを設定します。
 
 <!-- merge-rules-configure-code.xml -->
 
@@ -109,13 +109,13 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 これらの手順を完了する&#x200B;*前*&#x200B;に、[クロスデバイス対応データソース](#create-data-source)および[プロファイル結合ルール](#create-profile-merge-rule)を設定する必要があります。
 
-## Experience Cloud ID サービスのお客様向け {#id-service-customers}
+## Adobe Experience Platform Identity Serviceのお客様向け {#id-service-customers}
 
-[!UICONTROL Profile Merge Rules]を操作する際は、[!UICONTROL Experience Cloud ID Service] および最新バージョンの [DIL](../../dil/dil-overview.md) の使用をお勧めします。ただし、この機能を使用する場合に[!UICONTROL Experience Cloud ID Service] サービスを使用することは必須ではありません。[!UICONTROL DIL] のみを使用する場合は、下記の[レガシー DIL](#legacy-dil) の節を参照してください。
+[!UICONTROL Profile Merge Rules]を操作する際は、[!UICONTROL Adobe Experience Platform Identity Service] および最新バージョンの [DIL](../../dil/dil-overview.md) の使用をお勧めします。ただし、この機能を使用する場合に[!UICONTROL Adobe Experience Platform Identity Service] サービスを使用することは必須ではありません。[!UICONTROL DIL] のみを使用する場合は、下記の[レガシー DIL](#legacy-dil) の節を参照してください。
 
 ### 顧客 ID 設定関数の設定
 
-[!UICONTROL Experience Cloud ID Service] を操作する差異、`setCustomerIDs` 関数は宣言済み ID を [!DNL Audience Manager] に渡します。プロファイル結合ルールを使用する場合、`setCustomerIDs` を変更して、クロスデバイス対応データソースの作成時に指定した統合コードを使用するよう設定します。例えば、統合コード `my_datasource_ic` でクロスデバイス対応データソースを作成したとします。宣言済み ID を渡すには、以下の変更後のコードのサンプルに示すように、統合コードを訪問者 ID 関数に追加します。
+[!UICONTROL Adobe Experience Platform Identity Service] を操作する差異、`setCustomerIDs` 関数は宣言済み ID を [!DNL Audience Manager] に渡します。プロファイル結合ルールを使用する場合、`setCustomerIDs` を変更して、クロスデバイス対応データソースの作成時に指定した統合コードを使用するよう設定します。例えば、統合コード `my_datasource_ic` でクロスデバイス対応データソースを作成したとします。宣言済み ID を渡すには、以下の変更後のコードのサンプルに示すように、統合コードを訪問者 ID 関数に追加します。
 
 #### 汎用コードのサンプル
 
@@ -135,7 +135,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid_customer_ids.html)を参照してください。
+詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html)を参照してください。
 
 ### `DIL.create` 関数の設定
 
@@ -150,7 +150,7 @@ var vDil = DIL.create({
 });
 ```
 
-namespace キーと値のペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=admin_getting_started.html)も参照してください。
+namespace キーと値のペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html)も参照してください。
 
 ### SDK の設定
 
@@ -158,7 +158,7 @@ namespace キーと値のペアの `*`MCORG`*` 変数は [!DNL Experience Cloud]
 
 ## レガシー DIL {#legacy-dil}
 
-まだ [!DNL Experience Cloud ID Service] を使用していない場合は、是非使用することをお勧めします。しかし、新しいコードへの移行には、慎重な検討とテストが必要です。このような場合は、`DIL.create` 関数を調べ、以下のコードのサンプルのように適切に設定されていることを確認します。
+まだ [!DNL Adobe Experience Platform Identity Service] を使用していない場合は、是非使用することをお勧めします。しかし、新しいコードへの移行には、慎重な検討とテストが必要です。このような場合は、`DIL.create` 関数を調べ、以下のコードのサンプルのように適切に設定されていることを確認します。
 
 ```js
 DIL.create({
@@ -208,7 +208,7 @@ DIL.create({
  </tbody>
 </table>
 
-[Android 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/android/?f=c_audience_manager_methods.html)と[ iOS 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/?f=aam_methods.html)も参照してください。
+[Android 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html)と[ iOS 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html)も参照してください。
 
 >[!MORELIKETHIS]
 >
