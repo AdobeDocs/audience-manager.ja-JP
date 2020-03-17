@@ -6,7 +6,7 @@ solution: Audience Manager
 title: パブリッシャーのユースケース
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -115,7 +115,7 @@ c_pub_use_case.xml
    <td colname="col3"> <p> 
      <ul id="ul_EE7A86BFFE534A59A9F8C7CAF46A31E5"> 
       <li id="li_D399592D9D904865BD319DC3621B832B">「Income Tax Researchers」セグメントを作成します。 </li> 
-      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Adobe Media Manager などの DSP を使用して、Turbo Tax に販売されたオンサイト広告キャンペーンをオフサイトリーチ拡張キャンペーンと並べます。 </li> 
+      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Adobe Advertising CloudなどのDSPを通じて、Turbo Taxに販売されるオンサイド広告キャンペーンとオフサイトリーチ拡張キャンペーンを連携させます。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
