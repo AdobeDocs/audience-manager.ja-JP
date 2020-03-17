@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 用語集
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: d5a8b763d2d0d1ceebe2252ebd283943dcbc1754
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -112,7 +112,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 **Experience Cloud ID (ECID)**
 
-以前は [!DNL Marketing Cloud] ID（MID または MCID）と呼ばれていたものです。この ID は [!DNL Experience Cloud] ID サービスの中心となるものです。サイト訪問者の永続的な一意の識別子です。Cookie と [Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html)を参照してください。
+以前は [!DNL Marketing Cloud] ID（MID または MCID）と呼ばれていたものです。この ID は [!DNL Experience Cloud] ID サービスの中心となるものです。サイト訪問者の永続的な一意の識別子です。Cookieと [Adobe Experience Platform Identity Serviceを参照してください](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html)。
 
 <br> 
 
@@ -162,7 +162,7 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 * [!UICONTROL Traits]：統合コードは、内部のビジネスプロセスで使用される ID や SKU などの値のフィールドとなります。オプションです。
 * [!UICONTROL Segments]：統合コードは、ユーザー定義 ID などの会社固有の情報のフィールドとなります。オプションです。
-* [!UICONTROL Data Sources]：統合コードは、クロスデバイスのデータソースを作成したり、Experience Cloud ID サービスを使用したり、[!UICONTROL Profile Merge Rules]プロファイル結合ルールを使用して作業する場合に必要となります。詳しくは、[データソースの作成](../features/manage-datasources.md#create-data-source)を参照してください。
+* [!UICONTROL Data Sources]:統合コードは、デバイス間のデータソースの作成、Adobe Experience Platform Identity Serviceの使用、またはとの連携を行う場合に必要で [!UICONTROL Profile Merge Rules]す。 詳しくは、[データソースの作成](../features/manage-datasources.md#create-data-source)を参照してください。
 
 ## K-L {#k-l}
 
@@ -268,7 +268,7 @@ TTL は、対象として認定された訪問者が特性にとどまる日数�
 
 [!DNL Experience Cloud] ID サービス（旧称、訪問者 ID）は、[!DNL Experience Cloud] のすべてのソリューションにわたって訪問者を識別する、普遍的、永続的な ID を提供します。
 
-[Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html)のドキュメントを参照してください。
+詳しくは、 [Adobe Experience Platform Identity Serviceのドキュメントを参照してください](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) 。
 
 ## W-X-Y-Z {#w-z}
 
