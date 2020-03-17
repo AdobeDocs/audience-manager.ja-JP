@@ -1,13 +1,13 @@
 ---
 description: 宣言済み ID の機能、セットアップ手順、コード例、変数について説明します。
-keywords: id 同期
+keywords: id sync
 seo-description: 宣言済み ID の機能、セットアップ手順、コード例、変数について説明します。
 seo-title: 宣言済み ID
 solution: Audience Manager
 title: 宣言済み ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
  <tbody> 
   <tr> 
    <td colname="col1"> <b>イベント呼び出し</b> </td> 
-   <td colname="col2"> <p>機能するには、ページに <span class="wintitle">DIL</span> と <a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/" format="https" scope="external">Experience Cloud ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Experience Cloud ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
+   <td colname="col2"> <p>To work, you need <span class="wintitle"> DIL </span> and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform Identity Service </a> code on the page. <span class="wintitle"> DILは、 </span><span class="wintitle"></span><code> setVisitorID </code> Adobe Experience Platform Identity <span class="keyword"> Serviceが提供する関数から宣言済みIDを取得し、そのIDを </span><span class="keyword"></span>Audience Managerに渡します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID のマッチング</b> </td> 
@@ -81,11 +81,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>データプロバイダー ID およびユーザー ID </p> </td> 
+   <td colname="col1"> <p>データプロバイダー ID およびユーザー ID。 </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>統合コードおよびユーザー ID </p> </td> 
+   <td colname="col1"> <p>統合コードおよびユーザー ID。 </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -165,11 +165,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>データプロバイダー ID およびユーザー ID </p> </td> 
+   <td colname="col1"> <p>データプロバイダー ID およびユーザー ID。 </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>統合コードおよびユーザー ID </p> </td> 
+   <td colname="col1"> <p>統合コードおよびユーザー ID。 </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -183,11 +183,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 [!UICONTROL DIL] を を通じて宣言済み ID を [!DNL Audience Manager.] に渡すための設定変数について説明します。
 
-## DIL は Experience Cloud ID サービスを使用して宣言済み ID を渡す {#dil-id-service-pass-declared-ids}
+## DIL Uses the Adobe Experience Platform Identity Service to Pass Declared IDs {#dil-id-service-pass-declared-ids}
 
 <!-- r_dil_declared_id_vars.xml -->
 
-[Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を使用する場合、非推奨の `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要はありません。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Experience Cloud ID Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
+When used with the [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. 代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
 
 ```js
 var vDil = DIL.create({
@@ -198,11 +198,11 @@ var vDil = DIL.create({
 });
 ```
 
-キーと値のペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=admin_getting_started.html)も参照してください。
+キーと値のペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html)も参照してください。
 
 ## 非推奨の関数 {#deprecated-functions}
 
-[!UICONTROL DIL] の最新バージョン（6.2 以降）では、これらのキーと値のペアを使用して [!UICONTROL declared IDs] を渡す必要はありません。これは、[!UICONTROL DIL] が上記のコードサンプルのように `visitorService` 関数を使用しているためです。この関数は [!UICONTROL Experience Cloud ID Service] から [!UICONTROL declared IDs] を取得します。ここでは、これらの変数を、履歴やレガシーを示す目的で参照しています。以下のコードは、`DIL.create` を設定して [!UICONTROL Visitor ID Service] から [!UICONTROL declared ID] を取得する方法の例を示しています。次の表は、`declaredId` オブジェクトで使用されるレガシー変数の一覧です。
+[!UICONTROL DIL] の最新バージョン（6.2 以降）では、これらのキーと値のペアを使用して [!UICONTROL declared IDs] を渡す必要はありません。これは、[!UICONTROL DIL] が上記のコードサンプルのように `visitorService` 関数を使用しているためです。この関数は [!UICONTROL Adobe Experience Platform Identity Service] から [!UICONTROL declared IDs] を取得します。ここでは、これらの変数を、履歴やレガシーを示す目的で参照しています。以下のコードは、`DIL.create` を設定して [!UICONTROL Visitor ID Service] から [!UICONTROL declared ID] を取得する方法の例を示しています。次の表は、`declaredId` オブジェクトで使用されるレガシー変数の一覧です。
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
  <thead> 
@@ -230,7 +230,7 @@ var vDil = DIL.create({
 
 Audience Manager は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。存在しない ID がある場合、Audience Manager は新しいユーザー ID を作成し、`DPID/DPUUID` の組み合わせと同期します。Audience Manager がユーザー ID（`UUID`）を照合または作成すると、その ID が [!DNL JSON] 応答でクライアントのドメインの Cookie（ファーストパーティの Cookie）またはその他のローカルストレージの Cookie に返されます。
 
-[!UICONTROL DIL] v6.1 以前を使用している場合には、この関数を呼び出します。新しいバージョンでは[!UICONTROL Experience Cloud ID Service]から[!UICONTROL declared IDs] を取得するので、この関数は廃止されています。
+[!UICONTROL DIL] v6.1 以前を使用している場合には、この関数を呼び出します。新しいバージョンでは[!UICONTROL Adobe Experience Platform Identity Service]から[!UICONTROL declared IDs] を取得するので、この関数は廃止されています。
 
 ```js
 DIL.create({
