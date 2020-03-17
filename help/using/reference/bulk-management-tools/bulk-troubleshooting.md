@@ -5,8 +5,8 @@ seo-title: 一括管理ツールのトラブルシューティングのヒント
 solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
-translation-type: ht
-source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
+translation-type: tm+mt
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 >[!NOTE]
 >
->[!UICONTROL Bulk Management Tools] は、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
+>[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 大量のネットワークトラフィック、サーバーの使用状況、大規模なデータセットなどの要因により、一括リクエストが失敗したりタイムアウトすることがあります。問題がある場合、ワークシートはデータの書き込みを停止し、エラーメッセージを表示します。このような状況が発生した場合は、以下の手順に従います。
 
