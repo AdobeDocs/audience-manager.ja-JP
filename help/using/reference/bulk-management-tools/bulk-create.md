@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 一括作成
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 3051ca9f7c4039dafdfa01b89226c1fa8717e610
 
 ---
 
@@ -23,7 +23,7 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->[!UICONTROL Bulk Management Tools] は、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。このツールはあくまで情報提供および便宜を目的として提供されています。一括変更については、代わりに [Audience Manager API](../../api/rest-api-main/aam-api-getting-started.md) を使用することを推奨します。[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
+>[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 >[!CAUTION]
 >
@@ -31,13 +31,12 @@ t_bulk_create.xml
 
 オブジェクトを一括作成するには、「[!UICONTROL Bulk Management Tools]」ワークシートを開いてから、以下の手順に従ってください。
 
-1. 「**[!UICONTROL Headers]**」タブをクリックして、追加する項目の作成ヘッダーをコピーします。
-1. 「**[!UICONTROL Create]**」タブをクリックします。
-1. 作成ヘッダーを、更新ワークシートの 1 行目に貼り付けます。
-1. ヘッダーラベルに基づいて、変更するデータを対応する列に貼り付けるか入力します。
-1. ワークシートのツールバーで、更新する項目の作成ボタンをクリックします。これにより、[!UICONTROL Account Information] ダイアログボックスが開きます。
-
-1. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、「**[!UICONTROL Submit]**」をクリックします。
+1. **[!UICONTROL Headers]**&#x200B;タブをクリックして、追加する項目の作成ヘッダーをコピーします。
+2. **[!UICONTROL Create]**&#x200B;タブをクリックします。
+3. 作成ヘッダーを、更新ワークシートの 1 行目に貼り付けます。
+4. ヘッダーラベルに基づいて、変更するデータを対応する列に貼り付けるか入力します。
+5. ワークシートのツールバーで、更新する項目の作成ボタンをクリックします。これにより、[!UICONTROL Account Information] ダイアログボックスが開きます。
+6. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、**[!UICONTROL Submit]**&#x200B;をクリックします。
 
 ワークシートに「[!UICONTROL Results]」列が作成されます。「[!UICONTROL Results]」列には、成功した操作の JSON レスポンスが返されます。例については[ REST API](../../api/rest-api-main/rest-api-main.md) を参照してください。データを入力する前の一括作成ワークシートは、次の例のようになります。ただし、作成オプションのすべてがここに表示されているわけではありません。この例は、完成したワークシートの概要を把握するためのものです。
 
