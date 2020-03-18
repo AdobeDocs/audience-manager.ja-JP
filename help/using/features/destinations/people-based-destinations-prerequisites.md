@@ -5,7 +5,7 @@ seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 
 ---
 
@@ -37,6 +37,18 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
    >[!IMPORTANT]
    > Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!DNL People-Based Destinations] 統合に必要です。
 3. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
+
+### [!DNL LinkedIn]
+
+>[!IMPORTANT]
+>
+> との統 [!DNL People-Based Destinations] 合は現在ベ [!DNL LinkedIn] ータテスト段階にあり、限られた数のお客様のみ利用できます。
+> 
+> ベータテストが終了すると、この統合は、新規登録したAudience Managerのすべてのお客様が利用できるようになりま [!DNL People-Based Destinations]す。
+
+を使用してファーストパ [!DNL People-Based Destinations] ーティオーディエンスセグメントを送信する前に、ア [!DNL LinkedIn]カウントに権限レベルが [!DNL LinkedIn Campaign Manager] 高いことを [!DNL Creative Manager] 確認してください。
+
+ユーザー権限の編集方法については、「 [!DNL LinkedIn Campaign Manager] 広告アカウントの [ユーザー権限の追加、編集、削除」を参照してください。](https://www.linkedin.com/help/lms/answer/5753)
 
 ## データオンボーディング {#data-onboarding}
 
