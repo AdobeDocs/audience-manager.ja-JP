@@ -5,7 +5,7 @@ seo-title: 送信マクロの例
 solution: Audience Manager
 title: 送信マクロの例
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3d14d58b9cb66faf506ab729e7ff85dc1818d37e
 
 ---
@@ -125,7 +125,7 @@ source-git-commit: 3d14d58b9cb66faf506ab729e7ff85dc1818d37e
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>出力：</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>Note:  In the first example, the macro only returns data for <code> SEGMENT_LIST </code> because <code> REMOVED_SEGMENT_LIST </code> is empty. 2 番目の例では両方のマクロのデータが返されます。 </p> </p> </td> 
+     </code></p> <p> <p>注意：最初の例では、マクロは <code> SEGMENT_LIST </code> のデータしか返しません。これは <code> REMOVED_SEGMENT_LIST </code> が空であるためです。2 番目の例では両方のマクロのデータが返されます。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
