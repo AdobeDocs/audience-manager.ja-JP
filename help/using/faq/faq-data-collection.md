@@ -5,8 +5,9 @@ seo-title: データ収集および製品統合に関するよくある質問
 solution: Audience Manager
 title: データ収集および製品統合に関するよくある質問
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
 
 ---
 
@@ -39,7 +40,7 @@ faq_data_collection_integration.xml
 
 <br> 
 
-**インバウンドおよびアウトバウンド FTP サーバーのホワイトリストに登録できる IP アドレスを教えてください。**
+**受信および送信SFTPサーバのホワイトリストを取得できるIPアドレスを教えてください。**
 
 はい、以下を参照してください。
 
