@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 特性認定に関するリファレンス
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 40ac91af26ed4a95492dde872288dc2e9059cdf9
+source-git-commit: ceda75d2bc57aa164cb048c20e3fcff33000cddb
 
 ---
 
@@ -30,9 +30,17 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 
 ![独特形質実現](assets/trait-graph.png)
 
-[!UICONTROL Unique Trait Realizations]は、様々な期間において、特性を自分のプロファイルに追加した訪問者の数を表します。
+グラフに表示する結果のタイプ(またはデバイス間IDでフィルタ [!UICONTROL Device ID] ー [!UICONTORL )に応じて]、指標の意味は異なります。
 
-[!UICONTROL Total Trait Population]は、プロファイルにこの特性がある訪問者の数を表します。
+結果を次でフィルタする場 [!UICONTROL Device ID]合：
+
+* The [!UICONTROL Unique Trait Realizations] counts the number of your anonymous device visitors that have added the trait to their profile, within different time ranges.
+* プロフ [!UICONTROL Total Trait Population] ァイルに特性を持つ匿名デバイス訪問者の合計数をカウントします。
+
+結果を次でフィルタする場 [!UICONTROL Cross-Device ID]合：
+
+* The [!UICONTROL Unique Trait Realizations] count the number of your authenticated visitors that have added the trait to their profile, within different time ranges.
+* The [!UICONTROL Total Trait Population] counts the total number of your authenticated visitors that have this trait on their profile.
 
 これらの数字については次のように考えます。上の図で、[特性の詳細](../../features/traits/trait-details-page.md)ビューの「90,173」は、前日にプロパティを訪問したアクティブなデバイスの数を表します。[!UICONTROL Total Trait Population] は 55,757 ですが、これは現在この特性の対象として認定されているユーザーの数を表します。[!UICONTROL Total Trait Population] の数は、セグメント化／ターゲティングに使用できるユーザーの合計数を表しています。通常、ユーザーが特性の一部となっている期間は 120 日間です。
 
@@ -50,7 +58,7 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 
 選択し [!UICONTROL Total Segment Population] た期間内に、選択したセグメントに対して資格を持つデバイスの数をカウントします。 このレ [!UICONTROL 1 Day] ポートは、最新のセグメント訪問者数を表します。
 
-これらの数字については次のように考えます。上の図で、 [セグメ [ントの詳細](../../features/segments/segment-summary-view.md) ]ビューの9,993は、昨日プロパティを訪問し、セグメントの資格を得たアクティブなデバイスの数を表します。 699,532 [!UICONTROL Total Segment Population] の数値は、このセグメントに対して現在認定されているデバイスの合計数を表します。 The [!UICONTROL Total Segment Population] figure is meant to show the total number of devices that could be used for segmentation/targeting.
+これらの数字については次のように考えます。上の図で、 [セグメ [ントの詳細](../../features/segments/segment-summary-view.md) ]ビューの9,993は、昨日プロパティを訪問し、セグメントの資格を得たアクティブなデバイスの数を表します。 699,532 [!UICONTROL Total Segment Population] の数値は、このセグメントに対して現在認定されているデバイスの総数を表します。 The [!UICONTROL Total Segment Population] figure is meant to show the total number of devices that could be used for segmentation/targeting.
 
 2 つの母集団の計算にはそれぞれ異なる 2 つの演算ジョブを実行しているので、[!UICONTROL Total Segment Population] は常に [!UICONTROL Real-time Segment Population] より 24 時間遅れることになります。In the graph above, you can see a 8,116 [!UICONTROL Real-time Segment Population] and a [!UICONTROL Total Segment Population] of 742,000 for February 2nd. 次の日に、8,116 件のプロファイルが [!UICONTROL Total Segment Population] に加算されます。
 
