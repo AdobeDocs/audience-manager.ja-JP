@@ -4,7 +4,7 @@ seo-description: 特性適合のバックフィルにより、過去のオーデ
 seo-title: 特性適合のバックフィル
 title: 特性適合のバックフィル
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 >
 > [!UICONTROL Data Explorer Trait Backfill]は、追加のユースケースをロック解除して Audience Manager を強化できるプレミアム機能です。バックフィルを使用するには追加の処理能力がかかりますが、追加料金をお支払いいただければ Audience Manager のすべてのお客様がご利用になれます。詳しくは、アドビのセールス担当者にお問い合わせください。
 
-未使用シグナルから特性を作成するときに、指定期間における特性適合をバックフィルすることができます。[!DNL Audience Manager] は、新しく作成した特性の対象として認定されるオーディエンスの過去データを収集し、対応するプロファイルに保管します。**[!UICONTROL Backfill Options]** は、[!UICONTROL Trait Expression]特性ビルダー&#x200B;**[の「](../../features/traits/about-trait-builder.md)**」セクションに表示されます。
+未使用シグナルから特性を作成するときに、指定期間における特性適合をバックフィルすることができます。[!DNL Audience Manager] は、新しく作成した特性の対象として認定されるオーディエンスの過去データを収集し、対応するプロファイルに保管します。**[!UICONTROL Backfill Options]** は、**[特性ビルダー](../../features/traits/about-trait-builder.md)** の「[!UICONTROL Trait Expression]」セクションに表示されます。
 
 >[!NOTE]
 >
@@ -26,13 +26,13 @@ source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 
 特性適合のバックフィルの手順は次のとおりです。
 
-1. [!UICONTROL Audience Data > Signals > Search] を開き、シグナル検索を実行するか[シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)を使用して、新しい特性で使用するシグナルを特定します。
+1. [!UICONTROL Audience Data > Signals > Search] の順に選択し、シグナル検索を実行するか[シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)を使用して、新しい特性で使用するシグナルを特定します。
 1. 目的のシグナルに基づいて新しい特性を作成します。
-1. **[!UICONTROL Backfill Options]** セクションの **[!UICONTROL Trait Expression]**&#x200B;を使用して、特性適合のバックフィルをおこなう期間を選択します。事前定義されているバックフィル期間は、1 日、7 日、14 日および 30 日です。30 日までの範囲でカスタムの期間を指定することもできます。
+1. 「**[!UICONTROL Trait Expression]**」セクションの **[!UICONTROL Backfill Options]** を使用して、特性適合のバックフィルをおこなう期間を選択します。事前定義されているバックフィル期間は、1 日、7 日、14 日および 30 日です。30 日までの範囲でカスタムの期間を指定することもできます。
 
    ![trait-backfill](assets/signals-trait-backfill.png)
 
-1. （オプション）**[!UICONTROL Estimate Realizations]** セクションの「**[!UICONTROL Estimated Trait Realizations]**」をクリックして、過去 7 日間にバックフィルされた特性の推定 [!UICONTROL Unique Trait Realizations] および [!UICONTROL Total Trait Population] の値を表示します。
+1. （オプション）「**[!UICONTROL Estimated Trait Realizations]**」セクションの「**[!UICONTROL Estimate Realizations]**」をクリックして、過去 7 日間にバックフィルされた特性の [!UICONTROL Unique Trait Realizations] および [!UICONTROL Total Trait Population] の推定値を表示します。
 
    ![estimate-trait-realizations](assets/estimate-trait-realizations.png)
 
@@ -49,7 +49,7 @@ source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 
 特性のバックフィル方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=jpn)
 
 ## 特性バックフィルの待ち時間 {#trait-backfilling-latency}
 
