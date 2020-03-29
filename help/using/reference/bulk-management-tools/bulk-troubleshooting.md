@@ -1,11 +1,11 @@
 ---
-description: ワークシートでエラーが返された場合や、一括要求が失敗した場合の対処方法。
-seo-description: ワークシートでエラーが返された場合や、一括要求が失敗した場合の対処方法。
+description: ワークシートでエラーが返された場合や、一括リクエストが失敗した場合の対処方法。
+seo-description: ワークシートでエラーが返された場合や、一括リクエストが失敗した場合の対処方法。
 seo-title: 一括管理ツールのトラブルシューティングのヒント
 solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 # 一括管理ツールのトラブルシューティングのヒント {#troubleshooting-tips-for-bulk-management-tools}
 
-ワークシートでエラーが返された場合や、一括要求が失敗した場合の対処方法。
+ワークシートでエラーが返された場合や、一括リクエストが失敗した場合の対処方法。
 
 
 
@@ -25,7 +25,7 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 >[!NOTE]
 >
->[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
+>[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md)は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 大量のネットワークトラフィック、サーバーの使用状況、大規模なデータセットなどの要因により、一括リクエストが失敗したりタイムアウトすることがあります。問題がある場合、ワークシートはデータの書き込みを停止し、エラーメッセージを表示します。このような状況が発生した場合は、以下の手順に従います。
 
@@ -34,7 +34,7 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 * 更新済みの行をすべて削除する。
 * 再度一括リクエストを試行する。
 
-## 認証エラー、長時間の遅延、または応答しない動作 {#delays-behavior}
+## 認証エラー、長時間の遅延、またはレスポンスしない動作 {#delays-behavior}
 
 次の表は、ワークシートで一括リクエストをおこなう場合に発生する可能性がある一般的な問題のリストです。推奨される解決策により問題の解決を試してください。推奨される解決策で問題が解決しない場合、作業内容を保存し、コンピューターを再起動して、他のアプリケーションの起動や操作をおこなわずにリクエストを再度試行してください。
 
@@ -74,5 +74,5 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ## エラーメッセージ
 
-一括変更をおこなう際にエラーメッセージが表示される場合があります。エラーメッセージを解釈するには、API ドキュメントの「[定義されている応答コード](/help/using/api/rest-api-main/aam-api-getting-started.md)」を参照してください。
+一括変更をおこなう際にエラーメッセージが表示される場合があります。エラーメッセージを解釈するには、API ドキュメントの[定義されているレスポンスコード](/help/using/api/rest-api-main/aam-api-getting-started.md)を参照してください。
 
