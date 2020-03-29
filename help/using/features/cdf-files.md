@@ -6,7 +6,7 @@ seo-title: 顧客データフィード
 solution: Audience Manager
 title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
@@ -24,14 +24,14 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 >[!NOTE]
 >
->ページトラフィックの監視、レポートの相違点の調整、請求などの代わりに [!UICONTROL CDF]ファイルを使用しないでください。
+>ページトラフィックの監視、レポートの相違点の調整、請求などの代わりに [!UICONTROL CDF] ファイルを使用しないでください。
 
 ## はじめに {#getting-started}
 
-[!UICONTROL CDF]ファイル配信を開始するためのセルフサービスプロセスはありません。開始するには、担当の [!DNL Audience Manager] コンサルタントまたはカスタマーケアに問い合わせてください。導入時に [!DNL Audience Manager] 担当者は以下をおこないます。
+[!UICONTROL CDF]ファイル配信を開始するためのセルフサービスプロセスはありません。開始するには、担当の [!DNL Audience Manager] コンサルタントまたはカスタマーケアに問い合わせてください。実装時に [!DNL Audience Manager] 担当者は以下をおこないます。
 
 * 使用する [!DNL Amazon S3] ストレージバケットのセットアップ。
-* [!DNL S3] ファイルストレージバケットに対する読み取り専用の 認証資格情報の提供。他の顧客のディレクトリやファイルを参照したりアクセスしたりすることはできません。
+* [!DNL S3] ファイルストレージバケットに対する読み取り専用の認証資格情報の提供。他の顧客のディレクトリやファイルを参照したりアクセスしたりすることはできません。
 
 ファイルのダウンロード準備ができたら、ファイル通知と [!UICONTROL CDF] ファイルが [!DNL S3] バケットに表示されます。割り当てられた [!DNL S3] ディレクトリ内のファイルの監視やダウンロードは、ユーザー自身がおこないます。[顧客データフィードファイル処理の通知](#cdf-file-processing-notifications)。
 
@@ -90,7 +90,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>イベント呼び出しで渡される、すべてのパラメーター（変数、ID、キーと値のペア、デバイス広告 ID など）を取り込む文字列。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>イベント呼び出しで渡される、すべてのパラメーター（変数、ID、キー値ペア、デバイス広告 ID など）を取り込む文字列。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
@@ -105,7 +105,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。cookieおよび <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Adobe Experience Platform Identity Serviceも参照してください</a>。 </p> </td> 
+   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -144,7 +144,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + A（ASCII <code> 001</code> または <code> ^A</code>）：非表示のスペースインジケーターで個々のフィールドを区切ります。 </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + B（ASCII <code> 002</code> または <code> ^B</code>）：配列やリクエストパラメーターのデータを区切ります。 </li> 
-      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + C（ASCII <code> 003</code> または <code> ^C</code>）：キーと値のペアを定義します。 </li> 
+      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + C（ASCII <code> 003</code> または <code> ^C</code>）：キー値ペアを定義します。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -159,7 +159,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">リクエストパラメーター </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">参照元 </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP アドレス </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。CookieおよびAdobe Experience Platform IDサ <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> ービスも参照してください。</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
      </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
@@ -254,7 +254,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 [!DNL Audience Manager] は、ファイルのダウンロード準備が完了したことを知らせるために、[!UICONTROL Customer Data File]（[!UICONTROL CDF]）のダウンロード準備ができたことを知らせるために、[!DNL S3] ディレクトリに `.info` ファイルを書き込みます。`.info` ファイルには、[!UICONTROL CDF] ファイルの内容に関する [!DNL JSON] 形式のメタデータも含まれています。この通知ファイルで使用されている構文やフィールドについては、このセクションで確認してください。
 
-## サンプル .info ファイル {#sample-info-file}
+## サンプル .info ファイル   {#sample-info-file}
 
 <!-- cdf-notifications.xml -->
 
@@ -285,7 +285,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 }
 ```
 
-## .info ファイルの各フィールドの定義 {#info-file-fields-defined}
+## Info ファイルの各フィールドの定義 {#info-file-fields-defined}
 
 以下の表に、[!UICONTROL CDF] `.info` ファイルの構成要素の一覧と説明を示します。
 
