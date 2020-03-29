@@ -6,17 +6,17 @@ seo-title: インスタンスレベルの DIL メソッド
 solution: Audience Manager
 title: インスタンスレベルの DIL メソッド
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
 
-# インスタンスレベルの DIL メソッド{#instance-level-dil-methods}
+# インスタンスレベルの DIL メソッド {#instance-level-dil-methods}
 
 インスタンスレベルの [!UICONTROL DIL] API を使用すると、Audience Manager オブジェクトをプログラムで作成し操作することができます。インスタンスレベルのメソッドは、クラスレベルのメソッドで実現している API 機能を強化したものです。
 
-## インスタンスレベルの DIL API の概要 {#get-started-dil-methods}
+## インスタンスレベルの DIL メソッドの概要 {#get-started-dil-methods}
 
 <!-- 
 
@@ -35,7 +35,7 @@ c_instance_start.xml
 
  -->
 
-## シグナル {#signals}
+## signals {#signals}
 
 保留中のリクエストのクエリ文字列に顧客レベルおよびプラットフォームレベルのマッピングを追加します。
 
@@ -68,11 +68,11 @@ r_dil_signals.xml
 
 | 名前 | タイプ | 説明 |
 |---|---|---|
-| `obj` | オブジェクト | プラットフォームレベルのマッピングのキーと値のペアを表すオブジェクト。パラメーターには、オブジェクトのプロパティ値として文字列と配列を使用できます。 |
+| `obj` | オブジェクト | プラットフォームレベルのマッピングのキー値ペアを表すオブジェクト。パラメーターには、オブジェクトのプロパティ値として文字列と配列を使用できます。 |
 | `prefix` | 文字列 | オプションです。各オブジェクトキーの先頭に付加される文字列値（元の値は置き換えられます）。 |
 | `return` | DIL.api | 現在の DIL インスタンスの API オブジェクトを返します。 |
 
-**応答**
+**レスポンス**
 
 現在の [!UICONTROL DIL] インスタンスの API オブジェクトを返します。
 
@@ -99,7 +99,7 @@ dataLib.api.signals(obj, 'c_').submit();
 
 ## traits {#traits}
 
-保留中の要求のクエリ文字列に、SID を追加します。
+保留中のリクエストのクエリ文字列に、SID を追加します。
 
 <!-- 
 
@@ -119,7 +119,7 @@ r_dil_traits.xml
 |---|---|---|
 | `sids` | 配列 | 特性セグメント ID の配列。 |
 
-**応答**
+**レスポンス**
 
 現在の [!UICONTROL DIL] インスタンスの API オブジェクトを返します。
 
@@ -135,7 +135,7 @@ partnerObject.api.traits(<i>[123, 456, 789]</i>);
 
 ## logs {#logs}
 
-保留中の要求のログファイルにデータを追加します。
+保留中のリクエストのログファイルにデータを追加します。
 
 <!-- 
 
@@ -145,7 +145,7 @@ r_dil_logs.xml
 
 **関数シグネチャ：**`logs: function {key1:value1, key2:value2}`
 
-**応答**
+**レスポンス**
 
 現在の [!UICONTROL DIL] インスタンスの API オブジェクトを返します。
 
@@ -178,7 +178,7 @@ r_dil_submit.xml
 >
 >他の API 呼び出しをこのメソッドに連結することができます。また、[!UICONTROL DIL] はエンコードされたデータを宛先 Cookie に書き込みます。例えば、空白は `%20`、セミコロンは `%3B` にエンコードされます。
 
-**応答**
+**レスポンス**
 
 現在の [!UICONTROL DIL] インスタンスの API オブジェクトを返します。
 
@@ -222,7 +222,7 @@ r_dil_after_result.xml
 |---|---|---|
 | `fn` | 関数 | 宛先パブリッシングを処理するデフォルトのコールバックにより JSON が処理された後に実行する関数。 |
 
-**応答**
+**レスポンス**
 
 現在の [!UICONTROL DIL] インスタンスの API オブジェクトを返します。
 
@@ -244,7 +244,7 @@ dataLib.api.signals({
 
 ## clearData {#cleardata}
 
-保留中の要求内のすべてのデータをクリアします。
+保留中のリクエスト内のすべてのデータをクリアします。
 
 <!-- 
 
@@ -258,7 +258,7 @@ r_dil_clear_data.xml
 >
 >他の API 呼び出しをこのメソッドに連結することができます。
 
-**応答**
+**レスポンス**
 
 現在の [!UICONTROL DIL] インスタンスの API オブジェクトを返します。
 
@@ -284,7 +284,7 @@ dataLib.clearData();
 
 ## customQueryParams {#customqueryparams}
 
-データ収集サーバーによって明示的に定義されていないカスタムクエリパラメーターを保留中の要求に追加します。
+データ収集サーバーによって明示的に定義されていないカスタムクエリパラメーターを保留中のリクエストに追加します。
 
 <!-- 
 
@@ -309,7 +309,7 @@ r_dil_custom_query_params.xml
 * `postCallbackFn`
 * `useImageRequest`
 
-**応答**
+**レスポンス**
 
 現在の DIL インスタンスの API オブジェクトを返します。
 
@@ -505,11 +505,11 @@ r_dil_idsync.xml
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>複数のデータパートナーと Audience Manager の間で実行されます。例えば、パートナー x がこれを使用してユーザー ID をパートナー y と同期し、Audience Manager に送信します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Please use the <code> idSyncByURL </code> method of the Adobe Experience Platform Identity Service instance. </p> </p> </td> 
+   <td colname="col2"> <p>複数のデータパートナーと Audience Manager の間で実行されます。例えば、パートナー x がこれを使用してユーザー ID をパートナー y と同期し、Audience Manager に送信します。 </p> <p> <p><b>重要：</b>このメソッドは非推奨（廃止予定）となりました。Adobe Experience Platform ID サービスインスタンスの <code> idSyncByURL </code> メソッドを使用してください。 </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>ユーザー ID が既に判明していて、それを Audience Manager に送信する場合に使用します。 </p> <p> <p><b>重要：</b>このメソッドは廃止されました。Please use the <code> idSyncByDataSource </code> method of the Adobe Experience Platform Identity Service instance. </p> </p> </td> 
+   <td colname="col2"> <p>ユーザー ID が既に判明していて、それを Audience Manager に送信する場合に使用します。 </p> <p> <p><b>重要：</b>このメソッドは非推奨（廃止予定）となりました。Adobe Experience Platform ID サービスインスタンスの <code> idSyncByDataSource </code> メソッドを使用してください。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -554,11 +554,11 @@ r_dil_idsync.xml
 
 `idSync` では次のマクロを使用できます。
 
-* **`%TIMESTAMP%`:**タイムスタンプを生成します（ミリ秒）。 キャッシュバスティングに使用されます。
-* **`%DID%`:**ユーザーのAudience Manager IDを挿入します。
-* **`%HTTP_PROTO%`:**ページのプロトコル(または`http`)を設`https`定します。
+* **`%TIMESTAMP%`：** タイムスタンプを生成します（ミリ秒単位）。キャッシュバスティングに使用されます。
+* **`%DID%`：** ユーザーの Audience Manager ID を挿入します。
+* **`%HTTP_PROTO%`：** ページプロトコル（`http`または`https`）を設定します。
 
-**応答**
+**レスポンス**
 
 これらの関数は、成功した場合、`Successfully queued` を返します。そうでない場合、エラーメッセージを返します。
 
@@ -589,7 +589,7 @@ dilInstance.api.aamIdSync({
 
 ## result {#result}
 
-JSON を受信するコールバックを保留中の要求に追加します。
+JSON を受信するコールバックを保留中のリクエストに追加します。
 
 <!-- 
 
@@ -611,7 +611,7 @@ r_dil_result.xml
 |---|---|---|
 | `callback` | 関数 | JSONP コールバックで実行される JavaScript 関数。 |
 
-**応答**
+**レスポンス**
 
 現在の [!UICONTROL DIL] インスタンスの API オブジェクトを返します。
 
@@ -655,7 +655,7 @@ var dilInstance = DIL.create({
 
 ## useCORSOnly {#usecorsonly}
 
-`useCORSOnly` は、ブラウザーから他のドメインのリソースを要求する方法を制御するための true または false のブール型パラメーターです。
+`useCORSOnly` は、ブラウザーから他のドメインのリソースをリクエストする方法を制御するための true または false のブール型パラメーターです。
 
 <!-- 
 
@@ -665,7 +665,7 @@ dil-use-cors-only.xml
 
 **概要**
 
-`useCORSOnly` のデフォルト値は false です。false の場合、ブラウザーは CORS または JSONP でリソースチェックを実行します。ただし、[!UICONTROL DIL] は常に、最初に CORS を使用してリソースを要求しようとします。CORS をサポートしていない古いブラウザーでは、JSONP に切り替わります。ブラウザーで必ず CORS のみを使用するように指定する必要がある場合（サイトに厳しいセキュリティ要件がある場合など）は、`useCORSOnly:true` を設定します。
+`useCORSOnly` のデフォルト値は false です。false の場合、ブラウザーは CORS または JSONP でリソースチェックを実行します。ただし、[!UICONTROL DIL] は常に、最初に CORS を使用してリソースをリクエストしようとします。CORS をサポートしていない古いブラウザーでは、JSONP に切り替わります。ブラウザーで必ず CORS のみを使用するように指定する必要がある場合（サイトに厳しいセキュリティ要件がある場合など）は、`useCORSOnly:true` を設定します。
 
 **コードサンプル**
 
@@ -686,7 +686,7 @@ var dilInstance = DIL.create({
 
 ## useImageRequest {#useimagerequest}
 
-要求のタイプをスクリプト（`<src>`）から画像（`<img>`）に変更します。
+リクエストのタイプをスクリプト（`<src>`）から画像（`<img>`）に変更します。
 
 <!-- 
 
@@ -700,7 +700,7 @@ r_dil_use_image_request.xml
 >
 >他の API 呼び出しをこのメソッドに連結することができます。
 
-**応答**
+**レスポンス**
 
 現在の [!UICONTROL DIL] インスタンスの API オブジェクトを返します。
 
@@ -719,8 +719,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [キー変数名の要件](../features/traits/trait-key-name-requirements.md)
 >* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
->* [Adobe Experience Platform Identity Serviceの同期機能](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Adobe Experience Platform ID サービスの同期機能](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-idsync.html)
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Adobe Experience Platform Identity Service:UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Adobe Experience Platform Identity ServiceでのCORSのサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Adobe Experience Platform ID サービス：UseCORSOnly](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Adobe Experience Platform ID サービスでの CORS のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/cors.html)
 
