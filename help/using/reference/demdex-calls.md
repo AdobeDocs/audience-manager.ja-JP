@@ -1,19 +1,19 @@
 ---
-description: Audience ManagerとAdobe Experience Platform Identity Serviceは、demdex.netドメインに対する呼び出しと、demdex.netドメインからのデータの受信を行います。 アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、demdex.net 呼び出しの構成要素について説明します。
-seo-description: Audience ManagerとAdobe Experience Platform Identity Serviceは、demdex.netドメインに対する呼び出しと、demdex.netドメインからのデータの受信を行います。 アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、demdex.net 呼び出しの構成要素について説明します。
+description: Audience Manager および Adobe Experience Platform ID サービスは demdex.net ドメインを呼び出し、そこからデータを受け取ります。アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、demdex.net 呼び出しの構成要素について説明します。
+seo-description: Audience Manager および Adobe Experience Platform ID サービスは demdex.net ドメインを呼び出し、そこからデータを受け取ります。アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、demdex.net 呼び出しの構成要素について説明します。
 seo-title: demdex ドメインの呼び出しについて
 solution: Audience Manager
 title: demdex ドメインの呼び出しについて
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
 
-# demdex ドメインの呼び出しについて{#understanding-calls-to-the-demdex-domain}
+# demdex ドメインの呼び出しについて {#understanding-calls-to-the-demdex-domain}
 
-Audience ManagerとAdobe Experience Platform Identity Serviceは、demdex.netドメインに対する呼び出しと、demdex.netドメインからのデータの受信を行います。 アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、demdex.net 呼び出しの構成要素について説明します。
+Audience Manager および Adobe Experience Platform ID サービスは demdex.net ドメインを呼び出し、そこからデータを受け取ります。アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、demdex.net 呼び出しの構成要素について説明します。
 
 <table id="table_B846CBEDDA4C4AD19416F7C27FC325C6"> 
  <thead> 
@@ -29,17 +29,17 @@ Audience ManagerとAdobe Experience Platform Identity Serviceは、demdex.netド
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dpm</code> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> DPM</span> は <span class="wintitle">Data Provider Match</span>（データプロバイダーマッチ）の略語です。これにより、<span class="keyword">Audience Manager</span> または <span class="wintitle">ID サービス</span>からの呼び出しで同期または ID 要求のために顧客データが渡されていることが、<span class="keyword">アドビ</span>の社内システムにわかります。これは、<span class="keyword">Audience Manager</span> または <span class="wintitle">ID サービス</span>からの <code> demdex.net</code> 呼び出しとして最も一般的なものです。 </p> <p><span class="wintitle">DPM 呼び出しの次の基本事項に留意してください。</span> </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> DPM</span> は <span class="wintitle">Data Provider Match</span>（データプロバイダーマッチ）の略語です。これにより、<span class="keyword">Audience Manager</span> または <span class="wintitle">ID サービス</span>からの呼び出しで同期または ID リクエストのために顧客データが渡されていることが、<span class="keyword">アドビ</span>の社内システムにわかります。これは、<span class="keyword">Audience Manager</span> または <span class="wintitle">ID サービス</span>からの <code> demdex.net</code> 呼び出しとして最も一般的なものです。 </p> <p><span class="wintitle">DPM 呼び出しの次の基本事項に留意してください。</span> </p> <p> 
      <ul id="ul_44023BB060774518BE414EE10820C141"> 
       <li id="li_0F94D1988A6944BA885FD40AB26FC49F"> <b><span class="keyword">Audience Manager</span></b><span class="wintitle"></span>：<span class="keyword">Audience Manager</span> からの DPM 呼び出しでは、データを<span class="wintitle">データ収集サーバー</span>および<span class="wintitle">プロファイルキャッシュサーバー</span>に送信します。詳しくは、<a href="../reference/system-components/components-data-collection.md">データ収集コンポーネント</a>を参照してください。 </li> 
-      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b><span class="wintitle">ID サービス</span></b><span class="wintitle"></span>：<span class="wintitle">ID サービス</span>からの DPM 呼び出しは訪問者 ID の要求になります。CookieとAdobe Experience Platform Identity Service <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> 、およびAdobe Experience Platform Identity Service</a> でのIDのリクエストと設定方法を参照してください <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_id_request.html" format="https" scope="external"></a>。 </li> 
-     </ul> </p> <p> <p>注意：<span class="wintitle">ID サービス</span>のお客様はドメイン名の <span class="wintitle">DPM</span> プレフィックスを変更できます。詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-subdomain-config.html" format="https" scope="external">audienceManager Server and audienceManagerServerSecure </a>を参照してください。 </p> </p> </td> 
+      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b><span class="wintitle">ID サービス</span></b>：<span class="wintitle">ID サービス</span>からの <span class="wintitle">DPM</span> 呼び出しは、訪問者 ID のリクエストです。<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>、および <a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_id_request.html" format="https" scope="external">Adobe Experience Platform ID サービスが ID をリクエストまたは設定する方法</a>を参照してください。 </li> 
+     </ul> </p> <p> <p>注意：<span class="wintitle">ID サービス</span>のお客様はドメイン名の <span class="wintitle">DPM</span> プレフィックスを変更できます。詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-subdomain-config.html" format="https" scope="external">audienceManagerServer と audienceManagerServerSecure</a> を参照してください。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)
->* [Audience Manager の Cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html)
+>* [Adobe Experience Platform ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)
+>* [Audience Manager の Cookie](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/cookies/cookies_am.html)
 
