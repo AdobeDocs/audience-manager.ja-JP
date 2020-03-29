@@ -5,13 +5,13 @@ seo-title: パブリッシャーのユースケース
 solution: Audience Manager
 title: パブリッシャーのユースケース
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
 
-# パブリッシャーのユースケース{#publisher-use-cases}
+# パブリッシャーのユースケース {#publisher-use-cases}
 
 Adobe Audience Manager が満たしているいくつかの一般的なパブリッシャーニーズの概観。
 
@@ -111,11 +111,11 @@ c_pub_use_case.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DSP を使用して、オーディエンスターゲット購入をオフサイトインベントリソースに拡張する。 </p> </td> 
-   <td colname="col2"> <p>Analytics データポイントをオンサイトおよびオフサイト表示広告と並べて、「売り切れ」状態のオーディエンスインベントリを収益化します。 </p> </td> 
+   <td colname="col2"> <p>Analytics データポイントをオンサイトおよびオフサイトのディスプレイ広告と並べて、「売り切れ」状態のオーディエンスインベントリを収益化します。 </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EE7A86BFFE534A59A9F8C7CAF46A31E5"> 
       <li id="li_D399592D9D904865BD319DC3621B832B">「Income Tax Researchers」セグメントを作成します。 </li> 
-      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Adobe Advertising CloudなどのDSPを通じて、Turbo Taxに販売されるオンサイド広告キャンペーンとオフサイトリーチ拡張キャンペーンを連携させます。 </li> 
+      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Adobe Advertising Cloud などの DSP を使用して、Turbo Tax に販売されたオンサイト広告キャンペーンをオフサイトリーチ拡張キャンペーンと並べます。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -149,7 +149,7 @@ c_pub_use_case.xml
      <ul id="ul_51091241D6B94A849A383538045D797C"> 
       <li id="li_88798E58BA574FA196CFC02C9C55A293">顧客データベースの「Xbox gamers」を特定します。 </li> 
       <li id="li_1136BBC68C8242CE9F116F2C70A4C164">類似モデルを実行して、そのセグメントで最も効果的なユーザーを見つけて特定します。 </li> 
-      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">これらのセグメントをターゲティングして、オンサイト表示広告を Test&amp;Target で最適化します。 </li> 
+      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">これらのセグメントをターゲティングして、オンサイトディスプレイ広告を Test&amp;Target で最適化します。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
