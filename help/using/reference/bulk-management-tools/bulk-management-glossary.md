@@ -5,13 +5,13 @@ seo-title: 一括管理ツールの用語集
 solution: Audience Manager
 title: 一括管理ツールの用語集
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
 
-# 一括管理ツールの用語集{#bulk-management-tools-glossary}
+# 一括管理ツールの用語集 {#bulk-management-tools-glossary}
 
 列ヘッダーのラベルの定義。
 
@@ -23,7 +23,7 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 >[!NOTE]
 >
->[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
+>[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md)は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -35,7 +35,7 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
-   <td colname="col2"> <p>一括で返す、または割り当てる <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings">データソース</a>の ID。 </p> </td> 
+   <td colname="col2"> <p>一括で返す、または割り当てる<a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings">データソース</a>の ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> derivedSignalId</span> </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationId</span> </p> </td> 
-   <td colname="col2"> <p>マッピングまたは削除する<a href="../../features/destinations/destinations.md">宛先</a> のID。 </p> </td> 
+   <td colname="col2"> <p>マッピングまたは削除する<a href="../../features/destinations/destinations.md">宛先</a>の ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationMappingId</span> </p> </td> 
@@ -71,11 +71,11 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>シグナルは、ユーザーアクティビティに基づいて <span class="keyword">Audience Manager</span> に渡されるデータのビットです。これらは<a href="../../reference/key-value-pairs-explained.md">キーと値のペア</a>として渡されます。ソースキーは定数で、変動しません。これにより、変動する可能性があるソース値を分類できます。<a href="../../features/derived-signals.md">派生シグナル</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>シグナルは、ユーザーアクティビティに基づいて <span class="keyword">Audience Manager</span> に渡されるデータのビットです。これらは<a href="../../reference/key-value-pairs-explained.md">キー値ペア</a>として渡されます。ソースキーは定数で、変動しません。これにより、変動する可能性があるソース値を分類できます。<a href="../../features/derived-signals.md">派生シグナル</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
-   <td colname="col2"> <p>ソース値は、<a href="../../reference/key-value-pairs-explained.md">キーと値のペア</a>として渡される変数です。 </p> </td> 
+   <td colname="col2"> <p>ソース値は、<a href="../../reference/key-value-pairs-explained.md">キー値ペア</a>として渡される変数です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
@@ -91,11 +91,11 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>Cookie ベースでない宛先に渡される ID。Cookie ベースの宛先の場合、これは<a href="../../reference/key-value-pairs-explained.md">キーと値のペア</a>として渡される変数です。 </p> </td> 
+   <td colname="col2"> <p>Cookie ベースでない宛先に渡される ID。Cookie ベースの宛先の場合、これは<a href="../../reference/key-value-pairs-explained.md">キー値ペア</a>として渡される変数です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule／segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>データの収集に使用する実際の特性ルールまたはセグメントルール。一括要求は、<span class="keyword">Audience Manager</span> で<a href="../../features/traits/about-trait-builder.md">特性ルールビルダー</a>または<a href="../../features/segments/segment-builder.md">セグメントルールビルダー</a>により作成されたルールを返します。これらのツールを使用して、セグメントや特性の構成時にルールを作成して一括で適用することもできます。 </p> <p>詳しくは、<a href="../../reference/bulk-management-tools/bulk-rules.md">特性ルールとセグメントルールの作成と更新</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>データの収集に使用する実際の特性ルールまたはセグメントルール。一括リクエストは、<span class="keyword">Audience Manager</span> で<a href="../../features/traits/about-trait-builder.md">特性ルールビルダー</a>または<a href="../../features/segments/segment-builder.md">セグメントルールビルダー</a>により作成されたルールを返します。これらのツールを使用して、セグメントや特性の構成時にルールを作成して一括で適用することもできます。 </p> <p>詳しくは、<a href="../../reference/bulk-management-tools/bulk-rules.md">特性ルールとセグメントルールの作成と更新</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -112,7 +112,7 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
-   <td colname="col2"> <p>Cookie の宛先に渡された<a href="../../reference/key-value-pairs-explained.md">キーと値のペア</a>のキー。 </p> </td> 
+   <td colname="col2"> <p>Cookie の宛先に渡された<a href="../../reference/key-value-pairs-explained.md">キー値ペア</a>のキー。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
