@@ -1,12 +1,12 @@
 ---
-description: データ収集サーバー（DCS）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、DCS 要求の形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
-seo-description: データ収集サーバー（DCS）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、DCS 要求の形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
+description: データ収集サーバー（DCS）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、DCS リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
+seo-description: データ収集サーバー（DCS）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、DCS リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
 seo-title: DCS API 呼び出しでサポートされている属性
 solution: Audience Manager
 title: DCS API 呼び出しでサポートされている属性
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 # DCS API 呼び出しでサポートされている属性 {#supported-attributes-for-dcs-api-calls}
 
-[!UICONTROL Data Collection Servers]（[!UICONTROL DCS]）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、[!UICONTROL DCS] 要求の形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
+[!UICONTROL Data Collection Servers]（[!UICONTROL DCS]）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、[!UICONTROL DCS] リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
 
-## 属性プレフィックス{#attribute-prefixes}
+## 属性プレフィックス {#attribute-prefixes}
 
 [!UICONTROL DCS] では、キー値ペアのキーに付加されている特定のプレフィックスに基づいて、渡すデータのタイプを分類します。
 
@@ -42,14 +42,14 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>非公開の顧客定義属性。 </p> <p> The DCS accepts your own, private data when the key has a <code> p_</code> prefix. 非公開データは特性評価に使用されますが、アドビのシステムにはログとして記録されず、保存もされません。For example, lets say you have a trait defined as <code> customers = p_age&lt;25</code> and you pass in <code> p_age=23</code> in an event call. これらの条件を仮定すると、年齢に基づき絞り込まれたユーザーはこの特性に絞り込まれますが、このキー値ペアは、<span class="keyword">Audience Manager</span> に要求が受信された後で削除され、ログには記録されません。 </p> </td>
+   <td colname="col2"> <p>非公開の顧客定義属性。 </p> <p> DCS では、キーに <code> p_</code> プレフィックスが含まれていれば、お客様独自の非公開データを受信します。非公開データは特性評価に使用されますが、アドビのシステムにはログとして記録されず、保存もされません。例えば、<code> customers = p_age&lt;25</code> として定義されている特性があり、イベント呼び出しで <code> p_age=23</code> を渡すとしましょう。これらの条件を仮定すると、年齢に基づき絞り込まれたユーザーはこの特性に絞り込まれますが、このキー値ペアは、<span class="keyword">Audience Manager</span> にリクエストが受信された後で削除され、ログには記録されません。 </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ## d_ 属性 {#d-attributes}
 
-[!UICONTROL DCS] からの応答が必要でない限り、これらはすべてオプションです。[!UICONTROL DCS] からの応答が必要な場合は、`d_rtbd=json` が必須です。
+[!UICONTROL DCS] からのレスポンスが必要でない限り、これらはすべてオプションです。[!UICONTROL DCS] からのレスポンスが必要な場合は、`d_rtbd=json` が必須です。
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -65,27 +65,27 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cb</code> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">DCS</span> 応答をコールバック関数の関数パラメーターとして使用して、実行する JavaScript 関数を指定します。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">DCS</span> レスポンスをコールバック関数の関数パラメーターとして使用して、実行する JavaScript 関数を指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p><code> DPID</code>Audience Manager<code> DPUUID</code> で割り当てられたデータプロバイダー ID（<span class="keyword">）とデータプロバイダーユーザー ID（</span>）のペアを 1 つ以上含んでいます。If you use multiple pairs of <code> DPID</code>s and <code> DPUUID</code>s, separate each pair with the non-printing character <code> %01</code>. For example: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> replaces <code> d_dpid</code> and <code> d_dpuuid</code>, which are deprecated but still supported. 詳しくは、 <a href="../../../reference/cid.md">従来の DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td>
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> で割り当てられたデータプロバイダー ID（<code> DPID</code>）とデータプロバイダーユーザー ID（<code> DPUUID</code>）のペアを 1 つ以上含んでいます。<code> DPID</code> と <code> DPUUID</code> のペアを複数使用する場合、各ペアを非印字文字 <code> %01</code> で区切ります。例：<code><i>DPID</i>%01<i>DPUUUID</i></code> </p> <p><code> d_cid</code> は、（廃止予定だが、まだサポートされている）<code> d_dpid</code> および <code> d_dpuuid</code> に代わるものです。詳しくは、<a href="../../../reference/cid.md">DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
-   <td colname="col2"> <p>統合コードとそれに関連する一意のユーザー ID が単一のキー値ペアとして含まれています。 </p> <p><code> d_cid_ic</code> replaces <code> d_dpid</code> and <code> d_dpuuid</code>, which are deprecated but still supported. 詳しくは、 <a href="../../../reference/cid.md">従来の DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td>
+   <td colname="col2"> <p>統合コードとそれに関連する一意のユーザー ID が単一のキー値ペアとして含まれています。 </p> <p><code> d_cid_ic</code> は、（廃止予定だが、まだサポートされている）<code> d_dpid</code> および <code> d_dpuuid</code> に代わるものです。詳しくは、<a href="../../../reference/cid.md">DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>児童保護法に従うために、サードパーティ Cookie の使用を無効にします。This parameter is dynamically set by the Adobe Adobe Experience Platform Identity Service and depends on the <code> idSyncDisable3rdPartySyncing</code> configuration. Adobe Experience Platform Identity Serviceの <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> COPPAのサポートを参照してください</a>。 </p> </td>
+   <td colname="col2"> <p>児童保護法に従うために、サードパーティ Cookie の使用を無効にします。このパラメーターは、アドビの Adobe Experience Platform ID サービスにより動的に設定されるもので、<code> idSyncDisable3rdPartySyncing</code> 設定に依存します。<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_coppa.html" format="https" scope="external">Adobe Experience Platform ID サービスの COPPA のサポート</a>を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
-   <td colname="col2"> <p>オプションです。お客様のご依頼に応じて有効になります。担当の Adobe Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。 </p> <p>特性とセグメントを <code> JSON</code> 応答に格納して返すように指定します。 </p> <p> 
+   <td colname="col2"> <p>オプションです。お客様のご依頼に応じて有効になります。担当の Adobe Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。 </p> <p>特性とセグメントを <code> JSON</code> レスポンスに格納して返すように指定します。 </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
-      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> returns <a href="../../../reference/ids-in-aam.md"> legacy segment IDs</a> for the segments. </p> </li>
-      <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> セグメントのセグメントIDを返します。 </p> </li>
-     </ul> </p> <p>サンプル応答は次のようになります。 </p> <p>
+      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> の場合は、セグメントの<a href="../../../reference/ids-in-aam.md">レガシーセグメント ID</a> を返します。 </p> </li>
+      <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> の場合は、セグメントのセグメント ID を返します。 </p> </li>
+     </ul> </p> <p>サンプルレスポンスは次のようになります。 </p> <p>
      <code class="syntax javascript">
       {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
@@ -99,15 +99,15 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dpid</code> </p> </td> 
-   <td colname="col2"> <p>廃止されました。<code> d_cid</code> と <code> d_cid_ic</code> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>非推奨（廃止予定）となりました。<code> d_cid</code> と <code> d_cid_ic</code> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dpuuid</code> </p> </td> 
-   <td colname="col2"> <p>廃止されました。<code> d_cid</code> と <code> d_cid_ic</code> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>非推奨（廃止予定）となりました。<code> d_cid</code> と <code> d_cid_ic</code> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst=1</code> </p> </td> 
-   <td colname="col2"> <p>URL の宛先データを <code> JSON</code> 応答で返します。 </p> </td> 
+   <td colname="col2"> <p>URL の宛先データを <code> JSON</code> レスポンスで返します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
@@ -115,11 +115,11 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
-   <td colname="col2"> <p>応答で使用する <code> JSON</code> のバージョンを指定します。Normally, you should set this to <code> d_jsonv=1</code>. Setting <code> d_jsonv=0</code> disables ID syncs. </p> </td> 
+   <td colname="col2"> <p>レスポンスで使用する <code> JSON</code> のバージョンを指定します。通常、これは <code> d_jsonv=1</code> に設定してください。<code> d_jsonv=0</code> に設定すると、ID の同期が無効になります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Experience Cloud</span> ID サービスで設定および使用される Experience Cloud ID を指定します。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Experience Cloud</span> ID サービスで設定および使用される Experience Cloud ID を指定します。ECID について詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -127,7 +127,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
-   <td colname="col2"> <p>Audience Manager でモバイルからの要求とデスクトップからの要求を区別できるようにします。次の値がサポートされています。 </p> <p> 
+   <td colname="col2"> <p>Audience Manager でモバイルからのリクエストとデスクトップからのリクエストを区別できるようにします。次の値がサポートされています。 </p> <p> 
      <ul id="ul_A01D4B15C89F4713A39E08377924D632"> 
       <li id="li_E17CC839265B4EB9AC44A3DA31A23857"> <code> ios</code> </li> 
       <li id="li_468F5903CD3048B5AE02A3FDA9B3C4F1"> <code> android</code> </li> 
@@ -137,14 +137,14 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rs</code> </p> </td> 
-   <td colname="col2"> <p>廃止されました。<code> d_rs</code> は、<span class="keyword">Adobe Analytics</span> と <span class="keyword">Audience Manager</span> のレガシー統合用に確保されている属性です。 </p> <p>それらの属性を使用する特性は、作成しないようお勧めします。アドビは、確保している属性をいつでも変更できます。 </p> </td> 
+   <td colname="col2"> <p>非推奨（廃止予定）となりました。<code> d_rs</code> は、<span class="keyword">Adobe Analytics</span> と <span class="keyword">Audience Manager</span> のレガシー統合用に確保されている属性です。 </p> <p>それらの属性を使用する特性は、作成しないようお勧めします。アドビは、確保している属性をいつでも変更できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
-   <td colname="col2"> <p><code> JSON</code>DCS<span class="wintitle"> からの </span> 応答が必要な場合には必須です。 </p> <p> 
+   <td colname="col2"> <p><span class="wintitle">DCS</span> からの <code> JSON</code> レスポンスが必要な場合には必須です。 </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
       <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">これを省略すると、<span class="wintitle">DCS</span> はヘッダーでピクセルを返します。 </li> 
-      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">これを含めると、<span class="wintitle">DCS</span> は応答の本文で <code> JSON</code> オブジェクトを返します。次の例を参照してください。実際の応答はもっと複雑になります。 </li> 
+      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">これを含めると、<span class="wintitle">DCS</span> はレスポンスの本文で <code> JSON</code> オブジェクトを返します。次の例を参照してください。実際のレスポンスはもっと複雑になります。 </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
       {
@@ -157,27 +157,27 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_sid</code> </p> </td> 
-   <td colname="col2"> <p><code> SID</code> stands for <span class="term"> score ID</span>. これは特性またはセグメントの一意の ID です。 </p> </td> 
+   <td colname="col2"> <p><code> SID</code> は、<span class="term">スコア ID</span> を意味します。これは特性またはセグメントの一意の ID です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_tdpid</code> </p> </td> 
    <td colname="col2"> <p>特性評価用のデータソースを渡します。このデータソースに含まれている特性のみ評価されます。 </p> <p>例えば、以下の特性があるとしましょう。 </p> <p> 
      <ul id="ul_6230777E16C14DCB83025A101A4ECA14"> 
       <li id="li_71F3970417BC4B93881A3E12DADE4120">次の仕様の<b>特性 T1</b>： </li> 
-      <li id="li_66125E035F524A958C6F4BFAABA2A0D2">特性ルール："<code> key1 == val1</code>" </li> 
+      <li id="li_66125E035F524A958C6F4BFAABA2A0D2">特性ルール：「<code> key1 == val1</code>」 </li> 
       <li id="li_4EE486E02CF54AEA876ABC005094E9E4">データソース（<a href="../../../reference/ids-in-aam.md">DPID</a>）：1 </li> 
       <li id="li_3E6BBDEAE5C644C6A96CB49766CDA988">DPID 統合コード： ic1 </li> 
      </ul> 
      <ul id="ul_0C30A8AE349D43A08490DA76CB4B06FA"> 
       <li id="li_F1E8DB26168B471FA35D82F4DD3AC601">次の仕様の<b>特性 T2</b>： </li> 
-      <li id="li_1C943F84A4A149A0A86ABC92761D3E9E">特性ルール："<code> key2 == val2</code>" </li> 
+      <li id="li_1C943F84A4A149A0A86ABC92761D3E9E">特性ルール：「<code> key2 == val2</code>」 </li> 
       <li id="li_F2AA086C87B7484F8BFE1D5C09E8EBDF">データソース（DPID）：2 </li> 
       <li id="li_877CAAAE996A4707BEE74F7042708481">DPID 統合コード： ic2 </li> 
-     </ul> </p> <p>In a sample call, <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid=1</code>, only trait T1 is returned. </p> </td> 
+     </ul> </p> <p>サンプル呼び出し <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid=1</code> では、特性 T1 のみ返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_tdpid_ic</code> </p> </td> 
-   <td colname="col2"> <p>目的は上記の <code> d_tdpid</code> パラメーターとまったく同じです。ただし、このパラメーターでは、データソースは統合コードを使用して渡されます。 </p> <p>引き続き上記の特性に対して、次のサンプル呼び出しを考えてみましょう。 </p> <p>の場 <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>合、特性T2のみが返されます。 </p> </td> 
+   <td colname="col2"> <p>目的は上記の <code> d_tdpid</code> パラメーターとまったく同じです。ただし、このパラメーターでは、データソースは統合コードを使用して渡されます。 </p> <p>引き続き上記の特性に対して、次のサンプル呼び出しを考えてみましょう。 </p> <p><code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code> の場合、特性 T2 のみ返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_uuid</code> </p> </td> 
