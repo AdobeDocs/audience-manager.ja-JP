@@ -5,13 +5,13 @@ seo-title: 一括削除
 solution: Audience Manager
 title: 一括削除
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
 
-# 一括削除{#bulk-delete}
+# 一括削除 {#bulk-delete}
 
 一括削除では、複数のセグメント、特性、フォルダー、派生シグナル、データソース、モデル、および宛先を 1 回の操作で削除できます。一括削除リクエストをおこなうには、以下の手順に従ってください。
 
@@ -23,7 +23,7 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 >[!NOTE]
 >
->[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
+>[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md)は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 複数の項目を削除するには、[!UICONTROL Bulk Management Tools] ワークシートを開き、以下の手順に従ってください。
 
-1. **[!UICONTROL Headers]**&#x200B;タブをクリックして、追加する項目の作成ヘッダーをコピーします。
-2. **[!UICONTROL Delete]**&#x200B;タブをクリックします。
+1. 「**[!UICONTROL Headers]**」タブをクリックして、追加する項目の作成ヘッダーをコピーします。
+2. 「**[!UICONTROL Delete]**」タブをクリックします。
 3. 削除ヘッダーを、更新ワークシートの 1 行目に貼り付けます。
 4. 削除するオブジェクトの ID を、ヘッダーの下の列に貼り付けるか入力します。
-5. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、**[!UICONTROL Submit]**&#x200B;をクリックします。
+5. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、「**[!UICONTROL Submit]**」をクリックします。
 
    ワークシートに「[!UICONTROL Results]」列が作成されます。「[!UICONTROL Results]」列に、アイテムが削除されたかどうかを表すメッセージ、またはエラーメッセージが返されます。データを入力する前の一括更新ワークシートは、次のようになります。
 
