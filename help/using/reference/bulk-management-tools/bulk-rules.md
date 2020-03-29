@@ -1,19 +1,19 @@
 ---
-description: ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールの要求をおこなうには、以下の手順に従ってください。
-seo-description: ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールの要求をおこなうには、以下の手順に従ってください。
+description: ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールのリクエストをおこなうには、以下の手順に従ってください。
+seo-description: ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールのリクエストをおこなうには、以下の手順に従ってください。
 seo-title: 特性ルールおよびセグメントルールの作成または更新
 solution: Audience Manager
 title: 特性ルールおよびセグメントルールの作成または更新
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
 
-# 特性ルールおよびセグメントルールの作成または更新{#create-or-update-trait-rules-and-segment-rules}
+# 特性ルールおよびセグメントルールの作成または更新 {#create-or-update-trait-rules-and-segment-rules}
 
-ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールの要求をおこなうには、以下の手順に従ってください。
+ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールのリクエストをおこなうには、以下の手順に従ってください。
 
 <!-- 
 
@@ -23,13 +23,13 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 >[!NOTE]
 >
->[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
+>[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md)は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 ## 特性ルールの使用 {#trait-rules}
 
 ワークシートの特性ルール列は、ブール式、比較演算子、正規表現で構成されるルールを受け付け、また返します。[!DNL Audience Manager] のビルダーで特性またはセグメントを使用したルールを作成し、それらをワークシートにコピーできます。または、構文についての知識をお持ちの場合、直接ワークシートに式を記述できます。
 
-## ルールビルダーの例 {#rule-builder-example}
+## ルールビルダーの例   {#rule-builder-example}
 
 [!UICONTROL Segment Builder]を使用してルールを作成し、一括ワークシートにコピーする方法の例を見てみましょう。ただし、ここではこれらのツールの一連の操作手順については触れず、単純なルールが既に作成済みであることを前提とします。ルールビルダーの使用方法については、[セグメントビルダー](../../features/segments/segment-builder.md)および[特性ビルダー](../../features/traits/about-trait-builder.md)を参照してください。
 
@@ -41,7 +41,7 @@ source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 >[!TIP]
 >
->ルールロジックを確認するには「**[!UICONTROL Validate Expression]**」をクリックします。これは、無効なルールをアップロードすることを防ぐのに役立ちます。
+>ルールロジックを確認するには、「**[!UICONTROL Validate Expression]**」をクリックします。これは、無効なルールをアップロードすることを防ぐのに役立ちます。
 
 ![](assets/coderule.png)
 
