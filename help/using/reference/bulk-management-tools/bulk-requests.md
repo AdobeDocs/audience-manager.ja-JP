@@ -1,19 +1,19 @@
 ---
-description: 一括要求では、更新、作成、推定および削除の各ワークシートの様々なヘッダーで使用できるデータを返します。
-seo-description: 一括要求では、更新、作成、推定および削除の各ワークシートの様々なヘッダーで使用できるデータを返します。
-seo-title: 一括要求
+description: 一括リクエストでは、更新、作成、推定および削除の各ワークシートの様々なヘッダーで使用できるデータを返します。
+seo-description: 一括リクエストでは、更新、作成、推定および削除の各ワークシートの様々なヘッダーで使用できるデータを返します。
+seo-title: 一括リクエスト
 solution: Audience Manager
-title: 一括要求
+title: 一括リクエスト
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
 
-# 一括要求{#bulk-requests}
+# 一括リクエスト {#bulk-requests}
 
-一括要求では、更新、作成、推定および削除の各ワークシートの様々なヘッダーで使用できるデータを返します。
+一括リクエストでは、更新、作成、推定および削除の各ワークシートの様々なヘッダーで使用できるデータを返します。
 
 <!-- 
 
@@ -23,13 +23,13 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md) は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
+>[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md)は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
 
 [!UICONTROL Request] ワークシートには独自の列ヘッダーはなく、ID を列にコピーする必要はありません。代わりに、ツールバーでクリックしたアクションボタンに基づいて、データが返されます。また、オプションのレポート機能により、ピクセル実行の頻度と、複数の固定期間での個別ユーザー数が返されます。
 
 一括リクエストをおこなうには、[!UICONTROL Bulk Management Tools] ワークシートを開き、以下の手順に従ってください。
 
-1. **[!UICONTROL Request]**&#x200B;タブをクリックします。
+1. 「**[!UICONTROL Request]**」タブをクリックします。
 2. ワークシートの上部にあるツールバーで、目的のデータに対応するリクエストボタンをクリックします。次のものをリクエストできます。
 
    * アルゴリズムモデル
