@@ -1,28 +1,28 @@
 ---
-description: 宣言済み ID の機能、セットアップ手順、コード例、変数について説明します。
+description: 宣言された ID の機能、セットアップ手順、コード例、変数について説明します。
 keywords: id sync
-seo-description: 宣言済み ID の機能、セットアップ手順、コード例、変数について説明します。
-seo-title: 宣言済み ID
+seo-description: 宣言された ID の機能、セットアップ手順、コード例、変数について説明します。
+seo-title: 宣言された ID
 solution: Audience Manager
-title: 宣言済み ID
+title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
 
-# 宣言済み ID {#declared-ids}
+# 宣言された ID {#declared-ids}
 
-宣言済み ID の機能、セットアップ手順、コード例、変数について説明します。
+宣言された ID の機能、セットアップ手順、コード例、変数について説明します。
 
-## 宣言済み ID のターゲティング {#declared-id-targeting}
+## 宣言された ID のターゲティング {#declared-id-targeting}
 
 サードパーティ Cookie のような持続的ストレージメカニズムを使用しないデバイスやブラウザーで、Audience Manager とのユーザー ID の交換および同期をおこないます。
 
 <!-- declared_id_about.xml -->
 
-## 宣言済み ID のターゲティングの目的 {#declared-id-targeting-purpose}
+## 宣言された ID のターゲティングの目的 {#declared-id-targeting-purpose}
 
 一部のブラウザーやほとんどのモバイルデバイスでは、サードパーティ Cookie を許可していません。そのため、サイト訪問者に関する情報の保持や永続的 ID の割り当てが難しくなります。この問題を解決するために、Audience Manager では [!UICONTROL DIL] を使用することで、[!UICONTROL declared IDs] をイベント呼び出しで渡すことができるようになっています。また、[!UICONTROL declared ID]は、[!DNL Experience Cloud] のすべてのソリューションで同じユーザーに適用される汎用 ID としても機能できます。ID のターゲティング／マッチング処理を次の表で説明します。
 
@@ -36,7 +36,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
  <tbody> 
   <tr> 
    <td colname="col1"> <b>イベント呼び出し</b> </td> 
-   <td colname="col2"> <p>To work, you need <span class="wintitle"> DIL </span> and the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform Identity Service </a> code on the page. <span class="wintitle"> DILは、 </span><span class="wintitle"></span><code> setVisitorID </code> Adobe Experience Platform Identity <span class="keyword"> Serviceが提供する関数から宣言済みIDを取得し、そのIDを </span><span class="keyword"></span>Audience Managerに渡します。 </p> </td> 
+   <td colname="col2"> <p>機能させるには、ページに <span class="wintitle">DIL</span> と <a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/" format="https" scope="external">Adobe Experience Platform ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Adobe Experience Platform ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID のマッチング</b> </td> 
@@ -53,24 +53,24 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
  </tbody>
 </table>
 
-まず最初に、データ収集に使用するサイトのすべてのページに [!DNL Experience Cloud] ID サービスと [!UICONTROL DIL] を設定する必要があります。[DIL create](../dil/dil-class-overview/dil-create.md#dil-create) および[宣言済み ID 変数](../features/declared-ids.md#declared-id-variables)を参照してください。
+まず最初に、データ収集に使用するサイトのすべてのページに [!DNL Experience Cloud] ID サービスと [!UICONTROL DIL] を設定する必要があります。[DIL create](../dil/dil-class-overview/dil-create.md#dil-create) および[宣言された ID 変数](../features/declared-ids.md#declared-id-variables)を参照してください。
 
 ## オプトアウト呼び出し {#opt-out-calls}
 
 [!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、Audience Manager によるターゲティングを Web サイトでオプトアウトすることができます。Audience Manager がオプトアウトリクエストを受信した場合、[!UICONTROL DCS] から返される [!DNL JSON] には、Audience Manager ユーザー ID ではなく、エラーコード 171 と「Encountered opt out tag」というメッセージが含まれています。
 
 * Audience Manager では、[!DNL URL] で Audience Manager [!UICONTROL UUID] と一緒に [!UICONTROL declared ID] のオプトアウトを渡すことができます。
-* [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
+* [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー]（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
 
 データ収集のオプトアウトについて詳しくは、[データのプライバシー](../overview/data-security-and-privacy/data-privacy.md)を参照してください。
 
-## 宣言済み ID のオプトアウトの例 {#opt-out-examples}
+## 宣言された ID のオプトアウトの例 {#opt-out-examples}
 
-`d_cid` および `d_cid_ic` のキーと値のペアを使用して、[!UICONTROL declared ID] のオプトアウトリクエストをおこなうことができます。`d_dpid` や `d_dpuuid` などの従来のパラメーターはまだ機能しますが、既に廃止されています。詳しくは、[DPID と DPUUID に代わる CID](../reference/cid.md) を参照してください。以下の例で、*斜体*&#x200B;の部分には実際の情報が入ります。
+`d_cid` および `d_cid_ic` のキー値ペアを使用して、[!UICONTROL declared ID] のオプトアウトリクエストをおこなうことができます。`d_dpid` や `d_dpuuid` などの従来のパラメーターはまだ機能しますが、既に非推奨（廃止予定）となっています。詳しくは、[DPID と DPUUID に代わる CID](../reference/cid.md) を参照してください。以下の例で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
 ### CID および CID_IC を使用したオプトアウト
 
-説明と構文については、[宣言済み ID の URL 変数および構文](../features/declared-ids.md#variables-and-syntax)を参照してください。
+説明と構文については、[宣言された ID の URL 変数および構文](../features/declared-ids.md#variables-and-syntax)を参照してください。
 
 <table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
  <thead> 
@@ -89,20 +89,20 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>複数の <code> d_cid </code> および <code> d_cid_ic </code> のキーと値のペア </p> </td> 
+   <td colname="col1"> <p>複数の <code> d_cid </code> および <code> d_cid_ic </code> のキー値ペア </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### DPID、DPUUID、UUID を使用したオプトアウト（廃止済み）
+### DPID、DPUUID、UUID を使用したオプトアウト（廃止予定）
 
-これらの方法はまだ機能しますが、既に廃止されています。この情報は、従来手法の参考などのために提供するものです。従来のオプトアウト方法は次のとおりです。
+これらの方法はまだ機能しますが、既に非推奨（廃止予定）となっています。この情報は、従来手法の参考などのために提供するものです。従来のオプトアウト方法は次のとおりです。
 
 <table id="table_0E180EBE84624F338494F49D9F6EBC8E"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> オプトアウト（廃止済み） </th> 
+   <th colname="col1" class="entry"> オプトアウト（廃止予定） </th> 
    <th colname="col2" class="entry"> コードサンプル </th> 
   </tr> 
  </thead>
@@ -113,7 +113,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   </tr> 
   <tr> 
    <td colname="col1"> <p>パートナーレベルのオプトアウト </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>パートナーレベルのオプトアウトは、この <code> dpid </code> + <code> dpuuid </code> ペアの AAM UUID への最新マッピングに対して保存されます。既存のマッピングがなければ、Audience Manager は、要求の Cookie に AAM UUID が含まれているかどうかを確認し、含まれていれば、それを使用してオプトアウトを保存します。含まれていなければ、Audience Manager は新規の AAM UUID を生成し、それについてオプトアウトを保存します。 </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>パートナーレベルのオプトアウトは、この <code> dpid </code> + <code> dpuuid </code> ペアの AAM UUID への最新マッピングに対して保存されます。既存のマッピングがなければ、Audience Manager は、リクエストの Cookie に AAM UUID が含まれているかどうかを確認し、含まれていれば、それを使用してオプトアウトを保存します。含まれていなければ、Audience Manager は新規の AAM UUID を生成し、それについてオプトアウトを保存します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> および明示的な <code> d_uuid </code> </p> </td> 
@@ -122,13 +122,13 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
  </tbody> 
 </table>
 
-## 宣言済み ID の 変数および構文 {#variables-and-syntax}
+## 宣言された ID の変数および構文 {#variables-and-syntax}
 
 <!-- c_declared_id_var_syntax.xml -->
 
-以下の表に、[!DNL Audience Manager] でデータプロバイダー ID およびユーザー ID または統合コード（使用する場合）を渡すキーと値のペアを示します。なお、*斜体*&#x200B;の部分には実際の情報が入ります。読みやすくするために、スペースが追加されています。
+以下の表に、[!DNL Audience Manager] でデータプロバイダー ID およびユーザー ID または統合コード（使用する場合）を渡すキー値ペアを示します。なお、*斜体*&#x200B;の部分には実際の情報が入ります。読みやすくするために、スペースが追加されています。
 
-それぞれのキーと値のペアでは、以下がおこなわれます。
+それぞれのキー値ペアでは、以下がおこなわれます。
 
 * キーとそれに関連する値が `=` 記号で区切られます。
 * 非表示[!DNL ASCII]文字`%01`で値が区切られます。
@@ -143,18 +143,18 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>データプロバイダー ID とそれに関連する一意のユーザー ID が単一のキーと値のペアとして含まれています。<code> d_cid </code> は、（非推奨と見なされますが、まだサポートされている）<code> d_dpid </code> および <code> d_dpuuid </code> に代わるものです。詳しくは、<a href="../reference/cid.md">DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>データプロバイダー ID とそれに関連する一意のユーザー ID が単一のキー値ペアとして含まれています。<code> d_cid </code> は、（非推奨と見なされるが、まだサポートされている）<code> d_dpid </code> および <code> d_dpuuid </code> に代わるものです。詳しくは、<a href="../reference/cid.md">DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>統合コードとそれに関連する一意のユーザー ID が単一のキーと値のペアとして含まれています。<code> d_cid_ic </code> は、（非推奨ですが、まだサポートされている）<code> d_dpid </code> および <code> d_dpuuid </code> に代わるものです。詳しくは、<a href="../reference/cid.md">DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>統合コードとそれに関連する一意のユーザー ID が単一のキー値ペアとして含まれています。<code> d_cid_ic </code> は、（廃止予定だが、まだサポートされている）<code> d_dpid </code> および <code> d_dpuuid </code> に代わるものです。詳しくは、<a href="../reference/cid.md">DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## サンプルイベント呼び出し {#sample-event-calls}
 
-これらのキーと値のペアとその必須構文を仮定すると、イベント呼び出しは以下のようにおこないます。
+これらのキー値ペアとその必須構文を仮定すると、イベント呼び出しは以下のようにおこないます。
 
 <table id="table_4C8E23CC663942BA8FA6BB1EE5929440"> 
  <thead> 
@@ -173,21 +173,21 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>複数の <code> d_cid </code> および <code> d_cid_ic </code> のキーと値のペア </p> </td> 
+   <td colname="col1"> <p>複数の <code> d_cid </code> および <code> d_cid_ic </code> のキー値ペア </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 宣言済み ID 変数 {#declared-id-variables}
+## 宣言された ID 変数 {#declared-id-variables}
 
-[!UICONTROL DIL] を を通じて宣言済み ID を [!DNL Audience Manager.] に渡すための設定変数について説明します。
+宣言された ID を [!UICONTROL DIL] を通じて [!DNL Audience Manager.] に渡すための設定変数について説明します。
 
-## DIL Uses the Adobe Experience Platform Identity Service to Pass Declared IDs {#dil-id-service-pass-declared-ids}
+## DIL は宣言された ID を Adobe Experience Platform ID サービスを使用して渡す {#dil-id-service-pass-declared-ids}
 
 <!-- r_dil_declared_id_vars.xml -->
 
-When used with the [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), you no longer need to pass in [!UICONTROL declared IDs] with the deprecated `dpid` and `dpuuid` variables. 代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
+[Adobe Experience Platform ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を使用する場合、非推奨（廃止予定）の `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要はありません。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
 
 ```js
 var vDil = DIL.create({
@@ -198,11 +198,11 @@ var vDil = DIL.create({
 });
 ```
 
-キーと値のペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html)も参照してください。
+キー値ペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=admin_getting_started.html)も参照してください。
 
-## 非推奨の関数 {#deprecated-functions}
+## 非推奨（廃止予定）の関数 {#deprecated-functions}
 
-[!UICONTROL DIL] の最新バージョン（6.2 以降）では、これらのキーと値のペアを使用して [!UICONTROL declared IDs] を渡す必要はありません。これは、[!UICONTROL DIL] が上記のコードサンプルのように `visitorService` 関数を使用しているためです。この関数は [!UICONTROL Adobe Experience Platform Identity Service] から [!UICONTROL declared IDs] を取得します。ここでは、これらの変数を、履歴やレガシーを示す目的で参照しています。以下のコードは、`DIL.create` を設定して [!UICONTROL Visitor ID Service] から [!UICONTROL declared ID] を取得する方法の例を示しています。次の表は、`declaredId` オブジェクトで使用されるレガシー変数の一覧です。
+[!UICONTROL DIL] の最新バージョン（6.2 以降）では、これらのキー値ペアを使用して [!UICONTROL declared IDs] を渡す必要はありません。これは、[!UICONTROL DIL] が上記のコードサンプルのように `visitorService` 関数を使用しているためです。この関数は [!UICONTROL Adobe Experience Platform Identity Service] から [!UICONTROL declared IDs] を取得します。ここでは、これらの変数を、履歴やレガシーを示す目的で参照しています。以下のコードは、`DIL.create` を設定して [!UICONTROL Visitor ID Service] から [!UICONTROL declared ID] を取得する方法の例を示しています。次の表は、`declaredId` オブジェクトで使用されるレガシー変数の一覧です。
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
  <thead> 
@@ -228,9 +228,9 @@ var vDil = DIL.create({
 
 ### `DPID` および `DPUUID`
 
-Audience Manager は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。存在しない ID がある場合、Audience Manager は新しいユーザー ID を作成し、`DPID/DPUUID` の組み合わせと同期します。Audience Manager がユーザー ID（`UUID`）を照合または作成すると、その ID が [!DNL JSON] 応答でクライアントのドメインの Cookie（ファーストパーティの Cookie）またはその他のローカルストレージの Cookie に返されます。
+Audience Manager は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。存在しない ID がある場合、Audience Manager は新しいユーザー ID を作成し、`DPID/DPUUID` の組み合わせと同期します。Audience Manager がユーザー ID（`UUID`）を照合または作成すると、その ID が [!DNL JSON] レスポンスでクライアントのドメインの Cookie（ファーストパーティの Cookie）またはその他のローカルストレージの Cookie に返されます。
 
-[!UICONTROL DIL] v6.1 以前を使用している場合には、この関数を呼び出します。新しいバージョンでは[!UICONTROL Adobe Experience Platform Identity Service]から[!UICONTROL declared IDs] を取得するので、この関数は廃止されています。
+[!UICONTROL DIL] v6.1 以前を使用している場合には、この関数を呼び出します。新しいバージョンでは [!UICONTROL Adobe Experience Platform Identity Service] から [!UICONTROL declared IDs] を取得するので、この関数は非推奨（廃止予定）となっています。
 
 ```js
 DIL.create({
