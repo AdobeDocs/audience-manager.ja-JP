@@ -1,12 +1,12 @@
 ---
-description: 新規データソースを作成するには、Audience Data／Data Sources／Add New を選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
+description: 新規データソースを作成するには、Audience Data／Data Sources／Add New の順に選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
 keywords: data sources;manage data source;audience manager data source
-seo-description: 新規データソースを作成するには、Audience Data／Data Sources／Add New を選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
+seo-description: 新規データソースを作成するには、Audience Data／Data Sources／Add New の順に選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
 seo-title: データソースの作成
 solution: Audience Manager
 title: データソースの管理
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ## データソースの作成 {#create-data-source}
 
-新しいデータソースを作成するには、**[!UICONTROL Audience Data > Data Sources > Add New]**&#x200B;へ移動し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
+新しいデータソースを作成するには、**[!UICONTROL Audience Data > Data Sources > Add New]** の順に選択して、ここに記載されているそれぞれの節の手順を完了します。データソースを作成するには、管理者権限が必要です。
 
 <!-- create-datasource.xml -->
 
@@ -33,16 +33,16 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 1. 統合コードを指定します。一般に、統合コードはオプションです。統合コードが必要になるのは、次のいずれかの場合です。
 
    * [クロスデバイス対応データソースを作成](../features/profile-merge-rules/merge-rules-start.md#create-data-source)する。
-   * [Adobe Experience Platform Identity Serviceを使用します](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+   * [Adobe Experience Platform ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を使用する。
    * [プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を使用する。
 
-1. **[!UICONTROL ID Type]**&#x200B;を選択します。「ID Type」のオプションは以下のとおりです。
+1. **[!UICONTROL ID Type]** を選択します。「ID Type」のオプションは以下のとおりです。
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
-   * **[!UICONTROL Cross-device]**（[!UICONTROL Profile Merge Rule] を作成する場合は必要）。なお、一部のお客様では、これを選択すると&#x200B;**[!UICONTROL ID Definition]**&#x200B;オプションが表示されます。
+   * **[!UICONTROL Cross-device]**（[!UICONTROL Profile Merge Rule]を作成する場合は必要）。なお、一部のお客様では、これを選択すると **[!UICONTROL ID Definition]** オプションが表示されます。
 
-1. **[!UICONTROL ID Definition]**&#x200B;オプションを選択します。オプションは以下のとおりです。
+1. **[!UICONTROL ID Definition]** オプションを選択します。オプションは以下のとおりです。
 
    * **[!UICONTROL Person]**
    * **[!UICONTROL Household]**
@@ -56,7 +56,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 これらの設定で、データソースの識別、使用、共有の方法が決まります。また、受信データファイルのエラーレポートを有効にすることもできます。「[!UICONTROL Data Source Settings]」セクションを完了するには：
 
 1. 「[!UICONTROL Data Source Setting]」チェックボックスを選択して、データソースにオプションを適用します。
-2. **[!UICONTROL Save]**&#x200B;をクリックします。
+2. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!MORELIKETHIS]
 >
@@ -73,10 +73,10 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 >
 >次の制限事項に注意してください。
 >
->* 削除できない[アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
->* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://marketing.adobe.com/resources/help/en_US/mcloud/)を使用します。
+>* [アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
+>* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/)を使用します。
 
 
-1. クリック **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
+1. **[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** をクリックします。
 1. 1 つ以上のデータソースの横のチェックボックスをオンにします。リストが長い場合、「[!UICONTROL Search]」のボックスを使用して、目的のデータソースを特定することができます。
-1. 「![](assets/icon_trash.png)」をクリックして、削除を確定します。
+1. ![](assets/icon_trash.png) をクリックして、削除を確定します。
