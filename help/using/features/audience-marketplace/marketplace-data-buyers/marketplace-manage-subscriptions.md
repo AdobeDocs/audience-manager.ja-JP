@@ -6,8 +6,8 @@ solution: Audience Manager
 title: データフィードのサブスクリプションの管理
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 1. 購読テーブルからユースケースを選択し、以下の操作をおこないます。
    * **[!UICONTROL Subscription]** スライダーを&#x200B;**[!UICONTROL On]**&#x200B;にします。
-   * **[!UICONTROL Review & Subscribe]**&#x200B;をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
+   * 「**[!UICONTROL Review & Subscribe]**」をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
    ![](assets/subscribe3.png)
 
 1. [!UICONTROL Terms and Conditions] ウィンドウで、以下の手順に従ってください。
@@ -51,6 +51,27 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 * 請求と支払いについてのドキュメントを確認します。後述の関連リンクを参照してください。
 
+### ベストプラクティス {#best-practices}
+
+を使用する際に推奨されるベストプラクティスを以下に示しま [!UICONTROL Audience Marketplace]す。
+
+新しいサードパーティおよびサードパーティのデータセットを調べる [!UICONTROL Audience Marketplace]場合は、最初に、のデータフィードを有効にすることをお勧めしま [!UICONTROL Segments & Overlap]す。 これにより、セグメントを作成してオーディエンスサイズを評価し、重複レポートを実行して初期オーディエンスの洞察を得ることで、データを調査できます。 ほとんどのデータプロバイダは、この使用例を無料でオファーしているので、追加費用なしでこの分析を実行できます。
+
+重複レポートを実行する場合は、次のベストプラクティスに従って、役に立つ結果が得られるようにします。
+
+1. 重複するデータセットが、次のようなデータタイプや収集方法の点で類似していることを確認します。
+   * 訪問者地理
+   * cookieとモバイルID
+   * ルックバックウィンドウ
+   * オフラインとオンラインのアクティビティ
+   * データプロバイダーがデータを更新する頻度
+
+1. 重複は時間の経過と共に少し増加する可能性があるので、重複レポートを実行する前に最大30日間経過してからデータを同期できるようにしてください。
+1. 複数のマーケティングキャンペーンでデータプロバイダーのデータを使用すると、重複が増える可能性があります。
+とイニシアチブ。 これにより、2つのデータセットのユーザーが同期する機会が増えます。
+1. データセット間で重複が生じる保証はありません。 重複を有効にするには、レポート期間中に、顧客のデータセットのユーザーをデータプロバイダーデータセットに関連付ける必要があります。 顧客のメディアデータがデータプロバイダーのデータセット内のユーザーに提供されなかった場合、重複は発生しません。
+1. 重なり合いが少ないと悪いと思わないでください。 低い重複を利用して、新しい見込み客を惹きつけます。
+
 ## 非公開データフィードのサブスクリプション購入 {#subscript-private-data-feed}
 
 購入者は、**[!UICONTROL Audience Marketplace > Marketplace]** で、非公開データフィードおよびプランのサブスクリプションを購入します。
@@ -64,7 +85,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 非公開データフィードのサブスクリプションを購入するには：
 
 1. [!UICONTROL Marketplace] でデータフィード名をクリックします。
-1. **[!UICONTROL Request Access]**&#x200B;をクリックします。リクエストダイアログボックスが開きます。
+1. 「**[!UICONTROL Request Access]**」をクリックします。リクエストダイアログボックスが開きます。
 1. リクエストダイアログボックスで、プロバイダー向けに、データフィードに興味があることを記したメモを記入し、**[!UICONTROL Send]**&#x200B;をクリックします。販売者はメッセージを確認し、リクエストを承認または拒否します。承認されるまでの間、「[!UICONTROL Marketplace]」リストではそのリクエストについて「Requested」と表示されます。
 
    * **[!UICONTROL Request approved]**：「[!UICONTROL Marketplace]」リストのステータスが「Access Granted」になり、自動通知が送信されます。この時点で、フィードを購読することができます。詳しくは、[公開データフィードのサブスクリプション購入](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)を参照してください。
@@ -72,7 +93,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 購入者向けのデータフィードの割引 {#buyer-discount}
 
-[!UICONTROL Audience Marketplace] では、プロバイダーは、[!DNL CPM] または定額料金データフィードの公表価格の割引を購入者に提案できます。ただし、[!DNL Marketplace] のフィードリストでは、割引額は購入者に表示されません。しかし、非公開データフィードのサブスクリプションを購読する際、または特定のフィードに関する詳細情報をリクエストする際に、割引を求めることもできます。
+[!UICONTROL Audience Marketplace] では、プロバイダーは、[!DNL CPM] または定額料金データフィードの公表価格の割引を購入者に提案できます。ただし、[!DNL Marketplace] のフィードリストでは、割引額は購入者に表示されません。しかし、非公開データフィードを購読する際、または特定のフィードに関する詳細情報をリクエストする際に、割引を求めることもできます。
 
 ## 割引のリクエスト {#request-discount}
 
@@ -103,9 +124,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    <td colname="col1"> <p> <b>Potential Subscribers</b> </p> </td> 
    <td colname="col2"> <p><a href="../../../features/audience-marketplace/marketplace-private-feeds.md">Potential Subscribers（潜在的な購読者）</a>とは、非公開データフィードへのアクセスをリクエストし、販売者の承認を得ているけれど、その後まだフィードを購読していないデータ購入者を指します。潜在的な購読者として割引をリクエストするには、次の手順に従います。 </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
-     <li id="li_618B64160CF24549AFCA73E006DCA35A"><b><span class="uicontrol">Audience Marketplace／Marketplace</span></b> へ移動します。 </li> 
+     <li id="li_618B64160CF24549AFCA73E006DCA35A"><b><span class="uicontrol">Audience Marketplace／Marketplace</span></b> を開きます。 </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">承認されているフィードの名前をクリックします。 </li> 
-     <li id="li_763C050AC9464BE380D00F6085B6E540"><b><span class="uicontrol"> Request More Details</span></b>をクリックします。販売者への詳細リクエストで割引をリクエストします。 </li> 
+     <li id="li_763C050AC9464BE380D00F6085B6E540">「<b><span class="uicontrol">Request More Details</span></b>」をクリックします。販売者への詳細リクエストで割引をリクエストします。 </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -122,7 +143,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    * 元の価格は赤色の線でマークされています。
    * 「[!UICONTROL Your Price]」列の料金が、「[!UICONTROL Price]」列の料金より安くなっています。
 
-この例では、購入者は、**[!UICONTROL Software Audience Feed]** の [!UICONTROL Segments and Overlap] プランで 10％の割引を受けています。
+この例では、購入者は、[!UICONTROL Segments and Overlap] の **[!UICONTROL Software Audience Feed]** プランで 10％の割引を受けています。
 
 ![](assets/buyer-discount.png)
 
