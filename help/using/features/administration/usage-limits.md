@@ -1,13 +1,13 @@
 ---
-description: 'Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。使用制限は、アドビの API やユーザーインターフェイへの不正アクセスを試みる可能性がある自動プロセスから Audience Manager を守るのに役立ちます。  '
-seo-description: 'Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。使用制限は、アドビの API やユーザーインターフェイへの不正アクセスを試みる可能性がある自動プロセスから Audience Manager を守るのに役立ちます。  '
+description: Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。使用制限は、アドビの API やユーザーインターフェイへの不正アクセスを試みる可能性がある自動プロセスから Audience Manager を守るのに役立ちます。
+seo-description: Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。使用制限は、アドビの API やユーザーインターフェイへの不正アクセスを試みる可能性がある自動プロセスから Audience Manager を守るのに役立ちます。
 seo-title: 使用の制限
 solution: Audience Manager
 title: 使用の制限
-keywords: IDマッピング， IDマッピング， cookieマッピング
+keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
+source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
 
 ---
 
@@ -18,12 +18,12 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 
 ## ID マッピングの上限 {#id-mapping-limits}
 
-次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。ID が以下のいずれかの上限に達すると、Audience Manager は、保存時期が最も古い ID マッピングを削除し新しい ID マッピングを追加する先入れ先出し（[!DNL FIFO]）方式で、新規 ID マッピングを追加します。Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
+次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adding the new one. Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
 
 | ID マッピング | 上限 |
 |-----------|-------------- |
-| デバイス広告 ID（DAID）に対してクロスデバイス ID（CRM ID） | 100 デバイス広告 ID（DAID）に対して 1 クロスデバイス ID（CRM ID） |
-| クロスデバイス ID（CRM ID）からデバイス広告 ID（DAID） | 10 クロスデバイス ID（CRM ID）に対して 1 デバイス広告 ID（DAID） |
+| Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100デバイス広告ID([DAID](../../reference/ids-in-aam.md))から1デバイス間ID([DPUUID](../../reference/ids-in-aam.md)) |
+| Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) to Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 各DPIDごとに10個のデバイス間ID([DPUUID](../../reference/ids-in-aam.md))から1個のデバイス広告ID([DAID](../../reference/ids-in-aam.md)[)へ](../../reference/ids-in-aam.md) |
 | cookie／ブラウザー ID に対して cookie／ブラウザー ID | 1000 cookie／ブラウザー ID に対して 1  cookie／ブラウザー ID |
 
 ## 項目の限度 {#item-limits}
