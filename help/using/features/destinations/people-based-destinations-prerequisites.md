@@ -4,7 +4,7 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 [!DNL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL Facebook] に送信する前に、次の要件を満たしていることを確認してください。
 
 1. お使いの [!DNL Facebook] ユーザーアカウントで、使用するプランの広告アカウントに対する&#x200B;**キャンペーンの管理**&#x200B;権限が有効になっている必要があります。
-2. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。詳しくは、「[ビジネスマネージャにパートナーを追加する](https://www.facebook.com/business/help/1717412048538897)」を参照してください。
+2. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。詳しくは、[ビジネスマネージャにパートナーを追加する](https://www.facebook.com/business/help/1717412048538897)を参照してください。
    >[!IMPORTANT]
    > Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!DNL People-Based Destinations] 統合に必要です。
 3. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
@@ -42,13 +42,13 @@ source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 
 >[!IMPORTANT]
 >
-> との統 [!DNL People-Based Destinations] 合は現在ベ [!DNL LinkedIn] ータテスト段階にあり、限られた数のお客様のみ利用できます。
+> [!DNL People-Based Destinations] と [!DNL LinkedIn] の統合は現在ベータテスト段階にあり、限られた数のお客様のみ利用できます。
 > 
-> ベータテストが終了すると、この統合は、新規登録したAudience Managerのすべてのお客様が利用できるようになりま [!DNL People-Based Destinations]す。
+> ベータテストが終了すると、この統合は、[!DNL People-Based Destinations] に新規登録した Audience Manager のすべてのお客様が利用できます。
 
-を使用してファーストパ [!DNL People-Based Destinations] ーティオーディエンスセグメントを送信する前に、ア [!DNL LinkedIn]カウントに権限レベルが [!DNL LinkedIn Campaign Manager] 高いことを [!DNL Creative Manager] 確認してください。
+[!DNL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL LinkedIn] に送信する前に、お客様の [!DNL LinkedIn Campaign Manager] アカウントが [!DNL Creative Manager] 以上の権限レベルであることを確認してください。
 
-ユーザー権限の編集方法については、「 [!DNL LinkedIn Campaign Manager] 広告アカウントの [ユーザー権限の追加、編集、削除」を参照してください。](https://www.linkedin.com/help/lms/answer/5753)
+[!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、「[広告アカウントのユーザー権限の追加、編集、削除](https://www.linkedin.com/help/lms/answer/5753)」を参照してください。
 
 ## データオンボーディング {#data-onboarding}
 
@@ -79,9 +79,9 @@ source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 
 [!UICONTROL People-Based Destinations] のハッシュ要件については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29003/)
+>[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
 
-Adobe Experience Cloudでは、Adobe Experience Platform Identity Serviceを使用して顧客IDをハッシュ化するオプションが提供されます。 ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、「[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html)」を参照してください。
+Adobe Experience Cloud では、Adobe Experience Platform ID サービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
@@ -89,7 +89,7 @@ Adobe Experience Cloudでは、Adobe Experience Platform Identity Serviceを使�
 
 [!DNL People-Based Destinations] に新規登録する前に必ず、顧客の同意を得てから広告目的で顧客の情報を使用するようにしてください。
 
-広告キャンペーンのオプトアウトをおこなう場合は、Audience Manager を停止してそれ以降のデータを収集する停止方法について詳しくは、「[オプトアウト管理](../../overview/data-security-and-privacy/data-privacy-requests.md)」を参照してください。
+広告キャンペーンのオプトアウトをおこなう場合は、Audience Manager を停止してそれ以降のデータを収集する停止方法について詳しくは、[オプトアウト管理](../../overview/data-security-and-privacy/data-privacy-requests.md)を参照してください。
 
 ## ファーストパーティデータのアクティブ化を強制する {#enforcing-first-party-activation}
 
@@ -97,9 +97,9 @@ Adobe Experience Cloudでは、Adobe Experience Platform Identity Serviceを使�
 
 [!UICONTROL People-Based Destinations] を使用している場合は、「[データエクスポートコントロール](../data-export-controls.md)」を使用し、宛先プラットフォームおよびデータプロバイダーのガイドラインと要件に従って、データソースと宛先にラベルを付けます。
 
-## 宣言済み ID のターゲティングを介して認証済みの ID のオンボーディングをおこなう {#onboard-authenticated-declared-id}
+## 宣言された ID のターゲティングを介して認証済みの ID のオンボーディングをおこなう {#onboard-authenticated-declared-id}
 
 オフラインデータを [!DNL People-Based Destinations] 用に Audience Manager に取り込む方法は次の 2 つです。
 
 * Audience Manager に[バッチデータを送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)して、ハッシュ化された電子メールアドレスを取り込みます。この方法では、[!DNL People-Based Destinations] の [!DNL CRM] データベースからすべてのハッシュ化された電子メールアドレスを使用できます。さらに、この方法を使用する場合、[オンボード特性](../traits/trait-qualification-reference.md)のハッシュ化された電子メールアドレスも絞り込みます。
-* [宣言済み ID を使用](../declared-ids.md)して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。この方法を使用すると、Audience Manager はお客様に代わって、オンラインで認証されたユーザーの、ハッシュされた電子メールアドレスのみを [!DNL People-Based Destinations] に送信できます。ユーザーベースのチャネルでアクティブ化される電子メールアドレスは、宣言されている ID イベント呼び出しの電子メールアドレスのみです。顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムでは送信されません。
+* [宣言された ID を使用](../declared-ids.md)して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。この方法を使用すると、Audience Manager はお客様に代わって、オンラインで認証されたユーザーの、ハッシュされた電子メールアドレスのみを [!DNL People-Based Destinations] に送信できます。ユーザーベースのチャネルでアクティブ化される電子メールアドレスは、宣言されている ID イベント呼び出しの電子メールアドレスのみです。顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムでは送信されません。
