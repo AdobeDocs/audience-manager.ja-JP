@@ -4,7 +4,7 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
    + [データセキュリティ](overview/data-security-and-privacy/data-security.md)
-   + データのプライバシー {#data-privacy}
+   + データプライバシー {#data-privacy}
       + [データプライバシーの概要](overview/data-security-and-privacy/data-privacy.md)
       + [データのプライバシーリクエスト](overview/data-security-and-privacy/data-privacy-requests.md)
       + データプライバシーのリファレンス {#data-privacy-reference}
@@ -80,7 +80,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [データソースリストと設定](features/datasources-list-and-settings.md)
       + [データソースの作成](features/manage-datasources.md)
       + [グローバルデータソース](features/global-data-sources.md)
-   + [宣言済み ID](features/declared-ids.md)
+   + [宣言された ID](features/declared-ids.md)
    + [派生シグナル](features/derived-signals.md)
    + 宛先 {#destinations}
       + [宛先の概要](features/destinations/destinations.md)
@@ -90,8 +90,8 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + People-Based Destinations {#people-based}
          + [概要とユースケース](features/destinations/people-based-destinations-overview.md)
          + [前提条件と考慮事項](features/destinations/people-based-destinations-prerequisites.md)
-         +  導入ガイド {#implementation-guide}
-            + [導入の概要](features/destinations/people-based-destinations-workflow.md)
+         +  実装ガイド {#implementation-guide}
+            + [実装の概要](features/destinations/people-based-destinations-workflow.md)
             + [ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-combined.md)
             + [ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
             + [ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-authenticated.md)
@@ -110,7 +110,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
          + [宛先ビルダー](features/destinations/destination-builder.md)
          + [get_aamCookie コード](features/destinations/get-aam-cookie-code.md)
          + [宛先マクロの定義](features/destinations/destination-macros.md)
-         + [標準型およびシリアル型のキーと値のペア](features/destinations/key-value-pairs.md)
+         + [標準型およびシリアル型のキー値ペア](features/destinations/key-value-pairs.md)
          + [宛先へのデータ書き出しコントロールの追加](/help/using/features/destinations/add-data-export-labels.md)
    + プロファイル結合ルール {#profile-merge-rules}
       + [プロファイル結合ルールの概要](features/profile-merge-rules/merge-rules-overview.md)
@@ -220,8 +220,8 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
          + [DCS からのデータ受信](api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
       + DCS の API {#dcs-apis}
          + [サーバー間データ転送用の DCS API](api/dcs-intro/dcs-s2s/dcs-s2s.md)
-         + [DCS 応答からのユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-         + [Adobe Experience Platform Identity Serviceを使用したユーザーIDと地域の取得](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+         + [DCS レスポンスからのユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
+         + [Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [サーバー間 DCS API 呼び出しの実行](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + DCS API リファレンス {#dcs-api-reference}
          + [DCS API リファレンスの概要](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
@@ -272,8 +272,8 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
    + [DIL のユースケースとコードサンプル](dil/dil-use-cases.md)
    + [Flash DIL](dil/dil-flash.md)
    + [DIL リリースノート](/help/using/dil/dil-release-notes.md)
-+ 導入および統合ガイド {#implementation-integration-guides}
-   + [導入および統合ガイド](integration/implementation-and-integration.md)
++ 実装および統合ガイド {#implementation-integration-guides}
+   + [実装および統合ガイド](integration/implementation-and-integration.md)
    + [データ統合方法](integration/data-integration-methods.md)
    + Google サイト運営者タグ（GPT）を使用した DFP の統合 {#integrate-dfp-using-gpt}
       + [GPT の概要を使用した DFP の統合](integration/gpt-aam-destination/gpt-aam-overview.md)
@@ -287,7 +287,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Audience Manager の宛先としての OpenX](integration/integrating-third-party/openx-destination.md)
       + [Audience Manager の宛先としての DFP](integration/aam-dfp.md)
       + [Google AdWords リマーケティングリストへのセグメントの送信](integration/integrating-third-party/rlsa-integration.md)
-   + [Audience Manager の導入](integration/implement-audience-manager.md)
+   + [Audience Manager の実装](integration/implement-audience-manager.md)
    + メディアデータの統合 {#media-data-integration}
       + [メディアデータ統合の概要](integration/media-data-integration/media-data-integration.md)
       + [実用的なログファイル](integration/media-data-integration/actionable-log-files.md)
@@ -298,7 +298,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [送信データ転送のための ID 同期](integration/receiving-audience-data/id-sync-outbound.md)
       + リアルタイム送信データ転送 {#real-time-outbound-transfers}
          + [リアルタイム送信データ転送](integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)
-         + [デジタル署名された HTTP 要求](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
+         + [デジタル署名された HTTP リクエスト](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
          + [リアルタイムのアウトバウンド転送での OAuth 2.0 統合](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + バッチ送信データ転送 {#batch-outbound-data-transfers}
          + [バッチ送信データ転送の概要](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
@@ -327,10 +327,10 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform との統合 {#integration-experience-platform}
       + [Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](integration/integration-aep/aam-aep-audience-sharing.md)
-   + 他のExperience Cloudソリューションとの統合 {#integration-other-solutions}
+   + 他の Experience Cloud ソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
@@ -340,7 +340,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
    + [特性およびセグメントビルダーのブール式](reference/boolean-expressions-tsb.md)
    + 一括管理ツール {#bulk-management-tools}
       + [一括管理の概要](reference/bulk-management-tools/bulk-management-intro.md)
-      + [一括要求](reference/bulk-management-tools/bulk-requests.md)
+      + [一括リクエスト](reference/bulk-management-tools/bulk-requests.md)
       + [一括更新](reference/bulk-management-tools/bulk-updates.md)
       + [一括作成](reference/bulk-management-tools/bulk-create.md)
       + [一括予測](reference/bulk-management-tools/bulk-estimates.md)
@@ -366,11 +366,11 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [エッジデータセンターについて](reference/system-components/components-edge.md)
    + [コードおよびテキスト要素のスタイル規則](reference/code-style-elements.md)
    + [Audience Manager のタイムゾーン](reference/aam-time-zones.md)
-   + [TLS 1.0 および 1.1 の廃止 ](reference/tls-support.md)
+   + [TLS 1.0 および 1.1 のサポート終了 ](reference/tls-support.md)
    + [demdex ドメインの呼び出しについて](reference/demdex-calls.md)
    + [Audience Manager の訪問者認証ステータス](reference/visitor-authentication-states.md)
 + よくある質問（FAQ） {#faqs}
-   + [Audience Manager FAQの概要](faq/faq-overview.md)
+   + [Audience Manager の FAQ の概要](faq/faq-overview.md)
    + [API に関するよくある質問](faq/faq-api.md)
    + [Audience Lab に関するよくある質問](faq/faq-audience-lab.md)
    + [顧客データフィードに関するよくある質問](faq/faq-cdf.md)
