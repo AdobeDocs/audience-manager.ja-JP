@@ -6,7 +6,7 @@ seo-title: 顧客データのインバウンドの取得に関するよくある
 solution: Audience Manager
 title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 187874fb5d0c4363f771297766f3c4bc9d967c9b
 
 ---
@@ -20,10 +20,10 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 **オンボーディングプロセスについて要約してください。**
 
-オンボーディングプロセスは、Audience Managerへのバッチデータの [送信の概要で説明する2つの手順で構成されます](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)。
+オンボーディングプロセスは、「[Audience Manager へのバッチデータ送信の概要](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)」で説明する 2 つの手順で構成されます。
 
-* 手順1:ユーザーIDの同期；
-* 手順2:ファイル形式の要件に従って、受信データファイルを作成し、転送します。
+* 手順 1：ユーザー ID を同期します。
+* 手順　2:ファイル形式の要件に従って、受信データファイルを作成し、転送します。
 
  
 
@@ -31,15 +31,15 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 アドビでは、以下をお勧めします。
 
-* データプロバイダーと協力して、アドビの仕様に従って日別受信データファイルの形式を設定します。 ファイルの命名と構文の要件については、次のドキュメントを参照してください。
+* データプロバイダーと協力して、アドビの仕様に応じて、毎日の受信データファイルの形式を設定します。ファイルの命名と構文の要件については、次のドキュメントを参照してください。
    * [ID 同期ファイルの名前およびコンテンツの要件](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
    * [受信データファイルコンテンツ：構文、無効な文字、変数、例](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
    * [受信データファイルの Amazon S3 名とファイルサイズの要件](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* フォーマット検証のた [!DNL Adobe] めに、コンサルタントにテストデータファイルをに転 [!DNL Adobe] 送するよう依頼します。
+* フォーマット検証のため、[!DNL Adobe] コンサルタントと連携し、テストデータファイルを [!DNL Adobe] に転送します。
 * [!DNL Adobe]のコンサルタントと協力して、データファイルのコンテンツを解釈するのに適した分類を作成します。
-* In the staging/development environment, confirm that the ID synchronization is configured to properly pick up the data provider&#39;s visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
-* DIL/ID同期を実稼働環境にデプロイします。 ID同期は、アドビコンサルタントがDILコード内のモジュールとして既に設定します。
-* 実稼動データファイルを [!DNL Audience Manager] に転送します。ID同期マッピングに依存しているので、実稼働コードのデプロイメントから最大1週間後にデータの転送を開始すると効果的ですが、コードが実稼働に移行したらすぐにデータファイルの転送を開始できます。
+* ステージング／開発環境では、データプロバイダーの訪問者 ID を適切に選択し、[!DNL Audience Manager] サーバーにリアルタイムに転送するように ID 同期が設定されていることを確認します。
+* DIL／ID 同期を実稼動環境にデプロイします。ID 同期は、アドビのコンサルタントによって既に DIL コード内のモジュールとして設定されています。
+* 実稼動データファイルを [!DNL Audience Manager] に転送します。コードを実稼動に移行してからすぐにデータファイルの転送を開始できますが、ID 同期マッピングに基づいていることを考慮すると、実稼動コードのデプロイメントから最大 1 週間後にデータの転送を開始するとよいでしょう。
 
  
 
@@ -58,7 +58,7 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 はい。アップロードする CRM データを保存するためにクロスデバイスデータソースを使用している限り、Audience Manager では常にデータが保存されます。実際、2019 年 10 月に Audience Manager が開始した、オフラインのみの使用を許可するプロファイル結合ルールの機能強化に従って、Audience Manager コードを実稼働環境にデプロイしなくても、データをアップロードしてアクションを実行できます。以下を参照してください。
 
 * [プロファイル結合ルールの強化の概要](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* ユーザーベースの宛先 — [オフラインのみのデータに基づくパーソナライゼーション](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* ユーザーベースの宛先 — [オフラインのみのデータに基づくパーソナライゼーション](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -143,7 +143,7 @@ Consider the following use cases in which the data provider is not configured to
 
 **Audience Manager は、どれくらいの間ファイルをサーバーに保持しますか？**
 
-FTP ファイルは、処理された後で削除されます。[!DNL S3] ファイルは30日後に削除されます。 形式、構文、またはその他のエラーが原因で処理できないファイルは削除されます。 「プライバシーとデー [タ保持に関するFAQ」も参照してください](../faq/faq-privacy.md)。
+FTP ファイルは、処理された後で削除されます。[!DNL S3] ファイルは、30 日後に削除されます。形式、構文または他のエラーによって処理できなかったファイルは、削除されます。「[プライバシーとデータ保持に関する FAQ](../faq/faq-privacy.md)」も参照してください。
 
  
 
@@ -161,8 +161,8 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 | ユースケース | 説明 |
 |---|---|
-| 増分および完全 | <ul><li>1 日目の `.sync` ファイルコンテンツ `visitor123 = a,b,c`</li><li>2 日目の `.overwrite` ファイルコンテンツ `visitor123 = c,d,e`</li><li>Day 3 visitor profile ID 123 contents: `c,d,e`</li></ul> |
-| 増分のみ | <ul><li>1 日目の `.sync` ファイルコンテンツ `visitor123 = a,b,c`</li><li>2 日目の `.sync` ファイルコンテンツ `visitor123 = c,d,e`</li><li>Day 3 visitor profile ID 123 contents: `a,b,c,d,e`</li></ul> |
+| 増分および完全 | <ul><li>1 日目の `.sync` ファイルコンテンツ：`visitor123 = a,b,c`</li><li>2 日目の `.overwrite` ファイルコンテンツ：`visitor123 = c,d,e`</li><li>3 日目の訪問者プロファイル ID 123 コンテンツ：`c,d,e`</li></ul> |
+| 増分のみ | <ul><li>1 日目の `.sync` ファイルコンテンツ：`visitor123 = a,b,c`</li><li>2 日目の `.sync` ファイルコンテンツ：`visitor123 = c,d,e`</li><li>3 日目の訪問者プロファイル ID 123 コンテンツ：`a,b,c,d,e`</li></ul> |
 
 完全および増分ファイルタイプについて詳しくは、以下を参照してください。
 
@@ -172,7 +172,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 **オンページ ID 同期を実行したことのない訪問者の ID を含むファイルを送信するとどうなりますか？**
 
-During processing, [!DNL Audience Manager] skips that record and moves on to the next. If a [DPID (Data Provider ID)](../reference/ids-in-aam.md) is set up as a cross-device DPID, data that is ingested before an ID synchronization is saved and is available for use shortly after the ID synchronization occurs.
+処理中、[!DNL Audience Manager] はそのレコードをスキップして次のレコードに移動します。[DPID（データプロバイダー ID）](../reference/ids-in-aam.md)がデバイス間 DPID として設定されている場合、ID 同期前に取り込まれたデータが保存され、ID 同期の発生後すぐに使用できます。
 
  
 
@@ -186,7 +186,7 @@ During processing, [!DNL Audience Manager] skips that record and moves on to the
 
 **データプロバイダー ID（DPID）とは何ですか？ どうすれば入手できますか？**
 
-Your Adobe consultant will assign a three-digit or four-digit [DPID (Data Provider ID)](../reference/ids-in-aam.md) to your particular data source. この ID は一意で、変更できません。
+アドビのコンサルタントが 3 桁または 4 桁の [DPID（データプロバイダー ID）](../reference/ids-in-aam.md)を特定のデータソースに割り当てます。この ID は一意で、変更できません。
 
  
 
@@ -207,13 +207,13 @@ Your Adobe consultant will assign a three-digit or four-digit [DPID (Data Provid
 
 **データソースデータベースのプライマリキーが電子メールアドレスです。これは、個人を特定できる情報と見なされますか？**
 
-はい。[!DNL Audience Manager] データベースに電子メールアドレスを格納しません。 IDの同期を開始する前に、訪問者に、ランダムに生成されたIDまたは一方向にハッシュ化された電子メールアドレスのIDを割り当てる必要があります。
+はい。[!DNL Audience Manager] では、アドビのデータベースに電子メールアドレスを格納しません。訪問者は、ID 同期を開始する前に、ランダムに生成される ID または 1 方向のハッシュ化されたバージョンの電子メールアドレスを割り当てられる必要があります。
 
  
 
-**データファイルコンテンツでは大文字と小文字が区別されますか？How about the ID synchronization?**
+**データファイルコンテンツでは大文字と小文字が区別されますか？ID 同期の場合はどうですか？**
 
-There are two basic components of a data file: A [!UICONTROL User ID] (see [!UICONTROL User ID] in [File Variables Defined](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) and profile data, usually in the form of key-value pairs or codes. The [!UICONTROL User ID] is case-sensitive. 通常、プロファイルまたはキーと値のペアのデータは、大文字と小文字が区別されません。
+データファイルには、[!UICONTROL User ID]（[定義されているファイル変数](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)の「[!UICONTROL User ID]」を参照）とプロファイルデータという 2 つの基本的な構成要素があります。通常は、キーと値のペアまたはコードの形式です。[!UICONTROL User ID] は、大文字と小文字を区別します。通常、プロファイルまたはキーと値のペアのデータは、大文字と小文字が区別されません。
 
  
 
