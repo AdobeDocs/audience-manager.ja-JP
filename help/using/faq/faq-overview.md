@@ -1,18 +1,18 @@
 ---
-description: Audience Managerのよくある質問と問題を紹介します。
-seo-description: Audience Managerのよくある質問と問題を紹介します。
-seo-title: Audience Manager FAQ
+description: Audience Manager に関する一般的な質問と問題です。
+seo-description: Audience Manager に関する一般的な質問と問題です。
+seo-title: Audience Manager の FAQ
 solution: Audience Manager
-title: Audience Manager FAQ
-translation-type: tm+mt
+title: Audience Manager の FAQ
+translation-type: ht
 source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
 
 ---
 
 
-# Audience Manager FAQ Overview {#audience-manager-faq}
+# Audience Manager の FAQ の概要 {#audience-manager-faq}
 
-この節では、Audience Managerの様々な機能に関するFAQカテゴリのリストをまとめます。
+この節では、Audience Manager の様々な機能に関する FAQ カテゴリのリストをまとめています。
 
 * [API に関するよくある質問](faq-api.md)
 * [Audience Lab に関するよくある質問](faq-audience-lab.md)
