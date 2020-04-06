@@ -5,8 +5,8 @@ seo-title: プロファイル結合ルールの一般的なユースケース
 solution: Audience Manager
 title: プロファイル結合ルールの一般的なユースケース
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -23,13 +23,13 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 このシナリオは、ユーザー認証を考慮せずに、デバイス ID（DSP、オンサイトパーソナライゼーションプラットフォーム、その他のデバイスベースのターゲティングプラットフォーム）をサポートするターゲティングプラットフォームを使用して、Audience Manager で定義したオーディエンスセグメントの単一のデバイスプロファイルを評価する場合に適用されます。
 
-デバイスプロファイルのみをターゲットにするルールを作成する場合は、**[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** を選択します。
+To create a rule that targets only device profiles, select **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
 ![device-only](assets/device-only.png)
 
 ジョンという人物ががスマートフォンを 3 つ台保有しているとします。そのうち 2 台は iPhone 7s（データプラン A ）で、1 台は Samsung（データプラン B）です。ジョンの携帯電話会社は 3 台のデバイスの認証状態を考慮せず、データプラン A で実行する iPhone 7 デバイスに対してのみ、データプランのアップグレードを提供したいと考えています。
 
-**[!UICONTROL No Cross-Device Profile]** ルールと **[!UICONTROL Device Profile]** ルールを使用することで、[!DNL Device 1] と [!DNL Device 3] の両方が対象となりますが、デバイス 2 は無視されます。
+By using the **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** rule, [!DNL Device 1] and [!DNL Device 3] both qualify for the segment, while Device 2 is ignored.
 
 ![device-only](assets/device-management.png)
 
@@ -39,7 +39,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ジョンは自分のアカウントを使用して旅行券や特価でのオファーを予約し、ジェーンも自分のアカウントで音楽や映画を購入します。
 
-店舗のマーケティングチームは、**[!UICONTROL Current Authenticated Profiles]** ルールと&#x200B;**[!UICONTROL No Device Profile]** ルールを使用し、認証されたアクティビティのみに基づいて、特定のオファーでジョンとジェーンをターゲットに設定できます。
+The store&#39;s marketing team can use the **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** rule to target John and Jane with specific deals, based on purely on their authenticated activity.
 
 ![current-no-device](assets/current-no-device.png)
 
@@ -49,7 +49,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## オンライン／オフラインでのターゲティング {#device-household-targeting}
 
-この使用例では、世帯 ID 管理をカバーしています。会社は、**[!UICONTROL Last Authenticated Profiles]** ルール&#x200B;**[!UICONTROL Device Profile]** とルールを使用して、1 つのデバイスプロファイルを、1 つのデバイスプロファイルを、そのデバイスで最後に認証されたプロファイルと結合できます。
+この使用例では、世帯 ID 管理をカバーしています。A company can merge a single device profile with the last profile that authenticated on that device, using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Profile]** rule.
 
 ![last-device-profile](assets/last-device-profile.png)
 
@@ -63,9 +63,9 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 ## People-Based Destinations のターゲティング {#all-cross-device}
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
 このターゲティングシナリオは、[!DNL People-Based Destinations] アドオンを購入した顧客のみが使用できます。このルールを使用すると、マーケターは、独自の認証済みデータに基づいて顧客にリーチすることができます。
 
@@ -110,7 +110,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 [!UICONTROL Profile Merge Rules] の使用例の概要については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >
