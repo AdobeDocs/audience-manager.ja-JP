@@ -4,8 +4,8 @@ seo-description: 'People-Based Destinations は、共有可能なオーディエ
 seo-title: Shareable Audiences
 solution: Audience Manager
 title: Shareable Audiences
-translation-type: ht
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+translation-type: tm+mt
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -51,6 +51,6 @@ Audience Manager のお客様には、110,000 の [DPUUID](../../reference/ids-i
 
 ![shareable-audiences-diagram](assets/shareable-audiences.png)
 
-> [!NOTE]
+>[!NOTE]
 >
-> 上記の例では、3 つのセグメントのハッシュ化された電子メールアドレス 80,000 個すべてが、宛先プラットフォームの既存のアカウントと一致しているというわけではありません。Audience Manager が 3 つのセグメントのハッシュ化された識別子を、それぞれの宛先に送信しているということのみを示しています。オーディエンスセグメントをユーザーベースの宛先に送信する際は、パートナー側でオーディエンスの照合がおこなわれます。宛先 A には、一致するユーザーアカウントが最大 30,000 個あります。宛先 B には 50,000 個のユーザーアカウントがありますが、マッチ率は保証されません。アドビは、パートナー固有の指標にはアクセスできません。マッチ率における People-Based Destinations の表示設定関するよく寄せられる質問については、「[マッチ率](../../faq/faq-people-based-destinations.md#match-rates)」を参照してください。
+>上記の例では、3 つのセグメントのハッシュ化された電子メールアドレス 80,000 個すべてが、宛先プラットフォームの既存のアカウントと一致しているというわけではありません。Audience Manager が 3 つのセグメントのハッシュ化された識別子を、それぞれの宛先に送信しているということのみを示しています。オーディエンスセグメントをユーザーベースの宛先に送信する際は、パートナー側でオーディエンスの照合がおこなわれます。宛先 A には、一致するユーザーアカウントが最大 30,000 個あります。宛先 B には 50,000 個のユーザーアカウントがありますが、マッチ率は保証されません。アドビは、パートナー固有の指標にはアクセスできません。マッチ率における People-Based Destinations の表示設定関するよく寄せられる質問については、「[マッチ率](../../faq/faq-people-based-destinations.md#match-rates)」を参照してください。
