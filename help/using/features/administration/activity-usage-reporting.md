@@ -6,8 +6,8 @@ seo-title: アクティビティ使用状況レポート
 solution: Audience Manager
 title: アクティビティ使用状況レポート
 topic: Activity Usage Reporting
-translation-type: ht
-source-git-commit: 7a3914af8fb225508f57724a75fe2547aac3f241
+translation-type: tm+mt
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: 7a3914af8fb225508f57724a75fe2547aac3f241
 
 [!UICONTROL Activity Usage Report] は、[管理者権限](edit-account-settings.md)を持つすべての Audience Manager ユーザーが使用できます。
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> [!UICONTROL Activity Usage Report] は、Audience Manager インスタンスのアクティビティ使用量の統計を示します。アクティビティ使用量に関する請求のお問い合わせは、Adobe 担当者にお問い合わせください。
+>[!UICONTROL Activity Usage Report] は、Audience Manager インスタンスのアクティビティ使用量の統計を示します。アクティビティ使用量に関する請求のお問い合わせは、Adobe 担当者にお問い合わせください。
 
 ## ユースケース {#use-cases}
 
@@ -52,8 +52,9 @@ source-git-commit: 7a3914af8fb225508f57724a75fe2547aac3f241
 * **[!UICONTROL On-Boarded Records]**：自社の顧客関係管理システム（CRM）や、その他のオフラインデータファイル（例：コールセンターレコード、デバイス ID、外部データプロバイダーからのカスタムデータフィード）から取り込んだ一意のレコード。
 * **[!UICONTROL Log File Records]**：ターゲットプラットフォームから Audience Manager に取り込まれたログファイルの一意のレコード。
 
-> [!NOTE]
-> ある一意のレコードは、Audience Manager の顧客に代わってアドビが保存するファイル内のデータの個別レコードを定義します。
+>[!NOTE]
+>
+>ある一意のレコードは、Audience Manager の顧客に代わってアドビが保存するファイル内のデータの個別レコードを定義します。
 
 また、[!UICONTROL Activity Usage Trends]グラフタイプを使用して、2 種類のグラフを切り替えることもできます。
 
