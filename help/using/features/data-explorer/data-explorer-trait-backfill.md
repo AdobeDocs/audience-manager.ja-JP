@@ -4,8 +4,8 @@ seo-description: 特性適合のバックフィルにより、過去のオーデ
 seo-title: 特性適合のバックフィル
 title: 特性適合のバックフィル
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
-translation-type: ht
-source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
+translation-type: tm+mt
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 
 >[!IMPORTANT]
 >
-> [!UICONTROL Data Explorer Trait Backfill]は、追加のユースケースをロック解除して Audience Manager を強化できるプレミアム機能です。バックフィルを使用するには追加の処理能力がかかりますが、追加料金をお支払いいただければ Audience Manager のすべてのお客様がご利用になれます。詳しくは、アドビのセールス担当者にお問い合わせください。
+>[!UICONTROL Data Explorer Trait Backfill]は、追加のユースケースをロック解除して Audience Manager を強化できるプレミアム機能です。バックフィルを使用するには追加の処理能力がかかりますが、追加料金をお支払いいただければ Audience Manager のすべてのお客様がご利用になれます。詳しくは、アドビのセールス担当者にお問い合わせください。
 
 未使用シグナルから特性を作成するときに、指定期間における特性適合をバックフィルすることができます。[!DNL Audience Manager] は、新しく作成した特性の対象として認定されるオーディエンスの過去データを収集し、対応するプロファイルに保管します。**[!UICONTROL Backfill Options]** は、**[特性ビルダー](../../features/traits/about-trait-builder.md)** の「[!UICONTROL Trait Expression]」セクションに表示されます。
 
@@ -49,7 +49,7 @@ source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
 
 特性のバックフィル方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## 特性バックフィルの待ち時間 {#trait-backfilling-latency}
 
