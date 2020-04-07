@@ -4,8 +4,8 @@ seo-description: 'People-Based Destinations では、顧客データの構造に
 seo-title: People-Based Destinations の実装ガイダンス
 solution: Audience Manager
 title: 実装ガイダンス
-translation-type: ht
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+translation-type: tm+mt
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 [!DNL People-Based Destinations] で正確にオーディエンスのターゲットを絞るには、実行するオーディエンスのターゲット設定のタイプに応じて、ルールベースの特性またはオンボード特性のいずれかに適合している必要があります。
 
-**A）ルールベースの特性に対し、リアルタイムで顧客 ID とデバイス ID の適合をおこなう**。このオプションは、「[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)」のユースケース Bに適用されます。オンラインとオフラインのアクティビティに基づいてオーディエンスをターゲット設定する予定がある場合は、[ルールベースの特性](../traits/trait-qualification-reference.md)について、既にオーディエンスを絞り込んでいる可能性が高くなります。
+**A）ルールベースの特性に対し、リアルタイムで顧客 ID とデバイス ID の適合をおこなう**。このオプションは、「[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)」のユースケース Bに適用されます。オンラインとオフラインのアクティビティに基づいてオーディエンスをターゲット設定する予定がある場合は、[ルールベースの特性](../traits/trait-and-segment-qualification-reference.md)について、既にオーディエンスを絞り込んでいる可能性が高くなります。
 
 **B）受信データファイルを介して、顧客 ID に対するインサイトのオンボーディングをおこなう**。このオプションは、「[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)」のユースケース Bに適用されます。純粋なオフラインアクティビティに基づいてオーディエンスをターゲット設定する場合、[受信データファイル](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)を通じてオンボードされた特性の顧客 ID を認定する必要があります。
 
@@ -81,6 +81,6 @@ Audience Manager にある顧客 ID のタイプに応じて（「[3.保有し�
 
 ユースケースに応じて（[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)を参照）、2 つの方法でセグメント化に [!DNL Profile Merge Rules] を使用できます。
 
-**A）既存の[!DNL Profile Merge Rules]を使用する**。このオプションは、最初のユースケース（オンラインとオフラインのユーザーアクティビティの組み合わせに基づいてオーディエンスのターゲティングをおこなう）に適用されます。このシナリオでは、Audience Manager に既存の顧客アクティビティがあり、セグメント化で使用したプロファイル結合ルールの 1 つ以上を定義済みです。この場合、新しく [!DNL Profile Merge Rules] を作成する必要はありません。
+**A）既存の[!DNL Profile Merge Rules]**を使用する。このオプションは、最初のユースケース（オンラインとオフラインのユーザーアクティビティの組み合わせに基づいてオーディエンスのターゲティングをおこなう）に適用されます。このシナリオでは、Audience Manager に既存の顧客アクティビティがあり、セグメント化で使用したプロファイル結合ルールの 1 つ以上を定義済みです。この場合、新しく[!DNL Profile Merge Rules]を作成する必要はありません。
 
 **B）新しい[!DNL All Cross-Device Profiles]結合ルールを作成する**。このオプションは、2 番目のユースケース（オフラインのユーザーアクティビティのみに基づいてオーディエンスのターゲティングをおこなう）に適用されます。このシナリオでは、オフラインの顧客データを [!DNL CRM] から Audience Manager に取り込み、そのデータからセグメントを作成します。これをおこなうため、[!DNL People-Based Destinations] では、4 つめのプロファイル結合ルールとなる **[!DNL All Cross-Device Profiles]** を導入します。このルールは、純粋なオフラインデータをセグメント化するときに使用する必要があります。
