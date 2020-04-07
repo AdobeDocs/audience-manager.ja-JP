@@ -7,7 +7,7 @@ title: データフィードのサブスクリプションの管理
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
+source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 ---
 
@@ -26,22 +26,22 @@ source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
 
 1. **[!UICONTROL Audience Marketplace > Marketplace]** へ移動します。検索機能を使用するか、リストを参照して、データフィードを特定します。
 
-   ![](assets/subscribe1.png)
+   ![登録](assets/subscribe1.png)
 
 1. 使用するデータフィードの名前をクリックします。選択したフィードの[プラン詳細ページ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)が開きます。
 
-   ![](assets/plan-details.png)
+   ![計画詳細](assets/plan-details.png)
 
 1. 購読テーブルからユースケースを選択し、以下の操作をおこないます。
    * **[!UICONTROL Subscription]** スライダーを&#x200B;**[!UICONTROL On]**&#x200B;にします。
    * 「**[!UICONTROL Review & Subscribe]**」をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
-   ![](assets/subscribe3.png)
+   ![登録](assets/subscribe3.png)
 
 1. [!UICONTROL Terms and Conditions] ウィンドウで、以下の手順に従ってください。
 
    * **重要：** チェックボックスはオンのまま&#x200B;**[!UICONTROL ID sync]**&#x200B;にしておきます。この設定により、データプロバイダーとの一致率が高くなります。
    * 利用条件チェックボックスをオンにしてから&#x200B;**[!UICONTROL Accept]**&#x200B;をクリックし、購読手続きを完了します。
-   ![](assets/subscribe4.png)
+   ![登録](assets/subscribe4.png)
 
 ### 次の手順
 
