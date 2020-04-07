@@ -5,8 +5,8 @@ seo-title: プライバシーとデータ保持に関するよくある質問
 solution: Audience Manager
 title: プライバシーとデータ保持に関するよくある質問
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-translation-type: ht
-source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
+translation-type: tm+mt
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -21,11 +21,11 @@ source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
 
 >[!TIP]
 >
->詳しくは、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy.html)を参照してください。
+>Visit the [Adobe Privacy Center](https://www.adobe.com/jp/privacy.html) for more information.
 
 **Audience Manager では Cookie をどのように使用し、どのような Cookie を設定しますか？**
 
-[Audience Manager の Cookie](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/cookies/cookies_am.html) を参照してください。
+詳しくは、[Audience Manager の Cookie](https://marketing.adobe.com/resources/help/ja_JP/whitepapers/cookies/cookies_am.html) を参照してください。
 
 **米国の Audience Manager クライアントは EU 資産のユーザーをターゲットにすることができますか？**
 
@@ -111,7 +111,7 @@ source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
   </tr> 
   <tr> 
    <td colname="col1"> <p>特性上限に到達 </p> </td> 
-   <td colname="col2"> <p>ユーザーごとの特性絞り込みの上限を 100,000 件に設定しています。この制限は、認証済みプロファイルとデバイスプロファイルに適用されます。ユーザープロファイルがこの上限に達したら、先入れ先出し方式で古い特性絞り込みから順に削除します。 </p> <p>詳しくは、<a href="../features/traits/trait-qualification-reference.md#trait-qualification-limit">特性絞り込みの制限</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーごとの特性絞り込みの上限を 100,000 件に設定しています。この制限は、認証済みプロファイルとデバイスプロファイルに適用されます。ユーザープロファイルがこの上限に達したら、先入れ先出し方式で古い特性絞り込みから順に削除します。 </p> <p>詳しくは、<a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit">特性絞り込みの制限</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
