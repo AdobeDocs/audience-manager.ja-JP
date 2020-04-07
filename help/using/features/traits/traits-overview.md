@@ -1,12 +1,12 @@
 ---
 description: ルールベース、オンボード、アルゴリズムまたはフォルダーの特性を使用して、データ収集およびオーディエンス作成を管理します。
 seo-description: ルールベース、オンボード、アルゴリズムまたはフォルダーの特性を使用して、データ収集およびオーディエンス作成を管理します。
-keywords: 特性;特性;特性の概要
+keywords: trait; traits; trait overview
 seo-title: 特性の概要
 solution: Audience Manager
 title: 特性の概要
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -20,4 +20,4 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 * [フォルダー特性：詳細](/help/using/features/traits/about-folder-traits.md)
 * [特性ストレージ](/help/using/features/traits/trait-storage.md)
 * [アクティブオーディエンス特性とデータソース同期特性](/help/using/features/traits/client-activity-synced-audience-traits.md)
-* [特性認定に関するリファレンス](/help/using/features/traits/trait-qualification-reference.md)
+* [特性およびセグメントの資格に関するリファレンス](/help/using/features/traits/trait-and-segment-qualification-reference.md)
