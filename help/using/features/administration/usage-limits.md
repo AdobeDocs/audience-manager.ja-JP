@@ -7,7 +7,7 @@ title: 使用の制限
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -35,7 +35,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | 特性タイプ | 上限 |
 | -------------------------- | ------------------------------------- |
 | 合計特性 | 100,000 |
-| 特性認定の合計数 | 150,000特性認定について詳しくは、[特性認定に関するリファレンス](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit)を参照してください。 |
+| 特性認定の合計数 | 150,000特性認定について詳しくは、[特性認定に関するリファレンス](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit)を参照してください。 |
 | アルゴリズム | 50 |
 | ルールベース | 100,000 |
 | オンボード | 100,000 |
