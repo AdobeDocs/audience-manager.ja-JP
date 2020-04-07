@@ -4,8 +4,8 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-translation-type: ht
-source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
+translation-type: tm+mt
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 
 [!UICONTROL People-Based Destinations] のハッシュ要件については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
 Adobe Experience Cloud では、Adobe Experience Platform ID サービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)を参照してください。
 
@@ -101,5 +101,5 @@ Adobe Experience Cloud では、Adobe Experience Platform ID サービスで顧�
 
 オフラインデータを [!DNL People-Based Destinations] 用に Audience Manager に取り込む方法は次の 2 つです。
 
-* Audience Manager に[バッチデータを送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)して、ハッシュ化された電子メールアドレスを取り込みます。この方法では、[!DNL People-Based Destinations] の [!DNL CRM] データベースからすべてのハッシュ化された電子メールアドレスを使用できます。さらに、この方法を使用する場合、[オンボード特性](../traits/trait-qualification-reference.md)のハッシュ化された電子メールアドレスも絞り込みます。
+* Audience Manager に[バッチデータを送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)して、ハッシュ化された電子メールアドレスを取り込みます。この方法では、[!DNL People-Based Destinations] の [!DNL CRM] データベースからすべてのハッシュ化された電子メールアドレスを使用できます。さらに、この方法を使用する場合、[オンボード特性](../traits/trait-and-segment-qualification-reference.md)のハッシュ化された電子メールアドレスも絞り込みます。
 * [宣言された ID を使用](../declared-ids.md)して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。この方法を使用すると、Audience Manager はお客様に代わって、オンラインで認証されたユーザーの、ハッシュされた電子メールアドレスのみを [!DNL People-Based Destinations] に送信できます。ユーザーベースのチャネルでアクティブ化される電子メールアドレスは、宣言されている ID イベント呼び出しの電子メールアドレスのみです。顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムでは送信されません。
