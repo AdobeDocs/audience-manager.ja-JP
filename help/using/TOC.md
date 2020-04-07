@@ -2,10 +2,10 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager User Guide
+user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
-source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
+translation-type: tm+mt
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -134,6 +134,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [セグメント式エディターで使用するコード構文](features/segments/segment-code-syntax.md)
       + [セグメントビルダーにおける特性とセグメントのユーザー数データ](features/segments/segment-builder-data.md)
       + [特性レコメンデーション](features/segments/trait-recommendations.md)
+      + [特性およびセグメントの資格に関するリファレンス](features/traits/trait-and-segment-qualification-reference.md)
    + 特性 {#traits}
       + [特性の概要](/help/using/features/traits/traits-overview.md)
       + [特性の詳細ページ](features/traits/trait-details-page.md)
@@ -158,7 +159,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [ プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング） ](features/traits/trait-geotarget-keys.md)
       + [プラットフォームレベルのキーによるデバイスターゲティング](features/traits/trait-device-targeting.md)
       + [ブール演算子と比較演算子を使用した式のサンプル](features/traits/trait-expression-samples.md)
-      + [特性認定に関するリファレンス](features/traits/trait-qualification-reference.md)
+      + [特性およびセグメントの資格に関するリファレンス](features/traits/trait-and-segment-qualification-reference.md)
    + [訪問者プロファイルビューア](features/visitor-profile-viewer.md)
 + レポート {#reporting}
    + [レポートの概要](reporting/reports-overview.md)
