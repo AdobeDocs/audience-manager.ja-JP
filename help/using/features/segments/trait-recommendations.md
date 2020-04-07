@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性レコメンデーション
 uuid: null
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 019396917482340f15b4eb23736b15322815bd84
 
 ---
 
@@ -79,9 +79,9 @@ Audience Manager では、ファーストパーティ特性からの特性レコ
 ### 新規セグメント
 
 1. **Audience Data／Segments** に移動し、「**Add New**」をクリックします。
-2. **Traits** ドロップダウンボックスで、少なくとも 1 つの特性をセグメントルールに追加します。
-3. ファーストパーティの推奨特性および購読しているフィードからの [!UICONTROL Audience Marketplace] 特性レコメンデーションが、**[!UICONTROL Recommendations]**&#x200B;セクションに表示されます。**[!UICONTROL Recommendations from Marketplace]**&#x200B;セクションには、購読していないフィードからの特性レコメンデーションが表示されます。これらすべてのレコメンデーションは、セグメントルールに追加した特性に類似しています。下にスクロールして、推奨されるすべての特性を表示します。
-4. （オプション）特定のデータソースのファーストパーティ推奨特性を除外するには、除外するデータソースの **X** 記号をクリックします。
+1. **Traits** ドロップダウンボックスで、少なくとも 1 つの特性をセグメントルールに追加します。
+1. ファーストパーティの推奨特性および購読しているフィードからの [!UICONTROL Audience Marketplace] 特性レコメンデーションが、**[!UICONTROL Recommendations]**&#x200B;セクションに表示されます。**[!UICONTROL Recommendations from Marketplace]**&#x200B;セクションには、購読していないフィードからの特性レコメンデーションが表示されます。これらすべてのレコメンデーションは、セグメントルールに追加した特性に類似しています。下にスクロールして、推奨されるすべての特性を表示します。
+1. （オプション）特定のデータソースのファーストパーティ推奨特性を除外するには、除外するデータソースの **X** 記号をクリックします。
 
    >[!NOTE]
    >
