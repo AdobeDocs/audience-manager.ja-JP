@@ -5,7 +5,7 @@ seo-title: ワークフロー B - オフラインのみのデータに基づく�
 solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 ---
 
@@ -38,7 +38,8 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
-上記の例で、対応するオンボード特性について顧客 ID を絞り込むには、[inbound data file](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) を次の内容でアップロードする必要があります。
+
+To qualify the customer IDs in the example above for the corresponding onboarded traits, you must upload an [inbound data file](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) with the following contents:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
