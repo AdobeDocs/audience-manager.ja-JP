@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
 
 ---
 
@@ -387,6 +387,13 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
    + [概要](/help/using/help-legal/help-legal-overview.md)
    + [問題がある場合](/help/using/help-legal/help-problem.md)
    + [連絡先情報および法的事項](/help/using/help-legal/help-legal-contact.md)
++ 最も多いカスタマーサポートの問題{#top-support-issues}
+   + [概要](/help/using/support-issues/support-issues-overview.md)
+   + [なぜ私のオンボードの形質集団は10月15日頃に0人に減ったのでしょう？ ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [重複レポートページに特性やセグメントが表示されないのはなぜですか。](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [読み取り専用ユーザーが特性とセグメントを作成、編集または削除できるのはなぜですか。](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+   + [アドビはオーディエンスマネージャのお客様ではありませんが、サイトでオーディエンスマネージャのJavaScript呼び出しを確認してください。](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [目的の詳細ページに、オーディエンスマネージャオーディエンスラボがマッピングしたセグメントを表示する必要がありますか。](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + ドキュメントの更新 {#documentation-updates}
    + [ドキュメントの更新（2020 年）](docs-updates/docs-2020.md)
    + [ドキュメントの更新（2019 年）](docs-updates/docs-2019.md)
