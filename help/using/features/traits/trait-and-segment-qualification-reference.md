@@ -7,7 +7,7 @@ solution: Audience Manager
 title: 特性認定に関するリファレンス
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
 
 ---
 
@@ -34,17 +34,17 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 
 ![unique-trait-realization](assets/trait-graph.png)
 
-グラフに表示する結果のタイプ（[!UICONTROL Device ID] または[!UICONTORL クロスデバイス ID]）に応じて、指標の意味は異なります。
+Depending on the type of results that you want the graph to show (filtered by [!UICONTROL Device ID] or [!UICONTROL Cross-Device ID]), the metrics have different meanings:
 
 結果を [!UICONTROL Device ID] でフィルタリングする場合：
 
-* [!UICONTROL Unique Trait Realizations] は、様々な時間範囲内でその特性を訪問者に追加した匿名プロファイルの数です。
-* [!UICONTROL Total Trait Population] は、この特性を持つ匿名訪問者のプロファイル数です。
+* [!UICONTROL Unique Trait Realizations] は、様々な期間において、特性を自分のプロファイルに追加した匿名デバイス訪問者の数を表します。
+* [!UICONTROL Total Trait Population] は、プロファイルにこの特性がある匿名デバイス訪問者の数を表します。
 
 結果を [!UICONTROL Cross-Device ID] でフィルタリングする場合：
 
-* [!UICONTROL Unique Trait Realizations] は、様々な時間範囲内で、特性を訪問者に追加した認証済みプロファイルの数です。
-* [!UICONTROL Total Trait Population] は、この特性を持つ認証済み訪問者のプロファイル数です。
+* [!UICONTROL Unique Trait Realizations] は、様々な期間において、特性を自分のプロファイルに追加した認証済み訪問者の数を表します。
+* [!UICONTROL Total Trait Population] は、プロファイルにこの特性がある認証済み訪問者の数を表します。
 
 これらの数字については次のように考えます。上の図で、[特性の詳細](../../features/traits/trait-details-page.md)ビューの「90,173」は、前日にプロパティを訪問したアクティブなデバイスの数を表します。[!UICONTROL Total Trait Population] は 55,757 ですが、これは現在この特性の対象として認定されているユーザーの数を表します。[!UICONTROL Total Trait Population] の数は、セグメント化／ターゲティングに使用できるユーザーの合計数を表しています。通常、ユーザーが特性の一部となっている期間は 120 日間です。
 
