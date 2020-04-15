@@ -5,8 +5,8 @@ seo-title: Audience Manager と Adobe Experience Platform の間でのオーデ�
 solution: Audience Manager
 title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
-translation-type: ht
-source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
+translation-type: tm+mt
+source-git-commit: efc07cb0aacc31f3708c98e1c82c195c202c10ef
 
 ---
 
@@ -15,13 +15,11 @@ source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
 
 >[!NOTE]
 >
-> このページで説明する機能は、Audience Manager および Adobe Experience Platform のお客様が利用できます。
->
 > この機能へのアクセスをロック解除したい場合は、アドビの販売担当者にお問い合わせください。
 
 ## 概要 {#overview}
 
-Audience Manager と Adobe Experience Platform の間でオーディエンス共有機能を使用すると、Audience Manager の特性とセグメントを Adobe Experience Platform と共有できます。また、その逆も可能です。
+Audience Manager と Adobe Experience Platform の間でオーディエンス共有機能を使用すると、Audience Manager の特性とセグメントを Adobe Experience Platform と共有できます。また、その逆も可能です。Adobe Experience Platformとの間でオーディエンス [共有を有効にするには](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) 、オーディエンスマネージャーコネクターが必要です。
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)を活用することができます。
 
@@ -46,8 +44,9 @@ Audience Manager では、次のように、Data Management Platform のユー�
 
 Audience Manager の特性とセグメントは、セグメントワークフローの&#x200B;**オーディエンス**&#x200B;として Experience Platform に表示されます。Experience Platform での Audience Manager のセグメントと特性について詳しくは、次を参照してください。
 
-* [セグメント化サービスの概要](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
-* [Experience Platform セグメントビルダーユーザーガイド](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+* [セグメント化サービスの概要](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+* [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+* [オーディエンスマネージャコネクタ](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
 
  <br>
 
