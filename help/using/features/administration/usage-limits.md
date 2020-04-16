@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 使用の制限
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
@@ -18,12 +18,12 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 
 ## ID マッピングの上限 {#id-mapping-limits}
 
-次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adding the new one. Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
+次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。ID が以下のいずれかの上限に達すると、Audience Manager は、保存時期が最も古い ID マッピングを削除し新しい ID マッピングを追加する先入れ先出し（[!DNL FIFO]）方式で、新規 ID マッピングを追加します。Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
 
 | ID マッピング | 上限 |
 |-----------|-------------- |
-| Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100デバイス広告ID([DAID](../../reference/ids-in-aam.md))から1デバイス間ID([DPUUID](../../reference/ids-in-aam.md)) |
-| Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) to Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 各DPIDごとに10個のデバイス間ID([DPUUID](../../reference/ids-in-aam.md))から1個のデバイス広告ID([DAID](../../reference/ids-in-aam.md)[)へ](../../reference/ids-in-aam.md) |
+| クロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)）に対してデバイス広告 ID（[DAID](../../reference/ids-in-aam.md)） | クロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)） 1 個に対してデバイス広告 ID（[DAID](../../reference/ids-in-aam.md)） 100 個 |
+| デバイス広告 ID（[DAID](../../reference/ids-in-aam.md)）に対してクロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)） | 各 [DPID](../../reference/ids-in-aam.md) あたり、デバイス広告 ID（[DAID](../../reference/ids-in-aam.md)） 1 個に対してクロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)） 10 個 |
 | cookie／ブラウザー ID に対して cookie／ブラウザー ID | 1000 cookie／ブラウザー ID に対して 1  cookie／ブラウザー ID |
 
 ## 項目の限度 {#item-limits}
@@ -83,7 +83,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | ----------- | ------------- |
 | 会社のユーザーアカウントの最大数 | 1,000。 |
 
-## 使用状況の監視 {#monitor-usage}
+## 使用状況の監視{#monitor-usage}
 
 アカウントの使用状況と限度は、**[!UICONTROL Administration > Limits]** で確認できます。アクセスには管理者権限が必要です。
 
