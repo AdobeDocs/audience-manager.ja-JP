@@ -5,13 +5,13 @@ seo-title: Audience Manager の一般的なレポート
 solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
 
-# 一般レポート{#general-reports}
+# 一般レポート {#general-reports}
 
 [!UICONTROL General]は、特性、セグメントおよび宛先に関するパフォーマンスデータを返します。
 
@@ -96,7 +96,7 @@ t_run_general_report.xml
 
 **Total Trait Population**
 
-この指標は、特性の対象として現在認定されている Audience Manager UUID の合計数を表します。この数により、セグメント化とターゲティングに使用できるユーザーの総数を把握できます。通常、ユーザーが特性の一部となっている期間は[120 日間](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)です。例えば、ユーザーが今日ホームページに 3 回訪問した後、戻ってこなかった場合、今から 120 日後までは、ユーザーはこの母集団内のユーザーのままです。120 日が経過したら、母集団から削除されます。「Unique Trait Realizations」と「Total Trait Population」の違いに関するその他の例については、 [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
+この指標は、特性の対象として現在認定されている Audience Manager UUID の合計数を表します。この数により、セグメント化とターゲティングに使用できるユーザーの総数を把握できます。通常、ユーザーが特性の一部となっている期間は[120 日間](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)です。例えば、ユーザーが今日ホームページに 3 回訪問した後、戻ってこなかった場合、今から 120 日後までは、ユーザーはこの母集団内のユーザーのままです。120 日が経過したら、母集団から削除されます。「Unique Trait Realizations」と「Total Trait Population」の違いに関するその他の例については、[特性およびセグメントの認定に関するリファレンス](../features/traits/trait-and-segment-qualification-reference.md)を参照してください。
 
 次の図は、Trait レポートタイプの一般レポートを実行した結果を示しています。
 
@@ -112,7 +112,7 @@ t_run_general_report.xml
 
 **Total Segment Population**
 
-この指標は、選択したルックバック期間内にセグメントの対象として認定された Audience Manager UUID の合計数を表します。1 日の「セグメント母集団の総数」は、ターゲティングのための最も正確なユーザーベースを表します。
+この指標は、選択したルックバック期間内にセグメントの対象として認定された Audience Manager UUID の合計数を表します。1 日の「Total Segment Population」は、ターゲティングのための最も正確なユーザーベースを表します。
 
 >[!NOTE]
 >
