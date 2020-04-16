@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性の詳細ページ
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 # 特性の詳細ページ {#trait-details-page}
 
-個々の特性の詳細ページには、特性名、ID、パフォーマンス指標、特性を定義する式、特性が属するセグメント、特性監査ログなど、特性の詳細の概要が表示されます。To view these details, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** and click the name of the trait you want to work with.
+個々の特性の詳細ページには、特性名、ID、パフォーマンス指標、特性を定義する式、特性が属するセグメント、特性監査ログなど、特性の詳細の概要が表示されます。これらの詳細を表示するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Traits]** を選択し、対象となる特性の名前をクリックします。
 
 ## 特性管理ツール {#trait-management-tools}
 
@@ -52,7 +52,7 @@ source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
    >
    >Audience Manager では、特性に適合するクロスデバイス ID がある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=jpn)
 
 ## Trait Expression {#trait-expression}
 
@@ -66,7 +66,7 @@ source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ![](assets/traitSegments.png)
 
-## 特性監査／履歴ログ {#trait-audit-history}
+## 特性監査／履歴ログ{#trait-audit-history}
 
 「[!UICONTROL Trait Expression Change History]」には、ルールベースの特性とオンボードの特性について、特性の式ルールに対する直近 10 件の変更と、その変更をおこなったユーザーが表示されます。特性に対する変更が 10 件を超える場合、**[!UICONTROL Export to CSV]**&#x200B;をクリックすると監査ログ全体をダウンロードできます。フォルダー特性やアルゴリズム特性では、監査ログは使用できません。
 
