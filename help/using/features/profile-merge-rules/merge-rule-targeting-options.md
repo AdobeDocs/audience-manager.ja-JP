@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールの一般的なユースケース
 solution: Audience Manager
 title: プロファイル結合ルールの一般的なユースケース
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
@@ -23,13 +23,13 @@ source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 このシナリオは、ユーザー認証を考慮せずに、デバイス ID（DSP、オンサイトパーソナライゼーションプラットフォーム、その他のデバイスベースのターゲティングプラットフォーム）をサポートするターゲティングプラットフォームを使用して、Audience Manager で定義したオーディエンスセグメントの単一のデバイスプロファイルを評価する場合に適用されます。
 
-To create a rule that targets only device profiles, select **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
+デバイスプロファイルのみをターゲットにするルールを作成する場合は、**[!UICONTROL Device Profile]** +**[!UICONTROL No Cross-Device Profile]** を選択します。
 
 ![device-only](assets/device-only.png)
 
 ジョンという人物ががスマートフォンを 3 つ台保有しているとします。そのうち 2 台は iPhone 7s（データプラン A ）で、1 台は Samsung（データプラン B）です。ジョンの携帯電話会社は 3 台のデバイスの認証状態を考慮せず、データプラン A で実行する iPhone 7 デバイスに対してのみ、データプランのアップグレードを提供したいと考えています。
 
-By using the **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** rule, [!DNL Device 1] and [!DNL Device 3] both qualify for the segment, while Device 2 is ignored.
+**[!UICONTROL No Cross-Device Profile]** ルールと **[!UICONTROL Device Profile]** ルールを使用することで、[!DNL Device 1] と [!DNL Device 3] の両方が対象となりますが、デバイス 2 は無視されます。
 
 ![device-only](assets/device-management.png)
 
@@ -39,7 +39,7 @@ By using the **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Pro
 
 ジョンは自分のアカウントを使用して旅行券や特価でのオファーを予約し、ジェーンも自分のアカウントで音楽や映画を購入します。
 
-The store&#39;s marketing team can use the **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** rule to target John and Jane with specific deals, based on purely on their authenticated activity.
+店舗のマーケティングチームは、**[!UICONTROL Current Authenticated Profiles]** ルールと **[!UICONTROL No Device Profile]** ルールを使用し、認証されたアクティビティのみに基づいて、特定のオファーでジョンとジェーンをターゲットに設定できます。
 
 ![current-no-device](assets/current-no-device.png)
 
@@ -49,7 +49,7 @@ The store&#39;s marketing team can use the **[!UICONTROL Current Authenticated P
 
 ## オンライン／オフラインでのターゲティング {#device-household-targeting}
 
-この使用例では、世帯 ID 管理をカバーしています。A company can merge a single device profile with the last profile that authenticated on that device, using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Profile]** rule.
+この使用例では、世帯 ID 管理をカバーしています。会社は、**[!UICONTROL Last Authenticated Profiles]** ルール と **[!UICONTROL Device Profile]** ルールを使用して、1 つのデバイスプロファイルを、1 つのデバイスプロファイルを、そのデバイスで最後に認証されたプロファイルと結合できます。
 
 ![last-device-profile](assets/last-device-profile.png)
 
@@ -77,7 +77,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 ## デバイスグラフオプション {#device-graph-options}
 
-[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) メンバーであるか、外部デバイスグラフとの契約関係があることが必要です。以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的なユースケースについては、[プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)および[外部デバイスグラフのユースケース](external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html) メンバーであるか、外部デバイスグラフとの契約関係があることが必要です。以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的なユースケースについては、[プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)および[外部デバイスグラフのユースケース](external-graph-use-cases.md)を参照してください。
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -110,7 +110,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 [!UICONTROL Profile Merge Rules] の使用例の概要については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/28975/)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=jpn)
 
 >[!MORELIKETHIS]
 >
