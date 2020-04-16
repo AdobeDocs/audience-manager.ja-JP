@@ -4,7 +4,7 @@ seo-description: 'People-Based Destinations では、顧客データの構造に
 seo-title: People-Based Destinations の実装ガイダンス
 solution: Audience Manager
 title: 実装ガイダンス
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
@@ -50,7 +50,7 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 **B）関連付けられたすべての電子メールアドレスに基づいてオーディエンスのターゲティングをおこなう**。このシナリオでは、ユーザーは複数の電子メールアドレスと関連付けられた複数のアカウントを持っており、お客様は、認証されたアクティビティに関係なく、関連するすべての電子メールアドレスをまたいでユーザーをターゲットに設定しようとしています。
 
-## 3. 保有している顧客 ID（CRM ID）のタイプを特定する{#identify-customer-id}
+## 3. 保有している顧客 ID（CRM ID）のタイプを特定する {#identify-customer-id}
 
 [!DNL People-Based Destinations] でオーディエンスのターゲティングをおこなうには、顧客電子メールアドレスの [SHA256 ハッシュ](people-based-destinations-prerequisites.md) バージョンが必要です。既存の Audience Manager 設定に応じて、次の 2 つのシナリオのいずれかになります。
 
@@ -58,7 +58,7 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 **B）Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)） が、ハッシュ化された小文字の電子メールアドレスでない場合**。このシナリオでは、既存の顧客 ID を [!DNL People-Based Destinations] に送信することはできません。[!DNL People-Based Destinations] を使用するには、既存の顧客 ID と、ハッシュ化された小文字バージョンの顧客電子メールアドレスで ID 同期を実行する必要があります。これは、[ファイルベースの ID 同期](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)を使用するか、[宣言済み ID](../declared-ids.md) を使用して実行します。
 
-## 4. 特性認定{#trait-qualification}
+## 4. 特性認定 {#trait-qualification}
 
 [!DNL People-Based Destinations] で正確にオーディエンスのターゲットを絞るには、実行するオーディエンスのターゲット設定のタイプに応じて、ルールベースの特性またはオンボード特性のいずれかに適合している必要があります。
 
@@ -81,6 +81,6 @@ Audience Manager にある顧客 ID のタイプに応じて（「[3.保有し�
 
 ユースケースに応じて（[1.ユースケースの定義](people-based-destinations-workflow.md#defining-your-use-case)を参照）、2 つの方法でセグメント化に [!DNL Profile Merge Rules] を使用できます。
 
-**A）既存の[!DNL Profile Merge Rules]**を使用する。このオプションは、最初のユースケース（オンラインとオフラインのユーザーアクティビティの組み合わせに基づいてオーディエンスのターゲティングをおこなう）に適用されます。このシナリオでは、Audience Manager に既存の顧客アクティビティがあり、セグメント化で使用したプロファイル結合ルールの 1 つ以上を定義済みです。この場合、新しく[!DNL Profile Merge Rules]を作成する必要はありません。
+**A）既存の [!DNL Profile Merge Rules]** を使用する。このオプションは、最初のユースケース（オンラインとオフラインのユーザーアクティビティの組み合わせに基づいてオーディエンスのターゲティングをおこなう）に適用されます。このシナリオでは、Audience Manager に既存の顧客アクティビティがあり、セグメント化で使用したプロファイル結合ルールの 1 つ以上を定義済みです。この場合、新しく[!DNL Profile Merge Rules]を作成する必要はありません。
 
 **B）新しい[!DNL All Cross-Device Profiles]結合ルールを作成する**。このオプションは、2 番目のユースケース（オフラインのユーザーアクティビティのみに基づいてオーディエンスのターゲティングをおこなう）に適用されます。このシナリオでは、オフラインの顧客データを [!DNL CRM] から Audience Manager に取り込み、そのデータからセグメントを作成します。これをおこなうため、[!DNL People-Based Destinations] では、4 つめのプロファイル結合ルールとなる **[!DNL All Cross-Device Profiles]** を導入します。このルールは、純粋なオフラインデータをセグメント化するときに使用する必要があります。
