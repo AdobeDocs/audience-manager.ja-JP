@@ -5,7 +5,7 @@ seo-title: 特性レコメンデーション
 solution: Audience Manager
 title: 特性レコメンデーション
 uuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 019396917482340f15b4eb23736b15322815bd84
 
 ---
@@ -19,11 +19,11 @@ source-git-commit: 019396917482340f15b4eb23736b15322815bd84
 
 まず、以下の [!UICONTROL Trait Recommendations] のビデオを見てから、詳細をお読みください。ビデオデモでは、独自のファーストパーティ特性からのレコメンデーションの使用方法、*および既に購読している* [!UICONTROL Audience Marketplace] データフィードからの特性レコメンデーションの使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/)
+>[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=jpn)
 
-次のビデオでは、[!UICONTROL Marketplace Recommendations] のワークフローの概要を説明し、[!UICONTROL Audience Marketplace] のデータフィードからのレコメンデーションに基づいて、セグメントに特性を追加する方法を示します。これらのレコメンデーションは、購読していない&#x200B;**&#x200B;データフィードに基づいています。
+次のビデオでは、[!UICONTROL Marketplace Recommendations] のワークフローの概要を説明し、[!UICONTROL Audience Marketplace] のデータフィードからのレコメンデーションに基づいて、セグメントに特性を追加する方法を示します。これらのレコメンデーションは、購読していないデータフィードに基づいています&#x200B;*。*
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/)
+>[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=jpn)
 
 ## 概要
 
@@ -98,7 +98,7 @@ Audience Manager では、ファーストパーティ特性からの特性レコ
 
 ### 既存セグメント
 
-1. Go to **[!UICONTROL Audience Data]>[!UICONTROL Segments]**, select the segment you want to edit and click![Edit](assets/edit-button.png).
+1. **[!UICONTROL Audience Data]／[!UICONTROL Segments]** に移動し、編集したいセグメントを選択して、「![編集](assets/edit-button.png)」をクリックします。
 1. 下にスクロールして[!UICONTROL Traits]ドロップダウンボックスを表示します。
 1. セグメントルールに既に含まれている特性に類似した推奨特性が表示されています。下にスクロールして、推奨されるすべての特性を表示します。
 1. （オプション）特定のデータソースの推奨特性を除外するには、除外するデータソースの **X** 記号をクリックします。
@@ -140,7 +140,7 @@ Audience Manager では、ファーストパーティ特性からの特性レコ
 
 特性レコメンデーションを生成するために、Audience Manager では、ターゲット特性と、アカウントからアクセスできる他のすべての特性（サードパーティデータを含む）の [Jaccard 類似性](https://en.wikipedia.org/wiki/Jaccard_index)を計算します。Audience Managerには、類似性が最も高い 50 個までの特性が表示されます。
 
-## 特性類似性スコア {#trait-similarity-score}
+## 特性類似性スコア{#trait-similarity-score}
 
 Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合を計算し、その 2 つを除算することにより、2 つの特性間の[!UICONTROL Trait Similarity Score]を算出します。2 つの特性 A と B の計算は次のようになります。
 
