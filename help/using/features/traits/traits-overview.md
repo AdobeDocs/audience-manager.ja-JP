@@ -5,7 +5,7 @@ keywords: trait; traits; trait overview
 seo-title: 特性の概要
 solution: Audience Manager
 title: 特性の概要
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
