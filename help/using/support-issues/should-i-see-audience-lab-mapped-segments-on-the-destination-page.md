@@ -1,33 +1,33 @@
 ---
-description: オーディエンスラボでマッピングされたセグメントが表示先の詳細ページに表示されない理由
-seo-description: オーディエンスラボでマッピングされたセグメントが表示先の詳細ページに表示されない理由
-seo-title: オーディエンスラボでマッピングされたセグメントが表示先の詳細ページに表示されない理由
+description: Audience Lab でマッピングしたセグメントが出力先の詳細ページに表示されないのはなぜですか？
+seo-description: Audience Lab でマッピングしたセグメントが出力先の詳細ページに表示されないのはなぜですか？
+seo-title: Audience Lab でマッピングしたセグメントが出力先の詳細ページに表示されないのはなぜですか？
 solution: Audience Manager
-title: 目的の詳細ページに、オーディエンスラボがマッピングしたセグメントを表示する必要がありますか。
-translation-type: tm+mt
+title: Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？
+translation-type: ht
 source-git-commit: dd68edc816c1739ec49f3178e776087d7737863b
 
 ---
 
 
-# 目的の詳細ページに、オーディエンスラボがマッピングしたセグメントを表示する必要がありますか。 {#audience-lab-segments-destination-page}
+# Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？{#audience-lab-segments-destination-page}
 
 ## 質問
 
-でテストセグメントを作成し、そ [!UICONTROL Audience Lab]れらを宛先にマッピングしました。 ただし、リンク先の詳細ページで検索すると、表示されません。
+一部のテストセグメントを [!UICONTROL Audience Lab] で作成し、出力先にマッピングしています。ただし、出力先の詳細ページで探しても、見つかりません。
 
-この動作は期待されていますか、それともバグですか。
+この動作は期待されるものですか、それともバグですか？
 
 ## 回答
 
-内で作成されたマッピング済みのセグメ [!UICONTROL Audience Lab] ントは、表示先の詳細ページに表示されません。
+マッピングしたセグメントで、[!UICONTROL Audience Lab] 内で作成されたものは、出力先の詳細ページには表示されません。
 
-例えば、次のスクリーンショットでは、と [!UICONTROL Test Segment 1] が宛先 [!UICONTROL Test Segment 2] にマッピングされて [!UICONTROL autofill SID - serialized] います。
+例えば、次のスクリーンショットでは、[!UICONTROL Test Segment 1] および [!UICONTROL Test Segment 2] は [!UICONTROL autofill SID - serialized] 出力先にマッピングされます。
 
-セグメントは、オーディエンスラボのセグメントテストに表示されます。
+セグメントは Audience Lab セグメントテストに表示されます。
 
-![画像 —オーディエンスラボセグメント表示](assets/should_i_see_my_aamlab01.png)
+![Audience Lab セグメント表示の画像](assets/should_i_see_my_aamlab01.png)
 
-ただし、セグメントは表示先の詳細ページに表示されません。
+ただし、セグメントは、出力先の詳細ページに表示されません。
 
-![宛先の詳細ページの画像](assets/should_i_see_my_aamlab02.png)
+![出力先の詳細ページの画像](assets/should_i_see_my_aamlab02.png)
