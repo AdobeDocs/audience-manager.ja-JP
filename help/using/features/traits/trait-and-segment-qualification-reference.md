@@ -6,7 +6,7 @@ seo-title: 特性認定に関するリファレンス
 solution: Audience Manager
 title: 特性認定に関するリファレンス
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
 
 # 特性およびセグメントの資格に関するリファレンス {#trait-qualification-reference}
 
-Audience Manager では、特性認定（特性の満足）の処理方法は特性のタイプによって異なります。特性タ [イプの資格について詳しくは](#trait-type) 、「特性タイプ別の特性資格」を参照してください。
+Audience Manager では、特性認定（特性の満足）の処理方法は特性のタイプによって異なります。特性タイプの認定について詳しくは、「[特性タイプ別の特性認定](#trait-type)」を参照してください。
 
-また、セグメント [の資格について詳しくは、「リアルタイムセグメントの母集団と合計セグメントの母集団](#real-time-segment) 」を参照してください。
+また、セグメント認定について詳しくは、「[Real-time Segment Population と Total Segment Population](#real-time-segment)」を参照してください。
 
 
 
@@ -34,7 +34,7 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 
 ![unique-trait-realization](assets/trait-graph.png)
 
-Depending on the type of results that you want the graph to show (filtered by [!UICONTROL Device ID] or [!UICONTROL Cross-Device ID]), the metrics have different meanings:
+グラフに表示する結果のタイプ（[!UICONTROL Device ID] または [!UICONTROL Cross-Device ID]）に応じて、指標の意味は異なります。
 
 結果を [!UICONTROL Device ID] でフィルタリングする場合：
 
@@ -54,7 +54,7 @@ Depending on the type of results that you want the graph to show (filtered by [!
 
 特性適合の変更は、セグメントの母集団に反映されます。
 
-## リアルタイムセグメントの母集団と合計セグメントの母集団 {#real-time-segment}
+## Real-time Segment Population と Total Segment Population {#real-time-segment}
 
 ![unique-trait-realization](assets/segment-graph.png)
 
