@@ -4,7 +4,7 @@ seo-description: 'このページでは、オフラインのみの顧客デー�
 seo-title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 ---
@@ -39,7 +39,7 @@ source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 <br />
 
-To qualify the customer IDs in the example above for the corresponding onboarded traits, you must upload an [inbound data file](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) with the following contents:
+上記の例で、対応するオンボード特性について顧客 ID を絞り込むには、[受信データファイル](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)を次の内容でアップロードする必要があります。
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -71,7 +71,7 @@ To qualify the customer IDs in the example above for the corresponding onboarded
 
 この場合、ハッシュ化された電子メールアドレスを保存する新しいクロスデバイスデータソースを作成する必要があります。手順は次のとおりです。
 
-1. Log in to your Audience Manager account and go to **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]**, and click **[!UICONTROL Add New]**.
+1. Audience Managerアカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** に移動して、**[!UICONTROL Add New]**&#x200B;をクリックします。
 1. 新しいデータソースに、**[!UICONTROL Name]** と **[!UICONTROL Description]** を入力します。
 1. **[!UICONTROL ID Type]** ドロップダウンメニューで、**[!UICONTROL Cross Device]**&#x200B;を選択します。
 1. **[!UICONTROL Data Source Settings]** セクションで、**[!UICONTROL Inbound]** と **[!UICONTROL Outbound]** のオプションを両方選択し、**[!UICONTROL Share associated cross-device IDs in people-based destinations]** オプションを有効にします。
@@ -88,7 +88,7 @@ To qualify the customer IDs in the example above for the corresponding onboarded
 
 [!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
 
 ## 手順 3 -ファイルベースの ID 同期経由で、DPUUID と ハッシュ化した電子メールアドレスを照合する {#match-ids-emails}
 
@@ -132,7 +132,7 @@ To qualify the customer IDs in the example above for the corresponding onboarded
 上記の例では、ファイル名は `c2c_id_999999_987654_1560431657.sync` となります。
 
 
-[サンプルファイルをここにダウンロードします](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)。
+[サンプルファイルをここにダウンロードしてください](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)。
 
 ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアップロードする必要があります。ID 同期ファイルのアップロード方法について詳しくは、[Audience Manager へのバッチデータの送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)を参照してください。
 
@@ -140,7 +140,7 @@ ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアッ
 
 次の手順では、オーディエンスセグメントを作成して [!DNL People-Based Destinations] に送信するのに役立つ、新しい結合ルールを作成します。
 
-1. Log in to your Audience Manager account and go to **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
+1. Audience Manager アカウントにログインして、**[!UICONTROL Audience Data]**／**[!UICONTROL Profile Merge Rules]** に移動します。
 2. 「[!UICONTROL Add New Rule]」をクリックします。
 3. プロファイル結合ルール **[!UICONTROL Name]** および **[!UICONTROL Description]** を入力します。
 4. **[!UICONTROL Profile Merge Rule Setup]** セクションで、**[!UICONTROL All Cross-Device Profiles]** ルールを **[!UICONTROL Cross-Device Options]** リストから選択します。
@@ -153,7 +153,7 @@ ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアッ
 
 ## 手順 6 - ユーザーベースのプラットフォーム認証を設定する {#configure-authentication}
 
-1. Log in to your Audience Manager account and go to **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
+1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
 1. 「**[!UICONTROL Add Account]**」をクリックします。
 1. **[!UICONTROL People-Based Platform]** ドロップダウンメニューを使用して、統合を設定するプラットフォームを選択します。
@@ -168,7 +168,7 @@ ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアッ
 
 ## 手順 7 - People-Based Destinations を作成する {#create-destination}
 
-1. Log in to your Audience Manager account, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]**, and click **[!UICONTROL Create Destination]**.
+1. Audience Manager アカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Destinations]** に移動して、**[!UICONTROL Create Destination]**&#x200B;をクリックします。
 1. **[!UICONTROL Basic Information]** セクションで、新しいデータソースに **[!UICONTROL Name]** と **[!UICONTROL Description]** を入力し、次の設定を使用します。
    * **[!UICONTROL Category]**：統合プラットフォーム
    * **[!UICONTROL Type]**：ユーザーベース
