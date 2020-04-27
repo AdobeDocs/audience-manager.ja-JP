@@ -5,8 +5,8 @@ seo-title: 選択した Audience Manager レポートでのデータサンプリ
 solution: Audience Manager
 title: 選択した Audience Manager レポートでのデータサンプリングとエラー率
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-translation-type: ht
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+translation-type: tm+mt
+source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 * 特性：14 日にわたる [ユニーク特性の適合](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) は 28,000 個です。
 * セグメント：14 日間で 70,000 人のリアルタイムユーザー。
 
-## エラー率{#error-rates}
+## エラー率 {#error-rates}
 
 重複データを生成するレポートでは、エラーが発生する場合があります。エラーは、以下に該当するレコードの割合として表されます。
 
@@ -44,10 +44,11 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 | 100,000 | 95% がエラー率 4% 未満である。 |
 | 500,000 以上 | 95% がエラー率 2% 未満である。 |
 
-## サンプリングデータを使用するレポート{#reports-using-sampled-data}
+## サンプリングデータを使用するレポート {#reports-using-sampled-data}
 
 サンプリングデータを使用する [!DNL Audience Manager] レポートには、次の内容が含まれます。
 
 * [重複レポート](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)（特性間、セグメント - 特性間、セグメント間）。
 * [アドレス可能なオーディエンス](../features/addressable-audiences.md)データ（顧客レベルデータとセグメントレベルデータ）。
 * [!UICONTROL Profile Merge Rule]の[合計デバイス数](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics)指標。
+* [Data Explorerでは](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) 、タブ内のサンプルデータと [!UICONTROL Search] 任意のデータを使用しま [!UICONTROL Saved Searches]す。
