@@ -1,27 +1,22 @@
 ---
 description: モデルビルダーでアルゴリズムモデルを作成するための必須手順とオプションの手順について説明します。
-keywords: アルゴリズムの仕組み
+keywords: algo how works
 seo-description: モデルビルダーでアルゴリズムモデルを作成するための必須手順とオプションの手順について説明します。
 seo-title: アルゴリズムモデルの作成
 solution: Audience Manager
 title: アルゴリズムモデルの作成
-topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# アルゴリズムモデルの作成 {#create-an-algorithmic-model}
+# Create a Look-Alike Model {#create-an-algorithmic-model}
 
-[!UICONTROL Model Builder]でアルゴリズムモデルを作成するための必須およびオプションの手順について説明します。
+Describes the required and optional steps that let you create a [!UICONTROL Look-Alike Model].
 
-## モデルの作成 {#build-model}
-
-<!-- t_model_build.xml -->
-
-### モデルビルダーのセクション
+## モデルビルダーのセクション
 
 [!UICONTROL Model Builder]は、「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Configuration]」セクションで構成されます。モデルを作成するには、この 2 つのセクションの必須フィールドに入力します。モデルを保存して、アルゴリズムを開始します。[!DNL Audience Manager] は、最初のデータ実行が完了した後に自動通知を送信します。この通知の受信後、[特性ビルダー](../../features/traits/about-trait-builder.md)を開いてアルゴリズム特性を作成できるようになります。
 
@@ -33,20 +28,24 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >* 自動電子メール通知は 1 回しか送信されません（最初のデータ実行の後）。
 
 
-### モデルの作成
+## モデルの作成
 
-モデルを作成するには、「[!UICONTROL Models]」セクションで&#x200B;**[!UICONTROL Add New]**&#x200B;をクリックしてから、以下の手順に従ってください。
+次の手順に従って、を作成しま [!UICONTROL Look-Alike Model]す。
 
-1. 「[Basic Information](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
+1. /に移動し **[!UICONTROL Audience Data]** 、セ **[!UICONTROL Models]** クション **[!UICONTROL Add New]** 内をクリック [!UICONTROL Look-Alike Modeling] します。
+   ![似通った](assets/look-alike-add.png)
+2. 「[Basic Information](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
    * モデルの名前を指定します。
    * *（オプション）*&#x200B;モデルについての簡単な説明を入力します。
-   * モデルのステータスを&#x200B;**[!UICONTROL Active]**&#x200B;または&#x200B;**[!UICONTROL Inactive]**&#x200B;に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
-1. 「[Configuration](../../features/algorithmic-models/create-model.md#configuration)」セクションで次の操作をおこないます。
+   * モデルのステータスを&#x200B;**[!UICONTROL Active]**&#x200B;または&#x200B;**[!UICONTROL Inactive]**に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
+      ![似たような基本的な](assets/look-alike-basic.png)
+3. 「[Configuration](../../features/algorithmic-models/create-model.md#configuration)」セクションで次の操作をおこないます。
    * **[!UICONTROL Browse All Traits]**&#x200B;または&#x200B;**[!UICONTROL Browse All Segments]**&#x200B;をクリックして、モデルの作成対象となる特性またはセグメントを選択します。オンボードの特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。
    * 30 日、60 日または 90 日のルックバック期間を選択します。これにより、モデルの時間範囲が設定されます。
    * デフォルトでは [!UICONTROL TraitWeight] アルゴリズムが選択されています。
    * 「[!UICONTROL Available Data]」リストからデータソースを選択します。
-   * 終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+   * 終了したら、**[!UICONTROL Save]**をクリックします。
+      ![似た形](assets/look-alike-configuration.png)
 
 ## アルゴリズムの基本情報 {#basic-information}
 
@@ -105,7 +104,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ファーストパーティの類似（look-alike）モデルを作成し、コンバーターに似た独自の訪問者をより多く見つける方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
