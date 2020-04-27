@@ -5,13 +5,13 @@ seo-title: データ配信やファイル処理の時間がレポートに及ぼ
 solution: Audience Manager
 title: データ配信やファイル処理の時間がレポートに及ぼす影響
 uuid: 4b975512-f67e-4749-a7ef-168415597682
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6bdf79b17ec96ed0d54ed97ab5d69fadb68763b5
 
 ---
 
 
-# データ配信やファイル処理の時間がレポートに及ぼす影響{#how-data-delivery-and-file-processing-times-affect-reports}
+# データ配信やファイル処理の時間がレポートに及ぼす影響 {#how-data-delivery-and-file-processing-times-affect-reports}
 
 Audience Manager は、毎日膨大な量のデータを受信します。これは、データの処理とレポート結果の生成にかかる時間に影響を及ぼします。この節では、これらの時間が Audience Manager アカウントに及ぼす影響について説明します。また、ここで説明している期間やスケジュールは一般的なガイドラインにすぎません。これらのスケジュールは、データ配信に関するサービス契約（SLA）や責務には含まれていません。アドビは、これらの期間やスケジュールをいつでも予告なしに変更する権利を留保します。
 
@@ -29,7 +29,7 @@ c_reporting_file_transfer_timeframe.xml
 | データタイプ | 説明 |
 |---|---|
 | リアルタイムデータ | 今日のリアルタイム数値は、昨日の 00:00 から 23:59:59 UTC までのものです。 |
-| 一般レポートデータ | The data in the [General Reports](../reporting/general-reports.md#general-reports-overview) depends on the successful completion of other job processes and the amount of data received for a particular day. Most of the time, [!UICONTROL General Report] data should be updated by 18:00 UTC each day. |
+| 一般レポートデータ | [一般レポート](../reporting/general-reports.md#general-reports-overview)のデータは、他のジョブ処理が正常に完了するかどうかや特定の日に受信したデータ量によって異なります。ほとんどの場合、[!UICONTROL General Report] データは毎日 18:00 UTC に更新されます。 |
 
 ## 受信および送信ファイル転送 {#inbound-outbound-file-transfers}
 
@@ -39,7 +39,7 @@ c_reporting_file_transfer_timeframe.xml
 |---|---|
 | 受信ファイル取り込み（オフラインデータ） | ファイル処理は、1 日に 2 回実行されます。これらの手順では、データを取り込んで配信用に準備します。処理が必要な顧客データの総量の影響を受けるので、ファイル配信時間は変わります。Audience Manager でファイルがアップロードされてからデータがレポートおよびアクティブ化に使用できるようになるまで、最大 48 時間の遅延を想定してください。 |
 | 送信（書き出し）ファイル | ファイル処理および配信は、1 日に 1 回、14:00 UTC 前後に実行されます。処理および配信は、これらのファイルの合計数およびサイズの影響を受けることに注意してください。場合によっては、ファイル処理に 24 時間の遅延が発生する可能性があります。これが発生すると、Audience Manager は、特定の日に 1 つではなく 2 つのファイルを送信します。Audience Manager がファイルの処理を完全に停止する必要がある稀なケースでは、アドビのお客様に通知されます。これらの条件を考慮すると、送信データの配信時間を見積もるのは困難です。完全なファイルセットを受信したかどうかを判断するには、タイムスタンプを確認して、足りない日付がないかどうかを調べます。これは、ファイルの作成時刻を記録した 13 桁の UNIX UTC タイムスタンプです。詳しくは、[ リアルタイム送信データ転送](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)を参照してください。 |
-| 広告サーバーのログファイル | ファイル処理は、時間別ファイルの準備が整った時点で、ログファイルレコードを取り込むためにほぼリアルタイムで実行されます。 ファイルのレポート準備のプロセスは、1日1回実行されます。 処理が必要な顧客データの総量の影響を受けるので、ファイル配信時間は変わります。オーディエンスマネージャーにファイルをアップロードしてから、レポートとアクティベーションが可能になるまでの最大待ち時間は48時間です。 |
+| 広告サーバーログファイル | ファイル処理はほぼリアルタイムで実行され、時間別ファイルの準備が整った時点で、ログファイルレコードを取り込みます。ファイルのレポート準備プロセスは、1 日 1 回実行されます。処理が必要な顧客データの総量の影響を受けるので、ファイル配信時間は変わります。Audience Manager でファイルがアップロードされてからデータがレポートおよびアクティブ化に使用できるようになるまで、最大 48 時間の遅延を想定してください。 |
 
 >[!MORELIKETHIS]
 >
