@@ -4,7 +4,7 @@ seo-description: この記事では、新しい統合と既存の統合の両方
 seo-title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 solution: Audience Manager
 title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb1bec17023b7b70c53659d68e2fbc431d9022fa
 
 ---
@@ -96,4 +96,4 @@ You will also see a new set of audiences in your [!DNL Twitter] account, with th
 ## マッチ率に関する考慮事項 {#match-rates-considerations}
 
 * [!UICONTROL Twitter Tailored Audiences] を使用する場合、宛先ページの [!UICONTROL Segment Addressable Audience] と [!UICONTROL Segment Match Rate] の指標には値が表示されません。この宛先のマッチ率で一致するオーディエンスは、アドビではなく、[!UICONTROL Twitter] によって処理およびホストされるので、これは通常の動作です。
-* オーディエンスマネージャーとの統合では、履歴 [!UICONTROL Twitter Tailored Audiences] の埋め込みがサポートされます。 宛先を作成すると、すべてのセグメ [!UICONTROL Twitter] ント資格がに送信されます。
+* Audience Manager と [!UICONTROL Twitter Tailored Audiences] の統合では、履歴オーディエンスのバックフィルがサポートされます。宛先を作成すると、すべてのセグメント認定が [!UICONTROL Twitter] に送信されます。
