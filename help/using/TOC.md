@@ -4,8 +4,8 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
-source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
+translation-type: tm+mt
+source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
 
 ---
 
@@ -39,9 +39,15 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
       + [使用の制限](features/administration/usage-limits.md)
       + [アクティビティ使用状況レポート](features/administration/activity-usage-reporting.md)
    + アルゴリズムモデル {#algorithmic-models}
-      + [アルゴリズムモデル](features/algorithmic-models/understanding-models.md)
-      + [アルゴリズムモデルの作成](features/algorithmic-models/create-model.md)
-      + [アルゴリズムモデル：特性の除外](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + [アルゴリズムモデルの概要](features/algorithmic-models/algo-models-overview.md)
+      + 類似モデリング {#look-alike-modeling}
+         + [類似モデリングについて](features/algorithmic-models/understanding-models.md)
+         + [類似したモデルを作成](features/algorithmic-models/create-model.md)
+         + [類似モデリング：特性の除外](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + 予測オーディエンス {#predictive-audiences}
+         + [予測オーディエンスの概要](features/algorithmic-models/predictive-audiences.md)
+         + [予測オーディエンス](features/algorithmic-models/predictive-audiences-start.md)
+         + [予測オーディエンスレポート](features/algorithmic-models/predictive-audiences-reporting.md)
    + Audience Lab {#audience-lab}
       + [Audience Lab の概要](features/audience-lab/audience-lab.md)
       + [テストグループの管理](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -381,6 +387,7 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
    + [People-Based Destinations に関する FAQ](faq/faq-people-based-destinations.md)
    + [製品の機能に関するよくある質問](faq/faq-features.md)
    + [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq/faq-profile-merge.md)
+   + [予測オーディエンスFAQ](faq/faq-predictive-audiences.md)
    + [ターゲティングに関するよくある質問](faq/faq-targeting.md)
    + [レポートに関するよくある質問](faq/faq-reporting.md)
 + ヘルプと法的事項 {#help-and-legal}
