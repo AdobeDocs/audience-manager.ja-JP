@@ -5,7 +5,7 @@ seo-title: 予測オーディエンスの概要
 solution: Audience Manager
 title: オーディエンスマネージャーの予測オーディエンス
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 ---
 
@@ -71,7 +71,7 @@ eコマース会社のマーケティング担当者として、Web訪問者と�
 
 * 個人の特徴またはセグメントを選択し、各個人のデバイスIDが少なくとも数百個になるよ [うにします](../../reference/ids-in-aam.md)。
 * 特性がデバイス間のIDに基づい [ている場合](../../reference/ids-in-aam.md)、などのデバイスIDを使用する [プロファイル結合ルールでセグメント](../profile-merge-rules/merge-rules-overview.md) に含めます [](../../reference/ids-in-aam.md)[!UICONTROL Device Graph]。 これにより、アルゴリズムが学習で [きる十分なデバイス](../../reference/ids-in-aam.md) IDを確保できます。
-* 1 ～ 3個の特性から成る、個人の特性または単純なセグメントを選択することをお勧めします。
+* 特性を1 ～ 3個まで含む、個人の特性または単純なセグメントを選択することをお勧めします。
 * 重なりが最小のベースライン特性またはセグメントを選択します。
 * デジタルプロパティ全体で詳細な特性をキャプチャしていることを確認します。
 
@@ -97,7 +97,7 @@ eコマース会社のマーケティング担当者として、Web訪問者と�
 ## 考慮事項と制限 {#considerations}
 
 >[!IMPORTANT]
-> 実装段階に進む前に、この記事をよくお読みください。
+> 実装段階に進む前に、この節をよく読んでください。
 
 モデルを設定す [!UICONTROL Predictive Audiences] る際は、次の点に注意してください。
 
