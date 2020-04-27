@@ -1,37 +1,26 @@
 ---
-description: アルゴリズムモデル（類似モデリング）で使用する特性やセグメントを作成し管理します。モデル機能は、オーディエンスデータ／モデルにあります。
-keywords: 相対的な重み付け類似
-seo-description: アルゴリズムモデル（類似モデリング）で使用する特性やセグメントを作成し管理します。モデル機能は、オーディエンスデータ／モデルにあります。
-seo-title: アルゴリズムモデルについて
+description: 類似のモデリングで使用する特性またはセグメントを作成および管理します。
+keywords: relative weight, lookalike
+seo-description: 類似のモデリングで使用する特性またはセグメントを作成および管理します。
+seo-title: 類似モデリングについて
 solution: Audience Manager
-title: アルゴリズムモデルについて
-topic: DIL API
+title: 類似モデリングについて
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
 
 ---
 
 
-# アルゴリズムモデルについて {#about-algorithmic-models}
+# 類似モデリングについて {#about-algorithmic-models}
 
-アルゴリズムモデル（類似モデリング）で使用する特性やセグメントを作成し管理します。モデル機能はは、**[!UICONTROL Audience Data > Models]**&#x200B;にあります。
+## Find New Users with Look-Alike Modeling {#find-new-users}
 
-<!-- c_models.xml -->
-
-## アルゴリズムモデルについて {#understanding-models}
-
-以下の節は、[!DNL Audience Manager] でのアルゴリズムによるモデリングのレビューを表しています。モデリングの仕組み、メリット、ワークフローなどについて説明します。
-
-<!-- understanding-models.xml -->
-
-## アルゴリズムモデリングで新しいユーザーを発見 {#find-new-users}
-
-アルゴリズムモデリングを使用すると、自動データ分析により、新しい個別オーディエンスを発見できます。このプロセスは、特性またはセグメント、時間間隔、ファーストパーティおよびサードパーティデータソースを選択した時点で開始します。この選択が、アルゴリズムモデルの入力となります。アナリティクス処理が実行されると、選択した母集団の共有特徴に基づいて、該当するユーザーを検索します。完了すると、このデータは[特性ビルダー](../../features/traits/about-trait-builder.md)で使用可能になります。ここでは、このデータを使用して[精度とリーチ](../../features/traits/trait-accuracy-reach.md)に基づいて特性を作成できます。さらに、アルゴリズム特性とルールベースの特性を結合するセグメントを作成し、ブール式や比較演算子を使用して他の認定要件を追加することができます。アルゴリズムモデリングを使用すると、使用可能なすべての特性データから価値を動的に抽出できます。
+[!UICONTROL Look-Alike Modeling] 自動化されたデータの分析により、新しい固有のオーディエンスを見つけるのに役立ちます。 このプロセスは、特性またはセグメント、時間間隔、ファーストパーティおよびサードパーティデータソースを選択した時点で開始します。この選択が、アルゴリズムモデルの入力となります。アナリティクス処理が実行されると、選択した母集団の共有特徴に基づいて、該当するユーザーを検索します。完了すると、このデータは[特性ビルダー](../../features/traits/about-trait-builder.md)で使用可能になります。ここでは、このデータを使用して[精度とリーチ](../../features/traits/trait-accuracy-reach.md)に基づいて特性を作成できます。さらに、アルゴリズム特性とルールベースの特性を結合するセグメントを作成し、ブール式や比較演算子を使用して他の認定要件を追加することができます。[!UICONTROL Look-Alike Modeling] 使用可能なすべての特性データから動的に値を抽出できます。
 
 ## メリット {#advantages}
 
-[!DNL Audience Manager] のモデリングを使用する主なメリットには、次のようなものがあります。
+The major benefits of using [!UICONTROL Look-Alike Modeling] include:
 
 * **データの精度：**&#x200B;アルゴリズムは定期的に実行されるので、結果は常に最新で関連性の高いものになります。
 * **自動化：**&#x200B;大規模な静的ルールのセットを管理する必要はありません。アルゴリズムがオーディエンスを特定します。
@@ -50,7 +39,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## トラブルシューティング {#troubleshooting}
 
-データの生成に 3 回連続で失敗したアルゴリズムモデルは、非アクティブ化されます。後でモデルのステータスを「Active」に戻すことはできません。モデルがデータを生成するようにするには、データを蓄積するために十分な量の特性を持つデータソースからモデルを作成することが推奨されます。
+We deactivate any [!UICONTROL Look-Alike Model] that fails to generate data for three consecutive runs. 後でモデルのステータスを「Active」に戻すことはできません。モデルがデータを生成するようにするには、データを蓄積するために十分な量の特性を持つデータソースからモデルを作成することが推奨されます。
 
 ## TraitWeight について {#understanding-traitweight}
 
@@ -91,13 +80,13 @@ Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]�
 * [モデルビルダー](../../features/algorithmic-models/create-model.md)
 * [精度とリーチ](../../features/traits/trait-accuracy-reach.md)
 
-## アルゴリズムモデルおよび特性の更新スケジュール {#update-schedule}
+## Update Schedule for Look-Alike Models and Traits {#update-schedule}
 
 新規または既存のアルゴリズムモデルおよび特性の作成と更新のスケジュールについて説明します。
 
 <!-- c_model_update_schedule.xml -->
 
-### アルゴリズムモデルの作成および更新スケジュール
+### 類似モデルの作成と更新のスケジュール
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
  <thead>
@@ -109,11 +98,11 @@ Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]�
  <tbody>
   <tr> 
    <td colname="col1"> <b>モデルの作成または複製</b> </td>
-   <td colname="col2"> <p>新規または複製したアルゴリズムモデルについて、作成プロセスは毎日以下の時間に 1 回実行されます。 
+   <td colname="col2"> <p>[!UICONTROL類似モデル]の新規作成または複製の場合、作成プロセスは1日に1回、次の場所で実行されます。 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 午後 5 時 EST（11 月～3 月） </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 午後 6 時 EDT（3 月～11 月） </li> 
-     </ul> </p> <p>作成期日後に構築または複製されたモデルは、翌日に処理されます。 </p> <p>モデルの最初の実行でデータが生成されない場合、2 回目は次の日に実行されます。2 回目でもデータが生成されない場合、3 回目がその次の日に実行されます。3 回目の試行でもデータが生成されない場合、モデルは実行を停止します。この場合、モデルは非アクティブ化されます。詳しくは、<a href="../../features/algorithmic-models/understanding-models.md#troubleshooting">アルゴリズムモデルのトラブルシューティング</a>を参照してください。 </p> </td>
+     </ul> </p> <p>作成期日後に構築または複製されたモデルは、翌日に処理されます。 </p> <p>モデルの最初の実行でデータが生成されない場合、2 回目は次の日に実行されます。2 回目でもデータが生成されない場合、3 回目がその次の日に実行されます。3 回目の試行でもデータが生成されない場合、モデルは実行を停止します。この場合、モデルは非アクティブ化されます。See more in <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Troubleshooting Look-Alike Models</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>モデルの更新</b> </td> 
@@ -126,7 +115,7 @@ Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]�
  </tbody>
 </table>
 
-### アルゴリズム特性の作成および更新スケジュール
+### 類似の特性の作成と更新のスケジュール
 
 <table id="table_92A908818C4F4F2287EA56C786CD0BBD"> 
  <thead> 
@@ -199,7 +188,7 @@ Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Traits Using Model</span> </p> </td>
-   <td colname="col2"> <p>選択したモデルに基づいて、アルゴリズム特性のリストを表示します。特性名または特性 ID をクリックすると、特性に関する詳細情報が表示されます。<b><span class="uicontrol">Create New Trait with Model</span></b>を選択すると、アルゴリズム特性作成プロセスに移動します。 </p> <p>セクションラベルは、モデルの名前に基づいて変更されます。例えば、モデルを作成して名前をモデル A にしたとします。概要ページを読み込むと、このセクションの名前が <span class="wintitle">Traits Using Model A</span> に変更されます。 </p> </td>
+   <td colname="col2"> <p>選択したモデルに基づいて、アルゴリズム特性のリストを表示します。特性名または特性 ID をクリックすると、特性に関する詳細情報が表示されます。「<b><span class="uicontrol">Create New Trait with Model</span></b>」を選択すると、アルゴリズム特性作成プロセスに移動します。 </p> <p>セクションラベルは、モデルの名前に基づいて変更されます。例えば、モデルを作成して名前をモデル A にしたとします。概要ページを読み込むと、このセクションの名前が <span class="wintitle">Traits Using Model A</span> に変更されます。 </p> </td>
   </tr>
  </tbody>
 </table>
