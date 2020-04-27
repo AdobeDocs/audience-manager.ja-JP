@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -202,7 +202,6 @@ source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
       + [Daily Trait Variation レポート](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + インタラクティブな重複レポート {#interactive-and-overlap-reports}
       + [インタラクティブな重複レポートの概要](reporting/dynamic-reports/dynamic-reports.md)
-      + [配信およびパフォーマンスレポート](reporting/dynamic-reports/delivery-performance-report.md)
       + [特性間重複レポート](reporting/dynamic-reports/trait-trait-overlap-report.md)
       + [セグメント／特性間重複レポート](reporting/dynamic-reports/segment-trait-overlap-report.md)
       + [セグメント間重複レポート](reporting/dynamic-reports/segment-segment-overlap-report.md)
