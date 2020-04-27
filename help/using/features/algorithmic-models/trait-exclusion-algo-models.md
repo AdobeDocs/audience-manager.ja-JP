@@ -4,13 +4,13 @@ seo-description: 特性の除外を使用すると、モデリングワークフ
 seo-title: アルゴリズムモデル  特性の除外
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
-translation-type: ht
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+translation-type: tm+mt
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# アルゴリズムモデル：特性の除外 {#algorithmic-models-trait-exclusion}
+# 類似モデリング：特性の除外 {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion]を使用すると、モデリングワークフローをさらに細かく制御し、ドメインに関する知識および規制要件に応じてモデルに含める特性を限定できます。1 つまたは複数のデータソースからモデルを作成するときに、「[!UICONTROL Exclusions]」オプションを使用して、除外する特性を指定します。
 
@@ -44,7 +44,7 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ビデオチュートリアルを希望する場合は、特性の除外のビデオデモをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 ## 重要な点と制限事項 {#important-aspects-and-limitations}
 
@@ -87,9 +87,9 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 [!UICONTROL Look-Alike Model] からの特定の特性を除外する方法と理由については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## 関連リンク
 
 * [アルゴリズムの特性について](/help/using/features/algorithmic-models/understanding-models.md)
-* [特性の除外 - チュートリアル](https://helpx.adobe.com/jp/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
+* [特性の除外 — チュートリアル](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
