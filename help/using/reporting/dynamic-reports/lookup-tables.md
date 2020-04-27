@@ -5,8 +5,8 @@ seo-title: ルックアップテーブルによるログファイル処理時間
 solution: Audience Manager
 title: ルックアップテーブルによるログファイル処理時間の改善
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -57,7 +57,7 @@ c_lookup_tables.xml
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
-<br>
+<br> 
 
 以下のルックアップファイルにはメタデータが含まれており、広告 ID でメインファイルにリンクし直すことができます。サイズにも注意してください。各広告主を複数回繰り返す代わりに、それぞれに 1 つの参照のみが必要です。
 
@@ -69,8 +69,3 @@ c_lookup_tables.xml
 ## ルックアップテーブルを不要にする API
 
 広告配信システムに API が用意されている場合は、ルックアップファイルにメタデータを送信する必要がない可能性があります。その情報を API を使用して取得できる可能性があります。この場合、ログファイルには ID のみを含める必要があります。アドビはお客様と協力して、API を使用してメタデータを取得できるかどうかを判断します。
-
->[!MORELIKETHIS]
->
->* [配信およびパフォーマンスレポート](../../reporting/dynamic-reports/delivery-performance-report.md)
-
