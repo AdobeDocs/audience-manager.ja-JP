@@ -6,7 +6,7 @@ solution: Audience Manager
 title: インタラクティブな重複レポート
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 translation-type: tm+mt
-source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -16,11 +16,10 @@ source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 インタラクティブレポートには、特性およびセグメントのパフォーマンスと重複のデータが表示されます。これらのレポートでは、列と行に数値を配置する代わりに、各種の形状、色およびサイズを使用してデータを返します。さらに、個々のデータポイントまたはデータポイントグループを選択して、レポート結果の詳細を調べることもできます。これらのインタラクティブな視覚化手法およびレポートで、大量の数値データをわかりやすく提示することができます。
 
 + [レポート技術](interactive-report-technology.md)
-+ [配信およびパフォーマンスレポート](delivery-performance-report.md)
 + [特性間重複レポート](trait-trait-overlap-report.md)
 + [セグメント／特性間重複レポート](segment-trait-overlap-report.md)
 + [セグメント間重複レポート](segment-segment-overlap-report.md)
-+ [Unused Signals レポート](unused-signals.md)
++ [未使用シグナルレポート](unused-signals.md)
 + [ルックアップテーブルによるログファイル処理時間の改善](lookup-tables.md)
 + [データスライダーを使用したレポート結果のフィルタリング](data-sliders.md)
 + [重複レポート：更新スケジュールと最小セグメントサイズ](overlap-minimum-segment-size.md)
