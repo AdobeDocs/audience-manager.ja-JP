@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: 100767fe1d8baaa49fb6e83fdae23144ce9748a7
+source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ---
 
@@ -71,11 +71,11 @@ Experience Platform セグメントから自動的に作成された特性の例
 
 | 項目番号 | 名前 | 説明 |
 ---------|----------|---------
-| 1 | [!UICONTROL Trait Type] | Experience Platform セグメントから作成された特徴は、Audience Manager でオンボードの特性として作成されます。 |
-| 2 | [!UICONTROL Data Source] | 自動的に作成されます。All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
-| 4 | [!UICONTROL Trait Expression] | 特性の式は `segID = segment ID in Experience Platform` です。 |
-| 5 | [!UICONTROL Segments with this Trait] | この特性を構成として使用する、自動的に作成されたセグメント。 |
+| 1 | 特性タイプ | Experience Platform セグメントから作成された特徴は、Audience Manager でオンボードの特性として作成されます。 |
+| 2 | データソース | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**Adobe Experience Platform オーディエンス共有**&#x200B;のデータソースに保存されます。 |
+| 3 | 統合コード | 統合コードは、Experience Platform のセグメント ID に対応します。 |
+| 4 | 特性の式 | 特性の式は `segID = segment ID in Experience Platform` です。 |
+| 5 | この特性を持つセグメント | この特性を構成として使用する、自動的に作成されたセグメント。 |
 
  <br>
 
@@ -91,21 +91,7 @@ Experience Platform セグメントから自動的に作成されたセグメン
 
 | 項目番号 | 名前 | 説明 |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
-| 2 | [!UICONTROL Data Source] | 自動的に作成されます。All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** 自動的に作成されたセグメントが、エクスペリエンスプラットフォームで設定された結合ポリシーに従うことを示します。 |
-| 4 | [!UICONTROL Segment Rule] | このセグメントは、[「特性」セクション](#aep-segments-as-aam-traits)で説明されている特性で構成されます。 |
-
-## Experience ManagerとExperience Platformの間のセグメントのオーディエンス訪問者の違いを理解する
-
-セグメントの訪問者数は、オーディエンスマネージャーとExperience Platformのセグメントで異なります。 セグメント番号は常に妥当な範囲内ですが、訪問者数のわずかな違いは次の原因によって生じる可能性があります。
-
-* セグメント化ジョブの実行時間。 オーディエンスマネージャは、インターフェイスの数値を1日1回更新するセグメント化ジョブを実行します。 このジョブがエクスペリエンスプラットフォームのセグメント化ジョブと一致することはほとんどありません。
-* [プロファイルの結合ルール](/help/using/features/profile-merge-rules/merge-rules-overview.md) (オーディエンスマネージャー [の場合)とExperience Platformの結合ポリシー](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) （Experience Platformの場合）は動作が異なり、それぞれに使用されるIDグラフは異なります。 このため、セグメントの訪問者数の違いがいくつか予想されます。
-
-
->[!MORELIKETHIS]
->
->* [セグメント化サービスの概要](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
->* [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
->* [Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
+| 1 | 統合コード | 統合コードは、Experience Platform のセグメント ID に対応します。 |
+| 2 | データソース | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**Adobe Experience Platform オーディエンス共有**&#x200B;のデータソースに保存されます。 |
+| 3 | プロファイル結合ルール | **外部結合ポリシー**&#x200B;は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
+| 4 | セグメントルール | このセグメントは、[「特性」セクション](#aep-segments-as-aam-traits)で説明されている特性で構成されます。 |
