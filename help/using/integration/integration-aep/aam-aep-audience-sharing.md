@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: f191035a1ad4b83bb3d391de80e1f925d6295df7
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ## 概要 {#overview}
 
-Audience Manager と Adobe Experience Platform の間でオーディエンス共有機能を使用すると、Audience Manager の特性とセグメントを Adobe Experience Platform と共有できます。また、その逆も可能です。Audience Manager と Adobe Experience Platform の間でオーディエンス共有を有効にするには、[Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)が必要です。
+Audience Manager と Adobe Experience Platform の間でオーディエンス共有機能を使用すると、Audience Manager の特性とセグメントを Adobe Experience Platform と共有できます。また、その逆も可能です。Audience Manager と Adobe Experience Platform の間でオーディエンス共有を有効にするには、[Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)が必要です。
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)を活用することができます。
 
@@ -46,7 +46,7 @@ Audience Manager の特性とセグメントは、セグメントワークフロ
 
 * [セグメント化サービスの概要](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
-* [Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
+* [Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
  <br>
 
@@ -91,7 +91,23 @@ Experience Platform セグメントから自動的に作成されたセグメン
 
 | 項目番号 | 名前 | 説明 |
 ---------|----------|---------
-| 1 | 統合コード | 統合コードは、Experience Platform のセグメント ID に対応します。 |
-| 2 | データソース | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**Adobe Experience Platform オーディエンス共有**&#x200B;のデータソースに保存されます。 |
-| 3 | プロファイル結合ルール | **外部結合ポリシー**&#x200B;は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
-| 4 | セグメントルール | このセグメントは、[「特性」セクション](#aep-segments-as-aam-traits)で説明されている特性で構成されます。 |
+| 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
+| 2 | [!UICONTROL Data Source] | 自動的に作成されます。All traits and segments that are created automatically from Experience Platform segments are stored in the data source **[!DNL Adobe Experience Platform Audience Sharing]**. |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** 自動的に作成されたセグメントが、エクスペリエンスプラットフォームで設定された結合ポリシーに従うことを示します。 |
+| 4 | [!UICONTROL Segment Rule] | このセグメントは、[「特性」セクション](#aep-segments-as-aam-traits)で説明されている特性で構成されます。 |
+
+## Experience ManagerとExperience Platformの間のセグメントのオーディエンス訪問者の違いを理解する
+
+セグメントの訪問者数は、オーディエンスマネージャーとExperience Platformのセグメントで異なります。 類似または同一のオーディエンスのセグメント番号は近いはずですが、訪問者の違いは次の原因による場合があります。
+
+* セグメント化ジョブの実行時間。 オーディエンスマネージャは、インターフェイスの数値を1日1回更新するセグメント化ジョブを実行します。 このジョブがエクスペリエンスプラットフォームのセグメント化ジョブと一致することはほとんどありません。
+* [プロファイルの結合ルール](/help/using/features/profile-merge-rules/merge-rules-overview.md) (オーディエンスマネージャー [の場合)とExperience Platformの結合ポリシー](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) （Experience Platformの場合）は動作が異なり、それぞれに使用されるIDグラフは異なります。 このため、セグメントの訪問者数の違いがいくつか予想されます。
+
+
+>[!MORELIKETHIS]
+>
+>* [セグメント化サービスの概要](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+
+
