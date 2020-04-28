@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: d086b0cacd93f126ae7b362f4a2632bdccfcb1c2
 
 ---
 
@@ -34,7 +34,22 @@ Audience Manager [!DNL API] を使用する際に留意すべき事項の説明�
 
 * **ドキュメントおよびコードサンプル：***斜体*&#x200B;のテキストは、[!DNL API] データを作成または受け取る際に指定または渡される変数を示します。*斜体*&#x200B;のテキストを独自のコード、パラメーターまたは他の必要な情報に置き換えてください。
 
-## 推奨事項：汎用の API ユーザーを作成する {#requirements}
+## JWT（サービスアカウント）認証 {#jwt}
+
+安全なサービス間Adobe I/O APIセッションを確立するには、統合のIDをカプセル化するJSON Web Token(JWT)を作成し、それをアクセストークンと交換する必要があります。 アドビのサービスへのリクエストは、 [Adobe I/Oコンソールで](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Service Account Integrationを作成したときに生成されたAPIキー [（クライアントID）と共に、認証ヘッダーにアクセストークンを含める必要があります](https://console.adobe.io/)。
+
+認証の設定方法について詳しくは、 [JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) (JWT)を参照してください。
+
+## OAuth認証（廃止） {#oauth}
+
+>[!WARNING]
+> オーディエンスマネー [!UICONTROL REST API] ジャートークンの認証と、による更新 [!DNL OAuth 2.0] が廃止されました。
+>
+> 代わりに、 [JWT（サービスアカウント）認証を使用してください](#jwt-service-account-authentication-jwt) 。
+
+Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従って、トークンの認証と更新をおこないます。以下のセクションでは、[!DNL API] を認証し、使用を開始する方法について説明します。
+
+## Create a Generic API User {#requirements}
 
 Audience Manager [!DNL API] を使用するための個別の技術的なユーザーアカウントを作成することをお勧めします。これは、組織の特定ユーザーに関連していない、または関連付けられていない一般的なアカウントです。このような [!DNL API] ユーザーアカウントによって 2 つのことが可能になります。
 
@@ -44,10 +59,6 @@ Audience Manager [!DNL API] を使用するための個別の技術的なユー�
 このようなアカウントのユースケースとして、[一括管理ツール](../../reference/bulk-management-tools/bulk-management-intro.md)を参照してください。これをおこなうためには、ユーザーアカウントに [!DNL API] へのアクセス権が付与されている必要があります。特定のユーザーに対して権限を追加するのではなく、適切な資格情報、キー、および [!DNL API] 呼び出し用の暗号鍵を持つ汎用の [!DNL API] ユーザーアカウントを作成します。これは、Audience Manager [!DNL API] を使用する独自のアプリケーションを開発する場合にも便利です。
 
 担当の Audience Manager コンサルタントにご相談のうえ、[!DNL API] 専用のユーザーアカウントの設定をおこなってください。
-
-## OAuth 認証 {#oauth}
-
-Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従って、トークンの認証と更新をおこないます。以下のセクションでは、[!DNL API] を認証し、使用を開始する方法について説明します。
 
 ## パスワード認証ワークフロー {#password-authentication-workflow}
 
@@ -108,6 +119,7 @@ Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従っ
 優先 [!DNL JSON] クライアントで更新トークンのリクエストを渡します。リクエストをおこなうには、次の手順に従います。
 
 * `POST` メソッドを使用して `https://api.demdex.com/oauth/token` を呼び出します。
+* リクエストヘッダー：adobe I/Oトー [クンを使用する場合](https://www.adobe.io/) 、ヘッダーを指定する必要があ `x-api-key` ります。 APIキーは、サービスアカウント統合ページの手順に従っ [て取得できます](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 。
 * クライアント ID と暗号鍵を、base-64 でエンコードされた文字列に変換します。この変換では、ID と暗号鍵はコロンで区切ります。例えば、資格情報 `testId : testSecret` は `dGVzdElkOnRlc3RTZWNyZXQ=` に変換されます。
 * HTTP ヘッダー `Authorization:Basic <base-64 clientID:clientSecret>` と `Content-Type: application/x-www-form-urlencoded` を渡します。ヘッダーの例を以下に挙げます。<br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * リクエストの本文で、`grant_type:refresh_token` を指定し、前のアクセスリクエストで受け取った更新トークンを渡します。リクエストは次のようになっています。<br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
