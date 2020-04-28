@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: afaaaa50bdbe1dd0104af7e715d76985cb3d443c
+source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ---
 
@@ -45,18 +45,7 @@ Audience Manager [!DNL API] を使用するための個別の技術的なユー�
 
 担当の Audience Manager コンサルタントにご相談のうえ、[!DNL API] 専用のユーザーアカウントの設定をおこなってください。
 
-## JWT（サービスアカウント）認証 {#jwt}
-
-安全なサービス間Adobe I/O APIセッションを確立するには、統合のIDをカプセル化するJSON Web Token(JWT)を作成し、それをアクセストークンと交換する必要があります。 アドビのサービスへのリクエストは、 [Adobe I/Oコンソールで](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Service Account Integrationを作成したときに生成されたAPIキー [（クライアントID）と共に、認証ヘッダーにアクセストークンを含める必要があります](https://console.adobe.io/)。
-
-認証の設定方法について詳しくは、 [JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) (JWT)を参照してください。
-
-## OAuth認証（廃止） {#oauth}
-
->[!WARNING]
-> オーディエンスマネー [!UICONTROL REST API] ジャートークンの認証と、による更新 [!DNL OAuth 2.0] が廃止されました。
->
-> 代わりに、 [JWT（サービスアカウント）認証を使用してください](#jwt-service-account-authentication-jwt) 。
+## OAuth 認証 {#oauth}
 
 Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従って、トークンの認証と更新をおこないます。以下のセクションでは、[!DNL API] を認証し、使用を開始する方法について説明します。
 
@@ -80,7 +69,7 @@ Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従っ
 
 [!DNL JSON] クライアントでトークンのリクエストを渡します。リクエストをおこなうには、次の手順に従います。
 
-* `POST` メソッドを使用して `https://aam.adobe.io/oauth/token` を呼び出します。
+* `POST` メソッドを使用して `https://api.demdex.com/oauth/token` を呼び出します。
 * クライアント ID と暗号鍵を、base-64 でエンコードされた文字列に変換します。この変換では、ID と暗号鍵はコロンで区切ります。例えば、資格情報 `testId : testSecret` は `dGVzdElkOnRlc3RTZWNyZXQ=` に変換されます。
 * [!DNL HTTP] ヘッダー `Authorization:Basic <base-64 clientID:clientSecret>` と `Content-Type: application/x-www-form-urlencoded` を渡します。ヘッダーの例を以下に挙げます。<br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=`<br/>`Content-Type: application/x-www-form-urlencoded`
 * リクエストの本文を次のように設定します。
@@ -118,7 +107,7 @@ Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従っ
 
 優先 [!DNL JSON] クライアントで更新トークンのリクエストを渡します。リクエストをおこなうには、次の手順に従います。
 
-* `POST` メソッドを使用して `https://aam.adobe.io/oauth/token` を呼び出します。
+* `POST` メソッドを使用して `https://api.demdex.com/oauth/token` を呼び出します。
 * クライアント ID と暗号鍵を、base-64 でエンコードされた文字列に変換します。この変換では、ID と暗号鍵はコロンで区切ります。例えば、資格情報 `testId : testSecret` は `dGVzdElkOnRlc3RTZWNyZXQ=` に変換されます。
 * HTTP ヘッダー `Authorization:Basic <base-64 clientID:clientSecret>` と `Content-Type: application/x-www-form-urlencoded` を渡します。ヘッダーの例を以下に挙げます。<br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * リクエストの本文で、`grant_type:refresh_token` を指定し、前のアクセスリクエストで受け取った更新トークンを渡します。リクエストは次のようになっています。<br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
@@ -139,7 +128,7 @@ Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従っ
 
 ## 認証コードと暗黙的な認証 {#authentication-code-implicit}
 
-Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認証をサポートしています。これらのアクセス方法を利用するには、ユーザーが `https://aam.adobe.io/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
+Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認証をサポートしています。これらのアクセス方法を利用するには、ユーザーが `https://api.demdex.com/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
 
 ## 認証済み API リクエストの作成 {#authenticated-api-requests}
 
@@ -166,7 +155,7 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 | pageSize | リクエストによって返された応答結果の番号を設定します（10 がデフォルト）。 |
 | sortBy | 指定された [!DNL JSON] プロパティに従って、結果を並べ替えて返します。 |
 | descending | 結果を降順で並べ替えて返します。昇順がデフォルトです。 |
-| search | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。`GET https://aam.adobe.io/v1/models/?search=Test`。「get all」メソッドで返されるすべての値を検索できます。 |
+| search | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。`GET https://api.demdex.com/v1/models/?search=Test`。「get all」メソッドで返されるすべての値を検索できます。 |
 | folderId | 指定されたフォルダー内の特性のすべての ID を返します。すべてのメソッドに対して使用できるわけではありません。 |
 | permissions | 指定された権限に基づいて、セグメントのリストを返します。READ がデフォルトです。権限には以下のものがあります。<ul><li>`READ`：セグメントに関する情報を返して表示します。</li><li>`WRITE`：`PUT` を使用してセグメントを更新します。</li><li>`CREATE`：`POST` を使用してセグメントを作成します。</li><li>`DELETE`：セグメントの削除。基になる特性がある場合、その特性へのアクセス権が必要です。例えば、特性を削除する場合、セグメントに属する特性を削除する権限が必要です。</li></ul><br>複数の権限を個別のキーと値のペアで指定します。例えば、`READ` および `WRITE` 権限だけを持っているセグメントのリストを返すには、`"permissions":"READ"`、`"permissions":"WRITE"` を渡します。 |
 | includePermissions | （ブール値）true に設定して、セグメントの権限を返します。デフォルトは false です。 |
@@ -176,7 +165,7 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 ページ情報が指定&#x200B;*されていない*&#x200B;場合、リクエストは、プレーンな [!DNL JSON] 結果を配列で返します。ページ情報が指定&#x200B;*されている*&#x200B;場合、返されるリストは、合計結果と現在のページに関する情報を含んだ [!DNL JSON] オブジェクトにラッピングされます。ページオプションを使用したサンプルリクエストは次のようになります。
 
 ```
-GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
+GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ```
 
 ## API URL {#api-urls}
@@ -191,17 +180,17 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
-| アルゴリズムモデリング | `https://aam.adobe.io/v1/models/` |
-| データソース | `https://aam.adobe.io/v1/datasources/` |
-| 派生シグナル | `https://aam.adobe.io/v1/signals/derived/` |
-| 宛先 | `https://aam.adobe.io/v1/destinations/` |
-| ドメイン | `https://aam.adobe.io/v1/partner-sites/` |
-| フォルダー | 特性：`https://aam.adobe.io/v1/folders/traits /`<br>セグメント： `https://aam.adobe.io/v1/folders/segments /` |
-| スキーマ | `https://aam.adobe.io/v1/schemas/` |
-| セグメント | `https://aam.adobe.io/v1/segments/` |
-| 特性 | `https://aam.adobe.io/v1/traits/` |
-| 特性タイプ | `https://aam.adobe.io/v1/customer-trait-types` |
-| 分類 | `https://aam.adobe.io/v1/taxonomies/0/` |
+| アルゴリズムモデリング | `https://api.demdex.com/v1/models/` |
+| データソース | `https://api.demdex.com/v1/datasources/` |
+| 派生シグナル | `https://api.demdex.com/v1/signals/derived/` |
+| 宛先 | `https://api.demdex.com/v1/destinations/` |
+| ドメイン | `https://api.demdex.com/v1/partner-sites/` |
+| フォルダー | 特性：`https://api.demdex.com/v1/folders/traits /`<br>セグメント： `https://api.demdex.com/v1/folders/segments /` |
+| スキーマ | `https://api.demdex.com/v1/schemas/` |
+| セグメント | `https://api.demdex.com/v1/segments/` |
+| 特性 | `https://api.demdex.com/v1/traits/` |
+| 特性タイプ | `https://api.demdex.com/v1/customer-trait-types` |
+| 分類 | `https://api.demdex.com/v1/taxonomies/0/` |
 
 ## 環境 {#environments}
 
@@ -209,7 +198,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 | 環境 | ホスト名 |
 |---|---|
-| **実稼動** | `https://aam.adobe.io/...` |
+| **実稼動** | `https://api.demdex.com/...` |
 | **ベータ** | `https://api-beta.demdex.com/...` |
 
 >[!NOTE]
