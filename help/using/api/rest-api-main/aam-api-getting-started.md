@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
+source-git-commit: 1bbfa4b537a344d58f20763bb40ebe0827ad8698
 
 ---
 
@@ -242,10 +242,11 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 使用する認証方法に応じて、次の表に従って環境URLを調整する必要があります。
 
-| 環境 | ホスト名 OAuth認証の場合 | JWT認証のホスト名 |
+| 環境 | ホスト名 （JWT認証用） | OAuth認証のホスト名 |
 |---|---|---|
-| **実稼動** | `https://api.demdex.com/...` | `https://aam.adobe.io/...` |
-| **ベータ** | `https://api-beta.demdex.com/...` | `https://aam-beta.adobe.io/...` |
+| **実稼動** | `https://aam.adobe.io/...` | `https://api.demdex.com/...` |
+| **ベータ** | `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
+
 
 >[!NOTE]
 >
