@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: d086b0cacd93f126ae7b362f4a2632bdccfcb1c2
+source-git-commit: 184f9c298f776977c375e4c7a918c5a131c4bcd1
 
 ---
 
@@ -34,6 +34,17 @@ Audience Manager [!DNL API] を使用する際に留意すべき事項の説明�
 
 * **ドキュメントおよびコードサンプル：***斜体*&#x200B;のテキストは、[!DNL API] データを作成または受け取る際に指定または渡される変数を示します。*斜体*&#x200B;のテキストを独自のコード、パラメーターまたは他の必要な情報に置き換えてください。
 
+## Authentication {#authentication}
+
+オーディエンスマネージャーREST APIは、2つの認証方法をサポートしています。
+
+* [JWT（サービスアカウント）認証が推奨される認証方法](#jwt) 。
+* [OAuth認証（非推奨）](#oauth)。 既存のOAuth統合を使用するお客様は、引き続きこの方法を使用できます。
+
+>[!IMPORTANT]
+>
+>認証方法に応じて、要求URLを調整する必要があります。 使用するホ [スト名の詳細は](#environments) 、環境のセクションを参照してください。
+
 ## JWT（サービスアカウント）認証 {#jwt}
 
 安全なサービス間Adobe I/O APIセッションを確立するには、統合のIDをカプセル化するJSON Web Token(JWT)を作成し、それをアクセストークンと交換する必要があります。 アドビのサービスへのリクエストは、 [Adobe I/Oコンソールで](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Service Account Integrationを作成したときに生成されたAPIキー [（クライアントID）と共に、認証ヘッダーにアクセストークンを含める必要があります](https://console.adobe.io/)。
@@ -49,7 +60,7 @@ Audience Manager [!DNL API] を使用する際に留意すべき事項の説明�
 
 Audience Manager [!UICONTROL REST API] では、[!DNL OAuth 2.0] 標準に従って、トークンの認証と更新をおこないます。以下のセクションでは、[!DNL API] を認証し、使用を開始する方法について説明します。
 
-## Create a Generic API User {#requirements}
+### Create a Generic API User {#requirements}
 
 Audience Manager [!DNL API] を使用するための個別の技術的なユーザーアカウントを作成することをお勧めします。これは、組織の特定ユーザーに関連していない、または関連付けられていない一般的なアカウントです。このような [!DNL API] ユーザーアカウントによって 2 つのことが可能になります。
 
@@ -60,7 +71,7 @@ Audience Manager [!DNL API] を使用するための個別の技術的なユー�
 
 担当の Audience Manager コンサルタントにご相談のうえ、[!DNL API] 専用のユーザーアカウントの設定をおこなってください。
 
-## パスワード認証ワークフロー {#password-authentication-workflow}
+### パスワード認証ワークフロー {#password-authentication-workflow}
 
 <!-- oath-authentication.xml -->
 
@@ -70,13 +81,13 @@ Audience Manager [!DNL API] を使用するための個別の技術的なユー�
 >
 >更新トークンをデータベースに保存する場合は、アクセスと更新トークンを暗号化します。
 
-### ステップ 1：API アクセスのリクエスト
+#### ステップ 1：API アクセスのリクエスト
 
 パートナーソリューションソリューションに問い合わせます。[!DNL API] クライアント ID と暗号鍵が通知されます。この ID と暗号鍵により、[!DNL API] での認証をおこないます。
 
 注意：更新トークンを受け取る場合は、[!DNL API] アクセスをリクエストする際にその旨を申告してください。
 
-### ステップ 2：トークンのリクエスト
+#### ステップ 2：トークンのリクエスト
 
 [!DNL JSON] クライアントでトークンのリクエストを渡します。リクエストをおこなうには、次の手順に従います。
 
@@ -86,7 +97,7 @@ Audience Manager [!DNL API] を使用するための個別の技術的なユー�
 * リクエストの本文を次のように設定します。
    <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
-### ステップ 3：トークンの受け取り
+#### ステップ 3：トークンの受け取り
 
 [!DNL JSON]応答にはアクセストークンが含まれています。応答は次のようになっています。
 
@@ -102,7 +113,7 @@ Audience Manager [!DNL API] を使用するための個別の技術的なユー�
 
 `expires_in` キーは、アクセストークンの有効期間を秒単位で表しています。トークンが公開される場合、ベストプラクティスとして、有効期間を短く設定し、公開時間を制限します。
 
-## 更新トークン {#refresh-token}
+### 更新トークン {#refresh-token}
 
 更新トークンは、元のトークンの有効期間が終了した後、[!DNL API] アクセスを更新します。リクエストがあれば、パスワードワークフローの応答 [!DNL JSON] に更新トークンが含まれます。更新トークンを受け取らない場合、パスワード認証プロセスにより新しいトークンを作成します。
 
@@ -114,17 +125,17 @@ Audience Manager [!DNL API] を使用するための個別の技術的なユー�
 
 次の表は、更新トークンを使用してブラウザーの [!DNL JSON] クライアントから新しいアクセストークンを作成するワークフローを示しています。
 
-### ステップ 1：新しいトークンのリクエスト
+#### ステップ 1：新しいトークンのリクエスト
 
 優先 [!DNL JSON] クライアントで更新トークンのリクエストを渡します。リクエストをおこなうには、次の手順に従います。
 
 * `POST` メソッドを使用して `https://api.demdex.com/oauth/token` を呼び出します。
-* リクエストヘッダー：adobe I/Oトー [クンを使用する場合](https://www.adobe.io/) 、ヘッダーを指定する必要があ `x-api-key` ります。 APIキーは、サービスアカウント統合ページの手順に従っ [て取得できます](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 。
+<!-- * Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page. -->
 * クライアント ID と暗号鍵を、base-64 でエンコードされた文字列に変換します。この変換では、ID と暗号鍵はコロンで区切ります。例えば、資格情報 `testId : testSecret` は `dGVzdElkOnRlc3RTZWNyZXQ=` に変換されます。
 * HTTP ヘッダー `Authorization:Basic <base-64 clientID:clientSecret>` と `Content-Type: application/x-www-form-urlencoded` を渡します。ヘッダーの例を以下に挙げます。<br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * リクエストの本文で、`grant_type:refresh_token` を指定し、前のアクセスリクエストで受け取った更新トークンを渡します。リクエストは次のようになっています。<br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
-### ステップ 2：新しいトークンの受け取り
+#### ステップ 2：新しいトークンの受け取り
 
 [!DNL JSON] 応答に新しいアクセストークンが含まれます。応答は次のようになっています。
 
@@ -138,7 +149,7 @@ Audience Manager [!DNL API] を使用するための個別の技術的なユー�
 }
 ```
 
-## 認証コードと暗黙的な認証 {#authentication-code-implicit}
+### 認証コードと暗黙的な認証 {#authentication-code-implicit}
 
 Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認証をサポートしています。これらのアクセス方法を利用するには、ユーザーが `https://api.demdex.com/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
 
@@ -151,6 +162,7 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 使用可能な [!DNL API] メソッドに対する呼び出しをおこなうには：
 
 * `HTTP` ヘッダーで `Authorization: Bearer <token>` を設定します。
+* [JWT（サービスアカウント）認証を使用する場合](#jwt)、ヘッダーを指定する必要があります。こ `x-api-key` れは、ユーザーと同じヘッダーです `client_id`。 Adobe I/O統合ペ `client_id` ージか [ら入手できます](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 。
 * 必要な [!DNL API] メソッドを呼び出します。
 
 ## オプションの API クエリパラメーター {#optional-api-query-parameters}
@@ -167,7 +179,7 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 | pageSize | リクエストによって返された応答結果の番号を設定します（10 がデフォルト）。 |
 | sortBy | 指定された [!DNL JSON] プロパティに従って、結果を並べ替えて返します。 |
 | descending | 結果を降順で並べ替えて返します。昇順がデフォルトです。 |
-| search | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。`GET https://api.demdex.com/v1/models/?search=Test`。「get all」メソッドで返されるすべての値を検索できます。 |
+| search | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。`GET https://aam.adobe.io/v1/models/?search=Test`。「get all」メソッドで返されるすべての値を検索できます。 |
 | folderId | 指定されたフォルダー内の特性のすべての ID を返します。すべてのメソッドに対して使用できるわけではありません。 |
 | permissions | 指定された権限に基づいて、セグメントのリストを返します。READ がデフォルトです。権限には以下のものがあります。<ul><li>`READ`：セグメントに関する情報を返して表示します。</li><li>`WRITE`：`PUT` を使用してセグメントを更新します。</li><li>`CREATE`：`POST` を使用してセグメントを作成します。</li><li>`DELETE`：セグメントの削除。基になる特性がある場合、その特性へのアクセス権が必要です。例えば、特性を削除する場合、セグメントに属する特性を削除する権限が必要です。</li></ul><br>複数の権限を個別のキーと値のペアで指定します。例えば、`READ` および `WRITE` 権限だけを持っているセグメントのリストを返すには、`"permissions":"READ"`、`"permissions":"WRITE"` を渡します。 |
 | includePermissions | （ブール値）true に設定して、セグメントの権限を返します。デフォルトは false です。 |
@@ -177,7 +189,7 @@ Audience Manager [!UICONTROL REST API] は、認証コードを暗黙的な認�
 ページ情報が指定&#x200B;*されていない*&#x200B;場合、リクエストは、プレーンな [!DNL JSON] 結果を配列で返します。ページ情報が指定&#x200B;*されている*&#x200B;場合、返されるリストは、合計結果と現在のページに関する情報を含んだ [!DNL JSON] オブジェクトにラッピングされます。ページオプションを使用したサンプルリクエストは次のようになります。
 
 ```
-GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
+GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 ```
 
 ## API URL {#api-urls}
@@ -189,6 +201,26 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ## URLのリクエスト {#request-urls}
 
 次の表は、[!DNL API] リクエストを渡すためのリクエスト URL のリストを、メソッド別に示しています。
+
+使用する認証方法に応じて、以下の表に従ってリクエストURLを調整する必要があります。
+
+### JWT認証の要求URL {#request-urls-jwt}
+
+| [!DNL API] メソッド | リクエスト [!DNL URL] |
+|--- |--- |
+| アルゴリズムモデリング | `https://aam.adobe.io/v1/models/` |
+| データソース | `https://aam.adobe.io/v1/datasources/` |
+| 派生シグナル | `https://aam.adobe.io/v1/signals/derived/` |
+| 宛先 | `https://aam.adobe.io/v1/destinations/` |
+| ドメイン | `https://aam.adobe.io/v1/partner-sites/` |
+| フォルダー | 特性：`https://aam.adobe.io/v1/folders/traits /`<br>セグメント： `https://aam.adobe.io/v1/folders/segments /` |
+| スキーマ | `https://aam.adobe.io/v1/schemas/` |
+| セグメント | `https://aam.adobe.io/v1/segments/` |
+| 特性 | `https://aam.adobe.io/v1/traits/` |
+| 特性タイプ | `https://aam.adobe.io/v1/customer-trait-types` |
+| 分類 | `https://aam.adobe.io/v1/taxonomies/0/` |
+
+### OAuth認証の要求URL（非推奨） {#request-urls-oauth}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -208,10 +240,12 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 
 [!DNL Audience Manager] [!DNL API] では、複数の作業環境にアクセスできます。これらの環境では、使用中の実稼動データに影響することなく、個別のデータベースについてコードをテストすることができます。次の表は、使用可能な [!DNL API] 環境と、対応するリソースホスト名のリストです。
 
-| 環境 | ホスト名 |
-|---|---|
-| **実稼動** | `https://api.demdex.com/...` |
-| **ベータ** | `https://api-beta.demdex.com/...` |
+使用する認証方法に応じて、次の表に従って環境URLを調整する必要があります。
+
+| 環境 | ホスト名 OAuth認証の場合 | JWT認証のホスト名 |
+|---|---|---|
+| **実稼動** | `https://api.demdex.com/...` | `https://aam.adobe.io/...` |
+| **ベータ** | `https://api-beta.demdex.com/...` | `https://aam-beta.adobe.io/...` |
 
 >[!NOTE]
 >
@@ -242,6 +276,7 @@ Audience Manager `HTTP` によって返される [!UICONTROL REST API] ステー
 
 >[!MORELIKETHIS]
 >
+>* [JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [OAuth 認証](../../api/rest-api-main/aam-api-getting-started.md#oauth)
 >* [OAuth 2.0](https://oauth.net/2/)
 >* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
