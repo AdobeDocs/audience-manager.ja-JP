@@ -6,7 +6,7 @@ solution: Audience Manager
 title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 184f9c298f776977c375e4c7a918c5a131c4bcd1
+source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
 
 ---
 
@@ -26,6 +26,7 @@ Audience Manager [!DNL API] を使用する際に留意すべき事項の説明�
 [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) コードを操作する場合は、以下の点に注意してください。
 
 * **リクエストパラメーター：**&#x200B;特に指定のない限り、すべてのリクエストパラメーターが必要となります。
+* **リクエストヘッダー**:adobe I/Oトー [クンを使用する場合](https://www.adobe.io/) 、ヘッダーを指定する必要があ `x-api-key` ります。 APIキーは、サービスアカウント統合ページの手順に従っ [て取得できます](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 。
 * **[!DNL JSON]コンテンツタイプ：**コード内で、`content-type: application/json`*および*`accept: application/json`を指定してください。
 
 * **要求と応答：**&#x200B;適切な形式の [!DNL JSON] オブジェクトとして要求を送信してください。[!DNL Audience Manager] は [!DNL JSON] 形式のデータで応答します。サーバーの応答には要求されたデータもしくはステータスコード、またはその両方を含めることができます。
@@ -38,8 +39,8 @@ Audience Manager [!DNL API] を使用する際に留意すべき事項の説明�
 
 オーディエンスマネージャーREST APIは、2つの認証方法をサポートしています。
 
-* [JWT（サービスアカウント）認証が推奨される認証方法](#jwt) 。
-* [OAuth認証（非推奨）](#oauth)。 既存のOAuth統合を使用するお客様は、引き続きこの方法を使用できます。
+* [JWT（サービスアカウント）認証](#jwt)。 これは推奨される認証方法です。
+* [OAuth認証（非推奨）](#oauth)。 このメソッドは非推奨ですが、既存のOAuth統合を使用しているお客様は、引き続きこのメソッドを使用できます。
 
 >[!IMPORTANT]
 >
@@ -130,7 +131,6 @@ Audience Manager [!DNL API] を使用するための個別の技術的なユー�
 優先 [!DNL JSON] クライアントで更新トークンのリクエストを渡します。リクエストをおこなうには、次の手順に従います。
 
 * `POST` メソッドを使用して `https://api.demdex.com/oauth/token` を呼び出します。
-<!-- * Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page. -->
 * クライアント ID と暗号鍵を、base-64 でエンコードされた文字列に変換します。この変換では、ID と暗号鍵はコロンで区切ります。例えば、資格情報 `testId : testSecret` は `dGVzdElkOnRlc3RTZWNyZXQ=` に変換されます。
 * HTTP ヘッダー `Authorization:Basic <base-64 clientID:clientSecret>` と `Content-Type: application/x-www-form-urlencoded` を渡します。ヘッダーの例を以下に挙げます。<br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * リクエストの本文で、`grant_type:refresh_token` を指定し、前のアクセスリクエストで受け取った更新トークンを渡します。リクエストは次のようになっています。<br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
