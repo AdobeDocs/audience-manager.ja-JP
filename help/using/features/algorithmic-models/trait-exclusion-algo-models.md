@@ -5,7 +5,7 @@ seo-title: アルゴリズムモデル  特性の除外
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
+source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
 
 ---
 
@@ -35,8 +35,10 @@ source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 1. 「[!UICONTROL Exclusions]」セクションは、モデリング用のデータソースを 1 つ以上選択するまでグレー表示になります。
 2. モデリング用のデータソースを 1 つまたは複数選択したら、「**[!UICONTROL Browse All Traits]**」をクリックします。
 3. **[!UICONTROL Select Traits to Exclude]** ウィンドウに、選択済みのデータソースに関連付けられている特性がすべて表示されます。除外する特性を選択します。
-4. 特性タイプで特性をフィルタリングしたり、特性フォルダーを参照したりできます。特性フォルダーには、選択したデータソースに関連付けられている特性のみが表示されます。
+4. 特性は、特性タイプ、特性母集団タイプ(デバイスIDとデバイス間[ID](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md))でフィルターできます。また、特性フォルダーを参照することもできます。 特性フォルダーには、選択したデータソースに関連付けられている特性のみが表示されます。
 5. **[!UICONTROL Exclude Selected Traits]** を押します。
+
+![特性の除外](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
