@@ -4,8 +4,8 @@ seo-description: オーディエンス分析では、Audience Manager のセグ�
 seo-title: Analytics の宛先の設定
 solution: Audience Manager
 title: Analytics の宛先の設定
-translation-type: ht
-source-git-commit: fa39d070be9ec9f07e9da31de3efd151dd2c6cf1
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: fa39d070be9ec9f07e9da31de3efd151dd2c6cf1
 
 ## 要件 {#requirements}
 
-Analytics の宛先を設定するには、Audience Manager ユーザーが管理者権限を持っている必要があります。管理ガイドの「[ユーザーの作成](/help/using/features/administration/administration-overview.md#create-users)」を参照してください。`CREATE_DESTINATIONS`[ワイルドカード権限](/help/using/features/administration/administration-overview.md#wild-card-permissions)は、Analytics の宛先を作成するには不十分です。その他の要件については、[Audience Analytics](https://marketing.adobe.com/resources/help/ja_JP/analytics/audiences/)　の「前提条件」を参照してください。
+Analytics の宛先を設定するには、Audience Manager ユーザーが管理者権限を持っている必要があります。管理ガイドの「[ユーザーの作成](/help/using/features/administration/administration-overview.md#create-users)」を参照してください。`CREATE_DESTINATIONS`[ワイルドカード権限](/help/using/features/administration/administration-overview.md#wild-card-permissions)は、Analytics の宛先を作成するには不十分です。その他の要件については、 [オーディエンス分析の前提条件を参照してください](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)。
 
 ## Analytics のデフォルトの宛先と新規の宛先
 
 | Analytics の宛先のタイプ | 説明 |
 |---|---|
-| デフォルト | このデフォルトの宛先は「Adobe Analytics」という名前になっていますが、編集することができます。マッピングされたレポートスイート ID が Audience Manager の特性およびセグメントのフォルダーストレージに表示されます。<br>アカウントが次の条件を満たす場合、Audience Manager は宛先を 1 つ自動的に作成します。<br> <ul><li>[Audience Analytics](https://marketing.adobe.com/resources/help/ja_JP/analytics/audiences/) ドキュメントに記載されている要件を満たしてください。</li><li>Analytics の[レポートスイート](https://marketing.adobe.com/resources/help/ja_JP/sc/implement/ref-reports-report-suites.html)。</li><li>[レポートスイートを組織にマッピング](https://marketing.adobe.com/resources/help/ja_JP/mcloud/report-suite-mapping.html)。</li></ul> |
+| デフォルト | このデフォルトの宛先は「Adobe Analytics」という名前になっていますが、編集することができます。マッピングされたレポートスイート ID が Audience Manager の特性およびセグメントのフォルダーストレージに表示されます。<br>アカウントが次の条件を満たす場合、Audience Manager は宛先を 1 つ自動的に作成します。<br> <ul><li>[オーディエンス分析](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)のドキュメントで説明している要件を満たしている。</li><li>Analytics に[レポートスイート](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html)がある。</li><li>[レポートスイートを組織にマッピングしてある](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)。</li></ul> |
 | 新規 | Analytics の宛先を新規作成するには、Audience Data／Destinations／Create New Destination を選択し、以下で説明している各セクションの手順に従います。 |
 
 ## 手順 1：基本情報の提供
@@ -67,9 +67,9 @@ Analytics の宛先を設定するには、Audience Manager ユーザーが管�
 
 | マッピングオプション | 説明 |
 |---|---|
-| Automatically map all current and future segments | デフォルトで選択されています。訪問者が資格を満たすすべてのセグメントが、ヒットごとに Analytics に送信されます。<br>単一のヒットで訪問者が 150 を超える Audience Manager セグメントに属している場合、最近絞り込まれた 150 個のセグメントのみ Analytics に送信され、残りのリストは切り捨てられます。セグメントリストが切り捨てられたことを示す追加フラグが Analytics に送信されます。このアクションで、Audiences Name ディメンションに「Audience limit reached」と表示され、Audiences ID ディメンションに「1」と表示されます。詳しくは、[FAQ](https://marketing.adobe.com/resources/help/ja_JP/analytics/audiences/mc-audiences-faqs.html) を参照してください。<br>また、このオプションは、[セグメントビルダー](/help/using/features/segments/segment-builder.md)での宛先の可用性にも影響を与えます。例えば、セグメントが Analytics で宛先に自動的にマッピングされている場合、その宛先はセグメントビルダーの[宛先マッピングセクション](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations)では利用できません。Analytics の宛先がグレー表示され、宛先ブラウザーの「Type」列に「Analytics」と表示されます。 |
+| Automatically map all current and future segments | デフォルトで選択されています。訪問者が資格を満たすすべてのセグメントが、ヒットごとに Analytics に送信されます。<br>単一のヒットで訪問者が 150 を超える Audience Manager セグメントに属している場合、最近絞り込まれた 150 個のセグメントのみ Analytics に送信され、残りのリストは切り捨てられます。セグメントリストが切り捨てられたことを示す追加フラグが Analytics に送信されます。このアクションで、Audiences Name ディメンションに「Audience limit reached」と表示され、Audiences ID ディメンションに「1」と表示されます。詳しくは、[FAQ](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html) を参照してください。<br>また、このオプションは、[セグメントビルダー](/help/using/features/segments/segment-builder.md)での宛先の可用性にも影響を与えます。例えば、セグメントが Analytics で宛先に自動的にマッピングされている場合、その宛先はセグメントビルダーの[宛先マッピングセクション](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations)では利用できません。Analytics の宛先がグレー表示され、宛先ブラウザーの「Type」列に「Analytics」と表示されます。 |
 | Manually map segments | このオプションを選択すると、Analytics に送信するセグメントを選択できる検索および参照コントロールが表示されます。<br>セグメントを検索するには：<br> <ol><li>セグメント名またはセグメント ID を検索フィールドに入力します。</li><li>「<b>Add</b>」をクリックします。</li><li>セグメントの検索と追加を続けるか、「<b>Done</b>」をクリックします。</li></ol><br>セグメントを参照するには： <ol><li>「<b>Browse all segments</b>」をクリックします。使用可能なセグメントのリストが表示されます。</li><li>このリストから、使用するセグメントのチェックボックスを選択し、「<b>Add selected segments</b>」をクリックします。</li><li>Add Mappings ウィンドウの「<b>Save</b>」をクリックします。ベータリリースの間は、マッピング、開始日、終了日を変更することはできません。</li><li>セグメントの参照と追加を続けるか、「<b>Done</b>」をクリックします。</li></ol> ![mapsegments](assets/mapSegments.png) |
 
 ## 次の手順
 
-宛先を作成して保存したら、そのデータを Analytics で扱うことができます。ただし、選択したレポートスイートでデータが使用可能になるまで、数時間かかることがあります。[Analytics のオーディエンスデータ](https://marketing.adobe.com/resources/help/ja_JP/analytics/audiences/use-audience-data-analytics.html)を参照してください。
+宛先を作成して保存したら、そのデータを Analytics で扱うことができます。ただし、選択したレポートスイートでデータが使用可能になるまで、数時間かかることがあります。詳しくは、[Analytics でのオーディエンスデータの使用](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/use-audience-data-analytics.html)を参照してください。
