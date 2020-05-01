@@ -5,8 +5,8 @@ seo-title: Tag Management コンポーネント
 solution: Audience Manager
 title: Tag Management コンポーネント
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-translation-type: ht
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -23,7 +23,7 @@ c_comptag.xml
 
 Audience Manager には次のコンポーネントがあります。
 
-* [クライアントポータル](../../reference/system-components/components-tag-management.md#client-portal)
+* [クライアントポータル  ](../../reference/system-components/components-tag-management.md#client-portal)
 * [DIL／TIM コンテナ](../../reference/system-components/components-tag-management.md#dil-tim)
 * [データ情報ライブラリ（DIL）](../../reference/system-components/components-tag-management.md#dil)
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
@@ -35,7 +35,7 @@ Audience Manager には次のコンポーネントがあります。
 
 ## DIL／TIM コンテナ {#dil-tim}
 
-[!UICONTROL DIL] コンテナは、[!DNL Audience Manager] のデータ収集コードを Web サイトに配置する際に使用されます。[!UICONTROL TIM] は非推奨（廃止予定）となった Tag Insertion Manager です。[!DNL Audience Manager] では使用されなくなりました。代わりに、[Dynamic Tag Management](https://marketing.adobe.com/resources/help/ja_JP/dtm/) または [Adobe Experience Platform Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) の [!DNL Audience Manager] 拡張機能を使用して、インベントリのページに配置するコンテナコードを設定および生成します。[!UICONTROL DTM] コンテナは [!UICONTROL Data Information Library (DIL)] と連携してサイトからデータを収集し、[!DNL Audience Manager] に送信します。
+[!UICONTROL DIL] コンテナは、[!DNL Audience Manager] のデータ収集コードを Web サイトに配置する際に使用されます。[!UICONTROL TIM] は非推奨（廃止予定）となった Tag Insertion Manager です。[!DNL Audience Manager] では使用されなくなりました。代わりに、[Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) または [Adobe Experience Platform Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) の [!DNL Audience Manager] 拡張機能を使用して、インベントリのページに配置するコンテナコードを設定および生成します。[!UICONTROL DTM] コンテナは [!UICONTROL Data Information Library (DIL)] と連携してサイトからデータを収集し、[!DNL Audience Manager] に送信します。
 
 ## データ統合ライブラリ（DIL） {#dil}
 
