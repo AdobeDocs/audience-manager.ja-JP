@@ -7,7 +7,7 @@ title: Audience Lab に関するよくある質問
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -52,6 +52,6 @@ audience-lab-faq.xml
 
 [!UICONTROL Audience Lab]での [!UICONTROL RBAC] 権限の使用方法に関する情報については、[セグメントのテストグループの作成](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)を参照してください。
 
-**「外部デバ[!UICONTROL Audience Lab]イス」グラフ([!UICONTROL Profile Link Device Graph]Adobe Experience Cloud Device Co-op[](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html)、Tapad Device Graph、Liveramp Device Graph)と組み合わせて使用できますか。**
+**「Adobe Experience Cloud Device Co-op」[!UICONTROL Audience Lab]、「[!UICONTROL Profile Link Device Graph][](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html)Tapad Device Graph」、「Liveramp Device Graph」と組み合わせて使用できますか。**
 
 [!UICONTROL Profile Link Device Graph]を使用する場合、[!UICONTROL Audience Lab]では今のところ、条件を満たすデバイスと関連付けられたデバイスによってのみセグメント母集団を分割できます。[!UICONTROL Audience Lab]で他のデバイスグラフもサポート対象とするよう作業を進めています。サポートの追加が完了し次第お知らせいたします。
