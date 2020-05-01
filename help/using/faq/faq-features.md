@@ -6,8 +6,8 @@ seo-title: 製品の機能に関するよくある質問
 solution: Audience Manager
 title: 製品の機能に関するよくある質問
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-translation-type: ht
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -26,13 +26,13 @@ faq_features_functions.xml
 
 **組織 ID はどのようなもので、どうすれば見つかりますか？**
 
-*`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
+Folio Builder *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
 
 つまり、*`Organization ID`* は `1FD6776A524453CC0A490D44@AdobeOrg` のようになります。
 
-*`Organization ID`* は、Audience Manager の [DIL](../dil/dil-overview.md) API、[Adobe Experience Platform ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)およびその他の [!DNL Experience Cloud] ソリューションで使用されます。*`Organization ID`* は、管理者権限を持つユーザーが [!DNL Adobe Admin Console] で確認できます。詳しくは、[管理 - ユーザー管理の FAQ](https://marketing.adobe.com/resources/help/ja_JP/mcloud/admin_getting_started.html) を参照してください。
+*`Organization ID`* は、Audience Manager の [DIL](../dil/dil-overview.md) API、[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)およびその他の [!DNL Experience Cloud] ソリューションで使用されます。*`Organization ID`* は、管理者権限を持つユーザーが [!DNL Adobe Admin Console] で確認できます。詳しくは、[管理 - ユーザー管理の FAQ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) を参照してください。
 
-<br>
+<br> 
 
 **特性や宛先を一括で作成できますか？**
 
@@ -42,25 +42,25 @@ faq_features_functions.xml
 >
 >[!UICONTROL Bulk Management Tools]ツールは、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。便宜上、提供されているものにすぎません。一括変更については、代わりに[Audience Manager API](../api/api.md) を使用することをお勧めします。
 
-<br>
+<br> 
 
 **[!DNL Audience Manager]を使用すれば、サードパーティのタグやピクセルを使用しなくてもよくなったり、ページの読み込み時間が改善されたりしますか？**
 
 [!DNL Audience Manager] がサードパーティデータパートナーと統合されている場合は、ピクセルやタグの代わりに [!DNL Audience Manager] へのサーバー間 ID 呼び出しを使用することができます。この場合、[!DNL Audience Manager] は、ユーザーを初めて確認したときに 1 回だけ ID 呼び出しをおこない、その情報をサードパーティパートナーと同期します。これにより、ページごとに何度もピクセル呼び出しをおこなう必要はなくなります。ピクセル呼び出しが少なくなれば、ページ読み込み時間も短縮されます。
 
-<br>
+<br> 
 
 **データフィードを購読しました。そのデータはどこに保存されていますか？**
 
 データフィードとフィードに含まれているすべての特性は、[!DNL Audience Manager] では、サブフォルダーおよび特性として表示されます。**[!UICONTROL Audience Data > Traits]** の順に選択し、[!UICONTROL 3rd-Party Data]フォルダーを開くと、特性が表示されます。また、このデータを使用してセグメントとモデルを作成できます。
 
-<br>
+<br> 
 
 **[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager では [!UICONTROL Tag Insertion Manager]（TIM）を使用して [!UICONTROL data collection code (DIL)] を作成および管理していました。この機能は時代後れとなったので、[!UICONTROL Dynamic Tag Manager (DTM)] で置き換えられた後、[!DNL Adobe Experience Platform Launch] で置き換えられました。詳しくは、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) および [Dynamic Tag Management](https://marketing.adobe.com/resources/help/ja_JP/dtm/) を参照してください。
+Audience Manager では [!UICONTROL Tag Insertion Manager]（TIM）を使用して [!UICONTROL data collection code (DIL)] を作成および管理していました。この機能は時代後れとなったので、[!UICONTROL Dynamic Tag Manager (DTM)] で置き換えられた後、[!DNL Adobe Experience Platform Launch] で置き換えられました。詳しくは、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) および [Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) を参照してください。
 
-<br>
+<br> 
 
 **アルゴリズムモデルと特性レコメンデーションの違いは何ですか？どのようなタイミングで使用すればよいですか？**
 
@@ -82,8 +82,8 @@ Audience Manager では [!UICONTROL Tag Insertion Manager]（TIM）を使用し�
 * 短時間のキャンペーンでセグメントを使用している場合、またはコンバージョンしたオーディエンスをすばやく抑制したい場合。
 * リーチを最大化したい場合。
 
-<br>
+<br> 
 
 **Adobe Analytics セグメントと Audience Manager セグメントには何か違いがありますか？**
 
-はい、あります。両者の違いについて詳しくは、[Analytics と Audience Manager について](https://marketing.adobe.com/resources/help/ja_JP/analytics/audiences/aam-analytics-segments.html)を参照してください。
+はい、あります。両者の違いについて詳しくは、[Analytics と Audience Manager について](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)を参照してください。
