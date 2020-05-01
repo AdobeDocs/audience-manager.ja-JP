@@ -5,8 +5,8 @@ seo-title: Flash DIL
 solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
-translation-type: ht
-source-git-commit: d72460ee33be0bfffe56eff04286284b2e5f3918
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -43,7 +43,7 @@ c_flash_dil_intro.xml
 * [DIL ActionScript ライブラリ](../dil/dil-flash.md#flash-dil-actionscript)（データを収集する Flash オブジェクトに読み込まれたもの）。
 * Adobe [!DNL AppMeasurement] [!DNL AS] ライブラリ（バージョン 3.5.2 以降）（データを収集する [!DNL Flash] オブジェクトに読み込まれたもの）。
 
-**AllowScriptAccess を`Always`または`sameDomain`に設定**
+**AllowScriptAccess を`Always`または`sameDomain`**に設定
 
 SWF ファイルを読み込む HTML コードの `AllowScriptAccess` は、SWF ファイル内からの送信 URL アクセスを実行する機能を制御します。[!UICONTROL Flash DIL] データ統合を設定する場合、Flash `AllowScriptAccess` パラメーターが `always` または `sameDomain` に設定されていることを確認してください。[!UICONTROL Flash DIL] データ収集は、`AllowScriptAccess` が `never` に設定されている場合、機能しません。[スクリプトまたはホスト Web ページへのアクセスの制御](https://helpx.adobe.com/jp/flash/kb/control-access-scripts-host-web.html)を参照してください。
 
@@ -158,5 +158,8 @@ s.loadModule(d);
 >* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
 >* [キーと値のペアの解説](../reference/key-value-pairs-explained.md)
 >* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
->* [AppMeasurement Flash、Flex、OSMF 導入ガイド](https://marketing.adobe.com/resources/help/ja_JP/sc/appmeasurement/flash/)
 
+
+<!-- Victor/Vlad: Do we still need this link? It doesn't look like this content has been migrated.
+>* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
+-->
