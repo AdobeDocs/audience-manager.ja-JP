@@ -5,8 +5,8 @@ seo-title: 定義済みのプロファイルの結合ルールオプション
 solution: Audience Manager
 title: 定義済みのプロファイルの結合ルールオプション
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-translation-type: ht
-source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ## デバイスオプション {#device-options}
 
-[!UICONTROL Device Options]では、[!UICONTROL Profile Merge Rule]で使用する *`device profile`* のタイプを選択できます。デバイスプロファイルは、匿名の閲覧アクティビティから収集された特性を使用して作成されます。プロファイル結合ルールには少なくとも、1 つの認証済みオプションと 1 つのデバイスオプションが含まれます。
+[!UICONTROL Device Options]では、*`device profile`*&#x200B;で使用する [!UICONTROL Profile Merge Rule] のタイプを選択できます。デバイスプロファイルは、匿名の閲覧アクティビティから収集された特性を使用して作成されます。プロファイル結合ルールには少なくとも、1 つの認証済みオプションと 1 つのデバイスオプションが含まれます。
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -95,7 +95,7 @@ source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol">デバイスプロファイルなし</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> No Device Profile</span></b> </p> </td> 
    <td colname="col2"> <p><span class="keyword">Audience Manager</span> が匿名プロファイルに含まれる特性をセグメント化に使用しないよう設定します。 </p> </td> 
   </tr> 
   <tr> 
@@ -103,16 +103,16 @@ source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
    <td colname="col2"> <p><span class="keyword">Audience Manager</span> が匿名デバイスプロファイルをセグメント化に使用するよう設定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> プロファイルリンクデバイスグラフ</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager</span> が、現在のデバイスに加え、ユーザーが最後に認証を受けた他の 100 台までのデバイスからプロファイルを読み取るよう指示します。このデバイスグラフは、<span class="keyword">Audience Manager</span> で独自のファーストパーティデータに対して構築されます。デジタルプロパティにまたがって高度な認証を使用している顧客に最適です。<span class="wintitle">プロファイルリンク</span>デバイスグラフはリアルタイムで更新されます。このオプションは、<b><span class="uicontrol"> 現在の認証済みプロファイル</span></b>または<b><span class="uicontrol">最後に認証されたプロファイル</span></b>を選択した場合に使用できます。このオプションを使用する場合は、認証済みのプロファイルを 1 つだけ選択できます（その他は <span class="keyword">Audience Manager</span> により自動的にグレー表示されます）。<a href="profile-link-use-case.md">プロファイルリンクデバイスグラフのユースケース</a>も参照してください。 </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Profile Link Device Graph</span></b> </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> が、現在のデバイスに加え、ユーザーが最後に認証を受けた他の 100 台までのデバイスからプロファイルを読み取るよう指示します。このデバイスグラフは、<span class="keyword">Audience Manager</span> で独自のファーストパーティデータに対して構築されます。デジタルプロパティにまたがって高度な認証を使用している顧客に最適です。<span class="wintitle">プロファイルリンク</span>デバイスグラフはリアルタイムで更新されます。このオプションは、「<b><span class="uicontrol">Current Authenticated Profile</span></b>」または「<b><span class="uicontrol">Last Authenticated Profile</span></b>」を選択した場合に使用できます。このオプションを使用する場合は、認証済みのプロファイルを 1 つだけ選択できます（その他は <span class="keyword">Audience Manager</span> により自動的にグレー表示されます）。<a href="profile-link-use-case.md">プロファイルリンクデバイスグラフのユースケース</a>も参照してください。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Co-op Device Graph</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager </span>に対し、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/" format="https" scope="external"> Experience Cloud Device Co-op</a> が提供するリンクを使用して、現在のデバイスおよび他の 100 台までのデバイスからプロファイルを読み取るように指示します。 </p> <p><span class="keyword">Device Co-op</span> は、参加するお客様がデバイスリンク情報を共有するデジタル協業です。<span class="keyword">Device Co-op</span> はこのデータを<span class="term">デバイスグラフ</span>で処理します。デバイスグラフは、デバイスをリンクし、デバイスクラスターを形成します。このリンクは<a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-links.html" format="https" scope="external">確率論的データと決定論的データ</a>から構築されます。クラスターは、1 人の匿名の人物によって使用されるデバイスのグループを表します。<span class="keyword">Device Co-op</span> は、メンバー間でこれらのクラスターを共有します。これにより、メンバーは、価値のある一貫したクロスデバイスエクスペリエンスをその顧客に提供できます。 </p> <p> <span class="wintitle">Device Co-op</span> について詳しくは、以下を参照してください。 </p> <p> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager </span>に対し、<a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> が提供するリンクを使用して、現在のデバイスおよび他の 100 台までのデバイスからプロファイルを読み取るように指示します。 </p> <p><span class="keyword">Device Co-op</span> は、参加するお客様がデバイスリンク情報を共有するデジタル協業です。<span class="keyword">Device Co-op</span> はこのデータを<span class="term">デバイスグラフ</span>で処理します。デバイスグラフは、デバイスをリンクし、デバイスクラスターを形成します。このリンクは<a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external">確率論的データと決定論的データ</a>から構築されます。クラスターは、1 人の匿名の人物によって使用されるデバイスのグループを表します。<span class="keyword">Device Co-op</span> は、メンバー間でこれらのクラスターを共有します。これにより、メンバーは、価値のある一貫したクロスデバイスエクスペリエンスをその顧客に提供できます。 </p> <p> <span class="wintitle">Device Co-op</span> について詳しくは、以下を参照してください。 </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
-      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-overview.html" format="https" scope="external"> Device Co-op の概要</a> </li> 
-      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-requirements.html" format="https" scope="external"> メンバーシップ要件</a> </li> 
-      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://marketing.adobe.com/resources/help/ja_JP/mcdc/mcdc-processes.html" format="https" scope="external"> デバイスグラフ：内部処理と出力</a> </li> 
+      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html" format="https" scope="external"> Device Co-op の概要</a> </li> 
+      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> メンバーシップ要件</a> </li> 
+      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> デバイスグラフ：内部処理と出力</a> </li> 
       <li id="li_9DF8876BFBC043948D3E82BD081AAF9F"><a href="https://marketing.adobe.com/resources/help/ja_JP/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external">Audience Manager と外部デバイスグラフ</a>（PDF ダウンロード） </li>
      </ul> </p> </td>
   </tr> 
@@ -126,6 +126,8 @@ source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
   </tr>
  </tbody>
 </table>
+
+<!--Victor/Vlad: In the above table, you link to a .pdf file on marketing.adobe.com. Can you move that PDF into Git and link to it? This pdf might get blown away with the marketing.adobe.com decommission. -Bob-->
 
 ## 外部結合ポリシー {#external-merge-policies}
 
