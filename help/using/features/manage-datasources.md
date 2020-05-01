@@ -6,8 +6,8 @@ seo-title: データソースの作成
 solution: Audience Manager
 title: データソースの管理
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
-translation-type: ht
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 1. 統合コードを指定します。一般に、統合コードはオプションです。統合コードが必要になるのは、次のいずれかの場合です。
 
    * [クロスデバイス対応データソースを作成](../features/profile-merge-rules/merge-rules-start.md#create-data-source)する。
-   * [Adobe Experience Platform ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を使用する。
+   * [Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用する。
    * [プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を使用する。
 
 1. **[!UICONTROL ID Type]** を選択します。「ID Type」のオプションは以下のとおりです。
@@ -73,8 +73,8 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 >
 >次の制限事項に注意してください。
 >
->* [アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
->* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/)を使用します。
+>* 削除できない[アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
+>* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html)を使用します。
 
 
 1. **[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** をクリックします。
