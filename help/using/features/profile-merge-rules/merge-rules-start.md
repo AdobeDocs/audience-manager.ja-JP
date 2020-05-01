@@ -5,8 +5,8 @@ seo-title: プロファイル結合ルールの導入
 solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-translation-type: ht
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -135,7 +135,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/?f=mcvid_customer_ids.html)を参照してください。
+詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)を参照してください。
 
 ### `DIL.create` 関数の設定
 
@@ -150,7 +150,7 @@ var vDil = DIL.create({
 });
 ```
 
-namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=admin_getting_started.html)も参照してください。
+namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)も参照してください。
 
 ### SDK の設定
 
@@ -208,7 +208,7 @@ DIL.create({
  </tbody>
 </table>
 
-[Android 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/android/?f=c_audience_manager_methods.html)と[ iOS 用の Audience Manager メソッド](https://marketing.adobe.com/resources/help/ja_JP/mobile/ios/?f=aam_methods.html)も参照してください。
+[Android 用の Audience Manager メソッド](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html)と[ iOS 用の Audience Manager メソッド](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html)も参照してください。
 
 >[!MORELIKETHIS]
 >
