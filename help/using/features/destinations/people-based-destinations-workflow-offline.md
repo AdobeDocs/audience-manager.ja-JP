@@ -4,8 +4,8 @@ seo-description: 'このページでは、オフラインのみの顧客デー�
 seo-title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
-translation-type: ht
-source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -88,7 +88,7 @@ source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 [!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## 手順 3 -ファイルベースの ID 同期経由で、DPUUID と ハッシュ化した電子メールアドレスを照合する {#match-ids-emails}
 
@@ -133,6 +133,8 @@ source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 
 [サンプルファイルをここにダウンロードしてください](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)。
+
+<!-- Victor/Vlad: Please check the above link. Any way you can move this download to Git? I'm concerned about the plans to decommission marketing.adobe.com -Bob -->
 
 ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアップロードする必要があります。ID 同期ファイルのアップロード方法について詳しくは、[Audience Manager へのバッチデータの送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)を参照してください。
 
