@@ -5,7 +5,7 @@ seo-title: 連絡先情報および法的事項
 solution: Audience Manager
 title: 連絡先情報および法的事項
 translation-type: tm+mt
-source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
 
 Adobe Experience Cloud カスタマーケアチームによるサポートを、以下のような様々な手段でご利用いただけます。
 
-* [Experience Cloud ヘルプページでのアドバイス、ヒントおよび FAQ の確認](https://helpx.adobe.com/support.ec.html)
+* [Experience Cloud ヘルプページでのアドバイス、ヒントおよび FAQ の確認](https://helpx.adobe.com/jp/support.ec.html)
 * [Twitter（@AdobeExpCare）での簡単な質問の問い合わせ（英語のみ）](https://twitter.com/AdobeExpCare)
-* [カスタマーケアチームに直接連絡](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [カスタマーケアチームに直接連絡](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
 * [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/)
 
 ## サービス、利用可能な機能、課金 {#billing}
@@ -31,7 +31,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 Published by Adobe Systems Incorporated.
 
-[利用条件](https://marketing.adobe.com/resources/help/en_US/terms.html) | [プライバシーセンター](https://www.adobe.com/privacy.html)
+[利用条件](https://www.adobe.com/legal/terms.html) | [プライバシーセンター](https://www.adobe.com/jp/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
