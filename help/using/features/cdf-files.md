@@ -6,8 +6,8 @@ seo-title: 顧客データフィード
 solution: Audience Manager
 title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
-translation-type: ht
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -105,7 +105,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </p> </td> 
+   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -159,7 +159,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">リクエストパラメーター </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">参照元 </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP アドレス </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
      </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
