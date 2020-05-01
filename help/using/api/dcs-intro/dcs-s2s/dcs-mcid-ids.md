@@ -5,8 +5,8 @@ seo-title: Adobe Experience Platform ID サービスを通じたユーザー ID 
 solution: Audience Manager
 title: Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
-translation-type: ht
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -17,7 +17,7 @@ ID サービスのお客様は、訪問者 Cookie を読み取って [!UICONTROL
 
 ## ID サービス Cookie からのユーザー ID の取得 {#get-user-ids-from-service-cookie}
 
-[Adobe Experience Platform ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)では、Web サイトにアクセスするユーザーに訪問者 ID と地域 ID を割り当てます。[!DNL Experience Cloud] のあらゆるソリューションでユーザーはこれらの ID によって識別されるので、[!UICONTROL DCS] 呼び出しをおこなうには、これらの ID が必要になります。
+[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)では、Web サイトにアクセスするユーザーに訪問者 ID と地域 ID を割り当てます。[!DNL Experience Cloud] のあらゆるソリューションでユーザーはこれらの ID によって識別されるので、[!UICONTROL DCS] 呼び出しをおこなうには、これらの ID が必要になります。
 
 * [!UICONTROL user ID] は、データを識別し特定の訪問者に関連付けるのに必要になります。
 * [!UICONTROL region ID] が必要なのは、地域サーバー名に関連付けられているからです。地域サーバー名は [!UICONTROL DCS] へのデータ送信に必要になります。[!UICONTROL DCS] では、サイト訪問者に地理的に最も近いデータセンターに情報を保存します。[DCS 地域 ID、場所、ホスト名](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
@@ -36,15 +36,15 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>1. <span class="keyword">Experience Cloud</span> のステータスを確認する</b> </p> </td> 
-   <td colname="col2"> <p>ID サービスを使用するには、<span class="keyword">Experience Cloud</span> アカウントが必要です。既に <span class="keyword">Experience Cloud</span> アカウントがあれば、そのままでけっこうです。 </p> <p> まだ <span class="keyword">Experience Cloud</span> に登録していなければ、新規登録してください。いつでもお客様にご参加いただく用意ができています。アカウントの新規登録の方法については、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=core_services.html" format="https" scope="external">コアサービス - ソリューションの有効化</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ID サービスを使用するには、<span class="keyword">Experience Cloud</span> アカウントが必要です。既に <span class="keyword">Experience Cloud</span> アカウントがあれば、そのままでけっこうです。 </p> <p> まだ <span class="keyword">Experience Cloud</span> に登録していなければ、新規登録してください。いつでもお客様にご参加いただく用意ができています。アカウントの設定方法について詳しくは、コアサービス向けソリューションの <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> 有効化を参照してください</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. <span class="keyword">ID サービス</span>をセットアップする</b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">ID サービス</span>は、データ収集に使用する各ページに組み込まれる JavaScript コードで構成されます。詳しくは、ID サービスの<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-implementation-guides.html" format="https" scope="external">実装ガイド</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="keyword">ID サービス</span>は、データ収集に使用する各ページに組み込まれる JavaScript コードで構成されます。詳しくは、ID サービスの<a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html" format="https" scope="external">実装ガイド</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. <span class="keyword">ID サービス</span> Cookie を読み取る</b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">ID サービス</span>では、ユーザー ID と地域 ID を AMCV Cookie に保存します。Cookie の完全名は <code>AMCV_<i>###</i>@AdobeOrg</code> です。<code><i>###</i></code> 要素は組織 ID のプレースホルダーです。詳しくは、<a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>AMCV Cookie を解析して、次のキー値ペアを取得します。 </p> <p> 
+   <td colname="col2"> <p><span class="keyword">ID サービス</span>では、ユーザー ID と地域 ID を AMCV Cookie に保存します。Cookie の完全名は <code>AMCV_<i>###</i>@AdobeOrg</code> です。<code><i>###</i></code> 要素は組織 ID のプレースホルダーです。詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>AMCV Cookie を解析して、次のキー値ペアを取得します。 </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
       <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>：このキー値ペアには <span class="keyword">Experience Cloud</span> ユーザー ID が格納されています。 </li> 
       <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>：このキー値ペアには、地域サーバー名に関連付けられている地域 ID（<span class="term">ロケーションヒント</span>と呼ばれる場合もある）が格納されています。 </li> 
@@ -52,7 +52,7 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>4. getMarketingCloudVisitorID で <span class="keyword">Experience Cloud ID</span> を取得する</b> </p> </td> 
-   <td colname="col2"> <p><i>（オプション）</i>この関数は <span class="keyword">Experience Cloud</span> 訪問者 ID を返します。カスタムソリューションや特定のユースケース向けに設計されています。詳しくは、次の <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid">getMarketingCloudVisitorID の使用方法</a>や <a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-getmcvid.html" format="https" scope="external">ID サービスの関連ドキュメント</a>を参照してください。 </p> <p>ID サービス Cookie からユーザー ID および地域 ID を取得した場合は、これを使用する必要はありません。 </p> </td> 
+   <td colname="col2"> <p><i>（オプション）</i>この関数は <span class="keyword">Experience Cloud</span> 訪問者 ID を返します。カスタムソリューションや特定のユースケース向けに設計されています。詳しくは、次の <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid">getMarketingCloudVisitorID の使用方法</a>や <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/getmcvid.html" format="https" scope="external">ID サービスの関連ドキュメント</a>を参照してください。 </p> <p>ID サービス Cookie からユーザー ID および地域 ID を取得した場合は、これを使用する必要はありません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
