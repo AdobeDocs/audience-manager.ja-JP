@@ -6,8 +6,8 @@ seo-title: 宣言された ID
 solution: Audience Manager
 title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-translation-type: ht
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
  <tbody> 
   <tr> 
    <td colname="col1"> <b>イベント呼び出し</b> </td> 
-   <td colname="col2"> <p>機能させるには、ページに <span class="wintitle">DIL</span> と <a href="https://marketing.adobe.com/resources/help/ja_JP/mcvid/" format="https" scope="external">Adobe Experience Platform ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Adobe Experience Platform ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
+   <td colname="col2"> <p>機能させるには、ページに <span class="wintitle">DIL</span> と <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html" format="https" scope="external">Adobe Experience Platform ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Adobe Experience Platform ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID のマッチング</b> </td> 
@@ -187,7 +187,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 <!-- r_dil_declared_id_vars.xml -->
 
-[Adobe Experience Platform ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)を使用する場合、非推奨（廃止予定）の `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要はありません。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
+[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用する場合、非推奨（廃止予定）の `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要はありません。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
 
 ```js
 var vDil = DIL.create({
@@ -198,7 +198,7 @@ var vDil = DIL.create({
 });
 ```
 
-キー値ペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://marketing.adobe.com/resources/help/ja_JP/mcloud/?f=admin_getting_started.html)も参照してください。
+キー値ペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html)も参照してください。
 
 ## 非推奨（廃止予定）の関数 {#deprecated-functions}
 
