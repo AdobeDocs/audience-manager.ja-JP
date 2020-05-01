@@ -5,8 +5,8 @@ seo-title: Audience Manager と Target の統合
 solution: Audience Manager
 title: Audience Manager と Target の統合
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
-translation-type: ht
-source-git-commit: cb1c8a6ea0cd8739e86686f343c2941712065f7b
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: cb1c8a6ea0cd8739e86686f343c2941712065f7b
 
 Audience Manager と [!DNL Target] の統合には、以下の項目が必要となります。
 
-* [Experience Cloud サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)。このサービスを使用していない場合、まず始めに[実装ガイド](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-implementation-guides.html)を参照してください。
+* [Experience Cloud サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)。このサービスを使用していない場合、まず始めに[実装ガイド](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html)を参照してください。
 * Profiles and Audiences。Profiles and Audiences がプロビジョニングされていない場合、まず始めに [Experience Cloud の統合に関するページ](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES)のフォームを記入するか、または担当のコンサルタントにお問い合わせください。
 
-実装プロセスのこれらの手順が完了するとすぐに、Audience Manager のすべてのセグメントが [!DNL Target] に表示されます。**の Audience Manager のセグメントを[!UICONTROL Audiences > Audience List]**[!DNL Target] で表示できます。**[!UICONTROL Source]** 列の Experience Cloud、または **[!UICONTROL Modified]** 列の `aam-integration-user@adobe.com` で Audience Manager のセグメントを特定します。
+実装プロセスのこれらの手順が完了するとすぐに、Audience Manager のすべてのセグメントが [!DNL Target] に表示されます。**[!UICONTROL Audiences > Audience List]** の Audience Manager のセグメントを [!DNL Target] で表示できます。**[!UICONTROL Source]** 列の Experience Cloud、または `aam-integration-user@adobe.com` 列の **[!UICONTROL Modified]** で Audience Manager のセグメントを特定します。
 
 ![](../assets/target.png)
