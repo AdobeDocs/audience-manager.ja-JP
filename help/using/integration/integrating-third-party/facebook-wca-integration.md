@@ -4,8 +4,8 @@ seo-description: このページでは、オンライン広告ターゲティン
 seo-title: Facebook WCA の統合
 solution: Audience Manager
 title: Facebook WCA の統合
-translation-type: ht
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 1. Facebook 広告アカウント
 2. Audience Manager セグメントで、新しい Facebook 宛先に割り当てる準備を整えます。Audience Manager UI での[セグメントの作成方法](/help/using/features/segments/segment-builder.md)をご確認ください。
 3. アドビの Adobe Experience Platform ID サービス（ECID）バージョン 4.1.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/id-service/releases)** から最新バージョンをダウンロードできます。
-4. Audience Manager Data Integration Library（DIL）バージョン 9.0 以降（**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)** からダウンロード可能）。また、[サーバー側転送（SSF）](https://marketing.adobe.com/resources/help/ja_JP/reference/ssf.html)を使用して Audience Manager にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[Analytics コードマネージャー](https://marketing.adobe.com/resources/help/ja_JP/reference/code_manager_admin.html)を使用して AppMeasurement をダウンロードしてください。
+4. Audience Manager Data Integration Library（DIL）バージョン 9.0 以降（**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)** からダウンロード可能）。また、[サーバー側転送（SSF）](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を使用して Audience Manager にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[Analytics コードマネージャー](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)を使用して AppMeasurement をダウンロードしてください。
 
-手順 3 と 4 で、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) または [Adobe Dynamic Tag Management](https://marketing.adobe.com/resources/help/ja_JP/dtm/) を使用して、ライブラリをインストールまたはアップグレードすることをお勧めします。
+手順 3 と 4 で、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) または [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) を使用して、ライブラリをインストールまたはアップグレードすることをお勧めします。
 
 ## 手順 1：Audience Manager で Facebook の宛先を作成する {#step-1-create-facebook-destination}
 
