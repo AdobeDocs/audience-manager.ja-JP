@@ -5,8 +5,8 @@ seo-title: DIL のユースケースとコードサンプル
 solution: Audience Manager
 title: DIL のユースケースとコードサンプル
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -229,9 +229,9 @@ GTM で `dil.js` ファイルを配信するには：
 1. タグを開いて編集し、次の作業をおこないます。
 
    * タグの名前を設定します。
-   * **[!UICONTROL Tag Type]** ドロップダウンリストから&#x200B;**[!UICONTROL Custom HTML Tag]**&#x200B;を選択します。
+   * **[!UICONTROL Custom HTML Tag]** ドロップダウンリストから&#x200B;**[!UICONTROL Tag Type]**&#x200B;を選択します。
    * HTML フィールドで、[!UICONTROL DIL] コード（ライブラリとカスタムコード）をスクリプトタグ `<script>DIL code</script>` の内側に配置します。
-   * **[!UICONTROL Save]**&#x200B;をクリックします。
+   * 「**[!UICONTROL Save]**」をクリックします。
 
 1. コンテナを公開します。
 1. コンテナタグコードを生成し、自分のインベントリに配置します。
@@ -240,5 +240,5 @@ GTM で `dil.js` ファイルを配信するには：
 >
 >* [Google タグマネージャーヘルプセンター](https://support.google.com/tagmanager#topic=3441530)
 >* [シグナル](../dil/dil-instance-methods.md#signals)
->* [キー変数のプレフィックスに関する要件](https://marketing.adobe.com/resources/help/ja_JP/aam/r_tb_variable_prefixes.html)
+>* [キー変数のプレフィックスに関する要件](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
