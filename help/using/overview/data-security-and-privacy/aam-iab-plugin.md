@@ -5,7 +5,7 @@ seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: IAB TCF 用 Audience Manager プラグイン
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 5fff9315558d3088f68268f32681842bb8d5e7d3
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ユーザーのプライバシー保護対策として重要なのは、個人データの活用方法（例：「目的」）および使用者（例：「会社」）に対するユーザーからの同意の取得です。
 
-アドビでは、[オプトイン機能](hhttps://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html)と [IAB Transparency and Consent Framework（TCF）](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)のサポートを通じて、ユーザーのプライバシー選択を管理および伝達する手段を提供しています。
+アドビでは、[オプトイン機能](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html)と [IAB Transparency and Consent Framework（TCF）](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)のサポートを通じて、ユーザーのプライバシー選択を管理および伝達する手段を提供しています。
 
 この記事では、IAB TCF をサポートする Audience Manager のユースケースと、Audience Manager での IAB TCF サポートの実装方法について説明します。Audience Manager は、IAB TCF に登録されています（ベンダー ID 565）。
 
@@ -40,7 +40,7 @@ Audience Manager で IAB TCF を使用するには、次の前提条件を満た
 1. Adobe Experience Platform ID サービス（ECID）バージョン 4.1 以降を使用している。アドビの最新 ECID リリースを[ダウンロード](https://github.com/Adobe-Marketing-Cloud/id-service/releases)してください。
 1. Audience Manager Data Integration Library（DIL）バージョン 9.0 以降を使用している（[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロード可能）。[Audience Manager ドキュメントの DIL](../..//dil/dil-overview.md) をお読みください。
 1. または、最新バージョンの AppMeasurement を使用している（サーバー側転送（SSF）を使用して Audience Manager にデータを読み込む場合）。[Analytics コードマネージャー](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html)を使用して AppMeasurement をダウンロードしてください。
-1. IAB TCF をサポートする市販または独自の同意管理プラットフォーム（CMP）を使用し、IAB TCF に登録している。[IAB フレームワーク内の登録 CMP](https://advertisingconsent.eu/cmp-list/) のリストを参照してください。
+1. IAB TCF をサポートする市販または独自の同意管理プラットフォーム（CMP）を使用し、IAB TCF に登録している。[IAB フレームワーク内の登録 CMP](https://iabeurope.eu/cmp-list/) のリストを参照してください。
 
 ## レコメンデーションと実装方法 {#recommendations}
 
@@ -70,9 +70,7 @@ IAB フレームワークの標準的な目的は次のとおりです。
 
 ## Audience Manager で求められる標準的な目的 {#aam-standard-purposes}
 
-Audience Manager は、IAB TFC コンセントストリングに格納されているユーザーの選択内容を評価します。
-
-
+オーディエンスマネージャーは、IAB TCF同意文字列に保存されたユーザーの選択内容を次のように評価します。
 
 * 情報の保存とアクセス（[グローバルベンダーリスト](https://vendorlist.consensu.org/vendorlist.json)の目的 ID1）
 * パーソナライゼーション（目的 ID2）
