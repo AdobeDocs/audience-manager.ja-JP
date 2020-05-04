@@ -1,13 +1,13 @@
 ---
 description: 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
-keywords: baaam;BAAAM
+keywords: baaam;BAAAM;download baaam
 seo-description: 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
 seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-translation-type: ht
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+translation-type: tm+mt
+source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
 
 ---
 
@@ -32,14 +32,14 @@ c_bulk_start.xml
 
 ## ダウンロード {#download}
 
-**[こちら](assets/BAAAM_V2_20200311.xlsm)** で最新のワークシートをダウンロードします。
+**[こちら](assets/BAAAM_V2_20200502.xlsm)** で最新のワークシートをダウンロードします。
 
 ## 前提条件 {#prereqs}
 
 [!DNL Bulk Management Tools] を使用するには、以下が必要です。
 
 * [!DNL Experience Cloud] へのログイン。お客様が既にお持ちの資格情報です。
-* [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20200311.xlsm)してください。
+* [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20200502.xlsm)してください。
 * [!DNL macOS] または 64 ビット版 [!DNL Microsoft Windows] で実行している Microsoft Excel。最新バージョンの Microsoft Excel を使用することをお勧めします。
 * ワークシートを開く場合は、[!DNL Bulk Management Tools] で&#x200B;**マクロを有効にする**&#x200B;必要があります。
 
@@ -117,5 +117,5 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->大量のリクエストを処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。その場合、そのままにしておきます。一括リクエストが完了すると、ワークシートは反応するようになります。ワークシートが長時間反応しない場合、[トラブルシューティングのセクション](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。
+>大量のリクエストを処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。その場合、そのままにしておきます。一括要求が完了すると、ワークシートは反応するようになります。ワークシートが長時間反応しない場合、[トラブルシューティングのセクション](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。
 
