@@ -7,7 +7,7 @@ solution: Audience Manager
 title: アルゴリズムモデルの作成
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
 
 ---
 
@@ -30,22 +30,23 @@ Describes the required and optional steps that let you create a [!UICONTROL Look
 
 ## モデルの作成
 
-次の手順に従って、を作成しま [!UICONTROL Look-Alike Model]す。
+次の手順に従って、 [!UICONTROL Look-Alike Model]
 
-1. /に移動し **[!UICONTROL Audience Data]** 、セ **[!UICONTROL Models]** クション **[!UICONTROL Add New]** 内をクリック [!UICONTROL Look-Alike Modeling] します。
-   ![似通った](assets/look-alike-add.png)
-2. 「[Basic Information](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
+1. /に移動し、 **[!UICONTROL Audience Data]** セクション **[!UICONTROL Models]** 内をクリックし **[!UICONTROL Add New]**[!UICONTROL Look-Alike Modeling] ます。
+   ![そっくりな](assets/look-alike-add.png)
+1. 「[Basic Information](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
    * モデルの名前を指定します。
    * *（オプション）*&#x200B;モデルについての簡単な説明を入力します。
    * モデルのステータスを&#x200B;**[!UICONTROL Active]**&#x200B;または&#x200B;**[!UICONTROL Inactive]**に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
-      ![似たような基本的な](assets/look-alike-basic.png)
-3. 「[Configuration](../../features/algorithmic-models/create-model.md#configuration)」セクションで次の操作をおこないます。
-   * **[!UICONTROL Browse All Traits]**&#x200B;または&#x200B;**[!UICONTROL Browse All Segments]**&#x200B;をクリックして、モデルの作成対象となる特性またはセグメントを選択します。オンボードの特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。
+      ![そっくりな基本的な](assets/look-alike-basic.png)
+1. 「[Configuration](../../features/algorithmic-models/create-model.md#configuration)」セクションで次の操作をおこないます。
+   * **[!UICONTROL Browse All Traits]**&#x200B;または&#x200B;**[!UICONTROL Browse All Segments]**&#x200B;をクリックして、モデルの作成対象となる特性またはセグメントを選択します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。特性タイプ([!UICONTROL Folder Trait]、 [!UICONTROL Rule-based]、 [!UICONTROL Onboarded]および [!UICONTROL Algorithmic])または母集団タイプ([デバイスIDと](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md)デバイスIDのクロス)別に特性をフィルタリングすることもできます。
+      ![browse-traits](assets/browse-traits.png)
    * 30 日、60 日または 90 日のルックバック期間を選択します。これにより、モデルの時間範囲が設定されます。
    * デフォルトでは [!UICONTROL TraitWeight] アルゴリズムが選択されています。
    * 「[!UICONTROL Available Data]」リストからデータソースを選択します。
    * 終了したら、**[!UICONTROL Save]**をクリックします。
-      ![似た形](assets/look-alike-configuration.png)
+      ![そっくりな配置](assets/look-alike-configuration.png)
 
 ## アルゴリズムの基本情報 {#basic-information}
 
