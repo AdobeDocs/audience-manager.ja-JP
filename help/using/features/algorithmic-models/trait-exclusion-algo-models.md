@@ -5,12 +5,12 @@ seo-title: アルゴリズムモデル  特性の除外
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
 
-# 類似モデリング：特性の除外 {#algorithmic-models-trait-exclusion}
+# そっくりなモデリング： 特性の除外 {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion]を使用すると、モデリングワークフローをさらに細かく制御し、ドメインに関する知識および規制要件に応じてモデルに含める特性を限定できます。1 つまたは複数のデータソースからモデルを作成するときに、「[!UICONTROL Exclusions]」オプションを使用して、除外する特性を指定します。
 
@@ -35,10 +35,10 @@ source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
 1. 「[!UICONTROL Exclusions]」セクションは、モデリング用のデータソースを 1 つ以上選択するまでグレー表示になります。
 2. モデリング用のデータソースを 1 つまたは複数選択したら、「**[!UICONTROL Browse All Traits]**」をクリックします。
 3. **[!UICONTROL Select Traits to Exclude]** ウィンドウに、選択済みのデータソースに関連付けられている特性がすべて表示されます。除外する特性を選択します。
-4. 特性は、特性タイプ、特性母集団タイプ(デバイスIDとデバイス間[ID](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md))でフィルターできます。また、特性フォルダーを参照することもできます。 特性フォルダーには、選択したデータソースに関連付けられている特性のみが表示されます。
+4. 特性は、特性タイプ、特性母集団タイプ([デバイスID](../../reference/ids-in-aam.md) および [デバイス間ID](../../reference/ids-in-aam.md))でフィルターできます。または、特性フォルダーを参照できます。 特性フォルダーには、選択したデータソースに関連付けられている特性のみが表示されます。
 5. **[!UICONTROL Exclude Selected Traits]** を押します。
 
-![特性の除外](assets/trait-exclusions-browse-traits.png)
+![特性除外](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
@@ -47,6 +47,10 @@ source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
 ビデオチュートリアルを希望する場合は、特性の除外のビデオデモをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+
+また、次のビデオでは、デバイス間指標の動作について詳しく説明しています。
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## 重要な点と制限事項 {#important-aspects-and-limitations}
 
