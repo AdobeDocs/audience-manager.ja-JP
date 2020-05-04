@@ -5,8 +5,8 @@ seo-title: セグメントビルダー
 solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-translation-type: ht
-source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
+translation-type: tm+mt
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -27,26 +27,35 @@ source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 [!UICONTROL Segment Builder] は、[!UICONTROL Basic Information]、[!UICONTROL Traits]、[!UICONTROL Destinations Mapping] の 3 つのセクションで構成されます。セグメントを作成するには、「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Traits]」セクションの必須フィールドに入力します。「[!UICONTROL Destinations Mapping]」の設定はオプションです。詳しいヘルプについては、後述の説明を参照してください。
 
-![create-segment](assets/create-segment.png)
-
 1. 「[Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics)」セクションで、以下の操作をおこないます。
+
+   ![create-segment](assets/create-segment.png)
+
    * セグメントの名前を設定します。セグメント名の最大長は 255 文字です。
    * セグメントのステータスを設定します（デフォルトは「active」です）。
    * データソースを選択します。最初のドロップダウンメニューを使用して、Audience Manager のデータソース、Adobe Analytics のレポートスイート、またはその両方をフィルタリングします。次に、2 番目のドロップダウンメニューを使用して、データソースを選択します。Adobe Analytics レポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトで Audience Manager データソースのみに設定されます。
    * セグメント認定に使用するプロファイル結合ルールを選択します。
    * セグメントを保存フォルダーに割り当てます。
-2. 「[Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits)」セクションで、以下の操作をおこないます。
+
+1. 「[Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits)」セクションで、以下の操作をおこないます。
+   ![segment builder-traits](assets/segment-builder-traits.png)
    * セグメントに追加する特性を検索して&#x200B;**[!UICONTROL Add Trait]**&#x200B;をクリックします。他の特性を追加し、特性グループを作成します。
-   * **[!UICONTROL Browse All Traits]**&#x200B;をクリックして詳細検索モーダルを表示します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。また、特性タイプを基準に特性をフィルタリングすることもできます。
+   * **[!UICONTROL Browse All Traits]**&#x200B;をクリックして詳細検索モーダルを表示します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。特性タイプ([!UICONTROL Folder Trait]、 [!UICONTROL Rule-based]、 [!UICONTROL Onboarded]および [!UICONTROL Algorithmic])または母集団タイプ([デバイスIDと](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md)デバイスIDのクロス)別に特性をフィルタリングすることもできます。
+      ![segment builder-browser-traits](assets/segment-builder-browse-traits.png)
    * セグメントの作成時に有効な[特性レコメンデーション](trait-recommendations.md)を取得します。
    * 特性をクリックしてドラッグし、個別のグループを作成します。
    * グループ間にマウスポインターを当て、ブール演算子 [!UICONTROL AND]、[!UICONTROL OR]、[!UICONTROL AND NOT] を使用して関係を設定します。
    * 時計アイコンの上にマウスポインターを置き、[最新性と頻度](../../features/segments/recency-and-frequency.md)のルールを特性に追加します。
    * 特性を追加または削除して、セグメント母集団データを表示します。**[!UICONTROL Calculate Estimates]**&#x200B;をクリックすると、推定された母集団の数値が表示（または更新）されます。詳しくは、セグメントビルダーの[セグメント母集団データ](../../features/segments/segment-builder-data.md#segment-populations)を参照してください。
    * 終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
-3. *（オプション）*「[宛先マッピング](../../features/segments/segment-builder.md#segment-builder-controls-destinations)」セクションでセグメントを宛先にマッピングします。
+
+1. *（オプション）*「[宛先マッピング](../../features/segments/segment-builder.md#segment-builder-controls-destinations)」セクションでセグメントを宛先にマッピングします。
    * 宛先を検索し、**[!UICONTROL Add Destination]**&#x200B;をクリックします。宛先をセグメントに追加するには、その宛先が既に存在していなければなりません。
    * 終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+
+以下のビデオで、デバイス間の指標の動作について詳しく説明します。
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## セグメントビルダーのコントロール：「Basic Information」セクション {#segment-builder-controls-basics}
 
