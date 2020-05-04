@@ -6,7 +6,7 @@ solution: Audience Manager
 title: トレンドレポート
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
-source-git-commit: 18bb00d494d44d7028dcc51dcb2fc57b23420142
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -40,16 +40,12 @@ c_trend_reports.xml
 ![](assets/trend_reports.png)
 
 1. 次のオプションを設定します。
-
-   **Report Type：**&#x200B;目的のレポートタイプ（特性またはセグメント）を選択します。
-
-   **Date Range：**&#x200B;レポートの日付範囲（開始日と終了日）を指定します。
-
+   **Report Type：**目的のレポートタイプ（特性またはセグメント）を選択します。
+   **Date Range：**レポートの日付範囲（開始日と終了日）を指定します。
    **Display Interval：**&#x200B;表示間隔（1 日、7 日、14 日、30 日、60 日、90 日のいずれか）を指定します。
-
-2. 特性またはセグメントを名前または ID で検索します。
-3. フォルダーのリストで、レポートの対象となる特性またはセグメントをドラッグし、右側の「[!UICONTROL Selections]」パネルにドロップします。
-4. データをグラフ形式で表示するレポートを生成するか、レポートを CSV 形式に書き出します。
+1. 特性またはセグメントを名前または ID で検索します。
+1. フォルダーのリストで、レポートの対象となる特性またはセグメントをドラッグし、右側の「[!UICONTROL Selections]」パネルにドロップします。
+1. データをグラフ形式で表示するレポートを生成するか、レポートを CSV 形式に書き出します。
 
 ## トレンドレポートの実行 {#run-trend-report}
 
@@ -67,11 +63,8 @@ t_working_with_trend_reports.xml
 1. 表示間隔として 1 日、7 日、14 日、30 日、60 日、90 日のいずれかを指定します。
 1. 特性またはセグメントを名前または ID で検索します。
 1. フォルダーのリストで、レポートの対象となる特性またはセグメントをドラッグし、右側の「[!UICONTROL Selections]」パネルにドロップします。
-
-   パフォーマンスを最高にするには、[!UICONTROL Trend]レポートを実行する際に対象とする特性またはセグメントの数を、一度に 20 件未満にします。
-1. 表示するレポートの種類（「Traits」または「Segments」）に応じて、「**[!UICONTROL Graph Traits]**」または「**[!UICONTROL Graph Segments]**」をクリックします。
-
-   これらのオプションでは、フォルダーはすべて無視され、個別に選択した特性やセグメントのみがグラフに表示されます。
+   * パフォーマンスを最高にするには、[!UICONTROL Trend]レポートを実行する際に対象とする特性またはセグメントの数を、一度に 20 件未満にします。
+1. 表示するレポートの種類（「Traits」または「Segments」）に応じて、「**[!UICONTROL Graph Traits]**」または「**[!UICONTROL Graph Segments]**」をクリックします。これらのオプションでは、フォルダーはすべて無視され、個別に選択した特性やセグメントのみがグラフに表示されます。
 
    または
 
@@ -81,10 +74,37 @@ t_working_with_trend_reports.xml
    >
    >[!UICONTROL Total Trait Realizations]は[!UICONTROL Rule-based Traits]に対してのみ計算されます。
 
-1. （オプション）個別の特性やセグメントにマウスを移動し、各データポイントの訪問者数と日付を表示します。
+1. （オプション）個別の特性やセグメントにマウスを移動し、各データポイントの訪問者数と日付を表示します。テーブルで列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
 
-   テーブルで列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
+## 特性のトレンドレポートの結果 {#trend-report-results-traits}
 
-[!UICONTROL Trended Trait]レポートの場合、0 は [!DNL Audience Manager] がその日のデータを収集していないことを表します。空白のエントリは、その特性が存在しないことを表します。以下の例は、両方の種類のエントリの例です。
+The filters below are available when you run a [!UICONTROL Trend Report] and select **[!UICONTROL Trait]** as the report type.
 
-![](assets/trended_data.png)
+結果を [!UICONTROL Device ID] でフィルタリングする場合：
+
+* [!UICONTROL Unique Trait Realizations] は、選択した時間範囲内にプロファイルに特性を追加した匿名デバイス訪問者の数です。
+* [!UICONTROL Total Trait Realization] は、選択した期間内の匿名の特性の割り当ての合計数です。
+* [!UICONTROL Total Trait Population] は、プロファイルにこの特性がある匿名デバイス訪問者の数を表します。
+
+結果を [!UICONTROL Cross-Device ID] でフィルタリングする場合：
+
+* [!UICONTROL Unique Trait Realizations] は、選択した時間範囲内に、プロファイルに特性を追加した認証済み訪問者の数です。
+* [!UICONTROL Total Trait Realization] は、選択した期間内で認証済みの特性の割り当ての合計数です。
+* [!UICONTROL Total Trait Population] は、プロファイルにこの特性がある認証済み訪問者の数を表します。
+
+![トレンドレポート特性](assets/trend-report-traits.png)
+
+Zeroes indicate that [!DNL Audience Manager] did not collect data for that day. 空白のエントリは、その特性が存在しないことを表します。
+
+以下のビデオで、デバイス間の指標の動作について詳しく説明します。
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+
+## セグメントのトレンドレポートの結果 {#segment-report-results-traits}
+
+The filters below are available when you run a [!UICONTROL Trend Report] and select **[!UICONTROL Segments]** as the report type.
+
+* **[!UICONTROL Real-time Segment Population]**: 選択した時間範囲内でセグメントに適格な訪問者数。
+* **[!UICONTROL Total Segment Population]**: セグメントに適格な訪問者の合計数。
+
+![trend-report-segments](assets/trend-report-segments.png)
