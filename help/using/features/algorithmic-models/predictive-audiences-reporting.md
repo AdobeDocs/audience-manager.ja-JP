@@ -1,76 +1,76 @@
 ---
-description: 予測オーディエンスを使用すると、不明なオーディエンスをリアルタイムで別の人物に分類し、データサイエンスを使用できます。
-seo-description: 予測オーディエンスを使用すると、不明なオーディエンスをリアルタイムで別の人物に分類し、データサイエンスを使用できます。
-seo-title: 予測オーディエンスレポート
+description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
+seo-description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
+seo-title: Predictive Audiences レポート
 solution: Audience Manager
-title: オーディエンスマネージャーの予測オーディエンス
-translation-type: tm+mt
+title: Audience Manager Predictive Audiences
+translation-type: ht
 source-git-commit: 8259f07c91efa0efd88e8f7c87cb1829ffadd77d
 
 ---
 
 
-# 予測オーディエンスレポート
+# Predictive Audiences レポート
 
-モデルを保存した後、 [!UICONTROL Predictive Audiences] オーディエンスマネージャの開始がトレーニングします。 数時間以内に、計算済みモデルが開始でデータ収集サーバー上のオーディエンス [を分析します](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)。 レポートは翌日に公開されます。
+[!UICONTROL Predictive Audiences] モデルを保存すると、Audience Manager はモデルのトレーニングを開始します。2 ～ 3 時間以内に、計算済みのモデルが[データ収集サーバー](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)上のオーディエンスの分析を開始します。レポートは、翌日に使用できるようになります。
 
-分類の結果を表示するに [!UICONTROL Predictive Audiences] は、/に移動し、 **[!UICONTROL Audience Data]** モデ **[!UICONTROL Models]**&#x200B;ルをリストでクリックします。
+[!UICONTROL Predictive Audiences] 分類の結果を確認するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Models]** に移動して、リストのモデルをクリックします。
 
-左側のフィルタオプションを使用して、モデル名を検索したり、モデルタイプに基づいて結果をフィルタしたりします。
+左側にあるフィルタリングオプションを使用して、モデル名を検索したり、モデルのタイプに基づいて結果をフィルタリングしたりします。
 
-![予測オーディエンスフィルタ](assets/predictive-audiences-filter-models.png)
+![predictive-audiences-filter](assets/predictive-audiences-filter-models.png)
 
-モデルの表には、次の情報が表示されます。
+モデルの表には次の情報が表示されます。
 
-* **[!UICONTROL ID]**:モデルIDは、Managerアカウント内の各モデルを一意にオーディエンスします。
-* **[!UICONTROL Name]**:モデル作成手順で指定した名前
-* **[!UICONTROL Description]**:モデル作成手順で指定した説明
-* **[!UICONTROL Model Type]**:各モデル(または[!UICONTROL Look-Alike Modeling] )のタ [!UICONTROL Predictive Audiences]イプ
-* **[!UICONTROL Status]**:各モデルのステータス：
-   * **[!UICONTROL Pending]**:モデルは初期化中で、まもなく結果を出す開始が発生します。
-   * **[!UICONTROL Active]**:モデルが正常に実行され、結果が生成されている。
-   * **[!UICONTROL Warning]**:データが不十分(基準母集団が少ない、ユーザープロファイルがリッチでないなど)のため、モデルは結果を生成できませんでした。
-   * **[!UICONTROL Error]**:モデルの実行に失敗しました。 アドビの担当者にお問い合わせください。
+* **[!UICONTROL ID]**：Audience Manager アカウントで各モデルを一意に識別するモデル ID。
+* **[!UICONTROL Name]**：モデル作成ステップで指定した名前。
+* **[!UICONTROL Description]**：モデル作成ステップで指定した説明。
+* **[!UICONTROL Model Type]**：各モデルのタイプ（[!UICONTROL Look-Alike Modeling] または [!UICONTROL Predictive Audiences]）。
+* **[!UICONTROL Status]**：各モデルのステータス。
+   * **[!UICONTROL Pending]**：モデルは初期化中で、まもなく結果の生成が始まります。
+   * **[!UICONTROL Active]**：モデルは正常に実行中で、結果を生成しています。
+   * **[!UICONTROL Warning]**：データが不十分なので（つまり、ベースライン母集団が少なく、ユーザープロファイルがリッチでないので）、モデルが結果の生成に失敗しました。
+   * **[!UICONTROL Error]**：モデルが実行に失敗しました。アドビの担当者に問い合わせる必要があります。
 
-## モデル概要レポート{#model-report}
+## モデルの概要レポート {#model-report}
 
-モデルを選択すると、そのモデルのレポートページが読み込まれます。 ページの上部に、モデルがターゲットオーディエンスを分類した1日のリアルタイム実現に基づく上位5つの予測セグメントが表示されます。 この **[!UICONTROL Other]** カテゴリには、上位5つの最大の予測セグメントに含まれていなかった残りの人が含まれます。
+モデルを選択したら、そのレポートページが読み込まれます。ページの上部に、1 日のリアルタイム適合に基づいて、モデルがターゲットオーディエンスを分類した、上位 5 件の予測セグメント（規模の大きい順）が表示されます。**[!UICONTROL Other]** カテゴリには、上位 5 件の予測セグメントに含まれない、残りのペルソナが含まれます。
 
-オーディエンスマネージャに、色分けされたドーナツグラフとタイムライングラフの両方が表示されま [!UICONTROL Predictive Audiences]す。
+Audience Manager には、[!UICONTROL Predictive Audiences] に関する色分けされたドーナツグラフとタイムライングラフの両方が表示されます。
 
-ページの上部にある「個人」タブをクリックすると、グラフやグラフに追加または削除されます。
+ページの上部にあるペルソナのタブをクリックすることで、ドーナツグラフとタイムライングラフに追加／削除されます。
 
-ドーナツグラフは、ターゲットオーディエンスの個人ベースの分類を示し、グラフは過去6日間の予測セグメントの1日間のリアルタイム訪問者トレンドを示します。
+ドーナツグラフには、ターゲットオーディエンスのペルソナベースの分類が表示されるのに対して、タイムライングラフには、予測セグメントの 1 日のリアルタイム母集団トレンドが過去 6 日間にわたって表示されます。
 
-モデルのステータスが、、、ま [!UICONTROL Pending]たはの [!UICONTROL Warning]場合、グ [!UICONTROL Error]ラフの代わりにモデルのステータスが表示されます。
+モデルステータスが [!UICONTROL Pending]、[!UICONTROL Warning] または [!UICONTROL Error] の場合、グラフの代わりにモデルステータスが表示されます。
 
-![スマートパーソナレポート](assets/predictive-audiences-report.png)
+![smart-persona-report](assets/predictive-audiences-report.png)
 
-レポートの表には、各セグメントに関する次の情報が表示さ [!UICONTROL Predictive Audiences] れます。
+レポートの表には、各 [!UICONTROL Predictive Audiences] セグメントに関する次の情報が表示されます。
 
-1. **[!UICONTROL SEGMENT ID]**:各訪問者に関連付けられた、自動作成されたセグメントのセグメントID。
-1. **[!UICONTROL NAME]**:個人名
-1. **[!UICONTROL STATUS]**:セグメントのステー [!UICONTROL Predictive Audiences] タス：
-   * **[!UICONTROL Succeeded]**:ユーザーは、このセグメントに分類されます。
-   * **[!UICONTROL Pending]**:セグメントはまだ初期化中です。
-   * **[!UICONTROL Insufficient Training Data]**:データが不足しているため、ユーザーはこのセグメントに分類されません。 ベースライン母集団の合計が少なすぎるため、十分なデータが提供されません。
-1. **[!UICONTROL 1 DAY REAL TIME POPULATION]**:過去24時間における各訪問者のセグメントの関連付け数。
-1. **[!UICONTROL 1 DAY REAL TIME POPULATION %]**:過去24時間における各訪問者のセグメントの関連付けの割合（モデル母集団全体からの割合）。
+1. **[!UICONTROL SEGMENT ID]**：各ペルソナに関連付けられた、自動作成されたセグメントのセグメント ID。
+1. **[!UICONTROL NAME]**：ペルソナ名。
+1. **[!UICONTROL STATUS]**：[!UICONTROL Predictive Audiences] セグメントのステータス。
+   * **[!UICONTROL Succeeded]**：ユーザーはこのセグメントに分類されています。
+   * **[!UICONTROL Pending]**：セグメントはまだ初期化中です。
+   * **[!UICONTROL Insufficient Training Data]**：データが不十分なので、ユーザーはこのセグメントに分類されていません。合計ベースライン母集団が少なすぎて、学習するのに十分なデータを提供できません。
+1. **[!UICONTROL 1 DAY REAL TIME POPULATION]**：過去 24 時間のペルソナごとのセグメントの適合数。
+1. **[!UICONTROL 1 DAY REAL TIME POPULATION %]**：合計モデル母集団に対する、過去 24 時間のペルソナごとのセグメントの適合率。
 
-## Influential Traits{#influential-traits}
+## Influential Traits {#influential-traits}
 
-[!UICONTROL Influential Traits] は、アルゴリズムが、 [!UICONTROL Predictive Audiences] その個人の分類を決定する最も強い予測要素であることを発見した特性です。訪問者
+[!UICONTROL Influential Traits] は、訪問者のペルソナ分類を決定するための最も強力な予測因子となる、[!UICONTROL Predictive Audiences] アルゴリズムが検出した特性です。
 
-特徴の存在が、選択した人物に属するユーザーの尤度を増加(+)するか減少(-)するかを示す符号。
+記号は、特性の存在によって、選択したペルソナにユーザーが属する可能性が増加する（+）か減少する（-）かを示します。
 
-すべての表示の影響を与える特性を選択するには、をクリックしま [!UICONTROL View All Influential Traits]す。
+ペルソナのすべての Influential Traits を表示するには、[!UICONTROL View All Influential Traits] をクリックします。
 
-このウ [!UICONTROL Influential Traits] ィンドウには、選択したモデルの各訪問者に関する次の情報が表示されます。
+[!UICONTROL Influential Traits] ウィンドウには、選択したモデルのペルソナごとに、次の情報が表示されます。
 
-![影響力のある](assets/predictive-audiences-influential-traits.png)
+![influential-traits](assets/predictive-audiences-influential-traits.png)
 
-1. **[!UICONTROL TRAIT ID]**:選択した人物の各影響力のある特性の特性ID。
-1. **[!UICONTROL NAME]**:選ばれた人物の各影響力のある特性の名前
-1. **[!UICONTROL DESCRIPTION]**:選ばれた人物のそれぞれの影響力のある特性の説明
-1. **[!UICONTROL WEIGHT]**:選択した人物の各影響力の重み付け。 [!UICONTROL Influential Traits] は、デフォルトで重み付け順に並べ替えられます。  重み付けの値は、予測力を示します。 符号は、特性の存在が個人に属する可能性を増加させる(+)か減少させる(-)かを示します。
-1. **[!UICONTROL 30 DAY REAL TIME POPULATION]**:過去30日間の、選択した個人の影響を受ける各特性の固有の特性の関連付けの数です。
+1. **[!UICONTROL TRAIT ID]**：選択したペルソナの各 Influential Traits の特性 ID。
+1. **[!UICONTROL NAME]**：選択したペルソナの各 Influential Traits の名前。
+1. **[!UICONTROL DESCRIPTION]**：選択したペルソナの各 Influential Traits の説明。
+1. **[!UICONTROL WEIGHT]**：選択したペルソナの各 Influential Traits の重み。[!UICONTROL Influential Traits] は、デフォルトでは、重み（降順）で並べ替えられます。重みの値は、その予測力を示します。記号は、特性の存在によって、ペルソナに属する可能性が増加する（+）か減少する（-）かを示します。
+1. **[!UICONTROL 30 DAY REAL TIME POPULATION]**：過去 30 日間の選択したペルソナに対する Influential Traits ごとのユニークな特性の適合数。
