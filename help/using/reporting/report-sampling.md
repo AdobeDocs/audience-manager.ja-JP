@@ -5,7 +5,7 @@ seo-title: 選択した Audience Manager レポートでのデータサンプリ
 solution: Audience Manager
 title: 選択した Audience Manager レポートでのデータサンプリングとエラー率
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 
 ---
@@ -51,4 +51,4 @@ source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 * [重複レポート](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)（特性間、セグメント - 特性間、セグメント間）。
 * [アドレス可能なオーディエンス](../features/addressable-audiences.md)データ（顧客レベルデータとセグメントレベルデータ）。
 * [!UICONTROL Profile Merge Rule]の[合計デバイス数](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics)指標。
-* [Data Explorerでは](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) 、タブ内のサンプルデータと [!UICONTROL Search] 任意のデータを使用しま [!UICONTROL Saved Searches]す。
+* [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) は、「[!UICONTROL Search]」タブおよび任意の [!UICONTROL Saved Searches] のサンプリングデータを使用します。
