@@ -1,26 +1,26 @@
 ---
-description: 類似のモデリングで使用する特性またはセグメントを作成および管理します。
+description: 類似（look-alike）モデリングで使用する特性やセグメントを作成および管理します。
 keywords: relative weight, lookalike
-seo-description: 類似のモデリングで使用する特性またはセグメントを作成および管理します。
-seo-title: 類似モデリングについて
+seo-description: 類似（look-alike）モデリングで使用する特性やセグメントを作成および管理します。
+seo-title: 類似（look-alike）モデリングについて
 solution: Audience Manager
-title: 類似モデリングについて
+title: 類似（look-alike）モデリングについて
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
 
 ---
 
 
-# 類似モデリングについて {#about-algorithmic-models}
+# 類似（look-alike）モデリングについて {#about-algorithmic-models}
 
-## Find New Users with Look-Alike Modeling {#find-new-users}
+## 類似（look-alike）モデリングで新しいユーザーを発見 {#find-new-users}
 
-[!UICONTROL Look-Alike Modeling] 自動化されたデータの分析により、新しい固有のオーディエンスを見つけるのに役立ちます。 このプロセスは、特性またはセグメント、時間間隔、ファーストパーティおよびサードパーティデータソースを選択した時点で開始します。この選択が、アルゴリズムモデルの入力となります。アナリティクス処理が実行されると、選択した母集団の共有特徴に基づいて、該当するユーザーを検索します。完了すると、このデータは[特性ビルダー](../../features/traits/about-trait-builder.md)で使用可能になります。ここでは、このデータを使用して[精度とリーチ](../../features/traits/trait-accuracy-reach.md)に基づいて特性を作成できます。さらに、アルゴリズム特性とルールベースの特性を結合するセグメントを作成し、ブール式や比較演算子を使用して他の認定要件を追加することができます。[!UICONTROL Look-Alike Modeling] 使用可能なすべての特性データから動的に値を抽出できます。
+[!UICONTROL Look-Alike Modeling] を使用すると、自動データ分析により、新しいユニークオーディエンスを発見できます。このプロセスは、特性またはセグメント、時間間隔、ファーストパーティおよびサードパーティデータソースを選択した時点で開始します。この選択が、アルゴリズムモデルの入力となります。分析処理が実行されると、選択した母集団と共有する特徴に基づいて、該当するユーザーを検索します。完了すると、このデータは[特性ビルダー](../../features/traits/about-trait-builder.md)で使用可能になります。ここでは、このデータを使用して[精度とリーチ](../../features/traits/trait-accuracy-reach.md)に基づいて特性を作成できます。さらに、アルゴリズム特性とルールベースの特性を結合するセグメントを作成し、ブール式や比較演算子を使用して他の認定要件を追加することができます。[!UICONTROL Look-Alike Modeling] を使用すると、使用可能なすべての特性データから価値を動的に抽出できます。
 
 ## メリット {#advantages}
 
-The major benefits of using [!UICONTROL Look-Alike Modeling] include:
+[!UICONTROL Look-Alike Modeling] を使用する主なメリットには、次のようなものがあります。
 
 * **データの精度：**&#x200B;アルゴリズムは定期的に実行されるので、結果は常に最新で関連性の高いものになります。
 * **自動化：**&#x200B;大規模な静的ルールのセットを管理する必要はありません。アルゴリズムがオーディエンスを特定します。
@@ -39,7 +39,7 @@ The major benefits of using [!UICONTROL Look-Alike Modeling] include:
 
 ## トラブルシューティング {#troubleshooting}
 
-We deactivate any [!UICONTROL Look-Alike Model] that fails to generate data for three consecutive runs. 後でモデルのステータスを「Active」に戻すことはできません。モデルがデータを生成するようにするには、データを蓄積するために十分な量の特性を持つデータソースからモデルを作成することが推奨されます。
+データの生成に 3 回連続で失敗した [!UICONTROL Look-Alike Model] は、非アクティブ化されます。後でモデルのステータスを「Active」に戻すことはできません。モデルがデータを生成するようにするには、データを蓄積するために十分な量の特性を持つデータソースからモデルを作成することが推奨されます。
 
 ## TraitWeight について {#understanding-traitweight}
 
@@ -80,13 +80,13 @@ Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]�
 * [モデルビルダー](../../features/algorithmic-models/create-model.md)
 * [精度とリーチ](../../features/traits/trait-accuracy-reach.md)
 
-## Update Schedule for Look-Alike Models and Traits {#update-schedule}
+## 類似（look-alike）モデルおよび特性の更新スケジュール {#update-schedule}
 
 新規または既存のアルゴリズムモデルおよび特性の作成と更新のスケジュールについて説明します。
 
 <!-- c_model_update_schedule.xml -->
 
-### 類似モデルの作成と更新のスケジュール
+### 類似（look-alike）モデルの作成および更新スケジュール
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
  <thead>
@@ -98,11 +98,11 @@ Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]�
  <tbody>
   <tr> 
    <td colname="col1"> <b>モデルの作成または複製</b> </td>
-   <td colname="col2"> <p>[!UICONTROL類似モデル]の新規作成または複製の場合、作成プロセスは1日に1回、次の場所で実行されます。 
+   <td colname="col2"> <p>新規または複製した [!UICONTROL Look-Alike Models] について、作成プロセスは毎日次の時間に 1 回実行されます。 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 午後 5 時 EST（11 月～3 月） </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 午後 6 時 EDT（3 月～11 月） </li> 
-     </ul> </p> <p>作成期日後に構築または複製されたモデルは、翌日に処理されます。 </p> <p>モデルの最初の実行でデータが生成されない場合、2 回目は次の日に実行されます。2 回目でもデータが生成されない場合、3 回目がその次の日に実行されます。3 回目の試行でもデータが生成されない場合、モデルは実行を停止します。この場合、モデルは非アクティブ化されます。See more in <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Troubleshooting Look-Alike Models</a>. </p> </td>
+     </ul> </p> <p>作成期日後に構築または複製されたモデルは、翌日に処理されます。 </p> <p>モデルの最初の実行でデータが生成されない場合、2 回目は次の日に実行されます。2 回目でもデータが生成されない場合、3 回目がその次の日に実行されます。3 回目の試行でもデータが生成されない場合、モデルは実行を停止します。この場合、モデルは非アクティブ化されます。詳しくは、<a href="../../features/algorithmic-models/understanding-models.md#troubleshooting">類似（look-alike）モデルのトラブルシューティング</a>を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>モデルの更新</b> </td> 
@@ -115,7 +115,7 @@ Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]�
  </tbody>
 </table>
 
-### 類似の特性の作成と更新のスケジュール
+### 類似（look-alike）特性の作成および更新スケジュール
 
 <table id="table_92A908818C4F4F2287EA56C786CD0BBD"> 
  <thead> 
