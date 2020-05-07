@@ -5,13 +5,13 @@ seo-title: ルックアップテーブルによるログファイル処理時間
 solution: Audience Manager
 title: ルックアップテーブルによるログファイル処理時間の改善
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
 
-# ルックアップテーブルによるログファイル処理時間の改善{#improve-log-file-processing-times-with-lookup-tables}
+# ルックアップテーブルによるログファイル処理時間の改善 {#improve-log-file-processing-times-with-lookup-tables}
 
 配信パフォーマンスレポートログファイルのデータを、ID のみを含むテーブルに格納します。ID 以外のメタデータを別個のルックアップテーブルに格納すると、ファイルサイズの縮小と処理時間の短縮に役立ちます。
 
@@ -25,7 +25,7 @@ c_lookup_tables.xml
 
 [!UICONTROL Delivery Performance]レポートで使用される典型的なログファイルには、通常、何万もの行と数十の列が含まれています。数値 ID および人間が判読できる情報（クリエイティブの名前、広告主、広告掲載の申し込みなど）で構成されます。
 
-このID以外の情報は、*`metadata`* （例：他の情報に関する情報）と呼ばれ、ログファイルの各行に書き込まれます。
+この ID 以外の情報は、*`metadata`*（例：他の情報に関する情報）と呼ばれ、ログファイルの各行に書き込まれます。
 
 ただし、[!UICONTROL Delivery Performance]配レポートでは、主にログファイルの ID を使用します。メタデータは有用ですが、同じ情報を繰り返します。また、ファイルサイズおよびデータの取り込み時間が増えます。
 
@@ -57,7 +57,7 @@ c_lookup_tables.xml
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
-<br> 
+<br>
 
 以下のルックアップファイルにはメタデータが含まれており、広告 ID でメインファイルにリンクし直すことができます。サイズにも注意してください。各広告主を複数回繰り返す代わりに、それぞれに 1 つの参照のみが必要です。
 
