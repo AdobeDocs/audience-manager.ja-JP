@@ -1,133 +1,132 @@
 ---
-description: 予測オーディエンスを使用すると、不明なオーディエンスをリアルタイムで別の人物に分類し、データサイエンスを使用できます。
-seo-description: 予測オーディエンスを使用すると、不明なオーディエンスをリアルタイムで別の人物に分類し、データサイエンスを使用できます。
-seo-title: 予測オーディエンスの概要
+description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
+seo-description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
+seo-title: Predictive Audiences の概要
 solution: Audience Manager
-title: オーディエンスマネージャーの予測オーディエンス
-translation-type: tm+mt
+title: Audience Manager Predictive Audiences
+translation-type: ht
 source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 ---
 
 
-# 予測オーディエンスの概要 {#predictive-audiences}
+# Predictive Audiences の概要 {#predictive-audiences}
 
-[!UICONTROL Predictive Audiences] 高度なデータ科学技術を使用して、未知のオーディエンスをリアルタイムで個別の人物に分類するのに役立ちます。
+[!UICONTROL Predictive Audiences] は、高度なデータサイエンス技法を使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
 
 >[!IMPORTANT]
 >この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
-マーケティングコンテキストで、個人とは、訪問者、ユーザー、または潜在的な購入者が定義したオーディエンスセグメントで、人口統計、閲覧習慣、買い物履歴などの特定の特性を共有します。
+マーケティングにおいて、ペルソナとは、人口統計、閲覧傾向、買い物履歴など、特定の特性のセットを共有する、訪問者、ユーザーまたは見込み客別に定義されたオーディエンスセグメントです。
 
-[!UICONTROL Predictive Audiences] モデルは、オーディエンスマネージャの機械学習機能を使用して、未知のオーディエンスを別の個人に分類することで、この概念をさらに一歩進めます。 オーディエンスマネージャーは、既知のファーストパーティオーディエンスのセットに対する未知のファーストパーティオーディエンスの傾向を計算することで、これを達成するのに役立ちます。
+[!UICONTROL Predictive Audiences] モデルは、この概念をさらに一歩進めて、Audience Manager の機械学習機能を使用して不明なオーディエンスを個別のペルソナに分類できるようにします。Audience Manager は、既知のファーストパーティオーディエンスのセットに関する不明なファーストパーティオーディエンスの傾向を計算することで、これを実現します。
 
-モデルを作成する [!UICONTROL Predictive Audiences] 場合、最初の手順は、ターゲットオーディエンスを分類する基準特性またはセグメントを選択することです。 これらの特性またはセグメントは、ユーザーの個人を定義します。
+[!UICONTROL Predictive Audiences] モデルを作成する場合、最初のステップは、ターゲットオーディエンスを分類するためのベースライン特性またはセグメントを選択することです。これらの特性またはセグメントは、ペルソナを定義します。
 
-評価段階では、ベースラインとして定義した各特性ま [!UICONTROL Predictive Audiences] たはセグメントに対して、モデルによって新しいセグメントが作成されます。 次回、オーディエンスオーディエンスから、（どのベースライン特性またはセグメントにも適用されなかった）個人に分類されていない訪問者が表示された場合、モデルは訪問者が属する予測セグメントを判断し、そのセグメントに訪問者を追加します。 [!UICONTROL Predictive Audiences]
+評価フェーズの間、モデルは、ベースラインとして定義した特性またはセグメントごとに新しい [!UICONTROL Predictive Audiences] セグメントを作成します。次回 Audience Manager がペルソナに分類されていない（どのベースライン特性またはセグメントの条件も満たさなかった）ターゲットオーディエンスの訪問者を確認したら、[!UICONTROL Predictive Audiences] モデルは、その訪問者が属する予測セグメントを決定して、訪問者をそのセグメントに追加します。
 
-ページ内のモデルによって作成された予測セグメントを識別で [!UICONTROL Segments] きます。 各モデ [!UICONTROL Predictive Audiences] ルはフォルダの下に独自のフォルダを [!UICONTROL Predictive Audiences] 持ち、モデルフォルダをクリックすると各モデルのセグメントを表示できます。
+[!UICONTROL Segments] ページで、モデルによって作成された予測セグメントを識別できます。各 [!UICONTROL Predictive Audiences] モデルには、[!UICONTROL Predictive Audiences] フォルダーの下に独自のフォルダーがあり、モデルフォルダーをクリックすることで、各モデルのセグメントを確認できます。
 
-![予測オーディエンスセグメント](assets/predictive-audiences-segments.png)
+![predictive-audiences-segments](assets/predictive-audiences-segments.png)
 
 ## ユースケース {#use-cases}
 
-To help you better understand how and when you could use [!UICONTROL Predictive Audiences], here are a few use cases that Audience Manager customers can solve by using this feature.
+[!UICONTROL Predictive Audiences] をいつどのように使用できるかを理解しやすくするために、Audience Manager のお客様がこの機能を使用して解決できる、いくつかのユースケースを次に示します。
 
 ### ユースケース 1
 
-eコマース会社のマーケティング担当者として、Web訪問者とモバイルアフィニティをすべて様々なブランドカテゴリに分類し、ユーザーエクスペリエンスをパーソナライズできるようにします。
+e コマース会社のマーケティング担当者の場合、ユーザーエクスペリエンスをパーソナライズできるように、すべての Web およびモバイル訪問者を様々なブランド志向カテゴリに分類したい。
 
 ### ユースケース 2
 
-メディア会社のマーケティング担当者として、自分の未認証のWeb訪問者とモバイルチャネルをお気に入りのジャンル別に分類し、すべてのジャンルにわたってパーソナライズされたコンテンツを提案したいと思います。
+メディア会社のマーケティング担当者の場合、すべてのチャネルにわたってパーソナライズされたコンテンツを提案できるように、未認証の Web およびモバイル訪問者を好きなジャンルごとに分類したい。
 
 ### ユースケース 3
 
-航空会社の会社の広告主として、短いリターゲティングウィンドウ内でリアルタイムに広告を出せるように、旅行先に対する関心に基づいてオーディエンスを分類するようにします。
+航空会社向けの広告主の場合、短いリターゲティング期間内にリアルタイムに広告を提示できるように、旅行先への関心に基づいてオーディエンスを確実に分類したい。
 
 ### ユースケース 4
 
-広告主として、ファーストパーティオーディエンスをリアルタイムで分類し、ニュースの傾向に素早く対応できるようにしたいと思います。
+広告主の場合、トレンドニュースにすばやく反応できるように、リアルタイムにファーストパーティオーディエンスを分類したい。
 
 ### ユースケース 5
 
-マーケティング担当者として、Webサイトの訪問者がどの段階にあるか（発見、関与、購入、保持など）を予測し、それに応じて顧客のターゲットを行いたいと思います。
+マーケティング担当者の場合、フェーズに応じてターゲティングできるように、Web サイト訪問者がいるカスタマージャーニーフェーズ（ディスカバリー、エンゲージメント、購入、定着など）を予測したい。
 
 ### ユースケース 6
 
-メディア会社として、オーディエンスを分類し、広告スペースをプレミアム価格で販売し、訪問者に関連する広告を提供できるようにしたいと思います。
+メディア会社の場合、訪問者に関連性のある広告を提供すると同時に、広告スペースをプレミアム価格で販売できるように、オーディエンスを分類したい。
 
-## 予測オーディエンスモデルの仕組み
+## Predictive Audiences モデルのしくみ
 
-モデルを作成する [!UICONTROL Predictive Audiences] ときは、次の3つの手順を実行します。
+[!UICONTROL Predictive Audiences] モデルを作成する場合、次の 3 つの手順を実行します。
 
-1. まず、自分の個人を定義する2つ以上の特性または2つのセグメントを選択します。
-1. 次に、分類するターゲットオーディエンスを定義する特性またはセグメントを選択します。
-1. 最後に、モデルの名前を選択し、予測セグメントを保存するデータソースを選択します。
+1. 最初に、最低でもペルソナを定義する 2 つの特性または 2 つのセグメントを選択します。
+1. 次に、分類したいターゲットオーディエンスを定義する特性またはセグメントを選択します。
+1. 最後に、モデルの名前を選択して、予測セグメントを保存するデータソースを選択します。
 
-### 個人の選択基準 {#selection-personas}
+### ペルソナの選択条件 {#selection-personas}
 
-任意のファーストパーティの特性またはセグメントを選択して、自分の個人を定義できます。 ただし、最適な結果を得るために、次に推奨されるベストプラクティスを示します。
+ペルソナを定義するための任意のファーストパーティ特性またはセグメントを選択できます。ただし、最適な結果を得るには、次に示すベストプラクティスに従ってください。
 
-* 個人の特徴またはセグメントを選択し、各個人のデバイスIDが少なくとも数百個になるよ [うにします](../../reference/ids-in-aam.md)。
-* 特性がデバイス間のIDに基づい [ている場合](../../reference/ids-in-aam.md)、などのデバイスIDを使用する [プロファイル結合ルールでセグメント](../profile-merge-rules/merge-rules-overview.md) に含めます [](../../reference/ids-in-aam.md)[!UICONTROL Device Graph]。 これにより、アルゴリズムが学習で [きる十分なデバイス](../../reference/ids-in-aam.md) IDを確保できます。
-* 特性を1 ～ 3個まで含む、個人の特性または単純なセグメントを選択することをお勧めします。
-* 重なりが最小のベースライン特性またはセグメントを選択します。
-* デジタルプロパティ全体で詳細な特性をキャプチャしていることを確認します。
+* 各ペルソナが少なくとも数百の[デバイス ID](../../reference/ids-in-aam.md) を含むようにペルソナの特性またはセグメントを選択します。
+* 特性が[クロスデバイス ID](../../reference/ids-in-aam.md) に基づいている場合、[!UICONTROL Device Graph] のように、[デバイス ID](../../reference/ids-in-aam.md) を使用する[プロファイル結合ルール](../profile-merge-rules/merge-rules-overview.md)で特性をセグメントにラップできます。これにより、アルゴリズムが学習するのに十分な[デバイス ID](../../reference/ids-in-aam.md) が確保されます。
+* ペルソナ用に特性またはシンプルなセグメント（1 ～ 3 個の特性で構成）を選択することをお勧めします。
+* 重複が最小のベースライン特性またはセグメントを選択します。
+* デジタルプロパティをまたいで詳細な特性をキャプチャしていることを確認します。
 
-### ターゲットオーディエンス {#selection-audience}
+### ターゲットオーディエンスの選択条件 {#selection-audience}
 
-個人オーディエンスと同様に、ターゲットを定義する特性またはセグメントを選択して、適切な個人に分類するための豊富な特性を持つリアルタイムユーザーを作成する必要があります。
+ペルソナの選択と同様、適切なペルソナに分類するために、特性のリッチなセットでリアルタイムユーザーを含むように、ターゲットオーディエンスを定義する特性またはセグメントを選択する必要があります。
 
-### 予測オーディエンスモデルのトレーニング段階 {#model-training}
+### Predictive Audiences モデルトレーニングフェーズ {#model-training}
 
-アルゴリズムでファーストパーティオーディエンスを適切な人物に分類する前に、データに基づいて自分自身をトレーニングする必要があります。
+アルゴリズムがファーストパーティオーディエンスを適切なペルソナに分類できるようにするには、事前にお客様のデータでアルゴリズム自体をトレーニングする必要があります。
 
-定義した各個人に対して、アルゴリズムはそれぞれのオーディエンスを分析し、過去30日間のユーザーのリアルタイムおよび/またはオンボードの特性アクティビティを評価します。
-この手順は、ファーストパーティのオーディエンスの変更を考慮するため、24時間に1回実行されます。
+アルゴリズムは、定義するペルソナごとに各オーディエンスを分析し、過去 30 日間のユーザーのリアルタイムの特性アクティビティやオンボーディングされた特性アクティビティを評価します。この手順は、ファーストパーティオーディエンスの変更を考慮して、24 時間ごとに実行されます。
 
-### 予測オーディエンスモデルの分類段階 {#model-classification}
+### Predictive Audiences モデル分類フェーズ {#model-classification}
 
-ターゲットオーディエンスの一部である訪問者がリアルタイムで表示されると、モデルは、その訪問者が定義されたパーソナの一部であるかどうかを評価します。 どの訪問者にも属さない訪問者に対して、モデルは個人の資格スコアを割り当てます。
+ターゲットオーディエンスに属する訪問者がリアルタイムに確認されると、モデルは、訪問者が定義されたペルソナに属するかどうかを評価します。どのペルソナにも属さないすべての訪問者に対して、モデルはペルソナ選定スコアを割り当てます。
 
-ファーストパーティオーディエンスの評価とスコアの割り当てを行う際に、モデルはアカウントで定義され **[!UICONTROL Profile Merge Rule]** たデフォルトを使用します。 最後に、訪問者は最高得点を得た人物に分類されます。
+ファーストパーティオーディエンスを評価してスコアを割り当てると同時に、モデルはお客様のアカウントに定義されたデフォルトの **[!UICONTROL Profile Merge Rule]** を使用します。最後に、訪問者が最も高いスコアを獲得したペルソナに分類されます。
 
-![予測オーディエンスグラフ](assets/predictive-audiences-graph.png)
+![predictive-audiences-graph](assets/predictive-audiences-graph.png)
 
 ## 考慮事項と制限 {#considerations}
 
 >[!IMPORTANT]
-> 実装段階に進む前に、この節をよく読んでください。
+> 実装フェーズに進む前に、この節をよくお読みください。
 
-モデルを設定す [!UICONTROL Predictive Audiences] る際は、次の点に注意してください。
+[!UICONTROL Predictive Audiences] モデルを設定する場合、次の考慮事項および制限に注意してください。
 
-* 最大10個のモデルを作成でき [!UICONTROL Predictive Audiences] ます。
-* 各モデルに対して、最大50個の基本特性/セグメントを選択できます。
-* では、現在、セカンドパーティデータとサードパーティデータはサポートされていませ [!UICONTROL Predictive Audiences]ん。
-* オーディエンスの分類は、リアルタイムのファーストパーティオーディエンスのみです。 オンボードされたファーストパーティオーディエンスの分類は、今後の更新でサポートされる可能性があります。
+* 最大 10 個の [!UICONTROL Predictive Audiences] モデルを作成できます。
+* 各モデルについて、最大 50 個のベース特性／セグメントを選択できます。
+* セカンドおよびサードパーティデータは、現在、[!UICONTROL Predictive Audiences] でサポートされていません。
+* オーディエンスの分類は、リアルタイムファーストパーティオーディエンスに対してのみおこなわれます。オンボーディングされたファーストパーティオーディエンスの分類は、将来のアップデートでサポートされる可能性があります。
    >[!IMPORTANT]
-   > 現在、予測セグメ [!UICONTROL Total Segment Population] ントのは0と表示され、「アウトバウンドデータのバッ [チ転送」は予測オーディエンスでは](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) サポートされていません。 この動作は、今後の更新で変更されます。
-* [!UICONTROL Predictive Audiences] すべてのファーストパーティデータソースから、ファーストパーティの特性に基づいてオーディエンスの分類を実行します。
-* のセグメント評価で [!UICONTROL Predictive Audiences] は、アカウントで定 **[!UICONTROL Profile Merge Rule]** 義したデフォルトが使用されます。 詳しくは、専用のドキュメ [!UICONTROL Profile Merge Rules] ントを参照して [ください](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)。
-* 一部の特性とセグメントは、ベースラインまたはターゲットオーディエンスです。 [!UICONTROL Predictive Audiences] 次のいずれかをベースラインまたはベースラインオプションとして選択した場合、モデルの保存に失敗するターゲットオーディエンス:
-   * 予測特性を使用して作成された予測特性とセグメント
-   * [Adobe Experience Platformの特徴](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) またはセグメント
-   * アルゴリズム特性；
-   * サードパーティの特性。
+   > 現在、予測セグメントの [!UICONTROL Total Segment Population] は、0 と表示され、Predictive Audiences では[バッチ送信データ転送](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)はサポートされません。この動作は、将来のアップデートで変更されます。
+* [!UICONTROL Predictive Audiences] は、すべてのファーストパーティデータソースからのファーストパーティ特性に基づいて、オーディエンスの分類を実行します。
+* [!UICONTROL Predictive Audiences] のセグメント評価は、お客様のアカウントに定義されたデフォルトの **[!UICONTROL Profile Merge Rule]** を使用します。[!UICONTROL Profile Merge Rules] について詳しくは、該当する[ドキュメント](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)を参照してください。
+* 一部の特性およびセグメントは、ベースラインオーディエンスまたはターゲットオーディエンスとしてサポートされません。[!UICONTROL Predictive Audiences] モデルは、次のいずれかをベースラインオーディエンスまたはターゲットオーディエンスとして選択すると、保存に失敗します。
+   * 予測特性および予測特性を使用して作成されたセグメント
+   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) の特性またはセグメント
+   * アルゴリズム特性
+   * セカンドおよびサードパーティ特性
 
-## データ書き出しコントロール{#dec}
+## データ書き出しコントロール {#dec}
 
-モデルによって作成された予測セ [!UICONTROL Predictive Audiences] グメントは、次のファ [ーストパーティのデータソースから](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) 、データエクスポートコントロールを継承します。
+[!UICONTROL Predictive Audiences] モデルで作成された予測セグメントは、次のファーストパーティデータソースから[データ書き出しコントロール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-export-controls.html)を継承します。
 
-1. モデルの構築時に選択するファーストパーティデータソース。
-1. お使いのターゲットオーディエンスのファーストパーティデータソース 特に、データの書き出しは、データの書き出しを構成する特性やセグメントのターゲットオーディエンス。
+1. モデルを構築する際に選択するファーストパーティデータソース。
+1. ターゲットオーディエンスのファーストパーティデータソース。特に、ターゲットオーディエンスを構成する特性またはセグメントのデータ書き出しコントロール。
 
-新しく作成された予測特性とセグメントには、上で説明したファーストパーティデータソースの和集合と同じプライバシー制限が適用されます。
+新しく作成した予測特性およびセグメントには、前述のファーストパーティデータソースと同じプライバシー制限が課されます。
 
-セグメントのプライバシー制限に含まれない追加の制限を持つ特 [!UICONTROL Predictive Audiences] 徴は、トレーニング段階から除外され、モデルに影響を与えません。
+[!UICONTROL Predictive Audiences] セグメントのプライバシー制限に含まれない追加の制限を持つ特性は、トレーニングフェーズから除外され、モデルに対して影響力を持つことはありません。
 
-## Role-Based Access Controls{#rbac}
+## ロールベースのアクセス制御 {#rbac}
 
-個人およびオーディエンスの分類に対して選択した特性とセグメントは、オーディエンスマネージャーのロールベースの [アクセス制御の対象となりま](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)す。
+ペルソナおよびオーディエンスの分類用に選択する特性およびセグメントは、Audience Manager の[ロールベースのアクセス制御](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/administration/administration-overview.html)の影響を受けます。
 
-オーディエンスマネージャーのユーザーは、ターゲットの権限を持つ、パーソナおよびオーディエンスの特性またはセグメントの [みを選択できます](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)。
+Audience Manager ユーザーは、[表示権限](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)を持つペルソナおよびターゲットオーディエンス用の特性またはセグメントのみ選択できます。
