@@ -5,13 +5,13 @@ seo-title: データ処理のコンポーネント
 solution: Audience Manager
 title: データ処理のコンポーネント
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
 
-# データ処理のコンポーネント{#data-processing-components}
+# データ処理のコンポーネント {#data-processing-components}
 
 データ処理のコンポーネントには、Hadoop、Snowflake、SOLR および Tableau などがあります。
 
@@ -57,7 +57,7 @@ SOLR は、Apache が提供するオープンソースのデータベースお�
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] Tableauを使用 [し](https://www.tableausoftware.com/) 、インタラクティブレポートと [オーディエンス最適化レポートに](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) データを表示します [](../../reporting/audience-optimization-reports/audience-optimization-reports.md)。 インタラクティブレポートには特性およびセグメントのパフォーマンスと重複のデータが表示されます。これらのレポートでは、列と行に数値を配置する代わりに、各種の形状、色およびサイズを使用してデータを返します。さらに、個々のデータポイントまたはデータポイントグループを選択して、レポート結果の詳細を調べることもできます。これらのインタラクティブな視覚化手法およびレポートで、大量の数値データをわかりやすく提示することができます。
+[!DNL Audience Manager] は、[Tableau](https://www.tableausoftware.com/) を使用して[インタラクティブレポート](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)および [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)のデータを表示します。インタラクティブレポートには特性およびセグメントのパフォーマンスと重複のデータが表示されます。これらのレポートでは、列と行に数値を配置する代わりに、各種の形状、色およびサイズを使用してデータを返します。さらに、個々のデータポイントまたはデータポイントグループを選択して、レポート結果の詳細を調べることもできます。これらのインタラクティブな視覚化手法およびレポートで、大量の数値データをわかりやすく提示することができます。
 
 
 
