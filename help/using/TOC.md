@@ -4,7 +4,7 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
@@ -41,13 +41,13 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
    + アルゴリズムモデル {#algorithmic-models}
       + [アルゴリズムモデルの概要](features/algorithmic-models/algo-models-overview.md)
       + 類似モデリング {#look-alike-modeling}
-         + [類似モデリングについて](features/algorithmic-models/understanding-models.md)
-         + [類似したモデルを作成](features/algorithmic-models/create-model.md)
-         + [類似モデリング：特性の除外](features/algorithmic-models/trait-exclusion-algo-models.md)
-      + 予測オーディエンス {#predictive-audiences}
-         + [予測オーディエンスの概要](features/algorithmic-models/predictive-audiences.md)
-         + [予測オーディエンス](features/algorithmic-models/predictive-audiences-start.md)
-         + [予測オーディエンスレポート](features/algorithmic-models/predictive-audiences-reporting.md)
+         + [類似（look-alike）モデリングについて](features/algorithmic-models/understanding-models.md)
+         + [類似（look-alike）モデルの作成](features/algorithmic-models/create-model.md)
+         + [類似（look-alike）モデリング：特性の例外](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + Predictive Audiences {#predictive-audiences}
+         + [Predictive Audiences の概要](features/algorithmic-models/predictive-audiences.md)
+         + [Predictive Audiences の使用の手引き](features/algorithmic-models/predictive-audiences-start.md)
+         + [Predictive Audiences レポート](features/algorithmic-models/predictive-audiences-reporting.md)
    + Audience Lab {#audience-lab}
       + [Audience Lab の概要](features/audience-lab/audience-lab.md)
       + [テストグループの管理](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -386,14 +386,14 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
    + [People-Based Destinations に関する FAQ](faq/faq-people-based-destinations.md)
    + [製品の機能に関するよくある質問](faq/faq-features.md)
    + [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq/faq-profile-merge.md)
-   + [予測オーディエンスFAQ](faq/faq-predictive-audiences.md)
+   + [Predictive Audiences に関する FAQ](faq/faq-predictive-audiences.md)
    + [ターゲティングに関するよくある質問](faq/faq-targeting.md)
    + [レポートに関するよくある質問](faq/faq-reporting.md)
 + ヘルプと法的事項 {#help-and-legal}
    + [概要](/help/using/help-legal/help-legal-overview.md)
    + [問題がある場合](/help/using/help-legal/help-problem.md)
    + [連絡先情報および法的事項](/help/using/help-legal/help-legal-contact.md)
-+ カスタマーサポートに関するよくある問題{#top-support-issues}
++ カスタマーサポートに関するよくある問題 {#top-support-issues}
    + [概要](/help/using/support-issues/support-issues-overview.md)
    + [10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [重複レポートページに特性やセグメントが表示されないのはなぜですか？](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
