@@ -5,13 +5,13 @@ seo-title: インタラクティブな重複レポート
 solution: Audience Manager
 title: インタラクティブな重複レポート
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
 
-# インタラクティブな重複レポート{#interactive-and-overlap-reports}
+# インタラクティブな重複レポート {#interactive-and-overlap-reports}
 
 インタラクティブレポートには、特性およびセグメントのパフォーマンスと重複のデータが表示されます。これらのレポートでは、列と行に数値を配置する代わりに、各種の形状、色およびサイズを使用してデータを返します。さらに、個々のデータポイントまたはデータポイントグループを選択して、レポート結果の詳細を調べることもできます。これらのインタラクティブな視覚化手法およびレポートで、大量の数値データをわかりやすく提示することができます。
 
