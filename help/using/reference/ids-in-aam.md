@@ -6,8 +6,8 @@ seo-title: Audience Manager で使用される ID の一覧
 solution: Audience Manager
 title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-translation-type: ht
-source-git-commit: f8916812a31513d3d8401a0598f37dae02a3fd02
+translation-type: tm+mt
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -28,7 +28,7 @@ Audience Manager は、複数の ID を使用して、送信するデータを�
 
 | ID | 名前と説明 | 使用例 | UI の場所 |
 |---|---|---|---|
-| [!DNL AAM UUID] | Audience Manager の一意のユーザー ID数値型で 38 桁のデバイス ID。Audience Manager はこの値を、操作するデバイスのそれぞれに関連付けます。Audience Manager UIで一意のユーザーのメンションが表示される場合は常に、この ID を考慮してください。Audience Manager はこの ID を、「`demdex.net`」サードパーティドメインの cookie として保存します。 | [!DNL DCS] 呼び出しでは、`uuid` の前に `d_` プレフィックスが付きます。<br>例：`d_uuid = 07955261652886032950143702505894272138` | Audience Manager UI には表示されません。 |
+| [!DNL AAM UUID] | オーディエンスマネージャーの一意のユーザーID（別名） [!UICONTROL Device ID]。 数値型で 38 桁のデバイス ID。Audience Manager はこの値を、操作するデバイスのそれぞれに関連付けます。Audience Manager UIで一意のユーザーのメンションが表示される場合は常に、この ID を考慮してください。Audience Manager はこの ID を、「`demdex.net`」サードパーティドメインの cookie として保存します。 | [!DNL DCS] 呼び出しでは、`uuid` の前に `d_` プレフィックスが付きます。<br>例：`d_uuid = 07955261652886032950143702505894272138` | 「類似したモデル」を作成し [!UICONTROL Device ID] 、セグメ [ントを作成する際に](../features/algorithmic-models/create-model.md)、特性をフィ [ルタできます](../features/segments/segment-builder.md)。 特性の一般レポートおよび特性のトレ [!UICONTROL Device ID] ンドレポ [ートを実行する際に](../reporting/general-reports.md) 、結果をフ [ィルターすることもできます](../reporting/trend-reports.md)。 |
 | [!DNL ImsOrgId] | 組織 ID。会社が Experience Cloud アカウントに登録する際に生成される ID です。 | `5DC5123F5245B1D20A490D46@AdobeOrg` | Audience Manager UI には表示されません。会社の組織 IDを 検索する方法については、「[組織 ID の検索](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)」を参照してください。 |
 | PID | パートナー ID。PID は、Audience Manager での会社の ID です。Audience Manager は [!DNL imsOrgId] を [!DNL PID] に関連付けます。 | `1352` | Audience Manager UI には表示されません。 |
 | [!DNL ECID]、[!DNL MID] | Experience Cloud ID。Experience Cloud ID（[!DNL ECID]、以前の略称 [!DNL MID] または [!DNL MCID]）は、組織 ID と Audience Manager の一意のユーザー ID から数学的に生成されます。これらの ID が変わらない限り、特定のユーザーに関する正しい [!DNL ECID] を生成できるかどうかは、単純に計算上の問題になります。同じ組織 ID と Audience Manager [!DNL UUID] があれば、いつでも同じ [!DNL ECID] 値が得られます。ECID について詳しくは、[Cookies と Experience Cloud ID](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html#section-15f69c0bac394b4b9966a23fbc586d17) のドキュメントを参照してください。 | `mid = 08382830887934830189014177072406221371` | Audience Manager UI には表示されません。 |
@@ -37,7 +37,7 @@ Audience Manager は、複数の ID を使用して、送信するデータを�
 | [!DNL csegID] | レガシーセグメント ID。この ID は、Audience Manager 環境内のセグメントを一意に識別します。 | `741232` | レガシーセグメント ID は各セグメントに割り当てられ、[特性](../features/segments/segment-summary-view.md)ページの UI に表示されます。 |
 | [!DNL destID] | 宛先 ID。宛先 ID は、Audience Manager 環境内の宛先を一意に識別します。UI の各宛先に ID が割り当てられます。 | `2523` | 宛先 ID は各宛先に割り当てられ、[宛先](../features/destinations/destinations-home.md)ページの UI に表示されます。 |
 | [!DNL DPID] | データソース ID（データプロバイダー ID とも呼ばれます）。データソース ID は ID または特性の名前空間です。UI の各データソース（データプロバイダー）に ID が割り当てられます。 | [!DNL DCS] 呼び出しでは、`dpid` の前に `d_` プレフィックスが付きます。<br>例：`d_dpid=39217`。 | データプロバイダー ID は各データソースに割り当てられ、[データソース](../features/datasources-list-and-settings.md)ページの UI に表示されます。 |
-| [!DNL DPUUID] | データプロバイダー個別ユーザー ID（[!DNL CRM ID]）。サードパーティ ID。[!DNL CRM] システムのエンドユーザーを識別するための ID です。[!DNL DPUUIDs] を Audience Manager の [!DNL UUIDs] と同期したり、 の UUID と同期したり、別のデータソース（[!DNL DPIDs]）からの [!DNL DPUUIDs] を ID 同期プロセスで同期したりできます。 | DCS 呼び出しでは、`dpuuid` の前に `d_` プレフィックスが付きます。<br>例：`d_dpuuid=2132-3423vn-343fds-3432r`。 | Audience Manager UI には表示されません。 |
+| [!DNL DPUUID] | Data Provider Unique User ID, also referred to as [!DNL CRM ID] or [!UICONTROL Cross-Device ID]. サードパーティ ID。[!DNL CRM] システムのエンドユーザーを識別するための ID です。[!DNL DPUUIDs] を Audience Manager の [!DNL UUIDs] と同期したり、 の UUID と同期したり、別のデータソース（[!DNL DPIDs]）からの [!DNL DPUUIDs] を ID 同期プロセスで同期したりできます。 | DCS 呼び出しでは、`dpuuid` の前に `d_` プレフィックスが付きます。<br>例：`d_dpuuid=2132-3423vn-343fds-3432r`。 | 「類似したモデル」を作成し [!UICONTROL Cross-Device ID] 、セグメ [ントを作成する際に](../features/algorithmic-models/create-model.md)、特性をフィ [ルタできます](../features/segments/segment-builder.md)。 特性の一般レポートおよび特性のトレ [!UICONTROL Cross-Device ID] ンドレポ [ートを実行する際に](../reporting/general-reports.md) 、結果をフ [ィルターすることもできます](../reporting/trend-reports.md)。 |
 | [!DNL CRM ID] | `DPUUID` を参照してください。 | `DPUUID` を参照してください。 | `DPUUID` を参照してください。 |
 | [!DNL CID]、[!DNL CID_IC] | 顧客 ID、顧客 ID 統合コード。[!DNL CID] と [!DNL CID_IC] のキーと価のペアは、[!DNL DPID] と [!DNL DPUUID] を置き換えます。[!DNL DPID] および [!DNL DPUUID] と同じ機能ですが、1 つのキーと値のペアにデータプロバイダー ID とユーザー ID（または統合コード）が含まれるので、より効率的です。 | DCS 呼び出しでは、これらの ID の前に `d_` プレフィックスが付きます。<br>例：`d_cid_ic=39217_myIntegrationCode`。 | `DPID` と `DPUUID` を参照してください。 |
 | [!DNL DAID] | デバイス広告 ID。各ハードウェアデバイスに一意の ID で、広告目的で使用されます。通常は、デバイスの製造元またはデバイスのオペレーティングシステムにより設定されます。 | 詳しくは、[グローバルデバイス ID](#global-device-ids) を参照してください。 |  |
