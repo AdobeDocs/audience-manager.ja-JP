@@ -5,8 +5,8 @@ seo-title: Audience Manager の一般的なレポート
 solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-translation-type: ht
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+translation-type: tm+mt
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -84,33 +84,51 @@ t_run_general_report.xml
 
 ## 特性に関する一般レポートの結果 {#general-report-results-traits}
 
-一般レポートを実行し、レポートタイプに **[!UICONTROL Trait]** を選択する場合は、次の指標が使用可能です。
+The filters below are available when you run a General report and select **[!UICONTROL Trait]** as the report type.
 
-**Unique Trait Realizations**
+結果を [!UICONTROL Device ID] でフィルタリングする場合：
 
-この指標は、選択した時間範囲内で特性の対象として認定された[Audience Manager の一意のユーザー ID（UUID）](../reference/ids-in-aam.md)のユニーク数を表します。例えば、ユーザーが 10 月 1 日にホームページに 3 回訪問した場合、「Unique Trait Realizations」は 1 になります。
+* [!UICONTROL Unique Trait Realizations] は、選択した時間範囲内で、訪問者に特性を追加した匿名プロファイルの数です。
+* [!UICONTROL Total Trait Realization] は、選択した時間範囲内の匿名特性の関連付けの合計数です。
+* [!UICONTROL Total Trait Population] は、プロファイルにこの特性がある匿名デバイス訪問者の数を表します。
 
-**Total Trait Realizations**
+![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
-この指標は、選択した時間範囲内で特性が起動された合計回数を表します。例えば、ユーザーがホームページに訪問した後、技術ニュースとスポーツニュースのセクションに移動した場合、「Total Trait Realizations」は 3、「Unique Trait Realizations」は 1 として一般レポートに表示されます。
+結果を [!UICONTROL Cross-Device ID] でフィルタリングする場合：
 
-**Total Trait Population**
+* [!UICONTROL Unique Trait Realizations] は、選択した時間範囲内で、訪問者に特性を追加した認証済みプロファイルの数です。
+* [!UICONTROL Total Trait Realization] は、選択した時間範囲内の認証済みの特性関連付けの合計数です。
+* [!UICONTROL Total Trait Population] は、プロファイルにこの特性がある認証済み訪問者の数を表します。
 
-この指標は、特性の対象として現在認定されている Audience Manager UUID の合計数を表します。この数により、セグメント化とターゲティングに使用できるユーザーの総数を把握できます。通常、ユーザーが特性の一部となっている期間は[120 日間](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)です。例えば、ユーザーが今日ホームページに 3 回訪問した後、戻ってこなかった場合、今から 120 日後までは、ユーザーはこの母集団内のユーザーのままです。120 日が経過したら、母集団から削除されます。「Unique Trait Realizations」と「Total Trait Population」の違いに関するその他の例については、[特性およびセグメントの認定に関するリファレンス](../features/traits/trait-and-segment-qualification-reference.md)を参照してください。
+![汎用レポート特性間デバイス](assets/general-report-traits-cross-device.png)
 
-次の図は、Trait レポートタイプの一般レポートを実行した結果を示しています。
+<!-- 
+### Unique Trait Realizations
 
-![](assets/general_reports_metrics.png)
+This metric represents the unique number of [Audience Manager Unique User IDs (UUID)](../reference/ids-in-aam.md) that qualified for the trait in your selected time range. For example, if a user visited your homepage three times on 10/1, you would see one Unique Trait Realization.
+
+### Total Trait Realizations
+
+This metric represents the total amount of trait fires for the trait in your selected time range. For example, if a user visited your homepage, then navigated to your tech news and your sports news sections, they would appear in the General Report as three total trait realizations, and one unique trait realization.
+
+### Total Trait Population
+
+This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
+
+The illustration below shows the results of running a general report for the Trait report type. -->
+<!-- 
+![](assets/general_reports_metrics.png) -->
+
 
 ## セグメントに関する一般レポートの結果 {#general-report-results-segments}
 
 一般レポートを実行し、レポートタイプに **[!UICONTROL Segment]** を選択する場合は、次の指標が使用可能です。
 
-**Real-time Segment Population**
+### Real-time Segment Population
 
 この指標は、指定した時間範囲内にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定された個別訪問者の実際の数を表します。
 
-**Total Segment Population**
+### Total Segment Population
 
 この指標は、選択したルックバック期間内にセグメントの対象として認定された Audience Manager UUID の合計数を表します。1 日の「Total Segment Population」は、ターゲティングのための最も正確なユーザーベースを表します。
 
