@@ -6,8 +6,8 @@ seo-title: 特性認定に関するリファレンス
 solution: Audience Manager
 title: 特性認定に関するリファレンス
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
-translation-type: ht
-source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
+translation-type: tm+mt
+source-git-commit: 22780105bc356100af8b64b50e3c92137adeb83a
 
 ---
 
@@ -71,3 +71,4 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 ## 特性認定の上限 {#trait-qualification-limit}
 
 各ユーザープロファイルには、それが認証済みプロファイル（[DPUUID](../../reference/ids-in-aam.md)）とデバイス ID（[UUID](../../reference/ids-in-aam.md)）のどちらであっても、150,000 の特性認定制限が適用されます。DPUUID は [!DNL Audience Manager] の特定のインスタンスに固有のものですが、UUID は [!DNL Audience Manager] プラットフォーム全体で共有されます。[!UICONTROL UUID] の場合、特性認定の保存時には公平性ポリシーが適用されます。所定のアルゴリズムにより、[!DNL Audience Manager] のすべてのインスタンスで、[!UICONTROL UUID] プロファイルの均等配分ができます。
+
