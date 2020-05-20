@@ -4,8 +4,11 @@ seo-description: アドビへの問い合わせに役立つ情報と、本製品
 seo-title: 連絡先情報および法的事項
 solution: Audience Manager
 title: 連絡先情報および法的事項
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '286'
+ht-degree: 100%
 
 ---
 
@@ -31,8 +34,8 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 Published by Adobe Systems Incorporated.
 
-[利用条件](https://www.adobe.com/legal/terms.html) | [プライバシーセンター](https://www.adobe.com/jp/privacy.html)
+[利用条件](https://www.adobe.com/jp/legal/terms.html) | [プライバシーセンター](https://www.adobe.com/jp/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_jp](https://www.adobe.com/products/eula/third_party/).
