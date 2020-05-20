@@ -6,8 +6,11 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: 同意管理
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '737'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,7 @@ Audience Manager をご利用のお客様は、広告やパーソナライゼー
 
 ## オプトアウトの管理／同意の撤回
 
-Adobe Experience Cloud のオプトアウトは、[プライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)ページで管理できます。お客様のエンドユーザーは 1 回のクリックで、Adobe Experience Cloud の広告ソリューション（Audience Manager を含む）によるデータ収集をオプトアウトできます。特に、プライバシーの選択肢ページの[ビジネス関連の顧客のセクション](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)を参照してください。サードパーティ Cookie をサポートしていないブラウザーについては、[宣言済み ID のターゲティング](../../features/declared-ids.md#declared-id-targeting)を参照してください。モバイルデバイスの場合、[宣言済み ID のオプトアウトの例](../../features/declared-ids.md#opt-out-examples)に従って、Audience Manager 識別子を取得し、Audience Manager オプトアウト API を呼び出してください。これに従えば、モバイル SDK でオプトアウト API を使用することで、これらのユーザーのすべてのデータ収集を止めることができます。[Android デバイス](https://docs.adobe.com/content/help/en/mobile-services/android/gdpr-privacy-android/privacy.html)および [iOS デバイス](https://docs.adobe.com/content/help/en/mobile-services/ios/privacy-gdpr-ios/privacy.html)を参照してください。オプトアウトに関する他の詳細情報については、[データのプライバシーリクエストに関するドキュメント](../../overview/data-security-and-privacy/data-privacy-requests.md)。
+Adobe Experience Cloud のオプトアウトは、[プライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)ページで管理できます。お客様のエンドユーザーは 1 回のクリックで、Adobe Experience Cloud の広告ソリューション（Audience Manager を含む）によるデータ収集をオプトアウトできます。特に、プライバシーの選択肢ページの[ビジネス関連の顧客のセクション](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)を参照してください。サードパーティ Cookie をサポートしていないブラウザーについては、[宣言済み ID のターゲティング](../../features/declared-ids.md#declared-id-targeting)を参照してください。モバイルデバイスの場合、[宣言済み ID のオプトアウトの例](../../features/declared-ids.md#opt-out-examples)に従って、Audience Manager 識別子を取得し、Audience Manager オプトアウト API を呼び出してください。これに従えば、モバイル SDK でオプトアウト API を使用することで、これらのユーザーのすべてのデータ収集を止めることができます。[Android デバイス](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/gdpr-privacy-android/privacy.html)および [iOS デバイス](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/privacy-gdpr-ios/privacy.html)を参照してください。オプトアウトに関する他の詳細情報については、[データのプライバシーリクエストに関するドキュメント](../../overview/data-security-and-privacy/data-privacy-requests.md)。
 
 ## セカンドパーティパートナーの同意の管理
 
