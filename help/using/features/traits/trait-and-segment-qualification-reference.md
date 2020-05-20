@@ -6,8 +6,11 @@ seo-title: 特性認定に関するリファレンス
 solution: Audience Manager
 title: 特性認定に関するリファレンス
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22780105bc356100af8b64b50e3c92137adeb83a
+workflow-type: ht
+source-wordcount: '825'
+ht-degree: 100%
 
 ---
 
