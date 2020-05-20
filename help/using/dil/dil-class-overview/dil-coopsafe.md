@@ -5,13 +5,16 @@ seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '540'
+ht-degree: 100%
 
 ---
 
 
-# isCoopSafe{#iscoopsafe}
+# isCoopSafe {#iscoopsafe}
 
 DIL から Adobe Experience Cloud Device Co-op にデータを送信するかどうかを指定する任意のブール型設定です。
 
@@ -42,7 +45,7 @@ DIL から Adobe Experience Cloud Device Co-op にデータを送信するかど
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>サードパーティサイトの DIL</b> </p> </td> 
-   <td colname="col2"> <p><code> isCoopSafe </code> を <span class="wintitle">DIL</span> コードに追加して、以下の場合にサードパーティサイトで使用します。 </p> <p> 
+   <td colname="col2"> <p><code> isCoopSafe </code> を <span class="wintitle">DIL</span> コードに追加して、次の場合にサードパーティサイトで使用します。 </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
       <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">認証済み訪問者が使用規約同意書に同意したかどうかを確認できない。 </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Device Co-op によるデバイスグラフの作成でデータがどのように利用されるかを管理する必要がある。 </li> 
@@ -114,11 +117,11 @@ POST パラメーターは、ユーザーデータをデバイスグラフに含
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Sets POST parameter <code> d_coop_safe=1 </code> in all subsequent event calls. </p> </td> 
+   <td colname="col2"> <p>後続のすべてのイベント呼び出しで POST パラメーター <code> d_coop_safe=1 </code> を設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Sets POST parameter <code> d_coop_unsafe=1 </code> in all subsequent event calls. </p> </td> 
+   <td colname="col2"> <p>後続のすべてのイベント呼び出しで POST パラメーター <code> d_coop_unsafe=1 </code> を設定します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
