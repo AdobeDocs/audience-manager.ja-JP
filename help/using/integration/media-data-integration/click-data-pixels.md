@@ -5,8 +5,11 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのクリッ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '650'
+ht-degree: 100%
 
 ---
 
