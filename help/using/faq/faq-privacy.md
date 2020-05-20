@@ -5,8 +5,11 @@ seo-title: プライバシーとデータ保持に関するよくある質問
 solution: Audience Manager
 title: プライバシーとデータ保持に関するよくある質問
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '757'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 **Audience Manager では Cookie をどのように使用し、どのような Cookie を設定しますか？**
 
-詳しくは、[Audience Manager の Cookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) を参照してください。
+詳しくは、[Audience Manager の Cookie](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-am.html) を参照してください。
 
 **米国の Audience Manager クライアントは EU 資産のユーザーをターゲットにすることができますか？**
 
@@ -80,7 +83,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p>同期済み ID 間のマッピング </p> </td> 
-   <td colname="col2"> <p>Audience Manager cookie ID（<a href="../reference/ids-in-aam.md">Audience Manager の一意のユーザー ID または AAM UUID</a>）とサードパーティ cookie ID 間の <a href="../features/administration/usage-limits.md#id-mapping-limits">ID マッピング</a>の有効期間は 120 日に制限されます。ID マッピングの有効期限は、Audience Manager ネットワークで Audience Manager cookie が表示されるたびにリセットされます。最新の ID マッピングは、関連付けられている<a href="../reference/ids-in-aam.md"> Audience Manager の一意のユーザー ID（UUID）</a>の有効期間保持されます。</p></td> 
+   <td colname="col2"> <p>Audience Manager cookie ID（<a href="../reference/ids-in-aam.md">Audience Manager の一意のユーザー ID または AAM UUID</a>）とサードパーティ cookie ID 間の <a href="../features/administration/usage-limits.md#id-mapping-limits">ID マッピング</a>の有効期間は 120 日に制限されます。ID マッピングの有効期限は、Audience Manager ネットワークで Audience Manager cookie が表示されるたびにリセットされます。最新の ID マッピング同期は、関連付けられている <a href="../reference/ids-in-aam.md">Audience Manager の一意のユーザー ID（AAM UUID）</a>が有効である間、保持されます。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>インバウンドデータ </p> </td> 
