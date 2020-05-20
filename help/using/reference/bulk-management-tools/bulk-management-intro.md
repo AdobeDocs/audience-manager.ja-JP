@@ -6,8 +6,11 @@ seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
+workflow-type: ht
+source-wordcount: '734'
+ht-degree: 100%
 
 ---
 
