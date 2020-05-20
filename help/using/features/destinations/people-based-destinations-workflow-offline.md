@@ -4,8 +4,11 @@ seo-description: 'このページでは、オフラインのみの顧客デー�
 seo-title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+workflow-type: ht
+source-wordcount: '1170'
+ht-degree: 100%
 
 ---
 
@@ -88,7 +91,7 @@ source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 [!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
 
 ## 手順 3 -ファイルベースの ID 同期経由で、DPUUID と ハッシュ化した電子メールアドレスを照合する {#match-ids-emails}
 
