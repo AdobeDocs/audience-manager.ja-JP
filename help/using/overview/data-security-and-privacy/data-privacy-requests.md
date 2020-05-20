@@ -6,8 +6,11 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy
 title: データのプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '1586'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,7 @@ Audience Manager から消費者データにアクセスして削除する個々
 * [プライバシーサービスの UI](https://privacyui.cloud.adobe.io/) を使用する。[こちら](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)のドキュメントを参照してください。
 * **[!DNL Privacy Service API]**&#x200B;を使用する。[こちら](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)のドキュメントおよび[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)の API リファレンスを参照してください。
 
-個々のデータのプライバシーリクエストを送信する場合、**[Audience Manager 識別子](data-privacy-ids.md)**の節で説明されているように、Audience Manager 識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
+個々のデータのプライバシーリクエストを送信する場合、 **[Audience Manager 識別子](data-privacy-ids.md)** の節で説明されているように、Audience Manager 識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
 
 [プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)は、データアクセスおよびデータ削除の 2 種類のリクエストをサポートします。
 
@@ -94,8 +97,8 @@ Audience Manager は、オプトアウト管理に関する業界全体の標準
    <td colname="col1"> <p>モバイルデバイス </p> </td> 
    <td colname="col2"> <p>以下のデバイスに対するオプトアウト設定とプライバシー設定を確認します。 </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/en/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/en/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/ja-JP/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
