@@ -6,8 +6,11 @@ keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, 
 solution: Audience Manager
 title: データ統合ライブラリ（DIL）について
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,7 @@ Audience Manager DIL コードライブラリの概要、導入方法、使用�
 
 [!UICONTROL DIL] を操作して [!DNL Audience Manager] を手動でセットアップするのではなく、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) を使用することをお勧めします。[!DNL Adobe Experience Platform Launch] を使用するとコードのデプロイメント、配置、バージョン管理が簡単になるので、実装ツールとして導入することをお勧めします。[Audience Manager 拡張機能](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension)について詳しくは、Adobe Experience Platform Launch を参照してください。
 
-Adobe Experience Platform Launch は [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html)（[!DNL DTM]）の後継ツールです。
+Adobe Experience Platform Launch は [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/ja-JP/dtm/using/c-overview.html)（[!DNL DTM]）の後継ツールです。
 
 ## サンプル呼び出し {#sample-code}
 
