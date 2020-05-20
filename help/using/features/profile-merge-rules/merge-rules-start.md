@@ -5,8 +5,11 @@ seo-title: プロファイル結合ルールの導入
 solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '1124'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 2. *（オプション）*&#x200B;データソースの説明を入力します。データソースの役割や目的を定義するのに、簡潔な説明が役に立ちます。
 3. 統合コードを指定します。統合コードは、このデータソース専用の一意の ID です。
 4. **[!UICONTROL ID Type]** リストで、「**[!UICONTROL Cross Device]**」を選択します。
-5. **[!UICONTROL ID Definition]** リストで、データソースタイプを定義するオプションを選択します。オプションは以下のとおりです。
+5. **[!UICONTROL ID Definition]** リストで、データソースタイプを定義するオプションを選択します。オプションは次のとおりです。
    * **[!UICONTROL Person]**：個人を定義する ID。この ID は複数の [!DNL Audience Manager] ID にマッピングできます。
    * **[!UICONTROL Household]**：ユーザーのグループを定義する ID。この ID は複数の [!DNL Audience Manager] ID にマッピングできます。
 
@@ -87,12 +90,12 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 「[!UICONTROL Proflie Merge Rule Setup]」セクションを完了するには：
 
-1. **[!UICONTROL Authenticated Option]** を選択します。オプションは以下のとおりです。
+1. **[!UICONTROL Authenticated Option]** を選択します。オプションは次のとおりです。
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
 2. **[!UICONTROL Authenticated Profile Option]** を（最大 3 つ）選択します。これらは以前作成した[クロスデバイス対応データソース](merge-rules-start.md)です。
-3. **[!UICONTROL Device Option]** を選択します。オプションは以下のとおりです。
+3. **[!UICONTROL Device Option]** を選択します。オプションは次のとおりです。
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
    * **[!UICONTROL Profile Link Device Graph]**
@@ -135,7 +138,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)を参照してください。
+詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html)を参照してください。
 
 ### `DIL.create` 関数の設定
 
@@ -150,7 +153,7 @@ var vDil = DIL.create({
 });
 ```
 
-namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)も参照してください。
+namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html)も参照してください。
 
 ### SDK の設定
 
@@ -208,7 +211,7 @@ DIL.create({
  </tbody>
 </table>
 
-[Android 用の Audience Manager メソッド](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html)と[ iOS 用の Audience Manager メソッド](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html)も参照してください。
+[Android 用の Audience Manager メソッド](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html)と[ iOS 用の Audience Manager メソッド](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/aam-methods.html)も参照してください。
 
 >[!MORELIKETHIS]
 >
