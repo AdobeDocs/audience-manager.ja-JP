@@ -5,8 +5,11 @@ seo-title: DCS エラーコード、メッセージ、例
 solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '1339'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>Invalid <code> d_orgid</code> value (could not find a config for this org id): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>組織 ID が正しくありません。 </p> <p>ID を確認して、要求をもう一度試してください。If you do not know or have your Organization ID, see the "Administration Page" section in <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organizations and account linking</a> for information about how to find it. </p> </td> 
+   <td colname="col3"> <p>組織 ID が正しくありません。 </p> <p>ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「管理ページ」を参照してください。 </p> </td> 
   </tr>
  </tbody>
 </table>
