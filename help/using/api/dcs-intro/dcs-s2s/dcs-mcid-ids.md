@@ -5,8 +5,11 @@ seo-title: Adobe Experience Platform ID サービスを通じたユーザー ID 
 solution: Audience Manager
 title: Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '691'
+ht-degree: 100%
 
 ---
 
@@ -36,11 +39,11 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>1. <span class="keyword">Experience Cloud</span> のステータスを確認する</b> </p> </td> 
-   <td colname="col2"> <p>ID サービスを使用するには、<span class="keyword">Experience Cloud</span> アカウントが必要です。既に <span class="keyword">Experience Cloud</span> アカウントがあれば、そのままでけっこうです。 </p> <p> まだ <span class="keyword">Experience Cloud</span> に登録していなければ、新規登録してください。いつでもお客様にご参加いただく用意ができています。アカウントの設定方法について詳しくは、コアサービス向けソリューションの <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> 有効化を参照してください</a>。 </p> </td> 
+   <td colname="col2"> <p>ID サービスを使用するには、<span class="keyword">Experience Cloud</span> アカウントが必要です。既に <span class="keyword">Experience Cloud</span> アカウントがあれば、そのままでけっこうです。 </p> <p> まだ <span class="keyword">Experience Cloud</span> に登録していなければ、新規登録してください。いつでもお客様にご参加いただく用意ができています。アカウントの設定方法について詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/core-services.html" format="https" scope="external">コアサービスのソリューションの有効化</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. <span class="keyword">ID サービス</span>をセットアップする</b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">ID サービス</span>は、データ収集に使用する各ページに組み込まれる JavaScript コードで構成されます。詳しくは、ID サービスの<a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html" format="https" scope="external">実装ガイド</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><span class="keyword">ID サービス</span>は、データ収集に使用する各ページに組み込まれる JavaScript コードで構成されます。詳しくは、ID サービスの<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/implementation-guides.html" format="https" scope="external">実装ガイド</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. <span class="keyword">ID サービス</span> Cookie を読み取る</b> </p> </td> 
@@ -52,7 +55,7 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>4. getMarketingCloudVisitorID で <span class="keyword">Experience Cloud ID</span> を取得する</b> </p> </td> 
-   <td colname="col2"> <p><i>（オプション）</i>この関数は <span class="keyword">Experience Cloud</span> 訪問者 ID を返します。カスタムソリューションや特定のユースケース向けに設計されています。詳しくは、次の <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid">getMarketingCloudVisitorID の使用方法</a>や <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/getmcvid.html" format="https" scope="external">ID サービスの関連ドキュメント</a>を参照してください。 </p> <p>ID サービス Cookie からユーザー ID および地域 ID を取得した場合は、これを使用する必要はありません。 </p> </td> 
+   <td colname="col2"> <p><i>（オプション）</i>この関数は <span class="keyword">Experience Cloud</span> 訪問者 ID を返します。カスタムソリューションや特定のユースケース向けに設計されています。詳しくは、次の <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid">getMarketingCloudVisitorID の使用方法</a>や <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/methods/getmcvid.html" format="https" scope="external">ID サービスの関連ドキュメント</a>を参照してください。 </p> <p>ID サービス Cookie からユーザー ID および地域 ID を取得した場合は、これを使用する必要はありません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
