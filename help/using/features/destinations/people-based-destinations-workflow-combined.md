@@ -4,8 +4,11 @@ seo-description: 'このページでは、オフラインの CRM データと Au
 seo-title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+workflow-type: ht
+source-wordcount: '1180'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +49,7 @@ source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 この場合、ハッシュ化された電子メールアドレスを保存する新しいクロスデバイスデータソースを作成する必要があります。手順は次のとおりです。
 
-1. Log in to your Audience Manager account and go to **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**, and click **[!UICONTROL Add New]**.
+1. Audience Managerアカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** に移動して、**[!UICONTROL Add New]**&#x200B;をクリックします。
 1. 新しいデータソースに、[!UICONTROL Name] と [!UICONTROL Description] を入力します。
 1. **[!UICONTROL ID Type]** ドロップダウンメニューで、**[!UICONTROL Cross Device]**&#x200B;を選択します。
 1. **[!UICONTROL Data Source Settings]** セクションで、**[!UICONTROL Inbound]** と **[!UICONTROL Outbound]** のオプションを両方選択し、**[!UICONTROL Share associated cross-device IDs in people-based destinations]** オプションを有効にします。
@@ -60,7 +63,7 @@ source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 [!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=jpn)
 
 >[!NOTE]
 >
