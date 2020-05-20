@@ -6,8 +6,11 @@ seo-title: 宣言された ID
 solution: Audience Manager
 title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '1261'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 [!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、Audience Manager によるターゲティングを Web サイトでオプトアウトすることができます。Audience Manager がオプトアウトリクエストを受信した場合、[!UICONTROL DCS] から返される [!DNL JSON] には、Audience Manager ユーザー ID ではなく、エラーコード 171 と「Encountered opt out tag」というメッセージが含まれています。
 
 * Audience Manager では、[!DNL URL] で Audience Manager [!UICONTROL UUID] と一緒に [!UICONTROL declared ID] のオプトアウトを渡すことができます。
-* [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー]（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
+* [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
 
 データ収集のオプトアウトについて詳しくは、[データのプライバシー](../overview/data-security-and-privacy/data-privacy.md)を参照してください。
 
@@ -187,7 +190,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 <!-- r_dil_declared_id_vars.xml -->
 
-[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用する場合、非推奨（廃止予定）の `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要はありません。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
+[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用する場合、非推奨（廃止予定）の `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要はありません。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
 
 ```js
 var vDil = DIL.create({
@@ -198,7 +201,7 @@ var vDil = DIL.create({
 });
 ```
 
-キー値ペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html)も参照してください。
+キー値ペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/core-services.html)も参照してください。
 
 ## 非推奨（廃止予定）の関数 {#deprecated-functions}
 
