@@ -6,8 +6,11 @@ solution: Audience Manager
 title: DCS API 呼び出しでサポートされている属性
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '809'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>児童保護法に従うために、サードパーティ Cookie の使用を無効にします。このパラメーターは、アドビの Adobe Experience Platform ID サービスにより動的に設定されるもので、<code> idSyncDisable3rdPartySyncing</code> 設定に依存します。<a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external">Adobe Experience Platform ID サービスの COPPA のサポート</a>を参照してください。 </p> </td>
+   <td colname="col2"> <p>児童保護法に従うために、サードパーティ Cookie の使用を無効にします。このパラメーターは、アドビの Adobe Experience Platform ID サービスにより動的に設定されるもので、<code> idSyncDisable3rdPartySyncing</code> 設定に依存します。<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/coppa.html" format="https" scope="external">Adobe Experience Platform ID サービスの COPPA のサポート</a>を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -119,7 +122,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Experience Cloud</span> ID サービスで設定および使用される Experience Cloud ID を指定します。For more information about the ECID, see <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Experience Cloud</span> ID サービスで設定および使用される Experience Cloud ID を指定します。ECID について詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Experience Cloud Identity Service</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
