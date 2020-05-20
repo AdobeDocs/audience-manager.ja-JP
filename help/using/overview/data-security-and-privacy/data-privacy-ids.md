@@ -5,13 +5,16 @@ seo-title: 'Audience Manager 識別子（ID） '
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
 title: 'Audience Manager 識別子（ID） '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '253'
+ht-degree: 100%
 
 ---
 
 
-# Audience Manager 識別子（ID） {#aam-ids}
+# Audience Manager 識別子（ID）{#aam-ids}
 
 Adobe Audience Manager に対して[データのプライバシーリクエスト](data-privacy-requests.md)を送信する際、以下のいずれかの識別子（ID）を含める必要があります。ID 形式について詳しくは、[Audience Manager ID のインデックス](../../reference/ids-in-aam.md)を参照してください。
 
