@@ -6,15 +6,18 @@ seo-title: アルゴリズムモデルの作成
 solution: Audience Manager
 title: アルゴリズムモデルの作成
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+workflow-type: ht
+source-wordcount: '648'
+ht-degree: 100%
 
 ---
 
 
-# Create a Look-Alike Model {#create-an-algorithmic-model}
+# 類似（look-alike）モデルの作成 {#create-an-algorithmic-model}
 
-Describes the required and optional steps that let you create a [!UICONTROL Look-Alike Model].
+[!UICONTROL Look-Alike Model] を作成するための必須手順とオプションの手順について説明します。
 
 ## モデルビルダーのセクション
 
@@ -30,25 +33,25 @@ Describes the required and optional steps that let you create a [!UICONTROL Look
 
 ## モデルの作成
 
-次の手順に従って、 [!UICONTROL Look-Alike Model]
+次の手順に従って、[!UICONTROL Look-Alike Model] を構築します。
 
-1. /に移動し、 **[!UICONTROL Audience Data]** セクション **[!UICONTROL Models]** 内をクリックし **[!UICONTROL Add New]**[!UICONTROL Look-Alike Modeling] ます。
-   ![そっくりな](assets/look-alike-add.png)
+1. **[!UICONTROL Audience Data]**／**[!UICONTROL Models]** に移動して、「[!UICONTROL Look-Alike Modeling]」セクションの **[!UICONTROL Add New]** をクリックします。
+   ![look-alike-add](assets/look-alike-add.png)
 1. 「[Basic Information](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
    * モデルの名前を指定します。
    * *（オプション）*&#x200B;モデルについての簡単な説明を入力します。
-   * モデルのステータスを&#x200B;**[!UICONTROL Active]**&#x200B;または&#x200B;**[!UICONTROL Inactive]**に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
-      ![そっくりな基本的な](assets/look-alike-basic.png)
+   * モデルのステータスを **[!UICONTROL Active]** または **[!UICONTROL Inactive]** に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
+      ![look-alike-basic](assets/look-alike-basic.png)
 1. 「[Configuration](../../features/algorithmic-models/create-model.md#configuration)」セクションで次の操作をおこないます。
-   * **[!UICONTROL Browse All Traits]**&#x200B;または&#x200B;**[!UICONTROL Browse All Segments]**&#x200B;をクリックして、モデルの作成対象となる特性またはセグメントを選択します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。特性タイプ([!UICONTROL Folder Trait]、 [!UICONTROL Rule-based]、 [!UICONTROL Onboarded]および [!UICONTROL Algorithmic])または母集団タイプ([デバイスIDと](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md)デバイスIDのクロス)別に特性をフィルタリングすることもできます。
+   * 「**[!UICONTROL Browse All Traits]**」または「**[!UICONTROL Browse All Segments]**」をクリックして、モデルの作成対象となる特性またはセグメントを選択します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。特性タイプ（[!UICONTROL Folder Trait]、[!UICONTROL Rule-based]、[!UICONTROL Onboarded] および [!UICONTROL Algorithmic]）や母集団タイプ（[デバイス ID](../../reference/ids-in-aam.md) および[クロスデバイス ID](../../reference/ids-in-aam.md)）で特性をフィルタリングできます。
       ![browse-traits](assets/browse-traits.png)
    * 30 日、60 日または 90 日のルックバック期間を選択します。これにより、モデルの時間範囲が設定されます。
    * デフォルトでは [!UICONTROL TraitWeight] アルゴリズムが選択されています。
    * 「[!UICONTROL Available Data]」リストからデータソースを選択します。
-   * 終了したら、**[!UICONTROL Save]**をクリックします。
-      ![そっくりな配置](assets/look-alike-configuration.png)
+   * 終了したら、「**[!UICONTROL Save]**」をクリックします。
+      ![look-alike-configuration](assets/look-alike-configuration.png)
 
-以下のビデオで、デバイス間の指標の動作について詳しく説明します。
+クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
@@ -109,7 +112,7 @@ Describes the required and optional steps that let you create a [!UICONTROL Look
 
 ファーストパーティの類似（look-alike）モデルを作成し、コンバーターに似た独自の訪問者をより多く見つける方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=jpn)
 
 >[!MORELIKETHIS]
 >
