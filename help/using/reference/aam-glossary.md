@@ -5,8 +5,11 @@ seo-title: 用語集
 solution: Audience Manager
 title: 用語集
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '1186'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 [顧客データフィード](../features/cdf-files.md)を参照してください。
 
-<br> 
+<br>
 
 **CRM ID**
 
@@ -47,7 +50,7 @@ CRM ID は、お客様が自身の CRM システム内でユーザーを識別�
 
 [Audience Manager の ID のインデックス](../reference/ids-in-aam.md)の DPUUID を参照してください。
 
-<br> 
+<br>
 
 **Customer Addressable Audience**
 
@@ -56,25 +59,25 @@ CRM ID は、お客様が自身の CRM システム内でユーザーを識別�
    **かつ**
 * 同期の時間に関係なく、選択した宛先と ID が同期している。
 
-<br> 
+<br>
 
 **Customer Attributes**
 
-[!DNL Experience Cloud Core Services] 製品ドキュメントの[顧客属性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)を参照してください。
+[!DNL Experience Cloud Core Services] 製品ドキュメントの[顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)を参照してください。
 
-<br> 
+<br>
 
 **Customer Match Rate**
 
 Customer Addressable Audience ÷ Customer Total Audience を％で表現したもの。[アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)を参照してください。
 
-<br> 
+<br>
 
 **Customer Total Audience**
 
 [アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)で、ルックバック期間に、御社のシステムにおけるルールベースの特性、またはオフラインファイルからのオンボードの特性に適合したデバイスの数。
 
-<br> 
+<br>
 
 **demdex.net**
 
@@ -82,7 +85,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 [Demdex ドメインの呼び出しについて](../reference/demdex-calls.md)を参照してください。
 
-<br> 
+<br>
 
 **DAID**
 
@@ -90,19 +93,19 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 [Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
-<br> 
+<br>
 
 **宛先**
 
 [!DNL Audience Manager] において、宛先とは、データを共有したいサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。UI 内の [!UICONTROL Destination Builder] はこれらのデータ配信プロセスを作成および管理するためのツールです。[!DNL Audience Manager] の宛先に関する機能には、**[!UICONTROL Audience Data > Destinations]** からアクセスできます。
 
-<br> 
+<br>
 
 **DIL**
 
 [!UICONTROL Data Integration Library]は、ユーザーインタラクションデータを収集するために [!DNL Audience Manager] で使用される API ライブラリです。詳しくは、[データ統合ライブラリ（DIL）API](../dil/dil-overview.md) を参照してください。
 
-<br> 
+<br>
 
 **dpm**
 
@@ -114,15 +117,15 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 以前は [!DNL Marketing Cloud] ID（MID または MCID）と呼ばれていたものです。この ID は [!DNL Experience Cloud] ID サービスの中心となるものです。サイト訪問者の永続的な一意の識別子です。[Cookie と Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html)を参照してください。
 
-<br> 
+<br>
 
 **フォルダー特性**
 
 フォルダー分類における、特性の自動的なグループ化。階層内の各フォルダーで、セグメントを定義できる特性が自動的に作成されます。
 
-詳しくは、[フォルダー特性について](../features/traits/about-folder-traits.md)を参照してください。
+[フォルダー特性について](../features/traits/about-folder-traits.md)を参照してください。
 
-<br> 
+<br>
 
 **頻度キャップ**
 
@@ -136,7 +139,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 Google 広告 ID。Android オペレーティングシステムを実行しているハードウェアデバイスに対して Google によって割り当てられる一意のデバイス ID です。[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
-<br> 
+<br>
 
 **GUID**
 
@@ -148,13 +151,13 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 広告主の識別子。Apple によって製品に割り当てられる一意のデバイス ID。[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
-<br> 
+<br>
 
 **インバウンド**
 
 [!DNL Audience Manager] に対して他のソースからオーディエンスデータを送信できるプロセス。詳しくは、[オーディエンスデータの送信](/help/using/integration/sending-audience-data/send-audience-data.md)を参照してください。
 
-<br> 
+<br>
 
 **Integration Code**
 
@@ -184,13 +187,13 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 [データ収集コンポーネント](../reference/system-components/components-data-collection.md)を参照してください。
 
-<br> 
+<br>
 
 **Profile Link**
 
 詳しくは、[定義済みのプロファイルの結合ルールオプション](../features/profile-merge-rules/merge-rule-definitions.md)を参照してください。
 
-<br> 
+<br>
 
 **プロファイル結合ルール**
 
@@ -202,7 +205,7 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 **適合**
 
-ある特性に適合するサイト訪問者のアクション。この場合、[訪問者プロファイルビューア](../features/visitor-profile-viewer.md)ツールを使用して特定のユーザーの特性への適合情報を取得できます。
+ある特性に適合するサイト訪問者のアクション。[訪問者プロファイルビューア](../features/visitor-profile-viewer.md)ツールを使用して特定のユーザーの特性への適合情報を取得できます。
 
 ## S-T {#s-t}
 
@@ -210,27 +213,27 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 セグメント（またはオーディエンス）は、共通の属性を共有する一連のユーザーです。
 
-詳しくは、[セグメント：目的、構成およびルール](../features/segments/segments-purpose.md)を参照してください。
+[セグメント：目的、構成およびルール](../features/segments/segments-purpose.md)を参照してください。
 
-<br> 
+<br>
 
 **Segment Addressable Audience**
 
 [アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)において、レポートのルックバック期間中にセグメントに属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。セグメントには、[Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md) で取得した経由で、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含むことができます。
 
-<br> 
+<br>
 
 **Segment Total Population**
 
 [アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)では、この指標はレポートのルックバック期間内にセグメントに属していたすべてのデバイスの数を表します。
 
-<br> 
+<br>
 
 **Segment Match Rate**
 
 Segment Addressable Audience ÷ Total Segment Population の総数を％で表現したもの。[アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)を参照してください。
 
-<br> 
+<br>
 
 **シグナル**
 
@@ -238,13 +241,13 @@ Segment Addressable Audience ÷ Total Segment Population の総数を％で表�
 
 詳しくは、[シグナル、特性およびセグメント](../reference/signal-trait-segment.md)を参照してください。
 
-<br> 
+<br>
 
 **特性**
 
 特性は、1 つ以上のシグナルの組み合わせです。詳しくは、[シグナル、特性およびセグメント](../reference/signal-trait-segment.md)を参照してください。
 
-<br> 
+<br>
 
 **Trait Population**
 
@@ -254,7 +257,7 @@ Segment Addressable Audience ÷ Total Segment Population の総数を％で表�
 
 TTL は、対象として認定された訪問者が特性にとどまる日数を定義します。TTL は、セグメントではなく、特性に対して設定されます。訪問者は、TTL 期間が終了するまでに対象となる特性が確認されない場合、セグメントから除外されます。詳しくは、[セグメントと特性の有効期間についての説明](/help/using/features/traits/segment-ttl-explained.md)を参照してください。
 
-<br> 
+<br>
 
 ## U-V {#u-v}
 
@@ -262,7 +265,7 @@ TTL は、対象として認定された訪問者が特性にとどまる日数�
 
 [!DNL Audience Manager] の一意のユーザー ID。[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
-<br> 
+<br>
 
 **訪問者 ID**
 
