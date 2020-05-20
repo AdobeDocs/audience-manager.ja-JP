@@ -5,8 +5,11 @@ seo-title: 定義済みのプロファイルの結合ルールオプション
 solution: Audience Manager
 title: 定義済みのプロファイルの結合ルールオプション
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+workflow-type: ht
+source-wordcount: '1145'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +64,7 @@ source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">クロスデバイス対応プロファイルなし</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager</span> が認証済みユーザーから収集したデータを使用ないよう設定します。 </p> </td> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> が認証済みユーザーから収集したデータを使用しないよう設定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">現在の認証済みプロファイル</span></b> </p> </td> 
@@ -108,11 +111,11 @@ source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Co-op Device Graph</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager </span>に対し、<a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> が提供するリンクを使用して、現在のデバイスおよび他の 100 台までのデバイスからプロファイルを読み取るように指示します。 </p> <p><span class="keyword">Device Co-op</span> は、参加するお客様がデバイスリンク情報を共有するデジタル協業です。<span class="keyword">Device Co-op</span> はこのデータを<span class="term">デバイスグラフ</span>で処理します。デバイスグラフは、デバイスをリンクし、デバイスクラスターを形成します。このリンクは<a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external">確率論的データと決定論的データ</a>から構築されます。クラスターは、1 人の匿名の人物によって使用されるデバイスのグループを表します。<span class="keyword">Device Co-op</span> は、メンバー間でこれらのクラスターを共有します。これにより、メンバーは、価値のある一貫したクロスデバイスエクスペリエンスをその顧客に提供できます。 </p> <p> <span class="wintitle">Device Co-op</span> について詳しくは、以下を参照してください。 </p> <p> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> に対し、<a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/about/overview.html" format="https" scope="external">Experience Cloud Device Co-op</a> が提供するリンクを使用して、現在のデバイスおよび他の 100 台までのデバイスからプロファイルを読み取るように指示します。 </p> <p><span class="keyword">Device Co-op</span> は、参加するお客様がデバイスリンク情報を共有するデジタル協業です。<span class="keyword">Device Co-op</span> はこのデータを<span class="term">デバイスグラフ</span>で処理します。デバイスグラフは、デバイスをリンクし、デバイスクラスターを形成します。このリンクは<a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/device-graph/links.html" format="https" scope="external">確率論的データと決定論的データ</a>から構築されます。クラスターは、1 人の匿名の人物によって使用されるデバイスのグループを表します。<span class="keyword">Device Co-op</span> は、メンバー間でこれらのクラスターを共有します。これにより、メンバーは、価値のある一貫したクロスデバイスエクスペリエンスをその顧客に提供できます。 </p> <p> <span class="wintitle">Device Co-op</span> について詳しくは、以下を参照してください。 </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
       <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html" format="https" scope="external"> Device Co-op の概要</a> </li> 
-      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> メンバーシップ要件</a> </li> 
-      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> デバイスグラフ：内部処理と出力</a> </li>
+      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/about/requirements.html" format="https" scope="external"> メンバーシップ要件</a> </li> 
+      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> デバイスグラフ：内部処理と出力</a> </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
