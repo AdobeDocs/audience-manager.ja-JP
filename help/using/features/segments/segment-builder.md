@@ -5,8 +5,11 @@ seo-title: セグメントビルダー
 solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+workflow-type: ht
+source-wordcount: '1252'
+ht-degree: 100%
 
 ---
 
@@ -38,22 +41,22 @@ source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
    * セグメントを保存フォルダーに割り当てます。
 
 1. 「[Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits)」セクションで、以下の操作をおこないます。
-   ![segment builder-traits](assets/segment-builder-traits.png)
+   ![segment-builder-traits](assets/segment-builder-traits.png)
    * セグメントに追加する特性を検索して&#x200B;**[!UICONTROL Add Trait]**&#x200B;をクリックします。他の特性を追加し、特性グループを作成します。
-   * **[!UICONTROL Browse All Traits]**&#x200B;をクリックして詳細検索モーダルを表示します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。特性タイプ([!UICONTROL Folder Trait]、 [!UICONTROL Rule-based]、 [!UICONTROL Onboarded]および [!UICONTROL Algorithmic])または母集団タイプ([デバイスIDと](../../reference/ids-in-aam.md)[](../../reference/ids-in-aam.md)デバイスIDのクロス)別に特性をフィルタリングすることもできます。
-      ![segment builder-browser-traits](assets/segment-builder-browse-traits.png)
+   * **[!UICONTROL Browse All Traits]**&#x200B;をクリックして詳細検索モーダルを表示します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。特性タイプ（[!UICONTROL Folder Trait]、[!UICONTROL Rule-based]、[!UICONTROL Onboarded] および [!UICONTROL Algorithmic]）や母集団タイプ（[デバイス ID](../../reference/ids-in-aam.md) および[クロスデバイス ID](../../reference/ids-in-aam.md)）で特性をフィルタリングできます。
+      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
    * セグメントの作成時に有効な[特性レコメンデーション](trait-recommendations.md)を取得します。
    * 特性をクリックしてドラッグし、個別のグループを作成します。
    * グループ間にマウスポインターを当て、ブール演算子 [!UICONTROL AND]、[!UICONTROL OR]、[!UICONTROL AND NOT] を使用して関係を設定します。
    * 時計アイコンの上にマウスポインターを置き、[最新性と頻度](../../features/segments/recency-and-frequency.md)のルールを特性に追加します。
    * 特性を追加または削除して、セグメント母集団データを表示します。**[!UICONTROL Calculate Estimates]**&#x200B;をクリックすると、推定された母集団の数値が表示（または更新）されます。詳しくは、セグメントビルダーの[セグメント母集団データ](../../features/segments/segment-builder-data.md#segment-populations)を参照してください。
-   * 終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+   * 終了したら、「**[!UICONTROL Save]**」をクリックします。
 
 1. *（オプション）*「[宛先マッピング](../../features/segments/segment-builder.md#segment-builder-controls-destinations)」セクションでセグメントを宛先にマッピングします。
    * 宛先を検索し、**[!UICONTROL Add Destination]**&#x200B;をクリックします。宛先をセグメントに追加するには、その宛先が既に存在していなければなりません。
-   * 終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+   * 終了したら、「**[!UICONTROL Save]**」をクリックします。
 
-以下のビデオで、デバイス間の指標の動作について詳しく説明します。
+クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
@@ -146,7 +149,7 @@ source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 | 検索タイプ | 説明 |
 |---|---|
-| **宛先名別に検索** | 特定の宛先を名前で検索できます。検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。終了したら、**[!UICONTROL Add Destination]**&#x200B;をクリックします。 |
+| **宛先名別に検索** | 特定の宛先を名前で検索できます。検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。終了したら、「**[!UICONTROL Add Destination]**」をクリックします。 |
 | **すべての宛先を参照** | 使用可能な&#x200B;*すべての*&#x200B;宛先を参照します。ポップアップリストから宛先を選択し、セグメントに追加します。 |
 
 ## 宛先マッピングポップアップウィンドウのフィールド {#fields-in-dest-mappings}
