@@ -5,8 +5,11 @@ seo-title: データソースリストと設定
 solution: Audience Manager
 title: データソースリストと設定
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+workflow-type: ht
+source-wordcount: '1119'
+ht-degree: 100%
 
 ---
 
@@ -25,13 +28,13 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 <!-- c_datasources_list.xml -->
 
-[!UICONTROL Data Sources] ダッシュボード(**[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**)には、次の操作を行うのに役立つ機能とツールが含まれています。
+[!UICONTROL Data Sources] ダッシュボード（**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]**）には、以下をおこなうために役立つ機能およびツールが含まれています。
 
 * 各データソースの説明やステータス、[!UICONTROL Inbound]、[!UICONTROL Outbound]、両方、または [!UICONTROL Shared Provider]の別なども含めて、既存のすべてのデータソースを表示する。
 * データソースを名前で検索する。
 * データソースを作成、編集および削除する。
 
-## データソース設定とメニューオプション{#settings-menu-options}
+## データソース設定とメニューオプション {#settings-menu-options}
 
 [!UICONTROL Data Source]管理インターフェイスの様々なセクションの設定によって、データソースが特定され、データソースの使用および共有方法が決まり、[!UICONTROL Onboarding Status Report]でのエラー報告を有効にすることができます。
 
@@ -39,7 +42,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 <!-- datasource-settings-definitions.xml -->
 
-テキストフィールドに加え、「[!UICONTROL Data Source Details]」セクションには、以下のコントロールとオプションも含まれています。
+テキストフィールドに加え、「[!UICONTROL Data Source Details]」セクションには、次のコントロールとオプションも含まれています。
 
 <table id="table_BF73919473D74444B38939A36C2F7CDA"> 
  <thead> 
@@ -58,13 +61,13 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol">Cross Device</span></b>：顧客が指定する認証済み ID。このオプションを選択するのは、次のものを作成する場合です。 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">クロスデバイス対応データソースと<span class="wintitle">プロファイル結合ルール</span>の構築 </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B"><a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external">Adobe Experience Cloud Device Co-op</a>、または <span class="keyword">Audience Manager</span> と統合されている別のサードパーティデバイスグラフで提供されるリンクを使用するデータソース。 </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B"><a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/about/overview.html" format="https" scope="external">Adobe Experience Cloud Device Co-op</a>、または <span class="keyword">Audience Manager</span> と統合されている別のサードパーティデバイスグラフで提供されるリンクを使用するデータソース。 </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> ID Definition</span></b> </p> </td> 
-   <td colname="col2"> <p>「<b><span class="uicontrol">ID Definition</span></b>」のオプションは、<span class="keyword">Audience Manager</span> のユーザー ID（UUID）や、<span class="keyword">Adobe Experience Cloud Device Co-op</span>（または <span class="keyword">Audience Manager</span> と統合されている別のサードパーティデバイスグラフ）でリンクされる関連デバイスとデータソースとの関係を定義します。オプションは以下のとおりです。 </p> <p> 
+   <td colname="col2"> <p>「<b><span class="uicontrol">ID Definition</span></b>」のオプションは、<span class="keyword">Audience Manager</span> のユーザー ID（UUID）や、<span class="keyword">Adobe Experience Cloud Device Co-op</span>（または <span class="keyword">Audience Manager</span> と統合されている別のサードパーティデバイスグラフ）でリンクされる関連デバイスとデータソースとの関係を定義します。オプションは次のとおりです。 </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
       <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol">Person</span></b>： 1 人の個人を定義するのに使用される ID。この ID は複数の <span class="keyword">Audience Manager</span> ID にマッピングできます。 </li> 
       <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol">Household</span></b>：人々のグループを定義するのに使用される ID。この ID は複数の Audience Manager ID にマッピングできます。 </li> 
@@ -81,7 +84,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 >
 >対応する書き出しラベルを宛先に設定しない限り、書き出し制限は機能しません。
 
-オプションは以下のとおりです。
+オプションは次のとおりです。
 
 * **[!UICONTROL No Restriction]**
 * **[!UICONTROL Cannot be tied to personally identifiable information]**
@@ -91,11 +94,11 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ## Data Source Settings {#data-source-settings}
 
-「[!UICONTROL Data Source Settings]」セクションには、以下のコントロールとオプションが含まれています。これらの設定の中には、データソースを変更するためのサブオプションやメニュー項目が追加されているものがあります。
+「[!UICONTROL Data Source Settings]」セクションには、次のコントロールとオプションが含まれています。これらの設定の中には、データソースを変更するためのサブオプションやメニュー項目が追加されているものがあります。
 
 ### 受信データソース設定
 
-データを受信するように設計されているデータソースの場合は、「**[!UICONTROL Inbound]**」チェックボックスを選択します。「**[!UICONTROL Inbound]**」チェックボックスを選択すると、以下の 2 つのコントロールグループがさらに表示されます。
+データを受信するように設計されているデータソースの場合は、「**[!UICONTROL Inbound]**」チェックボックスを選択します。「**[!UICONTROL Inbound]**」チェックボックスを選択すると、次の 2 つのコントロールグループがさらに表示されます。
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
@@ -107,11 +110,11 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> ID Type</span></b> </p> </td> 
-   <td colname="col2"> <p>「<b><span class="uicontrol">Inbound</span></b>」オプションには ID タイプが必要です。オプションは以下のとおりです。 </p> <p> 
+   <td colname="col2"> <p>「<b><span class="uicontrol">Inbound</span></b>」オプションには ID タイプが必要です。オプションは次のとおりです。 </p> <p> 
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol">Customer ID</span></b>：受信データを顧客 ID で識別します。 </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol">Audience Manager ID</span></b>：受信データを <span class="keyword">Audience Manager</span> ID で識別します。 </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol">Experience Cloud ID</span></b><span class="keyword">：受信データを Experience Cloud ID で識別します。</span>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a>を参照してください。 </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol">Experience Cloud ID</span></b>：受信データを <span class="keyword">Experience Cloud</span> ID で識別します。詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a>を参照してください。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -157,7 +160,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> 非アクティブな顧客 ID のデータ保持</span></b> </p> </td> 
-   <td colname="col2"> <p>非アクティブな顧客 ID のデータ保持期間を設定できます。これにより、Audience Manager プラットフォームに Audience Manager が最後に表示された後、Audience Manager がデータベースに顧客 ID を保持する期間を決定します。</p> <p>デフォルト値は 24 か月（720 日）です。設定できる最小値は 1 か月、最大値は 5 年です。すべての月は 30 日としてカウントされます。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p><b>注意</b>：このコントロールは、クロスデバイス対応データソースでのみ使用できます。<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応データソースの作成</a>も参照してください。</p></td> 
+   <td colname="col2"> <p>非アクティブな顧客 ID のデータ保持期間を設定できます。これにより、Audience Manager プラットフォームに Audience Manager が最後に表示された後、Audience Manager がデータベースに顧客 ID を保持する期間を決定します。</p> <p>デフォルト値は 24 か月（720 日）です。設定できる最小値は 1 ヶ月、最大値は 5 年です。すべての月は 30 日としてカウントされます。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p><b>注意</b>：このコントロールは、クロスデバイス対応データソースでのみ使用できます。<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応データソースの作成</a>も参照してください。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Unique Trait Integration Codes</span></b> </p> </td> 
