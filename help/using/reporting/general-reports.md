@@ -5,8 +5,11 @@ seo-title: Audience Manager の一般的なレポート
 solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+workflow-type: ht
+source-wordcount: '866'
+ht-degree: 100%
 
 ---
 
@@ -84,23 +87,23 @@ t_run_general_report.xml
 
 ## 特性に関する一般レポートの結果 {#general-report-results-traits}
 
-The filters below are available when you run a General report and select **[!UICONTROL Trait]** as the report type.
+一般レポートを実行し、レポートタイプに **[!UICONTROL Trait]** を選択する場合は、次のフィルターを使用できます。
 
 結果を [!UICONTROL Device ID] でフィルタリングする場合：
 
-* [!UICONTROL Unique Trait Realizations] は、選択した時間範囲内で、訪問者に特性を追加した匿名プロファイルの数です。
-* [!UICONTROL Total Trait Realization] は、選択した時間範囲内の匿名特性の関連付けの合計数です。
+* [!UICONTROL Unique Trait Realizations] は、選択した期間において、特性を自分のプロファイルに追加した匿名デバイス訪問者の数を表します。
+* [!UICONTROL Total Trait Realization] は、選択した期間内の匿名の特性適合数の合計です。
 * [!UICONTROL Total Trait Population] は、プロファイルにこの特性がある匿名デバイス訪問者の数を表します。
 
 ![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
 結果を [!UICONTROL Cross-Device ID] でフィルタリングする場合：
 
-* [!UICONTROL Unique Trait Realizations] は、選択した時間範囲内で、訪問者に特性を追加した認証済みプロファイルの数です。
-* [!UICONTROL Total Trait Realization] は、選択した時間範囲内の認証済みの特性関連付けの合計数です。
+* [!UICONTROL Unique Trait Realizations] は、選択した期間において、特性を自分のプロファイルに追加した認証済み訪問者の数を表します。
+* [!UICONTROL Total Trait Realization] は、選択した期間内の認証済みの特性適合数の合計です。
 * [!UICONTROL Total Trait Population] は、プロファイルにこの特性がある認証済み訪問者の数を表します。
 
-![汎用レポート特性間デバイス](assets/general-report-traits-cross-device.png)
+![general-report-traits-cross-device](assets/general-report-traits-cross-device.png)
 
 <!-- 
 ### Unique Trait Realizations
