@@ -4,11 +4,11 @@ seo-description: この記事では、Audience Manager UI から新しいデバ�
 seo-title: 新しいデバイスベースの宛先の追加
 solution: Audience Manager
 title: 新しいデバイスベースの宛先の追加
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69fb3601ac9de300032abc8730a40c41abc12d97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 99%
 >既存のデバイスベースの宛先の名前を変更することはできません。宛先を正しく識別するために役立つ名前を指定してください。
 
 1. Audience Manager アカウントにログインし、**[!DNL Audience Data > Destinations]** に移動して、**[!DNL Create Destination]**&#x200B;をクリックします。
-1. **[!DNL Basic Information]** セクションで、新しい宛先の **[!DNL Name]** および **[!DNL Description]** を入力し、以下のリストの設定を使用します：
+1. 「**[!DNL Basic Information]**」セクションで、新しい宛先の「**[!DNL Name]**」および「**[!DNL Description]**」を入力し、次のリストの設定を使用します。
 
    ![設定](assets/dbd-new-basic.png)
 
@@ -61,5 +61,5 @@ ht-degree: 99%
 1. **[!DNL Next]**&#x200B;をクリックします。
 1. この宛先に設定する[データ書き出しラベル](/help/using/features/data-export-controls.md#controls-labels)を選択します。
 1. **[!DNL Save]**&#x200B;をクリックします。
-1. **[!DNL Segment Mappings]** セクションで、この宛先に送信するオーディエンスセグメントを選択します。
+1. 「**[!DNL Segment Mappings]**」セクションで、この宛先に送信するオーディエンスセグメントを選択します。
 1. 宛先を保存します。
