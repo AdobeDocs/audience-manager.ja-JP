@@ -5,11 +5,11 @@ seo-title: データソースリストと設定
 solution: Audience Manager
 title: データソースリストと設定
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 96%
 
 ---
 
@@ -99,6 +99,10 @@ ht-degree: 100%
 ### 受信データソース設定
 
 データを受信するように設計されているデータソースの場合は、「**[!UICONTROL Inbound]**」チェックボックスを選択します。「**[!UICONTROL Inbound]**」チェックボックスを選択すると、次の 2 つのコントロールグループがさらに表示されます。
+
+>[!NOTE]
+>
+>この **[!UICONTROL Inbound]** チェックボックスは、以下に説明するデータソースコントロールの表示/非表示を切り替える目的でのみ有効です。 この **[!UICONTROL Inbound]** オプションをオフにしても、データ取り込みには影響しません。 オンボードされたデータは、このオプションがチェックされているかどうかに関係なく処理されます。
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
