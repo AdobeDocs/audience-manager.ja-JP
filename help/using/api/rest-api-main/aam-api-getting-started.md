@@ -5,11 +5,11 @@ seo-title: REST API の概要
 solution: Audience Manager
 title: REST API の概要
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
-translation-type: ht
-source-git-commit: 1bbfa4b537a344d58f20763bb40ebe0827ad8698
-workflow-type: ht
-source-wordcount: '1850'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 680c4491176755915d2d45ee64f5d88410cb7072
+workflow-type: tm+mt
+source-wordcount: '1898'
+ht-degree: 95%
 
 ---
 
@@ -51,9 +51,12 @@ Audience Manager REST API は、2 つの認証方法をサポートしていま�
 
 ## JWT（サービスアカウント）認証 {#jwt}
 
-安全なサービス間 Adobe I/O API セッションを確立するには、統合の ID をカプセル化する JSON Web トークン（JWT）を作成し、アクセストークンと交換する必要があります。 アドビのサービスに対するすべてのリクエストには、認証ヘッダーにアクセストークンが含まれると共に、[Adobe I/O コンソール](https://console.adobe.io/)で[サービスアカウント統合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を作成した際に生成された API キー（クライアント ID）が含まれている必要があります。
+安全なサービス間 Adobe I/O API セッションを確立するには、統合の ID をカプセル化する JSON Web トークン（JWT）を作成し、アクセストークンと交換する必要があります。 Every request to an Adobe service must include the access token in the Authorization header, along with the API Key (Client ID) that was generated when you create the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) in the [Adobe I/O Console](https://console.adobe.io/).
 
-認証の設定方法について詳しくは、[JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)を参照してください。
+JWT（サービスアカウント）認証を設定するには、次の手順に従います。
+
+1. 「 [サービスアカウント統合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 」に移動し、すべての手順に従ってサービスアカウント接続を設定し、JWTトークンを生成します。
+2. 「 [JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) 」に移動し、手順に従ってJWTトークン（手順1で作成）をアクセストークンと交換します。
 
 ## OAuth 認証（非推奨）{#oauth}
 
