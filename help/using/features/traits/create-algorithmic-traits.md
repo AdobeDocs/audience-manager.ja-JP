@@ -5,8 +5,11 @@ seo-title: アルゴリズム特性の作成
 solution: Audience Manager
 title: アルゴリズム特性の作成
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    * 保存フォルダーを選択します。
 1. 「[!UICONTROL Configuration]」パネルを展開し、**[!UICONTROL Browse All Models]**&#x200B;をクリックします。新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
 1. モデルを選択して、**[!UICONTROL Add Selected Model to Trait]**&#x200B;をクリックします。モデルを追加すると、リーチと精度の設定が表示されます。
-1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。終了したら、**[!UICONTROL Save]**&#x200B;をクリックします。
+1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。終了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## アルゴリズム特性{#configure-settings}の設定 
 
@@ -34,7 +37,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [アルゴリズムモデルを作成する](../../features/algorithmic-models/create-model.md#build-model)。
+* [類似（look-alike）モデルの作成](../../features/algorithmic-models/create-model.md).
 * モデルデータの実行が完了したことを知らせる通知電子メールを受け取る。
 * 必須フィールドを「[Basic Information](../../features/traits/create-onboarded-rule-based-traits.md)」セクションに入力する。
 
