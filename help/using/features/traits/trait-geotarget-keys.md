@@ -5,8 +5,11 @@ seo-title: プラットフォームレベルのキーによる GeoTargeting（�
 solution: Audience Manager
 title: プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 8959e0023f7663d7a20080aaf130d469ed8a4313
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 100%
 
 ---
 
@@ -46,11 +49,11 @@ Audience Manager アカウントのすべてのプロパティにわたって地
 | d_lat | 緯度（例：d_lat=40.75）。[緯度リスト](assets/d_lat.txt)をダウンロードします。 |
 | d_long | 経度（例：d_long=73.98）。[経度リスト](assets/d_long.txt)をダウンロードします。 |
 | d_postal_code | 郵便番号（拡張 +4 コードを除く）。[郵便番号リスト](assets/d_postal_code.txt)をダウンロードします。次に例を示します。 <ul><li>特性：d_postal_code=84004 </li><li>特性名：Alpine</li></ul> |
-| d_state | 米国の州の 2 文字の略称。[州コードリスト](assets/d_state.txt)をダウンロードします。次に例を示します。 <ul><li>特性：d_state=NY </li><li>特性名： New York</li></ul>d_state には、様々な国の異なる州の重複する値が含まれています。例えば、d_state == "on" は、Ontario（カナダ）、Ondo（ナイジェリア）、Oshana（ナミビア）といった複数の州に一致します。地域ターゲティングをより詳細におこなうために、このシグナルを d_country などの他のシグナルと組み合わせて使用することをお勧めします。 |
+| d_state | 米国の州の 2 文字の略称。[州コードリスト](assets/d_state.txt)をダウンロードします。次に例を示します。 <ul><li>特性：d_state=NY </li><li>特性名： New York</li></ul>d_state には、様々な国の異なる州の重複する値が含まれています。例えば、d_state == &quot;on&quot; は、Ontario（カナダ）、Ondo（ナイジェリア）、Oshana（ナミビア）といった複数の州に一致します。地域ターゲティングをより詳細におこなうために、このシグナルを d_country などの他のシグナルと組み合わせて使用することをお勧めします。 |
 | d_region | 地域の英数字 ID。[地域リスト](assets/Country_RegionCodes_City.csv)をダウンロードします。次に、このリストを使用して、地域 ID を地域名と照合します。 |
 | d_isp | ISP／組織。[ISP リスト](assets/d_isp.txt)をダウンロードします。 |
 
-[すべての位置ベースのシグナル](assets/all.csv)のリストには、前述したすべてのシグナルが含まれ、次の順序で並べられています。`d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
+[すべての位置ベースのシグナル](assets/all.txt)のリストには、前述したすべてのシグナルが含まれ、次の順序で並べられています。`d_country,d_city,d_region,d_state,d_dma_code,d_postal_code,d_area_code,d_lat,d_long`
 
 >[!MORELIKETHIS]
 >
