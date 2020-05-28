@@ -7,7 +7,7 @@ title: 特性の詳細ページ
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: c761682f31c777368a21744b21d7302829007c66
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 89%
@@ -50,7 +50,7 @@ ht-degree: 89%
    * **[!UICONTROL Cross-Device ID]**: 認証済みプロファイルのデータを収集する特性の結果を表示するには、このオプションを選択します。 このオプションを選択すると、レポートにはデータのみが表示され、 [!UICONTROL Cross-Device ID] レポートにはデータは表示されません [!UICONTROL Device ID] 。
    * **[!UICONTROL Device ID]**: デバイスプロファイルのデータを収集する特性の結果を表示するには、このオプションを選択します。 このオプションを選択すると、レポートにはデータのみが表示され、 [!UICONTROL Device ID] レポートにはデータは表示されません [!UICONTROL Cross-Device ID] 。
 
-      ![trait-graph](assets/trait-summary.png)
+      ![trait-graph](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**：特定の期間にこの特性をプロファイルに追加した個別ユーザーの数。
 * **[!UICONTROL Total Trait Population]**：現在この特性で絞り込まれている個別ユーザーの数。
