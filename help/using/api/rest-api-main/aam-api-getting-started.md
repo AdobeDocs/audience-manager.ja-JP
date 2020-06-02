@@ -6,10 +6,10 @@ solution: Audience Manager
 title: REST API の概要
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 680c4491176755915d2d45ee64f5d88410cb7072
+source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 95%
+source-wordcount: '1891'
+ht-degree: 93%
 
 ---
 
@@ -51,12 +51,22 @@ Audience Manager REST API は、2 つの認証方法をサポートしていま�
 
 ## JWT（サービスアカウント）認証 {#jwt}
 
-安全なサービス間 Adobe I/O API セッションを確立するには、統合の ID をカプセル化する JSON Web トークン（JWT）を作成し、アクセストークンと交換する必要があります。 Every request to an Adobe service must include the access token in the Authorization header, along with the API Key (Client ID) that was generated when you create the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) in the [Adobe I/O Console](https://console.adobe.io/).
+### 前提条件 {#prerequisites}
 
-JWT（サービスアカウント）認証を設定するには、次の手順に従います。
+JWT認証を設定する前に、 [Adobe Developer Consoleにアクセスできることを確認してください](https://console.adobe.io/)。 アクセス要求については、組織の管理者に問い合わせてください。
 
-1. 「 [サービスアカウント統合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) 」に移動し、すべての手順に従ってサービスアカウント接続を設定し、JWTトークンを生成します。
-2. 「 [JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) 」に移動し、手順に従ってJWTトークン（手順1で作成）をアクセストークンと交換します。
+### 認証{認証}
+
+次の手順に従って、JWT（サービスアカウント）認証を設定します。
+
+1. [Adobe Developer Consoleにログインします](https://console.adobe.io/)。
+1. 「 [サービスアカウント接続](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)」の手順に従います。
+   * 手 [順2: サ追加ービスアカウント認証を使用してプロジェクトに対するAPIを設定するには、「オーディエンスマネージャーAPI」オプションを選択します。](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)
+1. 手 [順3の指示に基づいて最初のAPI呼び出しを行って、接続を試してみてください](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.)。
+
+>[!NOTE]
+>
+>オーディエンスマネージャーのREST APIを自動的に設定して操作するには、JWTをプログラムによって生成します。 詳しい手順については、 [JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) を参照してください。
 
 ## OAuth 認証（非推奨）{#oauth}
 
