@@ -7,9 +7,9 @@ solution: Audience Manager
 title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1548'
 ht-degree: 86%
 
 ---
@@ -259,7 +259,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile 
 
 いいえ。
 
-**Adobe Campaignに対するセグメントのエクスポートが2020年3月16日以降に0と表示されるのはなぜですか。**
+**2020年3月16日以降のAdobe Campaignへのセグメントエクスポートで、セグメント母集団がゼロと表示されるのはなぜですか。**
 
 2019年下旬に、デバイス間IDを使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。 これらの機能強化は、2020年3月16日（月）より、オーディエンスマネージャーインスタンスで厳密に適用されます。 そのため、クロスプロファイルIDを使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
 
