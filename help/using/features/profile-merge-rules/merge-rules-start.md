@@ -5,11 +5,11 @@ seo-title: プロファイル結合ルールの導入
 solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1327'
+ht-degree: 84%
 
 ---
 
@@ -101,6 +101,19 @@ ht-degree: 100%
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
 4. 「**[!UICONTROL Save]**」をクリックします。
+
+### デバイス間IDをAdobe CampaignIDキーとして使用するデバイスの宛先に関する考慮事項 {#considerations}
+
+2019年下旬に、デバイス間IDを使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。 これらの機能強化は、2020年3月16日（月）より、オーディエンスマネージャーインスタンスで厳密に適用されます。 そのため、クロスプロファイルIDを使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
+
+デバイス間(Adobe Campaignなど)のIDを使用して、オーディエンスマネージャーインスタンスと宛先を正しく統合するには、次の要件を満たしている必要があります。
+
+1. Adobe Campaign宣言済みIDの宛先にマッピングされたセグメントで使用されるプロファイルの結合ルールを確認します。 認証済みのすべてのプロファイルをエクスポートに含めることができるように、プロファイルのマージルールでこの [!UICONTROL Last Authenticated Profile] オプションを使用する必要があります。 プロファイルの結合ルールに別のオプションが使用されている場合は、に切り替え [!UICONTROL Last Authenticated Profile]ます。
+2. 「Adobe Campaignの結合ルール」設定で、プロファイル宣言IDデータソースを選択します。
+
+>[!NOTE]
+>
+> この状況に直面するお客様のプロファイル結合ルールの制限を1に増やしたので、Adobe Campaign宣言IDの宛先にマッピングされたセグメントに対して、他の用途のプロファイル結合ルールを変更せずに、専用のプロファイル結合ルールを作成できます。
 
 ## 結合ルールコードの設定 {#configure-merge-rule-code}
 
