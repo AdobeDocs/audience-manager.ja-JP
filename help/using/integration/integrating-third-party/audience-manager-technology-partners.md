@@ -5,8 +5,11 @@ seo-title: Adobe Audience Manager テクノロジーパートナー
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager テクノロジーパートナー
-translation-type: ht
-source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
+translation-type: tm+mt
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1178'
+ht-degree: 97%
 
 ---
 
@@ -15,15 +18,15 @@ source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
 
 このページには、現在の Audience Manager [サーバー間統合](/help/using/features/destinations/add-edit-segments.md)のみが含まれています。統合について詳しくは、[Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
 
-<br>
+<br> 
 
 * **更新日** = このアクティベートパートナーの更新があった最近の日付が表示されます。
 * **セグメント解除** = セグメント化解除とは、デバイスプロファイルを不適格としてセグメントから削除するプロセスのことです。デバイスプロファイルをセグメントから削除できるかどうかは、プロファイル結合ルールの作成時に使用したデバイスオプションによって異なります。セグメント化解除は、GDPR の削除リクエストでも使用されます。[プロファイル結合ルールとデバイスセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)および[セグメント解除に対応している Audience Manager パートナー](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation).をお読みください。Audience Manager は、以下の「はい」とマークされている宛先にセグメント情報を送信します。
-* **IAB TCF 同意シグナルの受信** = IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TCF のコンセントストリングをアクティベーションパートナーに転送できます。[IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners)をお読みください。
+* **IAB TCFの同意シグナルを受け取る** = IAB TCFのオーディエンスマネージャプラグインを使用すると、ユーザーのプライバシー選択に従い、IAB TC文字列をアクティベーションパートナーに転送できます。 [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners)をお読みください。
 * **ICDS** = この列には、Instant Cross-Device Suppression をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **モバイルデバイス ID** = この列には、Audience Manager からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 
-<br>
+<br> 
 
 | 統合 | 更新日 | セグメント解除 | IAB TCF の同意シグナルの受信 | ICDS | モバイルデバイス ID |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
