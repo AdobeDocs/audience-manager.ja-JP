@@ -6,16 +6,16 @@ seo-title: プロファイル結合ルールおよびデバイスグラフに関
 solution: Audience Manager
 title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1548'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# プロファイル結合ルールおよびデバイスグラフに関するよくある質問{#profile-merge-rules-and-device-graph-faq}
+# プロファイル結合ルールおよびデバイスグラフに関するよくある質問 {#profile-merge-rules-and-device-graph-faq}
 
 プロファイル結合ルールおよびデバイスグラフに関するよくある質問への回答。
 
@@ -55,7 +55,7 @@ ht-degree: 86%
 
 ## デバイスグラフとプロファイル結合ルール {#device-graph-profile-merge-rules}
 
-**[!DNL Audience Manager]はデバイスグラフをどのように使用しますか？**
+**[!DNL Audience Manager] はデバイスグラフをどのように使用しますか？**
 
 [!DNL Audience Manager] では、デバイスグラフは[プロファイル結合ルールの作成](../features/profile-merge-rules/merge-rules-start.md)時に設定オプションとして表示されます。[!UICONTROL Profile Merge Rules]を通じて、これらのデバイスグラフは次の点で [!DNL Audience Manager] に便利です。
 
@@ -67,7 +67,7 @@ ht-degree: 86%
 
 **[!UICONTROL Profile Merge Rules]はいくつ作成することができますか？**
 
-現在、[!UICONTROL Profile Merge Rules] は最大 4 つまで作成できます。4つ目のプロファイル結合ルール（[!UICONTROL All Cross-Device Profiles]）は、[!UICONTROL People-Based Destinations] アドオンを購入したユーザーのみが使用できます。
+現在、[!UICONTROL Profile Merge Rules] は最大 4 つまで作成できます。4 つ目のプロファイル結合ルール（[!UICONTROL All Cross-Device Profiles]）は、[!UICONTROL People-Based Destinations] アドオンを購入したユーザーのみが使用できます。
 
  
 
@@ -83,7 +83,7 @@ ht-degree: 86%
 
  
 
-**デバイスグラフを使用する[!UICONTROL Profile Merge Rule]により認定されたセグメントを、[!DNL Audience Manager]はどこに送信できますか？**
+**デバイスグラフを使用する[!UICONTROL Profile Merge Rule]により認定されたセグメントを、[!DNL Audience Manager] はどこに送信できますか？**
 
 [!DNL Audience Manager] はセグメントをバッチファイルまたはリアルタイムで宛先に送信できます。
 
@@ -91,7 +91,7 @@ ht-degree: 86%
 
 ## セグメント、デバイスグラフ、プロファイル結合ルール {#segments-device-graphs-rules}
 
-**デバイスグラフを使用する[!UICONTROL Profile Merge Rule]でデバイスがセグメント認定されない場合、[!DNL Audience Manager]はどのようにしてデバイスのセグメント化を解除しますか？**
+**デバイスグラフを使用する[!UICONTROL Profile Merge Rule]でデバイスがセグメント認定されない場合、[!DNL Audience Manager] はどのようにしてデバイスのセグメント化を解除しますか？**
 
 Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile Merge Rule] でセグメントを評価する場合、最大 100 台のデバイスを結合します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された最大 99 台の追加デバイスが宛先のセグメントから削除されます。セグメント化の解除について詳しくは、[プロファイルの結合ルールとデバイスのセグメント化解除プロセス](../features/profile-merge-rules/merge-rule-unsegment.md)を参照してください。
 
@@ -111,7 +111,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile 
 
 **セグメントサイズの予測には、デバイスグラフオプションを使用する[!UICONTROL Profile Merge Rule]で設定される結合に基づいてセグメント認定されるデバイスは含まれますか？**
 
-いいえ。[!UICONTROL Estimated Real-Time Population]セグメントビルダーの特性およびセグメント母集団データ[!UICONTROL Estimated Total Population]で、[ および の定義を参照してください](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html)。
+いいえ。[セグメントビルダーの特性およびセグメント母集団データ](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/segments/segment-builder-data.html)で、[!UICONTROL Estimated Real-Time Population] および [!UICONTROL Estimated Total Population] の定義を参照してください。
 
  
 
@@ -129,9 +129,9 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile 
 
 ## 特性頻度、デバイスグラフ、プロファイル結合ルール {#trait-freq-device-rules}
 
-**[!DNL Audience Manager]はデバイスグラフを使用する[!UICONTROL Profile Merge Rule]で特性頻度をどのように計算しますか？**
+**[!DNL Audience Manager] はデバイスグラフを使用する[!UICONTROL Profile Merge Rule]で、特性頻度をどのように計算しますか？**
 
-特性頻度とは、複数のデバイス間における特定の特性の認定の数を合計したものです。わかりやすいようにユースケースを紹介します。
+特性頻度とは、複数のデバイス間における特定の特性に対する認定の数を合計したものです。わかりやすいようにユースケースを紹介します。
 
 <table id="table_DE7A308705C84B93B3089CAD2228569E"> 
  <thead> 
@@ -175,7 +175,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile 
 
  
 
-**デバイスグラフを使用する[!UICONTROL Profile Merge Rules]により特定のセグメントで&#x200B;*リアルタイム*で認定されているデバイスの数を確認することはできますか？**
+**デバイスグラフを使用する[!UICONTROL Profile Merge Rules]では、特定のセグメントから&#x200B;*リアルタイム*で認定されているデバイスの数を確認することはできますか？**
 
 はい。リアルタイム母集団指標により、現在のデバイス（リアルタイムで認識されているデバイス）のセグメント認定が、デバイスグラフでリンクされているすべてのデバイスからのプロファイルを使用してキャプチャされます。
 
@@ -259,18 +259,18 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile 
 
 いいえ。
 
-**2020年3月16日以降のAdobe Campaignへのセグメントエクスポートで、セグメント母集団がゼロと表示されるのはなぜですか。**
+**2020 年 3 月 17 日以降、Adobe Campaign へのセグメントエクスポートで、セグメント母集団がゼロと表示されるのはなぜですか。**
 
-2019年下旬に、デバイス間IDを使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。 これらの機能強化は、2020年3月16日（月）より、オーディエンスマネージャーインスタンスで厳密に適用されます。 そのため、クロスプロファイルIDを使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
+2019 年後半に、クロスデバイス ID を使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。これらの機能強化は、2020 年 3 月 17 日（火）より、Audience Manager インスタンスで厳密に適用されます。そのため、クロスプロファイル ID を使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
 
-デバイス間(Adobe Campaignなど)のIDを使用して、オーディエンスマネージャーインスタンスと宛先を正しく統合するには、次の要件を満たしている必要があります。
+クロスデバイス ID（Adobe Campaign など）を使用して、Audience Manager インスタンスと宛先を正しく統合するには、次の要件を満たす必要があります。
 
-1. Adobe Campaign宣言済みIDの宛先にマッピングされたセグメントで使用されるプロファイルの結合ルールを確認します。 認証済みのすべてのプロファイルをエクスポートに含めることができるように、プロファイルのマージルールでこの [!UICONTROL Last Authenticated Profile] オプションを使用する必要があります。 プロファイルの結合ルールに別のオプションが使用されている場合は、に切り替え [!UICONTROL Last Authenticated Profile]ます。
-2. 「Adobe Campaignの結合ルール」設定で、プロファイル宣言IDデータソースを選択します。
+1. Adobe Campaign の宣言済み ID の宛先にマッピングされたセグメントで使用されるプロファイルの結合ルールを確認します。認証済みのすべてのプロファイルをエクスポートに含めることができるように、プロファイルのマージルールでは [!UICONTROL Last Authenticated Profile] オプションを使用する必要があります。プロファイル結合ルールで別のオプションを使用している場合は、[!UICONTROL Last Authenticated Profile] に切り替えます。
+2. プロファイル結合ルール設定で、Adobe Campaign の宣言済み ID データソースを選択します。
 
 >[!NOTE]
 >
-> この状況に直面するお客様のプロファイル結合ルールの制限を1に増やしたので、Adobe Campaign宣言IDの宛先にマッピングされたセグメントに対して、他の用途のプロファイル結合ルールを変更せずに、専用のプロファイル結合ルールを作成できます。
+> この状況に直面するお客様のプロファイル結合ルールの制限を 1 つ増やしまた。これにより、Adobe Campaign の宣言済み ID の宛先にマッピングされたセグメントに対して、他の用途のプロファイル結合ルールを変更しなくても、専用のプロファイル結合ルールを作成できます。
 
 >[!MORELIKETHIS]
 >
