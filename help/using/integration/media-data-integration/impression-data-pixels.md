@@ -5,8 +5,11 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのインプ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-translation-type: ht
-source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
+translation-type: tm+mt
+source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +36,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 
 このキーと値のペアでは、値変数は広告サーバーにより挿入された ID またはマクロです。広告タグが読み込まれると、`%macro%` は対応する必須の値に置き換えられます。この呼び出しでは、応答は返されません。
 
-## サポートされているキーと値のペア{#supported-key-value-pairs}
+## サポートされているキーと値のペア {#supported-key-value-pairs}
 
 インプレッションイベント呼び出しでは、キーと値のペアとして構成されているデータを受け付けます。次の表は、これらの変数を格納するキーの一覧と説明です。これらのうち多くは、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータのキャプチャと分析をおこなう場合に必要になります。
 
@@ -94,12 +97,12 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
    <td colname="col2"> <p>メタデータの提供元となるプラットフォームのデータソース ID または統合コード（DFA、Atlas、GBM、Media Math など）。 </p> <p><span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <code><i>gdpr</i></code>  </td> 
+   <td colname="col1"> <code>gdpr</code>  </td> 
    <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p> <p><code>gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> <code>gdpr=1</code> の場合、<code>%gdpr_consent%</code> は <code>gdpr_consent</code> 文字列に置き換えられます（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">IAB 仕様</a>を参照）。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p> </td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> の場合 <code>gdpr=1</code>、が <code>${gdpr_consent_XXXX}</code> 文字列とベンダーIDに置き換えられます( <code>gdpr_consent</code> IAB仕様を参照 <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"></a>)。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
   </tr> 
  </tbody> 
 </table>
