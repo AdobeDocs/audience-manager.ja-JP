@@ -5,11 +5,11 @@ seo-title: DCS エラーコード、メッセージ、例
 solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
-source-wordcount: '1339'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+workflow-type: tm+mt
+source-wordcount: '1533'
+ht-degree: 87%
 
 ---
 
@@ -250,6 +250,23 @@ ht-degree: 100%
    <td colname="col3"> <p><span class="wintitle">DCS</span> がこのエラーコードを返すのは、要求に無効なグローバルデバイス ID が含まれている場合です。DCS は無効な ID を無視し、この無効な ID に関するエラーとあわせて 312 エラーをスローします。適切なデバイス広告 ID の形式および対応するグローバルデータソースについて詳しくは、<a href="../../../features/global-data-sources.md" format="dita" scope="local">グローバルデータソース</a>および <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Audience Manager の ID のインデックス</a>を参照してください。</p>
    <p>不正な呼び出しの例： <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>説明：<span class="keyword">IDFA（DPID 20915）</span>は大文字の ID である必要がありますが、例の要求では ID を小文字で指定しています。</p>
+   </td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>313 </p> </td> 
+   <td colname="col2"> <p>CMP IDがGCLに存在しません</p> </td> 
+   <td colname="col3"> <p>評価時にManager <code>gdpr=1</code> のGlobal CMPリストのキャッシュバージョンに存在しないCMP IDによってIAB TC文字列とが生成された場合、IAB TCF用オーディエンス管理プラグインはIAB TC文字列を破棄し、通常どおりにリクエストを処理します。 IAB TCF v2.0 ${GDPR}マクロが0に設定され、${GDPR_CONSENT_XXX}マクロが空です。</p>
+   </td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>314 </p> </td> 
+   <td colname="col2"> <p>CMP IDはGCLで削除済みとマークされています</p> </td> 
+   <td colname="col3"> <p>Global CMPリスト <code>gdpr=1</code> のキャッシュバージョンで削除とマークされたCMPによってIAB TC文字列とIAB TC文字列が生成された場合、Global CMPリストからのオーディエンス時間を超えると、IAB TCF用評価マネージャプラグインはTC文字列を破棄し、通常どおりに要求を処理します。 IAB TCF v2.0 ${GDPR}マクロが0に設定され、${GDPR_CONSENT_XXX}マクロが空です。</p></td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>315 </p> </td> 
+   <td colname="col2"> <p>同意文字列が同意なしを示す</p> </td> 
+   <td colname="col3"> <p>同意がない場合、IAB TCF用オーディエンスマネージャプラグインは、ユーザーに対してそれ以上のデータ収集をオプトアウトするか、パートナーコンテキストが検出されない場合は呼び出しを完全にドロップします。</p>
    </td>
   </tr>
 
