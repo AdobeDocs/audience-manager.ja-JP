@@ -5,8 +5,11 @@ seo-title: 宛先マクロの定義
 solution: Audience Manager
 title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 87%
 
 ---
 
@@ -54,9 +57,18 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
        AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 に基づきます 
      </draft-comment> </p> </td> 
   </tr> 
+  <tr>
+    <td><p><code>${GDPR}</code></p></td>
+    <td><p>GDPR規制が訪問者に適用されるかどうかを示す。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意を含めます。 詳しくは、IAB TCF用 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">オーディエンスマネージャプラグイン</a> （英語）を参照してください。</p></td>
+  </tr>
+   <tr>
+    <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
+    <td><p>訪問者がサイトで同意を提供または拒否した場合に収集される同意文字列（IABベンダーIDを含む）。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意文字列を含めます。 宛先パ <code>XXXX</code> ートナーIDに置き換えます。 詳しくは、IAB TCF用 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">オーディエンスマネージャプラグイン</a> （英語）を参照してください。 </p></td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
-   <td colname="col2"> <p>親 Web ページで使用されているプロトコルを検出し、それを宛先 URL に挿入します。次に例を示します。<br>
+   <td colname="col2"> <p>親 Web ページで使用されているプロトコルを検出し、それを宛先 URL に挿入します。For example:
+     <br> 
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
       <li id="li_B41EF140CC274CB68FE7213DD8B908C0">Web ページが <b>https</b>://aam_client.com の場合、このマクロは <b>https</b>://url-destination.com に置換されます。 </li> 
       <li id="li_BDCD6EA69B004A92BA6981952341BD77">Web ページが <b>http</b>://aam_client.com の場合、このマクロは <b>http</b>://url-destination.com に置換されます。 </li> 
