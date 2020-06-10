@@ -6,7 +6,10 @@ solution: Audience Manager
 title: クロスチャネルコンバージョン
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 6988c6750c98f382a3440a606677243646551ad1
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ Audience Optimization レポートの「クロスチャネルコンバージョ�
 
 [!UICONTROL Cross Channel Conversion]は、[セグメントパフォーマンス](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) レポートと[最適な頻度](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)レポートに使用できます。
 
-[!UICONTROL Cross Channel Conversion]レポートを表示するには、**[!UICONTROL Platform]**&#x200B;ドロップダウンリストで **[!UICONTROL AAM+DCM]** アイテムを選択します。
+[!UICONTROL Cross Channel Conversion]レポートを表示するには、**[!UICONTROL AAM+DCM]**&#x200B;ドロップダウンリストで **[!UICONTROL Platform]** アイテムを選択します。
 
 [!UICONTROL Cross Channel Conversion]をセットアップする際に考慮すべき重要な事項を次の表に示します。
 
@@ -34,11 +37,7 @@ Audience Optimization レポートの「クロスチャネルコンバージョ�
   <tr> 
    <td colname="col01"> <p>コンバージョン特性の最小数 </p> </td> 
    <td colname="col1"> <p><span class="wintitle">クロスチャネルコンバージョン</span>レポートを実行するには、コンバージョン特性を少なくとも 1 つデータソースに割り当てる必要があります。特性について詳しくは、<a href="../../../features/traits/create-onboarded-rule-based-traits.md">特性の基本情報</a>を参照してください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>コンバージョン特性の最大数 </p> </td> 
-   <td colname="col1"> <p>レポートでは、ユーザーから<i>最大</i> 50 個のコンバージョン特性を取り込みます。上限に達した場合は、特性 ID の昇順に並べたコンバージョン特性の最初の 50 個がレポートで使用されます。 </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>アトリビューション期間 </p> </td> 
    <td> <p> <b><span class="uicontrol">AAM+DCM</span></b> アトリビューション期間は 14 日です。つまり、最近の 2 週間に示されたコンバージョン特性のみ考慮されます。 </p> </td> 
