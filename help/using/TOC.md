@@ -4,8 +4,11 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+translation-type: tm+mt
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1711'
+ht-degree: 99%
 
 ---
 
@@ -233,7 +236,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
          + [DCS API リファレンスの概要](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS API メソッド](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS エラーコード、メッセージ、例](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [ID の監視とブラックリスト登録](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+         + [IDの監視と非公開](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [DCS の地域 ID、場所、ホスト名](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [DCS 呼び出しでのキー値ペアの形式](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [競合状態とエラー処理](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
