@@ -6,10 +6,10 @@ solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 87%
+source-wordcount: '1545'
+ht-degree: 81%
 
 ---
 
@@ -212,22 +212,22 @@ ht-degree: 87%
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>Blocked customer id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>顧客 ID が悪意のある ID と見なされてブラックリストに登録されている場合に返されます。 </p> </td> 
+   <td colname="col3"> <p>顧客IDが悪意のあるIDとして識別され、denylistに追加された場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>Blocked datasource id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>データソース ID が悪意のある ID と見なされてブラックリストに登録されている場合に返されます。 </p> </td> 
+   <td colname="col3"> <p>データソースIDが悪意のあるものとして識別され、denylistに追加された場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>デバイス ID が悪意のある ID と見なされて、ブラックリストに登録されています。このような状況が発生する可能性があるのは、このデバイス ID を含んだきわめて大量の <span class="wintitle">DCS</span> 要求を短時間に受信する場合です。 </p> </td>
+   <td colname="col3"> <p>デバイスIDは悪意のあるIDとして識別され、denylistに追加されました。これは、このデバイスIDを含む極端な量の <span class="wintitle"> DCS</span> 要求を短時間で受け取った場合に発生する可能性があります。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>ID が悪意のある ID と見なされてブラックリストに登録されているので、読み取り／書き込みアクションがブロックされました。エラーコード 306 を参照してください。 </p> </td> 
+   <td colname="col3"> <p>IDが悪意のあるIDとして識別され、denylistに追加されたため、読み取り/書き込み操作がブロックされました。エラーコード306を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
