@@ -6,7 +6,7 @@ solution: Audience Manager
 title: レポート技術
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 1faafcda1060c1fab9de454976aac7cf191f456a
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 87%
@@ -84,4 +84,4 @@ r_legend.xml
 
 ## Tableauのドキュメント {#tableau-documentation}
 
-インタラクティブレポートに表示されるTableauコントロールの詳細については、Linux 2018.2上の [Tableau Serverの公式ドキュメントを参照してください。](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
+インタラクティブレポートに表示されるTableauコントロールの詳細については、Linux 2018.2上の [Tableau Serverの公式ドキュメントを参照してください。](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
