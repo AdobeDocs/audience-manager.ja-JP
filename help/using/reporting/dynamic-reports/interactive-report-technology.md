@@ -6,7 +6,10 @@ solution: Audience Manager
 title: レポート技術
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
-source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
+source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 87%
 
 ---
 
@@ -79,52 +82,6 @@ r_legend.xml
  </tbody> 
 </table>
 
-## レポートのアイコンとツールの説明 {#icons-tools-explained}
+## Tableauのドキュメント {#tableau-documentation}
 
-動的レポートで使用される様々なアイコンおよびツールの検索および使用方法を説明します。
-
-<!-- 
-
-r_icons.xml
-
- -->
-
-### データアイコンとツール
-
-各動的レポートウィンドウの下部で、次のアイコンとツールを使用できます。次の図は、これらのツールの詳細を示しています。
-
-![](assets/tools_icons90.png)
-
-### Export Data
-
-このツールでは、4 種類の形式でレポートからデータをエクスポートできます。
-
-| エクスポートオプション | データのエクスポート形式 |
-|---|---|
-| **[!UICONTROL Image]** | 画像（.png）ファイル。レポートデータを元のグラフィック形式でダウンロードして共有する場合に便利です。 |
-| **[!UICONTROL PDF]** | PDF ファイル。 |
-| **[!UICONTROL Data]** | 新しいブラウザーウィンドウが開き、列と行の数値データとして表示されます。 |
-| **[!UICONTROL Crosstab]** | .csv ファイル。 |
-
-### Revert Changes
-
-このツールを選択すると、レポート上で実行した、インタラクティブなクリックによる変更を元に戻すことができます。
-
-### 自動更新
-
-[!UICONTROL Delivery-Performance]レポートと[!UICONTROL Trait-to-Trait Overlap]レポートは、ユーザーのクリックアクションに基づいて応答および変動する動的なレポートです。
-
-例えば、[!UICONTROL Overlap]レポートで複数の広告主を選択するとします。自動更新を有効にすると、チェックボックスをオンにした時点でデータが返されるようになります。この動的動作により、レポートの処理が完了するまで他の広告主を選択できないので、ワークフローが中断される場合があります。このツールを使用して、必要に応じてこの機能を無効化（および再度有効化）します。
-
-### データを更新
-
-更新アイコンをクリックすると、レポートの実行や、データセットのリロードがおこなわれます。自動更新が無効な場合、「Refresh」をクリックするとレポートの実行や更新がおこなわれます。
-
-### 検索ツール
-
-検索は汎用の虫眼鏡アイコンによって表されます（表示されません）。検索フィールドは、画面左側の選択ラベルをクリックするまで非表示となります。次の表は、各レポートの検索ツールの場所を示しています。
-
-| レポート | 検索ツールを表示するには、以下にカーソルを重ねます |
-|---|---|
-| [!UICONTROL Delivery and Performance] レポート | 「Advertiser Name」ラベル |
-| [!UICONTROL Overlap] レポート | 「SID Name」ラベル |
+インタラクティブレポートに表示されるTableauコントロールの詳細については、Linux 2018.2上の [Tableau Serverの公式ドキュメントを参照してください。](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
