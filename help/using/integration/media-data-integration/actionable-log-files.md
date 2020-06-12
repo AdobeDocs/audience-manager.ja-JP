@@ -6,8 +6,11 @@ seo-title: 実用的なログファイル
 solution: Audience Manager
 title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
-translation-type: ht
-source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
+translation-type: tm+mt
+source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +32,7 @@ source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
 [!UICONTROL Actionable Log Files] を開始するには、[!DNL Audience Manager] にログデータを読み込む必要があります。以下のリンクは、使用を開始するのに役立ちます。
 
 * [!UICONTROL Google DCM] ログについては、[DCM データファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
+* For [!UICONTROL Google DFP] logs, see [Import DFP Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and* contact your [!DNL Audience Manager] consultant.
 * その他の広告サーバーログについては、[データとメタデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問合せください。
 
 既にログデータを [!DNL Audience Manager] に読み込んでいる場合は、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)にお問合せいただき、[!UICONTROL Actionable Log Files] を有効化してもらってください。
