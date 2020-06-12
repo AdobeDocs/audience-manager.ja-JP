@@ -6,9 +6,9 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: 同意管理
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 34af220db2cf23ccde225eb1e05af7ce0e1513b7
+workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 100%
 
@@ -31,11 +31,11 @@ Audience Manager は、必要とされる同意をユーザーから取得する
 
 ## Experience Cloud オプトインサービス
 
-[Experience Cloud オプトインサービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation-guides/opt-in-service/optin-overview.html)を使用すると、サイトを訪問したユーザーのデバイスまたはブラウザーに Cookie を設定できるかどうかを訪問者が決定するようにプロトコルを設定できます。
+[Experience Cloud オプトインサービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/optin-overview.html)を使用すると、サイトを訪問したユーザーのデバイスまたはブラウザーに Cookie を設定できるかどうかを訪問者が決定するようにプロトコルを設定できます。
 
 これは、[!DNL Experience Cloud ID (ECID) Service]の拡張機能です。この拡張機能を使用すると、ユーザーの同意を得る前に、訪問者の Web ページに Cookie を配置できる Experience Cloud ソリューションの種類と種類を制御できます。
 
-また、[Experience Cloud オプトインサービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation-guides/opt-in-service/optin-overview.html)を使用すると、より大規模なデザインの一環として、お使いの同意管理プラットフォーム（CMP）および既存のシステムと統合するプロトコルを設定できます。
+また、[Experience Cloud オプトインサービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/optin-overview.html)を使用すると、より大規模なデザインの一環として、お使いの同意管理プラットフォーム（CMP）および既存のシステムと統合するプロトコルを設定できます。
 
 ## オプトインの管理／同意の取得
 
