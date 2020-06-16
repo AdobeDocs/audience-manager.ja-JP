@@ -5,20 +5,23 @@ seo-title: Google AdWords リマーケティングリストへのセグメント
 solution: Audience Manager
 title: Google AdWords リマーケティングリストへのセグメントの送信
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: c70d02637615848a86fc980a70868a6b0f7bda00
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 70%
 
 ---
 
 
 # Google Ads リマーケティングリストへのセグメントの送信 {#send-segments-to-a-google-adwords-remarketing-list}
 
-以下の手順には、[!DNL Google Ads] リマーケティングリスト、ピクセルコード、Audience Manager の [!DNL URL] 宛先が必要です。検索連動型広告のリマーケティングリスト（[!DNL RLSA]）との統合とも呼ばれます。有料検索にのみ適用されます。
+This procedure requires a [!DNL Google Ads] remarketing list, pixel code, and an Audience Manager [!DNL URL] [!DNL destination]. 検索連動型広告のリマーケティングリスト（[!DNL RLSA]）との統合とも呼ばれます。有料検索にのみ適用されます。
 
 >[!IMPORTANT]
 >これは、2 つのシステムの製品化された統合ではありません。
 
-[!DNL Google Ads] リマーケティングリストを [!DNL Audience Manager] の URL 宛先として設定するには：
+To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] [!DNL URL destination]:
 
 1. [!DNL Google Ads] アカウントで、[Web サイトのリマーケティングリストを作成](https://support.google.com/adwords/answer/2454064?hl=ja)し、コンバージョン ID を書き出します。
 1. ベース URL およびセキュア URL のテンプレートとして、次の URL を使用します。xxxxxxxx セクションをコンバージョン ID に置き換えます。
@@ -27,12 +30,12 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. Audience Manager で、[URL 宛先を作成](../../features/destinations/create-url-destination.md)するか、既存の宛先を編集します。宛先を作成する際には、次の設定を使用します。
+1. In Audience Manager, [Create a [!DNL URL destination]](../../features/destinations/create-url-destination.md) or edit an existing [!DNL destination]. Use the following settings when creating the [!DNL destination]:
    * Type：URL
    * Serialize：Enabled
    * Delimiter：Semicolon（;）
 
-1. [!DNL URL] 宛先の [!UICONTROL Segment Mappings] セクションで、手順 2 のコードを [!DNL URL] および [!DNL Secure URL] フィールドに追加します。[!DNL URL] および [!DNL Secure URL] フィールドで、コードにそれぞれ `http:` と `https:` のプレフィックスを付けます。
+1. In the [!UICONTROL Segment Mappings] section of your [!DNL URL] [!DNL destination], add the code from step 2 to the [!DNL URL] and [!DNL Secure URL] fields. [!DNL URL] および [!DNL Secure URL] フィールドで、コードにそれぞれ `http:` と `https:` のプレフィックスを付けます。
 
    >[!IMPORTANT]
    >
@@ -52,13 +55,13 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
     value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
    >[!NOTE]
    >
-   >複数のセグメントを操作している場合、Google Ads の宛先にマッピングする各セグメントの新しいピクセルを取得します。これにより、データが所定のリマーケティングリストに適用されます。
+   >If you&#39;re working with multiple segments, get a new pixel for each segment you want to map to a [!DNL Google Ads] [!DNL destination]. これにより、データが所定のリマーケティングリストに適用されます。
 
-1. 新しいセグメントを Audience Manager の宛先にマッピングする際は、マッピングを `aam=segmentID` として定義し、`segmentID` をセグメントの ID に置き換えます。
+1. When mapping a new segment to this [!DNL destination] in Audience Manager, define the mapping as `aam=segmentID` and replace `segmentID` with the ID of your segment.
 1. [!DNL Google Ads] でバケットを定義する際には、手順 6 で定義したマッピングを照合するルールrを作成します。
 
 マッピングが完了すると、次のようになります。
@@ -67,8 +70,8 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 >[!MORELIKETHIS]
 >
->* [宛先](../../features/destinations/destinations.md)
->* [URL 宛先の作成](../../features/destinations/create-url-destination.md)
+>* [[!DNL宛先]](../../features/destinations/destinations.md)
+>* [[!DNL URLのリンク先]を作成する](../../features/destinations/create-url-destination.md)
 >* [AdWords リマーケティングリストについて](https://support.google.com/adwords/answer/2472738?hl=ja)
 >* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000)
 
