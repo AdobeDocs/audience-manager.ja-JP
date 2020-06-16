@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 3ca199ec386d812f53e03508353763d31badbd29
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 99%
+source-wordcount: '1735'
+ht-degree: 97%
 
 ---
 
@@ -337,9 +337,10 @@ ht-degree: 99%
    + Adobe Experience Platform との統合 {#integration-experience-platform}
       + [Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](integration/integration-aep/aam-aep-audience-sharing.md)
    + 他の Experience Cloud ソリューションとの統合 {#integration-other-solutions}
-      + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
+      + [Audience ManagerとAdobe Targetの統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics セグメントの Experience Cloud への公開](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [AdobeAnalyticsセグメントをExperience Cloudに公開する(AdobeAnalyticsのドキュメントを開く)](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Audience ManagerとAdobe Campaignの統合(Adobe Campaignドキュメントを開く)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
