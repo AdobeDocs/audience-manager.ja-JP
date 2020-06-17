@@ -4,7 +4,10 @@ seo-description: Adobe Audience Manager（AAM）では、これらの仕様に�
 seo-title: Adobe Audience Manager（AAM）でのバッチ送信データ転送
 title: バッチ送信データ転送
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 91%
 
 ---
 
@@ -16,6 +19,10 @@ Audience Manager では、これらの仕様に従って、バッチデータを
 * [送信データファイル名：構文と例](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
    送信データファイルの名前に使用される必須フィールド、構文および規則について説明します。
+
+* [バッチデータ転送統合の設定](batch-server-configuration.md)
+
+   バッチデータ転送統合を設定する方法について説明します。
 
 * [ログファイル転送のための転送制御ファイル](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
