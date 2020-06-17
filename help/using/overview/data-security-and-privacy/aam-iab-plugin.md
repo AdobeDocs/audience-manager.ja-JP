@@ -4,11 +4,11 @@ seo-description: アドビでは、オプトイン機能と IAB Transparency and
 seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: IAB TCF 用 Audience Manager プラグイン
-translation-type: ht
-source-git-commit: b5c56453a7278573dec2b80be7baa9833a847a4a
-workflow-type: ht
-source-wordcount: '2432'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+workflow-type: tm+mt
+source-wordcount: '2423'
+ht-degree: 96%
 
 ---
 
@@ -59,8 +59,8 @@ Audience Manager は、ユーザのプライバシー選択を尊重し、お客
 Audience Manager で IAB TCF 用 Audience Manager プラグインを使用するには、次の前提条件を満たす必要があります。
 
 1. Adobe Experience Platform ID サービス（ECID）バージョン 5 以降を使用している。アドビの最新 ECID リリースを[ダウンロード](https://github.com/Adobe-Marketing-Cloud/id-service/releases)してください。
-2. Audience Manager Data Integration Library（DIL）バージョン 9.0 以降を使用している（[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロード可能）。[Audience Manager ドキュメントの DIL](../..//dil/dil-overview.md) をお読みください。Audience Manager の最も簡単な DIL 実装には、[Adobe Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) を使用することをお勧めします。
-3. または、最新バージョンの AppMeasurement を使用している（サーバー側転送（SSF）を使用して Audience Manager にデータを読み込む場合）。[Analytics コードマネージャー](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/code-manager-admin.html)を使用して AppMeasurement をダウンロードしてください。
+2. You must be using Audience Manager [!DNL Data Integration Library] (DIL) version 9.0 or newer, downloadable from [here](https://github.com/Adobe-Marketing-Cloud/dil/releases). [Audience Manager ドキュメントの DIL](../..//dil/dil-overview.md) をお読みください。Audience Manager の最も簡単な DIL 実装には、[Adobe Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) を使用することをお勧めします。
+3. Alternatively, if you use [!DNL Server-Side Forwarding] (SSF) to import data into Audience Manager, you must upgrade to the latest version of AppMeasurement. [Analytics コードマネージャー](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/code-manager-admin.html)を使用して AppMeasurement をダウンロードしてください。
 4. IAB TCF v2.0 と統合された市販または独自の同意管理プラットフォーム（CMP）を使用し、IAB TCF に登録している。[IAB フレームワーク内の登録 CMP](https://iabeurope.eu/cmp-list/) のリストを参照してください。
 
 >[!WARNING]
@@ -71,7 +71,7 @@ Audience Manager で IAB TCF 用 Audience Manager プラグインを使用する
 
 Audience Manager で IAB TCF サポートを有効にするには、[IAB をオプトインで設定する方法](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/iab.html)に関するドキュメントをお読みください。
 
-これをおこなう最も簡単な方法は、[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) を使用して、プロパティに ECID オプトインを追加することです。Launch 拡張機能のセットアップ方法については、[ECID オプトイン拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)をお読みください。
+The easiest way you can do this is by using [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) to add [!DNL ECID Opt-in] on your properties. Launch 拡張機能のセットアップ方法については、[ECID オプトイン拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)をお読みください。
 
 ## IAB フレームワークを使用する場合のユーザー選択ワークフロー {#user-choice-workflow}
 
@@ -171,7 +171,7 @@ IAB TCF 用 Audience Manager プラグインを使用すると、ユーザーの
 
 IAB TCF v2.0 との Audience Manager 統合では、[URL 宛先](../../features/destinations/create-url-destination.md)に送信される情報に同意を付加し、IAB TCF v2.0 と統合できます。ただし、特定の URL 形式が破損するのを回避するため、Audience Manager はこの処理を自動的に実行しません。
 
-URL の宛先に送信するデータに同意を追加する場合は、URL 形式に `${GDPR}` マクロと `${GDPR_CONSENT_XXXX}` マクロを手動で追加し、`XXXX` を宛先パートナー ID に置き換える必要があります。
+Customers who wish to append consent to data sent to [!DNL URL destinations] must manually add the `${GDPR}` and `${GDPR_CONSENT_XXXX}` macros to their URL format, replacing `XXXX` with the destination partner ID.
 
 例：`http://yourdomain.com?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_1234}`。
 
