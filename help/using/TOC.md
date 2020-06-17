@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3ca199ec386d812f53e03508353763d31badbd29
+source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1740'
 ht-degree: 97%
 
 ---
@@ -311,6 +311,7 @@ ht-degree: 97%
          + [リアルタイムのアウトバウンド転送での OAuth 2.0 統合](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + バッチ送信データ転送 {#batch-outbound-data-transfers}
          + [バッチ送信データ転送の概要](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
+         + [バッチデータ転送統合の設定](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
          + [送信データファイル名：構文と例](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [ログファイル転送のための転送制御ファイル](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [送信テンプレートマクロ](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
