@@ -5,8 +5,11 @@ seo-title: データ処理のコンポーネント
 solution: Audience Manager
 title: データ処理のコンポーネント
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
-translation-type: ht
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+translation-type: tm+mt
+source-git-commit: 9a92420b1f0116c0fd71db56895720e0ee894f30
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +28,7 @@ Audience Manager は、データ処理に以下のコンポーネントを使用
 
 ## Hadoop {#hadoop}
 
-[!DNL Audience Manager] において、Hadoop は [!DNL Audience Manager] がユーザーに関して把握しているすべての情報が格納されるマスターデータベースとなります。例えば、[プロファイルキャッシュサーバー](../../reference/system-components/components-data-collection.md)がユーザーに関するデータが書き込まれたログファイルを作成した場合、そのデータは Hadoop に送信され、そこに保存されます。これ以外の重要な Hadoop の構成要素として、次のようなものがあります。
+In [!DNL Audience Manager], Hadoop is the main database that contains everything [!DNL Audience Manager] knows about a user. 例えば、[プロファイルキャッシュサーバー](../../reference/system-components/components-data-collection.md)がユーザーに関するデータが書き込まれたログファイルを作成した場合、そのデータは Hadoop に送信され、そこに保存されます。これ以外の重要な Hadoop の構成要素として、次のようなものがあります。
 
 * **Hive：** Hadoop のデータウェアハウス。Hive は、Hadoop に保存されたデータに対するアドホックのクエリを管理します。
 
