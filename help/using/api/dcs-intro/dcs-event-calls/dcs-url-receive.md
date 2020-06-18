@@ -5,21 +5,24 @@ seo-title: DCS からのデータ受信
 solution: Audience Manager
 title: DCS からのデータ受信
 uuid: fbb77197-8530-48a8-b708-d785f7214494
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
 
 # DCS からのデータ受信 {#receive-data-from-the-dcs}
 
-[!UICONTROL DCS] 呼び出しで `/event` 応答を要求する方法については、こちらを参照してください。この節では、応答の例と、応答でよく使用されるデータ要素の定義を示します。
+[!DNL DCS] 呼び出しで `/event` 応答を要求する方法については、こちらを参照してください。この節では、応答の例と、応答でよく使用されるデータ要素の定義を示します。
 
 このコンテンツを確認する前に、[DCS へのデータ送信](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)を参照してください。
 
 ## DCS 応答パラメーター：復習 {#dcs-response-parameters}
 
-[!UICONTROL DCS] からの応答を受信する場合は、`d_rtbd=json` 要求に [!UICONTROL DCS] を含める必要があります。このパラメーターを省略した場合、[!UICONTROL DCS] はデータを返しません。データを要求する場合の [!UICONTROL DCS] への基本的な呼び出しでは、次の構文を使用します。
+[!DNL DCS] からの応答を受信する場合は、`d_rtbd=json` 要求に [!DNL DCS] を含める必要があります。このパラメーターを省略した場合、[!DNL DCS] はデータを返しません。データを要求する場合の [!DNL DCS] への基本的な呼び出しでは、次の構文を使用します。
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -31,7 +34,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
-この呼び出しには必要な応答パラメーターが含まれているので、[!UICONTROL DCS] は以下のような [!DNL JSON] オブジェクトを送り返します。実際の応答は、これと同様の場合もあれば、もっと複雑な場合もあります。
+この呼び出しには必要な応答パラメーターが含まれているので、[!DNL DCS] は以下のような [!DNL JSON] オブジェクトを送り返します。実際の応答は、これと同様の場合もあれば、もっと複雑な場合もあります。
 
 ```js
 {
@@ -44,13 +47,13 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 ## 応答パラメーター {#response-parameters}
 
-[!UICONTROL DCS] からの応答でよく見かけるパラメーターを、それぞれ次の表で定義します。これは、イベント呼び出しや、データを返すその他の [!UICONTROL DCS][!DNL API] クエリに当てはまります。
+[!DNL DCS] からの応答でよく見かけるパラメーターを、それぞれ次の表で定義します。これは、イベント呼び出しや、データを返すその他の [!DNL DCS][!DNL API] クエリに当てはまります。
 
 | パラメーター | 説明 |
 |--- |--- |
 | `c` | [URL の宛先](../../../features/destinations/create-url-destination.md)として設定された URL です。 |
 | `cn` | [Cookie の宛先](../../../features/destinations/create-cookie-destination.md)の Cookie 名フィールドに設定された名前または ID です。 |
-| `cv` | "cn":"destinaton name" パラメーターで定義された宛先に送信された値です。 |
+| `cv` | &quot;cn&quot;:&quot;destinaton name&quot; パラメーターで定義された宛先に送信された値です。 |
 | `dcs_region` | [サーバー間 DCS 呼び出し](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)。 |
 | `dests` | このオブジェクトには、UI で設定されるすべての URL 宛先の情報が含まれています。このオブジェクトの値（リスト）は、ユーザーのアクションに応じて動的に変わります。 |
 | `dmn` | Cookie の宛先の「Cookie Domain」フィールドに指定されたドメインです。[Cookie の宛先のオプション設定](../../../features/destinations/cookie-destination-options.md)を参照してください。サーバー間統合の場合は、`aam-api.com` などのドメインを使用することをお勧めします。 |
