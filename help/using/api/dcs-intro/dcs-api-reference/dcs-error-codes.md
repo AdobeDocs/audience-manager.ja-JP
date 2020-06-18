@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 81%
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 # DCS エラーコード、メッセージ、例 {#dcs-error-codes-messages-and-examples}
 
-[!UICONTROL Data Collection Servers]（[!UICONTROL DCS]）で生成されるエラーコードおよびメッセージをコード ID 順に説明します。
+[!UICONTROL Data Collection Servers]（[!DNL DCS]）で生成されるエラーコードおよびメッセージをコード ID 順に説明します。
 
 以下の表で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
@@ -255,18 +255,18 @@ ht-degree: 81%
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>CMP IDがGCLに存在しません</p> </td> 
-   <td colname="col3"> <p>評価時にManager <code>gdpr=1</code> のGlobal CMPリストのキャッシュバージョンに存在しないCMP IDによってIAB TC文字列とが生成された場合、IAB TCF用オーディエンス管理プラグインはIAB TC文字列を破棄し、通常どおりにリクエストを処理します。 IAB TCF v2.0 ${GDPR}マクロが0に設定され、${GDPR_CONSENT_XXX}マクロが空です。</p>
+   <td colname="col3"> <p>評価時 <code>gdpr=1</code> に、Audience ManagerのGlobal CMPリストのキャッシュバージョンに存在しないCMP IDによってIAB TC文字列とが生成された場合、IAB TCF用Audience ManagerプラグインはIAB TC文字列を破棄し、通常どおり要求を処理します。 IAB TCF v2.0 ${GDPR}マクロが0に設定され、${GDPR_CONSENT_XXX}マクロが空です。</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>CMP IDはGCLで削除済みとマークされています</p> </td> 
-   <td colname="col3"> <p>Global CMPリスト <code>gdpr=1</code> のキャッシュバージョンで削除とマークされたCMPによってIAB TC文字列とIAB TC文字列が生成された場合、Global CMPリストからのオーディエンス時間を超えると、IAB TCF用評価マネージャプラグインはTC文字列を破棄し、通常どおりに要求を処理します。 IAB TCF v2.0 ${GDPR}マクロが0に設定され、${GDPR_CONSENT_XXX}マクロが空です。</p></td>
+   <td colname="col3"> <p>IAB TCF <code>gdpr=1</code> 用Audience Managerプラグインは、Global CMPリストのキャッシュバージョンで削除とマークされたCMPによってIAB TC文字列とIAB TC文字列を生成すると、TC文字列を破棄し、評価時間がGlobal CMPリストからの削除時間を超える場合は、通常どおりに処理します。 IAB TCF v2.0 ${GDPR}マクロが0に設定され、${GDPR_CONSENT_XXX}マクロが空です。</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 
    <td colname="col2"> <p>同意文字列が同意なしを示す</p> </td> 
-   <td colname="col3"> <p>同意がない場合、IAB TCF用オーディエンスマネージャプラグインは、ユーザーに対してそれ以上のデータ収集をオプトアウトするか、パートナーコンテキストが検出されない場合は呼び出しを完全にドロップします。</p>
+   <td colname="col3"> <p>同意がない場合、IAB TCFのAudience Managerプラグインは、ユーザーに対してそれ以上のデータ収集をオプトするか、パートナーコンテキストが検出されない場合は呼び出しを完全にドロップします。</p>
    </td>
   </tr>
 
@@ -275,7 +275,7 @@ ht-degree: 81%
 
 ## サンプルエラーコードメッセージ {#sample-error-codes}
 
-[!UICONTROL DCS] では、エラーコードおよびメッセージを HTTP 応答文字列の [!DNL JSON] オブジェクトまたは X ヘッダーで返します。
+[!DNL DCS] では、エラーコードおよびメッセージを HTTP 応答文字列の [!DNL JSON] オブジェクトまたは X ヘッダーで返します。
 
 ### サンプル DCS エラーコードおよびメッセージ
 
