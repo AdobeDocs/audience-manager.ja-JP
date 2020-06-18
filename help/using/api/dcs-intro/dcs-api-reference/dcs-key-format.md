@@ -5,15 +5,18 @@ seo-title: DCS 呼び出しでのキーと値のペアの形式
 solution: Audience Manager
 title: DCS 呼び出しでのキーと値のペアの形式
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 100%
 
 ---
 
 
 # DCS 呼び出しでのキーと値のペアの形式 {#formatting-key-value-pairs-in-dcs-calls}
 
-呼び出しをおこなう場合、[!UICONTROL DCS] では標準形式またはシリアル化された形式のキーと値のペアのデータを受信します。この節では、標準のキーと値のペアのデータとシリアル化されたキーと値のペアのデータの形式について説明します。
+呼び出しをおこなう場合、[!DNL DCS] では標準形式またはシリアル化された形式のキーと値のペアのデータを受信します。この節では、標準のキーと値のペアのデータとシリアル化されたキーと値のペアのデータの形式について説明します。
 
 ## 標準およびシリアル化されたキーと値のペア {#standard-serialized}
 
