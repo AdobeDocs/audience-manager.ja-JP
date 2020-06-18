@@ -6,14 +6,17 @@ solution: Audience Manager
 title: DCS 地域 API メソッド
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
 
 # DCS 地域 API メソッド {#dcs-region-api-methods}
 
-Audience Manager の [!UICONTROL DCS] 地域のリストをブログラムで取得するためのメソッド。
+Audience Manager の [!DNL DCS] 地域のリストをブログラムで取得するためのメソッド。
 
 <!-- c_rest_api_regions.xml -->
 
@@ -21,7 +24,7 @@ Audience Manager の [!UICONTROL DCS] 地域のリストをブログラムで取
 
 ## 特定の DCS 地域のリスト {#list-specific-dcs-region}
 
-特定の [!UICONTROL DCS] 地域のリストを返す `GET` メソッド。
+特定の [!DNL DCS] 地域のリストを返す `GET` メソッド。
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -51,7 +54,7 @@ Audience Manager の [!UICONTROL DCS] 地域のリストをブログラムで取
 
 ## DCS 地域のリスト {#list-dcs-regions}
 
-[!UICONTROL DCS] 地域のリストを返す `GET` メソッド。
+[!DNL DCS] 地域のリストを返す `GET` メソッド。
 
 <!-- r_rest_api_regions_list.xml -->
 
