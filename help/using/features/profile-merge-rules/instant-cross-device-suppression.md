@@ -4,8 +4,11 @@ seo-description: Instant Cross-Device Suppression は、接続した複数のデ
 seo-title: Instant Cross-Device Suppression
 title: Instant Cross-Device Suppression
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-translation-type: ht
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 リアルタイムのセグメント化解除の技術的な詳細については、[プロファイル結合ルールとデバイスセグメント化解除プロセス](merge-rule-unsegment.md)で説明しています。上記ユースケースの実用的な実装についても説明しています。
 
-## コンバージョン後はターゲティングしない{#do-not-target-once}
+## コンバージョン後はターゲティングしない {#do-not-target-once}
 
 コンバージョンに達した（製品を購入した、サブスクリプションを取得したなど）ユーザーには、コンバージョン前と同じメッセージは表示されしません。次のように、[!UICONTROL AND NOT] ロジックを使用してこれを実現できます。
 
@@ -34,7 +37,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ![](assets/and_not_use_case.png)
 
-## インプレッション発生後はターゲティングしない{#do-not-target-after-x}
+## インプレッション発生後はターゲティングしない {#do-not-target-after-x}
 
 最新性と頻度のコントロールを設定することで、ユーザーに同じクリエイティブが大量に表示されるのを避けることができます。このシナリオでは、2 つの特性を使用するセグメントを作成します。その概要を次の手順で説明します。
 
@@ -49,7 +52,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ![](assets/impressions_use_case.png)
 
-## 留意すべき重要な側面 - 処理{#processing-notes}
+## 留意すべき重要な側面 - 処理 {#processing-notes}
 
 処理に関しては、次の側面に留意してください。
 
@@ -64,4 +67,4 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 時間設定に関しては、次の側面に留意してください。
 
 * セグメントは[エッジ](../../reference/system-components/components-edge.md)に格納されます。その期間は、デバイスプロファイルが[!UICONTROL Edge]に格納されるのと同じ期間、つまり、リアルタイムのインタラクションが最後に発生してから 14 日間です。データ保持について詳しくは、[データ保持に関する FAQ](../../faq/faq-privacy.md#data-retention-faq) を参照してください。
-* セグメント化解除操作が [!UICONTROL DCS] 地域全体に伝達されるまでに、およそ 24 時間かかります。[!UICONTROL DCS] 地域の詳細については、[こちら](../..//reference/system-components/components-data-collection.md)と[こちら](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
+* セグメント化解除操作が [!DNL DCS] 地域全体に伝達されるまでに、およそ 24 時間かかります。[!DNL DCS] 地域の詳細については、[こちら](../..//reference/system-components/components-data-collection.md)と[こちら](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
