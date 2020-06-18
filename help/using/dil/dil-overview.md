@@ -6,26 +6,26 @@ keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, 
 solution: Audience Manager
 title: データ統合ライブラリ（DIL）について
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 79%
 
 ---
 
 
-# データ統合ライブラリ（DIL）について {#understanding-the-data-integration-library-dil}
+# ( [!DNL Data Integration Library] DIL)について{#understanding-the-data-integration-library-dil}
 
-Audience Manager DIL コードライブラリの概要、導入方法、使用可能なコードメソッドについて説明します。
+Overview, getting started, and code methods available in the [!DNL Audience Manager DIL] code library.
 
 >[!IMPORTANT]
 >
->バージョン 8.0（2018 年 8 月にリリース）より、[!UICONTROL DIL] は、[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)のバージョン 3.3 以降に強く依存しています。ID サービスを利用して、ID 同期や URL 宛先を有効にします。ID サービスが見つからない、古い、または設定されていない場合は、エラーが発生しまます。
+>バージョン 8.0（2018 年 8 月にリリース）より、[!UICONTROL DIL] は、[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)のバージョン 3.3 以降に強く依存しています。It relies on the [!DNL ID Service] to fire ID syncs and URL destinations. An error occurs if the [!DNL ID Service] is missing, old, or not configured.
 >
->Adobe Experience Platform Launch を使用して DIL ライブラリと Adobe Experience Platform ID サービスライブラリを実装および管理することをお勧めします。
+>およびライブラリ [!DNL Adobe Experience Platform Launch] の実装と管理には、を使用す [!DNL DIL][!DNL Adobe Experience Platform Identity Service] ることをお勧めします。
 
-ただし、アドビの GitHub ページから Experience Cloud および DIL の最新リリースをダウンロードすることもできます。以下のダウンロードリンクを参照してください。
+However, you can also download the latest Experience Cloud and [!DNL DIL] releases from our GitHub page. 以下のダウンロードリンクを参照してください。
 
 * [Adobe Experience Platform ID サービス](https://github.com/Adobe-Marketing-Cloud/id-service/releases)のダウンロード
 * [DIL のダウンロード](https://github.com/Adobe-Marketing-Cloud/dil/releases)
@@ -39,11 +39,11 @@ Audience Manager DIL コードライブラリの概要、導入方法、使用�
 
 ## DIL コードの取得と実装 {#get-implement-dil-code}
 
-[!UICONTROL DIL] コードは&#x200B;**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)** でダウンロードできます。バージョン 8.0（2018 年 8 月にリリース）より、[!UICONTROL DIL]は、[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)のバージョン 3.3 以降に強く依存していることに注意してください。ID サービスを利用して、ID 同期や URL 宛先を有効にします。ID サービスが見つからない、古い、または設定されていない場合は、エラーが発生しまます。
+[!UICONTROL DIL] コードは&#x200B;**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)** でダウンロードできます。バージョン 8.0（2018 年 8 月にリリース）より、[!UICONTROL DIL]は、[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)のバージョン 3.3 以降に強く依存していることに注意してください。ID同期の実行は、ID同期[!DNL ID Service]とID同期の実行に依存し[!DNL URL destinations]ます。 An error occurs if the[!DNL ID Service]is missing, old, or not configured.
 
-[!UICONTROL DIL] を操作して [!DNL Audience Manager] を手動でセットアップするのではなく、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) を使用することをお勧めします。[!DNL Adobe Experience Platform Launch] を使用するとコードのデプロイメント、配置、バージョン管理が簡単になるので、実装ツールとして導入することをお勧めします。[Audience Manager 拡張機能](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension)について詳しくは、Adobe Experience Platform Launch を参照してください。
+[!UICONTROL DIL] を操作して [!DNL Audience Manager] を手動でセットアップするのではなく、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) を使用することをお勧めします。[!DNL Adobe Experience Platform Launch] を使用するとコードのデプロイメント、配置、バージョン管理が簡単になるので、実装ツールとして導入することをお勧めします。Read more about the [Audience Manager extension](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) in [!DNL Adobe Experience Platform Launch].
 
-Adobe Experience Platform Launch は [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/ja-JP/dtm/using/c-overview.html)（[!DNL DTM]）の後継ツールです。
+[!DNL Adobe Experience Platform Launch] は、 [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/ja-JP/dtm/using/c-overview.html) ([!DNL DTM])の後継です。
 
 ## サンプル呼び出し {#sample-code}
 
