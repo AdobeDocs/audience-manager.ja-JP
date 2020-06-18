@@ -6,8 +6,11 @@ solution: Audience Manager
 title: データフィードのサブスクリプションの管理
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
-translation-type: ht
-source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 100%
 
 ---
 
@@ -94,7 +97,7 @@ source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 [!UICONTROL Audience Marketplace] では、プロバイダーは、[!DNL CPM] または定額料金データフィードの公表価格の割引を購入者に提案できます。ただし、[!DNL Marketplace] のフィードリストでは、割引額は購入者に表示されません。しかし、非公開データフィードを購読する際、または特定のフィードに関する詳細情報をリクエストする際に、割引を求めることもできます。
 
-## 割引のリクエスト{#request-discount}
+## 割引のリクエスト {#request-discount}
 
 <!-- marketplace-buyer-discounts.xml -->
 
@@ -241,7 +244,7 @@ source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
  </tbody> 
 </table>
 
-## 非アクティブ化された特性を削除{#remove-deactivated-traits}
+## 非アクティブ化された特性を削除 {#remove-deactivated-traits}
 
 データ購入者は、キャンセルされたフィード内の特性を、アクティブ／使用中のセグメント、非アクティブなセグメントを問わず、すべてのセグメントから削除する必要があります。削除については次のオプションがあります。
 
@@ -291,7 +294,7 @@ source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 [!UICONTROL Audience Marketplace] のデータ購入者は、重複、モデリングおよびアクティブ化のユースケースに関するデータを購入します。各ユースケースは、特定の購入用に設計され、データを使用してできることを制限します。これらのユースケースの説明は、購入するデータプランのタイプについて適切な判断を下すうえで役に立ちます。
 
-## セグメントおよび重複プランとの比較{#comparisons}
+## セグメントおよび重複プランとの比較 {#comparisons}
 
 <!-- c_use_cases_for_buyers.xml -->
 
@@ -308,7 +311,7 @@ source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 ### Activation
 
-このユースケースでは、[宛先](../../../features/destinations/destinations.md)にデータを送信できます。[!UICONTROL Audience Manager] において、宛先とは、データを共有したいサードパーティシステム（広告サーバー、[!DNL DSP]、[!DNL DMP]、exchange など）のになります。ただし、[!UICONTROL Activation] ユースケースでは、重複レポートを実行したり、データをアルゴリズムモデルでテストしたりすることはできません。
+このユースケースでは、[宛先](../../../features/destinations/destinations.md)にデータを送信できます。[!DNL Audience Manager] において、宛先とは、データを共有したいサードパーティシステム（広告サーバー、[!DNL DSP]、[!DNL DMP]、exchange など）のになります。ただし、[!UICONTROL Activation] ユースケースでは、重複レポートを実行したり、データをアルゴリズムモデルでテストしたりすることはできません。
 
 >[!MORELIKETHIS]
 >
