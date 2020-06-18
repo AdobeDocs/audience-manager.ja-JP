@@ -6,18 +6,18 @@ seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-translation-type: ht
-source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 89%
 
 ---
 
 
 # 一括管理の概要 {#getting-started-with-bulk-management}
 
-一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、モデル、セグメントおよび特性を処理できます。
+The [!DNL Bulk Management Tools] let you create and manage multiple objects at once with a single operation. を使用 [!DNL Bulk Management Tools] して、、、、、 [!UICONTROL data sources]、、、、 [!UICONTROL derived signals]、、、、 [!UICONTROL destinations][!UICONTROL folders][!UICONTROL models][!UICONTROL segments][!UICONTROL traits]、および、を操作できます。
 
 <!-- 
 
@@ -27,11 +27,11 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[!DNL Audience Manager] UI で割り当てられる [RBAC グループ権限](../../features/administration/administration-overview.md)は、[!UICONTROL Bulk Management Tools] に対しても適用されます。
+>[ユーザーインターフェイスで割り当てられたRBACグループ権限](../../features/administration/administration-overview.md)[!DNL Audience Manager] は、で使用され [!UICONTROL Bulk Management Tools]ます。
 
 ## 概要 {#overview}
 
-この機能では、Microsoft Excel スプレッドシートのマクロを使用して、[!DNL Audience Manager] API の認証済みの安全な呼び出しをおこないます。API には、一括変更をおこなうためのメソッドおよびサービスが用意されています。これを使用するにあたって、コーディングや API の使用方法についての知識は必要ありません。ワークシートには特定の一括変更関数を実行するための列見出しとタブがあります。一括変更を実行するには単に、事前定義済みのヘッダーを特定のワークシートに追加し、一括変更する情報を指定し、アクションボタンをクリックします。後はワークシートと API が処理してくれます。
+This feature uses a [!DNL Microsoft Excel] spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. API には、一括変更をおこなうためのメソッドおよびサービスが用意されています。これを使用するにあたって、コーディングや API の使用方法についての知識は必要ありません。ワークシートには特定の一括変更関数を実行するための列見出しとタブがあります。一括変更を実行するには単に、事前定義済みのヘッダーを特定のワークシートに追加し、一括変更する情報を指定し、アクションボタンをクリックします。後はワークシートと API が処理してくれます。
 
 ## ダウンロード {#download}
 
@@ -43,7 +43,7 @@ c_bulk_start.xml
 
 * [!DNL Experience Cloud] へのログイン。お客様が既にお持ちの資格情報です。
 * [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20200502.xlsm)してください。
-* [!DNL macOS] または 64 ビット版 [!DNL Microsoft Windows] で実行している Microsoft Excel。最新バージョンの Microsoft Excel を使用することをお勧めします。
+* [!DNL Microsoft Excel] 64ビットまた [!DNL macOS] は64ビットで実行されてい [!DNL Microsoft Windows]る。 We recommend you use the latest version of [!DNL Microsoft Excel].
 * ワークシートを開く場合は、[!DNL Bulk Management Tools] で&#x200B;**マクロを有効にする**&#x200B;必要があります。
 
 ## 認証の要件およびオプション {#auth-reqs}
@@ -52,9 +52,9 @@ c_bulk_start.xml
 
 **API 認証の要件**
 
-2019 年 10 月にリリースされた一括管理ツールの 2 つ目のバージョンは、認証プロセスを簡素化します。このバージョンの認証手順を以下に示します。
+The second version of the [!DNL Bulk Management Tools], released in October 2019, simplifies the authentication process. このバージョンの認証手順を以下に示します。
 
-1. スプレッドシートを開き、**Config** シートに移動します。
+1. スプレッドシートを開き、**[!UICONTROL Config]** シートに移動します。
 2. シートに示されている手順に従います。
    ![](assets/baaam-authentication.png)
 3. 手順が完了すると、一括変更をおこなう権限が与えられます。
