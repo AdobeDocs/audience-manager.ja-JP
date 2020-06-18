@@ -6,7 +6,10 @@ solution: Audience Manager
 title: レポートに関するよくある質問
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 100%
 
 ---
 
@@ -80,7 +83,7 @@ faq_reports.xml
 
 **ファイルを受信し、受信レシートには正常に処理されたレコードの数が多いことが示されていますが、レポートでは少ない数が示されています。なぜでしょうか？**
 
-バックエンドで、転送されたデータは AAM でアクティブなユーザー（ユーザーは過去 120 日以内に [!UICONTROL DCS] アクティビティをおこなっている）に対してのみ添付されます。そのため、[!DNL Audience Manager] で期限切れになっているユーザーのデータを転送すると、[!UICONTROL Inbound]レシートから一定数のユーザーレコードが転送されたことが通知される場合がありますが、これらのユーザーに最近のアクティビティがない場合、このデータは[!UICONTROL User Profile Store]に到達した時点で破棄されます。
+バックエンドで、転送されたデータは AAM でアクティブなユーザー（ユーザーは過去 120 日以内に [!DNL DCS] アクティビティをおこなっている）に対してのみ添付されます。そのため、[!DNL Audience Manager] で期限切れになっているユーザーのデータを転送すると、[!UICONTROL Inbound]レシートから一定数のユーザーレコードが転送されたことが通知される場合がありますが、これらのユーザーに最近のアクティビティがない場合、このデータは[!UICONTROL User Profile Store]に到達した時点で破棄されます。
 
 <br> 
 
