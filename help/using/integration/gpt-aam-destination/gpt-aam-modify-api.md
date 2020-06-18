@@ -5,8 +5,11 @@ seo-title: GPT setTargeting API 呼び出しの変更
 solution: Audience Manager
 title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### `IF` 文コードの例
 
-この例では、Audience Manager の宛先 Cookie の名前は `Sample` です。この名前は、Audience Manager UI で宛先 Cookie を作成する際に設定します。[!UICONTROL DIL] は `aam_uuid` Cookie を設定します。この名前は変更できません。
+この例では、Audience Manager の宛先 Cookie の名前は `Sample` です。この名前は、Audience Managerユーザーインターフェイスで宛先cookieを作成するときに設定します。 [!UICONTROL DIL] は `aam_uuid` Cookie を設定します。この名前は変更できません。
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
