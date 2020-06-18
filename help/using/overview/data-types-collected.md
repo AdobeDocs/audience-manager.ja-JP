@@ -5,17 +5,20 @@ seo-title: 収集されるデータのタイプ
 solution: Audience Manager
 title: 収集されるデータのタイプ
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
-translation-type: ht
-source-git-commit: 708c998fbe1cbd3e9acb51e31ee1c89e2f06d28d
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '871'
+ht-degree: 78%
 
 ---
 
 
 # 収集されるデータのタイプ {#types-of-data-collected}
 
-Audience Manager はファーストパーティ、セカンドパーティ、サードパーティのデータの収集および管理をサポートします。
+[!DNL Audience Manager] はファーストパーティ、セカンドパーティ、サードパーティのデータの収集および管理をサポートします。
 
-複数のサイロに格納された顧客情報アセットを解放することは、今日、企業が直面しているデータに関する最大の課題の 1 つです。CRM データベースから、登録システムや広告サーバーなどまで、企業は、貴重なデータを一元化し、顧客／オーディエンス情報を単一の戦略的データアセットとして管理するのに役立つツールを必要としています。Audience Manager は、孤立した顧客情報を解放し、複数のソースからのデータ収集を管理するのに役立ちます。収集されたデータは、データ要素の有効期限（TTL）値に基づいて管理できます。これは、パブリッシャーがすべてのソースのデータの有効期限を制御するのに役立ちます。Audience Manager は、以下のデータタイプの管理を支援するように設計されています。
+複数のサイロに格納された顧客情報アセットを解放することは、今日、企業が直面しているデータに関する最大の課題の 1 つです。From [!DNL CRM] databases, to registration systems, to ad servers, and so forth, companies require tools that help centralize valuable data and manage customer/audience information as a single strategic data asset. [!DNL Audience Manager] は、孤立した顧客情報を解放し、複数のソースからのデータ収集を管理するのに役立ちます。Collected data can be managed based on data element time-to-live ([!DNL TTL]) values, which helps the publisher control data expiration across all sources. [!DNL Audience Manager] は、以下のデータタイプの管理を支援するように設計されています。
 
 | データタイプ | データの発生源 |
 |---|---|
@@ -25,7 +28,7 @@ Audience Manager はファーストパーティ、セカンドパーティ、サ
 
 ## ファーストパーティデータ収集 {#first-party-data}
 
-ファーストパーティデータの収集は Audience Manager のメインとなる機能です。コアとなるこの機能は、マーケティングプログラムの土台とするために、または他のデータソースに対してターゲティングもしくはモデリングをおこなうために独自データを使用するお客様（パブリッシャーや広告主）のニーズに応えるものです。
+First-party data collection is a main [!DNL Audience Manager] feature. コアとなるこの機能は、マーケティングプログラムの土台とするために、または他のデータソースに対してターゲティングもしくはモデリングをおこなうために独自データを使用するお客様（パブリッシャーや広告主）のニーズに応えるものです。
 
 <!-- 
 
@@ -33,7 +36,7 @@ c_1st_party_data.xml
 
  -->
 
-Audience Manager では、クライアントと協力しながらデータ戦略を把握したうえで、その戦略を独自のデータ収集プランに取り込みます。弊社のパートナーソリューションチームはお客様と連携して、サイトや生データのシグナルなどの Web サイト上のユーザーインタラクションを評価します。アドビはこの情報を基に、インベントリの様々なページからユーザーレベルのデータシグナルを取得するための、お客様専用のデータ収集戦略を作成するお手伝いをします。収集されたデータは保存され、定義済みの分類に再マッピングされます。これらはビジネス上のニーズの変化に応じていつでも更新できます。
+[!DNL Audience Manager] では、クライアントと協力しながらデータ戦略を把握したうえで、その戦略を独自のデータ収集プランに取り込みます。弊社のパートナーソリューションチームはお客様と連携して、サイトや生データのシグナルなどの Web サイト上のユーザーインタラクションを評価します。アドビはこの情報を基に、インベントリの様々なページからユーザーレベルのデータシグナルを取得するための、お客様専用のデータ収集戦略を作成するお手伝いをします。収集されたデータは保存され、定義済みの分類に再マッピングされます。これらはビジネス上のニーズの変化に応じていつでも更新できます。
 
 次の例では、サンプルのショッピングページからどのようなデータ要素を取得できるかを示します。
 
@@ -44,11 +47,11 @@ Audience Manager では、クライアントと協力しながらデータ戦略
 | 1 | **性別**。買い物客の性別は、通常、名を見ればわかります。この例では、買い物客の名は Mary なので、女性であることがわかります。名前は Audience Manager には保存されません。 |
 | 2 | **関心**。買い物かごの品目は、様々な関心を示す場合があります。例では、Mary はフィットネス機器を多く購入しています。 |
 | 3 | **住居のタイプ**。配送先や請求先の住所に基づいて、Mary がフィットネス機器を自分用と会社用のどちらで購入したかを推測できます。 |
-| 4 | **場所**.場所を特定する際は、IP アドレスよりも郵便番号を使用すると信頼性が高くなります。 |
+| 4 | **場所**.[!DNL ZIP] コードは、場所を特定する際に、IPアドレスよりも信頼性が高くなります。 |
 | 5 | **プロモーションの親和性**。プロモーションコードやギフトカードを使用する買い物客はおそらく、最安値を探すバーゲンのプロです。 |
-| 6 | **購買力**。郵便番号と相関する価格データは、特定の場所の購買力を示します。 |
+| 6 | **購買力**。Price data correlated with [!DNL ZIP+4] codes indicate spending power of a given location. |
 
-生データの収集後、それらは Audience Manager プラットフォーム内で顧客定義の特性に再マッピングされます。分類もデータマッピングも、データ収集コードを変更することなく、いつでも調整できます。
+After the raw data is collected, it gets mapped back to customer-defined traits within the [!DNL Audience Manager] platform. 分類もデータマッピングも、データ収集コードを変更することなく、いつでも調整できます。
 
 ## セカンドパーティデータ収集 {#second-party-data}
 
@@ -60,9 +63,9 @@ c_2nd_party_data.xml
 
  -->
 
-セカンドパーティデータのシナリオでは、広告主が自身のデータアセットをパブリッシャーに送信し、その情報をパブリッシャーのデータと組み合わせてよりターゲティングされた広告プログラムを展開します。さらに、パブリッシャーは他の広告主と連携することで、オーディエンスプールを拡大することができます。ほとんどの場合、これらの調整においては契約上、Audience Manager のコンテナタグをパートナーサイトに配置して、データの収集および共有を円滑にすることのみに制限されます。
+セカンドパーティデータのシナリオでは、広告主が自身のデータアセットをパブリッシャーに送信し、その情報をパブリッシャーのデータと組み合わせてよりターゲティングされた広告プログラムを展開します。さらに、パブリッシャーは他の広告主と連携することで、オーディエンスプールを拡大することができます。In most cases, these arrangements involve contractual relationships limited to putting the [!DNL Audience Manager] container tag on the partner site to facilitate data collection and sharing.
 
-セカンドパーティデータの収集およびリマーケティングの例としては、ある衣料販売店が製品に関するデータを収集し、これらの情報を主要なパートナーと共有するようなケースが挙げられます。この場合、様々なジャケットの色とサイズを選択した消費者向けに、Audience Manager パートナーサイトをまたいで異なる広告を提供できます。
+セカンドパーティデータの収集およびリマーケティングの例としては、ある衣料販売店が製品に関するデータを収集し、これらの情報を主要なパートナーと共有するようなケースが挙げられます。In this case, the retailed could serve different ads across an [!DNL Audience Manager] partner site for consumers who chose various jacket colors and sizes.
 
 ![](assets/shopping-cart-traits.png)
 
@@ -76,13 +79,13 @@ c_3rd_party_data.xml
 
  -->
 
-サードパーティデータは、既存のデータセグメント（年齢、世帯収入など）へ適合させたり、これ以外の方法で取得できない必要なデータを入手したり、ファーストパーティおよびセカンドパーティの既知のユーザーベースに対して類似モデリングをおこなうのに使用されます。Audience Manager は様々なサードパーティデータプロバイダーと連携しています。アドビは、お客様がこれらのデータプロバイダーが収集するデータのタイプを理解し、個々のプロバイダーに応じて適切な戦略取引を構築するお手伝いをします。
+サードパーティデータは、既存のデータセグメント（年齢、世帯収入など）へ適合させたり、これ以外の方法で取得できない必要なデータを入手したり、ファーストパーティおよびセカンドパーティの既知のユーザーベースに対して類似モデリングをおこなうのに使用されます。[!DNL Audience Manager] は様々なサードパーティデータプロバイダーと連携しています。アドビは、お客様がこれらのデータプロバイダーが収集するデータのタイプを理解し、個々のプロバイダーに応じて適切な戦略取引を構築するお手伝いをします。
 
 >[!NOTE]
 >
 >[!DNL Audience Manager] でサポートされるサードパーティデータプロバイダーの完全なリストについては、[Adobe Audience Finder](https://www.adobe-audience-finder.com/)/を参照してください。
 
-Audience Manager は、利用可能な API およびデータセットによっては、他のデータプロバイダーとも連携します。データ収集は、ユーザーがサイトを表示したときにリアルタイムでおこなわれるか、またはユーザーがサイトを退出後、パートナー間で ID 同期がおこなわれ、サーバー間データ転送がおこなわれるアウトオブバウンド方式でおこなわれます。どちらの場合でも、サードパーティデータは弊社のプラットフォーム上で同期されるので、個々のクライアントまたはドメイン上で独自に同期をおこなう必要がなくなります。これにより、ページからのサーバー呼び出しを減らしながら、リーチを拡大することができます。
+[!DNL Audience Manager] 使用可能なデータセットとデータセットに基づいて、他のデータプロバイダー [!DNL APIs] と統合できます。 データ収集は、ユーザーがサイトを表示したときにリアルタイムでおこなわれるか、またはユーザーがサイトを退出後、パートナー間で ID 同期がおこなわれ、サーバー間データ転送がおこなわれるアウトオブバウンド方式でおこなわれます。In either case, [!DNL Audience Manager] clients get the benefit of having third-party data synchronized on our platform, which means each client, or domain, does not have to perform its own synchronization. これにより、ページからのサーバー呼び出しを減らしながら、リーチを拡大することができます。
 
 ## マッチングパートナー {#match-partners}
 
