@@ -7,10 +7,10 @@ solution: Audience Manager
 title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 98%
+source-wordcount: '1378'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 
 [!UICONTROL Actionable Log Files]を使用すると、Web サイトでのリアルタイムなインタラクションの場合と同じ方法でコウコクサーバーログの情報を [!DNL Audience Manager] に取り込むことができます。[!DNL Audience Manager] と広告サーバーログストレージを接続してログの情報を解析し、ログデータを実用的なシグナルとしてアドビの[データ収集サーバー](../../reference/system-components/components-data-collection.md#dcs-pcs)に送信します。
 
-実用的なシグナルを取得するためには、ルールベースの特性を設定する必要があります。[Audience Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) または[一括管理ツール](../../reference/bulk-management-tools/bulk-create.md)のいずれかを使用して、ルールベースの特性を設定する方法を参照してください。ルールベースの特性で使用できるすべてのキーのリストを参照するには、[実用的なシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
+実用的なシグナルを取得するためには、ルールベースの特性を設定する必要があります。ルールに基づく特性の設定方法については、 [Audience Managerユーザーインターフェイス](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) 、または [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md). ルールベースの特性で使用できるすべてのキーのリストを参照するには、[実用的なシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
 
 >[!IMPORTANT]
 >
@@ -249,7 +249,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
-## Audience Manager UI での実用的なシグナルの操作 {#actionable-signals-in-ui}
+## Working with Actionable Signals in the Audience Manager User Interface {#actionable-signals-in-ui}
 
 実用的な着信シグナルは、[シグナル検索](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)インターフェイスで表示できます。
 
