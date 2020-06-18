@@ -5,19 +5,22 @@ seo-title: 受信データ転送のための ID 同期
 solution: Audience Manager
 title: 受信データ転送のための ID 同期
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-translation-type: ht
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 96%
 
 ---
 
 
 # 受信データ転送のための ID 同期 {#id-synchronization-for-inbound-data-transfers}
 
-ベンダーと Audience Manager の間でユーザー ID を同期するために、最初の `HTTP` 呼び出しで使用される構文およびパラメーターについて説明します。ID 同期は、データ分類を Audience Manager に送信した後で開始できます。
+Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and [!DNL Audience Manager]. ID 同期は、データ分類を [!DNL Audience Manager] に送信した後で開始できます。
 
 <!-- c_id_sync_in.xml -->
 
-ID 同期は、受信の非同期データ転送プロセスの最初のステップです。このステップでは、Audience Manager およびベンダーは、各自のサイトベンダーの ID を比較およびマッチングします。例えば、ある [!DNL Audience Manager] のお客様は、ID 123 でユーザーを把握します。しかし、データパートナーは、このユーザーを ID 456 で識別します。この同期プロセスにより、[!DNL Audience Manager] およびデータベンダーは、これらの様々な ID を照合し、各自のシステムでユーザーを識別できます。完了したら、[!DNL Audience Manager] およびサードパーティパートナーは、個別ユーザーごとに対応する ID をアドビのネットワーク上で確認できます。
+ID 同期は、受信の非同期データ転送プロセスの最初のステップです。このステップでは、[!DNL Audience Manager] およびベンダーは、各自のサイトベンダーの ID を比較およびマッチングします。例えば、ある [!DNL Audience Manager] のお客様は、ID 123 でユーザーを把握します。しかし、データパートナーは、このユーザーを ID 456 で識別します。この同期プロセスにより、[!DNL Audience Manager] およびデータベンダーは、これらの様々な ID を照合し、各自のシステムでユーザーを識別できます。完了したら、[!DNL Audience Manager] およびサードパーティパートナーは、個別ユーザーごとに対応する ID をアドビのネットワーク上で確認できます。
 
 以下の方法を使用してデータを [!DNL Audience Manager] に取得できます。
 
@@ -61,11 +64,11 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>オプションです。<a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code> gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr_consent</code> と一緒に使用する必要があります。</p></td> 
+   <td colname="col2"> <p>オプションです。<a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code> gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr_consent</code> と一緒に使用する必要があります。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>オプションです。<a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code>gdpr_consent</code> は、URL で使用できる base64 でエンコードされた GDPR コンセントストリングです（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB の仕様</a>を参照）。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr</code> と一緒に使用する必要があります。</p> </td> 
+   <td colname="col2"> <p>オプションです。<a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code>gdpr_consent</code>  は、URL で使用できる base64 でエンコードされた GDPR コンセントストリングです（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB の仕様</a>を参照）。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr</code> と一緒に使用する必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
