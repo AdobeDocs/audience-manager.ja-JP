@@ -4,15 +4,18 @@ seo-description: Experience Cloud ソリューションや他の外部システ�
 seo-title: Experience Cloud ソリューションや他の外部システムのデータを Audience Manager で操作します。
 solution: Audience Manager
 title: 導入および統合ガイド
-translation-type: ht
-source-git-commit: 0f122b55c779fd56dffff51c2b2aeea31353a29f
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 86%
 
 ---
 
 
 # 導入および統合の概要
 
-Experience Cloud ソリューションや他の外部システムのデータを Audience Manager で操作します。
+Work with data from [!DNL Experience Cloud] solutions or other external systems in [!DNL Audience Manager].
 
 * [データ統合方法](data-integration-methods.md)
 * [Audience Manager の導入](implement-audience-manager.md)
