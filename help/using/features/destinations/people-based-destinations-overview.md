@@ -5,9 +5,9 @@ seo-title: People-Based Destinations の概要とユースケース
 solution: Audience Manager
 title: 概要とユースケース
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '922'
 ht-degree: 96%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 [!DNL People-Based Destinations] は、Audience Manager のプレミアム統合です。このプレミアム機能を活用するには、アドビの担当者にお問い合わせください。
 
-## People-Based Destinations を使用する理由 {#why-use}
+## Why You Should Use [!UICONTROL People-Based Destinations] {#why-use}
 
 **Audience Manager 内からオーディエンスセグメント全体を管理することで、一貫性のあるクロスチャネルエクスペリエンスを顧客に提供します。**
 
