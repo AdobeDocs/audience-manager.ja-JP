@@ -6,9 +6,9 @@ solution: Audience Manager
 title: REST API の概要
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1781'
 ht-degree: 84%
 
 ---
@@ -46,7 +46,7 @@ Information about general requirements, authentication, optional query parameter
 >
 >Depending on your authentication method, you need to adjust your request [!DNL URLs] accordingly. 使用すべきホスト名について詳しくは、[環境](#environments)の節を参照してください。
 
-## JWT（サービスアカウント）認証 {#jwt}
+## JWT ([!DNL Service Account])認証 {#jwt}
 
 ### 前提条件 {#prerequisites}
 
@@ -278,14 +278,14 @@ Depending on the authentication method that you use, you need to adjust your env
 
 | レスポンスコード ID | レスポンスのテキスト | 定義 |
 |---|---|---|
-| 200 | `OK` | リクエストは正常に処理されました。必要があれば、予期されたコンテンツまたはデータを返します。 |
-| 201 | `Created` | リソースが作成されました。`PUT` および `POST` リクエストに対して返されます。 |
-| 204 | `No Content` | リソースが削除されました。レスポンス本文は空白になります。 |
-| 400 | `Bad Request` | サーバーがリクエストを理解できませんでした。通常は、構文が正しくないことが原因です。リクエストを確認して、再試行してください。 |
-| 403 | `Forbidden` | このリソースへのアクセス権がありません。 |
-| 404 | `Not Found` | 指定されたパスでリソースが見つかりません。 |
-| 409 | `Conflict` | リソースの状態に競合が発生しているので、リクエストを完了できません。 |
-| 500 | `Server Error` | サーバーで予期しないエラーが発生し、リクエストを完了できません。 |
+| `200` | `OK` | リクエストは正常に処理されました。必要があれば、予期されたコンテンツまたはデータを返します。 |
+| `201` | `Created` | リソースが作成されました。`PUT` および `POST` リクエストに対して返されます。 |
+| `204` | `No Content` | リソースが削除されました。レスポンス本文は空白になります。 |
+| `400` | `Bad Request` | サーバーがリクエストを理解できませんでした。通常は、構文が正しくないことが原因です。リクエストを確認して、再試行してください。 |
+| `403` | `Forbidden` | このリソースへのアクセス権がありません。 |
+| `404` | `Not Found` | 指定されたパスでリソースが見つかりません。 |
+| `409` | `Conflict` | リソースの状態に競合が発生しているので、リクエストを完了できません。 |
+| `500` | `Server Error` | サーバーで予期しないエラーが発生し、リクエストを完了できません。 |
 
 >[!MORELIKETHIS]
 >
