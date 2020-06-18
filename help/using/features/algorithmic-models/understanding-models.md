@@ -6,8 +6,11 @@ seo-title: 類似（look-alike）モデリングについて
 solution: Audience Manager
 title: 類似（look-alike）モデリングについて
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
-translation-type: ht
-source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1685'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +72,7 @@ source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
 
 ### 手順 5：結果を表示して操作する
 
-Audience Manager は重み付けモデルの結果を[!UICONTROL Trait Builder]に表示します。アルゴリズム特性を作成する場合、[!UICONTROL Trait Builder]を使用すると、データ実行時にアルゴリズムにより生成された重み付けスコアに基づいて特性を作成できます。選択する精度を高くするほど、ユーザースコアが高いユーザー、つまり他のオーディエンスよりもベースラインオーディエンスに近いユーザーのみを認定できます。精度を低くすると、オーディエンス（リーチ）を広げることができます。
+[!DNL Audience Manager] 重み付けされたモデルの結果がに表示され [!UICONTROL Trait Builder]ます。 アルゴリズム特性を作成する場合、[!UICONTROL Trait Builder]を使用すると、データ実行時にアルゴリズムにより生成された重み付けスコアに基づいて特性を作成できます。選択する精度を高くするほど、ユーザースコアが高いユーザー、つまり他のオーディエンスよりもベースラインオーディエンスに近いユーザーのみを認定できます。精度を低くすると、オーディエンス（リーチ）を広げることができます。
 
 ### 手順 6：処理サイクルにまたがって特性の重要性を再評価する
 
