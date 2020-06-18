@@ -8,14 +8,17 @@ title: アドレス可能なオーディエンス
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 translation-type: tm+mt
-source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '2059'
+ht-degree: 94%
 
 ---
 
 
 # アドレス可能なオーディエンス {#addressable-audiences}
 
-アドレス可能なオーディエンスの機能およびユースケースの概要です。
+An overview of the [!UICONTROL Addressable Audience] feature and use cases.
 
 ## アドレス可能なオーディエンスとは何か{#addressable-audience-description}
 
@@ -81,13 +84,13 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
 
 ![](assets/addressable-audiences-landing.png)
 
-アドレス可能なオーディエンスランディングページには、次の 3 つの指標が表示されます。
+The three metrics you can see on the [!UICONTROL Addressable Audiences] landing page represent:
 
 | 指標 | 説明 |
 ---------|----------|
-| **Addressable Audience (devices)** | この指標は、*過去 30 日間*&#x200B;のお客様のアドレス可能なオーディエンス（上記の表で説明）を表します。 |
-| **Match Rate** | この指標は、*過去 30 日間*&#x200B;のアドレス可能オーディエンスのマッチ率（上記の表で説明）を表します。 |
-| **Lifetime Addressable Audience (devices)** | レポートのルックバック期間に、プラットフォームレベルで Audience Manager のお客様とのやり取りがあり、この宛先と一致するデバイスの総数。詳しくは、[プラットフォームレベルの指標](/help/using/features/addressable-audiences.md#platform-level-metrics)を参照してください。 |
+| **[!UICONTROL Addressable Audience (Device)]** | This metric represents the [!UICONTROL Customer Addressable Audience] (described in the table above) *for the last 30 days.* |
+| **[!UICONTROL Match Rate]** | This metric represents the [!UICONTROL Addressable Audience Match Rate] (described in the table above) *for the last 30 days*. |
+| **[!UICONTROL Lifetime Addressable Audience (Device)]** | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with this destination. 詳しくは、[プラットフォームレベルの指標](/help/using/features/addressable-audiences.md#platform-level-metrics)を参照してください。 |
 
 サーバー間通信ベースの宛先の名前をクリックし、アドレス可能なオーディエンスデータを表示します。この機能はサーバー間通信ベースの宛先のデータのみを返し、アクセスには管理者権限が必要となることにご注意ください。
 
@@ -211,7 +214,7 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
 
 ### プラットフォームレベルの指標 {#platform-level-metrics}
 
-この指標は、Audience Manager のすべてのお客様から収集したアクティビティについてのデータを返します。Audience Manager のお客様全体と比較することで、オーディエンスに関するより広い視野が得られます。
+This metric returns data on activities collected across all [!DNL Audience Manager] customers. They can provide a broader view of the customer&#39;s audience compared with the aggregated [!DNL Audience Manager] customers.
 
 <table id="table_B6654D9858FF46AF95B1C181D4608D26"> 
  <thead> 
@@ -275,4 +278,4 @@ source-git-commit: b213a1ecde4c85dc66dada24dec602ed1d9b0332
 
 <!-- addressable-audiences-troubleshooting.xml -->
 
-例えば、宛先にセグメントを送ったところ、その宛先についてレポートされた数値が低かったとします。[!UICONTROL Addressable Audience]の結果を確認することで、これが技術的な問題なのか、または単にマッチ率が低いだけなのかがわかります。低いマッチ率は、選択したセグメントに対して宛先が適切でないことを示します。しかし、Audience Manager と宛先の間でアドレス可能なオーディエンスの合計数の違いがある場合、それは統合や同期などの技術的問題があることを示しています。その場合、担当のアカウントマネージャーにお問い合わせください。
+例えば、宛先にセグメントを送ったところ、その宛先についてレポートされた数値が低かったとします。[!UICONTROL Addressable Audience]の結果を確認することで、これが技術的な問題なのか、または単にマッチ率が低いだけなのかがわかります。低いマッチ率は、選択したセグメントに対して宛先が適切でないことを示します。However, a difference in the total addressable audience numbers between [!DNL Audience Manager] and the destination indicates an integration, synchronization, or other technical problem. その場合、担当のアカウントマネージャーにお問い合わせください。
