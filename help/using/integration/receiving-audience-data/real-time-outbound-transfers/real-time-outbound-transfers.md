@@ -5,8 +5,11 @@ seo-title: リアルタイム送信データ転送
 solution: Audience Manager
 title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-translation-type: ht
-source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -112,7 +115,7 @@ source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>セグメントの識別子。ほとんどの場合、これは、Audience Managerで生成されたセグメント ID です（整数）。場合によっては、宛先プラットフォームが許可している場合、お客様は、Audience Manager UI（テキストフィールドを開く）でセグメント識別子を定義でき、それがこのプロパティに反映されます。 </p> </td> 
+   <td colname="col3"> <p>セグメントの識別子。ほとんどの場合、これは、Audience Managerで生成されたセグメント ID です（整数）。場合によっては、宛先プラットフォームで許可されている場合、Audience Managerユーザーインターフェイス（開いたテキストフィールド）でセグメント識別子を定義でき、これがこのプロパティに反映されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
