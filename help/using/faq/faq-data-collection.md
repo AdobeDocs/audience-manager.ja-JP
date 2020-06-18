@@ -7,7 +7,7 @@ title: データ収集および製品統合に関するよくある質問
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 96%
@@ -27,9 +27,9 @@ faq_data_collection_integration.xml
 
  -->
 
-**書き出した[!UICONTROL DCS]ログファイルで受信トラフィックを[!UICONTROL DCS]トラフィックと区別するには、どうすればよいですか？**
+**書き出した[!DNL DCS]ログファイルで受信トラフィックを[!DNL DCS]トラフィックと区別するには、どうすればよいですか？**
 
-[!UICONTROL Inbound] を通じてオンボーディングされる特性は、[!UICONTROL DCS] で生成されるのと同じように [!UICONTROL Inbound] で生成されます。[!UICONTROL Inbound] を識別するには、次のように、いくつか異なる方法があります。
+[!UICONTROL Inbound] を通じてオンボーディングされる特性は、[!DNL DCS] で生成されるのと同じように [!UICONTROL Inbound] で生成されます。[!UICONTROL Inbound] を識別するには、次のように、いくつか異なる方法があります。
 
 * リモート IP は 68.67.173.18 に設定されます。
 * DomainID は 5325 に設定されます。
@@ -43,7 +43,7 @@ faq_data_collection_integration.xml
 
 <br> 
 
-**IPアドレスを教えてください。IPアドレスは、受信および送信のSFTPサーバの許可リストに追加できますか。**
+**受信および送信用のsFTPサーバ用の許可リストに追加できるIPアドレスを教えてください。**
 
 はい、以下を参照してください。
 
@@ -175,13 +175,13 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 これらのレポートは、レポートの生成時にバックエンドで確認される認証されていないプロファイルレコード（UUID）に基づいてユーザー数を計算します。
 
-[!UICONTROL DCS] の最初の呼び出し時に、宣言された ID はどの UUID にもリンクされて&#x200B;*いません*（つまり、[demdex Cookie](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) がクライアント側にありません）。[!UICONTROL DCS] は UUID をランダムに生成し、[!DNL demdex] Cookie を設定してレスポンス呼び出しに含めて渡しますが、この場合、UUID はバックエンドに送信されません。
+[!DNL DCS] の最初の呼び出し時に、宣言された ID はどの UUID にもリンクされて&#x200B;*いません*（つまり、[demdex Cookie](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) がクライアント側にありません）。[!DNL DCS] は UUID をランダムに生成し、[!DNL demdex] Cookie を設定してレスポンス呼び出しに含めて渡しますが、この場合、UUID はバックエンドに送信されません。
 
 >[!NOTE]
 >
 >生成された UUID は、Cookie が設定されているデバイスでさらにアクティビティがトリガーされたときにのみ、バックエンドのデータストレージで実体化されます。
 
-このため、これらのレポートは、呼び出しで宣言された ID によってトリガーされたイベントを反映していません。[!UICONTROL DCS] へのイベントテスト呼び出しでは、UUID、ECID（旧 MID）、モバイルデバイス ID のいずれかを使用することをお勧めします。その後、[!UICONTROL General Reports]と[!UICONTROL Trend Reports]で特性およびセグメント適合を確認できます。
+このため、これらのレポートは、呼び出しで宣言された ID によってトリガーされたイベントを反映していません。[!DNL DCS] へのイベントテスト呼び出しでは、UUID、ECID（旧 MID）、モバイルデバイス ID のいずれかを使用することをお勧めします。その後、[!UICONTROL General Reports]と[!UICONTROL Trend Reports]で特性およびセグメント適合を確認できます。
 
 詳しくは、[Audience Manager で使用される ID の一覧](../reference/ids-in-aam.md)を参照してください。
 
