@@ -5,8 +5,11 @@ seo-title: データのプライバシー概要
 solution: Audience Manager
 title: データプライバシーの概要
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-translation-type: ht
-source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 83%
 
 ---
 
@@ -15,30 +18,32 @@ source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ## 概要
 
-データプライバシードキュメントでは、消費者のプライバシーおよびオプトアウト手順に関連する一般に認められたベストプラクティスに対する Audience Manager の統合と準拠について説明します。
+The Data Privacy documentation describes [!DNL Audience Manager] integration and compliance with generally accepted best practices related to consumer privacy and opt-out procedures.
 
-Audience Manager は、顧客と顧客がやり取りするオンラインブランドとの関係の重要性を認識します。両者とも、匿名データ要素の透過的な交換のメリットを得ることができます。
+[!DNL Audience Manager] は、顧客と顧客がやり取りするオンラインブランドとの関係の重要性を認識します。両者とも、匿名データ要素の透過的な交換のメリットを得ることができます。
 
 * 消費者は、パーソナライズされたコンテンツ、割引製品オファー、効率化されたユーザーエクスペリエンスを得ることができます。
 * ブランドは、複数のオンラインビジネスモデルをサポートする非常に重要な収入源を得ることができます。
 
-Audience Manager は、このモデルの継続的なサポートにおいて、[Online Behavioral Advertising（OBA）の自主規制原則](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/)に従ってパーソナライズされた広告を提供しながら、消費者に透明性と制御を提供するためのツールの提供に取り組んでいます。
+In our continuing support of this model, [!DNL Audience Manager] remains committed to providing you with the tools to help support your ability to provide  transparency and control to your consumers, while delivering personalized ads subject to the [Online Behavioral Advertising (OBA) Self-Regulatory Principles](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
- 
+## GDPR {#gdpr}
 
 [一般データ保護規則（GDPR）](https://eugdpr.org/)は、EU 加盟国に対して、**アクセス権**&#x200B;や&#x200B;**忘れられる権利**&#x200B;など、新たなデータプライバシー権を導入しました。つまり、御社が個人データを収集した EU 市民は、いつでもデータのアクセスや削除を要求できます。これらの要求に従わないと、組織に対して数百万ドルの罰金が科せられる可能性があります。
 
-GDPR に準拠するため、Audience Manager はデータアクセスおよび削除の[要求](data-privacy-requests.md)をサポートします。
+To comply with [!DNL GDPR], [!DNL Audience Manager] supports data access and delete [requests](data-privacy-requests.md).
+
+## CCPA {#ccpa}
 
 2020 年 1 月 1 日に施行される[カリフォルニア州消費者プライバシー法（CCPA）](https://www.caprivacy.org/about)は、カリフォルニア州在住者に対して個人情報に関する新たな権利を提供し、カリフォルニア州で事業をおこなう特定の事業者に対してデータ保護責任を課します。
 
-CCPA は、カリフォルニア在住者に対して、自分の個人データにアクセスし削除する権利や、自分の個人データが販売または開示されたか（そして誰に対して）を知る権利など、新しいデータプライバシー権を提供します。CCPA に準拠するため、Audience Manager は CCPA へのアクセスおよび削除の[リクエスト](data-privacy-requests.md)をサポートします。
+[!DNL CCPA] は、カリフォルニア在住者に対して、自分の個人データにアクセスし削除する権利や、自分の個人データが販売または開示されたか（そして誰に対して）を知る権利など、新しいデータプライバシー権を提供します。に準拠するため [!DNL CCPA]、では [!DNL Audience Manager] アクセスおよび削除 [!DNL CCPA] 要求をサポートしてい [ます](data-privacy-requests.md)。
 
 詳しくは、アドビ[プライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)を参照してください。
 
 ## 規制コンプライアンス {#compliance}
 
-Audience Manager は、[Adobe Experience Platform プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
+[!DNL Audience Manager] は、[Adobe Experience Platform プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
 
 このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
 
