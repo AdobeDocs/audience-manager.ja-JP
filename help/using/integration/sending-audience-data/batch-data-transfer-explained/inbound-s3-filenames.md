@@ -5,15 +5,18 @@ seo-title: 受信データファイルの Amazon S3 名とファイルサイズ�
 solution: Audience Manager
 title: 受信データファイルの Amazon S3 名とファイルサイズの要件
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 96%
 
 ---
 
 
 # 受信データファイルの Amazon S3 名とファイルサイズの要件{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
-Audience Manager にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager または [!DNL Amazon S3] ディレクトリに送信する際には、これらの仕様に従ってファイルの名前とサイズを設定してください。
+Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to [!DNL Audience Manager]. Set the names and sizes of your files according to these specifications when you send data to an [!DNL Audience Manager] / [!DNL Amazon S3] directory.
 
 >[!NOTE]
 >
@@ -23,13 +26,13 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 [!DNL S3] ファイル名は、次の必須要素とオプション要素で構成されています。
 
-* **[!DNL S3]プレフィックス：**   `s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+* **[!DNL S3]プレフィックス：**`s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
 
 * **ファイル名要素：**`ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
 使用可能なその他のファイル名の形式については、[カスタムパートナー統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)を参照してください。
 
->[!NOTE] {importance="high"}
+>[!NOTE] {importance=&quot;high&quot;}
 >
 >[!DNL Audience Manager] は、[!DNL ASCII] と [!DNL UTF-8] でエンコードされたファイルのみを処理します。
 
