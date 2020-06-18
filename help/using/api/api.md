@@ -2,19 +2,22 @@
 description: Audience Manager とのプログラムによる連携をおこなうための API およびツールキット。
 seo-description: Audience Manager とのプログラムによる連携をおこなうための API およびツールキット。
 seo-title: API と SDK コード
-keywords: 'api, api, api, api, api, api, api, api, api, api '
+keywords: api, api, api, api, api, api, api, api, api, api
 solution: Audience Manager
 title: API と SDK コード
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 translation-type: tm+mt
-source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 88%
 
 ---
 
 
 # API と SDK コード {#api-and-sdk-code}
 
-Audience Manager をプログラムで操作するための [!DNL API] およびツールキット。
+[!DNL API]とツールキットを組み合わせ、プログラムを使用して作業を行うことがで [!DNL Audience Manager]きます。
 
 >[!NOTE]
 >
