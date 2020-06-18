@@ -5,23 +5,26 @@ seo-title: DCS へのデータ送信
 solution: Audience Manager
 title: DCS へのデータ送信
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 100%
 
 ---
 
 
 # DCS へのデータ送信 {#send-data-to-the-dcs}
 
-[!UICONTROL DCS] への `/event` 呼び出しの実行については、ここから始めてください。この節では、呼び出しの構文、パラメーター、形式、要求例について説明します。
+[!DNL DCS] への `/event` 呼び出しの実行については、ここから始めてください。この節では、呼び出しの構文、パラメーター、形式、要求例について説明します。
 
 >[!NOTE]
 >
->コードと例の&#x200B;*斜体*&#x200B;の部分は変数のプレースホルダーです。この方法で [!UICONTROL DCS] にデータを送信する際には、プレースホルダーを実際の値に置き換えてください。
+>コードと例の&#x200B;*斜体*&#x200B;の部分は変数のプレースホルダーです。この方法で [!DNL DCS] にデータを送信する際には、プレースホルダーを実際の値に置き換えてください。
 
 ## 呼び出しの構文 {#dcs-call-syntax}
 
-`URL` にデータを送信する基本的な [!UICONTROL DCS] 文字列の構文は次のとおりです。
+`URL` にデータを送信する基本的な [!DNL DCS] 文字列の構文は次のとおりです。
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -29,11 +32,11 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!NOTE]
 >
->[!UICONTROL DCS] メソッドを使用して `POST` にデータを送信することもできます。呼び出し構文については、[DCS API メソッド](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)で説明されています。
+>[!DNL DCS] メソッドを使用して `POST` にデータを送信することもできます。呼び出し構文については、[DCS API メソッド](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)で説明されています。
 
 ## 呼び出しパラメーター {#dcs-call-parameters}
 
-単純な [!UICONTROL DCS] 呼び出しの基本的な構成要素を次の表で定義します。
+単純な [!DNL DCS] 呼び出しの基本的な構成要素を次の表で定義します。
 
 <table id="table_5F6A5B324EB848168543386516FBF384"> 
  <thead> 
@@ -85,7 +88,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 ## サンプル呼び出し {#dcs-sample-call}
 
-この例では架空の企業 [!DNL Acme, Inc.] 社が 呼び出しを通じて [!UICONTROL DCS] にデータを送信しています。[!DNL HTTP]この呼び出しにはオプションパラメーター `d_dst=1`、`d_rtbd=json`、`d_cb=callback` が含まれています。これらのパラメーターは、[!DNL Acme] 社がコールバック関数で [!DNL JSON] から [!UICONTROL DCS] 応答を受信しようとしていることを示しています。なお、これは例にすぎません。このコードを他の用途にそのまま使用しないでください。
+この例では架空の企業 [!DNL Acme, Inc.] 社が 呼び出しを通じて [!DNL DCS] にデータを送信しています。[!DNL HTTP]この呼び出しにはオプションパラメーター `d_dst=1`、`d_rtbd=json`、`d_cb=callback` が含まれています。これらのパラメーターは、[!DNL Acme] 社がコールバック関数で [!DNL JSON] から [!DNL DCS] 応答を受信しようとしていることを示しています。なお、これは例にすぎません。このコードを他の用途にそのまま使用しないでください。
 
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
@@ -93,7 +96,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## 次の手順 {#dcs-next-steps}
 
-これで [!UICONTROL DCS] へのデータ送信の方法がわかったので、今度は、DCS からの応答データを取得してその情報を解析する方法を見てみましょう。[DCS からのデータ受信](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)を参照してください。
+これで [!DNL DCS] へのデータ送信の方法がわかったので、今度は、DCS からの応答データを取得してその情報を解析する方法を見てみましょう。[DCS からのデータ受信](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)を参照してください。
 
 >[!MORELIKETHIS]
 >
