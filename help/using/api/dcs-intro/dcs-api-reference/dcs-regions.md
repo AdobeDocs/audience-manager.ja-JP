@@ -6,14 +6,17 @@ solution: Audience Manager
 title: DCS の地域 ID、場所、ホスト名
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 translation-type: tm+mt
-source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 100%
 
 ---
 
 
 # DCS の地域 ID、場所、ホスト名 {#dcs-region-ids-locations-and-host-names}
 
-[!UICONTROL DCS] の呼び出しをおこなうには、地域 [!UICONTROL DCS] サーバーのホスト名が必要です。[!UICONTROL DCS] では、サイト訪問者に地理的に近いデータセンターに情報を保存するからです。間違った [!UICONTROL DCS] にクエリを送信しても機能しますが、そのような呼び出しは非効率的で、応答の遅延につながるおそれがあります。[!UICONTROL DCS] 要求をおこなうには、地域 ID を対応する地域ホスト名に合わせ、適切なホスト名でクエリを作成します。
+[!DNL DCS] の呼び出しをおこなうには、地域 [!DNL DCS] サーバーのホスト名が必要です。[!DNL DCS] では、サイト訪問者に地理的に近いデータセンターに情報を保存するからです。間違った [!DNL DCS] にクエリを送信しても機能しますが、そのような呼び出しは非効率的で、応答の遅延につながるおそれがあります。[!DNL DCS] 要求をおこなうには、地域 ID を対応する地域ホスト名に合わせ、適切なホスト名でクエリを作成します。
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -67,4 +70,4 @@ source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
  </tbody> 
 </table>
 
-[!DNL API] メソッドを使用して、利用可能な [!UICONTROL DCS] 地域のリストを取得することもできます。[DCS 地域 API メソッド](../../../api/rest-api-main/aam-api-dcs-regions.md)を参照してください。
+[!DNL API] メソッドを使用して、利用可能な [!DNL DCS] 地域のリストを取得することもできます。[DCS 地域 API メソッド](../../../api/rest-api-main/aam-api-dcs-regions.md)を参照してください。
