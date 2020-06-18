@@ -5,10 +5,10 @@ seo-title: Predictive Audiences の概要
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 translation-type: tm+mt
-source-git-commit: 4df2a7536155d42133c0873ed4e3376eb24cba1a
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 100%
+source-wordcount: '1261'
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 メディア会社の場合、訪問者に関連性のある広告を提供すると同時に、広告スペースをプレミアム価格で販売できるように、オーディエンスを分類したい。
 
-## Predictive Audiences モデルのしくみ
+## モデルの [!UICONTROL Predictive Audiences] 動作 {#how-predictive-audiences-models-work}
 
 [!UICONTROL Predictive Audiences] モデルを作成する場合、次の 3 つの手順を実行します。
 
@@ -82,13 +82,13 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 ペルソナの選択と同様、適切なペルソナに分類するために、特性のリッチなセットでリアルタイムユーザーを含むように、ターゲットオーディエンスを定義する特性またはセグメントを選択する必要があります。
 
-### Predictive Audiences モデルトレーニングフェーズ {#model-training}
+### [!UICONTROL Predictive Audiences] モデルトレーニング段階 {#model-training}
 
 アルゴリズムがファーストパーティオーディエンスを適切なペルソナに分類できるようにするには、事前にお客様のデータでアルゴリズム自体をトレーニングする必要があります。
 
 アルゴリズムは、定義するペルソナごとに各オーディエンスを分析し、過去 30 日間のユーザーのリアルタイムの特性アクティビティやオンボーディングされた特性アクティビティを評価します。この手順は、ファーストパーティオーディエンスの変更を考慮して、24 時間ごとに実行されます。
 
-### Predictive Audiences モデル分類フェーズ {#model-classification}
+### [!UICONTROL Predictive Audiences] モデル分類段階 {#model-classification}
 
 ターゲットオーディエンスに属する訪問者がリアルタイムに確認されると、モデルは、訪問者が定義されたペルソナに属するかどうかを評価します。どのペルソナにも属さないすべての訪問者に対して、モデルはペルソナ選定スコアを割り当てます。
 
@@ -108,7 +108,7 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 * セカンドおよびサードパーティデータは、現在、[!UICONTROL Predictive Audiences] でサポートされていません。
 * オーディエンスの分類は、リアルタイムファーストパーティオーディエンスに対してのみおこなわれます。オンボーディングされたファーストパーティオーディエンスの分類は、将来のアップデートでサポートされる可能性があります。
    >[!IMPORTANT]
-   > 現在、予測セグメントの [!UICONTROL Total Segment Population] は、0 と表示され、Predictive Audiences では[バッチ送信データ転送](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)はサポートされません。この動作は、将来のアップデートで変更されます。
+   > Currently, the [!UICONTROL Total Segment Population] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for [!UICONTROL Predictive Audiences]. この動作は、将来のアップデートで変更されます。
 * [!UICONTROL Predictive Audiences] は、すべてのファーストパーティデータソースからのファーストパーティ特性に基づいて、オーディエンスの分類を実行します。
 * [!UICONTROL Predictive Audiences] のセグメント評価は、お客様のアカウントに定義されたデフォルトの **[!UICONTROL Profile Merge Rule]** を使用します。[!UICONTROL Profile Merge Rules] について詳しくは、該当する[ドキュメント](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)を参照してください。
 * 一部の特性およびセグメントは、ベースラインオーディエンスまたはターゲットオーディエンスとしてサポートされません。[!UICONTROL Predictive Audiences] モデルは、次のいずれかをベースラインオーディエンスまたはターゲットオーディエンスとして選択すると、保存に失敗します。
@@ -117,7 +117,7 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
    * アルゴリズム特性
    * セカンドおよびサードパーティ特性
 
-## データ書き出しコントロール {#dec}
+## [!UICONTROL Data Export Controls] {#dec}
 
 [!UICONTROL Predictive Audiences] モデルで作成された予測セグメントは、次のファーストパーティデータソースから[データ書き出しコントロール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-export-controls.html)を継承します。
 
@@ -128,7 +128,7 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 [!UICONTROL Predictive Audiences] セグメントのプライバシー制限に含まれない追加の制限を持つ特性は、トレーニングフェーズから除外され、モデルに対して影響力を持つことはありません。
 
-## ロールベースのアクセス制御 {#rbac}
+## [!UICONTROL Role-Based Access Controls] {#rbac}
 
 ペルソナおよびオーディエンスの分類用に選択する特性およびセグメントは、Audience Manager の[ロールベースのアクセス制御](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/administration/administration-overview.html)の影響を受けます。
 
