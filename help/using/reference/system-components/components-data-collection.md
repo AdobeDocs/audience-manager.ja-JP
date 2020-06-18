@@ -5,8 +5,11 @@ seo-title: データ収集コンポーネント
 solution: Audience Manager
 title: データ収集コンポーネント
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,7 @@ Audience Manager には次のデータ収集コンポーネントがあります
 
 DCS と PCS は連携して動作することで、それぞれが特性の適合、オーディエンスのセグメント化、およびデータストレージに関連するサービスを提供します。
 
-**[!UICONTROL Data Collection Servers (DCS)] 関数**
+**[!UICONTROL Data Collection Servers (DCS)] 関数&#x200B;**
 
 [!DNL Audience Manager] で、DCS は以下をおこないます。
 
@@ -42,27 +45,27 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 * リアルタイムのイベント呼び出しの前に、ユーザーが既に適合している特性が他にないかを PCS で確認します。これにより、リアルタイムのデータと過去のデータに基づきユーザーを適合させることができます。
 * ログファイルへの書き込みをおこない、それらを保存および処理する分析システムに送信します。
 
-**[!UICONTROL DCS]による[!UICONTROL Global Server Load Balancing (GSLB)]を通じた需要の管理**
+**[!DNL DCS]による[!UICONTROL Global Server Load Balancing (GSLB)]**を通じた需要の管理
 
-[!UICONTROL DCS] は地理的に分散された負荷分散型システムです。つまり、[!DNL Audience Manager] はサイト訪問者の地理的な位置に基づき、地域のデータセンターとの間で要求のやり取りをおこなうことができます。この方式では、[!UICONTROL DCS] の応答がその訪問者の情報を保持するデータセンターに直接送信されるので、応答時間の短縮に役立ちます。[!UICONTROL GSLB] では、関連データがユーザーに最も近いサーバーにキャッシュされるので、システムの効率が高まります。
+[!DNL DCS] は地理的に分散された負荷分散型システムです。つまり、[!DNL Audience Manager] はサイト訪問者の地理的な位置に基づき、地域のデータセンターとの間で要求のやり取りをおこなうことができます。この方式では、[!DNL DCS] の応答がその訪問者の情報を保持するデータセンターに直接送信されるので、応答時間の短縮に役立ちます。[!UICONTROL GSLB] では、関連データがユーザーに最も近いサーバーにキャッシュされるので、システムの効率が高まります。
 
 >[!IMPORTANT]
 >
->IPv4 を使用するデバイスから発生した Web トラフィックを検出するのは [!UICONTROL DCS] だけです。
+>IPv4 を使用するデバイスから発生した Web トラフィックを検出するのは [!DNL DCS] だけです。
 
 イベント呼び出しにおいて、地理的な位置は JSON データの一部として返されるキーと値のペアとして取得されます。このキーと値のペアは `"dcs_region": region ID` パラメーターです。
 
 ![](assets/dcs-map.png)
 
-お客様は、アドビのデータ収集コードを通して間接的に [!UICONTROL DCS] を操作します。また、一連の API を使用して [!UICONTROL DCS] を直接操作することもできます。詳しくは、[データ収集サーバー（DCS）API メソッドおよびコード](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)を参照してください。
+お客様は、アドビのデータ収集コードを通して間接的に [!DNL DCS] を操作します。また、一連の API を使用して [!DNL DCS] を直接操作することもできます。詳しくは、[データ収集サーバー（DCS）API メソッドおよびコード](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)を参照してください。
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-[!UICONTROL PCS] は大規模なデータベースです（基本的には、サーバー側の巨大な Cookie です）。サーバーからサーバーへのデータ転送および [!UICONTROL DCS] から受信したアクティブユーザーのデータを格納します。[!UICONTROL PCS] データは、デバイス ID、認証済みプロファイル ID、およびそれらに関連付けられた特性で構成されます。[!UICONTROL DCS] はリアルタイムの呼び出しを受信すると、[!UICONTROL PCS] を照会して、ユーザーが属する、または適合する可能性がある他の特性がないかを確認します。さらに、セグメントに後から特性が追加された場合、それらの特性 ID は [!UICONTROL PCS] に追加され、特定のサイトやアプリを訪問しなくても、ユーザーは自動でそのセグメントに適合されます。[!UICONTROL PCS] は、最新または過去の特性データを使用して、リアルタイムまたは事後的にユーザーを照合およびセグメント化できるので、[!DNL Audience Manager] は PCS を通してユーザーをより深く把握できます。この動作によって、リアルタイムの適合のみの場合よりも正確で包括的なユーザー像を得ることができます。
+[!UICONTROL PCS] は大規模なデータベースです（基本的には、サーバー側の巨大な Cookie です）。サーバーからサーバーへのデータ転送および [!DNL DCS] から受信したアクティブユーザーのデータを格納します。[!UICONTROL PCS] データは、デバイス ID、認証済みプロファイル ID、およびそれらに関連付けられた特性で構成されます。[!DNL DCS] はリアルタイムの呼び出しを受信すると、[!UICONTROL PCS] を照会して、ユーザーが属する、または適合する可能性がある他の特性がないかを確認します。さらに、セグメントに後から特性が追加された場合、それらの特性 ID は [!UICONTROL PCS] に追加され、特定のサイトやアプリを訪問しなくても、ユーザーは自動でそのセグメントに適合されます。[!UICONTROL PCS] は、最新または過去の特性データを使用して、リアルタイムまたは事後的にユーザーを照合およびセグメント化できるので、[!DNL Audience Manager] は PCS を通してユーザーをより深く把握できます。この動作によって、リアルタイムの適合のみの場合よりも正確で包括的なユーザー像を得ることができます。
 
 お客様が直接 [!UICONTROL PCS] を操作するための UI コントロールは用意されていません。お客様は、データストアおよびデータ転送を担当する役割を通して、間接的に [!UICONTROL PCS] にアクセスします。[!UICONTROL PCS] は Apache Cassandra 上で動作します。
 
-**非アクティブな ID を[!UICONTROL PCS]からパージ**
+**非アクティブな ID を[!UICONTROL PCS]**からパージ
 
 前述のとおり、[!UICONTROL PCS] にはアクティブユーザーの特性 ID が保存されます。アクティブユーザーとは、過去14 日間に任意のドメインから[エッジデータサーバー](../../reference/system-components/components-edge.md)で確認されたユーザーです。ユーザーは以下の [!UICONTROL PCS] の呼び出しによってアクティブな状態を保ちます。
 
