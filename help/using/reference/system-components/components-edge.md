@@ -6,7 +6,10 @@ solution: Audience Manager
 title: エッジデータセンターについて
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ c_compedge.xml
 
 * **コアサーバー：**&#x200B;これらは [!DNL Audience Manager] のメインシステムです。データを更新し、エッジサーバーに提供します。
 
-* **エッジサーバー：**&#x200B;多くの場合、これらはアプリケーションサーバーや Web サーバーです。[!DNL Audience Manager] とインターネットとの間の境界に位置します。[!UICONTROL DCS] や Akamai システムなどのエッジサーバーは通常、[!DNL Audience Manager] で出し入れされるデータおよび要求を処理します。
+* **エッジサーバー：**&#x200B;多くの場合、これらはアプリケーションサーバーや Web サーバーです。[!DNL Audience Manager] とインターネットとの間の境界に位置します。[!DNL DCS] や Akamai システムなどのエッジサーバーは通常、[!DNL Audience Manager] で出し入れされるデータおよび要求を処理します。
 
 * **ロードバランサー：**&#x200B;インターネットアプリケーションにつきものの不均等な計算／処理要求を管理します。これらのバランサーは、クラスター化されたサーバーにおいて、あるサーバーがオーバーロードで他のサーバーがアイドル状態となることを回避します。
 
@@ -39,4 +42,4 @@ c_compedge.xml
 
 ## 地理的な分布およびロードバランシング {#geo-dist-balance}
 
-詳しくは、[データ収集コンポーネント](../../reference/system-components/components-data-collection.md)の [!UICONTROL DCS] セクションを参照してください。
+詳しくは、[データ収集コンポーネント](../../reference/system-components/components-data-collection.md)の [!DNL DCS] セクションを参照してください。
