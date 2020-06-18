@@ -6,7 +6,10 @@ solution: Audience Manager
 title: データ統合方法
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +23,7 @@ Audience Manager が他のデータプロバイダーおよびシステムと情
 適切な統合方法の選択は、ビジネス要件とデータパートナーの技術力の組み合わせによって決まります。Audience Manager では、以下のどちらかの方法で他のデータプロバイダーと訪問者情報を交換します。
 
 * **リアルタイム：**&#x200B;ユーザーがサイトを訪問するとすぐにデータを転送します。この方法は、*`synchronous`* 統合とも呼ばれます。
-* **バッチ（サーバー間）：**&#x200B;訪問者がページを離れた後、設定されたスケジュールでサーバー間でデータを転送します。この方法は、*`out-of-band`* または *`asynchronous`* 統合とも呼ばれます。
+* **バッチ（サーバー間）：**&#x200B;訪問者がページを離れた後、設定されたスケジュールでサーバー間でデータを転送します。この方法は、 *`out-of-band`* or *`asynchronous`* integration.
 
 ## 前提条件：特性分類の作成 {#prereqs}
 
@@ -133,8 +136,8 @@ Audience Manager がサードパーティベンダーと同期データ交換を
 リアルタイムデータ統合プロセスは、次のように機能します。
 
 1. ユーザーが Audience Manager コードを含む顧客のサイトを訪問します。
-1. Audience Manager が iframe を読み込んで、アドビの[!UICONTROL Data Collection Server]（[!UICONTROL DCS]）への呼び出しをおこないます。
-1. [!UICONTROL DCS] がサードパーティサーバーを（リアルタイムで）呼び出して、ベンダーがユーザーに関するセグメント情報を持っているかどうかをチェックします。
+1. Audience Manager が iframe を読み込んで、アドビの[!UICONTROL Data Collection Server]（[!DNL DCS]）への呼び出しをおこないます。
+1. [!DNL DCS] がサードパーティサーバーを（リアルタイムで）呼び出して、ベンダーがユーザーに関するセグメント情報を持っているかどうかをチェックします。
 1. サードパーティは、そのユーザーに関するセグメント情報を Audience Manager に返します。
 1. Audience Manager は、セグメント情報を取り込んで、ターゲティングで使用できるようにします。
 
