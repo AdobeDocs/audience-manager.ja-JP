@@ -5,13 +5,16 @@ seo-title: 受信データファイルコンテンツ：構文、無効な文字
 solution: Audience Manager
 title: 受信データファイルコンテンツ：構文、無効な文字、変数、例
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1245'
+ht-degree: 87%
 
 ---
 
 
-# 受信データファイルコンテンツ：構文、無効な文字、変数、例{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# 受信データファイルコンテンツ：構文、無効な文字、変数、例 {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 受信する特性データファイルの形式を整える際に従うべき必須フィールド、構文、ルールについて説明します。
 
@@ -29,7 +32,8 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 >
 >受信データファイルで送信する各ユーザー ID について、処理できる行数の上限は 200 行です。例えば、あるユーザー ID について 300 行が送信された場合、最初の 200 行は保持されますが、残りの 100 行は破棄されます。以下の例では、ユーザー ID 1 とユーザー ID 2 のそれぞれについて送信されている行が 3 行なので、問題はありません。1 行に含まれる特性やキーと値のペアの数には、制限はありません。
 >
->```
+>
+```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
@@ -279,7 +283,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 例 1 {#example-1}
 
-特性 ID を使用して、Audience Manager UUID 用の特性認定情報を送信します。
+Use trait IDs to send trait qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -287,7 +291,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 例 2 {#example-2}
 
-特性 ID を使用して、Audience Manager UUID 用の特性不承認情報を送信します。
+Use trait IDs to send trait disqualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -307,7 +311,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 例 3 {#example-3}
 
-キーと値のペアを送信し、Audience Manager UUID 用の特性認定情報を追加します。
+Send in key-value pairs to add trait qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -321,7 +325,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ### 例 4 {#example-4}
 
-ic プレフィックスを使用して、Audience Manager UUID 用の特性認定情報を送信します。
+Use the ic prefix to send trait qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -335,7 +339,7 @@ ic プレフィックスを使用して、Audience Manager UUID 用の特性認�
 
 ### 例 5 {#example-5}
 
-特性 ID を使用して、Android デバイス用の特性認定情報を送信します。
+Use trait IDs to send trait qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -343,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 例 6 {#example-6}
 
-特性 ID を使用して、Android デバイス用の特性不承認情報を送信します。
+Use trait IDs to send trait disqualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -363,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 例 7 {#example-7}
 
-キーと値のペアを送信し、Android デバイス用の特性認定情報を追加します。
+Send in key-value pairs to add trait qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -377,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### 例 8 {#example-8}
 
-ic プレフィックスを使用して、Android デバイス用の特性認定情報を送信します。
+Use the ic prefix to send trait qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -391,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 9 {#example-9}
 
-特性 ID を使用して、iOS デバイス用の特性認定情報を送信します。
+Use trait IDs to send trait qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -399,7 +403,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 10 {#example-10}
 
-特性 ID を使用して、iOS デバイス用の特性不承認情報を送信します。
+Use trait IDs to send trait disqualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -419,7 +423,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 11 {#example-11}
 
-キーと値のペアを送信し、iOS デバイス用の特性認定情報を追加します。
+Send in key-value pairs to add trait qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -433,7 +437,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 12 {#example-12}
 
-ic プレフィックスを使用して、iOS デバイス用の特性認定情報を送信します。
+Use the ic prefix to send trait qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -447,7 +451,7 @@ ic プレフィックスを使用して、iOS デバイス用の特性認定情�
 
 ### 例 13 {#example-13}
 
-特性 ID を使用して、DPUUID 用の特性認定情報を送信します。
+Use trait IDs to send trait qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -455,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 例 14 {#example-14}
 
-特性 ID を使用して、DPUUID 用の特性不承認情報を送信します。
+Use trait IDs to send trait disqualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -475,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 例 15 {#example-15}
 
-キーと値のペアを送信し、DPUUID 用の特性認定情報を追加します。
+Send in key-value pairs to add trait qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -489,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### 例 16 {#example-16}
 
-ic プレフィックスを使用して、DPUUID 用の特性認定情報を送信します。
+Use the `ic` prefix to send trait qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
