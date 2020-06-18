@@ -5,15 +5,18 @@ seo-title: シグナル、特性、セグメント
 solution: Audience Manager
 title: シグナル、特性、セグメント
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 91%
 
 ---
 
 
 # シグナル、特性、セグメント{#signals-traits-and-segments}
 
-Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、およびイベント呼び出しでのデータの送信方法について説明します。
+Describes the components of an [!DNL Audience Manager] segment, the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
 
 <!-- 
 
@@ -71,11 +74,9 @@ c_signal_trait_segment.xml
 
 **Audience Manager にデータを送信するイベント呼び出し**
 
-イベント呼び出しは、Webサイトから [!DNL Audience Manager] にデータを送信します。呼び出しには、HTTP リクエストのシグナル、特性およびセグメントデータが含まれます。イベント自体は URL 文字列の `/event` に続くすべての部分です。次の例に示すように、このプロセスでは、複数の変数を [!DNL Audience Manager] に渡すために必要なイベント呼び出しは 1 つだけです。
+イベント呼び出しは、Webサイトから [!DNL Audience Manager] にデータを送信します。The call contains signal, trait, and segment data in an [!DNL HTTP] request. イベント自体は 文字列の `/event` に続くすべての部分です。[!DNL URL]次の例に示すように、このプロセスでは、複数の変数を [!DNL Audience Manager] に渡すために必要なイベント呼び出しは 1 つだけです。
 
-```
-https://<domain>/event?product=camera&price>100
-```
+`https://<domain>/event?product=camera&price>100`
 
 >[!MORELIKETHIS]
 >
