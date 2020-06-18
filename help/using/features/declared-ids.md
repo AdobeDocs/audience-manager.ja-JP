@@ -6,11 +6,11 @@ seo-title: 宣言された ID
 solution: Audience Manager
 title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
-source-wordcount: '1261'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1230'
+ht-degree: 85%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 ## 宣言された ID のターゲティング {#declared-id-targeting}
 
-サードパーティ Cookie のような持続的ストレージメカニズムを使用しないデバイスやブラウザーで、Audience Manager とのユーザー ID の交換および同期をおこないます。
+Exchange and synchronize user IDs with [!DNL Audience Manager] from devices or browsers that do not use or accept persistent storage mechanisms, such as third-party cookies.
 
 <!-- declared_id_about.xml -->
 
 ## 宣言された ID のターゲティングの目的 {#declared-id-targeting-purpose}
 
-一部のブラウザーやほとんどのモバイルデバイスでは、サードパーティ Cookie を許可していません。そのため、サイト訪問者に関する情報の保持や永続的 ID の割り当てが難しくなります。この問題を解決するために、Audience Manager では [!UICONTROL DIL] を使用することで、[!UICONTROL declared IDs] をイベント呼び出しで渡すことができるようになっています。また、[!UICONTROL declared ID]は、[!DNL Experience Cloud] のすべてのソリューションで同じユーザーに適用される汎用 ID としても機能できます。ID のターゲティング／マッチング処理を次の表で説明します。
+一部のブラウザーやほとんどのモバイルデバイスでは、サードパーティ Cookie を許可していません。そのため、サイト訪問者に関する情報の保持や永続的 ID の割り当てが難しくなります。To resolve this issue, [!DNL Audience Manager] uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. また、[!UICONTROL declared ID]は、[!DNL Experience Cloud] のすべてのソリューションで同じユーザーに適用される汎用 ID としても機能できます。ID のターゲティング／マッチング処理を次の表で説明します。
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -60,10 +60,10 @@ ht-degree: 100%
 
 ## オプトアウト呼び出し {#opt-out-calls}
 
-[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、Audience Manager によるターゲティングを Web サイトでオプトアウトすることができます。Audience Manager がオプトアウトリクエストを受信した場合、[!UICONTROL DCS] から返される [!DNL JSON] には、Audience Manager ユーザー ID ではなく、エラーコード 171 と「Encountered opt out tag」というメッセージが含まれています。
+[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message &quot;Encountered opt out tag&quot;, instead of the [!DNL Audience Manager] user ID.
 
-* Audience Manager では、[!DNL URL] で Audience Manager [!UICONTROL UUID] と一緒に [!UICONTROL declared ID] のオプトアウトを渡すことができます。
-* [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、Audience Manager では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!UICONTROL DCS] 地域をまたぐことはありません）。
+* [!DNL Audience Manager] は、内でオプトアウトを受け渡すこと [!UICONTROL declared ID] ができ [!DNL Audience Manager][!UICONTROL UUID][!DNL URL]ます。
+* [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。Additionally, [!DNL Audience Manager] opts the user out from that particular region on the edge (the opt-out does not cross [!DNL DCS] regions).
 
 データ収集のオプトアウトについて詳しくは、[データのプライバシー](../overview/data-security-and-privacy/data-privacy.md)を参照してください。
 
@@ -231,9 +231,9 @@ var vDil = DIL.create({
 
 ### `DPID` および `DPUUID`
 
-Audience Manager は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。存在しない ID がある場合、Audience Manager は新しいユーザー ID を作成し、`DPID/DPUUID` の組み合わせと同期します。Audience Manager がユーザー ID（`UUID`）を照合または作成すると、その ID が [!DNL JSON] レスポンスでクライアントのドメインの Cookie（ファーストパーティの Cookie）またはその他のローカルストレージの Cookie に返されます。
+[!DNL Audience Manager] は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。If an ID does not exist, [!DNL Audience Manager] creates a new user ID and synchronizes it to the `DPID/DPUUID` combination. Once [!DNL Audience Manager] matches or creates a user ID (the `UUID`) it returns that ID in the [!DNL JSON] response to the cookie in the client&#39;s domain (first-party cookie) or other local storage.
 
-[!UICONTROL DIL] v6.1 以前を使用している場合には、この関数を呼び出します。新しいバージョンでは [!UICONTROL Adobe Experience Platform Identity Service] から [!UICONTROL declared IDs] を取得するので、この関数は非推奨（廃止予定）となっています。
+[!UICONTROL DIL] v6.1 以前を使用している場合には、この関数を呼び出します。新しいバージョンでは [!DNL Adobe Experience Platform Identity Service] から [!UICONTROL declared IDs] を取得するので、この関数は非推奨（廃止予定）となっています。
 
 ```js
 DIL.create({
@@ -247,7 +247,7 @@ DIL.create({
 
 >[!NOTE]
 >
->なお、`d_dpuuid` および `d_dpid` キーの ID 値を設定するコードをプログラムにより開発する必要があります。
+>You need to programmatically develop the code that supplies the ID values for the `d_dpuuid` and `d_dpid` keys.
 
 ### DIL のインスタンス化の後に ID を渡す
 
@@ -264,7 +264,7 @@ DIL.getDil('partner name').api.signals({...}).declaredId({
 
 ## リクエストとレスポンスの例 {#request-response-examples}
 
-次のリクエストはデータプロバイダー ID とユーザー ID を Audience Manager に送信します。
+The request sends a data provider and user ID to [!DNL Audience Manager]:
 
 ```
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
@@ -281,7 +281,7 @@ myCallback({
 
 ## ターゲティングからの除外 {#do-not-target}
 
-[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、Audience Manager によるターゲティングを Web サイトでオプトアウトすることができます。Audience Manager がオプトアウトリクエストを受け取ると、[!UICONTROL DCS] は Audience Manager ユーザー ID ではなく空の [!DNL JSON] オブジェクトを返します。
+[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]When [!DNL Audience Manager] receives an opt-out request, the [!DNL DCS] returns an empty [!DNL JSON] object instead of the [!DNL Audience Manager] user ID.
 
 >[!MORELIKETHIS]
 >
