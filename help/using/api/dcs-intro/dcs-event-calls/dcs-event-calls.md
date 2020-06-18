@@ -5,24 +5,27 @@ seo-title: DCS イベント呼び出し API
 solution: Audience Manager
 title: DCS イベント呼び出し API
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 100%
 
 ---
 
 
 # DCS イベント呼び出し API {#dcs-event-call-apis}
 
-イベント呼び出しでは、[!DNL URL] 文字列で [!UICONTROL DCS] に情報を送信します。典型的な Audience Manager デプロイメントでは、お客様はアドビの[!DNL JavaScript]データ収集コード（[!UICONTROL DIL]）を使用して [!UICONTROL DCS] にデータを送信します。ただし、お客様が自社のページにアドビの [!DNL JavaScript] コードを組み込むことができない場合があります。企業ポリシーやその他の技術的問題により、アドビの [!DNL JavaScript] コードをページに組み込むことができない場合でも、Audience Manager を操作してこれらのイベント呼び出し [!DNL API] を使用することで、[!UICONTROL DCS] からデータを送信したり返したりできます。
+イベント呼び出しでは、[!DNL URL] 文字列で [!DNL DCS] に情報を送信します。典型的な Audience Manager デプロイメントでは、お客様はアドビの[!DNL JavaScript]データ収集コード（[!UICONTROL DIL]）を使用して [!DNL DCS] にデータを送信します。ただし、お客様が自社のページにアドビの [!DNL JavaScript] コードを組み込むことができない場合があります。企業ポリシーやその他の技術的問題により、アドビの [!DNL JavaScript] コードをページに組み込むことができない場合でも、Audience Manager を操作してこれらのイベント呼び出し [!DNL API] を使用することで、[!DNL DCS] からデータを送信したり返したりできます。
 
 ## はじめに {#dcs-getting-started}
 
 この節では、以下の方法を説明するほか、関連する参考情報も示します。
 
-* [!UICONTROL DCS] への呼び出しを実行する。
-* [!UICONTROL DCS] からデータを受信する。
+* [!DNL DCS] への呼び出しを実行する。
+* [!DNL DCS] からデータを受信する。
 * 呼び出しのデータ要素を所定の形式どおりに設定する。
-* [!UICONTROL DCS] から返されるパラメーターを理解する。
+* [!DNL DCS] から返されるパラメーターを理解する。
 
 開始するには、この後の各節を参照してください。最初に、[DCS へのデータ送信](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)を参照し、次に、[DCS からのデータ受信](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)を参照してください。
 
