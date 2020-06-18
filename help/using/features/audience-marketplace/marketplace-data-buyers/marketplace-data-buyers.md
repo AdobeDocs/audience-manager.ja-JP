@@ -6,8 +6,11 @@ solution: Audience Manager
 title: データ購入者向けの Audience Marketplace
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
-translation-type: ht
-source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '777'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 
 >[!TIP]
 >
->**[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** を使用して、高品質のデータフィードを見つけ、サブスクリプションを購入できます。次に、Audience Manager UI へ戻るか [Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) を使用して、見つけたフィードを購読します。
+>**[Adobe Audience Finder](https://www.adobe-audience-finder.com/)**を使用して、高品質のデータフィードを見つけ、サブスクリプションを購入できます。Then, go back into the[!DNL Audience Manager]user interface or use the[Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API)to subscribe to the feeds you found.
 
 ![buyer-marketplace-overview](assets/buyer-marketplace-overview.png)
 
@@ -47,7 +50,7 @@ source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 * **[!UICONTROL Traits]**：データフィード内の特性の数。
 * **[!UICONTROL 30 Day Provider Unique Users]**：過去 30 日で確認された個別ユーザーの数。
 * **[!UICONTROL 30 Day Overlapped Uniques]**：プロバイダーのアカウントのユーザーと重複するアカウント内のユーザーの数。
-* **[!UICONTROL Feed Overlap]:** 30日間の重複している個別訪問者数の値が割合で表示され、(データ購入者 30 日間の重複している個別訪問者数 / データ購入者の 30 日間の個別訪問者数) x 100 で計算されます。
+* **[!UICONTROL Feed Overlap]**: 30日間の重複している個別訪問者数の値が割合で表示され、(データ購入者 30 日間の重複している個別訪問者数 / データ購入者の 30 日間の個別訪問者数) x 100 で計算されます。
 * **[!UICONTROL Private Feeds]**：[非公開データフィード](../../../features/audience-marketplace/marketplace-private-feeds.md)を参照してください。
 * **[!UICONTROL Currently Subscribed Plan Count]**：データプロバイダーを使用して所有するサブスクリプションの数。
 
@@ -58,7 +61,7 @@ source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 * **[!UICONTROL Similarity To]**：選択した特性またはセグメントとの類似点に基づいてデータフィードをフィルタリングします。比較するための特性やセグメントを入力する際に、特性 ID やセグメント ID を使用したり、それぞれの名前を使用したりできます。
 * **[!UICONTROL Similarity Cutoff]**：スライダーをドラッグして、選択した特性やセグメントに特性がどれくらい類似しているかに基づいてデータフィードをフィルタリングします。特性類似性スコアについて詳しくは、[特性類似性スコア](../../segments/trait-recommendations.md#trait-similarity-score)を参照してください。
 * **[!UICONTROL Subscription Status]**：サブスクリプション状況に基づいてデータフィードをフィルタリングします。
-* **[!UICONTROL Plan Use Case]**：サポートされるユースケース（**[!UICONTROL Activation]**、**[!UICONTROL Segments and Overlap]**、**[!UICONTROL Modelling]**）に基づいてデータフィードをフィルタリングします。
+* **[!UICONTROL Plan Use Case]**: サポートされている使用例に基づいて、データフィードをフィルターします。 **[!UICONTROL Activation]**、 **[!UICONTROL Segments and Overlap]**&#x200B;および **[!UICONTROL Modelling]**。
 * **[!UICONTROL Plan Unit]**：価格タイプに基づいてデータフィードをフィルタリングします。
 
 ## 類似した特性の検索 {#finding-similar-traits}
@@ -80,7 +83,7 @@ source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 
 類似した特性の見つけ方の完全な概要については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29370/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29370/)
 
 ## 非公開データフィード {#private-data-feeds}
 
