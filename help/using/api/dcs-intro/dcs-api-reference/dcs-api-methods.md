@@ -6,16 +6,19 @@ solution: Audience Manager
 title: DCS API メソッド
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 translation-type: tm+mt
-source-git-commit: bdea2609b84d7f80d67452b4c43e11cbef01a368
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 98%
 
 ---
 
 
 # DCS API メソッド {#dcs-api-methods}
 
-`GET` または `POST` メソッドを使用して [!UICONTROL DCS] [!DNL API] にデータを送信します。
+`GET` または `POST` メソッドを使用して [!DNL DCS] [!DNL API] にデータを送信します。
 
-`GET` メソッドまたは `POST` メソッドのどちらかを使用して、[!UICONTROL DCS] にデータを送信できます。[curl](https://curl.haxx.se/) / を使用した以下のサンプル呼び出しを見てみましょう。これら 3 つのサンプル呼び出しでは、シグナル `c_likes = famous popstar` および `c_loves = famous actress` をデバイスプロファイル `12345678901234567890123456789012345678` に追加しています。
+`GET` メソッドまたは `POST` メソッドのどちらかを使用して、[!DNL DCS] にデータを送信できます。[curl](https://curl.haxx.se/) / を使用した以下のサンプル呼び出しを見てみましょう。これら 3 つのサンプル呼び出しでは、シグナル `c_likes = famous popstar` および `c_loves = famous actress` をデバイスプロファイル `12345678901234567890123456789012345678` に追加しています。
 
 
 ## GET でのデータ送信 {#send-data-via-get}
