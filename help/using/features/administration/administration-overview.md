@@ -7,8 +7,11 @@ solution: Audience Manager
 title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-translation-type: ht
-source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +96,7 @@ source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 **レポート**
 
-* `PTRREPORTS`：このワイルドカード権限は、まもなく Audience Manager UI から削除される、古くなった機能を表します。
+* `PTRREPORTS`  — このワイルドカード権限は古い機能を参照しており、近日中にAudience Managerのユーザーインターフェイスから削除されます。
 
 **モデル**
 
