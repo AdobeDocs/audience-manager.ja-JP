@@ -5,8 +5,11 @@ seo-title: データガバナンス
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: データガバナンス
-translation-type: ht
-source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 96%
 
 ---
 
@@ -28,11 +31,11 @@ Audience Manager のデータガバナンスは、Audience Manager での顧客�
 
 >[!NOTE]
 >
->Audience Manager UI で アドレスを難読化する方法については、[IP アドレスの難読化](../../features/administration/ip-obfuscation.md)をお読みください。[!DNL IP]
+>See [IP Address Obfuscation](../../features/administration/ip-obfuscation.md) to learn how to enable [!DNL IP] address obfuscation in the Audience Manager user interface.
 
 Audience Managerでのどのよ [!DNL IP] アドレスの難読かについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
 **地理的分類：**[!DNL IP] アドレスの難読化を有効にした場合、その アドレスの残りのオクテットは引き続き、Audience Manager の地域特性およびレポートに使用できます。[!DNL IP][!DNL IP]アドレスの難読化を有効にしない場合、Audience Manager は完全な [!DNL IP] アドレスを使用します。どちらの場合でも、[!DNL IP] の場所を地理的地域によって特定できる地理的セグメンテーション機能を使用できますが、[!DNL IP] の難読化を使用している場合は、精度が少し落ちます。[!DNL IP] アドレスの不明化をおこなうと、市レベルの情報の取得が著しく困難になる場合があります。地域レベルおよび国レベルの情報の取得に関しては、それほど大きな影響はありません。地理的セグメンテーションデータの精度は市区町村レベルまたは郵便番号レベルにとどまり、個人レベルにまでは及びません。[地域に基づくターゲティング](../../features/traits/trait-geotarget-keys.md)と、地理的変数を使用した特性の設定方法についてお読みください。
 
