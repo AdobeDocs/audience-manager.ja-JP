@@ -6,10 +6,10 @@ solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ff245c2cca417e9b1fd51460ddbadd25d5696006
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 81%
+source-wordcount: '1509'
+ht-degree: 64%
 
 ---
 
@@ -22,76 +22,22 @@ ht-degree: 81%
 
 ## システムエラーコード {#system-error-codes}
 
-<table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> コード ID </th> 
-   <th colname="col2" class="entry"> エラーメッセージ </th> 
-   <th colname="col3" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>0 </p> </td> 
-   <td colname="col2"> <p>Unspecified error </p> </td> 
-   <td colname="col3"> <p>これは、他のエラーハンドラーでカバーされないイベントを処理する包括的なエラーです。このエラーのトラブルシューティングは困難です。種々の不明なアクションやイベントが原因になっている可能性があります。 </p> <p>このエラーが発生した場合は、<span class="wintitle">DCS</span> 要求をもう一度試してください。問題が解決しない場合は、アドビの担当者にお問い合わせください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Could not find config for hostname:    <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。このエラーメッセージが表示された場合は、アドビの担当者にご連絡ください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Invalid <code> d_orgid</code> value (could not find a config for this org id): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>組織 ID が正しくありません。 </p> <p>ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「管理ページ」を参照してください。 </p> </td> 
-  </tr>
- </tbody>
-</table>
+|エラーコード|エラーメッセージ|説明|
+|—|—|—|
+|0|未指定のエラー|他のエラーハンドラーでカバーされていないイベントを処理する包括的なエラーです。 このエラーのトラブルシューティングは困難です。種々の不明なアクションやイベントが原因になっている可能性があります。このエラーが発生した場合は、[!DNL DCS] 要求をもう一度試してください。Contact your [!DNL Adobe] representative if the problem persists.|
+|1|ホスト名の構成が見つかりませんでした： `hostname`|要求で送信されたホスト名は、アドビのパートナープロビジョニングチームによって設定されていません。 Contact your [!DNL Adobe] representative if you see this error message.|
+|2|無効な `d_orgid` 値（この組織IDの構成が見つかりませんでした）: `ID`|組織IDが正しくありません。 ID を確認して、要求をもう一度試してください。If you do not know or have your Organization ID, see the &quot;Administration Page&quot; section [Organizations and account linking](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html) for information about how to find it.|
 
 ## 統合エラーコード {#integration-error-codes}
 
-<table id="table_EFF06FB3D045459BA7802872AF22DF79"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> コード ID </th> 
-   <th colname="col2" class="entry"> メッセージ </th> 
-   <th colname="col3" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>100 </p> </td> 
-   <td colname="col2"> <p>Could not retrieve host name for the request </p> </td> 
-   <td colname="col3"> <p>API 呼び出しで送信された要求にホスト HTTP ヘッダーが含まれていませんでした。 </p> <p>ホストヘッダーを呼び出しに追加して、もう一度試してください。なお、ほとんどのブラウザーおよび API クライアントでは、これを自動的におこないます。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>Invalid Experience Cloud ID passed in <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p><span class="wintitle">DCS</span> 呼び出しに無効な <span class="keyword">Experience Cloud</span> ID が含まれています。 </p> <p>ヘッダー文字列の <code> d_mid=</code> キー値ペアを確認してください。正しい <span class="keyword">Experience Cloud</span> ID を渡していることを確認して、要求をもう一度試してください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>Invalid aam id passed in request <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p><span class="wintitle">DCS</span> 呼び出しに無効な <span class="keyword">Audience Manager</span> ID が含まれています。 </p> <p>ヘッダー文字列の <code> d_uuid=</code> キー値ペアを確認してください。正しい <span class="keyword">Audience Manager</span> ID を渡していることを確認して、要求をもう一度試してください。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>104 </p> </td> 
-   <td colname="col2"> <p>All customer ids are invalid </p> </td> 
-   <td colname="col3"> <p>呼び出しに含まれているすべての顧客 ID が無効です。ID を確認して、もう一度試してください。 </p> </td> 
-  </tr>
-    <tr> 
-   <td colname="col1"> <p>109</p> </td> 
-   <td colname="col2"> <p>リファラー <code>HTTP referer</code> はパートナーの <code>Partner ID</code> で使用できます。 </p> </td> 
-   <td colname="col3"> <p>呼び出しの <code>HTTP referer</code> ヘッダーは、呼び出しのパートナー ID では使用できません。<code>HTTP referer</code> ヘッダーが正しいことを確認します。</p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>111 </p> </td> 
-   <td colname="col2"> <p>Invalid <span class="wintitle">IMS</span> token received </p> </td> 
-   <td colname="col3"> <p>Audience Manager と Adobe Target が統合されている場合に返されます。エラーがスローされるのは、無効な IMS トークンを含んだ呼び出しが DCS に対しておこなわれた場合です。トークンの形式が正しくないか有効期限が切れている、または要求したリソースにアクセスする権限をユーザーが持っていない可能性があります。 </p> </td>
-  </tr>
- </tbody>
-</table>
+|エラーコード|エラーメッセージ|説明|
+|—|—|—|
+|100|要求のホスト名を取得できませんでした| [!DNL API] 呼び出しは、要求のホスト [!DNL HTTP] ヘッダーを送信しませんでした。 呼び出追加しに対するホストヘッダーを指定して、もう一度やり直してください。 Most browsers and [!DNL API] clients do this automatically. |
+|101|無効な [!DNL Experience Cloud] IDが渡されました `ID`| [!DNL DCS] 呼び出しに無効な [!DNL Experience Cloud] IDが含まれています。 ヘッダー文字列の `d_mid=` キー値ペアを確認してください。正しい [!DNL Experience Cloud] ID を渡していることを確認して、要求をもう一度試してください。|
+|102|無効な値が要求 [!DNL AAM ID] に渡されました `ID`| [!DNL DCS] 呼び出しに無効な [!DNL Audience Manager] IDが含まれています。 ヘッダー文字列の `d_uuid=` キー値ペアを確認してください。正しい [!DNL Audience Manager] ID を渡していることを確認して、要求をもう一度試してください。|
+|104|すべての顧客IDが無効です |呼び出しのすべての顧客IDが無効です。 ID を確認して、もう一度試してください。|
+|109|リファラー `HTTP referer` はパートナーに対して許可されていません `Partner ID`|呼び出しの `HTTP referer` ヘッダーは、呼び出しのパートナーIDに対して許可されていません。 `HTTP referer` ヘッダーが正しいことを確認します。|
+|111|無効な `IMS` トークンを受け取りました| [!DNL Audience Manager] - [!DNL Adobe Target] 統合に対して返されました。 The error is thrown when a call is made to the [!DNL DCS], containing an invalid [!DNL IMS] token. トークンの形式が正しくないか、期限が切れているか、ユーザーが必要なリソースにアクセスする権限を持っていない可能性があります。|
 
 ## オプトアウトエラーコード {#opt-out-error-codes}
 
