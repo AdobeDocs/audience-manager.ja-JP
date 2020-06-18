@@ -5,8 +5,11 @@ seo-title: 受信データファイルの FTP 名とファイルサイズの要�
 solution: Audience Manager
 title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-translation-type: ht
-source-git-commit: 881ccf512e9776948e4507e321e972dd2079e21a
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +20,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 >[!WARNING]
 >
->FTP 設定のサポートは段階的に廃止されます。受信データファイルの取り込みは、既存の FTP 取り込みでサポートされますが、新しい取り込み用にオフラインデータをオンボードするには、Amazon S3 を使用することを強くお勧めします。詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
+>We are gradually phasing out support for [!DNL FTP] configurations. While inbound data file ingestion is still supported in existing [!DNL FTP] integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. 詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
 
 >[!NOTE]
 >
@@ -31,7 +34,7 @@ Audience Manager にデータを送信する際に従う必要がある必須フ
 
 使用可能なその他のファイル名の形式については、[カスタムパートナー統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)を参照してください。
 
->[!NOTE] {importance="high"}
+>[!NOTE] {importance=&quot;high&quot;}
 >
 >[!DNL Audience Manager] は、[!DNL ASCII] と [!DNL UTF-8] でエンコードされたファイルのみを処理します。
 
