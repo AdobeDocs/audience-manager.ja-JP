@@ -6,21 +6,24 @@ solution: Audience Manager
 title: DCS 応答からのユーザー ID と地域 ID の取得
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
 
 
 # DCS 応答からのユーザー ID と地域 ID の取得 {#get-user-ids-and-regions-from-a-dcs-response}
 
-この節では、[!UICONTROL DCS] 応答を解析して、[!UICONTROL DCS] へのリアルタイム呼び出しに必要な訪問者 ID と地域 ID を取得する方法について説明します。
+この節では、[!DNL DCS] 応答を解析して、[!DNL DCS] へのリアルタイム呼び出しに必要な訪問者 ID と地域 ID を取得する方法について説明します。
 
 ## ユーザー ID と地域 ID {#user-region-ids}
 
-[!UICONTROL DCS] 応答には、サイト訪問者に関するデータが含まれています。[!UICONTROL DCS] へのサーバー間呼び出しをおこなうには、訪問者 ID と地域 ID が必要です。
+[!DNL DCS] 応答には、サイト訪問者に関するデータが含まれています。[!DNL DCS] へのサーバー間呼び出しをおこなうには、訪問者 ID と地域 ID が必要です。
 
 * ユーザー ID は、データを識別し特定の訪問者に関連付けるのに必要になります。
-* 地域 ID が必要なのは、地域サーバー名に関連付けられているからです。地域サーバー名は [!UICONTROL DCS] へのデータ送信に必要になります。[!UICONTROL DCS] では、サイト訪問者に地理的に最も近いデータセンターに情報を保存します。[DCS 地域 ID、場所、ホスト名](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
+* 地域 ID が必要なのは、地域サーバー名に関連付けられているからです。地域サーバー名は [!DNL DCS] へのデータ送信に必要になります。[!DNL DCS] では、サイト訪問者に地理的に最も近いデータセンターに情報を保存します。[DCS 地域 ID、場所、ホスト名](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
 
 これらのパラメーターは次のとおりです。コードの&#x200B;*斜体*&#x200B;の部分には実際の情報が入ります。
 
@@ -34,12 +37,12 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code></span> </p> </td> 
+   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
    <td colname="col3"> <p> <code> "uuid":"123456789"</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>"dcs_region":<i> region ID</i></code> </p> </td> 
+   <td colname="col1"> <p><code>"dcs_region":<i>region ID</i></code> </p> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
    <td colname="col3"> <p> <code> "dcs_region":9</code> </p> </td> 
   </tr> 
@@ -61,4 +64,4 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ## 次の手順 {#next-steps}
 
-ユーザー ID と地域サーバー名が用意できたら、[!UICONTROL DCS] データの送受信を開始できます。[DCS API 呼び出しの実行](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)を参照してください。
+ユーザー ID と地域サーバー名が用意できたら、[!DNL DCS] データの送受信を開始できます。[DCS API 呼び出しの実行](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)を参照してください。
