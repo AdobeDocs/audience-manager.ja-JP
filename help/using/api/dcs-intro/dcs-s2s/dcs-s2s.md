@@ -5,15 +5,18 @@ seo-title: サーバー間データ転送用の DCS API
 solution: Audience Manager
 title: サーバー間データ転送用の DCS API
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
 
 
 # サーバー間データ転送用の DCS API{#dcs-apis-for-server-to-server-data-transfers}
 
-サーバー間（[!UICONTROL S2S]）[!DNL API] には、[!UICONTROL DCS] ユーザーデータの送受信や独自システムまたはアプリケーションでの操作を可能にするコードおよびメソッドが用意されています。
+サーバー間（[!UICONTROL S2S]）[!DNL API] には、[!DNL DCS] ユーザーデータの送受信や独自システムまたはアプリケーションでの操作を可能にするコードおよびメソッドが用意されています。
 
 ## 一般的なユースケース {#common-use-cases}
 
@@ -33,10 +36,10 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 現在、このガイドでは次のタスクの方法を説明しています。
 
-* [!DNL Audience Manager] のお客様として既に受信している [!UICONTROL DCS] ファイルからユーザー ID と地域 ID を取得する。
+* [!DNL Audience Manager] のお客様として既に受信している [!DNL DCS] ファイルからユーザー ID と地域 ID を取得する。
 
 * [!DNL Visitor ID Service] を使用している場合に、ユーザー ID と地域 ID を取得する。
-* ユーザー ID と地域 ID が用意できたら、[!UICONTROL DCS] への呼び出しをおこなう。
+* ユーザー ID と地域 ID が用意できたら、[!DNL DCS] への呼び出しをおこなう。
 
 今後、新しい方法が使用可能になったら、その説明も追加していきます。開始するには、以下の節を参照してください。
 
