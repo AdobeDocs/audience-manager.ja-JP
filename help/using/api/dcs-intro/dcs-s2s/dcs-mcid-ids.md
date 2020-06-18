@@ -5,9 +5,9 @@ seo-title: Adobe Experience Platform ID サービスを通じたユーザー ID 
 solution: Audience Manager
 title: Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 100%
 
@@ -16,14 +16,14 @@ ht-degree: 100%
 
 # Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得 {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
-ID サービスのお客様は、訪問者 Cookie を読み取って [!UICONTROL DCS] API 呼び出しの実行に必要な ID を取得する方法を、この節で確認してください。
+ID サービスのお客様は、訪問者 Cookie を読み取って [!DNL DCS] API 呼び出しの実行に必要な ID を取得する方法を、この節で確認してください。
 
 ## ID サービス Cookie からのユーザー ID の取得 {#get-user-ids-from-service-cookie}
 
-[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)では、Web サイトにアクセスするユーザーに訪問者 ID と地域 ID を割り当てます。[!DNL Experience Cloud] のあらゆるソリューションでユーザーはこれらの ID によって識別されるので、[!UICONTROL DCS] 呼び出しをおこなうには、これらの ID が必要になります。
+[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)では、Web サイトにアクセスするユーザーに訪問者 ID と地域 ID を割り当てます。[!DNL Experience Cloud] のあらゆるソリューションでユーザーはこれらの ID によって識別されるので、[!DNL DCS] 呼び出しをおこなうには、これらの ID が必要になります。
 
 * [!UICONTROL user ID] は、データを識別し特定の訪問者に関連付けるのに必要になります。
-* [!UICONTROL region ID] が必要なのは、地域サーバー名に関連付けられているからです。地域サーバー名は [!UICONTROL DCS] へのデータ送信に必要になります。[!UICONTROL DCS] では、サイト訪問者に地理的に最も近いデータセンターに情報を保存します。[DCS 地域 ID、場所、ホスト名](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
+* [!UICONTROL region ID] が必要なのは、地域サーバー名に関連付けられているからです。地域サーバー名は [!DNL DCS] へのデータ送信に必要になります。[!DNL DCS] では、サイト訪問者に地理的に最も近いデータセンターに情報を保存します。[DCS 地域 ID、場所、ホスト名](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
 
 ID サービスのお客様は、ID サービス Cookie から、または関数の呼び出しによって、この情報を抽出できます。必要なタスクや手順を次の表に示します。
 
@@ -72,4 +72,4 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
 
 ## 次の手順 {#next-steps}
 
-ユーザー ID と地域 ID が用意できたら、[!UICONTROL DCS] データの送受信を開始できます。[DCS API 呼び出しの実行](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)を参照してください。
+ユーザー ID と地域 ID が用意できたら、[!DNL DCS] データの送受信を開始できます。[DCS API 呼び出しの実行](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)を参照してください。
