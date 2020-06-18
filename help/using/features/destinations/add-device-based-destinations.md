@@ -1,21 +1,21 @@
 ---
-description: この記事では、Audience Manager UI から新しいデバイスベースの宛先を設定する方法について説明します。
-seo-description: この記事では、Audience Manager UI から新しいデバイスベースの宛先を設定する方法について説明します。
+description: この記事では、Audience Managerユーザーインターフェイスから、デバイスベースの新しい宛先を設定する方法を説明します。
+seo-description: この記事では、Audience Managerユーザーインターフェイスから、デバイスベースの新しい宛先を設定する方法を説明します。
 seo-title: 新しいデバイスベースの宛先の追加
 solution: Audience Manager
 title: 新しいデバイスベースの宛先の追加
-translation-type: ht
-source-git-commit: 69fb3601ac9de300032abc8730a40c41abc12d97
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 89%
 
 ---
 
 
 # 新しいデバイスベースの宛先の追加 {#add-new-device-based-destinations}
 
-この記事では、Audience Manager UI から新しいデバイスベースの宛先を設定する方法について説明します。
+この記事では、Audience Managerユーザーインターフェイスから、デバイスベースの新しい宛先を設定する方法を説明します。
 
 >[!IMPORTANT]
 >
