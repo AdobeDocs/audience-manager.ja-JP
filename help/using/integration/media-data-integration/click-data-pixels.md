@@ -6,9 +6,9 @@ solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '657'
 ht-degree: 95%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 95%
 
 # ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ {#capturing-campaign-click-data-via-pixel-calls}
 
-クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。[インプレッションの収集](/help/using/integration/media-data-integration/impression-data-pixels.md)と同様に、イベント呼び出しを処理するため、Audience Manager のデータ収集サーバー（[!UICONTROL DCS]）に送信されます。訪問者はその後、意図した Web アドレスにリダイレクトされます。
+クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。[インプレッションの収集](/help/using/integration/media-data-integration/impression-data-pixels.md)と同様に、イベント呼び出しを処理するため、Audience Manager のデータ収集サーバー（[!DNL DCS]）に送信されます。訪問者はその後、意図した Web アドレスにリダイレクトされます。
 
 >[!NOTE]
 >
->クライアントドメイン専用の正確な URL については、Adobe Audience Manager コンサルタントまたはアカウントリードにお問い合わせください。
+>Please contact your [!DNL Audience Manager] consulting or account lead for the exact [!DNL URL] specific to the client domain.
 
 ## 要件
 
