@@ -6,7 +6,10 @@ solution: Audience Manager
 title: リアルタイムデータ転送プロセスの説明
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
 translation-type: tm+mt
-source-git-commit: ea95df8531c00c183f22b09a4a78fc6b35ee279d
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
@@ -26,8 +29,8 @@ Audience Manager がサードパーティコンテンツプロバイダーとの
 リアルタイムデータ統合プロセスは、次のように機能します。
 
 1. ユーザーが Audience Manager コードを含む顧客のサイトを訪問します。
-1. Audience Manager が iframe を読み込んで、アドビの[!UICONTROL Data Collection Server]（[!UICONTROL DCS]）への呼び出しをおこないます。
-1. [!UICONTROL DCS] がサードパーティサーバーを（リアルタイムで）呼び出して、ベンダーがユーザーに関するセグメント情報を持っているかどうかをチェックします。
+1. Audience Manager が iframe を読み込んで、アドビの[!UICONTROL Data Collection Server]（[!DNL DCS]）への呼び出しをおこないます。
+1. [!DNL DCS] がサードパーティサーバーを（リアルタイムで）呼び出して、ベンダーがユーザーに関するセグメント情報を持っているかどうかをチェックします。
 1. コンテンツプロバイダーは、そのユーザーに関するセグメント情報を Audience Manager に返します。
 1. Audience Manager は、このセグメント情報を受信し、新しい特性およびセグメントのターゲティングと作成に使用できるようにします。
 
