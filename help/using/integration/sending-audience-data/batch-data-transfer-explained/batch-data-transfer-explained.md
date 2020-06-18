@@ -6,14 +6,17 @@ solution: Audience Manager
 title: バッチデータ転送プロセスの説明
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 93%
 
 ---
 
 
 # バッチデータ転送プロセスの説明 {#batch-data-transfer-process-described}
 
-Audience Manager におけるサードパーティベンダーとの非同期のバッチデータ交換に関する全般的な概要です。
+A general overview of how [!DNL Audience Manager] performs an asynchronous batch data exchange with a third-party vendor.
 
 ## バッチデータの統合
 
