@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS API 呼び出しでサポートされている属性
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 # DCS API 呼び出しでサポートされている属性 {#supported-attributes-for-dcs-api-calls}
 
-[!UICONTROL Data Collection Servers]（[!UICONTROL DCS]）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、[!UICONTROL DCS] リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
+[!UICONTROL Data Collection Servers]（[!DNL DCS]）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、[!DNL DCS] リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
 
 ## 属性プレフィックス {#attribute-prefixes}
 
-[!UICONTROL DCS] では、キー値ペアのキーに付加されている特定のプレフィックスに基づいて、渡すデータのタイプを分類します。
+[!DNL DCS] では、キー値ペアのキーに付加されている特定のプレフィックスに基づいて、渡すデータのタイプを分類します。
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ## d_ 属性 {#d-attributes}
 
-[!UICONTROL DCS] からのレスポンスが必要でない限り、これらはすべてオプションです。[!UICONTROL DCS] からのレスポンスが必要な場合は、`d_rtbd=json` が必須です。
+[!DNL DCS] からのレスポンスが必要でない限り、これらはすべてオプションです。[!DNL DCS] からのレスポンスが必要な場合は、`d_rtbd=json` が必須です。
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
