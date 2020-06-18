@@ -5,8 +5,11 @@ seo-title: 宛先の GDPR に関する考慮事項
 solution: Audience Manager
 title: 宛先の GDPR に関する考慮事項
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-translation-type: ht
-source-git-commit: 48d2060df55a693a768e956f88a5a03414435ba9
+translation-type: tm+mt
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +56,7 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table> -->
 
-## Audience Manager UI 更新 - Yahoo／Oath／DataX との統合 {#ui-update}
+## Audience Manager User Interface Update - Yahoo/Oath/DataX Integration {#ui-update}
 
 上記 IAB フレームワークへの更新に加えて、Yahoo／Oath／DataX では、分類 API と Audience API に **gdpr** および **gdpr_mode** という新しいパラメーターを追加しました。これらのパラメーターは、データプロセッサーまたはデータコントローラーとして特定のセグメントを処理する権限があることを Yahoo／Oath／DataX に知らせます。結果的に、Yahoo／Oath／DataX の宛先にセグメントを送信する Audience Manager のお客様は、Oath との合意に基づいて、適切なパラメーター（プロセッサーまたはコントローラー）を指定する必要があります。
 
