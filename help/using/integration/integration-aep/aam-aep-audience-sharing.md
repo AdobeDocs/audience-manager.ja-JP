@@ -5,11 +5,11 @@ seo-title: Audience Manager と Adobe Experience Platform の間でのオーデ�
 solution: Audience Manager
 title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
-translation-type: ht
-source-git-commit: 7dddf19aa3b0fc0655b1b206d9c8f0c772190601
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 36c820de5ccb68da6d0e519467edc869064b6e81
+workflow-type: tm+mt
+source-wordcount: '1177'
+ht-degree: 74%
 
 ---
 
@@ -98,6 +98,37 @@ Experience Platform セグメントから自動的に作成されたセグメン
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
+
+## Experience PlatformでのAudience Managerデータエクスポートコントロールのサポート {#aam-data-export-control-in-aep}
+
+Experience Platformでのデータ使用量のコンプライアンスを強化するために、該当するすべてのデータセットおよびフィールドに適切な [データ使用ラベルを付与する必要があります](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html)。 さらに、 [データ使用ポリシー](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) ( [Data Usage Labeling and Enforcement(DULE)フレームワークで概要を説明しているように、これらのラベルに対する特定のマーケティングアクションに対して、](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework)データ使用ポリシーを有効にする必要があります。
+
+Audience ManagerとExperience Platformの間でオーディエンスを共有するプロセスでは、Audience Managerセグメントに適用されたデータエクスポートコントロールは、Experience Platformデータガバナンスで認識される同等のラベルやマーケティングアクションに変換されます。
+
+>[!NOTE] データエクスポートコントロールの詳細については、『 [データエクスポートコントロール』のドキュメントを参照してください](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-export-controls.html)。
+このドキュメントでは、特定のAudience Managerデータのエクスポートコントロールを、Platformのデータ使用ラベルおよびマーケティングアクションにどのようにマッピングするかについて説明します。
+
+### データ使用ラベルに対するデータエクスポートコントロール
+
+次の表に、特定のデータエクスポートコントロールが、認識されるデータ使用ラベルにどのように対応しているかを示します。
+
+| データエクスポートコントロール | データ使用ラベル |
+| --- | --- |
+| 個人が特定できる情報と共に使用することはできません。 | C3: データを組み合わせたり、直接識別できる情報と組み合わせて使用することはできません。 |
+| オフサイト広告ターゲティングには使用できません | C5: データは、コンテンツや広告の関心に基づくクロスサイトターゲティングには使用できません。 |
+| オンサイト広告ターゲット設定には使用できません | C6: データはオンサイト広告のターゲット設定には使用できません |
+| オンサイトパーソナライゼーションには使用できません。 | C7: データは、コンテンツのオンサイトターゲティングには使用できません |
+
+### マーケティングアクションへのデータエクスポートコントロール
+
+次の表に、特定のデータエクスポートラベルと認識されるマーケティングアクションとの対応を示します。
+
+| データエクスポートラベル | マーケティングのアクション |
+| --- | --- |
+| This destination may enable a combination with personally identifiable information (PII) | PIIと組み合わせる |
+| This destination may be used for off-site ad targeting | クロスサイトターゲティング |
+| This destination may be used for on-site ad targeting | オンサイト広告 |
+| This destination may be used for on-site ad personalization | オンサイトパーソナライゼーション |
 
 ## Audience Manager と Experience Platform の間のセグメント母集団の違いの理解
 
