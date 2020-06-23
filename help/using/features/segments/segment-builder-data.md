@@ -5,8 +5,11 @@ seo-title: セグメントビルダーにおける特性とセグメントのユ
 solution: Audience Manager
 title: セグメントビルダーにおける特性とセグメントのユーザー数データ
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
-translation-type: ht
-source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
+translation-type: tm+mt
+source-git-commit: 63d89cac2f18538f56e2f6d0f64257ea9b5788bd
+workflow-type: tm+mt
+source-wordcount: '1294'
+ht-degree: 100%
 
 ---
 
@@ -156,5 +159,5 @@ source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
 >[!MORELIKETHIS]
 >
 >* [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](../../faq/faq-profile-merge.md)
->* [プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md)
+>* [プロファイルリンク](../profile-merge-rules/merge-rules-overview.md)
 
