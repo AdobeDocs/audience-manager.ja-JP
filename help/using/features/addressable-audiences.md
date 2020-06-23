@@ -8,75 +8,36 @@ title: アドレス可能なオーディエンス
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 94%
+source-wordcount: '1824'
+ht-degree: 44%
 
 ---
 
 
-# アドレス可能なオーディエンス {#addressable-audiences}
+# [!UICONTROL Addressable Audiences] {#addressable-audiences}
 
 An overview of the [!UICONTROL Addressable Audience] feature and use cases.
 
-## アドレス可能なオーディエンスとは何か{#addressable-audience-description}
+##  [!UICONTROL Addressable Audience]? {#addressable-audience-description}
 
 [!UICONTROL Addressable Audiences]では、[!DNL Audience Manager] がデータを収集している御社のすべてのシステムと選択された宛先との間のオーディエンスの重複を表示します。この概念を理解するには、次の図を参照してください。各円の重複は、各種のアドレス可能なオーディエンスを示します。
 
 ![](assets/addressableAudienceVenn.png)
 
-<table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 指標 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-    <tr> 
-   <td colname="col1"> <p> <b>Audience Manager's Addressable Audience for a Destination</b> </p> </td> 
-   <td colname="col2"> <p>プラットフォームレベルにおいて、レポートのルックバック期間に Audience Manager のお客様とのやり取りがあり、選択した宛先と一致するデバイスの総数。 </p> <p>この指標は次の情報が得られるため便利です。 </p> <p> 
-     <ul id="ul_67A82A40C7A64457822272B45D2817FC"> 
-      <li id="li_DAEFB565CE774F68AA29274A021F1E5A"> 特定のターゲット宛先に関して <span class="keyword">Audience Manager</span> が到達できるアドレス可能なオーディエンス全体のサイズ。 </li> 
-      <li id="li_AF26F88068CA44F7B5C4C42DE5E21055">ターゲットプラットフォームについての <span class="keyword">Audience Manager</span> のプロファイルプールの規模、およびそのオーディエンスのサイズ。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Total Audience</b> </p> </td> 
-   <td colname="col2"> <p>ルックバック期間に、御社のシステムにおけるルールベースの特性、またはオフラインファイルからのオンボードの特性に適合したデバイスの数。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Addressable Audience Match Rate</b> </p> </td> 
-   <td colname="col2"> 
-    <draft-comment> 
-     <p>ルックバック期間にルールベースの特性またはオンボードの特性に適合したデバイスと、同期のタイミングを問わず、選択された宛先との ID 同期がおこなわれたデバイスの間の重複数。 </p> 
-    </draft-comment> <p>この指標は次のようなデバイスを表しています。 
-     <ul id="ul_B609B402A29D44898DF0B1ABC6011D40"> 
-      <li id="li_27A530DE2AEB48069BECFB2D78E94C4E">ルックバック期間にルールベースの特性またはオンボードの特性に適合し、<b>かつ</b>、 </li> 
-      <li id="li_47C44ECAEC5844DEB11C6A93C8F061BB">同期の時間に関係なく、選択した宛先と ID が同期している。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>Customer Addressable Audience ÷ Customer Total Audience を％で表現したもの。 </p> </td> 
-  </tr>
-   <tr> 
-   <td colname="col1"> <p> <b>Total Segment Population</b> </p> </td> 
-   <td colname="col2"> <p>レポートのルックバック期間内にセグメントに属していたすべてのデバイスの数。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>レポートのルックバック期間中にセグメントに属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。セグメントには、<a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md">Audience Marketplace</a> で取得した経由で、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含むことができます。 </p> <p> <p>ヒント：ルックバック期間を 1 日にした場合、この指標はセグメントの現在の状態を把握するのに役立ちます。それは、<span class="wintitle">セグメントのアドレス可能なオーディエンス</span>の指標が、前日の 1 日を通してセグメントに適合したユーザー数を示すからです。このことと、<span class="keyword">Audience Manager</span> では <span class="wintitle">アドレス可能なオーディエンス</span>が毎日更新されることを踏まえて、この指標とルックバック期間を組み合わせれば、セグメントに関する最新のスナップショットを得ることができます。 </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>Segment Addressable Audience ÷ Total Segment Population の総数を％で表現したもの。 </p> </td> 
-  </tr>  
- </tbody> 
-</table>
 
-## アドレス可能なオーディエンスのインターフェイス {#addressable-audience-interface}
+| 指標 | 説明 |
+|---|---|
+| [!UICONTROL Audience Manager Addressable Audience] の [!UICONTROL Destination] | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with your chosen [!UICONTROL destination]. <br><br>この指標は次の情報が得られるため便利です。 <ul><li>特定のターゲット設定に到達 [!UICONTROL addressable audience] で [!DNL Audience Manager] きる合計のサイズ [!UICONTROL destination]。</li><li>ターゲットプラットフォームについての [!DNL Audience Manager] のプロファイルプールの規模、およびそのオーディエンスのサイズ。</li></ul> |
+| [!UICONTROL Customer Total Audience] | A count of devices that have realized either a [!UICONTROL rule-based trait] on your properties or an [!UICONTROL onboarded trait] from your offline files during the look-back window. |
+| [!UICONTROL Addressable Audience Match Rate] | A count of overlap of devices that have realized either a [!UICONTROL rule-based trait] or an [!UICONTROL onboarded trait] during the look-back window and devices that we have an ID sync with the chosen [!UICONTROL destination] regardless of the time of syncs.<br><br>この指標は次のようなデバイスを表しています。<ul><li>Have realized either a [!UICONTROL rule-based] or an [!UICONTROL onboarded trait] during the look-back window `AND`</li><li>Have an ID sync with the chosen [!UICONTROL destination] regardless of the time of syncs.</li> |
+| [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] は、割合で表されます。 |
+| [!UICONTROL Total Segment Population] | A count of all the devices that were a member of your [!UICONTROL segment] during the report look-back period. |
+| [!UICONTROL Segment Addressable Audience] | The number of users who have belonged to the [!UICONTROL segment] during the report look-back period and have an active ID sync on your site. [!UICONTROL Segments] は、 [!UICONTROL traits] Audience Marketplaceで取得した、独自のファーストパーティデータと、サードパーティデータおよびサードパーティデータを含めるこ [とができます](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)。 <br><br>ヒント： 1日間のルックバック期間と共に使用すると、この指標は、現在の状態を把握するのに役立ち [!UICONTROL segments]ます。 This is because the [!UICONTROL Segment Addressable Audience] metric represents the users who stayed in a [!UICONTROL segment] throughout the previous day. Combine this with the fact that [!DNL Audience Manager] refreshes [!UICONTROL Addressable Audiences] daily, combining this metric and lookback period provides the most up-to-date snapshot of your [!UICONTROL segments]. |
+| [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population] は、割合で表されます。 |
+
+## [!UICONTROL Addressable Audiences] インターフェイス {#addressable-audience-interface}
 
 [!UICONTROL Addressable Audience]機能は、この抽象的な概念を定量化可能データに変換します。[!DNL Audience Manager] は、一目でわかる視覚化された情報と表形式の数値データによってオーディエンスの重複を表示します。
 
@@ -90,9 +51,9 @@ The three metrics you can see on the [!UICONTROL Addressable Audiences] landing 
 ---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | This metric represents the [!UICONTROL Customer Addressable Audience] (described in the table above) *for the last 30 days.* |
 | **[!UICONTROL Match Rate]** | This metric represents the [!UICONTROL Addressable Audience Match Rate] (described in the table above) *for the last 30 days*. |
-| **[!UICONTROL Lifetime Addressable Audience (Device)]** | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with this destination. 詳しくは、[プラットフォームレベルの指標](/help/using/features/addressable-audiences.md#platform-level-metrics)を参照してください。 |
+| **[!UICONTROL Lifetime Addressable Audience (Device)]** | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with this [!UICONTROL destination]. 詳しくは、[プラットフォームレベルの指標](/help/using/features/addressable-audiences.md#platform-level-metrics)を参照してください。 |
 
-サーバー間通信ベースの宛先の名前をクリックし、アドレス可能なオーディエンスデータを表示します。この機能はサーバー間通信ベースの宛先のデータのみを返し、アクセスには管理者権限が必要となることにご注意ください。
+Click on the name of a [!UICONTROL server-to-server destination] to view your addressable audience data. Note, this feature returns data for [!UICONTROL server-to-server destinations] only and access requires administrator permissions.
 
 ![](assets/addressableAudiences.png)
 
@@ -108,9 +69,9 @@ The three metrics you can see on the [!UICONTROL Addressable Audiences] landing 
 
 ### モバイルユーザーとマッチ率
 
-サードパーティ Cookie が存在しない [!DNL Safari] などのモバイルアプリユーザーとの同期では、数値の不一致が生じます。メディアの配信ログでは同期されたサードパーティ Cookie の[!DNL Adobe] ID のみが提供されるので、パートナーによってはユーザーとの同期が困難になります。この結果、宛先の[マッチ率が低下](../features/addressable-audiences.md#low-match-rates)する可能性があります。
+There are gaps when trying to connect [!DNL Safari] or mobile app users where there are no third-party [!DNL cookies] present. That makes it difficult to sync users with some partners because only those [!DNL Adobe] IDs for synced third-party [!DNL cookies] are provided in the media delivery logs. This is a reason why you might see [low match rates](../features/addressable-audiences.md#low-match-rates) for your [!UICONTROL destinations].
 
-## アドレス可能なオーディエンスおよび宛先での日付範囲 {#date-ranges}
+## およびの日付範囲 [!UICONTROL Addressable Audiences] [!UICONTROL Destinations] {#date-ranges}
 
 以下のセクションを読み、使用可能な日付範囲について、および [!UICONTROL Addressable Audience] または [!UICONTROL Destination] のレポートのそれぞれの間隔からのデータ経過時間を確認します。
 
@@ -141,7 +102,7 @@ The three metrics you can see on the [!UICONTROL Addressable Audiences] landing 
 
 また、31 日目には、これらの訪問者は 60 日、90 日、[!UICONTROL Lifetime]の結果にのみ含められます。これは、30 日の期間を超えたからです。訪問者は[!UICONTROL Lifetime]より古くなることはありません。
 
-## アドレス可能なオーディエンスの指標 {#addressable-audience-metrics}
+## [!UICONTROL Addressable Audiences] 指標 {#addressable-audience-metrics}
 
 ここでは、[!UICONTROL Addressable Audiences] で提供される指標のタイプについて説明します。
 
@@ -151,131 +112,54 @@ The three metrics you can see on the [!UICONTROL Addressable Audiences] landing 
 
 これらの指標は訪問者がサイトに訪れたとき、または [!DNL Audience Manager] にインバウンドデータファイルを送信したときに適合した特性のデータを返します。これらの指標は、お客様のアカウントに対応するオーディエンスサイズに関し、包括的な情報を提供します。
 
-<table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 指標 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Addressable Audience</b> </p> </td> 
-   <td colname="col2"> 
-    <draft-comment> 
-     <p>ルックバック期間にルールベースの特性またはオンボードの特性に適合したデバイスと、同期のタイミングを問わず、選択された宛先との ID 同期がおこなわれたデバイスの間の重複数。 </p> 
-    </draft-comment> <p>この指標は次のようなデバイスを表しています。 
-     <ul id="ul_B609B402A29D44898DF0B1ABC6011D40"> 
-      <li id="li_27A530DE2AEB48069BECFB2D78E94C4E">ルックバック期間にルールベースの特性またはオンボードの特性に適合し、<b>かつ</b>、 </li> 
-      <li id="li_47C44ECAEC5844DEB11C6A93C8F061BB">同期の時間に関係なく、選択した宛先と ID が同期している。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Total Audience</b> </p> </td> 
-   <td colname="col2"> <p>ルックバック期間に、御社のシステムにおけるルールベースの特性、またはオフラインファイルからのオンボードの特性に適合したデバイスの数。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Customer Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>Customer Addressable Audience ÷ Customer Total Audience を％で表現したもの。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 指標 | 説明 |
+|---|---|
+| [!UICONTROL Customer Addressable Audience] | A count of overlap of devices that have realized either a [!UICONTROL rule-based trait] or an [!UICONTROL onboarded trait] during the look-back window and devices that we have an ID sync with the chosen destination regardless of the time of syncs.<br><br>この指標は次のようなデバイスを表しています。<ul><li>Have realized either a [!UICONTROL rule-based] or an [!UICONTROL onboarded trait] during the look-back window `AND`</li><li>Have an ID sync with the chosen [!UICONTROL destination] regardless of the time of syncs.</li></ul> |
+| [!UICONTROL Customer Total Audience] | A count of devices that have realized either a [!UICONTROL rule-based trait] on your properties or an [!UICONTROL onboarded trait] from your offline files during the look-back window. |
+| [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] は、割合で表されます。 |
 
 ### セグメントレベルのマッチ率の指標 {#segment-level-metrics}
 
-これらの指標はセグメントのメンバーシップについてのデータを返します。これらは各セグメントについて、オーディエンスサイズに関するより詳細で正確な情報を提供します。
+These metrics return data on [!UICONTROL segment] membership. They help provide a more granular and accurate view of the audience size for each of your [!UICONTROL segments].
 
 >[!NOTE]
 >
->セグメントレベルとお客様レベルでは、ルックバック期間の適用のされ方が異なります。10 日前に訪問者がサイトに訪れてある特性に適合した場合、その後適合状態を維持し、2 日前にセグメントの適合が解除されます。7 日間のルックバック期間が適用された場合、これらの訪問者はセグメントレベルではカウントされますが、お客様レベルではカウントされません。
+>The way the look-back window is applied at the [!UICONTROL segment] level is different from that at the customer level. Visitors can come to the site and realize a [!UICONTROL trait] 10 days ago, and they could qualify for a [!UICONTROL segment] since then and dropped out of the [!UICONTROL segment] 2 days ago. When the 7 day look-back is applied, these visitors will be counted at the [!UICONTROL segment] level but not at the customer level.
 
-<table id="table_4185AA02CC774B6C93B02E45F88BBBD9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 指標 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>レポートのルックバック期間中にセグメントに属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。セグメントには、<a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md">Audience Marketplace</a> で取得した経由で、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含むことができます。 </p> <p> <p>ヒント：ルックバック期間を 1 日にした場合、この指標はセグメントの現在の状態を把握するのに役立ちます。それは、<span class="wintitle">セグメントのアドレス可能なオーディエンス</span>の指標が、前日の 1 日を通してセグメントに適合したユーザー数を示すからです。このことと、<span class="keyword">Audience Manager</span> では <span class="wintitle">アドレス可能なオーディエンス</span>が毎日更新されることを踏まえて、この指標とルックバック期間を組み合わせれば、セグメントに関する最新のスナップショットを得ることができます。 </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Total Segment Population</b> </p> </td> 
-   <td colname="col2"> <p>レポートのルックバック期間内にセグメントに属していたすべてのデバイスの数。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment Match Rate</b> </p> </td> 
-   <td colname="col2"> <p>セグメントのアドレス可能なオーディエンス ÷ セグメント母集団の総数を % で表現したもの。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 指標 | 説明 |
+|---|---|
+| [!UICONTROL Segment Addressable Audience] | The number of users who have belonged to the [!UICONTROL segment] during the report look-back period and have an active ID sync on your site. Segments can include your own first-party data and second party and third party data, via [!UICONTROL traits] acquired in the [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>ヒント： 1日間のルックバック期間と共に使用すると、この指標は、現在の状態を把握するのに役立ち [!UICONTROL segments]ます。 This is because the [!UICONTROL Segment Addressable Audience] metric represents the users who stayed in a [!UICONTROL segment] throughout the previous day. Combine this with the fact that [!DNL Audience Manager] refreshes [!UICONTROL Addressable Audiences] daily, combining this metric and lookback period provides the most up-to-date snapshot of your [!UICONTROL segments]. |
+| [!UICONTROL Total Segment Population] | A count of all the devices that were a member of your [!UICONTROL segment] during the report look-back period. |
+| [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] ÷ [!UICONTROL Total Segment Population] は、割合で表されます。 |
 
 ### プラットフォームレベルの指標 {#platform-level-metrics}
 
 This metric returns data on activities collected across all [!DNL Audience Manager] customers. They can provide a broader view of the customer&#39;s audience compared with the aggregated [!DNL Audience Manager] customers.
 
-<table id="table_B6654D9858FF46AF95B1C181D4608D26"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 指標 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Audience Manager's Addressable Audience</b> </p> </td> 
-   <td colname="col2"> <p>プラットフォームレベルにおいて、レポートのルックバック期間に Audience Manager のお客様とのやり取りがあり、選択した宛先と一致するデバイスの総数。 </p> <p>この指標は次の情報が得られるため便利です。 </p> <p> 
-     <ul id="ul_67A82A40C7A64457822272B45D2817FC"> 
-      <li id="li_DAEFB565CE774F68AA29274A021F1E5A"> 特定のターゲット宛先に関して <span class="keyword">Audience Manager</span> が到達できるアドレス可能なオーディエンス全体のサイズ。 </li> 
-      <li id="li_AF26F88068CA44F7B5C4C42DE5E21055">ターゲットプラットフォームについての <span class="keyword">Audience Manager</span> のプロファイルプールの規模、およびそのオーディエンスのサイズ。 </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 指標 | 説明 |
+|---|---|
+| [!DNL Audience Manager] [!UICONTROL Addressable Audience] | A count of all devices that have interacted with all [!DNL Audience Manager] customers at the platform-level during the report look-back period and that could be matched with your chosen [!UICONTROL destination]. <br><br>この指標は次の情報が得られるため便利です。<ul><li>特定のターゲット設定先 [!UICONTROL total addressable audience] で到達 [!DNL Audience Manager] できるサイズ。</li><li>ターゲットプラットフォームについての [!DNL Audience Manager] のプロファイルプールの規模、およびそのオーディエンスのサイズ。</li></ul> |
 
-## お客様のアドレス可能なオーディエンスとセグメントのアドレス可能なオーディエンスの比較{#comparing-metrics}
+## [!UICONTROL Customer] と [!UICONTROL Segment Addressable Audiences] の比較 {#comparing-metrics}
 
 1 つの指標が大幅に他と異なる場合、[!UICONTROL Customer Addressable Audience] と [!UICONTROL Segment Addressable Audience] の指標を比較しないでください。これらは個々に異なる独立した指標です。上記の説明のとおり、これらはそれぞれ異なるデータセットから引き出されるものです。そのため、一方の指標がもう一方の指標より大きくても、何も結論付けるべきではありません。これらの比較を通して言えるのは以下のことのみとなります。
 
-* [!UICONTROL Customer Addressable Audiences]は、*自社のファーストパーティデータ*&#x200B;の特性認定に基づきます。この指標からは、データパートナーとの統合に関して幅広い包括的な情報が得られます。
+* [!UICONTROL Customer Addressable Audiences] は、自社のファーストパーティデータ [!UICONTROL trait] の実現に基づいています **。 この指標からは、データパートナーとの統合に関して幅広い包括的な情報が得られます。
 
-* [!UICONTROL Segment Addressable Audiences]は、*自社のファーストパーティデータとセカンドパーティおよびサードパーティデータのセグメント認定*&#x200B;に基づきます。この指標からは、ターゲットプラットフォームのアドレス可能なオーディエンスに関してより詳細で正確な情報が得られます。
+* [!UICONTROL Segment Addressable Audiences]は、*自社のファーストパーティデータとセカンドパーティおよびサードパーティデータのセグメント認定*&#x200B;に基づきます。This metric provides a granular, more accurate view of your [!UICONTROL addressable audiences] in a targeting platform.
 
-## アドレス可能なオーディエンスのマッチ率の低下の原因 {#low-match-rates}
+## Causes of Low Match Rates for [!UICONTROL Addressable Audiences] {#low-match-rates}
 
 [!UICONTROL Addressable Audience]のマッチ率の低下またはレポートされる数値の不一致を引き起こす原因となる一般的な要素。
 
-<!-- addressable-audiences.xml -->
+| 原因 | 説明 |
+|---|---|
+| モバイルトラフィック | Most [!UICONTROL server-to-server] integrations rely on synchronization processes facilitated by third-party [!DNL cookies]. However, mobile environments do not use third-party [!DNL cookies]. As a result, your [!UICONTROL Addressable Audiences] numbers may seem low compared to [!UICONTROL segment] size. <br><br>2018年1月時点で、モバイルオーディエンスは、 [!DNL Google] オーディエンス用に設定されたものと同じ方法でアクティブ化でき [!DNL Adobe Advertising Cloud][!UICONTROL cookie-based] ます。 While this means that you can send [!UICONTROL segments] with combined [!DNL cookie] and mobile ID membership to your [!DNL Google] and [!DNL Advertising Cloud] destinations, keep in mind that [!UICONTROL Addressable Audiences] only display the overlap between [!DNL cookie] IDs and destinations. [!DNL Audience Manager] は、100 %のモバイルオーディエンスをに送信し [!UICONTROL destinations]ますが、モバイルオーディエンスは [!UICONTROL Addressable Audience] 指標で測定されません。 <br><br>**注意&#x200B;**: 例えば、1,000,000の母集団[!UICONTROL segment]を持つを例にとります。 これを宛先[!UICONTROL segment]または宛先にマップすると、700,000個のデバイス[!DNL Google]と70%のデバイスが表示さ[!DNL Adobe Advertising Cloud][!UICONTROL Addressable Audience][!UICONTROL Match Rate]れる場合があります。 The membership of 700,000 consists of[!DNL cookie]IDs which have an ID sync with the[!UICONTROL destination]. Your[!UICONTROL Addressable Audience]might, in fact, be much higher, because addressable mobile IDs do not appear in this metric. |
+| [!DNL Safari] トラフィック | [!DNL Safari] サードパーティをブロック [!DNL cookies]します。 This prevents [!DNL Audience Manager] from synchronizing IDs with the [!UICONTROL destination]. [ITP 2.0の導入に伴い](https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/)、ユー [!UICONTROL addressable audiences][!DNL Safari] ザを含めないことを期待できます。 |
+| 追跡されたメディアのインプレッション | 広告サーバーにおいて推奨される慣例により、ID 同期は広告タグ内でおこなわれません。大規模なオフサイト広告をおこなう場合、これらの環境ではユーザーとサードパーティの統合先は同期されません。Also, a large amount of collected media impression data could reduce [!UICONTROL addressable audience] numbers. |
 
-<table id="table_895D536F69134330A4F13887ECAFD4F5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 原因 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>モバイルトラフィック</b> </p> </td> 
-   <td colname="col2"> <p>サーバー間統合の大半はサードパーティ Cookie によって促進される同期プロセスに依拠しています。しかし、モバイル環境においては、サードパーティ Cookie は使用されません。その結果、アドレス可能なオーディエンスの数はセグメントサイズに対して少なく見えます。 </p> <p>2018 年 1 月以降、Cookie ベースのオーディエンス用に設定された Google および Adobe Advertising Cloud の同じ宛先において、モバイルオーディエンスをアクティブ化することができるようになりました。これにより、Cookie とモバイル ID のメンバーシップを組み合わせたセグメントを Google および Advertising Cloud の宛先に送信できますが、アドレス可能なオーディエンスにおいては Cookie ID と宛先の間の重複のみが表示されることに注意してください。Audience Manager はすべてのモバイルオーディエンスを宛先に送信しますが、モバイルオーディエンスはアドレス可能なオーディエンスの指標によって測定されません。 </p> <p> <p><b>注意</b>：例えば、母集団が 1,000,000 のセグメントがあったとします。このセグメントを Google または Adobe Advertising Cloud の宛先にマッピングした結果、アドレス可能なオーディエンスは 700,000 デバイス、マッチ率は 70% となったとします。700,000 を構成するメンバーシップは、宛先との ID 同期がおこなわれた Cookie ID となります。アドレス可能なモバイル ID はこの指標では表示されないので、実際のアドレス可能なオーディエンスはこれよりも大きい可能性があります。 </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Safari トラフィック</b> </p> </td> 
-   <td colname="col2"> <p>Safari ではサードパーティ Cookie はブロックされます。そのため、Audience Manager は宛先との ID 同期をおこなうことができません。<a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external">ITP 2.0</a> の導入によって、アドレス可能なオーディエンスに Safari ユーザーが含まれなくなります。 </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>追跡されたメディアのインプレッション</b> </p> </td> 
-   <td colname="col2"> <p>広告サーバーにおいて推奨される慣例により、ID 同期は広告タグ内でおこなわれません。大規模なオフサイト広告をおこなう場合、これらの環境ではユーザーとサードパーティの統合先は同期されません。また、収集された大量のメディアインプレッションデータによって、アドレス可能なオーディエンスの数が少なくなることがあります。 </p> </td>
-  </tr> 
- </tbody> 
-</table>
-
-## アドレス可能なオーディエンスを使用したトラブルシューティング {#troubleshooting}
+## トラブルシューティング [!UICONTROL Addressable Audiences] {#troubleshooting}
 
 [!UICONTROL Addressable Audiences]はマッチ率を割り出すだけでなく、トラブルシューティングのツールとしても使用できます。
 
-<!-- addressable-audiences-troubleshooting.xml -->
-
-例えば、宛先にセグメントを送ったところ、その宛先についてレポートされた数値が低かったとします。[!UICONTROL Addressable Audience]の結果を確認することで、これが技術的な問題なのか、または単にマッチ率が低いだけなのかがわかります。低いマッチ率は、選択したセグメントに対して宛先が適切でないことを示します。However, a difference in the total addressable audience numbers between [!DNL Audience Manager] and the destination indicates an integration, synchronization, or other technical problem. その場合、担当のアカウントマネージャーにお問い合わせください。
+For example, let&#39;s say you send a segment to a [!UICONTROL destination] and that [!UICONTROL destination] shows low reporting numbers. [!UICONTROL Addressable Audience]の結果を確認することで、これが技術的な問題なのか、または単にマッチ率が低いだけなのかがわかります。A low match rate shows your [!UICONTROL destination] isn&#39;t all that great for your selected segments. However, a difference in the [!UICONTROL total addressable audience] numbers between [!DNL Audience Manager] and the [!UICONTROL destination] indicates an integration, synchronization, or other technical problem. その場合、担当のアカウントマネージャーにお問い合わせください。
