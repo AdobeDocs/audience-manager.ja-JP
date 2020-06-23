@@ -7,27 +7,25 @@ solution: Audience Manager
 title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 85%
+source-wordcount: '1191'
+ht-degree: 81%
 
 ---
 
 
-# 宣言された ID {#declared-ids}
+# [!UICONTROL Declared IDs] {#declared-ids}
 
-宣言された ID の機能、セットアップ手順、コード例、変数について説明します。
+How [!UICONTROL declared IDs] work, set up procedures, code examples, and variables.
 
-## 宣言された ID のターゲティング {#declared-id-targeting}
+## [!UICONTROL Declared ID] ターゲット設定 {#declared-id-targeting}
 
-Exchange and synchronize user IDs with [!DNL Audience Manager] from devices or browsers that do not use or accept persistent storage mechanisms, such as third-party cookies.
+Exchange and synchronize user IDs with [!DNL Audience Manager] from devices or browsers that do not use or accept persistent storage mechanisms, such as third-party [!DNL cookies].
 
-<!-- declared_id_about.xml -->
+## ター [!UICONTROL Declared ID] ゲティングの目的 {#declared-id-targeting-purpose}
 
-## 宣言された ID のターゲティングの目的 {#declared-id-targeting-purpose}
-
-一部のブラウザーやほとんどのモバイルデバイスでは、サードパーティ Cookie を許可していません。そのため、サイト訪問者に関する情報の保持や永続的 ID の割り当てが難しくなります。To resolve this issue, [!DNL Audience Manager] uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. また、[!UICONTROL declared ID]は、[!DNL Experience Cloud] のすべてのソリューションで同じユーザーに適用される汎用 ID としても機能できます。ID のターゲティング／マッチング処理を次の表で説明します。
+Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]. そのため、サイト訪問者に関する情報の保持や永続的 ID の割り当てが難しくなります。To resolve this issue, [!DNL Audience Manager] uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. また、[!UICONTROL declared ID]は、[!DNL Experience Cloud] のすべてのソリューションで同じユーザーに適用される汎用 ID としても機能できます。ID のターゲティング／マッチング処理を次の表で説明します。
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -60,18 +58,18 @@ Exchange and synchronize user IDs with [!DNL Audience Manager] from devices or b
 
 ## オプトアウト呼び出し {#opt-out-calls}
 
-[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message &quot;Encountered opt out tag&quot;, instead of the [!DNL Audience Manager] user ID.
+[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] は、内でオプトアウトを受け渡すこと [!UICONTROL declared ID] ができ [!DNL Audience Manager][!UICONTROL UUID][!DNL URL]ます。
 * [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。Additionally, [!DNL Audience Manager] opts the user out from that particular region on the edge (the opt-out does not cross [!DNL DCS] regions).
 
 データ収集のオプトアウトについて詳しくは、[データのプライバシー](../overview/data-security-and-privacy/data-privacy.md)を参照してください。
 
-## 宣言された ID のオプトアウトの例 {#opt-out-examples}
+## [!UICONTROL Declared ID] オプトアウトの例 {#opt-out-examples}
 
 `d_cid` および `d_cid_ic` のキー値ペアを使用して、[!UICONTROL declared ID] のオプトアウトリクエストをおこなうことができます。`d_dpid` や `d_dpuuid` などの従来のパラメーターはまだ機能しますが、既に非推奨（廃止予定）となっています。詳しくは、[DPID と DPUUID に代わる CID](../reference/cid.md) を参照してください。以下の例で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
-### CID および CID_IC を使用したオプトアウト
+### オプトアウト(お [!UICONTROL CID] よび [!UICONTROL CID_IC]
 
 説明と構文については、[宣言された ID の URL 変数および構文](../features/declared-ids.md#variables-and-syntax)を参照してください。
 
@@ -98,7 +96,7 @@ Exchange and synchronize user IDs with [!DNL Audience Manager] from devices or b
  </tbody> 
 </table>
 
-### DPID、DPUUID、UUID を使用したオプトアウト（廃止予定）
+### オプトアウト( [!UICONTROL DPID]、 [!UICONTROL DPUUID]および [!UICONTROL UUID] （廃止）
 
 これらの方法はまだ機能しますが、既に非推奨（廃止予定）となっています。この情報は、従来手法の参考などのために提供するものです。従来のオプトアウト方法は次のとおりです。
 
@@ -125,9 +123,7 @@ Exchange and synchronize user IDs with [!DNL Audience Manager] from devices or b
  </tbody> 
 </table>
 
-## 宣言された ID の変数および構文 {#variables-and-syntax}
-
-<!-- c_declared_id_var_syntax.xml -->
+## 変数と構文 [!UICONTROL Declared IDs] {#variables-and-syntax}
 
 以下の表に、[!DNL Audience Manager] でデータプロバイダー ID およびユーザー ID または統合コード（使用する場合）を渡すキー値ペアを示します。なお、*斜体*&#x200B;の部分には実際の情報が入ります。読みやすくするために、スペースが追加されています。
 
@@ -182,13 +178,11 @@ Exchange and synchronize user IDs with [!DNL Audience Manager] from devices or b
  </tbody> 
 </table>
 
-## 宣言された ID 変数 {#declared-id-variables}
+## [!UICONTROL Declared ID] 変数 {#declared-id-variables}
 
-宣言された ID を [!UICONTROL DIL] を通じて [!DNL Audience Manager.] に渡すための設定変数について説明します。
+Describes the configuration variables used to pass [!UICONTROL declared IDs] through [!UICONTROL DIL] to [!DNL Audience Manager.]
 
-## DIL は宣言された ID を Adobe Experience Platform ID サービスを使用して渡す {#dil-id-service-pass-declared-ids}
-
-<!-- r_dil_declared_id_vars.xml -->
+## [!UICONTROL DIL] を使用し [!DNL Adobe Experience Platform Identity Service] てパス [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
 [Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用する場合、非推奨（廃止予定）の `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要はありません。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
 
@@ -229,9 +223,9 @@ var vDil = DIL.create({
  </tbody> 
 </table>
 
-### `DPID` および `DPUUID`
+### [!UICONTROL DPID] および [!UICONTROL DPUUID]
 
-[!DNL Audience Manager] は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。If an ID does not exist, [!DNL Audience Manager] creates a new user ID and synchronizes it to the `DPID/DPUUID` combination. Once [!DNL Audience Manager] matches or creates a user ID (the `UUID`) it returns that ID in the [!DNL JSON] response to the cookie in the client&#39;s domain (first-party cookie) or other local storage.
+[!DNL Audience Manager] は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。If an ID does not exist, [!DNL Audience Manager] creates a new user ID and synchronizes it to the `DPID/DPUUID` combination. Once [!DNL Audience Manager] matches or creates a user ID (the `UUID`) it returns that ID in the [!DNL JSON] response to the [!DNL cookie] in the client&#39;s domain (first-party [!DNL cookie]) or other local storage.
 
 [!UICONTROL DIL] v6.1 以前を使用している場合には、この関数を呼び出します。新しいバージョンでは [!DNL Adobe Experience Platform Identity Service] から [!UICONTROL declared IDs] を取得するので、この関数は非推奨（廃止予定）となっています。
 
@@ -249,7 +243,7 @@ DIL.create({
 >
 >You need to programmatically develop the code that supplies the ID values for the `d_dpuuid` and `d_dpid` keys.
 
-### DIL のインスタンス化の後に ID を渡す
+### Pass In IDs After [!UICONTROL DIL] Instantiates
 
 >[!NOTE]
 >
