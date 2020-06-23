@@ -6,40 +6,22 @@ solution: Audience Manager
 title: demdex ドメインの呼び出しについて
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 translation-type: tm+mt
-source-git-commit: d219f6fa1e2a8396b049f86391142c00e263b629
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 50%
 
 ---
 
 
-# demdex ドメインの呼び出しについて {#understanding-calls-to-the-demdex-domain}
+# Understanding Calls to the [!DNL Demdex] Domain {#understanding-calls-to-the-demdex-domain}
 
-[!DNL Audience Manager] および Adobe Experience Platform ID サービスは demdex.net ドメインを呼び出し、そこからデータを受け取ります。アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、`demdex.net` 呼び出しの構成要素について説明します。
+[!DNL Audience Manager] ドメインに対し [!DNL Adobe Experience Platform Identity Service] て呼び出し、ドメインからデータを受け取り `demdex.net` ます。 This may seem like [!DNL Adobe] is working with an unusual third-party domain, but this is not the case. この節では、`demdex.net` 呼び出しの構成要素について説明します。
 
-<table id="table_B846CBEDDA4C4AD19416F7C27FC325C6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 呼び出しの構成要素 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> demdex.net</code> </p> </td> 
-   <td colname="col2"> <p>これは、<span class="keyword">アドビ</span>が管理する従来のドメインです。<span class="keyword">Audience Manager</span> の買収前の名前（<span class="keyword">Demdex</span>）を反映したものです。<span class="keyword">アドビ</span>は 2011 年に <span class="keyword">Demdex</span> を買収し、<span class="keyword">Audience Manager</span> というブランド名に変更しました。このドメインは、<span class="keyword">Audience Manager</span>、<span class="wintitle">ID サービス</span>、アドビの既存のユーザーベースに密接に関連しているので、変更することは困難です。詳しくは、<a href="../overview/aam-overview.md#history-and-background">歴史と背景</a>を参照してください。 </p> <p>従来の <code> demdex.net</code> 呼び出しに他のプレフィックスが付いている場合があります（例：<code> dcs.demdex.net</code>、<code> fast.demdex.net</code> など）。プレフィックスにかかわらず、<code><i>something</i>.demdex.net</code> への呼び出しは常に<span class="keyword">アドビ</span>への呼び出しであり、不明な、または疑わしいサードパーティドメインへの呼び出しではありません。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <code> dpm</code> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> DPM</span> は <span class="wintitle">Data Provider Match</span>（データプロバイダーマッチ）の略語です。これにより、<span class="keyword">Audience Manager</span> または <span class="wintitle">ID サービス</span>からの呼び出しで同期または ID リクエストのために顧客データが渡されていることが、<span class="keyword">アドビ</span>の社内システムにわかります。これは、<span class="keyword">Audience Manager</span> または <span class="wintitle">ID サービス</span>からの <code> demdex.net</code> 呼び出しとして最も一般的なものです。 </p> <p><span class="wintitle">DPM 呼び出しの次の基本事項に留意してください。</span> </p> <p> 
-     <ul id="ul_44023BB060774518BE414EE10820C141"> 
-      <li id="li_0F94D1988A6944BA885FD40AB26FC49F"> <b><span class="keyword">Audience Manager</span></b>：<span class="keyword">Audience Manager</span> からの <span class="wintitle">DPM</span> 呼び出しでは、データを<span class="wintitle">データ収集サーバー</span>および<span class="wintitle">プロファイルキャッシュサーバー</span>に送信します。詳しくは、<a href="../reference/system-components/components-data-collection.md">データ収集コンポーネント</a>を参照してください。 </li> 
-      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b><span class="wintitle">ID サービス</span></b>：<span class="wintitle">ID サービス</span>からの <span class="wintitle">DPM</span> 呼び出しは、訪問者 ID のリクエストです。<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>、および <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/id-request.html" format="https" scope="external">Adobe Experience Platform ID サービスが ID をリクエストまたは設定する方法</a>を参照してください。 </li> 
-     </ul> </p> <p> <p>注意：<span class="wintitle">ID サービス</span>のお客様はドメイン名の <span class="wintitle">DPM</span> プレフィックスを変更できます。詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/subdomain-config.html" format="https" scope="external">audienceManagerServer と audienceManagerServerSecure</a> を参照してください。 </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 呼び出しの構成要素 | 説明 |
+|---|---|
+| `demdex.net` | This is a legacy domain controlled by [!DNL Adobe]. これは、 [!DNL Audience Manager] ([!DNL Demdex])の元の事前取得名を反映しています。 [!DNL Adobe] は 2011 年に [!DNL Demdex] を買収し、[!DNL Audience Manager] というブランド名に変更しました。It is difficult to change this domain because it is entwined deeply with [!DNL Audience Manager], the [!DNL Adobe Experience Cloud ID Service], and our installed user base. 従来の `demdex.net` 呼び出しに他のプレフィックスが付いている場合があります（例：`dcs.demdex.net`、`fast.demdex.net` など）。Regardless of the prefix, a call to `something.demdex.net` is always a call to [!DNL Adobe] and not to some unknown or suspicious third-party domain. |
+| `dpm` | [!DNL DPM] はの省略形で [!DNL Data Provider Match]す。 It tells internal, [!DNL Adobe] systems that a call from [!DNL Audience Manager] or the [!DNL Adobe Experience Cloud ID Service] is passing in customer data for synchronization or requesting an ID. This is the most common `demdex.net` call you&#39;ll see from [!DNL Audience Manager] or the [!DNL Adobe Experience Cloud ID Service]. <br><br>[!DNL DPM] 呼び出しの基本： <ul><li>[!DNL Audience Manager]: からの [!DNL DPM] 呼び出しは、データをとに [!DNL Audience Manager] 送信し [!DNL Data Collection Servers] ま [!DNL Profile Cache Servers]す。 [データ収集コンポーネント](../reference/system-components/components-data-collection.md)を参照してください。</li><li>[!DNL Adobe Experience Cloud ID Service]: からの [!DNL DPM] 呼び出し [!DNL Adobe Experience Cloud ID Service] は、訪問者IDのリクエストです。 「 [CookieとAdobe Experience PlatformIDサービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html) 」および「Adobe Experience PlatformIDサービスが要求するID [](https://docs.adobe.com/content/help/en/id-service/using/intro/id-request.html.</li></ul><br>注意： [!DNL Adobe Experience Cloud ID Service] ドメイン名のプレフィックスは変更でき [!DNL DPM] ます。 詳しくは、[audienceManagerServer と audienceManagerServerSecure](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/subdomain-config.html) を参照してください。 |
 
 >[!MORELIKETHIS]
 >
