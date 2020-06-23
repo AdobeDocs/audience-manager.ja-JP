@@ -6,9 +6,9 @@ solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '652'
 ht-degree: 95%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 # ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ {#capturing-campaign-click-data-via-pixel-calls}
 
-クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。[インプレッションの収集](/help/using/integration/media-data-integration/impression-data-pixels.md)と同様に、イベント呼び出しを処理するため、Audience Manager のデータ収集サーバー（[!DNL DCS]）に送信されます。訪問者はその後、意図した Web アドレスにリダイレクトされます。
+クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。[インプレッションの収集](/help/using/integration/media-data-integration/impression-data-pixels.md)[!DNL Audience Manager]と同様に、イベント呼び出しを処理するため、 のデータ収集サーバー（[!DNL DCS]）に送信されます。訪問者はその後、意図した Web アドレスにリダイレクトされます。
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## 追加機能 — Audience Optimization レポート
+## 追加機能 — [!UICONTROL Audience Optimization Reports]
 
 ピクセル呼び出しを使用して、[Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) レポートを強化できます。ピクセルを使用してレポートに出力する場合は、[メタデータファイルの概要とマッピング](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
 
