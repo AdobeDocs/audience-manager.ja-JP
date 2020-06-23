@@ -5,9 +5,9 @@ seo-title: Predictive Audiences の概要
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: f52321f3621d9eb6b9c5b643a3516f39f35466c2
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1251'
 ht-degree: 97%
 
 ---
@@ -110,7 +110,7 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
    >[!IMPORTANT]
    > Currently, the [!UICONTROL Total Segment Population] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for [!UICONTROL Predictive Audiences]. この動作は、将来のアップデートで変更されます。
 * [!UICONTROL Predictive Audiences] は、すべてのファーストパーティデータソースからのファーストパーティ特性に基づいて、オーディエンスの分類を実行します。
-* [!UICONTROL Predictive Audiences] のセグメント評価は、お客様のアカウントに定義されたデフォルトの **[!UICONTROL Profile Merge Rule]** を使用します。[!UICONTROL Profile Merge Rules] について詳しくは、該当する[ドキュメント](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)を参照してください。
+* [!UICONTROL Predictive Audiences] のセグメント評価は、お客様のアカウントに定義されたデフォルトの **[!UICONTROL Profile Merge Rule]** を使用します。[!UICONTROL Profile Merge Rules] について詳しくは、該当する[ドキュメント](../profile-merge-rules/merge-rules-overview.md)を参照してください。
 * 一部の特性およびセグメントは、ベースラインオーディエンスまたはターゲットオーディエンスとしてサポートされません。[!UICONTROL Predictive Audiences] モデルは、次のいずれかをベースラインオーディエンスまたはターゲットオーディエンスとして選択すると、保存に失敗します。
    * 予測特性および予測特性を使用して作成されたセグメント
    * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) の特性またはセグメント
