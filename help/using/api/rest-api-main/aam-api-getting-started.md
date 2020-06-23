@@ -6,15 +6,15 @@ solution: Audience Manager
 title: REST API の概要
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 84%
+source-wordcount: '1761'
+ht-degree: 80%
 
 ---
 
 
-# REST API の概要 {#getting-started-with-rest-apis}
+# Getting Started with [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis}
 
 Information about general requirements, authentication, optional query parameters, request [!DNL URLs], and other references.
 
@@ -46,7 +46,7 @@ Information about general requirements, authentication, optional query parameter
 >
 >Depending on your authentication method, you need to adjust your request [!DNL URLs] accordingly. 使用すべきホスト名について詳しくは、[環境](#environments)の節を参照してください。
 
-## JWT ([!DNL Service Account])認証 {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) 認証 {#jwt}
 
 ### 前提条件 {#prerequisites}
 
@@ -65,7 +65,7 @@ Information about general requirements, authentication, optional query parameter
 >
 >を設定し、自動処理するた [!DNL Audience Manager] め [!DNL REST APIs] に、プログラムを [!DNL JWT] 自動的に生成できます。 詳しい手順については、 [JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) を参照してください。
 
-## OAuth 認証（非推奨）{#oauth}
+## [!DNL OAuth] 認証（廃止） {#oauth}
 
 >[!WARNING]
 > [!DNL Audience Manager]  [!UICONTROL REST API] トークン認証および [!DNL OAuth 2.0] を使用した更新は、非推奨（廃止予定）となりました。
@@ -74,7 +74,7 @@ Information about general requirements, authentication, optional query parameter
 
 The [!DNL Audience Manager] [!UICONTROL REST API] follows [!DNL OAuth 2.0] standards for token authentication and renewal. 以下のセクションでは、[!DNL API] を認証し、使用を開始する方法について説明します。
 
-### 汎用の API ユーザーの作成 {#requirements}
+### Create a Generic [!DNL API] User {#requirements}
 
  [!DNL Audience Manager] を使用するための個別の技術的なユーザーアカウントを作成することをお勧めします。これは、組織の特定ユーザーに関連していない、または関連付けられていない一般的なアカウントです。[!DNL API]このような [!DNL API] ユーザーアカウントによって 2 つのことが可能になります。
 
@@ -87,15 +87,13 @@ Work with your [!DNL Audience Manager] consultant to set up a generic, [!DNL API
 
 ### パスワード認証ワークフロー {#password-authentication-workflow}
 
-<!-- oath-authentication.xml -->
-
 パスワード認証により、 [!DNL REST API] へのアクセスが保護されます。以下の手順は、ブラウザーで [!DNL JSON] クライアントからパスワードを認証する際のワークフローの概要を示しています。
 
 >[!TIP]
 >
 >更新トークンをデータベースに保存する場合は、アクセスと更新トークンを暗号化します。
 
-#### ステップ 1：API アクセスのリクエスト
+#### Step 1: Request [!DNL API] Access
 
 パートナーソリューションソリューションに問い合わせます。[!DNL API] クライアント ID と暗号鍵が通知されます。この ID と暗号鍵により、[!DNL API] での認証をおこないます。
 
@@ -107,7 +105,7 @@ Work with your [!DNL Audience Manager] consultant to set up a generic, [!DNL API
 
 * `POST` メソッドを使用して `https://api.demdex.com/oauth/token` を呼び出します。
 * クライアント ID と暗号鍵を、base-64 でエンコードされた文字列に変換します。この変換では、ID と暗号鍵はコロンで区切ります。例えば、資格情報 `testId : testSecret` は `dGVzdElkOnRlc3RTZWNyZXQ=` に変換されます。
-* [!DNL HTTP] ヘッダー `Authorization:Basic <base-64 clientID:clientSecret>` と `Content-Type: application/x-www-form-urlencoded` を渡します。ヘッダーの例を次に示します。<br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=`<br/>`Content-Type: application/x-www-form-urlencoded`
+* Pass in the [!DNL HTTP] [!DNL headers] `Authorization:Basic <base-64 clientID:clientSecret>` and `Content-Type: application/x-www-form-urlencoded` . ヘッダーの例を次に示します。<br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=`<br/>`Content-Type: application/x-www-form-urlencoded`
 * リクエストの本文を次のように設定します。
    <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
@@ -145,8 +143,8 @@ Work with your [!DNL Audience Manager] consultant to set up a generic, [!DNL API
 
 * `POST` メソッドを使用して `https://api.demdex.com/oauth/token` を呼び出します。
 * クライアント ID と暗号鍵を、base-64 でエンコードされた文字列に変換します。この変換では、ID と暗号鍵はコロンで区切ります。例えば、資格情報 `testId : testSecret` は `dGVzdElkOnRlc3RTZWNyZXQ=` に変換されます。
-* HTTP ヘッダー `Authorization:Basic <base-64 clientID:clientSecret>` と `Content-Type: application/x-www-form-urlencoded` を渡します。ヘッダーの例を以下に挙げます。<br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
-* リクエストの本文で、`grant_type:refresh_token` を指定し、前のアクセスリクエストで受け取った更新トークンを渡します。リクエストは次のようになっています。<br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
+* HTTP ヘッダー `Authorization:Basic <base-64 clientID:clientSecret>` と `Content-Type: application/x-www-form-urlencoded` を渡します。ヘッダーの例を以下に挙げます。<br> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br> `Content-Type: application/x-www-form-urlencoded`
+* リクエストの本文で、`grant_type:refresh_token` を指定し、前のアクセスリクエストで受け取った更新トークンを渡します。リクエストは次のようになっています。<br> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
 #### ステップ 2：新しいトークンの受け取り
 
@@ -166,11 +164,9 @@ Work with your [!DNL Audience Manager] consultant to set up a generic, [!DNL API
 
 The [!DNL Audience Manager] [!UICONTROL REST API] supports authorization code and implicit authentication. これらのアクセス方法を利用するには、ユーザーが `https://api.demdex.com/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
 
-## 認証済み API リクエストの作成 {#authenticated-api-requests}
+## Make Authenticated [!DNL API] Requests {#authenticated-api-requests}
 
 認証トークン受信後の [!DNL API] メソッドの呼び出しの要件。
-
-<!-- c_oauth_call_methods.xml -->
 
 使用可能な [!DNL API] メソッドに対する呼び出しをおこなうには：
 
@@ -178,11 +174,9 @@ The [!DNL Audience Manager] [!UICONTROL REST API] supports authorization code an
 * [JWT（サービスアカウント）認証](#jwt)を使用する場合、`x-api-key` ヘッダー（`client_id` と同じ）を提供する必要があります。`client_id` は、[Adobe I/O 統合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)ページから取得できます。
 * 必要な [!DNL API] メソッドを呼び出します。
 
-## オプションの API クエリパラメーター {#optional-api-query-parameters}
+## Optional [!DNL API] Query Parameters {#optional-api-query-parameters}
 
 オブジェクトのすべてのプロパティを返すメソッドに使用可能なオプションのパラメーターを設定します。
-
-<!-- c_rest_api_optional.xml -->
 
 オブジェクトの[!DNL API]すべて&#x200B;*のプロパティを返す* メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。
 
@@ -192,8 +186,8 @@ The [!DNL Audience Manager] [!UICONTROL REST API] supports authorization code an
 | `pageSize` | リクエストによって返された応答結果の番号を設定します（10 がデフォルト）。 |
 | `sortBy` | 指定された [!DNL JSON] プロパティに従って、結果を並べ替えて返します。 |
 | `descending` | 結果を降順で並べ替えて返します。`ascending` がデフォルトです。 |
-| `search` | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。`GET https://aam.adobe.io/v1/models/?search=Test`。「get all」メソッドで返されるすべての値を検索できます。 |
-| `folderId` | 指定されたフォルダー内の特性のすべての ID を返します。すべてのメソッドに対して使用できるわけではありません。 |
+| `search` | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。`GET https://aam.adobe.io/v1/models/?search=Test`。You can search on any value returned by a &quot;[!DNL get all]&quot; method. |
+| `folderId` | Returns all the IDs for [!UICONTROL traits] inside the specified folder. すべてのメソッドに対して使用できるわけではありません。 |
 | `permissions` | 指定された権限に基づいて、セグメントのリストを返します。`READ` がデフォルトです。 権限には以下のものがあります。<ul><li>`READ`：セグメントに関する情報を返して表示します。</li><li>`WRITE`：`PUT` を使用してセグメントを更新します。</li><li>`CREATE`：`POST` を使用してセグメントを作成します。</li><li>`DELETE`：セグメントの削除。基になる特性がある場合、その特性へのアクセス権が必要です。例えば、特性を削除する場合、セグメントに属する特性を削除する権限が必要です。</li></ul><br>複数の権限を個別のキーと値のペアで指定します。例えば、`READ` および `WRITE` 権限だけを持っているセグメントのリストを返すには、`"permissions":"READ"`、`"permissions":"WRITE"` を渡します。 |
 | `includePermissions` | ([!DNL Boolean]) Set to `true` to return your permissions for the segment. 初期設定は `false` です。 |
 
@@ -205,19 +199,17 @@ The [!DNL Audience Manager] [!UICONTROL REST API] supports authorization code an
 GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 ```
 
-## API URL {#api-urls}
+## [!DNL API URLs] {#api-urls}
 
 リクエストの [!DNL URLs]、ステージング環境および実稼動環境、バージョンの説明です。
 
-<!-- r_rest_urls.xml -->
-
-## URLのリクエスト {#request-urls}
+## リクエスト [!DNL URLs] {#request-urls}
 
 The following table lists the request [!DNL URLs] used to pass in [!DNL API] requests, by method.
 
-使用する認証方法に応じて、次の表に従ってリクエスト URL を調整する必要があります。
+Depending on the authentication method that you use, you need to adjust your request [!DNL URLs] according to the tables below.
 
-### JWT 認証のリクエスト URL {#request-urls-jwt}
+### 認証 [!DNL URLs][!DNL JWT] の要求 {#request-urls-jwt}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -233,7 +225,7 @@ The following table lists the request [!DNL URLs] used to pass in [!DNL API] req
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### OAuth 認証（非推奨）のリクエスト URL {#request-urls-oauth}
+### 認証 [!DNL URLs] のリクエスト( [!DNL OAuth] 廃止) {#request-urls-oauth}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -273,8 +265,6 @@ Depending on the authentication method that you use, you need to adjust your env
 ## レスポンスコードの定義 {#response-codes-defined}
 
 `HTTP` ステータスコードと、によって返される応答テキスト [!DNL Audience Manager][!UICONTROL REST API]。
-
-<!-- r_api_http_response_codes.xml -->
 
 | レスポンスコード ID | レスポンスのテキスト | 定義 |
 |---|---|---|
