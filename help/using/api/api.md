@@ -7,15 +7,15 @@ solution: Audience Manager
 title: API と SDK コード
 uuid: bf801e84-f914-4efd-8807-c4972474894a
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 88%
+source-wordcount: '74'
+ht-degree: 82%
 
 ---
 
 
-# API と SDK コード {#api-and-sdk-code}
+# [!DNL API] および [!DNL SDK] コード {#api-and-sdk-code}
 
 [!DNL API]とツールキットを組み合わせ、プログラムを使用して作業を行うことがで [!DNL Audience Manager]きます。
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 >以下の機能は、アドビの [!DNL API] ではサポートされません。
 >
 >* [!UICONTROL General]、[!UICONTROL Trend]、および [!UICONTROL Interactive] レポート。
->* 廃止済みの Tag Insertion Manager（[!DNL TIM]）機能。
+>* 非推奨 [!DNL Tag Insertion Manager] ([!DNL TIM])機能です。
 
 
 詳細：
