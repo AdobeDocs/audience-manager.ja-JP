@@ -7,19 +7,19 @@ solution: Audience Manager
 title: 類似（look-alike）モデリングについて
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 99%
+source-wordcount: '1590'
+ht-degree: 57%
 
 ---
 
 
-# 類似（look-alike）モデリングについて {#about-algorithmic-models}
+# Understanding [!UICONTROL Look-Alike Modeling] {#about-algorithmic-models}
 
-## 類似（look-alike）モデリングで新しいユーザーを発見 {#find-new-users}
+## 新しいユーザーの検索 [!UICONTROL Look-Alike Modeling] {#find-new-users}
 
-[!UICONTROL Look-Alike Modeling] を使用すると、自動データ分析により、新しいユニークオーディエンスを発見できます。このプロセスは、特性またはセグメント、時間間隔、ファーストパーティおよびサードパーティデータソースを選択した時点で開始します。この選択が、アルゴリズムモデルの入力となります。分析処理が実行されると、選択した母集団と共有する特徴に基づいて、該当するユーザーを検索します。完了すると、このデータは[特性ビルダー](../../features/traits/about-trait-builder.md)で使用可能になります。ここでは、このデータを使用して[精度とリーチ](../../features/traits/trait-accuracy-reach.md)に基づいて特性を作成できます。さらに、アルゴリズム特性とルールベースの特性を結合するセグメントを作成し、ブール式や比較演算子を使用して他の認定要件を追加することができます。[!UICONTROL Look-Alike Modeling] を使用すると、使用可能なすべての特性データから価値を動的に抽出できます。
+[!UICONTROL Look-Alike Modeling] を使用すると、自動データ分析により、新しいユニークオーディエンスを発見できます。The process starts when you select a [!UICONTROL trait] or [!UICONTROL segment], a time interval, and first and third-party [!UICONTROL data sources]. この選択が、アルゴリズムモデルの入力となります。分析処理が実行されると、選択した母集団と共有する特徴に基づいて、該当するユーザーを検索します。完了すると、このデータは[特性ビルダー](../../features/traits/about-trait-builder.md)で使用可能になります。ここでは、このデータを使用して[精度とリーチ](../../features/traits/trait-accuracy-reach.md)に基づいて特性を作成できます。Additionally, you can build segments that combine algorithmic traits with [!UICONTROL rules-based traits] and add other qualification requirements with [!DNL Boolean] expressions and comparison operators. [!UICONTROL Look-Alike Modeling] を使用すると、使用可能なすべての特性データから価値を動的に抽出できます。
 
 ## メリット {#advantages}
 
@@ -27,69 +27,65 @@ ht-degree: 99%
 
 * **データの精度：**&#x200B;アルゴリズムは定期的に実行されるので、結果は常に最新で関連性の高いものになります。
 * **自動化：**&#x200B;大規模な静的ルールのセットを管理する必要はありません。アルゴリズムがオーディエンスを特定します。
-* **時間の短縮と労力の削減：**&#x200B;モデリングプロセスにより、どの特性やセグメントが機能するか推測する必要はなくなり、また新しいオーディエンスを特定するためにキャンペーンに時間をかける必要もなくなります。この作業はモデルによりおこなうことができます。
+* **時間を節約し、手間を軽減：** 当社のモデリングプロセスでは、新しいオーディエンスを発見するために、何が役に立つ [!UICONTROL traits][!UICONTROL segments] かを推測したり、キャンペーンに時間を費やしたりする必要はありません。 この作業はモデルによりおこなうことができます。
 * **信頼性：**&#x200B;モデリングでは、サーバー側の特定および認証プロセスにより、自分のデータと、選択したアクセス可能なサードパーティデータを評価します。このため、特性についてサイトの訪問者を認定する場合、その全員を把握する必要はありません。
 
 ## ワークフロー {#workflow}
 
 **[!UICONTROL Audience Data > Models]**&#x200B;でモデルを管理します。全体的なワークフローとして、以下の処理をおこないます。
 
-* アルゴリズムにより評価するベースラインデータを選択する。これには特性またはセグメント、時間範囲、データソース（自分のデータや、[!DNL Audience Manager] からアクセス可能なサードパーティデータ）が含まれます。モデルの作成ワークフローでは、モデルの邪魔になる特性を除外できます。
-* モデルを保存する。保存したアルゴリズム評価プロセスは、自動的に実行されます。この処理が完了するまで最大 7 日かかります。アルゴリズムが完了し、結果を使用して特性を作成できるようになると、[!DNL Audience Manager] から電子メールが送信されます。
-* [!UICONTROL Trait Builder] でアルゴリズム特性を構築します。
-* [!UICONTROL Segment Builder] で特性をセグメントに組み合わせます。
-* セグメントデータを作成し、宛先に送信する。
+* アルゴリズムにより評価するベースラインデータを選択する。This includes a [!UICONTROL trait] or [!UICONTROL segment], time range, and [!UICONTROL data sources] (your own data and third-party data you already have access to through [!DNL Audience Manager]). In the model creation workflow, you can exclude the [!UICONTROL traits] that you don&#39;t want to interfere with your model.
+* モデルを保存する。保存したアルゴリズム評価プロセスは、自動的に実行されます。この処理が完了するまで最大 7 日かかります。[!DNL Audience Manager] アルゴリズムが完了し、結果を [!UICONTROL trait] 作成できる場合に電子メールを送信します。
+* Build algorithmic [!UICONTROL traits] in [!UICONTROL Trait Builder].
+* 組み合わ [!UICONTROL traits] せて [!UICONTROL segments] をインにし [!UICONTROL Segment Builder]ます。
+* データを作成し、 [!UICONTROL segment] に送信し [!UICONTROL destination]ます。
 
 ## トラブルシューティング {#troubleshooting}
 
-データの生成に 3 回連続で失敗した [!UICONTROL Look-Alike Model] は、非アクティブ化されます。後でモデルのステータスを「Active」に戻すことはできません。モデルがデータを生成するようにするには、データを蓄積するために十分な量の特性を持つデータソースからモデルを作成することが推奨されます。
+データの生成に 3 回連続で失敗した [!UICONTROL Look-Alike Model] は、非アクティブ化されます。後でモデルのステータスを「Active」に戻すことはできません。To ensure your models generate data, we recommend that you build models from data sources with sufficient [!UICONTROL traits] to accumulate data from.
 
-## TraitWeight について {#understanding-traitweight}
+## Understanding [!UICONTROL TraitWeight] {#understanding-traitweight}
 
-[!UICONTROL TraitWeight] は、新しい特性を自動的に検出するように設計された独自のアルゴリズムです。現在の特性およびセグメントの特性データを、[!DNL Audience Manager] を通じてアクセスできる他のあらゆるファーストパーティおよびサードパーティデータと比較します。この節では、[!UICONTROL TraitWeight] アルゴリズムの検出プロセスについて説明します。
-
-<!-- traitweight.xml -->
+[!UICONTROL TraitWeight] は、新しいを [!UICONTROL traits] 自動的に検出するように設計された独自のアルゴリズムです。 It compares [!UICONTROL trait] data from your current [!UICONTROL traits] and [!UICONTROL segments] against all other first and third-party data that you have access to through [!DNL Audience Manager]. この節では、[!UICONTROL TraitWeight] アルゴリズムの検出プロセスについて説明します。
 
 ![](assets/algo_model.png)
 
 次の手順は、[!UICONTROL TraitWeight] による評価プロセスを示しています。
 
-### 手順 1：特性比較のベースラインを作成する
+### Step 1: Build a Baseline for [!UICONTROL Trait] Comparison
 
-[!UICONTROL TraitWeight] はベースラインを作成するために、オーディエンスと関連付けられているすべての特性を 30 日、60 日、90 日の間隔で測定します。その後、頻度と相関関係に基づいて特性をランク付けします。頻度では一般性が測定されます。相関関係では、ベースラインオーディエンスのみでの特性の出現頻度が測定されます。出現頻度が高い特性は一般性が高いと見なされます。これは、選択したデータソースで検出される特性と組み合わせて重み付けスコアを設定するために使用する、重要な特徴です。
+To build a baseline, [!UICONTROL TraitWeight] measures all the [!UICONTROL traits] associated with an audience for a 30, 60, or 90 day interval. Next, it ranks [!UICONTROL traits] according to their frequency and their correlation. 頻度では一般性が測定されます。Correlation measures the likelihood of a [!UICONTROL trait] being present only in the baseline audience. [!UICONTROL Traits] これは多くの場合、共通性が高いと言われています。選択した内容と組み合わせて重み付けスコアを設定するのに使用される重要な特性で [!UICONTROL traits][!UICONTROL data sources]す。
 
-### 手順 2：データソースで同じ特性を検索する
+### 手順2: 同じも [!UICONTROL Traits] のを [!UICONTROL Data Source]
 
-比較のためのベースラインを作成した後、アルゴリズムは選択したデータソース内で同じ特性を検索します。この手順では、[!UICONTROL TraitWeight] は、見つかったすべての特性の頻度を計上し、ベースラインと比較します。しかし、ベースラインとは異なり、一般的でない特性は出現頻度が高い特性よりランクが高くなります。出現頻度が低い特性は、特異性が高いと見なされます。[!UICONTROL TraitWeight] は、一般的なベースライン特性と一般的でない（特異性が高い）データソース特性の組み合わせを、両方のデータセットに共通する特性より影響力が大きく望ましいと評価します。アドビのモデルでは、このような大規模で一般的な特性が認識され、相関関係が強いデータセットに過剰な優先度は割り当てられません。一般的でない特性の優先度が高くなるのは、このような特性のほうが、ボード全体で一般性の高い特性よりも、新しい個別ユーザーを表していると考えられるからです。
+After it builds a baseline for comparison, the algorithm looks for identical [!UICONTROL traits] in your selected [!UICONTROL data sources]. In this step, [!UICONTROL TraitWeight] performs a frequency count of all discovered [!UICONTROL traits] and compares them to the baseline. However, unlike the baseline, uncommon [!UICONTROL traits] are ranked higher than those that appear more often. Rare [!UICONTROL traits] are said to exhibit a high degree of specificity. [!UICONTROL TraitWeight] は、共通のベースラインと一般的でない（非常に特異的） [!UICONTROL traits] の組み合わせを、両方のデータセットに共通するよりも効果的または望ましいと [!UICONTROL data source][!UICONTROL traits][!UICONTROL traits] 評価します。 In fact, our model recognizes these large, common [!UICONTROL traits] and does not assign excess priority to data sets with high correlations. Rare [!UICONTROL traits] get higher priority because they are more likely to represent new, unique users than [!UICONTROL traits] with high commonality across the board.
 
 ### 手順 3：重みを割り当てる
 
-この手順では、[!UICONTROL TraitWeight] は新しく見つかった特性を、影響力や望ましさの順にランク付けします。重みの基準は、0%～100% の割合です。特性のランクが 100% に近づくと、基準となる母集団のオーディエンスに似ていることを意味します。また、重みの大きい特性は高く評価されます。これは、このような特性が、確立されたベースラインオーディエンスと同様に行動する可能性がある、新しい個別ユーザーを表しているためです。[!UICONTROL TraitWeight] は、ベースラインで一般性が高く、比較対象のデータで特異性が高い特性を、各データセットで共通の特性よりも高く評価します。
+In this step, [!UICONTROL TraitWeight] ranks newly discovered [!UICONTROL traits] in order of influence or desirability. 重みの基準は、0%～100% の割合です。[!UICONTROL Traits] 100%に近いランクは、基準母集団のオーディエンスに近いことを意味します。 Also, heavily weighted [!UICONTROL traits] are valuable because they represent new, unique users who may behave similarly to your established, baseline audience. Remember, [!UICONTROL TraitWeight] considers [!UICONTROL traits] with high commonality in the baseline and high specificity in the compared data sources to be more valuable than [!UICONTROL traits] common in each data set.
 
 ### 手順 4：ユーザーにスコアを割り当てる
 
-選択したデータソースに含まれる各ユーザーに、ユーザーのプロファイルでの影響力のある特性の重みの合計に等しいユーザースコアが割り当てられます。その後、各ユーザースコアが 0～100％の範囲で正規化されます。
+Each user in the selected [!UICONTROL data sources] is given a user score which is equal to the sum of all the weights of the influential [!UICONTROL traits] on that user&#39;s profile. その後、各ユーザースコアが 0～100％の範囲で正規化されます。
 
 ### 手順 5：結果を表示して操作する
 
-[!DNL Audience Manager] 重み付けされたモデルの結果がに表示され [!UICONTROL Trait Builder]ます。 アルゴリズム特性を作成する場合、[!UICONTROL Trait Builder]を使用すると、データ実行時にアルゴリズムにより生成された重み付けスコアに基づいて特性を作成できます。選択する精度を高くするほど、ユーザースコアが高いユーザー、つまり他のオーディエンスよりもベースラインオーディエンスに近いユーザーのみを認定できます。精度を低くすると、オーディエンス（リーチ）を広げることができます。
+[!DNL Audience Manager] 重み付けされたモデルの結果がに表示され [!UICONTROL Trait Builder]ます。 When you want to build an [!UICONTROL algorithmic trait], [!UICONTROL Trait Builder] lets you create [!UICONTROL traits] based on the weighted score generated by the algorithm during a data run. 選択する精度を高くするほど、ユーザースコアが高いユーザー、つまり他のオーディエンスよりもベースラインオーディエンスに近いユーザーのみを認定できます。精度を低くすると、オーディエンス（リーチ）を広げることができます。
 
-### 手順 6：処理サイクルにまたがって特性の重要性を再評価する
+### Step 6: Re-evaluate the Significance of a [!UICONTROL Trait] Across Processing Cycles
 
-[!UICONTROL TraitWeight] は定期的に、特性の母集団のサイズと変更に基づいて、特性の重要性を再評価します。この処理は、時間の経過とともに、特性について認定されたユーザーの数が増減すると発生します。この動作は、非常に大規模になる特性で最も明確に見られます。例えば、アルゴリズムが特性 A をモデリングに使用しているとします。特性 A の母集団が増加すると、[!UICONTROL TraitWeight] はこの特性を再評価し、低いスコアを割り当てたり、無視する場合があります。この場合、特性 A は一般性が高すぎるか大きすぎるので、母集団について重要性が高いとは言えません。[!UICONTROL TraitWeight] が特性 A の評価を下げる（またはモデル内で無視する）と、アルゴリズム特性の母集団が小さくなります。影響力のある特性のリストは、ベースライン母集団の増加を反映しています。影響力のある特性のリストを使用すると、これらの変化がなぜ発生しているかがわかります。
+Periodically, [!UICONTROL TraitWeight] re-evaluates the importance of a [!UICONTROL trait] based on the size and change in the population of that [!UICONTROL trait]. This happens as the number of users qualified for that [!UICONTROL trait] increases or decreases over time. この動作は、非常に大規模になる特性で最も明確に見られます。For example, suppose the algorithm uses [!UICONTROL trait A] for modeling. As the population of [!UICONTROL trait A] increases, [!UICONTROL TraitWeight] re-evaluates the importance of that [!UICONTROL trait] and may assign a lower score or ignore it. In this case, [!UICONTROL trait A] is too common or large to say anything significant about its population. After [!UICONTROL TraitWeight] reduces the value of [!UICONTROL trait A] (or ignores it in the model), the population of the algorithmic trait decreases. The list of influential [!UICONTROL traits] reflects the evolution of the baseline population. Use the list of the influential [!UICONTROL traits] to understand why these changes are occurring.
 
 関連リンク：
 
 * [モデルビルダー](../../features/algorithmic-models/create-model.md)
 * [精度とリーチ](../../features/traits/trait-accuracy-reach.md)
 
-## 類似（look-alike）モデルおよび特性の更新スケジュール {#update-schedule}
+## およびのスケジュール [!UICONTROL Look-Alike Models] を更新 [!UICONTROL Traits] {#update-schedule}
 
-新規または既存のアルゴリズムモデルおよび特性の作成と更新のスケジュールについて説明します。
+新規または既存のおよびのスケジュールを作成および更新 [!UICONTROL algorithmic models] し [!UICONTROL traits]ます。
 
-<!-- c_model_update_schedule.xml -->
-
-### 類似（look-alike）モデルの作成および更新スケジュール
+### [!UICONTROL Look-Alike Model] スケジュールの作成と更新
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
  <thead>
@@ -118,7 +114,7 @@ ht-degree: 99%
  </tbody>
 </table>
 
-### 類似（look-alike）特性の作成および更新スケジュール
+### [!UICONTROL Look-Alike Trait] スケジュールの作成と更新
 
 <table id="table_92A908818C4F4F2287EA56C786CD0BBD"> 
  <thead> 
@@ -143,20 +139,16 @@ ht-degree: 99%
 
 リスト表示は、モデルを作成、確認および管理するのに役立つ一元的なワークスペースです。
 
-<!-- c_models_list_view.xml -->
-
-モデルリストページには、以下をおこなうために役立つ機能およびツールが含まれています。
+The [!UICONTROL Models] list page contains features and tools that help you:
 
 * 新しいモデルの作成。
 * 既存のモデルの管理（編集、一時停止、削除または複製）。
 * 名前によるモデルの検索。
-* 任意のモデルを使用したアルゴリズム特性の作成。
+* 任意のモデル [!UICONTROL algorithmic traits] を使用して作成します。
 
 ## モデルの概要表示 {#models-summary-view}
 
-概要ページには、名前、リーチ／精度、処理履歴、モデルから作成された特性などの、モデルの詳細が表示されます。このページにはまた、モデルを作成および管理するための設定も含まれています。概要リストでモデル名をクリックすると、モデルの詳細が表示されます。
-
-<!-- c_models_summary.xml -->
+The summary page displays model details such as name, reach/accuracy, processing history, and [!UICONTROL traits] created from the model. このページにはまた、モデルを作成および管理するための設定も含まれています。概要リストでモデル名をクリックすると、モデルの詳細が表示されます。
 
 モデル概要ページには、以下のセクションが含まれています。
 
