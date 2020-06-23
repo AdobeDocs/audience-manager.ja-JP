@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 受信データ転送のための ID 同期
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 96%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 96%
 # 受信データ転送のための ID 同期 {#id-synchronization-for-inbound-data-transfers}
 
 Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and [!DNL Audience Manager]. ID 同期は、データ分類を [!DNL Audience Manager] に送信した後で開始できます。
-
-<!-- c_id_sync_in.xml -->
 
 ID 同期は、受信の非同期データ転送プロセスの最初のステップです。このステップでは、[!DNL Audience Manager] およびベンダーは、各自のサイトベンダーの ID を比較およびマッチングします。例えば、ある [!DNL Audience Manager] のお客様は、ID 123 でユーザーを把握します。しかし、データパートナーは、このユーザーを ID 456 で識別します。この同期プロセスにより、[!DNL Audience Manager] およびデータベンダーは、これらの様々な ID を照合し、各自のシステムでユーザーを識別できます。完了したら、[!DNL Audience Manager] およびサードパーティパートナーは、個別ユーザーごとに対応する ID をアドビのネットワーク上で確認できます。
 
@@ -73,7 +71,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
  </tbody> 
 </table>
 
-## 宣言済み ID イベント {#declared-id-event}
+## [!UICONTROL Declared ID] イベント {#declared-id-event}
 
 詳しくは、[宣言済み ID](../../../features/declared-ids.md) を参照してください。
 
