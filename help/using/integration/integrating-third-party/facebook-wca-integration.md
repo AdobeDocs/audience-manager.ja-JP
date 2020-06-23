@@ -5,15 +5,15 @@ seo-title: Facebook WCA の統合
 solution: Audience Manager
 title: Facebook WCA の統合
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 56%
+source-wordcount: '862'
+ht-degree: 41%
 
 ---
 
 
-# Facebook WCA の統合 {#facebook-wca-integration}
+# [!DNL Facebook WCA] 統合 {#facebook-wca-integration}
 
 This page illustrates the process of creating [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) pixels for the purposes of sending web-based [!DNL Audience Manager] audience segments to [!DNL Facebook], for online ad targeting with improved transparency.
 
@@ -25,7 +25,7 @@ This page illustrates the process of creating [!DNL Facebook Website Custom Audi
 
 >[!IMPORTANT]
 >
-> この機能を使用するには、[URL の宛先の](/help/using/features/destinations/create-url-destination.md)ソーシャルプラットフォームオプションで、Web サイトオーディエンスを選択する必要があります。ソーシャルプラットフォームでは、プラットフォームへの送信時、リファラー情報のマスクを解除する必要があります。Please be aware that this means that the destination platform/partner will be able to see information in your referrer [!DNL URL].
+> This capability requires that you select the [!UICONTROL Website] audience for social platforms option in [URL destinations](/help/using/features/destinations/create-url-destination.md). ソーシャルプラットフォームでは、プラットフォームへの送信時、リファラー情報のマスクを解除する必要があります。Please be aware that this means that the destination platform/partner will be able to see information in your referrer [!DNL URL].
 
 ## 前提条件 {#prerequisites}
 
@@ -36,17 +36,17 @@ This page illustrates the process of creating [!DNL Facebook Website Custom Audi
 
 手順 3 と 4 で、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) または [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) を使用して、ライブラリをインストールまたはアップグレードすることをお勧めします。
 
-## 手順 1：Audience Manager で Facebook の宛先を作成する {#step-1-create-facebook-destination}
+## 手順1 — で [!UICONTROL Facebook Destination] [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
 で新しいを作成 [!UICONTROL URL Destination] し、名前 [!DNL Audience Manager] を付け [!DNL Facebook Website Custom Audiences]ます。 宛先を作成する際には、以下の設定を使用してください。また、[URL の宛先の設定](/help/using/features/destinations/create-url-destination.md)ページを参考にすることもできます。
 
 ### Basic Information
 
 * **[!UICONTROL Category]**: カスタム
-* **[!UICONTROL Type]**: URL
+* **[!UICONTROL Type]**: [!DNL URL]
 * Select the **[!UICONTROL Auto-fill Destination Mapping]** check box, then select **[!UICONTROL Segment ID]**.
 
-### Data Export Labels
+### [!UICONTROL Data Export Labels]
 
 オプションを選択し **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**&#x200B;ます。
 
@@ -59,7 +59,7 @@ This page illustrates the process of creating [!DNL Facebook Website Custom Audi
 * **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. By selecting this [!UICONTROL URL Type] option, [!DNL Audience Manager] does not obscure the referrer [!DNL URL] information when firing a [!DNL Facebook WCA] pixel.
 * **[!UICONTROL Serialize]**: Select **[!UICONTROL Enable]**.
 * In the **[!UICONTROL Base URL]** and **[!UICONTROL Secure URL]** field, enter the [!DNL Facebook WCA] pixel.
-* **[!UICONTROL Delimiter]**: ,
+* **[!UICONTROL Delimiter]**: `,`
 
 基本 [!DNL URL] の例： `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
 
@@ -72,33 +72,33 @@ This page illustrates the process of creating [!DNL Facebook Website Custom Audi
 | `id` | Your [!DNL Facebook] pixel ID, which you can find in the [!DNL Facebook Ad Manager] user interface when creating audience pixels. |
 | `ev` | イベント。This is an arbitrary value, which will appear in the [!DNL Facebook Ad Manager] user interface once the pixel begins to fire on site. See the [!UICONTROL Include] item in [Step 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), for more information. |
 | `cd[segID]` | An additional parameter, which will begin to populate within the [!DNL Facebook Ad Manager] user interface once the pixel begins to fire on site. `segID` は任意です。 |
-| `%ALIAS%` | An [!DNL Audience Manager] macro, which will be dynamically replaced with the [!DNL Audience Manager] segment IDs that the site visitor qualifies for, delimited by comma , |
+| `%ALIAS%` | An [!DNL Audience Manager] macro, which will be dynamically replaced with the [!DNL Audience Manager] [!UICONTROL segment] IDs that the site visitor qualifies for, delimited by comma , |
 
 Your [!UICONTROL URL destination] configuration should look like in the image below:
 
 ![宛先の設定](/help/using/integration/assets/facebook-wca.png)
 
-宛先を保存します。次に、**セグメントマッピング**&#x200B;の手順に進みます。
+を保存し [!UICONTROL destination]ます。 次に、**セグメントマッピング**&#x200B;の手順に進みます。
 
 ## 手順 2：セグメントマッピング - セグメントを宛先にマッピングする {#step-2-segment-mappings}
 
-[URL の宛先を設定](/help/using/features/destinations/create-url-destination.md)ワークフローで、新しく作成した宛先に適切なセグメントをマッピングします。Notice the mapping value is auto-populated with the [!DNL Audience Manager] segment ID.
+In the [Configure URL destination](/help/using/features/destinations/create-url-destination.md) workflow, map the applicable segment to your newly created [!UICONTROL destination]. マッピング値には、 [!DNL Audience Manager][!UICONTROL segment ID]
 
 該当する場合は終了日を入力します。終了日がない場合は空白のままにしてください。
 
-## 手順 3：Facebook Ad Manager 内でオーディエンスを作成する {#step-3-create-audience}
+## 手順3 - [!UICONTROL Audience] within [!DNL Facebook Ads Manager] {#step-3-create-audience}
 
  のヘルプドキュメントの[ウェブサイトカスタムオーディエンスを作成する](https://www.facebook.com/business/help/666509013483225)を参照してください。[!DNL Facebook]Select the [!UICONTROL Create Audience] options in the table below:
 
 | 項目 | 説明 |
 ---------|----------|
 | Website traffic | カスタムの組み合わせ |
-| Include | <ul><li>**Event**／**Adobe-Audience-Manager-Segment** を選択します。手順 1 のピクセルの例では ev パラメーターの値でした。ピクセルがまだ実行されていない場合、「**Event**」オプションまたは **Adobe-Audience-Manager-Segment** が Facebook UI に表示されないことがあります。</li><li>パラメーターの追加：「`segID`」を選択します。</li><li><p>**contains** 演算子を選択します。</p><p>訪問者が複数のセグメントに振り分けられる可能性があり、ピクセルパラメーターに複数のセグメント ID が存在する可能性があることを考えると、この操作は重要です。等号（=）演算子を使用すると、訪問者がオーディエンスに認定されないことがあり、ボリュームは少なくなります。</p></li><li>Add a value: Enter the [!DNL Audience Manager] segment ID.</li></ul> |
+| Include | <ul><li>/選択 **[!UICONTROL Event]** を選択し **[!UICONTROL Adobe-Audience-Manager-Segment]**&#x200B;ます。 This was the value of the `ev` parameter in the example pixel in step 1. Note that if the pixel is yet to fire, the **[!UICONTROL Event]** option or **[!UICONTROL Adobe-Audience-Manager-Segment]** may not appear in the [!DNL Facebook] user interface.</li><li>パラメーターの追加：「`segID`」を選択します。</li><li><p>**contains** 演算子を選択します。</p><p>This is important, considering that visitors may qualify for multiple segments, there may be multiple [!UICONTROL segment IDs] in the pixel parameter. Using the equals (`=`) operator may not qualify your visitors for the audience, and you will observe a lower volume.</p></li><li>Add a value: Enter the [!DNL Audience Manager] segment ID.</li></ul> |
 | Add New Condition | オプションの設定。 |
 | In the Last | オプションの設定。 |
 | Audience Name | We recommend you use the same [!DNL Audience Manager] segment name for consistency, unless you are adding additional conditions to this Audience. |
 
-## 手順 4：Facebook Ads Manager のキャンペーンにオーディエンスを割り当てる {#step-4-assign-audience-to-campaign}
+## 手順4 — を [!UICONTROL Audience][!UICONTROL Campaign] [!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}
 
 After creating the [!DNL Custom Audience], assign it to an ad campaign. Create a new campaign or edit an existing one and you will find your newly created audience is listed in the [!DNL Facebook] user interface. Your ad campaign will target users who have seen the pixel fire on their browser when visiting your site, if [!DNL Audience Manager] includes them in the segment.
 
@@ -109,3 +109,4 @@ Now that you have assigned your [!DNL Audience Manager] segment to the [!DNL Fac
 >[!NOTE]
 >
 > If a user falls out of the [!DNL Audience Manager] segment, there is currently no way for [!DNL Audience Manager] to inform [!DNL Facebook] to remove the user from the [!DNL Custom Audience].
+
