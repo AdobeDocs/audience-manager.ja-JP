@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 受信データファイルコンテンツ：構文、無効な文字、変数、例
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 87%
+source-wordcount: '1193'
+ht-degree: 82%
 
 ---
 
@@ -78,9 +78,9 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-## 特性 ID の書式設定 {#formatting-trait-ids}
+## 形式 [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-次の表は、受信データファイルで特性の名前または ID を識別するためのプレフィックスの一覧です。例については[サンプルファイル](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples)を参照してください。
+The following table describes the prefixes that identify [!UICONTROL trait] names or IDs in an inbound data file. 例については[サンプルファイル](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples)を参照してください。
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -124,13 +124,13 @@ ht-degree: 87%
  </tbody>
 </table>
 
-## 特性 ID、ユーザー ID、キーと値のペアで無効な文字 {#invalid-chars}
+## とキーと値のペアに無効な文字 [!UICONTROL Trait IDs]が含ま [!UICONTROL User IDs] れています {#invalid-chars}
 
-### 特性 ID
+### [!UICONTROL Trait IDs]
 
-特性 ID は数値型の文字のみで構成されます。受信データファイルには&#x200B;*転送された特性のみ*&#x200B;を入れるようにしてください。受信データ転送では、他の特性タイプは処理されません。
+[!UICONTROL Trait IDs] は数字のみで構成されます。 We ask that you include *only[!UICONTROL onboarded traits]*in inbound data files. We do not process any other[!UICONTROL trait]types in the inbound data transfer.
 
-### ユーザー ID
+### [!UICONTROL User IDs]
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
@@ -237,7 +237,7 @@ ht-degree: 87%
 
 ## 例の一覧 {#examples-matrix}
 
-以下の表は、受信ファイルの書式設定を正しくおこなう方法を示す例の一覧です。[ID のタイプ](../../../reference/ids-in-aam.md)と、特性をプロファイルに追加する方法によって分類されています。
+The chart below shows examples of the correct way to format your Inbound files, depending on the [type of IDs](../../../reference/ids-in-aam.md) and the method by which you want to add [!UICONTROL traits] to profiles.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -283,7 +283,7 @@ ht-degree: 87%
 
 ### 例 1 {#example-1}
 
-Use trait IDs to send trait qualification information for [!DNL Audience Manager] [!DNL UUIDs].
+の [!UICONTROL trait IDs] 資格情報 [!UICONTROL trait] を送信するために使用し [!DNL Audience Manager][!DNL UUIDs]ます。
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -291,7 +291,7 @@ Use trait IDs to send trait qualification information for [!DNL Audience Manager
 
 ### 例 2 {#example-2}
 
-Use trait IDs to send trait disqualification information for [!DNL Audience Manager] [!DNL UUIDs].
+の [!UICONTROL trait IDs] 欠格情報を送信するために使用 [!UICONTROL trait] し [!DNL Audience Manager][!DNL UUIDs]ます。
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -311,7 +311,7 @@ Use trait IDs to send trait disqualification information for [!DNL Audience Mana
 
 ### 例 3 {#example-3}
 
-Send in key-value pairs to add trait qualification information for [!DNL Audience Manager] [!DNL UUIDs].
+Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -325,7 +325,7 @@ Send in key-value pairs to add trait qualification information for [!DNL Audienc
 
 ### 例 4 {#example-4}
 
-Use the ic prefix to send trait qualification information for [!DNL Audience Manager] [!DNL UUIDs].
+プレフィックスを使用して、の `ic` 資格情報を送信 [!UICONTROL trait][!DNL Audience Manager][!DNL UUIDs]します。
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -339,7 +339,7 @@ Use the ic prefix to send trait qualification information for [!DNL Audience Man
 
 ### 例 5 {#example-5}
 
-Use trait IDs to send trait qualification information for [!DNL Android] devices.
+デバイス [!UICONTROL trait IDs] の [!UICONTROL trait] 資格情報を送信するために使用し [!DNL Android] ます。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -347,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 例 6 {#example-6}
 
-Use trait IDs to send trait disqualification information for [!DNL Android] devices.
+デバイス [!UICONTROL trait IDs] の [!UICONTROL trait] 欠格情報を送信するために使用し [!DNL Android] ます。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -367,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 例 7 {#example-7}
 
-Send in key-value pairs to add trait qualification information for [!DNL Android] devices.
+Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -381,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### 例 8 {#example-8}
 
-Use the ic prefix to send trait qualification information for [!DNL Android] devices.
+Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL Android] devices.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -395,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 9 {#example-9}
 
-Use trait IDs to send trait qualification information for [!DNL iOS] devices.
+デバイス [!UICONTROL trait IDs] の [!UICONTROL trait] 資格情報を送信するために使用し [!DNL iOS] ます。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -403,7 +403,7 @@ Use trait IDs to send trait qualification information for [!DNL iOS] devices.
 
 ### 例 10 {#example-10}
 
-Use trait IDs to send trait disqualification information for [!DNL iOS] devices.
+デバイス [!UICONTROL trait IDs] の [!UICONTROL trait] 欠格情報を送信するために使用し [!DNL iOS] ます。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -423,7 +423,7 @@ Use trait IDs to send trait disqualification information for [!DNL iOS] devices.
 
 ### 例 11 {#example-11}
 
-Send in key-value pairs to add trait qualification information for [!DNL iOS] devices.
+Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -437,7 +437,7 @@ Send in key-value pairs to add trait qualification information for [!DNL iOS] de
 
 ### 例 12 {#example-12}
 
-Use the ic prefix to send trait qualification information for [!DNL iOS] devices.
+Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL iOS] devices.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -451,7 +451,7 @@ Use the ic prefix to send trait qualification information for [!DNL iOS] devices
 
 ### 例 13 {#example-13}
 
-Use trait IDs to send trait qualification information for [!DNL DPUUIDs].
+の資格情報 [!UICONTROL trait IDs] を送信するために使用し [!UICONTROL trait][!DNL DPUUIDs]ます。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -459,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 例 14 {#example-14}
 
-Use trait IDs to send trait disqualification information for [!DNL DPUUIDs].
+の [!UICONTROL trait IDs] 欠格情報の送信に使用し [!UICONTROL trait][!DNL DPUUIDs]ます。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -479,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 例 15 {#example-15}
 
-Send in key-value pairs to add trait qualification information for [!DNL DPUUIDs].
+Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -493,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### 例 16 {#example-16}
 
-Use the `ic` prefix to send trait qualification information for [!DNL DPUUIDs].
+Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
