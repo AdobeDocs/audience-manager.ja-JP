@@ -4,21 +4,21 @@ seo-description: Adobe Audience Manager（AAM）の DCS API のコード、メ�
 seo-title: Adobe Audience Manager（AAM）の DCS API リファレンスの概要
 title: DCS API リファレンスの概要
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 89%
+source-wordcount: '302'
+ht-degree: 82%
 
 ---
 
 
 # DCS API リファレンスの概要
 
-DCS API のコード、メソッド、プロセスの概念的情報、説明、定義です。
+Conceptual information, descriptions, and definitions for [!DNL DCS API] code, methods, and processes.
 
 * [DCS API メソッド](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   GET または POST メソッドを使用して DCS API にデータを送信します。
+   Send data to the [!DNL DCS API] using GET or POST methods.
 
 * [DCS エラーコード、メッセージ、例](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
@@ -26,7 +26,7 @@ DCS API のコード、メソッド、プロセスの概念的情報、説明、
 
 * [IDの監視と非公開](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   DCSは、受信したIDを監視し、短時間に異常に高い率で送信されたIDを拒否リストに追加します。
+   DCSは、受信したIDを監視し、短時間に異常に高い率で送信されたIDをブロックリストに追加します。
 
 * [DCS の地域 ID、場所、ホスト名](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
