@@ -5,16 +5,16 @@ seo-title: セグメントビルダー
 solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-translation-type: ht
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
-workflow-type: ht
-source-wordcount: '1252'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9326b61f27f6c529567ab9b26694998f0b5dafb3
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 44%
 
 ---
 
 
-# セグメントビルダー {#segment-builder}
+# [!UICONTROL Segment Builder] {#segment-builder}
 
 [!UICONTROL Segment Builder]でセグメントを作成する必須手順とオプション手順について説明します。
 
@@ -22,92 +22,106 @@ ht-degree: 100%
 
 まず、[Audience Manager でのセグメントの作成ビデオ](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)をご覧ください。このビデオでは、セグメントの作成プロセスに関する手順を説明します。詳しくは、以下のセクションを参照してください。
 
-## セグメントの作成 {#create-segment}
+## 指標をさらに制限する [!UICONTROL Segment] {#create-segment}
 
 ### セグメントビルダーのセクション
 
 <!-- t_create_segment.xml -->
 
-[!UICONTROL Segment Builder] は、[!UICONTROL Basic Information]、[!UICONTROL Traits]、[!UICONTROL Destinations Mapping] の 3 つのセクションで構成されます。セグメントを作成するには、「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Traits]」セクションの必須フィールドに入力します。「[!UICONTROL Destinations Mapping]」の設定はオプションです。詳しいヘルプについては、後述の説明を参照してください。
+[!UICONTROL Segment Builder] は、[!UICONTROL Basic Information]、[!UICONTROL Traits]、[!UICONTROL Destinations Mapping] の 3 つのセクションで構成されます。To create a [!UICONTROL segment], complete the required fields in the [!UICONTROL Basic Information] and [!UICONTROL Traits] sections. 「[!UICONTROL Destinations Mapping]」の設定はオプションです。詳しいヘルプについては、後述の説明を参照してください。
 
 1. 「[Basic Information](../../features/segments/segment-builder.md#segment-builder-controls-basics)」セクションで、以下の操作をおこないます。
 
    ![create-segment](assets/create-segment.png)
 
-   * セグメントの名前を設定します。セグメント名の最大長は 255 文字です。
-   * セグメントのステータスを設定します（デフォルトは「active」です）。
-   * データソースを選択します。最初のドロップダウンメニューを使用して、Audience Manager のデータソース、Adobe Analytics のレポートスイート、またはその両方をフィルタリングします。次に、2 番目のドロップダウンメニューを使用して、データソースを選択します。Adobe Analytics レポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトで Audience Manager データソースのみに設定されます。
-   * セグメント認定に使用するプロファイル結合ルールを選択します。
-   * セグメントを保存フォルダーに割り当てます。
+   * [!UICONTROL segment] に名前を付けます。The maximum length of a [!UICONTROL segment] name is 255 characters.
+   * Set the [!UICONTROL segment] status (active is default).
+   * を選択し [!UICONTROL data source]ます。 Use the first drop-down menu to filter between Audience Manager [!UICONTROL data sources], Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your [!UICONTROL data source]. If you are not using Adobe Analytics report suites, the [!UICONTROL data source] type selector is disabled and defaulted to Audience Manager data sources only.
+   * クオリフィケ [!UICONTROL profile merge rule] ーションに使用するオ [!UICONTROL segment] プションを選択します。
+   * Assign the [!UICONTROL segment] to a storage folder.
 
 1. 「[Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits)」セクションで、以下の操作をおこないます。
    ![segment-builder-traits](assets/segment-builder-traits.png)
-   * セグメントに追加する特性を検索して&#x200B;**[!UICONTROL Add Trait]**&#x200B;をクリックします。他の特性を追加し、特性グループを作成します。
-   * **[!UICONTROL Browse All Traits]**&#x200B;をクリックして詳細検索モーダルを表示します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。特性タイプ（[!UICONTROL Folder Trait]、[!UICONTROL Rule-based]、[!UICONTROL Onboarded] および [!UICONTROL Algorithmic]）や母集団タイプ（[デバイス ID](../../reference/ids-in-aam.md) および[クロスデバイス ID](../../reference/ids-in-aam.md)）で特性をフィルタリングできます。
+   * Search for the [!UICONTROL trait] you want to add to a segment and click **[!UICONTROL Add Trait]**. Add another [!UICONTROL trait] to create a [!UICONTROL trait] group.
+   * Bring up the [!UICONTROL Advanced Search] modal by clicking **[!UICONTROL Browse All Traits]**. 名前、ID、説明、 [!UICONTROL traits] またはで検索 [!UICONTROL data source]します。 検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。You can also filter [!UICONTROL traits] by [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], and [!UICONTROL Algorithmic]) or population type ([Device ID](../../reference/ids-in-aam.md) and [Cross-Device ID](../../reference/ids-in-aam.md)).
       ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
-   * セグメントの作成時に有効な[特性レコメンデーション](trait-recommendations.md)を取得します。
-   * 特性をクリックしてドラッグし、個別のグループを作成します。
+   * Get live [trait recommendations](trait-recommendations.md) as you build your [!UICONTROL segment].
+   * Click and drag [!UICONTROL traits] to create separate groups.
    * グループ間にマウスポインターを当て、ブール演算子 [!UICONTROL AND]、[!UICONTROL OR]、[!UICONTROL AND NOT] を使用して関係を設定します。
-   * 時計アイコンの上にマウスポインターを置き、[最新性と頻度](../../features/segments/recency-and-frequency.md)のルールを特性に追加します。
-   * 特性を追加または削除して、セグメント母集団データを表示します。**[!UICONTROL Calculate Estimates]**&#x200B;をクリックすると、推定された母集団の数値が表示（または更新）されます。詳しくは、セグメントビルダーの[セグメント母集団データ](../../features/segments/segment-builder-data.md#segment-populations)を参照してください。
+   * Hover over the clock icon to add [recency and frequency](../../features/segments/recency-and-frequency.md) rules to the [!UICONTROL trait].
+   * View segment population data as you add or remove [!UICONTROL traits]. **[!UICONTROL Calculate Estimates]**&#x200B;をクリックすると、推定された母集団の数値が表示（または更新）されます。Read more about [segment population data](../../features/segments/segment-builder-data.md#segment-populations) in the [!UICONTROL Segment Builder].
    * 終了したら、「**[!UICONTROL Save]**」をクリックします。
 
-1. *（オプション）*「[宛先マッピング](../../features/segments/segment-builder.md#segment-builder-controls-destinations)」セクションでセグメントを宛先にマッピングします。
-   * 宛先を検索し、**[!UICONTROL Add Destination]**&#x200B;をクリックします。宛先をセグメントに追加するには、その宛先が既に存在していなければなりません。
+1. *（オプション）* 「 [!UICONTROL segment] 宛先マッピング [!UICONTROL destination] 」セクション [](../../features/segments/segment-builder.md#segment-builder-controls-destinations) のにをマッピングします。
+   * Search for the [!UICONTROL destination] and click **[!UICONTROL Add Destination]**. Note, the [!UICONTROL destination] must already exist before you can add it to a [!UICONTROL segment].
    * 終了したら、「**[!UICONTROL Save]**」をクリックします。
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
-## セグメントビルダーのコントロール：「Basic Information」セクション {#segment-builder-controls-basics}
+## [!UICONTROL Segment Builder] コントロール： [!UICONTROL Basic Information] セクション {#segment-builder-controls-basics}
 
-[!UICONTROL Segment Builder]では、[!UICONTROL the Basic Information]設定を使用して、新しい特性を作成したり、既存の特性を編集したりできます。新しいセグメントを作成するには、名前およびデータソースを指定して、保存フォルダーを選択します。その他のすべてのフィールドはオプションです。完了したら、「[!UICONTROL Traits]」セクションに移動します。
+[!UICONTROL Segment Builder]では、[!UICONTROL the Basic Information]設定を使用して、新しい特性を作成したり、既存の特性を編集したりできます。To create a new [!UICONTROL segment], provide a name, a [!UICONTROL data source], and select a storage folder. その他のすべてのフィールドはオプションです。完了したら、「[!UICONTROL Traits]」セクションに移動します。
 
 <!-- r_segment_basic_info_section.xml -->
+
+<!--
 
 <table id="table_39DA4BC9470448B48F6654F2774EE0D5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> フィールド </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
+   <th colname="col1" class="entry"> Field </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>名前</b> </td> 
-   <td colname="col2"> <p>セグメントに、機能や目的を表す、短く論理的な名前を設定します。略語や特殊文字は使用しないでください。セグメント名の最大長は 255 文字です。 </p> </td> 
+   <td colname="col1"> <b>Name</b> </td> 
+   <td colname="col2"> <p>Give the segment a short, logical name that describes its function or purpose. Avoid abbreviations and special characters. The maximum length of a segment name is 255 characters. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>説明</b> </td> 
-   <td colname="col2"> <p>セグメントに関する追加の説明情報のフィールド。 </p> </td> 
+   <td colname="col1"> <b>Description</b> </td> 
+   <td colname="col2"> <p>A field for additional descriptive information about the segment. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>統合コード</b> </td> 
-   <td colname="col2"> <p>ユーザー定義 ID などの会社特有の情報のフィールド。 </p> </td> 
+   <td colname="col1"> <b>Integration Code</b> </td> 
+   <td colname="col2"> <p>A field for a user-defined ID or other company-specific information. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>データソース</b> </td> 
-   <td colname="col2"> <p>セグメントと特定のデータプロバイダーを関連付けます。 <p>最初のドロップダウンメニューを使用して、Audience Manager のデータソース、Adobe Analytics のレポートスイート、またはその両方をフィルタリングします。次に、2 番目のドロップダウンメニューを使用して、データソースを選択します。</p><p> Adobe Analytics レポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトで Audience Manager データソースのみに設定されます。</p></p> </td> 
+   <td colname="col1"> <b>Data Source</b> </td> 
+   <td colname="col2"> <p>Associates the segment with a specific data provider. <p>Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source.</p><p> If you are not using Adobe Analytics report suites, the data source type selector is disabled and defaulted to Audience Manager data sources only.</p></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>プロファイル結合ルール</b> </td> 
-   <td colname="col2"> <p>セグメント認定に使用するプロファイル結合ルールを選択します。 </p> </td> 
+   <td colname="col1"><b>Profile Merge Rule</b> </td> 
+   <td colname="col2"> <p>Selects the Profile Merge Rule to use for segment qualification. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>ステータス</b> </td> 
-   <td colname="col2"> <p>セグメントをアクティブまたは非アクティブにします（デフォルトではアクティブです）。 </p> </td> 
+   <td colname="col1"> <b>Status</b> </td> 
+   <td colname="col2"> <p>Activates or deactivates the segment (active by default). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>フォルダーストレージ</b> </td> 
-   <td colname="col2"> <p>セグメントが属する保存フォルダーを指定します。 </p> </td> 
+   <td colname="col1"> <b>Folder Storage</b> </td> 
+   <td colname="col2"> <p>Determines which storage folder the segment belongs to. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## セグメントビルダーのコントロール：「Traits」セクション {#segment-builder-controls-traits}
+-->
 
-[!UICONTROL Segment Builder]の [!UICONTROL Traits] セクションを使用すると、セグメントの特性を管理したり、特性グループを作成したり、認定条件を設定したりできます。セグメントに特性を追加するには、検索フィールドに特性名を入力して、「[!UICONTROL Add Trait]」をクリックします。特性を保存する（完了した場合）か、[!UICONTROL Destinations Mapping] に移動します。
+| フィールド | 説明 |
+---------|----------
+| **[!UICONTROL Name]** | セグメントに、機能や目的を表す、短く論理的な名前を設定します。略語や特殊文字は使用しないでください。セグメント名の最大長は 255 文字です。 |
+| **[!UICONTROL Description]** | セグメントに関する追加の説明情報のフィールド。 |
+| **[!UICONTROL Integration Code]** | ユーザー定義 ID などの会社特有の情報のフィールド。 |
+| **[!UICONTROL Data Source]** | セグメントと特定のデータプロバイダーを関連付けます。<br>最初のドロップダウンメニューを使用して、Audience Manager のデータソース、Adobe Analytics のレポートスイート、またはその両方をフィルタリングします。次に、2 番目のドロップダウンメニューを使用して、データソースを選択します。<br>Adobe Analytics レポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトで Audience Manager データソースのみに設定されます。 |
+| **[!UICONTROL Profile Merge Rule]** | セグメント認定に使用するプロファイル結合ルールを選択します。 |
+| **[!UICONTROL Status]** | セグメントをアクティブまたは非アクティブにします（デフォルトではアクティブです）。 |
+| **フォルダーストレージ** | セグメントが属する保存フォルダーを指定します。 |
+
+## [!UICONTROL Segment Builder] コントロール： [!UICONTROL Traits] セクション {#segment-builder-controls-traits}
+
+In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage [!UICONTROL traits] in a [!UICONTROL segment], create [!UICONTROL trait] groups, and set qualification criteria. To add a [!UICONTROL trait] to a [!UICONTROL segment], type the [!UICONTROL trait] name in the search field and click [!UICONTROL Add Trait]. Save the [!UICONTROL trait] (if finished) or move on to [!UICONTROL Destinations Mapping].
 
 <!-- r_segment_traits_section.xml-->
 
@@ -115,27 +129,27 @@ ht-degree: 100%
 
 | フィールド | 説明 |
 |--- |--- |
-| 基本ビュー | このセクションには、次の操作をおこなうための視覚的なコントロールがあります。 <ul><li>新しいセグメントを作成し、既存のセグメントを管理する。</li><li>セグメントから特性を削除する。</li><li>セグメントに最大 50 個の特性を追加する。</li><li>特性をドラッグアンドドロップして新しいグループを作成する。</li><li>セグメントの特性と特性グループを表示する。</li><li>ブール式、比較演算子、最新性／頻度の設定により認定条件を設定する。</li></ul> |
-| コードビュー | 開発環境を開きます。この環境では、視覚的なインターフェイスの代わりにコードを使用して特性、グループ、認定要件の作成と管理ができます。このコードビューは、セグメントが次の条件に該当する場合に便利です。 <ul><li>個別のセグメントに 50 個を超える特性がある。注意：セグメント内の特性数の上限は 5000 個です。</li><li>多数の特性グループがある。</li><li>複雑な認定要件がある。</li></ul> |
-| 検索 | セグメントに追加する特性を検索できます。 |
-| 推奨事項 | ファーストパーティ特性および購読した [!UICONTROL Audience Marketplace] データフィードから、類似した特性のライブレコメンデーションを取得します。これらのレコメンデーションをセグメントルールに追加して、オーディエンスを拡大します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
-| Marketplace レコメンデーション | 購読していない [!UICONTROL Audience Marketplace] データフィードから、類似した特性のライブレコメンデーションを取得します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
-| 実際のセグメントサイズデータと推定セグメントサイズデータ | [セグメントビルダーにおける特性およびセグメント母集団データ](segment-builder-data.md)を参照してください。 |
+| **[!UICONTROL Basic View]** | このセクションには、次の操作をおこなうための視覚的なコントロールがあります。 <ul><li>Build new and manage existing [!UICONTROL segments].</li><li>から削除 [!UICONTROL traits] し [!UICONTROL segment]ます。</li><li>最大50追加個（最大）からaまでの数 [!UICONTROL traits] を指定でき [!UICONTROL segment]ます。</li><li>Drag and drop [!UICONTROL traits] to create new groups.</li><li>表示 [!UICONTROL traits] と [!UICONTROL trait] グループを作成 [!UICONTROL segment]します。</li><li>ブール式、比較演算子、最新性／頻度の設定により認定条件を設定する。</li></ul> |
+| **[!UICONTROL Code View]** | Opens a development environment that lets you create and manage [!UICONTROL traits], groups, and qualification requirements with code instead of the visual interface. The code view is useful if your [!UICONTROL segments]: <ul><li>1つの個人に50を超え [!UICONTROL traits] るデータを含め [!UICONTROL segment]る。 注意： [!UICONTROL Segments] は5000 [!UICONTROL traits] （最大）に制限されます。</li><li>Contain many [!UICONTROL trait] groups.</li><li>複雑な認定要件がある。</li></ul> |
+| 検索 | Helps you find [!UICONTROL traits] to add to a [!UICONTROL segment]. |
+| 推奨事項 | Get live recommendations for similar [!UICONTROL traits], from your first-party [!UICONTROL traits] and [!UICONTROL Audience Marketplace] data feeds that you are subscribed to. Add these recommendations to the [!UICONTROL segment] rule to expand your audience. 詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
+| **[!UICONTROL Marketplace Recommendations]** | Get live recommendations for similar [!UICONTROL traits], from [!UICONTROL Audience Marketplace] data feeds that you are not subscribed to. 詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
+| Real and Estimated [!UICONTROL Segment] Size Data | [セグメントビルダーにおける特性およびセグメント母集団データ](segment-builder-data.md)を参照してください。 |
 
-## セグメントからの特性の削除 {#remove-traits}
+## Folio Builder [!UICONTROL Traits] から [!UICONTROL Segment] {#remove-traits}
 
-セグメントの特性の管理は、セグメントの実行可能性を維持するために重要な作業です。セグメントから特性を削除する必要がある場合は、以下の手順に従ってください。
+Managing the [!UICONTROL traits] in your [!UICONTROL segments] is an important part of keeping [!UICONTROL segments] viable. Follow these steps if you need to remove [!UICONTROL traits] from a [!UICONTROL segment].
 
-セグメントから特性を削除するには：
+から削除 [!UICONTROL traits] するに [!UICONTROL segment]は：
 
-1. **Audience Data／Segments** に移動します。リストでスクロールするか、検索機能を使用して、目的のセグメントを特定します。
-2. セグメント名をクリックして、セグメント詳細画面を開きます。
-3. 「**Edit**」をクリックしてセグメントビルダーを開き、その後「**Traits**」をクリックして特性パネルを開きます。
-4. 削除する特性の上にマウスポインターを置いて、X キーをクリックします。この操作により、セグメントから特性がただちに削除されます。
+1. **[!UICONTROL Audience Data > Segments]** へ移動します。Scroll through the list or use the search feature to find the [!UICONTROL segment] you want to work with.
+2. Click the [!UICONTROL segment] name to open the [!UICONTROL segment] details screen.
+3. Click **Edit** to open [!UICONTROL Segment Builder] and then click **Traits** to open the [!UICONTROL traits] panel.
+4. Hover over the [!UICONTROL trait] you want to delete and then click the X. This action immediately removes the [!UICONTROL trait] from your [!UICONTROL segment].
 
-## セグメントビルダーのコントロール：「Destination Mappings」セクション {#segment-builder-controls-destinations}
+## [!UICONTROL Segment Builder] コントロール： [!UICONTROL Destinations Mappings] セクション {#segment-builder-controls-destinations}
 
-[!UICONTROL Segment Builder]の[!UICONTROL Destinations Mapping]セクション（オプション）では、サードパーティ [!DNL cookie]、[!DNL URL]、またはサーバー間の宛先にセグメントデータを送信できます。宛先を追加するには、宛先を検索（または参照）し、宛先固有の情報を入力して、**[!UICONTROL Add Destination]**&#x200B;をクリックします。
+In [!UICONTROL Segment Builder], the optional [!UICONTROL Destinations Mapping] section lets you send [!UICONTROL segment] data to a third-party [!DNL cookie], [!DNL URL], or [!UICONTROL server-to-server destination]. To add a [!UICONTROL destination], search (or browse) for a [!UICONTROL destination], provide [!UICONTROL destination] specific information, and click **[!UICONTROL Add Destination]**.
 
 <!-- r_segment_destinations_map.xml -->
 
@@ -143,18 +157,18 @@ ht-degree: 100%
 
 「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Traits]」セクションの必須フィールドに入力します。また、宛先が存在している必要があります。
 
-### 宛先マッピング検索ツール
+### [!UICONTROL Destination Mappings] 検索ツール
 
 **[!UICONTROL Destination Mappings]**&#x200B;パネルには、次の表に示す検索ツールがあります。
 
 | 検索タイプ | 説明 |
 |---|---|
-| **宛先名別に検索** | 特定の宛先を名前で検索できます。検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。終了したら、「**[!UICONTROL Add Destination]**」をクリックします。 |
-| **すべての宛先を参照** | 使用可能な&#x200B;*すべての*&#x200B;宛先を参照します。ポップアップリストから宛先を選択し、セグメントに追加します。 |
+| **[!UICONTROL Search by Destination Name]** | Lets you search for a specific [!UICONTROL destination] by name. 検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。終了したら、「**[!UICONTROL Add Destination]**」をクリックします。 |
+| **[!UICONTROL Browse All Destinations]** | Browse a list of *all* [!UICONTROL destinations] available to you. Select and add [!UICONTROL destinations] to your [!UICONTROL segment] from the popup list. |
 
-## 宛先マッピングポップアップウィンドウのフィールド {#fields-in-dest-mappings}
+## Fields in the [!UICONTROL Destination Mappings] Pop-up Windows {#fields-in-dest-mappings}
 
-[!UICONTROL Segment Builder]で宛先を選択すると、[!UICONTROL Add Destination] ダイアログが表示されます。このウィンドウには宛先とフィールドに関する静的情報が表示されます。フィールドは宛先タイプによって異なります。空のフィールドに必須の情報を入力し、宛先マッピングを設定します。
+In [!UICONTROL Segment Builder], the [!UICONTROL Add Destination] dialog appears after you select a [!UICONTROL destination]. This window displays static information about the [!UICONTROL destination] and fields that vary depending on the [!UICONTROL destination] type. Provide the required information in the empty fields to set up a [!UICONTROL destination mapping].
 
 >[!NOTE]
 >
@@ -162,21 +176,21 @@ ht-degree: 100%
 
 <!-- r_add_mappings_pop.xml -->
 
-### Cookie 宛先フィールド
+### [!UICONTROL Cookie Destination] フィールド
 
-「[!UICONTROL Destination Mapping]」フィールドで、データを宛先に送信するためのキーと値のペアを指定します。最初のフィールドにキー、2 番目のフィールドに値をそれぞれ入力します。Cookie 宛先ポップは次のようになります。
+In the [!UICONTROL Destination Mapping] fields, specify the key-value pairs used to send data to the [!UICONTROL destination]. 最初のフィールドにキー、2 番目のフィールドに値をそれぞれ入力します。Your [!UICONTROL cookie destination] pop could look similar to this:
 
 ![](assets/cookie_modal.PNG)
 
-### URL 宛先フィールド
+### [!UICONTROL URL Destination] フィールド
 
-「[!UICONTROL URL]」フィールドと「[!UICONTROL Secure URL]」フィールドで、宛先にデータを送るための完全な標準アドレスまたはセキュリティで保護されたアドレスを指定します。
+In the [!UICONTROL URL] and [!UICONTROL Secure URL] fields, specify the complete standard or secure address used to send data to the [!UICONTROL destination].
 
 ![](assets/url_modal.PNG)
 
-### サーバー間宛先フィールド
+### [!UICONTROL Server-to-Server Destination] フィールド
 
-「[!UICONTROL Destination Value]」フィールドで、宛先にデータを送るために使用する値（キーと値のペアの一部）を指定します。
+In the [!UICONTROL Destination Value] field specify the value (part of a key-value pair) used to send data to the [!UICONTROL destination].
 
 ![](assets/s2s_modal.PNG)
 
