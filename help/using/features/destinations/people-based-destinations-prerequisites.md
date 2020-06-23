@@ -4,8 +4,11 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-translation-type: ht
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+translation-type: tm+mt
+source-git-commit: 8b72a42f9458fba97d02d2f16228e7d985ca3463
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 >[!IMPORTANT]
 > 実装段階に進む前に、この記事をよくお読みください。
 
-## People-Based Destinations への新規登録 {#signing-up}
+## Signing up for [!UICONTROL People-Based Destinations] {#signing-up}
 
 [!DNL People-Based Destinations] は、ソーシャルネットワーク上または電子メールマーケティングで、カスタマイズされたオファーを用いてオーディエンスのターゲティングをおこない、ユーザーベースの環境でファーストパーティのオーディエンスセグメントをアクティブ化することで、Audience Manager のエクスペリエンスを強化するプレミアム機能です。
 
@@ -39,12 +42,6 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 3. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
 
 ### [!DNL LinkedIn]
-
->[!IMPORTANT]
->
-> [!DNL People-Based Destinations] と [!DNL LinkedIn] の統合は現在ベータテスト段階にあり、限られた数のお客様のみ利用できます。
-> 
-> ベータテストが終了すると、この統合は、[!DNL People-Based Destinations] に新規登録した Audience Manager のすべてのお客様が利用できます。
 
 [!DNL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL LinkedIn] に送信する前に、お客様の [!DNL LinkedIn Campaign Manager] アカウントが [!DNL Creative Manager] 以上の権限レベルであることを確認してください。
 
@@ -79,7 +76,7 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 [!UICONTROL People-Based Destinations] のハッシュ要件については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
 Adobe Experience Cloud では、Adobe Experience Platform ID サービスで顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)を参照してください。
 
