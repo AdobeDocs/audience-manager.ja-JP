@@ -1,18 +1,21 @@
 ---
 description: ルールベースおよびオンボードの特性の作成プロセスに固有のセットアップ手順や機能について説明します。
-keywords: 特性の作成
+keywords: create trait;create traits
 seo-description: ルールベースおよびオンボードの特性の作成プロセスに固有のセットアップ手順や機能について説明します。
 seo-title: ルールベースまたはオンボードの特性の作成
 solution: Audience Manager
 title: ルールベースまたはオンボードの特性の作成
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+translation-type: tm+mt
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 78%
 
 ---
 
 
-# ルールベースまたはオンボードの特性の作成 {#create-rules-based-or-onboarded-traits}
+# 必要に応じてページアプリを作成[!UICONTROL Rules-Based]または [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
 [!UICONTROL rules-based]および[!UICONTROL onboarded]特性の作成プロセスに特有のセットアップ手順や機能について説明します。
 
@@ -20,7 +23,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 特性の基本情報 {#basics}
 
-[!UICONTROL Trait Builder]では、[!UICONTROL Basic Information]設定を使用して、新しい特性を作成したり、既存の特性を編集したりできます。[!UICONTROL Basic Information]設定は、ルールベース、オンボード、アルゴリズムの特性で共通です。新規の特性を作成するには、名前（特殊文字は使用しない）、データソース、ストレージフォルダーを指定します。それ以外の[!UICONTROL Basic Information]フィールドはオプションです。
+In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing [!UICONTROL traits]. との [!UICONTROL Basic Information] 設定は、 [!UICONTROL rules-based]と [!UICONTROL onboarded] で同じで [!UICONTROL algorithmic traits]す。 新しいを作成するに [!UICONTROL trait]は、名前（特殊文字は使用しない）とaを指定し [!UICONTROL data source]、を選択し [!UICONTROL storage folder]ます。 それ以外の[!UICONTROL Basic Information]フィールドはオプションです。
 
 <!-- c_tb_basics.xml -->
 
@@ -48,7 +51,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
       </ul> </p> </p> <p>これは、<a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイル転送</a>を設定する際の処理エラーを削減するのに役立ちます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> 説明</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Description</span></b> </td> 
    <td colname="col2"> 特性の目的や機能を説明する短い文章。オプションです。 </td> 
   </tr> 
   <tr> 
@@ -60,7 +63,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    <td colname="col2"> 通常、関数（例：コンバージョン、サイト訪問者、パートナー、ページビューなど）に従って、特性をタイプまたはカテゴリに割り当てます。オプションです。 <p> コンバージョン特性の作成方法について詳しくは、<a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Audience Manager でのコンバージョン特性の作成のビデオ</a>を参照してください。 </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Integration Code</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> 統合コード</span></b> </td> 
    <td colname="col2"> ID、SKU または社内ビジネスプロセスで使用されるその他の値のためのフィールド。オプションです。 </td> 
   </tr> 
   <tr> 
@@ -78,16 +81,16 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
  </tbody> 
 </table>
 
-## 特性の有効期間の設定 {#set-expiration-interval}
+## Set a [!UICONTROL Trait] Expiration Interval {#set-expiration-interval}
 
-[!UICONTROL Trait Builder]で[!UICONTROL Advanced Options]を使用すると、特性の有効期間（[!DNL TTL]）を設定できます。[!DNL TTL] は、対象として認定された訪問者が特性にとどまる日数を定義します（120 日がデフォルト）。これを 0 に設定すると、メンバーシップは有効期限なしになります。
+In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a [!UICONTROL trait]. [!DNL TTL] 条件を満たした訪問者が1回に残る日数を定義し [!UICONTROL trait] ます（デフォルトは120日）。 When set to 0, [!UICONTROL trait] membership never expires.
 
 <!-- t_tb_ttl.xml -->
 
-### 特性の TTL を設定する
+### Set the TTL for a [!UICONTROL trait]
 
-1. 「[!UICONTROL Advanced Options]」セクションを展開して、数値を入力し、特性の [!DNL TTL] 値を設定します。
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the [!UICONTROL trait].
+1. 「**[!UICONTROL Save]**」をクリックします。
 
    ![](assets/TTL.png)
 
