@@ -6,15 +6,15 @@ solution: Audience Manager
 title: 受信データファイルの Amazon S3 名とファイルサイズの要件
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1154'
 ht-degree: 96%
 
 ---
 
 
-# 受信データファイルの Amazon S3 名とファイルサイズの要件{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3]受信データファイルの 名とファイルサイズの要件 {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to [!DNL Audience Manager]. Set the names and sizes of your files according to these specifications when you send data to an [!DNL Audience Manager] / [!DNL Amazon S3] directory.
 
