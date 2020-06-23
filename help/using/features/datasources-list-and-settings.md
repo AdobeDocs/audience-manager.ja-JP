@@ -6,41 +6,35 @@ solution: Audience Manager
 title: データソースリストと設定
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 96%
+source-wordcount: '1118'
+ht-degree: 85%
 
 ---
 
 
-# データソースリストと設定 {#data-sources-list-and-settings}
+# [!UICONTROL Data Sources] リストと設定 {#data-sources-list-and-settings}
 
-現在設定されているデータソースの一覧表示、新規データソースの追加、既存データソースの編集について説明します。
+現在設定されているリストの表示 [!UICONTROL data sources]、新規追加 [!UICONTROL data sources]、既存の編集を行い [!UICONTROL data sources]ます。
 
-<!-- c_datasources.xml -->
+You can also manage [!UICONTROL data sources] using [!DNL API] methods. 詳しくは、[データソース API メソッド](../api/rest-api-main/aam-api-data-sources.md)を参照してください。
 
-また、[!DNL API] メソッドを使用してデータソースを管理することもできます。詳しくは、[データソース API メソッド](../api/rest-api-main/aam-api-data-sources.md)を参照してください。
-
-## データソースのリスト表示 {#list-view}
+## [!UICONTROL Data Sources]リスト表示{#list-view}
 
 [!UICONTROL Data Sources] ダッシュボードは、データソースを管理するための一元化されたワークスペースです。
 
-<!-- c_datasources_list.xml -->
-
 [!UICONTROL Data Sources] ダッシュボード（**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]**）には、以下をおこなうために役立つ機能およびツールが含まれています。
 
-* 各データソースの説明やステータス、[!UICONTROL Inbound]、[!UICONTROL Outbound]、両方、または [!UICONTROL Shared Provider]の別なども含めて、既存のすべてのデータソースを表示する。
-* データソースを名前で検索する。
-* データソースを作成、編集および削除する。
+* See all your existing [!UICONTROL data sources], including each data source&#39;s description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
+* Search for [!UICONTROL data sources] by name.
+* Create, edit, and delete [!UICONTROL data sources].
 
-## データソース設定とメニューオプション {#settings-menu-options}
+## [!DNL Data Source] 設定とメニューオプション {#settings-menu-options}
 
-[!UICONTROL Data Source]管理インターフェイスの様々なセクションの設定によって、データソースが特定され、データソースの使用および共有方法が決まり、[!UICONTROL Onboarding Status Report]でのエラー報告を有効にすることができます。
+The settings in the different sections of the [!UICONTROL Data Source] management interface identify your [!DNL data source], determine how it is used or shared, and let you enable error reporting for the [!UICONTROL Onboarding Status Report].
 
-## Data Source Details {#details}
-
-<!-- datasource-settings-definitions.xml -->
+## [!DNL Data Source] 詳細 {#details}
 
 テキストフィールドに加え、「[!UICONTROL Data Source Details]」セクションには、次のコントロールとオプションも含まれています。
 
@@ -76,13 +70,13 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-## データ書き出しコントロール {#export-controls}
+## [!UICONTROL Data Export Controls] {#export-controls}
 
-[データ書き出しコントロール](../features/data-export-controls.md)は、データソースおよび宛先に適用できるオプションの分類ルールです。宛先へのデータ送信がデータのプライバシーや使用契約に違反する場合、データ送信を防止します。データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
+[データエクスポートコントロール](../features/data-export-controls.md) (Data Export Controls [!UICONTROL data source] )は、およびに適用できるオプションの分類ルール [!UICONTROL destination]です。 They prevent you from sending data to a [!UICONTROL destination] when that action violates a data privacy or use agreement. データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
 
 >[!IMPORTANT]
 >
->対応する書き出しラベルを宛先に設定しない限り、書き出し制限は機能しません。
+>Export restrictions will not work unless you set a matching export label on a [!UICONTROL destination].
 
 オプションは次のとおりです。
 
@@ -92,17 +86,17 @@ ht-degree: 96%
 * **[!UICONTROL Cannot be used for off-site ad targeting]**
 * **[!UICONTROL Cannot be used for on-site personalization]**
 
-## Data Source Settings {#data-source-settings}
+## [!UICONTROL Data Source] 設定 {#data-source-settings}
 
 「[!UICONTROL Data Source Settings]」セクションには、次のコントロールとオプションが含まれています。これらの設定の中には、データソースを変更するためのサブオプションやメニュー項目が追加されているものがあります。
 
-### 受信データソース設定
+### [!UICONTROL Inbound Data Source] 設定
 
 データを受信するように設計されているデータソースの場合は、「**[!UICONTROL Inbound]**」チェックボックスを選択します。「**[!UICONTROL Inbound]**」チェックボックスを選択すると、次の 2 つのコントロールグループがさらに表示されます。
 
 >[!NOTE]
 >
->この **[!UICONTROL Inbound]** チェックボックスは、以下に説明するデータソースコントロールの表示/非表示を切り替える目的でのみ有効です。 この **[!UICONTROL Inbound]** オプションをオフにしても、データ取り込みには影響しません。 オンボードされたデータは、このオプションがチェックされているかどうかに関係なく処理されます。
+>この **[!UICONTROL Inbound]** チェックボックスは、以下に説明する [!UICONTROL data source] コントロールの表示/非表示を切り替える目的でのみ有効です。 この **[!UICONTROL Inbound]** オプションをオフにしても、データ取り込みには影響しません。 オンボードされたデータは、このオプションがチェックされているかどうかに関係なく処理されます。
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
@@ -128,7 +122,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-### その他のデータソース設定
+### Other [!UICONTROL Data Source] Settings
 
 <table id="table_82FEFA8DC8294FA18FB4C17F02DF5152"> 
  <thead> 
