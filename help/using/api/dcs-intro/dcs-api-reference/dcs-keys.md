@@ -7,15 +7,15 @@ title: DCS API 呼び出しでサポートされている属性
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '806'
+ht-degree: 99%
 
 ---
 
 
-# DCS API 呼び出しでサポートされている属性 {#supported-attributes-for-dcs-api-calls}
+# Supported Attributes for [!DNL DCS] [!DNL API] Calls {#supported-attributes-for-dcs-api-calls}
 
 [!UICONTROL Data Collection Servers]（[!DNL DCS]）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、[!DNL DCS] リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
 
@@ -50,7 +50,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## d_ 属性 {#d-attributes}
+## [!DNL d_] 属性 {#d-attributes}
 
 [!DNL DCS] からのレスポンスが必要でない限り、これらはすべてオプションです。[!DNL DCS] からのレスポンスが必要な場合は、`d_rtbd=json` が必須です。
 
