@@ -6,17 +6,17 @@ solution: Audience Manager
 title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 96%
+source-wordcount: '896'
+ht-degree: 94%
 
 ---
 
 
-# 受信データファイルの FTP 名とファイルサイズの要件 {#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP]受信データファイルの 名とファイルサイズの要件 {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Audience Manager にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager [!DNL FTP] ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
+Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to [!DNL Audience Manager]. データを Audience Manager [!DNL FTP] ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
 
 >[!WARNING]
 >
