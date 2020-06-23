@@ -6,13 +6,16 @@ seo-title: アクティビティ使用状況レポート
 solution: Audience Manager
 title: アクティビティ使用状況レポート
 topic: Activity Usage Reporting
-translation-type: ht
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+translation-type: tm+mt
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 99%
 
 ---
 
 
-# アクティビティ使用状況レポート
+# [!UICONTROL Activity Usage Reporting] {#activity-usage-reporting}
 
 ## 概要 {#overview}
 
@@ -33,9 +36,9 @@ source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 [!UICONTROL Activity Usage Report] の主な使用例は次の 2 つです。
 
 * **アクティビティ使用量コミットメントに対する実際のインスタンスアクティビティ使用量の追跡**：ほとんどのお客様は、Audience Manager インスタンスごとに毎月のアクティビティのコミットメントを見積もった後、すべてのインスタンスをまたいだ年間のアクティビティのコミットメントに集計します。このレポートは請求レポートではありませんが、コミットされたアクティビティ使用量を超過しているかどうかを把握するのに役立ちます。
-* **実装の変更の検証**：Analytics サーバーサイド転送の設定や Target サーバーコールの設定変更などの実装を最近更新した場合、このレポートを使用すれば、新しいアクティビティの量が期待したアクティビティ量と一致しているかどうかを確認できます。
+* **実装の変更の検証**[!DNL Adobe Analytics]： サーバーサイド転送の設定や サーバーコールの設定変更などの実装を最近更新した場合、このレポートを使用すれば、新しいアクティビティの量が期待したアクティビティ量と一致しているかどうかを確認できます。[!DNL Adobe Target]
 
-## アクティビティ使用状況レポートの使用 {#using}
+## デフォルト PCID の代わりに [!UICONTROL Activity Usage Report]{#using}
 
 [!UICONTROL Activity Usage Report] を表示するには、Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Usage]** に移動します。
 
@@ -64,7 +67,7 @@ source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ![aur-hover](assets/aur-hover.png)
 
-## アクティビティ使用状況レポートの書き出し {#export}
+## 書き出し [!UICONTROL Activity Usage Reports] {#export}
 
 Audience Manager のアクティビティの使用状況レベルをより詳細に把握するために、含めるレコードのタイプに基づいて [!UICONTROL Activity Usage Report] を書き出すことができます。
 
@@ -72,14 +75,14 @@ Audience Manager のアクティビティの使用状況レベルをより詳細
 
 **[!UICONTROL Onboarded Records Breakdown]** レポートと **[!UICONTROL Onsite Server Calls Breakdown]** レポートは、これらのアクティビティで使用できるソースデータの最もきめ細かいインサイトを提供します。これらの分類に属するボリュームは、実装に基づきます。
 
-### オンボードレコードの分類 {#onboarded-breakdown}
+### [!UICONTROL Onboarded Records Breakdown] {#onboarded-breakdown}
 
 このレポートには、データソース別に分類されたオンボードレコードが含まれています。
 
-### オンサイトサーバーコールの分類 {#onsite-breakdown}
+### [!UICONTROL Onsite Server Calls Breakdown] {#onsite-breakdown}
 
 このレポートには、3 つのソース（[!UICONTROL Analytics]、[!UICONTROL Target]、[!UICONTROL Other]）からのサーバーコールの分類が含まれます。
 
-* **[!UICONTROL Analytics]**：すべての Adobe Analytics インスタンスから Audience Manager に渡される課金対象のサーバーコール。サーバーサイド転送も含まれます。セカンダリサーバーコールまたは重複したサーバーコール（例：複数のレポートスイートからのサーバーサイド転送の場合）は課金対象のアクティビティではないので、この分類には含まれません。
-* **[!UICONTROL Target]**：Adobe Target から Audience Manager へのサーバーサイド呼び出し。サーバー間統合の一環として Audience Manager のセグメントデータを取得します。
+* **[!UICONTROL Analytics]**[!UICONTROL Adobe Analytics]：すべての インスタンスから Audience Manager に渡される課金対象のサーバーコール。サーバーサイド転送も含まれます。セカンダリサーバーコールまたは重複したサーバーコール（例：複数のレポートスイートからのサーバーサイド転送の場合）は課金対象のアクティビティではないので、この分類には含まれません。
+* **[!UICONTROL Target]**[!UICONTROL Adobe Target]： から Audience Manager へのサーバーサイド呼び出し。サーバー間統合の一環として Audience Manager のセグメントデータを取得します。
 * **[!UICONTROL Other]**：他の Web サイトまたはシステム（パートナーサイト、ダイレクトサーバーコールなど）からの呼び出し、[!DNL SDK]、[!DNL DIL]、イベント呼び出し、[!DNL DCS] 呼び出し経由でのモバイルブラウザー／アプリケーション呼び出しが含まれます。また、cookie 統合（サーバー間ではなく）として設定されている場合は [!DNL Target] 呼び出しも含まれます。
