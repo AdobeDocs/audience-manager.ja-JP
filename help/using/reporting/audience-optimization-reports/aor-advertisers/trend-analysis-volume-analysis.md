@@ -6,22 +6,25 @@ solution: Audience Manager
 title: トレンド分析レポートとボリューム分析レポート
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9326b61f27f6c529567ab9b26694998f0b5dafb3
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 97%
 
 ---
 
 
-# トレンド分析レポートとボリューム分析レポート{#trend-analysis-and-volume-analysis-reports}
+# [!UICONTROL Trend Analysis] および [!UICONTROL Volume Analysis] レポート{#trend-analysis-and-volume-analysis-reports}
 
 これらのレポートは、広告の幅広いディメンションにわたってインプレッション、クリックスルー率およびコンバージョンについてのデータを返します。選択した指標のトレンドやボリュームを比較すると、キャンペーンパフォーマンスの時間的変化を正確に把握することができます。
 
-## サンプルのトレンド分析レポート {#sample-trend-analysis}
+## Sample [!UICONTROL Trend Analysis] Report {#sample-trend-analysis}
 
 [!UICONTROL Trend Analysis]レポートには、14 日間のデータのみが線グラフで返されます。この例では、レポートにはマッピングされた一連のセグメントについてのインプレッション、クリックスルー、コンバージョンのトレンドが表示されます。
 
 ![](assets/trend-analysis.png)
 
-## サンプルのボリューム分析レポート {#sample-volume-analysis}
+## Sample [!UICONTROL Volume Analysis] Report {#sample-volume-analysis}
 
 [!UICONTROL Volume Analysis] レポートには、選択した日付範囲のデータが棒グラフで返されます。この例では、レポートにはマッピングされた一連のセグメントについてのインプレッション、クリックスルー、コンバージョンが、ボリュームを基準に表示されています。
 
