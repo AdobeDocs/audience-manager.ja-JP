@@ -7,15 +7,15 @@ solution: Audience Manager
 title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 75%
+source-wordcount: '691'
+ht-degree: 67%
 
 ---
 
 
-# Adobe Analytics から Audience Manager にデータを転送する方法 {#implement-the-audience-management-module}
+# How to forward data from [!DNL Adobe Analytics] to [!DNL Audience Manager] {#implement-the-audience-management-module}
 
 Follow the steps in this tutorial to forward [!DNL Analytics] data to [!DNL Audience Manager] instead of having the [!DNL Audience Manager] [!UICONTROL Data Integration Library] ([!DNL DIL]) code send a pixel from the page.
 
@@ -34,7 +34,7 @@ Follow the steps in this tutorial to forward [!DNL Analytics] data to [!DNL Audi
 
 There are two methods to implement data forwarding from [!DNL Adobe Analytics] to [!DNL Audience Manager], depending on the tag management solution that you use.
 
-### Adobe Experience Platform Launch を使用した実装
+### を使用した導入 [!DNL Adobe Experience Platform Launch]
 
 [!DNL Adobe] Launch [拡張機能を使用して、実装](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) とプロパティ [!DNL Adobe Analytics] に対して使用することをお勧めし [!DNL Audience Manager] ます。 この場合、コードを手動でコピーする必要はありません。Instead, you must enable data sharing in the [!DNL Analytics Launch] extension, as shown in the image below. [Adobe Analytics 拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager)のドキュメントも参照してください。
 
@@ -44,7 +44,7 @@ There are two methods to implement data forwarding from [!DNL Adobe Analytics] t
 
 ![Adobe Analytics 拡張機能から Audience Manager へのデータ転送を有効にする方法 ](/help/using/integration/assets/analytics-to-aam.png)
 
-### Adobe Digital Tag Management（DTM）またはその他のタグ管理ソリューションを使用した実装
+### タグ管理ソリューション [!DNL Adobe Digital Tag Management (DTM)] を使用した導入
 
 >[!WARNING]
 >
@@ -82,12 +82,12 @@ s.AudienceManagement.setup({
 
 | パラメーター | 説明 |
 |--- |--- |
-| `partner` | 必須。This is a partner name assigned to you by [!DNL Adobe]. 「パートナー ID」や「パートナーサブドメイン」と呼ばれることもあります。Contact your [!DNL Adobe] consultant or [Customer Care](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html) if you don&#39;t know your partner name. |
+| `partner` | 必須。This is a partner name assigned to you by [!DNL Adobe]. It is sometimes referred to as your [!UICONTROL partner ID] or partner subdomain.  Contact your [!DNL Adobe] consultant or [Customer Care](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html) if you don&#39;t know your partner name. |
 | `containerNSID` | 必須。ほとんどの場合は、`"containerNSID":0` に設定できます。ただし、会社が異なるコンテナを使用して ID 同期をカスタマイズする必要がある場合、ここでそのコンテナ ID を指定できます。 |
-| `uuidCookie` | オプションです。この設定を使用すると、ファーストパーティドメインに [!DNL Adobe] Cookie を設定できます。この Cookie には、[UUID](../../reference/ids-in-aam.md) が含まれます。 |
-| `visitorService` - `namespace` | 必須。`namespace`[!DNL AudienceManagement] パラメーターは、[!UICONTROL AppMeasurement] バージョン 2.10 以降にバンドルされている モジュールを使用する場合に必要です。この [!UICONTROL AudienceManagement] モジュールでは、[!UICONTROL Adobe Experience Platform Identity Service] 3.3 以降を使用する必要があります。<br>[!UICONTROL Experience Cloud Organization ID]は会社が [!UICONTROL Experience Cloud] に新規登録したときに生成される ID です。「[組織とアカウントのリンク](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)」で、会社の組織 ID を確認します。 |
+| `uuidCookie` | オプションです。この設定を使用すると、ファーストパーティドメインに [!DNL Adobe] Cookie を設定できます。This [!DNL cookie] contains the [UUID](../../reference/ids-in-aam.md) . |
+| `visitorService` - `namespace` | 必須。`namespace`[!DNL AudienceManagement] パラメーターは、[!UICONTROL AppMeasurement] バージョン 2.10 以降にバンドルされている モジュールを使用する場合に必要です。この [!UICONTROL AudienceManagement] モジュールでは、[!UICONTROL Adobe Experience Platform Identity Service] 3.3 以降を使用する必要があります。<br><br>は、のサインアップ [!UICONTROL Experience Cloud Organization ID] 時に会社に提供されるIDで [!UICONTROL Experience Cloud]す。 「[組織とアカウントのリンク](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)」で、会社の組織 ID を確認します。 |
 
-## 結果：Audience Manager へのデータ転送 {#results-data-forwarding}
+## Results: Data Forwarding to [!DNL Audience Manager] {#results-data-forwarding}
 
 以下の手順をおこなった後、[!DNL Analytics] 実装は にデータを送信します。[!DNL Audience Manager]
 
