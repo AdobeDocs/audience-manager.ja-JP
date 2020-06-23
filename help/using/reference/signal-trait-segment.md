@@ -6,75 +6,39 @@ solution: Audience Manager
 title: シグナル、特性、セグメント
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 91%
+source-wordcount: '374'
+ht-degree: 49%
 
 ---
 
 
-# シグナル、特性、セグメント{#signals-traits-and-segments}
+# [!UICONTROL Signals], [!UICONTROL Traits], および [!UICONTROL Segments] {#signals-traits-and-segments}
 
-Describes the components of an [!DNL Audience Manager] segment, the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
+Describes the components of an [!DNL Audience Manager] [!UICONTROL segment], the expressions used to set audience qualification criteria, and how data is transmitted in an event call.
 
-<!-- 
+## 構成と目的
 
-c_signal_trait_segment.xml
+[!DNL Audience Manager] データは、 [!UICONTROL signals]、 [!UICONTROL traits]、 [!UICONTROL segments]および関連する資格ルールで構成されます。 The data elements and rules combine to create [!UICONTROL segments]. [!UICONTROL Segments] サイト訪問者を関連するグループに整理します。 The following table defines the three principal components in an [!DNL Audience Manager] [!UICONTROL segment].
 
- -->
+| 要素 | 構成 | 例 |
+|---|---|---|
+| [!UICONTROL Signal] | [!UICONTROL Signals] は、の最小のデータ単位 [!DNL Audience Manager] で、 [キーと値のペアとして表されます](../reference/key-value-pairs-explained.md)。<br><br><ul><li>キーは、データセットを定義する定数です（例：gender、color、price）。</li><li>値は、定数に関連する変数です（例：male/female、green、100）。</li></ul>比較演算子は、キーと値を結合して、それらの間の関係を設定します。 | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
+| [!UICONTROL Trait] | Combinations of one or more [!UICONTROL signals].<br><br> [!DNL Boolean] 式と比較演算子を使用して、 [!UICONTROL trait] 資格ルールを作成できます。 <br><br>およびグループを組み合わせて、正確な資格要件 [!UICONTROL traits] を作成し [!UICONTROL trait] ます。 | From the available [!UICONTROL signals], you could create a `High End Camera Browser` rule expressed as: `product=camera AND price>1000` |
+| [!UICONTROL Segment] | Users who share a set of common attributes and qualify for related [!UICONTROL traits]. [!DNL Boolean] 式は、最新性/頻度の要件に加え、 [!UICONTROL segment] 資格ルールを作成できます。<br><br> とルールを組み合わせて、正確な資格要件 [!UICONTROL trait] を作成し [!UICONTROL segment] ます。 | From the available [!UICONTROL traits] and [!UICONTROL signals], you could create a [!UICONTROL segment] rule expressed as:`(product=camera AND type=digital SLR) OR (price>1000)` |
 
-**構成と目的**
-
-[!DNL Audience Manager] データは、シグナル、特性、セグメントおよび関連する資格認定ルールで構成されます。データ要素とルールが組み合わされてセグメントになります。セグメントによって、サイト訪問者が関連グループに分類、整理されます。[!DNL Audience Manager] セグメントの 3 つの主要な構成要素を次の表で定義します。
-
-<table id="table_E8373A01C3414C42B4983A59BF0F0669"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 要素 </th> 
-   <th colname="col2" class="entry"> 構成 </th> 
-   <th colname="col3" class="entry"> 例 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><b>シグナル</b> </td> 
-   <td colname="col2"> <p>シグナルは <span class="keyword">Audience Manager</span> で最小のデータ単位で、<a href="../reference/key-value-pairs-explained.md"> キーと値のペア</a>として表現されます。 </p> 
-    <ul id="ul_728347E325284B9FA0B4E05DE8CF4570"> 
-     <li id="li_89574A3B4A734726AD43405AE6D85FF5">キーは、データセットを定義する定数です（例：gender、color、price）。 </li> 
-     <li id="li_D35601B33EE24EC5857F45D9577254D4">値は、定数に関連する変数です（例：male/female、green、100）。 </li> 
-    </ul> <p>比較演算子は、キーと値を結合して、それらの間の関係を設定します。 </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_A6D8D30A37C94437A7BF38736C6F8556"> 
-     <li id="li_74C87C34FA254783AC0DEBBC69B35AC4"><code> product=camera</code> </li> 
-     <li id="li_C1727B9136024E56B60374597A7DCA00"><code> price&gt;1000</code> </li> 
-     <li id="li_B2E7798768EE444AB978F3F27B0BC0B5"><code> type=digital SLR</code> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>特性</b> </td> 
-   <td colname="col2"> <p>1 つ以上のシグナルの組み合わせ。 </p> <p>ブール式および比較演算子を使用すると、特性資格認定ルールを作成できます。 </p> <p>特性と特性グループを組み合わせて、詳細な資格認定要件を作成します。 </p> </td> 
-   <td colname="col3"> <p>例えば、使用可能なシグナルから、次のような「High End Camera Browser」ルールを作成できます。 </p> <p><code> product=camera AND price&gt;1000</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>セグメント</b> </td> 
-   <td colname="col2"> <p>共通する一連の属性を共有し、関連する特性の対象として認定されるユーザー。 </p> <p>ブール式を最新性／頻度要件と共に使用すると、セグメント資格認定ルールを作成できます。 </p> <p>特性とセグメントルールを組み合わせて、詳細な資格認定要件を作成します。 </p> </td> 
-   <td colname="col3"> <p>例えば、使用可能な特性およびシグナルから、次のようなセグメントルールを作成できます。 </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-以下の図を使用して、シグナル、特性、およびセグメント間の関係を覚えておいてください。
+Use the diagram below to keep a mental note of the relationship between [!UICONTROL signals], [!UICONTROL traits], and [!UICONTROL segments].
 
 ![](assets/signals-traits-segments.png)
 
-**ビジュアルツールおよびコードエディターを使用した特性およびセグメントルールの作成**
+**ビジュアルツール[!UICONTROL Traits]とコードエディターを使用したビルド[!UICONTROL Segment]とルール**
 
-クライアントは、[!DNL Audience Manager] ユーザーインターフェイスのビジュアルツールおよびコードエディターを使用して、特性およびセグメントを管理します。ビジュアルツールでは、検索機能、ポップアップオプション、ドロップダウンメニューおよびドラッグ＆ドロップ機能を使用して、ルールを作成できます。コードエディターは、上級ユーザーがオーディエンスセグメント化条件をプログラムで開発する手段となります。
+Clients manage [!UICONTROL traits] and [!UICONTROL segments] with visual tools and code editors in the [!DNL Audience Manager] user interface. ビジュアルツールでは、検索機能、ポップアップオプション、ドロップダウンメニューおよびドラッグ＆ドロップ機能を使用して、ルールを作成できます。コードエディターは、上級ユーザーがオーディエンスセグメント化条件をプログラムで開発する手段となります。
 
-**Audience Manager にデータを送信するイベント呼び出し**
+**イベント呼び出しのデータの送信先[!DNL Audience Manager]**
 
-イベント呼び出しは、Webサイトから [!DNL Audience Manager] にデータを送信します。The call contains signal, trait, and segment data in an [!DNL HTTP] request. イベント自体は 文字列の `/event` に続くすべての部分です。[!DNL URL]次の例に示すように、このプロセスでは、複数の変数を [!DNL Audience Manager] に渡すために必要なイベント呼び出しは 1 つだけです。
+イベント呼び出しは、Webサイトから [!DNL Audience Manager] にデータを送信します。この呼び出しには、リク [!UICONTROL signal]エスト内の、、 [!UICONTROL trait]および [!UICONTROL segment][!DNL HTTP] データが含まれます。 イベント自体は 文字列の `/event` に続くすべての部分です。[!DNL URL]次の例に示すように、このプロセスでは、複数の変数を [!DNL Audience Manager] に渡すために必要なイベント呼び出しは 1 つだけです。
 
 `https://<domain>/event?product=camera&price>100`
 
