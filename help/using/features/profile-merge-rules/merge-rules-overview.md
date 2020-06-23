@@ -6,15 +6,15 @@ solution: Audience Manager
 title: プロファイル結合ルールの概要
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: a077726fe4878aeb7722586654c27769e92e0665
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 72%
 
 ---
 
 
-# プロファイル結合ルールの概要 {#profile-merge-rules-overview}
+# [!UICONTROL Profile Merge Rules] 概要 {#profile-merge-rules-overview}
 
 [!UICONTROL Profile Merge Rules] を使用すれば、セグメント化に使用するデータセットを制御し、複数のデバイスにわたって正確にユーザーをターゲット設定できます。
 
@@ -28,34 +28,12 @@ ht-degree: 100%
 
 [!UICONTROL Profile Merge Rules]プロを使用すれば、[!DNL Audience Manager] がデータを収集してユーザーをターゲット化のためにセグメント化する方法が根本的に変わります。これにより、デバイスプロファイルと[認証済みプロファイル](../../reference/visitor-authentication-states.md)の 2 種類のプロファイルを操作できるようになります。
 
-<table id="table_CE98C0E32A964B27804736A896233869"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> プロファイルタイプ </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> デバイスプロファイル </td> 
-   <td colname="col2"> <p>デバイスプロファイルは、特定のデバイスの ID（Cookie ID やモバイルデバイス ID など）に関連付けられています。以下のようなものがあります。 </p> <p>
-     <ul id="ul_0420875DE65E44FFAC76E0DD205CFEC4"> 
-      <li id="li_044AD85C644A41FB8EF48164BAC0CE34">ユーザーが認証されていない状態で認識された、ルールベースの特性。 </li> 
-      <li id="li_984D9790A6984139AFCFC2DFE4DF1BFC">Cookie ベースのサードパーティデータなどのデバイス ID に関連付けられた、オンボードの特性。 </li>
-     </ul> </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> 認証済みプロファイル </td> 
-   <td colname="col2"> <p>認証済みプロファイルは、ユーザーがサイトにログインした時点で渡されるユーザー ID に関連付けられています。以下のようなものがあります。 </p>
-    <ul id="ul_18319CAA875148DBAE095134D42637B3"> 
-     <li id="li_E24BD33E049849E5A594B0750F530475">ユーザーが認証されている状態でデバイス間で収集された、ルールベースの特性。 </li>
-     <li id="li_531AC9E0EC9D45108457FEC8E8D4E66C">オンボードの特性は、同じユーザー ID にリンクされているオフラインのファイルです。 </li>
-    </ul> </td>
-  </tr>
- </tbody>
-</table>
+| プロファイルタイプ | 説明 |
+|---|---|
+| [!UICONTROL Device Profile] | A [!UICONTROL device profile] is tied to an ID for a given device such as a [!UICONTROL cookie] ID or mobile device ID.<br><br>以下のようなものがあります。<ul><li>[!UICONTROL Rule-based traits] ユーザが認証されない場合に実現。</li><li>[!UICONTROL Onboarded traits] を、サードパーティデータなどのデバイスIDに関連付け [!UICONTROL cookie-based]ることができます。</li></ul> |
+| [!UICONTROL Authenticated Profile] | The [!UICONTROL authenticated profile] is tied to a user ID passed in when a person logs in to your site.<br><br>以下のようなものがあります。<ul><li>[!UICONTROL Rule-based traits] ユーザーが認証されたときに、デバイス間で収集されます。</li><li>[!UICONTROL Onboarded traits] 」が同じユーザーIDにリンクされているオフラインファイルに含まれていることを確認します。</li></ul> |
 
-これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。例えば、[認証済みプロファイル](../../reference/visitor-authentication-states.md)を使用すると、複数のデバイスから収集した 1 人のユーザーに関するデータに基づいて正確なセグメントを生成できます。これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。[!DNL Audience Manager] は、個人がオンラインアクティビティに使用する様々なデバイスのマッピングを[認証済みプロファイル](../../reference/visitor-authentication-states.md)に保存することで、これを実現します。これらのマッピングは、[!UICONTROL Profile Link Device Graph] と呼ばれます。
+これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。For example, with an [authenticated profile](../../reference/visitor-authentication-states.md), you can build accurate [!UICONTROL segments] based on data from multiple devices for a single user. これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。[!DNL Audience Manager] は、個人がオンラインアクティビティに使用する様々なデバイスのマッピングを[認証済みプロファイル](../../reference/visitor-authentication-states.md)に保存することで、これを実現します。これらのマッピングは、[!UICONTROL Profile Link Device Graph] と呼ばれます。
 
 ![](assets/authenticated2.png)
 
@@ -66,5 +44,5 @@ ht-degree: 100%
 * [認証済みプロファイル](../../reference/visitor-authentication-states.md)、匿名プロファイル、またはその両方の組み合わせに基づいて、ユーザーをターゲット化する。
 * デバイス間で特定の顧客をターゲット化する。
 * 決定論的データに基づいてデバイスグラフを作成する。
-* 各種のプロファイルに基づいてセグメントのデータを微調整する。
+* Fine tune the data in your [!UICONTROL segments] based on different profiles.
 * オーディエンスに関する詳細なインサイトを得る。
