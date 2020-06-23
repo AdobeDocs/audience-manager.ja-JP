@@ -7,12 +7,15 @@ title: Audience Lab
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 100%
 
 ---
 
 
-# Audience Lab {#audience-lab}
+# [!UICONTROL Audience Lab] {#audience-lab}
 
 [!UICONTROL Segment Test Groups] で重複のないテストセグメントを作成すると、様々な宛先の有効性を測定し比較することができます。有効性をテストするために、対照グループを残しておき、セグメントを全体のうちの一部に割り振ることができます。
 
@@ -41,7 +44,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 また、ステータスに基づいてテストグループをフィルタリングすることもできます。利用可能なすべてのステータスについては、下記の[ステータス](../../features/audience-lab/audience-lab.md#status)節を参照してください。
 
-## ステータス {#status}
+## [!UICONTROL Status] {#status}
 
 テストグループのステータスには、Active、Scheduled、Paused、Draft、Completed があります。次の表は、各ステータスの詳細を示したものです。
 
@@ -55,7 +58,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Active </span></b> </p> </td> 
-   <td colname="col2"> <p><i>Active</i> のテストグループは、現在、宛先にデータを送信しています。<b><span class="uicontrol">Test Group</span></b> の「<b><span class="uicontrol">Pause Test</span></b>」を押すと、宛先へのデータ送信が停止します。 </p> </td> 
+   <td colname="col2"> <p><i>アクティブ</i>のテストグループは、現在送信先にデータを送信しています。<b><span class="uicontrol">テストグループ</span></b>カードの <b><span class="uicontrol">Pause Test</span></b> を押すと、送信先へのデータ送信が停止します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Scheduled </span></b> </p> </td> 
@@ -63,7 +66,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">Paused </span></b> </p> </td> 
-   <td colname="col2"> <p><i>paused</i> のテストグループは、現在宛先にデータを送信していません。<b><span class="uicontrol">Test Group</span></b> カードの「<b><span class="uicontrol">Make Active</span></b>」を押すと、特性の送信が再開されます。 </p> </td> 
+   <td colname="col2"> <p><i>paused</i> のテストグループは、現在宛先にデータを送信していません。<b><span class="uicontrol">テストグループ</span></b>カードの <b><span class="uicontrol">Make Active</span></b> を押すと、特性の送信が再開されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Draft </span></b> </p> </td> 
@@ -71,12 +74,12 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Completed </span></b> </p> </td> 
-   <td colname="col2"> <p><i>completed</i> テストグループは、<b><span class="uicontrol"> Create Test Groups</span></b> ウィザードで選択した終了日に達し、レポートデータの送信を終了しました。 </p> </td>
+   <td colname="col2"> <p><i>完了</i>のテストグループは、<b><span class="uicontrol">Create Test Groups</span></b> ウィザードで選択した終了日に達し、レポートデータの送信を終了しました。 </p> </td>
   </tr>
  </tbody>
 </table>
 
-## アクション {#actions}
+## [!UICONTROL Actions] {#actions}
 
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 
@@ -88,7 +91,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Edit </span></b> </p> </td>
-   <td colname="col2"> <p>draft テストグループに対して<b>のみ</b>使用できます。<b><span class="uicontrol">Create New Test Group</span></b> ウィザードを再開できます。 </p> </td>
+   <td colname="col2"> <p>ドラフトのテストグループに対して<b>のみ</b>使用できます。<b><span class="uicontrol">Create New Test Group</span></b> ウィザードを再開できます。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pause </span></b> </p> </td>
