@@ -7,33 +7,31 @@ solution: Audience Manager
 title: Audience Manager へのバッチデータ送信の概要
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 84%
+source-wordcount: '482'
+ht-degree: 80%
 
 ---
 
 
-# Audience Manager へのバッチデータ送信の概要 {#send-batch-data-to-audience-manager-overview}
+# Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
 
 An overview for technical and non-technical customers who want to bring data from other systems (offline) into [!DNL Audience Manager].
 
 ## メリット
 
-<!-- c_offline_to_online.xml -->
-
 You can make data from other systems available in [!DNL Audience Manager]. アドビのシステムは、値のロック解除および以前収集したユーザーデータの活用に役立ちます。これには、購入、顧客調査、登録データ、[!DNL CRM] データベースなどに関する情報が含まれます。統合ごとに課題がありますが、それらはすべてこれらの一般的な手順を共有します。この資料に目を通せば、オフラインデータをオンラインにするのに必要な労力を削減するうえで役に立ちます。
 
 ## 手順 1：ユーザー ID の同期
 
-During synchronization, [!DNL Audience Manager] assigns unique IDs to clients and their users. これらの ID はそれぞれ、[!UICONTROL Data Provider ID]（[!UICONTROL DPID]）および [!UICONTROL Unique User ID]（[!UICONTROL UUID]）と呼ばれます。[!DNL Audience Manager] は、[!UICONTROL DPID] および [!UICONTROL UUID] を使用して、ユーザーを特定し、特性、セグメント、オーディエンスグループおよびレポートの対象として認定します。また、アドビのデータ収集コード（[!UICONTROL DIL]）は、Web サイトからの訪問者データをキャプチャするために、これらの ID を探します。When this step is complete, [!DNL Audience Manager] and your offline repository should contain corresponding IDs for each user record.
+During synchronization, [!DNL Audience Manager] assigns unique IDs to clients and their users. これらの ID はそれぞれ、[!UICONTROL Data Provider ID]（[!UICONTROL DPID]）および [!UICONTROL Unique User ID]（[!UICONTROL UUID]）と呼ばれます。[!DNL Audience Manager] と [!UICONTROL DPID] を使用してユーザーを識別し、そ [!UICONTROL UUID] れらを [!UICONTROL traits]、 [!UICONTROL segments]、オーディエンスグループ、およびレポートの対象とします。 また、アドビのデータ収集コード（[!UICONTROL DIL]）は、Web サイトからの訪問者データをキャプチャするために、これらの ID を探します。When this step is complete, [!DNL Audience Manager] and your offline repository should contain corresponding IDs for each user record.
 
 この手順に関する重要な考慮事項：
 
 * **クライアント ID の配置：**[!DNL Audience Manager] は、クライアント ID が Web サイトのどこに表示されるかを把握する必要があります（例：Cookie、Analytics 変数、ページコードなどに格納されるか）。
 * **[!DNL PII]の除外：**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
-* **大文字と小文字およびコンテンツの区別：**[!DNL Audience Manager]リアルタイムデータ同期の間、 によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。例えば、オフラインレコードが [!DNL User123] に関する情報を保持するが、サイトがこの ID を [!DNL USER123] としてレンダリングする場合、Audience Manager は、これらを異なる訪問者と見なします。結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
+* **大文字と小文字およびコンテンツの区別：**[!DNL Audience Manager]リアルタイムデータ同期の間、 によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。例えば、オフラインレコードが [!DNL User123] に関する情報を保持するが、サイトがこの ID を [!DNL USER123] としてレンダリングする場合、 は、これらを異なる訪問者と見なします。[!DNL Audience Manager]結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
 
 詳しくは、[受信データ転送のための ID 同期](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)を参照してください。
 
