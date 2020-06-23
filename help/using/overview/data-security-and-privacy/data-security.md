@@ -1,12 +1,15 @@
 ---
 description: Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
 seo-description: Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
-seo-title: データのセキュリティAudience Manager の 対応
+seo-title: Audience Manager におけるデータセキュリティ
 solution: Audience Manager
 title: Audience Manager におけるデータセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-translation-type: ht
-source-git-commit: 1d606cf8ac8cf7b78a7ddf661e9a6d2ce32df71e
+translation-type: tm+mt
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 94%
 
 ---
 
@@ -54,15 +57,15 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **IP アドレス：** Audience Manager は、IP アドレスを収集します。IP アドレスは、データ処理およびログ収集処理に使用されます。また、地域／場所の検索およびターゲティングに必要です。さらに、取得したログファイル内のすべての IP アドレスは、90 日以内に難読化されます。
 
-## データのパーティション分割{#data-partitioning}
+## データのパーティション分割 {#data-partitioning}
 
 個々のクライアントが所有するデータを保護するのに役立つプロセスです。
 
-**特性データのパーティション分割：**&#x200B;お客様のデータ（特性、ID など）は、クライアントごとにパーティション分割されます。これは、異なるクライアント間での誤った情報公開を防ぐのに役立ちます。例えば、Cookies 内の特性データは、お客様別にパーティション分割され、クライアント専用のサブドメインに格納されます。別の Audience Manager クライアントが誤って読み取ったり使用したりすることはできません。さらに、[!UICONTROL Profile Cache Servers (PCS)] に保存される特性データも顧客別に分割されます。これにより、他のクライアントがイベント呼び出しまたはその他の要求でお客様のデータを誤って使用するのを防ぎます。
+**Trait Data Partitioning:**  データ([!UICONTROL traits]、IDなど) は、クライアントごとにパーティション分割されます。これは、異なるクライアント間での誤った情報公開を防ぐのに役立ちます。例えば、Cookies 内の特性データは、お客様別にパーティション分割され、クライアント専用のサブドメインに格納されます。別の Audience Manager クライアントが誤って読み取ったり使用したりすることはできません。さらに、[!UICONTROL Profile Cache Servers (PCS)] に保存される特性データも顧客別に分割されます。これにより、他のクライアントがイベント呼び出しまたはその他の要求でお客様のデータを誤って使用するのを防ぎます。
 
 **レポートでのデータのパーティション分割：**&#x200B;クライアント ID は、すべてのレポートテーブルの識別キーの一部で、レポートクエリは、ID でフィルタリングされます。これは、お客様のデータが Audience Manager の別のお客様のレポートに表示されるのを防ぐのに役立ちます。
 
-## 受信サーバー間（S2S）転送{#inbound-s2s}
+## 受信サーバー間（S2S）転送 {#inbound-s2s}
 
 Adobe Audience Manager は、S2S オンボードデータファイルをアドビのシステムに転送する 2 つの主要な方法をサポートします。
 
@@ -70,7 +73,7 @@ Adobe Audience Manager は、S2S オンボードデータファイルをアド�
 
 **SFTP：** SFTP オプションの場合、ほとんどのお客様は、Secure Shell（SSH）プロトコルを使用する Secure FTP（SFTP）プロトコルでファイルを送信することを選択します。この方法は、お客様のシステムとアドビのシステムの間で送信される間にファイルを暗号化します。お客様ごとに、アドビの SFTP サーバー上にジェイル化されたドロップボックスの場所を作成します。これは、そのシステム上のユーザーアカウントに結び付けられます。お客様の資格情報および権限を持つ内部システムユーザーのみ、このジェイル化されたドロップボックスの場所にアクセスできます。このジェイルには、他のお客様はアクセスできません。
 
-**HTTPS を使用した Amazon Web サービス S3：** S3 配信オプションの場合、アドビでは、ファイル転送に HTTPS 暗号化メソッドを使用するように S3 クライアントを設定することを、すべてのお客様にお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
+**[!UICONTROL Amazon Web Services S3]HTTPS経由：**S3配信オプションの場合、すべてのお客様が、ファイル転送にHTTPS暗号化方式を使用するようにS3クライアントを設定することをお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。 HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
 
 PGP 暗号化をデータファイルに追加するには、[受信データタイプのファイル PGP 暗号化](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)を参照してください。
 
@@ -88,6 +91,6 @@ PGP 暗号化をデータファイルに追加するには、[受信データタ
 
 ### 例 {#hsts-example}
 
-`yourcompany.demdex.com` ドメインが [!DNL HTTP] 経由で [!DNL DCS] にトラフィックを送信するとします。[!DNL HSTS] は、代わりに [!DNL HTTPS] を使用するように呼び出しをアップグレードし、以降の `yourcompany.demdex.com` からの [!DNL DCS] 呼び出しではすべて、[!DNL HTTP] の代わりに [!DNL HTTPS] を使用します。
+Let&#39;s say the `yourcompany.demdex.com` domain sends traffic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] は、代わりに [!DNL HTTPS] を使用するように呼び出しをアップグレードし、以降の `yourcompany.demdex.com` からの [!DNL DCS] 呼び出しではすべて、[!DNL HTTP] の代わりに [!DNL HTTPS] を使用します。
 
 HSTS の詳細については「[HTTP Strict Transport Security - Wikipedia](https://ja.wikipedia.org/wiki/HTTP_Strict_Transport_Security)」を参照してください。
