@@ -3,17 +3,17 @@ description: アドビでは、オプトイン機能と IAB Transparency and Con
 seo-description: アドビでは、オプトイン機能と IAB Transparency and Consent Framework（TCF）のサポートを通じて、ユーザーのプライバシー選択を管理および伝達する手段を提供しています。この記事では、IAB TCF をサポートする Audience Manager のユースケースと、Audience Manager での IAB TCF サポートの実装方法について説明します。
 seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
-title: IAB TCF 用 Audience Manager プラグイン
+title: Audience Manager IAB TCF用プラグイン
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 96%
+source-wordcount: '2449'
+ht-degree: 95%
 
 ---
 
 
-# IAB TCF 用 Audience Manager プラグイン {#aam-iab-plugin}
+# [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
 ## 概要
 
@@ -43,6 +43,10 @@ Audience Manager は、ユーザのプライバシー選択を尊重し、お客
 
 * モバイルデバイスのワークフロー
 * セグメントエクスポートに同意を追加します。
+
+##  から へのアップグレード[!DNL IAB TCF v2.0]{#upgrading}
+
+実装をv1.1からv2.0にアップグレードするか、 [!DNL Audience Manager Plug-in for IAB TCF] v2.0を初めて有効にするお客様は、以下に説明する前提条件と実装に関する同じガイドラインに従う必要があり [!DNL IAB TCF][!DNL IAB TCF][!DNL IAB TCF] ます。
 
 ## 前提条件 {#prerequisites}
 
