@@ -5,10 +5,10 @@ seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
 translation-type: tm+mt
-source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
+source-git-commit: 02bde5060d50ba581937c504331397dfbbcdc19f
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 93%
+source-wordcount: '953'
+ht-degree: 91%
 
 ---
 
@@ -46,6 +46,8 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
 [!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL LinkedIn] に送信する前に、お客様の [!DNL LinkedIn Campaign Manager] アカウントが [!DNL Creative Manager] 以上の権限レベルであることを確認してください。
 
 [!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、「[広告アカウントのユーザー権限の追加、編集、削除](https://www.linkedin.com/help/lms/answer/5753)」を参照してください。 」を参照してください。
+
+ビデオの [手順については、「LinkedInの人ベースの宛先についてと設定](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) 」を参照してください。
 
 ## データオンボーディング {#data-onboarding}
 
