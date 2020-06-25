@@ -5,8 +5,12 @@ seo-title: 特性ルールおよびセグメントルールの作成または更
 solution: Audience Manager
 title: 特性ルールおよびセグメントルールの作成または更新
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
-translation-type: ht
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+feature: baaam
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 100%
 
 ---
 
