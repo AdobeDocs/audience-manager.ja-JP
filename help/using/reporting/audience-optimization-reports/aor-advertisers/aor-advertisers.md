@@ -5,8 +5,9 @@ seo-title: Audience Optimization for Advertisers
 solution: Audience Manager
 title: Audience Optimization for Advertisers
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9326b61f27f6c529567ab9b26694998f0b5dafb3
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 76%
