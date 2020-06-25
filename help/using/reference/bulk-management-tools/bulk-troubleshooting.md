@@ -5,8 +5,12 @@ seo-title: 一括管理ツールのトラブルシューティングのヒント
 solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
-translation-type: ht
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+feature: baaam
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
