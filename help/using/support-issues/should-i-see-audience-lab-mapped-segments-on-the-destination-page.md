@@ -4,8 +4,12 @@ seo-description: Audience Lab でマッピングしたセグメントが出力�
 seo-title: Audience Lab でマッピングしたセグメントが出力先の詳細ページに表示されないのはなぜですか？
 solution: Audience Manager
 title: Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？
-translation-type: ht
-source-git-commit: dd68edc816c1739ec49f3178e776087d7737863b
+feature: support
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
