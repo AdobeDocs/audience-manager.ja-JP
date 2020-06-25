@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ faq_data_collection_integration.xml
 
 <br> 
 
-**dpm.demdex.netの許可リストに追加できるIPアドレスのリストを提供していただけますか。**
+**dpm.demdex.net の許可リストに追加できる IP アドレスのリストを提供していただけますか。**
 
 残念ながら、できません。これらの IP は、[!DNL Amazon Web Services] により地域ごとに動的に割り当てられます。結果的に、[!DNL Audience Manager] では、このアドレスに割り当てることができる IP の範囲を管理していません。
 
 <br> 
 
-**受信および送信用のsFTPサーバ用の許可リストに追加できるIPアドレスを教えてください。**
+**インバウンドおよびアウトバウンド sFTP サーバーの許可リストに追加できる IP アドレスを教えてください。**
 
 はい、以下を参照してください。
 
