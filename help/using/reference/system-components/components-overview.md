@@ -4,8 +4,12 @@ seo-description: Audience Manager システムにおける主要なコンポー�
 seo-title: システムコンポーネントの概要
 title: システムコンポーネントの概要
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
+feature: system components
 translation-type: tm+mt
-source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
