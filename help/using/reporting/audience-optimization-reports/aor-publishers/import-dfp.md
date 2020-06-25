@@ -5,8 +5,12 @@ seo-title: DFP データファイルを Audience Manager にインポート
 solution: Audience Manager
 title: DFP データファイルを Audience Manager にインポート
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
-translation-type: ht
-source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
+feature: audience optimization reports
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 100%
 
 ---
 
