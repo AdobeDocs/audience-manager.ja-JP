@@ -5,9 +5,10 @@ seo-title: 'Audience Manager 識別子（ID） '
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
 title: 'Audience Manager 識別子（ID） '
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
+feature: data governance & privacy
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 100%
 
