@@ -6,9 +6,9 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: 同意管理
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 34af220db2cf23ccde225eb1e05af7ce0e1513b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
 ht-degree: 100%
 
