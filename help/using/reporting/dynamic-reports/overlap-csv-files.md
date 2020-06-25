@@ -5,8 +5,12 @@ seo-title: 重複レポートの CSV ファイル
 solution: Audience Manager
 title: 重複レポートの CSV ファイル
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '976'
+ht-degree: 96%
 
 ---
 
@@ -29,23 +33,23 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ファイル拡張子 </p> </td> 
-   <td colname="col2"> <p>重複レポートファイルは gzip 形式で圧縮され、ファイル拡張子は <code>.gz</code> になります。解凍後は <code>.csv</code> 拡張子をファイルに追加する必要があります。 </p> </td> 
+   <td colname="col2"> <p>Overlap report files are gzip compressed and have a <code> .gz</code> file extension. You must add the <code> .csv</code> extension to the file after decompression. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル名 </p> </td> 
    <td colname="col2"> <p>ファイル名の構文は次のとおりです。 </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
-      <li id="li_FFB104975D104050AB67FEEC903C6E2E">セグメント間ファイル：<code>S2S_overlap_<i>partner ID</i>_<i> yyyy-mm-dd</i>_<i> date range</i></code> </li> 
-      <li id="li_7DEC51D693FB4377840D652AF40386EF">セグメント／特性間ファイル：<code>S2T_overlap_<i> partner ID</i>_<i> yyyy-mm-dd</i>_<i> date range</i></code> </li> 
-      <li id="li_CCB35A2BCB714E518AB279D453740623">特性間ファイル：<code>T2T_overlap_<i> partner ID</i>_<i> yyyy-mm-dd</i>_<i> date range</i></code> </li> 
+      <li id="li_FFB104975D104050AB67FEEC903C6E2E">セグメント間ファイル： <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_7DEC51D693FB4377840D652AF40386EF">セグメントから特性ファイル： <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_CCB35A2BCB714E518AB279D453740623">特性間ファイル： <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>日付範囲 </p> </td> 
    <td colname="col2"> <p>レポートの日付範囲は 5 桁の ID で表されます。 </p> <p> 
      <ul id="ul_7B334CDFD7DA42AC8F383BE0F8F77FB9"> 
-      <li id="li_0045DED532E747C08824DCC98A9174B3"> <code>70000</code>：7 日間のレポート。 </li> 
-      <li id="li_3A22775F78E648BF8AC32A9E1AF1F5DE"> <code>30000</code>：30 日間のレポート。 </li> 
+      <li id="li_0045DED532E747C08824DCC98A9174B3"> <code> 70000</code>：7 日間のレポート。 </li> 
+      <li id="li_3A22775F78E648BF8AC32A9E1AF1F5DE"> <code> 30000</code>：30 日間のレポート。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -56,8 +60,8 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
    <td colname="col1"> <p>例 </p> </td> 
    <td colname="col2"> <p>レポートが 1 つの場合のファイル名の例： </p> <p> 
      <ul id="ul_EED13F73F37D48868236F8945E19C88F"> 
-      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">1 つの、7 日間のファイル：<code>S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
-      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">1 つの、30 日間のファイル：<code>S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
+      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">単一の7日間ファイル： <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
+      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">単一の30日間ファイル： <code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
      </ul> </p> <p>複数のファイルがあるレポートのファイル名の例： </p> <p> 
      <ul id="ul_D307EECBB3524962AB8C8332BF699D29"> 
       <li id="li_9FA3B5539E5A4F95899075866D96DEA0"> <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
@@ -109,10 +113,10 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。<code>rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
+   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。<code> rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
-      <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>：7 日 </li> 
-      <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>：30 日 </li> 
+      <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code> ：7 日 </li> 
+      <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code> ：30 日 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -172,10 +176,10 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。<code>rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
+   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。<code> rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
-      <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>：7 日 </li> 
-      <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>：30 日 </li> 
+      <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code> ：7 日 </li> 
+      <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code> ：30 日 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -247,10 +251,10 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。<code>rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
+   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。<code> rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
-      <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>：7 日 </li> 
-      <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>：30 日 </li> 
+      <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code> ：7 日 </li> 
+      <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code> ：30 日 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
