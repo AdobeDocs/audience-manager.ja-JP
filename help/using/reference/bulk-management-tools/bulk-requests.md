@@ -5,8 +5,12 @@ seo-title: 一括リクエスト
 solution: Audience Manager
 title: 一括リクエスト
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
-translation-type: ht
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+feature: baaam
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
 
