@@ -4,8 +4,12 @@ seo-description: 使用していないのに JavaScript デバッガーに Audie
 seo-title: Audience Manager を使用していないのに、JavaScript デバッガーに Audience Manager JavaScript 呼び出しが表示されています。なぜですか？
 solution: Audience Manager
 title: Audience Manager を使用していないのに、JavaScript デバッガーに Audience Manager JavaScript 呼び出しが表示されています。なぜですか？
-translation-type: ht
-source-git-commit: 1f5c1a91f0b5df5291d3143d297e25128b5bb716
+feature: support
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
