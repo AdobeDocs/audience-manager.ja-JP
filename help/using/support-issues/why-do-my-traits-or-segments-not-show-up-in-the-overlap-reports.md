@@ -4,8 +4,12 @@ seo-description: 特性およびセグメントが重複レポートページに
 seo-title: 重複レポートページに特性やセグメントが表示されないのはなぜですか？
 solution: Audience Manager
 title: 重複レポートページに特性やセグメントが表示されないのはなぜですか？
-translation-type: ht
-source-git-commit: 0487a15c5fcd0e653bedf0e7fd8326f5cc363660
+feature: support
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
