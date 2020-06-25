@@ -5,8 +5,12 @@ seo-title: メタデータファイルのコンテンツの形式
 solution: Audience Manager
 title: メタデータファイルのコンテンツの形式
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 100%
 
 ---
 
