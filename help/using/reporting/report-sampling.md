@@ -5,8 +5,12 @@ seo-title: 選択した Audience Manager レポートでのデータサンプリ
 solution: Audience Manager
 title: 選択した Audience Manager レポートでのデータサンプリングとエラー率
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-translation-type: ht
-source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
+feature: reporting reference
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 100%
 
 ---
 
