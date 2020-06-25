@@ -5,8 +5,12 @@ seo-title: Daily Trait Variation レポート
 solution: Audience Manager
 title: Daily Trait Variation レポート
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 100%
 
 ---
 
@@ -52,8 +56,8 @@ source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 1 ヶ月後、[!UICONTROL Daily Trait Variation] レポートを実行し、サイト分析によれば訪問者数が増加しているにもかかわらず、`productPage == "smartphones"` 特性に関して大きい負の偏差があることに気がつきます。この情報に基づいて、新しい製品ページに対応するように [!DNL Audience Manager] 内の特性を更新していないことに気がつきます。そこで、次の特性を作成する必要があることがわかります。
 
-* productPage == "samsung"
-* productPage == "apple"
-* productPage == "huawei"
+* productPage == &quot;samsung&quot;
+* productPage == &quot;apple&quot;
+* productPage == &quot;huawei&quot;
 
 これをおこなえば、オーディエンスが、新しく作成した特性の対象に認定されるようになります。
