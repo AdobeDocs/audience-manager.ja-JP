@@ -6,11 +6,11 @@ seo-title: 製品の機能に関するよくある質問
 solution: Audience Manager
 title: 製品の機能に関するよくある質問
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2b70b651a626c2b5667edb58c8c6068152a9d770
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ faq_features_functions.xml
 
 **組織 ID はどのようなもので、どうすれば見つかりますか？**
 
-Folio Builder *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
+ *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
 
 つまり、*`Organization ID`* は `1FD6776A524453CC0A490D44@AdobeOrg` のようになります。
 
@@ -47,9 +47,9 @@ Folio Builder *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe 
 
  
 
-**宛先への一括IDエクスポートを実行する際に、一部の顧客IDが見つかりません。 Why does that happen?**
+**宛先への一括 ID 書き出しを実行する際に、一部の顧客 ID が見つかりません。なぜこのような問題が発生するのでしょうか。**
 
-デバイスID([AAM UUID](../reference/ids-in-aam.md))が複数のCRM ID([DPUUID](../reference/ids-in-aam.md))にリンクされている場合は、最新のマッピングのみがエクスポートされます。 このため、書き出されるデバイスIDの数が予想より少なくなる場合があります。
+デバイス ID（[AAM UUID](../reference/ids-in-aam.md)）が複数の CRM ID（[DPUUID](../reference/ids-in-aam.md)）にリンクされている場合は、最新のマッピングのみが書き出されます。このため、書き出されるデバイス ID の数が予想より少なくなる場合があります。
 
  
 
