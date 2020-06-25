@@ -5,8 +5,9 @@ seo-title: メタデータファイルの配信方法
 solution: Audience Manager
 title: メタデータファイルの配信方法
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
+feature: log files
 translation-type: tm+mt
-source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
