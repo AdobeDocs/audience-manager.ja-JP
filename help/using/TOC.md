@@ -4,11 +4,11 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1740'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -236,7 +236,7 @@ ht-degree: 97%
          + [DCS API リファレンスの概要](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS API メソッド](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS エラーコード、メッセージ、例](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [IDの監視と非公開](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [ID の監視と拒否リスト登録](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [DCS の地域 ID、場所、ホスト名](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [DCS 呼び出しでのキー値ペアの形式](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [競合状態とエラー処理](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
@@ -338,10 +338,10 @@ ht-degree: 97%
    + Adobe Experience Platform との統合 {#integration-experience-platform}
       + [Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](integration/integration-aep/aam-aep-audience-sharing.md)
    + 他の Experience Cloud ソリューションとの統合 {#integration-other-solutions}
-      + [Audience ManagerとAdobe Targetの統合](integration/integration-other-solutions/aam-target-integration.md)
+      + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
-      + [AdobeAnalyticsセグメントをExperience Cloudに公開する(AdobeAnalyticsのドキュメントを開く)](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Audience ManagerとAdobe Campaignの統合(Adobe Campaignドキュメントを開く)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Adobe Analytics セグメントを Experience Cloud に公開する（Adobe Analytics のドキュメントを開く）](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Audience Manager と Adobe Campaign の統合（Adobe Campaign ドキュメントを開く）](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要](reference/amazon-s3.md)
