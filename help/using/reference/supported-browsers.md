@@ -5,8 +5,12 @@ seo-title: サポートされているブラウザー
 solution: Audience Manager
 title: サポートされているブラウザー
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
+feature: reference
 translation-type: tm+mt
-source-git-commit: 662ddd04bde203a35440669ac9677eb067e136a1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +39,7 @@ c_supported_browsers.xml
 
 * **Mozilla Firefox**
 
-   最新バージョンのFirefoxはhttp://www.mozilla.com/en-US/firefoxから入手で [きます](http://www.mozilla.com/en-US/firefox)。
+   最新バージョンのFirefoxは、http://www.mozilla.com/en-US/firefox [から入手できます](http://www.mozilla.com/en-US/firefox)。
 
 * **Safari**
 
