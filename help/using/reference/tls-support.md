@@ -5,8 +5,12 @@ seo-title: TLS 1.0 および 1.1 の廃止
 solution: Audience Manager
 title: TLS 1.0 および 1.1 の廃止
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
-translation-type: ht
-source-git-commit: 5f572a414f27bd8eea20a1c0596a02b1250b50fe
+feature: reference
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 100%
 
 ---
 
