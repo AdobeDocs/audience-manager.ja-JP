@@ -5,8 +5,12 @@ seo-title: セグメント／特性間重複レポート
 solution: Audience Manager
 title: セグメント／特性間重複レポート
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-translation-type: ht
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+feature: overlap reports
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 100%
 
 ---
 
@@ -146,7 +150,7 @@ r_s2t_data_pop.xml
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle">Trait ID</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Trait ID</span></b> </td> 
    <td colname="col2"> セグメントの一意の数値 ID。 </td> 
   </tr> 
   <tr> 
