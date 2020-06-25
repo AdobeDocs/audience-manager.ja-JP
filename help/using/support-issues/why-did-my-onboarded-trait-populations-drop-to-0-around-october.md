@@ -4,8 +4,12 @@ seo-description: 2019 年 10 月 14 日頃、デバイス ID グラフのオン�
 seo-title: 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？
 solution: Audience Manager
 title: 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？
-translation-type: ht
-source-git-commit: 0487a15c5fcd0e653bedf0e7fd8326f5cc363660
+feature: support
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 100%
 
 ---
 
