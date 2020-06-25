@@ -6,8 +6,12 @@ seo-title: キー値ペアの解説
 solution: Audience Manager
 title: キー値ペアの解説
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
+feature: reference
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
@@ -71,7 +75,7 @@ c_key_value_explained.xml
    <td colname="col6" morerows="1"> なし </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>キー値ペア</b> <p>（標準） </p> </td> 
+   <td colname="col1"> <b>キーと値のペア</b> <p>（標準） </p> </td> 
    <td colname="col2"> <code> x=1&amp;x=2&amp;y=3&amp;y=4 </code> </td> 
    <td colname="col3"> x、y </td> 
   </tr> 
