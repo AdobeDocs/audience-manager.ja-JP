@@ -4,8 +4,9 @@ seo-description: アドビでは、オプトイン機能と IAB Transparency and
 seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: Audience Manager IAB TCF用プラグイン
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 40e30379f051398a5f6c8ee7db49b6c5c5e146cd
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '2449'
 ht-degree: 95%
