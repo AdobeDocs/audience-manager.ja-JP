@@ -4,8 +4,12 @@ seo-description: システム機能、データ統合、ヘルプファイルに
 seo-title: リファレンス
 solution: Audience Manager
 title: リファレンス
+feature: reference
 translation-type: tm+mt
-source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 100%
 
 ---
 
