@@ -5,8 +5,12 @@ seo-title: メタデータファイルのステータスの更新
 solution: Audience Manager
 title: メタデータファイルのステータスの更新
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 98%
 
 ---
 
@@ -80,11 +84,11 @@ S3 status ディレクトリには `.info` ファイルがあり、アップロ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p><code>meta</code> ディレクトリにアップロードされたメタデータファイルの MD 5 チェックサム。 </p> </td> 
+   <td colname="col2"> <p><code> meta</code> ディレクトリにアップロードされたメタデータファイルの MD 5 チェックサム。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p><code>meta</code> ディレクトリにアップロードされたメタデータファイルの名前。 </p> </td> 
+   <td colname="col2"> <p><code> meta</code> ディレクトリにアップロードされたメタデータファイルの名前。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
@@ -117,7 +121,7 @@ S3 status ディレクトリには `.info` ファイルがあり、アップロ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>ファイル処理日（<code><i>yyyy-mm-dd</i></code> 形式）。 </p> </td> 
+   <td colname="col2"> <p>File processing date in <code><i>yyyy-mm-dd</i></code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
