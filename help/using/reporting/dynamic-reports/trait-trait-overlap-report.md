@@ -5,8 +5,12 @@ seo-title: 特性間重複レポート
 solution: Audience Manager
 title: 特性間重複レポート
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-translation-type: ht
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+feature: overlap reports
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 100%
 
 ---
 
