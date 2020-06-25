@@ -5,8 +5,12 @@ seo-title: DCM データファイルを Audience Manager にインポート
 solution: Audience Manager
 title: DCM データファイルを Audience Manager にインポート
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +23,7 @@ DoubleClick Campaign Manager（DCM）データファイルを Audience Manager �
 
 DCM は、[!DNL DoubleClick for Advertisers]（DFA）に対する [!DNL Google] の置き換えです。DFA と同様に DCM の顧客は [!DNL Audience Manager] でデータのインポート、表示、操作ができます。ただし、[!DNL Audience Manager] は [!UICONTROL Data Transfer] ファイルと [!UICONTROL Match Table] ファイルに直接アクセスしてインポートすることはできません。これらのファイルをインポートする場合、顧客側での努力が必要になります。
 
-その設定手順については、[DoubleClick Campaign Manager ヘルプ](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456)で詳細に説明しています。また、基本的な手順については以下で説明しています。
+その設定手順については、[DoubleClick Campaign Manager ヘルプ](https://support.google.com/dcm/partner/answer/2941575?hl=en&amp;ref_topic=6107456)で詳細に説明しています。また、基本的な手順については以下で説明しています。
 
 >[!CAUTION]
 >
@@ -31,15 +35,15 @@ DCM は、[!DNL DoubleClick for Advertisers]（DFA）に対する [!DNL Google] 
 
 ## 手順
 
-1. [グループを作成](https://support.google.com/dcm/partner/answer/3370419?hl=en&ref_topic=6107456)します。
+1. [グループを作成](https://support.google.com/dcm/partner/answer/3370419?hl=en&amp;ref_topic=6107456)します。
 
    グループにより、DCM データへのアクセスが制御されます。最終的に、[!DNL Audience Manager] をこのグループに招待して追加します。
 
-1. [ Google Cloud Storage のステータスを確認](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456)します。
+1. [ Google Cloud Storage のステータスを確認](https://support.google.com/dcm/partner/answer/3370481?hl=en&amp;ref_topic=6107456)します。
 
    Google Cloud Storage には、[!UICONTROL Data Transfer] と [!UICONTROL Match Tables] が格納されるデータバケットがあります。バケットを設定するか、新しいグループが既存のデータストレージバケットにアクセスできるようにする必要があります。
 
-1. [ データファイルの URL を取得](https://support.google.com/dcm/partner/answer/3370482?hl=en&ref_topic=6107456)します。
+1. [ データファイルの URL を取得](https://support.google.com/dcm/partner/answer/3370482?hl=en&amp;ref_topic=6107456)します。
 
    DCM アカウントマネージャーまたはプラットフォームソリューションコンサルタントにお問い合わせのうえ、データファイルの URL を確認してください。[!DNL Google] は将来のリリースでバケットの形式やファイル名を変更する場合があります。これも DCM アカウントマネージャーにお問い合わせのうえ、正しい形式を使用しているか確認してください。
 
@@ -47,7 +51,7 @@ DCM は、[!DNL DoubleClick for Advertisers]（DFA）に対する [!DNL Google] 
 
    [!DNL Cloud Storage Manager] では、データの共有とバケットへのアクセスを制御できます。自分のグループに、[!UICONTROL Data Transfer] ファイルと [!UICONTROL Match Table] ファイルを含むバケットへの読み取りアクセス権を付与します。
 
-1. [ データの共有を設定](https://support.google.com/dcm/partner/answer/6206106?hl=en)します。
+1. [ データの共有を設定](https://support.google.com/dcm/partner/answer/6206106?hl=ja)します。
 
    プライバシー保護のため、共有 DCM ユーザー ID は暗号化されます。暗号化の結果、Data Transfer ファイルの末尾に `PartnerId1` と `PartnerId2` の 2 つの列が追加されます。これらの列には、これらのファイルを受け取る会社ごとに特有のユーザー ID がエンコードされて格納されます。
 
