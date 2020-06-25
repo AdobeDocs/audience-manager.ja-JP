@@ -5,9 +5,10 @@ seo-title: Audience Manager の一般的なレポート
 solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-translation-type: ht
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
-workflow-type: ht
+feature: general & trend reports
+translation-type: tm+mt
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 100%
 
