@@ -5,8 +5,12 @@ seo-title: DPID と DPUUID に代わる CID
 solution: Audience Manager
 title: DPID と DPUUID に代わる CID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
+feature: reference
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 99%
 
 ---
 
@@ -32,15 +36,15 @@ DPID と DPUUID は、データプロバイダー ID とユーザー ID で構�
    <td colname="col2"> 
     <ul id="ul_0567D39DCE784C20A81EC0845C7B1C6B"> 
      <li id="li_DDD8C18266314987A7C802918F4892A8"> <code>d_dpid=<i>data provider ID</i></code> </li> 
-     <li id="li_80185558932E416698ABD71158303EA8"> <code>dpid=<i> data provider ID</i></code> </li> 
+     <li id="li_80185558932E416698ABD71158303EA8"> <code>dpid=<i>data provider ID</i></code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>データプロバイダー個別ユーザー ID（DPUUID） </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EA7F769523B142CE8FF5886E5CDFF2D9"> 
-     <li id="li_C984E2FF0A83495880BB87C610FA3F79"> <code>d_dpuuid=<i>データプロバイダー個別ユーザー ID</i></code> </li> 
-     <li id="li_DCFFAC995DCC49F489ACEFD97A06F877"> <code>dpuuid=<i> data provider unique user ID</i></code> </li> 
+     <li id="li_C984E2FF0A83495880BB87C610FA3F79"> <code>d_dpuuid=<i>data provider unique user ID</i></code> </li> 
+     <li id="li_DCFFAC995DCC49F489ACEFD97A06F877"> <code>dpuuid=<i>data provider unique user ID</i></code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -67,7 +71,7 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
  <tbody> 
   <tr> 
    <td colname="col1"> <p>顧客 ID（CID） </p> </td> 
-   <td colname="col2"> <p> <code>d_cid =<i> data provider ID</i>%01<i> user ID</i></code> </p> </td> 
+   <td colname="col2"> <p> <code>d_cid=<i>data provider ID</i>%01<i>user ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客 ID 統合コード（CID_IC） </p> </td> 
@@ -101,24 +105,24 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
    <td colname="col1"> <p>イベント </p> </td> 
    <td colname="col2"> 
     <ul id="ul_6EAB4188C6954512A28D1A8328794BCB"> 
-     <li id="li_344AAEF1622343489E2AD6E2929CEA98">新規： <code>.../event?d_cid=123%01987...</code> </li> 
-     <li id="li_B673C1BA5AD24C46AB8F8232EF89CE89">廃止： <code>.../event?d_dpid=123&amp;d_dpuuid=987...</code> </li> 
+     <li id="li_344AAEF1622343489E2AD6E2929CEA98">新規: <code> .../event?d_cid=123%01987...</code> </li> 
+     <li id="li_B673C1BA5AD24C46AB8F8232EF89CE89">Deprecated: <code> .../event?d_dpid=123&amp;d_dpuuid=987...</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>受信同期（IBS） </p> </td> 
    <td colname="col2"> 
     <ul id="ul_78270745CBC2469B8CA9EDB7032B8F92"> 
-     <li id="li_8C4620A04504442185F013F74E6B0647">新規： <code>.../ibs:d_cid=123%01987...</code> </li> 
-     <li id="li_2A8F761C76334C1BB097CF1A9D7E8429">廃止： <code>.../ibs:d_dpid=123&amp;d_dpuuid=987</code> </li> 
+     <li id="li_8C4620A04504442185F013F74E6B0647">新規: <code> .../ibs:d_cid=123%01987...</code> </li> 
+     <li id="li_2A8F761C76334C1BB097CF1A9D7E8429">Deprecated: <code> .../ibs:d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audience Manager UUID（ID）の生成 </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EAA764DCFF7244F69ABF67ACEE13E579"> 
-     <li id="li_18467A531FAF454A881CBD157BBFD6D2">新規： <code>.../id?d_cid=123%01987...</code> </li> 
-     <li id="li_433C33F7BC284362AC7CC3C9DC0BF471">廃止： <code>.../id?d_dpid=123&amp;d_dpuuid=987</code> </li> 
+     <li id="li_18467A531FAF454A881CBD157BBFD6D2">新規: <code> .../id?d_cid=123%01987...</code> </li> 
+     <li id="li_433C33F7BC284362AC7CC3C9DC0BF471">Deprecated: <code> .../id?d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -141,10 +145,10 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>URL エンコード </p> </td> 
+   <td colname="col1"> <p>URL encoding </p> </td> 
    <td colname="col2"> <p>開発チームは、CID キー値ペアの次の変数に URL エンコーディングを適用する<i>必要</i>があります。 </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
-      <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code>user ID</code> <code>（dpuuid）</code> </li> 
+      <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 
       <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><code> integration code</code> </li> 
      </ul> </p> <p> <p>注意：ユーザー ID と統合コードを URL エンコードして<i>から</i>、連結して文字列にする必要があります。これは、2 つの変数を区切っている ASCII 文字 %01 を URL エンコーディングで表現してはいけないからです。 </p> </p> <p>URL エンコーディングによって、+ や = などの予約済みの文字や安全でない文字を含んだユーザー ID や統合コードをサーバーに正しく送信できるようになります。 </p> <p><a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external">ASCII エンコーディング表</a>を参考にしてください。 </p> </td> 
   </tr> 
