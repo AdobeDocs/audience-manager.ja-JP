@@ -5,9 +5,10 @@ seo-title: Flash DIL
 solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
-translation-type: ht
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
-workflow-type: ht
+feature: DIL Implementation
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 100%
 
