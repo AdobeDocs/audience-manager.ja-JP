@@ -5,8 +5,12 @@ seo-title: 'SDK コード '
 solution: Audience Manager
 title: 'SDK コード '
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
+feature: API
 translation-type: tm+mt
-source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 84%
 
 ---
 
