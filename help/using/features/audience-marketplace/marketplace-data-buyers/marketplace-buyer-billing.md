@@ -4,10 +4,14 @@ seo-description: Audience Marketplace データ購入者は、広告インプレ
 seo-title: データフィード購入者に対する請求
 solution: Audience Manager
 title: データフィード購入者に対する請求
-keywords: セグメントレベルのレポート, セグメントレベル, セグメントレベル
+keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '2027'
+ht-degree: 99%
 
 ---
 
@@ -50,9 +54,9 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-セグメントレベルの使用状況をレポートする方法に関するデモビデオもご覧ください。
+セグメントレベルの使用状況をレポートする方法についてのデモビデオもご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25522/)
 
  
 
@@ -83,7 +87,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 1. **[!UICONTROL Audience Marketplace > Payables]** へ移動します。
 1. 更新するレポートの種類に応じて、「**[!UICONTROL Feed Usage]**」タブまたは「**[!UICONTROL Segment Usage]**」タブを選択します。
-1. 「**[!UICONTROL Edit Feeds Usage]**」または「**[!UICONTROL Edit Segments Usage]**」をクリックします。
+1. Click **[!UICONTROL Edit Feeds Usage]** or **[!UICONTROL Edit Segments Usage]**.
 1. 「**[!UICONTROL download the current usage]**」をクリックして、有効な CSV ファイルを取得します。
 1. ダウンロードしたファイルをコンピューター上で開き、使用状況レポートに入力します。
 1. 「**[!UICONTROL Choose a CSV file]**」をクリックして、更新した使用状況レポートをアップロードします。
@@ -182,7 +186,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OR</span> </p> </td> 
-   <td colname="col2"> <p>配信されたインプレッション合計の重み付け配分を、ブール演算子 OR 条件を使用するルールベースのセグメントのすべてのプロバイダー特性に適用します。重み付け配分は次の数式で計算します。</p><p><code>(Trait Population / Segment Population) * インプレッションの数 * CPM のコスト</code></p> </td> 
+   <td colname="col2"> <p>配信されたインプレッション合計の重み付け配分を、ブール演算子 OR 条件を使用するルールベースのセグメントのすべてのプロバイダー特性に適用します。重み付け配分は次の数式で計算します。</p><p><code>(Trait Population / Segment Population) * Number of Impressions * Cost of CPM</code></p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle">NOT</span> </p> </td> 
