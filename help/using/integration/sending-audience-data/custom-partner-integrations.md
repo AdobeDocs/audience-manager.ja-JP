@@ -4,8 +4,12 @@ seo-description: このページには、Audience Manager とデータパート�
 seo-title: カスタムパートナーの統合
 solution: Audience Manager
 title: カスタムパートナーの統合
-translation-type: ht
-source-git-commit: c069c901df6d8737f611d27ce7dffd4072e50adf
+feature: Third Party Integrations
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 100%
 
 ---
 
