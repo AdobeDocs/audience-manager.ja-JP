@@ -5,8 +5,12 @@ seo-title: ユーザー管理 API メソッド
 solution: Audience Manager
 title: ユーザー管理 API メソッド
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
