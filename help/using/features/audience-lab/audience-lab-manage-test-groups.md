@@ -5,8 +5,12 @@ seo-title: テストグループの管理
 solution: Audience Manager
 title: テストグループの管理
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
-translation-type: ht
-source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
+feature: Audience Lab
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1003'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +38,7 @@ source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
 
 新しい [!UICONTROL Segment Test Group] を作成するには：
 
-1. [!UICONTROL Audience Lab] ダッシュボードで、「**[!UICONTROL Create New Test Group]**」を選択してウィザードを起動します。
+1. **[!UICONTROL Create New Test Group]** ダッシュボードで、「[!UICONTROL Audience Lab]」を選択してウィザードを起動します。
 1. **[!UICONTROL Basic Info & Choose Segment]**
 
    * 「**[!UICONTROL Test Group Name]**」と「**[!UICONTROL Description]**」に入力します。
@@ -82,7 +86,7 @@ source-git-commit: 96b353d4b35a72ea087f7c82910e9272bc457bdc
    * テストグループを最終決定したら、テストグループの複製や削除が可能になりますが、編集はできません。
    >[!NOTE]
    >* 作成プロセスのどの時点でもテストグループを保存でき、後でウィザードに戻ることができます。テストグループのステータスが「**[!UICONTROL Draft]**」になり、セグメントテストグループを最終決定するまで、テストグループはデータを宛先に送信しません。
-   >* ドラフトテストの場合は、[!UICONTROL Audience Lab] のメイン表示でテストグループカードの「**[!UICONTROL Edit]**」をクリックすれば、テストグループに戻って編集することができます。
+   >* ドラフトテストの場合は、**[!UICONTROL Edit]** のメイン表示でテストグループカードの「[!UICONTROL Audience Lab]」をクリックすれば、テストグループに戻って編集することができます。
 
 
 ## セグメントテストグループの編集 {#edit-test-groups}
