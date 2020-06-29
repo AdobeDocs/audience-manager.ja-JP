@@ -5,8 +5,12 @@ seo-title: ドメイン管理 API メソッド
 solution: Audience Manager
 title: ドメイン管理 API メソッド
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 100%
 
 ---
 
@@ -123,7 +127,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr>
   <tr valign="top">
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。 <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code> </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
+   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。 <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>を参照してください。 </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
   </tr> 
  </tbody> 
 </table>
