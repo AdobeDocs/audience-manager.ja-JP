@@ -5,8 +5,12 @@ seo-title: Audience Manager の宛先としての OpenX
 solution: Audience Manager
 title: Audience Manager の宛先としての OpenX
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
-translation-type: ht
-source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
+feature: Third Party Integrations
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 98%
 
 ---
 
@@ -27,8 +31,8 @@ source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
 
 Audience Manager の宛先として [!DNL OpenX] を設定する前に、以下を確認してください。
 
-* **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] コードをサイトにデプロイする必要があります。[!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
-* **`get_aamCookie`関数：** Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または `<head>` コードブロック内に配置します。
+* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library]コードをサイトに導入する必要があります。[!UICONTROL DIL]を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
+* **`get_aamCookie`関数：**Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または`<head>`コードブロック内に配置します。
 * **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。データは raw 形式でもかまいませんが、各レコードには Audience Manager `UUID` が含まれている必要があります。Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
 ### キーと値のデータ：形式の要件
@@ -50,15 +54,15 @@ Audience Manager で、[!DNL OpenX] の cookieookie の宛先を作成します�
 
 <!-- aam-openx-destination.xml -->
 
-Audience Manager において、*宛先*&#x200B;とは、データを共有したい他システム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。まず、「**[!UICONTROL Add New Destination]**」をクリックし、以下の手順に従います。
+Audience Manager において、*宛先*&#x200B;とは、データを共有したい他システム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
 
 ### 手順 1：基本情報
 
 「[!UICONTROL Basic Information]」セクションを完了するには：
 
 1. 宛先の名前を入力します。
-1. [!UICONTROL Type] ドロップダウンリストから「**[!UICONTROL "Cookie"]**」を選択します。
-1. 「**[!UICONTROL Next]**」をクリックし、「[!UICONTROL Configuration]」および「[!UICONTROL Segment Mappings]」セクションを開きます。
+1. [!UICONTROL Type] ドロップダウンリストから&#x200B;**[!UICONTROL "Cookie"]**&#x200B;を選択します。
+1. **[!UICONTROL Next]**&#x200B;をクリックし、「[!UICONTROL Configuration]」および「[!UICONTROL Segment Mappings]」セクションを開きます。
 
 ### 手順 2：設定情報
 
@@ -68,16 +72,16 @@ Audience Manager において、*宛先*&#x200B;とは、データを共有し�
 1. **Cookie Domain：**&#x200B;ユーザーが現在表示しているページのドメインで Cookie を設定する場合は空のままとします。ドメインを指定する場合は、`.mydomain.com` のように、ピリオドを使用して名前にプレフィックスを付けます。
 1. 「[!UICONTROL Data Format]」セクションでキーオプションを選択します。
 1. シリアル化された値のデータを使用するキーの場合、**[!UICONTROL Serialize]** コントロールを選択し、シリアル値の区切り文字（シリアル化された値を区切るための文字）を指定します。
-1. 「**[!UICONTROL Save]**」をクリックし、「[!UICONTROL Segment Mappings]」セクションを展開します。
+1. **[!UICONTROL Save]**&#x200B;をクリックし、「[!UICONTROL Segment Mappings]」セクションを展開します。
 
 ### 手順 3：セグメントマッピング
 
 以下の手順で Cookie の宛先にセグメントを追加します。
 
 1. **Find segments：**「[!UICONTROL Segment Mappings]」セクションには、セグメントを検索するための 2 つの検索ツールが用意されています。セグメントを検索するには、
-   * オプション 1：検索フィールドにセグメント名を入力します。その文字列に基づきフィールドが自動で更新されます。使用するセグメントが見つかったら、「**[!UICONTROL Add]**」をクリックします。
-   * オプション 2：「**[!UICONTROL Browse All Segments]**」をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。終了したら、「**[!UICONTROL Add Selected Segments]**」をクリックします。
-1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、「**[!UICONTROL Save]**」をクリックします。
+   * オプション 1：検索フィールドにセグメント名を入力します。その文字列に基づきフィールドが自動で更新されます。使用するセグメントが見つかったら、**[!UICONTROL Add]**&#x200B;をクリックします。
+   * オプション 2：**[!UICONTROL Browse All Segments]**&#x200B;をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。終了したら、「**[!UICONTROL Add Selected Segments]**」をクリックします。
+1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
 1. 「**[!UICONTROL Done]**」をクリックします。
 
 ## OpenX の設定 {#openx-code-setup}
