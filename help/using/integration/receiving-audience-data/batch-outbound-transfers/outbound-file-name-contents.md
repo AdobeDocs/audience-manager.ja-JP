@@ -5,8 +5,12 @@ seo-title: 送信データファイル名：構文と例
 solution: Audience Manager
 title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-translation-type: ht
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+feature: Outbound Data Transfers
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 100%
 
 ---
 
@@ -128,7 +132,7 @@ source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**シナリオ 3**：*`PID_ALIAS="XYZCustomer"`*&#x200B;で [!DNL FTP] の場所に送信されたファイルで、ファイルコンテンツにサードパーティユーザー ID （*`Vendor ID=45454`*）を含むもの。
+**シナリオ 3**：[!DNL FTP]で *`PID_ALIAS="XYZCustomer"`* の場所に送信されたファイルで、ファイルコンテンツにサードパーティユーザー ID （*`Vendor ID=45454`*）を含むもの。
 
 例：増分ファイル：
 
