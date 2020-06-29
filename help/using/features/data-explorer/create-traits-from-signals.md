@@ -4,8 +4,12 @@ seo-description: すべてのシグナルから新しい特性を作成し（特
 seo-title: シグナルからの特性の作成
 title: シグナルからの特性の作成
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +18,7 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 すべてのシグナルから新しい特性を作成し（特性内ですでに使用しているものを含む）、特性作成後に認定する将来のオーディエンスを取り込みます。ビデオで詳細なデモを視聴するか、詳細情報をお読みください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
 ## シグナルダッシュボードでの特性の作成 {#create-traits-from-signal-dashboard}
 
@@ -22,7 +26,7 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 新しい特性を作成する場合、シグナルタイプに応じて以下の特性タイプが事前設定されます。
 
-* リアルタイムのシグナル、実用的なログファイルおよび [!DNL Adobe Analytics] のシグナルの場合は&#x200B;**[!UICONTROL Rule-based]**&#x200B;の特性
+* リアルタイムのシグナル、実用的なログファイルおよび **[!UICONTROL Rule-based]** のシグナルの場合は[!DNL Adobe Analytics]の特性
 
 * オンボードのシグナルの場合は&#x200B;**[!UICONTROL Onboarded]**&#x200B;の特性
 
@@ -30,7 +34,7 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 ![](assets/signals-create-trait.png)
 
-**[特性ビルダー](../../features/traits/about-trait-builder.md)**&#x200B;が表示され、新規特性を作成できます。
+**[特性ビルダー](../../features/traits/about-trait-builder.md)**が表示され、新規特性を作成できます。
 
 ## シグナル検索での特性の作成 {#create-traits-from-signal-search}
 
@@ -38,7 +42,7 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 特定のシグナルを検索し、検索結果に基づいてルールベースまたはオンボードの特性を作成します。手順は次のとおりです。
 
-1. **[!UICONTROL Audience Data > Signals > Search]** を開き、目的のキー値ベアに応じて検索を実行します。すべての結果を表示する場合は、キー値ペアを入力せずに「**[!UICONTROL Search]検索**」をクリックします。
+1. **[!UICONTROL Audience Data > Signals > Search]** を開き、目的のキー値ベアに応じて検索を実行します。すべての結果を表示する場合は、キー値ペアを入力せずに「**[!UICONTROL Search]**&#x200B;検索」をクリックします。
 2. 検索結果のリストで、特性に使用するシグナルを選択します。
    * 1 つのシグナルから特性を作成するには、**[!UICONTROL Create Rule-Based Trait]** リンクまたは **[!UICONTROL Create Onboarded Trait]** リンクのいずれか該当する方をクリックします。
    * 複数のシグナルから特性を作成するには、各シグナルのチェックボックスをオンにして、「**[!UICONTROL Create Trait from Multiple Signals]**」をクリックします。
@@ -50,4 +54,4 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
    >
    >![](assets/signals-used-traits.png)
 
-3. **[特性ビルダー](../../features/traits/about-trait-builder.md)**&#x200B;を使用して、新しい特性を作成します。
+3. **[特性ビルダー](../../features/traits/about-trait-builder.md)**を使用して、新しい特性を作成します。
