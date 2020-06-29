@@ -5,8 +5,12 @@ seo-title: プロファイル結合ルールとデバイスのセグメント化
 solution: Audience Manager
 title: プロファイル結合ルールとデバイスのセグメント化解除プロセス
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Profile Merge Rules
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +34,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## 「No Device Profile」オプションとデバイスのセグメント化解除 {#no-device-option}
 
-[!DNL Audience Manager] は、[!UICONTROL Profile Merge Rule] が **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** オプションを使用すると、セグメントからクロスデバイス ID を削除できます。これらの条件の下で、クロスデバイスプロファイルの更新や変更によってクロスデバイス ID がセグメントの対象として認定されなくなったときに、セグメント化解除がおこなわれます。これは、セグメント認定条件が変更された場合、[!UICONTROL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](instant-cross-device-suppression.md) のドキュメントを参照してください。
+[!DNL Audience Manager] 「+」オプションを [!UICONTROL Profile Merge Rule] 使用している場合、セグメントからデバイス間IDを削除でき **[!UICONTROL Current Authenticated Profiles]** ま **[!UICONTROL No Device Profile]** す。 これらの条件の下で、クロスデバイスプロファイルの更新や変更によってクロスデバイス ID がセグメントの対象として認定されなくなったときに、セグメント化解除がおこなわれます。これは、セグメント認定条件が変更された場合、[!UICONTROL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](instant-cross-device-suppression.md) のドキュメントを参照してください。
 
 ![](assets/current-no-device.png)
 
