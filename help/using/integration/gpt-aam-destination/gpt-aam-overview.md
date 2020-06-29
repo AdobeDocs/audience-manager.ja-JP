@@ -3,8 +3,12 @@ description: Google Publisher Tags（GPT）を使用した DFP の統合方法�
 seo-description: Adobe Audience Manager（AAM）で Google Publisher Tags（GPT）を使用した DFP の統合方法の概要です。
 seo-title: Adobe Audience Manager（AAM）で Google Publisher Tags（GPT）を使用した DFP の統合
 title: Google サイト運営者タグ（GPT）を使用した DFP の統合
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
 
