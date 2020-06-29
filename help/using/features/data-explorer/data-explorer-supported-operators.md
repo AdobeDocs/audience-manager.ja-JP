@@ -4,8 +4,12 @@ seo-description: 論理演算子を使用して、キー値ペアのグループ
 seo-title: サポートされる論理演算子
 title: サポートされる論理演算子
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
@@ -23,9 +27,9 @@ source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 | 演算子 | 定義 |
 |---|---|
 | **==** | 次と等しい |
-| **&gt;** | 次の値より大きい |
+| **>** | 次の値より大きい |
 | **&lt;** | 次の値より小さい |
-| **=&gt;** | 次の値以上 |
+| **=>** | 次の値以上 |
 | **&lt;=** | 次の値以下 |
 
 ### 名前付き演算子
