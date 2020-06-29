@@ -5,9 +5,10 @@ seo-title: プロファイル結合ルールのレポート指標
 solution: Audience Manager
 title: プロファイル結合ルールのレポート指標
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
+feature: Profile Merge Rules
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 100%
 
