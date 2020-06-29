@@ -4,8 +4,12 @@ seo-description: カスタマーケアは、どのような問題でも解決を
 seo-title: 問題がある場合
 solution: Audience Manager
 title: 問題がある場合
+feature: Support
 translation-type: tm+mt
-source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +26,7 @@ r_problem.xml
 
  -->
 
-技術的な問題やバグ報告については、[カスタマーケア](https://helpx.adobe.com/marketing-cloud/contact-support.html)までご連絡ください。
+技術的な問題やバグ報告については、[カスタマーケア](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)までご連絡ください。
 
 * **電話：** 1-800-497-0335
 
@@ -49,7 +53,7 @@ r_problem.xml
    <td colname="col2"> <p>次の情報を記入します。 </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
       <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">会社名。 </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword">Audience Manager</span> サブドメイン（判明している場合）。サブドメインは、データ収集イベントを<span class="keyword">アドビ</span>に送信するドメインの URL です（例：<code>https://<i> myCompany</i>.demdex.net</code>）。 </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword">Audience Manager</span> サブドメイン（判明している場合）。The sub-domain is the URL of the domain that sends data collection events to <span class="keyword"> Adobe</span> (e.g., <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
