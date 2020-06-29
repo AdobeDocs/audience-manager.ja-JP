@@ -5,8 +5,12 @@ seo-title: 特性ルールの管理
 solution: Audience Manager
 title: 特性ルールの管理
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Traits
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -46,11 +50,11 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    >[!NOTE]
    >
    >イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、キー変数でプレフィックス `c_`（またはその他の命名規則）を使用します。
-1. **[!UICONTROL Operator]**&#x200B;ドロップダウンから[比較演算子](../../features/traits/trait-comparison-operators.md)を選択します。比較演算子はシグナルの要素間の関係を比較します。
+1. [ドロップダウンから](../../features/traits/trait-comparison-operators.md)比較演算子&#x200B;**[!UICONTROL Operator]**&#x200B;を選択します。比較演算子はシグナルの要素間の関係を比較します。
    >[!NOTE]
    >
    >[!DNL Boolean] 演算子 [!UICONTROL OR] はグループ&#x200B;*内*&#x200B;の複数のシグナル間の関係を確立します。これを変更することはできません。
-1. **[!UICONTROL Add Rule]**&#x200B;をクリックします。保存されたルールは、データ入力フィールドの上にある特性ワークスペースに表示されます。
+1. 「**[!UICONTROL Add Rule]**」をクリックします。保存されたルールは、データ入力フィールドの上にある特性ワークスペースに表示されます。
 
 ### 例 {#example-trait-rule}
 
