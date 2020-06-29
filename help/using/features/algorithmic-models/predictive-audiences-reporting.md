@@ -4,8 +4,12 @@ seo-description: Predictive Audiences は、データサイエンスを使用し
 seo-title: Predictive Audiences レポート
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
-translation-type: ht
-source-git-commit: 8259f07c91efa0efd88e8f7c87cb1829ffadd77d
+feature: Algorithmic Models
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 100%
 
 ---
 
