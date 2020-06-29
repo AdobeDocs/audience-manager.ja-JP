@@ -5,8 +5,12 @@ seo-title: 送信マクロの例
 solution: Audience Manager
 title: 送信マクロの例
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-translation-type: ht
-source-git-commit: 3d14d58b9cb66faf506ab729e7ff85dc1818d37e
+feature: Outbound Data Transfers
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 100%
 
 ---
 
