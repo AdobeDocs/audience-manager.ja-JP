@@ -5,15 +5,19 @@ seo-title: セグメント式エディターで使用するコード構文
 solution: Audience Manager
 title: セグメント式エディターで使用するコード構文
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Segments
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 100%
 
 ---
 
 
 # セグメント式エディターで使用するコード構文 {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] では、コードエディターを使用して、セグメント用の特性ルールを作成できます。[!UICONTROL Traits] パネルの&#x200B;**[!UICONTROL Segment Expressions (Code View)]**&#x200B;タブをクリックすると、この機能にアクセスできます。
+[!UICONTROL Segment Builder] では、コードエディターを使用して、セグメント用の特性ルールを作成できます。**[!UICONTROL Segment Expressions (Code View)]** パネルの[!UICONTROL Traits]タブをクリックすると、この機能にアクセスできます。
 
 ## 式ビルダーのコード構文
 
@@ -41,13 +45,13 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 | 名前または変数 | 説明 |
 |---|---|
 | `FREQUENCY` | 式の前に配置する必要がある文字列。 |
-| ` [`&lt;`traitID`&gt;`T]` | 特性 ID の末尾に「`T`」を付加した文字列の配列。複数の特性がある場合、コンマで区切ります。次に例を示します。`[123T, 456T]` |
+| ` [`&lt;`traitID`>`T]` | 特性 ID の末尾に「`T`」を付加した文字列の配列。複数の特性がある場合、コンマで区切ります。次に例を示します。`[123T, 456T]` |
 | ` <Recency Operator><Numeric Value>D` | *（オプション）*&#x200B;セグメントの特性に関する最新性ルールを設定します。「`D`」は最新性を日数単位で表していることを示します。 |
 | ` <Frequency Operator><Numeric Value>` | セグメントの特性に関する頻度ルールを設定します。 |
 
 ### 使用可能な最新性演算子と頻度演算子
 
-[最新性と頻度](../../features/segments/recency-and-frequency.md)の間隔を、比較演算子と整数で設定します。[!UICONTROL Segment Builder] では、&lt;（次より小さい）、&gt;（次より大きい）、==（次と等しい）などの標準的な式が使用されます。ただし、設定時に使用できる演算子の種類は最新性と頻度で異なります。次の表は、使用可能な最新性演算子と頻度演算子です。
+[最新性と頻度](../../features/segments/recency-and-frequency.md)の間隔を、比較演算子と整数で設定します。[!UICONTROL Segment Builder] では、&lt;（次より小さい）、>（次より大きい）、==（次と等しい）などの標準的な式が使用されます。ただし、設定時に使用できる演算子の種類は最新性と頻度で異なります。次の表は、使用可能な最新性演算子と頻度演算子です。
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
