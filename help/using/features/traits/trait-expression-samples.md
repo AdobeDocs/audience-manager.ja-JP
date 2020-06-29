@@ -5,8 +5,12 @@ seo-title: ブール演算子と比較演算子を使用した式のサンプル
 solution: Audience Manager
 title: ブール演算子と比較演算子を使用した式のサンプル
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +23,7 @@ source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
 
 <!-- r_tb_expression_samples.xml -->
 
-[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。一部の例では、*`key`* 変数の先頭が `c_` になっていますが、これはユーザー定義変数を表します。イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、*`key`* 変数でプレフィックス `c_`（またはその他の命名規則）を使用します。
+[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。一部の例では、*`key`* 変数の先頭が `c_` になっていますが、これはユーザー定義変数を表します。イベント呼び出しでデータを `c_` に送信するために必要であれば、*`key`* 変数でプレフィックス [!DNL Audience Manager]（またはその他の命名規則）を使用します。
 
 ## ブール式 {#boolean-expressions}
 
@@ -60,7 +64,7 @@ source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
-   <td colname="col2"> 変数 <code><i>a</i></code> または <code><i>b</i></code> および <code><i>c</i></code> によって設定された条件を満たしている。 </td> 
+   <td colname="col2"> 変数  <code><i>a </i></code> または <code><i>b </i></code> および <code><i>c </i></code>。 </td> 
   </tr> 
  </tbody> 
 </table>
