@@ -6,8 +6,9 @@ seo-title: 顧客データフィード
 solution: Audience Manager
 title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
+feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 620730ab1596d4777a768de4453b73538671279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1860'
 ht-degree: 90%
