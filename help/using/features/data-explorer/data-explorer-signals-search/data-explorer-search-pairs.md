@@ -4,8 +4,12 @@ seo-description: キー値ペアに基づいて 1 つまたは複数のシグナ
 seo-title: キー値ペアによるシグナルの検索
 title: キー値ペアによるシグナルの検索
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
-translation-type: ht
-source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
+feature: Data Explorer
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 100%
 
 ---
 
