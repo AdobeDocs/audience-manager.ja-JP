@@ -5,8 +5,12 @@ seo-title: DIL ツール
 solution: Audience Manager
 title: DIL ツール
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 91%
 
 ---
 
@@ -43,8 +47,8 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
 
 `getSearchReferrer` では次のパラメーターを使用します。
 
-* *`{string}`*：*（オプション）*&#x200B;検索 URL を含む文字列（定義されていない場合は `document.referrer` が使用されます）。
-* *`{object}`*：*（オプション）*`hostPattern`、`queryParam` または `queryPattern` の設定が格納されたオブジェクト。
+* *`{string}`*: *（オプション）* 検索URLを含む文字列(未定義の場合に使用 `document.referrer` )。
+* *`{object}`*: *（オプション）* 、、、またはの設定を含むオブジェクト `hostPattern`で `queryParam`す `queryPattern`。
 
 また、次のものを返します。
 
@@ -73,7 +77,7 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
    <td>カスタム URL に基づいて検索リファラーを返します。</td> 
    <td> 
   <code>
-        var results = 
+        var&nbsp;results&nbsp;= 
         DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
   </code>
 </td> 
@@ -86,8 +90,8 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
       search.aspx?q=adobe+rules",{ 
-         hostPattern:/ehow\./, 
-         queryParam:"p" 
+      &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+      &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
   </code>
   </td></tr> 
@@ -96,10 +100,11 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
    <td> カスタム正規表現を渡し、カスタム検索を実行します。 </td> 
    <td> 
     <code>
-      var results = 
-      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,{ 
-   hostPattern:/ehow\./, 
-           search_pattern:/[&amp;\?]p=([^&amp;]+/ 
+      var&nbsp;results&nbsp;= 
+      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
+      {
+        &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+        &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
       });
     </code>
    </td> 
@@ -123,7 +128,7 @@ r_dil_decompose.xml
 
 `decomposeURI` では次のパラメーターを使用します。
 
-* *`uri {string}`*：*（オプション）* URI を含む文字列。指定されていない場合は、デフォルトで `document.location.href` が適用されます。
+* *`uri {string}`*: *（オプション）* URIを含む文字列。 指定されていない場合は、デフォルトで `document.location.href` が適用されます。
 
 また、次のものを返します。
 
@@ -183,6 +188,6 @@ var dataLib = DIL.create({
      partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
 }); 
- 
+
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>
