@@ -5,8 +5,12 @@ seo-title: Audience Manager の導入
 solution: Audience Manager
 title: Audience Manager の導入
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 99%
 
 ---
 
