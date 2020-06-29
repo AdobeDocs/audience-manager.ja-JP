@@ -5,8 +5,12 @@ seo-title: 送信テンプレートマクロ
 solution: Audience Manager
 title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
-translation-type: ht
-source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
+feature: Outbound Data Transfers
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 100%
 
 ---
 
