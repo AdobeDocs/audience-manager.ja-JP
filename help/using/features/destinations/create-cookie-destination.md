@@ -4,8 +4,12 @@ seo-description: Cookie の宛先は、ユーザーのブラウザーの Cookie 
 seo-title: Cookie の宛先の設定
 solution: Audience Manager
 title: Cookie の宛先の設定
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
 
@@ -26,9 +30,9 @@ Cookie の宛先は、ユーザーのブラウザーの Cookie からデータ�
 2. 宛先の名前を入力します。略語や特殊文字は使用しないでください。
 3. *（オプション）*&#x200B;宛先の説明を入力します。簡潔な説明が、宛先を定義するのに効果的です。
 4. 「**[!UICONTROL Category]**」リストで、「**[!UICONTROL Custom]**」を選択します。
-5. 「**[!UICONTROL Environment]**」リストで、「**[!UICONTROL Browser]**」を選択します。Android や iOS アプリなど、ネイティブモバイル環境用に cookie の宛先を設定することはできません。
+5. **[!UICONTROL Environment]** リストで、「**[!UICONTROL Browser]**」を選択します。Android や iOS アプリなど、ネイティブモバイル環境用に cookie の宛先を設定することはできません。
 6. 「**[!UICONTROL Type]**」リストで、「**[!UICONTROL Cookie]**」をクリックします。
-7. *（オプション）***[!UICONTROL Auto-fill Destination Mapping]** を選択します。オプションは以下のとおりです。
+7. *（オプション）***[!UICONTROL Auto-fill Destination Mapping]** を選択します。オプションは次のとおりです。
    * **[!UICONTROL Segment ID]**：セグメント ID を自動的に追加して宛先に送信します。
    * **[!UICONTROL Integration Code Value]**：セグメント統合コードを自動的に追加して宛先マッピングに送信します。統合コードは、顧客が作成して使用する一意の識別子です。最大 255 文字に制限されています。
 8. 「**[!UICONTROL Next]**」をクリックして「[!UICONTROL Configuration]」セクションに移動するか、「**[!UICONTROL Data Export Labels]**」をクリックして書き出しコントロールを宛先に適用します。
