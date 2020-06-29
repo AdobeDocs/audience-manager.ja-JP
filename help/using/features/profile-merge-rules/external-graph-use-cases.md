@@ -5,8 +5,12 @@ seo-title: 外部デバイスグラフのユースケース
 solution: Audience Manager
 title: 外部デバイスグラフのユースケース
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Profile Merge Rules
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 89%
 
 ---
 
@@ -111,7 +115,7 @@ These strategies are designed to bring an unauthenticated or unknown user back t
 
 ## 高度なクロスデバイスターゲティング {#advanced-graph-expansion}
 
-このユースケースは、**[!UICONTROL Last Authenticated Profiles]** ルールと **[!UICONTROL Adobe Co-Op Device Graph]** ルールを使用して、外部デバイスグラフまたは [!DNL Adobe Co-Op Device Graph] からのデバイスを使用して、認証済未訪問者のオーディエンスターゲティングを拡張する方法を示しています。
+This use case shows how you can expand audience targeting for authenticated visitors with devices from an external device graph or from the [!DNL Adobe Co-Op Device Graph], by using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** rule.
 
 ![last-device-graph](assets/last-device-coop.png)
 
@@ -119,7 +123,7 @@ These strategies are designed to bring an unauthenticated or unknown user back t
 
 ジョンは iPhone 7（データプラン A）を使用して、Acme Inc. の Web サイトで認証を受けます。同時に、ジョンの [!DNL Co-Op Device Graph] クラスターには、ジョンが定期的に使用する、ノートパソコン（[!DNL Device 1]）と 2 台目のスマートフォンである [!DNL Device 2]（[!DNL Samsung S7]、[!DNL Data Plan B]）の 2 つの追加デバイスが含まれます。
 
-**[!UICONTROL Last Authenticated Profiles]**&#x200B;ルールと **[!UICONTROL Adobe Co-Op Device Graph]** ルールを使用することで、最初に該当していたのはセグメントのうち 1 つだけですが、[!DNL Acme Inc.] は、ジョンのデバイスグラフクラスターから 3 つのデバイスすべてにパーソナライズされたメッセージを配信することができます。
+By using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]**, [!DNL Acme Inc.] is able to deliver personalized messages to all three devices from John&#39;s device graph cluster, even though only one of them initially qualifies for the segment.
 
 ![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 
