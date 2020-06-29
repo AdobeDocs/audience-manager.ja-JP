@@ -5,8 +5,12 @@ seo-title: Google サイト運営者タグ（GPT）を使用して DFP にセグ
 solution: Audience Manager
 title: Google サイト運営者タグ（GPT）を使用して DFP にセグメントを送信する際の要件と方法
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Third Party Integrations
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 100%
 
 ---
 
