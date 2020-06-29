@@ -3,11 +3,12 @@ description: DCS API のコード、メソッド、プロセスの概念的情�
 seo-description: Adobe Audience Manager（AAM）の DCS API のコード、メソッド、プロセスの概念的情報、説明、定義です。
 seo-title: Adobe Audience Manager（AAM）の DCS API リファレンスの概要
 title: DCS API リファレンスの概要
+feature: DCS
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -24,7 +25,7 @@ Conceptual information, descriptions, and definitions for [!DNL DCS API] code, m
 
    データ収集サーバー（DCS）で生成されるエラーコードおよびメッセージをコード ID の順に説明します。
 
-* [IDの監視と非公開](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+* [ID の監視と拒否リスト登録](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
    DCSは、受信したIDを監視し、短時間に異常に高い率で送信されたIDをブロックリストに追加します。
 
