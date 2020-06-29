@@ -6,9 +6,10 @@ seo-title: アルゴリズムモデルの作成
 solution: Audience Manager
 title: アルゴリズムモデルの作成
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
-translation-type: ht
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
-workflow-type: ht
+feature: Algorithmic Models
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -112,7 +113,7 @@ ht-degree: 100%
 
 ファーストパーティの類似（look-alike）モデルを作成し、コンバーターに似た独自の訪問者をより多く見つける方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
