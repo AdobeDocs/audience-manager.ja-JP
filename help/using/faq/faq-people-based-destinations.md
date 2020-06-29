@@ -4,8 +4,12 @@ seo-description: 'People-Based Destinations に関するよくある質問への
 seo-title: People-Based Destinations に関する FAQ
 solution: Audience Manager
 title: People-Based Destinations に関する FAQ
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 100%
 
 ---
 
