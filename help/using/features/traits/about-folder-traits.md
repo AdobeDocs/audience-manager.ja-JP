@@ -1,13 +1,17 @@
 ---
 description: フォルダー特性を使用すると、同じフォルダーとそのすべての子フォルダーに存在する特性を自動的に集計して、ターゲティング可能なセグメントにすることができます。
-keywords: セグメントサイズの見積もり;SSE
+keywords: segment size estimator;sse
 seo-description: フォルダー特性を使用すると、同じフォルダーとそのすべての子フォルダーに存在する特性を自動的に集計して、ターゲティング可能なセグメントにすることができます。
 seo-title: フォルダー特性について
 solution: Audience Manager
 title: フォルダー特性について
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
-translation-type: ht
-source-git-commit: 9fa5a558c839da89286b1abdf77e835a92747c87
+feature: Traits
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 100%
 
 ---
 
