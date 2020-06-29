@@ -1,14 +1,18 @@
 ---
 description: Audience Manager 内でデータを販売するデータプロバイダーのワークフローの概要です。
-keywords: Google Analytics
+keywords: Google analytics
 seo-description: Audience Manager 内でデータを販売するデータプロバイダーのワークフローの概要です。
 seo-title: データプロバイダー向けの Audience Marketplace
 solution: Audience Manager
 title: データプロバイダー向けの Audience Marketplace
 topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Audience Marketplace
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +46,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 * **Description：**&#x200B;データフィードのコンテンツについて購入者に伝えます。
 * **Traits：**&#x200B;各データフィード内の特性の数。非公開データフィードを使用して、購入者にこれが表示されないようにできます。
 * **Last 30 Day Uniques：**&#x200B;過去 30 日で確認された個別ユーザーの数。非公開データフィードを使用して、購入者にこれが表示されないようにできます。
-* **Last Month's Total Fees：**&#x200B;サブスクリプションを購入したデータ購入者が支払う金額。レポート期間は、毎月 10 日に終了します。期限切れのアカウントには、三角形と感嘆符のアイコンでフラグが設定されます。データが誤用されていたり、アカウントの期限が切れている場合、[サブスクリプション購入者のデータフィードを非アクティブ化](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed)できます。
+* **Last Month&#39;s Total Fees：**&#x200B;サブスクリプションを購入したデータ購入者が支払う金額。レポート期間は、毎月 10 日に終了します。期限切れのアカウントには、三角形と感嘆符のアイコンでフラグが設定されます。データが誤用されていたり、アカウントの期限が切れている場合、[サブスクリプション購入者のデータフィードを非アクティブ化](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed)できます。
 * **Status：**&#x200B;フィードがアクティブ、非アクティブ、非公開または公開のいずれであるかを表示します。
 * **Subscribers：**&#x200B;データフィードを使用している購入者の数を表示します。この列の数をクリックすると、購入者の会社名、サブスクリプション、請求およびサブスクリプション状況が表示されます。
 * **Requests：**&#x200B;データフィードに対するアクセス要求の数。
