@@ -1,11 +1,15 @@
 ---
 description: データ書き出しラベルは、データソースに設定する書き出しコントロールと連携して動作します。データ書き出しラベルによって、セグメントへの制限された特性の追加や、宛先へのセグメントデータの送信が防止されます。Cookie や URL の新規または既存の宛先に複数の書き出しラベルを設定できます。
 seo-description: データ書き出しラベルは、データソースに設定する書き出しコントロールと連携して動作します。データ書き出しラベルによって、セグメントへの制限された特性の追加や、宛先へのセグメントデータの送信が防止されます。Cookie や URL の新規または既存の宛先に複数の書き出しラベルを設定できます。
-seo-title: 宛先へのデータ書き出しコントロールの追加
+seo-title: サーバー間宛先のセグメントの追加または編集
 solution: Audience Manager
-title: 宛先へのデータ書き出しコントロールの追加
+title: サーバー間宛先のセグメントの追加または編集
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 96bf2e5fe403a550a4c1cc290381d2705629dbd3
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +26,7 @@ source-git-commit: 96bf2e5fe403a550a4c1cc290381d2705629dbd3
 2. 「[!UICONTROL Action]」列で鉛筆アイコンをクリックして、宛先を編集します。
    * **[!UICONTROL Search and Add Segments]**&#x200B;ボックスにセグメントの名前を入力するか、「**[!UICONTROL Browse All Segments]**」をクリックして使用可能なセグメントのリストを参照します。
    * 使用するセグメントが見つかったら、「**[!UICONTROL Add Selected Segments]**」をクリックします。セグメントを追加すると、[!UICONTROL Edit Mapping] ウィンドウが開きます。
-   *  [!UICONTROL Edit Mapping]：
+   * [!UICONTROL Edit Mapping]：
       * **[!UICONTROL Mappings]**：この宛先で使用される[キーと値のペア](../../features/destinations/key-value-pairs.md)の値を設定します。
       * **[!UICONTROL Start Date]** および **[!UICONTROL End Date]**：宛先の開始日と終了日を選択します。終了日が未指定の場合、宛先の有効期限は無期限になります。
 3. 「**[!UICONTROL Save]**」、「**[!UICONTROL Done]**」の順にクリックします。
