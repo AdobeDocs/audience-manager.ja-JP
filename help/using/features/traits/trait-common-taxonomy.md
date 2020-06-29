@@ -6,8 +6,12 @@ seo-title: 一般的なカテゴリへの特性の分類
 solution: Audience Manager
 title: 一般的なカテゴリへの特性の分類
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 93%
 
 ---
 
@@ -28,11 +32,11 @@ source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 
 ## カテゴリには業界標準の分類を使用
 
-この一般的なカテゴリは、[!DNL Interactive Advertising Bureau (IAB)] によって作成された分類に基づいています。Refer to the [!DNL IAB]'s [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
+この一般的なカテゴリは、[!DNL Interactive Advertising Bureau (IAB)] によって作成された分類に基づいています。Refer to the [!DNL IAB]&#39;s [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
 
 ## 分類の構成
 
-[!DNL Audience Manager] の分類では、データをネストされたカテゴリに編成します。これらは層と呼ばれます。各カテゴリは、データ分類のための個別の層を最大 3 つまで持つことができます。最上位レベルである第 1 層のカテゴリは、データを最も一般的な形式（地域など）でグループ化します。これに続く層では、上位レベルの一般的なカテゴリよりも詳細になります（*地理 --&gt; 米国 --&gt; ニューヨーク*&#x200B;など）。ただし、どのカテゴリも必ず 3 層であるとは限らず、2 層のみのものもあります。
+[!DNL Audience Manager] の分類では、データをネストされたカテゴリに編成します。これらは層と呼ばれます。各カテゴリは、データ分類のための個別の層を最大 3 つまで持つことができます。最上位レベルである第 1 層のカテゴリは、データを最も一般的な形式（地域など）でグループ化します。これに続く層では、上位レベルの一般的なカテゴリよりも詳細になります（*地理 --> 米国 --> ニューヨーク*&#x200B;など）。ただし、どのカテゴリも必ず 3 層であるとは限らず、2 層のみのものもあります。
 
 ## データカテゴリによる特性の分類
 
