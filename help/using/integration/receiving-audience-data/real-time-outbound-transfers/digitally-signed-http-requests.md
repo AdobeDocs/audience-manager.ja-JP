@@ -5,8 +5,12 @@ seo-title: デジタル署名された HTTP(S) 要求
 solution: Audience Manager
 title: デジタル署名された HTTP(S) 要求
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
-translation-type: ht
-source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
+feature: Outbound Data Transfers
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
 
