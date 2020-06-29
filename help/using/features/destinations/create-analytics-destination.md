@@ -4,9 +4,10 @@ seo-description: オーディエンス分析では、Audience Manager のセグ�
 seo-title: Analytics の宛先の設定
 solution: Audience Manager
 title: Analytics の宛先の設定
-translation-type: ht
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
-workflow-type: ht
+feature: Integration with Analytics
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 100%
 
