@@ -5,8 +5,12 @@ seo-title: 派生シグナル
 solution: Audience Manager
 title: 派生シグナル
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
+feature: Traits
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +29,7 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 ## 派生シグナルの場所
 
-サイドバーナビゲーションの **[!UICONTROL Tools > Derived Signals]** で[!UICONTROL derived signals]を作成および管理します。
+サイドバーナビゲーションの [!UICONTROL derived signals] で&#x200B;**[!UICONTROL Tools > Derived Signals]**&#x200B;を作成および管理します。
 
 ## 派生シグナルの作成 {#create}
 
@@ -33,7 +37,7 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 [!UICONTROL derived signal]を作成するには：
 
-1. [!UICONTROL Tools]メニューから **[!UICONTROL Derived Signals]** を選択します。
+1. **[!UICONTROL Derived Signals]**&#x200B;メニューから [!UICONTROL Tools] を選択します。
 1. 以下の項目を指定します。
    * *（オプション）* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
