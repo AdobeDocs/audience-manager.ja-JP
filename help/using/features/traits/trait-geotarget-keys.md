@@ -5,8 +5,9 @@ seo-title: プラットフォームレベルのキーによる GeoTargeting（�
 solution: Audience Manager
 title: プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 8959e0023f7663d7a20080aaf130d469ed8a4313
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
