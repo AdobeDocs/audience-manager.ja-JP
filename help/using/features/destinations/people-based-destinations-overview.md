@@ -4,8 +4,9 @@ seo-description: 'ユーザーベースの宛先を使用して、ファース�
 seo-title: People-Based Destinations の概要とユースケース
 solution: Audience Manager
 title: 概要とユースケース
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 96%
