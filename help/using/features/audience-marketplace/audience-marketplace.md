@@ -1,14 +1,18 @@
 ---
 description: Audience Marketplace では、データプロバイダーとデータ購入者がほとんど手間をかけずにセルフサービス方式でデータを取引できます。役割がデータ購入者かデータ販売者かで異なる専用機能を提供することにより、これを実現しています。実際には、同時に購入者と販売者になることさえできます。さらに、取引が成立した場合、Audience Marketplace では、データプロバイダーとデータ購入者の間の契約、請求、支払いを処理します。
-keywords: Google Analytics
+keywords: Google analytics
 seo-description: Audience Marketplace では、データプロバイダーとデータ購入者がほとんど手間をかけずにセルフサービス方式でデータを取引できます。役割がデータ購入者かデータ販売者かで異なる専用機能を提供することにより、これを実現しています。実際には、同時に購入者と販売者になることさえできます。さらに、取引が成立した場合、Audience Marketplace では、データプロバイダーとデータ購入者の間の契約、請求、支払いを処理します。
 seo-title: Audience Marketplace
 solution: Audience Manager
 title: Audience Marketplace
 topic: DIL API
 uuid: a94d2ee7-d854-4e68-bd6b-42827ca72f67
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: db98258a1f88867af4cd1369d35fa243a89f3f65
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
 
