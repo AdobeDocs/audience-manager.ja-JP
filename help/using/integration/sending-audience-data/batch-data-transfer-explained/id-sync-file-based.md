@@ -5,8 +5,12 @@ seo-title: ID 同期ファイルの名前およびコンテンツの要件
 solution: Audience Manager
 title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-translation-type: ht
-source-git-commit: 84c860ca918ae7daf2a5225716fd7db7143089d9
+feature: Inbound Data Transfers
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 100%
 
 ---
 
@@ -118,7 +122,7 @@ ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../.
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-手順 1：ID 同期プロセスが [!DNL DPID] 12345 の [!DNL DPUUID] を左列の [!DNL Audience Manager] [!DNL UUID] を同期します。ファイル名の [!DNL DPID] "0" は、[!DNL Audience Manager] [!DNL UUID] を表します。
+手順 1：ID 同期プロセスが [!DNL DPID] 12345 の [!DNL DPUUID] を左列の [!DNL Audience Manager] [!DNL UUID] を同期します。ファイル名の [!DNL DPID] &quot;0&quot; は、[!DNL Audience Manager] [!DNL UUID] を表します。
 <br/>
 
 **ファイル 2**（[サンプルファイルをダウンロード](assets/adobe_id_12345_67890_1477846458.sync)）
