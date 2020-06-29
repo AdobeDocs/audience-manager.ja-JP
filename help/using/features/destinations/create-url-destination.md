@@ -4,8 +4,9 @@ seo-description: URL の宛先は、ページから宛先へのピクセル呼�
 seo-title: URL の宛先の設定
 solution: Audience Manager
 title: URL の宛先の設定
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: d83b07a542dd337773d287f4eba0960c6e258504
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 73%
