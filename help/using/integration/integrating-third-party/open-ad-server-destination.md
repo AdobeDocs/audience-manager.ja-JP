@@ -5,8 +5,12 @@ seo-title: Audience Manager の宛先としての OAS
 solution: Audience Manager
 title: Audience Manager の宛先としての OAS
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Third Party Integrations
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 98%
 
 ---
 
@@ -23,8 +27,8 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 この宛先タイプには次の項目が必要となります。
 
-* **[!UICONTROL DIL]：** [!UICONTROL Data Integration Library] コードはインベントリ上にデプロイする必要があります。[!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
-* **`get_aamCookie`関数：** Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または `<head>` コードブロック内に配置します。
+* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library]コードをインベントリに導入する必要があります。[!UICONTROL DIL]を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
+* **`get_aamCookie`関数：**Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または`<head>`コードブロック内に配置します。
 * **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。データは raw 形式でもかまいませんが、各レコードには Audience Manager [!UICONTROL UUID] が含まれている必要があります。Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
 ### Cookie 形式およびキーと値のデータ
@@ -78,9 +82,9 @@ Audience Manager において、*宛先*&#x200B;とは、データを共有し�
 
 1. **Find segments：**「[!UICONTROL Segment Mappings]」セクションには、セグメントを検索するための 2 つの検索ツールが用意されています。セグメントを検索するには、
    * オプション 1：検索フィールドにセグメント名を入力します。その文字列に基づきフィールドが自動で更新されます。使用するセグメントが見つかったら、**[!UICONTROL Add]**&#x200B;をクリックします。
-   * オプション 2：**[!UICONTROL Browse All Segments]**&#x200B;をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。終了したら、**[!UICONTROL Add Selected Segments]**&#x200B;をクリックします。
+   * オプション 2：**[!UICONTROL Browse All Segments]**&#x200B;をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。終了したら、「**[!UICONTROL Add Selected Segments]**」をクリックします。
 1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
-1. **[!UICONTROL Done]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Done]**」をクリックします。
 
 ## OAS 設定 {#oas-code-setup}
 
