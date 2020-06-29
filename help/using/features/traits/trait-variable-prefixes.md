@@ -5,8 +5,12 @@ seo-title: キー変数のプレフィックスに関する要件
 solution: Audience Manager
 title: キー変数のプレフィックスに関する要件
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
-translation-type: ht
-source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
+feature: Traits
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 100%
 
 ---
 
