@@ -6,8 +6,12 @@ solution: Audience Manager
 title: テストグループのレポート
 topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +38,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Converters</span></b> </p> </td> 
-   <td colname="col2"> <p>テストグループにおいて選択したコンバージョン特性を示したデバイス数を返します。コンバージョン特性の作成方法については、<a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external">こちらのビデオをご覧ください</a>。 </p> </td> 
+   <td colname="col2"> <p>テストグループにおいて選択したコンバージョン特性を示したデバイス数を返します。コンバージョン特性の作成方法については、<a href="https://helpx.adobe.com/jp/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external">こちらのビデオをご覧ください</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">Total Conversions</span></b> </p> </td> 
@@ -42,7 +46,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Test Segment Populations</span></b> </p> </td> 
-   <td colname="col2"> <p>テストセグメントに属するデバイス数を返します。<b><span class="uicontrol">Total Population</span></b> と <b><span class="uicontrol">Real-time Population</b></span> を切り替えることができます。違いについては、<a href="../../faq/faq-reporting.md">レポートの FAQ</a> で説明しています。 </p> </td>
+   <td colname="col2"> <p>テストセグメントに属するデバイス数を返します。<b><span class="uicontrol">Total Population</span></b> と <b><span class="uicontrol">Real-time Population</span></b> 間を切り替えることができます。違いについては、<a href="../../faq/faq-reporting.md">レポートの FAQ</a> で説明しています。 </p> </td>
   </tr>
  </tbody>
 </table>
