@@ -5,8 +5,12 @@ seo-title: 非公開データフィード
 solution: Audience Manager
 title: 非公開データフィード
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: 21b2505ac6cdf97b401bf0b0ac80bf1964f084b8
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 100%
 
 ---
 
@@ -41,27 +45,27 @@ source-git-commit: 21b2505ac6cdf97b401bf0b0ac80bf1964f084b8
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Current Subscribers</span></b> </p> </td> 
-   <td colname="col2"> <p>非公開データフィードのサブスクリプションを購入した承認済みの購入者を一覧表示します。 </p> </td> 
+   <td colname="col2"> <p>プライベートデータフィードのサブスクリプションを購入した承認済みの購入者を一覧表示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Potential Subscribers</span></b> </p> </td> 
-   <td colname="col2"> <p>非公開データフィードのサブスクリプションを購入していない承認済みの購入者を一覧表示します。 </p> <p>承認により、購入者には、データフィードが公開されているかのように表示されます。これにより、フィードを登録前に確認および評価できます。また、潜在的なサブスクリプション購入者として一覧表示された購入者に、データフィードに対する割引を提供することもできます。購入者がサブスクリプションを購入すると、そのプロファイルが「<b><span class="uicontrol">Current Subscribers </span></b>」に移動します。 </p> </td>
+   <td colname="col2"> <p>非公開データフィードのサブスクリプションを購入していない承認済みの購入者を一覧表示します。 </p> <p>承認により、購入者には、データフィードが公開されているかのように表示されます。これにより、フィードを登録前に確認および評価できます。また、潜在的なサブスクリプション購入者として一覧表示された購入者に、データフィードに対する割引を提供することもできます。購入者がサブスクリプションを購入すると、そのプロファイルが <b><span class="uicontrol">Current Subscribers</span></b> に移動します。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Access Requests</span></b> </p> </td>
    <td colname="col2"> <p>非公開データフィードの新しいサブスクリプション要求を一覧表示します。このタブをクリックして、購入者の要求を確認、承認または拒否できます。 </p>
     <ul id="ul_BE0A835A90B14C05B3F63226B79D052D"> 
-     <li id="li_2C5686CEB6F4430BA18AED5AD75C330A">承認された購入者は「<b><span class="uicontrol">Potential Subscribers</span></b>」に移動します。 </li>
-     <li id="li_929591FCF81E43A3881813BDBD3AC278">拒否された購入者は「<b><span class="uicontrol">Denied Access</span></b>」に移動します。 </li>
+     <li id="li_2C5686CEB6F4430BA18AED5AD75C330A">承認された購入者は <b><span class="uicontrol">Potential Subscribers</span></b> に移動します。 </li>
+     <li id="li_929591FCF81E43A3881813BDBD3AC278">拒否された購入者は <b><span class="uicontrol">Denied Access</span></b> に移動します。 </li>
     </ul> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Details Requests</span></b> </p> </td>
-   <td colname="col2"> <p>まだデータフィードのサブスクリプションを購入してはいないものの、フィードに関する詳細情報を要求した承認済みの購入者を一覧表示します。 </p> <p>承認により、購入者には、データフィードが公開されているかのように表示されます。これにより、フィードを登録前に確認および評価できます。また、アクセスを要求している購入者に、データフィードに対する割引を提供することもできます。詳細の要求に対応すると、購入者プロファイルがこのタブから削除されます。サブスクリプションを購入していない場合、購入者プロファイルは「<b><span class="uicontrol">Potential Subscribers</span></b>」にとどまります。 </p> </td>
+   <td colname="col2"> <p>まだデータフィードのサブスクリプションを購入してはいないものの、フィードに関する詳細情報を要求した承認済みの購入者を一覧表示します。 </p> <p>承認により、購入者には、データフィードが公開されているかのように表示されます。これにより、フィードを登録前に確認および評価できます。また、アクセスを要求している購入者に、データフィードに対する割引を提供することもできます。詳細の要求に対応すると、購入者プロファイルがこのタブから削除されます。サブスクリプションを購入していない場合、購入者プロファイルは <b><span class="uicontrol">Potential Subscribers</span></b> にとどまります。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Denied Access</span></b> </p> </td> 
-   <td colname="col2"> <p>非公開データフィードに関する拒否されたサブスクリプション要求を一覧表示します。 </p> <p>拒否された購入者を再承認するには、「<span class="wintitle">Rejection Status</span>」を「<b><span class="uicontrol"> Allow</span></b>」に変更します。これにより、購入者は 「<b><span class="uicontrol">Potential Subscribers</span></b>」に移動します。 </p> </td> 
+   <td colname="col2"> <p>プライベートデータフィードに関する拒否されたサブスクリプション要求を一覧表示します。 </p> <p>拒否された購入者を再承認するには、<span class="wintitle">Rejection Status</span> を <b><span class="uicontrol">Allow</span></b> に変更します。これにより、購入者は <b><span class="uicontrol">Potential Subscribers</span></b> に移動します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
