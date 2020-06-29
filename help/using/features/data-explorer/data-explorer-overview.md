@@ -4,8 +4,12 @@ seo-description: Data Explorer を使用して、使用済みおよび未使用�
 seo-title: 概要、メリットおよび使用例
 title: 概要、メリットおよび使用例
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
-translation-type: ht
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+feature: Data Explorer
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 100%
 
 ---
 
@@ -46,4 +50,4 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 Audience Manager の最も強力な機能の 1 つは、オフラインデータをオンボーディングし、オンラインデータと結び付ける機能です。以下のビデオでは、[!UICONTROL Data Explorer] を使用して、このオンボードデータを活用するために必要なすべての特性を作成したことを検証する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)
