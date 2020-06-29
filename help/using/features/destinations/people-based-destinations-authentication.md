@@ -4,8 +4,12 @@ seo-description: 'このページには、Audience Manager とユーザーベー
 seo-title: ユーザーベースのプラットフォームを使用した認証
 solution: Audience Manager
 title: ユーザーベースのプラットフォームを使用した認証
-translation-type: ht
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+feature: People-Based Destinations
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '548'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +28,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
-2. **[!UICONTROL Add Account]**&#x200B;をクリックします。
+2. 「**[!UICONTROL Add Account]**」をクリックします。
 3. **[!UICONTROL People-Based Platform]** ドロップダウンメニューを使用して、統合を設定するプラットフォームを選択します。
    ![ユーザーベースのプラットフォーム](assets/pbd-add.png)
 4. **[!UICONTROL Confirm]**&#x200B;をクリックすると、選択したプラットフォームの認証ページにリダイレクトされます。
@@ -40,7 +44,7 @@ Audience Manager は、一定期間後に期限切れになる認証トークン
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。
 1. トークンの有効期限通知を受信する統合を特定し、**[!UICONTROL Edit]** アイコンをクリックします。
 1. トークンの有効期限通知を受信する電子メールアドレスを、コンマ区切りで入力します。
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## 認証トークンの更新 {#token-renewal}
 
@@ -49,5 +53,5 @@ Audience Manager は、一定期間後に期限切れになる認証トークン
 期限切れまたは期限切れの認証を更新する方法は、次のとおりです。
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。
 1. 認証の更新に必要な統合を特定します。有効期限切れの認証は、[!UICONTROL Expired] とマークされ、有効期限が近づいている認証には、残りの日数が表示されます。
-1. [!UICONTROL Expiration] 列で、対応する **[!UICONTROL Renew]** アイコンをクリックします。これにより、ソーシャルプラットフォームの認証ページから戻る **[!UICONTROL Renew Account]** ワークフローがトリガーされます。認証が完了すると、新しい有効期限でトークンが更新されます。
+1. **[!UICONTROL Renew]** 列で、対応する [!UICONTROL Expiration] アイコンをクリックします。これにより、ソーシャルプラットフォームの認証ページから戻る **[!UICONTROL Renew Account]** ワークフローがトリガーされます。認証が完了すると、新しい有効期限でトークンが更新されます。
    ![pbd-renew](assets/pbd-renew.png)
