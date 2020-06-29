@@ -5,8 +5,12 @@ seo-title: プロファイルリンクデバイスグラフのユースケース
 solution: Audience Manager
 title: プロファイルリンクデバイスグラフのユースケース
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Profile Merge Rules
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 86%
 
 ---
 
@@ -33,7 +37,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 * ホテルの場合はスマートフォン、
 * ガイドツアーはタブレットで調べます。
 
-上記の 3 つのデバイスのすべてでジョンが認証されていない場合でも、**[!UICONTROL Last Authenticated Profiles]** と **[!UICONTROL Profile Link Device Graph]** ルールを使用することで、旅行会社は、これらのデバイスをジョンの認証済みプロファイルに関連付け、3 台のデバイスすべてで最後に認証された人物がジョンであると想定します。
+Even if John is not authenticated on all three of the devices mentioned above, by using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** rule, a holiday package provider can associate these devices to John&#39;s authenticated profile, assuming that he was the last person to authenticate on all three devices.
 
 ![last-device-graph](assets/last-device-graph.png)
 
