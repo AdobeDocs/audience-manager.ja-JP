@@ -5,8 +5,12 @@ seo-title: リアルタイムのアウトバウンド転送での OAuth 2.0 統�
 solution: Audience Manager
 title: リアルタイムのアウトバウンド転送での OAuth 2.0 統合
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 98%
 
 ---
 
