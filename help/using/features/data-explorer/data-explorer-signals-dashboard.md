@@ -4,8 +4,12 @@ seo-description: Audience Manager で過去 7 日以内に受信した未使用�
 seo-title: シグナルダッシュボード
 title: シグナルダッシュボード
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
-translation-type: ht
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+feature: Data Explorer
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -37,4 +41,4 @@ Audience Manager で過去 7 日以内に受信した未使用シグナルの概
 保存済みの検索結果では、条件に該当する上位 50 件の結果が表示されます。
 
 [!UICONTROL Signals Dashboard] の使用方法については、以下のビデオをご覧ください。
->[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)
