@@ -5,8 +5,12 @@ seo-description: Audience Manager で使用可能なアルゴリズムモデル�
 seo-title: アルゴリズムモデルの概要
 solution: Audience Manager
 title: アルゴリズムモデルの概要
-translation-type: ht
-source-git-commit: 82e649c93664b32d62123112802fed66bbf24ae4
+feature: Algorithmic Models
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 100%
 
 ---
 
