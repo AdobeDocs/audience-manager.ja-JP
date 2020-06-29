@@ -5,8 +5,9 @@ seo-title: 宛先マクロの定義
 solution: Audience Manager
 title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 87%
@@ -59,11 +60,11 @@ ht-degree: 87%
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>GDPR規制が訪問者に適用されるかどうかを示す。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意を含めます。 詳しくは、IAB TCF用 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">オーディエンスマネージャプラグイン</a> （英語）を参照してください。</p></td>
+    <td><p>GDPR規制が訪問者に適用されるかどうかを示す。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意を含めます。 詳しくは、IAB TCFの <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Managerプラグインを参照してください</a> 。</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>訪問者がサイトで同意を提供または拒否した場合に収集される同意文字列（IABベンダーIDを含む）。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意文字列を含めます。 宛先パ <code>XXXX</code> ートナーIDに置き換えます。 詳しくは、IAB TCF用 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">オーディエンスマネージャプラグイン</a> （英語）を参照してください。 </p></td>
+    <td><p>訪問者がサイトで同意を提供または拒否した場合に収集される同意文字列（IABベンダーIDを含む）。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意文字列を含めます。 宛先パ <code>XXXX</code> ートナーIDに置き換えます。 詳しくは、IAB TCFの <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Managerプラグインを参照してください</a> 。 </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
