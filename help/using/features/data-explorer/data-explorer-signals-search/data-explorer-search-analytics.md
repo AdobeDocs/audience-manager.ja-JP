@@ -4,8 +4,12 @@ seo-description: Adobe Analytics も使用している Audience Manager ユー�
 seo-title: Advanced Search for Adobe Analytics
 title: Advanced Search for Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
-translation-type: ht
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+feature: Data Explorer
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 100%
 
 ---
 
@@ -28,4 +32,4 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 以下のビデオでは、使用済みおよび未使用のシグナルの検索、Analytics の特性の作成、データの理解など、[!UICONTROL Data Explorer] によって Adobe Analytics データを検出および使用する方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25150?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)
