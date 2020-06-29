@@ -4,9 +4,10 @@ seo-description: 特性の除外を使用すると、モデリングワークフ
 seo-title: アルゴリズムモデル  特性の除外
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
-translation-type: ht
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
-workflow-type: ht
+feature: Algorithmic Models
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 100%
 
@@ -49,7 +50,7 @@ ht-degree: 100%
 
 ビデオチュートリアルを希望する場合は、特性の除外のビデオデモをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 さらに、クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
@@ -96,7 +97,7 @@ ht-degree: 100%
 
 [!UICONTROL Look-Alike Model] からの特定の特性を除外する方法と理由については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## 関連リンク
 
