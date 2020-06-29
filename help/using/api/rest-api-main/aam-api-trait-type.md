@@ -5,8 +5,12 @@ seo-title: 特性タイプメソッド
 solution: Audience Manager
 title: 特性タイプメソッド
 uuid: 082931d5-457b-4622-817b-86303f38c26a
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 >
 >特性タイプメソッドは、特性を[一般的なカテゴリ](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)で使用されるカテゴリに割り当てません。これらは、一般的な分類とは別のラベルと考えてください。
 
-視覚的に参照する場合、[!UICONTROL Trait Types]は、**[!UICONTROL Traits > Create new trait > Basic Information]**&#x200B;配下の [!DNL UI] にあるドロップダウンコントロールです。
+視覚的に参照する場合、[!UICONTROL Trait Types]は、[!DNL UI]配下の **[!UICONTROL Traits > Create new trait > Basic Information]** にあるドロップダウンコントロールです。
 
 ## 新しい特性タイプの作成 {#create-trait-type}
 
