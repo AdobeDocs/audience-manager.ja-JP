@@ -5,8 +5,12 @@ seo-title: 宛先 ID を基準に宛先を返す
 solution: Audience Manager
 title: 宛先 ID を基準に宛先を返す
 uuid: abce7426-55a5-4045-93a7-0487652a7189
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 100%
 
 ---
 
@@ -101,7 +105,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。 <p><code>GET https://api.demdex.com/v1/models/?search=Test</code> </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
+   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。 <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>を参照してください。 </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
   </tr>
  </tbody>
 </table>
@@ -277,7 +281,7 @@ BROWSER, ANDROID, iOS, ALL
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-必須クエリパラメータ：`startDate` = *&lt;`epochtime`&gt;* および `endDate` = *&lt;`epochtime`&gt;*。
+必須クエリパラメータ：`startDate` = *&lt;`epochtime`>* および `endDate` = *&lt;`epochtime`>*。
 
 ### 応答
 
