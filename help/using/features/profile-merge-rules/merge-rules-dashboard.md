@@ -5,8 +5,12 @@ seo-title: プロファイル結合ルールダッシュボード
 solution: Audience Manager
 title: プロファイル結合ルールダッシュボード
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Profile Merge Rules
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +21,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 4つ目のプロファイル結合ルール（[!UICONTROL All Cross-Device Profiles]）は、[!UICONTROL People-Based Destinations] アドオンを購入したユーザーのみが使用できます。
 
-[!UICONTROL Profile Merge Rules] ダッシュボードには、[!UICONTROL Profile Merge Rules] を管理できる統合ワークスペースが用意されています。ダッシュボードは **[!UICONTROL Audience Data]**／**[!UICONTROL Profile Merge Rules]** にあります。ルールダッシュボードは以下の例のようになっています。
+[!UICONTROL Profile Merge Rules] ダッシュボードには、[!UICONTROL Profile Merge Rules] を管理できる統合ワークスペースが用意されています。The dashboard is located at **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**. ルールダッシュボードは以下の例のようになっています。
 
 ![](assets/profile-dashboard.png)
 
