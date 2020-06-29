@@ -4,8 +4,12 @@ seo-description: 検索条件を最大で 10 セット保存し、必要に応�
 seo-title: 検索条件の保存
 title: 検索条件の保存
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
-translation-type: ht
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+feature: Data Explorer
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 100%
 
 ---
 
@@ -26,10 +30,10 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 1. **[!UICONTROL Default Sorting]** で、デフォルトの並べ替えモードとして次のいずれかを指定します。
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. **[!UICONTROL Save]**&#x200B;をクリックします。保存した検索条件が「[!UICONTROL Saved Search]」セクションに表示され、必要なときに使用できるようになります。
+1. 「**[!UICONTROL Save]**」をクリックします。保存した検索条件が「[!UICONTROL Saved Search]」セクションに表示され、必要なときに使用できるようになります。
 
 ![保存済みの検索](assets/saved-search.png)
 
 シグナル検索の保存方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/)
