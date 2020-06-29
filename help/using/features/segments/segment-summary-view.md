@@ -6,8 +6,9 @@ solution: Audience Manager
 title: セグメントの詳細ページ
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 78%
