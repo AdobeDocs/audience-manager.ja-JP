@@ -5,8 +5,12 @@ seo-title: 標準型およびシリアル型のキーと値のペア
 solution: Audience Manager
 title: 標準型およびシリアル型のキーと値のペア
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 100%
 
 ---
 
