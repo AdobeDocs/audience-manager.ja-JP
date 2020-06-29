@@ -5,8 +5,12 @@ seo-title: 宛先の削除
 solution: Audience Manager
 title: 宛先の削除
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
+feature: API
 translation-type: tm+mt
-source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 100%
 
 ---
 
@@ -39,5 +43,5 @@ source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 
 指定したセグメント ID に従って宛先マッピングを削除する `POST` メソッド。
 
-* リクエスト： `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
+* リクエスト: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
 * レスポンス：成功すると、コード `204 No Content` が返されます。
