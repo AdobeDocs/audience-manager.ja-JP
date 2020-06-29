@@ -5,8 +5,12 @@ seo-title: 特性ビルダーでの比較演算子の使用
 solution: Audience Manager
 title: 特性ビルダーでの比較演算子の使用
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
-translation-type: ht
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+feature: Traits
+translation-type: tm+mt
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
 
@@ -33,9 +37,9 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 |---|---|
 | **==** | 次と等しい |
 | **!=** | 次と等しくない |
-| **&gt;** | 次の値より大きい |
+| **>** | 次の値より大きい |
 | **&lt;** | 次の値より小さい |
-| **=&gt;** | 次の値以上 |
+| **=>** | 次の値以上 |
 | **&lt;=** | 次の値以下 |
 
 ## 名前付き演算子
