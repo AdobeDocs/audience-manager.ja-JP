@@ -1,13 +1,17 @@
 ---
 description: アルゴリズムモデリング機能をプログラムで操作するためのメソッド。
-keywords: API の概要;API の基本
+keywords: api getting started;get started api
 seo-description: アルゴリズムモデリング機能をプログラムで操作するためのメソッド。
 seo-title: アルゴリズム API メソッド
 solution: Audience Manager
 title: アルゴリズム API メソッド
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
+feature: API
 translation-type: tm+mt
-source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 100%
 
 ---
 
