@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,5 +73,4 @@ Audience Manager と [!DNL Twitter Tailored Audiences] をリンクさせたら�
 
 ## マッチ率に関する考慮事項 {#match-rates-considerations}
 
-* [!UICONTROL Twitter Tailored Audiences] を使用する場合、宛先ページの [!UICONTROL Segment Addressable Audience] と [!UICONTROL Segment Match Rate] の指標には値が表示されません。この宛先のマッチ率で一致するオーディエンスは、アドビではなく、[!UICONTROL Twitter] によって処理およびホストされるので、これは通常の動作です。
 * Audience Manager と [!UICONTROL Twitter Tailored Audiences] の統合では、履歴オーディエンスのバックフィルがサポートされます。宛先を作成すると、すべてのセグメント認定が [!UICONTROL Twitter] に送信されます。
