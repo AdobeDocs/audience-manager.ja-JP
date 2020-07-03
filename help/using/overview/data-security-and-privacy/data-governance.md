@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Audience Manager のデータガバナンスは、Audience Manager での顧客�
 
 顧客の Web サイトにアクセスする訪問者の [!DNL IP] アドレスは Adobe [!DNL Data Processing Center]（[!DNL DPC]）に転送され、同センターに [!DNL IP] アドレスが保存される場合があります。訪問者のネットワーク設定によっては、この [!DNL IP] アドレスが訪問者のコンピューターの [!DNL IP] アドレスと一致しないことがあります。例えば、この [!DNL IP] アドレスは、Network Address Translation（NAT）ファイアウォール、[!DNL HTTP] プロキシ、またはインターネットゲートウェイの外部 [!DNL IP] アドレスである可能性があります。
 
-**難読化方法：**[!DNL IP]「プライバシーバイデザイン」の原則に従い、Adobe Audience Manager では、すべての地域に対してグローバルに、または特定の国に対して、UI からの IP 難読化を有効にすることができます。この設定を有効にすると、[!DNL IP] アドレスが Audience Manager に取り込まれると、[!DNL IP] アドレスの最後のオクテット（最後の部分）は即座に破棄されます。Audience Manager は、処理（オプションの [!DNL IP] アドレスの地域の参照またはログ作成を含む）に先立って、[!DNL IP] アドレスのこの部分を破棄します。次に例を示します。
+**難読化方法：**「プライバシーバイデザイン」の原則に従い、Adobe Audience Manager では、すべての地域に対してグローバルに、または特定の国に対して、UI からの [!DNL IP] 難読化を有効にすることができます。この設定を有効にすると、[!DNL IP] アドレスが Audience Manager に取り込まれると、[!DNL IP] アドレスの最後のオクテット（最後の部分）は即座に破棄されます。Audience Manager は、処理（オプションの [!DNL IP] アドレスの地域の参照またはログ作成を含む）に先立って、[!DNL IP] アドレスのこの部分を破棄します。次に例を示します。
 
 * マスク前： `255.255.255.255`
 * マスク後： `255.255.255.0`
 
 >[!NOTE]
 >
->See [IP Address Obfuscation](../../features/administration/ip-obfuscation.md) to learn how to enable [!DNL IP] address obfuscation in the Audience Manager user interface.
+>Audience Manager ユーザーインターフェイス で アドレスを難読化する方法については、[IP アドレスの難読化](../../features/administration/ip-obfuscation.md)をお読みください。[!DNL IP]
 
 Audience Managerでのどのよ [!DNL IP] アドレスの難読かについては、以下のビデオをご覧ください。
 
