@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 ## プライバシーおよび個人を特定できる情報（PII） {#pii}
 
-個人情報の安全を維持するのに役立つプロセスです。その他のプライバシー情報については、[アドビプライバシーセンター](https://www.adobe.com/privacy/advertising-services.html)を参照してください。
+個人情報の安全を維持するのに役立つプロセスです。その他のプライバシー情報については、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/experience-cloud.html)を参照してください。
 
 **PII データ：** Audience Manager では、契約により、お客様およびデータパートナーが PII 情報をアドビのシステムに送信することを禁止しています。また、一意のユーザー ID（UUID）には、ID 生成アルゴリズムの一部として PII データを含んだり使用したりしません。
 
@@ -62,7 +62,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 個々のクライアントが所有するデータを保護するのに役立つプロセスです。
 
-**Trait Data Partitioning:**  データ([!UICONTROL traits]、IDなど) は、クライアントごとにパーティション分割されます。これは、異なるクライアント間での誤った情報公開を防ぐのに役立ちます。例えば、Cookies 内の特性データは、お客様別にパーティション分割され、クライアント専用のサブドメインに格納されます。別の Audience Manager クライアントが誤って読み取ったり使用したりすることはできません。さらに、[!UICONTROL Profile Cache Servers (PCS)] に保存される特性データも顧客別に分割されます。これにより、他のクライアントがイベント呼び出しまたはその他の要求でお客様のデータを誤って使用するのを防ぎます。
+**特性データのパーティション分割：**&#x200B;お客様のデータ（[!UICONTROL traits]、ID など）は、クライアントごとにパーティション分割されます。これは、異なるクライアント間での誤った情報公開を防ぐのに役立ちます。例えば、Cookies 内の特性データは、お客様別にパーティション分割され、クライアント専用のサブドメインに格納されます。別の Audience Manager クライアントが誤って読み取ったり使用したりすることはできません。さらに、[!UICONTROL Profile Cache Servers (PCS)] に保存される特性データも顧客別に分割されます。これにより、他のクライアントがイベント呼び出しまたはその他の要求でお客様のデータを誤って使用するのを防ぎます。
 
 **レポートでのデータのパーティション分割：**&#x200B;クライアント ID は、すべてのレポートテーブルの識別キーの一部で、レポートクエリは、ID でフィルタリングされます。これは、お客様のデータが Audience Manager の別のお客様のレポートに表示されるのを防ぐのに役立ちます。
 
@@ -74,7 +74,7 @@ Adobe Audience Manager は、S2S オンボードデータファイルをアド�
 
 **SFTP：** SFTP オプションの場合、ほとんどのお客様は、Secure Shell（SSH）プロトコルを使用する Secure FTP（SFTP）プロトコルでファイルを送信することを選択します。この方法は、お客様のシステムとアドビのシステムの間で送信される間にファイルを暗号化します。お客様ごとに、アドビの SFTP サーバー上にジェイル化されたドロップボックスの場所を作成します。これは、そのシステム上のユーザーアカウントに結び付けられます。お客様の資格情報および権限を持つ内部システムユーザーのみ、このジェイル化されたドロップボックスの場所にアクセスできます。このジェイルには、他のお客様はアクセスできません。
 
-**[!UICONTROL Amazon Web Services S3]HTTPS経由：**S3配信オプションの場合、すべてのお客様が、ファイル転送にHTTPS暗号化方式を使用するようにS3クライアントを設定することをお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。 HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
+HTTPS を使用した **[!UICONTROL Amazon Web Services S3] **：S3 配信オプションの場合、アドビでは、ファイル転送に HTTPS 暗号化メソッドを使用するように S3 クライアントを設定することを、すべてのお客様にお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
 
 PGP 暗号化をデータファイルに追加するには、[受信データタイプのファイル PGP 暗号化](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)を参照してください。
 
@@ -92,6 +92,6 @@ PGP 暗号化をデータファイルに追加するには、[受信データタ
 
 ### 例 {#hsts-example}
 
-Let&#39;s say the `yourcompany.demdex.com` domain sends traffic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] は、代わりに [!DNL HTTPS] を使用するように呼び出しをアップグレードし、以降の `yourcompany.demdex.com` からの [!DNL DCS] 呼び出しではすべて、[!DNL HTTP] の代わりに [!DNL HTTPS] を使用します。
+`yourcompany.demdex.com` ドメインが [!DNL HTTP] 経由で [!DNL DCS] にトラフィックを送信するとします。[!DNL HSTS] は、代わりに [!DNL HTTPS] を使用するように呼び出しをアップグレードし、以降の `yourcompany.demdex.com` からの [!DNL DCS] 呼び出しではすべて、[!DNL HTTP] の代わりに [!DNL HTTPS] を使用します。
 
 HSTS の詳細については「[HTTP Strict Transport Security - Wikipedia](https://ja.wikipedia.org/wiki/HTTP_Strict_Transport_Security)」を参照してください。
