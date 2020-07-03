@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 オンボーディングプロセスは、「[Audience Manager へのバッチデータ送信の概要](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)」で説明する 2 つの手順で構成されます。
 
 * 手順 1：ユーザー ID を同期します。
-* 手順　2:ファイル形式の要件に従って、受信データファイルを作成し、転送します。
+* 手順 2:ファイル形式の要件に従って、受信データファイルを作成し、転送します。
 
  
 
@@ -59,10 +59,10 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 **[!DNL Audience Manager]コードを実稼動環境にデプロイする前に、受信データファイル（[!DNL .sync] または [!DNL .overwrite] ファイル）をアップロードできますか？**
 
-はい。As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. 以下を参照してください。
+はい。アップロードする CRM データを保存するために [!UICONTROL cross-device data source] を使用している限り、Audience Manager では常にデータが保存されます。実際、2019 年 10 月に Audience Manager が開始した、オフラインのみの使用を許可する [!UICONTROL Profile Merge Rules] の機能強化に従って、Audience Manager コードを実稼働環境にデプロイしなくても、データをアップロードしてアクションを実行できます。以下を参照してください。
 
-* [プロファイル結合ルールの強化の概要](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations]  — オフラインのみのデータに基づく [パーソナライゼーション](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [プロファイル結合ルールの強化の概要](https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [オフラインのみのデータに基づくパーソナライゼーション](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -188,7 +188,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
  
 
-**Aとは何ですか。そ[!DNL Data Provider ID (DPID)]れを入手するにはどうすればよいですか。**
+**[!DNL Data Provider ID (DPID)]とは何ですか？入手するにはどうしたらいいですか？**
 
 アドビのコンサルタントが 3 桁または 4 桁の [DPID（データプロバイダー ID）](../reference/ids-in-aam.md)を特定のデータソースに割り当てます。この ID は一意で、変更できません。
 
@@ -211,7 +211,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 **データソースデータベースのプライマリキーが電子メールアドレスです。これは、個人を特定できる情報と見なされますか？**
 
-はい。[!DNL Audience Manager] では、アドビのデータベースに電子メールアドレスを格納しません。訪問者には、ID同期を開始する前に、ランダムに生成されたIDまたは一方向にハッシュ化された電子メールアドレスを割り当てる必要があります。
+はい。[!DNL Audience Manager] では、アドビのデータベースに電子メールアドレスを格納しません。訪問者は、ID 同期を開始する前に、ランダムに生成される ID または 1 方向のハッシュ化されたバージョンの電子メールアドレスを割り当てられる必要があります。
 
  
 
@@ -227,7 +227,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 >[!WARNING]
 >
->FTP 設定のサポートは段階的に廃止されます。While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. 詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
+>FTP 設定のサポートは段階的に廃止されます。受信データファイルの取り込みは、既存の FTP 取り込みでサポートされますが、新しい取り込み用にオフラインデータをオンボードするには、[!DNL Amazon S3] を使用することを強くお勧めします。詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
 
  
 
