@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>CRM レベルのプロファイル（認証済みプロファイル） </p> </td> 
-   <td colname="col2"> <p>非アクティブな CRM レベルのプロファイル（顧客 ID）のデフォルトの有効期間（TTL）間隔は 24 か月です。ただし、Audience Managerユーザーインターフェイスを使用して、非アクティブなCRMレベルのプロファイルのTTL間隔を1か月から5年の間で減らしたり、拡張したりできます。 これは、クロスデバイス対応データソースを作成または編集するときに実行できます。</p> <p>詳しくは、<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応のデータソースの作成</a>のデータソース設定を参照してください。</p> </td> 
+   <td colname="col2"> <p>非アクティブな CRM レベルのプロファイル（顧客 ID）のデフォルトの有効期間（TTL）間隔は 24 か月です。ただし、Audience Manager ユーザーインターフェイスを使用して、1 か月から 5 年間の非アクティブな CRM レベルのプロファイルの TTL 間隔を増減できます。これは、クロスデバイス対応データソースを作成または編集するときに実行できます。</p> <p>詳しくは、<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応のデータソースの作成</a>のデータソース設定を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルデバイス ID </p> </td> 
