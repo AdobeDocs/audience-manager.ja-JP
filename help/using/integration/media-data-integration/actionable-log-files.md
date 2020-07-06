@@ -8,9 +8,9 @@ title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1376'
 ht-degree: 97%
 
 ---
@@ -153,7 +153,11 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 平均的サイズである 2,000,000 行の [!DNL DCM] ログでは、実用的なシグナルから作成されたすべての特性は、ログの処理後 1 時間以内に適合されます。
 
->[!NOTE] {importance=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >[!DNL DCM] ログによって提供されるイベントタイムスタンプは保持され、[!UICONTROL Data Collection Servers]に渡されます。
 >
