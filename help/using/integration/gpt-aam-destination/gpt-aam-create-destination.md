@@ -1,23 +1,23 @@
 ---
-description: 認定されたセグメントを、クライアント側（ブラウザー側）の統合、またはサーバー側の統合により DFP に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
-seo-description: 認定されたセグメントを、クライアント側（ブラウザー側）の統合、またはサーバー側の統合により DFP に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
+description: 条件を満たしたセグメントは、クライアント側（ブラウザー側）の統合またはサーバー側の統合を通じて、Google Ad Managerに送信できます。 クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
+seo-description: 条件を満たしたセグメントは、クライアント側（ブラウザー側）の統合またはサーバー側の統合を通じて、Google Ad Managerに送信できます。 クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
 seo-title: GPT 宛先の作成
 solution: Audience Manager
 title: GPT 宛先の作成
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 97%
+source-wordcount: '323'
+ht-degree: 86%
 
 ---
 
 
 # GPT 宛先の作成 {#create-a-gpt-destination}
 
-認定されたセグメントを、クライアント側（ブラウザー側）の統合またはサーバー側の統合により [!DNL DFP] に送信することができます。クライアント側の統合を選択した場合、Audience Manager で [!DNL Google Publisher Tags] の Cookie ベースの宛先を作成する必要があります。
+認定されたセグメントを、クライアント側（ブラウザー側）の統合またはサーバー側の統合により [!DNL Google Ad Manager] に送信することができます。クライアント側の統合を選択した場合、Audience Manager で [!DNL Google Publisher Tags] の Cookie ベースの宛先を作成する必要があります。
 
 ## 宛先
 
