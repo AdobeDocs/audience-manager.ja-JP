@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 100%
+source-wordcount: '1066'
+ht-degree: 94%
 
 ---
 
@@ -136,9 +136,9 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**一方のサイトでデータ収集し、別のサイトで DFP を通じてユーザーをターゲットにしたいと考えています。データを収集しない他の資産にもコードをデプロイする必要がありますか？**
+**[!DNL Google Ad Manager]一方のサイトでデータ収集し、別のサイトで を通じてユーザーをターゲットにしたいと考えています。データを収集しない他の資産にもコードをデプロイする必要がありますか？**
 
-いいえ。2 つ目のサイトのデータ収集が不要な場合は、そこに DIL をデプロイする必要はありません。DFP 経由で 2 番目のサイトのインベントリにアクセスできれば、最初のサイトのデータ収集を使用して、DFP 経由でのターゲット設定をおこなうことができます。
+いいえ。2 つ目のサイトのデータ収集が不要な場合は、そこに DIL をデプロイする必要はありません。As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -148,9 +148,9 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**[!DNL Audience Manager]はどのように Cookie を設定し変数を DFP に渡しますか？**
+**cookieの[!DNL Audience Manager][!DNL Google Ad Manager]設定方法と変数の受け渡し先**
 
-[!DNL Audience Manager] では 2 つの Cookie を設定します。一方はセグメント変数を DFP 広告タグに送信し、もう一方は一意のユーザー ID（UUID）を設定します。この ID は DFP にも読み取られます。UUID を広告タグに追加することで、ユーザーレベルのレポートとオーディエンス検出を実行できます。
+[!DNL Audience Manager] 2つのcookieを設定します。 1つはセグメント変数を [!DNL Google Ad Manager] 広告タグに送信し、もう1つは一意のユーザーID(UUID)を設定します。これはまた、によって読み取られ [!DNL Google Ad Manager]ます。 UUID を広告タグに追加することで、ユーザーレベルのレポートとオーディエンス検出を実行できます。
 
 <br> 
 
