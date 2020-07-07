@@ -7,10 +7,10 @@ title: セグメントトレンドレポート
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '609'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers] を有効にする場合、[DFP データファイルを Audience Manager にインポート](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Line Item] ID の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が [!UICONTROL Line Item] ID ではなく [!UICONTROL Line Item] として表示されるようになります。
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item] IDs, as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). これにより、Web プロパティの詳細が [!UICONTROL Line Item] ID ではなく [!UICONTROL Line Item] として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
