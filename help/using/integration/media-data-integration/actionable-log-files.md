@@ -8,10 +8,10 @@ title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 97%
+source-wordcount: '1597'
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 [!UICONTROL Actionable Log Files] を開始するには、[!DNL Audience Manager] にログデータを読み込む必要があります。以下のリンクは、使用を開始するのに役立ちます。
 
 * [!UICONTROL Google DCM] ログについては、[DCM データファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
-* For [!UICONTROL Google DFP] logs, see [Import DFP Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and* contact your [!DNL Audience Manager] consultant.
+* For [!UICONTROL Google Ad Manager] (formerly Google DFP) logs, see [Import DFP Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and* contact your [!DNL Audience Manager] consultant.
 * その他の広告サーバーログについては、[データとメタデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問合せください。
 
 既にログデータを [!DNL Audience Manager] に読み込んでいる場合は、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)にお問合せいただき、[!UICONTROL Actionable Log Files] を有効化してもらってください。
@@ -163,6 +163,35 @@ Removed  {importance="high"} for ExL
 >
 >* [!DNL DCM] ログファイルのデータ行からタイムスタンプが取得できなかった場合、イベントタイムスタンプとして `HTTP` 呼び出しの時刻を使用します。
 >* [!DNL DCM] ログファイルのデータ行のタイムスタンプの形式が正しくない場合、その行全体が無視されます。
+
+
+ <br>
+
+### ログからのアクション可能なシグナル [!DNL Google Ad Manager] {#ad-manager-logs-signals}
+
+この表は、[!DNL Google Ad Manager] ログファイルから取得される実用的なシグナルの一覧です。
+
+
+| ログファイルのヘッダー名 | シグナル | 説明 |
+---------|----------|---------
+| `LineItemId` | `d_lineitem` | 配信されるAd Manager行項目の数値ID |
+| `OrderId` | `d_orderid` | 配信される行項目とクリエイティブが含まれている広告マネージャーの注文の数値ID。 |
+| `CreativeId` | `d_creative` | 配信されるAd Managerクリエイティブの数値ID。 |
+| `-` | `d_event` | イベントタイプを示します。Audience Managerは、Ad Managerのログファイル名からイベントタイプを読み取り、実行可能なシグナルに変換します。 Accepted values are: <br> <ul><li>d_event = imp。インプレッションを示します。</li><li>d_event = click。クリックを示します。</li><li>d_イベント=コンバージョンとアクティビティのconv。</li></ul> |
+| `-` | `d_src` | Ad Managerデータを取り込むために使用するデータソースのID。 [データソースの作成方法](/help/using/features/manage-datasources.md)を参照してください。 |
+
+この表で説明されているシグナルは、Audience Manager において、リアルタイムの HTTP 呼び出しと同じように取得されます。以下の呼び出し例には、Google Ad Managerからのコンバージョンイベントに関する情報が含まれています。 必ずしも呼び出しの例にあるすべてのシグナルを呼び出しに含める必要はありません。
+
+```
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_lineitem=112&d_orderid=22223&d_creative=3983524
+```
+
+>[!NOTE]
+>
+>[!DNL Google Ad Manager] ログによって提供されるイベントタイムスタンプは保持され、[!UICONTROL Data Collection Servers]に渡されます。
+>
+>* [!DNL Google Ad Manager] ログファイルのデータ行からタイムスタンプが取得できなかった場合、イベントタイムスタンプとして `HTTP` 呼び出しの時刻を使用します。
+>* [!DNL Google Ad Manager] ログファイルのデータ行のタイムスタンプの形式が正しくない場合、その行全体が無視されます。
 
 
  <br>
