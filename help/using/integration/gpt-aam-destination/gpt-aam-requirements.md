@@ -1,23 +1,23 @@
 ---
-description: クライアント側またはサーバー側の統合を通じて、適格なセグメントを DFP に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
-seo-description: クライアント側またはサーバー側の統合を通じて、適格なセグメントを DFP に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
-seo-title: Google サイト運営者タグ（GPT）を使用して DFP にセグメントを送信する際の要件と方法
+description: 条件を満たしたセグメントは、クライアント側またはサーバー側の統合を介してGoogle Ad Managerに送信できます。 この両方のメソッドに関する要件と関連情報を以下に示します。
+seo-description: 条件を満たしたセグメントは、クライアント側またはサーバー側の統合を介してGoogle Ad Managerに送信できます。 この両方のメソッドに関する要件と関連情報を以下に示します。
+seo-title: Google Publisher Tags(GPT)を使用してGoogle Ad Managerにセグメントを送信するための要件と方法
 solution: Audience Manager
-title: Google サイト運営者タグ（GPT）を使用して DFP にセグメントを送信する際の要件と方法
+title: Google Publisher Tags(GPT)を使用してGoogle Ad Managerにセグメントを送信するための要件と方法
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 81%
 
 ---
 
 
-# Google サイト運営者タグ（GPT）を使用して DFP にセグメントを送信する際の要件と方法 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-クライアント側またはサーバー側の統合を通じて、絞り込んだセグメントを [!DNL DFP] に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
+You can send qualified segments to [!DNL Google Ad Manager] (formerly DFP) either through a client-side or through a server-side integration. この両方のメソッドに関する要件と関連情報を以下に示します。
 
 ## クライアント側の統合 {#client-side-integration}
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 ## サーバー側の統合 {#server-side-integration}
 
-[!DNL GPT] を使用して [!DNL DFP] でサーバー側の統合を設定する場合は、Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。[!DNL DFP] アカウントのネットワーク ID と Audience Link ID を提供する必要があります。
+[!DNL GPT] を使用して [!DNL Google Ad Manager] でサーバー側の統合を設定する場合は、Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。[!DNL Google Ad Manager] アカウントのネットワーク ID と Audience Link ID を提供する必要があります。
 
 >[!IMPORTANT]
 >
