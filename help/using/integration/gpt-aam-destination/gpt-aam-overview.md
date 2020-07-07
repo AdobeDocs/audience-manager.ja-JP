@@ -1,29 +1,29 @@
 ---
-description: Google Publisher Tags（GPT）を使用した DFP の統合方法の概要です。
-seo-description: Adobe Audience Manager（AAM）で Google Publisher Tags（GPT）を使用した DFP の統合方法の概要です。
-seo-title: Adobe Audience Manager（AAM）で Google Publisher Tags（GPT）を使用した DFP の統合
-title: Google サイト運営者タグ（GPT）を使用した DFP の統合
+description: Google Publisher Tags(GPT)を使用したGoogle Ad Managerの統合方法の概要です。
+seo-description: Adobe Audience Manager(AAM)でのGoogle Publisher Tags(GPT)を使用したGoogle Ad Managerの統合方法の概要です。
+seo-title: Google Publisher Tags(GPT)inAdobe Audience Manager(AAM)を使用してGoogle Ad Managerを統合する
+title: Google Publisher Tags(GPT)を使用したGoogle Ad Managerの統合
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 46%
 
 ---
 
 
-# Google サイト運営者タグ（GPT）を使用した DFP の統合
+# Integrate [!DNL Google Ad Manager] (formerly DFP) using Google Publisher Tags (GPT)
 
-Google サイト運営者タグ（GPT）を使用した DFP との統合方法の概要が以下の記事に記載されています。サーバー側で統合することも、Audience Manager のセグメントデータを DFP に送信するための宛先として GPT を設定することもできます。DFP ログファイルを取り込み、Audience Manager でレポートするために必要なステップも確認できます。
+The articles listed below provide an overview of how to integrate [!DNL Google Ad Manager] using Google Publisher Tags (GPT). You can use a server-side integration, or you can set up GPT as a destination to send Audience Manager segment data to [!DNL Google Ad Manager]. You will also learn the needed steps to ingest [!DNL Google Ad Manager] log files for reporting in Audience Manager.
 
-* [Google サイト運営者タグ（GPT）を使用して DFP にセグメントを送信する際の要件と方法](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
+* [Google Publisher Tags(GPT)を使用してGoogle Ad Managerにセグメントを送信するための要件と方法](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
-   クライアント側またはサーバー側の統合を通じて、適格なセグメントを DFP に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
+   クライアント側またはサーバー側の統合を通じて、絞り込んだセグメントを [!DNL Google Ad Manager] に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
 
 * [GPT 宛先の作成](/help/using/integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-   認定されたセグメントを、クライアント側（ブラウザー側）の統合、またはサーバー側の統合により DFP に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
+   認定されたセグメントを、クライアント側（ブラウザー側）の統合またはサーバー側の統合により [!DNL Google Ad Manager] に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
 
 * [GPT setTargeting API 呼び出しの変更](/help/using/integration/gpt-aam-destination/gpt-aam-modify-api.md)
 
