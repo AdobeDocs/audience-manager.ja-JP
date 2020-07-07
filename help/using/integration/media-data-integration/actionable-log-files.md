@@ -8,9 +8,9 @@ title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1574'
 ht-degree: 91%
 
 ---
@@ -33,14 +33,18 @@ ht-degree: 91%
 [!UICONTROL Actionable Log Files] を開始するには、[!DNL Audience Manager] にログデータを読み込む必要があります。以下のリンクは、使用を開始するのに役立ちます。
 
 * [!UICONTROL Google DCM] ログについては、[DCM データファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
-* For [!UICONTROL Google Ad Manager] (formerly Google DFP) logs, see [Import DFP Data Files Into Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *and* contact your [!DNL Audience Manager] consultant.
+* ログ [!UICONTROL Google Ad Manager] （旧称Google DFP）については、「Google Ad ManagerデータファイルのAudience Managerへの [インポート](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) 」を参照し *て* 、コンサルタントに [!DNL Audience Manager] お問い合わせください。
 * その他の広告サーバーログについては、[データとメタデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問合せください。
 
 既にログデータを [!DNL Audience Manager] に読み込んでいる場合は、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)にお問合せいただき、[!UICONTROL Actionable Log Files] を有効化してもらってください。
 
+<!--
+
 >[!IMPORTANT]
 >
-> 2019 年末に、[!UICONTROL Actionable Log Files] は新しい広告サーバーのアベイラビリティの拡大を開始しました。開始するには、担当の [!DNL Audience Manager] コンサルタントまたは[カスタマーサポート](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)にお問合せください。
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+
+-->
 
 ## 実用的なログファイルの使用 {#working-with-actionable-log-files}
 
