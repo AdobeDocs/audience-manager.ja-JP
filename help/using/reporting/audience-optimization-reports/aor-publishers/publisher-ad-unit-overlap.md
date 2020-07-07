@@ -7,10 +7,10 @@ title: 広告ユニット間重複
 uuid: e4467e81-acbf-474e-b501-89d57395651f
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers]を有効にする場合、[DFP データファイルを Audience Manager にインポート](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Ad Unit IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Ad Unit ID] ではなく[!UICONTROL Ad Unit]として表示されるようになります。
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). これにより、Web プロパティの詳細が[!UICONTROL Ad Unit ID] ではなく[!UICONTROL Ad Unit]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
@@ -59,11 +59,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Overlap Ad Unit Uniques Count</span> </p> </td> 
-   <td colname="col2"> <p>広告ユニット項目 9 ～ 18 を訪問したユーザーの数。この情報は DFP ログから抽出されます。 </p> </td> 
+   <td colname="col2"> <p>広告ユニット項目 9 ～ 18 を訪問したユーザーの数。この情報は、Google Ad Managerのログから抽出されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Base Ad Unit Uniques Count</span> </p> </td> 
-   <td colname="col2"> <p>広告ユニット項目 1 ～ 8 を訪問したユーザーの数。この情報は DFP ログから抽出されます。 </p> </td> 
+   <td colname="col2"> <p>広告ユニット項目 1 ～ 8 を訪問したユーザーの数。この情報は、Google Ad Managerのログから抽出されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Overlap Uniques Count</span> </p> </td> 
