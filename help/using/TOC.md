@@ -4,11 +4,11 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
-source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
-workflow-type: ht
-source-wordcount: '1740'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5e8dfca8de0faeecbd44da1804b71bbe77bc89be
+workflow-type: tm+mt
+source-wordcount: '1754'
+ht-degree: 97%
 
 ---
 
@@ -188,7 +188,7 @@ ht-degree: 100%
          + [クロスチャネルコンバージョン](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Audience Optimization for Publishers {#audience-optimization-publishers}
          + [Audience Optimization for Publishers の概要](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [DFP データファイルを Audience Manager にインポート](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Google Ad Manager（旧称DFP）データファイルのAudience Managerへのインポート](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [セグメントパフォーマンスレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [セグメントトレンドレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [上位の未使用特性](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -284,9 +284,9 @@ ht-degree: 100%
 + 実装および統合ガイド {#implementation-integration-guides}
    + [実装および統合ガイド](integration/implementation-and-integration.md)
    + [データ統合方法](integration/data-integration-methods.md)
-   + Google サイト運営者タグ（GPT）を使用した DFP の統合 {#integrate-dfp-using-gpt}
-      + [GPT の概要を使用した DFP の統合](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [GPT を使用した DFP へのセグメントの送信](integration/gpt-aam-destination/gpt-aam-requirements.md)
+   + Google Publisher Tags(GPT)を使用したGoogle Ad Managerの統合{#integrate-dfp-using-gpt}
+      + [GPTの概要を使用したGoogle Ad Managerの統合](integration/gpt-aam-destination/gpt-aam-overview.md)
+      + [GPTを使用したGoogle Ad Managerへのセグメントの送信](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 宛先の作成](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [GPT setTargeting API 呼び出しの変更](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Google サイト運営者タグ用の Audience Manager コード](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -294,7 +294,7 @@ ht-degree: 100%
       + [Facebook WCA の統合](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [Audience Manager の宛先としての OAS](integration/integrating-third-party/open-ad-server-destination.md)
       + [Audience Manager の宛先としての OpenX](integration/integrating-third-party/openx-destination.md)
-      + [Audience Manager の宛先としての DFP](integration/aam-dfp.md)
+      + [Audience Manager先としてのGoogle Ad Manager（旧称DFP）](integration/aam-dfp.md)
       + [Google AdWords リマーケティングリストへのセグメントの送信](integration/integrating-third-party/rlsa-integration.md)
    + [Audience Manager の実装](integration/implement-audience-manager.md)
    + メディアデータの統合 {#media-data-integration}
