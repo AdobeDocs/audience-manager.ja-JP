@@ -7,7 +7,7 @@ title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 94%
@@ -38,11 +38,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->[!DNL DFP] との統合の方法によっては、上記のコード例のうち一部の行だけが必要となることがあります。
+>[!DNL Google Ad Manager] との統合の方法によっては、上記のコード例のうち一部の行だけが必要となることがあります。
 >
 >* クライアント側の統合：1～3 行目のみを使用します。
 >* サーバー側の統合：どの行も必要ではありません。
->* [!DNL Audience Manager] でのレポートに使用する取り込み [!DNL DFP] ログファイル：4～6 行目のみを使用します。このコードにより、`aam_uuid` Cookie の値がログに挿入され、レポート用に取り込めるようになります。
+>* [!DNL Audience Manager] でのレポートに使用する取り込み [!DNL Google Ad Manager] ログファイル：4～6 行目のみを使用します。このコードにより、`aam_uuid` Cookie の値がログに挿入され、レポート用に取り込めるようになります。
 
 
 ### `AamGpt` 関数とデータ型
