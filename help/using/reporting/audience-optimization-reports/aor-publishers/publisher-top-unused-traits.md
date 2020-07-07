@@ -7,10 +7,10 @@ title: 上位の未使用特性
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 92%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers]を有効にする場合、[DFP データファイルを Audience Manager にインポート](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Order IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Order ID] ではなく[!UICONTROL Order]として表示されるようになります。
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). これにより、Web プロパティの詳細が[!UICONTROL Order ID] ではなく[!UICONTROL Order]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 レポートにおける特性の位置で、既存のオーディエンスセグメントの最適化に使用できる特性について多くのことがわかります。
 
-Impressions 軸に関して高い位置にある特性は、キャンペーンで使用できる特性になります。インプレッション数が少ない特性の場合は、DFP データに基づき、Web プロパティでこのオーディエンスにリーチする可能性は低くなります。
+Impressions 軸に関して高い位置にある特性は、キャンペーンで使用できる特性になります。For traits with a low number of impressions, it is unlikely that you&#39;re reaching this audience on your web property, based on your [!DNL Google Ad Manager] data.
 
 「[!UICONTROL Unique Trait Realizations]」軸の左側に行くほど正確な特性になり、右側に行くほどスケールを促進できる特性になります。
 
