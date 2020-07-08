@@ -6,10 +6,10 @@ solution: Audience Manager
 title: People-Based Destinations に関する FAQ
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 6e55d8bc5fe2c5cdcdd36107593215288d491331
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 97%
 
 ---
 
@@ -112,3 +112,7 @@ Audience Manager では、ユーザーごとに最大 10 個の電子メール�
 追加費用なしで、[!DNL URL Destinations] 機能から Audience Manager の [!DNL Facebook] [!DNL WCA] 統合を使用できます。
 
 これら 2 つの統合は補完的です。両方を使用して、オーディエンス対象範囲を改善することができます。例えば、アカウントを登録していない Web サイト訪問者をターゲットにしたい会社は、[!DNL WCA] を使用して見込み客を開拓できますが、[!DNL People-Based Destinations] は、電子メールアドレスを提供しているけれど Web サイトは訪問していない既存の顧客をターゲットにするのに役立ちます。
+
+**サポートとの[!DNL People-Based Destinations][!DNL Facebook]統合により、ユーザーがオーディエンスに該当しなくなった場合に、そのユーザーの資格を失うか。**
+
+はい。統合では、ユーザーの資格がなくなった場合の [!DNL Facebook] オーディエンスからの削除をサポートします。
