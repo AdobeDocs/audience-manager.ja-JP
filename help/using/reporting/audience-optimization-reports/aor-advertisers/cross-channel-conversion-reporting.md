@@ -7,10 +7,10 @@ title: クロスチャネルコンバージョン
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 87%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 Audience Optimization レポートの「クロスチャネルコンバージョン」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
 
-[!UICONTROL Cross Channel Conversion]レポートは、[!DNL DoubleClick Campaign Manager]（DCM）プラットフォームから得られた結果と [!DNL Audience Manager] のコンバージョン特性を組み合わせたものです。これにより、オフラインのコンバージョンをオンラインのインプレッションやクリックに関連付けることができます。
+The [!UICONTROL Cross Channel Conversion] reports combine results from the [!DNL Google Campaign Manager] platform with [!DNL Audience Manager] conversion traits. これにより、オフラインのコンバージョンをオンラインのインプレッションやクリックに関連付けることができます。
 
 [!UICONTROL Cross Channel Conversion]は、[セグメントパフォーマンス](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) レポートと[最適な頻度](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)レポートに使用できます。
 
-[!UICONTROL Cross Channel Conversion]レポートを表示するには、**[!UICONTROL AAM+DCM]**&#x200B;ドロップダウンリストで **[!UICONTROL Platform]** アイテムを選択します。
+[!UICONTROL Cross Channel Conversion]レポートを表示するには、**[!UICONTROL AAM + Ad Server Name]**&#x200B;ドロップダウンリストで **[!UICONTROL Platform]** アイテムを選択します。
 
 [!UICONTROL Cross Channel Conversion]をセットアップする際に考慮すべき重要な事項を次の表に示します。
 
@@ -41,7 +41,7 @@ Audience Optimization レポートの「クロスチャネルコンバージョ�
   </tr>
   <tr> 
    <td> <p>アトリビューション期間 </p> </td> 
-   <td> <p> <b><span class="uicontrol">AAM+DCM</span></b> アトリビューション期間は 14 日です。つまり、最近の 2 週間に示されたコンバージョン特性のみ考慮されます。 </p> </td> 
+   <td> <p> <b><span class="uicontrol"> AAM+Googleキャンペーンマネージャー</span></b> (Attribution)のアトリビューションウィンドウは14日間です。つまり、過去2週間に出現したコンバージョン特性のみが考慮されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>ラストタッチ方法論 </p> </td> 
