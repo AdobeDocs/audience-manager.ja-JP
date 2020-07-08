@@ -8,10 +8,10 @@ title: 実用的なログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
+source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 91%
+source-wordcount: '1605'
+ht-degree: 79%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 
 [!UICONTROL Actionable Log Files] を開始するには、[!DNL Audience Manager] にログデータを読み込む必要があります。以下のリンクは、使用を開始するのに役立ちます。
 
-* [!UICONTROL Google DCM] ログについては、[DCM データファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
+* For [!UICONTROL Google Campaign Manager] logs, see [Import Google Campaign Manager Data Files Into Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *and* contact your [!DNL Audience Manager] consultant.
 * ログ [!UICONTROL Google Ad Manager] （旧称Google DFP）については、「Google Ad ManagerデータファイルのAudience Managerへの [インポート](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) 」を参照し *て* 、コンサルタントに [!DNL Audience Manager] お問い合わせください。
 * その他の広告サーバーログについては、[データとメタデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照した&#x200B;*うえで*、担当の [!DNL Audience Manager] コンサルタントにお問合せください。
 
@@ -62,9 +62,9 @@ ht-degree: 91%
 
 この情報をオーディエンスの作成およびセグメント化に使用する場合、自分でルールベースの特性を設定する必要があることに注意してください。
 
-### Google DCM ログからの実用的なシグナル {#dcm-logs-signals}
+### Googleキャンペーンマネージャーのログから実行できるシグナル {#dcm-logs-signals}
 
-この表は、[!DNL DCM] ログファイルから取得される実用的なシグナルの一覧です。
+この表は、[!DNL Google Campaign Manager] ログファイルから取得される実用的なシグナルの一覧です。
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -79,13 +79,13 @@ ht-degree: 91%
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>コンバージョンイベントでのみ使用されます。 </p> <p>DCM のコンバージョンアクティビティの数値 ID を表します。このフィールドは、DCM のアクティビティ ID とマッピングされます。 </p> <p> <p>ヒント：DCM の複数または特定のコンバージョンアクティビティを取得できます。DCM の各コンバージョンアクティビティに対し、<code> d_conversion = activity ID</code> を使用して特性を作成します。 </p> </p> </td> 
+   <td colname="col3"> <p>コンバージョンイベントでのみ使用されます。 </p> <p>Googleキャンペーンマネージャーのコンバージョンアクティビティの数値IDを表します。 このフィールドは、GoogleキャンペーンマネージャーからのアクティビティIDに対応付けられます。 </p> <p> <p>ヒント： Googleキャンペーンマネージャーから、複数または特定のコンバージョンアクティビティを取り込むことができます。 Googleキャンペーンマネージャー <code> d_conversion = activity ID</code> の各コンバージョンアクティビティに対して、を使用して特性を作成します。 </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Conversion ID</code> </p> </td> 
    <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
-   <td colname="col3"> <p>コンバージョンイベントでのみ使用されます。 </p> <p>このフィールドは、DCM のコンバージョン ID にマッピングされます。DCM のユーザーコンバージョンに先行するアクティビティを示します。 </p> <p>使用できる値は次のとおりです。 </p> <p> 
+   <td colname="col3"> <p>コンバージョンイベントでのみ使用されます。 </p> <p>このフィールドは、GoogleキャンペーンマネージャーのコンバージョンIDに対応付けられます。 Googleキャンペーンマネージャーからのユーザー変換の前のアクティビティを示します。 </p> <p>使用できる値は次のとおりです。 </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code>。クリック後のコンバージョンを示します。 </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code>。インプレッション後のコンバージョンを示します。 </li> 
@@ -102,25 +102,25 @@ ht-degree: 91%
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>広告主のデータソースの統合コード。Audience Manager のデータソースとは関係ありません。</p> <p>このフィールドは、DCM の広告主グループ ID にマッピングされます。 </p> </td> 
+   <td colname="col3"><p>広告主のデータソースの統合コード。Audience Manager のデータソースとは関係ありません。</p> <p>このフィールドは、Googleキャンペーンマネージャーからの広告主グループIDに対応付けられます。 </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_bu</code> </p> </td> 
-   <td colname="col3"> <p>事業部門 ID。このフィールドは、DCM の広告主 ID にマッピングされます。 </p> </td> 
+   <td colname="col3"> <p>事業部門 ID。このフィールドは、Googleキャンペーンマネージャーからの広告主IDに対応付けられます。 </p> </td> 
    <td colname="col4"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Campaign ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col3"> <p>DCM から提供されたキャンペーン ID。</p> </td> 
+   <td colname="col3"> <p>Googleキャンペーンマネージャーから提供されるキャンペーンID。</p> </td> 
    <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Creative ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col3"> <p>DCM から提供されたクリエイティブ ID。 </p> </td> 
+   <td colname="col3"> <p>Googleキャンペーンマネージャーが提供するクリエイティブID。 </p> </td> 
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ ht-degree: 91%
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>イベントタイプを示します。Audience Manager は、DCM ログファイル名からイベントタイプを読み取り、実用的なシグナルに変換します。 </p> <p>使用できる値は次のとおりです。 </p> <p> 
+   <td colname="col3"> <p>イベントタイプを示します。Audience Managerは、Googleキャンペーンマネージャのログファイル名からイベントタイプを読み取り、実行可能なシグナルに変換します。 </p> <p>使用できる値は次のとおりです。 </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> インプレッション数：<code> d_event = imp</code>。 </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> クリック数：<code> d_event = click</code>。 </li> 
@@ -143,19 +143,19 @@ ht-degree: 91%
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>DCM データの取得に使用するデータソースの ID。<a href="../../features/manage-datasources.md#create-data-source">データソースの作成方法</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p>Googleキャンペーンマネージャーのデータを取り込むために使用するデータソースのID。 <a href="../../features/manage-datasources.md#create-data-source">データソースの作成方法</a>を参照してください。 </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-この表で説明されているシグナルは、[!DNL Audience Manager] において、リアルタイムの `HTTP` 呼び出しと同じように取得されます。次の呼び出しの例には、[!DNL DCM] のコンバージョンイベントについての情報が含まれています。必ずしも呼び出しの例にある&#x200B;*すべての*&#x200B;シグナルを呼び出しに含める必要はありません。
+この表で説明されているシグナルは、[!DNL Audience Manager] において、リアルタイムの `HTTP` 呼び出しと同じように取得されます。次の呼び出しの例には、[!DNL Google Campaign Manager] のコンバージョンイベントについての情報が含まれています。必ずしも呼び出しの例にある&#x200B;*すべての*&#x200B;シグナルを呼び出しに含める必要はありません。
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
-平均的サイズである 2,000,000 行の [!DNL DCM] ログでは、実用的なシグナルから作成されたすべての特性は、ログの処理後 1 時間以内に適合されます。
+平均的サイズである 2,000,000 行の [!DNL Google Campaign Manager] ログでは、実用的なシグナルから作成されたすべての特性は、ログの処理後 1 時間以内に適合されます。
 
 <!--
 Removed  {importance="high"} for ExL
@@ -163,10 +163,10 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->[!DNL DCM] ログによって提供されるイベントタイムスタンプは保持され、[!UICONTROL Data Collection Servers]に渡されます。
+>[!DNL Google Campaign Manager] ログによって提供されるイベントタイムスタンプは保持され、[!UICONTROL Data Collection Servers]に渡されます。
 >
->* [!DNL DCM] ログファイルのデータ行からタイムスタンプが取得できなかった場合、イベントタイムスタンプとして `HTTP` 呼び出しの時刻を使用します。
->* [!DNL DCM] ログファイルのデータ行のタイムスタンプの形式が正しくない場合、その行全体が無視されます。
+>* [!DNL Google Campaign Manager] ログファイルのデータ行からタイムスタンプが取得できなかった場合、イベントタイムスタンプとして `HTTP` 呼び出しの時刻を使用します。
+>* [!DNL Google Campaign Manager] ログファイルのデータ行のタイムスタンプの形式が正しくない場合、その行全体が無視されます。
 
 
  <br>
@@ -322,9 +322,9 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 4. セグメント [!DNL Retarget Users] を宛先にマッピングし、クリエイティブ 456 を使用して宛先のユーザーをターゲット化します。
 
-### Audience Optimization レポートまたは Audience Lab で DCM フラッドライトアクティビティを使用
+### オーディエンスキャンペーンレポートまたはオーディエンスラボで、Google Optimization Manager Floodlightアクティビティを使用します。
 
-[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=ja)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)または [Audience Lab](../../features/audience-lab/audience-lab.md) で [!DNL DCM] コンバージョンを追跡できます。
+[Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=ja)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)または [Audience Lab](../../features/audience-lab/audience-lab.md) で [!DNL Google Campaign Manager] コンバージョンを追跡できます。
 
 1. 特性を作成し、広告サーバーログからコンバージョンを取得する次の特性ルールを使用します。
 
@@ -336,6 +336,6 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 >[!MORELIKETHIS]
 >
->* [DCM データファイルを Audience Manager にインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [GoogleキャンペーンマネージャーデータファイルをAudience Managerにインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
