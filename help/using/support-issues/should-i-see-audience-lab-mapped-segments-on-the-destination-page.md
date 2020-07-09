@@ -5,16 +5,16 @@ seo-title: Audience Lab でマッピングしたセグメントが出力先の�
 solution: Audience Manager
 title: Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？
 feature: support
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
 ht-degree: 100%
 
 ---
 
 
-# Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？{#audience-lab-segments-destination-page}
+# Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？ {#audience-lab-segments-destination-page}
 
 ## 質問
 
