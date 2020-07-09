@@ -6,9 +6,9 @@ solution: Audience Manager
 title: GDPR の用語集
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: data governance & privacy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ GDPR に関連して使用されるキーワードを確認しましょう。よ
 
  
 
-**Audience Manager 識別子（ID）：** Adobe Audience Manager は様々な種類の ID を保存します。[Audience Manager 識別子](data-privacy-ids.md)ページには、これらの ID の概要、対応するデータソースおよび簡単な説明が記載されています。[Adobe Experience Platform プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)にリクエストを送信する場合は、これらの ID を参照して、データ主体の削除やアクセスのリクエストを行います。
+**Audience Manager 識別子（ID）：** Adobe Audience Manager は様々な種類の ID を保存します。[Audience Manager 識別子](data-privacy-ids.md)ページには、これらの ID の概要、対応するデータソースおよび簡単な説明が記載されています。[Adobe Experience Platform プライバシーサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)にリクエストを送信する場合は、これらの ID を参照して、データ主体の削除やアクセスのリクエストを行います。
 
  
 
