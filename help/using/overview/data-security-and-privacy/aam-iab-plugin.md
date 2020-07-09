@@ -5,9 +5,9 @@ seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: Audience ManagerIAB TCF 用 プラグイン
 feature: data governance & privacy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2449'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Audience Manager は、ユーザのプライバシー選択を尊重し、お客
 * モバイルデバイスのワークフロー
 * セグメントエクスポートに同意を追加します。
 
-##  から へのアップグレード [!DNL IAB TCF v2.0] {#upgrading}
+## から へのアップグレード [!DNL IAB TCF v2.0] {#upgrading}
 
 [!DNL Audience Manager Plug-in for IAB TCF] 実装を [!DNL IAB TCF] v1.1 から [!DNL IAB TCF] v2.0 にアップグレードするユーザー、または [!DNL IAB TCF] v2.0 を初めて有効にするユーザーは、以下に説明する前提条件と実装に関する同じガイドラインに従う必要があります。
 
