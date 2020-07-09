@@ -18,7 +18,7 @@ ht-degree: 97%
 
 [!DNL People-Based Destinations] に関するよくある質問への回答
 
-## 使用可否{#availability}
+## 使用可否 {#availability}
 
 **Audience Manager アカウントに[!DNL People-Based Destinations]が表示されません。使用可否について知っておく必要がある情報はありますか？**
 
