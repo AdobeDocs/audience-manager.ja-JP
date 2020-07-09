@@ -5,9 +5,9 @@ seo-title: Audience Manager の FAQ
 solution: Audience Manager
 title: Audience Manager の FAQ
 feature: Overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
 ht-degree: 100%
 
