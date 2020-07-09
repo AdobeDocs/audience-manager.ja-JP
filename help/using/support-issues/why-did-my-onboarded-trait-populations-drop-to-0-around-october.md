@@ -5,16 +5,16 @@ seo-title: 10 月 15 日頃にオンボーディングされた特性の母集�
 solution: Audience Manager
 title: 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？
 feature: support
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
 
 
-# 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？{#why-did-my-onboarded-trait-populations-drop-to-0-around-october}
+# 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？ {#why-did-my-onboarded-trait-populations-drop-to-0-around-october}
 
 ## 質問
 
