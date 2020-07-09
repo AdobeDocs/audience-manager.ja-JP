@@ -6,16 +6,16 @@ solution: Audience Manager
 title: パスワードの要件、ロックされたアカウント、パスワードを忘れた場合
 uuid: bca892eb-3577-4382-8110-131f78d23069
 feature: reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
 ht-degree: 100%
 
 ---
 
 
-# パスワードの要件、ロックされたアカウント、パスワードを忘れた場合{#password-requirements-locked-accounts-and-forgotten-passwords}
+# パスワードの要件、ロックされたアカウント、パスワードを忘れた場合 {#password-requirements-locked-accounts-and-forgotten-passwords}
 
 30 日経過するごとにパスワードの有効期限が切れるように Audience Manager を設定することができます。パスワードの有効期限を有効にする場合は、担当の Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。パスワードの要件とパスワードを忘れた場合の対処方法については、この節を参照してください。
 
