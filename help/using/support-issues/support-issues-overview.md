@@ -5,9 +5,9 @@ seo-title: サポートの問題の概要
 solution: Audience Manager
 title: サポートの問題の概要
 feature: support
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 
