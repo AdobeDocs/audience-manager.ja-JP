@@ -6,16 +6,16 @@ solution: Audience Manager
 title: サポートされているブラウザー
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
-# サポートされているブラウザー{#supported-browsers}
+# サポートされているブラウザー {#supported-browsers}
 
 このページでは、Audience Manager ユーザーインターフェイスでサポートされているブラウザーを示します。すべてのブラウザーで、Cookies および JavaScript を有効にする必要があります。
 
@@ -29,20 +29,20 @@ c_supported_browsers.xml
 
 * **Google Chrome**
 
-   Get the latest Chrome version from [http://www.google.com/chrome](http://www.google.com/chrome).
+   最新バージョンの Chrome を [https://www.google.com/intl/ja/chrome/](https://www.google.com/intl/ja/chrome/) から入手します。
 
 * **Microsoft Edge**
 
    （アドビは、2019 年 7 月 10 日に Audience Manager 内での Internet Explorer 11 のサポートを終了しています。できるだけ早く、最新のメジャーバージョンの Microsoft Edge またはサポートされている他のブラウザーに切り替えてください。）
 
-   Get the latest Edge version from [https://www.microsoft.com/windows/microsoft-edge](https://www.microsoft.com/windows/microsoft-edge).
+   最新バージョンの Edgeを [https://www.microsoft.com/ja-JP/edge](https://www.microsoft.com/ja-JP/edge) から入手します。
 
 * **Mozilla Firefox**
 
-   最新バージョンのFirefoxは、http://www.mozilla.com/en-US/firefox [から入手できます](http://www.mozilla.com/en-US/firefox)。
+   最新バージョンの Firefox は、[https://www.mozilla.org/ja/firefox/](https://www.mozilla.org/ja/firefox/) から入手できます。
 
 * **Safari**
 
-   Get the latest Safari version from [http://www.apple.com/safari/download](http://www.apple.com/safari/download).
+   最新バージョンの Safari を [https://www.apple.com/jp/safari/](https://www.apple.com/jp/safari/) から入手します。
 
 他のブラウザーでも動作する可能性がありますが、アドビの技術および製品チームによるサポートはありません。[!DNL Audience Manager] の使用に問題がある場合、最新のサポート対象ブラウザを使用していることを確認してください。
