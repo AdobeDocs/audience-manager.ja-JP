@@ -5,11 +5,11 @@ seo-title: 問題がある場合
 solution: Audience Manager
 title: 問題がある場合
 feature: Support
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ r_problem.xml
 
 * **電話：** 1-800-497-0335
 
-   米国外からの無料電話番号については、[各地域のカスタマーケアのお問い合わせ先番号](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)のサイトを参照してください。製品選択メニューで 4 を押すと、[!DNL Audience Manager] チームの担当者につながります。
+   米国外からの無料電話番号については、[各地域のカスタマーケアのお問い合わせ先番号](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)のサイトを参照してください。製品選択メニューで 4 を押すと、[!DNL Audience Manager] チームの担当者につながります。
 
 * **電子メール**：amsupport@adobe.com
 
@@ -53,7 +53,7 @@ r_problem.xml
    <td colname="col2"> <p>次の情報を記入します。 </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
       <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">会社名。 </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword">Audience Manager</span> サブドメイン（判明している場合）。The sub-domain is the URL of the domain that sends data collection events to <span class="keyword"> Adobe</span> (e.g., <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword">Audience Manager</span> サブドメイン（判明している場合）。サブドメインは、データ収集イベントを<span class="keyword">アドビ</span>に送信するドメインの URL です（例：<code>https://<i>myCompany</i>.demdex.net</code>）。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ r_problem.xml
 
 ## 機能停止の場合 {#outage}
 
-機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com)（[!DNL https://status.adobe.com]）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新情報も含まれています。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
+機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com)（ [!DNL https://status.adobe.com] ）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新情報も含まれています。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
 
 * 機能停止した時間
 * 発生状況の説明
