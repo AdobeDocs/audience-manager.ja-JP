@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager におけるデータセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: data governance & privacy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **安全なアクセス：** Audience Manager では、システムにログインするには、強力なパスワードが必要です。詳しくは、[パスワード要件](../../reference/password-requirements.md)を参照してください。
 
-## プライバシーおよび個人を特定できる情報（PII） {#pii}
+## プライバシーおよび個人を特定できる情報（PII）{#pii}
 
 個人情報の安全を維持するのに役立つプロセスです。その他のプライバシー情報については、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/experience-cloud.html)を参照してください。
 
@@ -74,7 +74,7 @@ Adobe Audience Manager は、S2S オンボードデータファイルをアド�
 
 **SFTP：** SFTP オプションの場合、ほとんどのお客様は、Secure Shell（SSH）プロトコルを使用する Secure FTP（SFTP）プロトコルでファイルを送信することを選択します。この方法は、お客様のシステムとアドビのシステムの間で送信される間にファイルを暗号化します。お客様ごとに、アドビの SFTP サーバー上にジェイル化されたドロップボックスの場所を作成します。これは、そのシステム上のユーザーアカウントに結び付けられます。お客様の資格情報および権限を持つ内部システムユーザーのみ、このジェイル化されたドロップボックスの場所にアクセスできます。このジェイルには、他のお客様はアクセスできません。
 
-HTTPS を使用した **[!UICONTROL Amazon Web Services S3] **：S3 配信オプションの場合、アドビでは、ファイル転送に HTTPS 暗号化メソッドを使用するように S3 クライアントを設定することを、すべてのお客様にお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
+HTTPS を使用した **[!UICONTROL Amazon Web Services S3]：** S3 配信オプションの場合、アドビでは、ファイル転送に HTTPS 暗号化メソッドを使用するように S3 クライアントを設定することを、すべてのお客様にお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
 
 PGP 暗号化をデータファイルに追加するには、[受信データタイプのファイル PGP 暗号化](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)を参照してください。
 
