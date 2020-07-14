@@ -7,10 +7,10 @@ title: デジタル署名された HTTP(S) 要求
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4877aa5391193ee2187609fdc9cb3740c91feb96
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 97%
 
 ---
 
@@ -90,10 +90,7 @@ String signature = Base64.encodeBase64String(result).trim();
 
 ## 秘密鍵のローテーション {#rotate-private-key}
 
-セキュリティ上の理由で、秘密鍵を定期的にローテーションすることをお勧めします。秘密鍵とローテーション期間は、お客様が決定します。ダウンタイムなしで鍵のローテーションを実現するために、[!UICONTROL IRIS] では複数の署名ヘッダーを追加することができます。一方のヘッダーには古い鍵で生成した署名が含まれ、もう一方のヘッダーには新しい秘密鍵で生成した署名が含まれます。詳しくは、次の手順を参照してください。
-
-1. パートナーが新しい秘密鍵を [!DNL Adobe Audience Manager] に通知します。
-1. 古い鍵は [!DNL Audience Manager] から削除され、[!UICONTROL IRIS] は新しい署名ヘッダーのみ送信します。これで鍵がローテーションされました。
+秘密鍵を回転するには、パートナーは、新しい秘密鍵をコンサルタントに伝える必要があり [!DNL Adobe Audience Manager] ます。 古い鍵は [!DNL Audience Manager] から削除され、[!UICONTROL IRIS] は新しい署名ヘッダーのみ送信します。これで鍵がローテーションされました。
 
 ## 署名に使用するデータ {#data-signing}
 
