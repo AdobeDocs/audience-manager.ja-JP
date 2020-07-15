@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5e8dfca8de0faeecbd44da1804b71bbe77bc89be
+source-git-commit: edeb7dba1cb83e19a910812d2d0a664a288b884a
 workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 97%
+source-wordcount: '1756'
+ht-degree: 96%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 97%
       + [Audience Optimization レポート](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization for Advertisers {#audience-optimization-advertisers}
          + [Audience Optimization for Advertisers の概要](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [DCM データファイルを Audience Manager にインポート](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [GoogleキャンペーンマネージャーデータファイルをAudience Managerにインポート](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [セグメントパフォーマンスレポート](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [トレンド分析レポートとボリューム分析レポート](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [最適頻度レポート](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
