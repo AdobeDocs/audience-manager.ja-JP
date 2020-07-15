@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 6e55d8bc5fe2c5cdcdd36107593215288d491331
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 97%
 
 オフラインデータを [!DNL People-Based Destinations] 用に Audience Manager に取り込む方法は次の 2 つです。
 
-* **ファイルベースの ID 同期を使用する**。ID 同期ファイルの表示形式について詳しくは、「[ID 同期ファイル の名前とコンテンツ要件](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)」を参照してください。この方法を使用すると、[!DNL CRM] データベースから、すべてのハッシュ化された電子メールアドレスをターゲットにすることができます。
+* **ファイルベースの ID 同期を使用する**。ID 同期ファイルの表示形式について詳しくは、「[ID 同期ファイルの名前とコンテンツ要件](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)」を参照してください。この方法を使用すると、[!DNL CRM] データベースから、すべてのハッシュ化された電子メールアドレスをターゲットにすることができます。
 * **宣言済み ID を使用**&#x200B;して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。この方法を使用すると、Audience Manager はオンラインで認証されたユーザーの、ハッシュされた電子メールアドレスのみをアクティブにします。Facebook でアクティブ化される電子メールアドレスは、宣言されている ID イベント呼び出しの電子メールアドレスのみです。顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムではアクティブ化されません。
 
 **Web フォームやモバイルアプリから、ハッシュ化された電子メールアドレスを収集できますか？それとも、バッチファイルから収集する必要がありますか？**
 
-[宣言済み ID](../features/declared-ids.md)[!DNL ECID] を使用し、Web 認証を通じてハッシュ化された電子メールアドレスを収集できます。バッチファイルを使用すると、認証を通じて送信できないハッシュ化された電子メールアドレス（例：[!DNL CRM] の休止状態のユーザー）を収集したり、ユーザーベースの宛先でそれらをアクティブ化したりできます。
+[宣言済み ID](../features/declared-ids.md)と[!DNL ECID]を使用し、Web 認証を通じてハッシュ化された電子メールアドレスを収集できます。バッチファイルを使用すると、認証を通じて送信できないハッシュ化された電子メールアドレス（例：[!DNL CRM] の休止状態のユーザー）を収集したり、ユーザーベースの宛先でそれらをアクティブ化したりできます。
 
 **ハッシュ化された電子メールアドレスを Web フォーム経由で取り込む場合と、バッチファイルを使用してハッシュ化された電子メールアドレスを取り込む場合の違いを教えてください。**
 
@@ -107,12 +107,12 @@ Audience Manager では、ユーザーごとに最大 10 個の電子メール�
 
 **[!DNL People-Based Destinations]と[!DNL Website Custom Audiences]の違いを教えてください。**
 
-[!DNL People-Based Destinations] では[!DNL Custom Audiences (CA)] と[!DNL Facebook] の統合を活用します。顧客がオーディエンスを [!DNL Facebook] に送信する際に鍵となるのは、[!DNL WCA] 統合と [!DNL CA] 統合の違いです。[!DNL WCA] は [!DNL Facebook] ピクセル（Web サイトのユーザー ID となります）を使用していますが、[!DNL People-Based Destinations] はハッシュ化された電子メールアドレスを使用して [!DNL CA] と統合します。
+[!DNL People-Based Destinations] では [!DNL Custom Audiences (CA)] と [!DNL Facebook] の統合を活用します。顧客がオーディエンスを [!DNL Facebook] に送信する際に鍵となるのは、[!DNL WCA] 統合と [!DNL CA] 統合の違いです。[!DNL WCA] は [!DNL Facebook] ピクセル（Web サイトのユーザー ID となります）を使用していますが、[!DNL People-Based Destinations] はハッシュ化された電子メールアドレスを使用して [!DNL CA] と統合します。
 
 追加費用なしで、[!DNL URL Destinations] 機能から Audience Manager の [!DNL Facebook] [!DNL WCA] 統合を使用できます。
 
 これら 2 つの統合は補完的です。両方を使用して、オーディエンス対象範囲を改善することができます。例えば、アカウントを登録していない Web サイト訪問者をターゲットにしたい会社は、[!DNL WCA] を使用して見込み客を開拓できますが、[!DNL People-Based Destinations] は、電子メールアドレスを提供しているけれど Web サイトは訪問していない既存の顧客をターゲットにするのに役立ちます。
 
-**サポートとの[!DNL People-Based Destinations][!DNL Facebook]統合により、ユーザーがオーディエンスに該当しなくなった場合に、そのユーザーの資格を失うか。**
+**[!DNL People-Based Destinations]と[!DNL Facebook]の統合は、資格がなくなったユーザーの対象からの除外をサポートしますか？**
 
 はい。統合では、ユーザーの資格がなくなった場合の [!DNL Facebook] オーディエンスからの削除をサポートします。
