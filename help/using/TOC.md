@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: edeb7dba1cb83e19a910812d2d0a664a288b884a
 workflow-type: tm+mt
 source-wordcount: '1756'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 96%
          + [シグナル検索の概要](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [キー値ペアによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [フィルターによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
-         + [Advanced Search for Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
+         + [Adobe Analytics の詳細検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
          + [検索結果のフィルタリング](features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
          + [検索条件の保存](features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
       + [シグナルからの特性の作成](features/data-explorer/create-traits-from-signals.md)
@@ -105,7 +105,7 @@ ht-degree: 96%
             + [ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
             + [ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [ユーザーベースのプラットフォームを使用した認証](features/destinations/people-based-destinations-authentication.md)
-         + [Shareable Audiences](/help/using/features/destinations/people-based-destinations-reporting.md)
+         + [共有可能なオーディエンス](/help/using/features/destinations/people-based-destinations-reporting.md)
       + デバイスベースの宛先（サーバー間） {#device-based}
          + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
          + [Audience Manager のデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
@@ -131,7 +131,7 @@ ht-degree: 96%
       + [ 外部デバイスグラフのユースケース](features/profile-merge-rules/external-graph-use-cases.md)
       + [プロファイル結合ルールのレポート指標](features/profile-merge-rules/profile-link-metrics.md)
       + [プロファイル結合ルールとデバイスのセグメント化解除プロセス](features/profile-merge-rules/merge-rule-unsegment.md)
-      + [Instant Cross-Device Suppression](features/profile-merge-rules/instant-cross-device-suppression.md)
+      + [クロスデバイスの即時抑制](features/profile-merge-rules/instant-cross-device-suppression.md)
    + セグメント {#segments}
       + [セグメント：目的、構成、ルール](features/segments/segments-purpose.md)
       + [セグメントリスト表示](features/segments/segments-dashboard.md)
@@ -188,7 +188,7 @@ ht-degree: 96%
          + [クロスチャネルコンバージョン](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Audience Optimization for Publishers {#audience-optimization-publishers}
          + [Audience Optimization for Publishers の概要](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Google Ad Manager（旧称DFP）データファイルのAudience Managerへのインポート](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Google Ad Manager（旧称 DFP）データファイルの Audience Manager へのインポート](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [セグメントパフォーマンスレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [セグメントトレンドレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [上位の未使用特性](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -284,9 +284,9 @@ ht-degree: 96%
 + 実装および統合ガイド {#implementation-integration-guides}
    + [実装および統合ガイド](integration/implementation-and-integration.md)
    + [データ統合方法](integration/data-integration-methods.md)
-   + Google Publisher Tags(GPT)を使用したGoogle Ad Managerの統合{#integrate-dfp-using-gpt}
-      + [GPTの概要を使用したGoogle Ad Managerの統合](integration/gpt-aam-destination/gpt-aam-overview.md)
-      + [GPTを使用したGoogle Ad Managerへのセグメントの送信](integration/gpt-aam-destination/gpt-aam-requirements.md)
+   + Google Publisher Tags（GPT）を使用した Google Ad Manager の統合{#integrate-dfp-using-gpt}
+      + [GPT を使用した Google Ad Manager の統合 - 概要](integration/gpt-aam-destination/gpt-aam-overview.md)
+      + [GPT を使用した Google Ad Manager へのセグメントの送信](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 宛先の作成](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [GPT setTargeting API 呼び出しの変更](integration/gpt-aam-destination/gpt-aam-modify-api.md)
       + [Google サイト運営者タグ用の Audience Manager コード](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
@@ -294,7 +294,7 @@ ht-degree: 96%
       + [Facebook WCA の統合](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [Audience Manager の宛先としての OAS](integration/integrating-third-party/open-ad-server-destination.md)
       + [Audience Manager の宛先としての OpenX](integration/integrating-third-party/openx-destination.md)
-      + [Audience Manager先としてのGoogle Ad Manager（旧称DFP）](integration/aam-dfp.md)
+      + [Audience Manager 先としての Google Ad Manager（旧称 DFP）](integration/aam-dfp.md)
       + [Google AdWords リマーケティングリストへのセグメントの送信](integration/integrating-third-party/rlsa-integration.md)
    + [Audience Manager の実装](integration/implement-audience-manager.md)
    + メディアデータの統合 {#media-data-integration}
@@ -404,7 +404,7 @@ ht-degree: 96%
    + [重複レポートページに特性やセグメントが表示されないのはなぜですか？](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [読み取り専用ユーザーが特性およびセグメントを作成、編集または削除できるのはなぜですか？](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Audience Manager の顧客ではないのに、サイトに Audience Manager JavaScript 呼び出しが表示される](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
-   + [Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
+   + [Audience Manager Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + ドキュメントの更新 {#documentation-updates}
    + [ドキュメントの更新（2020 年）](docs-updates/docs-2020.md)
    + [ドキュメントの更新（2019 年）](docs-updates/docs-2019.md)
