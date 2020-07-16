@@ -7,10 +7,10 @@ title: REST API の概要
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 0fd2b2a58274199ecc2fd58738113165c804ceb8
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 80%
+source-wordcount: '1854'
+ht-degree: 76%
 
 ---
 
@@ -40,26 +40,32 @@ Information about general requirements, authentication, optional query parameter
 
 この2つの認証方法 [!DNL Audience Manager][!DNL REST APIs] は、次のとおりです。
 
-* [JWT（サービスアカウント）認証](#jwt)：これは、推奨される認証方法です。
+* [JWT（サービスアカウント）認証](#jwt) ( [Adobe I/Oを使用](https://www.adobe.io/)) [!DNL Adobe I/O] は、アドビの開発者エコシステムとコミュニティです。 これには、 [アドビのI/O開発者ツールと、すべてのアドビ製品のAPI](https://www.adobe.io/apis/experienceplatform.html) / [APIが含まれます](https://www.adobe.io/apis.html)。 を設定して使用する場合は、次の方法をお勧めし [!DNL Adobe] ま [!DNL APIs]す。
 * [OAuth 認証（非推奨）](#oauth)：While this method is deprecated, customers with existing [!DNL OAuth] integrations can continue using this method.
 
 >[!IMPORTANT]
 >
 >Depending on your authentication method, you need to adjust your request [!DNL URLs] accordingly. 使用すべきホスト名について詳しくは、[環境](#environments)の節を参照してください。
 
-## [!DNL JWT] ([!DNL Service Account]) 認証 {#jwt}
+## [!DNL JWT] ([!DNL Service Account])アドビのI/Oによる認証 {#jwt}
+
+### Adobe I/Oの概要 {#adobeio}
+
+[!DNL Adobe I/O] は、アドビの開発者エコシステムとコミュニティです。 これには、 [アドビのI/O開発者ツールと、すべてのアドビ製品のAPI](https://www.adobe.io/apis/experienceplatform.html) / [APIが含まれます](https://www.adobe.io/apis.html)。
+
+を設定して使用する場合は、次の方法をお勧めし [!DNL Adobe] ま [!DNL APIs]す。
 
 ### 前提条件 {#prerequisites}
 
-認証を設定する前に、 [!DNL JWT] Adobe Developer Consoleにアクセスできることを確認してください [](https://console.adobe.io/)。 アクセス要求については、組織の管理者に問い合わせてください。
+認 [!DNL JWT] 証を設定する前に、アドビのI/Oの [Adobe Developer Console](https://console.adobe.io/) にアクセスできることを確認してください [](https://www.adobe.io/)。 アクセス要求については、組織の管理者に問い合わせてください。
 
 ### 認証
 
-次の手順に従って、 [!DNL JWT (Service Account)] 認証を設定します。
+次の手順に従って、次を使用して [!DNL JWT (Service Account)] 認証を設定し [!DNL Adobe I/O]ます。
 
 1. [Adobe Developer Consoleにログインします](https://console.adobe.io/)。
 1. 「 [サービスアカウント接続](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)」の手順に従います。
-   * 手 [順2: サ追加ービスアカウント認証を使用して、プロジェクトへのAPIを設定する場合は](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)、 [!DNL Audience Manager] オ [!DNL API] プションを選択します。
+   * 手 [順2: サ追加ービスアカウント認証を使用して、プロジェクトに対するAPIで、](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)[!DNL Audience Manager][!DNL API] オプションを選択します。
 1. 手順3の指示に基づいて最初の [!DNL API] 呼び出しを行って、接続を [試してください](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.)。
 
 >[!NOTE]
