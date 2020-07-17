@@ -1,6 +1,9 @@
 ---
 source-git-commit: dee392312d8e0381c714a99b5d537c767107c9bc
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '329'
+ht-degree: 98%
 
 ---
 # 説明
