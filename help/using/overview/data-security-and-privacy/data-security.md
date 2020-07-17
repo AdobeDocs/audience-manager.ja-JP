@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager におけるデータセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: data governance & privacy
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 100%
 
