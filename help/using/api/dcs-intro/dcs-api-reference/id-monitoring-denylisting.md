@@ -46,9 +46,9 @@ Audience Manager インフラストラクチャを悪意のあるアクティビ
 
 When a multiple ID call also includes a denylisted ID, the [!DNL DCS] disregards the denied ID and only uses the remaining, allowed IDs for synchronization.
 
-## ID非表示の原因と修正点
+## IDブロックリストに加えるの原因と修正
 
-IDがブロックリストに追加される最も多い原因は、顧客のインフラストラクチャとAudience Managerの間の誤った統合です。 非公開IDを特定する場合は、Audience Manager統合を十分に確認してください。 Audience Manager を Experience Cloud の他のソリューションまたは外部システムと連携するように設定する方法について詳しくは、**実装および統合ガイド**&#x200B;を参照してください。
+IDがブロックリストに追加される最も多い原因は、顧客のインフラストラクチャとAudience Managerの間の誤った統合です。 IDを特定する場合は、Audience Managerブロックリストに加える統合を十分に確認してください。 Audience Manager を Experience Cloud の他のソリューションまたは外部システムと連携するように設定する方法について詳しくは、**実装および統合ガイド**&#x200B;を参照してください。
 
 Another frequent cause of IDs being added to deny lists are indexing bots (web crawlers), which generally cause increases in traffic, leading to the same IDs being sent to the [!DNL DCS] multiple times. ブロックリストにIDが追加される理由としてインデックスボットを識別する場合は、Webサイトへのボットアクセスを制限する必要があります。
 
