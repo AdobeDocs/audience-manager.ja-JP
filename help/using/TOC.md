@@ -4,9 +4,9 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: edeb7dba1cb83e19a910812d2d0a664a288b884a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 100%
 
