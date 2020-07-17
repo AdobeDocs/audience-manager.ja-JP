@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
 workflow-type: tm+mt
 source-wordcount: '1605'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -336,6 +336,6 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 >[!MORELIKETHIS]
 >
->* [GoogleキャンペーンマネージャーデータファイルをAudience Managerにインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Google キャンペーンマネージャーデータファイルを Audience Manager にインポート](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
