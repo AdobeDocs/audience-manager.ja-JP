@@ -684,6 +684,7 @@ var dilInstance = DIL.create({
 >
 >* サイト訪問者のブラウザーが CORS をサポートしていることが確実な場合にのみ `useCORSOnly: true` を設定することをお勧めします。
 >* `useCORSOnly: true` の場合、[!UICONTROL DIL] は Internet Explorer 9 またはそれ以前のバージョンからは ID 呼び出しをおこないません。
+
 >
 
 
