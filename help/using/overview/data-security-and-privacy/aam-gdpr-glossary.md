@@ -6,9 +6,9 @@ solution: Audience Manager
 title: GDPR の用語集
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: data governance & privacy
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 100%
 
