@@ -1,21 +1,21 @@
 ---
 description: GoogleキャンペーンマネージャーのデータファイルをAudience Managerに取り込むためのGoogleグループを設定します。 この節の内容は、統合プロセスの概要と、使い始める際に役立つGoogleキャンペーンマネージャーのリソースへのリンクを示しています。
 seo-description: GoogleキャンペーンマネージャーのデータファイルをAudience Managerに取り込むためのGoogleグループを設定します。 この節の内容は、統合プロセスの概要と、使い始める際に役立つGoogleキャンペーンマネージャーのリソースへのリンクを示しています。
-seo-title: GoogleキャンペーンマネージャーデータファイルをAudience Managerにインポート
+seo-title: Google キャンペーンマネージャーデータファイルを Audience Manager にインポート
 solution: Audience Manager
-title: GoogleキャンペーンマネージャーデータファイルをAudience Managerにインポート
+title: Google キャンペーンマネージャーデータファイルを Audience Manager にインポート
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 58%
+ht-degree: 62%
 
 ---
 
 
-# GoogleキャンペーンマネージャーデータファイルをAudience Managerにインポート {#import-dcm-data-files-into-audience-manager}
+# Google キャンペーンマネージャーデータファイルを Audience Manager にインポート {#import-dcm-data-files-into-audience-manager}
 
 Set up a [!DNL Google] group to bring your [!DNL Google Campaign Manager] data files into Audience Manager. The content in this section summarizes the integration process and provides you with links to [!DNL Google Campaign Manager] resources to help you get started.
 
