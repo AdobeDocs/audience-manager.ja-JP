@@ -6,9 +6,9 @@ solution: Audience Manager
 title: API に関するよくある質問
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
 feature: API
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -39,13 +39,13 @@ faq_api.xml
 
 メソッドごとにデータの渡し方は異なりますが、機能には影響はありません。例えば、どちらのメソッドでも [!DNL Audience Manager] がデータを宛先に送信し、ID 同期が正常に機能し、データシグナルから特性を作成できます。
 
-<br>
+<br> 
 
 **[!UICONTROL REST API]を使用すると何ができますか？**
 
 [!UICONTROL REST API] を使用すると、ユーザーインターフェイスで使用可能な [!DNL Audience Manager] のほとんどの機能と関数をプログラムで操作できます。
 
-<br>
+<br> 
 
 **[!UICONTROL REST API]クライアント ID およびシークレット**&#x200B;を取得するには、どうすればよいですか？
 
