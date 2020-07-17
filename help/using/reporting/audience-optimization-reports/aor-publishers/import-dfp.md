@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
 
-# Google Ad Manager（旧称DFP）データファイルのAudience Managerへのインポート{#import-dfp-data-files-into-audience-manager}
+# Google Ad Manager（旧称 DFP）データファイルの Audience Manager へのインポート{#import-dfp-data-files-into-audience-manager}
 
 Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
 
