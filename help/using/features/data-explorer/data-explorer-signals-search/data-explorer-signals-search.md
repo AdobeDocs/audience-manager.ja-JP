@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * [キー値ペアによるシグナルの検索](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
 * [フィルターによるシグナルの検索](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
-* [Advanced Search for Adobe Analytics](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
+* [Adobe Analytics の詳細検索](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
 * [検索結果のフィルタリング](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [検索条件の保存](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
