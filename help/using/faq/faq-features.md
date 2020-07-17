@@ -7,9 +7,9 @@ solution: Audience Manager
 title: 製品の機能に関するよくある質問
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ faq_features_functions.xml
 
 **組織 ID はどのようなもので、どうすれば見つかりますか？**
 
- *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
+Folio Builder *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
 
 つまり、*`Organization ID`* は `1FD6776A524453CC0A490D44@AdobeOrg` のようになります。
 
