@@ -5,9 +5,9 @@ seo-title: 連絡先情報および法的事項
 solution: Audience Manager
 title: 連絡先情報および法的事項
 feature: Support
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -37,6 +37,6 @@ Published by Adobe Systems Incorporated.
 
 [利用条件](https://www.adobe.com/jp/legal/terms.html) | [プライバシーセンター](https://www.adobe.com/jp/privacy.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
 All third-party trademarks are the property of their respective owners.Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_jp](https://www.adobe.com/products/eula/third_party/).
