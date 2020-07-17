@@ -43,6 +43,7 @@ t_bulk_requests.xml
    * アルゴリズムを使用した、ルールベースの特性とオンボードの特性
    * セグメント
    * 特性フォルダーとセグメントフォルダーの ID
+
    [!DNL Audience Manager] API は一括データを [!UICONTROL Request] ワークシートに書き込みます。
 
 >[!NOTE]
