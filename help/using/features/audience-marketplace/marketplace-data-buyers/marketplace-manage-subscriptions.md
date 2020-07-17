@@ -39,12 +39,14 @@ ht-degree: 100%
 1. 購読テーブルからユースケースを選択し、以下の操作をおこないます。
    * **[!UICONTROL Subscription]** スライダーを&#x200B;**[!UICONTROL On]**&#x200B;にします。
    * 「**[!UICONTROL Review & Subscribe]**」をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
+
    ![購入する](assets/subscribe3.png)
 
 1. [!UICONTROL Terms and Conditions] ウィンドウで、以下の手順に従ってください。
 
    * **重要：** チェックボックスはオンのまま&#x200B;**[!UICONTROL ID sync]**&#x200B;にしておきます。この設定により、データプロバイダーとの一致率が高くなります。
    * 利用条件チェックボックスをオンにしてから&#x200B;**[!UICONTROL Accept]**&#x200B;をクリックし、購読手続きを完了します。
+
    ![購入する](assets/subscribe4.png)
 
 ### 次の手順
