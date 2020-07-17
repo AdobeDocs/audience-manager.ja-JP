@@ -9,8 +9,8 @@ feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 70%
+source-wordcount: '334'
+ht-degree: 72%
 
 ---
 
@@ -72,7 +72,7 @@ To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] [!D
 >[!MORELIKETHIS]
 >
 >* [[!DNL宛先]](../../features/destinations/destinations.md)
->* [[!DNL URLのリンク先]を作成する](../../features/destinations/create-url-destination.md)
+>* [指標をさらに制限する [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
 >* [AdWords リマーケティングリストについて](https://support.google.com/adwords/answer/2472738?hl=ja)
 >* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000)
 
