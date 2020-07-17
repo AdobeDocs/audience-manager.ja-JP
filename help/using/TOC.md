@@ -4,11 +4,11 @@ solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: edeb7dba1cb83e19a910812d2d0a664a288b884a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1756'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 99%
       + People-Based Destinations {#people-based}
          + [概要とユースケース](features/destinations/people-based-destinations-overview.md)
          + [前提条件と考慮事項](features/destinations/people-based-destinations-prerequisites.md)
-         +  実装ガイド {#implementation-guide}
+         + 実装ガイド {#implementation-guide}
             + [実装の概要](features/destinations/people-based-destinations-workflow.md)
             + [ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-combined.md)
             + [ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
@@ -179,7 +179,7 @@ ht-degree: 99%
       + [Audience Optimization レポート](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization for Advertisers {#audience-optimization-advertisers}
          + [Audience Optimization for Advertisers の概要](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [GoogleキャンペーンマネージャーデータファイルをAudience Managerにインポート](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Google キャンペーンマネージャーデータファイルを Audience Manager にインポート](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [セグメントパフォーマンスレポート](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [トレンド分析レポートとボリューム分析レポート](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [最適頻度レポート](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
