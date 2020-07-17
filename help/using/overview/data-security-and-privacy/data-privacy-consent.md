@@ -7,9 +7,9 @@ keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: 同意管理
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 100%
 
