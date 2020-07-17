@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 収集されるデータのタイプ
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 feature: overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 100%
 
