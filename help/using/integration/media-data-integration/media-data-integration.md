@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3c70178dc1a020545793ea7facc70e34d23543fa
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -27,6 +27,6 @@ Audience Manager に対してピクセル呼び出しを使用して（しばし
 
 ログ取り込みを設定するには、次の記事を参照してください。
 
-* [GoogleキャンペーンマネージャーデータファイルをAudience Managerにインポート](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+* [Google キャンペーンマネージャーデータファイルを Audience Manager にインポート](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 * [Google Ad ManagerデータファイルのAudience Managerへのインポート ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
 * [Log Data and Metadata Files](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) （ログデータとメタデータファイル）：汎用ログファイルのログ取り込みを設定します。
