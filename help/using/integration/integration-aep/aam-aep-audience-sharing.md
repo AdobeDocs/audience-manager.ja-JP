@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -100,7 +100,7 @@ Experience Platform セグメントから自動的に作成されたセグメン
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
 
-## Experience PlatformでのAudience Managerデータエクスポートコントロールのサポート {#aam-data-export-control-in-aep}
+##  Experience Platform での Audience Manager データ書き出しコントロールのサポート{#aam-data-export-control-in-aep}
 
 Experience Platformでのデータ使用量のコンプライアンスを強化するために、該当するすべてのデータセットおよびフィールドに適切な [データ使用ラベルを付与する必要があります](https://docs.adobe.com/content/help/en/experience-platform/data-governance/labels/overview.html)。 さらに、 [データ使用ポリシー](https://docs.adobe.com/content/help/en/experience-platform/data-governance/policies/overview.html) ( [Data Usage Labeling and Enforcement(DULE)フレームワークで概要を説明しているように、これらのラベルに対する特定のマーケティングアクションに対して、](https://docs.adobe.com/content/help/en/experience-platform/data-governance/home.html#dule-framework)データ使用ポリシーを有効にする必要があります。
 
