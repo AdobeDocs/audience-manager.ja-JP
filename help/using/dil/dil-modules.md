@@ -157,6 +157,7 @@ dil-google-universal-analytics.xml
    >
    >
 * 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
+
 >
 
 
