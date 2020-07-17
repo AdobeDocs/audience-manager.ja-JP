@@ -45,6 +45,7 @@ ht-degree: 100%
 1. データフィードを保存してアクティブ化するには：
    1. **[!UICONTROL Availability]** スライダーを&#x200B;**[!UICONTROL Active]**&#x200B;にします。
    1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
    >[!NOTE]
    >
    >* 保存されてアクティブになったデータフィードは削除できません。
