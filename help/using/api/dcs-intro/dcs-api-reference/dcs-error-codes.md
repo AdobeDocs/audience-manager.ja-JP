@@ -159,22 +159,22 @@ ht-degree: 64%
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>Blocked customer id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>顧客IDが悪意のあるIDとして識別され、denylistに追加された場合に返されます。 </p> </td> 
+   <td colname="col3"> <p>顧客IDが悪意のあるIDとして識別され、ブロックリストに追加された場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>Blocked datasource id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>データソースIDが悪意のあるものとして識別され、denylistに追加された場合に返されます。 </p> </td> 
+   <td colname="col3"> <p>データソースIDが悪意のあるIDとして識別され、ブロックリストに追加された場合に返されます </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>デバイスIDは悪意のあるIDとして識別され、denylistに追加されました。これは、このデバイスIDを含む極端な量の <span class="wintitle"> DCS</span> 要求を短時間で受け取った場合に発生する可能性があります。 </p> </td>
+   <td colname="col3"> <p>デバイスIDが悪意のあるものとして識別され、デバイスに追加されブロックリストました。この問題は、このデバイスIDを含む <span class="wintitle"> DCS</span> 要求を短期間で大量に受け取った場合に発生する可能性があります。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>IDが悪意のあるIDとして識別され、denylistに追加されたため、読み取り/書き込み操作がブロックされました。エラーコード306を参照してください。 </p> </td> 
+   <td colname="col3"> <p>IDが悪意のあるIDとして識別され、に追加されたため、読み取り/書き込み操作がブロックされました。エラーコード306をブロックリスト参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
