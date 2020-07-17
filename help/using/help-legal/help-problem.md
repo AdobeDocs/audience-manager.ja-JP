@@ -5,9 +5,9 @@ seo-title: 問題がある場合
 solution: Audience Manager
 title: 問題がある場合
 feature: Support
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
