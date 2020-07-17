@@ -65,7 +65,7 @@ Information about general requirements, authentication, optional query parameter
 
 1. [Adobe Developer Consoleにログインします](https://console.adobe.io/)。
 1. 「 [サービスアカウント接続](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)」の手順に従います。
-   * 手 [順2: サ追加ービスアカウント認証を使用して、プロジェクトに対するAPIで、](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)[!DNL Audience Manager][!DNL API] オプションを選択します。
+   * 手 [順2: サ追加ービスアカウント認証を使用して、プロジェクトへのAPIを設定する場合は](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)、 [!DNL Audience Manager] オ [!DNL API] プションを選択します。
 1. 手順3の指示に基づいて最初の [!DNL API] 呼び出しを行って、接続を [試してください](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.)。
 
 >[!NOTE]
