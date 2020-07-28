@@ -7,10 +7,10 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
+source-git-commit: 4f76bbd6f7c2f1866954bbbf14e8987dc3384c47
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 55%
+source-wordcount: '1441'
+ht-degree: 54%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 55%
 
 ## 概要 {#overview}
 
-Audience Manager と Adobe Experience Platform の間でオーディエンス共有機能を使用すると、Audience Manager の特性とセグメントを Adobe Experience Platform と共有できます。また、その逆も可能です。Audience Manager と Adobe Experience Platform の間でオーディエンス共有を有効にするには、[Audience Manager コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-platform/sources/connectors/adobe-applications/audience-manager.html)が必要です。
+Audience Manager と Adobe Experience Platform の間でオーディエンス共有機能を使用すると、Audience Manager の特性とセグメントを Adobe Experience Platform と共有できます。また、その逆も可能です。You need the [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/ja-JP/experience-platform/sources/connectors/adobe-applications/audience-manager.html) to enable audience sharing between Audience Manager and Adobe Experience Platform.
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)を活用することができます。
 
@@ -149,7 +149,7 @@ Audience Managerは、インターフェイスのレポート番号を1日に1�
 
 ### プロファイルの結合ルールと結合ポリシーの違い
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Experience Platformの「Audience Manager」と「 [マージポリシー](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/ui/merge-policies.html) 」は異なる動作をし、それぞれに使用されるIDグラフは異なります。 これにより、セグメント母集団間でのいくつかの違いが想定されます。
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Audience ManagerとExperience Platform [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/ui/merge-policies.html) では、動作が異なり、それぞれに使用されるアイデンティティグラフも異なります。 これにより、セグメント母集団間でのいくつかの違いが想定されます。
 
 ### Experience Platformでのセグメントの構成
 
