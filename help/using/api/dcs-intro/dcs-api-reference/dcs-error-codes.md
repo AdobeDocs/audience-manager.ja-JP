@@ -7,10 +7,10 @@ title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 11b79d46e7358c736c797bcf0809af4937717fc5
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 64%
+source-wordcount: '1518'
+ht-degree: 73%
 
 ---
 
@@ -23,22 +23,22 @@ ht-degree: 64%
 
 ## システムエラーコード {#system-error-codes}
 
-|エラーコード|エラーメッセージ|説明|
-|—|—|—|
-|0|未指定のエラー|他のエラーハンドラーでカバーされていないイベントを処理する包括的なエラーです。 このエラーのトラブルシューティングは困難です。種々の不明なアクションやイベントが原因になっている可能性があります。このエラーが発生した場合は、[!DNL DCS] 要求をもう一度試してください。Contact your [!DNL Adobe] representative if the problem persists.|
-|1|ホスト名の構成が見つかりませんでした： `hostname`|要求で送信されたホスト名は、アドビのパートナープロビジョニングチームによって設定されていません。 Contact your [!DNL Adobe] representative if you see this error message.|
-|2|無効な `d_orgid` 値（この組織IDの構成が見つかりませんでした）: `ID`|組織IDが正しくありません。 ID を確認して、要求をもう一度試してください。If you do not know or have your Organization ID, see the &quot;Administration Page&quot; section [Organizations and account linking](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html) for information about how to find it.|
+| エラーコード | エラーメッセージ | 説明 |
+|---|---|---|
+| 0 | Unspecified error | これは、他のエラーハンドラーでカバーされないイベントを処理する包括的なエラーです。このエラーのトラブルシューティングは困難です。種々の不明なアクションやイベントが原因になっている可能性があります。このエラーが発生した場合は、[!DNL DCS] 要求をもう一度試してください。Contact your [!DNL Adobe] representative if the problem persists. |
+| 1 | Could not find config for hostname:    `hostname` | 送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。Contact your [!DNL Adobe] representative if you see this error message. |
+| 2 | Invalid `d_orgid` value (could not find a config for this org id): `ID` | 組織 ID が正しくありません。ID を確認して、要求をもう一度試してください。If you do not know or have your Organization ID, see the &quot;Administration Page&quot; section [Organizations and account linking](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html) for information about how to find it. |
 
 ## 統合エラーコード {#integration-error-codes}
 
-|エラーコード|エラーメッセージ|説明|
-|—|—|—|
-|100|要求のホスト名を取得できませんでした| [!DNL API] 呼び出しは、要求のホスト [!DNL HTTP] ヘッダーを送信しませんでした。 呼び出追加しに対するホストヘッダーを指定して、もう一度やり直してください。 Most browsers and [!DNL API] clients do this automatically. |
-|101|無効な [!DNL Experience Cloud] IDが渡されました `ID`| [!DNL DCS] 呼び出しに無効な [!DNL Experience Cloud] IDが含まれています。 ヘッダー文字列の `d_mid=` キー値ペアを確認してください。正しい [!DNL Experience Cloud] ID を渡していることを確認して、要求をもう一度試してください。|
-|102|無効な値が要求 [!DNL AAM ID] に渡されました `ID`| [!DNL DCS] 呼び出しに無効な [!DNL Audience Manager] IDが含まれています。 ヘッダー文字列の `d_uuid=` キー値ペアを確認してください。正しい [!DNL Audience Manager] ID を渡していることを確認して、要求をもう一度試してください。|
-|104|すべての顧客IDが無効です |呼び出しのすべての顧客IDが無効です。 ID を確認して、もう一度試してください。|
-|109|リファラー `HTTP referer` はパートナーに対して許可されていません `Partner ID`|呼び出しの `HTTP referer` ヘッダーは、呼び出しのパートナーIDに対して許可されていません。 `HTTP referer` ヘッダーが正しいことを確認します。|
-|111|無効な `IMS` トークンを受け取りました| [!DNL Audience Manager] - [!DNL Adobe Target] 統合に対して返されました。 The error is thrown when a call is made to the [!DNL DCS], containing an invalid [!DNL IMS] token. トークンの形式が正しくないか、期限が切れているか、ユーザーが必要なリソースにアクセスする権限を持っていない可能性があります。|
+| エラーコード | エラーメッセージ | 説明 |
+|---|---|---|
+| 100 | Could not retrieve host name for the request | An [!DNL API] call did not send the host [!DNL HTTP] header in the request. 呼び出追加しに対するホストヘッダーを指定して、もう一度やり直してください。 Most browsers and [!DNL API] clients do this automatically. |
+| 101 | Invalid [!DNL Experience Cloud] id passed in `ID` | The [!DNL DCS] call contains an invalid [!DNL Experience Cloud] ID. ヘッダー文字列の `d_mid=` キー値ペアを確認してください。正しい [!DNL Experience Cloud] ID を渡していることを確認して、要求をもう一度試してください。 |
+| 102 | Invalid [!DNL AAM ID] passed in request `ID` | The [!DNL DCS] call contains an invalid [!DNL Audience Manager] ID. ヘッダー文字列の `d_uuid=` キー値ペアを確認してください。正しい [!DNL Audience Manager] ID を渡していることを確認して、要求をもう一度試してください。 |
+| 104 | すべての顧客IDが無効です | 呼び出しに含まれているすべての顧客 ID が無効です。ID を確認して、もう一度試してください。 |
+| 109 | リファラー `HTTP referer` はパートナーの `Partner ID` で使用できます。 | 呼び出しの `HTTP referer` ヘッダーは、呼び出しのパートナー ID では使用できません。`HTTP referer` ヘッダーが正しいことを確認します。 |
+| 111 | Invalid `IMS` token received | 返される対象 [!DNL Audience Manager] - [!DNL Adobe Target] 統合。 The error is thrown when a call is made to the [!DNL DCS], containing an invalid [!DNL IMS] token. トークンの形式が正しくないか有効期限が切れている、または要求したリソースにアクセスする権限をユーザーが持っていない可能性があります。 |
 
 ## オプトアウトエラーコード {#opt-out-error-codes}
 
