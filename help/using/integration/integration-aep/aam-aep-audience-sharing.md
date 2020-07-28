@@ -7,10 +7,10 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 75%
+source-wordcount: '1442'
+ht-degree: 55%
 
 ---
 
@@ -56,9 +56,17 @@ Audience Manager の特性とセグメントは、セグメントワークフロ
 
 ## Audience Manager の Adobe Experience Platform セグメント {#aep-segments-in-aam}
 
-Experience Platform で作成したセグメントは、次の構成ルールを使用し、特性とセグメントとして Audience Manager インターフェイスに表示されます。
+Experience Platformで作成したセグメントは、シグナル、特性およびセグメントとしてAudience Managerインターフェイスに表示され、次の組版規則が適用されます。
+
+* シグナル： 各Experience Platformセグメントについて、フォームにシグナルが表示され `segID = segment ID`ます。
 * 特性：特性ルールは、Experience Platform セグメントの ID です。
 * セグメント：このセグメントは、上記の特性で構成されます。
+
+### シグナル {#aep-segments-as-aam-signals}
+
+を選択 **[!UICONTROL Audience Data > Signals > General Online Data]** して、Experience Platformから来るシグナル `SegId` を探します。 この画面は、デバッグ目的で使用できます。この画面を使用して、Experience PlatformとAudience Managerの統合が正しく設定されているかどうかを確認できます。
+
+![シグナルダッシュボードのAudience ManagerでExperience Platformシグナルを参照](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
 ### 特性 {#aep-segments-as-aam-traits}
 
@@ -133,10 +141,38 @@ Audience ManagerとExperience Platformの間でオーディエンスを共有す
 
 ## Audience Manager と Experience Platform の間のセグメント母集団の違いの理解
 
-セグメント母集団の数は、Audience Manager と Experience Platform のセグメント間で異なる可能性があります。類似または同一のオーディエンスのセグメント数が近づくのに対して、母集団の違いは、次が原因となる可能性があります。
+セグメント母集団の数は、Audience Manager と Experience Platform のセグメント間で異なる可能性があります。類似または同一のオーディエンスのセグメント番号は近い値にする必要がありますが、訪問者数の違いは、次に示す要因が原因の場合があります。
 
-* セグメント化ジョブの実行回数。Audience Manager では、1 日 1 回インターフェイスの数を更新するセグメント化ジョブが実行されます。このジョブが Experience Platform のセグメント化ジョブと一致することはほとんどありません。
-* Audience Manager の[プロファイル結合ルール](/help/using/features/profile-merge-rules/merge-rules-overview.md)と Experience Platform の[結合ポリシー](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/ui/merge-policies.html)の動作は異なり、それぞれで使用される ID グラフは異なります。これにより、セグメント母集団間でのいくつかの違いが想定されます。
+### Experience Platformでのセグメントの評価
+
+Audience Managerは、インターフェイスのレポート番号を1日に1回更新します。   この更新のタイミングが、Experience Platformのセグメント評価の時間に合致することはほとんどありません。
+
+### プロファイルの結合ルールと結合ポリシーの違い
+
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Experience Platformの「Audience Manager」と「 [マージポリシー](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/ui/merge-policies.html) 」は異なる動作をし、それぞれに使用されるIDグラフは異なります。 これにより、セグメント母集団間でのいくつかの違いが想定されます。
+
+### Experience Platformでのセグメントの構成
+
+Adobe Experience PlatformとAudience Managerの統合は、すべての顧客に対して多くの標準 [ID名前空間](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) （標準ID）を共有します。 ECID、IDFA、GAID、ハッシュされた電子メールアドレス(EMAIL_LC_SHA256)、AdCloud IDなど。 Experience Platformセグメントで、資格を持つプロファイルの主要なIDとしてこれらのいずれかを使用している場合、プロファイルはAudience Managerの特性とセグメントでカウントされます。
+
+また、Audience Managerは、Experience Platformセグメントで使用するカスタムID名前空間の受信認証を登録できます。これは、そのIDとは異なるAudience Manager内に対応するデータソースが既に存在する場合に限られます。
+
+>[!NOTE]
+>
+> IDが生の電子メールをキーに設定しているExperience Platformのオーディエンスは、Audience Managerに表示されません。
+
+例えば、「すべての顧客」というExperience Platformセグメントがあり、資格を持つプロファイルがCRM ID、ECID、IDFA、生の電子メールアドレスおよびハッシュの電子メールアドレスの場合、Audience Manager内の対応するセグメントには、CRM ID、ECID、IDFAおよびハッシュされた電子メールアドレスのプロファイルのみが含まれます。 Audience Managerのセグメントの母集団は、Experience Platformのセグメントの母集団よりも小さくなります。
+
+![Audience Managerセグメントの共有に対するExperience Platform — セグメントの構成](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+
+<!--
+
+If you created a data source in Audience Manager for the CRM IDs in Experience Platform, then the qualified profiles keyed off those CRM IDs would appear in Audience Manager and the segment population in Audience Manager would increase.
+
+![AEP to AAM segment sharing - segment composition after creating a data source for CRM IDs in Audience Manager](/help/using/integration/integration-aep/assets/AEP-to-AAM-identities2.png)
+
+-->
+
 
 >[!MORELIKETHIS]
 >
