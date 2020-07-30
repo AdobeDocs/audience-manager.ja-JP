@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 67%
 
 ---
 
@@ -66,28 +66,45 @@ ht-degree: 100%
 
 [!UICONTROL Predictive Audiences] モデルは、いくつかの理由で結果の生成に失敗する可能性があります。
 
-1. 選択したペルソナの特性／セグメントに十分なユーザープロファイルがない。各ペルソナが少なくとも数百のユーザープロファイルを含むように特性またはセグメントを選択することをお勧めします。
-1. 選択したペルソナの特性／セグメントのユーザープロファイルに十分なデータがない（分析するのに十分な特性がない）。
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
 1. ターゲットオーディエンスの特性／セグメントに、過去 30 日以内のアクティブなユーザーやオンボーディングされたユーザーが含まれていなかった。
 1. 過去 30 日以内のアクティブまたはオンボーディングされたターゲットオーディエンスユーザーのユーザープロファイルに、十分なデータがない（分析するのに十分な特性がない）。
+1. ターゲットオーディエンスセグメントでは、モデルに対して選択したものとは異な [!UICONTROL Profile Merge Rule] る値が使用されます。
+1. ターゲットオーディエンス特性のデータソースが、モデルに選択したに含まれ [!UICONTROL Profile Merge Rule] ていない場合があります。
 
-適切な結果を生成するために、[!UICONTROL Predictive Audiences] アルゴリズムは、DCS で確認されるリアルタイムユーザーアクティビティに基づいて、特性およびセグメントの適合を評価します。まだ十分なユーザー数を含んでいない新しいベース特性およびセグメントを選択する場合、アルゴリズムによってオーディエンスが分類されるまで数日かかることがあります。
+To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. まだ十分なユーザー数を含んでいない新しいベース特性およびセグメントを選択する場合、アルゴリズムによってオーディエンスが分類されるまで数日かかることがあります。
 
 最適な結果を得るには、[ペルソナの選択条件](../features/algorithmic-models/predictive-audiences.md#selection-personas)および[ターゲットオーディエンスの選択条件](../features/algorithmic-models/predictive-audiences.md#selection-audience)に記載されている推奨ガイドラインに従ってください。
 
  
 
-**モデルがエラーステータスを示しているのはなぜですか？**
+**モデルにステータスが表示されるのはなぜで[!UICONTROL Error]すか。**
 
-モデルが実行に失敗しました。このような場合は、アドビの担当者にお問い合わせください。
+モデルが実行に失敗しました。In such cases, please reach out to your [!DNL Adobe] representative.
+
+ 
+
+**AのIDを変更するには、ど[!UICONTROL Profile Merge Rule]うすればよいでし[!UICONTROL Predictive Audiences]ょう[!UICONTROL segment]か。**
+
+以前のモデルと同じ人物およびターゲットオーディエンスを選択して、新しいモデルを作成します。 モデルの作成時に、別のを割り当て [!UICONTROL Profile Merge Rule]ます。
+
+>[!WARNING]
+> または、 [セグメントビルダーを使用して](../features/segments/segment-builder.md) 、既存の予測を使用し [!UICONTROL segment] たセグメントを手動で作成し、任意の予測を割り当てるこ [!UICONTROL trait][!UICONTROL Profile Merge Rule] ともできます。
+> 
+> ただし、予測は、その属するモデル [!UICONTROL traits] の継承を [!UICONTROL Profile Merge Rule] 自動的に行い、モデルの影響力に準拠したものから構築されるので、この方法 [!UICONTROL traits] はお勧めしません [!UICONTROL Profile Merge Rule] 。
 
  
 
-**Predictive Audiences セグメントのプロファイル結合ルールはどうしたら変更できますか？**
+**私は何[!UICONTROL Profile Merge Rule]を選べばいいですか？**
 
-[!UICONTROL Predictive Audiences] セグメントを複製して、複製したセグメントの [!UICONTROL Profile Merge Rule] を変更します。
+モデルに対してを選択 [!UICONTROL Profile Merge Rule] する場合は、使用事例を詳細に分析します。
 
- 
+ターゲットオーディエンスが、認証済みのプロファイルと [!UICONTROL segment] プロファイルに基づいて [!UICONTROL Profile Merge Rule] 値を使用し、予測に同じ値 [!DNL Device Graph] を選択したと [!UICONTROL Profile Merge Rule][!UICONTROL segments]します。 この場合、デバイスレベルとデバイス間のレベル [!UICONTROL traits] は、モデルのトレーニングや、ユーザーの予測への配置に使用され [!UICONTROL segment]ます。
+
+ただし、デバイスのプロファイルのみを基にしてを選択した場合、クロスデバイスに影響を与えるこ [!UICONTROL Profile Merge Rule] とはなく、ユーザーの予測への配置には貢献しません [!UICONTROL traits][!UICONTROL segment]。 これは、モデルの精度とリーチに悪影響を与える可能性があります。
+
+使用事例を慎重に分析し、モデルに学習させる [!UICONTROL trait] タイプと分類に使用するデータのタイプを決定します。
 
 **どのペルソナの特性／セグメントにも属さないターゲットオーディエンスのユーザーは、分類されないことがありますか？**
 
