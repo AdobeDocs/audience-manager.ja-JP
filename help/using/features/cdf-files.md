@@ -8,10 +8,10 @@ title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 90%
+source-wordcount: '1893'
+ht-degree: 89%
 
 ---
 
@@ -24,9 +24,13 @@ ht-degree: 90%
 
 [!UICONTROL CDF] ファイルには、[!DNL Audience Manager] イベント呼び出し（`/event`）でサーバーに送信されるデータと同じものが含まれています。This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. [!DNL Audience Manager] の内部システムがイベントデータを処理して [!UICONTROL CDF] ファイルを生成します。このファイルの内容は、所定の順序で出現するフィールドで構成されます。[!DNL Audience Manager] は、時間ごとに [!UICONTROL CDF] ファイルの生成を試み、[!DNL Amazon S3] サーバー上のセキュリティで保護された顧客専用バケットにファイルを保存します。これらのファイルが提供されているのは、ユーザーインターフェイス上の制限を受けずに [!DNL Audience Manager] データを扱えるようにするためです。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->ページトラフィックの監視、レポートの相違点の調整、請求などの代わりに [!UICONTROL CDF] ファイルを使用しないでください。
+>CDFファイルを使用する場合は、次の制限事項に注意してください。
+>
+>* CDFファイル配信を設定する前に、サードパーティのデータプロバイダーから、サードパーティの特性のエクスポートに関する適切な権限を持っていることを確認してください。
+>* ページトラフィックの監視、レポートの相違点の調整、請求などの代わりに [!UICONTROL CDF] ファイルを使用しないでください。
+
 
 ## はじめに {#getting-started}
 
