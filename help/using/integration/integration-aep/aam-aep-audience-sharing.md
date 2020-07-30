@@ -7,7 +7,7 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 54%
@@ -139,7 +139,7 @@ Audience ManagerとExperience Platformの間でオーディエンスを共有す
 | This destination may be used for on-site ad targeting | オンサイト広告 |
 | This destination may be used for on-site ad personalization | オンサイトパーソナライゼーション |
 
-## Audience Manager と Experience Platform の間のセグメント母集団の違いの理解
+## Audience Manager と Experience Platform の間のセグメント母集団の違いの理解 {#aep-aam-segment-population-differences}
 
 セグメント母集団の数は、Audience Manager と Experience Platform のセグメント間で異なる可能性があります。類似または同一のオーディエンスのセグメント番号は近い値にする必要がありますが、訪問者数の違いは、次に示す要因が原因の場合があります。
 
