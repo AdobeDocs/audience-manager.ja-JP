@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29a2e0ec7859bec5658218fb5095b7bac74a3371
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Audience Manager には、[!UICONTROL Predictive Audiences] に関する色分�
 
 ペルソナのすべての Influential Traits を表示するには、[!UICONTROL View All Influential Traits] をクリックします。
 
-[!UICONTROL Influential Traits] ウィンドウには、選択したモデルのペルソナごとに、次の情報が表示されます。
+The [!UICONTROL Influential Traits] window shows you the following information, for each persona from the selected model:
 
 ![influential-traits](assets/predictive-audiences-influential-traits.png)
 
