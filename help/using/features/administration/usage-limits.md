@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: aa583c0f2f8883249d7e8038b7bf2fb4c8951962
+source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '574'
 ht-degree: 95%
 
 ---
@@ -69,7 +69,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | [!UICONTROL Look-Alike Models] 最大オーディエンスサイズ | 25,000,000  の限度を引き上げることはできません。オーディエンスのサイズを小さくするには、モデルに対して少ないデータソースを選択するか、短いルックバック期間を選択します。 |
 | Maximum number of excluded traits for a [!UICONTROL Look-Alike Model] | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | ナキシム [!UICONTROL Predictive Audiences Models] | 10 |
-| モ [!UICONTROL Predictive Audiences] デルのベースラインの人数の上限 | 50 |
+| 基準となる人の最大数 [!UICONTROL Predictive Audiences Models] | 50 |
 
 ### フォルダーの限度
 
