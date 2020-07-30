@@ -8,10 +8,10 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aa583c0f2f8883249d7e8038b7bf2fb4c8951962
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 95%
 
 ---
 
@@ -65,9 +65,11 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 
 | 項目 | 上限 |
 | -------- | ----- |
-| アクティブなアルゴリズムモデル | 20. Audience Manager は&#x200B;*アクティブ*&#x200B;なアルゴリズムモデルのみを制限としてカウントするようになりました。 |
-| アルゴリズムモデルの最大オーディエンスサイズ | 25,000,000  の限度を引き上げることはできません。オーディエンスのサイズを小さくするには、モデルに対して少ないデータソースを選択するか、短いルックバック期間を選択します。 |
-| モデルの最大除外特性数 | 500[アルゴリズムモデリングにおける特性の除外](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)を参照してください。 |
+| Active [!UICONTROL Look-Alike Models] | 20. Audience Manager は&#x200B;*アクティブ*&#x200B;なアルゴリズムモデルのみを制限としてカウントするようになりました。 |
+| [!UICONTROL Look-Alike Models] 最大オーディエンスサイズ | 25,000,000  の限度を引き上げることはできません。オーディエンスのサイズを小さくするには、モデルに対して少ないデータソースを選択するか、短いルックバック期間を選択します。 |
+| Maximum number of excluded traits for a [!UICONTROL Look-Alike Model] | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| ナキシム [!UICONTROL Predictive Audiences Models] | 10 |
+| モ [!UICONTROL Predictive Audiences] デルのベースラインの人数の上限 | 50 |
 
 ### フォルダーの限度
 
