@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 94%
 
 ---
 
@@ -39,9 +39,10 @@ ht-degree: 100%
    ![smart-persona-select-audience](assets/predictive-audiences-audience.png)
 1. オーディエンスを選択したら、「**[!UICONTROL Next]**」をクリックします。
 1. モデルの詳細を入力します。
-   1. **[!UICONTROL Model Name]**：後で識別するのに役立つ、モデルのわかりやすい名前を入力します。モデルによって生成されたセグメントの名前の先頭には、モデルの名前が付きます。
-   2. **[!UICONTROL Description]**：ユースケースを識別するのに役立つ、モデルの説明を入力します。
-   3. **[!UICONTROL Data Source]**：このモデルからの [!UICONTROL Predictive Audiences] セグメントを割り当てるファーストパーティデータソースを選択します。
+   * **[!UICONTROL Model Name]**：後で識別するのに役立つ、モデルのわかりやすい名前を入力します。モデルによって生成されたセグメントの名前の先頭には、モデルの名前が付きます。
+   * **[!UICONTROL Description]**：ユースケースを識別するのに役立つ、モデルの説明を入力します。
+   * **[!UICONTROL Data Source]**：このモデルからの [!UICONTROL Predictive Audiences] セグメントを割り当てるファーストパーティデータソースを選択します。
+   * **[!UICONTROL Profile Merge Rule]**: このモデル [!UICONTROL Profile Merge Rule] で作成されるすべての予測に割り当てる対象を選択 [!UICONTROL segments] します。 選択したターゲットオーディエンスが「」の場合 [!UICONTROL segment]は、同じターゲットオーディエンス [!UICONTROL Profile Merge Rule] を選択することをお勧めします。
       ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. 「**[!UICONTROL Save]**」をクリックします。
 
