@@ -8,10 +8,10 @@ title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
+source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
 workflow-type: tm+mt
-source-wordcount: '1893'
-ht-degree: 89%
+source-wordcount: '1922'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 89%
 >
 >CDFファイルを使用する場合は、次の制限事項に注意してください。
 >
->* CDFファイル配信を設定する前に、サードパーティのデータプロバイダーから、サードパーティの特性のエクスポートに関する適切な権限を持っていることを確認してください。
+>* CDFファイル配信を設定する前に、サードパーティのデータプロバイダーから、サードパーティの特性のエクスポートに関する適切な権限を持っていることを確認してください。 Audience Managerは、現在、CDFファイル・配信の書き出し権限をサード・パーティのデータ・プロバイダから要求するユーザー・インタフェースの機能をサポートしていないため、各プロバイダに個別に連絡してください。
 >* ページトラフィックの監視、レポートの相違点の調整、請求などの代わりに [!UICONTROL CDF] ファイルを使用しないでください。
 
 
