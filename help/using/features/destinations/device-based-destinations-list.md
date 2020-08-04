@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1116'
 ht-degree: 87%
 
 ---
@@ -84,7 +84,6 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL FreakOut] | 2017/03/03 | 1 回/日 | ○ | × | × | × |
 | [!DNL Freewheel] | 2017/02/27 | 1 回/日 | ○ | ○ | × | ○ |
 | [!DNL Gamut Media] | 2017/03/03 | リアルタイム |  | × | × |  |
-| [!DNL Google AdsWords Display] | 2018/08/02 | リアルタイム | ○ | ○ | × | ○ |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 2017/04/24 | リアルタイム | ○ | ○ | ○ | ○ |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 2017/04/24 | リアルタイム | ○ | ○ | ○ | ○ |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 2017/04/24 | リアルタイム | ○ | ○ | ○ | ○ |
