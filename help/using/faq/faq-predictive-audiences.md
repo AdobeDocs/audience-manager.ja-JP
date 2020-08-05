@@ -5,11 +5,11 @@ seo-title: Predictive Audiences に関する FAQ
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 67%
 
  
 
-**[!UICONTROL Look-alike modeling]に対して、[!UICONTROL Predictive Audiences]はいつ使用する必要がありますか？**
+**[!UICONTROL Look-alike modeling] に対して、[!UICONTROL Predictive Audiences] はいつ使用する必要がありますか？**
 
 [!UICONTROL Predictive Audiences] と [!UICONTROL Look-alike modeling] では、異なるユースケースを提供します。2 つのアルゴリズムの主な違いを次に示します。
 
@@ -40,7 +40,7 @@ ht-degree: 67%
 
  
 
-**[!UICONTROL Predictive Audiences]セグメントから新しいセグメントを構築するにはどうしたらいいですか？**
+**[!UICONTROL Predictive Audiences] セグメントから新しいセグメントを構築するにはどうしたらいいですか？**
 
 **[!UICONTROL Audience Data]**／**[!UICONTROL Segments]** に移動して、**[!UICONTROL Predictive Audiences]** フォルダーをクリックします。目的のセグメントを見つけて、複製し、必要に応じて編集します。
 
@@ -66,45 +66,45 @@ ht-degree: 67%
 
 [!UICONTROL Predictive Audiences] モデルは、いくつかの理由で結果の生成に失敗する可能性があります。
 
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
+1. 選択したペルソナの [!UICONTROL traits]／[!UICONTROL segments] に十分なユーザープロファイルがない。各ペルソナが少なくとも数百のユーザープロファイルを含むように [!UICONTROL traits] または [!UICONTROL segments] を選択することをお勧めします。
+1. 選択したペルソナの [!UICONTROL traits]／[!UICONTROL segments] のユーザープロファイルに十分なデータがない（分析するのに十分な特性がない）。
 1. ターゲットオーディエンスの特性／セグメントに、過去 30 日以内のアクティブなユーザーやオンボーディングされたユーザーが含まれていなかった。
 1. 過去 30 日以内のアクティブまたはオンボーディングされたターゲットオーディエンスユーザーのユーザープロファイルに、十分なデータがない（分析するのに十分な特性がない）。
-1. ターゲットオーディエンスセグメントでは、モデルに対して選択したものとは異な [!UICONTROL Profile Merge Rule] る値が使用されます。
-1. ターゲットオーディエンス特性のデータソースが、モデルに選択したに含まれ [!UICONTROL Profile Merge Rule] ていない場合があります。
+1. ターゲットオーディエンスセグメントでは、モデルに対して選択したものとは異なる [!UICONTROL Profile Merge Rule] が使用されます。
+1. ターゲットオーディエンス特性のデータソースが、モデルに選択した [!UICONTROL Profile Merge Rule] に含まれていない場合があります。
 
-To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. まだ十分なユーザー数を含んでいない新しいベース特性およびセグメントを選択する場合、アルゴリズムによってオーディエンスが分類されるまで数日かかることがあります。
+適切な結果を生成するために、[!UICONTROL Predictive Audiences] アルゴリズムは、[!DNL DCS] で確認されるリアルタイムユーザーアクティビティに基づいて、特性およびセグメントの適合を評価します。まだ十分なユーザー数を含んでいない新しいベース特性およびセグメントを選択する場合、アルゴリズムによってオーディエンスが分類されるまで数日かかることがあります。
 
 最適な結果を得るには、[ペルソナの選択条件](../features/algorithmic-models/predictive-audiences.md#selection-personas)および[ターゲットオーディエンスの選択条件](../features/algorithmic-models/predictive-audiences.md#selection-audience)に記載されている推奨ガイドラインに従ってください。
 
  
 
-**モデルにステータスが表示されるのはなぜで[!UICONTROL Error]すか。**
+**モデルが [!UICONTROL Error] ステータスを示しているのはなぜですか？**
 
-モデルが実行に失敗しました。In such cases, please reach out to your [!DNL Adobe] representative.
+モデルが実行に失敗しました。このような場合は、[!DNL Adobe] の担当者にお問い合わせください。
 
  
 
-**AのIDを変更するには、ど[!UICONTROL Profile Merge Rule]うすればよいでし[!UICONTROL Predictive Audiences]ょう[!UICONTROL segment]か。**
+**[!UICONTROL Predictive Audiences] [!UICONTROL segment] の [!UICONTROL Profile Merge Rule] の変更の仕方を教えてください。**
 
-以前のモデルと同じ人物およびターゲットオーディエンスを選択して、新しいモデルを作成します。 モデルの作成時に、別のを割り当て [!UICONTROL Profile Merge Rule]ます。
+以前のモデルと同じ人物およびターゲットオーディエンスを選択して、新しいモデルを作成します。モデルの作成時に、別の [!UICONTROL Profile Merge Rule] を割り当てます。
 
 >[!WARNING]
-> または、 [セグメントビルダーを使用して](../features/segments/segment-builder.md) 、既存の予測を使用し [!UICONTROL segment] たセグメントを手動で作成し、任意の予測を割り当てるこ [!UICONTROL trait][!UICONTROL Profile Merge Rule] ともできます。
+> または、[セグメントビルダー](../features/segments/segment-builder.md)を使用して、既存の予測 [!UICONTROL trait] で [!UICONTROL segment] を手動で作成し、それに任意の [!UICONTROL Profile Merge Rule] を割り当てることができます。
 > 
-> ただし、予測は、その属するモデル [!UICONTROL traits] の継承を [!UICONTROL Profile Merge Rule] 自動的に行い、モデルの影響力に準拠したものから構築されるので、この方法 [!UICONTROL traits] はお勧めしません [!UICONTROL Profile Merge Rule] 。
+> ただし、予測 [!UICONTROL traits] は所属するモデルの [!UICONTROL Profile Merge Rule] を自動的に継承し、モデルの [!UICONTROL Profile Merge Rule] に準拠する影響力のある [!UICONTROL traits] から構築されるため、この方法はお勧めしません。
 
  
 
-**私は何[!UICONTROL Profile Merge Rule]を選べばいいですか？**
+**何 [!UICONTROL Profile Merge Rule] を選ぶべきか教えてください。**
 
-モデルに対してを選択 [!UICONTROL Profile Merge Rule] する場合は、使用事例を詳細に分析します。
+モデルに対して [!UICONTROL Profile Merge Rule] を選択する場合は、使用例を詳細に分析します。
 
-ターゲットオーディエンスが、認証済みのプロファイルと [!UICONTROL segment] プロファイルに基づいて [!UICONTROL Profile Merge Rule] 値を使用し、予測に同じ値 [!DNL Device Graph] を選択したと [!UICONTROL Profile Merge Rule][!UICONTROL segments]します。 この場合、デバイスレベルとデバイス間のレベル [!UICONTROL traits] は、モデルのトレーニングや、ユーザーの予測への配置に使用され [!UICONTROL segment]ます。
+ターゲットオーディエンス [!UICONTROL segment] が、認証済みのプロファイルと [!DNL Device Graph] プロファイルに基づいた [!UICONTROL Profile Merge Rule] を使用し、予測 [!UICONTROL segments] に同じ [!UICONTROL Profile Merge Rule] を選択したとします。この場合、デバイスレベルとクロスデバイスレベル [!UICONTROL traits] は、モデルのトレーニングや、ユーザーの予測 [!UICONTROL segment] への配置に使用されます。
 
-ただし、デバイスのプロファイルのみを基にしてを選択した場合、クロスデバイスに影響を与えるこ [!UICONTROL Profile Merge Rule] とはなく、ユーザーの予測への配置には貢献しません [!UICONTROL traits][!UICONTROL segment]。 これは、モデルの精度とリーチに悪影響を与える可能性があります。
+ただし、デバイスのプロファイルのみを基にして [!UICONTROL Profile Merge Rule] を選択した場合、クロスデバイス [!UICONTROL traits] に影響を与えることはなく、ユーザーの予測 [!UICONTROL segment] への配置には貢献しません 。これは、モデルの精度とリーチに悪影響を与える可能性があります。
 
-使用事例を慎重に分析し、モデルに学習させる [!UICONTROL trait] タイプと分類に使用するデータのタイプを決定します。
+使用例を慎重に分析し、モデルに学習させる [!UICONTROL trait] タイプと分類に使用するデータのタイプを決定します。
 
 **どのペルソナの特性／セグメントにも属さないターゲットオーディエンスのユーザーは、分類されないことがありますか？**
 
@@ -112,7 +112,7 @@ To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm eva
 
  
 
-**予測セグメントのいずれかに分類されたユーザーは、異なる[!UICONTROL Predictive Audiences]セグメントに分類できますか？**
+**予測セグメントのいずれかに分類されたユーザーは、異なる [!UICONTROL Predictive Audiences] セグメントに分類できますか？**
 
 はい。アルゴリズムは、日々学習を重ねるので、特性スコアに関して各ペルソナに変更が適用されます。[!UICONTROL Predictive Audiences] セグメントに属するユーザーがアクティブである場合、その特性スコアの変更により、過去 30 日間のアクティビティに基づいて分類が変更される可能性があります。
 
