@@ -7,7 +7,7 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
+source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 54%
@@ -114,8 +114,10 @@ Experience Platformでのデータ使用量のコンプライアンスを強化�
 
 Audience ManagerとExperience Platformの間でオーディエンスを共有するプロセスでは、Audience Managerセグメントに適用されたデータエクスポートコントロールは、Experience Platformデータガバナンスで認識される同等のラベルやマーケティングアクションに変換されます。
 
->[!NOTE] データエクスポートコントロールの詳細については、『 [データエクスポートコントロール』のドキュメントを参照してください](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-export-controls.html)。
-このドキュメントでは、特定のAudience Managerデータのエクスポートコントロールを、Platformのデータ使用ラベルおよびマーケティングアクションにどのようにマッピングするかについて説明します。
+>[!NOTE]
+>
+>データエクスポートコントロールの詳細については、『 [データエクスポートコントロール』のドキュメントを参照してください](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-export-controls.html)。
+このドキュメントでは、特定のAudience Managerデータのエクスポートコントロールを、プラットフォームのデータ使用ラベルおよびマーケティングアクションにどのようにマッピングするかについて説明します。
 
 ### データ使用ラベルに対するデータエクスポートコントロール
 
