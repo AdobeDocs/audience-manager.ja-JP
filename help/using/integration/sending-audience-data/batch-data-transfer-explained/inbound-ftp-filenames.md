@@ -7,9 +7,9 @@ title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '894'
 ht-degree: 94%
 
 ---
@@ -35,7 +35,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 使用可能なその他のファイル名の形式については、[カスタムパートナー統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)を参照してください。
 
->[!NOTE] {importance=&quot;high&quot;}
+>[!NOTE]
 >
 >[!DNL Audience Manager] は、[!DNL ASCII] と [!DNL UTF-8] でエンコードされたファイルのみを処理します。
 
