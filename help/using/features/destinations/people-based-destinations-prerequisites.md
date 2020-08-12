@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 前提条件と考慮事項
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: 2e32f9ebff487ae8dfb2088ec1bbfcea1daa00a1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 91%
+source-wordcount: '1015'
+ht-degree: 86%
 
 ---
 
@@ -49,6 +49,14 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
 [!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、「[広告アカウントのユーザー権限の追加、編集、削除](https://www.linkedin.com/help/lms/answer/5753)」を参照してください。 」を参照してください。
 
 ビデオの [手順については、「LinkedInの人ベースの宛先についてと設定](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) 」を参照してください。
+
+### [!DNL Google Customer Match]
+
+を使用してファーストパーティオーディエンスセグメント [!UICONTROL People-Based Destinations] を [!DNL Google Customer Match] 送信先に送信する前に、をファーストパーティ許可リストに追加す [!DNL Google] る必要があります。
+
+データ [!DNL Google] ドキュメントのアップロードは、担当者に問い合わせて、「 [Use Customer Match partners」に記載されている許可リストの手順に従って行います](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507)[!DNL Google] 。
+
+このプロセスが完了したら、を作成でき [!UICONTROL People-Based Destination]ます。
 
 ## データオンボーディング {#data-onboarding}
 
