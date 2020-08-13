@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 前提条件と考慮事項
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 2e32f9ebff487ae8dfb2088ec1bbfcea1daa00a1
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 86%
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 ## パートナー固有の前提条件 {#partner-prerequisites}
 
-### [!DNL Facebook]
+### [!DNL Facebook] {#facebook}
 
 Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience [!UICONTROL segments] to [!DNL Facebook], make sure you meet the following requirements:
 
@@ -42,7 +42,7 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
    > Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!UICONTROL People-Based Destinations] 統合に必要です。
 3. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
 
-### [!DNL LinkedIn]
+### [!DNL LinkedIn] {#linkedin}
 
 [!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL LinkedIn] に送信する前に、お客様の [!DNL LinkedIn Campaign Manager] アカウントが [!DNL Creative Manager] 以上の権限レベルであることを確認してください。
 
@@ -50,7 +50,7 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
 
 ビデオの [手順については、「LinkedInの人ベースの宛先についてと設定](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) 」を参照してください。
 
-### [!DNL Google Customer Match]
+### [!DNL Google Customer Match] {#gcm}
 
 を使用してファーストパーティオーディエンスセグメント [!UICONTROL People-Based Destinations] を [!DNL Google Customer Match] 送信先に送信する前に、をファーストパーティ許可リストに追加す [!DNL Google] る必要があります。
 
