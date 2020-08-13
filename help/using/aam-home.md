@@ -7,10 +7,10 @@ title: Audience Manager の製品マニュアル
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 99%
 
 ---
 
@@ -160,10 +160,10 @@ ht-degree: 100%
      <br> 
      <p> <b>最新の機能</b> </p> <p> 
      Audience Manager の最新機能については、以下を参照してください。</p>
-     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0 用 Audience Manager プラグイン</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
+     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Googleによる訪問者ベースのリンク先との一致</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0 用 Audience Manager プラグイン</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">カリフォルニア州消費者プライバシー法（CCPA）のサポートとプライバシーに関するドキュメントの調査</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Adobe Sensei を駆使した、Audience Marketplace データのインテリジェントなレコメンデーション</a></li>
-     <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">プロファイル結合ルールの強化</a></li></ul><p>
+     </ul><p>
     </td>
   </tr> 
  </tbody> 
