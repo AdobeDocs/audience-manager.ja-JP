@@ -7,7 +7,7 @@ title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 94%
@@ -82,7 +82,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i></code>] </p> </td> 
+   <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i>]</code> </p> </td> 
    <td colname="col2"> <p>整数。大きなファイルを複数に分割して処理時間を短縮する場合に使用します。数は、送信している元のファイルのどの部分かを示します。 </p> <p>ファイル処理を効率的に実行するために、データファイルを次のように分割します。 </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">圧縮なし：1 GB </li> 
