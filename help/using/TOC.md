@@ -3,9 +3,10 @@ product: audience-manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
+user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: edeb7dba1cb83e19a910812d2d0a664a288b884a
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 100%
