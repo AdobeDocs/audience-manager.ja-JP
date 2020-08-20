@@ -8,10 +8,10 @@ title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 81%
+source-wordcount: '1187'
+ht-degree: 80%
 
 ---
 
@@ -62,7 +62,7 @@ Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]
 [!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] は、内でオプトアウトを受け渡すこと [!UICONTROL declared ID] ができ [!DNL Audience Manager][!UICONTROL UUID][!DNL URL]ます。
-* [!UICONTROL declared ID] のオプトアウトは、パートナーごとにプロファイルキャッシュサーバー（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。Additionally, [!DNL Audience Manager] opts the user out from that particular region on the edge (the opt-out does not cross [!DNL DCS] regions).
+* オプトア [!UICONTROL declared ID] ウトは、パートナーごとに [!UICONTROL Profile Cache Server] ([!UICONTROL PCS])に保存されます。 [!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。Additionally, [!DNL Audience Manager] opts the user out from that particular region on the edge (the opt-out does not cross [!DNL DCS] regions).
 
 データ収集のオプトアウトについて詳しくは、[データのプライバシー](../overview/data-security-and-privacy/data-privacy.md)を参照してください。
 
