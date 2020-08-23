@@ -7,9 +7,9 @@ title: ログファイル転送のための転送制御ファイル
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 100%
 }
 ```
 
->[注意]
+>[!NOTE]
 >
 > バッチの合計数からは、[!DNL .info] ファイル自体は除外されます。つまり、合計数には、[!DNL .info] ファイル、そのバイトサイズまたは行数は含まれません。
 >
