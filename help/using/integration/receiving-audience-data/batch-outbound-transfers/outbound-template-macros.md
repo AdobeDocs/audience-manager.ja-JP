@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>開き波括弧 { を挿入します。 </p> </td> 
+   <td colname="col2"> <p>Inserts an open curly bracket <code>{</code> character. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
