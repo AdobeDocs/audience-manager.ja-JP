@@ -25,7 +25,7 @@ ht-degree: 100%
 
 使用可能な `POST` メソッドでは、[!UICONTROL URL] および [!UICONTROL cookie destinations]のみを作成できます。現在は、[!DNL REST API] メソッドで [!UICONTROL server-to-server destinations] を使用できます。ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
 
-## 非シリアル URL 宛先{#create-nonserial-dest}の作成 
+## 非シリアル URL 宛先の作成 {#create-nonserial-dest}
 
 単一のキーと値のペア（例：`gender=male` や `gender=female`）で構成されるセグメントを受け入れる宛先を作成できる `POST` メソッド。
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 } 
 ```
 
-## シリアル化 URL 宛先{#create-serial-url-dest}の作成 
+## シリアル化 URL 宛先の作成 {#create-serial-url-dest}
 
 単一のキーに関連付けられた複数の値（例：`color=blue, red, green`）を受け入れる宛先を作成できる `POST` メソッド。
 
