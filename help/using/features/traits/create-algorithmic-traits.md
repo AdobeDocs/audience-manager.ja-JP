@@ -30,7 +30,7 @@ ht-degree: 100%
 1. モデルを選択して、**[!UICONTROL Add Selected Model to Trait]**&#x200B;をクリックします。モデルを追加すると、リーチと精度の設定が表示されます。
 1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。終了したら、「**[!UICONTROL Save]**」をクリックします。
 
-## アルゴリズム特性{#configure-settings}の設定 
+## アルゴリズム特性の設定 {#configure-settings}
 
 [!UICONTROL Trait Builder]の「[!UICONTROL Configuration]」セクションを使用すると、アルゴリズムモデルを特性に関連付けることができます。アルゴリズム特性の作成プロセスを完了するには、モデルを選択し、リーチまたは精度の目標を選びます。
 
