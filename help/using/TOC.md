@@ -285,7 +285,7 @@ ht-degree: 100%
 + 実装および統合ガイド {#implementation-integration-guides}
    + [実装および統合ガイド](integration/implementation-and-integration.md)
    + [データ統合方法](integration/data-integration-methods.md)
-   + Google Publisher Tags（GPT）を使用した Google Ad Manager の統合{#integrate-dfp-using-gpt}
+   + Google Publisher Tags（GPT）を使用した Google Ad Manager の統合 {#integrate-dfp-using-gpt}
       + [GPT を使用した Google Ad Manager の統合 - 概要](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [GPT を使用した Google Ad Manager へのセグメントの送信](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 宛先の作成](integration/gpt-aam-destination/gpt-aam-create-destination.md)
