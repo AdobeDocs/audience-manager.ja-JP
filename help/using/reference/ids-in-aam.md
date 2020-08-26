@@ -8,10 +8,10 @@ title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 56%
+source-wordcount: '943'
+ht-degree: 54%
 
 ---
 
@@ -56,5 +56,5 @@ While you can refer to most of these IDs by their standalone names, most of them
 | [!DNL GAID] | 20914 | [!DNL Google Advertising ID] はモバイルデバイス識別子で、Android デバイスの製造元により設定されます。これらの ID は [!DNL Android] オペレーティングシステムを使用するデバイスを表します。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`e4fe9bde-caa0-47b6-908d-ffba3fa184f2`。 |
 | [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] は、[!DNL Roku] ストリーミングデバイスを表します。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`fcb2a29c-315a-5e6b-bcfd-d889ba19aada`。 |
 | [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID] は、デバイスごと、ユーザーごとに [!DNL Windows 10] で生成されるデバイス識別子です。 | [!DNL MAID] は英数字の形式です。 |
-| [!DNL DUID] | 404660 | [!DNL Samsung DUID][!DNL Samsung] は、 Smart TV が提供するデバイス識別子です。 | [!DNL Samsung][!DNL DUID] は英数字の形式です。 |
+| [!DNL TIFA] | 963906 | [!DNL Samsung Tizen IDs for Advertising] は、 [!DNL Samsung] Smart TVが提供するデバイス識別子です。 | [!DNL Samsung] [!DNL TIFA] IDは英数字の文字列として形式設定されます。 |
 | [!DNL Amazon Fire TV Advertising ID] | 488258 | [!DNL Fire OS] オペレーティングシステムを実行しているデバイスを表すデバイス識別子。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`df07c7dc-cea7-4a89-b328-810ff5acb15d` |
