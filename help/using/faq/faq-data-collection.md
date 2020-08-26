@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: a1e95f421b725cc93fbedc4c001e34e4291bf828
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 100%
+source-wordcount: '1151'
+ht-degree: 91%
 
 ---
 
@@ -21,12 +21,6 @@ ht-degree: 100%
 データ収集と統合に関するよくある質問と問題点の説明です。
 
 <br> 
-
-<!-- 
-
-faq_data_collection_integration.xml
-
- -->
 
 **書き出した[!DNL DCS]ログファイルで受信トラフィックを[!DNL DCS]トラフィックと区別するには、どうすればよいですか？**
 
@@ -42,18 +36,39 @@ faq_data_collection_integration.xml
 
 残念ながら、できません。これらの IP は、[!DNL Amazon Web Services] により地域ごとに動的に割り当てられます。結果的に、[!DNL Audience Manager] では、このアドレスに割り当てることができる IP の範囲を管理していません。
 
-<br> 
+ 
 
-**インバウンドおよびアウトバウンド sFTP サーバーの許可リストに追加できる IP アドレスを教えてください。**
+**受信および送信SFTPサーバー用の許可リストに追加できるIPアドレスを私に提供していただけますか。**
 
 はい、以下を参照してください。
 
-| 項目 | アドレス |
+| サーバー | IP アドレス |
+| ---------|----------|
+| ftp-in-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
+| ftp-out-gtw.demdex.com | 3.233.68.222; 52.3.74.119 |
+
+ 
+
+以下のSFTPサーバーは非推奨です。 これらのサーバーを使用して新しいアカウントをプロビジョニングすることはできません。
+
+| サーバー | IP アドレス |
 ---------|----------|
 | ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 
-<br> 
+ 
+
+**新しいSFTPサーバーを使用するようにAudience Managerインスタンスを設定する方法を教えてください。**
+
+担当の [!DNL Audience Manager] コンサルタントまたはカスタマーケアに問い合わせて、新しいSFTPアカウントを設定します。
+
+ 
+
+**新しいSFTPサーバーでサポートされている認証方法を教えてください。**
+
+新しいSFTPサーバー(`ftp-in-gtw` および `ftp-out-gtw`)がサポートされ [!DNL OpenSSH Key-Based Authentication]ます。 お客様の [!DNL SSH] キーを生成するか、独自の公開鍵をお客様に提供していただけます。
+
+ 
 
 **[!UICONTROL DIL]／[!DNL Analytics]データ統合のコード配置とページ読み込みの要件を教えてください。**
 
@@ -73,7 +88,7 @@ faq_data_collection_integration.xml
 
 詳しくは、[データ統合ライブラリ（DIL）API](../dil/dil-overview.md) を参照してください。
 
-<br> 
+ 
 
 **[!DNL Analytics]変数が[!DNL Audience Manager]イベント呼び出しに含まれていないのはなぜですか？**
 
@@ -82,7 +97,7 @@ faq_data_collection_integration.xml
 * ページ上の他のコード要素を使用して DIL を非同期的に読み込むタグ管理システムを通じて、[!UICONTROL DIL] を提供している。
 * `s.t()` より先に [!UICONTROL DIL] 関数が読み込まれている。
 
-<br> 
+ 
 
 **[!UICONTROL DIL]に対応している[!DNL Analytics]のバージョンは何ですか？**
 
