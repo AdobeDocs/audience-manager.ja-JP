@@ -6,9 +6,9 @@ solution: Audience Manager
 title: サーバー間宛先のセグメントの追加または編集
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 55925e803e16580e0d9357d973405cf39370a8fd
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # サーバー間宛先のセグメントの追加または編集 {#add-edit-segments}
 
-サーバー間（[!DNL S2S]）の宛先については、セグメントの追加または編集のみできます。[!UICONTROL [Destination Builder](/help/using/features/destinations/destination-builder.md)] で [!DNL S2S] の宛先を作成することはできません。[!DNL S2S] の宛先をセットアップする場合は、担当のコンサルタントにお問い合わせください。[!DNL S2S] の宛先のセグメントを追加または編集するには、以下の手順に従います。
+サーバー間（[!DNL S2S]）の宛先については、セグメントの追加または編集のみできます。[[!UICONTROL Destination Builder]](/help/using/features/destinations/destination-builder.md)で [!DNL S2S] の宛先を作成することはできません。[!DNL S2S] の宛先をセットアップする場合は、担当のコンサルタントにお問い合わせください。[!DNL S2S] の宛先のセグメントを追加または編集するには、以下の手順に従います。
 
 <!-- destination-s2s-edit.xml -->
 
