@@ -6,7 +6,7 @@ solution: Audience Manager
 title: グローバルデータソース
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
+source-git-commit: cb84f95d52c2e851cb0c016cb25f408f2d79d01b
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 92%
@@ -28,7 +28,7 @@ ht-degree: 92%
 | 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** IDは、オペレーティングシステムを実行するデバイス [!DNL iOS] を表します。 |
 | 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** IDは、ストリーミ [!DNL Roku] ングデバイスを表します。 |
 | 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** IDは、オペレーティング・システムを実行しているデバイスを表 [!DNL Windows 10] します。 |
-| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** IDは、スマー [!DNL Samsung] トテレビを表します。 |
+| 963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** IDは、スマー [!DNL Samsung] トテレビを表します。 |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** 実行中のデバイスを表す [!DNL Amazon Fire OS] |
 
 ## グローバルデータソースからのデータのインポート
