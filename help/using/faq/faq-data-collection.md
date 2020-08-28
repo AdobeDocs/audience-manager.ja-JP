@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: a292f44a63aa1e627d75d37c9ff0c1489f160729
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 91%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 <br> 
 
-**書き出した[!DNL DCS]ログファイルで受信トラフィックを[!DNL DCS]トラフィックと区別するには、どうすればよいですか？**
+**書き出した [!DNL DCS] ログファイルで受信トラフィックを [!DNL DCS] トラフィックと区別するには、どうすればよいですか？**
 
 [!UICONTROL Inbound] を通じてオンボーディングされる特性は、[!DNL DCS] で生成されるのと同じように [!UICONTROL Inbound] で生成されます。[!UICONTROL Inbound] を識別するには、次のように、いくつか異なる方法があります。
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 
  
 
-**受信および送信SFTPサーバー用の許可リストに追加できるIPアドレスを私に提供していただけますか。**
+**インバウンドおよびアウト SFTP サーバーの許可リストに追加できる IP アドレスを教えてください。**
 
 はい、以下を参照してください。
 
@@ -49,7 +49,7 @@ ht-degree: 91%
 
  
 
-以下のSFTPサーバーは非推奨です。 これらのサーバーを使用して新しいアカウントをプロビジョニングすることはできません。
+以下の SFTP サーバーは非推奨です。これらのサーバーを使用して新しいアカウントをプロビジョニングすることはできません。
 
 | サーバー | IP アドレス |
 ---------|----------|
@@ -58,19 +58,19 @@ ht-degree: 91%
 
  
 
-**新しいSFTPサーバーを使用するようにAudience Managerインスタンスを設定する方法を教えてください。**
+**新しい SFTP サーバーを使用するように Audience Manager インスタンスを設定する方法を教えてください。**
 
-担当の [!DNL Audience Manager] コンサルタントまたはカスタマーケアに問い合わせて、新しいSFTPアカウントを設定します。
+担当の [!DNL Audience Manager] コンサルタントまたはカスタマーケアに問い合わせて、新しい SFTP アカウントを設定してもらってください。
 
  
 
 **新しいSFTPサーバーでサポートされている認証方法を教えてください。**
 
-新しいSFTPサーバー(`ftp-in-gtw` および `ftp-out-gtw`)がサポートされ [!DNL OpenSSH Key-Based Authentication]ます。 お客様の [!DNL SSH] キーを生成するか、独自の公開鍵をお客様に提供していただけます。
+新しい SFTP サーバー（`ftp-in-gtw` および `ftp-out-gtw`）では [!DNL OpenSSH Key-Based Authentication] がサポートされます。お客様の [!DNL SSH] キーを生成するか、独自の公開鍵をお客様に提供していただけます。
 
  
 
-**[!UICONTROL DIL]／[!DNL Analytics]データ統合のコード配置とページ読み込みの要件を教えてください。**
+**[!UICONTROL DIL]／[!DNL Analytics] データ統合のコード配置とページ読み込みの要件を教えてください。**
 
 [!DNL Analytics] データを [!DNL Audience Manager] に取り込むには、`s_code` モジュールの後、`s.t()` 関数&#x200B;*より前*&#x200B;に [!UICONTROL DIL] を読み込みます。例えば、次の順でコードを配置するか、読み込まれるようにします。
 
@@ -90,7 +90,7 @@ ht-degree: 91%
 
  
 
-**[!DNL Analytics]変数が[!DNL Audience Manager]イベント呼び出しに含まれていないのはなぜですか？**
+**[!DNL Analytics] 変数が [!DNL Audience Manager] イベント呼び出しに含まれていないのはなぜですか？**
 
 これが起こるのは通常、次の場合です。
 
@@ -99,7 +99,7 @@ ht-degree: 91%
 
  
 
-**[!UICONTROL DIL]に対応している[!DNL Analytics]のバージョンは何ですか？**
+**[!UICONTROL DIL] に対応している [!DNL Analytics] のバージョンは何ですか？**
 
 [!DNL Analytics] を操作するには、[!DNL Adobe AppMeasurement AS] バージョン 20.2（またはそれ以降）と [!UICONTROL DIL] ライブラリバージョン 3.5.2（またはそれ以降）を使用する必要があります。使用している [!DNL Analytics] または [!DNL AppMeasurement] のバージョンが不明な場合は、ページからおこなわれる [!DNL Analytics] 呼び出しを確認してください。バージョン情報は次のように表示されます。
 
@@ -117,7 +117,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**[!DNL Analytics]の顧客でなくても、ページデータを収集できますか？**
+**[!DNL Analytics] の顧客でなくても、ページデータを収集できますか？**
 
 はい。[!UICONTROL DIL] モジュールを使用すれば、[!DNL Analytics] を利用していない場合でもページデータを収集できます。[!UICONTROL DIL] を適切にセットアップすると、次のデータをキャプチャできます。
 
@@ -130,7 +130,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**[!UICONTROL DIL]で[!DNL Google Analytics]からデータを収集することはできますか？**
+**[!UICONTROL DIL] で [!DNL Google Analytics] からデータを収集することはできますか？**
 
 はい。[!UICONTROL DIL] では、一部の [!DNL Google Analytics]（GA）要素を収集し、そのデータを [!DNL Audience Manager] に渡すことができます。以下を参照してください。
 
@@ -139,7 +139,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**[!DNL Audience Manager]から生データを取得できますか？ また、その粒度はどの程度ですか？**
+**[!DNL Audience Manager] から生データを取得できますか？ また、その粒度はどの程度ですか？**
 
 はい、[!DNL Audience Manager] では、インベントリに収集した既知のユーザーのデータを取得できます。これには以下が含まれます。
 
@@ -151,7 +151,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**一方のサイトでデータ収集し、別のサイトで[!DNL Google Ad Manager]を通じてユーザーをターゲットにしたいと考えています。データを収集しない他の資産にもコードをデプロイする必要がありますか？**
+**一方のサイトでデータ収集し、別のサイトで [!DNL Google Ad Manager] を通じてユーザーをターゲットにしたいと考えています。データを収集しない他の資産にもコードをデプロイする必要がありますか？**
 
 いいえ。2 つ目のサイトのデータ収集が不要な場合は、そこに DIL をデプロイする必要はありません。[!DNL Google Ad Manager] 経由で 2 番目のサイトのインベントリにアクセスできれば、最初のサイトのデータ収集を使用して、[!DNL Google Ad Manager] 経由でのターゲット設定をおこなうことができます。
 
@@ -163,9 +163,9 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**[!DNL Audience Manager]はどのように Cookie を設定し変数を[!DNL Google Ad Manager]に渡しますか？**
+**[!DNL Audience Manager] はどのように Cookie を設定し変数を [!DNL Google Ad Manager] に渡しますか？**
 
-[!DNL Audience Manager]では 2 つの Cookie を設定します。一方はセグメント変数を[!DNL Google Ad Manager] 広告タグに送信し、もう一方は一意のユーザー ID（UUID）を設定します。この ID は [!DNL Google Ad Manager] にも読み取られます。UUID を広告タグに追加することで、ユーザーレベルのレポートとオーディエンス検出を実行できます。
+[!DNL Audience Manager] では 2 つの Cookie を設定します。一方はセグメント変数を [!DNL Google Ad Manager] 広告タグに送信し、もう一方は一意のユーザー ID（UUID）を設定します。この ID は [!DNL Google Ad Manager] にも読み取られます。UUID を広告タグに追加することで、ユーザーレベルのレポートとオーディエンス検出を実行できます。
 
 <br> 
 
@@ -175,13 +175,13 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br> 
 
-**FTP で送信したデータが[!DNL Audience Manager]で取得されたことを確認するには、どうすればよいですか？**
+**FTP で送信したデータが [!DNL Audience Manager] で取得されたことを確認するには、どうすればよいですか？**
 
 ファイルの拡張子が `.sync` から `.processed` に変わったら、ファイルが取得されたことになります。これが起こったとき、ファイルは取り込みキューに入っています。また、ファイルがアップロードされたとき、アカウントマネージャーがそれを確認できます。
 
 <br> 
 
-**[DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)の機能をテストしたいと思っています。次のように、イベント呼び出しを送信します。呼び出しには[宣言された ID](../features/declared-ids.md)とシグナルが含まれており、それによって、セットアップ済みの特性とセグメントが認識されます。[!UICONTROL General Reports]と[!UICONTROL Trend Reports]を使用して、特性とセグメントのユーザー数が増加していることを確認できますか？**
+**[DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md) の機能をテストしたいと思っています。次のように、イベント呼び出しを送信します。呼び出しには[宣言された ID](../features/declared-ids.md) とシグナルが含まれており、それによって、セットアップ済みの特性とセグメントが認識されます。[!UICONTROL General Reports] と [!UICONTROL Trend Reports] を使用して、特性とセグメントのユーザー数が増加していることを確認できますか？**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
@@ -197,7 +197,7 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 >
 >生成された UUID は、Cookie が設定されているデバイスでさらにアクティビティがトリガーされたときにのみ、バックエンドのデータストレージで実体化されます。
 
-このため、これらのレポートは、呼び出しで宣言された ID によってトリガーされたイベントを反映していません。[!DNL DCS] へのイベントテスト呼び出しでは、UUID、ECID（旧 MID）、モバイルデバイス ID のいずれかを使用することをお勧めします。その後、[!UICONTROL General Reports]と[!UICONTROL Trend Reports]で特性およびセグメント適合を確認できます。
+このため、これらのレポートは、呼び出しで宣言された ID によってトリガーされたイベントを反映していません。[!DNL DCS] へのイベントテスト呼び出しでは、UUID、ECID（旧 MID）、モバイルデバイス ID のいずれかを使用することをお勧めします。その後、[!UICONTROL General Reports] と [!UICONTROL Trend Reports] で特性およびセグメント適合を確認できます。
 
 詳しくは、[Audience Manager で使用される ID の一覧](../reference/ids-in-aam.md)を参照してください。
 
