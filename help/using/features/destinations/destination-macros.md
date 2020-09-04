@@ -7,9 +7,9 @@ title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '667'
 ht-degree: 87%
 
 ---
@@ -54,9 +54,9 @@ ht-degree: 87%
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>このマクロは <code> 1</code> を <code> CustomerABC</code> に置き換えます。 </p> <p> 
-     <draft-comment>
-       AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 に基づきます 
-     </draft-comment> </p> </td> 
+     <!--
+       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
+     --> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
@@ -64,7 +64,7 @@ ht-degree: 87%
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>訪問者がサイトで同意を提供または拒否した場合に収集される同意文字列（IABベンダーIDを含む）。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意文字列を含めます。 宛先パ <code>XXXX</code> ートナーIDに置き換えます。 詳しくは、IAB TCFの <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Managerプラグインを参照してください</a> 。 </p></td>
+    <td><p>訪問者がサイトで同意を提供または拒否した場合に収集される同意文字列（IABベンダーIDを含む）。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意文字列を含めます。 宛先パートナーID <code>XXXX</code> に置き換えます。 詳しくは、IAB TCFの <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Managerプラグインを参照してください</a> 。 </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
