@@ -7,9 +7,9 @@ title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '863'
 ht-degree: 94%
 
 ---
@@ -92,9 +92,9 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>10 桁の UTC UNIX タイムスタンプ（秒単位）。タイムスタンプは、各ファイル名を一意にするのに役立ちます。 </p> 
-    <draft-comment> 
-     <p> <p>注意：Audience Manager は、受信ファイルの処理中にタイムスタンプを使用しません。ファイル名のタイムスタンプは Audience Manager で非推奨となりましたが、下位互換性を確保するために引き続き必要です。 </p> </p> 
-    </draft-comment> </td> 
+    <!-- 
+     <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
+    --> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
