@@ -7,10 +7,10 @@ title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 97%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 
 この例では、クリエイティブ名を[!UICONTROL Audience Optimization]レポートに表示するためのメタデータファイルを作成します。この作業をおこなうには、イベント呼び出しからクリエイティブ、キャンペーン、データソースの ID を抽出する必要があります。
 
-![](assets/metadata_file_event.png)
+![メタデータファイルイベントスキーマ](assets/metadata_file_event.png)
 
 ### ファイル名
 
@@ -124,15 +124,15 @@ ht-degree: 100%
 
 * クリエイティブとキャンペーンの ID は、実際の ID ではなくカテゴリを表しています。
 
-![](assets/metadata_file_name.png)
+![メタデータファイル名のスキーマ](assets/metadata_file_name.png)
 
-詳しくは、[メタデータファイルの命名規則](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)を参照してください。
+See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### ファイルコンテンツ
 
 この例では、ファイルコンテンツはイベント呼び出しで渡されたクリエイティブとキャンペーンの ID を表します。ここでの新しい要素は、わかりやすい名前です。処理が完了すると、このファイルに含まれる名前が、[!UICONTROL Audience Optimization]レポートの「Creative」メニューのオプションとして表示されます。
 
-![](assets/metadata_file_contents.png)
+![メタデータファイルの内容スキーマ](assets/metadata_file_contents.png)
 
 [メタデータファイルのコンテンツの形式](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)を参照してください。
 
