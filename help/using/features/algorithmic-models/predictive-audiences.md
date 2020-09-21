@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1be20c2412a272e6374b8b84e6a5c1628da18497
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 72%
+source-wordcount: '1551'
+ht-degree: 71%
 
 ---
 
@@ -112,6 +112,9 @@ Similar to persona selection, you should choose your [!UICONTROL trait] or [!UIC
 * 各モデルについて、最大 50 個のベース特性／セグメントを選択できます。
 * セカンドおよびサードパーティデータは、現在、[!UICONTROL Predictive Audiences] でサポートされていません。
 * オーディエンスの分類は、リアルタイムファーストパーティオーディエンスに対してのみおこなわれます。オンボーディングされたファーストパーティオーディエンスの分類は、将来のアップデートでサポートされる可能性があります。
+   >[!IMPORTANT]
+   > 通常のセグメントに予測特性を追加すると、予測セグメントになります。 その結果、関連するすべてのプロファイルはセグメント化されません。
+
    >[!IMPORTANT]
    > 現在、予測セグメントはリアルタイムの宛先でのみアクティブ化できます。 The [!UICONTROL Total Segment Population] and [!UICONTROL Addressable Audience] of your predictive segments is displayed as 0, and [Batch Outbound Data Transfers](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) are not supported for [!UICONTROL Predictive Audiences]. この動作は、将来のアップデートで変更されます。
 * [!UICONTROL Predictive Audiences] は、すべてのファーストパーティデータソースからのファーストパーティ特性に基づいて、オーディエンスの分類を実行します。
