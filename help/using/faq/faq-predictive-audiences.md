@@ -5,11 +5,11 @@ seo-title: Predictive Audiences に関する FAQ
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
-translation-type: ht
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
-workflow-type: ht
-source-wordcount: '985'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
+workflow-type: tm+mt
+source-wordcount: '1024'
+ht-degree: 96%
 
 ---
 
@@ -115,6 +115,12 @@ ht-degree: 100%
 **予測セグメントのいずれかに分類されたユーザーは、異なる [!UICONTROL Predictive Audiences] セグメントに分類できますか？**
 
 はい。アルゴリズムは、日々学習を重ねるので、特性スコアに関して各ペルソナに変更が適用されます。[!UICONTROL Predictive Audiences] セグメントに属するユーザーがアクティブである場合、その特性スコアの変更により、過去 30 日間のアクティビティに基づいて分類が変更される可能性があります。
+
+ 
+
+**通常のセグメントに予測特性を追加できますか。**
+
+通常のセグメントに予測特性を追加すると、そのセグメントは予測セグメントになります。 その結果、関連するすべてのプロファイルはセグメント化されません。 予測セグメントは、リアルタイムの送信先にのみ送信できます。
 
  
 
