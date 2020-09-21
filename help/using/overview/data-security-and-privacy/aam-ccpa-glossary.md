@@ -6,7 +6,7 @@ solution: Audience Manager
 title: CCPA の用語集
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 100%
@@ -55,4 +55,3 @@ CCPA に関連して使用されるキーワードを確認しましょう。よ
 >[!MORELIKETHIS]
 >
 >[データプライバシーの概要](/help/using/overview/data-security-and-privacy/data-privacy.md)
-
