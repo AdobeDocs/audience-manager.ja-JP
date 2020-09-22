@@ -7,7 +7,7 @@ title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: e075bbfc3c2316518838ad428577eae191e45eda
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 97%
@@ -43,7 +43,7 @@ ht-degree: 97%
 
 次に、データを [!DNL Audience Manager] に送信する場合、または統合されていない他のプロバイダーからのレポートにデータを表示する場合に、メタデータファイルが必要です。例えば、[!DNL Audience Manager] は、Google の [DoubleClick Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)（DCM）と統合されています。この関係により、[!DNL Audience Manager] はレポートオプションで使用されている名前と説明に ID を関連付けることができます。統合がない場合でもデータは取り込めますが、レポートオプションにはわかりやすい名前ではなく数値 ID が表示されます。
 
-![](assets/metadata_menu.png)
+![](assets/metadata-menu.png)
 
 ## ファイルのマッピング {#file-mappings}
 
@@ -112,7 +112,7 @@ ht-degree: 97%
 
 この例では、クリエイティブ名を[!UICONTROL Audience Optimization]レポートに表示するためのメタデータファイルを作成します。この作業をおこなうには、イベント呼び出しからクリエイティブ、キャンペーン、データソースの ID を抽出する必要があります。
 
-![メタデータファイルイベントスキーマ](assets/metadata_file_event.png)
+![メタデータファイルイベントスキーマ](assets/metadata-file-event.png)
 
 ### ファイル名
 
@@ -124,7 +124,7 @@ ht-degree: 97%
 
 * クリエイティブとキャンペーンの ID は、実際の ID ではなくカテゴリを表しています。
 
-![メタデータファイル名のスキーマ](assets/metadata_file_name.png)
+![メタデータファイル名のスキーマ](assets/metadata-file-name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,7 +132,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 この例では、ファイルコンテンツはイベント呼び出しで渡されたクリエイティブとキャンペーンの ID を表します。ここでの新しい要素は、わかりやすい名前です。処理が完了すると、このファイルに含まれる名前が、[!UICONTROL Audience Optimization]レポートの「Creative」メニューのオプションとして表示されます。
 
-![メタデータファイルの内容スキーマ](assets/metadata_file_contents.png)
+![メタデータファイルの内容スキーマ](assets/metadata-file-contents.png)
 
 [メタデータファイルのコンテンツの形式](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)を参照してください。
 
