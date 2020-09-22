@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Managerでのアクセシビリティ
 feature: overview
 translation-type: tm+mt
-source-git-commit: 032e01f2483543271680093ae3286bcf3b3b3740
+source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobeはアクセシビリティの業界をリードする企業で、開発者
 
    ![アクセシビリティハイライト](assets/accesibility-highlight.png)
 
-* キー `Return` と `Space` キーを押すと、選択したアイテムがアクティブになります。
+* ( `Return` )と`Enter``Space` キーを押すと、選択したアイテムがアクティブになります。
 
 ## アクセシブルなテーブルの並べ替え {#table-sorting}
 
@@ -62,6 +62,4 @@ Audience Managerユーザーインターフェイス内のすべてのインタ�
 
 [!DNL Audience Manager] アクセシビリティの向上を図り、製品を誰でも使いやすくします。
 
-アクセシビリティの強化と準拠ステータスについて詳しくは、アクセシビリティの準拠レポートを参照してください。
-
-さらに、 [Adobeアクセシビリティフィードバックフォーム](https://www.adobe.com/accessibility/feedback.html) （英語）を使用して、改善のご提案やアクセシビリティに関する問題をお送りすることをお勧めします。 お客様のご意見を考慮し、改善に努めていただき、ありがとうござい [!DNL Audience Manager]ます。
+アクセシビリティフィードバックフォーム [(](https://www.adobe.com/accessibility/feedback.html) Adobeアクセシビリティフィードバックフォーム)を使用して、改善のご提案やアクセシビリティの問題をお送りすることをお勧めします。 お客様のご意見を考慮し、改善に努めていただき、ありがとうござい [!DNL Audience Manager]ます。
