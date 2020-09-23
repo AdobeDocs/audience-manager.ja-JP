@@ -8,7 +8,7 @@ breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: a726ad4fa4d1404efd363f8ed61222fcf3795c34
+source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 99%
@@ -78,7 +78,7 @@ ht-degree: 99%
       + [データエクスプローラー - 概要、メリット、ユースケース](features/data-explorer/data-explorer-overview.md)
       + [シグナルについて](features/data-explorer/data-explorer-understanding-signals.md)
       + [シグナルダッシュボード](features/data-explorer/data-explorer-signals-dashboard.md)
-      + シグナル検索 {#signals-search}
+      + シグナル検索{#signal-search}
          + [シグナル検索の概要](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [キー値ペアによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [フィルターによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
