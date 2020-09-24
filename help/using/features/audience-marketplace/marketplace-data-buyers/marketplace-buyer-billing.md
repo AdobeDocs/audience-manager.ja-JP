@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 99%
@@ -170,7 +170,8 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 [データフィードレベルで CPM 使用状況をレポートする](#feed-level-report)場合は、特性の認定ルールで使用する [!DNL Boolean] 演算子に従い、各データフィードにインプレッションを比例配分する必要があります。次の表は、ブール演算ルールまたは特性タイプによりインプレッションを適切に配分する方法を示しています。
 
 >[!TIP]
->[セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)では、Audience Manager により、データフィードレベルでのレポートが自動でおこなわれます。
+>
+> [セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)では、Audience Manager により、データフィードレベルでのレポートが自動でおこなわれます。
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
