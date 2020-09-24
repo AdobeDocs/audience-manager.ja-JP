@@ -7,10 +7,10 @@ title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 87%
+source-wordcount: '671'
+ht-degree: 85%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 87%
 
 `%rnd%` および `%timestamp%` マクロは、[!DNL URL] 文字列に一意の値を挿入して、ブラウザーのキャッシュ操作を防ぎます。
 
-## `%rnd%` および `%timestamp%` を使用したキャッシュバスティング {#dest-cache-busting}
+## Cache Busting with %rnd% and %timestamp% {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ ht-degree: 87%
 * `%rnd%`：URL に乱数を挿入します。
 * `%timestamp%`：URL に UNIX 日付／時間を挿入します。
 
-## `%rnd%` と `%timestamp%` の比較 {#compare-rnd-timestamp}
+## Comparing %rnd% and %timestamp% {#compare-rnd-timestamp}
 
 どちらのマクロもキャッシュを防ぎますが、`%rnd%` のほうがより効率的な可能性があります。例えば、`%timestamp%` を使用すると、複数のユーザーがページを同時に表示する場合、同じ日付／時刻値を取得します。結果として、[!DNL URL] は一意でなくなり、複数の呼び出しが 1 回のみカウントされます。しかし、`%rnd%` は、（ユーザーが同じページを同時に表示したとしても）呼び出しごとに一意の数値を生成します。これは、[!DNL URL] 文字列に異なる値が含まれ、個別のものとしてカウントされることを意味します。
 
