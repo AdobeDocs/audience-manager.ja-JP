@@ -1,24 +1,24 @@
 ---
-description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。Destination Builder とは、Cookie、URL、またはサーバー間通信ベースの宛先の作成および管理をおこなうために使用するツールです。
+description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。Cookie、URLまたはサーバー間の宛先を作成および管理するには、宛先ビルダーツールを使用します。
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。Destination Builder とは、Cookie、URL、またはサーバー間通信ベースの宛先の作成および管理をおこなうために使用するツールです。
+seo-description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。宛先ビルダーは、Cookie、URLまたはサーバー間の宛先を作成および管理するためのツールです。
 seo-title: 宛先
 solution: Audience Manager
 title: 宛先
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 56%
+source-wordcount: '530'
+ht-degree: 50%
 
 ---
 
 
 # [!UICONTROL Destinations] 概要 {#destinations}
 
-In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) になります。[!UICONTROL Destination Builder] は、を作成および管理するために使用したツール [!UICONTROL cookie]、 [!DNL URL]または [!UICONTROL server-to-server destinations]です。
+In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) になります。[!UICONTROL Destination Builder] は、を作成および管理するためのツール [!UICONTROL cookie]、 [!DNL URL]または [!UICONTROL server-to-server destinations]。
 
 ## 目的とメリット {#purposes}
 
@@ -26,7 +26,7 @@ In Audience Manager, a [!UICONTROL destination] is any third-party system (ad se
 
 [!UICONTROL Destinations] セグメント化 [!UICONTROL Destination Builder] されたユーザーに関する情報を作成し [!UICONTROL destinations] て、データパートナーに送信できます。 これは以下に役立ちます。
 
-* **データ値の保護：** すべてのユーザーデータをに送信する代わりに [!UICONTROL destination]、資格を持つユーザーに関する特定の情報のみを共有 [!UICONTROL Destination Builder] できます。
+* **Protectデータ値：** すべてのユーザーデータをに送信する代わりに [!UICONTROL destination]、資格を持つユーザーに関する特定の情報のみを共有 [!UICONTROL Destination Builder] できます。
 * **データに対して次のアクションを実行します。** パートナーにデータを送信すると、資格を満たすオーディエンスセグメントをすばやく開発し、ターゲットするのに役立ちます。 [!UICONTROL destination]
 * **技術的なオーバーヘッドの削減：** ビジネスユーザーは、インター [!UICONTROL destinations][!UICONTROL Destination Builder] フェイス内で安全にセットアップできます。 これにより、デプロイメント前のテストに必要な時間を節約できます。With [!UICONTROL Destination Builder], you create, manage, and delete [!UICONTROL destinations] as your business needs change, all without working through a long development cycle.
 
