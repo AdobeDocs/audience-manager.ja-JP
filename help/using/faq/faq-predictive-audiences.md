@@ -5,11 +5,11 @@ seo-title: Predictive Audiences に関する FAQ
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1023'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -120,9 +120,9 @@ ht-degree: 96%
 
  
 
-**通常のセグメントに予測特性を追加できますか。**
+**通常のセグメントに予測特性を追加することはできますか？**
 
-通常のセグメントに予測特性を追加すると、予測セグメントになります。 その結果、関連するすべてのプロファイルはセグメント化されません。 予測セグメントは、リアルタイムの送信先にのみ送信できます。
+通常のセグメントに予測特性を追加すると、そのセグメントは予測セグメントになります。その結果、関連するすべてのプロファイルのセグメント化は解除されます。予測セグメントは、リアルタイムの宛先にのみ送信できます。
 
  
 
