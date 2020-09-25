@@ -5,9 +5,9 @@ seo-title: CCPA の用語集
 solution: Audience Manager
 title: CCPA の用語集
 feature: data governance & privacy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
 ht-degree: 100%
 
