@@ -5,11 +5,11 @@ seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: Audience ManagerIAB TCF 用 プラグイン
 feature: data governance & privacy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2449'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Audience Manager は、[IAB Europe の透明性および同意フレームワー
 
 また、Audience Manager で作業するすべての宛先が IAB TCF に登録されている限り、それらの宛先に対するユーザーの同意を確認します。
 
-| When your user *provides* consent, Audience Manager: | ユーザーが&#x200B;*拒否*&#x200B;した場合、Audience Manager は以下をおこないます。 |
+| ユーザーが&#x200B;*同意*&#x200B;した場合、Audience Manager は以下をおこないます。 | ユーザーが&#x200B;*拒否*&#x200B;した場合、Audience Manager は以下をおこないます。 |
 |---|---|
 | <ul><li>リクエストした Audience Manager のユースケースをすべて実行する。</li><li>ID 同期でサードパーティに同意する（`gdpr = 1` およびコンセントストリングを ID 同期呼び出しで `gdpr_consent` として渡す）。</li><li>広告サーバーピクセルから渡される同意を評価して順守する。</li><li>パートナーが開始した ID 同期に従う。</li></ul> | <ul><li>インスタンスに新しいユーザーデータを保存しない。（パートナー ID、シグナル、特性またはピクセルデータを含む）。</li><li>サードパーティ ID 同期を開始しない。</li><li>パートナーが開始した ID 同期に従わない。</li><li>ユーザーをその他のデータ収集からオプトアウトします。</li></ul> |
 
