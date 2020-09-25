@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
+source-git-commit: f37464671b9000b0d6c1ae492fc4f35dd327d59d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1128'
 ht-degree: 87%
 
 ---
@@ -51,6 +51,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL AOL ONE] | 2017/03/02 | リアルタイム | ○ | × | × | ○ |
 | [!DNL AppNexus] | 2017/03/02 | リアルタイム | ○ | × | ○ | × |
 | [!DNL AppNexus Yieldex] | 2017/08/10 | 1 回/日 | ○ | × | × | × |
+| [!DNL Artsai (formerly Adxcel)] | 27/01/2020 | 1 回/日 | × | × | × | × |
 | [!DNL Atedra]／[!DNL AdStanding] | 2017/03/02 | リアルタイム | ○ | × | ○ | × |
 | [!DNL Avocet] | 2017/12/06 | 1 回/日 | × | × | × | × |
 | [!DNL Bidtellect] | 2017/03/03 | リアルタイム | ○ | × | × | × |
@@ -81,6 +82,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL EyeView Digital] | 2018/06/14 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Fiksu] | 2017/03/03 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Flashtalking] | 2017/03/02 | 1 回/日 | × | × | × | × |
+| [!DNL Flybits] | 31/07/2020 | リアルタイム | ○ | × | ○ | ○ |
 | [!DNL FreakOut] | 2017/03/03 | 1 回/日 | ○ | × | × | × |
 | [!DNL Freewheel] | 2017/02/27 | 1 回/日 | ○ | ○ | × | ○ |
 | [!DNL Gamut Media] | 2017/03/03 | リアルタイム |  | × | × |  |
