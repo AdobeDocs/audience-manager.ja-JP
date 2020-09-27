@@ -2,23 +2,23 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager ユーザーガイド
+user-guide-title: Audience Managerガイド
 breadcrumb-title: Audience Manager Guide
 breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
+source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 99%
+source-wordcount: '1757'
+ht-degree: 98%
 
 ---
 
 
-# Audience Manager ユーザーガイド {#user-guide}
+# Audience Manager Guide {#user-guide}
 
-+ [Audience Manager の製品マニュアル](aam-home.md)
++ [Audience Managerガイド](aam-home.md)
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
