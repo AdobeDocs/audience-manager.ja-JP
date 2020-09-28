@@ -7,10 +7,10 @@ title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: d6d15ed68cd70fd7da1037a7cb397a00d252e4dd
+source-git-commit: e8eb1c1c7a235c0c9dd32182e522ad0b6e965c61
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 92%
+source-wordcount: '914'
+ht-degree: 81%
 
 ---
 
@@ -57,11 +57,12 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>データファイルにご自身のユーザー ID や Android または iOS の ID が含まれているかどうかを <span class="keyword">Audience Manager</span> に通知するための ID。次のオプションを使用できます。</p> 
+   <td colname="col2"> <p>データファイルに独自のユーザーID、Android ID、iOS IDまたはグロー <span class="keyword"> バルデータソースに属する他のIDが含まれているかどうかをAudience Managerに通知するlD</span><a href="/help/using/features/global-data-sources.md"></a>。 次のオプションを使用できます。</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データプロバイダーID（データソースIDとも呼ばれます）:</b> これは、データプロバイダーに割り当てられる一意のIDAudience Managerです。 ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。例えば、「<code>...ftp_dpm_21_123456789.sync</code>」は、ID が 21 であるパートナーがファイルの送信者で、このファイルにはそのパートナーが割り当てたユーザー ID が含まれていることを <span class="keyword">Audience Manager</span> に通知します。 </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID（GAID）：</b>データファイルに Android の ID が含まれている場合、ファイル名に ID 20914 を使用します。例えば、「<code>...ftp_dpm_20914_123456789.sync</code>」は、データファイルに Android の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。例えば、「<code>...ftp_dpm_20915_123456789.sync</code>.」は、データファイルに iOS の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データソースID（データプロバイダーIDとも呼ばれます）:</b> これは、Audience Managerがデータソースに割り当てる一意のIDです(IDのAudience Manager <a href="/help/using/reference/ids-in-aam.md"> インデックスを参照 </a>)。 ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。例えば、 <code>...ftp_dpm_21_123456789.sync</code> Audience Managerに対して、データソース21に属するIDに対して車載データを通知する <span class="keyword"></span> 。 </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> Android IDが含まれる場合は、データファイル名にID 20914を使用します。 例えば、「<code>...ftp_dpm_20914_123456789.sync</code>」は、データファイルに Android の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。例えば、「<code>...ftp_dpm_20915_123456789.sync</code>.」は、データファイルに iOS の ID しか含まれていないことを <span class="keyword">Audience Manager</span> に通知します。 </li>
+     <li> <b>他のグローバルデータソースに属するID</b>:広告用のRoku ID(RIDA)、Microsoft広告用ID(MAID)、その他のIDを搭載できます。 各データソースに対応するIDを使用します。詳しくは、「 <a href="/help/using/features/global-data-sources.md"> グローバルデータソース」の記事を参照</a>。</li> 
     </ul> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p> </td> 
   </tr> 
   <tr> 
