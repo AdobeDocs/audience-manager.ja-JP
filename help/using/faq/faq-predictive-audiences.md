@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8e43da4c8b890fc5f8468f3779918dbfbbf960b8
+source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 98%
+source-wordcount: '1023'
+ht-degree: 100%
 
 ---
 
@@ -46,6 +46,14 @@ ht-degree: 98%
 
  
 
+**オンボーディングされた訪問者の一部が分類されないのはなぜですか？**
+
+現在、オーディエンスの分類は、[!UICONTROL Profile Merge Rules] の一部として定義された認証済みのユーザーを除き、リアルタイム選定に対してのみ機能します。
+
+オンボーディングされたデータの完全なサポートは、将来のアップデートで追加される予定です。
+
+ 
+
 **モデルで生成される最初の結果はいつ確認できますか？**
 
 [!UICONTROL Predictive Audiences] モデルが正常に実行されている場合、モデルの結果は、モデル作成後 24 時間以内に利用できます。
@@ -60,10 +68,12 @@ ht-degree: 98%
 
 1. 選択したペルソナの [!UICONTROL traits]／[!UICONTROL segments] に十分なユーザープロファイルがない。各ペルソナが少なくとも数百のユーザープロファイルを含むように [!UICONTROL traits] または [!UICONTROL segments] を選択することをお勧めします。
 1. 選択したペルソナの [!UICONTROL traits]／[!UICONTROL segments] のユーザープロファイルに十分なデータがない（分析するのに十分な特性がない）。
-1. ターゲットオーディエンスの特性/セグメントには、アクティブなユーザーもオンボードしたユーザーもありません。
+1. ターゲットオーディエンスの特性／セグメントに、過去 30 日以内のアクティブなユーザーやオンボーディングされたユーザーが含まれていなかった。
 1. 過去 30 日以内のアクティブまたはオンボーディングされたターゲットオーディエンスユーザーのユーザープロファイルに、十分なデータがない（分析するのに十分な特性がない）。
 1. ターゲットオーディエンスセグメントでは、モデルに対して選択したものとは異なる [!UICONTROL Profile Merge Rule] が使用されます。
 1. ターゲットオーディエンス特性のデータソースが、モデルに選択した [!UICONTROL Profile Merge Rule] に含まれていない場合があります。
+
+適切な結果を生成するために、[!UICONTROL Predictive Audiences] アルゴリズムは、[!DNL DCS] で確認されるリアルタイムユーザーアクティビティに基づいて、特性およびセグメントの適合を評価します。まだ十分なユーザー数を含んでいない新しいベース特性およびセグメントを選択する場合、アルゴリズムによってオーディエンスが分類されるまで数日かかることがあります。
 
 最適な結果を得るには、[ペルソナの選択条件](../features/algorithmic-models/predictive-audiences.md#selection-personas)および[ターゲットオーディエンスの選択条件](../features/algorithmic-models/predictive-audiences.md#selection-audience)に記載されている推奨ガイドラインに従ってください。
 
