@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
          + [同意管理](overview/data-security-and-privacy/data-privacy-consent.md)
          + [IAB TCF 用 Audience Manager プラグイン](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [データガバナンス](overview/data-security-and-privacy/data-governance.md)
-   + [Audience Managerでのアクセシビリティ](overview/accessibility-in-aam.md)
+   + [Audience Manager のアクセシビリティ](overview/accessibility-in-aam.md)
 + 機能 {#features}
    + [アドレス可能なオーディエンス](features/addressable-audiences.md)
    + 管理 {#administration}
@@ -74,11 +74,11 @@ ht-degree: 98%
          + [データフィード購入者に対する請求](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
       + [非公開データフィード](features/audience-marketplace/marketplace-private-feeds.md)
    + [顧客データフィード](features/cdf-files.md)
-   + Data Explorer {#data-explorer}
+   + データエクスプローラ {#data-explorer}
       + [データエクスプローラー - 概要、メリット、ユースケース](features/data-explorer/data-explorer-overview.md)
       + [シグナルについて](features/data-explorer/data-explorer-understanding-signals.md)
       + [シグナルダッシュボード](features/data-explorer/data-explorer-signals-dashboard.md)
-      + シグナル検索{#signal-search}
+      + シグナル検索 {#signal-search}
          + [シグナル検索の概要](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [キー値ペアによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [フィルターによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
