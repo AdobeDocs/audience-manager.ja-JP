@@ -2,7 +2,7 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Managerガイド
+user-guide-title: Audience Manager ガイド
 breadcrumb-title: Audience Manager Guide
 breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
@@ -11,14 +11,14 @@ translation-type: tm+mt
 source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Audience Manager Guide {#user-guide}
+# Audience Manager ガイド {#user-guide}
 
-+ [Audience Managerガイド](aam-home.md)
++ [Audience Manager ガイド](aam-home.md)
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
@@ -100,7 +100,7 @@ ht-degree: 99%
       + [宛先ホームページ](features/destinations/destinations-home.md)
       + Adobe Experience Cloud の宛先 {#experience-cloud-destinations}
          + [Analytics の宛先の設定](features/destinations/create-analytics-destination.md)
-      + People-Based Destinations {#people-based}
+      + ピープルベースの宛先 {#people-based}
          + [概要とユースケース](features/destinations/people-based-destinations-overview.md)
          + [前提条件と考慮事項](features/destinations/people-based-destinations-prerequisites.md)
          + 実装ガイド {#implementation-guide}
@@ -108,7 +108,7 @@ ht-degree: 99%
             + [ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-combined.md)
             + [ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
             + [ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-authenticated.md)
-         + [ユーザーベースのプラットフォームを使用した認証](features/destinations/people-based-destinations-authentication.md)
+         + [ピープルベースのプラットフォームを使用した認証](features/destinations/people-based-destinations-authentication.md)
          + [共有可能なオーディエンス](/help/using/features/destinations/people-based-destinations-reporting.md)
       + デバイスベースの宛先（サーバー間） {#device-based}
          + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
@@ -392,7 +392,7 @@ ht-degree: 99%
    + [データ収集および製品統合に関するよくある質問](faq/faq-data-collection.md)
    + [顧客データのインバウンドの取得に関するよくある質問](faq/faq-inbound-data-ingestion.md)
    + [プライバシーとデータ保持に関するよくある質問](faq/faq-privacy.md)
-   + [People-Based Destinations に関する FAQ](faq/faq-people-based-destinations.md)
+   + [ピープルベースの宛先に関する FAQ](faq/faq-people-based-destinations.md)
    + [製品の機能に関するよくある質問](faq/faq-features.md)
    + [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq/faq-profile-merge.md)
    + [Predictive Audiences に関する FAQ](faq/faq-predictive-audiences.md)
