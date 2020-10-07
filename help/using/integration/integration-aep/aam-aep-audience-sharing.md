@@ -7,7 +7,7 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 54%
@@ -58,7 +58,7 @@ Audience Manager の特性とセグメントは、セグメントワークフロ
 
 Experience Platformで作成したセグメントは、シグナル、特性およびセグメントとしてAudience Managerインターフェイスに表示され、次の組版規則が適用されます。
 
-* シグナル： 各Experience Platformセグメントについて、フォームにシグナルが表示され `segID = segment ID`ます。
+* シグナル：各Experience Platformセグメントについて、フォームにシグナルが表示され `segID = segment ID`ます。
 * 特性：特性ルールは、Experience Platform セグメントの ID です。
 * セグメント：このセグメントは、上記の特性で構成されます。
 
@@ -117,7 +117,8 @@ Audience ManagerとExperience Platformの間でオーディエンスを共有す
 >[!NOTE]
 >
 >データエクスポートコントロールの詳細については、『 [データエクスポートコントロール』のドキュメントを参照してください](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-export-controls.html)。
-このドキュメントでは、特定のAudience Managerデータのエクスポートコントロールを、プラットフォームのデータ使用ラベルおよびマーケティングアクションにどのようにマッピングするかについて説明します。
+>
+>このドキュメントでは、特定のAudience Managerデータのエクスポートコントロールを、プラットフォームのデータ使用ラベルおよびマーケティングアクションにどのようにマッピングするかについて説明します。
 
 ### データ使用ラベルに対するデータエクスポートコントロール
 
@@ -125,10 +126,10 @@ Audience ManagerとExperience Platformの間でオーディエンスを共有す
 
 | データエクスポートコントロール | データ使用ラベル |
 | --- | --- |
-| 個人が特定できる情報と共に使用することはできません。 | C3: データを組み合わせたり、直接識別できる情報と組み合わせて使用することはできません。 |
-| オフサイト広告ターゲティングには使用できません | C5: データは、コンテンツや広告の関心に基づくクロスサイトターゲティングには使用できません。 |
-| オンサイト広告ターゲット設定には使用できません | C6: データはオンサイト広告のターゲット設定には使用できません |
-| オンサイトパーソナライゼーションには使用できません。 | C7: データは、コンテンツのオンサイトターゲティングには使用できません |
+| 個人が特定できる情報と共に使用することはできません。 | C3:データを組み合わせたり、直接識別できる情報と組み合わせて使用することはできません。 |
+| オフサイト広告ターゲティングには使用できません | C5:データは、コンテンツや広告の関心に基づくクロスサイトターゲティングには使用できません。 |
+| オンサイト広告ターゲット設定には使用できません | C6:データはオンサイト広告のターゲット設定には使用できません |
+| オンサイトパーソナライゼーションには使用できません。 | C7:データは、コンテンツのオンサイトターゲティングには使用できません |
 
 ### マーケティングアクションへのデータエクスポートコントロール
 
@@ -151,11 +152,11 @@ Audience Managerは、インターフェイスのレポート番号を1日に1�
 
 ### プロファイルの結合ルールと結合ポリシーの違い
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Audience ManagerとExperience Platform [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/ui/merge-policies.html) では、動作が異なり、それぞれに使用されるアイデンティティグラフも異なります。 これにより、セグメント母集団間でのいくつかの違いが想定されます。
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) audience managerとExperience Platform [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/ui/merge-policies.html) では、動作が異なり、それぞれに使用されるアイデンティティグラフも異なります。 これにより、セグメント母集団間でのいくつかの違いが想定されます。
 
 ### Experience Platformでのセグメントの構成
 
-Adobe Experience PlatformとAudience Managerの統合は、すべての顧客に対して多くの標準 [ID名前空間](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) （標準ID）を共有します。 ECID、IDFA、GAID、ハッシュされた電子メールアドレス(EMAIL_LC_SHA256)、AdCloud IDなど。 Experience Platformセグメントで、資格を持つプロファイルの主要なIDとしてこれらのいずれかを使用している場合、プロファイルはAudience Managerの特性とセグメントでカウントされます。
+Adobe Experience PlatformとAudience Managerの統合は、すべての顧客に対して多くの標準 [ID名前空間](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) （標準ID）を共有します。ECID、IDFA、GAID、ハッシュされた電子メールアドレス(EMAIL_LC_SHA256)、AdCloud IDなど。 Experience Platformセグメントで、資格を持つプロファイルの主要なIDとしてこれらのいずれかを使用している場合、プロファイルはAudience Managerの特性とセグメントでカウントされます。
 
 また、Audience Managerは、Experience Platformセグメントで使用するカスタムID名前空間の受信認証を登録できます。これは、そのIDとは異なるAudience Manager内に対応するデータソースが既に存在する場合に限られます。
 
