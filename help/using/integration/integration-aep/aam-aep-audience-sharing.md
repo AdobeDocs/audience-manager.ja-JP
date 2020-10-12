@@ -7,10 +7,10 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 283acc1ef9152af3399c6010105728d397422a7f
+source-git-commit: 6a9a48aa6d3a7a5d871ea9aabbca2c2ec1229c0e
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 51%
+source-wordcount: '1492'
+ht-degree: 50%
 
 ---
 
@@ -37,7 +37,7 @@ Audience Manager では、次のように、Data Management Platform のユー�
 >[!IMPORTANT]
 >
 > * 上記のデータ管理プラットフォームの使用例を有効にするには、Audience Managerライセンスが必要です。
-> * コアサービス *の統合を通じて、Adobe Ad Cloud、Adobe Target、Adobe Analyticsおよび他のExperience CloudソリューションとExperience Platformセグメントを共有する場合、Audience Managerライセンスは必要ありません* 。
+> * コアサービス *の統合を通じて、Adobe Ad Cloud、Adobe Target、マーケティングトおよびその他のExperience CloudソリューションとExperience Platformセグメントを共有する場合、Audience Managerライセンスは必要ありません* 。
 
 
  <br>
@@ -46,7 +46,7 @@ Audience Manager では、次のように、Data Management Platform のユー�
 
 | **ユースケース** | **Adobe Experience Platform** | **Audience Manager** | **コアサービス** |
 ---------|----------|---------|---------
-| **オーディエンス共有** | <ul><li>Audience Manager データを使用した顧客プロファイルの強化</li><li>Experience Platform セグメントでの Audience Manager データの使用</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Adobe Target や Analytics など、他の Experience Cloud ソリューションで Experience Platform セグメントを使用します。 |
+| **オーディエンス共有** | <ul><li>Audience Manager データを使用した顧客プロファイルの強化</li><li>Experience Platform セグメントでの Audience Manager データの使用</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Experience Platformセグメントは、Adobe Target、Ad Cloud、Marketoなど、他のExperience Cloudソリューションで使用します。 |
 
  <br>
 
@@ -164,7 +164,9 @@ Audience Managerは、インターフェイスのレポート番号を1日に1�
 
 Adobe Experience PlatformとAudience Managerの統合は、すべての顧客に対して多くの標準 [ID名前空間](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) （標準ID）を共有します。ECID、IDFA、GAID、ハッシュされた電子メールアドレス(EMAIL_LC_SHA256)、AdCloud IDなど。 Experience Platformセグメントで、資格を持つプロファイルの主要なIDとしてこれらのいずれかを使用している場合、プロファイルはAudience Managerの特性とセグメントでカウントされます。
 
-また、Audience Managerは、Experience Platformセグメントで使用するカスタムID名前空間の受信認証を登録できます。これは、そのIDとは異なるAudience Manager内に対応するデータソースが既に存在する場合に限られます。
+また、Audience Managerは、次の場合に、Experience Platformセグメントで使用するカスタムID名前空間の受信認証を登録できます。
+* IDはプライマリとしてマークされ *、*
+* 対応するクロスデバイスデータソースが既にAudience Managerに存在します。
 
 >[!NOTE]
 >
