@@ -7,9 +7,9 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 283acc1ef9152af3399c6010105728d397422a7f
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1487'
 ht-degree: 51%
 
 ---
@@ -37,7 +37,7 @@ Audience Manager では、次のように、Data Management Platform のユー�
 >[!IMPORTANT]
 >
 > * 上記のデータ管理プラットフォームの使用例を有効にするには、Audience Managerライセンスが必要です。
-> * コアサービス ** の統合を通じてExperience PlatformセグメントをAdobe Ad Cloud、Adobe Target、および他のExperience Cloudソリューションと共有する場合、Audience Managerライセンスは必要ありません。
+> * コアサービス *の統合を通じて、Adobe Ad Cloud、Adobe Target、Adobe Analyticsおよび他のExperience CloudソリューションとExperience Platformセグメントを共有する場合、Audience Managerライセンスは必要ありません* 。
 
 
  <br>
