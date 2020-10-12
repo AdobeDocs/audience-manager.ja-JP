@@ -3,15 +3,15 @@ product: audience-manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ガイド
-breadcrumb-title: Audience Manager Guide
+breadcrumb-title: Audience Manager ガイド
 breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
-user-guide-description: Audience Manager provides industry-leading services for online audience data management.
+user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
+source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 100%
+source-wordcount: '1773'
+ht-degree: 99%
 
 ---
 
@@ -340,7 +340,7 @@ ht-degree: 100%
          + [受信処理後パートナーに送信されるメッセージの例](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform との統合 {#integration-experience-platform}
-      + [Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Audience Managerや他のExperience CloudソリューションとのExperience Platformセグメントの共有](integration/integration-aep/aam-aep-audience-sharing.md)
    + 他の Experience Cloud ソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
