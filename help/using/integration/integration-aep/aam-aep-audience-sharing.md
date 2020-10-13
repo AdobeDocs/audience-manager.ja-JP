@@ -7,7 +7,7 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 6a9a48aa6d3a7a5d871ea9aabbca2c2ec1229c0e
+source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 50%
@@ -37,7 +37,7 @@ Audience Manager では、次のように、Data Management Platform のユー�
 >[!IMPORTANT]
 >
 > * 上記のデータ管理プラットフォームの使用例を有効にするには、Audience Managerライセンスが必要です。
-> * コアサービス *の統合を通じて、Adobe Ad Cloud、Adobe Target、マーケティングトおよびその他のExperience CloudソリューションとExperience Platformセグメントを共有する場合、Audience Managerライセンスは必要ありません* 。
+> * コアサービス *の統合を通じて、Adobe Advertising Cloud、Adobe Target、マーケティングトおよびその他のExperience CloudソリューションとExperience Platformセグメントを共有する場合、Audience Managerライセンスは必要ありません* 。
 
 
  <br>
@@ -46,7 +46,7 @@ Audience Manager では、次のように、Data Management Platform のユー�
 
 | **ユースケース** | **Adobe Experience Platform** | **Audience Manager** | **コアサービス** |
 ---------|----------|---------|---------
-| **オーディエンス共有** | <ul><li>Audience Manager データを使用した顧客プロファイルの強化</li><li>Experience Platform セグメントでの Audience Manager データの使用</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Experience Platformセグメントは、Adobe Target、Ad Cloud、Marketoなど、他のExperience Cloudソリューションで使用します。 |
+| **オーディエンス共有** | <ul><li>Audience Manager データを使用した顧客プロファイルの強化</li><li>Experience Platform セグメントでの Audience Manager データの使用</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Experience Platformセグメントは、Adobe Target、Advertising Cloud、Marketoなど、他のExperience Cloudソリューションで使用します。 |
 
  <br>
 
