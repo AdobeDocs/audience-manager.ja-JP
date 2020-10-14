@@ -7,11 +7,11 @@ breadcrumb-title: Audience Manager ガイド
 breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1773'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -298,7 +298,7 @@ ht-degree: 99%
       + [Facebook WCA の統合](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [Audience Manager の宛先としての OAS](integration/integrating-third-party/open-ad-server-destination.md)
       + [Audience Manager の宛先としての OpenX](integration/integrating-third-party/openx-destination.md)
-      + [Audience Manager 先としての Google Ad Manager（旧称 DFP）](integration/aam-dfp.md)
+      + [Audience Manager の宛先としての Google Ad Manager（旧称 DFP）](integration/aam-dfp.md)
       + [Google AdWords リマーケティングリストへのセグメントの送信](integration/integrating-third-party/rlsa-integration.md)
    + [Audience Manager の実装](integration/implement-audience-manager.md)
    + メディアデータの統合 {#media-data-integration}
@@ -340,7 +340,7 @@ ht-degree: 99%
          + [受信処理後パートナーに送信されるメッセージの例](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform との統合 {#integration-experience-platform}
-      + [Audience Managerや他のExperience CloudソリューションとのExperience Platformセグメントの共有](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](integration/integration-aep/aam-aep-audience-sharing.md)
    + 他の Experience Cloud ソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
