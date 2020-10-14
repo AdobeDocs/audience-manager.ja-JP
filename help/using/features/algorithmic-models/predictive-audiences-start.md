@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 48bf17a2899fd06c525ba6b4fddb9ec805efb5c3
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 94%
+source-wordcount: '571'
+ht-degree: 74%
 
 ---
 
@@ -42,13 +42,23 @@ ht-degree: 94%
    * **[!UICONTROL Model Name]**：後で識別するのに役立つ、モデルのわかりやすい名前を入力します。モデルによって生成されたセグメントの名前の先頭には、モデルの名前が付きます。
    * **[!UICONTROL Description]**：ユースケースを識別するのに役立つ、モデルの説明を入力します。
    * **[!UICONTROL Data Source]**：このモデルからの [!UICONTROL Predictive Audiences] セグメントを割り当てるファーストパーティデータソースを選択します。
-   * **[!UICONTROL Profile Merge Rule]**: このモデル [!UICONTROL Profile Merge Rule] で作成されるすべての予測に割り当てる対象を選択 [!UICONTROL segments] します。 選択したターゲットオーディエンスが「」の場合 [!UICONTROL segment]は、同じターゲットオーディエンス [!UICONTROL Profile Merge Rule] を選択することをお勧めします。
+   * **[!UICONTROL Profile Merge Rule]**:このモデル [!UICONTROL Profile Merge Rule] で作成されるすべての予測に割り当てる対象を選択 [!UICONTROL segments] します。 選択したターゲットオーディエンスが「」の場合 [!UICONTROL segment]は、同じターゲットオーディエンス [!UICONTROL Profile Merge Rule] を選択することをお勧めします。
       ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-## Predictive Audiences の編集 {#edit-predictive-audiences}
+## 予測オーディエンスモデルのコピーと編集 {#clone-predictive-audiences}
 
-Audience Manager は、既存の [!UICONTROL Predictive Audiences] モデルの編集をサポートしていません。モデルの設定を変更するには、新しいモデルを作成する必要があります。10 個の [!UICONTROL Predictive Audiences] モデルの制限に達して、いずれかのモデルを編集する必要がある場合、モデルを削除して新しく作成する必要があります。
+Audience Manager は、既存の [!UICONTROL Predictive Audiences] モデルの編集をサポートしていません。モデルの設定を変更するには、既存のモデルのクローンを作成して編集します。 次の方法で実行できます。
+
+1. **[!UICONTROL Audience Data]**／**[!UICONTROL Models]** に移動します。
+2. コピーする [!UICONTROL Predictive Audiences] モデルの名前をクリックします。
+3. 画面の左上 **[!UICONTROL Clone]** のボタンをクリックします。
+   ![予測オーディエンスクローン](assets/predictive-audiences-clone.png)
+4. モデルをコピーすると、コピーされたモデルの [!DNL Save & Configure] ページに移動します。 このページでは、モデルと、モデルの割り当て [!UICONTROL data source] を変更できます[!UICONTROL Profile Merge Rule] 。 クローンモデルのパーソナルとターゲットオーディエンスを編集するには、「 [!UICONTROL Back][!UICONTROL Next] および」ボタンを使用して3つのタブ間を移動するか、3つのタブ名をクリックします
+
+   ![predictive-オーディエンス-clone-navigate](assets/predictive-audiences-clone-navigate.png)
+
+5. モデルの編集が完了したら、をクリックし **[!UICONTROL Save]**&#x200B;ます。
 
 ## Predictive Audiences の削除 {#delete-predictive-audiences}
 
