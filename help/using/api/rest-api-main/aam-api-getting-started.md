@@ -31,7 +31,7 @@ Information about general requirements, authentication, optional query parameter
 
 * **リクエストパラメーター：** 特に指定のない限り、すべてのリクエストパラメーターが必要です。
 * **リクエストヘッダー**：[Adobe I/O](https://www.adobe.io/) トークンを使用する場合、`x-api-key` ヘッダーを提供する必要があります。You can get your [!DNL API] key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page.
-* **[!DNL JSON]コンテンツタイプ：** コード内で、`content-type: application/json`*および*`accept: application/json`を指定してください。
+* **[!DNL JSON]コンテンツタイプ：** コード内で、`content-type: application/json` *および* `accept: application/json` を指定してください。
 * **要求と応答：**&#x200B;適切な形式の [!DNL JSON] オブジェクトとして要求を送信してください。[!DNL Audience Manager] は [!DNL JSON] 形式のデータで応答します。サーバーの応答には要求されたデータもしくはステータスコード、またはその両方を含めることができます。
 * **アクセス：**&#x200B;担当の[!DNL Audience Manager] コンサルタントによって、[!DNL API] 要求をおこなうために必要なクライアント ID およびキーが提供されます。
 * **ドキュメントおよびコードサンプル：** *斜体* のテキストは、[!DNL API] データを作成または受け取る際に指定または渡される変数を示します。*斜体*&#x200B;のテキストを独自のコード、パラメーターまたは他の必要な情報に置き換えてください。
@@ -65,7 +65,7 @@ Information about general requirements, authentication, optional query parameter
 
 1. [Adobeデベロッパーコンソールにログインします](https://console.adobe.io/)。
 1. 「 [サービスアカウント接続](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)」の手順に従います。
-   * 手 [順2: サ追加ービスアカウント認証を使用して、プロジェクトに対するAPIで、](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)[!DNL Audience Manager][!DNL API] オプションを選択します。
+   * 手 [順2:サ追加ービスアカウント認証を使用して、プロジェクトへのAPIを設定する場合は](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)、 [!DNL Audience Manager] オ [!DNL API] プションを選択します。
 1. 手順3の指示に基づいて最初の [!DNL API] 呼び出しを行って、接続を [試してください](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
 
 >[!NOTE]
