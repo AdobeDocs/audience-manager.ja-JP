@@ -7,9 +7,9 @@ breadcrumb-title: Audience Manager ガイド
 breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1773'
 ht-degree: 100%
 
