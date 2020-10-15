@@ -1,5 +1,5 @@
 ---
-description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。Cookie、URLまたはサーバー間の宛先を作成および管理するには、宛先ビルダーツールを使用します。
+description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。Cookie、URL またはサーバー間の宛先を作成および管理するには、宛先ビルダーツールを使用します。
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
 seo-description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。宛先ビルダーは、Cookie、URLまたはサーバー間の宛先を作成および管理するためのツールです。
 seo-title: 宛先
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 50%
+ht-degree: 52%
 
 ---
 
