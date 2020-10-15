@@ -1,5 +1,5 @@
 ---
-description: Audience Managerセグメントのコンポーネント、オーディエンス資格条件の設定に使用する式、イベント呼び出しでのデータの送信方法について理解します。
+description: Audience Manager セグメントのコンポーネント、オーディエンス資格条件の設定に使用する式、イベント呼び出しでのデータの送信方法を理解します。
 seo-description: Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、およびイベント呼び出しでのデータの送信方法について説明します。
 seo-title: シグナル、特性、セグメント
 solution: Audience Manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 42%
+ht-degree: 49%
 
 ---
 
@@ -33,7 +33,7 @@ Use the diagram below to keep a mental note of the relationship between [!UICONT
 
 ![](assets/signals-traits-segments.png)
 
-**ビジュアルツール[!UICONTROL Traits]とコードエディターを使用したビルド[!UICONTROL Segment]とルール**
+**ビジュアルツール [!UICONTROL Traits] とコードエディターを使用したビルド [!UICONTROL Segment] とルール**
 
 Clients manage [!UICONTROL traits] and [!UICONTROL segments] with visual tools and code editors in the [!DNL Audience Manager] user interface. ビジュアルツールでは、検索機能、ポップアップオプション、ドロップダウンメニューおよびドラッグ＆ドロップ機能を使用して、ルールを作成できます。コードエディターは、上級ユーザーがオーディエンスセグメント化条件をプログラムで開発する手段となります。
 
