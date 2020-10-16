@@ -7,7 +7,7 @@ title: REST API の概要
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
+source-git-commit: ab8745a8ba24154793201893a39a039b5a098833
 workflow-type: tm+mt
 source-wordcount: '1860'
 ht-degree: 76%
@@ -59,7 +59,7 @@ Information about general requirements, authentication, optional query parameter
 
 認証を設定する前に、 [!DNL JWT] AdobeI/Oの [AdobeDeveloper Console](https://console.adobe.io/) ( [I/O)にアクセスできることを確認します](https://www.adobe.io/)。 アクセス要求については、組織の管理者に問い合わせてください。
 
-### 認証
+### 認証 {#auth}
 
 次の手順に従って、次を使用して [!DNL JWT (Service Account)] 認証を設定し [!DNL Adobe I/O]ます。
 
