@@ -7,10 +7,10 @@ title: アルゴリズム特性の作成
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
-source-git-commit: aeaf8b14e901b4a39486ba3740f0582c9cf34559
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 93%
+source-wordcount: '322'
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,7 @@ ht-degree: 93%
    * データソースを選択します。
    * 保存フォルダーを選択します。
 1. 「[!UICONTROL Configuration]」パネルを展開し、**[!UICONTROL Browse All Models]**&#x200B;をクリックします。新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
-1. モデルを選択して、**[!UICONTROL Add Selected Model to Trait]**&#x200B;をクリックします。
-
-   >[!NOTE]
-   > 
-   > 既存のアルゴリズムの特性に対して選択したモデルを置き換えることはできません。 別のモデルを使用するには、新しいアルゴリズム特性を作成する必要があります。
-
-   モデルを追加すると、リーチと精度の設定が表示されます。
+1. モデルを選択して、**[!UICONTROL Add Selected Model to Trait]**&#x200B;をクリックします。モデルを追加すると、リーチと精度の設定が表示されます。
 1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。終了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## アルゴリズム特性の設定 {#configure-settings}
