@@ -1,5 +1,5 @@
 ---
-description: データ管理プラットフォームの主な機能（データ収集、オーディエンス作成、アクティベーション）に関する情報。
+description: Adobe Audience Manager の歴史、収集されるデータのタイプ、セグメント化、レポートなどに関する情報。
 seo-description: Adobe Audience Manager の歴史、収集されるデータのタイプ、セグメント化、レポートなどに関する情報。
 seo-title: Audience Manager の概要
 solution: Audience Manager
@@ -7,9 +7,9 @@ title: Audience Manager概要
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: overview
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
