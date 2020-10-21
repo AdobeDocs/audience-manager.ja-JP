@@ -8,9 +8,9 @@ title: Audience Manager の訪問者認証ステータス
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,25 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 
 ## 認証ステータス：UNKNOWN {#auth-status-unknown}
 
-| リクエスト値 | 認証済みプロファイルから情報を&#x200B;**読み取る** | 認証済みプロファイルに新しい特性を&#x200B;**書き込む** |
----------|----------|---------
-| 0 | <ul><li>○（「Authenticated Option Merge Rule」が「Last Authenticated Profiles」の場合）</li><li>×（「Authenticated Option Merge Rule」が「Current Authenticated Profiles」または「No Authenticated Profile」の場合）</li></ul> | ×（特性データはデバイスプロファイルに追加される） |
-
+<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>リクエスト値 </p> </th> 
+   <th colname="col2" class="entry"> <p> 認証済みプロファイルから情報を<b>読み取る</b> </p> </th> 
+   <th colname="col3" class="entry"> <p> 認証済みプロファイルに新しい特性を<b>書き込む</b> </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
+   <td colname="col2"> <p>○（「Authenticated Option Merge Rule」が「Last Authenticated Profiles」の場合） </p> </td> 
+   <td colname="col3" morerows="1"> <p>×（特性データはデバイスプロファイルに追加される） </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> <p>×（「Authenticated Option Merge Rule」が「Current Authenticated Profiles」または「No Authenticated Profile」の場合） </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 サンプルの呼び出し（認証ステータスに対応するリクエスト値はハイライト表示）：
 
@@ -35,9 +50,25 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 
 ## 認証ステータス：AUTHENTICATED {#auth-status-authenticated}
 
-| リクエスト値 | 認証済みプロファイルから情報を&#x200B;**読み取る** | 認証済みプロファイルに新しい特性を&#x200B;**書き込む** |
----------|----------|---------
-| 1 | <ul><li>○（「Authenticated Option Merge Rule」が「Current Authenticated Profiles」または「Last Authenticated Profiles」の場合）</li><li>×（「Authenticated Option Merge Rule」が「No Authenticated Profile」の場合）</li></ul> | ○（特性データは認証済みプロファイルに追加される） |
+<table id="table_956ABF96024744308F7773E1F96482B7"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>リクエスト値 </p> </th> 
+   <th colname="col2" class="entry"> <p> 認証済みプロファイルから情報を<b>読み取る</b> </p> </th> 
+   <th colname="col3" class="entry"> <p> 認証済みプロファイルに新しい特性を<b>書き込む</b> </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
+   <td colname="col2"> <p>○（「Authenticated Option Merge Rule」が「Current Authenticated Profiles」または「Last Authenticated Profiles」の場合） </p> </td> 
+   <td colname="col3" morerows="1"> <p>○（特性データは認証済みプロファイルに追加される） </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> <p>×（「Authenticated Option Merge Rule」が「No Authenticated Profile」の場合） </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 サンプルの呼び出し（認証ステータスに対応するリクエスト値はハイライト表示）：
 
@@ -45,9 +76,25 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 
 ## 認証ステータス：LOGGED_OUT {#auth-status-logged-out}
 
-| リクエスト値 | 認証済みプロファイルから情報を&#x200B;**読み取る** | 認証済みプロファイルに新しい特性を&#x200B;**書き込む** |
----------|----------|---------
-| 2 | <ul><li>○（「Authenticated Option Merge Rule」が「Last Authenticated Profiles」の場合）</li><li>×（「Authenticated Option Merge Rule」が「Current Authenticated Profiles」または「No Authenticated Profile」の場合）</li></ul> | ×（特性データはデバイスプロファイルに書き込まれる） |
+<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>リクエスト値 </p> </th> 
+   <th colname="col2" class="entry"> <p> 認証済みプロファイルから情報を<b>読み取る</b> </p> </th> 
+   <th colname="col3" class="entry"> <p> 認証済みプロファイルに新しい特性を<b>書き込む</b> </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
+   <td colname="col2"> ○（「Authenticated Option Merge Rule」が「Last Authenticated Profiles」の場合） </td> 
+   <td colname="col3" morerows="1"> <p>×（特性データはデバイスプロファイルに書き込まれる） </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> ×（「Authenticated Option Merge Rule」が「Current Authenticated Profiles」または「No Authenticated Profile」の場合） </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 サンプルの呼び出し（認証ステータスに対応するリクエスト値はハイライト表示）：
 
