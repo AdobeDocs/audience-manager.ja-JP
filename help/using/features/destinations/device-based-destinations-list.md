@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: f37464671b9000b0d6c1ae492fc4f35dd327d59d
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1116'
 ht-degree: 87%
 
 ---
@@ -24,7 +24,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 * **最終更新日** =この更新が行われた最終日が表示され [!UICONTROL device-based destination]ます。
 * **Updates** =データをリアルタイムで送信するか、バッチ(1xday)で送信するかを示 [!DNL Audience Manager][!UICONTROL destination]します。
 * **Unsegment** = Unsegmentationは、デバイスプロファイルを不適格にし、削除するプロセスを表 [!UICONTROL segments]します。 Your ability to remove a device profile from a [!UICONTROL segment] depends on the device option used to create a [!UICONTROL Profile Merge Rule]. セグメント化解除は、 [!DNL GDPR] 削除リクエストのコンテキストでも使用されます。 「 [プロファイルの結合ルール」と「デバイスのセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 」と「 [Audience Managerパートナー」と「セグメント化解除機能」を読みます](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)。 [!DNL Audience Manager] セグメント解除の情報を、 [!UICONTROL destinations] 次の「はい **** 」とマークされた項目に送信します。
-* **Receiving[!DNL IAB TCF]consent signals** =この [!DNL Audience Manager Plug-in for IAB TCF][!DNL IAB TC] 式は、アクティベーションのプライバシー選択に従い、文字列をユーザーのパートナーに転送できるようにします。 [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
+* **Receiving [!DNL IAB TCF] consent signals** =この [!DNL Audience Manager Plug-in for IAB TCF][!DNL IAB TC] 式は、アクティベーションのプライバシー選択に従い、文字列をユーザーのパートナーに転送できるようにします。 [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
 * **[!DNL ICDS]** =この列は、サポートするパートナーをリスト [!UICONTROL Instant Cross-Device Suppression]します。 [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **Mobile Device IDs** =この列リストは、モバイルデバイスIDを受け取ることができるパートナー [!DNL Audience Manager]です。
 
@@ -51,7 +51,6 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL AOL ONE] | 2017/03/02 | リアルタイム | ○ | × | × | ○ |
 | [!DNL AppNexus] | 2017/03/02 | リアルタイム | ○ | × | ○ | × |
 | [!DNL AppNexus Yieldex] | 2017/08/10 | 1 回/日 | ○ | × | × | × |
-| [!DNL Artsai (formerly Adxcel)] | 27/01/2020 | 1 回/日 | × | × | × | × |
 | [!DNL Atedra]／[!DNL AdStanding] | 2017/03/02 | リアルタイム | ○ | × | ○ | × |
 | [!DNL Avocet] | 2017/12/06 | 1 回/日 | × | × | × | × |
 | [!DNL Bidtellect] | 2017/03/03 | リアルタイム | ○ | × | × | × |
@@ -82,7 +81,6 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL EyeView Digital] | 2018/06/14 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Fiksu] | 2017/03/03 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Flashtalking] | 2017/03/02 | 1 回/日 | × | × | × | × |
-| [!DNL Flybits] | 31/07/2020 | リアルタイム | ○ | × | ○ | ○ |
 | [!DNL FreakOut] | 2017/03/03 | 1 回/日 | ○ | × | × | × |
 | [!DNL Freewheel] | 2017/02/27 | 1 回/日 | ○ | ○ | × | ○ |
 | [!DNL Gamut Media] | 2017/03/03 | リアルタイム |  | × | × |  |
