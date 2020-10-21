@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager の FAQ
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,9 @@ ht-degree: 100%
 * [データ収集および製品統合に関するよくある質問](faq-data-collection.md)
 * [顧客データのインバウンドの取得に関するよくある質問](faq-inbound-data-ingestion.md)
 * [プライバシーとデータ保持に関するよくある質問](faq-privacy.md)
-* [People-Based Destinations に関する FAQ](faq-people-based-destinations.md)
+* [ピープルベースの宛先に関する FAQ](faq-people-based-destinations.md)
 * [製品の機能に関するよくある質問](faq-features.md)
 * [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq-profile-merge.md)
+* [Predictive Audiences に関する FAQ](faq-predictive-audiences.md)
 * [ターゲティングに関するよくある質問](faq-targeting.md)
 * [レポートに関するよくある質問](faq-reporting.md)
