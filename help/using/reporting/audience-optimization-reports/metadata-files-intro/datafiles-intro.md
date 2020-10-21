@@ -7,10 +7,10 @@ title: Audience Optimization レポートおよび実用的なログファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 99%
+source-wordcount: '1042'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 適格なデータファイル名の構造を次の構文で定義します。なお、*斜体*&#x200B;の部分にはファイルコンテンツの実際の情報が入ります。
 
-**構文：** `event type_yyyymmdd`
+**構文：** <pre><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
 ファイル名の場合：
 
@@ -39,15 +39,15 @@ ht-degree: 99%
 
 これらの要件を前提として、コンテンツに応じてデータファイルに次のように名前を付けます。
 
-* インプレッションデータ： `impressions_yyyymmdd.gz`
-* Click data: `clicks_yyyymmdd.gz`
-* Conversion data: `conversions_yyyymmdd.gz`
+* インプレッションデータ： <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
+* クリックデータ： <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
+* コンバージョンデータ： <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## データファイルのコンテンツ形式 {#content-format}
 
 適格なデータファイルのコンテンツ構造を次の構文で定義します。なお、*斜体*&#x200B;の部分には実際のデータファイル内のラベルが入ります。
 
-**構文：** `header label 1 | header label 2 ... header label n | version`
+**構文：** <pre><i>header label 1</i> | <i>header label 2</i> ... <i>header label n</i> | <i>version</i></code></pre>
 
 ファイルコンテンツの場合：
 
@@ -153,7 +153,7 @@ ht-degree: 99%
 
 データはユーザーごとに [!DNL Amazon S3] ディレクトリ内の個別の名前空間に保存されます。ファイルパスは以下の構文に従います。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
 
-**構文：** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
+**構文：** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
 ファイル配信パスのこれらの各要素を次の表で定義します。
 
