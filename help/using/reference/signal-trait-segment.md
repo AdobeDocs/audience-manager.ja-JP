@@ -1,5 +1,5 @@
 ---
-description: Audience Manager セグメントのコンポーネント、オーディエンス資格条件の設定に使用する式、イベント呼び出しでのデータの送信方法を理解します。
+description: Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、およびイベント呼び出しでのデータの送信方法について説明します。
 seo-description: Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、およびイベント呼び出しでのデータの送信方法について説明します。
 seo-title: シグナル、特性、セグメント
 solution: Audience Manager
@@ -7,7 +7,7 @@ title: シグナル、特性、セグメント
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 49%
