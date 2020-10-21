@@ -2,23 +2,21 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager ガイド
-breadcrumb-title: Audience Manager ガイド
-breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
+user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 7b58619a5208f7a48002d65d7bcbf0af602ba908
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1769'
 ht-degree: 100%
 
 ---
 
 
-# Audience Manager ガイド {#user-guide}
+# Audience Manager ユーザーガイド {#user-guide}
 
-+ [Audience Manager ガイド](aam-home.md)
++ [Audience Manager の製品マニュアル](aam-home.md)
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
@@ -36,7 +34,6 @@ ht-degree: 100%
          + [同意管理](overview/data-security-and-privacy/data-privacy-consent.md)
          + [IAB TCF 用 Audience Manager プラグイン](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [データガバナンス](overview/data-security-and-privacy/data-governance.md)
-   + [Audience Manager のアクセシビリティ](overview/accessibility-in-aam.md)
 + 機能 {#features}
    + [アドレス可能なオーディエンス](features/addressable-audiences.md)
    + 管理 {#administration}
@@ -78,7 +75,7 @@ ht-degree: 100%
       + [データエクスプローラー - 概要、メリット、ユースケース](features/data-explorer/data-explorer-overview.md)
       + [シグナルについて](features/data-explorer/data-explorer-understanding-signals.md)
       + [シグナルダッシュボード](features/data-explorer/data-explorer-signals-dashboard.md)
-      + シグナル検索 {#signal-search}
+      + シグナル検索 {#signals-search}
          + [シグナル検索の概要](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [キー値ペアによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [フィルターによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
