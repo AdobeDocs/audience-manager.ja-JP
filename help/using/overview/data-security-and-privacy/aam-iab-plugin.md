@@ -5,9 +5,9 @@ seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: Audience ManagerIAB TCF 用 プラグイン
 feature: data governance & privacy
-translation-type: ht
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+workflow-type: tm+mt
 source-wordcount: '2449'
 ht-degree: 100%
 
