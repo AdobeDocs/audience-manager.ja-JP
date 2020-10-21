@@ -7,15 +7,15 @@ title: get_aamCookie コード
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 7d0735fa9620b7765db7be8d3a7c8731536ffd32
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 100%
 
 ---
 
 
-# get_aamCookie コード {#get-aamcookie-code}
+# `get_aamCookie` コード {#get-aamcookie-code}
 
 Audience Manager の一意のユーザー ID（[!DNL UUID]）値を取得するために [!DNL DART Enterprise]（および他の宛先タイプ）で必要になるコードです。
 
