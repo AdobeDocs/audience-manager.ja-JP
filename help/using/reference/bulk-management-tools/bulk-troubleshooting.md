@@ -7,7 +7,7 @@ title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -78,5 +78,5 @@ ht-degree: 100%
 
 ## エラーメッセージ
 
-一括変更をおこなう際にエラーメッセージが表示される場合があります。エラーメッセージを解釈するには、API ドキュメントの[定義されているレスポンスコード](/help/using/api/rest-api-main/aam-api-getting-started.md#response-codes-defined)を参照してください。
+一括変更をおこなう際にエラーメッセージが表示される場合があります。エラーメッセージを解釈するには、API ドキュメントの[定義されているレスポンスコード](/help/using/api/rest-api-main/aam-api-getting-started.md)を参照してください。
 
