@@ -7,7 +7,7 @@ title: DIL ツール
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 91%
@@ -174,20 +174,20 @@ r_dil_get_metatags.xml
 
 ### サンプルコード
 
-```js
+<pre class="&ldquo;javascript&rdquo;"><code>
 var dataLib = DIL.create({ 
-     partner: 'partnerName', 
-     containerNSID: containerNSID 
+     partner: '<i>partnerName'</i>, 
+     containerNSID: <i>containerNSID</i> 
 }); 
 
-dataLib.api.signals(DIL.tools.getMetaTags('application', 'keywords',  'description'), 'c_').submit();
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
 var dataLib = DIL.create({ 
-     partner: `partnerName', 
-     containerNSID: containerNSID 
+     partner: <i>`partnerName'</i>, 
+     containerNSID: <i>containerNSID</i> 
 }); 
 
-dataLib.api.signals(DIL.tools.getMetaTags('application','keywords', 'description'), 'c_').submit();
-```
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
+</code></pre>
