@@ -8,7 +8,7 @@ title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 54%
@@ -31,7 +31,7 @@ While you can refer to most of these IDs by their standalone names, most of them
 ## [!DNL Audience Manager] ID のリスト {#id-list}
 
 | ID | 名前と説明 | 使用例 | ユーザーインターフェイスの場所 |
-|---|-----------|---|------------|
+|---|---|---|---|
 | [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID]（別名） [!UICONTROL Device ID]。 数値型で 38 桁のデバイス ID。[!DNL Audience Manager] はこの値を、操作するデバイスのそれぞれに関連付けます。Think of this ID whenever you see a mention of unique users in the [!DNL Audience Manager] UI. Audience Manager saves this ID as a [!DNL cookie] in the `demdex.net` 3rd party domain. | [!DNL DCS] 呼び出しでは、`uuid` の前に `d_` プレフィックスが付きます。<br>例：`d_uuid = 07955261652886032950143702505894272138` | You can filter [!DNL traits] by [!UICONTROL Device ID] when creating [Look-Alike Models](../features/algorithmic-models/create-model.md), and [building segments](../features/segments/segment-builder.md). また、[特性に関する一般レポート](../reporting/general-reports.md)および[特性に関するトレンドレポート](../reporting/trend-reports.md)を実行中に、[!UICONTROL Device ID] で結果をフィルタリングできます。 |
 | [!DNL ImsOrgId] | [!DNL Organization ID]をインストールします。This is the ID that a company is provided with upon signing up for an [!DNL Experience Cloud] account. | `5DC5123F5245B1D20A490D46@AdobeOrg` | ユーザーインター [!DNL Audience Manager] フェイスには表示されません。 To learn how you can find your company&#39;s [!DNL Organization ID], read [Find your Organization ID](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255). |
 | [!DNL PID] | [!DNL Partner ID]をインストールします。The [!DNL PID] is a company&#39;s ID in [!DNL Audience Manager]. Audience Manager は [!DNL imsOrgId] を [!DNL PID] に関連付けます。 | `1352` | ユーザーインター [!DNL Audience Manager] フェイスには表示されません。 |
