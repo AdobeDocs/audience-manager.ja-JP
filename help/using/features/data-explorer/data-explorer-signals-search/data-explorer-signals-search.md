@@ -5,15 +5,15 @@ seo-title: シグナル検索
 title: シグナル検索
 feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# シグナル検索の概要 {#signal-search}
+# シグナル検索の概要 {#signals-search}
 
 特定の期間に受信した使用済みおよび未使用のシグナルを検索します。シグナルを検索するには、Audience Data／Signals／Search に移動します。
 
