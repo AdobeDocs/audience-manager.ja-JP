@@ -7,10 +7,10 @@ title: Daily Trait Variation レポート
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 99%
+source-wordcount: '773'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 標準偏差は、平均からの変動または分散の量（または平均／期待値）を測定します。低い標準偏差は、データポイントが平均に非常に近くなる傾向があることを示します。高い標準偏差は、データポイントが幅広い値に分散していることを示します。
 
-![スクリーンショット日別特性バリエーションレポート](assets/daily_trait_variation.png)
+![](assets/daily_trait_variation.png)
 
 [!UICONTROL Date] リストを使用して、レポート用の 1 つ以上の日付を選択します。選択したすべての日付にわたるすべての特性の標準偏差の範囲を視覚的に表す、色分けされた棒グラフがリストの下部に表示されます。黒い縦の線は平均を示します。
 
@@ -56,8 +56,8 @@ ht-degree: 99%
 
 1 ヶ月後、[!UICONTROL Daily Trait Variation] レポートを実行し、サイト分析によれば訪問者数が増加しているにもかかわらず、`productPage == "smartphones"` 特性に関して大きい負の偏差があることに気がつきます。この情報に基づいて、新しい製品ページに対応するように [!DNL Audience Manager] 内の特性を更新していないことに気がつきます。そこで、次の特性を作成する必要があることがわかります。
 
-* `productPage == "samsung"`
-* `productPage == "apple"`
-* `productPage == "huawei"`
+* productPage == &quot;samsung&quot;
+* productPage == &quot;apple&quot;
+* productPage == &quot;huawei&quot;
 
 これをおこなえば、オーディエンスが、新しく作成した特性の対象に認定されるようになります。
