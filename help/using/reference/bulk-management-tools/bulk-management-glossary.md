@@ -7,10 +7,10 @@ title: 一括管理ツールの用語集
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 99%
+source-wordcount: '346'
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>宛先へのセグメントの送信を開始できる時点を表します。形式を使用 <code>yyyy-mm-dd</code> します。 </p> </td> 
+   <td colname="col2"> <p>宛先へのセグメントの送信を開始できる時点を表します。<tt>yyyy-mm-dd</tt> 形式で表されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
