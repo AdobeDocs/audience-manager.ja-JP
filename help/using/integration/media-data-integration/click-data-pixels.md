@@ -1,15 +1,15 @@
 ---
-description: 'null'
-seo-description: 'null'
+description: クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。
+seo-description: クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。
 seo-title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '686'
 ht-degree: 95%
 
 ---
@@ -137,7 +137,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
    <td colname="col02"> <p> <code>${gdpr_consent_XXXX}</code> </p> </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> の場合 <code>gdpr=1</code>、が <code>${gdpr_consent_XXXX}</code> 文字列とベンダーIDに置き換えられます( <code>gdpr_consent</code> IAB仕様を参照 <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"></a>)。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> の場合 <code>gdpr=1</code>、は <code>${gdpr_consent_XXXX}</code> 文字列とベンダーIDに置き換えられます( <code>gdpr_consent</code> IAB仕様を参照 <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"></a>)。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
   </tr> 
  </tbody> 
 </table>
