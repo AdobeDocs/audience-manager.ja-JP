@@ -8,10 +8,10 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 95%
+source-wordcount: '575'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 
 ## ID マッピングの上限 {#id-mapping-limits}
 
-次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。ID が以下のいずれかの上限に達すると、Audience Manager は、保存時期が最も古い ID マッピングを削除し新しい ID マッピングを追加する先入れ先出し（[!DNL FIFO]）方式で、新規 ID マッピングを追加します。Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
+次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。IDが次のいずれかの制限値に達すると、Audience Managerは、最も古い格納済みIDマッピングを削除し、新しいIDマッピングを追加することで、FIFO（先入れ先出し）ロジックに基づいて新しいIDマッピングを追加します。 Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
 
 | ID マッピング | 上限 |
 |-----------|-------------- |
