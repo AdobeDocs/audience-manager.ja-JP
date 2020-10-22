@@ -7,9 +7,9 @@ title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '667'
 ht-degree: 87%
 
 ---
@@ -53,10 +53,7 @@ ht-degree: 87%
     </ul> <p>これを <code>%dpid_<i>data source id</i>%</code> でおこなうには、<span class="keyword">Audience Manager</span> パートナーは、次のような形式でマクロを設定します。 </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>このマクロは <code> 1</code> を <code> CustomerABC</code> に置き換えます。 </p> <p> 
-     <draft-comment>
-       AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 に基づきます 
-     </draft-comment> </p> </td> 
+    </ul> <p>このマクロは <code> 1</code> を <code> CustomerABC</code> に置き換えます。 </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
