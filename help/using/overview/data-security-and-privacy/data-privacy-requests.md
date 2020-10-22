@@ -8,10 +8,10 @@ title: データのプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1477'
+ht-degree: 96%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 100%
 * [プライバシーサービスの UI](https://privacyui.cloud.adobe.io/) を使用する。[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)のドキュメントを参照してください。
 * **[!DNL Privacy Service API]**&#x200B;を使用する。[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)のドキュメントおよび[こちらの](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)[!DNL API] リファレンスを参照してください。
 
-個々のデータのプライバシーリクエストを送信する場合、 **[Audience Manager 識別子](data-privacy-ids.md)** の節で説明されているように、[!DNL Audience Manager]識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
+個々のデータのプライバシーリクエストを送信する場合、 **[Audience Manager 識別子](data-privacy-ids.md)** の節で説明されているように、[!DNL Audience Manager] 識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
 
 [プライバシーサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)は、データアクセスおよびデータ削除の 2 種類のリクエストをサポートします。
 
 ## データアクセスリクエスト {#access-data}
 
-個々のデータアクセスリクエストは、[プライバシ－サービスの UI](https://privacyui.cloud.adobe.io/)（ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)）または [!DNL Privacy Service API]（ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)、[!DNL API]レフェレンスは [こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)）を呼び出して送信できます。
+You can send individual data access requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the Privacy Service API (documentation [here](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
 [プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 ## データ削除リクエスト {#delete-data}
 
-データ削除リクエストは、[プライバシーサービスの UI](https://privacyui.cloud.adobe.io/)（ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)）または[!DNL Privacy Service API]（ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)、[!DNL API] リファレンスは[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)）を呼び出して送信できます。
+You can send data deletion requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the Privacy Service API (documentation [here](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
 [プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
