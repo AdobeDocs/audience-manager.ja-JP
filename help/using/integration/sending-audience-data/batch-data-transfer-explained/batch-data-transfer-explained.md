@@ -5,9 +5,9 @@ seo-title: バッチデータ転送プロセスの説明
 solution: Audience Manager
 title: バッチデータ転送プロセスの説明
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
-feature: null
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 84%
