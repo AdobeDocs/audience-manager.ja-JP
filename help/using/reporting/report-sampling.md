@@ -7,9 +7,9 @@ title: 選択した Audience Manager レポートでのデータサンプリン�
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: 397be3f44bf865633140bb45630a78be0a0d2219
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 74%
 
 ---
@@ -60,7 +60,7 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 
 ## Minhashサンプリング手法の使用 {#minhash}
 
-Audience Managerは、 [Minhash](https://en.wikipedia.org/wiki/MinHash) (Minhash)サンプリング手法に基づき、One Permutation Hashing（1置換ハッシュ）データスケッチの上にある特性およびセグメント評価子を計算する新しい方法を使用します。 この新しい方法では、Jaccardの類似性見積もりの標準の見積もりよりも低い分散が生成されます。 この方法を使用するレポートについては、以下のセクションを参照してください。
+Audience Managerは、 [Minhash](https://en.wikipedia.org/wiki/MinHash) (Minhash)サンプリング手法に基づき、One Permutation Hashing（1置換ハッシュ）データスケッチの上にある特性およびセグメント評価子を計算する新しい方法を使用します。 この新しい方法では、Jaccardの類似性に関する標準の見積もりよりも低い分散が生成されます。 この方法を使用するレポートについては、以下のセクションを参照してください。
 
 <!--
 
