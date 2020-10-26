@@ -6,9 +6,9 @@ user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
+source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1772'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Audience Manager ユーザーガイド {#user-guide}
 
-+ [Audience Manager の製品マニュアル](aam-home.md)
++ [Audience Manager ガイド](aam-home.md)
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
