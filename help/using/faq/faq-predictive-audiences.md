@@ -5,11 +5,11 @@ seo-title: Predictive Audiences に関する FAQ
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 1. 選択したペルソナの [!UICONTROL traits]／[!UICONTROL segments] に十分なユーザープロファイルがない。各ペルソナが少なくとも数百のユーザープロファイルを含むように [!UICONTROL traits] または [!UICONTROL segments] を選択することをお勧めします。
 1. 選択したペルソナの [!UICONTROL traits]／[!UICONTROL segments] のユーザープロファイルに十分なデータがない（分析するのに十分な特性がない）。
-1. ターゲットオーディエンスの特性/セグメントには、アクティブなユーザーもオンボードしたユーザーもありません。
+1. ターゲットオーディエンスの特性／セグメントには、アクティブなユーザーもオンボーディングされたユーザーもありません。
 1. 過去 30 日以内のアクティブまたはオンボーディングされたターゲットオーディエンスユーザーのユーザープロファイルに、十分なデータがない（分析するのに十分な特性がない）。
 1. ターゲットオーディエンスセグメントでは、モデルに対して選択したものとは異なる [!UICONTROL Profile Merge Rule] が使用されます。
 1. ターゲットオーディエンス特性のデータソースが、モデルに選択した [!UICONTROL Profile Merge Rule] に含まれていない場合があります。
@@ -92,7 +92,7 @@ ht-degree: 98%
 
 ターゲットオーディエンス [!UICONTROL segment] が、認証済みのプロファイルと [!DNL Device Graph] プロファイルに基づいた [!UICONTROL Profile Merge Rule] を使用し、予測 [!UICONTROL segments] に同じ [!UICONTROL Profile Merge Rule] を選択したとします。この場合、デバイスレベルとクロスデバイスレベル [!UICONTROL traits] は、モデルのトレーニングや、ユーザーの予測 [!UICONTROL segment] への配置に使用されます。
 
-ただし、デバイスのプロファイルのみを基にして [!UICONTROL Profile Merge Rule] を選択した場合、クロスデバイス [!UICONTROL traits] に影響を与えることはなく、ユーザーの予測 [!UICONTROL segment] への配置には貢献しません 。これは、モデルの精度とリーチに悪影響を与える可能性があります。
+ただし、デバイスのプロファイルのみを基にして [!UICONTROL Profile Merge Rule] を選択した場合、クロスデバイス [!UICONTROL traits] に影響を与えることはなく、ユーザーの予測 [!UICONTROL segment] への配置には貢献しません。これは、モデルの精度とリーチに悪影響を与える可能性があります。
 
 使用例を慎重に分析し、モデルに学習させる [!UICONTROL trait] タイプと分類に使用するデータのタイプを決定します。
 
