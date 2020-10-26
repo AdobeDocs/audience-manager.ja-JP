@@ -3,24 +3,24 @@ description: Audience Manager は、オンラインでのオーディエンス�
 seo-description: Audience Manager（AAM）の技術ドキュメントとセルフヘルプ。AAM には、オンラインでのオーディエンスデータ管理用に業界をリードする製品が備わっており、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
 seo-title: Adobe Audience Manager 製品技術ドキュメント
 solution: Audience Manager
-title: Audience Manager の製品マニュアル
+title: Audience Manager ガイド
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
-translation-type: ht
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
-source-wordcount: '669'
+translation-type: tm+mt
+source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
+workflow-type: tm+mt
+source-wordcount: '665'
 ht-degree: 100%
 
 ---
 
 
 
-# Audience Manager の製品マニュアル {#audience-manager-product-documentation}
+# Audience Manager ガイド {#audience-manager-product-documentation}
 
 このテクニカルドキュメントガイドは、オンラインオーディエンスデータ管理の業界トップのサービスである Audience Manager に対するセルフサポートを提供します。アドビの製品とサービスは、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
 
-## この製品ドキュメントガイドの使用
+## このガイドの使用方法
 
 * **左側のナビゲーション**&#x200B;で、トピック別およびサブトピック別にコンテンツを参照します。
 * 何を探したいかががわかっている場合は、ページ上部の&#x200B;**検索**&#x200B;フィールドを使用します。
@@ -33,7 +33,7 @@ ht-degree: 100%
 * 最新の Audience Manager リリースノートを参照し、**リリースノートおよび最新の機能**&#x200B;の節で最新の機能の詳細をお読みください。
 * 最後に、「**学習センター - 推奨される Audience Manager および Experience Cloud のリソース**」の節で、フォーラム、ビデオチュートリアル、対面およびオンラインでのトレーニングコースなど、より多くの Experience Cloud リソースを参照できます。
 
-<br>
+<br> 
 
 ## Audience Manager の主な機能
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 </table>
 
 
-<br>
+<br> 
 
 ## Audience Manager の使用の手引き
 
@@ -81,14 +81,14 @@ ht-degree: 100%
    <td colname="col1"> <p><b>概念に関する重要なドキュメント</b></p>
    <p>Audience Manager の概念について詳しくは、以下のページを参照してください。 
    <ul><li><a href="/help/using/overview/aam-overview.md"> Audience Manager の概要</a></li><li><a href="/help/using/reference/signal-trait-segment.md">シグナル、特性、セグメント</a></li><li><a href="/help/using/reference/aam-glossary.md"> 用語集</a> </li><li><a href="/help/using/reference/ids-in-aam.md">ID のインデックス</a></li></ul></p>
-   <br>
+   <br> 
    <p><b>Audience Manager の実装</b></p>
    <p> 以下のページを読んで、Audience Manager の実装を開始します。
      <ul>
      <li><a href="/help/using/integration/data-integration-methods.md">データ統合方法</a></li>
      <li><a href="/help/using/integration/implement-audience-manager.md"> 実装ガイド </a></li>
      </ul> </p>
-     <br>
+     <br> 
    <p> <b>技術実装ガイド</b> </p> <p>Audience Manager API を使い始めて、アプリで Audience Manager を設定します。</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API の使用の手引き</a></li>
@@ -148,7 +148,7 @@ ht-degree: 100%
 
 -->
 
-<br>
+<br> 
 
 ## リリースノートと最新の機能
 
@@ -157,7 +157,7 @@ ht-degree: 100%
   <tr> 
    <td> <p> <b>リリースノート</b> </p> <p> 
      新機能と修正点については、最新の <a href="https://docs.adobe.com/content/help/ja-JP/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。</p> 
-     <br>
+     <br> 
      <p> <b>最新の機能</b> </p> <p> 
      Audience Manager の最新機能については、以下を参照してください。</p>
      <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google によるピープルベースのリンク先との一致</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0 用 Audience Manager プラグイン</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
@@ -188,7 +188,7 @@ Read about the latest Audience Manager features:
 
 -->
 
-<br>
+<br> 
 
 ## 学習センター - 推奨される Audience Manager および Experience Cloud のリソース
 
@@ -208,7 +208,7 @@ Read about the latest Audience Manager features:
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/jp/support/experience-cloud.html" scope="external" format="https">Experience Cloud 製品ドキュメントのホーム</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/jp/support/audience-manager.html" format="https" scope="external">Audience Manager のラーニングとサポート</a> </li> 
      </ul> </p> 
-     <br>
+     <br> 
      <p><a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/documentation-updates/docs-2020.html">ドキュメントの更新（2020 年）</a>も参照してください。 </p> </td>
   </tr> 
  </tbody> 
