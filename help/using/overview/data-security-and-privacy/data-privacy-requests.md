@@ -7,11 +7,11 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: データのプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1477'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 [!DNL Audience Manager] から消費者データにアクセスして削除する個々のリクエストを送信するには、次の 2 つの方法があります。
 
 * [プライバシーサービスの UI](https://privacyui.cloud.adobe.io/) を使用する。[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)のドキュメントを参照してください。
-* **[!DNL Privacy Service API]**&#x200B;を使用する。[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)のドキュメントおよび[こちらの](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)[!DNL API] リファレンスを参照してください。
+* **[!DNL Privacy Service API]**&#x200B;を使用する。[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)のドキュメントおよび[こちらの](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml) [!DNL API] リファレンスを参照してください。
 
 個々のデータのプライバシーリクエストを送信する場合、 **[Audience Manager 識別子](data-privacy-ids.md)** の節で説明されているように、[!DNL Audience Manager] 識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
 
@@ -37,7 +37,7 @@ ht-degree: 96%
 
 ## データアクセスリクエスト {#access-data}
 
-You can send individual data access requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the Privacy Service API (documentation [here](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
+個々のデータアクセスリクエストは、[Privacy Service UI](https://privacyui.cloud.adobe.io)（ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)）を使用して、または Privacy Service API （ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)、[!DNL API] リファレンスは[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)）を呼び出して送信できます。
 
 [プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
@@ -47,7 +47,7 @@ You can send individual data access requests through the [Privacy Service UI](ht
 
 ## データ削除リクエスト {#delete-data}
 
-You can send data deletion requests through the [Privacy Service UI](https://privacyui.cloud.adobe.io) (documentation [here](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) or by calling the Privacy Service API (documentation [here](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html) and [!DNL API] reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
+データ削除リクエストは、[Privacy Service UI](https://privacyui.cloud.adobe.io)（ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)）を使用して、または Privacy Service API （ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)、[!DNL API] リファレンスは[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)）を呼び出して送信できます。
 
 [プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
@@ -66,7 +66,7 @@ You can send data deletion requests through the [Privacy Service UI](https://pri
 
 このような場合、お客様はアクティベーションパートナーに対して、[!DNL Audience Manager] から自動で削除要求を送信することはできません。
 
- のアクティベーションパートナーの中でどれがセグメント解除をサポートしているかを確認するには、[パートナーに関する Excel シート](assets/AAM-Partners-October2019.xlsx)をダウンロードしてください。[!DNL Audience Manager]
+セグメント解除をサポートする [!DNL Audience Manager] アクティベーションパートナーを確認するには、[パートナーに関する Excel シート](assets/AAM-Partners-October2019.xlsx)をダウンロードしてください。
 
 ## オプトアウト要求 {#opt-out-requests}
 
@@ -107,8 +107,8 @@ You can send data deletion requests through the [Privacy Service UI](https://pri
 
 エンドユーザーは、アドビの業界標準パートナーの Web サイトを訪問してグローバルデータ収集からオプトアウトすることもできます。
 
-* [Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#! /)
-* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#! /)。
+* [Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/)
+* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#!/)。
 
 上記のオプトアウトリクエストをおこなうと、次の処理がおこなわれます。
 
@@ -174,7 +174,7 @@ You can send data deletion requests through the [Privacy Service UI](https://pri
 
 このような場合、お客様はアクティベーションパートナーに対して、[!DNL Audience Manager] から自動で削除要求を送信することはできません。
 
-セグメント解除をサポートする アクティベーションパートナーを確認するには、[デバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)を参照してください。[!DNL Audience Manager]
+セグメント解除をサポートする [!DNL Audience Manager] アクティベーションパートナーを確認するには、[デバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)を参照してください。
 
 ## データ修正要求 {#correction}
 
