@@ -7,9 +7,9 @@ title: キー変数のプレフィックスに関する要件
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 1c0d40082cd0753a9b4326aae764eb74aefb8be4
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '345'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager</span> レベル。このデータは <span class="keyword">Audience Manager</span> エコシステム内で共通です。より包括的なリストについては、<a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md">DCS API 呼び出しでサポートされている属性</a>を参照してください。 <p>このプレフィックスを使用するシグナルは、<a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">シグナル検索</a>では表示されません。</p></p> </td> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> レベル。このデータは <span class="keyword">Audience Manager</span> エコシステム内で共通です。より包括的なリストについては、<a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md">DCS API 呼び出しでサポートされている属性</a>を参照してください。</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
