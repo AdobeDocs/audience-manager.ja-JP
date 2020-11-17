@@ -33,7 +33,7 @@ This page illustrates the process of creating [!DNL Facebook Website Custom Audi
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] セグメントを作成し、新しい [!DNL Facebook] 宛先に割り当てる準備ができている。  UI での[セグメントの作成方法](/help/using/features/segments/segment-builder.md)をご確認ください。[!DNL Audience Manager]
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID])バージョン4.1.0以降。 **[こちら](https://github.com/Adobe-Marketing-Cloud/id-service/releases)** から最新バージョンをダウンロードできます。
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL])バージョン9.0以降、こちらからダウンロード **[でき](https://github.com/Adobe-Marketing-Cloud/dil/releases)**ます。 また、[サーバー側転送（SSF）](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を使用して にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[!DNL Audience Manager][!DNL AppMeasurement]Analyticsコードマネージャー[を使用してダウンロードします](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/code-manager-admin.html)。
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL])バージョン9.0以降、こちらからダウンロード **[でき](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;ます。 また、[サーバー側転送（SSF）](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を使用して にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[!DNL Audience Manager][!DNL AppMeasurement] Analyticsコードマネージャー [を使用してダウンロードします](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/code-manager-admin.html)。
 
 手順 3 と 4 で、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) または [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) を使用して、ライブラリをインストールまたはアップグレードすることをお勧めします。
 
