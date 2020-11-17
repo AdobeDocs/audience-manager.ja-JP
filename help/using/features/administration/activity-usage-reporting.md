@@ -52,7 +52,7 @@ ht-degree: 99%
 [!UICONTROL Activities] では、オンサイトとオフサイトにおける Audience Manager との全インタラクションの集計を定義し、次のカテゴリに分けます。
 
 * **[!UICONTROL Server Calls]**：Web サイト、サーバー、電子メール、モバイルアプリケーション、その他のシステムから Audience Manager に送信されるデータ収集または取得イベント。
-* **[!UICONTROL Pixel Calls]（旧称[!UICONTROL Impression Server Calls]）**：広告から収集されたデータ（ターゲットプラットフォームのインプレッション数など）または Audience Manager に対する電子メールインプレッション呼び出し。クエリ文字列内に`d_event`パラメーターが必要です。
+* **[!UICONTROL Pixel Calls]（旧称 [!UICONTROL Impression Server Calls]）**：広告から収集されたデータ（ターゲットプラットフォームのインプレッション数など）または Audience Manager に対する電子メールインプレッション呼び出し。クエリ文字列内に `d_event` パラメーターが必要です。
 * **[!UICONTROL On-Boarded Records]**：自社の顧客関係管理システム（CRM）や、その他のオフラインデータファイル（例：コールセンターレコード、デバイス ID、外部データプロバイダーからのカスタムデータフィード）から取り込んだ一意のレコード。
 * **[!UICONTROL Log File Records]**：ターゲットプラットフォームから Audience Manager に取り込まれたログファイルの一意のレコード。
 
