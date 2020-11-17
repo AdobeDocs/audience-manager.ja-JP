@@ -35,18 +35,18 @@ In the [!UICONTROL Marketplace], reporting tools let you track feed usage and th
 
 >[!TIP]
 >
->**[Adobe Audience Finder](https://www.adobe-audience-finder.com/)**を使用して、高品質のデータフィードを見つけ、サブスクリプションを購入できます。Then, go back into the[!DNL Audience Manager]user interface or use the[Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API)to subscribe to the feeds you found.
+>**[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** を使用して、高品質のデータフィードを見つけ、サブスクリプションを購入できます。Then, go back into the [!DNL Audience Manager] user interface or use the [Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) to subscribe to the feeds you found.
 
 ![buyer-marketplace-overview](assets/buyer-marketplace-overview.png)
 
 [!UICONTROL Marketplace] のリストには、お客様に合ったデータフィードを見つけるために、並べ替えたり検索したりできる情報が含まれます。[!UICONTROL Marketplace] の購入者のリストには、以下の項目が含まれます。
 
 * **[!UICONTROL Search]**：名前またはテキストの説明でデータフィードを検索します。
-* **[!UICONTROL Similar Traits]**: データフィード [!UICONTROL traits] からの類似の数を表示します。 This column is shown after you enter a [!UICONTROL trait] or [!UICONTROL segment] to filter by in the **[!UICONTROL Similarity To]** section.
+* **[!UICONTROL Similar Traits]**:データフィード [!UICONTROL traits] からの類似の数を表示します。 This column is shown after you enter a [!UICONTROL trait] or [!UICONTROL segment] to filter by in the **[!UICONTROL Similarity To]** section.
 * **[!UICONTROL Name]**：データフィードの名前。
 * **[!UICONTROL Description]**：データフィードのコンテンツに関する情報。
 * **[!UICONTROL Provider]**：データプロバイダーの名前。
-* **[!UICONTROL Traits]**: データフィード [!UICONTROL traits] 内のの数。
+* **[!UICONTROL Traits]**:データフィード [!UICONTROL traits] 内のの数。
 * **[!UICONTROL 30 Day Provider Unique Users]**：過去 30 日で確認された個別ユーザーの数。
 * **[!UICONTROL 30 Day Overlapped Uniques]**：プロバイダーのアカウントのユーザーと重複するアカウント内のユーザーの数。
 * **[!UICONTROL Feed Overlap]**: 30日間の重複している個別訪問者数の値が割合で表示され、(データ購入者 30 日間の重複している個別訪問者数 / データ購入者の 30 日間の個別訪問者数) x 100 で計算されます。
@@ -57,10 +57,10 @@ In the [!UICONTROL Marketplace], reporting tools let you track feed usage and th
 
 ニーズに最適なデータフィードを簡単に見つけるには、[!UICONTROL Marketplace] ページの左側で使用できる次のフィルターを使用します。
 
-* **[!UICONTROL Similarity To]**: 選択したまたはのいずれかとの類似性に基づいて、データフィードをフィルタ [!UICONTROL trait] ー [!UICONTROL segment] します。 When entering the [!UICONTROL trait] or segment to compare to, you can use the [!UICONTROL trait] or [!UICONTROL segment] ID, or their respective names.
-* **[!UICONTROL Similarity Cutoff]**: スライダーをドラッグして、選択したまたはに対するデータフィードの類似性に基づいてデータフィード [!UICONTROL traits] をフィルター [!UICONTROL trait] し [!UICONTROL segment]ます。 To learn more about [!UICONTROL trait] similarity scores, see [Trait Similarity Score](../../segments/trait-recommendations.md#trait-similarity-score)
+* **[!UICONTROL Similarity To]**:選択したまたはのいずれかとの類似性に基づいて、データフィードをフィルタ [!UICONTROL trait] ー [!UICONTROL segment] します。 When entering the [!UICONTROL trait] or segment to compare to, you can use the [!UICONTROL trait] or [!UICONTROL segment] ID, or their respective names.
+* **[!UICONTROL Similarity Cutoff]**:スライダーをドラッグして、選択したまたはに対するデータフィードの類似性に基づいてデータフィード [!UICONTROL traits] をフィルター [!UICONTROL trait] し [!UICONTROL segment]ます。 To learn more about [!UICONTROL trait] similarity scores, see [Trait Similarity Score](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**：サブスクリプション状況に基づいてデータフィードをフィルタリングします。
-* **[!UICONTROL Plan Use Case]**: サポートされている使用例に基づいて、データフィードをフィルターします。 **[!UICONTROL Activation]**、 **[!UICONTROL Segments and Overlap]**&#x200B;および **[!UICONTROL Modelling]**。
+* **[!UICONTROL Plan Use Case]**:サポートされている使用例に基づいて、データフィードをフィルターします。 **[!UICONTROL Activation]**、 **[!UICONTROL Segments and Overlap]**&#x200B;および **[!UICONTROL Modelling]**。
 * **[!UICONTROL Plan Unit]**：価格タイプに基づいてデータフィードをフィルタリングします。
 
 ## 類似するものの検索 [!UICONTROL Traits] {#finding-similar-traits}
