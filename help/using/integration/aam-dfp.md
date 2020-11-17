@@ -15,7 +15,7 @@ ht-degree: 55%
 ---
 
 
-# Audience Manager 先としての Google Ad Manager（旧称 DFP） {#dfp-as-an-audience-manager-destination}
+# Audience Manager の宛先としての Google Ad Manager（旧称 DFP） {#dfp-as-an-audience-manager-destination}
 
 [!DNL Google Ad Manager] を宛先として設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
 
