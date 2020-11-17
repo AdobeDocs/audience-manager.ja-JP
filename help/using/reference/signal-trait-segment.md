@@ -1,6 +1,6 @@
 ---
-description: Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、およびイベント呼び出しでのデータの送信方法について説明します。
-seo-description: Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、およびイベント呼び出しでのデータの送信方法について説明します。
+description: Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、イベント呼び出しでのデータの送信方法について説明します。
+seo-description: Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、イベント呼び出しでのデータの送信方法について説明します。
 seo-title: シグナル、特性、セグメント
 solution: Audience Manager
 title: シグナル、特性、セグメント
