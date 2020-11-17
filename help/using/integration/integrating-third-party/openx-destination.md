@@ -31,8 +31,8 @@ ht-degree: 98%
 
 Audience Manager の宛先として [!DNL OpenX] を設定する前に、以下を確認してください。
 
-* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library]コードをサイトに導入する必要があります。[!UICONTROL DIL]を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
-* **`get_aamCookie`関数：**Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または`<head>`コードブロック内に配置します。
+* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library] コードをサイトに導入する必要があります。 [!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
+* **`get_aamCookie`関数：** Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または `<head>` コードブロック内に配置します。
 * **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。データは raw 形式でもかまいませんが、各レコードには Audience Manager `UUID` が含まれている必要があります。Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
 ### キーと値のデータ：形式の要件
