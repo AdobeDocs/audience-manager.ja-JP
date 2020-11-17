@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1772'
 ht-degree: 100%
 
