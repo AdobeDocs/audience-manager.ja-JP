@@ -36,18 +36,18 @@ ht-degree: 65%
 1. クリック **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. ![](assets/icon_add.png) をクリックして、[!UICONTROL Create New User] ページを表示します。
 1. 「**[!UICONTROL User Details]**」で、以下のフィールドに入力します。
-   * **[!UICONTROL Username]：**Audience Manager での一意のユーザー名を指定します。
-   * **[!UICONTROL First Name]:**ユーザーの名を指定します。
-   * **[!UICONTROL Last Name]:**ユーザーの姓を指定します。
-   * **[!UICONTROL Email Address]:**ユーザーの電子メールアドレスを指定します。[!DNL Audience Manager]は標準の通知をユーザーに送信しません。[!DNL Audience Manager]管理者はユーザーの電子メールアドレスにアクセスできるので、必要に応じて手動でユーザーに電子メールを送信できます。例えば、ユーザーがパスワードを忘れた場合、このフィールドに指定した電子メールアドレスを使用して、一時パスワードとパスワードのリセット手順を送信します。
-   * **[!UICONTROL Phone Number]:**ユーザーの電話番号を指定します。
-   * **[!UICONTROL Is Admin]:**このユーザーが[!DNL Audience Manager]管理者かどうかを指定します。 管理ユーザーはユーザーの管理（作成や編集など）とグループの管理（作成、権限の割り当てなど）ができます。管理者でないユーザーは、自分の電子メールアドレスの編集やパスワードのリセットなど、自分のユーザープロファイルのみ制御できます。詳しくは、[アカウント設定の編集](../../features/administration/edit-account-settings.md)を参照してください。
+   * **[!UICONTROL Username]：** Audience Manager での一意のユーザー名を指定します。
+   * **[!UICONTROL First Name]:** ユーザーの名を指定します。
+   * **[!UICONTROL Last Name]:** ユーザーの姓を指定します。
+   * **[!UICONTROL Email Address]:** ユーザーの電子メールアドレスを指定します。 [!DNL Audience Manager] は標準の通知をユーザーに送信しません。[!DNL Audience Manager] 管理者はユーザーの電子メールアドレスにアクセスできるので、必要に応じて手動でユーザーに電子メールを送信できます。例えば、ユーザーがパスワードを忘れた場合、このフィールドに指定した電子メールアドレスを使用して、一時パスワードとパスワードのリセット手順を送信します。
+   * **[!UICONTROL Phone Number]:** ユーザーの電話番号を指定します。
+   * **[!UICONTROL Is Admin]:** このユーザーが [!DNL Audience Manager] 管理者かどうかを指定します。 管理ユーザーはユーザーの管理（作成や編集など）とグループの管理（作成、権限の割り当てなど）ができます。管理者でないユーザーは、自分の電子メールアドレスの編集やパスワードのリセットなど、自分のユーザープロファイルのみ制御できます。詳しくは、[アカウント設定の編集](../../features/administration/edit-account-settings.md)を参照してください。
 1. 「**[!UICONTROL Login]**」の下で、目的のステータスを選択します。
    * **[!UICONTROL Active]：**[!DNL Audience Manager]アクティブなユーザーは にアクセスでき、グループメンバーシップによる権限が付与されます。
-   * **[!UICONTROL Deactivated]：**[!DNL Audience Manager]非アクティブなユーザーは にアクセスできず、権限もありません。ユーザーを非アクティブ化しても、ユーザー情報は[!DNL Audience Manager]に残るので、必要があれば再アクティブ化できます。ユーザーを削除すると、そのユーザーが将来[!DNL Audience Manager]を使用する必要が出た場合は、ユーザーを作成し直さなければなりません。
-   * **[!UICONTROL Expired]：**ユーザーのパスワードが作成から 90 日を超えています。
-   * **[!UICONTROL Pending]：**パスワードのリセット後、またはアカウントの新規作成時の臨時パスワードがユーザーに対して発行されており、まだ正式なパスワードが設定されていません。
-   * **[!UICONTROL Locked Out]:**5誤ったログイン試行は、ユーザーをロックアウトします。
+   * **[!UICONTROL Deactivated]：**[!DNL Audience Manager]非アクティブなユーザーは にアクセスできず、権限もありません。ユーザーを非アクティブ化しても、ユーザー情報は [!DNL Audience Manager] に残るので、必要があれば再アクティブ化できます。ユーザーを削除すると、そのユーザーが将来 [!DNL Audience Manager] を使用する必要が出た場合は、ユーザーを作成し直さなければなりません。
+   * **[!UICONTROL Expired]：**&#x200B;ユーザーのパスワードが作成から 90 日を超えています。
+   * **[!UICONTROL Pending]：**&#x200B;パスワードのリセット後、またはアカウントの新規作成時の臨時パスワードがユーザーに対して発行されており、まだ正式なパスワードが設定されていません。
+   * **[!UICONTROL Locked Out]:** 5誤ったログイン試行は、ユーザーをロックアウトします。
 1. 「**[!UICONTROL Assigned Groups]**」の下のドロップダウンリストから、このユーザーを割り当てるグループを選択します。グループと権限について詳しくは、[グループの作成](../../features/administration/administration-overview.md#create-group)を参照してください。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
@@ -77,7 +77,7 @@ A *group* is a collection of users that share access rights to [!UICONTROL desti
 
 <!-- c_wildcard_permissions.xml -->
 
-[!UICONTROL Wild Card Permissions] グループメンバーに、 、 、またはに関連付けられた各データソースへの自動アクセス [!UICONTROL segment]を与え [!UICONTROL destination]ま [!UICONTROL trait]す。 By comparison, regular permissions only let you assign specific [!UICONTROL data sources] to the one of these objects. And, when you add new [!UICONTROL data sources], group members don&#39;t get access to those new sources.
+[!UICONTROL Wild Card Permissions] グループメンバーに、 、 、 、 、に関連付けられた各データソースへの自動アクセス [!UICONTROL segment]を与え [!UICONTROL destination]ま [!UICONTROL trait]す。 By comparison, regular permissions only let you assign specific [!UICONTROL data sources] to the one of these objects. And, when you add new [!UICONTROL data sources], group members don&#39;t get access to those new sources.
 
 You have to open the group permissions and assign those new [!UICONTROL data sources] to the group. [!UICONTROL Wild Card Permissions] この手動の [!UICONTROL data source] 更新プロセスを回避できます。 Groups with [!UICONTROL Wild Card Permissions] get access to new [!UICONTROL data sources] without explicit authorization.
 
