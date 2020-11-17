@@ -24,10 +24,10 @@ The details page for an individual [!UICONTROL trait] provides an overview of th
 
 The top of the [!UICONTROL trait] details page hosts the tools that you can use to manage your [!UICONTROL traits]:
 
-1. **[!UICONTROL Add New]**: このオプションを使用して、新規 [!UICONTROL rule-based]、 [!UICONTROL algorithmic]またはを作成し [!UICONTROL onboarded traits]ます。
-2. **[!UICONTROL Edit]**: 現在の設定を変更するには、このオプションを使用し [!UICONTROL trait]ます。
-3. **[!UICONTROL Delete]**: このオプションを使用して、Audience Managerアカウント [!UICONTROL trait] から現在のを削除します。
-4. **[!UICONTROL Marketplace Recommendations]**: このオプションは、登録され [!UICONTROL traits] ていないデータ料金から、表示している [!UICONTROL Audience Marketplace] ものと同様に使用できます。  へのナビゲート方法および類似した特性を見つける方法について詳しくは、[データ購入者向けの Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) を参照してください。[!UICONTROL Marketplace]
+1. **[!UICONTROL Add New]**:このオプションを使用して、新規 [!UICONTROL rule-based]、 [!UICONTROL algorithmic]またはを作成し [!UICONTROL onboarded traits]ます。
+2. **[!UICONTROL Edit]**:現在の設定を変更するには、このオプションを使用し [!UICONTROL trait]ます。
+3. **[!UICONTROL Delete]**:このオプションを使用して、Audience Managerアカウント [!UICONTROL trait] から現在のを削除します。
+4. **[!UICONTROL Marketplace Recommendations]**:このオプションは、登録され [!UICONTROL traits] ていないデータ料金から、表示している [!UICONTROL Audience Marketplace] ものと同様に使用できます。  へのナビゲート方法および類似した特性を見つける方法について詳しくは、[データ購入者向けの Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) を参照してください。[!UICONTROL Marketplace]
 
 ![basic-trait-information](assets/basic-trait-information.png)
 
@@ -48,15 +48,15 @@ For [!UICONTROL rule-based traits], [!UICONTROL trait] qualification happens in 
 に次の情報 [!UICONTROL Trait Graph] が表示されます。
 
 * **[!UICONTROL Show results by]**
-   * **[!UICONTROL Cross-Device ID]**: 認証済みプロファイルのデータを収集してい [!UICONTROL traits] る対象の結果を表示するには、このオプションを選択します。 このオプションを選択すると、レポートにはデータのみが表示され、 [!UICONTROL Cross-Device ID] レポートにはデータは表示されません [!UICONTROL Device ID] 。
-   * **[!UICONTROL Device ID]**: デバイスプロファイルのデータを収集してい [!UICONTROL traits] る対象の結果を表示するには、このオプションを選択します。 このオプションを選択すると、レポートにはデータのみが表示され、 [!UICONTROL Device ID] レポートにはデータは表示されません [!UICONTROL Cross-Device ID] 。
+   * **[!UICONTROL Cross-Device ID]**:認証済みプロファイルのデータを収集してい [!UICONTROL traits] る対象の結果を表示するには、このオプションを選択します。 このオプションを選択すると、レポートにはデータのみが表示され、 [!UICONTROL Cross-Device ID] レポートにはデータは表示されません [!UICONTROL Device ID] 。
+   * **[!UICONTROL Device ID]**:デバイスプロファイルのデータを収集してい [!UICONTROL traits] る対象の結果を表示するには、このオプションを選択します。 このオプションを選択すると、レポートにはデータのみが表示され、 [!UICONTROL Device ID] レポートにはデータは表示されません [!UICONTROL Cross-Device ID] 。
 
       ![trait-graph](assets/trait-summary.gif)
 
-* **[!UICONTROL Unique Trait Realizations]**: 特定の期間にこれをプロファイル [!UICONTROL trait] に追加した個別ユーザーの数です。
-* **[!UICONTROL Total Trait Population]**: 現在この条件を満たす個別ユーザーの数 [!UICONTROL trait]。
+* **[!UICONTROL Unique Trait Realizations]**:特定の期間にこれをプロファイル [!UICONTROL trait] に追加した個別ユーザーの数です。
+* **[!UICONTROL Total Trait Population]**:現在この条件を満たす個別ユーザーの数 [!UICONTROL trait]。
 
-* **[!UICONTROL Identity Type Breakdown]**: 最初の3つのエントリは、その条件を満たす訪問者数 [!UICONTROL cross-device data sources] が最も多い上位3つを降順 [!UICONTROL trait]で示します。 The fourth entry shows the sum of all the other [!DNL DPUUIDs] ([!DNL CRM IDs]) that qualified for the [!UICONTROL trait], from the [!UICONTROL cross-device data sources] that are not in the top three. This report appears only if you select [!UICONTROL Cross-device ID] in the [!UICONTROL Show Results By] drop-down menu at the top right side of the page. デフォルトのドロップダウンオプションは [!UICONTROL Device ID] で、このレポートは表示されません。
+* **[!UICONTROL Identity Type Breakdown]**:最初の3つのエントリは、その条件を満たす訪問者数 [!UICONTROL cross-device data sources] が最も多い上位3つを降順 [!UICONTROL trait]で示します。 The fourth entry shows the sum of all the other [!DNL DPUUIDs] ([!DNL CRM IDs]) that qualified for the [!UICONTROL trait], from the [!UICONTROL cross-device data sources] that are not in the top three. This report appears only if you select [!UICONTROL Cross-device ID] in the [!UICONTROL Show Results By] drop-down menu at the top right side of the page. デフォルトのドロップダウンオプションは [!UICONTROL Device ID] で、このレポートは表示されません。
 
    ![trait-graph](assets/trait-identity.png)
 
