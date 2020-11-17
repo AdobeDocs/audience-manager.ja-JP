@@ -40,7 +40,7 @@ audience-lab-faq.xml
 
 <br> 
 
-**あるテストグループは、テストセグメントの分割に認証済みプロファイルを使用しているとします。認証済みプロファイルは 4 つの[Audience Manager UUID](../reference/ids-in-aam.md)に関連付けられています。訪問者が 4 つの UUID の中の 1 つのコンバージョン特性を示した場合、[!UICONTROL Audience Lab]はこれを 1 つのコンバージョンまたは 4 つのコンバージョンどちらのコンバージョンとしてカウントしますか？**
+**あるテストグループは、テストセグメントの分割に認証済みプロファイルを使用しているとします。認証済みプロファイルは 4 つの   [Audience Manager UUID](../reference/ids-in-aam.md) に関連付けられています。訪問者が 4 つの UUID の中の 1 つのコンバージョン特性を示した場合、[!UICONTROL Audience Lab]はこれを 1 つのコンバージョンまたは 4 つのコンバージョンどちらのコンバージョンとしてカウントしますか？**
 
 この場合、[!UICONTROL Audience Lab]は 1 回のコンバージョンとしてのみカウントします。
 
@@ -52,10 +52,10 @@ audience-lab-faq.xml
 
 <br> 
 
-**ユーザーは[!UICONTROL Segment: Read-Only]アクセス権を持つ事ができますが、[!UICONTROL Audience Lab]テストセグメント作成権限も持つことはできますか？**
+**ユーザーは [!UICONTROL Segment: Read-Only] アクセス権を持つ事ができますが、[!UICONTROL Audience Lab] テストセグメント作成権限も持つことはできますか？**
 
 [!UICONTROL Audience Lab]での [!UICONTROL RBAC] 権限の使用方法に関する情報については、[セグメントのテストグループの作成](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)を参照してください。
 
-**[!UICONTROL Audience Lab]を[!UICONTROL Profile Link Device Graph]および外部のデバイスグラフ（[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html)、Tapad デバイスグラフ、Liveramp デバイスグラフ）と共に使用することはできますか？**
+**[!UICONTROL Audience Lab] を [!UICONTROL Profile Link Device Graph] および外部のデバイスグラフ（[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html)、Tapad デバイスグラフ、Liveramp デバイスグラフ）と共に使用することはできますか？**
 
 [!UICONTROL Profile Link Device Graph]を使用する場合、[!UICONTROL Audience Lab]では今のところ、条件を満たすデバイスと関連付けられたデバイスによってのみセグメント母集団を分割できます。[!UICONTROL Audience Lab]で他のデバイスグラフもサポート対象とするよう作業を進めています。サポートの追加が完了し次第お知らせいたします。
