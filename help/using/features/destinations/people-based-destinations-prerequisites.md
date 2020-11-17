@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
 source-wordcount: '1015'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -52,7 +52,7 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
 
 ### [!DNL Google Customer Match] {#gcm}
 
-を使用してファーストパーティオーディエンスセグメント [!UICONTROL People-Based Destinations] を [!DNL Google Customer Match] 送信先に送信する前に、をファーストパーティ許可リストに追加す [!DNL Google] る必要があります。
+[!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL Google Customer Match] 送信先に送信する前に、[!DNL Google] によってファーストパーティ許可リストに追加される必要があります。
 
 データ [!DNL Google] ドキュメントのアップロードは、担当者に問い合わせて、「 [Use Customer Match partners」に記載されている許可リストの手順に従って行います](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507)[!DNL Google] 。
 
