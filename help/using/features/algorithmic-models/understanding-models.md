@@ -57,7 +57,7 @@ ht-degree: 57%
 
 To build a baseline, [!UICONTROL TraitWeight] measures all the [!UICONTROL traits] associated with an audience for a 30, 60, or 90 day interval. Next, it ranks [!UICONTROL traits] according to their frequency and their correlation. 頻度では一般性が測定されます。Correlation measures the likelihood of a [!UICONTROL trait] being present only in the baseline audience. [!UICONTROL Traits] これは多くの場合、共通性が高いと言われています。選択した内容と組み合わせて重み付けスコアを設定するのに使用される重要な特性で [!UICONTROL traits][!UICONTROL data sources]す。
 
-### 手順2: 同じも [!UICONTROL Traits] のを [!UICONTROL Data Source]
+### 手順2:同じも [!UICONTROL Traits] のを [!UICONTROL Data Source]
 
 After it builds a baseline for comparison, the algorithm looks for identical [!UICONTROL traits] in your selected [!UICONTROL data sources]. In this step, [!UICONTROL TraitWeight] performs a frequency count of all discovered [!UICONTROL traits] and compares them to the baseline. However, unlike the baseline, uncommon [!UICONTROL traits] are ranked higher than those that appear more often. Rare [!UICONTROL traits] are said to exhibit a high degree of specificity. [!UICONTROL TraitWeight] は、共通のベースラインと一般的でない（非常に特異的） [!UICONTROL traits] の組み合わせを、両方のデータセットに共通するよりも効果的または望ましいと [!UICONTROL data source][!UICONTROL traits][!UICONTROL traits] 評価します。 In fact, our model recognizes these large, common [!UICONTROL traits] and does not assign excess priority to data sets with high correlations. Rare [!UICONTROL traits] get higher priority because they are more likely to represent new, unique users than [!UICONTROL traits] with high commonality across the board.
 
