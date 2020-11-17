@@ -129,7 +129,7 @@ The following table describes the prefixes that identify [!UICONTROL trait] name
 
 ### [!UICONTROL Trait IDs]
 
-[!UICONTROL Trait IDs] は数字のみで構成されます。 We ask that you include *only[!UICONTROL onboarded traits]*in inbound data files. We do not process any other[!UICONTROL trait]types in the inbound data transfer.
+[!UICONTROL Trait IDs] は数字のみで構成されます。 We ask that you include *only[!UICONTROL onboarded traits]* in inbound data files. We do not process any other [!UICONTROL trait] types in the inbound data transfer.
 
 ### [!UICONTROL User IDs]
 
