@@ -29,7 +29,7 @@ faq_api.xml
 
 <br> 
 
-**[!UICONTROL DIL]が[!UICONTROL GET]および[!UICONTROL POST]メソッドでイベント呼び出しをおこなうのはなぜですか？**
+**[!UICONTROL DIL] が [!UICONTROL GET] および[!UICONTROL POST] メソッドでイベント呼び出しをおこなうのはなぜですか？**
 
 [!UICONTROL DIL] では、イベント呼び出しのクエリ文字列の長さに基づいて、`GET` または `POST` メソッドでデータを [!DNL Audience Manager] に渡します。この動作は `GET` および `POST` メソッドにデフォルトで組み込まれています。[!DNL Audience Manager] に固有のものではありません。
 
@@ -41,12 +41,12 @@ faq_api.xml
 
 <br> 
 
-**[!UICONTROL REST API]を使用すると何ができますか？**
+**[!UICONTROL REST API] を使用すると何ができますか？**
 
 [!UICONTROL REST API] を使用すると、ユーザーインターフェイスで使用可能な [!DNL Audience Manager] のほとんどの機能と関数をプログラムで操作できます。
 
 <br> 
 
-**[!UICONTROL REST API]クライアント ID およびシークレット**&#x200B;を取得するには、どうすればよいですか？
+**[!UICONTROL REST API] クライアント ID およびシークレット**&#x200B;を取得するには、どうすればよいですか？
 
 パートナーソリューションの担当者に連絡して、[!DNL API] のアクセス資格情報を取得してください。アドビの API では、トークンの認証、権限付与、更新に [OAuth 2.0](https://oauth.net/2/) 標準を使用しています。詳しくは、[OAuth 認証](../api/rest-api-main/aam-api-getting-started.md#oauth)を参照してください。
