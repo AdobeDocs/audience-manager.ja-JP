@@ -47,11 +47,11 @@ c_flash_dil_intro.xml
 * [DIL ActionScript ライブラリ](../dil/dil-flash.md#flash-dil-actionscript)（データを収集する Flash オブジェクトに読み込まれたもの）。
 * Adobe [!DNL AppMeasurement] [!DNL AS] ライブラリ（バージョン 3.5.2 以降）（データを収集する [!DNL Flash] オブジェクトに読み込まれたもの）。
 
-**AllowScriptAccess を`Always`または`sameDomain`**  に設定
+**AllowScriptAccess を `Always` または`sameDomain`**  に設定
 
 SWF ファイルを読み込む HTML コードの `AllowScriptAccess` は、SWF ファイル内からの送信 URL アクセスを実行する機能を制御します。[!UICONTROL Flash DIL] データ統合を設定する場合、Flash `AllowScriptAccess` パラメーターが `always` または `sameDomain` に設定されていることを確認してください。[!UICONTROL Flash DIL] データ収集は、`AllowScriptAccess` が `never` に設定されている場合、機能しません。[スクリプトまたはホスト Web ページへのアクセスの制御](https://helpx.adobe.com/jp/flash/kb/control-access-scripts-host-web.html)を参照してください。
 
-**JS [!UICONTROL DIL]コードの配置**
+**JS [!UICONTROL DIL] コードの配置**
 
 [!UICONTROL DIL] ファイルよりも前に読み込めるように、JS [!DNL FLA] データ収集モジュールをページ上に配置するようにします。[!UICONTROL DIL] データ収集の準備ができる前に、[!DNL FLA] ファイルが最初に読み込まれると、[!UICONTROL Flash DIL] がそのモジュールに送信する最初のデータシグナルを見つけられない可能性があります。ただし、インスタンス化されれば、[!UICONTROL DIL] データ収集モジュールは、[!UICONTROL Flash DIL] によって渡される後続のすべての SWF ファイルデータをキャプチャします。
 
@@ -140,8 +140,9 @@ r_flash_dil_actionscript.xml
 >[!NOTE]
 >
 >* このコードがサポートするパートナーインスタンス（`d.partner`）は、[!DNL Flash] オブジェクトごとに 1 つだけです。
->
->* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
+   >
+   >
+* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
 
 
 ```js
