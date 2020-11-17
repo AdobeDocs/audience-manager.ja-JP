@@ -36,7 +36,7 @@ Audience Manager には次のデータ収集コンポーネントがあります
 
 DCS と PCS は連携して動作することで、それぞれが特性の適合、オーディエンスのセグメント化、およびデータストレージに関連するサービスを提供します。
 
-**[!UICONTROL Data Collection Servers (DCS)] 関数&#x200B;**
+**[!UICONTROL Data Collection Servers (DCS)] 関数**
 
 [!DNL Audience Manager] で、DCS は以下をおこないます。
 
@@ -46,7 +46,7 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 * リアルタイムのイベント呼び出しの前に、ユーザーが既に適合している特性が他にないかを PCS で確認します。これにより、リアルタイムのデータと過去のデータに基づきユーザーを適合させることができます。
 * ログファイルへの書き込みをおこない、それらを保存および処理する分析システムに送信します。
 
-**[!DNL DCS]による[!UICONTROL Global Server Load Balancing (GSLB)]**を通じた需要の管理
+**[!DNL DCS]による[!UICONTROL Global Server Load Balancing (GSLB)]**&#x200B;を通じた需要の管理
 
 [!DNL DCS] は地理的に分散された負荷分散型システムです。つまり、[!DNL Audience Manager] はサイト訪問者の地理的な位置に基づき、地域のデータセンターとの間で要求のやり取りをおこなうことができます。この方式では、[!DNL DCS] の応答がその訪問者の情報を保持するデータセンターに直接送信されるので、応答時間の短縮に役立ちます。[!UICONTROL GSLB] では、関連データがユーザーに最も近いサーバーにキャッシュされるので、システムの効率が高まります。
 
@@ -66,7 +66,7 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 
 お客様が直接 [!UICONTROL PCS] を操作するための UI コントロールは用意されていません。お客様は、データストアおよびデータ転送を担当する役割を通して、間接的に [!UICONTROL PCS] にアクセスします。[!UICONTROL PCS] は Apache Cassandra 上で動作します。
 
-**非アクティブな ID を[!UICONTROL PCS]**からパージ
+**非アクティブな ID を[!UICONTROL PCS]** からパージ
 
 前述のとおり、[!UICONTROL PCS] にはアクティブユーザーの特性 ID が保存されます。アクティブユーザーとは、過去14 日間に任意のドメインから[エッジデータサーバー](../../reference/system-components/components-edge.md)で確認されたユーザーです。ユーザーは以下の [!UICONTROL PCS] の呼び出しによってアクティブな状態を保ちます。
 
@@ -81,7 +81,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 [!UICONTROL PCS] では、17 日間非アクティブであった特性はフラッシュされます。ただし、これらの特性は消失するわけではなく、Hadoop に保存されます。その後再度そのユーザーが確認された場合、Hadoop はそれらのすべての特性を [!UICONTROL PCS] に差し戻します。これは通常 24 時間以内におこなわれます。
 
-**その他の[!UICONTROL DCS/PCS]プロセス：プライバシーのオプトアウト**
+**その他の [!UICONTROL DCS/PCS] プロセス：プライバシーのオプトアウト**
 
 これらのサーバーシステムは、プライバシーに基づくユーザーのオプトアウトリクエストを処理します。データ収集をオプトアウトしたユーザーの Cookie 情報は、ログファイルで収集されません。アドビのプライバシーポリシーの詳細については、[アドビプライバシーセンター](https://www.adobe.com/privacy/advertising-services.html)を参照してください。
 
