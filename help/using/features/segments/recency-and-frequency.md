@@ -21,8 +21,8 @@ ht-degree: 55%
 
 Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように定義されています。
 
-* **[!UICONTROL Recency]:**ユーザーが最近表示または資格を持った1つ（または複数）の時間[!UICONTROL traits]。
-* **[!UICONTROL Frequency]:**ユーザーが1人（または複数）に対して視聴または資格を得た率[!UICONTROL traits]。
+* **[!UICONTROL Recency]:** ユーザーが最近表示または資格を持った1つ（または複数）の時間 [!UICONTROL traits]。
+* **[!UICONTROL Frequency]:** ユーザーが1人（または複数）に対して視聴または資格を得た率 [!UICONTROL traits]。
 
 [!UICONTROL Recency] と [!UICONTROL Frequency] の設定は、サイト、セクションまたは特定のクリエイティブに対する実際の（または認識された）関心レベルに基づいて訪問者をセグメント化するのに役立ちます。例えば、高い最新性／頻度要件でセグメントの対象として認定されるユーザーは、それほど頻繁に訪問していないユーザーよりも、サイトまたは製品に関心がある可能性があります。
 
