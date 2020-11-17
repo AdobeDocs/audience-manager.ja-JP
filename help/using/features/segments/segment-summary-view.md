@@ -36,12 +36,12 @@ ht-degree: 78%
 
 セグメント管理ツールの下部に、次のセグメント情報が表示されます。
 
-1. **[!UICONTROL Basic Information]:**セグメントの作成時に指定された必須および任意選択の詳細が表示されます。 これらのフィールドが意味することの詳細な概要については、[セグメントビルダー](segment-builder.md)を参照してください。
-2. **[!UICONTROL Segment Graph]:**パフォーマンス・データをグラフィカルに表示し、固定の1、7、14、30、60、90日間隔で表示します。 セグメント母集団の数については、[別の記事](../../features/segments/segment-builder-data.md)で説明します。
+1. **[!UICONTROL Basic Information]:** セグメントの作成時に指定された必須および任意選択の詳細が表示されます。 これらのフィールドが意味することの詳細な概要については、[セグメントビルダー](segment-builder.md)を参照してください。
+2. **[!UICONTROL Segment Graph]:** パフォーマンス・データをグラフィカルに表示し、固定の1、7、14、30、60、90日間隔で表示します。 セグメント母集団の数については、[別の記事](../../features/segments/segment-builder-data.md)で説明します。
 
    ![セグメントグラフ](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown ]:**このレポートには、セグメントに適格なデバイスにリンクされているデバイス間IDの数や、外部デバイスグラフID（またはその両方）を数えることで、セグメントに適格な人または世帯の数が表示されます（図を参照）。[!UICONTROL Total Segment Population]このレポートに示すクロスデバイス ID と外部デバイスグラフ ID は、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。このレポートは、セグメントが使用しているプロファイル結合ルールで、クロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
+3. **[!UICONTROL Identity Type Breakdown ]:** このレポートには、セグメントに適格なデバイスにリンクされているデバイス間IDの数や、外部デバイスグラフID（またはその両方）を数えることで、セグメントに適格な人または世帯の数が表示されます（図を参照）。 [!UICONTROL Total Segment Population]このレポートに示すクロスデバイス ID と外部デバイスグラフ ID は、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。このレポートは、セグメントが使用しているプロファイル結合ルールで、クロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
 
    ![セグメントグラフ](assets/segment-type.png)
 
@@ -52,6 +52,6 @@ ht-degree: 78%
    [!UICONTROL Identity Type Breakdown] の概要については、以下のビデオをご覧ください。
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
-4. **[!UICONTROL Segment Rules]：**セグメントの特性を資格認定ルールと共にリストします。
-5. **[!UICONTROL Destination Mappings]:**セグメントのリスト先マッピング。
-6. **[!UICONTROL Management Tools]：**セグメントを作成、編集、複製、削除するためのコントロール。
+4. **[!UICONTROL Segment Rules]：**&#x200B;セグメントの特性を資格認定ルールと共にリストします。
+5. **[!UICONTROL Destination Mappings]:** セグメントのリスト先マッピング。
+6. **[!UICONTROL Management Tools]：**&#x200B;セグメントを作成、編集、複製、削除するためのコントロール。
