@@ -34,7 +34,7 @@ This section contains fields and options that start the [!DNL URL destination] c
 5. In the **[!UICONTROL Environment]** list, select the environment in which to trigger the [!DNL URL destination].
 6. 「**[!UICONTROL Type]**」リストで、「**[!UICONTROL URL]**」をクリックします。
 7. *（オプション）***[!UICONTROL Auto-fill Destination Mapping]** を選択します。オプションは次のとおりです。
-   * **[!UICONTROL Segment ID]**: セグメントIDをに自動的に追加および送信し [!DNL destination]ます。
+   * **[!UICONTROL Segment ID]**:セグメントIDをに自動的に追加および送信し [!DNL destination]ます。
    * **[!UICONTROL Integration Code Value]**：セグメント統合コードを自動的に追加して宛先マッピングに送信します。統合コードは、顧客が作成して使用する一意の識別子です。最大 255 文字に制限されています。
 8. Click **[!UICONTROL Next]** to go to the [!UICONTROL Configuration] settings or click **[!UICONTROL Data Export Labels]** to apply export controls to the [!DNL destination].
 
@@ -69,5 +69,5 @@ This section lets you search for and add segments to your [!UICONTROL destinatio
 1. 使用するセグメントが見つかったら、「**[!UICONTROL Add Selected Segments]**」をクリックします。セグメントを追加すると、[!UICONTROL Edit Mapping] ウィンドウが開きます。
 1. [!UICONTROL Edit Mapping]：
    * **[!UICONTROL Mappings]**：セグメントで使用されるキー値ペアを指定します。
-   * **[!UICONTROL Start Date]** および **[!UICONTROL End Date]**: の開始と終了日を選択し [!DNL destination]ます。 If the end date is blank, the [!DNL destination] never expires.
+   * **[!UICONTROL Start Date]** および **[!UICONTROL End Date]**:の開始と終了日を選択し [!DNL destination]ます。 If the end date is blank, the [!DNL destination] never expires.
 1. 「**[!UICONTROL Done]**」をクリックします。
