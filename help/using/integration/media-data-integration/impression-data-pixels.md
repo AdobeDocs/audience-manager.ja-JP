@@ -103,7 +103,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> の場合 <code>gdpr=1</code>、が <code>${gdpr_consent_XXXX}</code> 文字列とベンダーIDに置き換えられます( <code>gdpr_consent</code> IAB仕様を参照 <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"></a>)。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> の場合 <code>gdpr=1</code>、は <code>${gdpr_consent_XXXX}</code> 文字列とベンダーIDに置き換えられます( <code>gdpr_consent</code> IAB仕様を参照 <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"></a>)。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
   </tr> 
  </tbody> 
 </table>
