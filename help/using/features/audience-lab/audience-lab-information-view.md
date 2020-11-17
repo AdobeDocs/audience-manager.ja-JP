@@ -24,7 +24,7 @@ ht-degree: 100%
 
 **[!UICONTROL Test Segments]** のユーザーは、テストグループに使用したベースラインセグメントからランダムに取り込まれます。概要では、各テストセグメントに割り当てたユーザーの割合が示されます。
 
-テストグループのレポートは、**[!UICONTROL Conversion Traits]**&#x200B;に基づいておこなわれます。[!UICONTROL Trait Builder]で特性の作成または編集をおこなう際に、ある特性をコンバージョンとして指定するには、**イベントタイプ****[で](../../features/traits/create-onboarded-rule-based-traits.md)コンバージョン&#x200B;**を選択します。
+テストグループのレポートは、**[!UICONTROL Conversion Traits]**&#x200B;に基づいておこなわれます。[!UICONTROL Trait Builder]で特性の作成または編集をおこなう際に、ある特性をコンバージョンとして指定するには、**イベントタイプ****[で](../../features/traits/create-onboarded-rule-based-traits.md)コンバージョン**&#x200B;を選択します。
 
 **[!UICONTROL Destinations]**&#x200B;カードは折りたたみ可能です。個々の宛先を開くまたは閉じるには矢印を押します。マッピング先の宛先ごとに、テストセグメントに関する次の情報を取得できます。
 
