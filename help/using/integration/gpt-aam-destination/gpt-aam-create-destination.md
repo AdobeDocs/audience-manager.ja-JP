@@ -21,7 +21,7 @@ ht-degree: 86%
 
 ## 宛先
 
-Audience Manager において、*`destination`* とは、データを共有する他のシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager destination features are located in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. まず、**[!UICONTROL Add New Destination]**をクリックし、以下の手順に従います。
+Audience Manager において、*`destination`* とは、データを共有する他のシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager destination features are located in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
 
 ## Basic Information
 
