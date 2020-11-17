@@ -29,7 +29,7 @@ You can send qualified segments to [!DNL Google Ad Manager] (formerly DFP) eithe
 
 * **Cookie チェックコードの実装**：[!DNL GPT] の `.setTargeting` API メソッドを、推奨される [Cookie チェックコード](../../integration/gpt-aam-destination/gpt-aam-modify-api.md)でラップします。このコードにより、`.setTargeting`.メソッドを呼び出す前に有効な AAM Cookie が検索されるので、エラーが回避されます。
 
-* **`AamGpt`関数の追加：**`AamGpt` コードは Audience Manager の Cookie からデータをキャプチャして、[!DNL GPT]に送信します。[Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)（`AamGpt`）をページの最上部または `<head>` コードブロック内に配置します。
+* **`AamGpt` 関数の追加：**`AamGpt` コードは Audience Manager の Cookie からデータをキャプチャして、[!DNL GPT]に送信します。[Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)（`AamGpt`）をページの最上部または `<head>` コードブロック内に配置します。
 
    >[!NOTE]
    >
