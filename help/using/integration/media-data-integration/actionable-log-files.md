@@ -79,7 +79,7 @@ ht-degree: 80%
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>コンバージョンイベントでのみ使用されます。 </p> <p>Googleキャンペーンマネージャーのコンバージョンアクティビティの数値IDを表します。 このフィールドは、GoogleキャンペーンマネージャーからのアクティビティIDに対応付けられます。 </p> <p> <p>ヒント： Googleキャンペーンマネージャーから、複数または特定のコンバージョンアクティビティを取り込むことができます。 Googleキャンペーンマネージャー <code> d_conversion = activity ID</code> の各コンバージョンアクティビティに対して、を使用して特性を作成します。 </p> </p> </td> 
+   <td colname="col3"> <p>コンバージョンイベントでのみ使用されます。 </p> <p>Googleキャンペーンマネージャーのコンバージョンアクティビティの数値IDを表します。 このフィールドは、GoogleキャンペーンマネージャーからのアクティビティIDに対応付けられます。 </p> <p> <p>ヒント：Googleキャンペーンマネージャーから、複数または特定のコンバージョンアクティビティを取り込むことができます。 Googleキャンペーンマネージャーの各コンバージョンアクティビティ <code> d_conversion = activity ID</code> に対して、を使用して特性を作成します。 </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
@@ -322,7 +322,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 4. セグメント [!DNL Retarget Users] を宛先にマッピングし、クリエイティブ 456 を使用して宛先のユーザーをターゲット化します。
 
-### オーディエンスキャンペーンレポートまたはオーディエンスラボで、Google Optimization Manager Floodlightアクティビティを使用します。
+### Audience OptimizationレポートまたはオーディエンスラボでGoogleキャンペーンマネージャーFloodlightアクティビティを使用
 
 [Floodlight タグ](https://support.google.com/dcm/partner/answer/4293719?hl=ja)を使用することで、広告主はユーザーのコンバージョンを追跡できます。[!UICONTROL Actionable Log Files]を使用することで、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)または [Audience Lab](../../features/audience-lab/audience-lab.md) で [!DNL Google Campaign Manager] コンバージョンを追跡できます。
 
