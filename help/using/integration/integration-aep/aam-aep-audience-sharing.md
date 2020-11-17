@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
 workflow-type: tm+mt
 source-wordcount: '1492'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
 
-# Audience Managerや他のExperience CloudソリューションとのExperience Platformセグメントの共有 {#aam-aep-audience-sharing}
+# Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有 {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
