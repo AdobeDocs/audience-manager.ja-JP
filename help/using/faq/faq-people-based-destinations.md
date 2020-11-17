@@ -20,13 +20,13 @@ ht-degree: 100%
 
 ## 使用可否 {#availability}
 
-**Audience Manager アカウントに[!DNL People-Based Destinations]が表示されません。使用可否について知っておく必要がある情報はありますか？**
+**Audience Manager アカウントに [!DNL People-Based Destinations] が表示されません。使用可否について知っておく必要がある情報はありますか？**
 
 [!DNL People-Based Destinations] は、購入時に利用可能な Audience Manager のプレミアム機能です。価格と使用可否について詳しくは、アドビのセールス担当者にお問い合わせください。
 
 ## データオンボーディング {#data-onboarding}
 
-**顧客の電子メールアドレスを Audience Manager にオンボーディングして、それを[!DNL People-Based Destinations]で使用できるようにするにはどうすればよいですか？**
+**顧客の電子メールアドレスを Audience Manager にオンボーディングして、それを [!DNL People-Based Destinations] で使用できるようにするにはどうすればよいですか？**
 
 オフラインデータを [!DNL People-Based Destinations] 用に Audience Manager に取り込む方法は次の 2 つです。
 
@@ -52,7 +52,7 @@ Audience Manager では、未加工の電子メールアドレスを取り込ま
 
 ## プロファイル結合ルール {#profile-merge-rules}
 
-**[!DNL People-Based Destinations]で使用できる新しいプロファイル結合ルールはありますか。**
+**[!DNL People-Based Destinations] で使用できる新しいプロファイル結合ルールはありますか。**
 
 はい。また、[!DNL People-Based Destinations] を購入するユーザーには、オフラインセグメントに対する新しいプロファイル結合ルールへのアクセス権も付与されます。ルールは [!DNL All Cross-Device Profiles] と呼ばれ、オフラインのみのセグメント化に使用されます。[!DNL People-Based Destinations] に新規登録する場合、これは、3 つの既存の認証ベースのルールとは別に作成できる 4 つ目のプロファイル結合ルールです。
 
@@ -67,11 +67,11 @@ Audience Manager では、未加工の電子メールアドレスを取り込ま
 
 ## マッチ率 {#match-rates}
 
-**[!DNL People-Based Destinations]は、マッチ率またはアドレス可能なオーディエンスを表示できますか。**
+**[!DNL People-Based Destinations] は、マッチ率またはアドレス可能なオーディエンスを表示できますか。**
 
 いいえ。オーディエンスセグメントを [!DNL People-Based Destinations] に送信する際は、パートナー側でオーディエンスの照合がおこなわれます。アドビはこれらの指標にアクセスできません。Audience Manager には、各宛先で共有可能なオーディエンスの最大数と、セグメントに属するユーザーのリアルタイムでのカウントが表示されます。この情報は、キャンペーンの計画と予測に役立ちます。
 
-**[!DNL People-Based Destinations]を使用したマッチ率を、オーディエンスを宛先プラットフォームに送信する他の方法のマッチ率と理論的に比較するにはどうすればよいですか。**
+**[!DNL People-Based Destinations] を使用したマッチ率を、オーディエンスを宛先プラットフォームに送信する他の方法のマッチ率と理論的に比較するにはどうすればよいですか。**
 
 電子メールアドレスが正しくハッシュ化され、取り込まれていれば、[!DNL People-Based Destinations] と他のメソッドのマッチ率は同じになります。マッチ率が 100％未満となるのは、Audience Manager に取り込んだ電子メールアドレスが、宛先プラットフォームのユーザーベースにある電子メールアドレスと一致しない場合のみです。
 
@@ -81,7 +81,7 @@ Audience Manager では、ユーザーごとに最大 10 個の電子メール�
 
 ## データ書き出しコントロール {#data-export-controls}
 
-**[!DNL Data Export Controls]は[!DNL People-Based Destinations]とどのように連携しますか？**
+**[!DNL Data Export Controls] は [!DNL People-Based Destinations] とどのように連携しますか？**
 
 [!DNL Data Export Controls] は、ユーザーが [!DNL People-Based Destinations] に送信しようとするセカンドパーティおよびサードパーティデータを含むセグメントをブロックします。[!DNL People-Based Destinations] では、ファーストパーティデータのみをターゲティングに使用できます。[!DNL Data Export Controls] は、[!DNL Profile Merge Rules] とデバイスグラフを使用してセグメントをブロックします。[!DNL People-Based Destinations] は適切なデータ書き出しラベルのチェックにチェックが付けられた状態で作成されており、エクスポート設定を上書きすることはできません。
 
@@ -89,7 +89,7 @@ Audience Manager では、ユーザーごとに最大 10 個の電子メール�
 
 ### [!DNL Facebook]
 
-**オーディエンスセグメントを[!DNL Facebook]に送信できるようにするには、どうすればよいですか？**
+**オーディエンスセグメントを [!DNL Facebook] に送信できるようにするには、どうすればよいですか？**
 
 [!DNL People-Based Destinations] を使用してオーディエンスセグメントを [!DNL Facebook] に送信する前に、以下の設定タスクを実行する必要があります。
 
@@ -101,11 +101,11 @@ Audience Manager では、ユーザーごとに最大 10 個の電子メール�
 
 1. [!DNL Facebook Custom Audiences Terms of Service] を読んで署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
 
-**Do[!DNL People-Based Destinations]は、他の[!DNL Facebook]アプリ（[!DNL Instagram]など）でのオーディエンスのターゲット設定をサポートしていますか？**
+**Do [!DNL People-Based Destinations] は、他の [!DNL Facebook] アプリ（[!DNL Instagram] など）でのオーディエンスのターゲット設定をサポートしていますか？**
 
 [!DNL Custom Audiences] でサポートされる [!DNL Facebook] のアプリケーションファミリー（[!DNL Facebook]、[!DNL Instagram]、[!DNL Audience Network] および [!DNL Messenger] など）をまたいで [!DNL People-Based Destinations] を使用できます。キャンペーンを実行するアプリの選択範囲が、[!DNL Facebook Ads Manager] の配置レベルで示されます。
 
-**[!DNL People-Based Destinations]と[!DNL Website Custom Audiences]の違いを教えてください。**
+**[!DNL People-Based Destinations] と [!DNL Website Custom Audiences] の違いを教えてください。**
 
 [!DNL People-Based Destinations] では [!DNL Custom Audiences (CA)] と [!DNL Facebook] の統合を活用します。顧客がオーディエンスを [!DNL Facebook] に送信する際に鍵となるのは、[!DNL WCA] 統合と [!DNL CA] 統合の違いです。[!DNL WCA] は [!DNL Facebook] ピクセル（Web サイトのユーザー ID となります）を使用していますが、[!DNL People-Based Destinations] はハッシュ化された電子メールアドレスを使用して [!DNL CA] と統合します。
 
@@ -113,6 +113,6 @@ Audience Manager では、ユーザーごとに最大 10 個の電子メール�
 
 これら 2 つの統合は補完的です。両方を使用して、オーディエンス対象範囲を改善することができます。例えば、アカウントを登録していない Web サイト訪問者をターゲットにしたい会社は、[!DNL WCA] を使用して見込み客を開拓できますが、[!DNL People-Based Destinations] は、電子メールアドレスを提供しているけれど Web サイトは訪問していない既存の顧客をターゲットにするのに役立ちます。
 
-**[!DNL People-Based Destinations]と[!DNL Facebook]の統合は、資格がなくなったユーザーの対象からの除外をサポートしますか？**
+**[!DNL People-Based Destinations] と [!DNL Facebook] の統合は、資格がなくなったユーザーの対象からの除外をサポートしますか？**
 
 はい。統合では、ユーザーの資格がなくなった場合の [!DNL Facebook] オーディエンスからの削除をサポートします。
