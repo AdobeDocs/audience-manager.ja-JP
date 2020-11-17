@@ -40,11 +40,11 @@ However, you can also download the latest Experience Cloud and [!DNL DIL] releas
 
 ## DIL コードの取得と実装 {#get-implement-dil-code}
 
-[!UICONTROL DIL] コードは&#x200B;**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)** でダウンロードできます。バージョン 8.0（2018 年 8 月にリリース）より、[!UICONTROL DIL]は、[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)のバージョン 3.3 以降に強く依存していることに注意してください。ID同期の実行は、ID同期[!DNL ID Service]とID同期の実行に依存し[!DNL URL destinations]ます。 An error occurs if the[!DNL ID Service]is missing, old, or not configured.
+[!UICONTROL DIL] コードは&#x200B;**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)** でダウンロードできます。バージョン 8.0（2018 年 8 月にリリース）より、[!UICONTROL DIL] は、[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)のバージョン 3.3 以降に強く依存していることに注意してください。ID同期の実行は、ID同期 [!DNL ID Service] とID同期の実行に依存し [!DNL URL destinations]ます。 An error occurs if the [!DNL ID Service] is missing, old, or not configured.
 
 [!UICONTROL DIL] を操作して [!DNL Audience Manager] を手動でセットアップするのではなく、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) を使用することをお勧めします。[!DNL Adobe Experience Platform Launch] を使用するとコードのデプロイメント、配置、バージョン管理が簡単になるので、実装ツールとして導入することをお勧めします。Read more about the [Audience Manager extension](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) in [!DNL Adobe Experience Platform Launch].
 
-[!DNL Adobe Experience Platform Launch] は、 [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/ja-JP/dtm/using/c-overview.html) ([!DNL DTM])の後継です。
+[!DNL Adobe Experience Platform Launch] は、 [AdobeのDynamic Tag Manager](https://docs.adobe.com/content/help/ja-JP/dtm/using/c-overview.html)[!DNL DTM]()の後継です。
 
 ## サンプル呼び出し {#sample-code}
 
