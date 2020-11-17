@@ -31,7 +31,7 @@ During synchronization, [!DNL Audience Manager] assigns unique IDs to clients an
 この手順に関する重要な考慮事項：
 
 * **クライアント ID の配置：**[!DNL Audience Manager] は、クライアント ID が Web サイトのどこに表示されるかを把握する必要があります（例：Cookie、Analytics 変数、ページコードなどに格納されるか）。
-* **[!DNL PII]の除外：**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
+* **[!DNL PII] の除外：**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
 * **大文字と小文字およびコンテンツの区別：**[!DNL Audience Manager]リアルタイムデータ同期の間、 によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。例えば、オフラインレコードが [!DNL User123] に関する情報を保持するが、サイトがこの ID を [!DNL USER123] としてレンダリングする場合、 は、これらを異なる訪問者と見なします。[!DNL Audience Manager]結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
 
 詳しくは、[受信データ転送のための ID 同期](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)を参照してください。
