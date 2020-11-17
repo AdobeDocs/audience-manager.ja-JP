@@ -1,8 +1,8 @@
 ---
 description: Google Publisher Tags(GPT)を使用したGoogle Ad Managerの統合方法の概要です。
-seo-description: Adobe Audience Manager(AAM)でのGoogle Publisher Tags(GPT)を使用したGoogle Ad Managerの統合方法の概要です。
-seo-title: Google Publisher Tags(GPT)inAdobe Audience Manager(AAM)を使用してGoogle Ad Managerを統合する
-title: Google Publisher Tags（GPT）を使用した Google Ad Manager の統合
+seo-description: Adobe Audience Manager(AAM)でGoogle Publisher Tags(GPT)を使用してGoogle Ad Managerを統合する方法の概要です。
+seo-title: Adobe Audience Manager(AAM)でGoogle Publisher Tags(GPT)を使用してGoogle Ad Managerを統合する
+title: 'Google Publisher Tags（GPT）を使用した Google Ad Manager の統合 '
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
