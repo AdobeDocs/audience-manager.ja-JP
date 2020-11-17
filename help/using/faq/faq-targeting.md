@@ -95,7 +95,7 @@ Cookie を削除すると、リーチと頻度の計算に悪影響がありま�
 
 <br> 
 
-**Audience Manager に、[!UICONTROL Server-to-Server]の宛先の[!UICONTROL Addressable Audiences]指標とマッチ率しか表示されません。Cookie および URL 宛先についてこの数字が表示されないのはなぜですか？**
+**Audience Manager に、[!UICONTROL Server-to-Server] の宛先の [!UICONTROL Addressable Audiences] 指標とマッチ率しか表示されません。Cookie および URL 宛先についてこの数字が表示されないのはなぜですか？**
 
 原因は ID 同期にあります。[!UICONTROL Server-to-Server]宛先の場合、データはオフライン（リアルタイムまたはバッチ）で転送されます。このとき、宛先パートナーが理解できる ID を送信し、宛先パートナーがこれをブラウザーにマッピングできるようにする必要があります。アドレス可能なセグメントの数は、合計セグメント母集団の一部です。
 
