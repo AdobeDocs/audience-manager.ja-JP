@@ -101,12 +101,12 @@ faq_reports.xml
 
 <br> 
 
-**オンボードされた特性の[!UICONTROL Total Trait Realizations]が常に「0」となるのはなぜですか？**
+**オンボードされた特性の [!UICONTROL Total Trait Realizations] が常に「0」となるのはなぜですか？**
 
 [!UICONTROL Total Trait Realizations] はページの読み込みに対応します。[!UICONTROL Total Trait Realizations]は、特定の特性がリアルタイムで実行された回数を提供します。この数字は、ルールベースの特性についてのみ計算されます。オンボードされた特性には、常に [!UICONTROL Total Trait Realizations] は「0」として表示されます。
 
 <br> 
 
-**特性を作成したところ、[!UICONTROL Trait Graph]に表示された[!UICONTROL Unique Trait Realizations]の数が[!UICONTROL Total Trait Population]よりも大きくなりました。これは正常でしょうか？**
+**特性を作成したところ、[!UICONTROL Trait Graph] に表示された[!UICONTROL Unique Trait Realizations]の数が[!UICONTROL Total Trait Population]よりも大きくなりました。これは正常でしょうか？**
 
 このような状況が発生するのは、[!UICONTROL Unique Trait Realizations] がリアルタイム指標であるのに対し、[!UICONTROL Total Trait Population] を計算するためのレポートジョブはリアルタイムではないからです。[!UICONTROL Total Trait Population] は、数日間は [!UICONTROL Unique Trait Realizations] よりも大きくなります。
