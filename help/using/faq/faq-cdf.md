@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## Amazon S3 Storage {#amazon-s3-storage}
 
-**CDF ファイルは[!DNL Amazon]のどこに保存されるのですか？**
+**CDF ファイルは [!DNL Amazon] のどこに保存されるのですか？**
 
 CDF ファイルは [!DNL Amazon S3] サーバーの `aam-cdf` ルートディレクトリに保存されます。このデフォルトバケットは [!DNL Audience Manager] で管理されます。詳しくは、[顧客データフィードファイルの命名規則](../features/cdf-files.md#cdf-naming-conventions)を参照してください。
 
