@@ -57,7 +57,7 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
  
 
-**[!DNL Audience Manager]コードを実稼動環境にデプロイする前に、受信データファイル（[!DNL .sync] または [!DNL .overwrite] ファイル）をアップロードできますか？**
+**[!DNL Audience Manager] コードを実稼動環境にデプロイする前に、受信データファイル（[!DNL .sync] または [!DNL .overwrite] ファイル）をアップロードできますか？**
 
 はい。アップロードする CRM データを保存するために [!UICONTROL cross-device data source] を使用している限り、Audience Manager では常にデータが保存されます。実際、2019 年 10 月に Audience Manager が開始した、オフラインのみの使用を許可する [!UICONTROL Profile Merge Rules] の機能強化に従って、Audience Manager コードを実稼働環境にデプロイしなくても、データをアップロードしてアクションを実行できます。以下を参照してください。
 
@@ -188,7 +188,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
  
 
-**[!DNL Data Provider ID (DPID)]とは何ですか？入手するにはどうしたらいいですか？**
+**[!DNL Data Provider ID (DPID)] とは何ですか？入手するにはどうしたらいいですか？**
 
 アドビのコンサルタントが 3 桁または 4 桁の [DPID（データプロバイダー ID）](../reference/ids-in-aam.md)を特定のデータソースに割り当てます。この ID は一意で、変更できません。
 
@@ -221,7 +221,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
  
 
-**ファイルを転送するために FTP または[!DNL Amazon S3]を使用する必要がありますか？**
+**ファイルを転送するために FTP または [!DNL Amazon S3] を使用する必要がありますか？**
 
 ベストプラクティスとしては、プロセスがよりシンプルなので、[!DNL Amazon S3] をお勧めします。[!DNL Audience Manager] では FTP ファイルが [!DNL S3] に自動転送されるので、ファイルを自分で [!DNL Amazon S3] に配置するよりもプロセスの効率が向上します。さらに、FTP に同時にアップロードするお客様は、FTP の帯域幅を共有するので、アップロード速度が遅くなることが予想されます。[!DNL Amazon S3]また、 は、レプリケートされて配布されているので、通常、FTP サーバーよりも安全で信頼性が高くなります。詳しくは、[Amazon S3 について](../reference/amazon-s3.md)を参照してください。
 
