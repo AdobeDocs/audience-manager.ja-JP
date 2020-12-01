@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Audience Manager はエッジコンピューティングという分散型トポロジを採用することで、外部ソースによって課される要求を満たします。
 
-## エッジデータセンターの概要 {#edge-data-center-basics}
+## エッジデータセンターの概要  {#edge-data-center-basics}
 
 <!-- 
 
@@ -41,6 +41,6 @@ c_compedge.xml
 
 ![](assets/edge_data_center.png)
 
-## 地理的な分布およびロードバランシング {#geo-dist-balance}
+## 地理的な分布およびロードバランシング  {#geo-dist-balance}
 
 詳しくは、[データ収集コンポーネント](../../reference/system-components/components-data-collection.md)の [!DNL DCS] セクションを参照してください。
