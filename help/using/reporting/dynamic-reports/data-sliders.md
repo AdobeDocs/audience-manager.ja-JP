@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# データスライダーを使用したレポート結果のフィルタリング{#filter-report-results-with-the-data-sliders}
+# データスライダーを使用したレポート結果のフィルタリング {#filter-report-results-with-the-data-sliders}
 
 様々なレポートスライダーを使用すると、指定した範囲より上、範囲より下または範囲内のデータのみを表示できます。
 
