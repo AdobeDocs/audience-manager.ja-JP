@@ -1,9 +1,9 @@
 ---
 description: 'People-Based Destinations は、共有可能なオーディエンスの概念を Audience Manager に導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールの数について理解するのに役立ちます。 '
 seo-description: 'People-Based Destinations は、共有可能なオーディエンスの概念を Audience Manager に導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールの数について理解するのに役立ちます。 '
-seo-title: Shareable Audiences
+seo-title: 共有可能なオーディエンス
 solution: Audience Manager
-title: Shareable Audiences
+title: 共有可能なオーディエンス
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# Shareable Audiences {#shareable-audiences}
+# 共有可能なオーディエンス {#shareable-audiences}
 
 >[!IMPORTANT]
 >この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
