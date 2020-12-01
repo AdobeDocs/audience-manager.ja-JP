@@ -10,21 +10,21 @@ translation-type: tm+mt
 source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# 重複レポート：更新スケジュールと最小セグメントサイズ{#overlap-reports-update-schedule-and-minimum-segment-size}
+# 重複レポート：更新スケジュールと最小セグメントサイズ {#overlap-reports-update-schedule-and-minimum-segment-size}
 
-重複レポートの更新プロセスで必要な特性およびセグメントのサイズと作成時間の要件について説明します。
+重複レポートの更新プロセスで必要な特性およびセグメントサイズと作成時間の要件について説明します。
 
 ## 更新スケジュールと要件 {#update-schedule}
 
 [!UICONTROL Overlap]レポートは毎週日曜日に更新されます。レポートの事前処理は土曜日に始まります。これにより、月曜日に新規や既存のセグメントが重複レポートにどのように表示されるかが変わります。重複レポートに記載されるには、次の条件を満たす必要があります。
 
-* 直近 14 日間で、セグメントのリアルタイムユーザー数の合計数が 70,000 人以上でなければなりません。
-* 特性には、過去14日間に28,000件の [個別特性の実現を含める必要があります](/help/using/features/traits/trait-and-segment-qualification-reference.md) 。
+* 過去 14 日間で、セグメントのリアルタイムユーザー数の合計数が 70,000 人以上でなければなりません。
+* 過去 14 日間で、特性の[個別の特性満足数](/help/using/features/traits/trait-and-segment-qualification-reference.md)が 28,000 件である必要があります。
 * UTC で木曜日の午後 12 時（毎週の重複レポート更新処理が開始される 2 日前）までにセグメントが作成されていなければなりません。
 * 会社が完全な [!DNL Audience Manager] ユーザーである必要があります。詳しくは、[!DNL Audience Manager] コンサルタントまたはカスタマーケアにお問い合わせください。
 
