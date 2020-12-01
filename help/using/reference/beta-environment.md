@@ -1,7 +1,7 @@
 ---
-description: ベータ環境は Audience Manager 実装をテストするためのものです。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
+description: ベータ環境は、Audience Manager の実装をテストするために使用します。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
 keywords: sandbox
-seo-description: ベータ環境は、Audience Manager の実装テストに使用します。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
+seo-description: ベータ環境は、Audience Manager の実装をテストするために使用します。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
 seo-title: ベータ環境
 solution: Audience Manager
 title: ベータ環境
@@ -11,14 +11,14 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # ベータ環境 {#beta-environment}
 
-ベータ環境は Audience Manager 実装をテストするためのものです。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
+ベータ環境は、Audience Manager の実装をテストするために使用します。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
 
 ## 概要
 
@@ -53,13 +53,13 @@ Added re: AAM-30826.
 
 1. curl[ コマンド](https://curl.haxx.se/docs/manpage.html)を使用して DCS 呼び出しをおこないます。curl は、サポートされている様々なプロトコルの中から 1 つを使用して、サーバー間データ転送をおこなうためのツールです。
 
-   次に例を示します。
+   例：
 
    `curl -v https://dcs-beta.demdex.net/event`
 
 1. DCS 応答ヘッダー内の「サンドボックス」を確認し、ベータ版 DCS によって要求が処理されたことを確認します。
 
-   次に例を示します。
+   例：
 
    ```
    curl -v http://dcs-beta.demdex.net/?event
