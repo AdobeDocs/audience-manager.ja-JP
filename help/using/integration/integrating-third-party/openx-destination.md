@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Audience Manager の宛先としての OpenX{#openx-as-an-audience-manager-destination}
+# Audience Manager の宛先としての OpenX {#openx-as-an-audience-manager-destination}
 
 [!DNL OpenX] を宛先として設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 Audience Manager の宛先として [!DNL OpenX] を設定する前に、以下を確認してください。
 
-* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library] コードをサイトに導入する必要があります。 [!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
+* **[!UICONTROL DIL]：**[!UICONTROL Data Integration Library] コードをサイトにデプロイする必要があります。[!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
 * **`get_aamCookie`関数：** Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または `<head>` コードブロック内に配置します。
 * **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。データは raw 形式でもかまいませんが、各レコードには Audience Manager `UUID` が含まれている必要があります。Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
@@ -61,7 +61,7 @@ Audience Manager において、*宛先*&#x200B;とは、データを共有し�
 「[!UICONTROL Basic Information]」セクションを完了するには：
 
 1. 宛先の名前を入力します。
-1. [!UICONTROL Type] ドロップダウンリストから&#x200B;**[!UICONTROL "Cookie"]**&#x200B;を選択します。
+1. **[!UICONTROL "Cookie"]** ドロップダウンリストから「[!UICONTROL Type]」を選択します。
 1. **[!UICONTROL Next]**&#x200B;をクリックし、「[!UICONTROL Configuration]」および「[!UICONTROL Segment Mappings]」セクションを開きます。
 
 ### 手順 2：設定情報
