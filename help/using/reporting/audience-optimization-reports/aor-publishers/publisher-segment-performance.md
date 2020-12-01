@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# セグメントパフォーマンスレポート{#segment-performance-report}
+# セグメントパフォーマンスレポート {#segment-performance-report}
 
 セグメントパフォーマンスレポートは、インプレッション数およびリアルタイムセグメントのユニーク数を使用して、マッピングされたセグメントとマッピングされていないセグメントを比較します。
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 * スケールやパフォーマンスを促進しているマッピングされたオーディエンスセグメントを特定する。
 * 過去のパフォーマンスに対するオーディエンスの貢献度に基づいて、今後のキャンペーンで導入するマッピングされていないセグメントを特定する。
 
-## セグメントパフォーマンスレポートの使用 {#using-segment-performance-report}
+## セグメントパフォーマンスレポートの使用  {#using-segment-performance-report}
 
 「**[!UICONTROL Mapped]**」と「**[!UICONTROL Unmapped]**」を切り替えて、宛先にマッピングされているセグメントとマッピングされていないセグメントのどちらかを選択します。「**[!UICONTROL All]**」を選択すると、すべてのセグメントがレポートに含まれます。
 
@@ -44,7 +44,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). これにより、Web プロパティの詳細が[!UICONTROL Line Item ID] ではなく[!UICONTROL Line Item]として表示されるようになります。
+>[!UICONTROL Audience Optimization for Publishers] を有効にする際には、[Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Line Item IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Line Item ID] ではなく[!UICONTROL Line Item]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
