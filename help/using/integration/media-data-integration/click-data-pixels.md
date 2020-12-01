@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ {#capturing-campaign-click-data-via-pixel-calls}
 
-クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。[インプレッションの収集](/help/using/integration/media-data-integration/impression-data-pixels.md)[!DNL Audience Manager]と同様に、イベント呼び出しを処理するため、 のデータ収集サーバー（[!DNL DCS]）に送信されます。訪問者はその後、意図した Web アドレスにリダイレクトされます。
+クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。[インプレッションの収集](/help/using/integration/media-data-integration/impression-data-pixels.md)と同様に、イベント呼び出しを処理するため、 の[!DNL Audience Manager]データ収集サーバー（[!DNL DCS]）に送信されます。訪問者はその後、意図した Web アドレスにリダイレクトされます。
 
 >[!NOTE]
 >
->Please contact your [!DNL Audience Manager] consulting or account lead for the exact [!DNL URL] specific to the client domain.
+>クライアントドメイン専用の正確な [!DNL URL] については、[!DNL Audience Manager] コンサルタントまたはアカウントリードにお問い合わせください。
 
 ## 要件
 
@@ -72,12 +72,12 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>事業部門の ID（数値）。 </p> <p> <span class="wintitle">Audience Optimization </span> レポートの場合は必須。 </p> </td> 
+   <td colname="col2"> <p>事業部門の ID（数値）。 </p> <p> <span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>広告サーバーから割り当てられたキャンペーン ID（数値）。 </p> <p> <span class="wintitle">Audience Optimization </span> レポートの場合は必須。 </p> </td> 
+   <td colname="col2"> <p>広告サーバーから割り当てられたキャンペーン ID（数値）。 </p> <p> <span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -137,7 +137,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
    <td colname="col02"> <p> <code>${gdpr_consent_XXXX}</code> </p> </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> の場合 <code>gdpr=1</code>、は <code>${gdpr_consent_XXXX}</code> 文字列とベンダーIDに置き換えられます( <code>gdpr_consent</code> IAB仕様を参照 <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"></a>)。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p><p> <code>gdpr=1</code> の場合、<code>${gdpr_consent_XXXX}</code> は <code>gdpr_consent</code> 文字列とベンダー ID に置き換えられます（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external">IAB 仕様</a>を参照）。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -167,7 +167,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## 追加機能 — [!UICONTROL Audience Optimization Reports]
+## 追加機能 - [!UICONTROL Audience Optimization Reports]
 
 ピクセル呼び出しを使用して、[Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) レポートを強化できます。ピクセルを使用してレポートに出力する場合は、[メタデータファイルの概要とマッピング](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
 
