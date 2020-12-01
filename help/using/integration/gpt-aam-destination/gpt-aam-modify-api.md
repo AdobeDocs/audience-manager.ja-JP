@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 ### `IF` 文コードの例
 
-この例では、Audience Manager の宛先 Cookie の名前は `Sample` です。この名前は、Audience Managerユーザーインターフェイスで宛先cookieを作成するときに設定します。 [!UICONTROL DIL] は `aam_uuid` Cookie を設定します。この名前は変更できません。
+この例では、Audience Manager の宛先 Cookie の名前は `Sample` です。この名前は、Audience Manager ユーザーインターフェイス で宛先 Cookie を作成する際に設定します。[!UICONTROL DIL] は `aam_uuid` Cookie を設定します。この名前は変更できません。
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -52,8 +52,8 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 <table id="table_881391C9BDDF4FACAFC37A47B14B31A1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 関数 </th> 
-   <th colname="col2" class="entry"> タイプ </th> 
+   <th colname="col1" class="entry">  関数 </th> 
+   <th colname="col2" class="entry"> のタイプ </th> 
    <th colname="col3" class="entry"> 説明 </th> 
   </tr> 
  </thead>
