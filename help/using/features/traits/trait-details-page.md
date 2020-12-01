@@ -11,76 +11,76 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 27%
+ht-degree: 100%
 
 ---
 
 
-# [!UICONTROL Trait] 詳細ページ {#trait-details-page}
+# [!UICONTROL Trait]の詳細ページ {#trait-details-page}
 
-The details page for an individual [!UICONTROL trait] provides an overview of the [!UICONTROL trait] details, such as the [!UICONTROL trait] name, ID, performance metrics, expressions that define the [!UICONTROL trait], segments it belongs to, and the [!UICONTROL trait] audit log. To view these details, go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** and click the name of the [!UICONTROL trait] you want to work with.
+個々の[!UICONTROL trait]の詳細ページには、[!UICONTROL trait]名、ID、パフォーマンス指標、[!UICONTROL trait]を定義する式、特性が属するセグメント、[!UICONTROL trait]監査ログなど、[!UICONTROL trait]の詳細の概要が表示されます。これらの詳細を表示するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Traits]** を選択し、対象となる[!UICONTROL trait]の名前をクリックします。
 
-## [!UICONTROL Trait] 管理ツール {#trait-management-tools}
+## [!UICONTROL Trait]管理ツール {#trait-management-tools}
 
-The top of the [!UICONTROL trait] details page hosts the tools that you can use to manage your [!UICONTROL traits]:
+[!UICONTROL trait]の詳細ページの上部に、[!UICONTROL traits]を管理するために使用できるツールがあります。
 
-1. **[!UICONTROL Add New]**:このオプションを使用して、新規 [!UICONTROL rule-based]、 [!UICONTROL algorithmic]またはを作成し [!UICONTROL onboarded traits]ます。
-2. **[!UICONTROL Edit]**:現在の設定を変更するには、このオプションを使用し [!UICONTROL trait]ます。
-3. **[!UICONTROL Delete]**:このオプションを使用して、Audience Managerアカウント [!UICONTROL trait] から現在のを削除します。
-4. **[!UICONTROL Marketplace Recommendations]**:このオプションは、登録され [!UICONTROL traits] ていないデータ料金から、表示している [!UICONTROL Audience Marketplace] ものと同様に使用できます。  へのナビゲート方法および類似した特性を見つける方法について詳しくは、[データ購入者向けの Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) を参照してください。[!UICONTROL Marketplace]
+1. **[!UICONTROL Add New]**：このオプションを使用して、新規 [!UICONTROL rule-based]、[!UICONTROL algorithmic]または[!UICONTROL onboarded traits]を作成します。
+2. **[!UICONTROL Edit]**：このオプションを使用して、現在の[!UICONTROL trait]の設定を変更します。
+3. **[!UICONTROL Delete]**：このオプションを使用して、Audience Manager アカウントから現在の[!UICONTROL trait]を削除します。
+4. **[!UICONTROL Marketplace Recommendations]**：このオプションを使用して、購読していない[!UICONTROL traits]データフィードから、表示している[!UICONTROL Audience Marketplace]に類似した特性を見つけます。[!UICONTROL Marketplace]へのナビゲート方法および類似した特性を見つける方法について詳しくは、[データ購入者向けの Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) を参照してください。
 
 ![basic-trait-information](assets/basic-trait-information.png)
 
 ## [!UICONTROL Trait] 情報 {#basics}
 
-The [!UICONTROL Trait Information] section shows details about required and optional fields you completed when building the [!UICONTROL trait]. 例えば、 [!UICONTROL trait] タイプ、 [!UICONTROL trait] ID、説明、その他のメタデータ [!UICONTROL data source]が含まれます。 これらの詳細は、 [!UICONTROL trait] タイプ([!UICONTROL folder]、 [!UICONTROL onboarded]または [!UICONTROL rule-based])によって異なります。
+「[!UICONTROL Trait Information]」セクションには、[!UICONTROL trait] の作成時に入力した必須フィールドとオプションフィールドの詳細が表示されます。これには、[!UICONTROL trait] タイプ、[!UICONTROL trait] ID、説明、[!UICONTROL data source]、その他のメタデータなどが含まれます。これらの詳細は、[!UICONTROL trait] タイプ（[!UICONTROL folder]、[!UICONTROL onboarded]または [!UICONTROL rule-based]）によって異なります。
 
 ## [!UICONTROL Trait Graph] {#trait-graph}
 
-The [!UICONTROL Trait Graph] provides at-a-glance performance metrics for your selected [!UICONTROL trait]. Hold your cursor over a trend line to see additional data for the selected [!UICONTROL trait].
+[!UICONTROL Trait Graph]は、選択した[!UICONTROL trait]のパフォーマンス指標をわかりやすく示しています。トレンドラインにカーソルを移動すると、選択した[!UICONTROL trait]の追加データが表示されます。
 
-[!UICONTROL Unique Trait Realizations] は、特定の期間にこれをプロファイル [!UICONTROL trait] に追加した個別ユーザーの数を表します。 The [!UICONTROL Total Trait Population] indicates the number of unique users currently qualified for this [!UICONTROL trait].
+「[!UICONTROL Unique Trait Realizations]」は、特定の期間内にこの[!UICONTROL trait]をプロファイルに追加したユニークユーザーの数を表します。「[!UICONTROL Total Trait Population]」は、現在この[!UICONTROL trait]について認定されているユニークユーザーの数を表します。
 
-For [!UICONTROL rule-based traits], [!UICONTROL trait] qualification happens in real-time, as users qualify for a [!UICONTROL trait] in their browser.
+[!UICONTROL rule-based traits]の場合、[!UICONTROL trait]認定は、ユーザーがブラウザーで[!UICONTROL trait]について認定されるとリアルタイムで発生します。
 
-例え [!UICONTROL onboarded traits]ば、受信ファイルの処理後に認定が行われます。つまり、受信ファイルがAudience Managerに [!UICONTROL trait] 送られ、認定が行われるとき [](../../faq/faq-inbound-data-ingestion.md)[!UICONTROL trait] 。
+[!UICONTROL onboarded traits]の場合は、受信ファイルの処理後に認定がおこなわれます。（例：[!UICONTROL trait]受信ファイルが [Audience Manager に送られ](../../faq/faq-inbound-data-ingestion.md)、[!UICONTROL trait]認定がおこなわれたとき）
 
-に次の情報 [!UICONTROL Trait Graph] が表示されます。
+[!UICONTROL Trait Graph]には、次の情報が表示されます。
 
 * **[!UICONTROL Show results by]**
-   * **[!UICONTROL Cross-Device ID]**:認証済みプロファイルのデータを収集してい [!UICONTROL traits] る対象の結果を表示するには、このオプションを選択します。 このオプションを選択すると、レポートにはデータのみが表示され、 [!UICONTROL Cross-Device ID] レポートにはデータは表示されません [!UICONTROL Device ID] 。
-   * **[!UICONTROL Device ID]**:デバイスプロファイルのデータを収集してい [!UICONTROL traits] る対象の結果を表示するには、このオプションを選択します。 このオプションを選択すると、レポートにはデータのみが表示され、 [!UICONTROL Device ID] レポートにはデータは表示されません [!UICONTROL Cross-Device ID] 。
+   * **[!UICONTROL Cross-Device ID]**：認証済みプロファイルのデータを収集している[!UICONTROL traits]の結果を表示するには、このオプションを選択します。このオプションを選択すると、[!UICONTROL Cross-Device ID] レポートにはデータのみが表示され、[!UICONTROL Device ID] レポートにはデータは表示されません。
+   * **[!UICONTROL Device ID]**：デバイスプロファイルのデータを収集している[!UICONTROL traits]の結果を表示するには、このオプションを選択します。このオプションを選択すると、[!UICONTROL Device ID] レポートにはデータのみが表示され、[!UICONTROL Cross-Device ID] レポートにはデータは表示されません。
 
       ![trait-graph](assets/trait-summary.gif)
 
-* **[!UICONTROL Unique Trait Realizations]**:特定の期間にこれをプロファイル [!UICONTROL trait] に追加した個別ユーザーの数です。
-* **[!UICONTROL Total Trait Population]**:現在この条件を満たす個別ユーザーの数 [!UICONTROL trait]。
+* **[!UICONTROL Unique Trait Realizations]**：特定の期間にこの[!UICONTROL trait]をプロファイルに追加したユニークユーザーの数。
+* **[!UICONTROL Total Trait Population]**：現在この[!UICONTROL trait]で絞り込まれているユニークユーザーの数。
 
-* **[!UICONTROL Identity Type Breakdown]**:最初の3つのエントリは、その条件を満たす訪問者数 [!UICONTROL cross-device data sources] が最も多い上位3つを降順 [!UICONTROL trait]で示します。 The fourth entry shows the sum of all the other [!DNL DPUUIDs] ([!DNL CRM IDs]) that qualified for the [!UICONTROL trait], from the [!UICONTROL cross-device data sources] that are not in the top three. This report appears only if you select [!UICONTROL Cross-device ID] in the [!UICONTROL Show Results By] drop-down menu at the top right side of the page. デフォルトのドロップダウンオプションは [!UICONTROL Device ID] で、このレポートは表示されません。
+* **[!UICONTROL Identity Type Breakdown]**：最初の 3 つのエントリには、[!UICONTROL trait]に適合する母集団が最も大きい、上位 3 つの[!UICONTROL cross-device data sources]が降順に表示されます。4 番目のエントリには、上位 3 つにない[!UICONTROL cross-device data sources]から[!UICONTROL trait]に適合するその他すべての [!DNL DPUUIDs]（[!DNL CRM IDs]）の合計が表示されます。このレポートは、ページの右上にある [!UICONTROL Show Results By] ドロップダウンメニューで「[!UICONTROL Cross-device ID]」を選択した場合にのみ表示されます。デフォルトのドロップダウンオプションは [!UICONTROL Device ID] で、このレポートは表示されません。
 
-   ![trait-graph](assets/trait-identity.png)
+   ![特性グラフ](assets/trait-identity.png)
 
    >[!NOTE]
    >
-   >Audience Manager only displays the [!UICONTROL Identity Type Breakdown] report if you have [!UICONTROL cross-device] IDs qualified for the [!UICONTROL trait].
+   >Audience Manager では、[!UICONTROL trait]に適合する[!UICONTROL cross-device] ID がある場合にのみ、[!UICONTROL Identity Type Breakdown]レポートが表示されます。
 
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## [!UICONTROL Trait] 式 {#trait-expression}
 
-The [!UICONTROL Trait Expression] section shows you the criteria users must meet to qualify for the [!UICONTROL trait]. これらのルールは、[特性を作成または編集](../../features/traits/about-trait-builder.md)するときに設定されます。
+「[!UICONTROL Trait Expression]」セクションには、ユーザーが[!UICONTROL trait]について認定されるために満たさなければならない条件が表示されます。これらのルールは、[特性を作成または編集](../../features/traits/about-trait-builder.md)するときに設定されます。
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait] セグメント {#trait-segments}
+## [!UICONTROL Trait]セグメント {#trait-segments}
 
-The [!UICONTROL Segments with this Trait] section lists all the segments the selected [!UICONTROL trait] belongs to. セグメント名をクリックすると、そのセグメントの詳細が表示されます。
+「[!UICONTROL Segments with this Trait]」セクションには、選択した[!UICONTROL trait]が属するすべてのセグメントのリストが表示されます。セグメント名をクリックすると、そのセグメントの詳細が表示されます。
 
 ![](assets/traitSegments.png)
 
-## [!UICONTROL Trait] 監査/履歴ログ {#trait-audit-history}
+## [!UICONTROL Trait]監査／履歴ログ {#trait-audit-history}
 
-For [!UICONTROL rule-based] and [!UICONTROL onboarded traits], the [!UICONTROL Trait Expression Change History] shows you the last 10 changes made to [!UICONTROL trait] expression rules and who made them. If your [!UICONTROL trait] has more than 10 changes, click **[!UICONTROL Export to CSV]** to download the entire audit log. またはで監査ログを使用でき [!UICONTROL folder] ません [!UICONTROL algorithmic traits]。
+[!UICONTROL rule-based]および[!UICONTROL onboarded traits]の場合、「[!UICONTROL Trait Expression Change History]」には、[!UICONTROL trait]式ルールに対する直近 10 件の変更と、その変更をおこなったユーザーが表示されます。[!UICONTROL trait]に対する変更が 10 件を超える場合、**[!UICONTROL Export to CSV]**&#x200B;をクリックすると監査ログ全体をダウンロードできます。[!UICONTROL folder]または[!UICONTROL algorithmic traits]で監査ログを使用できません。
 
 >[!NOTE]
 >
