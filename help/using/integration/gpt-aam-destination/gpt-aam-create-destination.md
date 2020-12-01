@@ -1,6 +1,6 @@
 ---
-description: You can send qualified segments to Google Ad Manager through a client-side (browser-side) integration, or a server-side integration. クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
-seo-description: 条件を満たしたセグメントは、クライアント側（ブラウザー側）の統合またはサーバー側の統合を通じて、Google Ad Managerに送信できます。 クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
+description: 認定されたセグメントを、クライアントサイド（ブラウザーサイド）の統合、またはサーバー側の統合により Google Ad Manager に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
+seo-description: 認定されたセグメントを、クライアントサイド（ブラウザーサイド）の統合、またはサーバー側の統合により Google Ad Manager に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
 seo-title: GPT 宛先の作成
 solution: Audience Manager
 title: GPT 宛先の作成
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 86%
 
 ## 宛先
 
-Audience Manager において、*`destination`* とは、データを共有する他のシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。*[!UICONTROL Audience Data][!UICONTROL Destinations]*&#x200B;まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
+Audience Manager において、*`destination`* とは、データを共有する他のシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*[!UICONTROL Audience Data]／[!UICONTROL Destinations]* からアクセスできます。まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
 
-## Basic Information
+## 基本情報
 
 「[!UICONTROL Basic Information]」セクションを完了するには：
 
 1. 宛先の名前を入力します。
-1. [!UICONTROL Type] ドロップダウンリストから&#x200B;**[!UICONTROL "Cookie"]**&#x200B;を選択します。
+1. **[!UICONTROL "Cookie"]** ドロップダウンリストから「[!UICONTROL Type]」を選択します。
 1. **[!UICONTROL Next]**&#x200B;をクリックし、「[!UICONTROL Configuration]」および「[!UICONTROL Segment Mappings]」セクションを開きます。
 
 ## Cookie の設定
