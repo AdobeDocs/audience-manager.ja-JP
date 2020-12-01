@@ -23,7 +23,7 @@ ht-degree: 89%
 
 **[!UICONTROL Ad Unit Overlap]** レポートを使用すると、Web プロパティ全体でオーディエンスが重複している部分についてのインサイトを得ることができます。このレポートでは、上位 100 件の関連プロパティを検討し、それらの間の重複を示します。
 
-## 広告ユニット間重複レポートの使用 {#using-the-report}
+## 広告ユニット間重複レポートの使用  {#using-the-report}
 
 **[!UICONTROL Top N Base Ad Units]** コントロールと **[!UICONTROL Top N Overlapping Ad Units]** コントロールを使用して、重複の広告ユニット数を選択します。それぞれ、最大 100 個の項目を選択できます。
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). これにより、Web プロパティの詳細が[!UICONTROL Ad Unit ID] ではなく[!UICONTROL Ad Unit]として表示されるようになります。
+>[!UICONTROL Audience Optimization for Publishers][!UICONTROL Ad Unit IDs][](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)これにより、Web プロパティの詳細が[!UICONTROL Ad Unit ID] ではなく[!UICONTROL Ad Unit]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
