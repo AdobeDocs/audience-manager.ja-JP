@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# セグメント - 広告ユニット間重複{#segment-to-ad-unit-overlap}
+# セグメント - 広告ユニット間重複 {#segment-to-ad-unit-overlap}
 
 セグメント - 広告ユニット間重複レポートは、広告ユニットと Audience Manager セグメントの間の重複が多い部分と少ない部分を強調したヒートチャートとして表示されます。
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 
 [!UICONTROL Segment to Ad Unit Overlap] レポートを使用すれば、どのオーディエンスが Web プロパティを訪問したかを把握できます。このレポートには、[!DNL Audience Manager] セグメントのメンバーと Web プロパティの訪問者数の間の重複が表示されます。重複が多い場合は、セグメントの多数のメンバーが Web プロパティを訪問していることになります。
 
-## セグメント - 広告ユニット間重複レポートの使用 {#using-the-report}
+## セグメント - 広告ユニット間重複レポートの使用  {#using-the-report}
 
 「**[!UICONTROL Top N Ad Units]**」コントロールと「**[!UICONTROL Top N Segments]**」コントロールを使用して、重複の広告ユニット数とセグメント数を選択します。それぞれ、最大 100 個の項目を選択できます。
 
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). これにより、Web プロパティの詳細が[!UICONTROL Ad Unit ID] ではなく[!UICONTROL Ad Unit]として表示されるようになります。
+>[!UICONTROL Audience Optimization for Publishers] を有効にする際には、[Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Ad Unit IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Ad Unit ID] ではなく[!UICONTROL Ad Unit]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
@@ -59,7 +59,7 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Ad Unit Uniques Count</span> </p> </td> 
-   <td colname="col2"> <p>この特定の広告ユニットの訪問者の数。この情報は、Google Ad Managerのログから抽出されます。 </p> </td> 
+   <td colname="col2"> <p>この特定の広告ユニットの訪問者の数。この情報は、Google Ad Manager のログから抽出されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Overlap Uniques Count</span> </p> </td> 
