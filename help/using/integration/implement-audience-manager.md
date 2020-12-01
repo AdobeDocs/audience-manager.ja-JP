@@ -1,23 +1,23 @@
 ---
-description: ここでは、Audience Manager データ管理プラットフォーム（DMP）の導入に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager 導入プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 ヶ月間かかる可能性があります。
-seo-description: ここでは、Audience Manager データ管理プラットフォーム（DMP）の導入に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager 導入プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 ヶ月間かかる可能性があります。
-seo-title: Audience Manager の導入
+description: ここでは、Audience Manager データ管理プラットフォーム（DMP）の導入に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager の実装プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 か月間かかる可能性があります。
+seo-description: ここでは、Audience Manager データ管理プラットフォーム（DMP）の導入に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager の実装プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 か月間かかる可能性があります。
+seo-title: Audience Manager の実装
 solution: Audience Manager
-title: Audience Manager の導入
+title: Audience Manager の実装
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Audience Manager の導入 {#implementing-audience-manager}
+# Audience Manager の実装 {#implementing-audience-manager}
 
-ここでは、Audience Manager データ管理プラットフォーム（[!DNL DMP]）の導入に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager 導入プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 ヶ月間かかる可能性があります。
+ここでは、Audience Manager データ管理プラットフォーム（[!DNL DMP]）の実装に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager の実装プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 か月間かかる可能性があります。
 
 アドビの導入手法は、新しいクライアントとのコンサルティングパートナーシップの構築に役立ちます。このプロセスの目的を以下に示します。
 
@@ -241,4 +241,4 @@ Audience Manager は、コードスニペットから [!DNL Akamai] を呼び出
 
 アカウントマネージャーは、製品実装プロセスが完了した後も、引き続きサポートおよびコンサルティングサービスを提供します。アカウントマネージャーとの定期的なミーティングの開催を期待できます。これらのミーティングでは、Audience Manager を最大限に活用し、価値を引き出すようにします。
 
-Audience Manager の詳細情報および開始方法については、[こちら](https://www.adobe.com/products/audiencemanager.html)からお問い合わせください。
+Audience Manager の詳細情報および開始方法については、[こちら](https://www.adobe.com/jp/products/audiencemanager.html)からお問い合わせください。
