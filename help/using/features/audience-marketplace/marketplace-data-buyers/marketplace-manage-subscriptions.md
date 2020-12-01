@@ -37,7 +37,7 @@ ht-degree: 100%
    ![plan-details](assets/plan-details.png)
 
 1. 購読テーブルからユースケースを選択し、以下の操作をおこないます。
-   * **[!UICONTROL Subscription]** スライダーを&#x200B;**[!UICONTROL On]**&#x200B;にします。
+   * **[!UICONTROL Subscription]** スライダーを「**[!UICONTROL On]**」にします。
    * 「**[!UICONTROL Review & Subscribe]**」をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
 
    ![購入する](assets/subscribe3.png)
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 [!UICONTROL Audience Marketplace] では、プロバイダーは、[!DNL CPM] または定額料金データフィードの公表価格の割引を購入者に提案できます。ただし、[!DNL Marketplace] のフィードリストでは、割引額は購入者に表示されません。しかし、非公開データフィードを購読する際、または特定のフィードに関する詳細情報をリクエストする際に、割引を求めることもできます。
 
-## 割引のリクエスト {#request-discount}
+## 割引のリクエスト  {#request-discount}
 
 <!-- marketplace-buyer-discounts.xml -->
 
@@ -247,7 +247,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 非アクティブ化された特性を削除 {#remove-deactivated-traits}
+## 非アクティブ化された特性を削除  {#remove-deactivated-traits}
 
 データ購入者は、キャンセルされたフィード内の特性を、アクティブ／使用中のセグメント、非アクティブなセグメントを問わず、すべてのセグメントから削除する必要があります。削除については次のオプションがあります。
 
@@ -297,7 +297,7 @@ ht-degree: 100%
 
 [!UICONTROL Audience Marketplace] のデータ購入者は、重複、モデリングおよびアクティブ化のユースケースに関するデータを購入します。各ユースケースは、特定の購入用に設計され、データを使用してできることを制限します。これらのユースケースの説明は、購入するデータプランのタイプについて適切な判断を下すうえで役に立ちます。
 
-## セグメントおよび重複プランとの比較 {#comparisons}
+## セグメントおよび重複プランとの比較  {#comparisons}
 
 <!-- c_use_cases_for_buyers.xml -->
 
@@ -312,7 +312,7 @@ ht-degree: 100%
 
 このユースケースでは、[アルゴリズムモデル](../../../features/algorithmic-models/understanding-models.md#understanding-models)を使用して、ご使用の特性を基準にしてサプライヤー特性を評価することができます。例えば、アドビのアルゴリズムモデリングシステムでは、サプライヤー提供の特性に対する比較の基準として、お使いの特性の 1 つを使用します。モデルを実行すると、サプライヤー特性のオーディエンスが、お使いの特性と類似したコンバージョン属性を共有しているかどうかがわかります。
 
-### Activation
+### アクティベーション
 
 このユースケースでは、[宛先](../../../features/destinations/destinations.md)にデータを送信できます。[!DNL Audience Manager] において、宛先とは、データを共有したいサードパーティシステム（広告サーバー、[!DNL DSP]、[!DNL DMP]、exchange など）のになります。ただし、[!UICONTROL Activation] ユースケースでは、重複レポートを実行したり、データをアルゴリズムモデルでテストしたりすることはできません。
 
