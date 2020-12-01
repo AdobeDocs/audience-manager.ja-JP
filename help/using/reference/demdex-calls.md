@@ -10,19 +10,19 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 
-# Understanding Calls to the [!DNL Demdex] Domain {#understanding-calls-to-the-demdex-domain}
+# [!DNL Demdex] ドメインの呼び出しについて {#understanding-calls-to-the-demdex-domain}
 
-[!DNL Audience Manager] ドメインに対し [!DNL Adobe Experience Platform Identity Service] て呼び出し、ドメインからデータを受け取り `demdex.net` ます。 This may seem like [!DNL Adobe] is working with an unusual third-party domain, but this is not the case. この節では、`demdex.net` 呼び出しの構成要素について説明します。
+[!DNL Audience Manager] および[!DNL Adobe Experience Platform Identity Service] は `demdex.net` ドメインに対し呼び出しをおこない、データを受け取ります。[!DNL Adobe]が見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、`demdex.net` 呼び出しの構成要素について説明します。
 
 | 呼び出しの構成要素 | 説明 |
 |---|---|
-| `demdex.net` | This is a legacy domain controlled by [!DNL Adobe]. これは、 [!DNL Audience Manager] ([!DNL Demdex])の元の事前取得名を反映しています。 [!DNL Adobe] は 2011 年に [!DNL Demdex] を買収し、[!DNL Audience Manager] というブランド名に変更しました。It is difficult to change this domain because it is entwined deeply with [!DNL Audience Manager], the [!DNL Adobe Experience Cloud ID Service], and our installed user base. 従来の `demdex.net` 呼び出しに他のプレフィックスが付いている場合があります（例：`dcs.demdex.net`、`fast.demdex.net` など）。Regardless of the prefix, a call to `something.demdex.net` is always a call to [!DNL Adobe] and not to some unknown or suspicious third-party domain. |
-| `dpm` | [!DNL DPM] はの省略形で [!DNL Data Provider Match]す。 It tells internal, [!DNL Adobe] systems that a call from [!DNL Audience Manager] or the [!DNL Adobe Experience Cloud ID Service] is passing in customer data for synchronization or requesting an ID. This is the most common `demdex.net` call you&#39;ll see from [!DNL Audience Manager] or the [!DNL Adobe Experience Cloud ID Service]. <br><br>[!DNL DPM] 呼び出しの基本： <ul><li>[!DNL Audience Manager]:からの [!DNL DPM] 呼び出しは、データをとに [!DNL Audience Manager] 送信し [!DNL Data Collection Servers] ま [!DNL Profile Cache Servers]す。 [データ収集コンポーネント](../reference/system-components/components-data-collection.md)を参照してください。</li><li>[!DNL Adobe Experience Cloud ID Service]:からの [!DNL DPM] 呼び出し [!DNL Adobe Experience Cloud ID Service] は、訪問者IDのリクエストです。 「 [CookiesとAdobe Experience PlatformIDサービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html) 」および「Adobe Experience PlatformIDサービスがIDを要求して設定する [方法](https://docs.adobe.com/content/help/en/id-service/using/intro/id-request.html.</li></ul><br>注意： [!DNL Adobe Experience Cloud ID Service] ドメイン名のプレフィックスは変更でき [!DNL DPM] ます。 詳しくは、[audienceManagerServer と audienceManagerServerSecure](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/subdomain-config.html) を参照してください。 |
+| `demdex.net` | [!DNL Adobe] が管理しているレガシーのドメインです。[!DNL Audience Manager] の買収前の名前（[!DNL Demdex]）を反映しています。[!DNL Adobe] は 2011 年に [!DNL Demdex] を買収し、[!DNL Audience Manager] というブランド名に変更しました。このドメインは、[!DNL Audience Manager]、[!DNL Adobe Experience Cloud ID Service]、およびアドビの既存のユーザーベースに密接に関連しているので、変更することは困難です。従来の `demdex.net` 呼び出しに他のプレフィックスが付いている場合があります（例：`dcs.demdex.net`、`fast.demdex.net` など）。プレフィックスにかかわらず、`something.demdex.net` への呼び出しは常に[!DNL Adobe]への呼び出しであり、不明な、または疑わしいサードパーティドメインへの呼び出しではありません。 |
+| `dpm` | [!DNL DPM] は、[!DNL Data Provider Match]の略語です。これにより、[!DNL Audience Manager] または [!DNL Adobe Experience Cloud ID Service]からの呼び出しで同期または ID リクエストのために顧客データが渡されていることが、[!DNL Adobe] の社内システムにわかります。これは、[!DNL Audience Manager] または [!DNL Adobe Experience Cloud ID Service]からの `demdex.net` 呼び出しとして最も一般的なものです。<br><br>[!DNL DPM] 呼び出し基本事項： <ul><li>[!DNL Audience Manager]：[!DNL Audience Manager] からの [!DNL DPM] 呼び出しは、[!DNL Data Collection Servers] と [!DNL Profile Cache Servers] にデータを送信します。[データ収集コンポーネント](../reference/system-components/components-data-collection.md)を参照してください。</li><li>[!DNL Adobe Experience Cloud ID Service]：[!DNL Adobe Experience Cloud ID Service] からの [!DNL DPM] 呼び出しは、訪問者 ID のリクエストです。[Cookie と Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html)および[Experience Cloud Identity Service による ID のリクエスト方法と設定方法]（https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/id-request.html）を参照してください。</li></ul><br>注意：[!DNL Adobe Experience Cloud ID Service]のお客様はドメイン名の [!DNL DPM] プレフィックスを変更できます。詳しくは、[audienceManagerServer と audienceManagerServerSecure](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/subdomain-config.html) を参照してください。 |
 
 >[!MORELIKETHIS]
 >
