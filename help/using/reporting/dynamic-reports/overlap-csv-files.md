@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# 重複レポートの CSV ファイル{#csv-files-for-overlap-reports}
+# 重複レポートの CSV ファイル {#csv-files-for-overlap-reports}
 
 重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。カスタマーケアに連絡して、圧縮した .csv ファイルを請求してください。このファイルを独自のデータベースシステムにインポートして操作することができます。セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
 
@@ -33,15 +33,15 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ファイル拡張子 </p> </td> 
-   <td colname="col2"> <p>Overlap report files are gzip compressed and have a <code> .gz</code> file extension. You must add the <code> .csv</code> extension to the file after decompression. </p> </td> 
+   <td colname="col2"> <p>重複レポートファイルは gzip 形式で圧縮され、ファイル拡張子は <code> .gz</code> になります。解凍後は <code> .csv</code> 拡張子をファイルに追加する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル名 </p> </td> 
    <td colname="col2"> <p>ファイル名の構文は次のとおりです。 </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
-      <li id="li_FFB104975D104050AB67FEEC903C6E2E">セグメント間ファイル： <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
-      <li id="li_7DEC51D693FB4377840D652AF40386EF">セグメントから特性ファイル： <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
-      <li id="li_CCB35A2BCB714E518AB279D453740623">特性間ファイル： <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_FFB104975D104050AB67FEEC903C6E2E">セグメント間ファイル：<code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_7DEC51D693FB4377840D652AF40386EF">セグメント／特性間ファイル：<code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_CCB35A2BCB714E518AB279D453740623">特性間ファイル：<code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -60,8 +60,8 @@ ht-degree: 96%
    <td colname="col1"> <p>例 </p> </td> 
    <td colname="col2"> <p>レポートが 1 つの場合のファイル名の例： </p> <p> 
      <ul id="ul_EED13F73F37D48868236F8945E19C88F"> 
-      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">単一の7日間ファイル： <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
-      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">単一の30日間ファイル： <code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
+      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">7 日間のファイル（1 つ）：<code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
+      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">30 日間のファイル（1 つ）：<code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
      </ul> </p> <p>複数のファイルがあるレポートのファイル名の例： </p> <p> 
      <ul id="ul_D307EECBB3524962AB8C8332BF699D29"> 
       <li id="li_9FA3B5539E5A4F95899075866D96DEA0"> <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
@@ -83,7 +83,7 @@ ht-degree: 96%
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## セグメント間レポートのレコード {#segment-segment-records}
+## セグメント間レポートのレコード  {#segment-segment-records}
 
 [セグメント間重複レポート](segment-segment-overlap-report.md)のデータファイルには、次のレコードが含まれています。
 
@@ -142,7 +142,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-## セグメント - 特性間レポートのレコード {#segment-trait-records}
+## セグメント - 特性間レポートのレコード  {#segment-trait-records}
 
 [セグメント - 特性間重複レポート](segment-trait-overlap-report.md)のデータファイルには、次のレコードがあります。
 
@@ -209,7 +209,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-## 特性間レポートのレコード {#trait-trait-records}
+## 特性間レポートのレコード  {#trait-trait-records}
 
 [特性間重複レポート](trait-trait-overlap-report.md)には、次のレコードがあります。
 
