@@ -38,7 +38,7 @@ ht-degree: 100%
 
 [!UICONTROL Data Export Controls] は、すべての Audience Manager ユーザーに対して自動的に使用できます。ただし、書き出しコントロールをデータソースに追加するには、管理者権限が必要です。書き出しラベルを宛先に追加するには、管理者権限または宛先を作成または編集するための十分な権限が必要です。**
 
-## コントロールおよびラベルの定義 {#controls-labels}
+## コントロールおよびラベルの定義  {#controls-labels}
 
 [!UICONTROL Data Export Controls]は、データソースおよび宛先を分類するのに役立つ、以下のコントロールを提供します。
 
@@ -66,13 +66,13 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> No restriction</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol">制限なし</span></b> </td> 
    <td colname="col2"> なし </td> 
    <td colname="col3"> デフォルトでは、新しいデータソースおよび宛先に書き出し制限が設定されていません。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Cannot be tied to personally identifiable information</span></b> (PII) </td> 
-   <td colname="col2"> <b><span class="uicontrol"> This destination may enable a combination with personally identifiable information (PII)</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol">この宛先は個人情報（PII）との組み合わせを有効にすることができます</span></b> </td> 
    <td colname="col3">選択すると、以下のことができなくなります。 
     <ul id="ul_0D5A4D0373374217A4BACDFC3BB2F79D"> 
      <li id="li_C32FC26C6E814412A1C73B840E81BB68">PII を使用する宛先にマッピングされたセグメントへの特性の追加。 </li> 
@@ -80,8 +80,8 @@ ht-degree: 100%
     </ul> <p>これは、多くの場合、サードパーティデータプロバイダーで必要になり、広告／メディア追跡情報を含むデータソースを使用する場合にも必要です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Cannot be used for on-site ad targeting</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> This destination may be used for on-site ad targeting</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol">オンサイト広告ターゲティングに使用することはできません</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol">この宛先はオンサイト広告ターゲティングに使用できます</span></b> </td> 
    <td colname="col3">選択すると、以下のことができなくなります。 
     <ul id="ul_5B17972E7E0C424A833AD540DFF3CBF2"> 
      <li id="li_05810CEAC8CB4616BB2D52DDDADA84A8">訪問者の Web ブラウジング履歴に基づいて広告配信をカスタマイズする宛先にマッピングされたセグメントへの特性の追加。 </li> 
@@ -89,8 +89,8 @@ ht-degree: 100%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Cannot be used for off-site ad targeting</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> This destination may be used for off-site ad targeting</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol">オフサイト広告ターゲティングに使用することはできません</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol">この宛先はオフサイト広告ターゲティングに使用できます</span></b> </td> 
    <td colname="col3">これらの制限が一般的に使用され、選択すると、以下のことができなくなります。 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">他のサイトのユーザーを再ターゲット化する宛先にマッピングされたセグメントへの特性の追加。 </li> 
@@ -98,8 +98,8 @@ ht-degree: 100%
     </ul> <p>多くの場合、ソーシャルメディアプラットフォームからのデータを扱う際に必要です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Cannot be used for on-site personalization</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> This destination may be used for on-site ad personalization</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol">オンサイトのパーソナライズ機能に使用することはできません</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol">この宛先は、オンサイト広告パーソナライズ機能に使用できます</span></b> </td> 
    <td colname="col3">選択すると、以下のことができなくなります。 
     <ul id="ul_3360EB209E07402A863F0E7473B99D3F"> 
      <li id="li_88B3842B67E040EB9DC0BBEB8E5EC251">ユーザーの興味または Web ブラウジング履歴に基づいてコンテンツをカスタマイズする宛先にマッピングされたセグメントへの特性の追加。 </li> 
