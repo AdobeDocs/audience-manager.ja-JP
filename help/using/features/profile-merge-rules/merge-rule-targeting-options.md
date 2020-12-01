@@ -27,7 +27,7 @@ ht-degree: 100%
 
 このシナリオは、ユーザー認証を考慮せずに、デバイス ID（DSP、オンサイトパーソナライゼーションプラットフォーム、その他のデバイスベースのターゲティングプラットフォーム）をサポートするターゲティングプラットフォームを使用して、Audience Manager で定義したオーディエンスセグメントの単一のデバイスプロファイルを評価する場合に適用されます。
 
-デバイスプロファイルのみをターゲットにするルールを作成する場合は、**[!UICONTROL Device Profile]** +**[!UICONTROL No Cross-Device Profile]** を選択します。
+デバイスプロファイルのみをターゲットにするルールを作成する場合は、**[!UICONTROL Device Profile]** + **[!UICONTROL No Cross-Device Profile]** を選択します。
 
 ![device-only](assets/device-only.png)
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 **[!UICONTROL No Cross-Device Profile]** ルールと **[!UICONTROL Device Profile]** ルールを使用することで、[!DNL Device 1] と [!DNL Device 3] の両方が対象となりますが、デバイス 2 は無視されます。
 
-![device-only](assets/device-management.png)
+![デバイスのみ](assets/device-management.png)
 
 ## 共有デバイスのターゲティング {#target-shared-devices}
 
