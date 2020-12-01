@@ -23,7 +23,7 @@ ht-degree: 100%
    + [データセキュリティ](overview/data-security-and-privacy/data-security.md)
    + データプライバシー {#data-privacy}
       + [データプライバシーの概要](overview/data-security-and-privacy/data-privacy.md)
-      + [データのプライバシーリクエスト](overview/data-security-and-privacy/data-privacy-requests.md)
+      + [データプライバシーリクエスト](overview/data-security-and-privacy/data-privacy-requests.md)
       + データプライバシーのリファレンス {#data-privacy-reference}
          + [Audience Manager 識別子](overview/data-security-and-privacy/data-privacy-ids.md)
          + [CCPA の用語集](overview/data-security-and-privacy/aam-ccpa-glossary.md)
@@ -73,7 +73,7 @@ ht-degree: 100%
       + [非公開データフィード](features/audience-marketplace/marketplace-private-feeds.md)
    + [顧客データフィード](features/cdf-files.md)
    + データエクスプローラ {#data-explorer}
-      + [データエクスプローラー - 概要、メリット、ユースケース](features/data-explorer/data-explorer-overview.md)
+      + [Data Explorer - 概要、メリット、ユースケース](features/data-explorer/data-explorer-overview.md)
       + [シグナルについて](features/data-explorer/data-explorer-understanding-signals.md)
       + [シグナルダッシュボード](features/data-explorer/data-explorer-signals-dashboard.md)
       + シグナル検索 {#signals-search}
@@ -98,7 +98,7 @@ ht-degree: 100%
       + [宛先ホームページ](features/destinations/destinations-home.md)
       + Adobe Experience Cloud の宛先 {#experience-cloud-destinations}
          + [Analytics の宛先の設定](features/destinations/create-analytics-destination.md)
-      + ピープルベースの宛先 {#people-based}
+      + People-Based Destinations {#people-based}
          + [概要とユースケース](features/destinations/people-based-destinations-overview.md)
          + [前提条件と考慮事項](features/destinations/people-based-destinations-prerequisites.md)
          + 実装ガイド {#implementation-guide}
@@ -108,7 +108,7 @@ ht-degree: 100%
             + [ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [ピープルベースのプラットフォームを使用した認証](features/destinations/people-based-destinations-authentication.md)
          + [共有可能なオーディエンス](/help/using/features/destinations/people-based-destinations-reporting.md)
-      + デバイスベースの宛先（サーバー間） {#device-based}
+      + デバイスベースの宛先（サーバー間）{#device-based}
          + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
          + [Audience Manager のデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
@@ -133,7 +133,7 @@ ht-degree: 100%
       + [ 外部デバイスグラフのユースケース](features/profile-merge-rules/external-graph-use-cases.md)
       + [プロファイル結合ルールのレポート指標](features/profile-merge-rules/profile-link-metrics.md)
       + [プロファイル結合ルールとデバイスのセグメント化解除プロセス](features/profile-merge-rules/merge-rule-unsegment.md)
-      + [クロスデバイスの即時抑制](features/profile-merge-rules/instant-cross-device-suppression.md)
+      + [Instant Cross-Device Suppression](features/profile-merge-rules/instant-cross-device-suppression.md)
    + セグメント {#segments}
       + [セグメント：目的、構成、ルール](features/segments/segments-purpose.md)
       + [セグメントリスト表示](features/segments/segments-dashboard.md)
@@ -167,7 +167,7 @@ ht-degree: 100%
       + [キー変数名の要件](features/traits/trait-key-name-requirements.md)
       + [セグメントと特性の有効期間についての説明](features/traits/segment-ttl-explained.md)
       + [キー変数のプレフィックスに関する要件](features/traits/trait-variable-prefixes.md)
-      + [ プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング） ](features/traits/trait-geotarget-keys.md)
+      + [ プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）](features/traits/trait-geotarget-keys.md)
       + [プラットフォームレベルのキーによるデバイスターゲティング](features/traits/trait-device-targeting.md)
       + [ブール演算子と比較演算子を使用した式のサンプル](features/traits/trait-expression-samples.md)
       + [特性およびセグメントの資格に関するリファレンス](features/traits/trait-and-segment-qualification-reference.md)
@@ -181,7 +181,7 @@ ht-degree: 100%
       + [Audience Optimization レポート](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization for Advertisers {#audience-optimization-advertisers}
          + [Audience Optimization for Advertisers の概要](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Google キャンペーンマネージャーデータファイルを Audience Manager にインポート](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Google キャンペーンマネージャーデータファイルを Audience Manager に読み込む](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [セグメントパフォーマンスレポート](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [トレンド分析レポートとボリューム分析レポート](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [最適頻度レポート](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -190,16 +190,16 @@ ht-degree: 100%
          + [クロスチャネルコンバージョン](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Audience Optimization for Publishers {#audience-optimization-publishers}
          + [Audience Optimization for Publishers の概要](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Google Ad Manager（旧称 DFP）データファイルの Audience Manager へのインポート](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [セグメントパフォーマンスレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [セグメントトレンドレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [上位の未使用特性](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
          + [広告ユニット間重複](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
          + [セグメント - 広告ユニット間重複](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [個別ユーザーのリーチ](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
-      + Audience Optimization レポートおよび実用的なログファイル用のデータとメタデータファイル {#data-and-metadata-files}
+      + Audience Optimization レポートおよびアクションにつながるログファイル用のデータとメタデータファイル {#data-and-metadata-files}
          + [ ログデータとメタデータファイル](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-         + [Audience Optimization レポートおよび実用的なログファイル用のデータファイル](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+         + [Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [メタデータファイルの概要とマッピング](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [メタデータファイルの命名規則](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [メタデータファイルのコンテンツの形式](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
@@ -231,7 +231,7 @@ ht-degree: 100%
          + [DCS からのデータ受信](api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
       + DCS の API {#dcs-apis}
          + [サーバー間データ転送用の DCS API](api/dcs-intro/dcs-s2s/dcs-s2s.md)
-         + [DCS レスポンスからのユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
+         + [DCS 応答からのユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
          + [Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [サーバー間 DCS API 呼び出しの実行](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + DCS API リファレンス {#dcs-api-reference}
@@ -286,7 +286,7 @@ ht-degree: 100%
 + 実装および統合ガイド {#implementation-integration-guides}
    + [実装および統合ガイド](integration/implementation-and-integration.md)
    + [データ統合方法](integration/data-integration-methods.md)
-   + Google Publisher Tags（GPT）を使用した Google Ad Manager の統合 {#integrate-dfp-using-gpt}
+   + Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合 {#integrate-dfp-using-gpt}
       + [GPT を使用した Google Ad Manager の統合 - 概要](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [GPT を使用した Google Ad Manager へのセグメントの送信](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 宛先の作成](integration/gpt-aam-destination/gpt-aam-create-destination.md)
@@ -301,7 +301,7 @@ ht-degree: 100%
    + [Audience Manager の実装](integration/implement-audience-manager.md)
    + メディアデータの統合 {#media-data-integration}
       + [メディアデータ統合の概要](integration/media-data-integration/media-data-integration.md)
-      + [実用的なログファイル](integration/media-data-integration/actionable-log-files.md)
+      + [アクションにつながるログファイル](integration/media-data-integration/actionable-log-files.md)
       + [ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ](integration/media-data-integration/impression-data-pixels.md)
       + [ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ](integration/media-data-integration/click-data-pixels.md)
    + オーディエンスデータの受信 {#receiving-audience-data}
@@ -309,7 +309,7 @@ ht-degree: 100%
       + [送信データ転送のための ID 同期](integration/receiving-audience-data/id-sync-outbound.md)
       + リアルタイム送信データ転送 {#real-time-outbound-transfers}
          + [リアルタイム送信データ転送](integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)
-         + [デジタル署名された HTTP リクエスト](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
+         + [デジタル署名付き HTTP リクエスト](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
          + [リアルタイムのアウトバウンド転送での OAuth 2.0 統合](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + バッチ送信データ転送 {#batch-outbound-data-transfers}
          + [バッチ送信データ転送の概要](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
@@ -364,7 +364,7 @@ ht-degree: 100%
    + [DPID と DPUUID に代わる CID](reference/cid.md)
    + [データ配信やファイル処理の時間がレポートに及ぼす影響](reference/reporting-file-transfer-timeframe.md)
    + [Audience Manager で使用される ID の一覧](reference/ids-in-aam.md)
-   + [キー値ペアの解説](reference/key-value-pairs-explained.md)
+   + [キーと値のペアの解説](reference/key-value-pairs-explained.md)
    + [パスワードの要件、ロックされたアカウント、パスワードを忘れた場合](reference/password-requirements.md)
    + [シグナル、特性、セグメント](reference/signal-trait-segment.md)
    + [サポートされているブラウザー](reference/supported-browsers.md)
@@ -379,10 +379,10 @@ ht-degree: 100%
       + [エッジデータセンターについて](reference/system-components/components-edge.md)
    + [コードおよびテキスト要素のスタイル規則](reference/code-style-elements.md)
    + [Audience Manager のタイムゾーン](reference/aam-time-zones.md)
-   + [TLS 1.0 および 1.1 のサポート終了 ](reference/tls-support.md)
+   + [TLS 1.0 および 1.1 の廃止 ](reference/tls-support.md)
    + [demdex ドメインの呼び出しについて](reference/demdex-calls.md)
    + [Audience Manager の訪問者認証ステータス](reference/visitor-authentication-states.md)
-+ よくある質問（FAQ） {#faqs}
++ よくある質問（FAQ）{#faqs}
    + [Audience Manager の FAQ の概要](faq/faq-overview.md)
    + [API に関するよくある質問](faq/faq-api.md)
    + [Audience Lab に関するよくある質問](faq/faq-audience-lab.md)
@@ -390,7 +390,7 @@ ht-degree: 100%
    + [データ収集および製品統合に関するよくある質問](faq/faq-data-collection.md)
    + [顧客データのインバウンドの取得に関するよくある質問](faq/faq-inbound-data-ingestion.md)
    + [プライバシーとデータ保持に関するよくある質問](faq/faq-privacy.md)
-   + [ピープルベースの宛先に関する FAQ](faq/faq-people-based-destinations.md)
+   + [People-Based Destinations に関する FAQ](faq/faq-people-based-destinations.md)
    + [製品の機能に関するよくある質問](faq/faq-features.md)
    + [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq/faq-profile-merge.md)
    + [Predictive Audiences に関する FAQ](faq/faq-predictive-audiences.md)
