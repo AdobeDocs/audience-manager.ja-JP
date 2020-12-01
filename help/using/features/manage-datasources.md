@@ -11,16 +11,16 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
-#  [!UICONTROL Data Sources]{#manage-data-sources}
+# [!UICONTROL Data Sources]の管理 {#manage-data-sources}
 
-## 指標をさらに制限する [!UICONTROL Data Source] {#create-data-source}
+## [!UICONTROL Data Source]の作成 {#create-data-source}
 
-To create a new [!UICONTROL data source], go to **[!UICONTROL Audience Data > Data Sources > Add New]** and complete the steps for each section described here. Administrator permissions are required to create a [!UICONTROL data source].
+新しい[!UICONTROL data source]を作成するには、**[!UICONTROL Audience Data > Data Sources > Add New]** に移動して、ここに記載されているそれぞれの節の手順を完了します。[!UICONTROL data source]を作成するには、管理者権限が必要です。
 
 <!-- create-datasource.xml -->
 
@@ -33,14 +33,14 @@ To create a new [!UICONTROL data source], go to **[!UICONTROL Audience Data > Da
 「[!UICONTROL Data Source Details]」セクションを完了するには：
 
 1. [!UICONTROL data source] に名前を付けます。
-1. *（オプション）*[!UICONTROL data source] の説明を入力します。A concise description helps you define the role or purpose of the [!UICONTROL data source].
-1. を指定し [!UICONTROL integration code]ます。 一般に、 [!UICONTROL integration codes] はオプションです。 統合コードが必要になるのは、次のいずれかの場合です。
+1. *（オプション）*[!UICONTROL data source] の説明を入力します。簡潔な説明は、[!UICONTROL data source] の役割や目的を定義するのに役に立ちます。
+1. [!UICONTROL integration code] を指定します。一般に、[!UICONTROL integration codes] はオプションです。統合コードが必要になるのは、次のいずれかの場合です。
 
    * [クロスデバイス対応データソースを作成](../features/profile-merge-rules/merge-rules-start.md#create-data-source)する。
    * [Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用する。
    * [プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を使用する。
 
-1. **[!UICONTROL ID Type]** を選択します。[!UICONTROL ID Type] 次のオプションがあります。
+1. **[!UICONTROL ID Type]** を選択します。[!UICONTROL ID Type] オプションは次のとおりです。
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -53,26 +53,26 @@ To create a new [!UICONTROL data source], go to **[!UICONTROL Audience Data > Da
 
 ## [!UICONTROL Data Export Controls] {#export-controls}
 
-[データエクスポートコントロール](../features/data-export-controls.md) (Data Export Controls [!UICONTROL data source] )は、およびに適用できるオプションの分類ルール [!UICONTROL destination]です。 They prevent you from sending data to a [!UICONTROL destination] when that action violates a data privacy or use agreement. データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
+[データ書き出しコントロール](../features/data-export-controls.md)は、[!UICONTROL data source] および [!UICONTROL destination] に適用できるオプションの分類ルールです。[!UICONTROL destination] へのデータ送信がデータのプライバシーや使用契約に違反する場合、データ送信を防止します。データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
 
 ## [!UICONTROL Data Source] 設定 {#settings}
 
-These settings determine how a [!UICONTROL data source] is identified, used, and shared. また、受信データファイルのエラーレポートを有効にすることもできます。「[!UICONTROL Data Source Settings]」セクションを完了するには：
+これらの設定で [!UICONTROL data source] の識別、使用、共有の方法が決まります。また、受信データファイルのエラーレポートを有効にすることもできます。「[!UICONTROL Data Source Settings]」セクションを完了するには：
 
-1. Select a [!UICONTROL Data Source Setting] check box to apply an option to your [!UICONTROL data source].
+1. 「[!UICONTROL Data Source Setting]」チェックボックスを選択して、[!UICONTROL data source] にオプションを適用します。
 2. 「**[!UICONTROL Save]**」をクリックします。
 
 ## データソースの削除 {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Delete a [!UICONTROL data source] that you no longer need.
+不要になった [!UICONTROL data source] データソースを削除します。
 
 >[!NOTE]
 >
 >次の制限事項に注意してください。
 >
->* 削除できない[アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
+>* [アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
 >* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/core-services-landing.html)を使用します。
 
 
