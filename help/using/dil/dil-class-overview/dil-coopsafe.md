@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ DIL から Adobe Experience Cloud Device Co-op にデータを送信するかど
 * [!UICONTROL DIL] v6.11 以降を使用する。
 * [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html) に参加する。Co-op への参加を検討している場合は、このドキュメントをよく読み、デバイスグラフの作成にデータがどのように使用されるかに関する懸念に `isCoopSafe` で対処できるかどうかを確認する必要があります。
 
-* [!DNL Adobe]これらのフラグをセルフサービスで有効にする方法はありません。
+* [!DNL Adobe] コンサルタントに依頼して、Device Co-op アカウントで許可リストまたはブロックリストのフラグを設定する。これらのフラグをセルフサービスで有効にする方法はありません。
 
 ## ユースケース {#use-cases}
 
