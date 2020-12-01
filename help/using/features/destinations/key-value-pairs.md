@@ -1,9 +1,9 @@
 ---
 description: キー値ペアは関連する要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。Destination Builder では、キー値ペアの形式でデータを送信します。
 seo-description: キー値ペアは関連する要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。Destination Builder では、キー値ペアの形式でデータを送信します。
-seo-title: 標準型およびシリアル型のキーと値のペア
+seo-title: 標準型およびシリアル型のキー値ペア
 solution: Audience Manager
-title: 標準型およびシリアル型のキーと値のペア
+title: 標準型およびシリアル型のキー値ペア
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Destination Basics
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# 標準型およびシリアル型のキーと値のペア {#standard-and-serial-key-value-pairs}
+# 標準型およびシリアル型のキー値ペア {#standard-and-serial-key-value-pairs}
 
 キー値ペアは関連する要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。[!UICONTROL Destination Builder] では、キー値ペアの形式でデータを送信します。
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 * `color = green`
 * `price > 100`
 
-## 標準型およびシリアル型のキーと値のペア {#standard-serial-key-value-pairs}
+## 標準型およびシリアル型のキー値ペア {#standard-serial-key-value-pairs}
 
 宛先はキーと値のデータを *`standard`* または *`serialized`* 形式で受け取ります。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 <table id="table_7895B1E800934117A19A96380F0CF91B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 形式 </th>
+   <th colname="col1" class="entry"> のフォーマット  </th>
    <th colname="col2" class="entry"> 1 つのキーと値のペア </th>
    <th colname="col3" class="entry"> 複数のキーと値のペア </th>
   </tr>
