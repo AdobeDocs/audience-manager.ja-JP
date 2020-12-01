@@ -24,16 +24,16 @@ Analytics の宛先を設定するには、Audience Manager ユーザーが管�
 
 | Analytics の宛先のタイプ | 説明 |
 |---|---|
-| デフォルト | このデフォルトの宛先は「Adobe Analytics」という名前になっていますが、編集することができます。マッピングされたレポートスイート ID が Audience Manager の特性およびセグメントのフォルダーストレージに表示されます。<br>アカウントが次の条件を満たす場合、Audience Manager は宛先を 1 つ自動的に作成します。<br> <ul><li>[オーディエンス分析](https://docs.adobe.com/content/help/ja-JP/analytics/integration/audience-analytics/mc-audiences-aam.html)のドキュメントで説明している要件を満たしている。</li><li>Analytics に[レポートスイート](https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/report-suites-admin.html)がある。</li><li>[レポートスイートを組織にマッピングしてある](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)。</li></ul> |
+| デフォルト | このデフォルトの宛先は「Adobe Analytics」という名前になっていますが、編集することができます。マッピングされたレポートスイート ID が Audience Manager の特性およびセグメントのフォルダーストレージに表示されます。<br>アカウントが次の条件を満たす場合、Audience Manager は宛先を 1 つ自動的に作成します。<br> <ul><li>[オーディエンス分析](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)のドキュメントで説明している要件を満たしている。</li><li>Analytics に[レポートスイート](https://docs.adobe.com/content/help/ja-JP/analytics/admin/manage-report-suites/report-suites-admin.html)がある。</li><li>[レポートスイートを組織にマッピングしてある](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/report-suite-mapping.html)。</li></ul> |
 | 新規 | Analytics の宛先を新規作成するには、Audience Data／Destinations／Create New Destination を選択し、以下で説明している各セクションの手順に従います。 |
 
 ## 手順 1：基本情報の提供
 
 このセクションには、Analytics の宛先の作成プロセスを開始するフィールドとオプションが含まれています。このセクションを完了するには：
 
-1. 「**Basic Information**」をクリックして、コントロールを表示します。
+1. 「**基本情報**」をクリックして、コントロールを表示します。
 2. 宛先の名前を入力します。略語や特殊文字は使用しないでください。
-3. *（オプション）*&#x200B;宛先の説明を入力します。簡潔な説明が、宛先を定義するのに効果的です。
+3. *（オプション）*&#x200B;宛先の説明を入力します。簡潔な説明は、宛先を定義するのに効果的です。
 4. *（オプション）*「**Platform**」リストをデフォルトの「**All**」のままにしておきます。現時点では、このオプションは機能しません。今後追加される可能性のある機能をサポートするために設計されています。
 5. 「**Category**」リストで「**Adobe Experience Cloud**」を選択します。
 6. 「**Type**」リストで「**Adobe Analytics**」を選択します。
