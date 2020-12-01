@@ -3,7 +3,7 @@ description: セグメントテストグループに重複のないテストセ�
 seo-description: セグメントテストグループに重複のないテストセグメントを作成すると、様々な宛先の有効性を測定し比較することができます。有効性をテストするために、対照グループを残しておき、セグメントを全体のうちの一部に割り振ることができます。
 seo-title: Audience Lab
 solution: Audience Manager
-title: Audience Lab
+title: オーディエンスラボ
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
