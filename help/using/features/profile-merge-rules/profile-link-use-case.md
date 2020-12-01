@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 86%
 
 ## クロスデバイスでのターゲティング {#cross-device-personalization}
 
-例えば、ジョンという人物が、旅行ツアーの詳細を調べるため、定期的に使用するデバイスとして、パソコン([!DNL Device 1])、スマートフォン([!DNL Device 2])、タブレット([!DNL Device 3]) の 3 台を持っているとします。ただし、ジョンは、デバイスを使用して、ツアーの詳細の異なる項目を調べます。
+例えば、ジョンという人物が、旅行ツアーの詳細を調べるため、定期的に使用するデバイスとして、パソコン（[!DNL Device 1]）、スマートフォン（[!DNL Device 2]）、タブレット（[!DNL Device 3]）の 3 台を持っているとします。ただし、ジョンは、デバイスを使用して、ツアーの詳細の異なる項目を調べます。
 
 * 飛行機の便を検索する際はノートパソコンを使用し、
 * ホテルの場合はスマートフォン、
 * ガイドツアーはタブレットで調べます。
 
-Even if John is not authenticated on all three of the devices mentioned above, by using the **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** rule, a holiday package provider can associate these devices to John&#39;s authenticated profile, assuming that he was the last person to authenticate on all three devices.
+上記の 3 つのデバイスのすべてでジョンが認証されていない場合でも、**[!UICONTROL Last Authenticated Profiles]** と **[!UICONTROL Profile Link Device Graph]** ルールを使用することで、旅行会社は、これらのデバイスをジョンの認証済みプロファイルに関連付け、3 台のデバイスすべてで最後に認証された人物がジョンであると想定します。
 
 ![last-device-graph](assets/last-device-graph.png)
 
