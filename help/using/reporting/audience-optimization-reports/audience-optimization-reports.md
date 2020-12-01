@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # [!UICONTROL Audience Optimization Reports] {#audience-optimization-reports}
 
-The [!UICONTROL Audience Optimization Reports] use data visualization methods to return information on the [!UICONTROL destinations] in your Audience Manager account. 各レポートに表示されたほとんどのデータポイントは、クリックすることでその項目の詳細情報を確認できます。These [!UICONTROL Audience Optimization] insights can be applied to several use cases across advertising and publishing channels, but are not available by default. 導入するには、担当の Audience Manager コンサルタントにお問い合わせください。
+[!UICONTROL Audience Optimization Reports] では、データ視覚化手法を使用して、Audience Manager アカウントにおける[!UICONTROL destinations]の情報を返します。各レポートに表示されたほとんどのデータポイントは、クリックすることでその項目の詳細情報を確認できます。[!UICONTROL Audience Optimization] に関するこれらのインサイトは、広告および出版チャネルにわたる複数のユースケースに適用できますが、デフォルトでは使用可能になっていません。導入するには、担当の Audience Manager コンサルタントにお問い合わせください。
 
 + [Audience Optimization for Advertisers の概要](aor-advertisers/aor-advertisers.md)
 + [Audience Optimization for Publishers の概要](aor-publishers/aor-publishers.md)
