@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: cb84f95d52c2e851cb0c016cb25f408f2d79d01b
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 92%
 
 | データソース ID | 説明 |
 |---|---|
-| 20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** IDは、オペレーティングシステムを実行するデバイス [!DNL Android] を表します。 |
-| 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** IDは、オペレーティングシステムを実行するデバイス [!DNL iOS] を表します。 |
-| 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** IDは、ストリーミ [!DNL Roku] ングデバイスを表します。 |
-| 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** IDは、オペレーティング・システムを実行しているデバイスを表 [!DNL Windows 10] します。 |
-| 963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** IDは、スマー [!DNL Samsung] トテレビを表します。 |
-| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** 実行中のデバイスを表す [!DNL Amazon Fire OS] |
+| 20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** ID は [!DNL Android] オペレーティングシステムを使用するデバイスを表します。 |
+| 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** ID は [!DNL iOS] オペレーティングシステムを使用するデバイスを表します。 |
+| 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** ID は、[!DNL Roku] ストリーミングデバイスを表します。 |
+| 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** ID は、[!DNL Windows 10]オペレーティングシステムを実行しているデバイスを表します。 |
+| 963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** ID は、[!DNL Samsung] スマートテレビを表します。 |
+| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** 実行中の [!DNL Amazon Fire OS] を表します。 |
 
 ## グローバルデータソースからのデータのインポート
 
