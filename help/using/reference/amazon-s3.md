@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Amazon S3：概要{#amazon-s-about}
+# Amazon S3：概要 {#amazon-s-about}
 
 Amazon Simple Storage Service（Amazon S3）についての情報です。
 
