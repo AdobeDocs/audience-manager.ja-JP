@@ -22,13 +22,13 @@ Cookie の宛先は、ユーザーのブラウザーの Cookie からデータ�
 
 新しい cookie の宛先を作成するには、**[!UICONTROL Audience Data > Destinations > Create New Destination]** を開き、セクションに以下のように入力します。
 
-## Basic Information {#basic-information}
+## 基本情報 {#basic-information}
 
 このセクションには、Cookie の宛先の作成プロセスを開始するフィールドとオプションが含まれています。このセクションを完了するには：
 
 1. 「**[!UICONTROL Basic Information]**」をクリックして、コントロールを表示します。
 2. 宛先の名前を入力します。略語や特殊文字は使用しないでください。
-3. *（オプション）*&#x200B;宛先の説明を入力します。簡潔な説明が、宛先を定義するのに効果的です。
+3. *（オプション）*&#x200B;宛先の説明を入力します。簡潔な説明は、宛先を定義するのに効果的です。
 4. 「**[!UICONTROL Category]**」リストで、「**[!UICONTROL Custom]**」を選択します。
 5. **[!UICONTROL Environment]** リストで、「**[!UICONTROL Browser]**」を選択します。Android や iOS アプリなど、ネイティブモバイル環境用に cookie の宛先を設定することはできません。
 6. 「**[!UICONTROL Type]**」リストで、「**[!UICONTROL Cookie]**」をクリックします。
@@ -45,7 +45,7 @@ Cookie の宛先は、ユーザーのブラウザーの Cookie からデータ�
 2. 宛先に適用するデータ書き出しコントロールに対応するラベルを選択します（詳しくは、[データ書き出しラベルを宛先に追加する](/help/using/features/destinations/add-data-export-labels.md)を参照してください）。
 3. 「**[!UICONTROL Save]**」をクリックします。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
 このセクションには、宛先の Cookie をセットアップできるフィールドとオプションが含まれています。
 
