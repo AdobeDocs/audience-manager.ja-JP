@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 87%
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">データソース ID：<code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">内部の顧客 ID：<code> CustomerABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">宣言済み ID：パートナーはこれらの値を宣言済み ID <code> 1:CustomerABC</code> として渡します。 </li> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">宣言された ID：パートナーはこれらの値を宣言された ID <code> 1:CustomerABC</code> として渡します。 </li> 
     </ul> <p>これを <code>%dpid_<i>data source id</i>%</code> でおこなうには、<span class="keyword">Audience Manager</span> パートナーは、次のような形式でマクロを設定します。 </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
@@ -57,16 +57,15 @@ ht-degree: 87%
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>GDPR規制が訪問者に適用されるかどうかを示す。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意を含めます。 詳しくは、IAB TCFの <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Managerプラグインを参照してください</a> 。</p></td>
+    <td><p>GDPR 規制が訪問者に適用されるかどうかを示します。このマクロを使用して、IAB と統合された URL 宛先へ送信されるセグメントに、同意を含めます。詳しくは、<a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用 Audience Manager プラグイン</a>を参照してください。</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>訪問者がサイトで同意を提供または拒否した場合に収集される同意文字列（IABベンダーIDを含む）。 このマクロを使用して、IABと統合されたURL宛先に送信されるセグメントに同意文字列を含めます。 宛先パートナーID <code>XXXX</code> に置き換えます。 詳しくは、IAB TCFの <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Managerプラグインを参照してください</a> 。 </p></td>
+    <td><p>訪問者がサイトで同意を提供または拒否した場合に収集される同意文字列（IAB ベンダー ID を含む）。このマクロを使用して、IAB と統合された URL 宛先へ送信されるセグメントに、同意文字列を含めます。<code>XXXX</code> を宛先パートナー ID に置き換えます。詳しくは、<a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用 Audience Manager プラグイン</a>を参照してください。 </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
-   <td colname="col2"> <p>親 Web ページで使用されているプロトコルを検出し、それを宛先 URL に挿入します。For example:
-     <br> 
+   <td colname="col2"> <p>親 Web ページで使用されているプロトコルを検出し、それを宛先 URL に挿入します。例：<br>
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
       <li id="li_B41EF140CC274CB68FE7213DD8B908C0">Web ページが <b>https</b>://aam_client.com の場合、このマクロは <b>https</b>://url-destination.com に置換されます。 </li> 
       <li id="li_BDCD6EA69B004A92BA6981952341BD77">Web ページが <b>http</b>://aam_client.com の場合、このマクロは <b>http</b>://url-destination.com に置換されます。 </li> 
