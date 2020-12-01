@@ -33,7 +33,7 @@ ht-degree: 100%
 * 最新の Audience Manager リリースノートを参照し、**リリースノートおよび最新の機能**&#x200B;の節で最新の機能の詳細をお読みください。
 * 最後に、「**学習センター - 推奨される Audience Manager および Experience Cloud のリソース**」の節で、フォーラム、ビデオチュートリアル、対面およびオンラインでのトレーニングコースなど、より多くの Experience Cloud リソースを参照できます。
 
-<br> 
+<br>
 
 ## Audience Manager の主な機能
 
