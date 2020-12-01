@@ -1,9 +1,9 @@
 ---
-description: 'このページには、Audience Manager とユーザーベースのプラットフォーム間の統合を設定および管理する方法に関するガイダンスが含まれています。 '
-seo-description: 'このページには、Audience Manager とユーザーベースのプラットフォーム間の統合を設定および管理する方法に関するガイダンスが含まれています。 '
-seo-title: ユーザーベースのプラットフォームを使用した認証
+description: 'このページには、Audience Manager とピープルベースのプラットフォーム間の統合を設定および管理する方法に関するガイダンスが含まれています。 '
+seo-description: 'このページには、Audience Manager とピープルベースのプラットフォーム間の統合を設定および管理する方法に関するガイダンスが含まれています。 '
+seo-title: ピープルベースのプラットフォームを使用した認証
 solution: Audience Manager
-title: ユーザーベースのプラットフォームを使用した認証
+title: ピープルベースのプラットフォームを使用した認証
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
@@ -14,17 +14,17 @@ ht-degree: 100%
 ---
 
 
-# ユーザーベースのプラットフォームを使用した認証{#authentication-with-people-based-platforms}
+# ピープルベースのプラットフォームを使用した認証 {#authentication-with-people-based-platforms}
 
 >[!IMPORTANT]
 >この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
-このページには、Audience Manager とユーザーベースのプラットフォーム間の統合を設定および管理する方法に関するガイダンスが含まれています。
+このページには、Audience Manager とピープルベースのプラットフォーム間の統合を設定および管理する方法に関するガイダンスが含まれています。
 
 >[!NOTE]
->この手順は、導入シナリオに関係なく、People-Based Destinations では必須です。
+>この手順は、実装シナリオに関係なく、People-Based Destinations では必須です。
 
-## ユーザーベースのプラットフォーム認証の設定 {#configure-authentication}
+## ピープルベースのプラットフォーム認証の設定 {#configure-authentication}
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
@@ -32,7 +32,7 @@ ht-degree: 100%
 3. **[!UICONTROL People-Based Platform]** ドロップダウンメニューを使用して、統合を設定するプラットフォームを選択します。
    ![ユーザーベースのプラットフォーム](assets/pbd-add.png)
 4. **[!UICONTROL Confirm]**&#x200B;をクリックすると、選択したプラットフォームの認証ページにリダイレクトされます。
-5. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+5. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、「**[!UICONTROL Confirm]**」をクリックします。
 6. Audience Manager のページ上部に通知が表示され、アカウントが正常に追加されたかどうかがわかります。また、連絡先電子メールアドレスを追加して、ソーシャルプラットフォーム認証の有効期限が近づいたらアドビから通知を受け取ることもできます。
 
 ## 認証トークンの有効期限と通知管理 {#token-expiration-notification}
