@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# 上位の未使用特性{#top-unused-traits}
+# 上位の未使用特性 {#top-unused-traits}
 
 上位の未使用特性は、まだセグメントのメンバーになっていない特性を、特性タイプ、データソース、パフォーマンスに基づいて散布図として表したものです。
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 [!UICONTROL Top Unused Traits]レポートを使用すると、現在セグメントにマッピングされていないファーストパーティ特性とサードパーティ特性のパフォーマンスを分析および比較することができます。このビューから、キャンペーン最適化またはまったく新しいビジネスチャンスのためにオーディエンスセグメントで使用するのに最適な特性を指摘することができます。
 
-## 上位の未使用特性レポートの使用 {#using-the-report}
+## 上位の未使用特性レポートの使用  {#using-the-report}
 
 「**[!UICONTROL Data Provider Type]**」コントロールを使用して、ファーストパーティ特性とサードパーティ特性を切り替えます。「**[!UICONTROL All]**」を選択すると、ファーストパーティ特性とサードパーティ特性がレポートに表示されます。
 
@@ -39,7 +39,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). これにより、Web プロパティの詳細が[!UICONTROL Order ID] ではなく[!UICONTROL Order]として表示されるようになります。
+>[!UICONTROL Audience Optimization for Publishers] を有効にする際には、[Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Order IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Order ID] ではなく[!UICONTROL Order]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
@@ -90,7 +90,7 @@ ht-degree: 92%
 
 レポートにおける特性の位置で、既存のオーディエンスセグメントの最適化に使用できる特性について多くのことがわかります。
 
-Impressions 軸に関して高い位置にある特性は、キャンペーンで使用できる特性になります。For traits with a low number of impressions, it is unlikely that you&#39;re reaching this audience on your web property, based on your [!DNL Google Ad Manager] data.
+Impressions 軸に関して高い位置にある特性は、キャンペーンで使用できる特性になります。インプレッション数が少ない特性の場合は、[!DNL Google Ad Manager] データに基づき、Web プロパティでこのオーディエンスにリーチする可能性は低くなります。
 
 「[!UICONTROL Unique Trait Realizations]」軸の左側に行くほど正確な特性になり、右側に行くほどスケールを促進できる特性になります。
 
