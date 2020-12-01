@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * **左側のナビゲーション**&#x200B;で、トピック別およびサブトピック別にコンテンツを参照します。
 * 何を探したいかががわかっている場合は、ページ上部の&#x200B;**検索**&#x200B;フィールドを使用します。
-* ページの右上にある「**問題をログに記録**」ボタンを使用して、誤ったドキュメントや古いドキュメントを伝えます。投稿の開始方法については、[コラボレーションガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)の概要を参照してください。
+* ページの右上にある「**問題をログに記録**」ボタンを使用して、誤ったドキュメントや古いドキュメントを伝えます。投稿の開始方法については、[コラボレーションガイド](https://docs.adobe.com/content/help/ja-JP/contributor/contributor-guide/introduction.html)の概要を参照してください。
 
 ## このページの読み方
 
@@ -64,7 +64,7 @@ ht-degree: 100%
       </div>
       <p>
       <p>
-         <em><ul><li><a href="/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md">バッチおよびリアルタイムでのデータ書き出し</a></li><li><a href="/help/using/features/destinations/destinations.md">宛先の概要</a></li><li><a href="/help/using/features/destinations/device-based-destinations-list.md">デバイスベースの宛先リスト</a></li><li><a href="/help/using/features/destinations/people-based-destinations-overview.md">ピープルベースの宛先</a></li></ul></em> 
+         <em><ul><li><a href="/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md">バッチおよびリアルタイムでのデータ書き出し</a></li><li><a href="/help/using/features/destinations/destinations.md">宛先の概要</a></li><li><a href="/help/using/features/destinations/device-based-destinations-list.md">Device-based destinations リスト</a></li><li><a href="/help/using/features/destinations/people-based-destinations-overview.md">People-based destinations</a></li></ul></em> 
       <p>
       <p>
    </td>
@@ -202,7 +202,7 @@ Read about the latest Audience Manager features:
      <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external">Audience Manager コミュニティフォーラム</a> </li>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager チュートリアル</a> </li> 
+      <li><a href="https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager チュートリアル</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/jp/privacy.html" format="http" scope="external">アドビプライバシーセンター</a> </li>  
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/jp/learning.html?promoid=KAUDK" scope="external" format="http">アドビトレーニングおよび証明書</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/jp/support/experience-cloud.html" scope="external" format="https">Experience Cloud 製品ドキュメントのホーム</a> </li> 
