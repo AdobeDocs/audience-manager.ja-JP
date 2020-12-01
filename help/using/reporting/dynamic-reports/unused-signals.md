@@ -15,9 +15,9 @@ ht-degree: 100%
 ---
 
 
-# 未使用シグナルレポート{#unused-signals-report}
+# 未使用シグナルレポート {#unused-signals-report}
 
-このレポートでは、インベントリで収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。このレポートにアクセスするには、**Analytics／オーディエンスレポート／その他のレポート／未使用シグナル**&#x200B;に移動します。
+このレポートでは、インベントリで収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。このレポートにアクセスするには、**Analytics／Audience Reports／Other Report／Unused Signals**&#x200B;に移動します。
 
 >[!NOTE]
 >
