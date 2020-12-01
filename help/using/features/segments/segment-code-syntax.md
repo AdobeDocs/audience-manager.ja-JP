@@ -45,7 +45,7 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 | 名前または変数 | 説明 |
 |---|---|
 | `FREQUENCY` | 式の前に配置する必要がある文字列。 |
-| ` [`&lt;`traitID`>`T]` | 特性 ID の末尾に「`T`」を付加した文字列の配列。複数の特性がある場合、コンマで区切ります。次に例を示します。`[123T, 456T]` |
+| ` [`&lt;`traitID`>`T]` | 特性 ID の末尾に「`T`」を付加した文字列の配列。複数の特性がある場合、コンマで区切ります。例：`[123T, 456T]` |
 | ` <Recency Operator><Numeric Value>D` | *（オプション）*&#x200B;セグメントの特性に関する最新性ルールを設定します。「`D`」は最新性を日数単位で表していることを示します。 |
 | ` <Frequency Operator><Numeric Value>` | セグメントの特性に関する頻度ルールを設定します。 |
 
