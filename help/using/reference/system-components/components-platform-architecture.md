@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# プラットフォームアーキテクチャ：データフローマップ{#platform-architecture-data-flow-map}
+# プラットフォームアーキテクチャ：データフローマップ {#platform-architecture-data-flow-map}
 
 このマップには Audience Manager の主要なシステムが含まれています。Audience Manager コンポーネント内およびコンポーネント間のデータの流れが視覚的に表現されています。
 
