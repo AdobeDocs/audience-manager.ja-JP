@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '922'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 [!DNL People-Based Destinations] は、Audience Manager のプレミアム統合です。このプレミアム機能を活用するには、アドビの担当者にお問い合わせください。
 
-## Why You Should Use [!UICONTROL People-Based Destinations] {#why-use}
+## [!UICONTROL People-Based Destinations] を使用する理由 {#why-use}
 
 **Audience Manager 内からオーディエンスセグメント全体を管理することで、一貫性のあるクロスチャネルエクスペリエンスを顧客に提供します。**
 
@@ -50,9 +50,9 @@ Audience Manager から、ユーザーベースのチャネルでオーディエ
 
 他のユーザーベースのチャネルをまたいでオーディエンスをターゲティングする「従来の」方法では、宣伝したいプラットフォームで許可されている形式で顧客データを書き出し、プラットフォームの専用データオンボード方式を使用して、顧客データを広告主アカウントに取り込みます。この作業は、宣伝したい各プラットフォームで、手動で実行する必要があります。さらに、プラットフォームが異なれば、データ形式の要件も異なることがあり、プロセスの煩雑さも増します。
 
-![pbd-overview](assets/pbd-diagram.png)
+![pbdの概要](assets/pbd-diagram.png)
 
-[!DNL People-Based Destinations] を通じて、Audience Manager は顧客データを一元管理し、オーディエンスセグメントを構築し、複数のユーザーベースのチャネルをまたいでそれらをアクティブ化できます。これは、Audience Managerのユーザーインターフェイス内で行うことができます。各プラットフォームに手動でデータをアップロードする手間が省け、プロセスの貴重な時間を節約できます。
+[!DNL People-Based Destinations] を通じて、Audience Manager は顧客データを一元管理し、オーディエンスセグメントを構築し、複数のユーザーベースのチャネルをまたいでそれらをアクティブ化できます。これらをすべては、Audience Manager ユーザーインターフェイス内から実行できるので、各プラットフォームに手動でデータをアップロードする手間がなくなり、プロセスの貴重な時間を節約できます。
 
 **純粋なオフラインプロファイルからオーディエンスセグメントを作成およびアクティブ化します。**
 
