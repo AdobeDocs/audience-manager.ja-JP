@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# isAddedPostWindowLoad{#isaddedpostwindowload}
+# isAddedPostWindowLoad {#isaddedpostwindowload}
 
 ウィンドウが読み込まれた後に読み込まれたことを DIL に知らせるために使用されます。
 
