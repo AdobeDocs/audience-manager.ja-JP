@@ -35,9 +35,9 @@ ht-degree: 100%
 デバイスベースの宛先を追加するには、Audience Managerと [!DNL Twitter Tailored Audiences] アカウントをリンクさせる必要があります。手順は次のとおりです。
 
 1. Audience Manager アカウントにログインして、**[!DNL Administration > Integrated Accounts]** に移動します。宛先プラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
-1. **[!DNL Add Account]**&#x200B;をクリックします。
-1. 認証ページにリダイレクトするには、[!DNL Twitter Tailored Audiences]を選択してから&#x200B;**[!DNL Confirm]**&#x200B;をクリックします。![integrated-platforms](assets/dbd-integrated-platforms.png)
-1. 認証が完了すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、**[!DNL Confirm]**&#x200B;をクリックします。
+1. 「**[!DNL Add Account]**」をクリックします。
+1. 認証ページにリダイレクトするには、[!DNL Twitter Tailored Audiences]を選択してから、「**[!DNL Confirm]**」をクリックします。![integrated-platforms](assets/dbd-integrated-platforms.png)
+1. 認証が完了すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、「**[!DNL Confirm]**」をクリックします。
 
 ### 手順 2.新しいデバイスベースの宛先を作成する {#step2-create-new-destination}
 
@@ -47,11 +47,11 @@ Audience Manager と [!DNL Twitter Tailored Audiences] をリンクさせたら�
 >
 >既存のデバイスベースの宛先の名前を変更することはできません。宛先を正しく識別するために役立つ名前を指定してください。
 
-1. Audience Manager アカウントにログインし、**[!DNL Audience Data > Destinations]** に移動して、**[!DNL Create Destination]**&#x200B;をクリックします。
+1. Audience Manager アカウントにログインし、**[!DNL Audience Data > Destinations]** に移動して、「**[!DNL Create Destination]**」をクリックします。
 1. **[!DNL Basic Information]** セクションで、新しい宛先の **[!DNL Name]** および **[!DNL Description]** を入力し、以下の設定を使用します：![setup](assets/dbd-new-basic.png)
-1. **[!DNL Next]**&#x200B;をクリックします。
+1. 「**[!DNL Next]**」をクリックします。
 1. この宛先に設定する[データ書き出しラベル](/help/using/features/data-export-controls.md#controls-labels)を選択します。
-1. **[!DNL Save]**&#x200B;をクリックします。
+1. 「**[!DNL Save]**」をクリックします。
 1. 「**[!DNL Segment Mappings]**」セクションで、この宛先に送信するオーディエンスセグメントを選択します。
 1. 宛先を保存します。
 
