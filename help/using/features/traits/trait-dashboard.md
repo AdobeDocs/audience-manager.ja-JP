@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # 特性ダッシュボード {#traits-dashboard}
 
-[Traits](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) ダッシュボードは、特性を一元管理するためのワークスペースです。**[!UICONTROL Audience Data]**／**[!UICONTROL Traits]**&#x200B;に移動して、[!UICONTROL Traits] ダッシュボードを表示できます。
+[特性ダッシュボード](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list)は、特性を一元管理するためのワークスペースです。**[!UICONTROL Audience Data]**／**[!UICONTROL Traits]**&#x200B;に移動して、[!UICONTROL Traits] ダッシュボードを表示できます。
 
 ![](assets/traits-dashboard.png)
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 [!UICONTROL Traits] ダッシュボードには、以下をおこなうために役立つ機能およびツールが含まれています。
 
 1. 並べ替え可能な列を持つ表でのすべての特性および関連する詳細の表示。
-2. レビューと操作[Active Audience 特性と Data Source Synced 特性](../../features/traits/client-activity-synced-audience-traits.md)の確認と操作。
+2. [Active Audience 特性と Data Source Synced 特性](../../features/traits/client-activity-synced-audience-traits.md)の確認と操作。
 3. 特性の作成、編集および削除。
 4. 特性ストレージフォルダーの表示および管理。
 5. 名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。
