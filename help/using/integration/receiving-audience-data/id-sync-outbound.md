@@ -64,7 +64,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p><p><b>注意：</b> <ul><li><code>gdpr</code> および <code>gdpr_consent</code> パラメーターは、アクティベートパートナーと共に ID 同期 URLで徐々にロールアウトされます。<a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">IAB TCF の Audience Manager プラグイン</a>で、IAB TCF をサポートするアクティベーションパートナーを参照してください。</li><li>このパラメーターは、 と一緒に使用する必要があります。 <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p><p><b>注意：</b> <ul><li><code>gdpr</code> および <code>gdpr_consent</code> パラメーターは、アクティベートパートナーと共に ID 同期 URLで徐々にロールアウトされます。<a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">IAB TCF の Audience Manager プラグイン</a>で、IAB TCF をサポートするアクティベーションパートナーを参照してください。</li><li>このパラメーターは、 と一緒に使用する必要があります <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
