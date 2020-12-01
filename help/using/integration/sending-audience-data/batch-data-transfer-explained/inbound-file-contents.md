@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -79,9 +79,9 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-## 形式 [!UICONTROL Trait IDs] {#formatting-trait-ids}
+## [!UICONTROL Trait IDs]のフォーマット {#formatting-trait-ids}
 
-The following table describes the prefixes that identify [!UICONTROL trait] names or IDs in an inbound data file. 例については[サンプルファイル](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples)を参照してください。
+次の表は、受信データファイルで[!UICONTROL trait]の名前または ID を識別するためのプレフィックスの一覧です。例については[サンプルファイル](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples)を参照してください。
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -113,7 +113,7 @@ The following table describes the prefixes that identify [!UICONTROL trait] name
      </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>キーと値のペア </p> </td> 
+   <td colname="col1"> <p>キー値ペア </p> </td> 
    <td colname="col2"> <p>特性データは英数字の文字列を使用するキーと値のペアとして書式設定できます。キーと値のペアの書式設定には次のように複数の方法があります。 </p> <p> 
      <ul id="ul_D4F5A97FE0444AC6B7D8D4DAEDD3EAF2"> 
       <li id="li_07B893AA8EB24F34B70F8DA06E87EAB3"> <code> key = value </code> </li> 
@@ -125,25 +125,25 @@ The following table describes the prefixes that identify [!UICONTROL trait] name
  </tbody>
 </table>
 
-## とキーと値のペアに無効な文字 [!UICONTROL Trait IDs]が含ま [!UICONTROL User IDs] れています {#invalid-chars}
+## [!UICONTROL User IDs]、[!UICONTROL Trait IDs]、およびキーと値のペアに無効な文字が含まれている {#invalid-chars}
 
 ### [!UICONTROL Trait IDs]
 
-[!UICONTROL Trait IDs] は数字のみで構成されます。 We ask that you include *only[!UICONTROL onboarded traits]* in inbound data files. We do not process any other [!UICONTROL trait] types in the inbound data transfer.
+[!UICONTROL Trait IDs] は数字のみで構成されます。受信データファイルには、[!UICONTROL onboarded traits]**&#x200B;のみを入れるようにしてください。受信データ転送では、他の[!UICONTROL trait]タイプは処理されません。
 
 ### [!UICONTROL User IDs]
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> ID Type </th> 
+   <th colname="col1" class="entry"> ID タイプ </th> 
    <th colname="col2" class="entry"> 要件 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p>DPUUID では、エンコードされたコロン（ <code> %3A </code> ）やエンコードされていないコロン（ : ）を使用しないでください。<i></i> </p> </td> 
+   <td colname="col2"> <p>DPUUID では、エンコードされたコロン（ <code> %3A </code> ）やエンコードされていないコロン（ : ）を使用<i>しないでください</i>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイル iOS（IDFA）または Android デバイス ID </p> </td> 
@@ -156,7 +156,7 @@ The following table describes the prefixes that identify [!UICONTROL trait] name
  </tbody>
 </table>
 
-### キーと値のペア
+### キー値ペア
 
 キーと値のペアで、値の名前が正しく書式設定されていない場合も、問題が発生します。キーと値のペアの値を作成する場合、または値の名前を設定する場合は、以下のルールに従ってください。
 
@@ -182,7 +182,7 @@ The following table describes the prefixes that identify [!UICONTROL trait] name
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p>キーと値のペアでは、空の値の代わりに <i></i><code> TAB </code> を使用しないでください。<code> TAB </code> は受信データファイルで変数を区切る場合にのみ使用します。 </p> </td> 
+   <td colname="col2"> <p>キーと値のペアでは、空の値の代わりに<code> TAB </code> を使用<i>しないでください </i>。<code> TAB </code> は受信データファイルで変数を区切る場合にのみ使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> \n, \t </code> </p> </td> 
@@ -238,7 +238,7 @@ The following table describes the prefixes that identify [!UICONTROL trait] name
 
 ## 例の一覧 {#examples-matrix}
 
-The chart below shows examples of the correct way to format your Inbound files, depending on the [type of IDs](../../../reference/ids-in-aam.md) and the method by which you want to add [!UICONTROL traits] to profiles.
+以下の表は、受信ファイルの書式設定を正しくおこなう方法を示す例の一覧です。[ID のタイプ](../../../reference/ids-in-aam.md)と、[!UICONTROL traits]をプロファイルに追加する方法によって分類されています。
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -284,7 +284,7 @@ The chart below shows examples of the correct way to format your Inbound files, 
 
 ### 例 1 {#example-1}
 
-の [!UICONTROL trait IDs] 資格情報 [!UICONTROL trait] を送信するために使用し [!DNL Audience Manager][!DNL UUIDs]ます。
+[!UICONTROL trait IDs]を使用して、[!DNL Audience Manager] [!DNL UUIDs] の [!UICONTROL trait] 認定情報を送信します。
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -292,7 +292,7 @@ The chart below shows examples of the correct way to format your Inbound files, 
 
 ### 例 2 {#example-2}
 
-の [!UICONTROL trait IDs] 欠格情報を送信するために使用 [!UICONTROL trait] し [!DNL Audience Manager][!DNL UUIDs]ます。
+[!UICONTROL trait IDs]を使用して、[!DNL Audience Manager] [!DNL UUIDs] の[!UICONTROL trait]不適格情報を送信します。
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -312,7 +312,7 @@ The chart below shows examples of the correct way to format your Inbound files, 
 
 ### 例 3 {#example-3}
 
-Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL Audience Manager] [!DNL UUIDs].
+キーと値のペアを送信し、[!DNL Audience Manager] [!DNL UUIDs] 用の [!UICONTROL trait] 認定情報を追加します。
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -326,7 +326,7 @@ Send in key-value pairs to add [!UICONTROL trait] qualification information for 
 
 ### 例 4 {#example-4}
 
-プレフィックスを使用して、の `ic` 資格情報を送信 [!UICONTROL trait][!DNL Audience Manager][!DNL UUIDs]します。
+`ic` プレフィックスを使用して、[!DNL Audience Manager] [!DNL UUIDs] の[!UICONTROL trait]認定情報を送信します。
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -340,7 +340,7 @@ Send in key-value pairs to add [!UICONTROL trait] qualification information for 
 
 ### 例 5 {#example-5}
 
-デバイス [!UICONTROL trait IDs] の [!UICONTROL trait] 資格情報を送信するために使用し [!DNL Android] ます。
+[!UICONTROL trait IDs]を使用して、[!DNL Android] デバイスの[!UICONTROL trait]認定情報を送信します。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -348,7 +348,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 例 6 {#example-6}
 
-デバイス [!UICONTROL trait IDs] の [!UICONTROL trait] 欠格情報を送信するために使用し [!DNL Android] ます。
+[!UICONTROL trait IDs]を使用して、[!DNL Android] デバイスの[!UICONTROL trait]不適格情報を送信します。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -368,7 +368,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 例 7 {#example-7}
 
-Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL Android] devices.
+キーと値のペアを送信し、[!UICONTROL trait] デバイスの [!DNL Android] 認定情報を追加します。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -382,7 +382,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### 例 8 {#example-8}
 
-Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL Android] devices.
+`ic` プレフィックスを使用して、[!DNL Android] デバイスの[!UICONTROL trait]認定情報を送信します。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -396,7 +396,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 9 {#example-9}
 
-デバイス [!UICONTROL trait IDs] の [!UICONTROL trait] 資格情報を送信するために使用し [!DNL iOS] ます。
+[!UICONTROL trait IDs]を使用して、[!DNL iOS] デバイスの[!UICONTROL trait]認定情報を送信します。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -404,7 +404,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 10 {#example-10}
 
-デバイス [!UICONTROL trait IDs] の [!UICONTROL trait] 欠格情報を送信するために使用し [!DNL iOS] ます。
+[!UICONTROL trait IDs]を使用して、[!DNL iOS] デバイスの[!UICONTROL trait]不適格情報を送信します。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -424,7 +424,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 11 {#example-11}
 
-Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL iOS] devices.
+キーと値のペアを送信し、[!UICONTROL trait] デバイスの [!DNL iOS] 認定情報を追加します。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -438,7 +438,7 @@ Send in key-value pairs to add [!UICONTROL trait] qualification information for 
 
 ### 例 12 {#example-12}
 
-Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL iOS] devices.
+`ic` プレフィックスを使用して、[!DNL iOS] デバイスの[!UICONTROL trait]認定情報を送信します。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -452,7 +452,7 @@ Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!D
 
 ### 例 13 {#example-13}
 
-の資格情報 [!UICONTROL trait IDs] を送信するために使用し [!UICONTROL trait][!DNL DPUUIDs]ます。
+[!UICONTROL trait IDs]を使用して、[!DNL DPUUIDs] の[!UICONTROL trait]認定情報を送信します。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -460,7 +460,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### 例 14 {#example-14}
 
-の [!UICONTROL trait IDs] 欠格情報の送信に使用し [!UICONTROL trait][!DNL DPUUIDs]ます。
+[!UICONTROL trait IDs]を使用して、[!DNL DPUUIDs] の[!UICONTROL trait]不適格情報を送信します。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -480,7 +480,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 例 15 {#example-15}
 
-Send in key-value pairs to add [!UICONTROL trait] qualification information for [!DNL DPUUIDs].
+キーと値のペアを送信し、[!DNL DPUUIDs] 用の[!UICONTROL trait]認定情報を追加します。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -494,7 +494,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### 例 16 {#example-16}
 
-Use the `ic` prefix to send [!UICONTROL trait] qualification information for [!DNL DPUUIDs].
+`ic` プレフィックスを使用して、[!DNL DPUUIDs] の[!UICONTROL trait]認定情報を送信します。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
