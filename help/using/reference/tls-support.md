@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Transport Layer Security（TLS）は、2 つのシステム間にセキュリテ
 
 2020 年 3 月、[!DNL Adobe] は [!DNL TLS 1.1] プロトコルのサポートを終了します。[!DNL TLS 1.1] のみをサポートするブラウザーを使用するエンドユーザーには、Adobe Audience Manager 機能を使用できなくなります。
 
-Adobe highly recommends the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. すべてのモダンブラウザーが [!DNL TLS 1.2] を使用しています。ブラウザー、バージョンおよびそれらの [!DNL TLS] サポートの一覧を収集しました。TLSブラウザのサポートの詳細については、「Transport Layer Security Wikipedia [」リンクを参照してください](https://ja.wikipedia.org/wiki/Transport_Layer_Security)。
+プロトコルの最新バージョン（本書の作成時点において）である [!DNL TLS 1.2] を使用することをお勧めします。すべてのモダンブラウザーが [!DNL TLS 1.2] を使用しています。ブラウザー、バージョンおよびそれらの [!DNL TLS] サポートの一覧を収集しました。TLS ブラウザのサポートの詳細については、[トランスポート層のセキュリティに関する Wikipedia のリンク](https://ja.wikipedia.org/wiki/Transport_Layer_Security)を参照してください。
 
 <!--
 
