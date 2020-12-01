@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,8 +47,8 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
 
 `getSearchReferrer` では次のパラメーターを使用します。
 
-* *`{string}`*: *（オプション）* 検索URLを含む文字列(未定義の場合に使用 `document.referrer` )。
-* *`{object}`*: *（オプション）* 、、、またはの設定を含むオブジェクト `hostPattern`で `queryParam`す `queryPattern`。
+* *`{string}`*：*（オプション）*&#x200B;検索 URL を含む文字列（定義されていない場合は `document.referrer` が使用されます）。
+* *`{object}`*：*（オプション）*`hostPattern`、`queryParam` または `queryPattern` の設定が格納されたオブジェクト。
 
 また、次のものを返します。
 
@@ -128,7 +128,7 @@ r_dil_decompose.xml
 
 `decomposeURI` では次のパラメーターを使用します。
 
-* *`uri {string}`*: *（オプション）* URIを含む文字列。 指定されていない場合は、デフォルトで `document.location.href` が適用されます。
+* *`uri {string}`*：*（オプション）* URI を含む文字列。指定されていない場合は、デフォルトで `document.location.href` が適用されます。
 
 また、次のものを返します。
 
