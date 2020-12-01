@@ -3,21 +3,21 @@ description: Audience Optimization for Advertisers では、自社の有料メ�
 seo-description: Audience Optimization for Advertisers では、自社の有料メディアキャンペーン全体で Audience Manager セグメントによってどの程度パフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager のセグメント指標を組み合わせることで、セグメントを中心とした最適化および効果的なチャネルミックスを導き出します。
 seo-title: Audience Optimization for Advertisers
 solution: Audience Manager
-title: Audience Optimization for Advertisers
+title: 広告主のAudience Optimization
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
-# [!UICONTROL Audience Optimization] 広告主用{#audience-optimization-for-advertisers}
+# [!UICONTROL Audience Optimization] for Advertisers {#audience-optimization-for-advertisers}
 
-[!UICONTROL Audience Optimization] for Advertisers では、自社の有料メディアキャンペーン全体で Audience Manager セグメントによってどの程度パフォーマンス向上を図れるかを確認できます。These reports combine log-level campaign performance data with Audience Manager [!UICONTROL segment] metrics to inform segment-centric optimizations and an effective channel mix.
+[!UICONTROL Audience Optimization] for Advertisers では、自社の有料メディアキャンペーン全体で Audience Manager セグメントによってどの程度パフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の[!UICONTROL segment]指標を組み合わせることで、セグメントを中心とした最適化および効果的なチャネルミックスを導き出します。
 
 ## データの収集方法 {#data-ingestion-methods}
 
@@ -27,18 +27,18 @@ ht-degree: 76%
 
 * データファイル：これらのレポートを使用して独自のデータ、または [!DNL Audience Manager] と統合されていないソースからのデータを分析する場合、そのデータのデータファイルとメタデータファイルを作成およびアップロードする必要があります。詳しくは、[オーディエンスの最適化レポートのデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)と [オーディエンスの最適化レポートのデータおよびメタデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照してください。
 
-## [!UICONTROL Role-Based Access Controls] (RBAC) {#rbac}
+## [!UICONTROL Role-Based Access Controls]（RBAC）{#rbac}
 
 表示できるレポートのタイプは、どの [!UICONTROL RBAC] グループに割り当てられているかに応じて異なります。詳しくは、[管理](../../../features/administration/administration-overview.md)と[グループの作成](../../../features/administration/administration-overview.md#create-group)を参照してください。
 
-[!UICONTROL Audience Optimization]で表示するには、[!UICONTROL RBAC] グループに対して特定のデータソースが設定されている必要があります。Your [!DNL Audience Manager] consultant will set up these [!UICONTROL data sources] for you. The more [!UICONTROL data sources] in each [!UICONTROL RBAC] user group, the more data those group members will have access to. At a minimum, your consultant will set up at least one of these [!UICONTROL data sources]:
+[!UICONTROL Audience Optimization]で表示するには、[!UICONTROL RBAC] グループに対して特定のデータソースが設定されている必要があります。担当の [!DNL Audience Manager] コンサルタントがお客様に代わってこれらの[!UICONTROL data sources]を設定します。[!UICONTROL RBAC] ユーザーグループに設定された[!UICONTROL data sources]が多いほど、それらのグループメンバーがアクセスできるデータが多くなります。担当のコンサルタントは、これらの[!UICONTROL data sources]のうち少なくとも 1 つを設定します。
 
 * 広告主 [!UICONTROL data source ]
 * ブランド [!UICONTROL data source]
 * プラットフォーム [!UICONTROL data source]
 
-複数の [!UICONTROL RBAC] ユーザーグループに属しているユーザーの場合、各グループの表示を切り替えることができます。選択されたグループに合わせて表示されたデータが更新されます。If your company does not use [!UICONTROL RBAC], all users will have admin privileges and access to all the [!UICONTROL data sources] (conversion groups).
+複数の [!UICONTROL RBAC] ユーザーグループに属しているユーザーの場合、各グループの表示を切り替えることができます。選択されたグループに合わせて表示されたデータが更新されます。[!UICONTROL RBAC] を使用していない場合、すべてのユーザーは管理者権限を持ち、すべての[!UICONTROL data sources]（コンバージョングループ）にアクセスできます。
 
 ## コンバージョングループ {#conversion-groups}
 
-In the [!UICONTROL Audience Optimization] reports, **[!UICONTROL Conversion Groups]** are synonymous with [!UICONTROL data sources] that contain at least one conversion trait. [!UICONTROL Data sources] レポートには、少なくとも1つのコンバージョン特性を含まないコンバージョン特性は表示されません [!UICONTROL Audience Optimization] 。 [報告されたコンバージョン特性](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)レポートでコンバージョングループのコンバージョン特性を確認できます。
+[!UICONTROL Audience Optimization]レポートにおいて、**[!UICONTROL Conversion Groups]**&#x200B;は 1 つ以上のコンバージョン特性が含まれる[!UICONTROL data sources]と同義語になります。コンバージョン特性が 1 つも含まれない[!UICONTROL Data sources]は[!UICONTROL Audience Optimization]レポートに表示されません。[報告されたコンバージョン特性](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)レポートでコンバージョングループのコンバージョン特性を確認できます。
