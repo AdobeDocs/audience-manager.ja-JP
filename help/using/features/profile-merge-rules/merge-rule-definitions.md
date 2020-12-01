@@ -10,46 +10,46 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# [!UICONTROL Profile Merge Rules] 定義されたオプション {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules]定義済みオプション {#profile-merge-rule-options-defined}
 
-The [!UICONTROL profile merge rule] options let you control the type of data [!DNL Audience Manager] uses for segmentation. A [!UICONTROL profile merge rule] can include device profiles mapped by the [!UICONTROL Profile Link] device graph, the [!UICONTROL Adobe Experience Cloud Device Co-op], and/or other, third-party device graph providers who are integrated with [!DNL Audience Manager]. 最大4 つの[!UICONTROL Profile Merge Rules]を作成できます。4 つ目の [!UICONTROL Profile Merge Rule] は、[!UICONTROL People-Based Destinations] アドオンを購入した顧客のみが利用できます。
+[!UICONTROL profile merge rule] オプションを使用すると、[!DNL Audience Manager] がセグメント化に使用するデータのタイプを制御できます。[!UICONTROL profile merge rule]には、[!UICONTROL Profile Link] デバイスグラフ、[!UICONTROL Adobe Experience Cloud Device Co-op]、および [!DNL Audience Manager] と統合しているその他のサードパーティデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。最大4 つの[!UICONTROL Profile Merge Rules]を作成できます。4 つ目の [!UICONTROL Profile Merge Rule] は、[!UICONTROL People-Based Destinations] アドオンを購入した顧客のみが利用できます。
 
 [!UICONTROL Profile Merge Rule Setup] で、以下のオプションから選択し、[!UICONTROL Profile Merge Rule] を構築します。
 
 ![profile-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
-## [!UICONTROL Profile Merge Rule] オプションの概要 {#overview}
+## [!UICONTROL Profile Merge Rule]オプションの概要 {#overview}
 
-[!UICONTROL Profile Merge Rules] 様々なルールの組み合わせを使用できます。各組み合わせは特定の使用例を対象としています。 それぞれのルールの組み合わせを使用するタイミングについて詳しくは、次の表を参照してください。
+[!UICONTROL Profile Merge Rules]では、特定の使用例に合わせて様々なルールの組み合わせを使用できます。それぞれのルールの組み合わせを使用するタイミングについて詳しくは、次の表を参照してください。
 
 | [!UICONTROL Cross-Device Option] | [!UICONTROL Device Option] | 使用可否 | 評価タイプ | [!UICONTROL Audience Lab] サポート | ユースケース |
 | ------------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----| -------------------- |
 | [!UICONTROL No Cross-Device Profile] | [!UICONTROL Device Profile] | すべての顧客 | リアルタイムとバッチ | ○ | [デバイスのターゲティング](merge-rule-targeting-options.md#device-personalization) |
-| [!UICONTROL No Cross-Device Profile] | [!UICONTROL External Device Graph] (含む [!UICONTROL Co-op Device Graph]) | すべての顧客 | リアルタイムとバッチ | × | [デバイスのターゲティングの拡張](external-graph-use-cases.md#audience-expansion) |
+| [!UICONTROL No Cross-Device Profile] | [!UICONTROL External Device Graph]（[!UICONTROL Co-op Device Graph] を含む） | すべての顧客 | リアルタイムとバッチ | × | [デバイスのターゲティングの拡張](external-graph-use-cases.md#audience-expansion) |
 | [!UICONTROL Current Authenticated Profiles] | [!UICONTROL No Device Profile] | すべての顧客 | リアルタイムのみ | × | [共有デバイスのターゲティング](merge-rule-targeting-options.md#target-shared-devices) |
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Device Profile] | すべての顧客 | リアルタイムとバッチ | ○ | [オンライン／オフラインでのターゲティング](merge-rule-targeting-options.md#device-household-targeting) |
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Profile Link Device Graph] | すべての顧客 | リアルタイムとバッチ | ○ | [クロスデバイスでのターゲティング](profile-link-use-case.md#cross-device-personalization) |
-| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] (含む [!UICONTROL Co-op Device Graph]) | すべての顧客 | リアルタイムとバッチ | × | [高度なクロスデバイスターゲティング](external-graph-use-cases.md#advanced-graph-expansion) |
+| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph]（[!UICONTROL Co-op Device Graph] を含む） | すべての顧客 | リアルタイムとバッチ | × | [高度なクロスデバイスターゲティング](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | なし | [People-Based Destinations](../destinations/people-based-destinations-overview.md) のユーザー専用 | バッチのみ | × | [People-Based Destinations のターゲティング](merge-rule-targeting-options.md#all-cross-device) |
 
-## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] 評価 {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment]評価 {#segment-evaluation}
 
-Depending on your [!UICONTROL Profile Merge Rules] configuration, [!DNL Audience Manager] can perform the [!UICONTROL segment] evaluation in real-time, in batch, or both.
+[!UICONTROL Profile Merge Rules] の設定に応じて、[!UICONTROL segment] はリアルタイム、バッチまたはその両方で[!DNL Audience Manager]評価を実行できます。
 
-* Real-time [!UICONTROL segment] evaluation requires the [!DNL DCS] to see visitors access your digital properties in real-time, to qualify for the [!UICONTROL segment].
-* Batch [!UICONTROL segment] evaluation is performed against previously qualified [!UICONTROL traits].
-* [!UICONTROL Profile Merge Rules] の値は、リアルタイム評価とバッチ [!UICONTROL segment] 評価の両方をサポートしており、リアルタイム訪問者アクティビティと以前の資格を組み合わせてい [!UICONTROL traits]ます。
+* リアルタイム[!UICONTROL segment]評価では、[!UICONTROL segment]に認定するため、[!DNL DCS] は訪問者がデジタルプロパティにアクセスしたことをリアルタイムで確認する必要があります。
+* バッチ[!UICONTROL segment]評価は、以前に認定された[!UICONTROL traits]に対して実行されます。
+* [!UICONTROL Profile Merge Rules] は、リアルタイムセグメント評価とバッチ[!UICONTROL segment]評価の両方をサポートし、リアルタイム訪問者アクティビティと以前に認定された[!UICONTROL traits]を組み合わせます。
 
-## [!UICONTROL Profile Merge Rules] レポート遅延 {#reporting-latency}
+## [!UICONTROL Profile Merge Rules]レポート遅延 {#reporting-latency}
 
-Real-time [!UICONTROL segment] evaluation reflects immediately in the [!UICONTROL Profile Merge Rules] reports.
+リアルタイム[!UICONTROL segment]評価は、[!UICONTROL Profile Merge Rules]レポートに即座に反映されます。
 
-Batch [!UICONTROL segment] evaluation can take up to 24 hours to reflect in the [Profile Merge Rules reports](profile-link-metrics.md).
+バッチ[!UICONTROL segment]評価は、[プロファイル結合ルール](profile-link-metrics.md)レポートに反映されるまでに最大 24 時間かかる場合があります。
 
 ## [!UICONTROL Cross-Device Options] {#auth-options}
 
@@ -84,11 +84,11 @@ Batch [!UICONTROL segment] evaluation can take up to 24 hours to reflect in the 
 
 ## [!UICONTROL Cross-Device Profile Options] {#profile-options}
 
-リスト [!UICONTROL Cross-Device Profile Options] を作成し [!UICONTROL cross-device data sources]ます。 These options use the names you provided when you created a [!UICONTROL cross-device] [!UICONTROL data source] (see [Create a Cross-Device Data Source](merge-rules-start.md#create-data-source)). You can select up to 3 [!UICONTROL cross-device data sources] to use with each profile rule. [!UICONTROL Authenticated Profile Options]は、**[!UICONTROL Current Authenticated Profiles]**&#x200B;または&#x200B;**[!UICONTROL Last Authenticated Profiles]**&#x200B;を選択したときに使用できます。
+[!UICONTROL Cross-Device Profile Options]には、[!UICONTROL cross-device data sources]がリストされます。これらのオプションは、[!UICONTROL cross-device][!UICONTROL data source]の作成時に提供した名前を使用します（[クロスデバイス対応データソースの作成](merge-rules-start.md#create-data-source)を参照）。各プロファイルルールで使用する[!UICONTROL cross-device data sources]は最大 3 つ選択できます。[!UICONTROL Authenticated Profile Options]は、**[!UICONTROL Current Authenticated Profiles]**&#x200B;または&#x200B;**[!UICONTROL Last Authenticated Profiles]**&#x200B;を選択したときに使用できます。
 
 ## [!UICONTROL Device Options] {#device-options}
 
-[!UICONTROL Device Options]では、*`device profile`*&#x200B;で使用する [!UICONTROL Profile Merge Rule] のタイプを選択できます。A device profile is built from [!UICONTROL traits] collected from anonymous browsing activity. 少なくとも、は、およびを含み [!UICONTROL profile merge rule] ま [!UICONTROL authenticated option][!UICONTROL device option]す。
+[!UICONTROL Device Options]では、*`device profile`*&#x200B;で使用する [!UICONTROL Profile Merge Rule] のタイプを選択できます。デバイスプロファイルは、匿名の閲覧アクティビティから収集された[!UICONTROL traits]を使用して作成されます。少なくとも、[!UICONTROL profile merge rule]には、[!UICONTROL authenticated option]と[!UICONTROL device option]が含まれます。
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -107,7 +107,7 @@ Batch [!UICONTROL segment] evaluation can take up to 24 hours to reflect in the 
    <td colname="col2"> <p><span class="keyword">Audience Manager</span> が匿名デバイスプロファイルをセグメント化に使用するよう設定します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Profile Link Device Graph</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol">プロファイルリンクデバイスグラフ</span></b> </p> </td> 
    <td colname="col2"> <p><span class="keyword">Audience Manager</span> が、現在のデバイスに加え、ユーザーが最後に認証を受けた他の 100 台までのデバイスからプロファイルを読み取るよう指示します。このデバイスグラフは、<span class="keyword">Audience Manager</span> で独自のファーストパーティデータに対して構築されます。デジタルプロパティにまたがって高度な認証を使用している顧客に最適です。<span class="wintitle">プロファイルリンク</span>デバイスグラフはリアルタイムで更新されます。このオプションは、「<b><span class="uicontrol">Current Authenticated Profile</span></b>」または「<b><span class="uicontrol">Last Authenticated Profile</span></b>」を選択した場合に使用できます。このオプションを使用する場合は、認証済みのプロファイルを 1 つだけ選択できます（その他は <span class="keyword">Audience Manager</span> により自動的にグレー表示されます）。<a href="profile-link-use-case.md">プロファイルリンクデバイスグラフのユースケース</a>も参照してください。 </p> </td>
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ Batch [!UICONTROL segment] evaluation can take up to 24 hours to reflect in the 
 
 ## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-Audience segments that were automatically created from other [!DNL Experience Cloud] solutions, based on merge rules defined outside of [!DNL Audience Manager], are marked as using an [!UICONTROL External Merge Policy]. 例えば、[Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](../../integration/integration-aep/aam-aep-audience-sharing.md)を参照してください。
+他の [!DNL Experience Cloud] ソリューションから自動的に作成されたオーディエンスセグメントは、[!DNL Audience Manager] の外部で定義された結合ルールに基づき、[!UICONTROL External Merge Policy] を使用しているとしてマークされます。例えば、[Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](../../integration/integration-aep/aam-aep-audience-sharing.md)を参照してください。
 
 >[!MORELIKETHIS]
 >
