@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,12 +22,12 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 
 ## ID マッピングの上限 {#id-mapping-limits}
 
-次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。IDが次のいずれかの制限値に達すると、Audience Managerは、最も古い格納済みIDマッピングを削除し、新しいIDマッピングを追加することで、FIFO（先入れ先出し）ロジックに基づいて新しいIDマッピングを追加します。 Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
+次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。ID が以下のいずれかの上限に達すると、Audience Manager は、保存時期が最も古い ID マッピングを削除し新しい ID マッピングを追加する先入れ先出し（FIFO）方式で、新規 ID マッピングを追加します。Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
 
 | ID マッピング | 上限 |
 |-----------|-------------- |
-| クロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)）に対してデバイス広告 ID（[DAID](../../reference/ids-in-aam.md)） | クロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)） 1 個に対してデバイス広告 ID（[DAID](../../reference/ids-in-aam.md)） 100 個 |
-| デバイス広告 ID（[DAID](../../reference/ids-in-aam.md)）に対してクロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)） | 各 [DPID](../../reference/ids-in-aam.md) あたり、デバイス広告 ID（[DAID](../../reference/ids-in-aam.md)） 1 個に対してクロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)） 10 個 |
+| クロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)）に対してデバイス広告 ID（[DAID](../../reference/ids-in-aam.md)） | クロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)）1 個に対してデバイス広告 ID（[DAID](../../reference/ids-in-aam.md)）100 個 |
+| デバイス広告 ID（[DAID](../../reference/ids-in-aam.md)）に対してクロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)） | 各 [DPID](../../reference/ids-in-aam.md) あたり、デバイス広告 ID（[DAID](../../reference/ids-in-aam.md)）1 個に対してクロスデバイス ID（[DPUUID](../../reference/ids-in-aam.md)）10 個 |
 | cookie／ブラウザー ID に対して cookie／ブラウザー ID | 1000 cookie／ブラウザー ID に対して 1  cookie／ブラウザー ID |
 
 ## 項目の限度 {#item-limits}
@@ -66,10 +66,10 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | 項目 | 上限 |
 | -------- | ----- |
 | Active [!UICONTROL Look-Alike Models] | 20. Audience Manager は&#x200B;*アクティブ*&#x200B;なアルゴリズムモデルのみを制限としてカウントするようになりました。 |
-| [!UICONTROL Look-Alike Models] 最大オーディエンスサイズ | 25,000,000  の限度を引き上げることはできません。オーディエンスのサイズを小さくするには、モデルに対して少ないデータソースを選択するか、短いルックバック期間を選択します。 |
-| Maximum number of excluded traits for a [!UICONTROL Look-Alike Model] | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
-| ナキシム [!UICONTROL Predictive Audiences Models] | 10 |
-| 基準となる人の最大数 [!UICONTROL Predictive Audiences Models] | 50 |
+| [!UICONTROL Look-Alike Models] 最大オーディエンスサイズ | 25,000,000 の限度を引き上げることはできません。オーディエンスのサイズを小さくするには、モデルに対して少ないデータソースを選択するか、短いルックバック期間を選択します。 |
+| [!UICONTROL Look-Alike Model] の最大除外特性数  | 500。[アルゴリズムモデリングにおける特性の除外](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)を参照してください。 |
+| 最大 [!UICONTROL Predictive Audiences Models] | 10 |
+| [!UICONTROL Predictive Audiences Models] の基準となるペルソナの最大数  | 50 |
 
 ### フォルダーの限度
 
@@ -89,7 +89,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | ----------- | ------------- |
 | 会社のユーザーアカウントの最大数 | 1,000。 |
 
-## 使用状況の監視 {#monitor-usage}
+## 使用状況の監視  {#monitor-usage}
 
 アカウントの使用状況と限度は、**[!UICONTROL Administration > Limits]** で確認できます。アクセスには管理者権限が必要です。
 
