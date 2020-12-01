@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 1. 「+」アイコンをクリックして、フォルダーを作成します。分類には、最大 2.000 個のフォルダーを作成できます。詳細については、[使用制限](../../features/administration/usage-limits.md) のドキュメントを参照してください。
 1. フォルダーの名前を指定して「**Save**」をクリックします。例えば、Electronics という名前のフォルダーが「Electronics Folder Trait」というフォルダー特性を持ちます。特性ダッシュボードで新規のフォルダー特性を表示したり選択したりすることができます。
-1. 新規のフォルダー特性は、[!DNL Audience Manager] で生成されたデータソースに自動的に割り当てられます。Your users with appropriate [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) permissions can change the data source in the edit folder trait workflow. [フォルダー特性の編集](../../features/traits/manage-folder-traits.md#edit-folder-trait)を参照してください。
+1. 新規のフォルダー特性は、[!DNL Audience Manager] で生成されたデータソースに自動的に割り当てられます。適切な[!UICONTROL Role-Based Access Control]（[!DNL RBAC]）権限を持つユーザーは、フォルダー特性編集ワークフローでデータソースを変更できます。[フォルダー特性の編集](../../features/traits/manage-folder-traits.md#edit-folder-trait)を参照してください。
 
 ## フォルダー特性の編集 {#edit-folder-trait}
 
