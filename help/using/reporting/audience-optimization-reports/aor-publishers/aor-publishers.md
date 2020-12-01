@@ -3,29 +3,29 @@ description: Audience Optimization for Publishers を使用すれば、自社が
 seo-description: Audience Optimization for Publishers を使用すれば、自社が所有および運用しているコンテンツにおける、どの程度 Audience Manager のセグメントのパフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の指標を組み合わせることで、オーディエンスの最適化と収益化の機会を導き出します。
 seo-title: Audience Optimization for Publishers
 solution: Audience Manager
-title: Audience Optimization for Publishers
+title: 発行者のAudience Optimization
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 85%
+ht-degree: 93%
 
 ---
 
 
-# Audience Optimization for Publishers{#audience-optimization-for-publishers}
+# Audience Optimization for Publishers {#audience-optimization-for-publishers}
 
 Audience Optimization for Publishers を使用すれば、自社が所有および運用しているコンテンツにおける、どの程度 Audience Manager のセグメントのパフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の指標を組み合わせることで、オーディエンスの最適化と収益化の機会を導き出します。
 
 ## 概要 {#aor-overview}
 
-[!DNL Audience Manager] のセグメント指標を使用した、[!DNL Google Ad Manager] からの [!UICONTROL Audience Optimization for Publishers] juxtaposes ログレベルのキャンペーンパフォーマンスデータ。これらのレポートを使用できるのは、[!DNL Google Ad Manager] から [!DNL Audience Manager] へのログの取り込みを設定してあるお客様です。If you haven&#39;t yet set up log ingestion, read [Import Google Ad Manager Data Files Into Audience Manager](import-dfp.md) for information on how to do it.
+[!DNL Audience Manager] のセグメント指標を使用した、[!DNL Google Ad Manager] からの [!UICONTROL Audience Optimization for Publishers] juxtaposes ログレベルのキャンペーンパフォーマンスデータ。これらのレポートを使用できるのは、[!DNL Google Ad Manager] から [!DNL Audience Manager] へのログの取り込みを設定してあるお客様です。ログの取り込みを設定していない場合、設定方法について詳しくは、[Google Ad Manager データファイルを Audience Manager に読み込む](import-dfp.md)をお読みください。
 
 ## メタデータ {#metadata}
 
-レポートに表示されるパフォーマンス情報は、[!DNL Google Ad Manager] インスタンスからインポートされます。ID ではなくわかりやすい名前をレポート内の項目に付けることができるように、メタデータファイルをアドビに送信する必要があります。手順 3（ [Import Google Ad Manager Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) describes how to send us the metadata.
+レポートに表示されるパフォーマンス情報は、[!DNL Google Ad Manager] インスタンスからインポートされます。ID ではなくわかりやすfい名前をレポート内の項目に付けることができるように、メタデータファイルをアドビに送信する必要があります。[Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)へのGoogle Ad Managerデータファイルの読み込みの手順3で、メタデータの送信方法を説明します。
 
 ## 使用可能なレポート {#available-reports}
 
