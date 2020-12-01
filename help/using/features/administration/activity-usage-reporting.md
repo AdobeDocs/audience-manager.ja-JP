@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 ## 概要 {#overview}
 
-[!UICONTROL Activity Usage Report] は、Audience Manager インスタンスのアクティビティ使用量を表示および追跡するのに役立ち、アクティビティ使用量と契約上のコミットメントを明確に比較できます。
+[!UICONTROL Activity Usage Report] を使用すれば、アクティビティの使用状況と契約上のコミットメントとの比較方法を明確に把握でき、Audience Manager インスタンスのアクティビティの使用状況を表示および追跡するのに役立ちます。
 
 また、記録管理とカスタム分析のために、必要に応じていつでも [!UICONTROL Activity Usage Report] をダウンロードできます。
 
@@ -37,9 +37,9 @@ ht-degree: 99%
 [!UICONTROL Activity Usage Report] の主な使用例は次の 2 つです。
 
 * **アクティビティ使用量コミットメントに対する実際のインスタンスアクティビティ使用量の追跡**：ほとんどのお客様は、Audience Manager インスタンスごとに毎月のアクティビティのコミットメントを見積もった後、すべてのインスタンスをまたいだ年間のアクティビティのコミットメントに集計します。このレポートは請求レポートではありませんが、コミットされたアクティビティ使用量を超過しているかどうかを把握するのに役立ちます。
-* **実装の変更の検証**[!DNL Adobe Analytics]： サーバーサイド転送の設定や サーバーコールの設定変更などの実装を最近更新した場合、このレポートを使用すれば、新しいアクティビティの量が期待したアクティビティ量と一致しているかどうかを確認できます。[!DNL Adobe Target]
+* **実装の変更の検証**：[!DNL Adobe Analytics] サーバーサイド転送の設定や サーバーコールの設定変更などの実装を最近更新した場合、このレポートを使用すれば、新しいアクティビティの量が期待したアクティビティ量と一致しているかどうかを確認できます。[!DNL Adobe Target]
 
-## デフォルト PCID の代わりに [!UICONTROL Activity Usage Report]{#using}
+## デフォルト PCID の代わりに [!UICONTROL Activity Usage Report]> {#using}
 
 [!UICONTROL Activity Usage Report] を表示するには、Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Usage]** に移動します。
 
@@ -68,7 +68,7 @@ ht-degree: 99%
 
 ![aur-hover](assets/aur-hover.png)
 
-## 書き出し [!UICONTROL Activity Usage Reports] {#export}
+## [!UICONTROL Activity Usage Reports] の書き出し {#export}
 
 Audience Manager のアクティビティの使用状況レベルをより詳細に把握するために、含めるレコードのタイプに基づいて [!UICONTROL Activity Usage Report] を書き出すことができます。
 
@@ -84,6 +84,6 @@ Audience Manager のアクティビティの使用状況レベルをより詳細
 
 このレポートには、3 つのソース（[!UICONTROL Analytics]、[!UICONTROL Target]、[!UICONTROL Other]）からのサーバーコールの分類が含まれます。
 
-* **[!UICONTROL Analytics]**[!UICONTROL Adobe Analytics]：すべての インスタンスから Audience Manager に渡される課金対象のサーバーコール。サーバーサイド転送も含まれます。セカンダリサーバーコールまたは重複したサーバーコール（例：複数のレポートスイートからのサーバーサイド転送の場合）は課金対象のアクティビティではないので、この分類には含まれません。
-* **[!UICONTROL Target]**[!UICONTROL Adobe Target]： から Audience Manager へのサーバーサイド呼び出し。サーバー間統合の一環として Audience Manager のセグメントデータを取得します。
+* **[!UICONTROL Analytics]**：すべての [!UICONTROL Adobe Analytics]インスタンスから Audience Manager に渡される課金対象のサーバーコール。サーバーサイド転送も含まれます。セカンダリサーバーコールまたは重複したサーバーコール（例：複数のレポートスイートからのサーバーサイド転送の場合）は課金対象のアクティビティではないので、この分類には含まれません。
+* **[!UICONTROL Target]**：[!UICONTROL Adobe Target] から Audience Manager へのサーバーサイド呼び出し。サーバー間統合の一環として Audience Manager のセグメントデータを取得します。
 * **[!UICONTROL Other]**：他の Web サイトまたはシステム（パートナーサイト、ダイレクトサーバーコールなど）からの呼び出し、[!DNL SDK]、[!DNL DIL]、イベント呼び出し、[!DNL DCS] 呼び出し経由でのモバイルブラウザー／アプリケーション呼び出しが含まれます。また、cookie 統合（サーバー間ではなく）として設定されている場合は [!DNL Target] 呼び出しも含まれます。
