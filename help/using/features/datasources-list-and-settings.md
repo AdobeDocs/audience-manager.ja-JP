@@ -10,30 +10,30 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # [!UICONTROL Data Sources] リストと設定 {#data-sources-list-and-settings}
 
-現在設定されているリストの表示 [!UICONTROL data sources]、新規追加 [!UICONTROL data sources]、既存の編集を行い [!UICONTROL data sources]ます。
+現在設定されている[!UICONTROL data sources]のリストの表示、新しい[!UICONTROL data sources]の追加、既存の[!UICONTROL data sources]編集を行います。
 
-You can also manage [!UICONTROL data sources] using [!DNL API] methods. 詳しくは、[データソース API メソッド](../api/rest-api-main/aam-api-data-sources.md)を参照してください。
+また、[!DNL API] メソッドを使用して[!UICONTROL data sources]を管理することもできます。詳しくは、[データソース API メソッド](../api/rest-api-main/aam-api-data-sources.md)を参照してください。
 
-## [!UICONTROL Data Sources]リスト表示{#list-view}
+## [!UICONTROL Data Sources]リスト表示 {#list-view}
 
 [!UICONTROL Data Sources] ダッシュボードは、データソースを管理するための一元化されたワークスペースです。
 
 [!UICONTROL Data Sources] ダッシュボード（**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]**）には、以下をおこなうために役立つ機能およびツールが含まれています。
 
-* See all your existing [!UICONTROL data sources], including each data source&#39;s description, status, and whether it is [!UICONTROL Inbound], [!UICONTROL Outbound], both, or a [!UICONTROL Shared Provider].
-* Search for [!UICONTROL data sources] by name.
-* Create, edit, and delete [!UICONTROL data sources].
+* 各データソースの説明やステータス、および [!UICONTROL Inbound]、[!UICONTROL Outbound]、両方、または [!UICONTROL Shared Provider]のどれかなど、既存のすべての[!UICONTROL data sources]を表示する。
+* 名前による[!UICONTROL data sources]の検索。
+* [!UICONTROL data sources]の作成、編集および削除。
 
-## [!DNL Data Source] 設定とメニューオプション {#settings-menu-options}
+## [!DNL Data Source]設定とメニューオプション {#settings-menu-options}
 
-The settings in the different sections of the [!UICONTROL Data Source] management interface identify your [!DNL data source], determine how it is used or shared, and let you enable error reporting for the [!UICONTROL Onboarding Status Report].
+[!UICONTROL Data Source]管理インターフェイスの様々なセクションの設定によって、[!DNL data source]が特定され、データソースの使用および共有方法が決まり、[!UICONTROL Onboarding Status Report]でのエラー報告を有効にすることができます。
 
 ## [!DNL Data Source] 詳細 {#details}
 
@@ -73,11 +73,11 @@ The settings in the different sections of the [!UICONTROL Data Source] managemen
 
 ## [!UICONTROL Data Export Controls] {#export-controls}
 
-[データエクスポートコントロール](../features/data-export-controls.md) (Data Export Controls [!UICONTROL data source] )は、およびに適用できるオプションの分類ルール [!UICONTROL destination]です。 They prevent you from sending data to a [!UICONTROL destination] when that action violates a data privacy or use agreement. データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
+[データ書き出しコントロール](../features/data-export-controls.md)は、[!UICONTROL data source] および [!UICONTROL destination] に適用できるオプションの分類ルールです。[!UICONTROL destination] へのデータ送信がデータのプライバシーや使用契約に違反する場合、データ送信を防止します。データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
 
 >[!IMPORTANT]
 >
->Export restrictions will not work unless you set a matching export label on a [!UICONTROL destination].
+>対応する書き出しラベルを[!UICONTROL destination]に設定しない限り、書き出し制限は機能しません。
 
 オプションは次のとおりです。
 
@@ -97,7 +97,7 @@ The settings in the different sections of the [!UICONTROL Data Source] managemen
 
 >[!NOTE]
 >
->この **[!UICONTROL Inbound]** チェックボックスは、以下に説明する [!UICONTROL data source] コントロールの表示/非表示を切り替える目的でのみ有効です。 この **[!UICONTROL Inbound]** オプションをオフにしても、データ取り込みには影響しません。 オンボードされたデータは、このオプションがチェックされているかどうかに関係なく処理されます。
+>この **[!UICONTROL Inbound]** チェックボックスは、以下に説明する [!UICONTROL data source] コントロールの表示と非表示を切り替える目的でのみ有効です。この **[!UICONTROL Inbound]** オプションをオフにしても、データの取り込みには影響しません。オンボードされたデータは、このオプションがチェックされているかどうかに関係なく処理されます。
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
@@ -108,7 +108,7 @@ The settings in the different sections of the [!UICONTROL Data Source] managemen
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> ID Type</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> IDタイプ</span></b> </p> </td> 
    <td colname="col2"> <p>「<b><span class="uicontrol">Inbound</span></b>」オプションには ID タイプが必要です。オプションは次のとおりです。 </p> <p> 
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol">Customer ID</span></b>：受信データを顧客 ID で識別します。 </li> 
@@ -123,7 +123,7 @@ The settings in the different sections of the [!UICONTROL Data Source] managemen
  </tbody> 
 </table>
 
-### Other [!UICONTROL Data Source] Settings
+### その他の[!UICONTROL Data Source]設定
 
 <table id="table_82FEFA8DC8294FA18FB4C17F02DF5152"> 
  <thead> 
@@ -159,7 +159,7 @@ The settings in the different sections of the [!UICONTROL Data Source] managemen
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> 非アクティブな顧客 ID のデータ保持</span></b> </p> </td> 
-   <td colname="col2"> <p>非アクティブな顧客 ID のデータ保持期間を設定できます。これにより、Audience Manager プラットフォームに Audience Manager が最後に表示された後、Audience Manager がデータベースに顧客 ID を保持する期間を決定します。</p> <p>デフォルト値は 24 か月（720 日）です。設定できる最小値は 1 ヶ月、最大値は 5 年です。すべての月は 30 日としてカウントされます。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p><b>注意</b>：このコントロールは、クロスデバイス対応データソースでのみ使用できます。<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応データソースの作成</a>も参照してください。</p></td> 
+   <td colname="col2"> <p>非アクティブな顧客 ID のデータ保持期間を設定できます。これにより、Audience Manager プラットフォームに Audience Manager が最後に表示された後、Audience Manager がデータベースに顧客 ID を保持する期間を決定します。</p> <p>デフォルト値は 24 か月（720 日）です。設定できる最小値は 1 か月、最大値は 5 年です。すべての月は 30 日としてカウントされます。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p>Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。</p> <p><b>注意</b>：このコントロールは、クロスデバイス対応データソースでのみ使用できます。<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応データソースの作成</a>も参照してください。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Unique Trait Integration Codes</span></b> </p> </td> 
