@@ -26,7 +26,7 @@ DIL から Adobe Experience Cloud Device Co-op にデータを送信するかど
 * [!UICONTROL DIL] v6.11 以降を使用する。
 * [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html) に参加する。Co-op への参加を検討している場合は、このドキュメントをよく読み、デバイスグラフの作成にデータがどのように使用されるかに関する懸念に `isCoopSafe` で対処できるかどうかを確認する必要があります。
 
-* Work with your [!DNL Adobe] consultant to set an allowlist or a denylist flag on your Device Co-op account. これらのフラグをセルフサービスで有効にする方法はありません。
+* [!DNL Adobe]これらのフラグをセルフサービスで有効にする方法はありません。
 
 ## ユースケース {#use-cases}
 
