@@ -39,15 +39,15 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>1. <span class="keyword">Experience Cloud</span> のステータスを確認する</b> </p> </td> 
+   <td colname="col1"> <p> <b>1.<span class="keyword">Experience Cloud</span> のステータスを確認する</b> </p> </td> 
    <td colname="col2"> <p>ID サービスを使用するには、<span class="keyword">Experience Cloud</span> アカウントが必要です。既に <span class="keyword">Experience Cloud</span> アカウントがあれば、そのままでけっこうです。 </p> <p> まだ <span class="keyword">Experience Cloud</span> に登録していなければ、新規登録してください。いつでもお客様にご参加いただく用意ができています。アカウントの設定方法について詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/core-services.html" format="https" scope="external">コアサービスのソリューションの有効化</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>2. <span class="keyword">ID サービス</span>をセットアップする</b> </p> </td> 
+   <td colname="col1"> <p> <b>2.<span class="keyword">ID サービス</span>をセットアップする</b> </p> </td> 
    <td colname="col2"> <p><span class="keyword">ID サービス</span>は、データ収集に使用する各ページに組み込まれる JavaScript コードで構成されます。詳しくは、ID サービスの<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/implementation-guides.html" format="https" scope="external">実装ガイド</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>3. <span class="keyword">ID サービス</span> Cookie を読み取る</b> </p> </td> 
+   <td colname="col1"> <p> <b>3.<span class="keyword">ID サービス</span> Cookie を読み取る</b> </p> </td> 
    <td colname="col2"> <p><span class="keyword">ID サービス</span>では、ユーザー ID と地域 ID を AMCV Cookie に保存します。Cookie の完全名は <code>AMCV_<i>###</i>@AdobeOrg</code> です。<code><i>###</i></code> 要素は組織 ID のプレースホルダーです。詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>AMCV Cookie を解析して、次のキー値ペアを取得します。 </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
       <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>：このキー値ペアには <span class="keyword">Experience Cloud</span> ユーザー ID が格納されています。 </li> 
@@ -55,7 +55,7 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
      </ul> </p> <p>ユーザー ID と地域 ID が用意できたら、<span class="wintitle">DCS</span> への呼び出しをおこなうことができます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>4. getMarketingCloudVisitorID で <span class="keyword">Experience Cloud ID</span> を取得する</b> </p> </td> 
+   <td colname="col1"> <p> <b>4.getMarketingCloudVisitorID で <span class="keyword">Experience Cloud ID</span> を取得する</b> </p> </td> 
    <td colname="col2"> <p><i>（オプション）</i>この関数は <span class="keyword">Experience Cloud</span> 訪問者 ID を返します。カスタムソリューションや特定のユースケース向けに設計されています。詳しくは、次の <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid">getMarketingCloudVisitorID の使用方法</a>や <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/methods/getmcvid.html" format="https" scope="external">ID サービスの関連ドキュメント</a>を参照してください。 </p> <p>ID サービス Cookie からユーザー ID および地域 ID を取得した場合は、これを使用する必要はありません。 </p> </td> 
   </tr> 
  </tbody> 
@@ -67,7 +67,7 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
-### コールバックの使用法と目的   {#callback-usage}
+### コールバックの使用法と目的  {#callback-usage}
 
 `callback` はオプションです。この引数がなくても、この関数は機能しますが、訪問者のブラウザーに [!DNL Experience Cloud] Cookie が設定されている場合にのみ ID を返します。訪問者の Cookie が見つからないか、訪問者に ID がない場合、この関数は空の `()` オブジェクトを返します。このような状況は、ページが読み込まれて訪問者が新しい ID を受け取った後でも、起こる可能性があります。これを避けるために、この関数に `callback` を指定して、ページの読み込み後に訪問者 ID の有無を確認させることができます。`callback` がなければ、訪問者 ID が後で訪問者のブラウザーに書き込まれても、関数は ID を返しません。
 
