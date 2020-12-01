@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: dc22ed98b51b5633532bab45a79a14ee14dba5f5
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 ## データ書き出しコントロール {#export-controls}
 
-[データ書き出しコントロール](../data-export-controls.md)は、データソースおよび宛先に適用できるオプションの分類ルールです。宛先へのデータ送信がデータのプライバシーや使用契約に違反する場合、データ送信を防止します。データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
+[データ書き出しコントロール](../data-export-controls.md)は、データソースおよび宛先に適用できるオプションの分類ルールです。宛先へのデータ送信がデータプライバシーや使用契約に違反する場合、データ送信を防止します。データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
 
 ## Data Source Settings {#settings}
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 
 * **[!UICONTROL Use as a Device Graph]**：このコントロールは、データプロバイダーとして登録されているアカウントでのみ使用できます。このチェックボックスを選択すると、データソースがデバイスグラフとして作成され、[!DNL Audience Manager] の他のお客様と共有できるようになります。担当の [!DNL Audience Manager] コンサルタントと協力して、データプロバイダーとしてセットアップしたり、この[!UICONTROL Data Source]の共有相手となる顧客を指定したりします。コンサルタントは、社内のプロビジョニングプロセスを通じて、アカウントとデバイスグラフ共有をプロビジョニングします。
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**：非アクティブな顧客 ID のデータ保持期間を設定できます。これにより、Audience Manager プラットフォームに Audience Manager が最後に表示された後、Audience Manager がデータベースに顧客 ID を保持する期間を決定します。デフォルト値は 24 ヶ月（720 日）です。設定できる最小値は 1 ヶ月、最大値は 5 年です。すべての月は 30 日としてカウントされます。Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。
+* **[!UICONTROL Data retention for inactive Customer IDs]**：非アクティブな顧客 ID のデータ保持期間を設定できます。これにより、Audience Manager プラットフォームに Audience Manager が最後に表示された後、Audience Manager がデータベースに顧客 ID を保持する期間を決定します。デフォルト値は 24 か月（720 日）です。設定できる最小値は 1 か月、最大値は 5 年です。すべての月は 30 日としてカウントされます。Audience Manager は、非アクティブな顧客 ID に設定したデータ保持に従って、非アクティブな顧客 ID を週 1 度削除するプロセスを実行します。
 
 これらの設定と関連付けられているテキストフィールドでは、[!UICONTROL Data Source]の名前を[プロファイル統合ルールオプション](merge-rule-definitions.md)に表示されるエイリアスに置き換えることができます。例えば、**[!UICONTROL Use as Authenticated Profile]** にエイリアスを追加した場合は、その名前が [!UICONTROL Authenticated Profile Options] リストに表示されます。**[!UICONTROL Use as a Device Graph]** にエイリアスを追加した場合は、その名前が [!UICONTROL Device Options] リストに表示されます。
 
@@ -75,7 +75,7 @@ ht-degree: 96%
 >
 >各種コントロールの説明については、[定義済みのプロファイルの結合ルールオプション](merge-rule-definitions.md)を参照してください。
 
-## Basic Information {#basic-info}
+## 基本情報 {#basic-info}
 
 「[!UICONTROL Basic Information]」セクションを完了するには：
 
@@ -85,36 +85,36 @@ ht-degree: 96%
 
 ## データ書き出しコントロール {#data-export-controls}
 
-[データ書き出しコントロール](../data-export-controls.md)は、[!UICONTROL Profile Merge Rule]に適用できるオプションの分類ルールです。宛先へのデータ送信がデータのプライバシーや使用契約に違反する場合、データ送信を防止します。データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
+[データ書き出しコントロール](../data-export-controls.md)は、[!UICONTROL Profile Merge Rule]に適用できるオプションの分類ルールです。宛先へのデータ送信がデータプライバシーや使用契約に違反する場合、データ送信を防止します。データ書き出しコントロールを使用しない場合は、「[!UICONTROL Data Export Controls]」セクションを省略してください。
 
 ## Profile Merge Rule Setup {#profile-merge-rule-setup}
 
 「[!UICONTROL Proflie Merge Rule Setup]」セクションを完了するには：
 
-1. **[!UICONTROL Authenticated Option]** を選択します。オプションは次のとおりです。
+1. 「**[!UICONTROL Authenticated Option]**」を選択します。オプションは次のとおりです。
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
 2. **[!UICONTROL Authenticated Profile Option]** を（最大 3 つ）選択します。これらは以前作成した[クロスデバイス対応データソース](merge-rules-start.md)です。
-3. **[!UICONTROL Device Option]** を選択します。オプションは次のとおりです。
+3. 「**[!UICONTROL Device Option]**」を選択します。オプションは次のとおりです。
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
 4. 「**[!UICONTROL Save]**」をクリックします。
 
-### デバイス間IDをAdobe CampaignIDキーとして使用するデバイスの宛先に関する考慮事項 {#considerations}
+### クロスデバイス ID をユーザーキーとして使用する Adobe Campaign の宛先に関する考慮事項 {#considerations}
 
-2019 年後半に、クロスデバイス ID を使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。これらの機能強化は、2020年3月16日（月）より、お使いのAudience Managerインスタンスで厳密に適用されます。 そのため、クロスプロファイル ID を使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
+2019 年後半に、クロスデバイス ID を使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。これらの機能強化は、2020 年 3 月 17 日（火）より、Audience Manager インスタンスで厳密に適用されます。そのため、クロスプロファイル ID を使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
 
 クロスデバイス ID（Adobe Campaign など）を使用して、Audience Manager インスタンスと宛先を正しく統合するには、次の要件を満たす必要があります。
 
-1. Adobe Campaign の宣言済み ID の宛先にマッピングされたセグメントで使用されるプロファイルの結合ルールを確認します。認証済みのすべてのプロファイルをエクスポートに含めることができるように、プロファイルのマージルールでは [!UICONTROL Last Authenticated Profile] オプションを使用する必要があります。プロファイル結合ルールで別のオプションを使用している場合は、[!UICONTROL Last Authenticated Profile] に切り替えます。
+1. Adobe Campaign の宣言された ID の宛先にマッピングされたセグメントで使用されるプロファイルの結合ルールを確認します。認証済みのすべてのプロファイルをエクスポートに含めることができるように、プロファイルのマージルールでは [!UICONTROL Last Authenticated Profile] オプションを使用する必要があります。プロファイル結合ルールで別のオプションを使用している場合は、[!UICONTROL Last Authenticated Profile] に切り替えます。
 2. プロファイル結合ルール設定で、Adobe Campaign の宣言済み ID データソースを選択します。
 
 >[!NOTE]
 >
-> 上記の手順に基づいて、最大数に達し [!UICONTROL Profile Merge Rules] ており、設定に関する支援が必要な場合は、カスタマーケアにお問い合わせください。
+> 上記の手順に基づいて、[!UICONTROL Profile Merge Rules] が最大数に達しており、設定に関するサポートが必要な場合は、カスタマーケアにお問い合わせください。
 
 ## 結合ルールコードの設定 {#configure-merge-rule-code}
 
