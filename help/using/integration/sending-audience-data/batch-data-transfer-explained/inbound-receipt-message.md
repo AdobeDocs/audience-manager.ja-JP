@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# 受信処理後パートナーに送信されるメッセージの例{#sample-message-to-partners-after-inbound-processing}
+# 受信処理後パートナーに送信されるメッセージの例 {#sample-message-to-partners-after-inbound-processing}
 
 インバウンドの [!UICONTROL Server-to-Server] ファイルが処理されるたびに、パートナーソリューションに対してレシートが電子メールで送信されます。また、設定によってはパートナーにも送信されます。
 
