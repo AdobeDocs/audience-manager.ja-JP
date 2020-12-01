@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ストアの再設定の影響で、スマートフォンページをブランド名に基づいて複数のページに分割しようとしています。しかし、[!DNL Audience Manager] に定義した特性を更新するのを忘れました。
 
-1 ヶ月後、[!UICONTROL Daily Trait Variation] レポートを実行し、サイト分析によれば訪問者数が増加しているにもかかわらず、`productPage == "smartphones"` 特性に関して大きい負の偏差があることに気がつきます。この情報に基づいて、新しい製品ページに対応するように [!DNL Audience Manager] 内の特性を更新していないことに気がつきます。そこで、次の特性を作成する必要があることがわかります。
+1 か月後、[!UICONTROL Daily Trait Variation] レポートを実行し、サイト分析によれば訪問者数が増加しているにもかかわらず、`productPage == "smartphones"` 特性に関して大きい負の偏差があることに気がつきます。この情報に基づいて、新しい製品ページに対応するように [!DNL Audience Manager] 内の特性を更新していないことに気がつきます。そこで、次の特性を作成する必要があることがわかります。
 
 * productPage == &quot;samsung&quot;
 * productPage == &quot;apple&quot;
