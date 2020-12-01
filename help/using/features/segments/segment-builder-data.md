@@ -1,6 +1,6 @@
 ---
-description: セグメントビルダーで特性を追加または削除すると、実際と推定のセグメントユーザー数データと一緒に、実際の特性ユーザー数が表示されます。推定ユーザー数のデータは、キャンペーンに適したセグメントを作成するのに役立ちます。
-seo-description: セグメントビルダーで特性を追加または削除すると、実際と推定のセグメントユーザー数データと一緒に、実際の特性ユーザー数が表示されます。推定ユーザー数のデータは、キャンペーンに適したセグメントを作成するのに役立ちます。
+description: セグメントビルダーで特性を追加および削除して、実際の特性の母集団を、実際および推定のセグメント母集団データと共に確認します。推定母集団サイズのデータは、キャンペーンに適したセグメントを作成するのに役立ちます。
+seo-description: セグメントビルダーで特性を追加および削除して、実際の特性の母集団を、実際および推定のセグメント母集団データと共に確認します。推定母集団サイズのデータは、キャンペーンに適したセグメントを作成するのに役立ちます。
 seo-title: セグメントビルダーにおける特性とセグメントのユーザー数データ
 solution: Audience Manager
 title: セグメントビルダーにおける特性とセグメントのユーザー数データ
@@ -10,22 +10,22 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# [!UICONTROL Trait] および [!UICONTROL Segment] 訪問者データ [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
+# [!UICONTROL Segment Builder] の [!UICONTROL Trait][!UICONTROL Segment] {#trait-and-segment-population-data-in-segment-builder}
 
-Add and remove [!UICONTROL traits] in [!UICONTROL Segment Builder] to see actual [!UICONTROL trait] populations along with actual and estimated segment population data. 推定ユーザー数のデータは、キャンペーンに適したセグメントを作成するのに役立ちます。
+[!UICONTROL Segment Builder]の[!UICONTROL traits]で特性を追加または削除すると、実際のセグメント母集団データや推定セグメント母集団データと一緒に、実際の[!UICONTROL trait]母集団数が表示されます。推定母集団サイズのデータは、キャンペーンに適したセグメントを作成するのに役立ちます。
 
 ## [!UICONTROL Trait] 母集団データ {#trait-population-data}
 
-[!UICONTROL Segment Builder] セグメント [!UICONTROL Total Trait Population] にを追加した最終日の日付が表示 [!UICONTROL trait] されます。 This data appears in the blue field around your selected [!UICONTROL trait] in the [!UICONTROL Basic View] section.
+[!UICONTROL Segment Builder]には、[!UICONTROL trait]をセグメントに追加した日の前日の[!UICONTROL Total Trait Population]が表示されます。このデータは、[!UICONTROL Basic View]セクションで選択した[!UICONTROL trait]の周囲の青色のフィールドに表示されます。
 
 ![](assets/trait-size.png)
 
-次の表に、特性母集団指標の定義を示します。
+次の表は、特性母集団の指標です。
 
 
 | 指標 | 説明 |
@@ -33,7 +33,7 @@ Add and remove [!UICONTROL traits] in [!UICONTROL Segment Builder] to see actual
 | [!UICONTROL Total Trait Population] | 選択した特性がプロファイルにある一意の ID の数。 |
 
 
-## 実際のセグメント母集団と推定セグメント母集団の計算 {#calculating-real-estimated-populations}
+## 実際のセグメント母集団と推定セグメント母集団の計算  {#calculating-real-estimated-populations}
 
 新しいセグメントの作成時、または既存のセグメントの変更時は、Audience Manager で実際のリアルタイムセグメント母集団と合計セグメント母集団が表示されるまでに最大 24 時間かかります。
 
@@ -43,7 +43,7 @@ Add and remove [!UICONTROL traits] in [!UICONTROL Segment Builder] to see actual
 
 [!UICONTROL Segment Builder]では、推定母集団グラフの青色の棒はセグメントのサイズの範囲の上限と下限を表します。過去のパフォーマンスから将来の結果が保証されているわけではありませんが、推定データを使用すると新しいセグメントや編集したセグメントのサイズがどの程度になる可能性があるか把握できます。
 
-## セグメント母集団データの概要 {#segment-populations}
+## セグメント母集団データの概要  {#segment-populations}
 
 [!UICONTROL Segment Builder]では、セグメントの作成時や編集時にセグメント母集団データが表示されます。
 
@@ -55,7 +55,7 @@ Add and remove [!UICONTROL traits] in [!UICONTROL Segment Builder] to see actual
 
 以下の表で、推定されたセグメント母集団データと実際のセグメント母集団データの詳細を確認してください。
 
-## 推定セグメント母集団データの定義 {#estimated-segment-population}
+## 推定セグメント母集団データの定義  {#estimated-segment-population}
 
 次の表は、推定母集団の指標です。
 
@@ -90,9 +90,9 @@ Add and remove [!UICONTROL traits] in [!UICONTROL Segment Builder] to see actual
 
 [!UICONTROL Profile Merge Rules]は、実際のリアルタイムおよび母集団合計数に影響を与えます。これらの合計は、セグメントが属する[!UICONTROL Profile Merge Rule]がデバイスグラフオプションを使用しているかどうかによって異なります。[定義済みのプロファイルの結合ルールオプション](../../features/profile-merge-rules/merge-rule-definitions.md)も参照してください。
 
-### セグメント母集団データ( [!UICONTROL Merge Rules] [!UICONTROL Device Graph Option]
+### [!UICONTROL Merge Rules]用セグメント母集団データ（[!UICONTROL Device Graph Option]は使用しない）
 
-The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created without a [!UICONTROL device graph] option. これはデバイスオプション設定の&#x200B;**[!UICONTROL No Device Options]**&#x200B;および&#x200B;**[!UICONTROL Current Device Proflie]**&#x200B;です。
+次の表は、[!UICONTROL device graph]を使用せずに作成された[!UICONTROL Profile Merge Rule]でセグメントが使用されている場合の、実際のリアルタイム母集団と合計母集団の指標を示しています。これはデバイスオプション設定の&#x200B;**[!UICONTROL No Device Options]**&#x200B;および&#x200B;**[!UICONTROL Current Device Proflie]**&#x200B;です。
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -117,12 +117,12 @@ The following table defines the actual real-time and total population metrics wh
  </tbody> 
 </table>
 
-### セグメント訪問者データ( [!UICONTROL Merge Rules][!UICONTROL Device Graph] オプション付き)
+### [!UICONTROL Merge Rules]のセグメント母集団データ（[!UICONTROL Device Graph]オプションあり）
 
-The following table defines the actual real-time and total population metrics when your segments are used by a [!UICONTROL Profile Merge Rule] created with a [!DNL device graph] option. These are the device options settings for the [!UICONTROL Profile Link Device Graph], the [!DNL Adobe] [!DNL device graph], and other third-party [!DNL device graph] choices that are available to you.
+次の表は、[!DNL device graph]オプションを使用せずに作成された[!UICONTROL Profile Merge Rule]でセグメントが使用されている場合の、実際のリアルタイム母集団と合計母集団の指標を示しています。これらは、[!UICONTROL Profile Link Device Graph]、[!DNL Adobe] [!DNL device graph]および他の使用可能なサードパーティの[!DNL device graph]に対するデバイス設定です。
 
 
-| 列A | 列B |
+| 列 A | 列 B |
 ---------|----------|
 | [!UICONTROL Real-Time Population (Existing) ] | 現在のプロファイルのうち、デバイスグラフで連結された他の最大 100 台のデバイスプロファイルと結合された場合に、Audience Manager での認識時にセグメントについて認定する特性を含むプロファイルを使用する、リアルタイムで認識されるデバイスの実際の数。 |
 | [!UICONTROL Total Population (Existing)] | デバイスグラフで連結された他の最大 100 台のデバイスプロファイルで結合された場合にセグメントについて認定されたプロファイルを使用するデバイスの合計数。 |
@@ -131,9 +131,9 @@ The following table defines the actual real-time and total population metrics wh
 
 [!UICONTROL Segment Builder]では、最大 4 つの最新性と頻度の式を含むセグメントルールのセグメントサイズ見積もりをサポートしています。セグメントルールの作成時に選択する最新性と頻度の式が 4 つを超えると、母集団の見積もり時にセグメント見積もりの画面にエラーが表示されます。
 
-### Limitations due to [!UICONTROL Merge Rules] When Estimating Segment Populations
+### セグメント母集団の推定時における[!UICONTROL Merge Rules]による制限
 
-Presently, there is a known limitation because our segment size estimator does not account for [!UICONTROL profile merge rules]. For example, look at segments with the **[!UICONTROL No Authenticated Profile + Current Device Profile]** [merge rule](../../features/profile-merge-rules/merge-rule-definitions.md). 現在のセグメント推定数の計算方法では、推定された母集団に認証済みプロファイルが含まれます。しかし、既存のセグメント母集団では、認証済みプロファイルが適切に無視されます。
+現在、セグメントサイズ見積もりで[!UICONTROL profile merge rules]が考慮されていないことが原因で発生する、既知の制限があります。例えば、**[!UICONTROL No Authenticated Profile + Current Device Profile]**[ 結合ルール](../../features/profile-merge-rules/merge-rule-definitions.md)でのセグメントについて見てみましょう。現在のセグメント推定数の計算方法では、推定された母集団に認証済みプロファイルが含まれます。しかし、既存のセグメント母集団では、認証済みプロファイルが適切に無視されます。
 
 >[!MORELIKETHIS]
 >
