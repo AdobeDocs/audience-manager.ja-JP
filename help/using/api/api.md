@@ -11,21 +11,21 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL API] および [!DNL SDK] コード {#api-and-sdk-code}
+# [!DNL API] と [!DNL SDK] コード {#api-and-sdk-code}
 
-[!DNL API]とツールキットを組み合わせ、プログラムを使用して作業を行うことがで [!DNL Audience Manager]きます。
+[!DNL Audience Manager] をプログラムで操作するための [!DNL API] およびツールキット。
 
 >[!NOTE]
 >
 >以下の機能は、アドビの [!DNL API] ではサポートされません。
 >
 >* [!UICONTROL General]、[!UICONTROL Trend]、および [!UICONTROL Interactive] レポート。
->* 非推奨 [!DNL Tag Insertion Manager] ([!DNL TIM])機能です。
+>* 廃止予定の [!DNL Tag Insertion Manager]（[!DNL TIM]）機能です。
 
 
 詳細：
