@@ -11,22 +11,22 @@ translation-type: tm+mt
 source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # [!UICONTROL Declared IDs] {#declared-ids}
 
-How [!UICONTROL declared IDs] work, set up procedures, code examples, and variables.
+[!UICONTROL declared IDs] の機能、セットアップ手順、コード例、変数について説明します。
 
 ## [!UICONTROL Declared ID] ターゲット設定 {#declared-id-targeting}
 
-Exchange and synchronize user IDs with [!DNL Audience Manager] from devices or browsers that do not use or accept persistent storage mechanisms, such as third-party [!DNL cookies].
+サードパーティ [!DNL cookies] などの永続的ストレージメカニズムを使用しない、または使用できないデバイスやブラウザーで、[!DNL Audience Manager] とのユーザー ID の交換および同期をおこないます。
 
-## ター [!UICONTROL Declared ID] ゲティングの目的 {#declared-id-targeting-purpose}
+## [!UICONTROL Declared ID] ターゲティングの目的 {#declared-id-targeting-purpose}
 
-Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]. そのため、サイト訪問者に関する情報の保持や永続的 ID の割り当てが難しくなります。To resolve this issue, [!DNL Audience Manager] uses [!UICONTROL DIL] to let you pass in [!UICONTROL declared IDs] on an event call. また、[!UICONTROL declared ID]は、[!DNL Experience Cloud] のすべてのソリューションで同じユーザーに適用される汎用 ID としても機能できます。ID のターゲティング／マッチング処理を次の表で説明します。
+一部のブラウザーやほとんどのモバイルデバイスでは、サードパーティの [!DNL cookies] を許可していません。そのため、サイト訪問者に関する情報の保持や永続的 ID の割り当てが難しくなります。この問題を解決するため、[!DNL Audience Manager] では、[!UICONTROL declared IDs] をイベント呼び出しで渡せるよう、[!UICONTROL DIL] を使用しています。また、[!UICONTROL declared ID]は、[!DNL Experience Cloud] のすべてのソリューションで同じユーザーに適用される汎用 ID としても機能できます。ID のターゲティング／マッチング処理を次の表で説明します。
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -38,7 +38,7 @@ Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]
  <tbody> 
   <tr> 
    <td colname="col1"> <b>イベント呼び出し</b> </td> 
-   <td colname="col2"> <p>機能させるには、ページに <span class="wintitle">DIL</span> と <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html" format="https" scope="external">Adobe Experience Platform ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Adobe Experience Platform ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
+   <td colname="col2"> <p>機能させるには、ページに <span class="wintitle">DIL</span> と <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external">Adobe Experience Platform ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Adobe Experience Platform ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID のマッチング</b> </td> 
@@ -59,10 +59,10 @@ Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]
 
 ## オプトアウト呼び出し {#opt-out-calls}
 
-[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
+[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager][!DNL Audience Manager] がオプトアウトリクエストを受信すると、[!DNL DCS] から返される [!DNL JSON] には、[!DNL Audience Manager] ユーザー ID ではなく、エラーコード 171 と「`Encountered opt out tag`」というメッセージが含まれています。
 
-* [!DNL Audience Manager] は、内でオプトアウトを受け渡すこと [!UICONTROL declared ID] ができ [!DNL Audience Manager][!UICONTROL UUID][!DNL URL]ます。
-* オプトア [!UICONTROL declared ID] ウトは、パートナーごとに [!UICONTROL Profile Cache Server] ([!UICONTROL PCS])に保存されます。 [!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。Additionally, [!DNL Audience Manager] opts the user out from that particular region on the edge (the opt-out does not cross [!DNL DCS] regions).
+* [!DNL Audience Manager] では、[!DNL URL] で [!DNL Audience Manager] [!UICONTROL UUID] と一緒に [!UICONTROL declared ID] のオプトアウトを渡すことができます。
+* [!UICONTROL declared ID] オプトアウトは、パートナーごとに [!UICONTROL Profile Cache Server]（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、[!DNL Audience Manager] では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!DNL DCS] 地域をまたぐことはありません）。
 
 データ収集のオプトアウトについて詳しくは、[データのプライバシー](../overview/data-security-and-privacy/data-privacy.md)を参照してください。
 
@@ -70,7 +70,7 @@ Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]
 
 `d_cid` および `d_cid_ic` のキー値ペアを使用して、[!UICONTROL declared ID] のオプトアウトリクエストをおこなうことができます。`d_dpid` や `d_dpuuid` などの従来のパラメーターはまだ機能しますが、既に非推奨（廃止予定）となっています。詳しくは、[DPID と DPUUID に代わる CID](../reference/cid.md) を参照してください。以下の例で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
-### オプトアウト(お [!UICONTROL CID] よび [!UICONTROL CID_IC]
+### [!UICONTROL CID] および [!UICONTROL CID_IC] でのオプトアウト
 
 説明と構文については、[宣言された ID の URL 変数および構文](../features/declared-ids.md#variables-and-syntax)を参照してください。
 
@@ -91,13 +91,13 @@ Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>複数の <code> d_cid </code> および <code> d_cid_ic </code> のキー値ペア </p> </td> 
+   <td colname="col1"> <p>複数の <code> d_cid </code> および <code> d_cid_ic </code> のキー値ペア。 </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### オプトアウト( [!UICONTROL DPID]、 [!UICONTROL DPUUID]および [!UICONTROL UUID] （廃止）
+### [!UICONTROL DPID]、[!UICONTROL DPUUID]、および [!UICONTROL UUID]でのオプトアウト（廃止予定）
 
 これらの方法はまだ機能しますが、既に非推奨（廃止予定）となっています。この情報は、従来手法の参考などのために提供するものです。従来のオプトアウト方法は次のとおりです。
 
@@ -124,7 +124,7 @@ Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]
  </tbody> 
 </table>
 
-## 変数と構文 [!UICONTROL Declared IDs] {#variables-and-syntax}
+## [!UICONTROL Declared IDs] の変数と構文 {#variables-and-syntax}
 
 以下の表に、[!DNL Audience Manager] でデータプロバイダー ID およびユーザー ID または統合コード（使用する場合）を渡すキー値ペアを示します。なお、*斜体*&#x200B;の部分には実際の情報が入ります。読みやすくするために、スペースが追加されています。
 
@@ -173,7 +173,7 @@ Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>複数の <code> d_cid </code> および <code> d_cid_ic </code> のキー値ペア </p> </td> 
+   <td colname="col1"> <p>複数の <code> d_cid </code> および <code> d_cid_ic </code> のキー値ペア。 </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -181,9 +181,9 @@ Some browsers, and most mobile devices, do not accept third-party [!DNL cookies]
 
 ## [!UICONTROL Declared ID] 変数 {#declared-id-variables}
 
-Describes the configuration variables used to pass [!UICONTROL declared IDs] through [!UICONTROL DIL] to [!DNL Audience Manager.]
+[!UICONTROL declared IDs] を [!UICONTROL DIL] を通じて [!DNL Audience Manager.] に渡すための設定変数について説明します。
 
-## [!UICONTROL DIL] を使用し [!DNL Adobe Experience Platform Identity Service] てパス [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
+## [!UICONTROL DIL] は、 [!DNL Adobe Experience Platform Identity Service][!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
 [Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用する場合、非推奨（廃止予定）の `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要はありません。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
 
@@ -206,7 +206,7 @@ var vDil = DIL.create({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 名前 </th> 
-   <th colname="col2" class="entry"> タイプ </th> 
+   <th colname="col2" class="entry"> のタイプ </th> 
    <th colname="col3" class="entry"> 説明 </th> 
   </tr> 
  </thead>
@@ -226,7 +226,7 @@ var vDil = DIL.create({
 
 ### [!UICONTROL DPID] および [!UICONTROL DPUUID]
 
-[!DNL Audience Manager] は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。If an ID does not exist, [!DNL Audience Manager] creates a new user ID and synchronizes it to the `DPID/DPUUID` combination. Once [!DNL Audience Manager] matches or creates a user ID (the `UUID`) it returns that ID in the [!DNL JSON] response to the [!DNL cookie] in the client&#39;s domain (first-party [!DNL cookie]) or other local storage.
+[!DNL Audience Manager] は結合された `DPID` と `DPUUID` を、システム内の対応するユーザー ID と比較して照合します。存在しない ID がある場合、[!DNL Audience Manager] は新しいユーザー ID を作成し、`DPID/DPUUID` の組み合わせと同期します。[!DNL Audience Manager] がユーザー ID（`UUID`）を照合または作成すると、その ID が [!DNL JSON] レスポンスでクライアントのドメイン （ファーストパーティの [!DNL cookie]）またはその他のローカルストレージの [!DNL cookie] に返されます。
 
 [!UICONTROL DIL] v6.1 以前を使用している場合には、この関数を呼び出します。新しいバージョンでは [!DNL Adobe Experience Platform Identity Service] から [!UICONTROL declared IDs] を取得するので、この関数は非推奨（廃止予定）となっています。
 
@@ -242,9 +242,9 @@ DIL.create({
 
 >[!NOTE]
 >
->You need to programmatically develop the code that supplies the ID values for the `d_dpuuid` and `d_dpid` keys.
+>なお、`d_dpuuid` および `d_dpid` キーの ID 値を設定するコードをプログラムによって作成する必要があります。
 
-### Pass In IDs After [!UICONTROL DIL] Instantiates
+### [!UICONTROL DIL] のインスタンス化の後に ID を渡す
 
 >[!NOTE]
 >
@@ -259,7 +259,7 @@ DIL.getDil('partner name').api.signals({...}).declaredId({
 
 ## リクエストとレスポンスの例 {#request-response-examples}
 
-The request sends a data provider and user ID to [!DNL Audience Manager]:
+次のリクエストはデータプロバイダー ID とユーザー ID を [!DNL Audience Manager] に送信します。:
 
 ```
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
@@ -276,7 +276,7 @@ myCallback({
 
 ## ターゲティングからの除外 {#do-not-target}
 
-[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]When [!DNL Audience Manager] receives an opt-out request, the [!DNL DCS] returns an empty [!DNL JSON] object instead of the [!DNL Audience Manager] user ID.
+[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager][!DNL Audience Manager] がオプトアウトリクエストを受け取ると、[!DNL DCS] は [!DNL Audience Manager] ユーザー ID ではなく空の [!DNL JSON] オブジェクトを返します。
 
 >[!MORELIKETHIS]
 >
