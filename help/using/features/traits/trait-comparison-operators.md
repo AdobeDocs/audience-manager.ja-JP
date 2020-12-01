@@ -48,11 +48,11 @@ ht-degree: 100%
 
 | 演算子 | [!DNL True] の評価の条件 |
 |---|---|
-| **[!UICONTROL Contains]** | キーと値のペアの値が、この演算子で指定された文字を&#x200B;*含む*。 |
-| **[!UICONTROL Matcheswords]** | キーと値のペアの値が、この演算子で指定されたパターンに&#x200B;*合致する*。 |
-| **[!UICONTROL Startswith]** | キーと値のペアの値が、この演算子で指定された文字&#x200B;*で始まる*。 |
-| **[!UICONTROL Endswith]** | キーと値のペアの値が、この演算子で指定された文字&#x200B;*で終わる*。 |
-| **[!UICONTROL Matchesregex]** | キーと値のペアの値が、正規表現で指定されたパターンに&#x200B;*合致する*。[こちら](../../features/traits/trait-builder-regex.md)を参照して、[!UICONTROL Trait Builder]での正規表現の使用について確認してください。 |
+| **[!UICONTROL Contains]** | キー値ペアの値が、この演算子で指定された文字を&#x200B;*含む*。 |
+| **[!UICONTROL Matcheswords]** | キー値ペアの値が、この演算子で指定されたパターンに&#x200B;*合致する*。 |
+| **[!UICONTROL Startswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で始まる*。 |
+| **[!UICONTROL Endswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で終わる*。 |
+| **[!UICONTROL Matchesregex]** | キー値ペアの値が、正規表現で指定されたパターンに&#x200B;*合致する*。[こちら](../../features/traits/trait-builder-regex.md)を参照して、[!UICONTROL Trait Builder]での正規表現の使用について確認してください。 |
 
 >[!MORELIKETHIS]
 >
