@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. [!UICONTROL Audience Data]／[!UICONTROL Data Sources] に移動します。
 1. [DPUUID](../../reference/ids-in-aam.md) を含むデータソースを見つけてクリックします。
-1. **[!UICONTROL ID Type]** ドロップダウンメニューで、**[!UICONTROL Cross Device]**&#x200B;を選択します。
+1. **[!UICONTROL ID Type]** ドロップダウンメニューで、「**[!UICONTROL Cross Device]**」を選択します。
 1. オプション [!UICONTROL Cannot be tied to personally identifiable information] が選択解除されていることを確認します。
 1. **[!UICONTROL Data Source Settings]** セクションで、**[!UICONTROL Inbound]** と **[!UICONTROL Outbound]** のオプションを両方選択し、**[!UICONTROL Share associated cross-device IDs in people-based destinations]** オプションを有効にします。
 1. ドロップダウンメニューを使用して、このデータソースの **[!UICONTROL Emails(SHA256, lowercased)]** ラベルを選択します。
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. Audience Managerアカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** に移動して、**[!UICONTROL Add New]**&#x200B;をクリックします。
 1. 新しいデータソースに、[!UICONTROL Name] と [!UICONTROL Description] を入力します。
-1. **[!UICONTROL ID Type]** ドロップダウンメニューで、**[!UICONTROL Cross Device]**&#x200B;を選択します。
+1. **[!UICONTROL ID Type]** ドロップダウンメニューで、「**[!UICONTROL Cross Device]**」を選択します。
 1. **[!UICONTROL Data Source Settings]** セクションで、**[!UICONTROL Inbound]** と **[!UICONTROL Outbound]** のオプションを両方選択し、**[!UICONTROL Share associated cross-device IDs in people-based destinations]** オプションを有効にします。
 1. ドロップダウンメニューを使用して、このデータソースの **[!UICONTROL Emails(SHA256, lowercased)]** ラベルを選択します。
    >[!IMPORTANT]
@@ -146,7 +146,7 @@ ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアッ
 1. **[!UICONTROL People-Based Platform]** ドロップダウンメニューを使用して、統合を設定するプラットフォームを選択します。
    ![ユーザーベースのプラットフォーム](assets/pbd-add.png)
 1. **[!UICONTROL Confirm]**&#x200B;をクリックすると、選択したプラットフォームの認証ページにリダイレクトされます。
-1. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+1. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、「**[!UICONTROL Confirm]**」をクリックします。
 1. Audience Manager のページ上部に通知が表示され、アカウントが正常に追加されたかどうかがわかります。また、連絡先電子メールアドレスを追加して、ソーシャルプラットフォーム認証の有効期限が近づいたら通知を受け取ることもできます。
 
 >[!IMPORTANT]
