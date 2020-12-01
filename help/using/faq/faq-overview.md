@@ -24,7 +24,7 @@ ht-degree: 100%
 * [データ収集および製品統合に関するよくある質問](faq-data-collection.md)
 * [顧客データのインバウンドの取得に関するよくある質問](faq-inbound-data-ingestion.md)
 * [プライバシーとデータ保持に関するよくある質問](faq-privacy.md)
-* [ピープルベースの宛先に関する FAQ](faq-people-based-destinations.md)
+* [People-Based Destinations に関する FAQ](faq-people-based-destinations.md)
 * [製品の機能に関するよくある質問](faq-features.md)
 * [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq-profile-merge.md)
 * [Predictive Audiences に関する FAQ](faq-predictive-audiences.md)
