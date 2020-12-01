@@ -60,7 +60,7 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 
 ## Real-time Segment Population と Total Segment Population {#real-time-segment}
 
-![unique-trait-realization](assets/segment-graph.png)
+![固有形質実現](assets/segment-graph.png)
 
 [!UICONTROL Real-time Segment Population] は、指定した期間内に選択したセグメントの対象となり、プロパティに到達したデバイスの数を表します。
 
