@@ -47,6 +47,6 @@ faq_api.xml
 
 <br> 
 
-**[!UICONTROL REST API] クライアント ID およびシークレット**&#x200B;を取得するには、どうすればよいですか？
+**[!UICONTROL REST API] クライアント ID およびシークレットを取得するには、どうすればよいですか？**
 
 パートナーソリューションの担当者に連絡して、[!DNL API] のアクセス資格情報を取得してください。アドビの API では、トークンの認証、権限付与、更新に [OAuth 2.0](https://oauth.net/2/) 標準を使用しています。詳しくは、[OAuth 認証](../api/rest-api-main/aam-api-getting-started.md#oauth)を参照してください。
