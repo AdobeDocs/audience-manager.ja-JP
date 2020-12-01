@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# DPID と DPUUID に代わる CID{#cid-replaces-dpid-and-dpuuid}
+# DPID と DPUUID に代わる CID {#cid-replaces-dpid-and-dpuuid}
 
 `d_dpid` や `d_dpuuid` の代わりに `d_cid` または `d_cid_ic` を使用するようにコードを更新してください。DPID および DPUUID 変数は引き続き機能しますが、これらは既に廃止されています。DPID や DPUUID の、`d_ prefix`が付かないバージョンも同様です。
 
@@ -52,7 +52,7 @@ DPID と DPUUID は、データプロバイダー ID とユーザー ID で構�
 
 これらのキー値ペアはまだ機能しますが、廃止されています。代わりに CID または CID_IC を使用するようにコードを更新してください。
 
-## CID と CID_IC：概要 {#cid-cidic-about}
+## CID と CID_IC：概要  {#cid-cidic-about}
 
 CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるものです。これらは DPID や DPUUID と同じ機能を提供しますが、データプロバイダー ID（または統合コード）とユーザー ID が 1 つのキー値ペアに含まれているので、より効率的です。それぞれのキー値ペアでは、以下がおこなわれます。
 
@@ -80,7 +80,7 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
  </tbody> 
 </table>
 
-また、[宣言済み ID の URL 変数および構文](../features/declared-ids.md#variables-and-syntax)も参照してください。
+また、[宣言された ID の URL 変数および構文](../features/declared-ids.md#variables-and-syntax)も参照してください。
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
    <td colname="col2"> 
     <ul id="ul_6EAB4188C6954512A28D1A8328794BCB"> 
      <li id="li_344AAEF1622343489E2AD6E2929CEA98">新規: <code> .../event?d_cid=123%01987...</code> </li> 
-     <li id="li_B673C1BA5AD24C46AB8F8232EF89CE89">Deprecated: <code> .../event?d_dpid=123&amp;d_dpuuid=987...</code> </li> 
+     <li id="li_B673C1BA5AD24C46AB8F8232EF89CE89">廃止：<code> .../event?d_dpid=123&amp;d_dpuuid=987...</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -114,7 +114,7 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
    <td colname="col2"> 
     <ul id="ul_78270745CBC2469B8CA9EDB7032B8F92"> 
      <li id="li_8C4620A04504442185F013F74E6B0647">新規: <code> .../ibs:d_cid=123%01987...</code> </li> 
-     <li id="li_2A8F761C76334C1BB097CF1A9D7E8429">Deprecated: <code> .../ibs:d_dpid=123&amp;d_dpuuid=987</code> </li> 
+     <li id="li_2A8F761C76334C1BB097CF1A9D7E8429">廃止：<code> .../ibs:d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
    <td colname="col2"> 
     <ul id="ul_EAA764DCFF7244F69ABF67ACEE13E579"> 
      <li id="li_18467A531FAF454A881CBD157BBFD6D2">新規: <code> .../id?d_cid=123%01987...</code> </li> 
-     <li id="li_433C33F7BC284362AC7CC3C9DC0BF471">Deprecated: <code> .../id?d_dpid=123&amp;d_dpuuid=987</code> </li> 
+     <li id="li_433C33F7BC284362AC7CC3C9DC0BF471">廃止：<code> .../id?d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -145,7 +145,7 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>URL encoding </p> </td> 
+   <td colname="col1"> <p>URLエンコード </p> </td> 
    <td colname="col2"> <p>開発チームは、CID キー値ペアの次の変数に URL エンコーディングを適用する<i>必要</i>があります。 </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
       <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 
