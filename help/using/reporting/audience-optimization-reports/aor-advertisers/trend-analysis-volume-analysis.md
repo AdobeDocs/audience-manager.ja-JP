@@ -15,17 +15,17 @@ ht-degree: 97%
 ---
 
 
-# [!UICONTROL Trend Analysis] および [!UICONTROL Volume Analysis] レポート{#trend-analysis-and-volume-analysis-reports}
+# [!UICONTROL Trend Analysis][!UICONTROL Volume Analysis]{#trend-analysis-and-volume-analysis-reports}
 
 これらのレポートは、広告の幅広いディメンションにわたってインプレッション、クリックスルー率およびコンバージョンについてのデータを返します。選択した指標のトレンドやボリュームを比較すると、キャンペーンパフォーマンスの時間的変化を正確に把握することができます。
 
-## Sample [!UICONTROL Trend Analysis] Report {#sample-trend-analysis}
+## [!UICONTROL Trend Analysis]{#sample-trend-analysis}
 
 [!UICONTROL Trend Analysis]レポートには、14 日間のデータのみが線グラフで返されます。この例では、レポートにはマッピングされた一連のセグメントについてのインプレッション、クリックスルー、コンバージョンのトレンドが表示されます。
 
 ![](assets/trend-analysis.png)
 
-## Sample [!UICONTROL Volume Analysis] Report {#sample-volume-analysis}
+## サンプル[!UICONTROL Volume Analysis]レポート{#sample-volume-analysis}
 
 [!UICONTROL Volume Analysis] レポートには、選択した日付範囲のデータが棒グラフで返されます。この例では、レポートにはマッピングされた一連のセグメントについてのインプレッション、クリックスルー、コンバージョンが、ボリュームを基準に表示されています。
 
