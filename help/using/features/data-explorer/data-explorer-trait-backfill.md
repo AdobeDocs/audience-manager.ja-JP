@@ -63,7 +63,7 @@ Audience Manager の [!UICONTROL Trait Graph] は、特性の作成時点から 
 
 ## 特性バックフィルの制限 {#trait-backfilling-limit}
 
-[!UICONTROL Data Explorer] でバックフィルできる特性は 1 ヶ月あたり 50 個までに制限されており、バックフィルの実行可能回数は毎月 1 日にリセットされます。
+[!UICONTROL Data Explorer] でバックフィルできる特性は 1 か月あたり 50 個までに制限されており、バックフィルの実行可能回数は毎月 1 日にリセットされます。
 
 >[!NOTE]
 >
