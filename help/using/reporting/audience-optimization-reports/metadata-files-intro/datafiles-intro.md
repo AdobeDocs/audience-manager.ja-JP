@@ -1,9 +1,9 @@
 ---
-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、Audience Optimization レポートおよび実用的なログファイルで使用できます。データファイルの形式を、この節で説明した仕様に合わせてください。
-seo-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、Audience Optimization レポートおよび実用的なログファイルで使用できます。データファイルの形式を、この節で説明した仕様に合わせてください。
-seo-title: Audience Optimization レポートおよび実用的なログファイル用のデータファイル
+description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、Audience Optimization レポートおよびアクションにつながるログファイルで使用できます。データファイルの形式を、この節で説明した仕様に合わせてください。
+seo-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、Audience Optimization レポートおよびアクションにつながるログファイルで使用できます。データファイルの形式を、この節で説明した仕様に合わせてください。
+seo-title: Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル
 solution: Audience Manager
-title: Audience Optimization レポートおよび実用的なログファイル用のデータファイル
+title: Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
@@ -15,9 +15,9 @@ ht-degree: 100%
 ---
 
 
-# Audience Optimization レポートおよび実用的なログファイル用のデータファイル {#data-files-for-audience-optimization-reports}
+# Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル {#data-files-for-audience-optimization-reports}
 
-データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、[Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)で表示し、[実用的なログファイル](/help/using/integration/media-data-integration/actionable-log-files.md)からデータを使用して特性を作成できます。データファイルの形式を、この節で説明した仕様に合わせてください。
+データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、[Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)で表示し、[アクションにつながるログファイル](/help/using/integration/media-data-integration/actionable-log-files.md)からデータを使用して特性を作成できます。データファイルの形式を、この節で説明した仕様に合わせてください。
 
 ## 概要 {#overview}
 
@@ -127,7 +127,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>Event-Type </p> </td> 
-   <td colname="col2"> <p>コンバージョンタイプ。コンバージョンが対応しているかどうかを示します。オプションは以下のとおりです。 </p> 
+   <td colname="col2"> <p>コンバージョンタイプ。コンバージョンが対応しているかどうかを示します。オプションは次のとおりです。 </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
      <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>：インプレッション </li> 
      <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>：クリック </li> 
