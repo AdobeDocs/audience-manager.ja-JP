@@ -106,5 +106,5 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 
 >[!MORELIKETHIS]
 >
->* [顧客 ID と認証状態](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html)
+>* [顧客 ID と認証状態](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
 
