@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## アドレス可能なオーディエンスのランディングページ {#audiences-landing-page}
 
-サーバー間宛先のオーディエンスデータとマッチ率を確認するには、**[!UICONTROL Integrated Platforms > Device-Based]** を選択します。
+サーバー間宛先のオーディエンスデータとマッチ率を確認するには、「**[!UICONTROL Integrated Platforms > Device-Based]**」を選択します。
 
 表示される情報について詳しくは、[アドレス可能なオーディエンスインターフェイス](/help/using/features/addressable-audiences.md#addressable-audience-interface)を参照してください。
 
