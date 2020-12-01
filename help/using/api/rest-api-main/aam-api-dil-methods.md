@@ -10,22 +10,22 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # データ統合ライブラリ API メソッド {#data-integration-library-api-methods}
 
-[!UICONTROL Data Integration Library]（[!UICONTROL DIL]をプログラムで操作するためのメソッド。
+[!UICONTROL Data Integration Library]（[!UICONTROL DIL]）をプログラムで操作するためのメソッド。
 
 >[!IMPORTANT]
 >
->Data Integration Library API は廃止されました。This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>Data Integration Library API は廃止されました。DIL の生成に使用されているこの API は、[DIL ダウンロード](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロードできるようになりました。
 
 <!-- c_data_integr_library_api.xml -->
 
-## DIL{#return-version-dil} のバージョンを返す 
+## のバージョンを返す DIL {#return-version-dil}
 
 古い順に並べ替えられたバージョンのリストを返す `GET` メソッド。
 
@@ -379,7 +379,7 @@ ht-degree: 92%
 } 
 ```
 
-## DIL{#generate-dil} を生成する 
+## を生成する DIL {#generate-dil}
 
 [!UICONTROL DIL] の指定バージョンを使用して要求本文で渡された内容に基づいて [!UICONTROL DIL] を生成する `GET` メソッド。URL でバージョンにエイリアス `LATEST` が使用されている場合、[!UICONTROL DIL] の最新バージョンが生成されます。
 
