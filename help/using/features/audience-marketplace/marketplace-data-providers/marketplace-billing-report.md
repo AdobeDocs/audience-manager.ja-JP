@@ -20,7 +20,7 @@ ht-degree: 100%
 
 [!DNL Audience Marketplace] 請求レポートを生成すると、サブスクリプション購入者ごとに前月のデータフィードの使用状況を確認できます。前月のレポートはいつでも作成できます。ただし、当月の 10 日以降にレポートを生成したほうがレポートが正確になります。
 
-## 請求レポートのダウンロード {#download-billing-report}
+## 請求レポートのダウンロード  {#download-billing-report}
 
 レポートをダウンロードするには、次の手順を実行します。
 
@@ -65,7 +65,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Plan Use Cases</span></b> </p> </td> 
-   <td colname="col2"> <p>販売者は、購入者がどのようにデータを使用できるかをユースケースにより制御できます。オプションは以下のとおりです。 </p> 
+   <td colname="col2"> <p>販売者は、購入者がどのようにデータを使用できるかをユースケースにより制御できます。オプションは次のとおりです。 </p> 
     <ul id="ul_8230A93B5DCE4C10B025D3C761F72CEF"> 
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">セグメントと重複 </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">モデリング </li> 
