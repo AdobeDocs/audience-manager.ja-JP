@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 11b79d46e7358c736c797bcf0809af4937717fc5
 workflow-type: tm+mt
 source-wordcount: '1518'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -21,26 +21,26 @@ ht-degree: 73%
 
 以下の表で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
-## システムエラーコード {#system-error-codes}
+## システムエラーコード  {#system-error-codes}
 
 | エラーコード | エラーメッセージ | 説明 |
 |---|---|---|
-| 0 | Unspecified error | これは、他のエラーハンドラーでカバーされないイベントを処理する包括的なエラーです。このエラーのトラブルシューティングは困難です。種々の不明なアクションやイベントが原因になっている可能性があります。このエラーが発生した場合は、[!DNL DCS] 要求をもう一度試してください。Contact your [!DNL Adobe] representative if the problem persists. |
-| 1 | Could not find config for hostname:    `hostname` | 送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。Contact your [!DNL Adobe] representative if you see this error message. |
-| 2 | Invalid `d_orgid` value (could not find a config for this org id): `ID` | 組織 ID が正しくありません。ID を確認して、要求をもう一度試してください。If you do not know or have your Organization ID, see the &quot;Administration Page&quot; section [Organizations and account linking](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html) for information about how to find it. |
+| 0 | Unspecified error | これは、他のエラーハンドラーでカバーされないイベントを処理する包括的なエラーです。このエラーのトラブルシューティングは困難です。種々の不明なアクションやイベントが原因になっている可能性があります。このエラーが発生した場合は、[!DNL DCS] 要求をもう一度試してください。問題が解決しない場合は、[!DNL Adobe] 担当者にお問い合わせください。 |
+| 1 | Could not find config for hostname:      `hostname` | 送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。このエラーメッセージが表示された場合は、[!DNL Adobe] 担当者にご連絡ください。 |
+| 2 | Invalid `d_orgid` value (could not find a config for this org id): `ID` | 組織 ID が正しくありません。ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、組織 ID の見つけ方について、[組織とアカウントのリンク](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)の「管理ページ」を参照してください。 |
 
 ## 統合エラーコード {#integration-error-codes}
 
 | エラーコード | エラーメッセージ | 説明 |
 |---|---|---|
-| 100 | Could not retrieve host name for the request | An [!DNL API] call did not send the host [!DNL HTTP] header in the request. 呼び出追加しに対するホストヘッダーを指定して、もう一度やり直してください。 Most browsers and [!DNL API] clients do this automatically. |
-| 101 | Invalid [!DNL Experience Cloud] id passed in `ID` | The [!DNL DCS] call contains an invalid [!DNL Experience Cloud] ID. ヘッダー文字列の `d_mid=` キー値ペアを確認してください。正しい [!DNL Experience Cloud] ID を渡していることを確認して、要求をもう一度試してください。 |
-| 102 | Invalid [!DNL AAM ID] passed in request `ID` | The [!DNL DCS] call contains an invalid [!DNL Audience Manager] ID. ヘッダー文字列の `d_uuid=` キー値ペアを確認してください。正しい [!DNL Audience Manager] ID を渡していることを確認して、要求をもう一度試してください。 |
-| 104 | すべての顧客IDが無効です | 呼び出しに含まれているすべての顧客 ID が無効です。ID を確認して、もう一度試してください。 |
+| 100 | Could not retrieve host name for the request | [!DNL API] 呼び出しで送信された要求にホスト ヘッダーが含まれていませんでした。[!DNL HTTP]ホストヘッダーを呼び出しに追加して、もう一度試してください。なお、ほとんどのブラウザーおよび [!DNL API] クライアントでは、これを自動的におこないます。 |
+| 101 | Invalid [!DNL Experience Cloud] id passed in `ID` | [!DNL DCS] 呼び出しに無効な [!DNL Experience Cloud] ID が含まれています。ヘッダー文字列の `d_mid=` キー値ペアを確認してください。正しい [!DNL Experience Cloud] ID を渡していることを確認して、要求をもう一度試してください。 |
+| 102 | Invalid [!DNL AAM ID] passed in request `ID` | [!DNL DCS] 呼び出しに無効な [!DNL Audience Manager] ID が含まれています。ヘッダー文字列の `d_uuid=` キー値ペアを確認してください。正しい [!DNL Audience Manager] ID を渡していることを確認して、要求をもう一度試してください。 |
+| 104 | All customer IDs are invalid | 呼び出しに含まれているすべての顧客 ID が無効です。ID を確認して、もう一度試してください。 |
 | 109 | リファラー `HTTP referer` はパートナーの `Partner ID` で使用できます。 | 呼び出しの `HTTP referer` ヘッダーは、呼び出しのパートナー ID では使用できません。`HTTP referer` ヘッダーが正しいことを確認します。 |
-| 111 | Invalid `IMS` token received | 返される対象 [!DNL Audience Manager] - [!DNL Adobe Target] 統合。 The error is thrown when a call is made to the [!DNL DCS], containing an invalid [!DNL IMS] token. トークンの形式が正しくないか有効期限が切れている、または要求したリソースにアクセスする権限をユーザーが持っていない可能性があります。 |
+| 111 | Invalid `IMS` token received | [!DNL Audience Manager] - [!DNL Adobe Target] 統合に対して返されます。エラーがスローされるのは、無効な [!DNL IMS] トークンを含んだ呼び出しが [!DNL DCS] に対しておこなわれた場合です。トークンの形式が正しくないか有効期限が切れている、または要求したリソースにアクセスする権限をユーザーが持っていない可能性があります。 |
 
-## オプトアウトエラーコード {#opt-out-error-codes}
+## オプトアウトエラーコード  {#opt-out-error-codes}
 
 <table id="table_A50C284AB84F48A79B01223D991884A2"> 
  <thead> 
@@ -53,7 +53,7 @@ ht-degree: 73%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>171 </p> </td> 
-   <td colname="col2"> <p>Encountered opt out tag for id <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Encountered opt out tag for id  <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>お客様がインタレストベース広告の受信をオプトアウトしました。 </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ ht-degree: 73%
  </tbody> 
 </table>
 
-## プロファイル取得エラーコード {#profile-retrieval-error-codes}
+## プロファイル取得エラーコード  {#profile-retrieval-error-codes}
 
 <table id="table_CFF2252A3CC54960802905454A867D7A"> 
  <thead> 
@@ -99,22 +99,22 @@ ht-degree: 73%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>200 </p> </td> 
-   <td colname="col2"> <p> Cannot read traits from profile cache for id:    <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read traits from profile cache for id:      <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>アドビの社内ストレージからユーザープロファイルを読み取れない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
-   <td colname="col2"> <p> Cannot read device ids from profile cache for customer id:    <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read device ids from profile cache for customer id:      <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p><a href="../../../reference/ids-in-aam.md">デバイス ID</a> をプロファイルリンク結合ルールのために取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
-   <td colname="col2"> <p>Cannot read related customer for device id:    <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Cannot read related customer for device id:      <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>デバイス ID に関連付けられている<a href="../../../reference/ids-in-aam.md">顧客 ID（UUID）</a>を、前回の認証済みプロファイル結合ルールのためにアドビの社内ストレージから取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 
-   <td colname="col2"> <p> Cannot read device cluster for id:    <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read device cluster for id:      <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>このデバイス ID にリンクされているデバイス ID を同じデバイスグラフクラスターから返せません。 </p> </td>
   </tr> 
   <tr> 
@@ -130,7 +130,7 @@ ht-degree: 73%
  </tbody> 
 </table>
 
-## 統合警告コード {#integration-warning-codes}
+## 統合警告コード  {#integration-warning-codes}
 
 <table id="table_31F1593C46804DDBA2E9BEDE83F2417F"> 
  <thead> 
@@ -143,38 +143,38 @@ ht-degree: 73%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>Invalid customer id <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Invalid customer id  <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID が無効です（データソースの値がない、統合コードがない、データソースの形式が無効、顧客 ID がブロックされている、顧客 ID が未指定、パートナーの管理下にないデータソースに不正にアクセスしようとしている、など）。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Maximum number of customer ids exceeded.Maximum allowed is<code><i>maximum allowed</i></code>.Found is <code><i>maximum found</i></code>.</p> </td> 
+   <td colname="col2"> <p>Maximum number of customer ids exceeded.Maximum allowed is<code><i>maximum allowed</i></code>. Found is <code><i>maximum found</i></code>.</p> </td> 
    <td colname="col3"> <p>クロスデバイス対応データソースに関連付けられている顧客 ID の数が、要求あたりのクロスデバイス ID 数の上限を超えています。このような ID にはクロスデバイス ID、モバイル ID、Cookie ID などがあります。上限は現在 10 に設定されています。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>Unauthorized customer id <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Unauthorized customer id  <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「組織 ID を見つける」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>Blocked customer id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>顧客IDが悪意のあるIDとして識別され、ブロックリストに追加された場合に返されます。 </p> </td> 
+   <td colname="col2"> <p>Blocked customer id  <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>顧客 ID が悪意のある ID と見なされてブロックリストに追加されている場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>Blocked datasource id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>データソースIDが悪意のあるIDとして識別され、ブロックリストに追加された場合に返されます </p> </td> 
+   <td colname="col2"> <p>Blocked datasource id   <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>データソース ID が悪意のある ID と見なされてブロックリストに追加されている場合に返されます </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>デバイスIDが悪意のあるものとして識別され、デバイスに追加されブロックリストました。この問題は、このデバイスIDを含む <span class="wintitle"> DCS</span> 要求を短期間で大量に受け取った場合に発生する可能性があります。 </p> </td>
+   <td colname="col2"> <p>Blocked declared device id  <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>デバイス ID が悪意のあるもの見なされ、ブロックリストに加えられました。この問題は、このデバイス ID を含む <span class="wintitle"> DCS</span> 要求を短期間で大量に受信した場合に発生する可能性があります。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>IDが悪意のあるIDとして識別され、に追加されたため、読み取り/書き込み操作がブロックされました。エラーコード306をブロックリスト参照してください。 </p> </td> 
+   <td colname="col2"> <p>Blocked profile operation for  <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>ID が悪意のあるIDと見なされてブロックに加えられたため、読み取り/書き込み操作がブロックされました。エラーコード 306 を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
@@ -201,19 +201,19 @@ ht-degree: 73%
   </tr>
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
-   <td colname="col2"> <p>CMP IDがGCLに存在しません</p> </td> 
-   <td colname="col3"> <p>評価時 <code>gdpr=1</code> に、Audience ManagerのGlobal CMPリストのキャッシュバージョンに存在しないCMP IDによってIAB TC文字列とが生成された場合、IAB TCF用Audience ManagerプラグインはIAB TC文字列を破棄し、通常どおり要求を処理します。 IAB TCF v2.0 ${GDPR}マクロが0に設定され、${GDPR_CONSENT_XXX}マクロが空です。</p>
+   <td colname="col2"> <p>CMP ID is not present in GCL</p> </td> 
+   <td colname="col3"> <p><code>gdpr=1</code> および IAB TC 文字列が CMP ID によって生成され、評価時点においてその CMP ID が、Audience Manager のグローバル CMP リストのキャッシュバージョンに存在しない場合、IAB TCF 用 Audience Manager プラグインは IAB TC 文字列を破棄し、通常どおりリクエストを処理します。IAB TCF v2.0 ${GDPR} マクロが 0 に設定され、${GDPR_CONSENT_XXX} マクロは空になります。</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
-   <td colname="col2"> <p>CMP IDはGCLで削除済みとマークされています</p> </td> 
-   <td colname="col3"> <p>IAB TCF <code>gdpr=1</code> 用Audience Managerプラグインは、Global CMPリストのキャッシュバージョンで削除とマークされたCMPによってIAB TC文字列とIAB TC文字列を生成すると、TC文字列を破棄し、評価時間がGlobal CMPリストからの削除時間を超える場合は、通常どおりに処理します。 IAB TCF v2.0 ${GDPR}マクロが0に設定され、${GDPR_CONSENT_XXX}マクロが空です。</p></td>
+   <td colname="col2"> <p>CMP ID is marked as deleted in GCL</p> </td> 
+   <td colname="col3"> <p><code>gdpr=1</code> および IAB TCF 文字列が CMP によって生成され、その CMP がグローバル CMP リストのキャッシュバージョンで削除とマークされている場合、評価時間がグローバル CMP リストの削除時間を経過すると、IAB TC 用 Audience Manager プラグインは TC 文字列を破棄し、通常どおりリクエストを処理します。IAB TCF v2.0 ${GDPR} マクロが 0 に設定され、${GDPR_CONSENT_XXX} マクロは空になります。</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 
-   <td colname="col2"> <p>同意文字列が同意なしを示す</p> </td> 
-   <td colname="col3"> <p>同意がない場合、IAB TCFのAudience Managerプラグインは、ユーザーに対してそれ以上のデータ収集をオプトするか、パートナーコンテキストが検出されない場合は呼び出しを完全にドロップします。</p>
+   <td colname="col2"> <p>Consent string indicates no consent</p> </td> 
+   <td colname="col3"> <p>同意が提供されない場合、IAB TCF の Audience Manager プラグインは、それ以上のデータ収集からユーザーをオプトアウトするか、パートナーコンテキストが検出されない場合は呼び出しを完全にドロップします。</p>
    </td>
   </tr>
 
