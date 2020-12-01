@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [!UICONTROL Destination Builder]では、[!UICONTROL Configuration section]には [!UICONTROL Cookie Domain] フィールドと [!UICONTROL Publish Data To] フィールドが含まれます。これらを使用して、宛先が Cookie を設定しているかどうか、または Cookie を返すかどうかを判定するルールを作成できます。「[!UICONTROL Cookie Domain]」と「[!UICONTROL Publish Data To]」はオプションで、互いに独立して機能します。これらのどちらも使用せずに Cookie の宛先を作成することができます。
 
-## Cookie ドメイン：構文と例 {#cookie-domain-syntax}
+## Cookie ドメイン：構文と例  {#cookie-domain-syntax}
 
 <!-- cookie-destination-options.xml -->
 
@@ -39,7 +39,7 @@ ht-degree: 100%
      </ul> </p> <p> 「<span class="wintitle">Cookie Domain</span>」フィールドを未指定のままにしておくと、すべてのドメインで Cookie が設定されるようになります。これがデフォルト設定です。 </p> <p>特定のドメインおよびサブドメインで Cookie を設定するには、次の点に注意してください。 </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
       <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">ドメインの名前を「<span class="wintitle">Cookie Domain</span>」フィールドに入力します。 </li> 
-      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">ドメイン名をピリオドで始めます。次に例を示します。<code> .somedomain.com</code> </li> 
+      <li id="li_0471C198EE344DE5963A3C2F70B9E78B">ドメイン名をピリオドで始めます。例：<code> .somedomain.com</code> </li> 
       <li id="li_73D06F2BEF45487280C2245E1F6B8ED0"><code> https://www</code> プレフィックスは不要です。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -91,9 +91,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## Publish Data To {#publish-data-to}
+## Publish Data To  {#publish-data-to}
 
-「[!UICONTROL Publish Data To]」設定では、選択したオプションで設定した条件にドメインが一致する場合、Cookie を返します。オプションは以下のとおりです。
+「[!UICONTROL Publish Data To]」設定では、選択したオプションで設定した条件にドメインが一致する場合、Cookie を返します。オプションは次のとおりです。
 
 * **[!UICONTROL All of our domains]**：（デフォルト）すべてのドメインに対して [!DNL cookie] を返します。
 * **[!UICONTROL Only the selected domains]**：ドメインリストで選択したドメインの場合のみ、Cookie を返します。
