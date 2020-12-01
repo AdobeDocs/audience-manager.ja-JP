@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
 source-wordcount: '841'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# メタデータファイルの概要とマッピング{#overview-and-mappings-for-metadata-files}
+# メタデータファイルの概要とマッピング {#overview-and-mappings-for-metadata-files}
 
 メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。Audience Optimization レポートでは、様々なレポートオプションメニューに理解しやすい名前が表示されます。
 
 ## 概要 {#overview}
 
-メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[Audience Optimization レポートおよび実用的なログファイル用のデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)を参照してください。
 
 ### メタデータファイルには他のデータに関するデータが含まれる
 
@@ -126,7 +126,7 @@ ht-degree: 97%
 
 ![ファイル名の作成方法](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
 
-See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
+[メタデータファイルの命名規則](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)を参照してください。
 
 ### ファイルコンテンツ
 
