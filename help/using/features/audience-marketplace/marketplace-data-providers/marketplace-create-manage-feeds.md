@@ -26,7 +26,7 @@ ht-degree: 100%
 
 公開または非公開のデータフィードを作成するには、管理者権限が必要です。データフィードを作成するには：
 
-1. **[!UICONTROL New Data Feed]**&#x200B;をクリックします。
+1. 「**[!UICONTROL New Data Feed]**」をクリックします。
 1. データフィードの名前を指定します。データ購入者はこの名前に基づいてフィードを検索できます。
 1. わかりやすい説明を入力します（最大 255 文字）。
 
@@ -37,14 +37,14 @@ ht-degree: 100%
    >
    >このデータソースに現在および将来属する特性は、このフィードの一部としてデータ購入者と共有されます。
 
-1. 「[!UICONTROL Plan Types]」で使用するオプションを選択し、**[!UICONTROL Add Plan]**&#x200B;をクリックします。
+1. 「[!UICONTROL Plan Types]」で使用するオプションを選択し、「**[!UICONTROL Add Plan]**」をクリックします。
 
    フィードには複数のプランが含まれる場合があります。プランには複数のユースケースが含まれる場合があります。詳しくは、[データフィードのプランタイプ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)を参照してください。
 
-1. **[!UICONTROL Save]** をクリックすると、データフィードがアクティブ化&#x200B;*されずに*&#x200B;保存されます。
+1. 「**[!UICONTROL Save]**」をクリックすると、データフィードがアクティブ化&#x200B;*されずに*&#x200B;保存されます。
 1. データフィードを保存してアクティブ化するには：
-   1. **[!UICONTROL Availability]** スライダーを&#x200B;**[!UICONTROL Active]**&#x200B;にします。
-   1. **[!UICONTROL Save]**&#x200B;をクリックします。
+   1. **[!UICONTROL Availability]** スライダーを「**[!UICONTROL Active]**」にします。
+   1. 「**[!UICONTROL Save]**」をクリックします。
 
    >[!NOTE]
    >
@@ -77,8 +77,8 @@ ht-degree: 100%
    >支払期限を過ぎたアカウントがあるデータフィードには、三角形または感嘆符のアイコンでフラグが設定されています。
 
 1. 「[!UICONTROL Subscribers]」列で、そのフィードの購読者数を表す青色の数字をクリックします。購読詳細ページが開きます。
-1. **[!UICONTROL Subscription]** スライダーを&#x200B;**[!UICONTROL Off]**&#x200B;にします。確認ダイアログウィンドウが開きます。
-1. 「[!UICONTROL Confirmation]」で&#x200B;**[!UICONTROL Yes]**&#x200B;クリックすると購読が非アクティブ化され、**[!UICONTROL Cancel]**&#x200B;をクリックすると購読は変更されずに処理が終了します。
+1. **[!UICONTROL Subscription]** スライダーを「**[!UICONTROL Off]**」にします。確認ダイアログウィンドウが開きます。
+1. 「[!UICONTROL Confirmation]」で「**[!UICONTROL Yes]**」クリックすると購読が非アクティブ化され、「**[!UICONTROL Cancel]**」をクリックすると購読は変更されずに処理が終了します。
 
 ### 購読者を非アクティブ化した後
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 * 単位：定額
 * 価格：割引価格または市場価格
 
-### Activation
+### アクティベーション
 
 **[!UICONTROL Activation]** ユースケースでは、購入者が[宛先](../../../features/destinations/destinations.md)にデータを送信できます。このユースケースでは、購入者は重複レポートやアルゴリズムモデルでデータを比較することはできません。このユースケースに次のように価格を設定します。
 
@@ -145,11 +145,11 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Billing Cycle</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol">Monthly in Arrears</span></b> が唯一のオプションです。課金サイクルは、毎月 10 日に終了します。 </td> 
+   <td colname="col1"> <b><span class="uicontrol">請求サイクル</span></b> </td> 
+   <td colname="col2"> <b><span class="uicontrol">毎月（後払い）</span></b> が唯一のオプションです。課金サイクルは、毎月 10 日に終了します。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Unit of Measure</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol">単位</span></b> </td> 
    <td colname="col2">データ購入者に CPM 価格または定額料金を請求します。 
     <ul id="ul_D5F125E0F7364C568D9F3107E090059D"> 
      <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> CPM 価格では、データ購入者は使用量を自己申告する必要があります。 </li> 
@@ -157,13 +157,13 @@ ht-degree: 100%
     </ul> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Price</span></b> </td>
+   <td colname="col1"> <b><span class="uicontrol">価格</span></b> </td>
    <td colname="col2"> 販売者が購入者に CPM 価格または定額料金で請求する金額（ドル単位）。 </td>
   </tr> 
  </tbody> 
 </table>
 
-## プランメモ {#plan-notes}
+## プランメモ  {#plan-notes}
 
 **[!UICONTROL Additional Notes]**&#x200B;フィールドには、フィードの各データプランの説明を入力します。簡潔で優れた説明は、購入者がデータフィードの各プランの内容や目的を理解するのに役立ちます。購入者は、新しいデータソースを検索したり評価したりする際に、データフィードおよびプランの説明を読むことができます。
 
@@ -176,7 +176,7 @@ ht-degree: 100%
 <!-- t_private_feed_workflows.xml -->
 
 1. 非公開データフィードの名前をクリックします。
-2. **[!UICONTROL Access Requests]**&#x200B;をクリックして、データフィードへのアクセスを希望しているすべての購入者を確認します。
+2. 「**[!UICONTROL Access Requests]**」をクリックして、データフィードへのアクセスを希望しているすべての購入者を確認します。
 3. 各リクエストボックスの「[!UICONTROL Allow Access]」セクションで、チェックマークをクリックしてリクエストを承認するか、X 印をクリックしてアクセスを拒否します。
 4. 確認ポップアップで、選択したアクションを確定またはキャンセルします。
 
@@ -184,11 +184,11 @@ ht-degree: 100%
 
 [!UICONTROL Audience Marketplace] では、割引によって、個別の加入者に対するデータフィードの公表価格を下げることができます。サブスクリプション購入要求を送信した加入者またはデータフィードの詳細情報を要求した加入者に対して、割引を提案できます。割引は [!DNL CPM] および定額料金のフィードに適用されます。新規顧客のサブスクリプション購入意欲を高める場合や顧客の忠誠度に報いる場合に、割引は役に立ちます。
 
-## 割引をデータフィードに適用 {#apply-discounts}
+## 割引をデータフィードに適用  {#apply-discounts}
 
 <!-- marketplace-seller-discounts.xml -->
 
-フィードに割引を適用するには、割引額をパーセント単位で「Discount」フィールドに入力し、変更を確定します。データプロバイダーは、[!UICONTROL Audience Marketplace] で次のいずれかの方法でデータフィードに割引を適用できます。
+フィードに割引を適用するには、割引額をパーセント単位で「割引」フィールドに入力し、変更を確定します。データプロバイダーは、[!UICONTROL Audience Marketplace] で次のいずれかの方法でデータフィードに割引を適用できます。
 
 * **[!UICONTROL My Shared Data > Potential Subscribers]**
 * **[!UICONTROL My Shared Data > Details Requests]**
