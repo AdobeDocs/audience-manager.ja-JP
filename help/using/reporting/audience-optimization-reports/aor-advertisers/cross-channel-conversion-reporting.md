@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# クロスチャネルコンバージョン{#cross-channel-conversion}
+# クロスチャネルコンバージョン {#cross-channel-conversion}
 
 Audience Optimization レポートの「クロスチャネルコンバージョン」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
 
-The [!UICONTROL Cross Channel Conversion] reports combine results from the [!DNL Google Campaign Manager] platform with [!DNL Audience Manager] conversion traits. これにより、オフラインのコンバージョンをオンラインのインプレッションやクリックに関連付けることができます。
+[!UICONTROL Cross Channel Conversion]レポートは、[!DNL Google Campaign Manager] プラットフォームから得られた結果と [!DNL Audience Manager] のコンバージョン特性を組み合わせたものです。これにより、オフラインのコンバージョンをオンラインのインプレッションやクリックに関連付けることができます。
 
 [!UICONTROL Cross Channel Conversion]は、[セグメントパフォーマンス](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) レポートと[最適な頻度](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)レポートに使用できます。
 
@@ -41,7 +41,7 @@ The [!UICONTROL Cross Channel Conversion] reports combine results from the [!DNL
   </tr>
   <tr> 
    <td> <p>アトリビューション期間 </p> </td> 
-   <td> <p> <b><span class="uicontrol"> AAM+Googleキャンペーンマネージャー</span></b> (Attribution)のアトリビューションウィンドウは14日間です。つまり、過去2週間に出現したコンバージョン特性のみが考慮されます。 </p> </td> 
+   <td> <p> <b><span class="uicontrol">AAM+Google Campaign Manager</span></b> アトリビューション期間は 14 日です。つまり、最近の 2 週間に示されたコンバージョン特性のみ考慮されます。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>ラストタッチ方法論 </p> </td> 
