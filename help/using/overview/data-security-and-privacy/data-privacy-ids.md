@@ -1,10 +1,10 @@
 ---
 description: このドキュメントでは、データのプライバシーリクエストで使用できる Audience Manager ID のタイプについて説明します。
 seo-description: このドキュメントでは、データのプライバシーリクエストで使用できる Audience Manager ID のタイプについて説明します。
-seo-title: 'Audience Manager 識別子（ID） '
+seo-title: Audience Manager 識別子（ID）
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
-title: 'Audience Manager 識別子（ID） '
+title: Audience Manager 識別子（ID）
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 # Audience Manager 識別子（ID）{#aam-ids}
 
-Adobe Audience Manager に対して[データのプライバシーリクエスト](data-privacy-requests.md)を送信する際、以下のいずれかの識別子（ID）を含める必要があります。ID 形式について詳しくは、[Audience Manager ID のインデックス](../../reference/ids-in-aam.md)を参照してください。
+Adobe Audience Manager に対して[データプライバシーリクエスト](data-privacy-requests.md)を送信する際、以下のいずれかの識別子（ID）を含める必要があります。ID 形式について詳しくは、[Audience Manager ID のインデックス](../../reference/ids-in-aam.md)を参照してください。
 
 ## Adobe Audience Manager の一意のユーザー ID
 
-* **User ID**: `aam_uuid`
+* **ユーザー ID**：`aam_uuid`
 * **定義**：Adobe Audience Manager の一意のユーザー ID
 * **名前空間 ID**：0
 
@@ -79,7 +79,7 @@ Adobe Audience Manager に対して[データのプライバシーリクエス�
 
 ## Adobe Experience Cloud ID
 
-* **User ID**: `mid`
+* **ユーザー ID**：`mid`
 * **定義**：[!DNL Adobe Experience Cloud ID]、旧称：[!DNL Visitor ID][!DNL Marketing Cloud ID]
 * **名前空間 ID**：4
 
@@ -137,7 +137,7 @@ Adobe Audience Manager に対して[データのプライバシーリクエス�
 
 ## 顧客 ID
 
-**User ID**: `cid`
+**ユーザー ID**：`cid`
 
 **定義**：匿名のサイト訪問者に設定する Cookie やオフラインシステムからの [!DNL CRM] ID やハッシュ化されたユーザー名などの顧客 ID。
 
@@ -174,7 +174,7 @@ Adobe Audience Manager に対して[データのプライバシーリクエス�
 
 ## モバイル広告 ID
 
-**User ID**: `d_cid`
+**ユーザー ID**：`d_cid`
 
 **定義**：モバイル広告 ID。
 
@@ -216,7 +216,7 @@ Adobe Audience Manager に対して[データのプライバシーリクエス�
 
 ## 統合コード
 
-**User ID**: `d_cid_ic`
+**ユーザー ID**：`d_cid_ic`
 
 **定義**：データソースの統合コード。これは、[!DNL API] での [!DNL Adobe Experience Cloud Privacy Core Service]に対するリクエストで、データソース ID や名前空間 ID の代わりに使用できま す。
 
