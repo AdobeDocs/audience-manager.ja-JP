@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Audience Manager がレポートに入力する情報を受信する際の時間
 
 * [Audience Optimization レポート](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-   The [!UICONTROL Audience Optimization] reports use data visualization methods to return information on the destinations in your Audience Manager account. 各レポートに表示されたほとんどのデータポイントは、クリックすることでその項目の詳細情報を確認できます。オーディエンスの最適化に関するこれらのインサイトは、広告および出版チャネルにわたる複数のユースケースに適用できますが、デフォルトでは使用可能になっていません。導入するには、担当の Audience Manager コンサルタントにお問い合わせください。
+   [!UICONTROL Audience Optimization] レポートでは、データ視覚化手法を使用して、Audience Manager アカウントにおける宛先の情報を返します。各レポートに表示されたほとんどのデータポイントは、クリックすることでその項目の詳細情報を確認できます。オーディエンスの最適化に関するこれらのインサイトは、広告および出版チャネルにわたる複数のユースケースに適用できますが、デフォルトでは使用可能になっていません。導入するには、担当の Audience Manager コンサルタントにお問い合わせください。
 
 * [一般レポート](/help/using/reporting/general-reports.md)
 
-   Aは、、およびに関するパフォーマンスデータ [!UICONTROL General report] を [!UICONTROL traits]返 [!UICONTROL segments][!UICONTROL destinations]します。
+   [!UICONTROL General report]は、[!UICONTROL traits]、[!UICONTROL segments]および[!UICONTROL destinations]に関するパフォーマンスデータを返します。
 
 * [インタラクティブな重複レポート](/help/using/reporting/dynamic-reports/dynamic-reports.md)
 
@@ -37,19 +37,19 @@ Audience Manager がレポートに入力する情報を受信する際の時間
 
 * [送信ファイル履歴](/help/using/reporting/outbound-history-report.md)
 
-   View [!UICONTROL outbound] batch job history information for a specified destination and time period.
+   指定した宛先と期間について、[!UICONTROL outbound]のバッチジョブの履歴情報を表示できます。
 
 * [トレンドレポート](/help/using/reporting/trend-reports.md)
 
-   Aは、およびのトレンドデータ [!UICONTROL Trend report] を返し [!UICONTROL traits][!UICONTROL segments]ます。
+   [!UICONTROL Trend report]は、[!UICONTROL traits]および[!UICONTROL segments]に関するトレンドデータを返します。
 
 * [重複レポートと一般レポートでの個別ユーザーのカウント](/help/using/reporting/unique-user-counts.md)
 
-   Describes the variation in unique user totals between reports for the same [!UICONTROL trait] and time period.
+   [!UICONTROL trait]および期間が同じレポートにおける、個別ユーザーの合計数の変動について説明します。
 
 * [レポートダッシュボード](/help/using/reporting/trend-reports.md)
 
-   Use the Dashboard to view information about your partners&#39; unique visitor counts broken down by [!UICONTROL trait] types and [!UICONTROL segments] for a specified time frame.
+   ダッシュボードを使用すると、指定した期間のパートナーの個別訪問者数を[!UICONTROL trait]タイプおよび[!UICONTROL segments]別に分類した情報を表示できます。
 
 * [選択した Audience Manager レポートでのデータサンプリングとエラー率](/help/using/reporting/report-sampling.md)
 
