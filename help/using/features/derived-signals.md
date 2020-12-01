@@ -37,7 +37,7 @@ ht-degree: 100%
 
 [!UICONTROL derived signal]を作成するには：
 
-1. **[!UICONTROL Derived Signals]**&#x200B;メニューから [!UICONTROL Tools] を選択します。
+1. **[!UICONTROL Derived Signals]**&#x200B;メニューから、「[!UICONTROL Tools]」を選択します。
 1. 以下の項目を指定します。
    * *（オプション）* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
