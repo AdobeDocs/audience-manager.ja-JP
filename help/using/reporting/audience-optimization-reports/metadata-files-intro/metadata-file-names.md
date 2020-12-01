@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# メタデータファイルの命名規則{#naming-conventions-for-metadata-files}
+# メタデータファイルの命名規則 {#naming-conventions-for-metadata-files}
 
 この仕様に従ってオーディエンスの最適化のメタデータファイルの名前を設定します。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 次の構文は、適正なメタデータファイル名の構造を示しています。なお、*斜体*&#x200B;の部分には実際の情報が入ります。その他の要素は定数で、変動しません。
 
-**構文：** *`yyyymmdd_0_childID`*
+**構文：**  *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
