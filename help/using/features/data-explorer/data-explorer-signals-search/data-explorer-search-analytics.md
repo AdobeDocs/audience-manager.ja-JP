@@ -2,7 +2,7 @@
 description: Adobe Analytics も使用している Audience Manager ユーザーは、「Advanced Search for Adobe Analytics」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
 seo-description: Adobe Analytics も使用している Audience Manager ユーザーは、「Advanced Search for Adobe Analytics」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
 seo-title: Advanced Search for Adobe Analytics
-title: Advanced Search for Adobe Analytics
+title: Adobe Analyticsのアドバンス検索
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 translation-type: tm+mt
