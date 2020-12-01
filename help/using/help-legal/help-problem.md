@@ -75,7 +75,7 @@ r_problem.xml
  </tbody> 
 </table>
 
-## 機能停止の場合 {#outage}
+## 機能停止の場合  {#outage}
 
 機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com)（ [!DNL https://status.adobe.com] ）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新情報も含まれています。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
 
