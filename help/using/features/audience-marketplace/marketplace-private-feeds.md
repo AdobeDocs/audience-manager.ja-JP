@@ -115,7 +115,7 @@ ht-degree: 100%
 
 アクセスのリクエスト方法について、[非公開データフィードを購読する](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed)を参照してください。
 
-## データプロバイダーとデータ購入者の間で共有関係を設定する方法{#set-up-sharing-relationship}
+## データプロバイダーとデータ購入者の間で共有関係を設定する方法 {#set-up-sharing-relationship}
 
 ### ステップ 1：有効化 - データプロバイダーとデータ購入者
 
