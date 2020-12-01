@@ -10,27 +10,27 @@ translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '1116'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-This page includes current [!DNL Audience Manager] [device-based destinations](/help/using/features/destinations/add-device-based-destinations.md) only. では、 [!DNL Audience Manager]とも呼ば [!UICONTROL device-based destinations] れ [!UICONTROL server-to-server destinations]ます。 統合について詳しくは、[ Exchange](https://www.adobeexchange.com/experiencecloud.html) のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。[!DNL Adobe]
+このページには、現在の の[!DNL Audience Manager][デバイスベースの宛先](/help/using/features/destinations/add-device-based-destinations.md)のみが含まれます。[!DNL Audience Manager] では、[!UICONTROL device-based destinations] は [!UICONTROL server-to-server destinations] とも呼ばれます。統合について詳しくは、[Exchange](https://www.adobeexchange.com/experiencecloud.html) のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。[!DNL Adobe]
 
  
 
-* **最終更新日** =この更新が行われた最終日が表示され [!UICONTROL device-based destination]ます。
-* **Updates** =データをリアルタイムで送信するか、バッチ(1xday)で送信するかを示 [!DNL Audience Manager][!UICONTROL destination]します。
-* **Unsegment** = Unsegmentationは、デバイスプロファイルを不適格にし、削除するプロセスを表 [!UICONTROL segments]します。 Your ability to remove a device profile from a [!UICONTROL segment] depends on the device option used to create a [!UICONTROL Profile Merge Rule]. セグメント化解除は、 [!DNL GDPR] 削除リクエストのコンテキストでも使用されます。 「 [プロファイルの結合ルール」と「デバイスのセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) 」と「 [Audience Managerパートナー」と「セグメント化解除機能」を読みます](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)。 [!DNL Audience Manager] セグメント解除の情報を、 [!UICONTROL destinations] 次の「はい **** 」とマークされた項目に送信します。
-* **Receiving [!DNL IAB TCF] consent signals** =この [!DNL Audience Manager Plug-in for IAB TCF][!DNL IAB TC] 式は、アクティベーションのプライバシー選択に従い、文字列をユーザーのパートナーに転送できるようにします。 [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
-* **[!DNL ICDS]** =この列は、サポートするパートナーをリスト [!UICONTROL Instant Cross-Device Suppression]します。 [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
-* **Mobile Device IDs** =この列リストは、モバイルデバイスIDを受け取ることができるパートナー [!DNL Audience Manager]です。
+* **前回の更新日** = この [!UICONTROL device-based destination] で最後に更新がおこなわれた日付が表示されます。
+* **アップデート** = [!DNL Audience Manager]この [!UICONTROL destination] にデータをリアルタイムで送信するか、バッチ（1 回/日）で送信するかを指定します。
+* **セグメント解除** = セグメント化解除とは、デバイスプロファイルを不適格として[!UICONTROL segments]から削除するプロセスのことです。デバイスプロファイルを[!UICONTROL segment]から削除できるかどうかは、[!UICONTROL Profile Merge Rule] の作成時に使用したデバイスオプションによって異なります。セグメント化解除は、[!DNL GDPR] 削除リクエストのコンテキストでも使用されます。[プロファイルの結合ルールとデバイスのセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)および [セグメント解除に対応している Audience Manager パートナー](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)をお読みください。[!DNL Audience Manager] は、以下の「**はい**」とマークされている[!UICONTROL destinations]にセグメント情報を送信します。
+* **[!DNL IAB TCF] 同意の字列の受信** = [!DNL Audience Manager Plug-in for IAB TCF] は、ユーザーのプライバシー設定に従い、[!DNL IAB TC] 文字列をアクティベーションパートナーに転送できるようにします。[IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
+* **[!DNL ICDS]** = この列には、[!UICONTROL Instant Cross-Device Suppression] をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
+* **モバイルデバイス ID** = この列には、[!DNL Audience Manager] からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 
  
 
-| 統合 | 最終更新日 | 更新 | セグメント解除 | 同意 [!DNL IAB TCF] 信号の受信 | [!DNL ICDS] | モバイルデバイス ID |
+| 統合 | 最終更新日 | 更新 | セグメント解除 | [!DNL IAB TCF] 同意シグナルの受信 | [!DNL ICDS] | モバイルデバイス ID |
 |---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 2018/09/26 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL 4info] | 2017/02/09 | 1 回/日 | × | × | × | ○ |
@@ -41,7 +41,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL AdForm] | 2017/02/22 | リアルタイム | ○ | × | ○ | ○ |
 | [!DNL AdGear] | 2017/02/22 | リアルタイム | ○ | × | ○ | × |
 | [!DNL Adikteev] | 2018/01/26 | 1 回/日 | ○ | × | × | ○ |
-| [!DNL Adroll] / [!DNL NextRoll] | 2019/12/10 | 1 回/日 | × | × | × | × |
+| [!DNL Adroll]／[!DNL NextRoll] | 2019/12/10 | 1 回/日 | × | × | × | × |
 | [!DNL Adswizz] | 2017/10/09 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Adtheorent] | 2017/02/22 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Affinio] | 2018/04/03 | 1 回/日 | ○ | × | × | ○ |
@@ -72,7 +72,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL DistrictM] | 2017/03/02 | 1 回/日 | ○ | × | × | × |
 | [!DNL DoubleVerify] | 2017/09/06 | 1 回/日 | ○ | × | × | × |
 | [!DNL Drawbridge] | 2017/03/02 | リアルタイム | × | × | × | ○ |
-| [!DNL Dstillery] ([!DNL FKA Media6]) | 2017/03/02 | リアルタイム | ○ | × | × | ○ |
+| [!DNL Dstillery]（[!DNL FKA Media6]） | 2017/03/02 | リアルタイム | ○ | × | × | ○ |
 | [!DNL Dunnhumby] | 2019/11/21 | 1 回/日 | × | × | × | × |
 | [!DNL easyfundraising] | 2019/06/27 | 1 回/日 | × | × | × | ○ |
 | [!DNL Epsilon Conversant] | 2017/03/03 | リアルタイム | × | × | × | × |
@@ -159,7 +159,7 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL Triple Lift] | 2017/03/03 | リアルタイム | × | ○ | × | × |
 | [!DNL TrueX] | 2018/01/11 | リアルタイム | ○ | × | × | ○ |
 | [!DNL TubeMogul] | 2017/03/03 | リアルタイム | ○ | × | ○ | × |
-| [!DNL Turn] / [!DNL Amobee] | 2027/03/03 | リアルタイム | × | × | × | ○ |
+| [!DNL Turn]／[!DNL Amobee] | 2027/03/03 | リアルタイム | × | × | × | ○ |
 | [!DNL Twenga] | 2018/10/29 | リアルタイム | ○ | × | × | × |
 | [!DNL Twitter Tailored Audiences] | 2017/03/27 | リアルタイム | ○ | × | ○ | × |
 | [!DNL Undertone] | 2017/07/11 | 1 回/日 | × | × | × | × |
@@ -176,4 +176,4 @@ This page includes current [!DNL Audience Manager] [device-based destinations](/
 | [!DNL Yieldex] | 2017/08/21 | 様々 | ○ | × | × | × |
 | [!DNL YieldMo] | 2017/03/03 | 1 回/日 | × | × | × | × |
 | [!DNL Yume] | 2017/05/31 | 1 回/日 | × | × | × | × |
-| [!DNL Zeta] / [!DNL Sizmek DSP] / [!DNL RocketFuel] | 2017/02/17 | リアルタイム | ○ | × | ○ | ○ |
+| [!DNL Zeta]／[!DNL Sizmek DSP]／[!DNL RocketFuel] | 2017/02/17 | リアルタイム | ○ | × | ○ | ○ |
