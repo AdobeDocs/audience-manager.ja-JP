@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserts a close curly bracket <code>}</code> character. </p> </td> 
+   <td colname="col2"> <p>閉じ中括弧（<code>}</code>）を挿入します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -135,7 +135,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserts an open curly bracket <code>{</code> character. </p> </td> 
+   <td colname="col2"> <p>開き波括弧（<code>{</code>）を挿入します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -175,7 +175,7 @@ ht-degree: 98%
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>：<code> 5 </code> を静的なハードコーディングされた値として返します。これはデータをセグメントデータとして識別する値です。 </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>：廃止されました。使用しないでください。 </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>：セグメントが最後に認識された時点を示す Unix タイムスタンプ。 </li> 
-    </ul> <p>この変数は、マクロの後に波括弧で囲みます。例えば、<code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> のように、このコードは結果をパイプ（ | ）で区切ります。 </p> </td> 
+    </ul> <p>この変数は、マクロの後に配置して波括弧で囲みます。例えば、<code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> のように、このコードは結果をパイプ（ | ）で区切ります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -213,7 +213,7 @@ ht-degree: 98%
       </ul> </li> 
      <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>：特性 ID。 </li> 
      <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> lastRealized </code>：特性が最後に認識された時点。Unix タイムスタンプです。 </li> 
-    </ul> <p>この変数は、マクロの後に波括弧で囲みます。例えば、<code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> のように、このコードは結果をパイプ（ | ）で区切ります。 </p> </td> 
+    </ul> <p>この変数は、マクロの後に配置して波括弧で囲みます。例えば、<code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> のように、このコードは結果をパイプ（ | ）で区切ります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
