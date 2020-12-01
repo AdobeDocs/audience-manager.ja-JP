@@ -11,45 +11,45 @@ translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 
 # [!UICONTROL Destinations] 概要 {#destinations}
 
-In Audience Manager, a [!UICONTROL destination] is any third-party system (ad server, [!DNL DSP], ad network, etc.) になります。[!UICONTROL Destination Builder] は、を作成および管理するために使用したツール [!UICONTROL cookie]、 [!DNL URL]または [!UICONTROL server-to-server destinations]です。
+Audience Manager において、[!UICONTROL destination]とは、データを共有する任意のサードパーティシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、[!UICONTROL cookie][!DNL URL]、または[!UICONTROL server-to-server destinations]の作成と管理に使用するツールです。
 
 ## 目的とメリット {#purposes}
 
 <!-- c_destinations.xml -->
 
-[!UICONTROL Destinations] セグメント化 [!UICONTROL Destination Builder] されたユーザーに関する情報を作成し [!UICONTROL destinations] て、データパートナーに送信できます。 これは以下に役立ちます。
+[!UICONTROL Destinations]および[!UICONTROL Destination Builder]を使用すると、[!UICONTROL destinations]宛を作成し、セグメント化されたユーザーに関する情報をデータパートナーに送信できます。これは以下に役立ちます。
 
-* **Protectデータ値：** すべてのユーザーデータをに送信する代わりに [!UICONTROL destination]、資格を持つユーザーに関する特定の情報のみを共有 [!UICONTROL Destination Builder] できます。
-* **データに対して次のアクションを実行します。** パートナーにデータを送信すると、資格を満たすオーディエンスセグメントをすばやく開発し、ターゲットするのに役立ちます。 [!UICONTROL destination]
-* **技術的なオーバーヘッドの削減：** ビジネスユーザーは、インター [!UICONTROL destinations][!UICONTROL Destination Builder] フェイス内で安全にセットアップできます。 これにより、デプロイメント前のテストに必要な時間を節約できます。With [!UICONTROL Destination Builder], you create, manage, and delete [!UICONTROL destinations] as your business needs change, all without working through a long development cycle.
+* **データ値の保護：**&#x200B;すべてのユーザーデータを[!UICONTROL Destination Builder]に送信するのではなく、[!UICONTROL destination] を使用して対象ユーザーのみに関する特定の情報を共有できます。
+* **データに対するアクション：**[!UICONTROL destination]パートナーへのデータの送信により、対象オーディエンスセグメントをすばやく作成およびターゲット設定できます。
+* **技術的なオーバーヘッドの削減：**&#x200B;ビジネスユーザーは、[!UICONTROL Destination Builder] インターフェイスで[!UICONTROL destinations]を安全にセットアップできます。これにより、デプロイメント前のテストに必要な時間を節約できます。[!UICONTROL Destination Builder] を使用すると、長い開発サイクルを経ずに、ビジネスニーズの変更に合わせて[!UICONTROL destinations]を作成、管理および削除できます。
 
 ## 技術上の考慮事項 {#technical-considerations}
 
 <!-- destination-delivery-methods.xml -->
 
-Data delivery depends on how your data partner wants to, or can, receive [!UICONTROL destination] information. Technical or engineering constraints may prevent a [!UICONTROL destination] from receiving data via [!DNL URL], [!UICONTROL cookie], or [!UICONTROL server-to-server] processes. サードパーティパートナーと協力して、使用できる方法を決定します。
+データ配信は、データパートナーが[!UICONTROL destination]情報をどのように受信したいか、または受信できるかによって異なります。技術上またはエンジニアリング上の制約によって、[!UICONTROL destination] が [!DNL URL]、[!UICONTROL cookie]、または[!UICONTROL server-to-server]のプロセス経由でデータを受信できない場合があります。サードパーティパートナーと協力して、使用できる方法を決定します。
 
-## ビジネス上の考慮事項 {#business-considerations}
+## ビジネス上の考慮事項  {#business-considerations}
 
-Business decisions for selecting one delivery method over another depend on the technical capabilities of your [!UICONTROL destination] partner and what you want to do with qualified user information. For example, technical constraints can limit your options if a [!UICONTROL destination] cannot receive data by a particular delivery method. ただし、技術的な問題がなければ、データにどう対処するかに応じて情報を送信できます。次に例を示します。
+配信方法を複数のものから 1 つ選択するためのビジネス上の決定は、[!UICONTROL destination]となるパートナーの技術的能力と絞り込まれたユーザーに関する情報の用途によって異なります。例えば、[!UICONTROL destination]が特定の配信方法でデータを受信できない場合は、技術的な制約で選択肢が制限されるおそれがあります。ただし、技術的な問題がなければ、データにどう対処するかに応じて情報を送信できます。例：
 
-* [!DNL URL]とは、ページ上のユーザーアクションとほぼ同期して [!UICONTROL cookie-based destinations] 機能します。
-* [!UICONTROL Server-to-server] メソッドは、時間の経過と共に深いオーディエンスセグメントを作成する場合に便利です。
+* [!DNL URL] および [!UICONTROL cookie-based destinations]は、ページでのユーザーアクションとほぼ同期的に連動します。
+* [!UICONTROL Server-to-server]手法は、時間をかけて深みのあるオーディエンスセグメントを構築するのに適しています。
 
-## [!UICONTROL Destination] タイプと一般的な使用方法 {#destination-types}
+## [!UICONTROL Destination]のタイプと典型的なユーザー {#destination-types}
 
-The examples in the following table can help you understand when to use a particular [!UICONTROL destination] and the differences between each type.
+次の表に示す例は、特定の[!UICONTROL destination]の使用に適した状況とそれぞれのタイプの違いを理解するのに役に立ちます。
 
-| [!UICONTROL Destination]&quot; | 使用に適した状況 | 例 | 注意点 |
+| [!UICONTROL Destination]のタイプ | 使用に適した状況 | 例 | 注意点 |
 |--- |--- |--- |--- |
 | **[!UICONTROL Adobe Experience Cloud Destinations]** | 他の Adobe Experience Cloud ソリューションにデータを送信する必要があります。 | Adobe Analytics にデータを送信します。 |  |
 | **[!UICONTROL People-Based Destinations]** | Facebook のように、ユーザーベースの環境にオーディエンスセグメントを送信する必要があります。 | 購入履歴に基づき、既存の顧客に対してパーソナライズされたオファーを提供する | オーディエンスのターゲティングは、ハッシュ化された識別子を使用しておこなわれます。詳しくは、[ユーザーベースの宛先](people-based-destinations-overview.md)を参照してください。 |
-| **[!UICONTROL Device-Based Destinations]** (**サーバー間**) | <ul><li>すぐにデータを転送する必要がない場合。</li><li>絞り込まれたユーザーで構成される大規模なオーディエンスプールを構築するためのデータを収集している場合。</li></ul> | 後日実施する予定のキャンペーンで使用するデータを徐々に（数時間または数日間で）収集する。 | <ul><li>新規および以前のサイト訪問者に関するデータを転送します。 </li><li>訪問者を再度確認して、他のセグメントに絞り込む必要はありません。</li></ul> |
-| **[!UICONTROL Custom Destinations]**（**URL** または **Cookie**） | 絞り込まれたユーザーに宛先が直ちに対応できるように、データをすぐに転送する必要がある場合。 | チケット購入サイトからのデータの送信。Use a [!UICONTROL URL] or [!UICONTROL cookie destination] to qualify user and immediately re-target. | <ul><li>新規訪問者に関するデータのみ転送します。 </li><li>訪問者を再度確認して、セグメントに絞り込む必要があります。</li></ul> |
+| **[!UICONTROL Device-Based Destinations]**（**サーバー間**） | <ul><li>すぐにデータを転送する必要がない場合。</li><li>絞り込まれたユーザーで構成される大規模なオーディエンスプールを構築するためのデータを収集している場合。</li></ul> | 後日実施する予定のキャンペーンで使用するデータを徐々に（数時間または数日間で）収集する。 | <ul><li>新規および以前のサイト訪問者に関するデータを転送します。 </li><li>訪問者を再度確認して、他のセグメントに絞り込む必要はありません。</li></ul> |
+| **[!UICONTROL Custom Destinations]**（**URL** または **Cookie**） | 絞り込まれたユーザーに宛先が直ちに対応できるように、データをすぐに転送する必要がある場合。 | チケット購入サイトからのデータの送信。[!UICONTROL URL] または [!UICONTROL cookie destination]を使用してユーザーを絞り込み、直ちにリターゲティングする。 | <ul><li>新規訪問者に関するデータのみ転送します。 </li><li>訪問者を再度確認して、セグメントに絞り込む必要があります。</li></ul> |
