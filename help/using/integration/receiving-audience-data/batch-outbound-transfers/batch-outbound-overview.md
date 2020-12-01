@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Audience Manager では、これらの仕様に従って、バッチデータを
 
 * [バッチデータ転送統合の設定](batch-server-configuration.md)
 
-   バッチデータ転送統合を設定する方法について説明します。
+   バッチデータ転送統合の設定方法について説明します。
 
 * [ログファイル転送のための転送制御ファイル](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
