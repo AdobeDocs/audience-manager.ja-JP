@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# 特性およびセグメントビルダーのブール式{#boolean-expressions-in-trait-and-segment-builder}
+# 特性およびセグメントビルダーのブール式 {#boolean-expressions-in-trait-and-segment-builder}
 
 ここでは、Audience Manager の特性およびセグメントツールでブール式 AND、OR、NOT がどのように使用されるかを説明します。
 
