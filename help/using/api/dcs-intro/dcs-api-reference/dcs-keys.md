@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Supported Attributes for [!DNL DCS] [!DNL API] Calls {#supported-attributes-for-dcs-api-calls}
+# [!DNL DCS] [!DNL API]呼び出しでサポートされている属性 {#supported-attributes-for-dcs-api-calls}
 
 [!UICONTROL Data Collection Servers]（[!DNL DCS]）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、[!DNL DCS] リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
 
@@ -103,11 +103,11 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dpid</code> </p> </td> 
-   <td colname="col2"> <p>非推奨（廃止予定）となりました。<code> d_cid</code> と <code> d_cid_ic</code> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>廃止されました。<code> d_cid</code> と <code> d_cid_ic</code> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dpuuid</code> </p> </td> 
-   <td colname="col2"> <p>非推奨（廃止予定）となりました。<code> d_cid</code> と <code> d_cid_ic</code> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>廃止されました。<code> d_cid</code> と <code> d_cid_ic</code> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst=1</code> </p> </td> 
@@ -141,7 +141,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rs</code> </p> </td> 
-   <td colname="col2"> <p>非推奨（廃止予定）となりました。<code> d_rs</code> は、<span class="keyword">Adobe Analytics</span> と <span class="keyword">Audience Manager</span> のレガシー統合用に確保されている属性です。 </p> <p>それらの属性を使用する特性は、作成しないようお勧めします。アドビは、確保している属性をいつでも変更できます。 </p> </td> 
+   <td colname="col2"> <p>廃止されました。<code> d_rs</code> は、<span class="keyword">Adobe Analytics</span> と <span class="keyword">Audience Manager</span> のレガシー統合用に確保されている属性です。 </p> <p>それらの属性を使用する特性は、作成しないようお勧めします。アドビは、確保している属性をいつでも変更できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
