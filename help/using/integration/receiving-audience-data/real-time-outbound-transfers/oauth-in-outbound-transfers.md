@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# リアルタイムアウトバウンド転送への [!DNL OAuth 2.0] の統合{#oauth-integration-for-real-time-outbound-transfers}
+# リアルタイムアウトバウンド転送への [!DNL OAuth 2.0] の統合 {#oauth-integration-for-real-time-outbound-transfers}
 
 リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に [!DNL OAuth 2.0] を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
 
