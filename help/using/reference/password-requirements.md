@@ -80,6 +80,6 @@ c_password_requirements.xml
 
 >[!MORELIKETHIS]
 >
->* [データのセキュリティ](../overview/data-security-and-privacy/data-security.md)
->* [データのセキュリティ](../overview/data-security-and-privacy/data-privacy.md)
+>* [データセキュリティ](../overview/data-security-and-privacy/data-security.md)
+>* [データセキュリティ](../overview/data-security-and-privacy/data-privacy.md)
 
