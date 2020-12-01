@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# クラスレベルの DIL メソッド{#class-level-dil-methods}
+# クラスレベルの DIL メソッド {#class-level-dil-methods}
 
 クラスレベルの DIL API を使用すると、Audience Manager オブジェクトをプログラムで作成し操作することができます。クラスレベルの API は他のインスタンスレベルの関数と連携して、値を設定したりデータを返したりします。
 
