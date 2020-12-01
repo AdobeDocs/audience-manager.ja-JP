@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
 # [!DNL FTP]受信データファイルの 名とファイルサイズの要件 {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to [!DNL Audience Manager]. データを Audience Manager [!DNL FTP] ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
+[!DNL Audience Manager] にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager [!DNL FTP] ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
 
 >[!WARNING]
 >
->We are gradually phasing out support for [!DNL FTP] configurations. While inbound data file ingestion is still supported in existing [!DNL FTP] integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. 詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
+>[!DNL FTP] 定のサポートは段階的に廃止されます。受信データファイルの取り込みは、既存の [!DNL FTP] り込みでサポートされますが、新しい取り込み用にオフラインデータをオンボードするには、[!DNL Amazon S3] を使用することを強くお勧めします。詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
 
 >[!NOTE]
 >
@@ -57,22 +57,22 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>データファイルに独自のユーザーID、Android ID、iOS IDまたはグロー <span class="keyword"> バルデータソースに属する他のIDが含まれているかどうかをAudience Managerに通知するlD</span><a href="/help/using/features/global-data-sources.md"></a>。 次のオプションを使用できます。</p> 
+   <td colname="col2"> <p>データファイルに、独自のユーザー ID、Android ID、iOS ID または<a href="/help/using/features/global-data-sources.md">グローバルデータソース</a>に属する他の ID が含まれているかどうかを <span class="keyword">Audience Manager</span> に伝える lD。次のオプションを使用できます。</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データソースID（データプロバイダーIDとも呼ばれます）:</b> これは、Audience Managerがデータソースに割り当てる一意のIDです(IDのAudience Manager <a href="/help/using/reference/ids-in-aam.md"> インデックスを参照 </a>)。 ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。例えば、 <code>...ftp_dpm_21_123456789.sync</code> Audience Managerに対して、データソース21に属するIDに対して車載データを通知する <span class="keyword"></span> 。 </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID(GAID):</b> Android IDが含まれる場合は、データファイル名にID 20914を使用します。 Android IDを使用する場合は、このフィールド <code><i>_DPID_TARGET_DATA_OWNER</i></code> を使用する必要があります。 例えば、 <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> データファイルにAndroid IDのみが含まれ、そのIDはデー <span class="keyword"></span><code><i>_DPID_TARGET_DATA_OWNER</i></code> タソースに属する特性に適合する必要があるとAudience Managerに伝えます。</li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。iOS IDを使用する場合は、このフィールドを使用す <code><i>_DPID_TARGET_DATA_OWNER</i></code> る必要があります。 例えば、 <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> データファイルにはiOS IDのみが含まれ、IDはデータ <span class="keyword"></span><code><i>_DPID_TARGET_DATA_OWNER</i></code> ソースに属する特性に適合する必要があるとAudience Managerに伝えます。</li>
-     <li> <b>他のグローバルデータソースに属するID</b>:広告用のRoku ID(RIDA)、Microsoft広告用ID(MAID)、その他のIDを搭載できます。 各データソースに対応するIDを使用します。詳しくは、「 <a href="/help/using/features/global-data-sources.md"> グローバルデータソース」の記事を参照</a>。</li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データソース ID（別名データプロバイダー ID）：</b> これは、Audience Managerがデータソースに割り当てる一意の ID です（ID の Audience Manager <a href="/help/using/reference/ids-in-aam.md"> インデックスを参照 </a>）。ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。例えば、<code>...ftp_dpm_21_123456789.sync</code> は、<span class="keyword">Audience Manager</span> に対して、データソース 21 に属する ID データをオンボードするよう伝えます。 </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID（GAID）：</b>データファイルに Android の ID が含まれている場合、ファイル名に ID 20914 を使用します。Android ID を使用する場合は、このフィールド <code><i>_DPID_TARGET_DATA_OWNER</i></code> を使用する必要があります。例えば、<code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> データファイルに Android ID のみが含まれ、その ID はデー <code><i>_DPID_TARGET_DATA_OWNER</i></code> タソースに属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。iOS ID を使用する場合は、このフィールド <code><i>_DPID_TARGET_DATA_OWNER</i></code> を使用する必要があります。例えば、<code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> データファイルに iOS ID のみが含まれ、その ID はデー <code><i>_DPID_TARGET_DATA_OWNER</i></code> タソースに属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li>
+     <li> <b>他のグローバルデータソースに属する ID：広告用の</b>：広用の Roku ID（RIDA）、Microsoft Advertising ID（MAID）、およびその他の ID をオンボードできます。各データソースに対応する ID を使用します。詳しくは、<a href="/help/using/features/global-data-sources.md">グローバルデータソースに関する記事</a>を参照してください。</li> 
     </ul> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>このフィールドは、どのデータソースにオンボードデータを送るかをAudience Managerに示します。 このフィールドは、DPIDをAndroid IDまたはiOS ID、またはグローバルデータソースに属する他のIDに設定した場合は必須です。 これにより、<span class="keyword">Audience Manager</span> はファイルデータを組織にリンクすることができます。 </p> <p>次に例を示します。 </p> 
+   <td colname="col2"> <p>このフィールドは、データのオンボーディング先となるデータソースを Audience Manager に示します。このフィールドは、DPID を Android ID または iOS ID、またはグローバルデータソースに属する他の ID に設定した場合は必須です。これにより、<span class="keyword">Audience Manager</span> はファイルデータを組織にリンクすることができます。 </p> <p>例： </p> 
     <ul> 
-     <li> <code>...ftp_dpm_33_21_1234567890.sync</code> データソース33に属する顧客IDを、データソース21に属する特性またはシグナルに対して承認していることをAudience Managerに通知します。 </li> 
-     <li> <b>Android ID(GAID):</b><code>...ftp_dpm_20914_21_1234567890.sync</code> データファイルにAndroid IDのみが含まれ、そのIDがデータソース21に属する特性に適合することを <span class="keyword"></span> Audience Managerに通知します。</li> 
-     <li> <b>iOS ID(IDFA):</b><code>...ftp_dpm_20915_21_1234567890.sync</code> データファイルにiOS IDのみが含まれ、 <span class="keyword"></span> Audience Managerに対して、そのIDがデータソース21に属する特性に該当することを通知します。</li>
-     <li> <b>他のグローバルデータソースに属するID</b>: <code>...ftp_dpm_121963_21_1234567890.sync</code> データファイルにはRoku IDのみが含まれ <span class="keyword"> 、IDはデータソース21に属する特性に適合する必要があることを</span> Audience Managerに通知します。 各データソースに対応するIDを使用します。詳しくは、「 <a href="/help/using/features/global-data-sources.md"> グローバルデータソース」の記事を参照</a>。</li> 
+     <li> <code>...ftp_dpm_33_21_1234567890.sync</code>データソース 33 に属する顧客 ID をデータソース 21 に属する特性またはシグナルに認定していることを Audience Manager に通知します。 </li> 
+     <li> <b>Android ID（GAID）：</b><code>...ftp_dpm_20914_21_1234567890.sync</code> データファイルに Android ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li> 
+     <li> <b>iOS ID（IDFA）：</b><code>...ftp_dpm_20915_21_1234567890.sync</code> データファイルに iOS ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li>
+     <li> <b>他のグローバルデータソースに属する ID</b>：<code>...ftp_dpm_121963_21_1234567890.sync</code> データファイルに Roku ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。各データソースに対応する ID を使用します。詳しくは、<a href="/help/using/features/global-data-sources.md">グローバルデータソースに関する記事</a>を参照してください。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Describes the required fields, syntax, naming conventions and file sizes you nee
 
 他の例が必要な場合は、サンプルファイルを[ダウンロードします](assets/ftp_dpm_1234_1445374061.overwrite)。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 許容されるファイルサイズ {#accepted-file-sizes}
+## 許容されるファイルサイズ  {#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL FTP] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
