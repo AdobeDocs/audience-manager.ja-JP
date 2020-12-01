@@ -10,46 +10,46 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
 
 # セグメント：目的、構成、ルール {#segments-purpose-composition-and-rules}
 
-Describes [!UICONTROL segments], their constituent parts, and rule creation with [!UICONTROL Segment Builder].
+[!UICONTROL segments]、セグメントの構成要素、および [!UICONTROL Segment Builder] を使用したルール作成について説明します。
 
 ## [!UICONTROL Segments] の用途
 
-*`segment`*（または *`audience`*）は、共通の属性を共有する一連のユーザーです。In Audience Manager, you create [!UICONTROL segments] with server-side rules. これらのルールを使用すると、次のようなサイト訪問者属性に基づいて、オーディエンスグループを作成できます。
+*`segment`*（または *`audience`*）は、共通の属性を共有する一連のユーザーです。Audience Manager では、サーバーサイドルールを使用して[!UICONTROL segments]を作成します。これらのルールを使用すると、次のようなサイト訪問者属性に基づいて、オーディエンスグループを作成できます。
 
 * 動作、
 * 人口統計（年齢、性別、収入など）、
 * ユーザーインターフェイスで定義できるその他の特徴
 
-## [!UICONTROL Segment] 構成
+## [!UICONTROL Segment]構成
 
-An Audience Manager [!UICONTROL segment] is a server-side rule that consists of individual or groups of traits. 特性は、キーと値のペアと呼ばれるデータ要素で構成されます。Along with rules you set at the [!UICONTROL segment] level, these key-value pairs contain the criteria that qualify visitors for trait and [!UICONTROL segment] membership.
+Audience Manager [!UICONTROL segment]は、個々の特性または特性のグループで構成されるサーバーサアイドルールです。特性は、キーと値のペアと呼ばれるデータ要素で構成されます。これらのキーと値のペアには、[!UICONTROL segment]レベルで設定したルールと共に、訪問者を特性および[!UICONTROL segment]のメンバーシップの対象に認定するための条件が含まれています。
 
-## マッ [!UICONTROL Adobe Analytics][!UICONTROL Segment] ピングに関する考慮事項
+## [!UICONTROL Adobe Analytics] [!UICONTROL Segment] マッピングに関する考慮事項
 
-When mapping Adobe Analytics [!UICONTROL segments] or report suites to your Experience Cloud organization, Audience Manager automatically creates new, corresponding, read-only [!UICONTROL segments] and traits. You cannot edit or change the storage location of these [!UICONTROL segments] from Audience Manager. However, any change that you perform on your mapped Adobe Analytics [!UICONTROL segments] or report suites reflects in Audience Manager.
+Adobe Analytics [!UICONTROL segments]またはレポートスイートをExperience Cloud 組織にマッピングする場合、Audience Manager は、対応する新しい、読み取り専用の[!UICONTROL segments]および特性を自動的に作成します。Audience Manager からこれらの[!UICONTROL segments]の保管場所を編集または変更することはできません。ただし、マッピングされた Adobe Analytics [!UICONTROL segments]またはレポートスイートに対する変更は、Audience Manager に反映されます。
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] はとは異なり [!DNL Adobe Analytics][!UICONTROL segments]ます。 両者の違いについて詳しくは、[Analytics と Audience Manager について](https://docs.adobe.com/content/help/ja-JP/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)を参照してください。
+>Audience Manager [!UICONTROL segments]は、[!DNL Adobe Analytics] [!UICONTROL segments] とは異なります。両者の違いについて詳しくは、[Analytics と Audience Manager について](https://docs.adobe.com/content/help/ja-JP/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)を参照してください。
 
-## ルールベースの作成 [!UICONTROL Segments] に使用 [!UICONTROL Segment Builder]
+## [!UICONTROL Segment Builder] でルールベース[!UICONTROL Segments]を作成する
 
-Unlike traditional pixels that fire in response to simple yes/no conditions, [!UICONTROL Segment Builder] lets you create complex [!UICONTROL segment] requirements. Like [!UICONTROL traits], [!UICONTROL segments] evaluate data using [!DNL Boolean] expressions ([!DNL AND], [!DNL OR], [!DNL NOT]), comparison operators (greater than, less than, equal to, etc.), and recency/frequency criteria. These features help create focused audience [!UICONTROL segments] relevant to your business needs.
+シンプルな yes/no 条件の応答で実行される従来のピクセルとは異なり、[!UICONTROL Segment Builder] を使用すると、複雑な[!UICONTROL segment]要件を作成できます。[!UICONTROL traits] 特性と同様に、[!UICONTROL segments] は、[!DNL Boolean] 式（[!DNL AND]、[!DNL OR]、[!DNL NOT]）、比較演算子（greater than、less than、equal to など）および最新性／頻度の条件を使用して、データを評価します。これらの機能は、ビジネスニーズに関係のある焦点を絞ったオーディエンス[!UICONTROL segments]を作成するのに役立ちます。
 
 ## メリット
 
-[!UICONTROL Segments] ピクセルベースの標準的なオーディエンス作成/セグメント化プロセスの改善点：
+[!UICONTROL Segments]は、以下の理由により、標準的なピクセルベースのオーディエンス作成／セグメント化プロセスを改善します。
 
-* Build relevant, useful [!UICONTROL segments] with first and third-party traits.
+* ファーストパーティおよびサードパーティの特性を使用して、関連性の高い有用な[!UICONTROL segments]を作成できる。
 * ブール演算子、比較式および最新性／頻度の条件を使用して、高度で複雑なセグメント化ルールを作成できる。
-* Send [!UICONTROL segment] data to a destination partner.
+* [!UICONTROL segment]データを宛先パートナーに送信できる。
 * Audience Manager レポートでパフォーマンスを監視する。
 
 >[!MORELIKETHIS]
