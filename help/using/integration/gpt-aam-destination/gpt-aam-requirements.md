@@ -1,23 +1,23 @@
 ---
-description: 条件を満たしたセグメントは、クライアント側またはサーバー側の統合を介してGoogle Ad Managerに送信できます。 この両方のメソッドに関する要件と関連情報を以下に示します。
-seo-description: 条件を満たしたセグメントは、クライアント側またはサーバー側の統合を介してGoogle Ad Managerに送信できます。 この両方のメソッドに関する要件と関連情報を以下に示します。
-seo-title: Google Publisher Tags(GPT)を使用してGoogle Ad Managerにセグメントを送信するための要件と方法
+description: クライアントサイドまたはサーバーサイドの統合を通じて、適格なセグメントを Google Ad Manager に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
+seo-description: クライアントサイドまたはサーバーサイドの統合を通じて、適格なセグメントを Google Ad Manager に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
+seo-title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法
 solution: Audience Manager
-title: Google Publisher Tags(GPT)を使用してGoogle Ad Managerにセグメントを送信するための要件と方法
+title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-You can send qualified segments to [!DNL Google Ad Manager] (formerly DFP) either through a client-side or through a server-side integration. この両方のメソッドに関する要件と関連情報を以下に示します。
+クライアント側またはサーバー側の統合を通じて、適格なセグメントを [!DNL Google Ad Manager]（旧称 DFP）に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
 
 ## クライアント側の統合 {#client-side-integration}
 
