@@ -43,5 +43,5 @@ ht-degree: 100%
 
 指定したセグメント ID に従って宛先マッピングを削除する `POST` メソッド。
 
-* リクエスト: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
+* リクエスト：`DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
 * レスポンス：成功すると、コード `204 No Content` が返されます。
