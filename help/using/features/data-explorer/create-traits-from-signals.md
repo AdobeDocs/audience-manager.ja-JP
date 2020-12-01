@@ -26,7 +26,7 @@ ht-degree: 100%
 
 新しい特性を作成する場合、シグナルタイプに応じて以下の特性タイプが事前設定されます。
 
-* リアルタイムのシグナル、実用的なログファイルおよび **[!UICONTROL Rule-based]** のシグナルの場合は[!DNL Adobe Analytics]の特性
+* リアルタイムのシグナル、アクションにつながるログファイルおよび [!DNL Adobe Analytics] のシグナルの場合は&#x200B;**[!UICONTROL Rule-based]**&#x200B;の特性
 
 * オンボードのシグナルの場合は&#x200B;**[!UICONTROL Onboarded]**&#x200B;の特性
 
