@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2027'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# データフィード購入者に対する請求{#billing-for-data-feed-buyers}
+# データフィード購入者に対する請求 {#billing-for-data-feed-buyers}
 
 Audience Marketplace データ購入者は、広告インプレッション数 1,000 回あたりのコスト（[!DNL CPM]）単位の価格で、データフィードに含まれる特性を使用して提供されたすべての広告インプレッション数をレポートすることに同意します。[!DNL CPM] 使用は、毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
 
@@ -87,7 +87,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 1. **[!UICONTROL Audience Marketplace > Payables]** へ移動します。
 1. 更新するレポートの種類に応じて、「**[!UICONTROL Feed Usage]**」タブまたは「**[!UICONTROL Segment Usage]**」タブを選択します。
-1. Click **[!UICONTROL Edit Feeds Usage]** or **[!UICONTROL Edit Segments Usage]**.
+1. 「**[!UICONTROL Edit Feeds Usage]**」または「**[!UICONTROL Edit Segments Usage]**」をクリックします。
 1. 「**[!UICONTROL download the current usage]**」をクリックして、有効な CSV ファイルを取得します。
 1. ダウンロードしたファイルをコンピューター上で開き、使用状況レポートに入力します。
 1. 「**[!UICONTROL Choose a CSV file]**」をクリックして、更新した使用状況レポートをアップロードします。
@@ -222,7 +222,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 [!UICONTROL AND] 条件を使用する場合、月内に受け取ったインプレッションの 100％を、3 つすべてのデータプロバイダーに割り当てる必要があります。[!UICONTROL Audience Marketplace > Payables]セクションで、各プロバイダーに 1,000,000 件のインプレッションを計上します。
 
-この例は、[!DNL Boolean][!UICONTROL NOT] 演算子を使用するセグメント、またはアルゴリズム特性を含むセグメントに該当します。
+この例は、[!DNL Boolean] [!UICONTROL NOT] 演算子を使用するセグメント、またはアルゴリズム特性を含むセグメントに該当します。
 
 <br> 
 
@@ -267,6 +267,6 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 ## 定額データフィードに関する請求およびインプレッションの割り当て {#billing-flat-fee}
 
-定額料金のデータフィードでは、サブスクリプションの開始日や使用するインプレッションの数にかかわらず、毎月一定額が請求されます。1 ヶ月未満の使用または未使用期間について、費用は日割り計算されません。CPM 請求と同様に、アドビは、請求書を生成し、登録されたデータフィードに対して定額料金で毎月請求します。
+定額料金のデータフィードでは、サブスクリプションの開始日や使用するインプレッションの数にかかわらず、毎月一定額が請求されます。1 か月未満の使用または未使用期間について、費用は日割り計算されません。CPM 請求と同様に、アドビは、請求書を生成し、登録されたデータフィードに対して定額料金で毎月請求します。
 
 例えば、月の半ばで特定の特性を有効にするとします。この場合、購読を開始した時点や特定の特性を有効にした時点にかかわらず、月額の全額が請求されます。
