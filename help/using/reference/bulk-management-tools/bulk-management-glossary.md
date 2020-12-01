@@ -103,7 +103,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
-   <td colname="col2"> <p>特性タイプを識別する文字列。オプションは以下のとおりです。 </p> 
+   <td colname="col2"> <p>特性タイプを識別する文字列。オプションは次のとおりです。 </p> 
     <ul id="ul_AB5B4F87B14241DCBBE44B0B7BD4EF72"> 
      <li id="li_21F9412CDDC64FAA888C6542E284C436"> <code> RULE_BASED_TRAIT</code> </li> 
      <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <code> ON_BOARDED_TRAIT </code> </li> 
