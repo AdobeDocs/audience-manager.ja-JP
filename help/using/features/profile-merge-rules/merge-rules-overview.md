@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 72%
 
 | プロファイルタイプ | 説明 |
 |---|---|
-| [!UICONTROL Device Profile] | A [!UICONTROL device profile] is tied to an ID for a given device such as a [!UICONTROL cookie] ID or mobile device ID.<br><br>以下のようなものがあります。<ul><li>[!UICONTROL Rule-based traits] ユーザが認証されない場合に実現。</li><li>[!UICONTROL Onboarded traits] を、サードパーティデータなどのデバイスIDに関連付け [!UICONTROL cookie-based]ることができます。</li></ul> |
-| [!UICONTROL Authenticated Profile] | The [!UICONTROL authenticated profile] is tied to a user ID passed in when a person logs in to your site.<br><br>以下のようなものがあります。<ul><li>[!UICONTROL Rule-based traits] ユーザーが認証されたときに、デバイス間で収集されます。</li><li>[!UICONTROL Onboarded traits] 」が同じユーザーIDにリンクされているオフラインファイルに含まれていることを確認します。</li></ul> |
+| [!UICONTROL Device Profile] | [!UICONTROL device profile]は、特定のデバイスの ID（[!UICONTROL cookie] ID やモバイルデバイス ID など）に関連付けられています。<br><br>以下のようなものがあります。<ul><li>ユーザーが認証されていない状態で認識された、[!UICONTROL Rule-based traits]。</li><li>[!UICONTROL Onboarded traits] を、[!UICONTROL cookie-based] やサードパーティデータなどのデバイス ID に関連付けることができます。</li></ul> |
+| [!UICONTROL Authenticated Profile] | [!UICONTROL authenticated profile]は、ユーザーがサイトにログインした時点で渡されるユーザー ID に関連付けられています。<br><br>以下のようなものがあります。<ul><li>ユーザーが認証されている状態でデバイス間で収集された、[!UICONTROL Rule-based traits]。</li><li>[!UICONTROL Onboarded traits]は、同じユーザー ID にリンクされているオフラインのファイルです。</li></ul> |
 
-これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。For example, with an [authenticated profile](../../reference/visitor-authentication-states.md), you can build accurate [!UICONTROL segments] based on data from multiple devices for a single user. これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。[!DNL Audience Manager] は、個人がオンラインアクティビティに使用する様々なデバイスのマッピングを[認証済みプロファイル](../../reference/visitor-authentication-states.md)に保存することで、これを実現します。これらのマッピングは、[!UICONTROL Profile Link Device Graph] と呼ばれます。
+これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。例えば、[認証済みプロファイル](../../reference/visitor-authentication-states.md)を使用すると、複数のデバイスから収集した 1 人のユーザーに関するデータに基づいて正確な[!UICONTROL segments]を生成できます。これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。[!DNL Audience Manager] は、個人がオンラインアクティビティに使用する様々なデバイスのマッピングを[認証済みプロファイル](../../reference/visitor-authentication-states.md)に保存することで、これを実現します。これらのマッピングは、[!UICONTROL Profile Link Device Graph] と呼ばれます。
 
 ![](assets/authenticated2.png)
 
@@ -45,5 +45,5 @@ ht-degree: 72%
 * [認証済みプロファイル](../../reference/visitor-authentication-states.md)、匿名プロファイル、またはその両方の組み合わせに基づいて、ユーザーをターゲット化する。
 * デバイス間で特定の顧客をターゲット化する。
 * 決定論的データに基づいてデバイスグラフを作成する。
-* Fine tune the data in your [!UICONTROL segments] based on different profiles.
+* 各種のプロファイルに基づいて[!UICONTROL segments]のデータを微調整する。
 * オーディエンスに関する詳細なインサイトを得る。
