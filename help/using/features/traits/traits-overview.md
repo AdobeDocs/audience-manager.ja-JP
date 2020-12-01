@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
 # [!UICONTROL Traits] 概要 {#traits-overview}
 
-、またはを使用して、データ収集とオーディエンス作成を管理し [!UICONTROL rules-based]ま [!UICONTROL onboarded]す [!UICONTROL algorithmic][!UICONTROL folder traits]。 Read the pages linked below to get started with [!UICONTROL traits]:
+[!UICONTROL rules-based]、[!UICONTROL onboarded]、[!UICONTROL algorithmic] または [!UICONTROL folder traits]を使用して、データ収集とオーディエンス作成を管理します。[!UICONTROL traits]の基本を学ぶには、以下にリンクされているページをお読みください。
 
 * [特性の詳細ページ](/help/using/features/traits/trait-details-page.md)
 * [特性ビルダー](/help/using/features/traits/about-trait-builder.md)
