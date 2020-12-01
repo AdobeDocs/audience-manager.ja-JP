@@ -22,7 +22,7 @@ ht-degree: 100%
 アルゴリズム特性を作成するには、「[!UICONTROL Traits]」に移動して、以下の手順に従ってください。
 
 1. **[!UICONTROL Create New Trait]**&#x200B;をクリックして、ドロップダウンメニューから&#x200B;**[!UICONTROL Algorithmic]**&#x200B;を選択します。
-1. 「[Basic Information](../../features/traits/create-onboarded-rule-based-traits.md)」セクションで、以下の操作をおこないます。
+1. 「[基本情報](../../features/traits/create-onboarded-rule-based-traits.md)」セクションで、以下の操作をおこないます。
    * 特性の名前を設定します。
    * データソースを選択します。
    * 保存フォルダーを選択します。
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 * [類似（look-alike）モデルの作成](../../features/algorithmic-models/create-model.md).
 * モデルデータの実行が完了したことを知らせる通知電子メールを受け取る。
-* 必須フィールドを「[Basic Information](../../features/traits/create-onboarded-rule-based-traits.md)」セクションに入力する。
+* 必須フィールドを「[基本情報](../../features/traits/create-onboarded-rule-based-traits.md)」セクションに入力する。
 
 ### 構成フィールドと設定
 
