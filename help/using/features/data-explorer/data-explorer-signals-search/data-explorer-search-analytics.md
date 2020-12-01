@@ -1,8 +1,8 @@
 ---
-description: Adobe Analytics も使用している Audience Manager ユーザーは、「Advanced Search for Adobe Analytics」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
-seo-description: Adobe Analytics も使用している Audience Manager ユーザーは、「Advanced Search for Adobe Analytics」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
-seo-title: Advanced Search for Adobe Analytics
-title: Adobe Analyticsのアドバンス検索
+description: Adobe Analytics も使用している Audience Manager ユーザーは、「Adobe Analytics の詳細検索」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
+seo-description: Adobe Analytics も使用している Audience Manager ユーザーは、「Adobe Analytics の詳細検索」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
+seo-title: Adobe Analytics の詳細検索
+title: Adobe Analytics の詳細検索
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# Advanced Search for Adobe Analytics {#advanced-search-for-adobe-analytics}
+# Adobe Analytics の詳細検索 {#advanced-search-for-adobe-analytics}
 
 [!DNL Adobe Analytics] も使用している Audience Manager ユーザーは、「[!UICONTROL Advanced Search for Adobe Analytics]」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
 
