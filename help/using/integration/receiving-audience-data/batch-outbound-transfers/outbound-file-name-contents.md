@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# 送信データファイル名：構文と例{#outbound-data-file-name-syntax-and-examples}
+# 送信データファイル名：構文と例 {#outbound-data-file-name-syntax-and-examples}
 
 送信データファイルの名前に使用される必須フィールド、構文および規則について説明します。
 
