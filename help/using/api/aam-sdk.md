@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,5 +31,5 @@ Audience Manager では、[!DNL Android] および [!DNL iOS] 向けのソフト
 
 Android および iOS4. x SDK は引き続きサポートされています。SDK コードライブラリについては、以下を参照してください。
 
-* [Android SDK](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
-* [iOS SDK](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
+* [Android SDK](https://docs.adobe.com/content/help/ja-JP/mobile-services/android/overview.html)
+* [iOS SDK](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/overview.html)
