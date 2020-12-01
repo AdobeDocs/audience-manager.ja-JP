@@ -38,7 +38,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL Audience Data]**／**[!UICONTROL Models]** に移動して、「[!UICONTROL Look-Alike Modeling]」セクションの **[!UICONTROL Add New]** をクリックします。
    ![look-alike-add](assets/look-alike-add.png)
-1. 「[Basic Information](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
+1. 「[基本情報](../../features/algorithmic-models/create-model.md#basic-information)」セクションで、以下の操作をおこないます。
    * モデルの名前を指定します。
    * *（オプション）*&#x200B;モデルについての簡単な説明を入力します。
    * モデルのステータスを **[!UICONTROL Active]** または **[!UICONTROL Inactive]** に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## アルゴリズムの基本情報 {#basic-information}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>ベースラインとなる特性またはセグメント（1）を選択する</b> </p> </td> 
+   <td colname="col1"> <p><b>ベースラインとなる特性またはセグメントを選択する（1）</b> </p> </td> 
    <td colname="col2"> <p>特性またはセグメントのボタンをクリックすると、すべての特性またはセグメントのリストが表示されます。選択したセグメントと特性は、システムアルゴリズムがモデリングに使用するシステムのベースラインとなります。 </p> <p> <p><b>注意：</b>オンボードの特性、ルールベースの特性、またはセグメントをベースラインとして選択します。それ以外のものを選択すると、モデルは実行されません。 </p> </p> </td> 
   </tr> 
   <tr> 
