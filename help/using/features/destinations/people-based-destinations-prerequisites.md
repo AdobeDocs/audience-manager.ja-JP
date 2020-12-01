@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
 source-wordcount: '1015'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 >[!IMPORTANT]
 > 実装段階に進む前に、この記事をよくお読みください。
 
-## Signing up for [!UICONTROL People-Based Destinations] {#signing-up}
+## [!UICONTROL People-Based Destinations] への新規登録 {#signing-up}
 
 [!UICONTROL People-Based Destinations] は、ソーシャルネットワーク上または電子メールマーケティングで、カスタマイズされたオファーを用いてオーディエンスのターゲティングをおこない、ユーザーベースの環境でファーストパーティのオーディエンスセグメントをアクティブ化することで、Audience Manager のエクスペリエンスを強化するプレミアム機能です。
 
@@ -34,10 +34,10 @@ ht-degree: 88%
 
 ### [!DNL Facebook] {#facebook}
 
-Before you can use [!UICONTROL People-Based Destinations] to send your first-party audience [!UICONTROL segments] to [!DNL Facebook], make sure you meet the following requirements:
+[!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスの [!UICONTROL segments] を [!DNL Facebook] に送信する前に、次の要件を満たしていることを確認してください。
 
 1. お使いの [!DNL Facebook] ユーザーアカウントで、使用するプランの広告アカウントに対する&#x200B;**キャンペーンの管理**&#x200B;権限が有効になっている必要があります。
-2. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。詳しくは、[ビジネスマネージャにパートナーを追加する](https://www.facebook.com/business/help/1717412048538897)を参照してください。
+2. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。詳しくは、「[パートナーをビジネスマネージャーに追加する](https://www.facebook.com/business/help/1717412048538897)」を参照してください。
    >[!IMPORTANT]
    > Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!UICONTROL People-Based Destinations] 統合に必要です。
 3. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
@@ -46,17 +46,17 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
 
 [!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL LinkedIn] に送信する前に、お客様の [!DNL LinkedIn Campaign Manager] アカウントが [!DNL Creative Manager] 以上の権限レベルであることを確認してください。
 
-[!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、「[広告アカウントのユーザー権限の追加、編集、削除](https://www.linkedin.com/help/lms/answer/5753)」を参照してください。 」を参照してください。
+[!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、「[Add, Edit, and Remove User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)」（LinkedIn ドキュメント）を参照してください。
 
-ビデオの [手順については、「LinkedInの人ベースの宛先についてと設定](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) 」を参照してください。
+ビデオの手順については、「[Understanding and Configuring the LinkedIn People-Based Destination](https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html)」を参照してください。
 
 ### [!DNL Google Customer Match] {#gcm}
 
 [!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL Google Customer Match] 送信先に送信する前に、[!DNL Google] によってファーストパーティ許可リストに追加される必要があります。
 
-データ [!DNL Google] ドキュメントのアップロードは、担当者に問い合わせて、「 [Use Customer Match partners」に記載されている許可リストの手順に従って行います](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507)[!DNL Google] 。
+[!DNL Google] 担当者に問い合わせて、[!DNL Google]ドキュメントの「[Use Customer Match partners to upload your data](https://support.google.com/google-ads/answer/7361372?hl=ja&amp;ref_topic=6296507)」に記載されている許可リストの手順に従います 。
 
-このプロセスが完了したら、を作成でき [!UICONTROL People-Based Destination]ます。
+このプロセスが完了したら、[!UICONTROL People-Based Destination] を作成できます。
 
 ## データオンボーディング {#data-onboarding}
 
@@ -89,7 +89,7 @@ Before you can use [!UICONTROL People-Based Destinations] to send your first-par
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud gives you the option to hash customer IDs through the [!DNL Adobe Experience Platform Identity Service (ECID)]. ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)を参照してください。
+Adobe Experience Cloud では、[!DNL Adobe Experience Platform Identity Service (ECID)] で顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
@@ -103,7 +103,7 @@ Adobe Experience Cloud gives you the option to hash customer IDs through the [!D
 
 [!UICONTROL People-Based Destinations] を使用する際は、ファーストパーティデータを使用して、ユーザーベースのチャネルでオーディエンスセグメントをアクティブ化できます。ユーザーベースのチャネルでオーディエンスのアクティブ化にセカンドパーティデータやサードパーティデータを使用することはできません。
 
-When using [!UICONTROL People-Based Destinations], use [Data Export Controls](../data-export-controls.md) to label your [!UICONTROL data sources] and [!UICONTROL destinations] according to the guidelines and requirements from destination platforms and data providers.
+[!UICONTROL People-Based Destinations] を使用している場合は、「[データエクスポートコントロール](../data-export-controls.md)」を使用し、宛先プラットフォームおよびデータプロバイダーのガイドラインと要件に従って、[!UICONTROL data sources]と[!UICONTROL destinations]にラベルを付けます。
 
 ## 宣言された ID のターゲティングを介して認証済みの ID のオンボーディングをおこなう {#onboard-authenticated-declared-id}
 
