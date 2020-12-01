@@ -1,23 +1,23 @@
 ---
-description: Google Publisher Tags(GPT)を使用したGoogle Ad Managerの統合方法の概要です。
-seo-description: Adobe Audience Manager(AAM)でGoogle Publisher Tags(GPT)を使用してGoogle Ad Managerを統合する方法の概要です。
-seo-title: Adobe Audience Manager(AAM)でGoogle Publisher Tags(GPT)を使用してGoogle Ad Managerを統合する
-title: 'Google Publisher Tags（GPT）を使用した Google Ad Manager の統合 '
+description: Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合方法の概要です。
+seo-description: Adobe Audience Manager（AAM）で Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合方法の概要です。
+seo-title: Adobe Audience Manager（AAM）で Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合
+title: 'Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合 '
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 
-# Integrate [!DNL Google Ad Manager] (formerly DFP) using Google Publisher Tags (GPT)
+# Google サイト運営者タグ（GPT）を使用した [!DNL Google Ad Manager]（旧称 DFP）の統合
 
-The articles listed below provide an overview of how to integrate [!DNL Google Ad Manager] using Google Publisher Tags (GPT). You can use a server-side integration, or you can set up GPT as a destination to send Audience Manager segment data to [!DNL Google Ad Manager]. You will also learn the needed steps to ingest [!DNL Google Ad Manager] log files for reporting in Audience Manager.
+Google サイト運営者タグ（GPT）を使用した [!DNL Google Ad Manager] との統合方法の概要が以下の記事に記載されています。サーバー側で統合することも、Audience Manager のセグメントデータを [!DNL Google Ad Manager] に送信するための宛先として GPT を設定することもできます。[!DNL Google Ad Manager] ログファイルを取り込み、Audience Manager でレポートするために必要なステップも確認できます。
 
-* [Google Publisher Tags(GPT)を使用してGoogle Ad Managerにセグメントを送信するための要件と方法](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
+* [Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
    クライアント側またはサーバー側の統合を通じて、絞り込んだセグメントを [!DNL Google Ad Manager] に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
 
