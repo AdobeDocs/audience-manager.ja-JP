@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Audience Manager のタイムゾーン{#time-zones-in-audience-manager}
+# Audience Manager のタイムゾーン {#time-zones-in-audience-manager}
 
 Audience Manager は UI 全体で協定世界時（UTC）を使用しています。
 
