@@ -68,7 +68,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>広告サーバーログ </p> </td> 
-   <td colname="col2"> <p><b>レポート</b> </p> <p>ログファイルは、最大 30 日間、レポート目的で保持されます。不一致ログ（訪問者の広告サーバー ID と <span class="keyword">Audience Manager</span> ID の間に ID 同期がないログ）は、アドビのバックエンドストレージには永続的に保存されません。また、<span class="keyword">Amazon S3</span> に格納されている一致ログは最大 30 日間保持されます。 </p> <p><b>実用的なログファイル</b> </p> <p>一致ログも不一致ログも最大 30 日間、保持されます。 </p> </td> 
+   <td colname="col2"> <p><b>レポート</b> </p> <p>ログファイルは、最大 30 日間、レポート目的で保持されます。不一致ログ（訪問者の広告サーバー ID と <span class="keyword">Audience Manager</span> ID の間に ID 同期がないログ）は、アドビのバックエンドストレージには永続的に保存されません。また、<span class="keyword">Amazon S3</span> に格納されている一致ログは最大 30 日間保持されます。 </p> <p><b>アクションにつながるログファイル</b> </p> <p>一致ログも不一致ログも最大 30 日間、保持されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CRM レベルのプロファイル（認証済みプロファイル） </p> </td> 
