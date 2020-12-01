@@ -58,9 +58,9 @@ ht-degree: 100%
 
 [!DNL People-Based Destinations] でオーディエンスのターゲティングをおこなうには、顧客電子メールアドレスの [SHA256 ハッシュ](people-based-destinations-prerequisites.md) バージョンが必要です。既存の Audience Manager 設定に応じて、次の 2 つのシナリオのいずれかになります。
 
-**A）Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)） が、ハッシュ化された小文字の電子メールアドレスになっている場合**。このシナリオでは、これらの既存の ID を使用して、[!DNL People-Based Destinations] でオーディエンスのターゲット設定をおこないます。
+**A）Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)）が、ハッシュ化された小文字の電子メールアドレスになっている場合**。このシナリオでは、これらの既存の ID を使用して、[!DNL People-Based Destinations] でオーディエンスのターゲット設定をおこないます。
 
-**B）Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)） が、ハッシュ化された小文字の電子メールアドレスでない場合**。このシナリオでは、既存の顧客 ID を [!DNL People-Based Destinations] に送信することはできません。[!DNL People-Based Destinations] を使用するには、既存の顧客 ID と、ハッシュ化された小文字バージョンの顧客電子メールアドレスで ID 同期を実行する必要があります。これは、[ファイルベースの ID 同期](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)を使用するか、[宣言済み ID](../declared-ids.md) を使用して実行します。
+**B）Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)）が、ハッシュ化された小文字の電子メールアドレスでない場合**。このシナリオでは、既存の顧客 ID を [!DNL People-Based Destinations] に送信することはできません。[!DNL People-Based Destinations] を使用するには、既存の顧客 ID と、ハッシュ化された小文字バージョンの顧客電子メールアドレスで ID 同期を実行する必要があります。これは、[ファイルベースの ID 同期](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)を使用するか、[宣言された ID](../declared-ids.md) を使用して実行します。
 
 ## 4. 特性認定 {#trait-qualification}
 
@@ -78,8 +78,8 @@ Audience Manager にある顧客 ID のタイプに応じて（「[3.保有し�
 
 **B）新しいデータソースを作成する**。このオプションは、Audience Manager の顧客 ID（[DPUUID](../../reference/ids-in-aam.md)）がハッシュ化された小文字の電子メールアドレスでない場合に適用されます。この場合、新しいクロスデバイスデータソースを作成し、ハッシュ化された電子メールアドレスをそのデータに対してオンボーディングする必要があります。これには次の 2 つの方法を使用できます。
 
-* ファイルベースの ID 同期を使用する。ID 同期ファイルの表示形式について詳しくは、「[ID 同期ファイル の名前とコンテンツ要件](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)」を参照してください。この方法を使用すると、[!DNL CRM] データベースから、すべてのハッシュ化された電子メールアドレスをターゲットにすることができます。
-* [宣言済み ID](../declared-ids.md) を使用して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。この方法を使用すると、Audience Manager はお客様に代わって、オンラインで認証されたユーザーの、ハッシュされた電子メールアドレスのみをターゲットに設定します。ユーザーベースのチャネルでターゲット設定される電子メールアドレスは、宣言されている ID イベント呼び出しの電子メールアドレスのみです。顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムではアクティブ化されません。
+* ファイルベースの ID 同期を使用する。ID 同期ファイルの表示形式について詳しくは、「[ID 同期ファイルの名前とコンテンツ要件](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)」を参照してください。この方法を使用すると、[!DNL CRM] データベースから、すべてのハッシュ化された電子メールアドレスをターゲットにすることができます。
+* [宣言された ID](../declared-ids.md) を使用して、認証済みの顧客 ID を渡す際にハッシュ化された電子メールアドレスを宣言します。この方法を使用すると、Audience Manager はお客様に代わって、オンラインで認証されたユーザーの、ハッシュされた電子メールアドレスのみをターゲットに設定します。ユーザーベースのチャネルでターゲット設定される電子メールアドレスは、宣言されている ID イベント呼び出しの電子メールアドレスのみです。顧客 ID に関連付けられているその他の電子メールアドレスは、リアルタイムではアクティブ化されません。
 
 ## 6. セグメント化のプロファイル結合ルールを作成する {#use-profile-merge-rules}
 
