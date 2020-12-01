@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# コードおよびテキスト要素のスタイル規則{#style-conventions-for-code-and-text-elements}
+# コードおよびテキスト要素のスタイル規則 {#style-conventions-for-code-and-text-elements}
 
 これらの要素は、ヘルプドキュメント全体で使用されているコードオプションおよび変数を識別します。一般に、コードまたはデータファイルには、これらのシンボルやスタイル要素を含めません。これらは視覚的な指示にすぎません。
 
