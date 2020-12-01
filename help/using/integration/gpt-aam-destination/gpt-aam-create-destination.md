@@ -1,5 +1,5 @@
 ---
-description: 条件を満たしたセグメントは、クライアント側（ブラウザー側）の統合またはサーバー側の統合を通じて、Google Ad Managerに送信できます。 クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
+description: You can send qualified segments to Google Ad Manager through a client-side (browser-side) integration, or a server-side integration. クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
 seo-description: 条件を満たしたセグメントは、クライアント側（ブラウザー側）の統合またはサーバー側の統合を通じて、Google Ad Managerに送信できます。 クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
 seo-title: GPT 宛先の作成
 solution: Audience Manager
@@ -21,7 +21,7 @@ ht-degree: 86%
 
 ## 宛先
 
-Audience Manager において、*`destination`* とは、データを共有する他のシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager destination features are located in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
+Audience Manager において、*`destination`* とは、データを共有する他のシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。*[!UICONTROL Audience Data][!UICONTROL Destinations]*&#x200B;まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
 
 ## Basic Information
 
