@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 3c39ef38d2833d5d706641f70649251d79b2ee6f
 workflow-type: tm+mt
 source-wordcount: '1511'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -61,13 +61,13 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 メディア会社の場合、訪問者に関連性のある広告を提供すると同時に、広告スペースをプレミアム価格で販売できるように、オーディエンスを分類したい。
 
-## モデルの [!UICONTROL Predictive Audiences] 動作 {#how-predictive-audiences-models-work}
+## [!UICONTROL Predictive Audiences] モデルの動作 {#how-predictive-audiences-models-work}
 
 [!UICONTROL Predictive Audiences] モデルを作成する場合、次の 3 つの手順を実行します。
 
 1. 最初に、最低でもペルソナを定義する 2 つの特性または 2 つのセグメントを選択します。
 1. 次に、分類したいターゲットオーディエンスを定義する特性またはセグメントを選択します。
-1. 最後に、モデルの名前、予測セグメントを保存するデータソース、モデルの名前を選択 [!UICONTROL Profile Merge Rule] します。
+1. 最後に、モデルの名前、予測セグメントを保存するデータソース、およびモデルの[!UICONTROL Profile Merge Rule]を選択します。
 
 ### ペルソナの選択条件 {#selection-personas}
 
@@ -75,27 +75,27 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 * 各ペルソナが少なくとも数百の[デバイス ID](../../reference/ids-in-aam.md) を含むようにペルソナの特性またはセグメントを選択します。
 * 特性が[クロスデバイス ID](../../reference/ids-in-aam.md) に基づいている場合、[!UICONTROL Device Graph] のように、[デバイス ID](../../reference/ids-in-aam.md) を使用する[プロファイル結合ルール](../profile-merge-rules/merge-rules-overview.md)で特性をセグメントにラップできます。これにより、アルゴリズムが学習するのに十分な[デバイス ID](../../reference/ids-in-aam.md) が確保されます。
-* 1 ～ 3個の特性から成る特性または単純なセグメントを、パーソナルに対して選択することをお勧めします。
+* ペルソナ用に特性またはシンプルなセグメント（1 ～ 3 個の特性で構成）を選択することをお勧めします。
 * 重複が最小のベースライン特性またはセグメントを選択します。
 * デジタルプロパティをまたいで詳細な特性をキャプチャしていることを確認します。
 
 ### ターゲットオーディエンスの選択条件 {#selection-audience}
 
-使用事例に応じて、ユーザーをリアルタイム、バッチまたはその両方で分類するかどうかに応じて、有意なリアルタイム訪問者数または合計訪問者数を持つターゲットオーディエンス([!UICONTROL trait] または [!UICONTROL segment])を選択します。 個人の選択と同様に、ターゲットのオーディエンスを使用するか、豊富なプロファイル（豊富なセット）を持つユーザー [!UICONTROL trait] を [!UICONTROL segment] 使用することをお勧めし [!UICONTROL traits]ます。
+ユースケースに応じて、ユーザーをリアルタイム、バッチまたはその両方のどれで分類するかに応じて、リアルタイム母数または合計母数が大きなターゲットオーディエンス（[!UICONTROL trait]または[!UICONTROL segment]）を選択します。ペルソナの選択と同様に、ターゲットのオーディエンス[!UICONTROL trait]を使用するか、豊富なプロファイル（[!UICONTROL traits]の豊富なセット）を持つ[!UICONTROL segment]を使用することをお勧めします。
 
-ターゲットオーディエンスを選択する場合は、使用事例を分析し、分類するIDのタイプを決定します。 [!UICONTROL device IDs] または [!UICONTROL cross-device IDs]。 モデルの作成時 [!UICONTROL Profile Merge Rule] に選択した値によって、各ユーザーを予測に配置するために使用されるデータが定義され [!UICONTROL segments]ます。
+ターゲットオーディエンスを選択する場合は、ユースケースを分析し、分類する ID のタイプ（[!UICONTROL device IDs]または[!UICONTROL cross-device IDs]）を選択します。モデルの作成時に選択した[!UICONTROL Profile Merge Rule]によって、各ユーザーを予測[!UICONTROL segments]に配置するために使用されるデータが定義されます。
 
-ベストプラクティスとして、ターゲットオーディエンスと同じ設定 [!UICONTROL Profile Merge Rule][!UICONTROL Profile Merge Rule]のオーディエンスを選択するか、ターゲットのプロファイルの種類(デバイスプロファイルまたは認証済みプロファイル)を含むを選択することをお勧めします。
+ベストプラクティスとして、ターゲットオーディエンス[!UICONTROL Profile Merge Rule]と同じ設定 の[!UICONTROL Profile Merge Rule]を選択するか、ターゲットオーディエンスのプロファイルタイプ（デバイスプロファイルまたは認証済みプロファイル）を含むものを選択することをお勧めします。
 
-### [!UICONTROL Predictive Audiences] モデルトレーニング段階 {#model-training}
+### [!UICONTROL Predictive Audiences] モデルトレーニングフェーズ {#model-training}
 
 アルゴリズムがファーストパーティオーディエンスを適切なペルソナに分類できるようにするには、事前にお客様のデータでアルゴリズム自体をトレーニングする必要があります。
 
 アルゴリズムは、定義するペルソナごとに各オーディエンスを分析し、過去 30 日間のユーザーのリアルタイムの特性アクティビティやオンボーディングされた特性アクティビティを評価します。この手順は、ファーストパーティオーディエンスの変更を考慮して、24 時間ごとに実行されます。
 
-### [!UICONTROL Predictive Audiences] モデル分類段階 {#model-classification}
+### [!UICONTROL Predictive Audiences] モデル分類フェーズ {#model-classification}
 
-リアルタイム分類とバッチオーディエンス分類の場合、モデルは、まずユーザーがターゲットオーディエンスに属しているかどうかを確認します。 ユーザーがターゲットオーディエンスの資格を持ち、どの個人にも属していない場合、モデルは、そのユーザーにパーソナル資格スコアを割り当てます。
+リアルタイムおよびバッチでのオーディエンス分類の場合、モデルはまず、ユーザーがターゲットオーディエンスに属しているかどうかを確認します。ユーザーがターゲットオーディエンスに適合し、どのペルソナにも属していない場合、モデルは、そのユーザーにペルソナ認定スコアを割り当てます。
 
 ファーストパーティオーディエンスを評価してスコアを割り当てると同時に、モデルはお客様のアカウントに定義されたデフォルトの **[!UICONTROL Profile Merge Rule]** を使用します。最後に、訪問者が最も高いスコアを獲得したペルソナに分類されます。
 
@@ -112,37 +112,37 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 * 各モデルについて、最大 50 個のベース特性／セグメントを選択できます。
 * セカンドおよびサードパーティデータは、現在、[!UICONTROL Predictive Audiences] でサポートされていません。
 * [!UICONTROL Predictive Audiences] は、すべてのファーストパーティデータソースからのファーストパーティ特性に基づいて、オーディエンスの分類を実行します。
-* のセグメント評価で [!UICONTROL Predictive Audiences] は、モデル作成時に選択 **[!UICONTROL Profile Merge Rule]** したセグメントが使用されます。 [!UICONTROL Profile Merge Rules] について詳しくは、該当する[ドキュメント](../profile-merge-rules/merge-rules-overview.md)を参照してください。
+* [!UICONTROL Predictive Audiences]のセグメント評価では、モデル作成時に選択した&#x200B;**[!UICONTROL Profile Merge Rule]**&#x200B;が使用されます。[!UICONTROL Profile Merge Rules] について詳しくは、該当する[ドキュメント](../profile-merge-rules/merge-rules-overview.md)を参照してください。
 * 一部の特性およびセグメントは、ベースラインオーディエンスまたはターゲットオーディエンスとしてサポートされません。[!UICONTROL Predictive Audiences] モデルは、次のいずれかをベースラインオーディエンスまたはターゲットオーディエンスとして選択すると、保存に失敗します。
    * 予測特性および予測特性を使用して作成されたセグメント
    * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) の特性またはセグメント
    * アルゴリズム特性
    * セカンドおよびサードパーティ特性
-* [!UICONTROL Predictive Audience] [!UICONTROL segments] では使用できません [!UICONTROL Audience Lab]。
+* [!UICONTROL Predictive Audience] [!UICONTROL segments] を[!UICONTROL Audience Lab] で使用することはできません。
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
 [!UICONTROL Predictive Audiences] モデルで作成された予測セグメントは、次のファーストパーティデータソースから[データ書き出しコントロール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-export-controls.html)を継承します。
 
 1. モデルを構築する際に選択するファーストパーティデータソース。
-1. ターゲットオーディエンスのファーストパーティデータソース。Specifically, the data export controls of the [!UICONTROL traits] or [!UICONTROL segments] that make up your target audience.
-1. モデルに対して選択した [の[](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-export-controls.html) データエクスポートコントロール [!UICONTROL Profile Merge Rule] ]。
+1. ターゲットオーディエンスのファーストパーティデータソース。特に、ターゲットオーディエンスを構成する[!UICONTROL traits]または[!UICONTROL segments]のデータ書き出しコントロール。
+1. モデルに対して選択した[!UICONTROL Profile Merge Rule]の[データ書き出しコントロール](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)。
 
-The newly created predictive [!UICONTROL traits] and [!UICONTROL segments] will have the same privacy restrictions as the union of the first-party data sources described above.
+新しく作成した予測[!UICONTROL traits]および[!UICONTROL segments]には、前述のファーストパーティデータソースと同じプライバシー制限が課されます。
 
 [!UICONTROL Predictive Audiences] セグメントのプライバシー制限に含まれない追加の制限を持つ特性は、トレーニングフェーズから除外され、モデルに対して影響力を持つことはありません。
 
 ## [!UICONTROL Profile Merge Rules] {#pmr}
 
-すべての予測セグメントに、モデルの作成時に選択し [!UICONTROL Profile Merge Rule] たセグメントが割り当てられます。 選択 [!UICONTROL Profile Merge Rule] する内容は、次の理由で重要です。
+すべての予測セグメントに、モデルの作成時に選択した[!UICONTROL Profile Merge Rule]が割り当てられます。次の理由により、選択した[!UICONTROL Profile Merge Rule]は重要です。
 
-* 予測に分類する際に、影響力を分析する際に、どのデバイスや認証済みプロファイルを考慮に入れる [!UICONTROL traits]かを定義し [!UICONTROL segment]ます。
-* モデルトレーニング手順で使用し、影響力のある [!UICONTROL trait] タイプとして表示されるタイプ（デバイスレベルまたはデバイス間レベル）を管理 [!UICONTROL traits]します。 予測 [!UICONTROL segments] は、ターゲットオーディエンスのサブセットです。
-   * ターゲットオーディエンスがセグメントの場合は、ターゲットオーディエンスに割り当てられたモデルと同じも [!UICONTROL Profile Merge Rule] のを選択するか、ターゲットオーディエンスのプロファイルタイプを含むモデル [!UICONTROL Profile Merge Rule] を選択することをお勧めします。
-   * ターゲットオーディエンスがデバイスの場合 [!UICONTROL trait]は、ターゲットオーディエンス特性と同じタイプのデータにアクセスでき [!UICONTROL Profile Merge Rule] るタイプを選択することをお勧めします(デバイスプロファイルデータまたはデバイス間プロファイルデータのいずれか)。
-* [!UICONTROL Profile Merge Rules] と [!UICONTROL Current Authenticated Profiles][!UICONTROL No Device Profile] オプションの使用は、リアルタイムオーディエンスの分類に対してのみサポートされます。 詳しくは、 [プロファイルマージルールのオプション定義を参照してください](../profile-merge-rules/merge-rule-definitions.md)。
+* ユーザーを予測[!UICONTROL segment]に分類する際には、[!UICONTROL traits]の影響力を分析するときに、どのデバイスや認証済みプロファイルを考慮に入れるかを定義します。
+* モデルトレーニング手順で使用し、影響力のある [!UICONTROL trait] タイプとして表示される[!UICONTROL traits]タイプ（デバイスレベルまたはデバイス間レベル）を管理します。予測[!UICONTROL segments]は、ターゲットオーディエンスのサブセットです。
+   * ターゲットオーディエンスがセグメントの場合は、ターゲットオーディエンスに割り当てられたものと同じ[!UICONTROL Profile Merge Rule]をモデルに選択するか、ターゲットオーディエンスのプロファイルタイプを含む[!UICONTROL Profile Merge Rule]を選択することをお勧めします。
+   * ターゲットオーディエンスが[!UICONTROL trait]の場合は、ターゲットオーディエンス特性と同じタイプのデータにアクセスできる[!UICONTROL Profile Merge Rule]（デバイスプロファイルデータまたはクロスデバイスプロファイルデータのいずれか）を選択することをお勧めします。
+* [!UICONTROL Current Authenticated Profiles]および[!UICONTROL No Device Profile]オプションを使用する[!UICONTROL Profile Merge Rules]は、リアルタイムオーディエンスの分類に対してのみサポートされます。詳しくは、[定義済みのプロファイル結合ポリシーのオプション](../profile-merge-rules/merge-rule-definitions.md)を参照してください。
 
-デバイスデータとデバイス間のデータ [!UICONTROL Profile Merge Rule] の両方を使用するデータを選択すると、モデルトレーニング [!UICONTROL traits] やユーザー分類に使用できる予測データの数が最大になり [!UICONTROL segments]ます。
+デバイスデータとクロスデバイスデータ  の両方を使用する[!UICONTROL Profile Merge Rule]を選択すると、モデルトレーニングや予測[!UICONTROL segments]へのユーザー分類に使用できる[!UICONTROL traits]の数が最大になります。
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
