@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# セグメントトレンドレポート{#segment-trend-report}
+# セグメントトレンドレポート {#segment-trend-report}
 
 セグメントトレンドレポートは、マッピングされたセグメントとマッピングされていないセグメントのインプレッション数およびクリックスルー率の時間的変化に関するデータを返します。
 
@@ -45,7 +45,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item] IDs, as described in Step 3 of [Import Google Ad Manager (formerly DFP) Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). これにより、Web プロパティの詳細が [!UICONTROL Line Item] ID ではなく [!UICONTROL Line Item] として表示されるようになります。
+>[!UICONTROL Audience Optimization for Publishers] を有効にする際には、[Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Line Item] ID の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が [!UICONTROL Line Item] ID ではなく [!UICONTROL Line Item] として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
