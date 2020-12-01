@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # バッチデータ転送プロセスの説明 {#batch-data-transfer-process-described}
 
-A general overview of how [!DNL Audience Manager] performs an asynchronous batch data exchange with a third-party vendor.
+[!DNL Audience Manager] におけるサードパーティベンダーとの非同期のバッチデータ交換に関する全般的な概要です。
 
 ## バッチデータの統合
 
@@ -36,5 +36,5 @@ A general overview of how [!DNL Audience Manager] performs an asynchronous batch
 1. ユーザーが顧客サイトを訪問します。
 1. [!DNL Audience Manager] およびサードパーティのデータプロバイダーは訪問者に対して一意の ID （通常 Cookie に基づく）を割り当てます。
 1. [!DNL Audience Manager] はサードパーティのデータプロバイダーを呼び出し、訪問者 ID と照合します。
-1. A scheduled request, usually on a daily interval, exchanges visitor segment data between [!DNL Audience Manager] and your third-party data provider.
+1. スケジュールされた要求によって、通常 1 日ごとに、[!DNL Audience Manager] とサードパーティのデータプロバイダーとの間で訪問者のセグメントデータが送受信されます。
 1. インバウンドの [!UICONTROL Server-to-Server] ファイルが処理されるたびに、パートナーソリューションに対してレシートが電子メールで送信されます。また、設定によってはパートナーにも送信されます。詳しくは、[受信処理後パートナーに送信されるメッセージの例](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)を参照してください。
