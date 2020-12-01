@@ -23,7 +23,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Actionable log files]**：[!DNL Google] [!DNL DCM] ログファイル経由で受信したシグナル。
    * **[!DNL Adobe Analytics]**：ご使用の [!DNL Adobe Analytics] アカウントから受信したシグナル。シグナルを表示するレポートスイートを選択するには、「**[!UICONTROL Filter by report suites]**」ドロップダウンメニューを使用します。
-   * **[!UICONTROL General online data]**：訪問者別に生成され、実用的なログファイルと [!DNL Adobe Analytics] には含まれていないリアルタイムデータ。
+   * **[!UICONTROL General online data]**：訪問者別に生成され、アクションにつながるログファイルと [!DNL Adobe Analytics] には含まれていないリアルタイムデータ。
    * **[!UICONTROL Onboarded records]**：バッチデータ転送で受信したデータ。シグナルを表示するデータソースを選択するには、「**[!UICONTROL Filter by data source]**」ドロップダウンメニューを使用します。
 
 1. オプションとして、後で使用するために[検索条件を保存](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)することができます。
