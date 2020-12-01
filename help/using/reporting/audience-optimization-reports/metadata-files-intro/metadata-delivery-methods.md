@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# メタデータファイルの配信方法{#delivery-methods-for-metadata-files}
+# メタデータファイルの配信方法 {#delivery-methods-for-metadata-files}
 
 メタデータファイルを送信または更新するには、メタデータファイルを Audience Manager アカウント用の特別な [!DNL Amazon S3] ディレクトリに送信します。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 .../log_ingestion/pid=1121/dpid=3342/meta/20200112_0_4
 ```
 
-<br> 
+<br>
 
 ファイル配信パスのこれらの各要素を次の表で定義します。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 | `.../log_ingestion/` | ストレージのディレクトリパスの先頭。セットアップがすべて完了したら、完全パスが与えられます。 |
 | `pid=<AAM ID>` | このキー値ペアは、Audience Manager の顧客 ID を含みます。 |
 | `dpid=<d_src>` | イベント呼び出し時に渡されるデータソース ID のキー値ペア。データソース ID は、ファイル内のすべてのコンテンツを、そのコンテンツが属する実際のデータに関連付ける値です。</br>例えば、ID が 123 で名前が「Advertiser Creative A」であるクリエイティブがあるとします。イベントの呼び出しでは ID しか渡されないので、メタデータファイルに「Advertiser Creative A」を入れる必要があります。キャンペーンとクリエイティブはデータソースに属しています。データソース ID はこれらをまとめるもので、これによりイベント呼び出しで送信される ID にファイルのコンテンツを正確に関連付けることができます。[イベント呼び出し ID によるファイル名、コンテンツ、配信パスの決定方法](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names)を参照してください。 |
-| `<yyyymmdd_0_child ID>` | ファイル名です。詳しくは、[メタデータファイルの命名規則](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)を参照してください。 |
+| `<yyyymmdd_0_child ID>` | ファイル名です。[メタデータファイルの命名規則](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)を参照してください。 |
 
 ## ファイル処理の回数と更新 {#processing-times}
 
