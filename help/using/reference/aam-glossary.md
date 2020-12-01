@@ -124,7 +124,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 フォルダー分類における、特性の自動的なグループ化。階層内の各フォルダーで、セグメントを定義できる特性が自動的に作成されます。
 
-詳しくは、[フォルダー特性について](../features/traits/about-folder-traits.md)を参照してください。
+See[フォルダー特性について](../features/traits/about-folder-traits.md)を参照してください。
 
 <br> 
 
@@ -160,7 +160,7 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 <br> 
 
-**Integration Code**
+**統合コード**
 
 [!DNL Audience Manager] UI または API を使用して特性、セグメントまたはデータソースを作成する際に、オプションで統合コードを追加できます。統合コードは以下のように様々な目的に使用されます。
 
@@ -190,7 +190,7 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 <br> 
 
-**Profile Link**
+**プロファイルリンク**
 
 詳しくは、[定義済みのプロファイルの結合ルールオプション](../features/profile-merge-rules/merge-rule-definitions.md)を参照してください。
 
@@ -206,7 +206,7 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 **適合**
 
-ある特性に適合するサイト訪問者のアクション。 [訪問者プロファイルビューア](../features/visitor-profile-viewer.md)ツールを使用して特定のユーザーの特性への適合情報を取得できます。
+ある特性に適合するサイト訪問者のアクション。You can use the[訪問者プロファイルビューア](../features/visitor-profile-viewer.md)ツールを使用して特定のユーザーの特性への適合情報を取得できます。
 
 ## S-T {#s-t}
 
