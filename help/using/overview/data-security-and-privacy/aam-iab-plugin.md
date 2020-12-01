@@ -74,7 +74,7 @@ Audience Manager で IAB TCF 用 Audience Manager プラグインを使用する
 
 ## レコメンデーションと実装方法 {#recommendations}
 
-Audience Manager で IAB TCF サポートを有効にするには、[IAB をオプトインで設定する方法](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/iab.html)に関するドキュメントをお読みください。
+Audience Manager で IAB TCF サポートを有効にするには、[IAB をオプトインで設定する方法](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html)に関するドキュメントをお読みください。
 
 これをおこなう最も簡単な方法は、[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) を使用して、プロパティに [!DNL ECID Opt-in] オプトインを追加することです。Launch 拡張機能のセットアップ方法については、[ECID オプトイン拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)をお読みください。
 
@@ -206,7 +206,7 @@ Audience Manager は、[ドキュメントの別の記事](data-privacy-requests
 
 ## その他のリソース {#additional-resources}
 
-* [Adobe Experience Platform ID サービスのオプトイン](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/optin-overview.html)
+* [Adobe Experience Platform ID サービスのオプトイン](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html)
 * [IAB Europe GDPR の透明性および同意フレームワーク](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
 * [IAB Europe GDPR の透明性および同意フレームワークの技術仕様](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
 * [IAB TCF プラグイン - ビデオデモ](https://helpx.adobe.com/jp/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)
