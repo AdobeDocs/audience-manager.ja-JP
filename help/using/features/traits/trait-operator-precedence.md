@@ -26,7 +26,7 @@ ht-degree: 100%
   <tr> 
    <th colname="col1" class="entry"> 演算子の優先順位 </th> 
    <th colname="col2" class="entry"> シンボル </th> 
-   <th colname="col3" class="entry"> コメント </th> 
+   <th colname="col3" class="entry"> Comments </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -37,7 +37,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 比較演算子 </td> 
-   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
+   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
    <td colname="col3"> 次の値より小さい、次の値より大きい、次の値以下、次の値以上が、次に評価されます。 </td> 
   </tr> 
   <tr> 
