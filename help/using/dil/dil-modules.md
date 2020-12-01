@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# DIL モジュール{#dil-modules}
+# DIL モジュール {#dil-modules}
 
 `DIL.modules` 名前空間のメソッドについて説明します。これらのモジュールを使用すると、データの収集や Audience Manager オブジェクトの操作をプログラムでおこなうことができます。
 
@@ -47,7 +47,7 @@ r_dil_sc_init.xml
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 名前 </th> 
-   <th colname="col2" class="entry"> タイプ </th> 
+   <th colname="col2" class="entry"> のタイプ </th> 
    <th colname="col3" class="entry"> 説明 </th> 
   </tr> 
  </thead>
@@ -223,7 +223,7 @@ r_dil_ga_init.xml
 
 **パラメーター**
 
-| 名前 | タイプ | 説明 |
+| 名前 | のタイプ | 説明 |
 |---|---|---|
 | `_gaq` | 配列 | GA コマンドが格納されている配列。 |
 | `dilInstance` | オブジェクト | DIL インスタンスが格納されているオブジェクト。 |
