@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,26 +19,26 @@ ht-degree: 87%
 
 Audience Manager が他のデータプロバイダーおよびシステムと情報を交換する方法の概要です。
 
-## Supported Data Integration Methods: Real-Time and [!DNL Server-to-Server] {#supported-methods}
+## サポートされるデータ統合方法：リアルタイムおよび [!DNL Server-to-Server] {#supported-methods}
 
 適切な統合方法の選択は、ビジネス要件とデータパートナーの技術力の組み合わせによって決まります。Audience Manager では、以下のどちらかの方法で他のデータプロバイダーと訪問者情報を交換します。
 
 * **リアルタイム：**&#x200B;ユーザーがサイトを訪問するとすぐにデータを転送します。この方法は、*`synchronous`* 統合とも呼ばれます。
-* **バッチ([!DNL Server-to-Server]):** 訪問者がページを離れた後、設定されたスケジュールに従って、サーバー間でデータを転送します。 この方法は、 *`out-of-band`* または *`asynchronous`* 統合とも呼ばれます。
+* **バッチ（[!DNL Server-to-Server]）：**&#x200B;訪問者がページを離れた後、設定されたスケジュールでサーバー間でデータを転送します。この方法は、*`out-of-band`*&#x200B;または&#x200B;*`asynchronous`*&#x200B;統合とも呼ばれます。
 
 ## 前提条件：特性分類の作成 {#prereqs}
 
-統合プロセスの開始前に、必ず [!DNL Audience Manager] UI で[特性](../features/traits/create-onboarded-rule-based-traits.md)と[フォルダー構造](../features/traits/trait-storage.md#create-trait-storage-folder)を作成してください。The taxonomy will contain all your [!UICONTROL traits] organized in a logical hierarchy.
+統合プロセスの開始前に、必ず [!DNL Audience Manager] UI で[特性](../features/traits/create-onboarded-rule-based-traits.md)と[フォルダー構造](../features/traits/trait-storage.md#create-trait-storage-folder)を作成してください。分類には、すべての[!UICONTROL traits]が論理階層で整理された状態で含まれます。
 
 ## 統合のユースケース {#integration-use-cases}
 
 Audience Manager データ統合方法のユースケースの概要と、それぞれのメリットおよびデメリットです。
 
-### リアルタイム [!DNL Server-to-Server] 統合
+### リアルタイム[!DNL Server-to-Server]統合
 
 <!-- c_int_types_use_cases.xml -->
 
-A real-time [!DNL server-to-server] data integration rapidly synchronizes user data between Audience Manager servers and another targeting system. ほとんどの場合、データ交換は、ターゲティングシステムの更新間隔に応じて数秒または数分以内におこなわれます。ただし、Audience Manager ではなく、ターゲティングシステムがこの更新間隔を決定します。さらに、更新間隔はシステムごとに異なることがあります。A real-time, [!UICONTROL server-to-server] integration is the preferred integration type for data exchanges. Audience Manager は、ターゲティングパートナーがサポートできる場合は常に、この方法を使用します。
+リアルタイム[!DNL server-to-server]データ統合は、Audience Manager サーバーと他のターゲティングシステムとの間でユーザーデータをすばやく同期します。ほとんどの場合、データ交換は、ターゲティングシステムの更新間隔に応じて数秒または数分以内におこなわれます。ただし、Audience Manager ではなく、ターゲティングシステムがこの更新間隔を決定します。さらに、更新間隔はシステムごとに異なることがあります。リアルタイムでの[!UICONTROL server-to-server]統合は、データ交換にお勧めの統合のタイプです。Audience Manager は、ターゲティングパートナーがサポートできる場合は常に、この方法を使用します。
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -57,9 +57,9 @@ A real-time [!DNL server-to-server] data integration rapidly synchronizes user d
  </tr>
 </table>
 
-### [!DNL Server-to-Server] バッチ統合
+### [!DNL Server-to-Server]バッチ統合
 
-A [!DNL server-to-server] batch integration bundles data and sends it to other systems at set intervals rather than in near real time. データ転送間隔は、24 時間から始まります。一部のデータプロバイダーは、この統合のタイプのみをサポートします。ただし、一般的な傾向としては、バッチ統合からリアルタイム統合に移っています。
+[!DNL server-to-server] バッチ統合は、データをまとめて、ほぼリアルタイムではなく、設定した間隔で他のシステムに送信します。データ転送間隔は、24 時間から始まります。一部のデータプロバイダーは、この統合のタイプのみをサポートします。ただし、一般的な傾向としては、バッチ統合からリアルタイム統合に移っています。
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -152,7 +152,7 @@ Audience Manager がサードパーティベンダーと同期的に（リアル
 
 <!-- c_int_overview_async.xml -->
 
-The batch ([!DNL server-to-server]) data integration process follows most of the steps outlined in the real-time data transfer process. ただし、セグメント ID を即座に返す代わりに、ユーザー情報がアドビのサーバーに保存されて、定期的にサードパーティデータプロバイダーと同期されます。非同期のデータ転送プロセスは次の場合に便利です。
+バッチ（[!DNL server-to-server]）データ統合プロセスは、リアルタイムデータ転送プロセスで説明したほとんどの手順に従います。ただし、セグメント ID を即座に返す代わりに、ユーザー情報がアドビのサーバーに保存されて、定期的にサードパーティデータプロバイダーと同期されます。非同期のデータ転送プロセスは次の場合に便利です。
 
 * すぐにデータ転送する必要がない場合。
 * セグメント化されたユーザーの大規模なプールを作成するためにデータを収集する場合。
@@ -167,4 +167,4 @@ The batch ([!DNL server-to-server]) data integration process follows most of the
 
 ![](assets/s2s_70.png)
 
-For information describing the time frames when Audience Manager processes inbound and outbound [!DNL Server-to-Server] ([!UICONTROL S2S]) file transfers, see [Reporting and File Transfer Time-Frame Guidelines](../reference/reporting-file-transfer-timeframe.md).
+Audience Manager が受信および送信 [!DNL Server-to-Server]（[!UICONTROL S2S]）ファイル転送を処理するときの時間枠について詳しくは、[レポートとファイル転送時間枠のガイドライン](../reference/reporting-file-transfer-timeframe.md)を参照してください。
