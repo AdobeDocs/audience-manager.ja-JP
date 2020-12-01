@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# エッジデータセンターについて{#understanding-the-edge-data-center}
+# エッジデータセンターについて {#understanding-the-edge-data-center}
 
 Audience Manager はエッジコンピューティングという分散型トポロジを採用することで、外部ソースによって課される要求を満たします。
 
