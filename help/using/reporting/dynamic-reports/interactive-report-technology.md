@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# レポート技術{#report-technology}
+# レポート技術 {#report-technology}
 
 インタラクティブレポートの技術的基盤となるソフトウェアとデータ更新スケジュールについて説明します。
 
@@ -83,6 +83,6 @@ r_legend.xml
  </tbody> 
 </table>
 
-## Tableauのドキュメント {#tableau-documentation}
+## Tableau ドキュメント {#tableau-documentation}
 
-インタラクティブレポートに表示されるTableauコントロールの詳細については、Linux 2018.2上の [Tableau Serverの公式ドキュメントを参照してください。](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
+インタラクティブレポートに表示される Tableau コントロールの詳細については、[Linux 2018.2 での Tableau Server](https://help.tableau.com/v2018.2/server-linux/ja-jp/get_started_server.htm) に関する公式ドキュメントを参照してください。
