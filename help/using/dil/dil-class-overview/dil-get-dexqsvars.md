@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# dexGetQSVars{#dexgetqsvars}
+# dexGetQSVars {#dexgetqsvars}
 
 広告サーバーからの特定の値を取得します。
 
@@ -29,7 +29,7 @@ r_dil_get_dexqsvars.xml
 
 **パラメーター**
 
-| 名前 | タイプ | 説明 |
+| 名前 | のタイプ | 説明 |
 |---|---|---|
 | `variableName` | 文字列 | 値を取得する変数の名前。 |
 | `partner` | 文字列 | 検索するパートナーの名前。 |
