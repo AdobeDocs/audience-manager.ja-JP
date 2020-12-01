@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# システムコンポーネントの概要{#system-components-overview}
+# システムコンポーネントの概要 {#system-components-overview}
 
 Audience Manager システムにおける主要なコンポーネントおよびデータフローについての概要です。
 
