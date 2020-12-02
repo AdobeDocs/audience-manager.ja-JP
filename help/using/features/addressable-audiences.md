@@ -21,7 +21,7 @@ ht-degree: 100%
 
 [!UICONTROL Addressable Audience]の機能およびユースケースの概要です。
 
-## [!UICONTROL Addressable Audience]とは {#addressable-audience-description}
+##  [!UICONTROL Addressable Audience]とは {#addressable-audience-description}
 
 [!UICONTROL Addressable Audiences]では、[!DNL Audience Manager] がデータを収集している御社のすべてのシステムと選択された宛先との間のオーディエンスの重複を表示します。この概念を理解するには、次の図を参照してください。各円の重複は、各種のアドレス可能なオーディエンスを示します。
 
@@ -149,7 +149,7 @@ ht-degree: 100%
 
 * [!UICONTROL Segment Addressable Audiences]は、*自社のファーストパーティデータとセカンドパーティおよびサードパーティデータのセグメント認定*&#x200B;に基づきます。この指標からは、ターゲットプラットフォームの[!UICONTROL addressable audiences]に関してより詳細で正確な情報が得られます。
 
-## [!UICONTROL Addressable Audiences] のマッチ率の低下の原因 {#low-match-rates}
+## [!UICONTROL Addressable Audiences] {#low-match-rates}のマッチ率の低下の原因
 
 [!UICONTROL Addressable Audience]のマッチ率の低下またはレポートされる数値の不一致を引き起こす原因となる一般的な要素。
 
