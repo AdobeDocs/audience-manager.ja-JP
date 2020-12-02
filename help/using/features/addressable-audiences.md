@@ -21,7 +21,7 @@ ht-degree: 100%
 
 [!UICONTROL Addressable Audience]の機能およびユースケースの概要です。
 
-##  [!UICONTROL Addressable Audience]とは {#addressable-audience-description}
+## [!UICONTROL Addressable Audience]とは {#addressable-audience-description}
 
 [!UICONTROL Addressable Audiences]では、[!DNL Audience Manager] がデータを収集している御社のすべてのシステムと選択された宛先との間のオーディエンスの重複を表示します。この概念を理解するには、次の図を参照してください。各円の重複は、各種のアドレス可能なオーディエンスを示します。
 
