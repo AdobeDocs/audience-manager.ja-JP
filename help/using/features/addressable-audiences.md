@@ -149,7 +149,7 @@ ht-degree: 100%
 
 * [!UICONTROL Segment Addressable Audiences]は、*自社のファーストパーティデータとセカンドパーティおよびサードパーティデータのセグメント認定*&#x200B;に基づきます。この指標からは、ターゲットプラットフォームの[!UICONTROL addressable audiences]に関してより詳細で正確な情報が得られます。
 
-## [!UICONTROL Addressable Audiences] {#low-match-rates}のマッチ率の低下の原因
+## [!UICONTROL Addressable Audiences] のマッチ率の低下の原因 {#low-match-rates}
 
 [!UICONTROL Addressable Audience]のマッチ率の低下またはレポートされる数値の不一致を引き起こす原因となる一般的な要素。
 
