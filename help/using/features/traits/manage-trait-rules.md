@@ -7,7 +7,7 @@ title: 特性ルールの管理
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
@@ -29,13 +29,17 @@ ht-degree: 100%
 
 1. このセクションのフィールドおよびコントロールを使用すると、キーと値のペアからシグナルを作成して、比較演算子でそれらの間の関係を設定できます。キー、演算子および値が必要です。
 1. 「[!UICONTROL Data Explorer Options]」を使用すると、シグナルに対する特性適合をバックフィルできます。
+
    >[!NOTE]
    >
    >このオプションを利用できるのは、[!UICONTROL Data Explorer] のお客様のみです。詳しくは、アドビのコンサルタントにお問い合わせください。
+
 1. このセクションには、バックフィルの対象の特性と対象外の特性について、[!UICONTROL Expression Builder]で定義されたシグナルの過去 7 日間にわたる特性適合の推定値が表示されます。
+
    >[!NOTE]
    >
    >このオプションを利用できるのは、[!UICONTROL Data Explorer] のお客様のみです。詳しくは、アドビのコンサルタントにお問い合わせください。
+
 1. テストフィールドを使用すると、Audience Manager にデータを送信する際に使用するシグナルルールまたは [!DNL URL] の組み合わせを検証できます。
 
 ## 特性ルールの作成 {#create-trait-rule}
@@ -47,18 +51,24 @@ ht-degree: 100%
 **[!UICONTROL Basic Information]**&#x200B;セクションの必須フィールドは、特性ルールを作成する&#x200B;*前*&#x200B;に入力します。
 
 1. **[!UICONTROL Trait Expression]**&#x200B;セクションを展開して、キーと値の名前を入力します。これにより、*`signal`* が作成されます。
+
    >[!NOTE]
    >
    >イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、キー変数でプレフィックス `c_`（またはその他の命名規則）を使用します。
+
 1. [ドロップダウンから](../../features/traits/trait-comparison-operators.md)比較演算子&#x200B;**[!UICONTROL Operator]**&#x200B;を選択します。比較演算子はシグナルの要素間の関係を比較します。
+
    >[!NOTE]
    >
    >[!DNL Boolean] 演算子 [!UICONTROL OR] はグループ&#x200B;*内*&#x200B;の複数のシグナル間の関係を確立します。これを変更することはできません。
+
 1. 「**[!UICONTROL Add Rule]**」をクリックします。保存されたルールは、データ入力フィールドの上にある特性ワークスペースに表示されます。
 
 ### 例 {#example-trait-rule}
 
 以下の例では、ユーザーが製品 ID に基づいて新しい特性ルールを作成します。このルールを作成するために、ユーザーはキー `productkey` を「次と等しい」演算子（`==`）により値 `2093` にリンクしています。
+
+
 ![](assets/tb_sample_rule1.png)
 
 **[!UICONTROL Add Rule]**&#x200B;をクリックすると特性が保存され、[!UICONTROL Expression Builder]ワークスペースに移動します。
@@ -74,10 +84,14 @@ ht-degree: 100%
 新しいルールグループを作成する前に、特性に 2 つ以上のルールが含まれている必要があります。
 
 1. 移動するルールにカーソルを移動して、ハイライト表示します。
-1. ハイライト表示されたルールの境界線にカーソルを移動します。ルールが自動的に現在のグループから分離され、新しいグループに移動します。
+1. ハイライト表示されたルールの境界線にカーソルを移動します。
+
+   ルールが自動的に現在のグループから分離され、新しいグループに移動します。
+
    >[!NOTE]
    >
    >誤ってルールを移動してしまった場合は、ルールをドラッグして元のグループに戻します。
+
 1. ドロップダウンメニューから [!DNL Boolean] 演算子（[!UICONTROL AND NOT]、[!UICONTROL AND]、[!UICONTROL OR]）を選択し、ルールグループ間の関係を設定します。
 
 ## グループ間でルールを移動 {#move-rules-between-groups}
