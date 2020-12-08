@@ -1,15 +1,15 @@
 ---
 description: Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、イベント呼び出しでのデータの送信方法について説明します。
-seo-description: Audience Manager セグメントの構成要素、オーディエンスの認定基準の設定に使用される表現、イベント呼び出しでのデータの送信方法について説明します。
+landing-page-description: Describes components of a segment, expressions used to set audience qualification criteria, and how data is transmitted.
 seo-title: シグナル、特性、セグメント
 solution: Audience Manager
 title: シグナル、特性、セグメント
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
