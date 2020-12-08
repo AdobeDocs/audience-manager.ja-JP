@@ -1,16 +1,12 @@
 ---
-source-git-commit: 84deeb062937c7bf46ee0f6f9516f9d49dbf4df6
+source-git-commit: 366e08e6db731d0ba49a961609688212f60832fd
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '517'
-ht-degree: 69%
+source-wordcount: '435'
+ht-degree: 81%
 
 ---
 # 記事協力のお願い
-
-| EXL-PR | EXL | プレビュー | アクティブ化 | 発行数 | ヘルプ |
-|--- |--- |--- |--- |--- |--- |
-| [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_pr-exl/lastBuild/) | [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/audience-manager.en_exl/lastBuild/lastBuild) | [プレビューURL](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [ライブURL](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=en) | [オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 コミュニティの皆様、およびドキュメントチーム以外のアドビ従業員からのコンテンツの投稿をお待ちしております。
 
@@ -20,13 +16,13 @@ ht-degree: 69%
 
 ## アドビコンテンツへの協力について
 
-『 [Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)』を参照してください。
+『[Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/ja-JP/contributor/contributor-guide/introduction.html)』を参照してください。
 
 記事に協力していただく方法は、コミュニティメンバーとアドビ従業員のどちらであるか、およびおこなう予定の改訂内容によって異なります。
 
 ### 軽微な改訂
 
-軽微な更新を投稿する場合には、目的の記事にアクセスし、**Edit** リンクをクリックしてください。当該記事の GitHub ソースが開きます。その後、GitHub の UI を使用して、更新をおこなってください。See the general [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for more information.
+軽微な更新を投稿する場合には、目的の記事にアクセスし、**Edit** リンクをクリックしてください。当該記事の GitHub ソースが開きます。その後、GitHub の UI を使用して、更新をおこなってください。詳細については、『一般的な[Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)』を参照してください。
 
 このリポジトリのドキュメントおよびコード例にお寄せいただいた軽微な修正、更新は、アドビの利用条件の対象となります。
 
@@ -40,13 +36,13 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### アドビ従業員による大幅な改訂
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it&#39;s your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Adobe Experience Cloudソリューションのテクニカルライター、プログラムマネージャ、または製品チームの開発者で、お客様が技術記事の提供や作成を行う場合は、プライベートリポジトリ[https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs)を使用する必要があります。<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## ツールおよびセットアップ
 
 コミュニティメンバーの方は、基本的な編集をおこなう場合は GitHub の UI を使用し、大幅な改訂をおこなう場合はリポジトリをフォークしてください。
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for details.
+詳しくは、『[Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)』を参照してください。
 
 ## Markdown を使用して投稿内容の書式を整形する方法
 
