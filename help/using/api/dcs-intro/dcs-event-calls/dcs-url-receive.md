@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS からのデータ受信
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 feature: DCS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 | `stuff` | このオブジェクトには、すべての Cookie の宛先の情報が含まれています。このオブジェクトの値（リスト）は、ユーザーのアクションに応じて動的に変わります。 |
 | `tid` | トランザクション ID（デバッグ目的で使用される 12 文字の一意の ID）です。DCS への各 /event 呼び出しでは、応答の改善および高速化に関するサポートへの問い合わせで参照できる tid を受け取ります。 |
 | `ttl` | Cookie の有効期間（日単位）です。 |
-| `u` および `uuid` | Audience Manager によって割り当てられユニークユーザー ID。これが必要になるのは、[サーバー間 DCS 呼び出し](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)をおこなう場合です。 |
+| `u` および `uuid` | Audience Manager によって割り当てられ一意のユーザー ID。これが必要になるのは、[サーバー間 DCS 呼び出し](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)をおこなう場合です。 |
 | `y` | 宛先のタイプ。iFrame（`iframe`）または画像（`img`）。 |
 
 >[!MORELIKETHIS]
