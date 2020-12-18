@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
