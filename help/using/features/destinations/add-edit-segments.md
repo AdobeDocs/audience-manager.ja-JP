@@ -5,9 +5,9 @@ seo-title: サーバー間宛先のセグメントの追加または編集
 solution: Audience Manager
 title: サーバー間宛先のセグメントの追加または編集
 feature: Destination Basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 55925e803e16580e0d9357d973405cf39370a8fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
 ht-degree: 100%
 
