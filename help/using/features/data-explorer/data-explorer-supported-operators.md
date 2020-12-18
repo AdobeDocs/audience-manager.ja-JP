@@ -5,9 +5,9 @@ seo-title: サポートされる論理演算子
 title: サポートされる論理演算子
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 feature: Data Explorer
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '164'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 |---|---|
 | **==** | 次と等しい |
 | **>** | 次の値より大きい |
-| **&lt;>** | 次の値より小さい |
+| **&lt;** | 次の値より小さい |
 | **=>** | 次の値以上 |
-| **&lt;>** | 次の値以下 |
+| **&lt;=** | 次の値以下 |
 
 ### 名前付き演算子
 
