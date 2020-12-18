@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 定義済みのプロファイルの結合ルールオプション
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge Rules
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
 ht-degree: 100%
 
