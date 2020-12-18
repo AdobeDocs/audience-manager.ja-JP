@@ -7,9 +7,9 @@ solution: Audience Manager
 title: 訪問者プロファイルビューア
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
 feature: Traits
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
 ht-degree: 100%
 
