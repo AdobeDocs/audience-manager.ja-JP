@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 送信データ転送のための ID 同期
 uuid: f3849be8-1094-47db-9296-7482f020af18
 feature: Outbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Audience Manager とサードパーティデータプロバイダーの間でユ
 
 ## ID 同期の目的
 
-ID 同期は、送信の非同期データ転送プロセスの最初のステップです。このステップでは、[!DNL Audience Manager] およびベンダーは、各自のサイトベンダーの ID を比較およびマッチングします。例えば、ある [!DNL Audience Manager] のお客様は、ID 123 でユーザーを把握します。しかし、データパートナーは、このユーザーを ID 456 で識別します。この同期プロセスにより、[!DNL Audience Manager] およびデータベンダーは、これらの様々な ID を照合し、各自のシステムでユーザーを識別できます。完了したら、[!DNL Audience Manager] およびサードパーティデータプロバイダーは、個別ユーザーごとに対応する ID をアドビのネットワーク上で確認できます。
+ID 同期は、送信の非同期データ転送プロセスの最初のステップです。このステップでは、[!DNL Audience Manager] およびベンダーは、各自のサイトベンダーの ID を比較およびマッチングします。例えば、ある [!DNL Audience Manager] のお客様は、ID 123 でユーザーを把握します。しかし、データパートナーは、このユーザーを ID 456 で識別します。この同期プロセスにより、[!DNL Audience Manager] およびデータベンダーは、これらの様々な ID を照合し、各自のシステムでユーザーを識別できます。完了したら、[!DNL Audience Manager] およびサードパーティデータプロバイダーは、ユニークユーザーごとに対応する ID をアドビのネットワーク上で確認できます。
 
 ## URL 構文
 
