@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
-   <td colname="col2"> <p>サイト訪問者の ID。<span class="term"> データプロバイダー個別ユーザー ID</span> または DPUUID。 </p> </td> 
+   <td colname="col2"> <p>サイト訪問者の ID。<span class="term"> データプロバイダー一意のユーザー ID</span> または DPUUID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertiser-ID </p> </td> 
@@ -141,7 +141,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## データファイルの配信方法  {#delivery-methods}
+## データファイルの配信方法 {#delivery-methods}
 
 インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
