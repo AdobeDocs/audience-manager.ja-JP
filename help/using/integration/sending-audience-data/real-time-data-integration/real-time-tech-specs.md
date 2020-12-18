@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 受信リアルタイムデータ転送の技術仕様
 uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
 feature: Inbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
 ht-degree: 100%
 
