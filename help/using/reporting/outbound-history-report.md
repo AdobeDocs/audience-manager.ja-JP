@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 送信ファイル履歴
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
 feature: inbound and outbound reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
 ht-degree: 100%
 
