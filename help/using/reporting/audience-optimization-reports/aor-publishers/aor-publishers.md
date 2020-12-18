@@ -3,14 +3,14 @@ description: Audience Optimization for Publishers を使用すれば、自社が
 seo-description: Audience Optimization for Publishers を使用すれば、自社が所有および運用しているコンテンツにおける、どの程度 Audience Manager のセグメントのパフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の指標を組み合わせることで、オーディエンスの最適化と収益化の機会を導き出します。
 seo-title: Audience Optimization for Publishers
 solution: Audience Manager
-title: 発行者のAudience Optimization
+title: Audience Optimization for Publishers
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
 feature: audience optimization reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Audience Optimization for Publishers を使用すれば、自社が所有およ�
 
 ## メタデータ {#metadata}
 
-レポートに表示されるパフォーマンス情報は、[!DNL Google Ad Manager] インスタンスからインポートされます。ID ではなくわかりやすfい名前をレポート内の項目に付けることができるように、メタデータファイルをアドビに送信する必要があります。[Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)へのGoogle Ad Managerデータファイルの読み込みの手順3で、メタデータの送信方法を説明します。
+レポートに表示されるパフォーマンス情報は、[!DNL Google Ad Manager] インスタンスからインポートされます。ID ではなくわかりやすfい名前をレポート内の項目に付けることができるように、メタデータファイルをアドビに送信する必要があります。[Google Ad Manager データファイルを Audience Manager に読み込む](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 では、メタデータの送信方法について説明しています。
 
 ## 使用可能なレポート {#available-reports}
 
@@ -36,4 +36,4 @@ Audience Optimization for Publishers を使用すれば、自社が所有およ�
 + [上位の未使用特性](publisher-top-unused-traits.md)
 + [広告ユニット間重複](publisher-ad-unit-overlap.md)
 + [セグメント - 広告ユニット間重複](publisher-segment-ad-unit-overlap.md)
-+ [個別ユーザーのリーチ](publisher-unique-reach.md)
++ [ユニークユーザーのリーチ](publisher-unique-reach.md)
