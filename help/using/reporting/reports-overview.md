@@ -4,9 +4,9 @@ seo-description: Analytics メニューのオプションを使用して、Adobe
 seo-title: Adobe Audience Manager（AAM）のレポートの概要
 title: レポートの概要
 feature: reporting reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
 ht-degree: 100%
 
@@ -43,13 +43,13 @@ Audience Manager がレポートに入力する情報を受信する際の時間
 
    [!UICONTROL Trend report]は、[!UICONTROL traits]および[!UICONTROL segments]に関するトレンドデータを返します。
 
-* [重複レポートと一般レポートでの個別ユーザーのカウント](/help/using/reporting/unique-user-counts.md)
+* [重複レポートと一般レポートでのユニークユーザーのカウント](/help/using/reporting/unique-user-counts.md)
 
-   [!UICONTROL trait]および期間が同じレポートにおける、個別ユーザーの合計数の変動について説明します。
+   [!UICONTROL trait]および期間が同じレポートにおける、ユニークユーザーの合計数の変動について説明します。
 
 * [レポートダッシュボード](/help/using/reporting/trend-reports.md)
 
-   ダッシュボードを使用すると、指定した期間のパートナーの個別訪問者数を[!UICONTROL trait]タイプおよび[!UICONTROL segments]別に分類した情報を表示できます。
+   ダッシュボードを使用すると、指定した期間のパートナーのユニーク訪問者数を[!UICONTROL trait]タイプおよび[!UICONTROL segments]別に分類した情報を表示できます。
 
 * [選択した Audience Manager レポートでのデータサンプリングとエラー率](/help/using/reporting/report-sampling.md)
 
