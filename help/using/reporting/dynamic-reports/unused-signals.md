@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 未使用シグナルレポート
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: overlap reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
 ht-degree: 100%
 
