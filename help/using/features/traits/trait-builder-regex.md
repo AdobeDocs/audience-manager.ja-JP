@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 特性ビルダーでの正規表現の使用
 uuid: c263dc26-a920-48b8-b76a-6d82e7836196
 feature: Traits
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
 ht-degree: 100%
 
