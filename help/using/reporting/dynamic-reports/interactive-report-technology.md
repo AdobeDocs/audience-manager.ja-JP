@@ -6,9 +6,9 @@ solution: Audience Manager
 title: レポート技術
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: overlap reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ c_report_technology.xml
 [!DNL Audience Manager] は、[Tableau](https://www.tableausoftware.com/) ソフトウェアを使用してインタラクティブレポートにデータを表示します。[!DNL Tableau] により、以下に役立つ視覚的なキューおよびシンボルを[!UICONTROL Delivery and Overlap]レポートで使用できます。
 
 * パフォーマンスが高いまたは低い特性を見つける。
-* 個別訪問者の重複が多いまたは少ない特性およびセグメントを見分ける。
+* ユニーク訪問者の重複が多いまたは少ない特性およびセグメントを見分ける。
 * 重複データを使用して、ターゲット設定されたセグメントを作成する。
 * 重複の少ない関連特性を特定することでリーチを拡大する。
 
@@ -78,7 +78,7 @@ r_legend.xml
   </tr> 
   <tr> 
    <td colname="col1"> <b>サイズ</b> </td> 
-   <td colname="col2"> サイズの増減はリーチに比例します（特性またはセグメントのクリックまたは個別ユーザーの数または割合）。 </td> 
+   <td colname="col2"> サイズの増減はリーチに比例します（特性またはセグメントのクリックまたはユニークユーザーの数または割合）。 </td> 
   </tr> 
  </tbody> 
 </table>
