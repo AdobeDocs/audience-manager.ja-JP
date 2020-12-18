@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 非公開データフィード
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
 feature: Audience Marketplace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 ## 購入者にとっての非公開データフィード {#private-data-feeds-for-buyers}
 
-[Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) では、購入者には、非公開データフィードも他のオファーと同様に表示されます。ただし、この場合、フィードリストには、特性、個別ユーザーおよびユーザーの重複に関する概要情報は表示されません。また、データ販売者には、[!UICONTROL Marketplace] リストの [!UICONTROL Provider] 列で名前を表示または非表示にするオプションがあります。販売者がサブスクリプション要求を承認したら、非公開フィードのすべてのデータが使用可能になります（公開フィードのように機能します）。以下の [!UICONTROL Marketplace] の例に、購入者が使用できる 3 つの異なるフィードタイプを示します。
+[Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) では、購入者には、非公開データフィードも他のオファーと同様に表示されます。ただし、この場合、フィードリストには、特性、ユニークユーザーおよびユーザーの重複に関する概要情報は表示されません。また、データ販売者には、[!UICONTROL Marketplace] リストの [!UICONTROL Provider] 列で名前を表示または非表示にするオプションがあります。販売者がサブスクリプション要求を承認したら、非公開フィードのすべてのデータが使用可能になります（公開フィードのように機能します）。以下の [!UICONTROL Marketplace] の例に、購入者が使用できる 3 つの異なるフィードタイプを示します。
 
 ![](assets/buyer_marketplace.png)
 
