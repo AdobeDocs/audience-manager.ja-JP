@@ -5,9 +5,9 @@ seo-title: 検索条件の保存
 title: 検索条件の保存
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 feature: Data Explorer
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -36,4 +36,4 @@ ht-degree: 100%
 
 シグナル検索の保存方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25147/)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=jpn)
