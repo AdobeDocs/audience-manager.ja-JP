@@ -7,9 +7,9 @@ solution: Audience Manager
 title: ベータ環境
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
 ht-degree: 100%
 
