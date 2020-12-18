@@ -4,9 +4,9 @@ seo-description: Adobe Audience Manager（AAM）では、これらの仕様に�
 seo-title: Adobe Audience Manager（AAM）でのバッチ送信データ転送
 title: バッチ送信データ転送
 feature: Outbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
