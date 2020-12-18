@@ -6,9 +6,9 @@ solution: Audience Manager
 title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
 feature: DIL Implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
 ht-degree: 100%
 
