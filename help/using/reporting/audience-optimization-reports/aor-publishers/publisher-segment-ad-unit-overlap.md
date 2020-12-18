@@ -6,9 +6,9 @@ solution: Audience Manager
 title: セグメント - 広告ユニット間重複
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: audience optimization reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [!UICONTROL Segment to Ad Unit Overlap] レポートを使用すれば、どのオーディエンスが Web プロパティを訪問したかを把握できます。このレポートには、[!DNL Audience Manager] セグメントのメンバーと Web プロパティの訪問者数の間の重複が表示されます。重複が多い場合は、セグメントの多数のメンバーが Web プロパティを訪問していることになります。
 
-## セグメント - 広告ユニット間重複レポートの使用  {#using-the-report}
+## セグメント - 広告ユニット間重複レポートの使用 {#using-the-report}
 
 「**[!UICONTROL Top N Ad Units]**」コントロールと「**[!UICONTROL Top N Segments]**」コントロールを使用して、重複の広告ユニット数とセグメント数を選択します。それぞれ、最大 100 個の項目を選択できます。
 
@@ -55,7 +55,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Segment Real Time Uniques Count</span> </p> </td> 
-   <td colname="col2"> <p>指定した時間範囲にリアルタイムで認識され、また <span class="keyword"> Audience Manager</span>で認識された時点でセグメントの対象として認定された個別訪問者の数。 </p> </td> 
+   <td colname="col2"> <p>指定した時間範囲にリアルタイムで認識され、また <span class="keyword"> Audience Manager</span>で認識された時点でセグメントの対象として認定されたユニーク訪問者の数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Ad Unit Uniques Count</span> </p> </td> 
