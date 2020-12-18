@@ -6,9 +6,9 @@ solution: Audience Manager
 title: バッチデータ転送プロセスの説明
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 feature: Inbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
 ht-degree: 100%
 
