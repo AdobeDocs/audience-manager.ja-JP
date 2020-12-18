@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 報告されたコンバージョン特性
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
 feature: audience optimization reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Audience Manager でのコンバージョン特性の作成方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/23431/)
+>[!VIDEO](https://video.tv.adobe.com/v/23431/?captions=jpn)
 
 ## レポートのサンプル
 
