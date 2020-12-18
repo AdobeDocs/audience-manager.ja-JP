@@ -6,9 +6,9 @@ solution: Audience Manager
 title: テストグループの管理
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
    * **最大 15 個のテストセグメント**&#x200B;を作成し、デバイスの割合を任意に配分することができます。
    * テストセグメントの名前をクリックすると、編集することができます。
-   * 新規のテストセグメントが割り当てられると、全体が 100% になるように、自動的に割合が均等に配分されます。その後、割合を手動で編集できます。割合を編集した後でチェックボックスをクリックし、割合が合計 100% になることを確認します。そうでない場合は、次の手順に進めません。
+   * 新規のテストセグメントが割り当てられると、全体が 100％になるように、自動的に割合が均等に配分されます。その後、割合を手動で編集できます。割合を編集した後でチェックボックスをクリックし、割合が合計 100％になることを確認します。そうでない場合は、次の手順に進めません。
 
 1. **[!UICONTROL Set a Control Segment]**
 
