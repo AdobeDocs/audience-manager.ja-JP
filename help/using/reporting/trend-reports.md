@@ -6,9 +6,9 @@ solution: Audience Manager
 title: トレンドレポート
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
 ht-degree: 100%
 
