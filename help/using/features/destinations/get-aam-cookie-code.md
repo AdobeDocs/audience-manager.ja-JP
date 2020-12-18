@@ -6,9 +6,9 @@ solution: Audience Manager
 title: get_aamCookie コード
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
 feature: Destination Basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '75'
 ht-degree: 100%
 
