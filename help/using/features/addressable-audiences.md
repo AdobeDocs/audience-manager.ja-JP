@@ -8,9 +8,9 @@ title: アドレス可能なオーディエンス
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Match Rates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1824'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 ## 日付範囲の期間内のデータ {#date-range-intervals}
 
-[!UICONTROL Addressable Audience]および[!UICONTROL Destination]指標は、選択した時間間隔内に訪れた個別ユーザーの数を返します。例えば、1 人の訪問者は複数回サイトに訪れた場合でも、1 回のみカウントされます。初回の訪問が一意の訪問となり、これが記録されます。それ以降の訪問は再訪問となり、一意ではないためカウントされません。
+[!UICONTROL Addressable Audience]および[!UICONTROL Destination]指標は、選択した時間間隔内に訪れたユニークユーザーの数を返します。例えば、1 人の訪問者は複数回サイトに訪れた場合でも、1 回のみカウントされます。初回の訪問が一意の訪問となり、これが記録されます。それ以降の訪問は再訪問となり、一意ではないためカウントされません。
 
 選択した時間間隔内かそれより古いデータが日付範囲に含まれ、時間の経過に伴い、それぞれのレポート期間から外れていきます。例えば、[!UICONTROL Last 30 Days]オプションを選択した後、2 人の訪問者が訪れたとします。レポートでは、これらの訪問者は：
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 | [!UICONTROL Customer Total Audience] | ルックバック期間に、御社のシステムにおける[!UICONTROL rule-based trait]、またはオフラインファイルからの[!UICONTROL onboarded trait]に適合したデバイスの数。 |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] は、割合で表されます。 |
 
-### セグメントレベルのマッチ率の指標  {#segment-level-metrics}
+### セグメントレベルのマッチ率の指標 {#segment-level-metrics}
 
 これらの指標は[!UICONTROL segment]のメンバーシップについてのデータを返します。これらは各[!UICONTROL segments]について、オーディエンスサイズに関するより詳細で正確な情報を提供します。
 
