@@ -3,12 +3,12 @@ description: パートナー固有の DIL インスタンスを作成します�
 seo-description: パートナー固有の DIL インスタンスを作成します。
 seo-title: DIL create
 solution: Audience Manager
-title: DIL作成
+title: DIL create
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc13643681eebec17a95607482f2864e81b95820
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ r_dil_create.xml
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>：<span class="keyword">Audience Manager</span> により割り当てられたデータパートナー ID。 </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>：ユーザーの一意の ID。 </li> 
-    </ul> <p> <p>重要：エンコードされていない ID 値のみを使用してください。エンコードによって、識別子が二重にエンコードされます。 </p> </p> <p> <p>注意：<a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external">Adobe Experience Platform ID サービス</a>を使用している場合、<span class="wintitle">DIL</span> ではなく <code> setCustomerIDs </code> メソッドを使用して顧客 ID を設定します。詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html" format="https" scope="external">顧客 ID と認証状態</a>を参照してください。 </p> </p> </td> 
+    </ul> <p> <p>重要：エンコードされていない ID 値のみを使用してください。エンコードによって、識別子が二重にエンコードされます。 </p> </p> <p> <p>注意：<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html" format="https" scope="external">Adobe Experience Platform ID サービス</a>を使用している場合、<span class="wintitle">DIL</span> ではなく <code> setCustomerIDs </code> メソッドを使用して顧客 ID を設定します。詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html" format="https" scope="external">顧客 ID と認証状態</a>を参照してください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -84,7 +84,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableIDSyncs </code> </p> </td> 
    <td colname="col2"> <p>ブール値 </p> </td> 
-   <td colname="col3"> <p> <p>重要：この要素は、<span class="wintitle">DIL</span> バージョン 8.0（2018 年 8 月にリリース）で非推奨（廃止予定）となりました。代わりに、Adobe Experience Platform ID サービスの <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external">関数</a>を使用してください。 </p> </p> <p>ID 同期を無効にします。DIL v6.2 以降と訪問者 ID サービスを使用する場合、ID 同期を無効にする必要があります。この操作は <code> visitorService </code> 関数でおこないます（以下のサンプルコードを参照）。 </p> </td> 
+   <td colname="col3"> <p> <p>重要：この要素は、<span class="wintitle">DIL</span> バージョン 8.0（2018 年 8 月にリリース）で非推奨（廃止予定）となりました。代わりに、Adobe Experience Platform ID サービスの <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external">関数</a>を使用してください。 </p> </p> <p>ID 同期を無効にします。DIL v6.2 以降と訪問者 ID サービスを使用する場合、ID 同期を無効にする必要があります。この操作は <code> visitorService </code> 関数でおこないます（以下のサンプルコードを参照）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> enableErrorReporting </code> </p> </td> 
@@ -119,12 +119,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> uuidCookie </code> </p> </td> 
    <td colname="col2"> <p>オブジェクト </p> </td> 
-   <td colname="col3"> <p><span class="keyword">Audience Manager</span> により返された個別ユーザー ID を Cookie に設定します。<a href="../../dil/dil-class-overview/dil-create.md#uuidcookie-props">uuidCookie プロパティ</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p><span class="keyword">Audience Manager</span> により返された一意のユーザー ID を Cookie に設定します。<a href="../../dil/dil-class-overview/dil-create.md#uuidcookie-props">uuidCookie プロパティ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>オブジェクト </p> </td> 
-   <td colname="col3"> <p><span class="wintitle">DIL</span> 6.2 以降で必要です。 </p> <p> DIL では、<span class="wintitle">Adobe Experience Platform ID サービス</span>で <code> setCustomerIDs </code> 関数を使用して、宣言された ID を <span class="keyword">Audience Manager</span> に渡します。詳しくは、<a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">顧客 ID および認証の状態</a>を参照してください。 </p> </td> 
+   <td colname="col3"> <p><span class="wintitle">DIL</span> 6.2 以降で必要です。 </p> <p> DIL では、<span class="wintitle">Adobe Experience Platform ID サービス</span>で <code> setCustomerIDs </code> 関数を使用して、宣言された ID を <span class="keyword">Audience Manager</span> に渡します。詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html" format="https" scope="external">顧客 ID および認証の状態</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
