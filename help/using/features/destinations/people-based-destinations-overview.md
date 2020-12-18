@@ -5,9 +5,9 @@ seo-title: People-Based Destinations の概要とユースケース
 solution: Audience Manager
 title: 概要とユースケース
 feature: People-Based Destinations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '922'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Audience Manager から、ユーザーベースのチャネルでオーディエ
 
 他のユーザーベースのチャネルをまたいでオーディエンスをターゲティングする「従来の」方法では、宣伝したいプラットフォームで許可されている形式で顧客データを書き出し、プラットフォームの専用データオンボード方式を使用して、顧客データを広告主アカウントに取り込みます。この作業は、宣伝したい各プラットフォームで、手動で実行する必要があります。さらに、プラットフォームが異なれば、データ形式の要件も異なることがあり、プロセスの煩雑さも増します。
 
-![pbdの概要](assets/pbd-diagram.png)
+![pbd-overview](assets/pbd-diagram.png)
 
 [!DNL People-Based Destinations] を通じて、Audience Manager は顧客データを一元管理し、オーディエンスセグメントを構築し、複数のユーザーベースのチャネルをまたいでそれらをアクティブ化できます。これらをすべては、Audience Manager ユーザーインターフェイス内から実行できるので、各プラットフォームに手動でデータをアップロードする手間がなくなり、プロセスの貴重な時間を節約できます。
 
@@ -64,7 +64,7 @@ Audience Manager から、ユーザーベースのチャネルでオーディエ
 
 [!UICONTROL People-Based Destinations] を使用する際のデータフローの概要については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/28968/)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=jpn)
 
 ## ユースケース {#use-cases}
 
