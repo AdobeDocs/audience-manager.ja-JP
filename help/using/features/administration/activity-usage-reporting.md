@@ -7,9 +7,9 @@ solution: Audience Manager
 title: アクティビティ使用状況レポート
 topic: Activity Usage Reporting
 feature: Usage and Billing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 * **アクティビティ使用量コミットメントに対する実際のインスタンスアクティビティ使用量の追跡**：ほとんどのお客様は、Audience Manager インスタンスごとに毎月のアクティビティのコミットメントを見積もった後、すべてのインスタンスをまたいだ年間のアクティビティのコミットメントに集計します。このレポートは請求レポートではありませんが、コミットされたアクティビティ使用量を超過しているかどうかを把握するのに役立ちます。
 * **実装の変更の検証**：[!DNL Adobe Analytics] サーバーサイド転送の設定や サーバーコールの設定変更などの実装を最近更新した場合、このレポートを使用すれば、新しいアクティビティの量が期待したアクティビティ量と一致しているかどうかを確認できます。[!DNL Adobe Target]
 
-## デフォルト PCID の代わりに [!UICONTROL Activity Usage Report]> {#using}
+## デフォルト PCID の代わりに [!UICONTROL Activity Usage Report] {#using}
 
 [!UICONTROL Activity Usage Report] を表示するには、Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Usage]** に移動します。
 
