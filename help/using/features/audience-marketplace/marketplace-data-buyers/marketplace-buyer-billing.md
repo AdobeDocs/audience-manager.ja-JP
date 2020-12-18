@@ -7,9 +7,9 @@ title: データフィード購入者に対する請求
 keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2027'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 セグメントレベルの使用状況をレポートする方法についてのデモビデオもご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25522/)
+>[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=jpn)
 
  
 
@@ -252,7 +252,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 これらの 1,000,000 インプレッションのうち、
 
 * T1 は、セグメント母集団の 40％を占めます。これは、フィード A の 400,000 インプレッションに変換されます。
-* T2 は、セグメント母集団の 60%を占めます。これは、フィード A およびフィード B の 600,000 インプレッションに変換されます。
+* T2 は、セグメント母集団の 60％を占めます。これは、フィード A およびフィード B の 600,000 インプレッションに変換されます。
 
 データフィードレベルでは、インプレッションの配分方法は次のとおりです。
 
