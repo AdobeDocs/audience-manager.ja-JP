@@ -5,9 +5,9 @@ seo-title: Experience Cloud ソリューションや他の外部システムの�
 solution: Audience Manager
 title: 実装および統合ガイド
 feature: Third Party Integrations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '75'
 ht-degree: 100%
 
