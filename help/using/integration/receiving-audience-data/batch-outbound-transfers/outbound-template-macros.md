@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> データプロバイダー個別ユーザー識別子 </span>。 </p> <p>これは送信ファイルでのデータの宛先となるデータパートナーの ID です。 </p> </td> 
+   <td colname="col2"> <p> <span class="term"> データプロバイダー一意のユーザー ID </span>。 </p> <p>これは送信ファイルでのデータの宛先となるデータパートナーの ID です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
