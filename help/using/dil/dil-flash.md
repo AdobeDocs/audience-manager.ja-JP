@@ -3,12 +3,12 @@ description: FLA ファイルから Analytics に送信されたデータを収�
 seo-description: FLA ファイルから Analytics に送信されたデータを収集し、その情報を Audience Manager で使用します。
 seo-title: Flash DIL
 solution: Audience Manager
-title: FlashDIL
+title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
 ht-degree: 100%
 
@@ -140,8 +140,9 @@ r_flash_dil_actionscript.xml
 >[!NOTE]
 >
 >* このコードがサポートするパートナーインスタンス（`d.partner`）は、[!DNL Flash] オブジェクトごとに 1 つだけです。
->
->* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
+   >
+   >
+* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
 
 
 ```js
