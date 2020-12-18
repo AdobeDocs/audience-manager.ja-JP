@@ -6,9 +6,9 @@ solution: Audience Manager
 title: ヘルプと法的事項
 uuid: 522c9b17-3712-4619-9197-15d50eb97045
 feature: Support
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
 ht-degree: 100%
 
