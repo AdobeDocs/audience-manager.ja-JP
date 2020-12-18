@@ -6,9 +6,9 @@ solution: Audience Manager
 title: ログファイル転送のための転送制御ファイル
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
 ht-degree: 100%
 
