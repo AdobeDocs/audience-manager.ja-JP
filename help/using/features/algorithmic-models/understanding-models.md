@@ -7,9 +7,9 @@ solution: Audience Manager
 title: 類似（look-alike）モデリングについて
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 feature: Algorithmic Models
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1590'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## [!UICONTROL Look-Alike Modeling]で新しいユーザーを見つける {#find-new-users}
 
-[!UICONTROL Look-Alike Modeling] を使用すると、自動データ分析により、新しいユニークオーディエンスを発見できます。このプロセスは、[!UICONTROL trait]または[!UICONTROL segment]、時間間隔、ファーストパーティおよびサードパーティの[!UICONTROL data sources]を選択した時点で開始します。この選択が、アルゴリズムモデルの入力となります。分析処理が実行されると、選択した母集団と共有する特徴に基づいて、該当するユーザーを検索します。完了すると、このデータは[特性ビルダー](../../features/traits/about-trait-builder.md)で使用可能になります。ここでは、このデータを使用して[精度とリーチ](../../features/traits/trait-accuracy-reach.md)に基づいて特性を作成できます。さらに、アルゴリズム特性と[!UICONTROL rules-based traits]を結合するセグメントを作成し、[!DNL Boolean]式や比較演算子を使用して他の認定要件を追加することができます。[!UICONTROL Look-Alike Modeling] を使用すると、使用可能なすべての特性データから価値を動的に抽出できます。
+[!UICONTROL Look-Alike Modeling] を使用すると、自動データ分析により、新しい一意のオーディエンスを発見できます。このプロセスは、[!UICONTROL trait]または[!UICONTROL segment]、時間間隔、ファーストパーティおよびサードパーティの[!UICONTROL data sources]を選択した時点で開始します。この選択が、アルゴリズムモデルの入力となります。分析処理が実行されると、選択した母集団と共有する特徴に基づいて、該当するユーザーを検索します。完了すると、このデータは[特性ビルダー](../../features/traits/about-trait-builder.md)で使用可能になります。ここでは、このデータを使用して[精度とリーチ](../../features/traits/trait-accuracy-reach.md)に基づいて特性を作成できます。さらに、アルゴリズム特性と[!UICONTROL rules-based traits]を結合するセグメントを作成し、[!DNL Boolean]式や比較演算子を使用して他の認定要件を追加することができます。[!UICONTROL Look-Alike Modeling] を使用すると、使用可能なすべての特性データから価値を動的に抽出できます。
 
 ## メリット {#advantages}
 
@@ -59,11 +59,11 @@ ht-degree: 100%
 
 ### 手順 2：[!UICONTROL Data Source]で同じ[!UICONTROL Traits]を見つける
 
-比較のためのベースラインを作成した後、アルゴリズムは選択した[!UICONTROL data sources]内で同じ[!UICONTROL traits]を検索します。この手順では、[!UICONTROL TraitWeight] は、見つかったすべての[!UICONTROL traits]の頻度を計上し、ベースラインと比較します。しかし、ベースラインとは異なり、一般的でない[!UICONTROL traits]は出現頻度が高い特性よりランクが高くなります。出現頻度が低い[!UICONTROL traits]は、特異性が高いと見なされます。[!UICONTROL TraitWeight] は、一般的なベースライン[!UICONTROL traits]と一般的でない（特異性が高い）[!UICONTROL data source] [!UICONTROL traits]の組み合わせを、両方のデータセットに共通する[!UICONTROL traits]より影響力が大きく望ましいと評価します。アドビのモデルでは、このような大規模で一般的な[!UICONTROL traits]が認識され、相関関係が強いデータセットに過剰な優先度は割り当てられません。一般的でない[!UICONTROL traits]の優先度が高くなるのは、このような[!UICONTROL traits]のほうが、ボード全体で一般性の高い特性よりも、新しい個別ユーザーを表していると考えられるからです。
+比較のためのベースラインを作成した後、アルゴリズムは選択した[!UICONTROL data sources]内で同じ[!UICONTROL traits]を検索します。この手順では、[!UICONTROL TraitWeight] は、見つかったすべての[!UICONTROL traits]の頻度を計上し、ベースラインと比較します。しかし、ベースラインとは異なり、一般的でない[!UICONTROL traits]は出現頻度が高い特性よりランクが高くなります。出現頻度が低い[!UICONTROL traits]は、特異性が高いと見なされます。[!UICONTROL TraitWeight] は、一般的なベースライン[!UICONTROL traits]と一般的でない（特異性が高い）[!UICONTROL data source] [!UICONTROL traits]の組み合わせを、両方のデータセットに共通する[!UICONTROL traits]より影響力が大きく望ましいと評価します。アドビのモデルでは、このような大規模で一般的な[!UICONTROL traits]が認識され、相関関係が強いデータセットに過剰な優先度は割り当てられません。一般的でない[!UICONTROL traits]の優先度が高くなるのは、このような[!UICONTROL traits]のほうが、ボード全体で一般性の高い特性よりも、新しいユニークユーザーを表していると考えられるからです。
 
 ### 手順 3：重みを割り当てる
 
-この手順では、[!UICONTROL TraitWeight] は新しく見つかった[!UICONTROL traits]を、影響力や望ましさの順にランク付けします。重みの基準は、0%～100% の割合です。[!UICONTROL Traits]のランクが 100% に近づくと、基準となる母集団のオーディエンスに似ていることを意味します。また、重みの大きい[!UICONTROL traits]は高く評価されます。これは、このような特性が、確立されたベースラインオーディエンスと同様に行動する可能性がある、新しい個別ユーザーを表しているためです。[!UICONTROL TraitWeight] は、ベースラインで一般性が高く、比較対象のデータで特異性が高い[!UICONTROL traits]を、各データセットで共通の[!UICONTROL traits]よりも高く評価します。
+この手順では、[!UICONTROL TraitWeight] は新しく見つかった[!UICONTROL traits]を、影響力や望ましさの順にランク付けします。重みの基準は、0％～ 100％の割合です。[!UICONTROL Traits]のランクが 100％に近づくと、基準となる母集団のオーディエンスに似ていることを意味します。また、重みの大きい[!UICONTROL traits]は高く評価されます。これは、このような特性が、確立されたベースラインオーディエンスと同様に行動する可能性がある、新しいユニークユーザーを表しているためです。[!UICONTROL TraitWeight] は、ベースラインで一般性が高く、比較対象のデータで特異性が高い[!UICONTROL traits]を、各データセットで共通の[!UICONTROL traits]よりも高く評価します。
 
 ### 手順 4：ユーザーにスコアを割り当てる
 
@@ -178,7 +178,7 @@ ht-degree: 100%
    <td colname="col2"> <p><span class="wintitle">Influential Traits</span> テーブルには以下が含まれます。 </p> <p> 
      <ul id="ul_FB15A554CADC40D09F9AC6D384D54ECD"> 
       <li id="li_343E25E8B3584D38B1E2BCB211033DBF"> モデルの基準となる母集団で最もよく表される上位 50 個の影響力のある特性のリスト。 </li> 
-      <li id="li_44957F46C0744A84A987D8F25D93E24E"><span class="wintitle">Relative Weight</span> ランクの順に各特性をランク付けします。<span class="wintitle">Relative Weight</span> は、新しく検出された特性を影響力または望ましさの順で並べ替えます。重みの基準は、0%～100% の割合です。特性のランクが 100% に近づくと、基準となる母集団のオーディエンスに似ていることを意味します。詳しくは、<a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> TraitWeight について</a>を参照してください。 </li> 
+      <li id="li_44957F46C0744A84A987D8F25D93E24E"><span class="wintitle">Relative Weight</span> ランクの順に各特性をランク付けします。<span class="wintitle">Relative Weight</span> は、新しく検出された特性を影響力または望ましさの順で並べ替えます。重みの基準は、0％～ 100％の割合です。特性のランクが 100％に近づくと、基準となる母集団のオーディエンスに似ていることを意味します。詳しくは、<a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> TraitWeight について</a>を参照してください。 </li> 
       <li id="li_260151E23B1E484BA06C8494552A04F0">特性ごとに 30 日間の個別および合計特性母集団を表示します。 </li> 
      </ul> </p> </td> 
   </tr> 
