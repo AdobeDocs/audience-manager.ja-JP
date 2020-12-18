@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Google キャンペーンマネージャーデータファイルを Audience Manager に読み込む
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 feature: audience optimization reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
 ht-degree: 100%
 
