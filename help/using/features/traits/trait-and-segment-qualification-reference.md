@@ -7,9 +7,9 @@ solution: Audience Manager
 title: 特性認定に関するリファレンス
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 
 ## Real-time Segment Population と Total Segment Population {#real-time-segment}
 
-![固有形質実現](assets/segment-graph.png)
+![unique-trait-realization](assets/segment-graph.png)
 
 [!UICONTROL Real-time Segment Population] は、指定した期間内に選択したセグメントの対象となり、プロパティに到達したデバイスの数を表します。
 
