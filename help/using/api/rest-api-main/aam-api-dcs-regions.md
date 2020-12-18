@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS 地域 API メソッド
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 feature: API
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 
