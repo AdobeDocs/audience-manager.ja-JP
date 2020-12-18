@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 受信データファイルの Amazon S3 名とファイルサイズの要件
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ Removed  {importance="high"} for ExL
 
 追加の例が必要であれば、サンプルを[ダウンロード](assets/ftp_dpm_1234_1445374061.overwrite)することもできます。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 許容されるファイルサイズ  {#accepted-file-sizes}
+## 許容されるファイルサイズ {#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL Amazon S3] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
