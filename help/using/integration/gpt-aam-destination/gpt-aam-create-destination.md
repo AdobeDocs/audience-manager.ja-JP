@@ -6,9 +6,9 @@ solution: Audience Manager
 title: GPT 宛先の作成
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third Party Integrations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
 ht-degree: 100%
 
