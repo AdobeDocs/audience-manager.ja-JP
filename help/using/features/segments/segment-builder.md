@@ -6,9 +6,9 @@ solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1092'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 >[!VIDEO](https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
-## [!UICONTROL Segment Builder]コントロール：[!UICONTROL Basic Information] セクション  {#segment-builder-controls-basics}
+## [!UICONTROL Segment Builder]コントロール：[!UICONTROL Basic Information] セクション {#segment-builder-controls-basics}
 
 [!UICONTROL Segment Builder]では、[!UICONTROL the Basic Information]設定を使用して、新しい特性を作成したり、既存の特性を編集したりできます。新しい[!UICONTROL segment]を作成するには、名前および[!UICONTROL data source]を指定して、保存フォルダーを選択します。その他のすべてのフィールドはオプションです。完了したら、「[!UICONTROL Traits]」セクションに移動します。
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 | **[!UICONTROL Status]** | セグメントをアクティブまたは非アクティブにします（デフォルトではアクティブです）。 |
 | **フォルダーストレージ** | セグメントが属する保存フォルダーを指定します。 |
 
-## [!UICONTROL Segment Builder]コントロール：[!UICONTROL Traits] セクション  {#segment-builder-controls-traits}
+## [!UICONTROL Segment Builder]コントロール：[!UICONTROL Traits] セクション {#segment-builder-controls-traits}
 
 [!UICONTROL Segment Builder]の[!UICONTROL Traits]セクションを使用すると、[!UICONTROL segment]の[!UICONTROL traits]を管理、[!UICONTROL trait]グループを作成、および認定条件を設定できます。[!UICONTROL segment]に[!UICONTROL trait]を追加するには、検索フィールドに[!UICONTROL trait]名を入力して、「[!UICONTROL Add Trait]」をクリックします。[!UICONTROL trait]を保存する（完了した場合）か、[!UICONTROL Destinations Mapping] に移動します。
 
@@ -148,7 +148,7 @@ ht-degree: 100%
 3. 「**編集**」をクリックして [!UICONTROL Segment Builder] を開き、その後「**特性**」をクリックして[!UICONTROL traits]パネルを開きます。
 4. 削除する[!UICONTROL trait]の上にマウスポインターを置いて、X キーをクリックします。この操作により、ただちに[!UICONTROL segment]から[!UICONTROL trait]が削除されます。
 
-## [!UICONTROL Segment Builder]コントロール：[!UICONTROL Destinations Mappings] セクション  {#segment-builder-controls-destinations}
+## [!UICONTROL Segment Builder]コントロール：[!UICONTROL Destinations Mappings] セクション {#segment-builder-controls-destinations}
 
 [!UICONTROL Segment Builder]の[!UICONTROL Destinations Mapping]セクション（オプション）では、サードパーティの [!DNL cookie]、[!DNL URL]、または[!UICONTROL server-to-server destination]に[!UICONTROL segment]データを送信できます。[!UICONTROL destination]を追加するには、[!UICONTROL destination]を検索（または参照）し、[!UICONTROL destination]固有の情報を入力して、「**[!UICONTROL Add Destination]**」をクリックします。
 
