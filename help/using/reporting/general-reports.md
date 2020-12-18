@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 feature: general & trend reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ The illustration below shows the results of running a general report for the Tra
 
 ### Real-time Segment Population
 
-この指標は、指定した時間範囲内にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定された個別訪問者の実際の数を表します。
+この指標は、指定した時間範囲内にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定されたユニーク訪問者の実際の数を表します。
 
 ### Total Segment Population
 
@@ -150,7 +150,7 @@ The illustration below shows the results of running a general report for the Tra
 
 **Real-time Segment Population**
 
-この指標は、指定した時間範囲内にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定された個別訪問者の実際の数を表します。
+この指標は、指定した時間範囲内にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定されたユニーク訪問者の実際の数を表します。
 
 **Total Segment Population**
 
