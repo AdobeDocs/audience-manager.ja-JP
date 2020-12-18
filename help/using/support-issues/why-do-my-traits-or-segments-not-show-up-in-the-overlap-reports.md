@@ -5,9 +5,9 @@ seo-title: 重複レポートページに特性やセグメントが表示され
 solution: Audience Manager
 title: 重複レポートページに特性やセグメントが表示されないのはなぜですか？
 feature: support
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 回答
 
-重複レポートページに特性やセグメントを表示するには、実訪問者数の最低要件を満たしている必要があります。
+重複レポートページに特性やセグメントを表示するには、ユニーク訪問者数の最低要件を満たしている必要があります。
 
 * 特性の場合：14 日間で 28,000 件
 * セグメントの場合：14 日間で 70,000 人のリアルタイムユーザー
