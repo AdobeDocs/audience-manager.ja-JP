@@ -6,9 +6,9 @@ solution: Audience Manager
 title: データ収集コンポーネント
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: system components
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Audience Manager には次のデータ収集コンポーネントがあります
 * [インバウンドのサーバー間通信](../../reference/system-components/components-data-collection.md#inbound-outbound-server)
 * [ログファイル](../../reference/system-components/components-data-collection.md#log-files)
 
-## データ収集サーバー（DCS）およびプロファイルキャッシュサーバー（PCS）  {#dcs-pcs}
+## データ収集サーバー（DCS）およびプロファイルキャッシュサーバー（PCS） {#dcs-pcs}
 
 DCS と PCS は連携して動作することで、それぞれが特性の適合、オーディエンスのセグメント化、およびデータストレージに関連するサービスを提供します。
 
