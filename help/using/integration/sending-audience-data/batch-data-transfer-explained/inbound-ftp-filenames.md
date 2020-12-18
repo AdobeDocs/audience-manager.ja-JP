@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 他の例が必要な場合は、サンプルファイルを[ダウンロードします](assets/ftp_dpm_1234_1445374061.overwrite)。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 許容されるファイルサイズ  {#accepted-file-sizes}
+## 許容されるファイルサイズ {#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL FTP] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
