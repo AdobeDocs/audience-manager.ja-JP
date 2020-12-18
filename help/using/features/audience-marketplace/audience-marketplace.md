@@ -8,9 +8,9 @@ title: Audience Marketplace
 topic: DIL API
 uuid: a94d2ee7-d854-4e68-bd6b-42827ca72f67
 feature: Audience Marketplace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
 ht-degree: 100%
 
