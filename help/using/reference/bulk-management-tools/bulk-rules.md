@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 特性ルールおよびセグメントルールの作成または更新
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: baaam
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ワークシートの特性ルール列は、ブール式、比較演算子、正規表現で構成されるルールを受け付け、また返します。[!DNL Audience Manager] のビルダーで特性またはセグメントを使用したルールを作成し、それらをワークシートにコピーできます。または、構文についての知識をお持ちの場合、直接ワークシートに式を記述できます。
 
-## ルールビルダーの例  {#rule-builder-example}
+## ルールビルダーの例 {#rule-builder-example}
 
 [!UICONTROL Segment Builder]を使用してルールを作成し、一括ワークシートにコピーする方法の例を見てみましょう。ただし、ここではこれらのツールの一連の操作手順については触れず、単純なルールが既に作成済みであることを前提とします。ルールビルダーの使用方法については、[セグメントビルダー](../../features/segments/segment-builder.md)および[特性ビルダー](../../features/traits/about-trait-builder.md)を参照してください。
 
