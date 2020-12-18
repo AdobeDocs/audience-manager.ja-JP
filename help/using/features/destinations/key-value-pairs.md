@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 標準型およびシリアル型のキー値ペア
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Destination Basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 <table id="table_7895B1E800934117A19A96380F0CF91B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> のフォーマット  </th>
+   <th colname="col1" class="entry"> フォーマット </th>
    <th colname="col2" class="entry"> 1 つのキーと値のペア </th>
    <th colname="col3" class="entry"> 複数のキーと値のペア </th>
   </tr>
