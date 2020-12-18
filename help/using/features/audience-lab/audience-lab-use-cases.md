@@ -7,9 +7,9 @@ title: Audience Lab のユースケース
 topic: DIL API
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 feature: Audience Lab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
 
