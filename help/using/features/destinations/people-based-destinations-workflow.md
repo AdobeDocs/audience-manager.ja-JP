@@ -5,9 +5,9 @@ seo-title: People-Based Destinations の実装ガイダンス
 solution: Audience Manager
 title: 実装ガイダンス
 feature: People-Based Destinations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1379'
 ht-degree: 100%
 
