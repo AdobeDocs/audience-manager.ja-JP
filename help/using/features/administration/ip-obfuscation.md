@@ -4,9 +4,9 @@ seo-description: グローバルプライバシー規制により、多くの国
 solution: Audience Manager
 title: IP アドレスの難読化
 feature: Data Governance and Privacy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
 ht-degree: 100%
 
@@ -59,5 +59,5 @@ IP アドレスの難読化をグローバルに無効にするには、**Admini
 
 * [データプライバシー](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP アドレス難読化のビデオのデモ
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=jpn)
 
