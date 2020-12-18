@@ -7,9 +7,9 @@ solution: Audience Manager
 title: アクションにつながるログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1605'
 ht-degree: 100%
 
