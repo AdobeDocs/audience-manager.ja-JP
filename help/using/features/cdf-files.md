@@ -7,9 +7,9 @@ solution: Audience Manager
 title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1922'
 ht-degree: 100%
 
@@ -161,7 +161,7 @@ ht-degree: 100%
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">リクエストパラメーター </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">参照元 </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP アドレス </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
      </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
@@ -254,7 +254,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 [!DNL Audience Manager] は、ファイルのダウンロード準備が完了したことを知らせるために、[!UICONTROL Customer Data File]（[!UICONTROL CDF]）のダウンロード準備ができたことを知らせるために、[!DNL S3] ディレクトリに `.info` ファイルを書き込みます。`.info` ファイルには、[!UICONTROL CDF] ファイルの内容に関する [!DNL JSON] 形式のメタデータも含まれています。この通知ファイルで使用されている構文やフィールドについては、このセクションで確認してください。
 
-## サンプル .info ファイル     {#sample-info-file}
+## サンプル .info ファイル    {#sample-info-file}
 
 各 `.info` ファイルは、`Files` と `Totals` の 2 つのセクションで構成されます。`Files` セクションには、時間ごとのファイルの特定の指標を格納した配列が含まれています。`Totals` セクションには、特定の日のすべての [!UICONTROL CDF] ファイルについて集計した指標が含まれています。`.info` ファイルの内容は、例えば次のようになります。
 
@@ -357,7 +357,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 [!UICONTROL CDF] ファイルでは、ファイル名とファイルコンテンツにタイムスタンプが含まれています。これらのタイムスタンプは、同じ [!UICONTROL CDF] ファイルに対する異なるイベントプロセスを記録します。同じファイルの名前とコンテンツに異なるタイムスタンプが表示されることは珍しくありません。各タイムスタンプを理解すると、このデータを操作したり時刻でソートしようとしたりするときに、犯しがちなミスを避けるうえで役に立ちます。
 
-## [!UICONTROL CDF]ファイルのタイムスタンプの場所 {#locating-timestamps}
+## [!UICONTROL CDF] ファイルのタイムスタンプの場所 {#locating-timestamps}
 
 [!UICONTROL CDF] ファイルでは、2 つの別個の場所に異なる時刻を記録します。
 
