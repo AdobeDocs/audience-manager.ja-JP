@@ -6,9 +6,9 @@ keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1116'
 ht-degree: 100%
 
