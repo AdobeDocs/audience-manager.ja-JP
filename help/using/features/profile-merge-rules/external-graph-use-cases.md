@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 外部デバイスグラフのユースケース
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge Rules
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
 
