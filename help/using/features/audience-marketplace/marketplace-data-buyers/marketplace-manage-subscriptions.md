@@ -7,9 +7,9 @@ title: データフィードのサブスクリプションの管理
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2186'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 [!UICONTROL Audience Marketplace] では、プロバイダーは、[!DNL CPM] または定額料金データフィードの公表価格の割引を購入者に提案できます。ただし、[!DNL Marketplace] のフィードリストでは、割引額は購入者に表示されません。しかし、非公開データフィードを購読する際、または特定のフィードに関する詳細情報をリクエストする際に、割引を求めることもできます。
 
-## 割引のリクエスト  {#request-discount}
+## 割引のリクエスト {#request-discount}
 
 <!-- marketplace-buyer-discounts.xml -->
 
@@ -247,7 +247,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 非アクティブ化された特性を削除  {#remove-deactivated-traits}
+## 非アクティブ化された特性を削除 {#remove-deactivated-traits}
 
 データ購入者は、キャンセルされたフィード内の特性を、アクティブ／使用中のセグメント、非アクティブなセグメントを問わず、すべてのセグメントから削除する必要があります。削除については次のオプションがあります。
 
@@ -283,9 +283,9 @@ ht-degree: 100%
    * **[!UICONTROL Request More Details]**&#x200B;をクリックすると、データプロバイダーに選択したデータフィードについて質問したり、割引をリクエストしたりすることができます。この機能では、コメントや質問を直接データプロバイダーに送信することができます。
 
 1. データフィードレポート指標の呼び出しの後におこなわれる場合です。ベン図（および関連指標）から、直近 30 日間の特性重複データがわかります。詳しくは、[Marketplace について](marketplace-data-buyers.md#about-marketplace)を参照してください。
-   * **[!UICONTROL 30 Day Overlapped Uniques]**：プロバイダーのアカウントのユーザーと重複するアカウント内の個別ユーザーの数。一意のユーザーの定義については、「[Audience Manager の ID の インデックス](/help/using/reference/ids-in-aam.md)」の「AAM UUID」を参照してください。
-   * **[!UICONTROL 30 Day Provider Unique Users]**：プロバイダーのアカウントからの個別ユーザーの数。
-   * **[!UICONTROL Your Unique Users]**：アカウントからの個別ユーザーの数。
+   * **[!UICONTROL 30 Day Overlapped Uniques]**：プロバイダーのアカウントのユーザーと重複するアカウント内のユニークユーザーの数。一意のユーザーの定義については、「[Audience Manager の ID の インデックス](/help/using/reference/ids-in-aam.md)」の「AAM UUID」を参照してください。
+   * **[!UICONTROL 30 Day Provider Unique Users]**：プロバイダーのアカウントからのユニークユーザーの数。
+   * **[!UICONTROL Your Unique Users]**：アカウントからのユニークユーザーの数。
 
 1. **[!UICONTROL Plan Details]** 表。次の表に、サブスクリプションを購入できるデータフィードのユースケースとその価格モデルを示します。[データフィードのユースケースについて](#use-cases)を参照してください。
 
@@ -297,7 +297,7 @@ ht-degree: 100%
 
 [!UICONTROL Audience Marketplace] のデータ購入者は、重複、モデリングおよびアクティブ化のユースケースに関するデータを購入します。各ユースケースは、特定の購入用に設計され、データを使用してできることを制限します。これらのユースケースの説明は、購入するデータプランのタイプについて適切な判断を下すうえで役に立ちます。
 
-## セグメントおよび重複プランとの比較  {#comparisons}
+## セグメントおよび重複プランとの比較 {#comparisons}
 
 <!-- c_use_cases_for_buyers.xml -->
 
