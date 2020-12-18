@@ -8,11 +8,11 @@ title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '981'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
    * **[!UICONTROL Email Address]：**&#x200B;ユーザーの電子メールアドレスを指定します。[!DNL Audience Manager] は標準の通知をユーザーに送信しません。[!DNL Audience Manager] 管理者はユーザーの電子メールアドレスにアクセスできるので、必要に応じて手動でユーザーに電子メールを送信できます。例えば、ユーザーが自分のパスワードを忘れてしまった場合、このフィールドで指定された電子メールアドレスに、臨時のパスワードと、パスワードをリセットするための手順が送信されます。
    * **[!UICONTROL Phone Number]：**&#x200B;ユーザーの電話番号を指定します。
    * **[!UICONTROL Is Admin]：**&#x200B;このユーザーが [!DNL Audience Manager] 管理者であるかどうかを指定します。管理ユーザーはユーザーの管理（作成や編集など）とグループの管理（作成、権限の割り当てなど）ができます。管理者でないユーザーは、自分の電子メールアドレスの編集やパスワードのリセットなど、自分のユーザープロファイルのみ制御できます。詳しくは、[アカウント設定の編集](../../features/administration/edit-account-settings.md)を参照してください。
-1. 「**[!UICONTROL Login]**」の下で、目的のステータスを選択します。
+1. 「**[!UICONTROL Login]**」で、目的のステータスを選択します。
    * **[!UICONTROL Active]：**&#x200B;アクティブなユーザーは [!DNL Audience Manager] にアクセスでき、グループメンバーシップによる権限が付与されます。
    * **[!UICONTROL Deactivated]：**&#x200B;非アクティブなユーザーは [!DNL Audience Manager] にアクセスできず、権限もありません。ユーザーを非アクティブ化しても、ユーザー情報は [!DNL Audience Manager] に残るので、必要があれば再アクティブ化できます。ユーザーを削除すると、そのユーザーが将来 [!DNL Audience Manager] を使用する必要が出た場合は、ユーザーを作成し直さなければなりません。
    * **[!UICONTROL Expired]：**&#x200B;ユーザーのパスワードが作成から 90 日を超えています。
@@ -148,7 +148,7 @@ ht-degree: 99%
 
 ![monitor-user-access](assets/monitor-user-access.png)
 
-### 機密性の高い[!UICONTROL Data Sources]に対するアクセス保護の確保  {#protect-sensitive-data-sources}
+### 機密性の高い[!UICONTROL Data Sources]に対するアクセス保護の確保 {#protect-sensitive-data-sources}
 
 各ユーザーグループに対し、[!UICONTROL trait]、セグメント、および[!UICONTROL destination]レベルで、[!UICONTROL Role-Based Access Control]を設定できます。
 
