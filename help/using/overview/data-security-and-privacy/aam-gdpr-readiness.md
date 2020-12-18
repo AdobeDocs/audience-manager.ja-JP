@@ -5,9 +5,9 @@ seo-title: Audience Manager をご利用のお客様向けの GDPR 対応ガイ�
 solution: Audience Manager
 title: Audience Manager をご利用のお客様向けの GDPR 対応ガイダンス
 feature: data governance & privacy
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
 ht-degree: 100%
 
