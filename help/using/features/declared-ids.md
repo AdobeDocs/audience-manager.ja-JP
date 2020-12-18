@@ -7,9 +7,9 @@ solution: Audience Manager
 title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>イベント呼び出し</b> </td> 
-   <td colname="col2"> <p>機能させるには、ページに <span class="wintitle">DIL</span> と <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external">Adobe Experience Platform ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Adobe Experience Platform ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
+   <td colname="col2"> <p>機能させるには、ページに <span class="wintitle">DIL</span> と <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html" format="https" scope="external">Adobe Experience Platform ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Adobe Experience Platform ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID のマッチング</b> </td> 
@@ -46,7 +46,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID の返送</b> </td> 
-   <td colname="col2"> <p>Audience Manager は、同期した ID をクライアントドメインまたはアプリケーションのファーストパーティ Cookie （または他のアドレス可能なストレージ領域）に書き込みます。 </p> </td>
+   <td colname="col2"> <p>Audience Manager は、同期した ID をクライアントドメインまたはアプリケーションのファーストパーティ Cookie（または他のアドレス可能なストレージ領域）に書き込みます。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <b>後続のイベント呼び出し</b> </td>
