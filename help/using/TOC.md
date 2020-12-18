@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1772'
 ht-degree: 100%
 
@@ -185,7 +185,7 @@ ht-degree: 100%
          + [セグメントパフォーマンスレポート](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [トレンド分析レポートとボリューム分析レポート](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [最適頻度レポート](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
-         + [個別ユーザーのリーチ](reporting/audience-optimization-reports/aor-advertisers/unique-user-reach.md)
+         + [ユニークユーザーのリーチ](reporting/audience-optimization-reports/aor-advertisers/unique-user-reach.md)
          + [報告されたコンバージョン特性](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
          + [クロスチャネルコンバージョン](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Audience Optimization for Publishers {#audience-optimization-publishers}
@@ -196,7 +196,7 @@ ht-degree: 100%
          + [上位の未使用特性](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
          + [広告ユニット間重複](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
          + [セグメント - 広告ユニット間重複](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
-         + [個別ユーザーのリーチ](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
+         + [ユニークユーザーのリーチ](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Audience Optimization レポートおよびアクションにつながるログファイル用のデータとメタデータファイル {#data-and-metadata-files}
          + [ ログデータとメタデータファイル](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
          + [Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
@@ -218,7 +218,7 @@ ht-degree: 100%
       + [レポート技術](reporting/dynamic-reports/interactive-report-technology.md)
    + [オンボーディングステータスレポート](reporting/onboarding-status-report.md)
    + [送信ファイル履歴](reporting/outbound-history-report.md)
-   + [重複レポートと一般レポートでの個別ユーザーのカウント](reporting/unique-user-counts.md)
+   + [重複レポートと一般レポートでのユニークユーザーのカウント](reporting/unique-user-counts.md)
    + [選択した Audience Manager レポートでのデータサンプリングとエラー率](reporting/report-sampling.md)
 + API と SDK コード {#api-and-sdk-code}
    + [API と SDK コードの概要](api/api.md)
