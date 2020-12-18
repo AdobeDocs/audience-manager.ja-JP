@@ -7,9 +7,9 @@ solution: Audience Manager
 title: キーと値のペアの解説
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ c_key_value_explained.xml
 
 宛先はキーと値のデータを *`standard`* または *`serialized`* 形式で受け取ります。標準形式では、データを個別のキー値ペアに編成します。各キーは、明示的に指定されます（異なる値を定義するために再利用される場合でも）。それに対して、シリアル化形式では、複数の値を単一のキーで定義された 1 つのセットにまとめます。また、シリアル化されたペアでは、キー値セット内で値を区切るために、特別なインジケーターが使用されます。最後に、標準およびシリアル化されたキー値には、単一または複数の値を含めることができます。標準およびシリアル化されたキー値形式の例を次の表に示します。
 
-| のフォーマット  | 単一キー | キー値ペア |
+| フォーマット | 単一キー | キー値ペア |
 |---|---|---|
 | **標準** | `x=1&x=2` | `x=1&x=2&y=3&y=4` |
 | **シリアル型** | `x=1;2` | `x=1;2&y=3;4` |
@@ -52,7 +52,7 @@ c_key_value_explained.xml
 * **キー値セパレーター：**&#x200B;キー値ペア内のキーと値を区切ります。
 * **シリアルセパレーター：**&#x200B;シリアル化されたキー値ペア内の個々の値を区切ります。
 
-## 標準およびシリアル化されたキー値要素  {#standard-serialized-key-value-elements}
+## 標準およびシリアル化されたキー値要素 {#standard-serialized-key-value-elements}
 
 
 | のタイプ | 例 | キー | キー値セパレーター | キー値デリミター | シリアルセパレーター |
