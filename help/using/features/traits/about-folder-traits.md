@@ -7,9 +7,9 @@ solution: Audience Manager
 title: フォルダー特性について
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
 ht-degree: 100%
 
