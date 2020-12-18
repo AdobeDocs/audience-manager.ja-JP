@@ -6,9 +6,9 @@ solution: Audience Manager
 title: セグメントパフォーマンスレポート
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: audience optimization reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 * スケールやパフォーマンスを促進しているマッピングされたオーディエンスセグメントを特定する。
 * 過去のパフォーマンスに対するオーディエンスの貢献度に基づいて、今後のキャンペーンで導入するマッピングされていないセグメントを特定する。
 
-## セグメントパフォーマンスレポートの使用  {#using-segment-performance-report}
+## セグメントパフォーマンスレポートの使用 {#using-segment-performance-report}
 
 「**[!UICONTROL Mapped]**」と「**[!UICONTROL Unmapped]**」を切り替えて、宛先にマッピングされているセグメントとマッピングされていないセグメントのどちらかを選択します。「**[!UICONTROL All]**」を選択すると、すべてのセグメントがレポートに含まれます。
 
@@ -86,7 +86,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>Realtime Segment Population </p> </td> 
-   <td colname="col2"> <p>指定した時間範囲にリアルタイムで認識され、また <span class="keyword"> Audience Manager</span> で認識された時点でセグメントについて認定された個別訪問者の実際の数。 </p> </td> 
+   <td colname="col2"> <p>指定した時間範囲にリアルタイムで認識され、また <span class="keyword"> Audience Manager</span> で認識された時点でセグメントについて認定されたユニーク訪問者の実際の数。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
