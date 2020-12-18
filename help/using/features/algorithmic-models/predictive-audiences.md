@@ -5,9 +5,9 @@ seo-title: Predictive Audiences の概要
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c39ef38d2833d5d706641f70649251d79b2ee6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1511'
 ht-degree: 100%
 
@@ -126,7 +126,7 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 1. モデルを構築する際に選択するファーストパーティデータソース。
 1. ターゲットオーディエンスのファーストパーティデータソース。特に、ターゲットオーディエンスを構成する[!UICONTROL traits]または[!UICONTROL segments]のデータ書き出しコントロール。
-1. モデルに対して選択した[!UICONTROL Profile Merge Rule]の[データ書き出しコントロール](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)。
+1. モデルに対して選択した[!UICONTROL Profile Merge Rule]の[データ書き出しコントロール](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-export-controls.html)。
 
 新しく作成した予測[!UICONTROL traits]および[!UICONTROL segments]には、前述のファーストパーティデータソースと同じプライバシー制限が課されます。
 
