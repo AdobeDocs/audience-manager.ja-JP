@@ -5,9 +5,9 @@ seo-title: URL の宛先の設定
 solution: Audience Manager
 title: URL の宛先の設定
 feature: Destination Basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
 ht-degree: 100%
 
