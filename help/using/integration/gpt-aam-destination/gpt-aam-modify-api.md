@@ -6,9 +6,9 @@ solution: Audience Manager
 title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third Party Integrations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 <table id="table_881391C9BDDF4FACAFC37A47B14B31A1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry">  関数 </th> 
+   <th colname="col1" class="entry"> 関数 </th> 
    <th colname="col2" class="entry"> のタイプ </th> 
    <th colname="col3" class="entry"> 説明 </th> 
   </tr> 
