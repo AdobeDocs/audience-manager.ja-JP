@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 重複レポートの CSV ファイル
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: overlap reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '976'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## セグメント間レポートのレコード  {#segment-segment-records}
+## セグメント間レポートのレコード {#segment-segment-records}
 
 [セグメント間重複レポート](segment-segment-overlap-report.md)のデータファイルには、次のレコードが含まれています。
 
@@ -125,24 +125,24 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques1</code> </p> </td> 
-   <td colname="col2"> <p>ベースラインセグメントと比較するセグメントの個別ユーザーの数。 </p> </td> 
+   <td colname="col2"> <p>ベースラインセグメントと比較するセグメントのユニークユーザーの数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques2</code> </p> </td> 
-   <td colname="col2"> <p>ベースラインセグメントの個別ユーザーの数。 </p> </td> 
+   <td colname="col2"> <p>ベースラインセグメントのユニークユーザーの数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>ベースラインセグメントと、比較の対象となる他のセグメントとの間の、重複する個別ユーザーの合計数。 </p> </td> 
+   <td colname="col2"> <p>ベースラインセグメントと、比較の対象となる他のセグメントとの間の、重複するユニークユーザーの合計数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>ベースラインセグメントと、比較の対象となる他のセグメントとの間の、重複する個別ユーザーの割合。 </p> </td> 
+   <td colname="col2"> <p>ベースラインセグメントと、比較の対象となる他のセグメントとの間の、重複するユニークユーザーの割合。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## セグメント - 特性間レポートのレコード  {#segment-trait-records}
+## セグメント - 特性間レポートのレコード {#segment-trait-records}
 
 [セグメント - 特性間重複レポート](segment-trait-overlap-report.md)のデータファイルには、次のレコードがあります。
 
@@ -188,19 +188,19 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques</code> </p> </td> 
-   <td colname="col2"> <p>選択したセグメントの個別ユーザーの数。 </p> </td> 
+   <td colname="col2"> <p>選択したセグメントのユニークユーザーの数。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> trait_uniques</code> </p> </td> 
-   <td colname="col2"> <p>特性内の個別ユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>特性内のユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>選択したセグメントと特性の間で共有されている個別ユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>選択したセグメントと特性の間で共有されているユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>特性とセグメントの間で重複する個別ユーザーの割合。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>特性とセグメントの間で重複するユニークユーザーの割合。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques_overlap_perc</code> </p> </td> 
@@ -209,7 +209,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 特性間レポートのレコード  {#trait-trait-records}
+## 特性間レポートのレコード {#trait-trait-records}
 
 [特性間重複レポート](trait-trait-overlap-report.md)には、次のレコードがあります。
 
@@ -263,19 +263,19 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_uniques</code> </p> </td> 
-   <td colname="col2"> <p>選択した特性の間で共有されている個別ユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>選択した特性の間で共有されているユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_uniques</code> </p> </td> 
-   <td colname="col2"> <p>ベース特性の個別ユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>ベース特性のユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>選択した特性の間で共有されている個別ユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>選択した特性の間で共有されているユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>選択した特性の間で重複する個別ユーザーの割合。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>選択した特性の間で重複するユニークユーザーの割合。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_uniques_overlap_perc</code> </p> </td> 
