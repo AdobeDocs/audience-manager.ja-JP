@@ -6,9 +6,9 @@ solution: Audience Manager
 title: クロスチャネルコンバージョン
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: audience optimization reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
