@@ -6,9 +6,9 @@ solution: Audience Manager
 title: メタデータファイルの命名規則
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
 feature: log files
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 次の構文は、適正なメタデータファイル名の構造を示しています。なお、*斜体*&#x200B;の部分には実際の情報が入ります。その他の要素は定数で、変動しません。
 
-**構文：**  *`yyyymmdd_0_childID`*
+**構文：** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
