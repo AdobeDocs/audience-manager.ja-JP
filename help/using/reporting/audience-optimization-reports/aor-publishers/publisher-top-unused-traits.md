@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 上位の未使用特性
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [!UICONTROL Top Unused Traits]レポートを使用すると、現在セグメントにマッピングされていないファーストパーティ特性とサードパーティ特性のパフォーマンスを分析および比較することができます。このビューから、キャンペーン最適化またはまったく新しいビジネスチャンスのためにオーディエンスセグメントで使用するのに最適な特性を指摘することができます。
 
-## 上位の未使用特性レポートの使用  {#using-the-report}
+## 上位の未使用特性レポートの使用 {#using-the-report}
 
 「**[!UICONTROL Data Provider Type]**」コントロールを使用して、ファーストパーティ特性とサードパーティ特性を切り替えます。「**[!UICONTROL All]**」を選択すると、ファーストパーティ特性とサードパーティ特性がレポートに表示されます。
 
