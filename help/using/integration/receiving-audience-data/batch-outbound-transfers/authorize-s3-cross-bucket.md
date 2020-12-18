@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 送信ファイルに Amazon S3 のクロスアカウントのバケットのアクセス許可を使用する
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 feature: Outbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
 ht-degree: 100%
 
