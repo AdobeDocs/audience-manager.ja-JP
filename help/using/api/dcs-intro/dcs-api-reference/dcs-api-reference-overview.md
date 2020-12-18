@@ -4,9 +4,9 @@ seo-description: Adobe Audience Manager（AAM）の DCS API のコード、メ�
 seo-title: Adobe Audience Manager（AAM）の DCS API リファレンスの概要
 title: DCS API リファレンスの概要
 feature: DCS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
