@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Audience Manager の訪問者認証ステータス
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -106,5 +106,5 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 
 >[!MORELIKETHIS]
 >
->* [顧客 ID と認証状態](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
+>* [顧客 ID と認証状態](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html)
 
