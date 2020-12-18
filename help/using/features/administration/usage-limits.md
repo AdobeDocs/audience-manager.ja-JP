@@ -7,9 +7,9 @@ title: 使用の制限
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc13643681eebec17a95607482f2864e81b95820
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | ----------- | ------------- |
 | 会社のユーザーアカウントの最大数 | 1,000。 |
 
-## 使用状況の監視  {#monitor-usage}
+## 使用状況の監視 {#monitor-usage}
 
 アカウントの使用状況と限度は、**[!UICONTROL Administration > Limits]** で確認できます。アクセスには管理者権限が必要です。
 
