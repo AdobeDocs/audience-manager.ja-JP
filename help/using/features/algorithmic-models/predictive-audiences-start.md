@@ -5,9 +5,9 @@ seo-title: Predictive Audiences の管理
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 48bf17a2899fd06c525ba6b4fddb9ec805efb5c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
