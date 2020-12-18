@@ -6,9 +6,9 @@ solution: Audience Manager
 title: アルゴリズム特性の作成
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
 ht-degree: 100%
 
