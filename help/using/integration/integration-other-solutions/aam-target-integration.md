@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager と Target の統合
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
 feature: Integration with Target
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
