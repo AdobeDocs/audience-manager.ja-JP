@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 最適頻度レポート
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 feature: audience optimization reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
 ht-degree: 100%
 
