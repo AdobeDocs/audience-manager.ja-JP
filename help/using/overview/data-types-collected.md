@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 収集されるデータのタイプ
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 feature: overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '867'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 [!DNL Audience Manager] は、利用可能な [!DNL APIs] およびデータセットによっては、他のデータプロバイダーとも連携します。データ収集は、ユーザーがサイトを表示したときにリアルタイムでおこなわれるか、またはユーザーがサイトを退出後、パートナー間で ID 同期がおこなわれ、サーバー間データ転送がおこなわれるアウトオブバウンド方式でおこなわれます。どちらの場合でも、サードパーティデータは弊社のプラットフォーム上で同期されるので、[!DNL Audience Manager] が個々のクライアントまたはドメイン上で独自に同期をおこなう必要がなくなります。これにより、ページからのサーバー呼び出しを減らしながら、リーチを拡大することができます。
 
-## マッチングパートナー  {#match-partners}
+## マッチングパートナー {#match-partners}
 
 クライアントの多くは、サードパーティのデータマッチング企業とパートナー連携しています。これらの企業は登録を伴う各種サイトとつながっており、企業が持つ登録ネットワークに基づき、リアルタイムで顧客データファイルのマッチングをおこないます。
 
