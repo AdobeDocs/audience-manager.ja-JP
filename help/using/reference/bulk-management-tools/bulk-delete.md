@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 一括削除
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 feature: baaam
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
 ht-degree: 100%
 
