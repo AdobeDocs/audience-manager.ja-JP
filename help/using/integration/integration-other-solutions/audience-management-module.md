@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Integration with Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
 ht-degree: 100%
 
