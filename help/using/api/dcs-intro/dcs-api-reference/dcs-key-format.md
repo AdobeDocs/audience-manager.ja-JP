@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS 呼び出しでのキー値ペアの形式
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
