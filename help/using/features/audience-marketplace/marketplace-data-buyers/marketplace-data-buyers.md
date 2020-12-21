@@ -16,7 +16,7 @@ ht-degree: 100%
 ---
 
 
-# データ購入者向けの [!UICONTROL Audience Marketplace]> {#audience-marketplace-for-data-buyers}
+# データ購入者向けの [!UICONTROL Audience Marketplace] > {#audience-marketplace-for-data-buyers}
 
 [!DNL Audience Manager] 内でサードパーティデータを購入するデータ購入者の概要とワークフロー。
 
@@ -47,9 +47,9 @@ ht-degree: 100%
 * **[!UICONTROL Description]**：データフィードのコンテンツに関する情報。
 * **[!UICONTROL Provider]**：データプロバイダーの名前。
 * **[!UICONTROL Traits]**：データフィード内の[!UICONTROL traits]の数。
-* **[!UICONTROL 30 Day Provider Unique Users]**：過去 30 日で確認された個別ユーザーの数。
+* **[!UICONTROL 30 Day Provider Unique Users]**：過去 30 日で確認されたユニークユーザーの数。
 * **[!UICONTROL 30 Day Overlapped Uniques]**：プロバイダーのアカウントのユーザーと重複するアカウント内のユーザーの数。
-* **[!UICONTROL Feed Overlap]**: 30日間の重複している個別訪問者数の値が割合で表示され、(データ購入者 30 日間の重複している個別訪問者数 / データ購入者の 30 日間の個別訪問者数) x 100 で計算されます。
+* **[!UICONTROL Feed Overlap]**: 30日間の重複しているユニーク訪問者数の値が割合で表示され、(データ購入者 30 日間の重複しているユニーク訪問者数 / データ購入者の 30 日間のユニーク訪問者数) x 100 で計算されます。
 * **[!UICONTROL Private Feeds]**：[非公開データフィード](../../../features/audience-marketplace/marketplace-private-feeds.md)を参照してください。
 * **[!UICONTROL Currently Subscribed Plan Count]**：データプロバイダーを使用して所有するサブスクリプションの数。
 
