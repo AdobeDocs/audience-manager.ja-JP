@@ -140,9 +140,8 @@ r_flash_dil_actionscript.xml
 >[!NOTE]
 >
 >* このコードがサポートするパートナーインスタンス（`d.partner`）は、[!DNL Flash] オブジェクトごとに 1 つだけです。
-   >
-   >
-* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
+>
+>* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
 
 
 ```js
