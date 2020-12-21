@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DPID と DPUUID に代わる CID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
 feature: reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ DPID と DPUUID は、データプロバイダー ID とユーザー ID で構�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>データプロバイダー個別ユーザー ID（DPUUID） </p> </td> 
+   <td colname="col1"> <p>データプロバイダー一意のユーザー ID（DPUUID） </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EA7F769523B142CE8FF5886E5CDFF2D9"> 
      <li id="li_C984E2FF0A83495880BB87C610FA3F79"> <code>d_dpuuid=<i>data provider unique user ID</i></code> </li> 
@@ -52,7 +52,7 @@ DPID と DPUUID は、データプロバイダー ID とユーザー ID で構�
 
 これらのキー値ペアはまだ機能しますが、廃止されています。代わりに CID または CID_IC を使用するようにコードを更新してください。
 
-## CID と CID_IC：概要  {#cid-cidic-about}
+## CID と CID_IC：概要 {#cid-cidic-about}
 
 CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるものです。これらは DPID や DPUUID と同じ機能を提供しますが、データプロバイダー ID（または統合コード）とユーザー ID が 1 つのキー値ペアに含まれているので、より効率的です。それぞれのキー値ペアでは、以下がおこなわれます。
 
