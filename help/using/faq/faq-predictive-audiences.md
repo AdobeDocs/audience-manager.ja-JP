@@ -5,11 +5,11 @@ seo-title: Predictive Audiences に関する FAQ
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
-translation-type: ht
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
-source-wordcount: '895'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c2c392b1201b5de08a3f4d58bbb7be5ef31545d0
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 92%
 
 ---
 
@@ -113,6 +113,15 @@ ht-degree: 100%
 はい、モデルレポートページのすべてのベースラインについて、影響力の大きいすべての特性を確認できます。[Influential Traits](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits) を参照してください。
 
  
+
+**予測特性の有効期間(TTL)を変更できますか。**
+
+予測特性TTLは0（全期間）に設定されており、変更できません。 [!UICONTROL Predictive Audiences] ユーザーがベースセグメントに該当する場合や、別の予測セグメントに再分類された場合は、予測セグメントからユーザーのセグメント化を解除することのみ可能です。
+
+必要に応じて、予測特性とアクティビティ特性の両方を含む新しいセグメントを作成し、TTLを指定して、この機能を回避できます。
+
+ 
+
 
 **ベースライン特性またはセグメントの 1 つを編集すると、モデルはどうなりますか？**
 
