@@ -6,16 +6,16 @@ solution: Audience Manager
 title: 受信データファイルの Amazon S3 名とファイルサイズの要件
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6856a54c649d701c3163c1408f84aea256ebdc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Amazon S3] 受信データファイルの名前とファイルサイズの要件  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3]受信データファイルの名前およびファイルサイズに関する要件 {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 [!DNL Audience Manager] にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを [!DNL Audience Manager]／[!DNL Amazon S3]ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 >
 >テキストスタイル（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
-## ファイル名の構文{#file-name-syntax}
+## ファイル名の構文 {#file-name-syntax}
 
 [!DNL S3] ファイル名は、次の必須要素とオプション要素で構成されています。
 
@@ -41,7 +41,7 @@ Removed  {importance="high"} for ExL
 >
 >[!DNL Audience Manager] は、[!DNL ASCII] と [!DNL UTF-8] でエンコードされたファイルのみを処理します。
 
-### 要素に名前を付ける
+### 名前の要素
 
 次の表は、[!DNL S3] ファイル名の要素の定義を示しています。
 
@@ -115,7 +115,7 @@ Removed  {importance="high"} for ExL
  </tbody> 
 </table>
 
-## ファイル名の例{#file-name-examples}
+## ファイル名の例 {#file-name-examples}
 
 以下に、適切に書式設定されたファイル名の例を示します。ファイル名は、このようになります。
 
@@ -129,7 +129,7 @@ Removed  {importance="high"} for ExL
 
 追加の例が必要であれば、サンプルを[ダウンロード](assets/ftp_dpm_1234_1445374061.overwrite)することもできます。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 受け入れられるファイルサイズ{#accepted-file-sizes}
+## 許容されるファイルサイズ {#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL Amazon S3] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
@@ -160,9 +160,9 @@ Removed  {importance="high"} for ExL
 >
 >受信データの検証プロセスでは、空のファイルは無効としてマークされます。
 
-## 線の長さ制限{#line-limits}
+## 線の長さ制限 {#line-limits}
 
-受信データファイルの行長の制限は102400バイトです。 この制限を超える行は、転送から除外されます。
+受信データファイルの行の長さの上限は 102400 バイトです。 この制限を超える行は、転送から除外されます。
 
 >[!MORELIKETHIS]
 >
