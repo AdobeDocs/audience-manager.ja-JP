@@ -5,11 +5,11 @@ seo-title: Predictive Audiences に関する FAQ
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2c392b1201b5de08a3f4d58bbb7be5ef31545d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -114,11 +114,11 @@ ht-degree: 92%
 
  
 
-**予測特性の有効期間(TTL)を変更できますか。**
+**予測特性の有効期間（TTL）は変更できますか？**
 
-予測特性TTLは0（全期間）に設定されており、変更できません。 [!UICONTROL Predictive Audiences] ユーザーがベースセグメントに該当する場合や、別の予測セグメントに再分類された場合は、予測セグメントからユーザーのセグメント化を解除することのみ可能です。
+予測特性の TTL は 0（全期間）に設定されており、変更できません。[!UICONTROL Predictive Audiences] では、ユーザーがベースセグメントに該当する場合や、別の予測セグメントに再分類された場合にのみ、ユーザーを予測セグメントから削除することができます。
 
-必要に応じて、予測特性とアクティビティ特性の両方を含む新しいセグメントを作成し、TTLを指定して、この機能を回避できます。
+必要な場合は、予測特性とアクティビティ特性の両方を含む新しいセグメントを作成し、TTL を指定して、この機能の使用を回避できます。
 
  
 
