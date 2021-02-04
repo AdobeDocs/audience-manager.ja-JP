@@ -1,6 +1,6 @@
 ---
 description: Administration メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
-keywords: rbac;RBAC;role based;role-based;role-based access controls
+keywords: rbac;RBAC;役割に基づく;ロールベース;ロールベースのアクセス制御
 seo-description: Administration メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
 seo-title: 管理
 solution: Audience Manager
@@ -8,11 +8,11 @@ title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
-translation-type: ht
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,13 @@ ht-degree: 100%
 # [!UICONTROL Administration]（RBAC の制御）{#administration}
 
 ![](assets/rbac-controls.png)
+
+>[!IMPORTANT]
+>
+> ユーザーアカウント管理を[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)に移動しています。 開始ユーザーの移行を行うには、Audience Managerのお客様は、この記事で説明されている必要な措置を直ちに取る必要があります。[Admin Console](admin-console-migration.md)へのAudience Managerユーザーの移行。
+> 
+> すべてのお客様が移行した後、このドキュメントの「ユーザー管理」セクションは終了します。
+
 
 [!UICONTROL Administration] メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
 
@@ -30,6 +37,12 @@ ht-degree: 100%
 ## ユーザーの作成 {#create-users}
 
 <!-- t_create_users.xml -->
+
+>[!IMPORTANT]
+>
+> ユーザーアカウント管理を[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)に移動しています。 開始ユーザーの移行を行うには、Audience Managerのお客様は、この記事で説明されている必要な措置を直ちに取る必要があります。[Admin Console](admin-console-migration.md)へのAudience Managerユーザーの移行。
+> 
+> すべてのお客様が移行した後、このドキュメントのユーザー管理セクションは終了します。
 
 [!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
@@ -53,6 +66,12 @@ ht-degree: 100%
 
 ## [!UICONTROL Group]の作成 {#create-group}
 
+>[!IMPORTANT]
+>
+> ユーザーアカウント管理を[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)に移動しています。 開始ユーザーの移行のために、Audience Managerのお客様には、この記事で説明する必要な措置を直ちに取ることをお勧めします。[Admin Console](admin-console-migration.md)へのAudience Managerユーザーの移行。
+> 
+> すべての顧客が移行した後、このセクションは終了します。
+
 *グループ*&#x200B;とは[!UICONTROL destination]、[!UICONTROL segment]および[!UICONTROL trait]の各オブジェクトに対するアクセス権を共有するユーザーの集まりです。グループのアクセス権を 1 つのオブジェクトのみに制限することも、様々なオブジェクトの組み合わせに対して幅広く付与することもできます。
 
 <!-- t_create_groups.xml -->
@@ -60,18 +79,24 @@ ht-degree: 100%
 グループを作成するには：
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Groups]** をクリックします。
-1. ![](assets/icon_add.png) をクリックして、[!UICONTROL Group Settings] ページを開きます。
-1. [!UICONTROL Group Details]：
+2. ![](assets/icon_add.png) をクリックして、[!UICONTROL Group Settings] ページを開きます。
+3. [!UICONTROL Group Details]：
    * グループの名前を指定します。
    * グループについての簡単な説明を入力します。
-1. 「[!UICONTROL Group Members]」で、「**[!UICONTROL Add Users]**」オプションからユーザーをクリックし、グループに追加します。
-1. [!UICONTROL Group Permissions] で、[ から](../../features/traits/trait-details-page.md)特性[、](../../features/segments/segments-purpose.md)セグメント[、または](../../features/destinations/destinations.md)宛先&#x200B;**[!UICONTROL Add Object]**を選択します。
+4. 「[!UICONTROL Group Members]」で、「**[!UICONTROL Add Users]**」オプションからユーザーをクリックし、グループに追加します。
+5. [!UICONTROL Group Permissions] で、[ から](../../features/traits/trait-details-page.md)特性[、](../../features/segments/segments-purpose.md)セグメント[、または](../../features/destinations/destinations.md)宛先&#x200B;**[!UICONTROL Add Object]**を選択します。
 選択したオブジェクトの権限ウィンドウが開きます。
-1. グループメンバーに付与する権限のチェックボックスをオンにします。
-1. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。
-1. 「**[!UICONTROL Save Group]**」をクリックします。
+6. グループメンバーに付与する権限のチェックボックスをオンにします。
+7. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。
+8. 「**[!UICONTROL Save Group]**」をクリックします。
 
 ## [!UICONTROL Wild Card Permissions]について {#wild-card-permissions}
+
+>[!IMPORTANT]
+>
+> ユーザーアカウント管理を[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)に移動しています。 開始ユーザーの移行のために、Audience Managerのお客様には、この記事で説明する必要な措置を直ちに取ることをお勧めします。[Admin Console](admin-console-migration.md)へのAudience Managerユーザーの移行。
+> 
+> すべての顧客が移行した後、このセクションは終了します。
 
 [!UICONTROL Wild Card Permissions] でグループ権限を簡略化します。
 
