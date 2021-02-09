@@ -7,10 +7,10 @@ solution: Audience Manager
 title: Audience ManagerユーザーのAdmin Consoleへの移行
 feature: Administration
 translation-type: tm+mt
-source-git-commit: e4a9ae06a1283870613d2751b171fc443b8701d8
+source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '465'
+ht-degree: 4%
 
 ---
 
