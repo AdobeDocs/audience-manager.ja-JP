@@ -6,9 +6,9 @@ user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
+source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1781'
 ht-degree: 99%
 
 ---
@@ -409,6 +409,7 @@ ht-degree: 99%
    + [Audience Manager の顧客ではないのに、サイトに Audience Manager JavaScript 呼び出しが表示される](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Audience Manager Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + ドキュメントの更新 {#documentation-updates}
+   + [ドキュメントの更新（2021 年）](docs-updates/docs-2021.md)
    + [ドキュメントの更新（2020 年）](docs-updates/docs-2020.md)
    + [ドキュメントの更新（2019 年）](docs-updates/docs-2019.md)
    + [ドキュメントの更新（2018 年）](docs-updates/docs-2018.md)
