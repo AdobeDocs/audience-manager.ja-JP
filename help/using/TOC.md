@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
 source-wordcount: '1781'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 99%
 + 機能 {#features}
    + [アドレス可能なオーディエンス](features/addressable-audiences.md)
    + 管理 {#administration}
-      + [Audience ManagerユーザーのAdmin Consoleへの移行](features/administration/admin-console-migration.md)
+      + [Admin Console への Audience Manager ユーザーの 移行](features/administration/admin-console-migration.md)
       + [管理](features/administration/administration-overview.md)
       + [アカウント設定の編集](features/administration/edit-account-settings.md)
       + [IP アドレスの難読化](features/administration/ip-obfuscation.md)
@@ -403,7 +403,7 @@ ht-degree: 99%
    + [連絡先情報および法的事項](/help/using/help-legal/help-legal-contact.md)
 + カスタマーサポートに関するよくある問題 {#top-support-issues}
    + [概要](/help/using/support-issues/support-issues-overview.md)
-   + [10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [10 月 15 日（PT）頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [重複レポートページに特性やセグメントが表示されないのはなぜですか？](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [読み取り専用ユーザーが特性およびセグメントを作成、編集または削除できるのはなぜですか？](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Audience Manager の顧客ではないのに、サイトに Audience Manager JavaScript 呼び出しが表示される](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
