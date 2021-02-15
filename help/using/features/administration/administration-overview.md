@@ -8,11 +8,11 @@ title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1203'
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理を[Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)に移動しています。 開始ユーザーの移行を行うには、Audience Managerのお客様は、この記事で説明されている必要な措置を直ちに取る必要があります。[Admin Console](admin-console-migration.md)へのAudience Managerユーザーの移行。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
 > 
-> すべてのお客様が移行した後、このドキュメントの「ユーザー管理」セクションは終了します。
+> すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
 
 
 [!UICONTROL Administration] メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理を[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)に移動しています。 開始ユーザーの移行を行うには、Audience Managerのお客様は、この記事で説明されている必要な措置を直ちに取る必要があります。[Admin Console](admin-console-migration.md)へのAudience Managerユーザーの移行。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
 > 
-> すべてのお客様が移行した後、このドキュメントのユーザー管理セクションは終了します。
+> すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
 
 [!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
@@ -68,9 +68,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理を[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)に移動しています。 開始ユーザーの移行のために、Audience Managerのお客様には、この記事で説明する必要な措置を直ちに取ることをお勧めします。[Admin Console](admin-console-migration.md)へのAudience Managerユーザーの移行。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
 > 
-> すべての顧客が移行した後、このセクションは終了します。
+> すべてのお客様が移行した後、このセクションは廃止されます。
 
 *グループ*&#x200B;とは[!UICONTROL destination]、[!UICONTROL segment]および[!UICONTROL trait]の各オブジェクトに対するアクセス権を共有するユーザーの集まりです。グループのアクセス権を 1 つのオブジェクトのみに制限することも、様々なオブジェクトの組み合わせに対して幅広く付与することもできます。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
    * グループの名前を指定します。
    * グループについての簡単な説明を入力します。
 4. 「[!UICONTROL Group Members]」で、「**[!UICONTROL Add Users]**」オプションからユーザーをクリックし、グループに追加します。
-5. [!UICONTROL Group Permissions] で、[ から](../../features/traits/trait-details-page.md)特性[、](../../features/segments/segments-purpose.md)セグメント[、または](../../features/destinations/destinations.md)宛先&#x200B;**[!UICONTROL Add Object]**を選択します。
+5. [!UICONTROL Group Permissions] で、[ から](../../features/traits/trait-details-page.md)特性[、](../../features/segments/segments-purpose.md)セグメント[、または](../../features/destinations/destinations.md)宛先 **[!UICONTROL Add Object]** を選択します。
 選択したオブジェクトの権限ウィンドウが開きます。
 6. グループメンバーに付与する権限のチェックボックスをオンにします。
 7. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。
@@ -94,9 +94,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理を[Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)に移動しています。 開始ユーザーの移行のために、Audience Managerのお客様には、この記事で説明する必要な措置を直ちに取ることをお勧めします。[Admin Console](admin-console-migration.md)へのAudience Managerユーザーの移行。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
 > 
-> すべての顧客が移行した後、このセクションは終了します。
+> すべてのお客様が移行した後、このセクションは廃止されます。
 
 [!UICONTROL Wild Card Permissions] でグループ権限を簡略化します。
 
