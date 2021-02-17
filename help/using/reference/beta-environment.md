@@ -1,16 +1,16 @@
 ---
 description: ベータ環境は、Audience Manager の実装をテストするために使用します。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
-keywords: sandbox
+keywords: サンドボックス
 seo-description: ベータ環境は、Audience Manager の実装をテストするために使用します。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
 seo-title: ベータ環境
 solution: Audience Manager
 title: ベータ環境
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
-source-wordcount: '316'
+workflow-type: tm+mt
+source-wordcount: '317'
 ht-degree: 100%
 
 ---
