@@ -6,9 +6,9 @@ solution: Audience Manager
 title: セグメント間重複レポート
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 feature: overlap reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 
