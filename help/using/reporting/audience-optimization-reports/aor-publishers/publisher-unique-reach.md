@@ -6,9 +6,9 @@ solution: Audience Manager
 title: ユニークユーザーのリーチ
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
 feature: audience optimization reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 100%
 
