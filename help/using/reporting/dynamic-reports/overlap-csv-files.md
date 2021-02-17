@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 重複レポートの CSV ファイル
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: overlap reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル名 </p> </td> 
-   <td colname="col2"> <p>ファイル名の構文は次のとおりです。 </p> <p> 
+   <td colname="col2"> <p>ファイル名の構文: </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
       <li id="li_FFB104975D104050AB67FEEC903C6E2E">セグメント間ファイル：<code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
       <li id="li_7DEC51D693FB4377840D652AF40386EF">セグメント／特性間ファイル：<code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
@@ -83,7 +83,7 @@ ht-degree: 100%
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## セグメント間レポートのレコード {#segment-segment-records}
+## セグメント間レポートのレコード  {#segment-segment-records}
 
 [セグメント間重複レポート](segment-segment-overlap-report.md)のデータファイルには、次のレコードが含まれています。
 
@@ -137,12 +137,12 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>ベースラインセグメントと、比較の対象となる他のセグメントとの間の、重複するユニークユーザーの割合。 </p> </td> 
+   <td colname="col2"> <p>ベースラインセグメントと、比較の対象となる他のセグメントとの間の、重複する個別ユーザーの割合。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## セグメント - 特性間レポートのレコード {#segment-trait-records}
+## セグメント - 特性間レポートのレコード  {#segment-trait-records}
 
 [セグメント - 特性間重複レポート](segment-trait-overlap-report.md)のデータファイルには、次のレコードがあります。
 
@@ -209,7 +209,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 特性間レポートのレコード {#trait-trait-records}
+## 特性間レポートのレコード  {#trait-trait-records}
 
 [特性間重複レポート](trait-trait-overlap-report.md)には、次のレコードがあります。
 
