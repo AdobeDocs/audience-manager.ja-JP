@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 権限管理 API メソッド
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 feature: API
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%
 
