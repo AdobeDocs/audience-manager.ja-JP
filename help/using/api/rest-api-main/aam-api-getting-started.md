@@ -6,9 +6,9 @@ solution: Audience Manager
 title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ab8745a8ba24154793201893a39a039b5a098833
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1860'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ ht-degree: 100%
 
 `expires_in` キーは、アクセストークンの有効期間を秒単位で表しています。トークンが公開される場合、ベストプラクティスとして、有効期間を短く設定し、公開時間を制限します。
 
-### 更新トークン {#refresh-token}
+### 更新トークン  {#refresh-token}
 
 更新トークンは、元のトークンの有効期間が終了した後、[!DNL API] アクセスを更新します。リクエストがあれば、パスワードワークフローの応答 [!DNL JSON] に更新トークンが含まれます。更新トークンを受け取らない場合、パスワード認証プロセスにより新しいトークンを作成します。
 
@@ -167,7 +167,7 @@ ht-degree: 100%
 }
 ```
 
-### 認証コードと暗黙的な認証 {#authentication-code-implicit}
+### 認証コードと暗黙的な認証  {#authentication-code-implicit}
 
 [!DNL Audience Manager] は、認証コードを暗黙的な認証をサポートしています。[!UICONTROL REST API]これらのアクセス方法を利用するには、ユーザーが `https://api.demdex.com/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
 
@@ -263,7 +263,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 >
 >[!DNL Audience Manager] ベータ環境は、実稼動環境の小規模なスタンドアロンバージョンです。テストするデータはすべてこの環境で入力および収集する必要があります。
 
-## バージョン {#versions}
+## バージョン  {#versions}
 
 これらの [!DNL API] では、新しいバージョンが定期的にリリースされています。新しいリリースでは、[!DNL API] バージョン番号が増加しています。リクエスト [!DNL URL] では、バージョン番号は次の例のように `v<version number>` として参照されます。
 
