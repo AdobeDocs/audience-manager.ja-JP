@@ -8,10 +8,10 @@ title: アドレス可能なオーディエンス
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Match Rates
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '1824'
+workflow-type: tm+mt
+source-wordcount: '1825'
 ht-degree: 100%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 100%
 | [!UICONTROL Customer Total Audience] | ルックバック期間に、御社のシステムにおける[!UICONTROL rule-based trait]、またはオフラインファイルからの[!UICONTROL onboarded trait]に適合したデバイスの数。 |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] は、割合で表されます。 |
 
-### セグメントレベルのマッチ率の指標 {#segment-level-metrics}
+### セグメントレベルのマッチ率の指標  {#segment-level-metrics}
 
 これらの指標は[!UICONTROL segment]のメンバーシップについてのデータを返します。これらは各[!UICONTROL segments]について、オーディエンスサイズに関するより詳細で正確な情報を提供します。
 
