@@ -6,9 +6,9 @@ solution: Audience Manager
 title: インタラクティブな重複レポート
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 feature: overlap reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 
