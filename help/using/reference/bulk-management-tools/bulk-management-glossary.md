@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 一括管理ツールの用語集
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fc13643681eebec17a95607482f2864e81b95820
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%
 
