@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 選択した Audience Manager レポートでのデータサンプリングとエラー率
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 397be3f44bf865633140bb45630a78be0a0d2219
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
