@@ -6,9 +6,9 @@ solution: Audience Manager
 title: デジタル署名された HTTP(S) 要求
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4877aa5391193ee2187609fdc9cb3740c91feb96
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Audience Manager では、`HTTP(S)` サーバー間要求をデジタル署名�
 POST message content
 ```
 
-## 仕組み {#how-it-works}
+## 仕組み  {#how-it-works}
 
 1. パートナーに送信する `HTTP(S)` メッセージを [!UICONTROL IRIS] が作成します。
 1. パートナーから連絡された `HTTP(S)` メッセージと秘密鍵に基づいて、[!UICONTROL IRIS] が署名を作成します。
@@ -61,7 +61,7 @@ POST message content
 
 ![](assets/iris-digitally-sign-http-request.png)
 
-## 署名の計算方法 {#calculate-signature}
+## 署名の計算方法  {#calculate-signature}
 
 [!UICONTROL IRIS] でメッセージ署名に使用されている方法は、[!DNL HMAC]（ハッシュベースのメッセージ認証コード）です。実装とライブラリは、基本的にどのようなプログラミング言語でも入手可能です。[!DNL HMAC] に対する既知の長さ拡張攻撃はありません。次の [!DNL Java] コードの例を参照してください。
 
@@ -92,7 +92,7 @@ String signature = Base64.encodeBase64String(result).trim();
 
 秘密鍵のローテーションをおこなうため、パートナーは、新しい秘密鍵を [!DNL Adobe Audience Manager] コンサルタントに伝える必要があります。古い鍵は [!DNL Audience Manager] から削除され、[!UICONTROL IRIS] は新しい署名ヘッダーのみ送信します。これで鍵がローテーションされました。
 
-## 署名に使用するデータ {#data-signing}
+## 署名に使用するデータ  {#data-signing}
 
 `GET` タイプの宛先の場合、署名に使用するメッセージは *REQUEST_PATH + QUERY STRING*（例：*/from-aam-s2s？=1,2,3*）になります。IRIS ではホスト名や `HTTP(S)` ヘッダーを考慮しません。これらは、経路の途中で改変されたり誤って設定されたりするおそれがあります。また、間違って通知される可能性もあります。
 
