@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 送信データ転送のための ID 同期
 uuid: f3849be8-1094-47db-9296-7482f020af18
 feature: Outbound Data Transfers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 
