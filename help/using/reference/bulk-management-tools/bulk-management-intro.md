@@ -1,17 +1,17 @@
 ---
 description: 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
-keywords: baaam;BAAAM;download baaam
+keywords: baaam;BAAAM；ダウンロードバーム
 seo-description: 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
 seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: baaam
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
-source-wordcount: '710'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '714'
+ht-degree: 99%
 
 ---
 
