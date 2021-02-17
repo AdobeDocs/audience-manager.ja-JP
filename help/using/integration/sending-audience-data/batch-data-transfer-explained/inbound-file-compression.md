@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 受信データ転送ファイルのファイル圧縮
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 feature: Inbound Data Transfers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 100%
 
