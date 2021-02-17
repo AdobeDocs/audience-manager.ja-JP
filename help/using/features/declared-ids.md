@@ -1,16 +1,16 @@
 ---
-description: 宣言された ID の機能、セットアップ手順、コード例、変数について説明します。
-keywords: id sync
-seo-description: 宣言された ID の機能、セットアップ手順、コード例、変数について説明します。
+description: 宣言済み ID の機能、セットアップ手順、コード例、変数について説明します。
+keywords: id 同期
+seo-description: 宣言済み ID の機能、セットアップ手順、コード例、変数について説明します。
 seo-title: 宣言された ID
 solution: Audience Manager
 title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
-workflow-type: ht
-source-wordcount: '1187'
+workflow-type: tm+mt
+source-wordcount: '1189'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>イベント呼び出し</b> </td> 
-   <td colname="col2"> <p>機能させるには、ページに <span class="wintitle">DIL</span> と <a href="https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html" format="https" scope="external">Adobe Experience Platform ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Adobe Experience Platform ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
+   <td colname="col2"> <p>機能させるには、ページに <span class="wintitle">DIL</span> と <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external">Adobe Experience Platform ID サービス</a>コードが必要です。<span class="wintitle">DIL</span> では、<code> setVisitorID </code> 関数で<span class="wintitle">宣言された ID</span> を <span class="keyword">Adobe Experience Platform ID サービス</span>から取得して <span class="keyword">Audience Manager</span> に渡します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID のマッチング</b> </td> 
