@@ -1,7 +1,7 @@
 ---
 description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。Destination Builder とは、Cookie、URL、またはサーバー間通信ベースの宛先の作成および管理をおこなうために使用するツールです。
-keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-landing-page-description: A destination is any third-party system, such as ad server or DSP, with which to share data. Use Destination Builder to create and manage cookie, URL, or server-to-server destinations.
+keywords: 統合コード、宛先、宛先の概要, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先
+landing-page-description: 宛先は、広告サーバーや DSP など、データを共有するサードパーティ製のシステムです。 Cookie、URL またはサーバー間の宛先を作成および管理するには、宛先ビルダーツールを使用します。
 seo-title: 宛先
 solution: Audience Manager
 title: 宛先
@@ -10,7 +10,7 @@ feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '539'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # [!UICONTROL Destinations] 概要 {#destinations}
 
-Audience Manager において、[!UICONTROL destination]とは、データを共有する任意のサードパーティシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、[!UICONTROL cookie][!DNL URL]、または[!UICONTROL server-to-server destinations]の作成と管理に使用するツールです。
+Audience Manager において、[!UICONTROL destination]とは、データを共有する任意のサードパーティシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、[!UICONTROL cookie]、[!DNL URL]、または[!UICONTROL server-to-server destinations]の作成と管理に使用するツールです。
 
 ## 目的とメリット {#purposes}
 
@@ -27,7 +27,7 @@ Audience Manager において、[!UICONTROL destination]とは、データを共
 [!UICONTROL Destinations]および[!UICONTROL Destination Builder]を使用すると、[!UICONTROL destinations]宛を作成し、セグメント化されたユーザーに関する情報をデータパートナーに送信できます。これは以下に役立ちます。
 
 * **データ値の保護：**&#x200B;すべてのユーザーデータを[!UICONTROL Destination Builder]に送信するのではなく、[!UICONTROL destination] を使用して対象ユーザーのみに関する特定の情報を共有できます。
-* **データに対するアクション：**[!UICONTROL destination]パートナーへのデータの送信により、対象オーディエンスセグメントをすばやく作成およびターゲット設定できます。
+* **データに対するアクション：** [!UICONTROL destination]パートナーへのデータの送信により、対象オーディエンスセグメントをすばやく作成およびターゲット設定できます。
 * **技術的なオーバーヘッドの削減：**&#x200B;ビジネスユーザーは、[!UICONTROL Destination Builder] インターフェイスで[!UICONTROL destinations]を安全にセットアップできます。これにより、デプロイメント前のテストに必要な時間を節約できます。[!UICONTROL Destination Builder] を使用すると、長い開発サイクルを経ずに、ビジネスニーズの変更に合わせて[!UICONTROL destinations]を作成、管理および削除できます。
 
 ## 技術上の考慮事項 {#technical-considerations}
