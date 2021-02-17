@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
