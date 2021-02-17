@@ -6,9 +6,9 @@ solution: Audience Manager
 title: セグメントパフォーマンスレポート
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 feature: audience optimization reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 100%
 
