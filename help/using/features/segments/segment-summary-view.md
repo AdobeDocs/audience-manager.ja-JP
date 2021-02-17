@@ -5,13 +5,13 @@ seo-title: セグメントの詳細ページ
 solution: Audience Manager
 title: セグメントの詳細ページ
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
-keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+keywords: IDタイプ分類， ID分類，オーディエンスIDレポート，クロスデバイス，クロスデバイスID，デバイスID
 feature: Segments
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
    >Audience Manager では、セグメントに適合するクロスデバイス ID がある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
 
    [!UICONTROL Identity Type Breakdown] の概要については、以下のビデオをご覧ください。
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=jpn)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 4. **[!UICONTROL Segment Rules]：**&#x200B;セグメントの特性を資格認定ルールと共にリストします。
 5. **[!UICONTROL Destination Mappings]：**&#x200B;セグメントの宛先マッピングをリストします。
