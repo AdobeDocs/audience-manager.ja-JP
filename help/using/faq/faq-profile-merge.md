@@ -1,16 +1,16 @@
 ---
 description: プロファイル結合ルールおよびデバイスグラフに関するよくある質問への回答。
-keywords: Organization ID
+keywords: 組織 ID
 seo-description: プロファイル結合ルールおよびデバイスグラフに関するよくある質問への回答。
 seo-title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
 solution: Audience Manager
 title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge Rules
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '1548'
+workflow-type: tm+mt
+source-wordcount: '1550'
 ht-degree: 100%
 
 ---
