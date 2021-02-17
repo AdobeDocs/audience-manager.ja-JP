@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 受信データ転送のための ID 同期
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 feature: Inbound Data Transfers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
