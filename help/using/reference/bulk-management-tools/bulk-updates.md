@@ -7,10 +7,10 @@ solution: Audience Manager
 title: 一括更新
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 feature: baaam
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
-source-wordcount: '272'
+workflow-type: tm+mt
+source-wordcount: '273'
 ht-degree: 100%
 
 ---
