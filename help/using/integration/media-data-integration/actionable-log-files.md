@@ -1,16 +1,16 @@
 ---
 description: アクションにつながるログファイルを使用すると、広告サーバーログファイルからメディアシグナルをキャプチャし、Audience Manager で特性を作成することができます。ピクセルを追加することなく、インプレッション、クリック数およびコンバージョンを特性として広告サーバーから取得できるようになります。
-keywords: actionable logs, alf, ALF
+keywords: 実用的なログ、alf、ALF
 seo-description: アクションにつながるログファイルを使用すると、広告サーバーログファイルからメディアシグナルをキャプチャし、Audience Manager で特性を作成することができます。ピクセルを追加することなく、インプレッション、クリック数およびコンバージョンを特性として広告サーバーから取得できるようになります。
 seo-title: アクションにつながるログファイル
 solution: Audience Manager
 title: アクションにつながるログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
-workflow-type: ht
-source-wordcount: '1605'
+workflow-type: tm+mt
+source-wordcount: '1609'
 ht-degree: 100%
 
 ---
