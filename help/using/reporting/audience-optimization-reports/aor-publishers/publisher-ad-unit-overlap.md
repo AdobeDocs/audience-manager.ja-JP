@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 広告ユニット間重複
 uuid: e4467e81-acbf-474e-b501-89d57395651f
 feature: audience optimization reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 **[!UICONTROL Ad Unit Overlap]** レポートを使用すると、Web プロパティ全体でオーディエンスが重複している部分についてのインサイトを得ることができます。このレポートでは、上位 100 件の関連プロパティを検討し、それらの間の重複を示します。
 
-## 広告ユニット間重複レポートの使用 {#using-the-report}
+## 広告ユニット間重複レポートの使用  {#using-the-report}
 
 **[!UICONTROL Top N Base Ad Units]** コントロールと **[!UICONTROL Top N Overlapping Ad Units]** コントロールを使用して、重複の広告ユニット数を選択します。それぞれ、最大 100 個の項目を選択できます。
 
