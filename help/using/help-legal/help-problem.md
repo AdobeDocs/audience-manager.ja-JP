@@ -5,9 +5,9 @@ seo-title: 問題がある場合
 solution: Audience Manager
 title: 問題がある場合
 feature: Support
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ r_problem.xml
  </tbody> 
 </table>
 
-## 機能停止の場合 {#outage}
+## 機能停止の場合  {#outage}
 
 機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com)（ [!DNL https://status.adobe.com] ）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新情報も含まれています。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
 
