@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 宛先の削除
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
 feature: API
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 
