@@ -5,13 +5,13 @@ seo-title: データ収集および製品統合に関するよくある質問
 solution: Audience Manager
 title: データ収集および製品統合に関するよくある質問
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; SFTP address; STFP IP address; FTP address
+keywords: SFTP;SFTPアドレス；STFP IPアドレス；FTPアドレス
 feature: Administration
 translation-type: tm+mt
 source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 100%
+source-wordcount: '1159'
+ht-degree: 99%
 
 ---
 
