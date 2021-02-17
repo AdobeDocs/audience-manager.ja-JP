@@ -2,14 +2,14 @@
 description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
 seo-description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
 seo-title: Adobe Audience Manager テクノロジーパートナー
-keywords: activation; activation partners, destination, destinations
+keywords: アクティブ化、アクティベートパートナー、宛先、宛先
 solution: Audience Manager
 title: Adobe Audience Manager テクノロジーパートナー
 feature: Third Party Integrations
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
-source-wordcount: '1178'
+workflow-type: tm+mt
+source-wordcount: '1183'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 * **ICDS** = この列には、Instant Cross-Device Suppression をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **モバイルデバイス ID** = この列には、Audience Manager からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 
-<br>
+<br> 
 
 | 統合 | 更新日 | セグメント解除 | IAB TCF の同意シグナルの受信 | ICDS | モバイルデバイス ID |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
