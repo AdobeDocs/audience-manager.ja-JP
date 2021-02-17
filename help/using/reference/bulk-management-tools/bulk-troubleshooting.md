@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
