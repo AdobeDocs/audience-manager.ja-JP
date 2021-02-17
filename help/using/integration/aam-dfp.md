@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager の宛先としての Google Ad Manager
 uuid: 12d6c2ce-f0fa-4a2c-8b88-fdad634df435
 feature: Third Party Integrations
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
 
