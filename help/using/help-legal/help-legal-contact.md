@@ -5,9 +5,9 @@ seo-title: 連絡先情報および法的事項
 solution: Audience Manager
 title: 連絡先情報および法的事項
 feature: Support
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 アドビへの問い合わせに役立つ情報と、本製品および本ドキュメントの使用に関する法的事項に関する情報を紹介します。
 
-## ヘルプとテクニカルサポート {#technical-support}
+## ヘルプとテクニカルサポート  {#technical-support}
 
 Adobe Experience Cloud カスタマーケアチームによるサポートを、以下のような様々な手段でご利用いただけます。
 
@@ -31,7 +31,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ソリューションの設定によっては、このドキュメントで説明されている一部のオプションをご利用いただけない場合があります。各アカウントはそれぞれ異なるので、価格、お支払期限、ご利用条件については、契約書を参照してください。ご利用のサービスレベルの追加や変更をご希望の場合や、現在のサービスに対するご質問は、担当のアカウントマネージャーにお問い合わせください。
 
-## 法的事項 {#legal}
+## 法的事項  {#legal}
 
 Published by Adobe Systems Incorporated.
 
