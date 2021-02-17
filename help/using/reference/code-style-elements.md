@@ -6,9 +6,9 @@ solution: Audience Manager
 title: コードおよびテキスト要素のスタイル規則
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
 feature: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
