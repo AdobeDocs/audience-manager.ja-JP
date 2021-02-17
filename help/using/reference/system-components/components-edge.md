@@ -6,9 +6,9 @@ solution: Audience Manager
 title: エッジデータセンターについて
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 feature: system components
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Audience Manager はエッジコンピューティングという分散型トポロジを採用することで、外部ソースによって課される要求を満たします。
 
-## エッジデータセンターの概要 {#edge-data-center-basics}
+## エッジデータセンターの概要  {#edge-data-center-basics}
 
 <!-- 
 
@@ -41,6 +41,6 @@ c_compedge.xml
 
 ![](assets/edge_data_center.png)
 
-## 地理的な分布およびロードバランシング {#geo-dist-balance}
+## 地理的な分布およびロードバランシング  {#geo-dist-balance}
 
 詳しくは、[データ収集コンポーネント](../../reference/system-components/components-data-collection.md)の [!DNL DCS] セクションを参照してください。
