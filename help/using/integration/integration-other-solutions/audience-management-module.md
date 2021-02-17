@@ -1,16 +1,16 @@
 ---
 description: Audience Management モジュールを Adobe Analytics AppMeasurement に追加すると、Audience Manager データ統合ライブラリ（DIL）コードでページからピクセルを送信するのではなく、Analytics データを Audience Manager に転送することができます。
-keywords: audience analytics; analytics; ssf; server side forwarding
+keywords: audience analytics; analytics; ssf; サーバー側転送
 seo-description: Audience Management モジュールを Adobe Analytics AppMeasurement に追加すると、Audience Manager データ統合ライブラリ（DIL）コードでページからピクセルを送信するのではなく、Analytics データを Audience Manager に転送することができます。
 seo-title: Audience Management モジュールの実装
 solution: Audience Manager
 title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Integration with Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '691'
+workflow-type: tm+mt
+source-wordcount: '698'
 ht-degree: 100%
 
 ---
