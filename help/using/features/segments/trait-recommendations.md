@@ -5,9 +5,9 @@ seo-title: 特性レコメンデーション
 solution: Audience Manager
 title: 特性レコメンデーション
 feature: Segments
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 100%
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 まず、以下の [!UICONTROL Trait Recommendations] のビデオを見てから、詳細をお読みください。ビデオデモでは、独自のファーストパーティ特性からのレコメンデーションの使用方法、*および既に購読している* [!UICONTROL Audience Marketplace] データフィードからの特性レコメンデーションの使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26228/)
 
 次のビデオでは、[!UICONTROL Marketplace Recommendations] のワークフローの概要を説明し、[!UICONTROL Audience Marketplace] のデータフィードからのレコメンデーションに基づいて、セグメントに特性を追加する方法を示します。これらのレコメンデーションは、購読していないデータフィードに基づいています&#x200B;*。*
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29363/)
 
 ## 概要
 
@@ -143,7 +143,7 @@ Audience Manager では、ファーストパーティ特性からの特性レコ
 
 特性レコメンデーションを生成するために、Audience Manager では、ターゲット特性と、アカウントからアクセスできる他のすべての特性（サードパーティデータを含む）の [Jaccard 類似性](https://en.wikipedia.org/wiki/Jaccard_index)を計算します。Audience Managerには、類似性が最も高い 50 個までの特性が表示されます。
 
-## 特性類似性スコア {#trait-similarity-score}
+## 特性類似性スコア  {#trait-similarity-score}
 
 Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合を計算し、その 2 つを除算することにより、2 つの特性間の[!UICONTROL Trait Similarity Score]を算出します。2 つの特性 A と B の計算は次のようになります。
 
