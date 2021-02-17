@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager におけるデータセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: data governance & privacy
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **IP アドレス：** Audience Manager は、IP アドレスを収集します。IP アドレスは、データ処理およびログ収集処理に使用されます。また、地域／場所の検索およびターゲティングに必要です。さらに、取得したログファイル内のすべての IP アドレスは、90 日以内に難読化されます。
 
-## データのパーティション分割 {#data-partitioning}
+## データのパーティション分割  {#data-partitioning}
 
 個々のクライアントが所有するデータを保護するのに役立つプロセスです。
 
@@ -66,7 +66,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **レポートでのデータのパーティション分割：**&#x200B;クライアント ID は、すべてのレポートテーブルの識別キーの一部で、レポートクエリは、ID でフィルタリングされます。これは、お客様のデータが Audience Manager の別のお客様のレポートに表示されるのを防ぐのに役立ちます。
 
-## 受信サーバー間（S2S）転送 {#inbound-s2s}
+## 受信サーバー間（S2S）転送  {#inbound-s2s}
 
 Adobe Audience Manager は、S2S オンボードデータファイルをアドビのシステムに転送する 2 つの主要な方法をサポートします。
 
