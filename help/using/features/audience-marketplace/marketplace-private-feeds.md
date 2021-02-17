@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 非公開データフィード
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
 feature: Audience Marketplace
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
