@@ -1,16 +1,16 @@
 ---
 description: Audience Manager では、特性認定（特性の満足）の処理方法は特性のタイプによって異なります。特性認定について詳しくは、以下の表を参照してください。
-keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
+keywords: trait qualification;特性適合;個別の特性適合;UTR;Total Trait Population;TTP
 seo-description: Audience Manager では、特性認定（特性の満足）の処理方法は特性のタイプによって異なります。特性認定について詳しくは、以下の表を参照してください。
 seo-title: 特性認定に関するリファレンス
 solution: Audience Manager
 title: 特性認定に関するリファレンス
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 feature: Traits
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '825'
+workflow-type: tm+mt
+source-wordcount: '837'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 
 ## Real-time Segment Population と Total Segment Population {#real-time-segment}
 
-![unique-trait-realization](assets/segment-graph.png)
+![固有形質実現](assets/segment-graph.png)
 
 [!UICONTROL Real-time Segment Population] は、指定した期間内に選択したセグメントの対象となり、プロパティに到達したデバイスの数を表します。
 
