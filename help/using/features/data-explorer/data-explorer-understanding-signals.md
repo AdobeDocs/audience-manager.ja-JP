@@ -5,9 +5,9 @@ seo-title: シグナルについて
 title: シグナルについて
 uuid: 04a0554e-954e-484a-8838-9161ef416872
 feature: Data Explorer
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
