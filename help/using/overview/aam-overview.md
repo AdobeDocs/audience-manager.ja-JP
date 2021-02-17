@@ -1,15 +1,15 @@
 ---
 description: Adobe Audience Manager の歴史、収集されるデータのタイプ、セグメント化、レポートなどに関する情報。
-landing-page-description: Information about the history of Audience Manager, types of data collected, segmentation, reporting, and more.
+landing-page-description: Audience Manager の履歴、収集したデータのタイプ、セグメント化、レポートなどに関する情報です。
 seo-title: Audience Manager の概要
 solution: Audience Manager
-title: Audience Manager概要
+title: Audience Manager の概要
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: overview
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
