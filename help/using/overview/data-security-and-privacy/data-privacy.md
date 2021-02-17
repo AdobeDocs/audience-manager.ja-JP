@@ -6,9 +6,9 @@ solution: Audience Manager
 title: データプライバシーの概要
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: data governance & privacy
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -46,9 +46,9 @@ ht-degree: 100%
 
 [!DNL Audience Manager] は、[Adobe Experience Platform プライバシーサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
 
-このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
+このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
 
-データアクセスおよび削除の要求は[プライバシーサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)で処理されますが、現在、[オプトアウト要求](data-privacy-requests.md#opt-out-requests)は [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) を通じてサポートされています。詳しくは、[データプライバシーリクエスト](data-privacy-requests.md)を参照してください。
+データアクセスおよび削除の要求は[プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)で処理されますが、現在、[オプトアウト要求](data-privacy-requests.md#opt-out-requests)は [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) を通じてサポートされています。詳しくは、[データプライバシーリクエスト](data-privacy-requests.md)を参照してください。
 
 ## 関連する概念 {#related-concepts}
 
