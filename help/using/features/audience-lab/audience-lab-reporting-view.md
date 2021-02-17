@@ -7,9 +7,9 @@ title: テストグループのレポート
 topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 feature: Audience Lab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
 
