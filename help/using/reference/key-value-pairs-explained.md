@@ -7,10 +7,10 @@ solution: Audience Manager
 title: キーと値のペアの解説
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
-workflow-type: ht
-source-wordcount: '276'
+workflow-type: tm+mt
+source-wordcount: '278'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ c_key_value_explained.xml
 * **キー値セパレーター：**&#x200B;キー値ペア内のキーと値を区切ります。
 * **シリアルセパレーター：**&#x200B;シリアル化されたキー値ペア内の個々の値を区切ります。
 
-## 標準およびシリアル化されたキー値要素 {#standard-serialized-key-value-elements}
+## 標準およびシリアル化されたキー値要素  {#standard-serialized-key-value-elements}
 
 
 | のタイプ | 例 | キー | キー値セパレーター | キー値デリミター | シリアルセパレーター |
