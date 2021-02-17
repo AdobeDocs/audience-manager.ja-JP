@@ -1,17 +1,17 @@
 ---
 description: アクティビティ使用状況レポートは、Audience Manager インスタンスのアクティビティ使用量を表示および追跡するのに役立ち、アクティビティ使用量と契約上のコミットメントを明確に比較できます。
-keywords: activity, usage, reporting, commitment
+keywords: アクティビティ，使用，レポート，コミットメント
 seo-description: アクティビティ使用状況レポートは、Audience Manager インスタンスのアクティビティ使用量を表示および追跡するのに役立ち、アクティビティ使用量と契約上のコミットメントを明確に比較できます。
 seo-title: アクティビティ使用状況レポート
 solution: Audience Manager
 title: アクティビティ使用状況レポート
 topic: Activity Usage Reporting
 feature: Usage and Billing
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 99%
 
 ---
 
