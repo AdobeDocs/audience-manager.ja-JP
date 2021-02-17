@@ -6,9 +6,9 @@ solution: Audience Manager
 title: データ配信やファイル処理の時間がレポートに及ぼす影響
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%
 
