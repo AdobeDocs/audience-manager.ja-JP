@@ -6,9 +6,9 @@ solution: Audience Manager
 title: セグメント有効期間の説明
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 feature: Traits
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
 
