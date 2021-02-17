@@ -1,16 +1,16 @@
 ---
 description: 訪問者プロファイルビューアでは、特性やセグメントなど、現在のブラウザーに対するユーザープロファイルの現在の状態を表示できます。各特性について、SID、名前、訪問者の特性がどのように適合したかについての詳細（ファーストパーティまたはサードパーティ）、適合した日付、適合する頻度を表示できます。セグメントについては、各セグメントの SID、名前、セグメントメンバーシップの日付を確認できます。また、別の Audience Manager プロファイル ID（UUID）の訪問者プロファイルも確認できます。訪問者プロファイルビューアはトラブルシューティングに役立ちます。
-keywords: location;location parameter
+keywords: 場所;場所パラメーター
 seo-description: 訪問者プロファイルビューアでは、特性やセグメントなど、現在のブラウザーに対するユーザープロファイルの現在の状態を表示できます。各特性について、SID、名前、訪問者の特性がどのように適合したかについての詳細（ファーストパーティまたはサードパーティ）、適合した日付、適合する頻度を表示できます。セグメントについては、各セグメントの SID、名前、セグメントメンバーシップの日付を確認できます。また、別の Audience Manager プロファイル ID（UUID）の訪問者プロファイルも確認できます。訪問者プロファイルビューアはトラブルシューティングに役立ちます。
 seo-title: 訪問者プロファイルビューア
 solution: Audience Manager
 title: 訪問者プロファイルビューア
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
 feature: Traits
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '336'
+workflow-type: tm+mt
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
