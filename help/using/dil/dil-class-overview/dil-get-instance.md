@@ -1,16 +1,16 @@
 ---
 description: パートナー専用の DIL インスタンスを取得します。
-keywords: audience manager api;aam api;audience manager apis;aam apis
+keywords: Audience Manager API;AAM API
 seo-description: パートナー専用の DIL インスタンスを取得します。
 seo-title: getDil
 solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
 feature: DIL Implementation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '73'
+workflow-type: tm+mt
+source-wordcount: '83'
 ht-degree: 100%
 
 ---
