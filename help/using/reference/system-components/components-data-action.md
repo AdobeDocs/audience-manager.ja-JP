@@ -6,9 +6,9 @@ solution: Audience Manager
 title: データアクションのコンポーネント
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: system components
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 100%
 
@@ -148,6 +148,6 @@ c_compact.xml
 }
 ```
 
-## プロファイルキャッシュサーバー（PCS） {#pcs}
+## プロファイルキャッシュサーバー（PCS）  {#pcs}
 
 [データ収集コンポーネント](../../reference/system-components/components-data-collection.md)を参照してください。
