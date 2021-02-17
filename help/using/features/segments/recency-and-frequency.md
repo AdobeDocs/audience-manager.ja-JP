@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 最新性と頻度
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 ![](assets/recency_frequency.png)
 
-## 制限とルール {#limitations-rules}
+## 制限とルール  {#limitations-rules}
 
 最新性と頻度をセグメントの特性に適用する場合は、以下の制限およびルールを確認および理解してください。
 
