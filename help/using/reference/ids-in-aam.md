@@ -7,10 +7,10 @@ solution: Audience Manager
 title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
-source-wordcount: '943'
+workflow-type: tm+mt
+source-wordcount: '964'
 ht-degree: 100%
 
 ---
