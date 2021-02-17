@@ -6,9 +6,9 @@ solution: Audience Manager
 title: フォルダー API メソッド
 uuid: ebb6290e-98c0-472e-ba04-eb5dac036425
 feature: API
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
