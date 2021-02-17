@@ -6,9 +6,9 @@ solution: Audience Manager
 title: オンボーディングステータスレポート
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: inbound and outbound reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 ![](assets/stacked-graph.png)
 
-## エラーレポートの表 {#error-report-tables}
+## エラーレポートの表  {#error-report-tables}
 
 エラーレポートでは、棒グラフの下に表形式のデータが表示されます。この表は、成功率と失敗率に加えて、合計と割合が表示されます。
 
