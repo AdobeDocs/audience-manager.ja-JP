@@ -5,9 +5,9 @@ seo-title: Twitter 用にカスタマイズされたオーディエンスをセ�
 solution: Audience Manager
 title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 feature: People-Based Destinations
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 100%
 
