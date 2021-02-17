@@ -5,9 +5,9 @@ seo-title: Predictive Audiences に関する FAQ
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c2c392b1201b5de08a3f4d58bbb7be5ef31545d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 100%
 
