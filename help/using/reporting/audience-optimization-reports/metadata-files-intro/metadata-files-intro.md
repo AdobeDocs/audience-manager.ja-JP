@@ -6,9 +6,9 @@ solution: Audience Manager
 title: ログデータとメタデータファイル
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
 feature: log files
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 
