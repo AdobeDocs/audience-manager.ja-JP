@@ -5,9 +5,9 @@ seo-title: フィルターによるシグナルの検索
 title: フィルターによるシグナルの検索
 uuid: 99b00d48-6415-4cb1-848a-5401b34c43a6
 feature: Data Explorer
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
