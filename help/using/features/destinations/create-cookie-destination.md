@@ -5,9 +5,9 @@ seo-title: Cookie の宛先の設定
 solution: Audience Manager
 title: Cookie の宛先の設定
 feature: Destination Basics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
