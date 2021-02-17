@@ -1,6 +1,6 @@
 ---
 description: Audience Manager 内でデータを販売するデータプロバイダーのワークフローの概要です。
-keywords: Google analytics
+keywords: Google Analytics
 seo-description: Audience Manager 内でデータを販売するデータプロバイダーのワークフローの概要です。
 seo-title: データプロバイダー向けの Audience Marketplace
 solution: Audience Manager
@@ -8,10 +8,10 @@ title: データプロバイダー向けの Audience Marketplace
 topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 feature: Audience Marketplace
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '450'
+workflow-type: tm+mt
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
