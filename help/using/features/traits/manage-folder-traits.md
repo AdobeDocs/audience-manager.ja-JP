@@ -1,6 +1,6 @@
 ---
 description: フォルダー特性を作成、編集および削除します。
-keywords: Folder Trait;Folder Traits;folder traits;folder trait
+keywords: フォルダー特性;フォルダー特性;フォルダー特性;フォルダー特性
 seo-description: フォルダー特性を作成、編集および削除します。
 seo-title: フォルダー特性の管理
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
