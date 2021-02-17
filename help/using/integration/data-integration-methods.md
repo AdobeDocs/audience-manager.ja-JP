@@ -6,9 +6,9 @@ solution: Audience Manager
 title: データ統合方法
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 feature: Third Party Integrations
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 100%
 
