@@ -8,9 +8,9 @@ title: 管理
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
 > 
 > すべてのお客様が移行した後、このセクションは廃止されます。
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
 > 
 > すべてのお客様が移行した後、このセクションは廃止されます。
 
