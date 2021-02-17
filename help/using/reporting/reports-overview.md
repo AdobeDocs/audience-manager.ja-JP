@@ -4,9 +4,9 @@ seo-description: Analytics メニューのオプションを使用して、Adobe
 seo-title: Adobe Audience Manager（AAM）のレポートの概要
 title: レポートの概要
 feature: reporting reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
