@@ -6,9 +6,9 @@ solution: Audience Manager
 title: リアルタイム受信データ統合
 uuid: 96f292bb-608c-41d3-8baa-a58ecb411db0
 feature: Inbound Data Transfers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 100%
 
