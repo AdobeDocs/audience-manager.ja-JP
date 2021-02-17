@@ -6,9 +6,9 @@ solution: Audience Manager
 title: アクティブオーディエンス特性とデータソース同期特性
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 feature: Traits
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
