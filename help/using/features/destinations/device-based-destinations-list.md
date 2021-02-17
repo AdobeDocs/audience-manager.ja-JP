@@ -2,14 +2,14 @@
 description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
 seo-description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
 seo-title: Adobe Audience Manager のサーバー間の宛先
-keywords: activation; activation partners, destination, destinations
+keywords: アクティブ化、アクティベートパートナー、宛先、宛先
 solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
-source-wordcount: '1116'
+workflow-type: tm+mt
+source-wordcount: '1121'
 ht-degree: 100%
 
 ---
