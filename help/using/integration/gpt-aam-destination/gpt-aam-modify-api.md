@@ -6,9 +6,9 @@ solution: Audience Manager
 title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third Party Integrations
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
 
