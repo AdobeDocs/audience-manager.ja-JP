@@ -6,9 +6,9 @@ solution: Audience Manager
 title: TLS 1.0 および 1.1 の廃止
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 
