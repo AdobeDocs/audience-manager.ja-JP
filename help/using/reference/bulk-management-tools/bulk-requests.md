@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 一括リクエスト
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 feature: baaam
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 
