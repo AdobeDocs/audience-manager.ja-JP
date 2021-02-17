@@ -6,9 +6,9 @@ solution: Audience Manager
 title: ドメイン管理 API メソッド
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
