@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 特性タイプメソッド
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
 
