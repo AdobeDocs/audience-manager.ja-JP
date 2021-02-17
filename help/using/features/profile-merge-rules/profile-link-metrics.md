@@ -6,9 +6,9 @@ solution: Audience Manager
 title: プロファイル結合ルールのレポート指標
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge Rules
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## デバイスグラフの指標 {#device-graph-metrics}
+## デバイスグラフの指標  {#device-graph-metrics}
 
 [!UICONTROL Merge Rules]レポートには、選択したデータソースとデバイスグラフについて、サイトを訪問したユーザーとデバイスの総数に関するデータも記載されます。これらの指標では、事前設定された期間（ルックバック期間）に基づいてデータが返されます。この期間は、ルールの作成時に選択したデバイスオプションによって異なります。次の表は、デバイスグラフオプションごとのレポート間隔の一覧です。
 
@@ -102,7 +102,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## サンプルのレポート {#sample-reports}
+## サンプルのレポート  {#sample-reports}
 
 ### 標準プロファイルリンクレポート
 
