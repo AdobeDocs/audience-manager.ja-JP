@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 特性ビルダーの概要
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 feature: Traits
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 
