@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 宛先 ID を基準に宛先を返す
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -70,8 +70,9 @@ ht-degree: 100%
 >[!NOTE]
 >
 >* *（オプション）*`containsSegment=<sid>` を渡すと、指定したセグメントにマッピングされたすべての宛先の配列が返されます。例えば、クエリは次のようになります `GET .../destinations/?containsSegment=4321`。
->
->* 完全な宛先オブジェクトは返されません。完全に準備されたオブジェクトが必要な場合は、データ順序を基準に宛先を取得します。
+   >
+   >
+* 完全な宛先オブジェクトは返されません。完全に準備されたオブジェクトが必要な場合は、データ順序を基準に宛先を取得します。
 
 
 ### オプションのクエリパラメーター
