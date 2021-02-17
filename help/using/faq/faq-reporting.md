@@ -6,9 +6,9 @@ solution: Audience Manager
 title: レポートに関するよくある質問
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
 feature: Reporting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ faq_reports.xml
 
 その結果、このデータがレポートシステムに送信されるのが遅れ、1 日（[!UICONTROL Trait Graph]のプロットに使用するレポート間隔）の間表示されなくなります。ただし、次の日の[トレンド](../reporting/trend-reports.md#trend-report-overview)レポートまたは[一般レポート](../reporting/general-reports.md#general-reports-overview)では、このデータを 7 日、14 日、30 日および 60 日のレポート間隔で表示できます。
 
-<br>
+<br> 
 
 **[!UICONTROL Overlap]レポートで一部のセグメントが欠落しています。どこにありますか？**
 
@@ -42,13 +42,13 @@ faq_reports.xml
 * [レポートおよびデータのサンプリング方法](../reporting/report-sampling.md)
 * [重複レポートと汎用レポートでのユニークユーザーのカウント](../reporting/unique-user-counts.md)
 
-<br>
+<br> 
 
 **電子メールマーケティングキャンペーンを実行する場合に、リダイレクトされたユーザーがそのキャンペーンから来ているか、他のソースから来ているかをどのように判別すればよいですか？**
 
 キャンペーン固有のクエリ文字列を、監視対象のサイトセクションの URL に追加します。次に、この変数をキャプチャするための特性ルールを設定します。例えば、URL が `www.test123.com/electronics?campaign=123` のような形でキャンペーン ID を渡す場合、`h_referer = 'campaign=123'` のような形式のヘッダーを検索する特性ルールを使用して、`h_referer` 変数からデータをキャプチャするための特性ルールを作成します。
 
-<br>
+<br> 
 
 **リアルタイムカウントと合計セグメント母集団カウントにはどのような違いがありますか？**
 
@@ -63,13 +63,13 @@ faq_reports.xml
 
  -->
 
-<br>
+<br> 
 
 **1 つの特性だけで構成されているセグメントがあります。レポート指標を見ると、カウントが一致しません。これはなぜですか？**
 
 [セグメントビルダーにおける特性およびセグメント母集団データ](../features/segments/segment-builder-data.md)を参照してください。
 
-<br>
+<br> 
 
 <!-- 
 
@@ -86,7 +86,7 @@ faq_reports.xml
 
 バックエンドで、転送されたデータは AAM でアクティブなユーザー（ユーザーは過去 120 日以内に [!DNL DCS] アクティビティをおこなっている）に対してのみ添付されます。そのため、[!DNL Audience Manager] で期限切れになっているユーザーのデータを転送すると、[!UICONTROL Inbound]レシートから一定数のユーザーレコードが転送されたことが通知される場合がありますが、これらのユーザーに最近のアクティビティがない場合、このデータは[!UICONTROL User Profile Store]に到達した時点で破棄されます。
 
-<br>
+<br> 
 
 **デバイス間で転送された特性の特性ユニーク数が、転送されたレコード数より多いのはなぜですか？**
 
@@ -99,13 +99,13 @@ faq_reports.xml
 * ユーザーが複数のコンピューターやブラウザーから同じデバイス間アカウントにログインしている。
 * ユーザーが Cookie を消去している。注意：ユーザーが「破棄」して 120 日間使用されなかった Cookie は削除されます。
 
-<br>
+<br> 
 
 **オンボードされた特性の [!UICONTROL Total Trait Realizations] が常に「0」となるのはなぜですか？**
 
 [!UICONTROL Total Trait Realizations] はページの読み込みに対応します。[!UICONTROL Total Trait Realizations]は、特定の特性がリアルタイムで実行された回数を提供します。この数字は、ルールベースの特性についてのみ計算されます。オンボードされた特性には、常に [!UICONTROL Total Trait Realizations] は「0」として表示されます。
 
-<br>
+<br> 
 
 **特性を作成したところ、[!UICONTROL Trait Graph] に表示された[!UICONTROL Unique Trait Realizations]の数が[!UICONTROL Total Trait Population]よりも大きくなりました。これは正常でしょうか？**
 
