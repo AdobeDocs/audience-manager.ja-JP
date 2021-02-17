@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS イベント呼び出し API
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 feature: DCS
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
