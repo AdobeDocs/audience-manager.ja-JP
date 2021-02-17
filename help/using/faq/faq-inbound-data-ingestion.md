@@ -1,16 +1,16 @@
 ---
 description: Audience Manager へのオフラインデータの取り込みに関するよくある質問です。
-keywords: ftp or s3;s3 or ftp
+keywords: FTP または s3;s3 または FTP
 seo-description: Audience Manager へのオフラインデータの取り込みに関するよくある質問です。
 seo-title: 顧客データのインバウンドの取得に関するよくある質問
 solution: Audience Manager
 title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '1355'
+workflow-type: tm+mt
+source-wordcount: '1361'
 ht-degree: 100%
 
 ---
