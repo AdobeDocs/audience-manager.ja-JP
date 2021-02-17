@@ -5,9 +5,9 @@ seo-title: Adobe Analytics の詳細検索
 title: Adobe Analytics の詳細検索
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -32,4 +32,4 @@ ht-degree: 100%
 
 以下のビデオでは、使用済みおよび未使用のシグナルの検索、Analytics の特性の作成、データの理解など、[!UICONTROL Data Explorer] によって Adobe Analytics データを検出および使用する方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25150?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)
