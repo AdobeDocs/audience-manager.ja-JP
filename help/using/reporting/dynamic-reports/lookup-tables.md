@@ -6,9 +6,9 @@ solution: Audience Manager
 title: ルックアップテーブルによるログファイル処理時間の改善
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 feature: reporting reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 100%
 
@@ -57,11 +57,11 @@ c_lookup_tables.xml
 |---|---|---|---|
 | 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
-| 3 | 111 | 456 | 27 |
+| 1 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
-<br>
+<br> 
 
 以下のルックアップファイルにはメタデータが含まれており、広告 ID でメインファイルにリンクし直すことができます。サイズにも注意してください。各広告主を複数回繰り返す代わりに、それぞれに 1 つの参照のみが必要です。
 
