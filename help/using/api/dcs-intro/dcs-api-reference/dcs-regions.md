@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS の地域 ID、場所、ホスト名
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
 
