@@ -1,16 +1,16 @@
 ---
 description: モデルビルダーでアルゴリズムモデルを作成するための必須手順とオプションの手順について説明します。
-keywords: algo how works
+keywords: アルゴリズムの仕組み
 seo-description: モデルビルダーでアルゴリズムモデルを作成するための必須手順とオプションの手順について説明します。
 seo-title: アルゴリズムモデルの作成
 solution: Audience Manager
 title: アルゴリズムモデルの作成
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
-workflow-type: ht
-source-wordcount: '648'
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 ファーストパーティの類似（look-alike）モデルを作成し、コンバーターに似た独自の訪問者をより多く見つける方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
