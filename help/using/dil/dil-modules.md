@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DIL モジュール
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -154,8 +154,10 @@ dil-google-universal-analytics.xml
 >
 >
 >* [!DNL Audience Manager] では、Google の `analytics.js` コードライブラリの状況把握や管理をおこないません。Google が [!UICONTROL DIL] の新バージョンをリリースした場合は、`analytics.js` データ収集がまだ機能するかどうかを確認してください。
->
->* 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
+   >
+   >
+* 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
+
 >
 
 
