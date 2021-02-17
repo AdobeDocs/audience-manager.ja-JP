@@ -1,16 +1,16 @@
 ---
 description: 新規データソースを作成するには、Audience Data／Data Sources／Add New の順に選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
-keywords: data sources;manage data source;audience manager data source
+keywords: データソース; データソースの管理; Audience Manager データソース
 seo-description: 新規データソースを作成するには、Audience Data／Data Sources／Add New の順に選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
 seo-title: データソースの作成
 solution: Audience Manager
 title: データソースの管理
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '371'
+workflow-type: tm+mt
+source-wordcount: '380'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 100%
 >
 >次の制限事項に注意してください。
 >
->* [アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
+>* You cannot delete an[アクティブなオーディエンスやデータソースと同期された特性](../features/traits/client-activity-synced-audience-traits.md)は削除できません。
 >* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/core-services-landing.html)を使用します。
 
 
