@@ -6,9 +6,9 @@ solution: Audience Manager
 title: サポートされているブラウザー
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
