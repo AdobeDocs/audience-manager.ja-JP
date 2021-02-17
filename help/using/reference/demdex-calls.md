@@ -6,9 +6,9 @@ solution: Audience Manager
 title: demdex ドメインの呼び出しについて
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 feature: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7286af6dd85a0464ccf52a88139d07cb151783e6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 100%
 
