@@ -6,9 +6,9 @@ solution: Audience Manager
 title: テストグループの管理
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 100%
 
