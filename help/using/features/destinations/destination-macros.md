@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fc13643681eebec17a95607482f2864e81b95820
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 100%
 
