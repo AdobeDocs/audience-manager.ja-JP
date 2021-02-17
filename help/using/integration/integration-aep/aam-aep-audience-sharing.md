@@ -4,13 +4,13 @@ seo-description: この記事では、Audience Manager と Adobe Experience Plat
 seo-title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
 solution: Audience Manager
 title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
-keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
+keywords: AEP オーディエンス共有、AEP セグメント、プラットフォームセグメント, セグメント共有, オーディエンス共有、セグメントを共有
 feature: Integration with Platform
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
-workflow-type: ht
-source-wordcount: '1492'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1505'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +56,7 @@ Audience Manager の特性とセグメントは、セグメントワークフロ
 
 * [セグメント化サービスの概要](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/home.html#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/ui/overview.html#audiences)
-* [Audience Manager コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
  <br>
 
@@ -111,7 +111,7 @@ Experience Platform セグメントから自動的に作成されたセグメン
 ---------|----------|---------
 | 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
 
 ## Experience Platform での Audience Manager データ書き出しコントロールのサポート {#aam-data-export-control-in-aep}
@@ -187,6 +187,6 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [セグメント化サービスの概要](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/home.html#audiences)
->* [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/ui/overview.html#audiences)
->* [Audience Manager コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [セグメント化サービスの概要](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
