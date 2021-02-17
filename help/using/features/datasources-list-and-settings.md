@@ -6,9 +6,9 @@ solution: Audience Manager
 title: データソースリストと設定
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> ID Type</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> IDタイプ</span></b> </p> </td> 
    <td colname="col2"> <p>「<b><span class="uicontrol">Inbound</span></b>」オプションには ID タイプが必要です。オプションは次のとおりです。 </p> <p> 
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol">Customer ID</span></b>：受信データを顧客 ID で識別します。 </li> 
