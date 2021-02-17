@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 受信データタイプのファイル PGP 暗号化
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 feature: Inbound Data Transfers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 
