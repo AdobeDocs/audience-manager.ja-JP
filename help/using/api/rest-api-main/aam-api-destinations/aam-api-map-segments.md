@@ -6,9 +6,9 @@ solution: Audience Manager
 title: セグメントの宛先へのマッピング
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
