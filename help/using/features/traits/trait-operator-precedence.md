@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 特性ビルダーでの演算順序
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 feature: Traits
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 比較演算子 </td> 
-   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
+   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
    <td colname="col3"> 次の値より小さい、次の値より大きい、次の値以下、次の値以上が、次に評価されます。 </td> 
   </tr> 
   <tr> 
