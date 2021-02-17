@@ -1,6 +1,6 @@
 ---
 description: ルールベースおよびオンボードの特性の作成プロセスに固有のセットアップ手順や機能について説明します。
-keywords: create trait;create traits
+keywords: 特性の作成
 seo-description: ルールベースおよびオンボードの特性の作成プロセスに固有のセットアップ手順や機能について説明します。
 seo-title: ルールベースまたはオンボードの特性の作成
 solution: Audience Manager
@@ -10,7 +10,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '382'
 ht-degree: 100%
 
 ---
