@@ -5,9 +5,9 @@ seo-title: 宛先へのデータ書き出しコントロールの追加
 solution: Audience Manager
 title: 宛先へのデータ書き出しコントロールの追加
 feature: Data Export Controls
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
 
