@@ -6,9 +6,9 @@ solution: Audience Manager
 title: データスライダーを使用したレポート結果のフィルタリング
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 feature: reporting reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
