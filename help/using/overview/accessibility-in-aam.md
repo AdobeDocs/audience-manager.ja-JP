@@ -5,9 +5,9 @@ seo-title: Audience Manager のアクセシビリティ
 solution: Audience Manager
 title: Audience Manager のアクセシビリティ
 feature: overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2dc015ccf358724f0caa45265fab962821569d1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 
