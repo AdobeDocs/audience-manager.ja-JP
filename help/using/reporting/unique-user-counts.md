@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 重複レポートと一般レポートでのユニークユーザーのカウント
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 feature: reporting reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
