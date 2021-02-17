@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager システムの主要なコンポーネント
 uuid: dedb15e6-b8dd-4eea-ab84-d99f160e4d34
 feature: system components
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
