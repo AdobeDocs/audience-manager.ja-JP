@@ -1,17 +1,17 @@
 ---
 description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。
-keywords: inbound, batch, batch upload, batch data
+keywords: 受信，バッチ，バッチアップロード，バッチデータ
 seo-description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。これをおこなうには、Audience Manager のバッチアップロードオプションを使用します。
 seo-title: Audience Manager へのバッチデータ送信の概要
 solution: Audience Manager
 title: Audience Manager へのバッチデータ送信の概要
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
-workflow-type: ht
-source-wordcount: '482'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 98%
 
 ---
 
