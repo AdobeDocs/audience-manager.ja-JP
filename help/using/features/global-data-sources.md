@@ -5,9 +5,9 @@ seo-title: グローバルデータソース
 solution: Audience Manager
 title: グローバルデータソース
 feature: Data Sources
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cb84f95d52c2e851cb0c016cb25f408f2d79d01b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 100%
 
