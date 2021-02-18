@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 | メリット | 説明 |
 |---|---|
-| シングルサインオンソリューション間 | [!DNL Audience Manager] ユーザーは、[!DNL Adobe ID] または [!DNL Enterprise ID] を使用して、[!DNL Experience Cloud] などのすべてのソリューションにログインできます。このログインにより、[!DNL Experience Cloud] 全体で統合ソリューションとコアサービスにアクセスできます。 移行後、従来のログイン（`bank.demdex.com` ）でログインしようとするユーザーは、`experiencecloud.adobe.com` にリダイレクトされます。 |
+| シングルサインオンソリューション間 | [!DNL Audience Manager] ユーザーは、[!DNL Adobe ID] または [!DNL Enterprise ID] を使用して、[!DNL Experience Cloud] などのすべてのソリューションにログインできます。このログインにより、[!DNL Experience Cloud] 全体で統合ソリューションとコアサービスにアクセスできます。移行後、従来のログイン（`bank.demdex.com` ）でログインしようとするユーザーは、`experiencecloud.adobe.com` にリダイレクトされます。 |
 | ユーザーとグループの管理 | 移行が完了すると、[!DNL Audience Manager] 管理者は [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/) でのみユーザーとグループを管理するようになります。 |
 | 製品とサービスの管理 | [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/) から、管理者は以下をおこなえます。 <ul><li>ユーザーの作成、更新、削除</li><li>ソリューションやサービスへのアクセスの許可</li><li>ユーザー権限の付与</li></ul> |
 
@@ -39,15 +39,15 @@ Audience Manager ユーザーに必要なのは、[!DNL Audience Manager] 管理
 
 Audience Manager 管理者は、次の手順に従ってユーザーを [!DNL Admin Console] に移行する必要があります。
 
-1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com) に移動し、Adobe ID または Enterprise ID を使用してログインします。 [!DNL Admin Console] にアクセスできない場合は、カスタマーケアまたはアドビコンサルタントにお問い合わせください。
+1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com) に移動し、Adobe ID または Enterprise ID を使用してログインします。[!DNL Admin Console] にアクセスできない場合は、カスタマーケアまたはアドビコンサルタントにお問い合わせください。
 2. ユーザーアカウントの作成および管理方法の詳細な手順については、[!DNL Adobe Admin Console] [ヘルプガイド](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/users.ug.html)を参照してください。
-3. 既存のすべてのAudience Managerユーザーに対して新しいユーザーアカウントを作成します。
-4. 新しく作成したユーザーアカウントについてユーザーに通知します。 [!DNL Admin Console] に移行された後、ユーザーは従来のログインの使用をやめる必要があります。
+3. 既存のすべての Audience Manager ユーザーに対して新しいユーザーアカウントを作成します。
+4. 新しく作成したユーザーアカウントについてユーザーに通知します。[!DNL Admin Console] に移行された後、ユーザーは従来のログインの使用をやめる必要があります。
 
 ## ユーザー移行に関する考慮事項 {#considerations}
 
 ユーザーも管理者も、Audience Manager ユーザーの移行に関して次の点に留意する必要があります。
 
-* 新しいユーザーアカウントが Admin Console で作成されると、従来のユーザーアカウントの既存の権限が自動的に引き継がれます。 管理者が [!DNL Admin Console] で新しい権限を割り当てる必要はありません。
-* 管理者は、従来のユーザーアカウントを無効にする必要はありません。 古いユーザーアカウントは、移行後のアカウントに自動的に結合されます。
-* ユーザー権限の更新は、引き続き [!DNL Audience Manager] から管理されます。 [!DNL Admin Console] では、ユーザーとグループの管理のみを対象としています。
+* 新しいユーザーアカウントが Admin Console で作成されると、従来のユーザーアカウントの既存の権限が自動的に引き継がれます。管理者が [!DNL Admin Console] で新しい権限を割り当てる必要はありません。
+* 管理者は、従来のユーザーアカウントを無効にする必要はありません。古いユーザーアカウントは、移行後のアカウントに自動的に結合されます。
+* ユーザー権限の更新は、引き続き [!DNL Audience Manager] から管理されます。[!DNL Admin Console] では、ユーザーとグループの管理のみを対象としています。
