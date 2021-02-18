@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -160,7 +160,7 @@ ht-degree: 98%
      <br> 
      <p> <b>最新の機能</b> </p> <p> 
      Audience Manager の最新機能については、以下を参照してください。</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience ManagerからAdmin Consoleへのユーザーの移行</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google によるピープルベースのリンク先との一致</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0 用 Audience Manager プラグイン</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console への Audience Manager ユーザーの移行</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google によるピープルベースのリンク先との一致</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0 用 Audience Manager プラグイン</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
      </ul></p>
     </td>
   </tr> 
