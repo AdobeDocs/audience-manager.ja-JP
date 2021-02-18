@@ -473,6 +473,7 @@ state = {
           id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
           url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
           + containerNSID + '#' + encodeURIComponent(document.location.href), 
+
                iframe: null, 
                iframeHasLoaded: false, 
                sendingMessages: false, 
@@ -684,7 +685,6 @@ var dilInstance = DIL.create({
 >
 >* サイト訪問者のブラウザーが CORS をサポートしていることが確実な場合にのみ `useCORSOnly: true` を設定することをお勧めします。
 >* `useCORSOnly: true` の場合、[!UICONTROL DIL] は Internet Explorer 9 またはそれ以前のバージョンからは ID 呼び出しをおこないません。
-
 >
 
 
