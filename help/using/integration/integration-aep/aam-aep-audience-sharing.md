@@ -7,10 +7,10 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP オーディエンス共有、AEP セグメント、プラットフォームセグメント, セグメント共有, オーディエンス共有、セグメントを共有
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
+source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 99%
+source-wordcount: '1504'
+ht-degree: 97%
 
 ---
 
@@ -109,7 +109,7 @@ Experience Platform セグメントから自動的に作成されたセグメン
 
 | 項目番号 | 名前 | 説明 |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
+| 3 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
@@ -162,7 +162,7 @@ Audience Manager の[[!UICONTROL Profile Merge Rules]](/help/using/features/prof
 
 ### Experience Platform でのセグメントの構成
 
-Adobe Experience Platform と Audience Manager の統合は、すべての顧客に対して多くの標準 [ID 名前空間](https://docs.adobe.com/content/help/ja-JP/experience-platform/identity/namespaces.html#identity-types)を共有します。これには、ECID、IDFA、GAID、ハッシュ化けされた電子メールアドレス（EMAIL_LC_SHA256）、AdCloud ID などが含まれます。Experience Platform セグメントで、認定されたプロファイルのプライマリ ID としてこれらのいずれかを使用している場合、プロファイルは Audience Manager の特性およびセグメントにカウントされます。
+Adobe Experience PlatformとAudience Managerの統合は、すべての顧客に対して多くの標準的な[ID名前空間](https://docs.adobe.com/content/help/ja-JP/experience-platform/identity/namespaces.html#identity-types)を共有します。ECID、IDFA、GAID、ハッシュされた電子メールアドレス(EMAIL_LC_SHA256)、AdCloud ID。 Experience Platform セグメントで、認定されたプロファイルのプライマリ ID としてこれらのいずれかを使用している場合、プロファイルは Audience Manager の特性およびセグメントにカウントされます。
 
 また、Audience Manager は、次の場合に、Experience Platform セグメントで使用するカスタム ID 名前空間の受信適合を登録できます。
 * ID がプライマリとしてマークされ、*さらに*、
