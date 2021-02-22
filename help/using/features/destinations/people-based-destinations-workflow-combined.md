@@ -6,10 +6,10 @@ solution: Audience Manager
 title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 100%
+source-wordcount: '1181'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
  
 
-最大 10 個のハッシュ化された電子メールアドレスを 1 つの [DPUUID](../../reference/ids-in-aam.md) にリンクさせることができます。これをおこなうには、同期ファイル内で、ハッシュ化された電子メールアドレスをコンマで区切ります。
+最大 10 個のハッシュ化された電子メールアドレスを 1 つの [DPUUID](../../reference/ids-in-aam.md) にリンクさせることができます。これを行うには、ハッシュ化された電子メールアドレスを同期ファイル内の`<TAB>`で区切ります。
 
 この例では、データソースが 2 つあります。
 
