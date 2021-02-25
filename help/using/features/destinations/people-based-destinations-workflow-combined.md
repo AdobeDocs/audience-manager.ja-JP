@@ -5,11 +5,11 @@ seo-title: ワークフロー A - すべてのオンラインアクティビテ�
 solution: Audience Manager
 title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 feature: People-Based Destinations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1181'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 1. ドロップダウンメニューを使用して、このデータソースの **[!UICONTROL Emails(SHA256, lowercased)]** ラベルを選択します。
    >[!IMPORTANT]
    >
-   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。それ以外の場合は、[!DNL People-Based Destinations] では使用できません 。
+   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。それ以外の場合は、[!DNL People-Based Destinations] では使用できません。
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. データソースの設定を保存します。
@@ -57,7 +57,7 @@ ht-degree: 98%
 1. ドロップダウンメニューを使用して、このデータソースの **[!UICONTROL Emails(SHA256, lowercased)]** ラベルを選択します。
    >[!IMPORTANT]
    >
-   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。それ以外の場合は、[!DNL People-Based Destinations] では使用できません 。
+   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。それ以外の場合は、[!DNL People-Based Destinations] では使用できません。
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. データソースの設定を保存します。
@@ -86,7 +86,7 @@ ht-degree: 98%
 
  
 
-最大 10 個のハッシュ化された電子メールアドレスを 1 つの [DPUUID](../../reference/ids-in-aam.md) にリンクさせることができます。これを行うには、ハッシュ化された電子メールアドレスを同期ファイル内の`<TAB>`で区切ります。
+最大 10 個のハッシュ化された電子メールアドレスを 1 つの [DPUUID](../../reference/ids-in-aam.md) にリンクさせることができます。これをおこなうには、同期ファイル内で、ハッシュ化された電子メールアドレスを `<TAB>` で区切ります。
 
 この例では、データソースが 2 つあります。
 
