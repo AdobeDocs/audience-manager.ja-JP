@@ -5,12 +5,12 @@ seo-title: Audience Manager の概要
 solution: Audience Manager
 title: Audience Manager の概要
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
-feature: overview
+feature: 概要
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 99%
 
 ---
 
