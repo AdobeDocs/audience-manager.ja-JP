@@ -4,14 +4,14 @@ keywords: 統合コード、宛先、宛先の概要, 宛先, 宛先, 宛先, �
 landing-page-description: 宛先は、広告サーバーや DSP など、データを共有するサードパーティ製のシステムです。 Cookie、URL またはサーバー間の宛先を作成および管理するには、宛先ビルダーツールを使用します。
 seo-title: 宛先
 solution: Audience Manager
-title: 宛先
+title: リンク先
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-feature: Destination Basics
+feature: ターゲットの基本
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 99%
 
 ---
 
