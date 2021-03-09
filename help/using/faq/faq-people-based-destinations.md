@@ -6,10 +6,10 @@ solution: Audience Manager
 title: People-Based Destinations に関する FAQ
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 6e55d8bc5fe2c5cdcdd36107593215288d491331
+source-git-commit: eb998042acb46fef2b0e407b3565d8ba4769f0bb
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 100%
+source-wordcount: '1171'
+ht-degree: 97%
 
 ---
 
@@ -78,6 +78,10 @@ Audience Manager では、未加工の電子メールアドレスを取り込ま
 **ソーシャルネットワークで使用されている個人用電子メールアドレスとは異なる、業務用の電子メールアドレスを顧客から収集しています。複数の電子メールアドレスをまたいで ID を一致させるにはどうすればよいですか。**
 
 Audience Manager では、ユーザーごとに最大 10 個の電子メールを収集して送信できますが、電子メールアドレスは同期ファイルを使用して取得する必要があります。Audience Manager が電子メールアドレスを宛先プラットフォームに送信した後、その電子メールアドレスを独自のユーザーベースと照合するかどうかは、プラットフォーム次第です。一部のプラットフォームには、Audience Manager からユーザープロファイルに送信されるアドレスを照合する、追加の電子メールアドレスグラフがあります。
+
+**～に使っ [!DNL People-Based Destinations] てもいい [!DNL Audience Lab]?**
+
+いいえ。現在、[!DNL People-Based Destinations]の宛先はすべて[!DNL Audience Lab]から除外されています。 [!DNL People-Based Destinations]とデマンドサイドのプラットフォームで異なるIDが使用されている場合は、オーディエンスを均等に分割してパフォーマンスをテストおよび測定することはできません。
 
 ## データ書き出しコントロール {#data-export-controls}
 
