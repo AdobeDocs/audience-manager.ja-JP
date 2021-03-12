@@ -5,12 +5,12 @@ seo-title: Audience Manager の実装
 solution: Audience Manager
 title: Audience Manager の実装
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-feature: Third Party Integrations
+feature: サードパーティ統合
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: cf9266e8ae6e222dda3c055725d71f691575f8d0
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1062'
+ht-degree: 97%
 
 ---
 
@@ -221,13 +221,9 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 ## コードの実装 {#code-implementation}
 
-デプロイメントプロセスは複雑だと思われがちですが、コード実装は、わずか数行の [!DNL JavaScript] を Web サイトの `</body>` 終了タグの横に追加するだけで済みます。
+Audience Managerは、Data Integration Library([!DNL DIL])を使用してオーディエンスデータを受信します。
 
-<!-- c_code.xml -->
-
-### 導入
-
-Audience Manager は、コードスニペットから [!DNL Akamai] を呼び出し、ユーザーインターフェイスで事前に設定されたビジネスルールをダウンロードします。さらに、クライアントブラウザーはこの情報をキャッシュすることで、ページおよびサーバーのロード時間を削減できます。アドビが採用するコーディングおよびデータ収集の手法は、インベントリ全体にわたって優れたユーザーエクスペリエンスを維持することを目的としています。
+[!DNL DIL]の使用方法について詳しくは、[DILコードの取得と導入](../dil/dil-overview.md)を参照してください。
 
 ### 関連するチーム
 
@@ -236,8 +232,6 @@ Audience Manager は、コードスニペットから [!DNL Akamai] を呼び出
 ## 導入後のサポート {#post-implementation-support}
 
 アドビのコラボレーションの取り組みは、最終デプロイメントで終わりではありません。導入の完了後は、アドビのアカウント管理チームが引き継ぎます。
-
-<!-- c_post_implement_support.xml -->
 
 アカウントマネージャーは、製品実装プロセスが完了した後も、引き続きサポートおよびコンサルティングサービスを提供します。アカウントマネージャーとの定期的なミーティングの開催を期待できます。これらのミーティングでは、Audience Manager を最大限に活用し、価値を引き出すようにします。
 
