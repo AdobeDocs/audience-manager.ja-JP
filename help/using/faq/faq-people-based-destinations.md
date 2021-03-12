@@ -5,11 +5,11 @@ seo-title: People-Based Destinations に関する FAQ
 solution: Audience Manager
 title: People-Based Destinations に関する FAQ
 feature: People-Based Destinations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb998042acb46fef2b0e407b3565d8ba4769f0bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 
 **Web フォームやモバイルアプリから、ハッシュ化された電子メールアドレスを収集できますか？それとも、バッチファイルから収集する必要がありますか？**
 
-[宣言された ID](../features/declared-ids.md)と[!DNL ECID]を使用し、Web 認証を通じてハッシュ化された電子メールアドレスを収集できます。バッチファイルを使用すると、認証を通じて送信できないハッシュ化された電子メールアドレス（例：[!DNL CRM] の休止状態のユーザー）を収集したり、ユーザーベースの宛先でそれらをアクティブ化したりできます。
+[宣言された ID](../features/declared-ids.md)と [!DNL ECID] を使用し、Web 認証を通じてハッシュ化された電子メールアドレスを収集できます。バッチファイルを使用すると、認証を通じて送信できないハッシュ化された電子メールアドレス（例：[!DNL CRM] の休止状態のユーザー）を収集したり、ユーザーベースの宛先でそれらをアクティブ化したりできます。
 
 **ハッシュ化された電子メールアドレスを Web フォーム経由で取り込む場合と、バッチファイルを使用してハッシュ化された電子メールアドレスを取り込む場合の違いを教えてください。**
 
@@ -56,7 +56,7 @@ Audience Manager では、未加工の電子メールアドレスを取り込ま
 
 はい。また、[!DNL People-Based Destinations] を購入するユーザーには、オフラインセグメントに対する新しいプロファイル結合ルールへのアクセス権も付与されます。ルールは [!DNL All Cross-Device Profiles] と呼ばれ、オフラインのみのセグメント化に使用されます。[!DNL People-Based Destinations] に新規登録する場合、これは、3 つの既存の認証ベースのルールとは別に作成できる 4 つ目のプロファイル結合ルールです。
 
-**既存のオーディエンスセグメントを複製してアクティブ化する必要はありますか[!DNL People-Based Destinations]。**
+**既存のオーディエンスセグメントを複製してアクティブ化する必要はありますか [!DNL People-Based Destinations]。**
 
 ユースケースによって異なります。ユーザーベースのチャネルで既存のファーストパーティセグメントをアクティブ化する予定がある場合は、新しいセグメントを作成する必要はありません。セグメントをユーザーベースの宛先にマッピングするだけです。
 
@@ -79,9 +79,9 @@ Audience Manager では、未加工の電子メールアドレスを取り込ま
 
 Audience Manager では、ユーザーごとに最大 10 個の電子メールを収集して送信できますが、電子メールアドレスは同期ファイルを使用して取得する必要があります。Audience Manager が電子メールアドレスを宛先プラットフォームに送信した後、その電子メールアドレスを独自のユーザーベースと照合するかどうかは、プラットフォーム次第です。一部のプラットフォームには、Audience Manager からユーザープロファイルに送信されるアドレスを照合する、追加の電子メールアドレスグラフがあります。
 
-**～に使っ [!DNL People-Based Destinations] てもいい [!DNL Audience Lab]?**
+**[!DNL Audience Lab] で [!DNL People-Based Destinations] を使用できますか？**
 
-いいえ。現在、[!DNL People-Based Destinations]の宛先はすべて[!DNL Audience Lab]から除外されています。 [!DNL People-Based Destinations]とデマンドサイドのプラットフォームで異なるIDが使用されている場合は、オーディエンスを均等に分割してパフォーマンスをテストおよび測定することはできません。
+いいえ。現在、[!DNL People-Based Destinations] の宛先はすべて [!DNL Audience Lab] から除外されています。[!DNL People-Based Destinations] とディスプレイ広告（DSP）で異なる ID が使用されている場合は、オーディエンスを均等に分割してパフォーマンスをテストおよび測定することはできません。
 
 ## データ書き出しコントロール {#data-export-controls}
 
