@@ -1,6 +1,9 @@
 ---
-source-git-commit: 95f5059793809255a33e588237cf09fbed85e619
-translation-type: ht
+source-git-commit: 045b2b63a89e8a71fc9aaa32a7cf914b9fb1b69a
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 # 貢献
@@ -11,12 +14,12 @@ translation-type: ht
 
 ## 行動規範
 
-このプロジェクトは、アドビ[行動規範](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md)に従っています。プロジェクトに参加すると、この行動規範を順守することになります。容認できない行動については、SOMEEMAIL に報告してください。
+このプロジェクトはアドビ[行動規範](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md)を遵守しています。プロジェクトに参加すると、この行動規範を順守することになります。容認できない行動については、SOMEEMAIL に報告してください。
 
 ## 貢献者使用許諾契約
 
-このプロジェクトへの第三者によるすべての貢献には、署名済みの貢献者使用許諾契約が含まれている必要があります。これにより、アドビはお客様の貢献をプロジェクトの一部として再配布できるようになります。[SOME LINK]（リンク未実装）でアドビの CLA に署名してください。アドビの CLA を提出する必要があるのは一度だけなので、以前に提出したことがある場合は、準備完了です。
+このプロジェクトへの第三者によるすべての貢献には、署名済みの貢献者使用許諾契約が含まれている必要があります。これにより、アドビはお客様の貢献をプロジェクトの一部として再配布できるようになります。`[SOME LINK](no link yet)`のCLAに署名します。 アドビの CLA を提出する必要があるのは一度だけなので、以前に提出したことがある場合は、準備完了です。
 
 ## コードレビュー
 
-提出はすべて、プル要求の形でおこなわれ、プロジェクトコミッタ-によってレビューされる必要があります。プル要求の送信について詳しくは、[GitHub のプル要求に関するドキュメント](https://help.github.com/articles/about-pull-requests/) を参照してください。
+提出はすべて、プル要求の形でおこなわれ、プロジェクトコミッタ-によってレビューされる必要があります。プルリクエストの送信について詳しくは、[GitHub のプルリクエストドキュメント](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/about-pull-requests)をお読みください。
