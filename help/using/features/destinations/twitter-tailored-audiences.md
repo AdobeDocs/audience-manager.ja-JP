@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
+source-git-commit: 6716c871562cd0203239897fc096033160e2fc13
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ Audience Manager と [!DNL Twitter Tailored Audiences] をリンクさせたら�
 オーディエンスセグメントを [!UICONTROL Twitter] にマッピングする場合は、以下のセグメント命名要件を満たしていることを確認してください。
 
 * 人間が読み取り可能なセグメントマッピング名を指定する。Audience Manager セグメントに使用したものと同じ名前を使用することをお勧めします。
-* セグメントおよびセグメントマッピング名では特殊文字（`,` `%` `:` `;` `@` `/` `=` `?` `$`）を使用しないでください。Audience Manager のセグメント名にこれらの文字が含まれている場合は、セグメントを [!UICONTROL Twitter] 宛先にマッピングする前に、これらの文字を削除してください。
+* セグメント名とセグメントマッピング名には特殊文字(`+` `&` `,` `%` `:` `;` `@` `/` `=` `?` `$`)を使用しないでください。 Audience Manager のセグメント名にこれらの文字が含まれている場合は、セグメントを [!UICONTROL Twitter] 宛先にマッピングする前に、これらの文字を削除してください。
 
 ### 例
 
