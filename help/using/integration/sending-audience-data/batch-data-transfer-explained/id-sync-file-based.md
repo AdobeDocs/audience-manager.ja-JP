@@ -7,10 +7,10 @@ title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: 受信データ転送
 translation-type: tm+mt
-source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
+source-git-commit: 67ba527ff8b06ca4f5515ffd1a9114acfabadecb
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 93%
+source-wordcount: '867'
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ ID ファイル名には、以下の必須およびオプション要素が含�
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> マスターデータプロバイダー ID は、ファイル名の DPID の親 ID です。また、データファイルの最初のユーザー ID は、マスター ID に対応します。次の DPID は、マスターに属する他の識別子です。同期をおこなうと、ファイル名の DPID がファイル内の UUID にマッピングされます。 </td> 
+   <td colname="col2"> <p>マスターデータプロバイダー ID は、ファイル名の DPID の親 ID です。また、データファイルの最初のユーザー ID は、マスター ID に対応します。次の DPID は、マスターに属する他の識別子です。同期をおこなうと、ファイル名の DPID がファイル内の UUID にマッピングされます。</p> <p>このDPIDには、AAM UUID、GAID、IDFAなどのデバイスIDのみを含める必要があります。 DPUUIDを含めることはできません。 これを行うと、誤った同期が発生する可能性があります。</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
