@@ -6,12 +6,12 @@ keywords: 'dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil,
 solution: Audience Manager
 title: データ統合ライブラリ（DIL）について
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-feature: DIL Implementation
+feature: DILの実装
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '512'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 [!UICONTROL DIL] コードは&#x200B;**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)** でダウンロードできます。バージョン 8.0（2018 年 8 月にリリース）より、[!UICONTROL DIL] は、[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/en/id-service/using/home.html)のバージョン 3.3 以降に強く依存していることに注意してください。[!DNL ID Service] を利用して、ID 同期や[!DNL URL destinations]を有効にします。[!DNL ID Service] が見つからない、古い、または設定されていない場合は、エラーが発生します。
 
-[!UICONTROL DIL] を操作して [!DNL Audience Manager] を手動でセットアップするのではなく、[Adobe Experience Platform Launch](https://docs.adobelaunch.com/) を使用することをお勧めします。[!DNL Adobe Experience Platform Launch] を使用するとコードのデプロイメント、配置、バージョン管理が簡単になるので、実装ツールとして導入することをお勧めします。詳しくは、[!DNL Adobe Experience Platform Launch] の [Audience Manager 拡張機能](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension)を参照してください。
+[!UICONTROL DIL] を操作して [!DNL Audience Manager] を手動でセットアップするのではなく、[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) を使用することをお勧めします。[!DNL Adobe Experience Platform Launch] を使用するとコードのデプロイメント、配置、バージョン管理が簡単になるので、実装ツールとして導入することをお勧めします。詳しくは、[!DNL Adobe Experience Platform Launch] の [Audience Manager 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html)を参照してください。
 
 [!DNL Adobe Experience Platform Launch] は [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/ja-JP/dtm/using/c-overview.html)（[!DNL DTM]）の後継ツールです。
 
