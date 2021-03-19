@@ -5,12 +5,12 @@ seo-title: DIL モジュール
 solution: Audience Manager
 title: DIL モジュール
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
-feature: DIL Implementation
+feature: DILの実装
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -154,8 +154,10 @@ dil-google-universal-analytics.xml
 >
 >
 >* [!DNL Audience Manager] では、Google の `analytics.js` コードライブラリの状況把握や管理をおこないません。Google が [!UICONTROL DIL] の新バージョンをリリースした場合は、`analytics.js` データ収集がまだ機能するかどうかを確認してください。
->
->* 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
+   >
+   >
+* 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
+
 >
 
 
@@ -313,7 +315,7 @@ Audience Manager の URL イベント呼び出しは次のようになります�
 >[!MORELIKETHIS]
 >
 >* [Google Analyticsトラッキングコード](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [Web アップグレードの完了：ga.js/dc.js から analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
+>* [Web アップグレードの完了：ga.js/dc.js から analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [サイトへの analytics.js の追加](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [ga オブジェクトメソッドリファレンス](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
