@@ -4,12 +4,12 @@ seo-description: アドビでは、オプトイン機能と IAB Transparency and
 seo-title: IAB TCF 用 Audience Manager プラグイン
 solution: Audience Manager
 title: Audience ManagerIAB TCF 用 プラグイン
-feature: data governance & privacy
+feature: データガバナンスとプライバシー
 translation-type: tm+mt
-source-git-commit: ab72f0875b132eaf333d1e5308322490ac035de3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 100%
+source-wordcount: '2441'
+ht-degree: 99%
 
 ---
 
@@ -100,7 +100,7 @@ IAB TCF に登録されているすべてのベンダーは、IAB TC 文字列�
 
 ## Audience Manager で求められる目的 {#aam-standard-purposes}
 
-Audience Manager は、[IAB Europe の透明性および同意フレームワークポリシー](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes)に定義されている次の目的で、IAB TC 文字列に保存されている ユーザーの選択を評価します。また、この目的は、[グローバルベンダーリスト](https://vendorlist.consensu.org/vendorlist.json)でも確認できます。
+Audience Manager は、[IAB Europe の透明性および同意フレームワークポリシー](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions)に定義されている次の目的で、IAB TC 文字列に保存されている ユーザーの選択を評価します。
 
 * **目的 1**：デバイス上に情報を保存し、その情報にアクセスする
 * **目的 10**：製品の開発と改善
