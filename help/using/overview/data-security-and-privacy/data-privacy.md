@@ -5,12 +5,12 @@ seo-title: データプライバシー概要
 solution: Audience Manager
 title: データプライバシーの概要
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: data governance & privacy
+feature: データガバナンスとプライバシー
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## [!DNL GDPR] {#gdpr}
 
-[一般データ保護規則（GDPR）](https://eugdpr.org/)は、EU 加盟国に対して、**アクセス権**&#x200B;や&#x200B;**忘れられる権利**&#x200B;など、新たなデータプライバシー権を導入しました。つまり、御社が個人データを収集した [!DNL EU] 市民は、いつでもデータのアクセスや削除を要求できます。これらの要求に従わないと、組織に対して数百万ドルの罰金が科せられる可能性があります。
+[一般データ保護規則（GDPR）](https://gdpr.eu/data-privacy/)は、EU 加盟国に対して、**アクセス権**&#x200B;や&#x200B;**忘れられる権利**&#x200B;など、新たなデータプライバシー権を導入しました。つまり、御社が個人データを収集した [!DNL EU] 市民は、いつでもデータのアクセスや削除を要求できます。これらの要求に従わないと、組織に対して数百万ドルの罰金が科せられる可能性があります。
 
 [!DNL GDPR] に準拠するため、[!DNL Audience Manager] はデータアクセスおよび削除の[要求](data-privacy-requests.md)をサポートします。
 
