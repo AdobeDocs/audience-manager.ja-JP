@@ -6,11 +6,11 @@ solution: Audience Manager
 title: Audience Manager の実装
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: サードパーティ統合
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf9266e8ae6e222dda3c055725d71f691575f8d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1062'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -221,9 +221,9 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 ## コードの実装 {#code-implementation}
 
-Audience Managerは、Data Integration Library([!DNL DIL])を使用してオーディエンスデータを受信します。
+Audience Manager は Data Integration Library（[!DNL DIL]）を使用して、オーディエンスデータを受信します。
 
-[!DNL DIL]の使用方法について詳しくは、[DILコードの取得と導入](../dil/dil-overview.md)を参照してください。
+[!DNL DIL] の使用方法について詳しくは、[DIL コードの取得と実装](../dil/dil-overview.md)を参照してください。
 
 ### 関連するチーム
 
