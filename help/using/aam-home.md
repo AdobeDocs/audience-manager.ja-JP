@@ -5,12 +5,12 @@ seo-title: Adobe Audience Manager 製品技術ドキュメント
 solution: Audience Manager
 title: Audience Manager ガイド
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: overview
+feature: 概要
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 100%
+source-wordcount: '653'
+ht-degree: 99%
 
 ---
 
@@ -32,8 +32,6 @@ ht-degree: 100%
 * 次に、「**Audience Manager 使用の手引き**」を読んで、Audience Manager の概念を把握してください。まあ、ビジネスガイドと技術実装ガイドも必ずご確認ください。
 * 最新の Audience Manager リリースノートを参照し、**リリースノートおよび最新の機能**&#x200B;の節で最新の機能の詳細をお読みください。
 * 最後に、「**学習センター - 推奨される Audience Manager および Experience Cloud のリソース**」の節で、フォーラム、ビデオチュートリアル、対面およびオンラインでのトレーニングコースなど、より多くの Experience Cloud リソースを参照できます。
-
-<br>
 
 ## Audience Manager の主な機能
 
@@ -71,8 +69,6 @@ ht-degree: 100%
 </table>
 
 
-<br> 
-
 ## Audience Manager の使用の手引き
 
 <table> 
@@ -81,7 +77,7 @@ ht-degree: 100%
    <td colname="col1"> <p><b>概念に関する重要なドキュメント</b></p>
    <p>Audience Manager の概念について詳しくは、以下のページを参照してください。 
    <ul><li><a href="/help/using/overview/aam-overview.md"> Audience Manager の概要</a></li><li><a href="/help/using/reference/signal-trait-segment.md">シグナル、特性、セグメント</a></li><li><a href="/help/using/reference/aam-glossary.md"> 用語集</a> </li><li><a href="/help/using/reference/ids-in-aam.md">ID のインデックス</a></li></ul></p>
-   <br> 
+   <br>
    <p><b>Audience Manager の実装</b></p>
    <p> 以下のページを読んで、Audience Manager の実装を開始します。
      <ul>
@@ -148,8 +144,6 @@ ht-degree: 100%
 
 -->
 
-<br> 
-
 ## リリースノートと最新の機能
 
 <table> 
@@ -186,7 +180,6 @@ Read about the latest Audience Manager features:
 
 -->
 
-<br> 
 
 ## 学習センター - 推奨される Audience Manager および Experience Cloud のリソース
 
