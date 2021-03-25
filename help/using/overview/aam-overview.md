@@ -7,7 +7,7 @@ title: Audience Manager の概要
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: 概要
 translation-type: tm+mt
-source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 99%
@@ -31,13 +31,9 @@ DMP（データ管理プラットフォーム）の機能は、次のように 3
 
 Audience Manager は、チャネルとデバイス（Web 分析、CRM、デバイスデータ、e コマースなど）からファーストパーティデータを収集します。
 
-<br>
-
 **オーディエンスの作成**
 
 データをオーディエンスプロファイルに統合し、デバイスやチャネルをまたいだ顧客の全体像を提供します。類似モデルを作成、オーディエンスセグメントとプロファイルのグループを構築し、セカンドパーティとサードパーティのデータソースで補完します。
-
-<br> 
 
 **データ出力**
 
