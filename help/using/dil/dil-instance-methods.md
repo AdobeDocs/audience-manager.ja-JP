@@ -6,12 +6,12 @@ seo-title: インスタンスレベルの DIL メソッド
 solution: Audience Manager
 title: インスタンスレベルの DIL メソッド
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: DIL Implementation
+feature: DILの実装
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 100%
+source-wordcount: '1111'
+ht-degree: 99%
 
 ---
 
@@ -473,7 +473,6 @@ state = {
           id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
           url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
           + containerNSID + '#' + encodeURIComponent(document.location.href), 
-
                iframe: null, 
                iframeHasLoaded: false, 
                sendingMessages: false, 
@@ -685,6 +684,7 @@ var dilInstance = DIL.create({
 >
 >* サイト訪問者のブラウザーが CORS をサポートしていることが確実な場合にのみ `useCORSOnly: true` を設定することをお勧めします。
 >* `useCORSOnly: true` の場合、[!UICONTROL DIL] は Internet Explorer 9 またはそれ以前のバージョンからは ID 呼び出しをおこないません。
+
 >
 
 
