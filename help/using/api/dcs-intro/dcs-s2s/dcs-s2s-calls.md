@@ -6,7 +6,7 @@ uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
 description: サーバー間DCS API呼び出しを行う際の呼び出し構文、例およびパラメーター
 translation-type: tm+mt
-source-git-commit: 4dbe9a838470d1fe54538df12605a0e0aa1e0510
+source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 96%
