@@ -6,12 +6,12 @@ seo-title: Audience Manager で使用される ID の一覧
 solution: Audience Manager
 title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: reference
+feature: 参照
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 100%
 | [!DNL CRM ID] | `DPUUID` を参照してください。 | `DPUUID` を参照してください。 | `DPUUID` を参照してください。 |
 | [!DNL CID]、[!DNL CID_IC] | [!UICONTROL Customer ID]、[!UICONTROL Customer ID Integration Code]。[!DNL CID] と [!DNL CID_IC] のキー値ペアは、[!DNL DPID] と [!DNL DPUUID] を置き換えます。[!DNL DPID] および [!DNL DPUUID] と同じ機能ですが、1 つのキー値ペアにデータプロバイダー ID とユーザー ID（または統合コード）が含まれるので、より効率的です。 | [!DNL DCS] 呼び出しでは、これらの ID の前に `d_` プレフィックスが付きます。<br>例：`d_cid_ic=39217_myIntegrationCode`。 | `DPID` と `DPUUID` を参照してください。 |
 | [!DNL DAID] | [!UICONTROL Device Advertising ID]をインストールします。各ハードウェアデバイスに一意の ID で、広告目的で使用されます。通常は、デバイスの製造元またはデバイスのオペレーティングシステムにより設定されます。 | 詳しくは、[グローバルデバイス ID](#global-device-ids) を参照してください。 |  |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## [!DNL Global Device IDs] {#global-device-ids}
 
