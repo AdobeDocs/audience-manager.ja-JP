@@ -6,12 +6,12 @@ solution: Audience Manager
 title: 使用の制限
 keywords: ID マッピング, ID マッピング, cookie マッピング
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: Usage and Billing
+feature: 使用状況と請求
 translation-type: tm+mt
-source-git-commit: fc13643681eebec17a95607482f2864e81b95820
+source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,8 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | オンボード | 100,000 |
 | フォルダー特性 | 2,000 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ### セグメントの限度
 
 | セグメントタイプ | 上限 |
@@ -70,6 +72,8 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | [!UICONTROL Look-Alike Model] の最大除外特性数  | 500。[アルゴリズムモデリングにおける特性の除外](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)を参照してください。 |
 | 最大 [!UICONTROL Predictive Audiences Models] | 10 |
 | [!UICONTROL Predictive Audiences Models] の基準となるペルソナの最大数  | 50 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### フォルダーの限度
 
