@@ -7,10 +7,10 @@ title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: 受信データ転送
 translation-type: tm+mt
-source-git-commit: 67ba527ff8b06ca4f5515ffd1a9114acfabadecb
+source-git-commit: de1483763998027c4fc7694223c39dd7a37e87ab
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 90%
+source-wordcount: '873'
+ht-degree: 89%
 
 ---
 
@@ -130,6 +130,8 @@ ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../.
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
+{style=&quot;table-layout:auto&quot;}
+
 手順 1：ID 同期プロセスが [!DNL DPID] 12345 の [!DNL DPUUID] を左列の [!DNL Audience Manager] [!DNL UUID] を同期します。ファイル名の [!DNL DPID] &quot;0&quot; は、[!DNL Audience Manager] [!DNL UUID] を表します。
 <br/>
 
@@ -142,6 +144,8 @@ ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../.
 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM | 4392434426 |
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
+
+{style=&quot;table-layout:auto&quot;}
 
 手順 2：[!DNL DPID] 12345 の [!DNL DPUUID] は、Audience Manager [!DNL UUID] の手順 1 で同期されました。この ID 同期では、[!DNL DPID] 67890 の [!DNL DPUUID] を手順 1 の Audience Manager [!DNL UUID] と同期します。
 
