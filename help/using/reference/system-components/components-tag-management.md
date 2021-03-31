@@ -6,11 +6,11 @@ solution: Audience Manager
 title: Tag Management コンポーネント
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 feature: システムコンポーネント
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ Audience Manager には次のコンポーネントがあります。
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
 * [制御データベース](../../reference/system-components/components-tag-management.md#control-database)
 
-## クライアントポータル  {#client-portal}
+## クライアントポータル {#client-portal}
 
 クライアントポータルは、タグおよびデータ管理の主要なユーザーインターフェイス（UI）です。ポータルを使用してタグの操作、特性およびセグメントの作成、送信先の設定、およびレポートによるキャンペーンパフォーマンスの監視をおこないます。
 
-## DIL／TIM コンテナ  {#dil-tim}
+## DIL／TIM コンテナ {#dil-tim}
 
 [!UICONTROL DIL] コンテナは、[!DNL Audience Manager] のデータ収集コードを Web サイトに配置する際に使用されます。[!UICONTROL TIM] は非推奨（廃止予定）となった Tag Insertion Manager です。[!DNL Audience Manager] では使用されなくなりました。代わりに、[Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) または [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) の [!DNL Audience Manager] 拡張機能を使用して、インベントリのページに配置するコンテナコードを設定および生成します。[!UICONTROL DTM] コンテナは [!UICONTROL Data Information Library (DIL)] と連携してサイトからデータを収集し、[!DNL Audience Manager] に送信します。
 
@@ -47,7 +47,7 @@ Audience Manager には次のコンポーネントがあります。
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] は [Akamai](https://www.akamai.com/us/en/about/) を使用して [!UICONTROL TIM (Tag Insertion Manager)] と呼ばれるアドビのタグ管理プラットフォームからコンテナコードをホストおよび配信します。ただし、[!UICONTROL TIM] によるコードデプロイメントは廃止され、[!DNL Adobe Dynamic Tag Management] と [!DNL Adobe Experience Platform Launch] で置き換えられました。
+[!DNL Audience Manager] は [Akamai](https://www.akamai.com/jp/ja/about/) を使用して [!UICONTROL TIM (Tag Insertion Manager)] と呼ばれるアドビのタグ管理プラットフォームからコンテナコードをホストおよび配信します。ただし、[!UICONTROL TIM] によるコードデプロイメントは廃止され、[!DNL Adobe Dynamic Tag Management] と [!DNL Adobe Experience Platform Launch] で置き換えられました。
 
 ## 制御データベース {#control-database}
 
