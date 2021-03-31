@@ -6,11 +6,11 @@ solution: Audience Manager
 title: データプライバシーの概要
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: データガバナンスとプライバシー
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 ## [!DNL CCPA] {#ccpa}
 
-2020 年 1 月 1 日に施行される[カリフォルニア州消費者プライバシー法（CCPA）](https://www.caprivacy.org/about)は、カリフォルニア州在住者に対して個人情報に関する新たな権利を提供し、カリフォルニア州で事業をおこなう特定の事業者に対してデータ保護責任を課します。
+2020 年 1 月 1 日（PT）に施行される[カリフォルニア州消費者プライバシー法（CCPA）](https://www.caprivacy.org/about)は、カリフォルニア州在住者に対して個人情報に関する新たな権利を提供し、カリフォルニア州で事業をおこなう特定の事業者に対してデータ保護責任を課します。
 
 [!DNL CCPA] は、カリフォルニア在住者に対して、自分の個人データにアクセスし削除する権利や、自分の個人データが販売または開示されたか（そして誰に対して）を知る権利など、新しいデータプライバシー権を提供します。[!DNL CCPA] に準拠するため、[!DNL Audience Manager] は[!DNL CCPA] のアクセスおよび削除の[要求](data-privacy-requests.md)をサポートします。
 
@@ -44,11 +44,11 @@ ht-degree: 98%
 
 ## 規制コンプライアンス {#compliance}
 
-[!DNL Audience Manager] は、[Adobe Experience Platform プライバシーサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
+[!DNL Audience Manager] は、[Adobe Experience Platform プライバシーサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
 
-このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
+このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
 
-データアクセスおよび削除の要求は[プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)で処理されますが、現在、[オプトアウト要求](data-privacy-requests.md#opt-out-requests)は [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) を通じてサポートされています。詳しくは、[データプライバシーリクエスト](data-privacy-requests.md)を参照してください。
+データアクセスおよび削除の要求は[プライバシーサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html)で処理されますが、現在、[オプトアウト要求](data-privacy-requests.md#opt-out-requests)は [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) を通じてサポートされています。詳しくは、[データプライバシーリクエスト](data-privacy-requests.md)を参照してください。
 
 ## 関連する概念 {#related-concepts}
 
