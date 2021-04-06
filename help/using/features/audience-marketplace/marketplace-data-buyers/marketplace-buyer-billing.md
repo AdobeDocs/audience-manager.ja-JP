@@ -7,14 +7,14 @@ title: データフィード購入者に対する請求
 keywords: セグメントレベルのレポート, セグメントレベル, セグメントレベル
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
+exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 88ed0b28fdf5dc03c8a878529d65b4bc844ea6c9
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 100%
+source-wordcount: '2064'
+ht-degree: 98%
 
 ---
-
 
 # データフィード購入者に対する請求 {#billing-for-data-feed-buyers}
 
@@ -262,6 +262,10 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 データフィード別の一目でわかる分類と使用例は次のとおりです。
 
 ![feed-breakdown](assets/feed-breakdown-alt.png)
+
+>[!NOTE]
+>
+>モデリングの使用例では、アクティベーション時にCPMの使用状況のみを報告する必要があります。 モデルの実行のみを行い、アクティブ化しない場合は、使用レポートは不要です。
 
 <br> 
 
