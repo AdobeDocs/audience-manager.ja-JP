@@ -5,11 +5,12 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
+feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 9a1604b28f538a4f9595869345b385870419a6c3
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 100%
+source-wordcount: '1789'
+ht-degree: 99%
 
 ---
 
@@ -146,7 +147,7 @@ ht-degree: 100%
       + [セグメント式エディターで使用するコード構文](features/segments/segment-code-syntax.md)
       + [セグメントビルダーにおける特性とセグメントのユーザー数データ](features/segments/segment-builder-data.md)
       + [特性レコメンデーション](features/segments/trait-recommendations.md)
-      + [特性およびセグメントの資格に関するリファレンス](features/traits/trait-and-segment-qualification-reference.md)
+      + [特性およびセグメントの資格に関するリファレンス](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + 特性 {#traits}
       + [特性の概要](/help/using/features/traits/traits-overview.md)
       + [特性の詳細ページ](features/traits/trait-details-page.md)
