@@ -8,10 +8,10 @@ uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: データ・ガバナンスとプライバシー
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
-source-git-commit: 2afb48afad7978b8901e78060c7dccdb2a7bdf7b
+source-git-commit: 04877a4a607457ad1ca179faec680df8118ff965
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 99%
+ht-degree: 87%
 
 ---
 
@@ -56,15 +56,15 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>バックエンドサーバー </p> </td> 
-   <td colname="col2"> <p>120 日 </p> <p> Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 120 日後にユーザーデータをバックエンドサーバーから削除します。<span class="keyword">Audience Manager</span> がこの 120 日間にユーザーアクティビティを記録した場合は、次の 120 日間もデータを保管します。 </p> </td> 
+   <td colname="col2"> <p>一二〇日分 </p> <p> Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 120 日後にユーザーデータをバックエンドサーバーから削除します。<span class="keyword">Audience Manager</span>がこの120日間のサイクル内にユーザーアクティビティを記録した場合、このデータは120日間保持されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>エッジサーバー </p> </td> 
-   <td colname="col2"> <p> 14 日 </p> <p>Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 14 日後にユーザーデータをエッジエンドサーバーから削除します。<span class="keyword">Audience Manager</span> がこの 14 日間にユーザーアクティビティを記録した場合は、次の 14 日間もデータを保管します。14 日間経過後にユーザーが再びアクティブになった場合、最初の新規ページ表示時とユーザーが実行可能になるときの間には、遅延が発生します。アクティビティがない状態が 14 日間を超えて続いた場合は、完全なプロファイルをエッジセンターに戻すのに 6～18 時間かかります。 </p> </td> 
+   <td colname="col2"> <p> 14日 </p> <p>Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 14 日後にユーザーデータをエッジエンドサーバーから削除します。<span class="keyword">Audience Manager</span>がこの14日間のサイクル内にユーザーアクティビティを記録した場合、このデータはあと14日間保持します。 14日間のサイクルの後にユーザーが再度アクティブになった場合、最初の新しいページ表示と、ユーザーがアクション可能になった時点との間に遅延が発生します。 14日間無操作状態が続いた後、プロファイル全体をエッジセンターに戻すのに6 ～ 18時間かかります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>生のログ </p> </td> 
-   <td colname="col2"> <p>60 日間（60 日間アクティビティがなかったら、その後削除） </p> <p>生のログは、HTTP 呼び出しを通じて、または <span class="keyword">Audience Manager</span> に送信されたオンボードファイルからエッジサーバーで受信されるデータです。 </p> </td> 
+   <td colname="col2"> <p>60日間(アクティビティなしの60日間後削除) </p> <p>生のログは、HTTP 呼び出しを通じて、または <span class="keyword">Audience Manager</span> に送信されたオンボードファイルからエッジサーバーで受信されるデータです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>広告サーバーログ </p> </td> 
