@@ -7,11 +7,11 @@ title: 使用の制限
 keywords: ID マッピング, ID マッピング, cookie マッピング
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: 使用状況と請求
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a696bc03e430e25e2752d84905009645c625d762
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | [!UICONTROL Look-Alike Models] 最大オーディエンスサイズ | 25,000,000 の限度を引き上げることはできません。オーディエンスのサイズを小さくするには、モデルに対して少ないデータソースを選択するか、短いルックバック期間を選択します。 |
 | [!UICONTROL Look-Alike Model] の最大除外特性数  | 500。[アルゴリズムモデリングにおける特性の除外](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)を参照してください。 |
 | 最大 [!UICONTROL Predictive Audiences Models] | 10 |
-| [!UICONTROL Predictive Audiences Models]の基準ペースの最大数 | 50 |
+| [!UICONTROL Predictive Audiences Models] の基準となるペルソナの最大数  | 50 |
 
 ### フォルダーの限度
 
@@ -89,7 +89,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 | ----------- | ------------- |
 | 会社のユーザーアカウントの最大数 | 1,000。 |
 
-## 使用状況の監視  {#monitor-usage}
+## 使用状況の監視 {#monitor-usage}
 
 アカウントの使用状況と限度は、**[!UICONTROL Administration > Limits]** で確認できます。アクセスには管理者権限が必要です。
 
