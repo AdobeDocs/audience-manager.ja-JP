@@ -6,11 +6,11 @@ solution: Audience Manager
 title: Audience Manager ガイド
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: 概要
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae5863882b5dec3a99edd1b7065229232296cc7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
