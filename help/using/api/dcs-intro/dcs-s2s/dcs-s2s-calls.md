@@ -4,12 +4,12 @@ solution: Audience Manager
 title: サーバー間 DCS API 呼び出しの実行
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
-description: サーバー間DCS API呼び出しを行う際の呼び出し構文、例およびパラメーター
-translation-type: tm+mt
+description: サーバー間 DCS API 呼び出しをおこなう際の呼び出し構文、例およびパラメーター
+translation-type: ht
 source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
