@@ -5,12 +5,12 @@ seo-title: 用語集
 solution: Audience Manager
 title: 用語集
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: 参照
-translation-type: tm+mt
+feature: リファレンス
+translation-type: ht
 source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 **適合**
 
-ある特性に適合するサイト訪問者のアクション。You can use the[訪問者プロファイルビューア](../features/visitor-profile-viewer.md)ツールを使用して特定のユーザーの特性への適合情報を取得できます。
+ある特性に適合するサイト訪問者のアクション。 [訪問者プロファイルビューア](../features/visitor-profile-viewer.md)ツールを使用して特定のユーザーの特性への適合情報を取得できます。
 
 ## S-T {#s-t}
 
@@ -210,7 +210,7 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 セグメント（またはオーディエンス）は、共通の属性を共有する一連のユーザーです。
 
-詳しくは、[セグメント：目的、構成およびルール](../features/segments/segments-purpose.md)を参照してください。
+ [セグメント：目的、構成およびルール](../features/segments/segments-purpose.md)を参照してください。
 
 
 
