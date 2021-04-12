@@ -5,12 +5,12 @@ seo-title: DIL モジュール
 solution: Audience Manager
 title: DIL モジュール
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
-feature: DILの実装
-translation-type: tm+mt
+feature: DIL の実装
+translation-type: ht
 source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 ## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
-`GA.submitUniversalAnalytics();` 関数は、Google [!DNL Universal Analytics]のデータを Audience Manager に送信します。この [!UICONTROL DIL] 関数は、`analytics.js`（Google [!DNL Universal Analytics]の最新コードライブラリ）と連携するように設計されています。
+`GA.submitUniversalAnalytics();` 関数は、Google [!DNL Universal Analytics]のデータを Audience Manager に送信します。 この [!UICONTROL DIL] 関数は、`analytics.js`（Google [!DNL Universal Analytics]の最新コードライブラリ）と連携するように設計されています。
 
 <!-- 
 
@@ -153,10 +153,10 @@ dil-google-universal-analytics.xml
 >[!IMPORTANT]
 >
 >
->* [!DNL Audience Manager] では、Google の `analytics.js` コードライブラリの状況把握や管理をおこないません。Google が [!UICONTROL DIL] の新バージョンをリリースした場合は、`analytics.js` データ収集がまだ機能するかどうかを確認してください。
+>* [!DNL Audience Manager] では、Google の `analytics.js` コードライブラリの状況把握や管理をおこないません。 Google が [!UICONTROL DIL] の新バージョンをリリースした場合は、`analytics.js` データ収集がまだ機能するかどうかを確認してください。
    >
    >
-* 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
+* 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。 代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
 
 >
 
