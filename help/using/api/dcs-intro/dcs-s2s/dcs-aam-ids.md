@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS 応答からのユーザー ID と地域 ID の取得
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
