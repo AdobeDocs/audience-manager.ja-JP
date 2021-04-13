@@ -5,15 +5,15 @@ seo-title: Audience Manager 識別子（ID）
 solution: Audience Manager
 keywords: GDPR UI、GDPR API、CCPA、プライバシー、AAM ID
 title: Audience Manager 識別子（ID）
-feature: data governance & privacy
+feature: データ・ガバナンスとプライバシー
+exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 96%
+source-wordcount: '264'
+ht-degree: 95%
 
 ---
-
 
 # Audience Manager 識別子（ID）{#aam-ids}
 
