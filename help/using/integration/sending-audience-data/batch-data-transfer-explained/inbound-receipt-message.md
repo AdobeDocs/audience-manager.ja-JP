@@ -5,15 +5,15 @@ seo-title: 受信処理後パートナーに送信されるメッセージの例
 solution: Audience Manager
 title: 受信処理後パートナーに送信されるメッセージの例
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
-feature: Inbound Data Transfers
+feature: 受信データ転送
+exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '664'
 ht-degree: 100%
 
 ---
-
 
 # 受信処理後パートナーに送信されるメッセージの例 {#sample-message-to-partners-after-inbound-processing}
 
