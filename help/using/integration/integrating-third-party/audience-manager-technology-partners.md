@@ -5,12 +5,12 @@ seo-title: Adobe Audience Manager テクノロジーパートナー
 keywords: アクティブ化、アクティベートパートナー、宛先、宛先
 solution: Audience Manager
 title: Adobe Audience Manager テクノロジーパートナー
-feature: Third Party Integrations
+feature: サードパーティとの統合
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 100%
+source-wordcount: '1185'
+ht-degree: 99%
 
 ---
 
