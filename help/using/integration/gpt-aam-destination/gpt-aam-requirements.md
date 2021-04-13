@@ -5,15 +5,15 @@ seo-title: Google サイト運営者タグ（GPT）を使用して Google Ad Man
 solution: Audience Manager
 title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
-feature: Third Party Integrations
+feature: サードパーティとの統合
+exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '526'
+ht-degree: 99%
 
 ---
-
 
 # Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
