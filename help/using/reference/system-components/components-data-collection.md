@@ -5,15 +5,15 @@ seo-title: データ収集コンポーネント
 solution: Audience Manager
 title: データ収集コンポーネント
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-feature: system components
+feature: 'システムコンポーネント '
+exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '764'
 ht-degree: 100%
 
 ---
-
 
 # データ収集コンポーネント {#data-collection-components}
 
