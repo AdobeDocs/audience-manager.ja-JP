@@ -5,15 +5,15 @@ seo-title: バッチデータ転送プロセスの説明
 solution: Audience Manager
 title: バッチデータ転送プロセスの説明
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
-feature: Inbound Data Transfers
+feature: 受信データ転送
+exl-id: e02dcc9a-4010-4c01-bd6b-ad04b8029f18
 translation-type: tm+mt
-source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '212'
 ht-degree: 100%
 
 ---
-
 
 # バッチデータ転送プロセスの説明 {#batch-data-transfer-process-described}
 
