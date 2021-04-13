@@ -6,14 +6,14 @@ solution: Audience Manager
 title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: 受信データ転送
+exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 translation-type: tm+mt
-source-git-commit: a696bc03e430e25e2752d84905009645c625d762
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
-
 
 # ID 同期ファイルの名前およびコンテンツの要件 {#name-and-content-requirements-for-id-synchronization-files}
 
@@ -49,7 +49,7 @@ ID ファイル名には、以下の必須およびオプション要素が含�
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> <p>マスターデータプロバイダー ID は、ファイル名の DPID の親 ID です。また、データファイルの最初のユーザー ID は、マスター ID に対応します。次の DPID は、マスターに属する他の識別子です。同期をおこなうと、ファイル名の DPID がファイル内の UUID にマッピングされます。</p> <p>このDPIDには、AAM UUID、GAID、IDFAなどのデバイスIDのみを含める必要があります。 DPUUIDを含めることはできません。 これを行うと、誤った同期が発生する可能性があります。</p>  </td> 
+   <td colname="col2"> <p>マスターデータプロバイダー ID は、ファイル名の DPID の親 ID です。また、データファイルの最初のユーザー ID は、マスター ID に対応します。次の DPID は、マスターに属する他の識別子です。同期をおこなうと、ファイル名の DPID がファイル内の UUID にマッピングされます。</p> <p>この DPID には、AAM UUID、GAID、IDFA などのデバイス ID のみを含める必要があります。DPUUID を含めることはできません。DPUUID を含めると、誤った同期が発生する可能性があります。</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
@@ -100,13 +100,13 @@ ID ファイルのコンテンツには、以下の要素が含まれます。
 abc123 def456 ghi789 xyz987
 ```
 
-### ファイルコンテンツに関する考慮事項{#considerations}
+### ファイルコンテンツに関する考慮事項 {#considerations}
 
-受信ファイルを作成する場合は、最初の列にデバイスID（[!DNL AAM UUID]、[!DNL GAID]、[!DNL IDFA]など）のみが入力されていることを確認します。 Audience ManagerでサポートされるIDの詳細については、「Audience Manager](../../../reference/ids-in-aam.md)のIDのインデックス」を参照してください。[
+受信ファイルを作成する場合は、最初の列にデバイス ID（[!DNL AAM UUID]、[!DNL GAID]、[!DNL IDFA]など）のみが入力されていることを確認します。Audience Manager がサポートする ID について、詳しくは、[Audience Manager の ID のインデックス](../../../reference/ids-in-aam.md)を参照してください。
 
 >[!IMPORTANT]
 >
->最初の列に[DPUUIDs](../../../reference/ids-in-aam.md)を使用しないでください。 これを行うと、誤った同期が発生する可能性があります。
+>最初の列に [DPUUID](../../../reference/ids-in-aam.md) を使用しないでください。DPUUID を含めると、誤った同期が発生する可能性があります。
 
 ## 同期による DPUUID の UUID との一致 {#sync-matches-dpuuids-uuids}
 
