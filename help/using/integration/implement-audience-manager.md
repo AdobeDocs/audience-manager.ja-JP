@@ -5,15 +5,15 @@ seo-title: Audience Manager の実装
 solution: Audience Manager
 title: Audience Manager の実装
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-feature: サードパーティ統合
-translation-type: ht
-source-git-commit: cf9266e8ae6e222dda3c055725d71f691575f8d0
-workflow-type: ht
-source-wordcount: '1062'
-ht-degree: 100%
+feature: サードパーティとの統合
+exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
+translation-type: tm+mt
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 99%
 
 ---
-
 
 # Audience Manager の実装 {#implementing-audience-manager}
 
