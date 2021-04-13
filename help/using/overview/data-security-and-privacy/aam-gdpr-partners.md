@@ -5,15 +5,15 @@ seo-title: 宛先の GDPR に関する考慮事項
 solution: Audience Manager
 title: 宛先の GDPR に関する考慮事項
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-feature: data governance & privacy
+feature: データ・ガバナンスとプライバシー
+exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 99%
 
 ---
-
 
 # 宛先の GDPR に関する考慮事項 {#gdpr-considerations-for-destinations}
 
