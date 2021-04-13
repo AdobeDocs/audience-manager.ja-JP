@@ -5,15 +5,15 @@ seo-title: トレンド分析レポートとボリューム分析レポート
 solution: Audience Manager
 title: トレンド分析レポートとボリューム分析レポート
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
-feature: audience optimization reports
+feature: Audience Optimization レポート
+exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Trend Analysis] および [!UICONTROL Volume Analysis] レポート {#trend-analysis-and-volume-analysis-reports}
 
@@ -38,4 +38,3 @@ ht-degree: 100%
 >[!TIP]
 >
 >マッピングされたセグメントとマッピングされていないセグメントについて詳しくは、[セグメントパフォーマンスレポート](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)のドキュメントを参照してください。
-
