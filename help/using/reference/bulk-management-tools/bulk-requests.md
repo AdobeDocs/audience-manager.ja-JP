@@ -5,15 +5,15 @@ seo-title: 一括リクエスト
 solution: Audience Manager
 title: 一括リクエスト
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
-feature: baaam
+feature: BAAAM
+exl-id: a0597bf4-79c8-404d-ba3b-a92c6b5c9c06
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
-
 
 # 一括リクエスト {#bulk-requests}
 
