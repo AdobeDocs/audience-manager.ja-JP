@@ -4,17 +4,17 @@ seo-description: Audience Manager 内でサードパーティデータを購入�
 seo-title: データ購入者向けの Audience Marketplace
 solution: Audience Manager
 title: データ購入者向けの Audience Marketplace
-topic: DIL API
+topic-edit: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
+exl-id: 9d6a7fda-f79f-41ad-9654-3ebcf9028cc2
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '750'
 ht-degree: 100%
 
 ---
-
 
 # データ購入者向けの [!UICONTROL Audience Marketplace] > {#audience-marketplace-for-data-buyers}
 
