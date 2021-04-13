@@ -4,12 +4,11 @@ seo-description: データフィードには、名前、説明、データソー
 seo-title: データフィードの作成、価格設定および管理
 solution: Audience Manager
 title: データフィードの作成、価格設定および管理
-topic-edit: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
 exl-id: e8605e94-e62a-430c-9aef-875f995fb436
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 100%
