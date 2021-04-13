@@ -4,15 +4,15 @@ seo-description: この記事では、カリフォルニア州消費者プライ
 seo-title: CCPA の用語集
 solution: Audience Manager
 title: CCPA の用語集
-feature: data governance & privacy
+feature: データ・ガバナンスとプライバシー
+exl-id: b3e97e2b-81a4-4b32-9716-5b18c3f8362f
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 99%
 
 ---
-
 
 # CCPA の用語集
 
