@@ -5,15 +5,15 @@ seo-title: Daily Trait Variation レポート
 solution: Audience Manager
 title: Daily Trait Variation レポート
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
-feature: audience optimization reports
+feature: Audience Optimization レポート
+exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '776'
 ht-degree: 100%
 
 ---
-
 
 # Daily Trait Variation レポート {#daily-trait-variation-report}
 
