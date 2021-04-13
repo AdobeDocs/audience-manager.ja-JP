@@ -5,15 +5,15 @@ seo-title: プロファイルリンクデバイスグラフのユースケース
 solution: Audience Manager
 title: プロファイルリンクデバイスグラフのユースケース
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-feature: Profile Merge Rules
+feature: プロファイルの結合
+exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '327'
+ht-degree: 99%
 
 ---
-
 
 # プロファイルリンクデバイスグラフのユースケース {#profile-link-device-graph-use-cases}
 
