@@ -5,15 +5,15 @@ seo-title: 受信データファイルコンテンツ：構文、無効な文字
 solution: Audience Manager
 title: 受信データファイルコンテンツ：構文、無効な文字、変数、例
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-feature: Inbound Data Transfers
+feature: 受信データ転送
+exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1196'
 ht-degree: 100%
 
 ---
-
 
 # 受信データファイルコンテンツ：構文、無効な文字、変数、例 {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
@@ -33,7 +33,8 @@ ht-degree: 100%
 >
 >受信データファイルで送信する各ユーザー ID について、処理できる行数の上限は 200 行です。例えば、あるユーザー ID について 300 行が送信された場合、最初の 200 行は保持されますが、残りの 100 行は破棄されます。以下の例では、ユーザー ID 1 とユーザー ID 2 のそれぞれについて送信されている行が 3 行なので、問題はありません。1 行に含まれる特性やキーと値のペアの数には、制限はありません。
 >
->```
+>
+```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
