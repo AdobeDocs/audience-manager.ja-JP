@@ -3,15 +3,15 @@ description: Analytics メニュー内のオプションを使用すると、ダ
 seo-description: Analytics メニューのオプションを使用して、Adobe Audience Manager（AAM）のダッシュボードとさまざまなレポートを表示します。
 seo-title: Adobe Audience Manager（AAM）のレポートの概要
 title: レポートの概要
-feature: reporting reference
+feature: レポートリファレンス
+exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 99%
 
 ---
-
 
 # レポートの概要
 
@@ -54,4 +54,3 @@ Audience Manager がレポートに入力する情報を受信する際の時間
 * [選択した Audience Manager レポートでのデータサンプリングとエラー率](/help/using/reporting/report-sampling.md)
 
    いくつかのレポートで使用されているサンプリング方法、サンプリングのエラー率についての概要、およびサンプルデータに基づく情報が返されるレポートのリスト。
-
