@@ -5,15 +5,15 @@ seo-title: Tag Management コンポーネント
 solution: Audience Manager
 title: Tag Management コンポーネント
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: システムコンポーネント
-translation-type: ht
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
-workflow-type: ht
+feature: 'システムコンポーネント '
+exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
+translation-type: tm+mt
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
 ---
-
 
 # Tag Management コンポーネント {#tag-management-components}
 
@@ -33,11 +33,11 @@ Audience Manager には次のコンポーネントがあります。
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
 * [制御データベース](../../reference/system-components/components-tag-management.md#control-database)
 
-## クライアントポータル {#client-portal}
+## クライアントポータル  {#client-portal}
 
 クライアントポータルは、タグおよびデータ管理の主要なユーザーインターフェイス（UI）です。ポータルを使用してタグの操作、特性およびセグメントの作成、送信先の設定、およびレポートによるキャンペーンパフォーマンスの監視をおこないます。
 
-## DIL／TIM コンテナ {#dil-tim}
+## DIL／TIM コンテナ  {#dil-tim}
 
 [!UICONTROL DIL] コンテナは、[!DNL Audience Manager] のデータ収集コードを Web サイトに配置する際に使用されます。[!UICONTROL TIM] は非推奨（廃止予定）となった Tag Insertion Manager です。[!DNL Audience Manager] では使用されなくなりました。代わりに、[Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) または [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) の [!DNL Audience Manager] 拡張機能を使用して、インベントリのページに配置するコンテナコードを設定および生成します。[!UICONTROL DTM] コンテナは [!UICONTROL Data Information Library (DIL)] と連携してサイトからデータを収集し、[!DNL Audience Manager] に送信します。
 
@@ -56,4 +56,3 @@ Audience Manager には次のコンポーネントがあります。
 * ポータルからのクライアント入力を処理します（特性および宛先の作成など）。
 * コンテナテンプレートやターゲットパブリッシング iFrame の作成に使用されるデータなどを Akamai に送信します。
 * UI のレポーティングシステムにデータを返します。
-
