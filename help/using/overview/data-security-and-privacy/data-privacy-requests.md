@@ -6,15 +6,15 @@ solution: Audience Manager
 keywords: GDPR UI、GDPR API、CCPA、プライバシー
 title: データプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: data governance & privacy
+feature: データ・ガバナンスとプライバシー
+exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
 translation-type: tm+mt
-source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1486'
 ht-degree: 99%
 
 ---
-
 
 # データプライバシーリクエスト {#data-privacy-requests}
 
