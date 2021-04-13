@@ -5,13 +5,13 @@ seo-title: ユニークユーザーのリーチ
 solution: Audience Manager
 title: ユニークユーザーのリーチ 発行者
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
-feature: オーディエンス最適化レポート
+feature: Audience Optimization レポート
 exl-id: 7f92547e-3bb0-4df1-953e-1c26e91b4e0c
 translation-type: tm+mt
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
