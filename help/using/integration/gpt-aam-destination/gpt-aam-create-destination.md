@@ -5,15 +5,15 @@ seo-title: GPT 宛先の作成
 solution: Audience Manager
 title: GPT 宛先の作成
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
-feature: Third Party Integrations
+feature: サードパーティとの統合
+exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 99%
 
 ---
-
 
 # GPT 宛先の作成 {#create-a-gpt-destination}
 
