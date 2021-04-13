@@ -5,15 +5,15 @@ seo-title: セグメント - 広告ユニット間重複
 solution: Audience Manager
 title: セグメント - 広告ユニット間重複
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
-feature: audience optimization reports
+feature: Audience Optimization レポート
+exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 100%
 
 ---
-
 
 # セグメント - 広告ユニット間重複 {#segment-to-ad-unit-overlap}
 
@@ -71,4 +71,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
