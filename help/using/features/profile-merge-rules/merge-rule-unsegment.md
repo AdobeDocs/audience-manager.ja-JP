@@ -5,15 +5,15 @@ seo-title: プロファイル結合ルールとデバイスのセグメント化
 solution: Audience Manager
 title: プロファイル結合ルールとデバイスのセグメント化解除プロセス
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
-feature: Profile Merge Rules
+feature: プロファイルの結合
+exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 99%
 
 ---
-
 
 # プロファイル結合ルールとデバイスのセグメント化解除プロセス {#profile-merge-rules-and-device-un-segmentation-processes}
 
