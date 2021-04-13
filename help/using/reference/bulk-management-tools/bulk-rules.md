@@ -5,15 +5,15 @@ seo-title: 特性ルールおよびセグメントルールの作成または更
 solution: Audience Manager
 title: 特性ルールおよびセグメントルールの作成または更新
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
-feature: baaam
+feature: BAAAM
+exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 100%
 
 ---
-
 
 # 特性ルールおよびセグメントルールの作成または更新 {#create-or-update-trait-rules-and-segment-rules}
 
@@ -61,4 +61,3 @@ ht-degree: 100%
 * [演算の順序](../../features/traits/trait-operator-precedence.md)
 * [キー変数のプレフィックスに関する要件](../../features/traits/trait-variable-prefixes.md)
 * [ブール演算子と比較演算子を使用した式のサンプル](../../features/traits/trait-expression-samples.md)
-
