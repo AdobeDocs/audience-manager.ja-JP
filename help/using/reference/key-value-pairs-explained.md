@@ -6,15 +6,15 @@ seo-title: キーと値のペアの解説
 solution: Audience Manager
 title: キーと値のペアの解説
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
-feature: reference
+feature: リファレンス
+exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 translation-type: tm+mt
-source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
-
 
 # キーと値のペアの解説 {#key-value-pairs-explained}
 
@@ -47,7 +47,7 @@ c_key_value_explained.xml
 
 シリアル化データを扱う場合、キー値ペア&#x200B;*内*&#x200B;およびキー値ペア&#x200B;*間*&#x200B;の値を区切る文字を指定する必要があります。キー値ペアの要素は、次のように定義されます。
 
-* **キー：**&#x200B;キー値ペア内の一意の識別子。
+* **キー：**&#x200B;キー値ペア内の一意の ID。
 * **値デリミター：**&#x200B;個々のキー値ペアを区切ります。
 * **キー値セパレーター：**&#x200B;キー値ペア内のキーと値を区切ります。
 * **シリアルセパレーター：**&#x200B;シリアル化されたキー値ペア内の個々の値を区切ります。
