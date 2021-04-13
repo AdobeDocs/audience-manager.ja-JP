@@ -4,15 +4,15 @@ seo-description: 'このページでは、オフラインの CRM データと Au
 seo-title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
-feature: People-Based Destinations
-translation-type: ht
-source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
-workflow-type: ht
+feature: 人を基にした目的地
+exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
+translation-type: tm+mt
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション {#workflow-a}
 
