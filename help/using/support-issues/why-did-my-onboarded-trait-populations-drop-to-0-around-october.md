@@ -4,15 +4,15 @@ seo-description: 2019 年 10 月 14 日頃、デバイス ID グラフのオン�
 seo-title: 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？
 solution: Audience Manager
 title: 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？
-feature: support
+feature: サポート
+exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
-
 
 # 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？ {#why-did-my-onboarded-trait-populations-drop-to-0-around-october}
 
