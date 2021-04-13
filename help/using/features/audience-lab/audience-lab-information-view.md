@@ -4,17 +4,17 @@ seo-description: このセクションには、テストグループとそれを
 seo-title: テストグループの情報
 solution: Audience Manager
 title: テストグループの情報
-topic: DIL API
+topic-edit: DIL API
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 feature: Audience Lab
+exl-id: fb691c12-304d-4331-a395-a9005efa8bb0
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '266'
 ht-degree: 100%
 
 ---
-
 
 # テストグループの情報 {#test-group-information}
 
