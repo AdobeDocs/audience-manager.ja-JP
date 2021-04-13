@@ -5,15 +5,15 @@ seo-title: 受信データファイルの FTP 名とファイルサイズの要�
 solution: Audience Manager
 title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-feature: Inbound Data Transfers
+feature: 受信データ転送
+exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 translation-type: tm+mt
-source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1045'
 ht-degree: 100%
 
 ---
-
 
 # [!DNL FTP]受信データファイルの 名とファイルサイズの要件 {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
