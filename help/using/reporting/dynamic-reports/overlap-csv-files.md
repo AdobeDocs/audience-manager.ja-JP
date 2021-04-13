@@ -5,15 +5,15 @@ seo-title: 重複レポートの CSV ファイル
 solution: Audience Manager
 title: 重複レポートの CSV ファイル
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
-feature: overlap reports
+feature: Overlap Reports
+exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '978'
 ht-degree: 100%
 
 ---
-
 
 # 重複レポートの CSV ファイル {#csv-files-for-overlap-reports}
 
@@ -137,7 +137,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>ベースラインセグメントと、比較の対象となる他のセグメントとの間の、重複する個別ユーザーの割合。 </p> </td> 
+   <td colname="col2"> <p>ベースラインセグメントと、比較の対象となる他のセグメントとの間の、重複するユニークユーザーの割合。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
