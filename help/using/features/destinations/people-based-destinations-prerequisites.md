@@ -4,15 +4,15 @@ seo-description: 'People-Based Destinations に新規登録する前に満たす
 seo-title: People-Based Destinations の前提条件と考慮事項
 solution: Audience Manager
 title: 前提条件と考慮事項
-feature: People-Based Destinations
+feature: 人を基にした目的地
+exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 translation-type: tm+mt
-source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 100%
+source-wordcount: '1017'
+ht-degree: 99%
 
 ---
-
 
 # 前提条件と考慮事項 {#prerequisites-considerations}
 
