@@ -5,15 +5,15 @@ seo-title: Google AdWords リマーケティングリストへのセグメント
 solution: Audience Manager
 title: Google AdWords リマーケティングリストへのセグメントの送信
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-feature: Third Party Integrations
+feature: サードパーティとの統合
+exl-id: 76676eae-de4f-4fee-8774-ee215525306a
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 99%
 
 ---
-
 
 # Google Ads リマーケティングリストへのセグメントの送信 {#send-segments-to-a-google-adwords-remarketing-list}
 
