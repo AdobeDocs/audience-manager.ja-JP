@@ -3,15 +3,15 @@ description: グローバルプライバシー規制により、多くの国で 
 seo-description: グローバルプライバシー規制により、多くの国で IP アドレスの難読化が求められる場合があります。Audience Manager を使用すると、訪問者の IP アドレス全体または国ごとに難読化できます。
 solution: Audience Manager
 title: IP アドレスの難読化
-feature: Data Governance and Privacy
+feature: データ・ガバナンスとプライバシー
+exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
-
 
 # IP アドレスの難読化 {#ip-obfuscation}
 
@@ -60,4 +60,3 @@ IP アドレスの難読化をグローバルに無効にするには、**Admini
 * [データプライバシー](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP アドレス難読化のビデオのデモ
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
-
