@@ -5,15 +5,15 @@ seo-title: メタデータファイルのコンテンツの形式
 solution: Audience Manager
 title: メタデータファイルのコンテンツの形式
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
-feature: log files
+feature: ログファイル
+exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 100%
 
 ---
-
 
 # メタデータファイルのコンテンツの形式 {#content-format-for-metadata-files}
 
