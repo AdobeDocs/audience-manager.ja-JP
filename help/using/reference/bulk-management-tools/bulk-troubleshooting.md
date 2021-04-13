@@ -5,15 +5,15 @@ seo-title: 一括管理ツールのトラブルシューティングのヒント
 solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
-feature: baaam
+feature: BAAAM
+exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
-
 
 # 一括管理ツールのトラブルシューティングのヒント {#troubleshooting-tips-for-bulk-management-tools}
 
@@ -79,4 +79,3 @@ ht-degree: 100%
 ## エラーメッセージ
 
 一括変更をおこなう際にエラーメッセージが表示される場合があります。エラーメッセージを解釈するには、API ドキュメントの[定義されているレスポンスコード](/help/using/api/rest-api-main/aam-api-getting-started.md)を参照してください。
-
