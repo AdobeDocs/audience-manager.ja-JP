@@ -6,15 +6,15 @@ seo-title: Audience Manager で使用される ID の一覧
 solution: Audience Manager
 title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: 参照
+feature: リファレンス
+exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
 translation-type: tm+mt
-source-git-commit: 30d18c32f519930703c46046b0c2a413b222c317
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # [!DNL Audience Manager]で使用される ID の一覧 {#index-of-ids-in-audience-manager}
 
