@@ -5,15 +5,15 @@ seo-title: 重複レポート：更新スケジュールと最小セグメント
 solution: Audience Manager
 title: 重複レポート：更新スケジュールと最小セグメントサイズ
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-feature: overlap reports
+feature: Overlap Reports
+exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '355'
 ht-degree: 100%
 
 ---
-
 
 # 重複レポート：更新スケジュールと最小セグメントサイズ {#overlap-reports-update-schedule-and-minimum-segment-size}
 
