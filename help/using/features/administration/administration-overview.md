@@ -5,17 +5,17 @@ seo-description: Administration メニューのオプションを使用すると
 seo-title: 管理
 solution: Audience Manager
 title: 管理
-topic: DIL API
+topic-edit: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-feature: Administration
+feature: 管理
+exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 translation-type: tm+mt
-source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Administration]（RBAC の制御）{#administration}
 
