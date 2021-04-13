@@ -5,15 +5,15 @@ seo-title: Audience Manager の一般的なレポート
 solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-feature: general & trend reports
+feature: 一般レポートとトレンドレポート
+exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 99%
 
 ---
-
 
 # 一般レポート {#general-reports}
 
@@ -33,7 +33,7 @@ c_general_reports.xml
 
 * 特性、セグメントまたは出力先でパフォーマンスを確認する。
 * 1、7、14、30、60、90 日間隔でインプレッション数（合計および個別）を追跡する。
-* 合計および個別の読み込み数を確認する。
+* 合計および一意の読み込み数を確認する。
 * 特性とセグメントのパフォーマンスを比較する。
 * 強いまたは弱いパフォーマンス特性およびセグメントを特定したり、需要を分析したり、サードパーティレポートでデータの読み込み／実行を比較したりする。
 * データを（.csv 形式で）書き出してさらに分析したり共有したりする。
