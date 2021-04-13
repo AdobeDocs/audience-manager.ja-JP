@@ -4,17 +4,17 @@ seo-description: 管理者でないユーザーは、自分の電子メールア
 seo-title: アカウント設定の編集
 solution: Audience Manager
 title: アカウント設定の編集
-topic: DIL API
+topic-edit: DIL API
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
-feature: Administration
+feature: 管理
+exl-id: 77fe5440-9286-44cd-b51f-600310e2dc8b
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '188'
 ht-degree: 100%
 
 ---
-
 
 # アカウント設定の編集 {#edit-your-account-settings}
 
