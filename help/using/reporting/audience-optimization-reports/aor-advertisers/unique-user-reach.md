@@ -5,15 +5,15 @@ seo-title: ユニークユーザーのリーチ
 solution: Audience Manager
 title: ユニークユーザーのリーチ
 uuid: 897245ab-af6e-42a0-b653-96703b65c764
-feature: audience optimization reports
+feature: Audience Optimization レポート
+exl-id: 1b7ddafd-40b8-4c64-97e9-ecc7ffdd9efa
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 100%
 
 ---
-
 
 # ユニークユーザーのリーチ {#unique-user-reach}
 
@@ -26,8 +26,9 @@ ht-degree: 100%
 >次の点に注意してください。
 >
 >* [!UICONTROL Unique User Reach] レポートには、[!UICONTROL Admin]権限レベルのユーザーの情報のみが表示されます。[!DNL Audience Manager] の担当のコンサルタントまたはカスタマーケアが、アカウントに [!UICONTROL Admin]権限を付与できます。
->
->* 7 日と 30 日のルックバック期間は日曜日の場合のみ使用できます。
+   >
+   >
+* 7 日と 30 日のルックバック期間は日曜日の場合のみ使用できます。
 
 
 ## レポートのサンプル
