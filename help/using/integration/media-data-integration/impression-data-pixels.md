@@ -5,15 +5,15 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのインプ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-feature: Integration with Campaign
+feature: Adobe Campaign統合
+exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '738'
+ht-degree: 99%
 
 ---
-
 
 # ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ {#capturing-campaign-impression-data-via-pixel-calls}
 
