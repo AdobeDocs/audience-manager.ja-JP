@@ -6,14 +6,14 @@ solution: Audience Manager
 title: 用語集
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: リファレンス
-translation-type: ht
-source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
-workflow-type: ht
+exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
+translation-type: tm+mt
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 100%
 
 ---
-
 
 # 用語集 {#glossary}
 
@@ -140,7 +140,7 @@ Google 広告 ID。Android オペレーティングシステムを実行して�
 
 **GUID**
 
-Globally Unique Identifier（グローバル一意識別子）の頭字語。[!DNL Audience Manager] では、GUID という用語は使用しません。GUID は [!DNL Audience Manager]Audience Manager UUID と呼ばれます。[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
+Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!DNL Audience Manager] では、GUID という用語は使用しません。GUID は [!DNL Audience Manager]Audience Manager UUID と呼ばれます。[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
 ## I-J {#i-j}
 
@@ -210,7 +210,7 @@ Globally Unique Identifier（グローバル一意識別子）の頭字語。[!D
 
 セグメント（またはオーディエンス）は、共通の属性を共有する一連のユーザーです。
 
- [セグメント：目的、構成およびルール](../features/segments/segments-purpose.md)を参照してください。
+詳しくは、[セグメント：目的、構成およびルール](../features/segments/segments-purpose.md)を参照してください。
 
 
 
@@ -271,4 +271,3 @@ TTL は、対象として認定された訪問者が特性にとどまる日数�
 [Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)のドキュメントを参照してください。
 
 ## W-X-Y-Z {#w-z}
-
