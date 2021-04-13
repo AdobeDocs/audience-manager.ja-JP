@@ -5,15 +5,15 @@ seo-title: 一括予測
 solution: Audience Manager
 title: 一括予測
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
-feature: baaam
+feature: BAAAM
+exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
-
 
 # 一括予測 {#bulk-estimates}
 
@@ -42,4 +42,3 @@ t_bulk_estimates.xml
 
 ![](assets/estimate.png)
 一括更新でエラーが発生した場合や失敗した場合は、[一括管理ツールのトラブルシューティング](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。
-
