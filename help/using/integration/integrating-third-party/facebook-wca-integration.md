@@ -4,15 +4,15 @@ seo-description: このページでは、オンライン広告ターゲティン
 seo-title: Facebook WCA の統合
 solution: Audience Manager
 title: Facebook WCA の統合
-feature: サードパーティ統合
-translation-type: ht
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+feature: サードパーティとの統合
+exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
+translation-type: tm+mt
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+workflow-type: tm+mt
+source-wordcount: '868'
+ht-degree: 99%
 
 ---
-
 
 # [!DNL Facebook WCA] 統合 {#facebook-wca-integration}
 
