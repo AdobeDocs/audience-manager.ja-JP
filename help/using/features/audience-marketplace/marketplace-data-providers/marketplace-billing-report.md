@@ -4,17 +4,17 @@ seo-description: Audience Marketplace 請求レポートを生成して、加入
 seo-title: データフィードプロバイダーに対する請求
 solution: Audience Manager
 title: データフィードプロバイダーに対する請求
-topic: DIL API
+topic-edit: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
+exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '455'
 ht-degree: 100%
 
 ---
-
 
 # データフィードプロバイダーに対する請求 {#billing-for-data-feed-providers}
 
