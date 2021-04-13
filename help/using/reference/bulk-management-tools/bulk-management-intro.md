@@ -6,15 +6,15 @@ seo-title: 一括管理の概要
 solution: Audience Manager
 title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-feature: baaam
+feature: BAAAM
+exl-id: 5603146e-7172-4181-90ad-4606129176dd
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '715'
 ht-degree: 99%
 
 ---
-
 
 # 一括管理の概要 {#getting-started-with-bulk-management}
 
@@ -122,4 +122,3 @@ c_bulk_start.xml
 >[!NOTE]
 >
 >大量のリクエストを処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。その場合、そのままにしておきます。一括要求が完了すると、ワークシートは反応するようになります。ワークシートが長時間反応しない場合、[トラブルシューティングのセクション](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。
-
