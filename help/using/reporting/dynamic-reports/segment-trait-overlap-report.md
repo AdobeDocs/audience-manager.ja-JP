@@ -5,15 +5,15 @@ seo-title: セグメント／特性間重複レポート
 solution: Audience Manager
 title: セグメント／特性間重複レポート
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-feature: overlap reports
+feature: Overlap Reports
+exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 100%
 
 ---
-
 
 # セグメント／特性間重複レポート {#segment-to-trait-overlap-report}
 
@@ -188,3 +188,4 @@ r_s2t_data_pop.xml
 >* [重複レポート：更新スケジュールと最小セグメントサイズ](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [選択した Audience Manager レポートでのデータサンプリングとエラー率...](../../reporting/report-sampling.md)
 >* [重複レポートの CSV ファイル](../../reporting/dynamic-reports/overlap-csv-files.md)
+
