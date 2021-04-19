@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 87%
+ht-degree: 99%
 
 ---
 
@@ -56,15 +56,15 @@ ht-degree: 87%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>バックエンドサーバー </p> </td> 
-   <td colname="col2"> <p>一二〇日分 </p> <p> Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 120 日後にユーザーデータをバックエンドサーバーから削除します。<span class="keyword">Audience Manager</span>がこの120日間のサイクル内にユーザーアクティビティを記録した場合、このデータは120日間保持されます。 </p> </td> 
+   <td colname="col2"> <p>120 日間 </p> <p> Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 120 日後にユーザーデータをバックエンドサーバーから削除します。<span class="keyword">Audience Manager</span> がこの 120 日間のサイクル内にユーザーアクティビティを記録した場合、このデータはさらに 120 日間保持されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>エッジサーバー </p> </td> 
-   <td colname="col2"> <p> 14日 </p> <p>Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 14 日後にユーザーデータをエッジエンドサーバーから削除します。<span class="keyword">Audience Manager</span>がこの14日間のサイクル内にユーザーアクティビティを記録した場合、このデータはあと14日間保持します。 14日間のサイクルの後にユーザーが再度アクティブになった場合、最初の新しいページ表示と、ユーザーがアクション可能になった時点との間に遅延が発生します。 14日間無操作状態が続いた後、プロファイル全体をエッジセンターに戻すのに6 ～ 18時間かかります。 </p> </td> 
+   <td colname="col2"> <p> 14 日間 </p> <p>Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 14 日後にユーザーデータをエッジエンドサーバーから削除します。<span class="keyword">Audience Manager</span> がこの 14 日間のサイクル内にユーザーアクティビティを記録した場合、このデータはさらに 14 日間保持されます。14 日間のサイクルの後にユーザーが再度アクティブになった場合、最初の新規ページビューからユーザーが操作可能になるまでの間に遅延が発生します。14 日間アクティビティがない状態が続いた後、プロファイル全体をエッジセンターに戻すのに 6 ～ 18 時間かかります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>生のログ </p> </td> 
-   <td colname="col2"> <p>60日間(アクティビティなしの60日間後削除) </p> <p>生のログは、HTTP 呼び出しを通じて、または <span class="keyword">Audience Manager</span> に送信されたオンボードファイルからエッジサーバーで受信されるデータです。 </p> </td> 
+   <td colname="col2"> <p>60 日間（60 日間アクティビティがなかったら、その後削除） </p> <p>生のログは、HTTP 呼び出しを通じて、または <span class="keyword">Audience Manager</span> に送信されたオンボードファイルからエッジサーバーで受信されるデータです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>広告サーバーログ </p> </td> 
