@@ -8,11 +8,11 @@ keywords: セグメントレベルのレポート, セグメントレベル, セ
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 88ed0b28fdf5dc03c8a878529d65b4bc844ea6c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -265,7 +265,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 >[!NOTE]
 >
->モデリングの使用例では、アクティベーション時にCPMの使用状況のみを報告する必要があります。 モデルの実行のみを行い、アクティブ化しない場合は、使用レポートは不要です。
+>モデリングの使用例では、アクティブ化時にのみ CPM の使用状況を報告する必要があります。モデルのみを実行し、アクティブ化しない場合は、使用状況レポートは必要ありません。
 
 <br> 
 
