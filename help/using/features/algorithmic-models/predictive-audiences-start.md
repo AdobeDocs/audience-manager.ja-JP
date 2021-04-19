@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Predictive Audiences の使用の手引き
 feature: アルゴリズムモデル
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
 ht-degree: 100%
 
