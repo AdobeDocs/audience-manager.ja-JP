@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
 source-wordcount: '1789'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 99%
       + [セグメント式エディターで使用するコード構文](features/segments/segment-code-syntax.md)
       + [セグメントビルダーにおける特性とセグメントのユーザー数データ](features/segments/segment-builder-data.md)
       + [特性レコメンデーション](features/segments/trait-recommendations.md)
-      + [特性およびセグメントの資格に関するリファレンス](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
+      + [特性およびセグメントの資格に関するリファレンス](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=ja)
    + 特性 {#traits}
       + [特性の概要](/help/using/features/traits/traits-overview.md)
       + [特性の詳細ページ](features/traits/trait-details-page.md)
