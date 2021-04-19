@@ -3,7 +3,7 @@ description: セグメントパフォーマンスレポートは、インプレ�
 seo-description: セグメントパフォーマンスレポートは、インプレッション数およびリアルタイムセグメントのユニーク数を使用して、マッピングされたセグメントとマッピングされていないセグメントを比較します。マッピングされたセグメントとは、作成してターゲティングのために宛先に送信したセグメントのことです。マッピングされていないセグメントとは、作成したもののターゲティングのために宛先に送信していないセグメントのことです。レポート内およびレポート間でこれらの異なるセグメントタイプを比較することで、既存のキャンペーンを最適化し、見落としていたセグメントを宛先に送信してターゲティングをおこなうことができます。
 seo-title: セグメントパフォーマンスレポート
 solution: Audience Manager
-title: セグメントパフォーマンスレポート 発行者
+title: セグメントパフォーマンスレポート発行者向け
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: Audience Optimization レポート
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 99%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>セグメント </p> </td> 
+   <td colname="col1"> <p>Segment </p> </td> 
    <td colname="col2"> <p>このセグメントに割り当てた名前（英数字）。 </p> </td> 
   </tr> 
   <tr> 
