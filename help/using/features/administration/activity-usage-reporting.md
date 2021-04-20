@@ -5,7 +5,7 @@ seo-description: アクティビティ使用状況レポートは、Audience Man
 seo-title: アクティビティ使用状況レポート
 solution: Audience Manager
 title: アクティビティ使用状況レポート
-feature: 使用状況と請求
+feature: Usage and Billing
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

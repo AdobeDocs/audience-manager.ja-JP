@@ -4,7 +4,7 @@ seo-description: Instant Cross-Device Suppression は、接続した複数のデ
 seo-title: Instant Cross-Device Suppression
 title: 瞬時クロスデバイス抑制
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-feature: プロファイルの結合
+feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

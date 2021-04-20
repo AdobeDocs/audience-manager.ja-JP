@@ -4,7 +4,7 @@ seo-description: オーディエンス分析では、Audience Manager のセグ�
 seo-title: Analytics の宛先の設定
 solution: Audience Manager
 title: Analytics の宛先の設定
-feature: Adobe Analytics との統合
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

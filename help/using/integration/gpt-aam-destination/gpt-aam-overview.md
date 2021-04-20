@@ -3,7 +3,7 @@ description: Google サイト運営者タグ（GPT）を使用した Google Ad M
 seo-description: Adobe Audience Manager（AAM）で Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合方法の概要です。
 seo-title: Adobe Audience Manager（AAM）で Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合
 title: 'Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合 '
-feature: サードパーティとの統合
+feature: Third-party Integration
 exl-id: d383cb8a-ef41-4ce6-9e31-6145797a89fa
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

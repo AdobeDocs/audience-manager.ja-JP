@@ -5,7 +5,7 @@ seo-description: Audience Manager のユーザー管理は Adobe Admin Console �
 seo-title: Admin Console への Audience Manager ユーザーの移行
 solution: Audience Manager
 title: Admin Console への Audience Manager ユーザーの移行
-feature: 管理
+feature: Administration
 translation-type: ht
 source-git-commit: 2e01abab2616daccd7581cdaa18417650951d139
 workflow-type: ht

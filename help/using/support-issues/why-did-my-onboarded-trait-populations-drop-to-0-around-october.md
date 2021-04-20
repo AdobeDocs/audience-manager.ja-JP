@@ -4,7 +4,7 @@ seo-description: 2019 年 10 月 14 日頃、デバイス ID グラフのオン�
 seo-title: 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？
 solution: Audience Manager
 title: 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？
-feature: サポート
+feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -5,7 +5,7 @@ seo-title: アカウント設定の編集
 solution: Audience Manager
 title: アカウント設定の編集
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
-feature: 管理
+feature: Administration
 exl-id: 77fe5440-9286-44cd-b51f-600310e2dc8b
 translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 使用の制限
 keywords: ID マッピング, ID マッピング, cookie マッピング
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: 使用状況と請求
+feature: Usage and Billing
 translation-type: ht
 source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: ht

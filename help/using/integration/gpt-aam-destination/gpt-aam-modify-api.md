@@ -5,7 +5,7 @@ seo-title: GPT setTargeting API 呼び出しの変更
 solution: Audience Manager
 title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-feature: サードパーティとの統合
+feature: Third-party Integration
 exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

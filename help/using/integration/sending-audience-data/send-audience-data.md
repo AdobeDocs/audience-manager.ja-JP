@@ -3,7 +3,7 @@ description: Audience Manager に対して他のソースからオーディエ�
 seo-description: Adobe Audience Manager（AAM）に対して他のソースからオーディエンスデータを送信します。
 seo-title: Adobe Audience Manager（AAM）でのオーディエンスデータの送信
 title: オーディエンスデータの送信
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

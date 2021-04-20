@@ -4,7 +4,7 @@ seo-description: 'このページには、Audience Manager とピープルベー
 seo-title: ピープルベースのプラットフォームを使用した認証
 solution: Audience Manager
 title: ピープルベースのプラットフォームを使用した認証
-feature: 人を基にした目的地
+feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

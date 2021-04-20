@@ -5,7 +5,7 @@ seo-title: メディアデータの統合
 solution: Audience Manager
 title: メディアデータの統合
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
-feature: Adobe Campaign統合
+feature: Adobe Campaign Integration
 exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -4,7 +4,7 @@ seo-description: Predictive Audiences は、データサイエンスを使用し
 seo-title: Predictive Audiences に関する FAQ
 solution: Audience Manager
 title: Predictive Audiences に関する FAQ
-feature: アルゴリズムモデル
+feature: Algorithmic Models
 exl-id: 21073970-8457-470b-89fc-724a118a18d2
 translation-type: ht
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656

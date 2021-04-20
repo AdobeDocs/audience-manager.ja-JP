@@ -5,7 +5,7 @@ seo-title: 特性ダッシュボード
 solution: Audience Manager
 title: 特性ダッシュボード
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
-feature: 特性
+feature: Traits
 translation-type: ht
 source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: ht

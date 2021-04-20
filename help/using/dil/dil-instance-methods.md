@@ -6,7 +6,7 @@ seo-title: インスタンスレベルの DIL メソッド
 solution: Audience Manager
 title: インスタンスレベルの DIL メソッド
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: DIL の実装
+feature: DIL Implementation
 translation-type: ht
 source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: ht

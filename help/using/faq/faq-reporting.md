@@ -5,7 +5,7 @@ seo-title: レポートに関するよくある質問
 solution: Audience Manager
 title: レポートに関するよくある質問
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-feature: レポートリファレンス
+feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

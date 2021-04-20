@@ -5,7 +5,7 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのインプ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-feature: Adobe Campaign統合
+feature: Adobe Campaign Integration
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

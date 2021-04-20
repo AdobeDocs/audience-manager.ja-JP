@@ -4,7 +4,7 @@ seo-description: 'People-Based Destinations では、顧客データの構造に
 seo-title: People-Based Destinations の実装ガイダンス
 solution: Audience Manager
 title: 実装ガイダンス
-feature: 人を基にした目的地
+feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

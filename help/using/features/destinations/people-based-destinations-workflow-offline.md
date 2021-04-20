@@ -4,7 +4,7 @@ seo-description: 'このページでは、オフラインのみの顧客デー�
 seo-title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
-feature: 人を基にした目的地
+feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

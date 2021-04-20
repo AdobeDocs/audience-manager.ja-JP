@@ -5,7 +5,7 @@ seo-title: 受信データファイルの Amazon S3 名とファイルサイズ�
 solution: Audience Manager
 title: 受信データファイルの Amazon S3 名とファイルサイズの要件
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

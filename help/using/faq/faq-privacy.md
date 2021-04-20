@@ -5,7 +5,7 @@ seo-title: プライバシーとデータ保持に関するよくある質問
 solution: Audience Manager
 title: プライバシーとデータ保持に関するよくある質問
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: データ・ガバナンスとプライバシー
+feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

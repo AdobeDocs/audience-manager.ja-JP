@@ -4,7 +4,7 @@ seo-description: この記事では、新しい統合と既存の統合の両方
 seo-title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
 solution: Audience Manager
 title: Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する
-feature: 人を基にした目的地
+feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

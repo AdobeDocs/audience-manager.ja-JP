@@ -5,7 +5,7 @@ seo-title: オンボーディングステータスレポート
 solution: Audience Manager
 title: オンボーディングステータスレポート
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-feature: 受信および送信レポート
+feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

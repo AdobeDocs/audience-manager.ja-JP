@@ -5,7 +5,7 @@ seo-title: demdex ドメインの呼び出しについて
 solution: Audience Manager
 title: demdex ドメインの呼び出しについて
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
-feature: リファレンス
+feature: Reference
 exl-id: dcd5ed86-4ff1-4f63-9c9f-edf11c229a30
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -5,7 +5,7 @@ seo-title: プロファイル結合ルールの一般的なユースケース
 solution: Audience Manager
 title: プロファイル結合ルールの一般的なユースケース
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
-feature: プロファイルの結合
+feature: Profile Merge
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -6,7 +6,7 @@ seo-title: 製品の機能に関するよくある質問
 solution: Audience Manager
 title: 製品の機能に関するよくある質問
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-feature: 概要
+feature: Overview
 translation-type: ht
 source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: ht
