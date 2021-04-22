@@ -5,21 +5,20 @@ seo-title: Adobe Audience Manager のサーバー間の宛先
 keywords: アクティブ化、アクティベートパートナー、宛先、宛先
 solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
-feature: Destination Basics
+feature: ターゲットの基本
+exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 97%
 
 ---
 
-
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-このページには、現在の の[!DNL Audience Manager][デバイスベースの宛先](/help/using/features/destinations/add-device-based-destinations.md)のみが含まれます。[!DNL Audience Manager] では、[!UICONTROL device-based destinations] は [!UICONTROL server-to-server destinations] とも呼ばれます。統合について詳しくは、[Exchange](https://www.adobeexchange.com/experiencecloud.html) のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。[!DNL Adobe]
+このページには、現在の の[!DNL Audience Manager][デバイスベースの宛先](/help/using/features/destinations/add-device-based-destinations.md)のみが含まれます。[!DNL Audience Manager] では、[!UICONTROL device-based destinations] は [!UICONTROL server-to-server destinations] とも呼ばれます。統合の詳細については、[Adobe交換](https://exchange.adobe.com/experiencecloud.html)のリスト（利用可能な場合）を参照するか、[!DNL Adobe]コンサルタントまたはカスタマーケアにお問い合わせください。
 
- 
 
 * **前回の更新日** = この [!UICONTROL device-based destination] で最後に更新がおこなわれた日付が表示されます。
 * **アップデート** = [!DNL Audience Manager]この [!UICONTROL destination] にデータをリアルタイムで送信するか、バッチ（1 回/日）で送信するかを指定します。
@@ -28,10 +27,9 @@ ht-degree: 100%
 * **[!DNL ICDS]** = この列には、[!UICONTROL Instant Cross-Device Suppression] をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **モバイルデバイス ID** = この列には、[!DNL Audience Manager] からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 
- 
 
 | 統合 | 最終更新日 | 更新 | セグメント解除 | [!DNL IAB TCF] 同意シグナルの受信 | [!DNL ICDS] | モバイルデバイス ID |
-|---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
+|----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 2018/09/26 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL 4info] | 2017/02/09 | 1 回/日 | × | × | × | ○ |
 | [!DNL AcuityAds] | 2017/02/09 | リアルタイム | ○ | × | ○ | × |
@@ -51,6 +49,7 @@ ht-degree: 100%
 | [!DNL AOL ONE] | 2017/03/02 | リアルタイム | ○ | × | × | ○ |
 | [!DNL AppNexus] | 2017/03/02 | リアルタイム | ○ | × | ○ | × |
 | [!DNL AppNexus Yieldex] | 2017/08/10 | 1 回/日 | ○ | × | × | × |
+| [!DNL Artsai] (formerly [!DNL Adxcel]) | 27/01/2020 | 1 回/日 | × | × | × | ○ |
 | [!DNL Atedra]／[!DNL AdStanding] | 2017/03/02 | リアルタイム | ○ | × | ○ | × |
 | [!DNL Avocet] | 2017/12/06 | 1 回/日 | × | × | × | × |
 | [!DNL Bidtellect] | 2017/03/03 | リアルタイム | ○ | × | × | × |
@@ -81,9 +80,11 @@ ht-degree: 100%
 | [!DNL EyeView Digital] | 2018/06/14 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Fiksu] | 2017/03/03 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Flashtalking] | 2017/03/02 | 1 回/日 | × | × | × | × |
+| [!DNL Flybits] | 31/07/2020 | リアルタイム | ○ | × | ○ | ○ |
 | [!DNL FreakOut] | 2017/03/03 | 1 回/日 | ○ | × | × | × |
 | [!DNL Freewheel] | 2017/02/27 | 1 回/日 | ○ | ○ | × | ○ |
 | [!DNL Gamut Media] | 2017/03/03 | リアルタイム |  | × | × |  |
+| [!DNL Google AdsWords Display] | 2018/08/02 | リアルタイム | ○ | ○ | × | ○ |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 2017/04/24 | リアルタイム | ○ | ○ | ○ | ○ |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 2017/04/24 | リアルタイム | ○ | ○ | ○ | ○ |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 2017/04/24 | リアルタイム | ○ | ○ | ○ | ○ |
@@ -134,6 +135,7 @@ ht-degree: 100%
 | [!DNL RocketFuel] | 2017/02/17 | リアルタイム | ○ | × | ○ | ○ |
 | [!DNL Rubicon] |  | リアルタイム | ○ | ○ | × |  |
 | [!DNL RUN] | 2017/02/17 | 1 回/日 | ○ | × | × | × |
+| [!DNL RTB House] | 04/02/2021 | リアルタイム | ○ | × | ○ | ○ |
 | [!DNL Sabio Mobile] | 2017/02/17 | 1 回/日 | × | × | × | ○ |
 | [!DNL Simpli.fi] | 2017/02/17 | 1 回/日 | × | × | × | ○ |
 | [!DNL Sizmek ad server (Amazon)] | 2017/02/17 | リアルタイム | ○ | × | × |  |
@@ -150,7 +152,7 @@ ht-degree: 100%
 | [!DNL Supership]／[!DNL ScaleOut] | 2017/03/03 | 1 回/日 | ○ | × | × | × |
 | [!DNL Survata] | 2017/08/09 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Taboola] | 2017/08/03 | 1 回/日 | × | ○ | × | × |
-| [!DNL Tapad] | 2017/03/03 | リアルタイム | × | × | × | ○ |
+| [!DNL Tapad] | 17/07/2020 | リアルタイム | × | × | × | ○ |
 | [!DNL Telaria] | 2019/04/25 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Telogical Systems] | 2017/03/03 | リアルタイム | ○ | × | × | × |
 | [!DNL The Trade Desk] | 2017/03/03 | リアルタイム | ○ | ○ | ○ | ○ |
