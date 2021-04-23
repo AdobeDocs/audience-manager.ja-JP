@@ -3,13 +3,13 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
-user-guide-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。
+user-guide-description: Audience Managerが、サイトの訪問者に関する商業的に関連のある情報を収集し、マーケティング可能なセグメントを作成し、ターゲットを絞った広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
 feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 100%
+source-wordcount: '1806'
+ht-degree: 98%
 
 ---
 
