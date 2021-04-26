@@ -1,19 +1,17 @@
 ---
-description: キー値ペアは関連する要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。Destination Builder では、キー値ペアの形式でデータを送信します。
-seo-description: キー値ペアは関連する要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。Destination Builder では、キー値ペアの形式でデータを送信します。
-seo-title: 標準型およびシリアル型のキー値ペア
+description: ' [!DNL key-value pair] は、データセット（性別、色、価格など）を定義する定数である関連する要素Aキーと、セットに属する変数（男性/女性、緑、100など）の値で構成されます。 Destination Builder では、キー値ペアの形式でデータを送信します。'
 solution: Audience Manager
-title: 標準型およびシリアル型のキー値ペア
+title: 標準およびシリアル [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
-feature: Destination Basics
+feature: ターゲットの基本
+exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: c895ec099ff92f94328ad29e6f2349e79b77d667
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 92%
 
 ---
-
 
 # 標準型およびシリアル型のキー値ペア {#standard-and-serial-key-value-pairs}
 
