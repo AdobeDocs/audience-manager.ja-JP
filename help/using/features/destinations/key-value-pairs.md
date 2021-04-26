@@ -6,16 +6,16 @@ uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: ターゲットの基本
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: f9f5cb5f83f095ad8cac01447ef0c360f0acd5fc
+source-git-commit: fe6e2883e67e70b362d31e19b28df4b586de7b8a
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 92%
+ht-degree: 85%
 
 ---
 
 # 標準型およびシリアル型のキー値ペア {#standard-and-serial-key-value-pairs}
 
-キー値ペアは関連する要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。[!UICONTROL Destination Builder] では、キー値ペアの形式でデータを送信します。
+キーと値のペアは、次の関連する要素で構成されます。データセットを定義する定数であるキー(例：性別、色、価格)および値(セットに属する変数です（例：男性/女性、緑、100）。 [!UICONTROL Destination Builder] では、キー値ペアの形式でデータを送信します。
 
 ## 基本的なキーと値のペア {#basic-key-value-pairs}
 
