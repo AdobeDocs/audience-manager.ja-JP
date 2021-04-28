@@ -5,11 +5,11 @@ seo-title: サポートされているブラウザー
 solution: Audience Manager
 title: サポートされているブラウザー
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
-feature: Reference
+feature: リファレンス
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
 ht-degree: 100%
 
