@@ -6,11 +6,11 @@ seo-title: 管理
 solution: Audience Manager
 title: 管理
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-feature: Administration
+feature: 管理
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
 > 
 > すべてのお客様が移行した後、このセクションは廃止されます。
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
 > 
 > すべてのお客様が移行した後、このセクションは廃止されます。
 
