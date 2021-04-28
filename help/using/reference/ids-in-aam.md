@@ -6,11 +6,11 @@ seo-title: Audience Manager で使用される ID の一覧
 solution: Audience Manager
 title: Audience Manager で使用される ID の一覧
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: Reference
+feature: リファレンス
 exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 | [!DNL csegID] | [!DNL Legacy Segment ID]をインストールします。この ID は、[!DNL Audience Manager] 環境内のセグメントを一意に識別します。 | `741232` | [!UICONTROL Legacy Segment ID] は各セグメントに割り当てられ、[特性](../features/segments/segment-summary-view.md)ページのユーザーインターフェイスに表示されます。 |
 | [!DNL destID] | [!UICONTROL Destination ID]をインストールします。[!UICONTROL Destination ID] は、[!DNL Audience Manager] 環境内で一意に [!DNL destinations] を識別します。ユーザーインターフェイスの各[!DNL destination]に、ID が割り当てられます。 | `2523` | [!UICONTROL Destination ID] は各[!DNL destination]に割り当てられ、[宛先](../features/destinations/destinations-home.md)ページのユーザーインターフェイスに表示されます。 |
 | [!DNL DPID] | [!UICONTROL Data Source ID]（別名 [!UICONTROL Data Provider ID]）。[!UICONTROL Data Source ID] は、ID または[!DNL traits]用の名前空間です。ユーザーインターフェイスの各[!DNL data source]（データプロバイダー）に、ID が割り当てられます。 | [!DNL DCS] 呼び出しでは、`dpid` の前に `d_` プレフィックスが付きます。<br>例：`d_dpid=39217`。 | [!UICONTROL Data Provider ID] は各[!DNL data source]に割り当てられ、[データソース](../features/datasources-list-and-settings.md)ページのユーザーインターフェイスに表示されます。 |
-| [!DNL DPUUID] | [!UICONTROL Data Provider Unique User ID] は、[!DNL CRM ID] または [!UICONTROL Cross-Device ID] とも呼ばれます。サードパーティ ID。[!DNL CRM] システムのエンドユーザーを識別するための ID です。[!DNL DPUUIDs] を の [!DNL Audience Manager][!DNL UUIDs] と同期したり、ID 同期プロセスで別の[!UICONTROL Data Sources]（[!DNL DPIDs]）の [!DNL DPUUIDs] を同期したりできます。 | [!DNL DCS] 呼び出しでは、`dpuuid` の前に `d_` プレフィックスが付きます。<br>例：`d_dpuuid=2132-3423vn-343fds-3432r`。 | [類似（look-alike）モデル](../features/algorithmic-models/create-model.md)をの作成時や[セグメントの作成](../features/segments/segment-builder.md)時には、[!UICONTROL Cross-Device ID] で[!DNL traits]をフィルタリングできます。また、[特性に関する一般レポート](../reporting/general-reports.md)および[特性に関するトレンドレポート](../reporting/trend-reports.md)を実行中に、[!UICONTROL Cross-Device ID] で結果をフィルタリングできます。 |
+| [!DNL DPUUID] | [!UICONTROL Data Provider Unique User ID] は、[!DNL CRM ID] または [!UICONTROL Cross-Device ID] とも呼ばれます。サードパーティ ID。[!DNL CRM] システムのエンドユーザーを識別するための ID です。[!DNL DPUUIDs] を [!DNL Audience Manager] の [!DNL UUIDs] と同期したり、ID 同期プロセスで別の[!UICONTROL Data Sources]（[!DNL DPIDs]）の [!DNL DPUUIDs] を同期したりできます。 | [!DNL DCS] 呼び出しでは、`dpuuid` の前に `d_` プレフィックスが付きます。<br>例：`d_dpuuid=2132-3423vn-343fds-3432r`。 | [類似（look-alike）モデル](../features/algorithmic-models/create-model.md)をの作成時や[セグメントの作成](../features/segments/segment-builder.md)時には、[!UICONTROL Cross-Device ID] で[!DNL traits]をフィルタリングできます。また、[特性に関する一般レポート](../reporting/general-reports.md)および[特性に関するトレンドレポート](../reporting/trend-reports.md)を実行中に、[!UICONTROL Cross-Device ID] で結果をフィルタリングできます。 |
 | [!DNL CRM ID] | `DPUUID` を参照してください。 | `DPUUID` を参照してください。 | `DPUUID` を参照してください。 |
 | [!DNL CID]、[!DNL CID_IC] | [!UICONTROL Customer ID]、[!UICONTROL Customer ID Integration Code]。[!DNL CID] と [!DNL CID_IC] のキー値ペアは、[!DNL DPID] と [!DNL DPUUID] を置き換えます。[!DNL DPID] および [!DNL DPUUID] と同じ機能ですが、1 つのキー値ペアにデータプロバイダー ID とユーザー ID（または統合コード）が含まれるので、より効率的です。 | [!DNL DCS] 呼び出しでは、これらの ID の前に `d_` プレフィックスが付きます。<br>例：`d_cid_ic=39217_myIntegrationCode`。 | `DPID` と `DPUUID` を参照してください。 |
 | [!DNL DAID] | [!UICONTROL Device Advertising ID]をインストールします。各ハードウェアデバイスに一意の ID で、広告目的で使用されます。通常は、デバイスの製造元またはデバイスのオペレーティングシステムにより設定されます。 | 詳しくは、[グローバルデバイス ID](#global-device-ids) を参照してください。 |  |
@@ -56,5 +56,5 @@ ht-degree: 100%
 | [!DNL GAID] | 20914 | [!DNL Google Advertising ID] はモバイルデバイス識別子で、Android デバイスの製造元により設定されます。これらの ID は [!DNL Android] オペレーティングシステムを使用するデバイスを表します。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`e4fe9bde-caa0-47b6-908d-ffba3fa184f2`。 |
 | [!DNL RIDA] | 121963 | [!DNL Roku IDs for Advertising] は、[!DNL Roku] ストリーミングデバイスを表します。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`fcb2a29c-315a-5e6b-bcfd-d889ba19aada`。 |
 | [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID] は、デバイスごと、ユーザーごとに [!DNL Windows 10] で生成されるデバイス識別子です。 | [!DNL MAID] は英数字の形式です。 |
-| [!DNL TIFA] | 963906 | [!DNL Samsung Tizen IDs for Advertising] は、[!DNL Samsung] スマートテレビが提供するデバイス識別子です。 | [!DNL Samsung][!DNL TIFA] は英数字の形式です。 |
+| [!DNL TIFA] | 963906 | [!DNL Samsung Tizen IDs for Advertising] は、[!DNL Samsung] スマートテレビが提供するデバイス識別子です。 | [!DNL Samsung] [!DNL TIFA] ID は英数字の形式です。 |
 | [!DNL Amazon Fire TV Advertising ID] | 488258 | [!DNL Fire OS] オペレーティングシステムを実行しているデバイスを表すデバイス識別子。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`df07c7dc-cea7-4a89-b328-810ff5acb15d` |
