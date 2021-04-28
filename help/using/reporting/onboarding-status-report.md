@@ -5,13 +5,13 @@ seo-title: オンボーディングステータスレポート
 solution: Audience Manager
 title: オンボーディングステータスレポート
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-feature: Inbound and Outbound Reports
+feature: インバウンドレポートとアウトバウンドレポート
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1502'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
 
 ![](assets/stacked-graph.png)
 
-## エラーレポートの表  {#error-report-tables}
+## エラーレポートの表 {#error-report-tables}
 
 エラーレポートでは、棒グラフの下に表形式のデータが表示されます。この表は、成功率と失敗率に加えて、合計と割合が表示されます。
 
