@@ -6,11 +6,11 @@ seo-title: アドレス可能なオーディエンス
 solution: Audience Manager
 title: アドレス可能なオーディエンス
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
-feature: Match Rates
+feature: マッチ率
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1827'
 ht-degree: 100%
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 | [!UICONTROL Customer Total Audience] | ルックバック期間に、御社のシステムにおける[!UICONTROL rule-based trait]、またはオフラインファイルからの[!UICONTROL onboarded trait]に適合したデバイスの数。 |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] は、割合で表されます。 |
 
-### セグメントレベルのマッチ率の指標  {#segment-level-metrics}
+### セグメントレベルのマッチ率の指標 {#segment-level-metrics}
 
 これらの指標は[!UICONTROL segment]のメンバーシップについてのデータを返します。これらは各[!UICONTROL segments]について、オーディエンスサイズに関するより詳細で正確な情報を提供します。
 
