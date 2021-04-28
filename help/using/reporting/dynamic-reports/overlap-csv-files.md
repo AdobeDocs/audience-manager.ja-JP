@@ -7,9 +7,9 @@ title: 重複レポートの CSV ファイル
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## セグメント間レポートのレコード  {#segment-segment-records}
+## セグメント間レポートのレコード {#segment-segment-records}
 
 [セグメント間重複レポート](segment-segment-overlap-report.md)のデータファイルには、次のレコードが含まれています。
 
@@ -142,7 +142,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## セグメント - 特性間レポートのレコード  {#segment-trait-records}
+## セグメント - 特性間レポートのレコード {#segment-trait-records}
 
 [セグメント - 特性間重複レポート](segment-trait-overlap-report.md)のデータファイルには、次のレコードがあります。
 
@@ -209,7 +209,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 特性間レポートのレコード  {#trait-trait-records}
+## 特性間レポートのレコード {#trait-trait-records}
 
 [特性間重複レポート](trait-trait-overlap-report.md)には、次のレコードがあります。
 
