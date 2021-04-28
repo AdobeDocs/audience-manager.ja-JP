@@ -5,11 +5,11 @@ seo-title: Amazon S3：概要
 solution: Audience Manager
 title: Amazon S3：概要
 uuid: 8197ecdf-df8f-488d-bbc0-d8d4205b42b4
-feature: Reference
+feature: リファレンス
 exl-id: 12c4f00d-2916-4224-b834-d3a9ea86314a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Amazon S3 には次のようなメリットがあります。
    * アップロードおよびダウンロードでは、HTTPS プロトコルがサポートされます。[!DNL Audience Manager] へのファイル転送では必ず HTTPS を使用する必要があります。
    * Amazon S3 では、[送信データファイル](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)の保存時暗号化を使用できます。アドビは暗号化方式として、Amazon S3 によって暗号キーが自動生成および管理される [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) を採用しています。
 
-* **デバッグおよびバックアップのサポート：**[!DNL Audience Manager]Amazon S3 を使用した場合、 はファイルの正確なコピーを保持できるので、デバッグまたは再転送が容易になります。
+* **デバッグおよびバックアップのサポート：** Amazon S3 を使用した場合、 [!DNL Audience Manager] はファイルの正確なコピーを保持できるので、デバッグまたは再転送が容易になります。
 
 Amazon S3 の詳細については、以下のリソースを参照してください。
 
