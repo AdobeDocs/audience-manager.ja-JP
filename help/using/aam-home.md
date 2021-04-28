@@ -5,11 +5,11 @@ seo-title: Adobe Audience Manager 製品技術ドキュメント
 solution: Audience Manager
 title: Audience Manager ガイド
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: Overview
+feature: 概要
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ ht-degree: 100%
       </div>
       <p>
       <p>
-         <em><ul><li><a href="/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md">バッチおよびリアルタイムでのデータ書き出し</a></li><li><a href="/help/using/features/destinations/destinations.md">宛先の概要</a></li><li><a href="/help/using/features/destinations/device-based-destinations-list.md">Device-based destinations リスト</a></li><li><a href="/help/using/features/destinations/people-based-destinations-overview.md">People-based destinations</a></li></ul></em> 
+         <em><ul><li><a href="/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md">バッチおよびリアルタイムでのデータ書き出し</a></li><li><a href="/help/using/features/destinations/destinations.md">宛先の概要</a></li><li><a href="/help/using/features/destinations/device-based-destinations-list.md">Device-based destinations リスト</a></li><li><a href="/help/using/features/destinations/people-based-destinations-overview.md">People-based Destinations</a></li></ul></em> 
       <p>
       <p>
    </td>
