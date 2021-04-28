@@ -5,13 +5,13 @@ seo-title: Google サイト運営者タグ用の Audience Manager コード
 solution: Audience Manager
 title: Google サイト運営者タグ用の Audience Manager コード
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
-feature: Third-party Integration
+feature: サードパーティ統合
 exl-id: 04e74399-7b6a-400e-a1e6-94fe296e7209
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
