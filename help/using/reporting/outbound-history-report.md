@@ -5,13 +5,13 @@ seo-title: 送信ファイル履歴
 solution: Audience Manager
 title: 送信ファイル履歴
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-feature: Inbound and Outbound Reports
+feature: インバウンドレポートとアウトバウンドレポート
 exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
