@@ -4,11 +4,11 @@ seo-description: ここでは、Audience Manager カスタマーケアに報告�
 seo-title: サポートの問題の概要
 solution: Audience Manager
 title: サポートの問題の概要
-feature: Support
+feature: サポート
 exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
 
