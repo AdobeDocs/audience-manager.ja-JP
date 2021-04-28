@@ -7,9 +7,9 @@ title: テストグループの情報
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 feature: Audience Lab
 exl-id: fb691c12-304d-4331-a395-a9005efa8bb0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 **[!UICONTROL Test Segments]** のユーザーは、テストグループに使用したベースラインセグメントからランダムに取り込まれます。概要では、各テストセグメントに割り当てたユーザーの割合が示されます。
 
-テストグループのレポートは、**[!UICONTROL Conversion Traits]**&#x200B;に基づいておこなわれます。[!UICONTROL Trait Builder]で特性の作成または編集をおこなう際に、ある特性をコンバージョンとして指定するには、**[](../../features/traits/create-onboarded-rule-based-traits.md)イベントタイプ**&#x200B;で&#x200B;**コンバージョン**&#x200B;を選択します。
+テストグループのレポートは、**[!UICONTROL Conversion Traits]**&#x200B;に基づいておこなわれます。[!UICONTROL Trait Builder]で特性の作成または編集をおこなう際に、ある特性をコンバージョンとして指定するには、**[イベントタイプ](../../features/traits/create-onboarded-rule-based-traits.md)で**&#x200B;コンバージョン&#x200B;**を選択します。**
 
 **[!UICONTROL Destinations]**&#x200B;カードは折りたたみ可能です。個々の宛先を開くまたは閉じるには矢印を押します。マッピング先の宛先ごとに、テストセグメントに関する次の情報を取得できます。
 
