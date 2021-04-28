@@ -5,13 +5,13 @@ seo-title: ピクセル呼び出しを使用したキャンペーンのクリッ
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-feature: Adobe Campaign Integration
+feature: Adobe Campaign との統合
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
