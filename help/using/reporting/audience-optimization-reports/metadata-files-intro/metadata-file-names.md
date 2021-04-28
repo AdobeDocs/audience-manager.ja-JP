@@ -5,11 +5,11 @@ seo-title: メタデータファイルの命名規則
 solution: Audience Manager
 title: メタデータファイルの命名規則
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-feature: Log Files
+feature: ログファイル
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 次の構文は、適正なメタデータファイル名の構造を示しています。なお、*斜体*&#x200B;の部分には実際の情報が入ります。その他の要素は定数で、変動しません。
 
-**構文：**  *`yyyymmdd_0_childID`*
+**構文：** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
