@@ -5,13 +5,13 @@ seo-title: プロファイル結合ルールの一般的なユースケース
 solution: Audience Manager
 title: プロファイル結合ルールの一般的なユースケース
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
-feature: Profile Merge
+feature: プロファイル結合
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '999'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 
 **[!UICONTROL No Cross-Device Profile]** ルールと **[!UICONTROL Device Profile]** ルールを使用することで、[!DNL Device 1] と [!DNL Device 3] の両方が対象となりますが、デバイス 2 は無視されます。
 
-![デバイスのみ](assets/device-management.png)
+![device-only](assets/device-management.png)
 
 ## 共有デバイスのターゲティング {#target-shared-devices}
 
