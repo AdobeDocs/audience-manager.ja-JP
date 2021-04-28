@@ -5,11 +5,11 @@ seo-title: 用語集
 solution: Audience Manager
 title: 用語集
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: Reference
+feature: リファレンス
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 フォルダー分類における、特性の自動的なグループ化。階層内の各フォルダーで、セグメントを定義できる特性が自動的に作成されます。
 
- [フォルダー特性について](../features/traits/about-folder-traits.md)を参照してください。
+詳しくは、[フォルダー特性について](../features/traits/about-folder-traits.md)を参照してください。
 
 
 
