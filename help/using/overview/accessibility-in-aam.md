@@ -4,11 +4,11 @@ seo-description: アクセシビリティとは、視覚、聴覚、認知、運
 seo-title: Audience Manager のアクセシビリティ
 solution: Audience Manager
 title: Audience Manager のアクセシビリティ
-feature: Overview
+feature: 概要
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
 ht-degree: 100%
 
