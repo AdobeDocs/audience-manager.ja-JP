@@ -1,23 +1,23 @@
 ---
-description: このページでは、入手可能になったときにパートナーから直接提供される情報の概要と、Audience Manager の運用に関連する影響について説明します。パートナー側でこれらの更新をおこなう場合の主な影響は、2018 年 5 月 25 日に施行された GDPR（EU 一般データ保護規則）と、新しい IAB GDPR Transparency & Consent Framework（透明性と同意に関するフレームワーク、以下「IAB フレームワーク」）の結果です。
-seo-description: このページでは、入手可能になったときにパートナーから直接提供される情報の概要と、Audience Manager の運用に関連する影響について説明します。パートナー側でこれらの更新をおこなう場合の主な影響は、2018 年 5 月 25 日に施行された GDPR（EU 一般データ保護規則）と、新しい IAB GDPR Transparency & Consent Framework（透明性と同意に関するフレームワーク、以下「IAB フレームワーク」）の結果です。
+description: このページでは、入手可能になったときにパートナーから直接提供される情報の概要と、Audience Manager の運用に関連する影響について説明します。パートナー側でこれらの更新をおこなう場合の主な影響は、2018 年 5 月 25 日（PT）に施行された GDPR（EU 一般データ保護規則）と、新しい IAB GDPR Transparency & Consent Framework（透明性と同意に関するフレームワーク、以下「IAB フレームワーク」）の結果です。
+seo-description: このページでは、入手可能になったときにパートナーから直接提供される情報の概要と、Audience Manager の運用に関連する影響について説明します。パートナー側でこれらの更新をおこなう場合の主な影響は、2018 年 5 月 25 日（PT）に施行された GDPR（EU 一般データ保護規則）と、新しい IAB GDPR Transparency & Consent Framework（透明性と同意に関するフレームワーク、以下「IAB フレームワーク」）の結果です。
 seo-title: 宛先の GDPR に関する考慮事項
 solution: Audience Manager
 title: 宛先の GDPR に関する考慮事項
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-feature: Data Governance & Privacy
+feature: データガバナンスとプライバシー
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 宛先の GDPR に関する考慮事項 {#gdpr-considerations-for-destinations}
 
-このページでは、入手可能になったときにパートナーから直接提供される情報の概要と、Audience Manager の運用に関連する影響について説明します。パートナー側でこれらの更新をおこなう場合の主な影響は、2018 年 5 月 25 日に施行された GDPR（EU 一般データ保護規則）と、新しい IAB GDPR Transparency &amp; Consent Framework（透明性と同意に関するフレームワーク、以下「IAB フレームワーク」）の結果です。
+このページでは、入手可能になったときにパートナーから直接提供される情報の概要と、Audience Manager の運用に関連する影響について説明します。パートナー側でこれらの更新をおこなう場合の主な影響は、2018 年 5 月 25 日（PT）に施行された GDPR（EU 一般データ保護規則）と、新しい IAB GDPR Transparency &amp; Consent Framework（透明性と同意に関するフレームワーク、以下「IAB フレームワーク」）の結果です。
 
 アドビパートナーには独自のビジネスプロセスがあり、時には Audience Manager との統合要件の更新を決定することもあります。アドビでは、Audience Manager パートナーエコシステムと積極的に協力して、お客様に変更を絶えずお知らせしています。
 
