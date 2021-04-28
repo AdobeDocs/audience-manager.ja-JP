@@ -6,11 +6,11 @@ solution: Audience Manager
 title: 共有可能なオーディエンス
 feature: People-based Destinations
 exl-id: 2860c105-1091-4779-bf40-e66faa941af0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
