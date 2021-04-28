@@ -5,13 +5,13 @@ seo-title: 定義済みのプロファイルの結合ルールオプション
 solution: Audience Manager
 title: 定義済みのプロファイルの結合ルールオプション
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-feature: Profile Merge
+feature: プロファイル結合
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1031'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
