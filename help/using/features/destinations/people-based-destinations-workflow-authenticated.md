@@ -6,11 +6,11 @@ solution: Audience Manager
 title: ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 feature: People-based Destinations
 exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
