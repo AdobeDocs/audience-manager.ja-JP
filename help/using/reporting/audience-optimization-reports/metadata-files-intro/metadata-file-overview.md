@@ -5,11 +5,11 @@ seo-title: メタデータファイルの概要とマッピング
 solution: Audience Manager
 title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-feature: Log Files
+feature: ログファイル
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
 ht-degree: 100%
 
