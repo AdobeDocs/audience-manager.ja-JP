@@ -5,11 +5,11 @@ seo-title: DPID と DPUUID に代わる CID
 solution: Audience Manager
 title: DPID と DPUUID に代わる CID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
-feature: Reference
+feature: リファレンス
 exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ DPID と DPUUID は、データプロバイダー ID とユーザー ID で構�
 
 これらのキー値ペアはまだ機能しますが、廃止されています。代わりに CID または CID_IC を使用するようにコードを更新してください。
 
-## CID と CID_IC：概要  {#cid-cidic-about}
+## CID と CID_IC：概要 {#cid-cidic-about}
 
 CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるものです。これらは DPID や DPUUID と同じ機能を提供しますが、データプロバイダー ID（または統合コード）とユーザー ID が 1 つのキー値ペアに含まれているので、より効率的です。それぞれのキー値ペアでは、以下がおこなわれます。
 
