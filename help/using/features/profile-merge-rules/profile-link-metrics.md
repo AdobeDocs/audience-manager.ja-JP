@@ -5,13 +5,13 @@ seo-title: プロファイル結合ルールのレポート指標
 solution: Audience Manager
 title: プロファイル結合ルールのレポート指標
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
-feature: Profile Merge
+feature: プロファイル結合
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## デバイスグラフの指標  {#device-graph-metrics}
+## デバイスグラフの指標 {#device-graph-metrics}
 
 [!UICONTROL Merge Rules]レポートには、選択したデータソースとデバイスグラフについて、サイトを訪問したユーザーとデバイスの総数に関するデータも記載されます。これらの指標では、事前設定された期間（ルックバック期間）に基づいてデータが返されます。この期間は、ルールの作成時に選択したデバイスオプションによって異なります。次の表は、デバイスグラフオプションごとのレポート間隔の一覧です。
 
@@ -102,7 +102,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## サンプルのレポート  {#sample-reports}
+## サンプルのレポート {#sample-reports}
 
 ### 標準プロファイルリンクレポート
 
