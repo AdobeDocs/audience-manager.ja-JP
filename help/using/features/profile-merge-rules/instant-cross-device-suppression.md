@@ -2,15 +2,15 @@
 description: Instant Cross-Device Suppression は、接続した複数のデバイスのいずれかで特定のエクスペリエンスが発生した場合に、複数のデバイスに接続したユーザーを抑制する機能です。Instant Cross-Device Suppression 機能を使用すると、ユーザーに複数のデバイスで一貫したエクスペリエンスを提供できます。このエクスペリエンスは、Audience Manager でのリアルタイムのセグメント化解除機能によって使用できるようになります。
 seo-description: Instant Cross-Device Suppression は、接続した複数のデバイスのいずれかで特定のエクスペリエンスが発生した場合に、複数のデバイスに接続したユーザーを抑制する機能です。Instant Cross-Device Suppression 機能を使用すると、ユーザーに複数のデバイスで一貫したエクスペリエンスを提供できます。このエクスペリエンスは、Audience Manager でのリアルタイムのセグメント化解除機能によって使用できるようになります。
 seo-title: Instant Cross-Device Suppression
-title: 瞬時クロスデバイス抑制
+title: Instant Cross-Device Suppression
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-feature: Profile Merge
+feature: プロファイル結合
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 リアルタイムのセグメント化解除の技術的な詳細については、[プロファイル結合ルールとデバイスセグメント化解除プロセス](merge-rule-unsegment.md)で説明しています。上記ユースケースの実用的な実装についても説明しています。
 
-## コンバージョン後はターゲティングしない  {#do-not-target-once}
+## コンバージョン後はターゲティングしない {#do-not-target-once}
 
 コンバージョンに達した（製品を購入した、サブスクリプションを取得したなど）ユーザーには、コンバージョン前と同じメッセージは表示されしません。次のように、[!UICONTROL AND NOT] ロジックを使用してこれを実現できます。
 
@@ -38,7 +38,7 @@ ht-degree: 99%
 
 ![](assets/and_not_use_case.png)
 
-## インプレッション発生後はターゲティングしない  {#do-not-target-after-x}
+## インプレッション発生後はターゲティングしない {#do-not-target-after-x}
 
 最新性と頻度のコントロールを設定することで、ユーザーに同じクリエイティブが大量に表示されるのを避けることができます。このシナリオでは、2 つの特性を使用するセグメントを作成します。その概要を次の手順で説明します。
 
@@ -53,7 +53,7 @@ ht-degree: 99%
 
 ![](assets/impressions_use_case.png)
 
-## 留意すべき重要な側面 - 処理  {#processing-notes}
+## 留意すべき重要な側面 - 処理 {#processing-notes}
 
 処理に関しては、次の側面に留意してください。
 
