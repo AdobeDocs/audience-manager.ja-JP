@@ -5,13 +5,13 @@ seo-title: Audience Manager と Adobe Experience Platform の間でのオーデ�
 solution: Audience Manager
 title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
 keywords: AEP オーディエンス共有、AEP セグメント、プラットフォームセグメント, セグメント共有, オーディエンス共有、セグメントの共有
-feature: Platform Integration
+feature: プラットフォーム統合
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 99%
+source-wordcount: '1465'
+ht-degree: 96%
 
 ---
 
@@ -109,7 +109,7 @@ Experience Platform セグメントから自動的に作成されたセグメン
 
 | 項目番号 | 名前 | 説明 |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
+| 3 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
@@ -164,17 +164,13 @@ Audience Manager の[[!UICONTROL Profile Merge Rules]](/help/using/features/prof
 
 Adobe Experience Platform と Audience Manager の統合では、すべての顧客に対して多くの標準 [ID 名前空間](https://docs.adobe.com/content/help/ja-JP/experience-platform/identity/namespaces.html#identity-types)を共有します。これには、ECID、IDFA、GAID、ハッシュ化された電子メールアドレス（EMAIL_LC_SHA256）、AdCloud ID などが含まれます。Experience Platform セグメントで、認定されたプロファイルのプライマリ ID としてこれらのいずれかを使用している場合、プロファイルは Audience Manager の特性およびセグメントにカウントされます。
 
-また、Audience Manager は、次の場合に、Experience Platform セグメントで使用するカスタム ID 名前空間の受信適合を登録できます。
-* ID がプライマリとしてマークされ、*さらに*、
-* 対応するクロスデバイスデータソースが既に Audience Manager 内に存在している。
-
 >[!NOTE]
 >
 > ID が生の電子メールをキーに設定している Experience Platform のオーディエンスは、Audience Manager には表示されません。
 
-例えば、「すべての顧客」という Experience Platform セグメントがあり、認定プロファイルが CRM ID、ECID、IDFA、生の電子メールアドレスおよびハッシュ化された電子メールアドレスの場合、Audience Manager 内の対応するセグメントには、CRM ID、ECID、IDFA およびハッシュ化された電子メールアドレスのプロファイルのみが含まれます。Audience Manager のセグメントの母集団は、Experience Platform のセグメントの母集団よりも小さくなります。
+例えば、「All my customers」というExperience Platformセグメントがあり、修飾プロファイルがCRM ID、ECID、IDFA、生の電子メールアドレスおよびハッシュされた電子メールアドレスの場合、Audience Manager内の対応するセグメントには、ECID、IDFA、ハッシュされた電子メールアドレスのプロファイルのみが含まれます。 Audience Manager のセグメントの母集団は、Experience Platform のセグメントの母集団よりも小さくなります。
 
-![Experience Platform から Audience Manager へのセグメント共有 — セグメントの構成](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Experience Platform から Audience Manager へのセグメント共有 — セグメントの構成](assets/AEP-to-AAM-profiles.png)
 
 <!--
 
