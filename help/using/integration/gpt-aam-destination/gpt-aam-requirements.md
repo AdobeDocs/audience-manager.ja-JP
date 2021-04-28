@@ -5,13 +5,13 @@ seo-title: Google サイト運営者タグ（GPT）を使用して Google Ad Man
 solution: Audience Manager
 title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
-feature: Third-party Integration
+feature: サードパーティ統合
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 * **を追加[!UICONTROL DIL]：**&#x200B;ターゲットに設定するすべてのページに [!UICONTROL Data Integration Library (DIL)] コードをデプロイします。[!UICONTROL DIL] は Audience Manager のセグメントデータとユーザー ID を、[!DNL GPT] がターゲティングに使用する Cookie に書き込みます。
 
-* **の作成[!UICONTROL Cookie Destination]：**[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
+* **[!UICONTROL Cookie Destination]の作成：**[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
 
 * **Cookie チェックコードの実装**：[!DNL GPT] の `.setTargeting` API メソッドを、推奨される [Cookie チェックコード](../../integration/gpt-aam-destination/gpt-aam-modify-api.md)でラップします。このコードにより、`.setTargeting`.メソッドを呼び出す前に有効な AAM Cookie が検索されるので、エラーが回避されます。
 
