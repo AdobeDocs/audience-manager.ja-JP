@@ -6,13 +6,13 @@ seo-title: 宛先
 solution: Audience Manager
 title: リンク先
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-feature: Destination Basics
+feature: ターゲットの基本
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 translation-type: tm+mt
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '541'
+ht-degree: 99%
 
 ---
 
