@@ -3,13 +3,13 @@ description: Audience Optimization for Publishers を使用すれば、自社が
 seo-description: Audience Optimization for Publishers を使用すれば、自社が所有および運用しているコンテンツにおける、どの程度 Audience Manager のセグメントのパフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の指標を組み合わせることで、オーディエンスの最適化と収益化の機会を導き出します。
 seo-title: Audience Optimization for Publishers
 solution: Audience Manager
-title: 発行者のAudience Optimization
+title: Audience Optimization for Publishers
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
-feature: Audience Optimization Reports
+feature: Audience Optimization レポート
 exl-id: 5972ea89-3e4d-48a5-bdd2-0a34211d8bfd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
 ht-degree: 100%
 
