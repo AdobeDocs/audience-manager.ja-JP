@@ -5,13 +5,13 @@ seo-title: Audience Manager 識別子（ID）
 solution: Audience Manager
 keywords: GDPR UI、GDPR API、CCPA、プライバシー、AAM ID
 title: Audience Manager 識別子（ID）
-feature: Data Governance & Privacy
+feature: データガバナンスとプライバシー
 exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Adobe Audience Manager に対して[データプライバシーリクエスト](
 ## Adobe Experience Cloud ID
 
 * **ユーザー ID**：`mid`
-* **定義**：[!DNL Adobe Experience Cloud ID]、旧称：[!DNL Visitor ID][!DNL Marketing Cloud ID]
+* **定義**：[!DNL Adobe Experience Cloud ID]（旧称：[!DNL Visitor ID] または [!DNL Marketing Cloud ID]）
 * **名前空間 ID**：4
 
 >[!NOTE]
