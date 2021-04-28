@@ -3,13 +3,13 @@ description: Analytics メニュー内のオプションを使用すると、ダ
 seo-description: Analytics メニューのオプションを使用して、Adobe Audience Manager（AAM）のダッシュボードとさまざまなレポートを表示します。
 seo-title: Adobe Audience Manager（AAM）のレポートの概要
 title: レポートの概要
-feature: Reporting Reference
+feature: レポートリファレンス
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
