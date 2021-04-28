@@ -5,11 +5,11 @@ seo-title: データ処理のコンポーネント
 solution: Audience Manager
 title: データ処理のコンポーネント
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
-feature: System Components
+feature: 'システムコンポーネント '
 exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ c_comproc.xml
 
 Audience Manager は、データ処理に以下のコンポーネントを使用します。
 
-## Hadoop  {#hadoop}
+## Hadoop {#hadoop}
 
 [!DNL Audience Manager] において、Hadoop は [!DNL Audience Manager] がユーザーに関して把握しているすべての情報が格納されるメインデータベースとなります。例えば、[プロファイルキャッシュサーバー](../../reference/system-components/components-data-collection.md)がユーザーに関するデータが書き込まれたログファイルを作成した場合、そのデータは Hadoop に送信され、そこに保存されます。これ以外の重要な Hadoop の構成要素として、次のようなものがあります。
 
@@ -37,7 +37,7 @@ Audience Manager は、データ処理に以下のコンポーネントを使用
 
 お客様はこれらのシステムに直接アクセスすることはありませんが、これらのコンポーネントはサイト訪問者に関する重要なデータを保存しているので、お客様はこれらのシステムに間接的に関与しています。
 
-## Snowflake  {#snowflake}
+## Snowflake {#snowflake}
 
 [Snowflake](https://www.snowflake.net/) は巨大なクラウドデータベースです。多くのダッシュボードグラフと、それに関連するグラフ内の各項目の変更率を表示するテキストボックスにデータを提供します。[!DNL Audience Manager] でダッシュボードレポートを参照する場合、[!UICONTROL Snowflake] によって提供されたデータを操作していることになります。
 
