@@ -7,9 +7,9 @@ title: 一括管理ツールの用語集
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: BAAAM
 exl-id: 036d16c7-1546-4539-a318-455b98e10026
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
 ht-degree: 100%
 
