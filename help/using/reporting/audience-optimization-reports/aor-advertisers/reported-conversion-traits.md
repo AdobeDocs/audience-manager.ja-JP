@@ -5,11 +5,11 @@ seo-title: 報告されたコンバージョン特性
 solution: Audience Manager
 title: 報告されたコンバージョン特性
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
-feature: Audience Optimization Reports
+feature: Audience Optimization レポート
 exl-id: 22335e8d-35cf-4014-803a-efdd35552ef2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
 ht-degree: 100%
 
