@@ -5,13 +5,13 @@ seo-title: AAM での重複レポートと一般レポートでのユニーク�
 solution: Audience Manager
 title: 重複レポートと一般レポートでのユニークユーザーのカウント
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
-feature: Reporting Reference
+feature: レポートリファレンス
 exl-id: 439e7e8e-0c2e-4d3e-8148-61b9d57bf4df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
