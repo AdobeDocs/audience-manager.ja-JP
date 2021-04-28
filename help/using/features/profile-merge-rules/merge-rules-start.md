@@ -5,13 +5,13 @@ seo-title: プロファイル結合ルールの導入
 solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-feature: Profile Merge
+feature: プロファイル結合
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1306'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 99%
 
 ### クロスデバイス ID をユーザーキーとして使用する Adobe Campaign の宛先に関する考慮事項 {#considerations}
 
-2019 年後半に、クロスデバイス ID を使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。これらの機能強化は、2020 年 3 月 17 日（火）より、Audience Manager インスタンスで厳密に適用されます。そのため、クロスプロファイル ID を使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
+2019 年後半に、クロスデバイス ID を使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。これらの機能強化は、2020 年 3 月 16 日（PT）（火）より、Audience Manager インスタンスで厳密に適用されます。そのため、クロスプロファイル ID を使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
 
 クロスデバイス ID（Adobe Campaign など）を使用して、Audience Manager インスタンスと宛先を正しく統合するには、次の要件を満たす必要があります。
 
