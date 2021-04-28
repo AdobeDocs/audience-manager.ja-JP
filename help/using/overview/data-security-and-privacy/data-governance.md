@@ -3,15 +3,15 @@ description: このドキュメントでは、Audience Manager での顧客デ�
 seo-description: このドキュメントでは、Audience Manager での顧客データの管理方法を説明します。
 seo-title: データガバナンス
 solution: Audience Manager
-keywords: GDPR UI、GDPR API、CCPA、プライバシー、同意、不明化、ガバナンス
+keywords: GDPR UI、GDPR API、CCPA、プライバシー、同意、難読化、ガバナンス
 title: データガバナンス
-feature: Data Governance & Privacy
+feature: データガバナンス & プライバシー
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Audience Managerでのどのよ [!DNL IP] アドレスの難読かについて�
 
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
-**地理的分類：**[!DNL IP] アドレスの難読化を有効にした場合、その アドレスの残りのオクテットは引き続き、Audience Manager の地域特性およびレポートに使用できます。[!DNL IP][!DNL IP]アドレスの難読化を有効にしない場合、Audience Manager は完全な [!DNL IP] アドレスを使用します。どちらの場合でも、[!DNL IP] の場所を地理的地域によって特定できる地理的セグメンテーション機能を使用できますが、[!DNL IP] の難読化を使用している場合は、精度が少し落ちます。[!DNL IP] アドレスの不明化をおこなうと、市レベルの情報の取得が著しく困難になる場合があります。地域レベルおよび国レベルの情報の取得に関しては、それほど大きな影響はありません。地理的セグメンテーションデータの精度は市区町村レベルまたは郵便番号レベルにとどまり、個人レベルにまでは及びません。[地域に基づくターゲティング](../../features/traits/trait-geotarget-keys.md)と、地理的変数を使用した特性の設定方法についてお読みください。
+**地理的分類：**[!DNL IP] アドレスの難読化を有効にした場合、その [!DNL IP] アドレスの残りのオクテットは引き続き、Audience Manager の地域特性およびレポートに使用できます。[!DNL IP]アドレスの難読化を有効にしない場合、Audience Manager は完全な [!DNL IP] アドレスを使用します。どちらの場合でも、[!DNL IP] の場所を地理的地域によって特定できる地理的セグメンテーション機能を使用できますが、[!DNL IP] の難読化を使用している場合は、精度が少し落ちます。[!DNL IP] アドレスの不明化をおこなうと、市レベルの情報の取得が著しく困難になる場合があります。地域レベルおよび国レベルの情報の取得に関しては、それほど大きな影響はありません。地理的セグメンテーションデータの精度は市区町村レベルまたは郵便番号レベルにとどまり、個人レベルにまでは及びません。[地域に基づくターゲティング](../../features/traits/trait-geotarget-keys.md)と、地理的変数を使用した特性の設定方法についてお読みください。
 
 ## Audience Manager におけるデータ保持 {#data-retention}
 
