@@ -7,9 +7,9 @@ title: レポート技術
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
 ht-degree: 100%
 
