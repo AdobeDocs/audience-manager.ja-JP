@@ -5,13 +5,13 @@ seo-title: GDPR の用語集
 solution: Audience Manager
 title: GDPR の用語集
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
-feature: Data Governance & Privacy
+feature: データガバナンスとプライバシー
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 この記事では、欧州一般データ保護規則（GDPR）で使用される概念と用語、および Adobe Audience Manager をデータ処理者として使用する場合に GDPR の様々な要件に対処する方法について説明します。
 
-GDPR は 2018 年 5 月 25 日に施行された法律で、その第一の目的は、EU 内の個人（データ主体）が個人データをコントロールする権利を取り戻すこと、および EU 域内の規則を統合することで、国際的なビジネスのための規制環境を簡潔にすることです。GDPR への対応の一環として Adobe Audience Manager では、消費者であるデータ主体からのアクセス要求や削除要求をサポートするために、必要なサービスおよびプロセスの機能拡張をおこないました。
+GDPR は 2018 年 5 月 25 日（PT）に施行された法律で、その第一の目的は、EU 内の個人（データ主体）が個人データをコントロールする権利を取り戻すこと、および EU 域内の規則を統合することで、国際的なビジネスのための規制環境を簡潔にすることです。GDPR への対応の一環として Adobe Audience Manager では、消費者であるデータ主体からのアクセス要求や削除要求をサポートするために、必要なサービスおよびプロセスの機能拡張をおこないました。
 
 GDPR が Experience Cloud でどのように機能するかをよりよく理解するためには、[Experience Cloud の GDPR に関するFAQ](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) を参照してください。
 
