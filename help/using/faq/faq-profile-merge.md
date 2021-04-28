@@ -6,13 +6,13 @@ seo-title: プロファイル結合ルールおよびデバイスグラフに関
 solution: Audience Manager
 title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Profile Merge
+feature: プロファイル結合
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -260,9 +260,9 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 いいえ。
 
-**2020 年 3 月 17 日以降、Adobe Campaign へのセグメントエクスポートで、セグメント母集団がゼロと表示されるのはなぜですか。**
+**2020 年 3 月 16 日（PT）以降、Adobe Campaign へのセグメントエクスポートで、セグメント母集団がゼロと表示されるのはなぜですか。**
 
-2019 年後半に、クロスデバイス ID を使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。これらの機能強化は、2020 年 3 月 17 日（火）より、Audience Manager インスタンスで厳密に適用されます。そのため、クロスプロファイル ID を使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
+2019 年後半に、クロスデバイス ID を使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。これらの機能強化は、2020 年 3 月 16 日（PT）（火）より、Audience Manager インスタンスで厳密に適用されます。そのため、クロスプロファイル ID を使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
 
 クロスデバイス ID（Adobe Campaign など）を使用して、Audience Manager インスタンスと宛先を正しく統合するには、次の要件を満たす必要があります。
 
