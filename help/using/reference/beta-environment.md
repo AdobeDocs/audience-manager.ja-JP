@@ -6,11 +6,11 @@ seo-title: ベータ環境
 solution: Audience Manager
 title: ベータ環境
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
-feature: Reference
+feature: リファレンス
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
 ht-degree: 100%
 
