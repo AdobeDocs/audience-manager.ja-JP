@@ -5,11 +5,11 @@ seo-title: セグメントパフォーマンスレポート
 solution: Audience Manager
 title: セグメントパフォーマンスレポート発行者向け
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
-feature: Audience Optimization Reports
+feature: Audience Optimization レポート
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 * スケールやパフォーマンスを促進しているマッピングされたオーディエンスセグメントを特定する。
 * 過去のパフォーマンスに対するオーディエンスの貢献度に基づいて、今後のキャンペーンで導入するマッピングされていないセグメントを特定する。
 
-## セグメントパフォーマンスレポートの使用  {#using-segment-performance-report}
+## セグメントパフォーマンスレポートの使用 {#using-segment-performance-report}
 
 「**[!UICONTROL Mapped]**」と「**[!UICONTROL Unmapped]**」を切り替えて、宛先にマッピングされているセグメントとマッピングされていないセグメントのどちらかを選択します。「**[!UICONTROL All]**」を選択すると、すべてのセグメントがレポートに含まれます。
 
