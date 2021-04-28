@@ -3,13 +3,13 @@ description: Audience Optimization for Advertisers では、自社の有料メ�
 seo-description: Audience Optimization for Advertisers では、自社の有料メディアキャンペーン全体で Audience Manager セグメントによってどの程度パフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager のセグメント指標を組み合わせることで、セグメントを中心とした最適化および効果的なチャネルミックスを導き出します。
 seo-title: Audience Optimization for Advertisers
 solution: Audience Manager
-title: 広告主のAudience Optimization
+title: Audience Optimization for Advertisers
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
-feature: Audience Optimization Reports
+feature: Audience Optimization レポート
 exl-id: 13595778-3d3a-4c83-a84f-4bc3af1ee367
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
 ht-degree: 100%
 
