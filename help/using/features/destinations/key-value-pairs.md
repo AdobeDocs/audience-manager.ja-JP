@@ -1,14 +1,14 @@
 ---
-description: ' [!DNL key-value pair] は、関連する要素で構成されます。 データセット（性別、色、価格など）を定義する定数であるキーと、セットに属する変数である値（男性/女性、緑、100など）。 Destination Builder では、キー値ペアの形式でデータを送信します。'
+description: ' [!DNL key-value pair] は [!DNL related elements]で構成されます。 データセット（性別、色、価格など）を定義する定数であるキーと、セットに属する変数である値（男性/女性、緑、100など）。 Destination Builder では、キー値ペアの形式でデータを送信します。'
 solution: Audience Manager
 title: 標準およびシリアル [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: ターゲットの基本
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: fe6e2883e67e70b362d31e19b28df4b586de7b8a
+source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '547'
 ht-degree: 85%
 
 ---
