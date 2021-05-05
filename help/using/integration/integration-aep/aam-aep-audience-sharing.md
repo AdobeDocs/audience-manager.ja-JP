@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ Adobe Experience Platform と Audience Manager の統合では、すべての顧
 >
 > ID が生の電子メールをキーに設定している Experience Platform のオーディエンスは、Audience Manager には表示されません。
 
-例えば、「All my customers」というExperience Platformセグメントがあり、修飾プロファイルがCRM ID、ECID、IDFA、生の電子メールアドレスおよびハッシュされた電子メールアドレスの場合、Audience Manager内の対応するセグメントには、ECID、IDFA、ハッシュされた電子メールアドレスのプロファイルのみが含まれます。 Audience Manager のセグメントの母集団は、Experience Platform のセグメントの母集団よりも小さくなります。
+例えば、「すべての顧客」という Experience Platform セグメントがあり、認定プロファイルが CRM ID、ECID、IDFA、生の電子メールアドレスおよびハッシュ化された電子メールアドレスの場合、Audience Manager 内の対応するセグメントには、ECID、IDFA およびハッシュ化された電子メールアドレスのキーオフされたプロファイルのみが含まれます。 Audience Manager のセグメントの母集団は、Experience Platform のセグメントの母集団よりも小さくなります。
 
 ![Experience Platform から Audience Manager へのセグメント共有 — セグメントの構成](assets/AEP-to-AAM-profiles.png)
 
