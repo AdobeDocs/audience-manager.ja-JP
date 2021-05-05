@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 
 | リクエスト値 | 認証済みプロファイルから情報を読み取る | 認証済みプロファイルに新しい特性を書き込む |
 |---|---|---|
-| 0 | <ul><li>[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles]の場合は○</li><li>いいえ（[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles]または[!UICONTROL No Authenticated Profile]の場合）。</li></ul> | ×（特性データはデバイスプロファイルに追加される） |
+| 0 | <ul><li>はい（[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles]の場合）。</li><li>いいえ（[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles]または[!UICONTROL No Authenticated Profile]の場合）。</li></ul> | ×（特性データはデバイスプロファイルに追加される） |
 
 サンプルの呼び出し（認証ステータスに対応するリクエスト値はハイライト表示）：
 
@@ -36,7 +36,7 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 
 | リクエスト値 | 認証済みプロファイルから情報を読み取る | 認証済みプロファイルに新しい特性を書き込む |
 |---|---|---|
-| 1 | <ul><li>はい（[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles]または[!UICONTROL Last Authenticated Profiles]の場合）。</li><li>いいえ、[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile]の場合。</li></ul> | ○（特性データは認証済みプロファイルに追加される） |
+| 1 | <ul><li>はい（[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] または [!UICONTROL Last Authenticated Profiles] の場合）。</li><li>いいえ（[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile] の場合）。</li></ul> | ○（特性データは認証済みプロファイルに追加される） |
 
 サンプルの呼び出し（認証ステータスに対応するリクエスト値はハイライト表示）：
 
@@ -46,7 +46,7 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 
 | リクエスト値 | 認証済みプロファイルから情報を読み取る | 認証済みプロファイルに新しい特性を書き込む |
 |---|---|---|
-| 2 | <ul><li>[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles]の場合は○</li><li>いいえ（[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles]または[!UICONTROL No Authenticated Profile]の場合）。</li></ul> | ×（特性データはデバイスプロファイルに書き込まれる） |
+| 2 | <ul><li>はい（[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles] の場合）。</li><li>いいえ（[!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] または [!UICONTROL No Authenticated Profile] の場合）。</li></ul> | ×（特性データはデバイスプロファイルに書き込まれる） |
 
 サンプルの呼び出し（認証ステータスに対応するリクエスト値はハイライト表示）：
 
