@@ -3,13 +3,13 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
-user-guide-description: Audience Managerが、サイトの訪問者に関する商業的に関連のある情報を収集し、マーケティング可能なセグメントを作成し、ターゲットを絞った広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
+user-guide-description: Audience Manager を使用して、サイト訪問者に関する商業的に関連のある情報を収集し、市場性のあるセグメントを作成し、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
 feature-set: Audience Manager
 translation-type: tm+mt
 source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
 source-wordcount: '1806'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -403,7 +403,7 @@ ht-degree: 98%
    + [連絡先情報および法的事項](/help/using/help-legal/help-legal-contact.md)
 + カスタマーサポートに関するよくある問題 {#top-support-issues}
    + [概要](/help/using/support-issues/support-issues-overview.md)
-   + [10 月 15 日（PT）頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [重複レポートページに特性やセグメントが表示されないのはなぜですか？](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [読み取り専用ユーザーが特性およびセグメントを作成、編集または削除できるのはなぜですか？](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Audience Manager の顧客ではないのに、サイトに Audience Manager JavaScript 呼び出しが表示される](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
