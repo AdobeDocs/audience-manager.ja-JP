@@ -5,19 +5,19 @@ seo-title: Adobe Audience Manager のサーバー間の宛先
 keywords: アクティブ化、アクティベートパートナー、宛先、宛先
 solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
-feature: ターゲットの基本
+feature: 宛先の基本
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-このページには、現在の の[!DNL Audience Manager][デバイスベースの宛先](/help/using/features/destinations/add-device-based-destinations.md)のみが含まれます。[!DNL Audience Manager] では、[!UICONTROL device-based destinations] は [!UICONTROL server-to-server destinations] とも呼ばれます。統合の詳細については、[Adobe交換](https://exchange.adobe.com/experiencecloud.html)のリスト（利用可能な場合）を参照するか、[!DNL Adobe]コンサルタントまたはカスタマーケアにお問い合わせください。
+このページには、現在の の[!DNL Audience Manager][デバイスベースの宛先](/help/using/features/destinations/add-device-based-destinations.md)のみが含まれます。[!DNL Audience Manager] では、[!UICONTROL device-based destinations] は [!UICONTROL server-to-server destinations] とも呼ばれます。統合について詳しくは、[Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) のリスト（利用可能な場合）を参照するか、[!DNL Adobe] コンサルタントまたはカスタマーケアにお問い合わせください。
 
 
 * **前回の更新日** = この [!UICONTROL device-based destination] で最後に更新がおこなわれた日付が表示されます。
