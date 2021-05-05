@@ -1,21 +1,21 @@
 ---
-description: ' [!DNL key-value pair] は [!DNL related elements]で構成されます。 データセット（性別、色、価格など）を定義する定数であるキーと、セットに属する変数である値（男性/女性、緑、100など）。 Destination Builder では、キー値ペアの形式でデータを送信します。'
+description: ' [!DNL key-value pair] は [!DNL related elements]で構成されます。 キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。 Destination Builder では、キー値ペアの形式でデータを送信します。'
 solution: Audience Manager
-title: 標準およびシリアル [!DNL Key-value pairs]
+title: 標準およびシリアル  [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
-feature: ターゲットの基本
+feature: 宛先の基本
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
 source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 85%
+ht-degree: 99%
 
 ---
 
 # 標準型およびシリアル型のキー値ペア {#standard-and-serial-key-value-pairs}
 
-キーと値のペアは、次の関連する要素で構成されます。データセットを定義する定数であるキー(例：性別、色、価格)および値(セットに属する変数です（例：男性/女性、緑、100）。 [!UICONTROL Destination Builder] では、キー値ペアの形式でデータを送信します。
+キー値ペアは関連する要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。 [!UICONTROL Destination Builder] では、キー値ペアの形式でデータを送信します。
 
 ## 基本的なキーと値のペア {#basic-key-value-pairs}
 
