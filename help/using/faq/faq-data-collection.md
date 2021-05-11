@@ -6,15 +6,15 @@ solution: Audience Manager
 title: データ収集および製品統合に関するよくある質問
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP;SFTPアドレス；STFP IPアドレス；FTPアドレス
-feature: Administration
+feature: 管理
+exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 translation-type: tm+mt
-source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '1159'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
-
 
 # データ収集および製品統合に関するよくある質問 {#data-collection-and-product-integration-faq}
 
@@ -84,7 +84,7 @@ ht-degree: 99%
 
 * [!UICONTROL DIL] を `s_code` に直接組み込む。
 
-* [!UICONTROL DIL] および `s_code` を [!DNL Adobe Experience Platform Launch] または [!DNL Adobe DTM] を通じて提供する。
+* [!UICONTROL DIL]と`s_code`から[!DNL Adobe Experience Platform Launch]を提供します。
 
 詳しくは、[データ統合ライブラリ（DIL）API](../dil/dil-overview.md) を参照してください。
 
