@@ -8,10 +8,10 @@ title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics との統合
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-translation-type: ht
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
-workflow-type: ht
-source-wordcount: '701'
+translation-type: tm+mt
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+workflow-type: tm+mt
+source-wordcount: '540'
 ht-degree: 100%
 
 ---
@@ -44,38 +44,6 @@ ht-degree: 100%
 >[!DNL Adobe Analytics] 拡張機能をインストールする場合、[!DNL Audience Manager] 拡張機能はインストール&#x200B;*しないでください*。[!DNL Analytics] 拡張機能からのデータの転送は、[!DNL Audience Manager] 拡張機能に代わるものです。
 
 ![Adobe Analytics 拡張機能から Audience Manager へのデータ転送を有効にする方法 ](/help/using/integration/assets/analytics-to-aam.png)
-
-### [!DNL Adobe Digital Tag Management (DTM)] またはタグ管理ソリューションを使用した実装
-
->[!WARNING]
->
->[!DNL Adobe]は、2020 年末までに [!DNL DTM] の終了を予定しています。詳しくは、[Adobe コミュニティフォーラム](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset)の「[!DNL DTM] の終了予定」を参照してください。
-
-[Adobe DTM](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) または他のタグ管理ソリューションを使用して、[!UICONTROL Audience Management Module] を実装するには、次の手順を実行します。
-
-1. [Analytics Code Manager](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/code-manager-admin.html)（バージョン 1.5 以降が必要）を使用して、[!UICONTROL AppMeasurement] をダウンロードします。
-1. ダウンロードした zip ファイルに含まれていたバージョンに [!UICONTROL AppMeasurement] コードを更新します。
-1. zip ファイルの `AppMeasurement_Module_AudienceManagement.js` からすべてのコードをコピーします。`appMeasurement.js` ファイルの「`"DO NOT ALTER ANYTHING BELOW THIS LINE."`」というテキストのすぐ上に貼り付けます。
-1. 前の手順で追加した `AppMeasurement_Module_AudienceManagement.js` コードのすぐ上に、コード `s.loadModule("AudienceManagement");` を追加します。
-1. 以下のコードを更新およびコピーして、`AppMeasurement.js` ファイルの `doPlugins` 関数に追加します。
-
-```js
-s.AudienceManagement.setup({ 
-     "partner":"INSERT-YOUR-PARTNER-NAME-HERE", 
-     "containerNSID":0, 
-     "uuidCookie": { 
-          "name":"aam_uuid", 
-          "days":30
-     },
-     "visitorService": {
-          "namespace": "INSERT-EXPERIENCE-CLOUD-ORGID-HERE" 
-     } 
-});
-```
-
->[!TIP]
->
->`audienceManagement.setup` 関数は、パラメーターを の [!DNL Audience Manager] 関数と共有し、このコードで設定できます。`DIL.create`これらのパラメーターについて詳しくは、 [DIL create](../../dil/dil-class-overview/dil-create.md#dil-create) を参照してください。
 
 ## コード要素の定義 {#code-elements-defined}
 
