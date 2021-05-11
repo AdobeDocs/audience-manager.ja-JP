@@ -6,11 +6,11 @@ solution: Audience Manager
 title: Facebook WCA の統合
 feature: サードパーティ統合
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-translation-type: ht
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
-source-wordcount: '868'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+workflow-type: tm+mt
+source-wordcount: '855'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 3. [!DNL Adobe Experience Platform Identity Service]（[!DNL ECID]）バージョン 4.1.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/id-service/releases)** から最新バージョンをダウンロードできます。
 4. [!DNL Audience Manager Data Integration Library]（[!DNL DIL]）バージョン 9.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロードできます**。また、[サーバー側転送（SSF）](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を使用して にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[!DNL Audience Manager][Analytics Code Manager](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/code-manager-admin.html) を使用して [!DNL AppMeasurement] をダウンロードしてください。
 
-手順 3 と 4 で、[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja) または [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/ja-JP/dtm/using/dtm-home.html) を使用して、ライブラリをインストールまたはアップグレードすることをお勧めします。
+[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)を使用して、手順3と4でライブラリをインストールまたはアップグレードすることをお勧めします。
 
 ## 手順 1 - [!DNL Audience Manager] で [!UICONTROL Facebook Destination] を作成します。{#step-1-create-facebook-destination}
 
