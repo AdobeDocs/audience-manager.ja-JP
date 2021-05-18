@@ -6,14 +6,13 @@ solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
-translation-type: tm+mt
-source-git-commit: 11b79d46e7358c736c797bcf0809af4937717fc5
+exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
+source-git-commit: 1be86de9322df6b764ee3870fa82ddb2bb8b06ec
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 100%
+source-wordcount: '1540'
+ht-degree: 98%
 
 ---
-
 
 # DCS エラーコード、メッセージ、例 {#dcs-error-codes-messages-and-examples}
 
@@ -28,6 +27,7 @@ ht-degree: 100%
 | 0 | Unspecified error | これは、他のエラーハンドラーでカバーされないイベントを処理する包括的なエラーです。このエラーのトラブルシューティングは困難です。種々の不明なアクションやイベントが原因になっている可能性があります。このエラーが発生した場合は、[!DNL DCS] 要求をもう一度試してください。問題が解決しない場合は、[!DNL Adobe] 担当者にお問い合わせください。 |
 | 1 | Could not find config for hostname:      `hostname` | 送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。このエラーメッセージが表示された場合は、[!DNL Adobe] 担当者にご連絡ください。 |
 | 2 | Invalid `d_orgid` value (could not find a config for this org id): `ID` | 組織 ID が正しくありません。ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、組織 ID の見つけ方について、[組織とアカウントのリンク](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)の「管理ページ」を参照してください。 |
+| 10 | 特性を評価できません | リクエストの特性が部分的に評価されたか、まったく評価されていません。 |
 
 ## 統合エラーコード {#integration-error-codes}
 
