@@ -8,9 +8,9 @@ title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics との統合
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
 ht-degree: 100%
 
@@ -72,4 +72,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!DNL Analytics] から [!DNL Audience Manager] に送信された変数は、特別なプレフィックスを使用します。[!DNL Audience Manager] 特性を作成する場合は、これらのプレフィックスについて理解し、考慮に入れる必要があります。これらのプレフィックスの詳細については、[キー変数のプレフィックス要件](../../features/traits/trait-variable-prefixes.md)を参照してください。
+>[!DNL Analytics] から [!DNL Audience Manager] に送信された変数は、特別なプレフィックスを使用します。[!DNL Audience Manager] 特性を作成する場合は、これらのプレフィックスについて理解し、考慮に入れる必要があります。これらのプレフィックスについて詳しくは、[キー変数のプレフィックス要件](../../features/traits/trait-variable-prefixes.md)を参照してください。
