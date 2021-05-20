@@ -6,11 +6,11 @@ solution: Audience Manager
 title: Facebook WCA の統合
 feature: サードパーティ統合
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 98%
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] セグメントで、新しい 宛先に割り当てる準備を整えます。[!DNL Facebook]UI での[セグメントの作成方法](/help/using/features/segments/segment-builder.md)をご確認ください。[!DNL Audience Manager]
 3. [!DNL Adobe Experience Platform Identity Service]（[!DNL ECID]）バージョン 4.1.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/id-service/releases)** から最新バージョンをダウンロードできます。
-4. [!DNL Audience Manager Data Integration Library]（[!DNL DIL]）バージョン 9.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロードできます**。また、[サーバー側転送（SSF）](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を使用して にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[!DNL Audience Manager][Analytics Code Manager](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/code-manager-admin.html) を使用して [!DNL AppMeasurement] をダウンロードしてください。
+4. [!DNL Audience Manager Data Integration Library]（[!DNL DIL]）バージョン 9.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;からダウンロードできます。また、[サーバー側転送（SSF）](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)を使用して にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[!DNL Audience Manager][Analytics Code Manager](https://docs.adobe.com/content/help/ja-JP/analytics/admin/admin-tools/code-manager-admin.html) を使用して [!DNL AppMeasurement] をダウンロードしてください。
 
-[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja)を使用して、手順3と4でライブラリをインストールまたはアップグレードすることをお勧めします。
+手順 3 と 4 で、[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja) を使用して、ライブラリをインストールまたはアップグレードすることをお勧めします。
 
-## 手順 1 - [!DNL Audience Manager] で [!UICONTROL Facebook Destination] を作成します。{#step-1-create-facebook-destination}
+## 手順 1 - [!DNL Audience Manager] で [!UICONTROL Facebook Destination] を作成します。 {#step-1-create-facebook-destination}
 
 [!DNL Audience Manager] で新しい [!UICONTROL URL Destination]を作成し、[!DNL Facebook Website Custom Audiences]と名付けます。宛先を作成する際には、以下の設定を使用してください。また、[URL の宛先の設定](/help/using/features/destinations/create-url-destination.md)ページを参考にすることもできます。
 
@@ -71,7 +71,7 @@ ht-degree: 98%
 | パラメーター | 説明 |
 ---------|----------|
 | `id` | [!DNL Facebook] ピクセル ID。オーディエンスピクセルを作成する際に、[!DNL Facebook Ad Manager] ユーザーで見つけることができます。 |
-| `ev` | イベント。任意の値。サイトでピクセルが実行し始めると、[!DNL Facebook Ad Manager] ユーザーインターフェイスに表示されます。詳細については、[手順 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) に含まれる [!UICONTROL Include] 項目を参照してください。 |
+| `ev` | イベント。任意の値。サイトでピクセルが実行し始めると、[!DNL Facebook Ad Manager] ユーザーインターフェイスに表示されます。詳しくは、[手順 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) の [!UICONTROL Include] 項目を参照してください。 |
 | `cd[segID]` | サイトでピクセルが起動を開始すると、[!DNL Facebook Ad Manager] 内で入力される追加パラメーター。`segID` は任意です。 |
 | `%ALIAS%` | [!DNL Audience Manager] マクロ。これらのマクロは、サイト訪問者が対象となる [!DNL Audience Manager] [!UICONTROL segment] ID （コンマ区切り）へと動的に置き換えられます。 |
 
@@ -81,7 +81,7 @@ ht-degree: 98%
 
 [!UICONTROL destination]を保存します。次に、**セグメントマッピング**&#x200B;の手順に進みます。
 
-## 手順 2：セグメントマッピング - セグメントを宛先にマッピングする {#step-2-segment-mappings}
+## 手順 2 - セグメントマッピング - セグメントを宛先にマッピングする {#step-2-segment-mappings}
 
 [URL の宛先を設定](/help/using/features/destinations/create-url-destination.md)ワークフローで、新しく作成した[!UICONTROL destination]に適切なセグメントをマッピングします。マッピング値は、[!DNL Audience Manager] [!UICONTROL segment ID]を使用して自動生成されます。
 
