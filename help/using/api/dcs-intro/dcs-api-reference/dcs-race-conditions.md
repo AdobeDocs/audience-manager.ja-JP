@@ -6,14 +6,13 @@ solution: Audience Manager
 title: 競合状態とエラー処理
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: bfb0b684-6b15-434d-b5ec-5f8741c0c691
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
-
 
 # 競合状態とエラー処理 {#race-conditions-and-error-handling}
 
