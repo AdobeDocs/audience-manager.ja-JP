@@ -7,9 +7,8 @@ title: Audience Manager システムの主要なコンポーネント
 uuid: dedb15e6-b8dd-4eea-ab84-d99f160e4d34
 feature: 'システムコンポーネント '
 exl-id: a76f4d7d-5dd2-4b29-a97e-039c8f1d765f
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 
