@@ -5,15 +5,14 @@ seo-title: プラットフォームレベルのキーによるデバイスター
 solution: Audience Manager
 title: プラットフォームレベルのキーによるデバイスターゲティング
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
-
 
 # プラットフォームレベルのキーによるデバイスターゲティング {#device-targeting-with-platform-level-keys}
 
