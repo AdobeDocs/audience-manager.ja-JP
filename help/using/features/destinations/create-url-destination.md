@@ -4,16 +4,14 @@ seo-description: URL の宛先は、ページから宛先へのピクセル呼�
 seo-title: URL の宛先の設定
 solution: Audience Manager
 title: URL の宛先の設定
-feature: Destination Basics
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 宛先の基本
+exl-id: b5af87c9-4460-43a7-9808-242eac876c39
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '515'
 ht-degree: 100%
 
 ---
-
-
 
 # [!DNL URL Destination]の設定 {#configure-url-destination}
 
@@ -35,7 +33,7 @@ ht-degree: 100%
 6. 「**[!UICONTROL Type]**」リストで、「**[!UICONTROL URL]**」をクリックします。
 7. *（オプション）***[!UICONTROL Auto-fill Destination Mapping]** を選択します。オプションは次のとおりです。
    * **[!UICONTROL Segment ID]**：セグメント ID を自動的に追加して[!DNL destination]に送信します。
-   * **[!UICONTROL Integration Code Value]**：セグメント統合コードを自動的に追加して宛先マッピングに送信します。統合コードは、顧客が作成して使用する一意の識別子です。最大 255 文字に制限されています。
+   * **[!UICONTROL Integration Code Value]**：セグメント統合コードを自動的に追加して宛先マッピングに送信します。統合コードは、顧客が作成して使用する一意の ID です。最大 255 文字に制限されています。
 8. 「**[!UICONTROL Next]**」をクリックして[!UICONTROL Configuration]設定に移動するか、「**[!UICONTROL Data Export Labels]**」をクリックして書き出しコントロールを[!DNL destination]に適用します。
 
 ## [!UICONTROL Data Export Labels] {#data-export-labels-dest}
