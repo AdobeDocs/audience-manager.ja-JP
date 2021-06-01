@@ -5,15 +5,14 @@ seo-title: 送信テンプレートマクロ
 solution: Audience Manager
 title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
+feature: 送信データ転送
+exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 99%
 
 ---
-
 
 # 送信テンプレートマクロ {#outbound-template-macros}
 
