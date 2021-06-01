@@ -8,9 +8,8 @@ title: 製品の機能に関するよくある質問
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: 概要
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-translation-type: ht
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -30,7 +29,7 @@ faq_features_functions.xml
 
 **組織 ID はどのようなもので、どうすれば見つかりますか？**
 
-*`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
+ *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
 
 つまり、*`Organization ID`* は `1FD6776A524453CC0A490D44@AdobeOrg` のようになります。
 
