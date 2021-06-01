@@ -6,9 +6,8 @@ solution: Audience Manager
 title: ピープルベースのプラットフォームを使用した認証
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 100%
 
