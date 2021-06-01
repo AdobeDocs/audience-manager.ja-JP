@@ -7,9 +7,8 @@ title: コードおよびテキスト要素のスタイル規則
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
 feature: リファレンス
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
