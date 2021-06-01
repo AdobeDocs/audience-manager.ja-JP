@@ -7,9 +7,8 @@ title: 外部デバイスグラフのユースケース
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: プロファイル結合
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 100%
 
@@ -130,6 +129,6 @@ These strategies are designed to bring an unauthenticated or unknown user back t
 >[!MORELIKETHIS]
 >
 >* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
->* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
->* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
+* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
+* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
 
