@@ -7,9 +7,8 @@ title: ログデータとメタデータファイル
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
 feature: ログファイル
 exl-id: c913372f-4a0a-420c-933e-23b30393fbaf
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
