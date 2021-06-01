@@ -4,15 +4,14 @@ seo-description: Destination Builder の「Configuration」セクションには
 seo-title: Cookie の宛先のオプション設定
 solution: Audience Manager
 title: Cookie の宛先のオプション設定
-feature: Destination Basics
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 宛先の基本
+exl-id: b44f386e-4d43-41c3-b8ce-88b83d5d83c2
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
-
 
 # Cookie の宛先のオプション設定 {#optional-settings-cookies}
 
@@ -102,3 +101,4 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [Cookie の宛先の作成](../../features/destinations/create-cookie-destination.md)
+
