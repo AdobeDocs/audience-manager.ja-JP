@@ -8,9 +8,8 @@ title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics との統合
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-translation-type: ht
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 100%
 
