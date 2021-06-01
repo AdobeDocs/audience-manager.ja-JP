@@ -7,9 +7,8 @@ keywords: GDPR UI、GDPR API、CCPA、プライバシー、同意、難読化、
 title: データガバナンス
 feature: データガバナンス & プライバシー
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
