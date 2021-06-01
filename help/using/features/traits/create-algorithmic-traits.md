@@ -5,15 +5,14 @@ seo-title: アルゴリズム特性の作成
 solution: Audience Manager
 title: アルゴリズム特性の作成
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
-feature: Traits
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: 特性
+exl-id: dc799688-e38b-469b-bc55-507df0d28f43
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
-
 
 # アルゴリズム特性の作成 {#create-algorithmic-traits}
 
