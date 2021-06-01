@@ -7,9 +7,8 @@ title: Audience Optimization レポート
 uuid: b06efa28-f56a-4b72-978e-e0c067f54798
 feature: Audience Optimization レポート
 exl-id: 673267fb-5655-4cc2-ac2c-c717ea5830fc
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
 
