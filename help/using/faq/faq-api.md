@@ -6,14 +6,13 @@ solution: Audience Manager
 title: API に関するよくある質問
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 9a51220e-3f53-4911-876b-16e968d44d0f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 100%
 
 ---
-
 
 # API に関するよくある質問 {#api-faq}
 
