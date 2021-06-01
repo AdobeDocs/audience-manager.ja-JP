@@ -6,9 +6,8 @@ solution: Audience Manager
 title: Facebook WCA の統合
 feature: サードパーティ統合
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-translation-type: ht
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 
