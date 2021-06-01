@@ -1,20 +1,19 @@
 ---
 description: 類似（look-alike）モデリングで使用する特性やセグメントを作成および管理します。
-keywords: 相対重み付け、類似
+keywords: 相対的な重み付け、類似
 seo-description: 類似（look-alike）モデリングで使用する特性やセグメントを作成および管理します。
 seo-title: 類似（look-alike）モデリングについて
 solution: Audience Manager
 title: 類似（look-alike）モデリングについて
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
-feature: Algorithmic Models
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: アルゴリズムモデル
+exl-id: a24b11ce-6087-4095-a6c2-6815e2211ba5
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1595'
 ht-degree: 99%
 
 ---
-
 
 # [!UICONTROL Look-Alike Modeling]について {#about-algorithmic-models}
 
@@ -178,7 +177,7 @@ ht-degree: 99%
    <td colname="col2"> <p><span class="wintitle">Influential Traits</span> テーブルには以下が含まれます。 </p> <p> 
      <ul id="ul_FB15A554CADC40D09F9AC6D384D54ECD"> 
       <li id="li_343E25E8B3584D38B1E2BCB211033DBF"> モデルの基準となる母集団で最もよく表される上位 50 個の影響力のある特性のリスト。 </li> 
-      <li id="li_44957F46C0744A84A987D8F25D93E24E"><span class="wintitle">Relative Weight</span> ランクの順に各特性をランク付けします。<span class="wintitle">Relative Weight</span> は、新しく検出された特性を影響力または望ましさの順で並べ替えます。重みの基準は、0％～ 100％の割合です。特性のランクが 100％に近づくと、基準となる母集団のオーディエンスに似ていることを意味します。<a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> TraitWeightについて</a>を参照してください。 </li> 
+      <li id="li_44957F46C0744A84A987D8F25D93E24E"><span class="wintitle">Relative Weight</span> ランクの順に各特性をランク付けします。<span class="wintitle">Relative Weight</span> は、新しく検出された特性を影響力または望ましさの順で並べ替えます。重みの基準は、0％～ 100％の割合です。特性のランクが 100％に近づくと、基準となる母集団のオーディエンスに似ていることを意味します。<a href="../../features/algorithmic-models/understanding-models.md#understanding-traitweight"> TraitWeight</a>についてを参照してください。 </li> 
       <li id="li_260151E23B1E484BA06C8494552A04F0">特性ごとに 30 日間の個別および合計特性母集団を表示します。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -192,6 +191,6 @@ ht-degree: 99%
 >[!MORELIKETHIS]
 >
 >* [宛先](../../features/destinations/destinations.md)
->* [特性](../../features/traits/trait-details-page.md)
->* [セグメント](../../features/segments/segments-purpose.md)
+* [特性](../../features/traits/trait-details-page.md)
+* [セグメント](../../features/segments/segments-purpose.md)
 
