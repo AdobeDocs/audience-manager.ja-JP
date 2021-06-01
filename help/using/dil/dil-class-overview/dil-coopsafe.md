@@ -5,17 +5,16 @@ seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: DIL の実装
+exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '542'
 ht-degree: 100%
 
 ---
 
-
-# isCoopSafe {#iscoopsafe}
+# isCoopSafe{#iscoopsafe}
 
 DIL から Adobe Experience Cloud Device Co-op にデータを送信するかどうかを指定する任意のブール型設定です。
 
@@ -132,4 +131,3 @@ POST パラメーターは、ユーザーデータをデバイスグラフに含
 Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 
  -->
-
