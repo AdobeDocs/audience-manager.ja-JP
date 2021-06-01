@@ -5,15 +5,14 @@ seo-title: キー変数名の要件
 solution: Audience Manager
 title: キー変数名の要件
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
-feature: Traits
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: 特性
+exl-id: 5d1e5842-bebc-4d75-958f-078ba0061dfa
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
-
 
 # キー変数名の要件 {#name-requirements-for-key-variables}
 
