@@ -6,14 +6,13 @@ solution: Audience Manager
 title: 宛先の作成
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 100%
 
 ---
-
 
 # 宛先の作成 {#create-destinations}
 
@@ -413,6 +412,6 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [宛先](../../../features/destinations/destinations.md)
->* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
+* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
+* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
 
