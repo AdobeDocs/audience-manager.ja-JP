@@ -6,14 +6,13 @@ solution: Audience Manager
 title: Audience Manager の API コードの移行
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 081be8a7-5029-45b1-8fb1-0531d5090fe0
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
-
 
 # Audience Manager の API コードの移行 {#audience-manager-api-code-migration}
 
