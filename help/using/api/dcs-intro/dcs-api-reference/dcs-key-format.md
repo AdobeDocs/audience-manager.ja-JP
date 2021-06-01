@@ -6,14 +6,13 @@ solution: Audience Manager
 title: DCS 呼び出しでのキー値ペアの形式
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 100%
 
 ---
-
 
 # DCS 呼び出しでのキー値ペアの形式 {#formatting-key-value-pairs-in-dcs-calls}
 
@@ -72,6 +71,6 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [DCS へのデータ送信](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
->* [DCS でサポートされるキーと値のプレフィックスおよび変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
->* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
+* [DCS でサポートされるキーと値のプレフィックスおよび変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
 
