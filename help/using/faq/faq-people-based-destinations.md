@@ -6,9 +6,8 @@ solution: Audience Manager
 title: People-Based Destinations に関する FAQ
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 100%
 
