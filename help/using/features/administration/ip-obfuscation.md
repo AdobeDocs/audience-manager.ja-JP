@@ -5,9 +5,8 @@ solution: Audience Manager
 title: IP アドレスの難読化
 feature: データガバナンスとプライバシー
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-translation-type: ht
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
 
