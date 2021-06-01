@@ -6,14 +6,13 @@ solution: Audience Manager
 title: REST API
 uuid: f575c8dd-7381-4b55-8228-26eb87fbef64
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 2c5d0567-9d48-48b5-b261-2b00a3070b2f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '95'
 ht-degree: 100%
 
 ---
-
 
 # [!DNL REST APIs] {#rest-apis}
 
