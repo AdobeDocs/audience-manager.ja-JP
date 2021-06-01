@@ -7,9 +7,8 @@ title: データ処理のコンポーネント
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 feature: 'システムコンポーネント '
 exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 
