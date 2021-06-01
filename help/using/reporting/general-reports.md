@@ -7,9 +7,8 @@ title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 feature: 一般レポートとトレンドレポート
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
 
