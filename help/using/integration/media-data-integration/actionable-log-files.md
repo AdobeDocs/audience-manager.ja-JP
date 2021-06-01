@@ -6,15 +6,14 @@ seo-title: アクションにつながるログファイル
 solution: Audience Manager
 title: アクションにつながるログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
-feature: Log Files
-translation-type: tm+mt
-source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
+feature: ログファイル
+exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1611'
 ht-degree: 100%
 
 ---
-
 
 # アクションにつながるログファイル {#actionable-log-files}
 
@@ -337,5 +336,5 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >[!MORELIKETHIS]
 >
 >* [Google キャンペーンマネージャーデータファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
