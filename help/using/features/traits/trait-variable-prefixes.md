@@ -5,15 +5,14 @@ seo-title: キー変数のプレフィックスに関する要件
 solution: Audience Manager
 title: キー変数のプレフィックスに関する要件
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
-feature: Traits
-translation-type: tm+mt
-source-git-commit: 1c0d40082cd0753a9b4326aae764eb74aefb8be4
+feature: 特性
+exl-id: 67fe0c74-6831-48cb-90cf-417ebbf7f272
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
-
 
 # キー変数のプレフィックスに関する要件 {#prefix-requirements-for-key-variables}
 
@@ -59,5 +58,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [基本情報の概要](../../features/traits/create-onboarded-rule-based-traits.md)
->* [特性ルールの管理](../../features/traits/manage-trait-rules.md#managing-trait-rules)
+* [特性ルールの管理](../../features/traits/manage-trait-rules.md#managing-trait-rules)
 
