@@ -6,15 +6,14 @@ seo-title: 訪問者プロファイルビューア
 solution: Audience Manager
 title: 訪問者プロファイルビューア
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 6c1ee14c-6f78-4e45-9b88-24ace8400079
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 100%
 
 ---
-
 
 # 訪問者プロファイルビューア {#visitor-profile-viewer}
 
