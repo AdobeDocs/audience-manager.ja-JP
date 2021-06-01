@@ -7,9 +7,8 @@ title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: サードパーティ統合
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
