@@ -5,15 +5,14 @@ seo-title: セグメント式エディターで使用するコード構文
 solution: Audience Manager
 title: セグメント式エディターで使用するコード構文
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: セグメント
+exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 100%
 
 ---
-
 
 # セグメント式エディターで使用するコード構文 {#code-syntax-used-in-the-segment-expression-editor}
 
@@ -80,7 +79,7 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 >[!MORELIKETHIS]
 >
 >* [最新性と頻度](../../features/segments/recency-and-frequency.md)
->* [特性およびセグメントビルダーのブール式](../../reference/boolean-expressions-tsb.md)
->* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
->* [特性ビルダーでの演算順序](../../features/traits/trait-operator-precedence.md)
+* [特性およびセグメントビルダーのブール式](../../reference/boolean-expressions-tsb.md)
+* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
+* [特性ビルダーでの演算順序](../../features/traits/trait-operator-precedence.md)
 
