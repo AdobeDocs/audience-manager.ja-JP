@@ -6,14 +6,13 @@ solution: Audience Manager
 title: サーバー間データ転送用の DCS API
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
-translation-type: ht
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
-workflow-type: ht
+exl-id: fd23d5e2-b74e-47ff-a4aa-3a4b2c7d39c5
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%
 
 ---
-
 
 # サーバー間データ転送用の DCS API {#dcs-apis-for-server-to-server-data-transfers}
 
