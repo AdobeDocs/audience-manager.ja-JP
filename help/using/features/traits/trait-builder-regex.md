@@ -5,15 +5,14 @@ seo-title: 特性ビルダーでの正規表現の使用
 solution: Audience Manager
 title: 特性ビルダーでの正規表現の使用
 uuid: c263dc26-a920-48b8-b76a-6d82e7836196
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: eb41da2b-ce61-4965-a723-5bf273e54f82
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
-
 
 # 特性ビルダーでの正規表現の使用 {#using-regular-expressions-in-trait-builder}
 
