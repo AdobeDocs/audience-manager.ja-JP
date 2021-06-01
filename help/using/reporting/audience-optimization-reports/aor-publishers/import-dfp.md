@@ -7,9 +7,8 @@ title: Google Ad Manager データファイルを Audience Manager に読み込�
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 feature: Audience Optimization レポート
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
