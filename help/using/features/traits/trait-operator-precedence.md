@@ -5,15 +5,14 @@ seo-title: 特性ビルダーでの演算順序
 solution: Audience Manager
 title: 特性ビルダーでの演算順序
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 90700479-4a8e-4a07-81ef-2e9d8a1d9f15
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '208'
 ht-degree: 100%
 
 ---
-
 
 # 特性ビルダーでの演算順序 {#order-of-operations-in-trait-builder}
 
@@ -61,5 +60,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [特性ビルダーでのブール式の使用（AND、OR、NOT）](../../reference/boolean-expressions-tsb.md)
->* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
+* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
 
