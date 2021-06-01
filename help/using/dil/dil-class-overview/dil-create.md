@@ -3,17 +3,16 @@ description: パートナー固有の DIL インスタンスを作成します�
 seo-description: パートナー固有の DIL インスタンスを作成します。
 seo-title: DIL create
 solution: Audience Manager
-title: DIL作成
+title: DILの作成
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: fc13643681eebec17a95607482f2864e81b95820
+feature: DIL の実装
+exl-id: 0bef149c-4458-43d6-affe-6d79fe1fca46
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
-
 
 # DIL create メソッド {#dil-create}
 
