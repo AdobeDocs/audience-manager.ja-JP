@@ -5,15 +5,14 @@ seo-title: 顧客データフィードに関するよくある質問
 solution: Audience Manager
 title: 顧客データフィードに関するよくある質問
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
-feature: Customer Data Feeds
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 顧客データフィード
+exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
-
 
 # 顧客データフィードに関するよくある質問 {#customer-data-feed-faq}
 
