@@ -7,14 +7,13 @@ solution: Audience Manager
 title: アルゴリズム API メソッド
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 5104d3fe-907e-4a40-87a2-5c712e293ded
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '72'
 ht-degree: 100%
 
 ---
-
 
 # アルゴリズム API メソッド {#algorithmic-api-methods}
 
@@ -26,3 +25,4 @@ ht-degree: 100%
 >
 >* [Adobe Audience Manager API に関するドキュメント](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager の API コードの移行](../../api/api-swagger-migration.md)
+
