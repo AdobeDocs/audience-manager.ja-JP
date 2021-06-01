@@ -4,15 +4,14 @@ seo-description: データ書き出しラベルは、データソースに設定
 seo-title: サーバー間宛先のセグメントの追加または編集
 solution: Audience Manager
 title: サーバー間宛先のセグメントの追加または編集
-feature: Destination Basics
-translation-type: tm+mt
-source-git-commit: 55925e803e16580e0d9357d973405cf39370a8fd
+feature: 宛先の基本
+exl-id: 20124779-e14b-4d17-be4b-9f17ee0dc19e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
-
 
 # サーバー間宛先のセグメントの追加または編集 {#add-edit-segments}
 
