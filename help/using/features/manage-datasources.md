@@ -6,15 +6,14 @@ seo-title: データソースの作成
 solution: Audience Manager
 title: データソースの管理
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
-feature: Data Sources
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: データソース
+exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Data Sources]の管理 {#manage-data-sources}
 
@@ -84,3 +83,4 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [データソース設定とメニューオプション](../features/datasources-list-and-settings.md#settings-menu-options)
+
