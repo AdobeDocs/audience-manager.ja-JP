@@ -5,15 +5,14 @@ seo-title: セグメントメタデータの取得
 solution: Audience Manager
 title: セグメントメタデータの取得
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: セグメント
+exl-id: 64922cf8-f7bf-4e33-871f-d33626b06360
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '599'
 ht-degree: 100%
 
 ---
-
 
 # セグメントメタデータの取得 {#retrieving-segment-metadata}
 
