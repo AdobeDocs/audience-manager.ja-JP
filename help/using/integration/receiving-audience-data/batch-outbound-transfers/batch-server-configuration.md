@@ -4,15 +4,14 @@ seo-description: バッチデータをサードパーティのコンテンツプ
 seo-title: バッチデータ統合の設定
 solution: Audience Manager
 title: バッチデータ転送統合の設定
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 送信データ転送
+exl-id: 0ed0f6bc-d4dd-4c6b-bc44-ea5c4ebe600b
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 98%
 
 ---
-
 
 # バッチデータ転送統合の設定
 
