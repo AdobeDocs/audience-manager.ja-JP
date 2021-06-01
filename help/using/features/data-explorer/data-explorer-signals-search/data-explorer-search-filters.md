@@ -4,15 +4,14 @@ seo-description: キーおよび値のフィールドを空白にすることで
 seo-title: フィルターによるシグナルの検索
 title: フィルターによるシグナルの検索
 uuid: 99b00d48-6415-4cb1-848a-5401b34c43a6
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'データエクスプローラ '
+exl-id: 4e2ab375-f998-41c5-affb-b9bf983cc28a
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
-
 
 # フィルターによるシグナルの検索 {#search-signals-by-filters}
 
