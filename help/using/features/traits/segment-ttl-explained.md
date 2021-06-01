@@ -5,15 +5,14 @@ seo-title: セグメントと特性の有効期間についての説明
 solution: Audience Manager
 title: セグメント有効期間の説明
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
-
 
 # セグメントと特性の有効期間についての説明 {#segment-time-to-live-explained}
 
