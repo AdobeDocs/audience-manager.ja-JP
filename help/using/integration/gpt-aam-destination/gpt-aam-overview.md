@@ -5,9 +5,8 @@ seo-title: Adobe Audience Manager（AAM）で Google サイト運営者タグ（
 title: 'Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合 '
 feature: サードパーティ統合
 exl-id: d383cb8a-ef41-4ce6-9e31-6145797a89fa
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
