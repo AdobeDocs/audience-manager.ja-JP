@@ -5,15 +5,14 @@ seo-title: セグメントの目的、構成およびルール
 solution: Audience Manager
 title: セグメントの目的、構成およびルール
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: セグメント
+exl-id: 4e4da7a7-3267-4564-b1c5-663dcddf2b93
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
-
 
 # セグメント：目的、構成、ルール {#segments-purpose-composition-and-rules}
 
