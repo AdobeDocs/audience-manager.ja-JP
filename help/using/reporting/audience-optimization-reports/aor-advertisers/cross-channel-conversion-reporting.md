@@ -7,9 +7,8 @@ title: クロスチャネルコンバージョン
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: Audience Optimization レポート
 exl-id: 7412a43f-81b5-477e-8acf-89d6c8661f1e
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
