@@ -7,9 +7,8 @@ title: Audience Optimization レポートおよびアクションにつながる
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: ログファイル
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
 
@@ -141,7 +140,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## データファイルの配信方法 {#delivery-methods}
+## データファイルの配信方法  {#delivery-methods}
 
 インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
