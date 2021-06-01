@@ -5,15 +5,14 @@ seo-title: 最新性と頻度
 solution: Audience Manager
 title: 最新性と頻度
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: セグメント
+exl-id: c00563f0-d270-4d4d-abeb-4b4b81aa68b8
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 100%
 
 ---
-
 
 # 最新性と頻度 {#recency-and-frequency}
 
@@ -26,7 +25,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 [!UICONTROL Recency] と [!UICONTROL Frequency] の設定は、サイト、セクションまたは特定のクリエイティブに対する実際の（または認識された）関心レベルに基づいて訪問者をセグメント化するのに役立ちます。例えば、高い最新性／頻度要件でセグメントの対象として認定されるユーザーは、それほど頻繁に訪問していないユーザーよりも、サイトまたは製品に関心がある可能性があります。
 
-## [!UICONTROL Recency and Frequency] 設定の場所 {#location}
+## [!UICONTROL Recency and Frequency] 設定の場所  {#location}
 
 [!UICONTROL Segment Builder]では、[!UICONTROL Recency]設定と[!UICONTROL Frequency]設定は、[!UICONTROL Traits]パネルの[!UICONTROL Basic View]セクションにあります。時計アイコンをクリックして、これらのコントロールを表示します。
 
@@ -126,5 +125,5 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 >[!MORELIKETHIS]
 >
 >* [セグメントビルダーのコントロール：「Traits」セクション](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [セグメント式エディターで使用するコード構文](../../features/segments/segment-code-syntax.md)
+* [セグメント式エディターで使用するコード構文](../../features/segments/segment-code-syntax.md)
 
