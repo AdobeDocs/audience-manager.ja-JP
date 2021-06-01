@@ -4,15 +4,14 @@ seo-description: Data Explorer を使用して、使用済みおよび未使用�
 seo-title: 概要、メリットおよび使用例
 title: 概要、メリットおよび使用例
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'データエクスプローラ '
+exl-id: 56c9080b-4b7d-4feb-bddf-521e80bc8fa7
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 100%
 
 ---
-
 
 # Data Explorer - 概要、メリット、ユースケース {#overview-benefits-and-use-cases}
 
