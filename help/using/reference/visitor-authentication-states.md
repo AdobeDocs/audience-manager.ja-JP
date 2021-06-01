@@ -8,7 +8,6 @@ title: Audience Manager の訪問者認証ステータス
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: リファレンス
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-translation-type: tm+mt
 source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
 workflow-type: tm+mt
 source-wordcount: '391'
