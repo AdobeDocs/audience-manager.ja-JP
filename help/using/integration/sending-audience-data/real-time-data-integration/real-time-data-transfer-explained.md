@@ -5,8 +5,7 @@ seo-title: リアルタイムデータ転送プロセスの説明
 solution: Audience Manager
 title: リアルタイムデータ転送プロセスの説明
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-feature: Inbound Data Transfers
-translation-type: tm+mt
+feature: 受信データ転送
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '192'
