@@ -5,15 +5,14 @@ seo-title: 送信データ転送のための ID 同期
 solution: Audience Manager
 title: 送信データ転送のための ID 同期
 uuid: f3849be8-1094-47db-9296-7482f020af18
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 送信データ転送
+exl-id: 02cca19a-eebf-43b2-b034-24f072fe2efb
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 99%
 
 ---
-
 
 # 送信データ転送のための ID 同期 {#id-synchronization-for-outbound-data-transfers}
 
@@ -77,5 +76,5 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 >[!MORELIKETHIS]
 >
 >* [データ収集サーバー（DCS）API メソッドおよびコード](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
->* [データ収集コンポーネント](../../reference/system-components/components-data-collection.md)
+* [データ収集コンポーネント](../../reference/system-components/components-data-collection.md)
 
