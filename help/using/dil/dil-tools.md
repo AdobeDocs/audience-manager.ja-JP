@@ -5,15 +5,14 @@ seo-title: DIL ツール
 solution: Audience Manager
 title: DIL ツール
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: DIL の実装
+exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 100%
 
 ---
-
 
 # DIL ツール
 
