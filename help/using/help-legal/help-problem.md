@@ -4,15 +4,14 @@ seo-description: カスタマーケアは、どのような問題でも解決を
 seo-title: 問題がある場合
 solution: Audience Manager
 title: 問題がある場合
-feature: Support
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: サポート
+exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---
-
 
 # 問題がある場合 {#problem}
 
@@ -75,7 +74,7 @@ r_problem.xml
  </tbody> 
 </table>
 
-## 機能停止の場合  {#outage}
+## 機能停止の場合 {#outage}
 
 機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com)（ [!DNL https://status.adobe.com] ）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新情報も含まれています。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
 
