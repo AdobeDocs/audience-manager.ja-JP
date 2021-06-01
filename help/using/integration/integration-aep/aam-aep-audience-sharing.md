@@ -7,10 +7,10 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP オーディエンス共有、AEP セグメント、プラットフォームセグメント, セグメント共有, オーディエンス共有、セグメントの共有
 feature: Platform との統合
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
+source-git-commit: 6900b56b4e0258ed0c4ddf94ef7b1f2c7e48a50d
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 100%
+source-wordcount: '1480'
+ht-degree: 98%
 
 ---
 
@@ -39,15 +39,13 @@ Audience Manager では、次のように、Data Management Platform のユー�
 > * コアサービスの統合を通じて、Adobe Advertising Cloud、Adobe Target、Marketo およびその他の Experience Cloud ソリューションと Experience Platform セグメントを共有する場合、Audience Manager ライセンスは&#x200B;*必要ありません*。
 
 
- <br>
-
 オーディエンス共有のユースケースの概要については、次の表を参照してください。
 
 | **ユースケース** | **Adobe Experience Platform** | **Audience Manager** | **コアサービス** |
----------|----------|---------|---------
+---------|----------|---------|---------|
 | **オーディエンス共有** | <ul><li>Audience Manager データを使用した顧客プロファイルの強化</li><li>Experience Platform セグメントでの Audience Manager データの使用</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Adobe Target や Advertising Cloud、Marketo など、他の Experience Cloud ソリューションで Experience Platform セグメントを使用します。 |
 
- <br>
+{style=&quot;table-layout:auto&quot;}
 
 ## Adobe Experience Platform での Audience Manager のセグメントと特性 {#aam-segments-traits-in-aep}
 
@@ -56,8 +54,6 @@ Audience Manager の特性とセグメントは、セグメントワークフロ
 * [セグメント化サービスの概要](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/home.html#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/ui/overview.html#audiences)
 * [Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-
- <br>
 
 ## Audience Manager の Adobe Experience Platform セグメント {#aep-segments-in-aam}
 
@@ -87,14 +83,14 @@ Experience Platform セグメントから自動的に作成された特性の例
 
 
 | 項目番号 | 名前 | 説明 |
----------|----------|---------
+---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | Experience Platform セグメントから作成された特徴は、Audience Manager でオンボードの特性として作成されます。 |
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!UICONTROL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 3 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 4 | [!UICONTROL Trait Expression] | 特性の式は `segID = segment ID in Experience Platform` です。 |
 | 5 | [!UICONTROL Segments with this Trait] | この特性を構成として使用する、自動的に作成されたセグメント。 |
 
- <br>
+{style=&quot;table-layout:auto&quot;}
 
 ### セグメント {#aep-segments-as-aam-segments}
 
@@ -107,11 +103,13 @@ Experience Platform セグメントから自動的に作成されたセグメン
 ![セグメントのスクリーンショット](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | 項目番号 | 名前 | 説明 |
----------|----------|---------
+---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Experience Platform での Audience Manager データ書き出しコントロールのサポート {#aam-data-export-control-in-aep}
 
@@ -136,6 +134,8 @@ Audience Manager と Experience Platform の間でオーディエンスを共有
 | オンサイトの広告ターゲティングには使用できません。 | C6：データをオンサイトのターゲティングには使用できません。 |
 | オンサイトのパーソナライズ機能には使用できません。 | C7：データをコンテンツのオンサイトターゲティングに使用することはできません。 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ### マーケティングアクションへのデータ書き出しコントロール
 
 次の表は、特定のデータ書き出しラベルを、認識されているマーケティングアクションにマッピングする仕組みの概要を示しています。
@@ -146,6 +146,8 @@ Audience Manager と Experience Platform の間でオーディエンスを共有
 | この宛先はオフサイト広告ターゲティングに使用できます | クロスサイトターゲティング |
 | この宛先はオンサイト広告ターゲティングに使用できます | オンサイト広告 |
 | この宛先は、オンサイト広告パーソナライズ機能に使用できます | オンサイトのパーソナライズ機能 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Audience Manager と Experience Platform の間のセグメント母集団の違いの理解 {#aep-aam-segment-population-differences}
 
