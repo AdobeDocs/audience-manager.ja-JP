@@ -5,15 +5,14 @@ seo-title: DIL のユースケースとコードサンプル
 solution: Audience Manager
 title: DIL のユースケースとコードサンプル
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: DIL の実装
+exl-id: 001710be-b377-460a-9e29-7268d25a6305
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '922'
 ht-degree: 100%
 
 ---
-
 
 # DIL のユースケースとコードサンプル {#dil-use-cases-and-code-samples}
 
@@ -244,5 +243,5 @@ GTM で `dil.js` ファイルを配信するには：
 >
 >* [Google タグマネージャーヘルプセンター](https://support.google.com/tagmanager#topic=3441530)
 >* [シグナル](../dil/dil-instance-methods.md#signals)
->* [キー変数のプレフィックスに関する要件](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
+* [キー変数のプレフィックスに関する要件](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
