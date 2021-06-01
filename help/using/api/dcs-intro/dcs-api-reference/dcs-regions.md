@@ -6,14 +6,13 @@ solution: Audience Manager
 title: DCS の地域 ID、場所、ホスト名
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 9b12946c-89f1-4f6f-adb9-961e15a0b816
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
-
 
 # DCS の地域 ID、場所、ホスト名 {#dcs-region-ids-locations-and-host-names}
 
