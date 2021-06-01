@@ -5,7 +5,6 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager を使用して、サイト訪問者に関する商業的に関連のある情報を収集し、市場性のあるセグメントを作成し、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
 feature-set: Audience Manager
-translation-type: tm+mt
 source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
 source-wordcount: '1806'
@@ -20,7 +19,7 @@ ht-degree: 100%
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
-   + [データセキュリティ](overview/data-security-and-privacy/data-security.md)
+   + [データのセキュリティ](overview/data-security-and-privacy/data-security.md)
    + データプライバシー {#data-privacy}
       + [データプライバシーの概要](overview/data-security-and-privacy/data-privacy.md)
       + [データプライバシーリクエスト](overview/data-security-and-privacy/data-privacy-requests.md)
@@ -38,7 +37,7 @@ ht-degree: 100%
 + 機能 {#features}
    + [アドレス可能なオーディエンス](features/addressable-audiences.md)
    + 管理 {#administration}
-      + [Admin Console への Audience Manager ユーザーの 移行](features/administration/admin-console-migration.md)
+      + [Admin Console への Audience Manager ユーザーの移行](features/administration/admin-console-migration.md)
       + [管理](features/administration/administration-overview.md)
       + [アカウント設定の編集](features/administration/edit-account-settings.md)
       + [IP アドレスの難読化](features/administration/ip-obfuscation.md)
@@ -131,7 +130,7 @@ ht-degree: 100%
       + [定義済みのプロファイルの結合ルールオプション](features/profile-merge-rules/merge-rule-definitions.md)
       + [プロファイル結合ルールの一般的なユースケース](features/profile-merge-rules/merge-rule-targeting-options.md)
       + [プロファイルリンクデバイスグラフのユースケース](features/profile-merge-rules/profile-link-use-case.md)
-      + [ 外部デバイスグラフのユースケース](features/profile-merge-rules/external-graph-use-cases.md)
+      + [外部デバイスグラフのユースケース](features/profile-merge-rules/external-graph-use-cases.md)
       + [プロファイル結合ルールのレポート指標](features/profile-merge-rules/profile-link-metrics.md)
       + [プロファイル結合ルールとデバイスのセグメント化解除プロセス](features/profile-merge-rules/merge-rule-unsegment.md)
       + [Instant Cross-Device Suppression](features/profile-merge-rules/instant-cross-device-suppression.md)
@@ -168,7 +167,7 @@ ht-degree: 100%
       + [キー変数名の要件](features/traits/trait-key-name-requirements.md)
       + [セグメントと特性の有効期間についての説明](features/traits/segment-ttl-explained.md)
       + [キー変数のプレフィックスに関する要件](features/traits/trait-variable-prefixes.md)
-      + [ プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）](features/traits/trait-geotarget-keys.md)
+      + [プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）](features/traits/trait-geotarget-keys.md)
       + [プラットフォームレベルのキーによるデバイスターゲティング](features/traits/trait-device-targeting.md)
       + [ブール演算子と比較演算子を使用した式のサンプル](features/traits/trait-expression-samples.md)
       + [特性およびセグメントの資格に関するリファレンス](features/traits/trait-and-segment-qualification-reference.md)
@@ -191,7 +190,7 @@ ht-degree: 100%
          + [クロスチャネルコンバージョン](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Audience Optimization for Publishers {#audience-optimization-publishers}
          + [Audience Optimization for Publishers の概要](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む ](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [セグメントパフォーマンスレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [セグメントトレンドレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [上位の未使用特性](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -214,7 +213,7 @@ ht-degree: 100%
       + [未使用シグナルレポート](reporting/dynamic-reports/unused-signals.md)
       + [ルックアップテーブルによるログファイル処理時間の改善](reporting/dynamic-reports/lookup-tables.md)
       + [データスライダーを使用したレポート結果のフィルタリング](reporting/dynamic-reports/data-sliders.md)
-      + [重複レポート：更新スケジュールと最小セグメントサイズ](reporting/dynamic-reports/overlap-minimum-segment-size.md)
+      + [重複レポート：更新スケジュールと最小セグメントサイズ ](reporting/dynamic-reports/overlap-minimum-segment-size.md)
       + [重複レポートの CSV ファイル](reporting/dynamic-reports/overlap-csv-files.md)
       + [レポート技術](reporting/dynamic-reports/interactive-report-technology.md)
    + [オンボーディングステータスレポート](reporting/onboarding-status-report.md)
@@ -268,7 +267,7 @@ ht-degree: 100%
          + [グループ管理 API メソッド](api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)
          + [権限管理 API メソッド](api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
       + [DCS 地域 API メソッド](api/rest-api-main/aam-api-dcs-regions.md)
-   + [SDK コード](api/aam-sdk.md)
+   + [SDK コード ](api/aam-sdk.md)
 + データ統合ライブラリ（DIL）API {#dil-api}
    + [データ統合ライブラリ（DIL）について](dil/dil-overview.md)
    + クラスレベルの DIL メソッド {#class-level-dil-methods}
@@ -310,12 +309,12 @@ ht-degree: 100%
       + [送信データ転送のための ID 同期](integration/receiving-audience-data/id-sync-outbound.md)
       + リアルタイム送信データ転送 {#real-time-outbound-transfers}
          + [リアルタイム送信データ転送](integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)
-         + [デジタル署名付き HTTP リクエスト](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
+         + [デジタル署名された HTTP 要求](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
          + [リアルタイムのアウトバウンド転送での OAuth 2.0 統合](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + バッチ送信データ転送 {#batch-outbound-data-transfers}
          + [バッチ送信データ転送の概要](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
          + [バッチデータ転送統合の設定](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
-         + [送信データファイル名：構文と例](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+         + [送信データファイル名：構文と例 ](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [ログファイル転送のための転送制御ファイル](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [送信テンプレートマクロ](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [送信マクロの例](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
@@ -347,7 +346,7 @@ ht-degree: 100%
       + [Audience Manager と Adobe Campaign の統合（Adobe Campaign ドキュメントを開く）](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
-   + [Amazon S3：概要](reference/amazon-s3.md)
+   + [Amazon S3：概要 ](reference/amazon-s3.md)
    + [広告主のユースケース](reference/advertiser-use-cases.md)
    + [パブリッシャーのユースケース](reference/publisher-use-cases.md)
    + [ベータ環境](reference/beta-environment.md)
@@ -376,11 +375,11 @@ ht-degree: 100%
       + [データ収集コンポーネント](reference/system-components/components-data-collection.md)
       + [データ処理のコンポーネント](reference/system-components/components-data-processing.md)
       + [Tag Management コンポーネント](reference/system-components/components-tag-management.md)
-      + [プラットフォームアーキテクチャ：データフローマップ](reference/system-components/components-platform-architecture.md)
+      + [プラットフォームアーキテクチャ：データフローマップ ](reference/system-components/components-platform-architecture.md)
       + [エッジデータセンターについて](reference/system-components/components-edge.md)
    + [コードおよびテキスト要素のスタイル規則](reference/code-style-elements.md)
    + [Audience Manager のタイムゾーン](reference/aam-time-zones.md)
-   + [TLS 1.0 および 1.1 の廃止 ](reference/tls-support.md)
+   + [TLS 1.0 および 1.1 の廃止](reference/tls-support.md)
    + [demdex ドメインの呼び出しについて](reference/demdex-calls.md)
    + [Audience Manager の訪問者認証ステータス](reference/visitor-authentication-states.md)
 + よくある質問（FAQ）{#faqs}
@@ -403,7 +402,7 @@ ht-degree: 100%
    + [連絡先情報および法的事項](/help/using/help-legal/help-legal-contact.md)
 + カスタマーサポートに関するよくある問題 {#top-support-issues}
    + [概要](/help/using/support-issues/support-issues-overview.md)
-   + [10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？ ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [重複レポートページに特性やセグメントが表示されないのはなぜですか？](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [読み取り専用ユーザーが特性およびセグメントを作成、編集または削除できるのはなぜですか？](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Audience Manager の顧客ではないのに、サイトに Audience Manager JavaScript 呼び出しが表示される](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
