@@ -5,9 +5,8 @@ seo-title: Adobe Audience Manager（AAM）でのオーディエンスデータ�
 title: オーディエンスデータの送信
 feature: 受信データ転送
 exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 100%
 
