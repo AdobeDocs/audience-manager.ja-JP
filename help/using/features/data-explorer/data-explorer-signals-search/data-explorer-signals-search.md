@@ -3,15 +3,14 @@ description: 特定の期間に受信した使用済みおよび未使用のシ�
 seo-description: 特定の期間に受信した使用済みおよび未使用のシグナルを検索します。シグナルを検索するには、Audience Data／Signals／Search に移動します。
 seo-title: シグナル検索
 title: シグナル検索
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: 'データエクスプローラ '
+exl-id: 4cc363eb-9102-4c48-8cd5-efc52ee1c2fd
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '95'
 ht-degree: 100%
 
 ---
-
 
 # シグナル検索の概要 {#signals-search}
 
