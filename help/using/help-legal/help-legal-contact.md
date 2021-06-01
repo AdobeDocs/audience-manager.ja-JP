@@ -4,15 +4,14 @@ seo-description: アドビへの問い合わせに役立つ情報と、本製品
 seo-title: 連絡先情報および法的事項
 solution: Audience Manager
 title: 連絡先情報および法的事項
-feature: Support
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: サポート
+exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
-
 
 # 連絡先情報および法的事項 {#legal-contact}
 
@@ -29,9 +28,9 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 
 ## サービス、利用可能な機能、課金 {#billing}
 
-ソリューションの設定によっては、このドキュメントで説明されている一部のオプションをご利用いただけない場合があります。各アカウントはそれぞれ異なるので、価格、お支払期限、ご利用条件については、契約書を参照してください。ご利用のサービスレベルの追加や変更をご希望の場合や、現在のサービスに対するご質問は、担当のアカウントマネージャーにお問い合わせください。
+ソリューションの設定によっては、このドキュメントで説明されている一部のオプションをご利用いただけない場合があります。各アカウントはそれぞれ異なるので、価格、支払期限、利用条件については、契約書をご確認ください。ご利用のサービスレベルの追加や変更をご希望の場合や、現在のサービスに対するご質問は、担当のアカウントマネージャーにお問い合わせください。
 
-## 法的事項  {#legal}
+## 法的事項 {#legal}
 
 Published by Adobe Systems Incorporated.
 
