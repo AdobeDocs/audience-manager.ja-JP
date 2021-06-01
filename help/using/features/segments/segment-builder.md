@@ -5,15 +5,14 @@ seo-title: セグメントビルダー
 solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-feature: Segments
-translation-type: ht
-source-git-commit: 9e0c936ba514e517bcbd7572420118293f9a791f
-workflow-type: ht
+feature: セグメント
+exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Segment Builder] {#segment-builder}
 
@@ -198,5 +197,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [Cookie の宛先の作成](../../features/destinations/create-cookie-destination.md)
->* [URL 宛先の作成](../../features/destinations/create-url-destination.md)
+* [URL 宛先の作成](../../features/destinations/create-url-destination.md)
 
