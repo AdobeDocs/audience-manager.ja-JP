@@ -7,14 +7,13 @@ solution: Audience Manager
 title: ID の監視と拒否リスト登録
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 99%
 
 ---
-
 
 # ID の監視と拒否リスト登録
 
