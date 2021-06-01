@@ -4,15 +4,14 @@ seo-description: Predictive Audiences は、データサイエンスを使用し
 seo-title: Predictive Audiences の概要
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
-feature: Algorithmic Models
-translation-type: tm+mt
-source-git-commit: 3c39ef38d2833d5d706641f70649251d79b2ee6f
+feature: アルゴリズムモデル
+exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1513'
 ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Predictive Audiences] 概要 {#predictive-audiences}
 
