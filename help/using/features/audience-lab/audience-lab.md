@@ -7,9 +7,8 @@ title: Audience Lab
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
 exl-id: b7fbeb03-52aa-4489-8fcb-45bc2d26621d
-translation-type: ht
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 100%
 
