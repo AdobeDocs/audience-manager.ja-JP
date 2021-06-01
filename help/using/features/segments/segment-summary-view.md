@@ -5,16 +5,15 @@ seo-title: セグメントの詳細ページ
 solution: Audience Manager
 title: セグメントの詳細ページ
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
-keywords: IDタイプ分類， ID分類，オーディエンスIDレポート，クロスデバイス，クロスデバイスID，デバイスID
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+keywords: IDタイプの分類、ID分類、オーディエンスIDレポート、クロスデバイス、クロスデバイスID、デバイスID
+feature: セグメント
+exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '416'
 ht-degree: 96%
 
 ---
-
 
 # セグメントの詳細ページ {#segment-summary-view}
 
