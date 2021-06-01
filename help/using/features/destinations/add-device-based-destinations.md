@@ -4,15 +4,14 @@ seo-description: この記事では、Audience Manager ユーザーインター�
 seo-title: 新しいデバイスベースの宛先の追加
 solution: Audience Manager
 title: 新しいデバイスベースの宛先の追加
-feature: Destination Basics
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 宛先の基本
+exl-id: c5d7de2e-085d-48b9-a596-381503c79f55
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
-
 
 # 新しいデバイスベースの宛先の追加 {#add-new-device-based-destinations}
 
