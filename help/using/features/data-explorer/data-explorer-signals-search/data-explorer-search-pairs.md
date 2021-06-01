@@ -4,15 +4,14 @@ seo-description: キー値ペアに基づいて 1 つまたは複数のシグナ
 seo-title: キー値ペアによるシグナルの検索
 title: キー値ペアによるシグナルの検索
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'データエクスプローラ '
+exl-id: d598da6b-8dc0-47ce-8389-1973b1803711
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
-
 
 # キー値ペアによるシグナルの検索 {#search-signals-by-key-value-pairs}
 
