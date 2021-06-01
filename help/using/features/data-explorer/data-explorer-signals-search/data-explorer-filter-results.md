@@ -4,15 +4,14 @@ seo-description: シグナルタイプに基づいてシグナル検索の結果
 seo-title: 検索結果のフィルタリング
 title: 検索結果のフィルタリング
 uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'データエクスプローラ '
+exl-id: df178712-6417-4c4d-b5f8-5a8c00bfcd12
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 100%
 
 ---
-
 
 # 検索結果のフィルタリング {#filter-search-results}
 
