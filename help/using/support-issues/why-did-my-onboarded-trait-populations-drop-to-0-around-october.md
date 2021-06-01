@@ -6,9 +6,8 @@ solution: Audience Manager
 title: 10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？
 feature: サポート
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 
