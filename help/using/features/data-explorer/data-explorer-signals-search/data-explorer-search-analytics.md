@@ -4,15 +4,14 @@ seo-description: Adobe Analytics も使用している Audience Manager ユー�
 seo-title: Adobe Analytics の詳細検索
 title: Adobe Analytics の詳細検索
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'データエクスプローラ '
+exl-id: 5a66623b-4d24-4f52-ba26-b59750d25f2c
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics の詳細検索 {#advanced-search-for-adobe-analytics}
 
