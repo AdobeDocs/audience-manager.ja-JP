@@ -7,9 +7,8 @@ title: 宛先の GDPR に関する考慮事項
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 feature: データガバナンスとプライバシー
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
 
