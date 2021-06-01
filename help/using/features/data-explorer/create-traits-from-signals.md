@@ -4,15 +4,14 @@ seo-description: すべてのシグナルから新しい特性を作成し（特
 seo-title: シグナルからの特性の作成
 title: シグナルからの特性の作成
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'データエクスプローラ '
+exl-id: 14308ef0-58eb-4b76-858c-d0da560f55fd
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '361'
 ht-degree: 100%
 
 ---
-
 
 # シグナルからの特性の作成
 
