@@ -7,9 +7,8 @@ title: Amazon S3：概要
 uuid: 8197ecdf-df8f-488d-bbc0-d8d4205b42b4
 feature: リファレンス
 exl-id: 12c4f00d-2916-4224-b834-d3a9ea86314a
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
