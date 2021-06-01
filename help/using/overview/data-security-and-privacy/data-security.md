@@ -7,9 +7,8 @@ title: Audience Manager におけるデータセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: データガバナンスとプライバシー
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -50,7 +49,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **安全なアクセス：** Audience Manager では、システムにログインするには、強力なパスワードが必要です。詳しくは、[パスワード要件](../../reference/password-requirements.md)を参照してください。
 
-## プライバシーおよび個人を特定できる情報（PII）{#pii}
+## プライバシーおよび個人を特定できる情報（PII） {#pii}
 
 個人情報の安全を維持するのに役立つプロセスです。その他のプライバシー情報については、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/experience-cloud.html)を参照してください。
 
@@ -58,7 +57,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **IP アドレス：** Audience Manager は、IP アドレスを収集します。IP アドレスは、データ処理およびログ収集処理に使用されます。また、地域／場所の検索およびターゲティングに必要です。さらに、取得したログファイル内のすべての IP アドレスは、90 日以内に難読化されます。
 
-## データのパーティション分割 {#data-partitioning}
+## データのパーティション分割  {#data-partitioning}
 
 個々のクライアントが所有するデータを保護するのに役立つプロセスです。
 
@@ -66,7 +65,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 **レポートでのデータのパーティション分割：**&#x200B;クライアント ID は、すべてのレポートテーブルの識別キーの一部で、レポートクエリは、ID でフィルタリングされます。これは、お客様のデータが Audience Manager の別のお客様のレポートに表示されるのを防ぐのに役立ちます。
 
-## 受信サーバー間（S2S）転送 {#inbound-s2s}
+## 受信サーバー間（S2S）転送  {#inbound-s2s}
 
 Adobe Audience Manager は、S2S オンボードデータファイルをアドビのシステムに転送する 2 つの主要な方法をサポートします。
 
