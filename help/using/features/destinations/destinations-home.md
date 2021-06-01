@@ -4,16 +4,14 @@ seo-description: 宛先のランディングページには、URL、Cookie、サ
 seo-title: 宛先の管理
 solution: Audience Manager
 title: 宛先の管理
-feature: Destination Basics
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 宛先の基本
+exl-id: 367bad0f-d7d6-4dd5-9717-85ac6eda47ab
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
-
-
 
 # 宛先ホームページ {#destinations-home}
 
