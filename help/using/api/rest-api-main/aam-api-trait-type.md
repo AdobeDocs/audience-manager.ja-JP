@@ -6,14 +6,13 @@ solution: Audience Manager
 title: 特性タイプメソッド
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
-
 
 # 特性タイプメソッド {#trait-type-methods}
 
