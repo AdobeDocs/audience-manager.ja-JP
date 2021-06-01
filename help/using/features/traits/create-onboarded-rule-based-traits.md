@@ -6,15 +6,14 @@ seo-title: ルールベースまたはオンボードの特性の作成
 solution: Audience Manager
 title: ルールベースまたはオンボードの特性の作成
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
-
 
 # 必要に応じてページアプリを作成 [!UICONTROL Rules-Based] [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
