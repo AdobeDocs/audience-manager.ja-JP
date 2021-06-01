@@ -7,9 +7,8 @@ title: 特性およびセグメントビルダーのブール式
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 feature: リファレンス
 exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%
 
@@ -83,5 +82,5 @@ c_tb_boolean.xml
 >[!MORELIKETHIS]
 >
 >* [特性ビルダーでの比較演算子の使用](../features/traits/trait-comparison-operators.md)
->* [特性ビルダーでの演算順序](../features/traits/trait-operator-precedence.md)
+* [特性ビルダーでの演算順序](../features/traits/trait-operator-precedence.md)
 
