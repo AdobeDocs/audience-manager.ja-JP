@@ -6,9 +6,8 @@ solution: Audience Manager
 title: Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？
 feature: サポート
 exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 
