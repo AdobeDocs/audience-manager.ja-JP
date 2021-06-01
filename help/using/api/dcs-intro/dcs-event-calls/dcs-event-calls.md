@@ -6,14 +6,13 @@ solution: Audience Manager
 title: DCS イベント呼び出し API
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 7eb0ce70-5871-441a-920a-97a711482dde
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 100%
 
 ---
-
 
 # DCS イベント呼び出し API {#dcs-event-call-apis}
 
