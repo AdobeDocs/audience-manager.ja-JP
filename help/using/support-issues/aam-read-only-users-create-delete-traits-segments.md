@@ -4,9 +4,8 @@ solution: Audience Manager
 title: 読み取り専用ユーザーが特性およびセグメントを作成、編集または削除できるのはなぜですか？
 feature: サポート
 exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 100%
 
