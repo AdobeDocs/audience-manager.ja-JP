@@ -7,9 +7,8 @@ title: Audience Manager の宛先としての OAS
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
 feature: サードパーティ統合
 exl-id: cf919c27-691f-424b-be83-040f03e34455
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 100%
 
@@ -47,7 +46,7 @@ Audience Manager はブラウザー Cookie に対してセグメントデータ�
 >[!MORELIKETHIS]
 >
 >* [get_aamCookie コード](../../features/destinations/get-aam-cookie-code.md)
->* [キーと値のペアの解説](../../reference/key-value-pairs-explained.md)
+* [キーと値のペアの解説](../../reference/key-value-pairs-explained.md)
 
 
 ## OAS の宛先の作成 {#oas-dest-setup}
