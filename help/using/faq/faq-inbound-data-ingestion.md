@@ -6,15 +6,14 @@ seo-title: 顧客データのインバウンドの取得に関するよくある
 solution: Audience Manager
 title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Onboarding Offline Data
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: オフラインデータのオンボーディング
+exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 100%
+source-wordcount: '1364'
+ht-degree: 99%
 
 ---
-
 
 # 顧客データのインバウンドの取得に関するよくある質問 {#inbound-customer-data-ingestion-faq}
 
