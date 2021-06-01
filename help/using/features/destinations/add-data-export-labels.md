@@ -4,16 +4,14 @@ seo-description: データ書き出しラベルは、データソースに設定
 seo-title: 宛先へのデータ書き出しコントロールの追加
 solution: Audience Manager
 title: 宛先へのデータ書き出しコントロールの追加
-feature: Data Export Controls
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: データ書き出しコントロール
+exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 100%
 
 ---
-
-
 
 # 宛先へのデータ書き出しラベルの追加 {#add-data-export-labels}
 
@@ -44,3 +42,4 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [データソースの作成](../../features/manage-datasources.md#create-data-source)
+
