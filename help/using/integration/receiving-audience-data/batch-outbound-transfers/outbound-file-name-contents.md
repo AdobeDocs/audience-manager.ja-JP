@@ -5,15 +5,14 @@ seo-title: 送信データファイル名：構文と例
 solution: Audience Manager
 title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 送信データ転送
+exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
-
 
 # 送信データファイル名：構文と例 {#outbound-data-file-name-syntax-and-examples}
 
