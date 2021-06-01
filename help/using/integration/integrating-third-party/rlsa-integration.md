@@ -7,9 +7,8 @@ title: Google AdWords リマーケティングリストへのセグメントの�
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: サードパーティ統合
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -72,7 +71,7 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [[!DNL Destinations]](../../features/destinations/destinations.md)
->* [ [!DNL URL Destination]](../../features/destinations/create-url-destination.md) の作成
->* [AdWords リマーケティングリストについて](https://support.google.com/adwords/answer/2472738?hl=ja)
->* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000)
+* [ [!DNL URL Destination] の作成 ](../../features/destinations/create-url-destination.md)
+* [AdWords リマーケティングリストについて](https://support.google.com/adwords/answer/2472738?hl=ja)
+* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000)
 
