@@ -6,15 +6,14 @@ seo-title: 顧客データフィード
 solution: Audience Manager
 title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
-feature: Customer Data Feeds
-translation-type: tm+mt
-source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
+feature: 顧客データフィード
+exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1935'
 ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
@@ -49,7 +48,7 @@ ht-degree: 100%
 
 [!UICONTROL CDF]ファイルのデータ要素および配列を出現順に列挙し定義します。定義にはデータタイプが含まれていますが、この情報は [!UICONTROL CDF] ファイルには含まれていません。
 
-## 定義 {#definitions}
+## Definitions {#definitions}
 
 [!UICONTROL CDF] ファイルには、以下に定義するフィールドの一部または全部が含まれています。内部ファイル組織について詳しくは、[顧客データフィードファイルの構造](#cdf-file-structure)を参照してください。
 
