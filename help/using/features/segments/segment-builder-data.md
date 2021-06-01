@@ -5,15 +5,14 @@ seo-title: セグメントビルダーにおける特性とセグメントのユ
 solution: Audience Manager
 title: セグメントビルダーにおける特性とセグメントのユーザー数データ
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: セグメント
+exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1251'
 ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Segment Builder] の [!UICONTROL Trait][!UICONTROL Segment] {#trait-and-segment-population-data-in-segment-builder}
 
@@ -138,5 +137,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](../../faq/faq-profile-merge.md)
->* [プロファイルリンク](../profile-merge-rules/merge-rules-overview.md)
+* [プロファイルリンク](../profile-merge-rules/merge-rules-overview.md)
 
