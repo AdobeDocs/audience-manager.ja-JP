@@ -4,15 +4,14 @@ seo-description: Audience Manager で過去 7 日以内に受信した未使用�
 seo-title: シグナルダッシュボード
 title: シグナルダッシュボード
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'データエクスプローラ '
+exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
-
 
 # シグナルダッシュボード {#signals-dashboard}
 
