@@ -6,15 +6,14 @@ seo-title: 宣言された ID
 solution: Audience Manager
 title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-feature: ID Syncs
-translation-type: tm+mt
-source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
+feature: ID同期
+exl-id: a480671a-797d-405d-905d-98ab4ef71369
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 100%
+source-wordcount: '1191'
+ht-degree: 99%
 
 ---
-
 
 # [!UICONTROL Declared IDs] {#declared-ids}
 
