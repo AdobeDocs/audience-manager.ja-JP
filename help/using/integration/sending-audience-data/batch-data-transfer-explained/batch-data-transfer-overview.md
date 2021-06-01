@@ -1,14 +1,13 @@
 ---
 description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。
-keywords: 受信，バッチ，バッチアップロード，バッチデータ
+keywords: インバウンド、バッチ、バッチアップロード、バッチデータ
 seo-description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。これをおこなうには、Audience Manager のバッチアップロードオプションを使用します。
 seo-title: Audience Manager へのバッチデータ送信の概要
 solution: Audience Manager
 title: Audience Manager へのバッチデータ送信の概要
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
-feature: Inbound Data Transfers
+feature: 受信データ転送
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '491'
@@ -41,7 +40,7 @@ ht-degree: 98%
 ファイル名およびコンテンツは、厳密なガイドラインに従います。このガイドのこれらの仕様に従って、データファイルの命名や編成をおこなう&#x200B;*必要があります。*&#x200B;以下を参照してください。
 
 * [受信データファイルの Amazon S3 の名前に関する要件](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [ 受信データファイルコンテンツ：構文、変数、例](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+* [受信データファイルコンテンツ：構文、変数、例](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## オフラインマーケティング活動に使用可能なオンラインデータ
 
