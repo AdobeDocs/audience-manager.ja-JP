@@ -5,15 +5,14 @@ seo-title: 精度とリーチ
 solution: Audience Manager
 title: 精度とリーチ
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 647b283a-fcfa-4e3f-8667-50c6aacbc78a
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '353'
 ht-degree: 100%
 
 ---
-
 
 # 精度とリーチ {#accuracy-and-reach}
 
