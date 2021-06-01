@@ -5,15 +5,14 @@ keywords: 特性;特性;特性の概要
 seo-title: 特性の概要
 solution: Audience Manager
 title: 特性の概要
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Traits] 概要 {#traits-overview}
 
