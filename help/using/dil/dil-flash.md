@@ -5,15 +5,14 @@ seo-title: Flash DIL
 solution: Audience Manager
 title: FlashDIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: DIL の実装
+exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '640'
 ht-degree: 100%
 
 ---
-
 
 # Flash DIL {#flash-dil}
 
@@ -27,7 +26,7 @@ c_flash_dil_toc.xml
 
 [!UICONTROL Flash DIL] は、Audience Manager でビデオ再生データを操作するための [!DNL ActionScript] コードライブラリです。[!DNL Flash DIL] は、Adobe [!UICONTROL AppMeasurement] ライブラリが Analytics に渡す SWF コンテンツをキャプチャすることにより機能します。[!DNL Flash DIL] はデータを独立した [!UICONTROL DIL] JavaScript データ収集モジュールに送信します。この情報は Audience Manager に渡されます。Analytics データ（[!UICONTROL Props]、[!UICONTROL eVars]、イベントなど）は [!DNL FLA] ファイルからキャプチャした後、Audience Manager で特性や未使用シグナルとして使用できます。
 
-## 区切り文字のタイプFlash DIL データ収集 {#requirements}
+## 区切り文字のタイプFlash DIL データ収集  {#requirements}
 
 一般的な実装およびコード関連の要件です。
 
@@ -140,8 +139,9 @@ r_flash_dil_actionscript.xml
 >[!NOTE]
 >
 >* このコードがサポートするパートナーインスタンス（`d.partner`）は、[!DNL Flash] オブジェクトごとに 1 つだけです。
->
->* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
+   >
+   >
+* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
 
 
 ```js
@@ -158,7 +158,7 @@ s.loadModule(d);
 >[!MORELIKETHIS]
 >
 >* [特性](../features/traits/trait-details-page.md)
->* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
->* [キーと値のペアの解説](../reference/key-value-pairs-explained.md)
->* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
+* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
+* [キーと値のペアの解説](../reference/key-value-pairs-explained.md)
+* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
 
