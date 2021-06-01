@@ -6,14 +6,13 @@ solution: Audience Manager
 title: DCS からのデータ受信
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: c6a87e5a-63cc-44d7-b6f0-ac8ee845fd00
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '421'
 ht-degree: 100%
 
 ---
-
 
 # DCS からのデータ受信 {#receive-data-from-the-dcs}
 
