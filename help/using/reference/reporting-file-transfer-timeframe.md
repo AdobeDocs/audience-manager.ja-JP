@@ -7,9 +7,8 @@ title: データ配信やファイル処理の時間がレポートに及ぼす�
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: リファレンス
 exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%
 
