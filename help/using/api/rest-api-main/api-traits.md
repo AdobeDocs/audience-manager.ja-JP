@@ -6,14 +6,13 @@ solution: Audience Manager
 title: 特性 API メソッド
 uuid: 7359070c-0d7b-4dd9-8b8b-028e41bb5a4e
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 65e1b6cd-6f52-4668-b570-d71ed88bc223
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '59'
 ht-degree: 100%
 
 ---
-
 
 # 特性 API メソッド {#trait-api-methods}
 
@@ -25,3 +24,4 @@ ht-degree: 100%
 >
 >* [Adobe Audience Manager API に関するドキュメント](https://bank.demdex.com/portal/swagger/index.html)
 >* [Audience Manager の API コードの移行](../../api/api-swagger-migration.md)
+
