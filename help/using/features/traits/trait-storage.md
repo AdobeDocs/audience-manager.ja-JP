@@ -5,15 +5,14 @@ seo-title: 特性ストレージ
 solution: Audience Manager
 title: 特性ストレージ
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 97d9951e-a339-4dd9-8a67-b7884752533b
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
-
 
 # 特性ストレージ {#trait-storage}
 
