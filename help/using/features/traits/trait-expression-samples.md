@@ -5,15 +5,14 @@ seo-title: ブール演算子と比較演算子を使用した式のサンプル
 solution: Audience Manager
 title: ブール演算子と比較演算子を使用した式のサンプル
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 100%
 
 ---
-
 
 # ブール演算子と比較演算子を使用した式のサンプル {#sample-expressions-with-boolean-and-comparison-operators}
 
