@@ -7,9 +7,8 @@ title: プロファイルリンクデバイスグラフのユースケース
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 feature: プロファイル結合
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 100%
 
@@ -49,7 +48,7 @@ Audience Manager は、1 つのセグメントに対し、プロファイルの�
 
 >[!MORELIKETHIS]
 >
->* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
->* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
->* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
+>* [外部デバイスグラフのユースケース](external-graph-use-cases.md)
+* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
+* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
 
