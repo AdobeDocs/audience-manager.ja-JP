@@ -7,9 +7,8 @@ title: メディアデータの統合
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
 feature: Adobe Campaign との統合
 exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 
@@ -28,5 +27,5 @@ Audience Manager に対してピクセル呼び出しを使用して（しばし
 ログ取り込みを設定するには、次の記事を参照してください。
 
 * [Google キャンペーンマネージャーデータファイルを Audience Manager に読み込む](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Google Ad Manager データファイルを Audience Manager に読み込む](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Google Ad Manager データファイルを Audience Manager に読み込む ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
 * 汎用ログファイルのログ取り込みを設定する[ログデータとメタデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
