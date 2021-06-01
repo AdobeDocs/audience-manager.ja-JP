@@ -7,9 +7,8 @@ title: プロファイル結合ルールとデバイスのセグメント化解�
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: プロファイル結合
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
@@ -52,5 +51,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](../../faq/faq-profile-merge.md)
->* [Instant Cross-Device Suppression](instant-cross-device-suppression.md)
+* [Instant Cross-Device Suppression](instant-cross-device-suppression.md)
 
