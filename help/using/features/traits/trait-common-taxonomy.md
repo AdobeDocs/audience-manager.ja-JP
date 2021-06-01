@@ -6,15 +6,14 @@ seo-title: 一般的なカテゴリへの特性の分類
 solution: Audience Manager
 title: 一般的なカテゴリへの特性の分類
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '389'
 ht-degree: 100%
 
 ---
-
 
 # 一般的なカテゴリへの特性の分類 {#classifying-traits-with-a-common-taxonomy}
 
