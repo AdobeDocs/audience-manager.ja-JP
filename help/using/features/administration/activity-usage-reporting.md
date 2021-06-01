@@ -7,9 +7,8 @@ solution: Audience Manager
 title: アクティビティ使用状況レポート
 feature: 使用状況と請求
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -67,7 +66,7 @@ ht-degree: 100%
 
 ![aur-hover](assets/aur-hover.png)
 
-## [!UICONTROL Activity Usage Reports] の書き出し {#export}
+## [!UICONTROL Activity Usage Reports] の書き出し  {#export}
 
 Audience Manager のアクティビティの使用状況レベルをより詳細に把握するために、含めるレコードのタイプに基づいて [!UICONTROL Activity Usage Report] を書き出すことができます。
 
