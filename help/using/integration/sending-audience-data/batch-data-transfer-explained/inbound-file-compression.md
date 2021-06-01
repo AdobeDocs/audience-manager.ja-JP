@@ -5,9 +5,8 @@ seo-title: 受信データ転送ファイルのファイル圧縮
 solution: Audience Manager
 title: 受信データ転送ファイルのファイル圧縮
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
-feature: Inbound Data Transfers
+feature: 受信データ転送
 exl-id: 9b3e3bef-2c93-4801-8f4f-04d9d42fd952
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '232'
