@@ -4,15 +4,14 @@ seo-description: 論理演算子を使用して、キー値ペアのグループ
 seo-title: サポートされる論理演算子
 title: サポートされる論理演算子
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'データエクスプローラ '
+exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # サポートされる論理演算子 {#supported-logical-operators}
 
