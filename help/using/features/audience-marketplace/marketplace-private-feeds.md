@@ -6,14 +6,13 @@ solution: Audience Manager
 title: 非公開データフィード
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
 feature: Audience Marketplace
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 34eb6194-c57b-4836-a6df-6889a2cec703
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1092'
 ht-degree: 100%
 
 ---
-
 
 # 非公開データフィード {#private-data-feeds}
 
@@ -166,7 +165,3 @@ Audience Manager アカウントで、以下の設定で新しい cookie デー�
 データプロバイダーがデータフィードへのアクセスを許可すると、**Audience Marketplace／Marketplace** のアカウントにフィードが表示されます。詳細を確認し、サブスクリプションボタンをオンにしてから、「**Review &amp; Subscribe**」をクリックします。サードーパーティの特性をどこで見つけるかについて詳しくは、[購読データフィードのストレージ](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee)を参照してください。
 
 これらの特性は、データプロバイダーのアカウントでのみ編集できます。
-
-
-
-
