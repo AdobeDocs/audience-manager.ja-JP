@@ -7,9 +7,8 @@ title: データフィードプロバイダーに対する請求
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
 exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
-translation-type: ht
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 100%
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 [!DNL Audience Marketplace] 請求レポートを生成すると、サブスクリプション購入者ごとに前月のデータフィードの使用状況を確認できます。前月のレポートはいつでも作成できます。ただし、当月の 10 日以降にレポートを生成したほうがレポートが正確になります。
 
-## 請求レポートのダウンロード {#download-billing-report}
+## 請求レポートのダウンロード  {#download-billing-report}
 
 レポートをダウンロードするには、次の手順を実行します。
 
@@ -125,6 +124,6 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [CPM データフィードの請求とインプレッション割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [定額データフィードに関する請求およびインプレッションの割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [CPM の使用状況の報告方法](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+* [定額データフィードに関する請求およびインプレッションの割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+* [CPM の使用状況の報告方法](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 
