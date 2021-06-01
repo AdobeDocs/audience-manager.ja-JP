@@ -5,9 +5,8 @@ seo-title: Adobe Audience Manager（AAM）のレポートの概要
 title: レポートの概要
 feature: レポートリファレンス
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
-translation-type: ht
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 100%
 
