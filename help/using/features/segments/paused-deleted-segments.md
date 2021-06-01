@@ -5,15 +5,14 @@ seo-title: 一時停止および削除されたセグメント
 solution: Audience Manager
 title: 一時停止および削除されたセグメント
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: セグメント
+exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 100%
 
 ---
-
 
 # 一時停止および削除されたセグメント {#paused-and-deleted-segments}
 
