@@ -6,14 +6,13 @@ solution: Audience Manager
 title: セグメントの宛先へのマッピング
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 906df6c5-f878-48e6-a804-eb5b4407f304
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
-
 
 # セグメントの宛先へのマッピング {#map-segments-to-a-destination}
 
@@ -585,6 +584,6 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [宛先](../../../features/destinations/destinations.md)
->* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
+* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
+* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
 
