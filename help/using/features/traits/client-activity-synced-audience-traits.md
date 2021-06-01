@@ -5,15 +5,14 @@ seo-title: アクティブオーディエンス特性とデータソース同期
 solution: Audience Manager
 title: アクティブオーディエンス特性とデータソース同期特性
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 8fa4ea24-1beb-40cb-bdec-540a3f7c2573
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 100%
 
 ---
-
 
 # アクティブオーディエンス特性とデータソース同期特性 {#active-audience-traits-and-data-source-synced-traits}
 
