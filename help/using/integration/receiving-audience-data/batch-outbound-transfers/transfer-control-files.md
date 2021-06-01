@@ -5,15 +5,14 @@ seo-title: ログファイル転送のための転送制御ファイル
 solution: Audience Manager
 title: ログファイル転送のための転送制御ファイル
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
-feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
+feature: 送信データ転送
+exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 99%
 
 ---
-
 
 # ログファイル転送のための転送制御ファイル {#transfer-control-files-for-log-file-transfers}
 
