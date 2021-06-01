@@ -7,9 +7,8 @@ title: メタデータファイルのコンテンツの形式
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 feature: ログファイル
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
