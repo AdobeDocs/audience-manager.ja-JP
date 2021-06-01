@@ -4,15 +4,14 @@ seo-description: グローバルデータソースを使用して、デバイス
 seo-title: グローバルデータソース
 solution: Audience Manager
 title: グローバルデータソース
-feature: Data Sources
-translation-type: tm+mt
-source-git-commit: cb84f95d52c2e851cb0c016cb25f408f2d79d01b
+feature: データソース
+exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
-
 
 # グローバルデータソース {#global-data-sources}
 
