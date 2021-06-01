@@ -5,15 +5,14 @@ seo-title: 宛先マクロの定義
 solution: Audience Manager
 title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
-feature: Destination Basics
-translation-type: tm+mt
-source-git-commit: fc13643681eebec17a95607482f2864e81b95820
+feature: 宛先の基本
+exl-id: 7be4b417-046c-4fe3-a53c-e4e0ed36acb9
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 100%
 
 ---
-
 
 # 宛先マクロの定義 {#destination-macros-defined}
 
@@ -112,3 +111,4 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [宛先マクロの定義](../../features/destinations/destination-macros.md#destination-macros-defined)
+
