@@ -7,9 +7,8 @@ title: Audience Manager のタイムゾーン
 uuid: ff4710a9-edee-470c-9ab0-85c1789a2837
 feature: リファレンス
 exl-id: bb89cf76-dd43-454b-aaa8-8e5415493ecc
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
