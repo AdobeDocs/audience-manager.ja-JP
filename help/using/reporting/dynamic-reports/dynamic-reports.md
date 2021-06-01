@@ -7,9 +7,8 @@ title: インタラクティブな重複レポート
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
 feature: Overlap Reports
 exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -26,7 +25,7 @@ ht-degree: 100%
 + [未使用シグナルレポート](unused-signals.md)
 + [ルックアップテーブルによるログファイル処理時間の改善](lookup-tables.md)
 + [データスライダーを使用したレポート結果のフィルタリング](data-sliders.md)
-+ [重複レポート：更新スケジュールと最小セグメントサイズ](overlap-minimum-segment-size.md)
++ [重複レポート：更新スケジュールと最小セグメントサイズ ](overlap-minimum-segment-size.md)
 + [重複レポートの CSV ファイル](overlap-csv-files.md)
 
 <!-- 
