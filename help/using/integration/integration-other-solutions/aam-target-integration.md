@@ -7,9 +7,8 @@ title: Audience Manager と Target の統合
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
 feature: Adobe Target との統合
 exl-id: a8486778-305a-4f09-a4f8-0e412369228c
-translation-type: ht
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
