@@ -6,15 +6,14 @@ seo-title: フォルダー特性の管理
 solution: Audience Manager
 title: フォルダー特性の管理
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
-feature: Traits
-translation-type: tm+mt
-source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
+feature: 特性
+exl-id: fa7a8d2a-dacc-413e-89d6-d3b7ce7bbbe3
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '371'
 ht-degree: 100%
 
 ---
-
 
 # フォルダー特性の管理 {#manage-folder-traits}
 
