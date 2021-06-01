@@ -5,7 +5,6 @@ title: 標準およびシリアル  [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: 宛先の基本
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
-translation-type: tm+mt
 source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
 source-wordcount: '547'
