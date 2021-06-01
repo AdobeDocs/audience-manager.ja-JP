@@ -5,15 +5,14 @@ seo-title: 特性ルールの管理
 solution: Audience Manager
 title: 特性ルールの管理
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
-feature: Traits
-translation-type: tm+mt
-source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
+feature: 特性
+exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 100%
 
 ---
-
 
 # 特性ルールの管理 {#managing-trait-rules}
 
@@ -122,8 +121,8 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [新しいルールグループの作成](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [特性ルールの作成](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [特性ルールの削除](../../features/traits/manage-trait-rules.md#delete-trait)
->* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+* [特性ルールの作成](../../features/traits/manage-trait-rules.md#create-trait-rule)
+* [特性ルールの削除](../../features/traits/manage-trait-rules.md#delete-trait)
+* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
 
