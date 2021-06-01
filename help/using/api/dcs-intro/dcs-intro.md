@@ -4,14 +4,13 @@ seo-title: Adobe Audience Manager（AAM）のデータ収集サーバー（DCS�
 description: Audience Manager のデータ収集サーバー（DCS）をプログラムで操作するためのコード、メソッド、手法の説明です。
 seo-description: Audience Manager のデータ収集サーバー（DCS）をプログラムで操作するためのコード、メソッド、手法の説明です。
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: be18a59c-c70d-4dcb-ae84-58ab0a3b8921
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '170'
 ht-degree: 100%
 
 ---
-
 
 # データ収集サーバー（DCS）API メソッドおよびコード
 
