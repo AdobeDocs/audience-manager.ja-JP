@@ -6,14 +6,13 @@ solution: Audience Manager
 title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
-translation-type: tm+mt
-source-git-commit: ab8745a8ba24154793201893a39a039b5a098833
+exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 100%
 
 ---
-
 
 # [!DNL REST] [!DNL APIs] の使用の手引き {#getting-started-with-rest-apis}
 
@@ -47,7 +46,7 @@ ht-degree: 100%
 >
 >認証方法に応じて、リクエスト [!DNL URLs] を調整する必要があります。使用すべきホスト名について詳しくは、[環境](#environments)の節を参照してください。
 
-## [!DNL JWT]（[!DNL Service Account]）Adobe I/O による認証 {#jwt}
+## [!DNL JWT]（[!DNL Service Account]）Adobe I/O による認証  {#jwt}
 
 ### Adobe I/O の概要 {#adobeio}
 
@@ -72,7 +71,7 @@ ht-degree: 100%
 >
 >[!DNL Audience Manager] [!DNL REST APIs] を自動的に設定および操作するため、プログラムによって [!DNL JWT] を生成できます。詳しい手順については、[JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)を参照してください。
 
-## [!DNL OAuth] 認証（廃止予定）{#oauth}
+## [!DNL OAuth] 認証（廃止予定） {#oauth}
 
 >[!WARNING]
 > [!DNL Audience Manager]  [!UICONTROL REST API] トークン認証および [!DNL OAuth 2.0] を使用した更新は、非推奨（廃止予定）となりました。
@@ -263,7 +262,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 >
 >[!DNL Audience Manager] ベータ環境は、実稼動環境の小規模なスタンドアロンバージョンです。テストするデータはすべてこの環境で入力および収集する必要があります。
 
-## バージョン  {#versions}
+## バージョン {#versions}
 
 これらの [!DNL API] では、新しいバージョンが定期的にリリースされています。新しいリリースでは、[!DNL API] バージョン番号が増加しています。リクエスト [!DNL URL] では、バージョン番号は次の例のように `v<version number>` として参照されます。
 
@@ -288,6 +287,6 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 >
 >* [JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [OAuth 認証](../../api/rest-api-main/aam-api-getting-started.md#oauth)
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+* [OAuth 2.0](https://oauth.net/2/)
+* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
