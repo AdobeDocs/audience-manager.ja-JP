@@ -4,15 +4,14 @@ seo-description: 特性の除外を使用すると、モデリングワークフ
 seo-title: アルゴリズムモデル  特性の除外
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
-feature: Algorithmic Models
-translation-type: tm+mt
-source-git-commit: 56f3b605b434f18c07d36196fd6ae21743401294
+feature: アルゴリズムモデル
+exl-id: 7e2df04d-7e07-408d-b82a-9571b5839ff4
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '689'
 ht-degree: 100%
 
 ---
-
 
 # 類似（look-alike）モデリング：特性の例外 {#algorithmic-models-trait-exclusion}
 
