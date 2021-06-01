@@ -6,14 +6,13 @@ solution: Audience Manager
 title: 'SDK コード '
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 100%
 
 ---
-
 
 # [!DNL SDK] コード {#sdk-code}
 
