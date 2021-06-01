@@ -7,9 +7,8 @@ title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: ログファイル
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 100%
 
@@ -143,6 +142,6 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [Audience Optimization レポートのデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
->* [ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ](../../../integration/media-data-integration/click-data-pixels.md)
->* [ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ](../../../integration/media-data-integration/impression-data-pixels.md)
+* [ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ](../../../integration/media-data-integration/click-data-pixels.md)
+* [ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ](../../../integration/media-data-integration/impression-data-pixels.md)
 
