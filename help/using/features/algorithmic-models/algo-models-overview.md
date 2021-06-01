@@ -1,19 +1,18 @@
 ---
 description: Audience Manager で使用可能なアルゴリズムモデルを説明します。
-keywords: 分析モデルで予測オーディエンスの動作方法
+keywords: アルゴモデルは、予測オーディエンスを機能させる方法をモデルします。
 seo-description: Audience Manager で使用可能なアルゴリズムモデルを説明します。
 seo-title: アルゴリズムモデルの概要
 solution: Audience Manager
 title: アルゴリズムモデルの概要
-feature: Algorithmic Models
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: アルゴリズムモデル
+exl-id: ee5c3392-2756-45c5-b325-41a51d3c494f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '292'
 ht-degree: 97%
 
 ---
-
 
 # アルゴリズムモデルの概要
 
