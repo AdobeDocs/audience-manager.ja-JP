@@ -8,9 +8,8 @@ title: データプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: データガバナンスとプライバシー
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 100%
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 
 ## データアクセスリクエスト {#access-data}
 
-個々のデータアクセスリクエストは、[Privacy Service UI](https://privacyui.cloud.adobe.io)（ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)）を使用して、または Privacy Service API （ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)、[!DNL API] リファレンスは[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)）を呼び出して送信できます。
+個々のデータアクセスリクエストは、[Privacy Service UI](https://privacyui.cloud.adobe.io)（ドキュメントは[こちら](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)）を使用して、または Privacy Service API （ドキュメントは[こちら](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)、[!DNL API] リファレンスは[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)）を呼び出して送信できます。
 
 [プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
@@ -47,7 +46,7 @@ ht-degree: 100%
 
 ## データ削除リクエスト {#delete-data}
 
-データ削除リクエストは、[Privacy Service UI](https://privacyui.cloud.adobe.io)（ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)）を使用して、または Privacy Service API （ドキュメントは[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)、[!DNL API] リファレンスは[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)）を呼び出して送信できます。
+データ削除リクエストは、[Privacy Service UI](https://privacyui.cloud.adobe.io)（ドキュメントは[こちら](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)）を使用して、または Privacy Service API （ドキュメントは[こちら](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)、[!DNL API] リファレンスは[こちら](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)）を呼び出して送信できます。
 
 [プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
@@ -72,7 +71,7 @@ ht-degree: 100%
 
 [!DNL Audience Manager] は、オプトアウト管理に関する業界全体の標準をサポートしています。[!DNL Audience Manager] でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
 
-データアクセスおよび削除の要求は[プライバシーサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.translate.html)で処理されますが、現在、オプトアウト要求は [!DNL DCS API] を通じてサポートされています。オプトアウト [!DNL API] 呼び出しの例を以下に示します。
+データアクセスおよび削除の要求は[プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)で処理されますが、現在、オプトアウト要求は [!DNL DCS API] を通じてサポートされています。オプトアウト [!DNL API] 呼び出しの例を以下に示します。
 
 ### グローバルオプトアウト要求
 
@@ -88,7 +87,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p><a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audience Manager に対する直接 API 呼び出し </p> </td> 
