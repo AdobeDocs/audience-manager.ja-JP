@@ -3,13 +3,12 @@ description: Audience Optimization for Advertisers では、自社の有料メ�
 seo-description: Audience Optimization for Advertisers では、自社の有料メディアキャンペーン全体で Audience Manager セグメントによってどの程度パフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager のセグメント指標を組み合わせることで、セグメントを中心とした最適化および効果的なチャネルミックスを導き出します。
 seo-title: Audience Optimization for Advertisers
 solution: Audience Manager
-title: Audience Optimization for Advertisers
+title: Audience Optimizationfor Advertisers
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
 feature: Audience Optimization レポート
 exl-id: 13595778-3d3a-4c83-a84f-4bc3af1ee367
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 * データファイル：これらのレポートを使用して独自のデータ、または [!DNL Audience Manager] と統合されていないソースからのデータを分析する場合、そのデータのデータファイルとメタデータファイルを作成およびアップロードする必要があります。詳しくは、[オーディエンスの最適化レポートのデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)と [オーディエンスの最適化レポートのデータおよびメタデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照してください。
 
-## [!UICONTROL Role-Based Access Controls]（RBAC）{#rbac}
+## [!UICONTROL Role-Based Access Controls]（RBAC） {#rbac}
 
 表示できるレポートのタイプは、どの [!UICONTROL RBAC] グループに割り当てられているかに応じて異なります。詳しくは、[管理](../../../features/administration/administration-overview.md)と[グループの作成](../../../features/administration/administration-overview.md#create-group)を参照してください。
 
