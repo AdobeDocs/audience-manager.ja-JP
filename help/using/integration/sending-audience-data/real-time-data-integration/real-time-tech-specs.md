@@ -5,9 +5,8 @@ seo-title: 受信リアルタイムデータ転送の技術仕様
 solution: Audience Manager
 title: 受信リアルタイムデータ転送の技術仕様
 uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
-feature: Inbound Data Transfers
+feature: 受信データ転送
 exl-id: 4d777b67-6330-4582-b398-abc267b84d83
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '193'
