@@ -7,9 +7,8 @@ title: プラットフォームアーキテクチャ データフローマップ
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
 feature: 'システムコンポーネント '
 exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
