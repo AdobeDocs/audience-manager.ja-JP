@@ -5,15 +5,14 @@ seo-title: データ書き出しコントロール
 solution: Audience Manager
 title: データ書き出しコントロール
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
-feature: Data Export Controls
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: データ書き出しコントロール
+exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '908'
 ht-degree: 100%
 
 ---
-
 
 # データ書き出しコントロール {#data-export-controls}
 
