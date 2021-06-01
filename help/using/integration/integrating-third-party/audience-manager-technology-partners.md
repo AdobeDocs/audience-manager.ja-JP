@@ -6,9 +6,8 @@ keywords: アクティブ化、アクティベートパートナー、宛先、�
 solution: Audience Manager
 title: Adobe Audience Manager テクノロジーパートナー
 feature: サードパーティ統合
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 * **ICDS** = この列には、Instant Cross-Device Suppression をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **モバイルデバイス ID** = この列には、Audience Manager からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 
-<br>
+<br> 
 
 | 統合 | 更新日 | セグメント解除 | IAB TCF の同意シグナルの受信 | ICDS | モバイルデバイス ID |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
