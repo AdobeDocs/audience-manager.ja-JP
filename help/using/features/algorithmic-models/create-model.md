@@ -6,15 +6,14 @@ seo-title: アルゴリズムモデルの作成
 solution: Audience Manager
 title: アルゴリズムモデルの作成
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
-feature: Algorithmic Models
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: アルゴリズムモデル
+exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 100%
 
 ---
-
 
 # 類似（look-alike）モデルの作成 {#create-an-algorithmic-model}
 
