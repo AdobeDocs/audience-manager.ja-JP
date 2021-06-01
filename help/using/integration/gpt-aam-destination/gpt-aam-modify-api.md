@@ -7,9 +7,8 @@ title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: サードパーティ統合
 exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 
@@ -79,5 +78,5 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >[!MORELIKETHIS]
 >
 >* [GPT 宛先の作成](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+* [Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
