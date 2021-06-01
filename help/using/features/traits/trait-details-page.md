@@ -5,16 +5,15 @@ seo-title: 特性の詳細ページ
 solution: Audience Manager
 title: 特性の詳細ページ
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: IDタイプ分類， ID分類，オーディエンスIDレポート，クロスデバイス，クロスデバイスID，デバイスID
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+keywords: IDタイプの分類、ID分類、オーディエンスIDレポート、クロスデバイス、クロスデバイスID、デバイスID
+feature: 特性
+exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '671'
 ht-degree: 98%
 
 ---
-
 
 # [!UICONTROL Trait]の詳細ページ {#trait-details-page}
 
@@ -58,7 +57,7 @@ ht-degree: 98%
 
 * **[!UICONTROL Identity Type Breakdown]**：最初の 3 つのエントリには、[!UICONTROL trait]に適合する母集団が最も大きい、上位 3 つの[!UICONTROL cross-device data sources]が降順に表示されます。4 番目のエントリには、上位 3 つにない[!UICONTROL cross-device data sources]から[!UICONTROL trait]に適合するその他すべての [!DNL DPUUIDs]（[!DNL CRM IDs]）の合計が表示されます。このレポートは、ページの右上にある [!UICONTROL Show Results By] ドロップダウンメニューで「[!UICONTROL Cross-device ID]」を選択した場合にのみ表示されます。デフォルトのドロップダウンオプションは [!UICONTROL Device ID] で、このレポートは表示されません。
 
-   ![特性グラフ](assets/trait-identity.png)
+   ![trait-graph](assets/trait-identity.png)
 
    >[!NOTE]
    >
