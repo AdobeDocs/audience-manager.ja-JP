@@ -5,15 +5,14 @@ seo-title: 特性ビルダーの概要
 solution: Audience Manager
 title: 特性ビルダーの概要
 uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 4bb53775-9ee0-45b6-9396-f4cb93e6e6c9
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
-
 
 # 特性ビルダーの概要 {#about-trait-builder}
 
