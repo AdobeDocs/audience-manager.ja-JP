@@ -5,15 +5,14 @@ seo-title: セグメントリスト表示
 solution: Audience Manager
 title: セグメントリスト表示
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
-feature: Segments
-translation-type: ht
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
-workflow-type: ht
+feature: セグメント
+exl-id: 983ce119-52af-40fb-9d64-3063e85f2b3d
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 100%
 
 ---
-
 
 # セグメントリスト表示 {#segments-list-view}
 
