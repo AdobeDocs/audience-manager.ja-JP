@@ -6,15 +6,14 @@ seo-title: フォルダー特性について
 solution: Audience Manager
 title: フォルダー特性について
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 特性
+exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '547'
 ht-degree: 100%
 
 ---
-
 
 # フォルダー特性：詳細 {#folder-traits-about}
 
