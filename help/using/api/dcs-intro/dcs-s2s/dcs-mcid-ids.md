@@ -6,14 +6,13 @@ solution: Audience Manager
 title: Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
-translation-type: ht
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
-workflow-type: ht
+exl-id: 0b855237-ac14-4c0e-b831-221b9218840f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得 {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
@@ -67,7 +66,7 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
-### コールバックの使用法と目的 {#callback-usage}
+### コールバックの使用法と目的  {#callback-usage}
 
 `callback` はオプションです。この引数がなくても、この関数は機能しますが、訪問者のブラウザーに [!DNL Experience Cloud] Cookie が設定されている場合にのみ ID を返します。訪問者の Cookie が見つからないか、訪問者に ID がない場合、この関数は空の `()` オブジェクトを返します。このような状況は、ページが読み込まれて訪問者が新しい ID を受け取った後でも、起こる可能性があります。これを避けるために、この関数に `callback` を指定して、ページの読み込み後に訪問者 ID の有無を確認させることができます。`callback` がなければ、訪問者 ID が後で訪問者のブラウザーに書き込まれても、関数は ID を返しません。
 
