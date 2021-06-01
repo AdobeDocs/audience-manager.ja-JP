@@ -6,14 +6,13 @@ solution: Audience Manager
 title: データ統合ライブラリ API メソッド
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '188'
 ht-degree: 100%
 
 ---
-
 
 # データ統合ライブラリ API メソッド {#data-integration-library-api-methods}
 
