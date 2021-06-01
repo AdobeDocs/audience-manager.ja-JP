@@ -6,14 +6,13 @@ solution: Audience Manager
 title: Audience Lab の高度な機能
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
 feature: Audience Lab
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 40b2c8c2-63c0-485d-8217-beab34d7a7f1
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # [!DNL Audience Lab] の高度な機能 {#audience-lab-advanced-functionality}
 
