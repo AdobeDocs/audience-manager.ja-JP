@@ -6,9 +6,8 @@ solution: Audience Manager
 title: メタデータファイルのステータスの更新
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: ログファイル
-translation-type: ht
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
