@@ -139,9 +139,8 @@ r_flash_dil_actionscript.xml
 >[!NOTE]
 >
 >* このコードがサポートするパートナーインスタンス（`d.partner`）は、[!DNL Flash] オブジェクトごとに 1 つだけです。
-   >
-   >
-* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
+>
+>* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
 
 
 ```js
@@ -158,7 +157,7 @@ s.loadModule(d);
 >[!MORELIKETHIS]
 >
 >* [特性](../features/traits/trait-details-page.md)
-* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
-* [キーと値のペアの解説](../reference/key-value-pairs-explained.md)
-* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
+>* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
+>* [キーと値のペアの解説](../reference/key-value-pairs-explained.md)
+>* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
 
