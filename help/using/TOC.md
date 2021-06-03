@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager を使用して、サイト訪問者に関する商業的に関連のある情報を収集し、市場性のあるセグメントを作成し、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
 feature-set: Audience Manager
-source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
+source-git-commit: cf9368d4690b61066646054543cc60d390eea021
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 100%
+source-wordcount: '1809'
+ht-degree: 99%
 
 ---
 
@@ -393,6 +393,7 @@ ht-degree: 100%
    + [People-Based Destinations に関する FAQ](faq/faq-people-based-destinations.md)
    + [製品の機能に関するよくある質問](faq/faq-features.md)
    + [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq/faq-profile-merge.md)
+   + [類似(look-alike)モデリングに関するFAQ](faq/faq-lookalike-modeling.md)
    + [Predictive Audiences に関する FAQ](faq/faq-predictive-audiences.md)
    + [ターゲティングに関するよくある質問](faq/faq-targeting.md)
    + [レポートに関するよくある質問](faq/faq-reporting.md)
