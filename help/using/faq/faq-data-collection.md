@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP アドレス; STFP IP アドレス; FTP アドレス
 feature: 管理
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 24284321570ee5eb9632801a4a333a11b532e386
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 96%
 
 ---
 
@@ -205,3 +205,11 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 **ユーザープロファイルがすべての[地域](../api/dcs-intro/dcs-api-reference/dcs-regions.md)に同期されるまで、どれくらいかかりますか？**
 
 ユーザープロファイルがすべての地域にわたって同期するまでに、通常は 24 時間かかります。ただし、稀に、48 時間かかることもあります。
+
+ 
+
+**非アクティブなAmazon S3ユーザーアクセスキーはどうなりますか？**
+
+Adobeは、Audience Managerのお客様にAudience Manager[!DNL Amazon S3]バケットのユーザーアクセスキーを提供します。 セキュリティ上の理由から、無操作状態が100日間続くと、キーは自動的に無効になります。
+
+アクセスキーを再度有効にするか、新しいアクセスキーをリクエストするには、カスタマーサポートにお問い合わせください。
