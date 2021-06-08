@@ -24,9 +24,9 @@ ht-degree: 98%
 
 Audience Manager と Adobe Experience Platform の間でオーディエンス共有機能を使用すると、Audience Manager の特性とセグメントを Adobe Experience Platform と共有できます。また、その逆も可能です。Audience Manager と Adobe Experience Platform の間でオーディエンス共有を有効にするには、[[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/ja-JP/experience-platform/sources/connectors/adobe-applications/audience-manager.html) が必要です。
 
-Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)を活用することができます。
+Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)を活用することができます。
 
-Audience Manager では、次のように、Data Management Platform のユースケースに対して Experience Platform セグメントを使用できます。
+Audience Manager では、次のような、データ管理プラットフォームのユースケースに対して Experience Platform セグメントを使用できます。
 * [サードパーティデータ](/help/using/overview/data-types-collected.md#third-party-data)をセグメントに追加する
 * [アルゴリズムモデリング](/help/using/features/algorithmic-models/understanding-models.md)
 * Experience Platform の[宛先カタログ](https://docs.adobe.com/content/help/ja-JP/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)でまだサポートされていない宛先に対してセグメントをアクティブ化します。
