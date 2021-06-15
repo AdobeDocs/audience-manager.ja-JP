@@ -6,7 +6,7 @@ title: Instant Cross-Device Suppression
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: プロファイル結合
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
@@ -67,4 +67,4 @@ ht-degree: 100%
 時間設定に関しては、次の側面に留意してください。
 
 * セグメントは[エッジ](../../reference/system-components/components-edge.md)に格納されます。その期間は、デバイスプロファイルが[!UICONTROL Edge]に格納されるのと同じ期間、つまり、リアルタイムのインタラクションが最後に発生してから 14 日間です。データ保持について詳しくは、[データ保持に関する FAQ](../../faq/faq-privacy.md#data-retention-faq) を参照してください。
-* セグメント化解除操作が [!DNL DCS] 地域全体に伝達されるまでに、およそ 24 時間かかります。[!DNL DCS] 地域の詳細については、[こちら](../..//reference/system-components/components-data-collection.md)と[こちら](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
+* セグメント化解除操作が [!DNL DCS] 地域全体に伝達されるまでに、およそ 24 時間かかります。[!DNL DCS] 地域の詳細については、[こちら](../../reference/system-components/components-data-collection.md)と[こちら](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
