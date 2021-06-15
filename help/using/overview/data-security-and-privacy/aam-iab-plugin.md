@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience ManagerIAB TCF 用 プラグイン
 feature: データガバナンスとプライバシー
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '2441'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ Audience Manager で IAB TCF 用 Audience Manager プラグインを使用する
 
 Audience Manager で IAB TCF サポートを有効にするには、[IAB をオプトインで設定する方法](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html)に関するドキュメントをお読みください。
 
-これをおこなう最も簡単な方法は、[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) を使用して、プロパティに [!DNL ECID Opt-in] オプトインを追加することです。Launch 拡張機能のセットアップ方法については、[ECID オプトイン拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)をお読みください。
+これをおこなう最も簡単な方法は、[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) を使用して、プロパティに [!DNL ECID Opt-in] オプトインを追加することです。Launch 拡張機能のセットアップ方法については、[ECID オプトイン拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)をお読みください。
 
 ## IAB フレームワークを使用する場合のユーザー選択ワークフロー {#user-choice-workflow}
 
