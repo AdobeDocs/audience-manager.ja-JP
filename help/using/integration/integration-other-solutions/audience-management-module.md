@@ -8,10 +8,10 @@ title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics との統合
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ### [!DNL Adobe Experience Platform Launch] を使用した実装 
 
-[!DNL Adobe] では、[Launch](https://docs.adobe.com/content/help/ja-JP/launch/using/overview.html) 拡張機能を使用して、プロパティで [!DNL Adobe Analytics] および [!DNL Audience Manager] を実装することをお勧めします。この場合、コードを手動でコピーする必要はありません。代わりに、以下の画像に示すように、[!DNL Analytics Launch] 拡張機能でデータ共有を有効にする必要があります。[Adobe Analytics 拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager)のドキュメントも参照してください。
+[!DNL Adobe] では、[Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) 拡張機能を使用して、プロパティで [!DNL Adobe Analytics] および [!DNL Audience Manager] を実装することをお勧めします。この場合、コードを手動でコピーする必要はありません。代わりに、以下の画像に示すように、[!DNL Analytics Launch] 拡張機能でデータ共有を有効にする必要があります。[Adobe Analytics 拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager)のドキュメントも参照してください。
 
 >[!TIP]
 >
