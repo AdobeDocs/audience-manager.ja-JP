@@ -6,10 +6,10 @@ solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 100%
+source-wordcount: '1173'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ### 例
 
-対応するオンボード特性 ID について、下の表から顧客 ID を認定したい場合。[DPUUID](../../reference/ids-in-aam.md) は、ID 999999 のデータソースに格納され、Audience Manager パートナー の ID は 123 だとします。
+対応するオンボード特性 ID について、下の表から顧客 ID を認定したい場合。ここで、[DPUUID](../../reference/ids-in-aam.md)がID 999999のデータソースに格納され、Audience ManagerのデータソースIDが123であるとします。
 
 | 顧客 ID（DPUUID） | オンボードの特性 ID |
 | -------------------------------------- | ------------------- |
