@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 重複レポートページに特性やセグメントが表示されないのはなぜですか？
 feature: サポート
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
@@ -28,4 +28,4 @@ ht-degree: 100%
 * 特性の場合：14 日間で 28,000 件
 * セグメントの場合：14 日間で 70,000 人のリアルタイムユーザー
 
-これについて詳しくは、[選択した Audience Manager レポートでのデータサンプリングとエラー率](..//reporting/report-sampling.md)のページを参照してください。
+これについて詳しくは、[選択した Audience Manager レポートでのデータサンプリングとエラー率](../reporting/report-sampling.md)のページを参照してください。
