@@ -6,9 +6,9 @@ user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager を使用して、サイト訪問者に関する商業的に関連のある情報を収集し、市場性のあるセグメントを作成し、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
 feature-set: Audience Manager
 source-git-commit: cf9368d4690b61066646054543cc60d390eea021
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1809'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -238,7 +238,7 @@ ht-degree: 99%
          + [DCS API リファレンスの概要](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS API メソッド](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS エラーコード、メッセージ、例](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [ID の監視と拒否リスト登録](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [ID の監視とブロックリストへの登録](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [DCS の地域 ID、場所、ホスト名](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [DCS 呼び出しでのキー値ペアの形式](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [競合状態とエラー処理](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
@@ -393,7 +393,7 @@ ht-degree: 99%
    + [People-Based Destinations に関する FAQ](faq/faq-people-based-destinations.md)
    + [製品の機能に関するよくある質問](faq/faq-features.md)
    + [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](faq/faq-profile-merge.md)
-   + [類似(look-alike)モデリングに関するFAQ](faq/faq-lookalike-modeling.md)
+   + [類似（look-alike）モデリングに関するよくある質問](faq/faq-lookalike-modeling.md)
    + [Predictive Audiences に関する FAQ](faq/faq-predictive-audiences.md)
    + [ターゲティングに関するよくある質問](faq/faq-targeting.md)
    + [レポートに関するよくある質問](faq/faq-reporting.md)
