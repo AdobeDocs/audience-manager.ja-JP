@@ -8,10 +8,10 @@ title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ c_bulk_start.xml
 
 ## ダウンロード {#download}
 
-**[こちら](assets/BAAAM_V2_20200502.xlsm)** で最新のワークシートをダウンロードします。
+**[こちら](assets/BAAAM_V2_20210609.xlsm)**（2021年6月に最終更新）から最新のワークシートをダウンロードします。
 
 ## 前提条件 {#prereqs}
 
