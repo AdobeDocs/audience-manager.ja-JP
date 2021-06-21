@@ -7,7 +7,7 @@ title: セグメントビルダーにおける特性とセグメントのユー�
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: セグメント
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 
 | 指標 | 説明 |
----------|----------|
+|---------|----------|
 | [!UICONTROL Total Trait Population] | 選択した特性がプロファイルにある一意の ID の数。 |
 
 
@@ -122,7 +122,7 @@ ht-degree: 100%
 
 
 | 列 A | 列 B |
----------|----------|
+|---------|----------|
 | [!UICONTROL Real-Time Population (Existing) ] | 現在のプロファイルのうち、デバイスグラフで連結された他の最大 100 台のデバイスプロファイルと結合された場合に、Audience Manager での認識時にセグメントについて認定する特性を含むプロファイルを使用する、リアルタイムで認識されるデバイスの実際の数。 |
 | [!UICONTROL Total Population (Existing)] | デバイスグラフで連結された他の最大 100 台のデバイスプロファイルで結合された場合にセグメントについて認定されたプロファイルを使用するデバイスの合計数。 |
 
