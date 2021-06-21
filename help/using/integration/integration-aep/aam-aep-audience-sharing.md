@@ -7,7 +7,7 @@ title: Audience Manager と Adobe Experience Platform の間でのオーディ�
 keywords: AEP オーディエンス共有、AEP セグメント、プラットフォームセグメント, セグメント共有, オーディエンス共有、セグメントの共有
 feature: Platform との統合
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 6900b56b4e0258ed0c4ddf94ef7b1f2c7e48a50d
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Audience Manager では、次のような、データ管理プラットフォー
 オーディエンス共有のユースケースの概要については、次の表を参照してください。
 
 | **ユースケース** | **Adobe Experience Platform** | **Audience Manager** | **コアサービス** |
----------|----------|---------|---------|
+|---------|----------|---------|---------|
 | **オーディエンス共有** | <ul><li>Audience Manager データを使用した顧客プロファイルの強化</li><li>Experience Platform セグメントでの Audience Manager データの使用</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Adobe Target や Advertising Cloud、Marketo など、他の Experience Cloud ソリューションで Experience Platform セグメントを使用します。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -83,7 +83,7 @@ Experience Platform セグメントから自動的に作成された特性の例
 
 
 | 項目番号 | 名前 | 説明 |
----------|----------|---------|
+|---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | Experience Platform セグメントから作成された特徴は、Audience Manager でオンボードの特性として作成されます。 |
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!UICONTROL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 3 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
@@ -103,7 +103,7 @@ Experience Platform セグメントから自動的に作成されたセグメン
 ![セグメントのスクリーンショット](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | 項目番号 | 名前 | 説明 |
----------|----------|---------|
+|---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
