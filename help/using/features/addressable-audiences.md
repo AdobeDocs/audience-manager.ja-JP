@@ -8,7 +8,7 @@ title: アドレス可能なオーディエンス
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: マッチ率
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 100%
@@ -47,7 +47,7 @@ ht-degree: 100%
 [!UICONTROL Addressable Audiences]のランディングページには、次の 3 つの指標が表示されます。
 
 | 指標 | 説明 |
----------|----------|
+|---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | この指標は、*過去 30 日間*&#x200B;のお客様の[!UICONTROL Customer Addressable Audience]（上記の表で説明）を表します。 |
 | **[!UICONTROL Match Rate]** | この指標は、*過去 30 日間*&#x200B;のお客様の[!UICONTROL Addressable Audience Match Rate]（上記の表で説明）を表します。 |
 | **[!UICONTROL Lifetime Addressable Audience (Device)]** | プラットフォームレベルにおいて、レポートのルックバック期間に [!DNL Audience Manager] のお客様とのやり取りがあり、この[!UICONTROL destination]と一致するデバイスの総数。詳しくは、[プラットフォームレベルの指標](/help/using/features/addressable-audiences.md#platform-level-metrics)を参照してください。 |
