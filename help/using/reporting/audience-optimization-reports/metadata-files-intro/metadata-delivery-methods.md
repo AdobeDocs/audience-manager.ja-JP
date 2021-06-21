@@ -7,7 +7,7 @@ title: メタデータファイルの配信方法
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: ログファイル
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 
 | ファイルパラメーター | 説明 |
----------|----------|
+|---------|----------|
 | `.../log_ingestion/` | ストレージのディレクトリパスの先頭。セットアップがすべて完了したら、完全パスが与えられます。 |
 | `pid=<AAM ID>` | このキー値ペアは、Audience Manager の顧客 ID を含みます。 |
 | `dpid=<d_src>` | イベント呼び出し時に渡されるデータソース ID のキー値ペア。データソース ID は、ファイル内のすべてのコンテンツを、そのコンテンツが属する実際のデータに関連付ける値です。</br>例えば、ID が 123 で名前が「Advertiser Creative A」であるクリエイティブがあるとします。イベントの呼び出しでは ID しか渡されないので、メタデータファイルに「Advertiser Creative A」を入れる必要があります。キャンペーンとクリエイティブはデータソースに属しています。データソース ID はこれらをまとめるもので、これによりイベント呼び出しで送信される ID にファイルのコンテンツを正確に関連付けることができます。[イベント呼び出し ID によるファイル名、コンテンツ、配信パスの決定方法](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names)を参照してください。 |
