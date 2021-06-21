@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Facebook WCA の統合
 feature: サードパーティ統合
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -68,7 +68,7 @@ ht-degree: 100%
 `https://www.facebook.com/tr/?id=6876666666662303&ev=Adobe-Audience-Manager-Segment&cd[segID]=3401321,2993399,3263410&noscript=1`
 
 | パラメーター | 説明 |
----------|----------|
+|---------|----------|
 | `id` | [!DNL Facebook] ピクセル ID。オーディエンスピクセルを作成する際に、[!DNL Facebook Ad Manager] ユーザーで見つけることができます。 |
 | `ev` | イベント。任意の値。サイトでピクセルが実行し始めると、[!DNL Facebook Ad Manager] ユーザーインターフェイスに表示されます。詳しくは、[手順 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) の [!UICONTROL Include] 項目を参照してください。 |
 | `cd[segID]` | サイトでピクセルが起動を開始すると、[!DNL Facebook Ad Manager] 内で入力される追加パラメーター。`segID` は任意です。 |
@@ -91,7 +91,7 @@ ht-degree: 100%
  [!DNL Facebook] のヘルプドキュメントの[ウェブサイトカスタムオーディエンスを作成する](https://www.facebook.com/business/help/666509013483225)を参照してください。以下の表の「[!UICONTROL Create Audience]」オプションを選択します。
 
 | 項目 | 説明 |
----------|----------|
+|---------|----------|
 | Website traffic | カスタムの組み合わせ |
 | Include | <ul><li>**[!UICONTROL Event]**／**[!UICONTROL Adobe-Audience-Manager-Segment]** を選択します。手順 1 のピクセルの例では `ev` パラメーターの値でした。ピクセルがまだ実行されていない場合、「**[!UICONTROL Event]**」オプションまたは **[!UICONTROL Adobe-Audience-Manager-Segment]** が [!DNL Facebook]に ユーザーインターフェイス表示されないことがあります。</li><li>パラメーターの追加：「`segID`」を選択します。</li><li><p>**contains** 演算子を選択します。</p><p>訪問者が複数のセグメントに振り分けられる可能性があり、ピクセルパラメーターに複数の[!UICONTROL segment IDs] が存在する可能性があることを考えると、この操作は重要です。等号（`=`）演算子を使用すると、訪問者がオーディエンスに認定されないことがあり、ボリュームは少なくなります。</p></li><li>値を入力：[!DNL Audience Manager] セグメント ID を入力します。</li></ul> |
 | Add New Condition | オプションの設定。 |
