@@ -7,9 +7,9 @@ title: ワークフロー B - オフラインのみのデータに基づくパ�
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1173'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 
 ### 例
 
-対応するオンボード特性 ID について、下の表から顧客 ID を認定したい場合。ここで、[DPUUID](../../reference/ids-in-aam.md)がID 999999のデータソースに格納され、Audience ManagerのデータソースIDが123であるとします。
+対応するオンボード特性 ID について、下の表から顧客 ID を認定したい場合。[DPUUID](../../reference/ids-in-aam.md) が ID 999999 のデータソースに格納されていて、Audience Manager データソース ID が 123 だとしましょう。
 
 | 顧客 ID（DPUUID） | オンボードの特性 ID |
 | -------------------------------------- | ------------------- |
