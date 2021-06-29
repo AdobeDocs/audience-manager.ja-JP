@@ -7,7 +7,7 @@ title: 重複レポートページに特性やセグメントが表示されな�
 feature: サポート
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
 source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
