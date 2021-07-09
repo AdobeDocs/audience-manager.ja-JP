@@ -8,7 +8,7 @@ uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 feature: API
 exl-id: 081be8a7-5029-45b1-8fb1-0531d5090fe0
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Audience Manager チームのメンバーもまたエンジニア、開発者ま
 
 <!-- api-swagger-migration.xml -->
 
-改訂された コンテンツは今後 [Adobe Audience Manager API に関するドキュメント](https://bank.demdex.com/portal/swagger/index.html)のサイトから提供されます。[!DNL API]これからも、リリースごとに [!DNL API] メソッドの書き直しを少しずつ進めていきたいと思います。このため、利用可能なメソッドの一覧を確認するには、新しい場所と [REST API](../api/rest-api-main/rest-api-main.md) ドキュメントの両方を参照していただく必要があります。最終的には、すべての公開 [!DNL API] が [!DNL Audience Manager] の [!DNL API] ドキュメントサイトから提供されるようになります。次の表に、改訂および移行済みの [!DNL API] を示します。
+改訂された コンテンツは今後 [Adobe Audience Manager API に関するドキュメント](https://bank.demdex.com/portal/swagger/index.html)のサイトから提供されます。[!DNL API]これからも、リリースごとに [!DNL API] メソッドの書き直しを少しずつ進めていきたいと思います。このため、利用可能なメソッドの一覧を確認するには、新しい場所と [REST API](../api/rest-api-main/rest-api-main.md) ドキュメントの両方を参照していただく必要があります。最終的には、すべての公開 [!DNL API] が [!DNL Audience Manager] の [!DNL API] ドキュメントサイトから提供されるようになります。次の表に、改訂および移行済みの [!DNL API]を示します。
 
 <!--
 
