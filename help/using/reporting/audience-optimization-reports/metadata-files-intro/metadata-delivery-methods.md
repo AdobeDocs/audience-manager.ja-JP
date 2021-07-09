@@ -1,14 +1,14 @@
 ---
 description: メタデータファイルを送信または更新するには、メタデータファイルを Audience Manager アカウント用の特別な Amazon S3 ディレクトリに送信します。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 seo-description: メタデータファイルを送信または更新するには、メタデータファイルを Audience Manager アカウント用の特別な Amazon S3 ディレクトリに送信します。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
-seo-title: メタデータファイルの配信方法
+seo-title: 'メタデータファイルの配信方法 '
 solution: Audience Manager
-title: メタデータファイルの配信方法
+title: 'メタデータファイルの配信方法 '
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: ログファイル
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
 ht-degree: 100%
 
