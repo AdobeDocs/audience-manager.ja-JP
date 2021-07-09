@@ -8,9 +8,9 @@ uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: サードパーティ統合
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
 source-git-commit: 760d6a56754530368ac11a5c9f10c4be487de028
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 1. Audience Manager で、[ [!DNL URL destination]](../../features/destinations/create-url-destination.md)を作成するか、既存の[!DNL destination]を編集します。[!DNL destination]を作成する際には、次の設定を使用します。
    * Type：URL
    * Serialize：Enabled
-   * 区切り：セミコロン(&amp;semi;))
+   * 区切り：セミコロン（&amp;semi;）
 
 1. セクションで、[!DNL URL] [!DNL destination] の[!UICONTROL Segment Mappings]セクションで、手順 2 のコードを [!DNL URL] および [!DNL Secure URL] フィールドに追加します。[!DNL URL] および [!DNL Secure URL] フィールドで、コードにそれぞれ `http:` と `https:` のプレフィックスを付けます。
 
