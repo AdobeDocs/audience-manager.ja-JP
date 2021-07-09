@@ -9,7 +9,7 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: ログファイル
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
 source-git-commit: 7c46a246233c3519049197bac824f0ee0db29754
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1611'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ ht-degree: 100%
    <tr> 
    <td colname="col1"> <p> <code>Event Time</code> </p> </td> 
    <td colname="col2"> <p><code>d_time</code> </p> </td> 
-   <td colname="col3">インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。1970-01-01 00:00:00 UTC からのマイクロ秒単位で表示されます。</td> 
+   <td colname="col3">インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。1970-01-01 00:00:00 UTC からマイクロ秒単位で表示されます。</td> 
    <td colname="col4"> <p> <code>1570826763000</code> </p> </td> 
   </tr> 
   <tr> 
@@ -170,7 +170,7 @@ Removed  {importance="high"} for ExL
 
  <br>
 
-### [!DNL Google Ad Manager] ログのアクションにつながるシグナル {#ad-manager-logs-signals}
+### [!DNL Google Ad Manager] ログのアクションにつながるシグナル  {#ad-manager-logs-signals}
 
 この表は、[!DNL Google Ad Manager] ログファイルから取得されるアクションにつながるシグナルの一覧です。
 
