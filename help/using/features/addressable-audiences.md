@@ -9,7 +9,7 @@ uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: マッチ率
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1827'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 サードパーティの [!DNL cookies] が存在しない [!DNL Safari] やモバイルアプリのユーザーとの同期では、数値の不一致が生じます。メディアの配信ログでは、同期されたサードパーティの [!DNL cookies] に対する [!DNL Adobe] ID のみが提供されるので、パートナーによってはユーザーとの同期が困難になります。この結果、[!UICONTROL destinations]の[マッチ率が低下](../features/addressable-audiences.md#low-match-rates)する可能性があります。
 
-## [!UICONTROL Addressable Audiences] および [!UICONTROL Destinations] の日付範囲 {#date-ranges}
+## [!UICONTROL Addressable Audiences] および [!UICONTROL Destinations] の日付範囲  {#date-ranges}
 
 以下のセクションを読み、使用可能な日付範囲について、および [!UICONTROL Addressable Audience] または [!UICONTROL Destination] のレポートのそれぞれの間隔からのデータ経過時間を確認します。
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 | [!UICONTROL Customer Total Audience] | ルックバック期間に、御社のシステムにおける[!UICONTROL rule-based trait]、またはオフラインファイルからの[!UICONTROL onboarded trait]に適合したデバイスの数。 |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] は、割合で表されます。 |
 
-### セグメントレベルのマッチ率の指標  {#segment-level-metrics}
+### セグメントレベルのマッチ率の指標 {#segment-level-metrics}
 
 これらの指標は[!UICONTROL segment]のメンバーシップについてのデータを返します。これらは各[!UICONTROL segments]について、オーディエンスサイズに関するより詳細で正確な情報を提供します。
 
@@ -139,7 +139,7 @@ ht-degree: 100%
 |---|---|
 | [!DNL Audience Manager] [!UICONTROL Addressable Audience] | プラットフォームレベルにおいて、レポートのルックバック期間に [!DNL Audience Manager] のお客様とのやり取りがあり、選択した[!UICONTROL destination]と一致するデバイスの総数。<br><br>この指標は次の情報が得られるため便利です。<ul><li>[!DNL Audience Manager] がターゲットとする特定のターゲットとする宛先に到達できる[!UICONTROL total addressable audience]のサイズ。</li><li>ターゲットプラットフォームについての [!DNL Audience Manager] のプロファイルプールの規模、およびそのオーディエンスのサイズ。</li></ul> |
 
-## [!UICONTROL Customer] と [!UICONTROL Segment Addressable Audiences] の比較 {#comparing-metrics}
+## [!UICONTROL Customer] と [!UICONTROL Segment Addressable Audiences] の比較  {#comparing-metrics}
 
 1 つの指標が大幅に他と異なる場合、[!UICONTROL Customer Addressable Audience] と [!UICONTROL Segment Addressable Audience] の指標を比較しないでください。これらは個々に異なる独立した指標です。上記の説明のとおり、これらはそれぞれ異なるデータセットから引き出されるものです。そのため、一方の指標がもう一方の指標より大きくても、何も結論付けるべきではありません。これらの比較を通して言えるのは以下のことのみとなります。
 
@@ -147,7 +147,7 @@ ht-degree: 100%
 
 * [!UICONTROL Segment Addressable Audiences]は、*自社のファーストパーティデータとセカンドパーティおよびサードパーティデータのセグメント認定*&#x200B;に基づきます。この指標からは、ターゲットプラットフォームの[!UICONTROL addressable audiences]に関してより詳細で正確な情報が得られます。
 
-## [!UICONTROL Addressable Audiences] のマッチ率の低下の原因 {#low-match-rates}
+## [!UICONTROL Addressable Audiences] のマッチ率の低下の原因  {#low-match-rates}
 
 [!UICONTROL Addressable Audience]のマッチ率の低下またはレポートされる数値の不一致を引き起こす原因となる一般的な要素。
 
