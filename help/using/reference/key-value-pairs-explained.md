@@ -1,15 +1,15 @@
 ---
 description: 標準のキー値ペアとシリアル化されたキー値ペアを定義し説明します。
-keywords: integration code
+keywords: 統合コード
 seo-description: 標準のキー値ペアとシリアル化されたキー値ペアを定義し説明します。
-seo-title: キーと値のペアの解説
+seo-title: 'キーと値のペアの解説 '
 solution: Audience Manager
-title: キーと値のペアの解説
+title: 'キーと値のペアの解説 '
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: リファレンス
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ c_key_value_explained.xml
 * **キー値セパレーター：**&#x200B;キー値ペア内のキーと値を区切ります。
 * **シリアルセパレーター：**&#x200B;シリアル化されたキー値ペア内の個々の値を区切ります。
 
-## 標準およびシリアル化されたキー値要素  {#standard-serialized-key-value-elements}
+## 標準およびシリアル化されたキー値要素 {#standard-serialized-key-value-elements}
 
 
 | のタイプ | 例 | キー | キー値セパレーター | キー値デリミター | シリアルセパレーター |
