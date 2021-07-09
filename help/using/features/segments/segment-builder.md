@@ -8,7 +8,7 @@ uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: セグメント
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 まず、[Audience Manager でのセグメントの作成ビデオ](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)をご覧ください。このビデオでは、セグメントの作成プロセスに関する手順を説明します。詳しくは、以下のセクションを参照してください。
 
-## [!UICONTROL Segment] の作成 {#create-segment}
+## [!UICONTROL Segment] の作成  {#create-segment}
 
 ### セグメントビルダーのセクション
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 1. 「[特性](../../features/segments/segment-builder.md#segment-builder-controls-traits)」セクションで、以下の操作をおこないます。
    ![segment-builder-traits](assets/segment-builder-traits.png)
    * セグメントに追加する [!UICONTROL trait] を検索して、「**[!UICONTROL Add Trait]**」をクリックします。他の [!UICONTROL trait] を追加し、[!UICONTROL trait] グループを作成します。
-   * 「**[!UICONTROL Browse All Traits]**」をクリックして [!UICONTROL Advanced Search] モーダルを表示します名前、ID、説明、または [!UICONTROL traits] で [!UICONTROL data source] を検索します。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。[!UICONTROL traits]（[!UICONTROL Folder Trait]、[!UICONTROL Rule-based]、[!UICONTROL Onboarded] および [!UICONTROL Algorithmic]）や母集団タイプ（[デバイス ID](../../reference/ids-in-aam.md) および[クロスデバイス ID](../../reference/ids-in-aam.md)）で [!UICONTROL trait type] をフィルタリングできます。
+   * 「**[!UICONTROL Browse All Traits]**」をクリックして [!UICONTROL Advanced Search] モーダルを表示します. 名前、ID、説明、または [!UICONTROL traits] で [!UICONTROL data source] を検索します。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。[!UICONTROL traits]（[!UICONTROL Folder Trait]、[!UICONTROL Rule-based]、[!UICONTROL Onboarded] および [!UICONTROL Algorithmic]）や母集団タイプ（[デバイス ID](../../reference/ids-in-aam.md) および[クロスデバイス ID](../../reference/ids-in-aam.md)）で [!UICONTROL trait type] をフィルタリングできます。
       ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
    * [!UICONTROL segment] の作成時に有効な[特性レコメンデーション](trait-recommendations.md)を取得します。
    * [!UICONTROL traits] をクリックしてドラッグし、個別のグループを作成します。
@@ -136,7 +136,7 @@ ht-degree: 100%
 | **[!UICONTROL Marketplace Recommendations]** | 購読していない [!UICONTROL Audience Marketplace] データフィードから、類似した [!UICONTROL traits] のライブレコメンデーションを取得します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
 | 実際の [!UICONTROL Segment] サイズデータと推定セグメントサイズデータ | [セグメントビルダーにおける特性およびセグメント母集団データ](segment-builder-data.md)を参照してください。 |
 
-## [!UICONTROL Segment] から [!UICONTROL Traits] を削除します {#remove-traits}
+## [!UICONTROL Traits] から [!UICONTROL Segment] を削除します  {#remove-traits}
 
 [!UICONTROL segments] の [!UICONTROL traits] の管理は、[!UICONTROL segments] の実行可能性を維持するために重要な作業です。[!UICONTROL segment] から [!UICONTROL traits] を削除する必要がある場合は、以下の手順に従います。
 
@@ -166,7 +166,7 @@ ht-degree: 100%
 | **[!UICONTROL Search by Destination Name]** | 特定の [!UICONTROL destination] を名前で検索できます。検索するには、文字を入力します。検索語に基づいてフィールドが自動入力されます。終了したら、「**[!UICONTROL Add Destination]**」をクリックします。 |
 | **[!UICONTROL Browse All Destinations]** | 使用可能な&#x200B;*すべての* [!UICONTROL destinations] を参照します。ポップアップリストから [!UICONTROL destinations] を選択し、[!UICONTROL segment] に追加します。 |
 
-## [!UICONTROL Destination Mappings] ポップアップウィンドウのフィールド {#fields-in-dest-mappings}
+## [!UICONTROL Destination Mappings] ポップアップウィンドウのフィールド  {#fields-in-dest-mappings}
 
 [!UICONTROL Segment Builder] で [!UICONTROL destination] を選択すると、[!UICONTROL Add Destination] ダイアログが表示されます。このウィンドウには [!UICONTROL destination] とフィールドに関する静的情報が表示されます。フィールドは [!UICONTROL destination] タイプによって異なります。空のフィールドに必須の情報を入力し、[!UICONTROL destination mapping] を設定します。
 
