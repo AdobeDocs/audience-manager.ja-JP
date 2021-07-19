@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# セグメント間重複レポート {#segment-to-segment-overlap-report}
+# セグメント間重複レポート{#segment-to-segment-overlap-report}
 
 セグメント間で共有されるユニークユーザー数に関するデータを返します。
 
