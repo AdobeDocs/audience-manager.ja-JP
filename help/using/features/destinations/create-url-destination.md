@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# [!DNL URL Destination]の設定 {#configure-url-destination}
+# [!DNL URL Destination]の設定  {#configure-url-destination}
 
 [!DNL URL destination]は、ページから[!DNL destination]へのピクセル呼び出しをおこないます。[!UICONTROL Destination Builder] で [!DNL URL] [!DNL destination] を作成するには、次の指示に従います。
 
