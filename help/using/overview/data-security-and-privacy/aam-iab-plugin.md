@@ -7,7 +7,7 @@ title: Audience ManagerIAB TCF 用 プラグイン
 feature: データガバナンスとプライバシー
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Audience Manager で IAB TCF 用 Audience Manager プラグインを使用する
 
 ## レコメンデーションと実装方法 {#recommendations}
 
-Audience Manager で IAB TCF サポートを有効にするには、[IAB をオプトインで設定する方法](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/iab.html)に関するドキュメントをお読みください。
+Audience Manager で IAB TCF サポートを有効にするには、[IAB をオプトインで設定する方法](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html)に関するドキュメントをお読みください。
 
 これをおこなう最も簡単な方法は、[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja) を使用して、プロパティに [!DNL ECID Opt-in] オプトインを追加することです。Launch 拡張機能のセットアップ方法については、[ECID オプトイン拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)をお読みください。
 
@@ -189,7 +189,7 @@ IAB TCF 用 Audience Manager プラグインは、サイトの訪問者が適切
 
 IAB TCF 用 Audience Manager プラグインを正しく実装できているかをテストするには、[オプトインサービスの検証のユースケース 4](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88) を参照してください。
 
-## Audience Manager の IAB およびオプトアウト。優先順位。 {#iab-and-optout}
+## Audience Manager の IAB およびオプトアウト。優先順位。  {#iab-and-optout}
 
 ユーザーが選択できるもう一つのプライバシーオプションは、すべてのデータ収集をオプトアウトする機能です。アドビはユーザーに対し、[プライバシーの選択肢](https://www.adobe.com/jp/privacy/opt-out.html#customeruse)ページ内でオプトアウトを提供しています。
 
@@ -205,7 +205,7 @@ Audience Manager は、[ドキュメントの別の記事](data-privacy-requests
 
 ## その他のリソース {#additional-resources}
 
-* [Adobe Experience Platform ID サービスのオプトイン](https://docs.adobe.com/content/help/ja-JP/id-service/using/implementation/opt-in-service/optin-overview.html)
+* [Adobe Experience Platform ID サービスのオプトイン](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html)
 * [IAB Europe GDPR の透明性および同意フレームワーク](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
 * [IAB Europe GDPR の透明性および同意フレームワークの技術仕様](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
 * [IAB TCF プラグイン - ビデオデモ](https://helpx.adobe.com/jp/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)
