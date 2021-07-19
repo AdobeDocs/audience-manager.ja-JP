@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 広告ユニット間重複 {#ad-unit-overlap}
+# 広告ユニット間重複{#ad-unit-overlap}
 
 **[!UICONTROL Ad Unit Overlap]** レポートは、広告ユニット間の重複が多い部分と少ない部分を強調したヒートチャートとして表示されます。
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 **[!UICONTROL Ad Unit Overlap]** レポートを使用すると、Web プロパティ全体でオーディエンスが重複している部分についてのインサイトを得ることができます。このレポートでは、上位 100 件の関連プロパティを検討し、それらの間の重複を示します。
 
-## 広告ユニット間重複レポートの使用  {#using-the-report}
+## 広告ユニット間重複レポートの使用 {#using-the-report}
 
 **[!UICONTROL Top N Base Ad Units]** コントロールと **[!UICONTROL Top N Overlapping Ad Units]** コントロールを使用して、重複の広告ユニット数を選択します。それぞれ、最大 100 個の項目を選択できます。
 
