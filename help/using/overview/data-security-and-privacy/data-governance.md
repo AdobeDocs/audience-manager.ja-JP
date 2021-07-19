@@ -5,7 +5,7 @@ seo-title: データガバナンス
 solution: Audience Manager
 keywords: GDPR UI、GDPR API、CCPA、プライバシー、同意、難読化、ガバナンス
 title: データガバナンス
-feature: データガバナンス & プライバシー
+feature: データガバナンスとプライバシー
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
