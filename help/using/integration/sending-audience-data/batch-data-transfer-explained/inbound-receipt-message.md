@@ -10,11 +10,11 @@ exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# 受信処理後パートナーに送信されるメッセージの例 {#sample-message-to-partners-after-inbound-processing}
+# 受信処理後パートナーに送信されるメッセージの例{#sample-message-to-partners-after-inbound-processing}
 
 インバウンドの [!UICONTROL Server-to-Server] ファイルが処理されるたびに、パートナーソリューションに対してレシートが電子メールで送信されます。また、設定によってはパートナーにも送信されます。
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>From: aam-noreply@adobe.com </b> </p> <p> <b>Subject: Adobe Audience Manager Server-To-Server Processing Result:</b> </p> <p> <b>Dear Adobe Partner: (ID:7)</b> <b></b> </p> <p> <b>We have received your Adobe Audience Manager Server-To-Server file delivery</b> </p> <p> <b>File name:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Records received: 40669900</b> </p> <p><b>Format Errors: 0</b> </p> <p> <b>Invalid AAM ID: 112 </b> </p> <p> <b>No Matching AAM ID: 0 </b> </p> <p> <b>No Trait Realized: 26730823 </b> </p> <p> <b>Records processed: 40669900 </b> </p> <p> <b>Stored Records: 13938958 </b> </p> <p> <b>Total devices: 21 </b> </p> <p> <b>Total signals: 918878926 </b> </p> <p> <b>Total unused signals: 660348376 </b> </p> <p> <b>Total realized traits: 258086908 </b> </p> <p> <b>Total removed traits: 0 </b> </p> <p> <b>Total traits failed validation: 0 </b> </p> <p> <b>Total users that have traits which failed validation: 0 </b> </p> <p> <b>Job start time: 2018-05-17 18:07:49 </b> </p> <p> <b>Job end time: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>From: aam-noreply@adobe.com </b> </p> <p> <b>Subject: Adobe Audience Manager Server-To-Server Processing Result:</b> </p> <p> <b>Dear Adobe Partner: (ID:7)</b> <b></b> </p> <p> <b>We have received your Adobe Audience Manager Server-To-Server file delivery</b> </p> <p> <b>File name:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Records received: 40669900</b> </p> <p><b>Format Errors: 0</b> </p> <p> <b>Invalid AAM ID: 112 </b> </p> <p> <b>No Matching AAM ID: 0 </b> </p> <p> <b>No Trait Realized: 26730823 </b> </p> <p> <b>Records processed: 40669900 </b> </p> <p> <b>Stored Records: 13938958 </b> </p> <p> <b>Total devices: 21 </b> </p> <p> <b>Total signals: 918878926 </b> </p> <p> <b>Total unused signals: 660348376 </b> </p> <p> <b>Total realized traits: 258086908 </b> </p> <p> <b>Total removed traits: 0 </b> </p> <p> <b>Total traits failed validation: 0 </b> </p> <p> <b>Total users that have traits which failed validation: 0 </b> </p> <p> <b>ジョブの開始時間：2018-05-17 18:07:49  </b> </p> <p> <b>ジョブ終了時間：2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
