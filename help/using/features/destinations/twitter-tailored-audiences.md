@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# [!DNL Twitter Tailored Audiences] をセルフサービスデバイスベースの宛先として設定する {#configure-twitter}
+# [!DNL Twitter Tailored Audiences] をセルフサービスデバイスベースの宛先として設定する  {#configure-twitter}
 
 この記事では、[Twitter Cloud Audiences](https://business.twitter.com/ja/targeting/tailored-audiences.html) との統合を設定する方法を説明します。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ここでは、[!DNL Twitter Tailored Audiences] 用に新しいデバイスベースの宛先を設定する際に従う必要のある手順について説明します。このシナリオでは、アドビコンサルタントまたはカスタマーケアによって設定された既存の [!DNL Twitter Tailored Audiences] の宛先がないことを前提としています。
 
-### 手順 1.[!DNL Twitter Tailored Audiences] での認証 {#step1-authenticate-with-twitter}
+### 手順 1.[!DNL Twitter Tailored Audiences] での認証  {#step1-authenticate-with-twitter}
 
 デバイスベースの宛先を追加するには、Audience Managerと [!DNL Twitter Tailored Audiences] アカウントをリンクさせる必要があります。手順は次のとおりです。
 
