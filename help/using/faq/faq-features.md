@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# 製品の機能に関するよくある質問 {#product-features-and-functions-faq}
+# 製品の機能に関するよくある質問{#product-features-and-functions-faq}
 
 製品および機能に関するよくある質問と問題点の説明です。
 
