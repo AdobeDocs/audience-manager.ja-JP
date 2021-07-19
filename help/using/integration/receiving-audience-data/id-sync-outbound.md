@@ -14,7 +14,7 @@ ht-degree: 99%
 
 ---
 
-# 送信データ転送のための ID 同期 {#id-synchronization-for-outbound-data-transfers}
+# 送信データ転送のための ID 同期{#id-synchronization-for-outbound-data-transfers}
 
 Audience Manager とサードパーティデータプロバイダーの間でユーザー ID を同期するために、最初の `HTTP` 呼び出しで使用される構文およびパラメーターについて説明します。最初の ID 同期を試す前に、担当の Adobe Audience Manager コンサルタントにお問い合わせください。
 
