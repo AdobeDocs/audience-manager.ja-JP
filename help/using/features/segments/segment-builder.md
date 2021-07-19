@@ -8,7 +8,7 @@ uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: セグメント
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 100%
 
