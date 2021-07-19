@@ -60,7 +60,7 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 メディア会社の場合、訪問者に関連性のある広告を提供すると同時に、広告スペースをプレミアム価格で販売できるように、オーディエンスを分類したい。
 
-## [!UICONTROL Predictive Audiences] モデルの動作 {#how-predictive-audiences-models-work}
+## [!UICONTROL Predictive Audiences] モデルの動作  {#how-predictive-audiences-models-work}
 
 [!UICONTROL Predictive Audiences] モデルを作成する場合、次の 3 つの手順を実行します。
 
