@@ -6,7 +6,7 @@ user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager を使用して、サイト訪問者に関する商業的に関連のある情報を収集し、市場性のあるセグメントを作成し、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
 feature-set: Audience Manager
 source-git-commit: cf9368d4690b61066646054543cc60d390eea021
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 100%
 
