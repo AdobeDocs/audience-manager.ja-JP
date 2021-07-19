@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 顧客データフィードに関するよくある質問 {#customer-data-feed-faq}
+# 顧客データフィードに関するよくある質問{#customer-data-feed-faq}
 
 顧客データフィード（CDF）ファイルに関するよくある質問（FAQ）。
 
