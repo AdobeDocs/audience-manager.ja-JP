@@ -62,7 +62,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL Assigned Groups]**」の下のドロップダウンリストから、このユーザーを割り当てるグループを選択します。グループと権限について詳しくは、[グループの作成](../../features/administration/administration-overview.md#create-group)を参照してください。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-## [!UICONTROL Group]の作成 {#create-group}
+## [!UICONTROL Group] の作成  {#create-group}
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ ht-degree: 100%
 7. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。
 8. 「**[!UICONTROL Save Group]**」をクリックします。
 
-## [!UICONTROL Wild Card Permissions]について {#wild-card-permissions}
+## [!UICONTROL Wild Card Permissions]について  {#wild-card-permissions}
 
 >[!IMPORTANT]
 >
@@ -171,7 +171,7 @@ ht-degree: 100%
 
 ![monitor-user-access](assets/monitor-user-access.png)
 
-### 機密性の高い[!UICONTROL Data Sources]に対するアクセス保護の確保 {#protect-sensitive-data-sources}
+### 機密性の高い[!UICONTROL Data Sources]に対するアクセス保護の確保  {#protect-sensitive-data-sources}
 
 各ユーザーグループに対し、[!UICONTROL trait]、セグメント、および[!UICONTROL destination]レベルで、[!UICONTROL Role-Based Access Control]を設定できます。
 
