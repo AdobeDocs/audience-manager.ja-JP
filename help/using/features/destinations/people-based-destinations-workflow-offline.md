@@ -7,7 +7,7 @@ title: ワークフロー B - オフラインのみのデータに基づくパ�
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 100%
 
