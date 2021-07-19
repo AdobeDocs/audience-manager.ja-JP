@@ -93,7 +93,7 @@ ht-degree: 100%
 
 `%rnd%` および `%timestamp%` マクロは、[!DNL URL] 文字列に一意の値を挿入して、ブラウザーのキャッシュ操作を防ぎます。
 
-## `%rnd%` および `%timestamp%` を使用したキャッシュバスティング {#dest-cache-busting}
+## `%rnd%` および `%timestamp%` を使用したキャッシュバスティング  {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 * `%rnd%`：URL に乱数を挿入します。
 * `%timestamp%`：URL に UNIX 日付／時間を挿入します。
 
-## `%rnd%` と `%timestamp%` の比較 {#compare-rnd-timestamp}
+## `%rnd%` と `%timestamp%` の比較  {#compare-rnd-timestamp}
 
 どちらのマクロもキャッシュを防ぎますが、`%rnd%` のほうがより効率的な可能性があります。例えば、`%timestamp%` を使用すると、複数のユーザーがページを同時に表示する場合、同じ日付／時刻値を取得します。結果として、[!DNL URL] は一意でなくなり、複数の呼び出しが 1 回のみカウントされます。しかし、`%rnd%` は、（ユーザーが同じページを同時に表示したとしても）呼び出しごとに一意の数値を生成します。これは、[!DNL URL] 文字列に異なる値が含まれ、個別のものとしてカウントされることを意味します。
 
