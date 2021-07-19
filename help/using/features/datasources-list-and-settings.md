@@ -20,7 +20,7 @@ ht-degree: 100%
 
 また、[!DNL API] メソッドを使用して[!UICONTROL data sources]を管理することもできます。詳しくは、[データソース API メソッド](../api/rest-api-main/aam-api-data-sources.md)を参照してください。
 
-## [!UICONTROL Data Sources]リスト表示 {#list-view}
+## [!UICONTROL Data Sources]リスト表示  {#list-view}
 
 [!UICONTROL Data Sources] ダッシュボードは、データソースを管理するための一元化されたワークスペースです。
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 * 名前による[!UICONTROL data sources]の検索。
 * [!UICONTROL data sources]の作成、編集および削除。
 
-## [!DNL Data Source]設定とメニューオプション {#settings-menu-options}
+## [!DNL Data Source]設定とメニューオプション  {#settings-menu-options}
 
 [!UICONTROL Data Source]管理インターフェイスの様々なセクションの設定によって、[!DNL data source]が特定され、データソースの使用および共有方法が決まり、[!UICONTROL Onboarding Status Report]でのエラー報告を有効にすることができます。
 
