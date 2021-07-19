@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 重複レポートと一般レポートでのユニークユーザーのカウント {#counting-unique-users-in-overlap-and-general-reports}
+# 重複レポートと一般レポートでのユニークユーザーのカウント{#counting-unique-users-in-overlap-and-general-reports}
 
 このページでは、同じ特性および期間のレポート間に見られるユニークユーザー総数の変化について説明します。
 
