@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# メタデータファイルのコンテンツの形式 {#content-format-for-metadata-files}
+# メタデータファイルのコンテンツの形式{#content-format-for-metadata-files}
 
 オーディエンスの最適化のメタデータファイルのコンテンツを、以下の仕様に従って書式設定します。
 
