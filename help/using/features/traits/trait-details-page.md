@@ -15,11 +15,11 @@ ht-degree: 98%
 
 ---
 
-# [!UICONTROL Trait]の詳細ページ {#trait-details-page}
+# [!UICONTROL Trait]の詳細ページ  {#trait-details-page}
 
 個々の[!UICONTROL trait]の詳細ページには、[!UICONTROL trait]名、ID、パフォーマンス指標、[!UICONTROL trait]を定義する式、特性が属するセグメント、[!UICONTROL trait]監査ログなど、[!UICONTROL trait]の詳細の概要が表示されます。これらの詳細を表示するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Traits]** を選択し、対象となる[!UICONTROL trait]の名前をクリックします。
 
-## [!UICONTROL Trait]管理ツール {#trait-management-tools}
+## [!UICONTROL Trait]管理ツール  {#trait-management-tools}
 
 [!UICONTROL trait]の詳細ページの上部に、[!UICONTROL traits]を管理するために使用できるツールがあります。
 
@@ -71,13 +71,13 @@ ht-degree: 98%
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait]セグメント {#trait-segments}
+## [!UICONTROL Trait] セグメント {#trait-segments}
 
 「[!UICONTROL Segments with this Trait]」セクションには、選択した[!UICONTROL trait]が属するすべてのセグメントのリストが表示されます。セグメント名をクリックすると、そのセグメントの詳細が表示されます。
 
 ![](assets/traitSegments.png)
 
-## [!UICONTROL Trait]監査／履歴ログ {#trait-audit-history}
+## [!UICONTROL Trait]監査／履歴ログ  {#trait-audit-history}
 
 [!UICONTROL rule-based]および[!UICONTROL onboarded traits]の場合、「[!UICONTROL Trait Expression Change History]」には、[!UICONTROL trait]式ルールに対する直近 10 件の変更と、その変更をおこなったユーザーが表示されます。[!UICONTROL trait]に対する変更が 10 件を超える場合、**[!UICONTROL Export to CSV]**&#x200B;をクリックすると監査ログ全体をダウンロードできます。[!UICONTROL folder]または[!UICONTROL algorithmic traits]で監査ログを使用できません。
 
