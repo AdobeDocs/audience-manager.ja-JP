@@ -100,5 +100,5 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 >[!MORELIKETHIS]
 >
->* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
+>* [キーと値のペアの解説 ](../../../reference/key-value-pairs-explained.md)
 
