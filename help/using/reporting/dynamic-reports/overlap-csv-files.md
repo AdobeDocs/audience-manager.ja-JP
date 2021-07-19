@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 重複レポートの CSV ファイル {#csv-files-for-overlap-reports}
+# 重複レポートの CSV ファイル{#csv-files-for-overlap-reports}
 
 重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。カスタマーケアに連絡して、圧縮した .csv ファイルを請求してください。このファイルを独自のデータベースシステムにインポートして操作することができます。セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## セグメント間レポートのレコード  {#segment-segment-records}
+## セグメント間レポートのレコード {#segment-segment-records}
 
 [セグメント間重複レポート](segment-segment-overlap-report.md)のデータファイルには、次のレコードが含まれています。
 
@@ -141,7 +141,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## セグメント - 特性間レポートのレコード  {#segment-trait-records}
+## セグメント - 特性間レポートのレコード {#segment-trait-records}
 
 [セグメント - 特性間重複レポート](segment-trait-overlap-report.md)のデータファイルには、次のレコードがあります。
 
@@ -208,7 +208,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 特性間レポートのレコード  {#trait-trait-records}
+## 特性間レポートのレコード {#trait-trait-records}
 
 [特性間重複レポート](trait-trait-overlap-report.md)には、次のレコードがあります。
 
