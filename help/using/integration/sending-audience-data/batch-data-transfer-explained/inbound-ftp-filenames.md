@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# [!DNL FTP]受信データファイルの 名とファイルサイズの要件 {#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP]受信データファイルの 名とファイルサイズの要件  {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
 [!DNL Audience Manager] にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager [!DNL FTP] ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 他の例が必要な場合は、サンプルファイルを[ダウンロードします](assets/ftp_dpm_1234_1445374061.overwrite)。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
 
-## 許容されるファイルサイズ  {#accepted-file-sizes}
+## 許容されるファイルサイズ {#accepted-file-sizes}
 
 データを [!DNL Audience Manager] や [!DNL FTP] ディレクトリに送信する際の最速／最短のファイル処理やファイルサイズの制限については、以下の数字を考慮してください。
 
