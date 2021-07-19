@@ -35,14 +35,14 @@ Audience Manager において、[!UICONTROL destination]とは、データを共
 
 データ配信は、データパートナーが[!UICONTROL destination]情報をどのように受信したいか、または受信できるかによって異なります。技術上またはエンジニアリング上の制約によって、[!UICONTROL destination] が [!DNL URL]、[!UICONTROL cookie]、または[!UICONTROL server-to-server]のプロセス経由でデータを受信できない場合があります。サードパーティパートナーと協力して、使用できる方法を決定します。
 
-## ビジネス上の考慮事項  {#business-considerations}
+## ビジネス上の考慮事項 {#business-considerations}
 
 配信方法を複数のものから 1 つ選択するためのビジネス上の決定は、[!UICONTROL destination]となるパートナーの技術的能力と絞り込まれたユーザーに関する情報の用途によって異なります。例えば、[!UICONTROL destination]が特定の配信方法でデータを受信できない場合は、技術的な制約で選択肢が制限されるおそれがあります。ただし、技術的な問題がなければ、データにどう対処するかに応じて情報を送信できます。例：
 
 * [!DNL URL] および [!UICONTROL cookie-based destinations]は、ページでのユーザーアクションとほぼ同期的に連動します。
 * [!UICONTROL Server-to-server]手法は、時間をかけて深みのあるオーディエンスセグメントを構築するのに適しています。
 
-## [!UICONTROL Destination]のタイプと典型的なユーザー {#destination-types}
+## [!UICONTROL Destination]のタイプと典型的なユーザー  {#destination-types}
 
 次の表に示す例は、特定の[!UICONTROL destination]の使用に適した状況とそれぞれのタイプの違いを理解するのに役に立ちます。
 
