@@ -10,11 +10,11 @@ exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# データ配信やファイル処理の時間がレポートに及ぼす影響 {#how-data-delivery-and-file-processing-times-affect-reports}
+# データ配信やファイル処理の時間がレポートに及ぼす影響{#how-data-delivery-and-file-processing-times-affect-reports}
 
 Audience Manager は、毎日膨大な量のデータを受信します。これは、データの処理とレポート結果の生成にかかる時間に影響を及ぼします。この節では、これらの時間が Audience Manager アカウントに及ぼす影響について説明します。また、ここで説明している期間やスケジュールは一般的なガイドラインにすぎません。これらのスケジュールは、データ配信に関するサービス契約（SLA）や責務には含まれていません。アドビは、これらの期間やスケジュールをいつでも予告なしに変更する権利を留保します。
 
@@ -31,7 +31,7 @@ c_reporting_file_transfer_timeframe.xml
 
 | データタイプ | 説明 |
 |---|---|
-| リアルタイムデータ | 今日のリアルタイム数値は、昨日の 00:00 から 23:59:59 UTC までのものです。 |
+| リアルタイムデータ | 今日のリアルタイム数値は、昨日の00:00 ～ 23:59:59 UTCの時間です。 |
 | 一般レポートデータ | [一般レポート](../reporting/general-reports.md#general-reports-overview)のデータは、他のジョブ処理が正常に完了するかどうかや特定の日に受信したデータ量によって異なります。ほとんどの場合、[!UICONTROL General Report] データは毎日 18:00 UTC に更新されます。 |
 
 ## 受信および送信ファイル転送 {#inbound-outbound-file-transfers}
