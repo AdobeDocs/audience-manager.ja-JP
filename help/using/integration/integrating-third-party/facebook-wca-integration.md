@@ -7,7 +7,7 @@ title: Facebook WCA の統合
 feature: サードパーティ統合
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 
