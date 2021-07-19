@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# 必要に応じてページアプリを作成 [!UICONTROL Rules-Based] [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
+# 必要に応じてページアプリを作成 [!UICONTROL Rules-Based] [!UICONTROL Onboarded Traits]  {#create-rules-based-or-onboarded-traits}
 
 [!UICONTROL rules-based]および[!UICONTROL onboarded]特性の作成プロセスに特有のセットアップ手順や機能について説明します。
 
