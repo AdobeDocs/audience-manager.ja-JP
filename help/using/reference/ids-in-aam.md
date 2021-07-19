@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# [!DNL Audience Manager]で使用される ID の一覧 {#index-of-ids-in-audience-manager}
+# [!DNL Audience Manager]で使用される ID の一覧  {#index-of-ids-in-audience-manager}
 
 ## 概要 {#overview}
 
