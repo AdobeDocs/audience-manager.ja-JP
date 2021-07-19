@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Audience Manager の訪問者認証ステータス {#visitor-authentication-states-in-audience-manager}
+# Audience Manager の訪問者認証ステータス{#visitor-authentication-states-in-audience-manager}
 
 Audience Manager の訪問者認証ステータスによって、新しい特性情報が訪問者の認証済みプロファイルに書き込まれるか、デバイスプロファイルに書き込まれるかが決まります。Audience Manager は、イベント呼び出しの訪問者 ID 認証ステータス UNKNOWN および LOGGED_OUT を同じ方法で処理します。
 
