@@ -15,7 +15,7 @@ ht-degree: 99%
 
 ---
 
-# 顧客データのインバウンドの取得に関するよくある質問 {#inbound-customer-data-ingestion-faq}
+# 顧客データのインバウンドの取得に関するよくある質問{#inbound-customer-data-ingestion-faq}
 
 Audience Manager へのオフラインデータの取り込みに関するよくある質問です。
 
