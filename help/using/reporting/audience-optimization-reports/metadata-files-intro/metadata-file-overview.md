@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# メタデータファイルの概要とマッピング {#overview-and-mappings-for-metadata-files}
+# メタデータファイルの概要とマッピング{#overview-and-mappings-for-metadata-files}
 
 メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。Audience Optimization レポートでは、様々なレポートオプションメニューに理解しやすい名前が表示されます。
 
