@@ -8,7 +8,7 @@ uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: サードパーティ統合
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
 source-git-commit: 760d6a56754530368ac11a5c9f10c4be487de028
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
