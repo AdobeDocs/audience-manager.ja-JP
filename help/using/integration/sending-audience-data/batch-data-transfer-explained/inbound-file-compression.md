@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 受信データ転送ファイルのファイル圧縮 {#file-compression-for-inbound-data-transfer-files}
+# 受信データ転送ファイルのファイル圧縮{#file-compression-for-inbound-data-transfer-files}
 
 データファイルを Audience Manager に送信する際に、データファイルを圧縮することができます。
 
