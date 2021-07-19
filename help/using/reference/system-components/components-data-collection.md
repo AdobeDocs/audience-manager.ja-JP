@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# データ収集コンポーネント {#data-collection-components}
+# データ収集コンポーネント{#data-collection-components}
 
 データ収集コンポーネントには、データ収集サーバー、DIL API、インバウンドのサーバーからサーバーへのデータ転送、およびログファイルが含まれます。
 
@@ -31,7 +31,7 @@ Audience Manager には次のデータ収集コンポーネントがあります
 * [インバウンドのサーバー間通信](../../reference/system-components/components-data-collection.md#inbound-outbound-server)
 * [ログファイル](../../reference/system-components/components-data-collection.md#log-files)
 
-## データ収集サーバー（DCS）およびプロファイルキャッシュサーバー（PCS）{#dcs-pcs}
+## データ収集サーバー（DCS）およびプロファイルキャッシュサーバー（PCS） {#dcs-pcs}
 
 DCS と PCS は連携して動作することで、それぞれが特性の適合、オーディエンスのセグメント化、およびデータストレージに関連するサービスを提供します。
 
