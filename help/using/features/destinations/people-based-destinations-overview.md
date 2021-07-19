@@ -39,7 +39,7 @@ ht-degree: 100%
 
 [!DNL People-Based Destinations] は、Audience Manager のプレミアム統合です。このプレミアム機能を活用するには、アドビの担当者にお問い合わせください。
 
-## [!UICONTROL People-Based Destinations] を使用する理由 {#why-use}
+## [!UICONTROL People-Based Destinations] を使用する理由  {#why-use}
 
 **Audience Manager 内からオーディエンスセグメント全体を管理することで、一貫性のあるクロスチャネルエクスペリエンスを顧客に提供します。**
 
