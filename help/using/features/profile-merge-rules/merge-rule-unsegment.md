@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!UICONTROL Device Options] は、[!UICONTROL Profile Merge Rule] を作成または編集するときに、[!UICONTROL Profile Merge Rules Setup] で利用できます。
 
-## 「Current Device Profile」オプションとデバイスのセグメント化解除 {#current-device-profile-options}
+## 「Current Device Profile」オプションとデバイスのセグメント化解除  {#current-device-profile-options}
 
 **[!UICONTROL Device Profile]**&#x200B;は、[!UICONTROL Profile Merge Rule]のデフォルトのデバイスプロファイルオプションです。[!DNL Audience Manager] は、[!UICONTROL Profile Merge Rule] が **[!UICONTROL Device Profile]** オプションを使用する際にデバイスプロファイルをセグメントから削除できます。この条件では、次の場合にセグメント化解除が発生します。
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ![device-only](assets/device-only.png)
 
-## 「No Device Profile」オプションとデバイスのセグメント化解除 {#no-device-option}
+## 「No Device Profile」オプションとデバイスのセグメント化解除  {#no-device-option}
 
 [!DNL Audience Manager] は、[!UICONTROL Profile Merge Rule] が **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** オプションを使用すると、セグメントからクロスデバイス ID を削除できます。これらの条件の下で、クロスデバイスプロファイルの更新や変更によってクロスデバイス ID がセグメントの対象として認定されなくなったときに、セグメント化解除がおこなわれます。これは、セグメント認定条件が変更された場合、[!UICONTROL AND NOT] 演算子がセグメントルールに適用された場合、または[最新性と頻度](../segments/recency-and-frequency.md)条件で「次よりも小さいか等しい」設定が使用されている場合に発生します。ユースケースについては、[Instant Cross-Device Suppression](instant-cross-device-suppression.md) のドキュメントを参照してください。
 
