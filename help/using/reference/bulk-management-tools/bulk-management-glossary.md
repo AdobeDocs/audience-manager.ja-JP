@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 一括管理ツールの用語集 {#bulk-management-tools-glossary}
+# 一括管理ツールの用語集{#bulk-management-tools-glossary}
 
 列ヘッダーのラベルの定義。
 
