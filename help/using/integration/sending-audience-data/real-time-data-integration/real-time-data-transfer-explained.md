@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# リアルタイムデータ転送プロセスの説明 {#real-time-data-transfer-process-described}
+# リアルタイムデータ転送プロセスの説明{#real-time-data-transfer-process-described}
 
 Audience Manager がサードパーティコンテンツプロバイダーとの間でリアルタイムデータ転送を実行する方法の一般的な概要です。
 
