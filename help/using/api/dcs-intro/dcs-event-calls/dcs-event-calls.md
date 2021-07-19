@@ -34,5 +34,5 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->* [DCS API リファレンス](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [DCS API リファレンス ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
