@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# パスワードの要件、ロックされたアカウント、パスワードを忘れた場合 {#password-requirements-locked-accounts-and-forgotten-passwords}
+# パスワードの要件、ロックされたアカウント、パスワードを忘れた場合{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 30 日経過するごとにパスワードの有効期限が切れるように Audience Manager を設定することができます。パスワードの有効期限を有効にする場合は、担当の Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。パスワードの要件とパスワードを忘れた場合の対処方法については、この節を参照してください。
 
