@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# プロファイル結合ルールおよびデバイスグラフに関するよくある質問 {#profile-merge-rules-and-device-graph-faq}
+# プロファイル結合ルールおよびデバイスグラフに関するよくある質問{#profile-merge-rules-and-device-graph-faq}
 
 プロファイル結合ルールおよびデバイスグラフに関するよくある質問への回答。
 
