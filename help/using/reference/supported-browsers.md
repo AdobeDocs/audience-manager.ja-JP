@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# サポートされているブラウザー {#supported-browsers}
+# サポートされているブラウザー{#supported-browsers}
 
 このページでは、Audience Manager ユーザーインターフェイスでサポートされているブラウザーを示します。すべてのブラウザーで、Cookies および JavaScript を有効にする必要があります。
 
