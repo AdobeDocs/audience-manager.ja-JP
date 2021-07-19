@@ -19,7 +19,7 @@ ht-degree: 100%
 [!UICONTROL rules-based]、[!UICONTROL onboarded]、[!UICONTROL algorithmic] または [!UICONTROL folder traits]を使用して、データ収集とオーディエンス作成を管理します。[!UICONTROL traits]の基本を学ぶには、以下にリンクされているページをお読みください。
 
 * [特性の詳細ページ](/help/using/features/traits/trait-details-page.md)
-* [特性ビルダー](/help/using/features/traits/about-trait-builder.md)
+* [特性ビルダー ](/help/using/features/traits/about-trait-builder.md)
 * [フォルダー特性：詳細](/help/using/features/traits/about-folder-traits.md)
 * [特性ストレージ](/help/using/features/traits/trait-storage.md)
 * [アクティブオーディエンス特性とデータソース同期特性](/help/using/features/traits/client-activity-synced-audience-traits.md)
