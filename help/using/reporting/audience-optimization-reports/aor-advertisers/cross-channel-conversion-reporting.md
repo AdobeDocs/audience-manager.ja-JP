@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# クロスチャネルコンバージョン {#cross-channel-conversion}
+# クロスチャネルコンバージョン{#cross-channel-conversion}
 
 Audience Optimization レポートの「クロスチャネルコンバージョン」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
 
