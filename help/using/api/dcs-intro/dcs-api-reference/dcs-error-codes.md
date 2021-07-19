@@ -20,7 +20,7 @@ ht-degree: 100%
 
 以下の表で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
-## システムエラーコード  {#system-error-codes}
+## システムエラーコード {#system-error-codes}
 
 | エラーコード | エラーメッセージ | 説明 |
 |---|---|---|
@@ -40,7 +40,7 @@ ht-degree: 100%
 | 109 | リファラー `HTTP referer` はパートナーの `Partner ID` で使用できます。 | 呼び出しの `HTTP referer` ヘッダーは、呼び出しのパートナー ID では使用できません。`HTTP referer` ヘッダーが正しいことを確認します。 |
 | 111 | Invalid `IMS` token received | [!DNL Audience Manager] - [!DNL Adobe Target] 統合に対して返されます。エラーがスローされるのは、無効な [!DNL IMS] トークンを含んだ呼び出しが [!DNL DCS] に対しておこなわれた場合です。トークンの形式が正しくないか有効期限が切れている、または要求したリソースにアクセスする権限をユーザーが持っていない可能性があります。 |
 
-## オプトアウトエラーコード  {#opt-out-error-codes}
+## オプトアウトエラーコード {#opt-out-error-codes}
 
 <table id="table_A50C284AB84F48A79B01223D991884A2"> 
  <thead> 
@@ -86,7 +86,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## プロファイル取得エラーコード  {#profile-retrieval-error-codes}
+## プロファイル取得エラーコード {#profile-retrieval-error-codes}
 
 <table id="table_CFF2252A3CC54960802905454A867D7A"> 
  <thead> 
@@ -130,7 +130,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 統合警告コード  {#integration-warning-codes}
+## 統合警告コード {#integration-warning-codes}
 
 <table id="table_31F1593C46804DDBA2E9BEDE83F2417F"> 
  <thead> 
