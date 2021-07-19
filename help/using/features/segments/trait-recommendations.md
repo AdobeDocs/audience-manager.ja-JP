@@ -142,7 +142,7 @@ Audience Manager では、ファーストパーティ特性からの特性レコ
 
 特性レコメンデーションを生成するために、Audience Manager では、ターゲット特性と、アカウントからアクセスできる他のすべての特性（サードパーティデータを含む）の [Jaccard 類似性](https://en.wikipedia.org/wiki/Jaccard_index)を計算します。Audience Managerには、類似性が最も高い 50 個までの特性が表示されます。
 
-## 特性類似性スコア  {#trait-similarity-score}
+## 特性類似性スコア {#trait-similarity-score}
 
 Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合を計算し、その 2 つを除算することにより、2 つの特性間の[!UICONTROL Trait Similarity Score]を算出します。2 つの特性 A と B の計算は次のようになります。
 
