@@ -162,7 +162,7 @@ ht-degree: 100%
 * 宛先パートナーは、デバイス ID のセグメント解除要求を受け取ります。セグメント化解除は、[リアルタイム](data-privacy-requests.md#aam-partners-with-unsegmentation)宛先とバッチ宛先の両方で機能します。
 * 履歴データは削除されません。
 
-## セグメント化解除に対応している [!DNL Audience Manager] パートナー {#aam-partners-with-unsegmentation}
+## セグメント化解除に対応している [!DNL Audience Manager] パートナー  {#aam-partners-with-unsegmentation}
 
 お客様が消費者データのプライバシーリクエストを自動化できるよう、[!DNL Audience Manager] からアクティベーションパートナーに対してセグメント解除（またはセグメント削除）の情報が送信され、データ主体からの削除要求が通知されます。
 
