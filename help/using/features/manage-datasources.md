@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ---
 
-# [!UICONTROL Data Sources]の管理 {#manage-data-sources}
+# [!UICONTROL Data Sources]の管理  {#manage-data-sources}
 
-## [!UICONTROL Data Source]の作成 {#create-data-source}
+## [!UICONTROL Data Source] の作成  {#create-data-source}
 
 新しい[!UICONTROL data source]を作成するには、**[!UICONTROL Audience Data > Data Sources > Add New]** に移動して、ここに記載されているそれぞれの節の手順を完了します。[!UICONTROL data source]を作成するには、管理者権限が必要です。
 
