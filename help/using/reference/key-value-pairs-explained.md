@@ -9,7 +9,7 @@ uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: リファレンス
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 
