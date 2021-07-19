@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# [!UICONTROL Signals]、[!UICONTROL Traits]、[!UICONTROL Segments] {#signals-traits-and-segments}
+# [!UICONTROL Signals]、[!UICONTROL Traits]、[!UICONTROL Segments]  {#signals-traits-and-segments}
 
 [!DNL Audience Manager] [!UICONTROL segment]の構成要素、オーディエンスの認定基準の設定に使用される表現、イベント呼び出しでのデータの送信方法について説明します。
 
