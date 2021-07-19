@@ -585,5 +585,5 @@ ht-degree: 100%
 >
 >* [宛先](../../../features/destinations/destinations.md)
 * [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
-* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)
+* [キーと値のペアの解説 ](../../../reference/key-value-pairs-explained.md)
 
