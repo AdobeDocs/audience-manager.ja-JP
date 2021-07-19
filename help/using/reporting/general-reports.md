@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 一般レポート {#general-reports}
+# 一般レポート{#general-reports}
 
 [!UICONTROL General]は、特性、セグメントおよび宛先に関するパフォーマンスデータを返します。
 
