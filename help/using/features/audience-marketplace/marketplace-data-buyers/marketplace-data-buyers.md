@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# データ購入者向けの [!UICONTROL Audience Marketplace] > {#audience-marketplace-for-data-buyers}
+# データ購入者向けの [!UICONTROL Audience Marketplace] >  {#audience-marketplace-for-data-buyers}
 
 [!DNL Audience Manager] 内でサードパーティデータを購入するデータ購入者の概要とワークフロー。
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 * **[!UICONTROL Plan Use Case]**：サポートされるユースケース（**[!UICONTROL Activation]**、**[!UICONTROL Segments and Overlap]**、**[!UICONTROL Modelling]**）に基づいてデータフィードをフィルタリングします。
 * **[!UICONTROL Plan Unit]**：価格タイプに基づいてデータフィードをフィルタリングします。
 
-## 類似する[!UICONTROL Traits]を見つける {#finding-similar-traits}
+## 類似する[!UICONTROL Traits]を見つける  {#finding-similar-traits}
 
 [!UICONTROL Audience Marketplace] には、既存の[!UICONTROL traits]やセグメントとの類似性に基づいて、様々なデータフィードから[!UICONTROL traits]を見つけるためのオプションが用意されています。手順は次のとおりです。
 
