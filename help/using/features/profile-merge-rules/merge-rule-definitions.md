@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# [!UICONTROL Profile Merge Rules]定義済みオプション {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules]定義済みオプション  {#profile-merge-rule-options-defined}
 
 [!UICONTROL profile merge rule] オプションを使用すると、[!DNL Audience Manager] がセグメント化に使用するデータのタイプを制御できます。[!UICONTROL profile merge rule]には、[!UICONTROL Profile Link] デバイスグラフ、[!UICONTROL Adobe Experience Cloud Device Co-op]、および [!DNL Audience Manager] と統合しているその他のサードパーティデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。最大4 つの[!UICONTROL Profile Merge Rules]を作成できます。4 つ目の [!UICONTROL Profile Merge Rule] は、[!UICONTROL People-Based Destinations] アドオンを購入した顧客のみが利用できます。
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph]（[!UICONTROL Co-op Device Graph] を含む） | すべての顧客 | リアルタイムとバッチ | × | [高度なクロスデバイスターゲティング](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | なし | [People-Based Destinations](../destinations/people-based-destinations-overview.md) のユーザー専用 | バッチのみ | × | [People-Based Destinations のターゲティング](merge-rule-targeting-options.md#all-cross-device) |
 
-## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment]評価 {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment]評価  {#segment-evaluation}
 
 [!UICONTROL Profile Merge Rules] の設定に応じて、[!UICONTROL segment] はリアルタイム、バッチまたはその両方で[!DNL Audience Manager]評価を実行できます。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 * バッチ[!UICONTROL segment]評価は、以前に認定された[!UICONTROL traits]に対して実行されます。
 * [!UICONTROL Profile Merge Rules] は、リアルタイムセグメント評価とバッチ[!UICONTROL segment]評価の両方をサポートし、リアルタイム訪問者アクティビティと以前に認定された[!UICONTROL traits]を組み合わせます。
 
-## [!UICONTROL Profile Merge Rules]レポート遅延 {#reporting-latency}
+## [!UICONTROL Profile Merge Rules]レポート遅延  {#reporting-latency}
 
 リアルタイム[!UICONTROL segment]評価は、[!UICONTROL Profile Merge Rules]レポートに即座に反映されます。
 
