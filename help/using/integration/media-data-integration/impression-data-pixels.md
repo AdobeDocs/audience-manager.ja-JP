@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ {#capturing-campaign-impression-data-via-pixel-calls}
+# ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ{#capturing-campaign-impression-data-via-pixel-calls}
 
 メディアデータを Audience Manager に送信する方法の 1 つとして、広告サーバーのマクロを使用してキャンペーン属性を Audience Manager に送信できます。
 
@@ -36,7 +36,7 @@ http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID
 
 このキーと値のペアでは、値変数は広告サーバーにより挿入された ID またはマクロです。広告タグが読み込まれると、`%macro%` は対応する必須の値に置き換えられます。この呼び出しでは、応答は返されません。
 
-## サポートされているキーと値のペア  {#supported-key-value-pairs}
+## サポートされているキーと値のペア {#supported-key-value-pairs}
 
 インプレッションイベント呼び出しでは、キーと値のペアとして構成されているデータを受け付けます。次の表は、これらの変数を格納するキーの一覧と説明です。これらのうち多くは、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータのキャプチャと分析をおこなう場合に必要になります。
 
