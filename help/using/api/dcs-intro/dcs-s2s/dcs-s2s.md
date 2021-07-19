@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# サーバー間データ転送用の DCS API {#dcs-apis-for-server-to-server-data-transfers}
+# サーバー間データ転送用の DCS API{#dcs-apis-for-server-to-server-data-transfers}
 
 サーバー間（[!UICONTROL S2S]）[!DNL API] には、[!DNL DCS] ユーザーデータの送受信や独自システムまたはアプリケーションでの操作を可能にするコードおよびメソッドが用意されています。
 
@@ -49,5 +49,5 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->* [DCS API リファレンス](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [DCS API リファレンス ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
