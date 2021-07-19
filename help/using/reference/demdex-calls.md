@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# [!DNL Demdex] ドメインの呼び出しについて {#understanding-calls-to-the-demdex-domain}
+# [!DNL Demdex] ドメインの呼び出しについて  {#understanding-calls-to-the-demdex-domain}
 
 [!DNL Audience Manager] および [!DNL Adobe Experience Platform Identity Service] は `demdex.net` ドメインに対し呼び出しをおこない、データを受け取ります。[!DNL Adobe] が見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、`demdex.net` 呼び出しの構成要素について説明します。
 
