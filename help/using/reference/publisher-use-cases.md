@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# パブリッシャーのユースケース {#publisher-use-cases}
+# パブリッシャーのユースケース{#publisher-use-cases}
 
 Adobe Audience Manager が満たしているいくつかの一般的なパブリッシャーニーズの概観。
 
