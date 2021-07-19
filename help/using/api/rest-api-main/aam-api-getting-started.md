@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# [!DNL REST] [!DNL APIs] の使用の手引き {#getting-started-with-rest-apis}
+# [!DNL REST] [!DNL APIs] の使用の手引き  {#getting-started-with-rest-apis}
 
 一般的な要件、認証、オプションのクエリパラメーター、リクエスト [!DNL URLs] およびその他の参考資料についての情報です。
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
 `expires_in` キーは、アクセストークンの有効期間を秒単位で表しています。トークンが公開される場合、ベストプラクティスとして、有効期間を短く設定し、公開時間を制限します。
 
-### 更新トークン  {#refresh-token}
+### 更新トークン {#refresh-token}
 
 更新トークンは、元のトークンの有効期間が終了した後、[!DNL API] アクセスを更新します。リクエストがあれば、パスワードワークフローの応答 [!DNL JSON] に更新トークンが含まれます。更新トークンを受け取らない場合、パスワード認証プロセスにより新しいトークンを作成します。
 
@@ -166,7 +166,7 @@ ht-degree: 100%
 }
 ```
 
-### 認証コードと暗黙的な認証  {#authentication-code-implicit}
+### 認証コードと暗黙的な認証 {#authentication-code-implicit}
 
 [!DNL Audience Manager] は、認証コードを暗黙的な認証をサポートしています。[!UICONTROL REST API]これらのアクセス方法を利用するには、ユーザーが `https://api.demdex.com/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
 
@@ -215,7 +215,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 使用する認証方法に応じて、次の表に従ってリクエスト [!DNL URLs] を調整する必要があります。
 
-### [!DNL JWT] 認証のリクエスト [!DNL URLs] {#request-urls-jwt}
+### [!DNL URLs] 認証のリクエスト [!DNL JWT]  {#request-urls-jwt}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -231,7 +231,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### [!DNL OAuth] 認証のリクエスト [!DNL URLs]（廃止予定）{#request-urls-oauth}
+### [!DNL URLs] 認証のリクエスト [!DNL OAuth]（廃止予定） {#request-urls-oauth}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
