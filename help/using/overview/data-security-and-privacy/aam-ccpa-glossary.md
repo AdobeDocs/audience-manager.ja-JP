@@ -52,7 +52,6 @@ CCPA に関連して使用されるキーワードを確認しましょう。よ
  
 
 >[!MORELIKETHIS]
->
->[データプライバシーの概要](/help/using/overview/data-security-and-privacy/data-privacy.md)>
+[データプライバシーの概要](/help/using/overview/data-security-and-privacy/data-privacy.md)>
 >
 
