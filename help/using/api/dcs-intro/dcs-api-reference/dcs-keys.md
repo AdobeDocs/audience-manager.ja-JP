@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# [!DNL DCS] [!DNL API]呼び出しでサポートされている属性 {#supported-attributes-for-dcs-api-calls}
+# [!DNL DCS] [!DNL API]呼び出しでサポートされている属性  {#supported-attributes-for-dcs-api-calls}
 
 [!UICONTROL Data Collection Servers]（[!DNL DCS]）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、[!DNL DCS] リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
 
