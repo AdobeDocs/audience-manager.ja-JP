@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# [!DNL Audience Manager] ユーザーの [!DNL Admin Console] への移行 {#user-migration}
+# [!DNL Audience Manager] ユーザーの [!DNL Admin Console] への移行  {#user-migration}
 
 ## 概要 {#overview}
 
