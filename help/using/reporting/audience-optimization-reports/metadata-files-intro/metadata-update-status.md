@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# メタデータファイルのステータスの更新 {#status-updates-for-metadata-files}
+# メタデータファイルのステータスの更新{#status-updates-for-metadata-files}
 
 S3 status ディレクトリには `.info` ファイルがあり、アップロードされたファイルの成功と失敗に関する情報が格納されています。ファイルには JSON 形式のデータがあり、ステータスの結果が配列に格納されています。
 
