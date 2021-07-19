@@ -143,7 +143,7 @@ Audience Manager がサードパーティベンダーと同期データ交換を
 
 ![](assets/rt_reduce70.png)
 
-## バッチデータ転送プロセス {#batch-data-transfer-process}
+## バッチデータ転送プロセス  {#batch-data-transfer-process}
 
 Audience Manager がサードパーティベンダーと同期的に（リアルタイムで）データを交換する方法の一般的な概要です。
 
