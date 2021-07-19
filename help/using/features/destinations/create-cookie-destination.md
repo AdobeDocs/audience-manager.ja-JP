@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Cookie の宛先の設定 {#create-cookie-destination}
 
-Cookie の宛先は、ユーザーのブラウザーの Cookie からデータを返したり、Cookie にデータを書き込んだりします。Cookie には、当該ページにアクセスできる他のプラットフォームで読み取ることができるデータが格納されています。[!UICONTROL Destination Builder] で Cookie の宛先を作成するには、以下の手順に従います。
+Cookie の宛先はデータを返し、ユーザーのブラウザー内の Cookie に書き込みます。Cookie には、当該ページにアクセスできる他のプラットフォームで読み取ることができるデータが格納されています。[!UICONTROL Destination Builder] で Cookie の宛先を作成するには、以下の手順に従います。
 
 <!-- create-cookie-destination.xml -->
 
