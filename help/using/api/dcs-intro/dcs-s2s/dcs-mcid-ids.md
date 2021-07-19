@@ -60,13 +60,13 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
  </tbody> 
 </table>
 
-## `getMarketingCloudVisitorID` の操作方法 {#working-with-getmarketingcloudvisitorid}
+## `getMarketingCloudVisitorID` の操作方法  {#working-with-getmarketingcloudvisitorid}
 
 訪問者 ID を取得するもう 1 つの方法は、`getMarketingCloudVisitorID` 関数を使用することです。この関数は、呼び出されると、[!DNL ID service] に対してクエリを実行して ID を返します。`getMarketingCloudVisitorID` は、次に示すように、オプションの `callback` 引数を受け取ります。
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
-### コールバックの使用法と目的  {#callback-usage}
+### コールバックの使用法と目的 {#callback-usage}
 
 `callback` はオプションです。この引数がなくても、この関数は機能しますが、訪問者のブラウザーに [!DNL Experience Cloud] Cookie が設定されている場合にのみ ID を返します。訪問者の Cookie が見つからないか、訪問者に ID がない場合、この関数は空の `()` オブジェクトを返します。このような状況は、ページが読み込まれて訪問者が新しい ID を受け取った後でも、起こる可能性があります。これを避けるために、この関数に `callback` を指定して、ページの読み込み後に訪問者 ID の有無を確認させることができます。`callback` がなければ、訪問者 ID が後で訪問者のブラウザーに書き込まれても、関数は ID を返しません。
 
