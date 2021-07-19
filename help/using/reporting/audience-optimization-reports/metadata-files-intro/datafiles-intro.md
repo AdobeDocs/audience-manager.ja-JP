@@ -140,7 +140,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## データファイルの配信方法  {#delivery-methods}
+## データファイルの配信方法 {#delivery-methods}
 
 インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
