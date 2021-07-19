@@ -31,7 +31,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 ![](assets/recency_frequency.png)
 
-## 制限とルール  {#limitations-rules}
+## 制限とルール {#limitations-rules}
 
 最新性と頻度をセグメントの特性に適用する場合は、以下の制限およびルールを確認および理解してください。
 
