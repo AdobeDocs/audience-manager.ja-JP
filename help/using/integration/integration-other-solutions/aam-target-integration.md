@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Audience Manager と [!DNL Target] の統合 {#integrate-audience-manager-with-target}
+# Audience Manager と [!DNL Target] の統合  {#integrate-audience-manager-with-target}
 
 この統合により、Audience Manager のセグメントを Adobe [!DNL Target] に送信できるようになります。
 
