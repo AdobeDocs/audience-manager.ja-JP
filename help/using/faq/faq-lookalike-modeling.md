@@ -5,8 +5,9 @@ seo-title: 類似（look-alike）モデリングに関するよくある質問
 solution: Audience Manager
 title: 類似（look-alike）モデリングに関するよくある質問
 feature: アルゴリズムモデル
-source-git-commit: cf9368d4690b61066646054543cc60d390eea021
-workflow-type: ht
+exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
+source-git-commit: 37823ae54e106e32aa195a6b69e0f1ebfc322f09
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
