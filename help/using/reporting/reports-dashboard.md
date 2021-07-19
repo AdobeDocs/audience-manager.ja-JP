@@ -49,7 +49,7 @@ c_dashboard.xml
 
 3. *（オプション）*&#x200B;グラフの上の「**[!UICONTROL Normalize]**」をクリックすると、同じスケールですべてのデータを表示できます。また、任意のデータポイントにマウスポインターを置くと、詳細情報を確認できます。
 
-## Partner Uniques  {#partner-uniques}
+## Partner Uniques {#partner-uniques}
 
 表示に必要な権限は、[!UICONTROL View All Traits] です。
 
@@ -61,7 +61,7 @@ c_dashboard.xml
 >
 >ユニーク訪問者の合計数は、ルールベースまたはオンボードの特性でキャプチャされた訪問者数を表します。ただし、ユニーク訪問者の合計数は、ルールベースおよびオンボードの特性を使用してキャプチャされたユニーク訪問者数の合計とは等しくなりません。同じユニークユーザーが、これら 2 つの特性タイプのどちらかで表されることがあります。
 
-## Largest Traits／Most Changed Traits  {#largest-traits}
+## Largest Traits／Most Changed Traits {#largest-traits}
 
 表示に必要な権限は、[!UICONTROL View Traits] です。
 
@@ -92,7 +92,7 @@ c_dashboard.xml
  </tbody> 
 </table>
 
-## Largest Segments／Most Changed Segments  {#most-changed-segments}
+## Largest Segments／Most Changed Segments {#most-changed-segments}
 
 表示に必要な権限は、[!UICONTROL View Segments] です。
 
