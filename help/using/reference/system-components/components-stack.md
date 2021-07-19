@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Audience Manager システムの主要なコンポーネント {#key-components-in-the-audience-manager-system}
+# Audience Manager システムの主要なコンポーネント{#key-components-in-the-audience-manager-system}
 
 Audience Manager のシステムおよびプロセスは、タグ管理、データ収集、データ編成およびデータ操作の 4 つの主要なカテゴリに分類されます。
 
