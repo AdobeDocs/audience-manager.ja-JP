@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 選択した Audience Manager レポートでのデータサンプリングとエラー率 {#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# 選択した Audience Manager レポートでのデータサンプリングとエラー率{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 いくつかのレポートで使用されているサンプリング方法、サンプリングのエラー率についての概要、およびサンプルデータに基づく情報が返されるレポートのリスト。
 
