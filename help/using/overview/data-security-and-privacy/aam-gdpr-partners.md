@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 宛先の GDPR に関する考慮事項 {#gdpr-considerations-for-destinations}
+# 宛先の GDPR に関する考慮事項{#gdpr-considerations-for-destinations}
 
 このページでは、入手可能になったときにパートナーから直接提供される情報の概要と、Audience Manager の運用に関連する影響について説明します。パートナー側でこれらの更新をおこなう場合の主な影響は、2018 年 5 月 25 日（PT）に施行された GDPR（EU 一般データ保護規則）と、新しい IAB GDPR Transparency &amp; Consent Framework（透明性と同意に関するフレームワーク、以下「IAB フレームワーク」）の結果です。
 
