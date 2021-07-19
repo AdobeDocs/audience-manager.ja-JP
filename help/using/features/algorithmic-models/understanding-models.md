@@ -10,14 +10,14 @@ feature: アルゴリズムモデル
 exl-id: a24b11ce-6087-4095-a6c2-6815e2211ba5
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 99%
+source-wordcount: '1592'
+ht-degree: 98%
 
 ---
 
-# [!UICONTROL Look-Alike Modeling]について {#about-algorithmic-models}
+# [!UICONTROL Look-Alike Modeling]について  {#about-algorithmic-models}
 
-## [!UICONTROL Look-Alike Modeling]で新しいユーザーを見つける {#find-new-users}
+## [!UICONTROL Look-Alike Modeling]で新しいユーザーを見つける  {#find-new-users}
 
 [!UICONTROL Look-Alike Modeling] を使用すると、自動データ分析により、新しい一意のオーディエンスを発見できます。このプロセスは、[!UICONTROL trait]または[!UICONTROL segment]、時間間隔、ファーストパーティおよびサードパーティの[!UICONTROL data sources]を選択した時点で開始します。この選択が、アルゴリズムモデルの入力となります。分析処理が実行されると、選択した母集団と共有する特徴に基づいて、該当するユーザーを検索します。完了すると、このデータは[特性ビルダー](../../features/traits/about-trait-builder.md)で使用可能になります。ここでは、このデータを使用して[精度とリーチ](../../features/traits/trait-accuracy-reach.md)に基づいて特性を作成できます。さらに、アルゴリズム特性と[!UICONTROL rules-based traits]を結合するセグメントを作成し、[!DNL Boolean]式や比較演算子を使用して他の認定要件を追加することができます。[!UICONTROL Look-Alike Modeling] を使用すると、使用可能なすべての特性データから価値を動的に抽出できます。
 
@@ -44,7 +44,7 @@ ht-degree: 99%
 
 データの生成に 3 回連続で失敗した [!UICONTROL Look-Alike Model] は、非アクティブ化されます。後でモデルのステータスを「Active」に戻すことはできません。モデルがデータを生成するようにするには、データを蓄積するために十分な量の[!UICONTROL traits]を持つデータソースからモデルを作成することが推奨されます。
 
-## [!UICONTROL TraitWeight]について {#understanding-traitweight}
+## [!UICONTROL TraitWeight]について  {#understanding-traitweight}
 
 [!UICONTROL TraitWeight] は、新しい[!UICONTROL traits]を自動的に検出するように設計された独自のアルゴリズムです。現在の[!UICONTROL traits]および[!UICONTROL segments]の[!UICONTROL trait]データを、[!DNL Audience Manager] を通じてアクセスできる他のあらゆるファーストパーティおよびサードパーティデータと比較します。この節では、[!UICONTROL TraitWeight] アルゴリズムの検出プロセスについて説明します。
 
@@ -81,7 +81,7 @@ ht-degree: 99%
 * [モデルビルダー](../../features/algorithmic-models/create-model.md)
 * [精度とリーチ](../../features/traits/trait-accuracy-reach.md)
 
-## [!UICONTROL Look-Alike Models]および[!UICONTROL Traits] のスケジュールを更新する {#update-schedule}
+## [!UICONTROL Look-Alike Models]および[!UICONTROL Traits] のスケジュールを更新する  {#update-schedule}
 
 新規または既存の[!UICONTROL algorithmic models]および[!UICONTROL traits]のスケジュールを作成および更新します。
 
@@ -97,7 +97,7 @@ ht-degree: 99%
  <tbody>
   <tr> 
    <td colname="col1"> <b>モデルの作成または複製</b> </td>
-   <td colname="col2"> <p>新規または複製した [!UICONTROL Look-Alike Models] について、作成プロセスは毎日次の時間に 1 回実行されます。 
+   <td colname="col2"> <p>新規または複製された[!UICONTROL Look-Alike Models]の場合、作成プロセスは1日に1回、次の時間に実行されます。 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 午後 5 時 EST（11 月～3 月） </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 午後 6 時 EDT（3 月～11 月） </li> 
