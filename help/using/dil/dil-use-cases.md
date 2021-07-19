@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# DIL のユースケースとコードサンプル {#dil-use-cases-and-code-samples}
+# DIL のユースケースとコードサンプル{#dil-use-cases-and-code-samples}
 
 特定の DIL ユースケースのコードサンプルおよび説明です。
 
@@ -213,7 +213,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
-## Google Tag Manager（GTM）での DIL とのやり取り {#traffic-dil-gtm}
+## Google Tag Manager（GTM）での DIL とのやり取り  {#traffic-dil-gtm}
 
 GTM タグを使用して DIL を設定および提供します。
 
