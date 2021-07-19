@@ -9,7 +9,7 @@ uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: マッチ率
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 100%
 
