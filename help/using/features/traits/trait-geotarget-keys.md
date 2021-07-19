@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）{#geotargeting-with-platform-level-keys}
+# プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング） {#geotargeting-with-platform-level-keys}
 
 Audience Manager アカウントのすべてのプロパティにわたって地理変数を使用してユーザーをターゲティングするのに使用できるプラットフォームレベルの共通のキーと値のペアについて説明します。
 
