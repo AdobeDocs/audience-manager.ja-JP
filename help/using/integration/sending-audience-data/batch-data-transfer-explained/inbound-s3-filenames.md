@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# [!DNL Amazon S3]受信データファイルの名前およびファイルサイズに関する要件 {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3]受信データファイルの名前およびファイルサイズに関する要件  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 [!DNL Audience Manager] にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを [!DNL Audience Manager]／[!DNL Amazon S3]ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
 
