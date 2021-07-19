@@ -9,13 +9,13 @@ uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics との統合
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
 source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Analytics] から [!DNL Audience Manager] にデータを転送する方法 {#implement-the-audience-management-module}
+# [!DNL Adobe Analytics] から [!DNL Audience Manager] にデータを転送する方法  {#implement-the-audience-management-module}
 
 このチュートリアルの手順に従い、[!DNL Audience Manager] [!UICONTROL Data Integration Library]（[!DNL DIL]）コードでページからピクセルを送信する代わりに、[!DNL Analytics] データを [!DNL Audience Manager] に転送することができます。
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 | `uuidCookie` | オプションです。この設定を使用すると、ファーストパーティドメインに [!DNL Adobe] Cookie を設定できます。この [!DNL cookie] には、[UUID](../../reference/ids-in-aam.md) が含まれます。 |
 | `visitorService` - `namespace` | 必須。`namespace` パラメーターは、[!UICONTROL AppMeasurement] バージョン 2.10 以降にバンドルされている [!DNL AudienceManagement] モジュールを使用する場合に必要です。この [!UICONTROL AudienceManagement] モジュールでは、[!UICONTROL Adobe Experience Platform Identity Service] 3.3 以降を使用する必要があります。<br><br>[!UICONTROL Experience Cloud Organization ID]は、会社が [!UICONTROL Experience Cloud] に新規登録したときに生成される ID です。「[組織とアカウントのリンク](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)」で、会社の組織 ID を確認します。 |
 
-## 結果：[!DNL Audience Manager] へのデータ転送 {#results-data-forwarding}
+## 結果：[!DNL Audience Manager] へのデータ転送  {#results-data-forwarding}
 
 以下の手順をおこなった後、[!DNL Analytics] 実装は [!DNL Audience Manager] にデータを送信します。
 
