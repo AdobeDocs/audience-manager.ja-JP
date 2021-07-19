@@ -7,7 +7,7 @@ uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: プロファイル結合
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
 source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
 
