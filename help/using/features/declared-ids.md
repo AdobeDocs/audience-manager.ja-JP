@@ -23,7 +23,7 @@ ht-degree: 99%
 
 サードパーティ [!DNL cookies] などの永続的ストレージメカニズムを使用しない、または使用できないデバイスやブラウザーで、[!DNL Audience Manager] とのユーザー ID の交換および同期をおこないます。
 
-## [!UICONTROL Declared ID] ターゲティングの目的 {#declared-id-targeting-purpose}
+## [!UICONTROL Declared ID] ターゲティングの目的  {#declared-id-targeting-purpose}
 
 一部のブラウザーやほとんどのモバイルデバイスでは、サードパーティの [!DNL cookies] を許可していません。そのため、サイト訪問者に関する情報の保持や永続的 ID の割り当てが難しくなります。この問題を解決するため、[!DNL Audience Manager] では、[!UICONTROL declared IDs] をイベント呼び出しで渡せるよう、[!UICONTROL DIL] を使用しています。また、[!UICONTROL declared ID]は、[!DNL Experience Cloud] のすべてのソリューションで同じユーザーに適用される汎用 ID としても機能できます。ID のターゲティング／マッチング処理を次の表で説明します。
 
@@ -123,7 +123,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## [!UICONTROL Declared IDs] の変数と構文 {#variables-and-syntax}
+## [!UICONTROL Declared IDs] の変数と構文  {#variables-and-syntax}
 
 以下の表に、[!DNL Audience Manager] でデータプロバイダー ID およびユーザー ID または統合コード（使用する場合）を渡すキー値ペアを示します。なお、*斜体*&#x200B;の部分には実際の情報が入ります。読みやすくするために、スペースが追加されています。
 
@@ -182,7 +182,7 @@ ht-degree: 99%
 
 [!UICONTROL declared IDs] を [!UICONTROL DIL] を通じて [!DNL Audience Manager.] に渡すための設定変数について説明します。
 
-## [!UICONTROL DIL] は、 [!DNL Adobe Experience Platform Identity Service][!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
+## [!UICONTROL DIL] は、 [!DNL Adobe Experience Platform Identity Service][!UICONTROL Declared IDs]  {#dil-id-service-pass-declared-ids}
 
 [Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を使用する場合、非推奨（廃止予定）の `dpid` 変数と `dpuuid` 変数を使用して [!UICONTROL declared IDs] を渡す必要はありません。代わりに、`visitorService` 関数に依存する現在のバージョンの [!UICONTROL DIL] を使用して、[!UICONTROL Adobe Experience Platform Identity Service] の `setCustomerIDs` 関数から [!UICONTROL declared IDs] を取得します。詳しくは、[顧客 ID と認証状態](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html)を参照してください。次のように、`DIL.create` で `visitorService` を呼び出します。
 
