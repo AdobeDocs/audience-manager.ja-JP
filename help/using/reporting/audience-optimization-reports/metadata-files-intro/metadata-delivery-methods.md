@@ -8,7 +8,7 @@ uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: ログファイル
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 
