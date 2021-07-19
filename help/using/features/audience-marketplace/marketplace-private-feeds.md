@@ -10,7 +10,7 @@ exl-id: 34eb6194-c57b-4836-a6df-6889a2cec703
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <!-- c_marketplace_privatefeed.xml -->
 
-## プロバイダーにとっての非公開データフィード {#private-data-feeds-providers}
+## 非公開データフィード （プロバイダー向け） {#private-data-feeds-providers}
 
 プロバイダーは、データフィードを公開または非公開にできます。非公開データフィードを使用すると、データへの購入者のアクセスを制限できます（データ販売者の名前を含む）。特別サービスや割引を提供したり、プライバシーおよびアクセス制御が重要な場合に、非公開データフィードを作成することもできます。非公開データフィードでは、購入者の要求を確認および承認できます。要求を承認したら、フィードは、購入者には公開データフィードのように見えます。**[!UICONTROL Audience Marketplace > My Shared Data]** では、すべてのフィードを表示および管理できます。以下に示すように、このタイプのフィードは、ステータス列で「Private」とマークされます。
 
