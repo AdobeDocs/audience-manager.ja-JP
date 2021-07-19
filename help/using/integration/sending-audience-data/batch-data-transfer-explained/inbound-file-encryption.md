@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 受信データタイプのファイル PGP 暗号化 {#file-pgp-encryption-for-inbound-data-types}
+# 受信データタイプのファイル PGP 暗号化{#file-pgp-encryption-for-inbound-data-types}
 
 Audience Manager に送信するデータファイルを [!DNL PGP] で暗号化できます。
 
