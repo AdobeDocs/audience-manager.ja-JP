@@ -24,6 +24,6 @@ Audience Manager のデータ収集サーバー（DCS）をプログラムで操
 
    サーバー間（S2S）API には、DCS ユーザーデータの送受信や独自システムまたはアプリケーションでの操作を可能にするコードおよびメソッドが用意されています。
 
-* [DCS API リファレンス](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+* [DCS API リファレンス ](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
    DCS API のコード、メソッド、プロセスの概念的情報、説明、定義です。
