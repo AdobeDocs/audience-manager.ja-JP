@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # DIL create メソッド {#dil-create}
 
-## DIL create {#dil-create-new}
+## DILの作成 {#dil-create-new}
 
 パートナー専用の [!UICONTROL DIL] インスタンスを作成します。
 
