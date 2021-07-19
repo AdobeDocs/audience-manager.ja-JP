@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# セグメント／特性間重複レポート {#segment-to-trait-overlap-report}
+# セグメント／特性間重複レポート{#segment-to-trait-overlap-report}
 
 特定の特性とセグメント全体とで共有されるユニークユーザーの数に関するデータを返します。
 
