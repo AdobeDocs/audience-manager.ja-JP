@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!UICONTROL Destination Builder]では、[!UICONTROL Configuration section]には [!UICONTROL Cookie Domain] フィールドと [!UICONTROL Publish Data To] フィールドが含まれます。これらを使用して、宛先が Cookie を設定しているかどうか、または Cookie を返すかどうかを判定するルールを作成できます。「[!UICONTROL Cookie Domain]」と「[!UICONTROL Publish Data To]」はオプションで、互いに独立して機能します。これらのどちらも使用せずに Cookie の宛先を作成することができます。
 
-## Cookie ドメイン：構文と例  {#cookie-domain-syntax}
+## Cookie ドメイン：構文と例 {#cookie-domain-syntax}
 
 <!-- cookie-destination-options.xml -->
 
@@ -90,7 +90,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## Publish Data To  {#publish-data-to}
+## Publish Data To {#publish-data-to}
 
 「[!UICONTROL Publish Data To]」設定では、選択したオプションで設定した条件にドメインが一致する場合、Cookie を返します。オプションは次のとおりです。
 
