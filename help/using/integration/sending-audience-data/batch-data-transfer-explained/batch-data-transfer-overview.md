@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ---
 
-# [!DNL Audience Manager] へのバッチデータ送信の概要 {#send-batch-data-to-audience-manager-overview}
+# [!DNL Audience Manager] へのバッチデータ送信の概要  {#send-batch-data-to-audience-manager-overview}
 
 他のシステム（オフライン）から [!DNL Audience Manager] にデータを取り込む、あらゆる技術レベルのお客様を対象とした概要説明です。
 
