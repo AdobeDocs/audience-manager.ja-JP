@@ -46,7 +46,7 @@ Audience Manager はブラウザー Cookie に対してセグメントデータ�
 >[!MORELIKETHIS]
 >
 >* [get_aamCookie コード](../../features/destinations/get-aam-cookie-code.md)
-* [キーと値のペアの解説](../../reference/key-value-pairs-explained.md)
+* [キーと値のペアの解説 ](../../reference/key-value-pairs-explained.md)
 
 
 ## OAS の宛先の作成 {#oas-dest-setup}
