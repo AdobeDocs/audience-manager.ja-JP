@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 受信リアルタイムデータ転送の技術仕様 {#technical-specifications-for-inbound-real-time-data-transfers}
+# 受信リアルタイムデータ転送の技術仕様{#technical-specifications-for-inbound-real-time-data-transfers}
 
 サードパーティコンテンツプロバイダーは、これらの技術仕様に従って、Audience Manager とデータを交換できます。リアルタイム（同期）統合では、ユーザーがサイトに訪問するかサイトでアクションを起こすたびに、ほぼリアルタイムにデータを転送します。技術、エンジニアリング、開発の各チームでは、この資料を使用して、Audience Manager を使用したリアルタイムデータ転送のセットアップに役立てることができます。
 
