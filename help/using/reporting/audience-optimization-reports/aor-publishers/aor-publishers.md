@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Audience Optimization for Publishers {#audience-optimization-for-publishers}
+# パブリッシャー向けAudience Optimization{#audience-optimization-for-publishers}
 
 Audience Optimization for Publishers を使用すれば、自社が所有および運用しているコンテンツにおける、どの程度 Audience Manager のセグメントのパフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の指標を組み合わせることで、オーディエンスの最適化と収益化の機会を導き出します。
 
