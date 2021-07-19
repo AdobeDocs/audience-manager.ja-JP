@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Audience Manager の宛先としての OpenX {#openx-as-an-audience-manager-destination}
+# Audience Manager の宛先としての OpenX{#openx-as-an-audience-manager-destination}
 
 [!DNL OpenX] を宛先として設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
 
