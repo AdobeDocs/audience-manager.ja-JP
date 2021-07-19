@@ -23,7 +23,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 > 実装段階に進む前に、この記事をよくお読みください。
 
-## [!UICONTROL People-Based Destinations] への新規登録 {#signing-up}
+## [!UICONTROL People-Based Destinations] への新規登録  {#signing-up}
 
 [!UICONTROL People-Based Destinations] は、ソーシャルネットワーク上または電子メールマーケティングで、カスタマイズされたオファーを用いてオーディエンスのターゲティングをおこない、ユーザーベースの環境でファーストパーティのオーディエンスセグメントをアクティブ化することで、Audience Manager のエクスペリエンスを強化するプレミアム機能です。
 
