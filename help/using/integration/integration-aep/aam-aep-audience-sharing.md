@@ -8,7 +8,7 @@ keywords: AEP オーディエンス共有、AEP セグメント、プラット�
 feature: Platform との統合
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Audience Manager の特性とセグメントは、セグメントワークフロ
 
 * [セグメント化サービスの概要](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/home.html#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/ui/overview.html#audiences)
-* [Audience Manager コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 ## Audience Manager の Adobe Experience Platform セグメント {#aep-segments-in-aam}
 
@@ -104,7 +104,7 @@ Experience Platform セグメントから自動的に作成されたセグメン
 
 | 項目番号 | 名前 | 説明 |
 |---------|----------|---------|
-| 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
+| 3 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
@@ -184,7 +184,7 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [セグメント化サービスの概要](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/home.html#audiences)
->* [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/ja-JP/experience-platform/segmentation/ui/overview.html#audiences)
->* [Audience Manager コネクタ](https://docs.adobe.com/content/help/ja-JP/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [セグメント化サービスの概要](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [Experience Platform セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager コネクタ](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
