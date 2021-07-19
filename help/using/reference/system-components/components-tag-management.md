@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Tag Management コンポーネント {#tag-management-components}
+# Tag Management コンポーネント{#tag-management-components}
 
 Audience Manager のタグ管理コンポーネントには、クライアントポータル、Adobe Tag Manager（廃止予定。Adobe Experience Platform Launch を代替として推奨）、DIL、Akamai、制御データベースなどがあります。
 
@@ -32,11 +32,11 @@ Audience Manager には次のコンポーネントがあります。
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
 * [制御データベース](../../reference/system-components/components-tag-management.md#control-database)
 
-## クライアントポータル  {#client-portal}
+## クライアントポータル {#client-portal}
 
-クライアントポータルは、タグおよびデータ管理の主要なユーザーインターフェイス（UI）です。ポータルを使用してタグの操作、特性およびセグメントの作成、送信先の設定、およびレポートによるキャンペーンパフォーマンスの監視をおこないます。
+クライアントポータルは、タグおよびデータ管理の主要なユーザーインターフェイス（UI）です。ポータルを使用してタグの操作、特性およびセグメントの作成、宛先の設定、およびレポートによるキャンペーンパフォーマンスの監視をおこないます。
 
-## DIL／TIM コンテナ  {#dil-tim}
+## DIL／TIM コンテナ {#dil-tim}
 
 [!UICONTROL DIL] コンテナは、[!DNL Audience Manager] のデータ収集コードを Web サイトに配置する際に使用されます。[!UICONTROL TIM] は非推奨（廃止予定）となった Tag Insertion Manager です。[!DNL Audience Manager] では使用されなくなりました。代わりに、[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=ja) の [!DNL Audience Manager] 拡張機能を使用して、インベントリのページに配置するコンテナコードを設定および生成します。
 
