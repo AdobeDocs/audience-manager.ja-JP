@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# データ処理のコンポーネント {#data-processing-components}
+# データ処理のコンポーネント{#data-processing-components}
 
 データ処理のコンポーネントには、Hadoop、Snowflake、SOLR および Tableau などがあります。
 
