@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Audience Manager 識別子（ID）{#aam-ids}
+# Audience Manager 識別子（ID） {#aam-ids}
 
 Adobe Audience Manager に対して[データプライバシーリクエスト](data-privacy-requests.md)を送信する際、以下のいずれかの識別子（ID）を含める必要があります。ID 形式について詳しくは、[Audience Manager ID のインデックス](../../reference/ids-in-aam.md)を参照してください。
 
