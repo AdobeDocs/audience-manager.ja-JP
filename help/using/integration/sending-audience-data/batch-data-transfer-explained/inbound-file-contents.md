@@ -32,7 +32,8 @@ ht-degree: 100%
 >
 >受信データファイルで送信する各ユーザー ID について、処理できる行数の上限は 200 行です。例えば、あるユーザー ID について 300 行が送信された場合、最初の 200 行は保持されますが、残りの 100 行は破棄されます。以下の例では、ユーザー ID 1 とユーザー ID 2 のそれぞれについて送信されている行が 3 行なので、問題はありません。1 行に含まれる特性やキーと値のペアの数には、制限はありません。
 >
->```
+>
+```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
@@ -77,7 +78,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## [!UICONTROL Trait IDs]のフォーマット {#formatting-trait-ids}
+## フォーマット [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
 次の表は、受信データファイルで[!UICONTROL trait]の名前または ID を識別するためのプレフィックスの一覧です。例については[サンプルファイル](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples)を参照してください。
 
@@ -123,7 +124,7 @@ ht-degree: 100%
  </tbody>
 </table>
 
-## [!UICONTROL User IDs]、[!UICONTROL Trait IDs]、およびキーと値のペアに無効な文字が含まれている {#invalid-chars}
+## [!UICONTROL Trait IDs]、[!UICONTROL User IDs]、およびキーと値のペアに無効な文字が含まれている  {#invalid-chars}
 
 ### [!UICONTROL Trait IDs]
 
@@ -506,5 +507,5 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 
 >[!MORELIKETHIS]
 >
->* [特性ビルダー](../../../features/traits/about-trait-builder.md)
+>* [特性ビルダー ](../../../features/traits/about-trait-builder.md)
 
