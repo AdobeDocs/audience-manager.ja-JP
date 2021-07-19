@@ -22,7 +22,7 @@ Audience Manager のアルゴリズムモデリングとは、既存のオーデ
 
 これは、[!UICONTROL Look-Alike Modeling] と [!UICONTROL Predictive Audiences] の 2 種類のアルゴリズムを使用しておこなわれます。
 
-## 類似モデリング {#lam}
+## 類似モデリング{#lam}
 
 [!UICONTROL Look-Alike Modeling] を使用すると、自動データ分析により、新しい一意のオーディエンスを発見できます。このプロセスは、特性またはセグメント、時間間隔、ファーストパーティおよびサードパーティデータソースを選択した時点で開始します。この選択が、アルゴリズムモデルの入力となります。分析処理が実行されると、選択した母集団と共有する特徴に基づいて、該当するユーザーを検索します。
 
@@ -32,7 +32,7 @@ Audience Manager のアルゴリズムモデリングとは、既存のオーデ
 
 [!UICONTROL Look-Alike Modeling] について詳しくは、[類似（look-alike）モデリングについて](understanding-models.md)を参照してください。
 
-## Predictive Audiences {#predictive-audiences}
+## Predictive Audiences{#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] は、高度なデータサイエンス技法を使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
 
