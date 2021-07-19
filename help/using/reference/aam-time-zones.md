@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Audience Manager のタイムゾーン {#time-zones-in-audience-manager}
+# Audience Manager のタイムゾーン{#time-zones-in-audience-manager}
 
 Audience Manager は UI 全体で協定世界時（UTC）を使用しています。
 
