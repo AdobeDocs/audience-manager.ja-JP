@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# プライバシーとデータ保持に関するよくある質問 {#privacy-and-data-retention-faq}
+# プライバシーとデータ保持に関するよくある質問{#privacy-and-data-retention-faq}
 
 プライバシーやデータに関してよくある質問や問題に対する回答。
 
