@@ -10,8 +10,8 @@ feature: 顧客データフィード
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 100%
+source-wordcount: '1934'
+ht-degree: 99%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 このサービスの詳細については、以下の節および[顧客データフィードの FAQ](../faq/faq-cdf.md) を参照してください。
 
-## [!UICONTROL Customer Data Feed]定義済みコンテンツ {#cdf-defined}
+## [!UICONTROL Customer Data Feed]定義済みコンテンツ  {#cdf-defined}
 
 [!UICONTROL CDF]ファイルのデータ要素および配列を出現順に列挙し定義します。定義にはデータタイプが含まれていますが、この情報は [!UICONTROL CDF] ファイルには含まれていません。
 
@@ -64,7 +64,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p><code> Event Time</code> </p> </td> 
    <td colname="col2"> <p>タイムスタンプ </p> </td> 
-   <td colname="col3"> <p><span class="wintitle">データ収集サーバー</span>（DCS）で CDF ファイルが処理された時刻。タイムスタンプは <i>yyyy-mm-dd hh:mm:ss</i> 形式を使用し、UTC タイムゾーンに設定されます。 </p> <p> <p>注意：イベント時刻は、<i> </i> <p> 
+   <td colname="col3"> <p><span class="wintitle">データ収集サーバー</span>（DCS）で CDF ファイルが処理された時刻。タイムスタンプは、<i>yyyy-mm-dd hh:mm:ss</i>形式を使用し、UTCタイムゾーンに設定されます。 </p> <p> <p>注意：イベント時刻は、<i> </i> <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">ページイベントやイベント呼び出しそのものの時刻に近いですが、それらの時刻ではありません。 </li> 
         <li id="li_271DF14395BC495FBF17186588A554A8">ファイル名の DCS 時刻とは関係ありません。詳しくは、<a href="#different-processing-times">顧客データフィードファイル名の時刻とファイルコンテンツの時刻の違い</a>を参照してください。 </li> 
@@ -123,7 +123,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed]ファイル構造 {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed]ファイル構造  {#cdf-file-structure}
 
 [!UICONTROL CDF] ファイルのデータ構造を一覧表示および定義します。データ列、フィールド区切り文字、データファイルマップ、サンプルファイルが含まれています。
 
@@ -168,7 +168,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## [!UICONTROL CDF]ファイルマップ {#cdf-file-map}
+## [!UICONTROL CDF]ファイルマップ  {#cdf-file-map}
 
 [!UICONTROL CDF] ファイルデータの出現順序は以下のとおりです。
 
@@ -249,11 +249,11 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed]ファイル処理の通知 {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed]ファイル処理の通知  {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] は、ファイルのダウンロード準備が完了したことを知らせるために、[!UICONTROL Customer Data File]（[!UICONTROL CDF]）のダウンロード準備ができたことを知らせるために、[!DNL S3] ディレクトリに `.info` ファイルを書き込みます。`.info` ファイルには、[!UICONTROL CDF] ファイルの内容に関する [!DNL JSON] 形式のメタデータも含まれています。この通知ファイルで使用されている構文やフィールドについては、このセクションで確認してください。
 
-## サンプル .info ファイル     {#sample-info-file}
+## サンプル .info ファイル    {#sample-info-file}
 
 各 `.info` ファイルは、`Files` と `Totals` の 2 つのセクションで構成されます。`Files` セクションには、時間ごとのファイルの特定の指標を格納した配列が含まれています。`Totals` セクションには、特定の日のすべての [!UICONTROL CDF] ファイルについて集計した指標が含まれています。`.info` ファイルの内容は、例えば次のようになります。
 
@@ -352,11 +352,11 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed]ファイル名の時間とファイルコンテンツの時間が異なる {#different-processing-times}
+## [!UICONTROL Customer Data Feed]ファイル名の時間とファイルコンテンツの時間が異なる  {#different-processing-times}
 
 [!UICONTROL CDF] ファイルでは、ファイル名とファイルコンテンツにタイムスタンプが含まれています。これらのタイムスタンプは、同じ [!UICONTROL CDF] ファイルに対する異なるイベントプロセスを記録します。同じファイルの名前とコンテンツに異なるタイムスタンプが表示されることは珍しくありません。各タイムスタンプを理解すると、このデータを操作したり時刻でソートしようとしたりするときに、犯しがちなミスを避けるうえで役に立ちます。
 
-## [!UICONTROL CDF] ファイルのタイムスタンプの場所 {#locating-timestamps}
+## [!UICONTROL CDF] ファイルのタイムスタンプの場所  {#locating-timestamps}
 
 [!UICONTROL CDF] ファイルでは、2 つの別個の場所に異なる時刻を記録します。
 
