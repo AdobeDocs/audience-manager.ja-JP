@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 特性間重複レポート {#trait-to-trait-overlap-report}
+# 特性間重複レポート{#trait-to-trait-overlap-report}
 
 すべてのファーストパーティおよびサードパーティ特性で共有されるユニークユーザーの数に関するデータを返します。
 
