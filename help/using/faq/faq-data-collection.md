@@ -9,7 +9,7 @@ keywords: SFTP; SFTP アドレス; STFP IP アドレス; FTP アドレス
 feature: 管理
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 * DomainID は 5325 に設定されます。
 * 地域は 0 に設定されます。
 
-<br>
+<br> 
 
 **dpm.demdex.net の許可リストに追加できる IP アドレスのリストを提供していただけますか。**
 
@@ -114,7 +114,7 @@ https://112.2o7.net/b/ss/.../1/H.24.4/...
 https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 ```
 
-<br>
+<br> 
 
 **[!DNL Analytics] の顧客でなくても、ページデータを収集できますか？**
 
@@ -127,7 +127,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 さらに、クライアントは簡単なオンサイトオブジェクトをデプロイし、[!UICONTROL DIL] でデータを収集するキー値ペアをそのオブジェクトに設定することもできます。これにより、[!DNL Audience Management] を更新しなくても、サイト上の特定のオーディエンスデータポイントを追加したり削除したりできます。パートナーソリューションの担当者と協力して、これを適切にセットアップし、[!DNL DIL] モジュールがこのページオブジェクトを正しく参照するようにしてください。
 
-<br>
+<br> 
 
 **[!UICONTROL DIL] で [!DNL Google Analytics] からデータを収集することはできますか？**
 
@@ -136,7 +136,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 * [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics)
 * [GA.init](../dil/dil-modules.md#ga-init)
 
-<br>
+<br> 
 
 **[!DNL Audience Manager] から生データを取得できますか？ また、その粒度はどの程度ですか？**
 
@@ -148,37 +148,37 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 * タイムスタンプ
 * ページの URL
 
-<br>
+<br> 
 
 **一方のサイトでデータ収集し、別のサイトで [!DNL Google Ad Manager] を通じてユーザーをターゲットにしたいと考えています。データを収集しない他の資産にもコードをデプロイする必要がありますか？**
 
 いいえ。2 つ目のサイトのデータ収集が不要な場合は、そこに DIL をデプロイする必要はありません。[!DNL Google Ad Manager] 経由で 2 番目のサイトのインベントリにアクセスできれば、最初のサイトのデータ収集を使用して、[!DNL Google Ad Manager] 経由でのターゲット設定をおこなうことができます。
 
-<br>
+<br> 
 
 **最良のサードパーティデータプロバイダーは何ですか？**
 
 各プロバイダーはそれぞれ固有の情報を提供するので、何を求めているかによって、答えは変わります。重複レポート（コストなしで）有効にできるので、どのプロバイダーが自分に最適かを判断するのに役に立ちます。
 
-<br>
+<br> 
 
 **[!DNL Audience Manager] はどのように Cookie を設定し変数を [!DNL Google Ad Manager] に渡しますか？**
 
 [!DNL Audience Manager] では 2 つの Cookie を設定します。一方はセグメント変数を [!DNL Google Ad Manager] 広告タグに送信し、もう一方は一意のユーザー ID（UUID）を設定します。この ID は [!DNL Google Ad Manager] にも読み取られます。UUID を広告タグに追加することで、ユーザーレベルのレポートとオーディエンス検出を実行できます。
 
-<br>
+<br> 
 
 **ユーザーが到達したコンバージョンファンネルのポイントに関する DSP 情報を送信できますか？**
 
 はい。ファンネルデータを送信できますが、DSP にはそれを使用する技術的能力が必要です。DSP は複数のセグメントを確実に処理できる必要があります。それができない場合、特定のセグメントを作成して、コンバージョンの進行状況（例：手順 1 と 2 は完了したが手順 3 は未完）に基づいて、他のセグメントからユーザーを取り出す必要があります。ユーザーをリターゲティングしたり、特定のランディングページに移動させたり、特定のクリエイティブを表示したりできるように、この情報を DSP に送信できます。
 
-<br>
+<br> 
 
 **FTP で送信したデータが [!DNL Audience Manager] で取得されたことを確認するには、どうすればよいですか？**
 
 ファイルの拡張子が `.sync` から `.processed` に変わったら、ファイルが取得されたことになります。これが起こったとき、ファイルは取り込みキューに入っています。また、ファイルがアップロードされたとき、アカウントマネージャーがそれを確認できます。
 
-<br>
+<br> 
 
 **[DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md) の機能をテストしたいと思っています。次のように、イベント呼び出しを送信します。呼び出しには[宣言された ID](../features/declared-ids.md) とシグナルが含まれており、それによって、セットアップ済みの特性とセグメントが認識されます。[!UICONTROL General Reports] と [!UICONTROL Trend Reports] を使用して、特性とセグメントのユーザー数が増加していることを確認できますか？**
 
@@ -200,7 +200,7 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 詳しくは、[Audience Manager で使用される ID の一覧](../reference/ids-in-aam.md)を参照してください。
 
-<br>
+<br> 
 
 **ユーザープロファイルがすべての[地域](../api/dcs-intro/dcs-api-reference/dcs-regions.md)に同期されるまで、どれくらいかかりますか？**
 
