@@ -24,7 +24,7 @@ ht-degree: 100%
 
    データ収集サーバー（DCS）で生成されるエラーコードおよびメッセージをコード ID の順に説明します。
 
-* [ID の監視と拒否リスト登録](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+* [ID の監視とブロックリストへの登録](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
    DCS は受信する ID を監視し、一定期間に異常に高い頻度で送信された ID をブロックリストに登録します。
 
