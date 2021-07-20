@@ -153,10 +153,8 @@ dil-google-universal-analytics.xml
 >
 >
 >* [!DNL Audience Manager] では、Google の `analytics.js` コードライブラリの状況把握や管理をおこないません。 Google が [!UICONTROL DIL] の新バージョンをリリースした場合は、`analytics.js` データ収集がまだ機能するかどうかを確認してください。
-   >
-   >
-* 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。 代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
-
+>
+>* 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。 代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
 >
 
 

@@ -472,6 +472,7 @@ state = {
           id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
           url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
           + containerNSID + '#' + encodeURIComponent(document.location.href), 
+
                iframe: null, 
                iframeHasLoaded: false, 
                sendingMessages: false, 
@@ -683,7 +684,6 @@ var dilInstance = DIL.create({
 >
 >* サイト訪問者のブラウザーが CORS をサポートしていることが確実な場合にのみ `useCORSOnly: true` を設定することをお勧めします。
 >* `useCORSOnly: true` の場合、[!UICONTROL DIL] は Internet Explorer 9 またはそれ以前のバージョンからは ID 呼び出しをおこないません。
-
 >
 
 
@@ -722,9 +722,9 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >[!MORELIKETHIS]
 >
 >* [キー変数名の要件](../features/traits/trait-key-name-requirements.md)
-* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
-* [Adobe Experience Platform ID サービスの同期機能](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/methods/idsync.html)
-* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
-* [Adobe Experience Platform ID サービス：UseCORSOnly](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/use-cors-only.html)
-* [Adobe Experience Platform ID サービスでの CORS のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/cors.html)
+>* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
+>* [Adobe Experience Platform ID サービスの同期機能](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/methods/idsync.html)
+>* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Adobe Experience Platform ID サービス：UseCORSOnly](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Adobe Experience Platform ID サービスでの CORS のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/cors.html)
 
