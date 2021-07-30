@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 特性レコメンデーション
 feature: セグメント
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 100%
@@ -169,7 +169,7 @@ Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合
 以下の表を、特性類似性についての大まかなガイドとして使用してください。このガイドは、大部分の特性で確認された類似性スコアに基づいています。
 
 | [!UICONTROL Trait Similarity Score] | 有意性 |
----------|----------|
+|---------|----------|
 | 0.1 以上 | 特性間の類似性が高い |
 | 0.03～0.1 | 特性間の類似性が中程度 |
 | 0.01～0.03 | 特性間の類似性が低い |
