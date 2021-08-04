@@ -8,9 +8,9 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP アドレス; STFP IP アドレス; FTP アドレス
 feature: 管理
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1215'
 ht-degree: 100%
 
 ---
@@ -190,7 +190,7 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 これらのレポートは、レポートの生成時にバックエンドで確認される認証されていないプロファイルレコード（UUID）に基づいてユーザー数を計算します。
 
-[!DNL DCS] の最初の呼び出し時に、宣言された ID はどの UUID にもリンクされて&#x200B;*いません*（つまり、[demdex Cookie](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) がクライアント側にありません）。[!DNL DCS] は UUID をランダムに生成し、[!DNL demdex] Cookie を設定してレスポンス呼び出しに含めて渡しますが、この場合、UUID はバックエンドに送信されません。
+[!DNL DCS] の最初の呼び出し時に、宣言された ID はどの UUID にもリンクされて&#x200B;*いません*（つまり、[demdex Cookie](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-am.html) がクライアント側にありません）。[!DNL DCS] は UUID をランダムに生成し、[!DNL demdex] Cookie を設定してレスポンス呼び出しに含めて渡しますが、この場合、UUID はバックエンドに送信されません。
 
 >[!NOTE]
 >
