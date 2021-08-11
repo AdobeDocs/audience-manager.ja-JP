@@ -8,10 +8,10 @@ title: ベータ環境
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: リファレンス
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '348'
+ht-degree: 86%
 
 ---
 
@@ -21,25 +21,21 @@ ht-degree: 100%
 
 ## 概要
 
-ベータ環境は、実験的または未リリースの機能を持たない、実稼働環境の正確な複製です。実稼働環境のログイン資格情報は、ベータ環境でも有効です。
+ベータ環境の機能は、実験的または未リリースの機能を持たない、実稼動環境の正確なレプリカです。 実稼働環境のログイン資格情報は、ベータ環境でも有効です。
 
 **更新のスケジュール**
 
 ベータ環境は毎月末のオフピーク時間に更新されます。
 
+>[!IMPORTANT]
+>
+>顧客データ（[シグナル、特性およびセグメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)）は、実稼動環境とベータ環境の間では同期されません。
+
 **送信トラフィック**
 
 ベータ環境では、送信トラフィックは有効になっていません。
 
-<!-- 
-
-Added re: AAM-30826.
-
- -->
-
 ## エンドポイント
-
-
 
 | サービス | URL／ホスト名 | アクセス方法 |
 |--- |--- | --- |
