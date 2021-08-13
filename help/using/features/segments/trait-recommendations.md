@@ -7,7 +7,7 @@ title: 特性レコメンデーション
 feature: セグメント
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
 source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1574'
 ht-degree: 100%
 
