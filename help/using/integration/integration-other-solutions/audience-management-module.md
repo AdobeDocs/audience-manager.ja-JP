@@ -8,10 +8,10 @@ title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics との統合
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
+source-git-commit: 8c96c2f987ab0f235bdfb8ba5eb4a7d55fa57d0b
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 100%
+source-wordcount: '533'
+ht-degree: 94%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 100%
 
 このドキュメントで説明した拡張機能の有効化やコードの実装に加えて、以下をおこなう必要があります。
 
-* [Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)を実装する。
-* [ でレポートスイートの](https://docs.adobe.com/help/ja-JP/analytics/admin/admin-tools/server-side-forwarding/ssf.html)サーバーサイド転送[!UICONTROL Adobe Analytics Admin Console]を有効にする。
+* [Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)を実装する。
+* [ でレポートスイートの](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)サーバーサイド転送[!UICONTROL Adobe Analytics Admin Console]を有効にする。
 
 ## 実装 {#implementation}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ### [!DNL Adobe Experience Platform Launch] を使用した実装 
 
-[!DNL Adobe] では、[Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja) 拡張機能を使用して、プロパティで [!DNL Adobe Analytics] および [!DNL Audience Manager] を実装することをお勧めします。この場合、コードを手動でコピーする必要はありません。代わりに、以下の画像に示すように、[!DNL Analytics Launch] 拡張機能でデータ共有を有効にする必要があります。[Adobe Analytics 拡張機能](https://docs.adobe.com/content/help/ja-JP/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager)のドキュメントも参照してください。
+[!DNL Adobe] では、[Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja) 拡張機能を使用して、プロパティで [!DNL Adobe Analytics] および [!DNL Audience Manager] を実装することをお勧めします。この場合、コードを手動でコピーする必要はありません。代わりに、以下の画像に示すように、[!DNL Analytics Launch] 拡張機能でデータ共有を有効にする必要があります。[Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager)のドキュメントも参照してください。
 
 >[!TIP]
 >
@@ -53,7 +53,7 @@ ht-degree: 100%
 | `partner` | 必須。これは、[!DNL Adobe]によって割り当てられたパートナー名です。「[!UICONTROL partner ID]」や「パートナーサブドメイン」と呼ばれることもあります。パートナー名が不明な場合は、[!DNL Adobe]のコンサルタントまたは[カスタマーケア](https://helpx.adobe.com/jp/marketing-cloud/contact-support.html)にお問い合わせください。 |
 | `containerNSID` | 必須。ほとんどの場合は、`"containerNSID":0` に設定できます。ただし、会社が異なるコンテナを使用して ID 同期をカスタマイズする必要がある場合、ここでそのコンテナ ID を指定できます。 |
 | `uuidCookie` | オプションです。この設定を使用すると、ファーストパーティドメインに [!DNL Adobe] Cookie を設定できます。この [!DNL cookie] には、[UUID](../../reference/ids-in-aam.md) が含まれます。 |
-| `visitorService` - `namespace` | 必須。`namespace` パラメーターは、[!UICONTROL AppMeasurement] バージョン 2.10 以降にバンドルされている [!DNL AudienceManagement] モジュールを使用する場合に必要です。この [!UICONTROL AudienceManagement] モジュールでは、[!UICONTROL Adobe Experience Platform Identity Service] 3.3 以降を使用する必要があります。<br><br>[!UICONTROL Experience Cloud Organization ID]は、会社が [!UICONTROL Experience Cloud] に新規登録したときに生成される ID です。「[組織とアカウントのリンク](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)」で、会社の組織 ID を確認します。 |
+| `visitorService` - `namespace` | 必須。`namespace` パラメーターは、[!UICONTROL AppMeasurement] バージョン 2.10 以降にバンドルされている [!DNL AudienceManagement] モジュールを使用する場合に必要です。この [!UICONTROL AudienceManagement] モジュールでは、[!UICONTROL Adobe Experience Platform Identity Service] 3.3 以降を使用する必要があります。<br><br>[!UICONTROL Experience Cloud Organization ID]は、会社が [!UICONTROL Experience Cloud] に新規登録したときに生成される ID です。「[組織とアカウントのリンク](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)」で、会社の組織 ID を確認します。 |
 
 ## 結果：[!DNL Audience Manager] へのデータ転送  {#results-data-forwarding}
 
