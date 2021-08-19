@@ -7,10 +7,10 @@ title: セグメントの目的、構成およびルール
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 feature: セグメント
 exl-id: 4e4da7a7-3267-4564-b1c5-663dcddf2b93
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '327'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics [!UICONTROL segments]またはレポートスイートをExperie
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments]は、[!DNL Adobe Analytics] [!UICONTROL segments] とは異なります。両者の違いについて詳しくは、[Analytics と Audience Manager について](https://docs.adobe.com/content/help/ja-JP/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)を参照してください。
+>Audience Manager [!UICONTROL segments]は、[!DNL Adobe Analytics] [!UICONTROL segments] とは異なります。両者の違いについて詳しくは、[Analytics と Audience Manager について](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)を参照してください。
 
 ## [!UICONTROL Segment Builder] でルールベース[!UICONTROL Segments]を作成する
 
