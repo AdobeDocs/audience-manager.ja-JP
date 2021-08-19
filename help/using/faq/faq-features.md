@@ -8,10 +8,10 @@ title: 製品の機能に関するよくある質問
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: 概要
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '609'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ faq_features_functions.xml
 
 つまり、*`Organization ID`* は `1FD6776A524453CC0A490D44@AdobeOrg` のようになります。
 
-*`Organization ID`* は、Audience Manager の [DIL](../dil/dil-overview.md) API、[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)およびその他の [!DNL Experience Cloud] ソリューションで使用されます。*`Organization ID`* は、管理者権限を持つユーザーが [!DNL Adobe Admin Console] で確認できます。詳しくは、[管理 - ユーザー管理の FAQ](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html) を参照してください。
+*`Organization ID`* は、Audience Manager の [DIL](../dil/dil-overview.md) API、[Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)およびその他の [!DNL Experience Cloud] ソリューションで使用されます。*`Organization ID`* は、管理者権限を持つユーザーが [!DNL Adobe Admin Console] で確認できます。詳しくは、[管理 - ユーザー管理の FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) を参照してください。
 
  
 
@@ -67,7 +67,7 @@ faq_features_functions.xml
 
 **[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager では [!UICONTROL Tag Insertion Manager]（TIM）を使用して [!UICONTROL data collection code (DIL)] を作成および管理していました。この機能は時代後れとなったので、[!UICONTROL Dynamic Tag Manager (DTM)] で置き換えられた後、[!DNL Adobe Experience Platform Launch] で置き換えられました。詳しくは、[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja) を参照してください。
+Audience Manager では [!UICONTROL Tag Insertion Manager]（TIM）を使用して [!UICONTROL data collection code (DIL)] を作成および管理していました。この機能は時代後れとなったので、[!UICONTROL Dynamic Tag Manager (DTM)] で置き換えられた後、[!DNL Adobe Experience Platform Launch] で置き換えられました。詳しくは、[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) を参照してください。
 
  
 
@@ -95,4 +95,4 @@ Audience Manager では [!UICONTROL Tag Insertion Manager]（TIM）を使用し�
 
 **Adobe Analytics セグメントと Audience Manager セグメントには何か違いがありますか？**
 
-はい、あります。両者の違いについて詳しくは、[Analytics と Audience Manager について](https://docs.adobe.com/content/help/ja-JP/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)を参照してください。
+はい、あります。両者の違いについて詳しくは、[Analytics と Audience Manager について](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)を参照してください。
