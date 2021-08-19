@@ -9,9 +9,9 @@ uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: リファレンス
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
 source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 86%
 
 ## 概要
 
-ベータ環境の機能は、実験的または未リリースの機能を持たない、実稼動環境の正確なレプリカです。 実稼働環境のログイン資格情報は、ベータ環境でも有効です。
+ベータ環境は、実験的な機能または未リリースの機能を持たない、実稼動環境の正確なセカンダリです。実稼働環境のログイン資格情報は、ベータ環境でも有効です。
 
 **更新のスケジュール**
 
@@ -29,7 +29,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->顧客データ（[シグナル、特性およびセグメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)）は、実稼動環境とベータ環境の間では同期されません。
+>顧客データ（[シグナル、特性およびセグメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ja)）は、実稼動環境とベータ環境の間では同期されません。
 
 **送信トラフィック**
 
