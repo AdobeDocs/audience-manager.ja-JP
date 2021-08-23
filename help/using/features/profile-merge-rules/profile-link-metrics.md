@@ -7,10 +7,10 @@ title: プロファイル結合ルールのレポート指標
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: プロファイル結合
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 結合ルールの指標 {#merge-rule-metrics}
 
-結合ルールにより、[!DNL Audience Manager] でアクセス可能な [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/about/overview.html) やその他のサードパーティのデバイスグラフからのデータが使用されると、棒グラフが並んで返されます。これにより、認証済みのファーストパーティのデータを、[!UICONTROL Experience Cloud Device Co-op] やその他のサードパーティのデバイスグラフから得られたクロスデバイスデータと比較することができます。[!UICONTROL Device Co-op] から返されるデータについて詳しくは、[デバイスグラフ：内部処理と出力](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/device-graph/device-graph-overview.html)を参照してください。このデータは毎日更新されます。
+結合ルールにより、[!DNL Audience Manager] でアクセス可能な [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html) やその他のサードパーティのデバイスグラフからのデータが使用されると、棒グラフが並んで返されます。これにより、認証済みのファーストパーティのデータを、[!UICONTROL Experience Cloud Device Co-op] やその他のサードパーティのデバイスグラフから得られたクロスデバイスデータと比較することができます。[!UICONTROL Device Co-op] から返されるデータについて詳しくは、[デバイスグラフ：内部処理と出力](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html)を参照してください。このデータは毎日更新されます。
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
@@ -35,7 +35,7 @@ ht-degree: 100%
    <td colname="col2"> <p>以下の項目が表示されます。 </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle">Active People</span>：直近 60 日間でサイトで認証されたユーザーの数。 </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle">Cross Device</span>：選択した<a href="merge-rule-definitions.md">認証済みプロファイル</a>の<a href="https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-sources/manage-datasources.html">データソース</a>に、そのデータソースが存在した期間内に保存された<a href="merge-rules-start.md#create-data-source">クロスデバイス ID</a> の総数。 </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle">Cross Device</span>：選択した<a href="merge-rule-definitions.md">認証済みプロファイル</a>の<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html">データソース</a>に、そのデータソースが存在した期間内に保存された<a href="merge-rules-start.md#create-data-source">クロスデバイス ID</a> の総数。 </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle">% Active People</span>：「<span class="wintitle">Active People</span>」を割合として表します。 </li> 
     </ul> <p> 「<span class="wintitle">Authenticated Activity</span>」では、アクティブなユーザー数、ユーザーの総数、割合によってデータを比較することができます。これにより、ユーザー数が多いデータソースや、アクティブなユーザーの割合が多いデータソースを特定できます。また、データソースの比較により、オーディエンス全体と比べてアクティブなユーザーの割合が多い値を特定することもできます。例えば、全期間ユーザー数が少なくアクティブなユーザー数が多いデータソースのほうが、全期間ユーザー数が多くアクティブなユーザー数が少ないデータソースより重要であることがあります。 </p> <p> <p>注意：「<span class="wintitle">Authenticated Activity</span>」指標の対象となっているのは<span class="wintitle">プロファイルリンク</span>データのみです。このレポートには<span class="wintitle">デバイスグラフ</span>データは含まれません。 </p> </p> </td> 
   </tr> 
