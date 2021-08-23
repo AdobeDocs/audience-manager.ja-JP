@@ -7,10 +7,10 @@ title: 用語集
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: リファレンス
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 100%
+source-wordcount: '1181'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ CRM ID は、お客様が自身の CRM システム内でユーザーを識別�
 
 **Customer Attributes**
 
-[!DNL Experience Cloud Core Services] 製品ドキュメントの[顧客属性](https://docs.adobe.com/content/help/ja-JP/core-services/interface/customer-attributes/attributes.html)を参照してください。
+[!DNL Experience Cloud Core Services] 製品ドキュメントの[顧客属性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)を参照してください。
 
 
 
@@ -111,7 +111,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 **Experience Cloud ID (ECID)**
 
-以前は [!DNL Marketing Cloud] ID（MID または MCID）と呼ばれていたものです。この ID は [!DNL Experience Cloud] ID サービスの中心となるものです。サイト訪問者の永続的な一意の識別子です。[Cookie と Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/intro/cookies.html)を参照してください。
+以前は [!DNL Marketing Cloud] ID（MID または MCID）と呼ばれていたものです。この ID は [!DNL Experience Cloud] ID サービスの中心となるものです。サイト訪問者の永続的な一意の識別子です。[Cookie と Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)を参照してください。
 
 
 
@@ -267,6 +267,6 @@ TTL は、対象として認定された訪問者が特性にとどまる日数�
 
 [!DNL Experience Cloud] ID サービス（旧称、訪問者 ID）は、[!DNL Experience Cloud] のすべてのソリューションにわたって訪問者を識別する、普遍的、永続的な ID を提供します。
 
-[Adobe Experience Platform ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.html)のドキュメントを参照してください。
+[Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)のドキュメントを参照してください。
 
 ## W-X-Y-Z {#w-z}
