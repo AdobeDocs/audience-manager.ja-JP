@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 前提条件と考慮事項
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 100%
+source-wordcount: '1013'
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 [!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、「[Add, Edit, and Remove User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)」（LinkedIn ドキュメント）を参照してください。
 
-ビデオの手順については、「[Understanding and Configuring the LinkedIn People-Based Destination](https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html)」を参照してください。
+ビデオの手順については、「[Understanding and Configuring the LinkedIn People-Based Destination](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html)」を参照してください。
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud では、[!DNL Adobe Experience Platform Identity Service (ECID)] で顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、[SHA256 setCustomerID のハッシュ化のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/hashing-support.html)を参照してください。
+Adobe Experience Cloud では、[!DNL Adobe Experience Platform Identity Service (ECID)] で顧客 ID をハッシュ化できます。ECID を使用して顧客 ID をハッシュ化する方法について詳しくは、[SHA256 setCustomerID のハッシュ化のサポート](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html)を参照してください。
 
 ## ユーザー権限の取得 {#obtaining-user-permission}
 
