@@ -7,10 +7,10 @@ solution: Audience Manager
 title: Admin Console への Audience Manager ユーザーの移行
 feature: 管理
 exl-id: d9069cc1-87fa-47b7-ad0c-d69ee37fc91e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 | メリット | 説明 |
 |---|---|
 | シングルサインオンソリューション間 | [!DNL Audience Manager] ユーザーは、[!DNL Adobe ID] または [!DNL Enterprise ID] を使用して、[!DNL Experience Cloud] などのすべてのソリューションにログインできます。このログインにより、[!DNL Experience Cloud] 全体で統合ソリューションとコアサービスにアクセスできます。移行後、従来のログイン（`bank.demdex.com` ）でログインしようとするユーザーは、`experiencecloud.adobe.com` にリダイレクトされます。 |
-| ユーザーとグループの管理 | 移行が完了すると、[!DNL Audience Manager] 管理者は [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/) でのみユーザーとグループを管理するようになります。 |
-| 製品とサービスの管理 | [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/) から、管理者は以下をおこなえます。 <ul><li>ユーザーの作成、更新、削除</li><li>ソリューションやサービスへのアクセスの許可</li></ul> |
+| ユーザーとグループの管理 | 移行が完了すると、[!DNL Audience Manager] 管理者は [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/) でのみユーザーとグループを管理するようになります。 |
+| 製品とサービスの管理 | [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/) から、管理者は以下をおこなえます。 <ul><li>ユーザーの作成、更新、削除</li><li>ソリューションやサービスへのアクセスの許可</li></ul> |
 
 ユーザーの移行を容易にするために、[!DNL Audience Manager] 管理者全員に、この記事で説明する手順に従って、できるだけ早く [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) へのユーザーアカウントの移行を開始するよう求めています。
 
