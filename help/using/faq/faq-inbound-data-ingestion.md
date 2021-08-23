@@ -8,10 +8,10 @@ title: 顧客データのインバウンドの取得に関するよくある質�
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: オフラインデータのオンボーディング
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 99%
+source-wordcount: '1360'
+ht-degree: 98%
 
 ---
 
@@ -60,8 +60,8 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 はい。アップロードする CRM データを保存するために [!UICONTROL cross-device data source] を使用している限り、Audience Manager では常にデータが保存されます。実際、2019 年 10 月に Audience Manager が開始した、オフラインのみの使用を許可する [!UICONTROL Profile Merge Rules] の機能強化に従って、Audience Manager コードを実稼働環境にデプロイしなくても、データをアップロードしてアクションを実行できます。以下を参照してください。
 
-* [プロファイル結合ルールの強化の概要](https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [オフラインのみのデータに基づくパーソナライゼーション](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [プロファイル結合ルールの強化の概要](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [オフラインのみのデータに基づくパーソナライゼーション](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
