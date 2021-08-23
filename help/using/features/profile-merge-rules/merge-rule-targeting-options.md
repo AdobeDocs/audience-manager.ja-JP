@@ -7,10 +7,10 @@ title: プロファイル結合ルールの一般的なユースケース
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: プロファイル結合
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 100%
+source-wordcount: '995'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 ## デバイスグラフオプション {#device-graph-options}
 
-[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html) メンバーであるか、外部デバイスグラフとの契約関係があることが必要です。以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的なユースケースについては、[プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)および[外部デバイスグラフのユースケース](external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) メンバーであるか、外部デバイスグラフとの契約関係があることが必要です。以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的なユースケースについては、[プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)および[外部デバイスグラフのユースケース](external-graph-use-cases.md)を参照してください。
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -101,7 +101,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
   </tr> 
   <tr> 
    <td colname="col1"> <p>外部デバイスグラフオプション </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/ja-JP/device-co-op/using/about/overview.html" format="https" scope="external">Experience Cloud Device Co-op</a> や、<span class="keyword">Audience Manager</span> と統合された外部デバイスグラフで作成された<span class="wintitle">プロファイル結合</span>ルールは、次のものに最適です。 </p> <p> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external">Experience Cloud Device Co-op</a> や、<span class="keyword">Audience Manager</span> と統合された外部デバイスグラフで作成された<span class="wintitle">プロファイル結合</span>ルールは、次のものに最適です。 </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">低レベルなユーザー認証を導入しているデジタルプロパティ。 </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">広範囲で高リーチのブランドキャンペーン。 </li> 
