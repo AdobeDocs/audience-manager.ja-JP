@@ -7,10 +7,10 @@ title: Audience Lab に関するよくある質問
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '349'
+ht-degree: 98%
 
 ---
 
@@ -54,6 +54,6 @@ audience-lab-faq.xml
 
 [!UICONTROL Audience Lab]での [!UICONTROL RBAC] 権限の使用方法に関する情報については、[セグメントのテストグループの作成](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)を参照してください。
 
-**[!UICONTROL Audience Lab] を [!UICONTROL Profile Link Device Graph] および外部のデバイスグラフ（[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/ja-JP/device-co-op/using/home.html)、Tapad デバイスグラフ、Liveramp デバイスグラフ）と共に使用することはできますか？**
+**[!UICONTROL Audience Lab] を [!UICONTROL Profile Link Device Graph] および外部のデバイスグラフ（[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)、Tapad デバイスグラフ、Liveramp デバイスグラフ）と共に使用することはできますか？**
 
 [!UICONTROL Profile Link Device Graph]を使用する場合、[!UICONTROL Audience Lab]では今のところ、条件を満たすデバイスと関連付けられたデバイスによってのみセグメント母集団を分割できます。[!UICONTROL Audience Lab]で他のデバイスグラフもサポート対象とするよう作業を進めています。サポートの追加が完了し次第お知らせいたします。
