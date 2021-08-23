@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictive Audiences の使用の手引き
 feature: アルゴリズムモデル
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## Predictive Audiences モデルの作成 {#create-predictive-audiences}
 
-[!UICONTROL Predictive Audiences] モデルを作成する前に、[!UICONTROL Predictive Audiences] 特性およびセグメントを割り当てたいファーストパーティデータソースを決定する必要があります。既存のファーストパーティデータソースを使用したり、新しく作成したりできます。新しいファーストパーティデータソースの作成方法について詳しくは、[データソースの管理](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/features/data-sources/manage-datasources.html)を参照してください。
+[!UICONTROL Predictive Audiences] モデルを作成する前に、[!UICONTROL Predictive Audiences] 特性およびセグメントを割り当てたいファーストパーティデータソースを決定する必要があります。既存のファーストパーティデータソースを使用したり、新しく作成したりできます。新しいファーストパーティデータソースの作成方法について詳しくは、[データソースの管理](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html)を参照してください。
 
 どのデータソースを使用するかを把握したら、次の手順に従ってください。
 
