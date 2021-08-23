@@ -8,10 +8,10 @@ title: インスタンスレベルの DIL メソッド
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL の実装
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1105'
+ht-degree: 97%
 
 ---
 
@@ -472,7 +472,6 @@ state = {
           id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
           url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
           + containerNSID + '#' + encodeURIComponent(document.location.href), 
-
                iframe: null, 
                iframeHasLoaded: false, 
                sendingMessages: false, 
@@ -684,6 +683,7 @@ var dilInstance = DIL.create({
 >
 >* サイト訪問者のブラウザーが CORS をサポートしていることが確実な場合にのみ `useCORSOnly: true` を設定することをお勧めします。
 >* `useCORSOnly: true` の場合、[!UICONTROL DIL] は Internet Explorer 9 またはそれ以前のバージョンからは ID 呼び出しをおこないません。
+
 >
 
 
@@ -722,9 +722,9 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >[!MORELIKETHIS]
 >
 >* [キー変数名の要件](../features/traits/trait-key-name-requirements.md)
->* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
->* [Adobe Experience Platform ID サービスの同期機能](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/methods/idsync.html)
->* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Adobe Experience Platform ID サービス：UseCORSOnly](https://docs.adobe.com/content/help/ja-JP/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Adobe Experience Platform ID サービスでの CORS のサポート](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/cors.html)
+* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
+* [Adobe Experience Platform ID サービスの同期機能](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
+* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
+* [Adobe Experience Platform ID サービス：UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
+* [Adobe Experience Platform ID サービスでの CORS のサポート](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
 
