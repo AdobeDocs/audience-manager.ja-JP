@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager を使用して、サイト訪問者に関する商業的に関連のある情報を収集し、市場性のあるセグメントを作成し、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
 feature-set: Audience Manager
-source-git-commit: cf9368d4690b61066646054543cc60d390eea021
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1809'
-ht-degree: 100%
+source-wordcount: '1805'
+ht-degree: 99%
 
 ---
 
@@ -342,8 +342,8 @@ ht-degree: 100%
    + 他の Experience Cloud ソリューションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics セグメントを Experience Cloud に公開する（Adobe Analytics のドキュメントを開く）](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Audience Manager と Adobe Campaign の統合（Adobe Campaign ドキュメントを開く）](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Adobe Analytics セグメントを Experience Cloud に公開する（Adobe Analytics のドキュメントを開く）](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Audience Manager と Adobe Campaign の統合（Adobe Campaign ドキュメントを開く）](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + リファレンス {#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要 ](reference/amazon-s3.md)
