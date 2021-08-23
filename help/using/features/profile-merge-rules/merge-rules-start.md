@@ -7,10 +7,10 @@ title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: プロファイル結合
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
-workflow-type: ht
-source-wordcount: '1315'
-ht-degree: 100%
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+workflow-type: tm+mt
+source-wordcount: '1307'
+ht-degree: 97%
 
 ---
 
@@ -151,7 +151,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html)を参照してください。
+詳しくは、[クロスデバイス対応データソースの作成](#create-data-source)と[顧客 ID と認証状態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)を参照してください。
 
 ### `DIL.create` 関数の設定
 
@@ -166,7 +166,7 @@ var vDil = DIL.create({
 });
 ```
 
-namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html)も参照してください。
+namespace キー値ペアの `*`MCORG`*` 変数は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!UICONTROL Administration] ダッシュボードの「[!DNL Experience Cloud]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)も参照してください。
 
 ### SDK の設定
 
@@ -224,7 +224,7 @@ DIL.create({
  </tbody>
 </table>
 
-[Android 用の Audience Manager メソッド](https://docs.adobe.com/content/help/ja/mobile-services/android/audience-manager-android/c-audience-manager-methods.html)と[ iOS 用の Audience Manager メソッド](https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/aam-methods.html)も参照してください。
+[Android 用の Audience Manager メソッド](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html)と[ iOS 用の Audience Manager メソッド](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html)も参照してください。
 
 >[!MORELIKETHIS]
 >
