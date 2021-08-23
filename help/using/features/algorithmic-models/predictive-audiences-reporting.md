@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Predictive Audiences レポート
 feature: アルゴリズムモデル
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 98%
 
 ---
 
 # Predictive Audiences レポート
 
-[!UICONTROL Predictive Audiences] モデルを保存すると、Audience Manager はモデルのトレーニングを開始します。2 ～ 3 時間以内に、計算済みのモデルが[データ収集サーバー](https://docs.adobe.com/content/help/ja-JP/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)上のオーディエンスの分析を開始します。レポートは、翌日に使用できるようになります。
+[!UICONTROL Predictive Audiences] モデルを保存すると、Audience Manager はモデルのトレーニングを開始します。2 ～ 3 時間以内に、計算済みのモデルが[データ収集サーバー](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)上のオーディエンスの分析を開始します。レポートは、翌日に使用できるようになります。
 
 [!UICONTROL Predictive Audiences] 分類の結果を確認するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Models]** に移動して、リストのモデルをクリックします。
 
