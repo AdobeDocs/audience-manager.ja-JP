@@ -8,10 +8,10 @@ title: Audience Manager の訪問者認証ステータス
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: リファレンス
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Audience Manager の訪問者認証ステータスによって、新しい特性情報が訪問者の認証済みプロファイルに書き込まれるか、デバイスプロファイルに書き込まれるかが決まります。Audience Manager は、イベント呼び出しの訪問者 ID 認証ステータス UNKNOWN および LOGGED_OUT を同じ方法で処理します。
 
-[!DNL Experience Cloud] ID サービス v1.5 以降の `setCustomerID` メソッドには、オプションの `AuthState` オブジェクトが含まれています。`AuthState` は、訪問者の[認証ステータス](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/authenticated-state.html)に従って訪問者を識別します。[!DNL Audience Manager] での適合する特性の処理は、呼び出し、およびセグメント化に使用する[プロファイル結合ルール](../features/profile-merge-rules/merge-rules-dashboard.md)に渡される認証ステータスによって異なります。
+[!DNL Experience Cloud] ID サービス v1.5 以降の `setCustomerID` メソッドには、オプションの `AuthState` オブジェクトが含まれています。`AuthState` は、訪問者の[認証ステータス](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)に従って訪問者を識別します。[!DNL Audience Manager] での適合する特性の処理は、呼び出し、およびセグメント化に使用する[プロファイル結合ルール](../features/profile-merge-rules/merge-rules-dashboard.md)に渡される認証ステータスによって異なります。
 
 ## 認証ステータス：UNKNOWN {#auth-status-unknown}
 
@@ -57,5 +57,5 @@ Audience Manager の訪問者認証ステータスによって、新しい特性
 
 >[!MORELIKETHIS]
 >
->* [顧客 ID と認証状態](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
+>* [顧客 ID と認証状態](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
 
