@@ -7,10 +7,10 @@ title: サポートされているブラウザー
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
 feature: リファレンス
 exl-id: 5fcb1a64-5e45-4973-9e20-7d4d07071cbf
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ c_supported_browsers.xml
 
 * **Google Chrome**
 
-   最新バージョンの Chrome を [https://www.google.com/intl/ja/chrome/](https://www.google.com/intl/ja/chrome/) から入手します。
+   最新バージョンのChromeを[https://www.google.com/chrome](https://www.google.com/chrome)から入手します。
 
 * **Microsoft Edge**
 
@@ -38,10 +38,10 @@ c_supported_browsers.xml
 
 * **Mozilla Firefox**
 
-   最新バージョンの Firefox は、[https://www.mozilla.org/ja/firefox/](https://www.mozilla.org/ja/firefox/) から入手できます。
+   最新バージョンのFirefoxは、[https://www.mozilla.com/en-US/firefox](https://www.mozilla.com/en-US/firefox)から入手できます。
 
 * **Safari**
 
-   最新バージョンの Safari を [https://www.apple.com/jp/safari/](https://www.apple.com/jp/safari/) から入手します。
+   最新バージョンのSafariを[https://www.apple.com/safari/download](https://www.apple.com/safari/download)から入手します。
 
 他のブラウザーでも動作する可能性がありますが、アドビの技術および製品チームによるサポートはありません。[!DNL Audience Manager] の使用に問題がある場合、最新のサポート対象ブラウザを使用していることを確認してください。
