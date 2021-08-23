@@ -8,10 +8,10 @@ title: データプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: データガバナンスとプライバシー
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 100%
+source-wordcount: '1482'
+ht-degree: 99%
 
 ---
 
@@ -97,8 +97,8 @@ ht-degree: 100%
    <td colname="col1"> <p>モバイルデバイス </p> </td> 
    <td colname="col2"> <p>以下のデバイスに対するオプトアウト設定とプライバシー設定を確認します。 </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/ja-JP/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/ja-JP/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android デバイス </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS デバイス </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
