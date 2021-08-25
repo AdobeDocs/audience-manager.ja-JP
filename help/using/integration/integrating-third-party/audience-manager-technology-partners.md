@@ -1,15 +1,15 @@
 ---
 description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
-seo-description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
-seo-title: Adobe Audience Manager テクノロジーパートナー
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Technology Partners
 keywords: アクティブ化、アクティベートパートナー、宛先、宛先
 solution: Audience Manager
 title: Adobe Audience Manager テクノロジーパートナー
-feature: サードパーティ統合
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+feature: Third-party Integration
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 100%
+source-wordcount: '1149'
+ht-degree: 99%
 
 ---
 
@@ -157,7 +157,7 @@ ht-degree: 100%
 | TubeMogul | 2017/03/03 | ○ | × | ○ | × |
 | Turn / Amobee | 2027/03/03 | × | × | × | ○ |
 | Twenga | 2018/10/29 | ○ | × | × | × |
-| Twitter Tailored Audiences | 2017/03/27 | ○ | × | ○ | × |
+| Twitter Custom Audiences | 2017/03/27 | ○ | × | ○ | × |
 | Undertone | 2017/07/11 | × | × | × | × |
 | Verve | 2017/06/15 | ○ | × | × | ○ |
 | VideoAmp | 2017/03/03 | × | × | × | × |
