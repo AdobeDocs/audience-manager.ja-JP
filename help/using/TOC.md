@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager を使用して、サイト訪問者に関する商業的に関連のある情報を収集し、市場性のあるセグメントを作成し、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
 feature-set: Audience Manager
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 99%
          + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
          + [Audience Manager のデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
-         + [Twitter 用にカスタマイズされたオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
+         + [twitterカスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
       + カスタムの宛先 {#custom-destinations}
          + [URL の宛先の設定](features/destinations/create-url-destination.md)
          + [Cookie の宛先の設定](features/destinations/create-cookie-destination.md)
