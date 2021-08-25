@@ -1,15 +1,15 @@
 ---
 description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
-seo-description: このページには、現在のサーバー間統合のみが含まれています。統合について詳しくは、Adobe Exchange のリスト（利用可能な場合）を参照するか、アドビコンサルタント、またはカスタマーケアにお問い合わせください。
-seo-title: Adobe Audience Manager のサーバー間の宛先
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: アクティブ化、アクティベートパートナー、宛先、宛先
 solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1112'
 ht-degree: 100%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 100%
 | [!DNL TubeMogul] | 2017/03/03 | リアルタイム | ○ | × | ○ | × |
 | [!DNL Turn]／[!DNL Amobee] | 2027/03/03 | リアルタイム | × | × | × | ○ |
 | [!DNL Twenga] | 2018/10/29 | リアルタイム | ○ | × | × | × |
-| [!DNL Twitter Tailored Audiences] | 2017/03/27 | リアルタイム | ○ | × | ○ | × |
+| [!DNL Twitter Custom Audiences] | 2017/03/27 | リアルタイム | ○ | × | ○ | × |
 | [!DNL Undertone] | 2017/07/11 | 1 回/日 | × | × | × | × |
 | [!DNL Verve] | 2017/06/15 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL VideoAmp] | 2017/03/03 | リアルタイム | × | × | × | × |
