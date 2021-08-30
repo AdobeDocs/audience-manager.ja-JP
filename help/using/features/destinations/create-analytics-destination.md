@@ -1,15 +1,15 @@
 ---
 description: オーディエンス分析では、Audience Manager のセグメントを Analytics に送信できます。この機能を使用するには、Analytics の宛先を作成して、Audience Manager でセグメントをその宛先にマッピングします。
-seo-description: オーディエンス分析では、Audience Manager のセグメントを Analytics に送信できます。この機能を使用するには、Analytics の宛先を作成して、Audience Manager でセグメントをその宛先にマッピングします。
-seo-title: Analytics の宛先の設定
+seo-description: Audience Analytics lets you send Audience Manager segments to Analytics. To use this feature, you create an Analytics destination and map segments to it in Audience Manager.
+seo-title: Configure an Analytics Destination
 solution: Audience Manager
 title: Analytics の宛先の設定
-feature: Adobe Analytics との統合
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 089a41b0176f2453e4f301c877dd6b020f726562
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 94%
+source-wordcount: '807'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Analytics の宛先を設定するには、Audience Manager ユーザーが管�
 
 | Analytics の宛先のタイプ | 説明 |
 |---|---|
-| デフォルト | このデフォルトの宛先は「Adobe Analytics」という名前になっていますが、編集することができます。マッピングされたレポートスイート ID が Audience Manager の特性およびセグメントのフォルダーストレージに表示されます。<br>アカウントが次の条件を満たす場合、Audience Manager は宛先を 1 つ自動的に作成します。<br> <ul><li>[オーディエンス分析](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)のドキュメントで説明している要件を満たしている。</li><li>Analytics に[レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)がある。</li><li>[レポートスイートを組織にマッピングしてある](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。</li></ul> |
+| デフォルト | このデフォルトの宛先は「Adobe Analytics」という名前になっていますが、編集することができます。マッピングされたレポートスイート ID が Audience Manager の特性およびセグメントのフォルダーストレージに表示されます。<br>アカウントが次の条件を満たす場合、Audience Manager は宛先を 1 つ自動的に作成します。<br> <ul><li>[オーディエンス分析](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)のドキュメントで説明している要件を満たしている。</li><li>Analytics に[レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)がある。</li></ul> |
 | 新規 | Analytics の宛先を新規作成するには、Audience Data／Destinations／Create New Destination を選択し、以下で説明している各セクションの手順に従います。 |
 
 ## 手順 1：基本情報の提供
