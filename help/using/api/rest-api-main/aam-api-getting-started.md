@@ -1,16 +1,16 @@
 ---
 description: 一般的な要件、認証、オプションのクエリパラメーター、リクエスト URL およびその他の参考資料についての情報です。
-seo-description: 一般的な要件、認証、オプションのクエリパラメーター、リクエスト URL およびその他の参考資料についての情報です。
-seo-title: REST API の使用の手引き
+seo-description: Information about general requirements, authentication, optional query parameters, request URLs, and other references.
+seo-title: Getting Started with REST APIs
 solution: Audience Manager
 title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 95182160b37bb15df4867bbacd06d8d75c971fa3
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 100%
+source-wordcount: '1942'
+ht-degree: 94%
 
 ---
 
@@ -70,6 +70,18 @@ ht-degree: 100%
 >[!NOTE]
 >
 >[!DNL Audience Manager] [!DNL REST APIs] を自動的に設定および操作するため、プログラムによって [!DNL JWT] を生成できます。詳しい手順については、[JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)を参照してください。
+
+### テクニカルアカウントのRBAC権限
+
+Audience Managerアカウントで[役割ベースのアクセス制御](../../features/administration/administration-overview.md)を使用する場合は、Audience Managerのテクニカルユーザーアカウントを作成し、API呼び出しをおこなうAudience ManagerのRBACグループに追加する必要があります。
+
+以下の手順に従って、テクニカルユーザーアカウントを作成し、RBACグループに追加します。
+
+1. `https://aam.adobe.io/v1/users/self`に対して`GET`呼び出しを実行します。 この呼び出しにより、[!UICONTROL Admin Console]の[!UICONTROL Users]ページに表示されるテクニカルユーザーアカウントが作成されます。
+
+   ![テクニカルアカウント](assets/technical-account.png)
+
+1. Audience Managerアカウントにログインし、API呼び出しをおこなうユーザーグループにテクニカルユーザーアカウント](../../features/administration/administration-overview.md#create-group)を追加します。[
 
 ## [!DNL OAuth] 認証（廃止予定） {#oauth}
 
@@ -287,6 +299,6 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 >
 >* [JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [OAuth 認証](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-* [OAuth 2.0](https://oauth.net/2/)
-* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
