@@ -6,16 +6,16 @@ solution: Audience Manager
 title: twitterカスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 93%
+source-wordcount: '531'
+ht-degree: 91%
 
 ---
 
 # [!DNL Twitter Custom Audiences] をセルフサービスデバイスベースの宛先として設定する  {#configure-twitter}
 
-この記事では、[Twitter Custom Audiences](https://business.twitter.com/ja/targeting/tailored-audiences.html)との統合を設定する方法について説明します。
+この記事では、[Twitter Custom Audiences](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html)との統合を設定する方法について説明します。
 
 ## 前提条件 {#prerequisites}
 
@@ -35,7 +35,10 @@ ht-degree: 93%
 
 1. Audience Manager アカウントにログインして、**[!DNL Administration > Integrated Accounts]** に移動します。宛先プラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
 1. 「**[!DNL Add Account]**」をクリックします。
-1. 認証ページにリダイレクトするには、[!DNL Twitter Custom Audiences]を選択してから、「**[!DNL Confirm]**」をクリックします。![integrated-platforms](assets/dbd-integrated-platforms.png)
+1. 認証ページにリダイレクトするには、[!DNL Twitter Custom Audiences]を選択してから、「**[!DNL Confirm]**」をクリックします。
+
+   ![integrated-platforms](assets/dbd-integrated-platforms.png)
+
 1. 認証が完了すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、「**[!DNL Confirm]**」をクリックします。
 
 ### 手順 2.新しいデバイスベースの宛先を作成する {#step2-create-new-destination}
