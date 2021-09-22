@@ -1,15 +1,15 @@
 ---
 description: 'People-Based Destinations に新規登録する前に満たす必要のある顧客要件の概要については、以下をお読みください。  '
-seo-description: 'People-Based Destinations に新規登録する前に満たす必要のある顧客要件の概要については、以下をお読みください。  '
-seo-title: People-Based Destinations の前提条件と考慮事項
+seo-description: Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.
+seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
 title: 前提条件と考慮事項
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: bb0bc62b139917bbf6429bc92a85f8a5010cbebe
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 98%
+source-wordcount: '964'
+ht-degree: 94%
 
 ---
 
@@ -51,11 +51,9 @@ ht-degree: 98%
 
 ### [!DNL Google Customer Match] {#gcm}
 
-[!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL Google Customer Match] 送信先に送信する前に、[!DNL Google] によってファーストパーティ許可リストに追加される必要があります。
+[!UICONTROL People-Based Destinations]を使用してファーストパーティオーディエンスセグメントを[!DNL Google Customer Match]の宛先に送信する前に、[!DNL Google Ads]アカウントが[Googleカスタマーマッチポリシー](https://support.google.com/google-ads/answer/6299717/customer-match-policy)に準拠していることを確認してください。
 
-[!DNL Google] 担当者に問い合わせて、[!DNL Google]ドキュメントの「[Use Customer Match partners to upload your data](https://support.google.com/google-ads/answer/7361372?hl=ja&amp;ref_topic=6296507)」に記載されている許可リストの手順に従います 。
-
-このプロセスが完了したら、[!UICONTROL People-Based Destination] を作成できます。
+準拠しているアカウントを持つお客様は、Googleによって自動的に許可リストが表示されます。
 
 ## データオンボーディング {#data-onboarding}
 
