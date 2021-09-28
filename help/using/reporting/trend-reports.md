@@ -8,9 +8,9 @@ uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: 一般レポートとトレンドレポート
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ t_working_with_trend_reports.xml
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=ja)
 
 ## セグメントに関するトレンドレポートの結果 {#segment-report-results-traits}
 
