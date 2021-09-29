@@ -9,13 +9,13 @@ uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: オフラインデータのオンボーディング
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1360'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 顧客データのインバウンドの取得に関するよくある質問{#inbound-customer-data-ingestion-faq}
+# 顧客データのインバウンドの取得に関するよくある質問 {#inbound-customer-data-ingestion-faq}
 
 Audience Manager へのオフラインデータの取り込みに関するよくある質問です。
 
@@ -60,8 +60,8 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 はい。アップロードする CRM データを保存するために [!UICONTROL cross-device data source] を使用している限り、Audience Manager では常にデータが保存されます。実際、2019 年 10 月に Audience Manager が開始した、オフラインのみの使用を許可する [!UICONTROL Profile Merge Rules] の機能強化に従って、Audience Manager コードを実稼働環境にデプロイしなくても、データをアップロードしてアクションを実行できます。以下を参照してください。
 
-* [プロファイル結合ルールの強化の概要](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [オフラインのみのデータに基づくパーソナライゼーション](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [プロファイル結合ルールの強化の概要](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=ja)
+* [!UICONTROL People-based Destinations] - [オフラインのみのデータに基づくパーソナライゼーション](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=ja)
 
 <br> 
 
@@ -138,7 +138,7 @@ Consider the following use cases in which the data provider is not configured to
 
  
 
-**どのくらいの頻度でファイルを送信するとよいですか？ また、完全なファイルを送信するのと増分ファイルを送信するのとでは、どちらがよいですか？**
+**どのくらいの頻度でファイルを送信するとよいですか？また、完全なファイルを送信するのと増分ファイルを送信するのとでは、どちらがよいですか？**
 
 ベストプラクティスとして、新しい訪問者およびデータが変更された訪問者について、1 日に 1 回、増分ファイルを送信します。多くの [!DNL Audience Manager] のお客様は、月に 1 回すべてのファイルを送信します。ただし、これらのファイルの間隔および増分には柔軟性があります。お客様にとって意味のあるタイミングで徐々にデータを送信する必要があります。
 
@@ -179,7 +179,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
  
 
-**タイムスタンプとは何ですか？ 何のために使用するのでしょうか？ また、例を提示してください。**
+**タイムスタンプとは何ですか？何のために使用するのでしょうか？また、例を提示してください。**
 
 タイムスタンプは、ログおよび記録の保持のために使用されます。適切な形式の受信ファイル名に使用される構文で必要になります。以下を参照してください。
 
