@@ -9,9 +9,9 @@ uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL の実装
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1105'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -722,9 +722,9 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >[!MORELIKETHIS]
 >
 >* [キー変数名の要件](../features/traits/trait-key-name-requirements.md)
-* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
-* [Adobe Experience Platform ID サービスの同期機能](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
-* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
-* [Adobe Experience Platform ID サービス：UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
-* [Adobe Experience Platform ID サービスでの CORS のサポート](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
+>* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
+>* [Adobe Experience Platform ID サービスの同期機能](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html?lang=ja)
+>* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Adobe Experience Platform ID サービス：UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html?lang=ja)
+>* [Adobe Experience Platform ID サービスでの CORS のサポート](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html?lang=ja)
 
