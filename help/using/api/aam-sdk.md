@@ -8,9 +8,9 @@ uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
 exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,5 +30,5 @@ Audience Manager では、[!DNL Android] および [!DNL iOS] 向けのソフト
 
 Android および iOS4. x SDK は引き続きサポートされています。SDK コードライブラリについては、以下を参照してください。
 
-* [Android SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
-* [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)
+* [Android SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=ja)
+* [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=ja)
