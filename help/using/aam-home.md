@@ -8,9 +8,9 @@ uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: 概要
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '643'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 
 * **左側のナビゲーション**&#x200B;で、トピック別およびサブトピック別にコンテンツを参照します。
 * 何を探したいかががわかっている場合は、ページ上部の&#x200B;**検索**&#x200B;フィールドを使用します。
-* ページの右上にある「**問題をログに記録**」ボタンを使用して、誤ったドキュメントや古いドキュメントを伝えます。投稿の開始方法については、[コラボレーションガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)の概要を参照してください。
+* ページの右上にある「**問題をログに記録**」ボタンを使用して、誤ったドキュメントや古いドキュメントを伝えます。投稿の開始方法については、[コラボレーションガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)の概要を参照してください。
 
 ## このページの読み方
 
@@ -87,7 +87,7 @@ ht-degree: 94%
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API の使用の手引き</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">DCS API の使用の手引き</a></li>
-     <li><a href="https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Audience Manager 拡張機能の Adobe Experience Platform Launch への追加</a></li>
+     <li><a href="https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html?lang=ja">Audience Manager 拡張機能の Adobe Experience Platform Launch への追加</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">アプリに Audience Manager を追加</a></li>
      </ul> </p>
     </td>
@@ -148,7 +148,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td> <p> <b>リリースノート</b> </p> <p> 
-     新機能と修正点については、最新の <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。</p> 
+     新機能と修正点については、最新の <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。</p> 
      <p> <b>最新の機能</b> </p> <p> 
      Audience Manager の最新機能については、以下を参照してください。</p>
      <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console への Audience Manager ユーザーの移行</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google によるピープルベースのリンク先との一致</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.0 用 Audience Manager プラグイン</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
@@ -190,13 +190,13 @@ Read about the latest Audience Manager features:
      <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
       <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external">Audience Manager コミュニティフォーラム</a> </li>
-      <li><a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager チュートリアル</a> </li> 
+      <li><a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/overview.html?lang=ja" format="http" scope="external"> Audience Manager チュートリアル</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/jp/privacy.html" format="http" scope="external">アドビプライバシーセンター</a> </li>  
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/jp/learning.html?promoid=KAUDK" scope="external" format="http">アドビトレーニングおよび証明書</a> </li> 
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/jp/support/experience-cloud.html" scope="external" format="https">Experience Cloud 製品ドキュメントのホーム</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/jp/support/audience-manager.html" format="https" scope="external">Audience Manager のラーニングとサポート</a> </li> 
      </ul> </p> 
-     <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2021.html">ドキュメントの更新（2021 年）</a>も参照してください。 </p> </td>
+     <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2021.html?lang=ja">ドキュメントの更新（2021 年）</a>も参照してください。 </p> </td>
   </tr> 
  </tbody> 
 </table>
