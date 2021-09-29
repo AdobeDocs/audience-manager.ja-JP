@@ -8,9 +8,9 @@ uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1545'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 99%
 | エラーコード | エラーメッセージ | 説明 |
 |---|---|---|
 | 0 | Unspecified error | これは、他のエラーハンドラーでカバーされないイベントを処理する包括的なエラーです。このエラーのトラブルシューティングは困難です。種々の不明なアクションやイベントが原因になっている可能性があります。このエラーが発生した場合は、[!DNL DCS] 要求をもう一度試してください。問題が解決しない場合は、[!DNL Adobe] 担当者にお問い合わせください。 |
-| 1 | Could not find config for hostname:      `hostname` | 送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。このエラーメッセージが表示された場合は、[!DNL Adobe] 担当者にご連絡ください。 |
-| 2 | Invalid `d_orgid` value (could not find a config for this org id): `ID` | 組織 ID が正しくありません。ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、組織 ID の見つけ方について、[組織とアカウントのリンク](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)の「管理ページ」を参照してください。 |
+| 1 | Could not find config for hostname:     `hostname` | 送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。このエラーメッセージが表示された場合は、[!DNL Adobe] 担当者にご連絡ください。 |
+| 2 | Invalid `d_orgid` value (could not find a config for this org id): `ID` | 組織 ID が正しくありません。ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、組織 ID の見つけ方について、[組織とアカウントのリンク](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)の「管理ページ」を参照してください。 |
 | 10 | 特性を評価できません | リクエスト上の特性は、部分的に評価されたか、まったく評価されていません。 問題が解決しない場合は、[!DNL Adobe] 担当者にお問い合わせください。 |
 
 ## 統合エラーコード {#integration-error-codes}
@@ -53,7 +53,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>171 </p> </td> 
-   <td colname="col2"> <p>Encountered opt out tag for id  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Encountered opt out tag for id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>お客様がインタレストベース広告の受信をオプトアウトしました。 </p> </td> 
   </tr> 
   <tr> 
@@ -99,22 +99,22 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>200 </p> </td> 
-   <td colname="col2"> <p> Cannot read traits from profile cache for id:      <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read traits from profile cache for id:     <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>アドビの社内ストレージからユーザープロファイルを読み取れない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
-   <td colname="col2"> <p> Cannot read device ids from profile cache for customer id:      <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read device ids from profile cache for customer id:     <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p><a href="../../../reference/ids-in-aam.md">デバイス ID</a> をプロファイルリンク結合ルールのために取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
-   <td colname="col2"> <p>Cannot read related customer for device id:      <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Cannot read related customer for device id:     <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>デバイス ID に関連付けられている<a href="../../../reference/ids-in-aam.md">顧客 ID（UUID）</a>を、前回の認証済みプロファイル結合ルールのためにアドビの社内ストレージから取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 
-   <td colname="col2"> <p> Cannot read device cluster for id:      <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> Cannot read device cluster for id:     <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>このデバイス ID にリンクされているデバイス ID を同じデバイスグラフクラスターから返せません。 </p> </td>
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>Invalid customer id  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Invalid customer id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID が無効です（データソースの値がない、統合コードがない、データソースの形式が無効、顧客 ID がブロックされている、顧客 ID が未指定、パートナーの管理下にないデータソースに不正にアクセスしようとしている、など）。 </p> </td>
   </tr> 
   <tr> 
@@ -153,27 +153,27 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>Unauthorized customer id  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Unauthorized customer id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「組織 ID を見つける」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>Blocked customer id  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked customer id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID が悪意のある ID と見なされてブロックリストに追加されている場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>Blocked datasource id   <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked datasource id  <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>データソース ID が悪意のある ID と見なされてブロックリストに追加されている場合に返されます </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Blocked declared device id  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>デバイス ID が悪意のあるもの見なされ、ブロックリストに加えられました。この問題は、このデバイス ID を含む <span class="wintitle"> DCS</span> 要求を短期間で大量に受信した場合に発生する可能性があります。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Blocked profile operation for  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>ID が悪意のあるIDと見なされてブロックに加えられたため、読み取り/書き込み操作がブロックされました。エラーコード 306 を参照してください。 </p> </td> 
   </tr> 
   <tr> 
