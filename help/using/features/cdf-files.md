@@ -9,9 +9,9 @@ uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: 顧客データフィード
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1930'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 98%
 
 [!UICONTROL CDF]ファイルのデータ要素および配列を出現順に列挙し定義します。定義にはデータタイプが含まれていますが、この情報は [!UICONTROL CDF] ファイルには含まれていません。
 
-## Definitions {#definitions}
+## 定義 {#definitions}
 
 [!UICONTROL CDF] ファイルには、以下に定義するフィールドの一部または全部が含まれています。内部ファイル組織について詳しくは、[顧客データフィードファイルの構造](#cdf-file-structure)を参照してください。
 
@@ -64,7 +64,7 @@ ht-degree: 98%
   <tr> 
    <td colname="col1"> <p><code> Event Time</code> </p> </td> 
    <td colname="col2"> <p>タイムスタンプ </p> </td> 
-   <td colname="col3"> <p><span class="wintitle">データ収集サーバー</span>（DCS）で CDF ファイルが処理された時刻。タイムスタンプは、<i>yyyy-mm-dd hh:mm:ss</i>形式を使用し、UTCタイムゾーンに設定されます。 </p> <p> <p>注意：イベント時刻は、<i> </i> <p> 
+   <td colname="col3"> <p><span class="wintitle">データ収集サーバー</span>（DCS）で CDF ファイルが処理された時刻。タイムスタンプは <i>yyyy-mm-dd hh:mm:ss</i> 形式を使用し、UTC タイムゾーンに設定されます。 </p> <p> <p>注意：イベント時刻は、<i> </i> <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">ページイベントやイベント呼び出しそのものの時刻に近いですが、それらの時刻ではありません。 </li> 
         <li id="li_271DF14395BC495FBF17186588A554A8">ファイル名の DCS 時刻とは関係ありません。詳しくは、<a href="#different-processing-times">顧客データフィードファイル名の時刻とファイルコンテンツの時刻の違い</a>を参照してください。 </li> 
@@ -108,7 +108,7 @@ ht-degree: 98%
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </p> </td> 
+   <td colname="col3"> <p>サイト訪問者に割り当てられた <span class="keyword">Experience Cloud</span> ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -160,7 +160,7 @@ ht-degree: 98%
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">リクエストパラメーター </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">参照元 </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP アドレス </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
      </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
