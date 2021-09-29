@@ -8,7 +8,7 @@ uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Adobe Campaign との統合
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
 ht-degree: 100%
 
