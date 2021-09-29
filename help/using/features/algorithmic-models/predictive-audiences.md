@@ -7,9 +7,9 @@ title: Audience Manager Predictive Audiences
 feature: アルゴリズムモデル
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1505'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,11 +121,11 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-[!UICONTROL Predictive Audiences] モデルで作成された予測セグメントは、次のファーストパーティデータソースから[データ書き出しコントロール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)を継承します。
+[!UICONTROL Predictive Audiences] モデルで作成された予測セグメントは、次のファーストパーティデータソースから[データ書き出しコントロール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ja)を継承します。
 
 1. モデルを構築する際に選択するファーストパーティデータソース。
 1. ターゲットオーディエンスのファーストパーティデータソース。特に、ターゲットオーディエンスを構成する[!UICONTROL traits]または[!UICONTROL segments]のデータ書き出しコントロール。
-1. モデルに対して選択した[!UICONTROL Profile Merge Rule]の[データ書き出しコントロール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html)。
+1. モデルに対して選択した[!UICONTROL Profile Merge Rule]の[データ書き出しコントロール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ja)。
 
 新しく作成した予測[!UICONTROL traits]および[!UICONTROL segments]には、前述のファーストパーティデータソースと同じプライバシー制限が課されます。
 
@@ -145,6 +145,6 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-ペルソナおよびオーディエンスの分類用に選択する特性およびセグメントは、Audience Manager の[ロールベースのアクセス制御](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html)の影響を受けます。
+ペルソナおよびオーディエンスの分類用に選択する特性およびセグメントは、Audience Manager の[ロールベースのアクセス制御](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ja)の影響を受けます。
 
-Audience Manager ユーザーは、[表示権限](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)を持つペルソナおよびターゲットオーディエンス用の特性またはセグメントのみ選択できます。
+Audience Manager ユーザーは、[表示権限](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ja#wild-card-permissions)を持つペルソナおよびターゲットオーディエンス用の特性またはセグメントのみ選択できます。
