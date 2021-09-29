@@ -8,13 +8,13 @@ uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 feature: DIL の実装
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# isCoopSafe{#iscoopsafe}
+# isCoopSafe {#iscoopsafe}
 
 DIL から Adobe Experience Cloud Device Co-op にデータを送信するかどうかを指定する任意のブール型設定です。
 
@@ -23,7 +23,7 @@ DIL から Adobe Experience Cloud Device Co-op にデータを送信するかど
 `isCoopSafe` を使用するには、以下の要件を満たす必要があります。
 
 * [!UICONTROL DIL] v6.11 以降を使用する。
-* [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) に参加する。Co-op への参加を検討している場合は、このドキュメントをよく読み、デバイスグラフの作成にデータがどのように使用されるかに関する懸念に `isCoopSafe` で対処できるかどうかを確認する必要があります。
+* [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ja) に参加する。Co-op への参加を検討している場合は、このドキュメントをよく読み、デバイスグラフの作成にデータがどのように使用されるかに関する懸念に `isCoopSafe` で対処できるかどうかを確認する必要があります。
 
 * [!DNL Adobe] コンサルタントに依頼して、Device Co-op アカウントで許可リストまたはブロックリストのフラグを設定する。これらのフラグをセルフサービスで有効にする方法はありません。
 
