@@ -8,9 +8,9 @@ uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Adobe Campaign との統合
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
