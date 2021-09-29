@@ -9,9 +9,9 @@ uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: 特性
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Event Type</span></b> </td> 
-   <td colname="col2"> 通常、関数（例：コンバージョン、サイト訪問者、パートナー、ページビューなど）に従って、特性をタイプまたはカテゴリに割り当てます。オプションです。 <p> コンバージョン特性の作成方法について詳しくは、<a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Audience Manager でのコンバージョン特性の作成のビデオ</a>を参照してください。 </p></td> 
+   <td colname="col2"> 通常、関数（例：コンバージョン、サイト訪問者、パートナー、ページビューなど）に従って、特性をタイプまたはカテゴリに割り当てます。オプションです。 <p> コンバージョン特性の作成方法について詳しくは、<a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=ja">Audience Manager でのコンバージョン特性の作成のビデオ</a>を参照してください。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integration Code</span></b> </td> 
