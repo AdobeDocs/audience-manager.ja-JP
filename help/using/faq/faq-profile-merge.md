@@ -9,9 +9,9 @@ uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: プロファイル結合
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1550'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **セグメントサイズの予測には、デバイスグラフオプションを使用する [!UICONTROL Profile Merge Rule] で設定される結合に基づいてセグメント認定されるデバイスは含まれますか？**
 
-いいえ。[セグメントビルダーの特性およびセグメント母集団データ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html)で、[!UICONTROL Estimated Real-Time Population] および [!UICONTROL Estimated Total Population] の定義を参照してください。
+いいえ。[セグメントビルダーの特性およびセグメント母集団データ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja)で、[!UICONTROL Estimated Real-Time Population] および [!UICONTROL Estimated Total Population] の定義を参照してください。
 
  
 
