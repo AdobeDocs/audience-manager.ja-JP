@@ -8,13 +8,13 @@ uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: データガバナンスとプライバシー
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# プライバシーとデータ保持に関するよくある質問{#privacy-and-data-retention-faq}
+# プライバシーとデータ保持に関するよくある質問 {#privacy-and-data-retention-faq}
 
 プライバシーやデータに関してよくある質問や問題に対する回答。
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 **Audience Manager では Cookie をどのように使用し、どのような Cookie を設定しますか？**
 
-詳しくは、[Audience Manager の Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) を参照してください。
+詳しくは、[Audience Manager の Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=ja) を参照してください。
 
 **米国の Audience Manager クライアントは EU 資産のユーザーをターゲットにすることができますか？**
 
