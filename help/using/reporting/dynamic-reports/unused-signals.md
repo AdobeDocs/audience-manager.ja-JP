@@ -1,16 +1,16 @@
 ---
 description: このレポートでは、インベントリで収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。
-seo-description: このレポートでは、インベントリで収集し Audience Manager に送信したすべての未使用情報の頻度カウントを返します。
-seo-title: 未使用シグナルレポート
+seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+seo-title: Unused Signals Report
 solution: Audience Manager
 title: 未使用シグナルレポート
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 100%
+source-wordcount: '599'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 シグナルは、Web サイトからの情報で、[キーと値のペア](../../reference/key-value-pairs-explained.md)の形式（`color=blue, price>100, gender=female` など）で [!DNL Audience Manager] に渡されます。
 
-未使用シグナルは、収集したものの、特性にマッピングされていないデータで構成されます。[!UICONTROL Unused Signals] レポートには、データが日付、キー、値、頻度カウント別に表形式で表示されます。1 日に 100 回以上 [!DNL Audience Manager] に渡されたマッピングされていないシグナルが、[!UICONTROL Unused Signals] レポートの対象になります。
+未使用シグナルは、収集したものの、特性にマッピングされていないデータで構成されます。[!UICONTROL Unused Signals] レポートには、データが日付、キー、値、頻度カウント別に表形式で表示されます。1 日に 100 回以上 [!DNL Audience Manager] に渡されたマッピングされていないシグナルが、[!UICONTROL Unused Signals] レポートの対象になります。未使用シグナルは 45 日間保存され、破棄されます。
 
 このレポートをレビューすると、新規または既存の特性にマッピングできる孤立したシグナルの特定に役に立ちます。
 
