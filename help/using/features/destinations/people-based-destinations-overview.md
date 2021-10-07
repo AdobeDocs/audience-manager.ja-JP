@@ -1,15 +1,15 @@
 ---
 description: 'ユーザーベースの宛先を使用して、ファーストパーティのオーディエンスセグメントをユーザーベースの環境に送信します。これらの環境は、そこで表示されるコンテンツを制御する 1 つのエンティティに属する、クローズドなシステムです。これには、顧客アカウントに依存して表示するコンテンツをパーソナライズする、Facebook などのソーシャルプラットフォームが含まれます。 '
-seo-description: 'ユーザーベースの宛先を使用して、ファーストパーティのオーディエンスセグメントをユーザーベースの環境に送信します。これらの環境は、そこで表示されるコンテンツを制御する 1 つのエンティティに属する、クローズドなシステムです。これには、顧客アカウントに依存して表示するコンテンツをパーソナライズする、Facebook などのソーシャルプラットフォームが含まれます。  '
-seo-title: People-Based Destinations の概要とユースケース
+seo-description: Use people-based destinations to send first-party audience segments to people-based environments. These environments are closed ecosystems belonging to one entity that controls the content that is being displayed within it. They include social platforms such as Facebook, and other platforms that rely on customer accounts to personalize the displayed content.
+seo-title: People-Based Destinations Overview and Use Cases
 solution: Audience Manager
 title: 概要とユースケース
 feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: ab3361a0a54a7200d2f0c03a82ae6ef61a755be9
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 100%
+source-wordcount: '863'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-[!DNL People-Based Destinations] では、オンラインとオフラインのデータにセグメント化を適用し、電子メールアドレスや電話番号などの[ハッシュ化された識別子](people-based-destinations-prerequisites.md#hashing-requirements)に基づいてオーディエンスセグメントを作成できます。次に、これらのセグメントを、ソーシャルプラットフォーム上のオーディエンスをターゲット設定できる「ウォールドガーデン」（[!DNL Facebook] など）に含めます。[!DNL People-Based Destinations] は、次の場合に役立ちます。
+[!DNL People-Based Destinations] では、オンラインとオフラインのデータにセグメント化を適用し、電子メールアドレスなどのハッシュ化された識別子に基づい [てオーディエンスセグメントを作成できます](people-based-destinations-prerequisites.md#hashing-requirements)。次に、これらのセグメントを、ソーシャルプラットフォーム上のオーディエンスをターゲット設定できる「ウォールドガーデン」（[!DNL Facebook] など）に含めます。[!DNL People-Based Destinations] は、次の場合に役立ちます。
 
 * ハッシュ化された電子メールアドレスに基づいて、プラットフォーム（[!DNL Facebook] など）でオフラインとオンラインのオーディエンスのターゲット設定をおこなう
 * Audience Manager の既存のデバイスおよび Cookie のターゲティング機能を補完する
