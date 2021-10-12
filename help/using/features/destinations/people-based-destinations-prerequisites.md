@@ -7,9 +7,9 @@ title: 前提条件と考慮事項
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 source-git-commit: bb0bc62b139917bbf6429bc92a85f8a5010cbebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 95%
 
 ### [!DNL Google Customer Match] {#gcm}
 
-[!UICONTROL People-Based Destinations]を使用してファーストパーティオーディエンスセグメントを[!DNL Google Customer Match]の宛先に送信する前に、[!DNL Google Ads]アカウントが[Googleカスタマーマッチポリシー](https://support.google.com/google-ads/answer/6299717/customer-match-policy)に準拠していることを確認してください。
+[!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL Google Customer Match] の宛先に送信する前に、[!DNL Google Ads] アカウントが [Google カスタマーマッチポリシー](https://support.google.com/google-ads/answer/6299717/customer-match-policy)に準拠していることを確認してください。
 
-準拠しているアカウントを持つお客様は、Googleによって自動的に許可リストが表示されます。
+準拠しているアカウントを持つお客様は、Google によってリストへの掲載が自動的に許可されます。
 
 ## データオンボーディング {#data-onboarding}
 
