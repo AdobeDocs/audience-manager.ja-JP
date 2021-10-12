@@ -1,21 +1,21 @@
 ---
-description: この記事では、新しい統合と既存の統合の両方に対してTwitter Custom Audiencesを設定する方法を説明します。
+description: この記事では、新しい統合と既存の統合の両方について、Twitter カスタムオーディエンスを設定する方法について説明します。
 seo-description: This article explains how to configure Twitter Custom Audiences for both new and existing integrations.
 seo-title: Configure Twitter Custom Audiences as a Self-Service Device-Based Destination
 solution: Audience Manager
-title: twitterカスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する
+title: Twitter カスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # [!DNL Twitter Custom Audiences] をセルフサービスデバイスベースの宛先として設定する  {#configure-twitter}
 
-この記事では、[Twitter Custom Audiences](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html)との統合を設定する方法について説明します。
+この記事では、[Twitter カスタムオーディエンス](https://business.twitter.com/ja/help/campaign-setup/campaign-targeting/custom-audiences.html)との統合を設定する方法を説明します。
 
 ## 前提条件 {#prerequisites}
 
