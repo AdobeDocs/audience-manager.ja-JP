@@ -7,7 +7,7 @@ title: Analytics の宛先の設定
 feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
 source-git-commit: 089a41b0176f2453e4f301c877dd6b020f726562
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
 ht-degree: 100%
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 ## 要件 {#requirements}
 
-Analytics の宛先を設定するには、Audience Manager ユーザーが管理者権限を持っている必要があります。管理ガイドの「[ユーザーの作成](/help/using/features/administration/administration-overview.md#create-users)」を参照してください。`CREATE_DESTINATIONS`[ワイルドカード権限](/help/using/features/administration/administration-overview.md#wild-card-permissions)は、Analytics の宛先を作成するには不十分です。要件について詳しくは、[Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) の前提条件を参照してください。
+Analytics の宛先を設定するには、Audience Manager ユーザーが管理者権限を持っている必要があります。管理ガイドの「[ユーザーの作成](/help/using/features/administration/administration-overview.md#create-users)」を参照してください。`CREATE_DESTINATIONS` [ワイルドカード権限](/help/using/features/administration/administration-overview.md#wild-card-permissions)は、Analytics の宛先を作成するには不十分です。要件について詳しくは、[Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja) の前提条件を参照してください。
 
 ## Analytics のデフォルトの宛先と新規の宛先
 
 | Analytics の宛先のタイプ | 説明 |
 |---|---|
-| デフォルト | このデフォルトの宛先は「Adobe Analytics」という名前になっていますが、編集することができます。マッピングされたレポートスイート ID が Audience Manager の特性およびセグメントのフォルダーストレージに表示されます。<br>アカウントが次の条件を満たす場合、Audience Manager は宛先を 1 つ自動的に作成します。<br> <ul><li>[オーディエンス分析](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)のドキュメントで説明している要件を満たしている。</li><li>Analytics に[レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ja)がある。</li></ul> |
+| デフォルト | このデフォルトの宛先は「Adobe Analytics」という名前になっていますが、編集することができます。マッピングされたレポートスイート ID が Audience Manager の特性およびセグメントのフォルダーストレージに表示されます。<br>アカウントが次の条件を満たす場合、Audience Manager は宛先を 1 つ自動的に作成します。<br> <ul><li>[オーディエンス分析](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)のドキュメントで説明している要件を満たしている。</li><li>Analytics に[レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ja)がある。</li></ul> |
 | 新規 | Analytics の宛先を新規作成するには、Audience Data／Destinations／Create New Destination を選択し、以下で説明している各セクションの手順に従います。 |
 
 ## 手順 1：基本情報の提供
