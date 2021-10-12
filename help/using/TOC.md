@@ -8,7 +8,7 @@ feature-set: Audience Manager
 source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 99%
          + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
          + [Audience Manager のデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
-         + [twitterカスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
+         + [Twitter カスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
       + カスタムの宛先 {#custom-destinations}
          + [URL の宛先の設定](features/destinations/create-url-destination.md)
          + [Cookie の宛先の設定](features/destinations/create-cookie-destination.md)
