@@ -9,9 +9,9 @@ uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: Reference
 exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
 source-git-commit: e408c118870fb331c40758be8a7e6b38690aeb5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,4 +58,4 @@ ht-degree: 98%
 | [!DNL TIFA] | 963906 | [!DNL Samsung Tizen IDs for Advertising] は、[!DNL Samsung] スマートテレビが提供するデバイス識別子です。 | [!DNL Samsung] [!DNL TIFA] ID は英数字の形式です。 |
 | [!DNL Amazon Fire TV Advertising ID] | 488258 | [!DNL Fire OS] オペレーティングシステムを実行しているデバイスを表すデバイス識別子。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`df07c7dc-cea7-4a89-b328-810ff5acb15d` |
 | [!DNL LGUDID] | 1171485 | [!DNL LG webOS] オペレーティングシステムを実行しているデバイスを表すデバイス識別子。 | 形式は厳密に 32 文字の小文字の 16 進数で、ハイフンで区切られた 5 つのグループとして表示されます。形式は 8-4-4-4-12 で、合計 36 文字です。<br>例：`095f142a-ace8-ac5d-b86a-92c8be18b197` |
-| [!DNL Vizio IFA] | 1171489 | VizioスマートTVオペレーティングシステムを実行しているデバイスを表すデバイス識別子。 | [!DNL Vizio IFA]  ID は英数字の形式です。<br>例：`7XCBNROQJQPYW`。 |
+| [!DNL Vizio IFA] | 1171489 | Vizio スマート TV オペレーティングシステムを実行しているデバイスを表すデバイス識別子。 | [!DNL Vizio IFA] ID は英数字の形式です。<br>例：`7XCBNROQJQPYW`。 |
