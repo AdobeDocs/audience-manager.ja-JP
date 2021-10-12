@@ -8,9 +8,9 @@ uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 source-git-commit: 95182160b37bb15df4867bbacd06d8d75c971fa3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1942'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -71,17 +71,17 @@ ht-degree: 94%
 >
 >[!DNL Audience Manager] [!DNL REST APIs] を自動的に設定および操作するため、プログラムによって [!DNL JWT] を生成できます。詳しい手順については、[JWT（サービスアカウント）認証](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)を参照してください。
 
-### テクニカルアカウントのRBAC権限
+### テクニカルアカウントの RBAC 権限
 
-Audience Managerアカウントで[役割ベースのアクセス制御](../../features/administration/administration-overview.md)を使用する場合は、Audience Managerのテクニカルユーザーアカウントを作成し、API呼び出しをおこなうAudience ManagerのRBACグループに追加する必要があります。
+Audience Manager アカウントで[役割ベースのアクセス制御](../../features/administration/administration-overview.md)を使用する場合は、Audience Manager のテクニカルユーザーアカウントを作成し、API 呼び出しをおこなう Audience Manager の RBAC グループに追加する必要があります。
 
-以下の手順に従って、テクニカルユーザーアカウントを作成し、RBACグループに追加します。
+以下の手順に従って、テクニカルユーザーアカウントを作成し、RBAC グループに追加します。
 
-1. `https://aam.adobe.io/v1/users/self`に対して`GET`呼び出しを実行します。 この呼び出しにより、[!UICONTROL Admin Console]の[!UICONTROL Users]ページに表示されるテクニカルユーザーアカウントが作成されます。
+1. `https://aam.adobe.io/v1/users/self` に対して `GET` 呼び出しを実行します。この呼び出しにより、[!UICONTROL Admin Console] の [!UICONTROL Users] ページに表示されるテクニカルユーザーアカウントが作成されます。
 
    ![テクニカルアカウント](assets/technical-account.png)
 
-1. Audience Managerアカウントにログインし、API呼び出しをおこなうユーザーグループにテクニカルユーザーアカウント](../../features/administration/administration-overview.md#create-group)を追加します。[
+1. Audience Manager アカウントにログインし、API 呼び出しをおこなうユーザーグループに[テクニカルユーザーアカウントを追加します](../../features/administration/administration-overview.md#create-group)。
 
 ## [!DNL OAuth] 認証（廃止予定） {#oauth}
 
