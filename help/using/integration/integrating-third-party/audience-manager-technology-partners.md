@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Adobe Audience Manager テクノロジーパートナー
 feature: Third-party Integration
 source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1149'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 * **ICDS** = この列には、Instant Cross-Device Suppression をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **モバイルデバイス ID** = この列には、Audience Manager からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 
-<br> 
+<br>
 
 | 統合 | 更新日 | セグメント解除 | IAB TCF の同意シグナルの受信 | ICDS | モバイルデバイス ID |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
@@ -157,7 +157,7 @@ ht-degree: 99%
 | TubeMogul | 2017/03/03 | ○ | × | ○ | × |
 | Turn / Amobee | 2027/03/03 | × | × | × | ○ |
 | Twenga | 2018/10/29 | ○ | × | × | × |
-| Twitter Custom Audiences | 2017/03/27 | ○ | × | ○ | × |
+| Twitter カスタムオーディエンス | 2017/03/27 | ○ | × | ○ | × |
 | Undertone | 2017/07/11 | × | × | × | × |
 | Verve | 2017/06/15 | ○ | × | × | ○ |
 | VideoAmp | 2017/03/03 | × | × | × | × |
