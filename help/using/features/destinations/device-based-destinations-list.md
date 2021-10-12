@@ -8,7 +8,7 @@ title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-このページには、現在の の[!DNL Audience Manager][デバイスベースの宛先](/help/using/features/destinations/add-device-based-destinations.md)のみが含まれます。[!DNL Audience Manager] では、[!UICONTROL device-based destinations] は [!UICONTROL server-to-server destinations] とも呼ばれます。統合について詳しくは、[Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) のリスト（利用可能な場合）を参照するか、[!DNL Adobe] コンサルタントまたはカスタマーケアにお問い合わせください。
+このページには、現在の の [!DNL Audience Manager] [デバイスベースの宛先](/help/using/features/destinations/add-device-based-destinations.md)のみが含まれます。[!DNL Audience Manager] では、[!UICONTROL device-based destinations] は [!UICONTROL server-to-server destinations] とも呼ばれます。統合について詳しくは、[Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) のリスト（利用可能な場合）を参照するか、[!DNL Adobe] コンサルタントまたはカスタマーケアにお問い合わせください。
 
 
 * **前回の更新日** = この [!UICONTROL device-based destination] で最後に更新がおこなわれた日付が表示されます。
