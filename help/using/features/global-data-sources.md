@@ -7,9 +7,9 @@ title: グローバルデータソース
 feature: Data Sources
 exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
 source-git-commit: 77daa5bd6545914f65e3e0f19b12c750535244e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 96%
 | 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** ID は、[!DNL Windows 10]オペレーティングシステムを実行しているデバイスを表します。 |
 | 963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** ID は、[!DNL Samsung] スマートテレビを表します。 |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** 実行中の [!DNL Amazon Fire OS] を表します。 |
-| 1171485 | **[!DNL LG webOS TV ID]**  — は、オ **[!DNL LGUDID]** ペレーティングシステムを実行して [!DNL LG webOS] いるデバイスを表します。 |
-| 1171489 | **[!DNL Vizio ID for Advertising]** - Vizioスマ **[!DNL IFA]** ートTVオペレーティングシステムを実行するデバイスを表します。 |
+| 1171485 | **[!DNL LG webOS TV ID]** - **[!DNL LGUDID]** は、[!DNL LG webOS] オペレーティングシステムを実行しているデバイスを表します。 |
+| 1171489 | **[!DNL Vizio ID for Advertising]** - **[!DNL IFA]** は、Vizio スマート TV オペレーティングシステムを実行するデバイスを表します。 |
 
 ## グローバルデータソースからのデータのインポート
 
