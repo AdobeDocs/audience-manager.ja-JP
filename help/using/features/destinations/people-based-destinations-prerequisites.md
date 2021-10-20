@@ -6,10 +6,10 @@ solution: Audience Manager
 title: 前提条件と考慮事項
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: bb0bc62b139917bbf6429bc92a85f8a5010cbebe
-workflow-type: ht
-source-wordcount: '964'
-ht-degree: 100%
+source-git-commit: cd40e1e3cc2199d1937950934d674cfad301f3e8
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,9 @@ ht-degree: 100%
 
 ### [!DNL Google Customer Match] {#gcm}
 
-[!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL Google Customer Match] の宛先に送信する前に、[!DNL Google Ads] アカウントが [Google カスタマーマッチポリシー](https://support.google.com/google-ads/answer/6299717/customer-match-policy)に準拠していることを確認してください。
+事前準備 [!UICONTROL People-Based Destinations] ファーストパーティオーディエンスセグメントを [!DNL Google Customer Match] の宛先に設定する場合は、 Googleの [!DNL Customer Match]( [Googleサポートドキュメント](https://support.google.com/google-ads/answer/6299717).
+
+次に、 [!DNL Google] アカウントが [!DNL Standard] またはそれ以上の権限レベル。 詳しくは、 [Google Ads ドキュメント](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&amp;rd=1) 」を参照してください。
 
 準拠しているアカウントを持つお客様は、Google によってリストへの掲載が自動的に許可されます。
 
