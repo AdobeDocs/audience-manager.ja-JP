@@ -1,16 +1,16 @@
 ---
 description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。アドビの製品とサービスは、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
-seo-description: Audience Manager（AAM）の技術ドキュメントとセルフヘルプ。AAM には、オンラインでのオーディエンスデータ管理用に業界をリードする製品が備わっており、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
-seo-title: Adobe Audience Manager 製品技術ドキュメント
+seo-description: Technical documentation and self help for Audience Manager (AAM). AAM provides industry-leading services for online audience data management, and give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
+seo-title: Adobe Audience Manager Product Technical Documentation
 solution: Audience Manager
 title: Audience Manager ガイド
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: 概要
+feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '643'
-ht-degree: 100%
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 96%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 100%
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API の使用の手引き</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">DCS API の使用の手引き</a></li>
-     <li><a href="https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html?lang=ja">Audience Manager 拡張機能の Adobe Experience Platform Launch への追加</a></li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Adobe Experience PlatformタグにAudience Manager拡張機能を追加する</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">アプリに Audience Manager を追加</a></li>
      </ul> </p>
     </td>

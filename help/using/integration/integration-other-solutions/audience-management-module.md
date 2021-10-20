@@ -8,10 +8,10 @@ title: Audience Management モジュールの実装
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics Integration
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 8c96c2f987ab0f235bdfb8ba5eb4a7d55fa57d0b
-workflow-type: ht
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Experience Platform Launch] を使用して [!UICONTROL Analytics] データを [!DNL Audience Manager] に転送することをお勧めします。[!UICONTROL Launch] を使用すると、このページで示すように、[!DNL AppMeasurement] に手動でコードをコピーする必要がなくなります。
+>[!DNL Adobe Experience Platform Tags] を使用して [!UICONTROL Analytics] データを [!DNL Audience Manager] に転送することをお勧めします。[!UICONTROL Tags] を使用すると、このページで示すように、[!DNL AppMeasurement] に手動でコードをコピーする必要がなくなります。
 
 ## 前提条件 {#prereqs}
 
@@ -34,9 +34,9 @@ ht-degree: 100%
 
 [!DNL Adobe Analytics] から [!DNL Audience Manager] へのデータ転送は、使用するタグ管理ソリューションに応じて、2 つの方法で実装できます。
 
-### [!DNL Adobe Experience Platform Launch] を使用した実装 
+### [!DNL Adobe Experience Platform Tags] を使用した実装 
 
-[!DNL Adobe] では、[Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=ja) 拡張機能を使用して、プロパティで [!DNL Adobe Analytics] および [!DNL Audience Manager] を実装することをお勧めします。この場合、コードを手動でコピーする必要はありません。代わりに、以下の画像に示すように、[!DNL Analytics Launch] 拡張機能でデータ共有を有効にする必要があります。[Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=ja#adobe-audience-manager)のドキュメントも参照してください。
+[!DNL Adobe] では、 [タグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 器具の拡張 [!DNL Adobe Analytics] および [!DNL Audience Manager] 」と入力します。 この場合、コードを手動でコピーする必要はありません。代わりに、以下の画像に示すように、[!DNL Analytics] 拡張機能でデータ共有を有効にする必要があります。[Adobe Analytics 拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html#adobe-audience-manager)のドキュメントも参照してください。
 
 >[!TIP]
 >
