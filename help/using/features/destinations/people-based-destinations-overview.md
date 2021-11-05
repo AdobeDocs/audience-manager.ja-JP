@@ -7,9 +7,9 @@ title: 概要とユースケース
 feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
 source-git-commit: ab3361a0a54a7200d2f0c03a82ae6ef61a755be9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '863'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 ## 概要 {#overview}
 
-[!DNL People-Based Destinations] では、オンラインとオフラインのデータにセグメント化を適用し、電子メールアドレスなどのハッシュ化された識別子に基づい [てオーディエンスセグメントを作成できます](people-based-destinations-prerequisites.md#hashing-requirements)。次に、これらのセグメントを、ソーシャルプラットフォーム上のオーディエンスをターゲット設定できる「ウォールドガーデン」（[!DNL Facebook] など）に含めます。[!DNL People-Based Destinations] は、次の場合に役立ちます。
+[!DNL People-Based Destinations] では、オンラインおよびオフラインのデータにセグメンテーションを適用し、メールアドレスなどの[ハッシュ化された識別子](people-based-destinations-prerequisites.md#hashing-requirements)に基づいてオーディエンスセグメントを作成できます。次に、これらのセグメントを、ソーシャルプラットフォーム上のオーディエンスをターゲット設定できる「ウォールドガーデン」（[!DNL Facebook] など）に含めます。[!DNL People-Based Destinations] は、次の場合に役立ちます。
 
 * ハッシュ化された電子メールアドレスに基づいて、プラットフォーム（[!DNL Facebook] など）でオフラインとオンラインのオーディエンスのターゲット設定をおこなう
 * Audience Manager の既存のデバイスおよび Cookie のターゲティング機能を補完する
