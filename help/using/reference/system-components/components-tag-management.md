@@ -8,15 +8,15 @@ uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 feature: System Components
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Tag Management コンポーネント{#tag-management-components}
 
-Audience Managerタグ管理コンポーネントには、クライアントポータル、Adobe Tag Manager(Adobe Experience Platformタグに代わって廃止 )、DIL、Akamai、制御データベースなどがあります。
+Audience Manager のタグ管理コンポーネントには、クライアントポータル、Adobe Tag Manager（廃止予定。Adobe Experience Platform タグを代替として推奨）、DIL、Akamai、制御データベースなどがあります。
 
 <!-- 
 
@@ -38,7 +38,7 @@ Audience Manager には次のコンポーネントがあります。
 
 ## DIL／TIM コンテナ {#dil-tim}
 
-[!UICONTROL DIL] コンテナは、[!DNL Audience Manager] のデータ収集コードを Web サイトに配置する際に使用されます。[!UICONTROL TIM] は非推奨（廃止予定）となった Tag Insertion Manager です。[!DNL Audience Manager] では使用されなくなりました。代わりに、 [!DNL Audience Manager] 拡張 [Adobe Experience Platformタグ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) を使用して、在庫のページに配置するコンテナコードを設定および生成します。
+[!UICONTROL DIL] コンテナは、[!DNL Audience Manager] のデータ収集コードを Web サイトに配置する際に使用されます。[!UICONTROL TIM] は非推奨（廃止予定）となった Tag Insertion Manager です。[!DNL Audience Manager] では使用されなくなりました。代わりに、[Adobe Experience Platform タグ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ja)の [!DNL Audience Manager] 拡張機能を使用して、インベントリのページに配置するコンテナコードを設定および生成します。
 
 ## データ統合ライブラリ（DIL） {#dil}
 
