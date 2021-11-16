@@ -8,9 +8,9 @@ uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '597'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 96%
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">REST API の使用の手引き</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">DCS API の使用の手引き</a></li>
-     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Adobe Experience PlatformタグにAudience Manager拡張機能を追加する</a></li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ja">Adobe Experience Platform タグの Audience Manager 拡張機能の追加</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">アプリに Audience Manager を追加</a></li>
      </ul> </p>
     </td>
