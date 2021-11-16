@@ -9,9 +9,9 @@ uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ faq_features_functions.xml
 
 **[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager では [!UICONTROL Tag Insertion Manager]（TIM）を使用して [!UICONTROL data collection code (DIL)] を作成および管理していました。この機能は時代後れとなったので、[!UICONTROL Dynamic Tag Manager (DTM)] で置き換えられた後、[!DNL Adobe Experience Platform Tags] で置き換えられました。詳しくは、 [Adobe Experience Platformタグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+Audience Manager では [!UICONTROL Tag Insertion Manager]（TIM）を使用して [!UICONTROL data collection code (DIL)] を作成および管理していました。この機能は時代後れとなったので、[!UICONTROL Dynamic Tag Manager (DTM)] で置き換えられた後、[!DNL Adobe Experience Platform Tags] で置き換えられました。詳しくは、[Adobe Experience Platform タグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を参照してください。
 
  
 
