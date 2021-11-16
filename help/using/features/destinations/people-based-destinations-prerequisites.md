@@ -7,9 +7,9 @@ title: 前提条件と考慮事項
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 source-git-commit: cd40e1e3cc2199d1937950934d674cfad301f3e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 94%
 
 ### [!DNL Google Customer Match] {#gcm}
 
-事前準備 [!UICONTROL People-Based Destinations] ファーストパーティオーディエンスセグメントを [!DNL Google Customer Match] の宛先に設定する場合は、 Googleの [!DNL Customer Match]( [Googleサポートドキュメント](https://support.google.com/google-ads/answer/6299717).
+[!UICONTROL People-Based Destinations] を使用してファーストパーティのオーディエンスセグメントを [!DNL Google Customer Match] の宛先に送信する前に、[Google サポートドキュメント](https://support.google.com/google-ads/answer/6299717)に概説されている [!DNL Customer Match] の使用に関する Google のポリシーを読んで遵守してください。
 
-次に、 [!DNL Google] アカウントが [!DNL Standard] またはそれ以上の権限レベル。 詳しくは、 [Google Ads ドキュメント](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&amp;rd=1) 」を参照してください。
+次に、[!DNL Google] アカウントが [!DNL Standard] 以上の権限レベルに設定されていることを確認してください。詳しくは、[Google 広告のドキュメント](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&amp;rd=1)を参照してください。
 
 準拠しているアカウントを持つお客様は、Google によってリストへの掲載が自動的に許可されます。
 
@@ -65,7 +65,7 @@ ht-degree: 94%
 
 ## データプライバシー {#data-privacy}
 
-[!UICONTROL People-Based Destinations] では、お客様自身がアップロードした、ハッシュ化された電子メールアドレスに基づいてオーディエンスをターゲット設定することができますが、識別可能な訪問者情報を直接 Audience Manager にアップロードすることは引き続き禁止されています。オンボーディング段階で、使用する予定の電子メールアドレスが [!DNL SHA256] アルゴリズムでハッシュ化されていることを確認する必要があります。そうでない場合、[!UICONTROL People-Based Destinations] で使用することはできません 。
+[!UICONTROL People-Based Destinations] では、お客様自身がアップロードした、ハッシュ化された電子メールアドレスに基づいてオーディエンスをターゲット設定することができますが、識別可能な訪問者情報を直接 Audience Manager にアップロードすることは引き続き禁止されています。オンボーディング段階で、使用する予定の電子メールアドレスが [!DNL SHA256] アルゴリズムでハッシュ化されていることを確認する必要があります。そうでない場合、[!UICONTROL People-Based Destinations] で使用することはできません。
 
 ## データのハッシュと暗号化 {#data-hashing-encryption}
 
