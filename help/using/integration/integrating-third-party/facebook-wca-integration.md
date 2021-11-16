@@ -7,9 +7,9 @@ title: Facebook WCA の統合
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 97%
 ## 前提条件 {#prerequisites}
 
 1. [!DNL Facebook Ad Account]
-2. [!DNL Audience Manager] セグメントで、新しい 宛先に割り当てる準備を整えます。[!DNL Facebook]UI での[セグメントの作成方法](/help/using/features/segments/segment-builder.md)をご確認ください。[!DNL Audience Manager]
+2. [!DNL Audience Manager] セグメントで、新しい [!DNL Facebook] 宛先に割り当てる準備を整えます。[!DNL Audience Manager] UI での[セグメントの作成方法](/help/using/features/segments/segment-builder.md)をご確認ください。
 3. [!DNL Adobe Experience Platform Identity Service]（[!DNL ECID]）バージョン 4.1.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/id-service/releases)** から最新バージョンをダウンロードできます。
-4. [!DNL Audience Manager Data Integration Library]（[!DNL DIL]）バージョン 9.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;からダウンロードできます。また、[サーバー側転送（SSF）](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用して にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[!DNL Audience Manager][Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ja) を使用して [!DNL AppMeasurement] をダウンロードしてください。
+4. [!DNL Audience Manager Data Integration Library]（[!DNL DIL]）バージョン 9.0 以降。**[こちら](https://github.com/Adobe-Marketing-Cloud/dil/releases)**&#x200B;からダウンロードできます。また、[サーバー側転送（SSF）](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ja)を使用して [!DNL Audience Manager] にデータを読み込む場合は、AppMeasurement バージョン 2.12 以降を使用する必要があります。[Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=ja) を使用して [!DNL AppMeasurement] をダウンロードしてください。
 
-手順 3 と 4 で、を使用してライブラリをインストールまたはアップグレードすることをお勧めします。 [Adobe Experience Platformタグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+手順 3 と 4 で、[Adobe Experience Platform タグ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ja)を使用して、ライブラリをインストールまたはアップグレードすることをお勧めします。
 
 ## 手順 1 - [!UICONTROL Facebook Destination] で [!DNL Audience Manager] を作成します。  {#step-1-create-facebook-destination}
 
