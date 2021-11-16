@@ -1,17 +1,17 @@
 ---
 description: データ収集サーバー（DCS）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、DCS リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
-seo-description: データ収集サーバー（DCS）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、DCS リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
-seo-title: DCS API 呼び出しでサポートされている属性
+seo-description: Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the Data Collection Servers (DCS). This information can help you format your DCS requests and understand the parameters returned by this system.
+seo-title: Supported Attributes for DCS API Calls
 solution: Audience Manager
 title: DCS API 呼び出しでサポートされている属性
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '839'
-ht-degree: 100%
+source-git-commit: e10211057a87622340fd2c61737c7c7a45c0e99c
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 92%
 
 ---
 
@@ -188,3 +188,16 @@ ht-degree: 100%
   </tr>
  </tbody>
 </table>
+
+## h_属性
+
+これらのヘッダーには、HTTP 呼び出しでのデータおよび応答のリクエストなどの情報が含まれます。
+
+| 属性 | 説明 |
+| --- | --- | 
+| `h_host` | クライアントの特定のデータ収集ホスト名に設定します。 次のように表示されます。 `host name .demdex.net`. [Demdex ドメインの呼び出しについて](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en)を参照してください。 |
+| `h_user-agent` | を `User-Agent` ヘッダー値。 |
+| `h_accept-language` | を  `Accept-Language`  ヘッダー値。 |
+| `h_referer` | を `Referer` ヘッダー値。 |
+| `h_referrer` | を `Referrer` ヘッダー値。 |
+| `h_date` | を `Date` ヘッダー値。 |
