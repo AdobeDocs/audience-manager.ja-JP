@@ -9,9 +9,9 @@ uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
 source-git-commit: e10211057a87622340fd2c61737c7c7a45c0e99c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '867'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager</span> で割り当てられたデータプロバイダー ID（<code> DPID</code>）とデータプロバイダーユーザー ID（<code> DPUUID</code>）のペアを 1 つ以上含んでいます。<code> DPID</code> と <code> DPUUID</code> のペアを複数使用する場合、各ペアを非印字文字 <code> %01</code> で区切ります。例：<code><i>DPID</i>%01<i>DPUUUID</i></code> </p> <p><code> d_cid</code> は、（廃止予定だが、まだサポートされている）<code> d_dpid</code> および <code> d_dpuuid</code> に代わるものです。詳しくは、<a href="../../../reference/cid.md">DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td>
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> で割り当てられたデータプロバイダー ID（<code> DPID</code>）とデータプロバイダーユーザー ID（<code> DPUUID</code>）のペアを 1 つ以上含んでいます。<code> DPID</code> と <code> DPUUID</code> のペアを複数使用する場合、各ペアを非印字文字 <code> %01</code> で区切ります。例：<code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> は、（廃止予定だが、まだサポートされている）<code> d_dpid</code> および <code> d_dpuuid</code> に代わるものです。詳しくは、<a href="../../../reference/cid.md">DPID と DPUUID に代わる CID</a> を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
@@ -189,15 +189,15 @@ ht-degree: 92%
  </tbody>
 </table>
 
-## h_属性
+## h_ Attributes
 
-これらのヘッダーには、HTTP 呼び出しでのデータおよび応答のリクエストなどの情報が含まれます。
+これらのヘッダーは、HTTP 呼び出し内のデータおよび応答のリクエストのような情報を格納します。
 
 | 属性 | 説明 |
 | --- | --- | 
-| `h_host` | クライアントの特定のデータ収集ホスト名に設定します。 次のように表示されます。 `host name .demdex.net`. [Demdex ドメインの呼び出しについて](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en)を参照してください。 |
-| `h_user-agent` | を `User-Agent` ヘッダー値。 |
-| `h_accept-language` | を  `Accept-Language`  ヘッダー値。 |
-| `h_referer` | を `Referer` ヘッダー値。 |
-| `h_referrer` | を `Referrer` ヘッダー値。 |
-| `h_date` | を `Date` ヘッダー値。 |
+| `h_host` | クライアントの特定のデータ収集ホスト名に設定します。`host name .demdex.net` と表示されます。[Demdex ドメインの呼び出しについて](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja)を参照してください。 |
+| `h_user-agent` | `User-Agent` ヘッダー値に設定します。 |
+| `h_accept-language` | `Accept-Language` ヘッダー値に設定します。 |
+| `h_referer` | `Referer` ヘッダー値に設定します。 |
+| `h_referrer` | `Referrer` ヘッダー値に設定します。 |
+| `h_date` | `Date` ヘッダー値に設定します。 |
