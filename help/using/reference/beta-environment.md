@@ -1,17 +1,17 @@
 ---
 description: ベータ環境は、Audience Manager の実装をテストするために使用します。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
 keywords: サンドボックス
-seo-description: ベータ環境は、Audience Manager の実装をテストするために使用します。ベータ環境でおこなった変更は実稼動データに影響しません。ベータ環境の使用に関心がある場合は、Audience Manager パートナーソリューションの担当者にお問い合わせください。
-seo-title: ベータ環境
+seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
+seo-title: Beta Environment
 solution: Audience Manager
 title: ベータ環境
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
-feature: リファレンス
+feature: Reference
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+source-git-commit: fce39268f1c8c4dd1b7ff21b61a9830a20fa0b4e
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## 概要
 
-ベータ環境は、実験的な機能または未リリースの機能を持たない、実稼動環境の正確なセカンダリです。実稼働環境のログイン資格情報は、ベータ環境でも有効です。
+bveta 環境の機能は、実験的または未リリースの機能を持たない、実稼働環境の正確なレプリカです。 実稼働環境のログイン資格情報は、ベータ環境でも有効です。
 
 **更新のスケジュール**
 
@@ -31,7 +31,15 @@ ht-degree: 100%
 >
 >顧客データ（[シグナル、特性およびセグメント](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ja)）は、実稼動環境とベータ環境の間では同期されません。
 
-**送信トラフィック**
+## インバウンドトラフィック
+
+ベータ環境では、ファイル名およびコンテンツ構文の検証の目的でのみ、受信トラフィックをサポートします。 ベータ環境では ID マッピングがおこなわれないので、セグメント母集団は表示されません。
+
+その結果、 [!UICONTROL Onboarding Status] ページは常にレポートされます [!UICONTROL No matching AAM ID] ベータ環境でのファイル取り込み時に実行されます。
+
+すべてのお客様に対し、実稼動環境でインバウンドテストを実行することをお勧めします。
+
+## 送信トラフィック
 
 ベータ環境では、送信トラフィックは有効になっていません。
 
