@@ -1,16 +1,16 @@
 ---
 description: Audience Manager アカウントのすべてのプロパティにわたって地理変数を使用してユーザーをターゲティングするのに使用できるプラットフォームレベルの共通のキーと値のペアについて説明します。
-seo-description: Audience Manager アカウントのすべてのプロパティにわたって地理変数を使用してユーザーをターゲティングするのに使用できるプラットフォームレベルの共通のキーと値のペアについて説明します。
-seo-title: プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）
+seo-description: Describes the common platform-level key-value pairs you can use to target users with geographic variables across all properties in your Audience Manager account.
+seo-title: Geotargeting With Platform-level Keys
 solution: Audience Manager
 title: プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
-feature: 特性
+feature: Traits
 exl-id: 449096f9-64fd-495f-ac1d-3181a4544279
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 366589d51601f438999bfdc6a10c306eb1186742
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 100%
+source-wordcount: '659'
+ht-degree: 90%
 
 ---
 
@@ -30,13 +30,13 @@ Audience Manager アカウントのすべてのプロパティにわたって地
 
 ## ユーザー定義のプラットフォームレベルキー {#user-defined-keys}
 
-これらのキーと値のペアを使用して特性を作成する際には、値を指定します。
+キーと値のペアを定義して収集するプロセスが既に存在する、または確立している場合は、このオプションを利用します。 IP アドレスで事前定義されたキーを使用する場合は、次の節に進みます。 ユーザー定義キーの場合は、次のキーと値のペアを使用して特性を作成する際に、値を指定します。
 
 | キー | ターゲティングの場合 |
 |---|---|
 | `d_zx` | 郵便番号（例：`d_zx=10022`）。 |
 
-## IP アドレスで定義されたプラットフォームレベルキー {#keys-ip-address}
+## IP アドレスで定義されたプラットフォームレベルのキー {#keys-ip-address}
 
 アドビでは、[Digital Envoy](https://www.digitalenvoy.com/) と連携し、以下に示す人口統計データと地理的データを取得して更新します。これらのキーの値は、[!DNL IP] アドレスを対応する地理データおよび人口統計データと照合することで、決定されます。それでも、[!UICONTROL Trait Builder]でキーと値のペアを作成する際には、値パラメーターを入力する必要があります。
 
