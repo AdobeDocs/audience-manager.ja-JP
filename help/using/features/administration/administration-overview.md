@@ -1,16 +1,16 @@
 ---
 description: Administration メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
 keywords: rbac;RBAC;役割に基づく;ロールベース;ロールベースのアクセス制御
-seo-description: Administration メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
-seo-title: 管理
+seo-description: The options under the Administration menu let you create Audience Manager users and assign them to groups. You can also view limits (traits, segments, destinations, and models).
+seo-title: Administration
 solution: Audience Manager
 title: 管理
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
-feature: 管理
+feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1159'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 100%
 > ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
-
 [!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Users]** をクリックします。
@@ -117,10 +116,6 @@ ht-degree: 100%
 * `CREATE_ALL_ALGO_TRAITS`：ユーザーは、[!UICONTROL algorithmic traits]を作成できます。
 * `MAP_ALL_TO_SEGMENTS`：ユーザーは、会社に属する任意の[!UICONTROL traits]を[!UICONTROL segments]に追加できます。
 * `CREATE_ALL_TRAITS`：ユーザーは、[!UICONTROL traits]を作成できます。
-
-**[!UICONTROL Reports]**
-
-* `PTRREPORTS`：この[!UICONTROL wildcard permission]は、まもなく Audience Manager ユーザーインターフェイスから削除される、古くなった機能を表します。
 
 **[!UICONTROL Models]**
 
