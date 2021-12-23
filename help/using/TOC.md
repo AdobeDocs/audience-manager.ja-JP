@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Audience Manager を使用して、サイト訪問者に関する商業的に関連のある情報を収集し、市場性のあるセグメントを作成し、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
 feature-set: Audience Manager
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 73d1dd1fdc799d7cbe7605d6d084966f76efe38c
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -339,7 +339,7 @@ ht-degree: 100%
       + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform との統合 {#integration-experience-platform}
       + [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](integration/integration-aep/aam-aep-audience-sharing.md)
-   + 他の Experience Cloud ソリューションとの統合 {#integration-other-solutions}
+   + 他のアプリケーションとのExperience Cloud {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
       + [Adobe Analytics セグメントを Experience Cloud に公開する（Adobe Analytics のドキュメントを開く）](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/t-publish-audience-segment.html?lang=ja)
