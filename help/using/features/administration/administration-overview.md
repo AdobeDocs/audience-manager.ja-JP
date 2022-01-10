@@ -41,7 +41,7 @@ ht-degree: 100%
 > ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
-[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
+>[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Users]** をクリックします。
 1. ![](assets/icon_add.png) をクリックして、[!UICONTROL Create New User] ページを表示します。
