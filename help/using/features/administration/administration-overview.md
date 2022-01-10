@@ -9,7 +9,7 @@ uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
 ht-degree: 100%
 
@@ -38,10 +38,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
-> 
 [!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Users]** をクリックします。
@@ -62,11 +61,11 @@ ht-degree: 100%
 1. 「**[!UICONTROL Assigned Groups]**」の下のドロップダウンリストから、このユーザーを割り当てるグループを選択します。グループと権限について詳しくは、[グループの作成](../../features/administration/administration-overview.md#create-group)を参照してください。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-## [!UICONTROL Group] の作成  {#create-group}
+## [!UICONTROL Group] の作成 {#create-group}
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
 > 
 > すべてのお客様が移行した後、このセクションは廃止されます。
 
@@ -88,11 +87,11 @@ ht-degree: 100%
 7. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。
 8. 「**[!UICONTROL Save Group]**」をクリックします。
 
-## [!UICONTROL Wild Card Permissions]について  {#wild-card-permissions}
+## [!UICONTROL Wild Card Permissions] について {#wild-card-permissions}
 
 >[!IMPORTANT]
 >
-> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
+> ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するために、すべての Audience Manager のお客様には、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明する必要な措置を直ちに取ることをお勧めします。
 > 
 > すべてのお客様が移行した後、このセクションは廃止されます。
 
@@ -167,7 +166,7 @@ ht-degree: 100%
 
 ![monitor-user-access](assets/monitor-user-access.png)
 
-### 機密性の高い[!UICONTROL Data Sources]に対するアクセス保護の確保  {#protect-sensitive-data-sources}
+### 機密性の高い [!UICONTROL Data Sources] に対するアクセス保護の確保  {#protect-sensitive-data-sources}
 
 各ユーザーグループに対し、[!UICONTROL trait]、セグメント、および[!UICONTROL destination]レベルで、[!UICONTROL Role-Based Access Control]を設定できます。
 
