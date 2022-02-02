@@ -1,17 +1,17 @@
 ---
 description: 顧客データフィード（CDF）ファイルに関する基本情報と導入方法の説明CDF ファイルの受信に関心がある場合や詳細を知りたい場合は、ここから始めてください。
 keywords: セカンドパーティデータ;セカンドパーティ;セカンドパーティデータ;セカンドパーティ
-seo-description: 顧客データフィード（CDF）ファイルに関する基本情報と導入方法の説明CDF ファイルの受信に関心がある場合や詳細を知りたい場合は、ここから始めてください。
-seo-title: 顧客データフィード
+seo-description: Basic information about Customer Data Feed (CDF) files and instructions on how to get started. Start here if you're interested in receiving CDF files or just want more information.
+seo-title: Customer Data Feeds
 solution: Audience Manager
 title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
-feature: 顧客データフィード
+feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1930'
-ht-degree: 100%
+source-git-commit: 08916acd6081031382713737f77ceed8ab1a4e91
+workflow-type: tm+mt
+source-wordcount: '1904'
+ht-degree: 99%
 
 ---
 
@@ -146,6 +146,7 @@ ht-degree: 100%
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + A（ASCII <code> 001</code> または <code> ^A</code>）：非表示のスペースインジケーターで個々のフィールドを区切ります。 </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + B（ASCII <code> 002</code> または <code> ^B</code>）：配列やリクエストパラメーターのデータを区切ります。 </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + C（ASCII <code> 003</code> または <code> ^C</code>）：キー値ペアを定義します。 </li> 
+      <li> 改行区切り記号 (/N)</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -160,7 +161,7 @@ ht-degree: 100%
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">リクエストパラメーター </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">参照元 </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP アドレス </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
      </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
@@ -195,13 +196,13 @@ ht-degree: 100%
 ### 構文
 
 ```
-s3://aam-cdf/YOUR-S3-BUCKET-NAME/day=yyyy-mm-dd/hour=hh/AAM-CDF-PARTNER-ID-AAM PROCESS-ID_0.gz
+s3://aam-cdf/YOUR-S3-BUCKET-NAME/day=yyyy-mm-dd/hour=hh/AAM-CDF_PARTNER-ID_FILE-SEQUENCE_0.gz
 ```
 
 ### 例
 
 ```
-s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
+s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
 ```
 
 [!DNL S3] ストレージバケットでは、ファイルはパートナー ID（[!UICONTROL PID]）、日、時で昇順にソートされます。
@@ -239,8 +240,8 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
    <td colname="col2"> <p>ユーザーのパートナー ID。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager</span> 内部のプロセス ID。 </p> </td> 
+   <td colname="col1"> <p> <code> <i>File Sequence</i>_0</code> </p> </td> 
+   <td colname="col2"> <p>ファイルシーケンスを識別する値。 シーケンスは、次のように増分されます。0_0_0, 0_1_0, 0_2_0....1_0_0</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
