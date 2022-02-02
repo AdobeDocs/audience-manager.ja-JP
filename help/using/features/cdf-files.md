@@ -8,10 +8,10 @@ title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 08916acd6081031382713737f77ceed8ab1a4e91
+source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 99%
+source-wordcount: '1914'
+ht-degree: 98%
 
 ---
 
@@ -146,12 +146,11 @@ ht-degree: 99%
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + A（ASCII <code> 001</code> または <code> ^A</code>）：非表示のスペースインジケーターで個々のフィールドを区切ります。 </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + B（ASCII <code> 002</code> または <code> ^B</code>）：配列やリクエストパラメーターのデータを区切ります。 </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + C（ASCII <code> 003</code> または <code> ^C</code>）：キー値ペアを定義します。 </li> 
-      <li> 改行区切り記号 (/N)</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>フィールド列 </p> </td> 
-   <td colname="col2"> <p> <p>重要：<span class="keyword">Audience Manager</span> は、今後のリリースで CDF ファイルの末尾に新規フィールドを追加する権利を留保します。つまり、ファイル解析システムの技術設計では、（既存の列については固定した順序を想定してもかまいませんが）固定した列数を前提としないでください。 </p> </p> <p>CDF ファイル内のデータの順序は次のとおりです。 </p> <p> 
+   <td colname="col2"> <p> <p>重要：<span class="keyword">Audience Manager</span> は、今後のリリースで CDF ファイルの末尾に新規フィールドを追加する権利を留保します。つまり、ファイル解析システムの技術設計では、（既存の列については固定した順序を想定してもかまいませんが）固定した列数を前提としないでください。</p> </p> <p>CDF ファイル内のデータの順序は次のとおりです。 /N は、これらのフィールドの代わりに表示され、null 値を示します。</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">イベント時刻 </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">デバイス </li> 
