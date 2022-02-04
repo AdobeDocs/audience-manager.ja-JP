@@ -11,7 +11,7 @@ exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
 workflow-type: tm+mt
 source-wordcount: '1914'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -240,7 +240,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>File Sequence</i>_0</code> </p> </td> 
-   <td colname="col2"> <p>ファイルシーケンスを識別する値。 シーケンスは、次のように増分されます。0_0_0, 0_1_0, 0_2_0....1_0_0</p> </td> 
+   <td colname="col2"> <p>ファイルシーケンスを識別する値。 シーケンスは、0_0_0、0_1_0、0_2_0....1_0_0 といったように増分されます。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
