@@ -1,5 +1,5 @@
 ---
-description: 顧客データフィード（CDF）ファイルに関する基本情報と導入方法の説明CDF ファイルの受信に関心がある場合や詳細を知りたい場合は、ここから始めてください。
+description: 顧客データフィード（CDF）ファイルに関する基本情報と導入方法の説明。 CDF ファイルの受信に関心がある場合や詳細を知りたい場合は、ここから始めてください。
 keywords: セカンドパーティデータ;セカンドパーティ;セカンドパーティデータ;セカンドパーティ
 seo-description: Basic information about Customer Data Feed (CDF) files and instructions on how to get started. Start here if you're interested in receiving CDF files or just want more information.
 seo-title: Customer Data Feeds
@@ -11,7 +11,7 @@ exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
 workflow-type: tm+mt
 source-wordcount: '1914'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ## ファイルの内容と目的 {#file-contents-purpose}
 
-[!UICONTROL CDF] ファイルには、[!DNL Audience Manager] イベント呼び出し（`/event`）でサーバーに送信されるデータと同じものが含まれています。ユーザー ID、[!UICONTROL trait IDs] ID、[!UICONTROL segment IDs] など、イベント呼び出しで表されるあらゆるパラメーターが含まれます。[!DNL Audience Manager] の内部システムがイベントデータを処理して [!UICONTROL CDF] ファイルを生成します。このファイルの内容は、所定の順序で出現するフィールドで構成されます。[!DNL Audience Manager] は、時間ごとに [!UICONTROL CDF] ファイルの生成を試み、[!DNL Amazon S3] サーバー上のセキュリティで保護された顧客専用バケットにファイルを保存します。これらのファイルが提供されているのは、ユーザーインターフェイス上の制限を受けずに [!DNL Audience Manager] データを扱えるようにするためです。
+[!UICONTROL CDF] ファイルには、[!DNL Audience Manager] イベント呼び出し（`/event`）でサーバーに送信されるデータと同じものが含まれています。ユーザー ID、[!UICONTROL trait IDs]、[!UICONTROL segment IDs] など、イベント呼び出しで表されるあらゆるパラメーターが含まれます。[!DNL Audience Manager] の内部システムがイベントデータを処理して [!UICONTROL CDF] ファイルを生成します。このファイルの内容は、所定の順序で出現するフィールドで構成されます。[!DNL Audience Manager] は、時間ごとに [!UICONTROL CDF] ファイルの生成を試み、[!DNL Amazon S3] サーバー上のセキュリティで保護された顧客専用バケットにファイルを保存します。これらのファイルが提供されているのは、ユーザーインターフェイス上の制限を受けずに [!DNL Audience Manager] データを扱えるようにするためです。
 
 >[!IMPORTANT]
 >
@@ -150,7 +150,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>フィールド列 </p> </td> 
-   <td colname="col2"> <p> <p>重要：<span class="keyword">Audience Manager</span> は、今後のリリースで CDF ファイルの末尾に新規フィールドを追加する権利を留保します。つまり、ファイル解析システムの技術設計では、（既存の列については固定した順序を想定してもかまいませんが）固定した列数を前提としないでください。</p> </p> <p>CDF ファイル内のデータの順序は次のとおりです。 /N は、これらのフィールドの代わりに表示され、null 値を示します。</p> <p> 
+   <td colname="col2"> <p> <p>重要：<span class="keyword">Audience Manager</span> は、今後のリリースで CDF ファイルの末尾に新規フィールドを追加する権利を留保します。つまり、ファイル解析システムの技術設計では、（既存の列については固定した順序を想定してもかまいませんが）固定した列数を前提としないでください。</p> </p> <p>CDF ファイル内のデータの順序は次のとおりです。これらのフィールドの代わりに、null 値を表す /N が表示される場合があります。</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">イベント時刻 </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">デバイス </li> 
