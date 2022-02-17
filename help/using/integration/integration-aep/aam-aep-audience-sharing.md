@@ -1,20 +1,17 @@
 ---
-description: この記事では、Audience Manager と Adobe Experience Platform の間でオーディエンスを共有する方法について説明します。
-seo-description: この記事では、Audience Manager と Adobe Experience Platform の間でオーディエンスを共有する方法について説明します。
-seo-title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
+description: この記事では、Audience ManagerとAdobe Experience Platformの間でオーディエンスを共有する方法について説明します
 solution: Audience Manager
-title: Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有
-keywords: AEP オーディエンス共有、AEP セグメント、プラットフォームセグメント, セグメント共有, オーディエンス共有、セグメントの共有
-feature: Platform との統合
-exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1450'
-ht-degree: 100%
+title: Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有
+keywords: AEP オーディエンス共有， AEP セグメント，プラットフォームセグメント，セグメント共有，オーディエンス共有，セグメントの共有， AAM AEP セグメント共有
+feature: Platform Integration
+source-git-commit: f0df41e71340d08e873d8d7e33b481987110c58d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有 {#aam-aep-audience-sharing}
+# Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有
 
 >[!NOTE]
 >
@@ -53,7 +50,7 @@ Audience Manager の特性とセグメントは、セグメントワークフロ
 
 * [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
-* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
+* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 ## Audience Manager の Adobe Experience Platform セグメント {#aep-segments-in-aam}
 
@@ -184,7 +181,7 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
->* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
->* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
+>* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+>* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
