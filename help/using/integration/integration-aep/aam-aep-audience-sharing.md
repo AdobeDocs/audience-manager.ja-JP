@@ -1,13 +1,13 @@
 ---
-description: この記事では、Audience ManagerとAdobe Experience Platformの間でオーディエンスを共有する方法について説明します
+description: この記事では、Audience Manager と Adobe Experience Platform の間でオーディエンスを共有する方法について説明します。
 solution: Audience Manager
 title: Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有
-keywords: AEP オーディエンス共有， AEP セグメント，プラットフォームセグメント，セグメント共有，オーディエンス共有，セグメントの共有， AAM AEP セグメント共有
+keywords: AEP オーディエンス共有、AEP セグメント、Platform セグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
 feature: Platform Integration
 source-git-commit: f0df41e71340d08e873d8d7e33b481987110c58d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1432'
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Audience Manager の特性とセグメントは、セグメントワークフロ
 
 * [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
-* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 
 ## Audience Manager の Adobe Experience Platform セグメント {#aep-segments-in-aam}
 
@@ -181,7 +181,7 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
->* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
->* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
+>* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
+>* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 
