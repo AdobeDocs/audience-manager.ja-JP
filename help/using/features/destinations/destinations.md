@@ -1,17 +1,17 @@
 ---
-description: Audience Manager において、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。Destination Builder とは、Cookie、URL、またはサーバー間通信ベースの宛先の作成および管理をおこなうために使用するツールです。
-keywords: 統合コード、宛先、宛先の概要, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先, 宛先
-landing-page-description: 宛先は、広告サーバーや DSP など、データを共有するサードパーティ製のシステムです。 Cookie、URL またはサーバー間の宛先を作成および管理するには、宛先ビルダーツールを使用します。
-seo-title: 宛先
+description: 宛先 ( 広告サーバーやDSPなど、データを共有するサードパーティ製システム ) の利点、タイプ、使用方法を確認します。 Cookie、URL またはサーバー間の宛先を作成および管理するには、宛先ビルダーを使用します。
+keywords: 統合コード、宛先、宛先の概要、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先
+landing-page-description: 宛先 ( 広告サーバーやDSPなど、データを共有するサードパーティ製システム ) の利点、タイプ、使用方法を確認します。 Cookie、URL またはサーバー間の宛先を作成および管理するには、宛先ビルダーを使用します。
+seo-title: Destinations
 solution: Audience Manager
 title: 宛先
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 84%
 
 ---
 

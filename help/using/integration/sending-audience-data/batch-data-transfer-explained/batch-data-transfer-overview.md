@@ -1,16 +1,16 @@
 ---
 description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。
 keywords: インバウンド、バッチ、バッチアップロード、バッチデータ
-seo-description: 技術系／非技術系を問わず、他のシステム（オフライン）から Audience Manager にデータを取り込むお客様を対象とした概要説明です。これをおこなうには、Audience Manager のバッチアップロードオプションを使用します。
-seo-title: Audience Manager へのバッチデータ送信の概要
+seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager. To do so, use the batch upload option in Audience Manager.
+seo-title: Send Batch Data to Audience Manager Overview
 solution: Audience Manager
 title: Audience Manager へのバッチデータ送信の概要
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: f02e6bcfb7ff3560d9624c3dce7ff065a3a75748
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '462'
 ht-degree: 98%
 
 ---
@@ -50,35 +50,12 @@ ht-degree: 98%
 
 [!DNL Audience Manager] は、ファイルのドロップオフ用に以下の環境を提供します。
 
-<table id="table_A61AA64578944B23B5A7355F2A76E882"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 環境 </th> 
-   <th colname="col02" class="entry"> サービス </th> 
-   <th colname="col2" class="entry"> 場所 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <b>実稼動</b> </td> 
-   <td colname="col02"> FTP </td> 
-   <td colname="col2"> <p> <code> ftp-in.demdex.com</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col02"> S3 </td> 
-   <td colname="col2"> <p> <code> demdex-s2s-clients</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1" morerows="1"> <b>ベータ環境</b> </td> 
-   <td colname="col02"> FTP </td> 
-   <td colname="col2"> <p><code> sandbox-ftp-in.demdex.com</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col02"> S3 </td> 
-   <td colname="col2"> <p> <code> demdex-s2s-clients-sandbox-us-east-1</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 環境 | サービス | 場所 |
+|---------|----------|---------|
+| 実稼動 | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients</li><li>ftp-in.demdex.com</li></ul> |
+| ベータ環境 | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients-sandbox-us-east-1</li><li>sandbox-ftp-in.demdex.com</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## その他の技術情報
 

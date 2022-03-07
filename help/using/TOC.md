@@ -3,12 +3,12 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
-user-guide-description: Audience Manager を使用して、サイト訪問者に関する商業的に関連のある情報を収集し、市場性のあるセグメントを作成し、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法について説明します。
+user-guide-description: Adobe Audience Managerを使用して、サイト訪問者に関する商業的に関連性の高い情報を収集し、マーケティング可能なセグメントを作成する方法を説明します。 また、ターゲットを絞った広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: 73d1dd1fdc799d7cbe7605d6d084966f76efe38c
-workflow-type: ht
-source-wordcount: '1805'
-ht-degree: 100%
+source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
+workflow-type: tm+mt
+source-wordcount: '1814'
+ht-degree: 98%
 
 ---
 
