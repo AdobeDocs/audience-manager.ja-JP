@@ -6,9 +6,9 @@ keywords: AEP オーディエンス共有、AEP セグメント、Platform セ�
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1522'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Audience Manager の特性とセグメントは、セグメントワークフロ
 
 * [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
-* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 
 ## Audience Manager の Adobe Experience Platform セグメント {#aep-segments-in-aam}
 
@@ -161,7 +161,7 @@ Audience Manager の[[!UICONTROL Profile Merge Rules]](/help/using/features/prof
 
 >[!NOTE]
 >
-> Experience PlatformからAudience Managerにセグメントを共有する場合は、Platform 組織が [デフォルトの結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) が [セグメントで使用される結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) 共有されたAudience Manager 例えば、共有セグメントの結合ポリシーで [ID のステッチ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure)ですが、組織のデフォルトの結合ポリシーでは結合されないので、Platform と Platform の間の母集団の違いが生じる可能性があります。Audience Manager
+> Experience Platform から Audience Manager にセグメントを共有する場合は、Platform 組織の [デフォルトの結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja#default-merge-policy)が Audience Manager で共有された[セグメントで使用される結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#merge-policies)よりも優先されます。例えば、共有セグメントの結合ポリシーで [ID のステッチ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure)が許可されていても、組織のデフォルトの結合ポリシーでは許可されていない場合、Platform と Audience Manager の間の母集団の違いが生じる可能性があります。
 
 ### Experience Platform でのセグメントの構成
 
@@ -186,7 +186,7 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
->* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
->* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
+>* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
+>* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 
