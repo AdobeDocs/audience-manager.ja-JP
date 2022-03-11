@@ -1,16 +1,16 @@
 ---
 description: Audience Manager にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager または Amazon S3 ディレクトリに送信する際には、これらの仕様に従ってファイルの名前とサイズを設定してください。
-seo-description: Audience Manager にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager または Amazon S3 ディレクトリに送信する際には、これらの仕様に従ってファイルの名前とサイズを設定してください。
-seo-title: 受信データファイルの Amazon S3 名とファイルサイズの要件
+seo-description: Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / Amazon S3 directory.
+seo-title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 solution: Audience Manager
 title: 受信データファイルの Amazon S3 名とファイルサイズの要件
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 3e25db0fc74a0b125f4f0ecd0f45f3fb877be099
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ Removed  {importance="high"} for ExL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>このフィールドは、データのオンボーディング先となるデータソースを Audience Manager に示します。このフィールドは、DPID を Android ID または iOS ID、またはグローバルデータソースに属する他の ID に設定した場合は必須です。これにより、<span class="keyword">Audience Manager</span> はファイルデータを組織にリンクすることができます。 </p> <p>例： </p> 
+   <td colname="col2"> <p>このフィールドは、データのオンボーディング先となるデータソースを Audience Manager に示します。このフィールドは、DPID を Android ID または iOS ID、またはグローバルデータソースに属する他の ID に設定した場合は必須です。これにより、Audience Manager はファイルデータを組織にリンクすることができます。<br> このターゲットデータソースは、会社が所有している必要があります。 セカンドパーティのデータ共有の目的では、別の会社に属するターゲットデータソースにデータを取り込むには、会社とターゲットデータソースの間のアクセスマッピングが必要です。 マッピングを設定するには、担当のAdobeコンサルタントまたはカスタマーサポートにお問い合わせください。</p> <p>例： </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code>データソース 33 に属する顧客 ID をデータソース 21 に属する特性またはシグナルに認定していることを Audience Manager に通知します。 </li> 
      <li> <b>Android ID（GAID）：</b><code>...ftp_dpm_20914_21_1234567890.sync</code> データファイルに Android ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li> 
