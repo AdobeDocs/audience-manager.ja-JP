@@ -1,15 +1,12 @@
 ---
 description: データ収集サーバー（DCS）で生成されるエラーコードおよびメッセージをコード ID の順に説明します。
-seo-description: データ収集サーバー（DCS）で生成されるエラーコードおよびメッセージをコード ID の順に説明します。
-seo-title: DCS エラーコード、メッセージ、例
-solution: Audience Manager
 title: DCS エラーコード、メッセージ、例
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1545'
+source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
+workflow-type: tm+mt
+source-wordcount: '1520'
 ht-degree: 100%
 
 ---
