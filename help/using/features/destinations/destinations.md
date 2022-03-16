@@ -1,7 +1,7 @@
 ---
-description: 宛先 ( 広告サーバーやDSPなど、データを共有するサードパーティ製システム ) の利点、タイプ、使用方法を確認します。 Cookie、URL またはサーバー間の宛先を作成および管理するには、宛先ビルダーを使用します。
-keywords: 統合コード、宛先、宛先の概要、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先
-landing-page-description: 宛先 ( 広告サーバーやDSPなど、データを共有するサードパーティ製システム ) の利点、タイプ、使用方法を確認します。 Cookie、URL またはサーバー間の宛先を作成および管理するには、宛先ビルダーを使用します。
+description: 宛先（広告サーバーや DSP など、データを共有するサードパーティ製システム）の利点、タイプ、使用方法を確認します。 宛先ビルダーを使用して、cookie、URL またはサーバー間の宛先を作成および管理します。
+keywords: 統合コード、宛先、宛先の概要、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先
+landing-page-description: 宛先（広告サーバーや DSP など、データを共有するサードパーティ製システム）の利点、タイプ、使用方法を確認します。 宛先ビルダーを使用して、cookie、URL またはサーバー間の宛先を作成および管理します。
 seo-title: Destinations
 solution: Audience Manager
 title: 宛先
@@ -9,9 +9,9 @@ uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Audience Manager において、[!UICONTROL destination]とは、データを共
 * [!DNL URL] および [!UICONTROL cookie-based destinations]は、ページでのユーザーアクションとほぼ同期的に連動します。
 * [!UICONTROL Server-to-server]手法は、時間をかけて深みのあるオーディエンスセグメントを構築するのに適しています。
 
-## [!UICONTROL Destination]のタイプと典型的なユーザー  {#destination-types}
+## [!UICONTROL Destination]のタイプと典型的な使用方法 {#destination-types}
 
 次の表に示す例は、特定の[!UICONTROL destination]の使用に適した状況とそれぞれのタイプの違いを理解するのに役に立ちます。
 
