@@ -1,6 +1,6 @@
 ---
-description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。 また、データの送信方法に関する情報も確認します。
-landing-page-description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。 また、データの送信方法に関する情報も確認します。
+description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
+landing-page-description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: シグナル、特性、セグメント
@@ -8,9 +8,9 @@ uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
 source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
