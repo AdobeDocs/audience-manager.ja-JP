@@ -8,13 +8,13 @@ uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 source-git-commit: 534f7c3a04861ad6daba2f168c275bbac8395d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# [!DNL FTP]受信データファイルの 名とファイルサイズの要件  {#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP] の受信データファイル用の名前およびファイルサイズに関する要件 {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
 [!DNL Audience Manager] にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager [!DNL FTP] ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
 
@@ -66,7 +66,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>このフィールドは、データのオンボーディング先となるデータソースを Audience Manager に示します。このフィールドは、DPID を Android ID または iOS ID、またはグローバルデータソースに属する他の ID に設定した場合は必須です。これにより、<span class="keyword">Audience Manager</span> はファイルデータを組織にリンクすることができます。<br> このターゲットデータソースは、会社が所有している必要があります。 セカンドパーティのデータ共有の目的では、別の会社に属するターゲットデータソースにデータを取り込むには、会社とターゲットデータソースの間のアクセスマッピングが必要です。 マッピングを設定するには、担当のAdobeコンサルタントまたはカスタマーサポートにお問い合わせください。</p> <p>例： </p> 
+   <td colname="col2"> <p>このフィールドは、データのオンボーディング先となるデータソースを Audience Manager に示します。このフィールドは、DPID を Android ID または iOS ID、またはグローバルデータソースに属する他の ID に設定した場合は必須です。これにより、<span class="keyword">Audience Manager</span> はファイルデータを組織にリンクすることができます。<br> このターゲットデータソースは、会社で所有している必要があります。セカンドパーティのデータ共有目的の場合、別の会社に属するターゲットデータソースにデータを取り込むには、会社とターゲットデータソースの間のアクセスマッピングが必要です。マッピングを設定するには、担当のアドビコンサルタントまたはカスタマーサポートにお問い合わせください。</p> <p>例： </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code>データソース 33 に属する顧客 ID をデータソース 21 に属する特性またはシグナルに認定していることを Audience Manager に通知します。 </li> 
      <li> <b>Android ID（GAID）：</b><code>...ftp_dpm_20914_21_1234567890.sync</code> データファイルに Android ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li> 
