@@ -7,10 +7,10 @@ title: 受信データファイルの FTP 名とファイルサイズの要件
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-source-git-commit: 534f7c3a04861ad6daba2f168c275bbac8395d37
-workflow-type: ht
-source-wordcount: '1047'
-ht-degree: 100%
+source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
+workflow-type: tm+mt
+source-wordcount: '1097'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>このフィールドは、データのオンボーディング先となるデータソースを Audience Manager に示します。このフィールドは、DPID を Android ID または iOS ID、またはグローバルデータソースに属する他の ID に設定した場合は必須です。これにより、<span class="keyword">Audience Manager</span> はファイルデータを組織にリンクすることができます。<br> このターゲットデータソースは、会社で所有している必要があります。セカンドパーティのデータ共有目的の場合、別の会社に属するターゲットデータソースにデータを取り込むには、会社とターゲットデータソースの間のアクセスマッピングが必要です。マッピングを設定するには、担当のアドビコンサルタントまたはカスタマーサポートにお問い合わせください。</p> <p>例： </p> 
+   <td colname="col2"> <p>このフィールドは、データのオンボーディング先となるデータソースを Audience Manager に示します。このフィールドは、DPID を Android ID または iOS ID、またはグローバルデータソースに属する他の ID に設定した場合は必須です。これにより、<span class="keyword">Audience Manager</span> はファイルデータを組織にリンクすることができます。<br> このターゲットデータソースは、会社で所有している必要があります。セカンドパーティのデータ共有目的の場合、別の会社に属するターゲットデータソースにデータを取り込むには、会社とターゲットデータソースの間のアクセスマッピングが必要です。マッピングを設定するには、担当のアドビコンサルタントまたはカスタマーサポートにお問い合わせください。</p><p><b>重要な注意：</b> あなた <i>しない</i> （2022 年 3 月 14 日以前ににデータをに転送した他の会社に属するターゲットデータソースについて）既存のデータ共有関係のマッピングをリクエストする必要がある。 また、PID に属するターゲットデータソースにデータをオンボードする場合も、マッピングは必要ありません。 </p> <p>例： </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code>データソース 33 に属する顧客 ID をデータソース 21 に属する特性またはシグナルに認定していることを Audience Manager に通知します。 </li> 
      <li> <b>Android ID（GAID）：</b><code>...ftp_dpm_20914_21_1234567890.sync</code> データファイルに Android ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li> 
