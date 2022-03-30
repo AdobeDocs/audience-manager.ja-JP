@@ -1,24 +1,24 @@
 ---
-description: 受信する特性データファイルの形式を整える際に従うべき必須フィールド、構文、ルールについて説明します。
+description: 受信特性データファイルをフォーマットするときに従う必要のある必須フィールド、構文およびルール。
 solution: Audience Manager
-title: 受信データファイルコンテンツ — 構文、無効な文字、変数、例
+title: 受信データファイルコンテンツ - 構文、無効な文字、変数および例
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
 source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1168'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 受信データファイルコンテンツ：構文、無効な文字、変数、例 {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# 受信データファイルコンテンツ：構文、無効な文字、変数および例 {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
-受信する特性データファイルの形式を整える際に従うべき必須フィールド、構文、ルールについて説明します。
+受信特性データファイルをフォーマットするときに従う必要のある必須フィールド、構文およびルール。
 
 ## ファイルコンテンツの構文 {#file-content-syntax}
 
-受信データファイルのフィールドは、以下の順序でなければなりません。この例では、各要素を視覚的に区切るために`<``>`記号が追加されています。実際のデータファイルでこれを使用する必要はありません。
+受信データファイルのフィールドは、以下の順序でなければなりません。この例では、各要素を視覚的に区切るために`<` `>`記号が追加されています。実際のデータファイルでこれを使用する必要はありません。
 
 ```
 <user ID><TAB><trait ID>,<trait ID>,<trait ID>,...
@@ -42,7 +42,7 @@ ht-degree: 99%
 
 ## 定義済みのファイル変数 {#file-variables-defined}
 
-次の表は、形式が適切に設定された受信データファイルで使用される変数の一覧と定義です。*斜体*&#x200B;の部分には実際の情報が入ります。
+次の表は、形式が適切に設定された受信データファイルで使用される変数の一覧と定義です。*斜体* の部分には実際の情報が入ります。
 
 <table id="table_FE043CE392B34D5194111188E5C39671"> 
  <thead> 
@@ -122,11 +122,11 @@ ht-degree: 99%
  </tbody>
 </table>
 
-## [!UICONTROL Trait IDs]、[!UICONTROL User IDs]、およびキーと値のペアに無効な文字が含まれている  {#invalid-chars}
+## [!UICONTROL Trait IDs]、[!UICONTROL User IDs] およびキーと値のペアの無効な文字 {#invalid-chars}
 
 ### [!UICONTROL Trait IDs]
 
-[!UICONTROL Trait IDs] は数字のみで構成されます。受信データファイルには、[!UICONTROL onboarded traits]**&#x200B;のみを入れるようにしてください。受信データ転送では、他の[!UICONTROL trait]タイプは処理されません。
+[!UICONTROL Trait IDs] は数字のみで構成されます。受信データファイルには、*[!UICONTROL onboarded traits]*&#x200B;のみを入れるようにしてください。受信データ転送では、他の[!UICONTROL trait]タイプは処理されません。
 
 ### [!UICONTROL User IDs]
 
@@ -233,7 +233,7 @@ ht-degree: 99%
 
 他の例が必要な場合は、サンプルデータファイルを[ダウンロードします](assets/ftp_dpm_1234_1445374061.overwrite)。ダウンロードファイルの拡張子は `.overwrite` です。これは普通のテキストエディターで開くことができます。
 
-## 例の一覧 {#examples-matrix}
+## 事例マトリックス {#examples-matrix}
 
 以下の表は、受信ファイルの書式設定を正しくおこなう方法を示す例の一覧です。[ID のタイプ](../../../reference/ids-in-aam.md)と、[!UICONTROL traits]をプロファイルに追加する方法によって分類されています。
 
@@ -281,7 +281,7 @@ ht-degree: 99%
 
 ### 例 1 {#example-1}
 
-[!UICONTROL trait IDs]を使用して、[!DNL Audience Manager] [!DNL UUIDs] の [!UICONTROL trait] 認定情報を送信します。
+[!UICONTROL trait IDs] を使用して、[!DNL Audience Manager] [!DNL UUIDs] の [!UICONTROL trait] 認定情報を送信します。
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -315,7 +315,7 @@ ht-degree: 99%
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
 ```
 
- または
+または
 
 ```
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
@@ -329,7 +329,7 @@ ht-degree: 99%
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
 ```
 
- または
+または
 
 ```
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
@@ -337,7 +337,7 @@ ht-degree: 99%
 
 ### 例 5 {#example-5}
 
-[!UICONTROL trait IDs]を使用して、[!DNL Android] デバイスの[!UICONTROL trait]認定情報を送信します。
+[!UICONTROL trait IDs] を使用して、[!DNL Android] デバイスの [!UICONTROL trait] 認定情報を送信します。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -371,7 +371,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
 ```
 
- または
+または
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "phone"
@@ -385,7 +385,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
 ```
 
- または
+または
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
@@ -393,7 +393,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 9 {#example-9}
 
-[!UICONTROL trait IDs]を使用して、[!DNL iOS] デバイスの[!UICONTROL trait]認定情報を送信します。
+[!UICONTROL trait IDs] を使用して、[!DNL iOS] デバイスの [!UICONTROL trait] 認定情報を送信します。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -427,7 +427,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
 ```
 
- または
+または
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> "product" = "tablet", "product" = "phone"
@@ -441,7 +441,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
 ```
 
- または
+または
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> ic=52,ic=55
@@ -449,7 +449,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 13 {#example-13}
 
-[!UICONTROL trait IDs]を使用して、[!DNL DPUUIDs] の[!UICONTROL trait]認定情報を送信します。
+[!UICONTROL trait IDs] を使用して、[!DNL DPUUIDs] の [!UICONTROL trait] 認定情報を送信します。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -483,7 +483,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
 ```
 
- または
+または
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = "phone"
