@@ -7,10 +7,10 @@ title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 95182160b37bb15df4867bbacd06d8d75c971fa3
-workflow-type: ht
-source-wordcount: '1942'
-ht-degree: 100%
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+workflow-type: tm+mt
+source-wordcount: '1910'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) コードを操作する場合は、以下の点に注意してください。
 
 * **リクエストパラメーター：**&#x200B;特に指定のない限り、すべてのリクエストパラメーターが必要となります。
-* **リクエストヘッダー**：[Adobe I/O](https://www.adobe.io/) トークンを使用する場合、`x-api-key` ヘッダーを提供する必要があります。[!DNL API] キーは、[サービスアカウント統合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)ページの手順に従って取得できます。
+* **リクエストヘッダー**:使用時 [Adobe開発者](https://www.adobe.io/) トークンの場合は、 `x-api-key` ヘッダー。 [!DNL API] キーは、[サービスアカウント統合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)ページの手順に従って取得できます。
 * **[!DNL JSON]コンテンツタイプ：** コード内で、`content-type: application/json` *および* `accept: application/json` を指定してください。
 * **要求と応答：**&#x200B;適切な形式の [!DNL JSON] オブジェクトとして要求を送信してください。[!DNL Audience Manager] は [!DNL JSON] 形式のデータで応答します。サーバーの応答には要求されたデータもしくはステータスコード、またはその両方を含めることができます。
 * **アクセス：**&#x200B;担当の[!DNL Audience Manager] コンサルタントによって、[!DNL API] 要求をおこなうために必要なクライアント ID およびキーが提供されます。
@@ -39,28 +39,28 @@ ht-degree: 100%
 
 [!DNL Audience Manager] [!DNL REST APIs] は、2 つの認証方法をサポートします。
 
-* [JWT（サービスアカウント）認証](#jwt)（[Adobe I/O](https://www.adobe.io/) を使用）[!DNL Adobe I/O] は、アドビの開発者エコシステムおよびコミュニティです。これには、[Adobe I/O 開発者ツールと API ](https://www.adobe.io/apis/experienceplatform.html)、および[すべてのアドビ製品用 API](https://www.adobe.io/apis.html) が含まれます。[!DNL Adobe] [!DNL APIs] を設定して使用する場合は、次の方法をお勧めします。
+* [JWT（サービスアカウント）認証](#jwt) using [Adobe開発者](https://www.adobe.io/). [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには以下が含まれます。 [すべてのAdobe製品の API](https://www.adobe.io/apis.html). [!DNL Adobe] [!DNL APIs] を設定して使用する場合は、次の方法をお勧めします。
 * [OAuth 認証（非推奨）](#oauth)：この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
 
 >[!IMPORTANT]
 >
 >認証方法に応じて、リクエスト [!DNL URLs] を調整する必要があります。使用すべきホスト名について詳しくは、[環境](#environments)の節を参照してください。
 
-## [!DNL JWT]（[!DNL Service Account]）Adobe I/O による認証  {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) 認証Adobe開発者を使用 {#jwt}
 
-### Adobe I/O の概要 {#adobeio}
+### Adobe開発者の概要 {#adobeio}
 
-[!DNL Adobe I/O] は、アドビの開発者エコシステムおよびコミュニティです。これには、[Adobe I/O 開発者ツールと API ](https://www.adobe.io/apis/experienceplatform.html)、および[すべてのアドビ製品用 API](https://www.adobe.io/apis.html) が含まれます。
+[!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには以下が含まれます。 [すべてのAdobe製品の API](https://www.adobe.io/apis.html).
 
 [!DNL Adobe] [!DNL APIs] を設定して使用する場合は、次の方法をお勧めします。
 
 ### 前提条件 {#prerequisites}
 
-[!DNL JWT] 認証を設定する前に、[Adobe I/O](https://www.adobe.io/) の [Adobe Developer Console](https://console.adobe.io/)にアクセスできることを確認します。アクセスリクエストについては、組織の管理者にお問い合わせください。
+設定する前に [!DNL JWT] 認証を行う場合は、 [Adobe開発者コンソール](https://console.adobe.io/) in [Adobe開発者](https://www.adobe.io/). アクセスリクエストについては、組織の管理者にお問い合わせください。
 
 ### 認証 {#auth}
 
-次の手順に従って、[!DNL Adobe I/O] を使用して [!DNL JWT (Service Account)] 認証を設定します。
+次の手順に従って、[!DNL Adobe Developer] を使用して [!DNL JWT (Service Account)] 認証を設定します。
 
 1. [Adobe Developer Console](https://console.adobe.io/) にログインします。
 1. [サービスアカウント接続](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)の手順に従います。
@@ -189,7 +189,7 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 使用可能な [!DNL API] メソッドに対する呼び出しをおこなうには：
 
 * `HTTP` ヘッダーで `Authorization: Bearer <token>` を設定します。
-* [JWT（サービスアカウント）認証](#jwt)を使用する場合、`x-api-key` ヘッダー（`client_id` と同じ）を提供する必要があります。`client_id` は、[Adobe I/O 統合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)ページから取得できます。
+* [JWT（サービスアカウント）認証](#jwt)を使用する場合、`x-api-key` ヘッダー（`client_id` と同じ）を提供する必要があります。次の情報を取得： `client_id` から [Adobe開発者の統合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) ページ。
 * 必要な [!DNL API] メソッドを呼び出します。
 
 ## オプションの [!DNL API] クエリパラメーター {#optional-api-query-parameters}

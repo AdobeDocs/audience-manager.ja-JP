@@ -1,16 +1,16 @@
 ---
 description: 消費者のプライバシーおよびオプトアウト手順に関連する一般に認められたベストプラクティスに対する Audience Manager の統合と準拠について説明します。
-seo-description: 消費者のプライバシーおよびオプトアウト手順に関連する一般に認められたベストプラクティスに対する Audience Manager の統合と準拠について説明します。
-seo-title: データプライバシー概要
+seo-description: Describes Audience Manager integration and compliance with generally accepted best practices related to consumer privacy and opt-out procedures.
+seo-title: Data Privacy Overview
 solution: Audience Manager
 title: データプライバシーの概要
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: データガバナンスとプライバシー
+feature: Data Governance & Privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 91%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 100%
 
 ## 規制コンプライアンス {#compliance}
 
-[!DNL Audience Manager] は、[Adobe Experience Platform プライバシーサービス](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
+[!DNL Audience Manager] は、[Adobe Experience Platform プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
 
-このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
+このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
 
-データアクセスおよび削除の要求は[プライバシーサービス](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)で処理されますが、現在、[オプトアウト要求](data-privacy-requests.md#opt-out-requests)は [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) を通じてサポートされています。詳しくは、[データプライバシーリクエスト](data-privacy-requests.md)を参照してください。
+データアクセスおよび削除の要求はPrivacy Service [オプトアウトリクエスト](data-privacy-requests.md#opt-out-requests) は現在、 [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). 詳しくは、[データプライバシーリクエスト](data-privacy-requests.md)を参照してください。
 
 ## 関連する概念 {#related-concepts}
 
@@ -60,4 +60,4 @@ ht-degree: 100%
 * [宛先の GDPR に関する考慮事項](aam-gdpr-partners.md)
 * [Audience Manager をご利用のお客様向けの GDPR 対応ガイダンス](aam-gdpr-readiness.md)
 * [データガバナンス](data-governance.md)
-* [プライバシーとデータ保持に関するよくある質問](../../faq/faq-privacy.md)
+* [プライバシーとデータ保持に関するよくある質問 ](../../faq/faq-privacy.md)
