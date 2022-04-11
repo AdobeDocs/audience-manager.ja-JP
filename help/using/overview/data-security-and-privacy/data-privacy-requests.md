@@ -8,10 +8,10 @@ title: データプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 6b43885deddb0cdaeb3698051ea110f0a4eed44e
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 91%
+source-wordcount: '1431'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 [!DNL Audience Manager] から消費者データにアクセスして削除する個々のリクエストを送信するには、次の 2 つの方法があります。
 
 * [プライバシーサービスの UI](https://privacyui.cloud.adobe.io/) を使用する。[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)のドキュメントを参照してください。
-* **[!DNL Privacy Service API]**&#x200B;を使用する。[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)のドキュメントおよび[こちらの](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml) [!DNL API] リファレンスを参照してください。
+* **[!DNL Privacy Service API]**&#x200B;を使用する。[こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)のドキュメントおよび[こちらの](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) [!DNL API] リファレンスを参照してください。
 
 個々のデータのプライバシーリクエストを送信する場合、 **[Audience Manager 識別子](data-privacy-ids.md)** の節で説明されているように、[!DNL Audience Manager] 識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
 
