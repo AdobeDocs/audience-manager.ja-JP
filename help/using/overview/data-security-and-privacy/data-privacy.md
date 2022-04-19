@@ -8,9 +8,9 @@ uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: Data Governance & Privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
 source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 91%
 
 [!DNL CCPA] は、カリフォルニア在住者に対して、自分の個人データにアクセスし削除する権利や、自分の個人データが販売または開示されたか（そして誰に対して）を知る権利など、新しいデータプライバシー権を提供します。[!DNL CCPA] に準拠するため、[!DNL Audience Manager] は[!DNL CCPA] のアクセスおよび削除の[要求](data-privacy-requests.md)をサポートします。
 
-詳しくは、アドビ[プライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)を参照してください。
+詳しくは、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)を参照してください。
 
-## 規制コンプライアンス {#compliance}
+## 規制への準拠 {#compliance}
 
-[!DNL Audience Manager] は、[Adobe Experience Platform プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
+[!DNL Audience Manager] は、[Adobe Experience Platform プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
 
-このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
+このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
 
-データアクセスおよび削除の要求はPrivacy Service [オプトアウトリクエスト](data-privacy-requests.md#opt-out-requests) は現在、 [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). 詳しくは、[データプライバシーリクエスト](data-privacy-requests.md)を参照してください。
+データアクセス要求および削除要求は Privacy Service で処理されますが、現在、 [オプトアウト要求](data-privacy-requests.md#opt-out-requests) は [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) を通じてサポートされています。詳しくは、[データプライバシー要求](data-privacy-requests.md)を参照してください。
 
 ## 関連する概念 {#related-concepts}
 
