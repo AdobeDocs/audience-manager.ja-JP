@@ -11,7 +11,7 @@ exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
 source-git-commit: 6b43885deddb0cdaeb3698051ea110f0a4eed44e
 workflow-type: tm+mt
 source-wordcount: '1431'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 90%
 [!DNL Audience Manager] から消費者データにアクセスして削除する個々のリクエストを送信するには、次の 2 つの方法があります。
 
 * [プライバシーサービスの UI](https://privacyui.cloud.adobe.io/) を使用する。[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)のドキュメントを参照してください。
-* **[!DNL Privacy Service API]**&#x200B;を使用する。[こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)のドキュメントおよび[こちらの](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) [!DNL API] リファレンスを参照してください。
+* **[!DNL Privacy Service API]** を使用する。[こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)のドキュメントおよび[こちらの](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) [!DNL API] リファレンスを参照してください。
 
 個々のデータのプライバシーリクエストを送信する場合、 **[Audience Manager 識別子](data-privacy-ids.md)** の節で説明されているように、[!DNL Audience Manager] 識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
 
-[プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)は、データアクセスおよびデータ削除の 2 種類のリクエストをサポートします。
+[プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)は、データアクセスおよびデータ削除の 2 種類のリクエストをサポートします。
 
 ## データアクセスリクエスト {#access-data}
 
-個々のデータアクセスリクエストは、 [Privacy ServiceUI](https://privacyui.cloud.adobe.io) （ドキュメント） [ここ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) または、Privacy ServiceAPI （ドキュメント）を呼び出して [ここ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) および [!DNL API] 参照 [ここ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+個々のデータアクセス要求を送信するには、 [Privacy Service UI](https://privacyui.cloud.adobe.io) （ドキュメントは [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ja)）を使用するか、Privacy Service API（ドキュメントは [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)、 [!DNL API] リファレンスは [こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)）を呼び出します。
 
 [プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
@@ -46,7 +46,7 @@ ht-degree: 90%
 
 ## データ削除リクエスト {#delete-data}
 
-データ削除リクエストは、 [Privacy ServiceUI](https://privacyui.cloud.adobe.io) （ドキュメント） [ここ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) または、Privacy ServiceAPI （ドキュメント）を呼び出して [ここ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) および [!DNL API] 参照 [ここ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+データ削除要求を送信するには、 [Privacy Service UI](https://privacyui.cloud.adobe.io) （ドキュメントは [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en)）を使用するか、Privacy Service API（ドキュメントは [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)、 [!DNL API] リファレンスは [こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)）を呼び出します。
 
 [プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
@@ -65,7 +65,7 @@ ht-degree: 90%
 
 このような場合、お客様はアクティベーションパートナーに対して、[!DNL Audience Manager] から自動で削除要求を送信することはできません。
 
-以下を参照してください。 [device-based destinations リストドキュメント](assets/AAM-Partners-October2019.xlsx) どれを見るか [!DNL Audience Manager] アクティベーションパートナーは、セグメント解除をサポートします。
+どの [!DNL Audience Manager] アクティベーションパートナーがセグメント解除をサポートしているかについては、[デバイスベースの宛先のリストに関するドキュメント](assets/AAM-Partners-October2019.xlsx)を参照してください。
 
 ## オプトアウト要求 {#opt-out-requests}
 
