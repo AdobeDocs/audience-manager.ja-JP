@@ -8,9 +8,9 @@ uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
 source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 
 GDPR は 2018 年 5 月 25 日（PT）に施行された法律で、その第一の目的は、EU 内の個人（データ主体）が個人データをコントロールする権利を取り戻すこと、および EU 域内の規則を統合することで、国際的なビジネスのための規制環境を簡潔にすることです。GDPR への対応の一環として Adobe Audience Manager では、消費者であるデータ主体からのアクセス要求や削除要求をサポートするために、必要なサービスおよびプロセスの機能拡張をおこないました。
 
-また、 [プライバシー規制の概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) を参照してください。
+また、[プライバシー規制の概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja)で GDPR についても一読し、Experience Cloud での GDPR の仕組みへの理解を深めてください。
 
 ## GDPR の用語集 {#gdpr-glossay}
 
@@ -58,7 +58,7 @@ GDPR に関連して使用されるキーワードを確認しましょう。よ
 
  
 
-**Audience Manager 識別子（ID）：** Adobe Audience Manager は様々な種類の ID を保存します。[Audience Manager 識別子](data-privacy-ids.md)ページには、これらの ID の概要、対応するデータソースおよび簡単な説明が記載されています。[Adobe Experience Platform プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)にリクエストを送信する場合は、これらの ID を参照して、データ主体の削除やアクセスのリクエストを行います。
+**Audience Manager 識別子（ID）：** Adobe Audience Manager は様々な種類の ID を保存します。[Audience Manager 識別子](data-privacy-ids.md)ページには、これらの ID の概要、対応するデータソースおよび簡単な説明が記載されています。[Adobe Experience Platform プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)にリクエストを送信する場合は、これらの ID を参照して、データ主体の削除やアクセスのリクエストを行います。
 
  
 
