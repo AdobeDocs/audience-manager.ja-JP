@@ -106,8 +106,8 @@ ht-degree: 100%
 
 エンドユーザーは、アドビの業界標準パートナーの Web サイトを訪問してグローバルデータ収集からオプトアウトすることもできます。
 
-* [Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#! /)
-* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#! /)。
+* [Digital Advertising Alliance (DAA)](https://optout.aboutads.info/?c=2#!/)
+* [Network Advertising Initiative (NAI)](https://optout.networkadvertising.org/?c=1#!/)。
 
 上記のオプトアウトリクエストをおこなうと、次の処理がおこなわれます。
 
