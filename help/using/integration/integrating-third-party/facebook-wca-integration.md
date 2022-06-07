@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Facebook WCA の統合
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 8780083474d68717fe3bd4dc632d96da89929122
+workflow-type: tm+mt
+source-wordcount: '815'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-[Facebook Web サイトカスタムオーディエンス（WCA）](https://www.facebook.com/business/help/449542958510885)を使用すると、特定のページを訪問したユーザーや、Web サイトで特定のアクションを実行したユーザーのリストを作成できます。[!DNL Audience Manager] では、[!DNL URL] の宛先を使用して[!DNL WCA] でのアクティベートを有効にすることができます。これにより、ターゲティングをおこなうため、Web ベースのオーディエンスを [!DNL Facebook] に送信して、カスタムのピクセルベース統合を設定することができます。
+[Facebook Web サイトカスタムオーディエンス（WCA）](https://www.facebook.com/business/help/610516375684216?id=2469097953376494)を使用すると、特定のページを訪問したユーザーや、Web サイトで特定のアクションを実行したユーザーのリストを作成できます。[!DNL Audience Manager] では、[!DNL URL] の宛先を使用して[!DNL WCA] でのアクティベートを有効にすることができます。これにより、ターゲティングをおこなうため、Web ベースのオーディエンスを [!DNL Facebook] に送信して、カスタムのピクセルベース統合を設定することができます。
 
 ![Facebook WCA の統合](/help/using/integration/assets/facebook-wca-integration.png)
 
