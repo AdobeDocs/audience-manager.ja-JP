@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 9947adbd99e12efdf2d94c6840929ad9266c58a2
 workflow-type: ht
 source-wordcount: '1112'
 ht-degree: 100%
@@ -46,7 +46,7 @@ ht-degree: 100%
 | [!DNL Amazon Advertising] | 2017/06/15 | 1 回/日 | ○ | × | × | × |
 | [!DNL AOL AdLearn] | 2017/03/02 | リアルタイム | × | × | × | ○ |
 | [!DNL AOL ONE] | 2017/03/02 | リアルタイム | ○ | × | × | ○ |
-| [!DNL AppNexus] | 2017/03/02 | リアルタイム | ○ | × | ○ | × |
+| [!DNL AppNexus] | 2017/03/02 | リアルタイム | ○ | × | ○ | ○ |
 | [!DNL AppNexus Yieldex] | 2017/08/10 | 1 回/日 | ○ | × | × | × |
 | [!DNL Artsai] (formerly [!DNL Adxcel]) | 27/01/2020 | 1 回/日 | × | × | × | ○ |
 | [!DNL Atedra]／[!DNL AdStanding] | 2017/03/02 | リアルタイム | ○ | × | ○ | × |
