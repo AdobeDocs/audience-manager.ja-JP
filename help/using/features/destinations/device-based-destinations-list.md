@@ -8,7 +8,7 @@ title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 source-git-commit: 9947adbd99e12efdf2d94c6840929ad9266c58a2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
 
