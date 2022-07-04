@@ -8,9 +8,9 @@ uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
 source-git-commit: d76505fda1ba448a1aaa3a756ef3bcf193a2718a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ ht-degree: 98%
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>：セグメント ID </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>：<code> 5 </code> を静的なハードコーディングされた値として返します。これはデータをセグメントデータとして識別する値です。 </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>：廃止されました。使用しないでください。 </li>
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>:最後にセグメントメンバーシップのステータスが更新されたことを示す Unix タイムスタンプ。 </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>：セグメントメンバーシップのステータスが最後に更新されたことを示す Unix タイムスタンプ。 </li>
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD28"> <code> lastRealizationTime </code>：セグメントが最後に認識された時点を示す Unix タイムスタンプ。 </li>
     </ul> <p>この変数は、マクロの後に配置して波括弧で囲みます。例えば、<code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> のように、このコードは結果をパイプ（ | ）で区切ります。 </p> </td> 
   </tr> 
