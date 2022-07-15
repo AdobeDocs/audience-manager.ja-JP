@@ -1,7 +1,7 @@
 ---
 description: イベント呼び出しでは、URL 文字列で DCS に情報を送信します。典型的な Audience Manager デプロイメントでは、お客様はアドビの JavaScript データ収集コード（DIL）を使用して DCS にデータを送信します。ただし、お客様が自社のページにアドビの JavaScript コードを組み込むことができない場合があります。企業ポリシーやその他の技術的問題により、アドビの JavaScript コードをページに組み込むことができない場合でも、これらのイベント呼び出し API を使用することで Audience Manager から DCS にデータを送信し、DCS から Audience Manager にデータを返すことができます。
-seo-description: イベント呼び出しでは、URL 文字列で DCS に情報を送信します。典型的な Audience Manager デプロイメントでは、お客様はアドビの JavaScript データ収集コード（DIL）を使用して DCS にデータを送信します。ただし、お客様が自社のページにアドビの JavaScript コードを組み込むことができない場合があります。企業ポリシーやその他の技術的問題により、アドビの JavaScript コードをページに組み込むことができない場合でも、これらのイベント呼び出し API を使用することで Audience Manager から DCS にデータを送信し、DCS から Audience Manager にデータを返すことができます。
-seo-title: DCS イベント呼び出し API
+seo-description: Event calls send information to the DCS in a URL string. In a typical Audience Manager deployment, customers use our JavaScript data collection code (DIL) to send data to the DCS. However, sometimes customers cannot put our JavaScript code on their pages. If company policies or other technical issues prevent you from placing our JavaScript code on your pages, you can still work with Audience Manager to send and return data from DCS with these event call APIs.
+seo-title: DCS Event Call APIs
 solution: Audience Manager
 title: DCS イベント呼び出し API
 uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
@@ -9,7 +9,7 @@ feature: DCS
 exl-id: 7eb0ce70-5871-441a-920a-97a711482dde
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '227'
 ht-degree: 100%
 
 ---
@@ -34,5 +34,5 @@ ht-degree: 100%
 
 >[!MORELIKETHIS]
 >
->* [DCS API リファレンス ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [DCS API リファレンス](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
