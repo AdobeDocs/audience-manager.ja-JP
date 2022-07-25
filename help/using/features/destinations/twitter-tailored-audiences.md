@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Twitter カスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
-workflow-type: ht
-source-wordcount: '531'
-ht-degree: 100%
+source-git-commit: 72be9e032ec3c92cf09a5286baa872b884feaaa0
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 74%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 ## 前提条件 {#prerequisites}
 
-[!DNL Twitter Custom Audiences] の宛先を設定する前に満たす必要がある、以下の Twitter の前提条件を確認してください。
+を設定する前に、 [!DNL Twitter Custom Audiences] 宛先に設定する場合は、次の前提条件を満たしていることを確認します。
 
-1. [!DNL Twitter Ads] アカウントは広告を利用する資格を持っている必要があります。新規 [!DNL Twitter Ads] アカウントは、最初に作成してから 2 習慣の間は、広告を利用する資格がありません。
-2. Audience Manager でアクセスを承認した [!DNL Twitter] ユーザーアカウントで、[パートナーの Audience Manager](https://business.twitter.com/ja/help/troubleshooting/multi-user-login-faq.html#accesslevels) 権限が有効になっている必要があります。
-3. Audience Manager インスタンスで最初の [!DNL Twitter Custom Audiences] の宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、お使いのアカウントの [!DNL Twitter] ID 同期（データソース ID = 1123）を有効にしてください。これは、Audience Manager と [!DNL Twitter] の間で正しい同期を行うために必要です。
+* [!DNL Twitter Ads] アカウントは広告を利用する資格を持っている必要があります。新規 [!DNL Twitter Ads] アカウントは、最初に作成してから 2 習慣の間は、広告を利用する資格がありません。
+* Audience Manager でアクセスを承認した [!DNL Twitter] ユーザーアカウントで、[パートナーの Audience Manager](https://business.twitter.com/ja/help/troubleshooting/multi-user-login-faq.html#accesslevels) 権限が有効になっている必要があります。
+* Audience Manager インスタンスで最初の [!DNL Twitter Custom Audiences] の宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、お使いのアカウントの [!DNL Twitter] ID 同期（データソース ID = 1123）を有効にしてください。これは、Audience Manager と [!DNL Twitter] の間で正しい同期を行うために必要です。
 
 ## 新しい [!DNL Twitter Custom Audiences] の宛先の追加 {#add-new-twitter-destination}
 
@@ -76,3 +76,13 @@ Audience Manager と [!DNL Twitter Custom Audiences] をリンクさせたら、
 ## マッチ率に関する考慮事項 {#match-rates-considerations}
 
 * Audience Manager と [!UICONTROL Twitter Custom Audiences] の統合では、履歴オーディエンスのバックフィルがサポートされます。宛先を作成すると、すべてのセグメント認定が [!UICONTROL Twitter] に送信されます。
+
+## トラブルシューティング {#troubleshooting}
+
+データを設定するかTwitter Custom Audiences の宛先に送信する際に、以下に示すエラーが発生する場合があります。 この節では、エラーの原因とその修正方法について説明します。
+
+| エラーメッセージ | 発生/理由 | 解像度 |
+|---|---|---|
+| `Internal server error` | このエラーメッセージは、新しい [!DNL Twitter] twitter API の古いバージョンを使用しているアカウント。 | アドビカスタマーケアに連絡. |
+| `Twitter Error: This request is not properly authenticated` | このエラーメッセージは、サポートされていないセグメント名を持つセグメントを宛先にマッピングしようとすると、Audience ManagerUI に表示されます。 | マッピングされたセグメント名を確認し、サポートされていない文字が含まれていないことを確認します。 詳しくは、 [セグメントマッピングに関する考慮事項](#segment-mapping-considerations) を参照してください。 |
+| `Twitter Error: Account XXXXXXXXX was not found` | このエラーメッセージは、宛先に対して設定された資格情報が、対応するTwitter Ads アカウントへのアクセスを許可されていない場合に、Audience ManagerUI に表示されます。 | <ul><li>使用しているアカウント資格情報が [前提条件](#prerequisites).</li><li>同じ資格情報を使用してTwitter Ads UI に移動し、対応する `XXXXXXXXX` アカウント </li></ul> |
