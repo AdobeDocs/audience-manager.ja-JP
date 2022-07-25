@@ -1,15 +1,15 @@
 ---
 description: キー値ペアに基づいて 1 つまたは複数のシグナルを検索します。
-seo-description: キー値ペアに基づいて 1 つまたは複数のシグナルを検索します。
-seo-title: キー値ペアによるシグナルの検索
+seo-description: Search for one or multiple signals, based on their respective key-value pairs.
+seo-title: Search Signals by Key-Value Pairs
 title: キー値ペアによるシグナルの検索
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
-feature: 'データエクスプローラ '
+feature: Data Explorer
 exl-id: d598da6b-8dc0-47ce-8389-1973b1803711
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 6f8f82062403831e5b99525c4f3c3512c67d71bf
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 75%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 100%
 
 Audience Manager で使用され、`d_` プリフィックスと `h_` プリフィックスが付いたキー変数は、[!UICONTROL Signals Search] で表示されません。詳しくは、[キー変数のプレフィックスに関する要件](../../traits/trait-variable-prefixes.md)を参照してください。
 
-## 大文字と小文字の無区別および検索条件の自動入力候補 {#case-insensitivity}
+## 大文字と小文字の区別と検索の自動入力候補 {#case-insensitivity}
 
-キーおよび値の検索フィールドでは、大文字と小文字は区別されません。また、キーの検索フィールドでは自動入力候補が表示されます。
+キーおよび値の検索フィールドでは、大文字と小文字が区別されます。 また、キーの検索フィールドでは自動入力候補が表示されます。
 
 ![](assets/signal-search-suggestions.png)
 
@@ -52,7 +52,8 @@ Audience Manager で使用され、`d_` プリフィックスと `h_` プリフ�
 * `PRODUCT == phone`
 * `product == PHONE`
 
-キー検索フィールドに `product` と入力すると、自動入力候補として `productCategory`、`newProduct`、`PRODUCT` および `product` が表示されます。
+次を入力すると、 `product` 「キー検索」フィールドに、自動入力候補が表示されます。 `productCategory` および `product`.
 
-同様に、`product == phone` を検索すると、[!UICONTROL Data Explorer] では `PRODUCT == phone` と `product == PHONE` の両方の結果が返されます。
-バックフィルをおこなった特性適合でも、大文字と小文字は区別されません。キー値ペアが `PRODUCT == SMARTPHONE` のシグナルを含む特性は、キー値ペアが `product == smartphone` のシグナルとしても認定されます。
+同様に、 `product == PHONE`, [!UICONTROL Data Explorer] は、次の場合にのみ結果を返します： `product == PHONE`.
+
+バックフィルした特性適合では、大文字と小文字が区別されます。 キー値ペアがのシグナルを含む特性 `PRODUCT == SMARTPHONE` はシグナルをキー値ペアで修飾しません `product == smartphone`.
