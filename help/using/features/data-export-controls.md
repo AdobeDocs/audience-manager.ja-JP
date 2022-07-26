@@ -1,16 +1,16 @@
 ---
 description: 宛先へのデータ送信がデータプライバシーやデータ使用契約に違反する場合、データ書き出しコントロールはデータ送信を防止します。
-seo-description: 宛先へのデータ送信がデータプライバシーやデータ使用契約に違反する場合、データ書き出しコントロールはデータ送信を防止します。
-seo-title: データ書き出しコントロール
+seo-description: Data Export Controls prevent you from sending data to destinations when this action violates data privacy or data use agreements.
+seo-title: Data Export Controls
 solution: Audience Manager
 title: データ書き出しコントロール
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
-feature: データ書き出しコントロール
+feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 * セグメントがマッピングされている 1 つ以上の宛先で、データ書き出しラベルと互換性がないデータ書き出しコントロールを使用するデータソースに特性が属している場合、特性をセグメントに追加します。
 例えば、あるセグメントが、書き出しラベル「**[!DNL This destination may enable a combination with personally identifiable information (PII)]**」を使用して宛先にマッピングされるとします。特性が属するデータソースが「**[!DNL Cannot be tied to personally identifiable information (PII)]**」というラベルの付いたデータ書き出しコントロールを使用している場合、書き出しコントロールは、そのセグメントに特性を追加するのを中止します。
-* 次のいずれかに対して、データ書き出しコントロールでブロックされているデータ書き出しラベルが付いた宛先にデータを送信する場合：
+* 次のいずれかに対して、データ書き出しコントロールでブロックされているデータ書き出しラベルが設定された宛先にデータを送信する。
    * 含まれる特性のデータソース。
    * 含まれるセグメントで使用される特性のデータソース。
    * 含まれるセグメントで使用されるプロファイル結合ルール。
