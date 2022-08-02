@@ -1,16 +1,16 @@
 ---
 description: アドレス可能なオーディエンスの機能およびユースケースの概要です。
 keywords: DIL
-seo-description: アドレス可能なオーディエンスの機能およびユースケースの概要です。
-seo-title: アドレス可能なオーディエンス
+seo-description: An overview of the Addressable Audience feature and use cases.
+seo-title: Addressable Audiences
 solution: Audience Manager
 title: アドレス可能なオーディエンス
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
-feature: マッチ率
+feature: Match Rates
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: cecdc0b0f43a146e11f7d23eb21a06146496ac2d
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1813'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 |---|---|
 | [!UICONTROL Destination] の [!UICONTROL Audience Manager Addressable Audience] | プラットフォームレベルにおいて、レポートのルックバック期間に [!DNL Audience Manager] のお客様とのやり取りがあり、選択した[!UICONTROL destination]と一致するデバイスの総数。<br><br>この指標は次の情報が得られるため便利です。 <ul><li>[!DNL Audience Manager] がターゲットとする特定の[!UICONTROL destination]に到達できる[!UICONTROL addressable audience]の合計サイズ。</li><li>ターゲットプラットフォームについての [!DNL Audience Manager] のプロファイルプールの規模、およびそのオーディエンスのサイズ。</li></ul> |
 | [!UICONTROL Customer Total Audience] | ルックバック期間に、御社のシステムにおける[!UICONTROL rule-based trait]、またはオフラインファイルからの[!UICONTROL onboarded trait]に適合したデバイスの数。 |
-| [!UICONTROL Addressable Audience Match Rate] | ルックバック期間に[!UICONTROL rule-based trait]または[!UICONTROL onboarded trait]に適合したデバイスと、同期のタイミングを問わず、選択した[!UICONTROL destination]との ID 同期がおこなわれたデバイスの間の重複数。<br><br>この指標は次のようなデバイスを表しています。<ul><li>ルックバック期間中に、[!UICONTROL rule-based]または[!UICONTROL onboarded trait]が適合されている`AND`</li><li>同期の時間に関係なく、選択した[!UICONTROL destination]と ID が同期している。</li> |
+| [!UICONTROL Customer Addressable Audience] | ルックバック期間に[!UICONTROL rule-based trait]または[!UICONTROL onboarded trait]に適合したデバイスと、同期のタイミングを問わず、選択した[!UICONTROL destination]との ID 同期がおこなわれたデバイスの間の重複数。<br><br>この指標は次のようなデバイスを表しています。<ul><li>ルックバック期間中に、[!UICONTROL rule-based]または[!UICONTROL onboarded trait]が適合されている`AND`</li><li>同期の時間に関係なく、選択した[!UICONTROL destination]と ID が同期している。</li> |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] は、割合で表されます。 |
 | [!UICONTROL Total Segment Population] | レポートのルックバック期間内に[!UICONTROL segment]に属していたすべてのデバイスの数。 |
 | [!UICONTROL Segment Addressable Audience] | レポートのルックバック期間中に[!UICONTROL segment]に属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。[!UICONTROL Segments]には、[Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) で取得した[!UICONTROL traits]経由で、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含めることができます。<br><br>ヒント：ルックバック期間を 1 日にした場合、この指標は[!UICONTROL segments]の現在の状態を把握するのに役立ちます。これは、[!UICONTROL Segment Addressable Audience]の指標が、前日の 1 日を通して[!UICONTROL segment]に適合したユーザー数を示すためです。このことと、[!DNL Audience Manager] では[!UICONTROL Addressable Audiences]が毎日更新されることを踏まえて、この指標とルックバック期間を組み合わせれば、[!UICONTROL segments]に関する最新のスナップショットを得ることができます。 |
