@@ -7,9 +7,9 @@ title: データ書き出しコントロール
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
+source-git-commit: 26aa0a210a045b40b2329844324315a092947188
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '876'
 ht-degree: 97%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 97%
   <tr> 
    <td colname="col1"> <b><span class="uicontrol">オフサイト広告ターゲティングに使用することはできません</span></b> </td> 
    <td colname="col2"> <b><span class="uicontrol">この宛先はオフサイト広告ターゲティングに使用できます</span></b> </td> 
-   <td colname="col3">これらの制限が一般的に使用され、選択すると、以下のことができなくなります。 
+   <td colname="col3">選択すると、以下のことができなくなります。 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">他のサイトのユーザーを再ターゲット化する宛先にマッピングされたセグメントへの特性の追加。 </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">データソースの特性を使用して構築したセグメントを、他のサイトのユーザーをリターゲティングする宛先にマッピングする。 </li> 
