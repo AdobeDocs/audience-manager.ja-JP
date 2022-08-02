@@ -1,17 +1,17 @@
 ---
 description: フォルダー特性を作成、編集および削除します。
 keywords: フォルダー特性;フォルダー特性;フォルダー特性;フォルダー特性
-seo-description: フォルダー特性を作成、編集および削除します。
-seo-title: フォルダー特性の管理
+seo-description: Create, edit, and delete folder traits.
+seo-title: Manage Folder Traits
 solution: Audience Manager
 title: フォルダー特性の管理
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
-feature: 特性
+feature: Traits
 exl-id: fa7a8d2a-dacc-413e-89d6-d3b7ce7bbbe3
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: f7a4478589f4af1d467f1045a97dbb7f5cd6f9e5
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '361'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    ![](assets/folder_traits_create.PNG)
 
-1. 「+」アイコンをクリックして、フォルダーを作成します。分類には、最大 2.000 個のフォルダーを作成できます。詳細については、[使用制限](../../features/administration/usage-limits.md) のドキュメントを参照してください。
+1. 「+」アイコンをクリックして、フォルダーを作成します。分類には、最大 2,000 個のフォルダーを作成できます。 詳細については、[使用制限](../../features/administration/usage-limits.md) のドキュメントを参照してください。
 1. フォルダーの名前を指定して「**Save**」をクリックします。例えば、Electronics という名前のフォルダーが「Electronics Folder Trait」というフォルダー特性を持ちます。特性ダッシュボードで新規のフォルダー特性を表示したり選択したりすることができます。
 1. 新規のフォルダー特性は、[!DNL Audience Manager] で生成されたデータソースに自動的に割り当てられます。適切な[!UICONTROL Role-Based Access Control]（[!DNL RBAC]）権限を持つユーザーは、フォルダー特性編集ワークフローでデータソースを変更できます。[フォルダー特性の編集](../../features/traits/manage-folder-traits.md#edit-folder-trait)を参照してください。
 
