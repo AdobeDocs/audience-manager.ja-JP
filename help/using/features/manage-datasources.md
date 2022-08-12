@@ -1,17 +1,17 @@
 ---
 description: 新規データソースを作成するには、Audience Data／Data Sources／Add New の順に選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
 keywords: データソース; データソースの管理; Audience Manager データソース
-seo-description: 新規データソースを作成するには、Audience Data／Data Sources／Add New の順に選択し、ここで説明している各セクションの手順を完了します。データソースを作成するには、管理者権限が必要です。
-seo-title: データソースの作成
+seo-description: To create a new data source, go to Audience Data > Data Sources > Add New and complete the steps for each section described here. Administrator permissions are required to create a data source.
+seo-title: Create a Data Source
 solution: Audience Manager
 title: データソースの管理
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
-feature: データソース
+feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+source-git-commit: 6ec76227dd8c7581550c3d95e24fc5b6a4b01093
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 87%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 100%
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
    * **[!UICONTROL Cross-device]**（[!UICONTROL Profile Merge Rule]を作成する場合は必要）。なお、一部のお客様では、これを選択すると **[!UICONTROL ID Definition]** オプションが表示されます。
+
+   >[!NOTE]
+   >
+   >Audience ManagerとExperience Platformのためにプロビジョニングされた各組織について、2 つのアプリ間でセグメント共有を設定していない場合でも、クロスデバイス対応データソースを作成するときに、対応する [id 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) はExperience Platformで作成されます。
 
 1. **[!UICONTROL ID Definition]** オプションを選択します。オプションは次のとおりです。
 
