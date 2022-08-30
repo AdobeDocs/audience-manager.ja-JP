@@ -8,10 +8,10 @@ title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
+source-git-commit: 89137248aa47573f5b65e387a152f651419da827
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 100%
+source-wordcount: '1989'
+ht-degree: 96%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 100%
 
 [!UICONTROL CDF]ファイルのデータ要素および配列を出現順に列挙し定義します。定義にはデータタイプが含まれていますが、この情報は [!UICONTROL CDF] ファイルには含まれていません。
 
+>[!IMPORTANT]
+>
+>CDF 設定では、イベントピクセルはデフォルトで除外されます。 CDF ファイルにイベントピクセルを含めたい場合は、ClientCare へのリクエストでを指定してください。 各イベントピクセルは、CDF ファイル内の一意の行として入力されます。
+
 ## 定義 {#definitions}
 
 [!UICONTROL CDF] ファイルには、以下に定義するフィールドの一部または全部が含まれています。内部ファイル組織について詳しくは、[顧客データフィードファイルの構造](#cdf-file-structure)を参照してください。
@@ -78,7 +82,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>数値 </p> </td> 
-   <td colname="col3"> <p>ID の同期を起動するコンテナの ID。 </p> </td> 
+   <td colname="col3"> <p>ID の同期を起動するコンテナの ID。このフィールドは、 <i>d_nsid</i> フィールドを使用して、サイトの実装内で設定します。 それ以外の場合、デフォルト値の 0 は CDF ファイルに含まれません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
