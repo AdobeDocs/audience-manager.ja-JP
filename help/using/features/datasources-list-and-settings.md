@@ -1,16 +1,16 @@
 ---
 description: 現在設定されているデータソースの一覧表示、新規データソースの追加、既存データソースの編集について説明します。
-seo-description: 現在設定されているデータソースの一覧表示、新規データソースの追加、既存データソースの編集について説明します。
-seo-title: データソースリストと設定
+seo-description: View a list of your currently configured data sources, add new data sources, and edit existing sources.
+seo-title: Data Sources List and Settings
 solution: Audience Manager
 title: データソースリストと設定
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
-feature: データソース
+feature: Data Sources
 exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1116'
-ht-degree: 100%
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+workflow-type: tm+mt
+source-wordcount: '1071'
+ht-degree: 95%
 
 ---
 
@@ -55,13 +55,13 @@ ht-degree: 100%
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol">Cross Device</span></b>：顧客が指定する認証済み ID。このオプションを選択するのは、次のものを作成する場合です。 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">クロスデバイス対応データソースと<span class="wintitle">プロファイル結合ルール</span>の構築 </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B"><a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=ja" format="https" scope="external">Adobe Experience Cloud Device Co-op</a>、または <span class="keyword">Audience Manager</span> と統合されている別のサードパーティデバイスグラフで提供されるリンクを使用するデータソース。 </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">と統合されているサードパーティのデバイスグラフで提供されるリンクを使用するデータソース <span class="keyword"> Audience Manager</span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> ID Definition</span></b> </p> </td> 
-   <td colname="col2"> <p>「<b><span class="uicontrol">ID Definition</span></b>」のオプションは、<span class="keyword">Audience Manager</span> のユーザー ID（UUID）や、<span class="keyword">Adobe Experience Cloud Device Co-op</span>（または <span class="keyword">Audience Manager</span> と統合されている別のサードパーティデバイスグラフ）でリンクされる関連デバイスとデータソースとの関係を定義します。オプションは次のとおりです。 </p> <p> 
+   <td colname="col2"> <p>この <b><span class="uicontrol"> ID Definition</span></b> オプションは、データソースとの関係を定義します <span class="keyword"> Audience Manager</span> ユーザー ID(UUID) と、と統合されているサードパーティのデバイスグラフでリンクされている関連デバイス <span class="keyword"> Audience Manager</span>. オプションは次のとおりです。 </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
       <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol">Person</span></b>： 1 人の個人を定義するのに使用される ID。この ID は複数の <span class="keyword">Audience Manager</span> ID にマッピングできます。 </li> 
       <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol">Household</span></b>：人々のグループを定義するのに使用される ID。この ID は複数の Audience Manager ID にマッピングできます。 </li> 

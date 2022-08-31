@@ -1,15 +1,15 @@
 ---
 description: プロファイル結合ルールを作成するには、この節で説明している手順を確認して完了してください。
-seo-description: プロファイル結合ルールを作成するには、この節で説明している手順を確認して完了してください。
-seo-title: プロファイル結合ルールの導入
+seo-description: To create Profile Merge Rules review and complete the steps in each of the procedures described in this section.
+seo-title: Getting Started with Profile Merge Rules
 solution: Audience Manager
 title: プロファイル結合ルールの導入
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-feature: プロファイル結合
+feature: Profile Merge
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1307'
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+workflow-type: tm+mt
+source-wordcount: '1280'
 ht-degree: 100%
 
 ---
@@ -99,7 +99,6 @@ ht-degree: 100%
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
    * **[!UICONTROL Profile Link Device Graph]**
-   * **[!UICONTROL Device Co-op]**
 4. 「**[!UICONTROL Save]**」をクリックします。
 
 ### クロスデバイス ID をユーザーキーとして使用する Adobe Campaign の宛先に関する考慮事項 {#considerations}

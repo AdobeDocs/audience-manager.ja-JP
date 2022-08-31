@@ -1,26 +1,26 @@
 ---
-description: プロファイルリンク指標は、サイトへの認証をおこなうユーザーやデバイスに関するデータを提供します。プロファイルリンクのデータとグラフは、結合ルールを作成したとき、または Profile Merge Rules ダッシュボードで既存のルールをクリックしたときに、動的に更新されます。これらの指標には、Adobe Experience Cloud Device Co-op や、その他のサードパーティのデバイスグラフソースからのデバイスグラフが含まれます。
-seo-description: プロファイルリンク指標は、サイトへの認証をおこなうユーザーやデバイスに関するデータを提供します。プロファイルリンクのデータとグラフは、結合ルールを作成したとき、または Profile Merge Rules ダッシュボードで既存のルールをクリックしたときに、動的に更新されます。これらの指標には、Adobe Experience Cloud Device Co-op や、その他のサードパーティのデバイスグラフソースからのデバイスグラフが含まれます。
-seo-title: プロファイル結合ルールのレポート指標
+description: Profile Link 指標は、サイトへの認証をおこなうユーザーやデバイスに関するデータを提供します。プロファイルリンクのデータとグラフは、結合ルールを作成したとき、または Profile Merge Rules ダッシュボードで既存のルールをクリックしたときに、動的に更新されます。これらの指標には、他のサードパーティのデバイスグラフソースからのデバイスグラフが含まれる場合があります。
+seo-description: Profile Link metrics provide data about people and devices that authenticate to your site. The data and graphs in Profile Link update dynamically as you create a merge rules or when you click an existing rule from the Profile Merge Rules dashboard. These metrics can include device graph from other third-party device graph sources.
+seo-title: Report Metrics for Profile Merge Rules
 solution: Audience Manager
 title: プロファイル結合ルールのレポート指標
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
-feature: プロファイル結合
+feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+workflow-type: tm+mt
+source-wordcount: '698'
+ht-degree: 82%
 
 ---
 
 # プロファイル結合ルールのレポート指標 {#report-metrics-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rule]指標は、サイトへの認証をおこなうユーザーやデバイスに関するデータを提供します。[!UICONTROL Profile Merge Rule Reports] のデータとグラフは、結合ルールを作成したとき、または [!UICONTROL Profile Merge Rules] ダッシュボードで既存のルールをクリックしたときに、動的に更新されます。これらの指標には、[!DNL Adobe Experience Cloud Device Co-op] や、その他のサードパーティのデバイスグラフソースからのデバイスグラフが含まれます。
+[!UICONTROL Profile Merge Rule]指標は、サイトへの認証をおこなうユーザーやデバイスに関するデータを提供します。[!UICONTROL Profile Merge Rule Reports] のデータとグラフは、結合ルールを作成したとき、または [!UICONTROL Profile Merge Rules] ダッシュボードで既存のルールをクリックしたときに、動的に更新されます。これらの指標には、他のサードパーティのデバイスグラフソースからのデバイスグラフが含まれます。
 
 ## 結合ルールの指標 {#merge-rule-metrics}
 
-結合ルールにより、[!DNL Audience Manager] でアクセス可能な [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=ja) やその他のサードパーティのデバイスグラフからのデータが使用されると、棒グラフが並んで返されます。これにより、認証済みのファーストパーティのデータを、[!UICONTROL Experience Cloud Device Co-op] やその他のサードパーティのデバイスグラフから得られたクロスデバイスデータと比較することができます。[!UICONTROL Device Co-op] から返されるデータについて詳しくは、[デバイスグラフ：内部処理と出力](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html?lang=ja)を参照してください。このデータは毎日更新されます。
+結合ルールにより、でアクセス可能なサードパーティのデバイスグラフからのデータが使用されると、データが横並びの棒グラフで返されます [!DNL Audience Manager]. これにより、認証済みのファーストパーティのデータを、サードパーティのデバイスグラフから得られるクロスデバイスデータと比較できます。 このデータは毎日更新されます。
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
@@ -75,14 +75,6 @@ ht-degree: 100%
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Co-op Device Graph</span> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_64AD1DD89DF64703B70B973A463BA020"> 
-      <li id="li_D7D3A3871F434CBFA71BE8929EB41648">ユーザー総数：180 日 </li> 
-      <li id="li_125D387986B2463EB310203CE5857EDA">デバイス総数：180 日 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p><span class="wintitle"> LiveRamp</span> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_2772F3AD7E1440789B635794ECDE8DFB"> 
@@ -105,19 +97,19 @@ ht-degree: 100%
 
 ### 標準プロファイルリンクレポート
 
-標準の[!UICONTROL Profile Link]レポートは、次の例のようになります。複数（最大 3 つ）のデータソースを使用する結合ルールでは、データソースごとに異なるタブでグラフが表示されます。この結合ルールでは、[!UICONTROL Device Co-op] のデータは対象となりません。
+標準の[!UICONTROL Profile Link]レポートは、次の例のようになります。複数（最大 3 つ）のデータソースを使用する結合ルールでは、データソースごとに異なるタブでグラフが表示されます。この結合ルールでは、[!UICONTROL external device graph] のデータは対象となりません。
 
 ![](assets/profile-link-metrics.png)
 
 ### デバイスグラフデータによるプロファイルリンクレポート
 
-[!UICONTROL Adobe Experience Cloud Device Co-op]またはサードパーティのデバイスグラフからのデータを含む [!UICONTROL Profile Link Device Graph] レポートには、[!UICONTROL Profile Link] とデバイスグラフのデータが横並びの棒グラフで表示されます。これらのグラフを横並びに配置することにより、[!UICONTROL Profile Link] 自体と比較して [!UICONTROL Experience Cloud Device Co-op] にどのようなメリットがあるかがわかります。複数（最大 3 つ）のデータソースを使用する結合ルールでは、データソースごとに異なるタブでグラフが表示されます。[!UICONTROL Authenticated Activity] のグラフと指標では、[!DNL Adobe]のデバイスグラフや、その他の [!DNL Audience Manager] からアクセスできるサードパーティのデバイスグラフからのデータは返されません。
+A [!UICONTROL Profile Link Device Graph] サードパーティのデバイスグラフのデバイスグラフデータを含むレポートに表示される [!UICONTROL Profile Link] とデバイスグラフのデータが横並びの棒グラフで表示されます。 これらのグラフを横並びに配置することで、 [!UICONTROL Profile Link] 単独で 複数（最大 3 つ）のデータソースを使用する結合ルールでは、データソースごとに異なるタブでグラフが表示されます。[!UICONTROL Authenticated Activity] のグラフと指標では、[!DNL Adobe]のデバイスグラフや、その他の [!DNL Audience Manager] からアクセスできるサードパーティのデバイスグラフからのデータは返されません。
 
 ![](assets/profile-link-graph.png)
 
 ## プロファイルリンクのトレンドグラフ {#profile-link-trend}
 
-[!UICONTROL Profile Link]レポートには、他のデータ視覚化手段に加えて、線グラフもあります。この線グラフは、時間の経過に伴うプロファイルルールのトレンドを示しています。トレンドグラフ（およびその他のレポート）は、[!UICONTROL Profile Merge Rules] ランディングページ（**[!UICONTROL Audience Data > Profile Merge Rules]**）からルールをクリックすると利用できます。[!UICONTROL Device Co-op] や、その他の [!DNL Audience Manager] にアクセスできるサードパーティのデバイスグラフのメンバーであれば、デバイスグラフのデータをこれらのグラフの対象にすることができます。トレンドラインをクリックすると、基になるデータが表示されます。
+[!UICONTROL Profile Link]レポートには、他のデータ視覚化手段に加えて、線グラフもあります。この線グラフは、時間の経過に伴うプロファイルルールのトレンドを示しています。トレンドグラフ（およびその他のレポート）は、[!UICONTROL Profile Merge Rules] ランディングページ（**[!UICONTROL Audience Data > Profile Merge Rules]**）からルールをクリックすると利用できます。にアクセスできるサードパーティのデバイスグラフのメンバーの場合、デバイスグラフのデータがこれらのグラフの対象になります [!DNL Audience Manager]. トレンドラインをクリックすると、基になるデータが表示されます。
 
 >[!MORELIKETHIS]
 >

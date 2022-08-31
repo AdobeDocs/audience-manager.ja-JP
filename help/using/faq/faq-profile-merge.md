@@ -1,17 +1,17 @@
 ---
 description: プロファイル結合ルールおよびデバイスグラフに関するよくある質問への回答。
 keywords: 組織 ID
-seo-description: プロファイル結合ルールおよびデバイスグラフに関するよくある質問への回答。
-seo-title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
+seo-description: Answers to common Profile Merge Rule and device graph questions.
+seo-title: Profile Merge Rules and Device Graph FAQ
 solution: Audience Manager
 title: プロファイル結合ルールおよびデバイスグラフに関するよくある質問
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: プロファイル結合
+feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1550'
-ht-degree: 100%
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+workflow-type: tm+mt
+source-wordcount: '1530'
+ht-degree: 96%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 100%
 
 **外部デバイスグラフとは何ですか？**
 
-外部デバイスグラフは、[!DNL Audience Manager] のデバイスグラフのうち、クロスデバイスデータソースのみから作成されたものでないものを指します。例えば、[プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を作成し、[!UICONTROL Co-op Device Graph] またはサードパーティのデバイスグラフオプションを選択した場合、外部デバイスグラフを使用していることになります。[デバイスオプション](../features/profile-merge-rules/merge-rule-definitions.md#device-options)を参照してください。
+外部デバイスグラフは、[!DNL Audience Manager] のデバイスグラフのうち、クロスデバイスデータソースのみから作成されたものでないものを指します。例えば、 [プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md) サードパーティのデバイスグラフオプションを選択すると、外部デバイスグラフを使用して作業していることになります。 [デバイスオプション](../features/profile-merge-rules/merge-rule-definitions.md#device-options)を参照してください。
 
  
 
 **外部デバイスグラフを [!UICONTROL Profile Merge Rule] で使用する一般的な例にはどのようなものがありますか？**
 
-[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体にも様々な用途があります。例えば、DSP が提供する広告により見込み客のオーディエンスをターゲット化したり、サイト上のパーソナライゼーションプラットフォームから顧客のオンサイトエクスペリエンスをパーソナライズ化することが挙げられます。[外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体には、例えば、DSPが提供する広告を使用して見込み客のオーディエンスをターゲット設定したり、オンサイトパーソナライゼーションプラットフォームを使用して顧客のオンサイトエクスペリエンスをパーソナライズしたりする場合があります。 [外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
 
  
 

@@ -1,29 +1,29 @@
 ---
-description: 外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、Adobe Experience Cloud Device Co-op や、Audience Manager と統合されている他の決定論的または確率的サードパーティデバイスグラフプロバイダーなどが含まれます。
-seo-description: 外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、Adobe Experience Cloud Device Co-op や、Audience Manager と統合されている他の決定論的または確率的サードパーティデバイスグラフプロバイダーなどが含まれます。
-seo-title: 外部デバイスグラフのユースケース
+description: 外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、統合Adobeが、決定論的または確率的なサードパーティデバイスグラフプロバイダーと共に含まれていることが含まれます。
+seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
+seo-title: External Device Graph Use Cases
 solution: Audience Manager
 title: 外部デバイスグラフのユースケース
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
-feature: プロファイル結合
+feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 77%
 
 ---
 
 # 外部デバイスグラフのユースケース {#external-device-graph-use-cases}
 
-外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、[!DNL Adobe Experience Cloud Device Co-op] や、Audience Manager と統合されている他の決定論的または確率的サードパーティデバイスグラフプロバイダーなどが含まれます。
+外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、統合Adobeが、決定論的または確率的なサードパーティデバイスグラフプロバイダーと共に含まれていることが含まれます。
 
 ## 推奨事項 {#recommendations}
 
-次のようなキャンペーン向けに、[!DNL Experience Cloud Device Co-op] やサードパーティデバイスグラフオプションを検討します。
+次のようなキャンペーン向けに、サードパーティのデバイスグラフオプションを検討します。
 
 * すべてのデジタル資産で低レベルの認証をおこなっている。認証済みユーザーが多数いる場合は、[!UICONTROL Profile Link Device Graph option] を使用します。
-* 大規模なオーディエンスをターゲットにする。[!DNL Experience Cloud Device Co-op] やサードパーティデバイスグラフには、認証済みデータと未認証データが含まれています。
+* 大規模なオーディエンスをターゲットにする。サードパーティデバイスグラフには、認証済みデータと未認証データが含まれています。
 * 認証済みまたは未認証の訪問者を個人レベルまたは団体レベルでセグメント化する。
 
 ![](assets/merge-rule-triangle1.png)
@@ -96,39 +96,39 @@ These strategies are designed to bring an unauthenticated or unknown user back t
  </tbody>
 </table> -->
 
-## デバイスのターゲティングの拡張 {#audience-expansion}
+<!-- ## Expanded Device Targeting {#audience-expansion}
 
-この使用例では、[!DNL Adobe Co-Op Device Graph] や [!DNL External Device Graphs] などを通じ、デバイスをまたいだ正確なパーソナライゼーションを用いてアドレス可能なオーディエンスのサイズを拡張する方法を示していま す。
+This use case exemplifies how you can expand the size of your addressable audience with accurate cross-device personalization, through [!DNL External Device Graphs].
 
-例えば、ジェーンという人物が、定期的に使用するデバイスとして、パソコン（[!DNL Device 1]）、スマートフォン（[!DNL Device 2]）、タブレット（[!DNL Device 3]）の 3 台を持っており、旅行ツアーの詳細を調べるとします。ジェーンはノート PC を使用して飛行機の便やホテル、ガイドツアーなどを調べました。また、スマートフォンやタブレットを使用している際には、旅行代理店のホームページにのみアクセスしました。
+Let's say Jane owns three devices that she uses regularly to search for holiday package deals: her laptop ([!DNL Device 1]), her smartphone ([!DNL Device 2]), and her tablet ([!DNL Device 3]). While using the laptop, Jane searched for flights, hotels, and guided tours. While using the smartphone and tablet, she only visited the homepage of the travel agency.
 
-これらのプロファイルが [!UICONTROL Adobe Co-op Device Graph] を通じて同じ所有者にリンクされているため、旅行代理店は [!UICONTROL No Cross-Device Profile] ルールと[!UICONTROL Adobe Co-op Device Graph] ルールを使用して、3 つのデバイスプロファイルをすべて結合できます。
+By using the [!UICONTROL No Cross-Device Profile] + [!DNL External Device Graphs] rule, the travel agency can merge all three devices profiles, since they are linked to the same owner through the [!DNL External Device Graphs].
 
 ![audience-expansion-rule](assets/audience-expansion-rule.png)
 
-この例では、セグメントの資格を得るために必要な特性はすべて [!DNL Device 1] で収集されています。Audience Manager は、1 つのセグメントに対し、プロファイルの結合に参加した各デバイスプロファイルを確認するので、ジェーンが持つ 3 つのデバイスプロファイルはすべてセグメント化されるようになります。
+In our example, the traits required to qualify for the segment have all been collected on [!DNL Device 1]. Since Audience Manager qualifies every device profile that took part in the profile merge for a segment, all of Jane's three device profiles are now segmented.
 
-このルールを通じて、デバイスグラフは、セグメントに適合するデバイスプロファイルの数を 1 から 3 に拡張し、旅行代理店はジェーンが所有する 3 台のデバイスすべてに一貫したメッセージを配信できるようになりました。
+Through this rule, the device graph has expanded the number of device profiles which qualify for the segment from one to three and has enabled the travel agency to deliver a consistent message to all three devices owned by Jane.
 
-![audience-expansion](assets/audience-expansion.png)
+![audience-expansion](assets/audience-expansion.png) -->
 
 ## 高度なクロスデバイスターゲティング {#advanced-graph-expansion}
 
-このユースケースは、**[!UICONTROL Last Authenticated Profiles]** ルールと **[!UICONTROL Adobe Co-Op Device Graph]** ルールを使用して、外部デバイスグラフまたは [!DNL Adobe Co-Op Device Graph] からのデバイスを使用して、認証済み訪問者のオーディエンスターゲティングを拡張する方法を示しています。
+このユースケースは、外部デバイスグラフ ( **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** ルール。
 
-![last-device-graph](assets/last-device-coop.png)
+![last-device-graph](assets/last-profile-link.png)
 
 次の例では、Acme Inc.社が、[!DNL iPhone 7] デバイスを使用し、[!DNL Acme Inc.]（[!DNL Data Plan A]）に登録しており、年収 100.000 ドル以上のすべての世帯ターゲットにしたいと考えています。
 
-ジョンは iPhone 7（データプラン A）を使用して、Acme Inc. の Web サイトで認証を受けます。同時に、ジョンの [!DNL Co-Op Device Graph] クラスターには、ジョンが定期的に使用する、ノートパソコン（[!DNL Device 1]）と 2 台目のスマートフォンである [!DNL Device 2]（[!DNL Samsung S7]、[!DNL Data Plan B]）の 2 つの追加デバイスが含まれます。
+ジョンは iPhone 7（データプラン A）を使用して、Acme Inc. の Web サイトで認証を受けます。同時に、ジョンの [!DNL Profile Link Device Graph] クラスターには、ジョンが定期的に使用する、ノートパソコン（[!DNL Device 1]）と 2 台目のスマートフォンである [!DNL Device 2]（[!DNL Samsung S7]、[!DNL Data Plan B]）の 2 つの追加デバイスが含まれます。
 
-**[!UICONTROL Last Authenticated Profiles]**&#x200B;ルールと **[!UICONTROL Adobe Co-Op Device Graph]** ルールを使用することで、最初に該当していたのはセグメントのうち 1 つだけですが、[!DNL Acme Inc.] は、ジョンのデバイスグラフクラスターから 3 つのデバイスすべてにパーソナライズされたメッセージを配信することができます。
+**[!UICONTROL Last Authenticated Profiles]**&#x200B;ルールと **[!UICONTROL Profile Link Device Graph]** ルールを使用することで、最初に該当していたのはセグメントのうち 1 つだけですが、[!DNL Acme Inc.] は、ジョンのデバイスグラフクラスターから 3 つのデバイスすべてにパーソナライズされたメッセージを配信することができます。
 
 ![advanced-graph-expansion](assets/advanced-device-graph-expansion.png)
 
 >[!MORELIKETHIS]
 >
 >* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
-* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
-* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
+>* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
+>* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
 
