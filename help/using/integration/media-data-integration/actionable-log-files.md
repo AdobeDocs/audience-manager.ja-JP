@@ -1,17 +1,17 @@
 ---
 description: アクションにつながるログファイルを使用すると、広告サーバーログファイルからメディアシグナルをキャプチャし、Audience Manager で特性を作成することができます。ピクセルを追加することなく、インプレッション、クリック数およびコンバージョンを特性として広告サーバーから取得できるようになります。
 keywords: 実用的なログ、alf、ALF
-seo-description: アクションにつながるログファイルを使用すると、広告サーバーログファイルからメディアシグナルをキャプチャし、Audience Manager で特性を作成することができます。ピクセルを追加することなく、インプレッション、クリック数およびコンバージョンを特性として広告サーバーから取得できるようになります。
-seo-title: アクションにつながるログファイル
+seo-description: Actionable Log Files allow you to capture media signals from ad server log files to create traits in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append pixels.
+seo-title: Actionable Log Files
 solution: Audience Manager
 title: アクションにつながるログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
-feature: ログファイル
+feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 7c46a246233c3519049197bac824f0ee0db29754
+source-git-commit: 869bbe657072255e5ea3f0e68294f8f0e6cc966a
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 100%
+source-wordcount: '1596'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,15 @@ ht-degree: 100%
 ## アクションにつながるシグナル {#actionable-signals}
 
 シグナルは、[!DNL Audience Manager] の[最小データ単位](../../reference/signal-trait-segment.md)です。[!UICONTROL Actionable Log Files]を使用することで、広告サーバーログのシグナルとして、インプレッションイベント、クリックイベント、およびコンバージョンイベントにおける広告主、ビジネスユニット、クリエイティブ、およびキャンペーン値を取得できます。
+
+>[!IMPORTANT]
+>
+>[!UICONTROL Actionable Log Files] は、次の広告サーバーでサポートされています。
+> 
+> * [Google Campaign Manager](#dcm-logs-signals)
+> * [Google Ad Manager](#ad-manager-logs-signals)
+> * [Adobe Advertising Cloud、Flashtalking および Sizmek](#generic-logs-signals)
+
 
 この情報をオーディエンスの作成およびセグメント化に使用する場合、自分でルールベースの特性を設定する必要があることに注意してください。
 
@@ -199,9 +208,9 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
  <br>
 
-### 汎用広告サーバーログのアクションにつながるシグナル {#generic-logs-signals}
+### Adobe Advertising Cloud、Flashtalking および Sizmek の広告サーバーログからの実用的なシグナル {#generic-logs-signals}
 
-まず、広告サーバーログを Amazon S3 バケットに配置する必要があります。これを達成するには、[Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)を読んだ&#x200B;*うえで*、[!DNL Audience Manager] コンサルタントにお問い合わせください。この表は、汎用ログファイルから取得されるアクションにつながるシグナルの一覧です。
+まず、広告サーバーログを Amazon S3 バケットに配置する必要があります。これを達成するには、[Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)を読んだ&#x200B;*うえで*、[!DNL Audience Manager] コンサルタントにお問い合わせください。この表は、広告サーバーログファイルから取得されるアクションにつながるシグナルの一覧です。
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -336,5 +345,5 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >[!MORELIKETHIS]
 >
 >* [Google キャンペーンマネージャーデータファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+>* [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
