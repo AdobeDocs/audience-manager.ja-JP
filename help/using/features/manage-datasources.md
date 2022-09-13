@@ -9,9 +9,9 @@ uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
 source-git-commit: 6ec76227dd8c7581550c3d95e24fc5b6a4b01093
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 87%
 
    >[!NOTE]
    >
-   >Audience ManagerとExperience Platformのためにプロビジョニングされた各組織について、2 つのアプリ間でセグメント共有を設定していない場合でも、クロスデバイス対応データソースを作成するときに、対応する [id 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) はExperience Platformで作成されます。
+   >Audience Manager と Experience Platform 用にプロビジョニングされた各組織について、2 つのアプリ間でセグメント共有を設定していない場合でも、クロスデバイス対応データソースを作成すると、対応する [ID 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces)が Experience Platform で作成されます。
 
 1. **[!UICONTROL ID Definition]** オプションを選択します。オプションは次のとおりです。
 
