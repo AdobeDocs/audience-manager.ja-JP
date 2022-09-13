@@ -8,9 +8,9 @@ uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
   </tr> 
   <tr> 
    <td colname="col1"> <p>外部デバイスグラフオプション </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> プロファイルの結合</span> と統合された外部デバイスグラフで作成されたルール <span class="keyword"> Audience Manager</span> は次に最適です。 </p> <p> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> と統合された外部デバイスグラフで作成された<span class="wintitle">プロファイル結合</span>ルールは、次のものに最適です。 </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">低レベルなユーザー認証を導入しているデジタルプロパティ。 </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">広範囲で高リーチのブランドキャンペーン。 </li> 
