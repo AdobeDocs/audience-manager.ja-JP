@@ -9,9 +9,9 @@ uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1530'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 96%
 
 **外部デバイスグラフとは何ですか？**
 
-外部デバイスグラフは、[!DNL Audience Manager] のデバイスグラフのうち、クロスデバイスデータソースのみから作成されたものでないものを指します。例えば、 [プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md) サードパーティのデバイスグラフオプションを選択すると、外部デバイスグラフを使用して作業していることになります。 [デバイスオプション](../features/profile-merge-rules/merge-rule-definitions.md#device-options)を参照してください。
+外部デバイスグラフは、[!DNL Audience Manager] のデバイスグラフのうち、クロスデバイスデータソースのみから作成されたものでないものを指します。例えば、[プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を作成してサードパーティのデバイスグラフオプションを選択した場合は、外部デバイスグラフを使用していることになります。[デバイスオプション](../features/profile-merge-rules/merge-rule-definitions.md#device-options)を参照してください。
 
  
 
 **外部デバイスグラフを [!UICONTROL Profile Merge Rule] で使用する一般的な例にはどのようなものがありますか？**
 
-[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体には、例えば、DSPが提供する広告を使用して見込み客のオーディエンスをターゲット設定したり、オンサイトパーソナライゼーションプラットフォームを使用して顧客のオンサイトエクスペリエンスをパーソナライズしたりする場合があります。 [外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体にも様々な用途があります。例えば、見込み客のオーディエンスを DSP が提供する広告のターゲットに設定したり、オンサイトのパーソナライゼーションプラットフォームを介して顧客のオンサイトエクスペリエンスをパーソナライズできます。[外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
 
  
 
@@ -191,7 +191,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
    <td colname="col1"> <p> <b>条件</b> </p> </td> 
    <td colname="col2"> <p>以下のものがあるとします。 </p> <p> 
      <ul id="ul_B8B627FBF6A04C0CAE6C8543EA3EA56D"> 
-      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">Segment 1。次の特性と認定ロジックにより作成されています。Segment 1 = Trait A and Trait B and Trait C </li> 
+      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">Segment 1、次の特性と認定ロジックにより作成されています、Segment 1 = Trait A and Trait B and Trait C </li> 
       <li id="li_F7D559B3C0CA424DA2C1A0703C1E1717">Device 1（現在のデバイス）、Device 2（デバイスグラフ）、Device 3（デバイスグラフ）の 3 つのデバイスプロファイル。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -233,7 +233,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
    <td colname="col1"> <p> <b>条件</b> </p> </td> 
    <td colname="col2"> <p>以下のものがあるとします。 </p> <p> 
      <ul id="ul_DC0AC0F79323451C8C2480E4A85AE2EB"> 
-      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">Segment 1。次の特性と認定ロジックにより作成されています。Segment 1 = Trait A and Trait B and Trait C </li> 
+      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">Segment 1、次の特性と認定ロジックにより作成されています、Segment 1 = Trait A and Trait B and Trait C </li> 
       <li id="li_6628727DDD0644BF8F5B6A8A9FA71E67">Device 1（現在のデバイス）、Device 2（デバイスグラフ）、Device 3（デバイスグラフ）の 3 つのデバイスプロファイル。 </li> 
      </ul> </p> </td> 
   </tr> 
