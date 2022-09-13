@@ -1,5 +1,5 @@
 ---
-description: 結合ルールオプションを使用すると、Audience Manager がセグメント化に使用するデータのタイプを制御できます。結合ルールには、 Profile LinkAudience Managerグラフ、およびデバイスと統合しているその他のサードパーティのデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。 プロファイル結合ルールは最大で 4 つ作成できます。
+description: 結合ルールオプションを使用すると、Audience Manager がセグメント化に使用するデータのタイプを制御できます。結合ルールには、プロファイルリンクデバイスグラフ、または Audience Manager と統合しているその他のサードパーティのデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。プロファイル結合ルールは最大で 4 つ作成できます。
 seo-description: The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the Profile Link device graph and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 4 Profile Merge Rules.
 seo-title: Profile Merge Rule Options Defined
 solution: Audience Manager
@@ -8,15 +8,15 @@ uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # [!UICONTROL Profile Merge Rules]定義済みオプション  {#profile-merge-rule-options-defined}
 
-[!UICONTROL profile merge rule] オプションを使用すると、[!DNL Audience Manager] がセグメント化に使用するデータのタイプを制御できます。A [!UICONTROL profile merge rule] は、 [!UICONTROL Profile Link] デバイスグラフや、 [!DNL Audience Manager]. 最大4 つの[!UICONTROL Profile Merge Rules]を作成できます。4 つ目の [!UICONTROL Profile Merge Rule] は、[!UICONTROL People-Based Destinations] アドオンを購入した顧客のみが利用できます。
+[!UICONTROL profile merge rule] オプションを使用すると、[!DNL Audience Manager] がセグメント化に使用するデータのタイプを制御できます。[!UICONTROL profile merge rule] には、[!UICONTROL Profile Link] デバイスグラフ、および [!DNL Audience Manager] と統合しているその他のサードパーティのデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。最大4 つの[!UICONTROL Profile Merge Rules]を作成できます。4 つ目の [!UICONTROL Profile Merge Rule] は、[!UICONTROL People-Based Destinations] アドオンを購入した顧客のみが利用できます。
 
 [!UICONTROL Profile Merge Rule Setup] で、以下のオプションから選択し、[!UICONTROL Profile Merge Rule] を構築します。
 
