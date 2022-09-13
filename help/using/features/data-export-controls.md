@@ -8,15 +8,15 @@ uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
 source-git-commit: 26aa0a210a045b40b2329844324315a092947188
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # データ書き出しコントロール {#data-export-controls}
 
-宛先へのデータ送信がデータプライバシーやデータ使用契約に違反する場合、[!UICONTROL Data Export Controls]はデータ送信を防止します。
+宛先へのデータ送信がデータプライバシーやデータ使用契約に違反する場合、[!UICONTROL Data Export Controls] はデータを送信できなくします。
 
 ## 概要 {#overview}
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 * セグメントがマッピングされている 1 つ以上の宛先で、データ書き出しラベルと互換性がないデータ書き出しコントロールを使用するデータソースに特性が属している場合、特性をセグメントに追加します。
 例えば、あるセグメントが、書き出しラベル「**[!DNL This destination may enable a combination with personally identifiable information (PII)]**」を使用して宛先にマッピングされるとします。特性が属するデータソースが「**[!DNL Cannot be tied to personally identifiable information (PII)]**」というラベルの付いたデータ書き出しコントロールを使用している場合、書き出しコントロールは、そのセグメントに特性を追加するのを中止します。
-* 次のいずれかに対して、データ書き出しコントロールでブロックされているデータ書き出しラベルが設定された宛先にデータを送信する。
+* 次のいずれかの場合、データ書き出しコントロールでブロックされている、データ書き出しラベルが付いた宛先へのデータの送信
    * 含まれる特性のデータソース。
    * 含まれるセグメントで使用される特性のデータソース。
    * 含まれるセグメントで使用されるプロファイル結合ルール。
@@ -92,7 +92,7 @@ ht-degree: 97%
    <td colname="col2"> <b><span class="uicontrol">この宛先はオフサイト広告ターゲティングに使用できます</span></b> </td> 
    <td colname="col3">選択すると、以下のことができなくなります。 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
-     <li id="li_0F89583A603D4CD8804724954CFD52C6">他のサイトのユーザーを再ターゲット化する宛先にマッピングされたセグメントへの特性の追加。 </li> 
+     <li id="li_0F89583A603D4CD8804724954CFD52C6">宛先が他のサイトでユーザーのリターゲティングを行う場合、その宛先にマッピングされたセグメントへ特性を追加する。 </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">データソースの特性を使用して構築したセグメントを、他のサイトのユーザーをリターゲティングする宛先にマッピングする。 </li> 
     </ul> <p>多くの場合、ソーシャルメディアプラットフォームからのデータを扱う際に必要です。 </p> </td> 
   </tr> 
