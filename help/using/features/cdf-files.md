@@ -9,9 +9,9 @@ uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 source-git-commit: 89137248aa47573f5b65e387a152f651419da827
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1989'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->CDF 設定では、イベントピクセルはデフォルトで除外されます。 CDF ファイルにイベントピクセルを含めたい場合は、ClientCare へのリクエストでを指定してください。 各イベントピクセルは、CDF ファイル内の一意の行として入力されます。
+>CDF 設定では、イベントピクセルはデフォルトで除外されます。 CDF ファイルに目的のイベントピクセルを含めることを希望する場合は、クライアントケアへのリクエストで必ず指定してください。各イベントピクセルは、CDF ファイル内の一意の行として入力されます。
 
 ## 定義 {#definitions}
 
@@ -82,7 +82,7 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>数値 </p> </td> 
-   <td colname="col3"> <p>ID の同期を起動するコンテナの ID。このフィールドは、 <i>d_nsid</i> フィールドを使用して、サイトの実装内で設定します。 それ以外の場合、デフォルト値の 0 は CDF ファイルに含まれません。 </p> </td> 
+   <td colname="col3"> <p>ID の同期を起動するコンテナの ID。このフィールドは、Sites の導入内の <i>d_nsid</i> フィールドにコンテナ ID を設定した場合にのみ入力されます。それ以外の場合、デフォルト値の 0 は CDF ファイルに含まれません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
@@ -164,7 +164,7 @@ ht-degree: 96%
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">リクエストパラメーター </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">参照元 </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP アドレス </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
      </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
