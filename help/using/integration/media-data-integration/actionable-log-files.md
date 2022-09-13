@@ -9,9 +9,9 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
 source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1596'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -210,9 +210,9 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
  <br>
 
-### Adobe Advertising Cloud、Flashtalking および Sizmek 広告サーバーログのアクションにつながるシグナル {#generic-logs-signals}
+### Adobe Advertising Cloud、Flashtalking および Sizmek 広告サーバーログからの実用的なシグナル {#generic-logs-signals}
 
-まず、広告サーバーログを Amazon S3 バケットに配置する必要があります。これを達成するには、[Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)を読んだ&#x200B;*うえで*、[!DNL Audience Manager] コンサルタントにお問い合わせください。この表は、広告サーバーログファイルから取得されるアクションにつながるシグナルの一覧です。
+まず、広告サーバーログを Amazon S3 バケットに配置する必要があります。これを達成するには、[Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)を読んだ&#x200B;*うえで*、[!DNL Audience Manager] コンサルタントにお問い合わせください。この表は、広告サーバーログファイルから取得される実用的なシグナルの一覧です。
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
