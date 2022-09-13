@@ -1,5 +1,5 @@
 ---
-description: 外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、統合Adobeが、決定論的または確率的なサードパーティデバイスグラフプロバイダーと共に含まれていることが含まれます。
+description: 外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、アドビと、サードパーティの決定論的または確率的デバイスグラフプロバイダーとの統合が含まれます。
 seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
@@ -8,22 +8,22 @@ uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # 外部デバイスグラフのユースケース {#external-device-graph-use-cases}
 
-外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、統合Adobeが、決定論的または確率的なサードパーティデバイスグラフプロバイダーと共に含まれていることが含まれます。
+外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、アドビがサードパーティの決定論的または確率的デバイスグラフプロバイダーと行っている統合が含まれます。
 
 ## 推奨事項 {#recommendations}
 
-次のようなキャンペーン向けに、サードパーティのデバイスグラフオプションを検討します。
+次のようなキャンペーンでは、サードパーティのデバイスグラフオプションを検討します。
 
 * すべてのデジタル資産で低レベルの認証をおこなっている。認証済みユーザーが多数いる場合は、[!UICONTROL Profile Link Device Graph option] を使用します。
-* 大規模なオーディエンスをターゲットにする。サードパーティデバイスグラフには、認証済みデータと未認証データが含まれています。
+* 大規模なオーディエンスをターゲットにする。サードパーティのデバイスグラフに、認証済みデータと未認証データが含まれている。
 * 認証済みまたは未認証の訪問者を個人レベルまたは団体レベルでセグメント化する。
 
 ![](assets/merge-rule-triangle1.png)
@@ -114,7 +114,7 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ## 高度なクロスデバイスターゲティング {#advanced-graph-expansion}
 
-このユースケースは、外部デバイスグラフ ( **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** ルール。
+このユースケースは、**[!UICONTROL Last Authenticated Profiles]** ルールと **[!UICONTROL Profile Link Device Graph]** ルールを使用し、外部デバイスグラフからのデバイスで、認証済み訪問者のオーディエンスターゲティングを拡張する方法を示しています。
 
 ![last-device-graph](assets/last-profile-link.png)
 
