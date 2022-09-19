@@ -8,9 +8,9 @@ uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
 source-git-commit: db90a6f1aaf85b10e31e93e316c257b7c3a904aa
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '988'
+ht-degree: 100%
 
 ---
 
