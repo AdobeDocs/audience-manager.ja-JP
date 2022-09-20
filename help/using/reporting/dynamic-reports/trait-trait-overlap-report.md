@@ -1,16 +1,16 @@
 ---
 description: すべてのファーストパーティおよびサードパーティ特性で共有されるユニークユーザーの数に関するデータを返します。
-seo-description: すべてのファーストパーティおよびサードパーティ特性で共有されるユニークユーザーの数に関するデータを返します。
-seo-title: 特性間重複レポート
+seo-description: Returns data on the number of unique users shared among all your first and third-party traits.
+seo-title: Trait-to-Trait Overlap Report
 solution: Audience Manager
 title: 特性間重複レポート
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6cc1351c3a84d4d2219f33ef6175f182b9641377
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 94%
 
 ---
 
@@ -43,6 +43,10 @@ c_overlap_reports.xml
 >[!NOTE]
 >
 >[!UICONTROL Trait-to-Trait Overlap]レポートは、同じ特性同士を比較すると、空のフィールドを返します。
+
+>[!NOTE]
+>
+>特性間重複レポート内では、フォルダー特性の比較はできません。 特定のフォルダー特性を利用したセグメントを作成すると、 [セグメント/特性間重複レポート](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -116,9 +120,9 @@ r_t2t_data_pop.xml
 >[!MORELIKETHIS]
 >
 >* [データスライダーを使用したレポート結果のフィルタリング](../../reporting/dynamic-reports/data-sliders.md)
-* [動的レポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-* [レポートのアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
-* [重複レポート：更新スケジュールと最小セグメントサイズ ](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
-* [選択した Audience Manager レポートでのデータサンプリングとエラー率...](../../reporting/report-sampling.md)
-* [重複レポートの CSV ファイル](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [動的レポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [レポートのアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [重複レポート：更新スケジュールと最小セグメントサイズ](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [選択した Audience Manager レポートでのデータサンプリングとエラー率...](../../reporting/report-sampling.md)
+>* [重複レポートの CSV ファイル](../../reporting/dynamic-reports/overlap-csv-files.md)
 
