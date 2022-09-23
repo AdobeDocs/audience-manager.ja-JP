@@ -1,16 +1,16 @@
 ---
 description: レポートに関するよくある質問および問題点。
-seo-description: レポートに関するよくある質問および問題点。
-seo-title: レポートに関するよくある質問
+seo-description: Common reporting-related questions and issues.
+seo-title: Reporting FAQ
 solution: Audience Manager
 title: レポートに関するよくある質問
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-feature: レポートリファレンス
+feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ faq_reports.xml
 
 **電子メールマーケティングキャンペーンを実行する場合に、リダイレクトされたユーザーがそのキャンペーンから来ているか、他のソースから来ているかをどのように判別すればよいですか？**
 
-キャンペーン固有のクエリ文字列を、監視対象のサイトセクションの URL に追加します。次に、この変数をキャプチャするための特性ルールを設定します。例えば、URL が `www.test123.com/electronics?campaign=123` のような形でキャンペーン ID を渡す場合、`h_referer = 'campaign=123'` のような形式のヘッダーを検索する特性ルールを使用して、`h_referer` 変数からデータをキャプチャするための特性ルールを作成します。
+キャンペーン固有のクエリ文字列を、監視対象のサイトセクションの URL に追加します。次に、この変数をキャプチャするための特性ルールを設定します。例えば、URL が次のようにキャンペーン ID を渡す場合、 `www.test123.com/electronics?campaign=123`を作成し、 `h_referer` 変数を含め、 `h_referer = 'campaign=123'`.
 
 <br> 
 
