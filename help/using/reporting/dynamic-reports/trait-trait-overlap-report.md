@@ -8,9 +8,9 @@ uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
 source-git-commit: 6cc1351c3a84d4d2219f33ef6175f182b9641377
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ c_overlap_reports.xml
 
 >[!NOTE]
 >
->特性間重複レポート内では、フォルダー特性の比較はできません。 特定のフォルダー特性を利用したセグメントを作成すると、 [セグメント/特性間重複レポート](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
+>特性間重複レポート内では、フォルダー特性の比較はできません。特定のフォルダー特性を利用したセグメントを作成することで、[セグメント／特性間重複レポート](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md)による解析を実行できます。
 
 ![](assets/trait-to-trait-overlap.png)
 
