@@ -1,16 +1,16 @@
 ---
 description: 以下の手順には、AdWords リマーケティングリスト、ピクセルコード、Audience Manager の URL 宛先が必要です。検索広告向けリマーケティングリスト（RLSA）統合とも呼ばれます。有料検索にのみ適用されます。
-seo-description: 以下の手順には、AdWords リマーケティングリスト、ピクセルコード、Audience Manager の URL 宛先が必要です。検索広告向けリマーケティングリスト（RLSA）統合とも呼ばれます。有料検索にのみ適用されます。
-seo-title: Google AdWords リマーケティングリストへのセグメントの送信
+seo-description: This procedure requires an AdWords remarketing list, pixel code, and an Audience Manager URL destination. It is also known as a remarketing list for search ads (RLSA) integration. Applies to paid search only.
+seo-title: Send Segments to a Google AdWords Remarketing List
 solution: Audience Manager
 title: Google AdWords リマーケティングリストへのセグメントの送信
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-feature: サードパーティ統合
+feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-source-git-commit: 760d6a56754530368ac11a5c9f10c4be487de028
+source-git-commit: b8d65ef8c27100d174a997eb24a75f37b4e75d40
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '293'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [!DNL Google Ads] リマーケティングリストを [!DNL Audience Manager] の [!DNL URL destination]として設定するには：
 
-1. [!DNL Google Ads] アカウントで、[Web サイトのリマーケティングリストを作成](https://support.google.com/adwords/answer/2454064?hl=ja)し、コンバージョン ID を書き出します。
+1. [!DNL Google Ads] アカウントで、[Web サイトのリマーケティングリストを作成](https://support.google.com/tagmanager/answer/6106960?hl=en)し、コンバージョン ID を書き出します。
 1. ベース URL およびセキュア URL のテンプレートとして、次の URL を使用します。xxxxxxxx セクションをコンバージョン ID に置き換えます。
 
    ```
@@ -71,7 +71,7 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [[!DNL Destinations]](../../features/destinations/destinations.md)
-* [ [!DNL URL Destination] の作成 ](../../features/destinations/create-url-destination.md)
-* [AdWords リマーケティングリストについて](https://support.google.com/adwords/answer/2472738?hl=ja)
-* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000)
+>* [ [!DNL URL Destination]](../../features/destinations/create-url-destination.md) の作成
+>* [AdWords リマーケティングリストについて](https://support.google.com/adwords/answer/2472738?hl=ja)
+>* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000)
 
