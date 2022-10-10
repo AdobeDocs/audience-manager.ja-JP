@@ -8,9 +8,9 @@ uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
 source-git-commit: b8d65ef8c27100d174a997eb24a75f37b4e75d40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 [!DNL Google Ads] リマーケティングリストを [!DNL Audience Manager] の [!DNL URL destination]として設定するには：
 
-1. [!DNL Google Ads] アカウントで、[Web サイトのリマーケティングリストを作成](https://support.google.com/tagmanager/answer/6106960?hl=en)し、コンバージョン ID を書き出します。
+1. [!DNL Google Ads] アカウントで、[Web サイトのリマーケティングリストを作成](https://support.google.com/tagmanager/answer/6106960?hl=ja)し、コンバージョン ID を書き出します。
 1. ベース URL およびセキュア URL のテンプレートとして、次の URL を使用します。xxxxxxxx セクションをコンバージョン ID に置き換えます。
 
    ```
@@ -73,5 +73,5 @@ ht-degree: 97%
 >* [[!DNL Destinations]](../../features/destinations/destinations.md)
 >* [ [!DNL URL Destination]](../../features/destinations/create-url-destination.md) の作成
 >* [AdWords リマーケティングリストについて](https://support.google.com/adwords/answer/2472738?hl=ja)
->* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000)
+>* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000?hl=ja)
 
