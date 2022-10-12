@@ -1,16 +1,16 @@
 ---
 description: リアルタイムの送信データ転送プロセスでは、POST メソッドで渡された一連の JSON オブジェクトとしてユーザーデータを返します。
-seo-description: リアルタイムの送信データ転送プロセスでは、POST メソッドで渡された一連の JSON オブジェクトとしてユーザーデータを返します。
-seo-title: リアルタイム送信データ転送
+seo-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
+seo-title: Real-Time Outbound Data Transfers
 solution: Audience Manager
 title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-feature: 送信データ転送
+feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 99%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 99%
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>Audience Manager「宛先」オブジェクトの ID。この ID は、Audience Manager から生成されます。</p> </td> 
+   <td colname="col3"> <p>Audience Manager「destination」オブジェクトの ID。 この ID は、Audience Manager から生成されます。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -113,7 +113,7 @@ ht-degree: 99%
    <td colname="col3"> <p>セグメントオブジェクトの配列。リアルタイムメッセージの場合、配列には、ユーザーが属するすべてのセグメントが含まれます。バッチメッセージの場合、配列には、最後のバッチ以降に変更されるセグメントのみが含まれます。</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
    <td colname="col3"> <p>セグメントの識別子。ほとんどの場合、これは、Audience Managerで生成されたセグメント ID です（整数）。場合によっては、宛先プラットフォームが許可している場合、お客様は、Audience Manager ユーザーインターフェイス（テキストフィールドを開く）でセグメント識別子を定義でき、それがこのプロパティに反映されます。 </p> </td> 
   </tr> 
