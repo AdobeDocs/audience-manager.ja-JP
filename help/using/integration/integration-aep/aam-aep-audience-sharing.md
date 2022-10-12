@@ -1,22 +1,18 @@
 ---
-description: この記事では、Audience Manager と Adobe Experience Platform の間でオーディエンスを共有する方法について説明します。
+description: データ共有を有効にする方法、およびAudience ManagerとAdobe Experience Platformの間でオーディエンスを共有する方法について説明します
 solution: Audience Manager
 title: Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有
 keywords: AEP オーディエンス共有、AEP セグメント、Platform セグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
-workflow-type: ht
-source-wordcount: '1516'
-ht-degree: 100%
+source-git-commit: 14e0ddd00d3a25674090ea9dbe485c77ad1d2aed
+workflow-type: tm+mt
+source-wordcount: '1862'
+ht-degree: 78%
 
 ---
 
 # Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有
-
->[!NOTE]
->
-> この機能へのアクセスをロック解除したい場合は、アドビの販売担当者にお問い合わせください。
 
 ## 概要 {#overview}
 
@@ -45,13 +41,39 @@ Audience Manager では、次のような、データ管理プラットフォー
 
 {style=&quot;table-layout:auto&quot;}
 
+## はじめに —Audience ManagerとExperience Platform間でデータ共有を有効にする方法 {#enable-data-sharing-aam-aep}
+
+以下の 2 つの節で、Audience ManagerとExperience Platformの間でデータ共有を有効にする方法を説明します。
+
+### Audience ManagerからExperience Platformへのデータ共有を有効にする {#enable-aam-to-aep-data}
+
+Audience ManagerからExperience PlatformにセグメントとAudience Managerを送信するには、特性ソースカタログで特性ソースコネクタを設定する必要があります。 これはセルフサービスワークフローで、Adobeカスタマーケアやエンジニアリングチームの関与は必要ありません。 Audience Manager・ソース・コネクタを設定するには、次を参照してください。
+
+* [Audience Manager源](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [UI でのAdobe Audience Managerソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
+
+>[!IMPORTANT]
+>
+>Adobeでは、 **[!UICONTROL Select all segments]** および **[!UICONTROL Select all traits]** オプションを選択します。 サイズの大きいAudience Managerセグメント母集団の取り込みは、Audience Managerソースを使用して初めてプラットフォームにAudience Managerセグメントを送信する際に、合計プロファイル数に直接影響します。 つまり、すべてのセグメントを選択すると、ライセンス使用権限を超えてプロファイル数がカウントされる可能性があります。
+>
+>![ワークフローで「すべてのセグメントを選択」および「すべての特性を選択」オプションがオフになっていて、Audience Managerソースコネクタに接続するためのスクリーンショット。](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
+
+### Experience PlatformからAudience Managerへのデータ共有を有効にする {#enable-aep-to-aam-data}
+
+>[!NOTE]
+>
+> この機能へのアクセスをロック解除するには、Adobeカスタマーサクセスマネージャーまたはカスタマーケアにお問い合わせください。
+
+セグメントをExperience PlatformからAudience Managerに送信するには、カスタマーケアまたはカスタマーサクセスマネージャーに問い合わせる必要があります。 カスタマーケアおよびカスタマーサポート管理チームは、チケットを提出して ( テンプレートチケットAAM-52354を参照 )、Platform からAudience Managerへの接続を有効にする必要があります。
+
+接続が正しく設定されていることを確認するには、必ず Platform からAudience Managerにデータを転送する際にプランを共有するようにしてください。 例えば、Adobe Targetに送信するセグメントで地域データを共有する必要がある場合、この情報をチケットで伝える必要があります。 Experience PlatformからAudience Managerへのデータ共有接続は、リクエストが送信されてから 6 営業日以内に設定されます。
+
 ## Adobe Experience Platform での Audience Manager のセグメントと特性 {#aam-segments-traits-in-aep}
 
-Audience Manager の特性とセグメントは、セグメントワークフローの&#x200B;**オーディエンス**&#x200B;として Experience Platform に表示されます。Experience Platform での Audience Manager のセグメントと特性について詳しくは、次を参照してください。
+Audience ManagerからAudience Managerとセグメントを読み込むように特性ソースコネクタを設定すると、Audience Managerデータは、Experience Platformに **オーディエンス** 」をクリックします。 Experience PlatformのAudience Managerセグメントと特性について詳しくは、以下を参照してください。
 
 * [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
-* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 
 ## Audience Manager の Adobe Experience Platform セグメント {#aep-segments-in-aam}
 
@@ -186,7 +208,7 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
->* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
->* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
+>* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
+>* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
