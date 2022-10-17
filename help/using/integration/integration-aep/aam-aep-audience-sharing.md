@@ -1,5 +1,5 @@
 ---
-description: データ共有を有効にする方法、およびAudience ManagerとAdobe Experience Platformの間でオーディエンスを共有する方法について説明します
+description: Audience Manager と Adobe Experience Platform 間において、データ共有を有効にする方法とオーディエンスの共有方法について説明します
 solution: Audience Manager
 title: Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有
 keywords: AEP オーディエンス共有、AEP セグメント、Platform セグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
@@ -8,7 +8,7 @@ exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
 source-wordcount: '1901'
-ht-degree: 76%
+ht-degree: 96%
 
 ---
 
@@ -45,22 +45,22 @@ Audience Manager では、次のような、データ管理プラットフォー
 
 以下の節では、Audience ManagerからExperience Platformへのデータ共有を有効にする方法と、Experience PlatformでAudience Manager特性とセグメントを使用する方法について説明します。
 
-### Audience ManagerからExperience Platformへのデータ共有を有効にする {#enable-aam-to-aep-data}
+### Audience Manager から Experience Platform へのデータ共有を有効にする {#enable-aam-to-aep-data}
 
-Audience ManagerからExperience PlatformにセグメントとAudience Managerを送信するには、特性ソースカタログで特性ソースコネクタを設定する必要があります。 これはセルフサービスワークフローで、Adobeカスタマーケアやエンジニアリングチームの関与は必要ありません。 Audience Manager・ソース・コネクタを設定するには、次を参照してください。
+Audience Manager から Experience Platform にセグメントと特性を送信するには、Experience Platform ソースカタログで Audience Manager ソースコネクタを設定する必要があります。これはセルフサービスワークフローで、アドビカスタマーケアやエンジニアリングチームの関与は必要ありません。Audience Manager ソースコネクターを設定するには、次を参照してください。
 
-* [Audience Manager源](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-* [UI でのAdobe Audience Managerソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
+* [Audience Manager ソース](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [UI での Adobe Audience Manager ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=ja)
 
 >[!IMPORTANT]
 >
->Adobeでは、 **[!UICONTROL Select all segments]** および **[!UICONTROL Select all traits]** オプションを選択します。 サイズの大きいAudience Managerセグメント母集団の取り込みは、Audience Managerソースを使用して初めてプラットフォームにAudience Managerセグメントを送信する際に、合計プロファイル数に直接影響します。 つまり、すべてのセグメントを選択すると、ライセンス使用権限を超えてプロファイル数がカウントされる可能性があります。
+>アドビは、以下に示すように、「**[!UICONTROL Select all segments]**」および「**[!UICONTROL Select all traits]**」オプションを選択せずに接続を設定することをお勧めします。サイズの大きい Audience Manager セグメント母集団の取り込みは、Audience Manager ソースを使用して Audience Manager セグメントをプラットフォームに初めて送信する際に、合計プロファイル数に直接影響します。つまり、すべてのセグメントを選択すると、ライセンス使用権限を超えてプロファイル数がカウントされる可能性があります。
 >
->![ワークフローで「すべてのセグメントを選択」および「すべての特性を選択」オプションがオフになっていて、Audience Managerソースコネクタに接続するためのスクリーンショット。](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
+>![Audience Manager ソースコネクターに接続するワークフローで「すべてのセグメントを選択」および「すべての特性を選択」オプションがオフになっていることを示すスクリーンショット。](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
 
 ### Experience PlatformでのAudience Managerー特性とセグメントの使用 {#use-aam-data-in-aep}
 
-Audience ManagerからAudience Managerとセグメントを読み込むように特性ソースコネクタを設定すると、Audience Managerデータは、Experience Platformに **オーディエンス** 」をクリックします。 Experience PlatformのAudience Managerセグメントと特性について詳しくは、以下を参照してください。
+Audience Manager ソースコネクターを設定して、Audience Manager から特性とセグメントを読み込むと、Audience Manager データがセグメントワークフローの **Audiences** として Experience Platform に表示されます。Experience Platform での Audience Manager のセグメントと特性について詳しくは、次を参照してください。
 
 * [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
@@ -69,15 +69,15 @@ Audience ManagerからAudience Managerとセグメントを読み込むように
 
 以下の節では、Experience PlatformからAudience Managerへのデータ共有を有効にする方法と、Audience ManagerでExperience Platformセグメントを使用する方法について説明します。
 
-### Experience PlatformからAudience Managerへのデータ共有を有効にする {#enable-aep-to-aam-data}
+### Experience Platform から Audience Manager へのデータ共有を有効にする {#enable-aep-to-aam-data}
 
 >[!NOTE]
 >
-> この機能へのアクセスをロック解除するには、Adobeカスタマーサクセスマネージャーまたはカスタマーケアにお問い合わせください。
+> この機能へのアクセスのロックを解除するには、アドビカスタマーサクセスマネージャーまたはカスタマーケアにお問い合わせください。
 
-セグメントをExperience PlatformからAudience Managerに送信するには、カスタマーケアまたはカスタマーサクセスマネージャーに問い合わせる必要があります。 カスタマーケアおよびカスタマーサポート管理チームは、チケットを提出して ( テンプレートチケットAAM-52354を参照 )、Platform からAudience Managerへの接続を有効にする必要があります。
+セグメントを Experience Platform から Audience Manager に送信するには、カスタマーケアまたはカスタマーサクセスマネージャーに問い合わせる必要があります。カスタマーケアおよびカスタマーサポート管理チームは、チケットを提出して（テンプレートチケット AAM-52354 を参照）、Platform から Audience Manager への接続を有効にする必要があります。
 
-接続が正しく設定されていることを確認するには、必ず Platform からAudience Managerにデータを転送する際にプランを共有するようにしてください。 例えば、Adobe Targetに送信するセグメントで地域データを共有する必要がある場合、この情報をチケットで伝える必要があります。 Experience PlatformからAudience Managerへのデータ共有接続は、リクエストが送信されてから 6 営業日以内に設定されます。
+接続が正しく設定されていることを確認するには、Platform から Audience Manager に転送するデータのプランを必ず共有するようにしてください。例えば、Adobe Target に送信するセグメントで地域データを共有する必要がある場合、この情報をチケットで伝える必要があります。Experience Platform から Audience Manager へのデータ共有接続は、リクエストが送信されてから 6 営業日以内に設定されます。
 
 ### Audience ManagerでのExperience Platformセグメントの使用 {#use-aep-data-in-aam}
 
