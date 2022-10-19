@@ -8,9 +8,9 @@ uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
 source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 98%
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>Audience Manager「destination」オブジェクトの ID。 この ID は、Audience Manager から生成されます。</p> </td> 
+   <td colname="col3"> <p>Audience Manager「宛先」オブジェクトの ID。この ID は、Audience Manager から生成されます。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
