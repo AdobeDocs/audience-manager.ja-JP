@@ -1,18 +1,18 @@
 ---
 description: Audience Manager と Adobe Experience Platform 間において、データ共有を有効にする方法とオーディエンスの共有方法について説明します
 solution: Audience Manager
-title: Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有
-keywords: AEP オーディエンス共有、AEP セグメント、Platform セグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
+title: Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform のセグメント共有
+keywords: AEP オーディエンス共有、AEP セグメント、Platform のセグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
 source-wordcount: '1901'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有
+# Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform のセグメント共有
 
 ## 概要 {#overview}
 
@@ -20,7 +20,7 @@ Audience Manager と Adobe Experience Platform の間でオーディエンス共
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を活用することができます。
 
-Audience Manager では、次のような、データ管理プラットフォームのユースケースに対して Experience Platform セグメントを使用できます。
+Audience Manager では、次のような、データ管理プラットフォームのユースケースに対して Experience Platform のセグメントを使用できます。
 * [サードパーティデータ](/help/using/overview/data-types-collected.md#third-party-data)をセグメントに追加する
 * [アルゴリズムモデリング](/help/using/features/algorithmic-models/understanding-models.md)
 * Experience Platform の[宛先カタログ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html?lang=ja)でまだサポートされていない宛先に対してセグメントをアクティブ化します。
@@ -30,20 +30,20 @@ Audience Manager では、次のような、データ管理プラットフォー
 >[!IMPORTANT]
 >
 > * 上記のデータ管理プラットフォームのユースケースを可能にするには、Audience Manager ライセンスが必要です。
-> * コアサービスの統合を通じて、Adobe Advertising Cloud、Adobe Target、Marketo およびその他の Experience Cloud ソリューションと Experience Platform セグメントを共有する場合、Audience Manager ライセンスは *必要ありません*。
+> * コアサービスの統合を通じて、Adobe Advertising Cloud、Adobe Target、Marketo およびその他の Experience Cloud ソリューションと Experience Platform のセグメントを共有する場合、Audience Manager ライセンスは *必要ありません*。
 
 
 オーディエンス共有のユースケースの概要については、次の表を参照してください。
 
 | **ユースケース** | **Adobe Experience Platform** | **Audience Manager** | **コアサービス** |
 |---------|----------|---------|---------|
-| **オーディエンス共有** | <ul><li>Audience Manager データを使用した顧客プロファイルの強化</li><li>Experience Platform セグメントでの Audience Manager データの使用</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Adobe Target や Advertising Cloud、Marketo など、他の Experience Cloud ソリューションで Experience Platform セグメントを使用します。 |
+| **オーディエンス共有** | <ul><li>Audience Manager データを使用した顧客プロファイルの強化</li><li>Experience Platform のセグメント化で Audience Manager データを使用する</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Adobe Target や Advertising Cloud、Marketo など、他の Experience Cloud ソリューションで Experience Platform のセグメントを使用します。 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Adobe Experience Platform での Audience Manager のセグメントと特性 {#aam-segments-traits-in-aep}
 
-以下の節では、Audience ManagerからExperience Platformへのデータ共有を有効にする方法と、Experience PlatformでAudience Manager特性とセグメントを使用する方法について説明します。
+以下の節では、Audience Manager から Experience Platform へのデータ共有を有効にする方法と、Experience Platform で Audience Manager の特性とセグメントを使用する方法について説明します。
 
 ### Audience Manager から Experience Platform へのデータ共有を有効にする {#enable-aam-to-aep-data}
 
@@ -58,16 +58,16 @@ Audience Manager から Experience Platform にセグメントと特性を送信
 >
 >![Audience Manager ソースコネクターに接続するワークフローで「すべてのセグメントを選択」および「すべての特性を選択」オプションがオフになっていることを示すスクリーンショット。](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
 
-### Experience PlatformでのAudience Managerー特性とセグメントの使用 {#use-aam-data-in-aep}
+### Experience Platform での Audience Manager の特性とセグメントの使用 {#use-aam-data-in-aep}
 
 Audience Manager ソースコネクターを設定して、Audience Manager から特性とセグメントを読み込むと、Audience Manager データがセグメントワークフローの **Audiences** として Experience Platform に表示されます。Experience Platform での Audience Manager のセグメントと特性について詳しくは、次を参照してください。
 
 * [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
 
-## Audience Manager の Adobe Experience Platform セグメント {#aep-segments-in-aam}
+## Audience Manager における Adobe Experience Platform のセグメント {#aep-segments-in-aam}
 
-以下の節では、Experience PlatformからAudience Managerへのデータ共有を有効にする方法と、Audience ManagerでExperience Platformセグメントを使用する方法について説明します。
+以下の節では、Experience Platform から Audience Manager へのデータ共有を有効にする方法と、Audience Manager で Experience Platform のセグメントを使用する方法について説明します。
 
 ### Experience Platform から Audience Manager へのデータ共有を有効にする {#enable-aep-to-aam-data}
 
@@ -79,12 +79,12 @@ Audience Manager ソースコネクターを設定して、Audience Manager か�
 
 接続が正しく設定されていることを確認するには、Platform から Audience Manager に転送するデータのプランを必ず共有するようにしてください。例えば、Adobe Target に送信するセグメントで地域データを共有する必要がある場合、この情報をチケットで伝える必要があります。Experience Platform から Audience Manager へのデータ共有接続は、リクエストが送信されてから 6 営業日以内に設定されます。
 
-### Audience ManagerでのExperience Platformセグメントの使用 {#use-aep-data-in-aam}
+### Audience Manager で Adobe Experience Platform のセグメントを使用する {#use-aep-data-in-aam}
 
 Experience Platform で作成したセグメントは、次の複合ルールを使用し、シグナル、特性、およびセグメントとして Audience Manager インターフェイスに表示されます。
 
-* シグナル：各 Experience Platform セグメント対し、フォーム `segID = segment ID` にシグナルが表示されます。
-* 特性：特性ルールは、Experience Platform セグメントの ID です。
+* シグナル：各 Experience Platform のセグメントに対し、フォーム `segID = segment ID` にシグナルが表示されます。
+* 特性：特性ルールは、Experience Platform のセグメントの ID です。
 * セグメント：このセグメントは、上記の特性で構成されます。
 
 ### シグナル {#aep-segments-as-aam-signals}
@@ -99,17 +99,17 @@ Audience Manager は、特性ストレージに「**Experience Platform 特性**
 
 ![Experience Platform ダッシュボードの特性](/help/using/integration/integration-aep/assets/aep-traits-dashboard.png)
 
-自動的に作成された特性を、他の特性とともにセグメントで使用できます。例えば、Experience Platform セグメントから作成した特性と、[Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md) で取得したサードパーティの特性を混在させることができます。
+自動的に作成された特性を、他の特性とともにセグメントで使用できます。例えば、Experience Platform のセグメントから作成した特性と、[Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md) で取得したサードパーティの特性を混在させることができます。
 
-Experience Platform セグメントから自動的に作成された特性の例については、以下のスクリーンショットを参照してください。
+Experience Platform のセグメントから自動的に作成された特性の例については、以下のスクリーンショットを参照してください。
 
 ![Experience Platform の特性](/help/using/integration/integration-aep/assets/aep-trait.png)
 
 
 | 項目番号 | 名前 | 説明 |
 |---------|----------|---------|
-| 1 | [!UICONTROL Trait Type] | Experience Platform セグメントから作成された特徴は、Audience Manager でオンボードの特性として作成されます。 |
-| 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!UICONTROL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
+| 1 | [!UICONTROL Trait Type] | Experience Platform のセグメントから作成された特徴は、Audience Manager でオンボードの特性として作成されます。 |
+| 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform のセグメントから自動的に作成されたすべての特性とセグメントは、**[!UICONTROL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 3 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 4 | [!UICONTROL Trait Expression] | 特性の式は `segID = segment ID in Experience Platform` です。 |
 | 5 | [!UICONTROL Segments with this Trait] | この特性を構成として使用する、自動的に作成されたセグメント。 |
@@ -118,18 +118,18 @@ Experience Platform セグメントから自動的に作成された特性の例
 
 ### セグメント {#aep-segments-as-aam-segments}
 
-Audience Manager は、セグメントストレージに「**Experience Platform セグメント**」というセグメントフォルダーを自動的に作成します。
+Audience Manager は、セグメントストレージに「**Experience Platform のセグメント**」というセグメントフォルダーを自動的に作成します。
 
 ![ダッシュボードのスクリーンショット](/help/using/integration/integration-aep/assets/aep-segments-dashboard.png)
 
-Experience Platform セグメントから自動的に作成されたセグメントの例については、以下のスクリーンショットを参照してください。
+Experience Platform のセグメントから自動的に作成されたセグメントの例については、以下のスクリーンショットを参照してください。
 
 ![セグメントのスクリーンショット](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | 項目番号 | 名前 | 説明 |
 |---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
-| 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform セグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
+| 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform のセグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
 
@@ -191,13 +191,13 @@ Audience Manager の[[!UICONTROL Profile Merge Rules]](/help/using/features/prof
 
 ### Experience Platform でのセグメントの構成
 
-Adobe Experience Platform と Audience Manager の統合では、すべての顧客に対して多くの標準 [ID 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#identity-types)を共有します。これには、ECID、IDFA、GAID、ハッシュ化された電子メールアドレス（EMAIL_LC_SHA256）、AdCloud ID などが含まれます。Experience Platform セグメントで、認定されたプロファイルのプライマリ ID としてこれらのいずれかを使用している場合、プロファイルは Audience Manager の特性およびセグメントにカウントされます。
+Adobe Experience Platform と Audience Manager の統合では、すべての顧客に対して多くの標準 [ID 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#identity-types)を共有します。これには、ECID、IDFA、GAID、ハッシュ化された電子メールアドレス（EMAIL_LC_SHA256）、AdCloud ID などが含まれます。Experience Platform のセグメントで、認定されたプロファイルのプライマリ ID としてこれらのいずれかを使用している場合、プロファイルは Audience Manager の特性およびセグメントにカウントされます。
 
 >[!NOTE]
 >
 > ID が生の電子メールをキーに設定している Experience Platform のオーディエンスは、Audience Manager には表示されません。
 
-例えば、「すべての顧客」という Experience Platform セグメントがあり、認定プロファイルが CRM ID、ECID、IDFA、生の電子メールアドレスおよびハッシュ化された電子メールアドレスの場合、Audience Manager 内の対応するセグメントには、ECID、IDFA およびハッシュ化された電子メールアドレスのキーオフされたプロファイルのみが含まれます。 Audience Manager のセグメントの母集団は、Experience Platform のセグメントの母集団よりも小さくなります。
+例えば、「すべての顧客」という Experience Platform のセグメントがあり、認定プロファイルが CRM ID、ECID、IDFA、生の電子メールアドレスおよびハッシュ化された電子メールアドレスの場合、Audience Manager 内の対応するセグメントには、ECID、IDFA およびハッシュ化された電子メールアドレスのキーオフされたプロファイルのみが含まれます。Audience Manager のセグメントの母集団は、Experience Platform のセグメントの母集団よりも小さくなります。
 
 ![Experience Platform から Audience Manager へのセグメント共有 — セグメントの構成](assets/AEP-to-AAM-profiles.png)
 
