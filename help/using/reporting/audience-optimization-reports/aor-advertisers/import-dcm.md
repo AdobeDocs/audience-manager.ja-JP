@@ -8,9 +8,9 @@ uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 feature: Audience Optimization Reports
 exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
 source-git-commit: 95b7b4347f3da16be05be60cbefc0e236022a4a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 98%
 
 1. [!DNL Audience Manager]をグループに参加するよう招待します。
 
-   グループを作成して、データバケットへのアクセス権を付与したら、[!DNL Audience Manager] をそのグループに参加するよう招待します。dfaaam@adobe.comに招待メールを送信します。 手順 3 のデータファイル URL を必ずその中に入れてください。当社の内部チームが招待を受け取った後にアクセス権を確認します。1. [!DNL Audience Manager] ユーザーインターフェイスで [!DNL Google Campaign Manager] データの 2 つのデータソースを設定します。
+   グループを作成して、データバケットへのアクセス権を付与したら、[!DNL Audience Manager] をそのグループに参加するよう招待します。dfaaam@adobe.com に招待メールを送信します。手順 3 のデータファイル URL を必ず含めるようにしてください。当社の内部チームが招待を受け取った後にアクセス権を確認します。1. [!DNL Audience Manager] ユーザーインターフェイスで [!DNL Google Campaign Manager] データの 2 つのデータソースを設定します。
 
    データソース `Advertiser Analytics: DCM Platform` と `Advertiser Analytics: AAM+DCM Platform` の名前を入力します。「[Create Data Sources](../../../features/manage-datasources.md#create-data-source)」ワークフローで、ID タイプを「`Cookie`」に設定します。2 つの新しいデータソースの ID を、当社の内部チームと共有します。
 
