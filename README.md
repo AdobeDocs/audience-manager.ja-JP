@@ -1,8 +1,7 @@
 ---
-source-git-commit: 366e08e6db731d0ba49a961609688212f60832fd
+source-git-commit: ed3d78e5720c172c952a242a11e5cb9ffe07efa5
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '429'
 ht-degree: 81%
 
 ---
@@ -16,13 +15,13 @@ ht-degree: 81%
 
 ## アドビコンテンツへの協力について
 
-『[Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/ja-JP/contributor/contributor-guide/introduction.html)』を参照してください。
+詳しくは、 [Adobeドキュメント寄稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja).
 
 記事に協力していただく方法は、コミュニティメンバーとアドビ従業員のどちらであるか、およびおこなう予定の改訂内容によって異なります。
 
 ### 軽微な改訂
 
-軽微な更新を投稿する場合には、目的の記事にアクセスし、**Edit** リンクをクリックしてください。当該記事の GitHub ソースが開きます。その後、GitHub の UI を使用して、更新をおこなってください。詳細については、『一般的な[Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)』を参照してください。
+軽微な更新を投稿する場合には、目的の記事にアクセスし、**Edit** リンクをクリックしてください。当該記事の GitHub ソースが開きます。その後、GitHub の UI を使用して、更新をおこなってください。一般 [Adobeドキュメント寄稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja) を参照してください。
 
 このリポジトリのドキュメントおよびコード例にお寄せいただいた軽微な修正、更新は、アドビの利用条件の対象となります。
 
@@ -36,20 +35,20 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### アドビ従業員による大幅な改訂
 
-Adobe Experience Cloudソリューションのテクニカルライター、プログラムマネージャ、または製品チームの開発者で、お客様が技術記事の提供や作成を行う場合は、プライベートリポジトリ[https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs)を使用する必要があります。<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Adobe Experience Cloudソリューションの製品チームのテクニカルライター、プログラムマネージャーまたは開発者で、技術記事の投稿や作成が職務となっている場合は、プライベートリポジトリを使用する必要があります [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## ツールおよびセットアップ
 
 コミュニティメンバーの方は、基本的な編集をおこなう場合は GitHub の UI を使用し、大幅な改訂をおこなう場合はリポジトリをフォークしてください。
 
-詳しくは、『[Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)』を参照してください。
+詳しくは、 [Adobeドキュメント寄稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja) 」を参照してください。
 
 ## Markdown を使用して投稿内容の書式を整形する方法
 
 このリポジトリ内の記事はすべて、GitHub 式の Markdown に従っています。Markdown の詳細については、以下を参照してください。
 
-* [マークダウンの基本](https://help.github.com/articles/markdown-basics/)
-* [印刷可能なMarkDownチートシート](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown の基本](https://help.github.com/articles/markdown-basics/)
+* [印刷可能な Markdown の早見表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## ラベル
 
