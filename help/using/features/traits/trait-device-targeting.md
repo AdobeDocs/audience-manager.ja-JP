@@ -1,20 +1,26 @@
 ---
 description: Audience Manager アカウントのすべてのプロパティにわたってデバイス関連変数を使用して、ユーザーをターゲティングするのに使用できるプラットフォームレベルの共通のキー値ペアについて説明します。
-seo-description: Audience Manager アカウントのすべてのプロパティにわたってデバイス関連変数を使用して、ユーザーをターゲティングするのに使用できるプラットフォームレベルの共通のキー値ペアについて説明します。
-seo-title: プラットフォームレベルのキーによるデバイスターゲティング
+seo-description: Describes the common platform-level key-value pairs you can use to target users with device-related variables across all properties in your Audience Manager account.
+seo-title: Device Targeting With Platform-level Keys
 solution: Audience Manager
 title: プラットフォームレベルのキーによるデバイスターゲティング
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
-feature: 特性
+feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: b299783b993c5d4a1c7738eca82932c20f377ee7
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 100%
+source-wordcount: '293'
+ht-degree: 65%
 
 ---
 
 # プラットフォームレベルのキーによるデバイスターゲティング {#device-targeting-with-platform-level-keys}
+
+>[!WARNING]
+>
+>Googleが [!DNL Google Chrome] およびすべて [!DNL Chromium]を使用して、 `User-Agent` ヘッダー。
+>2023 年 3 月以降、Audience Managerは、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). 次のサイトから提供される特性情報を引き続き使用するには、 `User-Agent` ヘッダー、 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) を有効にします。 [高エントロピーのユーザーエージェントクライアントヒント](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>これらの更新は、 [DIL](../../../using/dil/dil-overview.md)を使用しているので、 [!DNL DIL] は、 `User-Agent` ヘッダー。
 
 Audience Manager アカウントのすべてのプロパティにわたってデバイス関連変数を使用して、ユーザーをターゲティングするのに使用できるプラットフォームレベルの共通のキー値ペアについて説明します。
 
