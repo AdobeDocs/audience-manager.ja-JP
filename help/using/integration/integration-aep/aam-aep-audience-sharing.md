@@ -5,10 +5,10 @@ title: Audience Manager およびその他の Experience Cloud ソリューシ�
 keywords: AEP オーディエンス共有、AEP セグメント、Platform のセグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
+source-git-commit: f0e5541e4a72d81ab9c587a8daaed6af5e2b89d9
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 100%
+source-wordcount: '1953'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-Audience Manager と Adobe Experience Platform の間でオーディエンス共有機能を使用すると、Audience Manager の特性とセグメントを Adobe Experience Platform と共有できます。また、その逆も可能です。Audience Manager と Adobe Experience Platform の間でオーディエンス共有を有効にするには、[[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) が必要です。
+Audience ManagerとAdobe Experience Platformの間でオーディエンス共有機能を使用すると、Audience Managerの特性とセグメントをAdobe Experience Platformと共有し、Experience PlatformのセグメントをAudience Managerと共有できます。
+
+必要な [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) そして [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) の宛先をExperience Platformして、Audience ManagerとAdobe Experience Platformの間でオーディエンス共有を有効にします。
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を活用することができます。
 
@@ -39,7 +41,7 @@ Audience Manager では、次のような、データ管理プラットフォー
 |---------|----------|---------|---------|
 | **オーディエンス共有** | <ul><li>Audience Manager データを使用した顧客プロファイルの強化</li><li>Experience Platform のセグメント化で Audience Manager データを使用する</li></ul> | <ul><li>セグメントへのサードパーティデータの追加</li><li>アルゴリズムモデリング</li><li>追加の宛先へのアクティブ化</li></ul> | Adobe Target や Advertising Cloud、Marketo など、他の Experience Cloud ソリューションで Experience Platform のセグメントを使用します。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Adobe Experience Platform での Audience Manager のセグメントと特性 {#aam-segments-traits-in-aep}
 
@@ -49,7 +51,7 @@ Audience Manager では、次のような、データ管理プラットフォー
 
 Audience Manager から Experience Platform にセグメントと特性を送信するには、Experience Platform ソースカタログで Audience Manager ソースコネクタを設定する必要があります。これはセルフサービスワークフローで、アドビカスタマーケアやエンジニアリングチームの関与は必要ありません。Audience Manager ソースコネクターを設定するには、次を参照してください。
 
-* [Audience Manager ソース](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Audience Manager ソース](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 * [UI での Adobe Audience Manager ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=ja)
 
 >[!IMPORTANT]
@@ -70,6 +72,10 @@ Audience Manager ソースコネクターを設定して、Audience Manager か�
 以下の節では、Experience Platform から Audience Manager へのデータ共有を有効にする方法と、Audience Manager で Experience Platform のセグメントを使用する方法について説明します。
 
 ### Experience Platform から Audience Manager へのデータ共有を有効にする {#enable-aep-to-aam-data}
+
+>[!IMPORTANT]
+>
+> この節では、セグメントからAudience Managerへの従来のセグメント共有のExperience Platformについて説明します。 Adobeの顧客担当者がサポートを受けずに、この統合を設定できるようになりました。 詳しくは、 [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) 宛先のドキュメント。
 
 >[!NOTE]
 >
@@ -114,7 +120,7 @@ Experience Platform のセグメントから自動的に作成された特性の
 | 4 | [!UICONTROL Trait Expression] | 特性の式は `segID = segment ID in Experience Platform` です。 |
 | 5 | [!UICONTROL Segments with this Trait] | この特性を構成として使用する、自動的に作成されたセグメント。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### セグメント {#aep-segments-as-aam-segments}
 
@@ -133,7 +139,7 @@ Experience Platform のセグメントから自動的に作成されたセグメ
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Experience Platform での Audience Manager データ書き出しコントロールのサポート {#aam-data-export-control-in-aep}
 
@@ -158,7 +164,7 @@ Audience Manager と Experience Platform の間でオーディエンスを共有
 | オンサイトの広告ターゲティングには使用できません。 | C6：データをオンサイトのターゲティングには使用できません。 |
 | オンサイトのパーソナライズ機能には使用できません。 | C7：データをコンテンツのオンサイトターゲティングに使用することはできません。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### マーケティングアクションへのデータ書き出しコントロール
 
@@ -171,7 +177,7 @@ Audience Manager と Experience Platform の間でオーディエンスを共有
 | この宛先はオンサイト広告ターゲティングに使用できます | オンサイト広告 |
 | この宛先は、オンサイト広告パーソナライズ機能に使用できます | オンサイトのパーソナライズ機能 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Audience Manager と Experience Platform の間のセグメント母集団の違いの理解 {#aep-aam-segment-population-differences}
 
@@ -212,7 +218,7 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
->* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
->* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
+>* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
+>* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
 
