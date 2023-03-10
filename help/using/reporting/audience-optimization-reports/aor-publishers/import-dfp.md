@@ -1,16 +1,16 @@
 ---
 description: Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
-seo-description: Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
-seo-title: Google Ad Manager データファイルを Audience Manager に読み込む
+seo-description: Before Audience Manager can enable Audience Optimization for Publishers, you must ensure that all prerequisites outlined in this article are met. Contact Customer Care after checking off all prerequisites.
+seo-title: Import Google Ad Manager Data Files Into Audience Manager
 solution: Audience Manager
 title: Google Ad Manager データファイルを Audience Manager に読み込む
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
-feature: Audience Optimization レポート
+feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 7147091e6c253e8124f5f21a2251c1a76ac9d808
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 94%
 
 ---
 
@@ -82,12 +82,8 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
   </tr> 
   <tr> 
    <td colname="col1"> <p>手順 6 </p> </td> 
-   <td colname="col2"> <p>前提条件をまとめて AAM カスタマーケア（aamsupport@adobe.com）宛てに電子メールで送信し、ログの取り込み処理を開始します。次のセクションのテンプレートを使用して、電子メールの下書きを作成します。 </p> </td> 
+   <td colname="col2"> <p>前提条件をコンパイルし、詳細な手順に従ってサポートチケットを開きます。 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">ここ</a> ログの取り込みプロセスを開始します。 </p> </td> 
    <td colname="col3"> <p>自分または <span class="keyword"> Audience Manager</span> コンサルタントが代理で実行 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-## 電子メールのテンプレート {#email-template}
-
-ログの取り込みの有効化を最終決定するには、aamsupport@adobe.com に電子メールを送信します。[添付の電子メールテンプレート](assets/enable_dfp_ingestion.txt)を使用してください。
