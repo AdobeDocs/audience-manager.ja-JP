@@ -2,7 +2,7 @@
 description: 宛先（広告サーバーや DSP など、データを共有するサードパーティ製システム）の利点、タイプ、使用方法を確認します。 宛先ビルダーを使用して、cookie、URL またはサーバー間の宛先を作成および管理します。
 keywords: 統合コード、宛先、宛先の概要、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先、宛先
 landing-page-description: 宛先（広告サーバーや DSP など、データを共有するサードパーティ製システム）の利点、タイプ、使用方法を確認します。 宛先ビルダーを使用して、cookie、URL またはサーバー間の宛先を作成および管理します。
-short-description: Discover the advantages, types, and uses of destinations – any third-party system, such as an ad server or DSP, where you share data. Use Destination Builder to create and manage cookies, URL, or server-to-server destinations.
+short-description: 宛先（広告サーバーや DSP など、データを共有するサードパーティ製システム）の利点、タイプ、使用方法を確認します。 宛先ビルダーを使用して、cookie、URL またはサーバー間の宛先を作成および管理します。
 seo-title: Destinations
 solution: Audience Manager
 title: 宛先
@@ -11,7 +11,7 @@ feature: Destination Basics
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '573'
 ht-degree: 100%
 
 ---

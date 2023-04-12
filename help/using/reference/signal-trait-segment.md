@@ -1,7 +1,7 @@
 ---
 description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
 landing-page-description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
-short-description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
+short-description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: シグナル、特性、セグメント
@@ -10,7 +10,7 @@ feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
