@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: e50aab600f0bf197b1356ba77ac86efb4456979a
+source-git-commit: 27581b03b71d5254f24d7e46646abce82f9e4df2
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 100%
+source-wordcount: '1827'
+ht-degree: 99%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 100%
 # Audience Manager ユーザーガイド {#user-guide}
 
 + [Audience Manager ガイド](aam-home.md)
++ [Audience ManagerからReal-Time CDPへの進化ガイド](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
@@ -198,7 +199,7 @@ ht-degree: 100%
          + [セグメント - 広告ユニット間重複](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [ユニークユーザーのリーチ](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Audience Optimization レポートおよびアクションにつながるログファイル用のデータとメタデータファイル {#data-and-metadata-files}
-         + [ ログデータとメタデータファイル](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+         + [ログデータとメタデータファイル](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
          + [Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [メタデータファイルの概要とマッピング](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [メタデータファイルの命名規則](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
@@ -402,7 +403,7 @@ ht-degree: 100%
    + [連絡先情報および法的事項](/help/using/help-legal/help-legal-contact.md)
 + カスタマーサポートに関するよくある問題 {#top-support-issues}
    + [概要](/help/using/support-issues/support-issues-overview.md)
-   + [10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？ ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [重複レポートページに特性やセグメントが表示されないのはなぜですか？](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [読み取り専用ユーザーが特性およびセグメントを作成、編集または削除できるのはなぜですか？](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Audience Manager の顧客ではないのに、サイトに Audience Manager JavaScript 呼び出しが表示される](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
