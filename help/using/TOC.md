@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: 27581b03b71d5254f24d7e46646abce82f9e4df2
+source-git-commit: f4babbb632279cf213116e004551e5c77869ab78
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 99%
 # Audience Manager ユーザーガイド {#user-guide}
 
 + [Audience Manager ガイド](aam-home.md)
-+ [Audience ManagerからReal-Time CDPへの進化ガイド](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ [Real-Time CDPへの進化ガイド](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
