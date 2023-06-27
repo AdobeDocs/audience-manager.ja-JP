@@ -1,20 +1,28 @@
 ---
 description: FLA ファイルから Analytics に送信されたデータを収集し、その情報を Audience Manager で使用します。
-seo-description: FLA ファイルから Analytics に送信されたデータを収集し、その情報を Audience Manager で使用します。
+seo-description: Collect data sent from FLA files to Analytics and work with that information in Audience Manager.
 seo-title: Flash DIL
 solution: Audience Manager
-title: FlashDIL
+title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
-feature: DIL の実装
+feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '698'
+ht-degree: 91%
 
 ---
 
-# FlashDIL{#flash-dil}
+# Flash DIL{#flash-dil}
+
+>[!WARNING]
+>
+>2023 年 7 月より、Adobeは、 [!DNL Data Integration Library (DIL)] そして [!DNL DIL] 拡張子。
+><br><br>
+>既存のお客様は、引き続き [!DNL DIL] 実装。 しかし、Adobeは発展しない [!DNL DIL] この点を越えて お客様は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 長期のデータ収集戦略に対応するために使用されます。
+><br><br>
+>2023 年 7 月以降に新しいデータ収集統合を実装する場合は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 代わりに、
 
 FLA ファイルから Analytics に送信されたデータを収集し、その情報を Audience Manager で使用します。
 
@@ -142,7 +150,6 @@ r_flash_dil_actionscript.xml
 >
 >* Adobe [!UICONTROL AppMeasurement] [!DNL AS] ライブラリバージョン 3.5.2 以降が必要です。
 
-
 ```js
 import com.omniture.AppMeasurement; // Omit this line if it already exists in the code 
 import com.adobe.am.DIL; 
@@ -158,6 +165,5 @@ s.loadModule(d);
 >
 >* [特性](../features/traits/trait-details-page.md)
 >* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
->* [キーと値のペアの解説 ](../reference/key-value-pairs-explained.md)
+>* [キーと値のペアの解説](../reference/key-value-pairs-explained.md)
 >* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
-

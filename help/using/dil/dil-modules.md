@@ -1,20 +1,28 @@
 ---
 description: DIL.modules 名前空間のメソッドについて説明します。これらのモジュールを使用すると、データの収集や Audience Manager オブジェクトの操作をプログラムでおこなうことができます。
-seo-description: DIL.modules 名前空間のメソッドについて説明します。これらのモジュールを使用すると、データの収集や Audience Manager オブジェクトの操作をプログラムでおこなうことができます。
-seo-title: DIL モジュール
+seo-description: Describes methods in the DIL.modules namespace. These modules let you programmatically collect data and work with Audience Manager objects.
+seo-title: DIL Modules
 solution: Audience Manager
 title: DIL モジュール
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
-feature: DIL の実装
+feature: DIL Implementation
 exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '771'
+ht-degree: 91%
 
 ---
 
 # DIL モジュール{#dil-modules}
+
+>[!WARNING]
+>
+>2023 年 7 月より、Adobeは、 [!DNL Data Integration Library (DIL)] そして [!DNL DIL] 拡張子。
+><br><br>
+>既存のお客様は、引き続き [!DNL DIL] 実装。 しかし、Adobeは発展しない [!DNL DIL] この点を越えて お客様は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 長期のデータ収集戦略に対応するために使用されます。
+><br><br>
+>2023 年 7 月以降に新しいデータ収集統合を実装する場合は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 代わりに、
 
 `DIL.modules` 名前空間のメソッドについて説明します。これらのモジュールを使用すると、データの収集や Audience Manager オブジェクトの操作をプログラムでおこなうことができます。
 
@@ -156,8 +164,6 @@ dil-google-universal-analytics.xml
 >
 >* 従来の Google アナリティクストラッキングコード（`ga.js` や `dc.js` など）をまだ利用している場合は、`GA.submitUniversalAnalytics();` を使用できません。 代わりに [GA.init](../dil/dil-modules.md#ga-init) を参照してください。
 >
-
-
 
 **関数シグネチャ：**`DIL.modules.GA.submitUniversalAnalytics(gaObject, dilInstance, internalPropertyName);`
 
@@ -315,4 +321,3 @@ Audience Manager の URL イベント呼び出しは次のようになります�
 >* [Web アップグレードの完了：ga.js/dc.js から analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [サイトへの analytics.js の追加](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [ga オブジェクトメソッドリファレンス](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-

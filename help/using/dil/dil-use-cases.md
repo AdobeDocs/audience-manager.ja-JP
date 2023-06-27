@@ -1,20 +1,28 @@
 ---
 description: 特定の DIL ユースケースのコードサンプルおよび説明です。
-seo-description: 特定の DIL ユースケースのコードサンプルおよび説明です。
-seo-title: DIL のユースケースとコードサンプル
+seo-description: Code samples and descriptions for specific DIL use cases.
+seo-title: DIL Use Cases and Code Samples
 solution: Audience Manager
 title: DIL のユースケースとコードサンプル
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
-feature: DIL の実装
+feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '920'
-ht-degree: 100%
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+workflow-type: tm+mt
+source-wordcount: '981'
+ht-degree: 93%
 
 ---
 
-# DIL のユースケースとコードサンプル {#dil-use-cases-and-code-samples}
+# DIL のユースケースとコードサンプル{#dil-use-cases-and-code-samples}
+
+>[!WARNING]
+>
+>2023 年 7 月より、Adobeは、 [!DNL Data Integration Library (DIL)] そして [!DNL DIL] 拡張子。
+><br><br>
+>既存のお客様は、引き続き [!DNL DIL] 実装。 しかし、Adobeは発展しない [!DNL DIL] この点を越えて お客様は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 長期のデータ収集戦略に対応するために使用されます。
+><br><br>
+>2023 年 7 月以降に新しいデータ収集統合を実装する場合は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 代わりに、
 
 特定の DIL ユースケースのコードサンプルおよび説明です。
 
@@ -46,7 +54,7 @@ c_dil_send_page_objects.xml
 
 この基本的な例では、色と価格のデータをキーと値のペアの形式で Audience Manager に送信しています。次のようなコードになります。
 
-<pre class="&ldquo;java&rdquo;"><code>
+<pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
@@ -244,4 +252,3 @@ GTM で `dil.js` ファイルを配信するには：
 >* [Google タグマネージャーヘルプセンター](https://support.google.com/tagmanager#topic=3441530)
 >* [シグナル](../dil/dil-instance-methods.md#signals)
 >* [キー変数のプレフィックスに関する要件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=ja#prefix-requirements-for-key-variables)
-

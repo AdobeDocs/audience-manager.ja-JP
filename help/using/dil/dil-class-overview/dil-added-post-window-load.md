@@ -1,20 +1,29 @@
 ---
 description: ウィンドウが読み込まれた後に読み込まれたことを DIL に知らせるために使用されます。
-seo-description: ウィンドウが読み込まれた後に読み込まれたことを DIL に知らせるために使用されます。
+seo-description: Used to let DIL know that it is loaded after the window loads.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
 title: isAddedPostWindowLoad
 uuid: 8cdeab00-6ce4-4f07-bb63-41425369a5b7
-feature: DIL の実装
+feature: DIL Implementation
 exl-id: 955fe0f2-2a64-491f-9098-e5aabcc697db
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 100%
+source-wordcount: '110'
+ht-degree: 43%
 
 ---
 
+
 # isAddedPostWindowLoad{#isaddedpostwindowload}
+
+>[!WARNING]
+>
+>2023 年 7 月より、Adobeは、 [!DNL Data Integration Library (DIL)] そして [!DNL DIL] 拡張子。
+><br><br>
+>既存のお客様は、引き続き [!DNL DIL] 実装。 しかし、Adobeは発展しない [!DNL DIL] この点を越えて お客様は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 長期のデータ収集戦略に対応するために使用されます。
+><br><br>
+>2023 年 7 月以降に新しいデータ収集統合を実装する場合は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 代わりに、
 
 ウィンドウが読み込まれた後に読み込まれたことを DIL に知らせるために使用されます。
 

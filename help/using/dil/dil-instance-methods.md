@@ -1,21 +1,29 @@
 ---
 description: インスタンスレベルの DIL API を使用すると、Audience Manager オブジェクトをプログラムで作成し操作することができます。インスタンスレベルのメソッドは、クラスレベルのメソッドで実現している API 機能を強化したものです。
 keywords: 特性の作成;特性の作成
-seo-description: インスタンスレベルの DIL API を使用すると、Audience Manager オブジェクトをプログラムで作成し操作することができます。インスタンスレベルのメソッドは、クラスレベルのメソッドで実現している API 機能を強化したものです。
-seo-title: インスタンスレベルの DIL メソッド
+seo-description: The instance-level DIL APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
+seo-title: Instance-level DIL Methods
 solution: Audience Manager
 title: インスタンスレベルの DIL メソッド
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: DIL の実装
+feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1105'
-ht-degree: 100%
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+workflow-type: tm+mt
+source-wordcount: '1153'
+ht-degree: 94%
 
 ---
 
 # インスタンスレベルの DIL メソッド{#instance-level-dil-methods}
+
+>[!WARNING]
+>
+>2023 年 7 月より、Adobeは、 [!DNL Data Integration Library (DIL)] そして [!DNL DIL] 拡張子。
+><br><br>
+>既存のお客様は、引き続き [!DNL DIL] 実装。 しかし、Adobeは発展しない [!DNL DIL] この点を越えて お客様は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 長期のデータ収集戦略に対応するために使用されます。
+><br><br>
+>2023 年 7 月以降に新しいデータ収集統合を実装する場合は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 代わりに、
 
 インスタンスレベルの [!UICONTROL DIL] API を使用すると、Audience Manager オブジェクトをプログラムで作成し操作することができます。インスタンスレベルのメソッドは、クラスレベルのメソッドで実現している API 機能を強化したものです。
 
@@ -54,7 +62,6 @@ r_dil_signals.xml
 >
 >* 他の API 呼び出しをこのメソッドに連結することができます。
 >* Adobe Experience Cloud JavaScript ライブラリがページ上にある場合、`submit()` は、Cloud での Cookie の設定後にリクエストを送信します。
-
 
 **予約済みリクエストキー**
 
@@ -472,7 +479,6 @@ state = {
           id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
           url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
           + containerNSID + '#' + encodeURIComponent(document.location.href), 
-
                iframe: null, 
                iframeHasLoaded: false, 
                sendingMessages: false, 
@@ -686,8 +692,6 @@ var dilInstance = DIL.create({
 >* `useCORSOnly: true` の場合、[!UICONTROL DIL] は Internet Explorer 9 またはそれ以前のバージョンからは ID 呼び出しをおこないません。
 >
 
-
-
 ## useImageRequest {#useimagerequest}
 
 リクエストのタイプをスクリプト（`<src>`）から画像（`<img>`）に変更します。
@@ -727,4 +731,3 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Adobe Experience Platform ID サービス：UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html?lang=ja)
 >* [Adobe Experience Platform ID サービスでの CORS のサポート](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html?lang=ja)
-

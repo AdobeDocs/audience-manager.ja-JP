@@ -1,20 +1,28 @@
 ---
 description: パートナー固有の DIL インスタンスを作成します。
-seo-description: パートナー固有の DIL インスタンスを作成します。
+seo-description: Creates a partner-specific DIL instance.
 seo-title: DIL create
 solution: Audience Manager
 title: DIL create
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
-feature: DIL の実装
+feature: DIL Implementation
 exl-id: 0bef149c-4458-43d6-affe-6d79fe1fca46
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 92%
 
 ---
 
 # DIL create メソッド {#dil-create}
+
+>[!WARNING]
+>
+>2023 年 7 月より、Adobeは、 [!DNL Data Integration Library (DIL)] そして [!DNL DIL] 拡張子。
+><br><br>
+>既存のお客様は、引き続き [!DNL DIL] 実装。 しかし、Adobeは発展しない [!DNL DIL] この点を越えて お客様は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 長期のデータ収集戦略に対応するために使用されます。
+><br><br>
+>2023 年 7 月以降に新しいデータ収集統合を実装する場合は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 代わりに、
 
 ## DIL create {#dil-create-new}
 
