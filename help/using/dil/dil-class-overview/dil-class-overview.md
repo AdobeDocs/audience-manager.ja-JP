@@ -6,7 +6,7 @@ solution: Audience Manager
 title: クラスレベルの DIL メソッド
 uuid: 903a661f-8871-4402-b9d6-acae920276cb
 feature: DIL Implementation
-source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
+source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 56%
@@ -19,9 +19,9 @@ ht-degree: 56%
 >[!WARNING]
 >
 >2023 年 7 月より、Adobeは、 [!DNL Data Integration Library (DIL)] そして [!DNL DIL] 拡張子。
-><br><br>
+><br>
 >既存のお客様は、引き続き [!DNL DIL] 実装。 しかし、Adobeは発展しない [!DNL DIL] この点を越えて お客様は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 長期のデータ収集戦略に対応するために使用されます。
-><br><br>
+><br>
 >2023 年 7 月以降に新しいデータ収集統合を実装する場合は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 代わりに、
 
 
