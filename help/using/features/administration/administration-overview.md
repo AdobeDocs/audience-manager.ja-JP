@@ -8,10 +8,10 @@ title: 管理
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
-workflow-type: ht
-source-wordcount: '1159'
-ht-degree: 100%
+source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
+workflow-type: tm+mt
+source-wordcount: '1187'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
 > ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
+
+>[!IMPORTANT]
+>
+> 使用する前に [!DNL RBAC]の場合、この機能は組織のAdobeが有効にする必要があります。 アカウントチームに連絡してリクエストしてください [!DNL RBAC] アクティベーションを有効にするか、カスタマーケアにお問い合わせください。
 
 
 [!UICONTROL Administration] メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
@@ -41,7 +45,8 @@ ht-degree: 100%
 > ユーザーアカウント管理は [Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) に移行されます。 ユーザーの移行を開始するには、すべての Audience Manager のお客様は、『[Admin Console への Audience Manager ユーザーの移行](admin-console-migration.md)』で説明されている必要な措置を直ちに取る必要があります。
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
->[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
+> 
+[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Users]** をクリックします。
 1. ![](assets/icon_add.png) をクリックして、[!UICONTROL Create New User] ページを表示します。
