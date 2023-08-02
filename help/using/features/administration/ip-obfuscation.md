@@ -1,14 +1,14 @@
 ---
 description: グローバルプライバシー規制により、多くの国で IP アドレスの難読化が求められる場合があります。Audience Manager を使用すると、訪問者の IP アドレス全体または国ごとに難読化できます。
-seo-description: グローバルプライバシー規制により、多くの国で IP アドレスの難読化が求められる場合があります。Audience Manager を使用すると、訪問者の IP アドレス全体または国ごとに難読化できます。
+seo-description: Your company may desire to obfuscate IP address in many countries due to global privacy regulations. Audience Manager allows you to obfuscate visitor IP addresses on a global or country-by-country basis.
 solution: Audience Manager
 title: IP アドレスの難読化
-feature: データガバナンスとプライバシー
+feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 84%
 
 ---
 
@@ -28,6 +28,10 @@ Audience Manager で収集された IP アドレスを難読化するには、�
 * 難読化後：`255.255.255.0`
 
 [データプライバシーの節](/help/using/overview/data-security-and-privacy/data-privacy.md)の「IP アドレスの収集と IP アドレスの難読化」も参照してください。
+
+### IP Obfuscation（IP の不明化）: {#precedence}
+
+[データストリームレベルの IP 難読化](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) は、Audience Managerで設定されている IP の難読化オプションよりも優先され、すべての IP アドレスに適用されます。 Audience Managerが行った位置情報参照は、データストリームレベルの影響を受けます [!UICONTROL IP obfuscation] オプション。 完全に不明化された IP に基づく、Audience Managerの位置情報参照は、不明な地域になり、結果として得られた位置情報データに基づくセグメントは認識されません。
 
 ## IP アドレスの難読化の要件 {#ip-obfuscation-requirements}
 
