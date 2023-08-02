@@ -6,10 +6,10 @@ solution: Audience Manager
 title: IAB TCF 用 Audience Manager プラグイン
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+source-git-commit: 8b370a64d80b40124abee91351cbef09711243d4
 workflow-type: tm+mt
 source-wordcount: '2353'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -69,7 +69,7 @@ Audience Manager で IAB TCF 用 Audience Manager プラグインを使用する
 
 >[!WARNING]
 >
->IAB TCF v.2.0 をサポートしない同意管理プラットフォーム（CMP）を使用している場合、訪問者が欧州連合にいたとしても、Audience Manager は ID 同期で `gdpr=0` パラメーターを自動的に送信します。GDPR 検証が有効かどうかを判断するには、IAB TCF v2.2 をサポートしていることを CMP（同意管理プラットフォーム）で確認することをお勧めします。
+>IAB TCF v2.2 をサポートしない同意管理プラットフォーム (CMP) を使用している場合、Audience Managerは、 `gdpr=0` 訪問者が欧州連合にいる場合でも、ID 同期のパラメーター。 GDPR 検証が有効かどうかを判断するには、IAB TCF v2.2 をサポートしていることを CMP（同意管理プラットフォーム）で確認することをお勧めします。
 
 ## レコメンデーションと実装方法 {#recommendations}
 
