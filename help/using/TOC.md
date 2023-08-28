@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: f4babbb632279cf213116e004551e5c77869ab78
+source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 99%
+source-wordcount: '1835'
+ht-degree: 98%
 
 ---
 
@@ -336,6 +336,7 @@ ht-degree: 99%
          + [受信データタイプのファイル PGP 暗号化](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [受信データ転送ファイルのファイル圧縮](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [受信処理後パートナーに送信されるメッセージの例](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+         + [受信ファイルにAmazon S3 のクロスアカウントのバケットのアクセス許可を使用する](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform との統合 {#integration-experience-platform}
       + [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](integration/integration-aep/aam-aep-audience-sharing.md)
