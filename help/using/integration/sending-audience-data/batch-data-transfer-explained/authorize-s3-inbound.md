@@ -3,7 +3,7 @@ description: 独自のAmazon S3 バケットからAudience Managerにデータ�
 solution: Audience Manager
 title: 受信ファイルにAmazon S3 のクロスアカウントのバケットのアクセス許可を使用する
 feature: Inbound Data Transfers
-source-git-commit: ff023fb57e2653ca65323313a37852d379e4b00c
+source-git-commit: 17cee6971ca1d5cda8f272558a46220227fc51f7
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -24,6 +24,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >受信データをAudience ManagerAmazon S3 バケットに転送する場合は、必ず `bucket-owner-full-control` [アクセス制御リスト](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html) Audience Manager でデータを正しく処理するために使用されます。
-><br>
->Amazon Web Servicesコマンドの例： `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`.
+>
+>Amazon Web Servicesコマンドの例： `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`
 
