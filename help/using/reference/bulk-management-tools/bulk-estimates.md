@@ -1,22 +1,26 @@
 ---
 description: 一括予測では、セグメントルールに基づきセグメントサイズデータが返されます。一括予測リクエストをおこなうには、以下の手順に従ってください。
-seo-description: 一括予測では、セグメントルールに基づきセグメントサイズデータが返されます。一括予測リクエストをおこなうには、以下の手順に従ってください。
-seo-title: 一括予測
+seo-description: A bulk estimate returns segment size data based on segment rules. Follow these instructions to make a bulk estimate request.
+seo-title: Bulk Estimates
 solution: Audience Manager
 title: 一括予測
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
 feature: BAAAM
 exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 86%
 
 ---
 
 # 一括予測{#bulk-estimates}
 
 一括予測では、セグメントルールに基づきセグメントサイズデータが返されます。一括予測リクエストをおこなうには、以下の手順に従ってください。
+
+>[!IMPORTANT]
+>
+>一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
 
 <!-- 
 

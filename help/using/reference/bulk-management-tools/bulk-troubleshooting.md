@@ -1,16 +1,16 @@
 ---
 description: ワークシートでエラーが返された場合や、一括リクエストが失敗した場合の対処方法。
-seo-description: ワークシートでエラーが返された場合や、一括リクエストが失敗した場合の対処方法。
-seo-title: 一括管理ツールのトラブルシューティングのヒント
+seo-description: What to do when the worksheets return an error or your bulk request fails.
+seo-title: Troubleshooting Tips for Bulk Management Tools
 solution: Audience Manager
 title: 一括管理ツールのトラブルシューティングのヒント
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 100%
 
 ワークシートでエラーが返された場合や、一括リクエストが失敗した場合の対処方法。
 
-
+>[!IMPORTANT]
+>
+>一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
 
 <!-- 
 

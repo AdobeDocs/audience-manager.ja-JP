@@ -1,22 +1,26 @@
 ---
 description: ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールのリクエストをおこなうには、以下の手順に従ってください。
-seo-description: ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールのリクエストをおこなうには、以下の手順に従ってください。
-seo-title: 特性ルールおよびセグメントルールの作成または更新
+seo-description: The create and update worksheets accept a traitRule header that lets you apply multiple rules in a single operation. Follow these instructions to make bulk rule requests.
+seo-title: Create or Update Trait Rules and Segment Rules
 solution: Audience Manager
 title: 特性ルールおよびセグメントルールの作成または更新
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 100%
+source-wordcount: '342'
+ht-degree: 92%
 
 ---
 
 # 特性ルールおよびセグメントルールの作成または更新{#create-or-update-trait-rules-and-segment-rules}
 
 ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールのリクエストをおこなうには、以下の手順に従ってください。
+
+>[!IMPORTANT]
+>
+>一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
 
 <!-- 
 

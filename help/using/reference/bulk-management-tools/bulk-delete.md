@@ -1,22 +1,26 @@
 ---
 description: 一括削除では、複数のセグメント、特性、フォルダー、派生シグナル、データソース、モデル、および宛先を 1 回の操作で削除できます。一括削除リクエストをおこなうには、以下の手順に従ってください。
-seo-description: 一括削除では、複数のセグメント、特性、フォルダー、派生シグナル、データソース、モデル、および宛先を 1 回の操作で削除できます。一括削除リクエストをおこなうには、以下の手順に従ってください。
-seo-title: 一括削除
+seo-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
+seo-title: Bulk Delete
 solution: Audience Manager
 title: 一括削除
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 feature: BAAAM
 exl-id: 3ff530dd-66d0-4dd3-a6e6-afe4a9cb5ba4
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '258'
+ht-degree: 89%
 
 ---
 
 # 一括削除{#bulk-delete}
 
 一括削除では、複数のセグメント、特性、フォルダー、派生シグナル、データソース、モデル、および宛先を 1 回の操作で削除できます。一括削除リクエストをおこなうには、以下の手順に従ってください。
+
+>[!IMPORTANT]
+>
+>一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
 
 <!-- 
 

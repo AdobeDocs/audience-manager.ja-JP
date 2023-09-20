@@ -1,22 +1,26 @@
 ---
 description: 列ヘッダーのラベルの定義。
-seo-description: 列ヘッダーのラベルの定義。
-seo-title: 一括管理ツールの用語集
+seo-description: Column header labels defined.
+seo-title: Bulk Management Tools Glossary
 solution: Audience Manager
 title: 一括管理ツールの用語集
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: BAAAM
 exl-id: 036d16c7-1546-4539-a318-455b98e10026
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 92%
 
 ---
 
 # 一括管理ツールの用語集{#bulk-management-tools-glossary}
 
 列ヘッダーのラベルの定義。
+
+>[!IMPORTANT]
+>
+>一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
 
 <!-- 
 

@@ -1,22 +1,26 @@
 ---
 description: 一括リクエストでは、更新、作成、推定および削除の各ワークシートの様々なヘッダーで使用できるデータを返します。
-seo-description: 一括リクエストでは、更新、作成、推定および削除の各ワークシートの様々なヘッダーで使用できるデータを返します。
-seo-title: 一括リクエスト
+seo-description: A bulk request returns data you can use with the different headers in the Update, Create, Estimate, and Delete worksheets.
+seo-title: Bulk Requests
 solution: Audience Manager
 title: 一括リクエスト
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 feature: BAAAM
 exl-id: a0597bf4-79c8-404d-ba3b-a92c6b5c9c06
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: '253'
+ht-degree: 89%
 
 ---
 
 # 一括リクエスト{#bulk-requests}
 
 一括リクエストでは、更新、作成、推定および削除の各ワークシートの様々なヘッダーで使用できるデータを返します。
+
+>[!IMPORTANT]
+>
+>一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
 
 <!-- 
 

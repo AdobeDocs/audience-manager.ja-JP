@@ -1,23 +1,27 @@
 ---
 description: 一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。一括更新をおこなうには、以下の手順に従ってください。
 keywords: baaam
-seo-description: 一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。一括更新をおこなうには、以下の手順に従ってください。
-seo-title: 一括更新
+seo-description: A bulk update lets you edit multiple segments, traits, models, data sources, and segment or trait folder elements in a single operation. Follow these instructions to make bulk updates.
+seo-title: Bulk Updates
 solution: Audience Manager
 title: 一括更新
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 feature: BAAAM
 exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 90%
 
 ---
 
 # 一括更新{#bulk-updates}
 
 一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。一括更新をおこなうには、以下の手順に従ってください。
+
+>[!IMPORTANT]
+>
+>一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
 
 <!-- 
 

@@ -1,23 +1,28 @@
 ---
 description: 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
 keywords: baaam;BAAAM; baaam をダウンロード
-seo-description: 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
-seo-title: '一括管理の概要 '
+seo-description: The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
+seo-title: Getting Started With Bulk Management
 solution: Audience Manager
-title: '一括管理の概要 '
+title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
+source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 96%
 
 ---
+
 
 # 一括管理の概要 {#getting-started-with-bulk-management}
 
 [!DNL Bulk Management Tools] を使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。[!DNL Bulk Management Tools] を使用して、[!UICONTROL data sources]、[!UICONTROL derived signals]、[!UICONTROL destinations]、[!UICONTROL folders]、[!UICONTROL models]、[!UICONTROL segments]、および [!UICONTROL traits] を操作できます。
+
+>[!IMPORTANT]
+>
+>一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
 
 <!-- 
 

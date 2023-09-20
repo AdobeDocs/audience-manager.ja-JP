@@ -1,22 +1,26 @@
 ---
 description: 一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。一括作成のリクエストをおこなうには、以下の手順に従ってください。
-seo-description: 一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。一括作成のリクエストをおこなうには、以下の手順に従ってください。
-seo-title: 一括作成
+seo-description: Bulk create lets you construct multiple data sources, derived signals, segments, traits, and other items with a single operation. Follow these instructions to make a bulk creation request.
+seo-title: Bulk Create
 solution: Audience Manager
 title: 一括作成
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 feature: BAAAM
 exl-id: 7828fc95-24eb-4a80-bdb8-0d9adea43d8f
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 90%
 
 ---
 
 # 一括作成{#bulk-create}
 
 一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。一括作成のリクエストをおこなうには、以下の手順に従ってください。
+
+>[!IMPORTANT]
+>
+>一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
 
 <!-- 
 
