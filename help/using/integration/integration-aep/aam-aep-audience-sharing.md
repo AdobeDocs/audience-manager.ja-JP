@@ -3,9 +3,9 @@ description: Audience Manager と Adobe Experience Platform 間において、�
 solution: Audience Manager
 title: Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform のセグメント共有
 keywords: AEP オーディエンス共有、AEP セグメント、Platform のセグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
-feature: Platform Integration
+feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: f0e5541e4a72d81ab9c587a8daaed6af5e2b89d9
+source-git-commit: d21d0574ee0338dbd5e11c60e0d64042182aa18b
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 94%
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 Audience ManagerとAdobe Experience Platformの間でオーディエンス共有機能を使用すると、Audience Managerの特性とセグメントをAdobe Experience Platformと共有し、Experience PlatformのセグメントをAudience Managerと共有できます。
 
-必要な [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) そして [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) の宛先をExperience Platformして、Audience ManagerとAdobe Experience Platformの間でオーディエンス共有を有効にします。
+必要なのは [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) そして [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) の宛先をExperience Platformして、Audience ManagerとAdobe Experience Platformの間でオーディエンス共有を有効にします。
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を活用することができます。
 
@@ -33,7 +33,6 @@ Audience Manager では、次のような、データ管理プラットフォー
 >
 > * 上記のデータ管理プラットフォームのユースケースを可能にするには、Audience Manager ライセンスが必要です。
 > * コアサービスの統合を通じて、Adobe Advertising Cloud、Adobe Target、Marketo およびその他の Experience Cloud ソリューションと Experience Platform のセグメントを共有する場合、Audience Manager ライセンスは *必要ありません*。
-
 
 オーディエンス共有のユースケースの概要については、次の表を参照してください。
 
@@ -221,4 +220,3 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
 >* [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
 >* [Audience Manager コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
-
