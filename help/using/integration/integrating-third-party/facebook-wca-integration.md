@@ -6,16 +6,20 @@ solution: Audience Manager
 title: Facebook WCA の統合
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 8780083474d68717fe3bd4dc632d96da89929122
-workflow-type: ht
-source-wordcount: '815'
-ht-degree: 100%
+source-git-commit: 6dc931b88666515cf51ab89ce1a54bbcf9995679
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 98%
 
 ---
 
 # [!DNL Facebook WCA] 統合 {#facebook-wca-integration}
 
 このページでは、オンライン広告ターゲティングの透明性を向上させるため、web ベースの [!DNL Audience Manager] オーディエンスセグメントを [!DNL Facebook]に送信する目的で [!DNL Facebook Website Custom Audiences]（[!DNL WCA]）ピクセルを作成するプロセスについて説明します。
+
+>[!IMPORTANT]
+>
+>これは、Facebookとの製品化された統合ではありません。
 
 ## 概要 {#overview}
 
@@ -109,3 +113,4 @@ ht-degree: 100%
 >[!NOTE]
 >
 > ユーザーが [!DNL Audience Manager] セグメントから除外された場合、現在のところ、[!DNL Audience Manager] では、ユーザーが [!DNL Custom Audience] からユーザーを削除するように [!DNL Facebook] に通知することはできません。
+>
