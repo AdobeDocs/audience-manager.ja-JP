@@ -7,10 +7,10 @@ title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 16421f8f15a8aa8c1a561b0b6682091bf78683ce
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 100%
+source-wordcount: '2551'
+ht-degree: 73%
 
 ---
 
@@ -18,13 +18,7 @@ ht-degree: 100%
 
 一般的な要件、認証、オプションのクエリパラメーター、リクエスト [!DNL URLs] およびその他の参考資料についての情報です。
 
-<!-- c_rest_api_overview.xml -->
-
-## API の要件と推奨事項 {#api-requirements-recommendations}
-
-[!DNL Audience Manager] [!DNL API] を使用する際に留意すべき事項の説明です。
-
-<!-- aam-api-requirements.xml -->
+## API の要件とレコメンデーション {#api-requirements-recommendations}
 
 [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) コードを操作する場合は、以下の点に注意してください。
 
@@ -37,16 +31,189 @@ ht-degree: 100%
 
 ## 認証 {#authentication}
 
-[!DNL Audience Manager] [!DNL REST APIs] では、2 とおりの認証方法をサポートしています。
+The [!DNL Audience Manager] [!DNL REST APIs] は、3 つの認証方法をサポートしています。
 
-* [Adobe Developer](https://www.adobe.io/) を使用した [JWT（サービスアカウント）認証](#jwt)。[!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://www.adobe.io/apis.html) が含まれます。[!DNL Adobe] [!DNL APIs] を設定して使用する場合は、次の方法をお勧めします。
-* [OAuth 認証（非推奨）](#oauth)：この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
+* [!BADGE 推奨]{type=positive}[OAuth サーバー間認証](#oauth-adobe-developer) using [Adobe開発者コンソール](https://www.adobe.io/). [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。を設定して使用する場合は、次の方法をお勧めします。 [!DNL Adobe] [!DNL APIs]. 詳細を表示： [OAuth サーバー間認証](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) (Adobe開発者向けドキュメント )。
+* [!BADGE 非推奨]{type=negative}[JWT（サービスアカウント）認証](#jwt) using [Adobe開発者コンソール](https://www.adobe.io/). [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。
+* [!BADGE 非推奨]{type=negative}[旧来の OAuth 認証](#oauth-deprecated). この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
 
 >[!IMPORTANT]
 >
 >認証方法に応じて、リクエスト [!DNL URLs] を調整する必要があります。使用すべきホスト名について詳しくは、[環境](#environments)の節を参照してください。
 
-## [!DNL JWT]（[!DNL Service Account]）Adobe Developer を使用した認証 {#jwt}
+## Adobe Developerを使用した OAuth サーバー間認証 {#oauth-adobe-developer}
+
+この節では、以下のフローチャートに示すように、Audience ManagerAPI 呼び出しを認証するために必要な資格情報を収集する方法について説明します。 必要な資格情報のほとんどは、初期の 1 回限りの設定で収集できます。 ただし、アクセストークンは、24 時間ごとに更新する必要があります。
+
+![Audience Manager認証のフロー図。](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
+
+### Adobe Developer の概要 {#developer-overview}
+
+[!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis) が含まれます。
+
+[!DNL Adobe] [!DNL APIs] を設定および使用する場合は、この方法をお勧めします。
+
+### 前提条件 {#prerequisites-server-to-server}
+
+[!DNL OAuth Server-to-Server] 認証を設定する前に、[Adobe Developer](https://developer.adobe.com/) で [Adobe Developer Console](https://developer.adobe.com/console/home) にアクセスできることを確認します。アクセスリクエストについては、組織の管理者にお問い合わせください。
+
+### 認証 {#oauth}
+
+次の手順に従って、[!DNL Adobe Developer] を使用して [!DNL OAuth Server-to-Server] 認証を設定します。
+
+1. [Adobe Developer Console](https://developer.adobe.com/console/home) にログインします。
+1. 次の手順に従います： [OAuth サーバー間秘密鍵証明書実装ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
+   * [手順 2：サービスアカウント認証を使用してプロジェクトに API を追加する](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)で、[!DNL Audience Manager] [!DNL API] オプションを選択します。
+1. [手順 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) の指示に基づいて最初の [!DNL API] 呼び出しをおこない、接続を試します。
+
+>[!NOTE]
+>
+>を設定して操作するには、以下を実行します。 [!DNL Audience Manager] [!DNL REST APIs] 自動化された方法で、クライアントの秘密鍵をプログラムで回転できます。 詳しくは、 [開発者向けドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) を参照してください。
+
+### プロジェクトへのAudience ManagerAPI の追加 {#add-aam-api-to-project}
+
+に移動します。 [Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) をクリックし、Adobe IDでログインします。 次に、 [空のプロジェクトの作成](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) ( Adobe Developer Console のドキュメント ) を参照してください。
+
+新しいプロジェクトを作成したら、「 **[!UICONTROL Add API]** の **[!UICONTROL Project Overview]** 画面。
+
+>[!TIP]
+>
+>複数の組織用にプロビジョニングされている場合は、インターフェイスの右上隅にある組織セレクターを使用して、必要な組織に属していることを確認します。
+
+![「 API を追加」オプションがハイライトされた開発者コンソール画面](/help/using/api/rest-api-main/assets/add-api.png)
+
+The **[!UICONTROL Add an API]** 画面が表示されます。 Adobe Experience Cloudの製品アイコンを選択し、「 **[!UICONTROL Audience Manager API]** 選択前に **[!UICONTROL Next]**.
+
+![「Audience ManagerAPI」を選択します。](/help/using/api/rest-api-main/assets/audience-manager-api.png)
+
+>[!TIP]
+>
+>を選択します。 **[!UICONTROL View docs]** 別のブラウザーウィンドウで [Audience ManagerAPI リファレンスドキュメント](https://bank.demdex.com/portal/swagger/index.html#).
+
+### OAuth サーバー間認証タイプを選択します。 {#select-oauth-server-to-server}
+
+次に、アクセストークンを生成する認証タイプを選択し、Audience ManagerAPI にアクセスします。
+
+>[!IMPORTANT]
+>
+>を選択します。 **[!UICONTROL OAuth Server-to-Server]** メソッドを使用する必要はありません。これは、今後サポートされる唯一のメソッドです。 The **[!UICONTROL Service Account (JWT)]** メソッドは非推奨です。 JWT 認証方式を使用した統合は 2025 年 1 月 1 日まで引き続き機能しますが、Adobeでは、その日以前に既存の統合を新しい OAuth サーバー間方式に移行することを強くお勧めします。
+
+![「 OAuth 認証方法」を選択します。](/help/using/api/rest-api-main/assets/select-oauth-authentication-method.png)
+
+### 統合する製品プロファイルを選択します。 {#select-product-profiles}
+
+Adobe Analytics の **[!UICONTROL Configure API]** 画面で、目的の製品プロファイルを選択します。 統合のサービスアカウントは、ここで選択した製品プロファイルを通じて詳細な機能にアクセスできます。
+
+![統合する製品プロファイルを選択します。](/help/using/api/rest-api-main/assets/select-product-profiles.png)
+
+選択 **[!UICONTROL Save configured API]** 準備が整ったら
+
+### 資格情報の収集 {#gather-credentials}
+
+API がプロジェクトに追加されると、 **[!UICONTROL Audience Manager API]** プロジェクトのページには、Audience ManagerAPI へのすべての呼び出しで必要な次の資格情報が表示されます。
+
+![開発者コンソールで API を追加した後の統合情報。](/help/using/api/rest-api-main/assets/api-integration-information.png)
+
+* `{API_KEY}`（[!UICONTROL Client ID]）
+* `{ORG_ID}`（[!UICONTROL Organization ID]）
+
+## アクセストークンの生成 {#generate-access-token}
+
+次の手順では、 `{ACCESS_TOKEN}` 資格情報 API 呼び出しで使用するAudience Manager。 の値とは異なる `{API_KEY}` および `{ORG_ID}`に設定する場合、Audience ManagerAPI を使用し続けるには、24 時間ごとに新しいトークンを生成する必要があります。 選択 **[!UICONTROL Generate access token]**、以下に示すように。
+
+![アクセストークンの生成方法を表示](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
+
+## API 呼び出しのテスト {#test-api-call}
+
+認証 Bearer トークンを取得したら、API 呼び出しを実行して、Audience ManagerAPI にアクセスできることをテストします。
+
+1. 次に移動： [API リファレンスドキュメント](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_).
+2. 選択 **[!UICONTROL Authorize]** をクリックし、 [アクセストークンを生成](#generate-access-token) 手順
+
+   ![API 呼び出しを認証する](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
+
+3. に対するGET呼び出しの実行 `/datasources` グローバルに使用可能なすべてのデータソースのリストを取得する API エンドポイント ( [API リファレンスドキュメント](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). 選択 **[!UICONTROL Try it out]**&#x200B;に続いて **[!UICONTROL Execute]**、以下に示すように。
+
+   ![API 呼び出しの実行](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
+
+
+>[!BEGINSHADEBOX]
+
+>[!BEGINTABS]
+
+>[!TAB API リクエスト]
+
+```shell
+curl -X 'GET' \
+  'https://api.demdex.com/v1/datasources/' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer your-access-token'
+```
+
+
+>[!TAB 正しい bearer トークンを使用する場合の API 応答]
+
+
+作業用アクセストークンを使用する場合、API エンドポイントは 200 応答と、組織がアクセスできるすべてのグローバルデータソースを含む応答本文を返します。
+
+```json
+[
+  {
+    "pid": 1794,
+    "name": "testdatasource1",
+    "description": "Test data source",
+    "status": "ACTIVE",
+    "integrationCode": "test_ds1",
+    "dataExportRestrictions": [],
+    "updateTime": 1595340792000,
+    "crUID": 0,
+    "upUID": 15910,
+    "linkNamespace": false,
+    "type": "GENERAL",
+    "subIdType": "CROSS_DEVICE_PERSON",
+    "inboundS2S": true,
+    "outboundS2S": true,
+    "useAudienceManagerVisitorID": false,
+    "allowDataSharing": true,
+    "masterDataSourceIdProvider": true,
+    "uniqueTraitIntegrationCodes": false,
+    "uniqueSegmentIntegrationCodes": false,
+    "marketingCloudVisitorIdVersion": 0,
+    "idType": "CROSS_DEVICE",
+    "samplingEndTime": 1596550392825,
+    "allowDeviceGraphSharing": false,
+    "supportsAuthenticatedProfile": true,
+    "deviceGraph": false,
+    "authenticatedProfileName": "testdatasource1",
+    "deviceGraphName": "",
+    "customNamespaceId": 29769,
+    "customNamespaceCode": "silviu_ds1",
+    "customerProfileDataRetention": 62208000,
+    "samplingStartTime": 1595340792825,
+    "dataSourceId": 29769,
+    "containerIds": [],
+    "samplingEnabled": false
+  },
+  {
+    "pid": 1794,
+    "name": "AAM Test Company Audiences",
+    "description": "Automatically generated trait data source",
+    "status": "ACTIVE",
+    "integrationCode": "adobe-provided",
+    "dataExportRestrictions": [
+      "PII"
+    ],
+
+    [...]
+```
+
+>[!ENDTABS]
+
+>[!ENDSHADEBOX]
+
+## [!BADGE 非推奨]{type=negative}[!DNL JWT]（[!DNL Service Account]）Adobe Developer を使用した認証 {#jwt}
+
++++ 非推奨に関する情報の表示 [!DNL JWT] ([!DNL Service Account]) を使用して認証トークンを取得できます。
 
 ### Adobe Developer の概要 {#adobeio}
 
@@ -83,10 +250,14 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 
 1. Audience Manager アカウントにログインし、API 呼び出しをおこなうユーザーグループに[テクニカルユーザーアカウントを追加します](../../features/administration/administration-overview.md#create-group)。
 
-## [!DNL OAuth] 認証（廃止予定） {#oauth}
++++
+
+## [!BADGE 非推奨]{type=negative}[!DNL OAuth] 認証（廃止予定） {#oauth-deprecated}
+
++++ 非推奨のレガシーに関する情報の表示 [!DNL OAuth] 認証トークンを取得する認証方法。
 
 >[!WARNING]
-> [!DNL Audience Manager]  [!UICONTROL REST API] トークン認証および [!DNL OAuth 2.0] を使用した更新は、非推奨（廃止予定）となりました。
+> [!DNL Audience Manager] [!UICONTROL REST API] トークンの認証と更新（を使用） [!DNL OAuth 2.0] は非推奨（廃止予定）となりました。
 >
 > 代わりに、[JWT（サービスアカウント）認証](#jwt-service-account-authentication-jwt)を使用してください。
 
@@ -99,7 +270,7 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 * [!DNL API] の呼び出し元のサービスを特定する（アドビの [!DNL API] を使用するアプリケーションからの呼び出し、または [!DNL API] 要求をおこなう他のツールからの呼び出しなど）。
 * [!DNL API] への妨げられることのないアクセスを提供する。特定ユーザーが退社すると、そのユーザーに関連するアカウントが無効になることがあります。すると、利用可能な [!DNL API] コードを使用できなくなってしまいます。特定の従業員に関連付けられていない汎用のアカウントを使用することで、この問題を回避できます。
 
-このようなアカウントのユースケースとして、[一括管理ツール](../../reference/bulk-management-tools/bulk-management-intro.md)を参照してください。これをおこなうためには、ユーザーアカウントに [!DNL API] へのアクセス権が付与されている必要があります。特定のユーザーに対して権限を追加するのではなく、適切な資格情報、キー、および [!DNL API] 呼び出し用の暗号鍵を持つ汎用の [!DNL API] ユーザーアカウントを作成します。これは、[!DNL Audience Manager] [!DNL API] を使用する独自のアプリケーションを開発する場合にも便利です。
+このタイプのアカウントの使用例として、 [一括管理ツール](../../reference/bulk-management-tools/bulk-management-intro.md). これをおこなうためには、ユーザーアカウントに [!DNL API] へのアクセス権が付与されている必要があります。特定のユーザーに対して権限を追加するのではなく、適切な資格情報、キー、および [!DNL API] 呼び出し用の暗号鍵を持つ汎用の [!DNL API] ユーザーアカウントを作成します。これは、[!DNL Audience Manager] [!DNL API] を使用する独自のアプリケーションを開発する場合にも便利です。
 
 担当の [!DNL Audience Manager] コンサルタントにご相談のうえ、[!DNL API] 専用のユーザーアカウントの設定をおこなってください。
 
@@ -125,7 +296,7 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 * クライアント ID と暗号鍵を、base-64 でエンコードされた文字列に変換します。この変換では、ID と暗号鍵はコロンで区切ります。例えば、資格情報 `testId : testSecret` は `dGVzdElkOnRlc3RTZWNyZXQ=` に変換されます。
 * [!DNL HTTP] [!DNL headers] `Authorization:Basic <base-64 clientID:clientSecret>` および `Content-Type: application/x-www-form-urlencoded` で渡します。ヘッダーの例を次に示します。<br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=`<br/>`Content-Type: application/x-www-form-urlencoded`
 * リクエストの本文を次のように設定します。
-   <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
+  <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
 #### ステップ 3：トークンの受け取り
 
@@ -182,6 +353,8 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 
 [!DNL Audience Manager] は、認証コードを暗黙的な認証をサポートしています。[!UICONTROL REST API]これらのアクセス方法を利用するには、ユーザーが `https://api.demdex.com/oauth/authorize` にログインし、アクセス権と更新トークンを取得する必要があります。
 
++++
+
 ## 認証済み [!DNL API] リクエストの作成 {#authenticated-api-requests}
 
 認証トークン受信後の [!DNL API] メソッドの呼び出しの要件。
@@ -204,7 +377,7 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 | `pageSize` | リクエストによって返された応答結果の番号を設定します（10 がデフォルト）。 |
 | `sortBy` | 指定された [!DNL JSON] プロパティに従って、結果を並べ替えて返します。 |
 | `descending` | 結果を降順で並べ替えて返します。`ascending` がデフォルトです。 |
-| `search` | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。   `GET https://aam.adobe.io/v1/models/?search=Test`「[!DNL get all]」メソッドで返されるすべての値を検索できます。 |
+| `search` | 検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。   `GET https://aam.adobe.io/v1/models/?search=Test`.  「[!DNL get all]」メソッドで返されるすべての値を検索できます。 |
 | `folderId` | 指定されたフォルダー内の[!UICONTROL traits]のすべての ID を返します。すべてのメソッドに対して使用できるわけではありません。 |
 | `permissions` | 指定された権限に基づいて、セグメントのリストを返します。`READ` がデフォルトです。権限には以下のものがあります。<ul><li>`READ`：セグメントに関する情報を返して表示します。</li><li>`WRITE`：`PUT` を使用してセグメントを更新します。</li><li>`CREATE`：`POST` を使用してセグメントを作成します。</li><li>`DELETE`：セグメントの削除。基になる特性がある場合、その特性へのアクセス権が必要です。例えば、特性を削除する場合、セグメントに属する特性を削除する権限が必要です。</li></ul><br>複数の権限を個別のキーと値のペアで指定します。例えば、`READ` および `WRITE` 権限だけを持っているセグメントのリストを返すには、`"permissions":"READ"`、`"permissions":"WRITE"` を渡します。 |
 | `includePermissions` | （[!DNL Boolean]）`true` に設定して、セグメントの権限を返します。初期設定は `false` です。 |
@@ -301,4 +474,3 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 >* [OAuth 認証](../../api/rest-api-main/aam-api-getting-started.md#oauth)
 >* [OAuth 2.0](https://oauth.net/2/)
 >* [OAuth 2 Simplified](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
