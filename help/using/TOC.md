@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
+source-git-commit: 95028ac2131dda5a483c9d12007dcd38369d5b6f
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1827'
 ht-degree: 98%
 
 ---
@@ -114,6 +114,7 @@ ht-degree: 98%
          + [Audience Manager のデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
          + [Twitter カスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
+         + [Amazon Advertising をセルフサービスデバイスベースの宛先として設定する](features/destinations/amazon-advertising.md)
       + カスタムの宛先 {#custom-destinations}
          + [URL の宛先の設定](features/destinations/create-url-destination.md)
          + [Cookie の宛先の設定](features/destinations/create-cookie-destination.md)

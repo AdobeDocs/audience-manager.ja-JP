@@ -7,10 +7,10 @@ solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 9947adbd99e12efdf2d94c6840929ad9266c58a2
+source-git-commit: a9a9e7c7813fa70b22e17a2f7b3cf67c0953ede2
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 100%
+source-wordcount: '1268'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 * **前回の更新日** = この [!UICONTROL device-based destination] で最後に更新がおこなわれた日付が表示されます。
 * **アップデート** = [!DNL Audience Manager]この [!UICONTROL destination] にデータをリアルタイムで送信するか、バッチ（1 回/日）で送信するかを指定します。
 * **セグメント解除** = セグメント化解除とは、デバイスプロファイルを不適格として[!UICONTROL segments]から削除するプロセスのことです。デバイスプロファイルを[!UICONTROL segment]から削除できるかどうかは、[!UICONTROL Profile Merge Rule] の作成時に使用したデバイスオプションによって異なります。セグメント化解除は、[!DNL GDPR] 削除リクエストのコンテキストでも使用されます。[プロファイルの結合ルールとデバイスのセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)および [セグメント解除に対応している Audience Manager パートナー](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)をお読みください。[!DNL Audience Manager] は、以下の「**はい**」とマークされている[!UICONTROL destinations]にセグメント情報を送信します。
-* **[!DNL IAB TCF] 同意の字列の受信** = [!DNL Audience Manager Plug-in for IAB TCF] は、ユーザーのプライバシー設定に従い、[!DNL IAB TC] 文字列をアクティベーションパートナーに転送できるようにします。[IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
+* **受信中 [!DNL IAB TCF] 同意シグナル** = [!DNL Audience Manager Plug-in for IAB TCF] を使用すると、 [!DNL IAB TC] 文字列をアクティベーションパートナーに割り当て、ユーザーのプライバシー選択に従う。 [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
 * **[!DNL ICDS]** = この列には、[!UICONTROL Instant Cross-Device Suppression] をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **モバイルデバイス ID** = この列には、[!DNL Audience Manager] からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 | [!DNL Adtheorent] | 2017/02/22 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Affinio] | 2018/04/03 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Aki] | 2018/06/21 | 1 回/日 | × | × | × | ○ |
-| [!DNL Amazon Advertising] | 2017/06/15 | 1 回/日 | ○ | × | × | × |
+| [!DNL Amazon Advertising] | 01/02/2024 | 1 回/日 | ○ | × | × | × |
 | [!DNL AOL AdLearn] | 2017/03/02 | リアルタイム | × | × | × | ○ |
 | [!DNL AOL ONE] | 2017/03/02 | リアルタイム | ○ | × | × | ○ |
 | [!DNL AppNexus] | 2017/03/02 | リアルタイム | ○ | × | ○ | ○ |
@@ -66,7 +66,7 @@ ht-degree: 100%
 | [!DNL Crosswise] | 2017/02/27 | 1 回/日 | ○ | × | × | × |
 | [!DNL D.A.C. AudienceOne] | 2017/02/27 | 1 回/日 | ○ | × | × | × |
 | [!DNL DataXu] | 2017/11/20 | リアルタイム | × | × | × | ○ |
-| [!DNL Digilant] | 2017/03/02 | リアルタイム |  | × | × | × |
+| [!DNL Digilant] | 2017/03/02 | リアルタイム |           | × | × | × |
 | [!DNL DistrictM] | 2017/03/02 | 1 回/日 | ○ | × | × | × |
 | [!DNL DoubleVerify] | 2017/09/06 | 1 回/日 | ○ | × | × | × |
 | [!DNL Drawbridge] | 2017/03/02 | リアルタイム | × | × | × | ○ |
@@ -82,7 +82,7 @@ ht-degree: 100%
 | [!DNL Flybits] | 31/07/2020 | リアルタイム | ○ | × | ○ | ○ |
 | [!DNL FreakOut] | 2017/03/03 | 1 回/日 | ○ | × | × | × |
 | [!DNL Freewheel] | 2017/02/27 | 1 回/日 | ○ | ○ | × | ○ |
-| [!DNL Gamut Media] | 2017/03/03 | リアルタイム |  | × | × |  |
+| [!DNL Gamut Media] | 2017/03/03 | リアルタイム |           | × | × |                   |
 | [!DNL Google AdsWords Display] | 2018/08/02 | リアルタイム | ○ | ○ | × | ○ |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 2017/04/24 | リアルタイム | ○ | ○ | ○ | ○ |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 2017/04/24 | リアルタイム | ○ | ○ | ○ | ○ |
@@ -99,7 +99,7 @@ ht-degree: 100%
 | [!DNL Krux] | 2017/06/30 | 1 回/日 | × | × | × | ○ |
 | [!DNL Liftoff.io] | 2017/11/09 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL LiveIntent] | 2017/07/17 | 1 回/日 | ○ | × | × | × |
-| [!DNL LiveRail] | 2017/01/20 | 1 回/日 |  | × | × |  |
+| [!DNL LiveRail] | 2017/01/20 | 1 回/日 |           | × | × |                   |
 | [!DNL Logicad] | 2017/06/22 | 1 回/日 | × | × | × | × |
 | [!DNL Lotame] | 2017/06/30 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL MaxPoint Interactive] | 2017/02/27 | 1 回/日 | × | × | × | × |
@@ -132,15 +132,15 @@ ht-degree: 100%
 | [!DNL Resonate] | 2017/02/17 | 1 回/日 | ○ | × | × | × |
 | [!DNL RevJet] | 2017/02/17 | 1 回/日 | × | × | × | × |
 | [!DNL RocketFuel] | 2017/02/17 | リアルタイム | ○ | × | ○ | ○ |
-| [!DNL Rubicon] |  | リアルタイム | ○ | ○ | × |  |
+| [!DNL Rubicon] |            | リアルタイム | ○ | ○ | × |                   |
 | [!DNL RUN] | 2017/02/17 | 1 回/日 | ○ | × | × | × |
 | [!DNL RTB House] | 04/02/2021 | リアルタイム | ○ | × | ○ | ○ |
 | [!DNL Sabio Mobile] | 2017/02/17 | 1 回/日 | × | × | × | ○ |
 | [!DNL Simpli.fi] | 2017/02/17 | 1 回/日 | × | × | × | ○ |
-| [!DNL Sizmek ad server (Amazon)] | 2017/02/17 | リアルタイム | ○ | × | × |  |
+| [!DNL Sizmek ad server (Amazon)] | 2017/02/17 | リアルタイム | ○ | × | × |                   |
 | [!DNL Slickdeals] | 2018/09/04 | リアルタイム | ○ | × | × | ○ |
 | [!DNL Smart Adserver] | 2017/07/31 | リアルタイム | ○ | × | ○ | ○ |
-| [!DNL So-net Media Networks Logicad] |  | 1 回/日 | ○ | × | × |  |
+| [!DNL So-net Media Networks Logicad] |            | 1 回/日 | ○ | × | × |                   |
 | [!DNL Sonobi] | 2017/03/28 | リアルタイム | ○ | × | ○ | × |
 | [!DNL SpecificMedia] | 2017/03/03 | リアルタイム | × | × | × | × |
 | [!DNL SpongeCell] | 2017/03/03 | リアルタイム | ○ | × | ○ | ○ |
@@ -155,7 +155,7 @@ ht-degree: 100%
 | [!DNL Telaria] | 2019/04/25 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Telogical Systems] | 2017/03/03 | リアルタイム | ○ | × | × | × |
 | [!DNL The Trade Desk] | 2017/03/03 | リアルタイム | ○ | ○ | ○ | ○ |
-| [!DNL Thnk Realtime] | 2016/02/05 | リアルタイム |  | × | × |  |
+| [!DNL Thnk Realtime] | 2016/02/05 | リアルタイム |           | × | × |                   |
 | [!DNL Tremor Video] | 2017/03/03 | 1 回/日 | ○ | × | × | × |
 | [!DNL Triple Lift] | 2017/03/03 | リアルタイム | × | ○ | × | × |
 | [!DNL TrueX] | 2018/01/11 | リアルタイム | ○ | × | × | ○ |
@@ -169,7 +169,7 @@ ht-degree: 100%
 | [!DNL Videology] | 2017/03/03 | 1 回/日 | × | × | × | × |
 | [!DNL VisualIQ] | 2017/03/24 | 1 回/日 | ○ | × | × | × |
 | [!DNL Wikibuy] | 2018/08/04 | リアルタイム | ○ | × | × | ○ |
-| [!DNL X+1] | 2016/02/05 | 1 回/日 |  | × | × |  |
+| [!DNL X+1] | 2016/02/05 | 1 回/日 |           | × | × |                   |
 | [!DNL Xaxis] | 2017/03/03 | 1 回/日 | ○ | × | × | × |
 | [!DNL Yahoo DataX] | 2017/03/03 | リアルタイム | ○ | ○ | ○ | ○ |
 | [!DNL Yahoo! Japan] | 2017/03/03 | リアルタイム | × | × | × | × |
