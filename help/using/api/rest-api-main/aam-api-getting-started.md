@@ -7,9 +7,9 @@ title: REST API の使用の手引き
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 16421f8f15a8aa8c1a561b0b6682091bf78683ce
+source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2558'
 ht-degree: 73%
 
 ---
@@ -382,6 +382,8 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 | `permissions` | 指定された権限に基づいて、セグメントのリストを返します。`READ` がデフォルトです。権限には以下のものがあります。<ul><li>`READ`：セグメントに関する情報を返して表示します。</li><li>`WRITE`：`PUT` を使用してセグメントを更新します。</li><li>`CREATE`：`POST` を使用してセグメントを作成します。</li><li>`DELETE`：セグメントの削除。基になる特性がある場合、その特性へのアクセス権が必要です。例えば、特性を削除する場合、セグメントに属する特性を削除する権限が必要です。</li></ul><br>複数の権限を個別のキーと値のペアで指定します。例えば、`READ` および `WRITE` 権限だけを持っているセグメントのリストを返すには、`"permissions":"READ"`、`"permissions":"WRITE"` を渡します。 |
 | `includePermissions` | （[!DNL Boolean]）`true` に設定して、セグメントの権限を返します。初期設定は `false` です。 |
 
+{style="table-layout:auto"}
+
 ### ページオプションに関する注意
 
 ページ情報が指定&#x200B;*されていない*&#x200B;場合、リクエストは、プレーンな [!DNL JSON] 結果を配列で返します。ページ情報が指定&#x200B;*されている*&#x200B;場合、返されるリストは、合計結果と現在のページに関する情報を含んだ [!DNL JSON] オブジェクトにラッピングされます。ページオプションを使用したサンプルリクエストは次のようになります。
@@ -400,7 +402,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 使用する認証方法に応じて、次の表に従ってリクエスト [!DNL URLs] を調整する必要があります。
 
-### [!DNL URLs] 認証のリクエスト [!DNL JWT]  {#request-urls-jwt}
+### リクエスト [!DNL URLs] （の） [!BADGE 推奨]{type=positive}[!BADGE 非推奨]{type=negative}[!DNL JWT] Adobe Developerを使用した認証 {#request-urls-jwt}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -416,7 +418,9 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### [!DNL URLs] 認証のリクエスト [!DNL OAuth]（廃止予定） {#request-urls-oauth}
+{style="table-layout:auto"}
+
+### リクエスト [!DNL URLs] （の） [!BADGE 非推奨]{type=negative}[!DNL OAuth] 認証 {#request-urls-oauth}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -431,6 +435,8 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | [!DNL Traits] | `https://api.demdex.com/v1/traits/` |
 | [!DNL Trait Types] | `https://api.demdex.com/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://api.demdex.com/v1/taxonomies/0/` |
+
+{style="table-layout:auto"}
 
 ## 環境 {#environments}
 
