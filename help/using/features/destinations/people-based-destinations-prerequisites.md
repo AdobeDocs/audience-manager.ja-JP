@@ -1,17 +1,18 @@
 ---
-description: 'People-Based Destinations に新規登録する前に満たす必要のある顧客要件の概要については、以下をお読みください。  '
+description: People-Based Destinations に新規登録する前に満たす必要のある顧客要件の概要については、以下をお読みください。
 seo-description: Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.
 seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
 title: 前提条件と考慮事項
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: cd40e1e3cc2199d1937950934d674cfad301f3e8
-workflow-type: ht
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
+workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
+
 
 # 前提条件と考慮事項 {#prerequisites-considerations}
 
@@ -25,7 +26,7 @@ ht-degree: 100%
 
 ## [!UICONTROL People-Based Destinations] への新規登録  {#signing-up}
 
-[!UICONTROL People-Based Destinations] は、ソーシャルネットワーク上または電子メールマーケティングで、カスタマイズされたオファーを用いてオーディエンスのターゲティングをおこない、ユーザーベースの環境でファーストパーティのオーディエンスセグメントをアクティブ化することで、Audience Manager のエクスペリエンスを強化するプレミアム機能です。
+[!UICONTROL People-Based Destinations] は、ソーシャルネットワーク上またはメールマーケティングで、カスタマイズされたオファーを用いてオーディエンスのターゲティングをおこない、ユーザーベースの環境でファーストパーティのオーディエンスセグメントをアクティブ化することで、Audience Manager のエクスペリエンスを強化するプレミアム機能です。
 
 このプレミアム機能を活用するには、アドビの担当者にお問い合わせください。
 
@@ -37,15 +38,17 @@ ht-degree: 100%
 
 1. お使いの [!DNL Facebook] ユーザーアカウントで、使用するプランの広告アカウントに対する&#x200B;**キャンペーンの管理**&#x200B;権限が有効になっている必要があります。
 2. **Adobe Experience Cloud** ビジネスアカウントを [!DNL Facebook Ad Account] の広告パートナーとして追加します。`business ID=206617933627973` を使用します。詳しくは、「[パートナーをビジネスマネージャーに追加する](https://www.facebook.com/business/help/1717412048538897)」を参照してください。
+
    >[!IMPORTANT]
-   > Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!UICONTROL People-Based Destinations] 統合に必要です。
+   >Adobe Experience Cloud の権限を設定する場合は、**キャンペーンの管理**&#x200B;権限を有効にする必要があります。これは、[!UICONTROL People-Based Destinations] 統合に必要です。
+
 3. [!DNL Facebook Custom Audiences] 利用規約を読み、署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
 
 ### [!DNL LinkedIn] {#linkedin}
 
 [!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL LinkedIn] に送信する前に、お客様の [!DNL LinkedIn Campaign Manager] アカウントが [!DNL Creative Manager] 以上の権限レベルであることを確認してください。
 
-[!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、「[Add, Edit, and Remove User Permissions on Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)」（LinkedIn ドキュメント）を参照してください。
+編集方法を学ぶには [!DNL LinkedIn Campaign Manager] ユーザー権限： [Advertising アカウントに対するユーザー権限の追加、編集、削除](https://www.linkedin.com/help/lms/answer/5753) (LinkedInドキュメント ) を参照してください。
 
 ビデオの手順については、「[Understanding and Configuring the LinkedIn People-Based Destination](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=ja)」を参照してください。
 
@@ -59,9 +62,17 @@ ht-degree: 100%
 
 ## データオンボーディング {#data-onboarding}
 
-[!UICONTROL People-Based Destinations] のデータ取り込みでは現在、バッチ転送 1 回あたり、1 つの顧客 ID（[!DNL CRM ID]）とリンクされている最大 10 個のハッシュ化された電子メールアドレスをサポートしています。1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスをアップロードすると、Audience Manager が、それらのうち 10 個の電子メールアドレスを取り込みます（特定の順序はありません）。
+>[!IMPORTANT]
+>
+>すべてのAudience Managerの顧客は、に新規登録することなく、ハッシュ化された電子メールを取り込むことができます。 [!UICONTROL People-Based Destinations].
+
+のデータ取り込み [!UICONTROL People-Based Destinations] は現在、1 つの顧客 ID([!DNL CRM ID]) を一括転送ごとに更新する必要があります。
 
 1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスを、複数の一括転送でアップロードすると、Audience Manager は最近追加された 10 個の電子メールアドレスを保持します。
+
+ハッシュ化された識別子を取り込むには、次の手順を実行します。 [ハッシュ化された識別子用のクロスデバイス対応データソースの作成](../create-data-source-hashed-emails.md) をクリックし、 **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプション。
+
+![Audience Managerベースの宛先やハッシュ化された電子メールワークフローで関連するクロスデバイス ID を共有するオプションを示すユーザー UI の画像](assets/data-source-share-ids.png)
 
 ## データプライバシー {#data-privacy}
 

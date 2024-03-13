@@ -1,17 +1,18 @@
 ---
-description: 'このページには、Audience Manager とピープルベースのプラットフォーム間の統合を設定および管理する方法に関するガイダンスが含まれています。 '
-seo-description: 'このページには、Audience Manager とピープルベースのプラットフォーム間の統合を設定および管理する方法に関するガイダンスが含まれています。 '
-seo-title: ピープルベースのプラットフォームを使用した認証
+description: このページには、Audience Manager とピープルベースのプラットフォーム間の統合を設定および管理する方法に関するガイダンスが含まれています。
+seo-description: This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms.
+seo-title: Authentication with People-Based Platforms
 solution: Audience Manager
 title: ピープルベースのプラットフォームを使用した認証
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '526'
+ht-degree: 97%
 
 ---
+
 
 # ピープルベースのプラットフォームを使用した認証 {#authentication-with-people-based-platforms}
 
@@ -23,7 +24,7 @@ ht-degree: 100%
 >[!NOTE]
 >この手順は、実装シナリオに関係なく、People-Based Destinations では必須です。
 
-## ピープルベースのプラットフォーム認証の設定 {#configure-authentication}
+## ユーザーベースのプラットフォーム認証を設定する {#configure-authentication}
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)

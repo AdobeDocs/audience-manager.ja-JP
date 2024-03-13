@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: 95028ac2131dda5a483c9d12007dcd38369d5b6f
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1835'
 ht-degree: 98%
 
 ---
@@ -91,6 +91,7 @@ ht-degree: 98%
    + データソース {#data-sources}
       + [データソースリストと設定](features/datasources-list-and-settings.md)
       + [データソースの作成](features/manage-datasources.md)
+      + [ハッシュ化された電子メールワークフロー用のデータソースの設定](features/create-data-source-hashed-emails.md)
       + [グローバルデータソース](features/global-data-sources.md)
    + [宣言された ID](features/declared-ids.md)
    + [派生シグナル](features/derived-signals.md)
