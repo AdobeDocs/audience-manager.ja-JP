@@ -3,7 +3,7 @@ title: ハッシュ化された電子メールワークフロー用のデータ�
 description: ハッシュ化された電子メールワークフロー用のハッシュ化された電子メールを保存するデータソースの作成方法を説明します。
 solution: Audience Manager
 feature: Data Sources
-source-git-commit: 903c2602f759e0d507e45f1db4cbc880a599c32e
+source-git-commit: b88f180808ec9723a2a5324441733f6383f6302d
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 49%
@@ -29,4 +29,5 @@ People-Based Destinations などのハッシュ化された電子メールワー
    >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。そうしないと、ハッシュ化された電子メールワークフローで使用できなくなります。
 
    ![Audience Managerソース設定セクションを示すデータ UI 画像。](../features/assets/data-source-settings.png)
+
 
