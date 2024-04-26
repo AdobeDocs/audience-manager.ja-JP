@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
+source-git-commit: b0c35d79a07b481e332ddf8f4aedab5484416a51
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 98%
+source-wordcount: '1865'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 98%
 
 + [Audience Manager ガイド](aam-home.md)
 + [Real-Time CDPへの進化ガイド](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ Web SDK への移行{#migrate-to-web-sdk}
+   + [Adobe Audience Managerのタグ拡張機能から Web SDK のタグ拡張機能への移行](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
+   + [AppMeasurement JavaScript ライブラリから Web SDK JavaScript ライブラリへの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
@@ -91,7 +94,7 @@ ht-degree: 98%
    + データソース {#data-sources}
       + [データソースリストと設定](features/datasources-list-and-settings.md)
       + [データソースの作成](features/manage-datasources.md)
-      + [ハッシュ化された電子メールワークフロー用のデータソースの設定](features/create-data-source-hashed-emails.md)
+      + [ハッシュ化されたメールワークフロー用のデータソースの設定](features/create-data-source-hashed-emails.md)
       + [グローバルデータソース](features/global-data-sources.md)
    + [宣言された ID](features/declared-ids.md)
    + [派生シグナル](features/derived-signals.md)
@@ -338,7 +341,7 @@ ht-degree: 98%
          + [受信データタイプのファイル PGP 暗号化](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [受信データ転送ファイルのファイル圧縮](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [受信処理後パートナーに送信されるメッセージの例](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-         + [受信ファイルにAmazon S3 のクロスアカウントのバケットのアクセス許可を使用する](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
+         + [インバウンドファイル用にAmazon S3 のクロスアカウントバケットの権限を活用](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform との統合 {#integration-experience-platform}
       + [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](integration/integration-aep/aam-aep-audience-sharing.md)
