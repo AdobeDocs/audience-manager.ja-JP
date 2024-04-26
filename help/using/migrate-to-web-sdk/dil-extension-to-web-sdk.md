@@ -1,7 +1,7 @@
 ---
 title: Audience Managerタグ拡張機能から Web SDK タグ拡張機能に移行します
 description: Audience Managerタグ拡張機能から Web SDK タグ拡張機能にAudience Managerするためにデータ収集ライブラリを更新する手順を理解します
-source-git-commit: 1cf6a80bd5b7f583ea2511becf415b430ce2889e
+source-git-commit: c80f39c4001d2bcfa94012b9f4ffa720806487d4
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -153,3 +153,4 @@ Adobe Experience Platform Data Collection でデータストリームを作成�
 +++
 
 この時点で、Audience Manager実装は Web SDK に完全に移行され、将来Real-Time CDPに移行する準備が整います。
+
