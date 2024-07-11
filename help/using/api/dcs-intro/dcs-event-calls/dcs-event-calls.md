@@ -10,7 +10,7 @@ exl-id: 7eb0ce70-5871-441a-920a-97a711482dde
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 * 呼び出しのデータ要素を所定の形式どおりに設定する。
 * [!DNL DCS] から返されるパラメーターを理解する。
 
-開始するには、この後の各節を参照してください。最初に、[DCS へのデータ送信](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)を参照し、次に、[DCS からのデータ受信](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)を参照してください。
+開始するには、この後の各節を参照してください。次から開始 [DCS へのデータの送信](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). を参照し、次に、[DCS からのデータ受信](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)を参照してください。
 
 * [DCS へのデータ送信](dcs-url-send.md)
 * [DCS からのデータ受信](dcs-url-receive.md)
@@ -35,4 +35,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [DCS API リファレンス](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
-

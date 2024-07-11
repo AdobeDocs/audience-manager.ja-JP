@@ -19,7 +19,7 @@ ht-degree: 96%
 + [Real-Time CDPへの進化ガイド](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Web SDK への移行{#migrate-to-web-sdk}
    + [Adobe Audience Managerのタグ拡張機能から Web SDK のタグ拡張機能への移行](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
-   + [AppMeasurement JavaScript ライブラリから Web SDK JavaScript ライブラリへの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
+   + [AppMeasurementのJavaScript ライブラリから Web SDK JavaScript ライブラリへの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
@@ -94,7 +94,7 @@ ht-degree: 96%
    + データソース {#data-sources}
       + [データソースリストと設定](features/datasources-list-and-settings.md)
       + [データソースの作成](features/manage-datasources.md)
-      + [ハッシュ化されたメールワークフロー用のデータソースの設定](features/create-data-source-hashed-emails.md)
+      + [ハッシュ化されたメールワークフロー用の Data Sourceの設定](features/create-data-source-hashed-emails.md)
       + [グローバルデータソース](features/global-data-sources.md)
    + [宣言された ID](features/declared-ids.md)
    + [派生シグナル](features/derived-signals.md)
@@ -118,7 +118,7 @@ ht-degree: 96%
          + [Audience Manager のデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
          + [Twitter カスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
-         + [Amazon Advertising をセルフサービスデバイスベースの宛先として設定する](features/destinations/amazon-advertising.md)
+         + [Amazon Advertisingをセルフサービスデバイスベースの宛先として設定する](features/destinations/amazon-advertising.md)
       + カスタムの宛先 {#custom-destinations}
          + [URL の宛先の設定](features/destinations/create-url-destination.md)
          + [Cookie の宛先の設定](features/destinations/create-cookie-destination.md)
