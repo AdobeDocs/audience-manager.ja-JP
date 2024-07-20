@@ -1,15 +1,15 @@
 ---
 description: メディアデータを Audience Manager に送信する方法の 1 つとして、広告サーバーのマクロを使用してキャンペーン属性を Audience Manager に送信できます。
-seo-description: メディアデータを Audience Manager に送信する方法の 1 つとして、広告サーバーのマクロを使用してキャンペーン属性を Audience Manager に送信できます。
-seo-title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
+seo-description: One approach for sending media data to Audience Manager uses ad server macros to send campaign attributes to Audience Manager.
+seo-title: Capturing Campaign Impression Data via Pixel Calls
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
-feature: Adobe Campaign との統合
+feature: Adobe Campaign Integration
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '738'
+workflow-type: tm+mt
+source-wordcount: '698'
 ht-degree: 100%
 
 ---
@@ -118,4 +118,3 @@ https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteI
 >[!MORELIKETHIS]
 >
 >* [Audience Optimization レポートのデータおよびメタデータファイル](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-

@@ -1,20 +1,20 @@
 ---
 description: Audience Optimization for Publishers を使用すれば、自社が所有および運用しているコンテンツにおける、どの程度 Audience Manager のセグメントのパフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の指標を組み合わせることで、オーディエンスの最適化と収益化の機会を導き出します。
-seo-description: Audience Optimization for Publishers を使用すれば、自社が所有および運用しているコンテンツにおける、どの程度 Audience Manager のセグメントのパフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の指標を組み合わせることで、オーディエンスの最適化と収益化の機会を導き出します。
+seo-description: Audience Optimization for Publishers can help you identify potential performance opportunities for Audience Manager segments on your owned and operated content. These reports combine log-level campaign performance data with Audience Manager metrics to inform audience optimizations and monetization opportunities.
 seo-title: Audience Optimization for Publishers
 solution: Audience Manager
-title: パブリッシャー向けAudience Optimization
+title: Audience Optimization for Publishers
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
-feature: Audience Optimization レポート
+feature: Audience Optimization Reports
 exl-id: 5972ea89-3e4d-48a5-bdd2-0a34211d8bfd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
 
-# パブリッシャー向けAudience Optimization{#audience-optimization-for-publishers}
+# Audience Optimization for Publishers{#audience-optimization-for-publishers}
 
 Audience Optimization for Publishers を使用すれば、自社が所有および運用しているコンテンツにおける、どの程度 Audience Manager のセグメントのパフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の指標を組み合わせることで、オーディエンスの最適化と収益化の機会を導き出します。
 

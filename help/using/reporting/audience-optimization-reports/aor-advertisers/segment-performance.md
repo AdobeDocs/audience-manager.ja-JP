@@ -1,15 +1,15 @@
 ---
 description: セグメントパフォーマンスレポートは、インプレッションおよびコンバージョン率を使用して、マッピングされたセグメントとマッピングされていないセグメントを比較します。マッピングされたセグメントとは、作成してターゲティングのために宛先に送信したセグメントのことです。マッピングされていないセグメントとは、作成したもののターゲティングのために宛先に送信していないセグメントのことです。レポート内およびレポート間でこれらの異なるセグメントタイプを比較することで、既存のキャンペーンを最適化し、見落としていたセグメントを宛先に送信してターゲティングをおこなうことができます。
-seo-description: セグメントパフォーマンスレポートは、インプレッションおよびコンバージョン率を使用して、マッピングされたセグメントとマッピングされていないセグメントを比較します。マッピングされたセグメントとは、作成してターゲティングのために宛先に送信したセグメントのことです。マッピングされていないセグメントとは、作成したもののターゲティングのために宛先に送信していないセグメントのことです。レポート内およびレポート間でこれらの異なるセグメントタイプを比較することで、既存のキャンペーンを最適化し、見落としていたセグメントを宛先に送信してターゲティングをおこなうことができます。
-seo-title: セグメントパフォーマンスレポート
+seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and conversion rates. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
+seo-title: Segment Performance Report
 solution: Audience Manager
 title: セグメントパフォーマンスレポート
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
-feature: Audience Optimization レポート
+feature: Audience Optimization Reports
 exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---

@@ -1,15 +1,15 @@
 ---
 description: 様々なレポートスライダーを使用すると、指定した範囲より上、範囲より下または範囲内のデータのみを表示できます。
-seo-description: 様々なレポートスライダーを使用すると、指定した範囲より上、範囲より下または範囲内のデータのみを表示できます。
-seo-title: データスライダーを使用したレポート結果のフィルタリング
+seo-description: Use the various report sliders to show only the data that falls above, below, or within your specified range.
+seo-title: Filter Report Results With the Data Sliders
 solution: Audience Manager
 title: データスライダーを使用したレポート結果のフィルタリング
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
-feature: レポートリファレンス
+feature: Reporting Reference
 exl-id: 876a01c2-e73e-4728-8890-e3f354ad1b86
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '148'
 ht-degree: 100%
 
 ---
@@ -34,4 +34,3 @@ c_reach_slider.xml
 >[!MORELIKETHIS]
 >
 >* [セグメント／特性間重複レポートのデータフィルターについて](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
-

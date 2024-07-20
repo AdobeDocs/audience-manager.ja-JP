@@ -8,8 +8,8 @@ uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
 feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
-workflow-type: ht
-source-wordcount: '695'
+workflow-type: tm+mt
+source-wordcount: '705'
 ht-degree: 100%
 
 ---

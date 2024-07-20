@@ -1,15 +1,15 @@
 ---
 description: Audience Manager におけるサードパーティベンダーとの非同期のバッチデータ交換に関する全般的な概要です。
-seo-description: Audience Manager におけるサードパーティベンダーとの非同期のバッチデータ交換に関する全般的な概要です。
-seo-title: バッチデータ転送プロセスの説明
+seo-description: A general overview of how Audience Manager performs an asynchronous batch data exchange with a third-party vendor.
+seo-title: Batch Data Transfer Process Described
 solution: Audience Manager
 title: バッチデータ転送プロセスの説明
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: e02dcc9a-4010-4c01-bd6b-ad04b8029f18
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '187'
 ht-degree: 100%
 
 ---
@@ -36,4 +36,4 @@ ht-degree: 100%
 1. [!DNL Audience Manager] およびサードパーティのデータプロバイダーは訪問者に対して一意の ID （通常 Cookie に基づく）を割り当てます。
 1. [!DNL Audience Manager] はサードパーティのデータプロバイダーを呼び出し、訪問者 ID と照合します。
 1. スケジュールされた要求によって、通常 1 日ごとに、[!DNL Audience Manager] とサードパーティのデータプロバイダーとの間で訪問者のセグメントデータが送受信されます。
-1. インバウンドの [!UICONTROL Server-to-Server] ファイルが処理されるたびに、パートナーソリューションに対してレシートが電子メールで送信されます。また、設定によってはパートナーにも送信されます。詳しくは、[受信処理後パートナーに送信されるメッセージの例](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)を参照してください。
+1. インバウンドの [!UICONTROL Server-to-Server] ファイルが処理されるたびに、パートナーソリューションに対してレシートがメールで送信されます。また、設定によってはパートナーにも送信されます。詳しくは、[受信処理後パートナーに送信されるメッセージの例](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)を参照してください。

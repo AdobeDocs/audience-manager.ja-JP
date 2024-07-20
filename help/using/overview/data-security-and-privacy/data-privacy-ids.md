@@ -1,15 +1,15 @@
 ---
 description: このドキュメントでは、データのプライバシーリクエストで使用できる Audience Manager ID のタイプについて説明します。
-seo-description: このドキュメントでは、データのプライバシーリクエストで使用できる Audience Manager ID のタイプについて説明します。
-seo-title: Audience Manager 識別子（ID）
+seo-description: This document covers the types of Audience Manager IDs that you can use in data privacy requests.
+seo-title: Audience Manager Identifiers (IDs)
 solution: Audience Manager
 keywords: GDPR UI、GDPR API、CCPA、プライバシー、AAM ID
 title: Audience Manager 識別子（ID）
-feature: データガバナンスとプライバシー
+feature: Data Governance & Privacy
 exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---

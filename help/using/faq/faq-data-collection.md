@@ -3,14 +3,14 @@ description: データ収集と統合に関するよくある質問と問題点�
 seo-description: Common data collection and integration questions and issues.
 seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
-title: 'データ収集および製品統合に関するよくある質問 '
+title: データ収集および製品統合に関するよくある質問
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP アドレス; STFP IP アドレス; FTP アドレス
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
-workflow-type: ht
-source-wordcount: '1198'
+workflow-type: tm+mt
+source-wordcount: '1211'
 ht-degree: 100%
 
 ---

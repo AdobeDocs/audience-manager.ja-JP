@@ -1,15 +1,15 @@
 ---
 description: Audience Manager がセグメント情報をデータパートナーに送信すると、これらのオブジェクトが数値 ID で識別されます。データパートナーは、この情報を顧客と共有する（または自分で操作する）場合、実際の名前および説明を使用すると、レポート、ダッシュボードまたは他のユーザーインターフェイス（UI）での顧客のエクスペリエンスが向上します。データパートナーは、これらのわかりやすい名前を、手動または自動化された方法（この節で説明）のどちらかで顧客に提供できます。
-seo-description: Audience Manager がセグメント情報をデータパートナーに送信すると、これらのオブジェクトが数値 ID で識別されます。データパートナーは、この情報を顧客と共有する（または自分で操作する）場合、実際の名前および説明を使用すると、レポート、ダッシュボードまたは他のユーザーインターフェイス（UI）での顧客のエクスペリエンスが向上します。データパートナーは、これらのわかりやすい名前を、手動または自動化された方法（この節で説明）のどちらかで顧客に提供できます。
-seo-title: セグメントメタデータの取得
+seo-description: When Audience Manager sends segment information to a data partner, it identifies these objects with numeric IDs. As a data partner, when you share this information with your customers (or work with it yourself), an actual name and description provide a better experience for customers in reports, dashboards, or other user interfaces (UI). Data partners can make these friendly names available to their customers with either the manual or automated methods described in this section.
+seo-title: Retrieving Segment Metadata
 solution: Audience Manager
 title: セグメントメタデータの取得
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
-feature: セグメント
+feature: Segments
 exl-id: 64922cf8-f7bf-4e33-871f-d33626b06360
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '524'
 ht-degree: 100%
 
 ---

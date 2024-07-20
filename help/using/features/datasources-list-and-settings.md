@@ -8,9 +8,9 @@ uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
 exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: ht
-source-wordcount: '1071'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1070'
+ht-degree: 98%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> File Format Troubleshooting</span></b> </p> </td> 
-   <td colname="col2"> <p>受信ファイル処理の問題をトラブルシューティングする必要がある場合は、「<b><span class="uicontrol">Enable file error sampling</span></b>」を選択します。ファイル形式および構文に関するエラーが表示されるエラーサンプルレポートが生成されるようになります。 </p> <p>詳しくは、<a href="../reporting/onboarding-status-report.md#onboarding-status-about">オンボーディングステータスレポート：概要</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>受信ファイル処理の問題をトラブルシューティングする必要がある場合は、「<b><span class="uicontrol">Enable file error sampling</span></b>」を選択します。ファイル形式および構文に関するエラーが表示されるエラーサンプルレポートが生成されるようになります。 </p> <p>エラー <a href="../reporting/onboarding-status-report.md#onboarding-status-about"> ポートとエラーサンプリングについて詳しくは </a> オンボーディングステータスレポート：概要を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

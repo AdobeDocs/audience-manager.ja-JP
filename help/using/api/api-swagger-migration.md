@@ -1,7 +1,7 @@
 ---
 description: Audience Manager チームのメンバーもまたエンジニア、開発者またはコーディングのエキスパートであり、当然ながら、信頼できる正確な API ドキュメントで作業したいという気持ちを持っています。そこで、API コンテンツを Swagger で書き直し、新しい場所に移動させることにしました。これらの変更は、Audience Manager API のコーディングを円滑にすることを目的におこなわれました。
-seo-description: Audience Manager チームのメンバーもまたエンジニア、開発者またはコーディングのエキスパートであり、当然ながら、信頼できる正確な API ドキュメントで作業したいという気持ちを持っています。そこで、API コンテンツを Swagger で書き直し、新しい場所に移動させることにしました。これらの変更は、Audience Manager API のコーディングを円滑にすることを目的におこなわれました。
-seo-title: Audience Manager の API コードの移行
+seo-description: Here at Audience Manager, we're engineers, developers, and code ninjas just like you. And, like you, we want to work with reliable, accurate API documentation. As a result, we're re-writing our API content in Swagger and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager API code.
+seo-title: Audience Manager API Code Migration
 solution: Audience Manager
 title: Audience Manager の API コードの移行
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
@@ -9,7 +9,7 @@ feature: API
 exl-id: 081be8a7-5029-45b1-8fb1-0531d5090fe0
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -91,7 +91,7 @@ Audience Manager チームのメンバーもまたエンジニア、開発者ま
 |---------|----------|
 | **[!UICONTROL Algorithmic Models**] | [アルゴリズムモデル](https://bank.demdex.com/portal/swagger/index.html#/Algorithmic_Models_API) |
 | **[!UICONTROL Audience Marketplace]** | <ul><li>[データフィード](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[データフィード（要求）](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[データフィード（ファイナンス）](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[データフィード（計画）](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[データフィード（サブスクリプション）](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul> |
-| **[!UICONTROL Data Sources]** | [データソース ](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
+| **[!UICONTROL Data Sources]** | [データソース](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
 | **[!UICONTROL Folders]** | <ul><li>[セグメントフォルダー](https://bank.demdex.com/portal/swagger/index.html#/Segment_Folder_API)</li><li>[特性フォルダー](https://bank.demdex.com/portal/swagger/index.html#/Trait%20Folder%20API)</li></ul> |
 | **[!UICONTROL Reporting]** | [レポート](https://bank.demdex.com/portal/swagger/index.html#/Reporting%20API) |
 | **[!UICONTROL Segments]** | <ul><li>[セグメント](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[セグメントのテストグループ](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[セグメントのテストグループのドラフト版 API](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |

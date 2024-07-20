@@ -1,16 +1,16 @@
 ---
 description: ファイルベースの ID 同期に使用される必須フィールド、構文および命名規則について説明します。これらの仕様に従って、ファイルコンテンツを命名し編成します。
-seo-description: ファイルベースの ID 同期に使用される必須フィールド、構文および命名規則について説明します。これらの仕様に従って、ファイルコンテンツを命名し編成します。
-seo-title: ID 同期ファイルの名前およびコンテンツの要件
+seo-description: Describes the required fields, syntax, and naming conventions used for file-based ID synchronization. Name and organize your file contents according to these specifications.
+seo-title: Name and Content Requirements for ID Synchronization Files
 solution: Audience Manager
 title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '782'
+ht-degree: 99%
 
 ---
 

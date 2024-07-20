@@ -1,15 +1,15 @@
 ---
 description: データファイルには、インプレッション、クリックまたはコンバージョンのデータが含まれ、Audience Optimization レポートやアクションにつながるログファイルで使用することができます。メタデータファイルには、様々なレポートオプションやメニュー項目に対応する名前が、人間が判読できる形で記載されています。データおよびメタデータファイルの形式を、この節で説明した仕様に合わせてください。
-seo-description: データファイルには、インプレッション、クリックまたはコンバージョンのデータが含まれ、Audience Optimization レポートやアクションにつながるログファイルで使用することができます。メタデータファイルには、様々なレポートオプションやメニュー項目に対応する名前が、人間が判読できる形で記載されています。データおよびメタデータファイルの形式を、この節で説明した仕様に合わせてください。
-seo-title: ログデータとメタデータファイル
+seo-description: A data file contains impression, click, or conversion data that you can use in the Audience Optimization reports and for Actionable Log Files. A metadata file contains human-readable names that correspond to various report options and menu items. Format your data and metadata files according to the specifications in this section.
+seo-title: Log Data and Metadata Files
 solution: Audience Manager
 title: ログデータとメタデータファイル
 uuid: 80aa4bc3-c660-4e65-8c22-2ddbb7bddd4f
-feature: ログファイル
+feature: Log Files
 exl-id: c913372f-4a0a-420c-933e-23b30393fbaf
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '161'
 ht-degree: 100%
 
 ---

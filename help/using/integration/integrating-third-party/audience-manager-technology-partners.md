@@ -7,8 +7,8 @@ solution: Audience Manager
 title: Adobe Audience Manager テクノロジーパートナー
 feature: Third-party Integration
 source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
-workflow-type: ht
-source-wordcount: '1149'
+workflow-type: tm+mt
+source-wordcount: '1299'
 ht-degree: 100%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 100%
 | Crosswise | 2017/02/27 | ○ | × | × | × |
 | D.A.C. AudienceOne | 2017/02/27 | ○ | × | × | × |
 | DataXu | 2017/11/20 | × | × | × | ○ |
-| Digilant | 2017/03/02 |  | × | × | × |
+| Digilant | 2017/03/02 |           | × | × | × |
 | DistrictM | 2017/03/02 | ○ | × | × | × |
 | DoubleVerify | 2017/09/06 | ○ | × | × | × |
 | Drawbridge | 2017/03/02 | × | × | × | ○ |
@@ -78,7 +78,7 @@ ht-degree: 100%
 | Flashtalking | 2017/03/02 | × | × | × | × |
 | FreakOut | 2017/03/03 | ○ | × | × | × |
 | Freewheel | 2017/02/27 | ○ | ○ | × | ○ |
-| Gamut Media | 2017/03/03 |  | × | × |  |
+| Gamut Media | 2017/03/03 |           | × | × |                   |
 | Google AdsWords Display | 2018/08/02 | ○ | ○ | × | ○ |
 | Google DoubleClick Bid Manager（DBM） | 2017/04/24 | ○ | ○ | ○ | ○ |
 | Google DoubleClick Campaign Manager（DCM fka DFA） | 2017/04/24 | ○ | ○ | ○ | ○ |
@@ -95,7 +95,7 @@ ht-degree: 100%
 | Krux | 2017/06/30 | × | × | × | ○ |
 | Liftoff.io | 2017/11/09 | ○ | × | × | ○ |
 | LiveIntent | 2017/07/17 | ○ | × | × | × |
-| LiveRail | 2017/01/20 |  | × | × |  |
+| LiveRail | 2017/01/20 |           | × | × |                   |
 | Logicad | 2017/06/22 | × | × | × | × |
 | Lotame | 2017/06/30 | ○ | × | × | ○ |
 | MaxPoint Interactive | 2017/02/27 | × | × | × | × |
@@ -128,14 +128,14 @@ ht-degree: 100%
 | Resonate | 2017/02/17 | ○ | × | × | × |
 | RevJet | 2017/02/17 | × | × | × | × |
 | RocketFuel | 2017/02/17 | ○ | × | ○ | ○ |
-| Rubicon |  | ○ | ○ | × |  |
+| Rubicon |            | ○ | ○ | × |                   |
 | RUN | 2017/02/17 | ○ | × | × | × |
 | Sabio Mobile | 2017/02/17 | × | × | × | ○ |
 | Simpli.fi | 2017/02/17 | × | × | × | ○ |
-| Sizmek Audience Hub | 2017/02/17 | ○ | × | × |  |
+| Sizmek Audience Hub | 2017/02/17 | ○ | × | × |                   |
 | Slickdeals | 2018/09/04 | ○ | × | × | ○ |
 | Smart Adserver | 2017/07/31 | ○ | × | ○ | ○ |
-| So-net Media Networks Logicad |  | ○ | × | × |  |
+| So-net Media Networks Logicad |            | ○ | × | × |                   |
 | Sonobi | 2017/03/28 | ○ | × | ○ | × |
 | SpecificMedia | 2017/03/03 | × | × | × | × |
 | SpongeCell | 2017/03/03 | ○ | × | ○ | ○ |
@@ -150,7 +150,7 @@ ht-degree: 100%
 | Telaria | 2019/04/25 | ○ | × | × | ○ |
 | Telogical Systems | 2017/03/03 | ○ | × | × | × |
 | The Trade Desk | 2017/03/03 | ○ | ○ | ○ | ○ |
-| Thnk Realtime | 2016/02/05 |  | × | × |  |
+| Thnk Realtime | 2016/02/05 |           | × | × |                   |
 | Tremor Video | 2017/03/03 | ○ | × | × | × |
 | Triple Lift | 2017/03/03 | × | ○ | × | × |
 | TrueX | 2018/01/11 | ○ | × | × | ○ |
@@ -164,7 +164,7 @@ ht-degree: 100%
 | Videology | 2017/03/03 | × | × | × | × |
 | VisualIQ | 2017/03/24 | ○ | × | × | × |
 | Wikibuy | 2018/08/04 | ○ | × | × | ○ |
-| X+1 | 2016/02/05 |  | × | × |  |
+| X+1 | 2016/02/05 |           | × | × |                   |
 | Xaxis | 2017/03/03 | ○ | × | × | × |
 | Yahoo DataX | 2017/03/03 | ○ | ○ | ○ | ○ |
 | Yahoo! 日本 | 2017/03/03 | × | × | × | × |

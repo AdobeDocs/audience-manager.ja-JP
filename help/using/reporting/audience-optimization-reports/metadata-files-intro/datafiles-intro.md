@@ -8,9 +8,9 @@ uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
 source-git-commit: db90a6f1aaf85b10e31e93e316c257b7c3a904aa
-workflow-type: ht
-source-wordcount: '988'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '994'
+ht-degree: 94%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 100%
 
 適切な名前と形式のデータファイルを使用すると、インプレッション、クリック、コンバージョンのいずれかのデータを [Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)にインポートできます。これは、[!DNL Audience Manager] と統合されていないパートナーのデータを同レポートスイートで扱う場合に役に立ちます。このプロセスには、インプレッション、クリック、コンバージョンのデータごとに別個のファイルが必要です。これらのイベントを単一のファイルに混在させないでください。
 
-データファイルには、メタデータファイルが付いている必要があります。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[メタデータファイルの概要とマッピング](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
+データファイルには、メタデータファイルが付いている必要があります。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[ 概要とメタデータファイルのマッピング ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) を参照してください。
 
 ## データファイルの命名規則 {#naming-conventions}
 
 適格なデータファイル名の構造を次の構文で定義します。なお、*斜体*&#x200B;の部分にはファイルコンテンツの実際の情報が入ります。
 
-**構文：** <pre><i>event type</i>_<i>yyyymmdd</i></code></pre>
+**構文：** <pre><code><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
 ファイル名の場合：
 
@@ -38,15 +38,15 @@ ht-degree: 100%
 
 これらの要件を前提として、コンテンツに応じてデータファイルに次のように名前を付けます。
 
-* インプレッションデータ： <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
-* クリックデータ： <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
-* コンバージョンデータ： <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* インプレッションデータ： <pre><code>impressions_<i>yyyymmdd</i>.gz</code></pre>
+* クリックデータ： <pre><code>clicks_<i>yyyymmdd</i>.gz</code></pre>
+* コンバージョンデータ： <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## データファイルのコンテンツ形式 {#content-format}
 
 適格なデータファイルのコンテンツ構造を次の構文で定義します。なお、*斜体*&#x200B;の部分には実際のデータファイル内のラベルが入ります。
 
-**構文：** <pre><i>header label 1</i> | <i>header label 2</i> ... <i>header label n</i> | <i>version</i></code></pre>
+**構文：** <pre><code><i>header label 1</i> | <i>header label 2</i> ... <i>header label n</i> | <i>version</i></code></pre>
 
 ファイルコンテンツの場合：
 
@@ -74,7 +74,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
-   <td colname="col2"> <p>サイト訪問者の ID。<span class="term"> データプロバイダー一意のユーザー ID</span> または DPUUID。 </p> </td> 
+   <td colname="col2"> <p>サイト訪問者の ID （<span class="term"> データプロバイダーユニークユーザー ID</span>DPUUID とも呼ばれます）。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertiser-ID </p> </td> 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
 データはユーザーごとに [!DNL Amazon S3] ディレクトリ内の個別の名前空間に保存されます。ファイルパスは以下の構文に従います。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
 
-**構文：** <pre>.../log_ingestion/pid= <i>AAM ID</i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
+**構文：** <pre><code>.../log_ingestion/pid= <i>AAM ID</i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
 ファイル配信パスのこれらの各要素を次の表で定義します。
 
@@ -201,4 +201,4 @@ ht-degree: 100%
 
 ## 次の手順 {#next-steps}
 
-メタデータファイルの命名と作成の要件を確認します。作業を開始するには、[メタデータファイルの概要とマッピング](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
+メタデータファイルの命名と作成の要件を確認します。開始するには、[ 概要とメタデータファイルのマッピング ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) を参照してください。

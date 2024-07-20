@@ -8,8 +8,8 @@ uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
 source-git-commit: 6cc1351c3a84d4d2219f33ef6175f182b9641377
-workflow-type: ht
-source-wordcount: '497'
+workflow-type: tm+mt
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
@@ -125,4 +125,3 @@ r_t2t_data_pop.xml
 >* [重複レポート：更新スケジュールと最小セグメントサイズ](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [選択した Audience Manager レポートでのデータサンプリングとエラー率...](../../reporting/report-sampling.md)
 >* [重複レポートの CSV ファイル](../../reporting/dynamic-reports/overlap-csv-files.md)
-

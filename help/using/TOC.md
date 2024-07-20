@@ -16,8 +16,8 @@ ht-degree: 96%
 # Audience Manager ユーザーガイド {#user-guide}
 
 + [Audience Manager ガイド](aam-home.md)
-+ [Real-Time CDPへの進化ガイド](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
-+ Web SDK への移行{#migrate-to-web-sdk}
++ [Real-Time CDPへの進化ガイド ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ Web SDK への移行 {#migrate-to-web-sdk}
    + [Adobe Audience Managerのタグ拡張機能から Web SDK のタグ拡張機能への移行](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [AppMeasurementのJavaScript ライブラリから Web SDK JavaScript ライブラリへの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + 概要 {#overview}
@@ -341,7 +341,7 @@ ht-degree: 96%
          + [受信データタイプのファイル PGP 暗号化](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [受信データ転送ファイルのファイル圧縮](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [受信処理後パートナーに送信されるメッセージの例](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-         + [インバウンドファイル用にAmazon S3 のクロスアカウントバケットの権限を活用](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
+         + [ インバウンドファイル用にAmazon S3 のクロスアカウントバケットの権限を活用 ](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Adobe Experience Platform との統合 {#integration-experience-platform}
       + [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](integration/integration-aep/aam-aep-audience-sharing.md)

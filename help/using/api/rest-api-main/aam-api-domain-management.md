@@ -1,7 +1,7 @@
 ---
 description: データ送信先のドメインを作成および管理できるドメイン管理メソッド（Cookie の宛先の場合のみ）。
-seo-description: データ送信先のドメインを作成および管理できるドメイン管理メソッド（Cookie の宛先の場合のみ）。
-seo-title: ドメイン管理 API メソッド
+seo-description: Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
+seo-title: Domain Management API Methods
 solution: Audience Manager
 title: ドメイン管理 API メソッド
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
@@ -9,7 +9,7 @@ feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '340'
 ht-degree: 100%
 
 ---

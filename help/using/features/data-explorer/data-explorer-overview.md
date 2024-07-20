@@ -1,14 +1,14 @@
 ---
 description: Data Explorer を使用して、使用済みおよび未使用のシグナルに基づいて特性を作成し、シグナルに履歴データをバックフィルすることで目的のオーディエンスを逃す可能性を防ぎ、過去のオーディエンスを活かします。
-seo-description: Data Explorer を使用して、使用済みおよび未使用のシグナルに基づいて特性を作成し、シグナルに履歴データをバックフィルすることで目的のオーディエンスを逃す可能性を防ぎ、過去のオーディエンスを活かします。
-seo-title: 概要、メリットおよび使用例
+seo-description: Use Data Explorer to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
+seo-title: Overview, Benefits, and Use Cases
 title: 概要、メリットおよび使用例
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
-feature: 'データエクスプローラ '
+feature: Data Explorer
 exl-id: 56c9080b-4b7d-4feb-bddf-521e80bc8fa7
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '463'
 ht-degree: 100%
 
 ---

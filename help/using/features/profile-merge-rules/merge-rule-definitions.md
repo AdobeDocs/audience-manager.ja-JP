@@ -8,9 +8,9 @@ uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: ht
-source-wordcount: '789'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '794'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ## [!UICONTROL Cross-Device Options] {#auth-options}
 
-[!UICONTROL Cross-Device Options] を使用すると、未認証ユーザーと認証済みユーザーを選択し、クロスデバイスプロファイルをセグメント化に利用することができます。これらのオプションにより、共有デバイスで特定のユーザーを識別してそのユーザーにリーチすることができます。匿名ユーザーと認証済みユーザーについて詳しくは、[Audience Manager での訪問者認証の状態](../../reference/visitor-authentication-states.md)を参照してください。
+[!UICONTROL Cross-Device Options] を使用すると、未認証ユーザーと認証済みユーザーを選択し、クロスデバイスプロファイルをセグメント化に利用することができます。これらのオプションにより、共有デバイスで特定のユーザーを識別してそのユーザーにリーチすることができます。匿名ユーザーと認証済みユーザーについて詳しくは、[Audience Managerでの訪問者認証の状態 ](../../reference/visitor-authentication-states.md) を参照してください。
 
 <table id="table_4CE2DD312F54480E96BEAF72800789FB"> 
  <thead> 
@@ -128,4 +128,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
-

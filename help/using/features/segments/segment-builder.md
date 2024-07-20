@@ -1,22 +1,22 @@
 ---
 description: セグメントビルダーでセグメントを作成する方法について説明します。
-seo-description: セグメントビルダーでセグメントを作成する方法について説明します。
-seo-title: セグメントビルダー
+seo-description: Describes how to create segments with Segment Builder.
+seo-title: Segment Builder
 solution: Audience Manager
 title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-feature: セグメント
+feature: Segments
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
 
 # [!UICONTROL Segment Builder] {#segment-builder}
 
-[!UICONTROL Segment Builder] でセグメントを作成する必須手順とオプション手順について説明します。
+[!UICONTROL Segment Builder]でセグメントを作成する必須手順とオプション手順について説明します。
 
 ## ビデオデモ
 
@@ -44,7 +44,7 @@ ht-degree: 100%
    ![segment-builder-traits](assets/segment-builder-traits.png)
    * セグメントに追加する [!UICONTROL trait] を検索して、「**[!UICONTROL Add Trait]**」をクリックします。他の [!UICONTROL trait] を追加し、[!UICONTROL trait] グループを作成します。
    * 「**[!UICONTROL Browse All Traits]**」をクリックして [!UICONTROL Advanced Search] モーダルを表示します. 名前、ID、説明、または [!UICONTROL traits] で [!UICONTROL data source] を検索します。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。[!UICONTROL traits]（[!UICONTROL Folder Trait]、[!UICONTROL Rule-based]、[!UICONTROL Onboarded] および [!UICONTROL Algorithmic]）や母集団タイプ（[デバイス ID](../../reference/ids-in-aam.md) および[クロスデバイス ID](../../reference/ids-in-aam.md)）で [!UICONTROL trait type] をフィルタリングできます。
-      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
+     ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
    * [!UICONTROL segment] の作成時に有効な[特性レコメンデーション](trait-recommendations.md)を取得します。
    * [!UICONTROL traits] をクリックしてドラッグし、個別のグループを作成します。
    * グループ間にマウスポインターを当て、ブール演算子 [!UICONTROL AND]、[!UICONTROL OR]、[!UICONTROL AND NOT] を使用して関係を設定します。
@@ -132,7 +132,7 @@ ht-degree: 100%
 | **[!UICONTROL Basic View]** | このセクションには、次の操作をおこなうための視覚的なコントロールがあります。 <ul><li>新しい [!UICONTROL segments] を作成し、既存のセグメントを管理します。</li><li>[!UICONTROL segment] から [!UICONTROL traits] を削除します。</li><li>最大 50 の [!UICONTROL traits] を [!UICONTROL segment] に追加できます。</li><li>[!UICONTROL traits] をドラッグアンドドロップして新しいグループを作成します。</li><li>[!UICONTROL segment] の [!UICONTROL traits] および [!UICONTROL trait] グループを表示します。</li><li>ブール式、比較演算子、最新性／頻度の設定により認定条件を設定する。</li></ul> |
 | **[!UICONTROL Code View]** | 開発環境を開きます。この環境では、視覚的なインターフェイスの代わりにコードを使用して、[!UICONTROL traits] グループ、認定要件の作成と管理ができます。このコードビューは、[!UICONTROL segments] が次の条件に該当する場合に便利です。 <ul><li>個別 [!UICONTROL segment] に [!UICONTROL traits] が 50 より多く含まれる。注意：[!UICONTROL Segments] は 5000 個の [!UICONTROL traits]（最大）に制限されます。</li><li>多くの [!UICONTROL trait] グループを含んでいる。</li><li>複雑な認定要件がある。</li></ul> |
 | 検索 | [!UICONTROL segment] に追加する [!UICONTROL traits] を検索できます。 |
-| 推奨事項 | ファーストパーティ [!UICONTROL traits] および購読している [!UICONTROL Audience Marketplace] データフィードから、類似した [!UICONTROL traits] のライブレコメンデーションを取得します。これらのレコメンデーションを [!UICONTROL segment] ルールに追加して、オーディエンスを拡大します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
+| レコメンデーション | ファーストパーティ [!UICONTROL traits] および購読している [!UICONTROL Audience Marketplace] データフィードから、類似した [!UICONTROL traits] のライブレコメンデーションを取得します。これらのレコメンデーションを [!UICONTROL segment] ルールに追加して、オーディエンスを拡大します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
 | **[!UICONTROL Marketplace Recommendations]** | 購読していない [!UICONTROL Audience Marketplace] データフィードから、類似した [!UICONTROL traits] のライブレコメンデーションを取得します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
 | 実際の [!UICONTROL Segment] サイズデータと推定セグメントサイズデータ | [セグメントビルダーにおける特性およびセグメント母集団データ](segment-builder-data.md)を参照してください。 |
 
@@ -197,5 +197,4 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [Cookie の宛先の作成](../../features/destinations/create-cookie-destination.md)
-* [URL 宛先の作成](../../features/destinations/create-url-destination.md)
-
+>* [URL 宛先の作成](../../features/destinations/create-url-destination.md)

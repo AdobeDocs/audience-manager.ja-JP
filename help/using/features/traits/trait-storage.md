@@ -1,15 +1,15 @@
 ---
 description: 特性ストレージフォルダーは特性を保存するもので、特性の分類／整理に役に立ちます。
-seo-description: 特性ストレージフォルダーは特性を保存するもので、特性の分類／整理に役に立ちます。
-seo-title: 特性ストレージ
+seo-description: Trait storage folders store and help you organize traits.
+seo-title: Trait Storage
 solution: Audience Manager
 title: 特性ストレージ
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
-feature: 特性
+feature: Traits
 exl-id: 97d9951e-a339-4dd9-8a67-b7884752533b
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ![](assets/tb_storage.png)
 
-## 特性ストレージフォルダーの作成 {#create-trait-storage-folder}
+## 特性保存フォルダーの作成 {#create-trait-storage-folder}
 
 この手順では、特性のストレージフォルダーを作成する方法について説明します。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 1. 「+」アイコンをクリックして、フォルダーを作成します。
 1. フォルダーの名前を指定して「**[!UICONTROL Save]**」をクリックします。
 
-## 特性ストレージフォルダーの名前変更または削除 {#rename-delete-trait-storage-folder}
+## 特性保存フォルダーの名前変更または削除 {#rename-delete-trait-storage-folder}
 
 この手順では、ストレージフォルダーの名前変更や削除の方法について説明します。
 

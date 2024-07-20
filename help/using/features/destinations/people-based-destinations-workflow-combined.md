@@ -1,15 +1,15 @@
 ---
-description: 'このページでは、オフラインの CRM データと Audience Manager に既に存在する行動データを組み合わせて新しいオーディエンスセグメントを作成し、そのオーディエンスセグメントを People-Based Destinations に送信する方法について、順を追って説明します。  '
-seo-description: 'このページでは、オフラインの CRM データと Audience Manager に既に存在する行動データを組み合わせて新しいオーディエンスセグメントを作成し、そのオーディエンスセグメントを People-Based Destinations に送信する方法について、順を追って説明します。   '
-seo-title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
+description: このページでは、オフラインの CRM データと Audience Manager に既に存在する行動データを組み合わせて新しいオーディエンスセグメントを作成し、そのオーディエンスセグメントを People-Based Destinations に送信する方法について、順を追って説明します。
+seo-description: This page includes step-by-step guidance on how to combine offline CRM data with behavioral data that you already have in Audience Manager to create new audience segments, then send these audience segments to People-Based Destinations.
+seo-title: Workflow A - Personalization Based on All Online Activity Combined with Offline Data
 solution: Audience Manager
 title: ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 feature: People-based Destinations
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 100%
+source-wordcount: '1108'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 このページには、オフラインの [!DNL CRM] データと Audience Manager に既に存在する行動データを組み合わせて新しいオーディエンスセグメントを作成し、そのオーディエンスセグメントを[!DNL People-Based Destinations]に送信する方法に関する詳しい手順が含まれています。
 
-## 手順 1 - データソースの設定 {#configure-data-source-settings}
+## 手順 1 - Data Sourceの設定 {#configure-data-source-settings}
 
 [DPUUID](../../reference/ids-in-aam.md) が小文字かどうか、ハッシュ化された電子メールアドレスであるかどうかに応じて、ハッシュされた電子メールアドレスを保存するデータソースを設定する必要があります。
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 >
 > People-Based Destinations 用にオフラインデータを Audience Manager に取り込む方法については、「[データのオンボーディング](people-based-destinations-prerequisites.md#data-onboarding)」を参照してください。
 
-## 手順 2 -ファイルベースの ID 同期経由で、DPUUID と ハッシュ化した電子メールアドレスを照合する {#match-ids-emails}
+## 手順 2 - ファイルベースの ID 同期を使用して、DPUUID をハッシュ化されたメールアドレスに一致させる {#match-ids-emails}
 
 >[!IMPORTANT]
 >
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアップロードする必要があります。ID 同期ファイルのアップロード方法について詳しくは、[Audience Manager へのバッチデータの送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)を参照してください。
 
-## 手順 3 - セグメントのプロファイル結合ルールを作成する {#create-merge-rule}
+## 手順 3 - セグメント化のためのプロファイル結合ルールの作成 {#create-merge-rule}
 
 次の手順では、オーディエンスセグメントを作成してユーザーベースの宛先に送信するのに役立つ、新しい結合ルールを作成します。
 
@@ -133,11 +133,11 @@ ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアッ
 1. **[!UICONTROL Profile Merge Rule Setup]** セクションで、**[!UICONTROL Current Authenticated Profiles]** または **[!UICONTROL Last Authenticated Profiles]** オプションを選択します。
 1. **[!UICONTROL Cross-Device Profile Options]** リストで、セグメントを実行するデータソースを選択します。これらは、既存の [DPUUID](../../reference/ids-in-aam.md) を含むデータソースです。
 
-## 手順 4 - オーディエンスセグメントを作成する {#create-audience-segments}
+## 手順 4 - オーディエンスセグメントの作成 {#create-audience-segments}
 
 新しいオーディエンスセグメントを作成するには、[セグメントビルダー](../segments/segment-builder.md)を使用します。[!DNL People-Based Destinations] に送信する既存のオーディエンスセグメントがある場合は、スキップして「[手順 5 - ユーザーベースのプラットフォーム認証を設定する](people-based-destinations-workflow-combined.md#configure-authentication)」に進みます。
 
-## 手順 5 - ユーザーベースのプラットフォーム認証を設定する {#configure-authentication}
+## 手順 5 - ユーザーベースのプラットフォーム認証の設定 {#configure-authentication}
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
@@ -152,7 +152,7 @@ ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアッ
 >
 >Audience Manager は、一定期間後に期限切れになる認証トークンを介して、ソーシャルプラットフォームとの統合を処理します。期限切れトークンの更新方法について詳しくは、「認証トークンの更新」を参照してください。
 
-## 手順 6 - People-Based Destinations を作成する {#create-destination}
+## 手順 6 - ユーザーベースの宛先の作成 {#create-destination}
 
 1. Audience Manager アカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Destinations]** に移動して、**[!UICONTROL Create Destination]**&#x200B;をクリックします。
 1. **[!UICONTROL Basic Information]** セクションで、新しいデータソースに **[!UICONTROL Name]** と **[!UICONTROL Description]** を入力し、次の設定を使用します。
@@ -160,7 +160,7 @@ ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアッ
    * **[!UICONTROL Type]**：ユーザーベース
    * **[!UICONTROL Platform]**：オーディエンスセグメントを送信するユーザーベースのプラットフォームを選択します。
    * **[!UICONTROL Account]**：選択したプラットフォームに関連付けられている広告主アカウントを選択します。
-      ![create-destination](assets/pbd-create-destination.png)
+     ![create-destination](assets/pbd-create-destination.png)
 1. 「**[!UICONTROL Next]**」をクリックします。
 1. この宛先に設定する **[!UICONTROL Data Export Labels]** を選択します。
 1. **[!UICONTROL Configuration]** セクションで、ハッシュ化されたデータソースを含むデータソースを選択します。

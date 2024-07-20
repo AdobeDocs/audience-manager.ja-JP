@@ -1,7 +1,7 @@
 ---
 description: ユーザーを管理する（ユーザーオブジェクトの作成、更新、リスト、削除および返却を含む）ための Rest API メソッド。
-seo-description: ユーザーを管理する（ユーザーオブジェクトの作成、更新、リスト、削除および返却を含む）ための Rest API メソッド。
-seo-title: ユーザー管理 API メソッド
+seo-description: Rest API methods to manage users, including creating, updating, listing, deleting, and returning user objects.
+seo-title: User Management API Methods
 solution: Audience Manager
 title: ユーザー管理 API メソッド
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
@@ -9,7 +9,7 @@ feature: API
 exl-id: c015c42c-63c7-4392-9fef-f48dc787a56f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---

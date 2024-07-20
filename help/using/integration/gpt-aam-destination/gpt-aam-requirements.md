@@ -1,20 +1,20 @@
 ---
 description: クライアントサイドまたはサーバーサイドの統合を通じて、適格なセグメントを Google Ad Manager に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
-seo-description: クライアントサイドまたはサーバーサイドの統合を通じて、適格なセグメントを Google Ad Manager に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
-seo-title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法
+seo-description: You can send qualified segments to Google Ad Manager either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
+seo-title: Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags (GPT)
 solution: Audience Manager
 title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
-feature: サードパーティ統合
+feature: Third-party Integration
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 96%
 
 ---
 
-# Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Google パブリッシャータグ（GPT）を使用してGoogle Ad Manager にセグメントを送信する要件と方法 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
 クライアント側またはサーバー側の統合を通じて、適格なセグメントを [!DNL Google Ad Manager]（旧称 DFP）に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
 
@@ -30,9 +30,9 @@ ht-degree: 100%
 
 * **`AamGpt` 関数の追加：**`AamGpt` コードは Audience Manager の Cookie からデータをキャプチャして、[!DNL GPT]に送信します。[Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)（`AamGpt`）をページの最上部または `<head>` コードブロック内に配置します。
 
-   >[!NOTE]
-   >
-   >独自のコードを使用して Audience Manager の Cookie データを読み取る場合、`AamGpt` 関数は必要ありません。
+  >[!NOTE]
+  >
+  >独自のコードを使用して Audience Manager の Cookie データを読み取る場合、`AamGpt` 関数は必要ありません。
 
 * **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。データは raw 形式でもかまいませんが、各レコードには Audience Manager `UUID` が含まれている必要があります。Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
@@ -55,4 +55,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [GPT API リファレンスガイド](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&amp;answer=1650154)
-

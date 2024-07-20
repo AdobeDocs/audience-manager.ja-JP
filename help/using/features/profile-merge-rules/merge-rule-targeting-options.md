@@ -8,9 +8,9 @@ uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## デバイスのターゲティング {#device-personalization}
 
-このシナリオは、ユーザー認証を考慮せずに、デバイス ID（DSP、オンサイトパーソナライゼーションプラットフォーム、その他のデバイスベースのターゲティングプラットフォーム）をサポートするターゲティングプラットフォームを使用して、Audience Manager で定義したオーディエンスセグメントの単一のデバイスプロファイルを評価する場合に適用されます。
+このシナリオは、ユーザー認証を考慮せずに、デバイス ID（DSP、オンサイトパーソナライゼーションプラットフォーム、その他のデバイスベースのターゲティングプラットフォーム）をサポートするターゲティングプラットフォームを使用して、Audience Manager で定義したオーディエンスセグメントの単一のデバイスプロファイルを評価するマーケターに適用されます。
 
 デバイスプロファイルのみをターゲットにするルールを作成する場合は、**[!UICONTROL Device Profile]** + **[!UICONTROL No Cross-Device Profile]** を選択します。
 
@@ -80,7 +80,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 ## デバイスグラフオプション {#device-graph-options}
 
-[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的なユースケースについては、[プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)および[外部デバイスグラフのユースケース](external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的な使用例については、[ プロファイルリンクデバイスグラフの使用例 ](profile-link-use-case.md) および [ 外部デバイスグラフの使用例 ](external-graph-use-cases.md) を参照してください。
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -120,4 +120,3 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 >* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
 >* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
-

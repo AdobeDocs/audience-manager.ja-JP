@@ -1,15 +1,15 @@
 ---
 description: 認定されたセグメントを、クライアントサイド（ブラウザーサイド）の統合、またはサーバー側の統合により Google Ad Manager に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
-seo-description: 認定されたセグメントを、クライアントサイド（ブラウザーサイド）の統合、またはサーバー側の統合により Google Ad Manager に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
-seo-title: GPT 宛先の作成
+seo-description: You can send qualified segments to Google Ad Manager through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for Google Publisher Tags in Audience Manager.
+seo-title: Create a GPT Destination
 solution: Audience Manager
 title: GPT 宛先の作成
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
-feature: サードパーティ統合
+feature: Third-party Integration
 exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '284'
 ht-degree: 100%
 
 ---

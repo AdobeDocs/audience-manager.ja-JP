@@ -1,6 +1,6 @@
 ---
 description: セグメントテストグループに重複のないテストセグメントを作成すると、様々な宛先の有効性を測定し比較することができます。有効性をテストするために、対照グループを残しておき、セグメントを全体のうちの一部に割り振ることができます。
-seo-description: セグメントテストグループに重複のないテストセグメントを作成すると、様々な宛先の有効性を測定し比較することができます。有効性をテストするために、対照グループを残しておき、セグメントを全体のうちの一部に割り振ることができます。
+seo-description: Create mutually exclusive test segments in Segment Test Groups to compare and measure effectiveness of different destinations. You can set aside a control group and divide your segment into percentages of a whole, in order to test efficacy.
 seo-title: Audience Lab
 solution: Audience Manager
 title: Audience Lab
@@ -9,8 +9,8 @@ feature: Audience Lab
 exl-id: b7fbeb03-52aa-4489-8fcb-45bc2d26621d
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 概要 {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] では、[プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md)を使用することで、複数のデバイスにまたがってテストを実行できます。これにより、ユーザーはすべてのデバイスにわたって同じテストセグメントに適合し、同じ処理がおこなわれるようになります。テストグループ内のテストセグメントは、ベースセグメントに割り当てられた[プロファイル結合ルール](../../features/profile-merge-rules/merge-rules-dashboard.md)を継承します。
+[!UICONTROL Audience Lab] では、[プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md)を使用することで、複数のデバイスにまたがってテストを実行できます。これにより、ユーザーはすべてのデバイスにわたって同じテストセグメントに適合し、同じ処理がおこなわれるようになります。テストグループ内のテストセグメントは、ベースセグメントが割り当てた [ プロファイル結合ルール ](../../features/profile-merge-rules/merge-rules-dashboard.md) を継承します。
 
 [!UICONTROL Audience Lab] のデフォルトビューには、各テストグループのカードが表示されます。カードをクリックして、**[!UICONTROL Test Group]** ビューにアクセスします。このビューには、以下の情報が含まれています。
 

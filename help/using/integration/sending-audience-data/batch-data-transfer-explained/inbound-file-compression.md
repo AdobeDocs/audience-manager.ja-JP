@@ -1,15 +1,15 @@
 ---
 description: データファイルを Audience Manager に送信する際に、オプションとして、データファイルを圧縮することができます。
-seo-description: データファイルを Audience Manager に送信する際に、オプションとして、データファイルを圧縮することができます。
-seo-title: 受信データ転送ファイルのファイル圧縮
+seo-description: As an option, you can compress data files when sending them to Audience Manager.
+seo-title: File Compression for Inbound Data Transfer Files
 solution: Audience Manager
 title: 受信データ転送ファイルのファイル圧縮
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: 9b3e3bef-2c93-4801-8f4f-04d9d42fd952
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---

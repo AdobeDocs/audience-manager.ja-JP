@@ -9,8 +9,8 @@ uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 exl-id: fa7a8d2a-dacc-413e-89d6-d3b7ce7bbbe3
 source-git-commit: f7a4478589f4af1d467f1045a97dbb7f5cd6f9e5
-workflow-type: ht
-source-wordcount: '361'
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---

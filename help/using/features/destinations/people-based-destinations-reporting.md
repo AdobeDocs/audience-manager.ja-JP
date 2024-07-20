@@ -1,15 +1,15 @@
 ---
-description: 'People-Based Destinations は、共有可能なオーディエンスの概念を Audience Manager に導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールの数について理解するのに役立ちます。 '
-seo-description: 'People-Based Destinations は、共有可能なオーディエンスの概念を Audience Manager に導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールの数について理解するのに役立ちます。 '
-seo-title: 共有可能なオーディエンス
+description: People-Based Destinations は、共有可能なオーディエンスの概念を Audience Manager に導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールアドレスの数について理解するのに役立ちます。
+seo-description: People-Based Destinations introduce the notion of Shareable Audiences to Audience Manager. This metric helps you understand how many of the hashed email addresses Audience Manager can share with the destination platform.
+seo-title: Shareable Audiences
 solution: Audience Manager
 title: 共有可能なオーディエンス
 feature: People-based Destinations
 exl-id: 2860c105-1091-4779-bf40-e66faa941af0
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 98%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 100%
 >[!IMPORTANT]
 >この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
-[!DNL People-Based Destinations] は、Audience Manager に、[!DNL Shareable Audiences] の概念を導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールの数について理解するのに役立ちます。
+[!DNL People-Based Destinations] は、Audience Manager に、[!DNL Shareable Audiences] の概念を導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールアドレスの数について理解するのに役立ちます。
 
 [!DNL Shareable Audiences] は、[!DNL People-Based Destinations] のコンテキストでオーディエンスデータを解釈するのに役立つ指標です。この指標は、[!UICONTROL Destinations] ページおよび [!UICONTROL Segment] ページ内で確認できます。
 
-## Segment Shareable Audiences {#segment-shareable-audiences}
+## セグメント共有可能なオーディエンス {#segment-shareable-audiences}
 
 セグメントページの [!DNL Segment Shareable Audience] 指標は、[DPUUID](../../reference/ids-in-aam.md) が一致し、特定のルックバック期間の定義済みセグメントに適合し、プロファイル結合ルールが適用され、Audience Manager が宛先プラットフォームと共有できるデータソースのハッシュ化された電子メールアドレスの数を示します。
 
 この指標のルックバック期間は 1 日です。これにより、特定の宛先におけるセグメントのオーディエンスリーチを把握できます。
 
-## Destination Shareable Audience {#destination-shareable-audience}
+## 宛先の共有可能なオーディエンス {#destination-shareable-audience}
 
 People-Based Destinations ページの [!DNL Destination Shareable Audience] 指標は、[DPUUID](../../reference/ids-in-aam.md) が一致するデータソースのハッシュ化された電子メールアドレスの合計数を示します。Audience Manager は、その DPUUID を、その宛先にマッピングされているすべてのセグメントの宛先プラットフォームと共有できます。
 

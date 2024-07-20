@@ -1,15 +1,15 @@
 ---
 description: セグメントトレンドレポートは、マッピングされたセグメントとマッピングされていないセグメントのインプレッション数およびクリックスルー率の時間的変化に関するデータを返します。マッピングされたセグメントとは、作成してターゲティングのために宛先に送信したセグメントのことです。マッピングされていないセグメントとは、作成したもののターゲティングのために宛先に送信していないセグメントのことです。選択した指標のトレンドやボリュームを比較すると、オーディエンスの行動の時間的変化を正確に把握することができます。
-seo-description: セグメントトレンドレポートは、マッピングされたセグメントとマッピングされていないセグメントのインプレッション数およびクリックスルー率の時間的変化に関するデータを返します。マッピングされたセグメントとは、作成してターゲティングのために宛先に送信したセグメントのことです。マッピングされていないセグメントとは、作成したもののターゲティングのために宛先に送信していないセグメントのことです。選択した指標のトレンドやボリュームを比較すると、オーディエンスの行動の時間的変化を正確に把握することができます。
-seo-title: セグメントトレンドレポート
+seo-description: The Segment Trend report returns data on impressions and click-through rates of mapped and unmapped segments over time. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Compare trends and volume for your selected metrics to get a better picture of how your audiences behave over time.
+seo-title: Segment Trend Report
 solution: Audience Manager
 title: セグメントトレンドレポート
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
-feature: Audience Optimization レポート
+feature: Audience Optimization Reports
 exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '537'
 ht-degree: 100%
 
 ---

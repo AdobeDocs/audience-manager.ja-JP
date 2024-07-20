@@ -1,15 +1,15 @@
 ---
 description: Adobe Audience Manager によって満たすことのできる広告主の一般的なニーズの例をご紹介します。
-seo-description: Adobe Audience Manager によって満たすことのできる広告主の一般的なニーズの例をご紹介します。
-seo-title: 広告主のユースケース
+seo-description: A look at some common advertiser needs met by Adobe Audience Manager.
+seo-title: Advertiser Use Cases
 solution: Audience Manager
 title: 広告主のユースケース
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
-feature: リファレンス
+feature: Reference
 exl-id: 30f2ee7b-6238-4dd5-a59f-ee91b6256bcb
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '724'
 ht-degree: 100%
 
 ---
@@ -132,7 +132,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
    <td colname="col3"> 
     <ul id="ul_12770CC183E5433999ED8C055E91DC78"> 
      <li id="li_4CAFD2A7F0F54225ADDCD3C94E8CCEF7">インポートしたパートナーのデータセグメントを自社のデータセグメントと組み合わせ、Adobe Target を使用して顧客の関心に合ったエクスペリエンスを提供します。 </li> 
-     <li id="li_65F1C7812FC24D44BB41DE6B7276F6AF">電子メールによるマーケティングイニシアチブまたは DSP キャンペーンの展開規模を拡大できます。 </li> 
+     <li id="li_65F1C7812FC24D44BB41DE6B7276F6AF">メールマーケティング施策または DSP キャンペーンの展開規模を拡大できます。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -166,7 +166,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
  </tbody> 
 </table>
 
-## オンサイト行動および既存顧客についてのデータを使用して、電子メールマーケティングを実行
+## オンサイト行動および既存顧客についてのデータを使用して、メールマーケティングを実行
 
 <table id="table_29276E12EFC94ACDA981A6EEDDAAA335"> 
  <thead> 

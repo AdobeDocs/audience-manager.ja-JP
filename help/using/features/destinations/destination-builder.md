@@ -1,15 +1,15 @@
 ---
 description: Destination Builder を使用すると、Cookie ベースの宛先や DNL URL の宛先を作成できます。Destination Builder では、サーバー間（S2S）の宛先を作成することはできませんが、サーバー間宛先のセグメントマッピングを管理することはできます。S2S の宛先をセットアップする場合は、担当のコンサルタントにお問い合わせください。Destination Builder には、Audience Data／Destinations でアクセスできます。
-seo-description: Destination Builder を使用すると、Cookie ベースの宛先や DNL URL の宛先を作成できます。Destination Builder では、サーバー間（S2S）の宛先を作成することはできませんが、サーバー間宛先のセグメントマッピングを管理することはできます。S2S の宛先をセットアップする場合は、担当のコンサルタントにお問い合わせください。Destination Builder には、Audience Data／Destinations でアクセスできます。
-seo-title: 宛先ビルダー
+seo-description: Destination Builder lets you create cookie-based or DNL URL destinations. You cannot create server-to-server (S2S) destinations with Destination Builder, but you can manage their segment mappings. Contact your consultant to set up a S2S destination. Destination Builder is located in Audience Data > Destinations.
+seo-title: Destination Builder
 solution: Audience Manager
 title: 宛先ビルダー
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: 0923bea3-fb23-45c0-bbb7-5a74f46bf45b
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!UICONTROL Destination Builder] を使用すると、Cookie ベースの宛先や [!DNL URL] の宛先を作成できます。[!UICONTROL Destination Builder] では、サーバー間（[!DNL S2S]）の宛先を作成することはできませんが、サーバー間宛先のセグメントマッピングを管理することはできます。[!DNL S2S] の宛先をセットアップする場合は、担当のコンサルタントにお問い合わせください。[!UICONTROL Destination Builder]は&#x200B;**[!UICONTROL Audience Data > Destinations]**&#x200B;にあります。
 
-## 宛先ビルダーの設定 {#destination-builder-settings}
+## Destination Builder の設定 {#destination-builder-settings}
 
 <!-- destination-builder.xml -->
 
@@ -36,4 +36,4 @@ ht-degree: 100%
 * [!DNL URL] および Cookie ベースの宛先は、ユーザーがページでアクションをおこなうたびに、データを同期的に送信します。
 * サーバー間データ送信は非同期的で、ユーザーがページから移動した後かなり経ってからおこなわれることがあります。選択する配信タイプは、ビジネス要件と特定のデータパートナーによるデータの受信方法によって異なります。
 
-詳しくは、[宛先のタイプを選択する方法](../../features/destinations/destinations.md)を参照してください。
+詳しくは [ 宛先タイプの選択方法 ](../../features/destinations/destinations.md) を参照してください。

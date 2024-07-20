@@ -1,16 +1,16 @@
 ---
 description: フォルダー特性を使用すると、同じフォルダーとそのすべての子フォルダーに存在する特性を自動的に集計して、ターゲティング可能なセグメントにすることができます。
 keywords: セグメントサイズの見積もり;SSE
-seo-description: フォルダー特性を使用すると、同じフォルダーとそのすべての子フォルダーに存在する特性を自動的に集計して、ターゲティング可能なセグメントにすることができます。
-seo-title: フォルダー特性について
+seo-description: Folder traits let you automatically aggregate traits that reside within the same folder and all child folders into a targetable segment.
+seo-title: Folder Traits  About
 solution: Audience Manager
 title: フォルダー特性について
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
-feature: 特性
+feature: Traits
 exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 [!UICONTROL Folder traits]では、配下のフォルダー構造内の特性のすべてのユーザーが対象となります。あるフォルダーから別のフォルダーに特性を移動すると、その変更は、特性ルールの変更と同様に、[データ収集サーバー](../../reference/system-components/components-data-collection.md)に反映されます。次のレポート実行のタイミングで、すべての日付範囲（1、7、14、30、60、90）にわたってこの変更が反映されるようレポートが更新されます。これより前にレポートされた数値は変更されません。
 
-## ロールベースのアクセス制御（RBAC）権限 {#role-based-access-controls}
+## ロールベースのアクセス制御（RBAC）の権限 {#role-based-access-controls}
 
 [!UICONTROL Role-Based Access Controls]（[!UICONTROL RBAC]）を使用している会社の場合、適切な [!UICONTROL RBAC] 権限を持つユーザーは、[!UICONTROL folder trait] と関連付けられたデータソースを変更することができます。ユーザーは以下のいずれかを持つグループに属している必要があります。
 

@@ -1,7 +1,7 @@
 ---
 description: 指定した宛先 ID の宛先を返す GET メソッド。
-seo-description: 指定した宛先 ID の宛先を返す GET メソッド。
-seo-title: 宛先 ID を基準に宛先を返す
+seo-description: A GET method that returns the destination for the specified destinationId.
+seo-title: Return A Destination by Destination ID
 solution: Audience Manager
 title: 宛先 ID を基準に宛先を返す
 uuid: abce7426-55a5-4045-93a7-0487652a7189
@@ -9,7 +9,7 @@ feature: API
 exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---
@@ -71,7 +71,6 @@ ht-degree: 100%
 >* *（オプション）*`containsSegment=<sid>` を渡すと、指定したセグメントにマッピングされたすべての宛先の配列が返されます。例えば、クエリは次のようになります `GET .../destinations/?containsSegment=4321`。
 >
 >* 完全な宛先オブジェクトは返されません。完全に準備されたオブジェクトが必要な場合は、データ順序を基準に宛先を取得します。
-
 
 ### オプションのクエリパラメーター
 
@@ -140,7 +139,7 @@ ht-degree: 100%
 ]
 ```
 
-## マッピング ID で宛先マッピングを返す {#return-dest-mapping-id}
+## マッピング ID を使用して宛先マッピングを返す {#return-dest-mapping-id}
 
 `GET` に基づいて個々の宛先マッピングを返す `mappingId` メソッド。
 
@@ -177,7 +176,7 @@ ht-degree: 100%
 }
 ```
 
-## 宛先マッピングを返す {#return-dest-mappings}
+## 宛先マッピング {#return-dest-mappings}
 
 宛先のマッピングを返す `GET` メソッド。
 
@@ -251,7 +250,7 @@ ht-degree: 100%
 {
 ```
 
-## 使用可能な宛先プラットフォームをすべて返す {#return-dest-platforms}
+## 使用可能なすべての宛先プラットフォームを返す {#return-dest-platforms}
 
 宛先の使用可能なデバイスプラットフォームをすべて返す `GET` メソッド。
 

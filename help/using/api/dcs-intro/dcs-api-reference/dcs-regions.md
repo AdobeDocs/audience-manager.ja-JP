@@ -1,7 +1,7 @@
 ---
 description: DCS の呼び出しをおこなうには、地域 DCS サーバーのホスト名が必要です。DCS では、サイト訪問者に地理的に近いデータセンターに情報を保存するからです。間違った DCS にクエリを送信しても機能しますが、そのような呼び出しは非効率的で、応答の遅延につながるおそれがあります。DCS リクエストをおこなうには、地域 ID を対応する地域ホスト名に合わせ、適切なホスト名でクエリを作成します。
-seo-description: DCS の呼び出しをおこなうには、地域 DCS サーバーのホスト名が必要です。DCS では、サイト訪問者に地理的に近いデータセンターに情報を保存するからです。間違った DCS にクエリを送信しても機能しますが、そのような呼び出しは非効率的で、応答の遅延につながるおそれがあります。DCS リクエストをおこなうには、地域 ID を対応する地域ホスト名に合わせ、適切なホスト名でクエリを作成します。
-seo-title: DCS の地域 ID、場所、ホスト名
+seo-description: The regional DCS server host name is required to make calls to the DCS. This is because the DCS stores information in data centers that are geographically close to site visitors. Your queries will work if you send them to the wrong DCS, but these calls are inefficient and can delay the response. To make a DCS request, match the region ID to its corresponding regional host name and form your query with the proper host name.
+seo-title: DCS Region IDs, Locations, and Host Names
 solution: Audience Manager
 title: DCS の地域 ID、場所、ホスト名
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
@@ -9,7 +9,7 @@ feature: DCS
 exl-id: 9b12946c-89f1-4f6f-adb9-961e15a0b816
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '234'
 ht-degree: 100%
 
 ---

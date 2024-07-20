@@ -1,7 +1,7 @@
 ---
 description: これらの RESTful API メソッドで宛先を作成します。
-seo-description: これらの RESTful API メソッドで宛先を作成します。
-seo-title: 宛先の作成
+seo-description: Create destinations with these RESTful API methods.
+seo-title: Create Destinations
 solution: Audience Manager
 title: 宛先の作成
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
@@ -9,7 +9,7 @@ feature: API
 exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 100%
 }
 ```
 
-## Cookie 宛先の作成：単一のキー、非シリアル化 {#create-cookie-dest-single}
+## Cookie の宛先の作成：単一キー、非シリアル化 {#create-cookie-dest-single}
 
 単一のキーと値のペア（例：`gender=male` や `gender=female`）で構成されるセグメントを受け入れる[!UICONTROL cookie destination]を作成できる `POST` メソッド。
 
@@ -202,7 +202,7 @@ ht-degree: 100%
 } 
 ```
 
-## Cookie 宛先の作成：単一のキー、シリアル化 {#create-cookie-dest-single-serial}
+## Cookie の宛先の作成：単一キー、シリアル化 {#create-cookie-dest-single-serial}
 
 単一のキーに関連付けられた複数の値（例：`color=blue, red, green`）を受け入れる宛先を作成できる `POST` メソッド。
 
@@ -273,7 +273,7 @@ ht-degree: 100%
 }
 ```
 
-## Cookie 宛先の作成：複数キー、非シリアル化 {#create-cookie-dest-multi}
+## Cookie の宛先の作成：複数キー、非シリアル化 {#create-cookie-dest-multi}
 
 異なる値を持つ複数のキー（例：`gender=male; gender=female; color=blue; color=red`）を含むセグメントを受け入れる宛先を作成できる `POST` メソッド。
 
@@ -340,7 +340,7 @@ ht-degree: 100%
 }
 ```
 
-## Cookie 宛先の作成：複数キー、シリアル化 {#create-cookie-dest-multi-serial}
+## Cookie の宛先の作成：複数キー、シリアル化 {#create-cookie-dest-multi-serial}
 
 複数のキーと値（例：`gender=male, female; color=blue, red, green`）を含むセグメントを受け入れる宛先を作成できる `POST` メソッド。
 
@@ -412,6 +412,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [宛先](../../../features/destinations/destinations.md)
-* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
-* [キーと値のペアの解説 ](../../../reference/key-value-pairs-explained.md)
-
+>* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)

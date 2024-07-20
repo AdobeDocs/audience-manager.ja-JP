@@ -1,13 +1,13 @@
 ---
 description: Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合方法の概要です。
-seo-description: Adobe Audience Manager（AAM）で Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合方法の概要です。
-seo-title: Adobe Audience Manager（AAM）で Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合
-title: 'Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合 '
-feature: サードパーティ統合
+seo-description: Overview of how to integrate Google Ad Manager using Google Publisher Tags (GPT) in Adobe Audience Manager (AAM).
+seo-title: Integrate Google Ad Manager using Google Publisher Tags (GPT)in Adobe Audience Manager (AAM)
+title: Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合
+feature: Third-party Integration
 exl-id: d383cb8a-ef41-4ce6-9e31-6145797a89fa
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '212'
 ht-degree: 100%
 
 ---
@@ -18,16 +18,16 @@ Google サイト運営者タグ（GPT）を使用した [!DNL Google Ad Manager]
 
 * [Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
-   クライアント側またはサーバー側の統合を通じて、絞り込んだセグメントを [!DNL Google Ad Manager] に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
+  クライアント側またはサーバー側の統合を通じて、絞り込んだセグメントを [!DNL Google Ad Manager] に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
 
 * [GPT 宛先の作成](/help/using/integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-   認定されたセグメントを、クライアント側（ブラウザー側）の統合またはサーバー側の統合により [!DNL Google Ad Manager] に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
+  認定されたセグメントを、クライアント側（ブラウザー側）の統合またはサーバー側の統合により [!DNL Google Ad Manager] に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
 
 * [GPT setTargeting API 呼び出しの変更](/help/using/integration/gpt-aam-destination/gpt-aam-modify-api.md)
 
-   Google サイト運営者タグの .setTargeting メソッドを呼び出す前に、Audience Manager の Cookie を確認するための if 文を追加します。
+  Google サイト運営者タグの .setTargeting メソッドを呼び出す前に、Audience Manager の Cookie を確認するための if 文を追加します。
 
 * [Google サイト運営者タグ用の Audience Manager コード](/help/using/integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
-   AamGpt は、Audience Manager の Cookie データを読み取り、Google サイト運営者タグに情報を送信する JavaScript 関数です。
+  AamGpt は、Audience Manager の Cookie データを読み取り、Google サイト運営者タグに情報を送信する JavaScript 関数です。

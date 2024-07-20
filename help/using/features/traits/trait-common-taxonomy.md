@@ -1,16 +1,16 @@
 ---
 description: この記事では、一般的なカテゴリへの特性の分類についての全般的な概要について説明します。
 keywords: DIL
-seo-description: この記事では、一般的なカテゴリへの特性の分類についての全般的な概要について説明します。
-seo-title: 一般的なカテゴリへの特性の分類
+seo-description: This article provides general overview about classifying traits with a common taxonomy.
+seo-title: Classifying Traits with a Common Taxonomy
 solution: Audience Manager
 title: 一般的なカテゴリへの特性の分類
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
-feature: 特性
+feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '366'
 ht-degree: 100%
 
 ---

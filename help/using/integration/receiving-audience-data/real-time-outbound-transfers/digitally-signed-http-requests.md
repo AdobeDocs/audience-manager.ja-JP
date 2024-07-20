@@ -1,20 +1,20 @@
 ---
 description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP(S) サーバー間リクエストが必要です。ここでは、HTTP 要求に秘密鍵で署名する方法について説明します。
-seo-description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP(S) サーバー間リクエストが必要です。ここでは、HTTP(S) 要求に秘密鍵で署名する方法について説明します。
-seo-title: デジタル署名された HTTP(S) 要求
+seo-description: Audience Manager requires the HTTP(S) server-to-server requests to be digitally signed for validity. This document describes how you can sign HTTP(S) requests with private keys.
+seo-title: Digitally Signed HTTP(S) Requests
 solution: Audience Manager
 title: デジタル署名された HTTP(S) 要求
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
-feature: 送信データ転送
+feature: Outbound Data Transfers
 exl-id: 55907a25-a361-494a-86b9-c693faea4f0e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '520'
 ht-degree: 99%
 
 ---
 
-# デジタル署名された `HTTP(S)`要求 {#digitally-signed-http-requests}
+# デジタル署名された `HTTP(S)` 要求 {#digitally-signed-http-requests}
 
 Audience Manager では、`HTTP(S)` サーバー間要求をデジタル署名して有効性を確保する必要があります。ここでは、`HTTP(S)` 要求に秘密鍵で署名する方法について説明します。
 
@@ -93,6 +93,6 @@ String signature = Base64.encodeBase64String(result).trim();
 
 ## 署名に使用するデータ {#data-signing}
 
-`GET` タイプの宛先の場合、署名に使用するメッセージは *REQUEST_PATH + QUERY STRING*（例：*/from-aam-s2s？=1,2,3*）になります。IRIS ではホスト名や `HTTP(S)` ヘッダーを考慮しません。これらは、経路の途中で改変されたり誤って設定されたりするおそれがあります。また、間違って通知される可能性もあります。
+`GET` タイプの宛先の場合、署名に使用するメッセージは&#x200B;*リクエストパス + クエリ文字列*（例：*/from-aam-s2s？=1,2,3*）になります。IRIS ではホスト名や `HTTP(S)` ヘッダーを考慮しません。これらは、経路の途中で改変されたり誤って設定されたりするおそれがあります。また、間違って通知される可能性もあります。
 
 `POST` タイプの宛先の場合、署名に使用されるメッセージは *REQUEST_BODY* になります。この場合もやはり、ヘッダーやその他の要求パラメーターは無視されます。

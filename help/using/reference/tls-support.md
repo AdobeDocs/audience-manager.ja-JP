@@ -1,15 +1,15 @@
 ---
 description: Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されました。
-seo-description: Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されました。
-seo-title: TLS 1.0 および 1.1 の廃止
+seo-description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
+seo-title: TLS 1.0 and 1.1 Deprecation
 solution: Audience Manager
 title: TLS 1.0 および 1.1 の廃止
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
-feature: リファレンス
+feature: Reference
 exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '227'
 ht-degree: 100%
 
 ---

@@ -22,7 +22,7 @@ ht-degree: 98%
 * **前回の更新日** = この [!UICONTROL device-based destination] で最後に更新がおこなわれた日付が表示されます。
 * **アップデート** = [!DNL Audience Manager]この [!UICONTROL destination] にデータをリアルタイムで送信するか、バッチ（1 回/日）で送信するかを指定します。
 * **セグメント解除** = セグメント化解除とは、デバイスプロファイルを不適格として[!UICONTROL segments]から削除するプロセスのことです。デバイスプロファイルを[!UICONTROL segment]から削除できるかどうかは、[!UICONTROL Profile Merge Rule] の作成時に使用したデバイスオプションによって異なります。セグメント化解除は、[!DNL GDPR] 削除リクエストのコンテキストでも使用されます。[プロファイルの結合ルールとデバイスのセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)および [セグメント解除に対応している Audience Manager パートナー](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)をお読みください。[!DNL Audience Manager] は、以下の「**はい**」とマークされている[!UICONTROL destinations]にセグメント情報を送信します。
-* **受信中 [!DNL IAB TCF] 同意シグナル** = [!DNL Audience Manager Plug-in for IAB TCF] を使用すると、 [!DNL IAB TC] 文字列をアクティベーションパートナーに割り当て、ユーザーのプライバシー選択に従う。 [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
+* **同意シグナル [!DNL IAB TCF] 受信** = [!DNL Audience Manager Plug-in for IAB TCF] を使用すると、ユーザーのプライバシーの選択を尊重しながら、アクティベーションパートナーに [!DNL IAB TC] の文字列を転送できます。 [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
 * **[!DNL ICDS]** = この列には、[!UICONTROL Instant Cross-Device Suppression] をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **モバイルデバイス ID** = この列には、[!DNL Audience Manager] からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 

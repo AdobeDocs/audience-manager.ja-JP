@@ -1,5 +1,5 @@
 ---
-seo-title: サーバー間 DCS API 呼び出しの実行
+seo-title: Making Server-to-Server DCS API Calls
 solution: Audience Manager
 title: サーバー間 DCS API 呼び出しの実行
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
@@ -8,14 +8,14 @@ description: サーバー間 DCS API 呼び出しをおこなう際の呼び出�
 exl-id: 977f4dfe-0beb-43c8-b64e-df4042427474
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '350'
+ht-degree: 92%
 
 ---
 
 # サーバー間 DCS API 呼び出しの実行 {#making-server-to-server-dcs-api-calls}
 
-呼び出しには、地域 DCS サーバーのホスト名とユーザー ID が必要です。必要なユーザー ID と地域 ID がない場合は、[DCS 応答からのユーザー ID と地域 ID の取得](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md)や [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md) を参照してください。ユーザー ID と地域 ID が用意できたら、DCS へのサーバー間呼び出しをおこなえます。構文と例については、この節を参照してください。
+呼び出しには、地域 DCS サーバーのホスト名とユーザー ID が必要です。必要なユーザー ID および地域 ID がない場合は、[DCS 応答からのユーザー ID および地域の取得 ](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) および [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md) を参照してください。 ユーザー ID と地域 ID が用意できたら、DCS へのサーバー間呼び出しをおこなえます。構文と例については、この節を参照してください。
 
 >[!NOTE]
 >

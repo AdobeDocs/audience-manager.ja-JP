@@ -6,8 +6,8 @@ feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
 source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 100%
+source-wordcount: '1517'
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 | エラーコード | エラーメッセージ | 説明 |
 |---|---|---|
 | 0 | Unspecified error | これは、他のエラーハンドラーでカバーされないイベントを処理する包括的なエラーです。このエラーのトラブルシューティングは困難です。種々の不明なアクションやイベントが原因になっている可能性があります。このエラーが発生した場合は、[!DNL DCS] 要求をもう一度試してください。問題が解決しない場合は、[!DNL Adobe] 担当者にお問い合わせください。 |
-| 1 | Could not find config for hostname:     `hostname` | 送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。このエラーメッセージが表示された場合は、[!DNL Adobe] 担当者にご連絡ください。 |
+| 1 | ホスト名：`hostname` の構成が見つかりませんでした。 | 送信された要求に含まれているホスト名が、アドビのパートナープロビジョニングチームでセットアップされていません。このエラーメッセージが表示された場合は、[!DNL Adobe] 担当者にご連絡ください。 |
 | 2 | Invalid `d_orgid` value (could not find a config for this org id): `ID` | 組織 ID が正しくありません。ID を確認して、要求をもう一度試してください。組織 ID が不明な場合は、組織 ID の見つけ方について、[組織とアカウントのリンク](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)の「管理ページ」を参照してください。 |
 | 10 | 特性を評価できません | リクエスト上の特性は、部分的に評価されたか、まったく評価されていません。 問題が解決しない場合は、[!DNL Adobe] 担当者にお問い合わせください。 |
 
@@ -50,7 +50,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>171 </p> </td> 
-   <td colname="col2"> <p>Encountered opt out tag for id <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>ID <code><i>ID</i></code> のオプトアウトタグが見つかりました </p> </td> 
    <td colname="col3"> <p>お客様がインタレストベース広告の受信をオプトアウトしました。 </p> </td> 
   </tr> 
   <tr> 
@@ -96,22 +96,22 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>200 </p> </td> 
-   <td colname="col2"> <p> Cannot read traits from profile cache for id:     <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> ID <code><i>ID</i></code> のプロファイル キャッシュから特性を読み取れません </p> </td> 
    <td colname="col3"> <p>アドビの社内ストレージからユーザープロファイルを読み取れない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>201 </p> </td> 
-   <td colname="col2"> <p> Cannot read device ids from profile cache for customer id:     <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> 顧客 ID: <code><i>ID</i></code> のプロファイル キャッシュからデバイス ID を読み取ることができません </p> </td> 
    <td colname="col3"> <p><a href="../../../reference/ids-in-aam.md">デバイス ID</a> をプロファイルリンク結合ルールのために取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>202 </p> </td> 
-   <td colname="col2"> <p>Cannot read related customer for device id:     <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>デバイス ID: <code><i>ID</i></code> の関連する顧客を読み取れません </p> </td> 
    <td colname="col3"> <p>デバイス ID に関連付けられている<a href="../../../reference/ids-in-aam.md">顧客 ID（UUID）</a>を、前回の認証済みプロファイル結合ルールのためにアドビの社内ストレージから取得できない場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>203 </p> </td> 
-   <td colname="col2"> <p> Cannot read device cluster for id:     <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p> 次の ID のデバイス クラスターを読み取れません：<code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>このデバイス ID にリンクされているデバイス ID を同じデバイスグラフクラスターから返せません。 </p> </td>
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
-   <td colname="col2"> <p>Could not perform migration from<code><i>ID</i></code> to <code><i>ID</i></code>, because profile read failed for <code><i>ID</i></code> </p> </td>
+   <td colname="col2"> <p><code><i>ID</i></code> のプロファイルの読み取りに失敗したため、<code><i>ID</i></code> から <code><i>ID</i></code> への移行を実行できませんでした </p> </td>
    <td colname="col3"> <p>このエラーが報告された場合は、アドビのデータストア（<span class="wintitle">PCS</span>）にスケーラビリティの問題が発生している可能性があります。問題が解決しない場合は、アドビの担当者にお問い合わせください。 </p> </td> 
   </tr> 
  </tbody> 
@@ -140,47 +140,47 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>300 </p> </td> 
-   <td colname="col2"> <p>Invalid customer id <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>顧客 ID <code><i>ID</i></code> が無効です </p> </td> 
    <td colname="col3"> <p>顧客 ID が無効です（データソースの値がない、統合コードがない、データソースの形式が無効、顧客 ID がブロックされている、顧客 ID が未指定、パートナーの管理下にないデータソースに不正にアクセスしようとしている、など）。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Maximum number of customer ids exceeded.Maximum allowed is<code><i>maximum allowed</i></code>. Found is <code><i>maximum found</i></code>.</p> </td> 
+   <td colname="col2"> <p>Maximum number of customer ids exceeded.最大許容数は <code><i>maximum allowed</i></code> です。 Found is <code><i>maximum found</i></code>.</p> </td> 
    <td colname="col3"> <p>クロスデバイス対応データソースに関連付けられている顧客 ID の数が、要求あたりのクロスデバイス ID 数の上限を超えています。このような ID にはクロスデバイス ID、モバイル ID、Cookie ID などがあります。上限は現在 10 に設定されています。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
-   <td colname="col2"> <p>Unauthorized customer id <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>未認証の顧客 ID <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織 ID が不明な場合は、組織 ID の見つけ方について、<a href="https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html" format="https" scope="external">組織とアカウントのリンク</a>の「組織 ID を見つける」を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
-   <td colname="col2"> <p>Blocked customer id <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>ブロックされた顧客 ID <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>顧客 ID が悪意のある ID と見なされてブロックリストに追加されている場合に返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>Blocked datasource id  <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>ブロックされたデータソース ID <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>データソース ID が悪意のある ID と見なされてブロックリストに追加されている場合に返されます </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>ブロックされた宣言デバイス ID <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>デバイス ID が悪意のあるもの見なされ、ブロックリストに加えられました。この問題は、このデバイス ID を含む <span class="wintitle"> DCS</span> 要求を短期間で大量に受信した場合に発生する可能性があります。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p><code><i>ID</i></code> のブロックされたプロファイル操作 </p> </td> 
    <td colname="col3"> <p>ID が悪意のあるIDと見なされてブロックに加えられたため、読み取り/書き込み操作がブロックされました。エラーコード 306 を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>Customer id<code><i>ID</i></code> was discarded because it exceeded the limit of declared customer ids per request </p> </td> 
+   <td colname="col2"> <p>顧客 ID <code><i>ID</i></code> は、要求あたりの宣言済み顧客 ID の上限を超えたため、破棄されました </p> </td> 
    <td colname="col3"> <p>エラー 301 に関係します。このエラーは、上限を超えたため破棄された顧客 ID を示します。 </p> <p>例えば、12 個の顧客 ID が <span class="wintitle">DCS</span> 呼び出しで宣言された場合は、そのうちの 2 個が破棄されます。どの ID が破棄されたかを伝えるために、このエラーは応答に 2 回表示されます（破棄された顧客 ID ごとに 1 回ずつ）。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace.Namespace id is<code><i>ID</i></code>, customer id is <code><i>ID</i></code>. </p> </td> 
+   <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace. 名前空間 ID は <code><i>ID</i></code>、顧客 ID は <code><i>ID</i></code> です。 </p> </td> 
    <td colname="col3"> <p>このエラーコードが返されるのは、1 回の <code> DPID</code>DCS<span class="wintitle"> 呼び出しで同じ名前空間（</span>）に 4 個以上の顧客 ID が宣言されている場合です。 </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>このサンプル <span class="wintitle">DCS</span> 要求では、同じ名前空間に（統合コード one で）4 個の ID が宣言されています。これらの ID の 1 つが破棄され、エラー 310 が返されます。 </p> </td> 
   </tr> 
   <tr> 
@@ -199,13 +199,13 @@ ht-degree: 100%
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>CMP ID is not present in GCL</p> </td> 
-   <td colname="col3"> <p><code>gdpr=1</code> および IAB TC 文字列が CMP ID によって生成され、評価時点においてその CMP ID が、Audience Manager のグローバル CMP リストのキャッシュバージョンに存在しない場合、IAB TCF 用 Audience Manager プラグインは IAB TC 文字列を破棄し、通常どおりリクエストを処理します。IAB TCF v2.2 ${GDPR} マクロが 0 に設定され、${GDPR_CONSENT_XXX} マクロは空になります。</p>
+   <td colname="col3"> <p><code>gdpr=1</code> および IAB TC 文字列が CMP ID によって生成され、評価時点においてその CMP ID が、Audience Manager のグローバル CMP リストのキャッシュバージョンに存在しない場合、IAB TCF 用 Audience Manager プラグインは IAB TC 文字列を破棄し、通常どおりリクエストを処理します。IAB TCF v2.2 ${GDPR} マクロは 0 に設定され、${GDPR_CONSENT_XXX} マクロは空です。</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>CMP ID is marked as deleted in GCL</p> </td> 
-   <td colname="col3"> <p><code>gdpr=1</code> および IAB TCF 文字列が CMP によって生成され、その CMP がグローバル CMP リストのキャッシュバージョンで削除とマークされている場合、評価時間がグローバル CMP リストの削除時間を経過すると、IAB TC 用 Audience Manager プラグインは TC 文字列を破棄し、通常どおりリクエストを処理します。IAB TCF v2.2 ${GDPR} マクロが 0 に設定され、${GDPR_CONSENT_XXX} マクロは空になります。</p></td>
+   <td colname="col3"> <p><code>gdpr=1</code> および IAB TCF 文字列が CMP によって生成され、その CMP がグローバル CMP リストのキャッシュバージョンで削除とマークされている場合、評価時間がグローバル CMP リストの削除時間を経過すると、IAB TC 用 Audience Manager プラグインは TC 文字列を破棄し、通常どおりリクエストを処理します。IAB TCF v2.2 ${GDPR} マクロは 0 に設定され、${GDPR_CONSENT_XXX} マクロは空です。</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 

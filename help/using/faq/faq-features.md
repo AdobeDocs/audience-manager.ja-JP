@@ -4,14 +4,14 @@ keywords: Audience Manager の Cookie
 seo-description: Common product and function-related questions and issues.
 seo-title: Product Features and Functions FAQ
 solution: Audience Manager
-title: '製品の機能に関するよくある質問 '
+title: 製品の機能に関するよくある質問
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ faq_features_functions.xml
 
 **組織 ID はどのようなもので、どうすれば見つかりますか？**
 
- *`Organization ID`* は、[!DNL Audience Manager] や [!DNL Adobe Experience Cloud] が組織を識別するための一意の ID です。大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
+*`Organization ID`* は、組織を識別する一意の ID で、[!DNL Audience Manager] と [!DNL Adobe Experience Cloud] です。 大文字と小文字が区別される 24 文字の英数字から成る文字列の後に [!UICONTROL @AdobeOrg] が付いたものです。
 
 つまり、*`Organization ID`* は `1FD6776A524453CC0A490D44@AdobeOrg` のようになります。
 
@@ -43,7 +43,7 @@ faq_features_functions.xml
 
 >[!NOTE]
 >
->[!UICONTROL Bulk Management Tools]ツールは、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。便宜上、提供されているものにすぎません。一括変更については、代わりに[Audience Manager API](../api/api.md) を使用することをお勧めします。
+>[!UICONTROL Bulk Management Tools]ツールは、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。便宜上、提供されているものにすぎません。一括変更の場合は、代わりに [Audience ManagerAPI](../api/api.md) を使用することをお勧めします。
 
  
 

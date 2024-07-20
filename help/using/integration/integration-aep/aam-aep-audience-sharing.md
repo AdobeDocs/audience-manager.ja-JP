@@ -7,7 +7,7 @@ feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 source-git-commit: d21d0574ee0338dbd5e11c60e0d64042182aa18b
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1799'
 ht-degree: 94%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 94%
 
 ## 概要 {#overview}
 
-Audience ManagerとAdobe Experience Platformの間でオーディエンス共有機能を使用すると、Audience Managerの特性とセグメントをAdobe Experience Platformと共有し、Experience PlatformのセグメントをAudience Managerと共有できます。
+Audience ManagerとAdobe Experience Platformの間でオーディエンスを共有する機能を使用すると、Audience Managerの特性とセグメントをAdobe Experience Platformに、Experience PlatformのセグメントをAudience Managerに共有できます。
 
-必要なのは [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) そして [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) の宛先をExperience Platformして、Audience ManagerとAdobe Experience Platformの間でオーディエンス共有を有効にします。
+Audience ManagerとAdobe Experience Platformの間でオーディエンスの共有を有効にするには、Experience Platformで [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) と ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)2}Experience Cloudオーディエンス } の宛先が必要です。[
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を活用することができます。
 
@@ -74,7 +74,7 @@ Audience Manager ソースコネクターを設定して、Audience Manager か�
 
 >[!IMPORTANT]
 >
-> この節では、セグメントからAudience Managerへの従来のセグメント共有のExperience Platformについて説明します。 Adobeの顧客担当者がサポートを受けずに、この統合を設定できるようになりました。 詳しくは、 [Experience Cloudオーディエンス](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) 宛先のドキュメント。
+> ここでは、Experience PlatformからAudience Managerへの従来のセグメント共有の統合について説明します。 Adobeのお客様の担当者のサポートなしで、この統合を設定できるようになりました。 詳しくは、[ 宛先オーディエンス ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)Experience Cloudドキュメントを参照してください。
 
 >[!NOTE]
 >

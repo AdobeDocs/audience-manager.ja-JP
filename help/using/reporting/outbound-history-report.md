@@ -1,15 +1,15 @@
 ---
 description: 指定した宛先と期間について、アウトバウンドの一括ジョブの履歴情報を表示できます。
-seo-description: 指定した宛先と期間について、アウトバウンドの一括ジョブの履歴情報を表示できます。
-seo-title: 送信ファイル履歴
+seo-description: View outbound batch job history information for a specified destination and time period.
+seo-title: Outbound File History
 solution: Audience Manager
 title: 送信ファイル履歴
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-feature: インバウンドレポートとアウトバウンドレポート
+feature: Inbound and Outbound Reports
 exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '152'
 ht-degree: 100%
 
 ---

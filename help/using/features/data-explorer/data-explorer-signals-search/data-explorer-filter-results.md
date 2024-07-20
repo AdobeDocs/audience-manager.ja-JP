@@ -1,14 +1,14 @@
 ---
 description: シグナルタイプに基づいてシグナル検索の結果をフィルタリングします。
-seo-description: シグナルタイプに基づいてシグナル検索の結果をフィルタリングします。
-seo-title: 検索結果のフィルタリング
+seo-description: Filter the results of a signal search based on the signal type.
+seo-title: Filter Search Results
 title: 検索結果のフィルタリング
 uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
-feature: 'データエクスプローラ '
+feature: Data Explorer
 exl-id: df178712-6417-4c4d-b5f8-5a8c00bfcd12
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '124'
 ht-degree: 100%
 
 ---

@@ -1,16 +1,16 @@
 ---
 description: アルゴリズム特性の作成プロセスに特有のセットアップ手順や機能について説明します。
-seo-description: アルゴリズム特性の作成プロセスに特有のセットアップ手順や機能について説明します。
-seo-title: アルゴリズム特性の作成
+seo-description: Describes set up steps and features unique to the algorithmic trait creation process.
+seo-title: Create Algorithmic Traits
 solution: Audience Manager
 title: アルゴリズム特性の作成
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
-feature: 特性
+feature: Traits
 exl-id: dc799688-e38b-469b-bc55-507df0d28f43
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 * [類似（look-alike）モデルの作成](../../features/algorithmic-models/create-model.md).
 * モデルデータの実行が完了したことを知らせる通知電子メールを受け取る。
-* 必須フィールドを「[基本情報](../../features/traits/create-onboarded-rule-based-traits.md)」セクションに入力する。
+* 「[ 基本情報 ](../../features/traits/create-onboarded-rule-based-traits.md)」セクションの必須フィールドに入力します。
 
 ### 構成フィールドと設定
 
@@ -53,4 +53,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [精度とリーチ](../../features/traits/trait-accuracy-reach.md)
-

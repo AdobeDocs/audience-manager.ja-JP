@@ -1,15 +1,15 @@
 ---
 description: サードパーティコンテンツプロバイダーは、これらの技術仕様に従って、Audience Manager とデータを交換できます。リアルタイム（同期）統合では、ユーザーがサイトに訪問するかサイトでアクションを起こすたびに、ほぼリアルタイムにデータを転送します。技術、エンジニアリング、開発の各チームでは、この資料を使用して、Audience Manager を使用したリアルタイムデータ転送のセットアップに役立てることができます。
-seo-description: サードパーティコンテンツプロバイダーは、これらの技術仕様に従って、Audience Manager とデータを交換できます。リアルタイム（同期）統合では、ユーザーがサイトに訪問するかサイトでアクションを起こすたびに、ほぼリアルタイムにデータを転送します。技術、エンジニアリング、開発の各チームでは、この資料を使用して、Audience Manager を使用したリアルタイムデータ転送のセットアップに役立てることができます。
-seo-title: 受信リアルタイムデータ転送の技術仕様
+seo-description: Third-party content providers can expect to exchange data with Audience Manager according to these technical specifications. A real-time (synchronous) integration transfers data in near-real time as a user visits or takes actions on your site. Technical, engineering, or development teams should use this material to help set up real-time data transfers with Audience Manager.
+seo-title: Technical Specifications for Inbound, Real-Time Data Transfers
 solution: Audience Manager
 title: 受信リアルタイムデータ転送の技術仕様
 uuid: 722aaf40-c60f-451c-99ce-aa773f7f301d
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: 4d777b67-6330-4582-b398-abc267b84d83
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---

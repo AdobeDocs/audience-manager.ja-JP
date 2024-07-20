@@ -9,7 +9,7 @@ feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
+>Bulk Management Tools は、公式にサポートされているAdobeではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースバイケースで対応します。
 
 <!-- 
 

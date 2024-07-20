@@ -1,16 +1,16 @@
 ---
 description: Audience Manager のユーザー管理は Adobe Admin Console に移行されます。この記事では、ユーザー移行の準備に必要な作業と移行完了後の変更点について説明します。
 keywords: rbac;RBAC;役割に基づく;ロールベース;ロールベースのアクセス制御
-seo-description: Audience Manager のユーザー管理は Adobe Admin Console に移行されます。この記事では、ユーザー移行の準備に必要な作業と移行完了後の変更点について説明します。
-seo-title: Admin Console への Audience Manager ユーザーの移行
+seo-description: Audience Manager user management is moving to Adobe Admin Console. This article explains what you need to do to prepare for user migration, and what will change once the migration is complete.
+seo-title: Audience Manager User Migration to Admin Console
 solution: Audience Manager
 title: Admin Console への Audience Manager ユーザーの移行
-feature: 管理
+feature: Administration
 exl-id: d9069cc1-87fa-47b7-ad0c-d69ee37fc91e
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '451'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 | メリット | 説明 |
 |---|---|
-| シングルサインオンソリューション間 | [!DNL Audience Manager] ユーザーは、[!DNL Adobe ID] または [!DNL Enterprise ID] を使用して、[!DNL Experience Cloud] などのすべてのソリューションにログインできます。このログインにより、[!DNL Experience Cloud] 全体で統合ソリューションとコアサービスにアクセスできます。移行後、従来のログイン（`bank.demdex.com` ）でログインしようとするユーザーは、`experiencecloud.adobe.com` にリダイレクトされます。 |
+| ソリューション間のシングルサインオン | [!DNL Audience Manager] ユーザーは、[!DNL Adobe ID] または [!DNL Enterprise ID] を使用して、[!DNL Experience Cloud] などのすべてのソリューションにログインできます。このログインにより、[!DNL Experience Cloud] 全体で統合ソリューションとコアサービスにアクセスできます。移行後、従来のログイン（`bank.demdex.com` ）でログインしようとするユーザーは、`experiencecloud.adobe.com` にリダイレクトされます。 |
 | ユーザーとグループの管理 | 移行が完了すると、[!DNL Audience Manager] 管理者は [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/) でのみユーザーとグループを管理するようになります。 |
 | 製品とサービスの管理 | [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/) から、管理者は以下をおこなえます。 <ul><li>ユーザーの作成、更新、削除</li><li>ソリューションやサービスへのアクセスの許可</li></ul> |
 

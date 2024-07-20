@@ -1,16 +1,16 @@
 ---
 description: Audience Manager が他のデータプロバイダーおよびシステムと情報を交換する方法の概要です。
-seo-description: Audience Manager が他のデータプロバイダーおよびシステムと情報を交換する方法の概要です。
-seo-title: データ統合方法
+seo-description: A high-level overview of how Audience Manager exchanges information with other data providers and systems.
+seo-title: Data Integration Methods
 solution: Audience Manager
 title: データ統合方法
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
-feature: サードパーティ統合
+feature: Third-party Integration
 exl-id: 26225461-c35c-4db1-9517-99e82ce163b9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 100%
+source-wordcount: '1070'
+ht-degree: 98%
 
 ---
 
@@ -143,7 +143,7 @@ Audience Manager がサードパーティベンダーと同期データ交換を
 
 ![](assets/rt_reduce70.png)
 
-## バッチデータ転送プロセス  {#batch-data-transfer-process}
+## バッチデータ転送プロセス {#batch-data-transfer-process}
 
 Audience Manager がサードパーティベンダーと同期的に（リアルタイムで）データを交換する方法の一般的な概要です。
 

@@ -1,15 +1,15 @@
 ---
 description: ここでは、特性ビルダーで使用される比較演算子について説明します。
-seo-description: ここでは、特性ビルダーで使用される比較演算子について説明します。
-seo-title: 特性ビルダーでの比較演算子の使用
+seo-description: This article describes the comparison operators used by Trait Builder.
+seo-title: Working with Comparison Operators in Trait Builder
 solution: Audience Manager
 title: 特性ビルダーでの比較演算子の使用
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
-feature: 特性
+feature: Traits
 exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 100%
 | **==** | 次と等しい |
 | **!=** | 次と等しくない |
 | **>** | 次の値より大きい |
-| **&lt;>** | 次の値より小さい |
+| **&lt;** | 次の値より小さい |
 | **=>** | 次の値以上 |
-| **&lt;>** | 次の値以下 |
+| **&lt;=** | 次の値以下 |
 
 ## 名前付き演算子
 
@@ -56,7 +56,6 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [特性およびセグメントビルダーのブール式](../../reference/boolean-expressions-tsb.md)
-* [特性ビルダーのブール式について](../../reference/boolean-expressions-tsb.md)
-* [特性ビルダーでの演算順序](../../features/traits/trait-operator-precedence.md)
-* [ブール演算子と比較演算子を使用した式のサンプル](../../features/traits/trait-expression-samples.md)
-
+>* [特性ビルダーのブール式について](../../reference/boolean-expressions-tsb.md)
+>* [特性ビルダーでの演算順序](../../features/traits/trait-operator-precedence.md)
+>* [ブール演算子と比較演算子を使用した式のサンプル](../../features/traits/trait-expression-samples.md)

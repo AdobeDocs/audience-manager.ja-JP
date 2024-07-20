@@ -1,15 +1,15 @@
 ---
 description: 特性適合のバックフィルにより、過去のオーディエンスを収集して、特性作成日前の関連データを逃してしまうことを防ぎます。
-seo-description: 特性適合のバックフィルにより、過去のオーディエンスを収集して、特性作成日前の関連データを逃してしまうことを防ぎます。
-seo-title: 特性適合のバックフィル
+seo-description: Backfill trait realizations to capture historical audiences and avoid loss of relevant data prior to a trait creation date.
+seo-title: Backfill Trait Realizations
 title: 特性適合のバックフィル
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
-feature: 'データエクスプローラ '
+feature: Data Explorer
 exl-id: 6be54999-eeeb-48cd-a630-021f17289431
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,6 @@ ht-degree: 100%
    >    * `!=`
    >    * `matchesregex`
    >    * `matcheswords`
-
 1. 特性を作成します。
 
 特性の作成が完了すると、適合の統計値にバックフィルされた適合数が表示されます。
@@ -54,13 +53,13 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
-## 特性バックフィルの待ち時間 {#trait-backfilling-latency}
+## 特性バックフィル遅延 {#trait-backfilling-latency}
 
 新しく作成した特性では、作成から 2～3 時間後にオーディエンスの収集が開始されます。ただし、[!DNL Audience Manager] で 1 日あたりに処理されるデータ量は多いので、バックフィルした母集団が [!UICONTROL Unique Trait Realizations] グラフおよび [!UICONTROL Total Trait Population] グラフに反映されるまでには時間がかかります。
 
 Audience Manager の [!UICONTROL Trait Graph] は、特性の作成時点から 48 時間以内にバックフィルした母集団で更新されます。
 
-## 特性バックフィルの制限 {#trait-backfilling-limit}
+## 特性のバックフィル制限 {#trait-backfilling-limit}
 
 [!UICONTROL Data Explorer] でバックフィルできる特性は 1 か月あたり 50 個までに制限されており、バックフィルの実行可能回数は毎月 1 日にリセットされます。
 
@@ -68,7 +67,7 @@ Audience Manager の [!UICONTROL Trait Graph] は、特性の作成時点から 
 >
 >特性バックフィルの残り回数は、前の月から持ち越されません。例えば、今月にバックフィルした特性が 30 個であっても、翌月のバックフィルの残り回数は 70 ではなく 50 になります。
 
-## レポートに対する影響 {#reporting-impact}
+## レポートへの影響 {#reporting-impact}
 
 [!DNL Audience Manager] により過去のシグナルが特性適合に変換されるので、バックフィルした特性適合は、[!UICONTROL Unique Trait Realizations] 指標および [!UICONTROL Total Trait Population] 指標に反映されます。
 

@@ -1,15 +1,15 @@
 ---
 description: OpenX を宛先に設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
-seo-description: OpenX を宛先に設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
-seo-title: Audience Manager の宛先としての OpenX
+seo-description: Set up OpenX as a destination and send Audience Manager segment data to that platform.
+seo-title: OpenX as an Audience Manager Destination
 solution: Audience Manager
 title: Audience Manager の宛先としての OpenX
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
-feature: サードパーティ統合
+feature: Third-party Integration
 exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '681'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 >
 >オンサイトの広告サーバーによるターゲティングのみが対象となります。
 
-## OpenX の宛先に関する要件 {#openx-requirements}
+## OpenX の送信先に関する要件 {#openx-requirements}
 
 コードの配置、サポートされるキー値の形式、レポート、および [!DNL OpenX] に送信されるセグメントデータのタイプに関する要件。
 
@@ -47,7 +47,7 @@ Audience Manager はデータをキーと値のペアとして送信します。
 
 [!DNL OpenX] に渡されるデータの量は、特定のユーザーが適合するセグメントの数によって異なります。例えば、100 件の Audience Manager セグメントを設定したとします。サイト訪問者がそのうち 5 件を認定した場合、その 5 件のセグメントだけが [!DNL OpenX] に送信されます（100 件全部ではありません）。
 
-## OpenX の宛先の作成 {#openx-destination}
+## OpenX の送信先の作成 {#openx-destination}
 
 Audience Manager で、[!DNL OpenX] の cookieookie の宛先を作成します。
 
@@ -97,10 +97,10 @@ Audience Manager のセグメントデータを処理するよう [!DNL OpenX] �
 * `get_aamCookie` 関数を呼び出すよう広告タグを変更し、[!DNL OpenX] の宛先を設定した際に指定した Cookie 名を含めます。例えば、Cookie の名前を `test_cookie` とした場合、広告タグは `get_aamCookie` を呼び出し、この Cookie 名を参照する必要があります。
 * 広告タグは次に示す例のような形式になります。
 
-   ```
-   <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') +
-    "&etc&xid=" + get_aamCookie('aam_uuid')
-   ```
+  ```
+  <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') +
+   "&etc&xid=" + get_aamCookie('aam_uuid')
+  ```
 
 必ず `xid=`を含めてください。この変数は、広告呼び出しの際に実際に渡された一意のユーザー ID （[!UICONTROL UUID]）を保持します。
 

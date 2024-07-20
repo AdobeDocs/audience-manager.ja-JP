@@ -1,16 +1,16 @@
 ---
 description: このマップには Audience Manager の主要なシステムが含まれています。Audience Manager コンポーネント内およびコンポーネント間のデータの流れが視覚的に表現されています。
-seo-description: このマップには Audience Manager の主要なシステムが含まれています。Audience Manager コンポーネント内およびコンポーネント間のデータの流れが視覚的に表現されています。
-seo-title: プラットフォームアーキテクチャ データフローマップ
+seo-description: This map contains the major Audience Manager systems. It visually represents how data flows into, out of, and among Audience Manager components.
+seo-title: Platform Architecture  Data Flow Map
 solution: Audience Manager
 title: プラットフォームアーキテクチャ データフローマップ
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
-feature: 'システムコンポーネント '
+feature: System Components
 exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 91%
 
 ---
 
@@ -30,6 +30,6 @@ c_compmap.xml
 
 [!DNL Audience Manager] で出し入れされるデータのタイプは色によって定義されます。グリーンはクライアントデータ、ブルーは顧客データ（サイトを訪れる訪問者）、オレンジはレポートに使用されるデータをそれぞれ示します。
 
-システムの説明および概要については、データの[アクション](../../reference/system-components/components-data-action.md)、[コレクション](../../reference/system-components/components-data-collection.md)、[処理](../../reference/system-components/components-data-processing.md)、および [タグ管理](../../reference/system-components/components-tag-management.md)のセクションを参照してください。
+システムの説明と概要については、データ [ アクション ](../../reference/system-components/components-data-action.md)、[ コレクション ](../../reference/system-components/components-data-collection.md)、[ 処理 ](../../reference/system-components/components-data-processing.md)、[ タグ管理 ](../../reference/system-components/components-tag-management.md) の各節を参照してください。
 
 ![](assets/flowmap.png)

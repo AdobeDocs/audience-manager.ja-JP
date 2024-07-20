@@ -1,7 +1,7 @@
 ---
 description: これらの RESTful API メソッドを使用して、セグメントを宛先にマッピングします。
-seo-description: これらの RESTful API メソッドを使用して、セグメントを宛先にマッピングします。
-seo-title: セグメントの宛先へのマッピング
+seo-description: Map segments to destinations with these RESTful API methods.
+seo-title: Map Segments to a Destination
 solution: Audience Manager
 title: セグメントの宛先へのマッピング
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
@@ -9,8 +9,8 @@ feature: API
 exl-id: 906df6c5-f878-48e6-a804-eb5b4407f304
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 利用可能な `POST` メソッドは、[!UICONTROL URL] および [!UICONTROL cookie destinations]にのみセグメントをマッピングできます。現在、これらの [!DNL REST API] メソッドを使用して、[!UICONTROL server-to-server destinations]にセグメントをマッピングすることはできません。代わりにユーザーインターフェイスを使用してください。ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
 
-## シリアル化されていない URL ベースの宛先へのセグメントのマッピング {#map-segment-non-serial}
+## 非シリアル化 URL 宛先へのセグメントのマッピング {#map-segment-non-serial}
 
 シリアル化されていない [!UICONTROL URL] 宛先にセグメントをマッピングするための `POST` メソッド。
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 }
 ```
 
-## シリアル化された URL ベースの宛先へのセグメントのマッピング {#map-segment-serial}
+## シリアル化 URL 宛先へのセグメントのマッピング {#map-segment-serial}
 
 シリアル化された `POST` 宛先にセグメントをマッピングするための [!UICONTROL URL] メソッド。
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 }
 ```
 
-## Cookie ベースの宛先へのセグメントのマッピング：単一キー、非シリアル化 {#map-segment-cookie-noserial}
+## セグメントを Cookie 宛先にマッピング：単一キー、非シリアル化 {#map-segment-cookie-noserial}
 
 単一キーでシリアル化されていない [!UICONTROL cookie] 宛先にセグメントをマッピングするための `POST` メソッド。
 
@@ -171,7 +171,7 @@ ht-degree: 100%
 }
 ```
 
-## Cookie ベースの宛先へのセグメントのマッピング：複数キー、非シリアル化 {#map-segment-cookie-multi-noserial}
+## セグメントを Cookie 宛先にマッピング：複数キー、非シリアル化 {#map-segment-cookie-multi-noserial}
 
 複数キーのシリアル化されていない [!UICONTROL cookie] の宛先にセグメントをマッピングするための `POST` メソッドをを使用します。
 
@@ -219,7 +219,7 @@ ht-degree: 100%
 }
 ```
 
-## Cookie ベースの宛先へのセグメントのマッピング：複数キー、シリアル化 {#map-segment-cookie-multi-serial}
+## セグメントを Cookie 宛先にマッピング：複数キー、シリアル化 {#map-segment-cookie-multi-serial}
 
 複数キーのシリアル化された [!UICONTROL cookie destination]にセグメントをマッピングするための `POST` メソッド。
 
@@ -267,7 +267,7 @@ ht-degree: 100%
 }
 ```
 
-## サーバー間宛先へのセグメントのマッピング {#map-segment-s2s}
+## セグメントのサーバー間宛先へのマッピング {#map-segment-s2s}
 
 既存の[!UICONTROL server-to-server]宛先にセグメントをマッピングするための `POST` メソッド。現在利用可能なこれらの [!DNL API] メソッドを使用して [!UICONTROL server-to-server] を作成することはできません。
 
@@ -397,7 +397,7 @@ ht-degree: 100%
 ]
 ```
 
-## 宛先への複数のセグメントの追加 {#add-segments-dest}
+## 複数のセグメントを宛先に追加 {#add-segments-dest}
 
 宛先に複数のセグメントをマッピングできる `POST` メソッド。
 
@@ -584,6 +584,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [宛先](../../../features/destinations/destinations.md)
-* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
-* [キーと値のペアの解説 ](../../../reference/key-value-pairs-explained.md)
-
+>* [宛先のシリアル化](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)

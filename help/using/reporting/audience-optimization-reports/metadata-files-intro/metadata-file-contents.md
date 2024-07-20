@@ -1,15 +1,15 @@
 ---
 description: オーディエンスの最適化のメタデータファイルのコンテンツを、以下の仕様に従って書式設定します。
-seo-description: オーディエンスの最適化のメタデータファイルのコンテンツを、以下の仕様に従って書式設定します。
-seo-title: メタデータファイルのコンテンツの形式
+seo-description: Format the contents of your Audience Optimization metadata file according to these specifications.
+seo-title: Content Format for Metadata Files
 solution: Audience Manager
 title: メタデータファイルのコンテンツの形式
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
-feature: ログファイル
+feature: Log Files
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '299'
 ht-degree: 100%
 
 ---

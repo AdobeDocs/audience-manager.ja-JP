@@ -1,16 +1,16 @@
 ---
 description: メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。Audience Optimization レポートでは、様々なレポートオプションメニューに理解しやすい名前が表示されます。
-seo-description: メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。Audience Optimization レポートでは、様々なレポートオプションメニューに理解しやすい名前が表示されます。
-seo-title: メタデータファイルの概要とマッピング
+seo-description: A metadata file links numeric IDs with names you can read and understand. The Audience Optimization reports display readable names in the various report options menus.
+seo-title: Overview and Mappings for Metadata Files
 solution: Audience Manager
 title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-feature: ログファイル
+feature: Log Files
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)を参照してください。
+メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[Audience Optimizationレポートのデータファイルとアクションにつながるログファイル ](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) を参照してください。
 
 ### メタデータファイルには他のデータに関するデータが含まれる
 
@@ -142,6 +142,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [Audience Optimization レポートのデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
-* [ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ](../../../integration/media-data-integration/click-data-pixels.md)
-* [ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ](../../../integration/media-data-integration/impression-data-pixels.md)
-
+>* [ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ](../../../integration/media-data-integration/click-data-pixels.md)
+>* [ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ](../../../integration/media-data-integration/impression-data-pixels.md)

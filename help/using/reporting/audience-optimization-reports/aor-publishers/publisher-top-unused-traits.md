@@ -1,15 +1,15 @@
 ---
 description: 上位の未使用特性は、まだセグメントのメンバーになっていない特性を、特性タイプ、データソース、パフォーマンスに基づいて散布図として表したものです。
-seo-description: 上位の未使用特性は、まだセグメントのメンバーになっていない特性を、特性タイプ、データソース、パフォーマンスに基づいて散布図として表したものです。
-seo-title: 上位の未使用特性
+seo-description: Top Unused Traits are represented as a scatter diagram of traits that are not yet members of a segment, based on trait type, data source, and performance.
+seo-title: Top Unused Traits
 solution: Audience Manager
 title: 上位の未使用特性
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
-feature: Audience Optimization レポート
+feature: Audience Optimization Reports
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '619'
 ht-degree: 100%
 
 ---

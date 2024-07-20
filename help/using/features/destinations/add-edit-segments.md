@@ -1,14 +1,14 @@
 ---
 description: データ書き出しラベルは、データソースに設定する書き出しコントロールと連携して動作します。データ書き出しラベルによって、セグメントへの制限された特性の追加や、宛先へのセグメントデータの送信が防止されます。Cookie や URL の新規または既存の宛先に複数の書き出しラベルを設定できます。
-seo-description: データ書き出しラベルは、データソースに設定する書き出しコントロールと連携して動作します。データ書き出しラベルによって、セグメントへの制限された特性の追加や、宛先へのセグメントデータの送信が防止されます。Cookie や URL の新規または既存の宛先に複数の書き出しラベルを設定できます。
-seo-title: サーバー間宛先のセグメントの追加または編集
+seo-description: Data Export Labels work with the Export Controls you set on a data source. Data Export Labels prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing cookie or URL destination.
+seo-title: Add or Edit Segments for Server-to-Server Destinations
 solution: Audience Manager
 title: サーバー間宛先のセグメントの追加または編集
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: 20124779-e14b-4d17-be4b-9f17ee0dc19e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '202'
 ht-degree: 100%
 
 ---

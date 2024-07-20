@@ -1,16 +1,16 @@
 ---
 description: 顧客データフィード（CDF）ファイルに関するよくある質問（FAQ）。
-seo-description: 顧客データフィード（CDF）ファイルに関するよくある質問（FAQ）。
-seo-title: 顧客データフィードに関するよくある質問
+seo-description: Frequently asked questions about Customer Data Feed (CDF) files.
+seo-title: Customer Data Feed FAQ
 solution: Audience Manager
 title: 顧客データフィードに関するよくある質問
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
-feature: 顧客データフィード
+feature: Customer Data Feeds
 exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -30,25 +30,25 @@ CDF ファイルは [!DNL Amazon S3] サーバーの `aam-cdf` ルートディ�
 
 はい。顧客がアクセスできるのは自分自身のストレージ領域のみに制限されています。ストレージバケットには読み取り専用でアクセスできます。書き込みアクセスはできません。
 
-<br> 
+<br>
 
 **ストレージバケットをカスタマイズしたり、ファイルを別のディレクトリに保存したりできますか？**
 
 いいえ。カスタマイズや代替ストレージのオプションは用意されていません。
 
-<br> 
+<br>
 
 **特定の時間帯のファイルがディレクトリにありません。どこにありますか？**
 
-ファイルがないのは、[!DNL Audience Manager] がその時間帯の CDF ファイルを処理できなかったということです。このようなことが起こるのは、通常、サーバーでの CDF ファイルの処理が滞っている場合です。この場合でも、ファイルは失われていません。システムが遅れを取り戻すことができたら、後の時間帯のディレクトリにファイルが表示されます。詳しくは、[顧客データフィードファイル処理の通知](../features/cdf-files.md#cdf-file-processing-notifications)を参照してください。
+ファイルがないのは、[!DNL Audience Manager] がその時間帯の CDF ファイルを処理できなかったということです。このようなことが起こるのは、通常、サーバーでの CDF ファイルの処理が滞っている場合です。この場合でも、ファイルは失われていません。システムが遅れを取り戻すことができたら、後の時間帯のディレクトリにファイルが表示されます。[ 顧客データフィードファイル処理通知 ](../features/cdf-files.md#cdf-file-processing-notifications) も参照してください。
 
-<br> 
+<br>
 
 **CDF ファイルの準備がいつできるかは、どうすればわかりますか？**
 
 [顧客データフィードファイル処理の通知](../features/cdf-files.md#cdf-file-processing-notifications)。
 
-<br> 
+<br>
 
 ## ファイルサイズ {#file-sizes}
 
@@ -56,13 +56,13 @@ CDF ファイルは [!DNL Amazon S3] サーバーの `aam-cdf` ルートディ�
 
 ファイルサイズを推定することは困難です。しかも、ファイルごとにサイズが異なることがあります。サイズは、時刻によっても日によっても変わります。CDF ファイルを受信することになっている場合は、大量のデータを管理する準備ができていると役に立ちます。
 
-<br> 
+<br>
 
 **受信するファイルは何個ですか？**
 
 やはり、これも推定が困難です。とは言え、CDF ファイルを受信することになっている場合は、大量のデータを管理する準備ができていると役に立ちます。
 
-<br> 
+<br>
 
 ## データの整合性 {#data-integrity}
 
@@ -70,7 +70,7 @@ CDF ファイルは [!DNL Amazon S3] サーバーの `aam-cdf` ルートディ�
 
 [!DNL Amazon] では、大きなファイルを小さな部分に分割し、マルチパートアップロードを使用して [!DNL Amazon S3] にアップロードします。次に、マルチパートアップロード用に `ETag` 値が生成されます。まず、アップロードされた各パートの個々の MD5 チェックサムを計算した後、それらのチェックサムを連結して単一の文字列にします。その後、その文字列の MD5 チェックサムを計算します。結果として得られたチェックサム（`ETag`）に、ハイフンと、アップロードに使用されたパートの総数が付加されます。例えば、アップロード時に 5 つのパートに分割されたファイルの場合、`ETag` は `2c51427d19021e88cf3395365895b6d4-5` のような値になります。
 
-<br> 
+<br>
 
 ## データ保持 {#data-retension}
 
@@ -78,7 +78,7 @@ CDF ファイルは [!DNL Amazon S3] サーバーの `aam-cdf` ルートディ�
 
 データは 8 日後に削除されます。
 
-<br> 
+<br>
 
 **過去の CDF ファイルを取得できますか？**
 
@@ -87,4 +87,3 @@ CDF ファイルは [!DNL Amazon S3] サーバーの `aam-cdf` ルートディ�
 >[!MORELIKETHIS]
 >
 >* [顧客データフィード](../features/cdf-files.md)
-

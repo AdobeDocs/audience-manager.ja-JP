@@ -1,16 +1,16 @@
 ---
 description: クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。
-seo-description: クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。
-seo-title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
+seo-description: Click tracking enables measurement of visitor engagement throughout your campaign, as it records click-based activity for third-party creatives.
+seo-title: Capturing Campaign Click Data via Pixel Calls
 solution: Audience Manager
 title: ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-feature: Adobe Campaign との統合
+feature: Adobe Campaign Integration
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '687'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 98%
 
 ---
 
@@ -106,7 +106,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_region</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_region%</code> </p> </td> 
-   <td colname="col2"> <p>要求に対してサービスを提供する DCS クラスターの地域 ID（数値）。DCS について詳しくは、<a href="../../reference/system-components/components-data-collection.md"> データ収集コンポーネント</a>を参照してください。 </p> <p>オプションです。 </p> </td> 
+   <td colname="col2"> <p>要求に対してサービスを提供する DCS クラスターの地域 ID（数値）。DCS の詳細については、<a href="../../reference/system-components/components-data-collection.md"> Data Collection Components</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_rand</code> </p> </td> 
@@ -174,4 +174,3 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 >[!MORELIKETHIS]
 >
 >* [Audience Optimization レポートのデータおよびメタデータファイル](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-

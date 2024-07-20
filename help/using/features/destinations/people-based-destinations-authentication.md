@@ -24,7 +24,7 @@ ht-degree: 97%
 >[!NOTE]
 >この手順は、実装シナリオに関係なく、People-Based Destinations では必須です。
 
-## ユーザーベースのプラットフォーム認証を設定する {#configure-authentication}
+## 人物ベースのプラットフォーム認証の設定 {#configure-authentication}
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)

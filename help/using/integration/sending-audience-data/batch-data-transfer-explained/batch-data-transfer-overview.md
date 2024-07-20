@@ -9,9 +9,9 @@ uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
 source-git-commit: f02e6bcfb7ff3560d9624c3dce7ff065a3a75748
-workflow-type: ht
-source-wordcount: '462'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 * **[!DNL PII] の除外：**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
 * **大文字と小文字およびコンテンツの区別：**&#x200B;リアルタイムデータ同期の間、[!DNL Audience Manager] によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。例えば、オフラインレコードが [!DNL User123] に関する情報を保持するが、サイトがこの ID を [!DNL USER123] としてレンダリングする場合、 は、これらを異なる訪問者と見なします。[!DNL Audience Manager]結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
 
-詳しくは、[受信データ転送のための ID 同期](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)を参照してください。
+[ 受信データ転送の ID 同期 ](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) を参照してください。
 
 ## 手順 2：データファイル形式
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 | 実稼動 | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients</li><li>ftp-in.demdex.com</li></ul> |
 | ベータ環境 | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients-sandbox-us-east-1</li><li>sandbox-ftp-in.demdex.com</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## その他の技術情報
 

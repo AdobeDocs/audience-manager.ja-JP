@@ -1,15 +1,15 @@
 ---
 description: 特性ビルダーの式ビルダーを使用すると、オーディエンス認定要件を確立するルールを作成およびテストできます。ルールは、「color == blue」または「price &gt; 100」などのキー値ペアで構成されます。比較演算子は、キーと値の間の関係を確立します。ブール式は、ルールグループ間の関係を判別します。
-seo-description: 特性ビルダーの式ビルダーを使用すると、オーディエンス認定要件を確立するルールを作成およびテストできます。ルールは、「color == blue」または「price &gt; 100」などのキー値ペアで構成されます。比較演算子は、キーと値の間の関係を確立します。ブール式は、ルールグループ間の関係を判別します。
-seo-title: 特性ルールの管理
+seo-description: In Trait Builder, the Expression Builder lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as "color == blue" or "price &gt; 100". Comparison operators establish the relationship between keys and values. Boolean expressions determine the relationship between rule groups.
+seo-title: Managing Trait Rules
 solution: Audience Manager
 title: 特性ルールの管理
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
-feature: 特性
+feature: Traits
 exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '678'
 ht-degree: 100%
 
 ---
@@ -121,8 +121,7 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [新しいルールグループの作成](../../features/traits/manage-trait-rules.md#create-rule-group)
-* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
-* [特性ルールの作成](../../features/traits/manage-trait-rules.md#create-trait-rule)
-* [特性ルールの削除](../../features/traits/manage-trait-rules.md#delete-trait)
-* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
-
+>* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [特性ルールの作成](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [特性ルールの削除](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [グループ間でルールを移動](../../features/traits/manage-trait-rules.md#move-rules-between-groups)

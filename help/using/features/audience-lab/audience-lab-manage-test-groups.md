@@ -1,7 +1,7 @@
 ---
 description: この手順では、Audience Lab でテストグループを作成、編集または削除するための方法について説明します
-seo-description: この手順では、Audience Lab でテストグループを作成、編集または削除するための方法について説明します
-seo-title: テストグループの管理
+seo-description: This procedure walks you through the steps needed to create, edit, or delete a test group in Audience Lab
+seo-title: Manage Test Groups
 solution: Audience Manager
 title: テストグループの管理
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
@@ -9,8 +9,8 @@ feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 100%
+source-wordcount: '981'
+ht-degree: 98%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 * **コンバージョン特性**&#x200B;を少なくとも 1 つセットアップしておく必要があります。コンバージョン特性は、[特性ビルダー](../../features/traits/create-onboarded-rule-based-traits.md)で、Event Type に **conversion** を選択することでセットアップできます。コンバージョン特性の詳細とセットアップ方法については、こちらの[ビデオ](https://helpx.adobe.com/jp/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html)をご覧ください。
 
-   >[!IMPORTANT]
-   >
-   >[フォルダー特性](../../features/traits/about-folder-traits.md)は、[!UICONTROL Audience Lab] ではサポートされて&#x200B;**いません**。フォルダー特性の [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) を **conversion** に設定すると、その特定のフォルダー特性については [!UICONTROL Audience Lab] にデータが生成されません。
+  >[!IMPORTANT]
+  >
+  >[フォルダー特性](../../features/traits/about-folder-traits.md)は、[!UICONTROL Audience Lab] ではサポートされて&#x200B;**いません**。フォルダー特性の [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) を **conversion** に設定すると、その特定のフォルダー特性については [!UICONTROL Audience Lab] にデータが生成されません。
 
 * [ロールベースのアクセス制御](../../features/administration/administration-overview.md)を使用する企業の場合：アクセスを提供するには、[!UICONTROL Audience Lab] [ワイルドカード権権限](../../features/administration/administration-overview.md#wild-card-permissions) を **[!UICONTROL User Groups]** に割り当てます。この権限をユーザーに付与すると、テスト結果の作成や表示をおこなえます。ユーザーは、**読み取り**&#x200B;権限および&#x200B;**宛先へのマッピング**&#x200B;権限を持っているデータソースのセグメントのみ使用できます。また、ユーザーは、**読み取り**&#x200B;権限を持っているデータソースのコンバージョン特性のみ使用できます。さらに、ユーザーは、アクセスできる宛先のみ表示できます。そのため、[!DNL Audience Lab] のワイルドカード権限をグループに追加する前に、グループが以下の権限を持っていることを確認します。
    * 関係のあるコンバージョン特性の読み取り
@@ -70,7 +70,7 @@ ht-degree: 100%
    * セグメントを宛先にドラッグアンドドロップします。
    * セグメントを宛先にドロップしてから、「**[!UICONTROL Destination Mapping Value]**」に入力します。
    * 同じテストセグメントを複数の宛先に送信でき、複数のテストセグメントを単一の宛先に追加できます。
-   * 宛先は、[データ書き出しコントロール](../../features/data-export-controls.md)に基づいて特定のテストセグメントに使用できない場合、グレー表示されます。
+   * 宛先は、[ データ書き出しコントロール ](../../features/data-export-controls.md) に基づいて、特定のテストセグメントで使用できない場合、グレー表示されます。
    * ユーザーには、自分が属する [RBAC ユーザーグループ](../../features/administration/administration-overview.md)でアクセス権が付与されている宛先のみが表示されます。
    * 最後に、テストグループの開始日を選択する必要があります。この日付は、テストグループが宛先に公開される期間の開始を示します。テストセグメントの無期限の比較をおこなう場合は、「**No End Date**」を選択します。
 
@@ -88,7 +88,6 @@ ht-degree: 100%
    >[!NOTE]
    >* 作成プロセスのどの時点でもテストグループを保存でき、後でウィザードに戻ることができます。テストグループのステータスが「**[!UICONTROL Draft]**」になり、セグメントテストグループを最終決定するまで、テストグループはデータを宛先に送信しません。
    >* ドラフトテストの場合は、**[!UICONTROL Edit]** のメイン表示でテストグループカードの「[!UICONTROL Audience Lab]」をクリックすれば、テストグループに戻って編集することができます。
-
 
 ## セグメントテストグループの編集 {#edit-test-groups}
 

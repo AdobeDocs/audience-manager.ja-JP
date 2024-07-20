@@ -1,15 +1,15 @@
 ---
 description: セグメントビルダーで特性を追加および削除して、実際の特性の母集団を、実際および推定のセグメント母集団データと共に確認します。推定母集団サイズのデータは、キャンペーンに適したセグメントを作成するのに役立ちます。
-seo-description: セグメントビルダーで特性を追加および削除して、実際の特性の母集団を、実際および推定のセグメント母集団データと共に確認します。推定母集団サイズのデータは、キャンペーンに適したセグメントを作成するのに役立ちます。
-seo-title: セグメントビルダーにおける特性とセグメントのユーザー数データ
+seo-description: Add and remove traits in Segment Builder to see actual trait populations along with actual and estimated segment population data. The estimated population size data helps you build the right segment for your campaign.
+seo-title: Trait and Segment Population Data in Segment Builder
 solution: Audience Manager
 title: セグメントビルダーにおける特性とセグメントのユーザー数データ
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
-feature: セグメント
+feature: Segments
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1213'
 ht-degree: 100%
 
 ---
@@ -123,7 +123,7 @@ ht-degree: 100%
 
 | 列 A | 列 B |
 |---------|----------|
-| [!UICONTROL Real-Time Population (Existing) ] | 現在のプロファイルのうち、デバイスグラフで連結された他の最大 100 台のデバイスプロファイルと結合された場合に、Audience Manager での認識時にセグメントについて認定する特性を含むプロファイルを使用する、リアルタイムで認識されるデバイスの実際の数。 |
+| [!UICONTROL Real-Time Population (Existing)] | 現在のプロファイルのうち、デバイスグラフで連結された他の最大 100 台のデバイスプロファイルと結合された場合に、Audience Manager での認識時にセグメントについて認定する特性を含むプロファイルを使用する、リアルタイムで認識されるデバイスの実際の数。 |
 | [!UICONTROL Total Population (Existing)] | デバイスグラフで連結された他の最大 100 台のデバイスプロファイルで結合された場合にセグメントについて認定されたプロファイルを使用するデバイスの合計数。 |
 
 ### セグメント母集団の見積もり時における最新性と頻度の式による制限
@@ -137,5 +137,4 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [プロファイル結合ルールおよびデバイスグラフに関するよくある質問](../../faq/faq-profile-merge.md)
-* [プロファイルリンク](../profile-merge-rules/merge-rules-overview.md)
-
+>* [プロファイルリンク](../profile-merge-rules/merge-rules-overview.md)

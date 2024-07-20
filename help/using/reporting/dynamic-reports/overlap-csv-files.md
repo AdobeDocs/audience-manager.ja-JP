@@ -1,7 +1,7 @@
 ---
-description: 重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。カスタマーケアに連絡して、圧縮した .csv ファイルを請求してください。このファイルを独自のデータベースシステムにインポートして操作することができます。セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
-seo-description: 重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。カスタマーケアに連絡して、圧縮した .csv ファイルを請求してください。このファイルを独自のデータベースシステムにインポートして操作することができます。セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
-seo-title: 重複レポートの CSV ファイル
+description: 重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。独自のデータベースシステムに読み込んで使用できる、圧縮された .csv ファイルをリクエストするには、カスタマーケアへのお問い合わせ。セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
+seo-description: You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
+seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
 title: 重複レポートの CSV ファイル
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
@@ -9,14 +9,14 @@ feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 99%
 
 ---
 
 # 重複レポートの CSV ファイル{#csv-files-for-overlap-reports}
 
-重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。カスタマーケアに連絡して、圧縮した .csv ファイルを請求してください。このファイルを独自のデータベースシステムにインポートして操作することができます。セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
+重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。独自のデータベースシステムに読み込んで使用できる、圧縮された .csv ファイルをリクエストするには、カスタマーケアへのお問い合わせ。セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
 
 ## ファイル名のメタデータ {#file-name-metadata}
 

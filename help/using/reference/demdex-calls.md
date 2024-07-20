@@ -1,15 +1,15 @@
 ---
 description: Audience Manager および Adobe Experience Platform ID サービスは demdex.net ドメインを呼び出し、そこからデータを受け取ります。アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、demdex.net 呼び出しの構成要素について説明します。
-seo-description: Audience Manager および Adobe Experience Platform ID サービスは demdex.net ドメインを呼び出し、そこからデータを受け取ります。アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、demdex.net 呼び出しの構成要素について説明します。
-seo-title: demdex ドメインの呼び出しについて
+seo-description: Audience Manager and the Adobe Experience Platform Identity Service make calls to and receive data from the demdex.net domain. This may seem like Adobe is working with an unusual third-party domain, but this is not the case. This section describes the elements in a demdex.net call.
+seo-title: Understanding Calls to the Demdex Domain
 solution: Audience Manager
 title: demdex ドメインの呼び出しについて
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
-feature: リファレンス
+feature: Reference
 exl-id: dcd5ed86-4ff1-4f63-9c9f-edf11c229a30
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '361'
+workflow-type: tm+mt
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -27,4 +27,3 @@ ht-degree: 100%
 >
 >* [Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)
 >* [Audience Manager の Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=ja)
-

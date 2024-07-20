@@ -1,7 +1,7 @@
 ---
 description: この節では、DCS 応答を解析して、DCS へのリアルタイム呼び出しに必要な訪問者 ID と地域 ID を取得する方法について説明します。
-seo-description: この節では、DCS 応答を解析して、DCS へのリアルタイム呼び出しに必要な訪問者 ID と地域 ID を取得する方法について説明します。
-seo-title: DCS 応答からのユーザー ID と地域 ID の取得
+seo-description: This section describes how to parse a DCS response to retrieve the visitor and region IDs required to make real-time calls to the DCS.
+seo-title: Get User IDs and Regions From a DCS Response
 solution: Audience Manager
 title: DCS 応答からのユーザー ID と地域 ID の取得
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
@@ -9,7 +9,7 @@ feature: DCS
 exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code> </p> </td> 
+   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code></span> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
    <td colname="col3"> <p> <code> "uuid":"123456789"</code> </p> </td> 
   </tr> 

@@ -7,8 +7,8 @@ feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 84%
+source-wordcount: '509'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 Audience Manager で収集された IP アドレスを難読化するには、この機能を使用します。
 
-## 概要と方法 {#overview-and-methodology}
+## 概要と手法 {#overview-and-methodology}
 
 グローバルプライバシー規制により、多くの国で IP アドレスの難読化が求められる場合があります。Audience Manager を使用すると、訪問者の IP アドレス全体または国ごとに難読化できます。
 
@@ -29,11 +29,11 @@ Audience Manager で収集された IP アドレスを難読化するには、�
 
 [データプライバシーの節](/help/using/overview/data-security-and-privacy/data-privacy.md)の「IP アドレスの収集と IP アドレスの難読化」も参照してください。
 
-### IP Obfuscation（IP の不明化）: {#precedence}
+### IP の不明化の予測 {#precedence}
 
-[データストリームレベルの IP 難読化](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) は、Audience Managerで設定されている IP の難読化オプションよりも優先され、すべての IP アドレスに適用されます。 Audience Managerが行った位置情報参照は、データストリームレベルの影響を受けます [!UICONTROL IP obfuscation] オプション。 完全に不明化された IP に基づく、Audience Managerの位置情報参照は、不明な地域になり、結果として得られた位置情報データに基づくセグメントは認識されません。
+[ データストリームレベルの IP の不明化 ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) は、Audience Managerで設定した IP の不明化オプションよりも優先され、すべての IP アドレスに適用されます。 Audience Managerが行ったジオロケーション検索は、データストリームレベルの [!UICONTROL IP obfuscation] オプションの影響を受けます。 完全に不明化された IP に基づくAudience Managerでの位置情報ルックアップは、結果として得られた位置情報データに基づくセグメントが実現されない、未知のリージョンが原因となります。
 
-## IP アドレスの難読化の要件 {#ip-obfuscation-requirements}
+## IP アドレスの不明化の要件 {#ip-obfuscation-requirements}
 
 IP アドレスの難読化は、Audience Manager管理者アカウントでのみ使用できます。ユーザーに管理者権限を割り当てる方法については、[ユーザーの作成](/help/using/features/administration/administration-overview.md#create-users)を参照してください。
 
@@ -41,7 +41,7 @@ IP アドレスの難読化は、Audience Manager管理者アカウントでの�
 >
 > Audience Manager によって処理される大量のデータにより、IP 難読化の変更には、設定を更新時点からカウントして最大 4 時間かかることがあります。
 
-## IP アドレスの難読化の設定 {#configure-ip-obfuscation}
+## IP アドレスの不明化の設定 {#configure-ip-obfuscation}
 
 IP アドレスの難読化を設定するには、次の手順に従います。
 
@@ -52,7 +52,7 @@ IP アドレスの難読化を設定するには、次の手順に従います�
 
 ![](assets/ip-obfuscation.png)
 
-## IP アドレスの難読化の無効化 {#disable-ip-obfuscation}
+## IP アドレスの不明化を無効にする {#disable-ip-obfuscation}
 
 IP アドレスの難読化をグローバルに無効にするには、**Administration／Privacy** に移動し、「**Do not obfuscate IP addresses**」を選択して、「**Save**」をクリックします。
 

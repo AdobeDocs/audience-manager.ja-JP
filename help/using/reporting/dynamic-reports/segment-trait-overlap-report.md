@@ -1,7 +1,7 @@
 ---
 description: 特定の特性とセグメント全体とで共有されるユニークユーザーの数に関するデータを返します。
-seo-description: 特定の特性とセグメント全体とで共有されるユニークユーザーの数に関するデータを返します。
-seo-title: セグメント／特性間重複レポート
+seo-description: Returns data on the number of unique users shared between a particular trait and an entire segment.
+seo-title: Segment-to-Trait Overlap Report
 solution: Audience Manager
 title: セグメント／特性間重複レポート
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
@@ -9,7 +9,7 @@ feature: Overlap Reports
 exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 100%
 
 ---
@@ -88,7 +88,7 @@ c_compare_s2t.xml
  </tbody> 
 </table>
 
-## セグメント／特性間重複レポートのデータフィルターについて {#data-filters-s2t-report}
+## セグメント - 特性間重複レポートのデータフィルターについて {#data-filters-s2t-report}
 
 特性とセグメントの一意の重複割合スライダーがどのように機能するかについて説明します。
 
@@ -112,7 +112,7 @@ r_s2t_sliders.xml
 
 ![](assets/s2t.png)
 
-## セグメント／特性間重複データポップフィールドの定義 {#fields-defined}
+## 定義済みのセグメント - 特性間データポップフィールド {#fields-defined}
 
 個別のデータポイントをクリックしたときにポップアップウィンドウに表示される指標について説明します。
 
@@ -182,9 +182,8 @@ r_s2t_data_pop.xml
 >[!MORELIKETHIS]
 >
 >* [データスライダーを使用したレポート結果のフィルタリング](../../reporting/dynamic-reports/data-sliders.md)
-* [インタラクティブレポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-* [レポートのアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
-* [重複レポート：更新スケジュールと最小セグメントサイズ ](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
-* [選択した Audience Manager レポートでのデータサンプリングとエラー率...](../../reporting/report-sampling.md)
-* [重複レポートの CSV ファイル](../../reporting/dynamic-reports/overlap-csv-files.md)
-
+>* [インタラクティブレポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [レポートのアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [重複レポート：更新スケジュールと最小セグメントサイズ](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [選択した Audience Manager レポートでのデータサンプリングとエラー率...](../../reporting/report-sampling.md)
+>* [重複レポートの CSV ファイル](../../reporting/dynamic-reports/overlap-csv-files.md)

@@ -1,14 +1,14 @@
 ---
 description: 類似（look-alike）モデリングを使用すると、自動データ分析により、新しい個別のオーディエンスを発見できます。この記事では、最もよくある質問に対する回答を示します。
-seo-description: 類似（look-alike）モデリングを使用すると、自動データ分析により、新しい個別のオーディエンスを発見できます。この記事では、最もよくある質問に対する回答を示します。
-seo-title: 類似（look-alike）モデリングに関するよくある質問
+seo-description: Look-Alike Modeling helps you discover new, unique audiences through automated data analysis. This article provides answers to the most frequently asked questions.
+seo-title: Look-Alike Modeling FAQ
 solution: Audience Manager
 title: 類似（look-alike）モデリングに関するよくある質問
-feature: アルゴリズムモデル
+feature: Algorithmic Models
 exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
 source-git-commit: 37823ae54e106e32aa195a6b69e0f1ebfc322f09
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 100%
 
  
 
-**ベースライン特性やセグメントサイズについて推奨するものはありますか？**
+**ベースライン特性やセグメントサイズについてのレコメンデーションはありますか？**
 
 ベースライン母集団と選択したデータソースの母集団の間に大きな特性の重複がある場合、モデルを実行するには数千のユーザーで十分です。[!UICONTROL Look-Alike Modeling] は、ベースラインが大きいほど正確な結果が得られます。
 

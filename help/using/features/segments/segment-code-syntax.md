@@ -1,15 +1,15 @@
 ---
 description: セグメントビルダーでは、コードエディターを使用して、セグメント用の特性ルールを作成できます。Traits パネルの「Segment Expressions (Code View)」タブをクリックすると、この機能にアクセスできます。
-seo-description: セグメントビルダーでは、コードエディターを使用して、セグメント用の特性ルールを作成できます。Traits パネルの「Segment Expressions (Code View)」タブをクリックすると、この機能にアクセスできます。
-seo-title: セグメント式エディターで使用するコード構文
+seo-description: Segment Builder lets you build trait rules for a segment using a code editor. Click the Segment Expressions (Code View) tab in the Traits panel to access this feature.
+seo-title: Code Syntax Used in the Segment Expression Editor
 solution: Audience Manager
 title: セグメント式エディターで使用するコード構文
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
-feature: セグメント
+feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -79,7 +79,6 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 >[!MORELIKETHIS]
 >
 >* [最新性と頻度](../../features/segments/recency-and-frequency.md)
-* [特性およびセグメントビルダーのブール式](../../reference/boolean-expressions-tsb.md)
-* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
-* [特性ビルダーでの演算順序](../../features/traits/trait-operator-precedence.md)
-
+>* [特性およびセグメントビルダーのブール式](../../reference/boolean-expressions-tsb.md)
+>* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
+>* [特性ビルダーでの演算順序](../../features/traits/trait-operator-precedence.md)

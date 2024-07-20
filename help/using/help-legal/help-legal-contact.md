@@ -1,14 +1,14 @@
 ---
 description: アドビへの問い合わせに役立つ情報と、本製品および本ドキュメントの使用に関する法的事項に関する情報を紹介します。
-seo-description: アドビへの問い合わせに役立つ情報と、本製品および本ドキュメントの使用に関する法的事項に関する情報を紹介します。
-seo-title: 連絡先情報および法的事項
+seo-description: Information to help you contact Adobe and to understand the legal issues concerning your use of this product and documentation.
+seo-title: Contact and Legal Information
 solution: Audience Manager
 title: 連絡先情報および法的事項
-feature: サポート
+feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '243'
 ht-degree: 100%
 
 ---

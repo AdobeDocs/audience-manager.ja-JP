@@ -1,16 +1,16 @@
 ---
 description: Audience Manager とサードパーティデータプロバイダーの間でユーザー ID を同期するために、最初の HTTP 呼び出しで使用される構文およびパラメーターについて説明します。最初の ID 同期を試す前に、担当の Adobe Audience Manager コンサルタントにお問い合わせください。
-seo-description: Audience Manager とサードパーティデータプロバイダーの間でユーザー ID を同期するために、最初の HTTP 呼び出しで使用される構文およびパラメーターについて説明します。最初の ID 同期を試す前に、担当の Adobe Audience Manager コンサルタントにお問い合わせください。
-seo-title: 送信データ転送のための ID 同期
+seo-description: Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between Audience Manager and a third-party data provider. Contact your Adobe Audience Manager consultant before attempting your first ID synchronization.
+seo-title: ID Synchronization for Outbound Data Transfers
 solution: Audience Manager
 title: 送信データ転送のための ID 同期
 uuid: f3849be8-1094-47db-9296-7482f020af18
-feature: 送信データ転送
+feature: Outbound Data Transfers
 exl-id: 02cca19a-eebf-43b2-b034-24f072fe2efb
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 99%
+source-wordcount: '327'
+ht-degree: 100%
 
 ---
 
@@ -76,5 +76,4 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 >[!MORELIKETHIS]
 >
 >* [データ収集サーバー（DCS）API メソッドおよびコード](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
-* [データ収集コンポーネント](../../reference/system-components/components-data-collection.md)
-
+>* [データ収集コンポーネント](../../reference/system-components/components-data-collection.md)

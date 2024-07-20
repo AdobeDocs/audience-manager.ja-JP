@@ -1,15 +1,15 @@
 ---
 description: 配信パフォーマンスレポートログファイルのデータを、ID のみを含むテーブルに格納します。ID 以外のメタデータを別個のルックアップテーブルに格納すると、ファイルサイズの縮小と処理時間の短縮に役立ちます。
-seo-description: 配信パフォーマンスレポートログファイルのデータを、ID のみを含むテーブルに格納します。ID 以外のメタデータを別個のルックアップテーブルに格納すると、ファイルサイズの縮小と処理時間の短縮に役立ちます。
-seo-title: ルックアップテーブルによるログファイル処理時間の改善
+seo-description: Put data in Delivery Performance report log files into tables that contain IDs only. Put non-ID metadata in separate lookup tables to help reduce file size and processing times.
+seo-title: Improve Log File Processing Times with Lookup Tables
 solution: Audience Manager
 title: ルックアップテーブルによるログファイル処理時間の改善
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-feature: レポートリファレンス
+feature: Reporting Reference
 exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '464'
 ht-degree: 100%
 
 ---
@@ -54,13 +54,13 @@ c_lookup_tables.xml
 
 | ユーザー ID | 広告 ID | 注文 ID | 広告主 ID |
 |---|---|---|---|
-| 3 | 111 | 456 | 27 |
+| 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
 | 3 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
-<br> 
+<br>
 
 以下のルックアップファイルにはメタデータが含まれており、広告 ID でメインファイルにリンクし直すことができます。サイズにも注意してください。各広告主を複数回繰り返す代わりに、それぞれに 1 つの参照のみが必要です。
 

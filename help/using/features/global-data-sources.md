@@ -7,8 +7,8 @@ title: グローバルデータソース
 feature: Data Sources
 exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
 source-git-commit: 77daa5bd6545914f65e3e0f19b12c750535244e8
-workflow-type: ht
-source-wordcount: '448'
+workflow-type: tm+mt
+source-wordcount: '447'
 ht-degree: 100%
 
 ---

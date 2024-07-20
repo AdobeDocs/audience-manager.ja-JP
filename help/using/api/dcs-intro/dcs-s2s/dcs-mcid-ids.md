@@ -1,15 +1,15 @@
 ---
 description: ID サービスのお客様は、訪問者 Cookie を読み取って DCS API 呼び出しの実行に必要な ID を取得する方法を、この節で確認してください。
-seo-description: ID サービスのお客様は、訪問者 Cookie を読み取って DCS API 呼び出しの実行に必要な ID を取得する方法を、この節で確認してください。
-seo-title: Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得
+seo-description: ID service customers should refer to this section for information on how to read the visitor cookie for the IDs required to make DCS API calls.
+seo-title: Get User IDs and Regions Through the Adobe Experience Platform Identity Service
 solution: Audience Manager
 title: Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 exl-id: 0b855237-ac14-4c0e-b831-221b9218840f
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '682'
+workflow-type: tm+mt
+source-wordcount: '613'
 ht-degree: 100%
 
 ---

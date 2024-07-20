@@ -1,15 +1,15 @@
 ---
 description: Audience Manager は UI 全体で協定世界時（UTC）を使用しています。
-seo-description: Audience Manager は UI 全体で協定世界時（UTC）を使用しています。
-seo-title: Audience Manager のタイムゾーン
+seo-description: Audience Manager uses Coordinated Universal Time (UTC) across its entire UI.
+seo-title: Time Zones in Audience Manager
 solution: Audience Manager
 title: Audience Manager のタイムゾーン
 uuid: ff4710a9-edee-470c-9ab0-85c1789a2837
-feature: リファレンス
+feature: Reference
 exl-id: bb89cf76-dd43-454b-aaa8-8e5415493ecc
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '84'
 ht-degree: 100%
 
 ---

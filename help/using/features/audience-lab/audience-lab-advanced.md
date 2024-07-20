@@ -1,7 +1,7 @@
 ---
 description: この記事では、Audience Lab の高度な機能である、割り当てテンプレートの複製とセグメント除外の 2 つの機能について説明します。
-seo-description: この記事では、Audience Lab の高度な機能である、割り当てテンプレートの複製とセグメント除外の 2 つの機能について説明します。
-seo-title: Audience Lab の高度な機能
+seo-description: This article describes two features which provide advanced functionality for Audience Lab  Duplicate Allocation Template and Segment Holdout.
+seo-title: Audience Lab Advanced Functionality
 solution: Audience Manager
 title: Audience Lab の高度な機能
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
@@ -9,8 +9,8 @@ feature: Audience Lab
 exl-id: 40b2c8c2-63c0-485d-8217-beab34d7a7f1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 この記事では、[!DNL Audience Lab] の高度な機能である、[!DNL Duplicate Allocation Template] および [!DNL Segment Holdout] の 2 つの機能について説明します。
 
-## 割り当てテンプレートの複製 {#duplicate-allocation-template}
+## 配分テンプレートの複製 {#duplicate-allocation-template}
 
 <!-- 
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>

@@ -1,15 +1,15 @@
 ---
 description: 特性の除外を使用すると、モデリングワークフローをさらに細かく制御し、ドメインに関する知識および規制要件に応じてモデルに含める特性を限定できます。1 つまたは複数のデータソースからモデルを作成するときに、「Exclusions」オプションを使用して、除外する特性を指定します。
-seo-description: 特性の除外を使用すると、モデリングワークフローをさらに細かく制御し、ドメインに関する知識および規制要件に応じてモデルに含める特性を限定できます。1 つまたは複数のデータソースからモデルを作成するときに、「Exclusions」オプションを使用して、除外する特性を指定します。
-seo-title: アルゴリズムモデル  特性の除外
+seo-description: Trait Exclusion provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the Exclusions option to select which traits to ignore when creating models from one or more data sources.
+seo-title: Algorithmic Models  Trait Exclusion
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
-feature: アルゴリズムモデル
+feature: Algorithmic Models
 exl-id: 7e2df04d-7e07-408d-b82a-9571b5839ff4
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '633'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
-## 重要な点と制限事項 {#important-aspects-and-limitations}
+## 重要な側面と制限事項 {#important-aspects-and-limitations}
 
 [!UICONTROL Trait Exclusion]については、以下の点と制限事項に注意してください。
 
@@ -100,5 +100,5 @@ ht-degree: 100%
 
 ## 関連リンク
 
-* [アルゴリズムの特性について](/help/using/features/algorithmic-models/understanding-models.md)
+* [アルゴリズム特性について](/help/using/features/algorithmic-models/understanding-models.md)
 * [特性の例外 - チュートリアル](https://helpx.adobe.com/jp/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)

@@ -9,8 +9,8 @@ feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 91%
+source-wordcount: '686'
+ht-degree: 90%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 91%
 
 >[!WARNING]
 >
->2023 年 7 月より、Adobeは、 [!DNL Data Integration Library (DIL)] そして [!DNL DIL] 拡張子。
+>2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] と [!DNL DIL] の開発を廃止しました。
 >
->既存のお客様は、引き続き [!DNL DIL] 実装。 しかし、Adobeは発展しない [!DNL DIL] この点を越えて お客様は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 長期のデータ収集戦略に対応するために使用されます。
+>既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの先 [!DNL DIL] は発展しません。 お客様は、長期的なデータ収集戦略について ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)0}Experience Platform Web SDK} を評価することをお勧めします。[
 >
->2023 年 7 月以降に新しいデータ収集統合を実装する場合は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 代わりに、
+>2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用する必要があります。
 
 FLA ファイルから Analytics に送信されたデータを収集し、その情報を Audience Manager で使用します。
 
@@ -34,7 +34,7 @@ c_flash_dil_toc.xml
 
 [!UICONTROL Flash DIL] は、Audience Manager でビデオ再生データを操作するための [!DNL ActionScript] コードライブラリです。[!DNL Flash DIL] は、Adobe [!UICONTROL AppMeasurement] ライブラリが Analytics に渡す SWF コンテンツをキャプチャすることにより機能します。[!DNL Flash DIL] はデータを独立した [!UICONTROL DIL] JavaScript データ収集モジュールに送信します。この情報は Audience Manager に渡されます。Analytics データ（[!UICONTROL Props]、[!UICONTROL eVars]、イベントなど）は [!DNL FLA] ファイルからキャプチャした後、Audience Manager で特性や未使用シグナルとして使用できます。
 
-## 区切り文字のタイプFlash DIL データ収集  {#requirements}
+## Flash DIL データ収集の要件 {#requirements}
 
 一般的な実装およびコード関連の要件です。
 

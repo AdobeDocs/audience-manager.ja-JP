@@ -1,7 +1,7 @@
 ---
 description: グループの管理（グループの作成、更新、リスト、削除など）をおこなうための Rest API メソッド。
-seo-description: グループの管理（グループの作成、更新、リスト、削除など）をおこなうための Rest API メソッド。
-seo-title: グループ管理 API メソッド
+seo-description: Rest API methods to manage groups, including creating, updating, listing, deleting groups.
+seo-title: Group Management API Methods
 solution: Audience Manager
 title: グループ管理 API メソッド
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
@@ -9,7 +9,7 @@ feature: API
 exl-id: b43c8404-1853-4306-8f26-96d9191a2548
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '206'
 ht-degree: 100%
 
 ---

@@ -8,9 +8,9 @@ uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Audience Lab 機能に関するよくある質問です。
 
 <br>
 
-**あるテストグループは、テストセグメントの分割に認証済みプロファイルを使用しているとします。認証済みプロファイルは 4 つの    [Audience Manager UUID](../reference/ids-in-aam.md) に関連付けられています。訪問者が 4 つの UUID の中の 1 つのコンバージョン特性を示した場合、[!UICONTROL Audience Lab]はこれを 1 つのコンバージョンまたは 4 つのコンバージョンどちらのコンバージョンとしてカウントしますか？**
+**あるテストグループは、テストセグメントの分割に認証済みプロファイルを使用しているとします。認証済みプロファイルは、4 つの [Audience Manager UUID](../reference/ids-in-aam.md) にリンクされています。 訪問者が 4 つの UUID の中の 1 つのコンバージョン特性を示した場合、[!UICONTROL Audience Lab]はこれを 1 つのコンバージョンまたは 4 つのコンバージョンどちらのコンバージョンとしてカウントしますか？**
 
 この場合、[!UICONTROL Audience Lab]は 1 回のコンバージョンとしてのみカウントします。
 

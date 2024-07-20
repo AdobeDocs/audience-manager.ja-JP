@@ -1,15 +1,15 @@
 ---
 description: データ処理のコンポーネントには、Hadoop、Snowflake、SOLR および Tableau などがあります。
-seo-description: データ処理のコンポーネントには、Hadoop、Snowflake、SOLR および Tableau などがあります。
-seo-title: データ処理のコンポーネント
+seo-description: Data processing components include Hadoop, Snowflake, SOLR, and Tableau.
+seo-title: Data Processing Components
 solution: Audience Manager
 title: データ処理のコンポーネント
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
-feature: 'システムコンポーネント '
+feature: System Components
 exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Audience Manager は、データ処理に以下のコンポーネントを使用
 
 * [Daily Trait Variation レポート](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * すべての重複レポート（各重複レポートの情報については、[インタラクティブなレポート](/help/using/reporting/dynamic-reports/dynamic-reports.md)の節を参照してください）
-* [未使用シグナルレポート](/help/using/reporting/dynamic-reports/unused-signals.md)
+* [未使用シグナルレポート ](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 

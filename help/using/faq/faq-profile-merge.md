@@ -9,9 +9,9 @@ uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: ht
-source-wordcount: '1530'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1583'
+ht-degree: 99%
 
 ---
 
@@ -171,7 +171,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **デバイスグラフを使用する [!UICONTROL Profile Merge Rule] で到達できるデバイスの数は確認できますか？**
 
-はい。レポートは [!UICONTROL Profile Merge Rule] レベルでデータを返します。レポートのデータは毎日更新されます。データはデバイスグラフでリンクされているデバイスではなく、アカウントで認識されるデバイスに基づいています。詳しくは、[プロファイル結合ルールのレポート指標](../features/profile-merge-rules/profile-link-metrics.md)を参照してください。
+はい。レポートは [!UICONTROL Profile Merge Rule] レベルでデータを返します。レポートのデータは毎日更新されます。データはデバイスグラフでリンクされているデバイスではなく、アカウントで認識されるデバイスに基づいています。[ プロファイル結合ルールのレポート指標 ](../features/profile-merge-rules/profile-link-metrics.md) を参照してください。
 
  
 
@@ -275,4 +275,3 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 >[!MORELIKETHIS]
 >
 >* [プロファイルリンク](../features/profile-merge-rules/profile-link-use-case.md)
-

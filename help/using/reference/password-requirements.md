@@ -1,15 +1,15 @@
 ---
 description: 30 日経過するごとにパスワードの有効期限が切れるように Audience Manager を設定することができます。パスワードの有効期限を有効にする場合は、担当の Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。パスワードの要件とパスワードを忘れた場合の対処方法については、この節を参照してください。
-seo-description: 30 日経過するごとにパスワードの有効期限が切れるように Audience Manager を設定することができます。パスワードの有効期限を有効にする場合は、担当の Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。パスワードの要件とパスワードを忘れた場合の対処方法については、この節を参照してください。
-seo-title: パスワードの要件、ロックされたアカウント、パスワードを忘れた場合
+seo-description: Audience Manager can be configured to expire passwords every 30-days. Talk to your Audience Manager consultant or Customer Care if you want to enable password expiry. Refer to this section for password requirements and how to recover a lost or forgotten password.
+seo-title: Password Requirements, Locked Accounts, and Forgotten Passwords
 solution: Audience Manager
 title: パスワードの要件、ロックされたアカウント、パスワードを忘れた場合
 uuid: bca892eb-3577-4382-8110-131f78d23069
-feature: リファレンス
+feature: Reference
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -79,6 +79,5 @@ c_password_requirements.xml
 
 >[!MORELIKETHIS]
 >
->* [データのセキュリティ](../overview/data-security-and-privacy/data-security.md)
-* [データのセキュリティ](../overview/data-security-and-privacy/data-privacy.md)
-
+>* [データセキュリティ](../overview/data-security-and-privacy/data-security.md)
+>* [データセキュリティ](../overview/data-security-and-privacy/data-privacy.md)

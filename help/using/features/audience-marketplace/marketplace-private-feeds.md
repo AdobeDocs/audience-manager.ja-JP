@@ -1,7 +1,7 @@
 ---
 description: 非公開データフィードは、プロバイダーがデータへの購入者のアクセスを制限するためのオプションです。データプロバイダーは非公開データフィードを作成する前に、データ購入者は非公開データフィードのサブスクリプションを購入する前に、この情報によく目を通してください。
-seo-description: 非公開データフィードは、プロバイダーがデータへの購入者のアクセスを制限するためのオプションです。データプロバイダーは非公開データフィードを作成する前に、データ購入者は非公開データフィードのサブスクリプションを購入する前に、この情報によく目を通してください。
-seo-title: 非公開データフィード
+seo-description: A private data feed is an option that lets providers limit buyer access to their data. Data providers and buyers should review this information before creating and subscribing to private data feeds.
+seo-title: Private Data Feeds
 solution: Audience Manager
 title: 非公開データフィード
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
@@ -9,8 +9,8 @@ feature: Audience Marketplace
 exl-id: 34eb6194-c57b-4836-a6df-6889a2cec703
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 99%
+source-wordcount: '1065'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 <!-- c_marketplace_privatefeed.xml -->
 
-## 非公開データフィード （プロバイダー向け） {#private-data-feeds-providers}
+## プロバイダーにとってのプライベートデータフィード {#private-data-feeds-providers}
 
 プロバイダーは、データフィードを公開または非公開にできます。非公開データフィードを使用すると、データへの購入者のアクセスを制限できます（データ販売者の名前を含む）。特別サービスや割引を提供したり、プライバシーおよびアクセス制御が重要な場合に、非公開データフィードを作成することもできます。非公開データフィードでは、購入者の要求を確認および承認できます。要求を承認したら、フィードは、購入者には公開データフィードのように見えます。**[!UICONTROL Audience Marketplace > My Shared Data]** では、すべてのフィードを表示および管理できます。以下に示すように、このタイプのフィードは、ステータス列で「Private」とマークされます。
 
@@ -75,9 +75,9 @@ ht-degree: 99%
 
 * [公開または非公開のデータフィードの作成](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)
 * [非公開フィード要求の確認、承認または拒否](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests)
-* [購入者にとっての非公開データフィード](../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers)
+* [購入者にとってのプライベートデータフィード](../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers)
 
-## 購入者にとっての非公開データフィード {#private-data-feeds-for-buyers}
+## 購入者にとってのプライベートデータフィード {#private-data-feeds-for-buyers}
 
 [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) では、購入者には、非公開データフィードも他のオファーと同様に表示されます。ただし、この場合、フィードリストには、特性、ユニークユーザーおよびユーザーの重複に関する概要情報は表示されません。また、データ販売者には、[!UICONTROL Marketplace] リストの [!UICONTROL Provider] 列で名前を表示または非表示にするオプションがあります。販売者がサブスクリプション要求を承認したら、非公開フィードのすべてのデータが使用可能になります（公開フィードのように機能します）。以下の [!UICONTROL Marketplace] の例に、購入者が使用できる 3 つの異なるフィードタイプを示します。
 
@@ -114,7 +114,7 @@ ht-degree: 99%
 
 アクセスのリクエスト方法について、[非公開データフィードを購読する](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed)を参照してください。
 
-## データプロバイダーとデータ購入者の間で共有関係を設定する方法 {#set-up-sharing-relationship}
+## データプロバイダーとデータバイヤー間の共有関係の設定方法 {#set-up-sharing-relationship}
 
 ### ステップ 1：有効化 - データプロバイダーとデータ購入者
 

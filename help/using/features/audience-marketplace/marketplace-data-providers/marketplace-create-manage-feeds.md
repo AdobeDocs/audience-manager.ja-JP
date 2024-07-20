@@ -1,7 +1,7 @@
 ---
 description: データフィードには、名前、説明、データソースおよびプランのタイプが必要です。フィードを保存およびアクティブ化するまで、フィードは無効です。Audience Marketplace／My Shared Data で、公開または非公開データフィードを設定します。データ販売者のみ使用できます。
-seo-description: データフィードには、名前、説明、データソースおよびプランのタイプが必要です。フィードを保存およびアクティブ化するまで、フィードは無効です。Audience Marketplace／My Shared Data で、公開または非公開データフィードを設定します。データ販売者のみ使用できます。
-seo-title: データフィードの作成、価格設定および管理
+seo-description: A data feed requires a name, description, data source, and a plan type. Feeds are disabled until you save and activate the feed. Set up public or private data feeds in Audience Marketplace > My Shared Data. Available to data sellers only.
+seo-title: Create, Price, and Manage Data Feeds
 solution: Audience Manager
 title: データフィードの作成、価格設定および管理
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
@@ -9,8 +9,8 @@ feature: Audience Marketplace
 exl-id: e8605e94-e62a-430c-9aef-875f995fb436
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 100%
+source-wordcount: '1260'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 1. 「[!UICONTROL Plan Types]」で使用するオプションを選択し、「**[!UICONTROL Add Plan]**」をクリックします。
 
-   フィードには複数のプランが含まれる場合があります。プランには複数のユースケースが含まれる場合があります。詳しくは、[データフィードのプランタイプ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)を参照してください。
+   フィードには複数のプランが含まれる場合があります。プランには複数のユースケースが含まれる場合があります。詳しくは、[ データフィードのプランタイプ ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types) を参照してください。
 
 1. 「**[!UICONTROL Save]**」をクリックすると、データフィードがアクティブ化&#x200B;*されずに*&#x200B;保存されます。
 1. データフィードを保存してアクティブ化するには：
@@ -48,7 +48,6 @@ ht-degree: 100%
    >
    >* 保存されてアクティブになったデータフィードは削除できません。
    >* 購入者にはアクティブのフィードしか表示されません。
-
 
 ### オプション：非公開データフィードの作成
 
@@ -165,7 +164,7 @@ ht-degree: 100%
 
 **[!UICONTROL Additional Notes]**&#x200B;フィールドには、フィードの各データプランの説明を入力します。簡潔で優れた説明は、購入者がデータフィードの各プランの内容や目的を理解するのに役立ちます。購入者は、新しいデータソースを検索したり評価したりする際に、データフィードおよびプランの説明を読むことができます。
 
-## 非公開データフィードのリクエストの管理 {#manage-private-requests}
+## プライベートデータフィード要求の管理 {#manage-private-requests}
 
 購入者からの非公開フィード要求を管理するためのプロバイダーのワークフロー。
 
@@ -178,7 +177,7 @@ ht-degree: 100%
 3. 各リクエストボックスの「[!UICONTROL Allow Access]」セクションで、チェックマークをクリックしてリクエストを承認するか、X 印をクリックしてアクセスを拒否します。
 4. 確認ポップアップで、選択したアクションを確定またはキャンセルします。
 
-## データプロバイダーにとっての割引 {#discounts}
+## データプロバイダー向けの割引 {#discounts}
 
 [!UICONTROL Audience Marketplace] では、割引によって、個別の加入者に対するデータフィードの公表価格を下げることができます。サブスクリプション購入要求を送信した加入者またはデータフィードの詳細情報を要求した加入者に対して、割引を提案できます。割引は [!DNL CPM] および定額料金のフィードに適用されます。新規顧客のサブスクリプション購入意欲を高める場合や顧客の忠誠度に報いる場合に、割引は役に立ちます。
 
@@ -206,4 +205,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [非公開データフィード](../../../features/audience-marketplace/marketplace-private-feeds.md)
-

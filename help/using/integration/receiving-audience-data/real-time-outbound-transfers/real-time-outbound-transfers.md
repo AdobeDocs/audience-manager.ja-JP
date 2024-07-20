@@ -8,9 +8,9 @@ uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
 source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
-workflow-type: ht
-source-wordcount: '674'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '677'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 <!-- c_outbound_json.xml -->
 
-## 推奨事項
+## レコメンデーション
 
 この方法を使用するには、宛先プラットフォームが以下の要件を満たしている必要があります。
 
@@ -127,7 +127,7 @@ ht-degree: 100%
     </ul> <p>以下の場合、ユーザーはセグメントへの認定を解除されます。 </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">セグメントから削除された（セグメントルールに基づいて）。 </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">セグメントから削除された（セグメントの<a href="../../../features/traits/segment-ttl-explained.md">有効期間</a>に基づいて）。 </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">セグメントの <a href="../../../features/traits/segment-ttl-explained.md"> の有効期間に基づいて、セグメントから削除され </a> した。 </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">過去 120 日の間確認されず、非アクティブ状態に移行した。 </li>
      <li>プライバシー変更リクエスト（例：<span class="keyword">GDPR</span>）により削除された</li>
     </ul> <p><span class="keyword">Audience Manager</span> ID と同期されたすべてのパートナー ID は、ユーザーが非セグメント化されると、<code> "Status":"0"</code> フラグを受け取ります。 </p> </td> 

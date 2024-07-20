@@ -1,14 +1,14 @@
 ---
 description: 宛先のランディングページには、URL、Cookie、サーバー間の各種宛先がすべて一覧表示されます。ここでは、宛先の作成、編集、検索、レポート作成をおこなえます。ランディングページには、Audience Data／Destinations でアクセスできます。
-seo-description: 宛先のランディングページには、URL、Cookie、サーバー間の各種宛先がすべて一覧表示されます。ここでは、宛先の作成、編集、検索、レポート作成をおこなえます。ランディングページには、Audience Data／Destinations でアクセスできます。
-seo-title: 宛先の管理
+seo-description: The Destination landing page lists all of your URL, cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in Audience Data > Destinations.
+seo-title: Manage Destinations
 solution: Audience Manager
 title: 宛先の管理
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: 367bad0f-d7d6-4dd5-9717-85ac6eda47ab
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '173'
 ht-degree: 100%
 
 ---

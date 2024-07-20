@@ -1,16 +1,16 @@
 ---
 description: 送信ファイルテンプレートの作成に、一部の一般的なマクロがどのように使用されるかを示す例です。
-seo-description: 送信ファイルテンプレートの作成に、一部の一般的なマクロがどのように使用されるかを示す例です。
-seo-title: 送信マクロの例
+seo-description: Examples of how some of the common macros are used to create outbound file templates.
+seo-title: Outbound Macro Examples
 solution: Audience Manager
 title: 送信マクロの例
 uuid: 823d85d4-d683-45cf-9e60-c12b7d52a498
-feature: 送信データ転送
+feature: Outbound Data Transfers
 exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 99%
+source-wordcount: '322'
+ht-degree: 100%
 
 ---
 

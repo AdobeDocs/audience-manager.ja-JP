@@ -1,7 +1,7 @@
 ---
 description: プログラムで宛先機能を操作するためのメソッド。
-seo-description: プログラムで宛先機能を操作するためのメソッド。
-seo-title: 宛先 API メソッド
+seo-description: Methods that let you work programmatically with destination features.
+seo-title: Destination API Methods
 solution: Audience Manager
 title: 宛先 API メソッド
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
@@ -9,7 +9,7 @@ feature: API
 exl-id: 38dea854-2b7b-417e-9d56-919b65807628
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '89'
 ht-degree: 100%
 
 ---
@@ -36,4 +36,3 @@ Audience Manager において、宛先とは、データの共有相手となる
 >[!MORELIKETHIS]
 >
 >* [宛先のタイプを選択する方法](../../../features/destinations/destinations.md)
-

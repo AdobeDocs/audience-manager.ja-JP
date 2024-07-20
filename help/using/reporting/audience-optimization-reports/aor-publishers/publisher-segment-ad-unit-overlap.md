@@ -1,15 +1,15 @@
 ---
 description: セグメント - 広告ユニット間重複レポートは、広告ユニットと Audience Manager セグメントの間の重複が多い部分と少ない部分を強調したヒートチャートとして表示されます。
-seo-description: セグメント - 広告ユニット間重複レポートは、広告ユニットと Audience Manager セグメントの間の重複が多い部分と少ない部分を強調したヒートチャートとして表示されます。
-seo-title: セグメント - 広告ユニット間重複
+seo-description: The Segment to Ad Unit Overlap report is displayed as a heat chart that highlights high and low overlaps between your Ad Units and Audience Manager segments.
+seo-title: Segment to Ad Unit Overlap
 solution: Audience Manager
 title: セグメント - 広告ユニット間重複
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
-feature: Audience Optimization レポート
+feature: Audience Optimization Reports
 exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '390'
 ht-degree: 100%
 
 ---

@@ -1,14 +1,14 @@
 ---
 description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
-seo-description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
-seo-title: Predictive Audiences の管理
+seo-description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-title: Managing Predictive Audiences
 solution: Audience Manager
 title: Predictive Audiences の使用の手引き
-feature: アルゴリズムモデル
+feature: Algorithmic Models
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '572'
+workflow-type: tm+mt
+source-wordcount: '545'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 100%
    * **[!UICONTROL Description]**：ユースケースを識別するのに役立つ、モデルの説明を入力します。
    * **[!UICONTROL Data Source]**：このモデルからの [!UICONTROL Predictive Audiences] セグメントを割り当てるファーストパーティデータソースを選択します。
    * **[!UICONTROL Profile Merge Rule]**：このモデルで作成されるすべての予測[!UICONTROL Profile Merge Rule]に割り当てる[!UICONTROL segments]選択します。選択したターゲットオーディエンスが[!UICONTROL segment]の場合は、同じターゲットオーディエンスの[!UICONTROL Profile Merge Rule]を選択することをお勧めします。
-      ![predictive-audiences-save](assets/predictive-audiences-save.png)
+     ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## Predictive Audiences モデルのコピーと編集 {#clone-predictive-audiences}

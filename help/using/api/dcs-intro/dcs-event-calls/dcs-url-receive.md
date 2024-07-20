@@ -1,7 +1,7 @@
 ---
 description: /event 呼び出しで DCS 応答を要求する方法については、ここを参照してください。この節では、応答の例と、応答でよく使用されるデータ要素の定義を示します。
-seo-description: /event 呼び出しで DCS 応答を要求する方法については、ここを参照してください。この節では、応答の例と、応答でよく使用されるデータ要素の定義を示します。
-seo-title: DCS からのデータ受信
+seo-description: Continue here for information about how to request a DCS response in a /event call. This section includes a response example and definitions for common data elements in a response.
+seo-title: Receive Data From the DCS
 solution: Audience Manager
 title: DCS からのデータ受信
 uuid: fbb77197-8530-48a8-b708-d785f7214494
@@ -9,7 +9,7 @@ feature: DCS
 exl-id: c6a87e5a-63cc-44d7-b6f0-ac8ee845fd00
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
@@ -67,4 +67,3 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 >[!MORELIKETHIS]
 >
 >* [DCS でサポートされるキーと値のプレフィックスおよび変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
-

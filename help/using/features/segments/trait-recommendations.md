@@ -1,14 +1,14 @@
 ---
 description: 特性レコメンデーションを利用すると、セグメントビルダーでセグメントを作成または編集する際に、セグメントルール内の特性に類似した他の特性についてのレコメンデーションが得られます。推奨特性をセグメントに追加すると、ターゲットオーディエンスを増やすことができます。
-seo-description: セグメントの作成時に有効な特性レコメンデーションを取得します。
-seo-title: 特性レコメンデーション
+seo-description: Get live trait recommendations as you build your segments.
+seo-title: Trait Recommendations
 solution: Audience Manager
 title: 特性レコメンデーション
-feature: セグメント
+feature: Segments
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
 source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
-workflow-type: ht
-source-wordcount: '1574'
+workflow-type: tm+mt
+source-wordcount: '1584'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Audience Manager では、ファーストパーティ特性からの特性レコ
 
 [!UICONTROL Trait Recommendations] では、Audience Manager の使用状況に応じて、ワークフローを改善できます。
 
-* マーケティング担当者は、類似した特性を活用して補完的な製品に関心のあるオーディエンスをすばやく見つけ、リーチを増やすことができます。
+* マーケターは、類似した特性を活用して補完的な製品に関心のあるオーディエンスをすばやく見つけ、リーチを増やすことができます。
 * Audience Manager をパブリッシャー（広告配信元）として使用した場合、[!UICONTROL Trait Recommendations]では、オーディエンスの行動を把握し、広告販売やユーザー獲得のためのより優れたセグメントを構築できます。
 * [!UICONTROL Audience Marketplace] データ購入者の場合、大量のフィードを閲覧することなく、関連するサードパーティデータを見つけることができます。
 * [!UICONTROL Audience Marketplace] データプロバイダーの場合、関連するデータを購入者にレコメンデーションできるので、最適な、関連するサブスクリプションから利益を得ることができます。
@@ -177,7 +177,7 @@ Audience Manager は、[!UICONTROL UUID] の数に関して積集合と和集合
 
 ## ロールベースのアクセス制御（RBAC）
 
-[!UICONTROL Role-Based Access Controls]（[!UICONTROL RBAC]）を使用する企業では、推奨特性を表示するために、セグメントを作成および編集する権限が必要です。表示される推奨特性は、[!UICONTROL RBAC] を介してアクセスできるデータソースの特性に限られます。
+[!UICONTROL Role-Based Access Controls]（[!UICONTROL RBAC]）を使用する企業では、推奨特性を表示するために、セグメントを作成および編集する権限が必要です。表示されるレコメンデーション特性は、[!UICONTROL RBAC] を介してアクセスできるデータソースの特性に限られます。
 
 >[!IMPORTANT]
 >

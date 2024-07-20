@@ -1,15 +1,15 @@
 ---
 description: アクセシビリティとは、視覚、聴覚、認知、運動など、様々な障碍のあるユーザーが、できる限り労力を費やすことなしに、ソフトウェア製品を使用できるようにする一連の機能を指します。
-seo-description: アクセシビリティとは、視覚、聴覚、認知、運動など、様々な障碍のあるユーザーが、できる限り労力を費やすことなしに、ソフトウェア製品を使用できるようにする一連の機能を指します。
-seo-title: Audience Manager のアクセシビリティ
+seo-description: Accessibility refers to a series of features that make a software product usable, with as little effort as possible from users with various disabilities, such as visual, auditory, cognitive, motor, or other kind.
+seo-title: Accessibility in Audience Manager
 solution: Audience Manager
 title: Audience Manager のアクセシビリティ
-feature: 概要
+feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 96%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 100%
 
 [!DNL Audience Manager] を誰にとってもより使いやすいものにするために、アドビでは、複数のアクセシビリティ機能をサポートしています。
 
-## キーボード操作 {#keyboard-navigation}
+## キーボードナビゲーション {#keyboard-navigation}
 
 [!DNL Audience Manager] は、完全なキーボードアクセシビリティをサポートしています。
 
 * `Tab` キーおよび矢印キーで、ユーザーインターフェイスの個別の要素間を移動します。
 
-   ![accesibility-highlight](assets/accesibility-highlight.png)
+  ![accesibility-highlight](assets/accesibility-highlight.png)
 
 * `Return`（`Enter`）キーおよび `Space` キーで、選択した項目をアクティブ化します。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ![accessibility-table-headers](assets/accessibility-table-headers.png)
 
-## 支援技術のサポート {#assistive-technologies}
+## 支援テクノロジーのサポート {#assistive-technologies}
 
 セマンティックコードおよび [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) を使用することで、[!DNL Audience Manager] ユーザーインターフェイス内のインタラクティブ要素に、対応するラベル、アクセス可能な名前、その目的と現在の状態の両方を識別する役割を追加しています。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 Audience Manager ユーザーインターフェイス内のすべてのインタラクティブ要素には、対応するラベルが含まれます。これにより、スクリーンリーダーなどの支援技術で、ユーザーにラベルを読み上げることができます。
 
-## 色とコントラスト {#colors-contrast}
+## カラーとコントラスト {#colors-contrast}
 
 [!DNL Audience Manager] ユーザーインターフェイスは、ロービジョンや色覚異常のユーザーがアクセス可能な表示エクスペリエンスを確保するために、アプリケーションで十分なコントラストを提供するよう努力しています。
 
@@ -57,7 +57,7 @@ Audience Manager ユーザーインターフェイス内のすべてのインタ
 
 ![accessibility-loading](assets/accessibility-loading.png)
 
-## 追加情報 {#further-reading}
+## 参考情報 {#further-reading}
 
 [!DNL Audience Manager] では、製品を誰にとっても使いやすいものにするアクセシビリティを提供するために、これまで以上に努力しています。
 

@@ -8,8 +8,8 @@ uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
 feature: Audience Optimization Reports
 exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
 source-git-commit: 95b7b4347f3da16be05be60cbefc0e236022a4a7
-workflow-type: ht
-source-wordcount: '596'
+workflow-type: tm+mt
+source-wordcount: '556'
 ht-degree: 100%
 
 ---

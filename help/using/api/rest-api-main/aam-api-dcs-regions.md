@@ -1,7 +1,7 @@
 ---
 description: Audience Manager の DCS 地域のリストをブログラムで取得するためのメソッド。
-seo-description: Audience Manager の DCS 地域のリストをブログラムで取得するためのメソッド。
-seo-title: DCS 地域 API メソッド
+seo-description: Methods that let you programmatically list Audience Manager DCS regions.
+seo-title: DCS Region API Methods
 solution: Audience Manager
 title: DCS 地域 API メソッド
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
@@ -9,7 +9,7 @@ feature: API
 exl-id: 3cd1700e-6914-46be-a0be-a870c472343e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '110'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Audience Manager の [!DNL DCS] 地域のリストをブログラムで取得す
 
 地域と対応する整数の一覧については、[DCS の地域 ID、場所、ホスト名](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
 
-## 特定の DCS 地域のリスト {#list-specific-dcs-region}
+## 特定の DCS リージョンのリスト {#list-specific-dcs-region}
 
 特定の [!DNL DCS] 地域のリストを返す `GET` メソッド。
 
@@ -52,7 +52,7 @@ Audience Manager の [!DNL DCS] 地域のリストをブログラムで取得す
 
 地域と対応する整数の一覧については、[DCS の地域 ID、場所、ホスト名](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。
 
-## DCS 地域のリスト {#list-dcs-regions}
+## DCS リージョンのリスト {#list-dcs-regions}
 
 [!DNL DCS] 地域のリストを返す `GET` メソッド。
 

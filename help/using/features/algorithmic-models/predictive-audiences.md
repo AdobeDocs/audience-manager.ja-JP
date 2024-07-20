@@ -1,14 +1,14 @@
 ---
 description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
-seo-description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
-seo-title: Predictive Audiences の概要
+seo-description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-title: Predictive Audiences Overview
 solution: Audience Manager
 title: Audience Manager Predictive Audiences
-feature: アルゴリズムモデル
+feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1505'
+workflow-type: tm+mt
+source-wordcount: '1470'
 ht-degree: 100%
 
 ---
@@ -38,11 +38,11 @@ ht-degree: 100%
 
 ### ユースケース 1
 
-e コマース会社のマーケティング担当者の場合、ユーザーエクスペリエンスをパーソナライズできるように、すべての Web およびモバイル訪問者を様々なブランド志向カテゴリに分類したい。
+e コマース会社のマーケターの場合、ユーザーエクスペリエンスをパーソナライズできるように、すべての web およびモバイル訪問者を様々なブランド志向カテゴリに分類したい。
 
 ### ユースケース 2
 
-メディア会社のマーケティング担当者の場合、すべてのチャネルにわたってパーソナライズされたコンテンツを提案できるように、未認証の Web およびモバイル訪問者を好きなジャンルごとに分類したい。
+メディア会社のマーケターの場合、すべてのチャネルにわたってパーソナライズされたコンテンツを提案できるように、未認証の web およびモバイル訪問者を好きなジャンルごとに分類したい。
 
 ### ユースケース 3
 
@@ -54,7 +54,7 @@ e コマース会社のマーケティング担当者の場合、ユーザーエ
 
 ### ユースケース 5
 
-マーケティング担当者の場合、フェーズに応じてターゲティングできるように、Web サイト訪問者がいるカスタマージャーニーフェーズ（ディスカバリー、エンゲージメント、購入、定着など）を予測したい。
+マーケターの場合、フェーズに応じてターゲティングできるように、web サイト訪問者がいるカスタマージャーニーフェーズ（ディスカバリー、エンゲージメント、購入、定着など）を予測したい。
 
 ### ユースケース 6
 

@@ -1,17 +1,17 @@
 ---
 description: Audience Manager へのオフラインデータの取り込みに関するよくある質問です。
 keywords: FTP または s3;s3 または FTP
-seo-description: Audience Manager へのオフラインデータの取り込みに関するよくある質問です。
-seo-title: 顧客データのインバウンドの取得に関するよくある質問
+seo-description: Frequently asked questions about bringing offline data into Audience Manager.
+seo-title: Inbound Customer Data Ingestion FAQ
 solution: Audience Manager
 title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: オフラインデータのオンボーディング
+feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1360'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1343'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 **圧縮または暗号化ファイルの転送には、どの FTP モードを使用するとよいですか？**
 
-詳しくは、[受信データ転送ファイルのファイル圧縮](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)を参照してください。
+[ 受信データ転送ファイルのファイル圧縮 ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
 
 >[!WARNING]
 >
@@ -154,9 +154,9 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 * **完全：**&#x200B;完全なファイルは、既存のすべての訪問者プロファイルを上書きし、ファイルのデータで置き換えます。完全なファイルは、ファイル名に追加された `.overwrite` タグで特定されます。`.overwrite` ファイルを使用して、訪問者の特性をリセットしたり、古くなって使用されない特性を削除したりできます。
 
-   >[!NOTE]
-   >
-   >[!DNL .overwrite] ファイルは、このデータプロバイダーに関連付けられた [!DNL Audience Manager] プロファイルデータのみを上書きします。つまり、この訪問者に関連付けられたすべての [!DNL Audience Manager] データは、[!DNL .overwrite] ファイルが処理された後も、元の状態のままです。
+  >[!NOTE]
+  >
+  >[!DNL .overwrite] ファイルは、このデータプロバイダーに関連付けられた [!DNL Audience Manager] プロファイルデータのみを上書きします。つまり、この訪問者に関連付けられたすべての [!DNL Audience Manager] データは、[!DNL .overwrite] ファイルが処理された後も、元の状態のままです。
 
 * **増分：**&#x200B;増分ファイルは、新しいデータを既存の訪問者プロファイルに追加します。増分ファイルは、ファイル名に追加された `.sync` タグで特定されます。増分ファイルを送信しても、既存のプロファイルを消去または上書きしません。
 
@@ -195,7 +195,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 **毎日のデータファイルはどのくらいの大きさになりますか？**
 
-詳しくは、[受信データ転送ファイルのファイル圧縮](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)を参照してください。
+[ 受信データ転送ファイルのファイル圧縮 ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
 
  
 
@@ -247,4 +247,3 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 >[!MORELIKETHIS]
 >
 >* [バッチデータ転送プロセスの説明](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-

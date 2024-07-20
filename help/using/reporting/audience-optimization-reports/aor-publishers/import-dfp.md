@@ -9,8 +9,8 @@ feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
 source-git-commit: 7147091e6c253e8124f5f21a2251c1a76ac9d808
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 94%
+source-wordcount: '511'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
 広告タグ呼び出しでの [!DNL Audience Manager] ID の設定方法は以下のとおりです（ドキュメントにも説明があります）。
 
 * [Google Publisher Tag（GPT）を使用する](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
-* [Cookie 宛先を使用する](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
+* [Cookie の宛先経由](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 [!DNL Audience Manager] ID はご自身で設定する必要があります。また、[!DNL Audience Manager] コンサルタントを使用して、すべて正常であることを確認できます。次のようになっていれば、[!DNL Audience Manager] ID は正しく設定されています。
 
@@ -82,7 +82,7 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
   </tr> 
   <tr> 
    <td colname="col1"> <p>手順 6 </p> </td> 
-   <td colname="col2"> <p>前提条件をコンパイルし、詳細な手順に従ってサポートチケットを開きます。 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">ここ</a> ログの取り込みプロセスを開始します。 </p> </td> 
+   <td colname="col2"> <p>ログ取り込みプロセスを開始するために詳しく説明されている手順 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html"> こちら </a> に従って、前提条件をコンパイルし、サポートチケットを開きます。 </p> </td> 
    <td colname="col3"> <p>自分または <span class="keyword"> Audience Manager</span> コンサルタントが代理で実行 </p> </td> 
   </tr> 
  </tbody> 

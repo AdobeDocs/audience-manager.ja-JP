@@ -1,14 +1,14 @@
 ---
 description: Destination Builder の「Configuration」セクションには、「Cookie Domain」フィールドと「Publish Data To」フィールドが含まれています。これらを使用して、宛先が Cookie を設定しているかどうか、または Cookie を返すかどうかを判定するルールを作成できます。「Cookie Domain」と「Publish Data To」はオプションで、互いに独立して機能します。これらのどちらも使用せずに Cookie の宛先を作成することができます。
-seo-description: Destination Builder の「Configuration」セクションには、「Cookie Domain」フィールドと「Publish Data To」フィールドが含まれています。これらを使用して、宛先が Cookie を設定しているかどうか、または Cookie を返すかどうかを判定するルールを作成できます。「Cookie Domain」と「Publish Data To」はオプションで、互いに独立して機能します。これらのどちらも使用せずに Cookie の宛先を作成することができます。
-seo-title: Cookie の宛先のオプション設定
+seo-description: In Destination Builder, the Configuration section contains the Cookie Domain and Publish Data To fields. These let you create rules to determine if a destination sets a cookie or returns a cookie. Cookie Domain and Publish Data To work independently of each other and are optional. You can create a cookie destination without using either of them.
+seo-title: Optional Settings for Cookie Destinations
 solution: Audience Manager
 title: Cookie の宛先のオプション設定
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: b44f386e-4d43-41c3-b8ce-88b83d5d83c2
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
@@ -101,4 +101,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [Cookie の宛先の作成](../../features/destinations/create-cookie-destination.md)
-

@@ -1,15 +1,15 @@
 ---
 description: 派生シグナルは、認識済みの特性に基づいてサイト訪問者を追加の特性に適合させます。つまり、追加の特性認定は、現在認定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
-seo-description: 派生シグナルは、認識済みの特性に基づいてサイト訪問者を追加の特性に適合させます。つまり、追加の特性認定は、現在認定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
-seo-title: 派生シグナル
+seo-description: A derived signal qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
+seo-title: Derived Signals
 solution: Audience Manager
 title: 派生シグナル
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
-feature: 特性
+feature: Traits
 exl-id: 64bc004a-a31a-49bb-aa58-323fbc92f76f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '261'
 ht-degree: 100%
 
 ---

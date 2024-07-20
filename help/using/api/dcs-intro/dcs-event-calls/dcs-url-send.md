@@ -1,7 +1,7 @@
 ---
 description: DCS への /event 呼び出しの実行については、ここから始めてください。この節では、呼び出しの構文、パラメーター、形式、要求例について説明します。
-seo-description: DCS への /event 呼び出しの実行については、ここから始めてください。この節では、呼び出しの構文、パラメーター、形式、要求例について説明します。
-seo-title: DCS へのデータ送信
+seo-description: Start here for information about making /event calls to the DCS. This section includes information about call syntax, parameters, formatting, and a request example.
+seo-title: Send Data to the DCS
 solution: Audience Manager
 title: DCS へのデータ送信
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
@@ -9,7 +9,7 @@ feature: DCS
 exl-id: 8a6798c3-aafd-48c8-acd7-a0e29e04dc8e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
@@ -100,5 +100,4 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 >[!MORELIKETHIS]
 >
->* [キーと値のペアの解説 ](../../../reference/key-value-pairs-explained.md)
-
+>* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)

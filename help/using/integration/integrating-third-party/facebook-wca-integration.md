@@ -19,7 +19,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->これは、Facebookとの製品化された統合ではありません。
+>これは、Audience ManagerとFacebookの製品化された統合ではありません。
 
 ## 概要 {#overview}
 

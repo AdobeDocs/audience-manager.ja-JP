@@ -1,17 +1,17 @@
 ---
 description: 標準のキー値ペアとシリアル化されたキー値ペアを定義し説明します。
 keywords: 統合コード
-seo-description: 標準のキー値ペアとシリアル化されたキー値ペアを定義し説明します。
-seo-title: 'キーと値のペアの解説 '
+seo-description: Defines and describes standard and serialized key-value pairs.
+seo-title: Key-Value Pairs Explained
 solution: Audience Manager
-title: 'キーと値のペアの解説 '
+title: キーと値のペアの解説
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
-feature: リファレンス
+feature: Reference
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
 source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ c_key_value_explained.xml
 
 | のタイプ | 例 | キー | キー値セパレーター | キー値デリミター | シリアルセパレーター |
 |---------|----------|---------|---------|----------|---------|
-| **単一キー**(Standard) | `x=1&x=2` | `x` | `=` | `&` | なし |
+| **シングルキー** （標準） | `x=1&x=2` | `x` | `=` | `&` | なし |
 | **キーと値のペア**（標準） | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | なし |
 | **単一キー**（シリアル） | `x=1;2;3` | `x` | `=` | なし | `;` |
 | **キーと値のペア**（シリアル） | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |

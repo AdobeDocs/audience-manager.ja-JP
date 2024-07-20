@@ -1,16 +1,16 @@
 ---
 description: プライバシーやデータに関してよくある質問や問題に対する回答。
-seo-description: プライバシーやデータに関してよくある質問や問題に対する回答。
-seo-title: プライバシーとデータ保持に関するよくある質問
+seo-description: Answers to common privacy- and data-related questions or issues.
+seo-title: Privacy and Data Retention FAQ
 solution: Audience Manager
 title: プライバシーとデータ保持に関するよくある質問
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: データガバナンスとプライバシー
+feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '754'
+ht-degree: 93%
 
 ---
 
@@ -75,11 +75,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルデバイス ID </p> </td> 
-   <td colname="col2"> <p>モバイルデバイス ID（<a href="../reference/ids-in-aam.md">IDFA、GAID</a>）の保持条件は、最初の 2 行（バックエンドサーバーとエッジサーバー）で説明したサイクルに従います。 </p> </td> 
+   <td colname="col2"> <p>モバイルデバイス ID （<a href="../reference/ids-in-aam.md"> IDFA、GAID</a>）の保持条件は、最初の 2 行（バックエンドサーバーとエッジサーバー）で説明したケイデンスに従います。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客データフィード（CDF） </p> </td> 
-   <td colname="col2"> <p>CDF ファイルには、<span class="keyword">Audience Manager</span> イベント呼び出し（/event）でサーバーに送信されるデータと同じものが含まれています。保持期間は 8 日です。CDF について詳しくは、<a href="../features/cdf-files.md">CDF の概要</a>および <a href="../faq/faq-cdf.md">CDF の FAQ</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>CDF ファイルには、<span class="keyword">Audience Manager</span> イベント呼び出し（/event）でサーバーに送信されるデータと同じものが含まれています。保持期間は 8 日です。CDF の詳細については、「CDF の概要」と「CDF に関 <a href="../features/cdf-files.md"> る FAQ</a>」 <a href="../faq/faq-cdf.md"> 参照してください </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>同期済み ID 間のマッピング </p> </td> 
@@ -91,7 +91,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>アウトバウンドデータ </p> </td> 
-   <td colname="col2"> <p>これは、<span class="keyword">Audience Manager</span> からサードパーティアクティベーションパートナーに送信されるバッチデータです。保持期間は 8 日です。アウトバウンドデータについて詳しくは、<a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md">アウトバウンドバッチ転送</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>これは、<span class="keyword">Audience Manager</span> からサードパーティアクティベーションパートナーに送信されるバッチデータです。保持期間は 8 日です。アウトバウンドデータについて詳しくは、アウトバウンドバッチ転送 <a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> 参照してください </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

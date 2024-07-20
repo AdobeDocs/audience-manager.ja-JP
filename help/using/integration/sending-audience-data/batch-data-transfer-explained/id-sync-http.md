@@ -1,16 +1,16 @@
 ---
 description: ベンダーと Audience Manager の間でユーザー ID を同期するために、最初の HTTP 呼び出しで使用される構文およびパラメーターについて説明します。ID 同期は、データ分類を Audience Manager に送信した後で開始できます。
-seo-description: ベンダーと Audience Manager の間でユーザー ID を同期するために、最初の HTTP 呼び出しで使用される構文およびパラメーターについて説明します。ID 同期は、データ分類を Audience Manager に送信した後で開始できます。
-seo-title: 受信データ転送のための ID 同期
+seo-description: Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between a vendor and Audience Manager. ID synchronization can begin after you send your data taxonomy to Audience Manager.
+seo-title: ID Synchronization for Inbound Data Transfers
 solution: Audience Manager
 title: 受信データ転送のための ID 同期
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ID 同期は、受信の非同期データ転送プロセスの最初のステ�
 以下の方法を使用してデータを [!DNL Audience Manager] に取得できます。
 
 * [ID 同期 HTTP リクエスト](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-http)
-* [宣言された ID イベント](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
+* [宣言済み ID イベント](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
 * [電子メール埋め込み画像からの ID 同期](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
 ## ID 同期 `HTTP` リクエスト {#id-sync-http}
@@ -82,4 +82,3 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 >[!MORELIKETHIS]
 >
 >* [データ収集コンポーネント](../../../reference/system-components/components-data-collection.md)
-

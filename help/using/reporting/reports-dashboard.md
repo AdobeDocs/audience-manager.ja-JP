@@ -1,15 +1,15 @@
 ---
 description: ダッシュボードを使用すると、指定した期間のパートナーのユニーク訪問者数を特性タイプおよびセグメント別に分類した情報を表示できます。
-seo-description: ダッシュボードを使用すると、指定した期間のパートナーのユニーク訪問者数を特性タイプおよびセグメント別に分類した情報を表示できます。
-seo-title: レポートダッシュボード
+seo-description: Use the Dashboard to view information about your partners' unique visitor counts broken down by trait types and segments for a specified time frame.
+seo-title: Reports Dashboard
 solution: Audience Manager
 title: レポートダッシュボード
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
-feature: レポートリファレンス
+feature: Reporting Reference
 exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '639'
 ht-degree: 100%
 
 ---

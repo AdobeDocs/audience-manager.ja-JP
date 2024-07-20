@@ -1,15 +1,15 @@
 ---
 description: 特性ビルダーでは、以下に示す演算順序（優先順位の高い順）に従って、式を評価します。優先順位が高い演算子で定義された特性要素は、他の優先順位の演算子より先に評価されます。ここでは、優先順位に従って、高い順に各演算子をランク付けしています。
-seo-description: 特性ビルダーでは、以下に示す演算順序（優先順位の高い順）に従って、式を評価します。優先順位が高い演算子で定義された特性要素は、他の優先順位の演算子より先に評価されます。ここでは、優先順位に従って、高い順に各演算子をランク付けしています。
-seo-title: 特性ビルダーでの演算順序
+seo-description: Trait Builder evaluates expressions according to the order-of-operations listed below, from high to low precedence. Trait elements defined by high-precedence operators are evaluated first, before other precedence operators. This section ranks each operator according to precedence, from high to low.
+seo-title: Order of Operations in Trait Builder
 solution: Audience Manager
 title: 特性ビルダーでの演算順序
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
-feature: 特性
+feature: Traits
 exl-id: 90700479-4a8e-4a07-81ef-2e9d8a1d9f15
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '161'
 ht-degree: 100%
 
 ---
@@ -31,12 +31,12 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> 丸括弧 </td> 
-   <td colname="col2"> ( ) </td> 
+   <td colname="col2"> （） </td> 
    <td colname="col3"> 丸括弧内の式は、常に最初に評価され、優先順位に従います。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 比較演算子 </td> 
-   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
+   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
    <td colname="col3"> 次の値より小さい、次の値より大きい、次の値以下、次の値以上が、次に評価されます。 </td> 
   </tr> 
   <tr> 
@@ -60,5 +60,4 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [特性ビルダーでのブール式の使用（AND、OR、NOT）](../../reference/boolean-expressions-tsb.md)
-* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
-
+>* [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)

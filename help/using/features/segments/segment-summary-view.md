@@ -1,17 +1,17 @@
 ---
 description: セグメント概要ページには、名前、セグメント内の特性、ルール、パフォーマンスデータ、宛先マッピング情報などが表示されます。
-seo-description: セグメント概要ページには、名前、セグメント内の特性、ルール、パフォーマンスデータ、宛先マッピング情報などが表示されます。
-seo-title: セグメントの詳細ページ
+seo-description: The segment summary page displays details such as name, traits in the segment, rules, performance data, and destination mapping information.
+seo-title: Segment Details Page
 solution: Audience Manager
 title: セグメントの詳細ページ
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
-keywords: IDタイプの分類、ID分類、オーディエンスIDレポート、クロスデバイス、クロスデバイスID、デバイスID
-feature: セグメント
+keywords: id タイプの分類、id の分類、オーディエンス ID レポート、クロスデバイス、クロスデバイス ID、デバイス ID
+feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 96%
+source-wordcount: '398'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 
    ![セグメントグラフ](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown ]：**&#x200B;このレポートには、クロスデバイス ID の数と外部デバイスグラフ ID の数をカウントした、セグメントに適合するユーザーまたは世帯の数が表示されます。外部デバイスグラフ ID は、セグメントに適合するデバイスにリンクされています（[!UICONTROL Total Segment Population] で表示）。このレポートに示すクロスデバイス ID と外部デバイスグラフ ID は、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。このレポートは、セグメントが使用しているプロファイル結合ルールで、クロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
+3. **[!UICONTROL Identity Type Breakdown]：**&#x200B;このレポートには、クロスデバイス ID の数と外部デバイスグラフ ID の数をカウントした、セグメントに適合するユーザーまたは世帯の数が表示されます。外部デバイスグラフ ID は、セグメントに適合するデバイスにリンクされています（[!UICONTROL Total Segment Population] で表示）。このレポートに示すクロスデバイス ID と外部デバイスグラフ ID は、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。このレポートは、セグメントが使用しているプロファイル結合ルールで、クロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
 
    ![セグメントグラフ](assets/segment-type.png)
 

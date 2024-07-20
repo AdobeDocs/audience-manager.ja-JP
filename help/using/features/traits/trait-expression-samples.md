@@ -1,16 +1,16 @@
 ---
 description: 式ビルダーのコードエディターで式を作成する場合に参考になる例です。
-seo-description: 式ビルダーのコードエディターで式を作成する場合に参考になる例です。
-seo-title: ブール演算子と比較演算子を使用した式のサンプル
+seo-description: Examples you can refer to for creating expressions in the Expression Builder code editor.
+seo-title: Sample Expressions With Boolean and Comparison Operators
 solution: Audience Manager
 title: ブール演算子と比較演算子を使用した式のサンプル
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
-feature: 特性
+feature: Traits
 exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 <!-- r_tb_expression_samples.xml -->
 
-[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。一部の例では、*`key`* 変数の先頭が `c_` になっていますが、これはユーザー定義変数を表します。イベント呼び出しでデータを `c_` に送信するために必要であれば、*`key`* 変数でプレフィックス [!DNL Audience Manager]（またはその他の命名規則）を使用します。
+[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。例の一部では、*`key`* 変数の前に `c_` を付けて、ユーザー定義変数として識別します。 イベント呼び出しでデータを `c_` に送信するために必要であれば、*`key`* 変数でプレフィックス [!DNL Audience Manager]（またはその他の命名規則）を使用します。
 
 ## ブール式 {#boolean-expressions}
 
@@ -63,7 +63,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
-   <td colname="col2"> 変数  <code><i>a </i></code> または <code><i>b </i></code> および <code><i>c </i></code>。 </td> 
+   <td colname="col2"> 変数 <code><i>a </i></code> または <code><i>b </i></code> および <code><i>c </i></code> で設定された条件を満たします。 </td> 
   </tr> 
  </tbody> 
 </table>

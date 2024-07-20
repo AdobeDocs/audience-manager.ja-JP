@@ -1,24 +1,24 @@
 ---
-description: プロファイルリンクデバイスグラフを使用したセグメントのリターゲティングと、パーソナライズされたセグメント認定の推奨事項およびユースケース。
-seo-description: プロファイルリンクデバイスグラフを使用したセグメントのリターゲティングと、パーソナライズされたセグメント認定の推奨事項およびユースケース。
-seo-title: プロファイルリンクデバイスグラフのユースケース
+description: プロファイルリンクデバイスグラフを使用したセグメントのリターゲティングと、パーソナライズされたセグメント認定のレコメンデーションおよびユースケース。
+seo-description: Recommendations and use cases for segment retargeting and personalized segment qualification with the Profile Link device graph.
+seo-title: Profile Link Device Graph Use Cases
 solution: Audience Manager
 title: プロファイルリンクデバイスグラフのユースケース
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-feature: プロファイル結合
+feature: Profile Merge
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 99%
 
 ---
 
 # プロファイルリンクデバイスグラフのユースケース {#profile-link-device-graph-use-cases}
 
-[!UICONTROL Profile Link Device Graph] を使用したセグメントリターゲティングおよびパーソナライズしたセグメント絞り込みの推奨事項とユースケース。
+[!UICONTROL Profile Link Device Graph] を使用したセグメントリターゲティングおよびパーソナライズしたセグメント絞り込みのレコメンデーションとユースケース。
 
-## 推奨事項 {#recommendations}
+## レコメンデーション {#recommendations}
 
 [!UICONTROL Profile Link] デバイスグラフは、以下に該当するキャンペーンで使用してください。
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ![](assets/merge-rule-triangle2.png)
 
-## クロスデバイスでのターゲティング {#cross-device-personalization}
+## クロスデバイスターゲティング {#cross-device-personalization}
 
 例えば、ジョンという人物が、旅行ツアーの詳細を調べるため、定期的に使用するデバイスとして、パソコン（[!DNL Device 1]）、スマートフォン（[!DNL Device 2]）、タブレット（[!DNL Device 3]）の 3 台を持っているとします。ただし、ジョンは、デバイスを使用して、ツアーの詳細の異なる項目を調べます。
 
@@ -48,7 +48,6 @@ Audience Manager は、1 つのセグメントに対し、プロファイルの�
 
 >[!MORELIKETHIS]
 >
->* [外部デバイスグラフのユースケース](external-graph-use-cases.md)
-* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
-* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
-
+>* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
+>* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
+>* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)

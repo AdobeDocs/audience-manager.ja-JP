@@ -1,15 +1,15 @@
 ---
 description: ここでは、キー値ペアのキー変数で使用される命名規則について説明します。
-seo-description: ここでは、キー値ペアのキー変数で使用される命名規則について説明します。
-seo-title: キー変数名の要件
+seo-description: This article describes the naming conventions used by the key variable in a key-value pair.
+seo-title: Name Requirements for Key Variables
 solution: Audience Manager
 title: キー変数名の要件
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
-feature: 特性
+feature: Traits
 exl-id: 5d1e5842-bebc-4d75-958f-078ba0061dfa
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '105'
 ht-degree: 100%
 
 ---

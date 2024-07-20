@@ -1,7 +1,7 @@
 ---
 description: インタラクティブレポートの技術的基盤となるソフトウェアとデータ更新スケジュールについて説明します。
-seo-description: インタラクティブレポートの技術的基盤となるソフトウェアとデータ更新スケジュールについて説明します。
-seo-title: レポート技術
+seo-description: Describes the underlying software that powers the interactive reports and the data update schedule.
+seo-title: Report Technology
 solution: Audience Manager
 title: レポート技術
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
@@ -9,8 +9,8 @@ feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ c_report_technology.xml
 
 レポートデータは、毎週日曜日に更新されます。更新では、土曜日（前日）から先週の日曜日までのデータを処理します。
 
-## インタラクティブレポートで使用される図形、色、サイズ {#shapes-colors-sizes}
+## インタラクティブなレポートで使用されるシェイプ、色およびサイズ {#shapes-colors-sizes}
 
 ほとんどのインタラクティブレポートは、様々なサイズのシェイプや色を使用して結果を表示します。この表示形式は、数値の羅列を細かく調べなくてもデータを視覚的に理解するのに役立つように設計されています。
 
@@ -82,6 +82,6 @@ r_legend.xml
  </tbody> 
 </table>
 
-## Tableau ドキュメント {#tableau-documentation}
+## Tableau のドキュメント {#tableau-documentation}
 
 インタラクティブレポートに表示される Tableau コントロールの詳細については、[Linux 2018.2 での Tableau Server](https://help.tableau.com/v2018.2/server-linux/ja-jp/get_started_server.htm) に関する公式ドキュメントを参照してください。

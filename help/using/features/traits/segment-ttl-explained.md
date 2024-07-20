@@ -1,15 +1,15 @@
 ---
 description: 特性の有効期間（TTL）がセグメントのメンバーシップにどのような影響を与えるかを説明します。
-seo-description: 特性の有効期間（TTL）がセグメントのメンバーシップにどのような影響を与えるかを説明します。
-seo-title: セグメントと特性の有効期間についての説明
+seo-description: How trait time-to-live (TTL) interval affects segment membership.
+seo-title: Segment and Trait Time to Live Explained
 solution: Audience Manager
 title: セグメント有効期間の説明
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
-feature: 特性
+feature: Traits
 exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '378'
 ht-degree: 100%
 
 ---
@@ -56,4 +56,3 @@ Audience Manager は、次の式に基づいて、[!DNL TTL] の有効期限を 
 >[!MORELIKETHIS]
 >
 >* [特性の有効期間の設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
-

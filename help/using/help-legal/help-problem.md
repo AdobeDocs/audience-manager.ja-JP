@@ -1,14 +1,14 @@
 ---
 description: カスタマーケアは、どのような問題でも解決を支援できる体制を整えております。問題の理解および解決までの時間を短縮するために、できるだけこれらの情報をご用意したうえで、カスタマーケアにご連絡ください。
-seo-description: カスタマーケアは、どのような問題でも解決を支援できる体制を整えております。問題の理解および解決までの時間を短縮するために、できるだけこれらの情報をご用意したうえで、カスタマーケアにご連絡ください。
-seo-title: 問題がある場合
+seo-description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
+seo-title: If There's a Problem
 solution: Audience Manager
 title: 問題がある場合
-feature: サポート
+feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ r_problem.xml
 
 * **電話：** 1-800-497-0335
 
-   米国外からの無料電話番号については、[各地域のカスタマーケアのお問い合わせ先番号](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)のサイトを参照してください。製品選択メニューで 4 を押すと、[!DNL Audience Manager] チームの担当者につながります。
+  米国外からの無料電話番号については、[各地域のカスタマーケアのお問い合わせ先番号](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)のサイトを参照してください。製品選択メニューで 4 を押すと、[!DNL Audience Manager] チームの担当者につながります。
 
 * **電子メール**：amsupport@adobe.com
 

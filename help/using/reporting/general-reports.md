@@ -1,16 +1,16 @@
 ---
 description: 一般レポートは、特性、セグメントおよび宛先に関するパフォーマンスデータを返します。
-seo-description: Audience Manager の一般レポートは、特性、セグメントおよび宛先に関するパフォーマンスデータを返します。
-seo-title: Audience Manager の一般的なレポート
+seo-description: A General report in Audience Manager returns performance data on traits, segments, and destinations.
+seo-title: General Reports in Audience Manager
 solution: Audience Manager
 title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
-feature: 一般レポートとトレンドレポート
+feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '860'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ c_general_reports.xml
 3. フォルダーのリストで、レポートの対象となる特性、セグメントまたは宛先をドラッグし、右側の「[!UICONTROL Selections]」パネルにドロップします。
 4. 書き出し可能な表の形式で表示するレポートを生成します。
 
-## 一般レポートの実行 {#run-general-report}
+## 汎用レポートの実行 {#run-general-report}
 
 この節では、[!UICONTROL General]の実行方法と、時間および他のパフォーマンスオプションの設定方法を説明します。
 
@@ -77,7 +77,7 @@ t_run_general_report.xml
 
 1. *（オプション）*「**[!UICONTROL Export to CSV]**」をクリックします。これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
 
-## 一般レポートの結果の説明 {#general-reports-explained}
+## 一般的なレポートの結果 {#general-reports-explained}
 
 [!UICONTROL General Reports]の数字は、[!UICONTROL User Profile Store]から直接生成されます。結果には、これらのレポートの数値が生成されたときに [!DNL Audience Manager] のバックエンドに含まれていたユーザー数が反映されています。
 
@@ -85,7 +85,7 @@ t_run_general_report.xml
 * [!DNL Audience Manager] UUID で識別されるデータを受信処理を介してオンボーディングする場合、アドビのシステムでアクティブでなくなったユーザーがこれらの ID に含まれていれば、これらの非アクティブな [!DNL Audience Manager] UUID は、[!UICONTROL User Profile Store]に到達せず、報告もされません。
 * [!UICONTROL Total Trait Realizations]は[!UICONTROL Rule-based Traits]に対してのみ計算されます。
 
-## 特性に関する一般レポートの結果 {#general-report-results-traits}
+## 特性に関する一般的なレポート結果 {#general-report-results-traits}
 
 一般レポートを実行し、レポートタイプに **[!UICONTROL Trait]** を選択する場合は、次のフィルターを使用できます。
 
@@ -123,7 +123,7 @@ The illustration below shows the results of running a general report for the Tra
 ![](assets/general_reports_metrics.png) -->
 
 
-## セグメントに関する一般レポートの結果 {#general-report-results-segments}
+## セグメントの一般レポートの結果 {#general-report-results-segments}
 
 一般レポートを実行し、レポートタイプに **[!UICONTROL Segment]** を選択する場合は、次の指標が使用可能です。
 
@@ -143,7 +143,7 @@ The illustration below shows the results of running a general report for the Tra
 
 ![](assets/general_reports_segment_metrics.png)
 
-## 宛先に関する一般レポートの結果 {#general-report-results-destinations}
+## 宛先の一般レポート結果 {#general-report-results-destinations}
 
 一般レポートを実行し、レポートタイプに **[!UICONTROL Destination]** を選択する場合は、次の指標が使用可能です。
 

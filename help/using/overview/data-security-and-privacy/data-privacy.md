@@ -8,8 +8,8 @@ uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: Data Governance & Privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
 source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
-workflow-type: ht
-source-wordcount: '460'
+workflow-type: tm+mt
+source-wordcount: '437'
 ht-degree: 100%
 
 ---

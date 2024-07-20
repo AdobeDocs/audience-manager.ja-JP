@@ -1,16 +1,16 @@
 ---
 description: ここでは、Audience Manager データ管理プラットフォーム（DMP）の導入に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager の実装プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 か月間かかる可能性があります。
-seo-description: ここでは、Audience Manager データ管理プラットフォーム（DMP）の導入に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager の実装プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 か月間かかる可能性があります。
-seo-title: Audience Manager の実装
+seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
+seo-title: Implementing Audience Manager
 solution: Audience Manager
 title: Audience Manager の実装
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-feature: サードパーティ統合
+feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '996'
+ht-degree: 98%
 
 ---
 
@@ -212,13 +212,13 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 このフェーズの作業には以下が含まれます。
 
-* レポートデータの生成および解釈、
+* レポートデータの生成と解釈
 * カスタムレポートの理解、
 * 製品サポートの受け方
-* 機能リクエスト、バグおよびユーザーフィードバックへの対処または請願、
+* 機能リクエスト、バグ、ユーザーからのフィードバックに対応または勧誘する。
 * Audience Manager 機能およびレポートへのさらなる習熟。
 
-## コードの実装 {#code-implementation}
+## コード実装 {#code-implementation}
 
 Audience Manager は Data Integration Library（[!DNL DIL]）を使用して、オーディエンスデータを受信します。
 

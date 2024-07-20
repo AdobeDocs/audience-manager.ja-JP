@@ -1,15 +1,15 @@
 ---
 description: Audience Manager システムにおける主要なコンポーネントおよびデータフローについての概要です。
-seo-description: Audience Manager システムにおける主要なコンポーネントおよびデータフローについての概要です。
-seo-title: システムコンポーネントの概要
+seo-description: A high-level tour of the major components and data flows in the Audience Manager system.
+seo-title: System Components Overview
 title: システムコンポーネントの概要
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
-feature: 'システムコンポーネント '
+feature: System Components
 exl-id: b128cae4-8a11-4fad-95f8-4fe6222bb95e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ c_compintro.xml
 
 このガイドでは、一般的すぎず、かつ詳細すぎることもない説明を心がけています。ただし、特定な内容についてはここでは除外されています。ここで扱われているのは一般的な内容のみで、それ以外の特定な情報には触れられていません。これまでと同様、ご質問がある場合は担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
 
-* [Audience Manager システムの主要なコンポーネント](/help/using/reference/system-components/components-stack.md)
+* [Audience Managerシステムの主要コンポーネント](/help/using/reference/system-components/components-stack.md)
 * [データアクションのコンポーネント](/help/using/reference/system-components/components-data-action.md)
 * [データ収集コンポーネント](/help/using/reference/system-components/components-data-collection.md)
 * [データ処理のコンポーネント](/help/using/reference/system-components/components-data-processing.md)

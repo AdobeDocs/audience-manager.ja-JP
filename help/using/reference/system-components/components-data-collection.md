@@ -1,16 +1,16 @@
 ---
 description: データ収集コンポーネントには、データ収集サーバー、DIL API、インバウンドのサーバーからサーバーへのデータ転送、およびログファイルが含まれます。
-seo-description: データ収集コンポーネントには、データ収集サーバー、DIL API、インバウンドのサーバーからサーバーへのデータ転送、およびログファイルが含まれます。
-seo-title: データ収集コンポーネント
+seo-description: Data collection components include the Data Collection Servers, the DIL API, inbound server-to-server data transfers, and log files.
+seo-title: Data Collection Components
 solution: Audience Manager
 title: データ収集コンポーネント
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-feature: 'システムコンポーネント '
+feature: System Components
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 100%
+source-wordcount: '736'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 [!DNL Audience Manager] で、DCS は以下をおこないます。
 
 * イベント呼び出しから特性データを受け取り、評価します。これには、リアルタイムのセグメント化で使用される情報と、スケジュールされた間隔でサーバー間転送によって渡されるデータが含まれます。
-* 適合する特性および[セグメントビルダー](../../features/segments/segment-builder.md)で作成した認定ルールに基づいて、ユーザーをセグメント化します。
+* [ セグメントビルダー ](../../features/segments/segment-builder.md) で作成した実現された特性と選定ルールに基づいて、ユーザーをセグメント化します。
 * デバイス ID および認証済みのプロファイル ID を作成および管理します。これには、データプロバイダー ID、ユーザー ID、宣言された ID、統合コードなどがあります。
 * リアルタイムのイベント呼び出しの前に、ユーザーが既に適合している特性が他にないかを PCS で確認します。これにより、リアルタイムのデータと過去のデータに基づきユーザーを適合させることができます。
 * ログファイルへの書き込みをおこない、それらを保存および処理する分析システムに送信します。
@@ -90,7 +90,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 ## インバウンドのサーバー間通信 {#inbound-outbound-server}
 
-クライアントとの様々なサーバー間統合によって送信されるデータを受信するシステム。詳細については、[オーディエンスデータの送信](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)を参照してください。
+クライアントとの様々なサーバー間統合によって送信されるデータを受信するシステム。詳しくは、[ オーディエンスデータの送信 ](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) に関するドキュメントを参照してください。
 
 ## ログファイル {#log-files}
 
@@ -99,4 +99,3 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 >[!MORELIKETHIS]
 >
 >* [アドビプライバシーセンター](https://www.adobe.com/jp/privacy.html)
-

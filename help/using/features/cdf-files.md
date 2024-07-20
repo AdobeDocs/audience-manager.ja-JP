@@ -9,9 +9,9 @@ uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 source-git-commit: 89137248aa47573f5b65e387a152f651419da827
-workflow-type: ht
-source-wordcount: '1989'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1988'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,6 @@ ht-degree: 100%
 >
 >* CDF ファイル配信を設定する前に、サードパーティのデータプロバイダーから、サードパーティの特性の書き出しに関する適切な権限を付与されていることを確認してください。Audience Manager は、現在、サードパーティのデータプロバイダーに対して、CDF ファイル配信の書き出し権限を要求するユーザーインタフェースの機能をサポートしていません。必要な場合は各プロバイダーに個別に連絡してください。
 >* ページトラフィックの監視、レポートの相違点の調整、請求などの代わりに [!UICONTROL CDF] ファイルを使用しないでください。
-
 
 ## はじめに {#getting-started}
 
@@ -71,7 +70,7 @@ ht-degree: 100%
    <td colname="col3"> <p><span class="wintitle">データ収集サーバー</span>（DCS）で CDF ファイルが処理された時刻。タイムスタンプは <i>yyyy-mm-dd hh:mm:ss</i> 形式を使用し、UTC タイムゾーンに設定されます。 </p> <p> <p>注意：イベント時刻は、<i> </i> <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">ページイベントやイベント呼び出しそのものの時刻に近いですが、それらの時刻ではありません。 </li> 
-        <li id="li_271DF14395BC495FBF17186588A554A8">ファイル名の DCS 時刻とは関係ありません。詳しくは、<a href="#different-processing-times">顧客データフィードファイル名の時刻とファイルコンテンツの時刻の違い</a>を参照してください。 </li> 
+        <li id="li_271DF14395BC495FBF17186588A554A8">ファイル名の DCS 時刻とは関係ありません。顧客データフィードファイル名 <a href="#different-processing-times"> 時間およびファイルコンテンツ時間も参照してください…</a>。 </li> 
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
@@ -154,7 +153,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>フィールド列 </p> </td> 
-   <td colname="col2"> <p> <p>重要：<span class="keyword">Audience Manager</span> は、今後のリリースで CDF ファイルの末尾に新規フィールドを追加する権利を留保します。つまり、ファイル解析システムの技術設計では、（既存の列については固定した順序を想定してもかまいませんが）固定した列数を前提としないでください。</p> </p> <p>CDF ファイル内のデータの順序は次のとおりです。これらのフィールドの代わりに、null 値を表す /N が表示される場合があります。</p> <p> 
+   <td colname="col2"> <p> <p>重要：<span class="keyword">Audience Manager</span> は、今後のリリースで CDF ファイルの末尾に新規フィールドを追加する権利を留保します。つまり、ファイル解析システムの技術設計では、（既存の列については固定した順序を想定してもかまいませんが）固定した列数を前提としないでください。</p> </p> <p>CDF ファイル内のデータは、以下に示す順序で表示されます。これらのフィールドの代わりに、null 値を示す/N が表示される場合があります。</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">イベント時刻 </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">デバイス </li> 
@@ -167,7 +166,7 @@ ht-degree: 100%
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
-     </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined"> 顧客データフィードコンテンツの定義</a>を参照してください。 </p> </td> 
+     </ol> </p> <p>フィールドの説明については、顧客データフィード <a href="#cdf-defined"> 内容の定義 </a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -236,7 +235,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>hour=<i>hh</i></code> </p> </td> 
-   <td colname="col2"> <p>UTC タイムゾーンに設定された 24 時間表記の時刻値。詳しくは、<a href="#different-processing-times">顧客データフィードファイル名の時刻とファイルコンテンツの時刻の違い</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>UTC タイムゾーンに設定された 24 時間表記の時刻値。顧客データフィードファイル名 <a href="#different-processing-times"> 時間およびファイルコンテンツ時間も参照してください…</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
@@ -314,7 +313,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>ファイル名。詳しくは、<a href="#cdf-naming-conventions"> 顧客データフィードファイルの命名規則</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ファイル名。詳 <a href="#cdf-naming-conventions"> くは、顧客データフィードファイル命名規則を参照してください </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileSequenceNumber</code> </p> </td> 
@@ -378,4 +377,3 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
 >[!MORELIKETHIS]
 >
 >* [顧客データフィードに関するよくある質問](../faq/faq-cdf.md)
-

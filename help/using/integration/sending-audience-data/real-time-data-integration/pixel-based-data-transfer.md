@@ -1,15 +1,15 @@
 ---
 description: シンプルなピクセル（ユーザーを特性の対象に認定するのに使用できる）で、リアルタイムデータ転送を実行します。Audience Manager インターフェイスを使用すると、クライアントは、任意の数のピクセルをセルフサービスベースで作成できます。ピクセル文字列は、シンプルな ID またはキー値ペアで構成されます。
-seo-description: シンプルなピクセル（ユーザーを特性の対象に認定するのに使用できる）で、リアルタイムデータ転送を実行します。Audience Manager インターフェイスを使用すると、クライアントは、任意の数のピクセルをセルフサービスベースで作成できます。ピクセル文字列は、シンプルな ID またはキー値ペアで構成されます。
-seo-title: ピクセルベースのデータ転送
+seo-description: Simple pixels (that can be used to qualify users for traits) perform real-time data transfers. The Audience Manager interface lets clients create any number of pixels on a self-service basis. Pixel strings consist of simple IDs or key-value pairs.
+seo-title: Pixel-based Data Transfers
 solution: Audience Manager
 title: ピクセルベースのデータ転送
 uuid: 8773bfc0-6b8d-4a6a-a8b7-e043744486ab
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: fe9ecb97-4a45-4fbb-855e-01df007144cf
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '175'
 ht-degree: 100%
 
 ---

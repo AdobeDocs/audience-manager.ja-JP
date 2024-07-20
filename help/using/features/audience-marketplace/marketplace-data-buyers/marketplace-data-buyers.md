@@ -1,7 +1,7 @@
 ---
 description: Audience Manager 内でサードパーティデータを購入するデータ購入者の概要とワークフロー
-seo-description: Audience Manager 内でサードパーティデータを購入するデータ購入者の概要とワークフロー
-seo-title: データ購入者向けの Audience Marketplace
+seo-description: Overview and workflow for data buyers who want to purchase third-party data from within Audience Manager
+seo-title: Audience Marketplace for Data Buyers
 solution: Audience Manager
 title: データ購入者向けの Audience Marketplace
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
@@ -9,12 +9,12 @@ feature: Audience Marketplace
 exl-id: 9d6a7fda-f79f-41ad-9654-3ebcf9028cc2
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '724'
+ht-degree: 99%
 
 ---
 
-# データ購入者向けの [!UICONTROL Audience Marketplace] >  {#audience-marketplace-for-data-buyers}
+# データ購入者向けの [!UICONTROL Audience Marketplace] {#audience-marketplace-for-data-buyers}
 
 [!DNL Audience Manager] 内でサードパーティデータを購入するデータ購入者の概要とワークフロー。
 
@@ -23,7 +23,6 @@ ht-degree: 100%
 >
 >* 管理者は、データフィードの作成、サブスクライバーの管理、およびデータフィードへのサブスクライブをおこなえます。
 >* ユーザーはフィードの検索および表示のみできます。
-
 
 ## [!UICONTROL Marketplace]：概要 {#about-marketplace}
 
@@ -61,7 +60,7 @@ ht-degree: 100%
 * **[!UICONTROL Plan Use Case]**：サポートされるユースケース（**[!UICONTROL Activation]**、**[!UICONTROL Segments and Overlap]**、**[!UICONTROL Modelling]**）に基づいてデータフィードをフィルタリングします。
 * **[!UICONTROL Plan Unit]**：価格タイプに基づいてデータフィードをフィルタリングします。
 
-## 類似する[!UICONTROL Traits]を見つける  {#finding-similar-traits}
+## 類似 [!UICONTROL Traits] の検索 {#finding-similar-traits}
 
 [!UICONTROL Audience Marketplace] には、既存の[!UICONTROL traits]やセグメントとの類似性に基づいて、様々なデータフィードから[!UICONTROL traits]を見つけるためのオプションが用意されています。手順は次のとおりです。
 
@@ -89,5 +88,4 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [Audience Marketplace のプランの詳細ページについて](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
-* [データ購入者にとっての割引](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
-
+>* [データ購入者にとっての割引](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)

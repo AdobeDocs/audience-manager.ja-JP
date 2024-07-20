@@ -1,15 +1,15 @@
 ---
 description: d_dpid および d_dpuuid の代わりに d_cid または d_cid_ic を使用するようにコードを更新します。DPID および DPUUID 変数は引き続き機能しますが、これらは既に廃止されています。DPID や DPUUID の、d_ プレフィックスが付かないバージョンも同様です。
-seo-description: d_dpid および d_dpuuid の代わりに d_cid または d_cid_ic を使用するようにコードを更新します。DPID および DPUUID 変数は引き続き機能しますが、これらは既に廃止されています。DPID や DPUUID の、d_ プレフィックスが付かないバージョンも同様です。
-seo-title: DPID と DPUUID に代わる CID
+seo-description: Update your code to use d_cid or d_cid_ic instead of d_dpid and d_dpuuid. The DPID and DPUUID variables will continue to work, but you should consider them deprecated. This includes DPID and DPUUID variants without the d_ prefix.
+seo-title: CID Replaces DPID and DPUUID
 solution: Audience Manager
 title: DPID と DPUUID に代わる CID
 uuid: 3641eac5-b19e-45d5-bc1c-35a23b4bab8c
-feature: リファレンス
+feature: Reference
 exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '606'
 ht-degree: 100%
 
 ---
@@ -144,7 +144,7 @@ CID および CID_IC キー値ペアは DPID と DPUUID に取って代わるも
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>URLエンコード </p> </td> 
+   <td colname="col1"> <p>URL エンコーディング </p> </td> 
    <td colname="col2"> <p>開発チームは、CID キー値ペアの次の変数に URL エンコーディングを適用する<i>必要</i>があります。 </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
       <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 

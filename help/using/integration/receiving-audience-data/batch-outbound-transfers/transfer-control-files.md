@@ -1,16 +1,16 @@
 ---
 description: 転送制御（.info）ファイルは、ファイル転送に関するメタデータ情報を提供するので、パートナーは、Audience Manager がファイル転送を正しく処理したことを検証できます。
-seo-description: 転送制御（.info）ファイルは、ファイル転送に関するメタデータ情報を提供するので、パートナーは、Audience Manager がファイル転送を正しく処理したことを検証できます。
-seo-title: ログファイル転送のための転送制御ファイル
+seo-description: Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
+seo-title: Transfer-Control Files for Log File Transfers
 solution: Audience Manager
 title: ログファイル転送のための転送制御ファイル
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
-feature: 送信データ転送
+feature: Outbound Data Transfers
 exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 99%
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 

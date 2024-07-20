@@ -1,17 +1,17 @@
 ---
 description: ルールベースおよびオンボードの特性の作成プロセスに固有のセットアップ手順や機能について説明します。
 keywords: 特性の作成
-seo-description: ルールベースおよびオンボードの特性の作成プロセスに固有のセットアップ手順や機能について説明します。
-seo-title: ルールベースまたはオンボードの特性の作成
+seo-description: Describes set up steps and features specific to the rules-based and onboarded trait creation process.
+seo-title: Create Rules-Based or Onboarded Traits
 solution: Audience Manager
 title: ルールベースまたはオンボードの特性の作成
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
-feature: 特性
+feature: Traits
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
        <li id="li_579302FE34B64FE0AE3C751012839229">ハイフン </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">タブ </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">縦棒またはパイプ記号 </li> 
-      </ul> </p> </p> <p>これは、<a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイル転送</a>を設定する際の処理エラーを削減するのに役立ちます。 </p> </td> 
+      </ul> </p> </p> <p>これにより、<a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> の受信データファイル転送を設定する際の処理エラーを減ら </a> ます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Description</span></b> </td> 
@@ -97,4 +97,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [セグメント有効期間の説明](../../features/traits/segment-ttl-explained.md)
-

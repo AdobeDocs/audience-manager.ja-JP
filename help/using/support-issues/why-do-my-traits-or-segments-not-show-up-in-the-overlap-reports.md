@@ -1,14 +1,14 @@
 ---
 description: 特性およびセグメントが重複レポートページに表示されないことがある理由の説明です。
-seo-description: 特性およびセグメントが重複レポートページに表示されないことがある理由の説明です。
-seo-title: 重複レポートページに特性やセグメントが表示されないのはなぜですか？
+seo-description: Explanation for why traits and segments might not show up in the Overlap Reports page.
+seo-title: Why do my traits or segments not show up in the Overlap Reports page?
 solution: Audience Manager
 title: 重複レポートページに特性やセグメントが表示されないのはなぜですか？
-feature: サポート
+feature: Support
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
 source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '138'
 ht-degree: 100%
 
 ---

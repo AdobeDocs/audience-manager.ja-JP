@@ -1,15 +1,15 @@
 ---
-description: 'このページでは、オフラインの CRM データと、認証済みユーザーのリアルタイムの行動データを組み合わせてオーディエンスセグメントを作成し、そのオーディエンスセグメントを People-Based Destinations に送信する方法について、順を追って説明します。 '
-seo-description: 'このページでは、オフラインの CRM データと、認証済みユーザーのリアルタイムの行動データを組み合わせてオーディエンスセグメントを作成し、そのオーディエンスセグメントを People-Based Destinations に送信する方法について、順を追って説明します。  '
-seo-title: ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
+description: このページでは、オフラインの CRM データと、認証済みユーザーのリアルタイムの行動データを組み合わせてオーディエンスセグメントを作成し、そのオーディエンスセグメントを People-Based Destinations に送信する方法について、順を追って説明します。
+seo-description: This page includes step-by-step guidance on how to combine offline CRM data with real-time behavioral data for authenticated users to create audience segments, then send these audience segments to People-Based Destinations.
+seo-title: Workflow C - Personalization Based on Authenticated Activity Combined with Offline Data
 solution: Audience Manager
 title: ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 feature: People-based Destinations
 exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 このページでは、オフラインの [!DNL CRM] データと、認証済みユーザーのリアルタイムの行動データを組み合わせてオーディエンスセグメントを作成し、そのオーディエンスセグメントを [!DNL People-Based Destinations] に送信する方法について、順を追って説明します。
 
-## 手順 1 - データソースの設定 {#configure-data-source-settings}
+## 手順 1 - Data Sourceの設定 {#configure-data-source-settings}
 
 [DPUUID](../../reference/ids-in-aam.md) が小文字かどうか、ハッシュ化された電子メールアドレスであるかどうかに応じて、ハッシュされた電子メールアドレスを保存するデータソースを設定する必要があります。
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
-## 手順 2 - 宣言された ID を使用して DPUUID をハッシュ化された電子メールアドレスと照合する場合と、リアルタイムの HTTP 呼び出しと照合する場合 {#match-email-addresses}
+## 手順 2 – 宣言済み ID を使用して、リアルタイム HTTP 呼び出しを介して DPUUID をハッシュ化されたメールアドレスに一致させる {#match-email-addresses}
 
 認証されたユーザーをルールベースの特性で絞り込むには、[宣言された ID](../declared-ids.md) を通して特性認定を送信する必要があります。
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 `https://yourDomain.demdex.net/event?d_cid_ic=MyHashedEmailDataSource%0155e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149&d_cid_ic=MyCRMDataSource%0168079982765673198504052656074456196039&location=US`
 
-## 手順 3 - セグメントのプロファイル結合ルールを作成する {#create-profile-merge-rule-segmentation}
+## 手順 3 - セグメント化のためのプロファイル結合ルールの作成 {#create-profile-merge-rule-segmentation}
 
 次の手順では、オーディエンスセグメントを作成して [!DNL People-Based Destinations] に送信するのに役立つ、新しい結合ルールを作成します。
 
@@ -103,11 +103,11 @@ ht-degree: 100%
 5. **[!UICONTROL Cross-Device Profile Options]** リストで、セグメントを実行するデータソースを選択します。これらは、既存の DPUUID を含むデータソースです。
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
-## 手順 4 - オーディエンスセグメントを作成する {#create-audience-segments}
+## 手順 4 - オーディエンスセグメントの作成 {#create-audience-segments}
 
 新しいセグメントを作成するには、[セグメントビルダー](../segments/segment-builder.md)を使用します。[!DNL People-Based Destinations] に送信する既存のオーディエンスセグメントがある場合は、スキップして「[手順 5 - ユーザーベースのプラットフォーム認証を設定する](#configure-authentication)」に進みます。
 
-## 手順 5 - ユーザーベースのプラットフォーム認証を設定する {#configure-authentication}
+## 手順 5 - ユーザーベースのプラットフォーム認証の設定 {#configure-authentication}
 
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
@@ -122,7 +122,7 @@ ht-degree: 100%
 >
 >Audience Manager は、一定期間後に期限切れになる認証トークンを介して、ソーシャルプラットフォームとの統合を処理します。期限切れトークンの更新方法について詳しくは、「認証トークンの更新」を参照してください。
 
-## 手順 6 - People-Based Destinations を作成する {#create-destination}
+## 手順 6 - ユーザーベースの宛先の作成 {#create-destination}
 
 1. Audience Manager アカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Destinations]** に移動して、**[!UICONTROL Create Destination]**&#x200B;をクリックします。
 1. **[!UICONTROL Basic Information]** セクションで、新しいデータソースに **[!UICONTROL Name]** と **[!UICONTROL Description]** を入力し、次の設定を使用します。
@@ -130,7 +130,7 @@ ht-degree: 100%
    * **[!UICONTROL Type]**：ユーザーベース
    * **[!UICONTROL Platform]**：オーディエンスセグメントを送信するユーザーベースのプラットフォームを選択します。
    * **[!UICONTROL Account]**：選択したプラットフォームに関連付けられている広告主アカウントを選択します。
-      ![create-destination](assets/pbd-create-destination.png)
+     ![create-destination](assets/pbd-create-destination.png)
 1. 「**[!UICONTROL Next]**」をクリックします。
 1. この宛先に設定する **[!UICONTROL Data Export Labels]** を選択します。
 1. **[!UICONTROL Configuration]** セクションで、ハッシュ化されたデータソースを含むデータソースを選択します。

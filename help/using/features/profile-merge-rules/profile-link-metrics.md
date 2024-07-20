@@ -8,8 +8,8 @@ uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: ht
-source-wordcount: '698'
+workflow-type: tm+mt
+source-wordcount: '693'
 ht-degree: 100%
 
 ---
@@ -114,4 +114,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
-

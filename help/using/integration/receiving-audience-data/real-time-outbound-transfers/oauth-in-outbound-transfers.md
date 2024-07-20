@@ -1,20 +1,20 @@
 ---
 description: リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に OAuth 2.0 を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
-seo-description: リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に OAuth 2.0 を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
-seo-title: リアルタイムのアウトバウンド転送での OAuth 2.0 統合
+seo-description: When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using OAuth 2.0 when making the requests. This presents the ability to issue authenticated requests from Audience Manager to your endpoint.
+seo-title: OAuth 2.0 Integration for Real-Time Outbound Transfers
 solution: Audience Manager
 title: リアルタイムのアウトバウンド転送での OAuth 2.0 統合
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
-feature: 送信データ転送
+feature: Outbound Data Transfers
 exl-id: eef3a3ae-1a3f-47e9-aab6-abf878e4cb77
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 99%
+source-wordcount: '450'
+ht-degree: 98%
 
 ---
 
-# リアルタイムアウトバウンド転送への [!DNL OAuth 2.0] の統合 {#oauth-integration-for-real-time-outbound-transfers}
+# リアルタイムアウトバウンド転送の [!DNL OAuth 2.0] 統合{#oauth-integration-for-real-time-outbound-transfers}
 
 リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に [!DNL OAuth 2.0] を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
 

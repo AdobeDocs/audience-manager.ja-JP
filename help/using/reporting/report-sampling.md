@@ -1,16 +1,16 @@
 ---
 description: いくつかのレポートで使用されているサンプリング方法、サンプリングのエラー率についての概要、およびサンプルデータに基づく情報が返されるレポートのリスト。
-seo-description: いくつかのレポートで使用されているサンプリング方法、サンプリングのエラー率についての概要、およびサンプルデータに基づく情報が返されるレポートのリスト。
-seo-title: 選択した Audience Manager レポートでのデータサンプリングとエラー率
+seo-description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
+seo-title: Data Sampling and Error Rates in Selected Audience Manager Reports
 solution: Audience Manager
 title: 選択した Audience Manager レポートでのデータサンプリングとエラー率
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: レポートリファレンス
+feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 いくつかのレポートで使用されているサンプリング方法、サンプリングのエラー率についての概要、およびサンプルデータに基づく情報が返されるレポートのリスト。
 
-## データサンプリング比 {#data-sampling-ratio}
+## データサンプリング率 {#data-sampling-ratio}
 
 一部の [!DNL Audience Manager] レポートでは、使用可能なすべてのデータのうちサンプリングしたセットに基づいて結果が表示されます。サンプリングされたデータの比率は 1:54 です。この場合、サンプリングされたデータを使用するレポートは、54 件のうち 1 件のレコードが結果として表示されます。
 
@@ -57,7 +57,7 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 | 100,000 | 95％がエラー率 4％未満である。 |
 | 500,000 以上 | 95％がエラー率 2％未満である。 |
 
-## Minhash サンプリング手法の使用 {#minhash}
+## Minhash サンプリング方法の使用 {#minhash}
 
 Audience Managerは、[Minhash](https://en.wikipedia.org/wiki/MinHash) サンプリング手法に基づき、One Permutation Hashing（1 置換ハッシュ）データスケッチの上にある特性およびセグメント評価子を計算する新しい方法を使用します。この新しい方法では、Jaccard の類似性に関する標準の見積もりよりも偏差が少なくなります。この方法を使用するレポートについては、以下のセクションを参照してください。
 

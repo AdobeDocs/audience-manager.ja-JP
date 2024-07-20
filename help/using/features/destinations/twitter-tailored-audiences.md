@@ -7,8 +7,8 @@ title: Twitter カスタムオーディエンスをセルフサービスデバ�
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 source-git-commit: 72be9e032ec3c92cf09a5286baa872b884feaaa0
-workflow-type: ht
-source-wordcount: '699'
+workflow-type: tm+mt
+source-wordcount: '689'
 ht-degree: 100%
 
 ---
@@ -85,4 +85,4 @@ Twitter カスタムオーディエンスの宛先の設定またはこれに対
 |---|---|---|
 | `Internal server error` | 古いバージョンの Twitter API を使用して新しい [!DNL Twitter] アカウントを追加しようとすると、Audience Manager UI にこのエラーメッセージが表示されます。 | アドビカスタマーケアに連絡してください。 |
 | `Twitter Error: This request is not properly authenticated` | サポートされていないセグメント名が付いたセグメントを宛先にマッピングしようとすると、Audience Manager UI にこのエラーメッセージが表示されます。 | マッピングされたセグメント名を確認し、サポートされていない文字が含まれていないことを確認します。 サポートされていない文字のリストについては、[セグメントマッピングに関する考慮事項](#segment-mapping-considerations)を参照してください。 |
-| `Twitter Error: Account XXXXXXXXX was not found` | 宛先に対して設定された認証情報が、対応する Twitter 広告アカウントへのアクセスを許可されていない場合、Audience Manager UI にこのエラーメッセージが表示されます。 | <ul><li>使用しているアカウント認証情報が[前提条件](#prerequisites)を満たしていることを確認してください。</li><li>同じ認証情報を使用して Twitter Ads UI に移動し、対応する `XXXXXXXXX` アカウントの下に正しいオーディエンスが表示されているかどうかを確認します。 </li></ul> |
+| `Twitter Error: Account XXXXXXXXX was not found` | 宛先に対して設定された資格情報が、対応する Twitter 広告アカウントへのアクセスを許可されていない場合、Audience Manager UI にこのエラーメッセージが表示されます。 | <ul><li>使用しているアカウント資格情報が[前提条件](#prerequisites)を満たしていることを確認してください。</li><li>同じ資格情報を使用して Twitter Ads UI に移動し、対応する `XXXXXXXXX` アカウントの下に正しいオーディエンスが表示されているかどうかを確認します。 </li></ul> |

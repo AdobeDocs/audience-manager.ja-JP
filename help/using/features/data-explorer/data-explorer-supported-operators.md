@@ -1,15 +1,15 @@
 ---
 description: 論理演算子を使用して、キー値ペアのグループ化および特性のバックフィルをおこないます。
-seo-description: 論理演算子を使用して、キー値ペアのグループ化および特性のバックフィルをおこないます。
-seo-title: サポートされる論理演算子
+seo-description: Use logical operators to group key-value pairs and backfill traits.
+seo-title: Supported Logical Operators
 title: サポートされる論理演算子
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
-feature: 'データエクスプローラ '
+feature: Data Explorer
 exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '151'
+ht-degree: 92%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 |---|---|
 | **==** | 次と等しい |
 | **>** | 次の値より大きい |
-| **&lt;>** | 次の値より小さい |
+| **&lt;** | 次の値より小さい |
 | **=>** | 次の値以上 |
-| **&lt;>** | 次の値以下 |
+| **&lt;=** | 次の値以下 |
 
 ### 名前付き演算子
 

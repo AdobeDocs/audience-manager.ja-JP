@@ -9,8 +9,8 @@ uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Match Rates
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
 source-git-commit: cecdc0b0f43a146e11f7d23eb21a06146496ac2d
-workflow-type: ht
-source-wordcount: '1813'
+workflow-type: tm+mt
+source-wordcount: '1831'
 ht-degree: 100%
 
 ---

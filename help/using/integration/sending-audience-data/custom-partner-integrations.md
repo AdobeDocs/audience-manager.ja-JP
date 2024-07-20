@@ -1,15 +1,15 @@
 ---
 description: このページには、Audience Manager とデータパートナー間のカスタム統合の一覧が掲載されています。
-seo-description: このページには、Audience Manager とデータパートナー間のカスタム統合の一覧が掲載されています。
-seo-title: カスタムパートナーの統合
+seo-description: This page lists custom integrations between Audience Manager and data partners.
+seo-title: Custom Partner Integrations
 solution: Audience Manager
 title: カスタムパートナーの統合
-feature: サードパーティ統合
+feature: Third-party Integration
 exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 このページには、Audience Manager とデータパートナー間のカスタム統合の一覧が掲載されています。
 
-## Oracle Data Cloud {#oracle-data-cloud}
+## Data Cloud のOracle {#oracle-data-cloud}
 
 ### 説明
 

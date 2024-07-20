@@ -1,14 +1,14 @@
 ---
 description: シグナルは、Audience Manager における情報の最小単位です。シグナルは、オンラインプロパティにおけるユーザーインタラクションまたはユーザーアクティビティを表すものであり、Audience Manager に渡され特性ルールで使用されます。
-seo-description: シグナルは、Audience Manager における情報の最小単位です。シグナルは、オンラインプロパティにおけるユーザーインタラクションまたはユーザーアクティビティを表すものであり、Audience Manager に渡され特性ルールで使用されます。
-seo-title: シグナルについて
+seo-description: Signals are the smallest unit of information within Audience Manager. They represent user interactions or user activity on your online properties, and get passed on to Audience Manager to be used in trait rules.
+seo-title: Understanding Signals
 title: シグナルについて
 uuid: 04a0554e-954e-484a-8838-9161ef416872
-feature: 'データエクスプローラ '
+feature: Data Explorer
 exl-id: 12ab53e5-302b-4a82-9d8e-07b60139c65e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---

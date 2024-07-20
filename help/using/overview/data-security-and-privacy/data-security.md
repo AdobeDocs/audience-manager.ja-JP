@@ -1,16 +1,16 @@
 ---
 description: Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
-seo-description: Audience Manager では、データのセキュリティおよびプライバシーを非常に重視しています。アドビは、システムの安全を維持し、お客様の貴重なデータを保護することに尽力しています。
-seo-title: Audience Manager におけるデータセキュリティ
+seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
+seo-title: Data Security in Audience Manager
 solution: Audience Manager
 title: Audience Manager におけるデータセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-feature: データガバナンスとプライバシー
+feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 100%
+source-wordcount: '988'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Audience Manager は、S2S オンボードデータファイルをアド�
 
 HTTPS を使用した **[!UICONTROL Amazon Web Services S3]：** S3 配信オプションの場合、アドビでは、ファイル転送に HTTPS 暗号化メソッドを使用するように S3 クライアントを設定することを、すべてのお客様にお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
 
-PGP 暗号化をデータファイルに追加するには、[受信データタイプのファイル PGP 暗号化](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)を参照してください。
+データファイルに PGP 暗号化を追加するには、[ 受信データタイプのファイル PGP 暗号化 ](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) を参照してください。
 
 ## エスケープによるデータの保護 {#escaping-data}
 

@@ -1,14 +1,14 @@
 ---
 description: Audience Manager を使用していないのに、JavaScript デバッガーに Audience Manager JavaScript 呼び出しが表示されています。なぜですか？
-seo-description: 使用していないのに JavaScript デバッガーに Audience Manager JavaScript 呼び出しが表示されています。なぜですか？
-seo-title: Audience Manager を使用していないのに、JavaScript デバッガーに Audience Manager JavaScript 呼び出しが表示されています。なぜですか？
+seo-description: We are not using  but we are seeing Audience Manager Javascript calls in the Javascript debugger - Why?
+seo-title: We are not using Audience Manager but we are seeing Audience Manager Javascript calls in the Javascript debugger - Why?
 solution: Audience Manager
 title: Audience Manager を使用していないのに、JavaScript デバッガーに Audience Manager JavaScript 呼び出しが表示されています。なぜですか？
-feature: サポート
+feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '185'
+workflow-type: tm+mt
+source-wordcount: '136'
 ht-degree: 100%
 
 ---

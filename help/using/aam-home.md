@@ -9,7 +9,7 @@ feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
 source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '547'
 ht-degree: 98%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 98%
      新機能と修正点については、最新の <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ja" format="https" scope="external">Experience Cloud リリースノート</a>を参照してください。</p> 
      <p> <b>最新の機能</b> </p> <p> 
      Audience Manager の最新機能については、以下を参照してください。</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console への Audience Manager ユーザーの移行</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google によるピープルベースのリンク先との一致</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.2 用 Audience Manager プラグイン</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Admin Console への Audience Manager ユーザーの移行</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google によるピープルベースのリンク先との一致</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF v2.2 用Audience Managerプラグイン</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">アクティビティ使用状況レポート</a></li>
      </ul></p>
     </td>
   </tr> 

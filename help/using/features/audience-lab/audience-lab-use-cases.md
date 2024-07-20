@@ -1,7 +1,7 @@
 ---
 description: Audience Lab は、ベースラインセグメントを使用してテストグループを作成することで、いくつかの用途に使用できます。テストグループを重複のない複数のテストセグメントに分割し、それぞれを異なる宛先にマッピングした後、コンバージョンを推進するうえでどのセグメントが最も効果的かを判断することができます。
-seo-description: Audience Lab は、ベースラインセグメントを使用してテストグループを作成することで、いくつかの用途に使用できます。テストグループを重複のない複数のテストセグメントに分割し、それぞれを異なる宛先にマッピングした後、コンバージョンを推進するうえでどのセグメントが最も効果的かを判断することができます。
-seo-title: Audience Lab のユースケース
+seo-description: Audience Lab enables several use cases by allowing you to use baseline segments for creating test groups. You can divide test groups into several mutually exclusive test segments, map these to different destinations and then determine which of the segments are most effective in driving conversions.
+seo-title: Audience Lab Use Cases
 solution: Audience Manager
 title: Audience Lab のユースケース
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
@@ -9,7 +9,7 @@ feature: Audience Lab
 exl-id: b68f48bd-0d5d-4b72-84f3-a6f3acea6c49
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [!UICONTROL Audience Lab] では、テストグループを作成するためのベースラインセグメントを使用できるようになっているので、複数のユースケースが可能です。テストグループを重複のない複数のテストセグメントに分割し、それぞれを異なる宛先にマッピングした後、コンバージョンを推進するうえでどのセグメントが最も効果的かを判断することができます。
 
-## Audience Lab でのモデルの比較 {#compare-models}
+## オーディエンスラボでのモデルの比較 {#compare-models}
 
 [!DNL Audience Manager] では、複数の異なるタイプおよびソースのモデルを使用できます。[!UICONTROL Audience Lab] では、すべてのアクティブモデルにわたって顧客のコンバージョン率を簡単に比較できます。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
    * [Audience Lab のレポート表示](../../features/audience-lab/audience-lab-reporting-view.md)には、各モデルが達成したコンバージョン数が示されます。コンバージョンベースのキャンペーンでは、コンバージョン率が最も高いテストセグメントのモデルが最も優れたパフォーマンスを示したことになります。
    * 用意しておいた対照群を使用して、「標準のターゲティング」に対するモデルのパフォーマンスを評価することもできます。モデル同士を比較してテストするだけでなく、「モデルのパフォーマンスが通常時よりも上がっているか」という疑問を確認するためのテストが可能です。
 
-## すべての宛先をまたいだクリエイティブのテスト {#testing-creatives}
+## 送信先全体にわたるクリエイティブのテスト {#testing-creatives}
 
 <!-- audience-lab-creatives-across-destinations.xml -->
 

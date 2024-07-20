@@ -1,16 +1,16 @@
 ---
 description: 宛先 URL に追加できるマクロについて説明します。
-seo-description: 宛先 URL に追加できるマクロについて説明します。
-seo-title: 宛先マクロの定義
+seo-description: Describes the macros you can add to a destination URL.
+seo-title: Destination Macros Defined
 solution: Audience Manager
 title: 宛先マクロの定義
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: 7be4b417-046c-4fe3-a53c-e4e0ed36acb9
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->他に指示がない限り、マクロはオプションです。*斜体*&#x200B;の部分には実際の情報が入ります。
+>他に指示がない限り、マクロはオプションです。*斜体* の部分には実際の情報が入ります。
 
 <table id="table_2C532EFB9DAE41B08714753EBD7DFB05"> 
  <thead> 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 `%rnd%` および `%timestamp%` マクロは、[!DNL URL] 文字列に一意の値を挿入して、ブラウザーのキャッシュ操作を防ぎます。
 
-## `%rnd%` および `%timestamp%` を使用したキャッシュバスティング  {#dest-cache-busting}
+## `%rnd%` と `%timestamp%` を使用したキャッシュバスティング {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -111,4 +111,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [宛先マクロの定義](../../features/destinations/destination-macros.md#destination-macros-defined)
-

@@ -1,15 +1,15 @@
 ---
 description: これらの要素は、ヘルプドキュメント全体で使用されているコードオプションおよび変数を識別します。一般に、コードまたはデータファイルには、これらのシンボルやスタイル要素を含めません。これらは視覚的な指示にすぎません。
-seo-description: これらの要素は、ヘルプドキュメント全体で使用されているコードオプションおよび変数を識別します。一般に、コードまたはデータファイルには、これらのシンボルやスタイル要素を含めません。これらは視覚的な指示にすぎません。
-seo-title: コードおよびテキスト要素のスタイル規則
+seo-description: These elements identify code options and variables used throughout the help documentation. Generally, you would not include these symbols or style elements in your code or data files. They're visual indicators only.
+seo-title: Style Conventions for Code and Text Elements
 solution: Audience Manager
 title: コードおよびテキスト要素のスタイル規則
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
-feature: リファレンス
+feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '170'
 ht-degree: 100%
 
 ---

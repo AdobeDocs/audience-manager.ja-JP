@@ -9,8 +9,8 @@ feature: Outbound Data Transfers
 exl-id: e52f5bc0-7dc0-4c73-833c-5a778e8b5891
 source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '155'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,6 @@ ht-degree: 100%
 
 [!DNL Amazon Simple Storage Service]（[!DNL Amazon S3]）を使用して[!UICONTROL Outbound Data Transfer]プロセスを実行する場合、送信データファイルをお客様のバケットに配信するために、お客様に [!DNL Amazon S3] のアクセスキーおよび秘密鍵を提供していただく必要があります。
 
-[!DNL Amazon S3] のアクセスキーおよび秘密鍵の提供を希望されない場合、[!DNL Audience Manager] の担当コンサルタントまたはカスタマーケアにお問い合わせください。お客様に代わって [!DNL Cross-Account Bucket Permissions]のセットアップをおこないます。
+[!DNL Amazon S3] アクセスキーと秘密鍵を共有しない場合は、[!DNL Audience Manager] コンサルタントまたはカスタマーケアにお問い合わせください。[!DNL Cross-Account Bucket Permissions] が設定されます。
 
 [Amazon S3 に関するドキュメント](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)に従って、送信データファイルを受信する [!DNL S3] バケットの [!DNL Amazon S3] アカウント ID を許可リストに登録するだけで済みます。担当の [!DNL Audience Manager]コンサルタントまたはカスタマーケアがアドビの [!DNL Amazon S3] アカウント ID をお渡しします。

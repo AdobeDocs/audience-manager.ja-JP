@@ -10,7 +10,7 @@ feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1126'
 ht-degree: 94%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 94%
 
 >[!WARNING]
 >
->2023 年 7 月より、Adobeは、 [!DNL Data Integration Library (DIL)] そして [!DNL DIL] 拡張子。
+>2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] と [!DNL DIL] の開発を廃止しました。
 >
->既存のお客様は、引き続き [!DNL DIL] 実装。 しかし、Adobeは発展しない [!DNL DIL] この点を越えて お客様は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 長期のデータ収集戦略に対応するために使用されます。
+>既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの先 [!DNL DIL] は発展しません。 お客様は、長期的なデータ収集戦略について ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)0}Experience Platform Web SDK} を評価することをお勧めします。[
 >
->2023 年 7 月以降に新しいデータ収集統合を実装する場合は、 [Experience PlatformWeb SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 代わりに、
+>2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用する必要があります。
 
 インスタンスレベルの [!UICONTROL DIL] API を使用すると、Audience Manager オブジェクトをプログラムで作成し操作することができます。インスタンスレベルのメソッドは、クラスレベルのメソッドで実現している API 機能を強化したものです。
 

@@ -1,16 +1,16 @@
 ---
 description: 宣言済み ID の機能、セットアップ手順、コード例、変数について説明します。
 keywords: id 同期
-seo-description: 宣言済み ID の機能、セットアップ手順、コード例、変数について説明します。
-seo-title: 宣言された ID
+seo-description: How declared IDs work, set up procedures, code examples, and variables.
+seo-title: Declared IDs
 solution: Audience Manager
 title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-feature: ID 同期
+feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1183'
+workflow-type: tm+mt
+source-wordcount: '1148'
 ht-degree: 100%
 
 ---
@@ -280,4 +280,3 @@ myCallback({
 >[!MORELIKETHIS]
 >
 >* [DPID と DPUUID に代わる CID](../reference/cid.md)
-

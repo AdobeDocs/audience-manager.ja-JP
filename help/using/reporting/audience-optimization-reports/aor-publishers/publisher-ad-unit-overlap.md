@@ -1,15 +1,15 @@
 ---
 description: 広告ユニット間重複レポートは、広告ユニット間の重複が多い部分と少ない部分を強調したヒートチャートとして表示されます。
-seo-description: 広告ユニット間重複レポートは、広告ユニット間の重複が多い部分と少ない部分を強調したヒートチャートとして表示されます。
-seo-title: 広告ユニット間重複
+seo-description: The Ad Unit Overlap report is displayed as a heat chart that highlights high and low overlaps between your Ad Units.
+seo-title: Ad Unit Overlap
 solution: Audience Manager
 title: 広告ユニット間重複
 uuid: e4467e81-acbf-474e-b501-89d57395651f
-feature: Audience Optimization レポート
+feature: Audience Optimization Reports
 exl-id: 08b219c6-bf0c-4473-9459-83b3657dfb15
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---

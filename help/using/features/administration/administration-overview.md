@@ -10,7 +10,7 @@ feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1173'
 ht-degree: 97%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
-> 使用する前に [!DNL RBAC]の場合、この機能は組織のAdobeが有効にする必要があります。 アカウントチームに連絡してリクエストしてください [!DNL RBAC] アクティベーションを有効にするか、カスタマーケアにお問い合わせください。
+> Adobe [!DNL RBAC] を使用する前に、この機能を有効にする必要があります。 アカウントチームに連絡してアクティベーション [!DNL RBAC] リクエストするか、カスタマーケアにお問い合わせください。
 
 
 [!UICONTROL Administration] メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
@@ -54,7 +54,7 @@ ht-degree: 97%
    * **[!UICONTROL Username]：** Audience Manager での一意のユーザー名を指定します。
    * **[!UICONTROL First Name]：**&#x200B;ユーザーの名を指定します。
    * **[!UICONTROL Last Name]：**&#x200B;ユーザーの姓を指定します。
-   * **[!UICONTROL Email Address]：**&#x200B;ユーザーの電子メールアドレスを指定します。[!DNL Audience Manager] は標準の通知をユーザーに送信しません。[!DNL Audience Manager] 管理者はユーザーの電子メールアドレスにアクセスできるので、必要に応じて手動でユーザーに電子メールを送信できます。例えば、ユーザーが自分のパスワードを忘れてしまった場合、このフィールドで指定された電子メールアドレスに、臨時のパスワードと、パスワードをリセットするための手順が送信されます。
+   * **[!UICONTROL Email Address]：**&#x200B;ユーザーの電子メールアドレスを指定します。[!DNL Audience Manager] は標準の通知をユーザーに送信しません。[!DNL Audience Manager] 管理者はユーザーの電子メールアドレスにアクセスできるので、必要に応じて手動でユーザーにメールを送信できます。例えば、ユーザーが自分のパスワードを忘れてしまった場合、このフィールドで指定された電子メールアドレスに、臨時のパスワードと、パスワードをリセットするための手順が送信されます。
    * **[!UICONTROL Phone Number]：**&#x200B;ユーザーの電話番号を指定します。
    * **[!UICONTROL Is Admin]：**&#x200B;このユーザーが [!DNL Audience Manager] 管理者であるかどうかを指定します。管理ユーザーはユーザーの管理（作成や編集など）とグループの管理（作成、権限の割り当てなど）ができます。管理者でないユーザーは、自分の電子メールアドレスの編集やパスワードのリセットなど、自分のユーザープロファイルのみ制御できます。詳しくは、[アカウント設定の編集](../../features/administration/edit-account-settings.md)を参照してください。
 1. 「**[!UICONTROL Login]**」で、目的のステータスを選択します。

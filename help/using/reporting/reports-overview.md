@@ -1,13 +1,13 @@
 ---
 description: Analytics メニュー内のオプションを使用すると、ダッシュボードや様々なレポートを表示できます。
-seo-description: Analytics メニューのオプションを使用して、Adobe Audience Manager（AAM）のダッシュボードとさまざまなレポートを表示します。
-seo-title: Adobe Audience Manager（AAM）のレポートの概要
+seo-description: Use the options under the Analytics menu to view the dashboard and various reports in Adobe Audience Manager (AAM).
+seo-title: Reporting Overview in Adobe Audience Manager (AAM)
 title: レポートの概要
-feature: レポートリファレンス
+feature: Reporting Reference
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -20,36 +20,36 @@ Audience Manager がレポートに入力する情報を受信する際の時間
 
 * [Audience Optimization レポート](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-   [!UICONTROL Audience Optimization] レポートでは、データ視覚化手法を使用して、Audience Manager アカウントにおける宛先の情報を返します。各レポートに表示されたほとんどのデータポイントは、クリックすることでその項目の詳細情報を確認できます。オーディエンスの最適化に関するこれらのインサイトは、広告および出版チャネルにわたる複数のユースケースに適用できますが、デフォルトでは使用可能になっていません。導入するには、担当の Audience Manager コンサルタントにお問い合わせください。
+  [!UICONTROL Audience Optimization] レポートでは、データ視覚化手法を使用して、Audience Manager アカウントにおける宛先の情報を返します。各レポートに表示されたほとんどのデータポイントは、クリックすることでその項目の詳細情報を確認できます。オーディエンスの最適化に関するこれらのインサイトは、広告および出版チャネルにわたる複数のユースケースに適用できますが、デフォルトでは使用可能になっていません。導入するには、担当の Audience Manager コンサルタントにお問い合わせください。
 
 * [一般レポート](/help/using/reporting/general-reports.md)
 
-   [!UICONTROL General report]は、[!UICONTROL traits]、[!UICONTROL segments]および[!UICONTROL destinations]に関するパフォーマンスデータを返します。
+  [!UICONTROL General report]は、[!UICONTROL traits]、[!UICONTROL segments]および[!UICONTROL destinations]に関するパフォーマンスデータを返します。
 
 * [インタラクティブな重複レポート](/help/using/reporting/dynamic-reports/dynamic-reports.md)
 
-   インタラクティブレポートには、特性およびセグメントのパフォーマンスと重複のデータが表示されます。これらのレポートでは、列と行に数値を配置する代わりに、各種の形状、色およびサイズを使用してデータを返します。さらに、個々のデータポイントまたはデータポイントグループを選択して、レポート結果の詳細を調べることもできます。これらのインタラクティブな視覚化手法およびレポートで、大量の数値データをわかりやすく提示することができます。
+  インタラクティブレポートには、特性およびセグメントのパフォーマンスと重複のデータが表示されます。これらのレポートでは、列と行に数値を配置する代わりに、各種の形状、色およびサイズを使用してデータを返します。さらに、個々のデータポイントまたはデータポイントグループを選択して、レポート結果の詳細を調べることもできます。これらのインタラクティブな視覚化手法およびレポートで、大量の数値データをわかりやすく提示することができます。
 
-* [オンボーディングステータスレポート：概要](/help/using/reporting/onboarding-status-report.md)
+* [オンボーディングステータスレポートについて](/help/using/reporting/onboarding-status-report.md)
 
-   [!UICONTROL Onboarding Status Report]は、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、[!UICONTROL Analytics > Onboarding Status Report]で確認できます。また、受信データソースの作成時にも、このレポートが使用可能です。
+  [!UICONTROL Onboarding Status Report]は、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、[!UICONTROL Analytics > Onboarding Status Report]で確認できます。また、受信データソースの作成時にも、このレポートが使用可能です。
 
 * [送信ファイル履歴](/help/using/reporting/outbound-history-report.md)
 
-   指定した宛先と期間について、[!UICONTROL outbound]のバッチジョブの履歴情報を表示できます。
+  指定した宛先と期間について、[!UICONTROL outbound]のバッチジョブの履歴情報を表示できます。
 
 * [トレンドレポート](/help/using/reporting/trend-reports.md)
 
-   [!UICONTROL Trend report]は、[!UICONTROL traits]および[!UICONTROL segments]に関するトレンドデータを返します。
+  [!UICONTROL Trend report]は、[!UICONTROL traits]および[!UICONTROL segments]に関するトレンドデータを返します。
 
 * [重複レポートと一般レポートでのユニークユーザーのカウント](/help/using/reporting/unique-user-counts.md)
 
-   [!UICONTROL trait]および期間が同じレポートにおける、ユニークユーザーの合計数の変動について説明します。
+  [!UICONTROL trait]および期間が同じレポートにおける、ユニークユーザーの合計数の変動について説明します。
 
 * [レポートダッシュボード](/help/using/reporting/trend-reports.md)
 
-   ダッシュボードを使用すると、指定した期間のパートナーのユニーク訪問者数を[!UICONTROL trait]タイプおよび[!UICONTROL segments]別に分類した情報を表示できます。
+  ダッシュボードを使用すると、指定した期間のパートナーのユニーク訪問者数を[!UICONTROL trait]タイプおよび[!UICONTROL segments]別に分類した情報を表示できます。
 
 * [選択した Audience Manager レポートでのデータサンプリングとエラー率](/help/using/reporting/report-sampling.md)
 
-   いくつかのレポートで使用されているサンプリング方法、サンプリングのエラー率についての概要、およびサンプルデータに基づく情報が返されるレポートのリスト。
+  いくつかのレポートで使用されているサンプリング方法、サンプリングのエラー率についての概要、およびサンプルデータに基づく情報が返されるレポートのリスト。

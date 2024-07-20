@@ -1,16 +1,16 @@
 ---
 description: オンボーディングステータスレポートは、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、Analytics／Onboarding Status Report からアクセスできます。また、受信データソースの作成時にも、このレポートが使用可能です。
-seo-description: オンボーディングステータスレポートは、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、Analytics／Onboarding Status Report からアクセスできます。また、受信データソースの作成時にも、このレポートが使用可能です。
-seo-title: オンボーディングステータスレポート
+seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
+seo-title: Onboarding Status Report
 solution: Audience Manager
 title: オンボーディングステータスレポート
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
-feature: インバウンドレポートとアウトバウンドレポート
+feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 100%
+source-wordcount: '1421'
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >
 >Audience Manager ユーザーインターフェイスでこのレポートを表示できるのは、管理者権限を持つユーザーのみです。管理者以外のユーザーの電子メールをレポートに追加すれば、アップロードした受信ファイルのステータスを受信者以外のユーザーに通知することができます。[電子メール通知の受信](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)を参照してください。
 
-## オンボーディングステータスレポート：概要 {#onboarding-status-about}
+## オンボーディングステータスレポートについて {#onboarding-status-about}
 
 [!UICONTROL Onboarding Status Report]は、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、**[!UICONTROL Analytics > Onboarding Status Report]**&#x200B;で確認できます。また、受信データソースの作成時にも、このレポートが使用可能です。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>エラーサンプリング</b> </p> </td>
-   <td colname="col2"> <p>エラーサンプリングでは、データファイルのコンテンツが解析され、エラータイプごとに最も多いエラーの上位 10 件が返されます。受信データファイルでエラーが発生すると、個別のレコードが処理されなくなります。このレポートをトラブルシューティングツールとして活用すると、ファイルエラーを減らし、処理率を向上させることができます。 </p> <p>エラーサンプリングは手動でアクティブ化する必要があります。この機能はアクティブ化から 14 日間実行され、自動的に終了します。エラーサンプリングは、14 日間の有効期間が終了した後で、再度アクティブ化することができます。エラーサンプリングは、<a href="../features/manage-datasources.md#create-data-source">受信データソースの作成</a>時にアクティブ化するか、既存の受信データソースの「<b><span class="uicontrol">Data Source Settings</span></b>」セクションで「<span class="wintitle">Error Sampling</span>」チェックボックスをオンにします。 </p> <p>エラーサンプリングは計算負荷の高い処理です。そのため、エラーカテゴリごとに最初の 10 件のエラーのみが返されます。受信データソースに含まれるすべてのエラーが返されるようには設計されていません。これらのエラーは、同様のエラーの大きなグループの代表例です。ファイル全体を確認して、このレポートでフラグが設定されているエラーの種類を調べ、ファイルの形式を変更してから、もう一度送信します。 </p> <p>詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルのコンテンツ：構文、変数、例</a>を参照し、受信データソースのデータファイルの形式を適切に設定する方法について確認してください。 </p> </td> 
+   <td colname="col2"> <p>エラーサンプリングでは、データファイルのコンテンツが解析され、エラータイプごとに最も多いエラーの上位 10 件が返されます。受信データファイルでエラーが発生すると、個別のレコードが処理されなくなります。このレポートをトラブルシューティングツールとして活用すると、ファイルエラーを減らし、処理率を向上させることができます。 </p> <p>エラーサンプリングは手動でアクティブ化する必要があります。この機能はアクティブ化から 14 日間実行され、自動的に終了します。エラーサンプリングは、14 日間の有効期間が終了した後で、再度アクティブ化することができます。エラーサンプリングは、受信データソースを作成する <a href="../features/manage-datasources.md#create-data-source"> きに有効にするか </a> または既存の受信データソースの「<span class="wintitle"> Data Sourceの設定 </span></b>」セクションで「<b><span class="uicontrol"> Error Sampling</span>」チェックボックスをオンにすることによって有効にします。 </p> <p>エラーサンプリングは計算負荷の高い処理です。そのため、エラーカテゴリごとに最初の 10 件のエラーのみが返されます。受信データソースに含まれるすべてのエラーが返されるようには設計されていません。これらのエラーは、同様のエラーの大きなグループの代表例です。ファイル全体を確認して、このレポートでフラグが設定されているエラーの種類を調べ、ファイルの形式を変更してから、もう一度送信します。 </p> <p>受信データソースのデータファイルを適切にフォーマットする方法について詳しくは </a> 受信データファイルの内容：構文、変数、例に <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> いて参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +128,7 @@ create-onboarding-status-report.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Format Errors</b> </p> </td> 
-   <td colname="col2"> <p>構文や書式設定の要件を満たさなかったために処理が失敗したレコードの数のリストが表示されます。詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルのコンテンツ：構文、変数、例</a>をでデータのフォーマット方法を参照してください。 </p> </td> 
+   <td colname="col2"> <p>構文や書式設定の要件を満たさなかったために処理が失敗したレコードの数のリストが表示されます。データ <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> フォーマット方法について詳しくは </a> 受信データファイルコンテンツ：構文、変数、例を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Invalid AAM ID</b> </p> </td> 
@@ -164,7 +164,7 @@ create-onboarding-status-report.xml
    <td colname="col1"> <p> <b>No Trait Realized</b> </p> </td> 
    <td colname="col2"> <p><span class="keyword">Audience Manager</span> で、転送された特性と一致しない特性のリストが表示されます。原因として次のようなものが挙げられます。 </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
-     <li id="li_D4C6306BF2B143198108702B309CE8CF">受信データファイルで特性の形式が適切でない。データファイルの書式設定の方法については、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルのコンテンツ：構文、変数、例</a>を参照してください。 </li> 
+     <li id="li_D4C6306BF2B143198108702B309CE8CF">受信データファイルで特性の形式が適切でない。データファイルの形式については、受信データファイルの内容 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 構文、変数、例 </a> を参照してください。 </li> 
      <li id="li_A1C708A007D24EE09B7C629AFC6E43C3"><span class="keyword">Audience Manager</span> で特性が定義されていない。 </li> 
     </ul> </td> 
   </tr> 
@@ -186,7 +186,7 @@ create-onboarding-status-report.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total Unused Signals</b> </p> </td> 
-   <td colname="col2"> <p>レポート内での受信した未使用シグナルの合計数。この合計は、保存に成功したレコードの合計数に基づいています。 </p> <p>詳しくは、<a href="../reporting/dynamic-reports/unused-signals.md">未使用シグナルレポート</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>レポート内での受信した未使用シグナルの合計数。この合計は、保存に成功したレコードの合計数に基づいています。 </p> <p>詳しくは <a href="../reporting/dynamic-reports/unused-signals.md"> 未使用シグナルレポート </a> 参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

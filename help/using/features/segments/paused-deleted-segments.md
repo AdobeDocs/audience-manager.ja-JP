@@ -1,15 +1,15 @@
 ---
 description: セグメントビルダーを使用してアクティブなセグメントを一時停止または削除した場合の、セグメント化されたユーザー、データおよび宛先に対する影響について説明します。
-seo-description: セグメントビルダーを使用してアクティブなセグメントを一時停止または削除した場合の、セグメント化されたユーザー、データおよび宛先に対する影響について説明します。
-seo-title: 一時停止および削除されたセグメント
+seo-description: Describes the effects on segmented users, data, and destinations when you pause or delete an active segment using Segment Builder.
+seo-title: Paused and Deleted Segments
 solution: Audience Manager
 title: 一時停止および削除されたセグメント
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
-feature: セグメント
+feature: Segments
 exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '187'
 ht-degree: 100%
 
 ---

@@ -1,25 +1,25 @@
 ---
 description: 個々の特性の詳細ページには、特性名、ID、パフォーマンス指標、特性を定義する式、特性が属するセグメント、特性監査ログなどの概要が表示されます。これらの詳細を表示するには、Audience Data／Traits を選択し、対象となる特性の名前をクリックします。
-seo-description: 個々の特性の詳細ページには、特性名、ID、パフォーマンス指標、特性を定義する式、特性が属するセグメント、特性監査ログなどの概要が表示されます。これらの詳細を表示するには、Audience Data／Traits を選択し、対象となる特性の名前をクリックします。
-seo-title: 特性の詳細ページ
+seo-description: The details page for an individual trait provides overview of information like the trait name, ID, performance metrics, expressions that define the trait, segments it belongs to, and the trait audit log. To vew these details, go to Audience Data > Traits and click the name of the trait you want to work with.
+seo-title: Trait Details Page
 solution: Audience Manager
 title: 特性の詳細ページ
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: IDタイプの分類、ID分類、オーディエンスIDレポート、クロスデバイス、クロスデバイスID、デバイスID
-feature: 特性
+keywords: id タイプの分類、id の分類、オーディエンス ID レポート、クロスデバイス、クロスデバイス ID、デバイス ID
+feature: Traits
 exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 98%
+source-wordcount: '616'
+ht-degree: 96%
 
 ---
 
-# [!UICONTROL Trait]の詳細ページ  {#trait-details-page}
+# [!UICONTROL Trait] Details Page {#trait-details-page}
 
 個々の[!UICONTROL trait]の詳細ページには、[!UICONTROL trait]名、ID、パフォーマンス指標、[!UICONTROL trait]を定義する式、特性が属するセグメント、[!UICONTROL trait]監査ログなど、[!UICONTROL trait]の詳細の概要が表示されます。これらの詳細を表示するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Traits]** を選択し、対象となる[!UICONTROL trait]の名前をクリックします。
 
-## [!UICONTROL Trait]管理ツール  {#trait-management-tools}
+## [!UICONTROL Trait] 管理ツール {#trait-management-tools}
 
 [!UICONTROL trait]の詳細ページの上部に、[!UICONTROL traits]を管理するために使用できるツールがあります。
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ![basic-trait-information](assets/basic-trait-information.png)
 
-## [!UICONTROL Trait] 情報 {#basics}
+## [!UICONTROL Trait] Information {#basics}
 
 「[!UICONTROL Trait Information]」セクションには、[!UICONTROL trait] の作成時に入力した必須フィールドとオプションフィールドの詳細が表示されます。これには、[!UICONTROL trait] タイプ、[!UICONTROL trait] ID、説明、[!UICONTROL data source]、その他のメタデータなどが含まれます。これらの詳細は、[!UICONTROL trait] タイプ（[!UICONTROL folder]、[!UICONTROL onboarded]または [!UICONTROL rule-based]）によって異なります。
 
@@ -50,20 +50,20 @@ ht-degree: 98%
    * **[!UICONTROL Cross-Device ID]**：認証済みプロファイルのデータを収集している[!UICONTROL traits]の結果を表示するには、このオプションを選択します。このオプションを選択すると、[!UICONTROL Cross-Device ID] レポートにはデータのみが表示され、[!UICONTROL Device ID] レポートにはデータは表示されません。
    * **[!UICONTROL Device ID]**：デバイスプロファイルのデータを収集している[!UICONTROL traits]の結果を表示するには、このオプションを選択します。このオプションを選択すると、[!UICONTROL Device ID] レポートにはデータのみが表示され、[!UICONTROL Cross-Device ID] レポートにはデータは表示されません。
 
-      ![trait-graph](assets/trait-summary.gif)
+     ![trait-graph](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**：特定の期間にこの[!UICONTROL trait]をプロファイルに追加したユニークユーザーの数。
 * **[!UICONTROL Total Trait Population]**：現在この[!UICONTROL trait]で絞り込まれているユニークユーザーの数。
 
 * **[!UICONTROL Identity Type Breakdown]**：最初の 3 つのエントリには、[!UICONTROL trait]に適合する母集団が最も大きい、上位 3 つの[!UICONTROL cross-device data sources]が降順に表示されます。4 番目のエントリには、上位 3 つにない[!UICONTROL cross-device data sources]から[!UICONTROL trait]に適合するその他すべての [!DNL DPUUIDs]（[!DNL CRM IDs]）の合計が表示されます。このレポートは、ページの右上にある [!UICONTROL Show Results By] ドロップダウンメニューで「[!UICONTROL Cross-device ID]」を選択した場合にのみ表示されます。デフォルトのドロップダウンオプションは [!UICONTROL Device ID] で、このレポートは表示されません。
 
-   ![trait-graph](assets/trait-identity.png)
+  ![trait-graph](assets/trait-identity.png)
 
-   >[!NOTE]
-   >
-   >Audience Manager では、[!UICONTROL trait]に適合する[!UICONTROL cross-device] ID がある場合にのみ、[!UICONTROL Identity Type Breakdown]レポートが表示されます。
+  >[!NOTE]
+  >
+  >Audience Manager では、[!UICONTROL trait]に適合する[!UICONTROL cross-device] ID がある場合にのみ、[!UICONTROL Identity Type Breakdown]レポートが表示されます。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## [!UICONTROL Trait] 式 {#trait-expression}
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 
 ![](assets/traitSegments.png)
 
-## [!UICONTROL Trait]監査／履歴ログ  {#trait-audit-history}
+## [!UICONTROL Trait] 監査/履歴ログ {#trait-audit-history}
 
 [!UICONTROL rule-based]および[!UICONTROL onboarded traits]の場合、「[!UICONTROL Trait Expression Change History]」には、[!UICONTROL trait]式ルールに対する直近 10 件の変更と、その変更をおこなったユーザーが表示されます。[!UICONTROL trait]に対する変更が 10 件を超える場合、**[!UICONTROL Export to CSV]**&#x200B;をクリックすると監査ログ全体をダウンロードできます。[!UICONTROL folder]または[!UICONTROL algorithmic traits]で監査ログを使用できません。
 

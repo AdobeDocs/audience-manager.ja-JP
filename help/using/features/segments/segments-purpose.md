@@ -1,15 +1,15 @@
 ---
 description: セグメント、セグメントの構成要素、セグメントビルダーを使用したルール作成について説明します。
-seo-description: セグメント、セグメントの構成要素、セグメントビルダーを使用したルール作成について説明します。
-seo-title: セグメントの目的、構成およびルール
+seo-description: Describes segments, their constituent parts, and rule creation with Segment Builder.
+seo-title: Segments  Purpose, Composition, and Rules
 solution: Audience Manager
 title: セグメントの目的、構成およびルール
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
-feature: セグメント
+feature: Segments
 exl-id: 4e4da7a7-3267-4564-b1c5-663dcddf2b93
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '327'
+workflow-type: tm+mt
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -54,4 +54,3 @@ Adobe Analytics [!UICONTROL segments]またはレポートスイートをExperie
 >[!MORELIKETHIS]
 >
 >* [シグナル、特性、セグメント](../../reference/signal-trait-segment.md)
-

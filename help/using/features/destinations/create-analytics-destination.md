@@ -8,8 +8,8 @@ feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
 source-git-commit: ef8cca16c8c9478f8558c26bf6f3ae95cd72e7ac
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 88%
+source-wordcount: '866'
+ht-degree: 83%
 
 ---
 
@@ -28,14 +28,14 @@ Analytics の宛先を設定するには、Audience Manager ユーザーが管�
 
 ## Adobe AnalyticsでのAudience Managerセグメントの選定 {#segment-qualifications}
 
-セグメント情報を Analytics の宛先に送信すると、Audience Managerは、訪問者が適合するセグメントのみを送信します。 訪問者がセグメントの認定を停止した場合、この情報は _not_ Adobe Analyticsに転送されました。
+セグメント情報を Analytics の宛先に送信する場合、Audience Managerは、訪問者が選定したセグメントのみを送信します。 訪問者がセグメントの資格を停止した場合、その情報はAdobe Analyticsに転送 _されません_。
 
-例えば、次のセグメントルールを考えてみましょう。
+例えば、次のセグメントルールについて考えてみましょう。
 
-* セグメント A:特性 1 AND 特性 2
-* セグメント B:特性 1 および特性 2 以外
+* セグメント A：特性 1 および特性 2
+* セグメント B：特性 2 ではなく特性 1 を使用
 
-Analytics レポートでは、セグメント B の認定が停止した場合でも、プロファイルが両方のセグメントの認定済みと表示される場合があります。
+Analytics レポートでは、セグメント B の選定を停止した場合でも、プロファイルが両方のセグメントに対して選定されたと表示されることがあります。
 
 ## 手順 1：基本情報の提供
 
@@ -57,10 +57,10 @@ Analytics レポートでは、セグメント B の認定が停止した場合�
 
 ## 手順 2：データ書き出しコントロールの設定
 
-このセクションには、[データ書き出しコントロール](/help/using/features/data-export-controls.md)を Analytics の宛先に適用するオプションが含まれています。データ書き出しコントロールを使用しない場合は、この手順を省略してください。このセクションを完了するには：
+この節には、Analytics の宛先に [ データ書き出しのコントロール ](/help/using/features/data-export-controls.md) を適用するオプションが含まれています。 データ書き出しコントロールを使用しない場合は、この手順を省略してください。このセクションを完了するには：
 
 1. 「**Data Export Controls**」をクリックして、コントロールを表示します。
-1. 宛先に適用するデータ書き出しコントロールに対応するラベルを選択します（詳しくは[宛先へのデータ書き出しラベルの追加](/help/using/features/destinations/add-data-export-labels.md)を参照してください）。Analytics の宛先の場合は、PII のチェックボックスがデフォルトで選択されています。
+1. 宛先に適用されたデータ書き出しコントロールに対応するラベルを選択します（[ 宛先へのデータ書き出しラベルの追加 ](/help/using/features/destinations/add-data-export-labels.md) を参照）。 Analytics の宛先の場合は、PII のチェックボックスがデフォルトで選択されています。
 1. 「**Save**」をクリックします。
 
 ![exportcontrols](assets/exportControls.png)
@@ -81,7 +81,7 @@ Analytics レポートでは、セグメント B の認定が停止した場合�
 
 | マッピングオプション | 説明 |
 |---|---|
-| Automatically map all current and future segments | デフォルトで選択されています。訪問者が資格を満たすすべてのセグメントが、ヒットごとに Analytics に送信されます。<br>単一のヒットで訪問者が 150 を超える Audience Manager セグメントに属している場合、最近絞り込まれた 150 個のセグメントのみ Analytics に送信され、残りのリストは切り捨てられます。セグメントリストが切り捨てられたことを示す追加フラグが Analytics に送信されます。このアクションは、「オーディエンス名」ディメンションには「オーディエンスの上限に達しました」、「オーディエンス ID」ディメンションには「1」と表示されます。 詳しくは、[FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ja) を参照してください。<br>また、このオプションは、[セグメントビルダー](/help/using/features/segments/segment-builder.md)での宛先の可用性にも影響を与えます。例えば、セグメントが Analytics で宛先に自動的にマッピングされている場合、その宛先はセグメントビルダーの[宛先マッピングセクション](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations)では利用できません。Analytics の宛先がグレー表示され、宛先ブラウザーの「Type」列に「Analytics」と表示されます。 |
+| Automatically map all current and future segments | デフォルトで選択されています。訪問者が資格を満たすすべてのセグメントが、ヒットごとに Analytics に送信されます。<br>単一のヒットで訪問者が 150 を超える Audience Manager セグメントに属している場合、最近絞り込まれた 150 個のセグメントのみ Analytics に送信され、残りのリストは切り捨てられます。セグメントリストが切り捨てられたことを示す追加フラグが Analytics に送信されます。このアクションは、オーディエンス名ディメンションに「オーディエンス制限に達しました」、オーディエンス ID ディメンションに「1」と表示されます。 詳しくは、[FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ja) を参照してください。<br>また、このオプションは、[セグメントビルダー](/help/using/features/segments/segment-builder.md)での宛先の可用性にも影響を与えます。例えば、セグメントが Analytics で宛先に自動的にマッピングされている場合、その宛先はセグメントビルダーの[宛先マッピングセクション](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations)では利用できません。Analytics の宛先がグレー表示され、宛先ブラウザーの「Type」列に「Analytics」と表示されます。 |
 | Manually map segments | このオプションを選択すると、Analytics に送信するセグメントを選択できる検索および参照コントロールが表示されます。<br>セグメントを検索するには：<br> <ol><li>セグメント名またはセグメント ID を検索フィールドに入力します。</li><li>「<b>Add</b>」をクリックします。</li><li>セグメントの検索と追加を続けるか、「<b>Done</b>」をクリックします。</li></ol><br>セグメントを参照するには： <ol><li>「<b>Browse all segments</b>」をクリックします。使用可能なセグメントのリストが表示されます。</li><li>このリストから、使用するセグメントのチェックボックスを選択し、「<b>Add selected segments</b>」をクリックします。</li><li>Add Mappings ウィンドウの「<b>Save</b>」をクリックします。ベータリリースの間は、マッピング、開始日、終了日を変更することはできません。</li><li>セグメントの参照と追加を続けるか、「<b>Done</b>」をクリックします。</li></ol> ![mapsegments](assets/mapSegments.png) |
 
 ## 次の手順

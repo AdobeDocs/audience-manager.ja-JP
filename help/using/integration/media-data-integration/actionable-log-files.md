@@ -9,9 +9,9 @@ uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
 source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
-workflow-type: ht
-source-wordcount: '1596'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1601'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 [!UICONTROL Actionable Log Files]を使用すると、Web サイトでのリアルタイムなインタラクションの場合と同じ方法でコウコクサーバーログの情報を [!DNL Audience Manager] に取り込むことができます。[!DNL Audience Manager] と広告サーバーログストレージを接続してログの情報を解析し、ログデータをアクションにつながるシグナルとしてアドビの[データ収集サーバー](../../reference/system-components/components-data-collection.md#dcs-pcs)に送信します。
 
-アクションにつながるシグナルを取得するためには、ルールベースの特性を設定する必要があります。ルールベースの特性の設定方法については、[Audience Manager ユーザーインターフェイス](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)、または[一括管理ツール](../../reference/bulk-management-tools/bulk-create.md)を参照してください。ルールベースの特性で使用できるすべてのキーのリストを参照するには、[アクションにつながるシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
+アクションにつながるシグナルを取得するためには、ルールベースの特性を設定する必要があります。[Audience Managerユーザーインターフェイスまたは [Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md) を使用して ](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) ルールベースの特性を設定する方法を参照してください。 ルールベースの特性で使用できるすべてのキーのリストを参照するには、[アクションにつながるシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,6 @@ ht-degree: 100%
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
 > * [Adobe Advertising Cloud、Flashtalking および Sizmek](#generic-logs-signals)
-
 
 この情報をオーディエンスの作成およびセグメント化に使用する場合、自分でルールベースの特性を設定する必要があることに注意してください。
 
@@ -177,7 +176,6 @@ Removed  {importance="high"} for ExL
 >* [!DNL Google Campaign Manager] ログファイルのデータ行からタイムスタンプが取得できなかった場合、イベントタイムスタンプとして `HTTP` 呼び出しの時刻を使用します。
 >* [!DNL Google Campaign Manager] ログファイルのデータ行のタイムスタンプの形式が正しくない場合、その行全体が無視されます。
 
-
  <br>
 
 ### [!DNL Google Ad Manager] ログのアクションにつながるシグナル  {#ad-manager-logs-signals}
@@ -206,7 +204,6 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >
 >* [!DNL Google Ad Manager] ログファイルのデータ行からタイムスタンプが取得できなかった場合、イベントタイムスタンプとして `HTTP` 呼び出しの時刻を使用します。
 >* [!DNL Google Ad Manager] ログファイルのデータ行のタイムスタンプの形式が正しくない場合、その行全体が無視されます。
-
 
  <br>
 
@@ -348,4 +345,3 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >
 >* [Google キャンペーンマネージャーデータファイルを Audience Manager に読み込む](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
-

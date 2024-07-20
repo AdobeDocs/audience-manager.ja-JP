@@ -1,19 +1,19 @@
 ---
 description: URL の宛先は、ページから宛先へのピクセル呼び出しをおこないます。Destination Builder で URL の宛先を作成するには、以下の手順に従います。
-seo-description: URL の宛先は、ページから宛先へのピクセル呼び出しをおこないます。Destination Builder で URL の宛先を作成するには、以下の手順に従います。
-seo-title: URL の宛先の設定
+seo-description: A URL destination makes pixel calls from a page to your destination. Follow these instructions to create a URL destination with Destination Builder.
+seo-title: Configure a URL Destination
 solution: Audience Manager
 title: URL の宛先の設定
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: b5af87c9-4460-43a7-9808-242eac876c39
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '487'
+ht-degree: 97%
 
 ---
 
-# [!DNL URL Destination]の設定  {#configure-url-destination}
+# [!DNL URL Destination] の設定 {#configure-url-destination}
 
 [!DNL URL destination]は、ページから[!DNL destination]へのピクセル呼び出しをおこないます。[!UICONTROL Destination Builder] で [!DNL URL] [!DNL destination] を作成するには、次の指示に従います。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 このセクションには、[!DNL URL] 文字列で渡すベース と [!DNL URL] 文字列で渡すデータ区切り文字を設定できるオプションが含まれています。このセクションはオプションです。このセクションを完了するには：
 
 1. 「**[!UICONTROL Configuration]**」をクリックして、コントロールを表示します。
-1. *（オプション）***[!UICONTROL Serialize]** チェックボックスを選択します。これで、セグメントごとに別個に呼び出しをおこなうのではなく、セグメントを連続して[!DNL destination]に送信できます。シリアル化はデータ転送の効率化に役立ちます。このチェックボックスを選択すると、URL と区切り文字のフィールドが表示されます。詳しくは、[標準型およびシリアル型のキーと値のペア](../../features/destinations/key-value-pairs.md)を参照してください。
+1. *（オプション）***[!UICONTROL Serialize]** チェックボックスを選択します。これで、セグメントごとに別個に呼び出しをおこなうのではなく、セグメントを連続して[!DNL destination]に送信できます。シリアル化はデータ転送の効率化に役立ちます。このチェックボックスを選択すると、URL と区切り文字のフィールドが表示されます。詳しくは、「[ 標準およびシリアルのキー値ペア ](../../features/destinations/key-value-pairs.md)」を参照してください。
 1. **[!UICONTROL Serialize]** を選択した場合は、下記の URL フィールドと区切り文字フィールドも設定する必要があります。
 
 | フィールド | 説明 |

@@ -8,8 +8,8 @@ uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
-workflow-type: ht
-source-wordcount: '292'
+workflow-type: tm+mt
+source-wordcount: '294'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 外部デバイスグラフを使用した、不明なユーザーのプロスペクティング、リターゲティング、パーソナライゼーションの推奨事項とユースケースです。外部デバイスグラフとは、Audience Manager と切り離されているデバイスグラフのことです。これには、アドビがサードパーティの決定論的または確率的デバイスグラフプロバイダーと行っている統合が含まれます。
 
-## 推奨事項 {#recommendations}
+## レコメンデーション {#recommendations}
 
 次のようなキャンペーンでは、サードパーティのデバイスグラフオプションを検討します。
 
@@ -131,4 +131,3 @@ Through this rule, the device graph has expanded the number of device profiles w
 >* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
 >* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
-

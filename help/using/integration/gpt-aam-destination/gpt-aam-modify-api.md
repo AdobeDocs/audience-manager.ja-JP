@@ -1,16 +1,16 @@
 ---
 description: Google サイト運営者タグの .setTargeting メソッドを呼び出す前に、Audience Manager の Cookie を確認するための if 文を追加します。
-seo-description: Google サイト運営者タグの .setTargeting メソッドを呼び出す前に、Audience Manager の Cookie を確認するための if 文を追加します。
-seo-title: GPT setTargeting API 呼び出しの変更
+seo-description: Add an if statement to check for Audience Manager cookies before calling the Google Publisher Tag .setTargeting method.
+seo-title: Modify the GPT setTargeting API Call
 solution: Audience Manager
 title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-feature: サードパーティ統合
+feature: Third-party Integration
 exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,6 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >* クライアント側の統合：1～3 行目のみを使用します。
 >* サーバー側の統合：どの行も必要ではありません。
 >* [!DNL Audience Manager] でのレポートに使用する取り込み [!DNL Google Ad Manager] ログファイル：4～6 行目のみを使用します。このコードにより、`aam_uuid` Cookie の値がログに挿入され、レポート用に取り込めるようになります。
-
 
 ### `AamGpt` 関数とデータ型
 
@@ -78,5 +77,4 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >[!MORELIKETHIS]
 >
 >* [GPT 宛先の作成](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
-* [Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
-
+>* [Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)

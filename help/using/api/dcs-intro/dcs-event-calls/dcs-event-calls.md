@@ -27,7 +27,7 @@ ht-degree: 96%
 * 呼び出しのデータ要素を所定の形式どおりに設定する。
 * [!DNL DCS] から返されるパラメーターを理解する。
 
-開始するには、この後の各節を参照してください。次から開始 [DCS へのデータの送信](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). を参照し、次に、[DCS からのデータ受信](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)を参照してください。
+開始するには、この後の各節を参照してください。[DCS へのデータ送信 ](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) から開始します。 を参照し、次に、[DCS からのデータ受信](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)を参照してください。
 
 * [DCS へのデータ送信](dcs-url-send.md)
 * [DCS からのデータ受信](dcs-url-receive.md)

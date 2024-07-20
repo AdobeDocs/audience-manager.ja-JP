@@ -1,16 +1,16 @@
 ---
 description: モデルビルダーでアルゴリズムモデルを作成するための必須手順とオプションの手順について説明します。
 keywords: アルゴリズムの仕組み
-seo-description: モデルビルダーでアルゴリズムモデルを作成するための必須手順とオプションの手順について説明します。
-seo-title: アルゴリズムモデルの作成
+seo-description: Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+seo-title: Create an Algorithmic Model
 solution: Audience Manager
 title: アルゴリズムモデルの作成
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
-feature: アルゴリズムモデル
+feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '651'
+workflow-type: tm+mt
+source-wordcount: '633'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## モデルビルダーのセクション
 
-[!UICONTROL Model Builder]は、「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Configuration]」セクションで構成されます。モデルを作成するには、この 2 つのセクションの必須フィールドに入力します。モデルを保存して、アルゴリズムを開始します。[!DNL Audience Manager] は、最初のデータ実行が完了した後に自動通知を送信します。この通知の受信後、[特性ビルダー](../../features/traits/about-trait-builder.md)を開いてアルゴリズム特性を作成できるようになります。
+[!UICONTROL Model Builder]は、「[!UICONTROL Basic Information]」セクションと「[!UICONTROL Configuration]」セクションで構成されます。モデルを作成するには、この 2 つのセクションの必須フィールドに入力します。モデルを保存して、アルゴリズムを開始します。[!DNL Audience Manager] は、最初のデータ実行が完了した後に自動通知を送信します。この電子メールの受信後、[特性ビルダー](../../features/traits/about-trait-builder.md)を開いてアルゴリズム特性を作成できるようになります。
 
 >[!NOTE]
 >
@@ -29,7 +29,6 @@ ht-degree: 100%
 >* 有意な量の情報があるデータソースからモデルを作成します。データが不十分なモデルも実行はできますが、結果は返されません。
 >* 他のアルゴリズム特性やセグメントを使用してモデルを&#x200B;*作成しない*&#x200B;でください。
 >* 自動電子メール通知は 1 回しか送信されません（最初のデータ実行の後）。
-
 
 ## モデルの作成
 
@@ -41,15 +40,15 @@ ht-degree: 100%
    * モデルの名前を指定します。
    * *（オプション）*&#x200B;モデルについての簡単な説明を入力します。
    * モデルのステータスを **[!UICONTROL Active]** または **[!UICONTROL Inactive]** に設定します。非アクティブなモデルは実行されず、データの生成もおこないません。
-      ![look-alike-basic](assets/look-alike-basic.png)
+     ![look-alike-basic](assets/look-alike-basic.png)
 1. 「[Configuration](../../features/algorithmic-models/create-model.md#configuration)」セクションで次の操作をおこないます。
    * 「**[!UICONTROL Browse All Traits]**」または「**[!UICONTROL Browse All Segments]**」をクリックして、モデルの作成対象となる特性またはセグメントを選択します。名前、ID、説明またはデータソースによる特性の検索。検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。特性タイプ（[!UICONTROL Folder Trait]、[!UICONTROL Rule-based]、[!UICONTROL Onboarded] および [!UICONTROL Algorithmic]）や母集団タイプ（[デバイス ID](../../reference/ids-in-aam.md) および[クロスデバイス ID](../../reference/ids-in-aam.md)）で特性をフィルタリングできます。
-      ![browse-traits](assets/browse-traits.png)
+     ![browse-traits](assets/browse-traits.png)
    * 30 日、60 日または 90 日のルックバック期間を選択します。これにより、モデルの時間範囲が設定されます。
    * デフォルトでは [!UICONTROL TraitWeight] アルゴリズムが選択されています。
    * 「[!UICONTROL Available Data]」リストからデータソースを選択します。
    * 終了したら、「**[!UICONTROL Save]**」をクリックします。
-      ![look-alike-configuration](assets/look-alike-configuration.png)
+     ![look-alike-configuration](assets/look-alike-configuration.png)
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
@@ -117,4 +116,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [TraitWeight について](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
-

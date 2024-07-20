@@ -1,14 +1,14 @@
 ---
 description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
-seo-description: Predictive Audiences は、データサイエンスを使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
-seo-title: Predictive Audiences に関する FAQ
+seo-description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-title: Predictive Audiences FAQ
 solution: Audience Manager
 title: Predictive Audiences に関する FAQ
-feature: アルゴリズムモデル
+feature: Algorithmic Models
 exl-id: 21073970-8457-470b-89fc-724a118a18d2
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '957'
 ht-degree: 100%
 
 ---

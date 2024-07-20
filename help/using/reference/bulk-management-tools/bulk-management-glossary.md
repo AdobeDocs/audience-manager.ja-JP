@@ -10,7 +10,7 @@ exl-id: 036d16c7-1546-4539-a318-455b98e10026
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 92%
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->一括管理ツールは、正式にサポートされているAdobe機能ではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースごとに処理されます。
+>Bulk Management Tools は、公式にサポートされているAdobeではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースバイケースで対応します。
 
 <!-- 
 
@@ -98,11 +98,11 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>Cookie ベースでない宛先に渡される ID。Cookie ベースの宛先の場合、これは<a href="../../reference/key-value-pairs-explained.md">キー値ペア</a>として渡される変数です。 </p> </td> 
+   <td colname="col2"> <p>Cookie ベースでない宛先に渡される ID。cookie ベースの宛先の場合、これは <a href="../../reference/key-value-pairs-explained.md"> のキーと値のペアのキー </a> です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule／segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>データの収集に使用する実際の特性ルールまたはセグメントルール。一括リクエストは、<span class="keyword">Audience Manager</span> で<a href="../../features/traits/about-trait-builder.md">特性ルールビルダー</a>または<a href="../../features/segments/segment-builder.md">セグメントルールビルダー</a>により作成されたルールを返します。これらのツールを使用して、セグメントや特性の構成時にルールを作成して一括で適用することもできます。 </p> <p>詳しくは、<a href="../../reference/bulk-management-tools/bulk-rules.md">特性ルールとセグメントルールの作成と更新</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>データの収集に使用する実際の特性ルールまたはセグメントルール。一括リクエストは、<span class="keyword">Audience Manager</span> で<a href="../../features/traits/about-trait-builder.md">特性ルールビルダー</a>または<a href="../../features/segments/segment-builder.md">セグメントルールビルダー</a>により作成されたルールを返します。これらのツールを使用して、セグメントや特性の構成時にルールを作成して一括で適用することもできます。 </p> <p>特性ルールおよびセグメントルールの作成または更新 <a href="../../reference/bulk-management-tools/bulk-rules.md"> 参照してください </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 

@@ -1,15 +1,15 @@
 ---
 description: Audience Optimization レポートの「クロスチャネルコンバージョン」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
-seo-description: Audience Optimization レポートの「クロスチャネルコンバージョン」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
-seo-title: クロスチャネルコンバージョン
+seo-description: The Cross Channel Conversion option in the Audience Optimization reports allows you to attribute offline conversions to served online impressions or clicks.
+seo-title: Cross Channel Conversion
 solution: Audience Manager
 title: クロスチャネルコンバージョン
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
-feature: Audience Optimization レポート
+feature: Audience Optimization Reports
 exl-id: 7412a43f-81b5-477e-8acf-89d6c8661f1e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '238'
 ht-degree: 100%
 
 ---

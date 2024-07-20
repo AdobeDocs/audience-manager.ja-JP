@@ -1,15 +1,15 @@
 ---
 description: Audience Manager はファーストパーティ、セカンドパーティ、サードパーティのデータの収集および管理をサポートします。
-seo-description: Audience Manager はファーストパーティ、セカンドパーティ、サードパーティのデータの収集および管理をサポートします。
-seo-title: 収集されるデータのタイプ
+seo-description: Audience Manager helps you collect and manage first-party, second-party, and third-party data.
+seo-title: Types of Data Collected
 solution: Audience Manager
 title: 収集されるデータのタイプ
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
-feature: 概要
+feature: Overview
 exl-id: cfb587da-ceac-425f-8334-e961eba6fad2
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 | **セカンドパーティ** | 戦略的パートナーおよび広告主。 |
 | **サードパーティ** | データプロバイダーおよびデータ交換。データには、インテント、デモグラフィック、ソーシャル／ライフスタイル、サイコグラフィックなどの情報が含まれる可能性があります。 |
 
-## ファーストパーティデータ収集 {#first-party-data}
+## ファーストパーティデータの収集 {#first-party-data}
 
 ファーストパーティデータの収集は [!DNL Audience Manager] のメインとなる機能です。コアとなるこの機能は、マーケティングプログラムの土台とするために、または他のデータソースに対してターゲティングもしくはモデリングをおこなうために独自データを使用するお客様（パブリッシャーや広告主）のニーズに応えるものです。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 生データの収集後、それらは [!DNL Audience Manager] プラットフォーム内で顧客定義の特性に再マッピングされます。分類もデータマッピングも、データ収集コードを変更することなく、いつでも調整できます。
 
-## セカンドパーティデータ収集 {#second-party-data}
+## セカンドパーティデータの収集 {#second-party-data}
 
 セカンドパーティデータは戦略ビジネスパートナーのデータです（パブリッシャーのデータではありません）。この情報はファーストパーティデータと同様に収集および管理されます。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 ![](assets/shopping-cart-traits.png)
 
-## サードパーティデータ収集 {#third-party-data}
+## サードパーティデータの収集 {#third-party-data}
 
 サードパーティデータの情報は、[!DNL Audience Manager] 外部のベンダーによって収集および共有されます。
 

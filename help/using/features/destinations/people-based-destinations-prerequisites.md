@@ -48,7 +48,7 @@ ht-degree: 91%
 
 [!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL LinkedIn] に送信する前に、お客様の [!DNL LinkedIn Campaign Manager] アカウントが [!DNL Creative Manager] 以上の権限レベルであることを確認してください。
 
-編集方法を学ぶには [!DNL LinkedIn Campaign Manager] ユーザー権限： [Advertising アカウントに対するユーザー権限の追加、編集、削除](https://www.linkedin.com/help/lms/answer/5753) (LinkedInドキュメント ) を参照してください。
+[!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、LinkedIn ドキュメントの [Advertising アカウントのユーザー権限の追加、編集、削除 ](https://www.linkedin.com/help/lms/answer/5753) を参照してください。
 
 ビデオの手順については、「[Understanding and Configuring the LinkedIn People-Based Destination](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=ja)」を参照してください。
 
@@ -64,15 +64,15 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->すべてのAudience Managerの顧客は、に新規登録することなく、ハッシュ化された電子メールを取り込むことができます。 [!UICONTROL People-Based Destinations].
+>すべてのAudience Managerユーザーは、[!UICONTROL People-Based Destinations] に新規登録しなくても、ハッシュ化されたメールを取り込むことができます。
 
-のデータ取り込み [!UICONTROL People-Based Destinations] は現在、1 つの顧客 ID([!DNL CRM ID]) を一括転送ごとに更新する必要があります。
+[!UICONTROL People-Based Destinations] のデータ取り込みは、現在、バッチ転送ごとに 1 つの顧客 ID （[!DNL CRM ID]）にリンクされた最大 10 個のハッシュ化されたメールアドレスをサポートしています。
 
 1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスを、複数の一括転送でアップロードすると、Audience Manager は最近追加された 10 個の電子メールアドレスを保持します。
 
-ハッシュ化された識別子を取り込むには、次の手順を実行します。 [ハッシュ化された識別子用のクロスデバイス対応データソースの作成](../create-data-source-hashed-emails.md) をクリックし、 **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプション。
+ハッシュ化された識別子を取り込むには、[ ハッシュ化された識別子のクロスデバイス対応データソースを作成 ](../create-data-source-hashed-emails.md) して、**[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプションを有効にします。
 
-![Audience Managerベースの宛先やハッシュ化された電子メールワークフローで関連するクロスデバイス ID を共有するオプションを示すユーザー UI の画像](assets/data-source-share-ids.png)
+![ 人物ベースの宛先やハッシュ化されたメールワークフローで、関連するクロスデバイス ID を共有するオプションを示すAudience Manager UI 画像 ](assets/data-source-share-ids.png)
 
 ## データプライバシー {#data-privacy}
 

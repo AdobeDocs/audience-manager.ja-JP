@@ -1,15 +1,15 @@
 ---
 description: データアクションのコンポーネントには、顧客データフィード、データ収集サーバー、SFTP／S3／HTTP ベースのパブリッシャー、IRIS およびプロファイルキャッシュサーバーなどがあります。
-seo-description: データアクションのコンポーネントには、顧客データフィード、データ収集サーバー、SFTP／S3／HTTP ベースのパブリッシャー、IRIS およびプロファイルキャッシュサーバーなどがあります。
-seo-title: データアクションのコンポーネント
+seo-description: Data action components include Customer Data Feeds, the Data Collection Server, SFTP/S3/HTTP publishers, IRIS, and the Profile Cache Server.
+seo-title: Data Action Components
 solution: Audience Manager
 title: データアクションのコンポーネント
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
-feature: 'システムコンポーネント '
+feature: System Components
 exl-id: 8065c19f-1930-4164-a952-1686aa5cb622
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 98%
 
 ---
@@ -28,7 +28,7 @@ c_compact.xml
 
 ## 顧客データフィード（CDF） {#cdf}
 
-[!UICONTROL CDF] は、1 時間ごとにお客様に送信されるファイルです。これらのファイルには、ユーザー ID、関連付けられたセグメント ID、特性 ID などのデータが含まれます。詳しくは、「[顧客データフィードの概要](../../features/cdf-files.md)」を参照してください。
+[!UICONTROL CDF] は、1 時間ごとにお客様に送信されるファイルです。これらのファイルには、ユーザー ID、関連付けられたセグメント ID、特性 ID などのデータが含まれます。詳しくは、[ 顧客データフィードの概要 ](../../features/cdf-files.md) を参照してください。
 
 ## データ収集サーバー（DCS） {#dcs}
 

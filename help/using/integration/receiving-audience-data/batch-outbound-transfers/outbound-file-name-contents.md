@@ -1,16 +1,16 @@
 ---
 description: 送信データファイルの名前に使用される必須フィールド、構文および規則について説明します。
-seo-description: 送信データファイルの名前に使用される必須フィールド、構文および規則について説明します。
-seo-title: 送信データファイル名：構文と例
+seo-description: Describes the required fields, syntax, and conventions used to name an outbound data file.
+seo-title: Outbound Data File Name  Syntax and Examples
 solution: Audience Manager
 title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-feature: アウトバウンドデータ転送
+feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '678'
+ht-degree: 98%
 
 ---
 
@@ -190,7 +190,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>ユーザーが対象外だったセグメントの ID。複数のセグメントをコンマで区切ります。完全同期を使用すると、データファイルにはユーザーの現在のセグメントの完全なリストが含まれるので、削除されたセグメントを無視できます。通常、ユーザーが削除されたセグメントではなく、ユーザーが属するセグメントを知る必要があります。詳しくは、<a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples">送信データファイル名：構文と例 </a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーが対象外だったセグメントの ID。複数のセグメントをコンマで区切ります。完全同期を使用すると、データファイルにはユーザーの現在のセグメントの完全なリストが含まれるので、削除されたセグメントを無視できます。通常、ユーザーが削除されたセグメントではなく、ユーザーが属するセグメントを知る必要があります。送信データファイル名 <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> 構文と例 </a> も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

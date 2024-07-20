@@ -1,13 +1,13 @@
 ---
 description: 特定の期間に受信した使用済みおよび未使用のシグナルを検索します。シグナルを検索するには、Audience Data／Signals／Search に移動します。
-seo-description: 特定の期間に受信した使用済みおよび未使用のシグナルを検索します。シグナルを検索するには、Audience Data／Signals／Search に移動します。
-seo-title: シグナル検索
+seo-description: Search for used and unused signals received over specific periods of time. To search for signals, go to Audience Data > Signals > Search.
+seo-title: Signals Search
 title: シグナル検索
-feature: 'データエクスプローラ '
+feature: Data Explorer
 exl-id: 4cc363eb-9102-4c48-8cd5-efc52ee1c2fd
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '69'
 ht-degree: 100%
 
 ---

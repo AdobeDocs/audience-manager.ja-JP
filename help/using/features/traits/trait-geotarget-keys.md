@@ -8,8 +8,8 @@ uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 exl-id: 449096f9-64fd-495f-ac1d-3181a4544279
 source-git-commit: 366589d51601f438999bfdc6a10c306eb1186742
-workflow-type: ht
-source-wordcount: '659'
+workflow-type: tm+mt
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
@@ -58,4 +58,3 @@ Audience Manager アカウントのすべてのプロパティ、地理変数で
 >[!MORELIKETHIS]
 >
 >* [キー変数のプレフィックスに関する要件](../../features/traits/trait-variable-prefixes.md)
-

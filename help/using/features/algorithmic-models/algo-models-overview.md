@@ -1,22 +1,22 @@
 ---
 description: Audience Manager で使用可能なアルゴリズムモデルを説明します。
-keywords: アルゴモデルは、予測オーディエンスを機能させる方法をモデルします。
-seo-description: Audience Manager で使用可能なアルゴリズムモデルを説明します。
-seo-title: アルゴリズムモデルの概要
+keywords: algo モデル predictive audiences の仕組み
+seo-description: Describes the algorithmic models available in Audience Manager.
+seo-title: Algorithmic Models Overview
 solution: Audience Manager
 title: アルゴリズムモデルの概要
-feature: アルゴリズムモデル
+feature: Algorithmic Models
 exl-id: ee5c3392-2756-45c5-b325-41a51d3c494f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 97%
+source-wordcount: '279'
+ht-degree: 96%
 
 ---
 
 # アルゴリズムモデルの概要
 
-## アルゴリズムモデリングとは {#what-algo-modeling}
+## アルゴリズムモデリングとは{#what-algo-modeling}
 
 Audience Manager のアルゴリズムモデリングとは、既存のオーディエンスを拡張したりペルソナに分類したりするためのデータサイエンスの使用のことです。
 

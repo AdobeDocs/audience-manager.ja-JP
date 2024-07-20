@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics も使用している Audience Manager ユーザーは、「Adobe Analytics の詳細検索」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
-seo-description: Adobe Analytics も使用している Audience Manager ユーザーは、「Adobe Analytics の詳細検索」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
-seo-title: Adobe Analytics の詳細検索
+seo-description: Audience Manager customers who also use Adobe Analytics can leverage the tight integration between the two solutions by enabling the Advanced Search for Adobe Analytics option.
+seo-title: Advanced Search for Adobe Analytics
 title: Adobe Analytics の詳細検索
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
-feature: 'データエクスプローラ '
+feature: Data Explorer
 exl-id: 5a66623b-4d24-4f52-ba26-b59750d25f2c
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---

@@ -1,15 +1,15 @@
 ---
 description: Open Ad サーバーを宛先に設定し、Audience Manager のデータをこのプラットフォームに送信します。
-seo-description: Open Ad サーバーを宛先に設定し、Audience Manager のデータをこのプラットフォームに送信します。
-seo-title: Audience Manager の宛先としての OAS
+seo-description: Set up Open Ad Server as a destination and send Audience Manager data to that platform.
+seo-title: OAS as an Audience Manager Destination
 solution: Audience Manager
 title: Audience Manager の宛先としての OAS
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
-feature: サードパーティ統合
+feature: Third-party Integration
 exl-id: cf919c27-691f-424b-be83-040f03e34455
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '640'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [!DNL Open Ad Server] を宛先に設定し、Audience Manager のセグメントデータをこのプラットフォームに送信します。
 
-## OAS の宛先に関する要件 {#oas-requirements}
+## OAS の送信先に関する要件 {#oas-requirements}
 
 コードの配置、サポートされるキー値の形式、レポート、および [!DNL OAS] に送信されるセグメントデータのタイプに関する要件。
 
@@ -46,10 +46,9 @@ Audience Manager はブラウザー Cookie に対してセグメントデータ�
 >[!MORELIKETHIS]
 >
 >* [get_aamCookie コード](../../features/destinations/get-aam-cookie-code.md)
-* [キーと値のペアの解説 ](../../reference/key-value-pairs-explained.md)
+>* [キーと値のペアの解説](../../reference/key-value-pairs-explained.md)
 
-
-## OAS の宛先の作成 {#oas-dest-setup}
+## OAS の送信先の作成 {#oas-dest-setup}
 
 Audience Manager で、[!DNL OAS] に Cookie ベースの宛先を作成します。
 
@@ -99,9 +98,9 @@ Audience Manager のセグメントデータを処理するよう [!DNL OAS] 設
 * `get_aamCookie` 関数を呼び出すよう広告タグを変更し、[!DNL OAS] の宛先を設定した際に指定した Cookie 名を含めます。例えば、Cookie の名前を `test_cookie` とした場合、広告タグは `get_aamCookie` を呼び出し、この Cookie 名を参照する必要があります。
 * 広告タグは次に示す例のような形式になります。
 
-   ```js
-   <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') +
-    "&etc&u=" + get_aamCookie('aam_uuid')
-   ```
+  ```js
+  <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') +
+   "&etc&u=" + get_aamCookie('aam_uuid')
+  ```
 
 必ず `u=` 変数を含めてください。この変数は、広告呼び出しの際に実際に渡された一意のユーザー ID （[!UICONTROL UUID]）を保持します。

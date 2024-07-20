@@ -1,7 +1,7 @@
 ---
 description: セグメント間で共有されるユニークユーザー数に関するデータを返します。
-seo-description: セグメント間で共有されるユニークユーザー数に関するデータを返します。
-seo-title: セグメント間重複レポート
+seo-description: Returns data on how many unique users are shared between your segments.
+seo-title: Segment-to-Segment Overlap Report
 solution: Audience Manager
 title: セグメント間重複レポート
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
@@ -9,7 +9,7 @@ feature: Overlap Reports
 exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '360'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ c_segment_segment_overlap.xml
 
 個々の点を選択すると、データの詳細がポップアップウィンドウに表示されます。クリック操作で、レポートに表示されるデータが自動的に更新されます。
 
-## セグメント間重複データポップフィールドの定義 {#fields-defined}
+## 定義済みのセグメント間重複データポップフィールド {#fields-defined}
 
 <!-- 
 
@@ -75,9 +75,8 @@ r_s2s_data_pop.xml
 >[!MORELIKETHIS]
 >
 >* [データスライダーを使用したレポート結果のフィルタリング](../../reporting/dynamic-reports/data-sliders.md)
-* [インタラクティブレポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-* [レポートのアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
-* [重複レポート：更新スケジュールと最小セグメントサイズ ](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
-* [選択した Audience Manager レポートでのデータサンプリングとエラー率...](../../reporting/report-sampling.md)
-* [重複レポートの CSV ファイル](../../reporting/dynamic-reports/overlap-csv-files.md)
-
+>* [インタラクティブレポートで使用される図形、色、サイズ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+>* [レポートのアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [重複レポート：更新スケジュールと最小セグメントサイズ](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [選択した Audience Manager レポートでのデータサンプリングとエラー率...](../../reporting/report-sampling.md)
+>* [重複レポートの CSV ファイル](../../reporting/dynamic-reports/overlap-csv-files.md)

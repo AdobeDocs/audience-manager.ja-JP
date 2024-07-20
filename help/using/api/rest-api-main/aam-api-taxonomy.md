@@ -1,7 +1,7 @@
 ---
 description: Audience Manager の一般的な分類を表示するためのメソッド。このオプションの分類スキームでは、特性を業界標準のカテゴリに整理します。
-seo-description: Audience Manager の一般的な分類を表示するためのメソッド。このオプションの分類スキームでは、特性を業界標準のカテゴリに整理します。
-seo-title: 分類 API メソッド
+seo-description: Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
+seo-title: Taxonomic API Methods
 solution: Audience Manager
 title: 分類 API メソッド
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
@@ -9,7 +9,7 @@ feature: API
 exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '173'
 ht-degree: 100%
 
 ---

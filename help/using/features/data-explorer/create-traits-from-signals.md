@@ -1,14 +1,14 @@
 ---
 description: すべてのシグナルから新しい特性を作成し（特性内ですでに使用しているものを含む）、特性作成後に認定する将来のオーディエンスを取り込みます。
-seo-description: すべてのシグナルから新しい特性を作成し（特性内ですでに使用しているものを含む）、特性作成後に認定する将来のオーディエンスを取り込みます。
-seo-title: シグナルからの特性の作成
+seo-description: Create new traits from all signals, including those that are already used in traits, and capture future audiences that qualify after trait creation.
+seo-title: Create Traits from Signals
 title: シグナルからの特性の作成
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
-feature: 'データエクスプローラ '
+feature: Data Explorer
 exl-id: 14308ef0-58eb-4b76-858c-d0da560f55fd
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---

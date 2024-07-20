@@ -1,14 +1,14 @@
 ---
 description: S3 ステータスディレクトリには .info ファイルがあり、アップロードされたファイルの成功と失敗に関する情報が格納されています。ファイルには JSON 形式のデータがあり、ステータスの結果が配列に格納されています。
-seo-description: S3 ステータスディレクトリには .info ファイルがあり、アップロードされたファイルの成功と失敗に関する情報が格納されています。ファイルには JSON 形式のデータがあり、ステータスの結果が配列に格納されています。
-seo-title: メタデータファイルのステータスの更新
+seo-description: The S3 status directory holds a .info file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
+seo-title: Status Updates for Metadata Files
 solution: Audience Manager
 title: メタデータファイルのステータスの更新
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-feature: ログファイル
+feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---

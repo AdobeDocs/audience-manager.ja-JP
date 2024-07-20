@@ -1,15 +1,15 @@
 ---
 description: リアルタイム受信データ取り込みプロセスは、ユーザーのブラウザーからの一連の HTTP リクエストを使用して、Audience Manager にデータを渡します。
-seo-description: リアルタイム受信データ取り込みプロセスは、ユーザーのブラウザーからの一連の HTTP リクエストを使用して、Audience Manager にデータを渡します。
-seo-title: リアルタイム受信データ取り込み
+seo-description: The real-time inbound data ingestion process uses a series of HTTP requests from a user's browser to pass in data to Audience Manager.
+seo-title: Real-Time Inbound Data Ingestion
 solution: Audience Manager
 title: リアルタイム受信データ取り込み
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '169'
 ht-degree: 100%
 
 ---

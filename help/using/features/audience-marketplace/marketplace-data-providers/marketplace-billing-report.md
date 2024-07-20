@@ -1,7 +1,7 @@
 ---
 description: Audience Marketplace 請求レポートを生成して、加入者ごとの前月のデータフィード使用量を表示できます。前月のレポートはいつでも作成できます。ただし、当月の 10 日以降にレポートを生成したほうがレポートが正確になります。
-seo-description: Audience Marketplace 請求レポートを生成して、加入者ごとの前月のデータフィード使用量を表示できます。前月のレポートはいつでも作成できます。ただし、当月の 10 日以降にレポートを生成したほうがレポートが正確になります。
-seo-title: データフィードプロバイダーに対する請求
+seo-description: Generate an Audience Marketplace billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
+seo-title: Billing for Data Feed Providers
 solution: Audience Manager
 title: データフィードプロバイダーに対する請求
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
@@ -9,8 +9,8 @@ feature: Audience Marketplace
 exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Discounted Price</span></b> </p> </td> 
-   <td colname="col2"> <p>割引データフィードの購読料金。詳しくは、<a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> データプロバイダーにとっての割引</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>割引データフィードの購読料金。データプロバイダーの <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> 割引を参照してください </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 購入点数</span></b> </p> </td> 
@@ -124,6 +124,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [CPM データフィードの請求とインプレッション割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
-* [定額データフィードに関する請求およびインプレッションの割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
-* [CPM の使用状況の報告方法](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
-
+>* [定額データフィードに関する請求およびインプレッションの割り当て](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [CPM の使用状況の報告方法](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)

@@ -1,16 +1,16 @@
 ---
 description: 定義および関連情報へのリンク。
-seo-description: 定義および関連情報へのリンク。
-seo-title: 用語集
+seo-description: Definitions and links to further reading.
+seo-title: Glossary
 solution: Audience Manager
 title: 用語集
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: リファレンス
+feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '1181'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1157'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ CRM ID は、お客様が自身の CRM システム内でユーザーを識別�
 
 [アドレス可能オーディエンス](/help/using/features/addressable-audiences.md)では、この指標は次のデバイスを表します。
 * ルックバック期間にルールベースの特性またはオンボードの特性に適合し、
-   **かつ**
+  **かつ**
 * 同期の時間に関係なく、選択した宛先と ID が同期している。
 
 
@@ -119,7 +119,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 フォルダー分類における、特性の自動的なグループ化。階層内の各フォルダーで、セグメントを定義できる特性が自動的に作成されます。
 
- [フォルダー特性について](../features/traits/about-folder-traits.md)を参照してください。
+[ フォルダー特性：概要 ](../features/traits/about-folder-traits.md) を参照してください。
 
 
 
@@ -201,7 +201,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 **適合**
 
-ある特性に適合するサイト訪問者のアクション。 [訪問者プロファイルビューア](../features/visitor-profile-viewer.md)ツールを使用して特定のユーザーの特性への適合情報を取得できます。
+ある特性に適合するサイト訪問者のアクション。[ 訪問者プロファイルビューア ](../features/visitor-profile-viewer.md) ツールを使用して、特定のユーザーによる特性の実現に関する情報を取得できます。
 
 ## S-T {#s-t}
 
@@ -209,7 +209,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 セグメント（またはオーディエンス）は、共通の属性を共有する一連のユーザーです。
 
- [セグメント：目的、構成およびルール](../features/segments/segments-purpose.md)を参照してください。
+[ セグメント：目的、構成、ルール ](../features/segments/segments-purpose.md) を参照してください。
 
 
 

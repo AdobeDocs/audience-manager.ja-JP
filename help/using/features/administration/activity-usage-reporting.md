@@ -1,16 +1,16 @@
 ---
 description: アクティビティ使用状況レポートは、Audience Manager インスタンスのアクティビティ使用量を表示および追跡するのに役立ち、アクティビティ使用量と契約上のコミットメントを明確に比較できます。
 keywords: アクティビティ、使用状況、レポート、コミットメント
-seo-description: アクティビティ使用状況レポートは、Audience Manager インスタンスのアクティビティ使用量を表示および追跡するのに役立ち、アクティビティ使用量と契約上のコミットメントを明確に比較できます。
-seo-title: アクティビティ使用状況レポート
+seo-description: Activity Usage Reporting helps you view and track the activity usage for your Audience Manager instance, so you can compare your actual usage to your contractual commitment.
+seo-title: Activity Usage Reporting
 solution: Audience Manager
 title: アクティビティ使用状況レポート
-feature: 使用状況と請求
+feature: Usage and Billing
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 * **アクティビティ使用量コミットメントに対する実際のインスタンスアクティビティ使用量の追跡**：ほとんどのお客様は、Audience Manager インスタンスごとに毎月のアクティビティのコミットメントを見積もった後、すべてのインスタンスをまたいだ年間のアクティビティのコミットメントに集計します。このレポートは請求レポートではありませんが、コミットされたアクティビティ使用量を超過しているかどうかを把握するのに役立ちます。
 * **実装の変更の検証**：[!DNL Adobe Analytics] サーバーサイド転送の設定や サーバーコールの設定変更などの実装を最近更新した場合、このレポートを使用すれば、新しいアクティビティの量が期待したアクティビティ量と一致しているかどうかを確認できます。[!DNL Adobe Target]
 
-## デフォルト PCID の代わりに [!UICONTROL Activity Usage Report] {#using}
+## [!UICONTROL Activity Usage Report] の使用 {#using}
 
 [!UICONTROL Activity Usage Report] を表示するには、Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Usage]** に移動します。
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 ![aur-hover](assets/aur-hover.png)
 
-## [!UICONTROL Activity Usage Reports] の書き出し  {#export}
+## [!UICONTROL Activity Usage Reports] のエクスポート {#export}
 
 Audience Manager のアクティビティの使用状況レベルをより詳細に把握するために、含めるレコードのタイプに基づいて [!UICONTROL Activity Usage Report] を書き出すことができます。
 

@@ -8,9 +8,9 @@ uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
 source-git-commit: a5506a315a98afdf31f8f52fac09b9179f388f30
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ Removed  {importance="high"} for ExL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>ファイルを Amazon S3 に送信する場合、gzip 圧縮のみを使用します。これらのファイルを圧縮すると、拡張子は <code> .gz</code> になります。.zip 圧縮は使用しないでください。 </p> <p>圧縮ファイルのサイズは 3 GB 以下である必要があります。ファイルがそれより大きい場合は、カスタマーケアにお問い合わせください。Audience Manager で大きなファイルを操作することは可能ですが、ファイルのサイズを小さくして、効率的にデータを転送できるようにすることもできます。詳しくは、<a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">受信データ転送ファイルのファイル圧縮</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ファイルを Amazon S3 に送信する場合、gzip 圧縮のみを使用します。これらのファイルを圧縮すると、拡張子は <code> .gz</code> になります。.zip 圧縮は使用しないでください。 </p> <p>圧縮ファイルのサイズは 3 GB 以下である必要があります。ファイルがそれより大きい場合は、カスタマーケアにお問い合わせください。Audience Manager で大きなファイルを操作することは可能ですが、ファイルのサイズを小さくして、効率的にデータを転送できるようにすることもできます。受信データ転送ファイルの <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> ファイル圧縮 </a> を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,4 +166,3 @@ Removed  {importance="high"} for ExL
 >[!MORELIKETHIS]
 >
 >* [受信データファイルの FTP の名前に関する要件](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
-

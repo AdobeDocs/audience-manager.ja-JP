@@ -1,7 +1,7 @@
 ---
 description: サーバー間（S2S）API には、DCS ユーザーデータの送受信や独自システムまたはアプリケーションでの操作を可能にするコードおよびメソッドが用意されています。
-seo-description: サーバー間（S2S）API には、DCS ユーザーデータの送受信や独自システムまたはアプリケーションでの操作を可能にするコードおよびメソッドが用意されています。
-seo-title: サーバー間データ転送用の DCS API
+seo-description: Server-to-server (S2S) APIs provide code and methods that let you send and receive DCS user data and work with this information in your own systems or applications.
+seo-title: DCS APIs for Server-to-Server Data Transfers
 solution: Audience Manager
 title: サーバー間データ転送用の DCS API
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
@@ -9,8 +9,8 @@ feature: DCS
 exl-id: fd23d5e2-b74e-47ff-a4aa-3a4b2c7d39c5
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 96%
 
 ---
 
@@ -44,10 +44,9 @@ ht-degree: 100%
 今後、新しい方法が使用可能になったら、その説明も追加していきます。開始するには、以下の節を参照してください。
 
 * [DCS 応答からのユーザー ID と地域 ID の取得](dcs-aam-ids.md)
-* [Experience Cloud ID サービスを通じたユーザー ID と地域 ID の取得](dcs-mcid-ids.md)
+* [Experience CloudID を使用してユーザー ID とリージョンを取得…](dcs-mcid-ids.md)
 * [サーバー間 DCS API 呼び出しの実行](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
 >
->* [DCS API リファレンス ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
-
+>* [DCS API リファレンス](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)

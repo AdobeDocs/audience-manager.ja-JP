@@ -1,7 +1,7 @@
 ---
 description: Audience Marketplace データ購入者は、広告インプレッション数 1,000 回あたりのコスト（CPM）単位の価格で、データフィードに含まれる特性を使用して提供されたすべての広告インプレッション数をレポートすることに同意します。CPM 使用は、毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
-seo-description: Audience Marketplace データ購入者は、広告インプレッション数 1,000 回あたりのコスト（CPM）単位の価格で、データフィードに含まれる特性を使用して提供されたすべての広告インプレッション数をレポートすることに同意します。CPM 使用は、毎月 5 日を期限とし、前月のデータが含まれます。定額サブスクリプション購入者は、使用をレポートする必要はありません。
-seo-title: データフィード購入者に対する請求
+seo-description: Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
+seo-title: Billing for Data Feed Buyers
 solution: Audience Manager
 title: データフィード購入者に対する請求
 keywords: セグメントレベルのレポート, セグメントレベル, セグメントレベル
@@ -10,8 +10,8 @@ feature: Audience Marketplace
 exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
 source-git-commit: 88ed0b28fdf5dc03c8a878529d65b4bc844ea6c9
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 100%
+source-wordcount: '2029'
+ht-degree: 98%
 
 ---
 
@@ -117,7 +117,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 推奨事項 </th> 
+   <th colname="col1" class="entry"> レコメンデーション </th> 
    <th colname="col2" class="entry"> 説明 </th> 
   </tr>
  </thead>
@@ -125,7 +125,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
   <tr> 
    <td colname="col1"> <p><b>常にインプレッションの合計数をレポートする</b> </p> </td> 
    <td colname="col2"> <p>CPM インプレッションの合計数の場合： </p>
-   <p> 小数を使用せずに、インプレッションの合計数をレポートします。Audience Managerは、レポートした合計数に基づいて CPM が自動で計算されます。</p><p>1,234,567 個のインプレッションをレポートする場合は、この数字をそのままレポートしてください。インプレッションの合計数を 1,000 で割って、CPM を算出する必要はありません。</p><p>Adobe Target や Analytics の宛先などのツールで、Web またはアプリのコンテンツを最適化するための特性（コンテンツ最適化）は、CPM プランの使用量の合計には影響しません。データプロバイダーは通常、定額プランを使用してコンテンツ最適化による報酬を得ています。</p><p>詳しくは、<a href="#cost-attribution">CPM データフィードのコスト配分</a>を参照してください。 </p> </td>
+   <p> 小数を使用せずに、インプレッションの合計数をレポートします。Audience Managerは、レポートした合計数に基づいて CPM が自動で計算されます。</p><p>1,234,567 個のインプレッションをレポートする場合は、この数字をそのままレポートしてください。インプレッションの合計数を 1,000 で割って、CPM を算出する必要はありません。</p><p>Adobe Target や Analytics の宛先などのツールで、Web またはアプリのコンテンツを最適化するための特性（コンテンツ最適化）は、CPM プランの使用量の合計には影響しません。データプロバイダーは通常、定額プランを使用してコンテンツ最適化による報酬を得ています。</p><p>詳しくは、<a href="#cost-attribution">CPM データフィードのコスト属性 </a> を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>毎月の報告期限を順守する</b> </p> </td> 
@@ -136,7 +136,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 <br> 
 
-## CPM データフィードのコスト配分 {#cost-attribution}
+## CPM データフィードのコスト属性 {#cost-attribution}
 
 [!UICONTROL Audience Marketplace] では、ユーザーがセグメントごとに各月のインプレッションの量を自己申告する必要があります。コスト配分が自動的におこなわれる、セグメントレベルでの [!DNL CPM] 使用状況のレポートをお勧めします。
 
@@ -162,7 +162,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 <br> 
 
-## 特性認定ルールに基づくフィードレベルでのインプレッションの配分 {#assign-impressions}
+## 特性選定ルールに基づいてフィードレベルでインプレッションを割り当てる {#assign-impressions}
 
 [!UICONTROL Activation] ユースケースでは、[セグメントビルダー](../../../features/segments/segment-builder.md)で対応するデータフィードの特性を使用してセグメントを作成し、宛先にマッピングすることができます。ブール演算子 [!UICONTROL AND]、[!UICONTROL OR]、および [!UICONTROL NOT] を使用すると、特性とセグメントの認定の条件を設定できます。
 
@@ -200,7 +200,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 <br> 
 
-## 請求例 {#billing-examples}
+## 請求の例 {#billing-examples}
 
 以下の例で、データフィードレベルでの [!DNL CPM] の使用量の配分方法について説明します。
 
@@ -266,7 +266,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 >
 >モデリングの使用例では、アクティブ化時にのみ CPM の使用状況を報告する必要があります。モデルのみを実行し、アクティブ化しない場合は、使用状況レポートは必要ありません。
 
-<br> 
+<br>
 
 ## 定額データフィードに関する請求およびインプレッションの割り当て {#billing-flat-fee}
 

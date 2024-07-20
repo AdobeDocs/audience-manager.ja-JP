@@ -1,15 +1,15 @@
 ---
 description: ここでは、Audience Manager の特性およびセグメントツールでブール式 AND、OR、NOT がどのように使用されるかを説明します。
-seo-description: ここでは、Audience Manager の特性およびセグメントツールでブール式 AND、OR、NOT がどのように使用されるかを説明します。
-seo-title: 特性およびセグメントビルダーのブール式
+seo-description: This article explains how the Audience Manager trait and segment tools use the Boolean expressions AND, OR, and NOT.
+seo-title: Boolean Expressions in Trait and Segment Builder
 solution: Audience Manager
 title: 特性およびセグメントビルダーのブール式
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
-feature: リファレンス
+feature: Reference
 exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '529'
 ht-degree: 100%
 
 ---
@@ -82,5 +82,4 @@ c_tb_boolean.xml
 >[!MORELIKETHIS]
 >
 >* [特性ビルダーでの比較演算子の使用](../features/traits/trait-comparison-operators.md)
-* [特性ビルダーでの演算順序](../features/traits/trait-operator-precedence.md)
-
+>* [特性ビルダーでの演算順序](../features/traits/trait-operator-precedence.md)

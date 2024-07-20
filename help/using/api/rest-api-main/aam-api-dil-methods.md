@@ -1,7 +1,7 @@
 ---
 description: データ統合ライブラリ（DIL）をプログラムで操作できるメソッドです。
-seo-description: データ統合ライブラリ（DIL）をプログラムで操作できるメソッドです。
-seo-title: データ統合ライブラリ API メソッド
+seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
+seo-title: Data Integration Library API Methods
 solution: Audience Manager
 title: データ統合ライブラリ API メソッド
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
@@ -9,7 +9,7 @@ feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 <!-- c_data_integr_library_api.xml -->
 
-## のバージョンを返す DIL {#return-version-dil}
+## DIL のバージョンを返す {#return-version-dil}
 
 古い順に並べ替えられたバージョンのリストを返す `GET` メソッド。
 
@@ -378,7 +378,7 @@ ht-degree: 100%
 } 
 ```
 
-## を生成する DIL {#generate-dil}
+## DIL の生成 {#generate-dil}
 
 [!UICONTROL DIL] の指定バージョンを使用して要求本文で渡された内容に基づいて [!UICONTROL DIL] を生成する `GET` メソッド。URL でバージョンにエイリアス `LATEST` が使用されている場合、[!UICONTROL DIL] の最新バージョンが生成されます。
 

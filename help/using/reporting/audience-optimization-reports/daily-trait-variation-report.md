@@ -1,16 +1,16 @@
 ---
 description: このレポートは、選択した日付より前の 30 日間に 10,000 回以上認識され、同じ期間での標準偏差がどちらの方向にも 1.7 以上であった特性のリストを返します。このレポートを使用すると、特性においてユニークユーザーからのインプレッション数が時間の経過によってどのように変動するかを評価できます。
-seo-description: このレポートは、選択した日付より前の 30 日間に 10,000 回以上認識され、同じ期間での標準偏差がどちらの方向にも 1.7 以上であった特性のリストを返します。このレポートを使用すると、特性においてユニークユーザーからのインプレッション数が時間の経過によってどのように変動するかを評価できます。
-seo-title: Daily Trait Variation レポート
+seo-description: This report returns a list of traits that have been realized at least 10,000 times in the 30 days prior to the selected date(s) and have a standard deviation greater or equal to 1.7 in either direction over the same time interval. The report helps you evaluate how the number of impressions from unique users in a trait fluctuate over time.
+seo-title: Daily Trait Variation Report
 solution: Audience Manager
 title: Daily Trait Variation レポート
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
-feature: Audience Optimization レポート
+feature: Audience Optimization Reports
 exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '717'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 [!UICONTROL Standard Deviation] 列には、選択した期間における各特性の標準偏差を示す、色分けされた棒グラフが表示されます。赤い棒は、負の標準偏差の特性を示します（データポイントが平均を下回る傾向がある）。緑の棒は、正の標準偏差の特性を示します（データポイントが平均を上回る傾向がある）。任意の棒にマウスポインターを置くと、詳細情報と、その特性を維持または除外して詳細を表示するオプションを含むポップアップダイアログボックスが表示されます。
 
-アイコンがレポートの下に表示され、様々な形式でデータを書き出したり、レポートに対しておこなった変更（特性の除外など）を元に戻したり、自動更新を有効または無効にしたり、レポートのデータを更新したりできます。詳しくは、[レポートのアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)を参照してください。
+アイコンがレポートの下に表示され、様々な形式でデータを書き出したり、レポートに対しておこなった変更（特性の除外など）を元に戻したり、自動更新を有効または無効にしたり、レポートのデータを更新したりできます。[ レポートアイコンとツールの説明 ](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained) を参照してください。
 
 ## ユースケース {#use-cases}
 

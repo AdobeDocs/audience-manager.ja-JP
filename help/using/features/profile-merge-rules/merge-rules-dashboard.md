@@ -1,15 +1,15 @@
 ---
 description: すべての結合ルールはダッシュボードで作成および管理します。プロファイル結合ルールは最大で 4 つ作成できます。
-seo-description: すべての結合ルールはダッシュボードで作成および管理します。プロファイル結合ルールは最大で 4 つ作成できます。
-seo-title: プロファイル結合ルールダッシュボード
+seo-description: Create and manage all your merge rules from the dashboard. You can create a maximum of 4 Profile Merge Rules.
+seo-title: Profile Merge Rules Dashboard
 solution: Audience Manager
 title: プロファイル結合ルールダッシュボード
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
-feature: プロファイル結合
+feature: Profile Merge
 exl-id: c6fcbe47-3010-4b7c-a70e-205bf69b4c54
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
@@ -35,4 +35,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
-

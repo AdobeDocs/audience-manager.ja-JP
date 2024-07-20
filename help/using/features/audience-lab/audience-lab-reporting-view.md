@@ -1,7 +1,7 @@
 ---
 description: テストグループのレポートセクションには、テストグループのコンバージョンに関する情報が返されます。これにより、テストセグメントの効果を簡単に比較できます。いくつものフィルターやディメンションを使用してデータを視覚化できます。
-seo-description: テストグループのレポートセクションには、テストグループのコンバージョンに関する情報が返されます。これにより、テストセグメントの効果を簡単に比較できます。いくつものフィルターやディメンションを使用してデータを視覚化できます。
-seo-title: テストグループのレポート
+seo-description: The test group reporting section returns information on test group conversions, allowing an easy comparison of test segment efficacy. Numerous filters and dimensions are available for data visualization.
+seo-title: Test Group Reporting
 solution: Audience Manager
 title: テストグループのレポート
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
@@ -9,7 +9,7 @@ feature: Audience Lab
 exl-id: 5d959002-e904-44df-87e6-e4c85838b076
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '337'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,6 @@ ht-degree: 100%
 >
 >* テストグループに関するレポートは、開始日以降に実施されます。
 >* テストの開始日後で、かつデバイスがテストセグメントに追加された後のコンバージョンのみがカウントされます。そのデバイスがテストグループに割り当てられる前に発生したコンバージョンについてはカウントされません。
-
 
 次のような&#x200B;**[!UICONTROL Aggregate Reporting]**&#x200B;チャートが返されます。
 

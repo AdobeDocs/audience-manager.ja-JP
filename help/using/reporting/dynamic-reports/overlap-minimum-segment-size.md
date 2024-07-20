@@ -1,7 +1,7 @@
 ---
 description: 重複レポートの更新プロセスで必要なセグメントサイズと作成時間の要件について説明します。
-seo-description: 重複レポートの更新プロセスで必要なセグメントサイズと作成時間の要件について説明します。
-seo-title: 重複レポート：更新スケジュールと最小セグメントサイズ
+seo-description: Describes the segment size and creation time requirements required by the Overlap report update process.
+seo-title: Overlap Reports  Update Schedule and Minimum Segment Size
 solution: Audience Manager
 title: 重複レポート：更新スケジュールと最小セグメントサイズ
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
@@ -9,7 +9,7 @@ feature: Overlap Reports
 exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '340'
 ht-degree: 100%
 
 ---
@@ -53,6 +53,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [特性間重複レポート](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
-* [セグメント／特性間重複レポート](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
-* [セグメント間重複レポート](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
-
+>* [セグメント／特性間重複レポート](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
+>* [セグメント間重複レポート](../../reporting/dynamic-reports/segment-segment-overlap-report.md)

@@ -1,16 +1,16 @@
 ---
 description: 特性および期間が同じレポートにおける、ユニークユーザーの合計数の変動について説明します。
-seo-description: Adobe Audience Manager の特性および期間が同じレポートにおける、ユニークユーザーの合計数の変動について説明します
-seo-title: AAM での重複レポートと一般レポートでのユニークユーザーのカウント
+seo-description: Describes the variation in unique user totals between reports for the same trait and time period in Adobe Audience Manager
+seo-title: Counting Unique Users in Overlap and General Reports in AAM
 solution: Audience Manager
 title: 重複レポートと一般レポートでのユニークユーザーのカウント
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
-feature: レポートリファレンス
+feature: Reporting Reference
 exl-id: 439e7e8e-0c2e-4d3e-8148-61b9d57bf4df
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ c_unique_user_counts.xml
 重複レポートでは、次の場合に特性で絞り込まれているユーザーをユニークユーザーとしてカウントします。
 
 * レポートに選択した期間。
-* 特性の[有効期間](../features/traits/segment-ttl-explained.md)の値が、レポートに選択した期間より長い場合。
+* [ 有効期間 ](../features/traits/segment-ttl-explained.md) の値が、レポートに対して選択された時間間隔より長い。
 * 過去 60 日間にユーザーがシステムでアクティブと見られる（その他の特性で絞り込まれている、ID が同期されているなど）場合。
 
 ## 一般レポート：ユニークユーザー数
@@ -39,5 +39,4 @@ c_unique_user_counts.xml
 >[!MORELIKETHIS]
 >
 >* [インタラクティブレポート](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
-* [一般レポート](../reporting/general-reports.md#general-reports-overview)
-
+>* [一般レポート](../reporting/general-reports.md#general-reports-overview)

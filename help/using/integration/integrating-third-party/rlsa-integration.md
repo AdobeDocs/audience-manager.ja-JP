@@ -8,8 +8,8 @@ uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
 source-git-commit: b8d65ef8c27100d174a997eb24a75f37b4e75d40
-workflow-type: ht
-source-wordcount: '293'
+workflow-type: tm+mt
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
@@ -74,4 +74,3 @@ ht-degree: 100%
 >* [ [!DNL URL Destination]](../../features/destinations/create-url-destination.md) の作成
 >* [AdWords リマーケティングリストについて](https://support.google.com/adwords/answer/2472738?hl=ja)
 >* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000?hl=ja)
-

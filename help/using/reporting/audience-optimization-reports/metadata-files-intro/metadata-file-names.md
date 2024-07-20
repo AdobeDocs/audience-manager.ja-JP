@@ -1,16 +1,16 @@
 ---
 description: この仕様に従ってオーディエンスの最適化のメタデータファイルの名前を設定します。
-seo-description: この仕様に従ってオーディエンスの最適化のメタデータファイルの名前を設定します。
-seo-title: メタデータファイルの命名規則
+seo-description: Name your Audience Optimization metadata file according to these specifications.
+seo-title: Naming Conventions for Metadata Files
 solution: Audience Manager
 title: メタデータファイルの命名規則
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-feature: ログファイル
+feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 次の構文は、適正なメタデータファイル名の構造を示しています。なお、*斜体*&#x200B;の部分には実際の情報が入ります。その他の要素は定数で、変動しません。
 
-**構文：**  *`yyyymmdd_0_childID`*
+**構文：** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ ht-degree: 100%
 * 中央のコンポーネント **0** は、技術的には親 ID であり、従来のフィールドです。値は常に **0** として設定する必要があります。
 * 子 ID には、ディメンションに応じて 1 ～ 10 の値を指定できます。次を参照してください。
 
-## 子 ID ディメンション {#child-dimension}
+## 子 ID のディメンション {#child-dimension}
 
 メタデータファイル名において、子 ID は、ファイル内のデータのタイプを分類しデータを階層に配置する識別子になります。ファイル名の子 ID には、次のカテゴリ ID でタグ付けできます。
 

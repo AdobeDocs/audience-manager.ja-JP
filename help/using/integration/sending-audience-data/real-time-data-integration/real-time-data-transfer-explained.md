@@ -1,14 +1,14 @@
 ---
 description: Audience Manager がサードパーティコンテンツプロバイダーとの間でリアルタイムデータ転送を実行する方法の一般的な概要です。
-seo-description: Audience Manager がサードパーティコンテンツプロバイダーとの間でリアルタイムデータ転送を実行する方法の一般的な概要です。
-seo-title: リアルタイムデータ転送プロセスの説明
+seo-description: A general overview of how Audience Manager performs real-time data transfers with a third-party content provider.
+seo-title: Real-Time Data Transfer Process Described
 solution: Audience Manager
 title: リアルタイムデータ転送プロセスの説明
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-feature: 受信データ転送
+feature: Inbound Data Transfers
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '168'
 ht-degree: 100%
 
 ---

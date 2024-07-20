@@ -1,15 +1,15 @@
 ---
 description: この記事では、Audience Manager ユーザーインターフェイスから新しいデバイスベースの宛先を設定する方法について説明します。
-seo-description: この記事では、Audience Manager ユーザーインターフェイスから新しいデバイスベースの宛先を設定する方法について説明します。
-seo-title: 新しいデバイスベースの宛先の追加
+seo-description: This article explains how to configure new device-based destinations from the Audience Manager user interface.
+seo-title: Add New Device-Based Destinations
 solution: Audience Manager
 title: 新しいデバイスベースの宛先の追加
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: c5d7de2e-085d-48b9-a596-381503c79f55
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '420'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 統合プラットフォームを使用して初めてデバイスベースの宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、Audience Manager とアカウントの統合プラットフォームの間の ID 同期を有効にしてください。Audience Manager と宛先プラットフォームの同期を正しくおこなうには必要な操作です。
 
-## 手順 1.宛先プラットフォームの認証 {#step1}
+## 手順 1.宛先プラットフォームでの認証 {#step1}
 
 新しいデバイスベースの宛先を作成する前に、Audience Manager と宛先プラットフォームの統合を設定しておく必要があります。手順は次のとおりです。
 

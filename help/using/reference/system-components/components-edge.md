@@ -1,15 +1,15 @@
 ---
 description: Audience Manager はエッジコンピューティングという分散型トポロジを採用することで、外部ソースによって課される要求を満たします。
-seo-description: Audience Manager はエッジコンピューティングという分散型トポロジを採用することで、外部ソースによって課される要求を満たします。
-seo-title: エッジデータセンターについて
+seo-description: Audience Manager uses distributed, edge-computing topologies to meet the demands placed on our systems by external sources.
+seo-title: Understanding the Edge Data Center
 solution: Audience Manager
 title: エッジデータセンターについて
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
-feature: 'システムコンポーネント '
+feature: System Components
 exl-id: 28958b49-3075-4601-9271-ef2913721a66
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---

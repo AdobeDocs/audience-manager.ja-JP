@@ -1,7 +1,7 @@
 ---
 description: API に関するよくある質問と問題点の説明です。
-seo-description: API に関するよくある質問と問題点の説明です。
-seo-title: API に関するよくある質問
+seo-description: Common API questions and issues.
+seo-title: API FAQ
 solution: Audience Manager
 title: API に関するよくある質問
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
@@ -9,7 +9,7 @@ feature: API
 exl-id: 9a51220e-3f53-4911-876b-16e968d44d0f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '239'
 ht-degree: 100%
 
 ---
@@ -38,13 +38,13 @@ faq_api.xml
 
 メソッドごとにデータの渡し方は異なりますが、機能には影響はありません。例えば、どちらのメソッドでも [!DNL Audience Manager] がデータを宛先に送信し、ID 同期が正常に機能し、データシグナルから特性を作成できます。
 
-<br> 
+<br>
 
 **[!UICONTROL REST API] を使用すると何ができますか？**
 
 [!UICONTROL REST API] を使用すると、ユーザーインターフェイスで使用可能な [!DNL Audience Manager] のほとんどの機能と関数をプログラムで操作できます。
 
-<br> 
+<br>
 
 **[!UICONTROL REST API] クライアント ID およびシークレットを取得するには、どうすればよいですか？**
 

@@ -1,8 +1,8 @@
 ---
 description: DCS は受信する ID を監視し、一定期間に異常に高い頻度で送信された ID をブロックリストに登録します。
 keywords: id；監視；dcs
-seo-description: DCS は受信する ID を監視し、一定期間に異常に高い頻度で送信された ID をブロックリストに登録します。
-seo-title: ID の監視と拒否リスト登録
+seo-description: The DCS monitors the IDs it receives and adds those that are being sent at an unusually high rate over a short period of time to a deny list.
+seo-title: ID Monitoring and Denylisting
 solution: Audience Manager
 title: ID の監視と拒否リスト登録
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
@@ -10,7 +10,7 @@ feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '487'
 ht-degree: 99%
 
 ---

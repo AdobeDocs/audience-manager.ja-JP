@@ -1,15 +1,15 @@
 ---
 description: オプションとして、Audience Manager に送信するデータファイルを PGP で暗号化できます。
-seo-description: オプションとして、Audience Manager に送信するデータファイルを PGP で暗号化できます。
-seo-title: 受信データタイプのファイル PGP 暗号化
+seo-description: As an option, you can encrypt data files with PGP encryption when sending them to Audience Manager.
+seo-title: File PGP Encryption for Inbound Data Types
 solution: Audience Manager
 title: 受信データタイプのファイル PGP 暗号化
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-feature: 受信データ転送
+feature: Inbound Data Transfers
 exl-id: 5f97a326-4840-4350-bbe8-bc8ce32b0a2e
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '165'
 ht-degree: 100%
 
 ---

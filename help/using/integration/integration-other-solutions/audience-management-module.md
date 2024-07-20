@@ -9,8 +9,8 @@ uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics Integration
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
-workflow-type: ht
-source-wordcount: '492'
+workflow-type: tm+mt
+source-wordcount: '457'
 ht-degree: 100%
 
 ---

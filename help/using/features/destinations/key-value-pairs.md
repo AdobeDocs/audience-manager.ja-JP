@@ -3,12 +3,12 @@ description: ' [!DNL key-value pair] は [!DNL related elements]で構成され�
 solution: Audience Manager
 title: 標準およびシリアル  [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
-feature: 宛先の基本
+feature: Destination Basics
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 98%
 
 ---
 
@@ -134,4 +134,4 @@ ht-degree: 100%
 
 ### サポートされる宛先
 
-[!DNL Audience Manager] では、データをシリアル化して、対象となるほとんどあらゆる宛先に送信できます。ただし、この機能を使用する前に、宛先 [!DNL URL] と、必須またはオプションのマクロの挿入位置を知っておく必要があります。宛先パートナーから、マクロの位置に関する情報を入手します。詳しくは、[宛先マクロの定義](../../features/destinations/destination-macros.md#destination-macros-defined)を参照してください。
+[!DNL Audience Manager] では、データをシリアル化して、対象となるほとんどあらゆる宛先に送信できます。ただし、この機能を使用する前に、宛先 [!DNL URL] と、必須またはオプションのマクロの挿入位置を知っておく必要があります。宛先パートナーから、マクロの位置に関する情報を入手します。詳しくは、[ 宛先マクロの定義 ](../../features/destinations/destination-macros.md#destination-macros-defined) を参照してください。

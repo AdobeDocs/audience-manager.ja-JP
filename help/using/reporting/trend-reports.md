@@ -1,15 +1,15 @@
 ---
 description: トレンドレポートでは、特性とセグメントに関するトレンドデータを返します。
-seo-description: トレンドレポートでは、特性とセグメントに関するトレンドデータを返します。
-seo-title: トレンドレポート
+seo-description: A Trend report returns trend data on traits and segments.
+seo-title: Trend Reports
 solution: Audience Manager
 title: トレンドレポート
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
-feature: 一般レポートとトレンドレポート
+feature: General & Trend Reports
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
-workflow-type: ht
-source-wordcount: '651'
+workflow-type: tm+mt
+source-wordcount: '645'
 ht-degree: 100%
 
 ---

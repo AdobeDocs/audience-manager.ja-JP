@@ -1,15 +1,15 @@
 ---
 description: これらは、アドレス可能なオーディエンスで使用される特別な特性です。アクティブオーディエンス特性とデータソース同期特性は、Audience Data／Traits／Audience Traits にあります。
-seo-description: これらは、アドレス可能なオーディエンスで使用される特別な特性です。アクティブオーディエンス特性とデータソース同期特性は、Audience Data／Traits／Audience Traits にあります。
-seo-title: アクティブオーディエンス特性とデータソース同期特性
+seo-description: These are special traits used by Addressable Audiences. Active Audience and Data Source Synced Traits are located in Audience Data > Traits > Audience Traits.
+seo-title: Active Audience Traits and Data Source Synced Traits
 solution: Audience Manager
 title: アクティブオーディエンス特性とデータソース同期特性
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
-feature: 特性
+feature: Traits
 exl-id: 8fa4ea24-1beb-40cb-bdec-540a3f7c2573
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '215'
 ht-degree: 100%
 
 ---
@@ -41,4 +41,3 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [アドレス可能なオーディエンス](../../features/addressable-audiences.md)
-

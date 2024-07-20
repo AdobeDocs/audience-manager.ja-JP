@@ -1,17 +1,17 @@
 ---
 description: Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。使用制限は、アドビの API やユーザーインターフェイへの不正アクセスを試みる可能性がある自動プロセスから Audience Manager を守るのに役立ちます。
-seo-description: Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または API メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。使用制限は、アドビの API やユーザーインターフェイへの不正アクセスを試みる可能性がある自動プロセスから Audience Manager を守るのに役立ちます。
-seo-title: 使用の制限
+seo-description: Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through API methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our APIs or user interface.
+seo-title: Usage Limits
 solution: Audience Manager
 title: 使用の制限
 keywords: ID マッピング, ID マッピング, cookie マッピング
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: 使用状況と請求
+feature: Usage and Billing
 exl-id: 8d29e231-d369-44ad-8e89-e6a4c83175f2
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Audience Manager では、アカウントに作成できる特性、セグメント、宛先、アルゴリズムモデルの数に上限を設定しています。制限は、ユーザーインターフェイスを使用して作成された場合、または [!DNL API] メソッドを使用してプログラムによって作成された場合のどちらに対しても適用されます。上限を設けることで、[!DNL API] またはユーザーインターフェイスが自動プロセスによって不正利用されることを防ぐことができます。
 
-## ID マッピングの上限 {#id-mapping-limits}
+## ID マッピングの制限 {#id-mapping-limits}
 
 次の表に、デバイス ID の [ID マッピング](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)の上限を示します。ID が以下のいずれかの上限に達すると、Audience Manager は、保存時期が最も古い ID マッピングを削除し新しい ID マッピングを追加する先入れ先出し（FIFO）方式で、新規 ID マッピングを追加します。Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID インデックス](../../reference/ids-in-aam.md)を参照してください。
 
@@ -86,7 +86,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 
 | 項目 | 上限 |
 | ----------- | ------------- |
-| 会社のユーザーアカウントの最大数 | 1,000. |
+| 会社のユーザーアカウントの最大数 | 1,000。 |
 
 ## 使用状況の監視 {#monitor-usage}
 
