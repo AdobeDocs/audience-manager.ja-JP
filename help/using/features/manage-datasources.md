@@ -8,10 +8,10 @@ title: データソースの管理
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 6ec76227dd8c7581550c3d95e24fc5b6a4b01093
+source-git-commit: e41dddd022b6fa02cab3e16bd21536d41584975f
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 97%
 >次の制限事項に注意してください。
 >
 >* [ アクティブオーディエンスまたはデータSource同期特性 ](../features/traits/client-activity-synced-audience-traits.md) を削除することはできません。
->* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html?lang=ja)を使用します。
+>* Adobe Analytics を使用しているお客様の場合： Audience Manager では、[!DNL Analytics] レポートスイートから自動的に作成されたデータソースを削除できません。これらのデータソースのマッピングを解除するには、[コアサービス](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes)を使用します。
 
 1. **[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** をクリックします。
 1. 1 つ以上のデータソースの横のチェックボックスをオンにします。リストが長い場合、「[!UICONTROL Search]」のボックスを使用して、目的のデータソースを特定することができます。
