@@ -2,9 +2,9 @@
 title: Audience Manager用にデータ収集ライブラリをAppMeasurementのJavaScript ライブラリから Web SDK JavaScript ライブラリに更新します。
 description: AppMeasurementのJavaScript ライブラリから Web SDK JavaScript ライブラリにAudience Managerするためにデータ収集ライブラリを更新する手順を理解します。
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
-source-git-commit: 3ba980e97763866d82bdf94109068f1f1f8f63d2
+source-git-commit: f8d8eb722e7b5cc4371f400a76fbd548a1318668
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2589'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,18 @@ Analytics チームと協力して、{Tags[ または ](https://experienceleague
 1. 「**[!UICONTROL Save]**」を選択します。
 
 これで、データストリームで、Audience Managerにデータを送信し、Audience Manager応答を Web SDK に渡す準備が整いました。
+
++++
+
++++**4.顧客 ID を ID マップに追加する**
+
+ほとんどのAudience Manager実装では、クロスデバイスのパーソナライゼーションシナリオおよびが、認証状態（ログインまたはログアウト）に応じて訪問者が選定できるセグメントを制御するのに役立つ [ プロファイル結合ルール ](../features/profile-merge-rules/merge-rules-overview.md) を使用しています。 プロファイル結合ルールでは、認証後のデータ収集呼び出しごとに、顧客が所有する ID （CRM ID、アカウント番号など）をAudience Managerに送信する必要があります。 以前は、訪問者 ID サービス（[!DNL visitor.js]）の `setCustomerIDs` 関数を使用して、各 Analytics データ収集呼び出しに顧客 ID を追加してから、Audience Managerに転送されていました。
+
+Web SDKでは、[IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) と呼ばれる特別な XDM 構造を使用して、これらの ID をEdge Networkに送信する必要があります。
+
+ID マップで ID を正しく渡すには、[ID 名前空間 ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces) を理解し、特にExperience Platformサンドボックスにデータを送信する際に渡す ID を慎重に検討する必要があります。 [ この記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305) では、これらの考慮事項と手順の概要を説明します。
+
+渡す ID とタイミングを決定したら、タグ内の [!UICONTROL Identity map] **[!UICONTROL Identity map]** [ データ要素 ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) の使用に関するガイドに従うか、[ID データの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) に記載されている通りに手動で設定して、Web SDKのデプロイメント戦略に合わせます。
 
 +++
 
