@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: b0c35d79a07b481e332ddf8f4aedab5484416a51
+source-git-commit: fa0e5df921550f3c287baa08aedf53cf486d3675
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1863'
 ht-degree: 96%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 96%
 
 + [Audience Manager ガイド](aam-home.md)
 + [Real-Time CDPへの進化ガイド ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
-+ Web SDK への移行 {#migrate-to-web-sdk}
-   + [Adobe Audience Managerのタグ拡張機能から Web SDK のタグ拡張機能への移行](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
-   + [AppMeasurementのJavaScript ライブラリから Web SDK JavaScript ライブラリへの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
++ Web SDKへの移行 {#migrate-to-web-sdk}
+   + [Adobe Audience Managerのタグ拡張機能から Web SDKのタグ拡張機能への移行](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
+   + [AppMeasurementから Web SDKへのデータ収集ライブラリの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + 概要 {#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
