@@ -4,14 +4,14 @@ keywords: baaam;BAAAM;baaam をダウンロード
 seo-description: The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
 seo-title: Getting Started With Bulk Management
 solution: Audience Manager
-title: 一括管理の概要
+title: '一括管理の概要 '
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
+source-git-commit: 0c9c333f4e8d6d416d497f336e3e447e2e251d47
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 93%
+source-wordcount: '715'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Bulk Management Tools は、公式にサポートされているAdobeではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースバイケースで対応します。
+>Bulk Management Tools は、Adobeで正式にサポートされているサービスではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースバイケースで対応します。
 
 <!-- 
 
@@ -48,7 +48,7 @@ c_bulk_start.xml
 
 * [!DNL Experience Cloud] へのログイン。お客様が既にお持ちの資格情報です。
 * [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20210609.xlsm)してください。
-* [!DNL Microsoft Excel][!DNL macOS] または 64 ビット版 [!DNL Microsoft Windows] で実行している. 最新バージョンの [!DNL Microsoft Excel] を使用することをお勧めします。
+* [!DNL Microsoft Excel] は 64 ビット [!DNL Microsoft Windows] で実行されています。 最新バージョンの [!DNL Microsoft Excel] を使用することをお勧めします。 一括管理ツールは [!DNL macOS] ではサポートされていません。
 * ワークシートを開く場合は、[!DNL Bulk Management Tools] で&#x200B;**マクロを有効にする**&#x200B;必要があります。
 
 ## 認証の要件およびオプション {#auth-reqs}
