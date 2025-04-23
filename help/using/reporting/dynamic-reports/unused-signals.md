@@ -7,10 +7,10 @@ title: 未使用シグナルレポート 
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
+source-git-commit: 9c980b8fd5c3cb6ba7b3031726da726ee5caeec6
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '623'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 100%
 
 シグナルは、Web サイトからの情報で、[キーと値のペア](../../reference/key-value-pairs-explained.md)の形式（`color=blue, price>100, gender=female` など）で [!DNL Audience Manager] に渡されます。
 
-未使用シグナルは、収集したものの、特性にマッピングされていないデータで構成されます。[!UICONTROL Unused Signals] レポートには、データが日付、キー、値、頻度カウント別に表形式で表示されます。1 日に 100 回以上 [!DNL Audience Manager] に渡されたマッピングされていないシグナルが、[!UICONTROL Unused Signals] レポートの対象になります。未使用のシグナルは 45 日間保存され、その後破棄されます。
+未使用シグナルは、収集したものの、特性にマッピングされていないデータで構成されます。[!UICONTROL Unused Signals] レポートには、データが日付、キー、値、頻度カウント別に表形式で表示されます。1 日に 100 回以上 [!DNL Audience Manager] に渡されたマッピングされていないシグナルが、[!UICONTROL Unused Signals] レポートの対象になります。
+
+未使用のシグナルは 45 日間保存され、その後破棄されます。 未使用シグナルレポートには、過去 10 日間のデータが表示されます。
 
 このレポートをレビューすると、新規または既存の特性にマッピングできる孤立したシグナルの特定に役に立ちます。
 
