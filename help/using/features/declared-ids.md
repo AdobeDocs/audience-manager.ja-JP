@@ -8,10 +8,10 @@ title: 宣言された ID
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1151'
+ht-degree: 99%
 
 ---
 
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-キー値ペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[管理：コアサービス](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=ja)も参照してください。
+キー値ペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[Experience Cloud サービスの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started) を参照してください。
 
 ## 非推奨（廃止予定）の関数 {#deprecated-functions}
 
