@@ -66,5 +66,5 @@ ht-degree: 88%
 
 時間設定に関しては、次の側面に留意してください。
 
-* セグメントは、デバイスプロファイルが ](../../reference/system-components/components-edge.md) スト [!UICONTROL Edge] ージに保存されるのと同じ期間（最後のリアルタイムインタラクションから 14 日間）で [Edgeに保存されます。 データ保持について詳しくは、[データ保持に関する FAQ](../../faq/faq-privacy.md#data-retention-faq) を参照してください。
+* セグメントは、デバイスプロファイルが [&#128279;](../../reference/system-components/components-edge.md) スト [!UICONTROL Edge] ージに保存されるのと同じ期間（最後のリアルタイムインタラクションから 14 日間）で Edgeに保存されます。 データ保持について詳しくは、[データ保持に関する FAQ](../../faq/faq-privacy.md#data-retention-faq) を参照してください。
 * セグメント化解除操作が [!DNL DCS] 地域全体に伝達されるまでに、およそ 24 時間かかります。[!DNL DCS] 地域の詳細については、[こちら](../../reference/system-components/components-data-collection.md)と[こちら](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。

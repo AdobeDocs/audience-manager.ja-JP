@@ -40,13 +40,13 @@ Web SDK（およびEdge Network）への移行時に、Analytics とAudience Man
 
 Web SDKを使用すると、Edge Networkは、Analytics とAudience Managerに別々のアクションでデータを送信します。 Web SDKは、データをすべてのソリューションに送信する単一のライブラリであり、Edge Networkは、ソリューションに依存しないデータポイントをソリューション固有の形式に変換します。
 
-この新しいデータフローでは、すべてのデータがEdge Network [ データストリーム ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) に送信されます。必要に応じて、これを設定 ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) してAdobe ソリューションにデータを送信 [ できます。 Audience Managerについては、データストリームでAudience Manager サービスを有効にすると、[!DNL XDM] および Analytics データがAudience Managerで受け入れられるシグナルに変換されます。 また、Edge Networkはページに対するAudience Manager応答も返します。Web SDKは、[!DNL AppMeasurement] や [!DNL AudienceManagement] モジュールと同様に応答を処理します。
+この新しいデータフローでは、すべてのデータがEdge Network [ データストリーム ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) に送信されます。必要に応じて、これを設定 [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) してAdobe ソリューションにデータを送信  できます。 Audience Managerについては、データストリームでAudience Manager サービスを有効にすると、[!DNL XDM] および Analytics データがAudience Managerで受け入れられるシグナルに変換されます。 また、Edge Networkはページに対するAudience Manager応答も返します。Web SDKは、[!DNL AppMeasurement] や [!DNL AudienceManagement] モジュールと同様に応答を処理します。
 
 ## タグとタグ以外の移行 {#tags-vs-non-tags}
 
 [!DNL AppMeasurement] 拡張機能を使用してタグを使用する場合でも、別のタグ管理システムで [!DNL AppMeasurement] ライブラリを使用する場合でも、ページに直接 [!DNL AppMeasurement] ージを配置する場合でも、Audience Managerから web SDKに移行する手順は同じです。 Audience Managerの移行は Analytics の移行に依存するので、[!DNL AppMeasurement] から Web SDKへの移行手順は Analytics の移行中に決定されます。
 
-この情報については、{Tags](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) または [2}JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) ベースの実装に関する Analytics ドキュメントで説明しています。[
+この情報については、{Tags[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) または [2}JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) ベースの実装に関する Analytics ドキュメントで説明しています。
 
 ## XDM と `data.__adobe.` ノード {#xdm-data-nodes}
 
@@ -96,7 +96,7 @@ Adobeでは、次のシナリオでこの実装パスを使用することをお
 
 +++**1.Analytics の移行を計画する**.
 
-Analytics チームと協力して、{Tags[ または ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)2}JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) ベースの実装で Analytics の移行手順に従います。 [Analytics の移行を計画したら、このガイドに戻り、引き続きAudience Managerの手順を参照して、Analytics とAudience ManagerAudience Managerの移行を一緒にデプロイするために必要な作業を確認します。
+Analytics チームと協力して、{Tags[ または ](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk)2}JavaScript[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) ベースの実装で Analytics の移行手順に従います。 Analytics の移行を計画したら、このガイドに戻り、引き続きAudience Managerの手順を参照して、Analytics とAudience ManagerAudience Managerの移行を一緒にデプロイするために必要な作業を確認します。
 
 +++
 

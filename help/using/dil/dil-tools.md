@@ -20,7 +20,7 @@ ht-degree: 81%
 >
 >2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] と [!DNL DIL] の開発を廃止しました。
 >
->既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの先 [!DNL DIL] は発展しません。 お客様は、長期的なデータ収集戦略について ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)0}Experience Platform Web SDK} を評価することをお勧めします。[
+>既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの先 [!DNL DIL] は発展しません。 お客様は、長期的なデータ収集戦略について [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)0&rbrace;Experience Platform Web SDK&rbrace; を評価することをお勧めします。
 >
 >2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用する必要があります。
 
@@ -76,7 +76,7 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
    <td> デフォルトの検索</td> 
    <td> AOL、Ask、Bing、Google および Yahoo の各検索エンジンが使用する検索語句を返します。 </td> 
    <td>
-      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
+      <code>var&nbsp;results&nbsp;=&nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -96,10 +96,10 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
   <code>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
-      search.aspx?q=adobe+rules",{ 
+      search.aspx?q=adobe+rules",&lbrace; 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
-      }); 
+      &rbrace;); 
   </code>
   </td></tr> 
   <tr> 
@@ -109,10 +109,10 @@ DIL では、`getSearchReferrer` はサイトに到達するために使用さ�
     <code>
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-      {
+      &lbrace;
         &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
         &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-      });
+      &rbrace;);
     </code>
    </td> 
   </tr> 
@@ -182,19 +182,19 @@ r_dil_get_metatags.xml
 ### サンプルコード
 
 <pre class="javascript"><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
-var dataLib = DIL.create({ 
-     partner: <i>`partnerName'</i>, 
+var dataLib = DIL.create(&lbrace; 
+     partner: <i>&grave;partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>

@@ -20,7 +20,7 @@ ht-degree: 92%
 >
 >2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] と [!DNL DIL] の開発を廃止しました。
 >
->既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの先 [!DNL DIL] は発展しません。 お客様は、長期的なデータ収集戦略について ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)0}Experience Platform Web SDK} を評価することをお勧めします。[
+>既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの先 [!DNL DIL] は発展しません。 お客様は、長期的なデータ収集戦略について [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)0&rbrace;Experience Platform Web SDK&rbrace; を評価することをお勧めします。
 >
 >2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用する必要があります。
 
@@ -56,10 +56,10 @@ c_dil_send_page_objects.xml
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals({ 
+sample_dil.api.signals(&lbrace; 
    c_color:"blue", 
    c_price:"900" 
-}); 
+&rbrace;); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -68,10 +68,10 @@ sample_dil.api.submit();
 この高度な例では、データをオブジェクトで Audience Manager に送信する方法を示します。このメソッドを扱う場合は、[!UICONTROL DIL] を使用すると、オブジェクトを関数パラメーターとして [!DNL signals()] メソッドに渡すことができます。[!UICONTROL DIL] 次のようなコードになります。
 
 <pre class="java"><code>
-var my_object = { 
+var my_object = &lbrace; 
    color : "blue", 
    price : "900" 
-}; 
+&rbrace;; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
@@ -83,21 +83,21 @@ sample_dil.api.signals(my_object,"c_").submit();
 この場合、変数 `my_object` は、配列を使用してデータを保持します。この例は、前述の推奨メソッドで渡された情報に基づいて構築されていますが、製品タイプおよびモデルに適応させるためにレイヤーを追加しています。次のようなコードになります。
 
 <pre class="java"><code>
-var my_objects = [{ 
+var my_objects = &lbrack;&lbrace; 
    color : "blue", 
    price : "900" 
-}, { 
+&rbrace;, &lbrace; 
    type : "acura", 
    model : "tl" 
-}]; 
+&rbrace;&rbrack;; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
-{ 
+&lbrace; 
     sample_dil.api.signals(my_objects[i], "c_"); 
-} 
+&rbrace; 
 sample_dil.api.submit();
 </code></pre>
 
@@ -162,12 +162,12 @@ var search_referrer = DIL.tools.getSearchReferrer();
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer && search_referrer.valid) { 
-  adobe_dil.api.signals({ 
+if (search_referrer && search_referrer.valid) &lbrace; 
+  adobe_dil.api.signals(&lbrace; 
     c_se : se.name, 
     c_st : se.keywords 
-  }).submit(); 
-}
+  &rbrace;).submit(); 
+&rbrace;
 </code></pre>
 
 **未登録検索エンジンのコードサンプル**
@@ -176,17 +176,17 @@ if (search_referrer && search_referrer.valid) {
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, &lbrace;  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
-}); 
+&rbrace;); 
  
-if (search_referrer && search_referrer.valid) { 
-  adobe_dil.api.signals({ 
+if (search_referrer && search_referrer.valid) &lbrace; 
+  adobe_dil.api.signals(&lbrace; 
     c_se : se.name, 
     c_st : se.keywords 
-  }).submit(); 
-}
+  &rbrace;).submit(); 
+&rbrace;
 </code></pre>
 
 ## キーと値の他のキーへのマッピング {#map-key-values}

@@ -33,9 +33,9 @@ ht-degree: 73%
 
 [!DNL Audience Manager] は、3 つの認証方法をサポートする [!DNL REST APIs] 要があります。
 
-* [!BADGE  推奨 ]{type=positive}[2}Developer Console](#oauth-adobe-developer) を使用した {OAuth サーバー間Adobe](https://www.adobe.io/)。 [[!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。[!DNL Adobe] [!DNL APIs] を設定および使用する場合は、この方法をお勧めします。 [OAuth サーバー間Adobe](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) について詳しくは、認証開発者ドキュメントを参照してください。
-* [!BADGE  非推奨 ]{type=negative}[JWT （サービスアカウント）認証 ](#jwt)[Adobe開発者コンソールを使用 ](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。
-* [!BADGE  非推奨 ]{type=negative}[ 従来の OAuth 認証 ](#oauth-deprecated)。 この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
+* [!BADGE &#x200B; 推奨 &#x200B;]{type=positive}[2&rbrace;Developer Console](#oauth-adobe-developer) を使用した &lbrace;OAuth サーバー間Adobe[&#128279;](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。[!DNL Adobe] [!DNL APIs] を設定および使用する場合は、この方法をお勧めします。 [OAuth サーバー間Adobe](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) について詳しくは、認証開発者ドキュメントを参照してください。
+* [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[JWT （サービスアカウント）認証 ](#jwt) [Adobe開発者コンソールを使用 ](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。
+* [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[ 従来の OAuth 認証 ](#oauth-deprecated)。 この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
 
 >[!IMPORTANT]
 >
@@ -211,7 +211,7 @@ curl -X 'GET' \
 
 >[!ENDSHADEBOX]
 
-## [!BADGE  非推奨 ]{type=negative}[!DNL JWT]（[!DNL Service Account]）Adobe Developer を使用した認証 {#jwt}
+## [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[!DNL JWT]（[!DNL Service Account]）Adobe Developer を使用した認証 {#jwt}
 
 +++ 認証トークンを取得する、非推奨の [!DNL JWT] （[!DNL Service Account]）方式に関する情報を表示します。
 
@@ -252,7 +252,7 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 
 +++
 
-## [!BADGE  非推奨 ]{type=negative}[!DNL OAuth] 認証（廃止予定） {#oauth-deprecated}
+## [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[!DNL OAuth] 認証（廃止予定） {#oauth-deprecated}
 
 +++ 認証トークンを取得する、廃止された従来の [!DNL OAuth] 認証方法に関する情報を表示します。
 
@@ -402,7 +402,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 使用する認証方法に応じて、次の表に従ってリクエスト [!DNL URLs] を調整する必要があります。
 
-### [!BADGE  のリクエスト [!DNL URLs] ート ] 推奨）{type=positive}[!BADGE  非推奨 ]{type=negative}Adobe Developerによる [!DNL JWT] 認証 {#request-urls-jwt}
+### [!BADGE &#x200B; のリクエスト [!DNL URLs] ート &#x200B;] 推奨）&lbrace;type=positive&rbrace;[!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}Adobe Developerによる [!DNL JWT] 認証 {#request-urls-jwt}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -420,7 +420,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 {style="table-layout:auto"}
 
-### のリクエス [!DNL URLs] リクエスト [!BADGE  非推奨 ]{type=negative}[!DNL OAuth] 認証 {#request-urls-oauth}
+### のリクエス [!DNL URLs] リクエスト [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[!DNL OAuth] 認証 {#request-urls-oauth}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |

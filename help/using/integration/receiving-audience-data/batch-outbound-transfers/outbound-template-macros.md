@@ -106,7 +106,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>閉じ中括弧（<code>}</code>）を挿入します。 </p> </td> 
+   <td colname="col2"> <p>閉じ中括弧（<code>&rbrace;</code>）を挿入します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -134,7 +134,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>開き波括弧（<code>{</code>）を挿入します。 </p> </td> 
+   <td colname="col2"> <p>開き波括弧（<code>&lbrace;</code>）を挿入します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 

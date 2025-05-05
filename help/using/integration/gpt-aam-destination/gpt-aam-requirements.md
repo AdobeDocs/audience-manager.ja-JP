@@ -24,7 +24,7 @@ ht-degree: 96%
 
 * **を追加[!UICONTROL DIL]：**&#x200B;ターゲットに設定するすべてのページに [!UICONTROL Data Integration Library (DIL)] コードをデプロイします。[!UICONTROL DIL] は Audience Manager のセグメントデータとユーザー ID を、[!DNL GPT] がターゲティングに使用する Cookie に書き込みます。
 
-* **[!UICONTROL Cookie Destination]の作成：**[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
+* **[!UICONTROL Cookie Destination]の作成：**&#x200B;[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
 
 * **Cookie チェックコードの実装**：[!DNL GPT] の `.setTargeting` API メソッドを、推奨される [Cookie チェックコード](../../integration/gpt-aam-destination/gpt-aam-modify-api.md)でラップします。このコードにより、`.setTargeting`.メソッドを呼び出す前に有効な AAM Cookie が検索されるので、エラーが回避されます。
 
