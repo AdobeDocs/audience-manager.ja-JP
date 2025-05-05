@@ -40,4 +40,4 @@ Audience Manager で過去 7 日以内に受信した未使用シグナルの概
 保存済みの検索結果では、条件に該当する上位 50 件の結果が表示されます。
 
 [!UICONTROL Signals Dashboard] の使用方法については、以下のビデオをご覧ください。
->[!VIDEO](https://video.tv.adobe.com/v/25151/)
+>[!VIDEO](https://video.tv.adobe.com/v/327523?captions=jpn)

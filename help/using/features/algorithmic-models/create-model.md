@@ -111,7 +111,7 @@ ht-degree: 100%
 
 ファーストパーティの類似（look-alike）モデルを作成し、コンバーターに似た独自の訪問者をより多く見つける方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/)
+>[!VIDEO](https://video.tv.adobe.com/v/328275?captions=jpn)
 
 >[!MORELIKETHIS]
 >

@@ -63,7 +63,7 @@ ht-degree: 96%
   >
   >Audience Manager では、[!UICONTROL trait]に適合する[!UICONTROL cross-device] ID がある場合にのみ、[!UICONTROL Identity Type Breakdown]レポートが表示されます。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+  >[!VIDEO](https://video.tv.adobe.com/v/34081?captions=jpn)
 
 ## [!UICONTROL Trait] 式 {#trait-expression}
 

@@ -31,4 +31,4 @@ ht-degree: 100%
 
 以下のビデオでは、使用済みおよび未使用のシグナルの検索、Analytics の特性の作成、データの理解など、[!UICONTROL Data Explorer] によって Adobe Analytics データを検出および使用する方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25150)
+>[!VIDEO](https://video.tv.adobe.com/v/330353?captions=jpn)

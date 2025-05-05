@@ -49,11 +49,11 @@ ht-degree: 98%
 
 ビデオチュートリアルを希望する場合は、特性の除外のビデオデモをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38134/?quality=12&captions=jpn)
 
 さらに、クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36810/?quality=12&captions=jpn)
 
 ## 重要な側面と制限事項 {#important-aspects-and-limitations}
 
@@ -96,7 +96,7 @@ ht-degree: 98%
 
 [!UICONTROL Look-Alike Model] からの特定の特性を除外する方法と理由については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/)
+>[!VIDEO](https://video.tv.adobe.com/v/38134?captions=jpn)
 
 ## 関連リンク
 
