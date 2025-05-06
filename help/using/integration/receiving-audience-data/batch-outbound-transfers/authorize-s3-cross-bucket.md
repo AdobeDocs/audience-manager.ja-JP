@@ -7,10 +7,10 @@ title: 送信ファイルに Amazon S3 のクロスアカウントのバケッ�
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 feature: Outbound Data Transfers
 exl-id: e52f5bc0-7dc0-4c73-833c-5a778e8b5891
-source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
+source-git-commit: 9c0254e8a29ffeb0353ed6faa898b74bcae7cef1
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 83%
+source-wordcount: '186'
+ht-degree: 69%
 
 ---
 
@@ -21,3 +21,8 @@ ht-degree: 83%
 [!DNL Amazon S3] アクセスキーと秘密鍵を共有しない場合は、[!DNL Audience Manager] コンサルタントまたはカスタマーケアにお問い合わせください。[!DNL Cross-Account Bucket Permissions] が設定されます。
 
 [Amazon S3 に関するドキュメント](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)に従って、送信データファイルを受信する [!DNL S3] バケットの [!DNL Amazon S3] アカウント ID を許可リストに登録するだけで済みます。担当の [!DNL Audience Manager]コンサルタントまたはカスタマーケアがアドビの [!DNL Amazon S3] アカウント ID をお渡しします。
+
+>[!NOTE]
+>
+>Amazon S3 オブジェクトのサイズ制限により、Audience Managerは最大 1 TB の分割サイズをサポートします。 分割サイズを指定しない場合は、1 TB の制限が自動的に適用されます。
+
