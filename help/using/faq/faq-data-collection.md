@@ -3,17 +3,18 @@ description: データ収集と統合に関するよくある質問と問題点�
 seo-description: Common data collection and integration questions and issues.
 seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
-title: データ収集および製品統合に関するよくある質問
+title: 'データ収集および製品統合に関するよくある質問 '
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP アドレス; STFP IP アドレス; FTP アドレス
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 974f45268d50c486c872137a3aa6d8fc7f691024
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 100%
+source-wordcount: '1255'
+ht-degree: 92%
 
 ---
+
 
 # データ収集および製品統合に関するよくある質問 {#data-collection-and-product-integration-faq}
 
@@ -25,7 +26,7 @@ ht-degree: 100%
 
 [!UICONTROL Inbound] を通じてオンボーディングされる特性は、[!DNL DCS] で生成されるのと同じように [!UICONTROL Inbound] で生成されます。[!UICONTROL Inbound] を識別するには、次のように、いくつか異なる方法があります。
 
-* リモート IP は 68.67.173.18 に設定されます。
+* リモート IP は 68.67.173.18 に設定されます
 * DomainID は 5325 に設定されます。
 * 地域は 0 に設定されます。
 
@@ -180,7 +181,7 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 <br>
 
-**[DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md) の機能をテストしたいと思っています。次のように、イベント呼び出しを送信します。呼び出しには[宣言された ID](../features/declared-ids.md) とシグナルが含まれており、それによって、セットアップ済みの特性とセグメントが認識されます。[!UICONTROL General Reports] と [!UICONTROL Trend Reports] を使用して、特性とセグメントのユーザー数が増加していることを確認できますか？**
+**[DCS API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md) の機能をテストしたいと思っています。次のように、イベント呼び出しを送信します。呼び出しには[宣言された ID](../features/declared-ids.md) とシグナルが含まれており、それによって、セットアップ済みの特性とセグメントが認識されます。[!UICONTROL General Reports] と [!UICONTROL Trend Reports] を使用して、特性とセグメントの母集団が増加していることを確認できますか？**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
@@ -188,7 +189,7 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 いいえ。この場合は [!UICONTROL General Reports] と [!UICONTROL Trend Reports] は参考にしないでください。
 
-これらのレポートは、レポートの生成時にバックエンドで確認される認証されていないプロファイルレコード（UUID）に基づいてユーザー数を計算します。
+これらのレポートは、レポートの生成時にバックエンドで確認される認証されていないプロファイルレコード（UUID）に基づいて母集団を計算します。
 
 [!DNL DCS] の最初の呼び出し時に、宣言された ID はどの UUID にもリンクされて&#x200B;*いません*（つまり、[demdex Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=ja) がクライアント側にありません）。[!DNL DCS] は UUID をランダムに生成し、[!DNL demdex] Cookie を設定してレスポンス呼び出しに含めて渡しますが、この場合、UUID はバックエンドに送信されません。
 
@@ -210,6 +211,8 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 **非アクティブな Amazon S3 ユーザーアクセスキーはどうなりますか？**
 
-アドビは、Audience Manager のお客様に Audience Manager [!DNL Amazon S3] バケットのユーザーアクセスキーを提供します。 セキュリティ上の理由から、100 日間操作がないと、キーは自動的に無効になります。
+Adobeは、Audience Managerのお客様に [!DNL Amazon S3] バケットのアクセスキーを提供します。 セキュリティ上の理由から、これらのアクセスキーは 100 日間使用されない場合、自動的に無効になります。
 
-アクセスキーを再度有効にする、または新しいアクセスキーをリクエストするには、カスタマーサポートにお問い合わせください。
+アクセスキーが無効になっている場合、カスタマーサポートに連絡して、アクセスキーを再度有効にするか新しいアクセスキーをリクエストできます。
+
+セキュリティを強化するために、1000 日間非アクティブのままのアクセスキーは、Amazon S3 IAM ユーザーアカウントと共に完全に削除されます。 再来訪のお客様で、この期間を過ぎるとアクセスが必要になる場合は、カスタマーサポートに連絡してアカウントを再作成し、新しいアクセスキーを受け取ります。
