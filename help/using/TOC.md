@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: fa0e5df921550f3c287baa08aedf53cf486d3675
+source-git-commit: a03953af94e98d1aabfc9cb6cd1af82f42080d91
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 96%
+source-wordcount: '1866'
+ht-degree: 93%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 96%
 # Audience Manager ユーザーガイド {#user-guide}
 
 + [Audience Manager ガイド](aam-home.md)
-+ [Real-Time CDPへの進化ガイド ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=ja)
-+ Web SDKへの移行 {#migrate-to-web-sdk}
++ [Real-Time CDPへの進化ガイド ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ Web SDKへの移行{#migrate-to-web-sdk}
    + [Adobe Audience Managerのタグ拡張機能から Web SDKのタグ拡張機能への移行](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [AppMeasurementから Web SDKへのデータ収集ライブラリの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
-+ 概要 {#overview}
++ 概要{#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
    + [データのセキュリティ](overview/data-security-and-privacy/data-security.md)
@@ -38,16 +38,16 @@ ht-degree: 96%
          + [IAB TCF 用 Audience Manager プラグイン](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [データガバナンス](overview/data-security-and-privacy/data-governance.md)
    + [Audience Manager のアクセシビリティ](/help/using/overview/accessibility-in-aam.md)
-+ 機能 {#features}
++ 機能{#features}
    + [アドレス可能なオーディエンス](features/addressable-audiences.md)
-   + 管理 {#administration}
+   + 管理{#administration}
       + [Admin Console への Audience Manager ユーザーの移行](features/administration/admin-console-migration.md)
       + [管理](features/administration/administration-overview.md)
       + [アカウント設定の編集](features/administration/edit-account-settings.md)
       + [IP アドレスの難読化](features/administration/ip-obfuscation.md)
       + [使用の制限](features/administration/usage-limits.md)
       + [アクティビティ使用状況レポート](features/administration/activity-usage-reporting.md)
-   + アルゴリズムモデル {#algorithmic-models}
+   + アルゴリズムモデル{#algorithmic-models}
       + [アルゴリズムモデルの概要](features/algorithmic-models/algo-models-overview.md)
       + 類似モデリング {#look-alike-modeling}
          + [類似（look-alike）モデリングについて](features/algorithmic-models/understanding-models.md)
@@ -57,30 +57,31 @@ ht-degree: 96%
          + [Predictive Audiences の概要](features/algorithmic-models/predictive-audiences.md)
          + [Predictive Audiences の使用の手引き](features/algorithmic-models/predictive-audiences-start.md)
          + [Predictive Audiences レポート](features/algorithmic-models/predictive-audiences-reporting.md)
-   + Audience Lab {#audience-lab}
+   + Audience Lab{#audience-lab}
       + [Audience Lab の概要](features/audience-lab/audience-lab.md)
       + [テストグループの管理](features/audience-lab/audience-lab-manage-test-groups.md)
       + [テストグループの情報](features/audience-lab/audience-lab-information-view.md)
       + [テストグループのレポート](features/audience-lab/audience-lab-reporting-view.md)
       + [Audience Lab のユースケース](features/audience-lab/audience-lab-use-cases.md)
       + [Audience Lab の高度な機能](features/audience-lab/audience-lab-advanced.md)
-   + Audience Marketplace {#audience-marketplace}
+   + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + データプロバイダー向けの Audience Marketplace {#audience-marketplace-for-data-providers}
+      + [Audience Marketplaceの最適化](features/audience-marketplace/audience-marketplace-optimization.md)
+      + データプロバイダー向けの Audience Marketplace{#audience-marketplace-for-data-providers}
          + [データプロバイダー向けの Audience Marketplace](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [データフィードの作成、価格設定および管理](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
          + [データフィードプロバイダーに対する請求](features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
-      + データ購入者向けの Audience Marketplace {#audience-marketplace-for-data-buyers}
+      + データ購入者向けの Audience Marketplace{#audience-marketplace-for-data-buyers}
          + [データ購入者向けの Audience Marketplace](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
          + [データフィードのサブスクリプションの管理](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
          + [データフィード購入者に対する請求](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
       + [非公開データフィード](features/audience-marketplace/marketplace-private-feeds.md)
    + [顧客データフィード](features/cdf-files.md)
-   + データエクスプローラ {#data-explorer}
+   + Data Explorer{#data-explorer}
       + [Data Explorer - 概要、メリット、ユースケース](features/data-explorer/data-explorer-overview.md)
       + [シグナルについて](features/data-explorer/data-explorer-understanding-signals.md)
       + [シグナルダッシュボード](features/data-explorer/data-explorer-signals-dashboard.md)
-      + シグナル検索 {#signals-search}
+      + シグナル検索{#signals-search}
          + [シグナル検索の概要](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [キー値ペアによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [フィルターによるシグナルの検索](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
@@ -98,22 +99,22 @@ ht-degree: 96%
       + [グローバルデータソース](features/global-data-sources.md)
    + [宣言された ID](features/declared-ids.md)
    + [派生シグナル](features/derived-signals.md)
-   + 宛先 {#destinations}
+   + 宛先{#destinations}
       + [宛先の概要](features/destinations/destinations.md)
       + [宛先ホームページ](features/destinations/destinations-home.md)
-      + Adobe Experience Cloud の宛先 {#experience-cloud-destinations}
+      + Adobe Experience Cloud宛先{#experience-cloud-destinations}
          + [Analytics の宛先の設定](features/destinations/create-analytics-destination.md)
       + People-Based Destinations {#people-based}
          + [概要とユースケース](features/destinations/people-based-destinations-overview.md)
          + [前提条件と考慮事項](features/destinations/people-based-destinations-prerequisites.md)
-         + 実装ガイド {#implementation-guide}
+         +  実装ガイド  {#implementation-guide}
             + [実装の概要](features/destinations/people-based-destinations-workflow.md)
             + [ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-combined.md)
             + [ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
             + [ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [ピープルベースのプラットフォームを使用した認証](features/destinations/people-based-destinations-authentication.md)
          + [共有可能なオーディエンス](/help/using/features/destinations/people-based-destinations-reporting.md)
-      + デバイスベースの宛先（サーバー間）{#device-based}
+      + デバイスベースの宛先（サーバー間） {#device-based}
          + [新しいデバイスベースの宛先の追加](features/destinations/add-device-based-destinations.md)
          + [Audience Manager のデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
@@ -129,7 +130,7 @@ ht-degree: 96%
          + [宛先マクロの定義](features/destinations/destination-macros.md)
          + [標準型およびシリアル型のキー値ペア](features/destinations/key-value-pairs.md)
          + [宛先へのデータ書き出しコントロールの追加](/help/using/features/destinations/add-data-export-labels.md)
-   + プロファイル結合ルール {#profile-merge-rules}
+   + プロファイル結合ルール{#profile-merge-rules}
       + [プロファイル結合ルールの概要](features/profile-merge-rules/merge-rules-overview.md)
       + [プロファイル結合ルールの導入](features/profile-merge-rules/merge-rules-start.md)
       + [プロファイル結合ルールダッシュボード](features/profile-merge-rules/merge-rules-dashboard.md)
@@ -140,7 +141,7 @@ ht-degree: 96%
       + [プロファイル結合ルールのレポート指標](features/profile-merge-rules/profile-link-metrics.md)
       + [プロファイル結合ルールとデバイスのセグメント化解除プロセス](features/profile-merge-rules/merge-rule-unsegment.md)
       + [Instant Cross-Device Suppression](features/profile-merge-rules/instant-cross-device-suppression.md)
-   + セグメント {#segments}
+   + セグメント{#segments}
       + [セグメント：目的、構成、ルール](features/segments/segments-purpose.md)
       + [セグメントリスト表示](features/segments/segments-dashboard.md)
       + [セグメント概要表示](features/segments/segment-summary-view.md)
@@ -149,17 +150,17 @@ ht-degree: 96%
       + [最新性と頻度](features/segments/recency-and-frequency.md)
       + [セグメントビルダー](features/segments/segment-builder.md)
       + [セグメント式エディターで使用するコード構文](features/segments/segment-code-syntax.md)
-      + [セグメントビルダーにおける特性とセグメントのユーザー数データ](features/segments/segment-builder-data.md)
+      + [セグメントビルダーにおける特性とセグメント母集団データ](features/segments/segment-builder-data.md)
       + [特性レコメンデーション](features/segments/trait-recommendations.md)
-      + [特性およびセグメントの資格に関するリファレンス](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=ja)
-   + 特性 {#traits}
+      + [特性およびセグメントの選定に関するリファレンス](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=ja)
+   + 特性{#traits}
       + [特性の概要](/help/using/features/traits/traits-overview.md)
       + [特性の詳細ページ](features/traits/trait-details-page.md)
       + [特性ダッシュボード](features/traits/trait-dashboard.md)
       + [アクティブオーディエンス特性とデータソース同期特性](features/traits/client-activity-synced-audience-traits.md)
       + [フォルダー特性：詳細](features/traits/about-folder-traits.md)
       + [フォルダー特性の管理](features/traits/manage-folder-traits.md)
-      + 特性ビルダー {#trait-builder}
+      + 特性ビルダー{#trait-builder}
          + [特性ビルダーの概要](features/traits/about-trait-builder.md)
          + [ルールベースまたはオンボードの特性の作成](features/traits/create-onboarded-rule-based-traits.md)
          + [特性ルールの管理](features/traits/manage-trait-rules.md)
@@ -172,13 +173,13 @@ ht-degree: 96%
       + [一般的なカテゴリへの特性の分類](features/traits/trait-common-taxonomy.md)
       + [キー変数名の要件](features/traits/trait-key-name-requirements.md)
       + [セグメントと特性の有効期間についての説明](features/traits/segment-ttl-explained.md)
-      + [キー変数のプレフィックスに関する要件](features/traits/trait-variable-prefixes.md)
+      + [キー変数の接頭辞に関する要件](features/traits/trait-variable-prefixes.md)
       + [プラットフォームレベルのキーによる GeoTargeting（地域に基づくターゲティング）](features/traits/trait-geotarget-keys.md)
       + [プラットフォームレベルのキーによるデバイスターゲティング](features/traits/trait-device-targeting.md)
       + [ブール演算子と比較演算子を使用した式のサンプル](features/traits/trait-expression-samples.md)
-      + [特性およびセグメントの資格に関するリファレンス](features/traits/trait-and-segment-qualification-reference.md)
+      + [特性およびセグメントの選定に関するリファレンス](features/traits/trait-and-segment-qualification-reference.md)
    + [訪問者プロファイルビューア](features/visitor-profile-viewer.md)
-+ レポート {#reporting}
++ レポート{#reporting}
    + [レポートの概要](reporting/reports-overview.md)
    + [レポートダッシュボード](reporting/reports-dashboard.md)
    + [一般レポート](reporting/general-reports.md)
@@ -226,21 +227,21 @@ ht-degree: 96%
    + [送信ファイル履歴](reporting/outbound-history-report.md)
    + [重複レポートと一般レポートでのユニークユーザーのカウント](reporting/unique-user-counts.md)
    + [選択した Audience Manager レポートでのデータサンプリングとエラー率](reporting/report-sampling.md)
-+ API と SDK コード {#api-and-sdk-code}
++ API と SDK コード{#api-and-sdk-code}
    + [API と SDK コードの概要](api/api.md)
    + [Audience Manager の API コードの移行](api/api-swagger-migration.md)
-   + データ収集サーバー（DCS）API メソッドおよびコード {#dcs}
+   + データ収集サーバー（DCS）API メソッドおよびコード{#dcs}
       + [DCS API メソッドとコード](api/dcs-intro/dcs-intro.md)
-      + DCS イベント呼び出し {#dcs-event-calls}
+      + DCS イベント呼出し{#dcs-event-calls}
          + [DCS イベント呼び出し API](api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
          + [DCS へのデータ送信](api/dcs-intro/dcs-event-calls/dcs-url-send.md)
          + [DCS からのデータ受信](api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
-      + DCS の API {#dcs-apis}
+      + DCS API{#dcs-apis}
          + [サーバー間データ転送用の DCS API](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [DCS 応答からのユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
          + [Adobe Experience Platform ID サービスを通じたユーザー ID と地域 ID の取得](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [サーバー間 DCS API 呼び出しの実行](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
-      + DCS API リファレンス {#dcs-api-reference}
+      + DCS API リファレンス{#dcs-api-reference}
          + [DCS API リファレンスの概要](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS API メソッド](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS エラーコード、メッセージ、例](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
@@ -249,14 +250,14 @@ ht-degree: 96%
          + [DCS 呼び出しでのキー値ペアの形式](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [競合状態とエラー処理](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
          + [DCS API 呼び出しでサポートされている属性](api/dcs-intro/dcs-api-reference/dcs-keys.md)
-   + REST API {#rest-apis}
+   + REST API{#rest-apis}
       + [REST API の概要](api/rest-api-main/rest-api-main.md)
       + [REST API の使用の手引き](api/rest-api-main/aam-api-getting-started.md)
       + [アルゴリズム API メソッド](api/rest-api-main/aam-api-algo-methods.md)
       + [データ統合ライブラリ API メソッド](api/rest-api-main/aam-api-dil-methods.md)
       + [データソース API メソッド](api/rest-api-main/aam-api-data-sources.md)
       + [派生シグナル API メソッド](api/rest-api-main/aam-api-derived-signals.md)
-      + 宛先 API メソッド {#destination-api-methods}
+      + 宛先 API メソッド{#destination-api-methods}
          + [宛先 API メソッドの概要](api/rest-api-main/aam-api-destinations/aam-api-destinations.md)
          + [宛先の作成](api/rest-api-main/aam-api-destinations/aam-api-create-destinations.md)
          + [セグメントの宛先へのマッピング](api/rest-api-main/aam-api-destinations/aam-api-map-segments.md)
@@ -268,15 +269,15 @@ ht-degree: 96%
       + [分類 API メソッド](api/rest-api-main/aam-api-taxonomy.md)
       + [特性 API メソッド](api/rest-api-main/api-traits.md)
       + [特性タイプメソッド](api/rest-api-main/aam-api-trait-type.md)
-      + ユーザー、グループ、権限の管理 API メソッド {#user-group-permissions}
+      + ユーザー、グループ、権限の管理 API メソッド{#user-group-permissions}
          + [ユーザー管理 API メソッド](api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)
          + [グループ管理 API メソッド](api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)
          + [権限管理 API メソッド](api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
       + [DCS 地域 API メソッド](api/rest-api-main/aam-api-dcs-regions.md)
    + [SDK コード ](api/aam-sdk.md)
-+ データ統合ライブラリ（DIL）API {#dil-api}
++ データ統合ライブラリ（DIL）API{#dil-api}
    + [データ統合ライブラリ（DIL）について](dil/dil-overview.md)
-   + クラスレベルの DIL メソッド {#class-level-dil-methods}
+   + クラスレベルの DIL メソッド{#class-level-dil-methods}
       + [クラスレベルの DIL API の概要](dil/dil-class-overview/dil-start.md)
       + [DIL create](dil/dil-class-overview/dil-create.md)
       + [getDil](dil/dil-class-overview/dil-get-instance.md)
@@ -288,7 +289,7 @@ ht-degree: 96%
    + [DIL のユースケースとコードサンプル](dil/dil-use-cases.md)
    + [Flash DIL](dil/dil-flash.md)
    + [DIL リリースノート](/help/using/dil/dil-release-notes.md)
-+ 実装および統合ガイド {#implementation-integration-guides}
++ 実装および統合ガイド{#implementation-integration-guides}
    + [実装および統合ガイド](integration/implementation-and-integration.md)
    + [データ統合方法](integration/data-integration-methods.md)
    + Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合 {#integrate-dfp-using-gpt}
@@ -304,19 +305,19 @@ ht-degree: 96%
       + [Audience Manager の宛先としての Google Ad Manager（旧称 DFP）](integration/aam-dfp.md)
       + [Google AdWords リマーケティングリストへのセグメントの送信](integration/integrating-third-party/rlsa-integration.md)
    + [Audience Manager の実装](integration/implement-audience-manager.md)
-   + メディアデータの統合 {#media-data-integration}
+   + メディアデータの統合{#media-data-integration}
       + [メディアデータ統合の概要](integration/media-data-integration/media-data-integration.md)
       + [アクションにつながるログファイル](integration/media-data-integration/actionable-log-files.md)
       + [ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ](integration/media-data-integration/impression-data-pixels.md)
       + [ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ](integration/media-data-integration/click-data-pixels.md)
-   + オーディエンスデータの受信 {#receiving-audience-data}
+   + オーディエンスデータの受信{#receiving-audience-data}
       + [オーディエンスデータの概要](integration/receiving-audience-data/receiving-audience-data-overview.md)
       + [送信データ転送のための ID 同期](integration/receiving-audience-data/id-sync-outbound.md)
-      + リアルタイム送信データ転送 {#real-time-outbound-transfers}
+      + リアルタイム送信データ転送{#real-time-outbound-transfers}
          + [リアルタイム送信データ転送](integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md)
          + [デジタル署名された HTTP 要求](integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md)
          + [リアルタイムのアウトバウンド転送での OAuth 2.0 統合](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
-      + バッチ送信データ転送 {#batch-outbound-data-transfers}
+      + バッチ送信データ転送{#batch-outbound-data-transfers}
          + [バッチ送信データ転送の概要](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
          + [バッチデータ転送統合の設定](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
          + [送信データファイル名：構文と例 ](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
@@ -324,13 +325,13 @@ ht-degree: 96%
          + [送信テンプレートマクロ](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [送信マクロの例](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
          + [送信ファイルに Amazon S3 のクロスアカウントのバケットのアクセス許可を使用する](integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
-   + オーディエンスデータの送信 {#sending-audience-data}
+   + オーディエンスデータの送信{#sending-audience-data}
       + [オーディエンスデータの送信](integration/sending-audience-data/send-audience-data.md)
       + リアルタイム受信データ統合 {#real-time-inbound-data-integration}
          + [受信リアルタイムデータ転送の技術仕様](integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
          + [ピクセルベースのデータ転送](integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
          + [リアルタイム受信データ取り込み](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
-      + バッチデータ転送プロセス {#batch-data-transfer-process}
+      + バッチデータ転送プロセス{#batch-data-transfer-process}
          + [バッチデータ転送プロセスの説明](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
          + [Audience Manager へのバッチデータ送信の概要](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [受信データ転送のための ID 同期](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
@@ -343,21 +344,21 @@ ht-degree: 96%
          + [受信処理後パートナーに送信されるメッセージの例](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
          + [ インバウンドファイル用にAmazon S3 のクロスアカウントバケットの権限を活用 ](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
-   + Adobe Experience Platform との統合 {#integration-experience-platform}
-      + [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform セグメント共有](integration/integration-aep/aam-aep-audience-sharing.md)
-   + 他の Experience Cloud アプリケーションとの統合 {#integration-other-solutions}
+   + Adobe Experience Platformとの統合 {#integration-experience-platform}
+      + [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform のセグメント共有](integration/integration-aep/aam-aep-audience-sharing.md)
+   + 他のExperience Cloud アプリケーションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
       + [Adobe Analytics から Audience Manager にデータを転送する方法 ](integration/integration-other-solutions/audience-management-module.md)
       + [Adobe Analytics セグメントを Experience Cloud に公開する（Adobe Analytics のドキュメントを開く）](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/t-publish-audience-segment.html?lang=ja)
       + [Audience Manager と Adobe Campaign の統合（Adobe Campaign ドキュメントを開く）](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=ja)
-+ リファレンス {#reference}
++ リファレンス{#reference}
    + [リファレンスの概要](reference/reference.md)
    + [Amazon S3：概要 ](reference/amazon-s3.md)
    + [広告主のユースケース](reference/advertiser-use-cases.md)
    + [パブリッシャーのユースケース](reference/publisher-use-cases.md)
    + [ベータ環境](reference/beta-environment.md)
    + [特性およびセグメントビルダーのブール式](reference/boolean-expressions-tsb.md)
-   + 一括管理ツール {#bulk-management-tools}
+   + 一括管理ツール{#bulk-management-tools}
       + [一括管理の概要](reference/bulk-management-tools/bulk-management-intro.md)
       + [一括リクエスト](reference/bulk-management-tools/bulk-requests.md)
       + [一括更新](reference/bulk-management-tools/bulk-updates.md)
@@ -403,18 +404,18 @@ ht-degree: 96%
    + [Predictive Audiences に関する FAQ](faq/faq-predictive-audiences.md)
    + [ターゲティングに関するよくある質問](faq/faq-targeting.md)
    + [レポートに関するよくある質問](faq/faq-reporting.md)
-+ ヘルプと法的事項 {#help-and-legal}
++ ヘルプと法的事項{#help-and-legal}
    + [概要](/help/using/help-legal/help-legal-overview.md)
    + [問題がある場合](/help/using/help-legal/help-problem.md)
    + [連絡先情報および法的事項](/help/using/help-legal/help-legal-contact.md)
-+ カスタマーサポートに関するよくある問題 {#top-support-issues}
++ カスタマーサポートに関するよくある問題{#top-support-issues}
    + [概要](/help/using/support-issues/support-issues-overview.md)
    + [10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [重複レポートページに特性やセグメントが表示されないのはなぜですか？](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [読み取り専用ユーザーが特性およびセグメントを作成、編集または削除できるのはなぜですか？](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Audience Manager の顧客ではないのに、サイトに Audience Manager JavaScript 呼び出しが表示される](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Audience Manager Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
-+ ドキュメントの更新 {#documentation-updates}
++ ドキュメントのアップデート{#documentation-updates}
    + [ドキュメントの更新（2021 年）](docs-updates/docs-2021.md)
    + [ドキュメントの更新（2020 年）](docs-updates/docs-2020.md)
    + [ドキュメントの更新（2019 年）](docs-updates/docs-2019.md)
