@@ -107,7 +107,7 @@ ht-degree: 93%
       + People-Based Destinations {#people-based}
          + [概要とユースケース](features/destinations/people-based-destinations-overview.md)
          + [前提条件と考慮事項](features/destinations/people-based-destinations-prerequisites.md)
-         +  実装ガイド  {#implementation-guide}
+         + 実装ガイド  {#implementation-guide}
             + [実装の概要](features/destinations/people-based-destinations-workflow.md)
             + [ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-combined.md)
             + [ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
