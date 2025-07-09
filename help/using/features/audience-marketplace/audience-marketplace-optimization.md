@@ -5,13 +5,13 @@ title: Audience Marketplaceの最適化
 feature: Audience Marketplace
 hide: true
 hidefromtoc: true
-source-git-commit: a03953af94e98d1aabfc9cb6cd1af82f42080d91
+exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
+source-git-commit: e9b8f102b5a123ba4a9f6e9c9a29e331d803d293
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '641'
 ht-degree: 1%
 
 ---
-
 
 # Audience Marketplaceの最適化 {#audience-marketplace-optimization}
 
@@ -19,7 +19,7 @@ Adobeでは、Audience Marketplaceを強化して、アクティブなフィー�
 
 このプロセス中に、アクティブに使用されていないデータプロバイダーを削除しています。 また、最適化により、これらのデータプロバイダーから提供される特性も削除されます。 このプロセスは、マーケットプレイスを合理化し、すべてのユーザーの全体的なパフォーマンスを向上させるように設計されています。
 
-**タイムライン：** データプロバイダーは、2025 年 7 月末に削除されます。
+**タイムライン：** データプロバイダーは、2025 年 8 月に削除されます。
 
 ## 変更点 {#what-changes}
 
@@ -121,4 +121,4 @@ Adobeに連絡する場合は、次を含めてください。
 
 ### 変更はいつ有効になりますか？
 
-削除対象として選択したデータプロバイダーは、2025 年 7 月末に削除されます。
+削除対象として選択したデータプロバイダーは、2025 年 8 月に削除されます。
