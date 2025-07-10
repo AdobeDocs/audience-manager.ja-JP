@@ -6,9 +6,9 @@ feature: Audience Marketplace
 hide: true
 hidefromtoc: true
 exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
-source-git-commit: e9b8f102b5a123ba4a9f6e9c9a29e331d803d293
+source-git-commit: 824d379e0b2b0e7a4239448a4327a258edd1af01
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,6 @@ Audience Managerのエクスペリエンスを引き続き向上させるため�
 * Mobilewalla
 * ナベッグ
 * Netwizard
-* Onaudience
 * PeopleFinders
 * デジタルをプランジ
 * Resonate
