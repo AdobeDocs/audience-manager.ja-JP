@@ -18,7 +18,7 @@ ht-degree: 94%
 
 Audience ManagerとAdobe Experience Platformの間でオーディエンスを共有する機能を使用すると、Audience Managerの特性とセグメントをAdobe Experience Platformに、Experience PlatformのセグメントをAudience Managerに共有できます。
 
-Audience ManagerとAdobe Experience Platformの間でオーディエンスの共有を有効にするには、Experience Platformで [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) と [2&rbrace;Experience Cloud Audiences&rbrace; の宛先が必要です。](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
+Audience ManagerとAdobe Experience Platformの間でオーディエンスの共有を有効にするには、Experience Platformで [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) と [2&rbrace;Experience Cloud Audiences&rbrace; の宛先が必要です。](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ja)
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を活用することができます。
 
@@ -74,7 +74,7 @@ Audience Manager ソースコネクターを設定して、Audience Manager か�
 
 >[!IMPORTANT]
 >
-> ここでは、Experience PlatformからAudience Managerへの従来のセグメント共有の統合について説明します。 Adobeのお客様の担当者のサポートなしで、この統合を設定できるようになりました。 詳しくは、[Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) の宛先に関するドキュメントを参照してください。
+> ここでは、Experience PlatformからAudience Managerへの従来のセグメント共有の統合について説明します。 Adobeのお客様の担当者のサポートなしで、この統合を設定できるようになりました。 詳しくは、[Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ja) の宛先に関するドキュメントを参照してください。
 
 >[!NOTE]
 >

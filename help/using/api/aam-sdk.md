@@ -24,7 +24,7 @@ Audience Manager では、[!DNL Android] および [!DNL iOS] 向けのソフト
 
 * 利用を開始するには、[Launch](https://launch.adobe.com/) にアクセスしてください。
 * Experience Platform SDK リポジトリの内容については、[Github： Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks) を参照してください。
-* 新しい SDK v.5 以降を使用してアプリに Audience Manager を実装するには、新しい SDK ページの [Adobe Audience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en)をお読みください。
+* 新しい SDK v.5 以降を使用してアプリに Audience Manager を実装するには、新しい SDK ページの [Adobe Audience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=ja)をお読みください。
 
 <br> 
 

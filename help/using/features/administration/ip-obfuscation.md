@@ -31,7 +31,7 @@ Audience Manager で収集された IP アドレスを難読化するには、�
 
 ### IP の不明化の予測 {#precedence}
 
-[ データストリームレベルの IP の不明化 ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) は、Audience Managerで設定した IP の不明化オプションよりも優先され、すべての IP アドレスに適用されます。 Audience Managerで行われたジオロケーション検索は、データストリームレベルの [!UICONTROL IP obfuscation] オプションの影響を受けます。 完全に不明化された IP に基づくAudience Managerでの位置情報ルックアップは、結果として得られた位置情報データに基づくセグメントが実現されない、未知のリージョンが原因となります。
+[ データストリームレベルの IP の不明化 ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#create) は、Audience Managerで設定した IP の不明化オプションよりも優先され、すべての IP アドレスに適用されます。 Audience Managerで行われたジオロケーション検索は、データストリームレベルの [!UICONTROL IP obfuscation] オプションの影響を受けます。 完全に不明化された IP に基づくAudience Managerでの位置情報ルックアップは、結果として得られた位置情報データに基づくセグメントが実現されない、未知のリージョンが原因となります。
 
 ## IP アドレスの不明化の要件 {#ip-obfuscation-requirements}
 
