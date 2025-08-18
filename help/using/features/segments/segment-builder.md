@@ -58,7 +58,7 @@ ht-degree: 100%
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/33445)
+>[!VIDEO](https://video.tv.adobe.com/v/36810?captions=jpn)
 
 ## [!UICONTROL Segment Builder] コントロール：[!UICONTROL Basic Information] セクション {#segment-builder-controls-basics}
 

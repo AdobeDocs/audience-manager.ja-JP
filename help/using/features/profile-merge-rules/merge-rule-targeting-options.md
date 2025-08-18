@@ -113,7 +113,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 [!UICONTROL Profile Merge Rules] の使用例の概要については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/28975/)
+>[!VIDEO](https://video.tv.adobe.com/v/32576?captions=jpn)
 
 >[!MORELIKETHIS]
 >

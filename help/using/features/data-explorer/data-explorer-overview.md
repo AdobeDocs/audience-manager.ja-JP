@@ -49,4 +49,4 @@ ht-degree: 100%
 
 Audience Manager の最も強力な機能の 1 つは、オフラインデータをオンボーディングし、オンラインデータと結び付ける機能です。以下のビデオでは、[!UICONTROL Data Explorer] を使用して、このオンボードデータを活用するために必要なすべての特性を作成したことを検証する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25149/)
+>[!VIDEO](https://video.tv.adobe.com/v/330355?captions=jpn)

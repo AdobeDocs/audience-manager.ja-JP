@@ -62,4 +62,4 @@ IP アドレスの難読化をグローバルに無効にするには、**Admini
 
 * [データプライバシー](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP アドレス難読化のビデオのデモ
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/35075?captions=jpn)

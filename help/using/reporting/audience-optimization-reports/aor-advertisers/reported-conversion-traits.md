@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Audience Manager でのコンバージョン特性の作成方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/23431/)
+>[!VIDEO](https://video.tv.adobe.com/v/328259?captions=jpn)
 
 ## レポートのサンプル
 

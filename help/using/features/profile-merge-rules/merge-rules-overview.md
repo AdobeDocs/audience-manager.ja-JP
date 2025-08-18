@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [!UICONTROL Profile Merge Rules] を使用すれば、セグメント化に使用するデータセットを制御し、複数のデバイスにわたって正確にユーザーをターゲット設定できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/28974)
+>[!VIDEO](https://video.tv.adobe.com/v/32571?captions=jpn)
 
 ## 匿名プロファイルと認証済みプロファイルによるデータ収集とターゲット設定 {#data-collection-targeting}
 
