@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->このドキュメントのテキストスタイル（`monospaced text`、*斜体*、角括弧 `[ ]``( )` など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
+>このドキュメントのテキストスタイル（`monospaced text`、*斜体*、角括弧 `[ ]` `( )` など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
 
 ## 目的 {#purpose}
 
@@ -62,7 +62,7 @@ ht-degree: 97%
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] は、次の広告サーバーでサポートされています。
->> <br>
+>&#x200B;> <br>
 >
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)

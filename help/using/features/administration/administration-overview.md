@@ -46,7 +46,7 @@ ht-degree: 94%
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
 > 
-[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
+>[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Users]** をクリックします。
 1. ![](assets/icon_add.png) をクリックして、[!UICONTROL Create New User] ページを表示します。
