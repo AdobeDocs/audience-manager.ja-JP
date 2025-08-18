@@ -71,5 +71,5 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [DCS へのデータ送信](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
->* [DCS でサポートされるキーと値のプレフィックスおよび変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+>* [DCS でサポートされるキーと値の接頭辞および変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 >* [キーと値のペアの解説](../../../reference/key-value-pairs-explained.md)

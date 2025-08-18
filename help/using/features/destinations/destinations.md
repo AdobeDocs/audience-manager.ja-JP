@@ -12,13 +12,13 @@ exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # [!UICONTROL Destinations] 概要 {#destinations}
 
-Audience Manager において、[!UICONTROL destination]とは、データを共有する任意のサードパーティシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、[!UICONTROL cookie]、[!DNL URL]、または[!UICONTROL server-to-server destinations]の作成と管理に使用するツールです。
+Audience Managerでは、[!UICONTROL destination] とは、データを共有する任意のサードパーティシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）です。 [!UICONTROL Destination Builder] は、[!UICONTROL cookie]、[!DNL URL]、または[!UICONTROL server-to-server destinations]の作成と管理に使用するツールです。
 
 ## 目的とメリット {#purposes}
 

@@ -24,7 +24,7 @@ ht-degree: 96%
 
 * **を追加[!UICONTROL DIL]：**&#x200B;ターゲットに設定するすべてのページに [!UICONTROL Data Integration Library (DIL)] コードをデプロイします。[!UICONTROL DIL] は Audience Manager のセグメントデータとユーザー ID を、[!DNL GPT] がターゲティングに使用する Cookie に書き込みます。
 
-* **[!UICONTROL Cookie Destination]の作成：**&#x200B;[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
+* **[!UICONTROL Cookie Destination]の作成：**[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
 
 * **Cookie チェックコードの実装**：[!DNL GPT] の `.setTargeting` API メソッドを、推奨される [Cookie チェックコード](../../integration/gpt-aam-destination/gpt-aam-modify-api.md)でラップします。このコードにより、`.setTargeting`.メソッドを呼び出す前に有効な AAM Cookie が検索されるので、エラーが回避されます。
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->送信できるキーと値の数に制限はありませんが、[!DNL Google] リクエスト [!DNL URL] で使用できる文字数には制限があります。[GPT でのターゲットとサイズの設定](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&amp;answer=1697712)を参照してください。
+>送信できるキーと値の数に制限はありませんが、[!DNL Google] リクエスト [!DNL URL] で使用できる文字数には制限があります。[GPT でのターゲットとサイズの設定](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&answer=1697712)を参照してください。
 
 ## サーバー側の統合 {#server-side-integration}
 
@@ -54,4 +54,4 @@ ht-degree: 96%
 
 >[!MORELIKETHIS]
 >
->* [GPT API リファレンスガイド](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&amp;answer=1650154)
+>* [GPT API リファレンスガイド](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&answer=1650154)

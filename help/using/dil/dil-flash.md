@@ -10,7 +10,7 @@ exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 90%
 
 >[!WARNING]
 >
->2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] と [!DNL DIL] の開発を廃止しました。
+>2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] および [!DNL DIL] 拡張機能の開発を廃止しました。
 >
->既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの先 [!DNL DIL] は発展しません。 お客様は、長期的なデータ収集戦略について [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)0&rbrace;Experience Platform Web SDK&rbrace; を評価することをお勧めします。
+>既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの点を超えて [!DNL DIL] 開発を行うことはありません。 お客様は、長期的なデータ収集戦略について [0}Experience Platform Web SDK} を評価することをお勧めします。](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 >
->2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用する必要があります。
+>2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [0}Experience Platform Web SDK} を使用する必要があります。](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 
 FLA ファイルから Analytics に送信されたデータを収集し、その情報を Audience Manager で使用します。
 
@@ -32,7 +32,7 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] は、Audience Manager でビデオ再生データを操作するための [!DNL ActionScript] コードライブラリです。[!DNL Flash DIL] は、Adobe [!UICONTROL AppMeasurement] ライブラリが Analytics に渡す SWF コンテンツをキャプチャすることにより機能します。[!DNL Flash DIL] はデータを独立した [!UICONTROL DIL] JavaScript データ収集モジュールに送信します。この情報は Audience Manager に渡されます。Analytics データ（[!UICONTROL Props]、[!UICONTROL eVars]、イベントなど）は [!DNL FLA] ファイルからキャプチャした後、Audience Manager で特性や未使用シグナルとして使用できます。
+[!UICONTROL Flash DIL] は、Audience Manager でビデオ再生データを操作するための [!DNL ActionScript] コードライブラリです。[!DNL Flash DIL] は、Adobe [!UICONTROL AppMeasurement] ライブラリが Analytics に渡す SWF コンテンツをキャプチャすることにより機能します。[!DNL Flash DIL] はデータを独立した [!UICONTROL DIL] JavaScript データ収集モジュールに送信します。この情報は Audience Manager に渡されます。[!UICONTROL Props] ファイルから取り込まれた Analytics データ（[!UICONTROL eVars]、[!DNL FLA]、イベントなど）は、特性や未使用のシグナルとしてAudience Managerで使用できます。
 
 ## Flash DIL データ収集の要件 {#requirements}
 
@@ -120,7 +120,7 @@ Analytics [!UICONTROL Props]、[!UICONTROL eVars]、およびイベントは Aud
 
 **Audience Manager 特性の Analytics 変数とのマッチング**
 
-[!UICONTROL Flash DIL] によって渡された Analytics データを使用するには、キーの値にプレフィックス `c_` が付いた Audience Manager 特性を作成する必要があります。
+[!UICONTROL Flash DIL] によって渡された Analytics データを使用するには、キーの値に接頭辞 `c_` が付いた Audience Manager 特性を作成する必要があります。
 
 以下の表に例を示します。
 
@@ -166,4 +166,4 @@ s.loadModule(d);
 >* [特性](../features/traits/trait-details-page.md)
 >* [シグナル、特性、セグメント](../reference/signal-trait-segment.md)
 >* [キーと値のペアの解説](../reference/key-value-pairs-explained.md)
->* [キー変数のプレフィックスに関する要件](../features/traits/trait-variable-prefixes.md)
+>* [キー変数の接頭辞に関する要件](../features/traits/trait-variable-prefixes.md)

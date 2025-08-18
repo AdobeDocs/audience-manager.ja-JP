@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## シグナル検索から除外されたシグナル {#excluded-signals}
 
-Audience Manager で使用され、`d_` プリフィックスと `h_` プリフィックスが付いたキー変数は、[!UICONTROL Signals Search] で表示されません。詳しくは、[キー変数のプレフィックスに関する要件](../../traits/trait-variable-prefixes.md)を参照してください。
+Audience Manager で使用され、`d_` 接頭辞と `h_` 接頭辞が付いたキー変数は、[!UICONTROL Signals Search] で表示されません。詳しくは、[キー変数の接頭辞に関する要件](../../traits/trait-variable-prefixes.md)を参照してください。
 
 ## 大文字と小文字の区別および検索条件の自動入力候補 {#case-insensitivity}
 

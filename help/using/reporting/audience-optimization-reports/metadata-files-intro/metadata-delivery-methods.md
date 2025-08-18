@@ -3,7 +3,7 @@ description: メタデータファイルを送信または更新するには、�
 seo-description: Send or update metadata files by sending them to a special Amazon S3 directory for your Audience Manager account. Refer to this section for information about delivery/directory paths, file processing times, and updates.
 seo-title: Delivery Methods for Metadata Files
 solution: Audience Manager
-title: メタデータファイルの配信方法
+title: 'メタデータファイルの配信方法 '
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: Log Files
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb

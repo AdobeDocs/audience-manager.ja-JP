@@ -71,4 +71,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[!DNL Analytics] から [!DNL Audience Manager] に送信された変数は、特別なプレフィックスを使用します。[!DNL Audience Manager] 特性を作成する場合は、これらのプレフィックスについて理解し、考慮に入れる必要があります。これらのプレフィックスについて詳しくは、[キー変数のプレフィックス要件](../../features/traits/trait-variable-prefixes.md)を参照してください。
+>[!DNL Analytics] から [!DNL Audience Manager] に送信された変数は、特別な接頭辞を使用します。[!DNL Audience Manager] 特性を作成する場合は、これらの接頭辞について理解し、考慮に入れる必要があります。これらの接頭辞について詳しくは、[キー変数の接頭辞要件](../../features/traits/trait-variable-prefixes.md)を参照してください。

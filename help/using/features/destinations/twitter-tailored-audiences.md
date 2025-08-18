@@ -75,7 +75,7 @@ Audience Manager と [!DNL Twitter Custom Audiences] をリンクさせたら、
 
 ## マッチ率に関する考慮事項 {#match-rates-considerations}
 
-* Audience Manager と [!UICONTROL Twitter Custom Audiences] の統合では、履歴オーディエンスのバックフィルがサポートされます。宛先を作成すると、すべてのセグメント認定が [!UICONTROL Twitter] に送信されます。
+* Audience Manager と [!UICONTROL Twitter Custom Audiences] の統合では、履歴オーディエンスのバックフィルがサポートされます。宛先を作成すると、すべてのセグメントの選定が [!UICONTROL Twitter] に送信されます。
 
 ## トラブルシューティング {#troubleshooting}
 

@@ -39,7 +39,7 @@ ht-degree: 100%
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
       <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">ドメインの名前を「<span class="wintitle">Cookie Domain</span>」フィールドに入力します。 </li> 
       <li id="li_0471C198EE344DE5963A3C2F70B9E78B">ドメイン名をピリオドで始めます。例：<code> .somedomain.com</code> </li> 
-      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0"><code> https://www</code> プレフィックスは不要です。 </li> 
+      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0"><code> https://www</code> 接頭辞は不要です。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

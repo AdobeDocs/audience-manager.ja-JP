@@ -10,7 +10,7 @@ exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、その他）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>このドキュメントのテキストスタイル（`monospaced text`、*斜体*、角括弧 `[ ]``( )` など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## ファイル名構文および例 {#file-name-syntax}
 
@@ -40,11 +40,11 @@ ID ファイル名には、以下の必須およびオプション要素が含�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> adobe_id</code> </p> </td> 
-   <td colname="col2"> <p>ファイルを ID 同期ファイルとして識別する静的なプレフィックス。デバイス ID を他のデバイス ID または顧客 ID（DPUUID）と照合する際は、このプレフィックスを使用します。  </p> </td> 
+   <td colname="col2"> <p>ファイルを ID 同期ファイルとして識別する静的な接頭辞。デバイス ID を他のデバイス ID または顧客 ID（DPUUID）と照合する際は、この接頭辞を使用します。  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> c2c_id</code> </p> </td> 
-   <td colname="col2"> <p>People-Based Destinations の ID 同期ファイルとしてファイルを識別する静的なプレフィックス。顧客ID（DPUUID）を People-Based Destinations.のハッシュ化された電子メールアドレスと照合する際は、このプレフィックスを使用します。  </p> </td> 
+   <td colname="col2"> <p>People-Based Destinations の ID 同期ファイルとしてファイルを識別する静的な接頭辞。顧客ID（DPUUID）を People-Based Destinations.のハッシュ化された電子メールアドレスと照合する際は、この接頭辞を使用します。  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
@@ -85,7 +85,7 @@ ID ファイル名には、以下の必須およびオプション要素が含�
 </ul>
 
 >[!NOTE]
-> People-Based Destinations に対する ID 同期ファイルの命名（c2c プレフィックス）については、「[ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](../../../features/destinations/people-based-destinations-workflow-combined.md)」または「[ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](../../../features/destinations/people-based-destinations-workflow-offline.md)」を参照してください。
+> People-Based Destinations に対する ID 同期ファイルの命名（c2c 接頭辞）については、「[ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](../../../features/destinations/people-based-destinations-workflow-combined.md)」または「[ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](../../../features/destinations/people-based-destinations-workflow-offline.md)」を参照してください。
 
 ## ファイルコンテンツ構文および例 {#file-content-syntax}
 

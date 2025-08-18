@@ -28,7 +28,7 @@ Audience Manager はデータガバナンスと組織的準備の分野に積極
 * [ データ書き出しコントロール ](../../features/data-export-controls.md) を使用して、個人データを格納する技術に対するオーディエンスのアクティベーションをブロックすることを検討します。 例えば、サードパーティのデータが含まれるセグメントは、電子メールサービスプロバイダーに配信すべきではありません。[!UICONTROL Data Export Control] を設定することで、社内の誰かが誤ってこのデータをアクティブ化してしまうことを防ぐことができます。
 * [ロールベースのアクセス制御](../../features/administration/administration-overview.md)を導入して、適切なチームが意図したデータにのみアクセスできるようにしてください。
 * 適切なデータの[保持期間](../../faq/faq-privacy.md#data-retention-faq)を検討してください。
-* ID リンケージおよびプライバシーポリシーと法的要件を確認し、ID セットを結び付けることが適切なタイミングと場所を確認します。Audience Managerの [ プロファイル結合ルール ](../../features/profile-merge-rules/merge-rules-overview.md) を介して適切に使用します。
+* ID リンケージおよびプライバシーポリシーと法的要件を確認し、ID セットを結び付けることが適切な場合と場所を確認します。Audience Manager[ プロファイル結合ルール ](../../features/profile-merge-rules/merge-rules-overview.md) を介して適切に使用します。
 
 ## 組織的準備：ビジネスプロセスの構築
 

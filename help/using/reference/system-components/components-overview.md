@@ -31,7 +31,7 @@ c_compintro.xml
 
 このガイドでは、一般的すぎず、かつ詳細すぎることもない説明を心がけています。ただし、特定な内容についてはここでは除外されています。ここで扱われているのは一般的な内容のみで、それ以外の特定な情報には触れられていません。これまでと同様、ご質問がある場合は担当の [!DNL Audience Manager] コンサルタントにお問い合わせください。
 
-* [Audience Managerシステムの主要コンポーネント](/help/using/reference/system-components/components-stack.md)
+* [Audience Manager System の主要コンポーネント](/help/using/reference/system-components/components-stack.md)
 * [データアクションのコンポーネント](/help/using/reference/system-components/components-data-action.md)
 * [データ収集コンポーネント](/help/using/reference/system-components/components-data-collection.md)
 * [データ処理のコンポーネント](/help/using/reference/system-components/components-data-processing.md)

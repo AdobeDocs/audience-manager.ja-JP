@@ -10,7 +10,7 @@ exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -93,7 +93,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 **宛先**
 
-[!DNL Audience Manager] において、宛先とは、データを共有したいサードパーティシステム（広告サーバー、DSP、広告ネットワークなど）になります。UI 内の [!UICONTROL Destination Builder] はこれらのデータ配信プロセスを作成および管理するためのツールです。[!DNL Audience Manager] の宛先に関する機能には、**[!UICONTROL Audience Data > Destinations]** からアクセスできます。
+ま [!DNL Audience Manager]、宛先とは、データを共有する他のシステム（広告サーバー、DSP、広告ネットワークなど）です。 UI 内の [!UICONTROL Destination Builder] はこれらのデータ配信プロセスを作成および管理するためのツールです。[!DNL Audience Manager] の宛先に関する機能には、**[!UICONTROL Audience Data > Destinations]** からアクセスできます。
 
 
 
@@ -219,7 +219,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 
 
-**Segment Total Population**
+**セグメント合計母集団**
 
 [アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)では、この指標はレポートのルックバック期間内にセグメントに属していたすべてのデバイスの数を表します。
 
@@ -227,7 +227,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 **Segment Match Rate**
 
-Segment Addressable Audience ÷ Total Segment Population の総数を％で表現したもの。[アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)を参照してください。
+セグメントアドレス可能オーディエンス ÷ 合計セグメント母集団の総数を％で表現したもの。[アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)を参照してください。
 
 
 
@@ -245,7 +245,7 @@ Segment Addressable Audience ÷ Total Segment Population の総数を％で表�
 
 
 
-**Trait Population**
+**特性母集団**
 
 [セグメントビルダーにおける特性およびセグメント母集団データ](../features/segments/segment-builder-data.md)を参照してください。
 

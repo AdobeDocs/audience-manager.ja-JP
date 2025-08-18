@@ -9,7 +9,7 @@ feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2558'
+source-wordcount: '2563'
 ht-degree: 73%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 73%
 
 [!DNL Audience Manager] は、3 つの認証方法をサポートする [!DNL REST APIs] 要があります。
 
-* [!BADGE &#x200B; 推奨 &#x200B;]{type=positive}[2&rbrace;Developer Console](#oauth-adobe-developer) を使用した &lbrace;OAuth サーバー間Adobe[&#128279;](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。[!DNL Adobe] [!DNL APIs] を設定および使用する場合は、この方法をお勧めします。 [OAuth サーバー間Adobe](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) について詳しくは、認証開発者ドキュメントを参照してください。
-* [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[JWT （サービスアカウント）認証 ](#jwt) [Adobe開発者コンソールを使用 ](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。
-* [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[ 従来の OAuth 認証 ](#oauth-deprecated)。 この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
+* [!BADGE  推奨 ]{type=positive}[](#oauth-adobe-developer)Adobe デベロッパーコンソールを使用した [OAuth サーバー間認証 ](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。[!DNL Adobe] [!DNL APIs] を設定および使用する場合は、この方法をお勧めします。 [OAuth サーバー間認証 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) について詳しくは、Adobe開発者向けドキュメントを参照してください。
+* [!BADGE  非推奨 ]{type=negative}[JWT （サービスアカウント）認証 ](#jwt)[Adobe開発者コンソールを使用 ](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。
+* [!BADGE  非推奨 ]{type=negative}[ 従来の OAuth 認証 ](#oauth-deprecated)。 この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ ht-degree: 73%
 
 ## Adobe Developerを使用した OAuth サーバー間認証 {#oauth-adobe-developer}
 
-この節では、以下のフローチャートに示すように、Audience ManagerAPI 呼び出しの認証に必要な資格情報の収集方法を説明します。 必要な資格情報のほとんどは、1 回限りの初期設定で収集できます。 ただし、アクセストークンは 24 時間ごとに更新する必要があります。
+この節では、以下のフローチャートに示すように、Audience Manager API 呼び出しの認証に必要な資格情報の収集方法を説明します。 必要な資格情報のほとんどは、1 回限りの初期設定で収集できます。 ただし、アクセストークンは 24 時間ごとに更新する必要があります。
 
 ![Audience Manager認証のフロー図。](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
 
@@ -70,11 +70,11 @@ ht-degree: 73%
 >
 >[!DNL Audience Manager] [!DNL REST APIs] を自動的に設定して操作するために、プログラムによってクライアントの秘密鍵を回転させることができます。 手順について詳しくは [ 開発者向けドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) を参照してください。
 
-### Audience ManagerAPI をプロジェクトに追加する {#add-aam-api-to-project}
+### Audience Manager API をプロジェクトに追加する {#add-aam-api-to-project}
 
 [Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) に移動し、Adobe IDでサインインします。 次に、Adobe Developer Console ドキュメントの [ 空のプロジェクトの作成 ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) チュートリアルで説明されている手順に従います。
 
-新しいプロジェクトを作成したら、**[!UICONTROL Project Overview]** の画面で **[!UICONTROL Add API]** を選択します。
+新しいプロジェクトを作成したら、**[!UICONTROL Add API]** の画面で **[!UICONTROL Project Overview]** を選択します。
 
 >[!TIP]
 >
@@ -84,15 +84,15 @@ ht-degree: 73%
 
 **[!UICONTROL Add an API]** 画面が表示されます。 Adobe Experience Cloudの製品アイコンを選択してから「**[!UICONTROL Audience Manager API]**」を選択し、「**[!UICONTROL Next]**」を選択します。
 
-![Audience ManagerAPI を選択します ](/help/using/api/rest-api-main/assets/audience-manager-api.png)。
+![Audience Manager API を選択します ](/help/using/api/rest-api-main/assets/audience-manager-api.png)。
 
 >[!TIP]
 >
->**[!UICONTROL View docs]** オプションを選択して、別のブラウザーウィンドウに移動し、完全な [Audience ManagerAPI リファレンスドキュメント ](https://bank.demdex.com/portal/swagger/index.html#) を参照します。
+>**[!UICONTROL View docs]** オプションを選択して、別のブラウザーウィンドウに移動し、完全な [Audience Manager API リファレンスドキュメント ](https://bank.demdex.com/portal/swagger/index.html#) を参照します。
 
 ### OAuth サーバー間認証タイプの選択 {#select-oauth-server-to-server}
 
-次に、認証タイプを選択してアクセストークンを生成し、Audience ManagerAPI にアクセスします。
+次に、認証タイプを選択してアクセストークンを生成し、Audience Manager API にアクセスします。
 
 >[!IMPORTANT]
 >
@@ -110,7 +110,7 @@ ht-degree: 73%
 
 ### 資格情報の収集 {#gather-credentials}
 
-API がプロジェクトに追加されると、Audience ManagerAPI へのすべての呼び出しで必要な次の資格情報がプロジェクトの **[!UICONTROL Audience Manager API]** ページに表示されます。
+API がプロジェクトに追加されると、Audience Manager API へのすべての呼び出しで必要な次の資格情報がプロジェクトの **[!UICONTROL Audience Manager API]** ページに表示されます。
 
 ![Developer Consoleに API を追加した後の統合情報 ](/help/using/api/rest-api-main/assets/api-integration-information.png)
 
@@ -119,13 +119,13 @@ API がプロジェクトに追加されると、Audience ManagerAPI へのす�
 
 ## アクセストークンの生成 {#generate-access-token}
 
-次の手順では、Audience Manager API 呼び出しで使用する `{ACCESS_TOKEN}` 資格情報を生成します。 `{API_KEY}` と `{ORG_ID}` の値とは異なり、Audience ManagerAPI を引き続き使用するには、新しいトークンを 24 時間ごとに生成する必要があります。 「**[!UICONTROL Generate access token]**」を選択します（下図を参照）。
+次の手順では、Audience Manager API 呼び出しで使用する `{ACCESS_TOKEN}` 資格情報を生成します。 `{API_KEY}` と `{ORG_ID}` の値とは異なり、Audience Manager API を引き続き使用するには、新しいトークンを 24 時間ごとに生成する必要があります。 「**[!UICONTROL Generate access token]**」を選択します（下図を参照）。
 
 ![ アクセストークンの生成方法を表示 ](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
 
 ## API 呼び出しのテスト {#test-api-call}
 
-Audience Managerベアラートークンを取得したら、API 呼び出しを実行して、認証 API にアクセスできることをテストします。
+認証ベアラートークンを取得したら、API 呼び出しを実行して、Audience Manager API にアクセスできることをテストします。
 
 1. [API リファレンスドキュメント ](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_) に移動します。
 2. **[!UICONTROL Authorize]** を選択し、[ アクセストークンを生成 ](#generate-access-token) 手順で取得したアクセストークンを貼り付けます。
@@ -211,7 +211,7 @@ curl -X 'GET' \
 
 >[!ENDSHADEBOX]
 
-## [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[!DNL JWT]（[!DNL Service Account]）Adobe Developer を使用した認証 {#jwt}
+## [!BADGE  非推奨 ]{type=negative}Adobe Developerを使用した [!DNL JWT] （[!DNL Service Account]）認証 {#jwt}
 
 +++ 認証トークンを取得する、非推奨の [!DNL JWT] （[!DNL Service Account]）方式に関する情報を表示します。
 
@@ -252,12 +252,12 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 
 +++
 
-## [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[!DNL OAuth] 認証（廃止予定） {#oauth-deprecated}
+## [!BADGE  非推奨 ]{type=negative}[!DNL OAuth] 認証（非推奨） {#oauth-deprecated}
 
 +++ 認証トークンを取得する、廃止された従来の [!DNL OAuth] 認証方法に関する情報を表示します。
 
 >[!WARNING]
-> [!DNL OAuth 2.0][!DNL Audience Manager] 介した [!UICONTROL REST API] トークンの認証と更新は非推奨（廃止予定）になりました。
+> [!DNL Audience Manager][!UICONTROL REST API] 介した [!DNL OAuth 2.0] トークンの認証と更新は非推奨（廃止予定）になりました。
 >
 > 代わりに、[JWT（サービスアカウント）認証](#jwt-service-account-authentication-jwt)を使用してください。
 
@@ -402,7 +402,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 使用する認証方法に応じて、次の表に従ってリクエスト [!DNL URLs] を調整する必要があります。
 
-### [!BADGE &#x200B; のリクエスト [!DNL URLs] ート &#x200B;] 推奨）&lbrace;type=positive&rbrace;[!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}Adobe Developerによる [!DNL JWT] 認証 {#request-urls-jwt}
+### Adobe Developerを通じた OAuth サーバー間および [!DNL URLs] 非推奨 [!BADGE  ]{type=positive} 認証のリク [!BADGE  スト ]{type=negative} 推奨 [!DNL JWT] {#request-urls-jwt}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -420,7 +420,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 {style="table-layout:auto"}
 
-### のリクエス [!DNL URLs] リクエスト [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[!DNL OAuth] 認証 {#request-urls-oauth}
+### 従来の [!DNL URLs] 認証 [!BADGE  非推奨 ]{type=negative} のリクエスト [!DNL OAuth] ール {#request-urls-oauth}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |

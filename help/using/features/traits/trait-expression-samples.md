@@ -22,7 +22,7 @@ ht-degree: 88%
 
 <!-- r_tb_expression_samples.xml -->
 
-[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。例の一部では、*`key`* 変数の前に `c_` を付けて、ユーザー定義変数として識別します。 イベント呼び出しでデータを `c_` に送信するために必要であれば、*`key`* 変数でプレフィックス [!DNL Audience Manager]（またはその他の命名規則）を使用します。
+[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。例の一部では、*`key`* 変数の前に `c_` を付けて、ユーザー定義変数として識別します。 イベント呼び出しでデータを `c_` に送信するために必要であれば、*`key`* 変数で接頭辞 [!DNL Audience Manager]（またはその他の命名規則）を使用します。
 
 ## ブール式 {#boolean-expressions}
 

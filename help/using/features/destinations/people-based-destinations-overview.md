@@ -63,7 +63,7 @@ Audience Manager から、ユーザーベースのチャネルでオーディエ
 
 [!UICONTROL People-Based Destinations] を使用する際のデータフローの概要については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/32586?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/)
 
 ## ユースケース {#use-cases}
 

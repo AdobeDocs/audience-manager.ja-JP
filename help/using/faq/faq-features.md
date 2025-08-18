@@ -4,7 +4,7 @@ keywords: Audience Manager の Cookie
 seo-description: Common product and function-related questions and issues.
 seo-title: Product Features and Functions FAQ
 solution: Audience Manager
-title: 製品の機能に関するよくある質問
+title: '製品の機能に関するよくある質問 '
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
@@ -43,7 +43,7 @@ faq_features_functions.xml
 
 >[!NOTE]
 >
->[!UICONTROL Bulk Management Tools]ツールは、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。便宜上、提供されているものにすぎません。一括変更の場合は、代わりに [Audience ManagerAPI](../api/api.md) を使用することをお勧めします。
+>[!UICONTROL Bulk Management Tools]ツールは、[!DNL Audience Manager] ではサポートされて&#x200B;*いません*。便宜上、提供されているものにすぎません。一括変更の場合は、代わりに [Audience Manager API](../api/api.md) を使用することをお勧めします。
 
  
 

@@ -44,7 +44,7 @@ ht-degree: 96%
 今後、新しい方法が使用可能になったら、その説明も追加していきます。開始するには、以下の節を参照してください。
 
 * [DCS 応答からのユーザー ID と地域 ID の取得](dcs-aam-ids.md)
-* [Experience CloudID を使用してユーザー ID とリージョンを取得…](dcs-mcid-ids.md)
+* [Experience Cloud ID を使用したユーザー ID とリージョンの取得…](dcs-mcid-ids.md)
 * [サーバー間 DCS API 呼び出しの実行](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]

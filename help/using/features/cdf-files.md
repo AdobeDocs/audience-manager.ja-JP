@@ -11,7 +11,7 @@ exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
 source-git-commit: 89137248aa47573f5b65e387a152f651419da827
 workflow-type: tm+mt
 source-wordcount: '1988'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>イベント呼び出しで渡される、すべてのパラメーター（変数、ID、キー値ペア、デバイス広告 ID など）を取り込む文字列。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>イベント呼び出しで渡されるすべてのパラメーター（変数、ID、キーと値のペア、デバイス広告 ID など）をキャプチャする文字列。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
@@ -128,7 +128,7 @@ ht-degree: 96%
 
 ## [!UICONTROL Customer Data Feed]ファイル構造  {#cdf-file-structure}
 
-[!UICONTROL CDF] ファイルのデータ構造を一覧表示および定義します。データ列、フィールド区切り文字、データファイルマップ、サンプルファイルが含まれています。
+[!UICONTROL CDF] ファイルのデータ構造を一覧表示および定義します。データ列、フィールド区切り記号、データファイルマップ、サンプルファイルが含まれています。
 
 ## データフィールド識別子とデータ列 {#identifiers-and-sequence}
 
@@ -179,7 +179,7 @@ ht-degree: 96%
 
 ## 配列の識別
 
-[!UICONTROL CDF] ファイル内の配列は `Ctrl + a` フィールド区切り文字で始まり、同じ区切り文字で終わります。これにより、配列の先頭要素は単独のデータフィールドのように見えます。例えば、適合済み[!UICONTROL traits]の配列は `^A1234` で始まります。このエントリの後に、配列の区切り文字と ID `^B5678` が続きます。そのため、（`^B` で始まっているので）適合済み[!UICONTROL traits]の配列の先頭要素が ID 5678 であると考えてしまうかもしれません。しかし、実際にはそうではありません。だからこそ、データファイルのデータ列と構造に熟知する必要があるのです。適合済み[!UICONTROL trait]の配列（または [!UICONTROL CDF] ファイルに含まれている他の任意の配列）の先頭要素が `^A` で始まっている場合であっても、ファイル内の出現順序や位置によって配列の開始が決まります。また、配列の先頭要素は必ず `^A` で先行エントリと区切られます。
+[!UICONTROL CDF] ファイル内の配列は `Ctrl + a` フィールド区切り記号で始まり、同じ区切り記号で終わります。これにより、配列の先頭要素は単独のデータフィールドのように見えます。例えば、適合済み[!UICONTROL traits]の配列は `^A1234` で始まります。このエントリの後に、配列の区切り文字と ID `^B5678` が続きます。そのため、（`^B` で始まっているので）適合済み[!UICONTROL traits]の配列の先頭要素が ID 5678 であると考えてしまうかもしれません。しかし、実際にはそうではありません。だからこそ、データファイルのデータ列と構造に熟知する必要があるのです。適合済み[!UICONTROL trait]の配列（または [!UICONTROL CDF] ファイルに含まれている他の任意の配列）の先頭要素が `^A` で始まっている場合であっても、ファイル内の出現順序や位置によって配列の開始が決まります。また、配列の先頭要素は必ず `^A` で先行エントリと区切られます。
 
 ## サンプル [!UICONTROL CDF] ファイル {#sample-file}
 

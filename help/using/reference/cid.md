@@ -1,5 +1,5 @@
 ---
-description: d_dpid および d_dpuuid の代わりに d_cid または d_cid_ic を使用するようにコードを更新します。DPID および DPUUID 変数は引き続き機能しますが、これらは既に廃止されています。DPID や DPUUID の、d_ プレフィックスが付かないバージョンも同様です。
+description: d_dpid および d_dpuuid の代わりに d_cid または d_cid_ic を使用するようにコードを更新します。DPID および DPUUID 変数は引き続き機能しますが、これらは既に廃止されています。DPID や DPUUID の、d_ 接頭辞が付かないバージョンも同様です。
 seo-description: Update your code to use d_cid or d_cid_ic instead of d_dpid and d_dpuuid. The DPID and DPUUID variables will continue to work, but you should consider them deprecated. This includes DPID and DPUUID variants without the d_ prefix.
 seo-title: CID Replaces DPID and DPUUID
 solution: Audience Manager
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## DPID と DPUUID：復習 {#dpid-dpuuid-review}
 
-DPID と DPUUID は、データプロバイダー ID とユーザー ID で構成されるキー値ペアです。これらのキー値ペアは、プロバイダー ID をユーザー ID にリンクするためのものです。これらはイベント呼び出し、受信同期イベント、ID 呼び出しの場合にデータの一部として送信されます。これらがなければ、[!DNL Audience Manager] などのサービスや機能は、ID を照合し同期させる方法がありません。これらの変数には、以下のように、`d_` プレフィックスが付く場合も付かない場合もあります。なお、コードの&#x200B;*斜体*&#x200B;の部分には実際の情報が入ります。
+DPID と DPUUID は、データプロバイダー ID とユーザー ID で構成されるキー値ペアです。これらのキー値ペアは、プロバイダー ID をユーザー ID にリンクするためのものです。これらはイベント呼び出し、受信同期イベント、ID 呼び出しの場合にデータの一部として送信されます。これらがなければ、[!DNL Audience Manager] などのサービスや機能は、ID を照合し同期させる方法がありません。これらの変数には、以下のように、`d_` 接頭辞が付く場合も付かない場合もあります。なお、コードの&#x200B;*斜体*&#x200B;の部分には実際の情報が入ります。
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 

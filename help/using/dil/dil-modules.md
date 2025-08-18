@@ -10,7 +10,7 @@ exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 91%
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 91%
 
 >[!WARNING]
 >
->2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] と [!DNL DIL] の開発を廃止しました。
+>2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] および [!DNL DIL] 拡張機能の開発を廃止しました。
 >
->既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの先 [!DNL DIL] は発展しません。 お客様は、長期的なデータ収集戦略について [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)0&rbrace;Experience Platform Web SDK&rbrace; を評価することをお勧めします。
+>既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの点を超えて [!DNL DIL] 開発を行うことはありません。 お客様は、長期的なデータ収集戦略について [0}Experience Platform Web SDK} を評価することをお勧めします。](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 >
->2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用する必要があります。
+>2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [0}Experience Platform Web SDK} を使用する必要があります。](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 
 `DIL.modules` 名前空間のメソッドについて説明します。これらのモジュールを使用すると、データの収集や Audience Manager オブジェクトの操作をプログラムでおこなうことができます。
 
@@ -34,7 +34,7 @@ c_dil_mods.xml
 
 ## siteCatalyst.init {#sitecat-init}
 
-[!UICONTROL DIL] と連携して、[!DNL Analytics] のタグ要素（変数、prop、eVar など）をAudience Manager に送信します。データをコンマ区切りリストで返します。バージョン 2.6 で使用できます。
+[!UICONTROL DIL] と連携して、[!DNL Analytics] タグ要素（変数、prop、eVar など）をAudience Managerに送信します。 データをコンマ区切りリストで返します。バージョン 2.6 で使用できます。
 
 **関数シグネチャ：**`DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
 
@@ -114,7 +114,7 @@ r_dil_sc_init.xml
 
 **サンプルコード**
 
-このコードにより、[!DNL Analytics] イベント（prop、eVar など）の値が存在する場合に、これらのイベントのコンマ区切りのリストが作成されます。
+このコードは、[!DNL Analytics] イベント（prop、eVar など）の値が存在する場合、それらの値のコンマ区切りリストを作成します。
 
 ```
 // Get the Site Catalyst object instance: 

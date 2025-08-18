@@ -4,7 +4,7 @@ keywords: 統合コード
 seo-description: Defines and describes standard and serialized key-value pairs.
 seo-title: Key-Value Pairs Explained
 solution: Audience Manager
-title: キーと値のペアの解説
+title: 'キーと値のペアの解説 '
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: Reference
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
@@ -42,7 +42,7 @@ c_key_value_explained.xml
 
 
 
-## キー、デリミター、セパレーター {#keys-delimiters-separators}
+## キー、デリミター、区切り記号 {#keys-delimiters-separators}
 
 シリアル化データを扱う場合、キー値ペア&#x200B;*内*&#x200B;およびキー値ペア&#x200B;*間*&#x200B;の値を区切る文字を指定する必要があります。キー値ペアの要素は、次のように定義されます。
 

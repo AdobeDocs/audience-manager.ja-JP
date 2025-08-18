@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Bulk Management Tools は、公式にサポートされているAdobeではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースバイケースで対応します。
+>Bulk Management Tools は、Adobeで正式にサポートされているサービスではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースバイケースで対応します。
 
 <!-- 
 
@@ -62,5 +62,5 @@ ht-degree: 92%
 
 * [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
 * [演算の順序](../../features/traits/trait-operator-precedence.md)
-* [キー変数のプレフィックスに関する要件](../../features/traits/trait-variable-prefixes.md)
+* [キー変数の接頭辞に関する要件](../../features/traits/trait-variable-prefixes.md)
 * [ブール演算子と比較演算子を使用した式のサンプル](../../features/traits/trait-expression-samples.md)

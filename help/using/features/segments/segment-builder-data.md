@@ -3,7 +3,7 @@ description: セグメントビルダーで特性を追加および削除して�
 seo-description: Add and remove traits in Segment Builder to see actual trait populations along with actual and estimated segment population data. The estimated population size data helps you build the right segment for your campaign.
 seo-title: Trait and Segment Population Data in Segment Builder
 solution: Audience Manager
-title: セグメントビルダーにおける特性とセグメントのユーザー数データ
+title: セグメントビルダーにおける特性とセグメント母集団データ
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: Segments
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
@@ -67,20 +67,20 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Estimated Real-Time Population (Potential) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> 推定リアルタイム母集団 (見込み) </span> </p> </td> 
    <td colname="col2"> <p>指定した時間範囲にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントについて認定されたユニーク訪問者の推定数。 </p> <p><span class="wintitle">セグメントビルダー</span>では、直近 30 日間の特性母集団（<span class="wintitle">Total Trait Populations</span>）は、特性と、リアルタイムに評価されたセグメントで異なります。 </p> <p>
      <ul id="ul_CAE803D09913462CAD413A665D85C1A2"> 
       <li id="li_3E64330D6F5B4D2F8F3456730A86894F">特性の場合、直近 30 日間の指標では、その 30 日間で特性に認定されたユニークユーザーが計上されます。 </li>
       <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">リアルタイムに評価されたセグメントの場合、直近 30 日間の指標では、過去のいずれかの時点で（当該セグメントの）特性について認定され、その 30 日間で Audience Manager により再度認識されたユーザーが計上されます。例えば、60 日前に特性について認定され、10 日前に再度認識されたユーザーがいるとします。このデータでは、このユーザーが特性について認定されてから 30 日間を超えているので、このユーザーは特性数に加算されません。ただし、リアルタイムに評価されたセグメントの過去 30 日間の数には含まれます。30 日間はセグメントの対象として認定されたからです。 </li>
-     </ul> </p> <p> <p>注意：<span class="wintitle">Estimated Real-Time Population</span> 指標には、<a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options">デバイスグラフオプション</a>を使用する<span class="wintitle">プロファイル結合ルール</span>により実行された結合に基づきセグメントについて認定されたデバイスは含まれません。 </p> </p> </td> 
+     </ul> </p> <p> <p>注意：<span class="wintitle">推定リアルタイム母集団</span>指標には、<a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options">デバイスグラフオプション</a>を使用する<span class="wintitle">プロファイル結合ルール</span>により実行された結合に基づきセグメントについて認定されたデバイスは含まれません。 </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Estimated Total Population (Potential)</span> </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> 推定合計母集団 (見込み)</span> </p> </td> 
    <td colname="col2"> <p>新しいセグメント、または変更されたセグメントに含まれる可能性があるユニーク訪問者の推定数。他の大部分の予測と同様に、過去のパフォーマンスから将来の結果が保証されているわけではありませんが、推定合計数は次の用途で使用できます。 </p> <p> 
      <ul id="ul_0490DD08C7C8493DADFB11B5872A73BC"> 
       <li id="li_AE38C8C8A4B24021BAC724B51A4799E2">セグメントの作成時に、新しいセグメントや変更後のセグメントがリーチできるユーザーの数を把握する。 </li> 
       <li id="li_E830EC2B12DC46D4B0A4DD807A8936F6">目標に応じてセグメントを調整する。例えば、大規模なセグメントはブランド認知キャンペーンに便利で、小規模なセグメントは対象を限定したターゲティングやリターゲティングキャンペーンに便利です。 </li> 
-     </ul> </p> <p> <p>注意：<span class="wintitle">Estimated Total Population</span> 指標には、<a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options">デバイスグラフオプション</a>を使用する<span class="wintitle">プロファイル結合ルール</span>により実行された結合に基づきセグメントについて認定されたデバイスは含まれません。 </p> </p> </td> 
+     </ul> </p> <p> <p>注意：<span class="wintitle">推定合計母集団</span>指標には、<a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options">デバイスグラフオプション</a>を使用する<span class="wintitle">プロファイル結合ルール</span>により実行された結合に基づきセグメントについて認定されたデバイスは含まれません。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +102,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Real-Time Population (Existing)</span> </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> リアルタイム母集団 (既存)</span> </p> </td> 
    <td colname="col2"> <p>指定した時間範囲にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントについて認定されたユニーク訪問者の実際の数。 </p> <p><span class="wintitle">セグメントビルダー</span>では、直近 30 日間の特性母集団（<span class="wintitle">Total Trait Populations</span>）は、特性と、リアルタイムに評価されたセグメントで異なります。 </p> <p> 
      <ul id="ul_50D1528DDDF347858F17DA3C033B0E3F"> 
       <li id="li_ABA2BFE68FF4430DBB425C4661E1836A">特性の場合、直近 30 日間の指標では、その 30 日間で特性に認定されたユニークユーザーが計上されます。 </li> 
@@ -110,7 +110,7 @@ ht-degree: 100%
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Total Population (Existing)</span> </p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> 合計母集団 (既存)</span> </p> </td> 
    <td colname="col2"> <p>前日のセグメントについて認定されたユニーク訪問者の実際の数。 </p> </td> 
   </tr> 
  </tbody> 

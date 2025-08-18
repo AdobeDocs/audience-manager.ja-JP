@@ -56,7 +56,7 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table> -->
 
-## Audience Managerユーザーインターフェイスの更新 – Yahoo/Oath/DataX との統合 {#ui-update}
+## Audience Manager ユーザーインターフェイスの更新 – Yahoo/Oath/DataX との統合 {#ui-update}
 
 上記 IAB フレームワークへの更新に加えて、Yahoo／Oath／DataX では、分類 API と Audience API に **gdpr** および **gdpr_mode** という新しいパラメーターを追加しました。これらのパラメーターは、データプロセッサーまたはデータコントローラーとして特定のセグメントを処理する権限があることを Yahoo／Oath／DataX に知らせます。結果的に、Yahoo／Oath／DataX の宛先にセグメントを送信する Audience Manager のお客様は、Oath との合意に基づいて、適切なパラメーター（プロセッサーまたはコントローラー）を指定する必要があります。
 

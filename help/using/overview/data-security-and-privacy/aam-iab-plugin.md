@@ -169,7 +169,7 @@ https://yourcompany.demdex.net/event?d_event=imp&gdpr=1&gdpr_consent=consentstri
 
 ## IAB TCF をサポートするアクティベーションパートナー {#aam-activation-partners}
 
-IAB TCF 用Audience Managerプラグインを使用すると、ユーザーのプライバシーの選択を尊重しながら、IAB TC 文字列をアクティベーションパートナーに転送できます。 IAB TCF をサポートするアクティベーションパートナーに関する情報は、[デバイスベースの宛先のリストト](/help/using/features/destinations/device-based-destinations-list.md)を参照してください。
+IAB TCF 用Audience Manager プラグインを使用すると、ユーザーのプライバシーの選択を尊重しながら、IAB TC 文字列をアクティベーションパートナーに転送できます。 IAB TCF をサポートするアクティベーションパートナーに関する情報は、[デバイスベースの宛先のリストト](/help/using/features/destinations/device-based-destinations-list.md)を参照してください。
 
 ## URL の宛先へ送信する URL への同意の追加
 

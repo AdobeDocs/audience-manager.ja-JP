@@ -58,7 +58,7 @@ ht-degree: 100%
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/36810?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## [!UICONTROL Segment Builder] コントロール：[!UICONTROL Basic Information] セクション {#segment-builder-controls-basics}
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 | **[!UICONTROL Description]** | セグメントに関する追加の説明情報のフィールド。 |
 | **[!UICONTROL Integration Code]** | ユーザー定義 ID などの会社特有の情報のフィールド。 |
 | **[!UICONTROL Data Source]** | セグメントと特定のデータプロバイダーを関連付けます。<br>最初のドロップダウンメニューを使用して、Audience Manager のデータソース、Adobe Analytics のレポートスイート、またはその両方をフィルタリングします。次に、2 番目のドロップダウンメニューを使用して、データソースを選択します。<br>Adobe Analytics レポートスイートを使用しない場合、データソースタイプセレクターは無効になり、デフォルトで Audience Manager データソースのみに設定されます。 |
-| **[!UICONTROL Profile Merge Rule]** | セグメント認定に使用するプロファイル結合ルールを選択します。 |
+| **[!UICONTROL Profile Merge Rule]** | セグメントの選定に使用するプロファイル結合ルールを選択します。 |
 | **[!UICONTROL Status]** | セグメントをアクティブまたは非アクティブにします（デフォルトではアクティブです）。 |
 | **フォルダーストレージ** | セグメントが属する保存フォルダーを指定します。 |
 

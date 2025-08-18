@@ -64,7 +64,7 @@ Audience Manager では、アカウントに作成できる特性、セグメン
 
 | 項目 | 上限 |
 | -------- | ----- |
-| Active [!UICONTROL Look-Alike Models] | 20. Audience Manager は&#x200B;*アクティブ*&#x200B;なアルゴリズムモデルのみを制限としてカウントするようになりました。 |
+| Active [!UICONTROL Look-Alike Models] | &#x200B;20. Audience Manager は&#x200B;*アクティブ*&#x200B;なアルゴリズムモデルのみを制限としてカウントするようになりました。 |
 | [!UICONTROL Look-Alike Models] 最大オーディエンスサイズ | 25,000,000 の限度を引き上げることはできません。オーディエンスのサイズを小さくするには、モデルに対して少ないデータソースを選択するか、短いルックバック期間を選択します。 |
 | [!UICONTROL Look-Alike Model] の最大除外特性数  | 500。[アルゴリズムモデリングにおける特性の除外](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)を参照してください。 |
 | 最大 [!UICONTROL Predictive Audiences Models] | 10 |

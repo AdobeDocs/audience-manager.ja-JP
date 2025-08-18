@@ -23,4 +23,4 @@ ht-degree: 100%
 * [フォルダー特性：詳細](/help/using/features/traits/about-folder-traits.md)
 * [特性ストレージ](/help/using/features/traits/trait-storage.md)
 * [アクティブオーディエンス特性とデータソース同期特性](/help/using/features/traits/client-activity-synced-audience-traits.md)
-* [特性およびセグメントの資格に関するリファレンス](/help/using/features/traits/trait-and-segment-qualification-reference.md)
+* [特性およびセグメントの選定に関するリファレンス](/help/using/features/traits/trait-and-segment-qualification-reference.md)

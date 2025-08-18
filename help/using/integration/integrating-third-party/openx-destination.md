@@ -10,7 +10,7 @@ exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ Audience Manager はデータをキーと値のペアとして送信します。
 * キーの前に `c.` を付けます（`c.color` または `c.price` など）。
 * 単一のキーにシリアル化された値を割り当てる場合、コンマで区切ります（`c.color = red, green, blue` など）。
 * 複数のキーと値のペアは、アンパサンドで区切ります（`c.color=red & c.price = 100 & c.condition = new` など）。
-* キー名にアクセントや句読点、その他の記号などの特殊文字を含めることはできません。
+* キー名にアクセントや句読点、その他のシンボルなどの特殊文字を含めることはできません。
 
 ### 適合するセグメントのみ OpenX に送信
 
@@ -53,7 +53,7 @@ Audience Manager で、[!DNL OpenX] の cookieookie の宛先を作成します�
 
 <!-- aam-openx-destination.xml -->
 
-Audience Manager において、*宛先*&#x200B;とは、データを共有したい他システム（広告サーバー、[!DNL DSP]、広告ネットワークなど）になります。[!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
+Audience Managerでは、*宛先* とは、データを共有する他のシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）です。 [!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*Audience Data／Destinations* からアクセスできます。まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
 
 ### 手順 1：基本情報
 
@@ -68,7 +68,7 @@ Audience Manager において、*宛先*&#x200B;とは、データを共有し�
 「[!UICONTROL Configuration]」セクションを完了するには：
 
 1. **Cookie Name：** Cookie の短くてわかりやすい名前を指定します。
-1. **Cookie Domain：**&#x200B;ユーザーが現在表示しているページのドメインで Cookie を設定する場合は空のままとします。ドメインを指定する場合は、`.mydomain.com` のように、ピリオドを使用して名前にプレフィックスを付けます。
+1. **Cookie Domain：**&#x200B;ユーザーが現在表示しているページのドメインで Cookie を設定する場合は空のままとします。ドメインを指定する場合は、`.mydomain.com` のように、ピリオドを使用して名前に接頭辞を付けます。
 1. 「[!UICONTROL Data Format]」セクションでキーオプションを選択します。
 1. シリアル化された値のデータを使用するキーの場合、**[!UICONTROL Serialize]** コントロールを選択し、シリアル値の区切り文字（シリアル化された値を区切るための文字）を指定します。
 1. **[!UICONTROL Save]**&#x200B;をクリックし、「[!UICONTROL Segment Mappings]」セクションを展開します。

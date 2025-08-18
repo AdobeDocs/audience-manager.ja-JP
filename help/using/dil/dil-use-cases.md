@@ -18,11 +18,11 @@ ht-degree: 92%
 
 >[!WARNING]
 >
->2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] と [!DNL DIL] の開発を廃止しました。
+>2023 年 7 月以降、Adobeは [!DNL Data Integration Library (DIL)] および [!DNL DIL] 拡張機能の開発を廃止しました。
 >
->既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの先 [!DNL DIL] は発展しません。 お客様は、長期的なデータ収集戦略について [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)0&rbrace;Experience Platform Web SDK&rbrace; を評価することをお勧めします。
+>既存のお客様は、[!DNL DIL] 実装を引き続き使用できます。 ただし、Adobeはこの点を超えて [!DNL DIL] 開発を行うことはありません。 お客様は、長期的なデータ収集戦略について [0}Experience Platform Web SDK} を評価することをお勧めします。](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 >
->2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用する必要があります。
+>2023 年 7 月以降、新しいデータ収集統合機能の実装を検討しているお客様は、代わりに [0}Experience Platform Web SDK} を使用する必要があります。](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)
 
 特定の DIL ユースケースのコードサンプルおよび説明です。
 
@@ -44,7 +44,7 @@ c_dil_send_page_objects.xml
 
 **説明**
 
-[!UICONTROL DIL] を使用してページデータを収集し、Audience Manager に送信する方法の例を以下のコードで示します。これらの例では、フラットリストまたは配列にデータ要素を保持する変数を使用します。変数を [ キーと値のペア ](../reference/key-value-pairs-explained.md) として渡すことに注意してください。 また、キーと値のペアのキーの前に付いている `c_` プレフィックスにも注意してください。これは[必須のプレフィックス](../features/traits/trait-variable-prefixes.md)であり、情報がユーザー定義データであることを明示します。最初の例では、`c_` を手動でキーに付加する必要があります。2 番目の例では、[!UICONTROL DIL] がこれを自動的におこないます。
+[!UICONTROL DIL] を使用してページデータを収集し、Audience Manager に送信する方法の例を以下のコードで示します。これらの例では、フラットリストまたは配列にデータ要素を保持する変数を使用します。変数を [ キーと値のペア ](../reference/key-value-pairs-explained.md) として渡すことに注意してください。 また、キーと値のペアのキーの前に付いている `c_` 接頭辞にも注意してください。これは[必須の接頭辞](../features/traits/trait-variable-prefixes.md)であり、情報がユーザー定義データであることを明示します。最初の例では、`c_` を手動でキーに付加する必要があります。2 番目の例では、[!UICONTROL DIL] がこれを自動的におこないます。
 
 **値プロパティの一貫性の維持**
 
@@ -56,10 +56,10 @@ c_dil_send_page_objects.xml
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
-sample_dil.api.signals(&lbrace; 
+sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
-&rbrace;); 
+}); 
 sample_dil.api.submit();
 </code></pre>
 
@@ -68,10 +68,10 @@ sample_dil.api.submit();
 この高度な例では、データをオブジェクトで Audience Manager に送信する方法を示します。このメソッドを扱う場合は、[!UICONTROL DIL] を使用すると、オブジェクトを関数パラメーターとして [!DNL signals()] メソッドに渡すことができます。[!UICONTROL DIL] 次のようなコードになります。
 
 <pre class="java"><code>
-var my_object = &lbrace; 
+var my_object = { 
    color : "blue", 
    price : "900" 
-&rbrace;; 
+}; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
@@ -83,21 +83,21 @@ sample_dil.api.signals(my_object,"c_").submit();
 この場合、変数 `my_object` は、配列を使用してデータを保持します。この例は、前述の推奨メソッドで渡された情報に基づいて構築されていますが、製品タイプおよびモデルに適応させるためにレイヤーを追加しています。次のようなコードになります。
 
 <pre class="java"><code>
-var my_objects = &lbrack;&lbrace; 
+var my_objects = [{ 
    color : "blue", 
    price : "900" 
-&rbrace;, &lbrace; 
+}, { 
    type : "acura", 
    model : "tl" 
-&rbrace;&rbrack;; 
+}]; 
  
 var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
-&lbrace; 
+{ 
     sample_dil.api.signals(my_objects[i], "c_"); 
-&rbrace; 
+} 
 sample_dil.api.submit();
 </code></pre>
 
@@ -156,18 +156,18 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **登録済み検索エンジンのコードサンプル**
 
-ここでは、ユーザーが「homes」という語句を [!DNL Google] Canada（`www.google.ca`）で検索したとしましょう。コードで、検索エンジン（`c_se`）および検索語句（`c_st`）に、必須の `c_` プレフィックスが付加されていることに注意してください。`c_` は[必須のプレフィックス](../features/traits/trait-variable-prefixes.md)であり、これらが Audience Manager に対する顧客定義変数であることを明示するためのものです。
+ここでは、ユーザーが「homes」という語句を [!DNL Google] Canada（`www.google.ca`）で検索したとしましょう。コードで、検索エンジン（`c_se`）および検索語句（`c_st`）に、必須の `c_` 接頭辞が付加されていることに注意してください。`c_` は[必須の接頭辞](../features/traits/trait-variable-prefixes.md)であり、これらが Audience Manager に対する顧客定義変数であることを明示するためのものです。
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 **未登録検索エンジンのコードサンプル**
@@ -176,17 +176,17 @@ if (search_referrer && search_referrer.valid) &lbrace;
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
-var search_referrer = DIL.tools.getSearchReferrer(document.referrer, &lbrace;  
+var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
-&rbrace;); 
+}); 
  
-if (search_referrer && search_referrer.valid) &lbrace; 
-  adobe_dil.api.signals(&lbrace; 
+if (search_referrer && search_referrer.valid) { 
+  adobe_dil.api.signals({ 
     c_se : se.name, 
     c_st : se.keywords 
-  &rbrace;).submit(); 
-&rbrace;
+  }).submit(); 
+}
 </code></pre>
 
 ## キーと値の他のキーへのマッピング {#map-key-values}
@@ -201,7 +201,7 @@ c_dil_map_keys.xml
 
 **説明**
 
-キーと値のペアでは、キーに付加された `c_` プレフィックスで、シグナルが顧客定義データとして識別されます。顧客定義データは、イベント呼び出し時のデータで渡された特定のサイト上のターゲティングに使用されます。ただし、この情報を Audience Manager アカウントのすべてのプロパティで使用可能にしたい場合があります。これをおこなうには、`c_` キーと値のペアの値をプラットフォームレベルのキーにマッピングします。プラットフォームレベルのキーには `d_` プレフィックスが付加されており、そのシグナルがアカウントのすべてのプロパティでターゲティングに使用できるようになります。
+キーと値のペアでは、キーに付加された `c_` 接頭辞で、シグナルが顧客定義データとして識別されます。顧客定義データは、イベント呼び出し時のデータで渡された特定のサイト上のターゲティングに使用されます。ただし、この情報を Audience Manager アカウントのすべてのプロパティで使用可能にしたい場合があります。これをおこなうには、`c_` キーと値のペアの値をプラットフォームレベルのキーにマッピングします。プラットフォームレベルのキーには `d_` 接頭辞が付加されており、そのシグナルがアカウントのすべてのプロパティでターゲティングに使用できるようになります。
 
 例として、特定のサイトから郵便番号データを収集し、それをすべての Audience Manager プロパティに対してターゲット設定するとします。郵便番号をプラットフォームレベルで使用できるようにするには、以下に示すように、顧客定義郵便番号キー（例：`c_zip`）をプラットフォーム定義キーにマッピングします。
 
@@ -251,4 +251,4 @@ GTM で `dil.js` ファイルを配信するには：
 >
 >* [Google タグマネージャーヘルプセンター](https://support.google.com/tagmanager#topic=3441530)
 >* [シグナル](../dil/dil-instance-methods.md#signals)
->* [キー変数のプレフィックスに関する要件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=ja#prefix-requirements-for-key-variables)
+>* [キー変数の接頭辞に関する要件](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=ja#prefix-requirements-for-key-variables)

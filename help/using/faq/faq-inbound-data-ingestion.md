@@ -4,7 +4,7 @@ keywords: FTP または s3;s3 または FTP
 seo-description: Frequently asked questions about bringing offline data into Audience Manager.
 seo-title: Inbound Customer Data Ingestion FAQ
 solution: Audience Manager
-title: 顧客データのインバウンドの取得に関するよくある質問
+title: '顧客データのインバウンドの取得に関するよくある質問 '
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13

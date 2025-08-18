@@ -17,7 +17,7 @@ ht-degree: 100%
 
 すべてのシグナルから新しい特性を作成し（特性内ですでに使用しているものを含む）、特性作成後に認定する将来のオーディエンスを取り込みます。ビデオで詳細なデモを視聴するか、詳細情報をお読みください。
 
->[!VIDEO](https://video.tv.adobe.com/v/327528/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12)
 
 ## シグナルダッシュボードでの特性の作成 {#create-traits-from-signal-dashboard}
 

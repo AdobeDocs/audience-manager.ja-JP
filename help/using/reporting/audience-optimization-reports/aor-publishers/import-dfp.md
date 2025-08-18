@@ -82,7 +82,7 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
   </tr> 
   <tr> 
    <td colname="col1"> <p>手順 6 </p> </td> 
-   <td colname="col2"> <p>ログ取り込みプロセスを開始するために詳しく説明されている手順 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=ja"> こちら </a> に従って、前提条件をコンパイルし、サポートチケットを開きます。 </p> </td> 
+   <td colname="col2"> <p>ログ取り込みプロセスを開始するために詳しく説明されている手順 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html"> こちら </a> に従って、前提条件をコンパイルし、サポートチケットを開きます。 </p> </td> 
    <td colname="col3"> <p>自分または <span class="keyword"> Audience Manager</span> コンサルタントが代理で実行 </p> </td> 
   </tr> 
  </tbody> 

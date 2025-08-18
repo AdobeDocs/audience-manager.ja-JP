@@ -19,8 +19,8 @@ ht-degree: 100%
 >[!WARNING]
 >
 >Google は、`User-Agent` ヘッダーを介して収集される情報を最小限に抑えるために、[!DNL Google Chrome] およびすべての [!DNL Chromium] ベースのブラウザーの機能を更新しました。
->2023年3月以降、Audience Manager は [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を活用してこれらの更新をサポートします。`User-Agent` ヘッダーを介して提供される特性情報を引き続き使用するには、[Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用し、[高エントロピーのユーザーエージェントクライアントヒント](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja)を有効にする必要があります。
->これらの更新は [DIL](../../../using/dil/dil-overview.md) でサポートされていないので、[!DNL DIL] を使用する Audience Manager のお客様は、`User-Agent` ヘッダーを介して特性情報を収集できません。
+>>2023年3月以降、Audience Manager は [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を活用してこれらの更新をサポートします。`User-Agent` ヘッダーを介して提供される特性情報を引き続き使用するには、[Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用し、[高エントロピーのユーザーエージェントクライアントヒント](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja)を有効にする必要があります。
+>>これらの更新は [DIL](../../../using/dil/dil-overview.md) でサポートされていないので、[!DNL DIL] を使用する Audience Manager のお客様は、`User-Agent` ヘッダーを介して特性情報を収集できません。
 
 Audience Manager アカウントのすべてのプロパティをまたぐデバイス関連変数を使用して、ユーザーをターゲティングするのに使用できる、プラットフォームレベルの共通のキー値ペアについて説明します。
 
@@ -28,7 +28,7 @@ Audience Manager アカウントのすべてのプロパティをまたぐデバ
 
 <!-- c_tb_device_targeting.xml -->
 
-プラットフォームレベルの変数を使用すると、特定のサイトからデータを渡して、[!DNL Audience Manager] アカウントのすべてのプロパティにわたるターゲティングに使用できます。これらの変数は[キー値ペア](../../reference/key-value-pairs-explained.md)で構成され、以下に示すように、キーには `d_` というプレフィックスが付加されます。
+プラットフォームレベルの変数を使用すると、特定のサイトからデータを渡して、[!DNL Audience Manager] アカウントのすべてのプロパティにわたるターゲティングに使用できます。これらの変数は[キー値ペア](../../reference/key-value-pairs-explained.md)で構成され、以下に示すように、キーには `d_` という接頭辞が付加されます。
 
 ## ユーザーエージェントによって定義されたプラットフォームレベルのキー {#keys-user-agent}
 
@@ -54,4 +54,4 @@ Audience Manager アカウントのすべてのプロパティをまたぐデバ
 
 >[!MORELIKETHIS]
 >
->* [キー変数のプレフィックスに関する要件](../../features/traits/trait-variable-prefixes.md)
+>* [キー変数の接頭辞に関する要件](../../features/traits/trait-variable-prefixes.md)

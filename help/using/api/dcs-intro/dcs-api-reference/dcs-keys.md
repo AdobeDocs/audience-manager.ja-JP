@@ -19,14 +19,14 @@ ht-degree: 100%
 
 [!UICONTROL Data Collection Servers]（[!DNL DCS]）に渡すことができるデータの構文とサポートされている属性（キー値ペア）について説明します。この情報は、[!DNL DCS] リクエストの形式設定や DCS システムから返されるパラメーターの理解に役立ちます。
 
-## 属性プレフィックス {#attribute-prefixes}
+## 属性接頭辞 {#attribute-prefixes}
 
-[!DNL DCS] では、キー値ペアのキーに付加されている特定のプレフィックスに基づいて、渡すデータのタイプを分類します。
+[!DNL DCS] では、キー値ペアのキーに付加されている特定の接頭辞に基づいて、渡すデータのタイプを分類します。
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> キープレフィックス </th> 
+   <th colname="col1" class="entry"> キー接頭辞 </th> 
    <th colname="col2" class="entry"> 対応するデータの種類 </th> 
   </tr>
  </thead>
@@ -45,7 +45,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>非公開の顧客定義属性。 </p> <p> DCS では、キーに <code> p_</code> プレフィックスが含まれていれば、お客様独自の非公開データを受信します。非公開データは特性評価に使用されますが、アドビのシステムにはログとして記録されず、保存もされません。例えば、<code> customers = p_age&lt;25</code> として定義されている特性があり、イベント呼び出しで <code> p_age=23</code> を渡すとしましょう。これらの条件を仮定すると、年齢に基づき絞り込まれたユーザーはこの特性に絞り込まれますが、このキー値ペアは、<span class="keyword">Audience Manager</span> にリクエストが受信された後で削除され、ログには記録されません。 </p> </td>
+   <td colname="col2"> <p>非公開の顧客定義属性。 </p> <p> DCS では、キーに <code> p_</code> 接頭辞が含まれていれば、お客様独自の非公開データを受信します。非公開データは特性評価に使用されますが、アドビのシステムにはログとして記録されず、保存もされません。例えば、<code> customers = p_age&lt;25</code> として定義されている特性があり、イベント呼び出しで <code> p_age=23</code> を渡すとしましょう。これらの条件を仮定すると、年齢に基づき絞り込まれたユーザーはこの特性に絞り込まれますが、このキー値ペアは、<span class="keyword">Audience Manager</span> にリクエストが受信された後で削除され、ログには記録されません。 </p> </td>
   </tr> 
  </tbody> 
 </table>

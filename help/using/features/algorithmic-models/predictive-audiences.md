@@ -80,7 +80,7 @@ e コマース会社のマーケターの場合、ユーザーエクスペリエ
 
 ### ターゲットオーディエンスの選択条件 {#selection-audience}
 
-ユースケースに応じて、ユーザーをリアルタイム、バッチまたはその両方のどれで分類するかに応じて、リアルタイム母数または合計母数が大きなターゲットオーディエンス（[!UICONTROL trait]または[!UICONTROL segment]）を選択します。ペルソナの選択と同様に、ターゲットのオーディエンス[!UICONTROL trait]を使用するか、豊富なプロファイル（[!UICONTROL traits]の豊富なセット）を持つ[!UICONTROL segment]を使用することをお勧めします。
+ユースケースに応じて、ユーザーをリアルタイム、バッチまたはその両方のどれで分類するかに応じて、リアルタイム母集団または合計母集団が大きなターゲットオーディエンス（[!UICONTROL trait] または [!UICONTROL segment]）を選択します。ペルソナの選択と同様に、ターゲットのオーディエンス[!UICONTROL trait]を使用するか、豊富なプロファイル（[!UICONTROL traits]の豊富なセット）を持つ[!UICONTROL segment]を使用することをお勧めします。
 
 ターゲットオーディエンスを選択する場合は、ユースケースを分析し、分類する ID のタイプ（[!UICONTROL device IDs]または[!UICONTROL cross-device IDs]）を選択します。モデルの作成時に選択した[!UICONTROL Profile Merge Rule]によって、各ユーザーを予測[!UICONTROL segments]に配置するために使用されるデータが定義されます。
 
@@ -127,7 +127,7 @@ e コマース会社のマーケターの場合、ユーザーエクスペリエ
 1. ターゲットオーディエンスのファーストパーティデータソース。特に、ターゲットオーディエンスを構成する[!UICONTROL traits]または[!UICONTROL segments]のデータ書き出しコントロール。
 1. モデルに対して選択した[!UICONTROL Profile Merge Rule]の[データ書き出しコントロール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ja)。
 
-新しく作成した予測[!UICONTROL traits]および[!UICONTROL segments]には、前述のファーストパーティデータソースと同じプライバシー制限が課されます。
+新しく作成した予測[!UICONTROL traits]および[!UICONTROL segments]には、前述のファーストパーティデータソースの結合と同じプライバシー制限が課されます。
 
 [!UICONTROL Predictive Audiences] セグメントのプライバシー制限に含まれない追加の制限を持つ特性は、トレーニングフェーズから除外され、モデルに対して影響力を持つことはありません。
 

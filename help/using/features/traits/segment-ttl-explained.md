@@ -10,7 +10,7 @@ exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ Audience Manager は、次の式に基づいて、[!DNL TTL] の有効期限を 
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **例 1**：1:00 [!DNL UTC] に認定され、[!DNL TTL] が 1 日の場合。[!DNL TTL] は、24 時間 + 24 時間 － 1 = 47 時間後に期限切れとなります。
-* **例 2**：23:00 [!DNL UTC] に認定され、[!DNL TTL] が 1 日の場合。[!DNL TTL] は、24 時間 + 24 時間 － 23 = 25 時間後に期限切れとなります。
+* **例 1**：特性が 1:00[!DNL UTC] で実現され、1 日の [!DNL TTL] を持つ。 [!DNL TTL] は、24 時間 + 24 時間 － 1 = 47 時間後に期限切れとなります。
+* **例 2**:23:00 の [!DNL UTC] で実現された特性（1 日 [!DNL TTL]） [!DNL TTL] は、24 時間 + 24 時間 － 23 = 25 時間後に期限切れとなります。
 
 ## [!DNL TTL] とセグメントからのドロップアウト
 

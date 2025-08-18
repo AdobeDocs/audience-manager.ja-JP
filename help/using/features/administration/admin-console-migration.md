@@ -41,7 +41,7 @@ Audience Manager 管理者は、次の手順に従ってユーザーを [!DNL Ad
 1. [https://adminconsole.adobe.com](https://adminconsole.adobe.com) に移動し、Adobe ID または Enterprise ID を使用してログインします。[!DNL Admin Console] にアクセスできない場合は、カスタマーケアまたはアドビコンサルタントにお問い合わせください。
 2. ユーザーアカウントの作成および管理方法の詳細な手順については、[!DNL Adobe Admin Console] [ヘルプガイド](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/users.ug.html)を参照してください。
 3. 既存のすべての Audience Manager ユーザーに対して新しいユーザーアカウントを作成します。
-4. 新しく作成したユーザーアカウントについてユーザーに通知します。[!DNL Admin Console] に移行された後、ユーザーは従来のログインの使用をやめる必要があります。
+4. 新しく作成したユーザーアカウントについてユーザーに通知します。[!DNL Admin Console] に移行された後、ユーザーは従来のログインの使用を停止する必要があります。
 
 ## ユーザー移行に関する考慮事項 {#considerations}
 

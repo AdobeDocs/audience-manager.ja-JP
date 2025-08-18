@@ -9,7 +9,7 @@ exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
 source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 ## コンバージョン後はターゲティングしない {#do-not-target-once}
 
-コンバージョンに達した（製品を購入した、サブスクリプションを取得したなど）ユーザーには、コンバージョン前と同じメッセージは表示されしません。次のように、[!UICONTROL AND NOT] ロジックを使用してこれを実現できます。
+既にコンバージョン済み（製品の購入、サブスクリプションの取得など）のユーザーには、コンバージョン前と同じメッセージが表示されないようにします。 次のように、[!UICONTROL AND NOT] ロジックを使用してこれを実現できます。
 
 1. 次の図に示すように、2 つの特性を使用するセグメントを作成し、[!UICONTROL AND NOT] ロジックを使用します。ルールベースの特性を使用して、セグメント化解除がリアルタイムに起動されるようにコンバージョンイベントを定義する必要があります。詳しくは、[ ルールベースの特性を作成 ](../traits/create-onboarded-rule-based-traits.md) する方法を参照してください。
 2. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。[ サーバー間宛先 ](../destinations/add-edit-segments.md) にセグメントを追加する方法については、こちらを参照してください。
@@ -66,5 +66,5 @@ ht-degree: 88%
 
 時間設定に関しては、次の側面に留意してください。
 
-* セグメントは、デバイスプロファイルが [&#128279;](../../reference/system-components/components-edge.md) スト [!UICONTROL Edge] ージに保存されるのと同じ期間（最後のリアルタイムインタラクションから 14 日間）で Edgeに保存されます。 データ保持について詳しくは、[データ保持に関する FAQ](../../faq/faq-privacy.md#data-retention-faq) を参照してください。
+* セグメントは、デバイスプロファイルが [ スト ](../../reference/system-components/components-edge.md) ージに保存されるのと同じ期間（最後のリアルタイムインタラクションから 14 日間）で [!UICONTROL Edge]Edgeに保存されます。 データ保持について詳しくは、[データ保持に関する FAQ](../../faq/faq-privacy.md#data-retention-faq) を参照してください。
 * セグメント化解除操作が [!DNL DCS] 地域全体に伝達されるまでに、およそ 24 時間かかります。[!DNL DCS] 地域の詳細については、[こちら](../../reference/system-components/components-data-collection.md)と[こちら](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)を参照してください。

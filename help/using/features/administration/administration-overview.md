@@ -11,7 +11,7 @@ exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
 workflow-type: tm+mt
 source-wordcount: '1173'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
-> Adobe [!DNL RBAC] を使用する前に、この機能を有効にする必要があります。 アカウントチームに連絡してアクティベーション [!DNL RBAC] リクエストするか、カスタマーケアにお問い合わせください。
+> [!DNL RBAC] を使用する前に、Adobeでこの機能を有効にする必要があります。 アカウントチームに連絡してアクティベーション [!DNL RBAC] リクエストするか、カスタマーケアにお問い合わせください。
 
 
 [!UICONTROL Administration] メニューのオプションを使用すると、Audience Manager ユーザーを作成してグループに割り当てることができます。また、制限（特性、セグメント、宛先、モデル）を表示することもできます。
 
 [!DNL Audience Manager] をご使用のエンタープライズのお客様が必要としているのは、すべてのデータを 1 つのデータ管理プラットフォームで管理しながら、ビジネスユニットに応じて異なるデータ要素を表示できる機能です。グループ権限を使用してこれを実現でき、[!UICONTROL Role-Based Access Control]（[!UICONTROL RBAC]）とも呼ばれます。
 
-[!DNL Audience Manager] は権限の割り当てにグループを使用します。権限はユーザー単位では割り当てられません。グループ権限はオブジェクト（[!UICONTROL traits]やセグメントなど）、また、これらのオブジェクトに対して実行するアクション（編集や表示など）に関連付けられます。これらのコントロールは、Audience Manager REST API からも利用できます。[ユーザー管理](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)、[グループ管理](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)、および[権限管理](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) API メソッドを参照してください。
+[!DNL Audience Manager] は権限の割り当てにグループを使用します。権限はユーザー単位では割り当てられません。グループ権限は、オブジェクト（[!UICONTROL traits]、セグメントなど）と、それらのオブジェクトに対して実行できるアクション（編集、表示など）に関連付けられています。 これらのコントロールは、Audience Manager REST API からも利用できます。[ユーザー管理](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)、[グループ管理](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)、および[権限管理](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) API メソッドを参照してください。
 
 ## ユーザーの作成 {#create-users}
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
 > 
->[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
+[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Users]** をクリックします。
 1. ![](assets/icon_add.png) をクリックして、[!UICONTROL Create New User] ページを表示します。
@@ -56,7 +56,7 @@ ht-degree: 97%
    * **[!UICONTROL Last Name]：**&#x200B;ユーザーの姓を指定します。
    * **[!UICONTROL Email Address]：**&#x200B;ユーザーの電子メールアドレスを指定します。[!DNL Audience Manager] は標準の通知をユーザーに送信しません。[!DNL Audience Manager] 管理者はユーザーの電子メールアドレスにアクセスできるので、必要に応じて手動でユーザーにメールを送信できます。例えば、ユーザーが自分のパスワードを忘れてしまった場合、このフィールドで指定された電子メールアドレスに、臨時のパスワードと、パスワードをリセットするための手順が送信されます。
    * **[!UICONTROL Phone Number]：**&#x200B;ユーザーの電話番号を指定します。
-   * **[!UICONTROL Is Admin]：**&#x200B;このユーザーが [!DNL Audience Manager] 管理者であるかどうかを指定します。管理ユーザーはユーザーの管理（作成や編集など）とグループの管理（作成、権限の割り当てなど）ができます。管理者でないユーザーは、自分の電子メールアドレスの編集やパスワードのリセットなど、自分のユーザープロファイルのみ制御できます。詳しくは、[アカウント設定の編集](../../features/administration/edit-account-settings.md)を参照してください。
+   * **[!UICONTROL Is Admin]：**&#x200B;このユーザーが [!DNL Audience Manager] 管理者であるかどうかを指定します。管理者ユーザーは、ユーザー（作成、編集など）とグループ（作成、権限の割り当てなど）を管理できます。 管理者でないユーザーは、自分の電子メールアドレスの編集やパスワードのリセットなど、自分のユーザープロファイルのみ制御できます。詳しくは、[アカウント設定の編集](../../features/administration/edit-account-settings.md)を参照してください。
 1. 「**[!UICONTROL Login]**」で、目的のステータスを選択します。
    * **[!UICONTROL Active]：**&#x200B;アクティブなユーザーは [!DNL Audience Manager] にアクセスでき、グループメンバーシップによる権限が付与されます。
    * **[!UICONTROL Deactivated]：**&#x200B;非アクティブなユーザーは [!DNL Audience Manager] にアクセスできず、権限もありません。ユーザーを非アクティブ化しても、ユーザー情報は [!DNL Audience Manager] に残るので、必要があれば再アクティブ化できます。ユーザーを削除すると、そのユーザーが将来 [!DNL Audience Manager] を使用する必要が出た場合は、ユーザーを作成し直さなければなりません。

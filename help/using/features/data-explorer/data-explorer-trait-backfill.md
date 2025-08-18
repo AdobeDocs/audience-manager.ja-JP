@@ -51,7 +51,7 @@ ht-degree: 97%
 
 特性のバックフィル方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/327528?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
 ## 特性バックフィル遅延 {#trait-backfilling-latency}
 

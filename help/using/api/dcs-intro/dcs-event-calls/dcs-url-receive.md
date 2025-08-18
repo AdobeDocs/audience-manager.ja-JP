@@ -66,4 +66,4 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!MORELIKETHIS]
 >
->* [DCS でサポートされるキーと値のプレフィックスおよび変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+>* [DCS でサポートされるキーと値の接頭辞および変数](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)

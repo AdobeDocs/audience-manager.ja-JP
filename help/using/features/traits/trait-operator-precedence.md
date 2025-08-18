@@ -31,7 +31,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> 丸括弧 </td> 
-   <td colname="col2"> （） </td> 
+   <td colname="col2"> ( ) </td> 
    <td colname="col3"> 丸括弧内の式は、常に最初に評価され、優先順位に従います。 </td> 
   </tr> 
   <tr> 

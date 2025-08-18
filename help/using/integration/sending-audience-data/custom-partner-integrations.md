@@ -17,7 +17,7 @@ ht-degree: 98%
 
 このページには、Audience Manager とデータパートナー間のカスタム統合の一覧が掲載されています。
 
-## Data Cloud のOracle {#oracle-data-cloud}
+## Oracle Data Cloud {#oracle-data-cloud}
 
 ### 説明
 

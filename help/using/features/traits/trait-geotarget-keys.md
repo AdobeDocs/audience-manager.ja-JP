@@ -22,7 +22,7 @@ Audience Manager アカウントのすべてのプロパティ、地理変数で
 
 ## プラットフォームレベル変数の目的 {#platform-variables}
 
-プラットフォームレベルの変数を使用すると、特定のサイトからデータを渡して、[!DNL Audience Manager] アカウントのすべてのプロパティにわたるターゲティングに使用できます。これらの変数は[キー値ペア](../../reference/key-value-pairs-explained.md)で構成され、以下に示すように、キーには `d_` というプレフィックスが付加されます。
+プラットフォームレベルの変数を使用すると、特定のサイトからデータを渡して、[!DNL Audience Manager] アカウントのすべてのプロパティにわたるターゲティングに使用できます。これらの変数は[キー値ペア](../../reference/key-value-pairs-explained.md)で構成され、以下に示すように、キーには `d_` という接頭辞が付加されます。
 
 ## プラットフォームレベルキーへの値の追加 {#adding-values}
 
@@ -57,5 +57,5 @@ Audience Manager アカウントのすべてのプロパティ、地理変数で
 
 >[!MORELIKETHIS]
 >
->* [キー変数のプレフィックスに関する要件](../../features/traits/trait-variable-prefixes.md)
+>* [キー変数の接頭辞に関する要件](../../features/traits/trait-variable-prefixes.md)
 

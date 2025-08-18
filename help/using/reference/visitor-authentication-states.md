@@ -4,7 +4,7 @@ keywords: dpm.demdex.net
 seo-description: The visitor authentication status in Audience Manager determines if the new trait information is written to the visitor's authenticated profile or to the device profile, where the data was collected from. Audience Manager handles the visitor ID authentication statuses UNKNOWN and LOGGED_OUT in event calls in the same way.
 seo-title: Visitor Authentication States in Audience Manager
 solution: Audience Manager
-title: Audience Manager の訪問者認証ステータス
+title: 'Audience Manager の訪問者認証ステータス '
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3

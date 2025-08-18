@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-キー値ペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[Experience Cloud サービスの基本を学ぶ ](https://experienceleague.adobe.com/ja/docs/core-services/interface/services/getting-started) を参照してください。
+キー値ペア `namespace` で、`MCORG` は [!DNL Experience Cloud] の組織 ID です。この ID がわからない場合、[!DNL Experience Cloud] ダッシュボードの「[!UICONTROL Administration]」セクションで確認できます。このダッシュボードを表示するには、管理者権限が必要です。[Experience Cloud サービスの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started) を参照してください。
 
 ## 非推奨（廃止予定）の関数 {#deprecated-functions}
 

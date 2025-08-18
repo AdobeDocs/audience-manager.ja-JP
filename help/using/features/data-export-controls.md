@@ -28,7 +28,7 @@ ht-degree: 100%
 データソースおよび宛先に適用した分類に基づいて、書き出しコントロールは以下の操作を防止します。
 
 * セグメントがマッピングされている 1 つ以上の宛先で、データ書き出しラベルと互換性がないデータ書き出しコントロールを使用するデータソースに特性が属している場合、特性をセグメントに追加します。
-例えば、あるセグメントが、書き出しラベル「**[!DNL This destination may enable a combination with personally identifiable information (PII)]**」を使用して宛先にマッピングされるとします。特性が属するデータソースが「**[!DNL Cannot be tied to personally identifiable information (PII)]**」というラベルの付いたデータ書き出しコントロールを使用している場合、書き出しコントロールは、そのセグメントに特性を追加するのを中止します。
+例えば、あるセグメントが、書き出しラベル「**[!DNL This destination may enable a combination with personally identifiable information (PII)]**」を使用して宛先にマッピングされるとします。特性が属するデータソースが「**[!DNL Cannot be tied to personally identifiable information (PII)]**」というラベルの付いたデータ書き出しコントロールを使用している場合、書き出しコントロールは、そのセグメントへの特性の追加を停止します。
 * 次のいずれかの場合、データ書き出しコントロールでブロックされている、データ書き出しラベルが付いた宛先へのデータの送信
    * 含まれる特性のデータソース。
    * 含まれるセグメントで使用される特性のデータソース。

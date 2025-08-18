@@ -15,11 +15,11 @@ ht-degree: 89%
 
 ---
 
-# 特性およびセグメントの資格に関するリファレンス {#trait-qualification-reference}
+# 特性およびセグメントの選定に関するリファレンス {#trait-qualification-reference}
 
 Audience Manager では、特性認定（特性の満足）の処理方法は特性のタイプによって異なります。特性タイプの認定について詳しくは、「[特性タイプ別の特性認定](#trait-type)」を参照してください。
 
-また、セグメント認定について詳しくは、「[Real-time Segment Population と Total Segment Population](#real-time-segment)」を参照してください。
+また、セグメントの選定について詳しくは、[リアルタイムセグメント母集団と合計セグメント母集団](#real-time-segment)を参照してください。
 
 
 

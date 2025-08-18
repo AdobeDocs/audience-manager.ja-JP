@@ -53,7 +53,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、キー変数でプレフィックス `c_`（またはその他の命名規則）を使用します。
+   >イベント呼び出しでデータを [!DNL Audience Manager] に送信するために必要であれば、キー変数で接頭辞 `c_`（またはその他の命名規則）を使用します。
 
 1. [ドロップダウンから](../../features/traits/trait-comparison-operators.md)比較演算子&#x200B;**[!UICONTROL Operator]**&#x200B;を選択します。比較演算子はシグナルの要素間の関係を比較します。
 

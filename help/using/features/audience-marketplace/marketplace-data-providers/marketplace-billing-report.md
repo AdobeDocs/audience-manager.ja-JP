@@ -103,11 +103,11 @@ ht-degree: 98%
    <td colname="col2"> <p>バイヤーが購読／使用状況情報を入力した日付。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Subscription Start Date</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">サブスクリプション開始日</span></b> </p> </td> 
    <td colname="col2"> <p>バイヤーがデータフィードの購読を開始した日付。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Subscription End Date</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol">サブスクリプション終了日</span></b> </p> </td> 
    <td colname="col2"> <p>バイヤーがデータフィードの購読を終了した日付。 </p> </td> 
   </tr> 
   <tr> 

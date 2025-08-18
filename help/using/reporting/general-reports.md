@@ -127,13 +127,13 @@ The illustration below shows the results of running a general report for the Tra
 
 一般レポートを実行し、レポートタイプに **[!UICONTROL Segment]** を選択する場合は、次の指標が使用可能です。
 
-### Real-time Segment Population
+### リアルタイムセグメント母集団
 
 この指標は、指定した時間範囲内にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定されたユニーク訪問者の実際の数を表します。
 
-### Total Segment Population
+### 合計セグメント母集団
 
-この指標は、選択したルックバック期間内にセグメントの対象として認定された Audience Manager UUID の合計数を表します。1 日の「Total Segment Population」は、ターゲティングのための最も正確なユーザーベースを表します。
+この指標は、選択したルックバック期間内にセグメントの対象として認定された Audience Manager UUID の合計数を表します。1 日の「合計セグメント母集団」は、ターゲティングのための最も正確なユーザーベースを表します。
 
 >[!NOTE]
 >
@@ -147,11 +147,11 @@ The illustration below shows the results of running a general report for the Tra
 
 一般レポートを実行し、レポートタイプに **[!UICONTROL Destination]** を選択する場合は、次の指標が使用可能です。
 
-**Real-time Segment Population**
+**リアルタイムセグメント母集団**
 
 この指標は、指定した時間範囲内にリアルタイムで認識され、また Audience Manager で認識された時点でセグメントの対象として認定されたユニーク訪問者の実際の数を表します。
 
-**Total Segment Population**
+**合計セグメント母集団**
 
 この指標は、ルックバック期間内にセグメントに属していて、宛先に送信された Audience Manager UUID の合計数を表します。
 

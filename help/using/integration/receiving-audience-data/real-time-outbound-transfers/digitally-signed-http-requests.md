@@ -27,7 +27,7 @@ Audience Manager では、`HTTP(S)` サーバー間要求をデジタル署名�
 * **信頼性**：秘密鍵を持っている送信側（[!UICONTROL IRIS]）だけが、有効な `HTTP(S)` メッセージをパートナーに送信できます。
 * **メッセージの整合性**：このアプローチにより、`HTTP` の場合でも、中間者攻撃でメッセージが改変されるのを防ぐことができます。
 
-[秘密鍵のローテーション](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key)の節で示すように、[!UICONTROL IRIS] には、ダウンタイムなしで鍵をローテーションする機能が組み込まれています。
+[秘密鍵のローテーション](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key)の節で示すように、[!UICONTROL IRIS] は、ダウンタイムなしで鍵をローテーションする機能をビルトインでサポートしています。
 
 ## 提供する必要がある情報 {#info-to-provide}
 

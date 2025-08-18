@@ -22,4 +22,4 @@ ht-degree: 100%
 * [検索結果のフィルタリング](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [検索条件の保存](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/330354?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25148/)

@@ -11,7 +11,7 @@ exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
 source-git-commit: cecdc0b0f43a146e11f7d23eb21a06146496ac2d
 workflow-type: tm+mt
 source-wordcount: '1831'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [!UICONTROL Addressable Audience]の機能およびユースケースの概要です。
 
-## [!UICONTROL Addressable Audience]とは {#addressable-audience-description}
+## [!UICONTROL Addressable Audience] とは {#addressable-audience-description}
 
 [!UICONTROL Addressable Audiences]では、[!DNL Audience Manager] がデータを収集している御社のすべてのシステムと選択された宛先との間のオーディエンスの重複を表示します。この概念を理解するには、次の図を参照してください。各円の重複は、各種のアドレス可能なオーディエンスを示します。
 
@@ -145,7 +145,7 @@ ht-degree: 100%
 
 * [!UICONTROL Customer Addressable Audiences]は、*自社のファーストパーティデータ*[!UICONTROL trait]の認定に基づきます。この指標からは、データパートナーとの統合に関して幅広い包括的な情報が得られます。
 
-* [!UICONTROL Segment Addressable Audiences]は、*自社のファーストパーティデータとセカンドパーティおよびサードパーティデータのセグメント認定*&#x200B;に基づきます。この指標からは、ターゲットプラットフォームの[!UICONTROL addressable audiences]に関してより詳細で正確な情報が得られます。
+* [!UICONTROL Segment Addressable Audiences]は、*自社のファーストパーティデータとセカンドパーティおよびサードパーティデータのセグメントの選定*&#x200B;に基づきます。この指標からは、ターゲットプラットフォームの[!UICONTROL addressable audiences]に関してより詳細で正確な情報が得られます。
 
 ## [!UICONTROL Addressable Audiences] のマッチ率の低下の原因  {#low-match-rates}
 

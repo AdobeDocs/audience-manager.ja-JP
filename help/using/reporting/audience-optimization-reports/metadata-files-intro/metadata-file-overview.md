@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## 概要 {#overview}
 
-メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[Audience Optimizationレポートのデータファイルとアクションにつながるログファイル ](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) を参照してください。
+メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[Audience Optimization レポートのデータファイルとアクションにつながるログファイル ](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) を参照してください。
 
 ### メタデータファイルには他のデータに関するデータが含まれる
 

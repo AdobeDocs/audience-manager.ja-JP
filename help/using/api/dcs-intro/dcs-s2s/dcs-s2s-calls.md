@@ -15,7 +15,7 @@ ht-degree: 92%
 
 # サーバー間 DCS API 呼び出しの実行 {#making-server-to-server-dcs-api-calls}
 
-呼び出しには、地域 DCS サーバーのホスト名とユーザー ID が必要です。必要なユーザー ID および地域 ID がない場合は、[DCS 応答からのユーザー ID および地域の取得 ](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) および [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md) を参照してください。 ユーザー ID と地域 ID が用意できたら、DCS へのサーバー間呼び出しをおこなえます。構文と例については、この節を参照してください。
+呼び出しには、地域 DCS サーバーのホスト名とユーザー ID が必要です。必要なユーザー ID およびリージョン ID がない場合は、[DCS 応答からのユーザー ID およびリージョンの取得 ](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) および [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md) を参照してください。 ユーザー ID と地域 ID が用意できたら、DCS へのサーバー間呼び出しをおこなえます。構文と例については、この節を参照してください。
 
 >[!NOTE]
 >

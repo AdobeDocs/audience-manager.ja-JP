@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Google Campaign Manager] は、[!DNL Google]（DFA）に対する [!DNL DoubleClick for Advertisers] の置き換えです。DFA と同様に [!DNL Google Campaign Manager] ユーザーは [!DNL Audience Manager] でデータの読み込み、表示、操作ができます。ただし、[!DNL Audience Manager] は [!UICONTROL Data Transfer] ファイルと [!UICONTROL Match Table] ファイルに直接アクセスしてインポートすることはできません。これらのファイルをインポートする場合、顧客側での努力が必要になります。
 
-その設定手順については、[DoubleClick Campaign Manager ヘルプ](https://support.google.com/dcm/partner/answer/2941575?hl=ja&amp;ref_topic=6107456)で詳細に説明しています。また、基本的な手順については以下で説明しています。
+その設定手順については、[DoubleClick Campaign Manager ヘルプ](https://support.google.com/dcm/partner/answer/2941575?hl=ja&ref_topic=6107456)で詳細に説明しています。また、基本的な手順については以下で説明しています。
 
 >[!CAUTION]
 >
@@ -34,15 +34,15 @@ ht-degree: 100%
 
 ## 手順
 
-1. [グループを作成](https://support.google.com/dcm/partner/answer/3370419?hl=ja&amp;ref_topic=6107456)します。
+1. [グループを作成](https://support.google.com/dcm/partner/answer/3370419?hl=ja&ref_topic=6107456)します。
 
    グループは、[!DNL Google Campaign Manager] データへのアクセスを制御します。最終的に、[!DNL Audience Manager] をこのグループに招待して追加します。
 
-1. [ Google Cloud Storage のステータスを確認](https://support.google.com/dcm/partner/answer/3370481?hl=ja&amp;ref_topic=6107456)します。
+1. [ Google Cloud Storage のステータスを確認](https://support.google.com/dcm/partner/answer/3370481?hl=ja&ref_topic=6107456)します。
 
    Google Cloud Storage には、[!UICONTROL Data Transfer] と [!UICONTROL Match Tables] が格納されるデータバケットがあります。バケットを設定するか、新しいグループが既存のデータストレージバケットにアクセスできるようにする必要があります。
 
-1. [ データファイルの URL を取得](https://support.google.com/dcm/partner/answer/3370482?hl=ja&amp;ref_topic=6107456)します。
+1. [ データファイルの URL を取得](https://support.google.com/dcm/partner/answer/3370482?hl=ja&ref_topic=6107456)します。
 
    [!DNL Google Campaign Manager] アカウントマネージャーまたはプラットフォームソリューションコンサルタントにお問い合わせのうえ、データファイルの URL を確認してください。[!DNL Google] は将来のリリースでバケットの形式やファイル名を変更する場合があります。これも [!DNL Google Campaign Manager] アカウントマネージャーにお問い合わせのうえ、正しい形式を使用しているか確認してください。
 

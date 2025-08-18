@@ -28,4 +28,4 @@ ht-degree: 49%
    >
    >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。そうでない場合、ハッシュ化されたメールワークフローで使用することはできません。
 
-   ![ 「データソース設定」セクションを示すAudience Manager UI 画像。](../features/assets/data-source-settings.png)
+   ![ データソース設定セクションを示すAudience Manager UI 画像。](../features/assets/data-source-settings.png)

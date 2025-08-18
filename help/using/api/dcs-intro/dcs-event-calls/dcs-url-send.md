@@ -64,7 +64,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> key</code> </p> </td> 
-   <td colname="col2"> <p>キーと値のペアに含まれている一意の識別子。 </p> <p>これらのキーと値のペアでは、<span class="wintitle">DCS</span> に送信するデータのタイプを識別する特定のプレフィックスを使用します。詳しくは、<a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md">DCS API 呼び出しでサポートされる属性</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>キーと値のペアに含まれている一意の識別子。 </p> <p>これらのキーと値のペアでは、<span class="wintitle">DCS</span> に送信するデータのタイプを識別する特定の接頭辞を使用します。詳しくは、<a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md">DCS API 呼び出しでサポートされる属性</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> val</code> </p> </td> 

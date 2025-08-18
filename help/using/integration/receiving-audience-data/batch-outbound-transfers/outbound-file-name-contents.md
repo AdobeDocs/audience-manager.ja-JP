@@ -10,7 +10,7 @@ exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->スタイル要件（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、など）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>このドキュメント内のスタイル要素（`monospaced text`、*斜体*、角括弧 `[ ]``( )` など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## 構文およびファイル名要素 {#syntax-file-name}
 
@@ -156,7 +156,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->スタイル要件（`monospaced text`、*斜体*、括弧 `[ ]` `( )`、など）コード要素およびオプションを表します。詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>このドキュメント内のスタイル要素（`monospaced text`、*斜体*、角括弧 `[ ]``( )` など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ### 構文
 

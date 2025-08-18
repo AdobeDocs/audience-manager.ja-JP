@@ -26,9 +26,9 @@ Analytics の宛先を設定するには、Audience Manager ユーザーが管�
 | デフォルト | このデフォルトの宛先は「Adobe Analytics」という名前になっていますが、編集することができます。マッピングされたレポートスイート ID が Audience Manager の特性およびセグメントのフォルダーストレージに表示されます。<br>アカウントが次の条件を満たす場合、Audience Manager は宛先を 1 つ自動的に作成します。<br> <ul><li>[オーディエンス分析](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ja)のドキュメントで説明している要件を満たしている。</li><li>Analytics に[レポートスイート](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=ja)がある。</li></ul> |
 | 新規 | Analytics の宛先を新規作成するには、Audience Data／Destinations／Create New Destination を選択し、以下で説明している各セクションの手順に従います。 |
 
-## Adobe AnalyticsでのAudience Managerセグメントの選定 {#segment-qualifications}
+## Adobe AnalyticsでのAudience Manager セグメントの選定 {#segment-qualifications}
 
-セグメント情報を Analytics の宛先に送信する場合、Audience Managerは、訪問者が選定したセグメントのみを送信します。 訪問者がセグメントの資格を停止した場合、その情報はAdobe Analyticsに転送 _されません_。
+セグメント情報を Analytics の宛先に送信する場合、Audience Managerは、訪問者が適合したセグメントのみを送信します。 訪問者がセグメントの資格を停止した場合、その情報はAdobe Analyticsに転送 _されません_。
 
 例えば、次のセグメントルールについて考えてみましょう。
 

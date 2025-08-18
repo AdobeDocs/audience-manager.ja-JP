@@ -36,7 +36,7 @@ ht-degree: 53%
 
    ![integrated-platforms](assets/dbd-amazon-without-options.png)
 
-1. [!DNL Amazon Ads] アカウントが作成された地域（北米、ヨーロッパ、極東）に応じて **[!UICONTROL Amazon Data Provider]** のいずれかのオプションを選択し、「**[!DNL Confirm]**」をクリックして認証ページにリダイレクトします。
+1. **[!UICONTROL Amazon Data Provider]** アカウントが作成された地域（北米、ヨーロッパ、極東）に応じて [!DNL Amazon Ads] のいずれかのオプションを選択し、「**[!DNL Confirm]**」をクリックして認証ページにリダイレクトします。
 
    ![integrated-platforms](assets/dbd-amazon-with-options.png)
 
@@ -50,7 +50,7 @@ Audience Managerと [!DNL Amazon Advertising] アカウントをリンクした�
 >
 >既存のデバイスベースの宛先の名前を変更することはできません。宛先を正しく識別するために役立つ名前を指定してください。
 
-1. Audience Managerアカウントにログインし、「**[!UICONTROL Audience Data > Destinations]**」に移動して「**[!UICONTROL Create Destination]**」を選択します。
+1. Audience Manager アカウントにログインし、「**[!UICONTROL Audience Data > Destinations]**」に移動して「**[!UICONTROL Create Destination]**」を選択します。
 1. 「**[!UICONTROL Basic Information]**」セクションで、新しい宛先の **[!UICONTROL Name]** と **[!UICONTROL Description]** を入力し、以下の設定を使用します。
 
    ![設定](assets/dbd-new-account-amazon.png)
@@ -63,7 +63,7 @@ Audience Managerと [!DNL Amazon Advertising] アカウントをリンクした�
 
 ## マッチ率に関する考慮事項 {#match-rates-considerations}
 
-Audience Manager と [!DNL Amazon Advertising] の統合では、履歴オーディエンスのバックフィルがサポートされます。宛先を作成すると、すべてのセグメント認定が [!DNL Amazon] に送信されます。
+Audience Manager と [!DNL Amazon Advertising] の統合では、履歴オーディエンスのバックフィルがサポートされます。宛先を作成すると、すべてのセグメントの選定が [!DNL Amazon] に送信されます。
 
 ## トラブルシューティング {#troubleshooting}
 
@@ -71,5 +71,5 @@ Audience Manager と [!DNL Amazon Advertising] の統合では、履歴オーデ
 
 | エラーメッセージ | 原因／理由 | 解決策 |
 |---|---|---|
-| `Internal server error` | 古いバージョンのAmazon API を使用して新しい [!DNL Amazon] アカウントを追加しようとすると、Audience ManagerUI にこのエラーメッセージが表示されます。 | アドビカスタマーケアに連絡してください。 |
-| `Amazon Error: Account XXXXXXXXX was not found` | 宛先に対して設定された資格情報が、対応するAmazon Ads アカウントへのアクセスを許可されていない場合、Audience ManagerUI にこのエラーメッセージが表示されます。 | <ul><li>使用しているアカウント資格情報が[前提条件](#prerequisites)を満たしていることを確認してください。</li><li>同じ認証情報を使用してAmazon Ads UI に移動し、対応するアカウントの下に正しいオーディエンスが表示されているかどうかを確認します。 </li></ul> |
+| `Internal server error` | 古いバージョンのAmazon API を使用して新しい [!DNL Amazon] アカウントを追加しようとすると、Audience Manager UI にこのエラーメッセージが表示されます。 | アドビカスタマーケアに連絡してください。 |
+| `Amazon Error: Account XXXXXXXXX was not found` | 宛先に対して設定された資格情報が、対応するAudience Manager Ads アカウントへのアクセスを許可されていない場合、Amazon UI にこのエラーメッセージが表示されます。 | <ul><li>使用しているアカウント資格情報が[前提条件](#prerequisites)を満たしていることを確認してください。</li><li>同じ認証情報を使用してAmazon Ads UI に移動し、対応するアカウントの下に正しいオーディエンスが表示されているかどうかを確認します。 </li></ul> |

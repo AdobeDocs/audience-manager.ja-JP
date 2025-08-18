@@ -160,7 +160,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>結果</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は特性 1 の頻度を合計した値の 8（3 + 5 = 8）を使用して、セグメント認定を決定します。頻度が 8 であることから、Device A と Device B は Segment 1 に認定されます。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は特性 1 の頻度を合計した値の 8（3 + 5 = 8）を使用して、セグメントの選定を決定します。頻度が 8 であることから、Device A と Device B は Segment 1 に認定されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -206,7 +206,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>結果</b> </p> </td> 
-   <td colname="col2"> <p>上記の要素により、Segment 1 の合計母集団は 1 となります。 </p> <p>この場合、<span class="wintitle">プロファイル結合ルール</span>はすべてのデバイスとその特性を使用して、セグメント認定を決定します。つまり、Device 1、2、3 が Segment 1 で認定されますが、上記のとおり、リアルタイムのセグメント母集団には Device 1 しか含まれません。理由は以下のとおりです。 </p> <p> 
+   <td colname="col2"> <p>上記の要素により、Segment 1 の合計母集団は 1 となります。 </p> <p>この場合、<span class="wintitle">プロファイル結合ルール</span>はすべてのデバイスとその特性を使用して、セグメントの選定を決定します。つまり、Device 1、2、3 が Segment 1 で認定されますが、上記のとおり、リアルタイムのセグメント母集団には Device 1 しか含まれません。理由は以下のとおりです。 </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
       <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Device 1 は現在のデバイスで、Audience Manager <span class="wintitle">データ収集サーバー</span>（<span class="wintitle">DCS</span>）をリアルタイムで操作している。 </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">Device 2 および 3 はデバイスグラフによって Device 1 に関連付けられているが、Device 1 と同時に DCS を操作していない。 </li> 
@@ -248,7 +248,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>結果</b> </p> </td> 
-   <td colname="col2"> <p>上記の要素により、Segment 1 の合計母集団は 3 となります。 </p> <p>この場合、<span class="wintitle">プロファイル結合ルール</span>はすべてのデバイスとその特性を使用して、セグメント認定を決定します。つまり、Device 1、2、3 が Segment 1 で認定され、3 つすべてが合計母集団に含まれます。 </p> </td> 
+   <td colname="col2"> <p>上記の要素により、Segment 1 の合計母集団は 3 となります。 </p> <p>この場合、<span class="wintitle">プロファイル結合ルール</span>はすべてのデバイスとその特性を使用して、セグメントの選定を決定します。つまり、Device 1、2、3 が Segment 1 で認定され、3 つすべてが合計母集団に含まれます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

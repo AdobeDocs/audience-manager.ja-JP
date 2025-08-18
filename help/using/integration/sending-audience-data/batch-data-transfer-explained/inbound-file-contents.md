@@ -77,7 +77,7 @@ ht-degree: 99%
 
 ## フォーマット [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-次の表は、受信データファイルで[!UICONTROL trait]の名前または ID を識別するためのプレフィックスの一覧です。例については[サンプルファイル](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples)を参照してください。
+次の表は、受信データファイルで[!UICONTROL trait]の名前または ID を識別するための接頭辞の一覧です。例については[サンプルファイル](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples)を参照してください。
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -89,11 +89,11 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p><code> d_sid </code> というプレフィックスは、ID が <span class="keyword">Audience Manager</span> の特性 ID であることを表します。これはユーザーインターフェイスに表示される ID と同じです。特性 ID は API <code> GET </code> メソッドを使用して返すこともできます。詳しくは、<a href="../../../api/rest-api-main/api-traits.md">特性 API メソッド</a>を参照してください。 </p> </td>
+   <td colname="col2"> <p><code> d_sid </code> という接頭辞は、ID が <span class="keyword">Audience Manager</span> の特性 ID であることを表します。これはユーザーインターフェイスに表示される ID と同じです。特性 ID は API <code> GET </code> メソッドを使用して返すこともできます。詳しくは、<a href="../../../api/rest-api-main/api-traits.md">特性 API メソッド</a>を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>データに <code> d_unsid </code> というプレフィックスを付けると、ユーザーがその特性から削除されます。<code> d_unsid </code> というプレフィックスは、<code> overwrite </code> ファイルでは無視されます。 </p> <p><code> d_unsid= </code> というプレフィックスは、ID が <span class="keyword">Audience Manager</span> の特性 ID であることを表します。これはユーザーインターフェイスに表示される ID と同じです。特性 ID は API <code> GET </code> メソッドを使用して返すこともできます。詳しくは、<a href="../../../api/rest-api-main/api-traits.md">特性 API メソッド</a>を参照してください。 </p> </td>
+   <td colname="col2"> <p>データに <code> d_unsid </code> という接頭辞を付けると、ユーザーがその特性から削除されます。<code> d_unsid </code> という接頭辞は、<code> overwrite </code> ファイルでは無視されます。 </p> <p><code> d_unsid= </code> という接頭辞は、ID が <span class="keyword">Audience Manager</span> の特性 ID であることを表します。これはユーザーインターフェイスに表示される ID と同じです。特性 ID は API <code> GET </code> メソッドを使用して返すこともできます。詳しくは、<a href="../../../api/rest-api-main/api-traits.md">特性 API メソッド</a>を参照してください。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -102,7 +102,7 @@ ht-degree: 99%
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
-     </ul> </p> <p>これらの特性は <code> ic </code> キーに関連付けられます。これにより、データファイルでより簡単な特性リストを作成できます。また、<code> ic </code> というプレフィックスを使用する必要はありません。その結果、データファイルの内容は次のようになります。 </p> <p>
+     </ul> </p> <p>これらの特性は <code> ic </code> キーに関連付けられます。これにより、データファイルでより簡単な特性リストを作成できます。また、<code> ic </code> という接頭辞を使用する必要はありません。その結果、データファイルの内容は次のようになります。 </p> <p>
      <code> 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
       <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
@@ -201,30 +201,30 @@ ht-degree: 99%
    <td colname="col1"> <p><code> d_sid </code> または <code> d_unsid </code> を使用 </p> </td> 
    <td colname="col2"> <p>このデータファイルは、特性 24、26、27 について認定され、特性 28、29 から削除されたユーザーを示しています。 </p> <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;&nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
      </code> </p> <p>注意：  <p>d_unsid を使用する代わりに、次の構文を使用してユーザープロファイルから特性を削除することもできます。 </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:0,&nbsp;29:0 
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
       </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:-1,&nbsp;29:-1 
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> ic== </code> を使用 </p> </td> 
-   <td colname="col2"> <p>これらの特性は、<code> ic </code> というプレフィックスで特性ルールに追加されています。そのため、次のように、コンマ区切りのデータファイルに追加することができます。タブは UUID と特性 ID を区切ります。<code> ic </code> というプレフィックスはファイルでは必要ありません。 </p> <p><b>数値 ID</b> </p> <p> 
+   <td colname="col2"> <p>これらの特性は、<code> ic </code> という接頭辞で特性ルールに追加されています。そのため、次のように、コンマ区切りのデータファイルに追加することができます。タブは UUID と特性 ID を区切ります。<code> ic </code> という接頭辞はファイルでは必要ありません。 </p> <p><b>数値 ID</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;30608,50354,50338,50352,30626 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>文字列 ID</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;ic=52,ic=55 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>キーと値のペアを使用 </p> </td> 
    <td colname="col2"> このファイルデータは、キーと値のペアを使用して、データを <span class="keyword">Audience Manager</span> に渡します。 <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -378,7 +378,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### 例 8 {#example-8}
 
-`ic` プレフィックスを使用して、[!DNL Android] デバイスの[!UICONTROL trait]認定情報を送信します。
+`ic` 接頭辞を使用して、[!DNL Android] デバイスの[!UICONTROL trait]認定情報を送信します。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -434,7 +434,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 12 {#example-12}
 
-`ic` プレフィックスを使用して、[!DNL iOS] デバイスの[!UICONTROL trait]認定情報を送信します。
+`ic` 接頭辞を使用して、[!DNL iOS] デバイスの[!UICONTROL trait]認定情報を送信します。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -490,7 +490,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### 例 16 {#example-16}
 
-`ic` プレフィックスを使用して、[!DNL DPUUIDs] の[!UICONTROL trait]認定情報を送信します。
+`ic` 接頭辞を使用して、[!DNL DPUUIDs] の[!UICONTROL trait]認定情報を送信します。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626

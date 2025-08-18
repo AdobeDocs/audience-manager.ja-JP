@@ -69,7 +69,7 @@ t_working_with_trend_reports.xml
    * パフォーマンスを最高にするには、[!UICONTROL Trend]レポートを実行する際に対象とする特性またはセグメントの数を、一度に 20 件未満にします。
 1. 表示するレポートの種類（「Traits」または「Segments」）に応じて、「**[!UICONTROL Graph Traits]**」または「**[!UICONTROL Graph Segments]**」をクリックします。これらのオプションでは、フォルダーはすべて無視され、個別に選択した特性やセグメントのみがグラフに表示されます。
 
-   または
+   Or
 
    「**[!UICONTROL Export to CSV]**」をクリックして、特性またはセグメントのデータとすべてのフォルダーを CSV 形式で書き出し、分析や共有ができるようにします。これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
 

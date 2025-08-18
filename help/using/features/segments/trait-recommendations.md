@@ -21,11 +21,11 @@ ht-degree: 100%
 
 まず、以下の [!UICONTROL Trait Recommendations] のビデオを見てから、詳細をお読みください。ビデオデモでは、独自のファーストパーティ特性からのレコメンデーションの使用方法、*および既に購読している* [!UICONTROL Audience Marketplace] データフィードからの特性レコメンデーションの使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/40841?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26228/)
 
 次のビデオでは、[!UICONTROL Marketplace Recommendations] のワークフローの概要を説明し、[!UICONTROL Audience Marketplace] のデータフィードからのレコメンデーションに基づいて、セグメントに特性を追加する方法を示します。これらのレコメンデーションは、購読していないデータフィードに基づいています&#x200B;*。*
 
->[!VIDEO](https://video.tv.adobe.com/v/34100?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29363/)
 
 ## 概要
 

@@ -73,7 +73,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Completed </span></b> </p> </td> 
-   <td colname="col2"> <p><i>完了</i>のテストグループは、<b><span class="uicontrol">Create Test Groups</span></b> ウィザードで選択した終了日に達し、レポートデータの送信を終了しました。 </p> </td>
+   <td colname="col2"> <p><i>完了</i>のテストグループは、<b><span class="uicontrol">Create Test Groups</span></b> ウィザードで選択した終了日に達し、レポートデータの送信を停止しました。 </p> </td>
   </tr>
  </tbody>
 </table>

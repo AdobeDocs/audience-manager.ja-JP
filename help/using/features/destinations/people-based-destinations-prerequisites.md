@@ -56,7 +56,7 @@ ht-degree: 91%
 
 [!UICONTROL People-Based Destinations] を使用してファーストパーティのオーディエンスセグメントを [!DNL Google Customer Match] の宛先に送信する前に、[Google サポートドキュメント](https://support.google.com/google-ads/answer/6299717)に概説されている [!DNL Customer Match] の使用に関する Google のポリシーを読んで遵守してください。
 
-次に、[!DNL Google] アカウントが [!DNL Standard] 以上の権限レベルに設定されていることを確認してください。詳しくは、[Google 広告のドキュメント](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&amp;rd=1)を参照してください。
+次に、[!DNL Google] アカウントが [!DNL Standard] 以上の権限レベルに設定されていることを確認してください。詳しくは、[Google 広告のドキュメント](https://support.google.com/google-ads/answer/9978556?visit_id=637611563637058259-4176462731&rd=1)を参照してください。
 
 準拠しているアカウントを持つお客様は、Google によってリストへの掲載が自動的に許可されます。
 
@@ -64,7 +64,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->すべてのAudience Managerユーザーは、[!UICONTROL People-Based Destinations] に新規登録しなくても、ハッシュ化されたメールを取り込むことができます。
+>すべてのAudience Managerのお客様は、[!UICONTROL People-Based Destinations] に新規登録しなくても、ハッシュ化されたメールを取り込むことができます。
 
 [!UICONTROL People-Based Destinations] のデータ取り込みは、現在、バッチ転送ごとに 1 つの顧客 ID （[!DNL CRM ID]）にリンクされた最大 10 個のハッシュ化されたメールアドレスをサポートしています。
 

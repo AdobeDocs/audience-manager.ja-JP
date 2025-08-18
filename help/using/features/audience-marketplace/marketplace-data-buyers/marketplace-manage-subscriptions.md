@@ -10,7 +10,7 @@ exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '2159'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -182,7 +182,7 @@ ht-degree: 98%
 * **課金：**&#x200B;料金の支払いが常に遅れている場合や、料金の支払いがない場合、データプロバイダーはフィードを非アクティブ化します。
 * **フィードの更新：**&#x200B;フィードの分類やコスト構造を更新した場合、データプロバイダーはフィードを非アクティブ化する必要があります。
 * **非アクティブな購入者：**&#x200B;購読者が長期間にわたり購入をおこなわない場合に、データプロバイダーはフィードを非アクティブ化する権利を保有します。
-* **非アクティブな販売者：**&#x200B;[!UICONTROL Audience Marketplace] の利用を終了するデータプロバイダーは、自分のデータフィードをすべて非アクティブ化して削除します。
+* **非アクティブな販売者：**[!UICONTROL Audience Marketplace] の利用を終了するデータプロバイダーは、自分のデータフィードをすべて非アクティブ化して削除します。
 
 >[!TIP]
 >
@@ -289,7 +289,7 @@ ht-degree: 98%
 
 1. プランアクションボタン。
    * **[!UICONTROL Cancel]**&#x200B;をクリックすると、変更せずにページを終了します。
-   * データフィードのサブスクリプションを購入するには、**[!UICONTROL Review & Subscribe]**&#x200B;をクリックします。[!UICONTROL Subscription] トグルボタンを [!UICONTROL On] に切り替えるまで、このボタンは灰色に表示されます。[公開データフィードのサブスクリプション購入](#subscript-public-data-feed)および[非公開データフィードのサブスクリプション購入](#subscript-private-data-feed)も参照してください。
+   * データフィードのサブスクリプションを購入するには、**[!UICONTROL Review & Subscribe]**&#x200B;をクリックします。[!UICONTROL Subscription] 切替スイッチボタンを [!UICONTROL On] に切り替えるまで、このボタンは灰色に表示されます。[公開データフィードのサブスクリプション購入](#subscript-public-data-feed)および[非公開データフィードのサブスクリプション購入](#subscript-private-data-feed)も参照してください。
 
 ## データフィードのユースケースについて {#use-cases}
 
@@ -312,7 +312,7 @@ ht-degree: 98%
 
 ### アクティベーション
 
-このユースケースでは、[宛先](../../../features/destinations/destinations.md)にデータを送信できます。[!DNL Audience Manager] において、宛先とは、データを共有したいサードパーティシステム（広告サーバー、[!DNL DSP]、[!DNL DMP]、exchange など）のになります。ただし、[!UICONTROL Activation] ユースケースでは、重複レポートを実行したり、データをアルゴリズムモデルでテストしたりすることはできません。
+このユースケースでは、[宛先](../../../features/destinations/destinations.md)にデータを送信できます。ま [!DNL Audience Manager]、宛先とは、データを共有する任意のサードパーティシステム（広告サーバー、[!DNL DSP]、[!DNL DMP]、Exchange など）です。 ただし、[!UICONTROL Activation] ユースケースでは、重複レポートを実行したり、データをアルゴリズムモデルでテストしたりすることはできません。
 
 >[!MORELIKETHIS]
 >

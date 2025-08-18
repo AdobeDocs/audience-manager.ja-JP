@@ -31,7 +31,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Population Conversion Rate</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> 母集団コンバージョン率</span></b> </p> </td> 
    <td colname="col2"> <p>コンバージョンにつながった特定のテストセグメントに属するデバイスの割合を返します。 </p> </td> 
   </tr> 
   <tr> 
@@ -39,12 +39,12 @@ ht-degree: 100%
    <td colname="col2"> <p>テストグループにおいて選択したコンバージョン特性を示したデバイス数を返します。コンバージョン特性の作成方法については、<a href="https://helpx.adobe.com/jp/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external">こちらのビデオをご覧ください</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol">Total Conversions</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol">総変換数</span></b> </p> </td> 
    <td colname="col2"> <p>テストセグメントにおいてコンバージョンに至った数を返します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Test Segment Populations</span></b> </p> </td> 
-   <td colname="col2"> <p>テストセグメントに属するデバイス数を返します。<b><span class="uicontrol">Total Population</span></b> と <b><span class="uicontrol">Real-time Population</span></b> 間を切り替えることができます。違いについては、<a href="../../faq/faq-reporting.md">レポートの FAQ</a> で説明しています。 </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> テストセグメント母集団</span></b> </p> </td> 
+   <td colname="col2"> <p>テストセグメントに属するデバイス数を返します。<b><span class="uicontrol">合計母集団</span></b>と<b><span class="uicontrol">リアルタイム母集団</span></b>間を切り替えることができます。違いについては、<a href="../../faq/faq-reporting.md">レポートの FAQ</a> で説明しています。 </p> </td>
   </tr>
  </tbody>
 </table>

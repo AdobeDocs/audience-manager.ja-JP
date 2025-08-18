@@ -1,5 +1,5 @@
 ---
-description: プロファイルリンクデバイスグラフを使用したセグメントのリターゲティングと、パーソナライズされたセグメント認定のレコメンデーションおよびユースケース。
+description: プロファイルリンクデバイスグラフを使用したセグメントのリターゲティングと、パーソナライズされたセグメントの選定のレコメンデーションおよびユースケース。
 seo-description: Recommendations and use cases for segment retargeting and personalized segment qualification with the Profile Link device graph.
 seo-title: Profile Link Device Graph Use Cases
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 # プロファイルリンクデバイスグラフのユースケース {#profile-link-device-graph-use-cases}
 
-[!UICONTROL Profile Link Device Graph] を使用したセグメントリターゲティングおよびパーソナライズしたセグメント絞り込みのレコメンデーションとユースケース。
+[!UICONTROL Profile Link Device Graph] を使用したセグメントリターゲティングおよびパーソナライズしたセグメントの選定のレコメンデーションとユースケース。
 
 ## レコメンデーション {#recommendations}
 
