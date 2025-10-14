@@ -52,7 +52,7 @@ ht-degree: 98%
 
 ## [!UICONTROL Cross-Device Options] {#auth-options}
 
-[!UICONTROL Cross-Device Options] を使用すると、未認証ユーザーと認証済みユーザーを選択し、クロスデバイスプロファイルをセグメント化に利用することができます。これらのオプションにより、共有デバイスで特定のユーザーを識別してそのユーザーにリーチすることができます。匿名ユーザーと認証済みユーザーについて詳しくは、[Audience Managerでの訪問者認証状態 ](../../reference/visitor-authentication-states.md) を参照してください。
+[!UICONTROL Cross-Device Options] を使用すると、未認証ユーザーと認証済みユーザーを選択し、クロスデバイスプロファイルをセグメント化に利用することができます。これらのオプションにより、共有デバイスで特定のユーザーを識別してそのユーザーにリーチすることができます。匿名ユーザーと認証済みユーザーについて詳しくは、[Audience Managerでの訪問者認証状態 &#x200B;](../../reference/visitor-authentication-states.md) を参照してください。
 
 <table id="table_4CE2DD312F54480E96BEAF72800789FB"> 
  <thead> 

@@ -134,4 +134,4 @@ ht-degree: 98%
 
 ### サポートされる宛先
 
-[!DNL Audience Manager] では、データをシリアル化して、対象となるほとんどあらゆる宛先に送信できます。ただし、この機能を使用する前に、宛先 [!DNL URL] と、必須またはオプションのマクロの挿入位置を知っておく必要があります。宛先パートナーから、マクロの位置に関する情報を入手します。詳しくは、[ 宛先マクロの定義 ](../../features/destinations/destination-macros.md#destination-macros-defined) を参照してください。
+[!DNL Audience Manager] では、データをシリアル化して、対象となるほとんどあらゆる宛先に送信できます。ただし、この機能を使用する前に、宛先 [!DNL URL] と、必須またはオプションのマクロの挿入位置を知っておく必要があります。宛先パートナーから、マクロの位置に関する情報を入手します。詳しくは、[&#x200B; 宛先マクロの定義 &#x200B;](../../features/destinations/destination-macros.md#destination-macros-defined) を参照してください。

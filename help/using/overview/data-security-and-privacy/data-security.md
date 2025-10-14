@@ -75,7 +75,7 @@ Adobe Audience Manager は、S2S オンボードデータファイルをアド�
 
 HTTPS を使用した **[!UICONTROL Amazon Web Services S3]：** S3 配信オプションの場合、アドビでは、ファイル転送に HTTPS 暗号化メソッドを使用するように S3 クライアントを設定することを、すべてのお客様にお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
 
-データファイルに PGP 暗号化を追加するには、[ 受信データタイプのファイル PGP 暗号化 ](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) を参照してください。
+データファイルに PGP 暗号化を追加するには、[&#x200B; 受信データタイプのファイル PGP 暗号化 &#x200B;](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) を参照してください。
 
 ## エスケープによるデータの保護 {#escaping-data}
 

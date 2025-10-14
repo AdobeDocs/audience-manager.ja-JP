@@ -20,7 +20,7 @@ ht-degree: 53%
 
 * [!DNL Amazon] アカウントは広告の対象となる必要があります。
 * Audience Manager インスタンスで最初の [!DNL Amazon Advertising] の宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、お使いのアカウントの [!DNL Amazon] ID 同期（データソース ID = 139200）を有効にしてください。これは、Audience Manager と [!DNL Amazon] の間で正しい同期を行うために必要です。
-* 新しいデータプロバイダーオーディエンスを作成したら、[ メタデータを更新 ](https://advertising.amazon.com/API/docs/en-us/data-provider/openapi#tag/Metadata/paths/~1v2~1dp~1audiencemetadata~1%7BaudienceId%7D/put) して **[!DNL audience fees]** を追加する必要があります。 この操作には、[Amazon Ads API](https://advertising.amazon.com/API/docs/en-us/guides/onboarding/apply-for-access) または [Amazon Advertising UI](https://advertising.amazon.com/) を使用できます。
+* 新しいデータプロバイダーオーディエンスを作成したら、[&#x200B; メタデータを更新 &#x200B;](https://advertising.amazon.com/API/docs/en-us/data-provider/openapi#tag/Metadata/paths/~1v2~1dp~1audiencemetadata~1%7BaudienceId%7D/put) して **[!DNL audience fees]** を追加する必要があります。 この操作には、[Amazon Ads API](https://advertising.amazon.com/API/docs/en-us/guides/onboarding/apply-for-access) または [Amazon Advertising UI](https://advertising.amazon.com/) を使用できます。
 
 ## 新しい [!DNL Amazon Advertising] の宛先の追加 {#add-new-amazon-destination}
 

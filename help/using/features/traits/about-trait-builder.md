@@ -23,7 +23,7 @@ ht-degree: 92%
 単純な「yes」または「true」の条件に応じて実行されるピクセルと比べて、[!UICONTROL Trait Builder]では以下のことが可能です。
 
 * *すべて*&#x200B;のページデータを収集するので、データを後で使用して関連性の高い有用な特性を作成できる。
-* データ収集時に渡された [ キーと値のペア ](../../reference/key-value-pairs-explained.md) に基づいて特性を作成します。
+* データ収集時に渡された [&#x200B; キーと値のペア &#x200B;](../../reference/key-value-pairs-explained.md) に基づいて特性を作成します。
 * [ブール式](../../reference/boolean-expressions-tsb.md)と[比較演算子](../../features/traits/trait-comparison-operators.md)を使用したサーバー側ルールで複雑なデータ条件を評価する。
 
 * インベントリ上のデータ収集ピクセルを管理する必要性が軽減される、またはなくなる。

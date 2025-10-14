@@ -86,7 +86,7 @@ ht-degree: 94%
    * グループの名前を指定します。
    * グループについての簡単な説明を入力します。
 4. 「[!UICONTROL Group Members]」で、「**[!UICONTROL Add Users]**」オプションからユーザーをクリックし、グループに追加します。
-5. [!UICONTROL Group Permissions] で、[ から](../../features/traits/trait-details-page.md)特性[、](../../features/segments/segments-purpose.md)セグメント[、または](../../features/destinations/destinations.md)宛先 **[!UICONTROL Add Object]** を選択します。
+5. [!UICONTROL Group Permissions] で、[&#x200B; から](../../features/traits/trait-details-page.md)特性[、](../../features/segments/segments-purpose.md)セグメント[、または](../../features/destinations/destinations.md)宛先 **[!UICONTROL Add Object]** を選択します。
 選択したオブジェクトの権限ウィンドウが開きます。
 6. グループメンバーに付与する権限のチェックボックスをオンにします。
 7. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。

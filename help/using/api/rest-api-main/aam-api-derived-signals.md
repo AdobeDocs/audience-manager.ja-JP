@@ -20,7 +20,7 @@ ht-degree: 89%
 
 <!-- c_separator.xml -->
 
-派生シグナルについて詳しくは、「[ 派生シグナル ](../../features/derived-signals.md)」を参照してください。
+派生シグナルについて詳しくは、「[&#x200B; 派生シグナル &#x200B;](../../features/derived-signals.md)」を参照してください。
 
 >[!IMPORTANT]
 >

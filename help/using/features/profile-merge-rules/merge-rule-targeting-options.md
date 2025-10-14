@@ -80,7 +80,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 ## デバイスグラフオプション {#device-graph-options}
 
-[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的な使用例については、[ プロファイルリンクデバイスグラフの使用例 ](profile-link-use-case.md) および [ 外部デバイスグラフの使用例 ](external-graph-use-cases.md) を参照してください。
+[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。具体的な使用例については、[&#x200B; プロファイルリンクデバイスグラフの使用例 &#x200B;](profile-link-use-case.md) および [&#x200B; 外部デバイスグラフの使用例 &#x200B;](external-graph-use-cases.md) を参照してください。
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -118,5 +118,5 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 >[!MORELIKETHIS]
 >
 >* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
->* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
+>* [&#x200B; 外部デバイスグラフのユースケース](external-graph-use-cases.md)
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)

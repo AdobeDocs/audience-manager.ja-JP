@@ -48,6 +48,6 @@ Audience Manager は、1 つのセグメントに対し、プロファイルの�
 
 >[!MORELIKETHIS]
 >
->* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
+>* [&#x200B; 外部デバイスグラフのユースケース](external-graph-use-cases.md)
 >* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)

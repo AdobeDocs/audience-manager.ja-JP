@@ -22,7 +22,7 @@ ht-degree: 94%
 
 適切な名前と形式のデータファイルを使用すると、インプレッション、クリック、コンバージョンのいずれかのデータを [Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)にインポートできます。これは、[!DNL Audience Manager] と統合されていないパートナーのデータを同レポートスイートで扱う場合に役に立ちます。このプロセスには、インプレッション、クリック、コンバージョンのデータごとに別個のファイルが必要です。これらのイベントを単一のファイルに混在させないでください。
 
-データファイルには、メタデータファイルが付いている必要があります。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[ 概要とメタデータファイルのマッピング ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) を参照してください。
+データファイルには、メタデータファイルが付いている必要があります。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[&#x200B; 概要とメタデータファイルのマッピング &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) を参照してください。
 
 ## データファイルの命名規則 {#naming-conventions}
 
@@ -201,4 +201,4 @@ ht-degree: 94%
 
 ## 次の手順 {#next-steps}
 
-メタデータファイルの命名と作成の要件を確認します。開始するには、[ 概要とメタデータファイルのマッピング ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) を参照してください。
+メタデータファイルの命名と作成の要件を確認します。開始するには、[&#x200B; 概要とメタデータファイルのマッピング &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) を参照してください。

@@ -33,7 +33,7 @@ ht-degree: 98%
 * **[!DNL PII] の除外：**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
 * **大文字と小文字およびコンテンツの区別：**&#x200B;リアルタイムデータ同期の間、[!DNL Audience Manager] によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。例えば、オフラインレコードが [!DNL User123] に関する情報を保持するが、サイトがこの ID を [!DNL USER123] としてレンダリングする場合、 は、これらを異なる訪問者と見なします。[!DNL Audience Manager]結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
 
-[ 受信データ転送の ID 同期 ](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) を参照してください。
+[&#x200B; 受信データ転送の ID 同期 &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) を参照してください。
 
 ## 手順 2：データファイル形式
 

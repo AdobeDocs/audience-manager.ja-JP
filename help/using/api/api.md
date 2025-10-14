@@ -32,4 +32,4 @@ ht-degree: 97%
 * [DCS イベント呼び出し API](dcs-intro/dcs-event-calls/dcs-event-calls.md)
 * [サーバー間データ転送用の DCS API](dcs-intro/dcs-s2s/dcs-s2s.md)
 * [DCS API メソッド](dcs-intro/dcs-api-reference/dcs-api-methods.md)
-* [SDK コード ](/help/using/api/aam-sdk.md)
+* [SDK コード &#x200B;](/help/using/api/aam-sdk.md)

@@ -57,10 +57,10 @@ Analytics レポートでは、セグメント B の選定を停止した場合�
 
 ## 手順 2：データ書き出しコントロールの設定
 
-この節には、Analytics の宛先に [ データ書き出しのコントロール ](/help/using/features/data-export-controls.md) を適用するオプションが含まれています。 データ書き出しコントロールを使用しない場合は、この手順を省略してください。このセクションを完了するには：
+この節には、Analytics の宛先に [&#x200B; データ書き出しのコントロール &#x200B;](/help/using/features/data-export-controls.md) を適用するオプションが含まれています。 データ書き出しコントロールを使用しない場合は、この手順を省略してください。このセクションを完了するには：
 
 1. 「**Data Export Controls**」をクリックして、コントロールを表示します。
-1. 宛先に適用されたデータ書き出しコントロールに対応するラベルを選択します（[ 宛先へのデータ書き出しラベルの追加 ](/help/using/features/destinations/add-data-export-labels.md) を参照）。 Analytics の宛先の場合は、PII のチェックボックスがデフォルトで選択されています。
+1. 宛先に適用されたデータ書き出しコントロールに対応するラベルを選択します（[&#x200B; 宛先へのデータ書き出しラベルの追加 &#x200B;](/help/using/features/destinations/add-data-export-labels.md) を参照）。 Analytics の宛先の場合は、PII のチェックボックスがデフォルトで選択されています。
 1. 「**Save**」をクリックします。
 
 ![exportcontrols](assets/exportControls.png)

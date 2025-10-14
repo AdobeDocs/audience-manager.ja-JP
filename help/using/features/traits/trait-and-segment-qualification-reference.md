@@ -28,7 +28,7 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 | 特性タイプ | 認定条件 |
 |---|---|
 | ルールベースの特性 | 特性認定は、ユーザーがブラウザーで特性について認定されるとリアルタイムで発生します。ユーザーのルールベースの特性認定は、お客様が UI で[その特性を作成してから](create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)約 4 時間後に始まります。ルールベースの特性では、広告頻度キャップやその他のユースケース向けに[最新性と頻度](../segments/recency-and-frequency.md)のコントロールを使用できます。 |
-| オンボードの特性 | 特性の選定は、インバウンドファイルが処理された後に発生します。つまり、インバウンドファイルが [Audience Managerにインポート ](../../faq/faq-inbound-data-ingestion.md) され、その時点で特性の選定が行われます。 オンボードの特性を作成してから受信ファイルをアップロードして処理するまでに、約 4 時間待つ必要があります。オンボードの特性では、ユーザープロファイルごとの最大認定数は 1 件です。 |
+| オンボードの特性 | 特性の選定は、インバウンドファイルが処理された後に発生します。つまり、インバウンドファイルが [Audience Managerにインポート &#x200B;](../../faq/faq-inbound-data-ingestion.md) され、その時点で特性の選定が行われます。 オンボードの特性を作成してから受信ファイルをアップロードして処理するまでに、約 4 時間待つ必要があります。オンボードの特性では、ユーザープロファイルごとの最大認定数は 1 件です。 |
 | アルゴリズム特性 | アルゴリズム特性では、ユーザープロファイルごとの最大認定数は 1 件です。 |
 | フォルダー特性 | フォルダー特性では、含まれる特性の特性認定が累積します。詳細は、[フォルダー特性について](about-folder-traits.md)をお読みください。 |
 | アクティブオーディエンス特性とデータソース同期特性 | [!UICONTROL Active Audience] 特性には、Audience Manager アカウントで管理下にあるすべてのデバイスが含まれています。[!UICONTROL Data Source Synced Traits] は、データソースと関連付けられているすべてのユーザーを追跡します。詳しくは、[アクティブオーディエンス特性とデータソース同期特性](client-activity-synced-audience-traits.md)を参照してください。 |
@@ -49,7 +49,7 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 * [!UICONTROL Unique Trait Realizations] は、様々な期間において、特性を自分のプロファイルに追加した認証済み訪問者の数を表します。
 * [!UICONTROL Total Trait Population] は、プロファイルにこの特性がある認証済み訪問者の数を表します。
 
-これらの数字については次のように考えます。上の画像の [ 特性の詳細 ](../../features/traits/trait-details-page.md) ビューでは、昨日プロパティにアクセスしたアクティブなデバイスの数が 90,173 台に表示されています。 [!UICONTROL Total Trait Population] は 55,757 ですが、これは現在この特性の対象として認定されているユーザーの数を表します。[!UICONTROL Total Trait Population] の数は、セグメント化／ターゲティングに使用できるユーザーの合計数を表しています。通常、ユーザーが特性の一部となっている期間は 120 日間です。
+これらの数字については次のように考えます。上の画像の [&#x200B; 特性の詳細 &#x200B;](../../features/traits/trait-details-page.md) ビューでは、昨日プロパティにアクセスしたアクティブなデバイスの数が 90,173 台に表示されています。 [!UICONTROL Total Trait Population] は 55,757 ですが、これは現在この特性の対象として認定されているユーザーの数を表します。[!UICONTROL Total Trait Population] の数は、セグメント化／ターゲティングに使用できるユーザーの合計数を表しています。通常、ユーザーが特性の一部となっている期間は 120 日間です。
 
 2 つの母集団の計算にはそれぞれ異なる 2 つの演算ジョブを実行しているので、[!UICONTROL Total Trait Population] は常に [!UICONTROL Unique Trait Realizations] より 24 時間遅れることになります。上のグラフでは、2 月 5 日時点での [!UICONTROL Unique Trait Realizations] は 約 90,400、[!UICONTROL Total Trait Population] は約 90,300 となっています。次の日に、90,400 件のプロファイルが [!UICONTROL Total Trait Population] に加算されます。
 
@@ -65,7 +65,7 @@ Audience Manager では、特性認定（特性の満足）の処理方法は特
 
 [!UICONTROL Total Segment Population] は、指定した期間内に選択したセグメントの対象となるデバイスの数を表します。この [!UICONTROL 1 Day] レポートは、最新のセグメント母集団数を表します。
 
-これらの数字については次のように考えます。上の画像の [ セグメントの詳細 ](../../features/segments/segment-summary-view.md) ビューでは、9,993 が、昨日プロパティにアクセスしてセグメントに選定されたアクティブなデバイスの数を表しています。 [!UICONTROL Total Segment Population] は 699,532 ですが、これは現在このセグメントの対象として認定されているデバイスの合計数を表します。[!UICONTROL Total Segment Population] の数は、セグメント化／ターゲティングに使用できるデバイスの合計数を表しています。
+これらの数字については次のように考えます。上の画像の [&#x200B; セグメントの詳細 &#x200B;](../../features/segments/segment-summary-view.md) ビューでは、9,993 が、昨日プロパティにアクセスしてセグメントに選定されたアクティブなデバイスの数を表しています。 [!UICONTROL Total Segment Population] は 699,532 ですが、これは現在このセグメントの対象として認定されているデバイスの合計数を表します。[!UICONTROL Total Segment Population] の数は、セグメント化／ターゲティングに使用できるデバイスの合計数を表しています。
 
 2 つの母集団の計算にはそれぞれ異なる 2 つの演算ジョブを実行しているので、[!UICONTROL Total Segment Population] は常に [!UICONTROL Real-time Segment Population] より 24 時間遅れることになります。上のグラフでは、2 月 2 日時点での [!UICONTROL Real-time Segment Population] は 8,116、[!UICONTROL Total Segment Population] は 742,000 となっています。次の日に、8,116 件のプロファイルが [!UICONTROL Total Segment Population] に加算されます。
 

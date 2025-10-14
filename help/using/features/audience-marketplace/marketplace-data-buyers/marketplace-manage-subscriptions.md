@@ -91,7 +91,7 @@ ht-degree: 97%
 1. 「**[!UICONTROL Request Access]**」をクリックします。リクエストダイアログボックスが開きます。
 1. リクエストダイアログボックスで、プロバイダー向けに、データフィードに興味があることを記したメモを記入し、**[!UICONTROL Send]**&#x200B;をクリックします。販売者はメッセージを確認し、リクエストを承認または拒否します。承認されるまでの間、「[!UICONTROL Marketplace]」リストではそのリクエストについて「Requested」と表示されます。
 
-   * **[!UICONTROL Request approved]**：「[!UICONTROL Marketplace]」リストのステータスが「Access Granted」になり、自動通知が送信されます。この時点で、フィードを購読することができます。手順については、[ 公開データフィードを購読 ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) を参照してください。
+   * **[!UICONTROL Request approved]**：「[!UICONTROL Marketplace]」リストのステータスが「Access Granted」になり、自動通知が送信されます。この時点で、フィードを購読することができます。手順については、[&#x200B; 公開データフィードを購読 &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) を参照してください。
    * **[!UICONTROL Request denied]**：「[!UICONTROL Marketplace]」リストでそのフィードについて「Requested」の表示が削除されます。もう一度サブスクリプションの購入を試みるか、別のフィードを選択することができます。
 
 ## 購入者に対するデータフィード割引 {#buyer-discount}
@@ -249,7 +249,7 @@ ht-degree: 97%
 
 データ購入者は、キャンセルされたフィード内の特性を、アクティブ／使用中のセグメント、非アクティブなセグメントを問わず、すべてのセグメントから削除する必要があります。削除については次のオプションがあります。
 
-* [REST API](../../../api/rest-api-main/rest-api-main.md) または [ 一括管理ツール ](../../../reference/bulk-management-tools/bulk-management-intro.md) による一括削除
+* [REST API](../../../api/rest-api-main/rest-api-main.md) または [&#x200B; 一括管理ツール &#x200B;](../../../reference/bulk-management-tools/bulk-management-intro.md) による一括削除
 
 * [!UICONTROL Segment Builder]を使用して、影響を受けるセグメントを手動で検索し、非アクティブ化された特性を削除します。[セグメントからの特性の削除](../../../features/segments/segment-builder.md#segment-builder-controls-traits)を参照してください。
 

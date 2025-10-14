@@ -39,7 +39,7 @@ ht-degree: 97%
 
 * [類似（look-alike）モデルの作成](../../features/algorithmic-models/create-model.md).
 * モデルデータの実行が完了したことを知らせる通知電子メールを受け取る。
-* 「[ 基本情報 ](../../features/traits/create-onboarded-rule-based-traits.md)」セクションの必須フィールドに入力します。
+* 「[&#x200B; 基本情報 &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md)」セクションの必須フィールドに入力します。
 
 ### 構成フィールドと設定
 

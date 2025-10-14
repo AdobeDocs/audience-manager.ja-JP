@@ -39,4 +39,4 @@ Adobeでは、サービスの可用性に悪影響を与える可能性のある
 * 無効な地域または選択されていない地域に所在している。
 * ブラウザーの Cookie（すべてまたはサードパーティのみ）を無効にしている。
 
-[DCS エラーコード、メッセージ、例 ](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md) も参照してください。
+[DCS エラーコード、メッセージ、例 &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md) も参照してください。

@@ -37,7 +37,7 @@ ht-degree: 98%
 
 1. 「[!UICONTROL Plan Types]」で使用するオプションを選択し、「**[!UICONTROL Add Plan]**」をクリックします。
 
-   フィードには複数のプランが含まれる場合があります。プランには複数のユースケースが含まれる場合があります。詳しくは、[ データフィードのプランタイプ ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types) を参照してください。
+   フィードには複数のプランが含まれる場合があります。プランには複数のユースケースが含まれる場合があります。詳しくは、[&#x200B; データフィードのプランタイプ &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types) を参照してください。
 
 1. 「**[!UICONTROL Save]**」をクリックすると、データフィードがアクティブ化&#x200B;*されずに*&#x200B;保存されます。
 1. データフィードを保存してアクティブ化するには：

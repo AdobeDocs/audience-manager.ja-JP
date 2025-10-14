@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 対象読者
 
-このページは、[Audience Manager タグ拡張機能 ](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/audience-manager/overview) を使用して web 収集データをAudience Managerに取り込むAudience Managerのお客様を対象としています。 AppMeasurement JavaScript ライブラリを使用しているお客様の場合は、Audience Managerのデータ収集ライブラリを更新する方法に関するガイドを参照してください [AppMeasurement JavaScript ライブラリから web SDK JavaScript ライブラリに ](appmeasurement-to-web-sdk.md)。
+このページは、[Audience Manager タグ拡張機能 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/audience-manager/overview) を使用して web 収集データをAudience Managerに取り込むAudience Managerのお客様を対象としています。 AppMeasurement JavaScript ライブラリを使用しているお客様の場合は、Audience Managerのデータ収集ライブラリを更新する方法に関するガイドを参照してください [AppMeasurement JavaScript ライブラリから web SDK JavaScript ライブラリに &#x200B;](appmeasurement-to-web-sdk.md)。
 
 ## この実装パスのメリットとデメリット
 
@@ -42,7 +42,7 @@ Adobe Experience Platform Data Collection でデータストリームを作成�
 1. サービス ドロップダウンメニューで、「**[!UICONTROL Adobe Audience Manager]**」を選択します。
 1. **[!UICONTROL Enable XDM Flattened Fields]** オプションがオフになっていることを確認します。
 
-   ![Audience Manager サービスの追加 ](assets/add-service.png) {style="border:1px solid lightslategray"}
+   ![Audience Manager サービスの追加 &#x200B;](assets/add-service.png) {style="border:1px solid lightslategray"}
 
 これで、データストリームがデータを受け取り、Audience Managerに渡す準備が整いました。
 
@@ -58,11 +58,11 @@ Adobe Experience Platform Data Collection でデータストリームを作成�
 1. 上部付近の「**[!UICONTROL Catalog]**」を選択すると、使用可能なすべての拡張機能のリストが表示されます。
 1. **[!UICONTROL Adobe Experience Platform Web SDK]** 拡張機能を検索して選択し、右側の「**[!UICONTROL Install]**」を選択します。
 
-   ![ カタログ ](assets/catalog.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; カタログ &#x200B;](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. 拡張機能の設定が表示されます。 「**[!UICONTROL Datastreams]**」セクションを探し、使用しているサンドボックスと前の手順で作成したデータストリームを選択します。
 
-   ![ データストリーム選択 ](assets/datastream-select.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; データストリーム選択 &#x200B;](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. 「**[!UICONTROL Save]**」を選択します。
 
@@ -86,7 +86,7 @@ Adobe Experience Platform Data Collection でデータストリームを作成�
    * **[!UICONTROL Solution]**：[!UICONTROL Adobe Audience Manager]
 1. 「**[!UICONTROL Save]**」を選択します。
 
-   ![ データ要素の作成 ](assets/create-data-element.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; データ要素の作成 &#x200B;](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 これで、タグプロパティに、各ルールを更新するために必要なすべてが揃いました。
 
@@ -136,7 +136,7 @@ Adobe Experience Platform Data Collection でデータストリームを作成�
 1. 開発環境で変更をテストし、すべてのルールが適切に実行され、データオブジェクトに想定される値が入力されていることを確認します。
 1. 準備が整ったら、ライブラリを承認用に送信し、ステージング環境にビルドしてから、最終的に承認して実稼動環境に公開します。
 
-   ![ 公開フロー ](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; 公開フロー &#x200B;](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 

@@ -20,7 +20,7 @@ ht-degree: 95%
 
 ## 概要 {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] では、[プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md)を使用することで、複数のデバイスにまたがってテストを実行できます。これにより、ユーザーはすべてのデバイスにわたって同じテストセグメントに適合し、同じ処理がおこなわれるようになります。テストグループ内のテストセグメントは、ベースセグメントが割り当てた [ プロファイル結合ルール ](../../features/profile-merge-rules/merge-rules-dashboard.md) を継承します。
+[!UICONTROL Audience Lab] では、[プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md)を使用することで、複数のデバイスにまたがってテストを実行できます。これにより、ユーザーはすべてのデバイスにわたって同じテストセグメントに適合し、同じ処理がおこなわれるようになります。テストグループ内のテストセグメントは、ベースセグメントが割り当てた [&#x200B; プロファイル結合ルール &#x200B;](../../features/profile-merge-rules/merge-rules-dashboard.md) を継承します。
 
 [!UICONTROL Audience Lab] のデフォルトビューには、各テストグループのカードが表示されます。カードをクリックして、**[!UICONTROL Test Group]** ビューにアクセスします。このビューには、以下の情報が含まれています。
 

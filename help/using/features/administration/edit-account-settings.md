@@ -20,7 +20,7 @@ ht-degree: 86%
 
 <!-- t_edit_account_settings.xml -->
 
-[ ユーザーの作成 ](../../features/administration/administration-overview.md#create-users) および [ グループの作成 ](../../features/administration/administration-overview.md#create-group) で説明しているように、管理者ユーザーは、ユーザーを作成し、権限を持つユーザーをグループに追加できます。
+[&#x200B; ユーザーの作成 &#x200B;](../../features/administration/administration-overview.md#create-users) および [&#x200B; グループの作成 &#x200B;](../../features/administration/administration-overview.md#create-group) で説明しているように、管理者ユーザーは、ユーザーを作成し、権限を持つユーザーをグループに追加できます。
 
 1. Audience Manager のヘッダーで ![](assets/icon_profile.png) をクリックします。
 1. 「**[!UICONTROL Account Settings]**」をクリックしてから「**[!UICONTROL Edit]**」をクリックし、[!UICONTROL My Account] ページを表示します。

@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## 認証フロー {#auth-flow}
 
-[!DNL Adobe Audience Manager][ の OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) 認証実装は、クライアント資格情報許可フローに基づいていて、次の手順に従っています。
+[!DNL Adobe Audience Manager][&#x200B; の OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) 認証実装は、クライアント資格情報許可フローに基づいていて、次の手順に従っています。
 
 1. 次の情報を指定する必要があります。
    * 認証トークンを生成する [!DNL OAuth 2.0] エンドポイント。

@@ -20,7 +20,7 @@ ht-degree: 49%
 1. Audience Managerアカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** に移動して、**[!UICONTROL Add New]**&#x200B;をクリックします。
 1. 新しいデータソースに、**[!UICONTROL Name]** と **[!UICONTROL Description]** を入力します。
 1. **[!UICONTROL ID Type]** ドロップダウンメニューで、「**[!UICONTROL Cross Device]**」を選択します。
-   ![ データソースの詳細セクションを示すAudience Manager UI 画像。](../features/assets/create-hashed-email-data-source.png)
+   ![&#x200B; データソースの詳細セクションを示すAudience Manager UI 画像。](../features/assets/create-hashed-email-data-source.png)
 1. **[!UICONTROL Data Source Settings]** セクションで、**[!UICONTROL Inbound]** と **[!UICONTROL Outbound]** のオプションを両方選択し、**[!UICONTROL Share associated cross-device IDs in people-based destinations]** オプションを有効にします。
 1. ドロップダウンメニューを使用して、このデータソースの **[!UICONTROL Emails(SHA256, lowercased)]** ラベルを選択します。
 
@@ -28,4 +28,4 @@ ht-degree: 49%
    >
    >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。そうでない場合、ハッシュ化されたメールワークフローで使用することはできません。
 
-   ![ データソース設定セクションを示すAudience Manager UI 画像。](../features/assets/data-source-settings.png)
+   ![&#x200B; データソース設定セクションを示すAudience Manager UI 画像。](../features/assets/data-source-settings.png)

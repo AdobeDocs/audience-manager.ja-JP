@@ -48,7 +48,7 @@ ht-degree: 91%
 
 [!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL LinkedIn] に送信する前に、お客様の [!DNL LinkedIn Campaign Manager] アカウントが [!DNL Creative Manager] 以上の権限レベルであることを確認してください。
 
-[!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、LinkedIn ドキュメントの [Advertising アカウントのユーザー権限の追加、編集、削除 ](https://www.linkedin.com/help/lms/answer/5753) を参照してください。
+[!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、LinkedIn ドキュメントの [Advertising アカウントのユーザー権限の追加、編集、削除 &#x200B;](https://www.linkedin.com/help/lms/answer/5753) を参照してください。
 
 ビデオの手順については、「[Understanding and Configuring the LinkedIn People-Based Destination](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=ja)」を参照してください。
 
@@ -70,9 +70,9 @@ ht-degree: 91%
 
 1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスを、複数の一括転送でアップロードすると、Audience Manager は最近追加された 10 個の電子メールアドレスを保持します。
 
-ハッシュ化された識別子を取り込むには、[ ハッシュ化された識別子のクロスデバイス対応データソースを作成 ](../create-data-source-hashed-emails.md) して、**[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプションを有効にします。
+ハッシュ化された識別子を取り込むには、[&#x200B; ハッシュ化された識別子のクロスデバイス対応データソースを作成 &#x200B;](../create-data-source-hashed-emails.md) して、**[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプションを有効にします。
 
-![ 人物ベースの宛先やハッシュ化されたメールワークフローで、関連するクロスデバイス ID を共有するオプションを示すAudience Manager UI 画像 ](assets/data-source-share-ids.png)
+![&#x200B; 人物ベースの宛先やハッシュ化されたメールワークフローで、関連するクロスデバイス ID を共有するオプションを示すAudience Manager UI 画像 &#x200B;](assets/data-source-share-ids.png)
 
 ## データプライバシー {#data-privacy}
 

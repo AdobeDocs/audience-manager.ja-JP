@@ -36,5 +36,5 @@ c_compintro.xml
 * [データ収集コンポーネント](/help/using/reference/system-components/components-data-collection.md)
 * [データ処理のコンポーネント](/help/using/reference/system-components/components-data-processing.md)
 * [Tag Management コンポーネント](/help/using/reference/system-components/components-tag-management.md)
-* [プラットフォームアーキテクチャ：データフローマップ ](/help/using/reference/system-components/components-platform-architecture.md)
+* [プラットフォームアーキテクチャ：データフローマップ &#x200B;](/help/using/reference/system-components/components-platform-architecture.md)
 * [エッジデータセンターについて](/help/using/reference/system-components/components-edge.md)
