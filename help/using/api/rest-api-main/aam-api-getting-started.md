@@ -257,7 +257,7 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 +++ 認証トークンを取得する、廃止された従来の [!DNL OAuth] 認証方法に関する情報を表示します。
 
 >[!WARNING]
-> [!DNL Audience Manager][!UICONTROL REST API] 介した [!DNL OAuth 2.0] トークンの認証と更新は非推奨（廃止予定）になりました。
+> [!DNL Audience Manager]&#x200B;[!UICONTROL REST API] 介した [!DNL OAuth 2.0] トークンの認証と更新は非推奨（廃止予定）になりました。
 >
 > 代わりに、[JWT（サービスアカウント）認証](#jwt-service-account-authentication-jwt)を使用してください。
 

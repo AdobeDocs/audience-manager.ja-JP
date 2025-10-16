@@ -58,7 +58,7 @@ ht-degree: 99%
 
 ## オプトアウト呼び出し {#opt-out-calls}
 
-[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager][!DNL Audience Manager] がオプトアウトリクエストを受信すると、[!DNL DCS] から返される [!DNL JSON] には、[!DNL Audience Manager] ユーザー ID ではなく、エラーコード 171 と「`Encountered opt out tag`」というメッセージが含まれています。
+[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]&#x200B;[!DNL Audience Manager] がオプトアウトリクエストを受信すると、[!DNL DCS] から返される [!DNL JSON] には、[!DNL Audience Manager] ユーザー ID ではなく、エラーコード 171 と「`Encountered opt out tag`」というメッセージが含まれています。
 
 * [!DNL Audience Manager] では、[!DNL URL] で [!DNL Audience Manager] [!UICONTROL UUID] と一緒に [!UICONTROL declared ID] のオプトアウトを渡すことができます。
 * [!UICONTROL declared ID] オプトアウトは、パートナーごとに [!UICONTROL Profile Cache Server]（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、[!DNL Audience Manager] では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!DNL DCS] 地域をまたぐことはありません）。
@@ -275,7 +275,7 @@ myCallback({
 
 ## ターゲティングからの除外 {#do-not-target}
 
-[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager][!DNL Audience Manager] がオプトアウトリクエストを受け取ると、[!DNL DCS] は [!DNL Audience Manager] ユーザー ID ではなく空の [!DNL JSON] オブジェクトを返します。
+[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]&#x200B;[!DNL Audience Manager] がオプトアウトリクエストを受け取ると、[!DNL DCS] は [!DNL Audience Manager] ユーザー ID ではなく空の [!DNL JSON] オブジェクトを返します。
 
 >[!MORELIKETHIS]
 >
