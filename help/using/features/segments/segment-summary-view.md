@@ -50,7 +50,7 @@ ht-degree: 95%
 
    [!UICONTROL Identity Type Breakdown] の概要については、以下のビデオをご覧ください。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+   >[!VIDEO](https://video.tv.adobe.com/v/34081?captions=jpn)
 
 1. **[!UICONTROL Segment Rules]：**&#x200B;セグメントの特性を選定ルールと共にリストします。
 1. **[!UICONTROL Destination Mappings]：**&#x200B;セグメントの宛先マッピングをリストします。

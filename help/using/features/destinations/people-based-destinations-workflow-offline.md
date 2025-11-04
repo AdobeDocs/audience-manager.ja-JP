@@ -92,7 +92,7 @@ ht-degree: 95%
 
 [!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/32577?captions=jpn)
 
 ## 手順 3 - ファイルベースの ID 同期を使用して、DPUUID をハッシュ化されたメールアドレスに一致させる {#match-ids-emails}
 
