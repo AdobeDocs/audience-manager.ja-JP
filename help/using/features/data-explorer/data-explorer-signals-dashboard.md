@@ -6,7 +6,7 @@ title: シグナルダッシュボード
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 96%
@@ -40,4 +40,5 @@ Audience Manager で過去 7 日以内に受信した未使用シグナルの概
 保存済みの検索結果では、条件に該当する上位 50 件の結果が表示されます。
 
 [!UICONTROL Signals Dashboard] の使用方法については、以下のビデオをご覧ください。
->[!VIDEO](https://video.tv.adobe.com/v/327523?captions=jpn)
+
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)

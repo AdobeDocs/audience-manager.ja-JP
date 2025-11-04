@@ -7,7 +7,7 @@ title: セグメントビルダー
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 100%
@@ -37,7 +37,7 @@ ht-degree: 100%
    * [!UICONTROL segment] に名前を付けます。[!UICONTROL segment] 名の最大長は 255 文字です。
    * [!UICONTROL segment] のステータスを設定します（デフォルトは「active」です）。
    * [!UICONTROL data source] を選択します。最初のドロップダウンメニューを使用して、Audience Manager の [!UICONTROL data sources]、Adobe Analytics のレポートスイート、またはその両方をフィルタリングします。次に、2 番目のドロップダウンメニューを使用して、[!UICONTROL data source] を選択します。Adobe Analytics レポートスイートを使用しない場合、[!UICONTROL data source] タイプセレクターは無効になり、デフォルトで Audience Manager データソースのみに設定されます。
-   * [!UICONTROL segment] 認定に使用する [!UICONTROL profile merge rule] を選択します。
+   * [!UICONTROL segment] 選定に使用する [!UICONTROL profile merge rule] を選択します。
    * [!UICONTROL segment] を保存フォルダーに割り当てます。
 
 1. 「[特性](../../features/segments/segment-builder.md#segment-builder-controls-traits)」セクションで、以下の操作をおこないます。
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/36810?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## [!UICONTROL Segment Builder] コントロール：[!UICONTROL Basic Information] セクション {#segment-builder-controls-basics}
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 -->
 
 | フィールド | 説明 |
----------|----------
+|---------|----------|
 | **[!UICONTROL Name]** | セグメントに、機能や目的を表す、短く論理的な名前を設定します。略語や特殊文字は使用しないでください。セグメント名の最大長は 255 文字です。 |
 | **[!UICONTROL Description]** | セグメントに関する追加の説明情報のフィールド。 |
 | **[!UICONTROL Integration Code]** | ユーザー定義 ID などの会社特有の情報のフィールド。 |
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 ## [!UICONTROL Segment Builder] コントロール：[!UICONTROL Traits] セクション {#segment-builder-controls-traits}
 
-[!UICONTROL Segment Builder] の [!UICONTROL Traits] セクションを使用すると、[!UICONTROL segment] の [!UICONTROL traits] を管理、[!UICONTROL trait] グループを作成、および認定条件を設定できます。[!UICONTROL segment] に [!UICONTROL trait] を追加するには、検索フィールドに [!UICONTROL trait] 名を入力して、「[!UICONTROL Add Trait]」をクリックします。[!UICONTROL trait] を保存する（完了した場合）か、[!UICONTROL Destinations Mapping] に移動します。
+[!UICONTROL Segment Builder] の [!UICONTROL Traits] セクションを使用すると、[!UICONTROL segment] の [!UICONTROL traits] を管理、[!UICONTROL trait] グループを作成、および選定条件を設定できます。[!UICONTROL segment] に [!UICONTROL trait] を追加するには、検索フィールドに [!UICONTROL trait] 名を入力して、「[!UICONTROL Add Trait]」をクリックします。[!UICONTROL trait] を保存する（完了した場合）か、[!UICONTROL Destinations Mapping] に移動します。
 
 <!-- r_segment_traits_section.xml-->
 
@@ -129,8 +129,8 @@ ht-degree: 100%
 
 | フィールド | 説明 |
 |--- |--- |
-| **[!UICONTROL Basic View]** | このセクションには、次の操作をおこなうための視覚的なコントロールがあります。 <ul><li>新しい [!UICONTROL segments] を作成し、既存のセグメントを管理します。</li><li>[!UICONTROL segment] から [!UICONTROL traits] を削除します。</li><li>最大 50 の [!UICONTROL traits] を [!UICONTROL segment] に追加できます。</li><li>[!UICONTROL traits] をドラッグアンドドロップして新しいグループを作成します。</li><li>[!UICONTROL segment] の [!UICONTROL traits] および [!UICONTROL trait] グループを表示します。</li><li>ブール式、比較演算子、最新性／頻度の設定により認定条件を設定する。</li></ul> |
-| **[!UICONTROL Code View]** | 開発環境を開きます。この環境では、視覚的なインターフェイスの代わりにコードを使用して、[!UICONTROL traits] グループ、認定要件の作成と管理ができます。このコードビューは、[!UICONTROL segments] が次の条件に該当する場合に便利です。 <ul><li>個別 [!UICONTROL segment] に [!UICONTROL traits] が 50 より多く含まれる。注意：[!UICONTROL Segments] は 5000 個の [!UICONTROL traits]（最大）に制限されます。</li><li>多くの [!UICONTROL trait] グループを含んでいる。</li><li>複雑な認定要件がある。</li></ul> |
+| **[!UICONTROL Basic View]** | このセクションには、次の操作をおこなうための視覚的なコントロールがあります。 <ul><li>新しい [!UICONTROL segments] を作成し、既存のセグメントを管理します。</li><li>[!UICONTROL segment] から [!UICONTROL traits] を削除します。</li><li>最大 50 の [!UICONTROL traits] を [!UICONTROL segment] に追加できます。</li><li>[!UICONTROL traits] をドラッグアンドドロップして新しいグループを作成します。</li><li>[!UICONTROL segment] の [!UICONTROL traits] および [!UICONTROL trait] グループを表示します。</li><li>ブール式、比較演算子、最新性／頻度の設定により選定条件を設定する。</li></ul> |
+| **[!UICONTROL Code View]** | 開発環境を開きます。この環境では、視覚的なインターフェイスの代わりにコードを使用して、[!UICONTROL traits] グループ、選定要件の作成と管理ができます。このコードビューは、[!UICONTROL segments] が次の条件に該当する場合に便利です。 <ul><li>個別 [!UICONTROL segment] に [!UICONTROL traits] が 50 より多く含まれる。注意：[!UICONTROL Segments] は 5000 個の [!UICONTROL traits]（最大）に制限されます。</li><li>多くの [!UICONTROL trait] グループを含んでいる。</li><li>複雑な選定要件がある。</li></ul> |
 | 検索 | [!UICONTROL segment] に追加する [!UICONTROL traits] を検索できます。 |
 | レコメンデーション | ファーストパーティ [!UICONTROL traits] および購読している [!UICONTROL Audience Marketplace] データフィードから、類似した [!UICONTROL traits] のライブレコメンデーションを取得します。これらのレコメンデーションを [!UICONTROL segment] ルールに追加して、オーディエンスを拡大します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |
 | **[!UICONTROL Marketplace Recommendations]** | 購読していない [!UICONTROL Audience Marketplace] データフィードから、類似した [!UICONTROL traits] のライブレコメンデーションを取得します。詳しくは、[特性レコメンデーション](trait-recommendations.md)を参照してください。 |

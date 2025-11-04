@@ -5,7 +5,7 @@ solution: Audience Manager
 title: IP アドレスの難読化
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-source-git-commit: ae074cdeb8dcf6f6a224c2ede5f3bb704b28f49f
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 83%
@@ -31,7 +31,7 @@ Audience Manager で収集された IP アドレスを難読化するには、�
 
 ### IP の不明化の予測 {#precedence}
 
-[&#x200B; データストリームレベルの IP の不明化 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#create) は、Audience Managerで設定した IP の不明化オプションよりも優先され、すべての IP アドレスに適用されます。 Audience Managerで行われたジオロケーション検索は、データストリームレベルの [!UICONTROL IP obfuscation] オプションの影響を受けます。 完全に不明化された IP に基づくAudience Managerでの位置情報ルックアップは、結果として得られた位置情報データに基づくセグメントが実現されない、未知のリージョンが原因となります。
+[ データストリームレベルの IP の不明化 ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) は、Audience Managerで設定した IP の不明化オプションよりも優先され、すべての IP アドレスに適用されます。 Audience Managerで行われたジオロケーション検索は、データストリームレベルの [!UICONTROL IP obfuscation] オプションの影響を受けます。 完全に不明化された IP に基づくAudience Managerでの位置情報ルックアップは、結果として得られた位置情報データに基づくセグメントが実現されない、未知のリージョンが原因となります。
 
 ## IP アドレスの不明化の要件 {#ip-obfuscation-requirements}
 
@@ -62,4 +62,5 @@ IP アドレスの難読化をグローバルに無効にするには、**Admini
 
 * [データプライバシー](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP アドレス難読化のビデオのデモ
->[!VIDEO](https://video.tv.adobe.com/v/35075?captions=jpn)
+
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)

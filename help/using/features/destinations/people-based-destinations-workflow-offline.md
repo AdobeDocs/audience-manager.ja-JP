@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 95%
@@ -79,6 +79,7 @@ ht-degree: 95%
 1. **[!UICONTROL ID Type]** ドロップダウンメニューで、「**[!UICONTROL Cross Device]**」を選択します。
 1. **[!UICONTROL Data Source Settings]** セクションで、**[!UICONTROL Inbound]** と **[!UICONTROL Outbound]** のオプションを両方選択し、**[!UICONTROL Share associated cross-device IDs in people-based destinations]** オプションを有効にします。
 1. ドロップダウンメニューを使用して、このデータソースの **[!UICONTROL Emails(SHA256, lowercased)]** ラベルを選択します。
+
    >[!IMPORTANT]
    >
    >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。それ以外の場合は、[!DNL People-Based Destinations] では使用できません。
@@ -91,7 +92,7 @@ ht-degree: 95%
 
 [!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/32577?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## 手順 3 - ファイルベースの ID 同期を使用して、DPUUID をハッシュ化されたメールアドレスに一致させる {#match-ids-emails}
 

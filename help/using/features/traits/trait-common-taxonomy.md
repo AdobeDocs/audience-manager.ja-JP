@@ -8,10 +8,10 @@ title: 一般的なカテゴリへの特性の分類
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## データカテゴリによる特性の分類
 
-[!UICONTROL Add New Trait Wizard]（* **[!UICONTROL Audience Data > Traits]*** にあります）の特性を作成または編集する際に、分類を割り当てることができます。詳しくは、[特性の作成に関するドキュメント](../../features/traits/create-onboarded-rule-based-traits.md)を参照してください。
+分類の分類は、[!UICONTROL Add New Trait Wizard] （***[!UICONTROL Audience Data > Traits]***）にある特性を作成または編集する際に割り当てます。 詳しくは、[特性の作成に関するドキュメント](../../features/traits/create-onboarded-rule-based-traits.md)を参照してください。
 
 ## 分類の使用：その他の考慮事項
 

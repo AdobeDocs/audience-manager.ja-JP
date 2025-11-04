@@ -8,7 +8,7 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: id タイプの分類、id の分類、オーディエンス ID レポート、クロスデバイス、クロスデバイス ID、デバイス ID
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 95%
@@ -36,11 +36,11 @@ ht-degree: 95%
 セグメント管理ツールの下部に、次のセグメント情報が表示されます。
 
 1. **[!UICONTROL Basic Information]：**&#x200B;セグメントが作成された際に指定された必須およびオプションの詳細を表示します。これらのフィールドが意味することの詳細な概要については、[セグメントビルダー](segment-builder.md)を参照してください。
-2. **[!UICONTROL Segment Graph]：**&#x200B;固定の 1、7、14、30、60、90 日間隔のグラフでパフォーマンスデータを表示します。セグメント母集団の数については、[別の記事](../../features/segments/segment-builder-data.md)で説明します。
+1. **[!UICONTROL Segment Graph]：**&#x200B;固定の 1、7、14、30、60、90 日間隔のグラフでパフォーマンスデータを表示します。セグメント母集団の数については、[別の記事](../../features/segments/segment-builder-data.md)で説明します。
 
    ![セグメントグラフ](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown]：**&#x200B;このレポートには、クロスデバイス ID の数と外部デバイスグラフ ID の数をカウントした、セグメントに適合するユーザーまたは世帯の数が表示されます。外部デバイスグラフ ID は、セグメントに適合するデバイスにリンクされています（[!UICONTROL Total Segment Population] で表示）。このレポートに示すクロスデバイス ID と外部デバイスグラフ ID は、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。このレポートは、セグメントが使用しているプロファイル結合ルールで、クロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
+1. **[!UICONTROL Identity Type Breakdown]：**&#x200B;このレポートには、クロスデバイス ID の数と外部デバイスグラフ ID の数をカウントした、セグメントに適合するユーザーまたは世帯の数が表示されます。外部デバイスグラフ ID は、セグメントに適合するデバイスにリンクされています（[!UICONTROL Total Segment Population] で表示）。このレポートに示すクロスデバイス ID と外部デバイスグラフ ID は、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。このレポートは、セグメントが使用しているプロファイル結合ルールで、クロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
 
    ![セグメントグラフ](assets/segment-type.png)
 
@@ -49,8 +49,9 @@ ht-degree: 95%
    >Audience Manager では、セグメントに適合するクロスデバイス ID がある場合に [!UICONTROL Identity Type Breakdown] のみレポートが表示されます。
 
    [!UICONTROL Identity Type Breakdown] の概要については、以下のビデオをご覧ください。
-   >[!VIDEO](https://video.tv.adobe.com/v/34081?captions=jpn)
 
-4. **[!UICONTROL Segment Rules]：**&#x200B;セグメントの特性を資格認定ルールと共にリストします。
-5. **[!UICONTROL Destination Mappings]：**&#x200B;セグメントの宛先マッピングをリストします。
-6. **[!UICONTROL Management Tools]：**&#x200B;セグメントを作成、編集、複製、削除するためのコントロール。
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+
+1. **[!UICONTROL Segment Rules]：**&#x200B;セグメントの特性を選定ルールと共にリストします。
+1. **[!UICONTROL Destination Mappings]：**&#x200B;セグメントの宛先マッピングをリストします。
+1. **[!UICONTROL Management Tools]：**&#x200B;セグメントを作成、編集、複製、削除するためのコントロール。

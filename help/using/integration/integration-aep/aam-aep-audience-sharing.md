@@ -5,7 +5,7 @@ title: Audience Manager およびその他の Experience Cloud ソリューシ�
 keywords: AEP オーディエンス共有、AEP セグメント、Platform のセグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
 feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: d21d0574ee0338dbd5e11c60e0d64042182aa18b
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 94%
@@ -18,11 +18,12 @@ ht-degree: 94%
 
 Audience ManagerとAdobe Experience Platformの間でオーディエンスを共有する機能を使用すると、Audience Managerの特性とセグメントをAdobe Experience Platformに、Experience PlatformのセグメントをAudience Managerに共有できます。
 
-Audience ManagerとAdobe Experience Platformの間でオーディエンスの共有を有効にするには、Experience Platformで [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) と [2&rbrace;Experience Cloud Audiences&rbrace; の宛先が必要です。](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ja)
+Audience ManagerとAdobe Experience Platformの間でオーディエンスの共有を有効にするには、Experience Platformで [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) と [2}Experience Cloud Audiences} の宛先が必要です。](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を活用することができます。
 
 Audience Manager では、次のような、データ管理プラットフォームのユースケースに対して Experience Platform のセグメントを使用できます。
+
 * [サードパーティデータ](/help/using/overview/data-types-collected.md#third-party-data)をセグメントに追加する
 * [アルゴリズムモデリング](/help/using/features/algorithmic-models/understanding-models.md)
 * Experience Platform の[宛先カタログ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html?lang=ja)でまだサポートされていない宛先に対してセグメントをアクティブ化します。
@@ -74,7 +75,7 @@ Audience Manager ソースコネクターを設定して、Audience Manager か�
 
 >[!IMPORTANT]
 >
-> ここでは、Experience PlatformからAudience Managerへの従来のセグメント共有の統合について説明します。 Adobeのお客様の担当者のサポートなしで、この統合を設定できるようになりました。 詳しくは、[Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ja) の宛先に関するドキュメントを参照してください。
+> ここでは、Experience PlatformからAudience Managerへの従来のセグメント共有の統合について説明します。 Adobeのお客様の担当者のサポートなしで、この統合を設定できるようになりました。 詳しくは、[Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) の宛先に関するドキュメントを参照してください。
 
 >[!NOTE]
 >
@@ -135,7 +136,7 @@ Experience Platform のセグメントから自動的に作成されたセグメ
 |---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform のセグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform で設定された結合ポリシーに従うことを示します。 |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform の結合ポリシーセットに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
 
 {style="table-layout:auto"}

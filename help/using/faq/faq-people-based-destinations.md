@@ -6,10 +6,10 @@ solution: Audience Manager
 title: People-Based Destinations に関する FAQ
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 99%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 
 **Web フォームやモバイルアプリから、ハッシュ化された電子メールアドレスを収集できますか？それとも、バッチファイルから収集する必要がありますか？**
 
-[宣言された ID](../features/declared-ids.md)と [!DNL ECID] を使用し、Web 認証を通じてハッシュ化された電子メールアドレスを収集できます。バッチファイルを使用すると、認証を通じて送信できないハッシュ化された電子メールアドレス（例：[!DNL CRM] の休止状態のユーザー）を収集したり、ユーザーベースの宛先でそれらをアクティブ化したりできます。
+[宣言された ID](../features/declared-ids.md)と [!DNL ECID] を使用し、Web 認証を通じてハッシュ化された電子メールアドレスを収集できます。バッチファイルを使用すると、認証を通じて送信できないハッシュ化されたメールアドレス（[!DNL CRM] の休眠状態のユーザーなど）を収集し、人物ベースの宛先でアクティブ化することもできます。
 
 **ハッシュ化された電子メールアドレスを Web フォーム経由で取り込む場合と、バッチファイルを使用してハッシュ化された電子メールアドレスを取り込む場合の違いを教えてください。**
 
@@ -60,6 +60,7 @@ Audience Manager では、未加工の電子メールアドレスを取り込ま
 ユースケースによって異なります。ユーザーベースのチャネルで既存のファーストパーティセグメントをアクティブ化する予定がある場合は、新しいセグメントを作成する必要はありません。セグメントをユーザーベースの宛先にマッピングするだけです。
 
 ユーザーベースのチャネルで新しいオフラインオーディエンスをアクティブ化する予定がある場合は、[!DNL All Cross-Device Profiles] 結合ルールを使用して新しいファーストパーティセグメントを作成する必要があります。
+
 >[!NOTE]
 >
 > セグメントは、ファーストパーティデータによってのみ [!DNL People-Based Destinations] にマッピングできます。アドビの宛先プラットフォームでは、セカンドパーティとサードパーティのデータを使用したセグメントを使用できません。
@@ -72,7 +73,7 @@ Audience Manager では、未加工の電子メールアドレスを取り込ま
 
 **[!DNL People-Based Destinations] を使用したマッチ率を、オーディエンスを宛先プラットフォームに送信する他の方法のマッチ率と理論的に比較するにはどうすればよいですか。**
 
-電子メールアドレスが正しくハッシュ化され、取り込まれていれば、[!DNL People-Based Destinations] と他のメソッドのマッチ率は同じになります。マッチ率が 100％未満となるのは、Audience Manager に取り込んだ電子メールアドレスが、宛先プラットフォームのユーザーベースにある電子メールアドレスと一致しない場合のみです。
+電子メールアドレスが正しくハッシュ化され、取り込まれていれば、[!DNL People-Based Destinations] と他のメソッドのマッチ率は同じになります。一致率が 100% 未満になる唯一の理由は、Audience Managerに取り込まれたメールアドレスが宛先プラットフォームのユーザーベース内のメールアドレスと一致しない場合です。
 
 **ソーシャルネットワークで使用されている個人用電子メールアドレスとは異なる、業務用の電子メールアドレスを顧客から収集しています。複数の電子メールアドレスをまたいで ID を一致させるにはどうすればよいですか。**
 
@@ -104,18 +105,18 @@ Audience Manager では、ユーザーごとに最大 10 個の電子メール�
 
 1. [!DNL Facebook Custom Audiences Terms of Service] を読んで署名します。これをおこなうには、`https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]` に進みます（`accountID` は [!DNL Facebook Ad Account ID] です）。
 
-**Do [!DNL People-Based Destinations] は、他の [!DNL Facebook] アプリ（[!DNL Instagram] など）でのオーディエンスのターゲット設定をサポートしていますか？**
+**[!DNL People-Based Destinations] は、他の [!DNL Facebook] アプリ（[!DNL Instagram] など）でのオーディエンスターゲティングをサポートしていますか？**
 
-[!DNL Custom Audiences] でサポートされる [!DNL Facebook] のアプリケーションファミリー（[!DNL Facebook]、[!DNL Instagram]、[!DNL Audience Network] および [!DNL Messenger] など）をまたいで [!DNL People-Based Destinations] を使用できます。キャンペーンを実行するアプリの選択範囲が、[!DNL Facebook Ads Manager] の配置レベルで示されます。
+[!DNL People-Based Destinations]、[!DNL Facebook]、[!DNL Custom Audiences] および [!DNL Facebook] など、[!DNL Instagram] でサポートされている [!DNL Audience Network] のアプリ群で [!DNL Messenger] を使用できます。 キャンペーンを実行するアプリの選択範囲が、[!DNL Facebook Ads Manager] の配置レベルで示されます。
 
-**[!DNL People-Based Destinations] と [!DNL Website Custom Audiences] の違いを教えてください。**
+**[!DNL People-Based Destinations] と [!DNL Website Custom Audiences] の違いは何ですか？**
 
 [!DNL People-Based Destinations] では [!DNL Custom Audiences (CA)] と [!DNL Facebook] の統合を活用します。顧客がオーディエンスを [!DNL Facebook] に送信する際に鍵となるのは、[!DNL WCA] 統合と [!DNL CA] 統合の違いです。[!DNL WCA] は [!DNL Facebook] ピクセル（Web サイトのユーザー ID となります）を使用していますが、[!DNL People-Based Destinations] はハッシュ化された電子メールアドレスを使用して [!DNL CA] と統合します。
 
-追加費用なしで、[!DNL URL Destinations] 機能から Audience Manager の [!DNL Facebook] [!DNL WCA] 統合を使用できます。
+[!DNL Facebook] 機能を介したAudience Manager [!DNL WCA] [!DNL URL Destinations] 統合は、追加費用なしで使用できます。
 
 これら 2 つの統合は補完的です。両方を使用して、オーディエンス対象範囲を改善することができます。例えば、アカウントを登録していない Web サイト訪問者をターゲットにしたい会社は、[!DNL WCA] を使用して見込み客を開拓できますが、[!DNL People-Based Destinations] は、電子メールアドレスを提供しているけれど Web サイトは訪問していない既存の顧客をターゲットにするのに役立ちます。
 
-**[!DNL People-Based Destinations] と [!DNL Facebook] の統合は、資格がなくなったユーザーの対象からの除外をサポートしますか？**
+**[!DNL People-Based Destinations] と [!DNL Facebook] の統合は、資格がなくなったユーザーのオーディエンスからの除外をサポートしますか？**
 
 はい。統合では、ユーザーの資格がなくなった場合の [!DNL Facebook] オーディエンスからの削除をサポートします。

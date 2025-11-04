@@ -8,7 +8,7 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: e10211057a87622340fd2c61737c7c7a45c0e99c
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 100%
@@ -45,7 +45,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>非公開の顧客定義属性。 </p> <p> DCS では、キーに <code> p_</code> 接頭辞が含まれていれば、お客様独自の非公開データを受信します。非公開データは特性評価に使用されますが、アドビのシステムにはログとして記録されず、保存もされません。例えば、<code> customers = p_age&lt;25</code> として定義されている特性があり、イベント呼び出しで <code> p_age=23</code> を渡すとしましょう。これらの条件を仮定すると、年齢に基づき絞り込まれたユーザーはこの特性に絞り込まれますが、このキー値ペアは、<span class="keyword">Audience Manager</span> にリクエストが受信された後で削除され、ログには記録されません。 </p> </td>
+   <td colname="col2"> <p>非公開の顧客定義属性。 </p> <p> DCS では、キーに <code> p_</code> 接頭辞が含まれていれば、お客様独自の非公開データを受信します。非公開データは特性評価に使用されますが、アドビのシステムにはログとして記録されず、保存もされません。例えば、<code> customers = p_age&lt;25</code> として定義されている特性があり、イベント呼び出しで <code> p_age=23</code> を渡すとしましょう。これらの条件を仮定すると、年齢に基づいて選定されたユーザーはこの特性に選定されますが、このキー値ペアは、<span class="keyword">Audience Manager</span> にリクエストが受信された後で削除され、ログには記録されません。 </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -194,7 +194,7 @@ ht-degree: 100%
 これらのヘッダーは、HTTP 呼び出し内のデータおよび応答のリクエストのような情報を格納します。
 
 | 属性 | 説明 |
-| --- | --- | 
+| --- | --- |
 | `h_host` | クライアントの特定のデータ収集ホスト名に設定します。`host name .demdex.net` と表示されます。[Demdex ドメインの呼び出しについて](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ja)を参照してください。 |
 | `h_user-agent` | `User-Agent` ヘッダー値に設定します。 |
 | `h_accept-language` | `Accept-Language` ヘッダー値に設定します。 |

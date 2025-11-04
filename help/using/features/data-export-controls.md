@@ -7,7 +7,7 @@ title: データ書き出しコントロール
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 26aa0a210a045b40b2329844324315a092947188
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 100%
@@ -48,6 +48,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >セグメントのデータソースに対してデータ書き出しコントロールを設定し、セグメントのエクスポートをブロックすることはできません。次のいずれかのコントロールを設定する必要があります。
+>
 > * セグメントで使用される特性のデータソース。
 > * セグメントで使用されるプロファイル結合ルール。
 > * セグメントのプロファイル結合ルールで使用されるデータソース。

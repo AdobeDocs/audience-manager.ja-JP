@@ -6,7 +6,7 @@ solution: Audience Manager
 title: ピープルベースのプラットフォームを使用した認証
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 97%
@@ -51,7 +51,9 @@ Audience Manager は、一定期間後に期限切れになる認証トークン
 認証トークンが有効期限切れになると、Audience Manager と対応するソーシャルプラットフォームの統合が中断されるので、Audience Manager はオーディエンスセグメントを宛先に送信できなくなります。[!UICONTROL Integrated Accounts] ページには、[!UICONTROL Expiration] 列の各統合の有効期限が表示され、いつでも認証を更新できます。
 
 期限切れまたは期限切れの認証を更新する方法は、次のとおりです。
+
 1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。
 1. 認証の更新に必要な統合を特定します。有効期限切れの認証は、[!UICONTROL Expired] とマークされ、有効期限が近づいている認証には、残りの日数が表示されます。
 1. **[!UICONTROL Renew]** 列で、対応する [!UICONTROL Expiration] アイコンをクリックします。これにより、ソーシャルプラットフォームの認証ページから戻る **[!UICONTROL Renew Account]** ワークフローがトリガーされます。認証が完了すると、新しい有効期限でトークンが更新されます。
+
    ![pbd-renew](assets/pbd-renew.png)

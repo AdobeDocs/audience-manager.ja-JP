@@ -7,7 +7,7 @@ title: セグメント式エディターで使用するコード構文
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
@@ -44,9 +44,9 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 | 名前または変数 | 説明 |
 |---|---|
 | `FREQUENCY` | 式の前に配置する必要がある文字列。 |
-| ` [`&lt;`traitID`>`T]` | 特性 ID の末尾に「`T`」を付加した文字列の配列。複数の特性がある場合、コンマで区切ります。例：`[123T, 456T]` |
-| ` <Recency Operator><Numeric Value>D` | *（オプション）*&#x200B;セグメントの特性に関する最新性ルールを設定します。「`D`」は最新性を日数単位で表していることを示します。 |
-| ` <Frequency Operator><Numeric Value>` | セグメントの特性に関する頻度ルールを設定します。 |
+| `[`&lt;`traitID`>`T]` | 特性 ID の末尾に「`T`」を付加した文字列の配列。複数の特性がある場合、コンマで区切ります。例：`[123T, 456T]` |
+| `<Recency Operator><Numeric Value>D` | *（オプション）*&#x200B;セグメントの特性に関する最新性ルールを設定します。「`D`」は最新性を日数単位で表していることを示します。 |
+| `<Frequency Operator><Numeric Value>` | セグメントの特性に関する頻度ルールを設定します。 |
 
 ### 使用可能な最新性演算子と頻度演算子
 
