@@ -1,7 +1,7 @@
 ---
-description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
-landing-page-description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
-short-description: セグメントのコンポーネントと、オーディエンス認定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
+description: セグメントのコンポーネントと、オーディエンス選定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
+landing-page-description: セグメントのコンポーネントと、オーディエンス選定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
+short-description: セグメントのコンポーネントと、オーディエンス選定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: シグナル、特性、セグメント
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 ## 構成と目的
 
-[!DNL Audience Manager] データは、[!UICONTROL signals]、[!UICONTROL traits]、[!UICONTROL segments]および関連する認定ルールで構成されます。データ要素とルールが組み合わされて[!UICONTROL segments]になります。[!UICONTROL Segments]によって、サイト訪問者が関連グループに整理されます。[!DNL Audience Manager] [!UICONTROL segment] の 3 つの主要な構成要素を次の表で定義します。
+[!DNL Audience Manager] データは、[!UICONTROL signals]、[!UICONTROL traits]、[!UICONTROL segments]および関連する選定ルールで構成されます。データ要素とルールが組み合わされて[!UICONTROL segments]になります。[!UICONTROL Segments]によって、サイト訪問者が関連グループに整理されます。[!DNL Audience Manager] [!UICONTROL segment] の 3 つの主要な構成要素を次の表で定義します。
 
 | 要素 | 構成 | 例 |
 |---|---|---|
 | [!UICONTROL Signal] | [!UICONTROL Signals]は [!DNL Audience Manager] における最小のデータ単位で、[ キーと値のペア](../reference/key-value-pairs-explained.md)として表されます。<br><br><ul><li>キーは、データセットを定義する定数です（例：gender、color、price）。</li><li>値は、定数に関連する変数です（例：male/female、green、100）。</li></ul>比較演算子は、キーと値を結合して、それらの間の関係を設定します。 | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
-| [!UICONTROL Trait] | 1 つ以上の[!UICONTROL signals]の組み合わせ。<br><br> [!DNL Boolean] 式および比較演算子を使用すると、[!UICONTROL trait]認定ルールを作成できます。<br><br>[!UICONTROL traits]と[!UICONTROL trait]グループを組み合わせて、詳細な資格認定要件を作成します。 | 例えば、使用可能な[!UICONTROL signals]から、次のような「`High End Camera Browser`」ルールを作成できます：`product=camera AND price>1000` |
-| [!UICONTROL Segment] | 共通する一連の属性を共有し、関連する[!UICONTROL traits]の対象として認定されるユーザー。[!DNL Boolean] 式を最新性／頻度要件と共に使用すると、[!UICONTROL segment]認定ルールを作成できます。<br><br>[!UICONTROL trait]と[!UICONTROL segment]ルールを組み合わせて、詳細な資格認定要件を作成します。 | 例えば、使用可能な[!UICONTROL traits]および[!UICONTROL signals]から、次のような[!UICONTROL segment]ルールを作成できます：`(product=camera AND type=digital SLR) OR (price>1000)` |
+| [!UICONTROL Trait] | 1 つ以上の[!UICONTROL signals]の組み合わせ。<br><br> [!DNL Boolean] 式および比較演算子を使用すると、[!UICONTROL trait]選定ルールを作成できます。<br><br>[!UICONTROL traits]と[!UICONTROL trait]グループを組み合わせて、詳細な選定要件を作成します。 | 例えば、使用可能な[!UICONTROL signals]から、次のような「`High End Camera Browser`」ルールを作成できます：`product=camera AND price>1000` |
+| [!UICONTROL Segment] | 共通する一連の属性を共有し、関連する[!UICONTROL traits]の対象として認定されるユーザー。[!DNL Boolean] 式を最新性／頻度要件と共に使用すると、[!UICONTROL segment]選定ルールを作成できます。<br><br>[!UICONTROL trait]と[!UICONTROL segment]ルールを組み合わせて、詳細な選定要件を作成します。 | 例えば、使用可能な[!UICONTROL traits]および[!UICONTROL signals]から、次のような[!UICONTROL segment]ルールを作成できます：`(product=camera AND type=digital SLR) OR (price>1000)` |
 
 以下の図を使用して、[!UICONTROL signals]、[!UICONTROL traits]、および[!UICONTROL segments]間の関係を覚えておいてください。
 

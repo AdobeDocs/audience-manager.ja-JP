@@ -33,9 +33,9 @@ ht-degree: 73%
 
 [!DNL Audience Manager] は、3 つの認証方法をサポートする [!DNL REST APIs] 要があります。
 
-* [!BADGE &#x200B; 推奨 &#x200B;]{type=positive}[&#128279;](#oauth-adobe-developer)Adobe デベロッパーコンソールを使用した [OAuth サーバー間認証 &#x200B;](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。[!DNL Adobe] [!DNL APIs] を設定および使用する場合は、この方法をお勧めします。 [OAuth サーバー間認証 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) について詳しくは、Adobe開発者向けドキュメントを参照してください。
-* [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[JWT （サービスアカウント）認証 &#x200B;](#jwt) [Adobe開発者コンソールを使用 &#x200B;](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。
-* [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[&#x200B; 従来の OAuth 認証 &#x200B;](#oauth-deprecated)。 この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
+* [!BADGE  推奨 ]{type=positive}[](#oauth-adobe-developer)Adobe デベロッパーコンソールを使用した [OAuth サーバー間認証 ](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。[!DNL Adobe] [!DNL APIs] を設定および使用する場合は、この方法をお勧めします。 [OAuth サーバー間認証 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) について詳しくは、Adobe開発者向けドキュメントを参照してください。
+* [!BADGE  非推奨 ]{type=negative}[JWT （サービスアカウント）認証 ](#jwt)[Adobe開発者コンソールを使用 ](https://www.adobe.io/)。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。
+* [!BADGE  非推奨 ]{type=negative}[ 従来の OAuth 認証 ](#oauth-deprecated)。 この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
 
 >[!IMPORTANT]
 >
@@ -62,17 +62,17 @@ ht-degree: 73%
 次の手順に従って、[!DNL Adobe Developer] を使用して [!DNL OAuth Server-to-Server] 認証を設定します。
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/home) にログインします。
-1. [OAuth サーバー間資格情報実装ガイド &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) の手順に従います。
+1. [OAuth サーバー間資格情報実装ガイド ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) の手順に従います。
    * [手順 2：サービスアカウント認証を使用してプロジェクトに API を追加する](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)で、[!DNL Audience Manager] [!DNL API] オプションを選択します。
 1. [手順 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) の指示に基づいて最初の [!DNL API] 呼び出しをおこない、接続を試します。
 
 >[!NOTE]
 >
->[!DNL Audience Manager] [!DNL REST APIs] を自動的に設定して操作するために、プログラムによってクライアントの秘密鍵を回転させることができます。 手順について詳しくは [&#x200B; 開発者向けドキュメント &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) を参照してください。
+>[!DNL Audience Manager] [!DNL REST APIs] を自動的に設定して操作するために、プログラムによってクライアントの秘密鍵を回転させることができます。 手順について詳しくは [ 開発者向けドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) を参照してください。
 
 ### Audience Manager API をプロジェクトに追加する {#add-aam-api-to-project}
 
-[Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) に移動し、Adobe IDでサインインします。 次に、Adobe Developer Console ドキュメントの [&#x200B; 空のプロジェクトの作成 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) チュートリアルで説明されている手順に従います。
+[Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) に移動し、Adobe IDでサインインします。 次に、Adobe Developer Console ドキュメントの [ 空のプロジェクトの作成 ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) チュートリアルで説明されている手順に従います。
 
 新しいプロジェクトを作成したら、**[!UICONTROL Add API]** の画面で **[!UICONTROL Project Overview]** を選択します。
 
@@ -80,15 +80,15 @@ ht-degree: 73%
 >
 >複数の組織用にプロビジョニングされている場合は、インターフェイスの右上隅にある組織セレクターを使用して、必要な組織に属していることを確認します。
 
-![&#x200B; 「API を追加」オプションがハイライト表示されたDeveloper Console画面 &#x200B;](/help/using/api/rest-api-main/assets/add-api.png)
+![ 「API を追加」オプションがハイライト表示されたDeveloper Console画面 ](/help/using/api/rest-api-main/assets/add-api.png)
 
 **[!UICONTROL Add an API]** 画面が表示されます。 Adobe Experience Cloudの製品アイコンを選択してから「**[!UICONTROL Audience Manager API]**」を選択し、「**[!UICONTROL Next]**」を選択します。
 
-![Audience Manager API を選択します &#x200B;](/help/using/api/rest-api-main/assets/audience-manager-api.png)。
+![Audience Manager API を選択します ](/help/using/api/rest-api-main/assets/audience-manager-api.png)。
 
 >[!TIP]
 >
->**[!UICONTROL View docs]** オプションを選択して、別のブラウザーウィンドウに移動し、完全な [Audience Manager API リファレンスドキュメント &#x200B;](https://bank.demdex.com/portal/swagger/index.html#) を参照します。
+>**[!UICONTROL View docs]** オプションを選択して、別のブラウザーウィンドウに移動し、完全な [Audience Manager API リファレンスドキュメント ](https://bank.demdex.com/portal/swagger/index.html#) を参照します。
 
 ### OAuth サーバー間認証タイプの選択 {#select-oauth-server-to-server}
 
@@ -98,13 +98,13 @@ ht-degree: 73%
 >
 >今後サポートされる方法はこれのみなので、**[!UICONTROL OAuth Server-to-Server]** の方法を選択します。 **[!UICONTROL Service Account (JWT)]** メソッドは非推奨です。 JWT 認証方法を使用した統合は 2025 年 1 月 1 日（PT）まで引き続き機能しますが、Adobeでは、その日までに既存の統合を新しい OAuth サーバー間認証方法に移行することを強くお勧めします。
 
-![OAuth 認証方法を選択します &#x200B;](/help/using/api/rest-api-main/assets/select-oauth-authentication-method.png)。
+![OAuth 認証方法を選択します ](/help/using/api/rest-api-main/assets/select-oauth-authentication-method.png)。
 
 ### 統合用の製品プロファイルの選択 {#select-product-profiles}
 
 **[!UICONTROL Configure API]** 画面で、目的の製品プロファイルを選択します。 統合のサービスアカウントでは、ここで選択した製品プロファイルを通じて、詳細な機能にアクセスできます。
 
-![&#x200B; 統合用の製品プロファイルを選択します &#x200B;](/help/using/api/rest-api-main/assets/select-product-profiles.png)。
+![ 統合用の製品プロファイルを選択します ](/help/using/api/rest-api-main/assets/select-product-profiles.png)。
 
 準備が整ったら、「**[!UICONTROL Save configured API]**」を選択します。
 
@@ -112,7 +112,7 @@ ht-degree: 73%
 
 API がプロジェクトに追加されると、Audience Manager API へのすべての呼び出しで必要な次の資格情報がプロジェクトの **[!UICONTROL Audience Manager API]** ページに表示されます。
 
-![Developer Consoleに API を追加した後の統合情報 &#x200B;](/help/using/api/rest-api-main/assets/api-integration-information.png)
+![Developer Consoleに API を追加した後の統合情報 ](/help/using/api/rest-api-main/assets/api-integration-information.png)
 
 * `{API_KEY}`（[!UICONTROL Client ID]）
 * `{ORG_ID}`（[!UICONTROL Organization ID]）
@@ -121,20 +121,20 @@ API がプロジェクトに追加されると、Audience Manager API へのす�
 
 次の手順では、Audience Manager API 呼び出しで使用する `{ACCESS_TOKEN}` 資格情報を生成します。 `{API_KEY}` と `{ORG_ID}` の値とは異なり、Audience Manager API を引き続き使用するには、新しいトークンを 24 時間ごとに生成する必要があります。 「**[!UICONTROL Generate access token]**」を選択します（下図を参照）。
 
-![&#x200B; アクセストークンの生成方法を表示 &#x200B;](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
+![ アクセストークンの生成方法を表示 ](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
 
 ## API 呼び出しのテスト {#test-api-call}
 
 認証ベアラートークンを取得したら、API 呼び出しを実行して、Audience Manager API にアクセスできることをテストします。
 
-1. [API リファレンスドキュメント &#x200B;](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_) に移動します。
-2. **[!UICONTROL Authorize]** を選択し、[&#x200B; アクセストークンを生成 &#x200B;](#generate-access-token) 手順で取得したアクセストークンを貼り付けます。
+1. [API リファレンスドキュメント ](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_) に移動します。
+2. **[!UICONTROL Authorize]** を選択し、[ アクセストークンを生成 ](#generate-access-token) 手順で取得したアクセストークンを貼り付けます。
 
-   ![API 呼び出しを許可 &#x200B;](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
+   ![API 呼び出しを許可 ](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
 
-3. `/datasources` API エンドポイントへのGET呼び出しを実行し、[API リファレンスドキュメント &#x200B;](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_) に示されているように、グローバルに使用可能なすべてのデータソースのリストを取得します。 「**[!UICONTROL Try it out]**」を選択し、次に「**[!UICONTROL Execute]**」を選択します（下図を参照）。
+3. `/datasources` API エンドポイントへのGET呼び出しを実行し、[API リファレンスドキュメント ](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_) に示されているように、グローバルに使用可能なすべてのデータソースのリストを取得します。 「**[!UICONTROL Try it out]**」を選択し、次に「**[!UICONTROL Execute]**」を選択します（下図を参照）。
 
-   ![API 呼び出しの実行 &#x200B;](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
+   ![API 呼び出しの実行 ](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
 
 
 >[!BEGINSHADEBOX]
@@ -211,7 +211,7 @@ curl -X 'GET' \
 
 >[!ENDSHADEBOX]
 
-## [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}Adobe Developerを使用した [!DNL JWT] （[!DNL Service Account]）認証 {#jwt}
+## [!BADGE  非推奨 ]{type=negative}Adobe Developerを使用した [!DNL JWT] （[!DNL Service Account]）認証 {#jwt}
 
 +++ 認証トークンを取得する、非推奨の [!DNL JWT] （[!DNL Service Account]）方式に関する情報を表示します。
 
@@ -252,12 +252,12 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 
 +++
 
-## [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative}[!DNL OAuth] 認証（非推奨） {#oauth-deprecated}
+## [!BADGE  非推奨 ]{type=negative}[!DNL OAuth] 認証（非推奨） {#oauth-deprecated}
 
 +++ 認証トークンを取得する、廃止された従来の [!DNL OAuth] 認証方法に関する情報を表示します。
 
 >[!WARNING]
-> [!DNL Audience Manager]&#x200B;[!UICONTROL REST API] 介した [!DNL OAuth 2.0] トークンの認証と更新は非推奨（廃止予定）になりました。
+> [!DNL Audience Manager][!UICONTROL REST API] 介した [!DNL OAuth 2.0] トークンの認証と更新は非推奨（廃止予定）になりました。
 >
 > 代わりに、[JWT（サービスアカウント）認証](#jwt-service-account-authentication-jwt)を使用してください。
 
@@ -270,7 +270,7 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 * [!DNL API] の呼び出し元のサービスを特定する（アドビの [!DNL API] を使用するアプリケーションからの呼び出し、または [!DNL API] 要求をおこなう他のツールからの呼び出しなど）。
 * [!DNL API] への妨げられることのないアクセスを提供する。特定ユーザーが退社すると、そのユーザーに関連するアカウントが無効になることがあります。すると、利用可能な [!DNL API] コードを使用できなくなってしまいます。特定の従業員に関連付けられていない汎用のアカウントを使用することで、この問題を回避できます。
 
-このタイプのアカウントの例やユースケースとして、[&#x200B; 一括管理ツール &#x200B;](../../reference/bulk-management-tools/bulk-management-intro.md) を使用して一度に多くのセグメントを変更するとします。 これをおこなうためには、ユーザーアカウントに [!DNL API] へのアクセス権が付与されている必要があります。特定のユーザーに対して権限を追加するのではなく、適切な資格情報、キー、および [!DNL API] 呼び出し用の暗号鍵を持つ汎用の [!DNL API] ユーザーアカウントを作成します。これは、[!DNL Audience Manager] [!DNL API] を使用する独自のアプリケーションを開発する場合にも便利です。
+このタイプのアカウントの例やユースケースとして、[ 一括管理ツール ](../../reference/bulk-management-tools/bulk-management-intro.md) を使用して一度に多くのセグメントを変更するとします。 これをおこなうためには、ユーザーアカウントに [!DNL API] へのアクセス権が付与されている必要があります。特定のユーザーに対して権限を追加するのではなく、適切な資格情報、キー、および [!DNL API] 呼び出し用の暗号鍵を持つ汎用の [!DNL API] ユーザーアカウントを作成します。これは、[!DNL Audience Manager] [!DNL API] を使用する独自のアプリケーションを開発する場合にも便利です。
 
 担当の [!DNL Audience Manager] コンサルタントにご相談のうえ、[!DNL API] 専用のユーザーアカウントの設定をおこなってください。
 
@@ -394,7 +394,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 ## [!DNL API URLs] {#api-urls}
 
-リクエストの [!DNL URLs]、ステージング環境および実稼動環境、バージョンの説明です。
+リクエストの [!DNL URLs]、ステージング環境および本番環境、バージョンの説明です。
 
 ## リクエスト [!DNL URLs] {#request-urls}
 
@@ -402,7 +402,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 使用する認証方法に応じて、次の表に従ってリクエスト [!DNL URLs] を調整する必要があります。
 
-### Adobe Developerを通じた OAuth サーバー間および [!DNL URLs] 非推奨 [!BADGE &#x200B; &#x200B;]{type=positive} 認証のリク [!BADGE &#x200B; スト &#x200B;]{type=negative} 推奨 [!DNL JWT] {#request-urls-jwt}
+### Adobe Developerを通じた OAuth サーバー間および [!DNL URLs] 非推奨 [!BADGE  ]{type=positive} 認証のリク [!BADGE  スト ]{type=negative} 推奨 [!DNL JWT] {#request-urls-jwt}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -420,7 +420,7 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 {style="table-layout:auto"}
 
-### 従来の [!DNL URLs] 認証 [!BADGE &#x200B; 非推奨 &#x200B;]{type=negative} のリクエスト [!DNL OAuth] ール {#request-urls-oauth}
+### 従来の [!DNL URLs] 認証 [!BADGE  非推奨 ]{type=negative} のリクエスト [!DNL OAuth] ール {#request-urls-oauth}
 
 | [!DNL API] メソッド | リクエスト [!DNL URL] |
 |--- |--- |
@@ -447,11 +447,11 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 | 環境 | ホスト名（[!DNL JWT] 認証） | ホスト名（[!DNL OAuth] 認証） |
 |---|---|---|
 | **実稼動** | `https://aam.adobe.io/...` | `https://api.demdex.com/...` |
-| **ベータ** | `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
+| **Beta** | `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
 
 >[!NOTE]
 >
->[!DNL Audience Manager] ベータ環境は、実稼動環境の小規模なスタンドアロンバージョンです。テストするデータはすべてこの環境で入力および収集する必要があります。
+>[!DNL Audience Manager] Beta 環境は、本番環境の小規模なスタンドアロンバージョンです。テストするデータはすべてこの環境で入力および収集する必要があります。
 
 ## バージョン {#versions}
 
