@@ -101,7 +101,7 @@ t_working_with_trend_reports.xml
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
-[Audience Managerのクロスデバイス指標について ](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Audience Managerのクロスデバイス指標について &#x200B;](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## セグメントに関するトレンドレポートの結果 {#segment-report-results-traits}
 

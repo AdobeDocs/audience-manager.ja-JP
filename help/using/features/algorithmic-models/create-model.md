@@ -52,7 +52,7 @@ ht-degree: 98%
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
-[Audience Managerのクロスデバイス指標について ](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Audience Managerのクロスデバイス指標について &#x200B;](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## アルゴリズムの基本情報 {#basic-information}
 
