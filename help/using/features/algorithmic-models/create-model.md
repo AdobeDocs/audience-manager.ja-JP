@@ -8,10 +8,10 @@ title: アルゴリズムモデルの作成
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 6956793aa8d31d16a7add648b8d205dec6f75202
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=ja)
+[Audience Managerのクロスデバイス指標について ](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## アルゴリズムの基本情報 {#basic-information}
 
@@ -111,7 +111,7 @@ ht-degree: 100%
 
 ファーストパーティの類似（look-alike）モデルを作成し、コンバーターに似た独自の訪問者をより多く見つける方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/328275?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
