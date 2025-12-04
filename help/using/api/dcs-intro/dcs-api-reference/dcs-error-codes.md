@@ -181,7 +181,7 @@ ht-degree: 91%
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace. 名前空間 ID は <code><i>ID</i></code>、顧客 ID は <code><i>ID</i></code> です。 </p> </td> 
-   <td colname="col3"> <p>このエラーコードが返されるのは、1 回の <code> DPID</code>DCS<span class="wintitle"> 呼び出しで同じ名前空間（</span>）に 4 個以上の顧客 ID が宣言されている場合です。 </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>このサンプル <span class="wintitle">DCS</span> 要求では、同じ名前空間に（統合コード one で）4 個の ID が宣言されています。これらの ID の 1 つが破棄され、エラー 310 が返されます。 </p> </td> 
+   <td colname="col3"> <p>このエラーコードが返されるのは、1 回の <code> DPID</code>DCS<span class="wintitle"> 呼び出しで同じ名前空間（</span>）に 4 個以上の顧客 ID が宣言されている場合です。 </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>このサンプル <span class="wintitle">DCS</span> 要求では、同じ名前空間に（統合コード one で）4 個の ID が宣言されています。これらの ID の 1 つが破棄され、エラー 310 が返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ ht-degree: 91%
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Request contains an invalid Global Device ID </p> </td> 
    <td colname="col3"> <p><span class="wintitle">DCS</span> がこのエラーコードを返すのは、要求に無効なグローバルデバイス ID が含まれている場合です。DCS は無効な ID を無視し、この無効な ID に関するエラーとあわせて 312 エラーをスローします。適切なデバイス広告 ID の形式および対応するグローバルデータソースについて詳しくは、<a href="../../../features/global-data-sources.md" format="dita" scope="local">グローバルデータソース</a>および <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Audience Manager の ID のインデックス</a>を参照してください。</p>
-   <p>不正な呼び出しの例： <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>不正な呼び出しの例： <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>説明：<span class="keyword">IDFA（DPID 20915）</span>は大文字の ID である必要がありますが、例の要求では ID を小文字で指定しています。</p>
    </td>
   </tr>
