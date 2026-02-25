@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [!UICONTROL RESTful APIs] を使用すると、[!DNL Audience Manager] をプログラムで操作できます。
 
-[!DNL Audience Manager][!DNL REST API] では、送受信するデータを書式設定するための [!DNL JavaScript Object Notation]（[JSON](https://www.json.org/)）基準に従います。[!DNL JSON] の主なメリットは、開発者およびマシンによる [!DNL API] クエリの書き込み、読み取り、解析が容易になることです。
+[!DNL Audience Manager]&#x200B;[!DNL REST API] では、送受信するデータを書式設定するための [!DNL JavaScript Object Notation]（[JSON](https://www.json.org/)）基準に従います。[!DNL JSON] の主なメリットは、開発者およびマシンによる [!DNL API] クエリの書き込み、読み取り、解析が容易になることです。
 
 作業をさらに簡素化するために、アドビでは、[!DNL REST APIs] を [Swagger](https://swagger.io/solutions/api-documentation/) へと移行中です。詳しくは、[Audience Manager API コードの移行](/help/using/api/api-swagger-migration.md)を参照してください。
 
