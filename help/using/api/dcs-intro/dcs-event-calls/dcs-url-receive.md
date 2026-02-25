@@ -47,7 +47,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 ## 応答パラメーター {#response-parameters}
 
-[!DNL DCS] からの応答でよく見かけるパラメーターを、それぞれ次の表で定義します。これは、イベント呼び出しや、データを返すその他の [!DNL DCS][!DNL API] クエリに当てはまります。
+[!DNL DCS] からの応答でよく見かけるパラメーターを、それぞれ次の表で定義します。これは、イベント呼び出しや、データを返すその他の [!DNL DCS]&#x200B;[!DNL API] クエリに当てはまります。
 
 | パラメーター | 説明 |
 |--- |--- |
