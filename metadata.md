@@ -8,8 +8,8 @@ type: Documentation
 tutorials-title: Tutorials
 tutorials-url: https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/audience-manager.ja-JP
-index: y
-source-git-commit: b7a329127e83e5aa86c936311a0ef6f5e776cd92
+index: true
+source-git-commit: 28194066af20afb1292c91621a73654fc5c9218f
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
