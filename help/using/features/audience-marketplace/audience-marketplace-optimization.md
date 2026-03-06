@@ -4,9 +4,8 @@ solution: Audience Manager
 title: Audience Marketplaceの最適化
 feature: Audience Marketplace
 hide: true
-hidefromtoc: true
 exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
-source-git-commit: 824d379e0b2b0e7a4239448a4327a258edd1af01
+source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 1%
