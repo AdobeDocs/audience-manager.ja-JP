@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
 user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
 workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 93%
@@ -66,7 +66,7 @@ ht-degree: 93%
       + [Audience Lab の高度な機能](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + [Audience Marketplaceの最適化](features/audience-marketplace/audience-marketplace-optimization.md)
+      + [hide-from-tocAudience Marketplaceの最適化 &#x200B;](features/audience-marketplace/audience-marketplace-optimization.md)
       + データプロバイダー向けの Audience Marketplace{#audience-marketplace-for-data-providers}
          + [データプロバイダー向けの Audience Marketplace](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [データフィードの作成、価格設定および管理](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
@@ -245,7 +245,7 @@ ht-degree: 93%
          + [DCS API リファレンスの概要](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS API メソッド](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS エラーコード、メッセージ、例](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [ID の監視とブロックリストへの登録](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [ID のモニタリングと拒否リストへの登録](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [DCS の地域 ID、場所、ホスト名](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [DCS 呼び出しでのキー値ペアの形式](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [競合状態とエラー処理](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
