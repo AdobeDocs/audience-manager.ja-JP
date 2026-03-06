@@ -5,7 +5,7 @@ title: Audience Marketplaceの最適化
 feature: Audience Marketplace
 hide: true
 exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
-source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
+source-git-commit: beb428b3d9f89bbd52b24da669a73cf5703172b5
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 1%
@@ -120,3 +120,4 @@ Adobeに連絡する場合は、次を含めてください。
 ### 変更はいつ有効になりますか？
 
 削除対象として選択したデータプロバイダーは、2025 年 8 月に削除されます。
+
