@@ -7,7 +7,7 @@ title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 97%
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 c_general_reports.xml
 
- -->
+-->
 
 [!DNL Audience Manager] は[!UICONTROL Role Based Access Control]（[!UICONTROL RBAC]）を使用して、[!UICONTROL General]レポートへのユーザーグループ権限を拡張します。ユーザーは、レポートに記載されている特性やセグメントのうち、閲覧する権限のあるものだけを表示できます。[!UICONTROL RBAC] 機能により、社内チームが閲覧できるレポートデータを制御することができます。例えば、様々な広告主アカウントを管理する代理店では、広告主 A のアカウントを管理するチームが広告主 B のレポートデータを閲覧できないように、ユーザーグループの権限を設定することができます。
 
@@ -59,7 +59,7 @@ c_general_reports.xml
 
 t_run_general_report.xml
 
- -->
+-->
 
 1. **[!UICONTROL Analytics]** ダッシュボードで、「**[!UICONTROL General Reports]**」をクリックします。
 1. 「**[!UICONTROL Report Type]**」ドロップダウンリストで、目的のタイプ（特性、セグメント、宛先）を選択します。
@@ -118,10 +118,10 @@ This metric represents the total amount of trait fires for the trait in your sel
 
 This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
 
-The illustration below shows the results of running a general report for the Trait report type. -->
-<!-- 
-![](assets/general_reports_metrics.png) -->
+The illustration below shows the results of running a general report for the Trait report type. 
 
+![](assets/general_reports_metrics.png)
+-->
 
 ## セグメントの一般レポートの結果 {#general-report-results-segments}
 
@@ -137,7 +137,7 @@ The illustration below shows the results of running a general report for the Tra
 
 >[!NOTE]
 >
->アクティブ化された宛先のセグメント母集団の内訳を表示するには、「**[!UICONTROL Include Destination Mappings]**」を選択します。
+>アクティブ化された宛先のセグメント母集団の分類を表示するには、「**[!UICONTROL Include Destination Mappings]**」を選択します。
 
 次の図は、Segment レポートタイプの一般レポートを実行した結果を示しています。
 

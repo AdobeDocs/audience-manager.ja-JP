@@ -8,7 +8,7 @@ title: '顧客データのインバウンドの取得に関するよくある質
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 98%
@@ -48,7 +48,7 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 **圧縮または暗号化ファイルの転送には、どの FTP モードを使用するとよいですか？**
 
-[&#x200B; 受信データ転送ファイルのファイル圧縮 &#x200B;](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
+[ 受信データ転送ファイルのファイル圧縮 ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
 
 >[!WARNING]
 >
@@ -65,7 +65,7 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 <br> 
 
-<!---
+<!--
 * If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
 
 * If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.
@@ -195,7 +195,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 **毎日のデータファイルはどのくらいの大きさになりますか？**
 
-[&#x200B; 受信データ転送ファイルのファイル圧縮 &#x200B;](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
+[ 受信データ転送ファイルのファイル圧縮 ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
 
  
 

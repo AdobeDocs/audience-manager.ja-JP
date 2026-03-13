@@ -7,7 +7,7 @@ title: 宛先の GDPR に関する考慮事項
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 feature: Data Governance & Privacy
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 96%
@@ -20,7 +20,8 @@ ht-degree: 96%
 
 アドビパートナーには独自のビジネスプロセスがあり、時には Audience Manager との統合要件の更新を決定することもあります。アドビでは、Audience Manager パートナーエコシステムと積極的に協力して、お客様に変更を絶えずお知らせしています。
 
-<!-- ## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
+<!--
+## Audience Manager Partner Updates - ID Syncs {#partner-updates-id-syncs}
 
 Some partners, as listed in the table below, have changed their integration requirements with Audience Manager to include support based on the IAB Framework, in order to comply with GDPR standards.
 
@@ -54,7 +55,8 @@ Some partners, as listed in the table below, have changed their integration requ
    <td colname="col3"> <p>Not live yet </p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Audience Manager ユーザーインターフェイスの更新 – Yahoo/Oath/DataX との統合 {#ui-update}
 
