@@ -48,7 +48,7 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 **圧縮または暗号化ファイルの転送には、どの FTP モードを使用するとよいですか？**
 
-[ 受信データ転送ファイルのファイル圧縮 ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
+[&#x200B; 受信データ転送ファイルのファイル圧縮 &#x200B;](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
 
 >[!WARNING]
 >
@@ -195,7 +195,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 **毎日のデータファイルはどのくらいの大きさになりますか？**
 
-[ 受信データ転送ファイルのファイル圧縮 ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
+[&#x200B; 受信データ転送ファイルのファイル圧縮 &#x200B;](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) を参照してください。
 
  
 
