@@ -7,7 +7,7 @@ title: 外部デバイスグラフのユースケース
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
@@ -27,6 +27,7 @@ ht-degree: 100%
 * 認証済みまたは未認証の訪問者を個人レベルまたは団体レベルでセグメント化する。
 
 ![](assets/merge-rule-triangle1.png)
+
 <!-- 
 ## Prospecting/Branding Use Case {#prospecting-branding-use-cases}
 
@@ -94,9 +95,11 @@ These strategies are designed to bring an unauthenticated or unknown user back t
      </ul> </p> </td>
   </tr>
  </tbody>
-</table> -->
+</table> 
+-->
 
-<!-- ## Expanded Device Targeting {#audience-expansion}
+<!--
+## Expanded Device Targeting {#audience-expansion}
 
 This use case exemplifies how you can expand the size of your addressable audience with accurate cross-device personalization, through [!DNL External Device Graphs].
 
@@ -110,7 +113,8 @@ In our example, the traits required to qualify for the segment have all been col
 
 Through this rule, the device graph has expanded the number of device profiles which qualify for the segment from one to three and has enabled the travel agency to deliver a consistent message to all three devices owned by Jane.
 
-![audience-expansion](assets/audience-expansion.png) -->
+![audience-expansion](assets/audience-expansion.png) 
+-->
 
 ## 高度なクロスデバイスターゲティング {#advanced-graph-expansion}
 
