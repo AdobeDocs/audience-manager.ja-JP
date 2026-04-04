@@ -24,7 +24,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 * [Experience Cloud ヘルプページでのアドバイス、ヒントおよび FAQ の確認](https://helpx.adobe.com/jp/support.ec.html)
 * [Twitter（@AdobeExpCare）での簡単な質問の問い合わせ（英語のみ）](https://twitter.com/AdobeExpCare)
 * [カスタマーケアチームに直接連絡](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-* [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/)
+* [Experience Cloud の各ソリューションの入手可否とステータスの確認](https://status.adobe.com/ja-jp/)
 
 ## サービス、利用可能な機能、課金 {#billing}
 
@@ -38,4 +38,4 @@ Published by Adobe Systems Incorporated.
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners.Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_jp](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners.Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_jp](https://www.adobe.com/jp/products/eula/third_party/).
