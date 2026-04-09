@@ -8,10 +8,19 @@ uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
 TQID: https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: a99472c1-6aae-4c7a-8aa0-f60636369620
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 988
@@ -80,7 +89,7 @@ Adobe Audience Manager は、S2S オンボードデータファイルをアド�
 
 HTTPS を使用した **[!UICONTROL Amazon Web Services S3]：** S3 配信オプションの場合、アドビでは、ファイル転送に HTTPS 暗号化メソッドを使用するように S3 クライアントを設定することを、すべてのお客様にお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
 
-データファイルにPGP暗号化を追加するには、[ インバウンドデータタイプのファイル PGP暗号化](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)を参照してください。
+データファイルにPGP暗号化を追加するには、[&#x200B; インバウンドデータタイプのファイル PGP暗号化](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)を参照してください。
 
 ## エスケープによるデータの保護 {#escaping-data}
 

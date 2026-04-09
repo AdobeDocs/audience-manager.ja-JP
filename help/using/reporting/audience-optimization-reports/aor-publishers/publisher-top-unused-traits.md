@@ -8,8 +8,12 @@ uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: Audience Optimization Reports
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
 TQID: https://experienceleague.adobe.com/S2W1PhrZYTaScv7A9Y9OXDpCAXT-U4etuE32MnabUho
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 619

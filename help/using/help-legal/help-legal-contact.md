@@ -7,8 +7,10 @@ title: 連絡先情報および法的事項
 feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
 TQID: https://experienceleague.adobe.com/HpTQDl5UkJ1KoyqBYUIZe4zphM9Y5NgGoSii1zNWIpw
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 243

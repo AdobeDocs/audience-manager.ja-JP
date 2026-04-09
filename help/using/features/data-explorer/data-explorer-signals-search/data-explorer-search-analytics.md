@@ -7,7 +7,8 @@ uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 exl-id: 5a66623b-4d24-4f52-ba26-b59750d25f2c
 TQID: https://experienceleague.adobe.com/-ml-cMnAI9yYhzIVC5OULFnCS4rPdj4RVqBvkm-jrYg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 209

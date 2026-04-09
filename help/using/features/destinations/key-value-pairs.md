@@ -6,9 +6,13 @@ uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Destination Basics
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 TQID: https://experienceleague.adobe.com/9ko-qnTZoXaeSUeoF5CIpfCjaPOct0Aa95P-leozV0Y
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 560

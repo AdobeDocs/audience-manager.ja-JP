@@ -5,9 +5,14 @@ uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
 TQID: https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1519
@@ -137,7 +142,7 @@ ht-degree: 75%
 | --- | --- | --- |
 | 300 | 無効な顧客ID `_ID_` | 顧客 ID が無効です（データソースの値がない、統合コードがない、データソースの形式が無効、顧客 ID がブロックされている、顧客 ID が未指定、パートナーの管理下にないデータソースに不正にアクセスしようとしている、など）。 |
 | 301 | Maximum number of customer ids exceeded.許可される最大値は`_maximum allowed_`です。 Found is `_maximum found_`. | クロスデバイス対応データソースに関連付けられている顧客 ID の数が、要求あたりのクロスデバイス ID 数の上限を超えています。このような ID にはクロスデバイス ID、モバイル ID、Cookie ID などがあります。上限は現在 10 に設定されています。 |
-| 302 | 未認証の顧客ID `_ID_` | 顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織IDがわからない場合や、組織IDがない場合は、[組織とアカウントリンク ](https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html)の「組織IDの検索」の節で、その検索方法について説明しています。 |
+| 302 | 未認証の顧客ID `_ID_` | 顧客 ID データソースが現在の組織 ID に所有されていない場合に返されます。組織IDがわからない場合や、組織IDがない場合は、[組織とアカウントリンク &#x200B;](https://experiencecloud.adobe.com/resources/help/ja_JP/mcloud/organizations.html)の「組織IDの検索」の節で、その検索方法について説明しています。 |
 | 303 | ブロックされた顧客ID `_ID_` | 顧客 ID が悪意のある ID と見なされてブロックリストに追加されている場合に返されます。 |
 | 304 | ブロックされたデータソース ID `_ID_` | データソース ID が悪意のある ID と見なされてブロックリストに追加されている場合に返されます |
 | 306 | ブロックされた宣言済みデバイス ID `_ID_` | デバイス IDが悪意のあるものと認識され、デバイス IDがデバイス IDに追加されました。この問題は、このデバイス IDを含むDCS リクエストを短時間で大量に受け取った場合に発生する可能性があります。 |

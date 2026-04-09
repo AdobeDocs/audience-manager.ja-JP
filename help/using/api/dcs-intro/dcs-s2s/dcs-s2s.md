@@ -8,10 +8,14 @@ uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
 exl-id: fd23d5e2-b74e-47ff-a4aa-3a4b2c7d39c5
 TQID: https://experienceleague.adobe.com/lXTSMwju5lxRhrz0VpOlxbHLa2POAQHGOIzzP3j980s
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 296

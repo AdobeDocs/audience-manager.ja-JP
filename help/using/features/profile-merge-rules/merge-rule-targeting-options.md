@@ -8,9 +8,12 @@ uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
 TQID: https://experienceleague.adobe.com/Qk5jO5i-HgjV75z0--cXzgv7hMbS-s6sEyanGqy8m9I
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 894
@@ -84,7 +87,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 ## デバイスグラフオプション {#device-graph-options}
 
-[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。特定のユースケースについては、[ プロファイルリンクデバイスグラフのユースケース ](profile-link-use-case.md)および[外部デバイスグラフのユースケース ](external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。特定のユースケースについては、[&#x200B; プロファイルリンクデバイスグラフのユースケース &#x200B;](profile-link-use-case.md)および[外部デバイスグラフのユースケース &#x200B;](external-graph-use-cases.md)を参照してください。
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -122,5 +125,5 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 >[!MORELIKETHIS]
 >
 >* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
->* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
+>* [&#x200B; 外部デバイスグラフのユースケース](external-graph-use-cases.md)
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)

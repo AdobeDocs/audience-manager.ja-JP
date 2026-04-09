@@ -8,8 +8,10 @@ uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 exl-id: 67fe0c74-6831-48cb-90cf-417ebbf7f272
 TQID: https://experienceleague.adobe.com/ZFh2JkTwcvUpYePMLiQa2BsMV9D27BtilfEIHYBXaIU
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 317

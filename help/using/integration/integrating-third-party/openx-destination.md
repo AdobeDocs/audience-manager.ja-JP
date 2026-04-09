@@ -8,10 +8,17 @@ uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third-party Integration
 exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
 TQID: https://experienceleague.adobe.com/67hm8M7jiloQBgDcJG3fRPZueDPrJPDhfPI69z-ZOZg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: e7029888-c8b0-46a7-849a-cf132a1559bf
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 681
@@ -35,7 +42,7 @@ ht-degree: 96%
 
 Audience Manager の宛先として [!DNL OpenX] を設定する前に、以下を確認してください。
 
-* **[!UICONTROL DIL]：**[!UICONTROL Data Integration Library] コードをサイトにデプロイする必要があります。[!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
+* **[!UICONTROL DIL]：**&#x200B;[!UICONTROL Data Integration Library] コードをサイトにデプロイする必要があります。[!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。
 * **`get_aamCookie`関数：** Audience Manager のユーザー ID および Cookie データを取得するためのコード。[このコード](../../features/destinations/get-aam-cookie-code.md)をページの先頭または `<head>` コードブロック内に配置します。
 * **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。データは raw 形式でもかまいませんが、各レコードには Audience Manager `UUID` が含まれている必要があります。Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 

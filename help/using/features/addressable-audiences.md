@@ -9,10 +9,26 @@ uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Match Rates
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
 TQID: https://experienceleague.adobe.com/kXtuVVcN9CH-pTICWdyfa8ast-zgf4zf61su39blynE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: b82b475d-1e7d-46c6-9172-1f9c73004b11id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ecid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: c8bc25a4-94eb-4dcd-b377-9328026b8b06id: d3dfac44-e20d-492d-a806-0f4a4a495901id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8id: f8c1669e-86ba-49c4-b622-9dfa07854df8id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+  - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1831
@@ -63,9 +79,9 @@ ht-degree: 99%
 
 このデータは以下の目的に使用できます。
 
-* **予測と計画：**[!UICONTROL Segment Addressable Audience]データは、オーディエンスのターゲティングおよびアクティベーションをおこなうために、宛先に送ろうとしているセグメントに関する、より詳細な情報を提供します。
+* **予測と計画：**&#x200B;[!UICONTROL Segment Addressable Audience]データは、オーディエンスのターゲティングおよびアクティベーションをおこなうために、宛先に送ろうとしているセグメントに関する、より詳細な情報を提供します。
 
-* **パフォーマンスのレビュー：**[!UICONTROL Addressable Audiences]機能は、トラブルシューティングのツールでもあります。キャンペーンのパフォーマンスをレビューしてキャンペーンでリーチできた範囲を把握し、期待した結果が得られなかった場合は、ターゲティング／アクティベーションパートナーも含めて多角的に確認することができます。
+* **パフォーマンスのレビュー：**&#x200B;[!UICONTROL Addressable Audiences]機能は、トラブルシューティングのツールでもあります。キャンペーンのパフォーマンスをレビューしてキャンペーンでリーチできた範囲を把握し、期待した結果が得られなかった場合は、ターゲティング／アクティベーションパートナーも含めて多角的に確認することができます。
 
 ### サードパーティデータの予測およびマッチ率に対する示唆
 

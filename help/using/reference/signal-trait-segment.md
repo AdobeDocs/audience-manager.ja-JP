@@ -9,8 +9,10 @@ uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
 TQID: https://experienceleague.adobe.com/brgTl8YZ3RYaFcWdImO1i3Jsxulp6-HYbiN45B7un-4
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 393

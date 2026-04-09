@@ -8,9 +8,16 @@ uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
 TQID: https://experienceleague.adobe.com/V7m-uiRhNEiGDi5x-Uxy51qm-RneyvCC4Ufl9Ue8xB4
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 994
@@ -26,7 +33,7 @@ ht-degree: 94%
 
 適切な名前と形式のデータファイルを使用すると、インプレッション、クリック、コンバージョンのいずれかのデータを [Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)にインポートできます。これは、[!DNL Audience Manager] と統合されていないパートナーのデータを同レポートスイートで扱う場合に役に立ちます。このプロセスには、インプレッション、クリック、コンバージョンのデータごとに別個のファイルが必要です。これらのイベントを単一のファイルに混在させないでください。
 
-データファイルには、メタデータファイルが付いている必要があります。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[ メタデータファイルの概要とマッピング ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
+データファイルには、メタデータファイルが付いている必要があります。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[&#x200B; メタデータファイルの概要とマッピング &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
 
 ## データファイルの命名規則 {#naming-conventions}
 
@@ -205,4 +212,4 @@ ht-degree: 94%
 
 ## 次の手順 {#next-steps}
 
-メタデータファイルの命名と作成の要件を確認します。開始するには、[ メタデータファイルの概要とマッピング ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
+メタデータファイルの命名と作成の要件を確認します。開始するには、[&#x200B; メタデータファイルの概要とマッピング &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。

@@ -8,8 +8,10 @@ uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 feature: Profile Merge
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
 TQID: https://experienceleague.adobe.com/q6PDlsUmoj1tJ8DL1GMjDcS6S5rgO0PKP4RfhqxkAYI
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 302
@@ -51,6 +53,6 @@ Audience Manager は、1 つのセグメントに対し、プロファイルの�
 
 >[!MORELIKETHIS]
 >
->* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
+>* [&#x200B; 外部デバイスグラフのユースケース](external-graph-use-cases.md)
 >* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)

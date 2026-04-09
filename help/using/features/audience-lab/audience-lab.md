@@ -8,10 +8,15 @@ uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
 exl-id: b7fbeb03-52aa-4489-8fcb-45bc2d26621d
 TQID: https://experienceleague.adobe.com/jQ6ZtphEuAY-bL5A6rnH79ORuu80ioClEy7W-nXkbNg
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 549
@@ -25,7 +30,7 @@ ht-degree: 95%
 
 ## 概要 {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] では、[プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md)を使用することで、複数のデバイスにまたがってテストを実行できます。これにより、ユーザーはすべてのデバイスにわたって同じテストセグメントに適合し、同じ処理がおこなわれるようになります。テストグループ内のテストセグメントは、ベースセグメントが割り当てた[ プロファイル結合ルール ](../../features/profile-merge-rules/merge-rules-dashboard.md)を継承します。
+[!UICONTROL Audience Lab] では、[プロファイルリンク](../../features/profile-merge-rules/merge-rules-overview.md)を使用することで、複数のデバイスにまたがってテストを実行できます。これにより、ユーザーはすべてのデバイスにわたって同じテストセグメントに適合し、同じ処理がおこなわれるようになります。テストグループ内のテストセグメントは、ベースセグメントが割り当てた[&#x200B; プロファイル結合ルール &#x200B;](../../features/profile-merge-rules/merge-rules-dashboard.md)を継承します。
 
 [!UICONTROL Audience Lab] のデフォルトビューには、各テストグループのカードが表示されます。カードをクリックして、**[!UICONTROL Test Group]** ビューにアクセスします。このビューには、以下の情報が含まれています。
 

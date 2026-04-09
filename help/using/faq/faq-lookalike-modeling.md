@@ -7,9 +7,12 @@ title: 類似（look-alike）モデリングに関するよくある質問
 feature: Algorithmic Models
 exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
 TQID: https://experienceleague.adobe.com/58qJ-kOjZpnw8HWH2oC8GfkuguHBNarWfHjx-EK-NI0
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2: id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 420

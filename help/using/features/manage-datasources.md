@@ -9,10 +9,15 @@ uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
 TQID: https://experienceleague.adobe.com/ffRcCmzJX4WW0nTvEALBrE1Sm-b9Fl7Wj2heT-uNIx0
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 403
@@ -42,7 +47,7 @@ ht-degree: 69%
    * [クロスデバイス対応データソースを作成](../features/profile-merge-rules/merge-rules-start.md#create-data-source)する。
    * [Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を使用する。
    * [プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を使用する。
-1. **[!UICONTROL Namespace]** （読み取り専用）：このフィールドは読み取り専用で、データソースの保存時に自動的に生成されます。 Audience ManagerからExperience Platformにセグメントを書き出す場合は、自動生成された値をExperience Platformの名前空間[ID シンボル ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces)として使用して、対応する[ID名前空間](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace)をExperience Platformで作成する必要があります。
+1. **[!UICONTROL Namespace]** （読み取り専用）：このフィールドは読み取り専用で、データソースの保存時に自動的に生成されます。 Audience ManagerからExperience Platformにセグメントを書き出す場合は、自動生成された値をExperience Platformの名前空間[ID シンボル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#manage-namespaces)として使用して、対応する[ID名前空間](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace)をExperience Platformで作成する必要があります。
 1. **[!UICONTROL ID Type]**：このデータソースに含まれるIDの種類を選択してください：
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**

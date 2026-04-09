@@ -3,9 +3,14 @@ title: Audience Manager タグ拡張機能からWeb SDK タグ拡張機能への
 description: Audience Managerのデータ収集ライブラリをAudience Manager タグ拡張機能からWeb SDK タグ拡張機能に更新する手順について説明します
 exl-id: 7f0486db-4511-4311-90df-290580fdcd78
 TQID: https://experienceleague.adobe.com/onqgwnCIZMdiZz6nGRWy7bpbXpMF1zizqyQOQjSkGTc
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1309
@@ -17,7 +22,7 @@ ht-degree: 0%
 
 ## 対象オーディエンス
 
-このページは、[Audience Manager タグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview)を使用してweb コレクションデータをAudience Managerに取り込むAudience Managerのお客様向けです。 AppMeasurement JavaScript ライブラリを使用しているお客様は、Audience Managerのデータ収集ライブラリを[AppMeasurement JavaScript ライブラリからWeb SDK JavaScript ライブラリ ](appmeasurement-to-web-sdk.md)に更新する方法に関するガイドをお読みください。
+このページは、[Audience Manager タグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview)を使用してweb コレクションデータをAudience Managerに取り込むAudience Managerのお客様向けです。 AppMeasurement JavaScript ライブラリを使用しているお客様は、Audience Managerのデータ収集ライブラリを[AppMeasurement JavaScript ライブラリからWeb SDK JavaScript ライブラリ &#x200B;](appmeasurement-to-web-sdk.md)に更新する方法に関するガイドをお読みください。
 
 ## この実装パスの利点と欠点
 
@@ -62,11 +67,11 @@ Adobe Experience Platform Data Collectionでデータストリームを作成す
 1. 上部の&#x200B;**[!UICONTROL Catalog]**&#x200B;を選択すると、使用可能なすべての拡張機能のリストが表示されます。
 1. **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;拡張機能を検索して選択し、右側の&#x200B;**[!UICONTROL Install]**&#x200B;を選択します。
 
-   ![ カタログ ](assets/catalog.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; カタログ &#x200B;](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. 拡張機能の設定が表示されます。 **[!UICONTROL Datastreams]** セクションを探し、使用しているサンドボックスと、前の手順で作成したデータストリームを選択します。
 
-   ![ データストリームの選択](assets/datastream-select.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; データストリームの選択](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. **[!UICONTROL Save]**&#x200B;を選択します。
 
@@ -90,7 +95,7 @@ Adobe Experience Platform Data Collectionでデータストリームを作成す
    * **[!UICONTROL Solution]**：[!UICONTROL Adobe Audience Manager]
 1. **[!UICONTROL Save]**&#x200B;を選択します。
 
-   ![ データ要素の作成](assets/create-data-element.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; データ要素の作成](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 タグプロパティには、各ルールの更新に必要なあらゆる情報が含まれています。
 

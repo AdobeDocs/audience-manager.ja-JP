@@ -8,10 +8,15 @@ uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 feature: Overlap Reports
 exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 TQID: https://experienceleague.adobe.com/0AE4fjrc4tuDVpIqdqtYbEcS2feeO4hdNwMFf6SVoVU
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2: id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 360

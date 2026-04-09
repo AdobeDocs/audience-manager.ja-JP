@@ -8,10 +8,14 @@ uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 feature: DCS
 exl-id: 7eb0ce70-5871-441a-920a-97a711482dde
 TQID: https://experienceleague.adobe.com/HYo7px3KGsoBVDcJDXZbX0lrbLW2YunUY265BUdGous
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 227
@@ -32,7 +36,7 @@ ht-degree: 96%
 * 呼び出しのデータ要素を所定の形式どおりに設定する。
 * [!DNL DCS] から返されるパラメーターを理解する。
 
-開始するには、この後の各節を参照してください。[ データをDCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)に送信から開始します。 を参照し、次に、[DCS からのデータ受信](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)を参照してください。
+開始するには、この後の各節を参照してください。[&#x200B; データをDCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)に送信から開始します。 を参照し、次に、[DCS からのデータ受信](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)を参照してください。
 
 * [DCS へのデータ送信](dcs-url-send.md)
 * [DCS からのデータ受信](dcs-url-receive.md)

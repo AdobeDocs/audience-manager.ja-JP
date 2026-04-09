@@ -9,10 +9,17 @@ uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
 TQID: https://experienceleague.adobe.com/7Jd2lUzJ-blClVnsnYVb9fZZzkaZkQlHjjBbECMmYUc
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1151
@@ -63,7 +70,7 @@ ht-degree: 99%
 
 ## オプトアウト呼び出し {#opt-out-calls}
 
-[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager][!DNL Audience Manager] がオプトアウトリクエストを受信すると、[!DNL DCS] から返される [!DNL JSON] には、[!DNL Audience Manager] ユーザー ID ではなく、エラーコード 171 と「`Encountered opt out tag`」というメッセージが含まれています。
+[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]&#x200B;[!DNL Audience Manager] がオプトアウトリクエストを受信すると、[!DNL DCS] から返される [!DNL JSON] には、[!DNL Audience Manager] ユーザー ID ではなく、エラーコード 171 と「`Encountered opt out tag`」というメッセージが含まれています。
 
 * [!DNL Audience Manager] では、[!DNL URL] で [!DNL Audience Manager] [!UICONTROL UUID] と一緒に [!UICONTROL declared ID] のオプトアウトを渡すことができます。
 * [!UICONTROL declared ID] オプトアウトは、パートナーごとに [!UICONTROL Profile Cache Server]（[!UICONTROL PCS]）に保存されます。[!UICONTROL declared IDs] を使用したプラットフォームレベルのオプトアウトはありません。さらに、[!DNL Audience Manager] では、特定の地域からのみユーザーをオプトアウトします（オプトアウトは複数の [!DNL DCS] 地域をまたぐことはありません）。
@@ -280,7 +287,7 @@ myCallback({
 
 ## ターゲットからの除外 {#do-not-target}
 
-[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager][!DNL Audience Manager] がオプトアウトリクエストを受け取ると、[!DNL DCS] は [!DNL Audience Manager] ユーザー ID ではなく空の [!DNL JSON] オブジェクトを返します。
+[!UICONTROL declared ID] の処理では、サイト訪問者の環境設定に従って、 によるターゲティングを Web サイトでオプトアウトすることができます。[!DNL Audience Manager]&#x200B;[!DNL Audience Manager] がオプトアウトリクエストを受け取ると、[!DNL DCS] は [!DNL Audience Manager] ユーザー ID ではなく空の [!DNL JSON] オブジェクトを返します。
 
 >[!MORELIKETHIS]
 >

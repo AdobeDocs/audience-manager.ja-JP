@@ -7,9 +7,13 @@ title: URL の宛先の設定
 feature: Destination Basics
 exl-id: b5af87c9-4460-43a7-9808-242eac876c39
 TQID: https://experienceleague.adobe.com/--3mSis3KSVJwDsfQ0-6AZPRL7den1HX5Cf7ovnWPpI
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 487
@@ -53,7 +57,7 @@ ht-degree: 97%
 このセクションには、[!DNL URL] 文字列で渡すベース と [!DNL URL] 文字列で渡すデータ区切り文字を設定できるオプションが含まれています。このセクションはオプションです。このセクションを完了するには：
 
 1. 「**[!UICONTROL Configuration]**」をクリックして、コントロールを表示します。
-1. *（オプション）***[!UICONTROL Serialize]** チェックボックスを選択します。これで、セグメントごとに別個に呼び出しをおこなうのではなく、セグメントを連続して[!DNL destination]に送信できます。シリアル化はデータ転送の効率化に役立ちます。このチェックボックスを選択すると、URL と区切り文字のフィールドが表示されます。詳しくは、[標準とシリアル キーと値のペア ](../../features/destinations/key-value-pairs.md)を参照してください。
+1. *（オプション）***[!UICONTROL Serialize]** チェックボックスを選択します。これで、セグメントごとに別個に呼び出しをおこなうのではなく、セグメントを連続して[!DNL destination]に送信できます。シリアル化はデータ転送の効率化に役立ちます。このチェックボックスを選択すると、URL と区切り文字のフィールドが表示されます。詳しくは、[標準とシリアル キーと値のペア &#x200B;](../../features/destinations/key-value-pairs.md)を参照してください。
 1. **[!UICONTROL Serialize]** を選択した場合は、下記の URL フィールドと区切り文字フィールドも設定する必要があります。
 
 | フィールド | 説明 |

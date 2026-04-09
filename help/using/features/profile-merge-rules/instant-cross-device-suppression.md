@@ -7,9 +7,14 @@ uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
 TQID: https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 778
@@ -35,7 +40,7 @@ ht-degree: 85%
 既にコンバージョン済み（製品の購入、サブスクリプションの取得など）のユーザーに、コンバージョン前と同じメッセージが表示されないようにします。 次のように、[!UICONTROL AND NOT] ロジックを使用してこれを実現できます。
 
 1. 次の図に示すように、2 つの特性を使用するセグメントを作成し、[!UICONTROL AND NOT] ロジックを使用します。ルールベースの特性を使用して、セグメント化解除がリアルタイムに起動されるようにコンバージョンイベントを定義する必要があります。ルールベースの特性を[作成する方法について詳しくは、こちらを参照してください](../traits/create-onboarded-rule-based-traits.md)。
-2. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。[ サーバー間の宛先](../destinations/add-edit-segments.md)にセグメントを追加する方法について説明します。
+2. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。[&#x200B; サーバー間の宛先](../destinations/add-edit-segments.md)にセグメントを追加する方法について説明します。
 
 訪問者は、コンバージョンに達していない限り、セグメントの対象として認定されます。コンバージョン特性の対象として認定されしだい、訪問者はセグメントルールに従わなくなり、セグメントから即座に削除されます。
 
@@ -52,7 +57,7 @@ ht-degree: 85%
    >[!UICONTROL Actionable Log Files] または [!UICONTROL Pixel Calls] を使用して、ユーザーインプレッションに基づいて特性を作成できます。詳しくは、[実行可能なログファイル](../../integration/media-data-integration/actionable-log-files.md)および[ピクセル呼び出し](../../integration/media-data-integration/impression-data-pixels.md)を参照してください。
 
 1. 2 番目の特性に頻度コントロールを適用します。必要に応じて、最新性コントロールも追加することができます。[最新性と頻度の制御を適用する方法](../segments/recency-and-frequency.md)の詳細をご覧ください。
-1. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。[ サーバー間の宛先](../destinations/add-edit-segments.md)にセグメントを追加する方法について説明します。
+1. セグメントを任意の数のリアルタイムサーバー間宛先にマッピングします。[&#x200B; サーバー間の宛先](../destinations/add-edit-segments.md)にセグメントを追加する方法について説明します。
 
 このシナリオでは、蓄積したユーザーのインプレッションが 3 個を超えたら、ユーザーはこのセグメントから削除され、この特定のクリエイティブはユーザーに表示されなくなります。
 

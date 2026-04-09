@@ -8,8 +8,10 @@ uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
 exl-id: b43c8404-1853-4306-8f26-96d9191a2548
 TQID: https://experienceleague.adobe.com/2h1Y0wd3T5fXaBWsouTvwdHcIWCWLAdkKCzTfUX6yWU
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 206

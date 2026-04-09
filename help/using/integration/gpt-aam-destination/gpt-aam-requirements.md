@@ -8,9 +8,13 @@ uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third-party Integration
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
 TQID: https://experienceleague.adobe.com/RJwzr9sCowegtUDtmi99IBoZHvMBlEZVMBYSGgEVVYE
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 466
@@ -28,7 +32,7 @@ ht-degree: 96%
 
 * **を追加[!UICONTROL DIL]：**&#x200B;ターゲットに設定するすべてのページに [!UICONTROL Data Integration Library (DIL)] コードをデプロイします。[!UICONTROL DIL] は Audience Manager のセグメントデータとユーザー ID を、[!DNL GPT] がターゲティングに使用する Cookie に書き込みます。
 
-* **[!UICONTROL Cookie Destination]の作成：**[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
+* **[!UICONTROL Cookie Destination]の作成：**&#x200B;[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
 
 * **Cookie チェックコードの実装**：[!DNL GPT] の `.setTargeting` API メソッドを、推奨される [Cookie チェックコード](../../integration/gpt-aam-destination/gpt-aam-modify-api.md)でラップします。このコードにより、`.setTargeting`.メソッドを呼び出す前に有効な AAM Cookie が検索されるので、エラーが回避されます。
 

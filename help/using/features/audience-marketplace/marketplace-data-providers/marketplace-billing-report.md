@@ -8,8 +8,10 @@ uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
 exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
 TQID: https://experienceleague.adobe.com/1Qy0rVUYVwTXoLQjFbSDgkay6IpsHwHl0TTM-FHQtUY
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 400

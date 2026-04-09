@@ -8,8 +8,10 @@ uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 feature: Traits
 exl-id: 4bb53775-9ee0-45b6-9396-f4cb93e6e6c9
 TQID: https://experienceleague.adobe.com/VZjLSkguAhpiae0BlpWv6KiXM24erhDyCheAybdUmVM
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 141
@@ -26,7 +28,7 @@ ht-degree: 92%
 単純な「yes」または「true」の条件に応じて実行されるピクセルと比べて、[!UICONTROL Trait Builder]では以下のことが可能です。
 
 * *すべて*&#x200B;のページデータを収集するので、データを後で使用して関連性の高い有用な特性を作成できる。
-* データ収集中に渡された[ キーと値のペア ](../../reference/key-value-pairs-explained.md)に基づいて特性を構築します。
+* データ収集中に渡された[&#x200B; キーと値のペア &#x200B;](../../reference/key-value-pairs-explained.md)に基づいて特性を構築します。
 * [ブール式](../../reference/boolean-expressions-tsb.md)と[比較演算子](../../features/traits/trait-comparison-operators.md)を使用したサーバー側ルールで複雑なデータ条件を評価する。
 
 * インベントリ上のデータ収集ピクセルを管理する必要性が軽減される、またはなくなる。

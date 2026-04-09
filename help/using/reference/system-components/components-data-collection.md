@@ -8,10 +8,23 @@ uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: System Components
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
 TQID: https://experienceleague.adobe.com/x5ryJCxXPXeT7cPV3oN5wIprkBlcechsRwu1qB5k6hQ
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27id: f8c1669e-86ba-49c4-b622-9dfa07854df8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+  - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 736
@@ -45,7 +58,7 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 [!DNL Audience Manager] で、DCS は以下をおこないます。
 
 * イベント呼び出しから特性データを受け取り、評価します。これには、リアルタイムのセグメント化で使用される情報と、スケジュールされた間隔でサーバー間転送によって渡されるデータが含まれます。
-* [ セグメントビルダー](../../features/segments/segment-builder.md)で作成した認識特性と選定ルールに基づいて、ユーザーをセグメント化します。
+* [&#x200B; セグメントビルダー](../../features/segments/segment-builder.md)で作成した認識特性と選定ルールに基づいて、ユーザーをセグメント化します。
 * デバイス ID および認証済みのプロファイル ID を作成および管理します。これには、データプロバイダー ID、ユーザー ID、宣言された ID、統合コードなどがあります。
 * リアルタイムのイベント呼び出しの前に、ユーザーが既に適合している特性が他にないかを PCS で確認します。これにより、リアルタイムのデータと過去のデータに基づきユーザーを適合させることができます。
 * ログファイルへの書き込みをおこない、それらを保存および処理する分析システムに送信します。
@@ -95,7 +108,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 ## インバウンドのサーバー間通信 {#inbound-outbound-server}
 
-クライアントとの様々なサーバー間統合によって送信されるデータを受信するシステム。詳しくは、[ オーディエンスデータの送信](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)に関するドキュメントを参照してください。
+クライアントとの様々なサーバー間統合によって送信されるデータを受信するシステム。詳しくは、[&#x200B; オーディエンスデータの送信](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)に関するドキュメントを参照してください。
 
 ## ログファイル {#log-files}
 

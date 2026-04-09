@@ -9,10 +9,15 @@ keywords: id タイプの分類、IDの分類、オーディエンス ID レポ�
 feature: Traits
 exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
 TQID: https://experienceleague.adobe.com/0cnIIgjhIEgN-2M9gOtvkhx-cOwy0Wo14Qz-SVL-VHc
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2: id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 616

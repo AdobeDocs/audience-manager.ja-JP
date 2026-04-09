@@ -7,9 +7,15 @@ title: 前提条件と考慮事項
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 TQID: https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 996
@@ -73,9 +79,9 @@ ht-degree: 91%
 
 1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスを、複数の一括転送でアップロードすると、Audience Manager は最近追加された 10 個の電子メールアドレスを保持します。
 
-ハッシュ化されたIDを取り込むには、[ ハッシュ化されたID](../create-data-source-hashed-emails.md)のクロスデバイス データ ソースを作成し、**[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプションを有効にします。
+ハッシュ化されたIDを取り込むには、[&#x200B; ハッシュ化されたID](../create-data-source-hashed-emails.md)のクロスデバイス データ ソースを作成し、**[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプションを有効にします。
 
-![ ピープルベースの宛先やハッシュ化されたメールワークフローで、関連するクロスデバイス IDを共有するオプションを示すAudience Manager UI画像](assets/data-source-share-ids.png)
+![&#x200B; ピープルベースの宛先やハッシュ化されたメールワークフローで、関連するクロスデバイス IDを共有するオプションを示すAudience Manager UI画像](assets/data-source-share-ids.png)
 
 ## データプライバシー {#data-privacy}
 

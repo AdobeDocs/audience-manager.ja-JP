@@ -8,9 +8,12 @@ uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 TQID: https://experienceleague.adobe.com/KPKq6THxdku9ebZigLfZKnBO-ziNPjZ9pqNdn6PZ-Es
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: b82b475d-1e7d-46c6-9172-1f9c73004b11
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
 workflow-type: tm+mt
 source-wordcount: 294

@@ -9,10 +9,22 @@ uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
 TQID: https://experienceleague.adobe.com/In5U-4TVx8XT-Iymqz4KwbdS0MM8iMaOjzKtu81Su-Y
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-subfeature_v2: id: d7e573ad-4eda-46ec-90c4-239e75362af9id: d8f681b8-67cc-42dc-85c5-a0977528a942id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: d7e573ad-4eda-46ec-90c4-239e75362af9
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1126
@@ -94,10 +106,10 @@ r_dil_signals.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName</i>' 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
 // Method 1 
 var obj = { key1 : 1, key2 : 2 }; 
@@ -141,10 +153,10 @@ r_dil_traits.xml
 **サンプルコード**
 
 <pre><code>
-var partnerObject = DIL.create({ 
+var partnerObject = DIL.create(&lbrace; 
      partner: '<i>partner name</i>', 
      containerNSID: <i>NSID</i> 
-}); 
+&rbrace;); 
 partnerObject.api.traits(<i>[123, 456, 789]</i>); 
 </code></pre>
 
@@ -167,14 +179,14 @@ r_dil_logs.xml
 **サンプルコード**
 
 <pre><code>
-var partnerObject = DIL.create({ 
+var partnerObject = DIL.create(&lbrace; 
      partner: '<i>partner</i>', 
      containerNSID: <i>NSID</i> 
-}); 
-partnerObject.api.logs({ 
+&rbrace;); 
+partnerObject.api.logs(&lbrace; 
      file: 'dil.js', 
      message: 'This is the first request' 
-});
+&rbrace;);
 </code></pre>
 
 ## submit {#submit}
@@ -200,19 +212,19 @@ r_dil_submit.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName</i>', 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
-dataLib.api.traits([ 
-<i>123,456, 789</i>]).logs({ 
+dataLib.api.traits(&lbrack; 
+<i>123,456, 789</i>&rbrack;).logs(&lbrace; 
      file: 'dil.js', 
      message: 'This is the first request' 
-}).signals({ 
+&rbrace;).signals(&lbrace; 
      c_zdid: <i>1111</i> 
      d_dma: '<i>default</i>' 
-}).submit();
+&rbrace;).submit();
 </code></pre>
 
 ## afterResult {#afterresult}
@@ -244,17 +256,17 @@ r_dil_after_result.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName</i>', 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
-dataLib.api.signals({ 
+dataLib.api.signals(&lbrace; 
      c_zdid: <i>54321</i> 
      d_dma: '<i>default</i>' 
-}).afterResult(function(json){ 
+&rbrace;).afterResult(function(json)&lbrace; 
      //Do something with the JSON data returned from the server. 
-}).submit();
+&rbrace;).submit();
 </code></pre>
 
 ## clearData {#cleardata}
@@ -280,18 +292,18 @@ r_dil_clear_data.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName</i>', 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
-dataLib.api.traits([<i>123,456, 789</i>]).logs({ 
+dataLib.api.traits([<i>123,456, 789</i>]).logs(&lbrace; 
      file: 'dil.js' 
      message: 'This is the first request' 
-}).signals({ 
+&rbrace;).signals(&lbrace; 
      c_zdid: <i>1111</i> 
      d_dma: '<i>default</i>' 
-}); 
+&rbrace;); 
  
 //Reset the pending data 
 dataLib.clearData();
@@ -331,14 +343,14 @@ r_dil_custom_query_params.xml
 **サンプルコード**
 
 <pre><code>
-var partnerObject = DIL.create({ 
+var partnerObject = DIL.create(&lbrace; 
      partner: '<i>partner</i>', 
      containerNSID: <i>NSID</i> 
-}); 
-partnerObject.api.customQueryParams({ 
+&rbrace;); 
+partnerObject.api.customQueryParams(&lbrace; 
      nid: 54231, 
      ntype: 'default' 
-}); 
+&rbrace;); 
 </code></pre>
 
 ## getContainerNSID {#getcontainernsid}
@@ -356,10 +368,10 @@ r_dil_get_container_nsid.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName</i>', 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
 //Verify the container NSID 
 var nsid = dataLib.api.getContainerNSID();
@@ -380,26 +392,26 @@ r_dil_get_event_log.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName</i>', 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).logs({ 
+dataLib.api.traits([<i>123, 456, 789</i>]).logs(&lbrace; 
      file: 'dil.js', 
      message: 'This is the first request' 
-});.signals({ 
+&rbrace;);.signals(&lbrace; 
      c_zdid: <i>1111</i> 
      d_dma: '<i>default</i>' 
-});.submit(); 
+&rbrace;);.submit(); 
  
 //Check log for messages 
 var log = dataLib.api.getEventLog(); 
-if (log && log.length) { 
+if (log && log.length) &lbrace; 
      alert(log.join('\n')); 
-}else{ 
+&rbrace;else&lbrace; 
      alert('No log messages'); 
-}
+&rbrace;
 </code></pre>
 
 ## getPartner {#getpartner}
@@ -417,10 +429,10 @@ r_dil_get_partner.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName</i>' 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
 //Verify the partner name 
 var partner = dataLib.api.getPartner();
@@ -441,49 +453,49 @@ r_dil_get_state.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName</i>', 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).logs({ 
+dataLib.api.traits([<i>123, 456, 789</i>]).logs(&lbrace; 
      file: 'dil.js', 
      message:'This is the first request' 
-});.signals({ 
+&rbrace;);.signals(&lbrace; 
      c.zdid: <i>1111</i> 
      d_dma: '<i>default</i>' 
-});.submit(); 
+&rbrace;);.submit(); 
  
 var state = dataLib.api.getState(); 
  
 /*Object outline of state 
-state = { 
+state = &lbrace; 
      pendingRequest: {<i>pending data for call to server</i>}, 
-     otherRequestInfo:{ 
+     otherRequestInfo:&lbrace; 
           firingQueue: [], 
           fired: [], 
           firing: false, 
           errored: [], 
-          reservedKeys: { 
+          reservedKeys: &lbrace; 
                sids: true, 
                pdata: true, 
                logdata: true, 
                callback: true, 
                postCallbackFn: true, 
                useImageRequest: true, 
-          }, 
+          &rbrace;, 
           firstRequestHasFired: false, 
           num_of_jsonp_responses: 0, 
           num_of_jsonp_errors: 0, 
           num_of_img_responses: 0, 
           num_of_img_errors: 0 
-     }, 
-     destinationPublishingInfo: { 
+     &rbrace;, 
+     destinationPublishingInfo: &lbrace; 
           THROTTLE_START: 3000, 
           throttleTimerSet: false, 
           id: ''destination_publishing_iframe_' + partner + '_' + containerNSID, 
           url: (constants.isHTTPS ? 'https://' : 'https://fast.') + partner + '.demdex.net/dest3.html?d_nsid=' 
-          + containerNSID + '#' + encodeURIComponent(document.location.href), 
+          &#x200B;+ containerNSID + '#' + encodeURIComponent(document.location.href), 
                iframe: null, 
                iframeHasLoaded: false, 
                sendingMessages: false, 
@@ -491,8 +503,8 @@ state = {
                messageSendingInterval: constants.POST_MESSAGE_ENABLED ? 15: 100, 
                //Recommend 100ms for IE 6 & 7, 15ms for other browsers 
                jsonProcessed: [] 
-     } 
-} 
+     &rbrace; 
+&rbrace; 
 */
 </code></pre>
 
@@ -583,23 +595,23 @@ r_dil_idsync.xml
 
 <pre><code class="js">
 // Fires url with macros replaced 
-dilInstance.api.idSync({ 
+dilInstance.api.idSync(&lbrace; 
  dpid: '23', // must be a string 
  url: '//su.addthis.com/red/usync?pid=16&puid=%DID%&url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net 
 %2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D', 
  minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
-});
+&rbrace;);
 </code></pre>
 
 `dilInstance.api.aamIdSync(initConfig)`
 
 <pre><code class="js">
 // Fires 'https:/https:' + '//dpm.demdex.net/ibs:dpid=&lt;dpid&gt;&dpuuid=&lt;dpuuid&gt;' 
-dilInstance.api.aamIdSync({ 
+dilInstance.api.aamIdSync(&lbrace; 
  dpid: '23', // must be a string 
  dpuuid: '98765', // must be a string 
  minutesToLive: 20160 // optional, defaults to 20160 minutes (14 days)  
-});
+&rbrace;);
 </code></pre>
 
 ## result {#result}
@@ -633,14 +645,14 @@ r_dil_result.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner: '<i>partnerName</i>', 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
-dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){ 
+dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json)&lbrace; 
      //Do something, possibly with the JSON data returned from the server. 
-});.submit();
+&rbrace;);.submit();
 </code></pre>
 
 ## secureDataCollection {#securedatacollection}
@@ -662,10 +674,10 @@ dil-secure-data-collection.xml
 >visitorAPI.js と `secureDataCollection= false` を同じページで使用する場合は、[!UICONTROL DIL] と設定します。次のコードサンプルを参照してください。
 
 <pre><code class="js">
-var dilInstance = DIL.create({ 
+var dilInstance = DIL.create(&lbrace; 
      ... 
      secureDataCollection: false 
-});
+&rbrace;);
 </code></pre>
 
 ## useCORSOnly {#usecorsonly}
@@ -685,10 +697,10 @@ dil-use-cors-only.xml
 **コードサンプル**
 
 <pre><code class="js">
-var dilInstance = DIL.create({ 
+var dilInstance = DIL.create(&lbrace; 
      ... 
      useCORSOnly: true 
-});
+&rbrace;);
 </code></pre>
 
 >[!IMPORTANT]
@@ -720,10 +732,10 @@ r_dil_use_image_request.xml
 **サンプルコード**
 
 <pre><code>
-var dataLib = DIL.create({ 
+var dataLib = DIL.create(&lbrace; 
      partner:'<i>partnerName</i>', 
      containerNSID: <i>containerNSID</i> 
-}); 
+&rbrace;); 
  
 dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 </code></pre>

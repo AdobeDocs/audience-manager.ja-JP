@@ -9,10 +9,19 @@ uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
 TQID: https://experienceleague.adobe.com/mpnT-bo1mqdh9Ifq60olXKx6Oykgun1NODveP-VKtCU
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2: id: c2c33729-f309-4bc2-92ba-87c475259df3id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: c2c33729-f309-4bc2-92ba-87c475259df3
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1173
@@ -51,7 +60,7 @@ ht-degree: 94%
 > 
 > すべてのお客様が移行した後、この文書の「ユーザー管理」節は廃止されます。
 > 
-[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
+>[!DNL Audience Manager] でユーザーを作成し、ユーザーの詳細、ログインステータスを指定し、ユーザーをグループに割り当てます。
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Users]** をクリックします。
 1. ![](assets/icon_add.png) をクリックして、[!UICONTROL Create New User] ページを表示します。
@@ -91,7 +100,7 @@ ht-degree: 94%
    * グループの名前を指定します。
    * グループについての簡単な説明を入力します。
 4. 「[!UICONTROL Group Members]」で、「**[!UICONTROL Add Users]**」オプションからユーザーをクリックし、グループに追加します。
-5. [!UICONTROL Group Permissions] で、[ から](../../features/traits/trait-details-page.md)特性[、](../../features/segments/segments-purpose.md)セグメント[、または](../../features/destinations/destinations.md)宛先 **[!UICONTROL Add Object]** を選択します。
+5. [!UICONTROL Group Permissions] で、[&#x200B; から](../../features/traits/trait-details-page.md)特性[、](../../features/segments/segments-purpose.md)セグメント[、または](../../features/destinations/destinations.md)宛先 **[!UICONTROL Add Object]** を選択します。
 選択したオブジェクトの権限ウィンドウが開きます。
 6. グループメンバーに付与する権限のチェックボックスをオンにします。
 7. *（オプション）*[ワイルドカード権限](../../features/administration/administration-overview.md#wild-card-permissions)をグループに割り当てます。

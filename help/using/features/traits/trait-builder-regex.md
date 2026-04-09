@@ -8,7 +8,8 @@ uuid: c263dc26-a920-48b8-b76a-6d82e7836196
 feature: Traits
 exl-id: eb41da2b-ce61-4965-a723-5bf273e54f82
 TQID: https://experienceleague.adobe.com/Vj0pLO4QDFvnZV-9ZcQeggySno905KKN-ctB2uly20o
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 121
