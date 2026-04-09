@@ -6,9 +6,20 @@ solution: Audience Manager
 title: Analytics の宛先の設定
 feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: ef8cca16c8c9478f8558c26bf6f3ae95cd72e7ac
+TQID: https://experienceleague.adobe.com/Fm25UT69AXSh-cXo6MXGQwW-17LFy8dqs3-STiWKDeA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: 866
 ht-degree: 83%
 
 ---
@@ -28,14 +39,14 @@ Analytics の宛先を設定するには、Audience Manager ユーザーが管�
 
 ## Adobe AnalyticsでのAudience Manager セグメントの選定 {#segment-qualifications}
 
-セグメント情報を Analytics の宛先に送信する場合、Audience Managerは、訪問者が適合したセグメントのみを送信します。 訪問者がセグメントの資格を停止した場合、その情報はAdobe Analyticsに転送 _されません_。
+Analyticsの宛先にセグメント情報を送信する場合、Audience Managerは、訪問者が適格とするセグメントのみを送信します。 訪問者がセグメントの選定を停止した場合、この情報は&#x200B;_not_&#x200B;がAdobe Analyticsに転送されます。
 
-例えば、次のセグメントルールについて考えてみましょう。
+例えば、次のセグメントルールを考えてみましょう。
 
-* セグメント A：特性 1 および特性 2
-* セグメント B：特性 2 ではなく特性 1 を使用
+* セグメント A：特性1と特性2
+* セグメント B：特性1と特性2ではない
 
-Analytics レポートでは、セグメント B の選定を停止した場合でも、プロファイルが両方のセグメントに対して選定されたと表示されることがあります。
+Analytics レポートでは、プロファイルはセグメント Bの対象ではなくなったとしても、両方のセグメントに対して適格として表示される場合があります。
 
 ## 手順 1：基本情報の提供
 
@@ -57,10 +68,10 @@ Analytics レポートでは、セグメント B の選定を停止した場合�
 
 ## 手順 2：データ書き出しコントロールの設定
 
-この節には、Analytics の宛先に [&#x200B; データ書き出しのコントロール &#x200B;](/help/using/features/data-export-controls.md) を適用するオプションが含まれています。 データ書き出しコントロールを使用しない場合は、この手順を省略してください。このセクションを完了するには：
+このセクションには、[&#x200B; データ書き出しコントロール &#x200B;](/help/using/features/data-export-controls.md)をAnalyticsの宛先に適用するオプションが含まれています。 データ書き出しコントロールを使用しない場合は、この手順を省略してください。このセクションを完了するには：
 
 1. 「**Data Export Controls**」をクリックして、コントロールを表示します。
-1. 宛先に適用されたデータ書き出しコントロールに対応するラベルを選択します（[&#x200B; 宛先へのデータ書き出しラベルの追加 &#x200B;](/help/using/features/destinations/add-data-export-labels.md) を参照）。 Analytics の宛先の場合は、PII のチェックボックスがデフォルトで選択されています。
+1. 宛先に適用されたデータ書き出し制御に対応するラベルを選択します（[宛先にデータ書き出しラベルを追加](/help/using/features/destinations/add-data-export-labels.md)を参照）。 Analytics の宛先の場合は、PII のチェックボックスがデフォルトで選択されています。
 1. 「**Save**」をクリックします。
 
 ![exportcontrols](assets/exportControls.png)
@@ -81,7 +92,7 @@ Analytics レポートでは、セグメント B の選定を停止した場合�
 
 | マッピングオプション | 説明 |
 |---|---|
-| Automatically map all current and future segments | デフォルトで選択されています。訪問者が資格を満たすすべてのセグメントが、ヒットごとに Analytics に送信されます。<br>単一のヒットで訪問者が 150 を超える Audience Manager セグメントに属している場合、最近絞り込まれた 150 個のセグメントのみ Analytics に送信され、残りのリストは切り捨てられます。セグメントリストが切り捨てられたことを示す追加フラグが Analytics に送信されます。このアクションは、オーディエンス名ディメンションに「オーディエンス制限に達しました」、オーディエンス ID ディメンションに「1」と表示されます。 詳しくは、[FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ja) を参照してください。<br>また、このオプションは、[セグメントビルダー](/help/using/features/segments/segment-builder.md)での宛先の可用性にも影響を与えます。例えば、セグメントが Analytics で宛先に自動的にマッピングされている場合、その宛先はセグメントビルダーの[宛先マッピングセクション](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations)では利用できません。Analytics の宛先がグレー表示され、宛先ブラウザーの「Type」列に「Analytics」と表示されます。 |
+| Automatically map all current and future segments | デフォルトで選択されています。訪問者が資格を満たすすべてのセグメントが、ヒットごとに Analytics に送信されます。<br>単一のヒットで訪問者が 150 を超える Audience Manager セグメントに属している場合、最近絞り込まれた 150 個のセグメントのみ Analytics に送信され、残りのリストは切り捨てられます。セグメントリストが切り捨てられたことを示す追加フラグが Analytics に送信されます。このアクションは、「Audiences Name」ディメンションに「Audience limit reached」、「Audiences ID」ディメンションに「1」と表示されます。 詳しくは、[FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=ja) を参照してください。<br>また、このオプションは、[セグメントビルダー](/help/using/features/segments/segment-builder.md)での宛先の可用性にも影響を与えます。例えば、セグメントが Analytics で宛先に自動的にマッピングされている場合、その宛先はセグメントビルダーの[宛先マッピングセクション](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations)では利用できません。Analytics の宛先がグレー表示され、宛先ブラウザーの「Type」列に「Analytics」と表示されます。 |
 | Manually map segments | このオプションを選択すると、Analytics に送信するセグメントを選択できる検索および参照コントロールが表示されます。<br>セグメントを検索するには：<br> <ol><li>セグメント名またはセグメント ID を検索フィールドに入力します。</li><li>「<b>Add</b>」をクリックします。</li><li>セグメントの検索と追加を続けるか、「<b>Done</b>」をクリックします。</li></ol><br>セグメントを参照するには： <ol><li>「<b>Browse all segments</b>」をクリックします。使用可能なセグメントのリストが表示されます。</li><li>このリストから、使用するセグメントのチェックボックスを選択し、「<b>Add selected segments</b>」をクリックします。</li><li>Add Mappings ウィンドウの「<b>Save</b>」をクリックします。ベータリリースの間は、マッピング、開始日、終了日を変更することはできません。</li><li>セグメントの参照と追加を続けるか、「<b>Done</b>」をクリックします。</li></ol> ![mapsegments](assets/mapSegments.png) |
 
 ## 次の手順

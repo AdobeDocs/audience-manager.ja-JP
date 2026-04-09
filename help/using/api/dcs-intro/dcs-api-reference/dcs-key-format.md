@@ -7,9 +7,12 @@ title: DCS 呼び出しでのキー値ペアの形式
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
 exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/t2OyTO4wyJyXp-65BBFaLHVKq1-oibKU9GUETZbzYs4
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: 223
 ht-degree: 100%
 
 ---

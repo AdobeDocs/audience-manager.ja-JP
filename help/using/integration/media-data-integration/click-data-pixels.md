@@ -7,9 +7,22 @@ title: ピクセル呼び出しを使用したキャンペーンのクリック�
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Adobe Campaign Integration
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/LzQsKoBZYRyfg8F87yWhT2CB2ojlydELPKRfy4xjXHo
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: 639
 ht-degree: 98%
 
 ---
@@ -29,7 +42,7 @@ ht-degree: 98%
 * `d_event=click`：イベント呼び出しをクリックイベントとして識別するキーと値のペア。
 * `d_rd=redirect URL`：二重エンコードされたリダイレクト [!DNL URL] が含まれているキーと値のペア。オンラインエンコーディングツールを使用している場合、リダイレクトが機能するように、エンコーダーを使用して文字列を実行してから、結果を再びエンコードします。
 
-さらに、呼び出しには、特性認定や他のレポートへのデータやメタデータの提供に使用できるキーと値のペアを含めることもできます｡
+さらに、呼び出しには、特性選定や他のレポートへのデータやメタデータの提供に使用できるキーと値のペアを含めることもできます｡
 
 ## 要求のサンプル
 
@@ -106,7 +119,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_region</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_region%</code> </p> </td> 
-   <td colname="col2"> <p>要求に対してサービスを提供する DCS クラスターの地域 ID（数値）。DCS の詳細については、<a href="../../reference/system-components/components-data-collection.md"> Data Collection Components</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
+   <td colname="col2"> <p>要求に対してサービスを提供する DCS クラスターの地域 ID（数値）。DCSについて詳しくは、<a href="../../reference/system-components/components-data-collection.md"> データ収集コンポーネント </a>を参照してください。 </p> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_rand</code> </p> </td> 

@@ -6,9 +6,22 @@ solution: Audience Manager
 title: Audience Manager をご利用のお客様向けの GDPR 対応ガイダンス
 feature: Data Governance & Privacy
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/K72pQ8Q6yILWexkG38Hc5W1roYObFvhLE5A0GSCyhYE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 461
 ht-degree: 90%
 
 ---
@@ -25,10 +38,10 @@ Audience Manager はデータガバナンスと組織的準備の分野に積極
 * IDFA／GAID モバイルデバイス ID は、Audience Manager において複数の用途で使用されます。Adobe Mobile SDK を使用している場合、GDPR に関して完全な応答を得るために、必ず Experience Cloud ID （MID）および IDFA／GAID を送信してください。
 * 個人データの定義の適用範囲が拡大する中で、地域によっては IP アドレスも個人データと見なされる可能性があります。アドビのコンサルタントチームと積極的にご相談のうえ、最終オクテットの不明化をおこなってください。
 * GDPR 要求の際にデータ主体の本人確認をおこなうための検証／認証のポリシーおよびプロセスを決定してください。
-* [&#x200B; データ書き出しコントロール &#x200B;](../../features/data-export-controls.md) を使用して、個人データを格納する技術に対するオーディエンスのアクティベーションをブロックすることを検討します。 例えば、サードパーティのデータが含まれるセグメントは、電子メールサービスプロバイダーに配信すべきではありません。[!UICONTROL Data Export Control] を設定することで、社内の誰かが誤ってこのデータをアクティブ化してしまうことを防ぐことができます。
+* [&#x200B; データ書き出し制御](../../features/data-export-controls.md)を使用して、個人データを格納するテクノロジーへのオーディエンスのアクティブ化をブロックすることを検討してください。 例えば、サードパーティのデータが含まれるセグメントは、電子メールサービスプロバイダーに配信すべきではありません。[!UICONTROL Data Export Control] を設定することで、社内の誰かが誤ってこのデータをアクティブ化してしまうことを防ぐことができます。
 * [ロールベースのアクセス制御](../../features/administration/administration-overview.md)を導入して、適切なチームが意図したデータにのみアクセスできるようにしてください。
 * 適切なデータの[保持期間](../../faq/faq-privacy.md#data-retention-faq)を検討してください。
-* ID リンケージおよびプライバシーポリシーと法的要件を確認し、ID セットを結び付けることが適切な場合と場所を確認します。Audience Manager[&#x200B; プロファイル結合ルール &#x200B;](../../features/profile-merge-rules/merge-rules-overview.md) を介して適切に使用します。
+* IDのリンクとプライバシーポリシーおよび法的要件を確認して、ID セットを結び付けるタイミングと場所を確認します。Audience Managerの[Profile Merge Rules](../../features/profile-merge-rules/merge-rules-overview.md)を使用して適切に使用します。
 
 ## 組織的準備：ビジネスプロセスの構築
 

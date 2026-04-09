@@ -1,5 +1,5 @@
 ---
-description: フォルダー特性を使用すると、同じフォルダーとそのすべての子フォルダーに存在する特性を自動的に集計して、ターゲティング可能なセグメントにすることができます。
+description: フォルダー特性を使用すると、同じフォルダーとそのすべての子フォルダーに存在する特性を自動的に集計して、ターゲット可能なセグメントにすることができます。
 keywords: セグメントサイズの見積もり;SSE
 seo-description: Folder traits let you automatically aggregate traits that reside within the same folder and all child folders into a targetable segment.
 seo-title: Folder Traits  About
@@ -8,16 +8,29 @@ title: フォルダー特性について
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
 exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 533
 ht-degree: 100%
 
 ---
 
 # フォルダー特性：詳細 {#folder-traits-about}
 
-[!UICONTROL Folder traits]を使用すると、同じフォルダーとそのすべての子フォルダーに存在する特性を自動的に集計して、ターゲティング可能なセグメントにすることができます。
+[!UICONTROL Folder traits]を使用すると、同じフォルダーとそのすべての子フォルダーに存在する特性を自動的に集計して、ターゲット可能なセグメントにすることができます。
 
 ## フォルダー特性を使用するメリット {#benefits}
 

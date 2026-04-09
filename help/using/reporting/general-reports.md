@@ -7,9 +7,19 @@ title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
+TQID: https://experienceleague.adobe.com/3idAvwGKGY7sZMlyGeOJDVR-nXso-b8owW82dxLiOiA
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: 860
 ht-degree: 97%
 
 ---
@@ -77,7 +87,7 @@ t_run_general_report.xml
 
 1. *（オプション）*「**[!UICONTROL Export to CSV]**」をクリックします。これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
 
-## 一般的なレポートの結果 {#general-reports-explained}
+## General Reports Results Explained {#general-reports-explained}
 
 [!UICONTROL General Reports]の数字は、[!UICONTROL User Profile Store]から直接生成されます。結果には、これらのレポートの数値が生成されたときに [!DNL Audience Manager] のバックエンドに含まれていたユーザー数が反映されています。
 
@@ -123,7 +133,7 @@ The illustration below shows the results of running a general report for the Tra
 ![](assets/general_reports_metrics.png)
 -->
 
-## セグメントの一般レポートの結果 {#general-report-results-segments}
+## セグメントの一般的なレポート結果 {#general-report-results-segments}
 
 一般レポートを実行し、レポートタイプに **[!UICONTROL Segment]** を選択する場合は、次の指標が使用可能です。
 
@@ -143,7 +153,7 @@ The illustration below shows the results of running a general report for the Tra
 
 ![](assets/general_reports_segment_metrics.png)
 
-## 宛先の一般レポート結果 {#general-report-results-destinations}
+## 宛先の一般的なレポート結果 {#general-report-results-destinations}
 
 一般レポートを実行し、レポートタイプに **[!UICONTROL Destination]** を選択する場合は、次の指標が使用可能です。
 

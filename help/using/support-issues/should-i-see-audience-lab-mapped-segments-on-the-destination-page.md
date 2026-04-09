@@ -6,9 +6,12 @@ solution: Audience Manager
 title: Audience Lab でマッピングしたセグメントを出力先の詳細ページで確認する必要はありますか？
 feature: Support
 exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/Ra5PNNOROtuRbu7v-OuvsGrHDpOtZZjudZoj5q8vvvU
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: 141
 ht-degree: 100%
 
 ---

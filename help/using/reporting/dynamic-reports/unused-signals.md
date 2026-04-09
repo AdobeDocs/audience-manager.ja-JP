@@ -7,9 +7,14 @@ title: 未使用シグナルレポート 
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: 9c980b8fd5c3cb6ba7b3031726da726ee5caeec6
+TQID: https://experienceleague.adobe.com/OfDw6FsS-MlFtwy-91jBH1O8d57aCvOap94ZK3zHVco
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 623
 ht-degree: 96%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 96%
 
 未使用シグナルは、収集したものの、特性にマッピングされていないデータで構成されます。[!UICONTROL Unused Signals] レポートには、データが日付、キー、値、頻度カウント別に表形式で表示されます。1 日に 100 回以上 [!DNL Audience Manager] に渡されたマッピングされていないシグナルが、[!UICONTROL Unused Signals] レポートの対象になります。
 
-未使用のシグナルは 45 日間保存され、その後破棄されます。 未使用シグナルレポートには、過去 10 日間のデータが表示されます。
+未使用のシグナルは45日間保存され、その後破棄されます。 未使用のシグナルレポートには、過去10日間のデータが表示されます。
 
 このレポートをレビューすると、新規または既存の特性にマッピングできる孤立したシグナルの特定に役に立ちます。
 

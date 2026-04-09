@@ -6,9 +6,12 @@ solution: Audience Manager
 title: サポートの問題の概要
 feature: Support
 exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/fnMZYSHbxadTCtzs-W0z7UgBlnSlzbb6EnCsi7cSfn0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: 103
 ht-degree: 100%
 
 ---

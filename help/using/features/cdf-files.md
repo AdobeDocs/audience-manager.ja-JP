@@ -8,9 +8,18 @@ title: 顧客データフィード
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 89137248aa47573f5b65e387a152f651419da827
+TQID: https://experienceleague.adobe.com/9Nw-TM2ND4qO0BVssmGKTAoRAF-K4aNRZSL8Fnlcrgk
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: 1988
 ht-degree: 95%
 
 ---
@@ -37,7 +46,7 @@ ht-degree: 95%
 * 使用する [!DNL Amazon S3] ストレージバケットのセットアップ。
 * [!DNL S3] ファイルストレージバケットに対する読み取り専用の認証資格情報の提供。他の顧客のディレクトリやファイルを参照したりアクセスしたりすることはできません。
 
-ファイルのダウンロード準備ができたら、ファイル通知と [!UICONTROL CDF] ファイルが [!DNL S3] バケットに表示されます。割り当てられた [!DNL S3] ディレクトリ内のファイルの監視やダウンロードは、ユーザー自身がおこないます。[顧客データフィードファイル処理の通知](#cdf-file-processing-notifications)。
+ファイルのダウンロード準備ができたら、ファイル通知と [!UICONTROL CDF] ファイルが [!DNL S3] バケットに表示されます。割り当てられた [!DNL S3] ディレクトリ内のファイルのモニタリングやダウンロードは、ユーザー自身が行います。[顧客データフィードファイル処理の通知](#cdf-file-processing-notifications)。
 
 ## 次の手順 {#next-steps}
 
@@ -45,7 +54,7 @@ ht-degree: 95%
 
 ## [!UICONTROL Customer Data Feed]定義済みコンテンツ  {#cdf-defined}
 
-[!UICONTROL CDF]ファイルのデータ要素および配列を出現順に列挙し定義します。定義にはデータタイプが含まれていますが、この情報は [!UICONTROL CDF] ファイルには含まれていません。
+[!UICONTROL CDF]ファイルのデータ要素および配列を出現した順序で列挙し定義します。定義にはデータタイプが含まれていますが、この情報は [!UICONTROL CDF] ファイルには含まれていません。
 
 >[!IMPORTANT]
 >
@@ -70,7 +79,7 @@ ht-degree: 95%
    <td colname="col3"> <p><span class="wintitle">データ収集サーバー</span>（DCS）で CDF ファイルが処理された時刻。タイムスタンプは <i>yyyy-mm-dd hh:mm:ss</i> 形式を使用し、UTC タイムゾーンに設定されます。 </p> <p> <p>注意：イベント時刻は、<i> </i> <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">ページイベントやイベント呼び出しそのものの時刻に近いですが、それらの時刻ではありません。 </li> 
-        <li id="li_271DF14395BC495FBF17186588A554A8">ファイル名の DCS 時刻とは関係ありません。顧客データフィードファイル名 <a href="#different-processing-times"> 時間およびファイルコンテンツ時間も参照してください…</a>。 </li> 
+        <li id="li_271DF14395BC495FBF17186588A554A8">ファイル名の DCS 時刻とは関係ありません。「<a href="#different-processing-times">顧客データフィード ファイル名の時間とファイル内容の時間…</a>」も参照してください。 </li> 
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +90,7 @@ ht-degree: 95%
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>数値 </p> </td> 
-   <td colname="col3"> <p>ID の同期を起動するコンテナの ID。このフィールドは、Sites の導入内の <i>d_nsid</i> フィールドにコンテナ ID を設定した場合にのみ入力されます。それ以外の場合、デフォルト値の 0 は CDF ファイルに含まれません。 </p> </td> 
+   <td colname="col3"> <p>ID の同期を起動するコンテナの ID。このフィールドは、サイト実装内の <i>d_nsid</i> フィールドにコンテナ ID を設定した場合にのみ入力されます。それ以外の場合、デフォルト値の 0 は CDF ファイルに含まれません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
@@ -96,7 +105,7 @@ ht-degree: 95%
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>イベント呼び出しで渡されるすべてのパラメーター（変数、ID、キーと値のペア、デバイス広告 ID など）をキャプチャする文字列。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>イベント呼び出しに渡されたすべてのパラメーター（変数、ID、キーと値のペア、デバイス広告IDなど）をキャプチャする文字列。 </p> <p>短縮化した例： </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
@@ -153,7 +162,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td colname="col1"> <p>フィールド列 </p> </td> 
-   <td colname="col2"> <p> <p>重要：<span class="keyword">Audience Manager</span> は、今後のリリースで CDF ファイルの末尾に新規フィールドを追加する権利を留保します。つまり、ファイル解析システムの技術設計では、（既存の列については固定した順序を想定してもかまいませんが）固定した列数を前提としないでください。</p> </p> <p>CDF ファイル内のデータは、以下に示す順序で表示されます。これらのフィールドの代わりに、null 値を示す/N が表示される場合があります。</p> <p> 
+   <td colname="col2"> <p> <p>重要：<span class="keyword">Audience Manager</span> は、今後のリリースで CDF ファイルの末尾に新規フィールドを追加する権利を留保します。つまり、ファイル解析システムの技術設計では、（既存の列については固定した順序を想定してもかまいませんが）固定した列数を前提としないでください。</p> </p> <p>CDF ファイルのデータは、次の順序で表示されます。/Nは、これらのフィールドの代わりに表示され、null値を示します。</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">イベント時刻 </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">デバイス </li> 
@@ -166,7 +175,7 @@ ht-degree: 95%
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud デバイス ID（MID）。<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja" format="https" scope="external">Cookie と Adobe Experience Platform ID サービス</a>も参照してください。 </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">すべてのセグメント </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">すべての特性 </li> 
-     </ol> </p> <p>フィールドの説明については、顧客データフィード <a href="#cdf-defined"> 内容の定義 </a> を参照してください。 </p> </td> 
+     </ol> </p> <p>フィールドの説明については、<a href="#cdf-defined">顧客データフィードのコンテンツ定義</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -235,7 +244,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>hour=<i>hh</i></code> </p> </td> 
-   <td colname="col2"> <p>UTC タイムゾーンに設定された 24 時間表記の時刻値。顧客データフィードファイル名 <a href="#different-processing-times"> 時間およびファイルコンテンツ時間も参照してください…</a>。 </p> </td> 
+   <td colname="col2"> <p>UTC タイムゾーンに設定された 24 時間表記の時刻値。「<a href="#different-processing-times">顧客データフィード ファイル名の時間とファイル内容の時間…</a>」も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>partner ID</i> </code> </p> </td> 
@@ -313,7 +322,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_0_0_0.gz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>ファイル名。詳 <a href="#cdf-naming-conventions"> くは、顧客データフィードファイル命名規則を参照してください </a> </p> </td> 
+   <td colname="col2"> <p>ファイル名。<a href="#cdf-naming-conventions">顧客データフィードファイルの命名規則</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileSequenceNumber</code> </p> </td> 

@@ -8,9 +8,18 @@ title: Audience Manager へのバッチデータ送信の概要
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
-source-git-commit: f02e6bcfb7ff3560d9624c3dce7ff065a3a75748
+TQID: https://experienceleague.adobe.com/w3j-lf-4-LlAr36L6XsCfzxwgP2vinMNW00PTlpPK8Q
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: 460
 ht-degree: 98%
 
 ---
@@ -33,7 +42,7 @@ ht-degree: 98%
 * **[!DNL PII] の除外：**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
 * **大文字と小文字およびコンテンツの区別：**&#x200B;リアルタイムデータ同期の間、[!DNL Audience Manager] によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。例えば、オフラインレコードが [!DNL User123] に関する情報を保持するが、サイトがこの ID を [!DNL USER123] としてレンダリングする場合、 は、これらを異なる訪問者と見なします。[!DNL Audience Manager]結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
 
-[&#x200B; 受信データ転送の ID 同期 &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) を参照してください。
+受信データ転送の[ID同期](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)を参照してください。
 
 ## 手順 2：データファイル形式
 
@@ -53,7 +62,7 @@ ht-degree: 98%
 | 環境 | サービス | 場所 |
 |---------|----------|---------|
 | 実稼動 | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients</li><li>ftp-in.demdex.com</li></ul> |
-| ベータ環境 | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients-sandbox-us-east-1</li><li>sandbox-ftp-in.demdex.com</li></ul> |
+| Beta 環境 | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients-sandbox-us-east-1</li><li>sandbox-ftp-in.demdex.com</li></ul> |
 
 {style="table-layout:auto"}
 

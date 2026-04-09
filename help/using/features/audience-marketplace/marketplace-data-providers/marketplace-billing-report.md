@@ -7,9 +7,14 @@ title: データフィードプロバイダーに対する請求
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
 exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+TQID: https://experienceleague.adobe.com/1Qy0rVUYVwTXoLQjFbSDgkay6IpsHwHl0TTM-FHQtUY
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 400
 ht-degree: 98%
 
 ---
@@ -80,7 +85,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Discounted Price</span></b> </p> </td> 
-   <td colname="col2"> <p>割引データフィードの購読料金。データプロバイダーの <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> 割引を参照してください </a>。 </p> </td> 
+   <td colname="col2"> <p>割引データフィードの購読料金。データプロバイダー<a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts">の</a>の割引を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> 購入点数</span></b> </p> </td> 

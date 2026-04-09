@@ -7,9 +7,26 @@ title: 用語集
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/tIudKTIrwiTO01Bq5pDuekNKI5YCrjBCDi13rKydK2k
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: 1157
 ht-degree: 95%
 
 ---
@@ -95,7 +112,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 **宛先**
 
-ま [!DNL Audience Manager]、宛先とは、データを共有する他のシステム（広告サーバー、DSP、広告ネットワークなど）です。 UI 内の [!UICONTROL Destination Builder] はこれらのデータ配信プロセスを作成および管理するためのツールです。[!DNL Audience Manager] の宛先に関する機能には、**[!UICONTROL Audience Data > Destinations]** からアクセスできます。
+[!DNL Audience Manager]では、宛先とは、データを共有する他のシステム （アドサーバー、DSP、アドネットワークなど）です。 UI 内の [!UICONTROL Destination Builder] はこれらのデータ配信プロセスを作成および管理するためのツールです。[!DNL Audience Manager] の宛先に関する機能には、**[!UICONTROL Audience Data > Destinations]** からアクセスできます。
 
 
 
@@ -121,7 +138,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 フォルダー分類における、特性の自動的なグループ化。階層内の各フォルダーで、セグメントを定義できる特性が自動的に作成されます。
 
-[&#x200B; フォルダー特性：概要 &#x200B;](../features/traits/about-folder-traits.md) を参照してください。
+[&#x200B; フォルダー特性：約](../features/traits/about-folder-traits.md)を参照してください。
 
 
 
@@ -203,7 +220,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 **適合**
 
-ある特性に適合するサイト訪問者のアクション。[&#x200B; 訪問者プロファイルビューア &#x200B;](../features/visitor-profile-viewer.md) ツールを使用して、特定のユーザーによる特性の実現に関する情報を取得できます。
+ある特性に適合するサイト訪問者のアクション。[訪問者プロファイルビューア &#x200B;](../features/visitor-profile-viewer.md) ツールを使用して、特定のユーザーによる特性認識に関する情報を取得できます。
 
 ## S-T {#s-t}
 
@@ -211,7 +228,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 セグメント（またはオーディエンス）は、共通の属性を共有する一連のユーザーです。
 
-[&#x200B; セグメント：目的、構成、ルール &#x200B;](../features/segments/segments-purpose.md) を参照してください。
+[&#x200B; セグメント：目的、構成、ルール &#x200B;](../features/segments/segments-purpose.md)を参照してください。
 
 
 

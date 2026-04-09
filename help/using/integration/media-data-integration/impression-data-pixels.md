@@ -7,9 +7,25 @@ title: ピクセル呼び出しを使用したキャンペーンのインプレ�
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Adobe Campaign Integration
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/4AePlh8JW-KJ5pMyBjEDNQ1mxfikBavHMT-UXkQqYJo
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: 698
 ht-degree: 98%
 
 ---
@@ -24,7 +40,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`、*斜体*、角括弧 `[ ]` `( )` など）は、コード要素とオプションを示します。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など）は、コード要素とオプションを示します。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
 
 イベント呼び出しはインプレッションデータとコンバージョンデータを収集し、[!DNL Audience Manager] [データ収集サーバー](/help/using/reference/system-components/components-data-collection.md)（[!DNL DCS]）に送信します。この処理では、呼び出しをクリエイティブに配置するサードパーティの広告サーバーを使用して、コードに挿入される内容が制御されます。このサードパーティの広告サーバー（[!DNL DFA] など）は、このコードを各広告インプレッション内に配置できます。さらに、広告呼び出しでは、広告タブの外部にある公開者データへのアクセスに、[!DNL JavaScript] やフレームバスティング技法は使用していません。
 

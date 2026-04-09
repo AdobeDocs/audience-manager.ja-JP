@@ -8,9 +8,30 @@ title: アドレス可能なオーディエンス
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Match Rates
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: cecdc0b0f43a146e11f7d23eb21a06146496ac2d
+TQID: https://experienceleague.adobe.com/kXtuVVcN9CH-pTICWdyfa8ast-zgf4zf61su39blynE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+  - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: 1831
 ht-degree: 99%
 
 ---
@@ -19,7 +40,7 @@ ht-degree: 99%
 
 [!UICONTROL Addressable Audience]の機能およびユースケースの概要です。
 
-## [!UICONTROL Addressable Audience] とは {#addressable-audience-description}
+## [!UICONTROL Addressable Audience]とは {#addressable-audience-description}
 
 [!UICONTROL Addressable Audiences]では、[!DNL Audience Manager] がデータを収集している御社のすべてのシステムと選択された宛先との間のオーディエンスの重複を表示します。この概念を理解するには、次の図を参照してください。各円の重複は、各種のアドレス可能なオーディエンスを示します。
 
@@ -28,7 +49,7 @@ ht-degree: 99%
 
 | 指標 | 説明 |
 |---|---|
-| [!UICONTROL Destination] の [!UICONTROL Audience Manager Addressable Audience] | プラットフォームレベルにおいて、レポートのルックバック期間に [!DNL Audience Manager] のお客様とのやり取りがあり、選択した[!UICONTROL destination]と一致するデバイスの総数。<br><br>この指標は次の情報が得られるため便利です。 <ul><li>[!DNL Audience Manager] がターゲットとする特定の[!UICONTROL destination]に到達できる[!UICONTROL addressable audience]の合計サイズ。</li><li>ターゲットプラットフォームについての [!DNL Audience Manager] のプロファイルプールの規模、およびそのオーディエンスのサイズ。</li></ul> |
+| [!UICONTROL Destination] の [!UICONTROL Audience Manager Addressable Audience] | プラットフォームレベルにおいて、レポートのルックバック期間に [!DNL Audience Manager] のお客様とのやり取りがあり、選択した[!UICONTROL destination]と一致するデバイスの総数。<br><br>この指標は次の情報が得られるため便利です。 <ul><li>[!DNL Audience Manager] がターゲティングする特定の[!UICONTROL destination]に到達できる[!UICONTROL addressable audience]の合計サイズ。</li><li>ターゲティングプラットフォームについての [!DNL Audience Manager] のプロファイルプールの規模、およびそのオーディエンスのサイズ。</li></ul> |
 | [!UICONTROL Customer Total Audience] | ルックバック期間に、御社のシステムにおける[!UICONTROL rule-based trait]、またはオフラインファイルからの[!UICONTROL onboarded trait]に適合したデバイスの数。 |
 | [!UICONTROL Customer Addressable Audience] | ルックバック期間に[!UICONTROL rule-based trait]または[!UICONTROL onboarded trait]に適合したデバイスと、同期のタイミングを問わず、選択した[!UICONTROL destination]との ID 同期がおこなわれたデバイスの間の重複数。<br><br>この指標は次のようなデバイスを表しています。<ul><li>ルックバック期間中に、[!UICONTROL rule-based]または[!UICONTROL onboarded trait]が適合されている`AND`</li><li>同期の時間に関係なく、選択した[!UICONTROL destination]と ID が同期している。</li> |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] ÷ [!UICONTROL Customer Total Audience] は、割合で表されます。 |
@@ -137,7 +158,7 @@ ht-degree: 99%
 
 | 指標 | 説明 |
 |---|---|
-| [!DNL Audience Manager] [!UICONTROL Addressable Audience] | プラットフォームレベルにおいて、レポートのルックバック期間に [!DNL Audience Manager] のお客様とのやり取りがあり、選択した[!UICONTROL destination]と一致するデバイスの総数。<br><br>この指標は次の情報が得られるため便利です。<ul><li>[!DNL Audience Manager] がターゲットとする特定のターゲットとする宛先に到達できる[!UICONTROL total addressable audience]のサイズ。</li><li>ターゲットプラットフォームについての [!DNL Audience Manager] のプロファイルプールの規模、およびそのオーディエンスのサイズ。</li></ul> |
+| [!DNL Audience Manager] [!UICONTROL Addressable Audience] | プラットフォームレベルにおいて、レポートのルックバック期間に [!DNL Audience Manager] のお客様とのやり取りがあり、選択した[!UICONTROL destination]と一致するデバイスの総数。<br><br>この指標は次の情報が得られるため便利です。<ul><li>[!DNL Audience Manager] が特定のターゲティングする宛先に到達できる [!UICONTROL total addressable audience] のサイズ。</li><li>ターゲティングプラットフォームについての [!DNL Audience Manager] のプロファイルプールの規模、およびそのオーディエンスのサイズ。</li></ul> |
 
 ## [!UICONTROL Customer] と [!UICONTROL Segment Addressable Audiences] の比較  {#comparing-metrics}
 
@@ -145,7 +166,7 @@ ht-degree: 99%
 
 * [!UICONTROL Customer Addressable Audiences]は、*自社のファーストパーティデータ*[!UICONTROL trait]の認定に基づきます。この指標からは、データパートナーとの統合に関して幅広い包括的な情報が得られます。
 
-* [!UICONTROL Segment Addressable Audiences]は、*自社のファーストパーティデータとセカンドパーティおよびサードパーティデータのセグメントの選定*&#x200B;に基づきます。この指標からは、ターゲットプラットフォームの[!UICONTROL addressable audiences]に関してより詳細で正確な情報が得られます。
+* [!UICONTROL Segment Addressable Audiences]は、*自社のファーストパーティデータとセカンドパーティおよびサードパーティデータのセグメントの選定*&#x200B;に基づきます。この指標からは、ターゲティングプラットフォームの[!UICONTROL addressable audiences]に関してより詳細で正確な情報が得られます。
 
 ## [!UICONTROL Addressable Audiences] のマッチ率の低下の原因  {#low-match-rates}
 

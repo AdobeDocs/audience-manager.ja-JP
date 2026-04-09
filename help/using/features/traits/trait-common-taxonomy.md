@@ -8,9 +8,15 @@ title: 一般的なカテゴリへの特性の分類
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: 366
 ht-degree: 96%
 
 ---
@@ -39,7 +45,7 @@ ht-degree: 96%
 
 ## データカテゴリによる特性の分類
 
-分類の分類は、[!UICONTROL Add New Trait Wizard] （***[!UICONTROL Audience Data > Traits]***）にある特性を作成または編集する際に割り当てます。 詳しくは、[特性の作成に関するドキュメント](../../features/traits/create-onboarded-rule-based-traits.md)を参照してください。
+[!UICONTROL Add New Trait Wizard] （***[!UICONTROL Audience Data > Traits]***&#x200B;にある）で特性を作成または編集する際に、分類を割り当てます。 詳しくは、[特性の作成に関するドキュメント](../../features/traits/create-onboarded-rule-based-traits.md)を参照してください。
 
 ## 分類の使用：その他の考慮事項
 

@@ -7,9 +7,21 @@ title: 選択した Audience Manager レポートでのデータサンプリン�
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+TQID: https://experienceleague.adobe.com/VGqto9hCroCmKygXvwZNOiAYnsV9CmdPzAoEvKnkV90
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: 449
 ht-degree: 96%
 
 ---
@@ -18,9 +30,9 @@ ht-degree: 96%
 
 いくつかのレポートで使用されているサンプリング方法、サンプリングのエラー率についての概要、およびサンプルデータに基づく情報が返されるレポートのリスト。
 
-## データサンプリング率 {#data-sampling-ratio}
+## データサンプリング比率 {#data-sampling-ratio}
 
-一部の [!DNL Audience Manager] レポートでは、使用可能なすべてのデータのうちサンプリングしたセットに基づいて結果が表示されます。サンプリングされるデータの比率は 1:54 です。 この場合、サンプリングされたデータを使用するレポートは、54 件のうち 1 件のレコードが結果として表示されます。
+一部の [!DNL Audience Manager] レポートでは、使用可能なすべてのデータのうちサンプリングしたセットに基づいて結果が表示されます。サンプリングされたデータ比率は1:54です。 この場合、サンプリングされたデータを使用するレポートは、54 件のうち 1 件のレコードが結果として表示されます。
 
 これらの統計レポートでサンプリングされたデータを使用しているのは、結果の生成に大量の計算が必要となるためです。サンプリングにより、必要な計算量の削減、システムパフォーマンスの維持、正確な結果の入手がすべてバランスよくおこなえます。
 
@@ -57,7 +69,7 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 | 100,000 | 95％がエラー率 4％未満である。 |
 | 500,000 以上 | 95％がエラー率 2％未満である。 |
 
-## Minhash サンプリング方法の使用 {#minhash}
+## Minhash サンプリング手法の使用 {#minhash}
 
 Audience Managerは、[Minhash](https://en.wikipedia.org/wiki/MinHash) サンプリング手法に基づき、One Permutation Hashing（1 置換ハッシュ）データスケッチの上にある特性およびセグメント評価子を計算する新しい方法を使用します。この新しい方法では、Jaccard の類似性に関する標準の見積もりよりも偏差が少なくなります。この方法を使用するレポートについては、以下のセクションを参照してください。
 
@@ -88,4 +100,4 @@ Reports that use Minhash sampling methodology:
 |--- |--- |
 | [アドレス可能なオーディエンス](../features/addressable-audiences.md)データ（顧客レベルデータとセグメントレベルデータ）。 | [重複レポート](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)（特性間、セグメント - 特性間、セグメント間） |
 | [!UICONTROL Profile Merge Rule]の[合計デバイス数](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics)指標。 | [特性レコメンデーション](/help/using/features/segments/trait-recommendations.md) |
-| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) は、「[!UICONTROL Search]」タブおよび任意の [!UICONTROL Saved Searches] のサンプリングデータを使用します | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) は、「[!UICONTROL Search]」タブおよび任意の [!UICONTROL Saved Searches] のサンプリングデータを使用します | [Audience Marketplace レコメンデーション](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

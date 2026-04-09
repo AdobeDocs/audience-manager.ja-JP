@@ -7,9 +7,14 @@ title: レポート技術
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/AnXMLgoOd56zHBO0aK3KehN6xS2upcKiAzNKmEj7I-0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 255
 ht-degree: 99%
 
 ---
@@ -82,6 +87,6 @@ r_legend.xml
  </tbody> 
 </table>
 
-## Tableau のドキュメント {#tableau-documentation}
+## Tableau Documentation {#tableau-documentation}
 
 インタラクティブレポートに表示される Tableau コントロールの詳細については、[Linux 2018.2 での Tableau Server](https://help.tableau.com/v2018.2/server-linux/ja-jp/get_started_server.htm) に関する公式ドキュメントを参照してください。

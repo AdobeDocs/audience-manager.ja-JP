@@ -6,9 +6,17 @@ solution: Audience Manager
 title: Cookie の宛先のオプション設定
 feature: Destination Basics
 exl-id: b44f386e-4d43-41c3-b8ce-88b83d5d83c2
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/QLuZ0uRV6loF1RNeoBA0xcdj6NwYIE-ngKC-zQF6jBM
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: c138d302-73f0-4186-93ea-10c4ba52f943
+  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: 399
 ht-degree: 100%
 
 ---

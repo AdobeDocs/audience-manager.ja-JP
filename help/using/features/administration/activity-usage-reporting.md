@@ -7,9 +7,26 @@ solution: Audience Manager
 title: アクティビティ使用状況レポート
 feature: Usage and Billing
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/eJpKJkVCytgiV68bDxt-Tmk1s2W3SWkpmb6BZZ5jBCk
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: d12f0729-c5e9-4a4a-bb39-687f9ab4a97c
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: 638
 ht-degree: 99%
 
 ---
@@ -37,7 +54,7 @@ ht-degree: 99%
 * **アクティビティ使用量コミットメントに対する実際のインスタンスアクティビティ使用量の追跡**：ほとんどのお客様は、Audience Manager インスタンスごとに毎月のアクティビティのコミットメントを見積もった後、すべてのインスタンスをまたいだ年間のアクティビティのコミットメントに集計します。このレポートは請求レポートではありませんが、コミットされたアクティビティ使用量を超過しているかどうかを把握するのに役立ちます。
 * **実装の変更の検証**：[!DNL Adobe Analytics] サーバーサイド転送の設定や サーバーコールの設定変更などの実装を最近更新した場合、このレポートを使用すれば、新しいアクティビティの量が期待したアクティビティ量と一致しているかどうかを確認できます。[!DNL Adobe Target]
 
-## [!UICONTROL Activity Usage Report] の使用 {#using}
+## [!UICONTROL Activity Usage Report]の使用 {#using}
 
 [!UICONTROL Activity Usage Report] を表示するには、Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Usage]** に移動します。
 
@@ -45,14 +62,14 @@ ht-degree: 99%
 
 次に、**[!UICONTROL Reporting Interval]** フィルターを使用して、レポートを生成する時間間隔を選択します。30 日、60 日、90 日、またはカスタムの日付範囲を選択できます。
 
-レポートが読み込まれると、選択した期間の [!UICONTROL Activities] の内訳を確認できます。
+レポートが読み込まれると、選択した期間の [!UICONTROL Activities] の分類を確認できます。
 
 [!UICONTROL Activities] では、オンサイトとオフサイトにおける Audience Manager との全インタラクションの集計を定義し、次のカテゴリに分けます。
 
 * **[!UICONTROL Server Calls]**：Web サイト、サーバー、電子メール、モバイルアプリケーション、その他のシステムから Audience Manager に送信されるデータ収集または取得イベント。
-* **[!UICONTROL Pixel Calls]（旧称 [!UICONTROL Impression Server Calls]）**：広告から収集されたデータ（ターゲットプラットフォームのインプレッション数など）または Audience Manager に対する電子メールインプレッション呼び出し。クエリ文字列内に `d_event` パラメーターが必要です。
+* **[!UICONTROL Pixel Calls]（旧称 [!UICONTROL Impression Server Calls]）**：広告から収集されたデータ（ターゲティングプラットフォームのインプレッション数など）または Audience Manager に対する電子メールインプレッション呼び出し。クエリ文字列内に `d_event` パラメーターが必要です。
 * **[!UICONTROL On-Boarded Records]**：自社の顧客関係管理システム（CRM）や、その他のオフラインデータファイル（例：コールセンターレコード、デバイス ID、外部データプロバイダーからのカスタムデータフィード）から取り込んだ一意のレコード。
-* **[!UICONTROL Log File Records]**：ターゲットプラットフォームから Audience Manager に取り込まれたログファイルの一意のレコード。
+* **[!UICONTROL Log File Records]**：ターゲティングプラットフォームから Audience Manager に取り込まれたログファイルの一意のレコード。
 
 >[!NOTE]
 >
@@ -66,7 +83,7 @@ ht-degree: 99%
 
 ![aur-hover](assets/aur-hover.png)
 
-## [!UICONTROL Activity Usage Reports] のエクスポート {#export}
+## [!UICONTROL Activity Usage Reports]をエクスポート中 {#export}
 
 Audience Manager のアクティビティの使用状況レベルをより詳細に把握するために、含めるレコードのタイプに基づいて [!UICONTROL Activity Usage Report] を書き出すことができます。
 

@@ -7,9 +7,20 @@ title: Google Ad Manager データファイルを Audience Manager に読み込�
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
-source-git-commit: 7147091e6c253e8124f5f21a2251c1a76ac9d808
+TQID: https://experienceleague.adobe.com/cnzj59ejieaEvCGo2a-xopjYJ-GfUTc1LV24p9mQiEw
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: 511
 ht-degree: 93%
 
 ---
@@ -18,7 +29,7 @@ ht-degree: 93%
 
 Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
 
-## Google Ad Manager ログ取り込みの前提条件 {#prereqs-dfp-ingestion}
+## Google Ad Manager Log Ingestionの前提条件 {#prereqs-dfp-ingestion}
 
 この節で説明している処理は、ログの取り込みを許可するための前提条件に進む&#x200B;*前*&#x200B;におこなってください。
 
@@ -27,7 +38,7 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
 広告タグ呼び出しでの [!DNL Audience Manager] ID の設定方法は以下のとおりです（ドキュメントにも説明があります）。
 
 * [Google Publisher Tag（GPT）を使用する](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
-* [Cookie の宛先経由](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
+* [Cookieの宛先を介して](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 [!DNL Audience Manager] ID はご自身で設定する必要があります。また、[!DNL Audience Manager] コンサルタントを使用して、すべて正常であることを確認できます。次のようになっていれば、[!DNL Audience Manager] ID は正しく設定されています。
 
@@ -82,7 +93,7 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
   </tr> 
   <tr> 
    <td colname="col1"> <p>手順 6 </p> </td> 
-   <td colname="col2"> <p>ログ取り込みプロセスを開始するために詳しく説明されている手順 <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=ja"> こちら </a> に従って、前提条件をコンパイルし、サポートチケットを開きます。 </p> </td> 
+   <td colname="col2"> <p>前提条件をまとめ、詳細な手順<a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=ja">ここ</a>に従ってサポートチケットを開き、ログ取り込みプロセスを開始します。 </p> </td> 
    <td colname="col3"> <p>自分または <span class="keyword"> Audience Manager</span> コンサルタントが代理で実行 </p> </td> 
   </tr> 
  </tbody> 

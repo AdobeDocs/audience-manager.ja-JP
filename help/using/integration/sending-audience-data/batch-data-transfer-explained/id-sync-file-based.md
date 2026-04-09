@@ -7,9 +7,18 @@ title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Inbound Data Transfers
 exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+TQID: https://experienceleague.adobe.com/yJ5QIV70F6YyRqA0LxqxQaHMoWwe7pLJ8V17MvyEK70
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: 782
 ht-degree: 97%
 
 ---
@@ -20,7 +29,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->このドキュメントのテキストスタイル（`monospaced text`、*斜体*、角括弧 `[ ]` `( )` など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>このドキュメントのテキストスタイル（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## ファイル名構文および例 {#file-name-syntax}
 
@@ -99,7 +108,7 @@ ID ファイルのコンテンツには、以下の要素が含まれます。
 abc123 def456 ghi789 xyz987
 ```
 
-### ファイルコンテンツに関する考慮事項 {#considerations}
+### ファイルコンテンツの考慮事項 {#considerations}
 
 受信ファイルを作成する場合は、最初の列にデバイス ID（[!DNL AAM UUID]、[!DNL GAID]、[!DNL IDFA]など）のみが入力されていることを確認します。Audience Manager がサポートする ID について、詳しくは、[Audience Manager の ID のインデックス](../../../reference/ids-in-aam.md)を参照してください。
 

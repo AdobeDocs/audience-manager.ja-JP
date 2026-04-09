@@ -8,13 +8,32 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP アドレス; STFP IP アドレス; FTP アドレス
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 974f45268d50c486c872137a3aa6d8fc7f691024
+TQID: https://experienceleague.adobe.com/C35e-eIULWyFZPASMC-vwOIU1Yk-SH-HZzGRTO89yFg
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: 1255
 ht-degree: 92%
 
 ---
-
 
 # データ収集および製品統合に関するよくある質問 {#data-collection-and-product-integration-faq}
 
@@ -26,7 +45,7 @@ ht-degree: 92%
 
 [!UICONTROL Inbound] を通じてオンボーディングされる特性は、[!DNL DCS] で生成されるのと同じように [!UICONTROL Inbound] で生成されます。[!UICONTROL Inbound] を識別するには、次のように、いくつか異なる方法があります。
 
-* リモート IP は 68.67.173.18 に設定されます
+* リモート IPは68.67.173.18に設定されます
 * DomainID は 5325 に設定されます。
 * 地域は 0 に設定されます。
 
@@ -72,7 +91,7 @@ ht-degree: 92%
 
 **[!UICONTROL DIL]／[!DNL Analytics] データ統合のコード配置とページ読み込みの要件を教えてください。**
 
-[!DNL Analytics] データを [!DNL Audience Manager] に取り込むには、`s_code` モジュールの後、`s.t()` 関数&#x200B;*より前*&#x200B;に [!UICONTROL DIL] を読み込みます。例えば、次の順でコードを配置するか、読み込まれるようにします。
+[!DNL Analytics] データを [!DNL Audience Manager] に取り込むには、`s_code` モジュールの後、`s.t()` 関数&#x200B;*より前*&#x200B;に [!UICONTROL DIL] を読み込みます。例えば、次の順序でコードを配置するか、読み込まれるようにします。
 
 1. [!DNL Analytics] `s_code`
 
@@ -211,8 +230,8 @@ https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed
 
 **非アクティブな Amazon S3 ユーザーアクセスキーはどうなりますか？**
 
-Adobeは、Audience Managerのお客様に [!DNL Amazon S3] バケットのアクセスキーを提供します。 セキュリティ上の理由から、これらのアクセスキーは 100 日間使用されない場合、自動的に無効になります。
+Adobeは、Audience Managerのお客様に[!DNL Amazon S3] バケットのアクセスキーを提供します。 セキュリティ上の理由から、これらのアクセスキーが100日間使用されないままの場合、これらのアクセスキーは自動的に無効になります。
 
-アクセスキーが無効になっている場合、カスタマーサポートに連絡して、アクセスキーを再度有効にするか新しいアクセスキーをリクエストできます。
+アクセスキーが無効になっている場合は、カスタマーサポートに連絡してアクセスキーを再度有効にするか、新しいアクセスキーをリクエストできます。
 
-セキュリティを強化するために、1000 日間非アクティブのままのアクセスキーは、Amazon S3 IAM ユーザーアカウントと共に完全に削除されます。 再来訪のお客様で、この期間を過ぎるとアクセスが必要になる場合は、カスタマーサポートに連絡してアカウントを再作成し、新しいアクセスキーを受け取ります。
+セキュリティ強化のため、1000日間非アクティブのままのアクセスキーは、Amazon S3 IAM ユーザーアカウントとともに完全に削除されます。 リピーターで、この期間が経過した後にアクセスする必要がある場合は、カスタマーサポートに連絡してアカウントを再作成し、新しいアクセスキーを受け取ります。

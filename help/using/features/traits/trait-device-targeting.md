@@ -7,9 +7,15 @@ title: プラットフォームレベルのキーによるデバイスターゲ�
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
-source-git-commit: b299783b993c5d4a1c7738eca82932c20f377ee7
+TQID: https://experienceleague.adobe.com/Pv9-MWpF5uPassf9VYTGgZwQ6gmnW8p9FSYmYxOPHEg
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: 264
 ht-degree: 100%
 
 ---
@@ -19,8 +25,8 @@ ht-degree: 100%
 >[!WARNING]
 >
 >Google は、`User-Agent` ヘッダーを介して収集される情報を最小限に抑えるために、[!DNL Google Chrome] およびすべての [!DNL Chromium] ベースのブラウザーの機能を更新しました。
->>2023年3月以降、Audience Manager は [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を活用してこれらの更新をサポートします。`User-Agent` ヘッダーを介して提供される特性情報を引き続き使用するには、[Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用し、[高エントロピーのユーザーエージェントクライアントヒント](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja)を有効にする必要があります。
->>これらの更新は [DIL](../../../using/dil/dil-overview.md) でサポートされていないので、[!DNL DIL] を使用する Audience Manager のお客様は、`User-Agent` ヘッダーを介して特性情報を収集できません。
+>2023年3月以降、Audience Manager は [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を活用してこれらの更新をサポートします。`User-Agent` ヘッダーを介して提供される特性情報を引き続き使用するには、[Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用し、[高エントロピーのユーザーエージェントクライアントヒント](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja)を有効にする必要があります。
+>これらの更新は [DIL](../../../using/dil/dil-overview.md) でサポートされていないので、[!DNL DIL] を使用する Audience Manager のお客様は、`User-Agent` ヘッダーを介して特性情報を収集できません。
 
 Audience Manager アカウントのすべてのプロパティをまたぐデバイス関連変数を使用して、ユーザーをターゲティングするのに使用できる、プラットフォームレベルの共通のキー値ペアについて説明します。
 

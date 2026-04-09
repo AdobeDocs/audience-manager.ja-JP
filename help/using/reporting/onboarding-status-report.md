@@ -7,9 +7,21 @@ title: オンボーディングステータスレポート
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: 1421
 ht-degree: 92%
 
 ---
@@ -44,7 +56,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>エラーサンプリング</b> </p> </td>
-   <td colname="col2"> <p>エラーサンプリングでは、データファイルのコンテンツが解析され、エラータイプごとに最も多いエラーの上位 10 件が返されます。受信データファイルでエラーが発生すると、個別のレコードが処理されなくなります。このレポートをトラブルシューティングツールとして活用すると、ファイルエラーを減らし、処理率を向上させることができます。 </p> <p>エラーサンプリングは手動でアクティブ化する必要があります。この機能はアクティブ化から 14 日間実行され、自動的に終了します。エラーサンプリングは、14 日間の有効期間が終了した後で、再度アクティブ化することができます。エラーサンプリングは、受信データソースを作成する <a href="../features/manage-datasources.md#create-data-source"> きに有効にするか </a> または既存の受信データソースの「<b><span class="uicontrol"> Data Sourceの設定 </span></b>」セクションで「<span class="wintitle"> Error Sampling</span>」チェックボックスをオンにすることによって有効にします。 </p> <p>エラーサンプリングは計算負荷の高い処理です。そのため、エラーカテゴリごとに最初の 10 件のエラーのみが返されます。受信データソースに含まれるすべてのエラーが返されるようには設計されていません。これらのエラーは、同様のエラーの大きなグループの代表例です。ファイル全体を確認して、このレポートでフラグが設定されているエラーの種類を調べ、ファイルの形式を変更してから、もう一度送信します。 </p> <p>受信データソースのデータファイルを適切にフォーマットする方法について詳しくは <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 受信データファイルの内容：構文、変数、例に </a> いて参照してください。 </p> </td> 
+   <td colname="col2"> <p>エラーサンプリングでは、データファイルのコンテンツが解析され、エラータイプごとに最も多いエラーの上位 10 件が返されます。受信データファイルでエラーが発生すると、個別のレコードが処理されなくなります。このレポートをトラブルシューティングツールとして活用すると、ファイルエラーを減らし、処理率を向上させることができます。 </p> <p>エラーサンプリングは手動でアクティブ化する必要があります。この機能はアクティブ化から 14 日間実行され、自動的に終了します。エラーサンプリングは、14 日間の有効期間が終了した後で、再度アクティブ化することができます。エラーサンプリングは、<a href="../features/manage-datasources.md#create-data-source">がインバウンドデータソース </a>を作成する場合、または既存のインバウンドデータソースの「<b><span class="uicontrol"> Data Source Settings</span></b>」セクションの「<span class="wintitle"> Error Sampling</span>」チェックボックスをオンにする場合にアクティブになります。 </p> <p>エラーサンプリングは計算負荷の高い処理です。そのため、エラーカテゴリごとに最初の 10 件のエラーのみが返されます。受信データソースに含まれるすべてのエラーが返されるようには設計されていません。これらのエラーは、同様のエラーの大きなグループの代表例です。ファイル全体を確認して、このレポートでフラグが設定されているエラーの種類を調べ、ファイルの形式を変更してから、もう一度送信します。 </p> <p>受信データソースのデータファイルを適切にフォーマットする方法について詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルの内容：構文、変数、および例</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +83,7 @@ ht-degree: 92%
 
 ![](assets/totals-percentages.png)
 
-## 14 日間のエラーサンプリングレポート {#error-reporting-14-days}
+## 14日間のエラーサンプリングレポート {#error-reporting-14-days}
 
 エラーサンプリングをアクティブにすると、レポートにはエラータイプごとに上位 10 件のエラーが表示されます。レポートの上部にあるエラータイプボタンをクリックすると、サンプリングされたデータのそれぞれの組が表示されます。
 
@@ -128,7 +140,7 @@ create-onboarding-status-report.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Format Errors</b> </p> </td> 
-   <td colname="col2"> <p>構文や書式設定の要件を満たさなかったために処理が失敗したレコードの数のリストが表示されます。データ <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> フォーマット方法について詳しくは </a> 受信データファイルコンテンツ：構文、変数、例を参照してください。 </p> </td> 
+   <td colname="col2"> <p>構文や書式設定の要件を満たさなかったために処理が失敗したレコードの数のリストが表示されます。データの形式について詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> インバウンドデータファイルの内容：構文、変数、例</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Invalid AAM ID</b> </p> </td> 
@@ -164,7 +176,7 @@ create-onboarding-status-report.xml
    <td colname="col1"> <p> <b>No Trait Realized</b> </p> </td> 
    <td colname="col2"> <p><span class="keyword">Audience Manager</span> で、転送された特性と一致しない特性のリストが表示されます。原因として次のようなものが挙げられます。 </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
-     <li id="li_D4C6306BF2B143198108702B309CE8CF">受信データファイルで特性の形式が適切でない。データファイルの形式については、受信データファイルの内容 <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> 構文、変数、例 </a> を参照してください。 </li> 
+     <li id="li_D4C6306BF2B143198108702B309CE8CF">受信データファイルで特性の形式が適切でない。データファイルの形式について詳しくは、「<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> インバウンドデータファイルの内容：構文、変数、および例</a>」を参照してください。 </li> 
      <li id="li_A1C708A007D24EE09B7C629AFC6E43C3"><span class="keyword">Audience Manager</span> で特性が定義されていない。 </li> 
     </ul> </td> 
   </tr> 
@@ -186,7 +198,7 @@ create-onboarding-status-report.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total Unused Signals</b> </p> </td> 
-   <td colname="col2"> <p>レポート内での受信した未使用シグナルの合計数。この合計は、保存に成功したレコードの合計数に基づいています。 </p> <p>詳しくは <a href="../reporting/dynamic-reports/unused-signals.md"> 未使用シグナルレポート </a> 参照してください。 </p> </td> 
+   <td colname="col2"> <p>レポート内での受信した未使用シグナルの合計数。この合計は、保存に成功したレコードの合計数に基づいています。 </p> <p>詳しくは、<a href="../reporting/dynamic-reports/unused-signals.md">未使用のシグナル レポート </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,9 +6,12 @@ title: サポートされる論理演算子
 uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 feature: Data Explorer
 exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/m9daAh4HRSx5zwBX-ByQU0dLVy-KOt3RMrdjGvFqsMU
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: 151
 ht-degree: 92%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 92%
 
 論理演算子を使用して、キー値ペアのグループ化および特性のバックフィルをおこないます。
 
-## シグナル検索でサポートされる演算子 {#supported-operators-search}
+## 信号検索でサポートされる演算子 {#supported-operators-search}
 
 キー値ペアの検索では、以下の論理演算子がサポートされます。
 
@@ -39,6 +42,6 @@ ht-degree: 92%
 | **[!UICONTROL Startswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で始まる*。 |
 | **[!UICONTROL Endswith]** | キー値ペアの値が、この演算子で指定された文字&#x200B;*で終わる*。 |
 
-## 特性のバックフィルおよび推定でサポートされる演算子 {#supported-operators-backfilling}
+## 特性のバックフィルと推定でサポートされる演算子 {#supported-operators-backfilling}
 
 [!UICONTROL Signal Search]でサポートされている演算子を使用した式を含む特性をバックフィルできます。特性のバックフィルおよび推定では、これらの演算子に加えて [!UICONTROL OR]、[!UICONTROL AND]、および [!UICONTROL AND NOT] 論理演算子もサポートされており、バックフィル対象の特性の式でキー値ペアと組み合わせることができます。

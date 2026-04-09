@@ -7,9 +7,12 @@ title: プラットフォームレベルのキーによる GeoTargeting（地域
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 exl-id: 449096f9-64fd-495f-ac1d-3181a4544279
-source-git-commit: 2de7aba53e3c88d31270f2acb4fa29389f940312
+TQID: https://experienceleague.adobe.com/0urg6GCEHpWwnVBPrkxULMrnihOhJNy5J37oj5nW0ao
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: 621
 ht-degree: 100%
 
 ---
@@ -43,7 +46,7 @@ Audience Manager アカウントのすべてのプロパティ、地理変数で
 | キー | ターゲティングの場合 |
 |--- |--- |
 | d_area_code | [北米地域コード](https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes)。例： <ul><li>**特性**：d_area_code=801</li><li>**特性名**：Utah</li></ul> |
-| d_city | 都市。[都市リスト](assets/d_city.txt)をダウンロードします。例： <ul><li>特性：d_city=bonn</li><li>特性名：Bonn</li></ul> **ヒント**：`d_city` と `d_country` を組み合わせて使用すれば、異なる国にある同じ名前の都市をターゲットにすることができます。`d_postal_code` を使用すると、さらに具体的にターゲットを絞り込むことができます。 |
+| d_city | 都市。[都市リスト](assets/d_city.txt)をダウンロードします。例： <ul><li>特性：d_city=bonn</li><li>特性名：Bonn</li></ul> **ヒント**：`d_city` と `d_country` を組み合わせて使用すれば、異なる国にある同じ名前の都市をターゲティングできます。`d_postal_code` を使用すると、ターゲティングをさらに具体的に絞り込むことができます。 |
 | d_country | ISO 国コードに対応する値。各種コードの検索可能なリストについては、[ISO Online Browsing Platform](https://www.iso.org/obp/ui/#home) を参照してください。<br>英国のターゲティングは、ISO 3166 に従わない特例です。英国では、ターゲティングに「GB」ではなく「UK」を使用する必要があります。オランダ領アンティルをターゲティングするためのコード「AN」は、2010 年から廃止されました。この地域は、5 つの個別の領土単位に分割されました。オランダ領アンティルをターゲティングする場合、「AN」は使用せず、「CW」、「SX」および「BQ」の国コードの組み合わせを使用するのがよいようです。例：<br>特性：d_country=CZ <br>特性名：Czech Republic<br>特性：d_country=UK<br>特性名：United Kingdom<br>特性：d_country=CW OR d_country=SX OR d_country=BQ<br>特性名：Netherlands Antilles |
 | d_dma_code | 大都市圏 DMA コード。[DMA 地域リスト](assets/DMAregions.csv)（.csv 形式）をダウンロードします。例： <ul><li>特性：d_dma_code=807</li><li>特性名：San Francisco</li></ul> |
 | d_lat | 緯度（例：d_lat=40.75）。[緯度リスト](assets/d_lat.txt)をダウンロードします。 |

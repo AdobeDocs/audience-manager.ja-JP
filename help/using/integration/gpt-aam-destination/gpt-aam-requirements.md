@@ -7,14 +7,22 @@ title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third-party Integration
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/RJwzr9sCowegtUDtmi99IBoZHvMBlEZVMBYSGgEVVYE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: 466
 ht-degree: 96%
 
 ---
 
-# Google パブリッシャータグ（GPT）を使用してGoogle Ad Manager にセグメントを送信する要件と方法 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Google パブリッシャータグ（GPT）を使用してGoogle Ad Managerにセグメントを送信する要件と方法 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
 クライアント側またはサーバー側の統合を通じて、適格なセグメントを [!DNL Google Ad Manager]（旧称 DFP）に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
 
@@ -42,7 +50,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->送信できるキーと値の数に制限はありませんが、[!DNL Google] リクエスト [!DNL URL] で使用できる文字数には制限があります。[GPT でのターゲットとサイズの設定](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&answer=1697712)を参照してください。
+>送信できるキーと値の数に制限はありませんが、[!DNL Google] リクエスト [!DNL URL] で使用できる文字数には制限があります。[GPT でのターゲティングとサイズの設定](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&answer=1697712)を参照してください。
 
 ## サーバー側の統合 {#server-side-integration}
 

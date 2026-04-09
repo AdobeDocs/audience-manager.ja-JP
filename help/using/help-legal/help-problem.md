@@ -6,9 +6,14 @@ solution: Audience Manager
 title: 問題がある場合
 feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/9yNQ22FOduvtYsw4ovWOSvyemp5J6edcn3DbLfgpldc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: 370
 ht-degree: 100%
 
 ---
@@ -76,7 +81,7 @@ r_problem.xml
 
 ## 機能停止の場合 {#outage}
 
-機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com/ja-jp)（ [!DNL https://status.adobe.com/ja-jp] ）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新情報も含まれています。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
+機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com/ja-jp)（[!DNL https://status.adobe.com/ja-jp]）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新アップデートも含まれています。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
 
 * 機能停止した時間
 * 発生状況の説明

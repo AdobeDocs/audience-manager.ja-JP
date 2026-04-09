@@ -7,9 +7,16 @@ title: 送信テンプレートマクロ
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
-source-git-commit: d76505fda1ba448a1aaa3a756ef3bcf193a2718a
+TQID: https://experienceleague.adobe.com/XHerr-G8acd--a9-ufwafOHp54nXNFaMnVjnvTHhKlQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: 708
 ht-degree: 98%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 98%
 
 ## ファイル名およびファイルヘッダーマクロ {#file-name-header-macros}
 
-次の表は、ファイル名で使用できるマクロと、ヘッダーのフィールドを定義するためのマクロの一覧と説明です。コードサンプルについては、[&#x200B; 送信マクロの例 &#x200B;](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md) を参照してください。
+次の表は、ファイル名で使用できるマクロと、ヘッダーのフィールドを定義するためのマクロの一覧と説明です。コードサンプルについては、[&#x200B; アウトバウンドマクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -94,7 +101,7 @@ ht-degree: 98%
 
 ## コンテンツマクロ {#content-macros}
 
-データファイルのコンテンツの書式設定に使用するマクロ。コードサンプルについては、[&#x200B; 送信マクロの例 &#x200B;](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md) を参照してください。
+データファイルのコンテンツの書式設定に使用するマクロ。コードサンプルについては、[&#x200B; アウトバウンドマクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 

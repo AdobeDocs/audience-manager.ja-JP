@@ -7,9 +7,12 @@ title: 最新性と頻度
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
 exl-id: c00563f0-d270-4d4d-abeb-4b4b81aa68b8
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/hs9eHIYaxwZFG4saiRfyByoUub-veWzuD3UL8mnlB0k
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: 706
 ht-degree: 99%
 
 ---
@@ -25,7 +28,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 [!UICONTROL Recency] と [!UICONTROL Frequency] の設定は、サイト、セクションまたは特定のクリエイティブに対する実際の（または認識された）関心レベルに基づいて訪問者をセグメント化するのに役立ちます。例えば、高い最新性／頻度要件でセグメントの対象として認定されるユーザーは、それほど頻繁に訪問していないユーザーよりも、サイトまたは製品に関心がある可能性があります。
 
-## [!UICONTROL Recency and Frequency] 設定の場所 {#location}
+## [!UICONTROL Recency and Frequency]設定の場所 {#location}
 
 [!UICONTROL Segment Builder]では、[!UICONTROL Recency]設定と[!UICONTROL Frequency]設定は、[!UICONTROL Traits]パネルの[!UICONTROL Basic View]セクションにあります。時計アイコンをクリックして、これらのコントロールを表示します。
 
@@ -97,7 +100,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 ![次よりも小さいか等しい](assets/less-than-equal-to.png)
 
-この例では、スクリーンショットに示すように、&lt;= 演算子を選択します。この場合は、3 つの[!UICONTROL traits]のいずれかについて過去 5 日間以内に 3 回以上認定された場合、[!UICONTROL segment]のユーザーを認定します。以下のタイムラインは、[!UICONTROL segment]作成時、10 月 1 日、および 10 日後の[!UICONTROL segment]認定を示します。
+この例では、スクリーンショットに示すように、&lt;= 演算子を選択します。この場合は、3 つの[!UICONTROL traits]のいずれかについて過去 5 日間以内に 3 回以上認定された場合、[!UICONTROL segment]のユーザーを認定します。以下のタイムラインは、[!UICONTROL segment]作成時、10月1日、および 10 日後の[!UICONTROL segment]選定を示します。
 
 ![過去 5 日間](assets/last-5-days.png)
 
@@ -105,9 +108,9 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 ![次よりも大きいか等しい](assets/greater-than-equal-to.png)
 
-この例では、スクリーンショットに示すように、=> 演算子を選択します。この場合は、3 つの[!UICONTROL traits]のいずれかについて Audience Manager プラットフォームでの最初の認定と 5 日前の締め切り時間の間に 3 回以上認定された場合、[!UICONTROL segment]のユーザーを認定します。以下のタイムラインは、[!UICONTROL segment]作成時、10 月 1 日、および 10 日後の[!UICONTROL segment]認定を示します。
+この例では、スクリーンショットに示すように、=> 演算子を選択します。この場合は、3 つの[!UICONTROL traits]のいずれかについて Audience Manager プラットフォームでの最初の選定と 5 日前の締め切り時間の間に 3 回以上選定された場合、[!UICONTROL segment]のユーザーを選定します。以下のタイムラインは、[!UICONTROL segment]作成時、10月1日、および 10 日後の[!UICONTROL segment]選定を示します。
 
-![より早い認定](assets/earlier-qualification.png)
+![より早い選定](assets/earlier-qualification.png)
 
 
 ## 頻度キャップの例 {#frequency-capping}

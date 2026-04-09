@@ -7,9 +7,15 @@ title: パブリッシャーのユースケース
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 feature: Reference
 exl-id: 974652de-59c0-46db-ac64-ba701985e409
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/ptW1-1-tTMPBV7xhvI5hglL3LFfhONE3apr9-WQhMYs
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 614
 ht-degree: 100%
 
 ---
@@ -93,7 +99,7 @@ c_pub_use_case.xml
      <ul id="ul_EEED2DAD504C486F8C00992219C893F7"> 
       <li id="li_E536F7C79824484DA3DC895809B849F4">Analytics は、トラベルコンテンツでのオーディエンスの興味に関するファーストパーティデータを提供します。この情報に基づいて、「Travel Enthusiasts」と呼ばれるセグメントを作成します。 </li> 
       <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3"><span class="keyword">Audience Manager</span> を Adobe CQ などのシステムと統合して、コンテンツのパーソナライゼーションキャンペーンを管理します。 </li> 
-      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">航空会社、ホテルまたは接客業の広告主に対してトラベルセグメントをターゲティングして、インベントリによって生成される広告収入の向上に役立てます。 </li> 
+      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">航空会社、ホテルまたは接客業の広告主に対してトラベルセグメントをターゲットにして、インベントリによって生成される広告収入の向上に役立てます。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -152,7 +158,7 @@ c_pub_use_case.xml
      <ul id="ul_51091241D6B94A849A383538045D797C"> 
       <li id="li_88798E58BA574FA196CFC02C9C55A293">顧客データベースの「Xbox gamers」を特定します。 </li> 
       <li id="li_1136BBC68C8242CE9F116F2C70A4C164">類似モデルを実行して、そのセグメントで最も効果的なユーザーを見つけて特定します。 </li> 
-      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">これらのセグメントをターゲティングして、オンサイトディスプレイ広告を Test&amp;Target で最適化します。 </li> 
+      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">これらのセグメントをターゲットにして、オンサイトディスプレイ広告を Test&amp;Target で最適化します。 </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

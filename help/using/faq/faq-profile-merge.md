@@ -8,9 +8,18 @@ title: プロファイル結合ルールおよびデバイスグラフに関す�
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+TQID: https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: 1583
 ht-degree: 99%
 
 ---
@@ -37,7 +46,7 @@ ht-degree: 99%
 
 **外部デバイスグラフを [!UICONTROL Profile Merge Rule] で使用する一般的な例にはどのようなものがありますか？**
 
-[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体にも様々な用途があります。例えば、見込み客のオーディエンスを DSP が提供する広告のターゲットに設定したり、オンサイトのパーソナライゼーションプラットフォームを介して顧客のオンサイトエクスペリエンスをパーソナライズできます。[外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体にも様々な用途があります。例えば、DSP が提供する広告で見込み客のオーディエンスをターゲティングしたり、オンサイトのパーソナライゼーションプラットフォームを介して顧客のオンサイトエクスペリエンスをパーソナライズできます。[外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
 
  
 
@@ -131,7 +140,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **[!DNL Audience Manager] はデバイスグラフを使用する [!UICONTROL Profile Merge Rule] で、特性頻度をどのように計算しますか？**
 
-特性頻度とは、複数のデバイス間における特定の特性に対する認定の数を合計したものです。わかりやすいようにユースケースを紹介します。
+特性頻度とは、複数のデバイス間における特定の特性に対する選定の数を合計したものです。わかりやすいようにユースケースを紹介します。
 
 <table id="table_DE7A308705C84B93B3089CAD2228569E"> 
  <thead> 
@@ -171,7 +180,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **デバイスグラフを使用する [!UICONTROL Profile Merge Rule] で到達できるデバイスの数は確認できますか？**
 
-はい。レポートは [!UICONTROL Profile Merge Rule] レベルでデータを返します。レポートのデータは毎日更新されます。データはデバイスグラフでリンクされているデバイスではなく、アカウントで認識されるデバイスに基づいています。[&#x200B; プロファイル結合ルールのレポート指標 &#x200B;](../features/profile-merge-rules/profile-link-metrics.md) を参照してください。
+はい。レポートは [!UICONTROL Profile Merge Rule] レベルでデータを返します。レポートのデータは毎日更新されます。データはデバイスグラフでリンクされているデバイスではなく、アカウントで認識されるデバイスに基づいています。プロファイル結合ルールの[&#x200B; レポート指標](../features/profile-merge-rules/profile-link-metrics.md)を参照してください。
 
  
 
@@ -191,7 +200,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
    <td colname="col1"> <p> <b>条件</b> </p> </td> 
    <td colname="col2"> <p>以下のものがあるとします。 </p> <p> 
      <ul id="ul_B8B627FBF6A04C0CAE6C8543EA3EA56D"> 
-      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">Segment 1、次の特性と認定ロジックにより作成されています、Segment 1 = Trait A and Trait B and Trait C </li> 
+      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">Segment 1、次の特性と選定ロジックにより作成されています、Segment 1 = Trait A and Trait B and Trait C </li> 
       <li id="li_F7D559B3C0CA424DA2C1A0703C1E1717">Device 1（現在のデバイス）、Device 2（デバイスグラフ）、Device 3（デバイスグラフ）の 3 つのデバイスプロファイル。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -233,7 +242,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
    <td colname="col1"> <p> <b>条件</b> </p> </td> 
    <td colname="col2"> <p>以下のものがあるとします。 </p> <p> 
      <ul id="ul_DC0AC0F79323451C8C2480E4A85AE2EB"> 
-      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">Segment 1、次の特性と認定ロジックにより作成されています、Segment 1 = Trait A and Trait B and Trait C </li> 
+      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">Segment 1、次の特性と選定ロジックにより作成されています、Segment 1 = Trait A and Trait B and Trait C </li> 
       <li id="li_6628727DDD0644BF8F5B6A8A9FA71E67">Device 1（現在のデバイス）、Device 2（デバイスグラフ）、Device 3（デバイスグラフ）の 3 つのデバイスプロファイル。 </li> 
      </ul> </p> </td> 
   </tr> 

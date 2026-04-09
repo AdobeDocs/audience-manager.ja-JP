@@ -7,29 +7,32 @@ title: 競合状態とエラー処理
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
 exl-id: bfb0b684-6b15-434d-b5ec-5f8741c0c691
-source-git-commit: 25d785097228ae66d20cf2b35c8ef63fd64936c6
+TQID: https://experienceleague.adobe.com/UwYrrF5zUD-hUESWPe82KAWVeNfo7M-hcJW6ep0Ov1Y
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 243
 ht-degree: 58%
 
 ---
 
-# 競合状態、レート制限、エラー処理 {#race-conditions-and-error-handling}
+# レース条件、レート制限、エラー処理 {#race-conditions-and-error-handling}
 
 競合状態を防ぐ方法と [!DNL DCS] エラー処理について説明します。
 
 ## 競合状態の防止 {#prevent-race-conditions}
 
-最初のクエリへの応答とユーザーの cookie へのデータの書き込みが完了する前に、[!DNL DCS] ーザーに対して複数の呼び出しを同時に（または連続して）送信すると、競合状態が発生する可能性があります。 競合状態が起こると、Cookie データが破損したり不適切に上書きされるおそれがあるので、好ましくありません。ベストプラクティスとして次の対処法を考慮すると、この問題を避けるのに役に立ちます。
+最初のクエリへの応答とユーザーのCookieへのデータの書き込みが完了する前に、複数の呼び出しを同時に（または連続して）送信すると、競合状態が発生する可能性があります。 [!DNL DCS]競合状態が起こると、Cookie データが破損したり不適切に上書きされるおそれがあるので、好ましくありません。ベストプラクティスとして次の対処法を考慮すると、この問題を避けるのに役に立ちます。
 
 * 同じユーザーから [!DNL DCS] への複数の呼び出しを同時にまたは矢継ぎ早におこなわない。
 * 応答が戻ってくるのを待ってから、次の呼び出しをおこなう。
 
 ## レート制限 {#rate-limiting}
 
-Adobeでは、サービスの可用性に悪影響を与える可能性のある過度の DCS API 呼び出しを検出した場合、レート制限が行われる可能性があります。
+Adobeでは、サービスの可用性に悪影響を与える可能性のある過度のDCS API呼び出しが検出された場合、レート制限が発生する可能性があります。
 
-レート制限が有効になっている場合は、DCS 呼び出しで `429 Too Many Requests` HTTP 応答ステータスコードが返される場合があります。 この HTTP 応答を受信した場合は、後で API 呼び出しを再試行してください。
+レート制限が有効になっている場合、DCS呼び出しに`429 Too Many Requests` HTTP応答ステータスコードが表示される場合があります。 このHTTP応答を受信する場合は、後でAPI呼び出しを再試行してください。
 
 ## エラー処理 {#error-handling}
 
@@ -39,4 +42,4 @@ Adobeでは、サービスの可用性に悪影響を与える可能性のある
 * 無効な地域または選択されていない地域に所在している。
 * ブラウザーの Cookie（すべてまたはサードパーティのみ）を無効にしている。
 
-[DCS エラーコード、メッセージ、例 &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md) も参照してください。
+[DCS エラーコード、メッセージ、および例](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md)も参照してください。

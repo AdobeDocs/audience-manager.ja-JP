@@ -7,9 +7,26 @@ title: プライバシーとデータ保持に関するよくある質問
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/olj76RlEM8Hc6cBdOrdR-kye-bsaCBbkQEHJWNuAXh8
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: 754
 ht-degree: 93%
 
 ---
@@ -75,11 +92,11 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルデバイス ID </p> </td> 
-   <td colname="col2"> <p>モバイルデバイス ID （<a href="../reference/ids-in-aam.md"> IDFA、GAID</a>）の保持条件は、最初の 2 行（バックエンドサーバーとエッジサーバー）で説明したケイデンスに従います。 </p> </td> 
+   <td colname="col2"> <p>モバイルデバイス ID （<a href="../reference/ids-in-aam.md"> IDFA、GAID</a>）の保持条件は、最初の2行、バックエンドサーバーおよびエッジサーバーに記載されているケイデンスに従います。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客データフィード（CDF） </p> </td> 
-   <td colname="col2"> <p>CDF ファイルには、<span class="keyword">Audience Manager</span> イベント呼び出し（/event）でサーバーに送信されるデータと同じものが含まれています。保持期間は 8 日です。CDF の詳細については、「CDF の概要」と「CDF に関 <a href="../features/cdf-files.md"> る FAQ</a>」 <a href="../faq/faq-cdf.md"> 参照してください </a> </p> </td> 
+   <td colname="col2"> <p>CDF ファイルには、<span class="keyword">Audience Manager</span> イベント呼び出し（/event）でサーバーに送信されるデータと同じものが含まれています。保持期間は 8 日です。CDFについて詳しくは、<a href="../features/cdf-files.md"> CDF Intro</a>および<a href="../faq/faq-cdf.md"> CDF FAQ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>同期済み ID 間のマッピング </p> </td> 
@@ -91,14 +108,14 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <p>アウトバウンドデータ </p> </td> 
-   <td colname="col2"> <p>これは、<span class="keyword">Audience Manager</span> からサードパーティアクティベーションパートナーに送信されるバッチデータです。保持期間は 8 日です。アウトバウンドデータについて詳しくは、アウトバウンドバッチ転送 <a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> 参照してください </a> </p> </td> 
+   <td colname="col2"> <p>これは、<span class="keyword">Audience Manager</span> からサードパーティアクティベーションパートナーに送信されるバッチデータです。保持期間は 8 日です。アウトバウンドデータについて詳しくは、<a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> アウトバウンドバッチ転送</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 特性認定データ保持 {#trait-qual}
+## 特性選定データ保持 {#trait-qual}
 
-特性認定のデータ保持オプションを次の表にまとめます。
+特性選定のデータ保持オプションを次の表にまとめます。
 
 <table id="table_7FB42BEF138540AAB6869995C1AB8D3F"> 
  <thead> 
@@ -110,11 +127,11 @@ ht-degree: 93%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>特性を削除 </p> </td> 
-   <td colname="col2"> <p>特性を削除すると、過去にその特性に絞り込まれたすべてのユーザープロファイルから特性認定データが削除されます。 </p> </td> 
+   <td colname="col2"> <p>特性を削除すると、過去にその特性に絞り込まれたすべてのユーザープロファイルから特性選定データが削除されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>特性上限に到達 </p> </td> 
-   <td colname="col2"> <p>ユーザーごとの特性絞り込みの上限を 100,000 件に設定しています。この制限は、認証済みプロファイルとデバイスプロファイルに適用されます。ユーザープロファイルがこの上限に達したら、先入れ先出し方式で古い特性絞り込みから順に削除します。 </p> <p>詳しくは、<a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit">特性絞り込みの制限</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーごとの特性絞り込みの上限を 100,000 件に設定しています。この制限は、認証済みプロファイルとデバイスプロファイルに適用されます。ユーザープロファイルがこの上限に達したら、先入れ先出し方式で古い特性絞り込みから順に削除します。 </p> <p>詳しくは、<a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit">特性選定の制限</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

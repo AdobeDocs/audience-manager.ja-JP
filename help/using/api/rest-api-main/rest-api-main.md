@@ -7,9 +7,17 @@ title: REST API
 uuid: f575c8dd-7381-4b55-8228-26eb87fbef64
 feature: API
 exl-id: 2c5d0567-9d48-48b5-b261-2b00a3070b2f
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/TSYgffKqszvLSju464YHTKIqSBlmykqBsOgUd8iBcE4
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: c2c33729-f309-4bc2-92ba-87c475259df3
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: 79
 ht-degree: 100%
 
 ---

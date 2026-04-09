@@ -8,9 +8,14 @@ title: 'キーと値のペアの解説 '
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: Reference
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+TQID: https://experienceleague.adobe.com/6rXUarJT3GqTxNw6NuwivkSai1Rpf63sILAJ7oPJdXg
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 268
 ht-degree: 98%
 
 ---
@@ -56,7 +61,7 @@ c_key_value_explained.xml
 
 | のタイプ | 例 | キー | キー値セパレーター | キー値デリミター | シリアルセパレーター |
 |---------|----------|---------|---------|----------|---------|
-| **シングルキー** （標準） | `x=1&x=2` | `x` | `=` | `&` | なし |
+| **単一キー** （標準） | `x=1&x=2` | `x` | `=` | `&` | なし |
 | **キーと値のペア**（標準） | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | なし |
 | **単一キー**（シリアル） | `x=1;2;3` | `x` | `=` | なし | `;` |
 | **キーと値のペア**（シリアル） | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |

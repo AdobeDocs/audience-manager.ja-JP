@@ -5,9 +5,21 @@ solution: Audience Manager
 title: IP アドレスの難読化
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/HDL8UVo5Buup16TdOH8RZXit9EDTXtivbpUfqaaYezo
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: 509
 ht-degree: 83%
 
 ---
@@ -29,11 +41,11 @@ Audience Manager で収集された IP アドレスを難読化するには、�
 
 [データプライバシーの節](/help/using/overview/data-security-and-privacy/data-privacy.md)の「IP アドレスの収集と IP アドレスの難読化」も参照してください。
 
-### IP の不明化の予測 {#precedence}
+### IP難読化率 {#precedence}
 
-[&#x200B; データストリームレベルの IP の不明化 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#create) は、Audience Managerで設定した IP の不明化オプションよりも優先され、すべての IP アドレスに適用されます。 Audience Managerで行われたジオロケーション検索は、データストリームレベルの [!UICONTROL IP obfuscation] オプションの影響を受けます。 完全に不明化された IP に基づくAudience Managerでの位置情報ルックアップは、結果として得られた位置情報データに基づくセグメントが実現されない、未知のリージョンが原因となります。
+[&#x200B; データストリームレベルのIP難読化](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#create)は、Audience Managerで設定されているIP難読化オプションよりも優先され、すべてのIP アドレスに適用されます。 Audience Managerによる位置情報の検索は、データストリームレベルの[!UICONTROL IP obfuscation] オプションの影響を受けます。 Audience Managerで、完全に難読化されたIPに基づいて位置情報を検索すると、未知のリージョンになり、結果の位置情報データに基づくセグメントは実現されません。
 
-## IP アドレスの不明化の要件 {#ip-obfuscation-requirements}
+## IP アドレス難読化要件 {#ip-obfuscation-requirements}
 
 IP アドレスの難読化は、Audience Manager管理者アカウントでのみ使用できます。ユーザーに管理者権限を割り当てる方法については、[ユーザーの作成](/help/using/features/administration/administration-overview.md#create-users)を参照してください。
 
@@ -41,7 +53,7 @@ IP アドレスの難読化は、Audience Manager管理者アカウントでの�
 >
 > Audience Manager によって処理される大量のデータにより、IP 難読化の変更には、設定を更新時点からカウントして最大 4 時間かかることがあります。
 
-## IP アドレスの不明化の設定 {#configure-ip-obfuscation}
+## IP アドレス難読化の設定 {#configure-ip-obfuscation}
 
 IP アドレスの難読化を設定するには、次の手順に従います。
 
@@ -52,7 +64,7 @@ IP アドレスの難読化を設定するには、次の手順に従います�
 
 ![](assets/ip-obfuscation.png)
 
-## IP アドレスの不明化を無効にする {#disable-ip-obfuscation}
+## IP アドレス難読化の無効化 {#disable-ip-obfuscation}
 
 IP アドレスの難読化をグローバルに無効にするには、**Administration／Privacy** に移動し、「**Do not obfuscate IP addresses**」を選択して、「**Save**」をクリックします。
 

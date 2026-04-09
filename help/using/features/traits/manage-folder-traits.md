@@ -8,9 +8,17 @@ title: フォルダー特性の管理
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 exl-id: fa7a8d2a-dacc-413e-89d6-d3b7ce7bbbe3
-source-git-commit: f7a4478589f4af1d467f1045a97dbb7f5cd6f9e5
+TQID: https://experienceleague.adobe.com/YScTXBbG6HeRUviBsC2Rl9L7QdOXe-ciVwWBQfbPOzs
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: 362
 ht-degree: 100%
 
 ---

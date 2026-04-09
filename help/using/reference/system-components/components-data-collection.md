@@ -7,9 +7,27 @@ title: データ収集コンポーネント
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: System Components
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/x5ryJCxXPXeT7cPV3oN5wIprkBlcechsRwu1qB5k6hQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+  - id: f8c1669e-86ba-49c4-b622-9dfa07854df8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 736
 ht-degree: 96%
 
 ---
@@ -40,7 +58,7 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 [!DNL Audience Manager] で、DCS は以下をおこないます。
 
 * イベント呼び出しから特性データを受け取り、評価します。これには、リアルタイムのセグメント化で使用される情報と、スケジュールされた間隔でサーバー間転送によって渡されるデータが含まれます。
-* [&#x200B; セグメントビルダー &#x200B;](../../features/segments/segment-builder.md) で作成した実現された特性と選定ルールに基づいて、ユーザーをセグメント化します。
+* [&#x200B; セグメントビルダー](../../features/segments/segment-builder.md)で作成した認識特性と選定ルールに基づいて、ユーザーをセグメント化します。
 * デバイス ID および認証済みのプロファイル ID を作成および管理します。これには、データプロバイダー ID、ユーザー ID、宣言された ID、統合コードなどがあります。
 * リアルタイムのイベント呼び出しの前に、ユーザーが既に適合している特性が他にないかを PCS で確認します。これにより、リアルタイムのデータと過去のデータに基づきユーザーを適合させることができます。
 * ログファイルへの書き込みをおこない、それらを保存および処理する分析システムに送信します。
@@ -61,7 +79,7 @@ DCS と PCS は連携して動作することで、それぞれが特性の適�
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-[!UICONTROL PCS] は大規模なデータベースです（基本的には、サーバー側の巨大な Cookie です）。サーバーからサーバーへのデータ転送および [!DNL DCS] から受信したアクティブユーザーのデータを格納します。[!UICONTROL PCS] データは、デバイス ID、認証済みプロファイル ID、およびそれらに関連付けられた特性で構成されます。[!DNL DCS] はリアルタイムの呼び出しを受信すると、[!UICONTROL PCS] を照会して、ユーザーが属する、または適合する可能性がある他の特性がないかを確認します。さらに、セグメントに後から特性が追加された場合、それらの特性 ID は [!UICONTROL PCS] に追加され、特定のサイトやアプリを訪問しなくても、ユーザーは自動でそのセグメントに適合されます。[!UICONTROL PCS] は、最新または過去の特性データを使用して、リアルタイムまたは事後的にユーザーを照合およびセグメント化できるので、[!DNL Audience Manager] は PCS を通してユーザーをより深く把握できます。この動作によって、リアルタイムの適合のみの場合よりも正確で包括的なユーザー像を得ることができます。
+[!UICONTROL PCS] は大規模なデータベースです（基本的には、サーバー側の巨大な Cookie です）。サーバーからサーバーへのデータ転送および [!DNL DCS] から受信したアクティブユーザーのデータを格納します。[!UICONTROL PCS] データは、デバイス ID、認証済みプロファイル ID、およびそれらに関連付けられた特性で構成されます。[!DNL DCS] はリアルタイムの呼び出しを受信すると、[!UICONTROL PCS] を照会して、ユーザーが属する、または適合する可能性がある他の特性がないかを確認します。さらに、セグメントに後から特性が追加された場合、それらの特性 ID は [!UICONTROL PCS] に追加され、特定のサイトやアプリを訪問しなくても、ユーザーは自動でそのセグメントに適合されます。[!UICONTROL PCS] は、最新または過去の特性データを使用して、リアルタイムまたは事後的にユーザーを照合およびセグメント化できるので、[!DNL Audience Manager] は PCS を通してユーザーをより深く把握できます。この動作によって、リアルタイムの選定のみの場合よりも正確で包括的なユーザー像を得ることができます。
 
 お客様が直接 [!UICONTROL PCS] を操作するための UI コントロールは用意されていません。お客様は、データストアおよびデータ転送を担当する役割を通して、間接的に [!UICONTROL PCS] にアクセスします。[!UICONTROL PCS] は Apache Cassandra 上で動作します。
 
@@ -90,7 +108,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
 ## インバウンドのサーバー間通信 {#inbound-outbound-server}
 
-クライアントとの様々なサーバー間統合によって送信されるデータを受信するシステム。詳しくは、[&#x200B; オーディエンスデータの送信 &#x200B;](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) に関するドキュメントを参照してください。
+クライアントとの様々なサーバー間統合によって送信されるデータを受信するシステム。詳しくは、[&#x200B; オーディエンスデータの送信](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)に関するドキュメントを参照してください。
 
 ## ログファイル {#log-files}
 

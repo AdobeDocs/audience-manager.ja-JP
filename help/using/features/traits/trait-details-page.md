@@ -5,32 +5,42 @@ seo-title: Trait Details Page
 solution: Audience Manager
 title: 特性の詳細ページ
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: id タイプの分類、id の分類、オーディエンス ID レポート、クロスデバイス、クロスデバイス ID、デバイス ID
+keywords: id タイプの分類、IDの分類、オーディエンス ID レポート、クロスデバイス、クロスデバイス ID、デバイス ID
 feature: Traits
 exl-id: c0b4791f-885e-4b14-b7e8-3c2d618fb80e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/0cnIIgjhIEgN-2M9gOtvkhx-cOwy0Wo14Qz-SVL-VHc
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: 616
 ht-degree: 96%
 
 ---
 
-# [!UICONTROL Trait] Details Page {#trait-details-page}
+# [!UICONTROL Trait]詳細ページ {#trait-details-page}
 
 個々の[!UICONTROL trait]の詳細ページには、[!UICONTROL trait]名、ID、パフォーマンス指標、[!UICONTROL trait]を定義する式、特性が属するセグメント、[!UICONTROL trait]監査ログなど、[!UICONTROL trait]の詳細の概要が表示されます。これらの詳細を表示するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Traits]** を選択し、対象となる[!UICONTROL trait]の名前をクリックします。
 
-## [!UICONTROL Trait] 管理ツール {#trait-management-tools}
+## [!UICONTROL Trait]管理ツール {#trait-management-tools}
 
 [!UICONTROL trait]の詳細ページの上部に、[!UICONTROL traits]を管理するために使用できるツールがあります。
 
 1. **[!UICONTROL Add New]**：このオプションを使用して、新規 [!UICONTROL rule-based]、[!UICONTROL algorithmic]または[!UICONTROL onboarded traits]を作成します。
 2. **[!UICONTROL Edit]**：このオプションを使用して、現在の[!UICONTROL trait]の設定を変更します。
 3. **[!UICONTROL Delete]**：このオプションを使用して、Audience Manager アカウントから現在の[!UICONTROL trait]を削除します。
-4. **[!UICONTROL Marketplace Recommendations]**：このオプションを使用して、購読していない[!UICONTROL traits]データフィードから、表示している[!UICONTROL Audience Marketplace]に類似した特性を見つけます。[!UICONTROL Marketplace]へのナビゲート方法および類似した特性を見つける方法について詳しくは、[データ購入者向けの Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) を参照してください。
+4. **[!UICONTROL Marketplace Recommendations]**：このオプションを使用して、購読していない[!UICONTROL traits]データフィードから、表示している[!UICONTROL Audience Marketplace]に類似した特性を見つけます。[!UICONTROL Marketplace] へのナビゲート方法および類似した特性を見つける方法について詳しくは、[データ購入者向けの Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) を参照してください。
 
 ![basic-trait-information](assets/basic-trait-information.png)
 
-## [!UICONTROL Trait] Information {#basics}
+## [!UICONTROL Trait]情報 {#basics}
 
 「[!UICONTROL Trait Information]」セクションには、[!UICONTROL trait] の作成時に入力した必須フィールドとオプションフィールドの詳細が表示されます。これには、[!UICONTROL trait] タイプ、[!UICONTROL trait] ID、説明、[!UICONTROL data source]、その他のメタデータなどが含まれます。これらの詳細は、[!UICONTROL trait] タイプ（[!UICONTROL folder]、[!UICONTROL onboarded]または [!UICONTROL rule-based]）によって異なります。
 
@@ -40,9 +50,9 @@ ht-degree: 96%
 
 「[!UICONTROL Unique Trait Realizations]」は、特定の期間内にこの[!UICONTROL trait]をプロファイルに追加したユニークユーザーの数を表します。「[!UICONTROL Total Trait Population]」は、現在この[!UICONTROL trait]について認定されているユニークユーザーの数を表します。
 
-[!UICONTROL rule-based traits]の場合、[!UICONTROL trait]認定は、ユーザーがブラウザーで[!UICONTROL trait]について認定されるとリアルタイムで発生します。
+[!UICONTROL rule-based traits]の場合、[!UICONTROL trait]選定は、ユーザーがブラウザーで[!UICONTROL trait]について選定されるとリアルタイムで発生します。
 
-[!UICONTROL onboarded traits]の場合は、受信ファイルの処理後に認定がおこなわれます。（例：[!UICONTROL trait]受信ファイルが [Audience Manager に送られ](../../faq/faq-inbound-data-ingestion.md)、[!UICONTROL trait]認定がおこなわれたとき）
+[!UICONTROL onboarded traits]の場合は、受信ファイルの処理後に選定が行われます。（例：[!UICONTROL trait]受信ファイルが [Audience Manager に送られ](../../faq/faq-inbound-data-ingestion.md)、[!UICONTROL trait]選定が行われたとき）
 
 [!UICONTROL Trait Graph]には、次の情報が表示されます。
 
@@ -65,7 +75,7 @@ ht-degree: 96%
 
   >[!VIDEO](https://video.tv.adobe.com/v/34081?captions=jpn)
 
-## [!UICONTROL Trait] 式 {#trait-expression}
+## [!UICONTROL Trait]式 {#trait-expression}
 
 「[!UICONTROL Trait Expression]」セクションには、ユーザーが[!UICONTROL trait]について認定されるために満たさなければならない条件が表示されます。これらのルールは、[特性を作成または編集](../../features/traits/about-trait-builder.md)するときに設定されます。
 
@@ -77,7 +87,7 @@ ht-degree: 96%
 
 ![](assets/traitSegments.png)
 
-## [!UICONTROL Trait] 監査/履歴ログ {#trait-audit-history}
+## [!UICONTROL Trait]監査/履歴ログ {#trait-audit-history}
 
 [!UICONTROL rule-based]および[!UICONTROL onboarded traits]の場合、「[!UICONTROL Trait Expression Change History]」には、[!UICONTROL trait]式ルールに対する直近 10 件の変更と、その変更をおこなったユーザーが表示されます。[!UICONTROL trait]に対する変更が 10 件を超える場合、**[!UICONTROL Export to CSV]**&#x200B;をクリックすると監査ログ全体をダウンロードできます。[!UICONTROL folder]または[!UICONTROL algorithmic traits]で監査ログを使用できません。
 

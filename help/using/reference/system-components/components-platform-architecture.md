@@ -7,9 +7,15 @@ title: プラットフォームアーキテクチャ データフローマップ
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
 feature: System Components
 exl-id: 6543df7d-aac5-4181-87a8-bc47edd2e951
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/AuYZKnavjMq-XyilPWgEeWASzFB3K5HuAqx-wsE-H9k
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: 170
 ht-degree: 91%
 
 ---
@@ -30,6 +36,6 @@ c_compmap.xml
 
 [!DNL Audience Manager] で出し入れされるデータのタイプは色によって定義されます。グリーンはクライアントデータ、ブルーは顧客データ（サイトを訪れる訪問者）、オレンジはレポートに使用されるデータをそれぞれ示します。
 
-システムの説明と概要については、データ [&#x200B; アクション &#x200B;](../../reference/system-components/components-data-action.md)、[&#x200B; コレクション &#x200B;](../../reference/system-components/components-data-collection.md)、[&#x200B; 処理 &#x200B;](../../reference/system-components/components-data-processing.md)、[&#x200B; タグ管理 &#x200B;](../../reference/system-components/components-tag-management.md) の各節を参照してください。
+システムの説明と概要については、[&#x200B; アクション &#x200B;](../../reference/system-components/components-data-action.md)、[&#x200B; コレクション &#x200B;](../../reference/system-components/components-data-collection.md)、[処理](../../reference/system-components/components-data-processing.md)、および[&#x200B; タグ管理](../../reference/system-components/components-tag-management.md)のデータ セクションを参照してください。
 
 ![](assets/flowmap.png)

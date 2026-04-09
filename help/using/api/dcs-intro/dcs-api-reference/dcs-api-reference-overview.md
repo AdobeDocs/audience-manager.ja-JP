@@ -5,9 +5,18 @@ seo-title: DCS API Reference Overview in Adobe Audience Manager (AAM)
 title: DCS API リファレンスの概要
 feature: DCS
 exl-id: 84d20041-0b98-4ba5-ba97-29c35f088ad9
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/e7W6fcETh4YArPa0k2hn11GMYgFjSU4AxALe92a7DhE
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: 276
 ht-degree: 100%
 
 ---
@@ -22,9 +31,9 @@ ht-degree: 100%
 
 * [DCS エラーコード、メッセージ、例](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
-  データ収集サーバー（DCS）で生成されるエラーコードおよびメッセージをコード ID の順に説明します。
+  データ収集サーバー（DCS）で生成されるエラーコードおよびメッセージをコード ID 順に説明します。
 
-* [ID の監視とブロックリストへの登録](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+* [ID のモニタリングと拒否リストへの登録](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
   DCS は受信する ID を監視し、一定期間に異常に高い頻度で送信された ID をブロックリストに登録します。
 
