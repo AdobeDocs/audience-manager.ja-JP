@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 対象オーディエンス
 
-このページは、[Audience Manager タグ拡張機能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview)を使用してweb コレクションデータをAudience Managerに取り込むAudience Managerのお客様向けです。 AppMeasurement JavaScript ライブラリを使用しているお客様は、Audience Managerのデータ収集ライブラリを[AppMeasurement JavaScript ライブラリからWeb SDK JavaScript ライブラリ &#x200B;](appmeasurement-to-web-sdk.md)に更新する方法に関するガイドをお読みください。
+このページは、[Audience Manager タグ拡張機能](https://experienceleague.adobe.com/ja/docs/experience-platform/tags/extensions/client/audience-manager/overview)を使用してweb コレクションデータをAudience Managerに取り込むAudience Managerのお客様向けです。 AppMeasurement JavaScript ライブラリを使用しているお客様は、Audience Managerのデータ収集ライブラリを[AppMeasurement JavaScript ライブラリからWeb SDK JavaScript ライブラリ &#x200B;](appmeasurement-to-web-sdk.md)に更新する方法に関するガイドをお読みください。
 
 ## この実装パスの利点と欠点
 

@@ -43,7 +43,7 @@ Audience Manager で収集された IP アドレスを難読化するには、�
 
 ### IP難読化率 {#precedence}
 
-[&#x200B; データストリームレベルのIP難読化](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create)は、Audience Managerで設定されているIP難読化オプションよりも優先され、すべてのIP アドレスに適用されます。 Audience Managerによる位置情報の検索は、データストリームレベルの[!UICONTROL IP obfuscation] オプションの影響を受けます。 Audience Managerで、完全に難読化されたIPに基づいて位置情報を検索すると、未知のリージョンになり、結果の位置情報データに基づくセグメントは実現されません。
+[&#x200B; データストリームレベルのIP難読化](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja#create)は、Audience Managerで設定されているIP難読化オプションよりも優先され、すべてのIP アドレスに適用されます。 Audience Managerによる位置情報の検索は、データストリームレベルの[!UICONTROL IP obfuscation] オプションの影響を受けます。 Audience Managerで、完全に難読化されたIPに基づいて位置情報を検索すると、未知のリージョンになり、結果の位置情報データに基づくセグメントは実現されません。
 
 ## IP アドレス難読化要件 {#ip-obfuscation-requirements}
 
