@@ -472,4 +472,4 @@ ht-degree: 100%
 
 ### 応答
 
-更新が成功すると、レスポンスコード `201 created` と [!UICONTROL DIL][!DNL JavaScript] コードが返されます。
+更新が成功すると、レスポンスコード `201 created` と [!UICONTROL DIL]&#x200B;[!DNL JavaScript] コードが返されます。
