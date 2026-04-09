@@ -1,5 +1,5 @@
 ---
-description: 派生シグナルは、認識済みの特性に基づいてサイト訪問者を追加の特性に適合させます。つまり、追加の特性認定は、現在認定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
+description: 派生シグナルは、認識済みの特性に基づいてサイト訪問者を追加の特性に適合させます。つまり、追加の特性選定は、現在選定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
 seo-description: A derived signal qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
 seo-title: Derived Signals
 solution: Audience Manager
@@ -7,16 +7,19 @@ title: 派生シグナル
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
 feature: Traits
 exl-id: 64bc004a-a31a-49bb-aa58-323fbc92f76f
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/NuY2-dNMtPcte2WQE572uvyS-uiIzZmSPrlOyOndPuU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 261
 ht-degree: 100%
 
 ---
 
 # 派生シグナル {#derived-signals}
 
-[!UICONTROL derived signal]は、認識済みの特性に基づいてサイト訪問者を追加の特性の対象として認定されます。つまり、追加の特性認定は、現在認定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
+[!UICONTROL derived signal]は、認識済みの特性に基づいてサイト訪問者を追加の特性の対象として認定されます。つまり、追加の特性選定は、現在選定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
 
 <!-- c_tb_derived_signal.xml -->
 

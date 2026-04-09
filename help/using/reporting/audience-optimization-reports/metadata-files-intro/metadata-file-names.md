@@ -7,9 +7,12 @@ title: メタデータファイルの命名規則
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
 feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
-source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
+TQID: https://experienceleague.adobe.com/8NiHEhLXJHHdYfO4LjwpEjpLqFHsHAW3BnI9q4K8zt4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 205
 ht-degree: 98%
 
 ---
@@ -33,7 +36,7 @@ ht-degree: 98%
 * 中央のコンポーネント **0** は、技術的には親 ID であり、従来のフィールドです。値は常に **0** として設定する必要があります。
 * 子 ID には、ディメンションに応じて 1 ～ 10 の値を指定できます。次を参照してください。
 
-## 子 ID のディメンション {#child-dimension}
+## 子ID ディメンション {#child-dimension}
 
 メタデータファイル名において、子 ID は、ファイル内のデータのタイプを分類しデータを階層に配置する識別子になります。ファイル名の子 ID には、次のカテゴリ ID でタグ付けできます。
 

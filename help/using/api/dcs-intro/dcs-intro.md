@@ -5,9 +5,14 @@ description: Audience Manager のデータ収集サーバー（DCS）をプロ�
 seo-description: Code, methods, and techniques that let you work programmatically with the Audience Manager Data Collection Servers (DCS).
 feature: DCS
 exl-id: be18a59c-c70d-4dcb-ae84-58ab0a3b8921
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/MF97eVtUjjiEUsbazx-TRnb9HkQoog6txSBO3D4hbJU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: 138
 ht-degree: 100%
 
 ---

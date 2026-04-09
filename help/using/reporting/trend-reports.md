@@ -7,9 +7,14 @@ title: トレンドレポート
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: General & Trend Reports
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-source-git-commit: 42f9b32edcde423369f7e8254b04fdc6162130d0
+TQID: https://experienceleague.adobe.com/fKSbryohm3Syccv6Q1UTD2rn54SCYHiCTh6YThEwR-M
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: 651
 ht-degree: 98%
 
 ---
@@ -101,7 +106,7 @@ t_working_with_trend_reports.xml
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
-[Audience Managerのクロスデバイス指標について &#x200B;](https://experienceleague.adobe.com/ja/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Audience Managerのクロスデバイス指標について](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## セグメントに関するトレンドレポートの結果 {#segment-report-results-traits}
 

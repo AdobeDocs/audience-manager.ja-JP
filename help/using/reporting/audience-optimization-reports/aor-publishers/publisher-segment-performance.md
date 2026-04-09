@@ -3,13 +3,16 @@ description: セグメントパフォーマンスレポートは、インプレ�
 seo-description: The Segment Performance report compares mapped and unmapped segments by impressions and Real-Time Segment Uniques. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Comparing these different segment types within and between reports helps you optimize existing campaigns and find overlooked segments that you may want to send to a destination for targeting.
 seo-title: Segment Performance Report
 solution: Audience Manager
-title: 公開者向けセグメントパフォーマンスレポート
+title: パブリッシャー向けのセグメントパフォーマンスレポート
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: Audience Optimization Reports
 exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/tSnF1HtFr2zjNpZIIINTOAQ8oglRmhrrSFgZfCbr7Cg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: 645
 ht-degree: 99%
 
 ---

@@ -7,9 +7,13 @@ title: 収集されるデータのタイプ
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 feature: Overview
 exl-id: cfb587da-ceac-425f-8334-e961eba6fad2
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+TQID: https://experienceleague.adobe.com/nMjHSXnwJX9rLBsK4rlpA93XZlxsofDFYlRFHREAzCE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: 850
 ht-degree: 100%
 
 ---

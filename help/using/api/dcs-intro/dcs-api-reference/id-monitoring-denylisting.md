@@ -4,18 +4,22 @@ keywords: id；監視；dcs
 seo-description: The DCS monitors the IDs it receives and adds those that are being sent at an unusually high rate over a short period of time to a deny list.
 seo-title: ID Monitoring and Denylisting
 solution: Audience Manager
-title: ID の監視と拒否リスト登録
+title: ID のモニタリングと拒否リストへの登録
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 99%
 
 ---
 
-# ID の監視と拒否リスト登録
+# ID のモニタリングと拒否リストへの登録
 
 [!DNL DCS] は受信する ID を監視し、一定期間に異常に高い頻度で送信された ID をブロックリストに登録します。
 
@@ -49,6 +53,6 @@ Audience Manager インフラストラクチャを悪意のあるアクティビ
 
 ID がブロックリストに追加される原因として最もよくあるのは、顧客インフラストラクチャと Audience Manager 間の不適切な統合です。ID がブロックリストに登録された場合は、Audience Manager の統合を十分に確認してください。Audience Manager を Experience Cloud の他のソリューションまたは外部システムと連携するように設定する方法について詳しくは、**実装および統合ガイド**&#x200B;を参照してください。
 
-ID がブロックリストに登録される別のよくある原因は、ボット（Web クローラー）のインデックス作成です。通常、これによってトラフィックが増加し、同じ ID が複数回 [!DNL DCS] に送信されます。ブロックリストに ID が追加される理由としてインデックスボットを識別する場合は、Web サイトへのボットアクセスを制限する必要があります。
+ID がブロックリストに登録される別のよくある原因は、ボット（Web クローラー）のインデックス作成です。通常、これによってトラフィックが増加し、同じ ID が複数回 [!DNL DCS] に送信されます。ブロックリストに ID が追加される理由としてインデックス作成ボットを識別する場合は、web サイトへのボットアクセスを制限する必要があります。
 
 統合に関する問題を特定できない場合は、カスタマーサポートまでお気軽にお問い合わせください。サポートリクエストを開始する前に、必ずブラウザーの `.har` `HTTP` アーカイブを準備しておいてください。このアーカイブは、サポートチームが ID がブロックリストに追加された理由を特定するのに役立ちます。

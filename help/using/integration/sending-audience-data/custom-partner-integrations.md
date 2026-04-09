@@ -6,9 +6,13 @@ solution: Audience Manager
 title: カスタムパートナーの統合
 feature: Third-party Integration
 exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/0QvyTQOmjkES1ZO47uu7JTh07-5--uHIgCbJ9iAYfrE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: 271
 ht-degree: 98%
 
 ---

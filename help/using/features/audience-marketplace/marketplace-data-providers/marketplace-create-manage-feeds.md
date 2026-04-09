@@ -7,9 +7,14 @@ title: データフィードの作成、価格設定および管理
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
 exl-id: e8605e94-e62a-430c-9aef-875f995fb436
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+TQID: https://experienceleague.adobe.com/-tBvHL-JM9MSve2w5-7SBKY1cvscGZ1d-sLy7JMj8AQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: 1260
 ht-degree: 98%
 
 ---
@@ -37,7 +42,7 @@ ht-degree: 98%
 
 1. 「[!UICONTROL Plan Types]」で使用するオプションを選択し、「**[!UICONTROL Add Plan]**」をクリックします。
 
-   フィードには複数のプランが含まれる場合があります。プランには複数のユースケースが含まれる場合があります。詳しくは、[&#x200B; データフィードのプランタイプ &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types) を参照してください。
+   フィードには複数のプランが含まれる場合があります。プランには複数のユースケースが含まれる場合があります。詳しくは、[ データフィードのプランの種類](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)を参照してください。
 
 1. 「**[!UICONTROL Save]**」をクリックすると、データフィードがアクティブ化&#x200B;*されずに*&#x200B;保存されます。
 1. データフィードを保存してアクティブ化するには：

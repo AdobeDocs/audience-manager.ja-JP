@@ -8,9 +8,13 @@ title: ルールベースまたはオンボードの特性の作成
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: 356
 ht-degree: 96%
 
 ---
@@ -48,7 +52,7 @@ ht-degree: 96%
        <li id="li_579302FE34B64FE0AE3C751012839229">ハイフン </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">タブ </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">縦棒またはパイプ記号 </li> 
-      </ul> </p> </p> <p>これにより、<a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> の受信データファイル転送を設定する際の処理エラーを減ら </a> ます。 </p> </td> 
+      </ul> </p> </p> <p>これにより、<a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイル転送</a>を設定する際の処理エラーを軽減できます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Description</span></b> </td> 
@@ -81,7 +85,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-## [!UICONTROL Trait]の有効期間の設定 {#set-expiration-interval}
+## [!UICONTROL Trait] の有効期限の設定 {#set-expiration-interval}
 
 [!UICONTROL Trait Builder]で[!UICONTROL Advanced Options]を使用すると、[!UICONTROL trait] の有効期間（[!DNL TTL]）を設定できます。[!DNL TTL] は、対象として認定された訪問者が[!UICONTROL trait]にとどまる日数を定義します（120 日がデフォルト）。これを 0 に設定すると、[!UICONTROL trait]メンバーシップは有効期限なしになります。
 

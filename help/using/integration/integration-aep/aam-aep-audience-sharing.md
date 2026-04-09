@@ -5,9 +5,14 @@ title: Audience Manager およびその他の Experience Cloud ソリューシ�
 keywords: AEP オーディエンス共有、AEP セグメント、Platform のセグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
 feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: cefdb449-7764-4855-a54f-3901d8be873d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: 1799
 ht-degree: 94%
 
 ---
@@ -16,9 +21,9 @@ ht-degree: 94%
 
 ## 概要 {#overview}
 
-Audience ManagerとAdobe Experience Platformの間でオーディエンスを共有する機能を使用すると、Audience Managerの特性とセグメントをAdobe Experience Platformに、Experience PlatformのセグメントをAudience Managerに共有できます。
+Audience ManagerとAdobe Experience Platform間のオーディエンス共有機能により、Audience Managerの特性とセグメントをAdobe Experience Platformに、Experience PlatformのセグメントをAudience Managerに共有できます。
 
-Audience ManagerとAdobe Experience Platformの間でオーディエンスの共有を有効にするには、Experience Platformで [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja) と [2&rbrace;Experience Cloud Audiences&rbrace; の宛先が必要です。](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ja)
+Audience ManagerとAdobe Experience Platform間のオーディエンス共有を有効にするには、Experience Platformの[[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)および[Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)の宛先が必要です。
 
 Experience Platform で Audience Manager の特性とセグメントを使用して、Audience Manager データを顧客プロファイルに追加し、Experience Platform の[セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を活用することができます。
 
@@ -75,7 +80,7 @@ Audience Manager ソースコネクターを設定して、Audience Manager か�
 
 >[!IMPORTANT]
 >
-> ここでは、Experience PlatformからAudience Managerへの従来のセグメント共有の統合について説明します。 Adobeのお客様の担当者のサポートなしで、この統合を設定できるようになりました。 詳しくは、[Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=ja) の宛先に関するドキュメントを参照してください。
+> ここでは、Experience PlatformからAudience Managerへの従来のセグメント共有統合について説明します。 Adobeのお客様の担当者のサポートがなくても、この統合を設定できるようになりました。 詳しくは、[Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)宛先ドキュメントを参照してください。
 
 >[!NOTE]
 >

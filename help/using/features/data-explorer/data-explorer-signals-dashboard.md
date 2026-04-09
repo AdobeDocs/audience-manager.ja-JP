@@ -6,9 +6,12 @@ title: シグナルダッシュボード
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: 250
 ht-degree: 96%
 
 ---
@@ -27,13 +30,13 @@ Audience Manager で過去 7 日以内に受信した未使用シグナルの概
 
 ![](assets/signals-top-unused.png)
 
-## 新しい未使用シグナル {#new-unused-signals}
+## 新しい未使用のシグナル {#new-unused-signals}
 
 このセクションには、過去 7 日以内に受信した未使用シグナルのうち、最新の 50 個が表示されます。
 
 ![](assets/signals-new-unused.png)
 
-## 保存済みの検索 {#saved-searches}
+## 保存した検索条件 {#saved-searches}
 
 [!DNL Audience Manager] の[!UICONTROL Dashboard]には、[保存済みの検索結果](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)がすべて表示され、[!UICONTROL Dashboard] を読み込むたびにリロードされます。
 
@@ -41,4 +44,4 @@ Audience Manager で過去 7 日以内に受信した未使用シグナルの概
 
 [!UICONTROL Signals Dashboard] の使用方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/327523?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)

@@ -6,9 +6,13 @@ solution: Audience Manager
 title: 宛先ビルダー
 feature: Destination Basics
 exl-id: 0923bea3-fb23-45c0-bbb7-5a74f46bf45b
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/zLd6b-oS9Sz1I4xVmY-UXbklxQvJ9NEOy2iQDfKIVbk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 268
 ht-degree: 96%
 
 ---
@@ -26,7 +30,7 @@ ht-degree: 96%
 | [!UICONTROL Destination Builder] セクション | 目的 |
 |--- |--- |
 | 基本情報 | 宛先の命名、宛先の説明、宛先のタイプ（[!DNL URL] または [!DNL cookie]）とプラットフォーム（すべて、[!DNL Android]、ブラウザー、[!DNL iOS]）の選択に使用します。 |
-| 設定 | 次の用途のコントロールが含まれています。<br/><ul><li>[!DNL URL] の宛先にキーと値ペアデータを渡す。データは、個々のキー値ペアとして送信することも、シリアル化されたキーと値のペアとして送信することもできます。詳しくは、「[宛先のシリアル化](../../features/destinations/key-value-pairs.md#destination-serialized)」および「[標準型およびシリアル型のキーと値のペア](../../features/destinations/key-value-pairs.md)」を参照してください。 </li><li>Cookie の宛先の要素（Cookie の名前、ドメイン、サイズ、有効期間、データ形式など）を指定する。</li></ul> |
+| 設定 | 次の用途のコントロールが含まれています。<br/><ul><li>[!DNL URL] の宛先にキーと値ペアデータを渡す。データは、個々のキー値ペアとして送信することも、シリアル化されたキーと値のペアとして送信することもできます。詳しくは、「[宛先のシリアル化](../../features/destinations/key-value-pairs.md#destination-serialized)」および「[標準型およびシリアル型のキーと値のペア](../../features/destinations/key-value-pairs.md)」を参照してください。 </li><li>Cookie の宛先の要素（Cookie の名前、ドメイン、サイズ、有効期限、データ形式など）を指定する。</li></ul> |
 | Segment Mappings | 以下が可能です。<br/><ul><li>宛先のタイプ all に関連するセグメントの検索、追加、管理。 </li><li>個々のセグメントへの配信優先度の設定（[!DNL cookie] ベースのセグメントのみ）</li></ul> |
 
 ## データ配信方法 {#data-delivery-methods}
@@ -36,4 +40,4 @@ ht-degree: 96%
 * [!DNL URL] および Cookie ベースの宛先は、ユーザーがページでアクションをおこなうたびに、データを同期的に送信します。
 * サーバー間データ送信は非同期的で、ユーザーがページから移動した後かなり経ってからおこなわれることがあります。選択する配信タイプは、ビジネス要件と特定のデータパートナーによるデータの受信方法によって異なります。
 
-詳しくは [&#x200B; 宛先タイプの選択方法 &#x200B;](../../features/destinations/destinations.md) を参照してください。
+詳しくは、[宛先タイプの選択方法](../../features/destinations/destinations.md)を参照してください。

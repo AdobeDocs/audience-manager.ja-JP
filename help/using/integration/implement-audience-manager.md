@@ -7,9 +7,13 @@ title: Audience Manager の実装
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/kGezI8iT63EVPpn4gdftTPXhhhm3ouQBl-9deJ1Xs0o
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: 996
 ht-degree: 98%
 
 ---
@@ -167,7 +171,7 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 ## 立ち上げ、サポートおよび最適化フェーズ {#launch-support-optimize-phase}
 
-立ち上げ、サポートおよび最適化フェーズ中は、データ収集およびプロトタイプ実装が、開発からライブの実稼動環境に移行します。アドビでは、引き続き製品習熟および戦略に関するトレーニングをおこない、データ駆動型の最適化による [!DNL ROI] の向上に役立てます。
+立ち上げ、サポートおよび最適化フェーズ中は、データ収集およびプロトタイプ実装が、開発からライブの本番環境に移行します。アドビでは、引き続き製品習熟および戦略に関するトレーニングをおこない、データ駆動型の最適化による [!DNL ROI] の向上に役立てます。
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -212,10 +216,10 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 このフェーズの作業には以下が含まれます。
 
-* レポートデータの生成と解釈
+* レポートデータの生成と解釈；
 * カスタムレポートの理解、
 * 製品サポートの受け方
-* 機能リクエスト、バグ、ユーザーからのフィードバックに対応または勧誘する。
+* 機能のリクエスト、バグ、およびユーザーからのフィードバックへの対応または勧誘。
 * Audience Manager 機能およびレポートへのさらなる習熟。
 
 ## コード実装 {#code-implementation}

@@ -8,9 +8,14 @@ title: データプロバイダー向けの Audience Marketplace
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 feature: Audience Marketplace
 exl-id: 10a00bc9-5ee0-4aed-95d7-ace749b75542
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+TQID: https://experienceleague.adobe.com/3Sw8X-0EU1hV1iXANUbSbRUp8HbSfdruWVd441Q5gfg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 434
 ht-degree: 95%
 
 ---
@@ -43,7 +48,7 @@ ht-degree: 95%
 * **Description：**&#x200B;データフィードのコンテンツについて購入者に伝えます。
 * **Traits：**&#x200B;各データフィード内の特性の数。非公開データフィードを使用して、購入者にこれが表示されないようにできます。
 * **Last 30 Day Uniques：**&#x200B;過去 30 日で確認されたユニークユーザーの数。非公開データフィードを使用して、購入者にこれが表示されないようにできます。
-* **Last Month&#39;s Total Fees：**&#x200B;サブスクリプションを購入したデータ購入者が支払う金額。レポート期間は、毎月 10 日に終了します。期限切れのアカウントには、三角形と感嘆符のアイコンでフラグが設定されます。購読者がデータを誤って使用している場合やアカウントが期限切れの場合は [&#x200B; 購読者のデータフィードを &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) 非アクティブ化」できます。
+* **Last Month&#39;s Total Fees：**&#x200B;サブスクリプションを購入したデータ購入者が支払う金額。レポート期間は、毎月 10 日に終了します。期限切れのアカウントには、三角形と感嘆符のアイコンでフラグが設定されます。オーディエンスがデータを不正使用したり、アカウントの期限が過ぎたりした場合、[ オーディエンスのデータフィードを無効にすることができます](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed)。
 * **Status：**&#x200B;フィードがアクティブ、非アクティブ、非公開または公開のいずれであるかを表示します。
 * **Subscribers：**&#x200B;データフィードを使用している購入者の数を表示します。この列の数をクリックすると、購入者の会社名、サブスクリプション、請求およびサブスクリプション状況が表示されます。
 * **Requests：**&#x200B;データフィードに対するアクセス要求の数。

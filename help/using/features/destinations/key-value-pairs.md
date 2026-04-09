@@ -5,9 +5,13 @@ title: 標準およびシリアル  [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Destination Basics
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
-source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
+TQID: https://experienceleague.adobe.com/9ko-qnTZoXaeSUeoF5CIpfCjaPOct0Aa95P-leozV0Y
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bf
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: 560
 ht-degree: 98%
 
 ---
@@ -134,4 +138,4 @@ ht-degree: 98%
 
 ### サポートされる宛先
 
-[!DNL Audience Manager] では、データをシリアル化して、対象となるほとんどあらゆる宛先に送信できます。ただし、この機能を使用する前に、宛先 [!DNL URL] と、必須またはオプションのマクロの挿入位置を知っておく必要があります。宛先パートナーから、マクロの位置に関する情報を入手します。詳しくは、[&#x200B; 宛先マクロの定義 &#x200B;](../../features/destinations/destination-macros.md#destination-macros-defined) を参照してください。
+[!DNL Audience Manager] では、データをシリアル化して、対象となるほとんどあらゆる宛先に送信できます。ただし、この機能を使用する前に、宛先 [!DNL URL] と、必須またはオプションのマクロの挿入位置を知っておく必要があります。宛先パートナーから、マクロの位置に関する情報を入手します。詳しくは、[宛先マクロの定義](../../features/destinations/destination-macros.md#destination-macros-defined)を参照してください。

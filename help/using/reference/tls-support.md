@@ -7,9 +7,12 @@ title: TLS 1.0 および 1.1 の廃止
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: Reference
 exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/sU1Tmg-7AouOFzLoj4pObYe3UsDcZK02pU8Fl4Wz0N4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 227
 ht-degree: 100%
 
 ---

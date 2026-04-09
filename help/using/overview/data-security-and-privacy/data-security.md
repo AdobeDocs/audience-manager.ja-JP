@@ -7,9 +7,14 @@ title: Audience Manager におけるデータセキュリティ
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: 988
 ht-degree: 97%
 
 ---
@@ -61,7 +66,7 @@ Audience Manager では、セキュリティを以下の 3 つの主なカテゴ
 
 個々のクライアントが所有するデータを保護するのに役立つプロセスです。
 
-**特性データのパーティション化：** データ（[!UICONTROL traits]、ID など）は、クライアントによってパーティション化されます。 これは、異なるクライアント間での誤った情報公開を防ぐのに役立ちます。例えば、Cookies 内の特性データは、お客様別にパーティション分割され、クライアント専用のサブドメインに格納されます。別の Audience Manager クライアントが誤って読み取ったり使用したりすることはできません。さらに、[!UICONTROL Profile Cache Servers (PCS)] に保存される特性データも顧客別に分割されます。これにより、他のクライアントがイベント呼び出しまたはその他の要求でお客様のデータを誤って使用するのを防ぎます。
+**特性データのパーティション設定：** データ （[!UICONTROL traits]、IDなど）は、クライアントによってパーティション設定されています。 これは、異なるクライアント間での誤った情報公開を防ぐのに役立ちます。例えば、Cookies 内の特性データは、お客様別にパーティション分割され、クライアント専用のサブドメインに格納されます。別の Audience Manager クライアントが誤って読み取ったり使用したりすることはできません。さらに、[!UICONTROL Profile Cache Servers (PCS)] に保存される特性データも顧客別に分割されます。これにより、他のクライアントがイベント呼び出しまたはその他の要求でお客様のデータを誤って使用するのを防ぎます。
 
 **レポートでのデータのパーティション分割：**&#x200B;クライアント ID は、すべてのレポートテーブルの識別キーの一部で、レポートクエリは、ID でフィルタリングされます。これは、お客様のデータが Audience Manager の別のお客様のレポートに表示されるのを防ぐのに役立ちます。
 
@@ -75,7 +80,7 @@ Adobe Audience Manager は、S2S オンボードデータファイルをアド�
 
 HTTPS を使用した **[!UICONTROL Amazon Web Services S3]：** S3 配信オプションの場合、アドビでは、ファイル転送に HTTPS 暗号化メソッドを使用するように S3 クライアントを設定することを、すべてのお客様にお勧めします（これはデフォルトではないので、明示的に設定する必要があります）。HTTPS オプションは、s3cmd コマンドラインツールと主要なプログラム言語で使用可能な S3 ライブラリの両方でサポートされます。この HTTPS オプションを有効にすると、アドビのシステムへの送信中、お客様のデータは暗号化されます。お客様ごとに、お客様の資格情報およびアドビの内部システムユーザーの資格情報によってのみアクセスできる、個別の S3 バケットサブディレクトリを作成します。
 
-データファイルに PGP 暗号化を追加するには、[&#x200B; 受信データタイプのファイル PGP 暗号化 &#x200B;](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md) を参照してください。
+データファイルにPGP暗号化を追加するには、[ インバウンドデータタイプのファイル PGP暗号化](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)を参照してください。
 
 ## エスケープによるデータの保護 {#escaping-data}
 

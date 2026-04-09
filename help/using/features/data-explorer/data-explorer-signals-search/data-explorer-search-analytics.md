@@ -6,9 +6,11 @@ title: Adobe Analytics の詳細検索
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 exl-id: 5a66623b-4d24-4f52-ba26-b59750d25f2c
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/-ml-cMnAI9yYhzIVC5OULFnCS4rPdj4RVqBvkm-jrYg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: 209
 ht-degree: 100%
 
 ---
@@ -33,4 +35,4 @@ ht-degree: 100%
 
 以下のビデオでは、使用済みおよび未使用のシグナルの検索、Analytics の特性の作成、データの理解など、[!UICONTROL Data Explorer] によって Adobe Analytics データを検出および使用する方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/330353?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)

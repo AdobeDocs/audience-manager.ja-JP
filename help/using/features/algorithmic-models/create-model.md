@@ -8,9 +8,11 @@ title: アルゴリズムモデルの作成
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-source-git-commit: 6956793aa8d31d16a7add648b8d205dec6f75202
+TQID: https://experienceleague.adobe.com/ZLODJg0TbL-Xhr0CNNg3JbCkM-uqwbjX22BvlZHV8Xk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: 639
 ht-degree: 98%
 
 ---
@@ -52,7 +54,7 @@ ht-degree: 98%
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
-[Audience Managerのクロスデバイス指標について &#x200B;](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Audience Managerのクロスデバイス指標について](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## アルゴリズムの基本情報 {#basic-information}
 
@@ -111,7 +113,7 @@ ht-degree: 98%
 
 ファーストパーティの類似（look-alike）モデルを作成し、コンバーターに似た独自の訪問者をより多く見つける方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/328275?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >

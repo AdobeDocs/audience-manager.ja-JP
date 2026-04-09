@@ -6,9 +6,12 @@ solution: Audience Manager
 title: Audience Manager のアクセシビリティ
 feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+TQID: https://experienceleague.adobe.com/NW2RQV-dyf5qo4MfzbMfmcW9dqwIDyOWHTTOamIsJKY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: 407
 ht-degree: 96%
 
 ---
@@ -41,7 +44,7 @@ ht-degree: 96%
 
 ![accessibility-table-headers](assets/accessibility-table-headers.png)
 
-## 支援テクノロジーのサポート {#assistive-technologies}
+## テクノロジー支援のサポート {#assistive-technologies}
 
 セマンティックコードおよび [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) を使用することで、[!DNL Audience Manager] ユーザーインターフェイス内のインタラクティブ要素に、対応するラベル、アクセス可能な名前、その目的と現在の状態の両方を識別する役割を追加しています。
 
@@ -57,7 +60,7 @@ Audience Manager ユーザーインターフェイス内のすべてのインタ
 
 ![accessibility-loading](assets/accessibility-loading.png)
 
-## 参考情報 {#further-reading}
+## 関連トピックス {#further-reading}
 
 [!DNL Audience Manager] では、製品を誰にとっても使いやすいものにするアクセシビリティを提供するために、これまで以上に努力しています。
 

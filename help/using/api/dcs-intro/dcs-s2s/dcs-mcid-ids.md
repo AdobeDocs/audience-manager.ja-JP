@@ -7,9 +7,14 @@ title: Adobe Experience Platform ID サービスを通じたユーザー ID と�
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 exl-id: 0b855237-ac14-4c0e-b831-221b9218840f
-source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
+TQID: https://experienceleague.adobe.com/7UuzQe1yy6pAK8GxBgmcTGqn08gFLWbArbHAr87aXFg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: 613
 ht-degree: 99%
 
 ---
@@ -39,7 +44,7 @@ ID サービスのお客様は、ID サービス Cookie から、または関数
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>1.<span class="keyword">Experience Cloud</span> のステータスを確認する</b> </p> </td> 
-   <td colname="col2"> <p>ID サービスを使用するには、<span class="keyword">Experience Cloud</span> アカウントが必要です。既に <span class="keyword">Experience Cloud</span> アカウントがあれば、そのままでけっこうです。 </p> <p> まだ <span class="keyword">Experience Cloud</span> に登録していなければ、新規登録してください。いつでもお客様にご参加いただく用意ができています。アカウントの設定方法について詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/core-services/interface/services/getting-started" format="https" scope="external">コアサービスのソリューションの有効化</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ID サービスを使用するには、<span class="keyword">Experience Cloud</span> アカウントが必要です。既に <span class="keyword">Experience Cloud</span> アカウントがあれば、そのままでけっこうです。 </p> <p> まだ <span class="keyword">Experience Cloud</span> に登録していなければ、新規登録してください。いつでもお客様にご参加いただく用意ができています。アカウントの設定方法について詳しくは、<a href="https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started" format="https" scope="external">コアサービスのソリューションの有効化</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2.<span class="keyword">ID サービス</span>をセットアップする</b> </p> </td> 

@@ -7,9 +7,13 @@ title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: Log Files
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/apsyqkjRH9pOVzNMek0NfnLJ3AjgY9iqY-6l-oOVZkg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: 810
 ht-degree: 98%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 98%
 
 ## 概要 {#overview}
 
-メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[Audience Optimization レポートのデータファイルとアクションにつながるログファイル &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) を参照してください。
+メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、「[Audience Optimization レポートと実用的なログファイルのデータファイル ](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)」を参照してください。
 
 ### メタデータファイルには他のデータに関するデータが含まれる
 

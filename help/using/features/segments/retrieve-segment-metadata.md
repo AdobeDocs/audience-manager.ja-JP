@@ -7,9 +7,14 @@ title: セグメントメタデータの取得
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 feature: Segments
 exl-id: 64922cf8-f7bf-4e33-871f-d33626b06360
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/wWAyOKoMlNRC-tFKOmA-hWpwAiIs7r53MFcURPabsWg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c2c33729-f309-4bc2-92ba-87c475259df3
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: 524
 ht-degree: 100%
 
 ---
@@ -20,7 +25,7 @@ Audience Manager がセグメント情報をデータパートナーに送信す
 
 ## 手動方式 {#manual-method}
 
-データパートナーは通常、オーディエンスのメタデータを手動プロセスにより顧客から取得しています。これには、電子メールにファイルを添付したり、専用に作成および維持されている [!DNL UI] からユーザーがデータを追加する作業が含まれます。これらのプロセスも使用できますが、複雑で時間がかかることが多く、手動でのデータ入力が必要となる場合もあります。通常、この方法は迅速な統合のために使用されますが、長期的に最善のユーザーエクスペリエンスをもたらすものではありません。その代わりに、[!DNL Audience Manager]&#x200B;[!DNL API] を使用して、セグメントメタデータを自動的に取得することができます。
+データパートナーは通常、オーディエンスのメタデータを手動プロセスにより顧客から取得しています。これには、電子メールにファイルを添付したり、専用に作成および維持されている [!DNL UI] からユーザーがデータを追加する作業が含まれます。これらのプロセスも使用できますが、複雑で時間がかかることが多く、手動でのデータ入力が必要となる場合もあります。通常、この方法は迅速な統合のために使用されますが、長期的に最善のユーザーエクスペリエンスをもたらすものではありません。その代わりに、[!DNL Audience Manager][!DNL API] を使用して、セグメントメタデータを自動的に取得することができます。
 
 ## 自動方式 {#automated-method}
 
@@ -28,7 +33,7 @@ Audience Manager がセグメント情報をデータパートナーに送信す
 
 ### 手順 1：Audience Manager API を確認する
 
-[REST API の概要](../../api/rest-api-main/aam-api-getting-started.md)の節では、一般的な要件、認証、使用可能な方式などについて説明しています。まだ [!DNL Audience Manager]&#x200B;[!DNL API] を使用したことがない場合は、ここから始めます。
+[REST API の概要](../../api/rest-api-main/aam-api-getting-started.md)の節では、一般的な要件、認証、使用可能な方式などについて説明しています。まだ [!DNL Audience Manager][!DNL API] を使用したことがない場合は、ここから始めます。
 
 ### 手順 2：OAuth2 アクセス資格情報をリクエストする
 

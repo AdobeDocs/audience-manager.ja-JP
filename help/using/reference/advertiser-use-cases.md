@@ -7,9 +7,12 @@ title: 広告主のユースケース
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
 feature: Reference
 exl-id: 30f2ee7b-6238-4dd5-a59f-ee91b6256bcb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/j6rCyNkZCTV0AA2t7PWPFGGPNCEutOynqwPFVcz-CHY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: 724
 ht-degree: 100%
 
 ---
@@ -154,7 +157,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
    <td colname="col2"> 
     <ul id="ul_CFE6F446C287464B9141C7B6E2581A84"> 
      <li id="li_4308DD38DC014622A08CB0425A9E98F1"><span class="keyword">Audience Manager</span> の統合機能を利用して、オフラインデータを使用することができます。 </li> 
-     <li id="li_B55C9849C43C483781DC5C3AEAA861F1">顧客の関心に合致したクリエイティブエクスペリエンスを提供することで、コンバージョン率およびロイヤリティを高めることができます。 </li> 
+     <li id="li_B55C9849C43C483781DC5C3AEAA861F1">顧客の関心に合致したクリエイティブエクスペリエンスを提供することで、コンバージョン率およびロイヤルティを高めることができます。 </li> 
     </ul> </td> 
    <td colname="col3"> 
     <ul id="ul_739F56A9703F418BBD6F391C2A8A25CA"> 

@@ -6,9 +6,14 @@ solution: Audience Manager
 title: 特性レコメンデーション
 feature: Segments
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
-source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
+TQID: https://experienceleague.adobe.com/QlyZ0ihE6gw5qBsQ3RATUwOJYms0xyt0dwJRS-jfBU0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ecid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: 1584
 ht-degree: 100%
 
 ---
@@ -21,11 +26,11 @@ ht-degree: 100%
 
 まず、以下の [!UICONTROL Trait Recommendations] のビデオを見てから、詳細をお読みください。ビデオデモでは、独自のファーストパーティ特性からのレコメンデーションの使用方法、*および既に購読している* [!UICONTROL Audience Marketplace] データフィードからの特性レコメンデーションの使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/40841?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/26228/)
 
 次のビデオでは、[!UICONTROL Marketplace Recommendations] のワークフローの概要を説明し、[!UICONTROL Audience Marketplace] のデータフィードからのレコメンデーションに基づいて、セグメントに特性を追加する方法を示します。これらのレコメンデーションは、購読していないデータフィードに基づいています&#x200B;*。*
 
->[!VIDEO](https://video.tv.adobe.com/v/34100?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29363/)
 
 ## 概要
 

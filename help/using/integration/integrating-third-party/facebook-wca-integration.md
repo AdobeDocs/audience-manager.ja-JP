@@ -6,9 +6,13 @@ solution: Audience Manager
 title: Facebook WCA の統合
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 6dc931b88666515cf51ab89ce1a54bbcf9995679
+TQID: https://experienceleague.adobe.com/vHNM6HEpL4efGeanvzjDaNfFPqaGwqy84lnvc21-ufA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: 808
 ht-degree: 98%
 
 ---
@@ -19,7 +23,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->これは、Audience Managerと Facebook の製品化された統合ではありません。
+>これはAudience ManagerとFacebookの製品レベルでの連携ではありません。
 
 ## 概要 {#overview}
 
@@ -108,7 +112,7 @@ ht-degree: 98%
 
 ## 概要 {#summary}
 
-これで、[!DNL Audience Manager] セグメントを [!DNL Facebook WCA] の宛先に割り当てました。[!DNL Audience Manager] は、ピクセル内の各セグメント ID を使用して、特定のセグメントのユーザーに対して [!DNL Facebook WCA] ピクセルを選択的に実行し、[!DNL Facebook Audience] を生成します。これにより、[!DNL Facebook Audience]が徐々に増加し、サイト上の該当する閲覧者に対して実行されるタグも増加します。
+これで、[!DNL Audience Manager] セグメントを [!DNL Facebook WCA] の宛先に割り当てました。[!DNL Audience Manager] は、ピクセル内の各セグメント ID を使用して、特定のセグメントのユーザーに対して [!DNL Facebook WCA] ピクセルを選択的に実行し、[!DNL Facebook Audience] を生成します。これにより、[!DNL Facebook Audience] が徐々に増加し、サイト上の該当するオーディエンスに対して実行されるタグも増加します。
 
 >[!NOTE]
 >

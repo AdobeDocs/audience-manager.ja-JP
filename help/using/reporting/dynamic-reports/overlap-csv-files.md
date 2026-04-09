@@ -7,9 +7,12 @@ title: 重複レポートの CSV ファイル
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/3Qq8PwmAWUAO1ic9kan7XFuXPllBioqJhPKCmo6RPww
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: 909
 ht-degree: 99%
 
 ---
@@ -31,7 +34,7 @@ ht-degree: 99%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>ファイル拡張子 </p> </td> 
+   <td colname="col1"> <p>拡張子 </p> </td> 
    <td colname="col2"> <p>重複レポートファイルは gzip 形式で圧縮され、ファイル拡張子は <code> .gz</code> になります。解凍後は <code> .csv</code> 拡張子をファイルに追加する必要があります。 </p> </td> 
   </tr> 
   <tr> 

@@ -1,5 +1,5 @@
 ---
-description: 特性ビルダーの式ビルダーを使用すると、オーディエンス認定要件を確立するルールを作成およびテストできます。ルールは、「color == blue」または「price &gt; 100」などのキー値ペアで構成されます。比較演算子は、キーと値の間の関係を確立します。ブール式は、ルールグループ間の関係を判別します。
+description: 特性ビルダーの式ビルダーを使用すると、オーディエンス選定要件を確立するルールを作成およびテストできます。ルールは、「color == blue」または「price &gt; 100」などのキー値ペアで構成されます。比較演算子は、キーと値の間の関係を確立します。ブール式は、ルールグループ間の関係を判別します。
 seo-description: In Trait Builder, the Expression Builder lets you create and test rules that establish audience qualification requirements. Rules consist of key-value pairs such as "color == blue" or "price &gt; 100". Comparison operators establish the relationship between keys and values. Boolean expressions determine the relationship between rule groups.
 seo-title: Managing Trait Rules
 solution: Audience Manager
@@ -7,16 +7,18 @@ title: 特性ルールの管理
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: 678
 ht-degree: 100%
 
 ---
 
 # 特性ルールの管理 {#managing-trait-rules}
 
-[!UICONTROL Trait Builder] では、[!UICONTROL Expression Builder] を使用すると、オーディエンス資格要件を確立するルールを作成およびテストできます。ルールは、`color == blue` や `price > 100` などのキーと値のペアで構成されます。比較演算子は、キーと値の間の関係を確立します。[!DNL Boolean] 式は、ルールグループ間の関係を判別します。
+[!UICONTROL Trait Builder] では、[!UICONTROL Expression Builder] を使用すると、オーディエンス選定要件を確立するルールを作成およびテストできます。ルールは、`color == blue` や `price > 100` などのキーと値のペアで構成されます。比較演算子は、キーと値の間の関係を確立します。[!DNL Boolean] 式は、ルールグループ間の関係を判別します。
 
 <!-- c_tb_rules.xml -->
 

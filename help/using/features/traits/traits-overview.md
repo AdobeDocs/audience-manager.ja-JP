@@ -7,9 +7,12 @@ solution: Audience Manager
 title: 特性の概要
 feature: Traits
 exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/IUdAHXpQ8MSQY-Tl8y15puRFKsmBWyBYI7U90Sg2cbI
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: 60
 ht-degree: 100%
 
 ---

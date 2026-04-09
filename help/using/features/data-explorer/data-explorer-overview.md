@@ -6,9 +6,13 @@ title: 概要、メリットおよび使用例
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 feature: Data Explorer
 exl-id: 56c9080b-4b7d-4feb-bddf-521e80bc8fa7
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/7fLW4VhM4gUlbH6tkYIhEondTn4mopushMeFcJxzpPs
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: 463
 ht-degree: 100%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 100%
 
 * [シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)および[!UICONTROL Signals Search]では、[!DNL Audience Manager] で受信したシグナルを記録し、新規特性を作成したり、既存の特性に追加したりできます。
 
-* [特性適合のバックフィル](../../features/data-explorer/data-explorer-trait-backfill.md)では、過去のオーディエンスを新規作成した特性の対象として認定し、将来のターゲットに含めることができます。
+* [特性適合のバックフィル](../../features/data-explorer/data-explorer-trait-backfill.md)では、過去のオーディエンスを新規作成した特性の対象として認定し、将来のターゲティングに含めることができます。
 
 ## メリット {#benefits}
 
@@ -39,7 +43,7 @@ ht-degree: 100%
 
 ### 例 1
 
-ある国際的な電子機器小売業者は、訪問者のトラフィックが大量にあり、複数のプラットフォームに合わせてコンテンツを最適化しているのに、コンバージョン率が予想を下回っていました。[シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)を活用することで、訪問者は現在在庫切れとなっている特定の電子機器メーカーを検索していたことを示す、大量の未使用シグナルを特定しました。このインサイトを活用し、在庫を一新して、パーソナライズしたキャンペーンによりこうした訪問者をターゲットに含めることができました。
+ある国際的な電子機器小売業者は、訪問者のトラフィックが大量にあり、複数のプラットフォームに合わせてコンテンツを最適化しているのに、コンバージョン率が予想を下回っていました。[シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)を活用することで、訪問者は現在在庫切れとなっている特定の電子機器メーカーを検索していたことを示す、大量の未使用シグナルを特定しました。このインサイトを活用し、在庫を一新して、パーソナライズしたキャンペーンによりこうした訪問者をターゲティングに含めることができました。
 
 ### 例 2
 
@@ -49,4 +53,4 @@ ht-degree: 100%
 
 Audience Manager の最も強力な機能の 1 つは、オフラインデータをオンボーディングし、オンラインデータと結び付ける機能です。以下のビデオでは、[!UICONTROL Data Explorer] を使用して、このオンボードデータを活用するために必要なすべての特性を作成したことを検証する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/330355?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)

@@ -8,9 +8,14 @@ keywords: セグメントレベルのレポート, セグメントレベル, セ
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
-source-git-commit: 88ed0b28fdf5dc03c8a878529d65b4bc844ea6c9
+TQID: https://experienceleague.adobe.com/crzZ-d8Vd4lNwUJXIqIT7PGPNRnUKp-nLSVoTbSH5F8
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: 2029
 ht-degree: 98%
 
 ---
@@ -30,11 +35,11 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 [!UICONTROL Audience Marketplace] では、次の 2 種類の方法で [!DNL CPM] の使用状況をレポートできます。
 
 * **セグメントレベルのレポート**：こちらが推奨される [!DNL CPM]の使用状況のレポート方法です。セグメントレベルで [!DNL CPM] の使用状況をレポートする場合、データフィードレベルのレポートセクションには、[CPM データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、対応する使用量が自動で入力されます。
-* **データフィードレベルのレポート**：この方法では、[&#x200B; データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、データフィードごとに [!DNL CPM] 使用状況を個別にレポートする必要があります。ただし、この方法はセグメントレベルのレポートに比べて煩雑であり、エラーが生じやすくなります。
+* **データフィードレベルのレポート**：この方法では、[ データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、データフィードごとに [!DNL CPM] 使用状況を個別にレポートする必要があります。ただし、この方法はセグメントレベルのレポートに比べて煩雑であり、エラーが生じやすくなります。
 
 <br> 
 
-## セグメントレベルでCPMの使用状況をレポート {#segment-level-report}
+## セグメントレベルでのCPMの使用状況のレポート {#segment-level-report}
 
 「[!UICONTROL Segment Usage]」タブには、セグメントがマッピング先の宛先ごとにグループ化されて表示され、セグメントレベルでの使用状況をレポートすることができます。
 
@@ -59,7 +64,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
  
 
-## データフィードレベルでCPMの使用状況をレポート {#feed-level-report}
+## データフィードレベルでのAdobe CPMの使用状況のレポート {#feed-level-report}
 
 データフィードレベルのレポートは、データフィードごとに [!DNL CPM] の使用量を個別に計算する必要があるので、煩雑でありエラーが発生しやすくなります。代わりに、[セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)をお勧めします。
 
@@ -105,7 +110,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 | Not Found | [!UICONTROL Segment Level Reporting] の場合、[!DNL Audience Manager] は [!UICONTROL Segment ID] と [!UICONTROL Destination ID] の組み合わせを特定できませんでした。[!UICONTROL Feed Level Reporting] の場合、[!DNL Audience Manager] は [!UICONTROL Data Provider Name] と、[!UICONTROL Feed Name]、[!UICONTROL Use Case] の組み合わせを特定できませんでした。 | [!UICONTROL Segment Level Reporting] の場合は、[!UICONTROL Segment ID] と [!UICONTROL Destination ID] の組み合わせの有効性を確認してください。[!UICONTROL Feed Level Reporting] の場合は、[!UICONTROL Data Provider Name] と [!UICONTROL Feed Name]、[!UICONTROL Use Case] の組み合わせの有効性を確認してください。 |
 | Duplicate Records Found | [!DNL Audience Manager] で、インプレッションの値が異なる重複したレコードが検出されました。 | レポートをチェックして、同じデータフィードまたはセグメントについて複数の使用量の値をレポートしていないか確認してください。 |
 | Values Not Supported | [!DNL Audience Manager] で、[!DNL Audience Manager] 列に数字以外の値が検出されました。 | レポートをチェックして、[!DNL Audience Manager] 列に数値のみを入力していることを確認してください。 |
-| Headers for Mandatory Fields Missing | [!DNL Audience Manager] で、必須フィールドのテーブルヘッダーが不足していることが検出されました。[!UICONTROL Segment Level Reporting] の場合、必須フィールドは [!UICONTROL Segment ID] と [!UICONTROL Destination ID] です。[!UICONTROL Feed Level Reporting] の場合、必須フィールドは [!UICONTROL Data Provider Name]、[!UICONTROL Data Feed Name]、[!UICONTROL Use Case] です。 | レポートをチェックして、テーブルヘッダーが変更されていないことを確認してください。 |
+| 必須フィールドのヘッダーが欠落しています | [!DNL Audience Manager] で、必須フィールドのテーブルヘッダーが不足していることが検出されました。[!UICONTROL Segment Level Reporting] の場合、必須フィールドは [!UICONTROL Segment ID] と [!UICONTROL Destination ID] です。[!UICONTROL Feed Level Reporting] の場合、必須フィールドは [!UICONTROL Data Provider Name]、[!UICONTROL Data Feed Name]、[!UICONTROL Use Case] です。 | レポートをチェックして、テーブルヘッダーが変更されていないことを確認してください。 |
 
 >[!NOTE]
 >[!DNL CSV] 使用状況レポートの行を削除しても、既存の使用状況レポートには影響しません。[!DNL Audience Manager] では、レポートに含まれているフィールドのみが処理されます。
@@ -125,7 +130,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
   <tr> 
    <td colname="col1"> <p><b>常にインプレッションの合計数をレポートする</b> </p> </td> 
    <td colname="col2"> <p>CPM インプレッションの合計数の場合： </p>
-   <p> 小数を使用せずに、インプレッションの合計数をレポートします。Audience Managerは、レポートした合計数に基づいて CPM が自動で計算されます。</p><p>1,234,567 個のインプレッションをレポートする場合は、この数字をそのままレポートしてください。インプレッションの合計数を 1,000 で割って、CPM を算出する必要はありません。</p><p>Adobe Target や Analytics の宛先などのツールで、Web またはアプリのコンテンツを最適化するための特性（コンテンツ最適化）は、CPM プランの使用量の合計には影響しません。データプロバイダーは通常、定額プランを使用してコンテンツ最適化による報酬を得ています。</p><p>詳しくは、<a href="#cost-attribution">CPM データフィードのコスト属性 </a> を参照してください。 </p> </td>
+   <p> 小数を使用せずに、インプレッションの合計数をレポートします。Audience Managerは、レポートした合計数に基づいて CPM が自動で計算されます。</p><p>1,234,567 個のインプレッションをレポートする場合は、この数字をそのままレポートしてください。インプレッションの合計数を 1,000 で割って、CPM を算出する必要はありません。</p><p>Adobe Target や Analytics の宛先などのツールで、Web またはアプリのコンテンツを最適化するための特性（コンテンツ最適化）は、CPM プランの使用量の合計には影響しません。データプロバイダーは通常、定額プランを使用してコンテンツ最適化による報酬を得ています。</p><p>詳しくは、<a href="#cost-attribution">CPM データフィードのコストアトリビューション </a>を参照してください。 </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>毎月の報告期限を順守する</b> </p> </td> 
@@ -136,7 +141,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 <br> 
 
-## CPM データフィードのコスト属性 {#cost-attribution}
+## CPM データフィードのコストアトリビューション {#cost-attribution}
 
 [!UICONTROL Audience Marketplace] では、ユーザーがセグメントごとに各月のインプレッションの量を自己申告する必要があります。コスト配分が自動的におこなわれる、セグメントレベルでの [!DNL CPM] 使用状況のレポートをお勧めします。
 
@@ -162,11 +167,11 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 <br> 
 
-## 特性選定ルールに基づいてフィードレベルでインプレッションを割り当てる {#assign-impressions}
+## 特性の選定ルールに基づいて、フィードレベルでインプレッションを割り当て {#assign-impressions}
 
 [!UICONTROL Activation] ユースケースでは、[セグメントビルダー](../../../features/segments/segment-builder.md)で対応するデータフィードの特性を使用してセグメントを作成し、宛先にマッピングすることができます。ブール演算子 [!UICONTROL AND]、[!UICONTROL OR]、および [!UICONTROL NOT] を使用すると、特性とセグメントの選定条件を設定できます。
 
-[データフィードレベルで CPM 使用状況をレポートする](#feed-level-report)場合は、特性の認定ルールで使用する [!DNL Boolean] 演算子に従い、各データフィードにインプレッションを比例配分する必要があります。次の表は、ブール演算ルールまたは特性タイプによりインプレッションを適切に配分する方法を示しています。
+[データフィードレベルで CPM 使用状況をレポートする](#feed-level-report)場合は、特性の選定ルールで使用する [!DNL Boolean] 演算子に従い、各データフィードにインプレッションを比例配分する必要があります。次の表は、ブール演算ルールまたは特性タイプによりインプレッションを適切に配分する方法を示しています。
 
 >[!TIP]
 >[セグメントレベルでの CPM 使用状況のレポート](#segment-level-report)では、Audience Manager により、データフィードレベルでのレポートが自動でおこなわれます。
@@ -213,7 +218,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 <br> 
 
-### ケース 1：AND 認定ルールを使用するセグメント
+### ケース 1：AND 選定ルールを使用するセグメント
 
 このセグメントには、別々のデータプロバイダーからの特性が 3 件あります。セグメントの選定は [!UICONTROL AND] 条件に基づいているので、訪問者がセグメントの対象としての選定されるには、3 つすべてのフィードからの特性を適合する必要があります。
 
@@ -225,11 +230,11 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 
 <br> 
 
-### ケース 2：OR 認定ルールを使用するセグメント
+### ケース 2：OR 選定ルールを使用するセグメント
 
 このセグメントには、別々のデータプロバイダーからの特性が 3 件あります。セグメントの選定は [!UICONTROL OR] 条件に基づいているので、訪問者がセグメントの対象としての選定されるには、3 つのフィードのうち少なくとも 1 つからの特性を適合する必要があります。
 
-認定は [!UICONTROL OR] 条件に基づいているので、どちらの特性がインプレッションに対応しているかは判別できません。このため、[!UICONTROL Audience Marketplace > Payables] セクションで、特性の母集団に基づいて、インプレッションの合計数を各プロバイダーに重み付け配分し、計上します。
+選定は [!UICONTROL OR] 条件に基づいているので、どちらの特性がインプレッションに対応しているかは判別できません。このため、[!UICONTROL Audience Marketplace > Payables] セクションで、特性の母集団に基づいて、インプレッションの合計数を各プロバイダーに重み付け配分し、計上します。
 
 ![billing-segment-or](assets/billing-segment-or.png)
 

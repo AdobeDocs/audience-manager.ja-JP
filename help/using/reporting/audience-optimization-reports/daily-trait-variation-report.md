@@ -7,9 +7,14 @@ title: Daily Trait Variation レポート
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: Audience Optimization Reports
 exl-id: c84a3f13-70fb-4167-b05b-de5cf518ec03
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/ZQ26SAA-7Sb4EUSmLNdqu-WXzgRKWb7DLBny7-GRsFY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: 717
 ht-degree: 99%
 
 ---
@@ -36,7 +41,7 @@ ht-degree: 99%
 
 [!UICONTROL Standard Deviation] 列には、選択した期間における各特性の標準偏差を示す、色分けされた棒グラフが表示されます。赤い棒は、負の標準偏差の特性を示します（データポイントが平均を下回る傾向がある）。緑の棒は、正の標準偏差の特性を示します（データポイントが平均を上回る傾向がある）。任意の棒にマウスポインターを置くと、詳細情報と、その特性を維持または除外して詳細を表示するオプションを含むポップアップダイアログボックスが表示されます。
 
-アイコンがレポートの下に表示され、様々な形式でデータを書き出したり、レポートに対しておこなった変更（特性の除外など）を元に戻したり、自動更新を有効または無効にしたり、レポートのデータを更新したりできます。[&#x200B; レポートアイコンとツールの説明 &#x200B;](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained) を参照してください。
+アイコンがレポートの下に表示され、様々な形式でデータを書き出したり、レポートに対しておこなった変更（特性の除外など）を元に戻したり、自動更新を有効または無効にしたり、レポートのデータを更新したりできます。[ レポートアイコンとツールの説明](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)を参照してください。
 
 ## ユースケース {#use-cases}
 

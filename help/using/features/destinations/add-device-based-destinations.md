@@ -6,9 +6,14 @@ solution: Audience Manager
 title: 新しいデバイスベースの宛先の追加
 feature: Destination Basics
 exl-id: c5d7de2e-085d-48b9-a596-381503c79f55
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/E8htvz6eNU2PBT3d-oCbQDzrFRf28-Wlb3HES8n69DE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: 420
 ht-degree: 98%
 
 ---
@@ -29,7 +34,7 @@ ht-degree: 98%
 
 統合プラットフォームを使用して初めてデバイスベースの宛先を作成する場合は、アドビコンサルティングまたはカスタマーケアに連絡して、Audience Manager とアカウントの統合プラットフォームの間の ID 同期を有効にしてください。Audience Manager と宛先プラットフォームの同期を正しくおこなうには必要な操作です。
 
-## 手順 1.宛先プラットフォームでの認証 {#step1}
+## 手順 1.宛先プラットフォームを使用した認証 {#step1}
 
 新しいデバイスベースの宛先を作成する前に、Audience Manager と宛先プラットフォームの統合を設定しておく必要があります。手順は次のとおりです。
 

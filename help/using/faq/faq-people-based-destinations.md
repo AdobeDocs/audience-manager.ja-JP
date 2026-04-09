@@ -6,9 +6,14 @@ solution: Audience Manager
 title: People-Based Destinations に関する FAQ
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/zcE89nzl7puv3LM0yqr23iJh1qL-intHd4ffYKu23KY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: 1161
 ht-degree: 91%
 
 ---
@@ -34,7 +39,7 @@ ht-degree: 91%
 
 **Web フォームやモバイルアプリから、ハッシュ化された電子メールアドレスを収集できますか？それとも、バッチファイルから収集する必要がありますか？**
 
-[宣言された ID](../features/declared-ids.md)と [!DNL ECID] を使用し、Web 認証を通じてハッシュ化された電子メールアドレスを収集できます。バッチファイルを使用すると、認証を通じて送信できないハッシュ化されたメールアドレス（[!DNL CRM] の休眠状態のユーザーなど）を収集し、人物ベースの宛先でアクティブ化することもできます。
+[宣言された ID](../features/declared-ids.md)と [!DNL ECID] を使用し、Web 認証を通じてハッシュ化された電子メールアドレスを収集できます。バッチファイルを使用すると、認証を通じて送信できないハッシュ化されたメールアドレス（例：（[!DNL CRM]）を収集し、ピープルベースの宛先でアクティブ化することもできます。
 
 **ハッシュ化された電子メールアドレスを Web フォーム経由で取り込む場合と、バッチファイルを使用してハッシュ化された電子メールアドレスを取り込む場合の違いを教えてください。**
 
@@ -73,7 +78,7 @@ Audience Manager では、未加工の電子メールアドレスを取り込ま
 
 **[!DNL People-Based Destinations] を使用したマッチ率を、オーディエンスを宛先プラットフォームに送信する他の方法のマッチ率と理論的に比較するにはどうすればよいですか。**
 
-電子メールアドレスが正しくハッシュ化され、取り込まれていれば、[!DNL People-Based Destinations] と他のメソッドのマッチ率は同じになります。一致率が 100% 未満になる唯一の理由は、Audience Managerに取り込まれたメールアドレスが宛先プラットフォームのユーザーベース内のメールアドレスと一致しない場合です。
+電子メールアドレスが正しくハッシュ化され、取り込まれていれば、[!DNL People-Based Destinations] と他のメソッドのマッチ率は同じになります。一致率が100%未満になる唯一の理由は、Audience Managerに取り込まれたメールアドレスが、宛先プラットフォームのユーザーベースのメールアドレスと一致しない場合です。
 
 **ソーシャルネットワークで使用されている個人用電子メールアドレスとは異なる、業務用の電子メールアドレスを顧客から収集しています。複数の電子メールアドレスをまたいで ID を一致させるにはどうすればよいですか。**
 
@@ -107,13 +112,13 @@ Audience Manager では、ユーザーごとに最大 10 個の電子メール�
 
 **[!DNL People-Based Destinations] は、他の [!DNL Facebook] アプリ（[!DNL Instagram] など）でのオーディエンスターゲティングをサポートしていますか？**
 
-[!DNL People-Based Destinations]、[!DNL Facebook]、[!DNL Custom Audiences] および [!DNL Facebook] など、[!DNL Instagram] でサポートされている [!DNL Audience Network] のアプリ群で [!DNL Messenger] を使用できます。 キャンペーンを実行するアプリの選択範囲が、[!DNL Facebook Ads Manager] の配置レベルで示されます。
+[!DNL People-Based Destinations]は、[!DNL Facebook]、[!DNL Custom Audiences]、[!DNL Facebook]、[!DNL Instagram]など、[!DNL Audience Network]によってサポートされている[!DNL Messenger]のアプリファミリー全体で使用できます。 キャンペーンを実行するアプリの選択範囲が、[!DNL Facebook Ads Manager] の配置レベルで示されます。
 
-**[!DNL People-Based Destinations] と [!DNL Website Custom Audiences] の違いは何ですか？**
+**[!DNL People-Based Destinations]と[!DNL Website Custom Audiences]の違いは何ですか？**
 
 [!DNL People-Based Destinations] では [!DNL Custom Audiences (CA)] と [!DNL Facebook] の統合を活用します。顧客がオーディエンスを [!DNL Facebook] に送信する際に鍵となるのは、[!DNL WCA] 統合と [!DNL CA] 統合の違いです。[!DNL WCA] は [!DNL Facebook] ピクセル（Web サイトのユーザー ID となります）を使用していますが、[!DNL People-Based Destinations] はハッシュ化された電子メールアドレスを使用して [!DNL CA] と統合します。
 
-[!DNL Facebook] 機能を介したAudience Manager [!DNL WCA] [!DNL URL Destinations] 統合は、追加費用なしで使用できます。
+Audience Managerの[!DNL Facebook] [!DNL WCA]統合は、[!DNL URL Destinations]機能を介して追加費用なしで使用できます。
 
 これら 2 つの統合は補完的です。両方を使用して、オーディエンス対象範囲を改善することができます。例えば、アカウントを登録していない Web サイト訪問者をターゲットにしたい会社は、[!DNL WCA] を使用して見込み客を開拓できますが、[!DNL People-Based Destinations] は、電子メールアドレスを提供しているけれど Web サイトは訪問していない既存の顧客をターゲットにするのに役立ちます。
 

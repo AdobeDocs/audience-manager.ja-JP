@@ -7,14 +7,19 @@ title: Audience Optimization for Advertisers
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
 feature: Audience Optimization Reports
 exl-id: 13595778-3d3a-4c83-a84f-4bc3af1ee367
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/U9Rg-4rwjGdqYsjGDlctn0PBuxAlDjwIBtorAnGtqHU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: 406
 ht-degree: 99%
 
 ---
 
-# 広告主向け [!UICONTROL Audience Optimization]{#audience-optimization-for-advertisers}
+# 広告主向け[!UICONTROL Audience Optimization]{#audience-optimization-for-advertisers}
 
 [!UICONTROL Audience Optimization] for Advertisers では、自社の有料メディアキャンペーン全体で Audience Manager セグメントによってどの程度パフォーマンス向上を図れるかを確認できます。これらのレポートは、ログレベルのキャンペーンパフォーマンスデータと Audience Manager の[!UICONTROL segment]指標を組み合わせることで、セグメントを中心とした最適化および効果的なチャネルミックスを導き出します。
 
@@ -22,7 +27,7 @@ ht-degree: 99%
 
 次のいずれかの方法でこれらのレポートで使用するデータを [!DNL Audience Manager] に送信できます。両方の方法でデータを送信する場合もあります。そうすることで、訪問者に関するより包括的で正確な情報をレポートに取り込むことができます。[!UICONTROL Audience Optimization]レポートを使用するには、イベント呼び出しに[メタデータファイルの概要とマッピング](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)ドキュメントに一覧表示されている&#x200B;*すべて*&#x200B;のパラメーターを含める必要があります。以下に列挙された方法でデータを送信できます。
 
-* ピクセル呼び出し：必要なメタデータパラメーターを [!DNL Audience Manager] に渡すには、[ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ](../../../integration/media-data-integration/click-data-pixels.md)と[ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ &#x200B;](../../../integration/media-data-integration/impression-data-pixels.md)を参照してください。
+* ピクセル呼び出し：必要なメタデータパラメーターを [!DNL Audience Manager] に渡すには、[ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ](../../../integration/media-data-integration/click-data-pixels.md)と[ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ ](../../../integration/media-data-integration/impression-data-pixels.md)を参照してください。
 
 * データファイル：これらのレポートを使用して独自のデータ、または [!DNL Audience Manager] と統合されていないソースからのデータを分析する場合、そのデータのデータファイルとメタデータファイルを作成およびアップロードする必要があります。詳しくは、[オーディエンスの最適化レポートのデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)と [オーディエンスの最適化レポートのデータおよびメタデータファイル](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)を参照してください。
 

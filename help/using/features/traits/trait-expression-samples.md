@@ -7,9 +7,11 @@ title: ブール演算子と比較演算子を使用した式のサンプル
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 feature: Traits
 exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/mVpbP-ob3VclgLEBQWtI4zxthppaf5j7L8DPKBjF9Wo
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: 193
 ht-degree: 88%
 
 ---
@@ -22,13 +24,13 @@ ht-degree: 88%
 
 <!-- r_tb_expression_samples.xml -->
 
-[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。例の一部では、*`key`* 変数の前に `c_` を付けて、ユーザー定義変数として識別します。 イベント呼び出しでデータを `c_` に送信するために必要であれば、*`key`* 変数で接頭辞 [!DNL Audience Manager]（またはその他の命名規則）を使用します。
+[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。一部の例では、*`key`*&#x200B;変数の前に`c_`を付けて、ユーザー定義の変数として識別します。 イベント呼び出しでデータを `c_` に送信するために必要であれば、*`key`* 変数で接頭辞 [!DNL Audience Manager]（またはその他の命名規則）を使用します。
 
 ## ブール式 {#boolean-expressions}
 
 ### AND の例
 
-このルールは、ブール演算子 [!UICONTROL AND] を使用して特性認定要件を設定します。
+このルールは、ブール演算子 [!UICONTROL AND] を使用して特性選定要件を設定します。
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -63,7 +65,7 @@ ht-degree: 88%
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
-   <td colname="col2"> 変数 <code><i>a </i></code> または <code><i>b </i></code> および <code><i>c </i></code> で設定された条件を満たします。 </td> 
+   <td colname="col2"> 変数<code><i>a </i></code>または<code><i>b </i></code>と<code><i>c </i></code>で設定された条件を満たします。 </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,9 +7,12 @@ title: セグメントの宛先へのマッピング
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
 exl-id: 906df6c5-f878-48e6-a804-eb5b4407f304
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/uCYyOwaUN-5uCXESTtTTfVaoUsH2qrZS-ggvVQ-6-Ng
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: 494
 ht-degree: 98%
 
 ---
@@ -267,7 +270,7 @@ ht-degree: 98%
 }
 ```
 
-## セグメントのサーバー間宛先へのマッピング {#map-segment-s2s}
+## セグメントをサーバー間の宛先にマッピング {#map-segment-s2s}
 
 既存の[!UICONTROL server-to-server]宛先にセグメントをマッピングするための `POST` メソッド。現在利用可能なこれらの [!DNL API] メソッドを使用して [!UICONTROL server-to-server] を作成することはできません。
 

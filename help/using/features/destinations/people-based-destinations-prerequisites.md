@@ -6,13 +6,16 @@ solution: Audience Manager
 title: 前提条件と考慮事項
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
+TQID: https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: beb7a3c1-66ab-4786-b879-7621375b3c40id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: 996
 ht-degree: 91%
 
 ---
-
 
 # 前提条件と考慮事項 {#prerequisites-considerations}
 
@@ -48,7 +51,7 @@ ht-degree: 91%
 
 [!UICONTROL People-Based Destinations] を使用してファーストパーティオーディエンスセグメントを [!DNL LinkedIn] に送信する前に、お客様の [!DNL LinkedIn Campaign Manager] アカウントが [!DNL Creative Manager] 以上の権限レベルであることを確認してください。
 
-[!DNL LinkedIn Campaign Manager] ユーザー権限の編集方法については、LinkedIn ドキュメントの [Advertising アカウントのユーザー権限の追加、編集、削除 &#x200B;](https://www.linkedin.com/help/lms/answer/5753) を参照してください。
+[!DNL LinkedIn Campaign Manager]のユーザー権限を編集する方法については、LinkedIn ドキュメントの「[Advertising アカウントのユーザー権限を追加、編集、削除](https://www.linkedin.com/help/lms/answer/5753)」を参照してください。
 
 ビデオの手順については、「[Understanding and Configuring the LinkedIn People-Based Destination](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=ja)」を参照してください。
 
@@ -64,15 +67,15 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->すべてのAudience Managerのお客様は、[!UICONTROL People-Based Destinations] に新規登録しなくても、ハッシュ化されたメールを取り込むことができます。
+>すべてのAudience Managerのお客様は、[!UICONTROL People-Based Destinations]にサインアップせずにハッシュ化されたメールを取り込むことができます。
 
-[!UICONTROL People-Based Destinations] のデータ取り込みは、現在、バッチ転送ごとに 1 つの顧客 ID （[!DNL CRM ID]）にリンクされた最大 10 個のハッシュ化されたメールアドレスをサポートしています。
+現在、[!UICONTROL People-Based Destinations]のデータ取り込みは、バッチ転送ごとに1つの顧客ID （[!DNL CRM ID]）にリンクされた最大10個のハッシュ化された電子メールアドレスをサポートしています。
 
 1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスを、複数の一括転送でアップロードすると、Audience Manager は最近追加された 10 個の電子メールアドレスを保持します。
 
-ハッシュ化された識別子を取り込むには、[&#x200B; ハッシュ化された識別子のクロスデバイス対応データソースを作成 &#x200B;](../create-data-source-hashed-emails.md) して、**[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプションを有効にします。
+ハッシュ化されたIDを取り込むには、[ ハッシュ化されたID](../create-data-source-hashed-emails.md)のクロスデバイス データ ソースを作成し、**[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプションを有効にします。
 
-![&#x200B; 人物ベースの宛先やハッシュ化されたメールワークフローで、関連するクロスデバイス ID を共有するオプションを示すAudience Manager UI 画像 &#x200B;](assets/data-source-share-ids.png)
+![ ピープルベースの宛先やハッシュ化されたメールワークフローで、関連するクロスデバイス IDを共有するオプションを示すAudience Manager UI画像](assets/data-source-share-ids.png)
 
 ## データプライバシー {#data-privacy}
 

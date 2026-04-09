@@ -5,9 +5,13 @@ title: 受信データファイルコンテンツ - 構文、無効な文字、�
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
-source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
+TQID: https://experienceleague.adobe.com/VmG1uYu83JVavbWhBTIwbcN6xXW-cCy2IqBlZe8NtVA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: 1210
 ht-degree: 99%
 
 ---
@@ -97,7 +101,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules">特性ルール</a>を使用すると、特性認定の条件を設定できます。特性ルールを <code> ic == trait ID </code> と書式設定した場合、特性を簡単なコンマ区切りのリストで送信できます。 </p> <p>例えば、次の 3 つの特性ルールを作成したとします。 </p> <p> 
+   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules">特性ルール</a>を使用すると、特性選定の条件を設定できます。特性ルールを <code> ic == trait ID </code> と書式設定した場合、特性を簡単なコンマ区切りのリストで送信できます。 </p> <p>例えば、次の 3 つの特性ルールを作成したとします。 </p> <p> 
      <ul class="simplelist"> 
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
@@ -116,7 +120,7 @@ ht-degree: 99%
       <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = value </code> </li> 
       <li id="li_8910539EB4F0431E8CF63983D30D9B08"> <code> key = "value" </code> </li> 
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <code> "key" = "value" </code> </li> 
-     </ul><code> "age"="32" </code> 、<code> "gender"=m </code>、<code> model = "pickup truck" </code>、<code> product = tablet </code> はすべて、正しい形式のキーと値のペアの例です。 </p> </td> 
+     </ul><code> "age"="32" </code> 、<code> "gender"=m </code>、<code> model = "pickup truck" </code>、<code> product = tablet </code>はすべて、正しくフォーマットされたキーと値のペアの例です。 </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -201,30 +205,30 @@ ht-degree: 99%
    <td colname="col1"> <p><code> d_sid </code> または <code> d_unsid </code> を使用 </p> </td> 
    <td colname="col2"> <p>このデータファイルは、特性 24、26、27 について認定され、特性 28、29 から削除されたユーザーを示しています。 </p> <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;&nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
      </code> </p> <p>注意：  <p>d_unsid を使用する代わりに、次の構文を使用してユーザープロファイルから特性を削除することもできます。 </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:0,&nbsp;29:0 
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
       </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:-1,&nbsp;29:-1 
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> ic== </code> を使用 </p> </td> 
    <td colname="col2"> <p>これらの特性は、<code> ic </code> という接頭辞で特性ルールに追加されています。そのため、次のように、コンマ区切りのデータファイルに追加することができます。タブは UUID と特性 ID を区切ります。<code> ic </code> という接頭辞はファイルでは必要ありません。 </p> <p><b>数値 ID</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;30608,50354,50338,50352,30626 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>文字列 ID</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;ic=52,ic=55 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>キーと値のペアを使用 </p> </td> 
    <td colname="col2"> このファイルデータは、キーと値のペアを使用して、データを <span class="keyword">Audience Manager</span> に渡します。 <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -336,7 +340,7 @@ ht-degree: 99%
 
 ### 例 5 {#example-5}
 
-[!UICONTROL trait IDs] を使用して、[!DNL Android] デバイスの [!UICONTROL trait] 認定情報を送信します。
+[!UICONTROL trait IDs] を使用して、[!DNL Android] デバイスの [!UICONTROL trait] 選定情報を送信します。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -364,7 +368,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 例 7 {#example-7}
 
-キーと値のペアを送信し、[!UICONTROL trait] デバイスの [!DNL Android] 認定情報を追加します。
+キーと値のペアを送信し、[!UICONTROL trait] デバイスの [!DNL Android] 選定情報を追加します。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -378,7 +382,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### 例 8 {#example-8}
 
-`ic` 接頭辞を使用して、[!DNL Android] デバイスの[!UICONTROL trait]認定情報を送信します。
+`ic` 接頭辞を使用して、[!DNL Android] デバイスの[!UICONTROL trait]選定情報を送信します。
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -392,7 +396,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 9 {#example-9}
 
-[!UICONTROL trait IDs] を使用して、[!DNL iOS] デバイスの [!UICONTROL trait] 認定情報を送信します。
+[!UICONTROL trait IDs] を使用して、[!DNL iOS] デバイスの [!UICONTROL trait] 選定情報を送信します。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -420,7 +424,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 11 {#example-11}
 
-キーと値のペアを送信し、[!UICONTROL trait] デバイスの [!DNL iOS] 認定情報を追加します。
+キーと値のペアを送信し、[!UICONTROL trait] デバイスの [!DNL iOS] 選定情報を追加します。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -434,7 +438,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 12 {#example-12}
 
-`ic` 接頭辞を使用して、[!DNL iOS] デバイスの[!UICONTROL trait]認定情報を送信します。
+`ic` 接頭辞を使用して、[!DNL iOS] デバイスの[!UICONTROL trait]選定情報を送信します。
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -448,7 +452,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### 例 13 {#example-13}
 
-[!UICONTROL trait IDs] を使用して、[!DNL DPUUIDs] の [!UICONTROL trait] 認定情報を送信します。
+[!UICONTROL trait IDs] を使用して、[!DNL DPUUIDs] の [!UICONTROL trait] 選定情報を送信します。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -476,7 +480,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### 例 15 {#example-15}
 
-キーと値のペアを送信し、[!DNL DPUUIDs] 用の[!UICONTROL trait]認定情報を追加します。
+キーと値のペアを送信し、[!DNL DPUUIDs] 用の[!UICONTROL trait]選定情報を追加します。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -490,7 +494,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### 例 16 {#example-16}
 
-`ic` 接頭辞を使用して、[!DNL DPUUIDs] の[!UICONTROL trait]認定情報を送信します。
+`ic` 接頭辞を使用して、[!DNL DPUUIDs] の[!UICONTROL trait]選定情報を送信します。
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626

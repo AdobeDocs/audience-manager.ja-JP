@@ -7,9 +7,13 @@ title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: 678
 ht-degree: 94%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->このドキュメント内のスタイル要素（`monospaced text`、*斜体*、角括弧 `[ ]` `( )` など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>このドキュメントのスタイル要素（`monospaced text`、*斜体*、角括弧`[ ]``( )`など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## 構文およびファイル名要素 {#syntax-file-name}
 
@@ -156,7 +160,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->このドキュメント内のスタイル要素（`monospaced text`、*斜体*、角括弧 `[ ]` `( )` など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>このドキュメントのスタイル要素（`monospaced text`、*斜体*、角括弧`[ ]``( )`など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ### 構文
 
@@ -190,7 +194,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>ユーザーが対象外だったセグメントの ID。複数のセグメントをコンマで区切ります。完全同期を使用すると、データファイルにはユーザーの現在のセグメントの完全なリストが含まれるので、削除されたセグメントを無視できます。通常、ユーザーが削除されたセグメントではなく、ユーザーが属するセグメントを知る必要があります。送信データファイル名 <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> 構文と例 </a> も参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーが対象外だったセグメントの ID。複数のセグメントをコンマで区切ります。完全同期を使用すると、データファイルにはユーザーの現在のセグメントの完全なリストが含まれるので、削除されたセグメントを無視できます。通常、ユーザーが削除されたセグメントではなく、ユーザーが属するセグメントを知る必要があります。「<a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>」も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

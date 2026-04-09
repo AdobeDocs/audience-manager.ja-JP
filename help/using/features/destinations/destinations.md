@@ -9,16 +9,20 @@ title: 宛先
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
-source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
+TQID: https://experienceleague.adobe.com/uzxaWuCBUGwwh7IGur9hAaz5O99iVhVPU8CgUO23nsw
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943id: e7029888-c8b0-46a7-849a-cf132a1559bfid: ec293675-477f-45f1-aa2a-a7766c92060c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 573
 ht-degree: 96%
 
 ---
 
 # [!UICONTROL Destinations] 概要 {#destinations}
 
-Audience Managerでは、[!UICONTROL destination] とは、データを共有する任意のサードパーティシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）です。 [!UICONTROL Destination Builder] は、[!UICONTROL cookie]、[!DNL URL]、または[!UICONTROL server-to-server destinations]の作成と管理に使用するツールです。
+Audience Managerでは、[!UICONTROL destination]は、データを共有するサードパーティのシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）です。 [!UICONTROL Destination Builder] は、[!UICONTROL cookie]、[!DNL URL]、または[!UICONTROL server-to-server destinations]の作成と管理に使用するツールです。
 
 ## 目的とメリット {#purposes}
 

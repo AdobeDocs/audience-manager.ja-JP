@@ -6,9 +6,13 @@ solution: Audience Manager
 title: 共有可能なオーディエンス
 feature: People-based Destinations
 exl-id: 2860c105-1091-4779-bf40-e66faa941af0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/k-f2lTvCntfTu6pvQm-y4Ah6VqJIDsXkAhTw4sjngj8
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: 505
 ht-degree: 98%
 
 ---
@@ -28,7 +32,7 @@ ht-degree: 98%
 
 この指標のルックバック期間は 1 日です。これにより、特定の宛先におけるセグメントのオーディエンスリーチを把握できます。
 
-## 宛先の共有可能なオーディエンス {#destination-shareable-audience}
+## 宛先共有可能なオーディエンス {#destination-shareable-audience}
 
 People-Based Destinations ページの [!DNL Destination Shareable Audience] 指標は、[DPUUID](../../reference/ids-in-aam.md) が一致するデータソースのハッシュ化された電子メールアドレスの合計数を示します。Audience Manager は、その DPUUID を、その宛先にマッピングされているすべてのセグメントの宛先プラットフォームと共有できます。
 
@@ -46,11 +50,11 @@ Audience Manager のお客様には、110,000 の [DPUUID](../../reference/ids-i
 
 このシナリオでは、以下の手順に従います。
 
-* セグメント A の Shareable Audience = 10,000
-* セグメント B の Shareable Audience = 20,000
-* セグメント C の Shareable Audience = 50,000
-* 宛先 A の Shareable Audience = セグメント A の Shareable Audience + セグメント B の Shareable Audience =30,000
-* 宛先 B の Shareable Audience = セグメント C の Shareable Audience = 50,000。
+* セグメント A の共有可能オーディエンス = 10,000
+* セグメント B の共有可能オーディエンス = 20,000
+* セグメント C の共有可能オーディエンス = 50,000
+* 宛先 A の共有可能オーディエンス = セグメント A の共有可能オーディエンス + セグメント B の共有可能オーディエンス =30,000
+* 宛先 B の共有可能オーディエンス = セグメント C の共有可能オーディエンス = 50,000。
 
 ![shareable-audiences-diagram](assets/shareable-audiences.png)
 

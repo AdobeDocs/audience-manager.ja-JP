@@ -7,9 +7,14 @@ title: Audience Lab のユースケース
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 feature: Audience Lab
 exl-id: b68f48bd-0d5d-4b72-84f3-a6f3acea6c49
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+TQID: https://experienceleague.adobe.com/mDcQUaLcTjBA31iTkVJbm1UOy9rqRv3yHca4ZH-HliE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: 585
 ht-degree: 100%
 
 ---

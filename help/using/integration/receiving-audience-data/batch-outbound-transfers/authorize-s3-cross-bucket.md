@@ -7,9 +7,13 @@ title: 送信ファイルに Amazon S3 のクロスアカウントのバケッ�
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 feature: Outbound Data Transfers
 exl-id: e52f5bc0-7dc0-4c73-833c-5a778e8b5891
-source-git-commit: 9c0254e8a29ffeb0353ed6faa898b74bcae7cef1
+TQID: https://experienceleague.adobe.com/Ji1ltYPv4eoY5-eZiX62JyQ5SJzdMjFZdKeRzJnwKZg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: 186
 ht-degree: 69%
 
 ---
@@ -18,11 +22,11 @@ ht-degree: 69%
 
 [!DNL Amazon Simple Storage Service]（[!DNL Amazon S3]）を使用して[!UICONTROL Outbound Data Transfer]プロセスを実行する場合、送信データファイルをお客様のバケットに配信するために、お客様に [!DNL Amazon S3] のアクセスキーおよび秘密鍵を提供していただく必要があります。
 
-[!DNL Amazon S3] アクセスキーと秘密鍵を共有しない場合は、[!DNL Audience Manager] コンサルタントまたはカスタマーケアにお問い合わせください。[!DNL Cross-Account Bucket Permissions] が設定されます。
+[!DNL Amazon S3]のアクセスキーと秘密鍵をアドビと共有しない場合は、[!DNL Audience Manager] コンサルタントまたはカスタマーケアにお問い合わせください。お客様に[!DNL Cross-Account Bucket Permissions]を設定します。
 
 [Amazon S3 に関するドキュメント](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)に従って、送信データファイルを受信する [!DNL S3] バケットの [!DNL Amazon S3] アカウント ID を許可リストに登録するだけで済みます。担当の [!DNL Audience Manager]コンサルタントまたはカスタマーケアがアドビの [!DNL Amazon S3] アカウント ID をお渡しします。
 
 >[!NOTE]
 >
->Amazon S3 オブジェクトのサイズ制限により、Audience Managerは最大 1 TB の分割サイズをサポートします。 分割サイズを指定しない場合は、1 TB の制限が自動的に適用されます。
+>Amazon S3 オブジェクトサイズの制限により、Audience Managerでは最大1 TBの分割サイズをサポートしています。 分割サイズを指定しない場合、1 TBの制限が自動的に適用されます。
 

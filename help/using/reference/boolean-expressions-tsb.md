@@ -7,9 +7,12 @@ title: 特性およびセグメントビルダーのブール式
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 feature: Reference
 exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/-Fl1kRTxAy7fBmXx--xDFYZuDZy-7y8Li4YwBeoGvZo
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: 529
 ht-degree: 100%
 
 ---
@@ -38,7 +41,7 @@ c_tb_boolean.xml
 
 **特性およびセグメントビルダーでのブール式の使用方法**
 
-ブール式で特性およびセグメント資格認定ルールを作成します。[!UICONTROL OR]、[!UICONTROL AND] および [!UICONTROL NOT] を使用して資格認定条件を作成する場合の一般的なベストプラクティスを次の表に示します。
+ブール式で特性およびセグメント資格認定ルールを作成します。[!UICONTROL OR]、[!UICONTROL AND] および [!UICONTROL NOT] を使用して選定条件を作成する場合の一般的なベストプラクティスを次の表に示します。
 
 <table id="table_C762872C98F54C4A86A2F1C840A86657"> 
  <thead> 
@@ -73,7 +76,7 @@ c_tb_boolean.xml
 
 **[!UICONTROL OR] のユースケースの例**
 
-[!UICONTROL OR] 演算子は、幅広いオーディエンス資格認定要件でシグナルを作成する場合に役に立ちます。いくつかの特性またはセグメントの選定要件がある場合、[!UICONTROL OR] 演算子は、サイト訪問者がこれらの特徴の&#x200B;*いずれか*&#x200B;を示した場合に真と評価されます。[!UICONTROL OR] は、対象となるサイト訪問者の幅広いオーディエンスをすばやく作成する場合に最も役に立ちます。
+[!UICONTROL OR] 演算子は、幅広いオーディエンス選定要件でシグナルを作成する場合に役に立ちます。いくつかの特性またはセグメントの選定要件がある場合、[!UICONTROL OR] 演算子は、サイト訪問者がこれらの特徴の&#x200B;*いずれか*&#x200B;を示した場合に真と評価されます。[!UICONTROL OR] は、対象となるサイト訪問者の幅広いオーディエンスをすばやく作成する場合に最も役に立ちます。
 
 **[!UICONTROL AND NOT] のユースケースの例**
 

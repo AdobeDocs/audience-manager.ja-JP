@@ -7,9 +7,14 @@ solution: Audience Manager
 title: Adobe Audience Manager のサーバー間の宛先
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: a9a9e7c7813fa70b22e17a2f7b3cf67c0953ede2
+TQID: https://experienceleague.adobe.com/Ls7fYjqEk0Y3jJapjRYNVGpClGcwK4VcAs48f6SB6w0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: b82b475d-1e7d-46c6-9172-1f9c73004b11id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: c138d302-73f0-4186-93ea-10c4ba52f943
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: 1268
 ht-degree: 98%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 98%
 * **前回の更新日** = この [!UICONTROL device-based destination] で最後に更新がおこなわれた日付が表示されます。
 * **アップデート** = [!DNL Audience Manager]この [!UICONTROL destination] にデータをリアルタイムで送信するか、バッチ（1 回/日）で送信するかを指定します。
 * **セグメント解除** = セグメント化解除とは、デバイスプロファイルを不適格として[!UICONTROL segments]から削除するプロセスのことです。デバイスプロファイルを[!UICONTROL segment]から削除できるかどうかは、[!UICONTROL Profile Merge Rule] の作成時に使用したデバイスオプションによって異なります。セグメント化解除は、[!DNL GDPR] 削除リクエストのコンテキストでも使用されます。[プロファイルの結合ルールとデバイスのセグメント化解除プロセス](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)および [セグメント解除に対応している Audience Manager パートナー](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)をお読みください。[!DNL Audience Manager] は、以下の「**はい**」とマークされている[!UICONTROL destinations]にセグメント情報を送信します。
-* **同意シグナル [!DNL IAB TCF] 受信** = [!DNL Audience Manager Plug-in for IAB TCF] を使用すると、ユーザーのプライバシーの選択を尊重しながら、アクティベーションパートナーに [!DNL IAB TC] の文字列を転送できます。 [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
+* **受信[!DNL IAB TCF]同意シグナル** = [!DNL Audience Manager Plug-in for IAB TCF]を使用すると、ユーザーのプライバシーの選択を尊重しながら、[!DNL IAB TC]文字列をアクティベーションパートナーに転送できます。 [IAB TCF 用 Audience Manager プラグイン](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md)をお読みください。
 * **[!DNL ICDS]** = この列には、[!UICONTROL Instant Cross-Device Suppression] をサポートするパートナーが一覧表示されます。[Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) をお読みください。
 * **モバイルデバイス ID** = この列には、[!DNL Audience Manager] からモバイルデバイス ID を受け取ることができるパートナーが一覧表示されます。
 
@@ -43,7 +48,7 @@ ht-degree: 98%
 | [!DNL Adtheorent] | 2017/02/22 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Affinio] | 2018/04/03 | 1 回/日 | ○ | × | × | ○ |
 | [!DNL Aki] | 2018/06/21 | 1 回/日 | × | × | × | ○ |
-| [!DNL Amazon Advertising] | 01/02/2024 | 1 回/日 | ○ | × | × | × |
+| [!DNL Amazon Advertising] | 1/2/2024 | 1 回/日 | ○ | × | × | × |
 | [!DNL AOL AdLearn] | 2017/03/02 | リアルタイム | × | × | × | ○ |
 | [!DNL AOL ONE] | 2017/03/02 | リアルタイム | ○ | × | × | ○ |
 | [!DNL AppNexus] | 2017/03/02 | リアルタイム | ○ | × | ○ | ○ |

@@ -7,9 +7,14 @@ title: テストグループの管理
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: 981
 ht-degree: 98%
 
 ---
@@ -70,7 +75,7 @@ ht-degree: 98%
    * セグメントを宛先にドラッグアンドドロップします。
    * セグメントを宛先にドロップしてから、「**[!UICONTROL Destination Mapping Value]**」に入力します。
    * 同じテストセグメントを複数の宛先に送信でき、複数のテストセグメントを単一の宛先に追加できます。
-   * 宛先は、[&#x200B; データ書き出しコントロール &#x200B;](../../features/data-export-controls.md) に基づいて、特定のテストセグメントで使用できない場合、グレー表示されます。
+   * 宛先は、[ データ書き出しコントロール ](../../features/data-export-controls.md)に基づいて、特定のテストセグメントで使用できない場合はグレー表示されます。
    * ユーザーには、自分が属する [RBAC ユーザーグループ](../../features/administration/administration-overview.md)でアクセス権が付与されている宛先のみが表示されます。
    * 最後に、テストグループの開始日を選択する必要があります。この日付は、テストグループが宛先に公開される期間の開始を示します。テストセグメントの無期限の比較をおこなう場合は、「**No End Date**」を選択します。
 

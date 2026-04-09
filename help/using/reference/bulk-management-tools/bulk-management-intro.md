@@ -1,6 +1,6 @@
 ---
 description: 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
-keywords: baaam;BAAAM;baaam をダウンロード
+keywords: baaam;BAAAM;BAAAMのダウンロード
 seo-description: The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
 seo-title: Getting Started With Bulk Management
 solution: Audience Manager
@@ -8,13 +8,17 @@ title: '一括管理の概要 '
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 0c9c333f4e8d6d416d497f336e3e447e2e251d47
+TQID: https://experienceleague.adobe.com/aiSOt8QbXbvFnYwTv0P8DEh-hTanfyNNz2HKZpN15DY
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: f341dd0b-34de-403e-a549-e0f581dcdda6id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: 715
 ht-degree: 90%
 
 ---
-
 
 # 一括管理の概要 {#getting-started-with-bulk-management}
 
@@ -22,7 +26,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->Bulk Management Tools は、Adobeで正式にサポートされているサービスではありません。 カスタマーケアを通じたトラブルシューティングとサポートは、ケースバイケースで対応します。
+>一括管理ツールは、公式にサポートされているAdobe製品ではありません。 カスタマーサポートによるトラブルシューティングおよびサポートは、ケースバイケースで対応します。
 
 <!-- 
 
@@ -48,7 +52,7 @@ c_bulk_start.xml
 
 * [!DNL Experience Cloud] へのログイン。お客様が既にお持ちの資格情報です。
 * [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20210609.xlsm)してください。
-* [!DNL Microsoft Excel] は 64 ビット [!DNL Microsoft Windows] で実行されています。 最新バージョンの [!DNL Microsoft Excel] を使用することをお勧めします。 一括管理ツールは [!DNL macOS] ではサポートされていません。
+* 64 ビット [!DNL Microsoft Excel]で実行中の[!DNL Microsoft Windows]。 最新バージョンの[!DNL Microsoft Excel]を使用することをお勧めします。 一括管理ツールは[!DNL macOS]ではサポートされていません。
 * ワークシートを開く場合は、[!DNL Bulk Management Tools] で&#x200B;**マクロを有効にする**&#x200B;必要があります。
 
 ## 認証の要件およびオプション {#auth-reqs}
@@ -68,9 +72,9 @@ c_bulk_start.xml
 
 **ドメイン認証のオプション**
 
-ドメイン認証では、一括リクエストをテストすることも、直接実稼動アカウントに適用することもできます。テスト環境で一括変更をおこなっても、実稼動アカウントには反映されません。実稼動アカウントへの変更は即座に反映されます。一括管理シートを使用すると、次の環境で作業できます。
+ドメイン認証では、一括リクエストをテストすることも、直接実稼動アカウントに適用することもできます。Beta 環境で一括変更を行っても、実稼動アカウントには反映されません。実稼動アカウントへの変更は即座に反映されます。一括管理シートを使用すると、次の環境で作業できます。
 
-* ベータ
+* Beta
 * 実稼動
 
 ## アクションおよび操作 {#actions-ops}
@@ -100,7 +104,7 @@ c_bulk_start.xml
       <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Estimate </li> 
       <li id="li_07A3E94326124A3092362D9896EB7732">Delete </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>一括変更できるオブジェクトは、「<b><span class="uicontrol">Headers</span></b>」タブに配置されており、次の項目などがあります。 </p> <p> 
+   <td colname="col2"> <p>一括変更できるオブジェクトは、「<b><span class="uicontrol">ヘッダー</span></b>」タブに配置されており、次の項目などがあります。 </p> <p> 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> データソース</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> 派生シグナル</a> </li> 
@@ -125,4 +129,4 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->大量のリクエストを処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。その場合、そのままにしておきます。一括リクエストが完了すると、ワークシートは反応するようになります。ワークシートが長時間応答しない場合は、[&#x200B; トラブルシューティングの節 &#x200B;](../../reference/bulk-management-tools/bulk-troubleshooting.md) を参照してください。
+>大量のリクエストを処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。その場合、そのままにしておきます。一括リクエストが完了すると、ワークシートは反応するようになります。ワークシートが長時間応答しない場合は、[ トラブルシューティングの節](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。

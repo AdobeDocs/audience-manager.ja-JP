@@ -8,9 +8,13 @@ title: アクションにつながるログファイル
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/NL19RzO-EfALqH0Exkt5PZeBO-mZXztl4ioiJRp-g4g
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: 1601
 ht-degree: 97%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->このドキュメントのテキストスタイル（`monospaced text`、*斜体*、角括弧 `[ ]` `( )` など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
+>このドキュメントのテキストスタイル（`monospaced text`、*斜体*、角括弧`[ ]``( )`など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
 
 ## 目的 {#purpose}
 
@@ -41,7 +45,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 -->
 
@@ -49,7 +53,7 @@ ht-degree: 97%
 
 [!UICONTROL Actionable Log Files]を使用すると、Web サイトでのリアルタイムなインタラクションの場合と同じ方法でコウコクサーバーログの情報を [!DNL Audience Manager] に取り込むことができます。[!DNL Audience Manager] と広告サーバーログストレージを接続してログの情報を解析し、ログデータをアクションにつながるシグナルとしてアドビの[データ収集サーバー](../../reference/system-components/components-data-collection.md#dcs-pcs)に送信します。
 
-アクションにつながるシグナルを取得するためには、ルールベースの特性を設定する必要があります。[Audience Managerのユーザーインターフェイスまたは &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)Bulk Management Tools[&#x200B; を使用して &#x200B;](../../reference/bulk-management-tools/bulk-create.md) ルールベースの特性を設定する方法を参照してください。 ルールベースの特性で使用できるすべてのキーのリストを参照するには、[アクションにつながるシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
+アクションにつながるシグナルを取得するためには、ルールベースの特性を設定する必要があります。[Audience Manager ユーザーインターフェイス ](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)または[Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md)を使用して、ルールベースの特性を設定する方法について説明します。 ルールベースの特性で使用できるすべてのキーのリストを参照するには、[アクションにつながるシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
 
 >[!IMPORTANT]
 >

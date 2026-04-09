@@ -7,9 +7,11 @@ title: セグメント有効期間の説明
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 feature: Traits
 exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: 378
 ht-degree: 94%
 
 ---
@@ -22,7 +24,7 @@ ht-degree: 94%
 
 ## 有効期間
 
-[!DNL TTL] は、最後の特性資格認定イベントの後、サイト訪問者がセグメントにとどまっている期間を定義します。[!DNL TTL] は、セグメントではなく、特性に対して設定されます。訪問者は、[!DNL TTL] 期間が終了するまでに対象となる特性が確認されない場合、セグメントから除外されます。新しい特性に対するデフォルトの [!DNL TTL] は 120 日です。0 日に設定すると、特性は有効期限なしになります。[TTL 値を設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)します（特性作成インターフェイスの「[!UICONTROL Advanced Options]」セクションで特性を作成または編集する場合）。
+[!DNL TTL] は、最後の特性選定イベントの後、サイト訪問者がセグメントにとどまっている期間を定義します。[!DNL TTL] は、セグメントではなく、特性に対して設定されます。訪問者は、[!DNL TTL] 期間が終了するまでに対象となる特性が確認されない場合、セグメントから除外されます。新しい特性に対するデフォルトの [!DNL TTL] は 120 日です。0 日に設定すると、特性は有効期限なしになります。[TTL 値を設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)します（特性作成インターフェイスの「[!UICONTROL Advanced Options]」セクションで特性を作成または編集する場合）。
 
 ### 1 日のTTL（有効期限）の説明
 
@@ -32,8 +34,8 @@ Audience Manager は、次の式に基づいて、[!DNL TTL] の有効期限を 
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **例 1**：特性が 1:00[!DNL UTC] で実現され、1 日の [!DNL TTL] を持つ。 [!DNL TTL] は、24 時間 + 24 時間 － 1 = 47 時間後に期限切れとなります。
-* **例 2**:23:00 の [!DNL UTC] で実現された特性（1 日 [!DNL TTL]） [!DNL TTL] は、24 時間 + 24 時間 － 23 = 25 時間後に期限切れとなります。
+* **例1**：特性が1:00 [!DNL UTC]で認識され、1日[!DNL TTL]が設定されました。 [!DNL TTL] は、24 時間 + 24 時間 － 1 = 47 時間後に期限切れとなります。
+* **例2**:23:00 [!DNL UTC]で認識された特性。1日[!DNL TTL]。 [!DNL TTL] は、24 時間 + 24 時間 － 23 = 25 時間後に期限切れとなります。
 
 ## [!DNL TTL] とセグメントからのドロップアウト
 
@@ -55,4 +57,4 @@ Audience Manager は、次の式に基づいて、[!DNL TTL] の有効期限を 
 
 >[!MORELIKETHIS]
 >
->* [特性の有効期間の設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
+>* [特性の有効期限の設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)

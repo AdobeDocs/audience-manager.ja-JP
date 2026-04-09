@@ -7,9 +7,11 @@ title: プロファイル結合ルールとデバイスのセグメント化解�
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: 467
 ht-degree: 100%
 
 ---
@@ -44,7 +46,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >**セグメント評価と除外のデバイスの上限は 100 です**。
->>Audience Manager は、デバイスグラフを使用するプロファイル結合ルールを持つセグメントを評価する場合、最大 100 のデバイスを結合します。Audience Managerは、[認証済みプロファイル](../../reference/visitor-authentication-states.md)（クロスデバイス ID）を使用して、現在のデバイスと、現在のデバイスにリンクされている最大 99 台のデイスを評価します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された最大 100 台の追加デバイスが宛先のセグメントから削除されます。
+>Audience Manager は、デバイスグラフを使用するプロファイル結合ルールを持つセグメントを評価する場合、最大 100 のデバイスを結合します。Audience Managerは、[認証済みプロファイル](../../reference/visitor-authentication-states.md)（クロスデバイス ID）を使用して、現在のデバイスと、現在のデバイスにリンクされている最大 99 台のデイスを評価します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された最大 100 台の追加デバイスが宛先のセグメントから削除されます。
 
 ![](assets/last-device-graph.png)
 
