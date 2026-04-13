@@ -3,7 +3,7 @@ description: Adobeは、Audience Marketplaceを強化し、アクティブなフ
 solution: Audience Manager
 title: Audience Marketplace optimization
 feature: Audience Marketplace
-hide: yes
+hide: true
 exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
 TQID: https://experienceleague.adobe.com/KvT3y7GApQFDZYs1F20VCxNinclwenFi-HSk8-oImQo
 product_v2:
@@ -15,7 +15,7 @@ subfeature_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+source-git-commit: ab793b204abf34f578cb6486d885b006b07a0f05
 workflow-type: tm+mt
 source-wordcount: 640
 ht-degree: 1%
