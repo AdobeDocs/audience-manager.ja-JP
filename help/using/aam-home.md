@@ -1,5 +1,5 @@
 ---
-description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。アドビの製品とサービスは、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
+description: Audience Manager は、オンラインでのオーディエンスデータ管理において、業界をリードするサービスを提供します。 アドビの製品とサービスは、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
 seo-description: Technical documentation and self help for Audience Manager (AAM). AAM provides industry-leading services for online audience data management, and give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
 seo-title: Adobe Audience Manager Product Technical Documentation
 solution: Audience Manager
@@ -30,27 +30,27 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 547
-ht-degree: 98%
+source-wordcount: 632
+ht-degree: 96%
 
 ---
 
 # Audience Manager ガイド {#audience-manager-product-documentation}
 
-このテクニカルドキュメントガイドは、オンラインオーディエンスデータ管理の業界トップのサービスである Audience Manager に対するセルフサポートを提供します。アドビの製品とサービスは、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
+このテクニカルドキュメントガイドは、オンラインオーディエンスデータ管理の業界トップのサービスである Audience Manager に対するセルフサポートを提供します。 アドビの製品とサービスは、デジタル広告主やメディアがデータアセットを管理、コントロールして、セールスを成功に導くために必要なツールを提供します。
 
 ## このガイドの使用方法
 
 * **左側のナビゲーション**&#x200B;で、トピック別およびサブトピック別にコンテンツを参照します。
 * 何を探したいかががわかっている場合は、ページ上部の&#x200B;**検索**&#x200B;フィールドを使用します。
-* ページの右上にある「**問題をログに記録**」ボタンを使用して、誤ったドキュメントや古いドキュメントを伝えます。投稿の開始方法については、[コラボレーションガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)の概要を参照してください。
+* ページの右上にある「**問題をログに記録**」ボタンを使用して、誤ったドキュメントや古いドキュメントを伝えます。 投稿の開始方法については、[コラボレーションガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)の概要を参照してください。
 
 ## このページの読み方
 
-* まず、**Audience Manager の主な機能**&#x200B;の節で、Audience Manager が解決に役立つ問題のスナップショットをご覧ください。次に、[Audience Manager の概要](/help/using/overview/aam-overview.md)も参照してから、このページに戻ります。
-* 次に、「**Audience Manager 使用の手引き**」を読んで、Audience Manager の概念を把握してください。まあ、ビジネスガイドと技術実装ガイドも必ずご確認ください。
+* まず、**Audience Manager の主な機能**&#x200B;の節で、Audience Manager が解決に役立つ問題のスナップショットをご覧ください。 次に、[Audience Manager の概要](/help/using/overview/aam-overview.md)も参照してから、このページに戻ります。
+* 次に、「**Audience Manager 使用の手引き**」を読んで、Audience Manager の概念を把握してください。 まあ、ビジネスガイドと技術実装ガイドも必ずご確認ください。
 * 最新の Audience Manager リリースノートを参照し、**リリースノートおよび最新の機能**&#x200B;の節で最新の機能の詳細をお読みください。
 * 最後に、「**学習センター - 推奨される Audience Manager および Experience Cloud のリソース**」の節で、フォーラム、ビデオチュートリアル、対面およびオンラインでのトレーニングコースなど、より多くの Experience Cloud リソースを参照できます。
 
@@ -103,7 +103,7 @@ ht-degree: 98%
    <p> 以下のページを読んで、Audience Manager の実装を開始します。
      <ul>
      <li><a href="/help/using/integration/data-integration-methods.md">データ統合方法</a></li>
-     <li><a href="/help/using/integration/implement-audience-manager.md"> 実装ガイド </a></li>
+     <li><a href="/help/using/integration/implement-audience-manager.md">実装ガイド</a></li>
      </ul> </p>
 
 <p> <b>技術実装ガイド</b> </p> <p>Audience Manager API を使い始めて、アプリで Audience Manager を設定します。</p> <p> 
@@ -194,7 +194,6 @@ See the latest [Experience Cloud Release Notes](https://experienceleague.adobe.c
 Read about the latest Audience Manager features:
 * [Activity Usage Reporting](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/activity-usage-reporting.html?lang=ja)
 * [California Consumer Privacy Act (CCPA) Support and Privacy Documentation Overhaul](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=ja)
-* [Intelligent Recommendations for Audience Marketplace Data, powered by Adobe Sensei](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/trait-recommendations.html?lang=ja)
 * [Profile Merge Rules Enhancements](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html?lang=ja)
 * [Bulk Management Tools Update](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=ja)
 

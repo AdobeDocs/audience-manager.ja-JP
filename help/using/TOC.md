@@ -3,12 +3,12 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Audience Manager ユーザーガイド
-user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
+user-guide-description: Adobe Audience Manager を使用してサイト訪問者に関する商業的に関連性の高い情報を収集し、市場向きのセグメントを作成する方法を説明します。 また、ターゲット広告やコンテンツを適切なオーディエンスに提供する方法に関する詳細も確認できます。
 feature-set: Audience Manager
-source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 93%
+source-wordcount: '1982'
+ht-degree: 92%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 93%
 # Audience Manager ユーザーガイド {#user-guide}
 
 + [Audience Manager ガイド](aam-home.md)
-+ [Real-Time CDPへの進化ガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=ja)
++ [Real-Time CDPの進化ガイド](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=ja)
 + Web SDKへの移行{#migrate-to-web-sdk}
-   + [Adobe Audience Managerのタグ拡張機能から Web SDKのタグ拡張機能への移行](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
-   + [AppMeasurementから Web SDKへのデータ収集ライブラリの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
+   + [Adobe Audience Manager タグ拡張機能からWeb SDK タグ拡張機能への移行](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
+   + [AppMeasurementからWeb SDKへのデータ収集ライブラリの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + 概要{#overview}
    + [Audience Manager の概要](overview/aam-overview.md)
    + [収集されるデータのタイプ](overview/data-types-collected.md)
@@ -27,7 +27,7 @@ ht-degree: 93%
    + データプライバシー {#data-privacy}
       + [データプライバシーの概要](overview/data-security-and-privacy/data-privacy.md)
       + [データプライバシーリクエスト](overview/data-security-and-privacy/data-privacy-requests.md)
-      + データプライバシーのリファレンス {#data-privacy-reference}
+      + データプライバシーリファレンス {#data-privacy-reference}
          + [Audience Manager 識別子](overview/data-security-and-privacy/data-privacy-ids.md)
          + [CCPA の用語集](overview/data-security-and-privacy/aam-ccpa-glossary.md)
          + [GDPR の用語集](overview/data-security-and-privacy/aam-gdpr-glossary.md)
@@ -66,7 +66,7 @@ ht-degree: 93%
       + [Audience Lab の高度な機能](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + [hide-from-tocAudience Marketplaceの最適化 &#x200B;](features/audience-marketplace/audience-marketplace-optimization.md)
+      + {hide-from-toc}[Audience Marketplace最適化](features/audience-marketplace/audience-marketplace-optimization.md)
       + データプロバイダー向けの Audience Marketplace{#audience-marketplace-for-data-providers}
          + [データプロバイダー向けの Audience Marketplace](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [データフィードの作成、価格設定および管理](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
@@ -95,19 +95,19 @@ ht-degree: 93%
    + データソース {#data-sources}
       + [データソースリストと設定](features/datasources-list-and-settings.md)
       + [データソースの作成](features/manage-datasources.md)
-      + [ハッシュ化されたメールワークフロー用の Data Sourceの設定](features/create-data-source-hashed-emails.md)
+      + [ハッシュ化されたメールワークフロー用のData Sourceの設定](features/create-data-source-hashed-emails.md)
       + [グローバルデータソース](features/global-data-sources.md)
    + [宣言された ID](features/declared-ids.md)
    + [派生シグナル](features/derived-signals.md)
    + 宛先{#destinations}
       + [宛先の概要](features/destinations/destinations.md)
       + [宛先ホームページ](features/destinations/destinations-home.md)
-      + Adobe Experience Cloud宛先{#experience-cloud-destinations}
+      + Adobe Experience Cloudの宛先{#experience-cloud-destinations}
          + [Analytics の宛先の設定](features/destinations/create-analytics-destination.md)
       + People-Based Destinations {#people-based}
          + [概要とユースケース](features/destinations/people-based-destinations-overview.md)
          + [前提条件と考慮事項](features/destinations/people-based-destinations-prerequisites.md)
-         + 実装ガイド  {#implementation-guide}
+         + 実装ガイド {#implementation-guide}
             + [実装の概要](features/destinations/people-based-destinations-workflow.md)
             + [ワークフロー A - すべてのオンラインアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション](features/destinations/people-based-destinations-workflow-combined.md)
             + [ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション](features/destinations/people-based-destinations-workflow-offline.md)
@@ -119,12 +119,12 @@ ht-degree: 93%
          + [Audience Manager のデバイスベースの宛先のリスト](/help/using/features/destinations/device-based-destinations-list.md)
          + [サーバー間宛先のセグメントの追加または編集](features/destinations/add-edit-segments.md)
          + [Twitter カスタムオーディエンスをセルフサービスデバイスベースの宛先として設定する](features/destinations/twitter-tailored-audiences.md)
-         + [Amazon Advertisingをセルフサービスデバイスベースの宛先として設定する](features/destinations/amazon-advertising.md)
-      + カスタムの宛先 {#custom-destinations}
+         + [Amazon Advertising as a Self-Service Device-Based Destinationの設定](features/destinations/amazon-advertising.md)
+      + カスタム配信先 {#custom-destinations}
          + [URL の宛先の設定](features/destinations/create-url-destination.md)
          + [Cookie の宛先の設定](features/destinations/create-cookie-destination.md)
          + [Cookie の宛先のオプション設定](features/destinations/cookie-destination-options.md)
-      + 宛先のリファレンス {#destinations-reference}
+      + 宛先リファレンス {#destinations-reference}
          + [宛先ビルダー](features/destinations/destination-builder.md)
          + [get_aamCookie コード](features/destinations/get-aam-cookie-code.md)
          + [宛先マクロの定義](features/destinations/destination-macros.md)
@@ -151,7 +151,6 @@ ht-degree: 93%
       + [セグメントビルダー](features/segments/segment-builder.md)
       + [セグメント式エディターで使用するコード構文](features/segments/segment-code-syntax.md)
       + [セグメントビルダーにおける特性とセグメント母集団データ](features/segments/segment-builder-data.md)
-      + [特性レコメンデーション](features/segments/trait-recommendations.md)
       + [特性およびセグメントの選定に関するリファレンス](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=ja)
    + 特性{#traits}
       + [特性の概要](/help/using/features/traits/traits-overview.md)
@@ -197,14 +196,14 @@ ht-degree: 93%
          + [クロスチャネルコンバージョン](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Audience Optimization for Publishers {#audience-optimization-publishers}
          + [Audience Optimization for Publishers の概要](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む &#x200B;](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [セグメントパフォーマンスレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [セグメントトレンドレポート](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [上位の未使用特性](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
          + [広告ユニット間重複](reporting/audience-optimization-reports/aor-publishers/publisher-ad-unit-overlap.md)
          + [セグメント - 広告ユニット間重複](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [ユニークユーザーのリーチ](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
-      + Audience Optimization レポートおよびアクションにつながるログファイル用のデータとメタデータファイル {#data-and-metadata-files}
+      + Audience Optimization レポートおよび実用的なログファイルのデータおよびメタデータファイル {#data-and-metadata-files}
          + [ログデータとメタデータファイル](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
          + [Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [メタデータファイルの概要とマッピング](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
@@ -220,7 +219,7 @@ ht-degree: 93%
       + [未使用シグナルレポート](reporting/dynamic-reports/unused-signals.md)
       + [ルックアップテーブルによるログファイル処理時間の改善](reporting/dynamic-reports/lookup-tables.md)
       + [データスライダーを使用したレポート結果のフィルタリング](reporting/dynamic-reports/data-sliders.md)
-      + [重複レポート：更新スケジュールと最小セグメントサイズ &#x200B;](reporting/dynamic-reports/overlap-minimum-segment-size.md)
+      + [重複レポート：更新スケジュールと最小セグメントサイズ](reporting/dynamic-reports/overlap-minimum-segment-size.md)
       + [重複レポートの CSV ファイル](reporting/dynamic-reports/overlap-csv-files.md)
       + [レポート技術](reporting/dynamic-reports/interactive-report-technology.md)
    + [オンボーディングステータスレポート](reporting/onboarding-status-report.md)
@@ -232,7 +231,7 @@ ht-degree: 93%
    + [Audience Manager の API コードの移行](api/api-swagger-migration.md)
    + データ収集サーバー（DCS）API メソッドおよびコード{#dcs}
       + [DCS API メソッドとコード](api/dcs-intro/dcs-intro.md)
-      + DCS イベント呼出し{#dcs-event-calls}
+      + DCS イベント呼び出し{#dcs-event-calls}
          + [DCS イベント呼び出し API](api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
          + [DCS へのデータ送信](api/dcs-intro/dcs-event-calls/dcs-url-send.md)
          + [DCS からのデータ受信](api/dcs-intro/dcs-event-calls/dcs-url-receive.md)
@@ -274,7 +273,7 @@ ht-degree: 93%
          + [グループ管理 API メソッド](api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)
          + [権限管理 API メソッド](api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
       + [DCS 地域 API メソッド](api/rest-api-main/aam-api-dcs-regions.md)
-   + [SDK コード &#x200B;](api/aam-sdk.md)
+   + [SDK コード](api/aam-sdk.md)
 + データ統合ライブラリ（DIL）API{#dil-api}
    + [データ統合ライブラリ（DIL）について](dil/dil-overview.md)
    + クラスレベルの DIL メソッド{#class-level-dil-methods}
@@ -292,7 +291,7 @@ ht-degree: 93%
 + 実装および統合ガイド{#implementation-integration-guides}
    + [実装および統合ガイド](integration/implementation-and-integration.md)
    + [データ統合方法](integration/data-integration-methods.md)
-   + Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合 {#integrate-dfp-using-gpt}
+   + Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合{#integrate-dfp-using-gpt}
       + [GPT を使用した Google Ad Manager の統合 - 概要](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [GPT を使用した Google Ad Manager へのセグメントの送信](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [GPT 宛先の作成](integration/gpt-aam-destination/gpt-aam-create-destination.md)
@@ -320,7 +319,7 @@ ht-degree: 93%
       + バッチ送信データ転送{#batch-outbound-data-transfers}
          + [バッチ送信データ転送の概要](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
          + [バッチデータ転送統合の設定](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
-         + [送信データファイル名：構文と例 &#x200B;](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+         + [送信データファイル名：構文と例](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [ログファイル転送のための転送制御ファイル](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [送信テンプレートマクロ](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [送信マクロの例](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
@@ -342,18 +341,18 @@ ht-degree: 93%
          + [受信データタイプのファイル PGP 暗号化](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [受信データ転送ファイルのファイル圧縮](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [受信処理後パートナーに送信されるメッセージの例](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-         + [&#x200B; インバウンドファイル用にAmazon S3 のクロスアカウントバケットの権限を活用 &#x200B;](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
+         + [&#x200B; インバウンドファイルに対するAmazon S3 クロスアカウントバケット権限を活用](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
-   + Adobe Experience Platformとの統合 {#integration-experience-platform}
+   + Adobe Experience Platformとの連携 {#integration-experience-platform}
       + [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform のセグメント共有](integration/integration-aep/aam-aep-audience-sharing.md)
    + 他のExperience Cloud アプリケーションとの統合 {#integration-other-solutions}
       + [Audience Manager の Adobe Target との統合](integration/integration-other-solutions/aam-target-integration.md)
-      + [Adobe Analytics から Audience Manager にデータを転送する方法 &#x200B;](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics セグメントを Experience Cloud に公開する（Adobe Analytics のドキュメントを開く）](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/t-publish-audience-segment.html?lang=ja)
-      + [Audience Manager と Adobe Campaign の統合（Adobe Campaign ドキュメントを開く）](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=ja)
+      + [Adobe Analytics から Audience Manager にデータを転送する方法](integration/integration-other-solutions/audience-management-module.md)
+      + [Adobe Analytics セグメントをExperience Cloudに公開する（Adobe Analytics ドキュメントを開く）](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/t-publish-audience-segment.html?lang=ja)
+      + [Audience ManagerとAdobe Campaignの統合（Adobe Campaign ドキュメントを開く）](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=ja)
 + リファレンス{#reference}
    + [リファレンスの概要](reference/reference.md)
-   + [Amazon S3：概要 &#x200B;](reference/amazon-s3.md)
+   + [Amazon S3：概要](reference/amazon-s3.md)
    + [広告主のユースケース](reference/advertiser-use-cases.md)
    + [パブリッシャーのユースケース](reference/publisher-use-cases.md)
    + [Beta 環境](reference/beta-environment.md)
@@ -375,14 +374,14 @@ ht-degree: 93%
    + [パスワードの要件、ロックされたアカウント、パスワードを忘れた場合](reference/password-requirements.md)
    + [シグナル、特性、セグメント](reference/signal-trait-segment.md)
    + [サポートされているブラウザー](reference/supported-browsers.md)
-   + システムコンポーネント {#system-components}
+   + システムコンポーネント{#system-components}
       + [システムコンポーネントの概要](reference/system-components/components-overview.md)
       + [Audience Manager システムの主要なコンポーネント](reference/system-components/components-stack.md)
       + [データアクションのコンポーネント](reference/system-components/components-data-action.md)
       + [データ収集コンポーネント](reference/system-components/components-data-collection.md)
       + [データ処理のコンポーネント](reference/system-components/components-data-processing.md)
       + [Tag Management コンポーネント](reference/system-components/components-tag-management.md)
-      + [プラットフォームアーキテクチャ：データフローマップ &#x200B;](reference/system-components/components-platform-architecture.md)
+      + [プラットフォームアーキテクチャ：データフローマップ](reference/system-components/components-platform-architecture.md)
       + [エッジデータセンターについて](reference/system-components/components-edge.md)
    + [コードおよびテキスト要素のスタイル規則](reference/code-style-elements.md)
    + [Audience Manager のタイムゾーン](reference/aam-time-zones.md)
@@ -408,7 +407,7 @@ ht-degree: 93%
    + [概要](/help/using/help-legal/help-legal-overview.md)
    + [問題がある場合](/help/using/help-legal/help-problem.md)
    + [連絡先情報および法的事項](/help/using/help-legal/help-legal-contact.md)
-+ カスタマーサポートに関するよくある問題{#top-support-issues}
++ カスタマーサポートの主な課題{#top-support-issues}
    + [概要](/help/using/support-issues/support-issues-overview.md)
    + [10 月 15 日頃にオンボーディングされた特性の母集団が 0 に減ったのはなぜですか？](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [重複レポートページに特性やセグメントが表示されないのはなぜですか？](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
