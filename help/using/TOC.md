@@ -16,7 +16,7 @@ ht-degree: 92%
 # Audience Manager ユーザーガイド {#user-guide}
 
 + [Audience Manager ガイド](aam-home.md)
-+ [Real-Time CDPの進化ガイド](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ [Real-Time CDPの進化ガイド](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=ja)
 + Web SDKへの移行{#migrate-to-web-sdk}
    + [Adobe Audience Manager タグ拡張機能からWeb SDK タグ拡張機能への移行](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [AppMeasurementからWeb SDKへのデータ収集ライブラリの移行](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
