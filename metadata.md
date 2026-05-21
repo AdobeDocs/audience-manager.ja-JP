@@ -1,17 +1,17 @@
 ---
 cloud: Experience Cloud
 solution: Audience Manager
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+usetq: true
 feature-set: Audience Manager
 landing-page-name: audience-manager
 landing-page-breadcrumb-title: Audience Manager
 type: Documentation
 tutorials-title: Tutorials
-tutorials-url: https://docs.adobe.com/content/help/ja-JP/audience-manager-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/audience-manager.ja-JP
+tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
+git-repo: https://github.com/AdobeDocs/audience-manager.en
 index: true
-source-git-commit: c46ee8bb3185c5199994d2e6ceaccda5d058ed7e
+source-git-commit: 7f04b26ac96647822fbeae7f8f5cded3f3b191e3
 workflow-type: tm+mt
 source-wordcount: 125
 ht-degree: 0%
