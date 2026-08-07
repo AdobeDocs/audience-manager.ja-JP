@@ -341,7 +341,7 @@ ht-degree: 92%
       + [受信データタイプのファイル PGP 暗号化](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
       + [受信データ転送ファイルのファイル圧縮](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
       + [受信処理後パートナーに送信されるメッセージの例](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-      + [ インバウンドファイルに対するAmazon S3 クロスアカウントバケット権限を活用](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
+      + [&#x200B; インバウンドファイルに対するAmazon S3 クロスアカウントバケット権限を活用](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
     + [カスタムパートナーの統合](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
   + Adobe Experience Platformとの連携 {#integration-experience-platform}
     + [Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform のセグメント共有](integration/integration-aep/aam-aep-audience-sharing.md)

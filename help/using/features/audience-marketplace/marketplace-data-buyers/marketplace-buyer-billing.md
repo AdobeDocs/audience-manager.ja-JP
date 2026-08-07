@@ -9,10 +9,17 @@ uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
 TQID: https://experienceleague.adobe.com/crzZ-d8Vd4lNwUJXIqIT7PGPNRnUKp-nLSVoTbSH5F8
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 2059
@@ -35,7 +42,7 @@ Audience Marketplace データ購入者は、広告インプレッション数 1
 [!UICONTROL Audience Marketplace] では、次の 2 種類の方法で [!DNL CPM] の使用状況をレポートできます。
 
 * **セグメントレベルのレポート**：こちらが推奨される [!DNL CPM]の使用状況のレポート方法です。 セグメントレベルで [!DNL CPM] の使用状況をレポートする場合、データフィードレベルのレポートセクションには、[CPM データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、対応する使用量が自動で入力されます。
-* **データフィードレベルのレポート**：この方法では、[ データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、データフィードごとに [!DNL CPM] 使用状況を個別にレポートする必要があります。 ただし、この方法はセグメントレベルのレポートに比べて煩雑であり、エラーが生じやすくなります。
+* **データフィードレベルのレポート**：この方法では、[&#x200B; データフィードのコスト配分](#cost-attribution)で説明しているアルゴリズムに基づいて、データフィードごとに [!DNL CPM] 使用状況を個別にレポートする必要があります。 ただし、この方法はセグメントレベルのレポートに比べて煩雑であり、エラーが生じやすくなります。
 
 <br> 
 

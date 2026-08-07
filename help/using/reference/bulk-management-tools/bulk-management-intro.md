@@ -9,10 +9,19 @@ uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
 TQID: https://experienceleague.adobe.com/aiSOt8QbXbvFnYwTv0P8DEh-hTanfyNNz2HKZpN15DY
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: f341dd0b-34de-403e-a549-e0f581dcdda6id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+  - id: f341dd0b-34de-403e-a549-e0f581dcdda6
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 718
@@ -129,4 +138,4 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->大量のリクエストを処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。 その場合、そのままにしておきます。 一括リクエストが完了すると、ワークシートは反応するようになります。 ワークシートが長時間応答しない場合は、[ トラブルシューティングの節](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。
+>大量のリクエストを処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。 その場合、そのままにしておきます。 一括リクエストが完了すると、ワークシートは反応するようになります。 ワークシートが長時間応答しない場合は、[&#x200B; トラブルシューティングの節](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。
