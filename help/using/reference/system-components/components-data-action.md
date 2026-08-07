@@ -8,15 +8,12 @@ uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: System Components
 exl-id: 8065c19f-1930-4164-a952-1686aa5cb622
 TQID: https://experienceleague.adobe.com/LVKtT4nllMAY2JbRXknJV-fwluR-e9huiFLlU38H4Kc
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 669
 ht-degree: 98%
 
 ---
@@ -31,11 +28,11 @@ c_compact.xml
 
  -->
 
-アクションコンポーネントとは、（ここでは便宜的に）[!DNL Audience Manager] とのデータの送受信および処理をおこなうことを可能にするシステムおよびプロセスとします。これらの [!DNL Audience Manager] コンポーネントには以下のようなものがあります。
+アクションコンポーネントとは、（ここでは便宜的に）[!DNL Audience Manager] とのデータの送受信および処理をおこなうことを可能にするシステムおよびプロセスとします。 これらの [!DNL Audience Manager] コンポーネントには以下のようなものがあります。
 
 ## 顧客データフィード（CDF） {#cdf}
 
-[!UICONTROL CDF] は、1 時間ごとにお客様に送信されるファイルです。これらのファイルには、ユーザー ID、関連付けられたセグメント ID、特性 ID などのデータが含まれます。詳しくは、[顧客データフィードの概要](../../features/cdf-files.md)を参照してください。
+[!UICONTROL CDF] は、1 時間ごとにお客様に送信されるファイルです。 これらのファイルには、ユーザー ID、関連付けられたセグメント ID、特性 ID などのデータが含まれます。 詳しくは、[顧客データフィードの概要](../../features/cdf-files.md)を参照してください。
 
 ## データ収集サーバー（DCS） {#dcs}
 
@@ -43,30 +40,30 @@ c_compact.xml
 
 ## SFTP／S3 {#sftp-s3}
 
-[!UICONTROL SFTP/S3] パブリッシャーは [!UICONTROL Outbound Feed Converter] から同期済み ID データを取得します。これらのファイルが準備できたら、[!UICONTROL SFTP/S3 publishers]はこれらのデータをクライアントによって指定された宛先に送信します。これらのファイルには、[!DNL Audience Manager] ユーザー ID （UUID）が下記の項目と 1 対多でマッピングされた、同期された ID データが含まれます。
+[!UICONTROL SFTP/S3] パブリッシャーは [!UICONTROL Outbound Feed Converter] から同期済み ID データを取得します。 これらのファイルが準備できたら、[!UICONTROL SFTP/S3 publishers]はこれらのデータをクライアントによって指定された宛先に送信します。 これらのファイルには、[!DNL Audience Manager] ユーザー ID （UUID）が下記の項目と 1 対多でマッピングされた、同期された ID データが含まれます。
 
 * デバイス ID／データプロバイダー ID（DPUUID）
 * 適合したセグメント ID
 * 特性 ID
 
-[!DNL Audience Manager] をご利用のお客様は、[!UICONTROL SFPT/S3 publishers]を直接制御する機能にアクセスできません。お客様はデータを作成して宛先に送信する際に、このサービスを間接的に使用します。[!UICONTROL SFTP/S3] システムとは基本的に、スケジュールされた間隔で自動実行されるジョブプロセスです。
+[!DNL Audience Manager] をご利用のお客様は、[!UICONTROL SFPT/S3 publishers]を直接制御する機能にアクセスできません。 お客様はデータを作成して宛先に送信する際に、このサービスを間接的に使用します。 [!UICONTROL SFTP/S3] システムとは基本的に、スケジュールされた間隔で自動実行されるジョブプロセスです。
 
 ## IRIS {#iris}
 
-[!UICONTROL Iris]とは、瞬く間に移動して神託を伝えるギリシャ神話の登場人物です。[!UICONTROL IRIS] システムも、古代神話のこの登場人物と同じ特性を備えています。現代用語における [!UICONTROL IRIS] とは、低遅延で高頻度の Cookie による同期およびデータ転送サービスを指します。
+[!UICONTROL Iris]とは、瞬く間に移動して神託を伝えるギリシャ神話の登場人物です。 [!UICONTROL IRIS] システムも、古代神話のこの登場人物と同じ特性を備えています。 現代用語における [!UICONTROL IRIS] とは、低遅延で高頻度の Cookie による同期およびデータ転送サービスを指します。
 
-[!UICONTROL IRIS] では [!UICONTROL SFTP/S3] と同じタイプのデータが処理されます。ただ、[!UICONTROL IRIS] では宛先へのデータ送信が設定された間隔でではなく、リアルタイムでおこなわれるという点が異なります。[!UICONTROL SFTP/S3] ベースのパブリッシャーは HTTP ベースの宛先にデータを送信できず、またリアルタイムのデータ転送向けに設計されていないことから、これらは異なるシステムです。
+[!UICONTROL IRIS] では [!UICONTROL SFTP/S3] と同じタイプのデータが処理されます。 ただ、[!UICONTROL IRIS] では宛先へのデータ送信が設定された間隔でではなく、リアルタイムでおこなわれるという点が異なります。 [!UICONTROL SFTP/S3] ベースのパブリッシャーは HTTP ベースの宛先にデータを送信できず、またリアルタイムのデータ転送向けに設計されていないことから、これらは異なるシステムです。
 
-お客様が直接 [!UICONTROL IRIS] を操作するための UI コントロールは用意されていません。お客様は、データを作成して宛先に送信するとき、および高速データ転送が必要な他のプロセスにおいて間接的に [!UICONTROL IRIS] を操作します。
+お客様が直接 [!UICONTROL IRIS] を操作するための UI コントロールは用意されていません。 お客様は、データを作成して宛先に送信するとき、および高速データ転送が必要な他のプロセスにおいて間接的に [!UICONTROL IRIS] を操作します。
 
 [!UICONTROL IRIS] のサービスおよび機能の使用例には次のようなものがあります。
 
-* Cookie およびセグメントを高速（30 秒以内）に同期する。[!DNL Audience Manager] の Cookie、パートナーの Cookie およびその両方を同期できます。
-* リアルタイムのデータ転送。[!UICONTROL IRIS] は、パートナーまたは他の宛先にセグメントの選定イベントをリアルタイムで送信します。データは JSON 形式で、HTTP `POST` リクエストによって送信されます。
+* Cookie およびセグメントを高速（30 秒以内）に同期する。 [!DNL Audience Manager] の Cookie、パートナーの Cookie およびその両方を同期できます。
+* リアルタイムのデータ転送。 [!UICONTROL IRIS] は、パートナーまたは他の宛先にセグメントの選定イベントをリアルタイムで送信します。 データは JSON 形式で、HTTP `POST` リクエストによって送信されます。
 
 * サーバー間の一括データ転送：[!DNL Audience Manager] で大量のデータを送受信する場合、サーバーがデータ転送でやり取りするシステムは [!UICONTROL IRIS] となります。
 
-* 幅広く使用でき、信頼性の高いフォールトトレラントなインフラストラクチャ。[!UICONTROL IRIS] を使用するシステムには、Amazon SQS、Amazon EC2 および Cassandra などがあります。
+* 幅広く使用でき、信頼性の高いフォールトトレラントなインフラストラクチャ。 [!UICONTROL IRIS] を使用するシステムには、Amazon SQS、Amazon EC2 および Cassandra などがあります。
 
 **セグメントマッピングルール**
 
@@ -86,7 +83,7 @@ c_compact.xml
 
 **サンプルデータファイル**
 
-次の例では、[!UICONTROL IRIS] からのリアルタイムなセグメントデータを示します。これは一例にすぎないことにご注意ください。お客様ごとに書式要件が異なるので、その内容は異なる場合があります。
+次の例では、[!UICONTROL IRIS] からのリアルタイムなセグメントデータを示します。 これは一例にすぎないことにご注意ください。 お客様ごとに書式要件が異なるので、その内容は異なる場合があります。
 
 ```
 {

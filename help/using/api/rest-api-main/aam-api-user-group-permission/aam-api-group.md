@@ -8,13 +8,11 @@ uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
 exl-id: b43c8404-1853-4306-8f26-96d9191a2548
 TQID: https://experienceleague.adobe.com/2h1Y0wd3T5fXaBWsouTvwdHcIWCWLAdkKCzTfUX6yWU
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: 207
 ht-degree: 100%
 
 ---
@@ -131,7 +129,7 @@ r_rest_api_group_list.xml
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-成功すると `204 No Content` が返されます。競合が発生する場合、`409 Conflict` が返されます。
+成功すると `204 No Content` が返されます。 競合が発生する場合、`409 Conflict` が返されます。
 
 ## グループの一括削除 {#delete-groups-bulk}
 
@@ -143,7 +141,7 @@ r_rest_api_group_list.xml
 
 `DELETE /api/v1/groups/bulk-delete`
 
-成功すると `204 No Content` が返されます。競合が発生する場合、`409 Conflict` が返されます。
+成功すると `204 No Content` が返されます。 競合が発生する場合、`409 Conflict` が返されます。
 
 ## グループのすべての権限のリスト {#list-permissions-group}
 
@@ -181,7 +179,7 @@ r_rest_api_group_list.xml
 
 ## グループの権限の設定 {#set-permissions-group}
 
-グループ権限を更新するための `PUT` メソッド。このメソッドは、古い権限を新しい権限で上書きします。
+グループ権限を更新するための `PUT` メソッド。 このメソッドは、古い権限を新しい権限で上書きします。
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -214,4 +212,4 @@ r_rest_api_group_list.xml
 
 このレスポンスのサンプルは、更新された権限オブジェクトのリストを表しています。
 
-成功すると `200 OK` が返されます。無効な権限がある場合、`400` が返されます。また、ログインしたユーザーがオブジェクトにアクセスできない場合は `403` が返されます。
+成功すると `200 OK` が返されます。 無効な権限がある場合、`400` が返されます。 また、ログインしたユーザーがオブジェクトにアクセスできない場合は `403` が返されます。

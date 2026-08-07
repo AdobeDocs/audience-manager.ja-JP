@@ -1,5 +1,5 @@
 ---
-description: ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールのリクエストをおこなうには、以下の手順に従ってください。
+description: ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。 一括ルールのリクエストをおこなうには、以下の手順に従ってください。
 seo-description: The create and update worksheets accept a traitRule header that lets you apply multiple rules in a single operation. Follow these instructions to make bulk rule requests.
 seo-title: Create or Update Trait Rules and Segment Rules
 solution: Audience Manager
@@ -8,26 +8,20 @@ uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 TQID: https://experienceleague.adobe.com/7vkYd55lKv1PCjRqX-OxK1A-VIjgH3O9Tx0AnbZvRWA
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: 345
 ht-degree: 92%
 
 ---
 
 # 特性ルールおよびセグメントルールの作成または更新{#create-or-update-trait-rules-and-segment-rules}
 
-ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。一括ルールのリクエストをおこなうには、以下の手順に従ってください。
+ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。 一括ルールのリクエストをおこなうには、以下の手順に従ってください。
 
 >[!IMPORTANT]
 >
@@ -45,11 +39,11 @@ ht-degree: 92%
 
 ## 特性ルールの使用 {#trait-rules}
 
-ワークシートの特性ルール列は、ブール式、比較演算子、正規表現で構成されるルールを受け付け、また返します。[!DNL Audience Manager] のセグメントビルダーで特性またはセグメントを使用したルールを作成し、それらをワークシートにコピーできます。または、構文についての知識をお持ちの場合、直接ワークシートに式を記述できます。
+ワークシートの特性ルール列は、ブール式、比較演算子、正規表現で構成されるルールを受け付け、また返します。 [!DNL Audience Manager] のセグメントビルダーで特性またはセグメントを使用したルールを作成し、それらをワークシートにコピーできます。 または、構文についての知識をお持ちの場合、直接ワークシートに式を記述できます。
 
 ## ルールビルダーの例 {#rule-builder-example}
 
-[!UICONTROL Segment Builder]を使用してルールを作成し、一括ワークシートにコピーする方法の例を見てみましょう。ただし、ここではこれらのツールの一連の操作手順については触れず、単純なルールが既に作成済みであることを前提とします。ルールビルダーの使用方法については、[セグメントビルダー](../../features/segments/segment-builder.md)および[特性ビルダー](../../features/traits/about-trait-builder.md)を参照してください。
+[!UICONTROL Segment Builder]を使用してルールを作成し、一括ワークシートにコピーする方法の例を見てみましょう。 ただし、ここではこれらのツールの一連の操作手順については触れず、 単純なルールが既に作成済みであることを前提とします。 ルールビルダーの使用方法については、[セグメントビルダー](../../features/segments/segment-builder.md)および[特性ビルダー](../../features/traits/about-trait-builder.md)を参照してください。
 
 ルールビルダーのビジュアルな画面を使用して、3 つの特性および Boolean 演算子 [!UICONTROL AND] で構成されるセグメントが既に作成されています。
 
@@ -59,7 +53,7 @@ ht-degree: 92%
 
 >[!TIP]
 >
->ルールロジックを確認するには、「**[!UICONTROL Validate Expression]**」をクリックします。これは、無効なルールをアップロードすることを防ぐのに役立ちます。
+>ルールロジックを確認するには、「**[!UICONTROL Validate Expression]**」をクリックします。 これは、無効なルールをアップロードすることを防ぐのに役立ちます。
 
 ![](assets/coderule.png)
 
@@ -69,7 +63,7 @@ ht-degree: 92%
 
 ## 独自ルールの作成 {#create-rules}
 
-[!UICONTROL Rule Builder]外で独自ルールを記述できます。作業を開始する前に必ず、演算子、式および必須変数などについて説明されているドキュメントをお読みください。以下の項目を確認することをお勧めします。
+[!UICONTROL Rule Builder]外で独自ルールを記述できます。 作業を開始する前に必ず、演算子、式および必須変数などについて説明されているドキュメントをお読みください。 以下の項目を確認することをお勧めします。
 
 * [特性ビルダーでの比較演算子の使用](../../features/traits/trait-comparison-operators.md)
 * [演算の順序](../../features/traits/trait-operator-precedence.md)

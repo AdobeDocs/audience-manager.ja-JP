@@ -8,30 +8,18 @@ uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 TQID: https://experienceleague.adobe.com/tIudKTIrwiTO01Bq5pDuekNKI5YCrjBCDi13rKydK2k
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
-  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8id: e7029888-c8b0-46a7-849a-cf132a1559bf
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1157
-ht-degree: 95%
+source-wordcount: 1232
+ht-degree: 96%
 
 ---
 
-# 用語集 {#glossary}
+# 用語集{#glossary}
 
 定義および関連情報へのリンク。
 
@@ -39,13 +27,13 @@ ht-degree: 95%
 
 **アルゴリズムモデリング**
 
-[!UICONTROL Algorithmic Modeling]は、既に特定されているコアユーザーを超える範囲のユーザーにリーチするために使用します。自動化されたデータ分析を通して、固有のオーディエンスを新しく発見できます。[!UICONTROL Algorithmic Models] は **[!UICONTROL Audience Data > Models]** で管理します。
+[!UICONTROL Algorithmic Modeling]は、既に特定されているコアユーザーを超える範囲のユーザーにリーチするために使用します。 自動化されたデータ分析を通して、固有のオーディエンスを新しく発見できます。 [!UICONTROL Algorithmic Models] は **[!UICONTROL Audience Data > Models]** で管理します。
 
 詳細については、[アルゴリズムモデルについて](../features/algorithmic-models/algo-models-overview.md)を参照してください。
 
 **BAAAM**
 
-[!UICONTROL Bulk Management Tools]をインストールします。[!DNL Audience Manager] の[!UICONTROL Bulk Management Tools]は Microsoft Excel ベースのツールセットで、1 回の操作で一度に複数のオブジェクトの作成、修正および削除ができます。データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。この機能は Microsoft Excel スプレッドシートのマクロを使用し、[!DNL Audience Manager] API の認証済みの安全な呼び出しをおこないます。
+[!UICONTROL Bulk Management Tools]. [!DNL Audience Manager] の[!UICONTROL Bulk Management Tools]は Microsoft Excel ベースのツールセットで、1 回の操作で一度に複数のオブジェクトの作成、修正および削除ができます。 データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。 この機能は Microsoft Excel スプレッドシートのマクロを使用し、[!DNL Audience Manager] API の認証済みの安全な呼び出しをおこないます。
 
 詳しくは、[一括管理ツール](../reference/bulk-management-tools/bulk-management-intro.md)を参照してください。
 
@@ -53,13 +41,13 @@ ht-degree: 95%
 
 **CDF**
 
-[!UICONTROL Customer Data Feed]をインストールします。[!UICONTROL CDF] ファイルとは、[!DNL Audience Manager] で収集されたデータを一括ダウンロードしたものです。これにより、ユーザーインターフェイスに課せられた制限を超えて [!DNL Audience Manager] データを処理できます。[!UICONTROL CDF] ファイルには、[!DNL Audience Manager] イベント呼び出し（`/event`）でサーバーに送信されるデータと同じものが含まれています。ユーザー ID、特性 ID、セグメント ID など、イベント呼び出しで表されるあらゆるパラメーターが含まれます。
+[!UICONTROL Customer Data Feed]. [!UICONTROL CDF] ファイルとは、[!DNL Audience Manager] で収集されたデータを一括ダウンロードしたものです。これにより、ユーザーインターフェイスに課せられた制限を超えて [!DNL Audience Manager] データを処理できます。 [!UICONTROL CDF] ファイルには、[!DNL Audience Manager] イベント呼び出し（`/event`）でサーバーに送信されるデータと同じものが含まれています。 ユーザー ID、特性 ID、セグメント ID など、イベント呼び出しで表されるあらゆるパラメーターが含まれます。
 
 [顧客データフィード](../features/cdf-files.md)を参照してください。
 
 **CRM ID**
 
-CRM ID は、お客様が自身の CRM システム内でユーザーを識別するための ID です。Audience Manager では、CRM ID ではなく DPUUID という用語を使用します。
+CRM ID は、お客様が自身の CRM システム内でユーザーを識別するための ID です。 Audience Manager では、CRM ID ではなく DPUUID という用語を使用します。
 
 [Audience Manager の ID のインデックス](../reference/ids-in-aam.md)の DPUUID を参照してください。
 
@@ -84,7 +72,7 @@ CRM ID は、お客様が自身の CRM システム内でユーザーを識別�
 
 **Customer Match Rate**
 
-顧客のアドレス可能なオーディエンス ÷ 顧客の合計オーディエンスを％で表現したもの。[アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)を参照してください。
+顧客のアドレス可能なオーディエンス ÷ 顧客の合計オーディエンスを％で表現したもの。 [アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)を参照してください。
 
 
 
@@ -96,7 +84,7 @@ CRM ID は、お客様が自身の CRM システム内でユーザーを識別�
 
 **demdex.net**
 
-Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインです。[!DNL Audience Manager] の買収前の名前（[!DNL Demdex]）を表しています。[!DNL Adobe] は 2011 年に [!DNL Demdex] を買収し、[!DNL Audience Manager] というブランド名に変更しました。`demdex.net` への HTTP 呼び出しはすべて、[!DNL Adobe]に送信される呼び出しとなります。
+Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインです。 [!DNL Audience Manager] の買収前の名前（[!DNL Demdex]）を表しています。 [!DNL Adobe] は 2011 年に [!DNL Demdex] を買収し、[!DNL Audience Manager] というブランド名に変更しました。 `demdex.net` への HTTP 呼び出しはすべて、[!DNL Adobe]に送信される呼び出しとなります。
 
 [Demdex ドメインの呼び出しについて](../reference/demdex-calls.md)を参照してください。
 
@@ -104,7 +92,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 **DAID**
 
-[!UICONTROL Device Advertising IDs] は一意のデバイス ID で、モバイルデバイスの識別に使用されます。これらの ID はアドビではなく、デバイス製造元によって割り当てられます。[!DNL Audience Manager] は、iOS および Android デバイス ID をサポートしています。
+[!UICONTROL Device Advertising IDs] は一意のデバイス ID で、モバイルデバイスの識別に使用されます。 これらの ID はアドビではなく、デバイス製造元によって割り当てられます。 [!DNL Audience Manager] は、iOS および Android デバイス ID をサポートしています。
 
 [Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
@@ -112,39 +100,39 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 **宛先**
 
-[!DNL Audience Manager]では、宛先とは、データを共有する他のシステム （アドサーバー、DSP、アドネットワークなど）です。 UI 内の [!UICONTROL Destination Builder] はこれらのデータ配信プロセスを作成および管理するためのツールです。[!DNL Audience Manager] の宛先に関する機能には、**[!UICONTROL Audience Data > Destinations]** からアクセスできます。
+[!DNL Audience Manager]では、宛先は他のシステム （アドサーバー、DSP、アドネットワークなど）です 宛先になります。 UI 内の [!UICONTROL Destination Builder] はこれらのデータ配信プロセスを作成および管理するためのツールです。 [!DNL Audience Manager] の宛先に関する機能には、**[!UICONTROL Audience Data > Destinations]** からアクセスできます。
 
 
 
 **DIL**
 
-[!UICONTROL Data Integration Library]は、ユーザーインタラクションデータを収集するために [!DNL Audience Manager] で使用される API ライブラリです。詳しくは、[データ統合ライブラリ（DIL）API](../dil/dil-overview.md) を参照してください。
+[!UICONTROL Data Integration Library]は、ユーザーインタラクションデータを収集するために [!DNL Audience Manager] で使用される API ライブラリです。 詳しくは、[データ統合ライブラリ（DIL）API](../dil/dil-overview.md) を参照してください。
 
 
 
 **dpm**
 
-[!UICONTROL Data Provider Match]をインストールします。これにより、[!DNL Audience Manager] または ID サービスからの呼び出しで同期または ID リクエストのために顧客データが渡されていることが、[!DNL Adobe] の社内システムにわかります。[Demdex ドメインの呼び出しについて](../reference/demdex-calls.md)を参照してください。
+[!UICONTROL Data Provider Match]. これにより、[!DNL Audience Manager] または ID サービスからの呼び出しで同期または ID リクエストのために顧客データが渡されていることが、[!DNL Adobe] の社内システムにわかります。 [Demdex ドメインの呼び出しについて](../reference/demdex-calls.md)を参照してください。
 
 ## E-F {#e-f}
 
 **Experience Cloud ID (ECID)**
 
-以前は [!DNL Marketing Cloud] ID（MID または MCID）と呼ばれていたものです。この ID は [!DNL Experience Cloud] ID サービスの中心となるものです。サイト訪問者の永続的な一意の識別子です。[Cookie と Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
+以前は [!DNL Marketing Cloud] ID（MID または MCID）と呼ばれていたものです。 この ID は [!DNL Experience Cloud] ID サービスの中心となるものです。 サイト訪問者の永続的な一意の識別子です。 [Cookie と Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)を参照してください。
 
 
 
 **フォルダー特性**
 
-フォルダー分類における、特性の自動的なグループ化。階層内の各フォルダーで、セグメントを定義できる特性が自動的に作成されます。
+フォルダー分類における、特性の自動的なグループ化。 階層内の各フォルダーで、セグメントを定義できる特性が自動的に作成されます。
 
-[&#x200B; フォルダー特性：約](../features/traits/about-folder-traits.md)を参照してください。
+[ フォルダー特性：約](../features/traits/about-folder-traits.md)を参照してください。
 
 
 
 **頻度キャップ**
 
-広告主がエンドユーザーに対して所定のクリエイティブを表示できる回数の制限。[!UICONTROL Segment Builder]では、様々な方法で頻度キャップを設定できます。
+広告主がエンドユーザーに対して所定のクリエイティブを表示できる回数の制限。 [!UICONTROL Segment Builder]では、様々な方法で頻度キャップを設定できます。
 
 詳しくは、[最新性と頻度](../features/segments/recency-and-frequency.md)を参照してください。
 
@@ -152,35 +140,36 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 **GAID**
 
-Google 広告 ID。Android オペレーティングシステムを実行しているハードウェアデバイスに対して Google によって割り当てられる一意のデバイス ID です。[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
+Google 広告 ID。Android オペレーティングシステムを実行しているハードウェアデバイスに対して Google によって割り当てられる一意のデバイス ID です。 [Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
 
 
 **GUID**
 
-Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!DNL Audience Manager] では、GUID という用語は使用しません。GUID は [!DNL Audience Manager]Audience Manager UUID と呼ばれます。[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
+Globally Unique Identifier（グローバルに一意の ID）の頭字語。 [!DNL Audience Manager] では、GUID という用語は使用しません。 GUID は [!DNL Audience Manager]Audience Manager UUID と呼ばれます。
+[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
 ## I-J {#i-j}
 
 **IDFA**
 
-広告主の識別子。Apple によって製品に割り当てられる一意のデバイス ID。[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
+広告主の識別子。Apple によって製品に割り当てられる一意のデバイス ID。 [Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
 
 
 **インバウンド**
 
-[!DNL Audience Manager] に対して他のソースからオーディエンスデータを送信できるプロセス。詳しくは、[オーディエンスデータの送信](/help/using/integration/sending-audience-data/send-audience-data.md)を参照してください。
+[!DNL Audience Manager] に対して他のソースからオーディエンスデータを送信できるプロセス。 詳しくは、[オーディエンスデータの送信](/help/using/integration/sending-audience-data/send-audience-data.md)を参照してください。
 
 
 
 **統合コード**
 
-[!DNL Audience Manager] UI または API を使用して特性、セグメントまたはデータソースを作成する際に、オプションで統合コードを追加できます。統合コードは以下のように様々な目的に使用されます。
+[!DNL Audience Manager] UI または API を使用して特性、セグメントまたはデータソースを作成する際に、オプションで統合コードを追加できます。 統合コードは以下のように様々な目的に使用されます。
 
-* [!UICONTROL Traits]：統合コードは、内部のビジネスプロセスで使用される ID や SKU などの値のフィールドとなります。オプションです。
-* [!UICONTROL Segments]：統合コードは、ユーザー定義 ID などの会社固有の情報のフィールドとなります。オプションです。
-* [!UICONTROL Data Sources]：統合コードは、クロスデバイスのデータソースを作成したり、Adobe Experience Platform ID サービスを使用したり、[!UICONTROL Profile Merge Rules] を使用して作業する場合に必要となります。詳しくは、[データソースの作成](../features/manage-datasources.md#create-data-source)を参照してください。
+* [!UICONTROL Traits]：統合コードは、内部のビジネスプロセスで使用される ID や SKU などの値のフィールドとなります。 オプションです。
+* [!UICONTROL Segments]：統合コードは、ユーザー定義 ID などの会社固有の情報のフィールドとなります。 オプションです。
+* [!UICONTROL Data Sources]：統合コードは、クロスデバイスのデータソースを作成したり、Adobe Experience Platform ID サービスを使用したり、[!UICONTROL Profile Merge Rules] を使用して作業する場合に必要となります。 詳しくは、[データソースの作成](../features/manage-datasources.md#create-data-source)を参照してください。
 
 ## K-L {#k-l}
 
@@ -198,7 +187,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 **PCS**
 
-[!UICONTROL Profile Cache Server]をインストールします。[!UICONTROL PCS] は、Apache Cassandra 上で動作する大規模なデータベースです。サーバーからサーバーへのデータ転送および [!DNL DCS] から受信したアクティブユーザーのデータを格納します。[!UICONTROL PCS] データは、デバイス ID、認証済みプロファイル ID、およびそれらに関連付けられた特性で構成されます。
+[!UICONTROL Profile Cache Server]. [!UICONTROL PCS] は、Apache Cassandra 上で動作する大規模なデータベースです。 サーバーからサーバーへのデータ転送および [!DNL DCS] から受信したアクティブユーザーのデータを格納します。 [!UICONTROL PCS] データは、デバイス ID、認証済みプロファイル ID、およびそれらに関連付けられた特性で構成されます。
 
 [データ収集コンポーネント](../reference/system-components/components-data-collection.md)を参照してください。
 
@@ -220,7 +209,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 **適合**
 
-ある特性に適合するサイト訪問者のアクション。[訪問者プロファイルビューア &#x200B;](../features/visitor-profile-viewer.md) ツールを使用して、特定のユーザーによる特性認識に関する情報を取得できます。
+ある特性に適合するサイト訪問者のアクション。 [訪問者プロファイルビューア ](../features/visitor-profile-viewer.md) ツールを使用して、特定のユーザーによる特性認識に関する情報を取得できます。
 
 ## S-T {#s-t}
 
@@ -228,13 +217,13 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 セグメント（またはオーディエンス）は、共通の属性を共有する一連のユーザーです。
 
-[&#x200B; セグメント：目的、構成、ルール &#x200B;](../features/segments/segments-purpose.md)を参照してください。
+[ セグメント：目的、構成、ルール ](../features/segments/segments-purpose.md)を参照してください。
 
 
 
 **セグメントのアドレス可能なオーディエンス**
 
-[アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)において、レポートのルックバック期間中にセグメントに属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。セグメントには、[Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md) で取得した経由で、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含むことができます。
+[アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)において、レポートのルックバック期間中にセグメントに属しており、サイト上で ID 同期がアクティブとなっているユーザーの数。 セグメントには、[Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md) で取得した経由で、自社のファーストパーティデータと、セカンドパーティおよびサードパーティデータを含むことができます。
 
 
 
@@ -246,7 +235,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 **Segment Match Rate**
 
-セグメントアドレス可能オーディエンス ÷ 合計セグメント母集団の総数を％で表現したもの。[アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)を参照してください。
+セグメントアドレス可能オーディエンス ÷ 合計セグメント母集団の総数を％で表現したもの。 [アドレス可能なオーディエンス](/help/using/features/addressable-audiences.md)を参照してください。
 
 
 
@@ -260,7 +249,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 **特性**
 
-特性は、1 つ以上のシグナルの組み合わせです。詳しくは、[シグナル、特性およびセグメント](../reference/signal-trait-segment.md)を参照してください。
+特性は、1 つ以上のシグナルの組み合わせです。 詳しくは、[シグナル、特性およびセグメント](../reference/signal-trait-segment.md)を参照してください。
 
 
 
@@ -270,7 +259,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。[!D
 
 **TTL (Time-to-Live)**
 
-TTL は、対象として認定された訪問者が特性にとどまる日数を定義します。TTL は、セグメントではなく、特性に対して設定されます。訪問者は、TTL 期間が終了するまでに対象となる特性が確認されない場合、セグメントから除外されます。詳しくは、[セグメントと特性の有効期間についての説明](/help/using/features/traits/segment-ttl-explained.md)を参照してください。
+TTL は、対象として認定された訪問者が特性にとどまる日数を定義します。 TTL は、セグメントではなく、特性に対して設定されます。 訪問者は、TTL 期間が終了するまでに対象となる特性が確認されない場合、セグメントから除外されます。 詳しくは、[セグメントと特性の有効期間についての説明](/help/using/features/traits/segment-ttl-explained.md)を参照してください。
 
 
 
@@ -278,7 +267,7 @@ TTL は、対象として認定された訪問者が特性にとどまる日数�
 
 **UUID**
 
-[!DNL Audience Manager] の一意のユーザー ID。[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
+[!DNL Audience Manager] の一意のユーザー ID。 [Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。
 
 
 

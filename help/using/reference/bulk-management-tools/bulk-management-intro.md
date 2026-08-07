@@ -1,37 +1,28 @@
 ---
-description: 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
+description: 一括管理ツールを使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。 一括管理ツールを使用して、データソース、派生シグナル、宛先、フォルダー、セグメントおよび特性を処理できます。
 keywords: baaam;BAAAM;BAAAMのダウンロード
 seo-description: The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
 seo-title: Getting Started With Bulk Management
 solution: Audience Manager
-title: '一括管理の概要 '
+title: 一括管理の概要
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
 TQID: https://experienceleague.adobe.com/aiSOt8QbXbvFnYwTv0P8DEh-hTanfyNNz2HKZpN15DY
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: f341dd0b-34de-403e-a549-e0f581dcdda6
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: f341dd0b-34de-403e-a549-e0f581dcdda6id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: 718
 ht-degree: 90%
 
 ---
 
-# 一括管理の概要 {#getting-started-with-bulk-management}
+# 一括管理の概要{#getting-started-with-bulk-management}
 
-[!DNL Bulk Management Tools] を使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。[!DNL Bulk Management Tools] を使用して、[!UICONTROL data sources]、[!UICONTROL derived signals]、[!UICONTROL destinations]、[!UICONTROL folders]、[!UICONTROL models]、[!UICONTROL segments]、および [!UICONTROL traits] を操作できます。
+[!DNL Bulk Management Tools] を使用すると、複数のオブジェクトを一度に 1 回の操作で作成および管理できます。 [!DNL Bulk Management Tools] を使用して、[!UICONTROL data sources]、[!UICONTROL derived signals]、[!UICONTROL destinations]、[!UICONTROL folders]、[!UICONTROL models]、[!UICONTROL segments]、および [!UICONTROL traits] を操作できます。
 
 >[!IMPORTANT]
 >
@@ -49,7 +40,7 @@ c_bulk_start.xml
 
 ## 概要 {#overview}
 
-この機能では、[!DNL Microsoft Excel] スプレッドシートのマクロを使用して、[!DNL Audience Manager] API の認証済みの安全な呼び出しをおこないます。API には、一括変更をおこなうためのメソッドおよびサービスが用意されています。これを使用するにあたって、コーディングや API の使用方法についての知識は必要ありません。ワークシートには特定の一括変更関数を実行するための列見出しとタブがあります。一括変更を実行するには単に、事前定義済みのヘッダーを特定のワークシートに追加し、一括変更する情報を指定し、アクションボタンをクリックします。後はワークシートと API が処理してくれます。
+この機能では、[!DNL Microsoft Excel] スプレッドシートのマクロを使用して、[!DNL Audience Manager] API の認証済みの安全な呼び出しをおこないます。 API には、一括変更をおこなうためのメソッドおよびサービスが用意されています。 これを使用するにあたって、コーディングや API の使用方法についての知識は必要ありません。 ワークシートには特定の一括変更関数を実行するための列見出しとタブがあります。 一括変更を実行するには単に、事前定義済みのヘッダーを特定のワークシートに追加し、一括変更する情報を指定し、アクションボタンをクリックします。 後はワークシートと API が処理してくれます。
 
 ## ダウンロード {#download}
 
@@ -59,18 +50,18 @@ c_bulk_start.xml
 
 [!DNL Bulk Management Tools] を使用するには、以下が必要です。
 
-* [!DNL Experience Cloud] へのログイン。お客様が既にお持ちの資格情報です。
-* [!DNL Bulk Management Tools] ワークシート。最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20210609.xlsm)してください。
-* 64 ビット [!DNL Microsoft Excel]で実行中の[!DNL Microsoft Windows]。 最新バージョンの[!DNL Microsoft Excel]を使用することをお勧めします。 一括管理ツールは[!DNL macOS]ではサポートされていません。
+* [!DNL Experience Cloud] へのログイン。 お客様が既にお持ちの資格情報です。
+* [!DNL Bulk Management Tools] ワークシート。 最新版を入手するには、[ワークシートをダウンロード](assets/BAAAM_V2_20210609.xlsm)してください。
+* 64 ビット [!DNL Microsoft Windows]で実行中の[!DNL Microsoft Excel]。 最新バージョンの[!DNL Microsoft Excel]を使用することをお勧めします。 一括管理ツールは[!DNL macOS]ではサポートされていません。
 * ワークシートを開く場合は、[!DNL Bulk Management Tools] で&#x200B;**マクロを有効にする**&#x200B;必要があります。
 
 ## 認証の要件およびオプション {#auth-reqs}
 
-一括変更には認証が必要となります。操作を開始する前に、ログインする必要があります。ワークシートでは API 呼び出しがおこなわれるので、ユーザーアカウントで認証するよう設定する必要はありません。
+一括変更には認証が必要となります。 操作を開始する前に、ログインする必要があります。 ワークシートでは API 呼び出しがおこなわれるので、ユーザーアカウントで認証するよう設定する必要はありません。
 
 **API 認証の要件**
 
-2019 年 10 月にリリースされた一括管理ツールの 2 つ目のバージョンである [!DNL Bulk Management Tools] は、認証プロセスを簡素化します。このバージョンの認証手順を以下に示します。
+2019 年 10 月にリリースされた一括管理ツールの 2 つ目のバージョンである [!DNL Bulk Management Tools] は、認証プロセスを簡素化します。 このバージョンの認証手順を以下に示します。
 
 1. スプレッドシートを開き、**[!UICONTROL Config]** シートに移動します。
 2. シートに示されている手順に従います。
@@ -81,14 +72,14 @@ c_bulk_start.xml
 
 **ドメイン認証のオプション**
 
-ドメイン認証では、一括リクエストをテストすることも、直接実稼動アカウントに適用することもできます。Beta 環境で一括変更を行っても、実稼動アカウントには反映されません。実稼動アカウントへの変更は即座に反映されます。一括管理シートを使用すると、次の環境で作業できます。
+ドメイン認証では、一括リクエストをテストすることも、直接実稼動アカウントに適用することもできます。 Beta 環境で一括変更を行っても、実稼動アカウントには反映されません。 実稼動アカウントへの変更は即座に反映されます。 一括管理シートを使用すると、次の環境で作業できます。
 
 * Beta
 * 実稼動
 
 ## アクションおよび操作 {#actions-ops}
 
-[!UICONTROL Bulk Management Tools]ワークシートは、認証ボタン、アクションタブ、アクションボタンおよび「**[!UICONTROL Headers]**」タブで構成されています。「**[!UICONTROL Headers]**」タブには、アクションタブで使用される整形済みの列ヘッダーがあります。アクションタブには選択した一括操作を実行するためのマクロが用意されています。一括操作を実行するには、該当するアクションタブにヘッダーをまとめてコピーし、ヘッダーデータを入力し、アクションボタンをクリックします。
+[!UICONTROL Bulk Management Tools]ワークシートは、認証ボタン、アクションタブ、アクションボタンおよび「**[!UICONTROL Headers]**」タブで構成されています。 「**[!UICONTROL Headers]**」タブには、アクションタブで使用される整形済みの列ヘッダーがあります。 アクションタブには選択した一括操作を実行するためのマクロが用意されています。 一括操作を実行するには、該当するアクションタブにヘッダーをまとめてコピーし、ヘッダーデータを入力し、アクションボタンをクリックします。
 
 [認証](#auth-reqs)後、アクションボタンをクリックして開始します。
 
@@ -129,13 +120,13 @@ c_bulk_start.xml
 
 **一括操作の例**
 
-例えば、複数の特性を一度に作成する方法を見てみましょう。一括操作で複数の特性を作成するには、次の手順に従います。
+例えば、複数の特性を一度に作成する方法を見てみましょう。 一括操作で複数の特性を作成するには、次の手順に従います。
 
 1. 「**[!UICONTROL Headers]**」タブをクリックし、「[!UICONTROL Create a Trait]」オプション配下のすべてのラベルをコピーします。
 2. 「**[!UICONTROL Create]**」タブをクリックし、1 行目の列 A を先頭にラベルをペーストします。
-3. 各列ヘッダーに関する情報を入力し、「**[!UICONTROL Create Traits]**」をクリックします。このアクションにより、認証を確認するプロンプトが表示されます。一括ジョブは、認証を確認した後で実行されます。ワークシートの左下隅に表示されるジョブステータス通知を確認してください。
+3. 各列ヘッダーに関する情報を入力し、「**[!UICONTROL Create Traits]**」をクリックします。 このアクションにより、認証を確認するプロンプトが表示されます。 一括ジョブは、認証を確認した後で実行されます。 ワークシートの左下隅に表示されるジョブステータス通知を確認してください。
 
 
 >[!NOTE]
 >
->大量のリクエストを処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。その場合、そのままにしておきます。一括リクエストが完了すると、ワークシートは反応するようになります。ワークシートが長時間応答しない場合は、[&#x200B; トラブルシューティングの節](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。
+>大量のリクエストを処理する場合、ワークシートが低速になり、非アクティブであるように見えることがあります。 その場合、そのままにしておきます。 一括リクエストが完了すると、ワークシートは反応するようになります。 ワークシートが長時間応答しない場合は、[ トラブルシューティングの節](../../reference/bulk-management-tools/bulk-troubleshooting.md)を参照してください。

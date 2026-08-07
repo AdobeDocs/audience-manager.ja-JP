@@ -1,5 +1,5 @@
 ---
-description: 一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。一括更新をおこなうには、以下の手順に従ってください。
+description: 一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。 一括更新をおこなうには、以下の手順に従ってください。
 keywords: baaam
 seo-description: A bulk update lets you edit multiple segments, traits, models, data sources, and segment or trait folder elements in a single operation. Follow these instructions to make bulk updates.
 seo-title: Bulk Updates
@@ -9,28 +9,20 @@ uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 feature: BAAAM
 exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
 TQID: https://experienceleague.adobe.com/fDSvlPqWTgaw-SszCIa5M2qxJcyfrewPaW03eVShhDw
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: c2c33729-f309-4bc2-92ba-87c475259df3
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: c2c33729-f309-4bc2-92ba-87c475259df3id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 268
+source-wordcount: 271
 ht-degree: 90%
 
 ---
 
 # 一括更新{#bulk-updates}
 
-一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。一括更新をおこなうには、以下の手順に従ってください。
+一括更新では、複数のセグメント、特性、モデル、データソース、およびセグメントフォルダーまたは特性フォルダーの要素を 1 回の操作で編集できます。 一括更新をおこなうには、以下の手順に従ってください。
 
 >[!IMPORTANT]
 >
@@ -50,17 +42,18 @@ t_bulk_updates.xml
 
 1. 「**[!UICONTROL Headers]**」タブをクリックして、編集する項目の更新ヘッダーをコピーします。
 2. 「**[!UICONTROL Update]**」タブをクリックします。
-3. 更新ヘッダーを、更新ワークシートの 1 行目に貼り付けます。以下のことに注意してください。
+3. 更新ヘッダーを、更新ワークシートの 1 行目に貼り付けます。 以下のことに注意してください。
 
    * フォルダーの更新時には、すべてのヘッダーが必須です。
-   * セグメントまたは特性を更新する場合、必要なのはセグメント ID（SID）と、変更が必要なヘッダー要素のみです。使用していないヘッダーは削除してください。
+   * セグメントまたは特性を更新する場合、必要なのはセグメント ID（SID）と、変更が必要なヘッダー要素のみです。 使用していないヘッダーは削除してください。
 
 4. ヘッダーラベルに基づいて、変更するデータを対応する列に貼り付けるか入力します。
-5. ワークシートのツールバーで、更新する項目に対応する更新ボタンをクリックします。これにより、[!UICONTROL Account Information] ダイアログボックスが開きます。
+5. ワークシートのツールバーで、更新する項目に対応する更新ボタンをクリックします。
+これにより、[!UICONTROL Account Information] ダイアログボックスが開きます。
 
 6. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、「**[!UICONTROL Submit]**」をクリックします。
 
-   ワークシートに「[!UICONTROL Results]」列が作成されます。「[!UICONTROL Results]」列には、成功した操作の JSON レスポンスが返されます。例については[&#x200B; REST API](../../api/rest-api-main/rest-api-main.md) を参照してください。データを入力する前の一括更新ワークシートは、次のようになります。
+   ワークシートに「[!UICONTROL Results]」列が作成されます。 「[!UICONTROL Results]」列には、成功した操作の JSON レスポンスが返されます。 例については[ REST API](../../api/rest-api-main/rest-api-main.md) を参照してください。 データを入力する前の一括更新ワークシートは、次のようになります。
 
 ![](assets/update.png)
 

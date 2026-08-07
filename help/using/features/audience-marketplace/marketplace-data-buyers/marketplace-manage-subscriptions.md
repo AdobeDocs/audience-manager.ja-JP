@@ -1,5 +1,5 @@
 ---
-description: Marketplace は、データ購入者が公開データフィードや非公開データフィードの調査やサブスクリプションの購入をおこなう場所です。公開データフィードのサブスクリプションを購入するには、以下の手順に従います。
+description: Marketplace は、データ購入者が公開データフィードや非公開データフィードの調査やサブスクリプションの購入をおこなう場所です。 公開データフィードのサブスクリプションを購入するには、以下の手順に従います。
 seo-description: The Marketplace is where data buyers go to research and subscribe to public and private data feeds. Follow these steps to subscribe to a public data feed.
 seo-title: Manage Data Feed Subscriptions
 solution: Audience Manager
@@ -8,56 +8,46 @@ uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
 exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
 TQID: https://experienceleague.adobe.com/RcmKx7ygS9XyIBBKxDrnN46EcV3OsGFpsTOilLiO7HY
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-  - id: c2c33729-f309-4bc2-92ba-87c475259df3
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6cid: c2c33729-f309-4bc2-92ba-87c475259df3
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2159
-ht-degree: 97%
+source-wordcount: 2160
+ht-degree: 94%
 
 ---
 
 # データフィードのサブスクリプションの管理 {#manage-data-feed-subscriptions}
 
-[!UICONTROL Marketplace] は、データ購入者が公開および非公開データフィードの調査およびサブスクリプション購入をおこなう場所です。公開データフィードのサブスクリプションを購入するには、以下の手順に従います。
+[!UICONTROL Marketplace] は、データ購入者が公開および非公開データフィードの調査およびサブスクリプション購入をおこなう場所です。 公開データフィードのサブスクリプションを購入するには、以下の手順に従います。
 
 ## 公開データフィードのサブスクリプションの購入 {#subscript-public-data-feed}
 
-[!UICONTROL Marketplace] は、データ購入者が公開および非公開データフィードの調査およびサブスクリプション購入をおこなう場所です。公開データフィードのサブスクリプションを購入するには、以下の手順に従います。
+[!UICONTROL Marketplace] は、データ購入者が公開および非公開データフィードの調査およびサブスクリプション購入をおこなう場所です。 公開データフィードのサブスクリプションを購入するには、以下の手順に従います。
 
 <!-- t_subscribe_feed.xml -->
 
 公開データフィードのサブスクリプションを購入するには：
 
-1. **[!UICONTROL Audience Marketplace > Marketplace]** へ移動します。検索機能を使用するか、リストを参照して、データフィードを特定します。
+1. **[!UICONTROL Audience Marketplace > Marketplace]** へ移動します。 検索機能を使用するか、リストを参照して、データフィードを特定します。
 
    ![購入する](assets/subscribe1.png)
 
-1. 使用するデータフィードの名前をクリックします。選択したフィードの[プラン詳細ページ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)が開きます。
+1. 使用するデータフィードの名前をクリックします。 選択したフィードの[プラン詳細ページ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)が開きます。
 
    ![plan-details](assets/plan-details.png)
 
 1. 購読テーブルからユースケースを選択し、以下の操作をおこないます。
    * **[!UICONTROL Subscription]** スライダーを「**[!UICONTROL On]**」にします。
-   * 「**[!UICONTROL Review & Subscribe]**」をクリックします。[!UICONTROL Terms and Conditions] ウィンドウが開きます。
+   * 「**[!UICONTROL Review & Subscribe]**」をクリックします。 [!UICONTROL Terms and Conditions] ウィンドウが開きます。
 
    ![購入する](assets/subscribe3.png)
 
 1. [!UICONTROL Terms and Conditions] ウィンドウで、以下の手順に従ってください。
 
-   * **重要：** チェックボックスはオンのまま&#x200B;**[!UICONTROL ID sync]**&#x200B;にしておきます。この設定により、データプロバイダーとの一致率が高くなります。
+   * **重要：** チェックボックスはオンのまま&#x200B;**[!UICONTROL ID sync]**&#x200B;にしておきます。 この設定により、データプロバイダーとの一致率が高くなります。
    * 利用条件チェックボックスをオンにしてから&#x200B;**[!UICONTROL Accept]**&#x200B;をクリックし、購読手続きを完了します。
 
    ![購入する](assets/subscribe4.png)
@@ -66,15 +56,15 @@ ht-degree: 97%
 
 データフィードの購読手続きの後、以下の手順に従ってください。
 
-* [!UICONTROL Traits] フォルダーを確認して、購読の内容を検証します。[購読データフィードのストレージ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee)を参照してください。
+* [!UICONTROL Traits] フォルダーを確認して、購読の内容を検証します。 [購読データフィードのストレージ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee)を参照してください。
 
-* 請求と支払いについてのドキュメントを確認します。後述の関連リンクを参照してください。
+* 請求と支払いについてのドキュメントを確認します。 後述の関連リンクを参照してください。
 
 ### ベストプラクティス {#best-practices}
 
 [!UICONTROL Audience Marketplace] を使用する際に推奨されるベストプラクティスを以下に示します。
 
-[!UICONTROL Audience Marketplace] を通じて新しいサードパーティおよびセカンドパーティのデータセットを調べる場合は、最初に、[!UICONTROL Segments & Overlap] のデータフィードを有効にすることをお勧めします。これによりユーザーは、セグメントを作成してオーディエンスサイズを評価し、重複レポートを実行して初期オーディエンスのインサイトを得ることで、データを調査できます。ほとんどのデータプロバイダーは、このユースケースを無料で提供しており、追加費用なしでこの分析を実行できます。
+[!UICONTROL Audience Marketplace] を通じて新しいサードパーティおよびセカンドパーティのデータセットを調べる場合は、最初に、[!UICONTROL Segments & Overlap] のデータフィードを有効にすることをお勧めします。 これによりユーザーは、セグメントを作成してオーディエンスサイズを評価し、重複レポートを実行して初期オーディエンスのインサイトを得ることで、データを調査できます。 ほとんどのデータプロバイダーは、このユースケースを無料で提供しており、追加費用なしでこの分析を実行できます。
 
 重複レポートを実行する場合は、次のベストプラクティスに従って、有益な結果が得られるようにします。
 
@@ -86,9 +76,11 @@ ht-degree: 97%
    * データプロバイダーがデータを更新する頻度
 
 1. 重複は時間の経過に伴ってわずかに増加する可能性があるので、重複レポートを実行する前に最大 30 日間経過してからデータを同期するようにしてください。
-1. 複数のマーケティングキャンペーンとイニシアチブでデータプロバイダーのデータを使用すると、重複が増える可能性があります。これにより、2 つのデータセットのユーザーが同期する機会が増えます。
-1. データセット間で重複が生じる保証はありません。重複を有効にするには、レポート期間中に、顧客のデータセットのユーザーをデータプロバイダーデータセットに関連付ける必要があります。顧客のメディアデータがデータプロバイダーのデータセット内のユーザーに提供されなかった場合、重複は発生しません。
-1. 重複の少なさは悪いことではありません。見込み客に対する重複率の低さを利用して、新しいユーザーを惹きつけます。
+1. 複数のマーケティングキャンペーンとイニシアチブでデータプロバイダーのデータを使用すると、重複が増える可能性が
+あります。 これにより、2 つのデータセットのユーザーが同期する機会が増えます。
+1. データセット間で重複が生じる保証はありません。 重複を有効にするには、顧客のデータセットのユーザーをデータに関連付ける必要があります
+レポート時間枠でプロバイダーデータセットを使用します。 顧客のメディアデータがデータプロバイダーのデータセット内のユーザーに提供されなかった場合、重複は発生しません。
+1. 重複の少なさは悪いことではありません。 見込み客に対する重複率の低さを利用して、新しいユーザーを惹きつけます。
 
 ## 非公開データフィードを購読する {#subscript-private-data-feed}
 
@@ -98,20 +90,20 @@ ht-degree: 97%
 
 >[!TIP]
 >
->データプロバイダーが、非公開データフィードの割引を実施していることがあります。購読リクエストを送信する際に、利用可能な割引について質問することができます。
+>データプロバイダーが、非公開データフィードの割引を実施していることがあります。 購読リクエストを送信する際に、利用可能な割引について質問することができます。
 
 非公開データフィードのサブスクリプションを購入するには：
 
 1. [!UICONTROL Marketplace] でデータフィード名をクリックします。
-1. 「**[!UICONTROL Request Access]**」をクリックします。リクエストダイアログボックスが開きます。
-1. リクエストダイアログボックスで、プロバイダー向けに、データフィードに興味があることを記したメモを記入し、**[!UICONTROL Send]**&#x200B;をクリックします。販売者はメッセージを確認し、リクエストを承認または拒否します。承認されるまでの間、「[!UICONTROL Marketplace]」リストではそのリクエストについて「Requested」と表示されます。
+1. 「**[!UICONTROL Request Access]**」をクリックします。 リクエストダイアログボックスが開きます。
+1. リクエストダイアログボックスで、プロバイダー向けに、データフィードに興味があることを記したメモを記入し、**[!UICONTROL Send]**&#x200B;をクリックします。 販売者はメッセージを確認し、リクエストを承認または拒否します。 承認されるまでの間、「[!UICONTROL Marketplace]」リストではそのリクエストについて「Requested」と表示されます。
 
-   * **[!UICONTROL Request approved]**：「[!UICONTROL Marketplace]」リストのステータスが「Access Granted」になり、自動通知が送信されます。この時点で、フィードを購読することができます。手順については、[公開データフィードの購読](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)を参照してください。
-   * **[!UICONTROL Request denied]**：「[!UICONTROL Marketplace]」リストでそのフィードについて「Requested」の表示が削除されます。もう一度サブスクリプションの購入を試みるか、別のフィードを選択することができます。
+   * **[!UICONTROL Request approved]**：「[!UICONTROL Marketplace]」リストのステータスが「Access Granted」になり、自動通知が送信されます。 この時点で、フィードを購読することができます。 手順については、[公開データフィードの購読](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)を参照してください。
+   * **[!UICONTROL Request denied]**：「[!UICONTROL Marketplace]」リストでそのフィードについて「Requested」の表示が削除されます。 もう一度サブスクリプションの購入を試みるか、別のフィードを選択することができます。
 
 ## 購入者向けのデータフィード割引 {#buyer-discount}
 
-[!UICONTROL Audience Marketplace] では、プロバイダーは、[!DNL CPM] または定額料金データフィードの公表価格の割引を購入者に提案できます。ただし、[!DNL Marketplace] のフィードリストでは、割引額は購入者に表示されません。しかし、非公開データフィードのサブスクリプションを購読する際、または特定のフィードに関する詳細情報をリクエストする際に、割引を求めることもできます。
+[!UICONTROL Audience Marketplace] では、プロバイダーは、[!DNL CPM] または定額料金データフィードの公表価格の割引を購入者に提案できます。 ただし、[!DNL Marketplace] のフィードリストでは、割引額は購入者に表示されません。 しかし、非公開データフィードのサブスクリプションを購読する際、または特定のフィードに関する詳細情報をリクエストする際に、割引を求めることもできます。
 
 ## 割引のリクエスト {#request-discount}
 
@@ -136,15 +128,15 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>非公開データフィードの新規購読者</b> </p> </td> 
-   <td colname="col2"> <p>購読リクエストで割引を申請します。「<a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed"> プライベートデータフィードの購読</a>」を参照してください。 </p> </td>
+   <td colname="col2"> <p>購読リクエストで割引を申請します。 「<a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed"> プライベートデータフィードの購読</a>」を参照してください。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Potential Subscribers</b> </p> </td> 
-   <td colname="col2"> <p><a href="../../../features/audience-marketplace/marketplace-private-feeds.md">Potential Subscribers（潜在的な購読者）</a>とは、非公開データフィードへのアクセスをリクエストし、販売者の承認を得ているけれど、その後まだフィードを購読していないデータ購入者を指します。潜在的な購読者として割引をリクエストするには、次の手順に従います。 </p> 
+   <td colname="col2"> <p><a href="../../../features/audience-marketplace/marketplace-private-feeds.md">Potential Subscribers（潜在的な購読者）</a>とは、非公開データフィードへのアクセスをリクエストし、販売者の承認を得ているけれど、その後まだフィードを購読していないデータ購入者を指します。 潜在的な購読者として割引をリクエストするには、次の手順に従います。 </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
      <li id="li_618B64160CF24549AFCA73E006DCA35A"><b><span class="uicontrol">Audience Marketplace／Marketplace</span></b> を開きます。 </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">承認されているフィードの名前をクリックします。 </li> 
-     <li id="li_763C050AC9464BE380D00F6085B6E540">「<b><span class="uicontrol">Request More Details</span></b>」をクリックします。販売者への詳細リクエストで割引をリクエストします。 </li> 
+     <li id="li_763C050AC9464BE380D00F6085B6E540">「<b><span class="uicontrol">Request More Details</span></b>」をクリックします。 販売者への詳細リクエストで割引をリクエストします。 </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -156,7 +148,7 @@ ht-degree: 97%
 
 1. **[!UICONTROL Audience Marketplace > Marketplace]** へ移動します。
 1. 購読済みのフィードの名前をクリックします。
-1. [!UICONTROL Plan Details] テーブルの「[!UICONTROL Price]」列と「[!UICONTROL Your Price]」列を確認します。フィードが割引されている場合、次のようになります。
+1. [!UICONTROL Plan Details] テーブルの「[!UICONTROL Price]」列と「[!UICONTROL Your Price]」列を確認します。 フィードが割引されている場合、次のようになります。
 
    * 元の価格は赤色の線でマークされています。
    * 「[!UICONTROL Your Price]」列の料金が、「[!UICONTROL Price]」列の料金より安くなっています。
@@ -167,7 +159,7 @@ ht-degree: 97%
 
 ## 購読済みフィードデータの検索 {#find-subscribed-data-fee}
 
-データフィードのデータ（特性）は、各自の特性ストレージフォルダーに表示されます。**[!UICONTROL Audience Data > Traits]** を開き、**[!UICONTROL 3rd-Party Data]** フォルダーを展開して、購読フィードの特性の表示や操作をおこないます。利用しているデータプロバイダーの名前のサブフォルダーを探します。これらには、個別のデータフィードにちなんだ名前のフォルダーが含まれており、フィードで提供されている特性が一覧表示されます。
+データフィードのデータ（特性）は、各自の特性ストレージフォルダーに表示されます。 **[!UICONTROL Audience Data > Traits]** を開き、**[!UICONTROL 3rd-Party Data]** フォルダーを展開して、購読フィードの特性の表示や操作をおこないます。 利用しているデータプロバイダーの名前のサブフォルダーを探します。 これらには、個別のデータフィードにちなんだ名前のフォルダーが含まれており、フィードで提供されている特性が一覧表示されます。
 
 <!-- marketplace-feed-storage.xml -->
 
@@ -186,32 +178,32 @@ ht-degree: 97%
 
 ## データフィードの非アクティブ化：発生の理由と対応 {#data-feed-deactivation-reasons}
 
-[!UICONTROL Audience Marketplace] では、購読したデータフィードへのアクセスがデータプロバイダーにより取り消されることがあります。このような事態になっても、あわてることはありません。備えは既にできています。この節では、データフィードの非アクティブ化に関する処理と手順について説明します。
+[!UICONTROL Audience Marketplace] では、購読したデータフィードへのアクセスがデータプロバイダーにより取り消されることがあります。 このような事態になっても、あわてることはありません。 備えは既にできています。 この節では、データフィードの非アクティブ化に関する処理と手順について説明します。
 
 ## データフィードの非アクティブ化の一般的な理由 {#reasons-for-deactivation}
 
 <!-- marketplace-subscriber-deactivated.xml -->
 
-購読したフィードが停止されることは購読者にとってあまりよいことではありません。しかし、データプロバイダーはいくつかの理由でデータフィードを非アクティブ化することがあります。よくある理由として以下のようなものがあります。
+購読したフィードが停止されることは購読者にとってあまりよいことではありません。 しかし、データプロバイダーはいくつかの理由でデータフィードを非アクティブ化することがあります。 よくある理由として以下のようなものがあります。
 
 * **課金：**&#x200B;料金の支払いが常に遅れている場合や、料金の支払いがない場合、データプロバイダーはフィードを非アクティブ化します。
 * **フィードの更新：**&#x200B;フィードの分類やコスト構造を更新した場合、データプロバイダーはフィードを非アクティブ化する必要があります。
 * **非アクティブな購入者：**&#x200B;購読者が長期間にわたり購入をおこなわない場合に、データプロバイダーはフィードを非アクティブ化する権利を保有します。
-* **非アクティブな販売者：**&#x200B;[!UICONTROL Audience Marketplace] の利用を終了するデータプロバイダーは、自分のデータフィードをすべて非アクティブ化して削除します。
+* **非アクティブな販売者：**[!UICONTROL Audience Marketplace] の利用を終了するデータプロバイダーは、自分のデータフィードをすべて非アクティブ化して削除します。
 
 >[!TIP]
 >
->データフィードが誤って非アクティブ化されたと考えられる場合は、データプロバイダーに直接お問い合わせください。問い合わせ先情報や追加サポートについては、[!DNL Adobe]の担当コンサルタントにお問い合わせください。
+>データフィードが誤って非アクティブ化されたと考えられる場合は、データプロバイダーに直接お問い合わせください。 問い合わせ先情報や追加サポートについては、[!DNL Adobe]の担当コンサルタントにお問い合わせください。
 
 ## 非アクティブ化電子メール {#deactivation-email}
 
-データプロバイダーがいずれかのデータフィードを非アクティブ化すると、[!DNL Audience Manager] は、[!UICONTROL Administrator]権限を持つ社内ユーザーにメールを送信します。場合によっては、電子メールフィルターがこのメッセージをスパムとして分類することがあります。その結果、この重要な通知が見逃されることがあります。非アクティブ化メッセージを識別できるように、この電子メールには次の要素が含まれています。
+データプロバイダーがいずれかのデータフィードを非アクティブ化すると、[!DNL Audience Manager] は、[!UICONTROL Administrator]権限を持つ社内ユーザーにメールを送信します。 場合によっては、電子メールフィルターがこのメッセージをスパムとして分類することがあります。 その結果、この重要な通知が見逃されることがあります。 非アクティブ化メッセージを識別できるように、この電子メールには次の要素が含まれています。
 
-* **送信者：**&#x200B;この非アクティブ化電子メールは `aam-noreply@adobe.com` から送信されます。ヒント：この電子メールには返信しないでください。
+* **送信者：**&#x200B;この非アクティブ化電子メールは `aam-noreply@adobe.com` から送信されます。 ヒント：この電子メールには返信しないでください。
 
 * **件名：** *（データフィード名）*&#x200B;のサブスクリプションはキャンセルされました。
 
-* **添付ファイル**&#x200B;この電子メールには、`list-of-affected-entities-by-feed-revocation.csv` という名前の添付ファイルがあります。これは、キャンセルされたフィードに含まれているすべての特性が添付ファイルに記載されていることを暗示しています。データ購入者は、この添付ファイルを確認する必要があります。このファイルにより、非アクティブ化された特性を検索して、セグメントや[アルゴリズムモデル](../../../features/algorithmic-models/understanding-models.md)から削除することができます。
+* **添付ファイル**&#x200B;この電子メールには、`list-of-affected-entities-by-feed-revocation.csv` という名前の添付ファイルがあります。 これは、キャンセルされたフィードに含まれているすべての特性が添付ファイルに記載されていることを暗示しています。 データ購入者は、この添付ファイルを確認する必要があります。 このファイルにより、非アクティブ化された特性を検索して、セグメントや[アルゴリズムモデル](../../../features/algorithmic-models/understanding-models.md)から削除することができます。
 
 ## 非アクティブ化された特性のリスト {#deactivation-trait-list}
 
@@ -262,17 +254,17 @@ ht-degree: 97%
 
 ## 非アクティブ化された特性を削除 {#remove-deactivated-traits}
 
-データ購入者は、キャンセルされたフィード内の特性を、アクティブ／使用中のセグメント、非アクティブなセグメントを問わず、すべてのセグメントから削除する必要があります。削除については次のオプションがあります。
+データ購入者は、キャンセルされたフィード内の特性を、アクティブ／使用中のセグメント、非アクティブなセグメントを問わず、すべてのセグメントから削除する必要があります。 削除については次のオプションがあります。
 
-* [REST API](../../../api/rest-api-main/rest-api-main.md)または[一括管理ツール &#x200B;](../../../reference/bulk-management-tools/bulk-management-intro.md)を使用した一括削除。
+* [REST API](../../../api/rest-api-main/rest-api-main.md)または[一括管理ツール ](../../../reference/bulk-management-tools/bulk-management-intro.md)を使用した一括削除。
 
-* [!UICONTROL Segment Builder]を使用して、影響を受けるセグメントを手動で検索し、非アクティブ化された特性を削除します。[セグメントからの特性の削除](../../../features/segments/segment-builder.md#segment-builder-controls-traits)を参照してください。
+* [!UICONTROL Segment Builder]を使用して、影響を受けるセグメントを手動で検索し、非アクティブ化された特性を削除します。 [セグメントからの特性の削除](../../../features/segments/segment-builder.md#segment-builder-controls-traits)を参照してください。
 
 >[!NOTE]
 >
->アクティブなアルゴリズムモデルや宛先から特性を削除すると、スケールやターゲティングの精度に影響が生じます。可能であれば、取り消された特性を新しいアクティブな特性と入れ替えてください。
+>アクティブなアルゴリズムモデルや宛先から特性を削除すると、スケールやターゲティングの精度に影響が生じます。 可能であれば、取り消された特性を新しいアクティブな特性と入れ替えてください。
 
-[非アクティブ化されたデータフィードの購読解除](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe)を、取り消された特性をすべてアカウントから削除してから実行します。一時的な非アクティブ化の場合は、データプロバイダーが必要な変更をおこなってフィードを再アクティブ化した後に、再購読できます。このプロセスでは、パートナー（データプロバイダーと[!DNL Adobe]）との良好なコミュニケーションが欠かせません。
+[非アクティブ化されたデータフィードの購読解除](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe)を、取り消された特性をすべてアカウントから削除してから実行します。 一時的な非アクティブ化の場合は、データプロバイダーが必要な変更をおこなってフィードを再アクティブ化した後に、再購読できます。 このプロセスでは、パートナー（データプロバイダーと[!DNL Adobe]）との良好なコミュニケーションが欠かせません。
 
 ## Audience Marketplace のプランの詳細ページについて {#marketplace-buyer-details}
 
@@ -284,8 +276,8 @@ ht-degree: 97%
 
 このページには、次の情報が表示されます。
 
-1. **基本プラン情報**&#x200B;次のようなフィード情報が表示されます。
-   * データフィード名。例えば、上記の例では、フィードの名前は「サンプルデータフィード」です。
+1. **基本プラン情報** 次のようなフィード情報が表示されます。
+   * データフィード名。 例えば、上記の例では、フィードの名前は「サンプルデータフィード」です。
    * データプロバイダーの名前
    * データフィード ID
    * 説明
@@ -293,22 +285,22 @@ ht-degree: 97%
 
 1. プラン情報ボタン
    * **[!UICONTROL Explore All Traits]**&#x200B;をクリックすると、選択したデータフィード内のすべての特性に関する詳細が表示されます。
-   * **[!UICONTROL Request More Details]**&#x200B;をクリックすると、データプロバイダーに選択したデータフィードについて質問したり、割引をリクエストしたりすることができます。この機能では、コメントや質問を直接データプロバイダーに送信することができます。
+   * **[!UICONTROL Request More Details]**&#x200B;をクリックすると、データプロバイダーに選択したデータフィードについて質問したり、割引をリクエストしたりすることができます。 この機能では、コメントや質問を直接データプロバイダーに送信することができます。
 
-1. データフィードレポート指標： ベン図（および関連指標）から、直近 30 日間の特性重複データがわかります。詳しくは、[Marketplace について](marketplace-data-buyers.md#about-marketplace)を参照してください。
-   * **[!UICONTROL 30 Day Overlapped Uniques]**：プロバイダーのアカウントのユーザーと重複するアカウント内のユニークユーザーの数。一意のユーザーの定義については、「[Audience Manager の ID の インデックス](/help/using/reference/ids-in-aam.md)」の「AAM UUID」を参照してください。
+1. データフィードレポート指標： ベン図（および関連指標）から、直近 30 日間の特性重複データがわかります。 詳しくは、[Marketplace について](marketplace-data-buyers.md#about-marketplace)を参照してください。
+   * **[!UICONTROL 30 Day Overlapped Uniques]**：プロバイダーのアカウントのユーザーと重複するアカウント内のユニークユーザーの数。 一意のユーザーの定義については、「[Audience Manager の ID の インデックス](/help/using/reference/ids-in-aam.md)」の「AAM UUID」を参照してください。
    * **[!UICONTROL 30 Day Provider Unique Users]**：プロバイダーのアカウントからのユニークユーザーの数。
    * **[!UICONTROL Your Unique Users]**：アカウントからのユニークユーザーの数。
 
-1. **[!UICONTROL Plan Details]** 表。次の表に、サブスクリプションを購入できるデータフィードのユースケースとその価格モデルを示します。[データフィードのユースケースについて](#use-cases)を参照してください。
+1. **[!UICONTROL Plan Details]** 表。 次の表に、サブスクリプションを購入できるデータフィードのユースケースとその価格モデルを示します。 [データフィードのユースケースについて](#use-cases)を参照してください。
 
 1. プランアクションボタン。
    * **[!UICONTROL Cancel]**&#x200B;をクリックすると、変更せずにページを終了します。
-   * データフィードのサブスクリプションを購入するには、**[!UICONTROL Review & Subscribe]**&#x200B;をクリックします。[!UICONTROL Subscription] 切替スイッチボタンを [!UICONTROL On] に切り替えるまで、このボタンは灰色に表示されます。[公開データフィードのサブスクリプション購入](#subscript-public-data-feed)および[非公開データフィードのサブスクリプション購入](#subscript-private-data-feed)も参照してください。
+   * データフィードのサブスクリプションを購入するには、**[!UICONTROL Review & Subscribe]**&#x200B;をクリックします。 [!UICONTROL Subscription] 切替スイッチボタンを [!UICONTROL On] に切り替えるまで、このボタンは灰色に表示されます。 [公開データフィードのサブスクリプション購入](#subscript-public-data-feed)および[非公開データフィードのサブスクリプション購入](#subscript-private-data-feed)も参照してください。
 
 ## データフィードのユースケースについて {#use-cases}
 
-[!UICONTROL Audience Marketplace] のデータ購入者は、重複、モデリングおよびアクティブ化のユースケースに関するデータを購入します。各ユースケースは、特定の購入用に設計され、データを使用してできることを制限します。これらのユースケースの説明は、購入するデータプランのタイプについて適切な判断を下すうえで役に立ちます。
+[!UICONTROL Audience Marketplace] のデータ購入者は、重複、モデリングおよびアクティブ化のユースケースに関するデータを購入します。 各ユースケースは、特定の購入用に設計され、データを使用してできることを制限します。 これらのユースケースの説明は、購入するデータプランのタイプについて適切な判断を下すうえで役に立ちます。
 
 ## セグメントおよび重複プランとの比較 {#comparisons}
 
@@ -316,18 +308,18 @@ ht-degree: 97%
 
 ### セグメントと重複
 
-このユースケースでは、[特性間重複レポート](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)でご使用の特性とプロバイダー特性を比較できます。また、[セグメント - 特性間](../../../reporting/dynamic-reports/segment-trait-overlap-report.md)レポートおよび[セグメント間](../../../reporting/dynamic-reports/segment-segment-overlap-report.md)レポートで、プロバイダー特性を作成またはセグメントに追加してさらに比較をおこなうこともできます。重複比較は以下に役立ちます。
+このユースケースでは、[特性と特性の重複レポートで、特性とプロバイダー特性を比較できます。](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) また、プロバイダー特性を作成またはセグメントに追加し、[ セグメントから特性](../../../reporting/dynamic-reports/segment-trait-overlap-report.md)および[ セグメントからセグメント ](../../../reporting/dynamic-reports/segment-segment-overlap-report.md)のレポートと追加比較を行うこともできます。 重複比較は以下に役立ちます。
 
-* **オーディエンスリーチの拡大：**&#x200B;重複が少ない場合は、お使いの特性にこれまでにないユーザーが含まれていることを示唆しています。これらの特性を試して新規ユーザーにリーチするとよいでしょう。
-* **既存オーディエンスの強化：**&#x200B;重複が多い場合は、お使いの特性がデータプロバイダー所有の特性と類似していることを示唆しています。既に開拓したオーディエンスをさらに絞り込んでいくのに、これらの特性が役に立ちます。
+* **オーディエンスリーチの拡大：**&#x200B;重複が少ない場合は、お使いの特性にこれまでにないユーザーが含まれていることを示唆しています。 これらの特性を試して新規ユーザーにリーチするとよいでしょう。
+* **既存オーディエンスの強化：**&#x200B;重複が多い場合は、お使いの特性がデータプロバイダー所有の特性と類似していることを示唆しています。 既に開拓したオーディエンスをさらに絞り込んでいくのに、これらの特性が役に立ちます。
 
 ### アルゴリズムモデル
 
-このユースケースでは、[アルゴリズムモデル](../../../features/algorithmic-models/understanding-models.md#understanding-models)を使用して、ご使用の特性を基準にしてサプライヤー特性を評価することができます。例えば、アドビのアルゴリズムモデリングシステムでは、サプライヤー提供の特性に対する比較の基準として、お使いの特性の 1 つを使用します。モデルを実行すると、サプライヤー特性のオーディエンスが、お使いの特性と類似したコンバージョン属性を共有しているかどうかがわかります。
+このユースケースでは、[アルゴリズムモデル](../../../features/algorithmic-models/understanding-models.md#understanding-models)を使用して、ご使用の特性を基準にしてサプライヤー特性を評価することができます。 例えば、アドビのアルゴリズムモデリングシステムでは、サプライヤー提供の特性に対する比較の基準として、お使いの特性の 1 つを使用します。 モデルを実行すると、サプライヤー特性のオーディエンスが、お使いの特性と類似したコンバージョン属性を共有しているかどうかがわかります。
 
 ### アクティベーション
 
-このユースケースでは、[宛先](../../../features/destinations/destinations.md)にデータを送信できます。[!DNL Audience Manager]では、宛先は、データを共有するサードパーティのシステム（広告サーバー、[!DNL DSP]、[!DNL DMP]、交換など）です。 ただし、[!UICONTROL Activation] ユースケースでは、重複レポートを実行したり、データをアルゴリズムモデルでテストしたりすることはできません。
+このユースケースでは、[宛先](../../../features/destinations/destinations.md)にデータを送信できます。 [!DNL Audience Manager]では、宛先は任意のサードパーティシステム（広告サーバー、[!DNL DSP]、[!DNL DMP]、取引所など）です。 宛先になります。 ただし、[!UICONTROL Activation] ユースケースでは、重複レポートを実行したり、データをアルゴリズムモデルでテストしたりすることはできません。
 
 >[!MORELIKETHIS]
 >
