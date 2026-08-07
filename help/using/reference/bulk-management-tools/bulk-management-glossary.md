@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 372
 ht-degree: 86%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>シグナルは、ユーザーアクティビティに基づいて <span class="keyword">Audience Manager</span> に渡されるデータのビットです。これらは<a href="../../reference/key-value-pairs-explained.md">キー値ペア</a>として渡されます。ソースキーは定数で、変動しません。これにより、変動する可能性があるソース値を分類できます。<a href="../../features/derived-signals.md">派生シグナル</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>シグナルは、ユーザーアクティビティに基づいて <span class="keyword">Audience Manager</span> に渡されるデータのビットです。 これらは<a href="../../reference/key-value-pairs-explained.md">キー値ペア</a>として渡されます。 ソースキーは定数で、変動しません。 これにより、変動する可能性があるソース値を分類できます。 <a href="../../features/derived-signals.md">派生シグナル</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -98,27 +98,27 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>宛先へのセグメントの送信を開始できる時点を表します。<i>yyyy-mm-dd</i> 形式で表されます。 </p> </td> 
+   <td colname="col2"> <p>宛先へのセグメントの送信を開始できる時点を表します。 <i>yyyy-mm-dd</i> 形式で表されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
-   <td colname="col2">派生シグナルで使用するキー。<a href="../../features/derived-signals.md">派生シグナル</a>を参照してください。 </td> 
+   <td colname="col2">派生シグナルで使用するキー。 <a href="../../features/derived-signals.md">派生シグナル</a>を参照してください。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetValue</span> </p> </td> 
-   <td colname="col2"> <p>派生シグナルキーで渡された値。<a href="../../features/derived-signals.md">派生シグナル</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>派生シグナルキーで渡された値。 <a href="../../features/derived-signals.md">派生シグナル</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>Cookie ベースでない宛先に渡される ID。Cookie ベースの宛先の場合、これは<a href="../../reference/key-value-pairs-explained.md"> キーと値のペア </a>のキーです。 </p> </td> 
+   <td colname="col2"> <p>Cookie ベースでない宛先に渡される ID。 Cookie ベースの宛先の場合、これは<a href="../../reference/key-value-pairs-explained.md"> キーと値のペア </a>のキーです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule／segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>データの収集に使用する実際の特性ルールまたはセグメントルール。一括リクエストは、<span class="keyword">Audience Manager</span> で<a href="../../features/traits/about-trait-builder.md">特性ルールビルダー</a>または<a href="../../features/segments/segment-builder.md">セグメントルールビルダー</a>により作成されたルールを返します。これらのツールを使用して、セグメントや特性の構成時にルールを作成して一括で適用することもできます。 </p> <p><a href="../../reference/bulk-management-tools/bulk-rules.md">特性ルールとセグメント ルールの作成または更新</a>も参照してください。 </p> </td> 
+   <td colname="col2"> <p>データの収集に使用する実際の特性ルールまたはセグメントルール。 一括リクエストは、<span class="keyword">Audience Manager</span> で<a href="../../features/traits/about-trait-builder.md">特性ルールビルダー</a>または<a href="../../features/segments/segment-builder.md">セグメントルールビルダー</a>により作成されたルールを返します。 これらのツールを使用して、セグメントや特性の構成時にルールを作成して一括で適用することもできます。 </p> <p><a href="../../reference/bulk-management-tools/bulk-rules.md">特性ルールとセグメント ルールの作成または更新</a>も参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
-   <td colname="col2"> <p>特性タイプを識別する文字列。オプションは次のとおりです。 </p> 
+   <td colname="col2"> <p>特性タイプを識別する文字列。 オプションは次のとおりです。 </p> 
     <ul id="ul_AB5B4F87B14241DCBBE44B0B7BD4EF72"> 
      <li id="li_21F9412CDDC64FAA888C6542E284C436"> <code> RULE_BASED_TRAIT</code> </li> 
      <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <code> ON_BOARDED_TRAIT </code> </li> 

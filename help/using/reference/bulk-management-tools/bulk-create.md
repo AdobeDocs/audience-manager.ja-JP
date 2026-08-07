@@ -1,5 +1,5 @@
 ---
-description: 一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。一括作成のリクエストをおこなうには、以下の手順に従ってください。
+description: 一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。 一括作成のリクエストをおこなうには、以下の手順に従ってください。
 seo-description: Bulk create lets you construct multiple data sources, derived signals, segments, traits, and other items with a single operation. Follow these instructions to make a bulk creation request.
 seo-title: Bulk Create
 solution: Audience Manager
@@ -22,14 +22,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 90%
+source-wordcount: 291
+ht-degree: 91%
 
 ---
 
 # 一括作成{#bulk-create}
 
-一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。一括作成のリクエストをおこなうには、以下の手順に従ってください。
+一括作成により、複数のデータソース、派生シグナル、セグメント、特性およびその他の項目を 1 回の操作で作成できます。 一括作成のリクエストをおこなうには、以下の手順に従ってください。
 
 >[!IMPORTANT]
 >
@@ -47,7 +47,7 @@ t_bulk_create.xml
 
 >[!CAUTION]
 >
->一括作成リクエストではオブジェクトタイプが混在しないようにしてください。各オブジェクトのヘッダーは一意で、結合できません。ワークシートをクリアして、項目ごとに別のリクエストを作成します。
+>一括作成リクエストではオブジェクトタイプが混在しないようにしてください。 各オブジェクトのヘッダーは一意で、結合できません。 ワークシートをクリアして、項目ごとに別のリクエストを作成します。
 
 オブジェクトを一括作成するには、「[!UICONTROL Bulk Management Tools]」ワークシートを開いてから、以下の手順に従ってください。
 
@@ -55,10 +55,11 @@ t_bulk_create.xml
 2. 「**[!UICONTROL Create]**」タブをクリックします。
 3. 作成ヘッダーを、更新ワークシートの 1 行目に貼り付けます。
 4. ヘッダーラベルに基づいて、変更するデータを対応する列に貼り付けるか入力します。
-5. ワークシートのツールバーで、更新する項目の作成ボタンをクリックします。これにより、[!UICONTROL Account Information] ダイアログボックスが開きます。
+5. ワークシートのツールバーで、更新する項目の作成ボタンをクリックします。
+これにより、[!UICONTROL Account Information] ダイアログボックスが開きます。
 6. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、「**[!UICONTROL Submit]**」をクリックします。
 
-ワークシートに「[!UICONTROL Results]」列が作成されます。「[!UICONTROL Results]」列には、成功した操作の JSON レスポンスが返されます。例については[&#x200B; REST API](../../api/rest-api-main/rest-api-main.md) を参照してください。データを入力する前の一括作成ワークシートは、次の例のようになります。ただし、作成オプションのすべてがここに表示されているわけではありません。この例は、完成したワークシートの概要を把握するためのものです。
+ワークシートに「[!UICONTROL Results]」列が作成されます。 「[!UICONTROL Results]」列には、成功した操作の JSON レスポンスが返されます。 例については[&#x200B; REST API](../../api/rest-api-main/rest-api-main.md) を参照してください。 データを入力する前の一括作成ワークシートは、次の例のようになります。 ただし、作成オプションのすべてがここに表示されているわけではありません。 この例は、完成したワークシートの概要を把握するためのものです。
 
 ![](assets/cretetraits.png)
 

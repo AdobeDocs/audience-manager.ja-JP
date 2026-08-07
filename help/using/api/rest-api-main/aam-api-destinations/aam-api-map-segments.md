@@ -15,7 +15,7 @@ feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: 514
 ht-degree: 98%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 ## サポートされている宛先のタイプ：URL および Cookie のみ
 
-利用可能な `POST` メソッドは、[!UICONTROL URL] および [!UICONTROL cookie destinations]にのみセグメントをマッピングできます。現在、これらの [!DNL REST API] メソッドを使用して、[!UICONTROL server-to-server destinations]にセグメントをマッピングすることはできません。代わりにユーザーインターフェイスを使用してください。ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
+利用可能な `POST` メソッドは、[!UICONTROL URL] および [!UICONTROL cookie destinations]にのみセグメントをマッピングできます。 現在、これらの [!DNL REST API] メソッドを使用して、[!UICONTROL server-to-server destinations]にセグメントをマッピングすることはできません。 代わりにユーザーインターフェイスを使用してください。 ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
 
 ## 非シリアル化 URL 宛先へのセグメントのマッピング {#map-segment-non-serial}
 
@@ -92,7 +92,7 @@ ht-degree: 98%
 
 ### リクエストのサンプル
 
-このリクエストでは、`traitAlias` はキーと値のペアのキーに対応します。特に指示のない限り、すべてのリクエスト値が必須です。
+このリクエストでは、`traitAlias` はキーと値のペアのキーに対応します。 特に指示のない限り、すべてのリクエスト値が必須です。
 
 ```
 {
@@ -142,7 +142,7 @@ ht-degree: 98%
 
 ### リクエストのサンプル
 
-このリクエストでは、`valueAlias` はキーと値のペアの値に対応します。特に指示のない限り、すべてのリクエスト値が必須です。
+このリクエストでは、`valueAlias` はキーと値のペアの値に対応します。 特に指示のない限り、すべてのリクエスト値が必須です。
 
 ```
 {
@@ -189,7 +189,7 @@ ht-degree: 98%
 
 ### リクエストのサンプル
 
-このリクエストでは、`traitAlias` と `valueAlias` はキーと値のペアのキーと値をそれぞれ設定します。特に指示のない限り、すべてのリクエスト値が必須です。
+このリクエストでは、`traitAlias` と `valueAlias` はキーと値のペアのキーと値をそれぞれ設定します。 特に指示のない限り、すべてのリクエスト値が必須です。
 
 ```
 {
@@ -237,7 +237,7 @@ ht-degree: 98%
 
 ### リクエストのサンプル
 
-このリクエストでは、`traitAlias` と `valueAlias` はキーと値のペアのキーと値を設定します。特に指示のない限り、すべてのリクエスト値が必須です。
+このリクエストでは、`traitAlias` と `valueAlias` はキーと値のペアのキーと値を設定します。 特に指示のない限り、すべてのリクエスト値が必須です。
 
 ```
 {
@@ -275,7 +275,7 @@ ht-degree: 98%
 
 ## セグメントをサーバー間の宛先にマッピング {#map-segment-s2s}
 
-既存の[!UICONTROL server-to-server]宛先にセグメントをマッピングするための `POST` メソッド。現在利用可能なこれらの [!DNL API] メソッドを使用して [!UICONTROL server-to-server] を作成することはできません。
+既存の[!UICONTROL server-to-server]宛先にセグメントをマッピングするための `POST` メソッド。 現在利用可能なこれらの [!DNL API] メソッドを使用して [!UICONTROL server-to-server] を作成することはできません。
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -285,7 +285,7 @@ ht-degree: 98%
 
 ### リクエストのサンプル
 
-このリクエストでは、`traitAlias` はキーと値のペアのキーに対応します。特に指示のない限り、すべてのリクエスト値が必須です。
+このリクエストでは、`traitAlias` はキーと値のペアのキーに対応します。 特に指示のない限り、すべてのリクエスト値が必須です。
 
 ```
 {
@@ -321,7 +321,7 @@ ht-degree: 98%
 
 ## 宛先マッピングの一括作成 {#bulk-create}
 
- [!UICONTROL cookie] または [!UICONTROL URL] 宛先マッピングの配列を渡す `POST` メソッド
+[!UICONTROL cookie] または [!UICONTROL URL] 宛先マッピングの配列を渡す `POST` メソッド
 
 <!-- r_bulk_create.xml -->
 
@@ -415,7 +415,7 @@ ht-degree: 98%
 
 ### リクエストのサンプル
 
-複数の宛先マッピングを配列で作成します。特に指示のない限り、すべてのリクエスト値が必須です。
+複数の宛先マッピングを配列で作成します。 特に指示のない限り、すべてのリクエスト値が必須です。
 
 ```
 [

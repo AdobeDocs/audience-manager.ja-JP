@@ -1,5 +1,5 @@
 ---
-description: 一括削除では、複数のセグメント、特性、フォルダー、派生シグナル、データソース、モデル、および宛先を 1 回の操作で削除できます。一括削除リクエストをおこなうには、以下の手順に従ってください。
+description: 一括削除では、複数のセグメント、特性、フォルダー、派生シグナル、データソース、モデル、および宛先を 1 回の操作で削除できます。 一括削除リクエストをおこなうには、以下の手順に従ってください。
 seo-description: Bulk delete lets you remove multiple segments, traits, folders, derived signals, data sources, models, and destinations with a single operation. Follow these instructions to make a bulk delete request.
 seo-title: Bulk Delete
 solution: Audience Manager
@@ -28,7 +28,7 @@ ht-degree: 89%
 
 # 一括削除{#bulk-delete}
 
-一括削除では、複数のセグメント、特性、フォルダー、派生シグナル、データソース、モデル、および宛先を 1 回の操作で削除できます。一括削除リクエストをおこなうには、以下の手順に従ってください。
+一括削除では、複数のセグメント、特性、フォルダー、派生シグナル、データソース、モデル、および宛先を 1 回の操作で削除できます。 一括削除リクエストをおこなうには、以下の手順に従ってください。
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->宛先にセグメントがマッピングされている場合、宛先マッピングの一括削除は失敗します。宛先を一括削除する前に、ユーザーインターフェイスで宛先からセグメントを削除します。また、特性フォルダーとセグメントフォルダーを削除するには、そのフォルダーが空でなければなりません。
+>宛先にセグメントがマッピングされている場合、宛先マッピングの一括削除は失敗します。 宛先を一括削除する前に、ユーザーインターフェイスで宛先からセグメントを削除します。 また、特性フォルダーとセグメントフォルダーを削除するには、そのフォルダーが空でなければなりません。
 
 複数の項目を削除するには、[!UICONTROL Bulk Management Tools] ワークシートを開き、以下の手順に従ってください。
 
@@ -56,7 +56,8 @@ ht-degree: 89%
 4. 削除するオブジェクトの ID を、ヘッダーの下の列に貼り付けるか入力します。
 5. 必要な[ログオン情報](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs)を入力し、「**[!UICONTROL Submit]**」をクリックします。
 
-   ワークシートに「[!UICONTROL Results]」列が作成されます。「[!UICONTROL Results]」列に、アイテムが削除されたかどうかを表すメッセージ、またはエラーメッセージが返されます。データを入力する前の一括更新ワークシートは、次のようになります。
+   ワークシートに「[!UICONTROL Results]」列が作成されます。 「[!UICONTROL Results]」列に、アイテムが削除されたかどうかを表すメッセージ、またはエラーメッセージが返されます。
+   データを入力する前の一括更新ワークシートは、次のようになります。
 
 ![](assets/delete.png)
 
