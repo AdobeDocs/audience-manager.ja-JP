@@ -1,5 +1,5 @@
 ---
-description: 30 日経過するごとにパスワードの有効期限が切れるように Audience Manager を設定することができます。パスワードの有効期限を有効にする場合は、担当の Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。パスワードの要件とパスワードを忘れた場合の対処方法については、この節を参照してください。
+description: 30 日経過するごとにパスワードの有効期限が切れるように Audience Manager を設定することができます。 パスワードの有効期限を有効にする場合は、担当の Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。 パスワードの要件とパスワードを忘れた場合の対処方法については、この節を参照してください。
 seo-description: Audience Manager can be configured to expire passwords every 30-days. Talk to your Audience Manager consultant or Customer Care if you want to enable password expiry. Refer to this section for password requirements and how to recover a lost or forgotten password.
 seo-title: Password Requirements, Locked Accounts, and Forgotten Passwords
 solution: Audience Manager
@@ -10,24 +10,28 @@ exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 TQID: https://experienceleague.adobe.com/zc1W-k6Ttlacqnoeqou-lW0A2X5mq0i0ZK2tHovFWoI
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: a3c2901ff307d6c2440cef22181abb854a9743df
 workflow-type: tm+mt
-source-wordcount: 267
-ht-degree: 100%
-
+source-wordcount: '352'
+ht-degree: 48%
 ---
-
 # パスワードの要件、ロックされたアカウント、パスワードを忘れた場合{#password-requirements-locked-accounts-and-forgotten-passwords}
 
-30 日経過するごとにパスワードの有効期限が切れるように Audience Manager を設定することができます。パスワードの有効期限を有効にする場合は、担当の Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。パスワードの要件とパスワードを忘れた場合の対処方法については、この節を参照してください。
+30 日経過するごとにパスワードの有効期限が切れるように Audience Manager を設定することができます。 パスワードの有効期限を有効にする場合は、担当の Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。 パスワードの要件とパスワードを忘れた場合の対処方法については、この節を参照してください。
 
 <!-- 
 
@@ -39,54 +43,26 @@ c_password_requirements.xml
 
 [!DNL Audience Manager] パスワードが有効であるためには、以下の要件を満たす必要があります。
 
-<table id="table_9B79E9F634664F6B995649E3158CCF20"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 要件 </th> 
-   <th colname="col2" class="entry"> 説明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>長さ</b> </p> </td> 
-   <td colname="col2"> <p>パスワードは、12 文字から 40 文字までの長さにします。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>内容</b> </p> </td> 
-   <td colname="col2"> <p>パスワードは以下である必要があります。 </p> <p> 
-     <ul id="ul_70F64B9DE90E463098DFA8AB8349CF0B"> 
-      <li id="li_2FBA66E47F4A4E1BB01DE3722821E100">先頭および末尾には英数字を使用する。 </li> 
-      <li id="li_1390D4C9A48944B68B891EE6CB734BBC">1 文字以上の大文字および小文字を含める。 </li> 
-      <li id="li_B75B64A005804262BAAF0F1901D63358">1 つ以上の数字を含める。 </li> 
-      <li id="li_28452022AF4743B8B159187BBD10890A">1 文字以上の特殊文字を含める（コロン「:」を除く）。 </li> 
-      <li id="li_C02B931ABAB84FFE9B87AEBAEDF34EF3">ラテンアルファベット文字のみで構成する。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>バージョン</b> </p> </td> 
-   <td colname="col2"> <p> パスワードは、最近使用した 12 個のパスワードと異なる必要があります。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>禁止項目</b> </p> </td> 
-   <td colname="col2"> <p> パスワードに以下を含まないようにする必要があります。 </p> <p> 
-     <ul id="ul_08DE186AF56E401B933256E69279847A"> 
-      <li id="li_CC854F7F86484774A76CCF927E1400B4">姓または名。 </li> 
-      <li id="li_74ACCF3DE717473B8AB9B1720DD891E7">電子メールアドレス。 </li> 
-      <li id="li_09C1F699BF6843ACAB4E68D2F57461AB"><span class="keyword">Adobe</span> ユーザー ID。 </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 要件 | 説明 |
+|---|---|
+| の長さ | パスワードは、12 文字から 40 文字までの長さにします。 |
+| 内容 | パスワードは以下である必要があります。<ul><li>先頭および末尾には英数字を使用する。</li><li>大文字と小文字が少なくとも1つ含まれています。</li><li>1つ以上の数値を含めてください。</li><li>少なくとも1つの特殊文字（コロンを除く）が含まれています。</li><li>ラテンアルファベット文字のみで構成する。</li></ul> |
+| バージョン | パスワードは、最近使用した 12 個のパスワードと異なる必要があります。 |
+| 禁止事項 | パスワードに次を含めることはできません：<ul><li>お客様の名前または姓。</li><li>メールアドレスまたは[!DNL Adobe] ユーザーID。</li><li>連続する文字または数字。</li><li>連番の文字または数字。</li><li>よく使うパスワード。</li></ul> |
 
 パスワードのリセットについて詳しくは、[アカウント設定の編集](../features/administration/edit-account-settings.md)を参照してください。
 
 **アカウントのロックアウト**
 
-ログインに 5 回失敗すると、アカウントはロックされます。アカウントのロックを解除するには、会社の [!DNL Audience Manager] 管理者またはパートナーサービス担当者にお問い合わせください。
+セキュリティのため、[!DNL Audience Manager]は一時的にログイン試行の失敗を繰り返しレート制限します。 制限を超えると、[!DNL Audience Manager]は短期間のログインをさらにブロックし、自動的に再度許可します。 アカウントのロックを解除するために、管理者またはパートナーサービス担当者に連絡する必要はありません。
 
 **パスワードを紛失した／忘れた場合**
 
-ログインページの **[!UICONTROL Forgot password]** リンクをクリックして、パスワードをリセットします。24 時間で期限が切れる一時的なパスワードが記載された自動応答電子メールを受け取ります。電子メールのリンクをクリックして、アカウントにアクセスし、パスワードをリセットします。
+サインインページで「**[!UICONTROL Forgot password]**」を選択して、パスワードをリセットします。 [!DNL Audience Manager]から、パスワードをリセットするためのリンクが記載されたメールが送信されます。 リンクを選択し、パスワード要件を満たす新しいパスワードを作成します。 リンクは1回のみ機能します。
+
+**新規アカウント設定**
+
+管理者がアカウントを作成すると、パスワードを設定するためのリンクが記載された電子メールが[!DNL Audience Manager]から送信されます。 リンクを選択し、パスワード要件を満たすパスワードを作成します。 初めてログインする前に、パスワードを設定する必要があります。
 
 >[!MORELIKETHIS]
 >
