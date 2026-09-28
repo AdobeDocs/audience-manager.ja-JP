@@ -1,5 +1,5 @@
 ---
-description: S3 ステータスディレクトリには .info ファイルがあり、アップロードされたファイルの成功と失敗に関する情報が格納されています。ファイルには JSON 形式のデータがあり、ステータスの結果が配列に格納されています。
+description: S3 ステータスディレクトリには .info ファイルがあり、アップロードされたファイルの成功と失敗に関する情報が格納されています。 ファイルには JSON 形式のデータがあり、ステータスの結果が配列に格納されています。
 seo-description: The S3 status directory holds a .info file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
 seo-title: Status Updates for Metadata Files
 solution: Audience Manager
@@ -8,15 +8,13 @@ uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 100%
-
 ---
-
 
 # メタデータファイルのステータスの更新{#status-updates-for-metadata-files}
 
-S3 status ディレクトリには `.info` ファイルがあり、アップロードされたファイルの成功と失敗に関する情報が格納されています。ファイルには JSON 形式のデータがあり、ステータスの結果が配列に格納されています。
+S3 status ディレクトリには `.info` ファイルがあり、アップロードされたファイルの成功と失敗に関する情報が格納されています。 ファイルには JSON 形式のデータがあり、ステータスの結果が配列に格納されています。
 
 `.info` ファイルのコンテンツは、以下の例のようになります。
 
@@ -75,7 +73,7 @@ S3 status ディレクトリには `.info` ファイルがあり、アップロ�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Description</code> </p> </td> 
-   <td colname="col2"> <p>処理が失敗した理由の簡単な説明が含まれています。処理が成功した場合、このフィールドは空白となります。 </p> </td> 
+   <td colname="col2"> <p>処理が失敗した理由の簡単な説明が含まれています。 処理が成功した場合、このフィールドは空白となります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileByteSize</code> </p> </td> 
@@ -91,11 +89,11 @@ S3 status ディレクトリには `.info` ファイルがあり、アップロ�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>ファイルに含まれるデータの種類を示すわかりやすい名前。ファイル名の子 ID に基づいています。 </p> <p><a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md">メタデータファイルの命名規則</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ファイルに含まれるデータの種類を示すわかりやすい名前。 ファイル名の子 ID に基づいています。 </p> <p><a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md">メタデータファイルの命名規則</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>ファイルに含まれるデータの種類を示すわかりやすい名前。ファイル名の親 ID に基づいています。 </p> <p><a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md">メタデータファイルの命名規則</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ファイルに含まれるデータの種類を示すわかりやすい名前。 ファイル名の親 ID に基づいています。 </p> <p><a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md">メタデータファイルの命名規則</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 

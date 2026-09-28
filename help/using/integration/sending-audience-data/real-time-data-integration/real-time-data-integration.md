@@ -8,11 +8,9 @@ uuid: 96f292bb-608c-41d3-8baa-a58ecb411db0
 feature: Inbound Data Transfers
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '22'
+source-wordcount: '26'
 ht-degree: 100%
-
 ---
-
 
 # リアルタイム受信データ統合 {#real-time-inbound-data-integration}
 
