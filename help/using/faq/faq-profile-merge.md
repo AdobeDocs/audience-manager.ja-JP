@@ -188,7 +188,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **デバイスグラフを使用する [!UICONTROL Profile Merge Rule] で到達できるデバイスの数は確認できますか？**
 
-はい。 レポートは [!UICONTROL Profile Merge Rule] レベルでデータを返します。 レポートのデータは毎日更新されます。 データはデバイスグラフでリンクされているデバイスではなく、アカウントで認識されるデバイスに基づいています。 プロファイル結合ルールの[ レポート指標](../features/profile-merge-rules/profile-link-metrics.md)を参照してください。
+はい。 レポートは [!UICONTROL Profile Merge Rule] レベルでデータを返します。 レポートのデータは毎日更新されます。 データはデバイスグラフでリンクされているデバイスではなく、アカウントで認識されるデバイスに基づいています。 プロファイル結合ルールの[&#x200B; レポート指標](../features/profile-merge-rules/profile-link-metrics.md)を参照してください。
 
  
 

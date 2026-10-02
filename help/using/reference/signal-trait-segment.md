@@ -33,7 +33,7 @@ ht-degree: 94%
 
 | 要素 | 構成 | 例 |
 |---|---|---|
-| [!UICONTROL Signal] | [!UICONTROL Signals]は [!DNL Audience Manager] における最小のデータ単位で、[ キーと値のペア](../reference/key-value-pairs-explained.md)として表されます。<br><br><ul><li>キーは、データセットを定義する定数です（例：gender、color、price）。</li><li>値は、定数に関連する変数です（例：male/female、green、100）。</li></ul>比較演算子は、キーと値を結合して、それらの間の関係を設定します。 | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
+| [!UICONTROL Signal] | [!UICONTROL Signals]は [!DNL Audience Manager] における最小のデータ単位で、[&#x200B; キーと値のペア](../reference/key-value-pairs-explained.md)として表されます。<br><br><ul><li>キーは、データセットを定義する定数です（例：gender、color、price）。</li><li>値は、定数に関連する変数です（例：male/female、green、100）。</li></ul>比較演算子は、キーと値を結合して、それらの間の関係を設定します。 | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
 | [!UICONTROL Trait] | 1 つ以上の[!UICONTROL signals]の組み合わせ。<br><br> [!DNL Boolean] 式および比較演算子を使用すると、[!UICONTROL trait]選定ルールを作成できます。 <br><br>[!UICONTROL traits]と[!UICONTROL trait]グループを組み合わせて、詳細な選定要件を作成します。 | 例えば、使用可能な[!UICONTROL signals]から、次のような「`High End Camera Browser`」ルールを作成できます：`product=camera AND price>1000` |
 | [!UICONTROL Segment] | 共通する一連の属性を共有し、関連する[!UICONTROL traits]の対象として認定されるユーザー。 [!DNL Boolean]式と最新性/頻度の要件により、[!UICONTROL segment]の選定ルールを作成できます。<br><br> [!UICONTROL trait]と[!UICONTROL segment]のルールを組み合わせて、正確な資格要件を作成します。 | 例えば、使用可能な[!UICONTROL traits]および[!UICONTROL signals]から、次のような[!UICONTROL segment]ルールを作成できます：`(product=camera AND type=digital SLR) OR (price>1000)` |
 

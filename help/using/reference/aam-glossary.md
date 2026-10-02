@@ -150,7 +150,7 @@ Demdex.net は [!DNL Adobe] が管理しているレガシーのドメインで�
 
 フォルダー分類における、特性の自動的なグループ化。 階層内の各フォルダーで、セグメントを定義できる特性が自動的に作成されます。
 
-[ フォルダー特性：約](../features/traits/about-folder-traits.md)を参照してください。
+[&#x200B; フォルダー特性：約](../features/traits/about-folder-traits.md)を参照してください。
 
 
 
@@ -233,7 +233,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。 [!
 
 **適合**
 
-ある特性に適合するサイト訪問者のアクション。 [訪問者プロファイルビューア ](../features/visitor-profile-viewer.md) ツールを使用して、特定のユーザーによる特性認識に関する情報を取得できます。
+ある特性に適合するサイト訪問者のアクション。 [訪問者プロファイルビューア &#x200B;](../features/visitor-profile-viewer.md) ツールを使用して、特定のユーザーによる特性認識に関する情報を取得できます。
 
 ## S-T {#s-t}
 
@@ -241,7 +241,7 @@ Globally Unique Identifier（グローバルに一意の ID）の頭字語。 [!
 
 セグメント（またはオーディエンス）は、共通の属性を共有する一連のユーザーです。
 
-[ セグメント：目的、構成、ルール ](../features/segments/segments-purpose.md)を参照してください。
+[&#x200B; セグメント：目的、構成、ルール &#x200B;](../features/segments/segments-purpose.md)を参照してください。
 
 
 

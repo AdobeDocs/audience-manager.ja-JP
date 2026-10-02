@@ -65,7 +65,7 @@ ht-degree: 99%
 
 個々のデータアクセス要求を送信するには、 [Privacy Service UI](https://privacyui.cloud.adobe.io) （ドキュメントは [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ja)）を使用するか、Privacy Service API（ドキュメントは [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)、 [!DNL API] リファレンスは [こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)）を呼び出します。
 
-[プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
+[プライバシーサービスの UI &#x200B;](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
 有効な [!DNL JSON] ファイルがどのようなものであるかを確認するには、[JSON のサンプルをダウンロード](../data-security-and-privacy/assets/access_request.json)できます。
 
@@ -75,7 +75,7 @@ ht-degree: 99%
 
 データ削除要求を送信するには、 [Privacy Service UI](https://privacyui.cloud.adobe.io) （ドキュメントは [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ja)）を使用するか、Privacy Service API（ドキュメントは [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)、 [!DNL API] リファレンスは [こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)）を呼び出します。
 
-[プライバシーサービスの UI ](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
+[プライバシーサービスの UI &#x200B;](https://privacyui.cloud.adobe.io/)では、[!UICONTROL Request Builder] を使用するか、[!DNL JSON] ファイルをアップロードすることで、新しいジョブリクエストを作成できます。
 
 有効な [!DNL JSON] ファイルがどのようなものであるかを確認するには、[JSON のサンプルをダウンロード](../data-security-and-privacy/assets/access_request.json)できます。
 
