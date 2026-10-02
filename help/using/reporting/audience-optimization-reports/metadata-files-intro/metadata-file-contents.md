@@ -7,43 +7,51 @@ title: メタデータファイルのコンテンツの形式
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 feature: Log Files
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
-TQID: https://experienceleague.adobe.com/h5fvnoFsB5Q-9w2GcoU2HNJrdPGUjFKAwFXaYuSMMwU
+TQID: 'https://experienceleague.adobe.com/h5fvnoFsB5Q-9w2GcoU2HNJrdPGUjFKAwFXaYuSMMwU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: '299'
 ht-degree: 100%
-
 ---
-
 # メタデータファイルのコンテンツの形式{#content-format-for-metadata-files}
 
 オーディエンスの最適化のメタデータファイルのコンテンツを、以下の仕様に従って書式設定します。
 
 ## 構文 {#syntax}
 
-次の構文は、メタデータファイルの適正なコンテンツの構造を示しています。なお、*斜体*&#x200B;の部分には実際の情報が入ります。
+次の構文は、メタデータファイルの適正なコンテンツの構造を示しています。 なお、*斜体*&#x200B;の部分には実際の情報が入ります。
 
 **構文：**  *content ID* | *name* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
-3 番目の列 **-1** は、レガシーフィールドの親 ID です。値は常に **-1** に設定する必要があります。
+3 番目の列 **-1** は、レガシーフィールドの親 ID です。 値は常に **-1** に設定する必要があります。
 
 >[!NOTE]
 >
->ディメンションごとにメタデータが 1 つ必要なので、複数のメタデータファイルはバケットで想定されます。ディメンションは、記事[メタデータファイルの命名規則](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)で一覧表示されています。
+>ディメンションごとにメタデータが 1 つ必要なので、複数のメタデータファイルはバケットで想定されます。 ディメンションは、記事[メタデータファイルの命名規則](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)で一覧表示されています。
 
 **ファイルエントリを ^a（Ctrl + A または ASCII 001）で区切る**
 
-`^a`（Ctrl + A または ASCII 001）を使用して、メタデータファイルのコンテンツを区切ります。これらは非印字文字なので、上記の構文例では、表示のためだけにパイプ「|」を使用しています。
+`^a`（Ctrl + A または ASCII 001）を使用して、メタデータファイルのコンテンツを区切ります。 これらは非印字文字なので、上記の構文例では、表示のためだけにパイプ「|」を使用しています。
 
-必要に応じて、サンプルファイル [20181105_0_1](assets/20181105_0_1.zip) をダウンロードできます。必要な区切り文字が既に含まれているため、ダウンロードしたファイルを展開してお好きなエディターで編集し、実際のメタデータコンテンツに従って調整してください。
+必要に応じて、サンプルファイル [20181105_0_1](assets/20181105_0_1.zip) をダウンロードできます。 必要な区切り文字が既に含まれているため、ダウンロードしたファイルを展開してお好きなエディターで編集し、実際のメタデータコンテンツに従って調整してください。
 
 >[!IMPORTANT]
 >
@@ -51,7 +59,7 @@ ht-degree: 100%
 
 ## 例 {#examples}
 
-メタデータファイルのコンテンツを構成する方法を紹介します。この構造の一部は、ディメンションによって異なります。ディメンションは、記事[メタデータファイルの命名規則](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)で一覧表示されています。
+メタデータファイルのコンテンツを構成する方法を紹介します。 この構造の一部は、ディメンションによって異なります。 ディメンションは、記事[メタデータファイルの命名規則](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension)で一覧表示されています。
 
 **Campaign**
 

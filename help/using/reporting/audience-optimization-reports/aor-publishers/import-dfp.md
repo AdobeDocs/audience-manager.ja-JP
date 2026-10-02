@@ -1,5 +1,5 @@
 ---
-description: Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
+description: Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。 すべての前提条件を確認後、カスタマーケアにご連絡ください。
 seo-description: Before Audience Manager can enable Audience Optimization for Publishers, you must ensure that all prerequisites outlined in this article are met. Contact Customer Care after checking off all prerequisites.
 seo-title: Import Google Ad Manager Data Files Into Audience Manager
 solution: Audience Manager
@@ -7,40 +7,50 @@ title: Google Ad Manager データファイルを Audience Manager に読み込�
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
-TQID: https://experienceleague.adobe.com/cnzj59ejieaEvCGo2a-xopjYJ-GfUTc1LV24p9mQiEw
+TQID: 'https://experienceleague.adobe.com/cnzj59ejieaEvCGo2a-xopjYJ-GfUTc1LV24p9mQiEw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 511
-ht-degree: 93%
-
+source-wordcount: '519'
+ht-degree: 92%
 ---
+# Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む{#import-dfp-data-files-into-audience-manager}
 
-# Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む {#import-dfp-data-files-into-audience-manager}
-
-Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。すべての前提条件を確認後、カスタマーケアにご連絡ください。
+Audience Manager が Audience Optimization for Publishers を有効にする前に、この記事に記載されたすべての前提条件が満たされていることを確認してください。 すべての前提条件を確認後、カスタマーケアにご連絡ください。
 
 ## Google Ad Manager Log Ingestionの前提条件 {#prereqs-dfp-ingestion}
 
 この節で説明している処理は、ログの取り込みを許可するための前提条件に進む&#x200B;*前*&#x200B;におこなってください。
 
-[!DNL Audience Manager] で[!DNL Google Ad Manager]（以前の Google DFP）ログファイルを使用するには、まず広告タグ呼び出しで [Audience Manager の一意のユーザー ID（UUID）](../../../reference/ids-in-aam.md)を設定する必要があります。これにより、ID が [!DNL Google Ad Manager] ログに含まれ、[!DNL Google Ad Manager] と [!DNL Audience Manager] との間で ID を照合できるようになります。[!DNL Audience Manager] の [!UICONTROL DIL] コードまたは [!UICONTROL Audience Management Module] を使用して、[!DNL Audience Manager] UUID をファーストパーティの Cookie で設定します。
+[!DNL Audience Manager] で[!DNL Google Ad Manager]（以前の Google DFP）ログファイルを使用するには、まず広告タグ呼び出しで [Audience Manager の一意のユーザー ID（UUID）](../../../reference/ids-in-aam.md)を設定する必要があります。 これにより、ID が [!DNL Google Ad Manager] ログに含まれ、[!DNL Google Ad Manager] と [!DNL Audience Manager] との間で ID を照合できるようになります。 [!DNL Audience Manager] の [!UICONTROL DIL] コードまたは [!UICONTROL Audience Management Module] を使用して、[!DNL Audience Manager] UUID をファーストパーティの Cookie で設定します。
 
 広告タグ呼び出しでの [!DNL Audience Manager] ID の設定方法は以下のとおりです（ドキュメントにも説明があります）。
 
 * [Google Publisher Tag（GPT）を使用する](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [Cookieの宛先を介して](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-[!DNL Audience Manager] ID はご自身で設定する必要があります。また、[!DNL Audience Manager] コンサルタントを使用して、すべて正常であることを確認できます。次のようになっていれば、[!DNL Audience Manager] ID は正しく設定されています。
+[!DNL Audience Manager] ID はご自身で設定する必要があります。また、[!DNL Audience Manager] コンサルタントを使用して、すべて正常であることを確認できます。 次のようになっていれば、[!DNL Audience Manager] ID は正しく設定されています。
 
 * 識別子として使用されているキーが `'aamid'` である。
 * ユーザー ID 値が [Audience Manager で使用される ID の一覧](../../../reference/ids-in-aam.md)で説明されているように、正しく [!DNL Audience Manager] UUID の形式になっている。
@@ -74,12 +84,12 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
   </tr> 
   <tr> 
    <td colname="col1"> <p>手順 3 </p> </td> 
-   <td colname="col2"> <p>Gogle Ad Manager がサービスアカウントへの API アクセスを許可します。この手順により、寸法を説明するメタデータ（行項目、オーダー、クリエイティブ）へのアクセスが可能になります。 <p>注意：API にアクセスする権限を許可するには、手順 2 で設定したサービスアカウント電子メールアクセスを使用します。 </p> </p> </td> 
+   <td colname="col2"> <p>Gogle Ad Manager がサービスアカウントへの API アクセスを許可します。 この手順により、寸法を説明するメタデータ（行項目、オーダー、クリエイティブ）へのアクセスが可能になります。 <p>注意：API にアクセスする権限を許可するには、手順 2 で設定したサービスアカウント電子メールアクセスを使用します。 </p> </p> </td> 
    <td colname="col3"> <p>Google Ad Manager 管理者 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>手順 4 </p> </td> 
-   <td colname="col2"> <p>Google Ad Manager が、Google Storage Bucket へのアクセスを確立します。以下の点に注意してください。 </p> <p> 
+   <td colname="col2"> <p>Google Ad Manager が、Google Storage Bucket へのアクセスを確立します。 以下の点に注意してください。 </p> <p> 
      <ul id="ul_3E8DCC73454243D998BD9024D0966A4E"> 
       <li id="li_3691DBD28006412288458175F75873C6">この処理は Google グループからおこなうことができます。 </li> 
       <li id="li_4774806B263245CEAAAB89BD2AA7F23F">サービスアカウントに関連付けられた一意の電子メールアドレスを、ストレージバケットに関連付けます。 </li> 
@@ -88,12 +98,12 @@ Audience Manager が Audience Optimization for Publishers を有効にする前�
   </tr> 
   <tr> 
    <td colname="col1"> <p>手順 5 </p> </td> 
-   <td colname="col2"> <p>Google Ad Manager のネットワーク ID は、Google Ad Manager 管理者が入力します。これにより、API を呼び出す際にネットワーク ID を渡すことができます。 </p> </td> 
+   <td colname="col2"> <p>Google Ad Manager のネットワーク ID は、Google Ad Manager 管理者が入力します。 これにより、API を呼び出す際にネットワーク ID を渡すことができます。 </p> </td> 
    <td colname="col3"> <p>Google Ad Manager 管理者 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>手順 6 </p> </td> 
-   <td colname="col2"> <p>前提条件をまとめ、詳細な手順<a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=ja">ここ</a>に従ってサポートチケットを開き、ログ取り込みプロセスを開始します。 </p> </td> 
+   <td colname="col2"> <p>前提条件をまとめ、詳細な手順<a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">ここ</a>に従ってサポートチケットを開き、ログ取り込みプロセスを開始します。 </p> </td> 
    <td colname="col3"> <p>自分または <span class="keyword"> Audience Manager</span> コンサルタントが代理で実行 </p> </td> 
   </tr> 
  </tbody> 

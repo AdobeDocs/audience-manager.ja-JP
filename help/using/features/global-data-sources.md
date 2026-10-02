@@ -6,27 +6,35 @@ solution: Audience Manager
 title: グローバルデータソース
 feature: Data Sources
 exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
-TQID: https://experienceleague.adobe.com/ypEVWQ9WTVzEAluf8a7PqkWvatH-G9JH82WkjmhwWEM
+TQID: 'https://experienceleague.adobe.com/ypEVWQ9WTVzEAluf8a7PqkWvatH-G9JH82WkjmhwWEM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: '451'
 ht-degree: 100%
-
 ---
-
 # グローバルデータソース {#global-data-sources}
 
 ## 概要
 
-グローバルデータソースは、すべての Audience Manager のお客様がアクセスでき、[!DNL Apple]、[!DNL Samsung]、[!DNL Microsoft]、[!DNL Roku]、および[!DNL Android] などのデバイスメーカーによって生成されたデバイス広告 ID を含みます。これらの ID は、メーカーが広告目的での利用を許可したものです。Audience Manager のユーザーは、グローバルデータソースを使用して、デバイス ID を同期したり、それらのマッピングから識別されたデータをインポートまたはエクスポートしたりできます。
+グローバルデータソースは、すべての Audience Manager のお客様がアクセスでき、[!DNL Apple]、[!DNL Samsung]、[!DNL Microsoft]、[!DNL Roku]、および[!DNL Android] などのデバイスメーカーによって生成されたデバイス広告 ID を含みます。 これらの ID は、メーカーが広告目的での利用を許可したものです。 Audience Manager のユーザーは、グローバルデータソースを使用して、デバイス ID を同期したり、それらのマッピングから識別されたデータをインポートまたはエクスポートしたりできます。
 
 次の表に、Audience Manager でサポートされるグローバルデータソースを示します。
 
@@ -47,15 +55,15 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->グローバルデバイス ID を使用して Audience Manager にデータを送信する場合は、該当するデバイス ID に対応するデータソースを必ず使用してください。例：[!DNL Apple IDFA] のデータをインポートするには、データソース ID 20915 を使用します。
+>グローバルデバイス ID を使用して Audience Manager にデータを送信する場合は、該当するデバイス ID に対応するデータソースを必ず使用してください。 例：[!DNL Apple IDFA] のデータをインポートするには、データソース ID 20915 を使用します。
 
 ## 制限事項
 
-[!DNL iOS]および [!DNL Android] オペレーティングシステムを実行するデバイスでは、ネイティブアプリケーションのみがデバイス広告 ID（[!UICONTROL DAID]）を取得して使用できます。モバイルブラウザーで実行されている Web アプリケーションは、デバイス広告 ID にアクセスできません。
+[!DNL iOS]および [!DNL Android] オペレーティングシステムを実行するデバイスでは、ネイティブアプリケーションのみがデバイス広告 ID（[!UICONTROL DAID]）を取得して使用できます。 モバイルブラウザーで実行されている Web アプリケーションは、デバイス広告 ID にアクセスできません。
 
 ## グローバルデバイス ID の検証
 
-Audience Manager は、お客様によって読み込まれたデバイス広告 ID（[!UICONTROL DAID]）をその形式に基づいて検証し、デバイス製造元が説明する標準形式に一致するようにします。デバイス広告 ID とグローバルデータソースのマッピングおよびそれぞれの ID の適切な形式について詳しくは、[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。デバイスタイプに基づいて、デバイス ID を正しい形式でインポートしていることを確認してください。Audience Manager では、適切な形式を満たさないデバイス ID は拒否され、ID が拒否されたことを示すエラーメッセージが返されます。
+Audience Manager は、お客様によって読み込まれたデバイス広告 ID（[!UICONTROL DAID]）をその形式に基づいて検証し、デバイス製造元が説明する標準形式に一致するようにします。 デバイス広告 ID とグローバルデータソースのマッピングおよびそれぞれの ID の適切な形式について詳しくは、[Audience Manager の ID のインデックス](../reference/ids-in-aam.md)を参照してください。 デバイスタイプに基づいて、デバイス ID を正しい形式でインポートしていることを確認してください。 Audience Manager では、適切な形式を満たさないデバイス ID は拒否され、ID が拒否されたことを示すエラーメッセージが返されます。
 
 * バッチデータ転送のエラーメッセージについては、[オンボーディングステータスレポートの用語と定義](../reporting/onboarding-status-report.md#report-terms-conditions)を参照してください。
 * リアルタイムデータ転送のエラーメッセージについては、[DCS エラーコード、メッセージ、例](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md)を参照してください。

@@ -1,24 +1,29 @@
 ---
-description: 検索条件を最大で 10 セット保存し、必要に応じて使用すれば、シグナル検索の労力を抑えるとともに、ダッシュボードで保存した条件の結果を追跡できます。Audience Manager では、ダッシュボードの読み込みのたびに保存済みの検索結果がリロードされます。
+description: 検索条件を最大で 10 セット保存し、必要に応じて使用すれば、シグナル検索の労力を抑えるとともに、ダッシュボードで保存した条件の結果を追跡できます。 Audience Manager では、ダッシュボードの読み込みのたびに保存済みの検索結果がリロードされます。
 seo-description: Optimize signal search efforts by saving up to 10 sets of search criteria to use whenever you need them, and track them on the Dashboard. Audience Manager reloads the saved searches every time you load the Dashboard.
 seo-title: Save Search Criteria
 title: 検索条件の保存
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 feature: Data Explorer
 exl-id: ab56ddb7-6b0b-4a3d-9590-00c49a4ae7dc
-TQID: https://experienceleague.adobe.com/ecQ9AHZ0NrZtQlNYRnn2arc9YLPRNr6iEDkHS5GqlkQ
+TQID: 'https://experienceleague.adobe.com/ecQ9AHZ0NrZtQlNYRnn2arc9YLPRNr6iEDkHS5GqlkQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: '177'
 ht-degree: 100%
-
 ---
-
 # 検索条件の保存 {#save-search-criteria}
 
-検索条件を最大で 10 セット保存し必要に応じて使用することで、シグナル検索の労力を抑えるとともに、[!UICONTROL Signals Dashboard]で保存した条件の結果を追跡できます。Audience Manager では、[!UICONTROL Signals Dashboard]の読み込みのたびに保存済みの検索結果がリロードされます。
+検索条件を最大で 10 セット保存し必要に応じて使用することで、シグナル検索の労力を抑えるとともに、[!UICONTROL Signals Dashboard]で保存した条件の結果を追跡できます。 Audience Manager では、[!UICONTROL Signals Dashboard]の読み込みのたびに保存済みの検索結果がリロードされます。
 
 1. **[!UICONTROL Audience Data > Signals > Search]** を開き、今後の検索用に保存するキーと値のペアやフィルターを指定して、**[!UICONTROL Signals Search]**&#x200B;を実行します。
 1. 検索結果が表示されたら、「**[!UICONTROL Save this Search]**」をクリックします。
@@ -32,7 +37,7 @@ ht-degree: 100%
 1. **[!UICONTROL Default Sorting]** で、デフォルトの並べ替えモードとして次のいずれかを指定します。
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. 「**[!UICONTROL Save]**」をクリックします。保存した検索条件が「[!UICONTROL Saved Search]」セクションに表示され、必要なときに使用できるようになります。
+1. 「**[!UICONTROL Save]**」をクリックします。 保存した検索条件が「[!UICONTROL Saved Search]」セクションに表示され、必要なときに使用できるようになります。
 
 ![保存済みの検索](assets/saved-search.png)
 

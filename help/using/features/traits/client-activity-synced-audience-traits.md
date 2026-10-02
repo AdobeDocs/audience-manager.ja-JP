@@ -1,5 +1,5 @@
 ---
-description: これらは、アドレス可能なオーディエンスで使用される特別な特性です。アクティブオーディエンス特性とデータソース同期特性は、Audience Data／Traits／Audience Traits にあります。
+description: これらは、アドレス可能なオーディエンスで使用される特別な特性です。 アクティブオーディエンス特性とデータソース同期特性は、Audience Data／Traits／Audience Traits にあります。
 seo-description: These are special traits used by Addressable Audiences. Active Audience and Data Source Synced Traits are located in Audience Data > Traits > Audience Traits.
 seo-title: Active Audience Traits and Data Source Synced Traits
 solution: Audience Manager
@@ -7,21 +7,27 @@ title: アクティブオーディエンス特性とデータソース同期特�
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 feature: Traits
 exl-id: 8fa4ea24-1beb-40cb-bdec-540a3f7c2573
-TQID: https://experienceleague.adobe.com/2DBCMtqRp0sQM04ec-2pKVnaEnQijjsnrk0JvqoNf3o
+TQID: 'https://experienceleague.adobe.com/2DBCMtqRp0sQM04ec-2pKVnaEnQijjsnrk0JvqoNf3o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 215
+source-wordcount: '215'
 ht-degree: 100%
-
 ---
-
 # アクティブオーディエンス特性とデータソース同期特性 {#active-audience-traits-and-data-source-synced-traits}
 
-これらは、[!UICONTROL Addressable Audiences]で使用される特別な特性です。[!UICONTROL Active Audience] と [!UICONTROL Data Source Synced Traits] は [!UICONTROL Audience Data > Traits > Audience Traits] にあります。
+これらは、[!UICONTROL Addressable Audiences]で使用される特別な特性です。 [!UICONTROL Active Audience] と [!UICONTROL Data Source Synced Traits] は [!UICONTROL Audience Data > Traits > Audience Traits] にあります。
 
 >[!NOTE]
 >
@@ -29,7 +35,7 @@ ht-degree: 100%
 
 ## アクティブオーディエンス特性 {#active-audience-traits}
 
-[!UICONTROL Active Audience]特性には、[!DNL Audience Manager] アカウントで管理下にあるすべてのデバイスが含まれています。セグメントの作成または編集時に、[!UICONTROL Active Audience Trait]特性を他の特性と同じように使用できます。また、[アドレス可能なオーディエンス](../../features/addressable-audiences.md)では、重複データの生成にこの特性が必要です。すべてのアカウントには、デフォルトで[!UICONTROL Active Audience]特性があります。この特性は削除できません。
+[!UICONTROL Active Audience]特性には、[!DNL Audience Manager] アカウントで管理下にあるすべてのデバイスが含まれています。 セグメントの作成または編集時に、[!UICONTROL Active Audience Trait]特性を他の特性と同じように使用できます。 また、[アドレス可能なオーディエンス](../../features/addressable-audiences.md)では、重複データの生成にこの特性が必要です。 すべてのアカウントには、デフォルトで[!UICONTROL Active Audience]特性があります。 この特性は削除できません。
 
 ## データソース同期特性 {#data-source-synced-traits}
 
@@ -37,11 +43,11 @@ ht-degree: 100%
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] は、データソースと関連付けられているすべてのユーザーを追跡します。セグメントの作成または編集時に、[!UICONTROL Data Source Synched Trait]を他の特性と同じように使用できます。[!UICONTROL Data Source Synced Trait]を作成すると、その特性名は、データソースで使用されている名前に一致します。データソースを編集すると、特性名が変更されます。この特性は削除できません。
+[!UICONTROL Data Source Synced Traits] は、データソースと関連付けられているすべてのユーザーを追跡します。 セグメントの作成または編集時に、[!UICONTROL Data Source Synched Trait]を他の特性と同じように使用できます。 [!UICONTROL Data Source Synced Trait]を作成すると、その特性名は、データソースで使用されている名前に一致します。 データソースを編集すると、特性名が変更されます。 この特性は削除できません。
 
 >[!TIP]
 >
->[!UICONTROL Data Source Synced Traits] はトラブルシューティングに役立ちます。特性名をクリックして、特性概要ページで指標を確認します。選択した特性がデータを返す場合は、ID 同期プロセスが適切にセットアップされて [!DNL Audience Manager] にデータを送信しています。
+>[!UICONTROL Data Source Synced Traits] はトラブルシューティングに役立ちます。 特性名をクリックして、特性概要ページで指標を確認します。 選択した特性がデータを返す場合は、ID 同期プロセスが適切にセットアップされて [!DNL Audience Manager] にデータを送信しています。
 
 >[!MORELIKETHIS]
 >

@@ -7,27 +7,33 @@ title: 受信処理後パートナーに送信されるメッセージの例
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
-TQID: https://experienceleague.adobe.com/CpGIKkc7rAP8h3ij53-YMv3mHoU7CWwpNF5EeB3oUOQ
+TQID: 'https://experienceleague.adobe.com/CpGIKkc7rAP8h3ij53-YMv3mHoU7CWwpNF5EeB3oUOQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 636
-ht-degree: 98%
-
+source-wordcount: '667'
+ht-degree: 95%
 ---
-
 # 受信処理後パートナーに送信されるメッセージの例{#sample-message-to-partners-after-inbound-processing}
 
 インバウンドの [!UICONTROL Server-to-Server] ファイルが処理されるたびに、パートナーソリューションに対してレシートがメールで送信されます。また、設定によってはパートナーにも送信されます。
 
 <!-- r_inbound_message.xml -->
 
-次の例は、サンプルの電子メールメッセージです。メッセージの後の表は、メッセージの各行の説明です。
+次の例は、サンプルの電子メールメッセージです。 メッセージの後の表は、メッセージの各行の説明です。
 
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
@@ -49,23 +55,23 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> File name </td> 
-   <td colname="col2"> <p>このパートナーについてアドビが受け取り、一括で処理されたすべての受信ファイルのリスト。前述のサンプル電子メールメッセージでは、パートナー ID は 7 で、データ所有者 ID は 901 です。 </p> <p>末尾の番号（1、2、3、...）は、ユーザーまたは受信配布者により追加される分割番号です。 </p> </td> 
+   <td colname="col2"> <p>このパートナーについてアドビが受け取り、一括で処理されたすべての受信ファイルのリスト。 前述のサンプル電子メールメッセージでは、パートナー ID は 7 で、データ所有者 ID は 901 です。 </p> <p>テール番号（1,2,3...） は、顧客またはインバウンドディストリビューターによって追加された分割番号です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 受信したレコード </td> 
-   <td colname="col2"> <p>アドビがすべてのファイルで受け取ったレコードの合計数。ほとんどの場合、これは受信ファイルの行の合計数です。 </p> </td> 
+   <td colname="col2"> <p>アドビがすべてのファイルで受け取ったレコードの合計数。 ほとんどの場合、これは受信ファイルの行の合計数です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Format Errors </td> 
-   <td colname="col2"> <p>所定の形式と一致しない行の数です。これらの行は受信ジョブでは認識されていません。 </p> </td> 
+   <td colname="col2"> <p>所定の形式と一致しない行の数です。 これらの行は受信ジョブでは認識されていません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Invalid AAM ID </td> 
-   <td colname="col2"> <p>所定の 38 桁の形式と一致しない Audience Manager UUID の数。または、ファイルで送信された Audience Manager UUID が数値ではありません。 </p> </td> 
+   <td colname="col2"> <p>所定の 38 桁の形式と一致しない Audience Manager UUID の数。 または、ファイルで送信された Audience Manager UUID が数値ではありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> No Matching AAM ID </td> 
-   <td colname="col2"> <p>Audience Manager が該当する UUID を検出できなかったユーザーの合計数。これらのファイルは ID 同期されていないので、Audience Manager は UUID を参照できません。 </p> </td> 
+   <td colname="col2"> <p>Audience Manager が該当する UUID を検出できなかったユーザーの合計数。 これらのファイルは ID 同期されていないので、Audience Manager は UUID を参照できません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> No Trait Realized </td> 
@@ -73,7 +79,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> Records processed </td> 
-   <td colname="col2"> <p>Audience Manager が処理したレコードの合計数。ほとんどの場合、この数は「Records received」と同じです。 </p> </td> 
+   <td colname="col2"> <p>Audience Manager が処理したレコードの合計数。 ほとんどの場合、この数は「Records received」と同じです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Stored Records </td> 
@@ -89,7 +95,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> Total unused signals </td> 
-   <td colname="col2"> <p>すべての受信ファイルでの、すべてのユーザーに対する未使用シグナルの合計数（Audience Manager 特性にマッピングされていないキーと値のペア）。ほとんどの場合、これは Audience Manager でこのシグナルに対してルールが定義されていないことを表します。 </p> </td> 
+   <td colname="col2"> <p>すべての受信ファイルでの、すべてのユーザーに対する未使用シグナルの合計数（Audience Manager 特性にマッピングされていないキーと値のペア）。 ほとんどの場合、これは Audience Manager でこのシグナルに対してルールが定義されていないことを表します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Total realized traits </td> 
@@ -97,7 +103,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> Total removed traits </td> 
-   <td colname="col2"> <p> すべての受信ファイルでの、すべてのユーザーについて削除された特性の合計数。完全同期の場合、ユーザーが前回の実行時に特性を持ち、今回の実行時に特性がなかった場合に発生します。 </p> </td> 
+   <td colname="col2"> <p> すべての受信ファイルでの、すべてのユーザーについて削除された特性の合計数。 完全同期の場合、ユーザーが前回の実行時に特性を持ち、今回の実行時に特性がなかった場合に発生します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Total traits failed validation </td> 

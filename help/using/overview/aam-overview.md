@@ -8,28 +8,37 @@ title: Audience Manager の概要
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-TQID: https://experienceleague.adobe.com/yfWxhIkYnUTETWQa99VZoT6-mzAJ0TbjkQgFe5F5nlM
+TQID: 'https://experienceleague.adobe.com/yfWxhIkYnUTETWQa99VZoT6-mzAJ0TbjkQgFe5F5nlM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data management
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 301
-ht-degree: 100%
-
+source-wordcount: '322'
+ht-degree: 97%
 ---
-
 # Audience Manager の概要 {#audience-manager-overview}
 
-Audience Manager は、オーディエンスデータアセットを 1 つにまとめるのに役立ちます。それにより、サイト訪問者について商業的に関連性のある情報の収集や、マーケティング用のセグメントの作成および適切なオーディエンスをターゲットにした広告やコンテンツの提供が容易になります。さらに、堅牢なデータ収集機能、制御機能および保護機能を備えており、タグの導入および管理も簡単です。
+Audience Manager は、オーディエンスデータアセットを 1 つにまとめるのに役立ちます。それにより、サイト訪問者について商業的に関連性のある情報の収集や、マーケティング用のセグメントの作成および適切なオーディエンスをターゲットにした広告やコンテンツの提供が容易になります。 さらに、堅牢なデータ収集機能、制御機能および保護機能を備えており、タグの導入および管理も簡単です。
 
-Audience Manager を利用すると、データ販売者、エクスチェンジ、または需要側プラットフォームに縛られることがありません。また、ユーザーのパートナーのデータアセットに関しては、Audience Manager はまったく関知しません。複数のデータソースにアクセスできる Audience Manager を使用すると、デジタルパブリッシャーは幅広いサードパーティデータを使用できます。 アドビのパートナーソリューションチームが、ターゲットオーディエンスに関する正確かつ賢明な意思決定を行えるようお手伝いします。
+Audience Manager を利用すると、データ販売者、エクスチェンジ、または需要側プラットフォームに縛られることがありません。 また、ユーザーのパートナーのデータアセットに関しては、Audience Manager はまったく関知しません。 複数のデータソースにアクセスできる Audience Manager を使用すると、デジタルパブリッシャーは幅広いサードパーティデータを使用できます。 アドビのパートナーソリューションチームが、ターゲットオーディエンスに関する正確かつ賢明な意思決定を行えるようお手伝いします。
 
-## DMP（データ管理プラットフォーム）の 3 つの機能  {#dmp-three-functions}
+## DMP（データ管理プラットフォーム）の 3 つの機能 {#dmp-three-functions}
 
 DMP（データ管理プラットフォーム）の機能は、次のように 3 つのカテゴリにまとめることができます。
 
@@ -41,7 +50,7 @@ Audience Manager は、チャネルとデバイス（Web 分析、CRM、デバ�
 
 **オーディエンスの作成**
 
-データをオーディエンスプロファイルに統合し、デバイスやチャネルをまたいだ顧客の全体像を提供します。類似モデルを作成、オーディエンスセグメントとプロファイルのグループを構築し、セカンドパーティとサードパーティのデータソースで補完します。
+データをオーディエンスプロファイルに統合し、デバイスやチャネルをまたいだ顧客の全体像を提供します。 類似モデルを作成、オーディエンスセグメントとプロファイルのグループを構築し、セカンドパーティとサードパーティのデータソースで補完します。
 
 **データ出力**
 
@@ -51,9 +60,9 @@ Audience Manager は、チャネルとデバイス（Web 分析、CRM、デバ�
 
 詳しくは、次のリソースを参照してください。
 
-* [Audience Manager の概要](https://www.adobe.com/jp/analytics/audience-manager.html)
-* [Audience Manager のメリット](https://www.adobe.com/jp/analytics/audience-manager/benefits.html)
-* [Audience Manager の機能](https://www.adobe.com/jp/analytics/audience-manager/features.html)
+* [Audience Managerの概要](https://www.adobe.com/jp/analytics/audience-manager.html)
+* [Audience Managerの利点](https://www.adobe.com/jp/analytics/audience-manager/benefits.html)
+* [Audience Managerの機能](https://www.adobe.com/jp/analytics/audience-manager/features.html)
 
 
 <!--

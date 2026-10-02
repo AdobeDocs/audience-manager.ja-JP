@@ -4,20 +4,26 @@ solution: Audience Manager
 title: インバウンドファイルに対するAmazon S3のクロスアカウントバケット権限を活用する
 feature: Inbound Data Transfers
 exl-id: 56ecea5a-0621-4720-9e4c-f9086294c31f
-TQID: https://experienceleague.adobe.com/DR-nafoDKl-1VPK2xwq-iqpwkuTYk2nN3ywOycVJ3jM
+TQID: 'https://experienceleague.adobe.com/DR-nafoDKl-1VPK2xwq-iqpwkuTYk2nN3ywOycVJ3jM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '200'
 ht-degree: 0%
-
 ---
-
 # インバウンドファイルに対するAmazon S3のクロスアカウントバケット権限を活用する {#leverage-amazon-s-cross-account-bucket-permissions-for-your-inbound-files}
 
 独自のAmazon S3 バケットからAudience Managerにデータを送信するには、まず専用のAmazon S3 ロールの設定をリクエストする必要があります。
@@ -30,6 +36,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->インバウンドデータをAudience Manager Amazon S3 バケットに転送する場合は、Audience Mangerがデータを正しく処理するために、`bucket-owner-full-control` [&#x200B; アクセス制御リスト &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html)を使用してください。
+>インバウンドデータをAudience Manager Amazon S3 バケットに転送する場合は、Audience Mangerがデータを正しく処理するために、`bucket-owner-full-control` [ アクセス制御リスト ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html)を使用してください。
 >
 >Amazon Web Services コマンドの例：`aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`

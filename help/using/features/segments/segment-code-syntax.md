@@ -1,5 +1,5 @@
 ---
-description: セグメントビルダーでは、コードエディターを使用して、セグメント用の特性ルールを作成できます。Traits パネルの「Segment Expressions (Code View)」タブをクリックすると、この機能にアクセスできます。
+description: セグメントビルダーでは、コードエディターを使用して、セグメント用の特性ルールを作成できます。 Traits パネルの「Segment Expressions (Code View)」タブをクリックすると、この機能にアクセスできます。
 seo-description: Segment Builder lets you build trait rules for a segment using a code editor. Click the Segment Expressions (Code View) tab in the Traits panel to access this feature.
 seo-title: Code Syntax Used in the Segment Expression Editor
 solution: Audience Manager
@@ -7,23 +7,28 @@ title: セグメント式エディターで使用するコード構文
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
-TQID: https://experienceleague.adobe.com/cJKsvcP-dZ05ojGgbn2ni-wFMFfiObuIWwaRP0-HWFQ
+TQID: 'https://experienceleague.adobe.com/cJKsvcP-dZ05ojGgbn2ni-wFMFfiObuIWwaRP0-HWFQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 297
-ht-degree: 100%
-
+source-wordcount: '299'
+ht-degree: 92%
 ---
-
 # セグメント式エディターで使用するコード構文 {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] では、コードエディターを使用して、セグメント用の特性ルールを作成できます。**[!UICONTROL Segment Expressions (Code View)]** パネルの[!UICONTROL Traits]タブをクリックすると、この機能にアクセスできます。
+[!UICONTROL Segment Builder] では、コードエディターを使用して、セグメント用の特性ルールを作成できます。 **[!UICONTROL Segment Expressions (Code View)]** パネルの[!UICONTROL Traits]タブをクリックすると、この機能にアクセスできます。
 
 ## 式ビルダーのコード構文
 
-ドラッグアンドドロップ機能の代わりにコードを使用して特性ルールをセグメントに追加することができます。コードの作成時には、例の斜体の要素を実際の式や値に置き換えます。ベースのコードでは次の構文を使用しています。
+ドラッグアンドドロップ機能の代わりにコードを使用して特性ルールをセグメントに追加することができます。 コードの作成時には、例の斜体の要素を実際の式や値に置き換えます。 ベースのコードでは次の構文を使用しています。
 
 ```
 FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
@@ -47,13 +52,13 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 | 名前または変数 | 説明 |
 |---|---|
 | `FREQUENCY` | 式の前に配置する必要がある文字列。 |
-| `[`&lt;`traitID`>`T]` | 特性 ID の末尾に「`T`」を付加した文字列の配列。複数の特性がある場合、コンマで区切ります。例：`[123T, 456T]` |
-| `<Recency Operator><Numeric Value>D` | *（オプション）*&#x200B;セグメントの特性に関する最新性ルールを設定します。「`D`」は最新性を日数単位で表していることを示します。 |
+| `[`&lt;`traitID`>`T]` | 特性 ID の末尾に「`T`」を付加した文字列の配列。 複数の特性がある場合、コンマで区切ります。 例：`[123T, 456T]` |
+| `<Recency Operator><Numeric Value>D` | *（オプション）*&#x200B;セグメントの特性に関する最新性ルールを設定します。 「`D`」は最新性を日数単位で表していることを示します。 |
 | `<Frequency Operator><Numeric Value>` | セグメントの特性に関する頻度ルールを設定します。 |
 
 ### 使用可能な最新性演算子と頻度演算子
 
-[最新性と頻度](../../features/segments/recency-and-frequency.md)の間隔を、比較演算子と整数で設定します。[!UICONTROL Segment Builder] では、&lt;（次より小さい）、>（次より大きい）、==（次と等しい）などの標準的な式が使用されます。ただし、設定時に使用できる演算子の種類は最新性と頻度で異なります。次の表は、使用可能な最新性演算子と頻度演算子です。
+[最新性と頻度](../../features/segments/recency-and-frequency.md)の間隔を、比較演算子と整数で設定します。 [!UICONTROL Segment Builder]は、&lt; （より小さい）、> （より大きい）、== （等しい）などの標準的な式を使用します。ただし、許可される演算子の種類は、最新性または頻度を設定する場合によって異なります。 次の表は、使用可能な最新性演算子と頻度演算子です。
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 

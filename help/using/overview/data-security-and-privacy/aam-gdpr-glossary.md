@@ -7,72 +7,80 @@ title: GDPR の用語集
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-TQID: https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM
+TQID: 'https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 100%
-
+source-wordcount: '697'
+ht-degree: 91%
 ---
-
 # GDPR の用語集 {#gdpr-glossary}
 
 ## 概要 {#overview}
 
 この記事では、欧州一般データ保護規則（GDPR）で使用される概念と用語、および Adobe Audience Manager をデータ処理者として使用する場合に GDPR の様々な要件に対処する方法について説明します。
 
-GDPR は 2018 年 5 月 25 日（PT）に施行された法律で、その第一の目的は、EU 内の個人（データ主体）が個人データをコントロールする権利を取り戻すこと、および EU 域内の規則を統合することで、国際的なビジネスのための規制環境を簡潔にすることです。GDPR への対応の一環として Adobe Audience Manager では、消費者であるデータ主体からのアクセス要求や削除要求をサポートするために、必要なサービスおよびプロセスの機能拡張をおこないました。
+GDPR は 2018 年 5 月 25 日（PT）に施行された法律で、その第一の目的は、EU 内の個人（データ主体）が個人データをコントロールする権利を取り戻すこと、および EU 域内の規則を統合することで、国際的なビジネスのための規制環境を簡潔にすることです。 GDPR への対応の一環として Adobe Audience Manager では、消費者であるデータ主体からのアクセス要求や削除要求をサポートするために、必要なサービスおよびプロセスの機能拡張をおこないました。
 
 また、[プライバシー規制の概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja)で GDPR についても一読し、Experience Cloud での GDPR の仕組みへの理解を深めてください。
 
 ## GDPR の用語集 {#gdpr-glossay}
 
-GDPR に関連して使用されるキーワードを確認しましょう。よく使用される用語の一部がここに挙げられています。
+GDPR に関連して使用されるキーワードを確認しましょう。 よく使用される用語の一部がここに挙げられています。
 
  
 
-**データ管理者：** GDPR では「管理者」を「単独でまたは他と共同して、個人データの処理の目的および手段を決定する…法人…。」と定義しています。Audience Manager をご利用のお客様はデータ管理者となります。お客様は Audience Manager でのデータの管理方法を制御します。
+**データ管理者：** GDPRでは、「管理者」を「個人データの処理の目的と手段を単独または他の人と共同で決定する法人」と定義しています。 Audience Managerをご利用のお客様は、データ管理者となります。 お客様は Audience Manager でのデータの管理方法を制御します。
 
  
 
-**データ処理者：**「処理者」とは、「管理者のために個人データを処理する…法人…」です。Audience Manager のコンテキストでは、アドビは、サービスを運用する際、Audience Manager を介し、コントローラーに代わって処理する個人データの「データ処理者」として機能します。アドビは、データ管理者の指示に従って（お客様との契約書に記載されているとおり、または Audience Manager で行われたアクションを通じて）のみ、個人データを処理します。
+**データ処理者：**「処理者」とは、「管理者のために個人データを処理する…法人…」です。 Audience Manager のコンテキストでは、アドビは、サービスを運用する際、Audience Manager を介し、コントローラーに代わって処理する個人データの「データ処理者」として機能します。 アドビは、データ管理者の指示に従って（お客様との契約書に記載されているとおり、または Audience Manager で行われたアクションを通じて）のみ、個人データを処理します。
 
  
 
-**データ主体：**&#x200B;個人データが関連付けられる個人。Audience Manager では、データ主体とは Audience Manager をご利用のお客様に対する消費者またはエンドユーザーとなります。データ主体からアドビに対して直接要求が送られた場合、これらの要求はそれぞれ Audience Manager のお客様に転送されます。
+**データ主体：**&#x200B;個人データが関連付けられる個人。 Audience Manager では、データ主体とは Audience Manager をご利用のお客様に対する消費者またはエンドユーザーとなります。 データ主体からアドビに対して直接要求が送られた場合、これらの要求はそれぞれ Audience Manager のお客様に転送されます。
 
  
 
-**同意：**&#x200B;同意とは、「声明または明らかに積極的な行為により、その者が同人に関する個人データの処理への同意を表明することによって、データ主体の自由になされた特定の十分に情報を知らされたうえでの明確な意思表示」を意味します。同意を得ることはデータ管理者の責務となります。アドビが Audience Manager を通して同意を得ることはありません。
+**同意：**&#x200B;同意とは、「声明または明らかに積極的な行為により、その者が同人に関する個人データの処理への同意を表明することによって、データ主体の自由になされた特定の十分に情報を知らされたうえでの明確な意思表示」を意味します。 同意を得ることはデータ管理者の責務となります。アドビが Audience Manager を通して同意を得ることはありません。
 
  
 
-**アクセス：**&#x200B;データ主体はデータ管理者に対して、自身の個人データを処理しているかを確認できる権利があります。データ管理者がデータ主体の個人データを処理していた場合、データ管理者はデータ主体に対し、個人データへのアクセスを許可し、コピーを提供する義務があります。データ主体からのアクセス要求に関し、データ管理者はアドビのサポートを得ることができます。
+**アクセス：**&#x200B;データ主体はデータ管理者に対して、自身の個人データを処理しているかを確認できる権利があります。 データ管理者がデータ主体の個人データを処理していた場合、データ管理者はデータ主体に対し、個人データへのアクセスを許可し、コピーを提供する義務があります。 データ主体からのアクセス要求に関し、データ管理者はアドビのサポートを得ることができます。
 
  
 
-**削除：** GDPR では「忘れられる権利」すなわち「消去権」が明文化されています。データ主体はデータ管理者に対して、自身の個人データの消去を要求できます。データ管理者はアドビなどの処理者と連携して、データ主体からの削除要求に対応します。
+**削除：** GDPRは「忘れられる権利」または「消去する権利」の概要を示します。 データ主体は、データ管理者に個人データの消去を要求する権利を有します。 データ管理者はアドビなどの処理者と連携して、データ主体からの削除要求に対応します。
 
  
 
-**修正：**&#x200B;データ主体はデータ管理者に対して、不正確な個人データの訂正を要求できます。データ管理者はアドビなどの処理者と連携して、データ主体からの修正要求に対応します。
+**修正：**&#x200B;データ主体はデータ管理者に対して、不正確な個人データの訂正を要求できます。 データ管理者はアドビなどの処理者と連携して、データ主体からの修正要求に対応します。
 
  
 
-**Audience Manager 識別子（ID）：** Adobe Audience Manager は様々な種類の ID を保存します。[Audience Manager 識別子](data-privacy-ids.md)ページには、これらの ID の概要、対応するデータソースおよび簡単な説明が記載されています。[Adobe Experience Platform プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)にリクエストを送信する場合は、これらの ID を参照して、データ主体の削除やアクセスのリクエストを行います。
+**Audience Manager 識別子（ID）：** Adobe Audience Manager は様々な種類の ID を保存します。 [Audience Manager 識別子](data-privacy-ids.md)ページには、これらの ID の概要、対応するデータソースおよび簡単な説明が記載されています。 [Adobe Experience Platform プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)にリクエストを送信する場合は、これらの ID を参照して、データ主体の削除やアクセスのリクエストを行います。
 
  
 
-**個人データ：** GDPR では、個人データの定義が拡大されています。GDPR では、お客様の使用目的によっては Audience Manager が扱うすべてのデータが個人データとして分類されます。
+**個人データ：** GDPR では、個人データの定義が拡大されています。 GDPR では、お客様の使用目的によっては Audience Manager が扱うすべてのデータが個人データとして分類されます。
 
  
 
-**禁止データ：** Audience Manager では、個人が直接特定できる情報をお客様が取り込むことを禁止しています。これには姓名、電子メール ID、CRM ID など、個人を直接特定するために使用できる情報が含まれます。Adobe Experience Cloud ソリューションでは、機密情報の取り扱いも禁止されています。これらの要件の詳細については、アドビと交わされた契約書を参照してください。このような種類のデータポイントを Audience Manager に取り込む必要がある場合は、事前にアドビのコンサルタントチームにお問い合わせのうえ、これらの ID のハッシュ化についてご相談ください。
+**禁止データ：** Audience Manager では、個人が直接特定できる情報をお客様が取り込むことを禁止しています。これには姓名、電子メール ID、CRM ID など、個人を直接特定するために使用できる情報が含まれます。 Adobe Experience Cloud ソリューションでは、機密情報の取り扱いも禁止されています。 これらの要件の詳細については、アドビと交わされた契約書を参照してください。 このような種類のデータポイントを Audience Manager に取り込む必要がある場合は、事前にアドビのコンサルタントチームにお問い合わせのうえ、これらの ID のハッシュ化についてご相談ください。

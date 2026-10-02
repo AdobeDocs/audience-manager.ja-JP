@@ -7,51 +7,58 @@ title: データ書き出しコントロール
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-TQID: https://experienceleague.adobe.com/Ycw7xN2n0gErtYP6g7nJCitz6b-qDdTQ73x0lqcGWaM
+TQID: 'https://experienceleague.adobe.com/Ycw7xN2n0gErtYP6g7nJCitz6b-qDdTQ73x0lqcGWaM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: '889'
 ht-degree: 100%
-
 ---
-
 # データ書き出しコントロール {#data-export-controls}
 
 宛先へのデータ送信がデータプライバシーやデータ使用契約に違反する場合、[!UICONTROL Data Export Controls] はデータを送信できなくします。
 
 ## 概要 {#overview}
 
-[!UICONTROL Data Export Controls]を使用すれば、[データソース](../features/datasources-list-and-settings.md#data-sources-list-and-settings)と[宛先](../features/destinations/destinations.md)を分類することができます。適用する分類によって、データを宛先に書き出せる場合または書き出せない場合が決まります。この機能は、以下で構成されます。
+[!UICONTROL Data Export Controls]を使用すれば、[データソース](../features/datasources-list-and-settings.md#data-sources-list-and-settings)と[宛先](../features/destinations/destinations.md)を分類することができます。 適用する分類によって、データを宛先に書き出せる場合または書き出せない場合が決まります。 この機能は、以下で構成されます。
 
-* **[!UICONTROL Data Export Controls]**：*データソース*&#x200B;に対してデータ書き出しコントロールを設定できます。データソースに対して設定すると、これらのコントロールがデータソースおよびその特性の使用方法を制限します。
-* **[!UICONTROL Data Export Labels]**：*宛先*&#x200B;に対してデータの書き出しラベルを設置できます。宛先に対して設定すると、宛先でのデータの使用方法がこれらのラベルで識別されます。宛先へのラベルの書き出し方法について詳しくは、[宛先へのデータ書き出しラベルの追加](/help/using/features/destinations/add-data-export-labels.md)を参照してください。
+* **[!UICONTROL Data Export Controls]**：*データソース*&#x200B;に対してデータ書き出しコントロールを設定できます。 データソースに対して設定すると、これらのコントロールがデータソースおよびその特性の使用方法を制限します。
+* **[!UICONTROL Data Export Labels]**：*宛先*&#x200B;に対してデータの書き出しラベルを設置できます。 宛先に対して設定すると、宛先でのデータの使用方法がこれらのラベルで識別されます。 宛先へのラベルの書き出し方法について詳しくは、[宛先へのデータ書き出しラベルの追加](/help/using/features/destinations/add-data-export-labels.md)を参照してください。
 
 データソースおよび宛先に適用した分類に基づいて、書き出しコントロールは以下の操作を防止します。
 
 * セグメントがマッピングされている 1 つ以上の宛先で、データ書き出しラベルと互換性がないデータ書き出しコントロールを使用するデータソースに特性が属している場合、特性をセグメントに追加します。
-例えば、あるセグメントが、書き出しラベル「**[!DNL This destination may enable a combination with personally identifiable information (PII)]**」を使用して宛先にマッピングされるとします。特性が属するデータソースが「**[!DNL Cannot be tied to personally identifiable information (PII)]**」というラベルの付いたデータ書き出しコントロールを使用している場合、書き出しコントロールは、そのセグメントへの特性の追加を停止します。
+例えば、あるセグメントが、書き出しラベル「**[!DNL This destination may enable a combination with personally identifiable information (PII)]**」を使用して宛先にマッピングされるとします。 特性が属するデータソースが「**[!DNL Cannot be tied to personally identifiable information (PII)]**」というラベルの付いたデータ書き出しコントロールを使用している場合、書き出しコントロールは、そのセグメントへの特性の追加を停止します。
 * 次のいずれかの場合、データ書き出しコントロールでブロックされている、データ書き出しラベルが付いた宛先へのデータの送信
-   * 含まれる特性のデータソース。
-   * 含まれるセグメントで使用される特性のデータソース。
-   * 含まれるセグメントで使用されるプロファイル結合ルール。
-   * 含まれるセグメントのプロファイル結合ルールに使用されるデータソース。
+  * 含まれる特性のデータソース。
+  * 含まれるセグメントで使用される特性のデータソース。
+  * 含まれるセグメントで使用されるプロファイル結合ルール。
+  * 含まれるセグメントのプロファイル結合ルールに使用されるデータソース。
 
-[!UICONTROL Data Export Controls] は、すべての Audience Manager ユーザーに対して自動的に使用できます。ただし、書き出しコントロールをデータソースに追加するには、管理者権限が必要です。書き出しラベルを宛先に追加するには、管理者権限&#x200B;*または*&#x200B;宛先を作成または編集するための十分な権限が必要です。
+[!UICONTROL Data Export Controls] は、すべての Audience Manager ユーザーに対して自動的に使用できます。 ただし、書き出しコントロールをデータソースに追加するには、管理者権限が必要です。 書き出しラベルを宛先に追加するには、管理者権限&#x200B;*または*&#x200B;宛先を作成または編集するための十分な権限が必要です。
 
 ## コントロールおよびラベルの定義 {#controls-labels}
 
 [!UICONTROL Data Export Controls]は、データソースおよび宛先を分類するのに役立つ、以下のコントロールを提供します。
 
-データ配信をブロックするには、書き出しコントロールを使用してデータソースを分類し、書き出しラベルを宛先に追加する必要があります。書き出しコントロールをデータソースまたは宛先のみに適用する場合、この機能は、データ配信を制限しません。データソース&#x200B;*と*&#x200B;宛先の両方に設定すると、書き出しコントロールは、セグメントに追加できる特性を制限し、セグメントのメンバーが宛先に送信されないようにします。
+データ配信をブロックするには、書き出しコントロールを使用してデータソースを分類し、書き出しラベルを宛先に追加する必要があります。 書き出しコントロールをデータソースまたは宛先のみに適用する場合、この機能は、データ配信を制限しません。 データソース&#x200B;*と*&#x200B;宛先の両方に設定すると、書き出しコントロールは、セグメントに追加できる特性を制限し、セグメントのメンバーが宛先に送信されないようにします。
 
-また、データ配信制限を有効にする前に、少なくとも 1 つの書き出しラベルが書き出しコントロールに一致する必要があります。例えば、[!UICONTROL PII] 書き出しコントロールをデータソースに追加するとします。次に、オンサイトでのターゲティングラベルを宛先に追加します。この場合、書き出しコントロールは、設定が一致しないので、データ配信を制限しません。ただし、[!UICONTROL PII] 書き出しラベルを宛先に追加した場合は、書き出しコントロールが機能します。
+また、データ配信制限を有効にする前に、少なくとも 1 つの書き出しラベルが書き出しコントロールに一致する必要があります。 例えば、[!UICONTROL PII] 書き出しコントロールをデータソースに追加するとします。 次に、オンサイトでのターゲティングラベルを宛先に追加します。 この場合、書き出しコントロールは、設定が一致しないので、データ配信を制限しません。 ただし、[!UICONTROL PII] 書き出しラベルを宛先に追加した場合は、書き出しコントロールが機能します。
 
 >[!IMPORTANT]
 >
@@ -61,7 +68,7 @@ ht-degree: 100%
 > * セグメントで使用されるプロファイル結合ルール。
 > * セグメントのプロファイル結合ルールで使用されるデータソース。
 
- <br>
+<br> 
 
 <table id="table_7D1F0270B5604A82B96A13CC49C937C0"> 
  <thead> 
@@ -118,7 +125,7 @@ ht-degree: 100%
 
 ## ワークフロー {#workflow}
 
-開始するには、データソースおよび宛先のドキュメントを確認します。これらの記事では、書き出しコントロールおよびラベルのデータソースおよび宛先への追加方法を説明しています。
+開始するには、データソースおよび宛先のドキュメントを確認します。 これらの記事では、書き出しコントロールおよびラベルのデータソースおよび宛先への追加方法を説明しています。
 
 * [データソースの作成](../features/manage-datasources.md#create-data-source)
 * [宛先へのデータ書き出しラベルの追加](../features/destinations/add-data-export-labels.md)

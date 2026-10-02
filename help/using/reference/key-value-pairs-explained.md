@@ -4,23 +4,25 @@ keywords: 統合コード
 seo-description: Defines and describes standard and serialized key-value pairs.
 seo-title: Key-Value Pairs Explained
 solution: Audience Manager
-title: 'キーと値のペアの解説 '
+title: キーと値のペアの解説
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: Reference
 exl-id: de4e6fdb-2d6d-4fed-9255-9438b42b2570
-TQID: https://experienceleague.adobe.com/6rXUarJT3GqTxNw6NuwivkSai1Rpf63sILAJ7oPJdXg
+TQID: 'https://experienceleague.adobe.com/6rXUarJT3GqTxNw6NuwivkSai1Rpf63sILAJ7oPJdXg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 268
+source-wordcount: '293'
 ht-degree: 98%
-
 ---
-
-# キーと値のペアの解説 {#key-value-pairs-explained}
+# キーと値のペアの解説{#key-value-pairs-explained}
 
 標準のキー値ペアとシリアル化されたキー値ペアを定義し説明します。
 
@@ -30,7 +32,7 @@ c_key_value_explained.xml
 
  -->
 
-キー値ペアは 2 つの関連するデータ要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。完全形式のキー値ペアは、次のようになります。
+キー値ペアは 2 つの関連するデータ要素（キーと値）で構成されます。キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。 完全形式のキー値ペアは、次のようになります。
 
 * `gender = male`
 * `color = green`
@@ -38,7 +40,7 @@ c_key_value_explained.xml
 
 ## 標準およびシリアル化されたキー値ペア {#standard-serialized-pairs}
 
-宛先はキーと値のデータを *`standard`* または *`serialized`* 形式で受け取ります。標準形式では、データを個別のキー値ペアに編成します。各キーは、明示的に指定されます（異なる値を定義するために再利用される場合でも）。それに対して、シリアル化形式では、複数の値を単一のキーで定義された 1 つのセットにまとめます。また、シリアル化されたペアでは、キー値セット内で値を区切るために、特別なインジケーターが使用されます。最後に、標準およびシリアル化されたキー値には、単一または複数の値を含めることができます。標準およびシリアル化されたキー値形式の例を次の表に示します。
+宛先はキーと値のデータを *`standard`* または *`serialized`* 形式で受け取ります。 標準形式では、データを個別のキー値ペアに編成します。 各キーは、明示的に指定されます（異なる値を定義するために再利用される場合でも）。 それに対して、シリアル化形式では、複数の値を単一のキーで定義された 1 つのセットにまとめます。 また、シリアル化されたペアでは、キー値セット内で値を区切るために、特別なインジケーターが使用されます。 最後に、標準およびシリアル化されたキー値には、単一または複数の値を含めることができます。 標準およびシリアル化されたキー値形式の例を次の表に示します。
 
 | フォーマット | 単一キー | キー値ペア |
 |---|---|---|
@@ -49,7 +51,7 @@ c_key_value_explained.xml
 
 ## キー、デリミター、区切り記号 {#keys-delimiters-separators}
 
-シリアル化データを扱う場合、キー値ペア&#x200B;*内*&#x200B;およびキー値ペア&#x200B;*間*&#x200B;の値を区切る文字を指定する必要があります。キー値ペアの要素は、次のように定義されます。
+シリアル化データを扱う場合、キー値ペア&#x200B;*内*&#x200B;およびキー値ペア&#x200B;*間*&#x200B;の値を区切る文字を指定する必要があります。 キー値ペアの要素は、次のように定義されます。
 
 * **キー：**&#x200B;キー値ペア内の一意の ID。
 * **値デリミター：**&#x200B;個々のキー値ペアを区切ります。

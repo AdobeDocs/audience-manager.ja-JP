@@ -1,5 +1,5 @@
 ---
-description: オンボーディングステータスレポートは、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、Analytics／Onboarding Status Report からアクセスできます。また、受信データソースの作成時にも、このレポートが使用可能です。
+description: オンボーディングステータスレポートは、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。 このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。 さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。 このレポートは、Analytics／Onboarding Status Report からアクセスできます。 また、受信データソースの作成時にも、このレポートが使用可能です。
 seo-description: The Onboarding Status Report checks success and failure rates for processing records in your inbound data source files. This report displays data in an interactive bar chart and provides summary metrics in tabular form. And, it includes an option that samples files for a fixed time interval and displays the most common errors for each error type. You can find this report in Analytics > Onboarding Status Report. This report is also available when you create an inbound data source.
 seo-title: Onboarding Status Report
 solution: Audience Manager
@@ -7,36 +7,43 @@ title: オンボーディングステータスレポート
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: Inbound and Outbound Reports
 exl-id: 4517276f-5025-4779-917f-4a0bb22ca56c
-TQID: https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0
+TQID: 'https://experienceleague.adobe.com/rr4au-Xp8a3cj5tUTsRYkS8TFlHOV2IbkfZU4enk2e0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: bacaf04d-fec1-4cf9-a97e-cb1b36e40b07
+    internal-label: Inbound and outbound reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Troubleshooting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1421
+source-wordcount: '1429'
 ht-degree: 92%
-
 ---
-
 # オンボーディングステータスレポート{#onboarding-status-report-about}
 
-オンボーディングステータスレポートは、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、Analytics／Onboarding Status Report からアクセスできます。また、受信データソースの作成時にも、このレポートが使用可能です。
+オンボーディングステータスレポートは、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。 このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。 さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。 このレポートは、Analytics／Onboarding Status Report からアクセスできます。 また、受信データソースの作成時にも、このレポートが使用可能です。
 
 >[!NOTE]
 >
->Audience Manager ユーザーインターフェイスでこのレポートを表示できるのは、管理者権限を持つユーザーのみです。管理者以外のユーザーの電子メールをレポートに追加すれば、アップロードした受信ファイルのステータスを受信者以外のユーザーに通知することができます。[電子メール通知の受信](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)を参照してください。
+>Audience Manager ユーザーインターフェイスでこのレポートを表示できるのは、管理者権限を持つユーザーのみです。 管理者以外のユーザーの電子メールをレポートに追加すれば、アップロードした受信ファイルのステータスを受信者以外のユーザーに通知することができます。 [電子メール通知の受信](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)を参照してください。
 
 ## オンボーディングステータスレポートについて {#onboarding-status-about}
 
-[!UICONTROL Onboarding Status Report]は、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。このレポートは、**[!UICONTROL Analytics > Onboarding Status Report]**&#x200B;で確認できます。また、受信データソースの作成時にも、このレポートが使用可能です。
+[!UICONTROL Onboarding Status Report]は、受信データソースファイルに格納されているレコードの処理の成功率と失敗率を表示します。 このレポートでは、データがインタラクティブな棒グラフで表示され、概要指標が表形式で表示されます。 さらに、特定期間のファイルをサンプリングし、エラータイプごとに最も一般的なエラーを表示することも可能です。 このレポートは、**[!UICONTROL Analytics > Onboarding Status Report]**&#x200B;で確認できます。 また、受信データソースの作成時にも、このレポートが使用可能です。
 
 ## エラーレポートとエラーサンプリング {#error-reporting-sampling}
 
@@ -52,24 +59,24 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>エラーレポート</b> </p> </td>
-   <td colname="col2"> <p>エラーレポートには、受信データソースで処理されたレコード数に対する成功率と失敗率が表示されます。このレポートでは、データがインタラクティブな積み重ね棒グラフとして返され、さらにグラフの下に概要指標の表が記載されます。 </p> <p>エラーレポートは自動的に作成されます。このレポートはすべての受信データソースに対して継続的に実行されます。返されるデータは、あらかじめ設定された時間間隔の範囲、またはカレンダーウィジェットから設定されたカスタム時間間隔に基づいています。 </p> </td> 
+   <td colname="col2"> <p>エラーレポートには、受信データソースで処理されたレコード数に対する成功率と失敗率が表示されます。 このレポートでは、データがインタラクティブな積み重ね棒グラフとして返され、さらにグラフの下に概要指標の表が記載されます。 </p> <p>エラーレポートは自動的に作成されます。 このレポートはすべての受信データソースに対して継続的に実行されます。 返されるデータは、あらかじめ設定された時間間隔の範囲、またはカレンダーウィジェットから設定されたカスタム時間間隔に基づいています。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>エラーサンプリング</b> </p> </td>
-   <td colname="col2"> <p>エラーサンプリングでは、データファイルのコンテンツが解析され、エラータイプごとに最も多いエラーの上位 10 件が返されます。受信データファイルでエラーが発生すると、個別のレコードが処理されなくなります。このレポートをトラブルシューティングツールとして活用すると、ファイルエラーを減らし、処理率を向上させることができます。 </p> <p>エラーサンプリングは手動でアクティブ化する必要があります。この機能はアクティブ化から 14 日間実行され、自動的に終了します。エラーサンプリングは、14 日間の有効期間が終了した後で、再度アクティブ化することができます。エラーサンプリングは、<a href="../features/manage-datasources.md#create-data-source">がインバウンドデータソース </a>を作成する場合、または既存のインバウンドデータソースの「<b><span class="uicontrol"> Data Source Settings</span></b>」セクションの「<span class="wintitle"> Error Sampling</span>」チェックボックスをオンにする場合にアクティブになります。 </p> <p>エラーサンプリングは計算負荷の高い処理です。そのため、エラーカテゴリごとに最初の 10 件のエラーのみが返されます。受信データソースに含まれるすべてのエラーが返されるようには設計されていません。これらのエラーは、同様のエラーの大きなグループの代表例です。ファイル全体を確認して、このレポートでフラグが設定されているエラーの種類を調べ、ファイルの形式を変更してから、もう一度送信します。 </p> <p>受信データソースのデータファイルを適切にフォーマットする方法について詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルの内容：構文、変数、および例</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>エラーサンプリングでは、データファイルのコンテンツが解析され、エラータイプごとに最も多いエラーの上位 10 件が返されます。 受信データファイルでエラーが発生すると、個別のレコードが処理されなくなります。 このレポートをトラブルシューティングツールとして活用すると、ファイルエラーを減らし、処理率を向上させることができます。 </p> <p>エラーサンプリングは手動でアクティブ化する必要があります。 この機能はアクティブ化から 14 日間実行され、自動的に終了します。 エラーサンプリングは、14 日間の有効期間が終了した後で、再度アクティブ化することができます。 エラーサンプリングは、<a href="../features/manage-datasources.md#create-data-source">がインバウンドデータソース </a>を作成する場合、または既存のインバウンドデータソースの「<span class="wintitle"> Data Source Settings</span>」セクションの「<b><span class="uicontrol"> Error Sampling</span></b>」チェックボックスをオンにする場合にアクティブになります。 </p> <p>エラーサンプリングは計算負荷の高い処理です。 そのため、エラーカテゴリごとに最初の 10 件のエラーのみが返されます。 受信データソースに含まれるすべてのエラーが返されるようには設計されていません。 これらのエラーは、同様のエラーの大きなグループの代表例です。 ファイル全体を確認して、このレポートでフラグが設定されているエラーの種類を調べ、ファイルの形式を変更してから、もう一度送信します。 </p> <p>受信データソースのデータファイルを適切にフォーマットする方法について詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md">受信データファイルの内容：構文、変数、および例</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## エラーレポートの棒グラフ {#error-report-bar-chart}
 
-エラーレポートには、レコード処理の成功率と失敗率が、次の例のように積み重ね棒グラフで表示されます。このグラフはインタラクティブです。バーをクリックすると、グラフの下に当日の概要指標が表形式で表示されます。
+エラーレポートには、レコード処理の成功率と失敗率が、次の例のように積み重ね棒グラフで表示されます。 このグラフはインタラクティブです。 バーをクリックすると、グラフの下に当日の概要指標が表形式で表示されます。
 
 ![](assets/stacked-graph.png)
 
 ## エラーレポートの表 {#error-report-tables}
 
-エラーレポートでは、棒グラフの下に表形式のデータが表示されます。この表は、成功率と失敗率に加えて、合計と割合が表示されます。
+エラーレポートでは、棒グラフの下に表形式のデータが表示されます。 この表は、成功率と失敗率に加えて、合計と割合が表示されます。
 
 **Successful and Failed Records**
 
@@ -85,23 +92,23 @@ ht-degree: 92%
 
 ## 14日間のエラーサンプリングレポート {#error-reporting-14-days}
 
-エラーサンプリングをアクティブにすると、レポートにはエラータイプごとに上位 10 件のエラーが表示されます。レポートの上部にあるエラータイプボタンをクリックすると、サンプリングされたデータのそれぞれの組が表示されます。
+エラーサンプリングをアクティブにすると、レポートにはエラータイプごとに上位 10 件のエラーが表示されます。 レポートの上部にあるエラータイプボタンをクリックすると、サンプリングされたデータのそれぞれの組が表示されます。
 
 >[!NOTE]
 >
->現在のリリースでは、レポートでレコードエラーはハイライト表示されません。ファイルのエラーを検出および修正するには、結果を確認して、[受信データファイルのコンテンツ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)ドキュメントに記載されている仕様と比較します。
+>現在のリリースでは、レポートでレコードエラーはハイライト表示されません。 ファイルのエラーを検出および修正するには、結果を確認して、[受信データファイルのコンテンツ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)ドキュメントに記載されている仕様と比較します。
 
 ![](assets/error-samples.png)
 
 ## 電子メール通知の受信 {#receive-email-notifications}
 
-アップロードされたインバウンドファイルのステータスの通知先となる受信者の電子メールアドレスを追加することができます。データソースごとに異なる受信者を選択できます。
+アップロードされたインバウンドファイルのステータスの通知先となる受信者の電子メールアドレスを追加することができます。 データソースごとに異なる受信者を選択できます。
 
 ![](assets/mail-notifications.png)
 
 ## オンボーディングステータスレポートの作成 {#create-onboard-status-report}
 
-[!UICONTROL Sample Error Report]は、データソースのレコードのうち、正常に処理されたものと失敗したものの数を返します。次の手順に従って、[!UICONTROL Sample Error Report]を生成します。
+[!UICONTROL Sample Error Report]は、データソースのレコードのうち、正常に処理されたものと失敗したものの数を返します。 次の手順に従って、[!UICONTROL Sample Error Report]を生成します。
 
 <!-- 
 
@@ -110,9 +117,9 @@ create-onboarding-status-report.xml
  -->
 
 
-1. **[!UICONTROL Analytics > Onboarding Status Report]** へ移動します。データソースを検索するか、リストから選択します。
+1. **[!UICONTROL Analytics > Onboarding Status Report]** へ移動します。 データソースを検索するか、リストから選択します。
 
-2. 日付範囲を選択します。オプションは次のとおりです。
+2. 日付範囲を選択します。 オプションは次のとおりです。
 
    * 一連の固定レポート期間
    * カスタムの日付範囲を作成できるカレンダーウィジェット
@@ -133,27 +140,27 @@ create-onboarding-status-report.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Data Sync File Name</b> </p> </td> 
-   <td colname="col2"> <p>選択した受信データソースから <span class="keyword">Audience Manager</span> が受け取って処理したファイルのリストが表示されます。 </p> <p>ファイル名の形式が適切でない場合、ファイルの処理は失敗します。ファイル名の要件は、このデータを <span class="keyword">Audience Manager</span> に送信する方式によって異なります。配信方法には <span class="keyword">Amazon S3</span> と FTP があります。ファイルに名前を設定する方法については、以下を参照してください。 </p> <p> 
+   <td colname="col2"> <p>選択した受信データソースから <span class="keyword">Audience Manager</span> が受け取って処理したファイルのリストが表示されます。 </p> <p>ファイル名の形式が適切でない場合、ファイルの処理は失敗します。 ファイル名の要件は、このデータを <span class="keyword">Audience Manager</span> に送信する方式によって異なります。 配信方法には <span class="keyword">Amazon S3</span> と FTP があります。 ファイルに名前を設定する方法については、以下を参照してください。 </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> 受信データファイルの Amazon S3 の名前に関する要件 </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Format Errors</b> </p> </td> 
-   <td colname="col2"> <p>構文や書式設定の要件を満たさなかったために処理が失敗したレコードの数のリストが表示されます。データの形式について詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> インバウンドデータファイルの内容：構文、変数、例</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>構文や書式設定の要件を満たさなかったために処理が失敗したレコードの数のリストが表示されます。 データの形式について詳しくは、<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> インバウンドデータファイルの内容：構文、変数、例</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Invalid AAM ID</b> </p> </td> 
-   <td colname="col2"> <p>形式が適切でない <span class="keyword">Audience Manager</span> ユーザー ID（UUID）のリストが表示されます。通常、以下に該当する ID を示しています。 </p> 
+   <td colname="col2"> <p>形式が適切でない <span class="keyword">Audience Manager</span> ユーザー ID（UUID）のリストが表示されます。 通常、以下に該当する ID を示しています。 </p> 
     <ul id="ul_8304250E8F0F44918A50CF9D8D8D1F83"> 
      <li id="li_B100B4C2623B4E099E022869A4978357">想定される 38 桁の形式を満たさない。 </li> 
-     <li id="li_44E8A9AD13174A20A5742E56ED786634">英字が含まれている。ID は数値のみである必要があります。 </li> 
+     <li id="li_44E8A9AD13174A20A5742E56ED786634">英字が含まれている。 ID は数値のみである必要があります。 </li> 
     </ul> </td> 
   </tr>
 
 <tr> 
    <td colname="col1"> <p> <b>無効なデバイス ID</b> </p> </td> 
-   <td colname="col2"> <p>形式が適切でないグローバルデバイス ID の数が表示されます。デバイスタイプに基づいた、デバイス ID の適切な形式と使用すべきグローバルデータソースについて詳しくは、<a href="../reference/ids-in-aam.md">Audience Manager で使用される ID の一覧</a>および<a href="../features/global-data-sources.md">グローバルデータソース</a>を参照してください。</p>
+   <td colname="col2"> <p>形式が適切でないグローバルデバイス ID の数が表示されます。 デバイスタイプに基づいた、デバイス ID の適切な形式と使用すべきグローバルデータソースについて詳しくは、<a href="../reference/ids-in-aam.md">Audience Manager で使用される ID の一覧</a>および<a href="../features/global-data-sources.md">グローバルデータソース</a>を参照してください。</p>
   <p>レポートのエラーサンプリングセクションには、無効なデバイス ID に関する詳細情報（以下など）が含まれています。</p>
    <ul>
     <li>無効なデバイス ID に対応するデータソース ID。</li>
@@ -166,31 +173,31 @@ create-onboarding-status-report.xml
 
 <tr> 
    <td colname="col1"> <p> <b>No Matching AAM ID</b> </p> </td> 
-   <td colname="col2"> <p>転送された ID のうち、<span class="keyword">Audience Manager</span> で既存の ID と一致しないものを示します。<span class="keyword">Audience Manager</span> がまだ ID 同期を実行していない場合、または同期後でも ID が一致しない場合、転送された ID にこのステータスが設定されることがあります。 </p> <p>モバイル ID が一致しない場合、<span class="keyword">Audience Manager</span> では以下の処理がおこなわれます。 </p> 
+   <td colname="col2"> <p>転送された ID のうち、<span class="keyword">Audience Manager</span> で既存の ID と一致しないものを示します。 <span class="keyword">Audience Manager</span> がまだ ID 同期を実行していない場合、または同期後でも ID が一致しない場合、転送された ID にこのステータスが設定されることがあります。 </p> <p>モバイル ID が一致しない場合、<span class="keyword">Audience Manager</span> では以下の処理がおこなわれます。 </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">この ID は引き続き保存され、この ID の同期が試行されます。 </li> 
      <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">ID を同期できない場合、レポートに「<span class="wintitle">Stored Record</span>」として記録されます。 </li> 
-    </ul> <p>転送されたファイルにモバイル ID が含まれる場合、この数値は他の指標より重要度がやや低くなることがあります。以降のファイルの成功率と一致率には影響しません。 </p> </td> 
+    </ul> <p>転送されたファイルにモバイル ID が含まれる場合、この数値は他の指標より重要度がやや低くなることがあります。 以降のファイルの成功率と一致率には影響しません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>No Trait Realized</b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager</span> で、転送された特性と一致しない特性のリストが表示されます。原因として次のようなものが挙げられます。 </p> 
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> で、転送された特性と一致しない特性のリストが表示されます。 原因として次のようなものが挙げられます。 </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
-     <li id="li_D4C6306BF2B143198108702B309CE8CF">受信データファイルで特性の形式が適切でない。データファイルの形式について詳しくは、「<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> インバウンドデータファイルの内容：構文、変数、および例</a>」を参照してください。 </li> 
+     <li id="li_D4C6306BF2B143198108702B309CE8CF">受信データファイルで特性の形式が適切でない。 データファイルの形式について詳しくは、「<a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> インバウンドデータファイルの内容：構文、変数、および例</a>」を参照してください。 </li> 
      <li id="li_A1C708A007D24EE09B7C629AFC6E43C3"><span class="keyword">Audience Manager</span> で特性が定義されていない。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Percent Success</b> </p> </td> 
-   <td colname="col2"> <p>ファイル内のレコードのうち、保存に成功したレコードの割合。「Percent success」= 処理されたレコード数 / ファイル内のレコード数となります。 </p> </td> 
+   <td colname="col2"> <p>ファイル内のレコードのうち、保存に成功したレコードの割合。 「Percent success」= 処理されたレコード数 / ファイル内のレコード数となります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Records Received</b> </p> </td> 
-   <td colname="col2"> <p>受信したレコードの総数。ほとんどの場合、この数は受信データファイルのレコード（行）の総数と一致します。 </p> </td> 
+   <td colname="col2"> <p>受信したレコードの総数。 ほとんどの場合、この数は受信データファイルのレコード（行）の総数と一致します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Stored Records</b> </p> </td> 
-   <td colname="col2"> <p>保存に成功したレコードの数。ファイル形式のエラーにより、受信したレコードの一部が <span class="keyword">Audience Manager</span> で正常に保存されない場合があります。保存されたレコードの数は、受信したレコードの数より少ないことがあります。 </p> </td> 
+   <td colname="col2"> <p>保存に成功したレコードの数。 ファイル形式のエラーにより、受信したレコードの一部が <span class="keyword">Audience Manager</span> で正常に保存されない場合があります。 保存されたレコードの数は、受信したレコードの数より少ないことがあります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total Realized Traits</b> </p> </td> 
@@ -198,7 +205,7 @@ create-onboarding-status-report.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Total Unused Signals</b> </p> </td> 
-   <td colname="col2"> <p>レポート内での受信した未使用シグナルの合計数。この合計は、保存に成功したレコードの合計数に基づいています。 </p> <p>詳しくは、<a href="../reporting/dynamic-reports/unused-signals.md">未使用のシグナル レポート </a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>レポート内での受信した未使用シグナルの合計数。 この合計は、保存に成功したレコードの合計数に基づいています。 </p> <p>詳しくは、<a href="../reporting/dynamic-reports/unused-signals.md">未使用のシグナル レポート </a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,24 +7,30 @@ title: 特性ルールおよびセグメントルールの作成または更新
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
-TQID: https://experienceleague.adobe.com/7vkYd55lKv1PCjRqX-OxK1A-VIjgH3O9Tx0AnbZvRWA
+TQID: 'https://experienceleague.adobe.com/7vkYd55lKv1PCjRqX-OxK1A-VIjgH3O9Tx0AnbZvRWA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: f341dd0b-34de-403e-a549-e0f581dcdda6
+    internal-label: BAAAM
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: '345'
 ht-degree: 92%
-
 ---
-
 # 特性ルールおよびセグメントルールの作成または更新{#create-or-update-trait-rules-and-segment-rules}
 
 ワークシートの作成および更新において traitRule ヘッダーを使用することができます。これにより、複数のルールを 1 回の操作で適用できるようになります。 一括ルールのリクエストをおこなうには、以下の手順に従ってください。

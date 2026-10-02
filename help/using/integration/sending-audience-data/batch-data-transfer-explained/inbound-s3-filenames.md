@@ -1,5 +1,5 @@
 ---
-description: Audience Manager にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを Audience Manager または Amazon S3 ディレクトリに送信する際には、これらの仕様に従ってファイルの名前とサイズを設定してください。
+description: Audience Manager にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。 データを Audience Manager または Amazon S3 ディレクトリに送信する際には、これらの仕様に従ってファイルの名前とサイズを設定してください。
 seo-description: Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager / Amazon S3 directory.
 seo-title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 solution: Audience Manager
@@ -7,27 +7,33 @@ title: 受信データファイルの Amazon S3 名とファイルサイズの�
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-TQID: https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU
+TQID: 'https://experienceleague.adobe.com/DA-1ilfdKsydO-jTRq02clTE9yZCv7hsV2412gadhwU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1114
-ht-degree: 98%
-
+source-wordcount: '1131'
+ht-degree: 96%
 ---
-
 # [!DNL Amazon S3] の受信データファイル用の名前およびファイルサイズに関する要件 {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
-[!DNL Audience Manager] にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。データを [!DNL Audience Manager]／[!DNL Amazon S3]ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
+[!DNL Audience Manager] にデータを送信する際に従う必要がある必須フィールド、構文、命名規則、ファイルサイズについて説明します。 データを [!DNL Audience Manager]／[!DNL Amazon S3]ディレクトリに送信する際に、これらの仕様に応じて、ファイルの名前およびサイズを設定します。
 
 >[!NOTE]
 >
->このドキュメントのテキストスタイル（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など） コード要素およびオプションを表します。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## ファイル名の構文 {#file-name-syntax}
 
@@ -61,7 +67,7 @@ Removed  {importance="high"} for ExL
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>AWS_directory</i> </code> </p> </td> 
-   <td colname="col2"> <p>Amazon S3 バケットのパスと名前。S3 ディレクトリの名前、パス、資格情報については、担当のアカウントマネージャーにお問い合わせください。 </p> </td> 
+   <td colname="col2"> <p>Amazon S3 バケットのパスと名前。 S3 ディレクトリの名前、パス、資格情報については、担当のアカウントマネージャーにお問い合わせください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>date=<i>yyyy-mm-dd</i></code> </p> </td> 
@@ -69,22 +75,22 @@ Removed  {importance="high"} for ExL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>データファイルに、独自のユーザー ID、Android ID、iOS ID または<a href="/help/using/features/global-data-sources.md">グローバルデータソース</a>に属する他の ID が含まれているかどうかを <span class="keyword">Audience Manager</span> に伝える lD。次のオプションを使用できます。</p> 
+   <td colname="col2"> <p>データファイルに、独自のユーザー ID、Android ID、iOS ID または<a href="/help/using/features/global-data-sources.md">グローバルデータソース</a>に属する他の ID が含まれているかどうかを <span class="keyword">Audience Manager</span> に伝える lD。 次のオプションを使用できます。</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データソース ID（別名データプロバイダー ID）：</b> これは、Audience Managerがデータソースに割り当てる一意の ID です（ID の Audience Manager <a href="/help/using/reference/ids-in-aam.md"> インデックスを参照 </a>）。ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。例えば、<code>...ftp_dpm_21_123456789.sync</code> は、<span class="keyword">Audience Manager</span> に対して、データソース 21 に属する ID データをオンボードするよう伝えます。 </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID（GAID）：</b>データファイルに Android の ID が含まれている場合、ファイル名に ID 20914 を使用します。Android ID を使用する場合は、このフィールド <code><i>_DPID_TARGET_DATA_OWNER</i></code> を使用する必要があります。例えば、<code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> データファイルに Android ID のみが含まれ、その ID はデー <code><i>_DPID_TARGET_DATA_OWNER</i></code> タソースに属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。iOS ID を使用する場合は、このフィールド <code><i>_DPID_TARGET_DATA_OWNER</i></code> を使用する必要があります。例えば、<code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> データファイルに iOS ID のみが含まれ、その ID はデー <code><i>_DPID_TARGET_DATA_OWNER</i></code> タソースに属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li>
-     <li> <b>他のグローバルデータソースに属する ID：広告用の</b>：広用の Roku ID（RIDA）、Microsoft Advertising ID（MAID）、およびその他の ID をオンボードできます。各データソースに対応する ID を使用します。詳しくは、<a href="/help/using/features/global-data-sources.md">グローバルデータソースに関する記事</a>を参照してください。</li> 
-    </ul> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p> </td> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>データソース ID（別名データプロバイダー ID）：</b> これは、Audience Managerがデータソースに割り当てる一意の ID です（ID の Audience Manager <a href="/help/using/reference/ids-in-aam.md"> インデックスを参照 </a>）。 ご自身のユーザー ID が含まれているデータを送信する場合に、この割り当て済みの ID をファイル名に入れます。 例えば、<code>...ftp_dpm_21_123456789.sync</code> は、<span class="keyword">Audience Manager</span> に対して、データソース 21 に属する ID データをオンボードするよう伝えます。 </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android ID（GAID）：</b>データファイルに Android の ID が含まれている場合、ファイル名に ID 20914 を使用します。 Android ID を使用する場合は、このフィールド <code><i>_DPID_TARGET_DATA_OWNER</i></code> を使用する必要があります。 例えば、<code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> データファイルに Android ID のみが含まれ、その ID はデー <code><i>_DPID_TARGET_DATA_OWNER</i></code> タソースに属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS ID（IDFA）：</b>データファイルに iOS の ID が含まれている場合、ファイル名に ID 20915 を使用します。 iOS ID を使用する場合は、このフィールド <code><i>_DPID_TARGET_DATA_OWNER</i></code> を使用する必要があります。 例えば、<code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> データファイルに iOS ID のみが含まれ、その ID はデー <code><i>_DPID_TARGET_DATA_OWNER</i></code> タソースに属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li>
+     <li> <b>他のグローバルデータソースに属する ID：広告用の</b>：広用の Roku ID（RIDA）、Microsoft Advertising ID（MAID）、およびその他の ID をオンボードできます。 各データソースに対応する ID を使用します。詳しくは、<a href="/help/using/features/global-data-sources.md">グローバルデータソースに関する記事</a>を参照してください。</li> 
+    </ul> <p> <p>注意：データファイル内で ID タイプが混在しないようにしてください。 例えば、ファイル名に Android の ID が含まれている場合、データファイル内に iOS の ID やご自身の ID を入れないでください。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>このフィールドは、データのオンボーディング先となるデータソースを Audience Manager に示します。このフィールドは、DPID を Android ID または iOS ID、またはグローバルデータソースに属する他の ID に設定した場合は必須です。これにより、Audience Manager はファイルデータを組織にリンクすることができます。<br> このターゲットデータソースは、会社で所有している必要があります。セカンドパーティのデータ共有目的の場合、別の会社に属するターゲットデータソースにデータを取り込むには、会社とターゲットデータソースの間のアクセスマッピングが必要です。マッピングを設定するには、担当のアドビコンサルタントまたはカスタマーサポートにお問い合わせください。</p> <p><b>重要なメモ：</b>既存のデータ共有関係については、マッピングをリクエストする必要はあり<i>ません</i>（2022年3月14日（PT）より以前にデータをオンボーディングした、他社に属するターゲットデータソースの場合）。また、PID に属するターゲットデータソースにデータをオンボーディングする場合も、マッピングは必要ありません。 </p> <p>例： </p> 
+   <td colname="col2"> <p>このフィールドは、データのオンボーディング先となるデータソースを Audience Manager に示します。 このフィールドは、DPID を Android ID または iOS ID、またはグローバルデータソースに属する他の ID に設定した場合は必須です。 これにより、Audience Managerはファイルデータを組織にリンクできます。<br> このターゲットデータソースは、会社が所有する必要があります。 セカンドパーティのデータ共有目的の場合、別の会社に属するターゲットデータソースにデータを取り込むには、会社とターゲットデータソースの間のアクセスマッピングが必要です。 マッピングを設定するには、担当のアドビコンサルタントまたはカスタマーサポートにお問い合わせください。</p> <p><b>重要なメモ：</b>既存のデータ共有関係については、マッピングをリクエストする必要はあり<i>ません</i>（2022年3月14日（PT）より以前にデータをオンボーディングした、他社に属するターゲットデータソースの場合）。 また、PID に属するターゲットデータソースにデータをオンボーディングする場合も、マッピングは必要ありません。 </p> <p>例： </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code>データソース 33 に属する顧客 ID をデータソース 21 に属する特性またはシグナルに認定していることを Audience Manager に通知します。 </li> 
      <li> <b>Android ID（GAID）：</b><code>...ftp_dpm_20914_21_1234567890.sync</code> データファイルに Android ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li> 
      <li> <b>iOS ID（IDFA）：</b><code>...ftp_dpm_20915_21_1234567890.sync</code> データファイルに iOS ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。</li>
-     <li> <b>他のグローバルデータソースに属する ID</b>：<code>...ftp_dpm_121963_21_1234567890.sync</code> データファイルに Roku ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。各データソースに対応する ID を使用します。詳しくは、<a href="/help/using/features/global-data-sources.md">グローバルデータソースに関する記事</a>を参照してください。</li> 
+     <li> <b>他のグローバルデータソースに属する ID</b>：<code>...ftp_dpm_121963_21_1234567890.sync</code> データファイルに Roku ID のみが含まれ、その ID はデータソース 21 に属する特性に適合する必要があると <span class="keyword">Audience Manager</span> に伝えます。 各データソースに対応する ID を使用します。詳しくは、<a href="/help/using/features/global-data-sources.md">グローバルデータソースに関する記事</a>を参照してください。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -93,7 +99,7 @@ Removed  {importance="high"} for ExL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
-   <td colname="col2"> <p>10 桁の UTC UNIX タイムスタンプ（秒単位）。タイムスタンプは、各ファイル名を一意にするのに役立ちます。 </p> 
+   <td colname="col2"> <p>10 桁の UTC UNIX タイムスタンプ（秒単位）。 タイムスタンプは、各ファイル名を一意にするのに役立ちます。 </p> 
     <!--
      <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
     -->
@@ -104,12 +110,12 @@ Removed  {importance="high"} for ExL
    <td colname="col2"> <p>同期オプション。以下のものがあります。 </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
       <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>：通常のシナリオ。サードパーティデータプロバイダーが、Audience Manager システムで追加または削除するユーザー単位の特性を送信します。 </li> 
-      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>：データプロバイダーはユーザー単位の特性のリストを送信できます。これにより、Audience Manager で特定のデータプロバイダーについて当該ユーザーの既存のサードパーティ特性がすべて上書きされます。すべてのユーザーを上書きファイルに入れる必要はありません。変更するユーザーのみを入れるようにしてください。 </li> 
+      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>：データプロバイダーはユーザー単位の特性のリストを送信できます。これにより、Audience Manager で特定のデータプロバイダーについて当該ユーザーの既存のサードパーティ特性がすべて上書きされます。 すべてのユーザーを上書きファイルに入れる必要はありません。 変更するユーザーのみを入れるようにしてください。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i>]</code> </p> </td> 
-   <td colname="col2"> <p>整数。大きなファイルを複数に分割して処理時間を短縮する場合に使用します。数は、送信している元のファイルのどの部分かを示します。 </p> <p>ファイル処理を効率的に実行するために、データファイルを次のように分割します。 </p> 
+   <td colname="col2"> <p>整数。 大きなファイルを複数に分割して処理時間を短縮する場合に使用します。 数は、送信している元のファイルのどの部分かを示します。 </p> <p>ファイル処理を効率的に実行するために、データファイルを次のように分割します。 </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">圧縮なし：1 GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">圧縮済み：200～300 MB </li> 
@@ -117,14 +123,14 @@ Removed  {importance="high"} for ExL
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>ファイルを Amazon S3 に送信する場合、gzip 圧縮のみを使用します。これらのファイルを圧縮すると、拡張子は <code> .gz</code> になります。.zip 圧縮は使用しないでください。 </p> <p>圧縮ファイルのサイズは 3 GB 以下である必要があります。ファイルがそれより大きい場合は、カスタマーケアにお問い合わせください。Audience Manager で大きなファイルを操作することは可能ですが、ファイルのサイズを小さくして、効率的にデータを転送できるようにすることもできます。受信データ転送ファイルの<a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> ファイル圧縮</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ファイルを Amazon S3 に送信する場合、gzip 圧縮のみを使用します。 これらのファイルを圧縮すると、拡張子は <code> .gz</code> になります。 .zip 圧縮は使用しないでください。 </p> <p>圧縮ファイルのサイズは 3 GB 以下である必要があります。 ファイルがそれより大きい場合は、カスタマーケアにお問い合わせください。 Audience Manager で大きなファイルを操作することは可能ですが、ファイルのサイズを小さくして、効率的にデータを転送できるようにすることもできます。 受信データ転送ファイルの<a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> ファイル圧縮</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## ファイル名の例 {#file-name-examples}
 
-以下に、適切に書式設定されたファイル名の例を示します。ファイル名は、このようになります。
+以下に、適切に書式設定されたファイル名の例を示します。 ファイル名は、このようになります。
 
 <ul class="simplelist"> 
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.sync.1.gz</code> </li> 
@@ -134,7 +140,7 @@ Removed  {importance="high"} for ExL
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-追加の例が必要であれば、サンプルを[ダウンロード](assets/ftp_dpm_1234_1445374061.overwrite)することもできます。このファイルは `.overwrite` ファイル拡張子で保存されます。これを普通のテキストエディターで開きます。
+追加の例が必要であれば、サンプルを[ダウンロード](assets/ftp_dpm_1234_1445374061.overwrite)することもできます。 このファイルは `.overwrite` ファイル拡張子で保存されます。 これを普通のテキストエディターで開きます。
 
 ## 許容されるファイルサイズ {#accepted-file-sizes}
 

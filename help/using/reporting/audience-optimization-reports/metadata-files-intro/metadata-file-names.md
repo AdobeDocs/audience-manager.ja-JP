@@ -7,27 +7,35 @@ title: メタデータファイルの命名規則
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
 feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
-TQID: https://experienceleague.adobe.com/8NiHEhLXJHHdYfO4LjwpEjpLqFHsHAW3BnI9q4K8zt4
+TQID: 'https://experienceleague.adobe.com/8NiHEhLXJHHdYfO4LjwpEjpLqFHsHAW3BnI9q4K8zt4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 205
+source-wordcount: '205'
 ht-degree: 98%
-
 ---
-
 # メタデータファイルの命名規則{#naming-conventions-for-metadata-files}
 
 この仕様に従ってオーディエンスの最適化のメタデータファイルの名前を設定します。
 
 ## 構文と ID カテゴリ {#syntax}
 
-次の構文は、適正なメタデータファイル名の構造を示しています。なお、*斜体*&#x200B;の部分には実際の情報が入ります。その他の要素は定数で、変動しません。
+次の構文は、適正なメタデータファイル名の構造を示しています。 なお、*斜体*&#x200B;の部分には実際の情報が入ります。 その他の要素は定数で、変動しません。
 
 **構文：** *`yyyymmdd_0_childID`*
 
@@ -37,12 +45,12 @@ ht-degree: 98%
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* 中央のコンポーネント **0** は、技術的には親 ID であり、従来のフィールドです。値は常に **0** として設定する必要があります。
-* 子 ID には、ディメンションに応じて 1 ～ 10 の値を指定できます。次を参照してください。
+* 中央のコンポーネント **0** は、技術的には親 ID であり、従来のフィールドです。 値は常に **0** として設定する必要があります。
+* 子 ID には、ディメンションに応じて 1 ～ 10 の値を指定できます。 次を参照してください。
 
 ## 子ID ディメンション {#child-dimension}
 
-メタデータファイル名において、子 ID は、ファイル内のデータのタイプを分類しデータを階層に配置する識別子になります。ファイル名の子 ID には、次のカテゴリ ID でタグ付けできます。
+メタデータファイル名において、子 ID は、ファイル内のデータのタイプを分類しデータを階層に配置する識別子になります。 ファイル名の子 ID には、次のカテゴリ ID でタグ付けできます。
 
 1. Campaign
 1. Creative

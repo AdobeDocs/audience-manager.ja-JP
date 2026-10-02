@@ -1,34 +1,40 @@
 ---
-description: Audience Manager で過去 7 日以内に受信した未使用シグナルの概要を確認し、潜在的な新規特性を特定します。未使用シグナルはオンラインプロパティから Audience Manager に送信されますが、既存の特性では使用されていません。シグナルダッシュボードを表示するには、Audience Data／Signals を開きます。シグナルダッシュボードでは、最もアクティブな未使用シグナルに基づいて実用的なインサイトが示されます。
+description: Audience Manager で過去 7 日以内に受信した未使用シグナルの概要を確認し、潜在的な新規特性を特定します。 未使用シグナルはオンラインプロパティから Audience Manager に送信されますが、既存の特性では使用されていません。 シグナルダッシュボードを表示するには、Audience Data／Signals を開きます。 シグナルダッシュボードでは、最もアクティブな未使用シグナルに基づいて実用的なインサイトが示されます。
 seo-description: Get an overview of the unused signals received by Audience Manager in the past 7 days and identify potential new traits. Unused signals reach Audience Manager from your online properties, but are not used in any of your existing traits. To view the Signals Dashboard, go to Audience Data > Signals. The Signals Dashboard shows you actionable insights based on your most active unused signals.
 seo-title: Signals Dashboard
 title: シグナルダッシュボード
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-TQID: https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ
+TQID: 'https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Insights
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: '250'
 ht-degree: 96%
-
 ---
-
 # シグナルダッシュボード {#signals-dashboard}
 
-Audience Manager で過去 7 日以内に受信した未使用シグナルの概要を確認し、潜在的な新規特性を特定します。未使用シグナルはオンラインプロパティから Audience Manager に送信されますが、既存の特性では使用されていません。[!UICONTROL Signals Dashboard] を表示するには、[!UICONTROL Audience Data]／[!UICONTROL Signals] に移動します。[!UICONTROL Signals Dashboard] では、最もアクティブな未使用シグナルに基づいて実用的なインサイトが示されます。
+Audience Manager で過去 7 日以内に受信した未使用シグナルの概要を確認し、潜在的な新規特性を特定します。 未使用シグナルはオンラインプロパティから Audience Manager に送信されますが、既存の特性では使用されていません。 [!UICONTROL Signals Dashboard] を表示するには、[!UICONTROL Audience Data]／[!UICONTROL Signals] に移動します。 [!UICONTROL Signals Dashboard] では、最もアクティブな未使用シグナルに基づいて実用的なインサイトが示されます。
 
 >[!IMPORTANT]
 >
->「**[!UICONTROL Top Unused Signals]**」セクションおよび「**[!UICONTROL New Unused Signals]**」セクションには、**100 件/時**&#x200B;を超えるレコードのみが表示されます。しきい値以下のシグナルは、[!UICONTROL Signals Search] に含まれます。
+>「**[!UICONTROL Top Unused Signals]**」セクションおよび「**[!UICONTROL New Unused Signals]**」セクションには、**100 件/時**&#x200B;を超えるレコードのみが表示されます。 しきい値以下のシグナルは、[!UICONTROL Signals Search] に含まれます。
 
 ## 上位の未使用シグナル {#top-unused-signals}
 
-このセクションには、過去 7 日以内に [!DNL Audience Manager] に送信されたシグナルのうち、合計カウントが上位 50 位の未使用シグナル（新旧問わず）が表示されます。[!DNL Audience Manager] で受信したデータによっては、このテーブルには、**New Unused Signals** テーブルのエントリの一部またはすべてが含まれます。
+このセクションには、過去 7 日以内に [!DNL Audience Manager] に送信されたシグナルのうち、合計カウントが上位 50 位の未使用シグナル（新旧問わず）が表示されます。 [!DNL Audience Manager] で受信したデータによっては、このテーブルには、**New Unused Signals** テーブルのエントリの一部またはすべてが含まれます。
 
 ![](assets/signals-top-unused.png)
 
@@ -46,4 +52,4 @@ Audience Manager で過去 7 日以内に受信した未使用シグナルの概
 
 [!UICONTROL Signals Dashboard] の使用方法については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/327523?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)

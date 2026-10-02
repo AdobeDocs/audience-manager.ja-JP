@@ -1,5 +1,5 @@
 ---
-description: Audience Lab は、ベースラインセグメントを使用してテストグループを作成することで、いくつかの用途に使用できます。テストグループを重複のない複数のテストセグメントに分割し、それぞれを異なる宛先にマッピングした後、コンバージョンを推進するうえでどのセグメントが最も効果的かを判断することができます。
+description: Audience Lab は、ベースラインセグメントを使用してテストグループを作成することで、いくつかの用途に使用できます。 テストグループを重複のない複数のテストセグメントに分割し、それぞれを異なる宛先にマッピングした後、コンバージョンを推進するうえでどのセグメントが最も効果的かを判断することができます。
 seo-description: Audience Lab enables several use cases by allowing you to use baseline segments for creating test groups. You can divide test groups into several mutually exclusive test segments, map these to different destinations and then determine which of the segments are most effective in driving conversions.
 seo-title: Audience Lab Use Cases
 solution: Audience Manager
@@ -7,34 +7,41 @@ title: Audience Lab のユースケース
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 feature: Audience Lab
 exl-id: b68f48bd-0d5d-4b72-84f3-a6f3acea6c49
-TQID: https://experienceleague.adobe.com/mDcQUaLcTjBA31iTkVJbm1UOy9rqRv3yHca4ZH-HliE
+TQID: 'https://experienceleague.adobe.com/mDcQUaLcTjBA31iTkVJbm1UOy9rqRv3yHca4ZH-HliE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: '587'
 ht-degree: 100%
-
 ---
-
 # Audience Lab のユースケース {#audience-lab-use-cases}
 
-[!UICONTROL Audience Lab] では、テストグループを作成するためのベースラインセグメントを使用できるようになっているので、複数のユースケースが可能です。テストグループを重複のない複数のテストセグメントに分割し、それぞれを異なる宛先にマッピングした後、コンバージョンを推進するうえでどのセグメントが最も効果的かを判断することができます。
+[!UICONTROL Audience Lab] では、テストグループを作成するためのベースラインセグメントを使用できるようになっているので、複数のユースケースが可能です。 テストグループを重複のない複数のテストセグメントに分割し、それぞれを異なる宛先にマッピングした後、コンバージョンを推進するうえでどのセグメントが最も効果的かを判断することができます。
 
 ## オーディエンスラボでのモデルの比較 {#compare-models}
 
-[!DNL Audience Manager] では、複数の異なるタイプおよびソースのモデルを使用できます。[!UICONTROL Audience Lab] では、すべてのアクティブモデルにわたって顧客のコンバージョン率を簡単に比較できます。
+[!DNL Audience Manager] では、複数の異なるタイプおよびソースのモデルを使用できます。 [!UICONTROL Audience Lab] では、すべてのアクティブモデルにわたって顧客のコンバージョン率を簡単に比較できます。
 
 <!-- audience-lab-compare-models.xml -->
 
-このユースケースでは、異なるモデルの比較をおこないます。社内データウェアハウスで作成したモデルを[オンボードの特性](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)として [!DNL Audience Manager] にインポートして使用するか、[!DNL Audience Manager] の[アルゴリズムモデル](../../features/algorithmic-models/understanding-models.md)機能を使用できます。
+このユースケースでは、異なるモデルの比較をおこないます。 社内データウェアハウスで作成したモデルを[オンボードの特性](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)として [!DNL Audience Manager] にインポートして使用するか、[!DNL Audience Manager] の[アルゴリズムモデル](../../features/algorithmic-models/understanding-models.md)機能を使用できます。
 
 1. [Model Builder](../../features/algorithmic-models/create-model.md) または外部プラットフォームでモデルを 2 つ作成します。
 1. [アルゴリズムの特性](../../features/traits/create-algorithmic-traits.md)を作成するか、オンボードの特性として独自のモデルをインポートします。
@@ -47,24 +54,24 @@ ht-degree: 100%
 
    * どちらのテストグループも、宛先、クリエイティブ、コンバージョン特性の条件を同じにします。
    * テストセグメントのユーザー数が大きく違わないようにしてください（例えば、160 万人に対して 180 万人の場合は問題ありませんが、160 万人に対して 1600 万人の場合は問題となります）。
-   * 各テストセグメントのテストグループで対照群を用意します。そうすることで、各セグメントのごく一部を切り離し、それらを明示的にテストのターゲット対象から外すことができます。
+   * 各テストセグメントのテストグループで対照群を用意します。 そうすることで、各セグメントのごく一部を切り離し、それらを明示的にテストのターゲット対象から外すことができます。
 
 1. 結果の確認
 
-   * [Audience Lab のレポート表示](../../features/audience-lab/audience-lab-reporting-view.md)には、各モデルが達成したコンバージョン数が示されます。コンバージョンベースのキャンペーンでは、コンバージョン率が最も高いテストセグメントのモデルが最も優れたパフォーマンスを示したことになります。
-   * 用意しておいた対照群を使用して、「標準のターゲティング」に対するモデルのパフォーマンスを評価することもできます。モデル同士を比較してテストするだけでなく、「モデルのパフォーマンスが通常時よりも上がっているか」という疑問を確認するためのテストが可能です。
+   * [Audience Lab のレポート表示](../../features/audience-lab/audience-lab-reporting-view.md)には、各モデルが達成したコンバージョン数が示されます。 コンバージョンベースのキャンペーンでは、コンバージョン率が最も高いテストセグメントのモデルが最も優れたパフォーマンスを示したことになります。
+   * 用意しておいた対照群を使用して、「標準のターゲティング」に対するモデルのパフォーマンスを評価することもできます。 モデル同士を比較してテストするだけでなく、「モデルのパフォーマンスが通常時よりも上がっているか」という疑問を確認するためのテストが可能です。
 
 ## 送信先全体にわたるクリエイティブのテスト {#testing-creatives}
 
 <!-- audience-lab-creatives-across-destinations.xml -->
 
-[!UICONTROL Audience Lab] を使用すると、クリエイティブが様々な宛先で推進しているコンバージョンの数を測定できます。このユースケースでは、自然発生しているコンバージョンに対してクリエイティブが創出しているコンバージョンを測定できます。
+[!UICONTROL Audience Lab] を使用すると、クリエイティブが様々な宛先で推進しているコンバージョンの数を測定できます。 このユースケースでは、自然発生しているコンバージョンに対してクリエイティブが創出しているコンバージョンを測定できます。
 
 1. クリエイティブをテストするセグメントをベースラインセグメントとして選択し、[セグメントテストグループを作成します。](../../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups)
 1. ベースラインセグメントをテストセグメントと対照群に分割します。
 1. テストする様々な宛先とテストセグメントをマッピングします。
-1. 対照群はどの宛先にもマッピングしないでおきます。自然発生しているコンバージョン結果のベースラインとするために、対照群は、テストするクリエイティブのターゲット対象にしないでおきます。
+1. 対照群はどの宛先にもマッピングしないでおきます。 自然発生しているコンバージョン結果のベースラインとするために、対照群は、テストするクリエイティブのターゲット対象にしないでおきます。
 1. テストの開始日と終了日を指定します。
 1. セグメントとクリエイティブを宛先に設定します。
 1. [Audience Lab のレポート表示](../../features/audience-lab/audience-lab-reporting-view.md)には、宛先全体でクリエイティブが達成したコンバージョン数が示されます。
-1. 対照群を作成しておいたので、自然発生しているコンバージョンに対してクリエイティブが創出しているコンバージョンを評価することもできます。「このクリエイティブは通常のやり方の場合よりも高いコンバージョン率を創出しているだろうか」という疑問に対する答えが得られます。
+1. 対照群を作成しておいたので、自然発生しているコンバージョンに対してクリエイティブが創出しているコンバージョンを評価することもできます。 「このクリエイティブは通常のやり方の場合よりも高いコンバージョン率を創出しているだろうか」という疑問に対する答えが得られます。

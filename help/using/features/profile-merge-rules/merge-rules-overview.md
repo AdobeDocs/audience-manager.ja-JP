@@ -7,41 +7,48 @@ title: プロファイル結合ルールの概要
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 feature: Profile Merge
 exl-id: 5d1f5bea-0fca-4684-a2b4-585d9e38d9ef
-TQID: https://experienceleague.adobe.com/nhbT9DeDdZho5Rsqprq7N3Si7i9RfoirQuONiAh2Lmw
+TQID: 'https://experienceleague.adobe.com/nhbT9DeDdZho5Rsqprq7N3Si7i9RfoirQuONiAh2Lmw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience segmentation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 100%
-
+source-wordcount: '340'
+ht-degree: 94%
 ---
-
 # [!UICONTROL Profile Merge Rules] 概要 {#profile-merge-rules-overview}
 
 [!UICONTROL Profile Merge Rules] を使用すれば、セグメント化に使用するデータセットを制御し、複数のデバイスにわたって正確にユーザーをターゲット設定できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/32571?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28974)
 
 ## 匿名プロファイルと認証済みプロファイルによるデータ収集とターゲット設定 {#data-collection-targeting}
 
-通常、オーディエンスのセグメント化とターゲティングは、デバイス上のすべてのユーザーから収集されたデータに基づいておこないます。デバイスレベルのデータに基づくデータ収集とターゲティングには、いくつかのデメリットがあります。例えば、デバイスを共有する複数のユーザーを区別したり、複数のデバイスにまたがるユーザーを正確にターゲット化することができません。デバイスに基づくデータ収集は、デジタルマーケティングキャンペーンやクロスデバイスターゲティングには十分ではありません。
+通常、オーディエンスのセグメント化とターゲティングは、デバイス上のすべてのユーザーから収集されたデータに基づいておこないます。 デバイスレベルのデータに基づくデータ収集とターゲティングには、いくつかのデメリットがあります。 例えば、デバイスを共有する複数のユーザーを区別したり、複数のデバイスにまたがるユーザーを正確にターゲット化することができません。 デバイスに基づくデータ収集は、デジタルマーケティングキャンペーンやクロスデバイスターゲティングには十分ではありません。
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules]プロを使用すれば、[!DNL Audience Manager] がデータを収集してユーザーをターゲティングするためにセグメント化する方法が根本的に変わります。これにより、デバイスプロファイルと[認証済みプロファイル](../../reference/visitor-authentication-states.md)の 2 種類のプロファイルを操作できるようになります。
+[!UICONTROL Profile Merge Rules]プロを使用すれば、[!DNL Audience Manager] がデータを収集してユーザーをターゲティングするためにセグメント化する方法が根本的に変わります。 これにより、デバイスプロファイルと[認証済みプロファイル](../../reference/visitor-authentication-states.md)の 2 種類のプロファイルを操作できるようになります。
 
 | プロファイルタイプ | 説明 |
 |---|---|
-| [!UICONTROL Device Profile] | [!UICONTROL device profile]は、特定のデバイスの ID（[!UICONTROL cookie] ID やモバイルデバイス ID など）に関連付けられています。<br><br>以下のようなものがあります。<ul><li>ユーザーが認証されていない状態で認識された、[!UICONTROL Rule-based traits]。</li><li>[!UICONTROL Onboarded traits] を、[!UICONTROL cookie-based] やサードパーティデータなどのデバイス ID に関連付けることができます。</li></ul> |
+| [!UICONTROL Device Profile] | [!UICONTROL device profile]は、[!UICONTROL cookie] IDやモバイルデバイス IDなどの特定のデバイスのIDに関連付けられています。<br><br> 以下のようなものがあります。<ul><li>ユーザーが認証されていない状態で認識された、[!UICONTROL Rule-based traits]。</li><li>[!UICONTROL Onboarded traits] を、[!UICONTROL cookie-based] やサードパーティデータなどのデバイス ID に関連付けることができます。</li></ul> |
 | [!UICONTROL Authenticated Profile] | [!UICONTROL authenticated profile]は、ユーザーがサイトにログインした時点で渡されるユーザー ID に関連付けられています。<br><br>以下のようなものがあります。<ul><li>ユーザーが認証されている状態でデバイス間で収集された、[!UICONTROL Rule-based traits]。</li><li>[!UICONTROL Onboarded traits]は、同じユーザー ID にリンクされているオフラインのファイルです。</li></ul> |
 
-これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。例えば、[認証済みプロファイル](../../reference/visitor-authentication-states.md)を使用すると、複数のデバイスから収集した 1 人のユーザーに関するデータに基づいて正確な[!UICONTROL segments]を生成できます。これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。[!DNL Audience Manager] は、個人がオンラインアクティビティに使用する様々なデバイスのマッピングを[認証済みプロファイル](../../reference/visitor-authentication-states.md)に保存することで、これを実現します。これらのマッピングは、[!UICONTROL Profile Link Device Graph] と呼ばれます。
+これらの各種のプロファイルにより、セグメント化に使用できるデータを制御します。 例えば、[認証済みプロファイル](../../reference/visitor-authentication-states.md)を使用すると、複数のデバイスから収集した 1 人のユーザーに関するデータに基づいて正確な[!UICONTROL segments]を生成できます。 これにより、複数のデバイスにまたがってユーザーに対し一貫したブランドエクスペリエンスを提供できるようになります。 [!DNL Audience Manager] は、個人がオンラインアクティビティに使用する様々なデバイスのマッピングを[認証済みプロファイル](../../reference/visitor-authentication-states.md)に保存することで、これを実現します。 これらのマッピングは、[!UICONTROL Profile Link Device Graph] と呼ばれます。
 
 ![](assets/authenticated2.png)
 

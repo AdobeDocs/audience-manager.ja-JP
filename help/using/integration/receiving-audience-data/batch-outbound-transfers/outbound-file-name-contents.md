@@ -7,22 +7,29 @@ title: 送信データファイル名：構文と例
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
-TQID: https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM
+TQID: 'https://experienceleague.adobe.com/y-Bvt8mQ-W9lCQdcRPpKrri-aQAWcr3-ZE7hy9aAdRM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 94%
-
+source-wordcount: '692'
+ht-degree: 95%
 ---
-
-# 送信データファイル名：構文と例 {#outbound-data-file-name-syntax-and-examples}
+# 送信データファイル名：構文と例{#outbound-data-file-name-syntax-and-examples}
 
 送信データファイルの名前に使用される必須フィールド、構文および規則について説明します。
 
@@ -30,11 +37,11 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->このドキュメントのスタイル要素（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>スタイル要素（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など） コード要素およびオプションを表します。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## 構文およびファイル名要素 {#syntax-file-name}
 
-送信ファイル名には、次の要素が含まれています。以下の要素はすべてオプションです。
+送信ファイル名には、次の要素が含まれています。 以下の要素はすべてオプションです。
 
 ```
 [SYNC_TYPE][_DID][_MASTER_DPID][_PID_ALIAS][_SYNC-MODE][_TIMESTAMP]SPLITNUM.sync[.gz]
@@ -54,7 +61,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_TYPE </i></code> </p> </td> 
-   <td colname="col2"> <p>データ転送方法を参照します。転送方法には以下が含まれます。 </p> 
+   <td colname="col2"> <p>データ転送方法を参照します。 転送方法には以下が含まれます。 </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - SFTP を使用した転送 </li> 
      <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3</span> - <span class="keyword">Amazon AWS</span> への転送 </li> 
@@ -62,11 +69,11 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>宛先 ID。 </p> <p><span class="keyword">Audience Manager</span> では、宛先は、ターゲット設定可能なセグメントをマッピングできる統合のインスタンスです。顧客は、ビジネス要件に応じて、複数の宛先を持つことができます。 </p> </td> 
+   <td colname="col2"> <p>宛先 ID。 </p> <p><span class="keyword">Audience Manager</span> では、宛先は、ターゲット設定可能なセグメントをマッピングできる統合のインスタンスです。 顧客は、ビジネス要件に応じて、複数の宛先を持つことができます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
-   <td colname="col2"> <p>データプロバイダーまたはデータソース ID。この ID は、ファイルコンテンツに存在するユーザー ID のタイプを識別します。最も一般的なユーザー ID キーを次に示します。 </p> <p> 
+   <td colname="col2"> <p>データプロバイダーまたはデータソース ID。 この ID は、ファイルコンテンツに存在するユーザー ID のタイプを識別します。 最も一般的なユーザー ID キーを次に示します。 </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword">Google 広告主 ID</span>（raw、ハッシュ化されていない） </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword">広告主用 Apple ID</span>（raw、ハッシュ化されていない） </li> 
@@ -79,10 +86,10 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
-   <td colname="col2"> <p>同期モードは、同期タイプに基づいてファイル名にラベルを追加するマクロプレースホルダーです。同期タイプには、完全および増分があります。ファイル名に <code> iter </code> または <code> full </code> として現れます。 </p> 
+   <td colname="col2"> <p>同期モードは、同期タイプに基づいてファイル名にラベルを追加するマクロプレースホルダーです。 同期タイプには、完全および増分があります。 ファイル名に <code> iter </code> または <code> full </code> として現れます。 </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
-     <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>：「反復」または増分同期を示します。増分ファイルには、最後の同期以降に収集された新しいデータのみが含まれます。 </li> 
-     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>：「完全」同期を示します。完全に同期されたファイルには、古いデータと最後の同期以降に収集された新しいデータが含まれます。 </li> 
+     <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>：「反復」または増分同期を示します。 増分ファイルには、最後の同期以降に収集された新しいデータのみが含まれます。 </li> 
+     <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>：「完全」同期を示します。 完全に同期されたファイルには、古いデータと最後の同期以降に収集された新しいデータが含まれます。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -91,7 +98,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p><code><i>SPLITNUM</i></code></p> </td> 
-   <td colname="col2"> <p>整数。処理時間を向上するために複数の部分に分割されたファイルの部分を特定します。番号は、データが属する元のファイルのどの部分かを示します。</p>  <p>3 桁以上の整数にする必要があり、分割サイズが 100 よりも小さいは、前にゼロを付ける必要があります。</p>  <p>元のファイルには、分割番号はありません。最初の分割ファイルは、001 で終わります。後述の例を参照してください。 </p> </td> 
+   <td colname="col2"> <p>整数。 処理時間を向上するために複数の部分に分割されたファイルの部分を特定します。 番号は、データが属する元のファイルのどの部分かを示します。</p>  <p>3 桁以上の整数にする必要があり、分割サイズが 100 よりも小さいは、前にゼロを付ける必要があります。</p>  <p>元のファイルには、分割番号はありません。 最初の分割ファイルは、001 で終わります。 後述の例を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>.gz (optional) </i></code> </p> </td> 
@@ -106,7 +113,7 @@ ht-degree: 94%
 
 [!DNL Amazon S3] の場所に送信されたファイルで、*`PID_ALIAS="XYZCustomer"`* を満たし、かつファイルコンテンツに [!DNL Google Advertiser IDs] を含むもの。
 
-例：増分ファイル：
+E.g. 増分ファイル：
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </code> </li> 
@@ -114,7 +121,7 @@ ht-degree: 94%
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000002.sync.gz </code> </li> 
 </ul>
 
-例：完全ファイル：
+E.g. 完全なファイル：
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
@@ -125,14 +132,14 @@ ht-degree: 94%
 
 [!DNL FTP] の場所に送信されたファイルで、*`PID_ALIAS`* がなく、ファイルコンテンツに [!DNL Apple Advertiser IDs] を含むもの：
 
-例：増分ファイル：
+E.g. 増分ファイル：
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_iter_1486140843000.sync.gz </code> </li> 
  <li> <code> ftp_1234_20915_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-例：完全ファイル：
+E.g. 完全なファイル：
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_full_1486140843000.sync.gz </code> </li> 
@@ -141,7 +148,7 @@ ht-degree: 94%
 
 **シナリオ 3**：[!DNL FTP]で *`PID_ALIAS="XYZCustomer"`* の場所に送信されたファイルで、ファイルコンテンツにサードパーティユーザー ID （*`Vendor ID=45454`*）を含むもの。
 
-例：増分ファイル：
+E.g. 増分ファイル：
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </code> </li> 
@@ -149,7 +156,7 @@ ht-degree: 94%
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-例：完全ファイル：
+E.g. 完全なファイル：
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
@@ -158,13 +165,13 @@ ht-degree: 94%
 
 ## 送信データファイルコンテンツ：構文とパラメーター {#outbound-contents-syntax}
 
-送信データファイルの情報を編成するのに使用する必須フィールド、構文、規則について説明します。これらの仕様に従って、データの形式を設定します。
+送信データファイルの情報を編成するのに使用する必須フィールド、構文、規則について説明します。 これらの仕様に従って、データの形式を設定します。
 
 <!-- c_outbound_data_file.xml -->
 
 >[!NOTE]
 >
->このドキュメントのスタイル要素（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>スタイル要素（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など） コード要素およびオプションを表します。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ### 構文
 
@@ -194,18 +201,18 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>訪問者が属するセグメントの ID。複数のセグメントをコンマで区切ります。 </p> </td> 
+   <td colname="col2"> <p>訪問者が属するセグメントの ID。 複数のセグメントをコンマで区切ります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>ユーザーが対象外だったセグメントの ID。複数のセグメントをコンマで区切ります。完全同期を使用すると、データファイルにはユーザーの現在のセグメントの完全なリストが含まれるので、削除されたセグメントを無視できます。通常、ユーザーが削除されたセグメントではなく、ユーザーが属するセグメントを知る必要があります。「<a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>」も参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーが対象外だったセグメントの ID。 複数のセグメントをコンマで区切ります。 完全同期を使用すると、データファイルにはユーザーの現在のセグメントの完全なリストが含まれるので、削除されたセグメントを無視できます。 通常、ユーザーが削除されたセグメントではなく、ユーザーが属するセグメントを知る必要があります。 「<a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>」も参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 例：基本的なファイル形式
 
-適切な形式のデータファイルは次のサンプルのようになります。このファイルエントリは、セグメント 24、26 および 27 の対象となるユーザーを示します。必要に応じて、スペースで `UUID` とセグメント ID を区切ります。もう 1 つのスペースで、セグメント ID のセットを区切ります。この例では、ユーザーは、セグメント 24、26 および 27 に属します。セグメント 25 および 28 からは削除されています。
+適切な形式のデータファイルは次のサンプルのようになります。 このファイルエントリは、セグメント 24、26 および 27 の対象となるユーザーを示します。 必要に応じて、スペースで `UUID` とセグメント ID を区切ります。 もう 1 つのスペースで、セグメント ID のセットを区切ります。 この例では、ユーザーは、セグメント 24、26 および 27 に属します。 セグメント 25 および 28 からは削除されています。
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28

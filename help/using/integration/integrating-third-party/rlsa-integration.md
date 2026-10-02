@@ -1,5 +1,5 @@
 ---
-description: 以下の手順には、AdWords リマーケティングリスト、ピクセルコード、Audience Manager の URL 宛先が必要です。検索広告向けリマーケティングリスト（RLSA）統合とも呼ばれます。有料検索にのみ適用されます。
+description: 以下の手順には、AdWords リマーケティングリスト、ピクセルコード、Audience Manager の URL 宛先が必要です。 検索広告向けリマーケティングリスト（RLSA）統合とも呼ばれます。 有料検索にのみ適用されます。
 seo-description: This procedure requires an AdWords remarketing list, pixel code, and an Audience Manager URL destination. It is also known as a remarketing list for search ads (RLSA) integration. Applies to paid search only.
 seo-title: Send Segments to a Google AdWords Remarketing List
 solution: Audience Manager
@@ -7,24 +7,31 @@ title: Google AdWords リマーケティングリストへのセグメントの�
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third-party Integration
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-TQID: https://experienceleague.adobe.com/BxJ9n5RLQwR8i9Sgu1cgeaijSCrKLltsAXdm0eQBqxY
+TQID: 'https://experienceleague.adobe.com/BxJ9n5RLQwR8i9Sgu1cgeaijSCrKLltsAXdm0eQBqxY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 284
-ht-degree: 100%
-
+source-wordcount: '299'
+ht-degree: 98%
 ---
-
 # Google Ads リマーケティングリストへのセグメントの送信 {#send-segments-to-a-google-adwords-remarketing-list}
 
-以下の手順には、[!DNL Google Ads] リマーケティングリスト、ピクセルコード、Audience Manager の [!DNL URL] が必要です。[!DNL destination]検索連動型広告のリマーケティングリスト（[!DNL RLSA]）との統合とも呼ばれます。有料検索にのみ適用されます。
+以下の手順には、[!DNL Google Ads] リマーケティングリスト、ピクセルコード、Audience Manager の [!DNL URL] が必要です。[!DNL destination] 検索連動型広告のリマーケティングリスト（[!DNL RLSA]）との統合とも呼ばれます。 有料検索にのみ適用されます。
 
 >[!IMPORTANT]
 >これは、2 つのシステムの製品化された統合ではありません。
@@ -32,18 +39,18 @@ ht-degree: 100%
 [!DNL Google Ads] リマーケティングリストを [!DNL Audience Manager] の [!DNL URL destination]として設定するには：
 
 1. [!DNL Google Ads] アカウントで、[Web サイトのリマーケティングリストを作成](https://support.google.com/tagmanager/answer/6106960?hl=ja)し、コンバージョン ID を書き出します。
-1. ベース URL およびセキュア URL のテンプレートとして、次の URL を使用します。xxxxxxxx セクションをコンバージョン ID に置き換えます。
+1. ベース URL およびセキュア URL のテンプレートとして、次の URL を使用します。 xxxxxxxx セクションをコンバージョン ID に置き換えます。
 
    ```
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. Audience Manager で、[ [!DNL URL destination]](../../features/destinations/create-url-destination.md)を作成するか、既存の[!DNL destination]を編集します。[!DNL destination]を作成する際には、次の設定を使用します。
+1. Audience Manager で、[ [!DNL URL destination]](../../features/destinations/create-url-destination.md)を作成するか、既存の[!DNL destination]を編集します。 [!DNL destination]を作成する際には、次の設定を使用します。
    * Type：URL
    * Serialize：Enabled
-   * 区切り：セミコロン（&amp;semi;）
+   * 区切り文字：セミコロン （&amp;semi;）
 
-1. セクションで、[!DNL URL] [!DNL destination] の[!UICONTROL Segment Mappings]セクションで、手順 2 のコードを [!DNL URL] および [!DNL Secure URL] フィールドに追加します。[!DNL URL] および [!DNL Secure URL] フィールドで、コードにそれぞれ `http:` と `https:` の接頭辞を付けます。
+1. セクションで、[!DNL URL] [!DNL destination] の[!UICONTROL Segment Mappings]セクションで、手順 2 のコードを [!DNL URL] および [!DNL Secure URL] フィールドに追加します。 [!DNL URL] および [!DNL Secure URL] フィールドで、コードにそれぞれ `http:` と `https:` の接頭辞を付けます。
 
    >[!IMPORTANT]
    >
@@ -67,7 +74,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >複数のセグメントを操作している場合、先[!DNL Google Ads] の[!DNL destination]にマッピングする各セグメントの新しいピクセルを取得します。これにより、データが所定のリマーケティングリストに適用されます。
+   >複数のセグメントを操作している場合、先[!DNL Google Ads] の[!DNL destination]にマッピングする各セグメントの新しいピクセルを取得します。 これにより、データが所定のリマーケティングリストに適用されます。
 
 1. 新しいセグメントをこの[!DNL destination]にマッピングする際は、マッピングを `aam=segmentID` として定義し、`segmentID` をセグメントの ID に置き換えます。
 1. [!DNL Google Ads] でバケットを定義する際には、手順 6 で定義したマッピングを照合するルールrを作成します。

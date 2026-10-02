@@ -8,28 +8,40 @@ title: データプライバシーリクエスト
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-TQID: https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q
+TQID: 'https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 100%
-
+source-wordcount: '1506'
+ht-degree: 99%
 ---
-
 # データプライバシーリクエスト {#data-privacy-requests}
 
 ## 概要 {#overview}
@@ -42,8 +54,8 @@ ht-degree: 100%
 
 [!DNL Audience Manager] から消費者データにアクセスして削除する個々のリクエストを送信するには、次の 2 つの方法があります。
 
-* [プライバシーサービスの UI](https://privacyui.cloud.adobe.io/) を使用する。[こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)のドキュメントを参照してください。
-* **[!DNL Privacy Service API]** を使用する。[こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)のドキュメントおよび[こちらの](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) [!DNL API] リファレンスを参照してください。
+* [プライバシーサービスの UI](https://privacyui.cloud.adobe.io/) を使用する。 [こちら](https://docs.adobe.com/content/help/ja-JP/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)のドキュメントを参照してください。
+* **[!DNL Privacy Service API]** を使用する。 [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja)のドキュメントおよび[こちらの](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) [!DNL API] リファレンスを参照してください。
 
 個々のデータのプライバシーリクエストを送信する場合、 **[Audience Manager 識別子](data-privacy-ids.md)** の節で説明されているように、[!DNL Audience Manager] 識別子（ID）を、それぞれの名前空間 ID（データソース ID）と共に送信できます。
 
@@ -67,16 +79,16 @@ ht-degree: 100%
 
 有効な [!DNL JSON] ファイルがどのようなものであるかを確認するには、[JSON のサンプルをダウンロード](../data-security-and-privacy/assets/access_request.json)できます。
 
-アドビは、30 日以内にお客様のデータプライバシーに関するお客様の要請に応える取り組みを理解しています。そのため、[!DNL Adobe] では、お客様からのデータ削除要求をできるだけ早急に処理するよう努めています。
+アドビは、30 日以内にお客様のデータプライバシーに関するお客様の要請に応える取り組みを理解しています。 そのため、[!DNL Adobe] では、お客様からのデータ削除要求をできるだけ早急に処理するよう努めています。
 
-消費者データ削除要求への応答として、[!DNL Audience Manager] によって、要求に含まれている [!DNL Audience Manager] 識別子に関連付けられた特性およびセグメントが削除されます。さらに、個人に対する [!DNL Audience Manager] 識別子は以降の [!DNL Audience Manager] によるデータ収集から完全にオプトアウトされ、それぞれの ID マッピングは削除されます。
+消費者データ削除要求への応答として、[!DNL Audience Manager] によって、要求に含まれている [!DNL Audience Manager] 識別子に関連付けられた特性およびセグメントが削除されます。 さらに、個人に対する [!DNL Audience Manager] 識別子は以降の [!DNL Audience Manager] によるデータ収集から完全にオプトアウトされ、それぞれの ID マッピングは削除されます。
 
 複数のデバイスにまたがる [!DNL CRM] ID や [!DNL cookie] ID などの宣言された ID がデータプライバシー要求で送信された場合、[!DNL Audience Manager] は関連付けられたすべてのデバイス（1 つの宣言された ID につき最大 100 個のデバイス）に対して必要な削除をおこないます。
 
-[!DNL Audience Manager]特定のデータの削除を要求しているデータ主体のセグメント解除の情報を送信することで、 からアクティベーションパートナーに対して削除要求が通知されます。ただし、一部のアクティベーションパートナーは、
+[!DNL Audience Manager]特定のデータの削除を要求しているデータ主体のセグメント解除の情報を送信することで、 からアクティベーションパートナーに対して削除要求が通知されます。 ただし、一部のアクティベーションパートナーは、
 
 1. [!DNL Audience Manager] からのセグメント解除（またはセグメント削除）リクエストをサポートできません。
-2. また、[!DNL Audience Manager] から 30 日未満の頻度で更新を受け取ることはできません。このような場合、[!DNL Audience Manager] をご利用のお客様は、アクティベーションパートナーに対して [!DNL Audience Manager] から自動で削除要求を送信することはできません。
+2. また、[!DNL Audience Manager] から 30 日未満の頻度で更新を受け取ることはできません。 このような場合、[!DNL Audience Manager] をご利用のお客様は、アクティベーションパートナーに対して [!DNL Audience Manager] から自動で削除要求を送信することはできません。
 
 このような場合、お客様はアクティベーションパートナーに対して、[!DNL Audience Manager] から自動で削除要求を送信することはできません。
 
@@ -84,13 +96,13 @@ ht-degree: 100%
 
 ## オプトアウト要求 {#opt-out-requests}
 
-[!DNL Audience Manager] は、オプトアウト管理に関する業界全体の標準をサポートしています。[!DNL Audience Manager] でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
+[!DNL Audience Manager] は、オプトアウト管理に関する業界全体の標準をサポートしています。 [!DNL Audience Manager] でサポートされているオプトアウトのタイプについて詳しくは、以降の説明を参照してください。
 
-データアクセスおよび削除の要求は[プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)で処理されますが、現在、オプトアウト要求は [!DNL DCS API] を通じてサポートされています。オプトアウト [!DNL API] 呼び出しの例を以下に示します。
+データアクセスおよび削除の要求は[プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)で処理されますが、現在、オプトアウト要求は [!DNL DCS API] を通じてサポートされています。 オプトアウト [!DNL API] 呼び出しの例を以下に示します。
 
 ### グローバルオプトアウト要求
 
-グローバルオプトアウトは、すべてのブランドにおける [!DNL Audience Manager] およびその他の [!DNL Adobe Experience Cloud] ソリューションにまたがるオプトアウトです。次の表は、グローバルオプトアウトに使用する手法の一覧です。
+グローバルオプトアウトは、すべてのブランドにおける [!DNL Audience Manager] およびその他の [!DNL Adobe Experience Cloud] ソリューションにまたがるオプトアウトです。 次の表は、グローバルオプトアウトに使用する手法の一覧です。
 
 <table id="table_F1027B9633E948DCBB11C141B381682A"> 
  <thead> 
@@ -102,7 +114,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p><a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p><a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">プライバシーの設定ページ</a>には、エンドユーザーが Adobe Experience Cloud 広告ソリューション（Audience Manager など）によるデータ収集の制御やオプトアウトをおこなうための 1 クリック機能があります。 特に、プライバシーの選択肢ページの<a href="https://www.adobe.com/jp/privacy/opt-out.html#customeruse" format="http" scope="external">ビジネス関連の顧客のセクション</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audience Manager に対する直接 API 呼び出し </p> </td> 
@@ -131,7 +143,7 @@ ht-degree: 100%
 
 ### 宣言された ID 呼び出しを使用するパートナーレベルのオプトアウト
 
-パートナーレベルのオプトアウトでは、特定の [!DNL Audience Manager] パートナーによるデータ収集からユーザーをオプトアウトできます。[!DNL CRM] ID やハッシュ化された電子メールアドレスなど、クロスデバイス ID に対するパートナーレベルのオプトアウト要求を送信できます。
+パートナーレベルのオプトアウトでは、特定の [!DNL Audience Manager] パートナーによるデータ収集からユーザーをオプトアウトできます。 [!DNL CRM] ID やハッシュ化された電子メールアドレスなど、クロスデバイス ID に対するパートナーレベルのオプトアウト要求を送信できます。
 
 宣言された ID 呼び出しを使用するパートナーレベルのオプトアウトの後：
 
@@ -139,12 +151,12 @@ ht-degree: 100%
 * [CRM ID](../../reference/ids-in-aam.md) にリンクされている最後のデバイス ID（[Audience Manager の一意のユーザー ID](../../reference/ids-in-aam.md)）は、データ収集からオプトアウトされます。
 * [!DNL Audience Manager] は、[!DNL CRM] ID および [!DNL CRM] ID にリンクされている最後のデバイス ID について、進行中のすべてのデータ収集、セグメント化、アクティブ化を停止します。
 * [!DNL Audience Manager] は、すべてのセグメントから、オプトアウトされた [!DNL CRM] ID と最後のデバイス ID のセグメントを解除します。
-* [!UICONTROL Destination] パートナーは、[!DNL CRM] ID と最後のデバイス ID に対するセグメント解除要求を受け取ります。セグメント化解除は、[リアルタイム](data-privacy-requests.md#aam-partners-with-unsegmentation)宛先とバッチ宛先の両方で機能します。
+* [!UICONTROL Destination] パートナーは、[!DNL CRM] ID と最後のデバイス ID に対するセグメント解除要求を受け取ります。 セグメント化解除は、[リアルタイム](data-privacy-requests.md#aam-partners-with-unsegmentation)宛先とバッチ宛先の両方で機能します。
 * 履歴データは削除されません。
 
 [!DNL Audience Manager] がパートナーレベルのオプトアウトリクエストを受信すると、[!DNL JSON] により返される [!DNL DCS] には[エラーコード 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes) が含まれます。ここには、[!DNL Audience Manager] ユーザー ID ではなく、[!UICONTROL "Encountered opt out tag"] というメッセージが表示されます。
 
-`d_cid` および `d_cid_ic` のキーと値のペアを使用して宣言された ID のオプトアウトリクエストを作成できます。`d_dpid` や `d_dpuuid` などの従来のパラメーターはまだ機能しますが、既に非推奨（廃止予定）となっています。詳しくは、[DPID と DPUUID に代わる CID](../../reference/cid.md) を参照してください。以下の例で、*斜体*&#x200B;の部分には実際の情報が入ります。
+`d_cid` および `d_cid_ic` のキーと値のペアを使用して宣言された ID のオプトアウトリクエストを作成できます。 `d_dpid` や `d_dpuuid` などの従来のパラメーターはまだ機能しますが、既に非推奨（廃止予定）となっています。 詳しくは、[DPID と DPUUID に代わる CID](../../reference/cid.md) を参照してください。 以下の例で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
 #### [!DNL CID] および [!DNL CID_IC] でのオプトアウト。
 
@@ -160,7 +172,7 @@ ht-degree: 100%
 
 ### デバイス ID 呼び出しを使用するパートナーレベルのオプトアウト
 
-パートナーレベルのオプトアウトでは、特定の [!DNL Audience Manager] パートナーによるデータ収集からユーザーをオプトアウトできます。[DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) に対して次の呼び出しを行うことにより、ブランドの指定デバイス ID でのデータ収集からオプトアウトできます。
+パートナーレベルのオプトアウトでは、特定の [!DNL Audience Manager] パートナーによるデータ収集からユーザーをオプトアウトできます。 [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) に対して次の呼び出しを行うことにより、ブランドの指定デバイス ID でのデータ収集からオプトアウトできます。
 
 | オプトアウト方法 | コードサンプル |
 |--- |--- |
@@ -174,10 +186,10 @@ ht-degree: 100%
 * デバイス ID がデータ収集からオプトアウトされます。
 * [!DNL Audience Manager] は、そのデバイス ID に転送される、パートナーのすべてのデータ収集、セグメント化またはアクティブ化を停止します。
 * [!DNL Audience Manager] は、すべてのセグメントからデバイス ID のセグメントを解除します。
-* 宛先パートナーは、デバイス ID のセグメント解除要求を受け取ります。セグメント化解除は、[リアルタイム](data-privacy-requests.md#aam-partners-with-unsegmentation)宛先とバッチ宛先の両方で機能します。
+* 宛先パートナーは、デバイス ID のセグメント解除要求を受け取ります。 セグメント化解除は、[リアルタイム](data-privacy-requests.md#aam-partners-with-unsegmentation)宛先とバッチ宛先の両方で機能します。
 * 履歴データは削除されません。
 
-## セグメント化解除に対応している [!DNL Audience Manager] パートナー  {#aam-partners-with-unsegmentation}
+## セグメント化解除に対応している [!DNL Audience Manager] パートナー {#aam-partners-with-unsegmentation}
 
 お客様が消費者データのプライバシーリクエストを自動化できるよう、[!DNL Audience Manager] からアクティベーションパートナーに対してセグメント解除（またはセグメント削除）の情報が送信され、データ主体からの削除要求が通知されます。
 
@@ -192,6 +204,6 @@ ht-degree: 100%
 
 ## データ修正要求 {#correction}
 
-[!DNL Audience Manager] はデータソースではないので、データ修正に対して [!DNL Audience Manager] でできることは限られています。修正においては、消費者が不正確な [!UICONTROL trait]／[!UICONTROL segment] からの解除を求める場合、または正しい [!UICONTROL trait]／[!UICONTROL segment] への適合を求める場合のいずれかとなります。
+[!DNL Audience Manager] はデータソースではないので、データ修正に対して [!DNL Audience Manager] でできることは限られています。 修正においては、消費者が不正確な [!UICONTROL trait]／[!UICONTROL segment] からの解除を求める場合、または正しい [!UICONTROL trait]／[!UICONTROL segment] への適合を求める場合のいずれかとなります。
 
-[!DNL Audience Manager] をご利用のお客様は、ユーザープロファイルに合致する信号／特性／セグメントを取得し、[オフラインのデータ収集](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)を通してこの情報を [!DNL Audience Manager] に送信できます。ユーザーの動作が変わらない限り、元の [!UICONTROL trait] および [!UICONTROL segments] に適合したままとなることにご注意ください。
+[!DNL Audience Manager] をご利用のお客様は、ユーザープロファイルに合致する信号／特性／セグメントを取得し、[オフラインのデータ収集](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)を通してこの情報を [!DNL Audience Manager] に送信できます。 ユーザーの動作が変わらない限り、元の [!UICONTROL trait] および [!UICONTROL segments] に適合したままとなることにご注意ください。

@@ -1,38 +1,41 @@
 ---
-description: セグメントのコンポーネントと、オーディエンス選定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
-landing-page-description: セグメントのコンポーネントと、オーディエンス選定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
-short-description: セグメントのコンポーネントと、オーディエンス選定条件の設定に使用する式について説明します。また、データの送信方法に関する情報も確認します。
+description: セグメントのコンポーネントと、オーディエンス選定条件の設定に使用する式について説明します。 また、データの送信方法に関する情報も確認します。
+landing-page-description: セグメントのコンポーネントと、オーディエンス選定条件の設定に使用する式について説明します。 また、データの送信方法に関する情報も確認します。
+short-description: セグメントのコンポーネントと、オーディエンス選定条件の設定に使用する式について説明します。 また、データの送信方法に関する情報も確認します。
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: シグナル、特性、セグメント
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
-TQID: https://experienceleague.adobe.com/brgTl8YZ3RYaFcWdImO1i3Jsxulp6-HYbiN45B7un-4
+TQID: 'https://experienceleague.adobe.com/brgTl8YZ3RYaFcWdImO1i3Jsxulp6-HYbiN45B7un-4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience segmentation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 393
-ht-degree: 100%
-
+source-wordcount: '397'
+ht-degree: 94%
 ---
-
-# [!UICONTROL Signals]、[!UICONTROL Traits]、[!UICONTROL Segments]  {#signals-traits-and-segments}
+# [!UICONTROL Signals]、[!UICONTROL Traits]、[!UICONTROL Segments] {#signals-traits-and-segments}
 
 [!DNL Audience Manager] [!UICONTROL segment]の構成要素、オーディエンスの認定基準の設定に使用される表現、イベント呼び出しでのデータの送信方法について説明します。
 
 ## 構成と目的
 
-[!DNL Audience Manager] データは、[!UICONTROL signals]、[!UICONTROL traits]、[!UICONTROL segments]および関連する選定ルールで構成されます。データ要素とルールが組み合わされて[!UICONTROL segments]になります。[!UICONTROL Segments]によって、サイト訪問者が関連グループに整理されます。[!DNL Audience Manager] [!UICONTROL segment] の 3 つの主要な構成要素を次の表で定義します。
+[!DNL Audience Manager] データは、[!UICONTROL signals]、[!UICONTROL traits]、[!UICONTROL segments]および関連する選定ルールで構成されます。 データ要素とルールが組み合わされて[!UICONTROL segments]になります。 [!UICONTROL Segments]によって、サイト訪問者が関連グループに整理されます。 [!DNL Audience Manager] [!UICONTROL segment] の 3 つの主要な構成要素を次の表で定義します。
 
 | 要素 | 構成 | 例 |
 |---|---|---|
 | [!UICONTROL Signal] | [!UICONTROL Signals]は [!DNL Audience Manager] における最小のデータ単位で、[ キーと値のペア](../reference/key-value-pairs-explained.md)として表されます。<br><br><ul><li>キーは、データセットを定義する定数です（例：gender、color、price）。</li><li>値は、定数に関連する変数です（例：male/female、green、100）。</li></ul>比較演算子は、キーと値を結合して、それらの間の関係を設定します。 | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
-| [!UICONTROL Trait] | 1 つ以上の[!UICONTROL signals]の組み合わせ。<br><br> [!DNL Boolean] 式および比較演算子を使用すると、[!UICONTROL trait]選定ルールを作成できます。<br><br>[!UICONTROL traits]と[!UICONTROL trait]グループを組み合わせて、詳細な選定要件を作成します。 | 例えば、使用可能な[!UICONTROL signals]から、次のような「`High End Camera Browser`」ルールを作成できます：`product=camera AND price>1000` |
-| [!UICONTROL Segment] | 共通する一連の属性を共有し、関連する[!UICONTROL traits]の対象として認定されるユーザー。[!DNL Boolean] 式を最新性／頻度要件と共に使用すると、[!UICONTROL segment]選定ルールを作成できます。<br><br>[!UICONTROL trait]と[!UICONTROL segment]ルールを組み合わせて、詳細な選定要件を作成します。 | 例えば、使用可能な[!UICONTROL traits]および[!UICONTROL signals]から、次のような[!UICONTROL segment]ルールを作成できます：`(product=camera AND type=digital SLR) OR (price>1000)` |
+| [!UICONTROL Trait] | 1 つ以上の[!UICONTROL signals]の組み合わせ。<br><br> [!DNL Boolean] 式および比較演算子を使用すると、[!UICONTROL trait]選定ルールを作成できます。 <br><br>[!UICONTROL traits]と[!UICONTROL trait]グループを組み合わせて、詳細な選定要件を作成します。 | 例えば、使用可能な[!UICONTROL signals]から、次のような「`High End Camera Browser`」ルールを作成できます：`product=camera AND price>1000` |
+| [!UICONTROL Segment] | 共通する一連の属性を共有し、関連する[!UICONTROL traits]の対象として認定されるユーザー。 [!DNL Boolean]式と最新性/頻度の要件により、[!UICONTROL segment]の選定ルールを作成できます。<br><br> [!UICONTROL trait]と[!UICONTROL segment]のルールを組み合わせて、正確な資格要件を作成します。 | 例えば、使用可能な[!UICONTROL traits]および[!UICONTROL signals]から、次のような[!UICONTROL segment]ルールを作成できます：`(product=camera AND type=digital SLR) OR (price>1000)` |
 
 以下の図を使用して、[!UICONTROL signals]、[!UICONTROL traits]、および[!UICONTROL segments]間の関係を覚えておいてください。
 
@@ -40,11 +43,11 @@ ht-degree: 100%
 
 **ビジュアルツールおよびコードエディターを使用した[!UICONTROL Traits]および[!UICONTROL Segment]ルールの作成**
 
-クライアントは、[!DNL Audience Manager] ユーザーインターフェイスのビジュアルツールおよびコードエディターを使用して、[!UICONTROL traits]および[!UICONTROL segments]を管理します。ビジュアルツールでは、検索機能、ポップアップオプション、ドロップダウンメニューおよびドラッグ＆ドロップ機能を使用して、ルールを作成できます。コードエディターは、上級ユーザーがオーディエンスセグメント化条件をプログラムで開発する手段となります。
+クライアントは、[!DNL Audience Manager] ユーザーインターフェイスのビジュアルツールおよびコードエディターを使用して、[!UICONTROL traits]および[!UICONTROL segments]を管理します。 ビジュアルツールでは、検索機能、ポップアップオプション、ドロップダウンメニューおよびドラッグ＆ドロップ機能を使用して、ルールを作成できます。 コードエディターは、上級ユーザーがオーディエンスセグメント化条件をプログラムで開発する手段となります。
 
 **にデータを送信するイベント呼び出し[!DNL Audience Manager]**
 
-イベント呼び出しは、Webサイトから [!DNL Audience Manager] にデータを送信します。この呼び出しには、[!DNL HTTP] リクエスト内の、[!UICONTROL signal]、[!UICONTROL trait]、および [!UICONTROL segment] データが含まれます。イベント自体は [!DNL URL] 文字列の `/event` に続くすべての部分です。次の例に示すように、このプロセスでは、複数の変数を [!DNL Audience Manager] に渡すために必要なイベント呼び出しは 1 つだけです。
+イベント呼び出しは、Webサイトから [!DNL Audience Manager] にデータを送信します。 この呼び出しには、[!DNL HTTP] リクエスト内の、[!UICONTROL signal]、[!UICONTROL trait]、および [!UICONTROL segment] データが含まれます。 イベント自体は [!DNL URL] 文字列の `/event` に続くすべての部分です。 次の例に示すように、このプロセスでは、複数の変数を [!DNL Audience Manager] に渡すために必要なイベント呼び出しは 1 つだけです。
 
 `https://<domain>/event?product=camera&price>100`
 

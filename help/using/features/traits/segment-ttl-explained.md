@@ -7,16 +7,21 @@ title: セグメント有効期間の説明
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 feature: Traits
 exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
-TQID: https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE
+TQID: 'https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 94%
-
+source-wordcount: '387'
+ht-degree: 93%
 ---
-
 # セグメントと特性の有効期間についての説明 {#segment-time-to-live-explained}
 
 特性の [!UICONTROL time-to-live]（[!DNL TTL]）がセグメントのメンバーシップにどのような影響を与えるかを説明します。
@@ -25,7 +30,7 @@ ht-degree: 94%
 
 ## 有効期間
 
-[!DNL TTL] は、最後の特性選定イベントの後、サイト訪問者がセグメントにとどまっている期間を定義します。[!DNL TTL] は、セグメントではなく、特性に対して設定されます。訪問者は、[!DNL TTL] 期間が終了するまでに対象となる特性が確認されない場合、セグメントから除外されます。新しい特性に対するデフォルトの [!DNL TTL] は 120 日です。0 日に設定すると、特性は有効期限なしになります。[TTL 値を設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)します（特性作成インターフェイスの「[!UICONTROL Advanced Options]」セクションで特性を作成または編集する場合）。
+[!DNL TTL] は、最後の特性選定イベントの後、サイト訪問者がセグメントにとどまっている期間を定義します。 [!DNL TTL] は、セグメントではなく、特性に対して設定されます。 訪問者は、[!DNL TTL] 期間が終了するまでに対象となる特性が確認されない場合、セグメントから除外されます。 新しい特性に対するデフォルトの [!DNL TTL] は 120 日です。 0 日に設定すると、特性は有効期限なしになります。 [TTL 値を設定](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)します（特性作成インターフェイスの「[!UICONTROL Advanced Options]」セクションで特性を作成または編集する場合）。
 
 ### 1 日のTTL（有効期限）の説明
 
@@ -35,20 +40,20 @@ Audience Manager は、次の式に基づいて、[!DNL TTL] の有効期限を 
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **例1**：特性が1:00 [!DNL UTC]で認識され、1日[!DNL TTL]が設定されました。 [!DNL TTL] は、24 時間 + 24 時間 － 1 = 47 時間後に期限切れとなります。
-* **例2**:23:00 [!DNL UTC]で認識された特性。1日[!DNL TTL]。 [!DNL TTL] は、24 時間 + 24 時間 － 23 = 25 時間後に期限切れとなります。
+* **例1**:1日[!DNL TTL]の[!DNL UTC]に、1:00に認識された特性。 [!DNL TTL] は、24 時間 + 24 時間 － 1 = 47 時間後に期限切れとなります。
+* **例2**:1日[!DNL TTL]の23:00 [!DNL UTC]に認識された特性。 [!DNL TTL] は、24 時間 + 24 時間 － 23 = 25 時間後に期限切れとなります。
 
 ## [!DNL TTL] とセグメントからのドロップアウト
 
-ユーザーは、[!DNL TTL] 期間内にいずれの特性も確認されない場合、セグメントから除外されます。例えば、[!DNL TTL] が 30 日の 1 つの特性セグメントがある場合、30 日以内に再びその特性が確認されないと、ユーザーはそのセグメントからドロップアウトします。
+ユーザーは、[!DNL TTL] 期間内にいずれの特性も確認されない場合、セグメントから除外されます。 例えば、[!DNL TTL] が 30 日の 1 つの特性セグメントがある場合、30 日以内に再びその特性が確認されないと、ユーザーはそのセグメントからドロップアウトします。
 
 ![](assets/ttl-explained.png)
 
 ## [!DNL TTL] とセグメントの更新
 
-[!DNL TTL] 期間内にそのセグメントの特性が確認されると、[!DNL TTL] がリセットされ、ユーザーはセグメントにとどまります。また、ほとんどのセグメントにはそれぞれ独自の [!DNL TTL] 期間を持つ複数の特性が含まれているので、ユーザーは、セグメントに関連付けられた任意の特性が確認され続けている限り、セグメントにとどまることができます（[!DNL TTL] 期間はリセットされます）。
+[!DNL TTL] 期間内にそのセグメントの特性が確認されると、[!DNL TTL] がリセットされ、ユーザーはセグメントにとどまります。 また、ほとんどのセグメントにはそれぞれ独自の [!DNL TTL] 期間を持つ複数の特性が含まれているので、ユーザーは、セグメントに関連付けられた任意の特性が確認され続けている限り、セグメントにとどまることができます（[!DNL TTL] 期間はリセットされます）。
 
-例えば、特性 A（30 日の [!DNL TTL]）と特性 B（15 日の [!DNL TTL]）で構成されるセグメント 1 があるとします。訪問者について各特性が 1 回だけ確認されていると仮定した場合の、[!DNL TTL] 更新プロセスおよびセグメントに属している期間の合計を以下の図で説明します。
+例えば、特性 A（30 日の [!DNL TTL]）と特性 B（15 日の [!DNL TTL]）で構成されるセグメント 1 があるとします。 訪問者について各特性が 1 回だけ確認されていると仮定した場合の、[!DNL TTL] 更新プロセスおよびセグメントに属している期間の合計を以下の図で説明します。
 
 ![](assets/ttl-renewal.png)
 

@@ -6,31 +6,40 @@ solution: Audience Manager
 title: ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション
 feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-TQID: https://experienceleague.adobe.com/QwP7cagUrIQ-jkLNzulJSoxKTT6VuNXAptoLTSpvCDM
+TQID: 'https://experienceleague.adobe.com/QwP7cagUrIQ-jkLNzulJSoxKTT6VuNXAptoLTSpvCDM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1123
-ht-degree: 95%
-
+source-wordcount: '1164'
+ht-degree: 94%
 ---
-
 # ワークフロー B - オフラインのみのデータに基づくパーソナライゼーション {#workflow-b}
 
 >[!IMPORTANT]
->この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法的なアドバイスは何も含まれません。 法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
 このページでは、オフラインのみの顧客データからオーディエンスセグメントを構築し、それらを People-Based Destinations に送信する方法について、順を追って説明します。
 
@@ -46,7 +55,7 @@ ht-degree: 95%
 
 ### 例
 
-対応するオンボード特性 ID について、下の表から顧客 ID を認定したい場合。[DPUUID](../../reference/ids-in-aam.md) が ID 999999 のデータソースに格納されていて、Audience Manager データソース ID が 123 だとしましょう。
+対応するオンボード特性 ID について、下の表から顧客 ID を認定したい場合。 [DPUUID](../../reference/ids-in-aam.md) が ID 999999 のデータソースに格納されていて、Audience Manager データソース ID が 123 だとしましょう。
 
 | 顧客 ID（DPUUID） | オンボードの特性 ID |
 | -------------------------------------- | ------------------- |
@@ -86,7 +95,7 @@ ht-degree: 95%
 
 **シナリオ 2：[DPUUID](../../reference/ids-in-aam.md) が、小文字のハッシュ化された電子メールアドレスになっていない。**
 
-この場合、ハッシュ化された電子メールアドレスを保存する新しいクロスデバイスデータソースを作成する必要があります。手順は次のとおりです。
+この場合、ハッシュ化された電子メールアドレスを保存する新しいクロスデバイスデータソースを作成する必要があります。 手順は次のとおりです。
 
 1. Audience Managerアカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** に移動して、**[!UICONTROL Add New]**&#x200B;をクリックします。
 1. 新しいデータソースに、**[!UICONTROL Name]** と **[!UICONTROL Description]** を入力します。
@@ -96,7 +105,7 @@ ht-degree: 95%
 
    >[!IMPORTANT]
    >
-   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。それ以外の場合は、[!DNL People-Based Destinations] では使用できません。
+   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。 Audience Manager は、この手順ではデータをハッシュ化しません。 このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。 それ以外の場合は、[!DNL People-Based Destinations] では使用できません。
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
@@ -106,13 +115,13 @@ ht-degree: 95%
 
 [!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/32577?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## ステップ 3 - ファイルベースのID同期を介してDPUUIDをハッシュ化されたメールアドレスに一致させる {#match-ids-emails}
 
 >[!IMPORTANT]
 >
-> この手順は前述の[シナリオ 2](people-based-destinations-workflow-offline.md#configure-data-source-settings) にのみ適用されます。既存の [DPUUID](../../reference/ids-in-aam.md) がハッシュ化された電子メールアドレスの場合は、[手順 4 - セグメントの結合ルールの作成](#create-profile-merge-rule)をスキップしてください。
+> この手順は前述の[シナリオ 2](people-based-destinations-workflow-offline.md#configure-data-source-settings) にのみ適用されます。 既存の [DPUUID](../../reference/ids-in-aam.md) がハッシュ化された電子メールアドレスの場合は、[手順 4 - セグメントの結合ルールの作成](#create-profile-merge-rule)をスキップしてください。
 
 手順 1 の例にある既存の [DPUUID](../../reference/ids-in-aam.md) と、下の表（右側の列）のハッシュ化された電子メールアドレスを照合し、ハッシュ化された電子メールアドレスを「[手順 2 - データソースの設定](#configure-data-source-settings)」で作成した新しいデータソースに保存するとします。
 
@@ -147,12 +156,12 @@ ht-degree: 95%
 
  
 
-上記の例では、ファイル名は `c2c_id_999999_987654_1560431657.sync` となります。
-
+上記の例では、ファイル名は次のようになります。
+`c2c_id_999999_987654_1560431657.sync`
 
 [サンプルファイルをここにダウンロードしてください](assets/c2c_id_999999_987654_1560431657.sync)。
 
-ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアップロードする必要があります。ID 同期ファイルのアップロード方法について詳しくは、[Audience Manager へのバッチデータの送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)を参照してください。
+ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアップロードする必要があります。 ID 同期ファイルのアップロード方法について詳しくは、[Audience Manager へのバッチデータの送信](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)を参照してください。
 
 ## 手順4 - セグメント化のためのプロファイル結合ルールの作成 {#create-profile-merge-rule}
 
@@ -171,18 +180,18 @@ ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアッ
 
 ## 手順6 - People-Based Platform認証の設定 {#configure-authentication}
 
-1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
+1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。 ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。 それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
 1. 「**[!UICONTROL Add Account]**」をクリックします。
 1. **[!UICONTROL People-Based Platform]** ドロップダウンメニューを使用して、統合を設定するプラットフォームを選択します。
    ![ユーザーベースのプラットフォーム](assets/pbd-add.png)
 1. **[!UICONTROL Confirm]**&#x200B;をクリックすると、選択したプラットフォームの認証ページにリダイレクトされます。
-1. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、「**[!UICONTROL Confirm]**」をクリックします。
-1. Audience Manager のページ上部に通知が表示され、アカウントが正常に追加されたかどうかがわかります。また、連絡先電子メールアドレスを追加して、ソーシャルプラットフォーム認証の有効期限が近づいたら通知を受け取ることもできます。
+1. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。 使用する広告主アカウントを選択し、「**[!UICONTROL Confirm]**」をクリックします。
+1. Audience Manager のページ上部に通知が表示され、アカウントが正常に追加されたかどうかがわかります。 また、連絡先電子メールアドレスを追加して、ソーシャルプラットフォーム認証の有効期限が近づいたら通知を受け取ることもできます。
 
 >[!IMPORTANT]
 >
->Audience Manager は、一定期間後に期限切れになる認証トークンを介して、ソーシャルプラットフォームとの統合を処理します。期限切れトークンの更新方法について詳しくは、「認証トークンの更新」を参照してください。
+>Audience Manager は、一定期間後に期限切れになる認証トークンを介して、ソーシャルプラットフォームとの統合を処理します。 期限切れトークンの更新方法について詳しくは、「認証トークンの更新」を参照してください。
 
 ## 手順7 - ピープルベースの宛先の作成 {#create-destination}
 
@@ -196,5 +205,5 @@ ID 同期ファイルを作成したら、[!DNL Amazon S3] バケットにアッ
 1. 「**[!UICONTROL Next]**」をクリックします。
 1. この宛先に設定する **[!UICONTROL Data Export Labels]** を選択します。
 1. **[!UICONTROL Configuration]** セクションで、ハッシュ化されたデータソースを含むデータソースを選択します。
-1. **[!UICONTROL Segment Mappings]** セクションで、この宛先に送信するセグメントを選択します。これは、「[手順 5 - オーディエンスセグメントを作成する](people-based-destinations-workflow-offline.md#create-audience-segments)」で作成したセグメントです。
+1. **[!UICONTROL Segment Mappings]** セクションで、この宛先に送信するセグメントを選択します。 これは、「[手順 5 - オーディエンスセグメントを作成する](people-based-destinations-workflow-offline.md#create-audience-segments)」で作成したセグメントです。
 1. 宛先を保存します。

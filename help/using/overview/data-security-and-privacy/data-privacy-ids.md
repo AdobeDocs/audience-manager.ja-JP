@@ -7,23 +7,31 @@ keywords: GDPR UI、GDPR API、CCPA、プライバシー、AAM ID
 title: Audience Manager 識別子（ID）
 feature: Data Governance & Privacy
 exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
-TQID: https://experienceleague.adobe.com/YZn8tjI28VWvXTsV-VF8IJoj9Pr7YI2ZgbA7ynvyPuo
+TQID: 'https://experienceleague.adobe.com/YZn8tjI28VWvXTsV-VF8IJoj9Pr7YI2ZgbA7ynvyPuo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '243'
 ht-degree: 100%
-
 ---
-
 # Audience Manager 識別子（ID） {#aam-ids}
 
-Adobe Audience Manager に対して[データプライバシーリクエスト](data-privacy-requests.md)を送信する際、以下のいずれかの識別子（ID）を含める必要があります。ID 形式について詳しくは、[Audience Manager ID のインデックス](../../reference/ids-in-aam.md)を参照してください。
+Adobe Audience Manager に対して[データプライバシーリクエスト](data-privacy-requests.md)を送信する際、以下のいずれかの識別子（ID）を含める必要があります。 ID 形式について詳しくは、[Audience Manager ID のインデックス](../../reference/ids-in-aam.md)を参照してください。
 
 ## Adobe Audience Manager の一意のユーザー ID
 
@@ -91,7 +99,7 @@ Adobe Audience Manager に対して[データプライバシーリクエスト](
 
 >[!NOTE]
 >
->[!DNL ECID]名前空間を使用することもできます。2 つ目の [!DNL JSON]の記述例を参照してください。
+>[!DNL ECID]名前空間を使用することもできます。 2 つ目の [!DNL JSON]の記述例を参照してください。
 
 **JSON の例**:
 
@@ -147,7 +155,7 @@ Adobe Audience Manager に対して[データプライバシーリクエスト](
 
 **定義**：匿名のサイト訪問者に設定する Cookie やオフラインシステムからの [!DNL CRM] ID やハッシュ化されたユーザー名などの顧客 ID。
 
-**名前空間 ID**：顧客固有。Audience Manager インスタンスから検索します。
+**名前空間 ID**：顧客固有。 Audience Manager インスタンスから検索します。
 
 **JSON の例**:
 
@@ -224,7 +232,7 @@ Adobe Audience Manager に対して[データプライバシーリクエスト](
 
 **ユーザー ID**：`d_cid_ic`
 
-**定義**：データソースの統合コード。これは、[!DNL API] での [!DNL Adobe Experience Cloud Privacy Core Service]に対するリクエストで、データソース ID や名前空間 ID の代わりに使用できま す。
+**定義**：データソースの統合コード。 これは、[!DNL API] での [!DNL Adobe Experience Cloud Privacy Core Service]に対するリクエストで、データソース ID や名前空間 ID の代わりに使用できま す。
 
 **名前空間 ID**：非該当
 

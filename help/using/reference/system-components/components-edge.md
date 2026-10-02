@@ -7,18 +7,24 @@ title: エッジデータセンターについて
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 feature: System Components
 exl-id: 28958b49-3075-4601-9271-ef2913721a66
-TQID: https://experienceleague.adobe.com/S1eOQwB9eoOlLbnbXtqjArrSEa2cTXjWwvJfwNbAtXc
+TQID: 'https://experienceleague.adobe.com/S1eOQwB9eoOlLbnbXtqjArrSEa2cTXjWwvJfwNbAtXc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: f518b7e7-52a7-4298-a970-88c25c36ab31
+    internal-label: System components
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '225'
 ht-degree: 100%
-
 ---
-
 # エッジデータセンターについて{#understanding-the-edge-data-center}
 
 Audience Manager はエッジコンピューティングという分散型トポロジを採用することで、外部ソースによって課される要求を満たします。
@@ -31,15 +37,15 @@ c_compedge.xml
 
  -->
 
-エッジコンピューティングにおいては「エッジ」そのものが国の境界を超えるので、インターネット全体に散らばっている要求への応答時間の短縮を図ることができます。つまり、[!DNL Audience Manager] では、要求元に最も近い場所に、動的に処理を振り分けることで、最短のルートでデータを返します。エッジコンピューティングによってサイトのパフォーマンスが確保されることから、Web サイトの優れたユーザーエクスペリエンスを維持できます。エッジデータセンターは、[!DNL Audience Manager] とデータのやり取りをするうえでの主要なゲートウェイとなります。
+エッジコンピューティングにおいては「エッジ」そのものが国の境界を超えるので、インターネット全体に散らばっている要求への応答時間の短縮を図ることができます。 つまり、[!DNL Audience Manager] では、要求元に最も近い場所に、動的に処理を振り分けることで、最短のルートでデータを返します。 エッジコンピューティングによってサイトのパフォーマンスが確保されることから、Web サイトの優れたユーザーエクスペリエンスを維持できます。 エッジデータセンターは、[!DNL Audience Manager] とデータのやり取りをするうえでの主要なゲートウェイとなります。
 
 [!DNL Audience Manager] のエッジデータセンターには次のようなものがあります。
 
-* **コアサーバー：**&#x200B;これらは [!DNL Audience Manager] のメインシステムです。データを更新し、エッジサーバーに提供します。
+* **コアサーバー：**&#x200B;これらは [!DNL Audience Manager] のメインシステムです。 データを更新し、エッジサーバーに提供します。
 
-* **エッジサーバー：**&#x200B;多くの場合、これらはアプリケーションサーバーや Web サーバーです。[!DNL Audience Manager] とインターネットとの間の境界に位置します。[!DNL DCS] や Akamai システムなどのエッジサーバーは通常、[!DNL Audience Manager] で出し入れされるデータおよび要求を処理します。
+* **エッジサーバー：**&#x200B;多くの場合、これらはアプリケーションサーバーや Web サーバーです。 [!DNL Audience Manager] とインターネットとの間の境界に位置します。 [!DNL DCS] や Akamai システムなどのエッジサーバーは通常、[!DNL Audience Manager] で出し入れされるデータおよび要求を処理します。
 
-* **ロードバランサー：**&#x200B;インターネットアプリケーションにつきものの不均等な計算／処理要求を管理します。これらのバランサーは、クラスター化されたサーバーにおいて、あるサーバーがオーバーロードで他のサーバーがアイドル状態となることを回避します。
+* **ロードバランサー：**&#x200B;インターネットアプリケーションにつきものの不均等な計算／処理要求を管理します。 これらのバランサーは、クラスター化されたサーバーにおいて、あるサーバーがオーバーロードで他のサーバーがアイドル状態となることを回避します。
 
 次の図は、Audience Manager のエッジデータセンター環境を示したものです。
 

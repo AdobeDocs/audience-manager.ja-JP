@@ -1,5 +1,5 @@
 ---
-description: 結合ルールオプションを使用すると、Audience Manager がセグメント化に使用するデータのタイプを制御できます。結合ルールには、プロファイルリンクデバイスグラフ、または Audience Manager と統合しているその他のサードパーティのデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。プロファイル結合ルールは最大で 4 つ作成できます。
+description: 結合ルールオプションを使用すると、Audience Manager がセグメント化に使用するデータのタイプを制御できます。 結合ルールには、プロファイルリンクデバイスグラフ、または Audience Manager と統合しているその他のサードパーティのデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。 プロファイル結合ルールは最大で 4 つ作成できます。
 seo-description: The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the Profile Link device graph and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 4 Profile Merge Rules.
 seo-title: Profile Merge Rule Options Defined
 solution: Audience Manager
@@ -7,37 +7,47 @@ title: 定義済みのプロファイルの結合ルールオプション
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-TQID: https://experienceleague.adobe.com/kfGcdvkr7dmluaAXdLdX4eRvRH15H1Sxd2w4yoPBSzc
+TQID: 'https://experienceleague.adobe.com/kfGcdvkr7dmluaAXdLdX4eRvRH15H1Sxd2w4yoPBSzc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '828'
 ht-degree: 98%
-
 ---
+# [!UICONTROL Profile Merge Rules]定義済みオプション {#profile-merge-rule-options-defined}
 
-# [!UICONTROL Profile Merge Rules]定義済みオプション  {#profile-merge-rule-options-defined}
-
-[!UICONTROL profile merge rule] オプションを使用すると、[!DNL Audience Manager] がセグメント化に使用するデータのタイプを制御できます。[!UICONTROL profile merge rule] には、[!UICONTROL Profile Link] デバイスグラフ、および [!DNL Audience Manager] と統合しているその他のサードパーティのデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。最大4 つの[!UICONTROL Profile Merge Rules]を作成できます。4 つ目の [!UICONTROL Profile Merge Rule] は、[!UICONTROL People-Based Destinations] アドオンを購入した顧客のみが利用できます。
+[!UICONTROL profile merge rule] オプションを使用すると、[!DNL Audience Manager] がセグメント化に使用するデータのタイプを制御できます。 [!UICONTROL profile merge rule] には、[!UICONTROL Profile Link] デバイスグラフ、および [!DNL Audience Manager] と統合しているその他のサードパーティのデバイスグラフプロバイダーによってマッピングされたデバイスプロファイルを含めることができます。 最大4 つの[!UICONTROL Profile Merge Rules]を作成できます。 4 つ目の [!UICONTROL Profile Merge Rule] は、[!UICONTROL People-Based Destinations] アドオンを購入した顧客のみが利用できます。
 
 [!UICONTROL Profile Merge Rule Setup] で、以下のオプションから選択し、[!UICONTROL Profile Merge Rule] を構築します。
 
 ![profile-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
-## [!UICONTROL Profile Merge Rule]オプションの概要  {#overview}
+## [!UICONTROL Profile Merge Rule]オプションの概要 {#overview}
 
-[!UICONTROL Profile Merge Rules]では、特定の使用例に合わせて様々なルールの組み合わせを使用できます。それぞれのルールの組み合わせを使用するタイミングについて詳しくは、次の表を参照してください。
+[!UICONTROL Profile Merge Rules]では、特定の使用例に合わせて様々なルールの組み合わせを使用できます。 それぞれのルールの組み合わせを使用するタイミングについて詳しくは、次の表を参照してください。
 
 | [!UICONTROL Cross-Device Option] | [!UICONTROL Device Option] | 使用可否 | 評価タイプ | [!UICONTROL Audience Lab] サポート | ユースケース |
 | ------------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----| -------------------- |
@@ -49,7 +59,7 @@ ht-degree: 98%
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] | すべての顧客 | リアルタイムとバッチ | × | [高度なクロスデバイスターゲティング](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | なし | [People-Based Destinations](../destinations/people-based-destinations-overview.md) のユーザー専用 | バッチのみ | × | [People-Based Destinations のターゲティング](merge-rule-targeting-options.md#all-cross-device) |
 
-## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment]評価  {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment]評価 {#segment-evaluation}
 
 [!UICONTROL Profile Merge Rules] の設定に応じて、[!UICONTROL segment] はリアルタイム、バッチまたはその両方で[!DNL Audience Manager]評価を実行できます。
 
@@ -57,7 +67,7 @@ ht-degree: 98%
 * バッチ[!UICONTROL segment]評価は、以前に認定された[!UICONTROL traits]に対して実行されます。
 * [!UICONTROL Profile Merge Rules] は、リアルタイムセグメント評価とバッチ[!UICONTROL segment]評価の両方をサポートし、リアルタイム訪問者アクティビティと以前に認定された[!UICONTROL traits]を組み合わせます。
 
-## [!UICONTROL Profile Merge Rules]レポート遅延  {#reporting-latency}
+## [!UICONTROL Profile Merge Rules]レポート遅延 {#reporting-latency}
 
 リアルタイム[!UICONTROL segment]評価は、[!UICONTROL Profile Merge Rules]レポートに即座に反映されます。
 
@@ -65,7 +75,7 @@ ht-degree: 98%
 
 ## [!UICONTROL Cross-Device Options] {#auth-options}
 
-[!UICONTROL Cross-Device Options] を使用すると、未認証ユーザーと認証済みユーザーを選択し、クロスデバイスプロファイルをセグメント化に利用することができます。これらのオプションにより、共有デバイスで特定のユーザーを識別してそのユーザーにリーチすることができます。匿名ユーザーと認証済みユーザーについて詳しくは、[Audience Managerの訪問者認証の状態](../../reference/visitor-authentication-states.md)を参照してください。
+[!UICONTROL Cross-Device Options] を使用すると、未認証ユーザーと認証済みユーザーを選択し、クロスデバイスプロファイルをセグメント化に利用することができます。 これらのオプションにより、共有デバイスで特定のユーザーを識別してそのユーザーにリーチすることができます。 匿名ユーザーと認証済みユーザーについて詳しくは、[Audience Managerの訪問者認証の状態](../../reference/visitor-authentication-states.md)を参照してください。
 
 <table id="table_4CE2DD312F54480E96BEAF72800789FB"> 
  <thead> 
@@ -85,22 +95,22 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">最後に認証されたプロファイル</span></b> </p> </td> 
-   <td colname="col2"> <p>デバイスに最後にログインしたユーザーの認証済みプロファイルから <span class="keyword">Audience Manager</span> がデータを読み取るよう設定します。 </p> <p>このオプションを選択すると、<span class="keyword">Audience Manager</span> はユーザーが匿名ユーザーの場合に新しい特性データを認証済みプロファイルに書き込みません。認証時に、新しい特性データがユーザーの認証済みプロファイルに書き込まれます。 </p> </td>
+   <td colname="col2"> <p>デバイスに最後にログインしたユーザーの認証済みプロファイルから <span class="keyword">Audience Manager</span> がデータを読み取るよう設定します。 </p> <p>このオプションを選択すると、<span class="keyword">Audience Manager</span> はユーザーが匿名ユーザーの場合に新しい特性データを認証済みプロファイルに書き込みません。 認証時に、新しい特性データがユーザーの認証済みプロファイルに書き込まれます。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">すべてのクロスデバイス対応プロファイル</span></b> </p> </td> 
-   <td colname="col2"> <p>認証状態に関係なく、すべてのクロスデバイス対応プロファイルからデータを読み取るよう Audience Manager に伝えます。このオプションは、People-Based Destinations アドオンを購入した Audience Manager ユーザーのみが使用できます。</p> </td>
+   <td colname="col2"> <p>認証状態に関係なく、すべてのクロスデバイス対応プロファイルからデータを読み取るよう Audience Manager に伝えます。 このオプションは、People-Based Destinations アドオンを購入した Audience Manager ユーザーのみが使用できます。</p> </td>
   </tr>
  </tbody>
 </table>
 
 ## [!UICONTROL Cross-Device Profile Options] {#profile-options}
 
-[!UICONTROL Cross-Device Profile Options]には、[!UICONTROL cross-device data sources]がリストされます。これらのオプションは、[!UICONTROL cross-device] [!UICONTROL data source] の作成時に提供した名前を使用します（[クロスデバイス対応データソースの作成](merge-rules-start.md#create-data-source)を参照）。各プロファイルルールで使用する[!UICONTROL cross-device data sources]は最大 3 つ選択できます。[!UICONTROL Authenticated Profile Options]は、**[!UICONTROL Current Authenticated Profiles]**&#x200B;または&#x200B;**[!UICONTROL Last Authenticated Profiles]**&#x200B;を選択したときに使用できます。
+[!UICONTROL Cross-Device Profile Options]には、[!UICONTROL cross-device data sources]がリストされます。 これらのオプションは、[!UICONTROL cross-device] [!UICONTROL data source] の作成時に提供した名前を使用します（[クロスデバイス対応データソースの作成](merge-rules-start.md#create-data-source)を参照）。 各プロファイルルールで使用する[!UICONTROL cross-device data sources]は最大 3 つ選択できます。 [!UICONTROL Authenticated Profile Options]は、**[!UICONTROL Current Authenticated Profiles]**&#x200B;または&#x200B;**[!UICONTROL Last Authenticated Profiles]**&#x200B;を選択したときに使用できます。
 
 ## [!UICONTROL Device Options] {#device-options}
 
-[!UICONTROL Device Options]では、*`device profile`*&#x200B;で使用する [!UICONTROL Profile Merge Rule] のタイプを選択できます。デバイスプロファイルは、匿名の閲覧アクティビティから収集された[!UICONTROL traits]を使用して作成されます。少なくとも、[!UICONTROL profile merge rule]には、[!UICONTROL authenticated option]と[!UICONTROL device option]が含まれます。
+[!UICONTROL Device Options]では、*`device profile`*&#x200B;で使用する [!UICONTROL Profile Merge Rule] のタイプを選択できます。 デバイスプロファイルは、匿名の閲覧アクティビティから収集された[!UICONTROL traits]を使用して作成されます。 少なくとも、[!UICONTROL profile merge rule]には、[!UICONTROL authenticated option]と[!UICONTROL device option]が含まれます。
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -120,23 +130,23 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol">プロファイルリンクデバイスグラフ</span></b> </p> </td> 
-   <td colname="col2"> <p><span class="keyword">Audience Manager</span> が、現在のデバイスに加え、ユーザーが最後に認証を受けた他の 100 台までのデバイスからプロファイルを読み取るよう指示します。このデバイスグラフは、<span class="keyword">Audience Manager</span> で独自のファーストパーティデータに対して構築されます。デジタルプロパティにまたがって高度な認証を使用している顧客に最適です。<span class="wintitle">プロファイルリンク</span>デバイスグラフはリアルタイムで更新されます。このオプションは、「<b><span class="uicontrol">Current Authenticated Profile</span></b>」または「<b><span class="uicontrol">Last Authenticated Profile</span></b>」を選択した場合に使用できます。このオプションを使用する場合は、認証済みのプロファイルを 1 つだけ選択できます（その他は <span class="keyword">Audience Manager</span> により自動的にグレー表示されます）。<a href="profile-link-use-case.md">プロファイルリンクデバイスグラフのユースケース</a>も参照してください。 </p> </td>
+   <td colname="col2"> <p><span class="keyword">Audience Manager</span> が、現在のデバイスに加え、ユーザーが最後に認証を受けた他の 100 台までのデバイスからプロファイルを読み取るよう指示します。 このデバイスグラフは、<span class="keyword">Audience Manager</span> で独自のファーストパーティデータに対して構築されます。 デジタルプロパティにまたがって高度な認証を使用している顧客に最適です。 <span class="wintitle">プロファイルリンク</span>デバイスグラフはリアルタイムで更新されます。 このオプションは、「<b><span class="uicontrol">Current Authenticated Profile</span></b>」または「<b><span class="uicontrol">Last Authenticated Profile</span></b>」を選択した場合に使用できます。 このオプションを使用する場合は、認証済みのプロファイルを 1 つだけ選択できます（その他は <span class="keyword">Audience Manager</span> により自動的にグレー表示されます）。 <a href="profile-link-use-case.md">プロファイルリンクデバイスグラフのユースケース</a>も参照してください。 </p> </td>
   </tr>
 
 <tr> 
    <td colname="col1"> <p><b>サードパーティデバイスグラフオプション</b>（個人と世帯） </p> </td>
-   <td colname="col2"> <p>これらのオプションを使用すると、サードパーティベンダーによるデバイスグラフテクノロジーに基づいて結合ルールを構築できます。サードパーティデバイスグラフから、以下の情報が得られます。 </p> <p> 
+   <td colname="col2"> <p>これらのオプションを使用すると、サードパーティベンダーによるデバイスグラフテクノロジーに基づいて結合ルールを構築できます。 サードパーティデバイスグラフから、以下の情報が得られます。 </p> <p> 
      <ul id="ul_5BA0D940BA15484FADF134A5A73815D5"> 
       <li id="li_389ACEBBF79A47499B6119B0F9CB3B5D"> 確率論的データと決定論的データ。 </li> 
       <li id="li_E8606D3871A145A68E87BDC3554AC4EF">個人レベルまたは世帯レベルでのデータ。 </li> 
-     </ul> </p> <p>これらのオプションを使用するには、<span class="keyword">Audience Manager</span> と統合しているデバイスグラフプロバイダーの顧客でなければなりません。詳細情報や基本情報については、アカウントマネージャーにお問い合わせください。 </p> </td>
+     </ul> </p> <p>これらのオプションを使用するには、<span class="keyword">Audience Manager</span> と統合しているデバイスグラフプロバイダーの顧客でなければなりません。 詳細情報や基本情報については、アカウントマネージャーにお問い合わせください。 </p> </td>
   </tr>
  </tbody>
 </table>
 
 ## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-他の [!DNL Experience Cloud] ソリューションから自動的に作成されたオーディエンスセグメントは、[!DNL Audience Manager] の外部で定義された結合ルールに基づき、[!UICONTROL External Merge Policy] を使用しているとしてマークされます。例えば、[Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](../../integration/integration-aep/aam-aep-audience-sharing.md)を参照してください。
+他の [!DNL Experience Cloud] ソリューションから自動的に作成されたオーディエンスセグメントは、[!DNL Audience Manager] の外部で定義された結合ルールに基づき、[!UICONTROL External Merge Policy] を使用しているとしてマークされます。 例えば、[Audience Manager と Adobe Experience Platform の間でのオーディエンスの共有](../../integration/integration-aep/aam-aep-audience-sharing.md)を参照してください。
 
 >[!MORELIKETHIS]
 >

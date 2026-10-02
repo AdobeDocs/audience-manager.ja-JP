@@ -7,18 +7,24 @@ title: 送信ファイル履歴
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
 feature: Inbound and Outbound Reports
 exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
-TQID: https://experienceleague.adobe.com/bAoUgntw3hZBsEuyPQV6yX2ftNRFV9HIv9QbierOgmA
+TQID: 'https://experienceleague.adobe.com/bAoUgntw3hZBsEuyPQV6yX2ftNRFV9HIv9QbierOgmA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: bacaf04d-fec1-4cf9-a97e-cb1b36e40b07
+    internal-label: Inbound and outbound reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 152
+source-wordcount: '152'
 ht-degree: 100%
-
 ---
-
 # 送信ファイル履歴 {#outbound-file-history}
 
 指定した宛先と期間について、アウトバウンドの一括ジョブの履歴情報を表示できます。
@@ -62,7 +68,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Records Received </td> 
-   <td colname="col2"> <p><span class="keyword">アドビ</span>がファイルに生成し、宛先への送信を試行したレコードの合計数。ほとんどの場合、この値は成功したファイルと失敗したファイルの合計数です。 </p> </td> 
+   <td colname="col2"> <p><span class="keyword">アドビ</span>がファイルに生成し、宛先への送信を試行したレコードの合計数。 ほとんどの場合、この値は成功したファイルと失敗したファイルの合計数です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,26 +7,36 @@ title: Tag Management コンポーネント
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 feature: System Components
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
-TQID: https://experienceleague.adobe.com/iOniWbVTajyhGmIl3IDdxrP5dZ-ULKkA-9ySOXniqUI
+TQID: 'https://experienceleague.adobe.com/iOniWbVTajyhGmIl3IDdxrP5dZ-ULKkA-9ySOXniqUI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: f518b7e7-52a7-4298-a970-88c25c36ab31
+    internal-label: System components
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data management
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '322'
 ht-degree: 100%
-
 ---
-
 # Tag Management コンポーネント{#tag-management-components}
 
 Audience Manager のタグ管理コンポーネントには、クライアントポータル、Adobe Tag Manager（廃止予定。Adobe Experience Platform タグを代替として推奨）、DIL、Akamai、制御データベースなどがあります。
@@ -47,19 +57,19 @@ Audience Manager には次のコンポーネントがあります。
 
 ## クライアントポータル {#client-portal}
 
-クライアントポータルは、タグおよびデータ管理の主要なユーザーインターフェイス（UI）です。ポータルを使用してタグの操作、特性およびセグメントの作成、宛先の設定、およびレポートによるキャンペーンパフォーマンスの監視をおこないます。
+クライアントポータルは、タグおよびデータ管理の主要なユーザーインターフェイス（UI）です。 ポータルを使用してタグの操作、特性およびセグメントの作成、宛先の設定、およびレポートによるキャンペーンパフォーマンスの監視をおこないます。
 
 ## DIL／TIM コンテナ {#dil-tim}
 
-[!UICONTROL DIL] コンテナは、[!DNL Audience Manager] のデータ収集コードを Web サイトに配置する際に使用されます。[!UICONTROL TIM] は非推奨（廃止予定）となった Tag Insertion Manager です。[!DNL Audience Manager] では使用されなくなりました。代わりに、[Adobe Experience Platform タグ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ja)の [!DNL Audience Manager] 拡張機能を使用して、インベントリのページに配置するコンテナコードを設定および生成します。
+[!UICONTROL DIL] コンテナは、[!DNL Audience Manager] のデータ収集コードを Web サイトに配置する際に使用されます。 [!UICONTROL TIM] は非推奨（廃止予定）となった Tag Insertion Manager です。 [!DNL Audience Manager] では使用されなくなりました。 代わりに、[Adobe Experience Platform タグ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=ja)の [!DNL Audience Manager] 拡張機能を使用して、インベントリのページに配置するコンテナコードを設定および生成します。
 
 ## データ統合ライブラリ（DIL） {#dil}
 
-[Data Information Library](../../dil/dil-overview.md)（DIL）は、Web サイトからデータを収集するための自己完結型の API モジュールです。[!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。[!UICONTROL DIL] はこれらのアクションを自動で実行します。これに加えて、[!UICONTROL DIL] はコンパクトです。自己完結型のコードライブラリであるので、情報収集に必要なコーディング量を削減できます。さらには、[!UICONTROL DIL] は、[!DNL Audience Manager] と [!DNL Adobe] Experience Cloud の他の製品を統合する際に使用できます。
+[Data Information Library](../../dil/dil-overview.md)（DIL）は、Web サイトからデータを収集するための自己完結型の API モジュールです。 [!UICONTROL DIL] を使用することで、データ収集、統合、Cookie 値の読み込み、およびページデータのリカバリのための専用コードを記述する手間を省くことができます。 [!UICONTROL DIL] はこれらのアクションを自動で実行します。 これに加えて、[!UICONTROL DIL] はコンパクトです。 自己完結型のコードライブラリであるので、情報収集に必要なコーディング量を削減できます。 さらには、[!UICONTROL DIL] は、[!DNL Audience Manager] と [!DNL Adobe] Experience Cloud の他の製品を統合する際に使用できます。
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] は [Akamai](https://www.akamai.com/jp/ja/about/) を使用して [!UICONTROL TIM (Tag Insertion Manager)] と呼ばれるアドビのタグ管理プラットフォームからコンテナコードをホストおよび配信します。ただし、[!UICONTROL TIM] によるコードデプロイメントは廃止され、[!DNL Adobe Experience Platform Tags] で置き換えられました。
+[!DNL Audience Manager] は [Akamai](https://www.akamai.com/jp/ja/about/) を使用して [!UICONTROL TIM (Tag Insertion Manager)] と呼ばれるアドビのタグ管理プラットフォームからコンテナコードをホストおよび配信します。 ただし、[!UICONTROL TIM] によるコードデプロイメントは廃止され、[!DNL Adobe Experience Platform Tags] で置き換えられました。
 
 ## 制御データベース {#control-database}
 

@@ -1,5 +1,5 @@
 ---
-description: ベンダーと Audience Manager の間でユーザー ID を同期するために、最初の HTTP 呼び出しで使用される構文およびパラメーターについて説明します。ID 同期は、データ分類を Audience Manager に送信した後で開始できます。
+description: ベンダーと Audience Manager の間でユーザー ID を同期するために、最初の HTTP 呼び出しで使用される構文およびパラメーターについて説明します。 ID 同期は、データ分類を Audience Manager に送信した後で開始できます。
 seo-description: Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between a vendor and Audience Manager. ID synchronization can begin after you send your data taxonomy to Audience Manager.
 seo-title: ID Synchronization for Inbound Data Transfers
 solution: Audience Manager
@@ -7,28 +7,37 @@ title: 受信データ転送のための ID 同期
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 feature: Inbound Data Transfers
 exl-id: cd9be32f-f443-45bd-a906-ec4c8589f608
-TQID: https://experienceleague.adobe.com/6pRhpoECN6jqncBykBth7wOKG8o592Ek1pS-dEzLMXk
+TQID: 'https://experienceleague.adobe.com/6pRhpoECN6jqncBykBth7wOKG8o592Ek1pS-dEzLMXk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: '455'
 ht-degree: 99%
-
 ---
-
 # 受信データ転送のための ID 同期 {#id-synchronization-for-inbound-data-transfers}
 
-ベンダーと [!DNL Audience Manager] の間でユーザー ID を同期するために、最初の `HTTP` 呼び出しで使用される構文およびパラメーターについて説明します。ID 同期は、データ分類を [!DNL Audience Manager] に送信した後で開始できます。
+ベンダーと [!DNL Audience Manager] の間でユーザー ID を同期するために、最初の `HTTP` 呼び出しで使用される構文およびパラメーターについて説明します。 ID 同期は、データ分類を [!DNL Audience Manager] に送信した後で開始できます。
 
-ID 同期は、受信の非同期データ転送プロセスの最初のステップです。このステップでは、[!DNL Audience Manager] およびベンダーは、各自のサイトベンダーの ID を比較およびマッチングします。例えば、ある [!DNL Audience Manager] のお客様は、ID 123 でユーザーを把握します。しかし、データパートナーは、このユーザーを ID 456 で識別します。この同期プロセスにより、[!DNL Audience Manager] およびデータベンダーは、これらの様々な ID を照合し、各自のシステムでユーザーを識別できます。完了したら、[!DNL Audience Manager] およびサードパーティパートナーは、ユニークユーザーごとに対応する ID をアドビのネットワーク上で確認できます。
+ID 同期は、受信の非同期データ転送プロセスの最初のステップです。 このステップでは、[!DNL Audience Manager] およびベンダーは、各自のサイトベンダーの ID を比較およびマッチングします。 例えば、ある [!DNL Audience Manager] のお客様は、ID 123 でユーザーを把握します。 しかし、データパートナーは、このユーザーを ID 456 で識別します。 この同期プロセスにより、[!DNL Audience Manager] およびデータベンダーは、これらの様々な ID を照合し、各自のシステムでユーザーを識別できます。 完了したら、[!DNL Audience Manager] およびサードパーティパートナーは、ユニークユーザーごとに対応する ID をアドビのネットワーク上で確認できます。
 
 以下の方法を使用してデータを [!DNL Audience Manager] に取得できます。
 
@@ -64,7 +73,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>一意のユーザー ID の URL（パーセント）エンコード表現。エンコード予約済み ASCII 文字に加えて、任意の非 ASCII 文字も、UTF-8 文字エンコード表に基づいてパーセントエンコードされる必要があります。 </p> <p>詳しくは、<a href="https://www.url-encode-decode.com" format="http" scope="external">URL Encode/Decode Online</a> Web サイトを参照してください。 </p> </td> 
+   <td colname="col2"> <p>一意のユーザー ID の URL（パーセント）エンコード表現。 エンコード予約済み ASCII 文字に加えて、任意の非 ASCII 文字も、UTF-8 文字エンコード表に基づいてパーセントエンコードされる必要があります。 </p> <p>詳しくは、<a href="https://www.url-encode-decode.com" format="http" scope="external">URL Encode/Decode Online</a> Web サイトを参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
@@ -72,11 +81,11 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p>オプションです。<a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code> gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr_consent</code> と一緒に使用する必要があります。</p></td> 
+   <td colname="col2"> <p>オプションです。 <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code> gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr_consent</code> と一緒に使用する必要があります。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>オプションです。<a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code>gdpr_consent</code>  は、URL で使用できる base64 でエンコードされた GDPR コンセントストリングです（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB の仕様</a>を参照）。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr</code> と一緒に使用する必要があります。</p> </td> 
+   <td colname="col2"> <p>オプションです。 <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF用 Audience Manager プラグイン</a>を使用している場合は、このパラメーターを追加します。</p> <p><code>gdpr_consent</code> は、URL で使用できる base64 でエンコードされた GDPR コンセントストリングです（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB の仕様</a>を参照）。 </p> <p> <b>注意：</b>このパラメーターは、常に <code>gdpr</code> と一緒に使用する必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +96,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 
 ## 電子メール埋め込み画像からの ID 同期 {#id-sync-email-image}
 
-電子メール画像で ID をマッチングさせるための形式は、前述のものと同じです。ただし、電子メールのその画像は、これが機能するように有効になっている必要があります。これは、ほとんどのメールシステムは、デフォルトで画像を無効にしているので、電子メールを使用した ID 同期に影響します。
+電子メール画像で ID をマッチングさせるための形式は、前述のものと同じです。 ただし、電子メールのその画像は、これが機能するように有効になっている必要があります。 これは、ほとんどのメールシステムは、デフォルトで画像を無効にしているので、電子メールを使用した ID 同期に影響します。
 
 >[!MORELIKETHIS]
 >

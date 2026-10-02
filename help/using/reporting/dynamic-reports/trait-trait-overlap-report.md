@@ -7,31 +7,39 @@ title: 特性間重複レポート
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
-TQID: https://experienceleague.adobe.com/1E6FfKrz49D98hav839-xm2igkY48YvNdXODWmWC5wU
+TQID: 'https://experienceleague.adobe.com/1E6FfKrz49D98hav839-xm2igkY48YvNdXODWmWC5wU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: '520'
 ht-degree: 100%
-
 ---
-
 # 特性間重複レポート{#trait-to-trait-overlap-report}
 
 すべてのファーストパーティおよびサードパーティ特性で共有されるユニークユーザーの数に関するデータを返します。
 
 >[!NOTE]
 >
->Audience Manager の重複レポートは、RBAC の原則に従います。自分が属している [RBAC ユーザーグループ](/help/using/features/administration/administration-overview.md) に基づき、自分がアクセスできるデータソースからの特性のみを確認できます。
+>Audience Manager の重複レポートは、RBAC の原則に従います。 自分が属している [RBAC ユーザーグループ](/help/using/features/administration/administration-overview.md) に基づき、自分がアクセスできるデータソースからの特性のみを確認できます。
 
 <!-- 
 
@@ -41,10 +49,10 @@ c_overlap_reports.xml
 
 ## 概要
 
-[!UICONTROL Trait-to-Trait Overlap]レポートは、すべての独自特性とサードパーティ特性の間で共有されるユニークユーザーの割合に関するデータを返します。最適化ツールとして、このレポートは以下に役立ちます。
+[!UICONTROL Trait-to-Trait Overlap]レポートは、すべての独自特性とサードパーティ特性の間で共有されるユニークユーザーの割合に関するデータを返します。 最適化ツールとして、このレポートは以下に役立ちます。
 
-* ニーズに応じて、重複の多いまたは少ないセグメントを作成する。重複の多い特性は、ターゲット設定されたオーディエンスを提供しますが、ユニーク訪問者は少なくなります。重複の少ない特性は、より多数のユニーク訪問者にリーチするうえで役に立つ可能性があります。
-* サードパーティ特性データを検証する。類似するファーストパーティ特性とサードパーティ特性の間の重複が非常に多い場合は、データパートナーからの特性が正確で信頼できるものであることを示します。反対に、重複が少ない場合は、サードパーティ特性が、類似するファーストパーティ特性と同じ情報を実際には含んでいない可能性があることを示唆します。
+* ニーズに応じて、重複の多いまたは少ないセグメントを作成する。 重複の多い特性は、ターゲット設定されたオーディエンスを提供しますが、ユニーク訪問者は少なくなります。 重複の少ない特性は、より多数のユニーク訪問者にリーチするうえで役に立つ可能性があります。
+* サードパーティ特性データを検証する。類似するファーストパーティ特性とサードパーティ特性の間の重複が非常に多い場合は、データパートナーからの特性が正確で信頼できるものであることを示します。 反対に、重複が少ない場合は、サードパーティ特性が、類似するファーストパーティ特性と同じ情報を実際には含んでいない可能性があることを示唆します。
 * 特性間の予期しない重複を検出し、その情報を使用して革新的なセグメントを作成する。
 
 ## レポートのサンプル
@@ -57,13 +65,13 @@ c_overlap_reports.xml
 
 >[!NOTE]
 >
->特性間重複レポート内では、フォルダー特性の比較はできません。特定のフォルダー特性を利用したセグメントを作成することで、[セグメント／特性間重複レポート](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md)による解析を実行できます。
+>特性間重複レポート内では、フォルダー特性の比較はできません。 特定のフォルダー特性を利用したセグメントを作成することで、[セグメント／特性間重複レポート](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md)による解析を実行できます。
 
 ![](assets/trait-to-trait-overlap.png)
 
 ## 個々のデータポイントの詳細
 
-個々の点を選択すると、データの詳細がポップアップウィンドウに表示されます。クリック操作で、レポートに表示されるデータが自動的に更新されます。
+個々の点を選択すると、データの詳細がポップアップウィンドウに表示されます。 クリック操作で、レポートに表示されるデータが自動的に更新されます。
 
 ## 特性間重複データポップフィールドの定義 {#field-definitions}
 
@@ -75,7 +83,7 @@ r_t2t_data_pop.xml
 
  -->
 
-[!UICONTROL Trait-to-Trait Overlap]レポートのポップアップには、以下の指標が含まれています。この表のユニーク訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
+[!UICONTROL Trait-to-Trait Overlap]レポートのポップアップには、以下の指標が含まれています。 この表のユニーク訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
@@ -91,7 +99,7 @@ r_t2t_data_pop.xml
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Data Source Type</span></b> </td> 
-   <td colname="col2">特性が属するデータソースのタイプを定義します。次のいずれかになります。 
+   <td colname="col2">特性が属するデータソースのタイプを定義します。 次のいずれかになります。 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">First-party（自分の特性）。 </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Third-party（外部のデータパートナー／ベンダー）。 </li> 

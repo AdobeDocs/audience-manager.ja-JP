@@ -8,52 +8,60 @@ title: Audience Manager へのバッチデータ送信の概要
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
-TQID: https://experienceleague.adobe.com/w3j-lf-4-LlAr36L6XsCfzxwgP2vinMNW00PTlpPK8Q
+TQID: 'https://experienceleague.adobe.com/w3j-lf-4-LlAr36L6XsCfzxwgP2vinMNW00PTlpPK8Q'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 460
-ht-degree: 98%
-
+source-wordcount: '474'
+ht-degree: 93%
 ---
-
-# [!DNL Audience Manager] へのバッチデータ送信の概要  {#send-batch-data-to-audience-manager-overview}
+# [!DNL Audience Manager] へのバッチデータ送信の概要 {#send-batch-data-to-audience-manager-overview}
 
 他のシステム（オフライン）から [!DNL Audience Manager] にデータを取り込む、あらゆる技術レベルのお客様を対象とした概要説明です。
 
 ## メリット
 
-他のシステムからのデータが [!DNL Audience Manager] で使用できるようになります。アドビのシステムは、値のロック解除および以前収集したユーザーデータの活用に役立ちます。これには、購入、顧客調査、登録データ、[!DNL CRM] データベースなどに関する情報が含まれます。統合ごとに課題がありますが、それらはすべてこれらの一般的な手順を共有します。この資料に目を通せば、オフラインデータをオンラインにするのに必要な労力を削減するうえで役に立ちます。
+他のシステムからのデータが [!DNL Audience Manager] で使用できるようになります。 アドビのシステムは、値のロック解除および以前収集したユーザーデータの活用に役立ちます。 これには、購入、顧客調査、登録データ、[!DNL CRM] データベースなどの情報が含まれます。各統合にはそれぞれ独自の課題がありますが、共通のステップがあります。 この資料に目を通せば、オフラインデータをオンラインにするのに必要な労力を削減するうえで役に立ちます。
 
 ## 手順 1：ユーザー ID の同期
 
-同期の際に、[!DNL Audience Manager] は一意の ID をクライアントおよびそのユーザーに割り当てます。これらの ID はそれぞれ、[!UICONTROL Data Provider ID]（[!UICONTROL DPID]）および [!UICONTROL Unique User ID]（[!UICONTROL UUID]）と呼ばれます。[!DNL Audience Manager] は、[!UICONTROL DPID] および [!UICONTROL UUID] を使用して、ユーザーを特定し [!UICONTROL traits]、[!UICONTROL segments]、オーディエンスグループおよびレポートの対象として認定します。また、アドビのデータ収集コード（[!UICONTROL DIL]）は、Web サイトからの訪問者データをキャプチャするために、これらの ID を探します。この手順が完了したら、[!DNL Audience Manager] およびオフラインリポジトリに、各ユーザーレコードに対応する ID を含める必要があります。
+同期の際に、[!DNL Audience Manager] は一意の ID をクライアントおよびそのユーザーに割り当てます。 これらの ID はそれぞれ、[!UICONTROL Data Provider ID]（[!UICONTROL DPID]）および [!UICONTROL Unique User ID]（[!UICONTROL UUID]）と呼ばれます。 [!DNL Audience Manager] は、[!UICONTROL DPID] および [!UICONTROL UUID] を使用して、ユーザーを特定し [!UICONTROL traits]、[!UICONTROL segments]、オーディエンスグループおよびレポートの対象として認定します。 また、アドビのデータ収集コード（[!UICONTROL DIL]）は、Web サイトからの訪問者データをキャプチャするために、これらの ID を探します。 この手順が完了したら、[!DNL Audience Manager] およびオフラインリポジトリに、各ユーザーレコードに対応する ID を含める必要があります。
 
 この手順に関する重要な考慮事項：
 
-* **クライアント ID の配置：**&#x200B;[!DNL Audience Manager] は、クライアント ID が Web サイトのどこに表示されるかを把握する必要があります（例：Cookie、Analytics 変数、ページコードなどに格納されるか）。
+* **クライアント ID の配置：**[!DNL Audience Manager] は、クライアント ID が Web サイトのどこに表示されるかを把握する必要があります（例：Cookie、Analytics 変数、ページコードなどに格納されるか）。
 * **[!DNL PII] の除外：**&#x200B;ユーザー ID には、個人を特定できる情報（[!DNL PII]）が含まれないようにする必要があります。
-* **大文字と小文字およびコンテンツの区別：**&#x200B;リアルタイムデータ同期の間、[!DNL Audience Manager] によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。例えば、オフラインレコードが [!DNL User123] に関する情報を保持するが、サイトがこの ID を [!DNL USER123] としてレンダリングする場合、 は、これらを異なる訪問者と見なします。[!DNL Audience Manager]結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。ID は、正確に一致する必要があります。
+* **大文字と小文字およびコンテンツの区別：**&#x200B;リアルタイムデータ同期の間、[!DNL Audience Manager] によってサイトでキャプチャされたユーザー ID は、オフラインリポジトリから渡された ID に一致する必要があります。 例えば、オフラインレコードが [!DNL User123] に関する情報を保持するが、サイトがこの ID を [!DNL USER123] としてレンダリングする場合、 は、これらを異なる訪問者と見なします。[!DNL Audience Manager] 結果として、この訪問者のオンライン情報は、オフラインデータベース内の対応するレコードに関連付けることができません。 ID は、正確に一致する必要があります。
 
 受信データ転送の[ID同期](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)を参照してください。
 
 ## 手順 2：データファイル形式
 
-ファイル名およびコンテンツは、厳密なガイドラインに従います。このガイドのこれらの仕様に従って、データファイルの命名や編成をおこなう&#x200B;*必要があります。*&#x200B;以下を参照してください。
+ファイル名およびコンテンツは、厳密なガイドラインに従います。 このガイドのこれらの仕様に従って、データファイルの命名や編成をおこなう&#x200B;*必要があります。* 以下を参照してください。
 
 * [受信データファイルの Amazon S3 の名前に関する要件](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * [受信データファイルの内容：構文、変数、例](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## オフラインマーケティング活動に使用可能なオンラインデータ
 
-オフラインデータをオンラインにする場合、この情報をオフラインキャンペーンに使用できます。これをおこなうため、[!DNL Audience Manager] では、選択した [!DNL FTP] または [!DNL Amazon S3] の場所に特性およびセグメント情報を書き出します。その他の情報やサポートについては、担当のパートナーソリューションマネージャーにお問い合わせください。
+オフラインデータをオンラインにする場合、この情報をオフラインキャンペーンに使用できます。 これをおこなうため、[!DNL Audience Manager] では、選択した [!DNL FTP] または [!DNL Amazon S3] の場所に特性およびセグメント情報を書き出します。 その他の情報やサポートについては、担当のパートナーソリューションマネージャーにお問い合わせください。
 
 ## 環境
 
@@ -68,4 +76,4 @@ ht-degree: 98%
 
 ## その他の技術情報
 
-システムエンジニア、開発者、技術／実装チームは、[バッチデータ転送プロセスの説明](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)と、この節の他の記事を確認してください。これらの記事には、転送プロトコル、ファイルコンテンツおよびファイル名の要件に関する詳細が記載されています。
+システムエンジニア、開発者、技術／実装チームは、[バッチデータ転送プロセスの説明](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)と、この節の他の記事を確認してください。 これらの記事には、転送プロトコル、ファイルコンテンツおよびファイル名の要件に関する詳細が記載されています。

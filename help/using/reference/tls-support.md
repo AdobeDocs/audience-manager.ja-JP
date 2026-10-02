@@ -1,5 +1,5 @@
 ---
-description: Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されました。
+description: Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。 一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。 2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されました。
 seo-description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
 seo-title: TLS 1.0 and 1.1 Deprecation
 solution: Audience Manager
@@ -7,27 +7,30 @@ title: TLS 1.0 および 1.1 の廃止
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: Reference
 exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
-TQID: https://experienceleague.adobe.com/sU1Tmg-7AouOFzLoj4pObYe3UsDcZK02pU8Fl4Wz0N4
+TQID: 'https://experienceleague.adobe.com/sU1Tmg-7AouOFzLoj4pObYe3UsDcZK02pU8Fl4Wz0N4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Security
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 227
+source-wordcount: '231'
 ht-degree: 100%
-
 ---
-
 # TLS 1.0 および 1.1 の廃止{#tls-deprecation}
 
-Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されました。
+Transport Layer Security（TLS）は、2 つのシステム間にセキュリティで保護された通信チャネルを確立するための暗号化プロトコルです。 一方または両方のシステムの認証に使用され、システム間で渡される情報の機密性および完全性を維持します。 2018 年 5 月より、TLS プロトコルの 3 つのバージョン、TLS 1.0、1.1 および 1.2 の使用が開始されました。
 
-2019 年 3 月、[!DNL Adobe] は [!DNL TLS 1.0] プロトコルのサポートを終了しました。[!DNL TLS 1.0] のみをサポートするブラウザーを使用するエンドユーザーには、Adobe Audience Manager 機能を使用できません。
+2019 年 3 月、[!DNL Adobe] は [!DNL TLS 1.0] プロトコルのサポートを終了しました。 [!DNL TLS 1.0] のみをサポートするブラウザーを使用するエンドユーザーには、Adobe Audience Manager 機能を使用できません。
 
-2020 年 3 月、[!DNL Adobe] は [!DNL TLS 1.1] プロトコルのサポートを終了します。[!DNL TLS 1.1] のみをサポートするブラウザーを使用するエンドユーザーには、Adobe Audience Manager 機能を使用できなくなります。
+2020 年 3 月、[!DNL Adobe] は [!DNL TLS 1.1] プロトコルのサポートを終了します。 [!DNL TLS 1.1] のみをサポートするブラウザーを使用するエンドユーザーには、Adobe Audience Manager 機能を使用できなくなります。
 
-プロトコルの最新バージョン（本書の作成時点において）である [!DNL TLS 1.2] を使用することをお勧めします。すべてのモダンブラウザーが [!DNL TLS 1.2] を使用しています。ブラウザー、バージョンおよびそれらの [!DNL TLS] サポートの一覧を収集しました。TLS ブラウザのサポートの詳細については、[トランスポート層のセキュリティに関する Wikipedia のリンク](https://ja.wikipedia.org/wiki/Transport_Layer_Security)を参照してください。
+プロトコルの最新バージョン（本書の作成時点において）である [!DNL TLS 1.2] を使用することをお勧めします。 すべてのモダンブラウザーが [!DNL TLS 1.2] を使用しています。 ブラウザー、バージョンおよびそれらの [!DNL TLS] サポートの一覧を収集しました。 TLS ブラウザのサポートの詳細については、[トランスポート層のセキュリティに関する Wikipedia のリンク](https://ja.wikipedia.org/wiki/Transport_Layer_Security)を参照してください。
 
 <!--
 

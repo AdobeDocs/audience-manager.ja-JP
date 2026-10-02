@@ -7,24 +7,31 @@ title: クロスチャネルコンバージョン
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: Audience Optimization Reports
 exl-id: 7412a43f-81b5-477e-8acf-89d6c8661f1e
-TQID: https://experienceleague.adobe.com/oP3jo2IVz2w0ExYE00wHo19nelOfOf4iAN84pgF64fU
+TQID: 'https://experienceleague.adobe.com/oP3jo2IVz2w0ExYE00wHo19nelOfOf4iAN84pgF64fU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 238
+source-wordcount: '240'
 ht-degree: 100%
-
 ---
-
 # クロスチャネルコンバージョン{#cross-channel-conversion}
 
 Audience Optimization レポートの「クロスチャネルコンバージョン」オプションを使用すると、提供されたオンラインのインプレッションやクリックがオフラインのコンバージョンにどの程度貢献しているかを把握することができます。
 
-[!UICONTROL Cross Channel Conversion]レポートは、[!DNL Google Campaign Manager] プラットフォームから得られた結果と [!DNL Audience Manager] のコンバージョン特性を組み合わせたものです。これにより、オフラインのコンバージョンをオンラインのインプレッションやクリックに関連付けることができます。
+[!UICONTROL Cross Channel Conversion]レポートは、[!DNL Google Campaign Manager] プラットフォームから得られた結果と [!DNL Audience Manager] のコンバージョン特性を組み合わせたものです。 これにより、オフラインのコンバージョンをオンラインのインプレッションやクリックに関連付けることができます。
 
 [!UICONTROL Cross Channel Conversion]は、[セグメントパフォーマンス](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) レポートと[最適な頻度](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)レポートに使用できます。
 
@@ -42,7 +49,7 @@ Audience Optimization レポートの「クロスチャネルコンバージョ�
  <tbody> 
   <tr> 
    <td colname="col01"> <p>コンバージョン特性の最小数 </p> </td> 
-   <td colname="col1"> <p><span class="wintitle">クロスチャネルコンバージョン</span>レポートを実行するには、コンバージョン特性を少なくとも 1 つデータソースに割り当てる必要があります。特性について詳しくは、<a href="../../../features/traits/create-onboarded-rule-based-traits.md">特性の基本情報</a>を参照してください。 </p> </td> 
+   <td colname="col1"> <p><span class="wintitle">クロスチャネルコンバージョン</span>レポートを実行するには、コンバージョン特性を少なくとも 1 つデータソースに割り当てる必要があります。 特性について詳しくは、<a href="../../../features/traits/create-onboarded-rule-based-traits.md">特性の基本情報</a>を参照してください。 </p> </td> 
   </tr>
   <tr> 
    <td> <p>アトリビューション期間 </p> </td> 
@@ -54,7 +61,7 @@ Audience Optimization レポートの「クロスチャネルコンバージョ�
   </tr> 
   <tr> 
    <td> <p>クリックかインプレッションか </p> </td> 
-   <td> <p>クリックとインプレッションがまったく同じ時刻に発生した場合、アトリビューションを決定する際には、クリックがインプレッションより優先します。例えば、複数のクリエイティブが表示されるページでは、クリックされたものがコンバージョンにつながります。 </p> </td> 
+   <td> <p>クリックとインプレッションがまったく同じ時刻に発生した場合、アトリビューションを決定する際には、クリックがインプレッションより優先します。 例えば、複数のクリエイティブが表示されるページでは、クリックされたものがコンバージョンにつながります。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>データ最新性 </p> </td> 

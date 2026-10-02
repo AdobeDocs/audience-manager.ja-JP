@@ -1,5 +1,5 @@
 ---
-description: ファイルベースの ID 同期に使用される必須フィールド、構文および命名規則について説明します。これらの仕様に従って、ファイルコンテンツを命名し編成します。
+description: ファイルベースの ID 同期に使用される必須フィールド、構文および命名規則について説明します。 これらの仕様に従って、ファイルコンテンツを命名し編成します。
 seo-description: Describes the required fields, syntax, and naming conventions used for file-based ID synchronization. Name and organize your file contents according to these specifications.
 seo-title: Name and Content Requirements for ID Synchronization Files
 solution: Audience Manager
@@ -7,29 +7,37 @@ title: ID 同期ファイルの名前およびコンテンツの要件
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Inbound Data Transfers
 exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
-TQID: https://experienceleague.adobe.com/yJ5QIV70F6YyRqA0LxqxQaHMoWwe7pLJ8V17MvyEK70
+TQID: 'https://experienceleague.adobe.com/yJ5QIV70F6YyRqA0LxqxQaHMoWwe7pLJ8V17MvyEK70'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 782
-ht-degree: 97%
-
+source-wordcount: '797'
+ht-degree: 91%
 ---
-
 # ID 同期ファイルの名前およびコンテンツの要件 {#name-and-content-requirements-for-id-synchronization-files}
 
-ファイルベースの ID 同期に使用される必須フィールド、構文および命名規則について説明します。これらの仕様に従って、ファイルコンテンツを命名し編成します。
+ファイルベースの ID 同期に使用される必須フィールド、構文および命名規則について説明します。 これらの仕様に従って、ファイルコンテンツを命名し編成します。
 
 >[!NOTE]
 >
->このドキュメントのテキストスタイル（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など）は、コード要素とオプションを示しています。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など） コード要素およびオプションを表します。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../../reference/code-style-elements.md)を参照してください。
 
 ## ファイル名構文および例 {#file-name-syntax}
 
@@ -49,23 +57,23 @@ ID ファイル名には、以下の必須およびオプション要素が含�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> adobe_id</code> </p> </td> 
-   <td colname="col2"> <p>ファイルを ID 同期ファイルとして識別する静的な接頭辞。デバイス ID を他のデバイス ID または顧客 ID（DPUUID）と照合する際は、この接頭辞を使用します。  </p> </td> 
+   <td colname="col2"> <p>ファイルを ID 同期ファイルとして識別する静的な接頭辞。 デバイス ID を他のデバイス ID または顧客 ID（DPUUID）と照合する際は、この接頭辞を使用します。  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> c2c_id</code> </p> </td> 
-   <td colname="col2"> <p>People-Based Destinations の ID 同期ファイルとしてファイルを識別する静的な接頭辞。顧客ID（DPUUID）を People-Based Destinations.のハッシュ化された電子メールアドレスと照合する際は、この接頭辞を使用します。  </p> </td> 
+   <td colname="col2"> <p>People-Based Destinations の ID 同期ファイルとしてファイルを識別する静的な接頭辞。 顧客ID（DPUUID）を People-Based Destinations.のハッシュ化された電子メールアドレスと照合する際は、この接頭辞を使用します。  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> <p>マスターデータプロバイダー ID は、ファイル名の DPID の親 ID です。また、データファイルの最初のユーザー ID は、マスター ID に対応します。次の DPID は、マスターに属する他の識別子です。同期をおこなうと、ファイル名の DPID がファイル内の UUID にマッピングされます。</p> <p>この DPID には、AAM UUID、GAID、IDFA などのデバイス ID のみを含める必要があります。DPUUID を含めることはできません。DPUUID を含めると、誤った同期が発生する可能性があります。</p>  </td> 
+   <td colname="col2"> <p>マスターデータプロバイダー ID は、ファイル名の DPID の親 ID です。 また、データファイルの最初のユーザー ID は、マスター ID に対応します。 次の DPID は、マスターに属する他の識別子です。 同期をおこなうと、ファイル名の DPID がファイル内の UUID にマッピングされます。</p> <p>この DPID には、AAM UUID、GAID、IDFA などのデバイス ID のみを含める必要があります。 DPUUID を含めることはできません。 DPUUID を含めると、誤った同期が発生する可能性があります。</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
-   <td colname="col2"> <p>データプロバイダー ID。これらの ID は、マスター DPID に関連付けられたエンティティまたはデータソースを表しています。同期をおこなうと、ファイル名の DPID がファイル内の UUID にマッピングされます。 </p> <p>ファイル名の DPID の数は、データファイル内の UUID の数に一致する必要があります。例えば、ファイル名にマスター DPID および 3 つの DPID が含まれているとします。データファイルには、後述のファイルコンテンツの節で説明する形式で、UUID の 4 つの対応する列が含まれている必要があります。 </p> </td> 
+   <td colname="col2"> <p>データプロバイダー ID。 これらの ID は、マスター DPID に関連付けられたエンティティまたはデータソースを表しています。 同期をおこなうと、ファイル名の DPID がファイル内の UUID にマッピングされます。 </p> <p>ファイル名の DPID の数は、データファイル内の UUID の数に一致する必要があります。 例えば、ファイル名にマスター DPID および 3 つの DPID が含まれているとします。 データファイルには、後述のファイルコンテンツの節で説明する形式で、UUID の 4 つの対応する列が含まれている必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>timestamp</i></code> </td> 
-   <td colname="col2"> <p>10 桁の UNIX タイムスタンプ（秒単位）。タイムスタンプは、各ファイル名を一意にするのに役立ちます。 </p> </td> 
+   <td colname="col2"> <p>10 桁の UNIX タイムスタンプ（秒単位）。 タイムスタンプは、各ファイル名を一意にするのに役立ちます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .sync</code> </p> </td> 
@@ -73,7 +81,7 @@ ID ファイル名には、以下の必須およびオプション要素が含�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>[<i>.SPLIT_NUMBER</i>]</code> </p> </td> 
-   <td colname="col2"> <p>整数。大きなファイルを複数の小さいファイルに分割する際に使用されます。これは、処理時間の向上に役立ちます。数は、送信している元のファイルのどの部分かを示します。後述のファイル名の例を参照してください。 </p> </td> 
+   <td colname="col2"> <p>整数。 大きなファイルを複数の小さいファイルに分割する際に使用されます。 これは、処理時間の向上に役立ちます。 数は、送信している元のファイルのどの部分かを示します。 後述のファイル名の例を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
@@ -84,7 +92,7 @@ ID ファイル名には、以下の必須およびオプション要素が含�
 
 ### ファイル名の例
 
-以下の例に、適切に書式設定されたファイル名を示します。ファイル名は、このようになります。
+以下の例に、適切に書式設定されたファイル名を示します。 ファイル名は、このようになります。
 
 <ul class="simplelist"> 
  <li> <code> adobe_id_111_222_333_444_1454442149.sync</code> </li> 
@@ -102,7 +110,7 @@ ID ファイルのコンテンツには、以下の要素が含まれます。
 
 *`UUID`* `<tab>`*`UUID`*`<tab>`*`UUID`*`<tab>`*`UUID`*
 
-ファイルには、ユーザー ID（[!DNL UUID]）が含まれます。各行では、ID をタブで区切ります。以下の例に、適切に書式設定された ID ファイルを示します。コンテンツは、このようになります。
+ファイルには、ユーザー ID（[!DNL UUID]）が含まれます。 各行では、ID をタブで区切ります。 以下の例に、適切に書式設定された ID ファイルを示します。 コンテンツは、このようになります。
 
 ```
 abc123 def456 ghi789 xyz987
@@ -110,15 +118,15 @@ abc123 def456 ghi789 xyz987
 
 ### ファイルコンテンツの考慮事項 {#considerations}
 
-受信ファイルを作成する場合は、最初の列にデバイス ID（[!DNL AAM UUID]、[!DNL GAID]、[!DNL IDFA]など）のみが入力されていることを確認します。Audience Manager がサポートする ID について、詳しくは、[Audience Manager の ID のインデックス](../../../reference/ids-in-aam.md)を参照してください。
+受信ファイルを作成する場合は、最初の列にデバイス ID（[!DNL AAM UUID]、[!DNL GAID]、[!DNL IDFA]など）のみが入力されていることを確認します。 Audience Manager がサポートする ID について、詳しくは、[Audience Manager の ID のインデックス](../../../reference/ids-in-aam.md)を参照してください。
 
 >[!IMPORTANT]
 >
->最初の列に [DPUUID](../../../reference/ids-in-aam.md) を使用しないでください。DPUUID を含めると、誤った同期が発生する可能性があります。
+>最初の列に [DPUUID](../../../reference/ids-in-aam.md) を使用しないでください。 DPUUID を含めると、誤った同期が発生する可能性があります。
 
 ## 同期による DPUUID の UUID との一致 {#sync-matches-dpuuids-uuids}
 
-ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../../../reference/ids-in-aam.md) を [!DNL Audience Manager] UUID と同期することです。同期では、[!DNL DPID] および関連する [!DNL DPID] から[!DNL Audience Manager] [!DNL UUID] へ [!DNL DPUUID] をマッピングします。ファイル名と本文のどこに ID を配置するかで、これらの識別子を互いにどのようにマッピングするかが決定します。例えば、以下に 2 つのサンプルファイルを示します。
+ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../../../reference/ids-in-aam.md) を [!DNL Audience Manager] UUID と同期することです。 同期により、マスター[!DNL DPID]とその関連[!DNL DPID]から[!DNL DPUUID]が[!DNL Audience Manager] [!DNL UUID]にマッピングされます。 ファイル名および本文の ID を配置した場所が、これらの識別子がお互いにどのようにマッピングされるかを決定します。 例えば、以下に 2 つのサンプルファイルを示します。
 
 * **ファイル 1：** `adobe_id_0_12345_1476312152.sync`
 
@@ -138,7 +146,7 @@ ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../.
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-手順 1：ID 同期プロセスが [!DNL DPID] 12345 の [!DNL DPUUID] を左列の [!DNL Audience Manager] [!DNL UUID] を同期します。ファイル名の [!DNL DPID] &quot;0&quot; は、[!DNL Audience Manager] [!DNL UUID] を表します。
+手順 1：ID 同期プロセスが [!DNL DPID] 12345 の [!DNL DPUUID] を左列の [!DNL Audience Manager] [!DNL UUID] を同期します。 ファイル名の[!DNL DPID] 「0」は[!DNL Audience Manager] [!DNL UUID]を表します。
 <br/>
 
 **ファイル 2**（[サンプルファイルをダウンロード](assets/adobe_id_12345_67890_1477846458.sync)）
@@ -151,7 +159,7 @@ ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../.
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-手順 2：[!DNL DPID] 12345 の [!DNL DPUUID] は、Audience Manager [!DNL UUID] の手順 1 で同期されました。この ID 同期では、[!DNL DPID] 67890 の [!DNL DPUUID] を手順 1 の Audience Manager [!DNL UUID] と同期します。
+手順2: [!DNL DPID]の[!DNL DPUUID]12345は、手順1でAudience Manager [!DNL UUID]と同期されました。 このID同期で行われるのは、[!DNL DPID]の[!DNL DPUUID]67890と手順1のAudience Manager [!DNL UUID]sを同期することです。
 
 <br/>
 
@@ -159,8 +167,8 @@ ID 同期ファイルの目的は、独自のデータソースの [DPUUID](../.
 
 ユーザー ID では以下のことができません。
 
-* ID 自体にタブを含める。タブは、データファイル内で個別の ID を区切るためにのみ使用されます。
+* ID 自体にタブを含める。 タブは、データファイル内で個別の ID を区切るためにのみ使用されます。
 * 個人を特定できる情報（[!UICONTROL PII]）を含める。
-* [!DNL URL] エンコーディングを使用します。エンコードされていない ID のみを渡します。
+* [!DNL URL] エンコーディングを使用します。 エンコードされていない ID のみを渡します。
 
-タブまたはスペースで終わる任意の行は、処理または認識されません。ルールとして、行末に空白文字を挿入しないようにしてください。
+タブまたはスペースで終わる任意の行は、処理または認識されません。 ルールとして、行末に空白文字を挿入しないようにしてください。

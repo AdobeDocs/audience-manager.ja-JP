@@ -7,19 +7,23 @@ title: ユーザー管理 API メソッド
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 feature: API
 exl-id: c015c42c-63c7-4392-9fef-f48dc787a56f
-TQID: https://experienceleague.adobe.com/qO1JAKOnknvJUBaFzf41F0Yy-FCeIySFhYkkjomTL5o
+TQID: 'https://experienceleague.adobe.com/qO1JAKOnknvJUBaFzf41F0Yy-FCeIySFhYkkjomTL5o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 347
+source-wordcount: '360'
 ht-degree: 100%
-
 ---
-
 # ユーザー管理 API メソッド {#user-management-api-methods}
 
 ユーザーを管理する（ユーザーオブジェクトの作成、更新、リスト、削除および返却を含む）ための Rest [!DNL API] メソッド。
@@ -71,7 +75,7 @@ ht-degree: 100%
 }
 ```
 
-`isAdmin` が true に設定されている場合、ユーザーがパートナー管理者として作成されます。また、このプロパティでは、ユーザーがパターン管理者であるかどうかを確認することもできます。
+`isAdmin` が true に設定されている場合、ユーザーがパートナー管理者として作成されます。 また、このプロパティでは、ユーザーがパターン管理者であるかどうかを確認することもできます。
 
 ユーザー名が既に使用されている場合は、`409 Conflict` が返されます。
 
@@ -181,11 +185,11 @@ ht-degree: 100%
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-成功すると `200 OK` が返されます。いずれかのパスワードに問題がある場合は、`400 Bad Request` が返されます。
+成功すると `200 OK` が返されます。 いずれかのパスワードに問題がある場合は、`400 Bad Request` が返されます。
 
 ## ログインしているユーザーのパスワードのリセット {#reset-logged-in-user-pw}
 
-現在ログインしているユーザーをリセットするための `PUT` メソッド。[!UICONTROL Audience Management] では、システムで生成したパスワードをユーザーに送信します。
+現在ログインしているユーザーをリセットするための `PUT` メソッド。 [!UICONTROL Audience Management] では、システムで生成したパスワードをユーザーに送信します。
 
 <!-- r_rest_api_user_password_reset.xml -->
 
@@ -303,7 +307,7 @@ ht-degree: 100%
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-成功すると `204 No Content` が返されます。競合が発生する場合、`409 Conflict` が返されます。
+成功すると `204 No Content` が返されます。 競合が発生する場合、`409 Conflict` が返されます。
 
 ## ユーザーの一括削除 {#delete-users-bulk}
 

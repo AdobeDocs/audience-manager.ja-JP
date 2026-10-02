@@ -7,19 +7,23 @@ title: ドメイン管理 API メソッド
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
-TQID: https://experienceleague.adobe.com/KQYsAmIQd2J88N7d7AdxABYomY-CDXJe5f3RccRcY-g
+TQID: 'https://experienceleague.adobe.com/KQYsAmIQd2J88N7d7AdxABYomY-CDXJe5f3RccRcY-g'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: '340'
 ht-degree: 100%
-
 ---
-
 # ドメイン管理 API メソッド {#domain-management-api-methods}
 
 データ送信先のドメインを作成および管理できるドメイン管理メソッド（Cookie の宛先の場合のみ）。
@@ -68,7 +72,7 @@ ht-degree: 100%
 
 ### 応答
 
-成功するとレスポンスで `204 no content` が返されます。パートナーサイトが見つからない場合は `404 not found` が返されます。
+成功するとレスポンスで `204 no content` が返されます。 パートナーサイトが見つからない場合は `404 not found` が返されます。
 
 ## ドメインのプロパティを返す {#return-props-domain}
 
@@ -82,7 +86,7 @@ ht-degree: 100%
 
 ### 応答
 
-成功すると、`200 OK` とデータが以下のサンプルのように返されます。サイト ID やパートナーが見つからない場合、`404 Not found` が返されます。
+成功すると、`200 OK` とデータが以下のサンプルのように返されます。 サイト ID やパートナーが見つからない場合、`404 Not found` が返されます。
 
 ```
 {
@@ -104,7 +108,7 @@ ht-degree: 100%
 
 ### オプションのクエリパラメーター
 
-オブジェクトの&#x200B;*すべて*&#x200B;のプロパティを返す [!DNL API] メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。[オプションのパラメーター](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
+オブジェクトの&#x200B;*すべて*&#x200B;のプロパティを返す [!DNL API] メソッドで、これらのオプションパラメーターを使用できます。 そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。 [オプションのパラメーター](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -116,7 +120,7 @@ ht-degree: 100%
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td> 
-   <td colname="col2"> ページ番号を返します。番号は 0 から始まります。 </td> 
+   <td colname="col2"> ページ番号を返します。 番号は 0 から始まります。 </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td> 
@@ -128,18 +132,18 @@ ht-degree: 100%
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
-   <td colname="col2"> 結果を降順で並べ替えて返します。昇順がデフォルトです。 </td>
+   <td colname="col2"> 結果を降順で並べ替えて返します。 昇順がデフォルトです。 </td>
   </tr>
   <tr valign="top">
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。    <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>を参照してください。 </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
+   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。 例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、 サンプルリクエストは次のようになります。 <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### 応答
 
-成功すると、`200 OK` とデータが配列で以下のサンプルのように返されます。サイト ID やパートナーが見つからない場合、`404 Not found` が返されます。
+成功すると、`200 OK` とデータが配列で以下のサンプルのように返されます。 サイト ID やパートナーが見つからない場合、`404 Not found` が返されます。
 
 ```
 [

@@ -6,44 +6,56 @@ solution: Audience Manager
 title: Audience Manager Predictive Audiences
 feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-TQID: https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw
+TQID: 'https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1543'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL Predictive Audiences] 概要 {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] は、高度なデータサイエンス技法を使用して、リアルタイムに不明なオーディエンスを個別のペルソナに分類するのに役立ちます。
 
 >[!IMPORTANT]
->この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法的なアドバイスは何も含まれません。 法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
 マーケティングにおいて、ペルソナとは、人口統計、閲覧傾向、買い物履歴など、特定の特性のセットを共有する、訪問者、ユーザーまたは見込み客別に定義されたオーディエンスセグメントです。
 
-[!UICONTROL Predictive Audiences] モデルは、この概念をさらに一歩進めて、Audience Manager の機械学習機能を使用して不明なオーディエンスを個別のペルソナに分類できるようにします。Audience Manager は、既知のファーストパーティオーディエンスのセットに関する不明なファーストパーティオーディエンスの傾向を計算することで、これを実現します。
+[!UICONTROL Predictive Audiences] モデルは、この概念をさらに一歩進めて、Audience Manager の機械学習機能を使用して不明なオーディエンスを個別のペルソナに分類できるようにします。 Audience Manager は、既知のファーストパーティオーディエンスのセットに関する不明なファーストパーティオーディエンスの傾向を計算することで、これを実現します。
 
-[!UICONTROL Predictive Audiences] モデルを作成する場合、最初のステップは、ターゲットオーディエンスを分類するためのベースライン特性またはセグメントを選択することです。これらの特性またはセグメントは、ペルソナを定義します。
+[!UICONTROL Predictive Audiences] モデルを作成する場合、最初のステップは、ターゲットオーディエンスを分類するためのベースライン特性またはセグメントを選択することです。 これらの特性またはセグメントは、ペルソナを定義します。
 
-評価フェーズの間、モデルは、ベースラインとして定義した特性またはセグメントごとに新しい [!UICONTROL Predictive Audiences] セグメントを作成します。次回 Audience Manager がペルソナに分類されていない（どのベースライン特性またはセグメントの条件も満たさなかった）ターゲットオーディエンスの訪問者を確認したら、[!UICONTROL Predictive Audiences] モデルは、その訪問者が属する予測セグメントを決定して、訪問者をそのセグメントに追加します。
+評価フェーズの間、モデルは、ベースラインとして定義した特性またはセグメントごとに新しい [!UICONTROL Predictive Audiences] セグメントを作成します。 次回 Audience Manager がペルソナに分類されていない（どのベースライン特性またはセグメントの条件も満たさなかった）ターゲットオーディエンスの訪問者を確認したら、[!UICONTROL Predictive Audiences] モデルは、その訪問者が属する予測セグメントを決定して、訪問者をそのセグメントに追加します。
 
-[!UICONTROL Segments] ページで、モデルによって作成された予測セグメントを識別できます。各 [!UICONTROL Predictive Audiences] モデルには、[!UICONTROL Predictive Audiences] フォルダーの下に独自のフォルダーがあり、モデルフォルダーをクリックすることで、各モデルのセグメントを確認できます。
+[!UICONTROL Segments] ページで、モデルによって作成された予測セグメントを識別できます。 各 [!UICONTROL Predictive Audiences] モデルには、[!UICONTROL Predictive Audiences] フォルダーの下に独自のフォルダーがあり、モデルフォルダーをクリックすることで、各モデルのセグメントを確認できます。
 
 ![predictive-audiences-segments](assets/predictive-audiences-segments.png)
 
@@ -75,7 +87,7 @@ e コマース会社のマーケターの場合、ユーザーエクスペリエ
 
 メディア会社の場合、訪問者に関連性のある広告を提供すると同時に、広告スペースをプレミアム価格で販売できるように、オーディエンスを分類したい。
 
-## [!UICONTROL Predictive Audiences] モデルの動作  {#how-predictive-audiences-models-work}
+## [!UICONTROL Predictive Audiences] モデルの動作 {#how-predictive-audiences-models-work}
 
 [!UICONTROL Predictive Audiences] モデルを作成する場合、次の 3 つの手順を実行します。
 
@@ -85,19 +97,19 @@ e コマース会社のマーケターの場合、ユーザーエクスペリエ
 
 ### ペルソナの選択条件 {#selection-personas}
 
-ペルソナを定義するための任意のファーストパーティ特性またはセグメントを選択できます。ただし、最適な結果を得るには、次に示すベストプラクティスに従ってください。
+ペルソナを定義するための任意のファーストパーティ特性またはセグメントを選択できます。 ただし、最適な結果を得るには、次に示すベストプラクティスに従ってください。
 
 * 各ペルソナが少なくとも数百の[デバイス ID](../../reference/ids-in-aam.md) を含むようにペルソナの特性またはセグメントを選択します。
-* 特性が[クロスデバイス ID](../../reference/ids-in-aam.md) に基づいている場合、[!UICONTROL Device Graph] のように、[デバイス ID](../../reference/ids-in-aam.md) を使用する[プロファイル結合ルール](../profile-merge-rules/merge-rules-overview.md)で特性をセグメントにラップできます。これにより、アルゴリズムが学習するのに十分な[デバイス ID](../../reference/ids-in-aam.md) が確保されます。
+* 特性が[クロスデバイス ID](../../reference/ids-in-aam.md) に基づいている場合、[!UICONTROL Device Graph] のように、[デバイス ID](../../reference/ids-in-aam.md) を使用する[プロファイル結合ルール](../profile-merge-rules/merge-rules-overview.md)で特性をセグメントにラップできます。 これにより、アルゴリズムが学習するのに十分な[デバイス ID](../../reference/ids-in-aam.md) が確保されます。
 * ペルソナ用に特性またはシンプルなセグメント（1 ～ 3 個の特性で構成）を選択することをお勧めします。
 * 重複が最小のベースライン特性またはセグメントを選択します。
 * デジタルプロパティをまたいで詳細な特性をキャプチャしていることを確認します。
 
 ### ターゲットオーディエンスの選択条件 {#selection-audience}
 
-ユースケースに応じて、ユーザーをリアルタイム、バッチまたはその両方のどれで分類するかに応じて、リアルタイム母集団または合計母集団が大きなターゲットオーディエンス（[!UICONTROL trait] または [!UICONTROL segment]）を選択します。ペルソナの選択と同様に、ターゲットのオーディエンス[!UICONTROL trait]を使用するか、豊富なプロファイル（[!UICONTROL traits]の豊富なセット）を持つ[!UICONTROL segment]を使用することをお勧めします。
+ユースケースに応じて、ユーザーをリアルタイム、バッチまたはその両方のどれで分類するかに応じて、リアルタイム母集団または合計母集団が大きなターゲットオーディエンス（[!UICONTROL trait] または [!UICONTROL segment]）を選択します。 ペルソナの選択と同様に、ターゲットのオーディエンス[!UICONTROL trait]を使用するか、豊富なプロファイル（[!UICONTROL traits]の豊富なセット）を持つ[!UICONTROL segment]を使用することをお勧めします。
 
-ターゲットオーディエンスを選択する場合は、ユースケースを分析し、分類する ID のタイプ（[!UICONTROL device IDs]または[!UICONTROL cross-device IDs]）を選択します。モデルの作成時に選択した[!UICONTROL Profile Merge Rule]によって、各ユーザーを予測[!UICONTROL segments]に配置するために使用されるデータが定義されます。
+ターゲットオーディエンスを選択する場合は、ユースケースを分析し、分類する ID のタイプ（[!UICONTROL device IDs]または[!UICONTROL cross-device IDs]）を選択します。 モデルの作成時に選択した[!UICONTROL Profile Merge Rule]によって、各ユーザーを予測[!UICONTROL segments]に配置するために使用されるデータが定義されます。
 
 ベストプラクティスとして、ターゲットオーディエンス[!UICONTROL Profile Merge Rule]と同じ設定 の[!UICONTROL Profile Merge Rule]を選択するか、ターゲットオーディエンスのプロファイルタイプ（デバイスプロファイルまたは認証済みプロファイル）を含むものを選択することをお勧めします。
 
@@ -105,13 +117,14 @@ e コマース会社のマーケターの場合、ユーザーエクスペリエ
 
 アルゴリズムがファーストパーティオーディエンスを適切なペルソナに分類できるようにするには、事前にお客様のデータでアルゴリズム自体をトレーニングする必要があります。
 
-アルゴリズムは、定義するペルソナごとに各オーディエンスを分析し、過去 30 日間のユーザーのリアルタイムの特性アクティビティやオンボーディングされた特性アクティビティを評価します。この手順は、ファーストパーティオーディエンスの変更を考慮して、24 時間ごとに実行されます。
+アルゴリズムは、定義するペルソナごとに各オーディエンスを分析し、過去 30 日間のユーザーのリアルタイムの特性アクティビティやオンボーディングされた特性アクティビティを評価します。
+この手順は、ファーストパーティオーディエンスの変更を考慮して、24 時間ごとに実行されます。
 
 ### [!UICONTROL Predictive Audiences] モデル分類フェーズ {#model-classification}
 
-リアルタイムおよびバッチでのオーディエンス分類の場合、モデルはまず、ユーザーがターゲットオーディエンスに属しているかどうかを確認します。ユーザーがターゲットオーディエンスに適合し、どのペルソナにも属していない場合、モデルは、そのユーザーにペルソナ選定スコアを割り当てます。
+リアルタイムおよびバッチでのオーディエンス分類の場合、モデルはまず、ユーザーがターゲットオーディエンスに属しているかどうかを確認します。 ユーザーがターゲットオーディエンスに適合し、どのペルソナにも属していない場合、モデルは、そのユーザーにペルソナ選定スコアを割り当てます。
 
-ファーストパーティオーディエンスを評価してスコアを割り当てると同時に、モデルはお客様のアカウントに定義されたデフォルトの **[!UICONTROL Profile Merge Rule]** を使用します。最後に、訪問者が最も高いスコアを獲得したペルソナに分類されます。
+ファーストパーティオーディエンスを評価してスコアを割り当てると同時に、モデルはお客様のアカウントに定義されたデフォルトの **[!UICONTROL Profile Merge Rule]** を使用します。 最後に、訪問者が最も高いスコアを獲得したペルソナに分類されます。
 
 ![predictive-audiences-graph](assets/predictive-audiences-graph.png)
 
@@ -126,12 +139,12 @@ e コマース会社のマーケターの場合、ユーザーエクスペリエ
 * 各モデルについて、最大 50 個のベース特性／セグメントを選択できます。
 * セカンドおよびサードパーティデータは、現在、[!UICONTROL Predictive Audiences] でサポートされていません。
 * [!UICONTROL Predictive Audiences] は、すべてのファーストパーティデータソースからのファーストパーティ特性に基づいて、オーディエンスの分類を実行します。
-* [!UICONTROL Predictive Audiences]のセグメント評価では、モデル作成時に選択した&#x200B;**[!UICONTROL Profile Merge Rule]**&#x200B;が使用されます。[!UICONTROL Profile Merge Rules] について詳しくは、該当する[ドキュメント](../profile-merge-rules/merge-rules-overview.md)を参照してください。
-* 一部の特性およびセグメントは、ベースラインオーディエンスまたはターゲットオーディエンスとしてサポートされません。[!UICONTROL Predictive Audiences] モデルは、次のいずれかをベースラインオーディエンスまたはターゲットオーディエンスとして選択すると、保存に失敗します。
-   * 予測特性および予測特性を使用して作成されたセグメント
-   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) の特性またはセグメント
-   * アルゴリズム特性
-   * セカンドおよびサードパーティ特性
+* [!UICONTROL Predictive Audiences]のセグメント評価では、モデル作成時に選択した&#x200B;**[!UICONTROL Profile Merge Rule]**&#x200B;が使用されます。 [!UICONTROL Profile Merge Rules] について詳しくは、該当する[ドキュメント](../profile-merge-rules/merge-rules-overview.md)を参照してください。
+* 一部の特性およびセグメントは、ベースラインオーディエンスまたはターゲットオーディエンスとしてサポートされません。 [!UICONTROL Predictive Audiences] モデルは、次のいずれかをベースラインオーディエンスまたはターゲットオーディエンスとして選択すると、保存に失敗します。
+  * 予測特性および予測特性を使用して作成されたセグメント
+  * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) の特性またはセグメント
+  * アルゴリズム特性
+  * セカンドおよびサードパーティ特性
 * [!UICONTROL Predictive Audience] [!UICONTROL segments] を[!UICONTROL Audience Lab] で使用することはできません。
 
 ## [!UICONTROL Data Export Controls] {#dec}
@@ -139,7 +152,7 @@ e コマース会社のマーケターの場合、ユーザーエクスペリエ
 [!UICONTROL Predictive Audiences] モデルで作成された予測セグメントは、次のファーストパーティデータソースから[データ書き出しコントロール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ja)を継承します。
 
 1. モデルを構築する際に選択するファーストパーティデータソース。
-1. ターゲットオーディエンスのファーストパーティデータソース。特に、ターゲットオーディエンスを構成する[!UICONTROL traits]または[!UICONTROL segments]のデータ書き出しコントロール。
+1. ターゲットオーディエンスのファーストパーティデータソース。 特に、ターゲットオーディエンスを構成する[!UICONTROL traits]または[!UICONTROL segments]のデータ書き出しコントロール。
 1. モデルに対して選択した[!UICONTROL Profile Merge Rule]の[データ書き出しコントロール](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=ja)。
 
 新しく作成した予測[!UICONTROL traits]および[!UICONTROL segments]には、前述のファーストパーティデータソースの結合と同じプライバシー制限が課されます。
@@ -148,18 +161,18 @@ e コマース会社のマーケターの場合、ユーザーエクスペリエ
 
 ## [!UICONTROL Profile Merge Rules] {#pmr}
 
-すべての予測セグメントに、モデルの作成時に選択した[!UICONTROL Profile Merge Rule]が割り当てられます。次の理由により、選択した[!UICONTROL Profile Merge Rule]は重要です。
+すべての予測セグメントに、モデルの作成時に選択した[!UICONTROL Profile Merge Rule]が割り当てられます。 次の理由により、選択した[!UICONTROL Profile Merge Rule]は重要です。
 
 * ユーザーを予測[!UICONTROL segment]に分類する際には、[!UICONTROL traits]の影響力を分析するときに、どのデバイスや認証済みプロファイルを考慮に入れるかを定義します。
-* モデルトレーニング手順で使用し、影響力のある [!UICONTROL trait] タイプとして表示される[!UICONTROL traits]タイプ（デバイスレベルまたはデバイス間レベル）を管理します。予測[!UICONTROL segments]は、ターゲットオーディエンスのサブセットです。
-   * ターゲットオーディエンスがセグメントの場合は、ターゲットオーディエンスに割り当てられたものと同じ[!UICONTROL Profile Merge Rule]をモデルに選択するか、ターゲットオーディエンスのプロファイルタイプを含む[!UICONTROL Profile Merge Rule]を選択することをお勧めします。
-   * ターゲットオーディエンスが[!UICONTROL trait]の場合は、ターゲットオーディエンス特性と同じタイプのデータにアクセスできる[!UICONTROL Profile Merge Rule]（デバイスプロファイルデータまたはクロスデバイスプロファイルデータのいずれか）を選択することをお勧めします。
-* [!UICONTROL Current Authenticated Profiles]および[!UICONTROL No Device Profile]オプションを使用する[!UICONTROL Profile Merge Rules]は、リアルタイムオーディエンスの分類に対してのみサポートされます。詳しくは、[定義済みのプロファイル結合ポリシーのオプション](../profile-merge-rules/merge-rule-definitions.md)を参照してください。
+* モデルトレーニング手順で使用し、影響力のある [!UICONTROL trait] タイプとして表示される[!UICONTROL traits]タイプ（デバイスレベルまたはデバイス間レベル）を管理します。 予測[!UICONTROL segments]は、ターゲットオーディエンスのサブセットです。
+  * ターゲットオーディエンスがセグメントの場合は、ターゲットオーディエンスに割り当てられたものと同じ[!UICONTROL Profile Merge Rule]をモデルに選択するか、ターゲットオーディエンスのプロファイルタイプを含む[!UICONTROL Profile Merge Rule]を選択することをお勧めします。
+  * ターゲットオーディエンスが[!UICONTROL trait]の場合は、ターゲットオーディエンス特性と同じタイプのデータにアクセスできる[!UICONTROL Profile Merge Rule]（デバイスプロファイルデータまたはクロスデバイスプロファイルデータのいずれか）を選択することをお勧めします。
+* [!UICONTROL Current Authenticated Profiles]および[!UICONTROL No Device Profile]オプションを使用する[!UICONTROL Profile Merge Rules]は、リアルタイムオーディエンスの分類に対してのみサポートされます。 詳しくは、[定義済みのプロファイル結合ポリシーのオプション](../profile-merge-rules/merge-rule-definitions.md)を参照してください。
 
 デバイスデータとクロスデバイスデータ  の両方を使用する[!UICONTROL Profile Merge Rule]を選択すると、モデルトレーニングや予測[!UICONTROL segments]へのユーザー分類に使用できる[!UICONTROL traits]の数が最大になります。
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-ペルソナおよびオーディエンスの分類用に選択する特性およびセグメントは、Audience Manager の[ロールベースのアクセス制御](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ja)の影響を受けます。
+ペルソナおよびオーディエンスの分類用に選択する特性およびセグメントは、Audience Manager の[役割ベースのアクセス制御](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ja)の影響を受けます。
 
 Audience Manager ユーザーは、[表示権限](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=ja#wild-card-permissions)を持つペルソナおよびターゲットオーディエンス用の特性またはセグメントのみ選択できます。

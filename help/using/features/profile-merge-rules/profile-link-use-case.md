@@ -7,18 +7,24 @@ title: プロファイルリンクデバイスグラフのユースケース
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 feature: Profile Merge
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
-TQID: https://experienceleague.adobe.com/q6PDlsUmoj1tJ8DL1GMjDcS6S5rgO0PKP4RfhqxkAYI
+TQID: 'https://experienceleague.adobe.com/q6PDlsUmoj1tJ8DL1GMjDcS6S5rgO0PKP4RfhqxkAYI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '310'
 ht-degree: 99%
-
 ---
-
 # プロファイルリンクデバイスグラフのユースケース {#profile-link-device-graph-use-cases}
 
 [!UICONTROL Profile Link Device Graph] を使用したセグメントリターゲティングおよびパーソナライズしたセグメントの選定のレコメンデーションとユースケース。
@@ -27,15 +33,15 @@ ht-degree: 99%
 
 [!UICONTROL Profile Link] デバイスグラフは、以下に該当するキャンペーンで使用してください。
 
-* デジタルプロパティ間で高度な認証をおこなっている。認証済みユーザーの数が少ない場合に[外部デバイスグラフオプション](merge-rule-definitions.md#device-options)を使用している。
-* 既知のオーディエンスについて正確なターゲット化が必要である。[!UICONTROL Profile Link Device Graph] は、認証済みファーストパーティデータを使用して構築されます。
+* デジタルプロパティ間で高度な認証をおこなっている。 認証済みユーザーの数が少ない場合に[外部デバイスグラフオプション](merge-rule-definitions.md#device-options)を使用している。
+* 既知のオーディエンスについて正確なターゲット化が必要である。 [!UICONTROL Profile Link Device Graph] は、認証済みファーストパーティデータを使用して構築されます。
 * 認証済み状態と未認証状態の既知のオーディエンスをリアルタイムでターゲット化する。
 
 ![](assets/merge-rule-triangle2.png)
 
 ## クロスデバイスターゲティング {#cross-device-personalization}
 
-例えば、ジョンという人物が、旅行ツアーの詳細を調べるため、定期的に使用するデバイスとして、パソコン（[!DNL Device 1]）、スマートフォン（[!DNL Device 2]）、タブレット（[!DNL Device 3]）の 3 台を持っているとします。ただし、ジョンは、デバイスを使用して、ツアーの詳細の異なる項目を調べます。
+例えば、ジョンという人物が、旅行ツアーの詳細を調べるため、定期的に使用するデバイスとして、パソコン（[!DNL Device 1]）、スマートフォン（[!DNL Device 2]）、タブレット（[!DNL Device 3]）の 3 台を持っているとします。 ただし、ジョンは、デバイスを使用して、ツアーの詳細の異なる項目を調べます。
 
 * 飛行機の便を検索する際はノートパソコンを使用し、
 * ホテルの場合はスマートフォン、
@@ -45,7 +51,7 @@ ht-degree: 99%
 
 ![last-device-graph](assets/last-device-graph.png)
 
-Audience Manager は、1 つのセグメントに対し、プロファイルの結合に参加した各デバイスプロファイルを確認するので、3 つのデバイスプロファイルはすべてセグメント化されます。[!UICONTROL Profile Link Device Graph] を使用すれば、Audience Manager は 3 つのデバイスすべてをまたいだ動作を確認し、1 つのデバイスプロファイルだけでは認定されないセグメントに対して、各デバイスを認定することができます。
+Audience Manager は、1 つのセグメントに対し、プロファイルの結合に参加した各デバイスプロファイルを確認するので、3 つのデバイスプロファイルはすべてセグメント化されます。 [!UICONTROL Profile Link Device Graph] を使用すれば、Audience Manager は 3 つのデバイスすべてをまたいだ動作を確認し、1 つのデバイスプロファイルだけでは認定されないセグメントに対して、各デバイスを認定することができます。
 
 この [!UICONTROL Profile Merge Rule] により、マーケターは、個々のデバイスアクティビティではなく、ユーザーアクティビティに基づいて、1 人のユーザーが所有するすべてのデバイスで一貫したエクスペリエンスを提供できます。
 
@@ -53,6 +59,6 @@ Audience Manager は、1 つのセグメントに対し、プロファイルの�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; 外部デバイスグラフのユースケース](external-graph-use-cases.md)
+>* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
 >* [プロファイル結合ルールの一般的なユースケース](merge-rule-targeting-options.md)
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)

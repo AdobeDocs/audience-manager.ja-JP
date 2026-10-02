@@ -1,5 +1,5 @@
 ---
-description: Audience Manager および Adobe Experience Platform ID サービスは demdex.net ドメインを呼び出し、そこからデータを受け取ります。アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、demdex.net 呼び出しの構成要素について説明します。
+description: Audience Manager および Adobe Experience Platform ID サービスは demdex.net ドメインを呼び出し、そこからデータを受け取ります。 アドビが見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。 この節では、demdex.net 呼び出しの構成要素について説明します。
 seo-description: Audience Manager and the Adobe Experience Platform Identity Service make calls to and receive data from the demdex.net domain. This may seem like Adobe is working with an unusual third-party domain, but this is not the case. This section describes the elements in a demdex.net call.
 seo-title: Understanding Calls to the Demdex Domain
 solution: Audience Manager
@@ -7,26 +7,29 @@ title: demdex ドメインの呼び出しについて
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 feature: Reference
 exl-id: dcd5ed86-4ff1-4f63-9c9f-edf11c229a30
-TQID: https://experienceleague.adobe.com/iAUT23OVvVhNX1VXI7SuMbtNzpQFT-zGOgE-3DDg-c8
+TQID: 'https://experienceleague.adobe.com/iAUT23OVvVhNX1VXI7SuMbtNzpQFT-zGOgE-3DDg-c8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: '325'
 ht-degree: 100%
-
 ---
+# [!DNL Demdex] ドメインの呼び出しについて {#understanding-calls-to-the-demdex-domain}
 
-# [!DNL Demdex] ドメインの呼び出しについて  {#understanding-calls-to-the-demdex-domain}
-
-[!DNL Audience Manager] および [!DNL Adobe Experience Platform Identity Service] は `demdex.net` ドメインに対し呼び出しをおこない、データを受け取ります。[!DNL Adobe] が見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。この節では、`demdex.net` 呼び出しの構成要素について説明します。
+[!DNL Audience Manager] および [!DNL Adobe Experience Platform Identity Service] は `demdex.net` ドメインに対し呼び出しをおこない、データを受け取ります。 [!DNL Adobe] が見慣れないサードパーティドメインを扱っているように見えるかもしれませんが、そうではありません。 この節では、`demdex.net` 呼び出しの構成要素について説明します。
 
 | 呼び出しの構成要素 | 説明 |
 |---|---|
-| `demdex.net` | [!DNL Adobe] が管理しているレガシーのドメインです。[!DNL Audience Manager] の買収前の名前（[!DNL Demdex]）を反映しています。[!DNL Adobe] は 2011 年に [!DNL Demdex] を買収し、[!DNL Audience Manager] というブランド名に変更しました。このドメインは、[!DNL Audience Manager]、[!DNL Adobe Experience Cloud ID Service]、およびアドビの既存のユーザーベースに密接に関連しているので、変更することは困難です。従来の `demdex.net` 呼び出しに他の接頭辞が付いている場合があります（例：`dcs.demdex.net`、`fast.demdex.net` など）。接頭辞にかかわらず、`something.demdex.net` への呼び出しは常に [!DNL Adobe] への呼び出しであり、不明な、または疑わしいサードパーティドメインへの呼び出しではありません。 |
-| `dpm` | [!DNL DPM] は、[!DNL Data Provider Match] の略語です。これにより、[!DNL Audience Manager] または [!DNL Adobe Experience Cloud ID Service] からの呼び出しで同期または ID リクエストのために顧客データが渡されていることが、[!DNL Adobe] の社内システムにわかります。これは、[!DNL Audience Manager] または [!DNL Adobe Experience Cloud ID Service] からの `demdex.net` 呼び出しとして最も一般的なものです。<br><br>[!DNL DPM] 呼び出し基本事項： <ul><li>[!DNL Audience Manager]：[!DNL Audience Manager] からの [!DNL DPM] 呼び出しは、[!DNL Data Collection Servers] と [!DNL Profile Cache Servers] にデータを送信します。[データ収集コンポーネント](../reference/system-components/components-data-collection.md)を参照してください。</li><li>[!DNL Adobe Experience Cloud ID Service]：[!DNL Adobe Experience Cloud ID Service] からの [!DNL DPM] 呼び出しは、訪問者 ID のリクエストです。[Cookie と Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)、および [Adobe Experience Platform ID サービスが ID をリクエストまたは設定する方法](https://experienceleague.adobe.com/docs/id-service/using/intro/id-request.html?lang=ja)を参照してください。</li></ul><br>注意：[!DNL Adobe Experience Cloud ID Service] のお客様はドメイン名の [!DNL DPM] 接頭辞を変更できます。詳しくは、[audienceManagerServer と audienceManagerServerSecure](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/subdomain-config.html?lang=ja) を参照してください。 |
+| `demdex.net` | [!DNL Adobe] が管理しているレガシーのドメインです。 [!DNL Audience Manager] の買収前の名前（[!DNL Demdex]）を反映しています。 [!DNL Adobe] は 2011 年に [!DNL Demdex] を買収し、[!DNL Audience Manager] というブランド名に変更しました。 このドメインは、[!DNL Audience Manager]、[!DNL Adobe Experience Cloud ID Service]、およびアドビの既存のユーザーベースに密接に関連しているので、変更することは困難です。 従来の `demdex.net` 呼び出しに他の接頭辞が付いている場合があります（例：`dcs.demdex.net`、`fast.demdex.net` など）。 接頭辞にかかわらず、`something.demdex.net` への呼び出しは常に [!DNL Adobe] への呼び出しであり、不明な、または疑わしいサードパーティドメインへの呼び出しではありません。 |
+| `dpm` | [!DNL DPM] は、[!DNL Data Provider Match] の略語です。 これにより、[!DNL Audience Manager] または [!DNL Adobe Experience Cloud ID Service] からの呼び出しで同期または ID リクエストのために顧客データが渡されていることが、[!DNL Adobe] の社内システムにわかります。 これは、[!DNL Audience Manager] または [!DNL Adobe Experience Cloud ID Service] からの `demdex.net` 呼び出しとして最も一般的なものです。 <br><br>[!DNL DPM] 呼び出し基本事項： <ul><li>[!DNL Audience Manager]：[!DNL Audience Manager] からの [!DNL DPM] 呼び出しは、[!DNL Data Collection Servers] と [!DNL Profile Cache Servers] にデータを送信します。 [データ収集コンポーネント](../reference/system-components/components-data-collection.md)を参照してください。</li><li>[!DNL Adobe Experience Cloud ID Service]：[!DNL Adobe Experience Cloud ID Service] からの [!DNL DPM] 呼び出しは、訪問者 ID のリクエストです。 [Cookie と Adobe Experience Platform ID サービス](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja)、および [Adobe Experience Platform ID サービスが ID をリクエストまたは設定する方法](https://experienceleague.adobe.com/docs/id-service/using/intro/id-request.html?lang=ja)を参照してください。</li></ul><br>注意：[!DNL Adobe Experience Cloud ID Service] のお客様はドメイン名の [!DNL DPM] 接頭辞を変更できます。 詳しくは、[audienceManagerServer と audienceManagerServerSecure](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/subdomain-config.html?lang=ja) を参照してください。 |
 
 >[!MORELIKETHIS]
 >

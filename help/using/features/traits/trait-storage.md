@@ -7,16 +7,21 @@ title: 特性ストレージ
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
 feature: Traits
 exl-id: 97d9951e-a339-4dd9-8a67-b7884752533b
-TQID: https://experienceleague.adobe.com/acJN-EyL60I8Y3dmrj8g9oV7qODKLJXiz7QOQvPs6G0
+TQID: 'https://experienceleague.adobe.com/acJN-EyL60I8Y3dmrj8g9oV7qODKLJXiz7QOQvPs6G0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 213
+source-wordcount: '213'
 ht-degree: 100%
-
 ---
-
 # 特性ストレージ {#trait-storage}
 
 特性ストレージフォルダーは特性を保存するもので、特性の分類／整理に役に立ちます。
@@ -25,7 +30,7 @@ ht-degree: 100%
 
 ## 特性ストレージフォルダーの目的
 
-[!UICONTROL Trait Builder]の特性ストレージフォルダーは、特性を保持し、作成した論理グループに分類／整理するためのディレクトリです。[!UICONTROL Traits] ダッシュボードから、または新しい特性を作成する際に、ストレージフォルダーにアクセスします。なお、ストレージフォルダーに割り当てずに新しい特性を作成することはできないので、注意してください。
+[!UICONTROL Trait Builder]の特性ストレージフォルダーは、特性を保持し、作成した論理グループに分類／整理するためのディレクトリです。 [!UICONTROL Traits] ダッシュボードから、または新しい特性を作成する際に、ストレージフォルダーにアクセスします。 なお、ストレージフォルダーに割り当てずに新しい特性を作成することはできないので、注意してください。
 
 ![](assets/tb_storage.png)
 
@@ -35,7 +40,7 @@ ht-degree: 100%
 
 <!-- t_tb_create_storage.xml -->
 
-新しい特性の設定時に、「[!UICONTROL Basic Information]」セクションで新しい保存フォルダーを作成できます。また、メインの「[!UICONTROL Trait Storage]」リストダッシュボードの「[!UICONTROL Traits]」セクションでフォルダーを作成することもできます。
+新しい特性の設定時に、「[!UICONTROL Basic Information]」セクションで新しい保存フォルダーを作成できます。 また、メインの「[!UICONTROL Trait Storage]」リストダッシュボードの「[!UICONTROL Traits]」セクションでフォルダーを作成することもできます。
 
 新しい保存フォルダーを作成するには：
 

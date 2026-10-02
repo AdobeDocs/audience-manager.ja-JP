@@ -8,22 +8,30 @@ title: プロファイル結合ルールおよびデバイスグラフに関す�
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-TQID: https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o
+TQID: 'https://experienceleague.adobe.com/G8a3lySpSqyDY7FTWSgECjhNl-aCVsjxj6I0lHUkq2o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1583
+source-wordcount: '1623'
 ht-degree: 99%
-
 ---
-
 # プロファイル結合ルールおよびデバイスグラフに関するよくある質問{#profile-merge-rules-and-device-graph-faq}
 
 プロファイル結合ルールおよびデバイスグラフに関するよくある質問への回答。
@@ -34,25 +42,25 @@ ht-degree: 99%
 
 **デバイスグラフとは何ですか？**
 
-デバイスグラフは、匿名デバイスのグループを定義する、ID マッピングのセットです。これにより、各デバイスから収集されたシグナルの共通要素に基づいて、デバイスが個人または世帯に関連付けられます。これらのシグナルにより、デバイスが個人レベルまたは世帯レベルで識別されます。
+デバイスグラフは、匿名デバイスのグループを定義する、ID マッピングのセットです。 これにより、各デバイスから収集されたシグナルの共通要素に基づいて、デバイスが個人または世帯に関連付けられます。 これらのシグナルにより、デバイスが個人レベルまたは世帯レベルで識別されます。
 
  
 
 **外部デバイスグラフとは何ですか？**
 
-外部デバイスグラフは、[!DNL Audience Manager] のデバイスグラフのうち、クロスデバイスデータソースのみから作成されたものでないものを指します。例えば、[プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を作成してサードパーティのデバイスグラフオプションを選択した場合は、外部デバイスグラフを使用していることになります。[デバイスオプション](../features/profile-merge-rules/merge-rule-definitions.md#device-options)を参照してください。
+外部デバイスグラフは、[!DNL Audience Manager] のデバイスグラフのうち、クロスデバイスデータソースのみから作成されたものでないものを指します。 例えば、[プロファイル結合ルール](../features/profile-merge-rules/merge-rules-start.md)を作成してサードパーティのデバイスグラフオプションを選択した場合は、外部デバイスグラフを使用していることになります。 [デバイスオプション](../features/profile-merge-rules/merge-rule-definitions.md#device-options)を参照してください。
 
  
 
 **外部デバイスグラフを [!UICONTROL Profile Merge Rule] で使用する一般的な例にはどのようなものがありますか？**
 
-[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。セグメント自体にも様々な用途があります。例えば、DSP が提供する広告で見込み客のオーディエンスをターゲティングしたり、オンサイトのパーソナライゼーションプラットフォームを介して顧客のオンサイトエクスペリエンスをパーソナライズできます。[外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge Rule]でデバイスグラフを使用する主な目的は、特定のセグメントについて、1 件の個人または世帯に属する複数のデバイスを評価および認定することです。 セグメント自体にも様々な用途があります。例えば、DSP が提供する広告で見込み客のオーディエンスをターゲティングしたり、オンサイトのパーソナライゼーションプラットフォームを介して顧客のオンサイトエクスペリエンスをパーソナライズできます。 [外部デバイスグラフのユースケース](../features/profile-merge-rules/external-graph-use-cases.md)を参照してください。
 
  
 
 **Audience Manager は世界中どこででも外部デバイスグラフをサポートしていますか？**
 
-いいえ。外部デバイスグラフは米国とカナダでのみ使用可能です。
+いいえ。 外部デバイスグラフは米国とカナダでのみ使用可能です。
 
  
 
@@ -66,9 +74,9 @@ ht-degree: 99%
 
 **[!DNL Audience Manager] はデバイスグラフをどのように使用しますか？**
 
-[!DNL Audience Manager] では、デバイスグラフは[プロファイル結合ルールの作成](../features/profile-merge-rules/merge-rules-start.md)時に設定オプションとして表示されます。[!UICONTROL Profile Merge Rules]を通じて、これらのデバイスグラフは次の点で [!DNL Audience Manager] に便利です。
+[!DNL Audience Manager] では、デバイスグラフは[プロファイル結合ルールの作成](../features/profile-merge-rules/merge-rules-start.md)時に設定オプションとして表示されます。 [!UICONTROL Profile Merge Rules]を通じて、これらのデバイスグラフは次の点で [!DNL Audience Manager] に便利です。
 
-* 複数のデバイスプロファイルを結合する。特性のスーパーセットが 1 つ作成されます。
+* 複数のデバイスプロファイルを結合する。 特性のスーパーセットが 1 つ作成されます。
 * この特性のスーパーセットをセグメント認定のために評価する（デバイスプロファイルの個別の評価はしません）。
 * 認定されたデバイスを、使用可能なセグメントに追加する。
 
@@ -76,7 +84,7 @@ ht-degree: 99%
 
 **[!UICONTROL Profile Merge Rules] はいくつ作成することができますか？**
 
-現在、[!UICONTROL Profile Merge Rules] は最大 4 つまで作成できます。4 つ目のプロファイル結合ルール（[!UICONTROL All Cross-Device Profiles]）は、[!UICONTROL People-Based Destinations] アドオンを購入したユーザーのみが使用できます。
+現在、[!UICONTROL Profile Merge Rules] は最大 4 つまで作成できます。 4 つ目のプロファイル結合ルール（[!UICONTROL All Cross-Device Profiles]）は、[!UICONTROL People-Based Destinations] アドオンを購入したユーザーのみが使用できます。
 
  
 
@@ -102,13 +110,13 @@ ht-degree: 99%
 
 **デバイスグラフを使用する [!UICONTROL Profile Merge Rule] でデバイスがセグメント認定されない場合、[!DNL Audience Manager] はどのようにしてデバイスのセグメント化を解除しますか？**
 
-Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile Merge Rule] でセグメントを評価する場合、最大 100 台のデバイスを結合します。セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された最大 99 台の追加デバイスが宛先のセグメントから削除されます。セグメント化の解除について詳しくは、[プロファイルの結合ルールとデバイスのセグメント化解除プロセス](../features/profile-merge-rules/merge-rule-unsegment.md)を参照してください。
+Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile Merge Rule] でセグメントを評価する場合、最大 100 台のデバイスを結合します。 セグメント化解除シグナルが発行された場合、現在のデバイスとリアルタイムに認識された最大 99 台の追加デバイスが宛先のセグメントから削除されます。 セグメント化の解除について詳しくは、[プロファイルの結合ルールとデバイスのセグメント化解除プロセス](../features/profile-merge-rules/merge-rule-unsegment.md)を参照してください。
 
  
 
 **宛先でデバイスのセグメント化解除が可能な場合、デバイスグラフを使用する [!UICONTROL Profile Merge Rules] によりデバイスがセグメントから削除されますか？**
 
-はい。上記の説明を参照してください。
+はい。 上記の説明を参照してください。
 
  
 
@@ -120,7 +128,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **セグメントサイズの予測には、デバイスグラフオプションを使用する [!UICONTROL Profile Merge Rule] で設定される結合に基づいてセグメント認定されるデバイスは含まれますか？**
 
-いいえ。[セグメントビルダーの特性およびセグメント母集団データ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja)で、[!UICONTROL Estimated Real-Time Population] および [!UICONTROL Estimated Total Population] の定義を参照してください。
+いいえ。 [セグメントビルダーの特性およびセグメント母集団データ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=ja)で、[!UICONTROL Estimated Real-Time Population] および [!UICONTROL Estimated Total Population] の定義を参照してください。
 
  
 
@@ -132,7 +140,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **セグメントで [!UICONTROL No Cross-Device Profile] が設定されている [!UICONTROL Profile Merge Rule] を使用していて、デバイスをセグメント認定する特性が認証済みプロファイルのみについて保存される場合、セグメントの合計母集団は 0 になりますか？**
 
-はい。プロファイル結合ルールが [!UICONTROL No Cross-Device Profile] に設定されている場合、Audience Manager は、セグメント評価で黒相デバイス対応プロファイルに保存された特性をカウントしませ ん。
+はい。 プロファイル結合ルールが [!UICONTROL No Cross-Device Profile] に設定されている場合、Audience Manager は、セグメント評価で黒相デバイス対応プロファイルに保存された特性をカウントしませ ん。
 
  
 
@@ -140,7 +148,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **[!DNL Audience Manager] はデバイスグラフを使用する [!UICONTROL Profile Merge Rule] で、特性頻度をどのように計算しますか？**
 
-特性頻度とは、複数のデバイス間における特定の特性に対する選定の数を合計したものです。わかりやすいようにユースケースを紹介します。
+特性頻度とは、複数のデバイス間における特定の特性に対する選定の数を合計したものです。 わかりやすいようにユースケースを紹介します。
 
 <table id="table_DE7A308705C84B93B3089CAD2228569E"> 
  <thead> 
@@ -163,13 +171,13 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
    <td colname="col1"> <p> <b>アクション</b> </p> </td> 
    <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は Device A と Device B のデバイスプロファイルを読み取り、結合します。この結果、次のようになります。 </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
-      <li id="li_5760BEE513C94152AA307AEE10894718">Device A が Trait 1 について 3 回認定されている。Trait 1 の頻度は 3 である。 </li> 
-      <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">Device B が Trait 1 について 5 回認定されている。Trait 1 の頻度は 5 である。 </li> 
+      <li id="li_5760BEE513C94152AA307AEE10894718">Device A が Trait 1 について 3 回認定されている。 Trait 1 の頻度は 3 である。 </li> 
+      <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">Device B が Trait 1 について 5 回認定されている。 Trait 1 の頻度は 5 である。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>結果</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は特性 1 の頻度を合計した値の 8（3 + 5 = 8）を使用して、セグメントの選定を決定します。頻度が 8 であることから、Device A と Device B は Segment 1 に認定されます。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> は特性 1 の頻度を合計した値の 8（3 + 5 = 8）を使用して、セグメントの選定を決定します。 頻度が 8 であることから、Device A と Device B は Segment 1 に認定されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -180,13 +188,13 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **デバイスグラフを使用する [!UICONTROL Profile Merge Rule] で到達できるデバイスの数は確認できますか？**
 
-はい。レポートは [!UICONTROL Profile Merge Rule] レベルでデータを返します。レポートのデータは毎日更新されます。データはデバイスグラフでリンクされているデバイスではなく、アカウントで認識されるデバイスに基づいています。プロファイル結合ルールの[&#x200B; レポート指標](../features/profile-merge-rules/profile-link-metrics.md)を参照してください。
+はい。 レポートは [!UICONTROL Profile Merge Rule] レベルでデータを返します。 レポートのデータは毎日更新されます。 データはデバイスグラフでリンクされているデバイスではなく、アカウントで認識されるデバイスに基づいています。 プロファイル結合ルールの[ レポート指標](../features/profile-merge-rules/profile-link-metrics.md)を参照してください。
 
  
 
 **デバイスグラフを使用する [!UICONTROL Profile Merge Rules] では、特定のセグメントから&#x200B;*リアルタイム*で認定されているデバイスの数を確認することはできますか？**
 
-はい。リアルタイム母集団指標により、現在のデバイス（リアルタイムで認識されているデバイス）のセグメント認定が、デバイスグラフでリンクされているすべてのデバイスからのプロファイルを使用してキャプチャされます。
+はい。 リアルタイム母集団指標により、現在のデバイス（リアルタイムで認識されているデバイス）のセグメント認定が、デバイスグラフでリンクされているすべてのデバイスからのプロファイルを使用してキャプチャされます。
 
 <table id="table_D37A51E99B314C04A96A084491A5FEC7"> 
  <thead> 
@@ -215,7 +223,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>結果</b> </p> </td> 
-   <td colname="col2"> <p>上記の要素により、Segment 1 の合計母集団は 1 となります。 </p> <p>この場合、<span class="wintitle">プロファイル結合ルール</span>はすべてのデバイスとその特性を使用して、セグメントの選定を決定します。つまり、Device 1、2、3 が Segment 1 で認定されますが、上記のとおり、リアルタイムのセグメント母集団には Device 1 しか含まれません。理由は以下のとおりです。 </p> <p> 
+   <td colname="col2"> <p>上記の要素により、Segment 1 の合計母集団は 1 となります。 </p> <p>この場合、<span class="wintitle">プロファイル結合ルール</span>はすべてのデバイスとその特性を使用して、セグメントの選定を決定します。 つまり、Device 1、2、3 が Segment 1 で認定されますが、上記のとおり、リアルタイムのセグメント母集団には Device 1 しか含まれません。 理由は以下のとおりです。 </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
       <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Device 1 は現在のデバイスで、Audience Manager <span class="wintitle">データ収集サーバー</span>（<span class="wintitle">DCS</span>）をリアルタイムで操作している。 </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">Device 2 および 3 はデバイスグラフによって Device 1 に関連付けられているが、Device 1 と同時に DCS を操作していない。 </li> 
@@ -228,7 +236,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **デバイスグラフを使用する [!UICONTROL Profile Merge Rule] による特定のセグメントで認定されているデバイスの総数は確認できますか？**
 
-はい。合計セグメント母集団指標には、デバイスグラフからの結合に基づきセグメント認定されている追加デバイスも含まれます。
+はい。 合計セグメント母集団指標には、デバイスグラフからの結合に基づきセグメント認定されている追加デバイスも含まれます。
 
 <table id="table_932E61B1D4374DD58F673C3B35C365EB"> 
  <thead> 
@@ -257,7 +265,7 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>結果</b> </p> </td> 
-   <td colname="col2"> <p>上記の要素により、Segment 1 の合計母集団は 3 となります。 </p> <p>この場合、<span class="wintitle">プロファイル結合ルール</span>はすべてのデバイスとその特性を使用して、セグメントの選定を決定します。つまり、Device 1、2、3 が Segment 1 で認定され、3 つすべてが合計母集団に含まれます。 </p> </td> 
+   <td colname="col2"> <p>上記の要素により、Segment 1 の合計母集団は 3 となります。 </p> <p>この場合、<span class="wintitle">プロファイル結合ルール</span>はすべてのデバイスとその特性を使用して、セグメントの選定を決定します。 つまり、Device 1、2、3 が Segment 1 で認定され、3 つすべてが合計母集団に含まれます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -270,11 +278,11 @@ Audience Manager は、デバイスグラフを使用する [!UICONTROL Profile
 
 **2020 年 3 月 16 日（PT）以降、Adobe Campaign へのセグメントエクスポートで、セグメント母集団がゼロと表示されるのはなぜですか。**
 
-2019 年後半に、クロスデバイス ID を使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。これらの機能強化は、2020 年 3 月 16 日（PT）（火）より、Audience Manager インスタンスで厳密に適用されます。そのため、クロスプロファイル ID を使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
+2019 年後半に、クロスデバイス ID を使用して生成されたバッチファイルの精度を向上させるために、一連のプロファイル結合ルールの機能強化がリリースされました。 これらの機能強化は、2020 年 3 月 16 日（PT）（火）より、Audience Manager インスタンスで厳密に適用されます。 そのため、クロスプロファイル ID を使用して宛先にマッピングされたセグメントは、一部のデバイス結合ルールの設定でエクスポートの生成を停止します。
 
 クロスデバイス ID（Adobe Campaign など）を使用して、Audience Manager インスタンスと宛先を正しく統合するには、次の要件を満たす必要があります。
 
-1. Adobe Campaign の宣言された ID の宛先にマッピングされたセグメントで使用されるプロファイルの結合ルールを確認します。認証済みのすべてのプロファイルをエクスポートに含めることができるように、プロファイルのマージルールでは [!UICONTROL Last Authenticated Profile] オプションを使用する必要があります。プロファイル結合ルールで別のオプションを使用している場合は、[!UICONTROL Last Authenticated Profile] に切り替えます。
+1. Adobe Campaign の宣言された ID の宛先にマッピングされたセグメントで使用されるプロファイルの結合ルールを確認します。 認証済みのすべてのプロファイルをエクスポートに含めることができるように、プロファイルのマージルールでは [!UICONTROL Last Authenticated Profile] オプションを使用する必要があります。 プロファイル結合ルールで別のオプションを使用している場合は、[!UICONTROL Last Authenticated Profile] に切り替えます。
 2. プロファイル結合ルール設定で、Adobe Campaign の宣言済み ID データソースを選択します。
 
 >[!NOTE]

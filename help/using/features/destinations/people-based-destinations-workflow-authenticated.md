@@ -6,31 +6,40 @@ solution: Audience Manager
 title: ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション
 feature: People-based Destinations
 exl-id: 24f877ce-089e-484c-9a70-8fce1a10a649
-TQID: https://experienceleague.adobe.com/8n-bcGFvzcn6nCrR-ubU5IMu9ne19CHmMMMEeqdV-cI
+TQID: 'https://experienceleague.adobe.com/8n-bcGFvzcn6nCrR-ubU5IMu9ne19CHmMMMEeqdV-cI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '905'
 ht-degree: 94%
-
 ---
-
 # ワークフロー C - 認証済みアクティビティとオフラインデータの組み合わせに基づいたパーソナライゼーション {#workflow-c}
 
 >[!IMPORTANT]
->この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法的なアドバイスは何も含まれません。 法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
 このページでは、オフラインの [!DNL CRM] データと、認証済みユーザーのリアルタイムの行動データを組み合わせてオーディエンスセグメントを作成し、そのオーディエンスセグメントを [!DNL People-Based Destinations] に送信する方法について、順を追って説明します。
 
@@ -48,7 +57,7 @@ ht-degree: 94%
 
 **シナリオ 2：[DPUUID](../../reference/ids-in-aam.md) が、小文字のハッシュ化された電子メールアドレスになっていない。**
 
-この場合、ハッシュ化された電子メールアドレスを保存する新しいクロスデバイスデータソースを作成する必要があります。手順は次のとおりです。
+この場合、ハッシュ化された電子メールアドレスを保存する新しいクロスデバイスデータソースを作成する必要があります。 手順は次のとおりです。
 
 1. Audience Managerアカウントにログインし、**[!UICONTROL Audience Data]**／**[!UICONTROL Data Sources]** に移動して、**[!UICONTROL Add New]**&#x200B;をクリックします。
 1. 新しいデータソースに、**[!UICONTROL Name]** と **[!UICONTROL Description]** を入力します。
@@ -58,7 +67,7 @@ ht-degree: 94%
 
    >[!IMPORTANT]
    >
-   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。Audience Manager は、この手順ではデータをハッシュ化しません。このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。それ以外の場合は、[!DNL People-Based Destinations] では使用できません。
+   >このオプションは、データソースに、特定のアルゴリズムでハッシュ化されたデータを含んでいるというラベルのみを付けます。 Audience Manager は、この手順ではデータをハッシュ化しません。 このデータソースに保存する予定の電子メールアドレスが、[!DNL SHA256] アルゴリズムで既にハッシュ化されていることを確認してください。 それ以外の場合は、[!DNL People-Based Destinations] では使用できません。
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
@@ -68,7 +77,7 @@ ht-degree: 94%
 
 [!UICONTROL People-Based Destinations] のデータソースの作成方法に関するビデオチュートリアルについては、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/32577?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 ## ステップ 2 - リアルタイム HTTP呼び出しを介してDPUUIDをハッシュ化された電子メールアドレスに一致させるために宣言されたIDを使用する {#match-email-addresses}
 
@@ -115,27 +124,27 @@ ht-degree: 94%
 2. 「**[!UICONTROL Add New Rule]**」をクリックします。
 3. プロファイル結合ルール **[!UICONTROL Name]** および **[!UICONTROL Description]** を入力します。
 4. **[!UICONTROL Profile Merge Rule Setup]** セクションで、**[!UICONTROL Current Authenticated Profiles]** または **[!UICONTROL Last Authenticated Profiles]** ルールを **[!UICONTROL Cross-Device Options]** リストから選択します。
-5. **[!UICONTROL Cross-Device Profile Options]** リストで、セグメントを実行するデータソースを選択します。これらは、既存の DPUUID を含むデータソースです。
+5. **[!UICONTROL Cross-Device Profile Options]** リストで、セグメントを実行するデータソースを選択します。 これらは、既存の DPUUID を含むデータソースです。
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
 ## ステップ 4 - オーディエンスセグメントの作成 {#create-audience-segments}
 
-新しいセグメントを作成するには、[セグメントビルダー](../segments/segment-builder.md)を使用します。[!DNL People-Based Destinations] に送信する既存のオーディエンスセグメントがある場合は、スキップして「[手順 5 - ユーザーベースのプラットフォーム認証を設定する](#configure-authentication)」に進みます。
+新しいセグメントを作成するには、[セグメントビルダー](../segments/segment-builder.md)を使用します。 [!DNL People-Based Destinations] に送信する既存のオーディエンスセグメントがある場合は、スキップして「[手順 5 - ユーザーベースのプラットフォーム認証を設定する](#configure-authentication)」に進みます。
 
 ## 手順5 - People-Based Platform認証の設定 {#configure-authentication}
 
-1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。それ以外の場合、ページは空になります。
+1. Audience Manager アカウントにログインして、**[!UICONTROL Administration]**／**[!UICONTROL Integrated Accounts]** に移動します。 ソーシャルプラットフォームとの統合を設定したことがある場合は、このページに表示されます。 それ以外の場合、ページは空になります。
    ![ユーザーベースの統合](assets/pbd-config.png)
 2. 「**[!UICONTROL Add Account]**」をクリックします。
 3. **[!UICONTROL People-Based Platform]** ドロップダウンメニューを使用して、統合を設定するプラットフォームを選択します。
    ![ユーザーベースのプラットフォーム](assets/pbd-add.png)
 4. **[!UICONTROL Confirm]**&#x200B;をクリックすると、選択したプラットフォームの認証ページにリダイレクトされます。
-5. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。使用する広告主アカウントを選択し、「**[!UICONTROL Confirm]**」をクリックします。
-6. Audience Manager のページ上部に通知が表示され、アカウントが正常に追加されたかどうかがわかります。また、連絡先電子メールアドレスを追加して、ソーシャルプラットフォーム認証の有効期限が近づいたら通知を受け取ることもできます。
+5. ソーシャルプラットフォームアカウントを認証すると、Audience Manager にリダイレクトされ、関連する広告主アカウントが表示されます。 使用する広告主アカウントを選択し、「**[!UICONTROL Confirm]**」をクリックします。
+6. Audience Manager のページ上部に通知が表示され、アカウントが正常に追加されたかどうかがわかります。 また、連絡先電子メールアドレスを追加して、ソーシャルプラットフォーム認証の有効期限が近づいたら通知を受け取ることもできます。
 
 >[!IMPORTANT]
 >
->Audience Manager は、一定期間後に期限切れになる認証トークンを介して、ソーシャルプラットフォームとの統合を処理します。期限切れトークンの更新方法について詳しくは、「認証トークンの更新」を参照してください。
+>Audience Manager は、一定期間後に期限切れになる認証トークンを介して、ソーシャルプラットフォームとの統合を処理します。 期限切れトークンの更新方法について詳しくは、「認証トークンの更新」を参照してください。
 
 ## 手順6 - ピープルベースの宛先の作成 {#create-destination}
 
@@ -149,5 +158,5 @@ ht-degree: 94%
 1. 「**[!UICONTROL Next]**」をクリックします。
 1. この宛先に設定する **[!UICONTROL Data Export Labels]** を選択します。
 1. **[!UICONTROL Configuration]** セクションで、ハッシュ化されたデータソースを含むデータソースを選択します。
-1. **[!UICONTROL Segment Mappings]** セクションで、この宛先に送信するセグメントを選択します。これは、「[手順 4 - オーディエンスセグメントを作成する](#create-audience-segments)」で作成したセグメントです。
+1. **[!UICONTROL Segment Mappings]** セクションで、この宛先に送信するセグメントを選択します。 これは、「[手順 4 - オーディエンスセグメントを作成する](#create-audience-segments)」で作成したセグメントです。
 1. 宛先を保存します。

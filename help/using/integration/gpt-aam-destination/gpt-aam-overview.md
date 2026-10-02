@@ -2,39 +2,48 @@
 description: Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合方法の概要です。
 seo-description: Overview of how to integrate Google Ad Manager using Google Publisher Tags (GPT) in Adobe Audience Manager (AAM).
 seo-title: Integrate Google Ad Manager using Google Publisher Tags (GPT)in Adobe Audience Manager (AAM)
-title: 'Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合 '
+title: Google サイト運営者タグ（GPT）を使用した Google Ad Manager の統合
 feature: Third-party Integration
 exl-id: d383cb8a-ef41-4ce6-9e31-6145797a89fa
-TQID: https://experienceleague.adobe.com/29V5C3MbEondd3-qWLBfi3jaGid1I1UM9nYIl9nZWVo
+TQID: 'https://experienceleague.adobe.com/29V5C3MbEondd3-qWLBfi3jaGid1I1UM9nYIl9nZWVo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: '220'
 ht-degree: 100%
-
 ---
-
 # Google サイト運営者タグ（GPT）を使用した [!DNL Google Ad Manager]（旧称 DFP）の統合
 
-Google サイト運営者タグ（GPT）を使用した [!DNL Google Ad Manager] との統合方法の概要が以下の記事に記載されています。サーバー側で統合することも、Audience Manager のセグメントデータを [!DNL Google Ad Manager] に送信するための宛先として GPT を設定することもできます。[!DNL Google Ad Manager] ログファイルを取り込み、Audience Manager でレポートするために必要なステップも確認できます。
+Google サイト運営者タグ（GPT）を使用した [!DNL Google Ad Manager] との統合方法の概要が以下の記事に記載されています。 サーバー側で統合することも、Audience Manager のセグメントデータを [!DNL Google Ad Manager] に送信するための宛先として GPT を設定することもできます。 [!DNL Google Ad Manager] ログファイルを取り込み、Audience Manager でレポートするために必要なステップも確認できます。
 
 * [Google サイト運営者タグ（GPT）を使用して Google Ad Manager にセグメントを送信する際の要件と方法](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
-  クライアント側またはサーバー側の統合を通じて、絞り込んだセグメントを [!DNL Google Ad Manager] に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
+  クライアント側またはサーバー側の統合を通じて、絞り込んだセグメントを [!DNL Google Ad Manager] に送信できます。 この両方のメソッドに関する要件と関連情報を以下に示します。
 
 * [GPT 宛先の作成](/help/using/integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-  認定されたセグメントを、クライアント側（ブラウザー側）の統合またはサーバー側の統合により [!DNL Google Ad Manager] に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
+  認定されたセグメントを、クライアント側（ブラウザー側）の統合またはサーバー側の統合により [!DNL Google Ad Manager] に送信することができます。 クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
 
 * [GPT setTargeting API 呼び出しの変更](/help/using/integration/gpt-aam-destination/gpt-aam-modify-api.md)
 

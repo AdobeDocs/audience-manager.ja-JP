@@ -7,31 +7,37 @@ title: リアルタイム受信データ取り込み
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
 feature: Inbound Data Transfers
 exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
-TQID: https://experienceleague.adobe.com/ps6Iks-zvDnIIEagSND0LEnW18K6odtuwIJOsBfp2v0
+TQID: 'https://experienceleague.adobe.com/ps6Iks-zvDnIIEagSND0LEnW18K6odtuwIJOsBfp2v0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '177'
 ht-degree: 100%
-
 ---
-
 # リアルタイム受信データ取り込み {#real-time-inbound-data-ingestion}
 
 リアルタイム受信データ取り込みプロセスは、ユーザーのブラウザーからの一連の `HTTP` リクエストを使用して、Audience Manager にデータを渡します。
 
 <!-- c_rt_inbound_real_time.xml -->
 
-受信データは、シグナルと呼ばれるキー値ペアの形式である必要があります。通常、各シグナルは、ユーザーインターフェイスまたは [!DNL API] で作成または管理されたセグメントにマッピングされます。
+受信データは、シグナルと呼ばれるキー値ペアの形式である必要があります。 通常、各シグナルは、ユーザーインターフェイスまたは [!DNL API] で作成または管理されたセグメントにマッピングされます。
 
 ## URL 文字列パラメーターおよび構文 {#url-string-syntax}
 
-受信データ転送の [!DNL URL] には、以下の表で説明する変数が含まれている必要があります。リアルタイムデータ転送を設定する前に、[!DNL Audience Manager] UI で必ず[特性を作成](../../../features/traits/create-onboarded-rule-based-traits.md)および[フォルダー構造](../../../features/traits/trait-storage.md#create-trait-storage-folder)を作成してください。
+受信データ転送の [!DNL URL] には、以下の表で説明する変数が含まれている必要があります。 リアルタイムデータ転送を設定する前に、[!DNL Audience Manager] UI で必ず[特性を作成](../../../features/traits/create-onboarded-rule-based-traits.md)および[フォルダー構造](../../../features/traits/trait-storage.md#create-trait-storage-folder)を作成してください。
 
 >[!NOTE]
 >

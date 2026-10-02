@@ -8,24 +8,31 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: id タイプの分類、IDの分類、オーディエンス ID レポート、クロスデバイス、クロスデバイス ID、デバイス ID
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-TQID: https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk
+TQID: 'https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: '408'
 ht-degree: 95%
-
 ---
-
 # セグメントの詳細ページ {#segment-summary-view}
 
-個々のセグメントの詳細ページには、セグメント名、ID、パフォーマンス指標、セグメントを定義するルール、宛先マッピングなど、セグメントの詳細の概要が表示されます。これらの詳細を表示するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Segments]** を選択し、対象となるセグメントの名前をクリックします。
+個々のセグメントの詳細ページには、セグメント名、ID、パフォーマンス指標、セグメントを定義するルール、宛先マッピングなど、セグメントの詳細の概要が表示されます。 これらの詳細を表示するには、**[!UICONTROL Audience Data]**／**[!UICONTROL Segments]** を選択し、対象となるセグメントの名前をクリックします。
 
 ## セグメント管理ツール {#segment-management-tools}
 
@@ -35,7 +42,7 @@ ht-degree: 95%
 2. **[!UICONTROL Edit]**：このオプションを使用して、現在のセグメントの設定を変更します。
 3. **[!UICONTROL Duplicate]**：このオプションを使用して、現在のセグメントのコピーを作成します。
 4. **[!UICONTROL Delete]**：このオプションを使用して、Audience Manager アカウントから現在のセグメントを削除します。
-5. **[!UICONTROL Marketplace Recommendations]**：このオプションを使用して、購読していない [!UICONTROL Audience Marketplace] データフィードから、表示しているセグメントに類似したセグメントを見つけます。Marketplace へのナビゲート方法および類似したセグメントを見つける方法について詳しくは、[データ購入者向けの Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) を参照してください。
+5. **[!UICONTROL Marketplace Recommendations]**：このオプションを使用して、購読していない [!UICONTROL Audience Marketplace] データフィードから、表示しているセグメントに類似したセグメントを見つけます。 Marketplace へのナビゲート方法および類似したセグメントを見つける方法について詳しくは、[データ購入者向けの Audience Marketplace](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) を参照してください。
 
 ![basic-segment-information](assets/basic-segment-information.png)
 
@@ -43,12 +50,12 @@ ht-degree: 95%
 
 セグメント管理ツールの下部に、次のセグメント情報が表示されます。
 
-1. **[!UICONTROL Basic Information]：**&#x200B;セグメントが作成された際に指定された必須およびオプションの詳細を表示します。これらのフィールドが意味することの詳細な概要については、[セグメントビルダー](segment-builder.md)を参照してください。
-1. **[!UICONTROL Segment Graph]：**&#x200B;固定の 1、7、14、30、60、90 日間隔のグラフでパフォーマンスデータを表示します。セグメント母集団の数については、[別の記事](../../features/segments/segment-builder-data.md)で説明します。
+1. **[!UICONTROL Basic Information]：**&#x200B;セグメントが作成された際に指定された必須およびオプションの詳細を表示します。 これらのフィールドが意味することの詳細な概要については、[セグメントビルダー](segment-builder.md)を参照してください。
+1. **[!UICONTROL Segment Graph]：**&#x200B;固定の 1、7、14、30、60、90 日間隔のグラフでパフォーマンスデータを表示します。 セグメント母集団の数については、[別の記事](../../features/segments/segment-builder-data.md)で説明します。
 
    ![セグメントグラフ](assets/segment-graph.png)
 
-1. **[!UICONTROL Identity Type Breakdown]：**&#x200B;このレポートには、クロスデバイス ID の数と外部デバイスグラフ ID の数をカウントした、セグメントに適合するユーザーまたは世帯の数が表示されます。外部デバイスグラフ ID は、セグメントに適合するデバイスにリンクされています（[!UICONTROL Total Segment Population] で表示）。このレポートに示すクロスデバイス ID と外部デバイスグラフ ID は、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。このレポートは、セグメントが使用しているプロファイル結合ルールで、クロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
+1. **[!UICONTROL Identity Type Breakdown]：**&#x200B;このレポートには、クロスデバイス ID の数と外部デバイスグラフ ID の数をカウントした、セグメントに適合するユーザーまたは世帯の数が表示されます。外部デバイスグラフ ID は、セグメントに適合するデバイスにリンクされています（[!UICONTROL Total Segment Population] で表示）。 このレポートに示すクロスデバイス ID と外部デバイスグラフ ID は、セグメントが使用しているプロファイル結合ルールとプロファイルを結合するために使用されます。 このレポートは、セグメントが使用しているプロファイル結合ルールで、クロスデバイスデータソースまたは外部デバイスグラフを選択した場合にのみ表示されます。
 
    ![セグメントグラフ](assets/segment-type.png)
 
@@ -58,7 +65,7 @@ ht-degree: 95%
 
    [!UICONTROL Identity Type Breakdown] の概要については、以下のビデオをご覧ください。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/34081?captions=jpn)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 1. **[!UICONTROL Segment Rules]：**&#x200B;セグメントの特性を選定ルールと共にリストします。
 1. **[!UICONTROL Destination Mappings]：**&#x200B;セグメントの宛先マッピングをリストします。

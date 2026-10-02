@@ -7,42 +7,55 @@ title: ピクセル呼び出しを使用したキャンペーンのインプレ�
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Adobe Campaign Integration
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
-TQID: https://experienceleague.adobe.com/4AePlh8JW-KJ5pMyBjEDNQ1mxfikBavHMT-UXkQqYJo
+TQID: 'https://experienceleague.adobe.com/4AePlh8JW-KJ5pMyBjEDNQ1mxfikBavHMT-UXkQqYJo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
+  - id: b59a5343-ccde-4868-a926-97a27448e694
+    internal-label: Campaign integration
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 98%
-
+source-wordcount: '742'
+ht-degree: 96%
 ---
-
 # ピクセル呼び出しを使用したキャンペーンのインプレッションデータのキャプチャ{#capturing-campaign-impression-data-via-pixel-calls}
 
 メディアデータを Audience Manager に送信する方法の 1 つとして、広告サーバーのマクロを使用してキャンペーン属性を Audience Manager に送信できます。
 
-この方法は「クリエイティブのピクセリング」とも呼ばれています。これらのデータポイントは、サードパーティの広告サーバーマクロにより動的に [!DNL Audience Manager] ピクセルコードに挿入されます。これらのマクロは、キャンペーンの主要なレポート属性に基づいてすべてのインプレッションとクリックのマッピングとレポートに使用されます。データの集計により、キャンペーンのパフォーマンスを一元的に把握し、カスタムコンバージョンパスを特定することができます。また、顧客はコンバージョンにつながる広告サーバーイベントの順序を改善することができます。
+この方法は「クリエイティブのピクセリング」とも呼ばれています。 これらのデータポイントは、サードパーティの広告サーバーマクロにより動的に [!DNL Audience Manager] ピクセルコードに挿入されます。これらのマクロは、キャンペーンの主要なレポート属性に基づいてすべてのインプレッションとクリックのマッピングとレポートに使用されます。 データの集計により、キャンペーンのパフォーマンスを一元的に把握し、カスタムコンバージョンパスを特定することができます。また、顧客はコンバージョンにつながる広告サーバーイベントの順序を改善することができます。
 
 ## イベント呼び出しの構文
 
 >[!NOTE]
 >
->テキストスタイル（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など）は、コード要素とオプションを示します。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
+>テキストスタイル（`monospaced text`、*斜体*、角括弧`[ ]` `( )`など） コードの要素やオプションを表します。 詳しくは、[コードおよびテキスト要素のスタイル規則](../../reference/code-style-elements.md)を参照してください。
 
-イベント呼び出しはインプレッションデータとコンバージョンデータを収集し、[!DNL Audience Manager] [データ収集サーバー](/help/using/reference/system-components/components-data-collection.md)（[!DNL DCS]）に送信します。この処理では、呼び出しをクリエイティブに配置するサードパーティの広告サーバーを使用して、コードに挿入される内容が制御されます。このサードパーティの広告サーバー（[!DNL DFA] など）は、このコードを各広告インプレッション内に配置できます。さらに、広告呼び出しでは、広告タブの外部にある公開者データへのアクセスに、[!DNL JavaScript] やフレームバスティング技法は使用していません。
+イベント呼び出しはインプレッションデータとコンバージョンデータを収集し、[!DNL Audience Manager] [データ収集サーバー](/help/using/reference/system-components/components-data-collection.md)（[!DNL DCS]）に送信します。 この処理では、呼び出しをクリエイティブに配置するサードパーティの広告サーバーを使用して、コードに挿入される内容が制御されます。 このサードパーティの広告サーバー（[!DNL DFA] など）は、このコードを各広告インプレッション内に配置できます。 さらに、広告呼び出しでは、広告タブの外部にある公開者データへのアクセスに、[!DNL JavaScript] やフレームバスティング技法は使用していません。
 
 イベント呼び出しは、次の構文を使用するキーと値のペアで構成されています。
 
@@ -50,11 +63,11 @@ ht-degree: 98%
 https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
 ```
 
-このキーと値のペアでは、値変数は広告サーバーにより挿入された ID またはマクロです。広告タグが読み込まれると、`%macro%` は対応する必須の値に置き換えられます。この呼び出しでは、応答は返されません。
+このキーと値のペアでは、値変数は広告サーバーにより挿入された ID またはマクロです。 広告タグが読み込まれると、`%macro%` は対応する必須の値に置き換えられます。 この呼び出しでは、応答は返されません。
 
 ## サポートされているキーと値のペア {#supported-key-value-pairs}
 
-インプレッションイベント呼び出しでは、キーと値のペアとして構成されているデータを受け付けます。次の表は、これらの変数を格納するキーの一覧と説明です。これらのうち多くは、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータのキャプチャと分析をおこなう場合に必要になります。
+インプレッションイベント呼び出しでは、キーと値のペアとして構成されているデータを受け付けます。 次の表は、これらの変数を格納するキーの一覧と説明です。 これらのうち多くは、[Audience Optimization レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータのキャプチャと分析をおこなう場合に必要になります。
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -78,7 +91,7 @@ https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteI
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>キャッシュバスティング値。<span class="keyword">Audience Manager</span> は、大部分のブラウザーとプロキシで受け入れられるキャッシュ制御ヘッダーを自動的に送信します。キャッシュバスティングを追加で実行する場合は、このパラメーターをイベント呼び出しに入れ、その後にランダムな文字列を追加します。 </p> <p> オプションです。 </p> </td> 
+   <td colname="col2"> <p>キャッシュバスティング値。<span class="keyword"> Audience Manager </span>は、ほとんどのブラウザーとプロキシで尊重されるキャッシュ制御ヘッダーを自動的に送信します。 キャッシュバスティングを追加で実行する場合は、このパラメーターをイベント呼び出しに入れ、その後にランダムな文字列を追加します。 </p> <p> オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 
@@ -86,10 +99,10 @@ https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteI
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_cid </code> </td> 
-   <td colname="col2"> <p>このコンテキストでは、<code> d_cid </code> は、キーと値のペアをインスタンス化し、モバイルデバイスタイプを個人ユーザー ID に関連付けられるようにします。固定 ID により、モバイルデバイスタイプが決定されます。値（ユーザー ID）は変わることがあります。キーと値のペアを <code> %01 </code>（非表示の制御文字）で区切ります。このパラメーターでは、次のキーを指定できます。 </p> 
+   <td colname="col2"> <p>このコンテキストでは、<code> d_cid </code> は、キーと値のペアをインスタンス化し、モバイルデバイスタイプを個人ユーザー ID に関連付けられるようにします。 固定 ID により、モバイルデバイスタイプが決定されます。 値（ユーザー ID）は変わることがあります。 キーと値のペアを <code> %01 </code>（非表示の制御文字）で区切ります。 このパラメーターでは、次のキーを指定できます。 </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
-     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Android（GAID）デバイスを表します。例えば、<code> d_cid = 20914 %01 1234 </code> は、ユーザー 1234 が Android デバイスに関連付けられていることを表します。 </li> 
-     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: iOS（IDFA）デバイスを表します。例えば、<code> d_cid = 20915 %01 5678 </code> は、ユーザー 5678 が iOS デバイスに関連付けられていることを表します。 </li> 
+     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">20914: Android（GAID）デバイスを表します。 例えば、<code> d_cid = 20914 %01 1234 </code> は、ユーザー 1234 が Android デバイスに関連付けられていることを表します。 </li> 
+     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">20915: iOS（IDFA）デバイスを表します。 例えば、<code> d_cid = 20915 %01 5678 </code> は、ユーザー 5678 が iOS デバイスに関連付けられていることを表します。 </li> 
     </ul> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
@@ -114,7 +127,7 @@ https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteI
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p> <p><code>gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p><p><code>gdpr=1</code> の場合、データを正常に処理するには、<code>gdpr_consent</code> パラメーターに IAB TC 同意パラメーターを含める必要があります。そうしないと、すべてのデータが削除されます。</p> </td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。</p> <p><code>gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p><p><code>gdpr=1</code> の場合、データを正常に処理するには、<code>gdpr_consent</code> パラメーターに IAB TC 同意パラメーターを含める必要があります。 そうしないと、すべてのデータが削除されます。</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
@@ -129,7 +142,7 @@ https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteI
 
 ## 追加機能 - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
-ピクセル呼び出しを使用して、[Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) レポートを強化できます。ピクセルを使用してレポートに出力する場合は、[メタデータファイルの概要とマッピング](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
+ピクセル呼び出しを使用して、[Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) レポートを強化できます。 ピクセルを使用してレポートに出力する場合は、[メタデータファイルの概要とマッピング](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
 
 >[!MORELIKETHIS]
 >

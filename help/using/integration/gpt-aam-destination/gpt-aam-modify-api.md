@@ -7,35 +7,43 @@ title: GPT setTargeting API 呼び出しの変更
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third-party Integration
 exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
-TQID: https://experienceleague.adobe.com/2K-1BhtAdC60YW3nxvT7cVgQVSsY3gaWy7NbG-FcDqM
+TQID: 'https://experienceleague.adobe.com/2K-1BhtAdC60YW3nxvT7cVgQVSsY3gaWy7NbG-FcDqM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: '282'
 ht-degree: 98%
-
 ---
-
 # GPT `setTargeting` API呼び出しの変更 {#modify-the-gpt-settargeting-api-call}
 
 [!DNL Google Publisher Tag] `.setTargeting` メソッドを呼び出す前に、Audience Manager の Cookie を確認するための if 文を追加します。
 
 ## `IF` 文で Audience Manager の Cookie を確認
 
-`.setTargeting` メソッドは、データを Audience Manager の宛先 Cookie と一意のユーザー ID Cookie（`aam_uuid`）から取得します。しかし、[!UICONTROL DIL] によりこれらの Cookie が書き込まれるより前に `.setTargeting` が呼び出された場合、またはこれらの Cookie が空の場合、ページを読み込むとエラーが発生することがあります。このような状況が発生しないようにするには、これらの Cookie を確認する `if` 文で `.setTargeting` メソッドを囲みます。これらの Cookie が設定されていない場合、この文は `.setTargeting` が `AamGpt` 関数を呼び出さないようにします。
+`.setTargeting` メソッドは、データを Audience Manager の宛先 Cookie と一意のユーザー ID Cookie（`aam_uuid`）から取得します。 しかし、[!UICONTROL DIL] によりこれらの Cookie が書き込まれるより前に `.setTargeting` が呼び出された場合、またはこれらの Cookie が空の場合、ページを読み込むとエラーが発生することがあります。 このような状況が発生しないようにするには、これらの Cookie を確認する `if` 文で `.setTargeting` メソッドを囲みます。 これらの Cookie が設定されていない場合、この文は `.setTargeting` が `AamGpt` 関数を呼び出さないようにします。
 
 ### `IF` 文コードの例
 
-この例では、Audience Manager の宛先 Cookie の名前は `Sample` です。この名前は、Audience Manager ユーザーインターフェイス で宛先 Cookie を作成する際に設定します。[!UICONTROL DIL] は `aam_uuid` Cookie を設定します。この名前は変更できません。
+この例では、Audience Manager の宛先 Cookie の名前は `Sample` です。 この名前は、Audience Manager ユーザーインターフェイス で宛先 Cookie を作成する際に設定します。 [!UICONTROL DIL] は `aam_uuid` Cookie を設定します。この名前は変更できません。
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -52,7 +60,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 >
 >* クライアント側の統合：1～3 行目のみを使用します。
 >* サーバー側の統合：どの行も必要ではありません。
->* [!DNL Audience Manager] でのレポートに使用する取り込み [!DNL Google Ad Manager] ログファイル：4～6 行目のみを使用します。このコードにより、`aam_uuid` Cookie の値がログに挿入され、レポート用に取り込めるようになります。
+>* [!DNL Audience Manager] でのレポートに使用する取り込み [!DNL Google Ad Manager] ログファイル：4～6 行目のみを使用します。 このコードにより、`aam_uuid` Cookie の値がログに挿入され、レポート用に取り込めるようになります。
 
 ### `AamGpt` 関数とデータタイプ
 
@@ -70,7 +78,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>キーと値のセグメントペアのキーを返します。例えば、キーと値のペアが <code> color=blue </code> である場合、<code> color </code> が返されます。 </p> </td> 
+   <td colname="col3"> <p>キーと値のセグメントペアのキーを返します。 例えば、キーと値のペアが <code> color=blue </code> である場合、<code> color </code> が返されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 

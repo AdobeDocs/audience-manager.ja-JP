@@ -6,25 +6,30 @@ title: Adobe Analytics の詳細検索
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 exl-id: 5a66623b-4d24-4f52-ba26-b59750d25f2c
-TQID: https://experienceleague.adobe.com/-ml-cMnAI9yYhzIVC5OULFnCS4rPdj4RVqBvkm-jrYg
+TQID: 'https://experienceleague.adobe.com/-ml-cMnAI9yYhzIVC5OULFnCS4rPdj4RVqBvkm-jrYg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '215'
 ht-degree: 100%
-
 ---
-
 # Adobe Analytics の詳細検索 {#advanced-search-for-adobe-analytics}
 
 [!DNL Adobe Analytics] も使用している Audience Manager ユーザーは、「[!UICONTROL Advanced Search for Adobe Analytics]」オプションを有効にして、両方のソリューションを緊密に統合して活用することができます。
 
-この統合により、[!DNL Adobe Analytics] レポートスイートからキー値ペアのわかりやすい名前を取得し、表示することができます。手順は次のとおりです。
+この統合により、[!DNL Adobe Analytics] レポートスイートからキー値ペアのわかりやすい名前を取得し、表示することができます。 手順は次のとおりです。
 
 1. [!UICONTROL Audience Data > Signals > Search] に移動して [!UICONTROL Signals Search] を実行し、**[!UICONTROL Advanced search for Adobe Analytics]** オプションを有効にします。
 1. 「**[!UICONTROL Report Suite]**」ドロップダウンメニューで、使用する [!DNL Adobe Analytics] レポートスイートを見つけて選択します。
-1. 残りの検索条件を入力して、「**[!UICONTROL Search]**」をクリックします。選択したレポートスイート内にあるすべてのシグナルを検索する場合は、キーおよび値のフィールドを空白のままにします。
+1. 残りの検索条件を入力して、「**[!UICONTROL Search]**」をクリックします。 選択したレポートスイート内にあるすべてのシグナルを検索する場合は、キーおよび値のフィールドを空白のままにします。
 
    >[!NOTE]
    >
@@ -36,4 +41,4 @@ ht-degree: 100%
 
 以下のビデオでは、使用済みおよび未使用のシグナルの検索、Analytics の特性の作成、データの理解など、[!UICONTROL Data Explorer] によって Adobe Analytics データを検出および使用する方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/330353?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)

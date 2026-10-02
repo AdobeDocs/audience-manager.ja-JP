@@ -8,34 +8,41 @@ title: ID のモニタリングと拒否リストへの登録
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
-TQID: https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0
+TQID: 'https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '487'
 ht-degree: 99%
-
 ---
-
 # ID のモニタリングと拒否リストへの登録
 
 [!DNL DCS] は受信する ID を監視し、一定期間に異常に高い頻度で送信された ID をブロックリストに登録します。
 
 ## 概要
 
-Audience Manager インフラストラクチャを悪意のあるアクティビティから保護するため、[!DNL DCS] は高度なアルゴリズムを使用して受信する ID を監視します。[!UICONTROL Data Provider Unique User ID]（[!UICONTROL CRM ID]）、[!UICONTROL Audience Manager Unique User ID]（[!UICONTROL AAM UUID]）、または [!UICONTROL Experience Cloud ID]（[!UICONTROL ECID]）を使用できます。Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID のインデックス](../../../reference/ids-in-aam.md)を参照してください。
+Audience Manager インフラストラクチャを悪意のあるアクティビティから保護するため、[!DNL DCS] は高度なアルゴリズムを使用して受信する ID を監視します。 [!UICONTROL Data Provider Unique User ID]（[!UICONTROL CRM ID]）、[!UICONTROL Audience Manager Unique User ID]（[!UICONTROL AAM UUID]）、または [!UICONTROL Experience Cloud ID]（[!UICONTROL ECID]）を使用できます。 Audience Manager でサポートされる ID について詳しくは、[Audience Manager の ID のインデックス](../../../reference/ids-in-aam.md)を参照してください。
 
-[!DNL DCS] は悪意の可能性があるアクティビティを検出するために、これらの ID を受信する頻度を監視します。[!DNL DCS] がある特定の ID について、短期間に大量の [!DNL DCS] リクエストを検出すると、その ID はブロックリストに追加されます。
+[!DNL DCS] は悪意の可能性があるアクティビティを検出するために、これらの ID を受信する頻度を監視します。 [!DNL DCS] がある特定の ID について、短期間に大量の [!DNL DCS] リクエストを検出すると、その ID はブロックリストに追加されます。
 
 ## エラーコード
 
-ブロックリストに追加された ID は、[!DNL DCS]から受け取ったエラーコードで識別できます。受信する可能性のあるエラーコードは次のとおりです。
+ブロックリストに追加された ID は、[!DNL DCS]から受け取ったエラーコードで識別できます。 受信する可能性のあるエラーコードは次のとおりです。
 
 * 303: Blocked customer ID
 * 306: Blocked declared device ID
@@ -45,18 +52,18 @@ Audience Manager インフラストラクチャを悪意のあるアクティビ
 
 ## ブロックリストからの ID の削除
 
-不正なデータレポートにつながるため、ブロックリストに追加された ID は今後のリクエストで使用しないでください。[!DNL DCS] では、ブロックリストから ID を削除することはサポートされていません。
+不正なデータレポートにつながるため、ブロックリストに追加された ID は今後のリクエストで使用しないでください。 [!DNL DCS] では、ブロックリストから ID を削除することはサポートされていません。
 
 ## ID 同期への影響
 
-[!DNL DCS] 呼び出しには、1 つまたは複数のタイプの ID を含めることができます。単一の ID を含む呼び出しは、その ID がブロックリストに登録されている場合、完全に無視され、この状況で ID 同期はおこなわれません。
+[!DNL DCS] 呼び出しには、1 つまたは複数のタイプの ID を含めることができます。 単一の ID を含む呼び出しは、その ID がブロックリストに登録されている場合、完全に無視され、この状況で ID 同期はおこなわれません。
 
 複数の ID 呼び出しにブロックリストに登録されている ID も含まれる場合、[!DNL DCS] はブロックリストに登録されている ID を無視し、残りの許可されている ID のみを同期に使用します。
 
 ## ID のブロックリスト登録の原因と修正点
 
-ID がブロックリストに追加される原因として最もよくあるのは、顧客インフラストラクチャと Audience Manager 間の不適切な統合です。ID がブロックリストに登録された場合は、Audience Manager の統合を十分に確認してください。Audience Manager を Experience Cloud の他のソリューションまたは外部システムと連携するように設定する方法について詳しくは、**実装および統合ガイド**&#x200B;を参照してください。
+ID がブロックリストに追加される原因として最もよくあるのは、顧客インフラストラクチャと Audience Manager 間の不適切な統合です。 ID がブロックリストに登録された場合は、Audience Manager の統合を十分に確認してください。 Audience Manager を Experience Cloud の他のソリューションまたは外部システムと連携するように設定する方法について詳しくは、**実装および統合ガイド**&#x200B;を参照してください。
 
-ID がブロックリストに登録される別のよくある原因は、ボット（Web クローラー）のインデックス作成です。通常、これによってトラフィックが増加し、同じ ID が複数回 [!DNL DCS] に送信されます。ブロックリストに ID が追加される理由としてインデックス作成ボットを識別する場合は、web サイトへのボットアクセスを制限する必要があります。
+ID がブロックリストに登録される別のよくある原因は、ボット（Web クローラー）のインデックス作成です。通常、これによってトラフィックが増加し、同じ ID が複数回 [!DNL DCS] に送信されます。 ブロックリストに ID が追加される理由としてインデックス作成ボットを識別する場合は、web サイトへのボットアクセスを制限する必要があります。
 
-統合に関する問題を特定できない場合は、カスタマーサポートまでお気軽にお問い合わせください。サポートリクエストを開始する前に、必ずブラウザーの `.har` `HTTP` アーカイブを準備しておいてください。このアーカイブは、サポートチームが ID がブロックリストに追加された理由を特定するのに役立ちます。
+統合に関する問題を特定できない場合は、カスタマーサポートまでお気軽にお問い合わせください。 サポートリクエストを開始する前に、必ずブラウザーの `.har` `HTTP` アーカイブを準備しておいてください。 このアーカイブは、サポートチームが ID がブロックリストに追加された理由を特定するのに役立ちます。

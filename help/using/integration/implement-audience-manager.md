@@ -1,5 +1,5 @@
 ---
-description: ここでは、Audience Manager データ管理プラットフォーム（DMP）の導入に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager の実装プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 か月間かかる可能性があります。
+description: ここでは、Audience Manager データ管理プラットフォーム（DMP）の導入に関連するプロセスについて説明します。 この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager の実装プロセスを理解するのに役立ちます。 Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 か月間かかる可能性があります。
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
@@ -7,31 +7,43 @@ title: Audience Manager の実装
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
-TQID: https://experienceleague.adobe.com/kGezI8iT63EVPpn4gdftTPXhhhm3ouQBl-9deJ1Xs0o
+TQID: 'https://experienceleague.adobe.com/kGezI8iT63EVPpn4gdftTPXhhhm3ouQBl-9deJ1Xs0o'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1028'
 ht-degree: 98%
-
 ---
-
 # Audience Manager の実装 {#implementing-audience-manager}
 
-ここでは、Audience Manager データ管理プラットフォーム（[!DNL DMP]）の実装に関連するプロセスについて説明します。この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager の実装プロセスを理解するのに役立ちます。Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 か月間かかる可能性があります。
+ここでは、Audience Manager データ管理プラットフォーム（[!DNL DMP]）の実装に関連するプロセスについて説明します。 この節は、ビジネスチーム、プロジェクトマネージャーおよび技術マネージャーが Audience Manager の実装プロセスを理解するのに役立ちます。 Audience Manager の使用を開始するまでに、データ収集のニーズに応じておよそ 6 週間から 3 か月間かかる可能性があります。
 
-アドビの導入手法は、新しいクライアントとのコンサルティングパートナーシップの構築に役立ちます。このプロセスの目的を以下に示します。
+アドビの導入手法は、新しいクライアントとのコンサルティングパートナーシップの構築に役立ちます。 このプロセスの目的を以下に示します。
 
 * ビジネス要件を発見および理解する
 * 実行可能なプランを作成して、これらの要求に対処する
@@ -160,7 +172,7 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 <!-- c_build_test_train.xml -->
 
-データ収集戦略に対してエンドツーエンドの [!DNL QA] テストが実施されます。パートナーソリューションは検出されたバグを追跡し、弊社のシステムエンジニアと協力して問題の解決を図ります。トレーニングはこれらの他の作業と平行して開始できます。
+データ収集戦略に対してエンドツーエンドの [!DNL QA] テストが実施されます。 パートナーソリューションは検出されたバグを追跡し、弊社のシステムエンジニアと協力して問題の解決を図ります。 トレーニングはこれらの他の作業と平行して開始できます。
 
 次の表は、このフェーズでおこなわれる主要なアクティビティを示したものです。
 
@@ -180,7 +192,7 @@ Audience Manager では、段階的なアプローチでセットアップおよ
 
 ## 立ち上げ、サポートおよび最適化フェーズ {#launch-support-optimize-phase}
 
-立ち上げ、サポートおよび最適化フェーズ中は、データ収集およびプロトタイプ実装が、開発からライブの本番環境に移行します。アドビでは、引き続き製品習熟および戦略に関するトレーニングをおこない、データ駆動型の最適化による [!DNL ROI] の向上に役立てます。
+立ち上げ、サポートおよび最適化フェーズ中は、データ収集およびプロトタイプ実装が、開発からライブの本番環境に移行します。 アドビでは、引き続き製品習熟および戦略に関するトレーニングをおこない、データ駆動型の最適化による [!DNL ROI] の向上に役立てます。
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -243,8 +255,8 @@ Audience Manager は Data Integration Library（[!DNL DIL]）を使用して、�
 
 ## 導入後のサポート {#post-implementation-support}
 
-アドビのコラボレーションの取り組みは、最終デプロイメントで終わりではありません。導入の完了後は、アドビのアカウント管理チームが引き継ぎます。
+アドビのコラボレーションの取り組みは、最終デプロイメントで終わりではありません。 導入の完了後は、アドビのアカウント管理チームが引き継ぎます。
 
-アカウントマネージャーは、製品実装プロセスが完了した後も、引き続きサポートおよびコンサルティングサービスを提供します。アカウントマネージャーとの定期的なミーティングの開催を期待できます。これらのミーティングでは、Audience Manager を最大限に活用し、価値を引き出すようにします。
+アカウントマネージャーは、製品実装プロセスが完了した後も、引き続きサポートおよびコンサルティングサービスを提供します。 アカウントマネージャーとの定期的なミーティングの開催を期待できます。 これらのミーティングでは、Audience Manager を最大限に活用し、価値を引き出すようにします。
 
 Audience Manager の詳細情報および開始方法については、[こちら](https://www.adobe.com/jp/products/audiencemanager.html)からお問い合わせください。

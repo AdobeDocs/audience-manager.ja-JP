@@ -7,19 +7,25 @@ title: Audience Lab の高度な機能
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
 feature: Audience Lab
 exl-id: 40b2c8c2-63c0-485d-8217-beab34d7a7f1
-TQID: https://experienceleague.adobe.com/9ABdWm61XwzXhFzvAhWhc-u0090yx-G43PH2nlyfLpM
+TQID: 'https://experienceleague.adobe.com/9ABdWm61XwzXhFzvAhWhc-u0090yx-G43PH2nlyfLpM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 446
+source-wordcount: '447'
 ht-degree: 98%
-
 ---
-
 # [!DNL Audience Lab]の高度な機能 {#audience-lab-advanced-functionality}
 
 この記事では、[!DNL Audience Lab] の高度な機能である、[!DNL Duplicate Allocation Template] および [!DNL Segment Holdout] の 2 つの機能について説明します。
@@ -37,7 +43,7 @@ ht-degree: 98%
 * テストグループで使用するコンバージョン特性。
 * 選択した宛先へテストグループを公開する日付範囲。
 
-割り当てテンプレートを複製すると、テストセグメントと宛先の分布を、新しいテストグループで別のベースセグメントに再利用できます。割り当てテンプレートの例を下図に示します。この画像は、**テストグループの作成**&#x200B;ワークフローの[!UICONTROL Summary & Finalize]手順のものです。
+割り当てテンプレートを複製すると、テストセグメントと宛先の分布を、新しいテストグループで別のベースセグメントに再利用できます。 割り当てテンプレートの例を下図に示します。 この画像は、**テストグループの作成**&#x200B;ワークフローの[!UICONTROL Summary & Finalize]手順のものです。
 
 ![](assets/allocation_template_3.png)
 
@@ -47,9 +53,9 @@ With the option to duplicate allocation templates, you can increase your product
 
 ### 割り当てテンプレートの複製の使用方法
 
-複数のテストグループで同じ設定を再利用するには、複製元のテストグループを作成してから、「**[!UICONTROL Duplicate Allocation Template]**」を選択します。例えば、この機能を使用すると、複数のセグメントについていくつかの宛先をテストして有効性を判断することができます。
+複数のテストグループで同じ設定を再利用するには、複製元のテストグループを作成してから、「**[!UICONTROL Duplicate Allocation Template]**」を選択します。 例えば、この機能を使用すると、複数のセグメントについていくつかの宛先をテストして有効性を判断することができます。
 
-1. Audience Lab のメイン表示で、新しいテストグループで再利用する割り当てテンプレートがあるテストグループを検索します。ドロップダウンボックスで「**[!UICONTROL Duplicate Allocation Template]**」を選択します。
+1. Audience Lab のメイン表示で、新しいテストグループで再利用する割り当てテンプレートがあるテストグループを検索します。 ドロップダウンボックスで「**[!UICONTROL Duplicate Allocation Template]**」を選択します。
 
    ![](assets/duplicate-allocation-template.png)
 
@@ -58,7 +64,7 @@ With the option to duplicate allocation templates, you can increase your product
 
    * テストセグメント間でのデバイスの分布。
    * コンバージョン特性。
-   * 宛先へのテストセグメントのマッピング。マッピングキーが必要な宛先については、このキーを入力することのみ可能です。
+   * 宛先へのテストセグメントのマッピング。 マッピングキーが必要な宛先については、このキーを入力することのみ可能です。
    * 選択した宛先へテストグループを公開する日付範囲。
 
 4. 前の手順で追加した情報を確認し、「**[!UICONTROL Finalize Group]**」を選択します。
@@ -67,9 +73,9 @@ With the option to duplicate allocation templates, you can increase your product
 
 >[!NOTE]
 >
->[!UICONTROL Test Segment Holdout]は、顧客リクエストアクティブ化される高度な機能です。この機能を有効化するには、[!DNL Customer Care] または [!DNL Adobe Consulting] にお問い合わせください。
+>[!UICONTROL Test Segment Holdout]は、顧客リクエストアクティブ化される高度な機能です。 この機能を有効化するには、[!DNL Customer Care] または [!DNL Adobe Consulting] にお問い合わせください。
 
-この機能を使用すると、オーディエンスの一部をテスト対象から除外することができます。選択した割合がテストから除外されます。これにより、ターゲットにした（宛先でアクティブにした）オーディエンスとターゲット外のオーディエンス（除外グループ）のそれぞれでコンバージョン数を測定し、比較することができます。
+この機能を使用すると、オーディエンスの一部をテスト対象から除外することができます。 選択した割合がテストから除外されます。 これにより、ターゲットにした（宛先でアクティブにした）オーディエンスとターゲット外のオーディエンス（除外グループ）のそれぞれでコンバージョン数を測定し、比較することができます。
 
 <!--
 <p>Note that this option is different to the control segment because it subtracts the percentage ................. You can withhold an audience group and still use a control segment. </p>
@@ -82,8 +88,8 @@ With the option to duplicate allocation templates, you can increase your product
 
    ![リスト項目](assets/test-segment-holdout.png)
 
-1. スライダーを使用して、テストから除外するデバイス数を選択します。以下の例では、Test Segment 1 と Test Segment 2 に含めるデバイス数を全体の 70％にしています。
+1. スライダーを使用して、テストから除外するデバイス数を選択します。 以下の例では、Test Segment 1 と Test Segment 2 に含めるデバイス数を全体の 70％にしています。
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. **[!UICONTROL Create Test Group]**&#x200B;ワークフローの残りの手順を完了し、選択内容に問題がなければ、「**[!UICONTROL Finalize Group]**」を選択します。これで、指定したオーディエンスの一部がテスト対象から除外されたテストグループが作成されます。
+1. **[!UICONTROL Create Test Group]**&#x200B;ワークフローの残りの手順を完了し、選択内容に問題がなければ、「**[!UICONTROL Finalize Group]**」を選択します。 これで、指定したオーディエンスの一部がテスト対象から除外されたテストグループが作成されます。

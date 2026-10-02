@@ -7,47 +7,52 @@ title: Audience Lab に関するよくある質問
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
-TQID: https://experienceleague.adobe.com/VDrkY-L2PnhRdSTmZd-0sjpJEI5vHxm9c3uMqtyQd3Y
+TQID: 'https://experienceleague.adobe.com/VDrkY-L2PnhRdSTmZd-0sjpJEI5vHxm9c3uMqtyQd3Y'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 96%
-
 ---
-
-# Audience Lab に関するよくある質問 {#audience-lab-faq}
+# Audience Lab に関するよくある質問{#audience-lab-faq}
 
 Audience Lab 機能に関するよくある質問です。
 
 <br> 
 
-**テストグループに作成されたテストセグメントにはそれぞれ異なるセグメント ID が割り当てられますか？様々な宛先に ID をマッピングするにはどうすればよいですか？**
+**テストグループに作成されたテストセグメントにはそれぞれ異なるセグメント ID が割り当てられますか？ 様々な宛先に ID をマッピングするにはどうすればよいですか？**
 
-はい。テストセグメントにはそれぞれ異なるセグメント ID が割り当てられます。[!UICONTROL Auto-fill Destination Mapping]を使用する宛先、またはセグメントの宛先が [!DNL Google] である場合、[!UICONTROL Audience Lab]は通常の宛先の場合と同様にマッピング値を処理します。
+はい。テストセグメントにはそれぞれ異なるセグメント ID が割り当てられます。 [!UICONTROL Auto-fill Destination Mapping]を使用する宛先、またはセグメントの宛先が [!DNL Google] である場合、[!UICONTROL Audience Lab]は通常の宛先の場合と同様にマッピング値を処理します。
 
-<br>
+<br> 
 
 **同じコンバージョン特性を複数のテストグループに関連付けることはできますか？**
 
-はい。できます。一方のテストでコンバージョン X に関連付けられた男性セグメントを使用し、他方のテストでコンバージョン X に関連付けられた女性セグメントを使用しているとします。これらは 2 つの異なるオーディエンスをテストしているので、両方のテストでコンバージョンが発生していても問題ありません。
+はい。できます。 一方のテストでコンバージョン X に関連付けられた男性セグメントを使用し、他方のテストでコンバージョン X に関連付けられた女性セグメントを使用しているとします。これらは 2 つの異なるオーディエンスをテストしているので、両方のテストでコンバージョンが発生していても問題ありません。
 
-<br>
+<br> 
 
-**あるテストグループは、テストセグメントの分割に認証済みプロファイルを使用しているとします。認証済みプロファイルは、4 [Audience Manager UUID](../reference/ids-in-aam.md)にリンクされています。 訪問者が 4 つの UUID の中の 1 つのコンバージョン特性を示した場合、[!UICONTROL Audience Lab]はこれを 1 つのコンバージョンまたは 4 つのコンバージョンどちらのコンバージョンとしてカウントしますか？**
+**あるテストグループは、テストセグメントの分割に認証済みプロファイルを使用しているとします。 認証済みプロファイルは、4 [Audience Manager UUID](../reference/ids-in-aam.md)にリンクされています。 訪問者が 4 つの UUID の中の 1 つのコンバージョン特性を示した場合、[!UICONTROL Audience Lab]はこれを 1 つのコンバージョンまたは 4 つのコンバージョンどちらのコンバージョンとしてカウントしますか？**
 
 この場合、[!UICONTROL Audience Lab]は 1 回のコンバージョンとしてのみカウントします。
 
-<br>
+<br> 
 
-**上記のケースで、訪問者は始めに認証済みプロファイルに関連付けられた 4 つの UUID の中の 1 つのコンバージョン特性を示し、次に他の 2 つの UUID のコンバージョン特性を示したとします。この場合、コンバージョンは 1 回または 3 回のどちらとしてカウントされますか？**
+**上記のケースで、訪問者は始めに認証済みプロファイルに関連付けられた 4 つの UUID の中の 1 つのコンバージョン特性を示し、次に他の 2 つの UUID のコンバージョン特性を示したとします。 この場合、コンバージョンは 1 回または 3 回のどちらとしてカウントされますか？**
 
 この場合、[!UICONTROL Audience Lab]は 3 回のコンバージョンとしてカウントします。認証済み特性を示した各デバイスについて 1 回となります。
 
-<br>
+<br> 
 
 **ユーザーは [!UICONTROL Segment: Read-Only] アクセス権を持つ事ができますが、[!UICONTROL Audience Lab] テストセグメント作成権限も持つことはできますか？**
 
@@ -55,4 +60,4 @@ Audience Lab 機能に関するよくある質問です。
 
 **[!UICONTROL Audience Lab] を [!UICONTROL Profile Link Device Graph] および外部デバイスグラフ（Tapad デバイスグラフ、Liveramp デバイスグラフ）と組み合わせて使用することはできますか？**
 
-[!UICONTROL Profile Link Device Graph]を使用する場合、[!UICONTROL Audience Lab]では今のところ、条件を満たすデバイスと関連付けられたデバイスによってのみセグメント母集団を分割できます。[!UICONTROL Audience Lab]で他のデバイスグラフもサポート対象とするよう作業を進めています。サポートの追加が完了し次第お知らせいたします。
+[!UICONTROL Profile Link Device Graph]を使用する場合、[!UICONTROL Audience Lab]では今のところ、条件を満たすデバイスと関連付けられたデバイスによってのみセグメント母集団を分割できます。 [!UICONTROL Audience Lab]で他のデバイスグラフもサポート対象とするよう作業を進めています。サポートの追加が完了し次第お知らせいたします。

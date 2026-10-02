@@ -1,5 +1,5 @@
 ---
-description: クライアントサイドまたはサーバーサイドの統合を通じて、適格なセグメントを Google Ad Manager に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
+description: クライアントサイドまたはサーバーサイドの統合を通じて、適格なセグメントを Google Ad Manager に送信できます。 この両方のメソッドに関する要件と関連情報を以下に示します。
 seo-description: You can send qualified segments to Google Ad Manager either through a client-side or through a server-side integration. Requirements and related information about both methods are listed below.
 seo-title: Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags (GPT)
 solution: Audience Manager
@@ -7,58 +7,65 @@ title: Google サイト運営者タグ（GPT）を使用して Google Ad Manager
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third-party Integration
 exl-id: 04bf6fb5-ce38-4de1-bf19-e130b7e47616
-TQID: https://experienceleague.adobe.com/RJwzr9sCowegtUDtmi99IBoZHvMBlEZVMBYSGgEVVYE
+TQID: 'https://experienceleague.adobe.com/RJwzr9sCowegtUDtmi99IBoZHvMBlEZVMBYSGgEVVYE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '497'
 ht-degree: 96%
-
 ---
-
 # Google パブリッシャータグ（GPT）を使用してGoogle Ad Managerにセグメントを送信する要件と方法 {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-クライアント側またはサーバー側の統合を通じて、適格なセグメントを [!DNL Google Ad Manager]（旧称 DFP）に送信できます。この両方のメソッドに関する要件と関連情報を以下に示します。
+クライアント側またはサーバー側の統合を通じて、適格なセグメントを [!DNL Google Ad Manager]（旧称 DFP）に送信できます。 この両方のメソッドに関する要件と関連情報を以下に示します。
 
 ## クライアント側の統合 {#client-side-integration}
 
-クライアント側の統合では、Audience Manager で [!DNL GPT] 宛先を設定する必要があります。[!DNL GPT]を Audience Manager 宛先として設定する場合、次の点を考慮してください。
+クライアント側の統合では、Audience Manager で [!DNL GPT] 宛先を設定する必要があります。 [!DNL GPT]を Audience Manager 宛先として設定する場合、次の点を考慮してください。
 
-* **を追加[!UICONTROL DIL]：**&#x200B;ターゲットに設定するすべてのページに [!UICONTROL Data Integration Library (DIL)] コードをデプロイします。[!UICONTROL DIL] は Audience Manager のセグメントデータとユーザー ID を、[!DNL GPT] がターゲティングに使用する Cookie に書き込みます。
+* **を追加[!UICONTROL DIL]：**&#x200B;ターゲットに設定するすべてのページに [!UICONTROL Data Integration Library (DIL)] コードをデプロイします。 [!UICONTROL DIL] は Audience Manager のセグメントデータとユーザー ID を、[!DNL GPT] がターゲティングに使用する Cookie に書き込みます。
 
-* **[!UICONTROL Cookie Destination]の作成：**&#x200B;[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
+* **[!UICONTROL Cookie Destination]の作成：**[!DNL GPT] は Audience Manager で Cookie ベースの宛先として設定しなければなりません。
 
-* **Cookie チェックコードの実装**：[!DNL GPT] の `.setTargeting` API メソッドを、推奨される [Cookie チェックコード](../../integration/gpt-aam-destination/gpt-aam-modify-api.md)でラップします。このコードにより、`.setTargeting`.メソッドを呼び出す前に有効な AAM Cookie が検索されるので、エラーが回避されます。
+* **Cookie チェックコードの実装**：[!DNL GPT] の `.setTargeting` API メソッドを、推奨される [Cookie チェックコード](../../integration/gpt-aam-destination/gpt-aam-modify-api.md)でラップします。 このコードにより、`.setTargeting`.メソッドを呼び出す前に有効な AAM Cookie が検索されるので、エラーが回避されます。
 
-* **`AamGpt` 関数の追加：**`AamGpt` コードは Audience Manager の Cookie からデータをキャプチャして、[!DNL GPT]に送信します。[Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)（`AamGpt`）をページの最上部または `<head>` コードブロック内に配置します。
+* **`AamGpt` 関数の追加：**`AamGpt` コードは Audience Manager の Cookie からデータをキャプチャして、[!DNL GPT]に送信します。 [Google サイト運営者タグ用の Audience Manager コード](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)（`AamGpt`）をページの最上部または `<head>` コードブロック内に配置します。
 
   >[!NOTE]
   >
   >独自のコードを使用して Audience Manager の Cookie データを読み取る場合、`AamGpt` 関数は必要ありません。
 
-* **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。データは raw 形式でもかまいませんが、各レコードには Audience Manager `UUID` が含まれている必要があります。Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
+* **Send Delivery Logs to Audience Manager：**&#x200B;セグメントの配信レポート（オプション）が必要である場合、インプレッションレベルの配信データが含まれる日単位のログを Audience Manager に送信します。 データは raw 形式でもかまいませんが、各レコードには Audience Manager `UUID` が含まれている必要があります。 Audience Manager は [!DNL FTP] を介してこれらを受け取ることができます。
 
 ### GPT に送信されるのは認定されたセグメントのみ
 
-[!DNL GPT] に渡されるデータの量は、特定のユーザーが認定するセグメントの数によって異なります。例えば、100 件の Audience Manager セグメントを設定したとします。サイト訪問者がそのうち 5 件を認定した場合、その 5 件のセグメントだけが [!DNL GPT] に送信されます（100 件全部ではありません）。
+[!DNL GPT] に渡されるデータの量は、特定のユーザーが認定するセグメントの数によって異なります。 例えば、100 件の Audience Manager セグメントを設定したとします。 サイト訪問者がそのうち 5 件を認定した場合、その 5 件のセグメントだけが [!DNL GPT] に送信されます（100 件全部ではありません）。
 
 >[!NOTE]
 >
->送信できるキーと値の数に制限はありませんが、[!DNL Google] リクエスト [!DNL URL] で使用できる文字数には制限があります。[GPT でのターゲティングとサイズの設定](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&answer=1697712)を参照してください。
+>送信できるキーと値の数に制限はありませんが、[!DNL Google] リクエスト [!DNL URL] で使用できる文字数には制限があります。 [GPT でのターゲティングとサイズの設定](https://support.google.com/dfp_premium/bin/answer.py?hl=ja&answer=1697712)を参照してください。
 
 ## サーバー側の統合 {#server-side-integration}
 
-[!DNL GPT] を使用して [!DNL Google Ad Manager] でサーバー側の統合を設定する場合は、Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。[!DNL Google Ad Manager] アカウントのネットワーク ID と Audience Link ID を提供する必要があります。
+[!DNL GPT] を使用して [!DNL Google Ad Manager] でサーバー側の統合を設定する場合は、Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。 [!DNL Google Ad Manager] アカウントのネットワーク ID と Audience Link ID を提供する必要があります。
 
 >[!IMPORTANT]
 >
->Web ページが [Accelerated Media Pages](https://www.ampproject.org/)（[!DNL AMP]）ライブラリを実行している場合、Audience Manager でサーバー側の統合を使用する必要があります。[!DNL AMP] を使用していて、[!DNL AMP] によるクライアント側の統合がある場合、サーバー側の統合に移行する必要があります。移行については、Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。
+>Web ページが [Accelerated Media Pages](https://www.ampproject.org/)（[!DNL AMP]）ライブラリを実行している場合、Audience Manager でサーバー側の統合を使用する必要があります。 [!DNL AMP] を使用していて、[!DNL AMP] によるクライアント側の統合がある場合、サーバー側の統合に移行する必要があります。 移行については、Audience Manager コンサルタントまたはカスタマーケアにお問い合わせください。
 
 >[!MORELIKETHIS]
 >

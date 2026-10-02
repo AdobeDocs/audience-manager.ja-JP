@@ -1,31 +1,38 @@
 ---
-description: 特性の除外を使用すると、モデリングワークフローをさらに細かく制御し、ドメインに関する知識および規制要件に応じてモデルに含める特性を限定できます。1 つまたは複数のデータソースからモデルを作成するときに、「Exclusions」オプションを使用して、除外する特性を指定します。
+description: 特性の除外を使用すると、モデリングワークフローをさらに細かく制御し、ドメインに関する知識および規制要件に応じてモデルに含める特性を限定できます。 1 つまたは複数のデータソースからモデルを作成するときに、「Exclusions」オプションを使用して、除外する特性を指定します。
 seo-description: Trait Exclusion provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the Exclusions option to select which traits to ignore when creating models from one or more data sources.
 seo-title: Algorithmic Models  Trait Exclusion
 title: アルゴリズムモデル  特性の除外
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 feature: Algorithmic Models
 exl-id: 7e2df04d-7e07-408d-b82a-9571b5839ff4
-TQID: https://experienceleague.adobe.com/E629v49xWYBTIP5wPBYeJY6ts1f2P0WDAhtNOPUuEKQ
+TQID: 'https://experienceleague.adobe.com/E629v49xWYBTIP5wPBYeJY6ts1f2P0WDAhtNOPUuEKQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 98%
-
+source-wordcount: '653'
+ht-degree: 97%
 ---
-
 # 類似（look-alike）モデリング：特性の例外 {#algorithmic-models-trait-exclusion}
 
-[!UICONTROL Trait Exclusion]を使用すると、モデリングワークフローをさらに細かく制御し、ドメインに関する知識および規制要件に応じてモデルに含める特性を限定できます。1 つまたは複数のデータソースからモデルを作成するときに、「[!UICONTROL Exclusions]」オプションを使用して、除外する特性を指定します。
+[!UICONTROL Trait Exclusion]を使用すると、モデリングワークフローをさらに細かく制御し、ドメインに関する知識および規制要件に応じてモデルに含める特性を限定できます。 1 つまたは複数のデータソースからモデルを作成するときに、「[!UICONTROL Exclusions]」オプションを使用して、除外する特性を指定します。
 
 ## ユースケース {#use-cases}
 
@@ -37,7 +44,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->3 番目のユースケースに関する注意事項を次に示します。*モデルの作成後*&#x200B;にサードパーティデータプロバイダーがデータフィードに新しい人口統計的特性を追加した場合、モデルはこの特性を自動的に取得します。モデルの作成後に、モデリングから特性を除外することはできません。詳しくは、[重要な点および制限事項](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations)を参照してください。この機能を使用する場合は細心の注意を払うとともに、データプロバイダーにフィード構造を変更した場合は通知するように依頼してください。
+>3 番目のユースケースに関する注意事項を次に示します。 *モデルの作成後*&#x200B;にサードパーティデータプロバイダーがデータフィードに新しい人口統計的特性を追加した場合、モデルはこの特性を自動的に取得します。 モデルの作成後に、モデリングから特性を除外することはできません。 詳しくは、[重要な点および制限事項](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations)を参照してください。 この機能を使用する場合は細心の注意を払うとともに、データプロバイダーにフィード構造を変更した場合は通知するように依頼してください。
 
 ![](assets/lam_exclude_traits.png)
 
@@ -47,23 +54,23 @@ ht-degree: 98%
 
 1. 「[!UICONTROL Exclusions]」セクションは、モデリング用のデータソースを 1 つ以上選択するまでグレー表示になります。
 2. モデリング用のデータソースを 1 つまたは複数選択したら、「**[!UICONTROL Browse All Traits]**」をクリックします。
-3. **[!UICONTROL Select Traits to Exclude]** ウィンドウに、選択済みのデータソースに関連付けられているすべての特性が表示されます。除外する特性を選択します。
-4. 特性タイプや特性母集団タイプ（[デバイス ID](../../reference/ids-in-aam.md) および[クロスデバイス ID](../../reference/ids-in-aam.md)）で特性をフィルタリングしたり、特性フォルダーを参照したりできます。特性フォルダーには、選択したデータソースに関連付けられている特性のみが表示されます。
+3. **[!UICONTROL Select Traits to Exclude]** ウィンドウに、選択済みのデータソースに関連付けられているすべての特性が表示されます。 除外する特性を選択します。
+4. 特性タイプや特性母集団タイプ（[デバイス ID](../../reference/ids-in-aam.md) および[クロスデバイス ID](../../reference/ids-in-aam.md)）で特性をフィルタリングしたり、特性フォルダーを参照したりできます。 特性フォルダーには、選択したデータソースに関連付けられている特性のみが表示されます。
 5. **[!UICONTROL Exclude Selected Traits]** を押します。
 
 ![trait-exclusions](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
->特性フォルダー内の特性を 1 つ 1 つ除外するのではなく、フォルダー特性を除外することでフォルダー全体を除外対象にすることもできます。例えば、フォルダーに特性が 20 個含まれている場合、特性を 1 つ 1 つ除外するのではなく、フォルダー特性を除外することをお勧めします。
+>特性フォルダー内の特性を 1 つ 1 つ除外するのではなく、フォルダー特性を除外することでフォルダー全体を除外対象にすることもできます。 例えば、フォルダーに特性が 20 個含まれている場合、特性を 1 つ 1 つ除外するのではなく、フォルダー特性を除外することをお勧めします。
 
 ビデオチュートリアルを希望する場合は、特性の除外のビデオデモをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/38134/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 さらに、クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/36810/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
 ## 重要な側面と制限 {#important-aspects-and-limitations}
 
@@ -79,10 +86,10 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>モデル概要表示での特性の除外 </p> </td>
-   <td colname="col2"> <p>除外した特性は、モデル概要には<i>表示されません</i>。除外した特性は、<b><span class="uicontrol">モデルの編集</span></b>ワークフローにのみ表示されます。 </p> </td>
+   <td colname="col2"> <p>除外した特性は、モデル概要には<i>表示されません</i>。 除外した特性は、<b><span class="uicontrol">モデルの編集</span></b>ワークフローにのみ表示されます。 </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ロールベースのアクセス制御（RBAC） </p> </td>
+   <td colname="col1"> <p>役割ベースのアクセス制御（RBAC） </p> </td>
    <td colname="col2"> <p>会社で <a href="../../features/administration/administration-overview.md#administration">RBAC</a> を使用する際には、次の制限事項に注意してください。 </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
       <li id="li_2624FB35581F4807B8530910D63FFDBF">特性の表示アクセス権がない場合、その特性を選択してモデルから除外することは<i>できません</i>。 </li>
@@ -91,11 +98,11 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>モデル保存後の除外特性の変更 </p> </td>
-   <td colname="col2"> <p>モデルを作成し保存した後に、除外対象の特性を変更することはできません。結果の調整が必要な場合は、モデルを複製して除外対象の特性を変更してください。 </p> </td>
+   <td colname="col2"> <p>モデルを作成し保存した後に、除外対象の特性を変更することはできません。 結果の調整が必要な場合は、モデルを複製して除外対象の特性を変更してください。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>除外できる特性の上限数 </p> </td>
-   <td colname="col2"> <p>モデルから除外できる特性の数は 500 個までです。より多くの特性を除外するには、フォルダー特性を使用してください。 </p> </td>
+   <td colname="col2"> <p>モデルから除外できる特性の数は 500 個までです。 より多くの特性を除外するには、フォルダー特性を使用してください。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>ベースライン特性の除外 </p> </td>
@@ -106,9 +113,9 @@ ht-degree: 98%
 
 [!UICONTROL Look-Alike Model] からの特定の特性を除外する方法と理由については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/38134?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## 関連リンク
 
 * [アルゴリズム特性について](/help/using/features/algorithmic-models/understanding-models.md)
-* [特性の例外 - チュートリアル](https://helpx.adobe.com/jp/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
+* [特性の除外 – チュートリアル](https://helpx.adobe.com/jp/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)

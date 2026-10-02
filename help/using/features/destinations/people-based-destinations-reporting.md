@@ -1,39 +1,43 @@
 ---
-description: People-Based Destinations は、共有可能なオーディエンスの概念を Audience Manager に導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールアドレスの数について理解するのに役立ちます。
+description: People-Based Destinations は、共有可能なオーディエンスの概念を Audience Manager に導入します。 この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールアドレスの数について理解するのに役立ちます。
 seo-description: People-Based Destinations introduce the notion of Shareable Audiences to Audience Manager. This metric helps you understand how many of the hashed email addresses Audience Manager can share with the destination platform.
 seo-title: Shareable Audiences
 solution: Audience Manager
 title: 共有可能なオーディエンス
 feature: People-based Destinations
 exl-id: 2860c105-1091-4779-bf40-e66faa941af0
-TQID: https://experienceleague.adobe.com/k-f2lTvCntfTu6pvQm-y4Ah6VqJIDsXkAhTw4sjngj8
+TQID: 'https://experienceleague.adobe.com/k-f2lTvCntfTu6pvQm-y4Ah6VqJIDsXkAhTw4sjngj8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '517'
 ht-degree: 98%
-
 ---
-
 # 共有可能なオーディエンス {#shareable-audiences}
 
 >[!IMPORTANT]
->この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法的なアドバイスは何も含まれません。 法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
-[!DNL People-Based Destinations] は、Audience Manager に、[!DNL Shareable Audiences] の概念を導入します。この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールアドレスの数について理解するのに役立ちます。
+[!DNL People-Based Destinations] は、Audience Manager に、[!DNL Shareable Audiences] の概念を導入します。 この指標は、Audience Manager が宛先プラットフォームと共有できる、ハッシュ化された電子メールアドレスの数について理解するのに役立ちます。
 
-[!DNL Shareable Audiences] は、[!DNL People-Based Destinations] のコンテキストでオーディエンスデータを解釈するのに役立つ指標です。この指標は、[!UICONTROL Destinations] ページおよび [!UICONTROL Segment] ページ内で確認できます。
+[!DNL Shareable Audiences] は、[!DNL People-Based Destinations] のコンテキストでオーディエンスデータを解釈するのに役立つ指標です。 この指標は、[!UICONTROL Destinations] ページおよび [!UICONTROL Segment] ページ内で確認できます。
 
 ## セグメント共有可能なオーディエンス {#segment-shareable-audiences}
 
 セグメントページの [!DNL Segment Shareable Audience] 指標は、[DPUUID](../../reference/ids-in-aam.md) が一致し、特定のルックバック期間の定義済みセグメントに適合し、プロファイル結合ルールが適用され、Audience Manager が宛先プラットフォームと共有できるデータソースのハッシュ化された電子メールアドレスの数を示します。
 
-この指標のルックバック期間は 1 日です。これにより、特定の宛先におけるセグメントのオーディエンスリーチを把握できます。
+この指標のルックバック期間は 1 日です。 これにより、特定の宛先におけるセグメントのオーディエンスリーチを把握できます。
 
 ## 宛先共有可能なオーディエンス {#destination-shareable-audience}
 
@@ -41,11 +45,11 @@ People-Based Destinations ページの [!DNL Destination Shareable Audience] 指
 
 ![shareable-audiences](assets/dest-shareable-audiences.png)
 
-この指標のルックバック期間は全期間です。これにより、ハッシュ化された電子メールアドレスデータソースからリーチできる、オーディエンスの規模を把握するのに役立ちます。
+この指標のルックバック期間は全期間です。 これにより、ハッシュ化された電子メールアドレスデータソースからリーチできる、オーディエンスの規模を把握するのに役立ちます。
 
 ## 例
 
-Audience Manager のお客様には、110,000 の [DPUUID](../../reference/ids-in-aam.md) （CRM ID）を含むデータソースがあります。これらは、100,000 個のハッシュ化された電子メールアドレスを Audience Manager に取り込み、複数のユーザーベースの宛先で使用し、100,000 個のハッシュ化された電子メールアドレスの ID を CRM ID と同期します。顧客は [!DNL All Cross-Device Profiles] 結合ルールを使用して、次の 3 つのオーディエンスセグメントを作成できます。
+Audience Manager のお客様には、110,000 の [DPUUID](../../reference/ids-in-aam.md) （CRM ID）を含むデータソースがあります。 これらは、100,000 個のハッシュ化された電子メールアドレスを Audience Manager に取り込み、複数のユーザーベースの宛先で使用し、100,000 個のハッシュ化された電子メールアドレスの ID を CRM ID と同期します。 顧客は [!DNL All Cross-Device Profiles] 結合ルールを使用して、次の 3 つのオーディエンスセグメントを作成できます。
 
 * セグメント A（母集団数 10,000、宛先 A にマッピング済み）
 * セグメント B（母集団数 20,000、宛先 A にマッピング済み）
@@ -63,4 +67,4 @@ Audience Manager のお客様には、110,000 の [DPUUID](../../reference/ids-i
 
 >[!NOTE]
 >
->上記の例では、3 つのセグメントのハッシュ化された電子メールアドレス 80,000 個すべてが、宛先プラットフォームの既存のアカウントと一致しているというわけではありません。Audience Manager が 3 つのセグメントのハッシュ化された識別子を、それぞれの宛先に送信しているということのみを示しています。オーディエンスセグメントをユーザーベースの宛先に送信する際は、パートナー側でオーディエンスの照合がおこなわれます。宛先 A には、一致するユーザーアカウントが最大 30,000 個あります。宛先 B には 50,000 個のユーザーアカウントがありますが、マッチ率は保証されません。アドビは、パートナー固有の指標にはアクセスできません。マッチ率における People-Based Destinations の表示設定関するよく寄せられる質問については、「[マッチ率](../../faq/faq-people-based-destinations.md#match-rates)」を参照してください。
+>上記の例では、3 つのセグメントのハッシュ化された電子メールアドレス 80,000 個すべてが、宛先プラットフォームの既存のアカウントと一致しているというわけではありません。 Audience Manager が 3 つのセグメントのハッシュ化された識別子を、それぞれの宛先に送信しているということのみを示しています。 オーディエンスセグメントをユーザーベースの宛先に送信する際は、パートナー側でオーディエンスの照合がおこなわれます。 宛先 A には、一致するユーザーアカウントが最大 30,000 個あります。宛先 B には 50,000 個のユーザーアカウントがありますが、マッチ率は保証されません。 アドビは、パートナー固有の指標にはアクセスできません。 マッチ率における People-Based Destinations の表示設定関するよく寄せられる質問については、「[マッチ率](../../faq/faq-people-based-destinations.md#match-rates)」を参照してください。

@@ -7,19 +7,23 @@ title: パブリッシャーのユースケース
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 feature: Reference
 exl-id: 974652de-59c0-46db-ac64-ba701985e409
-TQID: https://experienceleague.adobe.com/ptW1-1-tTMPBV7xhvI5hglL3LFfhONE3apr9-WQhMYs
+TQID: 'https://experienceleague.adobe.com/ptW1-1-tTMPBV7xhvI5hglL3LFfhONE3apr9-WQhMYs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Insights
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '644'
 ht-degree: 100%
-
 ---
-
 # パブリッシャーのユースケース{#publisher-use-cases}
 
 Adobe Audience Manager が満たしているいくつかの一般的なパブリッシャーニーズの概観。
@@ -42,7 +46,7 @@ c_pub_use_case.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>すべてのユーザーおよびデータポイントの概要を提供する単一のオーディエンスリポジトリを作成する。これには、サイト行動（Analytics から得られる可能性がある）、ディスプレイ広告インプレッション数、オフライン登録データベース、CRM データベース、ビデオ消費、電子メール広告およびプロモーションなどの情報が含まれます。 </p> </td> 
+   <td colname="col1"> <p>すべてのユーザーおよびデータポイントの概要を提供する単一のオーディエンスリポジトリを作成する。 これには、サイト行動（Analytics から得られる可能性がある）、ディスプレイ広告インプレッション数、オフライン登録データベース、CRM データベース、ビデオ消費、電子メール広告およびプロモーションなどの情報が含まれます。 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_FB6683152C7D4D65AF951BA55E123427"> 
       <li id="li_45C12198EDDE4107AE59947BBAA51A60">オーディエンスを発見し、スマートな広告や販売キャンペーンを実行し、顧客インサイトを管理します。 </li> 
@@ -97,7 +101,7 @@ c_pub_use_case.xml
    <td colname="col2"> <p><span class="keyword">Audience Manager</span> のリアルタイム分析により、オーディエンス認識が向上し、関連性の高いパーソナライズされたコンテンツを配信することで、オンサイトエクスペリエンスを強化します。 </p> <p>これにより、コンテンツのパーソナライゼーションをラインアイテムとしてプレミアムオーディエンス製品に追加する機会が得られます。 </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EEED2DAD504C486F8C00992219C893F7"> 
-      <li id="li_E536F7C79824484DA3DC895809B849F4">Analytics は、トラベルコンテンツでのオーディエンスの興味に関するファーストパーティデータを提供します。この情報に基づいて、「Travel Enthusiasts」と呼ばれるセグメントを作成します。 </li> 
+      <li id="li_E536F7C79824484DA3DC895809B849F4">Analytics は、トラベルコンテンツでのオーディエンスの興味に関するファーストパーティデータを提供します。 この情報に基づいて、「Travel Enthusiasts」と呼ばれるセグメントを作成します。 </li> 
       <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3"><span class="keyword">Audience Manager</span> を Adobe CQ などのシステムと統合して、コンテンツのパーソナライゼーションキャンペーンを管理します。 </li> 
       <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">航空会社、ホテルまたは接客業の広告主に対してトラベルセグメントをターゲットにして、インベントリによって生成される広告収入の向上に役立てます。 </li> 
      </ul> </p> </td> 
@@ -152,7 +156,7 @@ c_pub_use_case.xml
    <td colname="col2"> <p> 
      <ul id="ul_CC5448D2EA0646D4AF3547E81DE31FDE"> 
       <li id="li_8F11E40026404C1380F26F6D03952C8E">行動とプロファイルが元のオーディエンスと一致する新しいオーディエンスを特定できます。 </li> 
-      <li id="li_5F67AD849EC145DBB1E52A92BBE2CEE3">独自のデータおよびアクセスできる他のサードパーティデータ内で検索することで、高価値のオーディエンスプロファイルに対して影響度が最も高かったデータポイントを特定できます。 </li> 
+      <li id="li_5F67AD849EC145DBB1E52A92BBE2CEE3">独自のデータおよびアクセスできる他のサードパーティデータ内で検索することで、 高価値のオーディエンスプロファイルに対して影響度が最も高かったデータポイントを特定できます。 </li> 
      </ul> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_51091241D6B94A849A383538045D797C"> 

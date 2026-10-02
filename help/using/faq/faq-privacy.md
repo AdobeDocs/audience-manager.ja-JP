@@ -7,31 +7,45 @@ title: プライバシーとデータ保持に関するよくある質問
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-TQID: https://experienceleague.adobe.com/olj76RlEM8Hc6cBdOrdR-kye-bsaCBbkQEHJWNuAXh8
+TQID: 'https://experienceleague.adobe.com/olj76RlEM8Hc6cBdOrdR-kye-bsaCBbkQEHJWNuAXh8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '783'
 ht-degree: 93%
-
 ---
-
-# プライバシーとデータ保持に関するよくある質問 {#privacy-and-data-retention-faq}
+# プライバシーとデータ保持に関するよくある質問{#privacy-and-data-retention-faq}
 
 プライバシーやデータに関してよくある質問や問題に対する回答。
 
@@ -49,7 +63,7 @@ ht-degree: 93%
 
 **米国の Audience Manager クライアントは EU 資産のユーザーをターゲットにすることができますか？**
 
-はい。Audience Manager は、国際的な資産を持つクライアントと協力しています。EU には厳しいプライバシー法がありますが、Audience Manager では、ヨーロッパでファーストパーティデータをオーディエンスターゲティングに使用するクライアントを備えています。Audience Manager では、EU オーディエンスへのターゲティングをサポートできますが、現地のプライバシー規制法の遵守は当事者の責任においておこなう必要があります。
+はい。 Audience Manager は、国際的な資産を持つクライアントと協力しています。 EU には厳しいプライバシー法がありますが、Audience Manager では、ヨーロッパでファーストパーティデータをオーディエンスターゲティングに使用するクライアントを備えています。 Audience Manager では、EU オーディエンスへのターゲティングをサポートできますが、現地のプライバシー規制法の遵守は当事者の責任においておこなう必要があります。
 
 <!-- 
 
@@ -72,11 +86,11 @@ ht-degree: 93%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>バックエンドサーバー </p> </td> 
-   <td colname="col2"> <p>120 日間 </p> <p> Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 120 日後にユーザーデータをバックエンドサーバーから削除します。<span class="keyword">Audience Manager</span> がこの 120 日間のサイクル内にユーザーアクティビティを記録した場合、このデータはさらに 120 日間保持されます。 </p> </td> 
+   <td colname="col2"> <p>120 日間 </p> <p> Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 120 日後にユーザーデータをバックエンドサーバーから削除します。 <span class="keyword">Audience Manager</span> がこの 120 日間のサイクル内にユーザーアクティビティを記録した場合、このデータはさらに 120 日間保持されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>エッジサーバー </p> </td> 
-   <td colname="col2"> <p> 14 日間 </p> <p>Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 14 日後にユーザーデータをエッジエンドサーバーから削除します。<span class="keyword">Audience Manager</span> がこの 14 日間のサイクル内にユーザーアクティビティを記録した場合、このデータはさらに 14 日間保持されます。14 日間のサイクルの後にユーザーが再度アクティブになった場合、最初の新規ページビューからユーザーが操作可能になるまでの間に遅延が発生します。14 日間アクティビティがない状態が続いた後、プロファイル全体をエッジセンターに戻すのに 6 ～ 18 時間かかります。 </p> </td> 
+   <td colname="col2"> <p> 14 日間 </p> <p>Audience Manager では、Audience Manager プラットフォームでユーザーを最後に確認してから 14 日後にユーザーデータをエッジエンドサーバーから削除します。 <span class="keyword">Audience Manager</span> がこの 14 日間のサイクル内にユーザーアクティビティを記録した場合、このデータはさらに 14 日間保持されます。 14 日間のサイクルの後にユーザーが再度アクティブになった場合、最初の新規ページビューからユーザーが操作可能になるまでの間に遅延が発生します。 14 日間アクティビティがない状態が続いた後、プロファイル全体をエッジセンターに戻すのに 6 ～ 18 時間かかります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>生のログ </p> </td> 
@@ -84,11 +98,11 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <p>広告サーバーログ </p> </td> 
-   <td colname="col2"> <p><b>レポート</b> </p> <p>ログファイルは、最大 30 日間、レポート目的で保持されます。不一致ログ（訪問者の広告サーバー ID と <span class="keyword">Audience Manager</span> ID の間に ID 同期がないログ）は、アドビのバックエンドストレージには永続的に保存されません。また、<span class="keyword">Amazon S3</span> に格納されている一致ログは最大 30 日間保持されます。 </p> <p><b>アクションにつながるログファイル</b> </p> <p>一致ログも不一致ログも最大 30 日間、保持されます。 </p> </td> 
+   <td colname="col2"> <p><b>レポート</b> </p> <p>ログファイルは、最大 30 日間、レポート目的で保持されます。 不一致ログ（訪問者の広告サーバー ID と <span class="keyword">Audience Manager</span> ID の間に ID 同期がないログ）は、アドビのバックエンドストレージには永続的に保存されません。また、<span class="keyword">Amazon S3</span> に格納されている一致ログは最大 30 日間保持されます。 </p> <p><b>アクションにつながるログファイル</b> </p> <p>一致ログも不一致ログも最大 30 日間、保持されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CRM レベルのプロファイル（認証済みプロファイル） </p> </td> 
-   <td colname="col2"> <p>非アクティブな CRM レベルのプロファイル（顧客 ID）のデフォルトの有効期間（TTL）間隔は 24 か月です。ただし、Audience Manager ユーザーインターフェイスを使用して、1 か月から 5 年間の非アクティブな CRM レベルのプロファイルの TTL 間隔を増減できます。これは、クロスデバイス対応データソースを作成または編集するときに実行できます。</p> <p>詳しくは、<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応のデータソースの作成</a>のデータソース設定を参照してください。</p> </td> 
+   <td colname="col2"> <p>非アクティブな CRM レベルのプロファイル（顧客 ID）のデフォルトの有効期間（TTL）間隔は 24 か月です。 ただし、Audience Manager ユーザーインターフェイスを使用して、1 か月から 5 年間の非アクティブな CRM レベルのプロファイルの TTL 間隔を増減できます。 これは、クロスデバイス対応データソースを作成または編集するときに実行できます。</p> <p>詳しくは、<a href="../features/profile-merge-rules/merge-rules-start.md#settings">クロスデバイス対応のデータソースの作成</a>のデータソース設定を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>モバイルデバイス ID </p> </td> 
@@ -96,19 +110,19 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <p>顧客データフィード（CDF） </p> </td> 
-   <td colname="col2"> <p>CDF ファイルには、<span class="keyword">Audience Manager</span> イベント呼び出し（/event）でサーバーに送信されるデータと同じものが含まれています。保持期間は 8 日です。CDFについて詳しくは、<a href="../features/cdf-files.md"> CDF Intro</a>および<a href="../faq/faq-cdf.md"> CDF FAQ</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>CDF ファイルには、<span class="keyword">Audience Manager</span> イベント呼び出し（/event）でサーバーに送信されるデータと同じものが含まれています。 保持期間は 8 日です。 CDFについて詳しくは、<a href="../features/cdf-files.md"> CDF Intro</a>および<a href="../faq/faq-cdf.md"> CDF FAQ</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>同期済み ID 間のマッピング </p> </td> 
-   <td colname="col2"> <p>Audience Manager cookie ID（<a href="../reference/ids-in-aam.md">Audience Manager の一意のユーザー ID または AAM UUID</a>）とサードパーティ cookie ID 間の <a href="../features/administration/usage-limits.md#id-mapping-limits">ID マッピング</a>の有効期間は 120 日に制限されます。ID マッピングの有効期限は、Audience Manager ネットワークで Audience Manager cookie が表示されるたびにリセットされます。最新の ID マッピング同期は、関連付けられている <a href="../reference/ids-in-aam.md">Audience Manager の一意のユーザー ID（AAM UUID）</a>が有効である間、保持されます。</p></td> 
+   <td colname="col2"> <p>Audience Manager cookie ID（<a href="../reference/ids-in-aam.md">Audience Manager の一意のユーザー ID または AAM UUID</a>）とサードパーティ cookie ID 間の <a href="../features/administration/usage-limits.md#id-mapping-limits">ID マッピング</a>の有効期間は 120 日に制限されます。 ID マッピングの有効期限は、Audience Manager ネットワークで Audience Manager cookie が表示されるたびにリセットされます。 最新の ID マッピング同期は、関連付けられている <a href="../reference/ids-in-aam.md">Audience Manager の一意のユーザー ID（AAM UUID）</a>が有効である間、保持されます。</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>インバウンドデータ </p> </td> 
-   <td colname="col2"> <p>これは、FTP で <span class="keyword">Audience Manager</span> に送信される受信データ、または <span class="keyword">Amazon S3</span> ディレクトリに直接送信される受信データです。詳しくは、<a href="../faq/faq-inbound-data-ingestion.md">受信顧客データ取り込みの FAQ</a> を参照してください。 </p> </td> 
+   <td colname="col2"> <p>これは、FTP で <span class="keyword">Audience Manager</span> に送信される受信データ、または <span class="keyword">Amazon S3</span> ディレクトリに直接送信される受信データです。 詳しくは、<a href="../faq/faq-inbound-data-ingestion.md">受信顧客データ取り込みの FAQ</a> を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>アウトバウンドデータ </p> </td> 
-   <td colname="col2"> <p>これは、<span class="keyword">Audience Manager</span> からサードパーティアクティベーションパートナーに送信されるバッチデータです。保持期間は 8 日です。アウトバウンドデータについて詳しくは、<a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> アウトバウンドバッチ転送</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>これは、<span class="keyword">Audience Manager</span> からサードパーティアクティベーションパートナーに送信されるバッチデータです。 保持期間は 8 日です。 アウトバウンドデータについて詳しくは、<a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> アウトバウンドバッチ転送</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +145,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <p>特性上限に到達 </p> </td> 
-   <td colname="col2"> <p>ユーザーごとの特性絞り込みの上限を 100,000 件に設定しています。この制限は、認証済みプロファイルとデバイスプロファイルに適用されます。ユーザープロファイルがこの上限に達したら、先入れ先出し方式で古い特性絞り込みから順に削除します。 </p> <p>詳しくは、<a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit">特性選定の制限</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>ユーザーごとの特性絞り込みの上限を 100,000 件に設定しています。 この制限は、認証済みプロファイルとデバイスプロファイルに適用されます。 ユーザープロファイルがこの上限に達したら、先入れ先出し方式で古い特性絞り込みから順に削除します。 </p> <p>詳しくは、<a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit">特性選定の制限</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

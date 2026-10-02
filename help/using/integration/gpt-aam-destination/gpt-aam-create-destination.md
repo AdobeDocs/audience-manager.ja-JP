@@ -1,5 +1,5 @@
 ---
-description: 認定されたセグメントを、クライアントサイド（ブラウザーサイド）の統合、またはサーバー側の統合により Google Ad Manager に送信することができます。クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
+description: 認定されたセグメントを、クライアントサイド（ブラウザーサイド）の統合、またはサーバー側の統合により Google Ad Manager に送信することができます。 クライアント側の統合を選択した場合、Audience Manager で Google サイト運営者タグの Cookie ベースの宛先を作成する必要があります。
 seo-description: You can send qualified segments to Google Ad Manager through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for Google Publisher Tags in Audience Manager.
 seo-title: Create a GPT Destination
 solution: Audience Manager
@@ -7,30 +7,37 @@ title: GPT 宛先の作成
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third-party Integration
 exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
-TQID: https://experienceleague.adobe.com/v24OVLvNGPvqASZ4CPh2xbBgVcXZNCitCBM76nUXRsE
+TQID: 'https://experienceleague.adobe.com/v24OVLvNGPvqASZ4CPh2xbBgVcXZNCitCBM76nUXRsE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: e7029888-c8b0-46a7-849a-cf132a1559bf
+    internal-label: Destination Builder
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 284
-ht-degree: 92%
-
+source-wordcount: '295'
+ht-degree: 95%
 ---
-
 # GPT 宛先の作成 {#create-a-gpt-destination}
 
-認定されたセグメントを、クライアント側（ブラウザー側）の統合またはサーバー側の統合により [!DNL Google Ad Manager] に送信することができます。クライアント側の統合を選択した場合、Audience Manager で [!DNL Google Publisher Tags] の Cookie ベースの宛先を作成する必要があります。
+認定されたセグメントを、クライアント側（ブラウザー側）の統合またはサーバー側の統合により [!DNL Google Ad Manager] に送信することができます。 クライアント側の統合を選択した場合、Audience Manager で [!DNL Google Publisher Tags] の Cookie ベースの宛先を作成する必要があります。
 
 ## 宛先
 
-Audience Managerでは、*`destination`*&#x200B;とは、データを共有する他のシステム （広告サーバー、[!DNL DSP]、広告ネットワークなど）です。 [!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。Audience Manager の宛先に関する機能は、*[!UICONTROL Audience Data]／[!UICONTROL Destinations]* からアクセスできます。まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
+Audience Managerでは、*`destination`*&#x200B;は他のシステム（広告サーバー、[!DNL DSP]、広告ネットワークなど）です。 宛先になります。 [!UICONTROL Destination Builder] は、これらのデータ配信プロセスを作成および管理するためのツールです。 Audience Manager の宛先に関する機能は、*[!UICONTROL Audience Data]／[!UICONTROL Destinations]* からアクセスできます。 まず、**[!UICONTROL Add New Destination]**&#x200B;をクリックし、以下の手順に従います。
 
 ## 基本情報
 
@@ -54,10 +61,10 @@ Audience Managerでは、*`destination`*&#x200B;とは、データを共有す�
 
 以下の手順で Cookie の宛先にセグメントを追加します。
 
-1. Find segments：「[!UICONTROL Segment Mappings]」セクションには、セグメントを検索するための 2 つの検索ツールが用意されています。セグメントを検索するには、
+1. Find segments：「[!UICONTROL Segment Mappings]」セクションには、セグメントを検索するための 2 つの検索ツールが用意されています。 セグメントを検索するには、
 
-   * オプション 1：検索フィールドにセグメント名を入力します。入力されたテキストに基づいて、フィールドが自動的に更新されます。使用するセグメントが見つかったら、**[!UICONTROL Add]**&#x200B;をクリックします。
-   * オプション 2：**[!UICONTROL Browse All Segments]**&#x200B;をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。終了したら、「**[!UICONTROL Add Selected Segments]**」をクリックします。
+   * オプション 1：検索フィールドにセグメント名を入力します。 入力されたテキストに基づいて、フィールドが自動的に更新されます。 使用するセグメントが見つかったら、**[!UICONTROL Add]**&#x200B;をクリックします。
+   * オプション 2：**[!UICONTROL Browse All Segments]**&#x200B;をクリックし、名前または保存場所でセグメントを参照できるウィンドウを開きます。 終了したら、「**[!UICONTROL Add Selected Segments]**」をクリックします。
 
 1. **Add Mappings：**&#x200B;マッピングのポップアップ表示で、マッピングのフィールドにセグメント ID を入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
