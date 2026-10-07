@@ -73,7 +73,7 @@ Audience Manager では、特性選定（特性の満足）の処理方法は特
 
 [!UICONTROL Total Segment Population] は、指定した期間内に選択したセグメントの対象となるデバイスの数を表します。 この [!UICONTROL 1 Day] レポートは、最新のセグメント母集団数を表します。
 
-これらの数字については次のように考えます。 上の画像では、[&#x200B; セグメントの詳細](../../features/segments/segment-summary-view.md) ビューから、9,993は、アクティブなデバイスの数、昨日プロパティにアクセスし、セグメントに適格なデバイスの数を表します。 [!UICONTROL Total Segment Population] は 699,532 ですが、これは現在このセグメントの対象として認定されているデバイスの合計数を表します。 [!UICONTROL Total Segment Population] の数は、セグメント化／ターゲティングに使用できるデバイスの合計数を表しています。
+これらの数字については次のように考えます。 上の画像では、[ セグメントの詳細](../../features/segments/segment-summary-view.md) ビューから、9,993は、アクティブなデバイスの数、昨日プロパティにアクセスし、セグメントに適格なデバイスの数を表します。 [!UICONTROL Total Segment Population] は 699,532 ですが、これは現在このセグメントの対象として認定されているデバイスの合計数を表します。 [!UICONTROL Total Segment Population] の数は、セグメント化／ターゲティングに使用できるデバイスの合計数を表しています。
 
 2 つの母集団の計算にはそれぞれ異なる 2 つの演算ジョブを実行しているので、[!UICONTROL Total Segment Population] は常に [!UICONTROL Real-time Segment Population] より 24 時間遅れることになります。 上のグラフでは、2 月 2 日時点での [!UICONTROL Real-time Segment Population] は 8,116、[!UICONTROL Total Segment Population] は 742,000 となっています。 次の日に、8,116 件のプロファイルが [!UICONTROL Total Segment Population] に加算されます。
 

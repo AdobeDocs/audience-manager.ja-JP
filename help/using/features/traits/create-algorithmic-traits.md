@@ -33,9 +33,9 @@ ht-degree: 97%
    * 特性の名前を設定します。
    * データソースを選択します。
    * 保存フォルダーを選択します。
-1. 「[!UICONTROL Configuration]」パネルを展開し、**[!UICONTROL Browse All Models]**&#x200B;をクリックします。
+1. 「[!UICONTROL Configuration]」パネルを展開し、**[!UICONTROL Browse All Models]**をクリックします。
 新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
-1. モデルを選択して、**[!UICONTROL Add Selected Model to Trait]**&#x200B;をクリックします。
+1. モデルを選択して、**[!UICONTROL Add Selected Model to Trait]**をクリックします。
 モデルを追加すると、リーチと精度の設定が表示されます。
 1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。 終了したら、「**[!UICONTROL Save]**」をクリックします。
 

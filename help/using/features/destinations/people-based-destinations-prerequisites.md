@@ -86,9 +86,9 @@ ht-degree: 91%
 
 1 つの顧客 ID にリンクされている 10 を超えるハッシュ化された電子メールアドレスを、複数の一括転送でアップロードすると、Audience Manager は最近追加された 10 個の電子メールアドレスを保持します。
 
-ハッシュ化されたIDを取り込むには、[&#x200B; ハッシュ化されたID](../create-data-source-hashed-emails.md)のクロスデバイス データ ソースを作成し、**[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプションを有効にします。
+ハッシュ化されたIDを取り込むには、[ ハッシュ化されたID](../create-data-source-hashed-emails.md)のクロスデバイス データ ソースを作成し、**[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** オプションを有効にします。
 
-![&#x200B; ピープルベースの宛先やハッシュ化されたメールワークフローで、関連するクロスデバイス IDを共有するオプションを示すAudience Manager UI画像](assets/data-source-share-ids.png)
+![ ピープルベースの宛先やハッシュ化されたメールワークフローで、関連するクロスデバイス IDを共有するオプションを示すAudience Manager UI画像](assets/data-source-share-ids.png)
 
 ## データプライバシー {#data-privacy}
 

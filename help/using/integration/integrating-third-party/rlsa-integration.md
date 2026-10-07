@@ -45,10 +45,10 @@ ht-degree: 98%
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. Audience Manager で、[&#x200B; [!DNL URL destination]](../../features/destinations/create-url-destination.md)を作成するか、既存の[!DNL destination]を編集します。 [!DNL destination]を作成する際には、次の設定を使用します。
+1. Audience Manager で、[ [!DNL URL destination]](../../features/destinations/create-url-destination.md)を作成するか、既存の[!DNL destination]を編集します。 [!DNL destination]を作成する際には、次の設定を使用します。
    * Type：URL
    * Serialize：Enabled
-   * 区切り文字：セミコロン （&semi;）
+   * 区切り文字：セミコロン （&amp;semi;）
 
 1. セクションで、[!DNL URL] [!DNL destination] の[!UICONTROL Segment Mappings]セクションで、手順 2 のコードを [!DNL URL] および [!DNL Secure URL] フィールドに追加します。 [!DNL URL] および [!DNL Secure URL] フィールドで、コードにそれぞれ `http:` と `https:` の接頭辞を付けます。
 
@@ -86,6 +86,6 @@ ht-degree: 98%
 >[!MORELIKETHIS]
 >
 >* [[!DNL Destinations]](../../features/destinations/destinations.md)
->* [&#x200B; [!DNL URL Destination]](../../features/destinations/create-url-destination.md) の作成
+>* [ [!DNL URL Destination]](../../features/destinations/create-url-destination.md) の作成
 >* [AdWords リマーケティングリストについて](https://support.google.com/adwords/answer/2472738?hl=ja)
 >* [AdWords リマーケティングの仕組み](https://support.google.com/adwords/answer/2454000?hl=ja)

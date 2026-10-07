@@ -52,7 +52,7 @@ ht-degree: 96%
 
 ## データカテゴリによる特性の分類
 
-[!UICONTROL Add New Trait Wizard] （***[!UICONTROL Audience Data > Traits]***&#x200B;にある）で特性を作成または編集する際に、分類を割り当てます。 詳しくは、[特性の作成に関するドキュメント](../../features/traits/create-onboarded-rule-based-traits.md)を参照してください。
+[!UICONTROL Add New Trait Wizard] （***[!UICONTROL Audience Data > Traits]***にある）で特性を作成または編集する際に、分類を割り当てます。 詳しくは、[特性の作成に関するドキュメント](../../features/traits/create-onboarded-rule-based-traits.md)を参照してください。
 
 ## 分類の使用：その他の考慮事項
 

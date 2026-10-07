@@ -93,7 +93,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 ## デバイスグラフオプション {#device-graph-options}
 
-[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。 ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。 これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。 特定のユースケースについては、[&#x200B; プロファイルリンクデバイスグラフのユースケース &#x200B;](profile-link-use-case.md)および[外部デバイスグラフのユースケース &#x200B;](external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。 ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。 これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。 特定のユースケースについては、[ プロファイルリンクデバイスグラフのユースケース ](profile-link-use-case.md)および[外部デバイスグラフのユースケース ](external-graph-use-cases.md)を参照してください。
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -126,10 +126,10 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 [!UICONTROL Profile Merge Rules] の使用例の概要については、以下のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/32576?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >
 >* [プロファイルリンクデバイスグラフのユースケース](profile-link-use-case.md)
->* [&#x200B; 外部デバイスグラフのユースケース](external-graph-use-cases.md)
+>* [ 外部デバイスグラフのユースケース](external-graph-use-cases.md)
 >* [プロファイル結合ルール FAQ](../../faq/faq-profile-merge.md)
