@@ -33,7 +33,7 @@ ht-degree: 89%
 [!UICONTROL Traits] ダッシュボードには、以下をおこなうために役立つ機能およびツールが含まれています。
 
 1. 並べ替え可能な列を持つ表でのすべての特性および関連する詳細の表示。
-2. [ アクティブなオーディエンス特性とData Source同期特性](../../features/traits/client-activity-synced-audience-traits.md)を確認して操作します。
+2. [&#x200B; アクティブなオーディエンス特性とData Source同期特性](../../features/traits/client-activity-synced-audience-traits.md)を確認して操作します。
 3. 特性の作成、編集および削除。
 4. 特性ストレージフォルダーの表示および管理。
 5. 名前、ID、説明またはデータソースによる特性の検索。 検索中にフォルダーをクリックすると、検索範囲をそのフォルダーおよびサブフォルダーに限定できます。

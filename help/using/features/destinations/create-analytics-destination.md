@@ -77,7 +77,7 @@ Analytics レポートでは、プロファイルはセグメント Bの対象�
 
 ## 手順 2：データ書き出しコントロールの設定
 
-このセクションには、[ データ書き出しコントロール ](/help/using/features/data-export-controls.md)をAnalyticsの宛先に適用するオプションが含まれています。 データ書き出しコントロールを使用しない場合は、この手順を省略してください。 このセクションを完了するには：
+このセクションには、[&#x200B; データ書き出しコントロール &#x200B;](/help/using/features/data-export-controls.md)をAnalyticsの宛先に適用するオプションが含まれています。 データ書き出しコントロールを使用しない場合は、この手順を省略してください。 このセクションを完了するには：
 
 1. 「**Data Export Controls**」をクリックして、コントロールを表示します。
 1. 宛先に適用されたデータ書き出し制御に対応するラベルを選択します（[宛先にデータ書き出しラベルを追加](/help/using/features/destinations/add-data-export-labels.md)を参照）。 Analytics の宛先の場合は、PII のチェックボックスがデフォルトで選択されています。
