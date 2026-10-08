@@ -49,4 +49,4 @@ Published by Adobe Systems Incorporated.
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. 商標記号（®、™など） Adobeの商標を示します。
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_jp](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_jp](https://www.adobe.com/jp/products/eula/third_party/).
