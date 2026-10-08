@@ -62,8 +62,8 @@ ht-degree: 71%
 
 [!DNL Audience Manager] [!DNL REST APIs]は3つの認証方法をサポートしています。
 
-* [[!BADGE Adobe開発者コンソール &#x200B;]](https://www.adobe.io/)を使用した[OAuth サーバー間認証](#oauth-adobe-developer)の推奨&rbrack;{type=positive}を&lbrack;推奨しました。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。 これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。 [!DNL Adobe] [!DNL APIs] を設定および使用する場合は、この方法をお勧めします。 [OAuth Server-to-Server Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)の詳細については、Adobe開発者向けドキュメントをご覧ください。
-* [[!BADGE Adobe開発者コンソール &#x200B;]](https://www.adobe.io/)を使用した[JWT （サービスアカウント）認証](#jwt)を[非推奨]{type=negative}にしました。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。 これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。
+* [!BADGE Adobe開発者コンソール ](https://www.adobe.io/)を使用した[OAuth サーバー間認証](#oauth-adobe-developer)の推奨]{type=positive}を[推奨しました。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。 これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。 [!DNL Adobe] [!DNL APIs] を設定および使用する場合は、この方法をお勧めします。 [OAuth Server-to-Server Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)の詳細については、Adobe開発者向けドキュメントをご覧ください。
+* [!BADGE Adobe開発者コンソール ](https://www.adobe.io/)を使用した[JWT （サービスアカウント）認証](#jwt)を[非推奨]{type=negative}にしました。 [!DNL Adobe Developer] は、アドビの開発者エコシステムおよびコミュニティです。 これには[すべてのアドビ製品の API](https://developer.adobe.com/apis/) が含まれます。
 * [!BADGE 非推奨]{type=negative} [従来のOAuth認証](#oauth-deprecated)。 この方法は非推奨ですが、既存の [!DNL OAuth] 統合を使用するお客様は、引き続きこの方法を使用できます。
 
 >[!IMPORTANT]
@@ -91,13 +91,13 @@ ht-degree: 71%
 次の手順に従って、[!DNL Adobe Developer] を使用して [!DNL OAuth Server-to-Server] 認証を設定します。
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/home) にログインします。
-1. 「[OAuth サーバー間の資格情報実装ガイド &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)」の手順に従います。
+1. 「[OAuth サーバー間の資格情報実装ガイド ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)」の手順に従います。
    * [手順 2：サービスアカウント認証を使用してプロジェクトに API を追加する](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)で、[!DNL Audience Manager] [!DNL API] オプションを選択します。
 1. [手順 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) の指示に基づいて最初の [!DNL API] 呼び出しをおこない、接続を試します。
 
 >[!NOTE]
 >
->[!DNL Audience Manager] [!DNL REST APIs]を自動的に設定して操作するには、プログラムでクライアント シークレットをローテーションできます。 詳しい手順については、[開発者用ドキュメント &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically)を参照してください。
+>[!DNL Audience Manager] [!DNL REST APIs]を自動的に設定して操作するには、プログラムでクライアント シークレットをローテーションできます。 詳しい手順については、[開発者用ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically)を参照してください。
 
 ### プロジェクトへのAudience Manager APIの追加 {#add-aam-api-to-project}
 
@@ -117,7 +117,7 @@ ht-degree: 71%
 
 >[!TIP]
 >
->「**[!UICONTROL View docs]**」オプションを選択すると、別のブラウザーウィンドウに移動し、[Audience Manager API参照ドキュメント &#x200B;](https://bank.demdex.com/portal/swagger/index.html#)に移動します。
+>「**[!UICONTROL View docs]**」オプションを選択すると、別のブラウザーウィンドウに移動し、[Audience Manager API参照ドキュメント ](https://bank.demdex.com/portal/swagger/index.html#)に移動します。
 
 ### OAuth サーバー間認証タイプを選択します {#select-oauth-server-to-server}
 
@@ -150,18 +150,18 @@ APIがプロジェクトに追加されると、プロジェクトの&#x200B;**[
 
 次の手順では、Audience Manager API呼び出しで使用する`{ACCESS_TOKEN}`資格情報を生成します。 `{API_KEY}`および`{ORG_ID}`の値とは異なり、Audience Manager APIを引き続き使用するには、24時間ごとに新しいトークンを生成する必要があります。 次に示すように、**[!UICONTROL Generate access token]**&#x200B;を選択します。
 
-![&#x200B; アクセストークンの生成方法を表示](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
+![ アクセストークンの生成方法を表示](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
 
 ## API呼び出しのテスト {#test-api-call}
 
 認証ベアラートークンを取得したら、API呼び出しを実行してテストし、Audience Manager APIにアクセスできるようになりました。
 
-1. [API リファレンスドキュメント &#x200B;](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_)に移動します。
-2. **[!UICONTROL Authorize]**&#x200B;を選択し、[&#x200B; アクセストークンの生成](#generate-access-token)手順で取得したアクセストークンを貼り付けます。
+1. [API リファレンスドキュメント ](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_)に移動します。
+2. **[!UICONTROL Authorize]**&#x200B;を選択し、[ アクセストークンの生成](#generate-access-token)手順で取得したアクセストークンを貼り付けます。
 
    ![API呼び出しを承認](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
 
-3. `/datasources` API エンドポイントに対してGET呼び出しを実行し、[API リファレンスドキュメント &#x200B;](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_)に示されているように、グローバルに利用可能なすべてのデータソースのリストを取得します。 次に示すように、**[!UICONTROL Try it out]**&#x200B;を選択し、その後&#x200B;**[!UICONTROL Execute]**&#x200B;を選択します。
+3. `/datasources` API エンドポイントに対してGET呼び出しを実行し、[API リファレンスドキュメント ](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_)に示されているように、グローバルに利用可能なすべてのデータソースのリストを取得します。 次に示すように、**[!UICONTROL Try it out]**&#x200B;を選択し、その後&#x200B;**[!UICONTROL Execute]**&#x200B;を選択します。
 
    ![API呼び出しを実行](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
 
@@ -299,7 +299,7 @@ Audience Manager アカウントで[役割ベースのアクセス制御](../../
 * [!DNL API] の呼び出し元のサービスを特定する（アドビの [!DNL API] を使用するアプリケーションからの呼び出し、または [!DNL API] 要求をおこなう他のツールからの呼び出しなど）。
 * [!DNL API]さんへの中断のないアクセスを提供します。 特定のユーザーに関連付けられたアカウントの場合、そのユーザーが退職すると削除される可能性があります。 すると、利用可能な [!DNL API] コードを使用できなくなってしまいます。 特定の従業員に関連付けられていない汎用のアカウントを使用することで、この問題を回避できます。
 
-このタイプのアカウントの例またはユースケースとして、[一括管理ツール &#x200B;](../../reference/bulk-management-tools/bulk-management-intro.md)を使用して、多くのセグメントを一度に変更するとします。 これをおこなうためには、ユーザーアカウントに [!DNL API] へのアクセス権が付与されている必要があります。 特定のユーザーに対して権限を追加するのではなく、適切な資格情報、キー、および [!DNL API] 呼び出し用の暗号鍵を持つ汎用の [!DNL API] ユーザーアカウントを作成します。 これは、[!DNL Audience Manager] [!DNL API] を使用する独自のアプリケーションを開発する場合にも便利です。
+このタイプのアカウントの例またはユースケースとして、[一括管理ツール ](../../reference/bulk-management-tools/bulk-management-intro.md)を使用して、多くのセグメントを一度に変更するとします。 これをおこなうためには、ユーザーアカウントに [!DNL API] へのアクセス権が付与されている必要があります。 特定のユーザーに対して権限を追加するのではなく、適切な資格情報、キー、および [!DNL API] 呼び出し用の暗号鍵を持つ汎用の [!DNL API] ユーザーアカウントを作成します。 これは、[!DNL Audience Manager] [!DNL API] を使用する独自のアプリケーションを開発する場合にも便利です。
 
 担当の [!DNL Audience Manager] コンサルタントにご相談のうえ、[!DNL API] 専用のユーザーアカウントの設定をおこなってください。
 

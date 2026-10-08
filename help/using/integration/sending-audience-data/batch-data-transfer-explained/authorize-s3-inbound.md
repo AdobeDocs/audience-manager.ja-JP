@@ -36,6 +36,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->インバウンドデータをAudience Manager Amazon S3 バケットに転送する場合は、Audience Mangerがデータを正しく処理するために、`bucket-owner-full-control` [&#x200B; アクセス制御リスト &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html)を使用してください。
+>インバウンドデータをAudience Manager Amazon S3 バケットに転送する場合は、Audience Mangerがデータを正しく処理するために、`bucket-owner-full-control` [ アクセス制御リスト ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html)を使用してください。
 >
 >Amazon Web Services コマンドの例：`aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`

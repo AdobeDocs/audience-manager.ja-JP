@@ -64,7 +64,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 -->
 
@@ -72,7 +72,7 @@ ht-degree: 98%
 
 [!UICONTROL Actionable Log Files]を使用すると、Web サイトでのリアルタイムなインタラクションの場合と同じ方法でコウコクサーバーログの情報を [!DNL Audience Manager] に取り込むことができます。 [!DNL Audience Manager] と広告サーバーログストレージを接続してログの情報を解析し、ログデータをアクションにつながるシグナルとしてアドビの[データ収集サーバー](../../reference/system-components/components-data-collection.md#dcs-pcs)に送信します。
 
-アクションにつながるシグナルを取得するためには、ルールベースの特性を設定する必要があります。 [Audience Manager ユーザーインターフェイス &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)または[Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md)を使用して、ルールベースの特性を設定する方法について説明します。 ルールベースの特性で使用できるすべてのキーのリストを参照するには、[アクションにつながるシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
+アクションにつながるシグナルを取得するためには、ルールベースの特性を設定する必要があります。 [Audience Manager ユーザーインターフェイス ](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits)または[Bulk Management Tools](../../reference/bulk-management-tools/bulk-create.md)を使用して、ルールベースの特性を設定する方法について説明します。 ルールベースの特性で使用できるすべてのキーのリストを参照するには、[アクションにつながるシグナル](../../integration/media-data-integration/actionable-log-files.md#actionable-signals)の節までスクロールしてください。
 
 >[!IMPORTANT]
 >
