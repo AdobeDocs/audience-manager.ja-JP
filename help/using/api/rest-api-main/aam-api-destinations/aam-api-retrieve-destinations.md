@@ -7,19 +7,23 @@ title: 宛先 ID を基準に宛先を返す
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
-TQID: https://experienceleague.adobe.com/1O--EDa6jaXLktpbKr0rP9rpuugijVdP9-zpRyuFpkc
+TQID: 'https://experienceleague.adobe.com/1O--EDa6jaXLktpbKr0rP9rpuugijVdP9-zpRyuFpkc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 100%
-
 ---
-
 # 宛先 ID を基準に宛先を返す {#return-a-destination-by-destination-id}
 
 指定した `GET` の宛先を返す `destinationId` メソッド。
@@ -74,13 +78,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->* *（オプション）*`containsSegment=<sid>` を渡すと、指定したセグメントにマッピングされたすべての宛先の配列が返されます。例えば、クエリは次のようになります `GET .../destinations/?containsSegment=4321`。
+>* *（オプション）*`containsSegment=<sid>` を渡すと、指定したセグメントにマッピングされたすべての宛先の配列が返されます。 例えば、クエリは次のようになります `GET .../destinations/?containsSegment=4321`。
 >
->* 完全な宛先オブジェクトは返されません。完全に準備されたオブジェクトが必要な場合は、データ順序を基準に宛先を取得します。
+>* 完全な宛先オブジェクトは返されません。 完全に準備されたオブジェクトが必要な場合は、データ順序を基準に宛先を取得します。
 
 ### オプションのクエリパラメーター
 
-オブジェクトの&#x200B;*すべて*&#x200B;のプロパティを返す API メソッドで、これらのオプションパラメーターを使用できます。そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。[オプションのパラメーター](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
+オブジェクトの&#x200B;*すべて*&#x200B;のプロパティを返す API メソッドで、これらのオプションパラメーターを使用できます。 そのクエリを [!DNL API] に渡す際に、リクエスト文字列にこれらのオプションを設定します。 [オプションのパラメーター](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)を参照してください。
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -92,7 +96,7 @@ ht-degree: 100%
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"><code> page</code> </td>
-   <td colname="col2"> ページ番号を返します。番号は 0 から始まります。 </td>
+   <td colname="col2"> ページ番号を返します。 番号は 0 から始まります。 </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td>
@@ -104,11 +108,11 @@ ht-degree: 100%
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
-   <td colname="col2"> 結果を降順で並べ替えて返します。昇順がデフォルトです。 </td>
+   <td colname="col2"> 結果を降順で並べ替えて返します。 昇順がデフォルトです。 </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、サンプルリクエストは次のようになります。    <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>を参照してください。 </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
+   <td colname="col2">検索パラメーターとして使用する指定文字列に基づいて結果を返します。 例えば、項目の任意のフィールドに「Test」という語があるすべてのモデルの結果を探したい場合は、 サンプルリクエストは次のようになります。 <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>「get all」メソッドで返されるすべての値を検索できます。 </p> </td>
   </tr>
  </tbody>
 </table>

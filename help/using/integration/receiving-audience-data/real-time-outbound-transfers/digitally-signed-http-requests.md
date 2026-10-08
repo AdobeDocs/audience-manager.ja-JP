@@ -1,5 +1,5 @@
 ---
-description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP(S) サーバー間リクエストが必要です。ここでは、HTTP 要求に秘密鍵で署名する方法について説明します。
+description: Audience Manager が有効性のためのデジタル署名を受けるには、HTTP(S) サーバー間リクエストが必要です。 ここでは、HTTP 要求に秘密鍵で署名する方法について説明します。
 seo-description: Audience Manager requires the HTTP(S) server-to-server requests to be digitally signed for validity. This document describes how you can sign HTTP(S) requests with private keys.
 seo-title: Digitally Signed HTTP(S) Requests
 solution: Audience Manager
@@ -7,31 +7,39 @@ title: デジタル署名された HTTP(S) 要求
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 exl-id: 55907a25-a361-494a-86b9-c693faea4f0e
-TQID: https://experienceleague.adobe.com/ohSGJddxL1Wh15zHDhhnUlIM3-RgGHI7450JQMBYp1s
+TQID: 'https://experienceleague.adobe.com/ohSGJddxL1Wh15zHDhhnUlIM3-RgGHI7450JQMBYp1s'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Security
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: '552'
 ht-degree: 99%
-
 ---
-
 # `HTTP(S)`件のリクエストにデジタル署名しました {#digitally-signed-http-requests}
 
-Audience Manager では、`HTTP(S)` サーバー間要求をデジタル署名して有効性を確保する必要があります。ここでは、`HTTP(S)` 要求に秘密鍵で署名する方法について説明します。
+Audience Manager では、`HTTP(S)` サーバー間要求をデジタル署名して有効性を確保する必要があります。 ここでは、`HTTP(S)` 要求に秘密鍵で署名する方法について説明します。
 
 ## 概要 {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-ユーザーから提供され [!DNL Audience Manager] と共有される秘密鍵を使用して、[IRIS](../../../reference/system-components/components-data-action.md#iris) と HTTP(S) サーバーの間で送信される `HTTP(S)` 要求にデジタル署名することができます。これにより、以下が保証されます。
+ユーザーから提供され [!DNL Audience Manager] と共有される秘密鍵を使用して、[IRIS](../../../reference/system-components/components-data-action.md#iris) と HTTP(S) サーバーの間で送信される `HTTP(S)` 要求にデジタル署名することができます。 これにより、以下が保証されます。
 
 * **信頼性**：秘密鍵を持っている送信側（[!UICONTROL IRIS]）だけが、有効な `HTTP(S)` メッセージをパートナーに送信できます。
 * **メッセージの整合性**：このアプローチにより、`HTTP` の場合でも、中間者攻撃でメッセージが改変されるのを防ぐことができます。
@@ -61,17 +69,17 @@ POST message content
 
 1. パートナーに送信する `HTTP(S)` メッセージを [!UICONTROL IRIS] が作成します。
 1. パートナーから連絡された `HTTP(S)` メッセージと秘密鍵に基づいて、[!UICONTROL IRIS] が署名を作成します。
-1. [!UICONTROL IRIS] が `HTTP(S)` 要求をパートナーに送信します。このメッセージには、上記の例に示すように、署名と実際のメッセージが含まれています。
-1. パートナーサーバーが `HTTP(S)` 要求を受信します。[!UICONTROL IRIS] から受信したメッセージ本文と署名を読み取ります。
-1. 秘密鍵と受信したメッセージ本文に基づいて、パートナーサーバーが署名を再計算します。この方法については、すぐ後の[署名の計算方法](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature)の節を参照してください。
+1. [!UICONTROL IRIS] が `HTTP(S)` 要求をパートナーに送信します。 このメッセージには、上記の例に示すように、署名と実際のメッセージが含まれています。
+1. パートナーサーバーが `HTTP(S)` 要求を受信します。 [!UICONTROL IRIS] から受信したメッセージ本文と署名を読み取ります。
+1. 秘密鍵と受信したメッセージ本文に基づいて、パートナーサーバーが署名を再計算します。 この方法については、すぐ後の[署名の計算方法](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature)の節を参照してください。
 1. パートナーサーバー（受信側）で作成した署名と、[!UICONTROL IRIS]（送信側）から受信した署名を比較します。
-1. 両方の署名が一致した場合は、**信頼性**&#x200B;と&#x200B;**メッセージの整合性**&#x200B;が確認されました。秘密鍵を持っている送信側だけが、有効な署名を送信できます（信頼性）。さらに、中間者は秘密鍵を持っていないので、メッセージを改変することも、有効な署名を新たに生成することもできません（メッセージの整合性）。
+1. 両方の署名が一致した場合は、**信頼性**&#x200B;と&#x200B;**メッセージの整合性**&#x200B;が確認されました。 秘密鍵を持っている送信側だけが、有効な署名を送信できます（信頼性）。 さらに、中間者は秘密鍵を持っていないので、メッセージを改変することも、有効な署名を新たに生成することもできません（メッセージの整合性）。
 
 ![](assets/iris-digitally-sign-http-request.png)
 
 ## 署名の計算方法 {#calculate-signature}
 
-[!UICONTROL IRIS] でメッセージ署名に使用されている方法は、[!DNL HMAC]（ハッシュベースのメッセージ認証コード）です。実装とライブラリは、基本的にどのようなプログラミング言語でも入手可能です。[!DNL HMAC] に対する既知の長さ拡張攻撃はありません。次の [!DNL Java] コードの例を参照してください。
+[!UICONTROL IRIS] でメッセージ署名に使用されている方法は、[!DNL HMAC]（ハッシュベースのメッセージ認証コード）です。 実装とライブラリは、基本的にどのようなプログラミング言語でも入手可能です。 [!DNL HMAC] に対する既知の長さ拡張攻撃はありません。 次の [!DNL Java] コードの例を参照してください。
 
 ```
 // Message to be signed.
@@ -94,14 +102,14 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-[!DNL HMAC]ハッシュ実装の RFC は [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt) です。テストサイトは [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) です（Hex エンコーディングを base64 に[変換](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)する必要があることに注意してください）。
+[!DNL HMAC]ハッシュ実装の RFC は [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt) です。 テストサイトは [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) です（Hex エンコーディングを base64 に[変換](https://tomeko.net/online_tools/hex_to_base64.php?lang=en)する必要があることに注意してください）。
 
 ## 秘密鍵のローテーション {#rotate-private-key}
 
-秘密鍵のローテーションをおこなうため、パートナーは、新しい秘密鍵を [!DNL Adobe Audience Manager] コンサルタントに伝える必要があります。古い鍵は [!DNL Audience Manager] から削除され、[!UICONTROL IRIS] は新しい署名ヘッダーのみ送信します。これで鍵がローテーションされました。
+秘密鍵のローテーションをおこなうため、パートナーは、新しい秘密鍵を [!DNL Adobe Audience Manager] コンサルタントに伝える必要があります。 古い鍵は [!DNL Audience Manager] から削除され、[!UICONTROL IRIS] は新しい署名ヘッダーのみ送信します。 これで鍵がローテーションされました。
 
 ## 署名に使用するデータ {#data-signing}
 
-`GET` タイプの宛先の場合、署名に使用するメッセージは&#x200B;*リクエストパス + クエリ文字列*（例：*/from-aam-s2s？=1,2,3*）になります。IRIS ではホスト名や `HTTP(S)` ヘッダーを考慮しません。これらは、経路の途中で改変されたり誤って設定されたりするおそれがあります。また、間違って通知される可能性もあります。
+`GET` タイプの宛先の場合、署名に使用するメッセージは&#x200B;*リクエストパス + クエリ文字列*（例：*/from-aam-s2s？=1,2,3*）になります。 IRIS ではホスト名や `HTTP(S)` ヘッダーを考慮しません。これらは、経路の途中で改変されたり誤って設定されたりするおそれがあります。また、間違って通知される可能性もあります。
 
-`POST` タイプの宛先の場合、署名に使用されるメッセージは *REQUEST_BODY* になります。この場合もやはり、ヘッダーやその他の要求パラメーターは無視されます。
+`POST` タイプの宛先の場合、署名に使用されるメッセージは *REQUEST_BODY* になります。 この場合もやはり、ヘッダーやその他の要求パラメーターは無視されます。

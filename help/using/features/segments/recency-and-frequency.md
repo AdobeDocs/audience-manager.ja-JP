@@ -7,16 +7,21 @@ title: 最新性と頻度
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
 exl-id: c00563f0-d270-4d4d-abeb-4b4b81aa68b8
-TQID: https://experienceleague.adobe.com/hs9eHIYaxwZFG4saiRfyByoUub-veWzuD3UL8mnlB0k
+TQID: 'https://experienceleague.adobe.com/hs9eHIYaxwZFG4saiRfyByoUub-veWzuD3UL8mnlB0k'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: '726'
 ht-degree: 99%
-
 ---
-
 # 最新性と頻度 {#recency-and-frequency}
 
 [!UICONTROL Segment Builder]では、最新性と頻度を使用すると、設定された日数ごとに繰り返されるアクションに基づいて訪問者をセグメント化することができます。
@@ -26,11 +31,11 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 * **[!UICONTROL Recency]：**&#x200B;最近、ユーザーが 1 つ以上の特定を確認した、または[!UICONTROL traits]の対象として認定された最新性。
 * **[!UICONTROL Frequency]：**&#x200B;ユーザーが 1 つ以上の特定を確認した、または[!UICONTROL traits]の対象として認定された割合。
 
-[!UICONTROL Recency] と [!UICONTROL Frequency] の設定は、サイト、セクションまたは特定のクリエイティブに対する実際の（または認識された）関心レベルに基づいて訪問者をセグメント化するのに役立ちます。例えば、高い最新性／頻度要件でセグメントの対象として認定されるユーザーは、それほど頻繁に訪問していないユーザーよりも、サイトまたは製品に関心がある可能性があります。
+[!UICONTROL Recency] と [!UICONTROL Frequency] の設定は、サイト、セクションまたは特定のクリエイティブに対する実際の（または認識された）関心レベルに基づいて訪問者をセグメント化するのに役立ちます。 例えば、高い最新性／頻度要件でセグメントの対象として認定されるユーザーは、それほど頻繁に訪問していないユーザーよりも、サイトまたは製品に関心がある可能性があります。
 
 ## [!UICONTROL Recency and Frequency]設定の場所 {#location}
 
-[!UICONTROL Segment Builder]では、[!UICONTROL Recency]設定と[!UICONTROL Frequency]設定は、[!UICONTROL Traits]パネルの[!UICONTROL Basic View]セクションにあります。時計アイコンをクリックして、これらのコントロールを表示します。
+[!UICONTROL Segment Builder]では、[!UICONTROL Recency]設定と[!UICONTROL Frequency]設定は、[!UICONTROL Traits]パネルの[!UICONTROL Basic View]セクションにあります。 時計アイコンをクリックして、これらのコントロールを表示します。
 
 ![](assets/recency_frequency.png)
 
@@ -58,7 +63,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>サードパーティ特性</b> </p> </td> 
-   <td colname="col2"> <p>個々のサードパーティ特性またはサードパーティ特性の特性グループに対して、最新性ルールを設定することはできません。最新性と頻度は、独自の特性にのみ適用されます。 </p> </td> 
+   <td colname="col2"> <p>個々のサードパーティ特性またはサードパーティ特性の特性グループに対して、最新性ルールを設定することはできません。 最新性と頻度は、独自の特性にのみ適用されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +80,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>サードパーティ特性</b> </p> </td> 
-   <td colname="col2"> <p>個々のサードパーティ特性またはサードパーティ特性の特性グループに対して、頻度ルールを設定することはできません。最新性と頻度は、独自の特性にのみ適用されます。 </p> </td> 
+   <td colname="col2"> <p>個々のサードパーティ特性またはサードパーティ特性の特性グループに対して、頻度ルールを設定することはできません。 最新性と頻度は、独自の特性にのみ適用されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>特性タイプ</b> </p> </td> 
@@ -83,7 +88,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>最新性の要件</b> </p> </td> 
-   <td colname="col2"> <p>最新性の要件を設<i>定せずに</i>、頻度の要件を設定できます。頻度の値を設定するだけで、最新性のフィールドは空のままにします。 </p> </td> 
+   <td colname="col2"> <p>最新性の要件を設<i>定せずに</i>、頻度の要件を設定できます。 頻度の値を設定するだけで、最新性のフィールドは空のままにします。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>プロファイル結合ルール</b> </p> </td> 
@@ -100,7 +105,7 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 ![次よりも小さいか等しい](assets/less-than-equal-to.png)
 
-この例では、スクリーンショットに示すように、&lt;= 演算子を選択します。この場合は、3 つの[!UICONTROL traits]のいずれかについて過去 5 日間以内に 3 回以上認定された場合、[!UICONTROL segment]のユーザーを認定します。以下のタイムラインは、[!UICONTROL segment]作成時、10月1日、および 10 日後の[!UICONTROL segment]選定を示します。
+この例では、スクリーンショットに示すように、&lt;= 演算子を選択します。 この場合は、3 つの[!UICONTROL traits]のいずれかについて過去 5 日間以内に 3 回以上認定された場合、[!UICONTROL segment]のユーザーを認定します。 以下のタイムラインは、[!UICONTROL segment]作成時、10月1日、および 10 日後の[!UICONTROL segment]選定を示します。
 
 ![過去 5 日間](assets/last-5-days.png)
 
@@ -108,22 +113,22 @@ Audience Manager では、[!DNL recency] と [!DNL frequency] は次のように
 
 ![次よりも大きいか等しい](assets/greater-than-equal-to.png)
 
-この例では、スクリーンショットに示すように、=> 演算子を選択します。この場合は、3 つの[!UICONTROL traits]のいずれかについて Audience Manager プラットフォームでの最初の選定と 5 日前の締め切り時間の間に 3 回以上選定された場合、[!UICONTROL segment]のユーザーを選定します。以下のタイムラインは、[!UICONTROL segment]作成時、10月1日、および 10 日後の[!UICONTROL segment]選定を示します。
+この例では、スクリーンショットに示すように、=> 演算子を選択します。 この場合は、3 つの[!UICONTROL traits]のいずれかについて Audience Manager プラットフォームでの最初の選定と 5 日前の締め切り時間の間に 3 回以上選定された場合、[!UICONTROL segment]のユーザーを選定します。 以下のタイムラインは、[!UICONTROL segment]作成時、10月1日、および 10 日後の[!UICONTROL segment]選定を示します。
 
 ![より早い選定](assets/earlier-qualification.png)
 
 
 ## 頻度キャップの例 {#frequency-capping}
 
-頻度キャップ式では、[!UICONTROL trait]適合の数が目標値を下回っているすべてのユーザーを含めます。以下に、正しい例と間違った例を示します。
+頻度キャップ式では、[!UICONTROL trait]適合の数が目標値を下回っているすべてのユーザーを含めます。 以下に、正しい例と間違った例を示します。
 
-* 間違い - 式 `frequency([1000T]) <= 5` の場合は、ID「1000」の[!UICONTROL trait]に適合した回数が最大 5 回（[!UICONTROL trait]に適合しなかった場合も含む）のすべてのユーザーが含まれます。そのため、[!UICONTROL segment]に認定するユーザーが多くなってしまうため、Audience Manager では、パフォーマンスを理由にこの式を検証しません。
+* 間違い - 式 `frequency([1000T]) <= 5` の場合は、ID「1000」の[!UICONTROL trait]に適合した回数が最大 5 回（[!UICONTROL trait]に適合しなかった場合も含む）のすべてのユーザーが含まれます。 そのため、[!UICONTROL segment]に認定するユーザーが多くなってしまうため、Audience Manager では、パフォーマンスを理由にこの式を検証しません。
 
 * [!UICONTROL trait]正しい - ID「1000」の特性を認識した回数が最大 5 回のすべてのユーザーを含めたい場合、式に別の条件を追加して、ユーザーが少なくとも 1 回[!UICONTROL trait]を認定されるようにします。`frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 
-* 正しい - 最新性／頻度の要件が特定の回数または日数を下回る必要がある場合は、その[!UICONTROL trait]を `AND` 演算子で別の特性に結合します。最初の箇条書きの例を使用すると、この式は、`frequency([1000T]) <= 5 AND isSiteVisitorTrait` のように、別の[!UICONTROL trait]と結合した場合に有効になります。
+* 正しい - 最新性／頻度の要件が特定の回数または日数を下回る必要がある場合は、その[!UICONTROL trait]を `AND` 演算子で別の特性に結合します。 最初の箇条書きの例を使用すると、この式は、`frequency([1000T]) <= 5 AND isSiteVisitorTrait` のように、別の[!UICONTROL trait]と結合した場合に有効になります。
 
-* 正しい - 広告頻度キャップの使用例の場合、次のような[!UICONTROL segment]ルールを作成できます：`(frequency([1000T] <= 2D) >= 5)`この式では、過去 2 日間に ID 「1000」の[!UICONTROL trait]を 5 回以上認識したすべてのユーザーを含めます。広告サーバーで[!UICONTROL segment]に対して `NOT` を設定した広告サーバーにこの[!UICONTROL segment]を送信することで、頻度キャップを設定します。この方法は、頻度キャップと同じ目的を提供しますが、[!DNL Audience Manager] でより優れたパフォーマンスを達成します。
+* 正しい - 広告頻度キャップの使用例の場合、次のような[!UICONTROL segment]ルールを作成できます：`(frequency([1000T] <= 2D) >= 5)` この式では、過去 2 日間に ID 「1000」の[!UICONTROL trait]を 5 回以上認識したすべてのユーザーを含めます。 広告サーバーで[!UICONTROL segment]に対して `NOT` を設定した広告サーバーにこの[!UICONTROL segment]を送信することで、頻度キャップを設定します。 この方法は、頻度キャップと同じ目的を提供しますが、[!DNL Audience Manager] でより優れたパフォーマンスを達成します。
 
 >[!MORELIKETHIS]
 >

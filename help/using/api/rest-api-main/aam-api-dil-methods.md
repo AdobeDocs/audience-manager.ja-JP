@@ -7,28 +7,33 @@ title: データ統合ライブラリ API メソッド
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
-TQID: https://experienceleague.adobe.com/OUlYPULmJBtwVC1NJdEUopbc-segLDv0anbd2SW9eI8
+TQID: 'https://experienceleague.adobe.com/OUlYPULmJBtwVC1NJdEUopbc-segLDv0anbd2SW9eI8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: '173'
 ht-degree: 100%
-
 ---
-
 # データ統合ライブラリ API メソッド {#data-integration-library-api-methods}
 
 [!UICONTROL Data Integration Library]（[!UICONTROL DIL]）をプログラムで操作するためのメソッド。
 
 >[!IMPORTANT]
 >
->Data Integration Library API は廃止されました。DIL の生成に使用されているこの API は、[DIL ダウンロード](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロードできるようになりました。
+>Data Integration Library API は廃止されました。 DIL の生成に使用されているこの API は、[DIL ダウンロード](https://github.com/Adobe-Marketing-Cloud/dil/releases)からダウンロードできるようになりました。
 
 <!-- c_data_integr_library_api.xml -->
 
@@ -52,7 +57,7 @@ ht-degree: 100%
 
 ## バージョンの JSON スキーマを返す {#return-json-schema-version}
 
-[!UICONTROL DIL] バージョンの [!DNL JSON] スキーマを返す `GET` メソッド。バージョンのエイリアス [!UICONTROL LATEST] を使用して [!UICONTROL DIL] の最新バージョンを取得することができます。
+[!UICONTROL DIL] バージョンの [!DNL JSON] スキーマを返す `GET` メソッド。 バージョンのエイリアス [!UICONTROL LATEST] を使用して [!UICONTROL DIL] の最新バージョンを取得することができます。
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -388,7 +393,7 @@ ht-degree: 100%
 
 ## DIL の生成 {#generate-dil}
 
-[!UICONTROL DIL] の指定バージョンを使用して要求本文で渡された内容に基づいて [!UICONTROL DIL] を生成する `GET` メソッド。URL でバージョンにエイリアス `LATEST` が使用されている場合、[!UICONTROL DIL] の最新バージョンが生成されます。
+[!UICONTROL DIL] の指定バージョンを使用して要求本文で渡された内容に基づいて [!UICONTROL DIL] を生成する `GET` メソッド。 URL でバージョンにエイリアス `LATEST` が使用されている場合、[!UICONTROL DIL] の最新バージョンが生成されます。
 
 <!-- r_api_generate_dil.xml -->
 

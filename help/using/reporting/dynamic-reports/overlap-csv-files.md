@@ -1,5 +1,5 @@
 ---
-description: 重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。独自のデータベースシステムに読み込んで使用できる、圧縮された .csv ファイルをリクエストするには、カスタマーケアへのお問い合わせ。セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
+description: 重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。 「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。 独自のデータベースシステムに読み込んで使用できる、圧縮された .csv ファイルをリクエストするには、カスタマーケアへのお問い合わせ。 セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
 seo-description: You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
 seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
@@ -7,26 +7,33 @@ title: 重複レポートの CSV ファイル
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
-TQID: https://experienceleague.adobe.com/3Qq8PwmAWUAO1ic9kan7XFuXPllBioqJhPKCmo6RPww
+TQID: 'https://experienceleague.adobe.com/3Qq8PwmAWUAO1ic9kan7XFuXPllBioqJhPKCmo6RPww'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: '958'
 ht-degree: 99%
-
 ---
-
 # 重複レポートの CSV ファイル{#csv-files-for-overlap-reports}
 
-重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。独自のデータベースシステムに読み込んで使用できる、圧縮された .csv ファイルをリクエストするには、カスタマーケアへのお問い合わせ。セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
+重複レポートがレコード数の上限（100 万件）に達した場合は、そのレポートの .csv ファイルを請求することができます。 「Unexpected error has occurred」というメッセージが表示された場合、レポートは、この制限に達している可能性があります。 独自のデータベースシステムに読み込んで使用できる、圧縮された .csv ファイルをリクエストするには、カスタマーケアへのお問い合わせ。 セグメント間、セグメント／特性間、特性間の重複レポートのファイルが入手可能です。
 
 ## ファイル名のメタデータ {#file-name-metadata}
 
-次の表は、重複 .csv ファイルの命名規則とファイル拡張子の一覧と説明です。以下の例で、*斜体*&#x200B;の部分には実際の情報が入ります。
+次の表は、重複 .csv ファイルの命名規則とファイル拡張子の一覧と説明です。 以下の例で、*斜体*&#x200B;の部分には実際の情報が入ります。
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
@@ -38,7 +45,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>拡張子 </p> </td> 
-   <td colname="col2"> <p>重複レポートファイルは gzip 形式で圧縮され、ファイル拡張子は <code> .gz</code> になります。解凍後は <code> .csv</code> 拡張子をファイルに追加する必要があります。 </p> </td> 
+   <td colname="col2"> <p>重複レポートファイルは gzip 形式で圧縮され、ファイル拡張子は <code> .gz</code> になります。 解凍後は <code> .csv</code> 拡張子をファイルに追加する必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ファイル名 </p> </td> 
@@ -79,7 +86,7 @@ ht-degree: 99%
 
 ## ファイルコンテンツ {#file-contents}
 
-ファイル内では、文字列データは二重引用符で囲まれます。以下のモックデータを参照してください。これは短く画面内に収まるように切り捨てられています。
+ファイル内では、文字列データは二重引用符で囲まれます。 以下のモックデータを参照してください。 これは短く画面内に収まるように切り捨てられています。
 
 ```js
 //File header
@@ -110,7 +117,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_id2</code> </p> </td> 
-   <td colname="col2"> <p>ベースラインセグメントの ID。ベースラインセグメントは、他のセグメントとの比較に使用するセグメントです。 </p> </td> 
+   <td colname="col2"> <p>ベースラインセグメントの ID。 ベースラインセグメントは、他のセグメントとの比較に使用するセグメントです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_name2</code> </p> </td> 
@@ -118,7 +125,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。<code> rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
+   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。 <code> rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code> ：7 日 </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code> ：30 日 </li> 
@@ -169,7 +176,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dataprovider_type</code> </p> </td> 
-   <td colname="col2"> <p>データプロバイダー ID。ID には次のものがあります。 </p> <p> 
+   <td colname="col2"> <p>データプロバイダー ID。 ID には次のものがあります。 </p> <p> 
      <ul id="ul_B40EF144552B4BD3A1C2AE2BAFFC5A68"> 
       <li id="li_8E3B524C615F4047A5A06AF2EDF9C758"> <code> 1st Party</code> </li> 
       <li id="li_F0979659028F4E2D989F1F3D1014FD3A"> <code> 3rd Party</code> </li> 
@@ -181,7 +188,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。<code> rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
+   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。 <code> rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code> ：7 日 </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code> ：30 日 </li> 
@@ -197,19 +204,19 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> trait_uniques</code> </p> </td> 
-   <td colname="col2"> <p>特性内のユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>特性内のユニークユーザーの数。 UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>選択したセグメントと特性の間で共有されているユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>選択したセグメントと特性の間で共有されているユニークユーザーの数。 UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>特性とセグメントの間で重複するユニークユーザーの割合。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>特性とセグメントの間で重複するユニークユーザーの割合。 UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> segment_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>セグメントと特性の間で重複する個別ユーザーの割合。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>セグメントと特性の間で重複する個別ユーザーの割合。 UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -236,7 +243,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_id</code> </p> </td> 
-   <td colname="col2"> <p>ベースライン特性の ID。ベースライン特性は、他の特性と比較する特性です。 </p> </td> 
+   <td colname="col2"> <p>ベースライン特性の ID。 ベースライン特性は、他の特性と比較する特性です。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_name</code> </p> </td> 
@@ -244,7 +251,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dataprovider_type</code> </p> </td> 
-   <td colname="col2"> <p>データプロバイダー ID。ID には次のものがあります。 </p> <p> 
+   <td colname="col2"> <p>データプロバイダー ID。 ID には次のものがあります。 </p> <p> 
      <ul id="ul_FB6FCAF484BE404B8987B54078F5E858"> 
       <li id="li_5E473205AB494D199FBDF22CAA4A1C57"> <code> 1st Party</code> </li> 
       <li id="li_C9A5F455FB6D458F9DDB56EDBF5A6304"> <code> 3rd Party</code> </li> 
@@ -256,7 +263,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。<code> rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
+   <td colname="col2"> <p>7 日および 30 日のルックバック間隔でレポートを生成できます。 <code> rangeid</code> は以下の時間間隔に対応します。 </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code> ：7 日 </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code> ：30 日 </li> 
@@ -268,23 +275,23 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_uniques</code> </p> </td> 
-   <td colname="col2"> <p>選択した特性の間で共有されているユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>選択した特性の間で共有されているユニークユーザーの数。 UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_uniques</code> </p> </td> 
-   <td colname="col2"> <p>ベース特性のユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>ベース特性のユニークユーザーの数。 UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_uniques</code> </p> </td> 
-   <td colname="col2"> <p>選択した特性の間で共有されているユニークユーザーの数。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>選択した特性の間で共有されているユニークユーザーの数。 UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> overlap_trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>選択した特性の間で重複するユニークユーザーの割合。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>選択した特性の間で重複するユニークユーザーの割合。 UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>選択した特性の間で重複する個別ユーザーの割合。UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
+   <td colname="col2"> <p>選択した特性の間で重複する個別ユーザーの割合。 UI レポートでは、ヒートマップの結果で特性の上にカーソルを移動すると、ポップアップウィンドウにこの数字が表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

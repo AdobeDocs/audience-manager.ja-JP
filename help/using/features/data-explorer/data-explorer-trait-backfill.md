@@ -6,31 +6,37 @@ title: 特性適合のバックフィル
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 feature: Data Explorer
 exl-id: 6be54999-eeeb-48cd-a630-021f17289431
-TQID: https://experienceleague.adobe.com/3FG9qo0X5iIRqnDy6tdWvmOkS5y9j-rJ8jyot9W4iLA
+TQID: 'https://experienceleague.adobe.com/3FG9qo0X5iIRqnDy6tdWvmOkS5y9j-rJ8jyot9W4iLA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '445'
 ht-degree: 97%
-
 ---
-
 # 特性適合のバックフィル {#backfill-trait-realizations}
 
 特性適合のバックフィルにより、過去のオーディエンスを収集して、特性作成日前の関連データを逃してしまうことを防ぎます。
 
 >[!IMPORTANT]
 >
->[!UICONTROL Data Explorer Trait Backfill]は、追加のユースケースをロック解除して Audience Manager を強化できるプレミアム機能です。バックフィルを使用するには追加の処理能力がかかりますが、追加料金をお支払いいただければ Audience Manager のすべてのお客様がご利用になれます。詳しくは、アドビのセールス担当者にお問い合わせください。
+>[!UICONTROL Data Explorer Trait Backfill]は、追加のユースケースをロック解除して Audience Manager を強化できるプレミアム機能です。 バックフィルを使用するには追加の処理能力がかかりますが、追加料金をお支払いいただければ Audience Manager のすべてのお客様がご利用になれます。 詳しくは、アドビのセールス担当者にお問い合わせください。
 
-未使用シグナルから特性を作成するときに、指定期間における特性適合をバックフィルすることができます。[!DNL Audience Manager] は、新しく作成した特性の対象として認定されるオーディエンスの過去データを収集し、対応するプロファイルに保管します。**[!UICONTROL Backfill Options]** は、**[特性ビルダー](../../features/traits/about-trait-builder.md)** の「[!UICONTROL Trait Expression]」セクションに表示されます。
+未使用シグナルから特性を作成するときに、指定期間における特性適合をバックフィルすることができます。 [!DNL Audience Manager] は、新しく作成した特性の対象として認定されるオーディエンスの過去データを収集し、対応するプロファイルに保管します。 **[!UICONTROL Backfill Options]** は、**[特性ビルダー](../../features/traits/about-trait-builder.md)** の「[!UICONTROL Trait Expression]」セクションに表示されます。
 
 >[!NOTE]
 >
@@ -40,7 +46,7 @@ ht-degree: 97%
 
 1. [!UICONTROL Audience Data > Signals > Search] の順に選択し、シグナル検索を実行するか[シグナルダッシュボード](../../features/data-explorer/data-explorer-signals-dashboard.md)を使用して、新しい特性で使用するシグナルを特定します。
 1. 目的のシグナルに基づいて新しい特性を作成します。
-1. 「**[!UICONTROL Trait Expression]**」セクションの **[!UICONTROL Backfill Options]** を使用して、特性適合のバックフィルをおこなう期間を選択します。事前定義されているバックフィル期間は、1 日、7 日、14 日および 30 日です。30 日までの範囲でカスタムの期間を指定することもできます。
+1. 「**[!UICONTROL Trait Expression]**」セクションの **[!UICONTROL Backfill Options]** を使用して、特性適合のバックフィルをおこなう期間を選択します。 事前定義されているバックフィル期間は、1 日、7 日、14 日および 30 日です。 30 日までの範囲でカスタムの期間を指定することもできます。
 
    ![trait-backfill](assets/signals-trait-backfill.png)
 
@@ -64,7 +70,7 @@ ht-degree: 97%
 
 ## 特性のバックフィル遅延 {#trait-backfilling-latency}
 
-新しく作成した特性では、作成から 2～3 時間後にオーディエンスの収集が開始されます。ただし、[!DNL Audience Manager] で 1 日あたりに処理されるデータ量は多いので、バックフィルした母集団が [!UICONTROL Unique Trait Realizations] グラフおよび [!UICONTROL Total Trait Population] グラフに反映されるまでには時間がかかります。
+新しく作成した特性では、作成から 2～3 時間後にオーディエンスの収集が開始されます。 ただし、[!DNL Audience Manager] で 1 日あたりに処理されるデータ量は多いので、バックフィルした母集団が [!UICONTROL Unique Trait Realizations] グラフおよび [!UICONTROL Total Trait Population] グラフに反映されるまでには時間がかかります。
 
 Audience Manager の [!UICONTROL Trait Graph] は、特性の作成時点から 48 時間以内にバックフィルした母集団で更新されます。
 
@@ -74,7 +80,7 @@ Audience Manager の [!UICONTROL Trait Graph] は、特性の作成時点から 
 
 >[!NOTE]
 >
->特性バックフィルの残り回数は、前の月から持ち越されません。例えば、今月にバックフィルした特性が 30 個であっても、翌月のバックフィルの残り回数は 70 ではなく 50 になります。
+>特性バックフィルの残り回数は、前の月から持ち越されません。 例えば、今月にバックフィルした特性が 30 個であっても、翌月のバックフィルの残り回数は 70 ではなく 50 になります。
 
 ## レポートへの影響 {#reporting-impact}
 

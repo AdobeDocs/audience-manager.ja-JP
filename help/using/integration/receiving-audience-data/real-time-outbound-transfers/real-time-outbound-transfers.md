@@ -7,22 +7,30 @@ title: リアルタイム送信データ転送
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
-TQID: https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ
+TQID: 'https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 98%
-
+source-wordcount: '695'
+ht-degree: 96%
 ---
-
 # リアルタイム送信データ転送 {#real-time-outbound-data-transfers}
 
 リアルタイムの送信データ転送プロセスでは、ユーザーデータを一連の [!DNL JSON] 形式のメッセージとして宛先プラットフォームに配信します。
@@ -35,23 +43,23 @@ ht-degree: 98%
 
 * Audience Manager から大量のメッセージを受信するために拡大縮小できるエンドポイント [!DNL URL] を提供する必要があります。
 * [!DNL JSON] 形式（`Content-type: application/json`）のデータを受け入れる必要があります。
-* 安全な `HTTPS` データ転送を受け入れる必要があります。[!DNL Audience Manager] では、安全でない `HTTP` プロトコルを使用してメッセージを送信しません。
+* 安全な `HTTPS` データ転送を受け入れる必要があります。 [!DNL Audience Manager] では、安全でない `HTTP` プロトコルを使用してメッセージを送信しません。
 
 ## 頻度
 
-このデータ転送方法は、ユーザーがセグメントの対象となるときにほぼリアルタイムでデータを送信できます。リアルタイムメッセージは、ユーザーがオンラインで、Audience Manager Edge ネットワークに対してアクティブに表示できる場合にみ配信されます。オプションで、この方法では、24 時間ごとに、オフラインまたはオンボード済みデータのバッチを送信することもできます。
+このデータ転送方法は、ユーザーがセグメントの対象となるときにほぼリアルタイムでデータを送信できます。 リアルタイムメッセージは、ユーザーがオンラインで、Audience Manager Edge ネットワークに対してアクティブに表示できる場合にみ配信されます。 オプションで、この方法では、24 時間ごとに、オフラインまたはオンボード済みデータのバッチを送信することもできます。
 
 ## バッチ転送
 
-リアルタイム転送およびバッチ転送は、両方とも、同じエンドポイントに送信され、同じメッセージ形式を使用します。バッチ転送が有効な場合、バッチメッセージが配信される際に、宛先プラットフォームでメッセージ量にスパイクが表示されます。リアルタイムメッセージで送信されたセグメントの選定の多くは、バッチメッセージで繰り返されます。バッチ転送は、最後のバッチが配信されてから変更されたセグメントの選定（または無選定）のみを含みます。
+リアルタイム転送およびバッチ転送は、両方とも、同じエンドポイントに送信され、同じメッセージ形式を使用します。 バッチ転送が有効な場合、バッチメッセージが配信される際に、宛先プラットフォームでメッセージ量にスパイクが表示されます。 リアルタイムメッセージで送信されたセグメントの選定の多くは、バッチメッセージで繰り返されます。 バッチ転送は、最後のバッチが配信されてから変更されたセグメントの選定（または無選定）のみを含みます。
 
 ## レート制限
 
-配信されたメッセージのスループットに対してレート制限は設定されていません。レート制限を設定すると、データ損失につながる可能性があります。
+配信されたメッセージのスループットに対してレート制限は設定されていません。 レート制限を設定すると、データ損失につながる可能性があります。
 
 ## 必要な応答
 
-デフォルトでは、受信サーバーは、正常な受信を示すために `200 OK` コードを返す必要があります。他のコードは失敗と解釈されます。この応答は、3000 ミリ秒以内に返されることを想定しています。失敗の場合、[!DNL Audience Manager] は、1 回のみ再試行します。
+デフォルトでは、受信サーバーは、正常な受信を示すために `200 OK` コードを返す必要があります。 他のコードは失敗と解釈されます。 この応答は、3000 ミリ秒以内に返されることを想定しています。 失敗の場合、[!DNL Audience Manager] は、1 回のみ再試行します。
 
 ## パラメーター
 
@@ -84,12 +92,12 @@ ht-degree: 98%
   <tr valign="top"> 
    <td colname="col1"><code><i>Client_ID</i></code> </td> 
    <td colname="col2"> <p>文字列 </p> </td> 
-   <td colname="col3"> <p>宛先プラットフォームのターゲットアカウントを表します。この ID は、宛先プラットフォームから生成されます。</p> </td> 
+   <td colname="col3"> <p>宛先プラットフォームのターゲットアカウントを表します。 この ID は、宛先プラットフォームから生成されます。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>Audience Manager「宛先」オブジェクトの ID。この ID は、Audience Manager から生成されます。</p> </td> 
+   <td colname="col3"> <p>Audience Manager「宛先」オブジェクトの ID。 この ID は、Audience Manager から生成されます。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -99,7 +107,7 @@ ht-degree: 98%
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
    <td colname="col2"> <p>配列 </p> </td> 
-   <td colname="col3"> <p>ユーザーオブジェクトの配列。デフォルトでは、各メッセージは、最適なメッセージサイズを維持するために、1 ～ 10 ユーザーを含みます。 </p> </td> 
+   <td colname="col3"> <p>ユーザーオブジェクトの配列。 デフォルトでは、各メッセージは、最適なメッセージサイズを維持するために、1 ～ 10 ユーザーを含みます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
@@ -114,22 +122,22 @@ ht-degree: 98%
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> 配列 </td> 
-   <td colname="col3"> このデバイスが確認された<span class="keyword"> Audience Manager</span> 地域 ID。例えば、デバイスがパリ（ヨーロッパ）であるアクティビティをおこなった場合、地域 ID は <code> 6</code> になります。<a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 地域 ID、場所、ホスト名</a>を参照してください。 </td> 
+   <td colname="col3"> このデバイスが確認された<span class="keyword"> Audience Manager</span> 地域 ID。 例えば、デバイスがパリ（ヨーロッパ）であるアクティビティをおこなった場合、地域 ID は <code> 6</code> になります。 <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">DCS 地域 ID、場所、ホスト名</a>を参照してください。 </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
    <td colname="col2"> <p>配列 </p> </td> 
-   <td colname="col3"> <p>セグメントオブジェクトの配列。リアルタイムメッセージの場合、配列には、ユーザーが属するすべてのセグメントが含まれます。バッチメッセージの場合、配列には、最後のバッチ以降に変更されるセグメントのみが含まれます。</p> </td> 
+   <td colname="col3"> <p>セグメントオブジェクトの配列。 リアルタイムメッセージの場合、配列には、ユーザーが属するすべてのセグメントが含まれます。 バッチメッセージの場合、配列には、最後のバッチ以降に変更されるセグメントのみが含まれます。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>セグメントの識別子。ほとんどの場合、これは、Audience Managerで生成されたセグメント ID です（整数）。場合によっては、宛先プラットフォームが許可している場合、お客様は、Audience Manager ユーザーインターフェイス（テキストフィールドを開く）でセグメント識別子を定義でき、それがこのプロパティに反映されます。 </p> </td> 
+   <td colname="col3"> <p>セグメントの識別子。 ほとんどの場合、これは、Audience Managerで生成されたセグメント ID です（整数）。 場合によっては、宛先プラットフォームが許可している場合、お客様は、Audience Manager ユーザーインターフェイス（テキストフィールドを開く）でセグメント識別子を定義でき、それがこのプロパティに反映されます。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
    <td colname="col2"> <p>整数 </p> </td> 
-   <td colname="col3"> <p>セグメント内のユーザーのステータスを定義します。以下の値を受け入れます。 </p> 
+   <td colname="col3"> <p>セグメント内のユーザーのステータスを定義します。 以下の値を受け入れます。 </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
      <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>：アクティブ（デフォルト） </li> 
      <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0</code>：非アクティブ、オプトアウト済みまたは非セグメント化。 </li> 
@@ -138,7 +146,7 @@ ht-degree: 98%
      <li id="li_8352B919A87242E68716FB9EC0443407">セグメントから削除された（セグメントルールに基づいて）。 </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">セグメントの<a href="../../../features/traits/segment-ttl-explained.md">の有効期間</a>に基づいて、セグメントから削除されました。 </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">過去 120 日の間確認されず、非アクティブ状態に移行した。 </li>
-     <li>プライバシー変更リクエスト（例：<span class="keyword">GDPR</span>）により削除された</li>
+     <li>プライバシー変更リクエストにより削除されました（例：<span class="keyword">） GDPR</span>）</li>
     </ul> <p><span class="keyword">Audience Manager</span> ID と同期されたすべてのパートナー ID は、ユーザーが非セグメント化されると、<code> "Status":"0"</code> フラグを受け取ります。 </p> </td> 
   </tr> 
   <tr valign="top"> 

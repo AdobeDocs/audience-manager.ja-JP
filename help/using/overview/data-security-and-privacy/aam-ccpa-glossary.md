@@ -6,33 +6,41 @@ solution: Audience Manager
 title: CCPA の用語集
 feature: Data Governance & Privacy
 exl-id: b3e97e2b-81a4-4b32-9716-5b18c3f8362f
-TQID: https://experienceleague.adobe.com/5pv0LUWwF45dmmlbRQvHio7XTglAujik8xJWVwunhZI
+TQID: 'https://experienceleague.adobe.com/5pv0LUWwF45dmmlbRQvHio7XTglAujik8xJWVwunhZI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: '518'
 ht-degree: 100%
-
 ---
-
 # CCPA の用語集
 
 ## 概要 {#overview}
 
 この記事では、カリフォルニア州消費者プライバシー法（CCPA）で使用される概念と用語、およびサービスプロバイダーとして Adobe Audience Manager が様々な CCPA 要件にどのように対処するかについて説明します。
 
-カリフォルニア州消費者プライバシー法（CCPA）は 2020 年 1 月 1 日（PT）に施行され、プライバシーを消費者体験の一部として統合する新たな機会となります。Audience Manager を使用した CCPA に基づく義務の履行を可能にするために、Audience Manager は既存のプライバシーインフラストラクチャを活用しており、CCPA に対応可能です。
+カリフォルニア州消費者プライバシー法（CCPA）は 2020 年 1 月 1 日（PT）に施行され、プライバシーを消費者体験の一部として統合する新たな機会となります。 Audience Manager を使用した CCPA に基づく義務の履行を可能にするために、Audience Manager は既存のプライバシーインフラストラクチャを活用しており、CCPA に対応可能です。
 
 Audience Manager は、デザイン機能によるデータガバナンスとプライバシーを利用して、お客様が新たな義務に対処する際にお役に立つことを楽しみにしています。
 
 ## CCPA の用語集 {#CCPA-glossary}
 
-CCPA に関連して使用されるキーワードを確認しましょう。よく使用される用語の一部がここに挙げられています。
+CCPA に関連して使用されるキーワードを確認しましょう。 よく使用される用語の一部がここに挙げられています。
 
 **カリフォルニア州消費者プライバシー法（CCPA）**：米国カリフォルニア州の住民のプライバシー権と消費者保護を強化する法案。
 
@@ -42,7 +50,7 @@ CCPA に関連して使用されるキーワードを確認しましょう。よ
 
  
 
-**個人情報**：特定の消費者又は世帯を、識別し、関連し、叙述し、関連付けることができ、又は直接的に若しくは間接的に合理的にリンクさせることのできる情報。個人情報には、特定の消費者を、識別し、関連し、叙述し、関連付けることができ、又は直接的に若しくは間接的に合理的にリンクさせることのできる情報が含まれますが、これらに限定されません。
+**個人情報**：特定の消費者又は世帯を、識別し、関連し、叙述し、関連付けることができ、又は直接的に若しくは間接的に合理的にリンクさせることのできる情報。 個人情報には、特定の消費者を、識別し、関連し、叙述し、関連付けることができ、又は直接的に若しくは間接的に合理的にリンクさせることのできる情報が含まれますが、これらに限定されません。
 
  
 

@@ -4,30 +4,39 @@ keywords: FTP または s3;s3 または FTP
 seo-description: Frequently asked questions about bringing offline data into Audience Manager.
 seo-title: Inbound Customer Data Ingestion FAQ
 solution: Audience Manager
-title: '顧客データのインバウンドの取得に関するよくある質問 '
+title: 顧客データのインバウンドの取得に関するよくある質問
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-TQID: https://experienceleague.adobe.com/fd4e3ScdinyJHFh2Mvl4N9iaY4CClJ7xrI1rMO3Y7dE
+TQID: 'https://experienceleague.adobe.com/fd4e3ScdinyJHFh2Mvl4N9iaY4CClJ7xrI1rMO3Y7dE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: 81ea4607-deb9-5aa9-822c-9d779f9a7c7e
+    internal-label: Onboarding Offline Data
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: '1392'
 ht-degree: 98%
-
 ---
-
-# 顧客データのインバウンドの取得に関するよくある質問 {#inbound-customer-data-ingestion-faq}
+# 顧客データのインバウンドの取得に関するよくある質問{#inbound-customer-data-ingestion-faq}
 
 Audience Manager へのオフラインデータの取り込みに関するよくある質問です。
 
@@ -46,15 +55,15 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 アドビでは、以下をお勧めします。
 
-* データプロバイダーと協力して、アドビの仕様に応じて、毎日の受信データファイルの形式を設定します。ファイルの命名と構文の要件については、次のドキュメントを参照してください。
-   * [ID 同期ファイルの名前およびコンテンツの要件](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-   * [受信データファイルコンテンツ：構文、無効な文字、変数、例](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-   * [受信データファイルの Amazon S3 名とファイルサイズの要件](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* データプロバイダーと協力して、アドビの仕様に応じて、毎日の受信データファイルの形式を設定します。 ファイルの命名と構文の要件については、次のドキュメントを参照してください。
+  * [ID 同期ファイルの名前およびコンテンツの要件](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
+  * [受信データファイルコンテンツ：構文、無効な文字、変数、例](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+  * [受信データファイルの Amazon S3 名とファイルサイズの要件](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * フォーマット検証のため、[!DNL Adobe] コンサルタントと連携し、テストデータファイルを [!DNL Adobe] に転送します。
 * [!DNL Adobe]のコンサルタントと協力して、データファイルのコンテンツを解釈するのに適した分類を作成します。
 * ステージング／開発環境では、データプロバイダーの訪問者 ID を適切に選択し、[!DNL Audience Manager] サーバーにリアルタイムに転送するように ID 同期が設定されていることを確認します。
-* DIL／ID 同期を実稼動環境にデプロイします。ID 同期は、アドビのコンサルタントによって既に DIL コード内のモジュールとして設定されています。
-* 実稼動データファイルを [!DNL Audience Manager] に転送します。コードを実稼動に移行してからすぐにデータファイルの転送を開始できますが、ID 同期マッピングに基づいていることを考慮すると、実稼動コードのデプロイメントから最大 1 週間後にデータの転送を開始するとよいでしょう。
+* DIL／ID 同期を実稼動環境にデプロイします。 ID 同期は、アドビのコンサルタントによって既に DIL コード内のモジュールとして設定されています。
+* 実稼動データファイルを [!DNL Audience Manager] に転送します。 コードを実稼動に移行してからすぐにデータファイルの転送を開始できますが、ID 同期マッピングに基づいていることを考慮すると、実稼動コードのデプロイメントから最大 1 週間後にデータの転送を開始するとよいでしょう。
 
  
 
@@ -64,15 +73,15 @@ Audience Manager へのオフラインデータの取り込みに関するよく
 
 >[!WARNING]
 >
->FTP 設定のサポートは段階的に廃止されます。受信データファイルの取り込みは、既存の FTP 取り込みでサポートされますが、新しい取り込み用にオフラインデータをオンボードするには、Amazon S3 を使用することを強くお勧めします。詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
+>FTP 設定のサポートは段階的に廃止されます。 受信データファイルの取り込みは、既存の FTP 取り込みでサポートされますが、新しい取り込み用にオフラインデータをオンボードするには、Amazon S3 を使用することを強くお勧めします。 詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
 
  
 
 **[!DNL Audience Manager] コードを実稼動環境にデプロイする前に、受信データファイル（[!DNL .sync] または [!DNL .overwrite] ファイル）をアップロードできますか？**
 
-はい。アップロードする CRM データを保存するために [!UICONTROL cross-device data source] を使用している限り、Audience Manager では常にデータが保存されます。実際、2019 年 10 月に Audience Manager が開始した、オフラインのみの使用を許可する [!UICONTROL Profile Merge Rules] の機能強化に従って、Audience Manager コードを実稼働環境にデプロイしなくても、データをアップロードしてアクションを実行できます。以下を参照してください。
+はい。 アップロードする CRM データを保存するために [!UICONTROL cross-device data source] を使用している限り、Audience Manager では常にデータが保存されます。 実際、2019 年 10 月に Audience Manager が開始した、オフラインのみの使用を許可する [!UICONTROL Profile Merge Rules] の機能強化に従って、Audience Manager コードを実稼働環境にデプロイしなくても、データをアップロードしてアクションを実行できます。 以下を参照してください。
 
-* [プロファイル結合ルールの強化の概要](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=ja)
+* [プロファイル結合ルールの機能強化の概要](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=ja)
 * [!UICONTROL People-based Destinations] - [オフラインのみのデータに基づくパーソナライゼーション](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=ja)
 
 <br> 
@@ -140,37 +149,37 @@ Consider the following use cases in which the data provider is not configured to
 
 **1 日のうちどの時刻にファイルを転送するとよいですか？**
 
-[!DNL Audience Manager] は、1 日を通じて複数回ファイルをチェックおよび処理します。準備ができたらいつでも、ファイルをアップロードしてください。
+[!DNL Audience Manager] は、1 日を通じて複数回ファイルをチェックおよび処理します。 準備ができたらいつでも、ファイルをアップロードしてください。
 
  
 
-**アップロードされたファイルのデータがターゲティングで使用できるようになるまで、どれくらいかかりますか？**
+**アップロードされたファイルのデータがターゲット設定で使用できるようになるまで、どれくらいかかりますか？**
 
-データは、48 時間後にターゲティングに使用できます。また、「アップロードに成功しました」という内容の電子メールが届いても、データが使用できるようになったと解釈しないでください。これは、単に [!DNL Audience Manager] がファイルを選択して処理の最初のステップを完了したことを意味します。
+データは、48 時間後にターゲティングに使用できます。 また、「アップロードに成功しました」という内容の電子メールが届いても、データが使用できるようになったと解釈しないでください。 これは、単に [!DNL Audience Manager] がファイルを選択して処理の最初のステップを完了したことを意味します。
 
  
 
 **どのくらいの頻度でファイルを送信するとよいですか？また、完全なファイルを送信するのと増分ファイルを送信するのとでは、どちらがよいですか？**
 
-ベストプラクティスとして、新しい訪問者およびデータが変更された訪問者について、1 日に 1 回、増分ファイルを送信します。多くの [!DNL Audience Manager] のお客様は、月に 1 回すべてのファイルを送信します。ただし、これらのファイルの間隔および増分には柔軟性があります。お客様にとって意味のあるタイミングで徐々にデータを送信する必要があります。
+ベストプラクティスとして、新しい訪問者およびデータが変更された訪問者について、1 日に 1 回、増分ファイルを送信します。 多くの [!DNL Audience Manager] のお客様は、月に 1 回すべてのファイルを送信します。 ただし、これらのファイルの間隔および増分には柔軟性があります。 お客様にとって意味のあるタイミングで徐々にデータを送信する必要があります。
 
  
 
 **Audience Manager は、どれくらいの間ファイルをサーバーに保持しますか？**
 
-FTP ファイルは、処理された後で削除されます。[!DNL S3] ファイルは、30 日後に削除されます。形式、構文または他のエラーによって処理できなかったファイルは、削除されます。「[プライバシーとデータ保持に関する FAQ](../faq/faq-privacy.md)」も参照してください。
+FTP ファイルは、処理された後で削除されます。 [!DNL S3] ファイルは、30 日後に削除されます。 形式、構文または他のエラーによって処理できなかったファイルは、削除されます。 「[プライバシーとデータ保持に関する FAQ](../faq/faq-privacy.md)」も参照してください。
 
  
 
 **完全なファイルと増分ファイルの違いは何ですか？**
 
-* **完全：**&#x200B;完全なファイルは、既存のすべての訪問者プロファイルを上書きし、ファイルのデータで置き換えます。完全なファイルは、ファイル名に追加された `.overwrite` タグで特定されます。`.overwrite` ファイルを使用して、訪問者の特性をリセットしたり、古くなって使用されない特性を削除したりできます。
+* **完全：**&#x200B;完全なファイルは、既存のすべての訪問者プロファイルを上書きし、ファイルのデータで置き換えます。 完全なファイルは、ファイル名に追加された `.overwrite` タグで特定されます。 `.overwrite` ファイルを使用して、訪問者の特性をリセットしたり、古くなって使用されない特性を削除したりできます。
 
   >[!NOTE]
   >
-  >[!DNL .overwrite] ファイルは、このデータプロバイダーに関連付けられた [!DNL Audience Manager] プロファイルデータのみを上書きします。つまり、この訪問者に関連付けられたすべての [!DNL Audience Manager] データは、[!DNL .overwrite] ファイルが処理された後も、元の状態のままです。
+  >[!DNL .overwrite] ファイルは、このデータプロバイダーに関連付けられた [!DNL Audience Manager] プロファイルデータのみを上書きします。 つまり、この訪問者に関連付けられたすべての [!DNL Audience Manager] データは、[!DNL .overwrite] ファイルが処理された後も、元の状態のままです。
 
-* **増分：**&#x200B;増分ファイルは、新しいデータを既存の訪問者プロファイルに追加します。増分ファイルは、ファイル名に追加された `.sync` タグで特定されます。増分ファイルを送信しても、既存のプロファイルを消去または上書きしません。
+* **増分：**&#x200B;増分ファイルは、新しいデータを既存の訪問者プロファイルに追加します。 増分ファイルは、ファイル名に追加された `.sync` タグで特定されます。 増分ファイルを送信しても、既存のプロファイルを消去または上書きしません。
 
 以下のユースケースに、これらのファイルタイプがどのように格納した訪問者プロファイルに影響するかを示します。
 
@@ -187,13 +196,13 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 **オンページ ID 同期を実行したことのない訪問者の ID を含むファイルを送信するとどうなりますか？**
 
-処理中、[!DNL Audience Manager] はそのレコードをスキップして次のレコードに移動します。[DPID（データプロバイダー ID）](../reference/ids-in-aam.md)がデバイス間 DPID として設定されている場合、ID 同期前に取り込まれたデータが保存され、ID 同期の発生後すぐに使用できます。
+処理中、[!DNL Audience Manager] はそのレコードをスキップして次のレコードに移動します。 [DPID（データプロバイダー ID）](../reference/ids-in-aam.md)がデバイス間 DPID として設定されている場合、ID 同期前に取り込まれたデータが保存され、ID 同期の発生後すぐに使用できます。
 
  
 
 **タイムスタンプとは何ですか？何のために使用するのでしょうか？また、例を提示してください。**
 
-タイムスタンプは、ログおよび記録の保持のために使用されます。適切な形式の受信ファイル名に使用される構文で必要になります。以下を参照してください。
+タイムスタンプは、ログおよび記録の保持のために使用されます。 適切な形式の受信ファイル名に使用される構文で必要になります。 以下を参照してください。
 
 * [受信データファイルの Amazon S3 の名前に関する要件](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
@@ -201,7 +210,7 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
 **[!DNL Data Provider ID (DPID)] とは何ですか？入手するにはどうしたらいいですか？**
 
-アドビのコンサルタントが 3 桁または 4 桁の [DPID（データプロバイダー ID）](../reference/ids-in-aam.md)を特定のデータソースに割り当てます。この ID は一意で、変更できません。
+アドビのコンサルタントが 3 桁または 4 桁の [DPID（データプロバイダー ID）](../reference/ids-in-aam.md)を特定のデータソースに割り当てます。 この ID は一意で、変更できません。
 
  
 
@@ -220,41 +229,41 @@ FTP ファイルは、処理された後で削除されます。[!DNL S3] ファ
 
  
 
-**データソースデータベースのプライマリキーが電子メールアドレスです。これは、個人を特定できる情報と見なされますか？**
+**データソースデータベースのプライマリキーが電子メールアドレスです。 これは、個人を特定できる情報と見なされますか？**
 
-はい。[!DNL Audience Manager] では、アドビのデータベースに電子メールアドレスを格納しません。訪問者は、ID 同期を開始する前に、ランダムに生成される ID または 1 方向のハッシュ化されたバージョンの電子メールアドレスを割り当てられる必要があります。
+はい。 [!DNL Audience Manager] では、アドビのデータベースに電子メールアドレスを格納しません。 訪問者は、ID 同期を開始する前に、ランダムに生成される ID または 1 方向のハッシュ化されたバージョンの電子メールアドレスを割り当てられる必要があります。
 
  
 
-**データファイルコンテンツでは大文字と小文字が区別されますか？ID 同期の場合はどうですか？**
+**データファイルコンテンツでは大文字と小文字が区別されますか？ ID 同期の場合はどうですか？**
 
-データファイルには、[!UICONTROL User ID]（[定義されているファイル変数](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)の「[!UICONTROL User ID]」を参照）とプロファイルデータという 2 つの基本的な構成要素があります。通常は、キーと値のペアまたはコードの形式です。[!UICONTROL User ID] は、大文字と小文字を区別します。通常、プロファイルまたはキーと値のペアのデータは、大文字と小文字が区別されません。
+データファイルには、[!UICONTROL User ID]（[定義されているファイル変数](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)の「[!UICONTROL User ID]」を参照）とプロファイルデータという 2 つの基本的な構成要素があります。通常は、キーと値のペアまたはコードの形式です。 [!UICONTROL User ID] は、大文字と小文字を区別します。 通常、プロファイルまたはキーと値のペアのデータは、大文字と小文字が区別されません。
 
  
 
 **ファイルを転送するために FTP または [!DNL Amazon S3] を使用する必要がありますか？**
 
-ベストプラクティスとしては、プロセスがよりシンプルなので、[!DNL Amazon S3] をお勧めします。[!DNL Audience Manager] では FTP ファイルが [!DNL S3] に自動転送されるので、ファイルを自分で [!DNL Amazon S3] に配置するよりもプロセスの効率が向上します。さらに、FTP に同時にアップロードするお客様は、FTP の帯域幅を共有するので、アップロード速度が遅くなることが予想されます。[!DNL Amazon S3]また、 は、レプリケートされて配布されているので、通常、FTP サーバーよりも安全で信頼性が高くなります。詳しくは、[Amazon S3 について](../reference/amazon-s3.md)を参照してください。
+ベストプラクティスとしては、プロセスがよりシンプルなので、[!DNL Amazon S3] をお勧めします。 [!DNL Audience Manager] では FTP ファイルが [!DNL S3] に自動転送されるので、ファイルを自分で [!DNL Amazon S3] に配置するよりもプロセスの効率が向上します。 さらに、FTP に同時にアップロードするお客様は、FTP の帯域幅を共有するので、アップロード速度が遅くなることが予想されます。 [!DNL Amazon S3]また、 は、レプリケートされて配布されているので、通常、FTP サーバーよりも安全で信頼性が高くなります。 詳しくは、[Amazon S3 について](../reference/amazon-s3.md)を参照してください。
 
 >[!WARNING]
 >
->FTP 設定のサポートは段階的に廃止されます。受信データファイルの取り込みは、既存の FTP 取り込みでサポートされますが、新しい取り込み用にオフラインデータをオンボードするには、[!DNL Amazon S3] を使用することを強くお勧めします。詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
+>FTP 設定のサポートは段階的に廃止されます。 受信データファイルの取り込みは、既存の FTP 取り込みでサポートされますが、新しい取り込み用にオフラインデータをオンボードするには、[!DNL Amazon S3] を使用することを強くお勧めします。 詳細は、[受信データファイルの Amazon S3 名とファイルサイズの要件](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)を参照してください。
 
  
 
 **Audience Manger で受信ファイルはどう処理されますか？**
 
-[!DNL Audience Manager] では、[!DNL Amazon Simple Queue Service (SQS)] を使用して受信データを処理しています。その動作の仕組みは次のとおりです。
+[!DNL Audience Manager] では、[!DNL Amazon Simple Queue Service (SQS)] を使用して受信データを処理しています。 その動作の仕組みは次のとおりです。
 
 1. [!DNL Audience Manager] のお客様が受信データを [!DNL Amazon S3] バケットにアップロードします。
 1. データが [!DNL Amazon SQS] キューに入り、[!DNL Audience Manager] で処理されるのを待ちます。
-1. [!DNL Audience Manager] は、[!DNL Amazon SQS] キューから最大 119000 個のエントリを読み取って、最大 3 つのバッチに分割します。各バッチのファイルは同時に処理されます。
+1. [!DNL Audience Manager] は、[!DNL Amazon SQS] キューから最大 119000 個のエントリを読み取って、最大 3 つのバッチに分割します。 各バッチのファイルは同時に処理されます。
 
  
 
-**複数のファイルを同時にアップロードする必要があります。ファイルは同時に処理されますか？**
+**複数のファイルを同時にアップロードする必要があります。 ファイルは同時に処理されますか？**
 
-場合によります。[!DNL Audience Manager] は、[!DNL Amazon SQS] キューから最大 119000 個のエントリを読み取って、最大 3 つのバッチに分割します。同じバッチ内のファイルであれば、同時に処理されます。ただし、毎日大量のデータが [!DNL Audience Manager] に取り込まれるので、ファイルの処理順序は保証できません。
+場合によります。 [!DNL Audience Manager] は、[!DNL Amazon SQS] キューから最大 119000 個のエントリを読み取って、最大 3 つのバッチに分割します。 同じバッチ内のファイルであれば、同時に処理されます。 ただし、毎日大量のデータが [!DNL Audience Manager] に取り込まれるので、ファイルの処理順序は保証できません。
 
 >[!MORELIKETHIS]
 >

@@ -7,27 +7,38 @@ title: テストグループの管理
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
-TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
+TQID: 'https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1001'
 ht-degree: 98%
-
 ---
-
 # テストグループの管理 {#manage-test-groups}
 
 この手順では、[!UICONTROL Audience Lab] でテストグループを作成、編集または削除するための方法について説明します。
@@ -38,16 +49,16 @@ ht-degree: 98%
 
 <!-- create-test-group.xml -->
 
-* **コンバージョン特性**&#x200B;を少なくとも 1 つセットアップしておく必要があります。コンバージョン特性は、[特性ビルダー](../../features/traits/create-onboarded-rule-based-traits.md)で、Event Type に **conversion** を選択することでセットアップできます。コンバージョン特性の詳細とセットアップ方法については、こちらの[ビデオ](https://helpx.adobe.com/jp/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html)をご覧ください。
+* **コンバージョン特性**&#x200B;を少なくとも 1 つセットアップしておく必要があります。 コンバージョン特性は、[特性ビルダー](../../features/traits/create-onboarded-rule-based-traits.md)で、Event Type に **conversion** を選択することでセットアップできます。 コンバージョン特性の詳細とセットアップ方法については、こちらの[ビデオ](https://helpx.adobe.com/jp/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html)をご覧ください。
 
   >[!IMPORTANT]
   >
-  >[フォルダー特性](../../features/traits/about-folder-traits.md)は、[!UICONTROL Audience Lab] ではサポートされて&#x200B;**いません**。フォルダー特性の [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) を **conversion** に設定すると、その特定のフォルダー特性については [!UICONTROL Audience Lab] にデータが生成されません。
+  >[フォルダー特性](../../features/traits/about-folder-traits.md)は、[!UICONTROL Audience Lab] ではサポートされて&#x200B;**いません**。 フォルダー特性の [Event Type](../../features/traits/create-onboarded-rule-based-traits.md) を **conversion** に設定すると、その特定のフォルダー特性については [!UICONTROL Audience Lab] にデータが生成されません。
 
-* [ロールベースのアクセス制御](../../features/administration/administration-overview.md)を使用する企業の場合：アクセスを提供するには、[!UICONTROL Audience Lab] [ワイルドカード権権限](../../features/administration/administration-overview.md#wild-card-permissions) を **[!UICONTROL User Groups]** に割り当てます。この権限をユーザーに付与すると、テスト結果の作成や表示をおこなえます。ユーザーは、**読み取り**&#x200B;権限および&#x200B;**宛先へのマッピング**&#x200B;権限を持っているデータソースのセグメントのみ使用できます。また、ユーザーは、**読み取り**&#x200B;権限を持っているデータソースのコンバージョン特性のみ使用できます。さらに、ユーザーは、アクセスできる宛先のみ表示できます。そのため、[!DNL Audience Lab] のワイルドカード権限をグループに追加する前に、グループが以下の権限を持っていることを確認します。
-   * 関係のあるコンバージョン特性の読み取り
-   * テストに関係のあるセグメントの読み取りとマッピング
-   * 関係のある宛先へのアクセス
+* [役割ベースのアクセス制御](../../features/administration/administration-overview.md)を使用する企業の場合：アクセスを提供するには、[!UICONTROL Audience Lab] [ワイルドカード権権限](../../features/administration/administration-overview.md#wild-card-permissions) を **[!UICONTROL User Groups]** に割り当てます。 この権限をユーザーに付与すると、テスト結果の作成や表示をおこなえます。 ユーザーは、**読み取り**&#x200B;権限および&#x200B;**宛先へのマッピング**&#x200B;権限を持っているデータソースのセグメントのみ使用できます。 また、ユーザーは、**読み取り**&#x200B;権限を持っているデータソースのコンバージョン特性のみ使用できます。 さらに、ユーザーは、アクセスできる宛先のみ表示できます。 そのため、[!DNL Audience Lab] のワイルドカード権限をグループに追加する前に、グループが以下の権限を持っていることを確認します。
+  * 関係のあるコンバージョン特性の読み取り
+  * テストに関係のあるセグメントの読み取りとマッピング
+  * 関係のある宛先へのアクセス
 
 新しい [!UICONTROL Segment Test Group] を作成するには：
 
@@ -57,40 +68,40 @@ ht-degree: 98%
    * 「**[!UICONTROL Test Group Name]**」と「**[!UICONTROL Description]**」に入力します。
    * ファイルブラウザーで探すか検索バーに入力して&#x200B;**[!UICONTROL Base Segment]**&#x200B;を選択し、「**[!UICONTROL Choose Segment.]**」をクリックして選択を確認します。
    * テストグループをドラフトとして保存し、後で作業を再開することができます。
-   * 選択したベースセグメントが他のテストグループで既に使用されている場合は、警告が表示されます。ベースセグメントを 2 回使用すると、どちらのテストのコンバージョン結果も誤ったものになる可能性があります。
+   * 選択したベースセグメントが他のテストグループで既に使用されている場合は、警告が表示されます。 ベースセグメントを 2 回使用すると、どちらのテストのコンバージョン結果も誤ったものになる可能性があります。
 
 1. **[!UICONTROL Allocate Test Segments]**
 
    * **最大 15 個のテストセグメント**&#x200B;を作成し、デバイスの割合を任意に配分することができます。
    * テストセグメントの名前をクリックすると、編集することができます。
-   * 新規のテストセグメントが割り当てられると、全体が 100％になるように、自動的に割合が均等に配分されます。その後、割合を手動で編集できます。割合を編集した後でチェックボックスをクリックし、割合が合計 100％になることを確認します。そうでない場合は、次の手順に進めません。
+   * 新規のテストセグメントが割り当てられると、全体が 100％になるように、自動的に割合が均等に配分されます。 その後、割合を手動で編集できます。 割合を編集した後でチェックボックスをクリックし、割合が合計 100％になることを確認します。そうでない場合は、次の手順に進めません。
 
 1. **[!UICONTROL Set a Control Segment]**
 
-   * セグメントの特定の一部を取っておいて対照グループとして使用する場合は、対照セグメントを選択します。対照グループを使用すると、作成したテストセグメントの影響をベンチマークと比較して確認することができます。
+   * セグメントの特定の一部を取っておいて対照グループとして使用する場合は、対照セグメントを選択します。 対照グループを使用すると、作成したテストセグメントの影響をベンチマークと比較して確認することができます。
    * ドロップダウンリストで、テストセグメントを対照セグメントとして選択できます。または、対照セグメントを使用しない場合は、「**[!UICONTROL None]**」を選択します。
    * 完了したら、「**[!UICONTROL Next]**」をクリックします。
 
 1. **[!UICONTROL Select Conversion Traits]**
 
-   * コンバージョン特性ウィンドウで入力して、コンバージョン特性を追加します。これは&#x200B;**必須**&#x200B;手順であり、少なくとも 1 つのコンバージョン特性を追加しない限り、次の手順には進めません。
+   * コンバージョン特性ウィンドウで入力して、コンバージョン特性を追加します。 これは&#x200B;**必須**&#x200B;手順であり、少なくとも 1 つのコンバージョン特性を追加しない限り、次の手順には進めません。
    * 最大 5 つのコンバージョン特性を任意に追加できます。
    * 他のテストグループに既に使用されているコンバージョン特性を選択した場合は、警告が表示されます。
-   * Audience Manager では、コンバージョン特性としての[フォルダー特性](/help/using/features/traits/about-folder-traits.md)の使用はサポートしていません。コンバージョン特性としてフォルダー特性を選択すると、テスト内に表示される集計およびトレンドレポートが 0 になります。
+   * Audience Manager では、コンバージョン特性としての[フォルダー特性](/help/using/features/traits/about-folder-traits.md)の使用はサポートしていません。 コンバージョン特性としてフォルダー特性を選択すると、テスト内に表示される集計およびトレンドレポートが 0 になります。
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 
-   * 希望する宛先を検索フィールドに入力するか、ドロップダウン矢印を使用します。[!UICONTROL Audience Lab] のテストセグメントは、URL、Cookie、サーバー間のいずれかの宛先に送信することができます。
+   * 希望する宛先を検索フィールドに入力するか、ドロップダウン矢印を使用します。 [!UICONTROL Audience Lab] のテストセグメントは、URL、Cookie、サーバー間のいずれかの宛先に送信することができます。
    * セグメントを宛先にドラッグアンドドロップします。
    * セグメントを宛先にドロップしてから、「**[!UICONTROL Destination Mapping Value]**」に入力します。
    * 同じテストセグメントを複数の宛先に送信でき、複数のテストセグメントを単一の宛先に追加できます。
    * 宛先は、[&#x200B; データ書き出しコントロール &#x200B;](../../features/data-export-controls.md)に基づいて、特定のテストセグメントで使用できない場合はグレー表示されます。
    * ユーザーには、自分が属する [RBAC ユーザーグループ](../../features/administration/administration-overview.md)でアクセス権が付与されている宛先のみが表示されます。
-   * 最後に、テストグループの開始日を選択する必要があります。この日付は、テストグループが宛先に公開される期間の開始を示します。テストセグメントの無期限の比較をおこなう場合は、「**No End Date**」を選択します。
+   * 最後に、テストグループの開始日を選択する必要があります。 この日付は、テストグループが宛先に公開される期間の開始を示します。 テストセグメントの無期限の比較をおこなう場合は、「**No End Date**」を選択します。
 
    >[!NOTE]
    >
-   >認証済みプロファイルを持つ [!UICONTROL Profile Merge Rules] は、リアルタイムの宛先でのみサポートされています。その設定のプロファイル結合ルールを持つテストセグメントがファイルベースのサーバー間宛先に送信された場合は、オーディエンスが設定されない可能性があります。
+   >認証済みプロファイルを持つ [!UICONTROL Profile Merge Rules] は、リアルタイムの宛先でのみサポートされています。 その設定のプロファイル結合ルールを持つテストセグメントがファイルベースのサーバー間宛先に送信された場合は、オーディエンスが設定されない可能性があります。
 
    「**[!UICONTROL Next]**」をクリックして、テストグループを確認し最終決定します。
 
@@ -100,12 +111,12 @@ ht-degree: 98%
    * テストグループを最終決定したら、テストグループの複製や削除が可能になりますが、編集はできません。
 
    >[!NOTE]
-   >* 作成プロセスのどの時点でもテストグループを保存でき、後でウィザードに戻ることができます。テストグループのステータスが「**[!UICONTROL Draft]**」になり、セグメントテストグループを最終決定するまで、テストグループはデータを宛先に送信しません。
+   >* 作成プロセスのどの時点でもテストグループを保存でき、後でウィザードに戻ることができます。 テストグループのステータスが「**[!UICONTROL Draft]**」になり、セグメントテストグループを最終決定するまで、テストグループはデータを宛先に送信しません。
    >* ドラフトテストの場合は、**[!UICONTROL Edit]** のメイン表示でテストグループカードの「[!UICONTROL Audience Lab]」をクリックすれば、テストグループに戻って編集することができます。
 
 ## セグメントテストグループの編集 {#edit-test-groups}
 
-[!UICONTROL Audience Lab] では、ドラフトテストグループのみ編集できます。[!UICONTROL Create Segment Test Group] ウィザードで、テストグループをドラフトとして保存し、後で作業を再開することができます。
+[!UICONTROL Audience Lab] では、ドラフトテストグループのみ編集できます。 [!UICONTROL Create Segment Test Group] ウィザードで、テストグループをドラフトとして保存し、後で作業を再開することができます。
 
 1. [!UICONTROL Audience Lab] のメインビューに移動します。
 1. ドラフトテストグループを検索し、テストグループカードの「**[!UICONTROL Edit]**」コントロールを選択します。
@@ -114,7 +125,7 @@ ht-degree: 98%
 ## セグメントテストグループの削除 {#delete-test-groups}
 
 1. [!UICONTROL Audience Lab] のメインビューに移動します。
-1. 削除するテストグループを見つけます。次のいずれかをおこないます。
+1. 削除するテストグループを見つけます。 次のいずれかをおこないます。
 
    * テストグループカードの「**[!UICONTROL Delete]**」コントロールをクリックします。
    * テストグループカードのテストグループタイトルをクリックして [Test Group Information](../../features/audience-lab/audience-lab-information-view.md) ビューに移動し、タイトルバーにある「**[!UICONTROL Delete]**」コントロールをクリックします。

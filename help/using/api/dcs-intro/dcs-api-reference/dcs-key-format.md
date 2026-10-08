@@ -1,5 +1,5 @@
 ---
-description: 呼び出しをおこなう場合、DCS では標準形式またはシリアル化された形式のキー値ペアデータを受信します。この節では、標準のキー値ペアデータとシリアル化されたキー値ペアデータの形式について説明します。
+description: 呼び出しをおこなう場合、DCS では標準形式またはシリアル化された形式のキー値ペアデータを受信します。 この節では、標準のキー値ペアデータとシリアル化されたキー値ペアデータの形式について説明します。
 seo-description: When making a call, the DCS accepts key-value data in standard or serialized format. Review this section for information about how to format standard and serialized key-value data.
 seo-title: Formatting Key-Value Pairs in DCS Calls
 solution: Audience Manager
@@ -7,19 +7,24 @@ title: DCS 呼び出しでのキー値ペアの形式
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
 exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
-TQID: https://experienceleague.adobe.com/t2OyTO4wyJyXp-65BBFaLHVKq1-oibKU9GUETZbzYs4
+TQID: 'https://experienceleague.adobe.com/t2OyTO4wyJyXp-65BBFaLHVKq1-oibKU9GUETZbzYs4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 223
+source-wordcount: '242'
 ht-degree: 100%
-
 ---
-
 # DCS 呼び出しでのキー値ペアの形式 {#formatting-key-value-pairs-in-dcs-calls}
 
-呼び出しをおこなう場合、[!DNL DCS] では標準形式またはシリアル化された形式のキーと値のペアのデータを受信します。この節では、標準のキー値ペアデータとシリアル化されたキー値ペアデータの形式について説明します。
+呼び出しをおこなう場合、[!DNL DCS] では標準形式またはシリアル化された形式のキーと値のペアのデータを受信します。 この節では、標準のキー値ペアデータとシリアル化されたキー値ペアデータの形式について説明します。
 
 ## 標準およびシリアル化されたキー値ペア {#standard-serialized}
 
@@ -34,12 +39,12 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>標準</b> </td> 
-   <td colname="col2"> <p>標準のキーと値のペアは単一のキーと値で構成されます。この構造ではデータを別々のキーと値のペアに編成します。各キーは明示的に指定されます。別の値を定義ために再度使用される場合でも、同様です。これは、DCS にデータを送信する最も一般的な方法です。 </p> </td>
+   <td colname="col2"> <p>標準のキーと値のペアは単一のキーと値で構成されます。 この構造ではデータを別々のキーと値のペアに編成します。 各キーは明示的に指定されます。別の値を定義ために再度使用される場合でも、同様です。 これは、DCS にデータを送信する最も一般的な方法です。 </p> </td>
    <td colname="col3"> <code> key1=val1&amp;key2=val2&amp;key3=val3</code> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>シリアル型</b> </td> 
-   <td colname="col2"> <p>シリアル化されたキーと値のペアは単一のキーと複数の値で構成されます。これはデータを編成する効率的な方法になりますが、シリアル化されたキーと値のペアには、各キーおよび各キーと値のセットを区切るための特定のシンボルが必要です。 </p> </td> 
+   <td colname="col2"> <p>シリアル化されたキーと値のペアは単一のキーと複数の値で構成されます。 これはデータを編成する効率的な方法になりますが、シリアル化されたキーと値のペアには、各キーおよび各キーと値のセットを区切るための特定のシンボルが必要です。 </p> </td> 
    <td colname="col3"> <code> key1=val1,val2,val3</code> </td> 
   </tr>
  </tbody>
@@ -47,7 +52,7 @@ ht-degree: 100%
 
 ## シリアル化されたキー値ペアの区切り文字 {#delimiters-separators}
 
-シリアル化されたキーと値のペアでは、変数内の値および変数間を区切るマーカーを指定する必要があります。Audience Manager には次の区切り文字が必要です。
+シリアル化されたキーと値のペアでは、変数内の値および変数間を区切るマーカーを指定する必要があります。 Audience Manager には次の区切り文字が必要です。
 
 <table id="table_8FD4E6B9506943AEA619D4089913ECBC"> 
  <thead> 

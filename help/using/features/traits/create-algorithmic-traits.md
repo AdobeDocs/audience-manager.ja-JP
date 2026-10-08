@@ -7,16 +7,21 @@ title: アルゴリズム特性の作成
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 exl-id: dc799688-e38b-469b-bc55-507df0d28f43
-TQID: https://experienceleague.adobe.com/4fXcAhJfBjPIMqMRFM-alsUtvCjBXLGhqJQO66cTH60
+TQID: 'https://experienceleague.adobe.com/4fXcAhJfBjPIMqMRFM-alsUtvCjBXLGhqJQO66cTH60'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 309
+source-wordcount: '310'
 ht-degree: 97%
-
 ---
-
 # アルゴリズム特性の作成 {#create-algorithmic-traits}
 
 <!-- t_algo_trait_build.xml -->
@@ -28,13 +33,15 @@ ht-degree: 97%
    * 特性の名前を設定します。
    * データソースを選択します。
    * 保存フォルダーを選択します。
-1. 「[!UICONTROL Configuration]」パネルを展開し、**[!UICONTROL Browse All Models]**&#x200B;をクリックします。新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
-1. モデルを選択して、**[!UICONTROL Add Selected Model to Trait]**&#x200B;をクリックします。モデルを追加すると、リーチと精度の設定が表示されます。
-1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。終了したら、「**[!UICONTROL Save]**」をクリックします。
+1. 「[!UICONTROL Configuration]」パネルを展開し、**[!UICONTROL Browse All Models]**&#x200B;をクリックします。
+新しいウィンドウが開き、特性で使用するモデルを選択できるようになります。
+1. モデルを選択して、**[!UICONTROL Add Selected Model to Trait]**&#x200B;をクリックします。
+モデルを追加すると、リーチと精度の設定が表示されます。
+1. リーチと精度を目標として選択し、それぞれのドロップダウンメニューから値を選択します。 終了したら、「**[!UICONTROL Save]**」をクリックします。
 
 ## アルゴリズム特性の設定 {#configure-settings}
 
-[!UICONTROL Trait Builder]の「[!UICONTROL Configuration]」セクションを使用すると、アルゴリズムモデルを特性に関連付けることができます。アルゴリズム特性の作成プロセスを完了するには、モデルを選択し、リーチまたは精度の目標を選びます。
+[!UICONTROL Trait Builder]の「[!UICONTROL Configuration]」セクションを使用すると、アルゴリズムモデルを特性に関連付けることができます。 アルゴリズム特性の作成プロセスを完了するには、モデルを選択し、リーチまたは精度の目標を選びます。
 
 ### 前提条件
 
@@ -48,10 +55,10 @@ ht-degree: 97%
 
 | インターフェイス要素 | 説明 |
 |---|---|
-| **[!UICONTROL Select Model for Algorithmic Trait]** | **[!UICONTROL Update]**&#x200B;ボタンをクリックして、モデルウィンドウを開きます。このウィンドウで、特性の作成に使用するアルゴリズムモデルを選択します。 |
-| **[!UICONTROL Select Goal Accuracy]** | 精度に基づいて特性を作成する場合にこのオプションを選択します。精度は、潜在的なユーザーがベースラインにどれだけ近いかを示すスコア値です。精度の範囲は 0（最も低い精度）から 1（最も高い精度）の間となります。 |
+| **[!UICONTROL Select Model for Algorithmic Trait]** | **[!UICONTROL Update]**&#x200B;ボタンをクリックして、モデルウィンドウを開きます。 このウィンドウで、特性の作成に使用するアルゴリズムモデルを選択します。 |
+| **[!UICONTROL Select Goal Accuracy]** | 精度に基づいて特性を作成する場合にこのオプションを選択します。 精度は、潜在的なユーザーがベースラインにどれだけ近いかを示すスコア値です。 精度の範囲は 0（最も低い精度）から 1（最も高い精度）の間となります。 |
 | **[!UICONTROL Reach and Accuracy Data Columns]** | このセクションは右側にあり、モデルの精度とリーチ値を表す数値データを最大 21 行表示します。 |
-| **[!UICONTROL Reach and Accuracy Slider]** | このスライダーはグラフの下にあり、リーチや精度の目標を示す数値を設定できます。スライダーを設定してから、リーチまたは精度目標ボタンを選択し、特性を作成します。 |
+| **[!UICONTROL Reach and Accuracy Slider]** | このスライダーはグラフの下にあり、リーチや精度の目標を示す数値を設定できます。 スライダーを設定してから、リーチまたは精度目標ボタンを選択し、特性を作成します。 |
 
 >[!MORELIKETHIS]
 >

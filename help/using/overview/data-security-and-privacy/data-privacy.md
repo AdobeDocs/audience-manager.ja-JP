@@ -7,29 +7,37 @@ title: データプライバシーの概要
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: Data Governance & Privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
-TQID: https://experienceleague.adobe.com/2ePsnB1spOaodcifn67as3T7v28RnrOthzjhJJQKIGo
+TQID: 'https://experienceleague.adobe.com/2ePsnB1spOaodcifn67as3T7v28RnrOthzjhJJQKIGo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: '477'
 ht-degree: 100%
-
 ---
-
 # データプライバシーの概要 {#data-privacy}
 
 ## 概要
 
 データプライバシードキュメントでは、消費者のプライバシーおよびオプトアウト手順に関連する一般に認められたベストプラクティスに対する [!DNL Audience Manager] の統合と準拠について説明します。
 
-[!DNL Audience Manager] は、顧客と顧客がやり取りするオンラインブランドとの関係の重要性を認識します。両者とも、匿名データ要素の透過的な交換のメリットを得ることができます。
+[!DNL Audience Manager] は、顧客と顧客がやり取りするオンラインブランドとの関係の重要性を認識します。 両者とも、匿名データ要素の透過的な交換のメリットを得ることができます。
 
 * 消費者は、パーソナライズされたコンテンツ、割引製品オファー、効率化されたユーザーエクスペリエンスを得ることができます。
 * ブランドは、複数のオンラインビジネスモデルをサポートする非常に重要な収入源を得ることができます。
@@ -38,7 +46,7 @@ ht-degree: 100%
 
 ## [!DNL GDPR] {#gdpr}
 
-[一般データ保護規則（GDPR）](https://gdpr.eu/data-privacy/)は、EU 加盟国に対して、**アクセス権**&#x200B;や&#x200B;**忘れられる権利**&#x200B;など、新たなデータプライバシー権を導入しました。つまり、御社が個人データを収集した [!DNL EU] 市民は、いつでもデータのアクセスや削除を要求できます。これらの要求に従わないと、組織に対して数百万ドルの罰金が科せられる可能性があります。
+[一般データ保護規則（GDPR）](https://gdpr.eu/data-privacy/)は、EU 加盟国に対して、**アクセス権**&#x200B;や&#x200B;**忘れられる権利**&#x200B;など、新たなデータプライバシー権を導入しました。 つまり、御社が個人データを収集した [!DNL EU] 市民は、いつでもデータのアクセスや削除を要求できます。 これらの要求に従わないと、組織に対して数百万ドルの罰金が科せられる可能性があります。
 
 [!DNL GDPR] に準拠するため、[!DNL Audience Manager] はデータアクセスおよび削除の[要求](data-privacy-requests.md)をサポートします。
 
@@ -46,7 +54,7 @@ ht-degree: 100%
 
 2020 年 1 月 1 日（PT）に施行される[カリフォルニア州消費者プライバシー法（CCPA）](https://www.caprivacy.org/about)は、カリフォルニア州在住者に対して個人情報に関する新たな権利を提供し、カリフォルニア州で事業をおこなう特定の事業者に対してデータ保護責任を課します。
 
-[!DNL CCPA] は、カリフォルニア在住者に対して、自分の個人データにアクセスし削除する権利や、自分の個人データが販売または開示されたか（そして誰に対して）を知る権利など、新しいデータプライバシー権を提供します。[!DNL CCPA] に準拠するため、[!DNL Audience Manager] は[!DNL CCPA] のアクセスおよび削除の[要求](data-privacy-requests.md)をサポートします。
+[!DNL CCPA] は、カリフォルニア在住者に対して、自分の個人データにアクセスし削除する権利や、自分の個人データが販売または開示されたか（そして誰に対して）を知る権利など、新しいデータプライバシー権を提供します。 [!DNL CCPA] に準拠するため、[!DNL Audience Manager] は[!DNL CCPA] のアクセスおよび削除の[要求](data-privacy-requests.md)をサポートします。
 
 詳しくは、[アドビプライバシーセンター](https://www.adobe.com/jp/privacy/opt-out.html)を参照してください。
 
@@ -54,9 +62,9 @@ ht-degree: 100%
 
 [!DNL Audience Manager] は、[Adobe Experience Platform プライバシーサービス](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)などのプライバシーツールを使用して、特定のプライバシー規制に基づくデータアクセスおよび削除の要求に対する義務を守るのに役立ちます。
 
-このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。[プライバシーサービスを使用すると](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
+このサービスは、消費者[!DNL RESTful API]データ要求の管理に役立つユーザーインターフェイスを提供します。 [プライバシーサービスを使用すると](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)、個人の顧客の要求に基づいて、個人のデータに対するアクセスおよび削除の要求を送信し、コンプライアンス上の義務のこの部分を自動化できます。
 
-データアクセス要求および削除要求は Privacy Service で処理されますが、現在、 [オプトアウト要求](data-privacy-requests.md#opt-out-requests) は [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) を通じてサポートされています。詳しくは、[データプライバシー要求](data-privacy-requests.md)を参照してください。
+データアクセス要求および削除要求は Privacy Service で処理されますが、現在、 [オプトアウト要求](data-privacy-requests.md#opt-out-requests) は [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) を通じてサポートされています。 詳しくは、[データプライバシー要求](data-privacy-requests.md)を参照してください。
 
 ## 関連する概念 {#related-concepts}
 
@@ -69,4 +77,4 @@ ht-degree: 100%
 * [宛先の GDPR に関する考慮事項](aam-gdpr-partners.md)
 * [Audience Manager をご利用のお客様向けの GDPR 対応ガイダンス](aam-gdpr-readiness.md)
 * [データガバナンス](data-governance.md)
-* [プライバシーとデータ保持に関するよくある質問 ](../../faq/faq-privacy.md)
+* [プライバシーとデータ保持に関するよくある質問](../../faq/faq-privacy.md)

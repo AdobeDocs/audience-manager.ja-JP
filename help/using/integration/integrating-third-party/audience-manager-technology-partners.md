@@ -6,7 +6,16 @@ keywords: アクティブ化、アクティベートパートナー、宛先、�
 solution: Audience Manager
 title: Adobe Audience Manager テクノロジーパートナー
 feature: Third-party Integration
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: 5c645d93-a56e-58b4-b860-6a587b608d44
+    internal-label: Third-party Integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 100%

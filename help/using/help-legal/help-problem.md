@@ -1,26 +1,32 @@
 ---
-description: カスタマーケアは、どのような問題でも解決を支援できる体制を整えております。問題の理解および解決までの時間を短縮するために、できるだけこれらの情報をご用意したうえで、カスタマーケアにご連絡ください。
+description: カスタマーケアは、どのような問題でも解決を支援できる体制を整えております。 問題の理解および解決までの時間を短縮するために、できるだけこれらの情報をご用意したうえで、 カスタマーケアにご連絡ください。
 seo-description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
 seo-title: If There's a Problem
 solution: Audience Manager
 title: 問題がある場合
 feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
-TQID: https://experienceleague.adobe.com/9yNQ22FOduvtYsw4ovWOSvyemp5J6edcn3DbLfgpldc
+TQID: 'https://experienceleague.adobe.com/9yNQ22FOduvtYsw4ovWOSvyemp5J6edcn3DbLfgpldc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 370
+source-wordcount: '385'
 ht-degree: 100%
-
 ---
-
 # 問題がある場合 {#problem}
 
-カスタマーケアは、どのような問題でも解決を支援できる体制を整えております。問題の理解および解決までの時間を短縮するために、できるだけこれらの情報をご用意したうえで、カスタマーケアにご連絡ください。
+カスタマーケアは、どのような問題でも解決を支援できる体制を整えております。 問題の理解および解決までの時間を短縮するために、できるだけこれらの情報をご用意したうえで、 カスタマーケアにご連絡ください。
 
 ## 基本情報 {#basic-information}
 
@@ -34,7 +40,7 @@ r_problem.xml
 
 * **電話：** 1-800-497-0335
 
-  米国外からの無料電話番号については、[各地域のカスタマーケアのお問い合わせ先番号](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)のサイトを参照してください。製品選択メニューで 4 を押すと、[!DNL Audience Manager] チームの担当者につながります。
+  米国外からの無料電話番号については、[各地域のカスタマーケアのお問い合わせ先番号](https://helpx.adobe.com/jp/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)のサイトを参照してください。 製品選択メニューで 4 を押すと、[!DNL Audience Manager] チームの担当者につながります。
 
 * **電子メール**：amsupport@adobe.com
 
@@ -57,20 +63,20 @@ r_problem.xml
    <td colname="col2"> <p>次の情報を記入します。 </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
       <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">会社名。 </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword">Audience Manager</span> サブドメイン（判明している場合）。サブドメインは、データ収集イベントを<span class="keyword">アドビ</span>に送信するドメインの URL です（例：<code>https://<i>myCompany</i>.demdex.net</code>）。 </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword">Audience Manager</span> サブドメイン（判明している場合）。 サブドメインは、データ収集イベントを<span class="keyword">アドビ</span>に送信するドメインの URL です（例：<code>https://<i>myCompany</i>.demdex.net</code>）。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>再現の手順</b> </p> </td> 
-   <td colname="col2"> <p>問題の再現に必要な URL や期待される結果など、できるだけ詳しい内容を記入します。説明文には、<span class="keyword">Audience Manager</span> に慣れていない人が手順に従って問題を再現できるように、十分な詳細情報を記入してください。 </p> </td> 
+   <td colname="col2"> <p>問題の再現に必要な URL や期待される結果など、できるだけ詳しい内容を記入します。 説明文には、<span class="keyword">Audience Manager</span> に慣れていない人が手順に従って問題を再現できるように、十分な詳細情報を記入してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>優先順位</b> </p> </td> 
-   <td colname="col2"> <p>この問題の優先順位を設定します。優先順位は P1（重要度が最も高い）から P4（重要度が最も低い）まであります。 </p> </td> 
+   <td colname="col2"> <p>この問題の優先順位を設定します。 優先順位は P1（重要度が最も高い）から P4（重要度が最も低い）まであります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>ビジネスへの影響</b> </p> </td> 
-   <td colname="col2"> <p>この問題がビジネスに及ぼす影響について記入します。例えば、「この問題により収益が減少したり、商品が利用できなくなるか」、「この問題についての対応に追われているか」などです。 </p> </td> 
+   <td colname="col2"> <p>この問題がビジネスに及ぼす影響について記入します。 例えば、「この問題により収益が減少したり、商品が利用できなくなるか」、 「この問題についての対応に追われているか」などです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>期待する内容</b> </p> </td> 
@@ -81,7 +87,7 @@ r_problem.xml
 
 ## 機能停止の場合 {#outage}
 
-機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com/ja-jp)（[!DNL https://status.adobe.com/ja-jp]）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新アップデートも含まれています。さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
+機能が停止していると思われる場合は、まず [Experience Cloud システムのステータスページ](https://status.adobe.com)（[!DNL https://status.adobe.com]）をご確認ください。Audience Manager を含む Experience Cloud ソリューションの機能停止、サポート事例およびメンテナンスはすべてここに記録されています。また、技術運用チームからの最新アップデートも含まれています。 さらに不明点がある場合は、上記の情報に加え、次の情報をお手元にご用意したうえで、カスタマーケアまでお問い合わせください。
 
 * 機能停止した時間
 * 発生状況の説明

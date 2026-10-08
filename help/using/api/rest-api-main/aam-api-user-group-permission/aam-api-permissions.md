@@ -7,21 +7,25 @@ title: 権限管理 API メソッド
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 feature: API
 exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
-TQID: https://experienceleague.adobe.com/E9JWh1JKhHOSd7MzeOR8csVXChyh4Q0RiCj3Y5yb2vM
+TQID: 'https://experienceleague.adobe.com/E9JWh1JKhHOSd7MzeOR8csVXChyh4Q0RiCj3Y5yb2vM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 subfeature_v2:
   - id: d8f681b8-67cc-42dc-85c5-a0977528a942
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data Collection Server
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 96
+source-wordcount: '97'
 ht-degree: 100%
-
 ---
-
 # 権限管理 API メソッド {#permissions-management-api-methods}
 
 オブジェクトおよびグループの権限を管理するための Rest [!DNL API] メソッド。
@@ -65,4 +69,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->オブジェクトタイプ TAGS および DERIVED SIGNALS では、通常使用する権限はありません。これらのオブジェクトタイプに対する制御は「All」または「Nothing Wild Card Permissions」のみとなります。
+>オブジェクトタイプ TAGS および DERIVED SIGNALS では、通常使用する権限はありません。 これらのオブジェクトタイプに対する制御は「All」または「Nothing Wild Card Permissions」のみとなります。

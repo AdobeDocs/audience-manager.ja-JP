@@ -1,28 +1,30 @@
 ---
-description: Audience Manager の訪問者認証ステータスによって、新しい特性情報が訪問者の認証済みプロファイルに書き込まれるか、デバイスプロファイルに書き込まれるかが決まります。Audience Manager は、イベント呼び出しの訪問者 ID 認証ステータス UNKNOWN および LOGGED_OUT を同じ方法で処理します。
+description: Audience Manager の訪問者認証ステータスによって、新しい特性情報が訪問者の認証済みプロファイルに書き込まれるか、デバイスプロファイルに書き込まれるかが決まります。 Audience Manager は、イベント呼び出しの訪問者 ID 認証ステータス UNKNOWN および LOGGED_OUT を同じ方法で処理します。
 keywords: dpm.demdex.net
 seo-description: The visitor authentication status in Audience Manager determines if the new trait information is written to the visitor's authenticated profile or to the device profile, where the data was collected from. Audience Manager handles the visitor ID authentication statuses UNKNOWN and LOGGED_OUT in event calls in the same way.
 seo-title: Visitor Authentication States in Audience Manager
 solution: Audience Manager
-title: 'Audience Manager の訪問者認証ステータス '
+title: Audience Manager の訪問者認証ステータス
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-TQID: https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk
+TQID: 'https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: '331'
 ht-degree: 100%
-
 ---
+# Audience Manager の訪問者認証ステータス{#visitor-authentication-states-in-audience-manager}
 
-# Audience Manager の訪問者認証ステータス {#visitor-authentication-states-in-audience-manager}
+Audience Manager の訪問者認証ステータスによって、新しい特性情報が訪問者の認証済みプロファイルに書き込まれるか、デバイスプロファイルに書き込まれるかが決まります。 Audience Manager は、イベント呼び出しの訪問者 ID 認証ステータス UNKNOWN および LOGGED_OUT を同じ方法で処理します。
 
-Audience Manager の訪問者認証ステータスによって、新しい特性情報が訪問者の認証済みプロファイルに書き込まれるか、デバイスプロファイルに書き込まれるかが決まります。Audience Manager は、イベント呼び出しの訪問者 ID 認証ステータス UNKNOWN および LOGGED_OUT を同じ方法で処理します。
-
-[!DNL Experience Cloud] ID サービス v1.5 以降の `setCustomerID` メソッドには、オプションの `AuthState` オブジェクトが含まれています。`AuthState` は、訪問者の[認証ステータス](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja)に従って訪問者を識別します。[!DNL Audience Manager] での適合する特性の処理は、呼び出し、およびセグメント化に使用する[プロファイル結合ルール](../features/profile-merge-rules/merge-rules-dashboard.md)に渡される認証ステータスによって異なります。
+[!DNL Experience Cloud] ID サービス v1.5 以降の `setCustomerID` メソッドには、オプションの `AuthState` オブジェクトが含まれています。 `AuthState` は、訪問者の[認証ステータス](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ja)に従って訪問者を識別します。 [!DNL Audience Manager] での適合する特性の処理は、呼び出し、およびセグメント化に使用する[プロファイル結合ルール](../features/profile-merge-rules/merge-rules-dashboard.md)に渡される認証ステータスによって異なります。
 
 ## 認証ステータス：UNKNOWN {#auth-status-unknown}
 

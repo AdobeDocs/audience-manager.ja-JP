@@ -7,29 +7,41 @@ title: ピクセル呼び出しを使用したキャンペーンのクリック�
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Adobe Campaign Integration
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-TQID: https://experienceleague.adobe.com/LzQsKoBZYRyfg8F87yWhT2CB2ojlydELPKRfy4xjXHo
+TQID: 'https://experienceleague.adobe.com/LzQsKoBZYRyfg8F87yWhT2CB2ojlydELPKRfy4xjXHo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: b59a5343-ccde-4868-a926-97a27448e694
+    internal-label: Campaign integration
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 639
+source-wordcount: '687'
 ht-degree: 98%
-
 ---
-
 # ピクセル呼び出しを使用したキャンペーンのクリックデータのキャプチャ {#capturing-campaign-click-data-via-pixel-calls}
 
-クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。[インプレッションの収集](/help/using/integration/media-data-integration/impression-data-pixels.md)と同様に、イベント呼び出しを処理するため、 の[!DNL Audience Manager]データ収集サーバー（[!DNL DCS]）に送信されます。訪問者はその後、意図した Web アドレスにリダイレクトされます。
+クリック追跡によって、サードパーティクリエイティブのクリックベースのアクティビティが記録されるので、キャンペーン全体を通して訪問者のエンゲージメントを測定することができます。 [インプレッションの収集](/help/using/integration/media-data-integration/impression-data-pixels.md)と同様に、イベント呼び出しを処理するため、 の[!DNL Audience Manager]データ収集サーバー（[!DNL DCS]）に送信されます。 訪問者はその後、意図した Web アドレスにリダイレクトされます。
 
 >[!NOTE]
 >
@@ -40,7 +52,7 @@ ht-degree: 98%
 クリック追跡呼び出しには次のパラメーターが必要です。
 
 * `d_event=click`：イベント呼び出しをクリックイベントとして識別するキーと値のペア。
-* `d_rd=redirect URL`：二重エンコードされたリダイレクト [!DNL URL] が含まれているキーと値のペア。オンラインエンコーディングツールを使用している場合、リダイレクトが機能するように、エンコーダーを使用して文字列を実行してから、結果を再びエンコードします。
+* `d_rd=redirect URL`：二重エンコードされたリダイレクト [!DNL URL] が含まれているキーと値のペア。 オンラインエンコーディングツールを使用している場合、リダイレクトが機能するように、エンコーダーを使用して文字列を実行してから、結果を再びエンコードします。
 
 さらに、呼び出しには、特性選定や他のレポートへのデータやメタデータの提供に使用できるキーと値のペアを含めることもできます｡
 
@@ -52,7 +64,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## 応答
 
-応答は、`d_rd` パラメーターで指定された [!DNL URL] にブラウザーをリダイレクトします。応答文字列には、サポートされている下記マクロのいずれかで生成された値を含めることができます。
+応答は、`d_rd` パラメーターで指定された [!DNL URL] にブラウザーをリダイレクトします。 応答文字列には、サポートされている下記マクロのいずれかで生成された値を含めることができます。
 
 上記の例に従うと、ブラウザーは次の [!DNL URL] にリダイレクトされます。
 
@@ -60,7 +72,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## サポートされているマクロ
 
-クリックイベントでは、次の表に示したマクロをサポートしています。マクロは、キャンペーンやユーザー追跡用の広告タグが読み込まれるときに起動される小さい自己完結型コード単位です。マクロは、`%macro%` の形式でマークされている限り、宛先 [!DNL URL] と一緒に渡されます。一部のキーにはマクロがなく、代わりに、ハードコードされた ID 値を受け取ります。[オーディエンスの最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータを分析する場合はハードコードされた値を受け取るキーが必要になります。
+クリックイベントでは、次の表に示したマクロをサポートしています。 マクロは、キャンペーンやユーザー追跡用の広告タグが読み込まれるときに起動される小さい自己完結型コード単位です。 マクロは、`%macro%` の形式でマークされている限り、宛先 [!DNL URL] と一緒に渡されます。 一部のキーにはマクロがなく、代わりに、ハードコードされた ID 値を受け取ります。 [オーディエンスの最適化レポート](../../reporting/audience-optimization-reports/audience-optimization-reports.md)でデータを分析する場合はハードコードされた値を受け取るキーが必要になります。
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -79,7 +91,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>マクロなし。 </p> <p>ハードコードされた ID 値を受け取ります。 </p> </td> 
-   <td colname="col2"> <p>広告主 ID。</p> <p>広告主のデータソースの統合コード。Audience Manager のデータソースとは関係ありません。</p> <p> <span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
+   <td colname="col2"> <p>広告主 ID。</p> <p>広告主のデータソースの統合コード。 Audience Manager のデータソースとは関係ありません。</p> <p> <span class="wintitle">Audience Optimization</span> レポートの場合は必須。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
@@ -109,7 +121,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID)ECID について詳しくは、<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID</span> (ECID) ECID について詳しくは、<a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=ja" format="https" scope="external">Cookie と Experience Cloud ID</a> を参照してください。 </p> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -119,7 +131,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
   <tr> 
    <td colname="col1"> <p> <code> d_region</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_region%</code> </p> </td> 
-   <td colname="col2"> <p>要求に対してサービスを提供する DCS クラスターの地域 ID（数値）。DCSについて詳しくは、<a href="../../reference/system-components/components-data-collection.md"> データ収集コンポーネント </a>を参照してください。 </p> <p>オプションです。 </p> </td> 
+   <td colname="col2"> <p>要求に対してサービスを提供する DCS クラスターの地域 ID（数値）。 DCSについて詳しくは、<a href="../../reference/system-components/components-data-collection.md"> データ収集コンポーネント </a>を参照してください。 </p> <p>オプションです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_rand</code> </p> </td> 
@@ -144,7 +156,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
    <td colname="col02"> <p> <code>${gdpr}</code> </p> </td> 
-   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。 </p><p><code>gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
+   <td colname="col2"> <p><a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">IAB TCF 用の Audience Manager プラグイン</a>に関連しています。 </p><p><code>gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p> <p>デフォルト値は 0 です。</p><p>オプションです。</p></td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
@@ -156,7 +168,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## マクロの例
 
-これは、クリエイティブ、広告グループ、プレースメントの各マクロの受け渡しの例です。ここでは、各パラメーターの値がクリック追跡呼び出しの非リダイレクト部分に渡されると仮定しています。
+これは、クリエイティブ、広告グループ、プレースメントの各マクロの受け渡しの例です。 ここでは、各パラメーターの値がクリック追跡呼び出しの非リダイレクト部分に渡されると仮定しています。
 
 <ul class="simplelist"> 
  <li> <code> creative=1235 </code> </li> 
@@ -181,7 +193,7 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 ## 追加機能 - [!UICONTROL Audience Optimization Reports]
 
-ピクセル呼び出しを使用して、[Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) レポートを強化できます。ピクセルを使用してレポートに出力する場合は、[メタデータファイルの概要とマッピング](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
+ピクセル呼び出しを使用して、[Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) レポートを強化できます。 ピクセルを使用してレポートに出力する場合は、[メタデータファイルの概要とマッピング](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
 
 
 >[!MORELIKETHIS]

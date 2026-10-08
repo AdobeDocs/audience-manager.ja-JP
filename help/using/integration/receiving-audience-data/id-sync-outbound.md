@@ -1,5 +1,5 @@
 ---
-description: Audience Manager とサードパーティデータプロバイダーの間でユーザー ID を同期するために、最初の HTTP 呼び出しで使用される構文およびパラメーターについて説明します。最初の ID 同期を試す前に、担当の Adobe Audience Manager コンサルタントにお問い合わせください。
+description: Audience Manager とサードパーティデータプロバイダーの間でユーザー ID を同期するために、最初の HTTP 呼び出しで使用される構文およびパラメーターについて説明します。 最初の ID 同期を試す前に、担当の Adobe Audience Manager コンサルタントにお問い合わせください。
 seo-description: Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between Audience Manager and a third-party data provider. Contact your Adobe Audience Manager consultant before attempting your first ID synchronization.
 seo-title: ID Synchronization for Outbound Data Transfers
 solution: Audience Manager
@@ -7,31 +7,39 @@ title: 送信データ転送のための ID 同期
 uuid: f3849be8-1094-47db-9296-7482f020af18
 feature: Outbound Data Transfers
 exl-id: 02cca19a-eebf-43b2-b034-24f072fe2efb
-TQID: https://experienceleague.adobe.com/SlU-K--Wrb6Yvu0XHHdz1S-N8SN92N4B0OQn8DRUsfs
+TQID: 'https://experienceleague.adobe.com/SlU-K--Wrb6Yvu0XHHdz1S-N8SN92N4B0OQn8DRUsfs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '349'
 ht-degree: 100%
-
 ---
-
 # 送信データ転送のための ID 同期{#id-synchronization-for-outbound-data-transfers}
 
-Audience Manager とサードパーティデータプロバイダーの間でユーザー ID を同期するために、最初の `HTTP` 呼び出しで使用される構文およびパラメーターについて説明します。最初の ID 同期を試す前に、担当の Adobe Audience Manager コンサルタントにお問い合わせください。
+Audience Manager とサードパーティデータプロバイダーの間でユーザー ID を同期するために、最初の `HTTP` 呼び出しで使用される構文およびパラメーターについて説明します。 最初の ID 同期を試す前に、担当の Adobe Audience Manager コンサルタントにお問い合わせください。
 
 <!-- c_id_sync_out.xml -->
 
 ## ID 同期の目的
 
-ID 同期は、送信の非同期データ転送プロセスの最初のステップです。このステップでは、[!DNL Audience Manager] およびベンダーは、各自のサイトベンダーの ID を比較およびマッチングします。例えば、ある [!DNL Audience Manager] のお客様は、ID 123 でユーザーを把握します。しかし、データパートナーは、このユーザーを ID 456 で識別します。この同期プロセスにより、[!DNL Audience Manager] およびデータベンダーは、これらの様々な ID を照合し、各自のシステムでユーザーを識別できます。完了したら、[!DNL Audience Manager] およびサードパーティデータプロバイダーは、ユニークユーザーごとに対応する ID をアドビのネットワーク上で確認できます。
+ID 同期は、送信の非同期データ転送プロセスの最初のステップです。 このステップでは、[!DNL Audience Manager] およびベンダーは、各自のサイトベンダーの ID を比較およびマッチングします。 例えば、ある [!DNL Audience Manager] のお客様は、ID 123 でユーザーを把握します。 しかし、データパートナーは、このユーザーを ID 456 で識別します。 この同期プロセスにより、[!DNL Audience Manager] およびデータベンダーは、これらの様々な ID を照合し、各自のシステムでユーザーを識別できます。 完了したら、[!DNL Audience Manager] およびサードパーティデータプロバイダーは、ユニークユーザーごとに対応する ID をアドビのネットワーク上で確認できます。
 
 ## URL 構文
 
@@ -72,12 +80,12 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code>  には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p><p><b>注意：</b> <ul><li><code>gdpr</code> および <code>gdpr_consent</code> パラメーターは、アクティベートパートナーと共に ID 同期 URLで徐々にロールアウトされます。<a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">IAB TCF の Audience Manager プラグイン</a>で、IAB TCF をサポートするアクティベーションパートナーを参照してください。</li><li>このパラメーターは、 と一緒に使用する必要があります <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> には、0（GDPR 適用対象外）または 1（GDPR 適用対象）を使用できます。</p><p><b>注意：</b> <ul><li><code>gdpr</code> および <code>gdpr_consent</code> パラメーターは、アクティベートパートナーと共に ID 同期 URLで徐々にロールアウトされます。 <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">IAB TCF の Audience Manager プラグイン</a>で、IAB TCF をサポートするアクティベーションパートナーを参照してください。</li><li>このパラメーターは、 と一緒に使用する必要があります <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"><p><code>gdpr_consent</code>  は、URL で使用できる base64 でエンコードされた GDPR コンセントストリングです（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB の仕様</a>を参照）。</p><p><b>注意：</b>このパラメーターは、常に <code>gdpr</code> と一緒に使用する必要があります。</p> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> は、URL で使用できる base64 でエンコードされた GDPR コンセントストリングです（<a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB の仕様</a>を参照）。</p><p><b>注意：</b>このパラメーターは、常に <code>gdpr</code> と一緒に使用する必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>

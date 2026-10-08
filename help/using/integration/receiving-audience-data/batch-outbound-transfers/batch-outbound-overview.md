@@ -5,26 +5,33 @@ seo-title: Batch Outbound Data Transfers in Adobe Audience Manager (AAM)
 title: バッチ送信データ転送
 feature: Outbound Data Transfers
 exl-id: 1fdcc971-3a71-4033-8501-ef3d1f1f0f47
-TQID: https://experienceleague.adobe.com/jRSfzxiGp-aHxaHELYDQg33faxtMiNbKmbwXoyFoBeM
+TQID: 'https://experienceleague.adobe.com/jRSfzxiGp-aHxaHELYDQg33faxtMiNbKmbwXoyFoBeM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 190
+source-wordcount: '195'
 ht-degree: 100%
-
 ---
-
 # バッチ送信データ転送
 
 Audience Manager では、これらの仕様に従って、バッチデータをサードパーティコンテンツプロバイダーに送信します。
 
-* [送信データファイル名：構文と例 ](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+* [送信データファイル名：構文と例](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
   送信データファイルの名前に使用される必須フィールド、構文および規則について説明します。
 
@@ -38,7 +45,7 @@ Audience Manager では、これらの仕様に従って、バッチデータを
 
 * [送信テンプレートマクロ](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 
-  送信テンプレートの作成に使用できるマクロの一覧を示します。ファイル名マクロ、ヘッダーマクロ、コンテンツマクロなどがあります。
+  送信テンプレートの作成に使用できるマクロの一覧を示します。 ファイル名マクロ、ヘッダーマクロ、コンテンツマクロなどがあります。
 
 * [送信マクロの例](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
 

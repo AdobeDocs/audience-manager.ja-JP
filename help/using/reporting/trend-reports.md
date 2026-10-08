@@ -7,23 +7,28 @@ title: トレンドレポート
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: General & Trend Reports
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-TQID: https://experienceleague.adobe.com/fKSbryohm3Syccv6Q1UTD2rn54SCYHiCTh6YThEwR-M
+TQID: 'https://experienceleague.adobe.com/fKSbryohm3Syccv6Q1UTD2rn54SCYHiCTh6YThEwR-M'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: c3072557-4f3f-45b7-af4d-083bca98c34f
+    internal-label: General and trend reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 98%
-
+source-wordcount: '684'
+ht-degree: 95%
 ---
-
 # トレンドレポート{#trend-reports}
 
 トレンドレポートでは、特性とセグメントに関するトレンドデータを返します。
@@ -36,7 +41,7 @@ c_trend_reports.xml
 
  -->
 
-[!DNL Audience Manager] は[!UICONTROL Role Based Access Control]（[!UICONTROL RBAC]）を使用して、[!UICONTROL Trend]レポートへのユーザーグループ権限を拡張します。ユーザーは、レポートに記載されている特性やセグメントのうち、閲覧する権限のあるものだけを表示できます。[!UICONTROL RBAC] 機能により、社内チームが閲覧できるレポートデータを制御することができます。
+[!DNL Audience Manager] は[!UICONTROL Role Based Access Control]（[!UICONTROL RBAC]）を使用して、[!UICONTROL Trend]レポートへのユーザーグループ権限を拡張します。 ユーザーは、レポートに記載されている特性やセグメントのうち、閲覧する権限のあるものだけを表示できます。 [!UICONTROL RBAC] 機能により、社内チームが閲覧できるレポートデータを制御することができます。
 
 例えば、様々な広告主アカウントを管理する代理店では、広告主 A のアカウントを管理するチームが広告主 B のレポートデータを閲覧できないように、ユーザーグループの権限を設定することができます。
 
@@ -77,17 +82,17 @@ t_working_with_trend_reports.xml
 1. 特性またはセグメントを名前または ID で検索します。
 1. フォルダーのリストで、レポートの対象となる特性またはセグメントをドラッグし、右側の「[!UICONTROL Selections]」パネルにドロップします。
    * パフォーマンスを最高にするには、[!UICONTROL Trend]レポートを実行する際に対象とする特性またはセグメントの数を、一度に 20 件未満にします。
-1. 表示するレポートの種類（「Traits」または「Segments」）に応じて、「**[!UICONTROL Graph Traits]**」または「**[!UICONTROL Graph Segments]**」をクリックします。これらのオプションでは、フォルダーはすべて無視され、個別に選択した特性やセグメントのみがグラフに表示されます。
+1. 表示するレポートの種類（「Traits」または「Segments」）に応じて、「**[!UICONTROL Graph Traits]**」または「**[!UICONTROL Graph Segments]**」をクリックします。 これらのオプションでは、フォルダーはすべて無視され、個別に選択した特性やセグメントのみがグラフに表示されます。
 
    Or
 
-   「**[!UICONTROL Export to CSV]**」をクリックして、特性またはセグメントのデータとすべてのフォルダーを CSV 形式で書き出し、分析や共有ができるようにします。これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
+   「**[!UICONTROL Export to CSV]**」をクリックして、特性またはセグメントのデータとすべてのフォルダーを CSV 形式で書き出し、分析や共有ができるようにします。 これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
 
    >[!NOTE]
    >
    >[!UICONTROL Total Trait Realizations]は[!UICONTROL Rule-based Traits]に対してのみ計算されます。
 
-1. （オプション）個別の特性やセグメントにマウスを移動し、各データポイントの訪問者数と日付を表示します。テーブルで列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
+1. （オプション）個別の特性やセグメントにマウスを移動し、各データポイントの訪問者数と日付を表示します。 テーブルで列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
 
 ## 特性に関するトレンドレポートの結果 {#trend-report-results-traits}
 
@@ -107,7 +112,7 @@ t_working_with_trend_reports.xml
 
 ![trend-report-traits](assets/trend-report-traits.png)
 
-0 は [!DNL Audience Manager] がその日のデータを収集していないことを表します。空白のエントリは、その特性が存在しないことを表します。
+0 は [!DNL Audience Manager] がその日のデータを収集していないことを表します。 空白のエントリは、その特性が存在しないことを表します。
 
 クロスデバイス指標のしくみについて詳しくは、以下のビデオをご覧ください。
 

@@ -6,27 +6,35 @@ solution: Audience Manager
 title: Audience Manager のアクセシビリティ
 feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
-TQID: https://experienceleague.adobe.com/NW2RQV-dyf5qo4MfzbMfmcW9dqwIDyOWHTTOamIsJKY
+TQID: 'https://experienceleague.adobe.com/NW2RQV-dyf5qo4MfzbMfmcW9dqwIDyOWHTTOamIsJKY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Web experience
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '422'
 ht-degree: 96%
-
 ---
-
 # Audience Manager のアクセシビリティ {#accessibility}
 
 ## 概要 {#overview}
 
 アクセシビリティとは、視覚、聴覚、認知、運動など、様々な障碍のあるユーザーが、できる限り労力を費やすことなしに、ソフトウェア製品を使用できるようにする一連の機能を指します。
 
-アドビは、アクセシビリティにおいて業界をリードする企業です。すべてのユーザーにとって利用しやすいリッチで魅力的なコンテンツを作成するよう開発者を促すことで、卓越した Web エクスペリエンスの作成をサポートします。アドビのアクセシビリティに対する取り組みについて詳しくは、[アドビアクセシビリティ](https://www.adobe.com/accessibility.html)を参照してください。
+アドビは、アクセシビリティにおいて業界をリードする企業です。すべてのユーザーにとって利用しやすいリッチで魅力的なコンテンツを作成するよう開発者を促すことで、卓越した Web エクスペリエンスの作成をサポートします。 アドビのアクセシビリティに対する取り組みについて詳しくは、[アドビアクセシビリティ](https://www.adobe.com/accessibility.html)を参照してください。
 
 ソフトウェア製品に見られる最も一般的なアクセシビリティ機能には、キーボード操作、意味構造、前景要素と背景要素の間の十分なコントラスト、支援技術サポート、明確な要素ラベルなどがあります。
 
@@ -54,7 +62,7 @@ ht-degree: 96%
 
 これにより、スクリーンリーダーなどの支援技術で、ラベルおよびその他の情報を読み上げることができ、ユーザーがより簡単にアプリケーションコントロールを操作できるようになります。
 
-Audience Manager ユーザーインターフェイス内のすべてのインタラクティブ要素には、対応するラベルが含まれます。これにより、スクリーンリーダーなどの支援技術で、ユーザーにラベルを読み上げることができます。
+Audience Manager ユーザーインターフェイス内のすべてのインタラクティブ要素には、対応するラベルが含まれます。 これにより、スクリーンリーダーなどの支援技術で、ユーザーにラベルを読み上げることができます。
 
 ## カラーとコントラスト {#colors-contrast}
 
@@ -68,4 +76,4 @@ Audience Manager ユーザーインターフェイス内のすべてのインタ
 
 [!DNL Audience Manager] では、製品を誰にとっても使いやすいものにするアクセシビリティを提供するために、これまで以上に努力しています。
 
-[アドビアクセシビリティフィードバックフォーム](https://www.adobe.com/accessibility/feedback.html)を使用して、お気づきの改善提案やアクセシビリティの問題を送信することをお勧めします。いただいたフィードバックを参考に、[!DNL Audience Manager] を強化していきます。
+[アドビアクセシビリティフィードバックフォーム](https://www.adobe.com/accessibility/feedback.html)を使用して、お気づきの改善提案やアクセシビリティの問題を送信することをお勧めします。 いただいたフィードバックを参考に、[!DNL Audience Manager] を強化していきます。

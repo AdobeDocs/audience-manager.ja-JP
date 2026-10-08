@@ -5,32 +5,48 @@ title: Audience Manager およびその他の Experience Cloud ソリューシ�
 keywords: AEP オーディエンス共有、AEP セグメント、Platform のセグメント、セグメント共有、オーディエンス共有、セグメントの共有、AAM AEP セグメント共有
 feature: Experience Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-TQID: https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8
+TQID: 'https://experienceleague.adobe.com/v1qi5AqJOa77icdR-mc3YLPBqSm68R8IlFq2o2dHD-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
+  - id: b1393389-a768-49db-9323-b2ef9e441796
+    internal-label: Experience Platform integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Customer profiles
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1799
-ht-degree: 94%
-
+source-wordcount: '2014'
+ht-degree: 93%
 ---
-
 # Audience Manager およびその他の Experience Cloud ソリューションを使用した Experience Platform のセグメント共有
 
 ## 概要 {#overview}
@@ -68,22 +84,22 @@ Audience Manager では、次のような、データ管理プラットフォー
 
 ### Audience Manager から Experience Platform へのデータ共有を有効にする {#enable-aam-to-aep-data}
 
-Audience Manager から Experience Platform にセグメントと特性を送信するには、Experience Platform ソースカタログで Audience Manager ソースコネクタを設定する必要があります。これはセルフサービスワークフローで、アドビカスタマーケアやエンジニアリングチームの関与は必要ありません。Audience Manager ソースコネクターを設定するには、次を参照してください。
+Audience Manager から Experience Platform にセグメントと特性を送信するには、Experience Platform ソースカタログで Audience Manager ソースコネクタを設定する必要があります。 これはセルフサービスワークフローで、アドビカスタマーケアやエンジニアリングチームの関与は必要ありません。 Audience Manager ソースコネクターを設定するには、次を参照してください。
 
-* [Audience Manager ソース](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
-* [UI での Adobe Audience Manager ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=ja)
+* [Audience Manager source](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=ja)
+* [UIでのAdobe Audience Manager ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=ja)
 
 >[!IMPORTANT]
 >
->アドビは、以下に示すように、「**[!UICONTROL Select all segments]**」および「**[!UICONTROL Select all traits]**」オプションを選択せずに接続を設定することをお勧めします。サイズの大きい Audience Manager セグメント母集団の取り込みは、Audience Manager ソースを使用して Audience Manager セグメントをプラットフォームに初めて送信する際に、合計プロファイル数に直接影響します。つまり、すべてのセグメントを選択すると、ライセンス使用権限を超えてプロファイル数がカウントされる可能性があります。
+>アドビは、以下に示すように、「**[!UICONTROL Select all segments]**」および「**[!UICONTROL Select all traits]**」オプションを選択せずに接続を設定することをお勧めします。 サイズの大きい Audience Manager セグメント母集団の取り込みは、Audience Manager ソースを使用して Audience Manager セグメントをプラットフォームに初めて送信する際に、合計プロファイル数に直接影響します。 つまり、すべてのセグメントを選択すると、ライセンス使用権限を超えてプロファイル数がカウントされる可能性があります。
 >
 >![Audience Manager ソースコネクターに接続するワークフローで「すべてのセグメントを選択」および「すべての特性を選択」オプションがオフになっていることを示すスクリーンショット。](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
 
 ### Experience Platform での Audience Manager の特性とセグメントの使用 {#use-aam-data-in-aep}
 
-Audience Manager ソースコネクターを設定して、Audience Manager から特性とセグメントを読み込むと、Audience Manager データがセグメントワークフローの **Audiences** として Experience Platform に表示されます。Experience Platform での Audience Manager のセグメントと特性について詳しくは、次を参照してください。
+Audience Manager ソースコネクターを設定して、Audience Manager から特性とセグメントを読み込むと、Audience Manager データがセグメントワークフローの **Audiences** として Experience Platform に表示されます。 Experience Platform での Audience Manager のセグメントと特性について詳しくは、次を参照してください。
 
-* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
+* [セグメント サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#audiences)
 * [Experience Platform セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#audiences)
 
 ## Audience Manager における Adobe Experience Platform のセグメント {#aep-segments-in-aam}
@@ -100,9 +116,9 @@ Audience Manager ソースコネクターを設定して、Audience Manager か�
 >
 > この機能へのアクセスのロックを解除するには、アドビカスタマーサクセスマネージャーまたはカスタマーケアにお問い合わせください。
 
-セグメントを Experience Platform から Audience Manager に送信するには、カスタマーケアまたはカスタマーサクセスマネージャーに問い合わせる必要があります。カスタマーケアおよびカスタマーサポート管理チームは、チケットを提出して（テンプレートチケット AAM-52354 を参照）、Platform から Audience Manager への接続を有効にする必要があります。
+セグメントを Experience Platform から Audience Manager に送信するには、カスタマーケアまたはカスタマーサクセスマネージャーに問い合わせる必要があります。 カスタマーケアおよびカスタマーサポート管理チームは、チケットを提出して（テンプレートチケット AAM-52354 を参照）、Platform から Audience Manager への接続を有効にする必要があります。
 
-接続が正しく設定されていることを確認するには、Platform から Audience Manager に転送するデータのプランを必ず共有するようにしてください。例えば、Adobe Target に送信するセグメントで地域データを共有する必要がある場合、この情報をチケットで伝える必要があります。Experience Platform から Audience Manager へのデータ共有接続は、リクエストが送信されてから 6 営業日以内に設定されます。
+接続が正しく設定されていることを確認するには、Platform から Audience Manager に転送するデータのプランを必ず共有するようにしてください。 例えば、Adobe Target に送信するセグメントで地域データを共有する必要がある場合、この情報をチケットで伝える必要があります。 Experience Platform から Audience Manager へのデータ共有接続は、リクエストが送信されてから 6 営業日以内に設定されます。
 
 ### Audience Manager で Adobe Experience Platform のセグメントを使用する {#use-aep-data-in-aam}
 
@@ -114,7 +130,7 @@ Experience Platform で作成したセグメントは、次の構成ルールを
 
 ### シグナル {#aep-segments-as-aam-signals}
 
-**[!UICONTROL Audience Data > Signals > General Online Data]** を選択し、`SegId` で Experience Platform から来るシグナルを探します。この画面をデバッグ目的で使用し、Experience Platform と Audience Manager の統合が正しく設定されているかどうかを確認できます。
+**[!UICONTROL Audience Data > Signals > General Online Data]** を選択し、`SegId` で Experience Platform から来るシグナルを探します。 この画面をデバッグ目的で使用し、Experience Platform と Audience Manager の統合が正しく設定されているかどうかを確認できます。
 
 ![シグナルダッシュボードの Audience Manager で Experience Platform シグナルを確認する](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
@@ -124,7 +140,7 @@ Audience Manager は、特性ストレージに「**Experience Platform 特性**
 
 ![Experience Platform ダッシュボードの特性](/help/using/integration/integration-aep/assets/aep-traits-dashboard.png)
 
-自動的に作成された特性を、他の特性とともにセグメントで使用できます。例えば、Experience Platform のセグメントから作成した特性と、[Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md) で取得したサードパーティの特性を混在させることができます。
+自動的に作成された特性を、他の特性とともにセグメントで使用できます。 例えば、Experience Platform のセグメントから作成した特性と、[Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md) で取得したサードパーティの特性を混在させることができます。
 
 Experience Platform のセグメントから自動的に作成された特性の例については、以下のスクリーンショットを参照してください。
 
@@ -134,7 +150,7 @@ Experience Platform のセグメントから自動的に作成された特性の
 | 項目番号 | 名前 | 説明 |
 |---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | Experience Platform のセグメントから作成された特徴は、Audience Manager でオンボードの特性として作成されます。 |
-| 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform のセグメントから自動的に作成されたすべての特性とセグメントは、**[!UICONTROL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
+| 2 | [!UICONTROL Data Source] | 自動的に作成されます。 Experience Platform のセグメントから自動的に作成されたすべての特性とセグメントは、**[!UICONTROL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 3 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
 | 4 | [!UICONTROL Trait Expression] | 特性の式は `segID = segment ID in Experience Platform` です。 |
 | 5 | [!UICONTROL Segments with this Trait] | この特性を構成として使用する、自動的に作成されたセグメント。 |
@@ -154,7 +170,7 @@ Experience Platform のセグメントから自動的に作成されたセグメ
 | 項目番号 | 名前 | 説明 |
 |---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | 統合コードは、Experience Platform のセグメント ID に対応します。 |
-| 2 | [!UICONTROL Data Source] | 自動的に作成されます。Experience Platform のセグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
+| 2 | [!UICONTROL Data Source] | 自動的に作成されます。 Experience Platform のセグメントから自動的に作成されたすべての特性とセグメントは、**[!DNL Adobe Experience Platform Audience Sharing]** のデータソースに保存されます。 |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** は、自動的に作成されたセグメントが、Experience Platform の結合ポリシーセットに従うことを示します。 |
 | 4 | [!UICONTROL Segment Rule] | このセグメントは、[特性](#aep-segments-as-aam-traits)の節で説明されている特性で構成されます。 |
 
@@ -162,7 +178,7 @@ Experience Platform のセグメントから自動的に作成されたセグメ
 
 ## Experience Platform での Audience Manager データ書き出しコントロールのサポート {#aam-data-export-control-in-aep}
 
-Experience Platform でのデータ使用量のコンプライアンスを強化するために、該当するすべてのデータセットおよびフィールドに適切な[データラベル](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ja)を付与する必要があります。さらに、[Data Usage Labeling and Enforcement（DULE）フレームワーク](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ja#dule-framework)で概要を説明しているように、これらのラベルに対する特定のマーケティングアクションに対して、[データポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja)を有効にする必要があります。
+Experience Platform でのデータ使用量のコンプライアンスを強化するために、該当するすべてのデータセットおよびフィールドに適切な[データラベル](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=ja)を付与する必要があります。 さらに、[Data Usage Labeling and Enforcement（DULE）フレームワーク](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ja#dule-framework)で概要を説明しているように、これらのラベルに対する特定のマーケティングアクションに対して、[データポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja)を有効にする必要があります。
 
 Audience Manager と Experience Platform の間でオーディエンスを共有するプロセスでは、Audience Manager セグメントに適用されたデータ書き出しコントロールは、Experience Platform データガバナンスで認識される同等のラベルやマーケティングアクションに変換されます。また、その逆も可能です。
 
@@ -200,29 +216,29 @@ Audience Manager と Experience Platform の間でオーディエンスを共有
 
 ## Audience Manager と Experience Platform の間のセグメント母集団の違いの理解 {#aep-aam-segment-population-differences}
 
-セグメント母集団の数は、Audience Manager と Experience Platform のセグメント間で異なる可能性があります。類似または同一のオーディエンスのセグメント数が近づくのに対して、母集団の違いは、次の要因による可能性があります。
+セグメント母集団の数は、Audience Manager と Experience Platform のセグメント間で異なる可能性があります。 類似または同一のオーディエンスのセグメント数が近づくのに対して、母集団の違いは、次の要因による可能性があります。
 
 ### Experience Platform でのセグメントの評価
 
-Audience Manager は、インターフェイスのレポート番号を 1 日に 1 回更新します。この更新のタイミングが、Experience Platform のセグメント評価の時間に合致することはほとんどありません。
+Audience Manager は、インターフェイスのレポート番号を 1 日に 1 回更新します。 この更新のタイミングが、Experience Platform のセグメント評価の時間に合致することはほとんどありません。
 
 ### プロファイルの結合ルールと結合ポリシーの違い
 
-Audience Manager の[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md)と Experience Platform の[[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html?lang=ja)の動作は異なり、それぞれで使用される ID グラフは異なります。これにより、セグメント母集団間でのいくつかの違いが想定されます。
+Audience Manager の[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md)と Experience Platform の[[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html?lang=ja)の動作は異なり、それぞれで使用される ID グラフは異なります。 これにより、セグメント母集団間でのいくつかの違いが想定されます。
 
 >[!NOTE]
 >
-> Experience Platform から Audience Manager にセグメントを共有する場合は、Platform 組織の [デフォルトの結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja#default-merge-policy)が Audience Manager で共有された[セグメントで使用される結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#merge-policies)よりも優先されます。例えば、共有セグメントの結合ポリシーで [ID のステッチ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure)が許可されていても、組織のデフォルトの結合ポリシーでは許可されていない場合、Platform と Audience Manager の間の母集団の違いが生じる可能性があります。
+> Experience Platform から Audience Manager にセグメントを共有する場合は、Platform 組織の [デフォルトの結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja#default-merge-policy)が Audience Manager で共有された[セグメントで使用される結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#merge-policies)よりも優先されます。 例えば、共有セグメントの結合ポリシーで [ID のステッチ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure)が許可されていても、組織のデフォルトの結合ポリシーでは許可されていない場合、Platform と Audience Manager の間の母集団の違いが生じる可能性があります。
 
 ### Experience Platform でのセグメントの構成
 
-Adobe Experience Platform と Audience Manager の統合では、すべての顧客に対して多くの標準 [ID 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#identity-types)を共有します。これには、ECID、IDFA、GAID、ハッシュ化された電子メールアドレス（EMAIL_LC_SHA256）、AdCloud ID などが含まれます。Experience Platform のセグメントで、認定されたプロファイルのプライマリ ID としてこれらのいずれかを使用している場合、プロファイルは Audience Manager の特性およびセグメントにカウントされます。
+Adobe Experience Platform と Audience Manager の統合では、すべての顧客に対して多くの標準 [ID 名前空間](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja#identity-types)を共有します。これには、ECID、IDFA、GAID、ハッシュ化された電子メールアドレス（EMAIL_LC_SHA256）、AdCloud ID などが含まれます。 Experience Platform のセグメントで、認定されたプロファイルのプライマリ ID としてこれらのいずれかを使用している場合、プロファイルは Audience Manager の特性およびセグメントにカウントされます。
 
 >[!NOTE]
 >
 > ID が生の電子メールをキーに設定している Experience Platform のオーディエンスは、Audience Manager には表示されません。
 
-例えば、「すべての顧客」という Experience Platform のセグメントがあり、認定プロファイルが CRM ID、ECID、IDFA、生の電子メールアドレスおよびハッシュ化された電子メールアドレスの場合、Audience Manager 内の対応するセグメントには、ECID、IDFA およびハッシュ化された電子メールアドレスのキーオフされたプロファイルのみが含まれます。Audience Manager のセグメントの母集団は、Experience Platform のセグメントの母集団よりも小さくなります。
+例えば、「すべての顧客」という Experience Platform のセグメントがあり、認定プロファイルが CRM ID、ECID、IDFA、生の電子メールアドレスおよびハッシュ化された電子メールアドレスの場合、Audience Manager 内の対応するセグメントには、ECID、IDFA およびハッシュ化された電子メールアドレスのキーオフされたプロファイルのみが含まれます。 Audience Manager のセグメントの母集団は、Experience Platform のセグメントの母集団よりも小さくなります。
 
 ![Experience Platform から Audience Manager へのセグメント共有 — セグメントの構成](assets/AEP-to-AAM-profiles.png)
 

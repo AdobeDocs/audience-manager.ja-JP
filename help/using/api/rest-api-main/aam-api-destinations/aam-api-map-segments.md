@@ -7,19 +7,23 @@ title: セグメントの宛先へのマッピング
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
 exl-id: 906df6c5-f878-48e6-a804-eb5b4407f304
-TQID: https://experienceleague.adobe.com/uCYyOwaUN-5uCXESTtTTfVaoUsH2qrZS-ggvVQ-6-Ng
+TQID: 'https://experienceleague.adobe.com/uCYyOwaUN-5uCXESTtTTfVaoUsH2qrZS-ggvVQ-6-Ng'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 514
+source-wordcount: '514'
 ht-degree: 98%
-
 ---
-
 # セグメントの宛先へのマッピング {#map-segments-to-a-destination}
 
 これらの [!DNL RESTful API] メソッドを使用して、セグメントを宛先にマッピングします。

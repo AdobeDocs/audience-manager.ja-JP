@@ -1,5 +1,5 @@
 ---
-description: 派生シグナルは、認識済みの特性に基づいてサイト訪問者を追加の特性に適合させます。つまり、追加の特性選定は、現在選定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
+description: 派生シグナルは、認識済みの特性に基づいてサイト訪問者を追加の特性に適合させます。 つまり、追加の特性選定は、現在選定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
 seo-description: A derived signal qualifies site visitors for additional traits based on a trait they've already seen. In other words, additional trait qualification can be derived from a currently exhibited trait even if a user has never seen the new trait before.
 seo-title: Derived Signals
 solution: Audience Manager
@@ -7,27 +7,32 @@ title: 派生シグナル
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
 feature: Traits
 exl-id: 64bc004a-a31a-49bb-aa58-323fbc92f76f
-TQID: https://experienceleague.adobe.com/NuY2-dNMtPcte2WQE572uvyS-uiIzZmSPrlOyOndPuU
+TQID: 'https://experienceleague.adobe.com/NuY2-dNMtPcte2WQE572uvyS-uiIzZmSPrlOyOndPuU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 261
+source-wordcount: '263'
 ht-degree: 100%
-
 ---
-
 # 派生シグナル {#derived-signals}
 
-[!UICONTROL derived signal]は、認識済みの特性に基づいてサイト訪問者を追加の特性の対象として認定されます。つまり、追加の特性選定は、現在選定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
+[!UICONTROL derived signal]は、認識済みの特性に基づいてサイト訪問者を追加の特性の対象として認定されます。 つまり、追加の特性選定は、現在選定されている特性から派生させることができます。これは、ユーザーにとってその別の特性がまったくの新規特性である場合でも同様です。
 
 <!-- c_tb_derived_signal.xml -->
 
 ## 派生シグナルの目的
 
-[!DNL Audience Manager] では、指定された他のシグナルまたは特性に対するイベント呼び出し中に渡されたシグナル（または特性ルール）間の関係を作成できます。例えば、キーと値のペア [!DNL "product = new_car"]（`https://<domain alias>/event?product=new_car`）で構成されるシグナルでイベント呼び出しが渡されるとします。[!DNL Audience Manager] は、そのシグナルを、[!UICONTROL derived signals]ツールで作成された他のものに接続します。関連付けられるシグナルには、どのようなキー値ペアを指定してもかまいませんが、[!UICONTROL Trait Builder]ルールとして既にセットアップされている既存のシグナルにリンクすれば、最も役に立ちます。例えば、以下の図では、ユーザー操作でシグナル [!DNL "product = new car"] が発生すると、そのユーザーは、ターゲットのキー値シグナルで定義された特性の対象にも認定されます。
+[!DNL Audience Manager] では、指定された他のシグナルまたは特性に対するイベント呼び出し中に渡されたシグナル（または特性ルール）間の関係を作成できます。 例えば、キーと値のペア [!DNL "product = new_car"]（`https://<domain alias>/event?product=new_car`）で構成されるシグナルでイベント呼び出しが渡されるとします。 [!DNL Audience Manager] は、そのシグナルを、[!UICONTROL derived signals]ツールで作成された他のものに接続します。 関連付けられるシグナルには、どのようなキー値ペアを指定してもかまいませんが、[!UICONTROL Trait Builder]ルールとして既にセットアップされている既存のシグナルにリンクすれば、最も役に立ちます。 例えば、以下の図では、ユーザー操作でシグナル [!DNL "product = new car"] が発生すると、そのユーザーは、ターゲットのキー値シグナルで定義された特性の対象にも認定されます。
 
 ![](assets/derived_signal_example.png)
 

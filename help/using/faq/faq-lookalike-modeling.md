@@ -1,25 +1,30 @@
 ---
-description: 類似（look-alike）モデリングを使用すると、自動データ分析により、新しい個別のオーディエンスを発見できます。この記事では、最もよくある質問に対する回答を示します。
+description: 類似（look-alike）モデリングを使用すると、自動データ分析により、新しい個別のオーディエンスを発見できます。 この記事では、最もよくある質問に対する回答を示します。
 seo-description: Look-Alike Modeling helps you discover new, unique audiences through automated data analysis. This article provides answers to the most frequently asked questions.
 seo-title: Look-Alike Modeling FAQ
 solution: Audience Manager
 title: 類似（look-alike）モデリングに関するよくある質問
 feature: Algorithmic Models
 exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
-TQID: https://experienceleague.adobe.com/58qJ-kOjZpnw8HWH2oC8GfkuguHBNarWfHjx-EK-NI0
+TQID: 'https://experienceleague.adobe.com/58qJ-kOjZpnw8HWH2oC8GfkuguHBNarWfHjx-EK-NI0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data sources
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '423'
 ht-degree: 100%
-
 ---
-
 # 類似（look-alike）モデリングに関するよくある質問
 
 ## 概要 {#overview}
@@ -30,13 +35,13 @@ ht-degree: 100%
 
 **なぜフラットな [!UICONTROL Accuracy & Reach] グラフになるのですか？**
 
-フラットな [!UICONTROL Accuracy & Reach] グラフは、ほぼすべてのユーザーがモデルによって同じスコアを得ていることを意味します。この問題は、モデルを実行したデータソースにサイト訪問者の特性を含める場合に発生する可能性があります。これを回避するには、[!UICONTROL Exclusions]フィールドを使用して、モデル作成手順の間、モデル入力から汎用特性を削除します。
+フラットな [!UICONTROL Accuracy & Reach] グラフは、ほぼすべてのユーザーがモデルによって同じスコアを得ていることを意味します。 この問題は、モデルを実行したデータソースにサイト訪問者の特性を含める場合に発生する可能性があります。 これを回避するには、[!UICONTROL Exclusions]フィールドを使用して、モデル作成手順の間、モデル入力から汎用特性を削除します。
 
  
 
 **なぜ影響力のある一部の特性には、オーディエンスが非常に少ないのですか？**
 
-アルゴリズムは、ベースライン特性と相関の高い特性を選択します。例えば、特定の特性がベースライン特性と 100% 重複している場合、その特性のユーザー数が少なくても、非常に高い重み付けを持ちます。
+アルゴリズムは、ベースライン特性と相関の高い特性を選択します。 例えば、特定の特性がベースライン特性と 100% 重複している場合、その特性のユーザー数が少なくても、非常に高い重み付けを持ちます。
 
  
 
@@ -54,19 +59,19 @@ ht-degree: 100%
 
 **ベースライン特性やセグメントサイズについてのレコメンデーションはありますか？**
 
-ベースライン母集団と選択したデータソースの母集団の間に大きな特性の重複がある場合、モデルを実行するには数千のユーザーで十分です。[!UICONTROL Look-Alike Modeling] は、ベースラインが大きいほど正確な結果が得られます。
+ベースライン母集団と選択したデータソースの母集団の間に大きな特性の重複がある場合、モデルを実行するには数千のユーザーで十分です。 [!UICONTROL Look-Alike Modeling] は、ベースラインが大きいほど正確な結果が得られます。
 
  
 
 **モデルに対して選択すべきサードパーティのデータソースは何ですか？**
 
-ベースラインの特性やセグメントと少なくとも一部が重複しているデータソースを使用し、同時に追加のユーザーを取り込んでください。各データフィードに関連するコストも考慮する必要があります。コストと価格モデルは、[!UICONTROL Audience Marketplace] のデータプロバイダーによって異なります。
+ベースラインの特性やセグメントと少なくとも一部が重複しているデータソースを使用し、同時に追加のユーザーを取り込んでください。 各データフィードに関連するコストも考慮する必要があります。 コストと価格モデルは、[!UICONTROL Audience Marketplace] のデータプロバイダーによって異なります。
 
  
 
 **モデリングにサードパーティのデータを使用すると、コストがかかりますか？**
 
-選択したデータフィードの価格モデルによって異なります。フィードによって、モデリングを無料でできる場合と、料金がかかる場合があります。詳しくは、[データフィード購入者への課金](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)を参照してください。
+選択したデータフィードの価格モデルによって異なります。 フィードによって、モデリングを無料でできる場合と、料金がかかる場合があります。 詳しくは、[データフィード購入者への課金](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)を参照してください。
 
  
 

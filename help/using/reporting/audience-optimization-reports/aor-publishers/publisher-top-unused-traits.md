@@ -7,35 +7,43 @@ title: 上位の未使用特性
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: Audience Optimization Reports
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
-TQID: https://experienceleague.adobe.com/S2W1PhrZYTaScv7A9Y9OXDpCAXT-U4etuE32MnabUho
+TQID: 'https://experienceleague.adobe.com/S2W1PhrZYTaScv7A9Y9OXDpCAXT-U4etuE32MnabUho'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: '625'
 ht-degree: 100%
-
 ---
-
 # 上位の未使用特性{#top-unused-traits}
 
 上位の未使用特性は、まだセグメントのメンバーになっていない特性を、特性タイプ、データソース、パフォーマンスに基づいて散布図として表したものです。
 
 ## ユースケース {#use-cases}
 
-[!UICONTROL Top Unused Traits]レポートを使用すると、現在セグメントにマッピングされていないファーストパーティ特性とサードパーティ特性のパフォーマンスを分析および比較することができます。このビューから、キャンペーン最適化またはまったく新しいビジネスチャンスのためにオーディエンスセグメントで使用するのに最適な特性を指摘することができます。
+[!UICONTROL Top Unused Traits]レポートを使用すると、現在セグメントにマッピングされていないファーストパーティ特性とサードパーティ特性のパフォーマンスを分析および比較することができます。 このビューから、キャンペーン最適化またはまったく新しいビジネスチャンスのためにオーディエンスセグメントで使用するのに最適な特性を指摘することができます。
 
 ## 上位の未使用特性レポートの使用 {#using-the-report}
 
-「**[!UICONTROL Data Provider Type]**」コントロールを使用して、ファーストパーティ特性とサードパーティ特性を切り替えます。「**[!UICONTROL All]**」を選択すると、ファーストパーティ特性とサードパーティ特性がレポートに表示されます。
+「**[!UICONTROL Data Provider Type]**」コントロールを使用して、ファーストパーティ特性とサードパーティ特性を切り替えます。 「**[!UICONTROL All]**」を選択すると、ファーストパーティ特性とサードパーティ特性がレポートに表示されます。
 
-**[!UICONTROL Impressions]** スライダーでは、返されるインプレッション数の最小値と最大値を選択できます。設定した限度を下回るまたは上回る原因となっている特性は、レポートに表示されません。
+**[!UICONTROL Impressions]** スライダーでは、返されるインプレッション数の最小値と最大値を選択できます。 設定した限度を下回るまたは上回る原因となっている特性は、レポートに表示されません。
 
-**[!UICONTROL Day Range]** コントロールと **[!UICONTROL Date Through]** コントロールを使用して、ルックバック範囲を調整します。このレポートには 30 日間のルックバック期間のみ使用できることに注意してください。
+**[!UICONTROL Day Range]** コントロールと **[!UICONTROL Date Through]** コントロールを使用して、ルックバック範囲を調整します。 このレポートには 30 日間のルックバック期間のみ使用できることに注意してください。
 
 「**[!UICONTROL Order]**」ドロップダウンボックスを使用して、情報を求めている、ポートフォリオ内の Web プロパティを選択します。
 
@@ -45,13 +53,13 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[!UICONTROL Audience Optimization for Publishers] を有効にする際には、[Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Order IDs] の記述メタデータを含める必要があります。これにより、Web プロパティの詳細が[!UICONTROL Order ID] ではなく[!UICONTROL Order]として表示されるようになります。
+>[!UICONTROL Audience Optimization for Publishers] を有効にする際には、[Google Ad Manager（旧称 DFP）データファイルを Audience Manager に読み込む](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)の手順 3 に記載されているように、[!UICONTROL Order IDs] の記述メタデータを含める必要があります。 これにより、Web プロパティの詳細が[!UICONTROL Order ID] ではなく[!UICONTROL Order]として表示されるようになります。
 
 ## 結果の解釈 {#interpreting-results}
 
 **レポートのサンプル**
 
-[!UICONTROL Top Unused Traits]レポートは次のようになります。レポート内でバブルをクリックすると、基になっているデータが表示されます。
+[!UICONTROL Top Unused Traits]レポートは次のようになります。 レポート内でバブルをクリックすると、基になっているデータが表示されます。
 
 追加情報については、サンプルレポートの下の表を参照してください。
 
@@ -96,7 +104,7 @@ ht-degree: 100%
 
 レポートにおける特性の位置で、既存のオーディエンスセグメントの最適化に使用できる特性について多くのことがわかります。
 
-Impressions 軸に関して高い位置にある特性は、キャンペーンで使用できる特性になります。インプレッション数が少ない特性の場合は、[!DNL Google Ad Manager] データに基づき、Web プロパティでこのオーディエンスにリーチする可能性は低くなります。
+Impressions 軸に関して高い位置にある特性は、キャンペーンで使用できる特性になります。 インプレッション数が少ない特性の場合は、[!DNL Google Ad Manager] データに基づき、Web プロパティでこのオーディエンスにリーチする可能性は低くなります。
 
 「[!UICONTROL Unique Trait Realizations]」軸の左側に行くほど正確な特性になり、右側に行くほどスケールを促進できる特性になります。
 
@@ -110,7 +118,7 @@ Impressions 軸に関して高い位置にある特性は、キャンペーン�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>左上</b> </p> </td> 
-   <td colname="col2"> <p>インプレッション数が多く、特性適合回数が少ない。 </p> <p>これは、まだセグメントのメンバーでない非常に正確なオーディエンスです。ターゲティングの対象として検討してください。 </p> </td> 
+   <td colname="col2"> <p>インプレッション数が多く、特性適合回数が少ない。 </p> <p>これは、まだセグメントのメンバーでない非常に正確なオーディエンスです。 ターゲティングの対象として検討してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>左下</b> </p> </td> 
@@ -118,7 +126,7 @@ Impressions 軸に関して高い位置にある特性は、キャンペーン�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>右上</b> </p> </td> 
-   <td colname="col2"> <p>インプレッション数が多く、特性適合回数が多い。 </p> <p>まだセグメントに表されていないオーディエンスに対するリーチが高くなります。このオーディエンスは、インプレッション数が多くスケールが大きいので、ターゲティングの第一の候補になります。 </p> </td> 
+   <td colname="col2"> <p>インプレッション数が多く、特性適合回数が多い。 </p> <p>まだセグメントに表されていないオーディエンスに対するリーチが高くなります。 このオーディエンスは、インプレッション数が多くスケールが大きいので、ターゲティングの第一の候補になります。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>右下</b> </p> </td> 

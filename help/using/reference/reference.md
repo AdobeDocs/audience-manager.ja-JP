@@ -6,21 +6,25 @@ solution: Audience Manager
 title: リファレンス
 feature: Reference
 exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
-TQID: https://experienceleague.adobe.com/0hjhCGzYKt2Fuqx04BVelUyIuLQazfhywuQJ8Ssdt-4
+TQID: 'https://experienceleague.adobe.com/0hjhCGzYKt2Fuqx04BVelUyIuLQazfhywuQJ8Ssdt-4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data integration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 52
+source-wordcount: '52'
 ht-degree: 100%
-
 ---
-
 # リファレンス
 
 この節には、システムの機能、データ統合およびヘルプファイルに関する技術ドキュメントが含まれています。 この節のページには、次のようなものがあります。

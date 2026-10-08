@@ -7,19 +7,23 @@ title: 宛先の作成
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
 exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
-TQID: https://experienceleague.adobe.com/5--FLcQxcIQYMVuch5YXuxl6e18o1QLw6hBZj4rk95c
+TQID: 'https://experienceleague.adobe.com/5--FLcQxcIQYMVuch5YXuxl6e18o1QLw6hBZj4rk95c'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: c814092e-2730-45e8-a12d-e084529f52cb
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Destinations
+subfeature_v2:
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: '356'
 ht-degree: 100%
-
 ---
-
 # 宛先の作成 {#create-destinations}
 
 これらの [!UICONTROL RESTful API] メソッドで宛先を作成します。
@@ -28,7 +32,7 @@ ht-degree: 100%
 
 ## サポートされている宛先のタイプ：URL および Cookie のみ
 
-使用可能な `POST` メソッドでは、[!UICONTROL URL] および [!UICONTROL cookie destinations]のみを作成できます。現在は、[!DNL REST API] メソッドで [!UICONTROL server-to-server destinations] を使用できます。ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
+使用可能な `POST` メソッドでは、[!UICONTROL URL] および [!UICONTROL cookie destinations]のみを作成できます。 現在は、[!DNL REST API] メソッドで [!UICONTROL server-to-server destinations] を使用できます。 ただし、宛先の関連 `GET` メソッドでは、ユーザーインターフェイスで作成された[!UICONTROL server-to-server destinations]の情報を取得できます。
 
 ## 非シリアル URL 宛先の作成 {#create-nonserial-dest}
 
@@ -42,7 +46,7 @@ ht-degree: 100%
 
 ### リクエストのサンプル
 
-このリクエストでは、1 つの宛先を作成します。特に指示のない限り、すべてのリクエスト値が必須です。
+このリクエストでは、1 つの宛先を作成します。 特に指示のない限り、すべてのリクエスト値が必須です。
 
 ```
 { 
@@ -95,7 +99,7 @@ ht-degree: 100%
 
 ### リクエストのサンプル
 
-宛先に渡すキーと値のペアのセキュリティで保護された [!DNL URL] と区切り文字を指定します。特に指示のない限り、すべてのリクエスト値が必須です。
+宛先に渡すキーと値のペアのセキュリティで保護された [!DNL URL] と区切り文字を指定します。 特に指示のない限り、すべてのリクエスト値が必須です。
 
 ```
 { 

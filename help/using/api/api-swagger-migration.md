@@ -1,5 +1,5 @@
 ---
-description: Audience Manager チームのメンバーもまたエンジニア、開発者またはコーディングのエキスパートであり、当然ながら、信頼できる正確な API ドキュメントで作業したいという気持ちを持っています。そこで、API コンテンツを Swagger で書き直し、新しい場所に移動させることにしました。これらの変更は、Audience Manager API のコーディングを円滑にすることを目的におこなわれました。
+description: Audience Manager チームのメンバーもまたエンジニア、開発者またはコーディングのエキスパートであり、 当然ながら、信頼できる正確な API ドキュメントで作業したいという気持ちを持っています。 そこで、API コンテンツを Swagger で書き直し、新しい場所に移動させることにしました。 これらの変更は、Audience Manager API のコーディングを円滑にすることを目的におこなわれました。
 seo-description: Here at Audience Manager, we're engineers, developers, and code ninjas just like you. And, like you, we want to work with reliable, accurate API documentation. As a result, we're re-writing our API content in Swagger and moving it to a new location. These changes are designed to help improve your experience with the Audience Manager API code.
 seo-title: Audience Manager API Code Migration
 solution: Audience Manager
@@ -7,32 +7,37 @@ title: Audience Manager の API コードの移行
 uuid: 93cc28c4-4b91-4c79-93d5-ece9bb4cc9d5
 feature: API
 exl-id: 081be8a7-5029-45b1-8fb1-0531d5090fe0
-TQID: https://experienceleague.adobe.com/cMjjldcPRN8BEcRD-YEf1eaDwQp78-3Td06Ut6CVfUw
+TQID: 'https://experienceleague.adobe.com/cMjjldcPRN8BEcRD-YEf1eaDwQp78-3Td06Ut6CVfUw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
 subfeature_v2:
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
+    internal-label: Data sources
+  - id: 7dee9651-deb5-5d4d-acfd-fbc10040467f
+    internal-label: API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 248
+source-wordcount: '360'
 ht-degree: 100%
-
 ---
-
 # Audience Manager の API コードの移行 {#audience-manager-api-code-migration}
 
-Audience Manager チームのメンバーもまたエンジニア、開発者またはコーディングのエキスパートであり、当然ながら、信頼できる正確な [!DNL API] ドキュメントで作業したいという気持ちを持っています。そこで、[!DNL API] コンテンツを [!DNL Swagger] で書き直し、新しい場所に移動させることにしました。これらの変更は、Audience Manager[!DNL API] のコーディングを円滑にすることを目的におこなわれました。
+Audience Manager チームのメンバーもまたエンジニア、開発者またはコーディングのエキスパートであり、 当然ながら、信頼できる正確な [!DNL API] ドキュメントで作業したいという気持ちを持っています。 そこで、[!DNL API] コンテンツを [!DNL Swagger] で書き直し、新しい場所に移動させることにしました。 これらの変更は、Audience Manager[!DNL API] のコーディングを円滑にすることを目的におこなわれました。
 
 ## 今後の移行の進め方 {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-改訂された コンテンツは今後 [Adobe Audience Manager API に関するドキュメント](https://bank.demdex.com/portal/swagger/index.html)のサイトから提供されます。[!DNL API]これからも、リリースごとに [!DNL API] メソッドの書き直しを少しずつ進めていきたいと思います。このため、利用可能なメソッドの一覧を確認するには、新しい場所と [REST API](../api/rest-api-main/rest-api-main.md) ドキュメントの両方を参照していただく必要があります。最終的には、すべての公開 [!DNL API] が [!DNL Audience Manager] の [!DNL API] ドキュメントサイトから提供されるようになります。次の表に、改訂および移行済みの [!DNL API]を示します。
+改訂された コンテンツは今後 [Adobe Audience Manager API に関するドキュメント](https://bank.demdex.com/portal/swagger/index.html)のサイトから提供されます。[!DNL API] これからも、リリースごとに [!DNL API] メソッドの書き直しを少しずつ進めていきたいと思います。 このため、利用可能なメソッドの一覧を確認するには、新しい場所と [REST API](../api/rest-api-main/rest-api-main.md) ドキュメントの両方を参照していただく必要があります。 最終的には、すべての公開 [!DNL API] が [!DNL Audience Manager] の [!DNL API] ドキュメントサイトから提供されるようになります。 次の表に、改訂および移行済みの [!DNL API]を示します。
 
 <!--
 

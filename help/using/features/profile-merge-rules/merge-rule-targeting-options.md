@@ -1,5 +1,5 @@
 ---
-description: プロファイル結合ルールオプションを使用すると、オーディエンスを広げることも、ビジネスニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。
+description: プロファイル結合ルールオプションを使用すると、オーディエンスを広げることも、ビジネスニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。 これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。
 seo-description: Profile Merge Rules options let you expand or tighten audience focus on specific audiences based on business needs or goals. These general use cases explore how to use available options and create merge rules for individual, household, and cross-device targeting.
 seo-title: General Use Cases for Profile Merge Rules
 solution: Audience Manager
@@ -7,23 +7,29 @@ title: プロファイル結合ルールの一般的なユースケース
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-TQID: https://experienceleague.adobe.com/Qk5jO5i-HgjV75z0--cXzgv7hMbS-s6sEyanGqy8m9I
+TQID: 'https://experienceleague.adobe.com/Qk5jO5i-HgjV75z0--cXzgv7hMbS-s6sEyanGqy8m9I'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 894
+source-wordcount: '921'
 ht-degree: 98%
-
 ---
-
 # プロファイル結合ルールの一般的なユースケース {#general-use-cases-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rules]オプションを使用すると、オーディエンスを広げることも、ビジネスニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。[!UICONTROL Profile Merge Rules] は、リアルタイムの宛先と一括での宛先で使用できます。
+[!UICONTROL Profile Merge Rules]オプションを使用すると、オーディエンスを広げることも、ビジネスニーズや目標に基づいて特定のオーディエンスに的を絞ることもできます。 これらの一般的なユースケースでは、使用可能なオプションを使用して個人、団体、クロスデバイスのターゲティングに対応する結合ルールを作成する方法を調べています。 [!UICONTROL Profile Merge Rules] は、リアルタイムの宛先と一括での宛先で使用できます。
 
 >[!TIP]
 >
@@ -37,7 +43,7 @@ ht-degree: 98%
 
 ![device-only](assets/device-only.png)
 
-ジョンという人物ががスマートフォンを 3 つ台保有しているとします。そのうち 2 台は iPhone 7s（データプラン A ）で、1 台は Samsung（データプラン B）です。ジョンの携帯電話会社は 3 台のデバイスの認証状態を考慮せず、データプラン A で実行する iPhone 7 デバイスに対してのみ、データプランのアップグレードを提供したいと考えています。
+ジョンという人物ががスマートフォンを 3 つ台保有しているとします。 そのうち 2 台は iPhone 7s（データプラン A ）で、1 台は Samsung（データプラン B）です。ジョンの携帯電話会社は 3 台のデバイスの認証状態を考慮せず、データプラン A で実行する iPhone 7 デバイスに対してのみ、データプランのアップグレードを提供したいと考えています。
 
 **[!UICONTROL No Cross-Device Profile]** ルールと **[!UICONTROL Device Profile]** ルールを使用することで、[!DNL Device 1] と [!DNL Device 3] の両方が対象となりますが、デバイス 2 は無視されます。
 
@@ -59,15 +65,15 @@ ht-degree: 98%
 
 ## オンライン／オフラインでのターゲティング {#device-household-targeting}
 
-この使用例では、世帯 ID 管理をカバーしています。会社は、**[!UICONTROL Last Authenticated Profiles]** ルール と **[!UICONTROL Device Profile]** ルールを使用して、1 つのデバイスプロファイルを、1 つのデバイスプロファイルを、そのデバイスで最後に認証されたプロファイルと結合できます。
+この使用例では、世帯 ID 管理をカバーしています。 会社は、**[!UICONTROL Last Authenticated Profiles]** ルール と **[!UICONTROL Device Profile]** ルールを使用して、1 つのデバイスプロファイルを、1 つのデバイスプロファイルを、そのデバイスで最後に認証されたプロファイルと結合できます。
 
 ![last-device-profile](assets/last-device-profile.png)
 
-年収が 100.000 ドルを超える世帯で構成されるセグメントに、1 台以上のデバイス（[!DNL iPhone 7]、[!DNL Data Plan B]）が含まれているとします。2 つの世帯プロファイル（クロスデバイス対応プロファイル）があり、それぞれが 2 つの異なるデバイスプロファイルと結び付けられています。セグメントに適合するために必要な特性は、デバイスプロファイルとデバイスプロファイルをまたいで分散されます。
+年収が 100.000 ドルを超える世帯で構成されるセグメントに、1 台以上のデバイス（[!DNL iPhone 7]、[!DNL Data Plan B]）が含まれているとします。 2 つの世帯プロファイル（クロスデバイス対応プロファイル）があり、それぞれが 2 つの異なるデバイスプロファイルと結び付けられています。 セグメントに適合するために必要な特性は、デバイスプロファイルとデバイスプロファイルをまたいで分散されます。
 
-Audience Manager は、すべてのデバイスとクロスデバイスプロファイルのペアを結合して、結合された特性セットがセグメントに該当しているかどうかを確認します。Audience Manager は、結合に含まれるすべてのプロファイルを評価するので、デバイスプロファイルと世帯プロファイルの両方をセグメント化することができます。
+Audience Manager は、すべてのデバイスとクロスデバイスプロファイルのペアを結合して、結合された特性セットがセグメントに該当しているかどうかを確認します。 Audience Manager は、結合に含まれるすべてのプロファイルを評価するので、デバイスプロファイルと世帯プロファイルの両方をセグメント化することができます。
 
-デバイスと世帯プロファイルの間をリンクさせることで、Audience Manager は [!DNL Household 2] をセグメントに認定し、[!DNL Household 1] は除外することができます。[!DNL Household 2] からは、[!DNL Device 3] のみがセグメントに該当します。[!UICONTROL Profile Merge Rule] により、マーケターは個人のデバイス（[!DNL Device 3]）や幅広い世帯（[!DNL Household 2]）に一貫したマーケティングメッセージを配信できるようになりました。
+デバイスと世帯プロファイルの間をリンクさせることで、Audience Manager は [!DNL Household 2] をセグメントに認定し、[!DNL Household 1] は除外することができます。 [!DNL Household 2] からは、[!DNL Device 3] のみがセグメントに該当します。 [!UICONTROL Profile Merge Rule] により、マーケターは個人のデバイス（[!DNL Device 3]）や幅広い世帯（[!DNL Household 2]）に一貫したマーケティングメッセージを配信できるようになりました。
 
 ![世帯管理](assets/household-management.png)
 
@@ -75,11 +81,11 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 >[!IMPORTANT]
 >
->この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。法的なアドバイスは何も含まれません。法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
+>この記事には、この機能の設定と使用方法を説明する製品ドキュメントが含まれています。 法的なアドバイスは何も含まれません。 法律に関するガイダンスについては、御社の顧問弁護士にアドバイスを求めてください。
 
-このターゲティングシナリオは、[!DNL People-Based Destinations] アドオンを購入した顧客のみが使用できます。このルールを使用すると、マーケターは、独自の認証済みデータに基づいて顧客にリーチすることができます。
+このターゲティングシナリオは、[!DNL People-Based Destinations] アドオンを購入した顧客のみが使用できます。 このルールを使用すると、マーケターは、独自の認証済みデータに基づいて顧客にリーチすることができます。
 
-あるオンライン小売業者は、ソーシャルプラットフォームを通じて既存の顧客にリーチし、以前の注文に基づいてパーソナライズされたオファーを表示したいと願っています。[!UICONTROL People-Based Destinations] を使用すれば、ハッシュ化された電子メールアドレスを自分の [!DNL CRM] から Audience Manager に取り込み、オフラインデータからセグメントを構築し、ハッシュ化されている ID を使用して これらのセグメントを宣伝したいソーシャルプラットフォームに送信し、広告費用を最適化することができます。
+あるオンライン小売業者は、ソーシャルプラットフォームを通じて既存の顧客にリーチし、以前の注文に基づいてパーソナライズされたオファーを表示したいと願っています。 [!UICONTROL People-Based Destinations] を使用すれば、ハッシュ化された電子メールアドレスを自分の [!DNL CRM] から Audience Manager に取り込み、オフラインデータからセグメントを構築し、ハッシュ化されている ID を使用して これらのセグメントを宣伝したいソーシャルプラットフォームに送信し、広告費用を最適化することができます。
 
 このオプションの詳細については、「[People-Based Destinations](../destinations/people-based-destinations-overview.md)」を参照してください。
 
@@ -87,7 +93,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
 
 ## デバイスグラフオプション {#device-graph-options}
 
-[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。特定のユースケースについては、[&#x200B; プロファイルリンクデバイスグラフのユースケース &#x200B;](profile-link-use-case.md)および[外部デバイスグラフのユースケース &#x200B;](external-graph-use-cases.md)を参照してください。
+[!UICONTROL Profile Merge]ルールの「[!UICONTROL device graph]」オプションの選択は、デジタルプロパティや事業目標に応じた条件によって異なります。 ここで紹介する一般的なガイドラインは、どの種類のグラフをどのような場合に使用すればよいか判別するために便利です。 これらのオプションを使用するには、外部デバイスグラフとの契約関係が必要です。 以下の表は、デバイスグラフオプションをどのような場合に選択すればよいかを示しています。 特定のユースケースについては、[&#x200B; プロファイルリンクデバイスグラフのユースケース &#x200B;](profile-link-use-case.md)および[外部デバイスグラフのユースケース &#x200B;](external-graph-use-cases.md)を参照してください。
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -102,7 +108,7 @@ Audience Manager は、すべてのデバイスとクロスデバイスプロフ
    <td colname="col2"> <p><span class="wintitle">プロファイルリンク</span>オプションで作成された<span class="wintitle">プロファイル結合</span>ルールは、次の場合に最適です。 </p> <p> 
      <ul id="ul_FF44FA894BB2448887C8EDA9C8407EF9"> 
       <li id="li_E22505210C664FE6A9AA7C61244B36DA">高レベルなユーザー認証を導入しているデジタルプロパティ。 </li> 
-      <li id="li_BE7112EE611E4DEB95B5C0A2852BFA97">集中的な低リーチのキャンペーン。<span class="wintitle">プロファイルリンク</span>デバイスグラフは、決定論的データについてのみ構築されます。このデバイスプロファイルのプールは、必ず未認証のユーザーとデバイスのプールより小さくなります。 </li> 
+      <li id="li_BE7112EE611E4DEB95B5C0A2852BFA97">集中的な低リーチのキャンペーン。 <span class="wintitle">プロファイルリンク</span>デバイスグラフは、決定論的データについてのみ構築されます。 このデバイスプロファイルのプールは、必ず未認証のユーザーとデバイスのプールより小さくなります。 </li> 
       <li id="li_5FD9E936A72A4EFE80E694FA2E08E385">ユーザーがセグメント化認定のため未認証状態でなければならない場合。 </li> 
      </ul> </p> </td> 
   </tr> 

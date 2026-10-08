@@ -1,5 +1,5 @@
 ---
-description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、Audience Optimization レポートおよびアクションにつながるログファイルで使用できます。データファイルの形式を、この節で説明した仕様に合わせてください。
+description: データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。 形式が正しい場合は、このデータを Audience Manager に読み込み、Audience Optimization レポートおよびアクションにつながるログファイルで使用できます。 データファイルの形式を、この節で説明した仕様に合わせてください。
 seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
 seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
@@ -7,43 +7,53 @@ title: Audience Optimization レポートおよびアクションにつながる
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: Log Files
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
-TQID: https://experienceleague.adobe.com/V7m-uiRhNEiGDi5x-Uxy51qm-RneyvCC4Ufl9Ue8xB4
+TQID: 'https://experienceleague.adobe.com/V7m-uiRhNEiGDi5x-Uxy51qm-RneyvCC4Ufl9Ue8xB4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Content structure
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 994
-ht-degree: 94%
-
+source-wordcount: '1009'
+ht-degree: 95%
 ---
-
 # Audience Optimization レポートおよびアクションにつながるログファイル用のデータファイル {#data-files-for-audience-optimization-reports}
 
-データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。形式が正しい場合は、このデータを Audience Manager に読み込み、[Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)で表示し、[アクションにつながるログファイル](/help/using/integration/media-data-integration/actionable-log-files.md)からデータを使用して特性を作成できます。データファイルの形式を、この節で説明した仕様に合わせてください。
+データファイルにはインプレッション、クリックまたはコンバージョンのデータが含まれます。 形式が正しい場合は、このデータを Audience Manager に読み込み、[Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)で表示し、[アクションにつながるログファイル](/help/using/integration/media-data-integration/actionable-log-files.md)からデータを使用して特性を作成できます。 データファイルの形式を、この節で説明した仕様に合わせてください。
 
 ## 概要 {#overview}
 
-適切な名前と形式のデータファイルを使用すると、インプレッション、クリック、コンバージョンのいずれかのデータを [Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)にインポートできます。これは、[!DNL Audience Manager] と統合されていないパートナーのデータを同レポートスイートで扱う場合に役に立ちます。このプロセスには、インプレッション、クリック、コンバージョンのデータごとに別個のファイルが必要です。これらのイベントを単一のファイルに混在させないでください。
+適切な名前と形式のデータファイルを使用すると、インプレッション、クリック、コンバージョンのいずれかのデータを [Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)にインポートできます。 これは、[!DNL Audience Manager] と統合されていないパートナーのデータを同レポートスイートで扱う場合に役に立ちます。 このプロセスには、インプレッション、クリック、コンバージョンのデータごとに別個のファイルが必要です。 これらのイベントを単一のファイルに混在させないでください。
 
-データファイルには、メタデータファイルが付いている必要があります。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、[&#x200B; メタデータファイルの概要とマッピング &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
+データファイルには、メタデータファイルが付いている必要があります。 メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。 詳しくは、[&#x200B; メタデータファイルの概要とマッピング &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
 
 ## データファイルの命名規則 {#naming-conventions}
 
-適格なデータファイル名の構造を次の構文で定義します。なお、*斜体*&#x200B;の部分にはファイルコンテンツの実際の情報が入ります。
+適格なデータファイル名の構造を次の構文で定義します。 なお、*斜体*&#x200B;の部分にはファイルコンテンツの実際の情報が入ります。
 
 **構文：** <pre><code><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
 ファイル名の場合：
 
-* イベントタイプは、ファイルにインプレッション、クリック、コンバージョンのどれが格納されているかを示します。イベントタイプごとに別個のファイルを作成します。
+* イベントタイプは、ファイルにインプレッション、クリック、コンバージョンのどれが格納されているかを示します。 イベントタイプごとに別個のファイルを作成します。
 * アンダースコアは、イベントタイプと年月日タイムスタンプの区切りになります。
 * アップロードする前に、gzip を使用してファイルを圧縮し、`.gz` ファイル拡張子を付けて保存します。
 
@@ -55,21 +65,21 @@ ht-degree: 94%
 
 ## データファイルのコンテンツ形式 {#content-format}
 
-適格なデータファイルのコンテンツ構造を次の構文で定義します。なお、*斜体*&#x200B;の部分には実際のデータファイル内のラベルが入ります。
+適格なデータファイルのコンテンツ構造を次の構文で定義します。 なお、*斜体*&#x200B;の部分には実際のデータファイル内のラベルが入ります。
 
 **構文：** <pre><code><i>header label 1</i> | <i>header label 2</i> ... <i>header label n</i> | <i>version</i></code></pre>
 
 ファイルコンテンツの場合：
 
-* ヘッダーラベルは、以下の表に示す順序で出現する必要があります。インプレッションとクリックは、同じラベルを使用します。コンバージョンファイルには追加のヘッダーが含まれています。
+* ヘッダーラベルは、以下の表に示す順序で出現する必要があります。 インプレッションとクリックは、同じラベルを使用します。 コンバージョンファイルには追加のヘッダーが含まれています。
 * 特定の列のデータがない場合は、そのフィールドに `-1` を入力します。
 
-* ファイルの末尾はバージョン番号である&#x200B;*必要があり*&#x200B;ます。現在のバージョンは 1.1 です。
-* ファイルヘッダーとコンテンツを非印字 ASCII 文字 001 で区切ります。ASCII 001 を使用できない場合は、ヘッダーとデータをタブ文字で区切ります。これらは非印字文字なので、上記の構文例では、表示のためだけにパイプ「`"|"`」を使用しています。
+* ファイルの末尾はバージョン番号である&#x200B;*必要があり*&#x200B;ます。 現在のバージョンは 1.1 です。
+* ファイルヘッダーとコンテンツを非印字 ASCII 文字 001 で区切ります。 ASCII 001 を使用できない場合は、ヘッダーとデータをタブ文字で区切ります。 これらは非印字文字なので、上記の構文例では、表示のためだけにパイプ「`"|"`」を使用しています。
 
 **フィールドラベル**
 
-次の表では、データファイルの列ヘッダーを列挙し説明します。ヘッダーは大文字と小文字の区別があり、この表での順序どおりに出現する必要があります。他に指示がない限り、すべてのデータタイプは整数（INT）です。
+次の表では、データファイルの列ヘッダーを列挙し説明します。 ヘッダーは大文字と小文字の区別があり、この表での順序どおりに出現する必要があります。 他に指示がない限り、すべてのデータタイプは整数（INT）です。
 
 <table id="table_D8C5068741C3460380505F95F3016757"> 
  <thead> 
@@ -81,7 +91,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Time-Stamp </p> </td> 
-   <td colname="col2"> <p>インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。<code> yyyy-MM-dd HH:mm:ss</code>形式を使用します。 </p> </td> 
+   <td colname="col2"> <p>インプレッションイベント、クリックイベント、コンバージョンイベントの日付と時刻（UTC タイムゾーン）。 <code> yyyy-MM-dd HH:mm:ss</code>形式を使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>User-ID </p> </td> 
@@ -129,15 +139,15 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>Revenue </p> </td> 
-   <td colname="col2"> <p>獲得やその他のコンバージョン量。データタイプは浮動小数。 </p> <p> <i>コンバージョンデータファイルの場合のみ。</i> </p> </td> 
+   <td colname="col2"> <p>獲得やその他のコンバージョン量。 データタイプは浮動小数。 </p> <p> <i>コンバージョンデータファイルの場合のみ。</i> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Other-Data </p> </td> 
-   <td colname="col2"> <p>コンバージョンランディングページの URL。データタイプは文字列。 </p> <p> <i>コンバージョンデータファイルの場合のみ。</i> </p> </td> 
+   <td colname="col2"> <p>コンバージョンランディングページの URL。 データタイプは文字列。 </p> <p> <i>コンバージョンデータファイルの場合のみ。</i> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Event-Type </p> </td> 
-   <td colname="col2"> <p>コンバージョンタイプ。コンバージョンが対応しているかどうかを示します。オプションは次のとおりです。 </p> 
+   <td colname="col2"> <p>コンバージョンタイプ。 コンバージョンが対応しているかどうかを示します。 オプションは次のとおりです。 </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
      <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>：インプレッション </li> 
      <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>：クリック </li> 
@@ -146,14 +156,14 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>バージョン </p> </td> 
-   <td colname="col2"> <p>インプレッション、クリック、コンバージョンのデータファイルの行ごとに末尾に出現する必須のバージョン番号。現在のバージョンは 1.1 です。 </p> </td> 
+   <td colname="col2"> <p>インプレッション、クリック、コンバージョンのデータファイルの行ごとに末尾に出現する必須のバージョン番号。 現在のバージョンは 1.1 です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## データファイルの配信方法 {#delivery-methods}
 
-インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
+インプレッション、クリック、コンバージョンのデータファイルは、[!DNL Audience Manager] アカウントの Amazon S3 ディレクトリにアップロードします。 配信／ディレクトリパス、ファイル処理回数、データ更新については、この節を参照してください。
 
 >[!IMPORTANT]
 >
@@ -161,7 +171,7 @@ ht-degree: 94%
 
 **配信パスの構文と例**
 
-データはユーザーごとに [!DNL Amazon S3] ディレクトリ内の個別の名前空間に保存されます。ファイルパスは以下の構文に従います。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
+データはユーザーごとに [!DNL Amazon S3] ディレクトリ内の個別の名前空間に保存されます。 ファイルパスは以下の構文に従います。 なお、*斜体*&#x200B;の部分には実際の情報が入ります。 他の要素は定数またはキーで、変わりません。
 
 **構文：** <pre><code>.../log_ingestion/pid= <i>AAM ID</i>/dpid= <i>d_src</i>/logs/ <i> ファイルタイプ </i>_<i>yyyymmdd</i></code></pre>
 
@@ -177,7 +187,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> .../log_ingestion/</code> </p> </td> 
-   <td colname="col2"> <p>ストレージのディレクトリパスの先頭。セットアップがすべて完了したら、完全パスが与えられます。 </p> </td> 
+   <td colname="col2"> <p>ストレージのディレクトリパスの先頭。 セットアップがすべて完了したら、完全パスが与えられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
@@ -185,7 +195,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
-   <td colname="col2"> <p>イベント呼び出し時に渡されるデータソース ID のキー値ペア。この情報で、データがどこから得られたかが特定され、そのデータが、対応するメタデータファイルに関連付けられます。 </p> </td> 
+   <td colname="col2"> <p>イベント呼び出し時に渡されるデータソース ID のキー値ペア。 この情報で、データがどこから得られたかが特定され、そのデータが、対応するメタデータファイルに関連付けられます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> logs</code> </p> </td> 
@@ -208,8 +218,8 @@ ht-degree: 94%
 
 データファイルは 1 日 4 回定期的に処理されます。
 
-データを更新するには、当日のインプレッション、クリック、コンバージョンをすべて格納したファイルを送信します。この場合、1 日は当日の午前 0 時から翌日の午前 0 時までの 24 時間になります。ベストプラクティスとして、世界標準時（UTC）で時刻を定義するとよいでしょう。
+データを更新するには、当日のインプレッション、クリック、コンバージョンをすべて格納したファイルを送信します。 この場合、1 日は当日の午前 0 時から翌日の午前 0 時までの 24 時間になります。 ベストプラクティスとして、世界標準時（UTC）で時刻を定義するとよいでしょう。
 
 ## 次の手順 {#next-steps}
 
-メタデータファイルの命名と作成の要件を確認します。開始するには、[&#x200B; メタデータファイルの概要とマッピング &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。
+メタデータファイルの命名と作成の要件を確認します。 開始するには、[&#x200B; メタデータファイルの概要とマッピング &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)を参照してください。

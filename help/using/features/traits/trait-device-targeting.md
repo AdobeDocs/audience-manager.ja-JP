@@ -7,25 +7,32 @@ title: プラットフォームレベルのキーによるデバイスターゲ�
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
-TQID: https://experienceleague.adobe.com/Pv9-MWpF5uPassf9VYTGgZwQ6gmnW8p9FSYmYxOPHEg
+TQID: 'https://experienceleague.adobe.com/Pv9-MWpF5uPassf9VYTGgZwQ6gmnW8p9FSYmYxOPHEg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 264
+source-wordcount: '310'
 ht-degree: 100%
-
 ---
-
 # プラットフォームレベルのキーによるデバイスターゲティング {#device-targeting-with-platform-level-keys}
 
 >[!WARNING]
 >
 >Google は、`User-Agent` ヘッダーを介して収集される情報を最小限に抑えるために、[!DNL Google Chrome] およびすべての [!DNL Chromium] ベースのブラウザーの機能を更新しました。
->2023年3月以降、Audience Manager は [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を活用してこれらの更新をサポートします。`User-Agent` ヘッダーを介して提供される特性情報を引き続き使用するには、[Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用し、[高エントロピーのユーザーエージェントクライアントヒント](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja)を有効にする必要があります。
+>2023年3月以降、Audience Manager は [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を活用してこれらの更新をサポートします。 `User-Agent` ヘッダーを介して提供される特性情報を引き続き使用するには、[Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) を使用し、[高エントロピーのユーザーエージェントクライアントヒント](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=ja)を有効にする必要があります。
 >これらの更新は [DIL](../../../using/dil/dil-overview.md) でサポートされていないので、[!DNL DIL] を使用する Audience Manager のお客様は、`User-Agent` ヘッダーを介して特性情報を収集できません。
 
 Audience Manager アカウントのすべてのプロパティをまたぐデバイス関連変数を使用して、ユーザーをターゲティングするのに使用できる、プラットフォームレベルの共通のキー値ペアについて説明します。
@@ -34,11 +41,11 @@ Audience Manager アカウントのすべてのプロパティをまたぐデバ
 
 <!-- c_tb_device_targeting.xml -->
 
-プラットフォームレベルの変数を使用すると、特定のサイトからデータを渡して、[!DNL Audience Manager] アカウントのすべてのプロパティにわたるターゲティングに使用できます。これらの変数は[キー値ペア](../../reference/key-value-pairs-explained.md)で構成され、以下に示すように、キーには `d_` という接頭辞が付加されます。
+プラットフォームレベルの変数を使用すると、特定のサイトからデータを渡して、[!DNL Audience Manager] アカウントのすべてのプロパティにわたるターゲティングに使用できます。 これらの変数は[キー値ペア](../../reference/key-value-pairs-explained.md)で構成され、以下に示すように、キーには `d_` という接頭辞が付加されます。
 
 ## ユーザーエージェントによって定義されたプラットフォームレベルのキー {#keys-user-agent}
 
-[!UICONTROL Data Collection Servers] は、これらのキーの値を `HTTP` リクエストの[ユーザーエージェントヘッダー](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43)から抽出します。値は、[!UICONTROL Device Atlas] データベースからのデバイスレベルの情報を表します。以下の表に示すシグナルが使用可能です。これらは、ユーザーエージェントの例から抜き出したものです。[!UICONTROL Device Atlas] の測定に従って、[最も一般的なキーのリストをダウンロード](assets/device_keys.csv)します。
+[!UICONTROL Data Collection Servers] は、これらのキーの値を `HTTP` リクエストの[ユーザーエージェントヘッダー](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43)から抽出します。 値は、[!UICONTROL Device Atlas] データベースからのデバイスレベルの情報を表します。 以下の表に示すシグナルが使用可能です。これらは、ユーザーエージェントの例から抜き出したものです。 [!UICONTROL Device Atlas] の測定に従って、[最も一般的なキーのリストをダウンロード](assets/device_keys.csv)します。
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|

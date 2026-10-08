@@ -7,20 +7,26 @@ title: 受信データ転送ファイルのファイル圧縮
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 feature: Inbound Data Transfers
 exl-id: 9b3e3bef-2c93-4801-8f4f-04d9d42fd952
-TQID: https://experienceleague.adobe.com/yKIsM5aVmWW3ZEJgMqMWx8jIlGQa79hW9vkWmEXIdxI
+TQID: 'https://experienceleague.adobe.com/yKIsM5aVmWW3ZEJgMqMWx8jIlGQa79hW9vkWmEXIdxI'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '214'
 ht-degree: 100%
-
 ---
-
 # 受信データ転送ファイルのファイル圧縮{#file-compression-for-inbound-data-transfer-files}
 
 データファイルを Audience Manager に送信する際に、データファイルを圧縮することができます。
@@ -35,15 +41,15 @@ Audience Manager では、インバウンドの非同期データ転送に対し
 >
 >gzip（`.gz`）を使用して圧縮された受信ファイルの暗号化はサポートされません。
 >
->受信ファイルを暗号化および圧縮するには、[PGP 暗号化](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)を使用してください。[!DNL PGP] 暗号化にはファイル圧縮が含まれます。
+>受信ファイルを暗号化および圧縮するには、[PGP 暗号化](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)を使用してください。 [!DNL PGP] 暗号化にはファイル圧縮が含まれます。
 
 ## Amazon S3 における圧縮
 
-[!DNL Amazon S3] に送信する場合、`.gz` または非圧縮ファイルを使用する必要があります。圧縮ファイルのサイズは 1 GB 以下である必要があります。ファイルがこれよりも大きい場合、ファイルおよび転送プロセスについてカスタマーケアと相談してください。[!DNL Audience Manager] は非常に大きなサイズのファイルを扱うことができますが、ファイルサイズを小さくしたり、データ転送を効率化したりできる方法があるかもしれません。
+[!DNL Amazon S3] に送信する場合、`.gz` または非圧縮ファイルを使用する必要があります。 圧縮ファイルのサイズは 1 GB 以下である必要があります。 ファイルがこれよりも大きい場合、ファイルおよび転送プロセスについてカスタマーケアと相談してください。 [!DNL Audience Manager] は非常に大きなサイズのファイルを扱うことができますが、ファイルサイズを小さくしたり、データ転送を効率化したりできる方法があるかもしれません。
 
 >[!IMPORTANT]
 >
->圧縮ファイルまたは暗号化ファイルを転送する場合、[!DNL FTP] クライアントではバイナリモードを使用する必要があります。圧縮ファイルまたは暗号化ファイルを [!DNL ASCII] モードで送信した場合、データ転送ファイルが破損します。
+>圧縮ファイルまたは暗号化ファイルを転送する場合、[!DNL FTP] クライアントではバイナリモードを使用する必要があります。 圧縮ファイルまたは暗号化ファイルを [!DNL ASCII] モードで送信した場合、データ転送ファイルが破損します。
 
 ## ベストプラクティス
 

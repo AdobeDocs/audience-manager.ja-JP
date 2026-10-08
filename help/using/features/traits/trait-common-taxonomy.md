@@ -8,19 +8,26 @@ title: 一般的なカテゴリへの特性の分類
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-TQID: https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs
+TQID: 'https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 366
+source-wordcount: '374'
 ht-degree: 96%
-
 ---
-
 # 一般的なカテゴリへの特性の分類 {#classifying-traits-with-a-common-taxonomy}
 
 この記事では、一般的なカテゴリへの特性の分類についての全般的な概要について説明します。
@@ -29,19 +36,19 @@ ht-degree: 96%
 
 <!-- c_common_taxonomy_about.xml -->
 
-[!DNL Audience Manager] の分類は、論理的かつ統一された、一般的に理解可能な命名規則を使用して特性を分類するオプション機能です。この機能は、[!DNL Audience Manager] のエコシステム全体で名前の一貫性を保つために、プラットフォームレベルで動作します。最終的な目標は、一般的なカテゴリを使用することで、アドビ製品を消費者のプライバシーやオプトアウト処理に関する業界標準によりよく準拠させることです。
+[!DNL Audience Manager] の分類は、論理的かつ統一された、一般的に理解可能な命名規則を使用して特性を分類するオプション機能です。 この機能は、[!DNL Audience Manager] のエコシステム全体で名前の一貫性を保つために、プラットフォームレベルで動作します。 最終的な目標は、一般的なカテゴリを使用することで、アドビ製品を消費者のプライバシーやオプトアウト処理に関する業界標準によりよく準拠させることです。
 
 ## 特性の分類の利点
 
-お客様が独自のセグメントおよびデータモデルを作成できることは、[!DNL Audience Manager] のモデルにおいても、アドビのプラットフォームを最大限に活用するうえでも欠かせない要素です。しかし、これに加えて顧客およびパートナーとの間でセグメントに関する情報を堅牢かつスケーラブルな手段でやり取りできることも必須です。さらに、このやり取りにおいては、御社独自の特性およびセグメントの名前を保護しながら、わかりやすく誰もが理解できる言語でセグメント情報を共有できる必要があります。[!DNL Audience Manager] の一般的なカテゴリは、このような言語および能力を実現します。
+お客様が独自のセグメントおよびデータモデルを作成できることは、[!DNL Audience Manager] のモデルにおいても、アドビのプラットフォームを最大限に活用するうえでも欠かせない要素です。 しかし、これに加えて顧客およびパートナーとの間でセグメントに関する情報を堅牢かつスケーラブルな手段でやり取りできることも必須です。 さらに、このやり取りにおいては、御社独自の特性およびセグメントの名前を保護しながら、わかりやすく誰もが理解できる言語でセグメント情報を共有できる必要があります。 [!DNL Audience Manager] の一般的なカテゴリは、このような言語および能力を実現します。
 
 ## カテゴリには業界標準の分類を使用
 
-この一般的なカテゴリは、[!DNL Interactive Advertising Bureau (IAB)] によって作成された分類に基づいています。ネットワークとエクスチェンジの品質保証ガイドラインについて詳しくは、[!DNL IAB] の [Web サイト](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines)を参照してください。
+この一般的なカテゴリは、[!DNL Interactive Advertising Bureau (IAB)] によって作成された分類に基づいています。 ネットワークとエクスチェンジの品質保証ガイドラインについて詳しくは、[!DNL IAB] の [Web サイト](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines)を参照してください。
 
 ## 分類の構成
 
-[!DNL Audience Manager] の分類では、データをネストされたカテゴリに編成します。これらは層と呼ばれます。各カテゴリは、データ分類のための個別の層を最大 3 つまで持つことができます。最上位レベルである第 1 層のカテゴリは、データを最も一般的な形式（地域など）でグループ化します。これに続く層では、上位レベルの一般的なカテゴリよりも詳細になります（*地理 --> 米国 --> ニューヨーク*&#x200B;など）。ただし、どのカテゴリも必ず 3 層であるとは限らず、2 層のみのものもあります。
+[!DNL Audience Manager] の分類では、データをネストされたカテゴリに編成します。これらは層と呼ばれます。 各カテゴリは、データ分類のための個別の層を最大 3 つまで持つことができます。 最上位レベルである第 1 層のカテゴリは、データを最も一般的な形式（地域など）でグループ化します。 これに続く層では、上位レベルの一般的なカテゴリよりも詳細になります（*地理 --> 米国 --> ニューヨーク*&#x200B;など）。 ただし、どのカテゴリも必ず 3 層であるとは限らず、2 層のみのものもあります。
 
 ## データカテゴリによる特性の分類
 

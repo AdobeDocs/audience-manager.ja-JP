@@ -1,5 +1,5 @@
 ---
-description: リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に OAuth 2.0 を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
+description: リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に OAuth 2.0 を使用して認証するように設定できます。 これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
 seo-description: When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using OAuth 2.0 when making the requests. This presents the ability to issue authenticated requests from Audience Manager to your endpoint.
 seo-title: OAuth 2.0 Integration for Real-Time Outbound Transfers
 solution: Audience Manager
@@ -7,28 +7,35 @@ title: リアルタイムのアウトバウンド転送での OAuth 2.0 統合
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
 feature: Outbound Data Transfers
 exl-id: eef3a3ae-1a3f-47e9-aab6-abf878e4cb77
-TQID: https://experienceleague.adobe.com/NPCwMOqwZjtbeS2K9z2Z499bQE3mPp22XWKWVtOPSv0
+TQID: 'https://experienceleague.adobe.com/NPCwMOqwZjtbeS2K9z2Z499bQE3mPp22XWKWVtOPSv0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: '464'
 ht-degree: 98%
-
 ---
-
 # リアルタイム アウトバウンド転送の[!DNL OAuth 2.0]統合{#oauth-integration-for-real-time-outbound-transfers}
 
-リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に [!DNL OAuth 2.0] を使用して認証するように設定できます。これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
+リアルタイムサーバー間統合を使用してパートナー宛先にセグメントを公開する場合、Audience Manager は、リクエストをおこなう際に [!DNL OAuth 2.0] を使用して認証するように設定できます。 これは、Audience Manager からお客様のエンドポイントに認証済みリクエストを発行できることを表しています。
 
 ## 認証フロー {#auth-flow}
 
-[!DNL Adobe Audience Manager][&#x200B; の OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) 認証実装は、クライアント資格情報許可フローに基づいていて、次の手順に従っています。
+[!DNL Adobe Audience Manager]&#x200B;[&#x200B; の OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) 認証実装は、クライアント資格情報許可フローに基づいていて、次の手順に従っています。
 
 1. 次の情報を指定する必要があります。
    * 認証トークンを生成する [!DNL OAuth 2.0] エンドポイント。
@@ -48,7 +55,7 @@ ht-degree: 98%
 このエンドポイントは手順 1 で指定された資格情報を受け取り、以降のリクエストで使用する bearer トークンを生成します。
 
 * このエンドポイントは `HTTP POST` リクエストを受け入れる必要があります。
-* このエンドポイントは [!DNL Authorization] ヘッダーを受け入れ、参照する必要があります。このヘッダーの値は `Basic <credentials_provided_by_partner>` となります。
+* このエンドポイントは [!DNL Authorization] ヘッダーを受け入れ、参照する必要があります。 このヘッダーの値は `Basic <credentials_provided_by_partner>` となります。
 * このエンドポイントは [!DNL Content-type] ヘッダーを参照し、値が「`application/x-www-form-urlencoded ; charset=UTF-8`」であることを検証する必要があります。
 * リクエストの本文は `grant_type=client_credentials` となります。
 
@@ -81,9 +88,9 @@ Content-Length: 121
 
 ### エンドポイント 2：IRIS が bearer トークンによるセグメントの公開に使用
 
-[!DNL Audience Manager] は、ユーザーがセグメントで認定されるとほぼリアルタイムでこのエンドポイントにデータを送信します。さらに、この方法では 24 時間ごとにオフラインまたは転送済みのデータのバッチを送信できます。
+[!DNL Audience Manager] は、ユーザーがセグメントで認定されるとほぼリアルタイムでこのエンドポイントにデータを送信します。 さらに、この方法では 24 時間ごとにオフラインまたは転送済みのデータのバッチを送信できます。
 
-エンドポイント 1 で生成された bearer トークンは、このエンドポイントへのリクエストの発行に使用されます。[!DNL Audience Manager] のリアルタイムデータ転送システム（[IRIS](../../../reference/system-components/components-data-action.md#iris)）は、通常の HTTPS リクエストを作成し、Authorization ヘッダーを挿入します。このヘッダーの値は Bearer `<bearer token from step 1>` となります。
+エンドポイント 1 で生成された bearer トークンは、このエンドポイントへのリクエストの発行に使用されます。 [!DNL Audience Manager] のリアルタイムデータ転送システム（[IRIS](../../../reference/system-components/components-data-action.md#iris)）は、通常の HTTPS リクエストを作成し、Authorization ヘッダーを挿入します。 このヘッダーの値は Bearer `<bearer token from step 1>` となります。
 
 ### パートナーエンドポイントからの応答の例
 
@@ -126,4 +133,4 @@ Accept-Encoding: gzip
 
 ### [!DNL SSL] が必須
 
-[!DNL SSL]認証プロセスを保護するために、 を使用する必要があります。トークンの取得や使用のためのリクエストを含め、すべてのリクエストが `HTTPS` エンドポイントを使用する必要があります。
+[!DNL SSL]認証プロセスを保護するために、 を使用する必要があります。 トークンの取得や使用のためのリクエストを含め、すべてのリクエストが `HTTPS` エンドポイントを使用する必要があります。

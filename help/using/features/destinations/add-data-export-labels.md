@@ -1,28 +1,34 @@
 ---
-description: データ書き出しラベルは、データソースに設定する書き出しコントロールと連携して動作します。データ書き出しラベルによって、セグメントへの制限された特性の追加や、宛先へのセグメントデータの送信が防止されます。Cookie や URL の新規または既存の宛先に複数の書き出しラベルを設定できます。
+description: データ書き出しラベルは、データソースに設定する書き出しコントロールと連携して動作します。 データ書き出しラベルによって、セグメントへの制限された特性の追加や、宛先へのセグメントデータの送信が防止されます。 Cookie や URL の新規または既存の宛先に複数の書き出しラベルを設定できます。
 seo-description: Data Export Labels work with the Export Controls you set on a data source. Data Export Labels prevent you from adding restricted traits to a segment and from sending segment data to a destination. You can set multiple export labels to a new or existing cookie or URL destination.
 seo-title: Add Data Export Controls to a Destination
 solution: Audience Manager
 title: 宛先へのデータ書き出しコントロールの追加
 feature: Data Export Controls
 exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
-TQID: https://experienceleague.adobe.com/DuvtSxCkPmsqfoRH2MMjqFChFBr7U-x4mKl4sbyAEJQ
+TQID: 'https://experienceleague.adobe.com/DuvtSxCkPmsqfoRH2MMjqFChFBr7U-x4mKl4sbyAEJQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Personalization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '221'
 ht-degree: 100%
-
 ---
-
 # 宛先へのデータ書き出しラベルの追加 {#add-data-export-labels}
 
-[!DNL Data Export Labels]はデータソースで設定された [!DNL Export Controls] と連携します。[!DNL Data Export Labels] によって、セグメントへの制限された特性の追加や、宛先へのセグメントデータの送信が防止されます。[!DNL cookie] や [!DNL URL] の新規または既存の宛先に複数の書き出しラベルを設定できます。
+[!DNL Data Export Labels]はデータソースで設定された [!DNL Export Controls] と連携します。 [!DNL Data Export Labels] によって、セグメントへの制限された特性の追加や、宛先へのセグメントデータの送信が防止されます。 [!DNL cookie] や [!DNL URL] の新規または既存の宛先に複数の書き出しラベルを設定できます。
 
 >[!NOTE]
 >
@@ -34,10 +40,10 @@ ht-degree: 100%
 
 1. クリック **[!UICONTROL Audience Data]**:
 
-   * 新しい宛先の場合：**[!UICONTROL Create New Destination]**&#x200B;をクリックします。データ書き出しラベルを選択する前に、「[!UICONTROL Basic Information]」セクションに入力します。[Cookie の宛先の作成](../../features/destinations/create-cookie-destination.md)または [URL 宛先の作成](../../features/destinations/create-url-destination.md)を参照してください。
+   * 新しい宛先の場合：**[!UICONTROL Create New Destination]**&#x200B;をクリックします。 データ書き出しラベルを選択する前に、「[!UICONTROL Basic Information]」セクションに入力します。 [Cookie の宛先の作成](../../features/destinations/create-cookie-destination.md)または [URL 宛先の作成](../../features/destinations/create-url-destination.md)を参照してください。
    * 既存の宛先の場合：「[!DNL Search]」ボックスで宛先を検索するか、リストをスクロールし、宛先名をクリックして開きます。
 
-1. 「[!DNL Data Export Label]」を選択します。書き出し制限を設定しない場合は、チェックボックスをオフにします。書き出しラベルには次のようなオプションがあります。
+1. 「[!DNL Data Export Label]」を選択します。 書き出し制限を設定しない場合は、チェックボックスをオフにします。 書き出しラベルには次のようなオプションがあります。
 
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
    * **[!UICONTROL This destination may be used for on-site ad targeting]**

@@ -6,21 +6,28 @@ title: キー値ペアによるシグナルの検索
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 feature: Data Explorer
 exl-id: d598da6b-8dc0-47ce-8389-1973b1803711
-TQID: https://experienceleague.adobe.com/Apm-P3y-WJlOGO1UIbRJCfzAsgTzzk991PdU4DDLtGU
+TQID: 'https://experienceleague.adobe.com/Apm-P3y-WJlOGO1UIbRJCfzAsgTzzk991PdU4DDLtGU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '302'
 ht-degree: 100%
-
 ---
-
 # キー値ペアによるシグナルの検索 {#search-signals-by-key-value-pairs}
 
-キー値ペアに基づいて 1 つまたは複数のシグナルを検索します。複数のシグナルを検索する場合は、![Add](assets/icon_add.png) ボタンをクリックします。検索するキー値ペアを入力してから、以下のフィルターで検索結果を絞り込みます。
+キー値ペアに基づいて 1 つまたは複数のシグナルを検索します。
+複数のシグナルを検索する場合は、![Add](assets/icon_add.png) ボタンをクリックします。 検索するキー値ペアを入力してから、以下のフィルターで検索結果を絞り込みます。
 
 * **Signal Status**：特性に含まれているシグナル、未使用シグナルまたはその両方を検索します。
 * **View Records For**：受信シグナルの検索期間を選択します。
@@ -28,9 +35,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->処理時間を短縮するため、キー値ペアによる検索では、データサンプリングに基づいて結果が取得されます。[!DNL Audience Manager] でのデータサンプリングの利用方法、キー値検索と一般的な検索を比較した場合に検索結果の差異が生じる可能性がある理由については、[データサンプリングおよびエラー率](/help/using/reporting/report-sampling.md)を参照してください。
+>ユーザーエクスペリエンスを合理化するため、キー値ペアによる検索では、データサンプリングに基づいて結果が取得されます。 [!DNL Audience Manager] でのデータサンプリングの利用方法、キー値検索と一般的な検索を比較した場合に検索結果の差異が生じる可能性がある理由については、[データサンプリングおよびエラー率](/help/using/reporting/report-sampling.md)を参照してください。
 
-複数のキー値ペアを使用してシグナルを検索する場合、[!DNL Audience Manager] は論理 **AND** 演算子で各ペアを結合します。例として、以下のキー値ペアを指定して検索をおこなうとします。
+複数のキー値ペアを使用してシグナルを検索する場合、[!DNL Audience Manager] は論理 **AND** 演算子で各ペアを結合します。 例として、以下のキー値ペアを指定して検索をおこなうとします。
 
 * [!DNL c_creative == "12345"]
 * [!DNL c_product == "smartphone"]
@@ -42,11 +49,11 @@ ht-degree: 100%
 
 ## シグナル検索から除外されたシグナル {#excluded-signals}
 
-Audience Manager で使用され、`d_` 接頭辞と `h_` 接頭辞が付いたキー変数は、[!UICONTROL Signals Search] で表示されません。詳しくは、[キー変数の接頭辞に関する要件](../../traits/trait-variable-prefixes.md)を参照してください。
+Audience Manager で使用され、`d_` 接頭辞と `h_` 接頭辞が付いたキー変数は、[!UICONTROL Signals Search] で表示されません。 詳しくは、[キー変数の接頭辞に関する要件](../../traits/trait-variable-prefixes.md)を参照してください。
 
 ## 大文字と小文字の区別および検索条件の自動入力候補 {#case-insensitivity}
 
-キーおよび値の検索フィールドでは、大文字と小文字が区別されます。また、キーの検索フィールドでは自動入力候補が表示されます。
+キーおよび値の検索フィールドでは、大文字と小文字が区別されます。 また、キーの検索フィールドでは自動入力候補が表示されます。
 
 ![](assets/signal-search-suggestions.png)
 

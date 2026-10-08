@@ -1,5 +1,5 @@
 ---
-description: メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。Audience Optimization レポートでは、様々なレポートオプションメニューに理解しやすい名前が表示されます。
+description: メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。 Audience Optimization レポートでは、様々なレポートオプションメニューに理解しやすい名前が表示されます。
 seo-description: A metadata file links numeric IDs with names you can read and understand. The Audience Optimization reports display readable names in the various report options menus.
 seo-title: Overview and Mappings for Metadata Files
 solution: Audience Manager
@@ -7,42 +7,51 @@ title: メタデータファイルの概要とマッピング
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: Log Files
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
-TQID: https://experienceleague.adobe.com/apsyqkjRH9pOVzNMek0NfnLJ3AjgY9iqY-6l-oOVZkg
+TQID: 'https://experienceleague.adobe.com/apsyqkjRH9pOVzNMek0NfnLJ3AjgY9iqY-6l-oOVZkg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: f15e67cf-b90e-44f4-ae50-f1fb9f866a27
+    internal-label: Log files
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: '824'
 ht-degree: 98%
-
 ---
-
 # メタデータファイルの概要とマッピング{#overview-and-mappings-for-metadata-files}
 
-メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。Audience Optimization レポートでは、様々なレポートオプションメニューに理解しやすい名前が表示されます。
+メタデータファイルは、数値 ID を意味のある判読可能な名前と関連付けます。 Audience Optimization レポートでは、様々なレポートオプションメニューに理解しやすい名前が表示されます。
 
 ## 概要 {#overview}
 
-メタデータの概要とその使用方法。メタデータファイルにはデータファイルが伴っていなければなりません。メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。詳しくは、「[Audience Optimization レポートと実用的なログファイルのデータファイル &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)」を参照してください。
+メタデータの概要とその使用方法。 メタデータファイルにはデータファイルが伴っていなければなりません。 メタデータファイルには、データファイルの情報に対応するレポートメニューラベルが人間に判読できる形で記載されています。 詳しくは、「[Audience Optimization レポートと実用的なログファイルのデータファイル &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)」を参照してください。
 
 ### メタデータファイルには他のデータに関するデータが含まれる
 
-メタデータには、他の種類のデータに関する情報が含まれています。この仕組みについて理解するために、[!DNL Audience Manager] でのデータの受け取り方法について説明します。
+メタデータには、他の種類のデータに関する情報が含まれています。 この仕組みについて理解するために、[!DNL Audience Manager] でのデータの受け取り方法について説明します。
 
 インプレッションまたはクリックイベント中、[!DNL Audience Manager] は URL 文字列（*イベント呼び出し*）でデータを受け取ります。
 
-イベント呼び出しでは、情報が定義済みのキーと値のペアとして整理されています。キーと値のペアの値は、数値データで構成されています。メタデータファイルでは、名前と、ID に対応する読み取り可能なその他の情報が、キーと値のペアに格納されています。
+イベント呼び出しでは、情報が定義済みのキーと値のペアとして整理されています。 キーと値のペアの値は、数値データで構成されています。 メタデータファイルでは、名前と、ID に対応する読み取り可能なその他の情報が、キーと値のペアに格納されています。
 
 ### メタデータは ID を読み取り可能な名前にリンクする
 
-メタデータファイルは、数値 ID を読み取り可能な名前に関連付ける必要があります。例えば、イベント呼び出しで、クリエイティブ ID が `d_creative:1234` のようなキーと値のペアに格納されているとします。メタデータファイルがない場合、このクリエイティブはオプションメニューで 1234 と表示されます。
+メタデータファイルは、数値 ID を読み取り可能な名前に関連付ける必要があります。 例えば、イベント呼び出しで、クリエイティブ ID が `d_creative:1234` のようなキーと値のペアに格納されているとします。 メタデータファイルがない場合、このクリエイティブはオプションメニューで 1234 と表示されます。
 
 一方、適切な形式のメタデータファイルがあれば、このクリエイティブを実際の名前（「Advertiser Creative A」など）に関連付けることができます。この名前は、レポート内で読み取ることができます。
 
@@ -50,13 +59,13 @@ ht-degree: 98%
 
 まず、[Audience Optimization レポート](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)を使用する場合、メタデータファイルと以下のすべてのパラメーターがイベント呼び出しに必要です。
 
-次に、データを [!DNL Audience Manager] に送信する場合、または統合されていない他のプロバイダーからのレポートにデータを表示する場合に、メタデータファイルが必要です。例えば、[!DNL Audience Manager] は、Google の [DoubleClick Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)（DCM）と統合されています。この関係により、[!DNL Audience Manager] はレポートオプションで使用されている名前と説明に ID を関連付けることができます。統合がない場合でもデータは取り込めますが、レポートオプションにはわかりやすい名前ではなく数値 ID が表示されます。
+次に、データを [!DNL Audience Manager] に送信する場合、または統合されていない他のプロバイダーからのレポートにデータを表示する場合に、メタデータファイルが必要です。 例えば、[!DNL Audience Manager] は、Google の [DoubleClick Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)（DCM）と統合されています。 この関係により、[!DNL Audience Manager] はレポートオプションで使用されている名前と説明に ID を関連付けることができます。 統合がない場合でもデータは取り込めますが、レポートオプションにはわかりやすい名前ではなく数値 ID が表示されます。
 
 ![メタデータメニュー画像](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_menu.png)
 
 ## ファイルのマッピング {#file-mappings}
 
-次の表は、[!UICONTROL Audience Optimization]レポートで使用するデータが格納されるキーと値のペアの一覧です。メタデータファイルを使用する必要がある場合、このキーと値のペアの値に対応する、わかりやすい情報がメタデータに含まれています。これらのキーの値には整数（データ型 INT）しか使用できません。なお、*斜体*&#x200B;の部分には実際の情報が入ります。他の要素は定数またはキーで、変わりません。
+次の表は、[!UICONTROL Audience Optimization]レポートで使用するデータが格納されるキーと値のペアの一覧です。 メタデータファイルを使用する必要がある場合、このキーと値のペアの値に対応する、わかりやすい情報がメタデータに含まれています。 これらのキーの値には整数（データ型 INT）しか使用できません。 なお、*斜体*&#x200B;の部分には実際の情報が入ります。 他の要素は定数またはキーで、変わりません。
 
 >[!IMPORTANT]
 >
@@ -72,7 +81,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>広告主 </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>データソースの作成時に指定された、広告主のデータソース ID または統合コードです。<a href="../../../features/manage-datasources.md#create-data-source">データソースの作成</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>データソースの作成時に指定された、広告主のデータソース ID または統合コードです。 <a href="../../../features/manage-datasources.md#create-data-source">データソースの作成</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ビジネスユニット（BU） </p> </td> 
@@ -115,17 +124,17 @@ ht-degree: 98%
 
 ## イベント呼び出し ID によるファイル名、コンテンツ、配信パスの生成方法 {#how-ids-shape-file-names}
 
-キーと値のペアで渡される ID から、メタデータファイルの名前とコンテンツを作成できます。この後の各セクションと図で、その仕組みを説明します。これらの例では、キャンペーンのクリエイティブの名前が含まれるファイルを作成していますが、他の組み合わせも可能です。
+キーと値のペアで渡される ID から、メタデータファイルの名前とコンテンツを作成できます。 この後の各セクションと図で、その仕組みを説明します。 これらの例では、キャンペーンのクリエイティブの名前が含まれるファイルを作成していますが、他の組み合わせも可能です。
 
 ### イベント呼び出し
 
-この例では、クリエイティブ名を[!UICONTROL Audience Optimization]レポートに表示するためのメタデータファイルを作成します。この作業をおこなうには、イベント呼び出しからクリエイティブ、キャンペーン、データソースの ID を抽出する必要があります。
+この例では、クリエイティブ名を[!UICONTROL Audience Optimization]レポートに表示するためのメタデータファイルを作成します。 この作業をおこなうには、イベント呼び出しからクリエイティブ、キャンペーン、データソースの ID を抽出する必要があります。
 
 ![イベント呼び出し画像](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
 
 ### ファイル名
 
-ファイル名はクリエイティブ、キャンペーン、データソースの ID に基づいています。イベント呼び出しのキーと値のデータと、ファイル名での使用方法の違いを比較してください。
+ファイル名はクリエイティブ、キャンペーン、データソースの ID に基づいています。 イベント呼び出しのキーと値のデータと、ファイル名での使用方法の違いを比較してください。
 
 ファイル名の場合：
 
@@ -139,7 +148,7 @@ ht-degree: 98%
 
 ### ファイルコンテンツ
 
-この例では、ファイルコンテンツはイベント呼び出しで渡されたクリエイティブとキャンペーンの ID を表します。ここでの新しい要素は、わかりやすい名前です。処理が完了すると、このファイルに含まれる名前が、[!UICONTROL Audience Optimization]レポートの「Creative」メニューのオプションとして表示されます。
+この例では、ファイルコンテンツはイベント呼び出しで渡されたクリエイティブとキャンペーンの ID を表します。 ここでの新しい要素は、わかりやすい名前です。 処理が完了すると、このファイルに含まれる名前が、[!UICONTROL Audience Optimization]レポートの「Creative」メニューのオプションとして表示されます。
 
 ![メタデータファイルの内容](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 
@@ -147,7 +156,7 @@ ht-degree: 98%
 
 ### ファイルの配信
 
-ファイルに名前を設定し、データを追加したら、[!DNL Audience Manager] で指定されている Amazon S3 ストレージディレクトリにファイルを送信します。[メタデータファイルの配信方法](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)を参照してください。
+ファイルに名前を設定し、データを追加したら、[!DNL Audience Manager] で指定されている Amazon S3 ストレージディレクトリにファイルを送信します。 [メタデータファイルの配信方法](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)を参照してください。
 
 >[!MORELIKETHIS]
 >

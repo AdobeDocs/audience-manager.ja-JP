@@ -6,22 +6,28 @@ solution: Audience Manager
 title: 予測オーディエンスに関する FAQ
 feature: Algorithmic Models
 exl-id: 21073970-8457-470b-89fc-724a118a18d2
-TQID: https://experienceleague.adobe.com/XejuJkgwEhWkbQB2qqFljsSApGIABmlZgvDKYtNlf-8
+TQID: 'https://experienceleague.adobe.com/XejuJkgwEhWkbQB2qqFljsSApGIABmlZgvDKYtNlf-8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 957
+source-wordcount: '963'
 ht-degree: 100%
-
 ---
-
 # 予測オーディエンスに関する FAQ
 
 [!UICONTROL Predictive Audiences] に関するよくある質問です。
@@ -30,10 +36,10 @@ ht-degree: 100%
 
 **[!UICONTROL Look-alike modeling] に対して、[!UICONTROL Predictive Audiences] はいつ使用する必要がありますか？**
 
-[!UICONTROL Predictive Audiences] と [!UICONTROL Look-alike modeling] では、異なるユースケースを提供します。2 つのアルゴリズムの主な違いを次に示します。
+[!UICONTROL Predictive Audiences] と [!UICONTROL Look-alike modeling] では、異なるユースケースを提供します。 2 つのアルゴリズムの主な違いを次に示します。
 
-1. [!UICONTROL Look-alike modeling] は、少数のオーディエンスを入力として取り、それを拡張します。[!UICONTROL Predictive Audiences] は、多数のオーディエンスを入力として取り、ペルソナによって定義された、より少数の個別のオーディエンスに分割します。
-1. ベースセグメントの数は、アルゴリズムごとに異なります。[!UICONTROL Predictive Audiences] では少なくとも 2 つのベースラインが必要なのに対して、[!UICONTROL Look-alike modeling] で使用するベースラインは、最大で 1 つです。
+1. [!UICONTROL Look-alike modeling] は、少数のオーディエンスを入力として取り、それを拡張します。 [!UICONTROL Predictive Audiences] は、多数のオーディエンスを入力として取り、ペルソナによって定義された、より少数の個別のオーディエンスに分割します。
+1. ベースセグメントの数は、アルゴリズムごとに異なります。 [!UICONTROL Predictive Audiences] では少なくとも 2 つのベースラインが必要なのに対して、[!UICONTROL Look-alike modeling] で使用するベースラインは、最大で 1 つです。
 1. [!UICONTROL Predictive Audiences] はリアルタイムセグメント評価を実行するのに対して、[!UICONTROL Look-alike modeling] は実行しません。
 
 お客様のユースケースに基づいて、どちらのモデルがより適切かを判断する必要があります。
@@ -44,13 +50,13 @@ ht-degree: 100%
 
 **ペルソナ／モデルはいくつ作成できますか？**
 
-最大 10 個の [!UICONTROL Predictive Audiences] モデルを作成できます。各モデルについて、最大 50 個のベースライン特性またはセグメントを定義できます。
+最大 10 個の [!UICONTROL Predictive Audiences] モデルを作成できます。 各モデルについて、最大 50 個のベースライン特性またはセグメントを定義できます。
 
  
 
 **[!UICONTROL Predictive Audiences] セグメントから新しいセグメントを構築するにはどうしたらいいですか？**
 
-**[!UICONTROL Audience Data]**／**[!UICONTROL Segments]** に移動して、**[!UICONTROL Predictive Audiences]** フォルダーをクリックします。目的のセグメントを見つけて、複製し、必要に応じて編集します。
+**[!UICONTROL Audience Data]**／**[!UICONTROL Segments]** に移動して、**[!UICONTROL Predictive Audiences]** フォルダーをクリックします。 目的のセグメントを見つけて、複製し、必要に応じて編集します。
 
  
 
@@ -66,7 +72,7 @@ ht-degree: 100%
 
 [!UICONTROL Predictive Audiences] モデルは、いくつかの理由で結果の生成に失敗する可能性があります。
 
-1. 選択したペルソナの [!UICONTROL traits]／[!UICONTROL segments] に十分なユーザープロファイルがない。各ペルソナが少なくとも数百のユーザープロファイルを含むように [!UICONTROL traits] または [!UICONTROL segments] を選択することをお勧めします。
+1. 選択したペルソナの [!UICONTROL traits]／[!UICONTROL segments] に十分なユーザープロファイルがない。 各ペルソナが少なくとも数百のユーザープロファイルを含むように [!UICONTROL traits] または [!UICONTROL segments] を選択することをお勧めします。
 1. 選択したペルソナの [!UICONTROL traits]／[!UICONTROL segments] のユーザープロファイルに十分なデータがない（分析するのに十分な特性がない）。
 1. ターゲットオーディエンスの特性／セグメントには、アクティブなユーザーもオンボーディングされたユーザーもありません。
 1. 過去 30 日以内のアクティブまたはオンボーディングされたターゲットオーディエンスユーザーのユーザープロファイルに、十分なデータがない（分析するのに十分な特性がない）。
@@ -79,13 +85,13 @@ ht-degree: 100%
 
 **モデルが [!UICONTROL Error] ステータスを示しているのはなぜですか？**
 
-モデルが実行に失敗しました。このような場合は、[!DNL Adobe] の担当者にお問い合わせください。
+モデルが実行に失敗しました。 このような場合は、[!DNL Adobe] の担当者にお問い合わせください。
 
  
 
 **[!UICONTROL Predictive Audiences] [!UICONTROL segment] の [!UICONTROL Profile Merge Rule] の変更の仕方を教えてください。**
 
-以前のモデルと同じ人物およびターゲットオーディエンスを選択して、新しいモデルを作成します。モデルの作成時に、別の [!UICONTROL Profile Merge Rule] を割り当てます。
+以前のモデルと同じ人物およびターゲットオーディエンスを選択して、新しいモデルを作成します。 モデルの作成時に、別の [!UICONTROL Profile Merge Rule] を割り当てます。
 
 >[!WARNING]
 > または、[セグメントビルダー](../features/segments/segment-builder.md)を使用して、既存の予測 [!UICONTROL trait] で [!UICONTROL segment] を手動で作成し、それに任意の [!UICONTROL Profile Merge Rule] を割り当てることができます。
@@ -98,33 +104,33 @@ ht-degree: 100%
 
 モデルに対して [!UICONTROL Profile Merge Rule] を選択する場合は、使用例を詳細に分析します。
 
-ターゲットオーディエンス [!UICONTROL segment] が、認証済みのプロファイルと [!DNL Device Graph] プロファイルに基づいた [!UICONTROL Profile Merge Rule] を使用し、予測 [!UICONTROL segments] に同じ [!UICONTROL Profile Merge Rule] を選択したとします。この場合、デバイスレベルとクロスデバイスレベル [!UICONTROL traits] は、モデルのトレーニングや、ユーザーの予測 [!UICONTROL segment] への配置に使用されます。
+ターゲットオーディエンス [!UICONTROL segment] が、認証済みのプロファイルと [!DNL Device Graph] プロファイルに基づいた [!UICONTROL Profile Merge Rule] を使用し、予測 [!UICONTROL segments] に同じ [!UICONTROL Profile Merge Rule] を選択したとします。 この場合、デバイスレベルとクロスデバイスレベル [!UICONTROL traits] は、モデルのトレーニングや、ユーザーの予測 [!UICONTROL segment] への配置に使用されます。
 
-ただし、デバイスのプロファイルのみを基にして [!UICONTROL Profile Merge Rule] を選択した場合、クロスデバイス [!UICONTROL traits] に影響を与えることはなく、ユーザーの予測 [!UICONTROL segment] への配置には貢献しません。これは、モデルの精度とリーチに悪影響を与える可能性があります。
+ただし、デバイスのプロファイルのみを基にして [!UICONTROL Profile Merge Rule] を選択した場合、クロスデバイス [!UICONTROL traits] に影響を与えることはなく、ユーザーの予測 [!UICONTROL segment] への配置には貢献しません。 これは、モデルの精度とリーチに悪影響を与える可能性があります。
 
 使用例を慎重に分析し、モデルに学習させる [!UICONTROL trait] タイプと分類に使用するデータのタイプを決定します。
 
 **どのペルソナの特性／セグメントにも属さないターゲットオーディエンスのユーザーは、分類されないことがありますか？**
 
-プロファイルにどの特性も含まないユーザーの場合、分類されないことがあります。その場合、ユーザーは、すべてのペルソナの特性／セグメントで 0 に相当するスコアを獲得し、その結果、どの予測セグメントにも分類されません。
+プロファイルにどの特性も含まないユーザーの場合、分類されないことがあります。 その場合、ユーザーは、すべてのペルソナの特性／セグメントで 0 に相当するスコアを獲得し、その結果、どの予測セグメントにも分類されません。
 
  
 
 **予測セグメントのいずれかに分類されたユーザーは、異なる [!UICONTROL Predictive Audiences] セグメントに分類できますか？**
 
-はい。アルゴリズムは、日々学習を重ねるので、特性スコアに関して各ペルソナに変更が適用されます。[!UICONTROL Predictive Audiences] セグメントに属するユーザーがアクティブである場合、その特性スコアの変更により、過去 30 日間のアクティビティに基づいて分類が変更される可能性があります。
+はい。 アルゴリズムは、日々学習を重ねるので、特性スコアに関して各ペルソナに変更が適用されます。 [!UICONTROL Predictive Audiences] セグメントに属するユーザーがアクティブである場合、その特性スコアの変更により、過去 30 日間のアクティビティに基づいて分類が変更される可能性があります。
 
  
 
 **どのオーディエンスの分類がおこなわれているかによって、特性を確認できますか？**
 
-はい、モデルレポートページのすべてのベースラインについて、影響力の大きいすべての特性を確認できます。[Influential Traits](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits) を参照してください。
+はい、モデルレポートページのすべてのベースラインについて、影響力の大きいすべての特性を確認できます。 [Influential Traits](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits) を参照してください。
 
  
 
 **予測特性の有効期間（TTL）は変更できますか？**
 
-予測特性の TTL は 0（全期間）に設定されており、変更できません。[!UICONTROL Predictive Audiences] では、ユーザーがベースセグメントに該当する場合や、別の予測セグメントに再分類された場合にのみ、ユーザーを予測セグメントから削除することができます。
+予測特性の TTL は 0（全期間）に設定されており、変更できません。 [!UICONTROL Predictive Audiences] では、ユーザーがベースセグメントに該当する場合や、別の予測セグメントに再分類された場合にのみ、ユーザーを予測セグメントから削除することができます。
 
 必要な場合は、予測特性とアクティビティ特性の両方を含む新しいセグメントを作成し、TTL を指定して、この機能の使用を回避できます。
 
@@ -133,10 +139,10 @@ ht-degree: 100%
 
 **ベースライン特性またはセグメントの 1 つを編集すると、モデルはどうなりますか？**
 
-モデルは、1 日に 1 回、特性またはセグメントを評価します。更新の翌日に、更新された分類を確認する必要があります。
+モデルは、1 日に 1 回、特性またはセグメントを評価します。 更新の翌日に、更新された分類を確認する必要があります。
 
  
 
 **モデルが学習するデータソースを選択できますか？**
 
-いいえ、データソースの選択はサポートされていません。[!UICONTROL Predictive Audiences] アルゴリズムは、すべてのファーストパーティ特性から学習します。
+いいえ、データソースの選択はサポートされていません。 [!UICONTROL Predictive Audiences] アルゴリズムは、すべてのファーストパーティ特性から学習します。

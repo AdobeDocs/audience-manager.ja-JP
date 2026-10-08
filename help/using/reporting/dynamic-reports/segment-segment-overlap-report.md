@@ -7,30 +7,37 @@ title: セグメント間重複レポート
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 feature: Overlap Reports
 exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
-TQID: https://experienceleague.adobe.com/0AE4fjrc4tuDVpIqdqtYbEcS2feeO4hdNwMFf6SVoVU
+TQID: 'https://experienceleague.adobe.com/0AE4fjrc4tuDVpIqdqtYbEcS2feeO4hdNwMFf6SVoVU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 360
+source-wordcount: '369'
 ht-degree: 100%
-
 ---
-
 # セグメント間重複レポート{#segment-to-segment-overlap-report}
 
 セグメント間で共有されるユニークユーザー数に関するデータを返します。
 
 >[!NOTE]
 >
->Audience Manager の重複レポートは、RBAC の原則に従います。自分が属している [RBAC ユーザーグループ](/help/using/features/administration/administration-overview.md) に基づき、自分がアクセスできるデータソースのセグメントのみを確認できます。
+>Audience Manager の重複レポートは、RBAC の原則に従います。 自分が属している [RBAC ユーザーグループ](/help/using/features/administration/administration-overview.md) に基づき、自分がアクセスできるデータソースのセグメントのみを確認できます。
 
 <!-- 
 
@@ -42,7 +49,7 @@ c_segment_segment_overlap.xml
 
 [!UICONTROL Segment-to-Segment Overlap] レポートは、次の場合に役立ちます。
 
-* ニーズに応じて、重複の多いまたは少ないセグメントを特定する。重複の多い特性は、ターゲット設定されたオーディエンスを提供しますが、ユニーク訪問者は少なくなります。重複の少ない特性は、より多数のユニーク訪問者にリーチするうえで役に立つ可能性があります。
+* ニーズに応じて、重複の多いまたは少ないセグメントを特定する。 重複の多い特性は、ターゲット設定されたオーディエンスを提供しますが、ユニーク訪問者は少なくなります。 重複の少ない特性は、より多数のユニーク訪問者にリーチするうえで役に立つ可能性があります。
 * 予期しない重複を検出し、その情報を使用してパフォーマンスの高いセグメントを新しく作成する。
 
 ## レポートのサンプル
@@ -57,7 +64,7 @@ c_segment_segment_overlap.xml
 
 ## 個々のデータポイントの詳細
 
-個々の点を選択すると、データの詳細がポップアップウィンドウに表示されます。クリック操作で、レポートに表示されるデータが自動的に更新されます。
+個々の点を選択すると、データの詳細がポップアップウィンドウに表示されます。 クリック操作で、レポートに表示されるデータが自動的に更新されます。
 
 ## 定義済みのセグメント間重複データポップフィールド {#fields-defined}
 
@@ -67,14 +74,14 @@ r_s2s_data_pop.xml
 
  -->
 
-[!UICONTROL Segment-to-Segment Overlap]レポートのポップアップには、以下の指標が含まれています。この表のユニーク訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
+[!UICONTROL Segment-to-Segment Overlap]レポートのポップアップには、以下の指標が含まれています。 この表のユニーク訪問者数指標は、*リアルタイムユーザー数*&#x200B;を表していることに注意してください。
 
 | 指標 | 説明 |
 |---|---|
-| **[!UICONTROL Base Segment ID]** | レポート結果に表示されるセグメントの、一意の数値 ID。セグメントの行 ID として表示されます。 |
+| **[!UICONTROL Base Segment ID]** | レポート結果に表示されるセグメントの、一意の数値 ID。 セグメントの行 ID として表示されます。 |
 | **[!UICONTROL Base Segment Name]** | レポート結果行に表示されるセグメントの名前。 |
-| **[!UICONTROL Overlapping Segment ID]** | レポートの実行時に選択したセグメントの、一意の数値 ID。セグメントの列 ID として表示されます。 |
-| **[!UICONTROL Overlapping Segment Name]** | レポートの実行時に選択したセグメントの名前。レポート結果列に表示されます。 |
+| **[!UICONTROL Overlapping Segment ID]** | レポートの実行時に選択したセグメントの、一意の数値 ID。 セグメントの列 ID として表示されます。 |
+| **[!UICONTROL Overlapping Segment Name]** | レポートの実行時に選択したセグメントの名前。 レポート結果列に表示されます。 |
 | **[!UICONTROL Base Segment Uniques]** | ベースセグメント のユニーク訪問者の数。 |
 | **[!UICONTROL Base Segment Uniques]** | 重複しているセグメント のユニーク訪問者の数。 |
 | **[!UICONTROL Overlapping Uniques]** | 比較対象のセグメント間で共有されているユニーク訪問者の数。 |

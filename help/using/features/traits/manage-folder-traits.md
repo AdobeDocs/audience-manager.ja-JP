@@ -8,21 +8,28 @@ title: フォルダー特性の管理
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 exl-id: fa7a8d2a-dacc-413e-89d6-d3b7ce7bbbe3
-TQID: https://experienceleague.adobe.com/YScTXBbG6HeRUviBsC2Rl9L7QdOXe-ciVwWBQfbPOzs
+TQID: 'https://experienceleague.adobe.com/YScTXBbG6HeRUviBsC2Rl9L7QdOXe-ciVwWBQfbPOzs'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: '363'
 ht-degree: 100%
-
 ---
-
 # フォルダー特性の管理 {#manage-folder-traits}
 
 フォルダー特性を作成、編集および削除します。
@@ -41,9 +48,9 @@ ht-degree: 100%
 
    ![](assets/folder_traits_create.PNG)
 
-1. 「+」アイコンをクリックして、フォルダーを作成します。分類には、最大 2000 個のフォルダーを作成できます。詳細については、[使用制限](../../features/administration/usage-limits.md) のドキュメントを参照してください。
-1. フォルダーの名前を指定して「**Save**」をクリックします。例えば、Electronics という名前のフォルダーが「Electronics Folder Trait」というフォルダー特性を持ちます。特性ダッシュボードで新規のフォルダー特性を表示したり選択したりすることができます。
-1. 新規のフォルダー特性は、[!DNL Audience Manager] で生成されたデータソースに自動的に割り当てられます。適切な[!UICONTROL Role-Based Access Control]（[!DNL RBAC]）権限を持つユーザーは、フォルダー特性編集ワークフローでデータソースを変更できます。[フォルダー特性の編集](../../features/traits/manage-folder-traits.md#edit-folder-trait)を参照してください。
+1. 「+」アイコンをクリックして、フォルダーを作成します。 分類には、最大 2000 個のフォルダーを作成できます。 詳細については、[使用制限](../../features/administration/usage-limits.md) のドキュメントを参照してください。
+1. フォルダーの名前を指定して「**Save**」をクリックします。 例えば、Electronics という名前のフォルダーが「Electronics Folder Trait」というフォルダー特性を持ちます。 特性ダッシュボードで新規のフォルダー特性を表示したり選択したりすることができます。
+1. 新規のフォルダー特性は、[!DNL Audience Manager] で生成されたデータソースに自動的に割り当てられます。 適切な[!UICONTROL Role-Based Access Control]（[!DNL RBAC]）権限を持つユーザーは、フォルダー特性編集ワークフローでデータソースを変更できます。 [フォルダー特性の編集](../../features/traits/manage-folder-traits.md#edit-folder-trait)を参照してください。
 
 ## フォルダー特性の編集 {#edit-folder-trait}
 
@@ -56,13 +63,13 @@ ht-degree: 100%
 
    ![](assets/folder_traits_edit_border.png)
 
-1. **[!UICONTROL Edit]**&#x200B;ワークフローでは、フォルダー特性のデータソースを変更できます。目的のデータソースを選択して「**[!UICONTROL Save]**」をクリックします。データソースはドロップダウンボックスで [!DNL DPID] の数値順にソートされています。
+1. **[!UICONTROL Edit]**&#x200B;ワークフローでは、フォルダー特性のデータソースを変更できます。 目的のデータソースを選択して「**[!UICONTROL Save]**」をクリックします。 データソースはドロップダウンボックスで [!DNL DPID] の数値順にソートされています。
 
    [!UICONTROL Role-Based Access Rights (RBAC)]を使用している企業の場合は、ユーザーは特性データソースへの[アクセス権限](../../features/traits/about-folder-traits.md#role-based-access-controls)が必要になります。
 
 >[!NOTE]
 >
->フォルダー特性の名前は直接変更できません。フォルダー特性の名前を変更するには、[関連付けられているストレージフォルダーの名前を変更](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder)します。
+>フォルダー特性の名前は直接変更できません。フォルダー特性の名前を変更するには、 [関連付けられているストレージフォルダーの名前を変更](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder)します。
 
 ## フォルダー特性の削除 {#delete-folder-trait}
 
@@ -77,4 +84,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->セグメント式で使用されている場合は、フォルダー特性を削除できません。[特性ビュー](../../features/traits/trait-details-page.md)セクションに移動すれば、どのセグメントでフォルダー特性が使用されているかがわかります。その後、セグメント名をクリックして[セグメント概要ビュー](../../features/segments/segment-summary-view.md)を開けば、セグメント式から特性を削除できます。
+>セグメント式で使用されている場合は、フォルダー特性を削除できません。 [特性ビュー](../../features/traits/trait-details-page.md)セクションに移動すれば、どのセグメントでフォルダー特性が使用されているかがわかります。 その後、セグメント名をクリックして[セグメント概要ビュー](../../features/segments/segment-summary-view.md)を開けば、セグメント式から特性を削除できます。

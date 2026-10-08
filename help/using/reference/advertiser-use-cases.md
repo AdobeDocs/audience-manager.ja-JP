@@ -7,22 +7,29 @@ title: 広告主のユースケース
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
 feature: Reference
 exl-id: 30f2ee7b-6238-4dd5-a59f-ee91b6256bcb
-TQID: https://experienceleague.adobe.com/j6rCyNkZCTV0AA2t7PWPFGGPNCEutOynqwPFVcz-CHY
+TQID: 'https://experienceleague.adobe.com/j6rCyNkZCTV0AA2t7PWPFGGPNCEutOynqwPFVcz-CHY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Taxonomy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 724
+source-wordcount: '748'
 ht-degree: 100%
-
 ---
-
 # 広告主のユースケース {#advertiser-use-cases}
 
 Adobe Audience Manager によって満たすことのできる広告主の一般的なニーズの例をご紹介します。
@@ -74,7 +81,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
    <td colname="col2"> 
     <ul id="ul_CC5448D2EA0646D4AF3547E81DE31FDE"> 
      <li id="li_8F11E40026404C1380F26F6D03952C8E">行動とプロファイルが元のオーディエンスと一致する新しいオーディエンスを特定できます。 </li> 
-     <li id="li_5F67AD849EC145DBB1E52A92BBE2CEE3">独自のデータおよびアクセスできる他のサードパーティデータ内で検索することで、高価値のオーディエンスプロファイルに対して影響度が最も高かったデータポイントを特定できます。 </li> 
+     <li id="li_5F67AD849EC145DBB1E52A92BBE2CEE3">独自のデータおよびアクセスできる他のサードパーティデータ内で検索することで、 高価値のオーディエンスプロファイルに対して影響度が最も高かったデータポイントを特定できます。 </li> 
     </ul> </td>
    <td colname="col3"> 
     <ul id="ul_EB3707C4449E44F195EE5655B724A9B4"> 
@@ -169,7 +176,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
     <ul id="ul_739F56A9703F418BBD6F391C2A8A25CA"> 
      <li id="li_24C0DF2B23284764B48B0B4FC2808248"><span class="keyword">Audience Manager</span> で、秋の連休の旅行者のセグメントを作成します。 </li> 
      <li id="li_C8FE060793AA400CBDF33251B21B79C7">Adobe Target で、シーズン時の購入に対してマイレージを提供するキャンペーンを作成します。 </li> 
-     <li id="li_84D729B9AA2E40F8B3EFF6E53C8AA39A">Analytics のコンバージョンファネルを通して顧客のアクティビティを追跡します。コンバージョンに至らなかった顧客については、電子メールマーケティングで再ターゲット化します。 </li> 
+     <li id="li_84D729B9AA2E40F8B3EFF6E53C8AA39A">Analytics のコンバージョンファネルを通して顧客のアクティビティを追跡します。 コンバージョンに至らなかった顧客については、電子メールマーケティングで再ターゲット化します。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -217,7 +224,7 @@ Adobe Audience Manager によって満たすことのできる広告主の一般
  <tbody> 
   <tr> 
    <td colname="col1"> <p>訪問者に関する既存のデータおよびサードパーティのデータを活用して、顧客のデジタルエクスペリエンスの最適化およびパーソナライズをおこなう。 </p> </td> 
-   <td colname="col2"> <p>顧客のエクスペリエンスをパーソナライズすることで、コンバージョン率を高めることができます。適切な商品、オファー、クリエイティブエクスペリエンスを提示することで、購入を促すと共に、顧客のエンゲージメントやロイヤリティを高めることができます。 </p> </td> 
+   <td colname="col2"> <p>顧客のエクスペリエンスをパーソナライズすることで、コンバージョン率を高めることができます。 適切な商品、オファー、クリエイティブエクスペリエンスを提示することで、購入を促すと共に、顧客のエンゲージメントやロイヤリティを高めることができます。 </p> </td> 
    <td colname="col3"> 
     <ul id="ul_837B290D45DB412CA0CA3457EDCC4125"> 
      <li id="li_CA85D32FD7F54490859B92B1E4A2DACB"><span class="keyword">Audience Manager</span> で、小規模ビジネスのオーナーをターゲット化したサードパーティのセグメントデータを取り込みます。 </li> 

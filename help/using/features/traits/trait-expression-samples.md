@@ -7,16 +7,21 @@ title: ブール演算子と比較演算子を使用した式のサンプル
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 feature: Traits
 exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
-TQID: https://experienceleague.adobe.com/mVpbP-ob3VclgLEBQWtI4zxthppaf5j7L8DPKBjF9Wo
+TQID: 'https://experienceleague.adobe.com/mVpbP-ob3VclgLEBQWtI4zxthppaf5j7L8DPKBjF9Wo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 88%
-
+source-wordcount: '194'
+ht-degree: 87%
 ---
-
 # ブール演算子と比較演算子を使用した式のサンプル {#sample-expressions-with-boolean-and-comparison-operators}
 
 [!UICONTROL Expression Builder]のコードエディターで式を作成する場合に参考になる例です。
@@ -25,7 +30,7 @@ ht-degree: 88%
 
 <!-- r_tb_expression_samples.xml -->
 
-[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。次の例を参照してください。一部の例では、*`key`*&#x200B;変数の前に`c_`を付けて、ユーザー定義の変数として識別します。 イベント呼び出しでデータを `c_` に送信するために必要であれば、*`key`* 変数で接頭辞 [!DNL Audience Manager]（またはその他の命名規則）を使用します。
+[!UICONTROL Expression Builder]のコードエディターで独自の特性ルールを作成します。 次の例を参照してください。 一部の例では、*`key`*&#x200B;変数の前に`c_`を付けて、ユーザー定義の変数として識別します。 イベント呼び出しでデータを `c_` に送信するために必要であれば、*`key`* 変数で接頭辞 [!DNL Audience Manager]（またはその他の命名規則）を使用します。
 
 ## ブール式 {#boolean-expressions}
 

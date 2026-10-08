@@ -7,23 +7,28 @@ title: 一般レポート
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 feature: General & Trend Reports
 exl-id: dc16a821-b776-4a04-af60-4b8c914253dd
-TQID: https://experienceleague.adobe.com/3idAvwGKGY7sZMlyGeOJDVR-nXso-b8owW82dxLiOiA
+TQID: 'https://experienceleague.adobe.com/3idAvwGKGY7sZMlyGeOJDVR-nXso-b8owW82dxLiOiA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: c3072557-4f3f-45b7-af4d-083bca98c34f
+    internal-label: General and trend reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '878'
 ht-degree: 97%
-
 ---
-
 # 一般レポート{#general-reports}
 
 [!UICONTROL General]は、特性、セグメントおよび宛先に関するパフォーマンスデータを返します。
@@ -36,7 +41,7 @@ c_general_reports.xml
 
 -->
 
-[!DNL Audience Manager] は[!UICONTROL Role Based Access Control]（[!UICONTROL RBAC]）を使用して、[!UICONTROL General]レポートへのユーザーグループ権限を拡張します。ユーザーは、レポートに記載されている特性やセグメントのうち、閲覧する権限のあるものだけを表示できます。[!UICONTROL RBAC] 機能により、社内チームが閲覧できるレポートデータを制御することができます。例えば、様々な広告主アカウントを管理する代理店では、広告主 A のアカウントを管理するチームが広告主 B のレポートデータを閲覧できないように、ユーザーグループの権限を設定することができます。
+[!DNL Audience Manager] は[!UICONTROL Role Based Access Control]（[!UICONTROL RBAC]）を使用して、[!UICONTROL General]レポートへのユーザーグループ権限を拡張します。 ユーザーは、レポートに記載されている特性やセグメントのうち、閲覧する権限のあるものだけを表示できます。 [!UICONTROL RBAC] 機能により、社内チームが閲覧できるレポートデータを制御することができます。 例えば、様々な広告主アカウントを管理する代理店では、広告主 A のアカウントを管理するチームが広告主 B のレポートデータを閲覧できないように、ユーザーグループの権限を設定することができます。
 
 以下が必要な場合、[!UICONTROL General]レポートを実行します。
 
@@ -78,20 +83,20 @@ t_run_general_report.xml
 1. フォルダーのリストで、レポートの対象となる特性、セグメントまたは宛先をドラッグし、右側の「[!UICONTROL Selections]」パネルにドロップします。
 1. 「**[!UICONTROL Run Report]**」をクリックします。
 
-   結果が書き出し可能な表形式で表示されます。列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
+   結果が書き出し可能な表形式で表示されます。 列ヘッダーをクリックすると、結果が昇順または降順で並べ替えられます。
 1. レポートの上部にある目的のオプションボタンを選択して、データをパフォーマンス（[!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、または [!UICONTROL Total Trait Population]）または時間（1 日、7 日、14 日、30 日、60 日、90 日の範囲）を基準にフィルタリングできます。
 
    >[!NOTE]
    >
    >[!UICONTROL Total Trait Realizations]は[!UICONTROL Rule-based Traits]に対してのみ計算されます。
 
-1. *（オプション）*「**[!UICONTROL Export to CSV]**」をクリックします。これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
+1. *（オプション）*「**[!UICONTROL Export to CSV]**」をクリックします。 これにより、1 日中の範囲の [!UICONTROL Unique Trait Realizations]、[!UICONTROL Total Trait Realizations]、および [!UICONTROL Total Trait Population] が書き出されます。
 
 ## General Reports Results Explained {#general-reports-explained}
 
-[!UICONTROL General Reports]の数字は、[!UICONTROL User Profile Store]から直接生成されます。結果には、これらのレポートの数値が生成されたときに [!DNL Audience Manager] のバックエンドに含まれていたユーザー数が反映されています。
+[!UICONTROL General Reports]の数字は、[!UICONTROL User Profile Store]から直接生成されます。 結果には、これらのレポートの数値が生成されたときに [!DNL Audience Manager] のバックエンドに含まれていたユーザー数が反映されています。
 
-* これらの数値には、過度のトラフィックの訪問者 ID は含まれません。ボットからのトラフィックは、アドビのバックエイドシステムに到達する前にフィルタリングされます。また、一部のボットトラフィックは、バックエンドで毎週実行されるクリーンアップジョブの間に破棄されます。
+* これらの数値には、過度のトラフィックの訪問者 ID は含まれません。 ボットからのトラフィックは、アドビのバックエイドシステムに到達する前にフィルタリングされます。 また、一部のボットトラフィックは、バックエンドで毎週実行されるクリーンアップジョブの間に破棄されます。
 * [!DNL Audience Manager] UUID で識別されるデータを受信処理を介してオンボーディングする場合、アドビのシステムでアクティブでなくなったユーザーがこれらの ID に含まれていれば、これらの非アクティブな [!DNL Audience Manager] UUID は、[!UICONTROL User Profile Store]に到達せず、報告もされません。
 * [!UICONTROL Total Trait Realizations]は[!UICONTROL Rule-based Traits]に対してのみ計算されます。
 
@@ -143,7 +148,7 @@ The illustration below shows the results of running a general report for the Tra
 
 ### 合計セグメント母集団
 
-この指標は、選択したルックバック期間内にセグメントの対象として認定された Audience Manager UUID の合計数を表します。1 日の「合計セグメント母集団」は、ターゲティングのための最も正確なユーザーベースを表します。
+この指標は、選択したルックバック期間内にセグメントの対象として認定された Audience Manager UUID の合計数を表します。 1 日の「合計セグメント母集団」は、ターゲティングのための最も正確なユーザーベースを表します。
 
 >[!NOTE]
 >
