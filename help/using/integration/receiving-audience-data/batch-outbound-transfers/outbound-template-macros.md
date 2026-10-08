@@ -33,7 +33,7 @@ ht-degree: 98%
 
 ## ファイル名およびファイルヘッダーマクロ {#file-name-header-macros}
 
-次の表は、ファイル名で使用できるマクロと、ヘッダーのフィールドを定義するためのマクロの一覧と説明です。 コードサンプルについては、[ アウトバウンドマクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
+次の表は、ファイル名で使用できるマクロと、ヘッダーのフィールドを定義するためのマクロの一覧と説明です。 コードサンプルについては、[&#x200B; アウトバウンドマクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -107,7 +107,7 @@ ht-degree: 98%
 
 ## コンテンツマクロ {#content-macros}
 
-データファイルのコンテンツの書式設定に使用するマクロ。 コードサンプルについては、[ アウトバウンドマクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
+データファイルのコンテンツの書式設定に使用するマクロ。 コードサンプルについては、[&#x200B; アウトバウンドマクロの例](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)を参照してください。
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -119,7 +119,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>閉じ中括弧（<code>}</code>）を挿入します。 </p> </td> 
+   <td colname="col2"> <p>閉じ中括弧（<code>&rbrace;</code>）を挿入します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -147,7 +147,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>開き波括弧（<code>{</code>）を挿入します。 </p> </td> 
+   <td colname="col2"> <p>開き波括弧（<code>&lbrace;</code>）を挿入します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 

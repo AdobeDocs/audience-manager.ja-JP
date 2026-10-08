@@ -43,6 +43,6 @@ c_compmap.xml
 
 [!DNL Audience Manager] で出し入れされるデータのタイプは色によって定義されます。 グリーンはクライアントデータ、ブルーは顧客データ（サイトを訪れる訪問者）、オレンジはレポートに使用されるデータをそれぞれ示します。
 
-システムの説明と概要については、[ アクション ](../../reference/system-components/components-data-action.md)、[ コレクション ](../../reference/system-components/components-data-collection.md)、[処理](../../reference/system-components/components-data-processing.md)、および[ タグ管理](../../reference/system-components/components-tag-management.md)のデータ セクションを参照してください。
+システムの説明と概要については、[&#x200B; アクション &#x200B;](../../reference/system-components/components-data-action.md)、[&#x200B; コレクション &#x200B;](../../reference/system-components/components-data-collection.md)、[処理](../../reference/system-components/components-data-processing.md)、および[&#x200B; タグ管理](../../reference/system-components/components-tag-management.md)のデータ セクションを参照してください。
 
 ![](assets/flowmap.png)
