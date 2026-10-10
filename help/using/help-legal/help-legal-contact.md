@@ -35,7 +35,7 @@ Adobe Experience Cloud カスタマーケアチームによるサポートを、
 * [Adobe Experience Cloudのヘルプページで、アドバイス、ヒント、FAQを確認してください](https://helpx.adobe.com/jp/support.ec.html)
 * [Twitter @AdobeExpCareで簡単な質問をしてください](https://twitter.com/AdobeExpCare)
 * [カスタマーケアチームに直接問い合わせる](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)
-* [Experience Cloud ソリューションの可用性とステータスを確認する](https://status.adobe.com/)
+* [Experience Cloud ソリューションの可用性とステータスを確認する](https://status.adobe.com/ja-jp/)
 
 ## サービス、利用可能な機能、課金 {#billing}
 
