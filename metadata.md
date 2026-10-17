@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Audience Manager
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: "Audience Manager"
 usetq: true
 feature-set: Audience Manager
 landing-page-name: audience-manager
@@ -14,11 +15,9 @@ git-repo: https://github.com/AdobeDocs/audience-manager.ja-JP
 index: true
 source-git-commit: 7f04b26ac96647822fbeae7f8f5cded3f3b191e3
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 
 # 内部使用のためのメタデータ
 
